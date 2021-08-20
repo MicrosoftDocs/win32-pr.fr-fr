@@ -3,7 +3,7 @@ title: Message TBM_SETPOSNOTIFY (commctrl. h)
 description: 'TBM_SETPOSNOTIFY message : définit la position logique actuelle du curseur dans un TrackBar.'
 ms.assetid: 02f8899a-55b0-46ae-8642-9e534ab4abf5
 keywords:
-- TBM_SETPOSNOTIFY les contrôles de message Windows
+- TBM_SETPOSNOTIFY les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7201f3056ed05e6321ab9d9bd726edc3b4470f0b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 677ab818524614f89d16ae851376d8776a4ccca3ef7798d4ac90aa6d36962ca2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046079"
 ---
 # <a name="tbm_setposnotify-message"></a>\_Message TBM SETPOSNOTIFY
 
@@ -43,11 +43,11 @@ Nouvelle position logique du curseur. Les positions logiques valides sont les va
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 L’appel de **TBM \_ SETPOSNOTIFY** définit l’emplacement du curseur de la barre de défilement de la barre de défilement, comme [**TBM \_ SetPos**](tbm-setpos.md) , mais il fait également en sorte que le TrackBar informe son parent d’un déplacement via un message [**WM \_ HSCROLL**](wm-hscroll.md) ou [**WM \_ VSCROLL**](wm-vscroll.md) .
 
@@ -57,8 +57,8 @@ L’appel de **TBM \_ SETPOSNOTIFY** définit l’emplacement du curseur de la b
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 96d11d10-dd21-4e2b-a30d-fe29d24eeba6
 title: Prise en charge du client Low-Level Graphics
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14d86f9d88e23484f582ce0b9e5450f293088ddb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 002879960fd70a908e572683e1f836a7627745e8b665cd3087ea80cd4dcf2e7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017747"
 ---
 # <a name="graphics-low-level-client-support"></a>Prise en charge du client Low-Level Graphics
 
@@ -37,9 +37,9 @@ Direct3D 8. *x* effectue une interruption propre de Gdi32.dll et appelle directe
 
 Ces points d’entrée sont similaires et, dans de nombreux cas, identiques aux points d’entrée dans le pilote d’affichage lui-même. ainsi, une compréhension des matériaux du kit de développement de pilotes (DDK) pour DirectDraw et Direct3D est un prérequis essentiel à l’utilisation de ces fonctions.
 
-L’appel de ces fonctions diffère entre les systèmes d’exploitation. Sur Windows 2000, W2KUMODE. La bibliothèque LIB contient des routines qui permettent au thread appelant d’effectuer la transition vers le mode noyau. Ces routines n’effectuent pas de marshaling de paramètres et constituent le mécanisme d’appel idéal sur Windows 2000. Le mécanisme qui effectue la transition vers le mode noyau s’appuie sur l’ordre d’une table. Ce classement sera modifié entre les révisions du système d’exploitation. Par conséquent, il n’est pas recommandé de générer une application qui s’appuie sur W2KUMODE. LIB pour Windows 2000 et s’attendre à ce qu’elle s’exécute sans modification sur Windows XP. La section suivante décrit un mécanisme de création de portabilité du système d’exploitation.
+L’appel de ces fonctions diffère entre les systèmes d’exploitation. sur Windows 2000, W2KUMODE. La bibliothèque LIB contient des routines qui permettent au thread appelant d’effectuer la transition vers le mode noyau. ces routines n’effectuent pas de marshaling de paramètres et constituent le mécanisme d’appel idéal sur Windows 2000. Le mécanisme qui effectue la transition vers le mode noyau s’appuie sur l’ordre d’une table. Ce classement sera modifié entre les révisions du système d’exploitation. Par conséquent, il n’est pas recommandé de générer une application qui s’appuie sur W2KUMODE. LIB pour Windows 2000 et s’attendre à ce qu’elle s’exécute sans modification sur Windows XP. La section suivante décrit un mécanisme de création de portabilité du système d’exploitation.
 
-Sur Windows XP, D3D8THK.DLL exporte toutes les fonctions en mode noyau, mais avec un nom légèrement décoré. L’exemple suivant montre comment les applications peuvent utiliser un alias pour les fonctions clientes de bas niveau à l’aide du préprocesseur. Avant cela, liez de manière dynamique aux D3D8THK.DLL.
+sur Windows XP, D3D8THK.DLL exporte toutes les fonctions en mode noyau, mais avec un nom légèrement décoré. L’exemple suivant montre comment les applications peuvent utiliser un alias pour les fonctions clientes de bas niveau à l’aide du préprocesseur. Avant cela, liez de manière dynamique aux D3D8THK.DLL.
 
 
 ```
@@ -56,9 +56,9 @@ OsThunkDdUnlock(hSurface, puUnlockData);
 
 ## <a name="writing-portable-applications"></a>Écriture d’applications portables
 
-Plusieurs techniques sont disponibles pour rendre une application portable sur les systèmes d’exploitation. La solution la plus fiable consiste à installer le package redistribuable Microsoft DirectX 8. x sur Windows 2000 dans le cadre du processus d’installation de votre propre application. Cela garantit que D3D8THK.DLL sera disponible sur les systèmes Windows 2000 et autorise un seul chemin d’accès de code dans l’application, car vous pouvez utiliser la même technique que celle décrite pour Windows XP ci-dessus.
+Plusieurs techniques sont disponibles pour rendre une application portable sur les systèmes d’exploitation. la solution la plus fiable consiste à installer le package redistribuable Microsoft DirectX 8. x sur Windows 2000 dans le cadre du processus d’installation de votre propre application. cela garantit que D3D8THK.DLL sera disponible sur Windows systèmes 2000 et autorise un seul chemin d’accès de code dans l’application, car vous pouvez utiliser la même technique que celle décrite pour Windows XP ci-dessus.
 
-Les applications peuvent également créer leur propre DLL d’isolation et implémenter deux versions de cette DLL, une pour Windows 2000 à l’aide de la technique décrite ci-dessus et une pour Windows XP qui utilise D3D8THK.DLL.
+les Applications peuvent également créer leur propre dll d’isolation et implémenter deux versions de cette dll, une pour Windows 2000 à l’aide de la technique décrite ci-dessus et une pour Windows XP qui utilise D3D8THK.DLL.
 
 ## <a name="device-creation"></a>Création de l’appareil
 
@@ -84,7 +84,7 @@ Ce tableau répertorie les fonctions qui représentent des points d’entrée en
 | [**DdCreateSurfaceObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatesurfaceobject)                         | Wrapper pour la fonction [**NtGdiDdCreateSurfaceObject**](-dxgkernel-ntgdiddcreatesurfaceobject.md) et crée un objet surface en mode noyau. <br/> **GdiEntry4** est défini en tant qu’alias pour cette fonction. <br/>                                                                                                                                                                                                              |
 | [**DdDeleteDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-dddeletedirectdrawobject)                   | Wrapper pour la fonction [**NtGdiDdDeleteDirectDrawObject**](-dxgkernel-ntgdidddeletedirectdrawobject.md) et supprime un objet DirectDraw en mode noyau qui a été créé précédemment à l’aide de [**DdCreateDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddcreatedirectdrawobject). <br/> **GdiEntry3** est défini en tant qu’alias pour cette fonction. <br/>                                                                                           |
 | [**DdDeleteSurfaceObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-dddeletesurfaceobject)                         | Wrapper pour la fonction [**NtGdiDdDeleteSurfaceObject**](-dxgkernel-ntgdidddeletesurfaceobject.md) et supprime un objet surface en mode noyau précédemment créé par [**NtGdiDdCreateSurfaceObject**](-dxgkernel-ntgdiddcreatesurfaceobject.md). <br/> **GdiEntry5** est défini en tant qu’alias pour cette fonction. <br/>                                                                                                            |
-| [**DdGetDC**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddgetdc)                                                     | Wrapper pour la fonction [**NtGdiDdGetDC**](-dxgkernel-ntgdiddgetdc.md) et retourne un contexte de périphérique (DC) Windows Graphics Device Interface (GDI) qui représente la surface DirectDraw indiquée. <br/> **GdiEntry7** est défini en tant qu’alias pour cette fonction. <br/>                                                                                                                                                        |
+| [**DdGetDC**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddgetdc)                                                     | Wrapper pour la fonction [**NtGdiDdGetDC**](-dxgkernel-ntgdiddgetdc.md) et retourne un contexte de périphérique (DC) Windows Graphics Device Interface (DC) qui représente la surface DirectDraw indiquée. <br/> **GdiEntry7** est défini en tant qu’alias pour cette fonction. <br/>                                                                                                                                                        |
 | [**DdGetDxHandle**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddgetdxhandle)                                         | [**DdGetDxHandle**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddgetdxhandle) retourne le descripteur de l’API Microsoft DirectX en mode noyau à utiliser dans les appels suivants aux points d’entrée en mode noyau qui contrôlent le mécanisme de l’API DirectX. <br/>                                                                                                                                                                                                                   |
 | [**DdQueryDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject)                     | Wrapper pour la fonction [**NtGdiDdQueryDirectDrawObject**](-dxgkernel-ntgdiddquerydirectdrawobject.md) et interroge une représentation du mode noyau précédemment créée pour les fonctionnalités. <br/> **GdiEntry2** est défini en tant qu’alias pour cette fonction. <br/>                                                                                                                                                                      |
 | [**DdQueryDisplaySettingsUniqueness**](/windows/desktop/api/DDrawGDI/nf-ddrawgdi-ddquerydisplaysettingsuniqueness)   | Retourne la valeur actuelle d’un entier qui est incrémenté chaque fois qu’un changement de mode se produit, par exemple lorsqu’il y a un commutateur de bureau, un commutateur d’utilisateur rapide ou une boîte Microsoft MS-DOS en plein écran. L’application peut appeler cette fonction à plusieurs reprises et comparer les anciennes et nouvelles valeurs de la valeur de retour pour déterminer si les paramètres d’affichage ont été modifiés. <br/> **GdiEntry13** est défini en tant qu’alias pour cette fonction. <br/> |

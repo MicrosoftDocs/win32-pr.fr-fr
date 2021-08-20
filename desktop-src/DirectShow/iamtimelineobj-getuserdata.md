@@ -24,7 +24,7 @@ ms.locfileid: "120052708"
 # <a name="iamtimelineobjgetuserdata-method"></a>IAMTimelineObj :: GetUserData, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

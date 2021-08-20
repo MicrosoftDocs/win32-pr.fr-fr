@@ -4,12 +4,12 @@ ms.assetid: 7efcb767-9bdf-43a4-83b8-61b6fc84adf6
 title: Action FindRelatedProducts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a87973631e51315df17a156bc8c57aa9facd84f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8201a2e86f9dec09931b17cd4dd594c45e4bf78de32ba438b8824a6f540563fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142878"
 ---
 # <a name="findrelatedproducts-action"></a>Action FindRelatedProducts
 
@@ -27,7 +27,7 @@ Cette action interroge le tableau suivant :
 
 L’action FindRelatedProducts utilise la propriété [**UpgradeCode**](upgradecode.md) et les informations sur la version et la langue que vous avez créées dans la table de mise à niveau pour détecter les produits installés affectés par la mise à niveau en attente. Il ajoute le code de produit des produits détectés à la propriété dans la colonne ActionProperty de UpgradeTable.
 
-FindRelatedProducts reconnaît uniquement les produits existants qui ont été installés à l’aide de l’Windows Installer avec un fichier. msi qui définit une propriété [**UpgradeCode**](upgradecode.md) , une propriété [**ProductVersion**](productversion.md) et une valeur pour la propriété [**ProductLanguage**](productlanguage.md) qui est l’une des langues listées dans la propriété [**Résumé du modèle**](template-summary.md) .
+FindRelatedProducts reconnaît uniquement les produits existants qui ont été installés à l’aide de l’Windows Installer avec un .msi qui définit une propriété [**UpgradeCode**](upgradecode.md) , une propriété [**ProductVersion**](productversion.md) et une valeur pour la propriété [**ProductLanguage**](productlanguage.md) qui est l’une des langues listées dans la propriété [**résumé du modèle**](template-summary.md) .
 
 Notez que FindRelatedProducts utilise la langue retournée par [**MsiGetProductInfo**](/windows/desktop/api/Msi/nf-msi-msigetproductinfoa). Pour que FindRelatedProducts fonctionne correctement, l’auteur du package doit être certain que la propriété [**ProductLanguage**](productlanguage.md) de la [table de propriétés](property-table.md) est définie sur une langue qui est également indiquée dans la propriété Résumé du [**modèle**](template-summary.md) . Consultez [préparation d’une application pour les futures mises à niveau majeures](preparing-an-application-for-future-major-upgrades.md).
 

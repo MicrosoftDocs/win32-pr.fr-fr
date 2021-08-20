@@ -4,16 +4,16 @@ ms.assetid: 915ef590-c427-4ac2-a2f7-aed328776cb7
 title: Packages de sécurité personnalisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4c447f1a24a3edc2f25a55f83d82c174094c50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3799edb3eb8e0551afe7d7f7bcdc54924228445d6ffb28cb4773af843b5c2d9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008667"
 ---
 # <a name="custom-security-packages"></a>Packages de sécurité personnalisés
 
-Pour implémenter de nouveaux protocoles de sécurité intégrés aux systèmes d’exploitation Windows Server et Windows, utilisez l’API du package de sécurité personnalisé et les fonctions de l' [*autorité de sécurité locale*](/windows/desktop/SecGloss/l-gly) (LSA).
+pour implémenter de nouveaux protocoles de sécurité intégrés aux systèmes d’exploitation Windows Server et Windows, utilisez l’API du package de sécurité personnalisé et les fonctions de l' [*autorité de sécurité locale*](/windows/desktop/SecGloss/l-gly) (LSA).
 
 L’API du package de sécurité personnalisé prend en charge le développement combiné des fournisseurs SSP ( [*Security Support Provider*](/windows/desktop/SecGloss/s-gly) ) personnalisés, qui fournissent des services [d’authentification non interactifs](noninteractive-authentication.md) et des échanges de messages sécurisés aux applications client/serveur, avec le développement de [*packages d’authentification*](/windows/desktop/SecGloss/a-gly)personnalisés, qui fournissent des services pour les applications qui effectuent une [authentification interactive](interactive-authentication.md). Lorsqu’ils sont combinés dans un package unique, ces services sont appelés fournisseur de support de sécurité/package d’authentification (SSP/AP).
 

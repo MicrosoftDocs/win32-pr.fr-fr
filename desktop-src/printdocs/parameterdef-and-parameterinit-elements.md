@@ -4,12 +4,12 @@ ms.assetid: f1c73aed-fca4-47f6-bb98-bab40a6a9b2e
 title: Éléments ParameterDef et ParameterInit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e71ed86d627072ee4b5b0ca0acb4e068ae62b6
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6fa945ad7fec484828bd81b2052f9b330d0e1679
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106542107"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475125"
 ---
 # <a name="parameterdef-and-parameterinit-elements"></a>Éléments ParameterDef et ParameterInit
 
@@ -40,82 +40,19 @@ Un élément ParameterDef est composé des éléments de propriété suivants. T
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nom de la propriété</th>
-<th>Valeurs</th>
-<th>Description</th>
-<th>Immuable?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DataType <br/></td>
-<td>entier <br/> Décimal<br/> string<br/> Pas de valeur par défaut.<br/></td>
-<td>Spécifie si la valeur de paramètre est un entier, un nombre à virgule flottante ou une chaîne de texte. La valeur d’un paramètre est exprimée dans le même format que le type de données XSD Basic correspondant ; autrement dit, sous la forme d’un entier, d’une valeur décimale ou d’une chaîne. <br/></td>
-<td>Oui<br/></td>
-</tr>
-<tr class="even">
-<td>DefaultValue <br/></td>
-<td>Type spécifié par la propriété DataType.<br/> Pas de valeur par défaut.<br/></td>
-<td>Spécifie la valeur à utiliser pour initialiser un contrôle de l’interface utilisateur.<br/>
-<ul>
-<li>ou <br/></li>
-</ul>
-Spécifie la valeur à utiliser si l’élément de paramètre approprié est manquant dans PrintTicket.<br/></td>
-<td>Non<br/></td>
-</tr>
-<tr class="odd">
-<td>Obligatoire <br/></td>
-<td>Inconditionnelle : l’élément ParameterInit doit toujours être fourni. <br/> Conditional : l’élément ParameterInit est requis uniquement si le paramètre est référencé dans un élément option dans PrintTicket.<br/> DefaultValue : Conditional.<br/></td>
-<td>Indique qu’un élément ParameterInit doit apparaître explicitement. Si conditionnel, ParameterInit doit être initialisé si PrintTicket contient une option qui référence le paramètre.<br/> Utilisé par les clients de l’interface utilisateur et les fournisseurs PrintCapabilities ou PrintTicket. Notez que dans n’importe quelle contrainte, la propriété obligatoire de l’élément ParameterDef doit être définie sur inconditionnelle. ParameterDef doit avoir une valeur définie ; sinon, la valeur ou la contrainte dépendante n’a pas pu être évaluée.<br/></td>
-<td>Non<br/></td>
-</tr>
-<tr class="even">
-<td>MaxLength <br/></td>
-<td>entier si la propriété DataType spécifie String.<br/> DefaultValue : aucune valeur maximale n’est appliquée.<br/></td>
-<td>Pour les paramètres à valeur de chaîne, spécifie la chaîne la plus longue autorisée. Les fournisseurs UI et PrintCapabilities ou PrintTicket utilisent cette propriété pour valider l’élément ParameterDef.<br/></td>
-<td>Non<br/></td>
-</tr>
-<tr class="odd">
-<td>MaxValue <br/></td>
-<td>entier si la propriété DataType spécifie un entier.<br/> Decimal si la propriété DataType spécifie Decimal.<br/> DefaultValue : aucune valeur maximale n’est appliquée.<br/></td>
-<td>Pour les éléments ParameterDef d’un entier ou d’une valeur décimale, définit la plus grande valeur autorisée.<br/></td>
-<td>Non<br/></td>
-</tr>
-<tr class="even">
-<td>MinLength <br/></td>
-<td>entier si la propriété DataType spécifie String. <br/> DefaultValue : aucune valeur minimale n’est appliquée.<br/></td>
-<td>Pour les valeurs de chaîne, définit la chaîne la plus petite autorisée. Les fournisseurs UI et PrintCapabilities ou PrintTicket utilisent cette propriété pour valider l’élément ParameterDef.<br/></td>
-<td>Non<br/></td>
-</tr>
-<tr class="odd">
-<td>MinValue <br/></td>
-<td>entier si la propriété DataType spécifie un entier.<br/> Decimal si la propriété DataType spécifie Decimal.<br/> DefaultValue : aucune valeur minimale n’est appliquée.<br/></td>
-<td>Pour les paramètres de type entier ou décimal, définit la plus petite valeur autorisée. <br/></td>
-<td>Non<br/></td>
-</tr>
-<tr class="even">
-<td>Multiple <br/></td>
-<td>entier si la propriété DataType spécifie un entier.<br/> Decimal si la propriété DataType spécifie Decimal.<br/> DefaultValue : 1<br/></td>
-<td>Pour les paramètres de valeurs entières ou décimales, la valeur du paramètre doit être un multiple de ce nombre. Pour plus d’informations, consultez <a href="#notes-on-multiple">Remarques sur les multiples</a> suivants.<br/></td>
-<td>Non<br/></td>
-</tr>
-<tr class="odd">
-<td>Unité <br/></td>
-<td>valeur de chaîne indiquant les unités utilisées pour le paramètre.<br/> Pas de valeur par défaut.<br/></td>
-<td>Indique les unités dans lesquelles le paramètre est exprimé. Par exemple, les angles en dixièmes de degrés, les longueurs en microns, etc.<br/></td>
-<td>Oui<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Nom de la propriété | Valeurs | Description | Immuable? | 
+|---------------|--------|-------------|------------|
+| DataType <br /> | entier <br /> Décimal<br /> string<br /> Pas de valeur par défaut.<br /> | Spécifie si la valeur de paramètre est un entier, un nombre à virgule flottante ou une chaîne de texte. La valeur d’un paramètre est exprimée dans le même format que le type de données XSD Basic correspondant ; autrement dit, sous la forme d’un entier, d’une valeur décimale ou d’une chaîne. <br /> | Yes<br /> | 
+| DefaultValue <br /> | Type spécifié par la propriété DataType.<br /> Pas de valeur par défaut.<br /> | Spécifie la valeur à utiliser pour initialiser un contrôle de l’interface utilisateur.<br /><ul><li>ou <br /></li></ul>Spécifie la valeur à utiliser si l’élément de paramètre approprié est manquant dans PrintTicket.<br /> | No<br /> | 
+| Obligatoire <br /> | Inconditionnelle : l’élément ParameterInit doit toujours être fourni. <br /> Conditional : l’élément ParameterInit est requis uniquement si le paramètre est référencé dans un élément option dans PrintTicket.<br /> DefaultValue : Conditional.<br /> | Indique qu’un élément ParameterInit doit apparaître explicitement. Si conditionnel, ParameterInit doit être initialisé si PrintTicket contient une option qui référence le paramètre.<br /> Utilisé par les clients de l’interface utilisateur et les fournisseurs PrintCapabilities ou PrintTicket. Notez que dans n’importe quelle contrainte, la propriété obligatoire de l’élément ParameterDef doit être définie sur inconditionnelle. ParameterDef doit avoir une valeur définie ; sinon, la valeur ou la contrainte dépendante n’a pas pu être évaluée.<br /> | No<br /> | 
+| MaxLength <br /> | entier si la propriété DataType spécifie String.<br /> DefaultValue : aucune valeur maximale n’est appliquée.<br /> | Pour les paramètres à valeur de chaîne, spécifie la chaîne la plus longue autorisée. Les fournisseurs UI et PrintCapabilities ou PrintTicket utilisent cette propriété pour valider l’élément ParameterDef.<br /> | No<br /> | 
+| MaxValue <br /> | entier si la propriété DataType spécifie un entier.<br /> Decimal si la propriété DataType spécifie Decimal.<br /> DefaultValue : aucune valeur maximale n’est appliquée.<br /> | Pour les éléments ParameterDef d’un entier ou d’une valeur décimale, définit la plus grande valeur autorisée.<br /> | No<br /> | 
+| MinLength <br /> | entier si la propriété DataType spécifie String. <br /> DefaultValue : aucune valeur minimale n’est appliquée.<br /> | Pour les valeurs de chaîne, définit la chaîne la plus petite autorisée. Les fournisseurs UI et PrintCapabilities ou PrintTicket utilisent cette propriété pour valider l’élément ParameterDef.<br /> | No<br /> | 
+| MinValue <br /> | entier si la propriété DataType spécifie un entier.<br /> Decimal si la propriété DataType spécifie Decimal.<br /> DefaultValue : aucune valeur minimale n’est appliquée.<br /> | Pour les paramètres de type entier ou décimal, définit la plus petite valeur autorisée. <br /> | Non<br /> | 
+| Multiple <br /> | entier si la propriété DataType spécifie un entier.<br /> Decimal si la propriété DataType spécifie Decimal.<br /> DefaultValue : 1<br /> | Pour les paramètres de valeurs entières ou décimales, la valeur du paramètre doit être un multiple de ce nombre. Pour plus d’informations, consultez <a href="#notes-on-multiple">Remarques sur les multiples</a> suivants.<br /> | No<br /> | 
+| Unité <br /> | valeur de chaîne indiquant les unités utilisées pour le paramètre.<br /> Pas de valeur par défaut.<br /> | Indique les unités dans lesquelles le paramètre est exprimé. Par exemple, les angles en dixièmes de degrés, les longueurs en microns, etc.<br /> | Yes<br /> | 
+
 
 
 

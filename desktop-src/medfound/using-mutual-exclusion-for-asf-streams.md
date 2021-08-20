@@ -1,17 +1,17 @@
 ---
-description: Utilisation de l’exclusion mutuelle pour les flux ASF
+description: Utilisation de l’exclusion mutuelle pour les Flux ASF
 ms.assetid: fdd31eac-1dd6-45f0-90fb-d5a74c85db2e
-title: Utilisation de l’exclusion mutuelle pour les flux ASF
+title: Utilisation de l’exclusion mutuelle pour les Flux ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 411b5aa0638ab1c56298b93d01e8de99920abc6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40c7fd104659064952803c16f572ee1e55dee0508144474e89ee7c0f362315c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034562"
 ---
-# <a name="using-mutual-exclusion-for-asf-streams"></a>Utilisation de l’exclusion mutuelle pour les flux ASF
+# <a name="using-mutual-exclusion-for-asf-streams"></a>Utilisation de l’exclusion mutuelle pour les Flux ASF
 
 Le contenu ASF peut contenir plusieurs flux qui s’excluent mutuellement. Ces flux ne peuvent pas être lus simultanément, mais un seul d’entre eux est lu à la fois. Par exemple, le fichier peut contenir un ensemble de flux qui comprend le même contenu encodé à une vitesse de transmission différente. Le flux utilisé est déterminé par la bande passante disponible pour l’application qui diffuse le contenu. L’objet exclusion mutuelle ASF, qui fait partie de l’objet d’en-tête, stocke des informations sur le groupe de flux de données qui s’excluent mutuellement.
 

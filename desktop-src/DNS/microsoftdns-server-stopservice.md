@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f811533c66185304c5c674fdfff2eda8cf5bef69
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d42a443e22d382dd6e7f6ec9d528d0a1f57c6062ba0e03742033c494b75cd8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076743"
 ---
 # <a name="stopservice-method-of-the-microsoftdns_server-class"></a>Méthode StopService de la \_ classe de serveur MicrosoftDNS
 

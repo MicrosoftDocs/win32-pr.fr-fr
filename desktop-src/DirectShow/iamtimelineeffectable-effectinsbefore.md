@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: eeca130f90cee5985f697a4efa042e3b4cb065b8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0eca93a6c1837b8a7a8f5a95a6cdbf9e87f99191c0911a82e6fd7a3586eb8c26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052749"
 ---
 # <a name="iamtimelineeffectableeffectinsbefore-method"></a>IAMTimelineEffectable :: EffectInsBefore, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -64,7 +64,7 @@ Niveau de priorité auquel insérer l’effet. Utilisez la valeur-1 pour insére
 
 Retourne S \_ OK en cas de réussite ou E \_ NOTIMPL si l’objet n’est pas un effet. Sinon, retourne une autre valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les heures de début et de fin de l’effet sont découpées dans les limites de la plage horaire de l’objet, si nécessaire. S’il existe déjà un effet au niveau de priorité spécifié, tous les effets de ce point sur descendent dans la liste des priorités pour faire de la place pour le nouvel effet.
 
@@ -74,7 +74,7 @@ Les heures de début et de fin de l’effet sont découpées dans les limites de
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

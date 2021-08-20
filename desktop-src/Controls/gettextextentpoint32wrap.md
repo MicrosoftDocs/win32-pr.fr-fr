@@ -3,7 +3,7 @@ title: GetTextExtentPoint32Wrap fonction)
 description: Calcule la largeur et la hauteur de la chaîne de texte spécifiée. Cette fonction encapsule un appel à GetTextExtentPoint.
 ms.assetid: 156f9344-6071-451c-94c7-63f369a5573a
 keywords:
-- Contrôles Windows de la fonction GetTextExtentPoint32Wrap
+- GetTextExtentPoint32Wrap, fonction Windows contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a0db92ad019950cf8be0a72260da75acc06779
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0217d1708764ec33dd76ea35ff330f0d411697b5e9be3a6bd148377002a1f127
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047209"
 ---
 # <a name="gettextextentpoint32wrap-function"></a>GetTextExtentPoint32Wrap fonction)
 
@@ -101,8 +101,8 @@ Pour des remarques supplémentaires, consultez [**GetTextExtentPoint**](/windows
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                            |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                            |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 5,81 ou ultérieure)</dt> </dl> |
 
 

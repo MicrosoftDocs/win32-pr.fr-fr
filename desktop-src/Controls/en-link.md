@@ -3,7 +3,7 @@ title: Code de notification EN_LINK (RichEdit. h)
 description: Un contrôle RichEdit envoie \_ des codes de notification en lien lorsqu’il reçoit divers messages, par exemple lorsque l’utilisateur clique sur la souris ou lorsque le pointeur de la souris se trouve sur le texte qui a l' \_ effet de lien CFE.
 ms.assetid: 67f02908-957e-4d91-8a70-70399ce9cf2e
 keywords:
-- Contrôles Windows de code de notification EN_LINK
+- EN_LINK les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec0eeb134804f671502d4cd3abbe2cb6995194af
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3398f79a94982a8b7c843747f38f16431cad6a061388367037d259cfe862d468
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047659"
 ---
 # <a name="en_link-notification-code"></a>\_Code de notification en lien
 
@@ -58,9 +58,9 @@ Retourne zéro pour permettre au contrôle de poursuivre sa gestion normale du m
 
 Retourne une valeur différente de zéro pour empêcher le contrôle de gérer le message.
 
-**Windows 8**: Return en lien permet d’indiquer **\_ \_ \_ par défaut** au contrôle RichEdit d’exécuter l’action par défaut.
+**Windows 8**: return **\_ -fr LINK \_ effectuent \_ par défaut** le contrôle rich edit pour exécuter l’action par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour recevoir des codes de notification en **\_ lien** lorsque le lien a le focus, spécifiez l’indicateur de [**\_ lien ENM**](rich-edit-control-event-mask-flags.md) dans le masque envoyé avec le message de [**em \_ SETEVENTMASK**](em-seteventmask.md) .
 
@@ -87,8 +87,8 @@ Si vous envoyez le message [**em \_ AUTOURLDETECT**](em-autourldetect.md) pour a
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

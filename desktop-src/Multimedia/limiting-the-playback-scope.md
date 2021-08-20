@@ -9,12 +9,12 @@ keywords:
 - Commandes de lecture MCI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 465bcf7a7b6b5811de8413a1c89f7befcf81037f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 064f62e913c33bef0582efaa950ee376e31a5b06a54d0e70674192e31a679a9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139482"
 ---
 # <a name="limiting-the-playback-scope"></a>Limitation de l’étendue de lecture
 
@@ -83,9 +83,9 @@ case WM_COMMAND:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

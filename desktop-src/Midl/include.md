@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2aab7b7262bceb330e3f4645e4f16035b783197
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 827ec8deec34a42d39fc3973dff73e9912ecb96bfee62e348ef7aebfee6ee9f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104100873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067202"
 ---
 # <a name="include-attribute"></a>include (attribut)
 
@@ -38,14 +38,14 @@ Spécifie le nom d’un ou plusieurs fichiers d’en-tête du langage C. Utilise
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À la suite de l’instruction **include** , le code stub généré contient une instruction **\# include** de préprocesseur C. Vous fournissez le fichier d’en-tête du langage C lors de la compilation des stubs. Les instructions include s’appuient sur le mécanisme de compilateur C pour rechercher les fichiers inclus dans la structure de répertoires.
 
 > [!Note]  
 > Utilisez la directive [**Import**](import.md) plutôt que la directive **include** pour les fichiers système qui contiennent des types de données que vous souhaitez mettre à la disposition du fichier IDL. La directive **Import** ignore les prototypes de fonction et vous permet d’utiliser des commutateurs du compilateur MIDL qui optimisent la génération de routines de prise en charge.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -70,9 +70,9 @@ include "gendefs.h", "protos.h", "mystuff.h";
 [Importation de fichiers d’en-tête système](importing-system-header-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e3c9e7a8-8de6-4871-b386-2186883f2ee7
 title: Élément horizontal
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50de08008d0243d27f8a8c5f64d6aeac5ddbcc1c
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: 97b66e8557d73570ce1a0b7eb7217c02435c51a6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432374"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482685"
 ---
 # <a name="horizontal-element"></a>Élément horizontal
 
@@ -33,62 +33,14 @@ Aucun.
 
 
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Type</th>
-<th>Obligatoire</th>
-<th>Description</th>
-<th>Valeurs possibles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Style</strong></td>
-<td>SimpleType <a href="linelayoutstyletype-simple-type.md"><strong>LineLayoutStyleType</strong></a></td>
-<td>Obligatoire</td>
-<td>Spécifie le type de ligne à dessiner.</td>
-<td><ul>
-<li>Aucun</li>
-<li>Unie</li>
-<li>Tiret</li>
-<li>Points</li>
-<li>Tiret-point</li>
-<li>Tiret-point-point</li>
-<li>Double</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Couleur</strong></td>
-<td><a href="colortype-simple-type.md"><strong>ColorType</strong></a> , simpleType</td>
-<td>Facultatif</td>
-<td>Couleur de l’élément.</td>
-<td>Valeur RVB hexadécimale. Correspond à l’expression régulière suivante : # [0-9A-zA-Z] {6} . Par exemple, #4a79B5.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>SpacingBefore</strong></td>
-<td><strong>xs:nonNegativeInteger</strong></td>
-<td>Facultatif</td>
-<td>Espacement avant l’élément.</td>
-<td>Entier non négatif.</td>
-</tr>
-<tr class="even">
-<td><strong>SpacingBetween</strong></td>
-<td><strong>xs:nonNegativeInteger</strong></td>
-<td>Facultatif</td>
-<td>Espacement entre cet élément et les éléments environnants.</td>
-<td>Entier non négatif.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Type | Obligatoire | Description | Valeurs possibles | 
+|-----------|------|----------|-------------|-----------------|
+| <strong>Style</strong> | SimpleType <a href="linelayoutstyletype-simple-type.md"><strong>LineLayoutStyleType</strong></a> | Obligatoire | Spécifie le type de ligne à dessiner. | <ul><li>Aucun</li><li>Unie</li><li>Tiret</li><li>Points</li><li>Tiret-point</li><li>Tiret-point-point</li><li>Double</li></ul> | 
+| <strong>Couleur</strong> | <a href="colortype-simple-type.md"><strong>ColorType</strong></a> , simpleType | Facultatif | Couleur de l’élément. | Valeur RVB hexadécimale. Correspond à l’expression régulière suivante : # [0-9A-zA-Z] {6} . Par exemple, #4a79B5.<br /> | 
+| <strong>SpacingBefore</strong> | <strong>xs:nonNegativeInteger</strong> | Facultatif | Espacement avant l’élément. | Entier non négatif. | 
+| <strong>SpacingBetween</strong> | <strong>xs:nonNegativeInteger</strong> | Facultatif | Espacement entre cet élément et les éléments environnants. | Entier non négatif. | 
+
 
 
 

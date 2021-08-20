@@ -5,12 +5,12 @@ title: Manifestes d’application
 ms.topic: article
 ms.date: 10/08/2020
 ms.custom: 19H1
-ms.openlocfilehash: 2fb7297310102134dfcacf0e5f0d907fbf3a3e0b
-ms.sourcegitcommit: 7eadd92b1da5eb4eab7d516a5a768e7f7fc02d4c
+ms.openlocfilehash: a1ced7ffb4052f418e989e907f26abb85c2c63db
+ms.sourcegitcommit: 25211012b002a7d1303e438277373d7faf958a68
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "112230234"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122436707"
 ---
 # <a name="application-manifests"></a>Manifestes d’application
 
@@ -115,8 +115,8 @@ L’élément **assemblyIdentity** a les attributs suivants. Il n’a pas de sou
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | Spécifie l’application ou le type d’assembly. La valeur doit être Win32 et tout en minuscules. Obligatoire.                                                                                                                                                                                                                                                                                                                              |
 | **name**                  | Nomme l’application ou l’assembly de manière unique. Utilisez le format suivant pour le nom : Organization.Division.Name. Par exemple, Microsoft. Windows. mysampleApp. Obligatoire.                                                                                                                                                                                                                                                               |
-| **language**              | Identifie la langue de l’application ou de l’assembly. Optionnel. Si l’application ou l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Dans le champ **assemblyIdentity** d’une application destinée à une utilisation mondiale (indépendant de la langue), omettez l’attribut Language.<br/> Dans un **assemblyIdentity** d’un assembly destiné à une utilisation dans le monde entier (indépendant de la langue), définissez la valeur de Language sur « \* ».<br/> |
-| **processorArchitecture** | Spécifie le processeur. Les valeurs autorisées sont `x86`, `amd64`, `arm` et `arm64`. Optionnel.                                                                                                                                                                                                                                                                                                                       |
+| **language**              | Identifie la langue de l’application ou de l’assembly. facultatif. Si l’application ou l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Dans le champ **assemblyIdentity** d’une application destinée à une utilisation mondiale (indépendant de la langue), omettez l’attribut Language.<br/> Dans un **assemblyIdentity** d’un assembly destiné à une utilisation dans le monde entier (indépendant de la langue), définissez la valeur de Language sur « \* ».<br/> |
+| **processorArchitecture** | Spécifie le processeur. Les valeurs autorisées sont `x86`, `amd64`, `arm` et `arm64`. facultatif.                                                                                                                                                                                                                                                                                                                       |
 | **version**               | Spécifie la version de l’application ou de l’assembly. Utilisez le format de version en quatre parties : MMMM. nnnnn. ooooo. ppppp. Chacun des composants séparés par des points peut être de 0-65535 inclus. Pour plus d’informations, consultez [versions d’assembly](assembly-versions.md). Obligatoire.                                                                                                                                                                        |
 | **publicKeyToken**        | Chaîne hexadécimale de 16 caractères représentant les 8 derniers octets du hachage SHA-1 de la clé publique sous laquelle l’application ou l’assembly est signé. La clé publique utilisée pour signer le catalogue doit être supérieure ou égale à 2048 bits. Obligatoire pour tous les assemblys côte à côte partagés.                                                                                                                                                     |
 
@@ -124,13 +124,13 @@ L’élément **assemblyIdentity** a les attributs suivants. Il n’a pas de sou
 
 ### <a name="compatibility"></a>compatibilité
 
-Contient au moins une **application**. Elle n’a pas d’attribut. Optionnel. Les manifestes d’application sans élément de compatibilité ont par défaut la compatibilité avec Windows Vista sur Windows 7.
+Contient au moins une **application**. Elle n’a pas d’attribut. facultatif. les manifestes d’Application sans élément de compatibilité ont par défaut la compatibilité Windows Vista sur Windows 7.
 
 <span id="application"></span><span id="APPLICATION"></span>
 
 ### <a name="application"></a>application
 
-Contient au moins un élémentos **pris en charge** . À compter de Windows 10, la version 1903, elle peut également contenir un élément **maxversiontested** facultatif. Elle n’a pas d’attribut. Optionnel.
+Contient au moins un élémentos **pris en charge** . à partir de Windows 10, la version 1903 peut également contenir un élément **maxversiontested** facultatif. Elle n’a pas d’attribut. facultatif.
 
 <span id="supportedOS"></span><span id="supportedos"></span><span id="SUPPORTEDOS"></span>
 
@@ -140,25 +140,25 @@ L’élément **pris en charge** a l’attribut suivant. Il n’a pas de sous-é
 
 | Attribut | Description   |
 |-----------|-----------------------|
-| **Id**    | Affectez à l’attribut ID la valeur **{e2011457-1546-43C5-a5fe-008deee3d3f0}** pour exécuter l’application à l’aide de la fonctionnalité Vista. Cela peut permettre à une application conçue pour Windows Vista de s’exécuter sur un système d’exploitation ultérieur. <br/> Affectez à l’attribut ID la valeur **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** pour exécuter l’application à l’aide de la fonctionnalité Windows 7.<br/> Les applications qui prennent en charge les fonctionnalités Windows Vista, Windows 7 et Windows 8 ne nécessitent pas de manifestes distincts. Dans ce cas, ajoutez les GUID pour tous les systèmes d’exploitation Windows.<br/> Pour plus d’informations sur le comportement de l’attribut **ID** dans Windows, consultez le livre de recettes sur la [compatibilité avec Windows 8 et Windows Server 2012](https://www.microsoft.com/download/details.aspx?id=27416).<br/> Les GUID suivants correspondent aux systèmes d’exploitation indiqués :<br/> **{8e0f7a12-bfb3-4FE8-B9A5-48fd50a15a9a}** -> Windows 10, windows server 2016 et windows server 2019<br/> **{1f676c76-80E1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 et Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 et windows server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> Windows 7 et windows Server 2008 R2<br/> **{e2011457-1546-43C5-a5fe-008deee3d3f0}** -> Windows Vista et windows Server 2008<br/> Vous pouvez tester cela sur Windows 7 ou Windows 8. x en exécutant moniteur de ressource (resmon), en accédant à l’onglet UC, en cliquant avec le bouton droit sur les étiquettes de colonne, « sélectionner une colonne... » et en cochant « contexte du système d’exploitation ». Sur Windows 8. x, vous trouverez également cette colonne disponible dans le gestionnaire des tâches (taskmgr). Le contenu de la colonne indique la valeur la plus élevée trouvée ou « Windows Vista » comme valeur par défaut. <br/> |
+| **Id**    | Affectez à l’attribut ID la valeur **{e2011457-1546-43C5-a5fe-008deee3d3f0}** pour exécuter l’application à l’aide de la fonctionnalité Vista. cela peut permettre à une application conçue pour Windows Vista de s’exécuter sur un système d’exploitation ultérieur. <br/> affectez à l’attribut Id la valeur **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** pour exécuter l’application à l’aide de la fonctionnalité Windows 7.<br/> les Applications qui prennent en charge Windows fonctionnalités Vista, Windows 7 et Windows 8 ne nécessitent pas de manifestes séparés. dans ce cas, ajoutez les guid pour tous les systèmes d’exploitation Windows.<br/> pour plus d’informations sur le comportement de l’attribut **Id** dans Windows, consultez le guide de [compatibilité Windows 8 et Windows Server 2012](https://www.microsoft.com/download/details.aspx?id=27416).<br/> Les GUID suivants correspondent aux systèmes d’exploitation indiqués :<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -> Windows 10, Windows Server 2016 et Windows Server 2019<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 et Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 et Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> Windows 7 et Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -> Windows Vista et Windows Server 2008<br/> vous pouvez tester cela sur Windows 7 ou Windows 8. x en exécutant moniteur de ressource (resmon), en accédant à l’onglet uc, en cliquant avec le bouton droit sur les étiquettes de colonne, « sélectionner une colonne... » et en cochant « contexte du système d’exploitation ». sur Windows 8. x, vous trouverez également cette colonne disponible dans le gestionnaire des tâches (taskmgr). le contenu de la colonne indique la valeur la plus élevée trouvée ou « Windows Vista » comme valeur par défaut. <br/> |
 
 <span id="maxVersionTested"></span><span id="maxversiontested"></span><span id="MAXVERSIONTESTED"></span>
 
 ### <a name="maxversiontested"></a>maxversiontested
 
-L’élément **maxversiontested** spécifie les versions de Windows sur lesquelles l’application a été testée, en commençant par la version minimale du système d’exploitation que l’application prend en charge jusqu’à la version maximale. L’ensemble complet des versions est disponible [ici](https://developer.microsoft.com/windows/downloads/sdk-archive/). Elle est destinée à être utilisée par les applications de bureau qui utilisent des [îlots XAML](/windows/apps/desktop/modernize/xaml-islands) et qui ne sont pas déployées dans un package MSIX. Cet élément est pris en charge dans Windows 10, version 1903 et versions ultérieures.
+l’élément **maxversiontested** spécifie les versions de Windows pour lesquelles l’application a été testée à partir de la version minimale du système d’exploitation que l’application prend en charge jusqu’à la version maximale. L’ensemble complet des versions est disponible [ici](https://developer.microsoft.com/windows/downloads/sdk-archive/). Elle est destinée à être utilisée par les applications de bureau qui utilisent des [îlots XAML](/windows/apps/desktop/modernize/xaml-islands) et qui ne sont pas déployées dans un package MSIX. cet élément est pris en charge dans Windows 10, la version 1903 et les versions ultérieures.
 
 L’élément **maxversiontested** a l’attribut suivant. Il n’a pas de sous-éléments.
 
 | Attribut | Description    |
 |-----------|----------------|
-| **Id**    | Définissez l’attribut ID sur une chaîne de version en 4 parties qui spécifie la version maximale des fenêtres pour lesquelles l’application a été testée. Par exemple, « 10.0.18226.0 ». |
+| **Id**    | définissez l’attribut Id sur une chaîne de version en 4 parties qui spécifie la version maximale de Windows pour laquelle l’application a été testée. Par exemple, « 10.0.18226.0 ». |
 
 <span id="dependency"></span><span id="DEPENDENCY"></span>
 
 ### <a name="dependency"></a>dependency
 
-Contient au moins un **dependentAssembly**. Elle n’a pas d’attribut. Optionnel.
+Contient au moins un **dependentAssembly**. Elle n’a pas d’attribut. facultatif.
 
 <span id="dependentAssembly"></span><span id="dependentassembly"></span><span id="DEPENDENTASSEMBLY"></span>
 
@@ -170,7 +170,7 @@ Le premier sous-élément de **dependentAssembly** doit être un élément **ass
 
 ### <a name="file"></a>fichier
 
-Spécifie les fichiers qui sont privés pour l’application. Optionnel.
+Spécifie les fichiers qui sont privés pour l’application. facultatif.
 
 L’élément **file** a les attributs indiqués dans le tableau suivant.
 
@@ -186,11 +186,16 @@ L’élément **file** a les attributs indiqués dans le tableau suivant.
 
 ### <a name="activecodepage"></a>activeCodePage
 
-Forcez un processus à utiliser UTF-8 comme page de code de processus.
+sur Windows 10, cet élément force un processus à utiliser UTF-8 comme page de code de processus. Pour plus d’informations, consultez [utiliser la page de codes UTF-8](/windows/uwp/design/globalizing/use-utf8-code-page). sur Windows 10, la seule valeur valide pour **activeCodePage** est **UTF-8**.
 
-**activeCodePage** a été ajouté dans Windows version 1903 (mise à jour de mai 2019). Vous pouvez déclarer cette propriété et la cible/exécuter sur des versions précédentes de Windows, mais vous devez gérer la détection et la conversion de pages de codes héritées comme d’habitude. Pour plus d’informations, consultez [utiliser la page de codes UTF-8](/windows/uwp/design/globalizing/use-utf8-code-page) .
+à partir de Windows 11, cet élément permet également de sélectionner la page de codes héritée non UTF-8 ou les pages de codes pour des paramètres régionaux spécifiques pour la compatibilité des applications héritées. Les applications modernes sont vivement encouragées à utiliser Unicode. sur Windows 11, **activeCodePage** peut également être défini sur la valeur **Legacy** ou sur un nom de paramètres régionaux comme en **-US** ou **ja-JP**.
 
-Cet élément n’a pas d’attributs. **UTF-8 est une** valeur valide uniquement pour l’élément **activeCodePage** .
+- Sur les machines configurées sur une page de codes active du système UTF-8, l' **héritage** rétablira les pages de codes des paramètres régionaux système. si les paramètres régionaux du système n’ont pas de pages de codes définies, Windows-1252/437 sera utilisé. le paramètre de page de codes **hérité** est pris en charge uniquement dans les manifestes de Fusion et à partir de Windows 11 uniquement.
+- Lorsqu’un nom de paramètres régionaux, tel que en **-US** , est fourni, la page de codes de processus est définie correctement pour cette page de codes de paramètres régionaux. par exemple, Windows-1252 et 437 pour fr-fr, ou 932 pour ja-JP.
+
+cet élément a été ajouté pour la première fois dans Windows 10 version 1903 (mai 2019 mise à jour). vous pouvez déclarer cette propriété et la cible/exécuter sur des builds de Windows antérieures, mais vous devez gérer la détection et la conversion de pages de codes héritées comme d’habitude. Cet élément n’a pas d’attributs. 
+
+L’exemple suivant montre comment utiliser cet élément pour forcer le processus actuel à utiliser UTF-8 comme page de codes de processus.
 
 ```XML
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
@@ -240,7 +245,7 @@ Spécifie s’il faut désactiver le filtrage de fenêtre. **True** désactive l
 
 Spécifie si le processus actuel prend en charge la résolution en points par pouce (dpi).
 
-**Windows 10, version 1607 :** L’élément **dpiAware** est ignoré si l’élément **dpiAwareness** est présent. Vous pouvez inclure les deux éléments dans un manifeste si vous souhaitez spécifier un comportement différent pour Windows 10, version 1607 que pour une version antérieure du système d’exploitation.
+**Windows 10, version 1607 :** L’élément **dpiAware** est ignoré si l’élément **dpiAwareness** est présent. vous pouvez inclure les deux éléments dans un manifeste si vous souhaitez spécifier un comportement différent pour Windows 10, version 1607, par rapport à une version antérieure du système d’exploitation.
 
 Le tableau suivant décrit le comportement qui se produit en fonction de la présence de l’élément **dpiAware** et du texte qu’il contient. Le texte contenu dans l’élément n’est pas sensible à la casse.
 
@@ -248,10 +253,10 @@ Le tableau suivant décrit le comportement qui se produit en fonction de la pré
 |-----------------------------------|---------|
 | Absent                            | Le processus actuel ne prend pas en charge DPI par défaut. Vous pouvez modifier ce paramètre par programmation en appelant la fonction [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) ou [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) .                                                                                                                                                            |
 | Contient « true »                   | Le processus actuel prend en charge la résolution du système.                                                                                                                                                                                                                                                                                                                                                          |
-| Contient « false »                  | **Windows Vista, Windows 7 et Windows 8 :** Le comportement est le même que lorsque le **dpiAware** est absent.<br/> **Windows 8.1 et Windows 10 :** Le processus actuel ne prend pas en charge dpi, et vous ne pouvez pas modifier ce paramètre par programmation en appelant la fonction [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) ou [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) .<br/> |
-| Contient « true/PM »                | **Windows Vista, Windows 7 et Windows 8 :** Le processus actuel prend en charge la résolution du système.<br/> **Windows 8.1 et Windows 10 :** Le processus actuel prend en charge la résolution par moniteur.<br/>                                                                                                                                                                                                          |
-| Contient « par moniteur »            | **Windows Vista, Windows 7 et Windows 8 :** Le comportement est le même que lorsque le **dpiAware** est absent.<br/> **Windows 8.1 et Windows 10 :** Le processus actuel prend en charge la résolution par moniteur.<br/>                                                                                                                                                                                      |
-| Contient une autre chaîne         | **Windows Vista, Windows 7 et Windows 8 :** Le comportement est le même que lorsque le **dpiAware** est absent.<br/> **Windows 8.1 et Windows 10 :** Le processus actuel ne prend pas en charge dpi, et vous ne pouvez pas modifier ce paramètre par programmation en appelant la fonction [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) ou [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) .<br/> |
+| Contient « false »                  | **Windows Vista, Windows 7 et Windows 8 :** Le comportement est le même que lorsque le **dpiAware** est absent.<br/> **Windows 8.1 et Windows 10 :** le processus actuel ne prend pas en charge dpi, et vous ne pouvez pas modifier ce paramètre par programmation en appelant la fonction [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) ou [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) .<br/> |
+| Contient « true/PM »                | **Windows Vista, Windows 7 et Windows 8 :** Le processus actuel prend en charge la résolution du système.<br/> **Windows 8.1 et Windows 10 :** le processus actuel prend en charge la résolution par moniteur.<br/>                                                                                                                                                                                                          |
+| Contient « par moniteur »            | **Windows Vista, Windows 7 et Windows 8 :** Le comportement est le même que lorsque le **dpiAware** est absent.<br/> **Windows 8.1 et Windows 10 :** le processus actuel prend en charge la résolution par moniteur.<br/>                                                                                                                                                                                      |
+| Contient une autre chaîne         | **Windows Vista, Windows 7 et Windows 8 :** Le comportement est le même que lorsque le **dpiAware** est absent.<br/> **Windows 8.1 et Windows 10 :** le processus actuel ne prend pas en charge dpi, et vous ne pouvez pas modifier ce paramètre par programmation en appelant la fonction [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) ou [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) .<br/> |
 
 Pour plus d’informations sur les paramètres de reconnaissance dpi, consultez [comparaison des niveaux de détection PPP](https://msdn.microsoft.com/library/windows/desktop/mt843498(v=vs.85).aspx(d=robot)).
 
@@ -275,9 +280,9 @@ Pour plus d’informations sur les paramètres de reconnaissance dpi, consultez 
 
 Spécifie si le processus actuel prend en charge la résolution en points par pouce (dpi).
 
-La version minimale du système d’exploitation qui prend en charge l’élément **dpiAwareness** est Windows 10, version 1607. Pour les versions qui prennent en charge l’élément **dpiAwareness** , **dpiAwareness** remplace l’élément **dpiAware** . Vous pouvez inclure les deux éléments dans un manifeste si vous souhaitez spécifier un comportement différent pour Windows 10, version 1607 que pour une version antérieure du système d’exploitation.
+la version minimale du système d’exploitation qui prend en charge l’élément **dpiAwareness** est Windows 10, version 1607. Pour les versions qui prennent en charge l’élément **dpiAwareness** , **dpiAwareness** remplace l’élément **dpiAware** . vous pouvez inclure les deux éléments dans un manifeste si vous souhaitez spécifier un comportement différent pour Windows 10, version 1607, par rapport à une version antérieure du système d’exploitation.
 
-L’élément **dpiAwareness** peut contenir un seul élément ou une liste d’éléments séparés par des virgules. Dans ce dernier cas, le premier élément (le plus à gauche) dans la liste reconnue par le système d’exploitation est utilisé. De cette façon, vous pouvez spécifier des comportements différents pris en charge dans les versions ultérieures du système d’exploitation Windows.
+L’élément **dpiAwareness** peut contenir un seul élément ou une liste d’éléments séparés par des virgules. Dans ce dernier cas, le premier élément (le plus à gauche) dans la liste reconnue par le système d’exploitation est utilisé. de cette façon, vous pouvez spécifier des comportements différents pris en charge dans les versions ultérieures du système d’exploitation Windows.
 
 Le tableau suivant décrit le comportement qui se produit en fonction de la présence de l’élément **dpiAwareness** et du texte qu’il contient dans son élément reconnu le plus à gauche. Le texte contenu dans l’élément n’est pas sensible à la casse.
 
@@ -287,7 +292,7 @@ Le tableau suivant décrit le comportement qui se produit en fonction de la pré
 | Ne contient aucun élément reconnu            | Le processus actuel ne prend pas en charge DPI par défaut. Vous pouvez modifier ce paramètre par programmation en appelant la fonction [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) ou [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) . |
 | Le premier élément reconnu est « système »       | Le processus actuel prend en charge la résolution du système.                                                                                                                                                                                               |
 | Le premier élément reconnu est « permonitor »   | Le processus actuel prend en charge la résolution par moniteur.                                                                                                                                                                                          |
-| Le premier élément reconnu est « permonitorv2 » | Le processus en cours utilise le contexte de détection par moniteur-v2 PPP. Cet élément sera uniquement reconnu sur Windows 10 version 1703 ou ultérieure.                                                                                              |
+| Le premier élément reconnu est « permonitorv2 » | Le processus en cours utilise le contexte de détection par moniteur-v2 PPP. cet élément sera uniquement reconnu sur Windows 10 version 1703 ou ultérieure.                                                                                              |
 | Le premier élément reconnu est « non pris en charge »      | Le processus actuel ne prend pas en charge dpi. Vous **ne pouvez pas** modifier ce paramètre par programmation en appelant la fonction [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) ou [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) .      |
 
 Pour plus d’informations sur les paramètres de reconnaissance dpi pris en charge par cet élément, consultez prise en charge des [dpi \_ ](/windows/desktop/api/windef/ne-windef-dpi_awareness) et du [ \_ \_ contexte de détection dpi](/windows/desktop/hidpi/dpi-awareness-context).
@@ -310,7 +315,7 @@ Pour plus d’informations sur les paramètres de reconnaissance dpi pris en cha
 
 ### <a name="gdiscaling"></a>gdiScaling
 
-Spécifie si la mise à l’échelle GDI est activée. La version minimale du système d’exploitation qui prend en charge l’élément **gdiScaling** est Windows 10 version 1703.
+Spécifie si la mise à l’échelle GDI est activée. la version minimale du système d’exploitation qui prend en charge l’élément **gdiScaling** est Windows 10 la version 1703.
 
 L’infrastructure GDI (Graphics Device Interface) peut appliquer la mise à l’échelle DPI aux primitives et au texte en fonction de chaque moniteur sans mettre à jour l’application elle-même. Cela peut être utile pour les applications GDI qui ne sont plus mises à jour activement.
 
@@ -341,7 +346,7 @@ Spécifie si la prise en charge du défilement haute résolution est activée. L
 
 ### <a name="longpathaware"></a>longPathAware
 
-Active les chemins longs qui dépassent **MAX_PATH** de longueur. Cet élément est pris en charge dans Windows 10, version 1607 et versions ultérieures. Pour plus d’informations, consultez [cet article](../fileio/maximum-file-path-limitation.md).
+Active les chemins longs qui dépassent **MAX_PATH** de longueur. cet élément est pris en charge dans Windows 10, la version 1607 et les versions ultérieures. Pour plus d’informations, consultez [cet article](../fileio/maximum-file-path-limitation.md).
 
 ```XML
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
@@ -359,7 +364,7 @@ Active les chemins longs qui dépassent **MAX_PATH** de longueur. Cet élément 
 
 ### <a name="printerdriverisolation"></a>printerDriverIsolation
 
-Spécifie si l’isolation du pilote d’imprimante est activée. La **valeur true** indique qu’elle est activée. Elle n’a pas d’attribut. L’isolation du pilote d’imprimante améliore la fiabilité du service d’impression Windows en permettant aux pilotes d’imprimante de s’exécuter dans des processus distincts du processus dans lequel le spouleur d’impression s’exécute. La prise en charge de l’isolation du pilote d’imprimante a démarré dans Windows 7 et Windows Server 2008 R2. Une application peut déclarer l’isolement du pilote d’imprimante dans son manifeste d’application pour s’isoler du pilote d’imprimante et améliorer sa fiabilité. Autrement dit, l’application ne se bloquera pas si le pilote d’imprimante rencontre une erreur.
+Spécifie si l’isolation du pilote d’imprimante est activée. La **valeur true** indique qu’elle est activée. Elle n’a pas d’attribut. l’isolation du pilote d’imprimante améliore la fiabilité du service d’impression Windows en permettant aux pilotes d’imprimante de s’exécuter dans des processus distincts du processus dans lequel le spouleur d’impression s’exécute. la prise en charge de l’isolation du pilote d’imprimante a démarré dans Windows 7 et Windows Server 2008 R2. Une application peut déclarer l’isolement du pilote d’imprimante dans son manifeste d’application pour s’isoler du pilote d’imprimante et améliorer sa fiabilité. Autrement dit, l’application ne se bloquera pas si le pilote d’imprimante rencontre une erreur.
 
 
 ```XML
@@ -384,13 +389,13 @@ Spécifie si la prise en charge du défilement ultra-haute résolution est activ
 
 ### <a name="msix"></a>msix
 
-Spécifie les informations d’identité d’un [package MSIX fragmenté](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) pour l’application actuelle. Cet élément est pris en charge dans Windows 10, version 2004 et versions ultérieures.
+Spécifie les informations d’identité d’un [package MSIX fragmenté](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) pour l’application actuelle. cet élément est pris en charge dans Windows 10, la version 2004 et les versions ultérieures.
 
 L’élément **msix** doit se trouver dans l’espace de noms `urn:schemas-microsoft-com:msix.v1` . Il possède les attributs répertoriés dans le tableau suivant.
 
 | Attribut   | Description                                                                                             |
 |-------------|---------------------------------------------------------------------------------------------------------|
-| **publisher**    | Décrit les informations sur le serveur de publication. Cette valeur doit correspondre à l’attribut **Publisher** de l’élément [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) dans votre manifeste de package fragmenté. |
+| **publisher**    | Décrit les informations sur le serveur de publication. cette valeur doit correspondre à l’attribut **Publisher** dans l’élément [identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) de votre manifeste de package fragmenté. |
 | **packageName** | Décrit le contenu du package. Cette valeur doit correspondre à l’attribut **Name** de l’élément [Identity](/uwp/schemas/appxpackage/uapmanifestschema/element-identity) dans votre manifeste de package fragmenté.    |
 | **applicationId**    | Identificateur unique de l’application. Cette valeur doit correspondre à l’attribut **ID** de l’élément [application](/uwp/schemas/appxpackage/uapmanifestschema/element-application) dans le manifeste de votre package épars.  |
 
@@ -410,7 +415,7 @@ L’élément **msix** doit se trouver dans l’espace de noms `urn:schemas-micr
 
 Substitue l’implémentation du tas par défaut pour les [API de tas Win32](../Memory/heap-functions.md) à utiliser.
 
-* La valeur **SegmentHeap** indique que le segment de mémoire est utilisé. Segment Heap est une implémentation de tas moderne qui réduit généralement l’utilisation globale de la mémoire. Cet élément est pris en charge dans Windows 10, version 2004 (Build 19041) et versions ultérieures.
+* La valeur **SegmentHeap** indique que le segment de mémoire est utilisé. Segment Heap est une implémentation de tas moderne qui réduit généralement l’utilisation globale de la mémoire. cet élément est pris en charge dans Windows 10, version 2004 (build 19041) et versions ultérieures.
 * Toutes les autres valeurs sont ignorées.
 
 Cet élément n’a pas d’attributs.
@@ -427,7 +432,7 @@ Cet élément n’a pas d’attributs.
 </assembly>
 ```
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 Voici un exemple de manifeste d’application pour une application nommée MySampleApp.exe. L’application consomme l’assembly côte à côte SampleAssembly.
 

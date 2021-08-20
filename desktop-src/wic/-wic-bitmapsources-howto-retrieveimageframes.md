@@ -4,12 +4,12 @@ ms.assetid: e4f69608-7bf1-4d54-b586-b749526700c9
 title: Comment récupérer des frames à partir d’une image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eeeb19e0a0ac69f75673df0736fd0bd4987b3423
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc9fb9802071115f62da78a10798e5e76aa83052270d40108e7c590acb8b2f46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841439"
 ---
 # <a name="how-to-retrieve-the-frames-from-an-image"></a>Comment récupérer des frames à partir d’une image
 
@@ -17,7 +17,7 @@ Cette rubrique montre comment décoder une image à plusieurs frames et récupé
 
 Pour récupérer les frames d’une image
 
-1.  Créez un [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
+1.  créez un [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
 
     ```C++
     // Create WIC factory

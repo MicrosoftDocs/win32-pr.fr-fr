@@ -4,12 +4,12 @@ ms.assetid: 69877842-fafe-408f-b55b-d2ff2277c756
 title: Media Foundation en-têtes et bibliothèques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3d5412f3f306c6e0d7327c1da1eb4c48bb109a8
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a6db7650c98f6491fa6db4010273475b4bd103a2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106525787"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467466"
 ---
 # <a name="media-foundation-headers-and-libraries"></a>Media Foundation en-têtes et bibliothèques
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les en-têtes et les bibliothèques qui définissent 
 
 Pour trouver l’en-tête et la bibliothèque d’un élément d’API spécifique, consultez les pages de référence dans le [Media Foundation référence de programmation](media-foundation-programming-reference.md).
 
-## <a name="headers"></a>headers
+## <a name="headers"></a>En-têtes
 
 -   codecapi. h
 -   d3d11. h
@@ -55,9 +55,9 @@ Pour trouver l’en-tête et la bibliothèque d’un élément d’API spécifiq
 -   mfreadwrite. lib
 -   mfuuid. lib
 
-## <a name="library-changes-in-windows-7"></a>Modifications de la bibliothèque dans Windows 7
+## <a name="library-changes-in-windows-7"></a>modifications de la bibliothèque dans Windows 7
 
-À compter de Windows 7, certaines fonctions de Media Foundation sont exportées à partir de fichiers DLL différents de ceux des versions précédentes.
+à partir de Windows 7, certaines fonctions Media Foundation sont exportées à partir de fichiers DLL différents de ceux des versions précédentes.
 
 Ces modifications affectent les fichiers. lib suivants :
 
@@ -69,39 +69,12 @@ Une application qui utilise l’une de ces fonctions doit être liée à un autr
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Version du SDK</th>
-<th>Bibliothèques</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SDK Windows pour Windows Vista<br/> SDK Windows pour Windows Server 2008<br/></td>
-<td>evr. lib<br/> MF. lib<br/> mfplat. lib<br/></td>
-</tr>
-<tr class="even">
-<td>SDK Windows pour Windows 7</td>
-<td>Si la plateforme cible est Windows Vista ou Windows Server 2008, liez les bibliothèques suivantes :<br/>
-<ul>
-<li>evr_vista. lib</li>
-<li>mf_vista. lib</li>
-<li>mfplat_vista. lib</li>
-</ul>
-Si la plateforme cible est Windows 7 ou version ultérieure, liez les bibliothèques suivantes :<br/>
-<ul>
-<li>evr. lib</li>
-<li>MF. lib</li>
-<li>mfplat. lib</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Version du SDK | Bibliothèques | 
+|-------------|-----------|
+| Windows kit de développement logiciel pour Windows Vista<br /> Windows kit de développement logiciel (SDK) pour Windows Server 2008<br /> | evr. lib<br /> MF. lib<br /> mfplat. lib<br /> | 
+| Windows SDK pour Windows 7 | si la plateforme cible est Windows Vista ou Windows Server 2008, liez les bibliothèques suivantes :<br /><ul><li>evr_vista. lib</li><li>mf_vista. lib</li><li>mfplat_vista. lib</li></ul>si la plateforme cible est Windows 7 ou version ultérieure, liez les bibliothèques suivantes :<br /><ul><li>evr. lib</li><li>MF. lib</li><li>mfplat. lib</li></ul> | 
+
 
 
 
@@ -109,7 +82,7 @@ Si la plateforme cible est Windows 7 ou version ultérieure, liez les bibliothè
 
 ## <a name="additional-info-on-helper-functions"></a>Informations supplémentaires sur les fonctions d’assistance
 
-Le MFPlat.dll Windows 8 est un composant du système d’exploitation Microsoft Windows. Il comporte plusieurs fonctions incluses dans le module.
+le Windows 8 MFPlat.dll est un composant du système d’exploitation Microsoft Windows. Il comporte plusieurs fonctions incluses dans le module.
 
 MFPlat implémente la fonctionnalité d’assistance pour l’allocation de mémoire de bas niveau, les FIFO de planification des opérations et les abstractions d’accès aux fichiers Win32. Pour être plus précis, il prend en charge les éléments suivants :
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: fda8407d49ed3eec7ff86abc94ced6b63d2d77c6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0ebd529faaea7995144481802d755eb705163d94e68133d493f6368ac0bc015a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900249"
 ---
 # <a name="controlmetricsbyclass-method-of-the-cim_metricservice-class"></a>Méthode ControlMetricsByClass de la \_ classe CIM MetricService
 
@@ -97,7 +97,7 @@ Indique l’opération souhaitée à effectuer sur les mesures.
 
 </dt> <dd></dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne 0 en cas de réussite ; Sinon, retourne une erreur.
 

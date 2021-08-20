@@ -60,12 +60,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ddecf34148e3ef07dc78af9b4f2dd45950644cfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba979953a9e7a17df70247cdb176cba2f5782d4f9f6fc13d8f4addc161bbaf50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521199"
 ---
 # <a name="msvm_migrationjob-class"></a>MSVM \_ MigrationJob, classe
 
@@ -455,21 +455,21 @@ Indique le type de travail faisant l’objet d’un suivi par cet objet.
 
 <span id="Checking_Virtual_Machine_and_Storage_Compatibility"></span><span id="checking_virtual_machine_and_storage_compatibility"></span><span id="CHECKING_VIRTUAL_MACHINE_AND_STORAGE_COMPATIBILITY"></span>
 
-**Vérification de la compatibilité des ordinateurs virtuels et du stockage** (302)
+**vérification de la compatibilité des ordinateurs virtuels et des Stockage** (302)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Checking_Storage_Compatibility"></span><span id="checking_storage_compatibility"></span><span id="CHECKING_STORAGE_COMPATIBILITY"></span>
 
-**Vérification** de la compatibilité du stockage (303)
+**vérification** de la compatibilité des Stockage (303)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Checking_Storage_Migration"></span><span id="checking_storage_migration"></span><span id="CHECKING_STORAGE_MIGRATION"></span>
 
-**Vérification** de la migration du stockage (304)
+**vérification** de la Migration de Stockage (304)
 
 
 </dt> <dd></dd> <dt>
@@ -483,14 +483,14 @@ Indique le type de travail faisant l’objet d’un suivi par cet objet.
 
 <span id="Moving_Virtual_Machine_and_Storage"></span><span id="moving_virtual_machine_and_storage"></span><span id="MOVING_VIRTUAL_MACHINE_AND_STORAGE"></span>
 
-**Déplacement de l’ordinateur virtuel et du stockage** (306)
+**déplacement d’une Machine virtuelle et** d’un Stockage (306)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Moving_Storage"></span><span id="moving_storage"></span><span id="MOVING_STORAGE"></span>
 
-**Déplacement du stockage** (307)
+**déplacement de Stockage** (307)
 
 
 </dt> <dd></dd> </dl>
@@ -993,8 +993,8 @@ Nom unique du système virtuel affecté.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

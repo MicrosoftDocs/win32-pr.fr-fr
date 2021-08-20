@@ -1,4 +1,4 @@
-- name: Contrôles Windows
+- name: Windows Commandes
   href: window-controls.md
   items:
     - name: À propos des contrôles communs
@@ -11,9 +11,9 @@
         - name: Prise en charge Unicode pour les contrôles communs
           href: unicode-support.md
         - name: Prise en charge de la localisation des contrôles communs
-          href: cc-faq-localization.md
+          href: cc-faq-localization.yml
         - name: FAQ sur les contrôles communs
-          href: cc-faq.md
+          href: cc-faq.yml
     - name: Messages de contrôle
       href: control-messages.md
     - name: Contrôles personnalisés
@@ -43,7 +43,7 @@
               items:
                 - name: NMCUSTOMDRAW
                   href: /windows/win32/api/Commctrl/ns-commctrl-nmcustomdraw
-    - name: "Considérations relatives à la sécurité\_: contrôles Microsoft Windows"
+    - name: "considérations relatives à la sécurité\_: contrôles Microsoft Windows"
       href: sec-comctls.md
     - name: Bibliothèque de contrôles
       href: individual-control-info.md
@@ -1407,7 +1407,7 @@
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-getitemflags
                         - name: GetOverlayImage
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-getoverlayimage
-                        - name: Fusionner
+                        - name: Fusionner (Merge)
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-merge
                         - name: Supprimer
                           href: /windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-remove
@@ -3254,7 +3254,7 @@
                       href: use-word-and-line-break-information.md
                     - name: Comment utiliser les opérations du presse-papiers RichEdit
                       href: use-rich-edit-clipboard-operations.md
-                    - name: Utilisation des flux
+                    - name: Comment utiliser Flux
                       href: use-streams.md
                     - name: Comment redimensionner automatiquement les contrôles RichEdit
                       href: automatically-resize-rich-edit-controls.md
@@ -4284,7 +4284,7 @@
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-paste
                             - name: ScrollIntoView
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-scrollintoview
-                            - name: Sélectionnez
+                            - name: Sélectionner
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-select
                             - name: SetChar
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-setchar
@@ -5391,9 +5391,9 @@
                     - name: Comment utiliser le suivi à chaud avec les barres d’outils
                       href: use-hot-tracking-with-toolbars.md
                     - name: Comment créer une barre d’outils de style Internet Explorer
-                      href: cc-faq-ietoolbar.md
+                      href: cc-faq-ietoolbar.yml
                     - name: Comment créer une barre de menus de style Internet Explorer
-                      href: cc-faq-iemenubar.md
+                      href: cc-faq-iemenubar.yml
             - name: Référence du contrôle ToolBar
               href: bumper-toolbar-toolbar-control-reference.md
               items:
@@ -5861,7 +5861,7 @@
                       href: process-trackbar-notification-messages.md
                     - name: Comment limiter le mouvement d’un curseur
                       href: limit-slider-movement.md
-                    - name: Utilisation des fenêtres d’amis
+                    - name: Guide pratique pour utiliser un Windows associé
                       href: use-buddy-windows.md
             - name: Référence du contrôle TrackBar
               href: bumper-trackbar-trackbar-control-reference.md
@@ -6662,7 +6662,7 @@
     - name: Styles visuels
       href: themes-overview.md
       items:
-        - name: What's New
+        - name: Nouveautés
           href: what-s-new-for-windows-8.md
         - name: Vue d’ensemble des styles visuels
           href: visual-styles-overview.md

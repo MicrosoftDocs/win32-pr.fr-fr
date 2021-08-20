@@ -4,36 +4,36 @@ description: Attributs d’élément multimédia
 ms.assetid: d43addec-e06c-4ef3-9012-3ecf589b105c
 keywords:
 - Lecteur Windows Media, bibliothèque
-- Modèle objet du lecteur Windows Media, bibliothèque
+- Lecteur Windows Media modèle objet, bibliothèque
 - modèle objet, bibliothèque
-- Windows Media Player Mobile, bibliothèque pour le modèle objet
-- Contrôle ActiveX du lecteur Windows Media, bibliothèque pour le modèle objet
-- Windows Media Player Mobile contrôle ActiveX, bibliothèque pour le modèle objet
-- Contrôle ActiveX, bibliothèque pour le modèle objet
-- Lecteur Windows Media, attributs des éléments multimédias
-- Modèle objet du lecteur Windows Media, attributs des éléments multimédias
+- Lecteur Windows Media Mobile, bibliothèque pour le modèle objet
+- Lecteur Windows Media ActiveX contrôle, bibliothèque pour le modèle objet
+- Lecteur Windows Media contrôle Mobile ActiveX, bibliothèque pour le modèle objet
+- contrôle ActiveX, bibliothèque pour le modèle objet
+- Lecteur Windows Media, attributs pour les éléments multimédias
+- Lecteur Windows Media modèle objet, attributs pour les éléments multimédias
 - modèle objet, attributs pour les éléments multimédias
-- Windows Media Player Mobile, attributs pour les éléments multimédias
-- Contrôle ActiveX du lecteur Windows Media, attributs des éléments multimédias
-- Contrôle ActiveX Windows Media Player Mobile, attributs des éléments multimédias
-- Contrôle ActiveX, attributs pour les éléments multimédias
-- Bibliothèque du lecteur Windows Media, attributs pour les éléments multimédias
+- Lecteur Windows Media Mobile, attributs pour les éléments multimédias
+- Lecteur Windows Media ActiveX contrôle, attributs pour les éléments multimédias
+- Lecteur Windows Media contrôle de ActiveX Mobile, attributs pour les éléments multimédias
+- contrôle ActiveX, attributs pour les éléments multimédias
+- bibliothèque de Lecteur Windows Media, attributs des éléments multimédias
 - bibliothèque, attributs pour les éléments multimédias
 - attributs, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ac8595cc07504c9cd3e195431513a1f8565e87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b511fd3ed06a93f518a7ba8c3113a921cb2843d87f2451657b0e0e19c5b7a130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054617"
 ---
 # <a name="media-item-attributes"></a>Attributs d’élément multimédia
 
-Lorsque vous examinez la bibliothèque dans le lecteur Windows Media, vous voyez généralement une grande quantité d’informations sur un élément multimédia. En plus du nom d’une piste audio, par exemple, vous verrez probablement le nom de l’album sur lequel se trouve la piste, les noms de l’artiste et du compositeur, le genre de la musique, et ainsi de suite.
+lorsque vous examinez la bibliothèque dans Lecteur Windows Media, vous voyez généralement une grande quantité d’informations sur un élément multimédia. En plus du nom d’une piste audio, par exemple, vous verrez probablement le nom de l’album sur lequel se trouve la piste, les noms de l’artiste et du compositeur, le genre de la musique, et ainsi de suite.
 
-Dans le modèle objet du lecteur Windows Media, ces éléments de métadonnées sont appelés attributs. Le modèle objet comprend des propriétés et des méthodes que vous pouvez utiliser pour interroger des éléments multimédias et des sélections pour les attributs. Vous pouvez ensuite afficher des valeurs d’attribut dans votre interface utilisateur ou votre code peut prendre des mesures en fonction de la valeur d’un attribut.
+dans le modèle objet Lecteur Windows Media, ces éléments de métadonnées sont appelés attributs. Le modèle objet comprend des propriétés et des méthodes que vous pouvez utiliser pour interroger des éléments multimédias et des sélections pour les attributs. Vous pouvez ensuite afficher des valeurs d’attribut dans votre interface utilisateur ou votre code peut prendre des mesures en fonction de la valeur d’un attribut.
 
 Les rubriques suivantes décrivent l’utilisation des attributs d’élément multimédia.
 
@@ -50,7 +50,7 @@ Les rubriques suivantes décrivent l’utilisation des attributs d’élément m
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -62,9 +62,9 @@ Les rubriques suivantes décrivent l’utilisation des attributs d’élément m
 [**Utilisation de la bibliothèque**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

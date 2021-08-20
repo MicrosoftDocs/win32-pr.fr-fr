@@ -3,7 +3,7 @@ title: Message TB_REPLACEBITMAP (commctrl. h)
 description: Remplace une image bitmap existante par une nouvelle image bitmap.
 ms.assetid: abad5c7a-ebdd-46b5-a465-fe64ff8eb127
 keywords:
-- TB_REPLACEBITMAP les contrôles de message Windows
+- TB_REPLACEBITMAP les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0216d73f70f9bef8230d7e725834d63d60012798
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11dd964691b8b854feb09f93bc03673c46103bb34842e326e0f433cfd1fcc77f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968049"
 ---
 # <a name="tb_replacebitmap-message"></a>TO \_ REPLACEBITMAP message
 
@@ -49,8 +49,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 
