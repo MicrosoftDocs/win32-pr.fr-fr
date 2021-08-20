@@ -4,12 +4,12 @@ description: Cette rubrique présente les ressources Direct3D, telles que les m�
 ms.assetid: 9e991ab0-9648-484a-9a2c-5391ee5abf20
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb466883991795a66eec0ba1b99f5c989fa33c1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a1cc6f9ba62bdfedc59ff2a152588ccad3d81423d55f8c230ff3836c52e5251d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098244"
 ---
 # <a name="introduction-to-a-resource-in-direct3d-11"></a>Présentation d’une ressource dans Direct3D 11
 
@@ -64,7 +64,7 @@ Une vue expose également d’autres fonctionnalités telles que la capacité à
 
 
 
- 
+ 
 
 ## <a name="raw-views-of-buffers"></a>Affichages bruts de mémoires tampons
 
@@ -89,6 +89,6 @@ Pour créer un affichage brut dans une mémoire tampon, vous devez d’abord app
 [Nouveaux types de ressources](direct3d-11-advanced-stages-cs-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

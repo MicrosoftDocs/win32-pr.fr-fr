@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f40a4bbc770309f293008741caf60dc75230f0c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48113ce3c537da6f7f7df53f31c700c41d5db3d9620731b7ff3aa0a9bc34bd76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117709262"
 ---
 # <a name="esentinvalidnameexception-constructor"></a>Constructeur EsentInvalidNameException
 

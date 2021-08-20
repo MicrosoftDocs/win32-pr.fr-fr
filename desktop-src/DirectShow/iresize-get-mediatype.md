@@ -24,7 +24,7 @@ ms.locfileid: "117818230"
 # <a name="iresizeget_mediatype-method"></a>IResize :: obtient la \_ méthode MediaType
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

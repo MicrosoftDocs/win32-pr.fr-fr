@@ -4,17 +4,17 @@ description: Une zone de groupe est un cadre rectangulaire étiqueté qui entour
 ms.assetid: 5b5ffb36-3ed1-44cd-af87-5cddf46c56a6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 67f930383f2d4412d30027971c6cab2bd3edcccd
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 335382225e2d9dbb5a216e5aa64dbb5d6047d34845e2bfd72a4866ebafa0fca3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104564786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118039894"
 ---
 # <a name="group-boxes"></a>Zones de groupe
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Une zone de groupe est un cadre rectangulaire étiqueté qui entoure un ensemble de contrôles connexes. Une zone de groupe est un moyen d’afficher les relations visuellement. Hormis le fait que vous fournissez éventuellement une clé d’accès pour un groupe de contrôles, elle ne fournit aucune fonctionnalité.
 
@@ -31,7 +31,7 @@ Zone de groupe classique.
 
 Tandis que les zones de groupe sont un moyen visuel fort d’indiquer les relations, leur utilisation augmente l’encombrement visuel et réduit considérablement l’espace disponible sur une surface. Elles sont visuellement lourdes et doivent être utilisées avec modération, uniquement lorsqu’il n’y a pas de meilleure solution.
 
-Une tendance à la conception dans Windows est une apparence plus simple et plus claire en éliminant les lignes inutiles.
+une tendance à la conception dans Windows est une apparence plus simple et plus claire en éliminant les lignes inutiles.
 
 Pour déterminer si une zone de groupe est nécessaire, posez-vous les questions suivantes :
 

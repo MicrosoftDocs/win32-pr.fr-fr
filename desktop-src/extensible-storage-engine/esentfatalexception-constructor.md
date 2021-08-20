@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: e3a89c5c7ee41f893a8d6456a9a72202b0f067ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0940af9a0b6abdab4c81478051bf1dea77993f7f59db0d6e0e78e9815b849abe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104557054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117710845"
 ---
 # <a name="esentfatalexception-constructor"></a>Constructeur EsentFatalException
 
@@ -32,7 +32,7 @@ Inclure les membres hérités
 <thead>
 <tr class="header">
 <th> </th>
-<th>Nom</th>
+<th>Name</th>
 <th>Description</th>
 </tr>
 </thead>

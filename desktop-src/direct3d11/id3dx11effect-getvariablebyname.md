@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e6079e7f45c21d9d7326021b2c439ab12e4e031
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b3e8741eaf2ced1022a130ecb94c7f8553159e862ca23b50ba4d12786ad37620
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118099042"
 ---
 # <a name="id3dx11effectgetvariablebyname-method"></a>ID3DX11Effect :: GetVariableByName, méthode
 
@@ -58,7 +58,7 @@ Type : **[ **ID3DX11EffectVariable**](id3dx11effectvariable.md)\***
 
 Pointeur vers un [**ID3DX11EffectVariable**](id3dx11effectvariable.md). Retourne une variable non valide si le nom spécifié est introuvable.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un effet peut contenir une ou plusieurs variables. Les variables en dehors d’une technique sont considérées comme globales pour tous les effets, celles qui se trouvent à l’intérieur d’une technique sont locales à cette technique. Vous pouvez accéder à une variable Effect à l’aide de son nom ou d’un index.
 
@@ -69,7 +69,7 @@ La méthode retourne un pointeur vers une [**interface d’effet-variable,**](id
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 684dc50f-5d7b-4c95-85dd-77c320d65fff
 title: Utilisation de la sélectivité pour la restauration et les sous-composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d988f4c4e029c7dd8623ad22fcaee7662d33e82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1186c9517af8e7e7b914b9508e10a2b4c8d1961afdbf6d68c2dadcede58c4c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117937380"
 ---
 # <a name="working-with-selectability-for-restore-and-subcomponents"></a>Utilisation de la sélectivité pour la restauration et les sous-composants
 

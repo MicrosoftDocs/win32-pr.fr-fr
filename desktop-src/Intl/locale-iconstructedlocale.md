@@ -4,18 +4,18 @@ ms.assetid: 5557ee1e-09bf-0d0b-8e73-df32d9a406dd
 title: LOCALE_ICONSTRUCTEDLOCALE
 ms.topic: article
 ms.date: 09/01/2020
-ms.openlocfilehash: 120c206a14030a182378977c9e68fb7dcd77200d
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: 26d54ce55393f54d56f521231e257a8b0692758f8e6c830a890d81c8f82e8422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "106541569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117809637"
 ---
 # <a name="locale_iconstructedlocale"></a>paramètres régionaux \_ ICONSTRUCTEDLOCALE
 
 Identificateur à demander si les paramètres régionaux sont des paramètres régionaux « construits ». L’utilisation de ce LCTYPE est déconseillée.
 
-Cela identifie les paramètres régionaux pour lesquels Windows n’ont pas d’informations complètes et qui doivent « construire » des informations au moment de l’exécution. En général, les informations fournies par LOCALE_ICONSTRUCTEDLOCALE sont limitées, car Windows fournira autant de données que possible pour chaque paramètre régional. Par conséquent, l’utilisation de ce LCTYPE est déconseillée.
+cela identifie les paramètres régionaux pour lesquels Windows nombre n’ont pas d’informations complètes et doit « construire » des informations au moment de l’exécution. en général, les informations fournies par LOCALE_ICONSTRUCTEDLOCALE sont limitées en ce qui concerne Windows fournira autant de données que possible pour chaque paramètre régional. Par conséquent, l’utilisation de ce LCTYPE est déconseillée.
 
 
 | Valeur | Signification                 |

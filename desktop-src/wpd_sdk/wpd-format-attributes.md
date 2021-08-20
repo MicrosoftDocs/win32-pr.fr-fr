@@ -1,5 +1,5 @@
 ---
-description: 'Pour Windows 7, Windows Mobile Devices prend en charge les attributs suivants pour les formats sur un service d’appareil. Ces attributs sont retournés par la méthode IPortableDeviceServiceCapabilities :: GetFormatAttributes.'
+description: 'pour Windows 7, Windows appareils mobiles prend en charge les attributs suivants pour les formats sur un service d’appareil. Ces attributs sont retournés par la méthode IPortableDeviceServiceCapabilities :: GetFormatAttributes.'
 ms.assetid: 53282e01-54da-4adf-8a09-2086d6398275
 title: Attributs de format (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 559f731ec7d61007b05e4625ff67488b5ef482fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8144c8a290b6ab7e3d3b13b1f3ee53d377e015950fea6d7e1ebf6786fd9d854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117652693"
 ---
 # <a name="format-attributes"></a>Attributs de format
 
-Pour Windows 7, Windows Mobile Devices prend en charge les attributs suivants pour les formats sur un service d’appareil. Ces attributs sont retournés par la méthode [**IPortableDeviceServiceCapabilities :: GetFormatAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes) .
+pour Windows 7, Windows appareils mobiles prend en charge les attributs suivants pour les formats sur un service d’appareil. Ces attributs sont retournés par la méthode [**IPortableDeviceServiceCapabilities :: GetFormatAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes) .
 
 
 
@@ -36,7 +36,7 @@ Pour Windows 7, Windows Mobile Devices prend en charge les attributs suivants po
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

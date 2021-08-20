@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d77fc3cced4644a85c995b2a57e39a01f1dbcbda
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66333ec0bccd60c0673faaa595af727157286bf0f92c44cba1743f6e86b76502
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117707174"
 ---
 # <a name="esenttoomanyattacheddatabasesexception-constructor"></a>Constructeur EsentTooManyAttachedDatabasesException
 

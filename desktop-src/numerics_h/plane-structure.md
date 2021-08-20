@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d870e2769121b4aec542235081011406e439d579
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1479841c5e82c47e98b255d718bf1c74f50feafdec8b2bb951c43fa46cab71b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869571"
 ---
 # <a name="plane-structure"></a>structure du plan
 
@@ -39,7 +39,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 ## <a name="functions"></a>Fonctions
 
-| Nom | Description |
+| Name | Description |
 |-|-|
 | `plane make_plane_from_vertices(float3 const& point1, float3 const& point2, float3 const& point3)` | Crée un plan à partir d’un ensemble de trois positions de vertex, qui doivent toutes être différentes et ne pas être en ligne droite. |
 | `plane normalize(plane const& value)` | Modifie les coefficients du vecteur normal d’un plan pour l’ajuster à la longueur de l’unité. |
@@ -51,7 +51,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 ## <a name="operators"></a>Opérateurs
 
-| Nom | Description |
+| Name | Description |
 |-|-|
 | `bool operator== (plane const& value1, plane const& value2)` | Détermine si deux instances de plan sont égales. |
 | `bool operator!= (plane const& value1, plane const& value2)` | Détermine si deux instances de plan ne sont pas égales. |
@@ -64,11 +64,11 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 | `float3 normal` | Vecteur normal du plan. |
 | `float d` | Distance du plan le long de sa normale par rapport à l’origine. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 | Condition requise | Valeur |
 |-|-|
-| Espace de noms | Windows :: Foundation :: Numerics |
+| Espace de noms | Windows :: Foundation :: numerics |
 | En-tête | <dl> <dt>Windowsnumerics. h</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi

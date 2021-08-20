@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: fe4303d9df61b5324469c1dad1290eeb2ab616aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b141b367e29aca5e1ec1bd6555d2e0cb74dc2305f3e31f03bb6191db06c5a794
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117957039"
 ---
 # <a name="counteritem-methods"></a>Méthodes CounterItem
 
@@ -24,9 +24,9 @@ La classe [**CounterItem**](counteritem.md) a les méthodes suivantes :
 -   [**GetStatistics**](counteritem-getstatistics.md)
 -   [**GetValue**](counteritem-getvalue.md)
 
- 
+ 
 
- 
+ 
 
 
 

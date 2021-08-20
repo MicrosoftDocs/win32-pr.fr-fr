@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6348d4c42039c5aff47998721119c16317e22791
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c2ac165c27ad0e29579cbde165c48adb98853b16b17ebc3b022c3ba5711e52b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095205"
 ---
 # <a name="d3dxvec4lengthsq-function"></a>D3DXVec4LengthSq fonction)
 
@@ -55,7 +55,7 @@ Type : **[ **float**](../winprog/windows-data-types.md)**
 
 Longueur au carré du vecteur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

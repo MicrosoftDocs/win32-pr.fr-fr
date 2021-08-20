@@ -878,7 +878,7 @@ Vous savez maintenant comment mesurer les changements d’État. Commencez par P
 
 Avec cette fonctionnalité, vous pouvez commencer à générer des séquences de rendu arbitraires et mesurer précisément le travail du runtime et du pilote associé. Les numéros peuvent ensuite être utilisés pour répondre à des questions de budgétisation, telles que le « nombre de ces appels », peuvent être effectuées dans la séquence de rendu tout en maintenant une fréquence d’images raisonnable, en supposant des scénarios limités par le processeur.
 
-## <a name="summary"></a>Récapitulatif
+## <a name="summary"></a>Résumé
 
 Cet article montre comment contrôler le tampon de commande afin que les appels individuels puissent être profilés avec précision. Les nombres de profilage peuvent être générés en graduations, en cycles ou en temps absolu. Ils représentent la quantité de travail d’exécution et de pilote associée à chaque appel d’API.
 

@@ -232,7 +232,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 -   **Ne pas faire clignoter le bouton de la barre des tâches pour attirer l’attention sur un changement d’État.** Cela serait trop gênant. Permet aux utilisateurs de découvrir eux-mêmes les icônes de superposition.
 -   **Préférer les icônes de superposition standard pour indiquer l’État ou les modifications d’État.** Utilisez les icônes de superposition standard suivantes : 
 
-    | Overlay | Statut |
+    | Overlay | État |
     |---------------------------------------------------------------------------------------------------|----------------------------------|
     | ![capture d’écran de petite icône d’avertissement ](images/winenv-taskbar-image20.png)<br/>               | Avertissement<br/>               |
     | ![capture d’écran de l’icône d’erreur de petite taille ](images/winenv-taskbar-image21.png)<br/>                 | Erreur<br/>                 |

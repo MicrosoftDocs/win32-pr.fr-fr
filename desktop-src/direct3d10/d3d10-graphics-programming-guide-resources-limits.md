@@ -4,12 +4,12 @@ ms.assetid: 79c13aed-87bd-4875-9810-c3e078f58753
 title: Limites des ressources (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ea3e3a181605e548c4e9f0a8b69691564163799
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e93617f77306a85290f4846e0b767e971db5c627659aa8b4bbf8249e3e7a88f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118100961"
 ---
 # <a name="resource-limits-direct3d-10"></a>Limites des ressources (Direct3D 10)
 

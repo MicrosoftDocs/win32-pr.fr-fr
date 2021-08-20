@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bdf251d8b5618916365348ab3bf62a89ea552de1
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 06e070c16c482038097245325d884ef6b71d2249afb2aa89ad5ec1d37f86c9e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117906346"
 ---
 # <a name="ps"></a>ps
 
@@ -43,9 +43,9 @@ Les arguments d’entrée contiennent un seul numéro de version principale avec
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -55,7 +55,7 @@ Les arguments d’entrée contiennent un seul numéro de version principale avec
 
 
 
- 
+ 
 
 Cette instruction doit être la première instruction sans commentaire dans un nuanceur de pixels.
 
@@ -88,9 +88,9 @@ ps_1_4
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

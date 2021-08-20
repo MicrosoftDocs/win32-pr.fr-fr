@@ -5,12 +5,12 @@ ms.assetid: 5F6CC962-7DB7-489F-82A4-9388313014D3
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cd04c0c7702f00f1338ce884adc745522390c8d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ba58a72fa3cbb22b69cf4a31fb3ac88ce2b6b47cac3f0e334db4ec86dfd8e0f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098331"
 ---
 # <a name="direct3d-12-return-codes"></a>Codes de retour Direct3D 12
 
@@ -33,7 +33,7 @@ Voici les codes de retour des fonctions API. Pour plus d’informations sur les 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -42,6 +42,6 @@ Voici les codes de retour des fonctions API. Pour plus d’informations sur les 
 [Référence de Direct3D 12](direct3d-12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

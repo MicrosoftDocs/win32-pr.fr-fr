@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 38ab58ed15609d468d25f4406353448e4fd6adb4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8ad26017bdc3095aaa23bd17f2b90f76b805502781c08ba393047a90714ad50c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096564"
 ---
 # <a name="d3dxcreateeffectcompiler-function"></a>D3DXCreateEffectCompiler fonction)
 
@@ -82,7 +82,7 @@ Pointeur d’interface facultatif, [**ID3DXInclude**](id3dxinclude.md), à utili
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -109,13 +109,13 @@ Adresse d’un pointeur vers une interface [**ID3DXBuffer**](id3dxbuffer.md) con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

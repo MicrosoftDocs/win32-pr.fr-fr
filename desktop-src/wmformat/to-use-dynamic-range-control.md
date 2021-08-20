@@ -3,36 +3,36 @@ title: Pour utiliser le contrôle de plage dynamique
 description: Pour utiliser le contrôle de plage dynamique
 ms.assetid: 719658c1-952f-4e8f-a3ea-bdf89a0a7268
 keywords:
-- Kit de développement logiciel (SDK) Windows Media format, contrôle de plage dynamique
-- SDK du format Windows Media, codec Windows Media Audio 9 professionnel
+- Windows Kit de développement logiciel (SDK) Media format, contrôle de plage dynamique
+- Windows Media Format SDK, Windows Media Audio 9 Professional codec
 - Windows Media Format SDK, Windows Media Audio 9 codec sans perte
-- Format ASF (Advanced Systems Format), codec Windows Media Audio 9 professionnel
-- ASF (format des systèmes avancés), codec Windows Media Audio 9 professionnel
+- Format ASF (Advanced Systems Format), Windows Media Audio 9 Professional codec
+- ASF (Advanced Systems Format), Windows Media Audio 9 Professional codec
 - ASF (Advanced Systems Format), codec Windows Media Audio 9 sans perte
-- ASF (format des systèmes avancés), codec Windows Media Audio 9 sans perte
+- ASF (Format des systèmes avancés), codec Windows Media Audio 9 sans perte
 - ASF (Advanced Systems Format), contrôle de plage dynamique
 - ASF (format de systèmes avancés), contrôle de plage dynamique
 - contrôle de plage dynamique
 - codecs, codec Windows Media Audio 9 sans perte
-- codecs, codec Windows Media Audio 9 professionnel
-- Codec Windows Media Audio 9 sans perte, contrôle de plage dynamique
-- Codec Windows Media Audio 9 Professional, contrôle de plage dynamique
+- codecs, Windows Media Audio 9 Professional codec
+- Windows Codec audio 9 sans perte, contrôle de plage dynamique
+- Windows codec Audio 9 Professional, contrôle de plage dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 077ebc0052d0154aec395f371a5c2dc3ffd46c67
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 55251dd88ce7b9427fcee33d5988a3736b4b6f36838e269bb53a11f3b5480f05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106511874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653862"
 ---
 # <a name="to-use-dynamic-range-control"></a>Pour utiliser le contrôle de plage dynamique
 
 La plage dynamique d’une partie du contenu audio correspond fondamentalement à la différence entre le volume le plus bas et le volume maximal. Si la plage dynamique du contenu est trop élevée, les utilisateurs peuvent être amenés à ajuster le volume à plusieurs reprises lors de la lecture. Par exemple, les films ont souvent une plage dynamique élevée. Souvent, lorsque le volume est ajusté pour que la boîte de dialogue puisse être comprise pendant les scènes calmes, d’autres parties du film avec des effets sonores ou musicaux sont plus intenses que nécessaire.
 
-Les codecs Windows Media Audio 9 Professional et Windows Media Audio 9 Lossless prennent en charge une fonctionnalité appelée contrôle de plage dynamique. Au moment de l’encodage, le codec calcule le pic et les valeurs d’amplitude moyennes dans le contenu, et l’objet enregistreur stocke ces valeurs dans les métadonnées du flux lorsque l’encodage est terminé. Éventuellement, une application peut également écrire des valeurs « cibles » en tant que métadonnées que les applications de lecteur et le décodeur peuvent utiliser comme indications lors de la lecture du fichier. Au moment de la lecture, une application peut spécifier le niveau de contrôle de plage dynamique à appliquer au flux audio.
+les codecs Windows Media Audio 9 Professional et Windows Media Audio 9 Lossless prennent en charge une fonctionnalité appelée contrôle de plage dynamique. Au moment de l’encodage, le codec calcule le pic et les valeurs d’amplitude moyennes dans le contenu, et l’objet enregistreur stocke ces valeurs dans les métadonnées du flux lorsque l’encodage est terminé. Éventuellement, une application peut également écrire des valeurs « cibles » en tant que métadonnées que les applications de lecteur et le décodeur peuvent utiliser comme indications lors de la lecture du fichier. Au moment de la lecture, une application peut spécifier le niveau de contrôle de plage dynamique à appliquer au flux audio.
 
-Le lecteur Windows Media implémente le contrôle de plage dynamique comme fonctionnalité en mode silencieux.
+Lecteur Windows Media implémente le contrôle de plage dynamique comme fonctionnalité en Mode silencieux.
 
 ## <a name="when-to-use-dynamic-range-control"></a>Quand utiliser le contrôle de plage dynamique
 
@@ -58,9 +58,9 @@ Le décodeur au moment de la lecture calcule la plage dynamique en fonction du n
 
 
 
- 
+ 
 
-Notez que le contrôle de plage dynamique est une fonctionnalité de décodage uniquement et qui existe uniquement en tant que métadonnées dans le fichier lui-même. Ces paramètres n’ont aucun effet sur le contenu stocké dans le fichier, sauf si vous indiquez spécifiquement au décodeur de les utiliser. Le kit de développement logiciel (SDK) du format Windows Media ne fournit aucune méthode de modification de la plage dynamique des données audio au moment de l’encodage.
+Notez que le contrôle de plage dynamique est une fonctionnalité de décodage uniquement et qui existe uniquement en tant que métadonnées dans le fichier lui-même. Ces paramètres n’ont aucun effet sur le contenu stocké dans le fichier, sauf si vous indiquez spécifiquement au décodeur de les utiliser. le kit de développement logiciel (SDK) Windows Media Format ne fournit aucune méthode de modification de la plage dynamique des données audio au moment de l’encodage.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -69,9 +69,9 @@ Notez que le contrôle de plage dynamique est une fonctionnalité de décodage u
 [**Rubriques avancées**](advanced-topics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

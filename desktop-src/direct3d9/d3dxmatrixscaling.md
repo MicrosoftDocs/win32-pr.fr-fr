@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 97ccd4cc6207bb211259833d163793c3499b51a1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c7262a67c8d73db358ed0992a4030320a4faa2a5290eb7e727a9457b92a8a56f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095520"
 ---
 # <a name="d3dxmatrixscaling-function-d3dx9mathh"></a>D3DXMatrixScaling, fonction (D3dx9math. h)
 
@@ -79,17 +79,17 @@ Facteur d’échelle appliqué le long de l’axe z.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers la transformation de mise à l’échelle [**D3DXMATRIX**](d3dxmatrix.md).
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXMatrixScaling** peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
