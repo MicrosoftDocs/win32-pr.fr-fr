@@ -1,25 +1,25 @@
 ---
 title: Fournisseur WMI DNS
-description: Le fournisseur WMI DNS permet aux administrateurs et aux programmeurs de configurer les enregistrements de ressource DNS (Domain Name System) et les serveurs DNS à l’aide d’Windows Management Instrumentation (WMI).
+description: le fournisseur WMI DNS permet aux administrateurs et aux programmeurs de configurer les enregistrements de ressource dns (domain Name System) et les serveurs dns à l’aide d’Windows Management Instrumentation (WMI).
 ms.assetid: 5388d589-b2d3-47e6-be53-f738188e3552
 keywords:
 - Domain Name System, fournisseur WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 566018f8c4168e66c24942a8861d937d217b8f0a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a06ceb2093bb4fdf06ddbc4d06b50ed183f1e810dd8e8187887f07b1b63a426
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163716"
 ---
 # <a name="dns-wmi-provider"></a>Fournisseur WMI DNS
 
-Le fournisseur WMI DNS permet aux administrateurs et aux programmeurs de configurer les enregistrements de ressource DNS (Domain Name System) et les serveurs DNS à l’aide d’Windows Management Instrumentation (WMI).
+le fournisseur WMI DNS permet aux administrateurs et aux programmeurs de configurer les enregistrements de ressource dns (domain Name System) et les serveurs dns à l’aide d’Windows Management Instrumentation (WMI).
 
- 
+ 
 
- 
+ 
 
 
 

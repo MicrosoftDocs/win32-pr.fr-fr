@@ -3,7 +3,7 @@ title: Attribut UserCustom2
 description: L’attribut UserCustom2 est un texte défini par l’utilisateur.
 ms.assetid: 95e2882f-b757-4ebf-977f-7d66677d2d66
 keywords:
-- Attribut UserCustom2 lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserCustom2
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33649c62e87f9a970cdac1d62ba7f5e439609c20
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 14e4e7e2f5a1b6a31d58f241c948db1b57e565bf3f893e5f8f4ff005efbd1184
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117314"
 ---
 # <a name="usercustom2-attribute"></a>Attribut UserCustom2
 
@@ -31,7 +31,7 @@ L’attribut **UserCustom2** est un texte défini par l’utilisateur.
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
@@ -43,7 +43,7 @@ Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans le lecteur Windows Media 10 ou version ultérieure)<br/> |
+| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans Lecteur Windows Media 10 ou version ultérieure)<br/> |
 
 
 

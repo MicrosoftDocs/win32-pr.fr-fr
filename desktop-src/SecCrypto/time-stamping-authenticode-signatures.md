@@ -4,12 +4,12 @@ ms.assetid: d0bd3e2f-1eee-4f71-9467-974994f720d5
 title: Horodatage des signatures Authenticode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0232853441d2c11d331c175ac7e8dfd120b341ff
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: 9c28f0caa0e16c19ead7922e481a6298d45dd20ca62353e87037517009ac35af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117972043"
 ---
 # <a name="time-stamping-authenticode-signatures"></a>Horodatage des signatures Authenticode
 
@@ -17,7 +17,7 @@ Les signatures Microsoft Authenticode fournissent des garanties en matière d’
 
 ## <a name="a-brief-introduction-to-authenticode"></a>Brève présentation d’Authenticode
 
-[*Authenticode*](../secgloss/a-gly.md) applique la technologie de signature numérique pour garantir la création et l’intégrité des données binaires telles que les logiciels installables. Un navigateur Web client ou d’autres composants système peuvent utiliser les signatures Authenticode pour vérifier l’intégrité des données lors du téléchargement ou de l’installation du logiciel. Les signatures Authenticode peuvent être utilisées avec de nombreux formats de logiciel, notamment. cab,. exe,. ocx et. dll.
+[*Authenticode*](../secgloss/a-gly.md) applique la technologie de signature numérique pour garantir la création et l’intégrité des données binaires telles que les logiciels installables. Un navigateur Web client ou d’autres composants système peuvent utiliser les signatures Authenticode pour vérifier l’intégrité des données lors du téléchargement ou de l’installation du logiciel. Les signatures Authenticode peuvent être utilisées avec de nombreux formats de logiciel, notamment .cab, .exe,. ocx et .dll.
 
 Microsoft gère une liste d' [*autorités de certification*](/security/trusted-root/participants-list) publiques (ca). Les émetteurs de certificats Authenticode incluent actuellement [SSL.com](https://www.ssl.com/), [DigiCert](https://www.digicert.com/), [Sectigo (Comodo)](https://www.sectigo.com/)et [GlobalSign](https://www.globalsign.com/).
 
@@ -61,7 +61,7 @@ Un exemple d’attribut authentifié est le temps de signature (OID 1.2.840.1135
 
 ## <a name="signtool-and-the-authenticode-process"></a>SignTool et le processus Authenticode
 
-[SignTool](signtool.md) est disponible pour la signature Authenticode et l’horodatage des données binaires. L’outil est installé dans le \\ dossier bin du chemin d’installation du kit de développement logiciel (SDK) Microsoft Windows.
+[SignTool](signtool.md) est disponible pour la signature Authenticode et l’horodatage des données binaires. l’outil est installé dans le \\ dossier Bin du chemin d’installation du kit de développement logiciel (SDK) de Microsoft Windows.
 
 La signature et l’horodatage des données binaires sont relativement simples à l’aide de [SignTool](signtool.md). Le serveur de publication doit obtenir un certificat de signature de code d’une autorité de certification de signature de code commercial. Pour plus de commodité, Microsoft publie et met à jour une liste des autorités de certification publiques, y compris celles qui émettent des certificats Authenticode. Lorsqu’ils sont prêts à être publiés, les fichiers objets sont signés et l’horodatage est indiqué à l’aide des paramètres de ligne de commande appropriés avec l’outil SignTool. Le résultat d’une opération SignTool est toujours \# au format PKCS 7 [**SignedData**](signeddata.md).
 
@@ -81,7 +81,7 @@ Pour plus d’informations sur les outils qui peuvent être utiles dans ce conte
 
 ## <a name="implementation-details-and-wire-format"></a>Détails de l’implémentation et format de câble
 
-[SignTool](signtool.md) s’appuie sur l’implémentation de Windows Authenticode pour créer des signatures d’horodatage. [*Authenticode*](../secgloss/a-gly.md) fonctionne sur les fichiers binaires, par exemple. cab,. exe,. dll ou. ocx. Authenticode crée d’abord la signature, en produisant \# un [**SignedData**](signeddata.md)PKCS 7. C’est ce **SignedData** qui doit être contresigné, comme décrit dans PKCS \# 9.
+[SignTool](signtool.md) s’appuie sur l’implémentation Windows Authenticode pour créer et horodater des signatures. [*Authenticode*](../secgloss/a-gly.md) fonctionne sur les fichiers binaires, par exemple .cab, .exe, .dll ou. ocx. Authenticode crée d’abord la signature, en produisant \# un [**SignedData**](signeddata.md)PKCS 7. C’est ce **SignedData** qui doit être contresigné, comme décrit dans PKCS \# 9.
 
 Le processus de contre-signature a lieu en quatre étapes :
 
@@ -92,7 +92,7 @@ Le processus de contre-signature a lieu en quatre étapes :
 
 ## <a name="time-stamp-request"></a>Demande d’horodatage
 
-La demande d’horodatage est envoyée dans un message HTTP 1,1 postal. Dans l’en-tête HTTP, la directive CacheControl est définie sur no-cache, et la directive Content-type est définie sur application/octet-stream. Le corps du message HTTP est un encodage Base64 de [*Distinguished Encoding Rules*](../secgloss/d-gly.md) (der) de la demande d’horodatage.
+La demande d’horodatage est envoyée dans un message HTTP 1,1 postal. Dans l’en-tête HTTP, la directive CacheControl est définie sur no-cache, et la directive Content-type est définie sur application/octet-stream. le corps du message HTTP est un encodage base64 de [*Distinguished Encoding Rules*](../secgloss/d-gly.md) (DER) de la demande d’horodatage.
 
 Bien qu’il ne soit pas actuellement utilisé, la directive Content-Length doit également être utilisée lors de la construction du message HTTP, car elle permet au serveur d’horodatage de localiser l’emplacement où la requête se trouve dans le HTTP.
 

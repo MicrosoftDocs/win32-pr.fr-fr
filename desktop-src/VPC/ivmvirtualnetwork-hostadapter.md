@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0485303c2328a85c70779f16652121729546f3ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 72db5d8349572b2bd3549c2ee54d20e994bdfe8aed6ba0fbe31875e04f6942f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122679"
 ---
 # <a name="ivmvirtualnetworkhostadapter-property"></a>IVMVirtualNetwork :: HostAdapter, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère le nom de l’adaptateur auquel le réseau virtuel est connecté.
 
@@ -60,7 +60,7 @@ Nom de la carte hôte à laquelle le réseau virtuel est connecté.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La carte réseau virtuelle permet à un réseau virtuel de communiquer avec des réseaux externes. Il y a généralement une carte par carte Ethernet installée sur l’ordinateur hôte. Par exemple, supposons qu’un ordinateur hôte contenait un adaptateur étiqueté « 10/100 ENET ». Pour connecter une carte réseau virtuelle au réseau attaché à « 10/100 ENET », définissez la propriété réseau **Hostadapter** du réseau virtuel sur « 10/100 ENET » et connectez la carte réseau virtuelle à ce réseau virtuel.
 
@@ -74,7 +74,7 @@ La liste complète des adaptateurs est accessible par le biais de la propriété
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

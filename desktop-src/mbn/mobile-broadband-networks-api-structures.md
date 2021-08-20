@@ -4,12 +4,12 @@ ms.assetid: 391604b3-fbcb-47cb-b989-06bad68f787f
 title: Structures d’API haut débit mobile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a4c8cfc00dc26927cade9ac670ed28335ecf66f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e28132c34c2702258a7a1d230da583cbc3ce701eac02641ae4ed5fcc178584e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118066261"
 ---
 # <a name="mobile-broadband-api-structures"></a>Structures d’API haut débit mobile
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: c9c5e7653790e193c03b1cf4e0c489ea39c3eec3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8dc5b0af5746328ead68be3896148b7a4ddf79d6844a6d4ae976b2f29592d6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118045063"
 ---
 # <a name="ianalysisregion-interface"></a>Interface IAnalysisRegion
 
@@ -57,7 +57,7 @@ L’interface **IAnalysisRegion** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface représente une zone qui est construite à partir de régions rectangulaires. [**IInkAnalyzer**](iinkanalyzer.md) retourne ou interprète les coordonnées d’une zone dans l’espace de coordonnées dans lequel elle reçoit les données de trait.
 
@@ -74,15 +74,15 @@ Pour modifier la zone d’un **IAnalysisRegion** existant, utilisez les méthode
 -   [**IAnalysisRegion :: UnionRectangle, méthode**](ianalysisregion-unionrectangle.md)
 -   [**IAnalysisRegion :: UnionRegion, méthode**](ianalysisregion-unionregion.md)
 
-Cette interface est équivalente à la classe System. Windows. Ink. AnalysisCore. AnalysisRegionBase dans la .NET Framework.
+Cette interface est équivalente au système. Windows. Classe Ink. AnalysisCore. AnalysisRegionBase dans la .NET Framework.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

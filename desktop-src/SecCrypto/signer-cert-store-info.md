@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 197bd4855a7d2afec4c0b23662365e5f9197e302
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93524f631f9a9a761880eec5ebba5c97c66dcd8a67f85c6260d4598eba1a9764
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117973639"
 ---
 # <a name="signer_cert_store_info-structure"></a>Structure d' \_ \_ informations du magasin du certificat du signataire \_
 
@@ -82,18 +82,18 @@ Spécifie la manière dont les certificats sont ajoutés à la signature. Pour t
 **hCertStore**
 </dt> <dd>
 
-Optionnel. Handle d’un magasin de certificats supplémentaire.
+Facultatif. Handle d’un magasin de certificats supplémentaire.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

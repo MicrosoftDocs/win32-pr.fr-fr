@@ -3,7 +3,7 @@ title: LVN_ODCACHEHINT le code de notification (commctrl. h)
 description: Envoyé par un contrôle List-View virtuel lorsque le contenu de sa zone d’affichage a changé.
 ms.assetid: 2fac6a16-f65e-402f-9295-f2beb23db924
 keywords:
-- Contrôles Windows de code de notification LVN_ODCACHEHINT
+- LVN_ODCACHEHINT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 827ad81b6ebb66a4fbe5c1a3b283175818b99e98
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b3693291eeaef0879bdf861f392b89a1d0f2d5ec52f8a9c0d092b5495eb4565a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170176"
 ---
 # <a name="lvn_odcachehint-notification-code"></a>\_Code de notification LVN ODCACHEHINT
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMLVCACHEHINT**](/windows/win32/api/commctrl/ns-c
 
 L’application recevant ce code de notification doit retourner zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La gestion de ce message permet à l’application de mettre à jour les informations d’élément conservées dans le cache afin qu’elles soient facilement disponibles lorsqu’un code de notification [LVN \_ GETDISPINFO](lvn-getdispinfo.md) est envoyé.
 
@@ -61,8 +61,8 @@ Notez que ce code de notification n’est pas toujours une représentation exact
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

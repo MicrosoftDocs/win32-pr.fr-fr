@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cc3bbbbcf77407b7ced3424e9a18640538bb855
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4274a7024c50c7db3dcd25ef8d46e47bfeef7467b9251af32460808163346542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118025894"
 ---
 # <a name="httpcalculatorwithsslclientexample"></a>HttpCalculatorWithSslClientExample
 
@@ -341,9 +341,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

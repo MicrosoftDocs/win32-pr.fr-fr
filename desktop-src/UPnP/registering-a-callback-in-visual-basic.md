@@ -1,19 +1,19 @@
 ---
 title: Inscription d’un rappel dans Visual Basic
-description: L’ajout d’un rappel dans Visual Basic est différent de la méthode utilisée dans VBScript.
+description: l’ajout d’un rappel dans Visual Basic est différent de la méthode utilisée dans VBScript.
 ms.assetid: 6aebb855-cf5b-4134-b7f6-3a8b404b7ae8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa754235458820a3c16eea73eec247aed90a103f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e7145a6c6ef80ede3ea2fdb1fd62a2661142fb6f0a85454389fe1c09c117e5b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126222"
 ---
 # <a name="registering-a-callback-in-visual-basic"></a>Inscription d’un rappel dans Visual Basic
 
-L’ajout d’un rappel dans Visual Basic est différent de la méthode utilisée dans VBScript. La fonction **getRef** utilisée dans VBScript est différente de celle utilisée dans Visual Basic. Par conséquent, un développeur doit créer un objet [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) qui a la fonction de rappel comme méthode par défaut. Cette rubrique fournit les informations nécessaires pour développer des applications Visual Basic.
+l’ajout d’un rappel dans Visual Basic est différent de la méthode utilisée dans VBScript. La fonction **getRef** utilisée dans VBScript est différente de celle utilisée dans Visual Basic. Par conséquent, un développeur doit créer un objet [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) qui a la fonction de rappel comme méthode par défaut. cette rubrique fournit les informations nécessaires pour développer des applications Visual Basic.
 
 **Pour implémenter ce rappel dans une application**
 
@@ -88,8 +88,8 @@ Dans l’exemple suivant, l’objet [**IUPnPService**](/windows/desktop/api/Upnp
 
 Les exemples précédents et l’exemple de code de point de contrôle utilisent certaines des bibliothèques d’objets suivantes :
 
-1.  TLBTypes. olb : cette bibliothèque définit certaines des interfaces et types de bibliothèques de types utilisés dans l’exemple de code. Il définit certaines des fonctions à utiliser dans Visual Basic, telles que [**LoadTypeLibEx**](/windows/win32/api/oleauto/nf-oleauto-loadtypelibex), qui sont déjà disponibles en C ou C++.
-2.  VboostTypes6. olb : cette bibliothèque définit certains types de base utilisés dans TLBTypes. olb et FunctionDelegator. bas. Vous trouverez plus d’informations sur TLBTypes dans le livre *Advanced Visual Basic 6 : Power techniques for quotidiens Programs*, par Matthew Curland (Addison-Wesley, juillet 2000, ISBN : 0-201-70712-8). (Ce livre peut ne pas être disponible dans certains langages et pays.)
+1.  TLBTypes. olb : cette bibliothèque définit certaines des interfaces et types de bibliothèques de types utilisés dans l’exemple de code. il définit certaines des fonctions à utiliser dans Visual Basic, telles que [**LoadTypeLibEx**](/windows/win32/api/oleauto/nf-oleauto-loadtypelibex), qui sont déjà disponibles en C ou C++.
+2.  VboostTypes6. olb : cette bibliothèque définit certains types de base utilisés dans TLBTypes. olb et FunctionDelegator. bas. vous trouverez plus d’informations sur TLBTypes dans le livre *Advanced Visual Basic 6 : Power Techniques for quotidiens programs*, par Matthew Curland (Addison-Wesley, juillet 2000, ISBN : 0-201-70712-8). (Ce livre peut ne pas être disponible dans certains langages et pays.)
 
 L’exemple de code du point de contrôle et les bibliothèques suivantes sont associés à cette section et sont nécessaires pour implémenter ce rappel. Ils se trouvent avec l’exemple de code du point de contrôle :
 
@@ -99,6 +99,6 @@ L’exemple de code du point de contrôle et les bibliothèques suivantes sont a
 -   TLBTypes. olb
 -   FunctionDelegator. bas
 
- 
+ 
 
- 
+ 

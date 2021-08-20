@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 433da7d159f1fe5bf44114a0b76ed9b4d807046f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7342e47658e77d9fb29ef03ab1995e5263c78a8e31d2f020852e5fa10864a031
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129671"
 ---
 # <a name="imstscaxconnectingtext-property"></a>IMsTscAx :: ConnectingText, propriété
 
@@ -102,7 +102,7 @@ Retourne **S \_ OK** en cas de réussite.
 
 Retourne un **HRESULT** différent de zéro si une erreur se produit.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Exemple de texte de connexion : « connexion au serveur... ».
 
@@ -110,7 +110,7 @@ La définition de la propriété **ConnectingText** est facultative. S’il n’
 
 Cette propriété ne peut être définie que si le contrôle n’est pas dans l’état connecté. Elle retourne **E \_ Fail** si elle est appelée lorsque le contrôle est connecté. Vous pouvez vérifier si le contrôle est connecté en répondant aux événements de connexion dans [**IMsTscAxEvents**](imstscaxevents-interface.md) ou en examinant la propriété [**Connected**](imstscax-connected.md) .
 
-La méthode de propriété **obtenir \_ ConnectingText** alloue la mémoire requise pour la mémoire tampon vers laquelle pointe le paramètre *pConnectingText* . L’appel d’applications C/C++ doit libérer la mémoire avec un appel à la fonction [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . Cela n’est pas nécessaire pour les Visual Basic et les clients de script.
+La méthode de propriété **obtenir \_ ConnectingText** alloue la mémoire requise pour la mémoire tampon vers laquelle pointe le paramètre *pConnectingText* . L’appel d’applications C/C++ doit libérer la mémoire avec un appel à la fonction [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . cela n’est pas nécessaire pour les Visual Basic et les clients de script.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

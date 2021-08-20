@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 334b0cd4e71cb1dde48bd7868a3dbe23fc2a4a97
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f332985777d6b83e04724e6bf0af65b06b3cac50d73ba437647dc93944f76e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130282"
 ---
 # <a name="imsrdpclient10remoteprogram3-property"></a>IMsRdpClient10 :: RemoteProgram3, propriété
 
@@ -52,7 +52,7 @@ Retourne un pointeur d’interface [**ITSRemoteProgram3**](itsremoteprogram3.md)
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                            |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                            |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                         |
 | Bibliothèque de types<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |

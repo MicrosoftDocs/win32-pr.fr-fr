@@ -5,8 +5,8 @@ ms.assetid: 5e80674a-7889-4753-b0dd-4d7b44eba00a
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la propriété AtEndOfStream
-- Propriété AtEndOfStream Windows Remote Management, objet Enumerator
-- Objet Enumerator Windows Remote Management, propriété AtEndOfStream
+- propriété AtEndOfStream Windows Remote Management, objet Enumerator
+- objet Enumerator Windows Remote Management, propriété AtEndOfStream
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 023798f6c868e434218dd1a4dbdf1928bf4526a0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b1077837f82d650b57dfea0316ef15094b18749eefdb6957e62e6afd92cfe672
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113200"
 ---
 # <a name="enumeratoratendofstream-property"></a>Enumerator. AtEndOfStream, propriété
 
@@ -65,7 +65,7 @@ D’autres éléments sont disponibles.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous libérez l’objet [**énumérateur**](enumerator.md) après avoir obtenu toutes les données requises, toutes les demandes d’énumération en attente sont supprimées. Pour plus d’informations, consultez [énumération ou liste de toutes les instances d’une ressource](enumerating-or-listing-all-instances-of-a-resource.md).
 

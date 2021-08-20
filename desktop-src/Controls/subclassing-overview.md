@@ -4,12 +4,12 @@ description: Si un contrôle effectue presque tout ce que vous souhaitez, mais q
 ms.assetid: 7f558674-c8b2-4461-96ba-e139416b7a1c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c013ee317ddeee6ff80dc4a26982d40d7117950
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 2f2e338deca61c4aac07fca431e77492f53f168540cfbbcf7596b8540ba5369f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168579"
 ---
 # <a name="subclassing-controls"></a>Contrôles de sous-classe
 
@@ -30,7 +30,7 @@ Ce document explique comment créer des sous-classes et comprend les rubriques s
 
 Vous pouvez placer un contrôle dans une sous-classe et stocker des données utilisateur dans un contrôle. Vous effectuez cette opération lorsque vous utilisez des versions de ComCtl32.dll antérieures à la version 6. La création de sous-classes avec des versions antérieures de ComCtl32.dll présente quelques inconvénients.
 
-Pour créer un nouveau contrôle, il est préférable de commencer par l’un des contrôles communs Windows et de l’étendre pour répondre à un besoin particulier. Pour étendre un contrôle, créez un contrôle et remplacez sa procédure de fenêtre existante par un nouveau. La nouvelle procédure intercepte les messages du contrôle et les agit ou les transmet à la procédure d’origine pour le traitement par défaut. Utilisez la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) ou [**SETWINDOWLONGPTR**](/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) pour remplacer WNDPROC du contrôle. L’exemple de code suivant montre comment remplacer un WNDPROC.
+pour créer un nouveau contrôle, il est préférable de commencer par l’un des Windows contrôles communs et de l’étendre pour répondre à un besoin particulier. Pour étendre un contrôle, créez un contrôle et remplacez sa procédure de fenêtre existante par un nouveau. La nouvelle procédure intercepte les messages du contrôle et les agit ou les transmet à la procédure d’origine pour le traitement par défaut. Utilisez la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) ou [**SETWINDOWLONGPTR**](/windows/desktop/api/winuser/nf-winuser-setwindowlongptra) pour remplacer WNDPROC du contrôle. L’exemple de code suivant montre comment remplacer un WNDPROC.
 
 
 ```
@@ -65,7 +65,7 @@ La liste suivante décrit certains des inconvénients liés à l’utilisation d
 > [!Note]  
 > ComCtl32.dll version 6 est Unicode uniquement. Les contrôles communs pris en charge par ComCtl32.dll version 6 ne doivent pas être sous-classés (ou superclassés) avec des procédures de fenêtre ANSI.
 
- 
+ 
 
 ComCtl32.dll version 6 contient quatre fonctions qui facilitent la création de sous-classes et éliminent les inconvénients évoqués précédemment. Les nouvelles fonctions encapsulent la gestion impliquée dans plusieurs jeux de données de référence. par conséquent, le développeur peut se concentrer sur les fonctionnalités de programmation et non sur la gestion des sous-classes. Les fonctions de sous-classe sont les suivantes :
 
@@ -94,7 +94,7 @@ Chaque fois qu’un message est reçu par la nouvelle procédure de fenêtre, un
 > [!Note]  
 > Toutes les chaînes passées à la procédure sont des chaînes Unicode même si Unicode n’est pas spécifié en tant que définition de préprocesseur.
 
- 
+ 
 
 L’exemple suivant montre une implémentation squelette d’une procédure de fenêtre pour un contrôle sous-classé.
 
@@ -144,6 +144,6 @@ Cette fonction supprime les sous-classes. [**RemoveWindowSubclass**](/windows/de
 
 La fonction [**DefSubclassProc**](/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc) appelle le gestionnaire suivant dans la chaîne de sous-classe. La fonction récupère également l’ID et les données de référence appropriés et transmet les informations à la procédure de fenêtre suivante.
 
- 
+ 
 
- 
+ 

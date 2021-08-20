@@ -4,12 +4,12 @@ ms.assetid: 7abf1b3e-b94b-4846-a813-5eab5b34324c
 title: Valeurs de retour en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ff7a5417019468945054f24701636fcece1d3d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16791210417fb6ca560b2dd01e0c2d99801357f864093cd314d74d8f2bafb172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117974854"
 ---
 # <a name="return-values-in-c"></a>Valeurs de retour en C++
 

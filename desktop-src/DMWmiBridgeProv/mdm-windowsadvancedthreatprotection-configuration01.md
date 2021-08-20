@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_WindowsAdvancedThreatProtection_Configuration01
-description: La \_ classe WindowsAdvancedThreatProtection \_ Configuration01 MDM est utilisée pour déterminer la configuration des points de terminaison Windows Defender-protection avancée contre les menaces (émission).
+description: la \_ classe WindowsAdvancedThreatProtection \_ Configuration01 MDM est utilisée pour déterminer la configuration de Windows Defender points de terminaison émission (Advanced Threat Protection).
 ms.assetid: b4b2ff02-3836-4044-b8fa-d3405f433d8c
 keywords:
 - Classe MDM_WindowsAdvancedThreatProtection_Configuration01
@@ -19,18 +19,18 @@ api_type:
 - DllExport
 api_location:
 - Mofs\DMWmiBridgeProv.dll
-ms.openlocfilehash: c6cd6689a66735790c381ac307a443c08464a379
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6bcf9cb641151b282bb1bfc594eb9762e00e11101d8f9fbd865b2712bab5f8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118164215"
 ---
 # <a name="mdm_windowsadvancedthreatprotection_configuration01-class"></a>\_ \_ Classe CONFIGURATION01 WindowsAdvancedThreatProtection MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La **classe \_ WindowsAdvancedThreatProtection \_ Configuration01 MDM** est utilisée pour déterminer la configuration des points de terminaison Windows Defender-protection avancée contre les menaces (émission).
+la **classe \_ WindowsAdvancedThreatProtection \_ Configuration01 MDM** est utilisée pour déterminer la configuration de Windows Defender points de terminaison émission (Advanced Threat Protection).
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -133,7 +133,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                            |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl>      |

@@ -4,12 +4,12 @@ description: Les développeurs d’applications n’ont pas besoin d’implémen
 ms.assetid: d54ce297-ce8a-46c0-a86d-4acffa1eda27
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fbb72285f55796a285cd6e1a8838a629218659b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4fed68477680376373da6c16f59b3fb556b6a435f15f04daae8f3f1262829dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115272"
 ---
 # <a name="exposing-owner-drawn-list-box-items"></a>Exposer des éléments de la zone de liste Owner-Drawn
 
@@ -27,6 +27,6 @@ Lorsque vous utilisez la méthode ci-dessus, notez les points suivants :
 -   Avec les zones de liste de variables owner-drawn créées avec le style **lbs \_ OWNERDRAWVARIABLE**, utilisez une variable globale ou un autre mécanisme pour suivre le moment où le **membre ItemData** du [measureitemstruct,](/windows/win32/api/winuser/ns-winuser-measureitemstruct) est valide. La variable globale est nécessaire car le système envoie le message [WM \_ MEASUREITEM](../controls/wm-measureitem.md) dès que la chaîne est ajoutée, mais avant que les données d’élément soient attachées, et à ce stade, le membre **ItemData** n’est pas valide.
 -   Pour modifier la chaîne d’un élément dans une zone de liste avec le style **\_ HASSTRINGS lbs** , supprimez l’élément avec le message [lb \_ DELETESTRING](../controls/lb-deletestring.md) et ajoutez la nouvelle chaîne avec le \_ message lb ADDSTRING.
 
- 
+ 
 
- 
+ 

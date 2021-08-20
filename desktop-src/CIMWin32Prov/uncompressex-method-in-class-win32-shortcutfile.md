@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e07e86be3666b06063ef81c896eab6ee7a918657
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 177ee7ecf78050976887001d5fcedc722a9fa688cf8e6b9626316d2a0a4fc231
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118009318"
 ---
 # <a name="uncompressex-method-of-the-win32_shortcutfile-class"></a>Méthode UncompressEx de la \_ classe Win32 ShortcutFile
 
@@ -167,7 +167,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

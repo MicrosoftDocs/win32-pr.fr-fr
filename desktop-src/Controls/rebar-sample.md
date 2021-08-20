@@ -4,12 +4,12 @@ ms.assetid: f26c0819-523d-42a5-be2f-3cd75748b4a6
 description: 'En savoir plus sur : rebar, exemple'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f72b58a66c22b0ef8cc60d97c0965a8ae29a20fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6d921d3b2e3966e60be0d90327dff625454dcb36db66a61f3a56a1c4f3116376
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169099"
 ---
 # <a name="rebar-sample"></a>Rebar, exemple
 
@@ -40,13 +40,13 @@ L’exemple Rebar montre comment implémenter un contrôle commun Rebar simple d
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-L’exemple Rebar est installé dans le cadre du [Kit de développement logiciel (SDK) Windows](https://msdn.microsoft.com/windows/bb980924.aspx) et est disponible à l’emplacement suivant.
+l’exemple rebar est installé dans le cadre du [kit de développement logiciel (SDK) Windows](https://msdn.microsoft.com/windows/bb980924.aspx) et est disponible à l’emplacement suivant.
 
 
 
 | Emplacement    | Chemin d’accès/URL                                                                                              |
 |-------------|-------------------------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | % Program Files% \\ Microsoft SDK \\ \\ \[ numéro de version Windows exemples d’exemples de \] \\ \\ contrôle WinUI contrôles d’WinUI \\ \\ \\ |
+| Kit de développement logiciel (SDK) Windows | % Program Files% \\ Microsoft kits de développement logiciel (sdk) \\ Windows \\ \[ numéro de version \] \\ exemples de \\ \\ contrôle winui contrôleurs \\ \\ |
 
 
 
@@ -61,7 +61,7 @@ Pour générer l’exemple à l’aide de l’invite de commandes :
 
 Pour générer l’exemple à l’aide de Visual Studio :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet.
+1.  ouvrez Windows Explorer et accédez au répertoire du projet.
 2.  Double-cliquez sur l’icône du fichier. vcproj pour ouvrir le projet dans Visual Studio.
 3.  Dans le menu **générer** , sélectionnez **générer la solution** pour générer la solution.
 

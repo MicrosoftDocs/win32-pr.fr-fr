@@ -3,7 +3,7 @@ title: Commande MCI_LOAD (mmsystem. h)
 description: La \_ commande de chargement MCI charge un fichier. Les appareils vidéo et vidéo numériques reconnaissent cette commande.
 ms.assetid: 0f48afa0-e845-4de5-8433-15bbf4eae683
 keywords:
-- Commande MCI_LOAD Windows multimédia
+- commande MCI_LOAD Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb00ebe9dc9107c4673fc323fcb7719a89beffd4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e318e79bf24e51fec69f97a0dcb56395cb1a8917a31105deae062a865169b778
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138537"
 ---
 # <a name="mci_load-command"></a>\_Commande de chargement MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de gestion de [**\_ \_ charge MCI**](mci-load-parms.
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’indicateur supplémentaire suivant s’applique à tous les appareils prenant en charge la \_ charge MCI :
 
@@ -102,7 +102,7 @@ Pour les périphériques de superposition vidéo, le paramètre *lpLoad* pointe 
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 
