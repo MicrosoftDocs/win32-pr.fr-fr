@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 0e9506b9390dc8b09e6326232e53c72d01749f34
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb47ba9d4fbaa4b7c2d9eef14e5def9212dd95a648f7c17a3e3f4bea64dc48ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978516"
 ---
 # <a name="privatekeycontainername-property"></a>PrivateKey. ContainerName, propriété
 
@@ -39,13 +39,13 @@ PrivateKey.ContainerName As String
 
 Chaîne qui contient le nom du conteneur de clé privée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

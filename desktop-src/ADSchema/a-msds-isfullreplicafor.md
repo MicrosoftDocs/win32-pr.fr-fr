@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f2b8846c8f615a1251960c9ae3e7b06def08b9a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 14b21b46c93221dccf16ca7745fe339cfceec200bbcc7586f0eb9db3107c4f7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106527727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426137"
 ---
 # <a name="ms-ds-is-full-replica-for-attribute"></a>attribut ms-DS-is-full-Replica-for
 
@@ -42,7 +42,7 @@ Lien vers l’arrière pour [**ms-DS-has-Domain-NC**](a-msds-hasdomainncs.md). I
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

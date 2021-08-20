@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7358dc60d002e784394f64773934a18f7413e493
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f70ecdf2aca8386e730a06a982ab108cf7292c5d41af46f1b0e9ec8c9735ff97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118091121"
 ---
 # <a name="undef-directive"></a>\#undef (directive)
 
@@ -45,7 +45,7 @@ Directive de préprocesseur qui supprime la définition actuelle d’une constan
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez appliquer la \# directive undef à un identificateur qui n’a pas de définition précédente. cela garantit que l’identificateur n’est pas défini. Le remplacement de macro n’est pas effectué dans les \# instructions undef.
 

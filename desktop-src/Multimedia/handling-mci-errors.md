@@ -6,12 +6,12 @@ keywords:
 - mciSendCommand fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab8412c74153d5ddfb03a3aff895f9f2e0e73798
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f8e2f3a9cc3e711db0d26f28c9ac7e3fd0a8c94eec96117a732f8024372bf9de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106511680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141021"
 ---
 # <a name="handling-mci-errors"></a>Gestion des erreurs MCI
 
@@ -47,8 +47,8 @@ void showError(DWORD dwError)
 > [!Note]  
 > Pour interpréter vous-même une valeur de retour d’erreur [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) , masquez le mot de poids fort (le mot de poids faible contient le code d’erreur). Toutefois, si vous transmettez la valeur de retour d’erreur à [**mciGetErrorString**](/previous-versions//dd757158(v=vs.85)), vous devez passer la valeur de mot double entière.
 
- 
+ 
 
- 
+ 
 
- 
+ 

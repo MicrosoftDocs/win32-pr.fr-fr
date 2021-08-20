@@ -3,7 +3,7 @@ title: Message MCIWNDM_SETINACTIVETIMER (VFW. h)
 description: Le \_ message MCIWNDM SETINACTIVETIMER définit la période de mise à jour utilisée par MCIWnd pour mettre à jour le TrackBar dans la fenêtre MCIWnd, mettre à jour les informations de position affichées dans la barre de titre de la fenêtre et envoyer des messages de notification à la fenêtre parente lorsque la fenêtre MCIWnd est inactive. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndSetInactiveTimer.
 ms.assetid: 8900c372-0493-4a63-a027-ef6ecf8f8254
 keywords:
-- Message MCIWNDM_SETINACTIVETIMER Windows Multimedia
+- message MCIWNDM_SETINACTIVETIMER Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4504d84b254dfb67616568f5f97bba8e3bc2e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e4161d52335e050fb8e9bcb702986492b5cd230713fcd15810a71590a92b030
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137646"
 ---
 # <a name="mciwndm_setinactivetimer-message"></a>\_Message MCIWNDM SETINACTIVETIMER
 

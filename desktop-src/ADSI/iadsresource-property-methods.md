@@ -23,12 +23,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f2ab2642dd8d03062a26d096190cf7615977a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 36d8a9b91030738292d6c2767a85e30d8503508ed44c03e9ffb38b7f797e6bb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017170"
 ---
 # <a name="iadsresource-property-methods"></a>Méthodes de propriété IADsResource
 
@@ -230,7 +230,7 @@ Cleanup:
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

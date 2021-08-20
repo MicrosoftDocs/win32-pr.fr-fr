@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0de474cce6eb91cdc605588f7f4a63d97f985769
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5c7d5be5dc8cfd9f654c09d989149a423351689f420a52ca1756fb197260e800
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118348630"
 ---
 # <a name="importlicensekeypackoffline-method-of-the-win32_tslicensekeypack-class"></a>Méthode ImportLicenseKeyPackOffline de la \_ classe Win32 TSLicenseKeyPack
 

@@ -8,12 +8,12 @@ keywords:
 - AD du catalogue global, liaison à
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08fe40b944130f66617b0c111b361ca51cbef126
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 228f9cfda0b4c4156150ba493d17b95fef60c80afd90a31e10cc8388a87141e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104031051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118023707"
 ---
 # <a name="binding-to-the-global-catalog"></a>Liaison au catalogue global
 
@@ -58,7 +58,7 @@ GC://servername.fabrikam.com/DC=sales,DC=fabrikam,DC=com
 
 1.  Liez à la racine de l’espace de noms de catalogue global.
 2.  Énumérez le conteneur de catalogue global. Le conteneur de catalogue global contient un seul objet que vous pouvez utiliser pour effectuer une recherche dans l’ensemble de la forêt.
-3.  Utilisez l’objet dans le conteneur pour effectuer la recherche. En C/C++, appelez [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) pour recevoir un pointeur [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) sur l’objet afin de pouvoir utiliser l’interface **IDirectorySearch** pour effectuer la recherche. Dans Visual Basic, utilisez l’objet retourné par l’énumération dans votre requête ADO.
+3.  Utilisez l’objet dans le conteneur pour effectuer la recherche. En C/C++, appelez [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) pour recevoir un pointeur [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) sur l’objet afin de pouvoir utiliser l’interface **IDirectorySearch** pour effectuer la recherche. dans Visual Basic, utilisez l’objet retourné par l’énumération dans votre requête ADO.
 
 Pour énumérer les serveurs de catalogue global d’un site, effectuez une recherche de sous-arborescence LDAP de « CN = <yoursite> , CN = sites <DN of the configurationNamingContext> », à l’aide de la chaîne de filtrage suivante.
 
@@ -122,6 +122,6 @@ Next
 
 Pour plus d’informations et des exemples de code qui montrent comment effectuer une recherche dans une forêt entière, consultez l' [exemple de code pour la recherche d’une forêt](example-code-for-searching-a-forest.md).
 
- 
+ 
 
- 
+ 

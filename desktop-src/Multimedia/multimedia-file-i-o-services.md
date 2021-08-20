@@ -10,12 +10,12 @@ keywords:
 - E/s (entrée et sortie), services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd193bb0c94565832de023b2b7d13470c6073d23
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bb2e9951b0c6602757aba93f44e9f41871f999b8165a435cd8cef32421e9f901
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136728"
 ---
 # <a name="multimedia-file-io-services"></a>Services d’e/s de fichier multimédia
 
@@ -26,9 +26,9 @@ Cette section décrit les procédures d’utilisation des services d’e/s de fi
 -   [Services de format de fichier de l’échange de ressources](resource-interchange-file-format-services.md)
 -   [Services personnalisés](custom-services.md)
 
- 
+ 
 
- 
+ 
 
 
 

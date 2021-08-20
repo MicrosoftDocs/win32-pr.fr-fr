@@ -160,7 +160,7 @@ Haut
 <thead>
 <tr class="header">
 <th> </th>
-<th>Nom</th>
+<th>Name</th>
 <th>Description</th>
 </tr>
 </thead>

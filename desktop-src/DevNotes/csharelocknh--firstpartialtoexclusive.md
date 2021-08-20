@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Rwnh.dll
-ms.openlocfilehash: 65931cb4747c829a0386c7cc76a1ce7e64d41d60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e56ce4b784d808c073d16e9833a89b27f24a264b35ea3cadc4d84f5b503970ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162400"
 ---
 # <a name="csharelocknhfirstpartialtoexclusive-method"></a>CShareLockNH :: FirstPartialToExclusive, méthode
 
@@ -41,7 +41,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

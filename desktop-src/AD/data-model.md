@@ -7,20 +7,20 @@ keywords:
 - Active Directory de modèle de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ff1dbfd9a5ae36e46a5ef034d46436ca6de74d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5b87b7946367681c99ada42de25e6f8f6455f884eb5282e0778c5f8643754d16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118020086"
 ---
 # <a name="data-model"></a>Modèle de données
 
 Le modèle de données pour Active Directory Domain Services est dérivé du modèle de données X. 500. Le répertoire contient des objets qui représentent des éléments de différents tris, décrits par des attributs. L’univers des objets qui peuvent être stockés dans l’annuaire est défini dans le schéma. Pour chaque classe d’objet, le schéma définit les attributs qu’une instance de la classe doit posséder, les attributs supplémentaires qu’elle peut avoir et la classe d’objet qui peut être un parent de la classe d’objets actuelle.
 
- 
+ 
 
- 
+ 
 
 
 

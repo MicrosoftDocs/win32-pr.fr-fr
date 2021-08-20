@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f3bfb9f6c833900967525467202421cf94166405
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 4ae3abf23b19badb123f8eb49097c6b3e9d7ac6d26fc0132f34b84de5ac24c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106538563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086953"
 ---
 # <a name="baseeapparameters-complex-type---connection-properties"></a>Type complexe BaseEapParameters-propriétés de connexion
 
@@ -51,7 +51,7 @@ Le type complexe **BaseEapParameters** définit l’élément d’espace réserv
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans **BaseEapParameters** , la méthode peut définir les éléments constitutifs. La méthode effectue également une validation de schéma sur les éléments dans **BaseEapParameters**.
 
@@ -61,8 +61,8 @@ Dans **BaseEapParameters** , la méthode peut définir les éléments constituti
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

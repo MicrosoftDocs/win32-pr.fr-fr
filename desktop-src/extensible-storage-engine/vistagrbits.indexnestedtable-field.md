@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1b41eaa645a11595345793e38a76f0c7ce42f32a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa4211699dbc9a84b3c034d3320fa76ad5386b2aa01197460069fac4cba90fd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118070047"
 ---
 # <a name="vistagrbitsindexnestedtable-field"></a>Champ VistaGrbits. IndexNestedTable
 

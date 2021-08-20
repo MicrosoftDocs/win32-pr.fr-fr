@@ -10,12 +10,12 @@ keywords:
 - Fenêtre MCIWnd, classe de fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb89c386c3cf3d3d3885501981a1066430e31fb7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8bb94841975e721b76bde7287709197c5457966ccb8def9f72dda426307b3732
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136127"
 ---
 # <a name="using-the-mciwnd-window-class"></a>Utilisation de la classe de fenêtre MCIWnd
 
@@ -31,9 +31,9 @@ Cette section contient des exemples montrant comment effectuer les tâches suiva
 -   [Étirement d’une image](stretching-an-image.md)
 -   [Étirement d’une image et d’une fenêtre](stretching-an-image-and-window.md)
 
- 
+ 
 
- 
+ 
 
 
 

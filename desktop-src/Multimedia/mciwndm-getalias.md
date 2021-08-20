@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETALIAS (VFW. h)
 description: Le \_ message MCIWNDM GETALIAS récupère l’alias utilisé pour ouvrir un fichier ou un périphérique MCI avec la fonction mciSendString. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetAlias.
 ms.assetid: 37131b89-275c-4ab6-9278-0e08c42471bd
 keywords:
-- Message MCIWNDM_GETALIAS Windows Multimedia
+- message MCIWNDM_GETALIAS Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e971c50b9abc450387ac29f9a7331bfdca5c38c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 857ea90205b5204cd7c4af19f27a420684e59543717b2689f178d97cd5a600de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137750"
 ---
 # <a name="mciwndm_getalias-message"></a>\_Message MCIWNDM GETALIAS
 

@@ -3,7 +3,7 @@ title: Message PSM_GETRESULT (Prsht. h)
 description: Utilisé par les feuilles de propriétés non modales pour récupérer les informations retournées aux feuilles de propriétés modales par feuille. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro PropSheet GetResult.
 ms.assetid: e0f609ea-5d7e-4c17-ade1-3c1051c5a5bf
 keywords:
-- PSM_GETRESULT les contrôles de message Windows
+- PSM_GETRESULT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d41609f625cbd3938fa78e9a2f91ab70168ecc29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4acc8fed8cdaa1f4282c3ed066ad44f68221330fa9e79b0719db8bba1bca37f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169805"
 ---
 # <a name="psm_getresult-message"></a>\_Message PSM GETRESULT
 
@@ -52,13 +52,13 @@ Retourne une valeur positive en cas de réussite, ou-1 dans le cas contraire. Le
 | Code de retour                                                                                         | Description                                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**ID \_ PSREBOOTSYSTEM**</dt> </dl>   | Une page a envoyé un message [**PSM \_ REBOOTSYSTEM**](psm-rebootsystem.md) à la feuille de propriétés. L’ordinateur doit être redémarré pour que les modifications apportées à l’utilisateur prennent effet.<br/> |
-| <dl> <dt>**ID \_ PSRESTARTWINDOWS**</dt> </dl> | Une page a envoyé un message [**PSM \_ RESTARTWINDOWS**](psm-restartwindows.md) à la feuille de propriétés. Vous devez redémarrer Windows pour que les modifications apportées à l’utilisateur prennent effet.<br/>  |
+| <dl> <dt>**ID \_ PSRESTARTWINDOWS**</dt> </dl> | Une page a envoyé un message [**PSM \_ RESTARTWINDOWS**](psm-restartwindows.md) à la feuille de propriétés. Windows doit être redémarré pour que les modifications apportées à l’utilisateur prennent effet.<br/>  |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer les informations d’erreur étendues, appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
@@ -79,8 +79,8 @@ Pour une feuille de propriétés non modale, votre boucle de messages doit utili
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

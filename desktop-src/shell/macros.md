@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les macros de l’utilitaire Windows Shell.
+description: cette section décrit les macros de l’utilitaire Windows Shell.
 title: Macros de Shell
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 085bca918cfa6ca1441272c3c9181226ef603ac7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b43e4fb60f8cd1d486bd6c6eaab7dee657449331025c24a322803ca086b0ee1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049238"
 ---
 # <a name="shell-macros"></a>Macros de Shell
 
-Cette section décrit les macros de l’utilitaire Windows Shell.
+cette section décrit les macros de l’utilitaire Windows Shell.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

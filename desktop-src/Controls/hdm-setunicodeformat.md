@@ -3,7 +3,7 @@ title: Message HDM_SETUNICODEFORMAT (commctrl. h)
 description: 'HDM_SETUNICODEFORMAT message : définit l’indicateur de format de caractère UNICODE pour le contrôle.'
 ms.assetid: 18161fe5-c779-4be0-9e7a-1b5948e42b80
 keywords:
-- HDM_SETUNICODEFORMAT les contrôles de message Windows
+- HDM_SETUNICODEFORMAT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d32ffa5f7f90ab266c52c67899dbff3be0d51123
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b7048ff802c11dac61dfec7c50040d691284440e475831d959225968ac632d9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170929"
 ---
 # <a name="hdm_setunicodeformat-message"></a>\_Message HDM SETUNICODEFORMAT
 
@@ -39,22 +39,22 @@ Jeu de caractères utilisé par le contrôle. Si cette valeur est différente de
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’indicateur de format Unicode précédent pour le contrôle.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur ce message, consultez les notes relatives à [**CCM \_ SETUNICODEFORMAT**](ccm-setunicodeformat.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

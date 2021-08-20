@@ -4,12 +4,12 @@ description: Modification des valeurs par défaut de sécurité pour un ordinate
 ms.assetid: c6d84375-59ea-42d5-87f9-af514b6f7d7c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6607e7a17e7db1f8852dff42e62384c730090bbb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7936e2d0bc1113b651fd40f94e84037f00f4ffbe12b7e0232f1dc6a6cd8aaeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118105397"
 ---
 # <a name="modifying-the-security-defaults-for-a-computer"></a>Modification des valeurs par défaut de sécurité pour un ordinateur
 
@@ -32,9 +32,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Définition de la sécurité pour les applications COM](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

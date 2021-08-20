@@ -3,7 +3,7 @@ title: Message TB_ADDBUTTONS (commctrl. h)
 description: Ajoute un ou plusieurs boutons à une barre d’outils.
 ms.assetid: 65294dfc-b04b-475d-b38e-9d84c0fb000b
 keywords:
-- TB_ADDBUTTONS les contrôles de message Windows
+- TB_ADDBUTTONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f954e9a133f78a9415358d1c7f61d68008cd3d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4bd3a5a15ac1983d93ca161dae20876159e5f633cf580d485686d67889276747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168522"
 ---
 # <a name="tb_addbuttons-message"></a>TO \_ ADDBUTTONS message
 
@@ -49,7 +49,7 @@ Pointeur vers un tableau de structures [**TBBUTTON**](/windows/desktop/api/Commc
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la barre d’outils a été créée à l’aide de la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , vous devez envoyer le message [**to \_ BUTTONSTRUCTSIZE**](tb-buttonstructsize.md) à la barre d’outils avant d’envoyer **to \_ ADDBUTTONS**.
 
@@ -98,8 +98,8 @@ SendMessage(hWndToolbar, TB_ADDBUTTONS, numButtons, (LPARAM)tbButtonsAdd);
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **To \_ ADDBUTTONSW** (Unicode) et **to \_ ADDBUTTONSA** (ANSI)<br/>               |
 

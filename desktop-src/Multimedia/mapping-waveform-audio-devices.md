@@ -16,12 +16,12 @@ keywords:
 - sons Waveform, périphériques de mappage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9cdd269e21eb992244dd0e5979c7e0d193ba92b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7b4204a79eebd5fed3c8f96712aa3cd83c50056b1c194bafe2ce485a5b4b68f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138770"
 ---
 # <a name="mapping-waveform-audio-devices"></a>Mappage des appareils Waveform-Audio
 
@@ -33,9 +33,9 @@ Quand une application demande que le système ouvre un appareil Waveform Audio p
 
 Outre la conversion de format, l’ACM offre également des services pour prendre en charge la compression, la décompression, le filtrage, la sélection de format et la sélection de filtres. Il fournit une API standard qu’il prend en charge en appelant ses propres pilotes.
 
- 
+ 
 
- 
+ 
 
 
 

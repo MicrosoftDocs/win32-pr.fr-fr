@@ -1,21 +1,21 @@
 ---
-description: Les installations simultanées, également appelées installations imbriquées, constituent une fonctionnalité dépréciée du Windows Installer.
+description: les installations simultanées, également appelées installations imbriquées, constituent une fonctionnalité dépréciée du Windows Installer.
 ms.assetid: 579ae4ee-47a0-440e-81ca-ea8bf60c5349
 title: Installations simultanées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d89f2ef4af062c8151935fefab471603f79d7633
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09264df8c47c08f7d1512b46d65572d3572d5190f960254c8ed13182dd668657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144406"
 ---
 # <a name="concurrent-installations"></a>Installations simultanées
 
-Les installations simultanées, également appelées installations imbriquées, constituent une fonctionnalité dépréciée du Windows Installer. Les applications installées avec des installations simultanées peuvent échouer, car elles sont difficiles à traiter correctement pour les clients. N’utilisez pas d’installations simultanées pour installer des produits destinés à être diffusés au public. Les installations simultanées peuvent avoir une applicabilité limitée dans les environnements d’entreprise contrôlés lorsqu’ils sont utilisés pour installer des applications qui ne sont pas destinées à une version publique. La documentation sur les installations simultanées est fournie pour les auteurs de packages qui souhaitent utiliser des installations simultanées avec des applications qui ne sont pas destinées à la distribution publique.
+les installations simultanées, également appelées installations imbriquées, constituent une fonctionnalité dépréciée du Windows Installer. Les applications installées avec des installations simultanées peuvent échouer, car elles sont difficiles à traiter correctement pour les clients. N’utilisez pas d’installations simultanées pour installer des produits destinés à être diffusés au public. Les installations simultanées peuvent avoir une applicabilité limitée dans les environnements d’entreprise contrôlés lorsqu’ils sont utilisés pour installer des applications qui ne sont pas destinées à une version publique. La documentation sur les installations simultanées est fournie pour les auteurs de packages qui souhaitent utiliser des installations simultanées avec des applications qui ne sont pas destinées à la distribution publique.
 
-Une action d’installation simultanée installe un autre package de Windows Installer lors de l’installation en cours. Une installation simultanée est ajoutée à un package en créant une action d’installation simultanée dans la [table CustomAction](customaction-table.md) et en planifiant cette action personnalisée dans les tables de séquence. Le champ cible de la table CustomAction contient une chaîne de paramètres de propriété publique utilisée par l’installation simultanée. Le champ source de la table CustomAction identifie le package simultané. Une action d’installation simultanée peut uniquement réinstaller ou supprimer une application qui a été installée par le package d’installation de l’application actuelle.
+une action d’installation simultanée installe un autre package de Windows Installer lors de l’installation en cours. Une installation simultanée est ajoutée à un package en créant une action d’installation simultanée dans la [table CustomAction](customaction-table.md) et en planifiant cette action personnalisée dans les tables de séquence. Le champ cible de la table CustomAction contient une chaîne de paramètres de propriété publique utilisée par l’installation simultanée. Le champ source de la table CustomAction identifie le package simultané. Une action d’installation simultanée peut uniquement réinstaller ou supprimer une application qui a été installée par le package d’installation de l’application actuelle.
 
 Le type d’action d’installation simultanée est spécifié dans le champ type de la table CustomAction. Selon le type d’action personnalisé, le package de l’application simultanée peut résider dans un sous-stockage du package principal, sous la forme d’un fichier à un emplacement spécifié par une propriété, ou sous la forme d’une application publiée sur l’ordinateur de l’utilisateur. Les types d’actions personnalisées suivants effectuent une installation simultanée.
 

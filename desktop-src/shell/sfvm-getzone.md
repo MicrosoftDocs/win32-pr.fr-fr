@@ -4,16 +4,16 @@ ms.assetid: 6fae7925-b1be-4270-9318-7fa517563dad
 title: Message SFVM_GETZONE (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5586188aeab6a054e22e4b242039beaae1ce390d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 946823f1081a8cc3e01c917e424e3bdd41861f85b0abe0cad654ea09c296f8fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118048428"
 ---
 # <a name="sfvm_getzone-message"></a>\_Message SFVM GETZONE
 
-\[Cette notification est prise en charge via Windows XP Service Pack 2 (SP2) et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cette notification est prise en charge par Windows XP Service Pack 2 (SP2) et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
 Permet à l’objet de rappel de fournir des informations sur la zone Internet. Utilisé par [**IShellFolderViewCB :: MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
@@ -92,7 +92,7 @@ Zone utilisée pour les sites Web qui ne sont pas approuvés.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 

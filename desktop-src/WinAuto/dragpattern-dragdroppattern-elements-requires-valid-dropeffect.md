@@ -4,12 +4,12 @@ description: Les éléments DragPattern/DragDropPattern requièrent un DropEffec
 ms.assetid: 508DD4F3-4878-4A9E-859D-06BBDA505708
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33acda19732e2ebd96182023fce9641012b50d6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9cd95e1da2d3d05c7499f72c86d454da2832947cafd0150e8f62b2f3e8d56af2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103670977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115677"
 ---
 # <a name="dragpatterndragdroppattern-elements-requires-valid-dropeffect"></a>Les éléments DragPattern/DragDropPattern requièrent un DropEffect valide
 
@@ -19,7 +19,7 @@ Les éléments qui prennent en charge le glisser-déplacer doivent avoir un ense
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -32,9 +32,9 @@ Ce problème provoque des problèmes pour les personnes qui reposent sur un lect
 -   L’élément, ou son parent, n’a pas créé le [**DropEffect**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-get_dropeffect) ou [**DropEffects**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idragprovider-get_dropeffects) un nom ou une étiquette incorrectement assigné.
 -   Un développeur ne sait pas que les lecteurs d’écran lisent les DropEffect.
 
- 
+ 
 
- 
+ 
 
 
 

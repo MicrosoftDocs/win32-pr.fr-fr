@@ -4,12 +4,12 @@ ms.assetid: 41dda6f1-a6d1-4e76-94f3-a72f9e491bee
 title: Flux de fichiers (systèmes de fichiers locaux)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a934a51225a886e3d5a7de4d9e1e91900fab460
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 139e6a1d80d9d9eef337461c3ff241d9bcca08242014ca638d7ec26b41662bcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117996993"
 ---
 # <a name="file-streams-local-file-systems"></a>Flux de fichiers (systèmes de fichiers locaux)
 
@@ -29,15 +29,15 @@ Les verrous opportunistes sont conservés par flux. Les modes de partage sont é
 
 Si un fichier en cours de copie a un flux de données et que le redirecteur réseau est utilisé, le fichier peut être copié uniquement si le client dispose à la fois de l’autorisation lecture et de l’autorisation attributs de lecture.
 
-## <a name="naming-conventions-for-streams"></a>Conventions d’affectation des noms pour les flux
+## <a name="naming-conventions-for-streams"></a>Conventions d’affectation des noms pour Flux
 
-Lorsqu’il est spécifié à partir de la ligne de commande de l’interpréteur de commandes Windows, le nom complet d’un flux est «*nom_fichier*:*nom du flux*: type de *flux*», comme dans l’exemple suivant : « myfile. dat : STREAM1 : $Data ».
+lorsqu’il est spécifié à partir de la ligne de commande de l’interpréteur de commandes Windows, le nom complet d’un flux est le suivant *: « nom**du flux :**type de flux*», comme dans l’exemple suivant : « myfile. dat : stream1 : $DATA ».
 
 Les caractères valides pour un nom de fichier sont également valides pour le nom du flux, y compris les espaces. Pour plus d’informations, consultez [attribution d’un nom à un fichier](naming-a-file.md). Le type de flux (également appelé code de type d’attribut) est interne au système de fichiers NTFS. Par conséquent, les utilisateurs ne peuvent pas créer de nouveaux types de flux, mais ils peuvent ouvrir des types de système de fichiers NTFS existants. Les valeurs du spécificateur de type de flux commencent toujours par le symbole dollar ($). Pour obtenir la liste des types de flux, voir ci-dessous.
 
 Par défaut, le flux de données par défaut est sans nom. Pour spécifier entièrement le flux de données par défaut, utilisez «*filename*:: $Data », où $Data est le type de flux. Il s’agit de l’équivalent de «*filename*». Vous pouvez créer un flux nommé dans le fichier à l’aide des [conventions d’affectation des noms de fichiers](naming-a-file.md). Notez que « $DATA » est un nom de flux légal. Par exemple, le nom complet d’un flux nommé « $DATA » sur un fichier nommé «*Sample*» serait «*Sample*: $Data : $Data ». Si vous avez créé un flux nommé « bar » dans le même fichier, son nom complet est «*Sample*: bar : $Data ».
 
-Lorsque vous créez et utilisez des fichiers qui ont des noms à un seul caractère, préfixez le nom de fichier par un point suivi d’une barre oblique inverse (. \) ou utilisez un nom de chemin d’accès qualifié complet. Cela est dû au fait que Windows traite les noms de fichiers à un seul caractère comme des lettres de lecteur. Quand une lettre de lecteur est spécifiée avec un chemin d’accès relatif, un signe deux-points sépare la lettre de lecteur du chemin d’accès. En cas d’ambiguïté quant au fait qu’un nom à un seul caractère est une lettre de lecteur ou un nom de fichier, Windows part du principe qu’il s’agit d’une lettre de lecteur si la chaîne qui suit le signe deux-points est un chemin d’accès valide, même si la lettre de lecteur n’est pas valide.
+Lorsque vous créez et utilisez des fichiers qui ont des noms à un seul caractère, préfixez le nom de fichier par un point suivi d’une barre oblique inverse (. \) ou utilisez un nom de chemin d’accès qualifié complet. cela est dû au fait que Windows traite les noms de fichiers à un seul caractère comme des lettres de lecteur. Quand une lettre de lecteur est spécifiée avec un chemin d’accès relatif, un signe deux-points sépare la lettre de lecteur du chemin d’accès. lorsqu’il existe une ambiguïté quant à la nécessité d’un nom à un seul caractère ou d’un nom de fichier, Windows suppose qu’il s’agit d’une lettre de lecteur si la chaîne qui suit le signe deux-points est un chemin d’accès valide, même si la lettre de lecteur n’est pas valide.
 
 ## <a name="stream-types"></a>Types de flux
 
@@ -67,7 +67,7 @@ Voici la liste des types de flux NTFS, également appelés codes de type d’att
 
 <dl> <dt>
 
-[Utilisation des flux](using-streams.md)
+[Utilisation de Flux](using-streams.md)
 </dt> </dl>
 
  

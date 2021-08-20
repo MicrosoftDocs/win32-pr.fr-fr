@@ -4,12 +4,12 @@ ms.assetid: 0413c289-74b7-4e83-a227-00bfb264e56e
 title: Dépendances entre les composants gérés par différents Writers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ba3be6a2c2f0a722c4c5f06ca95351e004e1cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82d50e88e13899951802b2ec3aa0bd9e651c16928b9f57409329035a28cfa1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122152"
 ---
 # <a name="dependencies-between-components-managed-by-different-writers"></a>Dépendances entre les composants gérés par différents Writers
 
@@ -48,11 +48,11 @@ Une application distribuée est une application qui peut être configurée pour 
 
 Dans un déploiement multi-système, si un composant géré par le writer de l’application dépend d’un composant distant géré par l’enregistreur du serveur de base de données, il s’agit d’une dépendance distante. (Un déploiement de système unique, en revanche, n’a que des dépendances locales.)
 
-À titre d’exemple de déploiement multi-système, considérez un serveur d’applications qui utilise un serveur de base de données SQL Server comme un magasin de données. Les données spécifiques à l’application, y compris les composants WebPart, les fichiers de contenu Web et la métabase IIS, résident sur un ou plusieurs ordinateurs, appelés serveurs Web frontaux. Le magasin de données SQL réel, qui comprend la base de données de configuration et plusieurs bases de données de contenu, réside sur un ou plusieurs autres ordinateurs, appelés serveurs de bases de données principaux. Chacun des serveurs Web frontaux contient le même contenu et la même configuration spécifiques à l’application. Chacun des serveurs de base de données principaux peut héberger n’importe quelle base de données de contenu ou la base de données de configuration. Le logiciel d’application s’exécute uniquement sur les serveurs Web frontaux, et non sur les serveurs de base de données. Dans cette configuration, l’enregistreur VSS de l’application a des dépendances distantes sur les composants gérés par le writer SQL.
+à titre d’exemple de déploiement multi-système, considérez un serveur d’applications qui utilise un serveur de base de données SQL Server comme un magasin de données. Les données spécifiques à l’application, y compris les composants WebPart, les fichiers de contenu Web et la métabase IIS, résident sur un ou plusieurs ordinateurs, appelés serveurs Web frontaux. le magasin de données SQL réel, qui comprend la base de données de configuration et plusieurs bases de données de contenu, réside sur un ou plusieurs autres ordinateurs, appelés serveurs de bases de données principaux. Chacun des serveurs Web frontaux contient le même contenu et la même configuration spécifiques à l’application. Chacun des serveurs de base de données principaux peut héberger n’importe quelle base de données de contenu ou la base de données de configuration. Le logiciel d’application s’exécute uniquement sur les serveurs Web frontaux, et non sur les serveurs de base de données. dans cette configuration, l’enregistreur VSS de l’application a des dépendances distantes sur les composants gérés par l’enregistreur de SQL.
 
 Un enregistreur peut déclarer une dépendance distante en appelant la méthode [**AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency) , en préen ajoutant « \\ \\ *remotecomputername* \\ », où *remotecomputername* est le nom de l’ordinateur sur lequel se trouve le composant distant, et le chemin logique dans le paramètre *wszOnLogicalPath* . La valeur de *remotecomputername* peut être une adresse IP ou un nom d’ordinateur retourné par la fonction [**GetComputerNameEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa) .
 
-**Windows Server 2003 :** Un enregistreur ne peut pas déclarer de dépendances distantes tant que Windows Server 2003 avec Service Pack 1 (SP1) n’est pas installé.
+**Windows Server 2003 :** un enregistreur ne peut pas déclarer de dépendances distantes tant que Windows Server 2003 avec Service Pack 1 (SP1).
 
 Pour identifier une dépendance, un demandeur appelle les méthodes [**GetWriterId**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getwriterid), [**GetLogicalPath**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getlogicalpath)et [**GetComponentName**](/windows/desktop/api/VsWriter/nf-vswriter-ivsswmdependency-getcomponentname) de l’interface [**IVssWMDependency**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswmdependency) . Le demandeur doit examiner le nom du composant retourné par **GetComponentName** dans le paramètre *pbstrComponentName* . Si le nom du composant commence par « \\ \\ », le demandeur doit supposer qu’il spécifie une dépendance distante et que le premier composant suivant « \\ \\ » est le *remotecomputername* qui a été spécifié lorsque le writer a appelé [**AddComponentDependency**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency). Si le nom du composant ne commence pas par « \\ \\ », le demandeur doit supposer qu’il spécifie une dépendance locale.
 

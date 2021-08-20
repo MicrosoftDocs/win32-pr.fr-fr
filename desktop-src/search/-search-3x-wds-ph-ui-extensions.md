@@ -4,12 +4,12 @@ ms.assetid: 38cebb3c-51bf-439c-8d4e-445344f6cb66
 title: Ajout d’icônes, d’aperçus et de menus contextuels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 501006227f6192b7d81a2a88ba915c368a9cc398
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 433fd066d63480147621d46c7c8ffb24cea348225ec5e564b5f6c799714c9bc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052216"
 ---
 # <a name="adding-icons-previews-and-shortcut-menus"></a>Ajout d’icônes, d’aperçus et de menus contextuels
 
@@ -39,12 +39,12 @@ Ces extensions de Shell ou gestionnaires de type de fichier fournissent à vos u
 
 Comme tous les objets COM (Component Object Model), les gestionnaires de types de fichiers doivent implémenter une interface [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) et une fabrique de classe.
 
-Dans Windows XP ou version antérieure, les gestionnaires doivent également implémenter :
+dans Windows XP ou version antérieure, les gestionnaires doivent également implémenter :
 
 -   L' [interface IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile)
 -   Ou [interface IShellExtInit](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit)
 
-Dans Windows Vista, l’interface [IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile) et l' [interface IShellExtInit](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) ont été remplacées par les trois interfaces suivantes pour que Shell Initialise le gestionnaire :
+dans Windows Vista, l’interface [IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile) et l' [interface IShellExtInit](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) ont été remplacées par les trois interfaces suivantes pour que Shell initialise le gestionnaire :
 
 -   [IInitializeWithStream, interface](/windows/win32/api/propsys/nn-propsys-iinitializewithstream)
 -   [Interface IInitializeWithItem](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem)
@@ -89,7 +89,7 @@ L’interface **IPersistFolder** est utilisée pour initialiser les objets de do
 
 ### <a name="ishellfolder"></a>IShellFolder
 
-L’interface d' [interface IShellFolder](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) est utilisée pour gérer les dossiers, et une implémentation partielle est nécessaire pour que les interfaces d’icône et de contexte implémentées pour un gestionnaire de protocole se comportent correctement dans l’interface utilisateur des résultats de la recherche Windows. La plupart des fonctionnalités requises sont exposées par le biais de la méthode **GetUIObjectOf** . Cette méthode permet à un complément d’interroger les interfaces **IExtractIcon** et **IContextMenu** .
+l’interface d' [interface IShellFolder](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) est utilisée pour gérer les dossiers, et une implémentation partielle est nécessaire pour que les interfaces d’icône et de contexte implémentées pour un gestionnaire de protocole se comportent correctement dans l’Interface utilisateur des résultats de recherche Windows. La plupart des fonctionnalités requises sont exposées par le biais de la méthode **GetUIObjectOf** . Cette méthode permet à un complément d’interroger les interfaces **IExtractIcon** et **IContextMenu** .
 
 L’interface d' [interface IShellFolder](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) utilise PIDL à la place des URL. Contrairement aux spécifications d’un magasin de données Shell complet, les compléments peuvent utiliser une structure IDL simple qui contient uniquement l’URL.
 
@@ -116,7 +116,7 @@ Les méthodes suivantes de l' [interface IShellFolder](/windows/win32/api/shobji
 
 ### <a name="icontextmenu"></a>IContextMenu
 
-Lorsque Windows Search affiche les résultats à l’utilisateur, l’utilisateur peut cliquer avec le bouton droit sur un élément et afficher un menu contextuel défini par votre interface **IContextMenu** . Les menus contextuels sont également appelés menus contextuels.
+lorsque Windows recherche affiche les résultats à l’utilisateur, l’utilisateur peut cliquer avec le bouton droit sur un élément et afficher un menu contextuel défini par votre interface **IContextMenu** . Les menus contextuels sont également appelés menus contextuels.
 
 L’action par défaut dans le menu contextuel est la même que celle effectuée lors d’un double-clic sur l’élément. Sans les interfaces **IShellFolder** ou **IContextMenu** correspondantes pour l’élément, le comportement par défaut d’un événement de double-clic consiste à transmettre l’URL en tant qu’argument à la fonction [ShellExecute](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) .
 
@@ -130,7 +130,7 @@ Pour plus d’informations sur la création de gestionnaires d’icône et d' [E
 
 ### <a name="ipreviewhandler"></a>IPreviewHandler
 
-Le [IPreviewHandler](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler) affiche un aperçu complet d’un élément sélectionné dans l’Explorateur Windows. Les versions préliminaires sont disponibles dans Windows Search 4,0 ou dans Windows Vista avec Windows Desktop Search 3. x.
+le [IPreviewHandler](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler) affiche un aperçu complet d’un élément sélectionné dans Windows Explorer. les aperçus sont disponibles dans Windows search 4,0 ou dans Windows Vista avec Windows Desktop search 3. x.
 
 Pour créer un gestionnaire d’aperçus personnalisé :
 

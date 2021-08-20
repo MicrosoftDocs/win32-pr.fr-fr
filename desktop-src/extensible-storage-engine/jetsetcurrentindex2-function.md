@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2c95e665b549fff82e0beaaca9682329217ebb0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a96d2b55a09b47c86dc9f6563e939de596dabeee16b06acfbfc78906a6fb100a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071991"
 ---
 # <a name="jetsetcurrentindex2-function"></a>Fonction JetSetCurrentIndex2
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetsetcurrentindex2-function"></a>Fonction JetSetCurrentIndex2
 
@@ -96,7 +96,7 @@ Groupe de bits qui contiennent les options à utiliser pour cet appel, qui inclu
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -125,13 +125,13 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="even">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p>
-<p>Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
+<p>cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidIndexId</p></td>
 <td><p>Le contenu de l’ID d’index n’était pas valide ou a expiré et doit être actualisé. Cela peut se produire pour <strong>JetSetCurrentIndex2</strong> dans les cas suivants :</p>
 <ul>
-<li><p>pIndexID- &gt; cbStruct n’est pas de la taille attendue (Windows Server 2003 et versions ultérieures).</p></li>
+<li><p>pindexid- &gt; cbStruct n’est pas de la taille attendue (Windows Server 2003 et versions ultérieures).</p></li>
 <li><p>Le moteur a été arrêté depuis que l’ID d’index a été extrait.</p></li>
 <li><p>Tous les curseurs faisant référence à la table contenant l’index correspondant à l’ID d’index ont été fermés et le moteur a supprimé la définition de l’index du cache de schéma.</p></li>
 <li><p>L’ID d’index est utilisé avec un curseur ouvert sur une table incorrecte.</p></li>
@@ -153,7 +153,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidParameter</p></td>
-<td><p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. Cela peut se produire pour <strong>JetSetCurrentIndex2</strong> lorsque <em>pIndexID</em> n’a pas la valeur null et que pIndexID- &gt; cbStruct n’est pas de la taille attendue (Windows XP et versions antérieures).</p></td>
+<td><p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. cela peut se produire pour <strong>JetSetCurrentIndex2</strong> lorsque <em>pindexid</em> n’a pas la valeur NULL et que pindexid- &gt; cbStruct n’est pas de la taille attendue (Windows XP et versions antérieures).</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errNoCurrentRecord</p></td>
@@ -174,7 +174,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="even">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p>
-<p>Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
+<p>cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>
@@ -188,11 +188,11 @@ En cas de réussite, l’index actuel du curseur est défini sur l’index deman
 
 En cas d’échec, l’index actuel et la position actuelle du curseur sont dans un État indéfini. Aucune modification de l’état de la base de données ne se produit.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Si l’indicateur d’ID d’index est obsolète, l’API échoue simplement. Il n’existe pas de secours pour le nom de texte de l’index dans ce cas, car il peut s’agir d’un exemple. Ce secours doit être effectué manuellement par l’appelant de l’API.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Conditions requises
 
 <table>
 <colgroup>
@@ -202,11 +202,11 @@ Si l’indicateur d’ID d’index est obsolète, l’API échoue simplement. Il
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

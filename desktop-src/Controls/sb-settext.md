@@ -3,7 +3,7 @@ title: Message SB_SETTEXT (commctrl. h)
 description: Définit le texte dans la partie spécifiée d’une fenêtre d’État.
 ms.assetid: 6039a61c-6ec6-42cd-94d5-5f1cf2998586
 keywords:
-- SB_SETTEXT les contrôles de message Windows
+- SB_SETTEXT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a466187b4ccd00a974b992eacec11938f45001da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0fcf0a7928e87cbc614a59dc64b433223afa97bbdac3f45f1635cb8cfe7b34a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408882"
 ---
 # <a name="sb_settext-message"></a>\_Message SB SETTEXT
 
@@ -103,11 +103,11 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le t
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message invalide la partie de la fenêtre qui a changé, provoquant l’affichage du nouveau texte lorsque la fenêtre reçoit le message de [**\_ peinture WM**](/windows/desktop/gdi/wm-paint) .
 
-Les fenêtres normales affichent le texte de gauche à droite (LTR). Les fenêtres peuvent être *mises en miroir* pour afficher des langues telles que l’hébreu ou l’arabe, qui sont lues de droite à gauche (RTL). Si SBT \_ RTLREADING est défini, la chaîne *lParam* lira dans le sens inverse du texte de la fenêtre parente.
+Les fenêtres normales affichent le texte de gauche à droite (LTR). les Windows peuvent être *mis en miroir* pour afficher des langues telles que l’hébreu ou l’arabe, qui sont lues de droite à gauche (RTL). Si SBT \_ RTLREADING est défini, la chaîne *lParam* lira dans le sens inverse du texte de la fenêtre parente.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -115,8 +115,8 @@ Les fenêtres normales affichent le texte de gauche à droite (LTR). Les fenêtr
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **SB \_ SETTEXTW** (Unicode) et **SB \_ SETTEXTA** (ANSI)<br/>                     |
 

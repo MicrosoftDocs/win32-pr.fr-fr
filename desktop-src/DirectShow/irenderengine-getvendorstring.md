@@ -1,5 +1,5 @@
 ---
-description: La méthode GetVendorString récupère le nom du fournisseur. Pour les objets de moteur de rendu fournis par DirectShow, la chaîne du fournisseur est &\# 0034 ; Microsoft Corporation&\# 0034 ;.
+description: La méthode GetVendorString récupère le nom du fournisseur. pour les objets de moteur de rendu fournis par DirectShow, la chaîne du fournisseur est &\# 0034 ; Microsoft Corporation&\# 0034 ;.
 ms.assetid: d0a4c525-67dc-419a-b4d6-8cd51888fd8a
 title: 'IRenderEngine :: GetVendorString, méthode (qedit. h)'
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: abf339b73fa058c6554965c16428774ad1fdd32c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98930dae04fa996efca6ce5eb92069729f61ba9c15412bbb7f13aa9799dc3acb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154026"
 ---
 # <a name="irenderenginegetvendorstring-method"></a>IRenderEngine :: GetVendorString, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-La `GetVendorString` méthode récupère le nom du fournisseur. Pour les objets de moteur de rendu fournis par DirectShow, la chaîne du fournisseur est « Microsoft Corporation ».
+La `GetVendorString` méthode récupère le nom du fournisseur. pour les objets de moteur de rendu fournis par DirectShow, la chaîne du fournisseur est « Microsoft Corporation ».
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -56,7 +56,7 @@ Reçoit un **BSTR** contenant la chaîne du fournisseur.
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode alloue de la mémoire pour la chaîne. L’application doit appeler **SysFreeString** pour libérer la mémoire.
 
@@ -66,7 +66,7 @@ La méthode alloue de la mémoire pour la chaîne. L’application doit appeler 
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

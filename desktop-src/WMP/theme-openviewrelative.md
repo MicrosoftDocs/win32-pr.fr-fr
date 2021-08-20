@@ -3,7 +3,7 @@ title: THÈME. openViewRelative
 description: La méthode openViewRelative ouvre une vue dans une nouvelle fenêtre à une position initiale spécifiée par rapport à l’angle supérieur gauche de l’apparence.
 ms.assetid: fc31a1ce-e6b9-4084-b244-28fad486f485
 keywords:
-- THEMe. openViewRelative Windows Media Player
+- thème. openViewRelative Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 80ec93055535640b84c33dde2b61ee59cd5bfdcf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a26040bb8f47d85be99f0d8df602bdd69835cfa648ac6d5898f786e4518acdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117773"
 ---
 # <a name="themeopenviewrelative"></a>THÈME. openViewRelative
 
@@ -57,7 +57,7 @@ La méthode **openViewRelative** ouvre une **vue** dans une nouvelle fenêtre à
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La position spécifiée pour la **vue** est utilisée la première fois que cette méthode est appelée, après laquelle l’utilisateur peut faire glisser la **vue** vers un autre emplacement. La nouvelle position est enregistrée et, lors des appels suivants, la position la plus récente est utilisée.
 

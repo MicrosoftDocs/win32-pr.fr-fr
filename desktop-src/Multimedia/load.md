@@ -3,7 +3,7 @@ title: commande Load
 description: La commande Load charge un fichier dans un format spécifique à l’appareil. Les appareils vidéo et vidéo numériques reconnaissent cette commande.
 ms.assetid: ae7bfe92-7957-4756-a408-e3ab60dd9aa4
 keywords:
-- commande de chargement multimédia Windows
+- commande de chargement Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b199a6d3aea8a2697217eb75176c24b2b0bc2e2a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c66822de727ea45e93839c710dae19739cba8adaac8b571846c1fa23ef0083c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139354"
 ---
 # <a name="load-command"></a>commande Load
 
@@ -64,7 +64,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appareil « vidboard » envoie un message de notification lorsque le chargement est terminé.
 

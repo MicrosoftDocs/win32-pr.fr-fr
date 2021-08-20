@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: e4989e3ec23a1ffa97ba317831143ecf0920ef9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9708ebc5675d918c959be132d16037ac4e128650280b8243dcfe5c48834b602b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118041869"
 ---
 # <a name="invokeidispatch-function"></a>InvokeIDispatch fonction)
 
@@ -87,13 +87,13 @@ Si la méthode est réussie, elle retourne la valeur \_ OK. En cas d’échec, l
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                         |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                         |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: 18081652-962f-4605-84b7-1fa60f61ad05
 title: Émission de commandes AV/C brutes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1cf1b25d45a0eb35ede7151941d0cd49d30db0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 729cad0be3a55a3f95592e54e8f91b9074892a8d111da9ad996b4e00a136cbe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153786"
 ---
 # <a name="issuing-raw-avc-commands"></a>Émission de commandes AV/C brutes
 
@@ -17,12 +17,12 @@ Les interfaces [**IAMExtDevice**](/windows/desktop/api/Strmif/nn-strmif-iamextde
 
 Vous devez garder à l’esprit les points suivants lors de l’utilisation de cette fonctionnalité :
 
--   La commande est passée directement à l’appareil, sans vérification des erreurs ni validation de paramètre. Pour cette raison, vous devez émettre des commandes AV/C brutes uniquement lorsque les interfaces DirectShow n’implémentent pas les fonctionnalités dont vous avez besoin.
+-   La commande est passée directement à l’appareil, sans vérification des erreurs ni validation de paramètre. pour cette raison, vous devez émettre des commandes AV/C brutes uniquement lorsque les interfaces DirectShow n’implémentent pas les fonctionnalités dont vous avez besoin.
 -   Toutes les commandes AV/C brutes sont synchrones. Le thread émettant la commande se bloque jusqu’à ce que la commande retourne.
 -   Une seule commande peut être donnée à la fois. Pendant le traitement de la commande, l’appareil rejette toutes les commandes supplémentaires.
 -   Le pilote UVC ne prend pas en charge les commandes AV/C brutes.
 
-Pour envoyer une commande AV/C, mettez en forme la commande sous la forme d’un tableau d’octets. Appelez ensuite [**IAMExtTransport :: GetTransportBasicParameters**](/windows/desktop/api/Strmif/nf-strmif-iamexttransport-gettransportbasicparameters). Transmettez l' \_ indicateur Ed RAW \_ ext \_ dev \_ cmd, la taille du tableau et le tableau. Vous devez effectuer un cast de l’adresse du tableau en type **LPOLESTR \** _, car l’objectif initial de ce paramètre était de retourner une valeur de chaîne.
+Pour envoyer une commande AV/C, mettez en forme la commande sous la forme d’un tableau d’octets. Appelez ensuite [**IAMExtTransport :: GetTransportBasicParameters**](/windows/desktop/api/Strmif/nf-strmif-iamexttransport-gettransportbasicparameters). Transmettez l' \_ indicateur Ed RAW \_ ext \_ dev \_ cmd, la taille du tableau et le tableau. Vous devez effectuer un cast de l’adresse du tableau en un type **LPOLESTR \*** , car l’objectif initial de ce paramètre était de retourner une valeur de chaîne.
 
 
 ```C++
@@ -31,7 +31,7 @@ long cbCmd = sizeof(AvcCmd);
 hr = pTransport->GetTransportBasicParameters(
     ED_RAW_EXT_DEV_CMD, 
     &cbCmd,
-    (LPOLESTR_) AvcCmd);
+    (LPOLESTR*) AvcCmd);
 ```
 
 

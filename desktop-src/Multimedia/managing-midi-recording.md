@@ -9,12 +9,12 @@ keywords:
 - Enregistrement MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0edfb81976e1f5333798c9705640e7676281968a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 29bf4ac85ad0cc9735a08bab3ee07d744eecb0d75308ee323ec93c1c69b1a9e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139060"
 ---
 # <a name="managing-midi-recording"></a>Gestion de l’enregistrement MIDI
 
@@ -31,7 +31,7 @@ Après avoir ouvert un appareil MIDI, vous pouvez commencer à enregistrer des d
 
 
 
- 
+ 
 
 Pour envoyer des tampons au pilote de périphérique afin d’enregistrer des messages système exclusifs, utilisez [**midiInAddBuffer**](/windows/win32/api/mmeapi/nf-mmeapi-midiinaddbuffer). L’application est avertie lorsque les mémoires tampons sont remplies avec des données enregistrées exclusives du système. Pour plus d’informations sur les techniques de notification, consultez [gestion des blocs de données MIDI](managing-midi-data-blocks.md).
 
@@ -48,6 +48,6 @@ Pour enregistrer des messages système exclusifs avec des applications qui n’u
 [Enregistrement d’un fichier audio MIDI](recording-midi-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

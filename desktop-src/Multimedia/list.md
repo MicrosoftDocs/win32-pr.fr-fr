@@ -1,9 +1,9 @@
 ---
-title: liste, commande
+title: Commande list
 description: La commande list détermine le nombre et les types d’entrées vidéo et audio. Les appareils vidéo numériques et VCR reconnaissent cette commande.
 ms.assetid: b3fe3819-0b8a-4de5-9c79-03e1e089436f
 keywords:
-- commande de liste Windows Multimedia
+- commande de liste Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5d0a171c6768caf1b947a0d07cb46e5cccd28c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b8881c85d146ce869e41d234a72190901135d233f8e45d580d5f568c4ccc48da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139472"
 ---
-# <a name="list-command"></a>liste, commande
+# <a name="list-command"></a>Commande list
 
 La commande list détermine le nombre et les types d’entrées vidéo et audio. Les appareils vidéo numériques et VCR reconnaissent cette commande.
 
@@ -101,7 +101,7 @@ Peut être « Wait », « Notify » ou « test ». Pour plus d’informati
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour les périphériques VCR, vous devez spécifier « source vidéo » ou « source audio » avec les indicateurs « nombre » ou « nombre ». Si « Count » est spécifié, le nombre total d’entrées de vidéo ou audio est retourné. Si « number » est spécifié, le pilote retourne un type correspondant à l’entrée. Le type peut être l’un des suivants : « Tuner », « line », « Svideo », « aux » ou « Generic ». En règle générale, vous devez d’abord interroger le magnétoscope pour obtenir le « nombre », puis utiliser le nombre comme plage pour l’indicateur « nombre ». Les nombres « sources » commencent à 1.
 

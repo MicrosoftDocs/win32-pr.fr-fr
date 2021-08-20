@@ -4,12 +4,12 @@ ms.assetid: 17ce349c-10f3-4d9b-abb0-7af4f40bab32
 title: Analyse des entrées manuscrites
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 021882d8f2de83b4bac9580ae66dd097bfd556db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6befccd5f24f5c5ea3b505823bfac1fdcc335aa39cf0228256cce3639c42f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118043598"
 ---
 # <a name="ink-analysis"></a>Analyse des entrées manuscrites
 

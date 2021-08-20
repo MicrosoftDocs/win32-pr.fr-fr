@@ -4,32 +4,32 @@ description: Utilisation d’éléments PARAM dans une page Web affichée par Fi
 ms.assetid: 8403c6f4-f221-4411-b49c-f0c9c22943df
 keywords:
 - Lecteur Windows Media, éléments PARAM dans l’élément OBJECT
-- Windows Media Player Object Model, PARAM, éléments dans l’élément OBJECT
+- Lecteur Windows Media modèle objet, éléments PARAM dans l’élément object
 - modèle objet, éléments PARAM dans l’élément OBJECT
-- Windows Media Player Mobile, éléments PARAM dans l’élément OBJECT
-- Windows Media Player ActiveX Control, PARAM, éléments dans l’élément OBJECT
-- Windows Media Player Mobile contrôle ActiveX, éléments PARAM dans l’élément OBJECT
-- Contrôle ActiveX, éléments PARAM dans l’élément OBJECT
+- Lecteur Windows Media Mobile, éléments PARAM dans l’élément OBJECT
+- Lecteur Windows Media ActiveX contrôle, éléments PARAM dans l’élément OBJECT
+- Lecteur Windows Media contrôle Mobile ActiveX, éléments PARAM dans l’élément OBJECT
+- contrôle ActiveX, éléments PARAM dans l’élément OBJECT
 - incorporation, pages Web
 - Incorporation de pages Web, éléments PARAM dans l’élément OBJECT
 - PARAM, éléments dans l’élément OBJECT
 - Lecteur Windows Media, Firefox
-- Windows Media Player Object Model, Firefox
+- modèle objet Lecteur Windows Media, Firefox
 - modèle objet, Firefox
-- Windows Media Player Mobile, Firefox
-- Contrôle ActiveX du lecteur Windows Media, Firefox
-- Windows Media Player Mobile contrôle ActiveX, Firefox
-- Contrôle ActiveX, Firefox
+- Lecteur Windows Media Mobile, Firefox
+- Lecteur Windows Media ActiveX contrôle, Firefox
+- Lecteur Windows Media contrôle de ActiveX Mobile, Firefox
+- contrôle ActiveX, Firefox
 - Firefox, éléments PARAM dans l’élément OBJECT
 - Incorporation de pages Web, Firefox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b045d111ff3cd0de09f54a8cf7ac25028fa1dc6
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: 767b9b0d5e4367a17f07f68600ff8e9cac488ca9e4c950165d84677fd7d03956
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "104311680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117304"
 ---
 # <a name="using-param-elements-in-a-web-page-displayed-by-firefox"></a>Utilisation d’éléments PARAM dans une page Web affichée par Firefox
 
@@ -52,12 +52,12 @@ La plupart des éléments PARAM peuvent être interprétés par Internet Explore
 
 <dl> <dt>
 
-[**Utilisation du contrôle du lecteur Windows Media avec Firefox**](using-the-windows-media-player-control-with-firefox.md)
+[**utilisation du contrôle Lecteur Windows Media avec Firefox**](using-the-windows-media-player-control-with-firefox.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

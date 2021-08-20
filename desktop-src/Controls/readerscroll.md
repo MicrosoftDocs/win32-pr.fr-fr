@@ -3,7 +3,7 @@ title: ReaderScroll fonction de rappel
 description: Fonction de rappel définie par l’application utilisée lorsque le pointeur de la souris est déplacé dans la partie de la fenêtre en mode lecteur qui a été déclarée comme zone de défilement active.
 ms.assetid: b1feb661-e3bc-4fcd-9acf-ac000c3066bd
 keywords:
-- Contrôles Windows de fonction de rappel ReaderScroll
+- ReaderScroll, fonction de rappel des contrôles Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0db5a80b84a30362e3bdbce45fe7485ad0dd6884
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 554530e556161b4128199cda0a1a9d791f4f0ed75e8915c311d8945445486ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169109"
 ---
 # <a name="readerscroll-callback-function"></a>ReaderScroll fonction de rappel
 
@@ -77,7 +77,7 @@ Type : **[ **bool**](/windows/desktop/WinProg/windows-data-types)**
 
 Cette fonction doit toujours retourner **true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque l’application reçoit une notification de cette fonction, l’application est chargée de faire défiler la fenêtre en mode lecteur dans le sens spécifié par les paramètres *DX* et *dy* .
 
@@ -108,8 +108,8 @@ ReaderScrollCallback(PREADERMODEINFO prmi, int dx, int dy)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista, applications de \[ Bureau Windows Vista uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>          |
+| Client minimal pris en charge<br/> | Windows vista, Windows les \[ applications de bureau vista uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>          |
 
 
 

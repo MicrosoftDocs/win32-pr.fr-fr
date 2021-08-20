@@ -4,16 +4,16 @@ ms.assetid: bde7cef8-f43e-4a11-8b77-fed5585d390a
 title: Implémentation de IMediaBuffer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3425b3f612667a0b6577de385d59362bd8dafd0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5033fcf18812f2a31e175c05b0d4d8eeee18484d0cc20e640ae30f9390a68f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106537172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154117"
 ---
 # <a name="implementing-imediabuffer"></a>Implémentation de IMediaBuffer
 
-Dans le modèle de diffusion en continu DMO par défaut, les mémoires tampons sont gérées via l’interface [**IMediaBuffer**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer) . Le client de la DMO est responsable de l’implémentation d’un objet qui expose cette interface. L’interface **IMediaBuffer** a trois méthodes :
+dans le modèle de diffusion en continu DMO par défaut, les mémoires tampons sont gérées via l’interface [**IMediaBuffer**](/previous-versions/windows/desktop/api/Mediaobj/nn-mediaobj-imediabuffer) . le client du DMO est chargé d’implémenter un objet qui expose cette interface. L’interface **IMediaBuffer** a trois méthodes :
 
 -   **GetBufferAndLength** retourne l’adresse de la mémoire tampon (autrement dit, le bloc réel de mémoire qui contient les données) et la taille des données valides dans la mémoire tampon.
 -   **GetMaxLength** retourne la taille de la mémoire tampon.

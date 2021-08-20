@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b20a61a8a542a6ce56e58d2bde75d6982703c0f8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: de77df7f808d9ddd45f217573f843f1260c258e9f17d10c65de8f472496c9a3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426741"
 ---
 # <a name="ms-ds-generation-id-attribute"></a>ms-DS-Generation-ID (attribut)
 

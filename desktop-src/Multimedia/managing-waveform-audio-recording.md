@@ -10,18 +10,18 @@ keywords:
 - waveInAddBuffer fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539f722a705d489064d38eccdf6d89e80ccb1518
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d798cb1b6a8a22f4c695bced89dd669346ad2bb6452179df1d3278af8681aa49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138932"
 ---
 # <a name="managing-waveform-audio-recording"></a>Gestion de l’enregistrement Waveform-Audio
 
 Après avoir ouvert un périphérique d’entrée Waveform-Audio, vous pouvez commencer à enregistrer des données Waveform-Audio. Les données Waveform-Audio sont enregistrées dans des mémoires tampons fournies par l’application spécifiées par une structure [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) . Ces blocs de données doivent être préparés avant d’être utilisés ; Pour plus d’informations, consultez [blocs de données audio](audio-data-blocks.md).
 
-Windows fournit les fonctions suivantes pour gérer l’enregistrement Waveform-Audio.
+Windows fournit les fonctions suivantes pour gérer l’enregistrement waveform-audio.
 
 
 
@@ -34,7 +34,7 @@ Windows fournit les fonctions suivantes pour gérer l’enregistrement Waveform-
 
 
 
- 
+ 
 
 Utilisez la fonction [**waveInAddBuffer**](/windows/win32/api/mmeapi/nf-mmeapi-waveinaddbuffer) pour envoyer des tampons au pilote de périphérique. Étant donné que les tampons sont remplis avec des données Waveform-audio enregistrées, l’application est avertie par un message de fenêtre, un message de rappel, un message de thread ou un événement, en fonction de l’indicateur spécifié lors de l’ouverture de l’appareil.
 
@@ -49,6 +49,6 @@ Avant de fermer l’appareil à l’aide de [**waveInClose**](/windows/win32/api
 [Enregistrement de la forme d’onde](recording-waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

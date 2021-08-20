@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b368f30b04734b2d253a7d5f2aa64f0d61c930e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb9dad1962cace623a4a52991d3650451a0a6d5f660aad88e46c4fe393ce4e4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142108"
 ---
 # <a name="installerlasterrorrecord-method"></a>Installer. LastErrorRecord, méthode
 
@@ -41,22 +41,22 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet [**enregistrement**](record-object.md) est réinitialisé après l’exécution de cette fonction de toute fonction qui génère un enregistrement d’erreur.
 
 Seules les fonctions désignées suivantes génèrent un enregistrement d’erreur :
 
 -   [**OpenDatabase, méthode (objet installer)**](installer-opendatabase.md)
--   [**Commit**](database-commit.md)
+-   [**Commiter**](database-commit.md)
 -   [**OpenView**](database-openview.md)
--   [**Importer**](database-import.md)
+-   [**Port**](database-import.md)
 -   [**Exporter**](database-export.md)
 -   [**Fusion**](database-merge.md)
 -   [**GenerateTransform**](database-generatetransform.md)
 -   [**ApplyTransform**](database-applytransform.md)
--   [**Execute**](view-execute.md)
--   [**Modifier**](view-modify.md)
+-   [**Effectue**](view-execute.md)
+-   [**Modify**](view-modify.md)
 -   [**SetStream**](record-setstream.md)
 -   [**SummaryInformation**](database-summaryinformation.md)
 -   [**SourcePath**](session-sourcepath.md)

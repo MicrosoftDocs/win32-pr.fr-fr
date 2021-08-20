@@ -3,7 +3,7 @@ title: Message PSM_CANCELTOCLOSE (Prsht. h)
 description: Envoyé par une application lorsqu’elle a effectué des modifications depuis la dernière \_ notification d’application PSN qui ne peut pas être annulée. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro PropSheet CancelToClose.
 ms.assetid: 0a4b6176-7ddb-469f-8ebf-a31e533a8690
 keywords:
-- PSM_CANCELTOCLOSE les contrôles de message Windows
+- PSM_CANCELTOCLOSE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec1377801fddeeb52badee55869ace7e9c2277c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 65c37c46e1232d8f99b8666e86058a13b840fbc975d94355d75ef40a810ee23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169815"
 ---
 # <a name="psm_canceltoclose-message"></a>\_Message PSM CANCELTOCLOSE
 
@@ -47,7 +47,7 @@ Doit être zéro.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **PSM \_ CANCELTOCLOSE** désactive le bouton **Annuler** et remplace le texte du bouton **OK** par « fermer ».
 
@@ -70,8 +70,8 @@ Pour la troisième option, les applications doivent envoyer un message **\_ CANC
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

@@ -19,12 +19,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a3298e5a7f90dbaee24e5014b1a3aab76ad6997
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 95aa97307342a36e6fd8e3746cb975b0f9e579d0ad7fe76b40c34a429f777c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106545754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163291"
 ---
 # <a name="microsoftdns_hinfotype-class"></a>MicrosoftDNS \_ HINFOType, classe
 
