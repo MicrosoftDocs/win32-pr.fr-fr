@@ -4,12 +4,12 @@ ms.assetid: 2eed568b-1a16-47d2-ae26-3f1dec35e893
 title: Message WM_PALETTECHANGED (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a02bffe5206c7550cce2ec62203f3dbea2d246
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb706452e357f2e322b1f4e2618f0fd59c5c4d9a6606c07d18fae7c3b346323e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977919"
 ---
 # <a name="wm_palettechanged-message"></a>\_Message WM PALETTECHANGED
 
@@ -47,13 +47,13 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message doit être envoyé à toutes les fenêtres de niveau supérieur et avec chevauchement, y compris celui qui a modifié la palette du système. Si des fenêtres enfants utilisent une palette de couleurs, ce message doit également leur être transmis.
 
 Pour éviter de créer une boucle infinie, une fenêtre qui reçoit ce message ne doit pas réaliser sa palette, sauf si elle détermine que *wParam* ne contient pas son propre handle de fenêtre.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: 3280d6cf-2741-40fe-8aa5-9f5be96d9fb8
 title: Prise en main avec l’assistance IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 566ed4503c9bbafaee846aebf30c31993f7ce7e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 134ca2df12a7d2d2cbd2d0a64f1da07c8aeecd4980fea791bfc19ca018cd87be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014157"
 ---
 # <a name="getting-started-with-ip-helper"></a>Prise en main avec l’assistance IP
 
 Voici un guide pas à pas de la programmation à l’aide de l’interface de programmation d’applications (API) d’assistance IP. Il est conçu pour vous permettre de comprendre les fonctions d’assistance IP de base et les structures de données, et comment elles fonctionnent ensemble.
 
-L’application utilisée pour l’illustration est une application d’assistance IP très basique. Des exemples de code plus avancés sont inclus dans les exemples inclus dans le kit de développement logiciel (SDK) Microsoft Windows.
+L’application utilisée pour l’illustration est une application d’assistance IP très basique. vous trouverez des exemples de code plus avancés dans les exemples inclus dans le kit de développement logiciel (SDK) de Microsoft Windows.
 
 La première étape est la même pour la plupart des applications d’assistance IP.
 
@@ -38,9 +38,9 @@ Le code source complet de cet exemple d’assistance IP de base.
 
 ## <a name="advanced-ip-helper-samples"></a>Exemples avancés d’assistance IP
 
-Plusieurs exemples plus avancés d’assistance IP sont inclus dans le kit de développement logiciel (SDK) Microsoft Windows. Par défaut, l’exemple de code source du programme d’assistance IP est installé par la SDK Windows publiée pour Windows 7 dans le répertoire suivant :
+plusieurs exemples plus avancés d’assistance IP sont inclus dans le kit de développement logiciel (SDK) de Microsoft Windows. par défaut, l’exemple de code source de l’assistance IP est installé par le SDK Windows disponible pour Windows 7 dans le répertoire suivant :
 
-*C : \\ Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ NetDs \\ IPHelp*
+*C : \\ Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ NetDs \\ IPHelp*
 
 Les exemples plus avancés répertoriés ci-dessous se trouvent dans les répertoires suivants :
 
@@ -74,7 +74,7 @@ Les exemples plus avancés répertoriés ci-dessous se trouvent dans les répert
 
 -   NetInfo
 
-    Ce répertoire contient un exemple de programme qui montre comment utiliser les nouvelles API d’assistance IP introduites sur Windows Vista et versions ultérieures pour afficher/modifier les informations d’adresse et d’interface pour IPv4 et IPv6.
+    ce répertoire contient un exemple de programme qui montre comment utiliser les nouvelles api d’assistance IP introduites dans Windows Vista et versions ultérieures pour afficher/modifier les informations d’adresse et d’interface pour IPv4 et IPv6.
 
  
 

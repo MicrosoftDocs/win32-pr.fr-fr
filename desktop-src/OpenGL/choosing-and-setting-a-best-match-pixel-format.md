@@ -7,12 +7,12 @@ keywords:
 - format de pixel de meilleure correspondance OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 143800a9c43d8c8a7779bb5e6cd119c6737f8129
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 258364e18ff38cb67edd1315f261a55a91f58fe940b026e1fcb7b63ed2e12eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063299"
 ---
 # <a name="choosing-and-setting-a-best-match-pixel-format"></a>Choix et définition d’un format de pixel Best-Match
 
@@ -61,9 +61,9 @@ SetPixelFormat(hdc, iPixelFormat, &pfd);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

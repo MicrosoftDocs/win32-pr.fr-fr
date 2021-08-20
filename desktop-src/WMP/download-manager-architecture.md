@@ -3,25 +3,25 @@ title: Architecture du gestionnaire de téléchargement
 description: Architecture du gestionnaire de téléchargement
 ms.assetid: cbd46bf2-613f-40ae-8506-2f3c5eb84ada
 keywords:
-- Windows Media Player Online stores, gestionnaire de téléchargement
+- Lecteur Windows Media des magasins en ligne, gestionnaire de téléchargement
 - magasins en ligne, gestionnaire de téléchargement
 - tapez 2 magasins en ligne, gestionnaire de téléchargement
 - Lecteur Windows Media, gestionnaire de téléchargement
-- Gestionnaire de téléchargement du lecteur Windows Media
+- Lecteur Windows Media Gestionnaire de téléchargement
 - Gestionnaire de téléchargement
 - architecture du gestionnaire de téléchargement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a0567c32430e0cc15ea589bed43e2e81ffb3a08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9fae04be86d935f87202abe4b0bf73e833a9da07cf89526b9dcb60de31eb881a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997099"
 ---
 # <a name="download-manager-architecture"></a>Architecture du gestionnaire de téléchargement
 
-Le gestionnaire de téléchargement du lecteur Windows Media utilise la technologie COM. La fonctionnalité est divisée en un ensemble d’interfaces de programmation ; vous pouvez écrire du code de programmation qui utilise ces interfaces à l’aide de Microsoft JScript ou C++.
+le gestionnaire de téléchargement Lecteur Windows Media utilise la technologie COM. La fonctionnalité est divisée en un ensemble d’interfaces de programmation ; vous pouvez écrire du code de programmation qui utilise ces interfaces à l’aide de Microsoft JScript ou C++.
 
 Les langages de script utilisent le concept d’objets pour diviser les fonctionnalités de programmation. Le modèle objet **downloadmanager** utilise plusieurs objets pour diviser les méthodes et les propriétés en une organisation logique qui regroupe les fonctions sémantiquement associées. Les sections suivantes contiennent des informations sur les objets du gestionnaire de téléchargement.
 
@@ -29,17 +29,17 @@ Les langages de script utilisent le concept d’objets pour diviser les fonction
 
 | Section                                                                     | Description                                                                                              |
 |-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| [À propos de l’objet DownloadManager](#about-the-downloadmanager-object)       | L’objet **downloadmanager** représente l’objet racine du gestionnaire de téléchargement du lecteur Windows Media. |
+| [À propos de l’objet DownloadManager](#about-the-downloadmanager-object)       | l’objet **DownloadManager** représente l’objet racine pour le gestionnaire de téléchargement Lecteur Windows Media. |
 | [À propos de l’objet DownloadCollection](#about-the-downloadcollection-object) | L’objet **DownloadCollection** représente une collection d’éléments de téléchargement.                             |
 | [À propos de l’objet DownloadItem](#about-the-downloaditem-object)             | L’objet **DownloadItem** représente une demande de téléchargement individuelle.                                   |
 
 
 
- 
+ 
 
 ## <a name="about-the-downloadmanager-object"></a>À propos de l’objet DownloadManager
 
-**Downloadmanager** est l’objet racine du gestionnaire de téléchargement du lecteur Windows Media. Tous les autres objets sont accessibles par le biais de cet objet. Pour accéder à l’objet **downloadmanager** , utilisez la syntaxe JScript suivante :
+**DownloadManager** est l’objet racine du gestionnaire de téléchargement Lecteur Windows Media. Tous les autres objets sont accessibles par le biais de cet objet. pour accéder à l’objet **DownloadManager** , utilisez la syntaxe de JScript suivante :
 
 
 ```C++
@@ -76,9 +76,9 @@ Vous pouvez utiliser **downloadItem**. **progression** pour informer l’utilisa
 [**Gestionnaire de téléchargement**](download-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

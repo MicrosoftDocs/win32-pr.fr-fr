@@ -4,12 +4,12 @@ description: La création d’un client pour les services Web est considérablem
 ms.assetid: 09f489e8-958d-4bc5-a232-aa59bd75333a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 606a68f574a9ad79d15f3ddd48247f93a5414250
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 50ca04ef5fbbeef76cd32a0b6523391deb19957479cd5f332715972f3b5bfbc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026557"
 ---
 # <a name="creating-a-client"></a>Création d’un client
 
@@ -74,9 +74,9 @@ HRESULT BasicHttpBinding_ICalculator_Multiply(
 
 Vous pouvez copier les prototypes et les utiliser en tant que modèles pour coder les appels de fonction dans votre client, dans chaque cas en passant le handle au proxy de service. Lorsque vous avez terminé avec le proxy de service, appelez [**WsCloseServiceProxy**](/windows/desktop/api/WebServices/nf-webservices-wscloseserviceproxy).
 
- 
+ 
 
- 
+ 
 
 
 

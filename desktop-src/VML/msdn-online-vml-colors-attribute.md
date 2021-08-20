@@ -4,27 +4,27 @@ description: Attribut des couleurs VML
 ms.assetid: 466ed1d7-8861-44db-bd96-a2fd119b12f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d68c5df5b2dc97c19441d6abaf6cd6c03d949c55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a699b0ab8da898dd82fa4e1bf4823c0f9fdd443eb8275e25dbfaac6d2f039a6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999279"
 ---
 # <a name="vml-colors-attribute"></a>Attribut des couleurs VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit plusieurs couleurs pour un remplissage dégradé. En lecture/écriture. **IVgGradientColorArray**.
 
 **S’applique à**
 
-[Complète](msdn-online-vml-fill-element.md)
+[Remplir](msdn-online-vml-fill-element.md)
 
 **Syntaxe de balise**
 
@@ -60,6 +60,6 @@ La forme a un remplissage dégradé constitué de quatre couleurs, en commençan
 
 
 
- 
+ 
 
- 
+ 

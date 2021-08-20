@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e82b9525dd6de316087db8fdfd55181118d3adc6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8c6b7a1e70804bc3c9c277f3d46ac6a8ad20fc0f98b370f93fe9fd09b0b1bb99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013857"
 ---
 # <a name="ignore-attribute"></a>ignorer l’attribut
 
@@ -45,7 +45,7 @@ Spécifie le nom du membre pointeur qui doit être ignoré pendant le marshaling
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur d’un membre de structure avec l’attribut **\[ ignore \]** est non définie au niveau de la destination. Un **\[** paramètre [**in**](in.md) **\]** n’est pas défini sur l’ordinateur distant. Un **\[** [](out-idl.md) **\]** paramètre de sortie n’est pas défini sur l’ordinateur local.
 
@@ -105,7 +105,7 @@ typedef struct _DBL_LINK_NODE_TYPE
 [Tableaux et pointeurs](/windows/desktop/Rpc/arrays-and-pointers)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [**à**](out-idl.md)
@@ -120,6 +120,6 @@ typedef struct _DBL_LINK_NODE_TYPE
 [**unique**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

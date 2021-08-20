@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0acc433b55ba9f3c6d8919bef9b8db470bc0f5a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0164211a267760a533d8d164a76387dbbcfba8a0aad8e4ac6ecaf20ed770708a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067019"
 ---
 # <a name="ncadg_mq-attribute"></a>\_attribut MQ ncadg
 
@@ -38,7 +38,7 @@ Spécifie le nom du serveur ou de l’ordinateur hôte. Le nom est une chaîne d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour pouvoir utiliser le protocole de transport **ncadg \_ MQ** , les composants MSMQ doivent être entièrement installés et les systèmes client et serveur doivent être accessibles via les protocoles mq.
 
@@ -47,7 +47,7 @@ Le protocole **ncadg \_ MQ** ne prend pas en charge les points de terminaison ou
 > [!Note]  
 > Cette famille de protocoles n’est pas prise en charge dans WindowsÂ XP.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -90,6 +90,6 @@ interface iface
 [Liaison de chaîne](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

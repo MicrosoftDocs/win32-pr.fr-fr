@@ -1,21 +1,21 @@
 ---
-description: Une application de sauvegarde et de récupération VSS qui effectue une récupération d’urgence (également appelée récupération complète) peut utiliser l’enregistreur de récupération automatique du système (ASR) avec environnement de préinstallation Windows (WinPE) (Windows PE) pour sauvegarder et restaurer les volumes critiques et d’autres composants de l’état du système de démarrage. L’application de sauvegarde est implémentée en tant que demandeur VSS.
+description: une application de sauvegarde et de récupération VSS qui effectue une récupération d’urgence (également appelée récupération complète) peut utiliser le générateur de récupération automatique du système (ASR) avec environnement de préinstallation Windows (WinPE) (Windows PE) pour sauvegarder et restaurer les volumes critiques et d’autres composants de l’état du système de démarrage. L’application de sauvegarde est implémentée en tant que demandeur VSS.
 ms.assetid: 13adfd79-f26a-4385-9b59-129d06fa72eb
 title: Utilisation de la récupération automatique du système VSS pour la récupération d’urgence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e31ef8ba223f40928e2422fa92240656f94592d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6813f0f746600fa665ed20bb208f3241cb1a88a12de721d53a8afa77be4a4c35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998059"
 ---
 # <a name="using-vss-automated-system-recovery-for-disaster-recovery"></a>Utilisation de la récupération automatique du système VSS pour la récupération d’urgence
 
-Une application de sauvegarde et de récupération VSS qui effectue une récupération d’urgence (également appelée récupération complète) peut utiliser l’enregistreur de récupération automatique du système (ASR) avec environnement de préinstallation Windows (WinPE) (Windows PE) pour sauvegarder et restaurer les volumes critiques et d’autres composants de l’état du système de démarrage. L’application de sauvegarde est implémentée en tant que demandeur VSS.
+une application de sauvegarde et de récupération VSS qui effectue une récupération d’urgence (également appelée récupération complète) peut utiliser le générateur de récupération automatique du système (ASR) avec environnement de préinstallation Windows (WinPE) (Windows PE) pour sauvegarder et restaurer les volumes critiques et d’autres composants de l’état du système de démarrage. L’application de sauvegarde est implémentée en tant que demandeur VSS.
 
-**Remarque**  Les applications qui utilisent ASR doivent disposer d’une licence Windows PE.
+**Remarque**  les Applications qui utilisent ASR doivent disposer d’une licence Windows PE.
 
 **Windows Server 2003 et Windows XP :** La récupération automatique du système n’est pas implémentée en tant qu’enregistreur VSS.
 
@@ -56,7 +56,7 @@ Au moment de la sauvegarde, le demandeur effectue les étapes suivantes.
 17. Appelez [**IVssBackupComponents :: BackupComplete**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete) pour indiquer que l’opération de sauvegarde est terminée.
 18. Appelez [**IVssBackupComponents :: GatherWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus) et [**IVssBackupComponents :: GetWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus). La mémoire de l’état de session du writer est une ressource limitée, et les enregistreurs doivent finalement réutiliser les États de session. Cette étape marque l’état de la session de sauvegarde du writer comme étant terminé et notifie à VSS que cet emplacement de session de sauvegarde peut être réutilisé par une opération de sauvegarde ultérieure.
     > [!Note]  
-    > Cela n’est nécessaire que sur Windows Server 2008 avec Service Pack 2 (SP2) et versions antérieures.
+    > cela est nécessaire uniquement sur Windows Server 2008 avec Service Pack 2 (SP2) et versions antérieures.
 
      
 
@@ -66,7 +66,7 @@ Au moment de la sauvegarde, le demandeur effectue les étapes suivantes.
 
 Dans la phase d’initialisation de la sauvegarde, le rédacteur ASR signale les types de composants suivants dans son document de métadonnées d’écriture :
 
--   Volumes critiques, tels que les volumes de démarrage, de système et d’environnement de récupération Windows (Windows RE) et la partition Windows RE qui est associée à l’instance de Windows Vista ou Windows Server 2008 en cours d’exécution. Un volume est un *volume critique* s’il contient des informations sur l’état du système. Les volumes de démarrage et système sont inclus automatiquement. Le demandeur doit inclure tous les volumes qui contiennent les composants critiques du système signalés par les writers, tels que les volumes qui contiennent le Active Directory. Les composants critiques du système sont marqués comme étant « non sélectionnables pour la sauvegarde ». Dans VSS, « non sélectionnable » signifie « non facultatif ». Ainsi, le demandeur doit les sauvegarder dans le cadre de l’état du système. Pour plus d’informations, consultez [sauvegarde et restauration](locating-additional-system-files.md)de l’état du système. Les composants pour lesquels l’indicateur de l’état du système du service de configuration n' \_ \_ est pas défini ne \_ \_ sont pas critiques du système.
+-   volumes critiques, tels que les volumes de démarrage, système et d’environnement de récupération Windows (Windows RE), ainsi que la partition de Windows RE associée à l’instance de Windows Vista ou Windows Server 2008 qui est en cours d’exécution. Un volume est un *volume critique* s’il contient des informations sur l’état du système. Les volumes de démarrage et système sont inclus automatiquement. Le demandeur doit inclure tous les volumes qui contiennent les composants critiques du système signalés par les writers, tels que les volumes qui contiennent le Active Directory. Les composants critiques du système sont marqués comme étant « non sélectionnables pour la sauvegarde ». Dans VSS, « non sélectionnable » signifie « non facultatif ». Ainsi, le demandeur doit les sauvegarder dans le cadre de l’état du système. Pour plus d’informations, consultez [sauvegarde et restauration](locating-additional-system-files.md)de l’état du système. Les composants pour lesquels l’indicateur de l’état du système du service de configuration n' \_ \_ est pas défini ne \_ \_ sont pas critiques du système.
     > [!Note]  
     > Le composant ASR est un composant critique du système qui est signalé par l’Enregistreur ASR.
 
@@ -79,7 +79,7 @@ Dans la phase d’initialisation de la sauvegarde, le rédacteur ASR signale les
 
      
 
-    Dans un environnement de clustering, la récupération automatique du système ne recrée pas la disposition des disques partagés du cluster. Ces disques doivent être restaurés en ligne après la restauration du système d’exploitation dans Windows RE.
+    Dans un environnement de clustering, la récupération automatique du système ne recrée pas la disposition des disques partagés du cluster. Ces disques doivent être restaurés en ligne après la restauration du système d’exploitation dans le Windows RE.
 
 -   Magasin Données de configuration de démarrage (BCD) (BCD). Ce composant spécifie le chemin d’accès du répertoire qui contient le magasin BCD. Le demandeur doit spécifier ce composant et sauvegarder tous les fichiers du répertoire du magasin BCD. Pour plus d’informations sur le magasin BCD, consultez [à propos de BCD](/previous-versions/windows/desktop/bcd/about-bcd).
     > [!Note]  
@@ -144,9 +144,9 @@ Dans la phase de [**prérestauration**](/windows/desktop/api/VsBackup/nf-vsbacku
          
 -   Si la structure du volume du Pack de disque dynamique est intacte et que seules des modifications supplémentaires ont été apportées à celui-ci, les disques du Pack ne sont pas recréés.
 
-    **Windows Vista :** Les disques dynamiques sont toujours recréés. Notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec Service Pack 1 (SP1).
+    **Windows Vista :** Les disques dynamiques sont toujours recréés. notez que ce comportement a changé avec Windows Server 2008 et Windows Vista avec Service Pack 1 (SP1).
 
-À tout moment avant le début de la phase de restauration, le demandeur peut spécifier que les disques doivent être au format rapide en définissant la clé de Registre **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **ASR** \\ **RestoreSession** . Sous cette clé, il existe une valeur nommée **QuickFormat** avec le type de données « reg \_ DWORD ». Si cette valeur n’existe pas, vous devez la créer. Définissez les données de la valeur **QuickFormat** sur 1 pour la mise en forme rapide ou sur 0 pour une mise en forme lente.
+à tout moment avant le début de la phase de restauration, le demandeur peut spécifier que les disques doivent être au format rapide en définissant la clé de registre **HKEY \_ LOCAL \_ MACHINE** \\ **SOFTWARE** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **ASR** \\ **RestoreSession** . Sous cette clé, il existe une valeur nommée **QuickFormat** avec le type de données « reg \_ DWORD ». Si cette valeur n’existe pas, vous devez la créer. Définissez les données de la valeur **QuickFormat** sur 1 pour la mise en forme rapide ou sur 0 pour une mise en forme lente.
 
 Si la valeur **QuickFormat** n’existe pas, les disques seront au format lent.
 
@@ -187,7 +187,7 @@ Au moment de la restauration, le demandeur effectue les étapes suivantes :
 
 3.  Appelez [**IVssBackupComponents ::P Restore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore) pour indiquer à l’Enregistreur ASR de se préparer à une opération de restauration. Appelez [**IVssAsync :: QueryStatus**](/windows/desktop/api/Vss/nf-vss-ivssasync-querystatus) autant de fois que nécessaire jusqu’à ce que la valeur d’État retournée dans le paramètre *pHrResult* ne soit pas VSS \_ S \_ Async \_ en attente.
 4.  Restaurer les données. Au cours de la phase de restauration, ASR reconfigure le chemin d’accès au GUID du volume ( \\ \\ ? \\ Volume {GUID}) pour chaque volume afin qu’il corresponde au chemin d’accès du GUID de volume utilisé pendant la phase de sauvegarde. Toutefois, les lettres de lecteur ne sont pas conservées, car cela entraînerait des collisions avec les lettres de lecteur qui sont automatiquement affectées dans l’environnement de récupération. Ainsi, lors de la restauration de données, le demandeur doit utiliser des chemins d’accès de GUID de volume, et non des lettres de lecteur, pour accéder aux volumes.
-5.  Définissez la  \\  \\ clé de Registre HKLM Software **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **ASR** \\ **RestoreSession** pour indiquer l’ensemble des volumes qui ont été restaurés ou reformatés.
+5.  définissez la  \\  \\ clé de registre HKLM SOFTWARE **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **ASR** \\ **RestoreSession** pour indiquer l’ensemble des volumes qui ont été restaurés ou reformatés.
 
     Sous cette clé, il existe une valeur nommée **RestoredVolumes** avec le type de données reg \_ multi \_ sz. Si cette valeur n’existe pas, vous devez la créer. Sous cette valeur, votre demandeur doit créer une entrée de GUID de volume pour chaque volume qui a été restauré. Cette entrée doit être au format suivant : \\ \\ ? \\ Volume {78618c8f-aefd-11da-A898-806e6f6e6963}. À chaque fois qu’une récupération complète est effectuée, la récupération automatique du système définit la valeur **RestoredVolumes** sur l’ensemble des volumes restaurés par ASR. Si le demandeur a restauré des volumes supplémentaires, il doit définir cette valeur sur l’Union de l’ensemble des volumes restaurés par le demandeur et l’ensemble des volumes restaurés par ASR. Si le demandeur n’utilise pas ASR, il doit remplacer la liste des volumes.
 
@@ -201,9 +201,9 @@ Lors de la restauration, le demandeur doit exclure le disque qui contient le jeu
 
 Lors de la restauration, un disque est exclu s’il n’a pas été sélectionné en tant que composant lors de la sauvegarde, ou s’il est explicitement exclu en appelant [**IVssBackupComponents :: SetRestoreOptions**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions) avec l’option « ExcludeDisk » lors de la restauration.
 
-Il est important de noter que lors de la récupération d’urgence de WinPE, la fonctionnalité d’enregistreur ASR est présente, mais aucun autre Writer n’est disponible et le service VSS n’est pas en cours d’exécution. Une fois la récupération d’urgence de WinPE terminée, l’ordinateur a redémarré et le système d’exploitation Windows s’exécute normalement, le service VSS peut être démarré et le demandeur peut effectuer des opérations de restauration supplémentaires qui nécessitent la participation d’enregistreurs autres que le rédacteur ASR.
+Il est important de noter que lors de la récupération d’urgence de WinPE, la fonctionnalité d’enregistreur ASR est présente, mais aucun autre Writer n’est disponible et le service VSS n’est pas en cours d’exécution. une fois la récupération d’urgence de WinPE terminée, l’ordinateur a redémarré et le système d’exploitation Windows s’exécute normalement, le service VSS peut être démarré et le demandeur peut effectuer des opérations de restauration supplémentaires qui requièrent la participation d’enregistreurs autres que le rédacteur ASR.
 
-Si, au cours de la session de restauration, l’application de sauvegarde détecte que les ID uniques du volume ne sont pas modifiés, et que tous les volumes de l’heure de la sauvegarde sont présents et intacts dans WinPE, l’application de sauvegarde peut continuer à restaurer uniquement le contenu des volumes, sans impliquer la récupération automatique du système. Dans ce cas, l’application de sauvegarde doit indiquer que l’ordinateur a été restauré en définissant la clé de Registre suivante dans le système d’exploitation restauré : **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **ASR** \\ **RestoreSession**
+Si, au cours de la session de restauration, l’application de sauvegarde détecte que les ID uniques du volume ne sont pas modifiés, et que tous les volumes de l’heure de la sauvegarde sont présents et intacts dans WinPE, l’application de sauvegarde peut continuer à restaurer uniquement le contenu des volumes, sans impliquer la récupération automatique du système. dans ce cas, l’application de sauvegarde doit indiquer que l’ordinateur a été restauré en définissant la clé de registre suivante dans le système d’exploitation restauré : **HKEY \_ LOCAL \_ MACHINE** \\ **SOFTWARE** \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **ASR** \\ **RestoreSession**
 
 Sous cette clé, spécifiez **LastInstance** pour le nom de la valeur, reg \_ SZ pour le type de valeur et un cookie aléatoire (tel qu’un GUID créé par la fonction [**UuidCreate**](/windows/win32/api/rpcdce/nf-rpcdce-uuidcreate) ) pour les données de la valeur.
 

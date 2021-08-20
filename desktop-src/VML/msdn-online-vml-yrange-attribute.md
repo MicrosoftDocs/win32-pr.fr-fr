@@ -4,21 +4,21 @@ description: YRange VML (attribut)
 ms.assetid: 9386fc06-cf00-45ce-95fe-13a2ca40cb69
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417e302b865f820850c937c5d83e4b60c2898861
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ef5377c24a4df76ac08d174bd58ee19289d9aef83864820af50fa77996f8a6a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999069"
 ---
 # <a name="vml-yrange-attribute"></a>YRange VML (attribut)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit la plage y d’une poignée de manipulation. En lecture/écriture. **VgVector2D**.
 
@@ -36,6 +36,6 @@ Une valeur minimale et maximale est définie pour la poignée de l’axe y. Chaq
 
 *Attribut standard VML*
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 95d4e618-9a19-40db-910a-daab105559ae
 title: ICE65
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b3d2b7bcd844c970ccc7fddf376b27c2ec54f56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 543c75f3abe6cb44a405f41bcb788dc71adf85ae954f013244bfc1cded4e6d27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946586"
 ---
 # <a name="ice65"></a>ICE65
 
@@ -17,7 +17,7 @@ ICE65 vérifie que la [table d’environnement](environment-table.md) ne possèd
 
 L’échec de la résolution d’un avertissement ou d’une erreur signalée par ICE65 provoque généralement des problèmes d’installation, de désinstallation ou de réparation de la variable d’environnement. Par exemple, seules certaines valeurs d’une variable particulière peuvent être supprimées si une ou plusieurs des valeurs de cette variable ont un séparateur de fin.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE65 publie un avertissement ou une erreur si la table d’environnement contient des valeurs de préfixe ou d’ajout non valides.
 

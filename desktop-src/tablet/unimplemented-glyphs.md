@@ -4,12 +4,12 @@ ms.assetid: 4d504140-ff48-4a07-9bf7-a36913e44426
 title: Glyphes non implémentés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90d479c6f3b486706b9e8d063ae2bc46daf5a0a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8f3966ef2e4bec268bc4b45b65b6778abd434f4169ec1e2aa971703032f07ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966708"
 ---
 # <a name="unimplemented-glyphs"></a>Glyphes non implémentés
 
@@ -38,7 +38,7 @@ Pour garantir la cohérence des *mouvements* utilisés pour les *actions* couran
 | Sélectionnées<br/>                 | Spécifique à l’application<br/>                | Spécifique à l’application<br/> | Point de départ<br/>                                           |
 | Intersections<br/>           | Spécifique à l’application<br/>                | Spécifique à l’application<br/> | Point de départ<br/>                                           |
 | Repère<br/>               | Gras<br/>                                | Spécifique à l’application<br/> | Point de départ<br/>                                           |
-| Échange<br/>                   | Contenu Exchange<br/>                    | Spécifique à l’application<br/> | Milieu du trait de haut<br/>                                  |
+| Échange<br/>                   | contenu Exchange<br/>                    | Spécifique à l’application<br/> | Milieu du trait de haut<br/>                                  |
 | Openup<br/>                 | Ouvrir un espace entre les mots<br/>         | Spécifique à l’application<br/> | Milieu du trait de soutropie<br/>                                |
 | Gros plan<br/>                | Fermer l’espace supplémentaire<br/>                | Spécifique à l’application<br/> | Centre de l’espace vertical entre les deux parenthèses<br/> |
 | Rectangle<br/>              | Sélectionne le contenu délimité<br/>            | Fixe<br/>                | Point de départ<br/>                                           |

@@ -3,7 +3,7 @@ title: Attribut UserPlaycountWeekday
 description: L’attribut UserPlaycountWeekday est le nombre de fois que l’élément a été lu le lundi, le mardi, le mercredi, le jeudi ou le vendredi.
 ms.assetid: bab55c4f-391e-4087-b99b-e1f57b88e024
 keywords:
-- Attribut UserPlaycountWeekday lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserPlaycountWeekday
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0be6750a2001e34b20b470108ec20aa602ba37c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 928e558827367c8a2784bf036269958fc32134bf3ab9bef08c03c6756eea706e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118830925"
 ---
 # <a name="userplaycountweekday-attribute"></a>Attribut UserPlaycountWeekday
 
@@ -30,7 +30,7 @@ L’attribut **UserPlaycountWeekday** est le nombre de fois que l’élément a 
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

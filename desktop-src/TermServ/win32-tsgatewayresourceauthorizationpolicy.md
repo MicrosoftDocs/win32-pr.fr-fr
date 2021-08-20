@@ -24,12 +24,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c262cb1ce3351c89dc5d7edf3b0d106116e83b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9748ddc4feccd504d823025ea70877004417717d625c904ccae4445f05e6eb03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999819"
 ---
 # <a name="win32_tsgatewayresourceauthorizationpolicy-class"></a>\_Classe TSGatewayResourceAuthorizationPolicy Win32
 
@@ -68,7 +68,7 @@ La classe **Win32 \_ TSGatewayResourceAuthorizationPolicy** possède ces méthod
 | Méthode                                                                                          | Description                                                                                                         |
 |:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
 | [**AddUserGroupNames**](addusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md)       | Ajoute les noms de groupes d’utilisateurs spécifiés aux groupes d’utilisateurs existants dans la propriété **UserGroupNames** .<br/>      |
-| [**Créés**](create-win32-tsgatewayresourceauthorizationpolicy.md)                             | Crée un RAP.<br/>                                                                                       |
+| [**Créer**](create-win32-tsgatewayresourceauthorizationpolicy.md)                             | Crée un RAP.<br/>                                                                                       |
 | [**Supprimer**](delete-win32-tsgatewayresourceauthorizationpolicy.md)                             | Supprime le RAP (RD) actuel.<br/>                                                                              |
 | [**RemoveUserGroupNames**](removeusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md) | Supprime les noms de groupes d’utilisateurs spécifiés des groupes d’utilisateurs existants dans la propriété **UserGroupNames** .<br/> |
 | [**SetDescription**](setdescription-win32-tsgatewayresourceauthorizationpolicy.md)             | Définit la propriété **Description** de la RD RAP.<br/>                                                        |
@@ -77,7 +77,7 @@ La classe **Win32 \_ TSGatewayResourceAuthorizationPolicy** possède ces méthod
 | [**SetPortNumbers**](setportnumbers-win32-tsgatewayresourceauthorizationpolicy.md)             | Définit la propriété **PortNumbers** pour la RD RAP.<br/>                                                        |
 | [**SetResourceGroup**](setresourcegroup-win32-tsgatewayresourceauthorizationpolicy.md)         | Définit les propriétés **ResourceGroupType** et **ResourceGroupName** .<br/>                                     |
 | [**SetUserGroupNames**](setusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md)       | Définit la propriété **UserGroupNames** pour la RD RAP.<br/>                                                     |
-| [**Mise à jour**](update-win32-tsgatewayresourceauthorizationpolicy.md)                             | Met à jour le RAP RD actuel.<br/>                                                                              |
+| [**Update**](update-win32-tsgatewayresourceauthorizationpolicy.md)                             | Met à jour le RAP RD actuel.<br/>                                                                              |
 
 
 
@@ -102,7 +102,7 @@ Description de la RD RAP. Cette propriété est modifiée à l’aide de la mét
 
 </dd> <dt>
 
-**Enabled**
+**Activé**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -219,11 +219,11 @@ Liste de noms de groupes d’utilisateurs séparés par des points-virgules. Si 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette classe, vous devez être membre du groupe administrateurs.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

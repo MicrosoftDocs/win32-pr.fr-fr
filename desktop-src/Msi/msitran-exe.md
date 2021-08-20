@@ -1,21 +1,21 @@
 ---
-description: Msitran.exe utilise MsiDatabaseGenerateTransform, MsiCreateTransformSummaryInfo et MsiDatabaseApplyTransform pour générer ou appliquer un fichier de transformation. Cet outil est disponible uniquement dans les composants SDK Windows pour les développeurs Windows Installer.
+description: Msitran.exe utilise MsiDatabaseGenerateTransform, MsiCreateTransformSummaryInfo et MsiDatabaseApplyTransform pour générer ou appliquer un fichier de transformation. cet outil est disponible uniquement dans les composants SDK Windows pour les développeurs Windows Installer.
 ms.assetid: cfc7b907-78d7-4a78-bab4-ede9012d5a36
 title: Msitran.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a69936155fb3880f43e0f7563bc6aabd59f53703
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e09803623024bb593897411a5e852aa953335c31fd88f9e2e1922b89b53e9abf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944267"
 ---
 # <a name="msitranexe"></a>Msitran.exe
 
 Msitran.exe utilise [**MsiDatabaseGenerateTransform**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegeneratetransforma), [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa)et [**MsiDatabaseApplyTransform**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseapplytransforma) pour générer ou appliquer un fichier de transformation.
 
-Cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
+cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -86,7 +86,7 @@ Les conditions de validation suivantes peuvent être utilisées pour indiquer qu
 
 <dl> <dt>
 
-[Outils de développement Windows Installer](windows-installer-development-tools.md)
+[Windows Outils de développement du programme d’installation](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Transformations de base de données](database-transforms.md)

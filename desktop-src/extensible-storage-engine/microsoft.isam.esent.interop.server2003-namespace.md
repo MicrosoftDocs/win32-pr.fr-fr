@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 46b1db7c8da8ab4399357a978ece2b7af7516fc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c32704b0d91f2943bf65a9601255f6c4dbc78966cddca84f6871351ffb050930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978712"
 ---
 # <a name="microsoftisamesentinteropserver2003-namespace"></a>Espace de noms Microsoft. ISAM. esent. Interop. Server2003
 
@@ -37,17 +37,17 @@ ms.locfileid: "104319317"
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>
 <td><a href="dn351277(v=exchg.10).md">Server2003Api</a></td>
-<td>API qui ont été ajoutées à la version Windows Server 2003 d’ESENT.</td>
+<td>les api qui ont été ajoutées à la version 2003 du serveur Windows d’ESENT.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>
 <td><a href="dn351281(v=exchg.10).md">Server2003Grbits</a></td>
-<td>Grbits qui ont été ajoutés à la version Windows Server 2003 d’ESENT.</td>
+<td>Grbits qui ont été ajoutés à la version 2003 du serveur Windows d’ESENT.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Classe publique" alt="Public class" /></td>
 <td><a href="dn335279(v=exchg.10).md">Server2003Param</a></td>
-<td>Paramètres système qui ont été ajoutés à la version Windows Server 2003 d’ESENT.</td>
+<td>paramètres système qui ont été ajoutés à la version 2003 du serveur Windows d’ESENT.</td>
 </tr>
 </tbody>
 </table>

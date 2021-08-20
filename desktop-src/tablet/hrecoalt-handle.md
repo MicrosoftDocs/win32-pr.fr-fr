@@ -4,12 +4,12 @@ ms.assetid: de3242f4-bce3-4139-9cb4-85eb33f375b1
 title: Handle HRECOALT (Récapitulatifis. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4416b96730d97f0bf17d6e0bd10f3fd56cce4860
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d9ab2f3dfd4df34254ef74e238592223fb4defe1af013fcc829dd8d18705e9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967567"
 ---
 # <a name="hrecoalt-handle"></a>Handle HRECOALT
 
@@ -22,7 +22,7 @@ typedef HANDLE HRECOALT;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces fonctions sont obsolètes et ne doivent pas être implémentées par des module de reconnaissance d’application personnalisé.
 
@@ -41,7 +41,7 @@ Ces fonctions sont obsolètes et ne doivent pas être implémentées par des mod
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Récapitulatif</dt> </dl> |
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 223e0addf201f3526654a17346963b4639e0d215
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27e0a216aed33d7b0295303539c6f46e489b4c4cba37fa7aedf0a7f2eddd7b60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968798"
 ---
 # <a name="file-is-in-use-sample"></a>Fichier en cours d’utilisation, exemple
 
@@ -22,12 +22,12 @@ Montre comment personnaliser le **fichier dans** la boîte de dialogue d’utili
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -55,21 +55,21 @@ Pour générer l’exemple à partir de la fenêtre d’invite de commandes :
 1.  Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **FileIsInUse** .
 2.  Entrez `msbuild FileIsInUse.sln`.
 
-Pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
+pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet **FilesInUse** . Par exemple, le chemin d’installation complet par défaut est `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppPlatform\FileIsInUse` .
+1.  ouvrez Windows Explorer et accédez au répertoire du projet **FilesInUse** . Par exemple, le chemin d’installation complet par défaut est `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppPlatform\FileIsInUse` .
 2.  Double-cliquez sur l’icône du fichier FileIsInUseSample. sln pour ouvrir le projet dans Visual Studio.
     > [!Note]  
-    > L’extension de nom de fichier. sln n’est pas affichée sous paramètres de dossier par défaut. Dans ce cas, il peut être identifié par son icône unique ou par sa description de type, « Microsoft Visual Studio solution ».
+    > L’extension de nom de fichier. sln n’est pas affichée sous paramètres de dossier par défaut. dans ce cas, il peut être identifié par son icône unique ou par sa description de type, « Microsoft Visual Studio Solution ».
 
      
 
-3.  Dans le menu **générer** , sélectionnez **générer la solution**.
+3.  Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1.  Accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de l’Explorateur Windows.
-2.  À l’invite de commandes, entrez `FileIsInUseSample.exe` , ou à partir de l’Explorateur Windows, double-cliquez sur l’icône de FileIsInUseSample.exe.
+1.  accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de Windows Explorer.
+2.  à l’invite de commandes, entrez `FileIsInUseSample.exe` ou dans Windows Explorer, double-cliquez sur l’icône de FileIsInUseSample.exe.
 
 Pour plus d’informations sur cet exemple de code, consultez le \_ fichier IFileIsInUsesample.docx inclus dans l’exemple.
 

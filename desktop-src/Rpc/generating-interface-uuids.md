@@ -4,12 +4,12 @@ description: Génération d’identificateurs uniques universels (UUID) d’inte
 ms.assetid: a973b7f9-71c5-46a0-aa0c-51f150560dbc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68c5f727ed3e37139d4da50f84c3929bff333156
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 70c21ead6161a79d000d2741a49c4fb61ff23b3a8a3340db2eb26a7805424df5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929546"
 ---
 # <a name="generating-interface-uuids"></a>Génération d’UUID d’interface
 
@@ -31,7 +31,7 @@ Les UUID vides sont appelés UUID nuls et non **null** . Le terme « Nil » in
 > [!Note]  
 > La valeur **null** correspond à la valeur zéro spécifique. Il est souvent utilisé dans la programmation C et C++ conjointement avec les pointeurs. Nil est un terme plus général que **null**. Les UUID non initialisés de l’interface d’objet doivent toujours être appelés UUID NULL plutôt que des UUID **null** .
 
- 
+ 
 
 ## <a name="using-uuidgen"></a>Utilisation de uuidgen
 
@@ -52,7 +52,7 @@ Quand vous exécutez l’utilitaire uuidgen à partir de la ligne de commande, v
 
 
 
- 
+ 
 
 En général, vous allez utiliser l’utilitaire uuidgen comme indiqué dans l’exemple suivant.
 
@@ -73,9 +73,9 @@ interface INTERFACENAME
 
 L’étape suivante consiste à remplacer le nom de l’espace réservé, NOMINTERFACE, par le nom réel de votre interface.
 
- 
+ 
 
- 
+ 
 
 
 

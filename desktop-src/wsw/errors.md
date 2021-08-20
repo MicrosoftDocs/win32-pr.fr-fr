@@ -1,23 +1,23 @@
 ---
-title: Erreurs
-description: Cette section décrit les erreurs qui peuvent être des problèmes des fonctions des services Web Windows en raison d’un échec d’exécution de la commande.
+title: Errors
+description: cette section décrit les erreurs qui peuvent être liées à des problèmes de Windows des fonctions des Services Web en raison d’un échec d’exécution de la commande.
 ms.assetid: 2e5b853f-589c-4f89-9d7e-cd02263a2247
 keywords:
-- Erreurs Web services pour Windows
+- Erreurs de services Web pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e70f10d673bf8f37664d792d8cf969f0329dc363
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a08a6371dcc5265239c6a25ce0c01075cff3ae12533862ed8a1cbbbe7aba705
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026527"
 ---
-# <a name="errors"></a>Erreurs
+# <a name="errors"></a>Errors
 
-Cette section décrit les erreurs qui peuvent être des problèmes des fonctions des services Web Windows en raison d’un échec d’exécution de la commande.
+cette section décrit les erreurs qui peuvent être liées à des problèmes de Windows des fonctions des Services Web en raison d’un échec d’exécution de la commande.
 
 -   [Paramètres de sortie](#out-parameters)
 -   [Codes d’erreur](#error-codes)
@@ -36,7 +36,7 @@ Il existe quelques cas où les paramètres out sont modifiés si la fonction éc
 
 ## <a name="error-codes"></a>Codes d’erreur
 
-Tous les codes de retour d’erreur sont des HRESULT. Cette API définit un jeu de valeurs HRESULT dans la \_ plage de WebServices de la fonction, mais retourne également les erreurs définies ailleurs dans l’API Windows.
+Tous les codes de retour d’erreur sont des HRESULT. cette API définit un jeu de valeurs hresult dans la \_ plage webservices de la fonction, mais retourne également les erreurs définies ailleurs dans l’API Windows.
 
 Pour en savoir plus sur les codes d’erreur retournés, reportez-vous à la documentation des API spécifiques. La liste n’est pas destinée à être exhaustive pour chaque API, mais plutôt à une liste de codes d’erreur pour lesquels il existe des scénarios courants de gestion explicite. Un appelant doit toujours supposer qu’un autre code d’erreur est possible à partir de n’importe quelle API.
 
@@ -65,7 +65,7 @@ Cette valeur de langue peut être extraite ou définie à l’aide de l' [**\_ I
 
 ## <a name="canonical-error-codes"></a>Codes d’erreur canoniques
 
-Cette API fournit un ensemble canonique de codes d’erreur (WS \_ E \_ \* ) qui permet d’utiliser différentes technologies de communication sans avoir à dépendre des codes d’erreur spécifiques de l’implémentation sous-jacente spécifique. Pour obtenir la liste complète de ces codes d’erreur, consultez [valeurs de retour des services Web Windows](windows-web-services-return-values.md).
+Cette API fournit un ensemble canonique de codes d’erreur (WS \_ E \_ \* ) qui permet d’utiliser différentes technologies de communication sans avoir à dépendre des codes d’erreur spécifiques de l’implémentation sous-jacente spécifique. pour obtenir la liste complète de ces codes d’erreur, consultez [Windows les valeurs renvoyées par les Services Web](windows-web-services-return-values.md).
 
 Cela permet, par exemple, à un programme de rechercher le code d' **erreur \_ WS \_ E \_ Endpoint \_ introuvable** , si vous utilisez TCP, UDP ou http, et d’effectuer une action (comme tenter d’utiliser un autre point de terminaison).
 
@@ -152,9 +152,9 @@ L’utilisateur de l’objet d’erreur doit connaître un certain nombre de con
 -   Un utilisateur de l’objet d’erreur doit appeler [**WsResetError**](/windows/desktop/api/WebServices/nf-webservices-wsreseterror) après avoir inspecté les informations relatives à l’erreur. Si ce n’est pas le cas, cela peut entraîner une accumulation de la mémoire.
 -   Un utilisateur de l’objet d’erreur doit être très prudent lors de l' \_ utilisation \_ de la \_ valeur de divulgation d’erreur complète WS de l’énumération de la [**\_ \_ Divulgation**](/windows/desktop/api/WebServices/ne-webservices-ws_fault_disclosure) d’erreurs WS, car l’erreur générée peut contenir des informations privées qui ont été accumulées dans le cadre du processus d’enregistrement des erreurs.
 
- 
+ 
 
- 
+ 
 
 
 

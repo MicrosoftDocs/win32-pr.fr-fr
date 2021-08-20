@@ -1,17 +1,17 @@
 ---
-title: API des services Web Windows
-description: API des services Web Windows
+title: Windows API des services Web
+description: Windows API des services Web
 ms.assetid: 9357786c-1992-4e28-ac75-c2dfda1df7f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbbe7d82f94a0468efcb8164551aa994febc83e9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a06d5e895a00ab6b3ba6f19eca391033349085756699f4fe77755772dc59f2a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026367"
 ---
-# <a name="windows-web-services-api"></a>API des services Web Windows
+# <a name="windows-web-services-api"></a>Windows API des services Web
 
 ## <a name="purpose"></a>Objectif
 
@@ -24,11 +24,11 @@ WWSAPI est une implémentation de code natif de SOAP qui fournit des fonctionnal
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-L’API des services Web Windows (WWSAPI) offre une interface de programmation d’applications (API) C/C++ pour la création de services Web et de clients SOAP. Il est important d’utiliser cette API pour comprendre les bases des services Web et des protocoles associés.
+Windows L’API des services Web (WWSAPI) offre une interface de programmation d’applications (API) C/C++ pour la création de services Web et de clients SOAP. Il est important d’utiliser cette API pour comprendre les bases des services Web et des protocoles associés.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-L’API des services Web Windows (WWSAPI) est un composant du système d’exploitation Windows 7 et Windows Server 2008 R2 ou versions ultérieures de Microsoft Windows.
+Windows l’API des Services Web (WWSAPI) est un composant du système d’exploitation de Windows 7 et Windows Server 2008 R2 ou versions ultérieures de Microsoft Windows.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -36,9 +36,9 @@ L’API des services Web Windows (WWSAPI) est un composant du système d’explo
 
 | Rubrique                                                                           | Description                                                          |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| [À propos des services Web Windows](about-windows-web-services.md)<br/>         | Informations générales sur l’API des services Web Windows.<br/>   |
-| [Utilisation des services Web Windows](using-windows-web-services.md)<br/>         | Guide de programmation de l’API des services Web Windows.<br/>       |
-| [Référence des services Web Windows](windows-web-services-reference.md)<br/> | Documentation de référence sur l’API des services Web Windows.<br/> |
+| [à propos des Services Web Windows](about-windows-web-services.md)<br/>         | informations générales sur l’API des Services Web Windows.<br/>   |
+| [utilisation des Services Web Windows](using-windows-web-services.md)<br/>         | guide de programmation pour l’API de Services Web Windows.<br/>       |
+| [Windows Référence des services Web](windows-web-services-reference.md)<br/> | documentation de référence sur l’API des Services Web Windows.<br/> |
 
 
 

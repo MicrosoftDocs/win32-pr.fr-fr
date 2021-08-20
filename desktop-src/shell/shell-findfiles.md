@@ -1,5 +1,5 @@
 ---
-description: 'Affiche la boîte de dialogue Rechercher : tous les fichiers. Cela revient à cliquer sur le menu Démarrer, puis à sélectionner Rechercher (ou son équivalent sous systèmes antérieurs à Windows XP).'
+description: 'Affiche la boîte de dialogue Rechercher : tous les fichiers. cela revient à cliquer sur le menu Démarrer puis à sélectionner rechercher (ou son équivalent dans les systèmes antérieurs à Windows XP).'
 ms.assetid: cccdd3ea-b52a-4fbe-b4c5-1efc1dd6d770
 title: Shell. FindFiles, méthode (shldisp. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f3e6551dc41fd8d6a040ada8000f0b46e81a5dd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c7295857509c19b06bed342508e0f0c5ee5aae42136edbe6035c6e256cdfb2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968578"
 ---
 # <a name="shellfindfiles-method"></a>Shell. FindFiles, méthode
 
-Affiche la boîte de dialogue **Rechercher : tous les fichiers** . Cela revient à cliquer sur le menu **Démarrer** , puis à sélectionner **Rechercher** (ou son équivalent sous systèmes ANTÉRIEURs à Windows XP).
+Affiche la boîte de dialogue **Rechercher : tous les fichiers** . cela revient à cliquer sur le menu **démarrer** , puis à sélectionner **rechercher** (ou son équivalent sous systèmes antérieurs à Windows XP).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -57,9 +57,9 @@ Cette méthode ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre **FindFiles** en cours d’utilisation. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant montre **FindFiles** en cours d’utilisation. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -109,13 +109,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

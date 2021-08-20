@@ -1,23 +1,23 @@
 ---
-description: Le WiPolicy.vbs de fichiers VBScript est fourni dans les composants SDK Windows pour les développeurs Windows Installer. Cet exemple montre comment le script peut être utilisé pour gérer la stratégie système. La stratégie peut être configurée par un administrateur à l’aide de l’éditeur de stratégie de groupe (GPE).
+description: le WiPolicy.vbs de fichiers VBScript est fourni dans les composants SDK Windows pour les développeurs Windows Installer. Cet exemple montre comment le script peut être utilisé pour gérer la stratégie système. La stratégie peut être configurée par un administrateur à l’aide de l’éditeur de stratégie de groupe (GPE).
 ms.assetid: 17cfed46-503f-4124-9f0e-1655fda153d0
 title: Gérer des paramètres de stratégie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a86684e75e09fa0a588c2d1d0d999488d6e89fae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1261c48ec7cc7e51a8556b7565075fa9e92bd60481da08f4f311a3de995a91f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945604"
 ---
 # <a name="manage-policy-settings"></a>Gérer des paramètres de stratégie
 
-Le WiPolicy.vbs de fichiers VBScript est fourni dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). Cet exemple montre comment le script peut être utilisé pour gérer la [stratégie système](system-policy.md). La stratégie peut être configurée par un administrateur à l’aide de l’éditeur de stratégie de groupe (GPE).
+le WiPolicy.vbs de fichiers VBScript est fourni dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). Cet exemple montre comment le script peut être utilisé pour gérer la [stratégie système](system-policy.md). La stratégie peut être configurée par un administrateur à l’aide de l’éditeur de stratégie de groupe (GPE).
 
-Cet exemple illustre les stratégies de Windows Installer.
+cet exemple illustre les stratégies de Windows Installer.
 
-L’utilisation de cet exemple nécessite la version CScript.exe ou WScript.exe de Windows Script Host. Pour utiliser CScript.exe pour exécuter cet exemple, tapez une commande à l’invite de commandes en utilisant la syntaxe suivante. L’aide s’affiche si le premier argument est/ ? ou si le nombre d’arguments spécifié est insuffisant. Pour rediriger la sortie vers un fichier, terminez la ligne de commande avec VBS > \[ *chemin d’accès au fichier* \] . L’exemple retourne la valeur 0 pour Success, 1 si l’aide est appelée, et 2 si le script échoue.
+l’utilisation de cet exemple nécessite la version CScript.exe ou WScript.exe de Windows Script Host. Pour utiliser CScript.exe pour exécuter cet exemple, tapez une commande à l’invite de commandes en utilisant la syntaxe suivante. L’aide s’affiche si le premier argument est/ ? ou si le nombre d’arguments spécifié est insuffisant. Pour rediriger la sortie vers un fichier, terminez la ligne de commande avec VBS > \[ *chemin d’accès au fichier* \] . L’exemple retourne la valeur 0 pour Success, 1 si l’aide est appelée, et 2 si le script échoue.
 
 **cscript WiPolicy.vbs \[ valeur de stratégie \] \[\]**
 
@@ -29,7 +29,7 @@ Si aucun argument n’est spécifié sur la ligne de commande, l’exemple retou
 |------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | LM   | Modes de journalisation. Pour plus d’informations, consultez [journalisation](logging.md) .                                                                            |
 | DO   | Modes de débogage. Pour plus d’informations, consultez [Debug](debug.md).                                                                                   |
-| DI   | Désactivez le mode Windows Installer. Pour plus d’informations, consultez [DisableMsi](disablemsi.md).                                                      |
+| DI   | désactivez le mode Windows Installer. Pour plus d’informations, consultez [DisableMsi](disablemsi.md).                                                      |
 | WT   | Délai d’attente en secondes en cas d’absence d’activité. **HKLM** \\ **Logiciel** \\ **Stratégies** \\ **Microsoft** \\ **Windows** \\ **Programme d’installation** \\ **Délai d’expiration** |
 | DB   | Désactiver l’exploration des emplacements sources par l’utilisateur. Pour plus d’informations, consultez [DisableBrowse](disablebrowse.md).                                     |
 | DP   | Désactivez la mise à jour corrective. Pour plus d’informations, consultez [DisablePatch](disablepatch.md).                                                                |
@@ -46,7 +46,7 @@ Si aucun argument n’est spécifié sur la ligne de commande, l’exemple retou
 
  
 
-Pour obtenir des exemples supplémentaires de scripts, consultez [Windows Installer des exemples de scripts](windows-installer-scripting-examples.md). Pour obtenir des exemples d’utilitaires qui ne nécessitent pas Windows Script Host, consultez [Windows Installer les outils de développement](windows-installer-development-tools.md).
+pour obtenir des exemples supplémentaires de scripts, consultez [Windows Installer des exemples de scripts](windows-installer-scripting-examples.md). pour obtenir des exemples d’utilitaires qui ne nécessitent pas Windows hôte de Script, consultez [Windows Installer outils de développement](windows-installer-development-tools.md).
 
  
 

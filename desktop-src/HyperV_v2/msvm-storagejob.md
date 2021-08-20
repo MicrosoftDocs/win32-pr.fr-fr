@@ -1,5 +1,5 @@
 ---
-description: Représente un travail d’opération de stockage créé par le service de gestion d’images Microsoft Hyper-V.
+description: représente un travail d’opération de stockage créé par le Service de gestion d’images Microsoft Hyper-V.
 ms.assetid: a1517c1f-7fb6-4203-a5ec-2ecdfcbc4e8c
 title: Classe Msvm_StorageJob
 ms.topic: reference
@@ -58,16 +58,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3014cb9a8201d7baceaf39bb760b17c33844abeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 740f5ab4df3e26c408aa94c607073f497c1458fa66a67958736945887dffd1ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950128"
 ---
 # <a name="msvm_storagejob-class"></a>MSVM \_ StorageJob, classe
 
-Représente un travail d’opération de stockage créé par le service de gestion d’images Microsoft Hyper-V.
+représente un travail d’opération de stockage créé par le Service de gestion d’images Microsoft Hyper-V.
 
 La syntaxe suivante est simplifiée format MOF (MOF) et comprend toutes les propriétés héritées.
 
@@ -981,7 +981,7 @@ Heure à laquelle le travail n’est pas valide ou doit être arrêté. Cette pr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ StorageJob** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -991,8 +991,8 @@ L’accès à la classe **MSVM \_ StorageJob** peut être limité par le filtrag
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1009,7 +1009,7 @@ L’accès à la classe **MSVM \_ StorageJob** peut être limité par le filtrag
 [**\_CONCRETEJOB CIM**](/previous-versions//cc136808(v=vs.85))
 </dt> <dt>
 
-[Classes de stockage](storage-classes.md)
+[Stockage Catégories](storage-classes.md)
 </dt> </dl>
 
  

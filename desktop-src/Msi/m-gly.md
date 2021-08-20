@@ -5,12 +5,12 @@ ms.assetid: 34ee83c3-e790-4abb-9095-c85c7b12d75c
 title: M (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a25b7dd4ed2e29702959f264894a7d831a0ca0a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4cdf8f33f81f45edf77aa94107df7b6d7f161c958f5275847dd438ebd14e1b6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945584"
 ---
 # <a name="m-windows-installer"></a>M (Windows Installer)
 
@@ -21,7 +21,7 @@ ms.locfileid: "106517548"
 <span id="_msi_managed_application_gly"></span><span id="_MSI_MANAGED_APPLICATION_GLY"></span>**application managée**
 </dt> <dd>
 
-Les privilèges système, également appelés privilèges élevés, sont utilisés pour installer l’application. Une application est gérée sur un système s’il s’agit d’une installation par ordinateur sur Windows 2000, ou si l’application est affectée ou publiée à l’aide de stratégie de groupe sur Windows 2000.
+Les privilèges système, également appelés privilèges élevés, sont utilisés pour installer l’application. une application est gérée sur un système s’il s’agit d’une installation par ordinateur sur Windows 2000, ou si l’application est affectée ou publiée à l’aide d’stratégie de groupe sur Windows 2000.
 
 </dd> <dt>
 
@@ -42,35 +42,35 @@ Base de données fusionnée avec un package d’installation pour fournir de nou
 <span id="_msi_microsoft_windows_installer_gly"></span><span id="_MSI_MICROSOFT_WINDOWS_INSTALLER_GLY"></span>**Microsoft Windows Installer**
 </dt> <dd>
 
-Service d’installation côté client pour la gestion de l’installation d’applications sur des plateformes 32 bits. L’application doit être encapsulée dans un [*package*](p-gly.md). Pour plus d’informations, consultez [à propos de Windows Installer](about-windows-installer.md).
+Service d’installation côté client pour la gestion de l’installation d’applications sur des plateformes 32 bits. L’application doit être encapsulée dans un [*package*](p-gly.md). pour plus d’informations, consultez [à propos de Windows Installer](about-windows-installer.md).
 
 </dd> <dt>
 
-<span id="_msi_.msi_file_gly"></span><span id="_MSI_.MSI_FILE_GLY"></span>**fichier. msi**
+<span id="_msi_.msi_file_gly"></span><span id="_MSI_.MSI_FILE_GLY"></span>**Fichier.msi**
 </dt> <dd>
 
-Fichier de stockage structuré COM contenant les instructions et les données requises pour installer une application. Chaque [*package*](p-gly.md) contient au moins un fichier. msi. Le fichier. msi contient la [*base de données du programme d’installation*](i-gly.md), un [*flux d’informations de synthèse*](s-gly.md)et éventuellement une ou plusieurs [*transformations*](t-gly.md) et des [*fichiers sources internes*](i-gly.md). Pour plus d’informations, consultez [Windows Installer des extensions de fichier](windows-installer-file-extensions.md).
+Fichier de stockage structuré COM contenant les instructions et les données requises pour installer une application. Chaque [*package*](p-gly.md) contient au moins un fichier .msi. Le fichier .msi contient la [*base de données du programme d’installation*](i-gly.md), un [*flux d’informations de synthèse*](s-gly.md)et éventuellement une ou plusieurs [*transformations*](t-gly.md) et [*fichiers sources internes*](i-gly.md). pour plus d’informations, consultez [Windows Installer des Extensions de fichier](windows-installer-file-extensions.md).
 
 </dd> <dt>
 
 <span id="_msi_.msm_file_gly"></span><span id="_MSI_.MSM_FILE_GLY"></span>**fichier. msm**
 </dt> <dd>
 
-[Module de fusion](merge-modules.md). Pour plus d’informations, consultez [Windows Installer des extensions de fichier](windows-installer-file-extensions.md).
+[Module de fusion](merge-modules.md). pour plus d’informations, consultez [Windows Installer des Extensions de fichier](windows-installer-file-extensions.md).
 
 </dd> <dt>
 
 <span id="_msi_.msp_file"></span><span id="_MSI_.MSP_FILE"></span>**fichier. msp**
 </dt> <dd>
 
-[Package de correctifs](patch-packages.md). Pour plus d’informations, consultez [Windows Installer des extensions de fichier](windows-installer-file-extensions.md).
+[Package de correctifs](patch-packages.md). pour plus d’informations, consultez [Windows Installer des Extensions de fichier](windows-installer-file-extensions.md).
 
 </dd> <dt>
 
 <span id="_msi_.mst_file_gly"></span><span id="_MSI_.MST_FILE_GLY"></span>**fichier. MST**
 </dt> <dd>
 
-Package de transformation. Pour plus d’informations, consultez [fusions et transformations](merges-and-transforms.md). Pour plus d’informations, consultez [Windows Installer des extensions de fichier](windows-installer-file-extensions.md).
+Package de transformation. Pour plus d’informations, consultez [fusions et transformations](merges-and-transforms.md). pour plus d’informations, consultez [Windows Installer des Extensions de fichier](windows-installer-file-extensions.md).
 
 </dd> </dl>
 

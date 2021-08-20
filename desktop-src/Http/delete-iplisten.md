@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ed7356d8dea3b4313a46c7d7906de15b7389edc
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 42dbe9716ae19fdbbfb8f147b0f5f7f5a592adbf7b241c2f4e4548e0ee7e6e7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104030465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014867"
 ---
 # <a name="delete-iplisten"></a>delete iplisten
 
@@ -39,7 +39,7 @@ Spécifie l’adresse IPv4 ou IPv6 à supprimer de la liste d’écoutes IP.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Supprime une adresse IP de la liste d’écoutes IP. Le numéro de port n’est pas inclus. La liste d’écoutes IP est utilisée pour définir l’étendue de la liste des adresses auxquelles le service HTTP est lié. « 0.0.0.0 » signifie toute adresse IPv4, tandis que « :: » signifie toute adresse IPv6.
 
@@ -53,9 +53,9 @@ Supprime une adresse IP de la liste d’écoutes IP. Le numéro de port n’est 
 
 **supprimer iplisten Address = ::**
 
- 
+ 
 
- 
+ 
 
 
 

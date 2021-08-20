@@ -4,16 +4,16 @@ ms.assetid: 0f809c71-a3bd-4c62-8086-9651ea1a3400
 title: Objets d’assistance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac5193003abd10d9fa2c311b250272d9ad5847a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98464c31548309b50e21b2b8e3e20a867efe7ca647d7a9879efd0ef346e6a147
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999479"
 ---
 # <a name="helper-objects"></a>Objets d’assistance
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 VDS fournit deux objets d’assistance : l’objet d’énumération et l’objet Async. Cette rubrique décrit chacun de ces objets et fournit des liens vers des exemples de la façon dont les appelants fonctionnent avec chacun d’eux.
 
@@ -26,8 +26,8 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 | Type                                              | Élément                                  |
 |---------------------------------------------------|------------------------------------------|
 | Interfaces toujours exposées par cet objet | [**IEnumVdsObject**](/windows/desktop/api/Vds/nn-vds-ienumvdsobject) |
-| Énumérations associées                           | Aucun                                    |
-| Structures associées                             | Aucun                                    |
+| Énumérations associées                           | Aucun.                                    |
+| Structures associées                             | Aucun.                                    |
 
 
 
@@ -55,8 +55,8 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 | Type                                              | Élément                        |
 |---------------------------------------------------|--------------------------------|
 | Interfaces toujours exposées par cet objet | [**IVdsAsync**](/windows/desktop/api/Vds/nn-vds-ivdsasync) |
-| Énumérations associées                           | Aucun                          |
-| Structures associées                             | Aucun                          |
+| Énumérations associées                           | Aucun.                          |
+| Structures associées                             | Aucun.                          |
 
 
 

@@ -1,19 +1,19 @@
 ---
 title: Opération WFP
-description: La plateforme de filtrage Windows (WFP) effectue ses tâches en intégrant les couches, les filtres, les shims et les légendes des entités de base suivantes.
+description: Windows La plateforme de filtrage (WFP) effectue ses tâches en intégrant les couches, les filtres, les shims et les légendes des entités de base suivantes.
 ms.assetid: bf88ace7-1160-434b-9be0-3f9db6aa2e87
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44e7a7d38bd0de5b1f549e2187c414644bf68442
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8254ed468b856392477a643ce13f2b609245031f7363865b8c93ccfda64ba9fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015387"
 ---
 # <a name="wfp-operation"></a>Opération WFP
 
-La plateforme de filtrage Windows (WFP) effectue ses tâches en intégrant les entités de base suivantes : *couches*, *filtres*, *shims* et *légendes*.
+Windows La plateforme de filtrage (WFP) effectue ses tâches en intégrant les entités de base suivantes : *couches*, *filtres*, *shims* et *légendes*.
 
 ## <a name="layers"></a>Calques
 
@@ -35,7 +35,7 @@ Un filtre au moment de l’exécution est un filtre appliqué après le démarra
 
 ## <a name="shims"></a>Shims
 
-Un *shim* est un composant en mode noyau qui prend des décisions de filtrage en classifiant les couches du moteur de filtre. Chaque shim est classé par rapport à une ou plusieurs couches. Par exemple, le shim de module de couche transport est classé par rapport à la couche de transport entrante, à la couche de transport sortant et aux couches de connexion ALE et de Receive-Accept pour le premier paquet d’un Workflow.
+Un *shim* est un composant en mode noyau qui prend des décisions de filtrage en classifiant les couches du moteur de filtre. Chaque shim est classé par rapport à une ou plusieurs couches. par exemple, le shim de Module de couche transport est classé par rapport à la couche de transport entrante, à la couche de transport sortant et à la Connecter ALE et aux couches Receive-Accept pour le premier paquet d’un workflow.
 
 Dans la mesure où les paquets, les flux et les événements traversent la pile réseau, les shims les analysent pour extraire les conditions et valeurs de la valeur, puis appellent le moteur de filtre pour les évaluer par rapport aux filtres d’une couche donnée. Le moteur de filtre peut appeler un ou plusieurs appels dans le cadre de la classification. Les shims effectuent le déplacement réel des paquets, des flux et des événements en fonction du résultat de la classification effectuée par le moteur de filtre.
 
@@ -51,7 +51,7 @@ Plusieurs légendes peuvent être exposées par un pilote de légende.
 
 Une légende doit être ajoutée (avec [**FwpmCalloutAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmcalloutadd0)) et enregistrée (avec [FwpsCalloutRegister](/windows-hardware/drivers/ddi/_netvista/)) avant de pouvoir être utilisée. Un appel à **FwpmCalloutAdd0** est requis avant la création de filtres qui font référence à la légende. Un appel à FwpsCalloutRegister est nécessaire pour que la protection de code à plateforme puisse appeler la légende lorsque les filtres de légende sont mis en correspondance. Par défaut, les filtres qui font référence à des appels qui ont été ajoutés mais n’ont pas encore été enregistrés avec le moteur de filtre sont traités comme des filtres de « bloc ». L’ordre d’appel de **FwpmCalloutAdd0** et de FwpsCalloutRegister n’a pas d’importance. Une légende persistante doit être ajoutée une seule fois et doit être enregistrée chaque fois que le pilote qui implémente la légende démarre (par exemple, après un redémarrage).
 
-## <a name="classification"></a>classification ;
+## <a name="classification"></a>Classification
 
 La classification est le processus qui consiste à appliquer des filtres au trafic réseau (paquet, flux ou événement) afin de déterminer le résultat « autoriser » ou « bloquer » pour ce trafic. Pour un paquet, un flux ou un événement, il existe un seul appel de classification par couche.
 
@@ -110,6 +110,6 @@ Les rubriques suivantes décrivent plus en détail le fonctionnement de la prote
 [Gestion des objets](object-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

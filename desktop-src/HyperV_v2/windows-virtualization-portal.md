@@ -1,15 +1,15 @@
 ---
-description: Microsoft Hyper-V Server fournit un environnement de gestion d’ordinateurs virtuels évolutif, fiable et hautement disponible. Le logiciel de machine virtuelle Hyper-V consolide les serveurs, ainsi que les environnements de développement et de test.
+description: Microsoft Hyper-V server fournit un environnement de gestion d’ordinateurs virtuels évolutif, fiable et hautement disponible. Le logiciel de machine virtuelle Hyper-V consolide les serveurs, ainsi que les environnements de développement et de test.
 ms.assetid: 3359A33F-528B-4955-8B37-30523B8AD33A
 title: Fournisseur WMI Hyper-V (v2)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 555fd3cd1e8420c59bb5f1b8ef16480b3ddfcf4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b82156754f085196eaece86bb4996c1b4a0bb8348e1566894ee78d4921676f96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014247"
 ---
 # <a name="hyper-v-wmi-provider-v2"></a>Fournisseur WMI Hyper-V (v2)
 
@@ -17,7 +17,7 @@ ms.locfileid: "106515837"
 
 Hyper-V fournit un environnement informatique de serveur virtualisé évolutif, fiable et hautement disponible. Il permet à un ou plusieurs systèmes d’exploitation invités de s’exécuter simultanément sur un seul ordinateur physique. Les principales utilisations de la technologie des machines virtuelles sont les suivantes :
 
--   La consolidation des serveurs
+-   Consolidation de serveurs
 -   Consolidation des environnements de développement et de test
 -   Récupération d’urgence simplifiée
 
@@ -38,9 +38,9 @@ Hyper-V fournit un environnement informatique de serveur virtualisé évolutif, 
 | [API Virtual Fibre Channel Hyper-V](hyper-v-virtual-fiber-channels-api.md)<br/>                | L’API de Fibre Channel virtuel Hyper-V est utilisée pour contrôler les adaptateurs de Fibre Channel virtuels dans Hyper-V.<br/>                                                                                                                           |
 | [API de placement de machine virtuelle Hyper-V](hyper-v-vm-placement-api.md)<br/>                                   | L’API de placement de machine virtuelle Hyper-V contient les informations de compatibilité pour les machines virtuelles ou le système informatique d’hébergement.<br/>                                                                                                        |
 | [Classes de seuil](threshold-classes.md)<br/>                                                 | Contient les classes introduites dans Windows 10.<br/>                                                                                                                                                                                |
-| [Classes RS2](redstone-classes.md)<br/>                                                        | Contient les nouvelles classes pour Windows 10, version 1703.<br/>                                                                                                                                                                        |
-| [Classes RS3](rs3-classes.md)<br/>                                                             | Contient les nouvelles classes pour Windows 10, version 1709.<br/>                                                                                                                                                                        |
-| [Glossaire Hyper-V](virtualization-glossary.md)<br/>                                            | Glossaire des termes utilisés dans la documentation du kit de développement logiciel (SDK) de virtualisation Windows.<br/>                                                                                                                                                       |
+| [Classes RS2](redstone-classes.md)<br/>                                                        | contient les nouvelles classes pour Windows 10, version 1703.<br/>                                                                                                                                                                        |
+| [Classes RS3](rs3-classes.md)<br/>                                                             | contient les nouvelles classes pour Windows 10, version 1709.<br/>                                                                                                                                                                        |
+| [Glossaire Hyper-V](virtualization-glossary.md)<br/>                                            | glossaire des termes utilisés dans la documentation du kit de développement logiciel (SDK) Windows virtualization.<br/>                                                                                                                                                       |
 
 
 
@@ -54,13 +54,13 @@ Les services Hyper-V requièrent un système x64 qui prend en charge la virtuali
 
 <dl> <dt>
 
-[Hyper-V (bibliothèque technique Windows Server 2008 R2)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10))
+[Hyper-V (bibliothèque technique de Windows Server 2008 R2)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10))
 </dt> <dt>
 
 [Windows Management Instrumentation](/windows/desktop/WmiSdk/wmi-start-page)
 </dt> <dt>
 
-[Virtualisation Windows Server](https://www.microsoft.com/windowsserver2008/virtualization/default.mspx)
+[Windows Virtualisation de serveur](https://www.microsoft.com/windowsserver2008/virtualization/default.mspx)
 </dt> </dl>
 
  

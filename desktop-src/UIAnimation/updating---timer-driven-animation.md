@@ -3,18 +3,18 @@ title: Créer une table de montage séquentiel et ajouter des transitions
 description: Pour créer une animation, une application doit construire une table de montage séquentiel.
 ms.assetid: e2641c93-e520-4749-a98e-5a58c175fdb9
 keywords:
-- Animations de storyboards Windows, création
-- Animations de storyboards Windows, ajout de transitions
-- transitions Windows animation, création
-- transitions Windows animation, ajouter à la table de montage séquentiel
+- storyboards Windows Animation, création
+- storyboards Windows Animation, ajout de transitions
+- transitions Windows Animation, création
+- transitions Windows Animation, ajouter à la table de montage séquentiel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ee85aac4db11371c9a1e4a2aa254421d217cfd5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f992ae7720fea692d5e0b813e6cb9c35fab61d4bf2c781c928d9c8fcd08adb33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999639"
 ---
 # <a name="create-a-storyboard-and-add-transitions"></a>Créer une table de montage séquentiel et ajouter des transitions
 
@@ -28,13 +28,13 @@ Les étapes générales pour construire une table de montage séquentiel sont le
 2.  Créer une ou plusieurs transitions
 3.  Ajouter les transitions à la table de montage séquentiel, en spécifiant les variables qu’elles animent
 
-Une table de montage séquentiel vide peut être créée à l’aide du gestionnaire d’animations. L’application doit remplir chaque Storyboard avec des transitions. Chaque transition spécifie la manière dont une variable d’animation unique change sur un intervalle de temps donné. Les transitions peuvent être créées à l’aide du composant de bibliothèque de transition inclus dans l’animation Windows. Une application peut également créer ses propres transitions personnalisées ou utiliser une bibliothèque de transition d’un tiers. Lorsque l’application ajoute une transition à une table de montage séquentiel, elle spécifie la variable d’animation que la transition va animer.
+Une table de montage séquentiel vide peut être créée à l’aide du gestionnaire d’animations. L’application doit remplir chaque Storyboard avec des transitions. Chaque transition spécifie la manière dont une variable d’animation unique change sur un intervalle de temps donné. les transitions peuvent être créées à l’aide du composant de bibliothèque de transition inclus dans Windows Animation. Une application peut également créer ses propres transitions personnalisées ou utiliser une bibliothèque de transition d’un tiers. Lorsque l’application ajoute une transition à une table de montage séquentiel, elle spécifie la variable d’animation que la transition va animer.
 
 Une table de montage séquentiel peut inclure des transitions sur une ou plusieurs variables d’animation. Les storyboards plus complexes peuvent utiliser des images clés pour synchroniser les démarrages ou les terminaisons des transitions, ou pour spécifier des parties de la table de montage séquentiel qui doivent se répéter (un nombre fixe de fois ou indéfiniment).
 
 ## <a name="example-code"></a>Exemple de code
 
-L’exemple de code suivant est extrait de MainWindow. cpp dans l’exemple d' [animation pilotée par une](timer-driven-animation-sample.md)Animation Windows. consultez la méthode CMainWindow :: ChangeColor. Cet exemple crée la table de montage séquentiel (étape 1) à l’aide de la méthode [**IUIAnimationManager :: CreateStoryboard**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-createstoryboard) , crée les transitions (étape 2) à l’aide de la méthode [**IUIAnimationTransitionLibrary :: CreateAccelerateDecelerateTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createacceleratedeceleratetransition) et ajoute les transitions à la table de montage séquentiel (étape 3) à l’aide de la méthode [**IUIAnimationStoryboard :: AddTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition) .
+l’exemple de code suivant est extrait de MainWindow. cpp dans l’exemple d' [animation pilotée par un](timer-driven-animation-sample.md)exemple d’animation Windows. consultez la méthode CMainWindow :: ChangeColor. Cet exemple crée la table de montage séquentiel (étape 1) à l’aide de la méthode [**IUIAnimationManager :: CreateStoryboard**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationmanager-createstoryboard) , crée les transitions (étape 2) à l’aide de la méthode [**IUIAnimationTransitionLibrary :: CreateAccelerateDecelerateTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createacceleratedeceleratetransition) et ajoute les transitions à la table de montage séquentiel (étape 3) à l’aide de la méthode [**IUIAnimationStoryboard :: AddTransition**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition) .
 
 
 ```C++
@@ -135,9 +135,9 @@ Avant de commencer cette étape, vous devez avoir terminé cette étape : [lire
 [Vue d’ensemble du storyboard](storyboard-construction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

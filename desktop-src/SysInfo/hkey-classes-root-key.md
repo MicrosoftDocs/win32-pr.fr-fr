@@ -1,23 +1,23 @@
 ---
-description: La \_ clé HKEY classes \_ root (HKCR) contient les associations d’extension de nom de fichier et les informations d’inscription de classe com, telles que les ProgID, les CLSID et les IID. Il est principalement destiné à la compatibilité avec le registre dans Windows 16 bits.
+description: La \_ clé HKEY classes \_ root (HKCR) contient les associations d’extension de nom de fichier et les informations d’inscription de classe com, telles que les ProgID, les CLSID et les IID. Il est principalement destiné à la compatibilité avec le registre en Windows 16 bits.
 ms.assetid: b404875f-11e1-48f2-98d2-0378a0646ed3
 title: Clé de HKEY_CLASSES_ROOT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e7aebe0e59424eb5ff7584fe61c2c5089eb887b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca75fc0b736c156e2e0dbe8ad07ff84cbbaa0a9ee1484de74e4f670703b2d875
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885681"
 ---
 # <a name="hkey_classes_root-key"></a>\_Clé racine de classes HKEY \_
 
-La clé **HKEY \_ classes \_ root** (**HKCR**) contient les associations d’extension de nom de fichier et les informations d’inscription de classe com, telles que les [ProgID](../com/-progid--key.md), les [CLSID](../com/clsid-key-hklm.md)et les [IID](../com/interface-key.md). Il est principalement destiné à la compatibilité avec le registre dans Windows 16 bits.
+La clé **HKEY \_ classes \_ root** (**HKCR**) contient les associations d’extension de nom de fichier et les informations d’inscription de classe com, telles que les [ProgID](../com/-progid--key.md), les [CLSID](../com/clsid-key-hklm.md)et les [IID](../com/interface-key.md). Il est principalement destiné à la compatibilité avec le registre en Windows 16 bits.
 
 L’inscription de classe et les informations d’extension de nom de fichier sont stockées sous les clés **HKEY \_ local \_ machine** et **HKEY \_ Current \_ User** . La clé **HKEY \_ local \_ machine \\ Software \\ classes** contient des paramètres par défaut qui peuvent s’appliquer à tous les utilisateurs sur l’ordinateur local. La clé **HKEY \_ Current \_ User \\ Software \\ classes** contient des paramètres qui s’appliquent uniquement à l’utilisateur interactif. La **clé \_ \_ racine de classes HKEY** fournit une vue du Registre qui fusionne les informations de ces deux sources. **HKEY \_ La \_ racine des classes** fournit également cette vue fusionnée pour les applications conçues pour les versions antérieures de Windows.
 
-Les paramètres spécifiques à l’utilisateur ont priorité sur les paramètres par défaut. Par exemple, le paramètre par défaut peut spécifier une application particulière pour gérer les fichiers. doc. Toutefois, un utilisateur peut remplacer ce paramètre en spécifiant une application différente dans le registre.
+Les paramètres spécifiques à l’utilisateur ont priorité sur les paramètres par défaut. Par exemple, le paramètre par défaut peut spécifier une application particulière pour gérer .doc fichiers. Toutefois, un utilisateur peut remplacer ce paramètre en spécifiant une application différente dans le registre.
 
 Les fonctions de Registre telles que [**RegOpenKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regopenkeyexa) ou [**RegQueryValueEx**](/windows/desktop/api/Winreg/nf-winreg-regqueryvalueexa) vous permettent de spécifier la clé **\_ \_ racine de classes HKEY** . Lorsque vous appelez ces fonctions à partir d’un processus en cours d’exécution dans le compte d’utilisateur interactif, le système fusionne les paramètres par défaut dans **HKEY \_ local \_ machine \\ Software \\ classes** avec les paramètres de l’utilisateur interactif dans **HKEY \_ Current \_ User \\ Software \\ classes**. Pour plus d’informations sur la façon dont ces paramètres sont fusionnés, consultez [vue fusionnée de la \_ \_ racine de la classe HKEY](merged-view-of-hkey-classes-root.md).
 

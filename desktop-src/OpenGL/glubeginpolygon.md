@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60204e7d937b4686f3757b520c820886e168529e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 98fe58a48a10d36a07e3a96bdfe612d8857f691233e19faac670eb6d987b42f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106532390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937892"
 ---
 # <a name="glubeginpolygon-function"></a>gluBeginPolygon fonction)
 
@@ -53,7 +53,7 @@ Objet de pavage (créé avec [**gluNewTess**](glunewtess.md)).
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez **gluBeginPolygon** et **gluEndPolygon** pour délimiter la définition d’un polygone qui n’est pas convexe.
 

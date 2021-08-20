@@ -1,5 +1,5 @@
 ---
-description: Montre comment créer un gestionnaire de miniatures par type de fichier et étend l’Explorateur Windows.
+description: montre comment créer un gestionnaire de miniatures par type de fichier et étend Windows Explorer.
 title: Fournisseur de miniatures de recette, exemple
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,25 +9,25 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 76ab53464b6303728e301fb240e499829c5f70ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52d31f65a4e400a7f0170be5bc7794a58e565f9da44285f8b718a5ad46d6b472
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968778"
 ---
 # <a name="recipe-thumbnail-provider-sample"></a>Fournisseur de miniatures de recette, exemple
 
-Montre comment créer un gestionnaire de miniatures par type de fichier et étend l’Explorateur Windows.
+montre comment créer un gestionnaire de miniatures par type de fichier et étend Windows Explorer.
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

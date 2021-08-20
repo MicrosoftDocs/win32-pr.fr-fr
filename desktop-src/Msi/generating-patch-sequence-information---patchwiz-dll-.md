@@ -1,23 +1,23 @@
 ---
-description: La version de PATCHWIZ.DLL publiée avec Windows Installer&\# 160 ; 3.0 peut générer automatiquement des informations de séquencement de correctifs et ajouter à la table MsiPatchSequence un nouveau correctif.
+description: la version de PATCHWIZ.DLL publiée avec Windows Installer&\# 160 ; 3.0 peut générer automatiquement des informations de séquencement de correctifs et ajouter à la Table MsiPatchSequence un nouveau correctif.
 ms.assetid: 03e7eea6-1a37-4c86-a9da-109fbaf20728
 title: Génération d’informations sur les séquences de correctifs (PATCHWIZ.DLL)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff82166f33266a58cd3ef299b2546b04a94ebb14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03094d9df26f4565db5b3a31c9a27c58a0bb45dac8aac93b2fefce34104d58c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947020"
 ---
 # <a name="generating-patch-sequence-information-patchwizdll"></a>Génération d’informations sur les séquences de correctifs (PATCHWIZ.DLL)
 
-La version de [PATCHWIZ.DLL](patchwiz-dll.md) publiée avec Windows Installer 3,0 peut générer automatiquement des informations de séquencement de correctifs et ajouter à la [table MsiPatchSequence](msipatchsequence-table.md) un nouveau correctif.
+la version de [PATCHWIZ.DLL](patchwiz-dll.md) publiée avec Windows Installer 3,0 peut générer automatiquement des informations de séquencement de correctifs et ajouter à la [Table MsiPatchSequence](msipatchsequence-table.md) un nouveau correctif.
 
 Définissez la \_ \_ propriété de génération de données \_ de séquence désactivé sur 1 (un) dans la [table de propriétés](properties-table-patchwiz-dll-.md) du fichier. PCP pour empêcher la génération automatique des informations de séquencement de correctifs. Si cette propriété est absente, les informations sont automatiquement générées et ajoutées.
 
-Lorsque le [PATCHWIZ.DLL](patchwiz-dll.md) fourni avec Windows Installer 3,0 est utilisé pour générer automatiquement les informations de séquencement des correctifs, voici ce qui se produit :
+lorsque le [PATCHWIZ.DLL](patchwiz-dll.md) fourni avec Windows Installer 3,0 est utilisé pour générer automatiquement les informations de séquencement des correctifs, voici ce qui se produit :
 
 -   Une nouvelle ligne est ajoutée à la [table MsiPatchSequence](msipatchsequence-table.md) pour chaque code de produit d’une image cible qui est indiquée dans la [table TargetImages](targetimages-table-patchwiz-dll-.md).
 -   Les valeurs ajoutées à la colonne PatchFamily dans les nouvelles lignes correspondent aux codes de produit cibles des images cibles qui sont répertoriées dans la [table TargetImages](targetimages-table-patchwiz-dll-.md).

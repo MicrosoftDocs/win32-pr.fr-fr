@@ -3,7 +3,7 @@ title: Message MMIOM_RENAME (mmsystem. h)
 description: Le \_ message MMIOM Rename est envoyé à une procédure d’e/s par la fonction mmioRename pour demander que le fichier spécifié soit renommé.
 ms.assetid: 38a746c8-3a6f-4cb2-a5b4-c11bd1e73c8a
 keywords:
-- Message MMIOM_RENAME Windows Multimedia
+- message MMIOM_RENAME Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b71770dec6a92693a50e8e0210da3f9b8028587c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bcfd90b53f1cc42030bd00e6553d52de0f036ff274b3d4ff942c48667e4347b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065309"
 ---
 # <a name="mmiom_rename-message"></a>MMIOM \_ REnommer le message
 
@@ -64,7 +64,7 @@ Si le fichier est correctement renommé, la valeur de retour est zéro. Si le fi
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

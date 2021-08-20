@@ -4,12 +4,12 @@ ms.assetid: 08371790-b23b-4d2e-9aea-b2c95c854401
 title: Implémentation de IWICDevelopRaw
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 683dc2baf0496694943b7640d3f3ed521dc477a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e68a78705fcfb53651d1099d01d17d9ddff554df9632a5cc322db229bc04d38d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965008"
 ---
 # <a name="implementing-iwicdevelopraw"></a>Implémentation de IWICDevelopRaw
 
@@ -19,7 +19,7 @@ L’interface [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwi
 
 En outre, certaines méthodes et interfaces facultatives pour d’autres codecs sont fortement recommandées pour les codecs bruts. Celles-ci incluent les méthodes [**GetPreview**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getpreview) et [**miniature**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getthumbnail) sur la classe de décodeur au niveau du conteneur, ainsi que l’interface [**IWICBitmapSourceTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsourcetransform) sur la classe de décodage au niveau de la trame.
 
-Les paramètres définis à l’aide des méthodes [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw) doivent être rendus persistants par le codec d’une manière cohérente avec la manière dont les autres métadonnées sont conservées, mais vous ne devez jamais remplacer les paramètres « As Shot » d’origine. En rendant les métadonnées persistantes et en implémentant [**LoadParameterSet**](/windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-loadparameterset) et [**GetCurrentParameterSet**](/windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getcurrentparameterset), vous permettez aux applications de traitement brutes de récupérer et d’appliquer des paramètres de traitement entre les sessions.
+les Paramètres définies à l’aide des méthodes [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw) doivent être rendues persistantes par le codec d’une manière cohérente avec la manière dont les autres métadonnées sont conservées, mais vous ne devez jamais remplacer les paramètres « As Shot » d’origine. En rendant les métadonnées persistantes et en implémentant [**LoadParameterSet**](/windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-loadparameterset) et [**GetCurrentParameterSet**](/windows/desktop/api/Wincodec/nf-wincodec-iwicdevelopraw-getcurrentparameterset), vous permettez aux applications de traitement brutes de récupérer et d’appliquer des paramètres de traitement entre les sessions.
 
 L’une des principales fonctions de l’interface [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw) est de permettre aux développeurs d’applications de créer une interface utilisateur pour ajuster les paramètres bruts qui fonctionneront de manière aussi cohérente que possible entre les différents codecs. Supposons qu’un utilisateur final ajuste les paramètres à l’aide d’un contrôle Slider, avec ses valeurs minimale et maximale mappées aux plages minimale et maximale du paramètre. Pour prendre cela en charge, vous devez faire chaque effort pour traiter toutes les plages de paramètres comme linéaires. Pour vous assurer que les contrôles de curseur ne sont pas trop sensibles, vous devez également prendre en charge une plage aussi étendue que possible pour chaque paramètre, couvrant au moins 50% de la plage maximale possible. Par exemple, si la plage de contraste maximale possible est comprise entre le gris pur et le noir et le blanc, avec la valeur par défaut qui est mappée à 0,0, la plage minimale prise en charge par un codec est comprise entre la valeur par défaut et le gris pur sur le bas de gamme (– 1,0), au moins à mi-chemin entre la valeur par défaut et le noir et blanc pur sur le haut de gamme (+ 1,0).
 
@@ -307,7 +307,7 @@ WICRawChangeNotification_RenderMode
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

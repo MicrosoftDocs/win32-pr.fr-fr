@@ -1,10 +1,10 @@
 ---
-title: Exemple de code pour la création d’utilisateurs sur un serveur membre ou Windows 2000 professionnel
-description: L’exemple de code Visual Basic suivant crée un utilisateur sur un serveur membre ou Windows 2000 professionnel.
+title: exemple de Code pour la création d’utilisateurs sur un serveur membre ou Windows 2000 Professional
+description: l’exemple de code Visual Basic suivant crée un utilisateur sur un serveur membre ou Windows Professional 2000.
 ms.assetid: 0a0800d6-eb2c-4d88-b9d4-91640206fe7b
 ms.tgt_platform: multiple
 keywords:
-- Active Directory exemples Active Directory, création d’utilisateurs sur un serveur membre ou Windows 2000 professionnel
+- Active Directory exemples Active Directory, création d’utilisateurs sur un serveur membre ou Windows 2000 Professional
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -12,16 +12,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dcdefd10bfef4f0b41f00e71b311295a9ed4b09e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e42a7ebeeb37e8a39ae660b28da630f242052a3631bb1e072809662ecdaa3827
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962288"
 ---
-# <a name="example-code-for-creating-users-on-a-member-server-or-windows-2000-professional"></a>Exemple de code pour la création d’utilisateurs sur un serveur membre ou Windows 2000 professionnel
+# <a name="example-code-for-creating-users-on-a-member-server-or-windows-2000-professional"></a>exemple de Code pour la création d’utilisateurs sur un serveur membre ou Windows 2000 Professional
 
-L’exemple de code Visual Basic suivant crée un utilisateur sur un serveur membre ou Windows 2000 professionnel.
+l’exemple de code Visual Basic suivant crée un utilisateur sur un serveur membre ou Windows Professional 2000.
 
 
 ```VB
@@ -100,9 +100,9 @@ Cleanup:
 
 
 
- 
+ 
 
- 
+ 
 
 
 
