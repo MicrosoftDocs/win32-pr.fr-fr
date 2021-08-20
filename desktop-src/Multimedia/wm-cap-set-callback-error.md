@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_CALLBACK_ERROR (VFW. h)
 description: Le \_ \_ \_ message d’erreur WM Cap Set callback \_ définit une fonction de rappel d’erreur dans l’application cliente. AVICap appelle cette procédure lorsque des erreurs se produisent. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capSetCallbackOnError.
 ms.assetid: 4eb57515-9b5a-466c-bbaa-fdee3bca19db
 keywords:
-- Message WM_CAP_SET_CALLBACK_ERROR Windows Multimedia
+- message WM_CAP_SET_CALLBACK_ERROR Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40f50d62112d71f78196a17b958dc7d3d10702e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2b631a66923fc614e1486405b1c8e64f152c0f0dd21c8abec292548c546d17b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135101"
 ---
 # <a name="wm_cap_set_callback_error-message"></a>Message d’erreur de rappel de l' \_ \_ ensemble de connexions WM \_ \_
 
@@ -49,7 +49,7 @@ Pointeur vers la fonction de rappel d’erreur, de type [**capErrorCallback**](/
 
 Retourne la **valeur true** en cas de réussite ou **false** si la capture en continu ou une session de capture de trame unique est en cours.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications peuvent éventuellement définir une fonction de rappel d’erreur. Si cette valeur est définie, AVICap appelle la procédure d’erreur dans les situations suivantes :
 

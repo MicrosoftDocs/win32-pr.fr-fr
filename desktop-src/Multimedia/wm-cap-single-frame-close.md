@@ -3,7 +3,7 @@ title: Message WM_CAP_SINGLE_FRAME_CLOSE (VFW. h)
 description: Le \_ message de \_ fermeture de frame unique WM capuchon \_ \_ ferme le fichier de capture ouvert par le \_ message d’ouverture du \_ cadre unique WM Cap \_ \_ . Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capCaptureSingleFrameClose.
 ms.assetid: fde5f34b-0781-49a2-a509-64192a1d9ec0
 keywords:
-- Message WM_CAP_SINGLE_FRAME_CLOSE Windows Multimedia
+- message WM_CAP_SINGLE_FRAME_CLOSE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e35523476dde1c74c4a20447d7c46d5eafc5e529
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f304fd0c62818562e53c6129a15b266db6f1ac000de64fb779e5cdb3e437d43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118134963"
 ---
 # <a name="wm_cap_single_frame_close-message"></a>\_Message de \_ \_ fermeture de frame unique WM Cap \_
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur l’installation des fonctions de rappel, consultez les messages d' [**\_ erreur WM Cap \_ Set \_ callback \_ Error**](wm-cap-set-callback-error.md) et [**WM \_ Cap \_ Set \_ callback \_ Frame**](wm-cap-set-callback-frame.md) .
 
