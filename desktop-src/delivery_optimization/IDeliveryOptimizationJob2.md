@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2019
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 13f5a32b4ddccc203bcae7d6674c4713069355cd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4960b754d70aa8ff16e60fc8614fba455f57768caa261d3b50c8c78093919626
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118811140"
 ---
 # <a name="ideliveryoptimizationjob2-interface"></a>Interface IDeliveryOptimizationJob2
 
@@ -41,12 +41,12 @@ L’interface **IDeliveryOptimizationJob2** possède ces méthodes.
 | [**GetProperty**](ideliveryoptimizationjob2-getproperty.md) | La méthode AddFile ajoute un seul fichier à une tâche DO existante. |
 | [**SetProperty**](ideliveryoptimizationjob2-setproperty.md) | Cette méthode n’est pas utilisée.                                       |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 | Condition requise | Valeur |
 |--------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge | Applications de bureau Windows 10, version 1803 \[ uniquement\]                                   |
-| Serveur minimal pris en charge | Windows Server, version 1709, \[ applications de bureau uniquement\]                               |
+| Client minimal pris en charge | Windows 10, les applications de bureau version 1803 \[ uniquement\]                                   |
+| Serveur minimal pris en charge | Windows Serveur, version 1709 \[ applications de bureau uniquement\]                               |
 | En-tête                   | Deliveryoptimization. h                                                           |
 | MIDL                      | DeliveryOptimization. idl                                                         |
 | Bibliothèque                  | Dosvc. lib                                                                        |

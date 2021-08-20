@@ -4,12 +4,12 @@ ms.assetid: cb00edc9-2c8a-446d-989b-a4429ee8f544
 title: ParameterDef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2682e3da11f471401e95e3f6515de5e18b6be895
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c4d7a0c8b86a8fef2d71cae1135eadca2c361e2062555d80a3a19f862f94ad7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033977"
 ---
 # <a name="parameterdef"></a>ParameterDef
 
@@ -89,7 +89,7 @@ Le tableau suivant répertorie les éléments qui peuvent être des parents de c
 
 Un ParameterDef et son contenu à n’importe quel niveau d’imbrication ne peuvent pas avoir de dépendances de configuration.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’exemple suivant définit tous les éléments de propriété requis pour ce paramètre. L’exemple de [ParameterInit](parameterinit.md) montre comment initialiser ce paramètre.
 

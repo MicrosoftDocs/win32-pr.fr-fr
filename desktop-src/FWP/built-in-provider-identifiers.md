@@ -1,6 +1,6 @@
 ---
 title: Identificateurs de fournisseur intégrés (Fwpmu. h)
-description: Les identificateurs des fournisseurs intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID.
+description: les identificateurs des fournisseurs intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID.
 ms.assetid: 61bc1e2d-f6ee-45db-892f-c49680d27072
 topic_type:
 - apiref
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 060f6d63d703d7c91e5538b7bfdd8758ee2e1cde
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8982fe6ebbe3f4cf5135f2b67f07826ddf9d3f970ca0568c7095931c617cdce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951308"
 ---
 # <a name="built-in-provider-identifiers"></a>Identificateurs de fournisseur intégrés
 
-Les identificateurs des fournisseurs intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID.
+les identificateurs des fournisseurs intégrés à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID.
 
 Ces identificateurs sont définis comme suit.
 
@@ -54,7 +54,7 @@ Utilisé pour identifier tous les filtres ajoutés par IKE/AuthIP.
 Permet d’identifier tous les filtres ajoutés par la protection DoS IPsec.
 
 > [!Note]  
-> Disponible uniquement sur Windows 7 et Windows Server 2008 R2.
+> disponible uniquement sur Windows 7 et Windows Server 2008 R2.
 
  
 
@@ -85,7 +85,7 @@ Utilisé pour identifier tous les filtres ajoutés par le déchargement TCP Chim
 Utilisé pour identifier tous les filtres ajoutés par les modèles TCP.
 
 > [!Note]  
-> Disponible uniquement sur Windows 8 et Windows Server 2012.
+> disponible uniquement sur Windows 8 et Windows Server 2012.
 
  
 
@@ -98,8 +98,8 @@ Utilisé pour identifier tous les filtres ajoutés par les modèles TCP.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d872a5f9ebf716142fb5bc506edb77bb0b66850a
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5b5fcef771d6d06a1691d5c5e953b76b1c445c7c8df7b2da37b8b4220bef2b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485429"
 ---
 # <a name="texm3x3spec---ps"></a>texm3x3spec-PS
 
@@ -29,14 +29,14 @@ Effectue une multiplication de matrice 3x3 et utilise le résultat pour effectue
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   src0 et src1 sont des registres sources.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction effectue une multiplication de la dernière ligne d’une matrice 3x3, utilise le vecteur résultant comme vecteur normal pour refléter un vecteur de rayons oculaires, puis utilise le vecteur réfléchi pour effectuer une recherche de texture. Le nuanceur lit le vecteur de rayon oculaire à partir d’un registre de constante. La multiplication de matrice 3x3 est généralement utile pour orienter un vecteur normal vers l’espace tangent correct pour la surface rendue.
 
@@ -132,9 +132,9 @@ Cet exemple requiert la configuration de la phase de texture suivante.
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

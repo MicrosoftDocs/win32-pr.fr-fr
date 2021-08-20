@@ -13,17 +13,17 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 09923d6be01bdf4a213db645a34b038dda15d86f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55d7c70dffbf57ae4d9788a10dfea02911a998e21ab5ea8e3d9ad7fffcf91624
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952938"
 ---
 # <a name="dexterf_track_search_flags-enumeration"></a>\_ \_ Énumération d’indicateurs de recherche DEXTERF Track \_
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -67,7 +67,7 @@ Recherchez un objet qui commence à l’heure spécifiée ou une version ultéri
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces conditions limites sont résumées dans le tableau suivant.
 

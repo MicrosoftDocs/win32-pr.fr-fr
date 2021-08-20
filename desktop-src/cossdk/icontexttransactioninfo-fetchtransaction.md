@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 0e753974f93539f051465f13a1ea92d7e0e3bfa1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6d673483118feb02ec2f1172640b9972d883505f48bc1fd8d8803844b963b02b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991059"
 ---
 # <a name="icontexttransactioninfofetchtransaction-method"></a>IContextTransactionInfo :: FetchTransaction, méthode
 
@@ -56,7 +56,7 @@ Cette méthode peut retourner les valeurs de retour standard E \_ INVALIDARG, e 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/> |
 
 
 

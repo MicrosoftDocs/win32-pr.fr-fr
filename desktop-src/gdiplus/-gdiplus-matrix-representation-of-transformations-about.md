@@ -4,12 +4,12 @@ ms.assetid: 62215ae0-b095-42b2-911c-aa7607a8b61a
 title: Représentation matricielle des transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0577cae38c401e842cff2ff14179594f9118dfd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 122d59787038cd75a9806cac6cb0d225e8660eb13d7482d3ee1f47ff0732ca5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036657"
 ---
 # <a name="matrix-representation-of-transformations"></a>Représentation matricielle des transformations
 
@@ -55,7 +55,7 @@ Dans l’exemple précédent, le point (2, 1) est mappé au point (2, 6). Notez 
 
 ![Illustration montrant que les deux premières colonnes sont les plus significatives pour une matrice 3x3 d’une transformation affine](images/aboutgdip05-art10.png)
 
-Dans Windows GDI+, vous pouvez stocker une transformation affine dans un objet [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) . Étant donné que la troisième colonne d’une matrice qui représente une transformation affine est toujours (0, 0, 1), vous spécifiez uniquement les six nombres dans les deux premières colonnes quand vous construisez un objet de **matrice** . L’instruction `Matrix myMatrix(0.0f, 1.0f, -1.0f, 0.0f, 3.0f, 4.0f);` construit la matrice présentée dans la figure précédente.
+dans Windows GDI+ vous pouvez stocker une transformation affine dans un objet [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) . Étant donné que la troisième colonne d’une matrice qui représente une transformation affine est toujours (0, 0, 1), vous spécifiez uniquement les six nombres dans les deux premières colonnes quand vous construisez un objet de **matrice** . L’instruction `Matrix myMatrix(0.0f, 1.0f, -1.0f, 0.0f, 3.0f, 4.0f);` construit la matrice présentée dans la figure précédente.
 
 ## <a name="composite-transformations"></a>Transformations composites
 

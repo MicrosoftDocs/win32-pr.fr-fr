@@ -3,7 +3,7 @@ title: Message HDM_SETFOCUSEDITEM (commctrl. h)
 description: Définit le focus sur un élément spécifié dans un contrôle header. Envoyez ce message de manière explicite ou à l’aide de la macro SetFocusedItem d’en-tête \_ .
 ms.assetid: 20a321ce-4420-4239-b34d-9e7f24a89fc3
 keywords:
-- HDM_SETFOCUSEDITEM les contrôles de message Windows
+- HDM_SETFOCUSEDITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd416744478248760f4e2c9f94a362db5a8d327
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9ea853cf625473bee608111eddf877eb09457ee5c2ac6089542b5add0a212195
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118171074"
 ---
 # <a name="hdm_setfocuseditem-message"></a>\_Message HDM SETFOCUSEDITEM
 
@@ -43,14 +43,14 @@ Index de l’élément.
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

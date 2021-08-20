@@ -1,17 +1,17 @@
 ---
 description: Décrit les paramètres de stratégie d’alimentation qui composent un mode de gestion de l’alimentation.
 ms.assetid: cd515cd6-67f4-45d0-b769-3abc7a56faa8
-title: Paramètres de stratégie d’alimentation
+title: Paramètres de la stratégie d’alimentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f490c758a890faf314be1ddffe9ac7a503bd473
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43f8c0dbd4c7f2a27b6e6b96528c689c6609c175eded58a1de625af71e965f37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674309"
 ---
-# <a name="power-policy-settings"></a>Paramètres de stratégie d’alimentation
+# <a name="power-policy-settings"></a>Paramètres de la stratégie d’alimentation
 
 Les modes de gestion de l’alimentation et les schémas sont des préférences et des paramètres de stratégie.
 

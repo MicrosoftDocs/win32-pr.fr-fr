@@ -1,35 +1,35 @@
 ---
 title: Déclaration de confidentialité des licences de développeur
-description: Déclaration de confidentialité des licences de développeur Microsoft Windows 8
+description: déclaration de confidentialité de la licence de développeur Microsoft Windows 8
 ms.assetid: 6864BFBF-755B-4FE3-8684-93D85984FF1E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc532d560c3f173571bef033050193715e9b024
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5c792e2f6aa7be33f5e57cdcaee4b01b7e05ce7240172a9afbc65e81bcaebdf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990319"
 ---
-# <a name="microsoft-windows-8-developer-license-privacy-statement"></a>Déclaration de confidentialité des licences de développeur Microsoft Windows 8
+# <a name="microsoft-windows-8-developer-license-privacy-statement"></a>déclaration de confidentialité de la licence de développeur Microsoft Windows 8
 
 Dernière mise à jour : octobre 2012
 
-Microsoft s'engage à protéger votre vie privée. Cette déclaration de confidentialité explique la plupart des pratiques de collecte et d’utilisation des données de Microsoft liées à l’émission d’une licence de développeur Windows 8 (« licence développeur »). Elle ne s'applique pas à d'autres sites, produits ou services Microsoft, qu'ils soient en ligne ou non.
+Microsoft s'engage à protéger votre vie privée. cette déclaration de confidentialité explique la plupart des pratiques de collecte et d’utilisation des données de Microsoft liées à l’émission d’une licence de développeur Windows 8 (« licence développeur »). Elle ne s'applique pas à d'autres sites, produits ou services Microsoft, qu'ils soient en ligne ou non.
 
-Le service de gestion des licences des développeurs émet une licence de développeur pour votre PC, qui vous permet d’installer et d’exécuter des applications qui n’ont pas été publiées par le Windows Store.
+le service de gestion des licences des développeurs émet une licence de développeur pour votre PC, qui vous permet d’installer et d’exécuter des applications qui n’ont pas été publiées par le Windows Store.
 
 ### <a name="collection-and-use-of-your-information"></a>Collecte et utilisation de vos informations
 
 Pour obtenir une licence de développeur, vous devez vous connecter au service Web du gestionnaire de licences des développeurs à l’aide d’un compte Microsoft. Cela donne au service l’accès aux informations de contact de votre profil de compte Microsoft, telles que votre nom et votre adresse de messagerie. Vous pouvez également utiliser votre compte Microsoft pour vous connecter à de nombreux sites et services Microsoft, ainsi qu’à ceux de partenaires Microsoft sélectionnés. En vous connectant à un site ou service Microsoft, il est possible que vous soyez automatiquement connecté si vous visitez d'autres sites et services Microsoft. Pour en savoir plus sur l’utilisation de vos informations d’identification lorsque vous vous connectez à des sites participants, veuillez lire la déclaration de confidentialité à l’adresse <https://go.microsoft.com/fwlink/p/?linkid=260845> .
 
-Lorsque vous demandez une licence de développeur, Microsoft collecte des informations sur votre PC et les applications installées sur celui-ci. Ces informations incluent le nom, le fabricant et le modèle de votre ordinateur ; votre adresse IP ; identificateur unique généré en fonction de la configuration matérielle de votre PC. et l’édition de Windows que vous utilisez. Si une licence de développeur est déjà installée sur votre ordinateur (par exemple, si vous renouvelez une licence de développeur qui a expiré), Windows enverra également le nom et les informations de l’application sur le serveur de publication pour toutes les applications installées sur votre PC qui ont été installées à l’aide de cette licence de développeur.
+Lorsque vous demandez une licence de développeur, Microsoft collecte des informations sur votre PC et les applications installées sur celui-ci. Ces informations incluent le nom, le fabricant et le modèle de votre ordinateur ; votre adresse IP ; identificateur unique généré en fonction de la configuration matérielle de votre PC. et l’édition de Windows que vous utilisez. si une licence de développeur est déjà installée sur votre ordinateur (par exemple, si vous renouvelez une licence de développeur qui a expiré), Windows enverra également le nom et les informations de l’application sur le serveur de publication pour toute application installée sur votre pc et installée à l’aide de cette licence de développeur.
 
 L'information que nous recevons de votre part sera utilisée par Microsoft, ses filiales et ses associés pour l'activation des fonctionnalités, la fourniture des services et la réalisation des transactions que vous avez demandées ou autorisées. Microsoft stocke les informations collectées lors de l’acquisition des licences de développeur pour une analyse ultérieure. Nous pouvons utiliser ces informations pour mieux comprendre les tendances et les modèles d’utilisation, et pour détecter et bloquer les abus potentiels tels que le piratage d’applications. Cette information nous permet également d'analyser et d'améliorer les produits et les services Microsoft.
 
 Il se peut que nous vous envoyions des messages de service obligatoires comme des messages de bienvenue, des rappels de facture, de l'information sur des problèmes techniques et des annonces de sécurité. Certains services Microsoft envoient éventuellement des lettres périodiques qui font partie du service proposé. Nous pouvons également solliciter votre opinion, vous inviter à participer à des sondages ou vous envoyer des mails promotionnels pour vous tenir informé des produits et services disponibles chez Microsoft ou ses filiales.
 
-Les informations collectées via un service Microsoft peuvent être combinées avec celles obtenues via d’autres services Microsoft. Nous pouvons aussi complémenter cette information avec celle reçue par d'autres entreprises. Nous pouvons, par exemple, utiliser les services d'autres entreprises pour déduire de votre adresse IP une zone géographique générale qui nous permette de personnaliser certains de nos services sur cette zone.
+les informations collectées via un service Microsoft peuvent être combinées aux informations obtenues par le biais d’autres services Microsoft. Nous pouvons aussi complémenter cette information avec celle reçue par d'autres entreprises. Nous pouvons, par exemple, utiliser les services d'autres entreprises pour déduire de votre adresse IP une zone géographique générale qui nous permette de personnaliser certains de nos services sur cette zone.
 
 En dehors de ces cas, toute information que vous nous communiquerez ne sera transmise à une tierce partie qu'avec votre consentement. Il nous arrive d'engager des entreprises pour réaliser des services particuliers en notre nom, comme le conditionnement, l'envoi et la livraison d'achats ou de mails, les sondages clients sur les produits et les services, l'enregistrement à des événements ou encore l'analyse statistique de nos services. Nous ne fournissons à ces sociétés que les informations personnelles dont elles ont besoin pour fournir le service, et il est interdit à ces sociétés d'utiliser ces informations à d'autres fins.
 

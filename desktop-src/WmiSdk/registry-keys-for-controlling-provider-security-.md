@@ -1,20 +1,20 @@
 ---
-description: Pour améliorer la sécurité du processus hôte du fournisseur partagé (wmiprvse.exe) Windows Management Instrumentation (WMI), des modifications ont été apportées aux plateformes Windows qui sécurisent le processus hôte du fournisseur à l’aide d’un identificateur de sécurité (SID) de service.
+description: pour améliorer la sécurité du processus hôte du fournisseur partagé (wmiprvse.exe) Windows Management Instrumentation (WMI), des modifications ont été apportées aux plateformes Windows qui sécurisent le processus hôte du fournisseur à l’aide d’un identificateur de sécurité (SID) de service.
 ms.assetid: f93ac155-512c-4efa-8168-ca2d56fe6f01
 ms.tgt_platform: multiple
 title: Clés et valeurs de Registre pour le contrôle de la sécurité du fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a2c7dd990c1a9ebbc1242af5ce4601ce6eb22a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8695f8203a56a934aa7d0f579b6a43f36d2ce7342a15b0bb408ff8696a7e8d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817087"
 ---
 # <a name="registry-keys-and-values-for-controlling-provider-security"></a>Clés et valeurs de Registre pour le contrôle de la sécurité du fournisseur
 
-Pour améliorer la sécurité du processus hôte du fournisseur partagé (wmiprvse.exe) Windows Management Instrumentation (WMI), des modifications ont été apportées aux plateformes Windows qui sécurisent le processus hôte du fournisseur à l’aide d’un [*identificateur de sécurité (SID) de service*](gloss-s.md). Ces modifications introduisent les modes d’exécution suivants pour l’hôte partagé WMI : sécurisé et compatible.
+pour améliorer la sécurité du processus hôte du fournisseur partagé (wmiprvse.exe) Windows Management Instrumentation (WMI), des modifications ont été apportées aux plateformes Windows qui sécurisent le processus hôte du fournisseur à l’aide d’un [*identificateur de sécurité (SID) de service*](gloss-s.md). Ces modifications introduisent les modes d’exécution suivants pour l’hôte partagé WMI : sécurisé et compatible.
 
 Les sections suivantes sont traitées dans cette rubrique :
 
@@ -24,7 +24,7 @@ Les sections suivantes sont traitées dans cette rubrique :
 
 ## <a name="secure-and-compatible-modes"></a>Modes sécurisés et compatibles
 
-À compter de Windows 7, les deux modes d’exécution suivants du processus hôte partagé WMI ont été ajoutés :
+à partir de Windows 7, les deux modes d’exécution suivants du processus hôte partagé WMI ont été ajoutés :
 
 <dl> <dt>
 
@@ -55,7 +55,7 @@ Les clés de Registre et la valeur **DWORD** suivantes décrites dans la liste s
 <span id="SecuredHostProviders"></span><span id="securedhostproviders"></span><span id="SECUREDHOSTPROVIDERS"></span>**SecuredHostProviders**
 </dt> <dd>
 
-Cette clé contrôle le comportement des fournisseurs individuels. Tous les fournisseurs répertoriés dans cette clé s’exécutent toujours en mode sécurisé. Tous les fournisseurs de boîtes de réception fournis avec Windows sont répertoriés sous cette clé et sont exécutés en mode sécurisé par défaut.
+Cette clé contrôle le comportement des fournisseurs individuels. Tous les fournisseurs répertoriés dans cette clé s’exécutent toujours en mode sécurisé. tous les fournisseurs de boîtes de réception fournis avec Windows sont répertoriés sous cette clé et sont exécutés en mode sécurisé par défaut.
 
 Cette clé est prioritaire sur les fournisseurs listés dans la clé **CompatibleHostProviders** .
 
@@ -111,12 +111,12 @@ La liste suivante répertorie les paramètres de Registre possibles et les modes
 |-----------------------------------|--------------------------------------|----------------------------|------------|
 | Non                                | Non                                   | 0                          | Compatible |
 | Non                                | Oui                                  | 0                          | Compatible |
-| Oui                               | Non                                   | 0                          | Sécuriser     |
-| Oui                               | Oui                                  | 0                          | Sécuriser     |
-| Non                                | Non                                   | 1                          | Sécuriser     |
+| Oui                               | Non                                   | 0                          | Sécurisé     |
+| Oui                               | Oui                                  | 0                          | Sécurisé     |
+| Non                                | Non                                   | 1                          | Sécurisé     |
 | Non                                | Oui                                  | 1                          | Compatible |
-| Oui                               | Non                                   | 1                          | Sécuriser     |
-| Oui                               | Oui                                  | 1                          | Sécuriser     |
+| Oui                               | Non                                   | 1                          | Sécurisé     |
+| Oui                               | Oui                                  | 1                          | Sécurisé     |
 
 
 
@@ -133,7 +133,7 @@ Les procédures suivantes montrent comment gérer les paramètres de mode sécur
 1.  Ouvrez la console GPMC.
 2.  Créez un objet stratégie de groupe (GPO).
 3.  Modifiez l’objet de stratégie de groupe.
-4.  Accédez à Préférences/Paramètres Windows/registre.
+4.  accédez à preferences/Windows Paramètres/Registry.
 5.  Cliquez avec le bouton droit et sélectionnez **nouveau... Registre**. Cette action présente une interface utilisateur dans laquelle vous pouvez entrer des informations de registre.
 6.  Sélectionnez la commande **créer** .
 7.  Sélectionnez le chemin d’accès à la clé de Registre suivante :
@@ -151,7 +151,7 @@ Les procédures suivantes montrent comment gérer les paramètres de mode sécur
 1.  Ouvrez la console GPMC.
 2.  Créez un objet de stratégie de groupe.
 3.  Modifiez l’objet de stratégie de groupe.
-4.  Accédez à Préférences/Paramètres Windows/registre.
+4.  accédez à preferences/Windows Paramètres/Registry.
 5.  Cliquez avec le bouton droit et sélectionnez **nouveau... Registre**. Cette action présente une interface utilisateur dans laquelle vous pouvez entrer des informations de registre.
 6.  Sélectionnez la commande **supprimer** .
 7.  Sélectionnez le chemin d’accès à la clé de Registre suivante :
@@ -171,7 +171,7 @@ La procédure suivante fournit des détails sur la modification du comportement 
 1.  Ouvrez la console GPMC.
 2.  Créez un objet de stratégie de groupe.
 3.  Modifiez l’objet de stratégie de groupe.
-4.  Accédez à Préférences/Paramètres Windows/registre.
+4.  accédez à preferences/Windows Paramètres/Registry.
 5.  Cliquez avec le bouton droit et sélectionnez **nouveau... Registre**. Cette action présente une interface utilisateur dans laquelle vous pouvez entrer des informations de registre.
 6.  Sélectionnez la commande **mettre à jour** .
 7.  Sélectionnez le chemin d’accès de clé de Registre suivant : **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **WBEM** \\ **CIMOM**.

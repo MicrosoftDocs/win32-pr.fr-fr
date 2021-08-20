@@ -36,7 +36,7 @@ Espace à partir duquel les pools RID sont alloués.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.370               |
 | System-ID-GUID    | 66171888-8f3c-11d0-afda-00c04fd930c9 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 

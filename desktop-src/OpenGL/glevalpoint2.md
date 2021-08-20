@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fafe728249f988462b0929873bbb195fed1e7c9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6f0c188ec5f3e8171b8035e58b235bc0c5942e221d6d85a6dd4e5a8ff1786c80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106539840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675559"
 ---
 # <a name="glevalpoint2-function"></a>glEvalPoint2 fonction)
 
@@ -59,7 +59,7 @@ Valeur entière pour la variable de domaine Grid *j* .
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions [**glMapGrid**](glmapgrid-functions.md) et [**glEvalMesh**](glevalmesh-functions.md) sont utilisées en tandem pour générer et évaluer efficacement une série de valeurs de domaine de mappage uniformément espacées. Vous pouvez utiliser **glEvalPoint** pour évaluer un seul point de grille dans le même Gridspace parcouru par **glEvalMesh**. L’appel de [**glEvalPoint1**](glevalpoint.md) équivaut à appeler
 

@@ -4,16 +4,16 @@ ms.assetid: 9d7a40e0-4327-4ca3-b430-2be02f80c16f
 title: 'Étape 5 : ajouter la fonctionnalité vidéo'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f5ccf1ae3ca24a705506bc41620ac53a13d7e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 968c35916f90f226305eb987058d14cc7891d250961e2b8a41a1756ec3794b1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951778"
 ---
 # <a name="step-5-add-video-functionality"></a>Étape 5 : ajouter la fonctionnalité vidéo
 
-Cette rubrique est l’étape 5 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). Le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
+Cette rubrique est l’étape 5 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
 
 Pour vous assurer que la vidéo s’affiche correctement, l’application doit répondre aux messages WM [**\_ Paint**](../gdi/wm-paint.md), [**WM \_ Size**](../winmsg/wm-size.md)et [**WM \_ DISPLAYCHANGE**](../gdi/wm-displaychange.md) comme suit.
 
@@ -200,19 +200,19 @@ HRESULT CVMR7::DisplayModeChanged()
 
 Le EVR n’a pas besoin d’être notifié lorsque le mode d’affichage change.
 
-[Étape 6 : gérer les événements graphiques](step-6--handle-graph-events.md).
+[étape 6 : gérer les événements de Graph](step-6--handle-graph-events.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Lecture audio/vidéo dans DirectShow](audio-video-playback-in-directshow.md)
+[Lecture audio/vidéo en DirectShow](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[Exemple de lecture DirectShow](directshow-playback-example.md)
+[DirectShow Exemple de lecture](directshow-playback-example.md)
 </dt> <dt>
 
-[Utilisation du filtre DirectShow EVR](../medfound/using-the-directshow-evr-filter.md)
+[utilisation du filtre EVR DirectShow](../medfound/using-the-directshow-evr-filter.md)
 </dt> <dt>
 
 [Utilisation du convertisseur de mixage vidéo](using-the-video-mixing-renderer.md)
