@@ -1,19 +1,19 @@
 ---
 title: Arbitrage de filtre
-description: L’arbitrage de filtre est la logique intégrée à la plateforme de filtrage Windows (WFP) qui est utilisée pour déterminer comment les filtres interagissent entre eux lors de la prise de décisions de filtrage du trafic réseau.
+description: l’arbitrage de filtre est la logique intégrée à la plate-forme de filtrage Windows (WFP) qui est utilisée pour déterminer comment les filtres interagissent entre eux lors de la prise de décisions de filtrage du trafic réseau.
 ms.assetid: d097f307-113e-4dc3-ad59-ddfb85061583
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fd7df778d1c24b7480de3321e7a1ec126d8e642
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7640e94440cf040d9ca51b6c639dc66e3e8a767024d6dbcd01b9c0cd2b87a24b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103727005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151186"
 ---
 # <a name="filter-arbitration"></a>Arbitrage de filtre
 
-L’arbitrage de filtre est la logique intégrée à la plateforme de filtrage Windows (WFP) qui est utilisée pour déterminer comment les filtres interagissent entre eux lors de la prise de décisions de filtrage du trafic réseau.
+l’arbitrage de filtre est la logique intégrée à la plate-forme de filtrage Windows (WFP) qui est utilisée pour déterminer comment les filtres interagissent entre eux lors de la prise de décisions de filtrage du trafic réseau.
 
 ## <a name="filter-arbitration-behaviors"></a>Comportements d’arbitrage de filtre
 

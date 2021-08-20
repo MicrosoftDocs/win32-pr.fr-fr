@@ -3,7 +3,7 @@ title: Message CB_GETEDITSEL (winuser. h)
 description: Obtient les positions des caractères de début et de fin de la sélection actuelle dans le contrôle d’édition d’une zone de liste déroulante.
 ms.assetid: 72b64135-e35a-4f72-9fc7-e6bedf495f23
 keywords:
-- CB_GETEDITSEL les contrôles de message Windows
+- CB_GETEDITSEL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 319ce4a3c7a5a61903d4fc3bf04eed223e749787
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 220750e96e08455eb36e6b6d698fb99056ad3dca6dfbb51054c6cd7cc33fd7e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118171604"
 ---
 # <a name="cb_geteditsel-message"></a>\_Message GETEDITSEL CB
 
@@ -67,14 +67,14 @@ end = HIWORD(range);
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

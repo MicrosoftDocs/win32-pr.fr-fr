@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ac2559717a2040cfb617e85e0a51495be1b5987
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e8a9f133baf77a77d3db33001e996accc9574f86ad708037900a5db7c0c5e8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118910380"
 ---
 # <a name="winbio_extended_storage_info-structure"></a>\_Structure des \_ informations de stockage étendu WINBIO \_
 
@@ -64,14 +64,14 @@ Fonctionnalités génériques du composant de stockage connecté à une unité b
 
 </dd> <dt>
 
-**Factor**
+**Facteur**
 </dt> <dd>
 
 Type d’unité biométrique pour lequel cette structure contient des informations sur les fonctionnalités et les exigences d’inscription de la carte de stockage. Par exemple, si la valeur du membre **Factor** est **WINBIO \_ type \_ Fingerprint**, la structure **WINBIO \_ Extended \_ Storage \_ info** s’applique à un lecteur d’empreintes digitales et contient les informations pertinentes dans la structure **spécifique. Fingerprint** .
 
 </dd> <dt>
 
-**Spécifique**
+**Plus**
 </dt> <dd>
 
 Informations sur les fonctionnalités et les exigences d’inscription de la carte de stockage pour une unité biométrique liée à un facteur biométrique spécifique.
@@ -147,8 +147,8 @@ Fonctionnalités de reconnaissance vocale du composant de stockage connecté à 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                                                                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (inclure WinBio. h pour les applications clientes ou les \_ cartes WinBio. h pour les adaptateurs)</dt> </dl> |
 
 

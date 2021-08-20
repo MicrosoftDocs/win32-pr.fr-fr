@@ -4,27 +4,27 @@ description: Cette rubrique montre comment utiliser les macros de contrôle d’
 ms.assetid: 4B19F929-B306-4EBF-B82F-6539FAA42BA6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c11f7d8f519f98f3293d5be29fac0e0a40dd704
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5fbabd3ea6e0694448e4bd8c01e53161333b2df3904cf1578252bdbe150d3d5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170760"
 ---
 # <a name="how-to-control-the-avi-clip"></a>Comment contrôler le clip AVI
 
 Cette rubrique montre comment utiliser les macros de contrôle d’animation pour lire, arrêter et fermer un clip Audio-Video entrelacé (AVI) associé.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 -   Fichiers AVI
 
 ## <a name="instructions"></a>Instructions

@@ -3,9 +3,9 @@ title: Méthode IWMPMedia getMarkerTime
 description: La méthode getMarkerTime retourne l’heure du marqueur au niveau de l’index spécifié.
 ms.assetid: 1c617e3a-0978-479c-a636-b655082232c1
 keywords:
-- méthode getMarkerTime lecteur Windows Media
-- méthode getMarkerTime lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, méthode getMarkerTime
+- Lecteur Windows Media de la méthode getMarkerTime
+- méthode getMarkerTime Lecteur Windows Media, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, méthode getMarkerTime
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df171977adeee3b597cab1f40469af1d975425c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 293ad08137df1b87f47f614781d92be2b7c310fa7282cc234b38e1f3e0e63586
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115689"
 ---
 # <a name="iwmpmediagetmarkertime-method"></a>IWMPMedia :: getMarkerTime, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPMedia.getMarkerTime
 
 **System. double** qui correspond à l’heure du marqueur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne la **valeur null** si le marqueur spécifié n’existe pas.
 

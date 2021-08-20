@@ -1,6 +1,6 @@
 ---
-description: Un type perçu est une catégorie de types de fichiers qui vous permet d’identifier votre type de fichier sur Windows (et les applications) comme une image, un fichier audio, un document ou tout autre type.
-title: Types perçus (shell Windows)
+description: un type perçu est une catégorie de types de fichiers qui vous permet d’identifier votre type de fichier pour Windows (et les applications) comme une image, un fichier audio, un document ou tout autre type.
+title: Types perçus (Shell Windows)
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 56d4c495-a886-4723-88ca-5b7753398062
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e6136389c717fd4e27621a4d7f9f4cf2895c4116
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
-ms.translationtype: HT
+ms.openlocfilehash: fbbd459c610deb0b597e23bd4dc7217289b94c8a907b5341fa5667454ee778a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104991861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050328"
 ---
-# <a name="perceived-types-the-windows-shell"></a>Types perçus (shell Windows)
+# <a name="perceived-types-the-windows-shell"></a>Types perçus (Shell Windows)
 
-Un type perçu est une catégorie de types de fichiers qui vous permet d’identifier votre type de fichier sur Windows (et les applications) comme une image, un fichier audio, un document ou tout autre type. Les types perçus sont utilisés à plusieurs fins, notamment la détermination du type de dossier, qui est ensuite utilisé pour définir les paramètres d’affichage par défaut. Par exemple, un dossier contenant des fichiers dont l’image est de type perçue reçoit un mode d’affichage par défaut de miniatures.
+un type perçu est une catégorie de types de fichiers qui vous permet d’identifier votre type de fichier pour Windows (et les applications) comme une image, un fichier audio, un document ou tout autre type. Les types perçus sont utilisés à plusieurs fins, notamment la détermination du type de dossier, qui est ensuite utilisé pour définir les paramètres d’affichage par défaut. Par exemple, un dossier contenant des fichiers dont l’image est de type perçue reçoit un mode d’affichage par défaut de miniatures.
 
 Cette rubrique est organisée comme suit :
 
@@ -28,7 +28,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="about-perceived-types"></a>À propos des types perçus
 
-Les types perçus, définis en tant que valeurs PerceivedType, sont similaires aux types de fichiers, à ceci près qu’ils font référence à des catégories larges de types de fichiers plutôt qu’à des types de fichiers spécifiques. Par exemple, l’image, le texte, l’audio et la compression sont des types perçus. Les types de fichiers (généralement des types de fichiers publics) peuvent être affectés à un type perçu et doivent toujours être affectés, le cas échéant. Par exemple, les types de fichiers image. bmp,. png,. jpg et. gif sont également perçus comme une image de type.
+Les types perçus, définis en tant que valeurs PerceivedType, sont similaires aux types de fichiers, à ceci près qu’ils font référence à des catégories larges de types de fichiers plutôt qu’à des types de fichiers spécifiques. Par exemple, l’image, le texte, l’audio et la compression sont des types perçus. Les types de fichiers (généralement des types de fichiers publics) peuvent être affectés à un type perçu et doivent toujours être affectés, le cas échéant. Par exemple, les types de fichiers image .bmp, .png, .jpg et .gif sont également perçus comme une image de type.
 
 Les types perçus par défaut sont les suivants :
 

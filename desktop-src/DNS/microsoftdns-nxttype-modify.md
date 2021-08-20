@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bab7bf8480c7e18914cac4f7ae0deb8a608090f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e43082ff829a7b8701701e9b099aa0f36d274879bfb6f281272096558f1c8bd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163200"
 ---
 # <a name="modify-method-of-the-microsoftdns_nxttype-class"></a>Modifier la méthode de la \_ classe NXTType MicrosoftDNS
 
@@ -77,7 +77,7 @@ Référence au nouvel objet.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout paramètre non spécifié reste inchangé dans l’enregistrement modifié.
 

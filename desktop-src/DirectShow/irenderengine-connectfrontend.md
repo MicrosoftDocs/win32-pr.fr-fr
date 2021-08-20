@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 58ebd8e162f376b6ef942397e601139c46d8e4cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7e0b00d467eb56dabaf6623f129ed1eb82945a1add63386b2b21fb01f725082
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154036"
 ---
 # <a name="irenderengineconnectfrontend-method"></a>IRenderEngine :: ConnectFrontEnd, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -51,7 +51,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
 
 | Code de retour                                                                                                  | Description                                                                    |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                         | Opération réussie.<br/>                                                            |
+| <dl> <dt>**\_OK**</dt> </dl>                         | Réussite.<br/>                                                            |
 | <dl> <dt>**\_OUTPUTRESET avertir \_**</dt> </dl>          | La partie de rendu du graphique a été supprimée.<br/>                         |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>                 | Aucune chronologie n’est définie pour ce moteur de rendu.<br/>                             |
 | <dl> <dt>**E \_ doit \_ initialiser le \_ convertisseur**</dt> </dl>       | Le moteur de rendu n’a pas pu s’initialiser.<br/>                                 |
@@ -63,7 +63,7 @@ Retourne une valeur **HRESULT** . Les valeurs de retour possibles sont les suiva
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne génère pas la partie de rendu du graphique de filtre. L’application doit connecter les broches de sortie du serveur frontal aux filtres de rendu souhaités :
 
@@ -80,7 +80,7 @@ Si vous modifiez la chronologie après avoir généré le graphique de filtre, v
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

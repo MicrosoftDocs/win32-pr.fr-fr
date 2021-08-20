@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da2bb15c6401b527a4d6e835e4e4e2f572a0f19
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7fe641087cb5013d408d62d01d2ff51ec7aa65ce23509fbbf5ac5b6bdb20ecb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106544506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118174663"
 ---
 # <a name="web-information-property-set"></a>Jeu de propriétés Web-Information
 
@@ -40,7 +40,7 @@ Jeu de propriétés contenant les attributs utilisateur qui décrivent les infor
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

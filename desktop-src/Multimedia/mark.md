@@ -3,7 +3,7 @@ title: commande Mark
 description: La commande Mark contrôle l’enregistrement et l’effacement des marques sur la bande vidéo. Les périphériques VCR reconnaissent cette commande.
 ms.assetid: d5f7a546-dc46-459c-b5dc-0651bca842cb
 keywords:
-- commande Mark Windows Multimedia
+- commande mark Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 570968af05424597a7fe2b59e86e0364694e0e1f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0f59f56a6d542120d088d764d1b301329a7f0b167f25952587a9e743878643e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138750"
 ---
 # <a name="mark-command"></a>commande Mark
 
@@ -75,7 +75,7 @@ Peut être « Wait », « Notify » ou « test ». Pour plus d’informati
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les marques sont des signaux spéciaux écrits dans le contenu qui peuvent être détectés par le magnétoscope lors de recherches à grande vitesse. Les marques sont spécifiques au magnétoscope.
 

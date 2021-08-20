@@ -1062,7 +1062,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1129,7 +1129,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1165,7 +1165,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1201,7 +1201,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1237,7 +1237,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1273,7 +1273,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1309,7 +1309,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1407,7 +1407,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1443,7 +1443,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1483,7 +1483,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 
@@ -1672,7 +1672,7 @@ Stratégie de groupe
 2 (0X2)
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 

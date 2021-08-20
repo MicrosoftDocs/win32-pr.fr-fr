@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c45f004421a273f6dd2e6ab2d61810d9332ca17
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0aceb8d343859f23018a5f29777599bbc7fc479828efdacaae3a4b87bb141b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126479"
 ---
 # <a name="ui_animation_iteration_none"></a>itération de l’animation d’IU \_ \_ \_ aucune
 

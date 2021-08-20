@@ -1,9 +1,9 @@
 ---
 title: Message ICM_COMPRESS_FRAMES_INFO (VFW. h)
-description: Le \_ message d' \_ informations sur les trames de compression ICM \_ avertit un pilote de compression de la définition des paramètres de la compression en attente.
+description: le \_ message d’informations ICM compresser les \_ frames \_ indique à un pilote de compression de définir les paramètres de la compression en attente.
 ms.assetid: d2f6f3b7-dff6-4fef-a642-cb77b00119af
 keywords:
-- Message ICM_COMPRESS_FRAMES_INFO Windows Multimedia
+- message ICM_COMPRESS_FRAMES_INFO Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbb6df0eab7706ebfc03a5e3069d4323be26ecdb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2382a930b0ce12e212adf78ddaf3c7e1b3300e47597b4671d0eae223cb536f73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140910"
 ---
-# <a name="icm_compress_frames_info-message"></a>\_Message d' \_ \_ informations sur les trames de compression ICM
+# <a name="icm_compress_frames_info-message"></a>ICM \_ Message d’informations de compression des \_ frames \_
 
-Le message d' **\_ \_ \_ informations sur les trames** de compression ICM avertit un pilote de compression de la définition des paramètres de la compression en attente.
+le message d' **\_ informations ICM compresser les \_ frames \_** indique à un pilote de compression de définir les paramètres de la compression en attente.
 
 
 ```C++
@@ -56,7 +56,7 @@ Taille, en octets, de [**ICCOMPRESSFRAMES**](/windows/desktop/api/Vfw/ns-vfw-icc
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un compresseur peut utiliser ce message pour déterminer la quantité d’espace à allouer pour chaque image pendant la compression.
 

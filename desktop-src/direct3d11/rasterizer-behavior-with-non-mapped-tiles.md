@@ -4,12 +4,12 @@ description: Cette section décrit le comportement du rastériseur avec les vign
 ms.assetid: 3477A621-7051-4585-AB58-523EE64CDC5C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54230321f4286b92a3444e3f74167ee7b8711c3f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16612e8538ec57178ed053ae1a6333c11fcaa6e4454b387408f3d99c6004eb47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608509"
 ---
 # <a name="rasterizer-behavior-with-non-mapped-tiles"></a>Comportement du rastériseur avec les vignettes non mappées
 
@@ -40,9 +40,9 @@ Les lectures à partir de RTVs retournent 0 dans les vignettes et les écritures
 [Accès du pipeline aux ressources en mosaïque](pipeline-access-to-tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

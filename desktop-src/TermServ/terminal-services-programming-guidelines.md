@@ -8,16 +8,16 @@ keywords:
 - instructions de programmation Services Bureau à distance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e767740a2f279c90ce4f0eb37c49919749465ad1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2f1f935ada4dfe486b418b5ec3b6f347eb6166e6b392a3adc1bd8c1e5987a773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106536889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999869"
 ---
 # <a name="remote-desktop-services-programming-guidelines"></a>Instructions de programmation Services Bureau à distance
 
-La plupart des applications Windows 32 bits ou 64 bits existantes s’exécutent « en l’environnement » dans une Services Bureau à distance (anciennement « services Terminal Server »). Toutefois, certaines applications fonctionnent correctement et fonctionnent bien dans un environnement Services Bureau à distance, contrairement à d’autres. Les rubriques suivantes fournissent des instructions pour le développement d’applications dans un environnement de Services Bureau à distance.
+la plupart des applications basées sur Windows 32 bits ou 64 bits existantes s’exécutent « en l’environnement » dans un environnement Services Bureau à distance (anciennement appelé Terminal Services). Toutefois, certaines applications fonctionnent correctement et fonctionnent bien dans un environnement Services Bureau à distance, contrairement à d’autres. Les rubriques suivantes fournissent des instructions pour le développement d’applications dans un environnement de Services Bureau à distance.
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -30,7 +30,7 @@ Instructions pour le développement d’applications pour plusieurs utilisateurs
 
 </dd> <dt>
 
-[Instructions relatives aux performances](performance-guidelines.md)
+[Recommandations sur les performances](performance-guidelines.md)
 </dt> <dd>
 
 Instructions pour le développement d’applications qui fonctionnent correctement dans un environnement de Services Bureau à distance.
@@ -44,7 +44,7 @@ Instructions pour le développement d’applications dans un environnement de Se
 
 </dd> </dl>
 
-La plupart de ces instructions sont de bonnes pratiques en matière de programmation qui tireront parti des applications qui s’exécutent dans n’importe quel environnement Windows. Toutefois, certaines optimisations recommandées, telles que la limitation des effets graphiques, sont des optimisations que vous souhaiteriez uniquement lorsque votre application s’exécute sous Services Bureau à distance. Pour obtenir un exemple de code qui montre comment détecter un environnement de Services Bureau à distance, consultez [détection de l’environnement services Bureau à distance](detecting-the-terminal-services-environment.md).
+la plupart de ces instructions sont de bonnes pratiques en matière de programmation qui tireront parti des applications qui s’exécutent dans n’importe quel environnement de Windows. Toutefois, certaines optimisations recommandées, telles que la limitation des effets graphiques, sont des optimisations que vous souhaiteriez uniquement lorsque votre application s’exécute sous Services Bureau à distance. Pour obtenir un exemple de code qui montre comment détecter un environnement de Services Bureau à distance, consultez [détection de l’environnement services Bureau à distance](detecting-the-terminal-services-environment.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -74,6 +74,6 @@ La plupart de ces instructions sont de bonnes pratiques en matière de programma
 [Modèle de Access Control](/windows/desktop/SecAuthZ/access-control-model)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

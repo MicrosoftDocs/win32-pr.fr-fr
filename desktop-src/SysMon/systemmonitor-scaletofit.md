@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9a1e481dd44c441ea9e2dd44f2e63a06539da74
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1cddb539f8c8d2c6c78f70d96d82da171e11a62afbeaa31d1a011c74c2cb096d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118881513"
 ---
 # <a name="systemmonitorscaletofit-method"></a>Méthode SystemMonitor. ScaleToFit
 
@@ -53,7 +53,7 @@ True pour mettre à l’échelle uniquement les compteurs sélectionnés ; Sino
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode efface la vue du graphique. SYSMON utilise ensuite le facteur d’échelle spécifié pour chaque compteur pour redessiner le graphique si la source de données est un fichier journal, ou commence à représenter graphiquement les nouvelles valeurs de compteur si la source de données est une activité en temps réel.
 
@@ -63,8 +63,8 @@ Cette méthode efface la vue du graphique. SYSMON utilise ensuite le facteur d�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon. ocx</dt> </dl> |
 
 

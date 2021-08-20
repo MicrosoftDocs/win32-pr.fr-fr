@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: f923afe94c25e45dbcbfe79d554282b69ebec3a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5f97d428ea6de750e7cd94c3a5459f3d874b97c031189ad4d84f6234298a14c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118043948"
 ---
 # <a name="iinkanalyzerfindleafnodes-method"></a>IInkAnalyzer :: FindLeafNodes, méthode
 
@@ -50,7 +50,7 @@ Pointeur vers la collection [**IContextNodes**](icontextnodes.md) contenant tous
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, appelez [**IUnknown :: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) sur *ppContextNodesFound* lorsque vous n’avez plus besoin d’utiliser l’objet.
@@ -59,13 +59,13 @@ Pour obtenir une description des valeurs de retour, consultez [classes et interf
 
 Les nœuds terminaux ne contiennent pas de nœuds enfants. Exemples de nœuds de feuille manuscrite : InkWord, TextWord, image, InkDrawing et InkBullet [**IContextNode**](icontextnode.md) objets. Pour plus d’informations, consultez [types de nœuds de contexte](context-node-types.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

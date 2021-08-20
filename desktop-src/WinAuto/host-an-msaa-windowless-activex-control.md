@@ -1,35 +1,35 @@
 ---
-title: Comment héberger un contrôle ActiveX sans fenêtre MSAA
-description: Découvrez comment créer un conteneur de contrôle qui peut héberger des contrôles Microsoft ActiveX sans fenêtre qui implémentent Microsoft Active Accessibility.
+title: comment héberger un contrôle de ActiveX sans fenêtre MSAA
+description: découvrez comment créer un conteneur de contrôle qui peut héberger des contrôles microsoft ActiveX sans fenêtre qui implémentent microsoft Active Accessibility.
 ms.assetid: 9497561C-37ED-4094-A6B0-C219F63C04B6
 keywords:
-- MSAA, contrôle ActiveX sans fenêtre
-- Contrôle ActiveX sans fenêtre, MSAA
+- MSAA, contrôle de ActiveX sans fenêtre
+- contrôle de ActiveX sans fenêtre, MSAA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9de45313b19490af3c3fffb633f3822ad93d25a4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b3d086fdc33c1b645294827ec62784612ffeb617f12caf5a101ea8472da3e765
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115130"
 ---
-# <a name="how-to-host-an-msaa-windowless-activex-control"></a>Comment héberger un contrôle ActiveX sans fenêtre MSAA
+# <a name="how-to-host-an-msaa-windowless-activex-control"></a>comment héberger un contrôle de ActiveX sans fenêtre MSAA
 
-Découvrez comment créer un conteneur de contrôle qui peut héberger des contrôles Microsoft ActiveX sans fenêtre qui implémentent Microsoft Active Accessibility. En suivant les étapes décrites ici, vous pouvez vous assurer que tous les contrôles sans fenêtre basés sur Microsoft Active Accessibility hébergés dans votre conteneur de contrôle sont accessibles aux applications clientes de la technologie d’assistance (AT).
+découvrez comment créer un conteneur de contrôle qui peut héberger des contrôles microsoft ActiveX sans fenêtre qui implémentent microsoft Active Accessibility. En suivant les étapes décrites ici, vous pouvez vous assurer que tous les contrôles sans fenêtre basés sur Microsoft Active Accessibility hébergés dans votre conteneur de contrôle sont accessibles aux applications clientes de la technologie d’assistance (AT).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles ActiveX](/windows/desktop/com/activex-controls)
+-   [ActiveX Commandes](/windows/desktop/com/activex-controls)
 -   [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
 -   Programmation Microsoft Win32 et COM (Component Object Model)
--   Contrôles ActiveX sans fenêtre
+-   contrôles ActiveX sans fenêtre
 -   Serveurs Microsoft Active Accessibility
 
 ## <a name="instructions"></a>Instructions
@@ -68,24 +68,24 @@ Le conteneur de contrôle répond en recherchant le contrôle sans fenêtre qui 
 
     
 
-     
+     
 
     Le conteneur de contrôle doit conserver le mappage entre les plages d’ID d’objet et les contrôles sans fenêtre pour lui-même et tous les enfants sans fenêtre. Les plages d’ID de l’objet n’ont pas besoin d’être adjacentes les unes aux autres. En outre, pour éviter les attaques par déni de service, le conteneur de contrôle peut placer des limites sur le nombre de plages accordées à un contrôle particulier. Toutefois, il est utile d’autoriser plus d’une plage par contrôle pour permettre à un contrôle de croître.
 
 ### <a name="step-4-optional-implement-the-iaccessiblehostingelementproviders-interface"></a>Étape 4 : facultatif : implémentez l’interface IAccessibleHostingElementProviders.
 
-Implémentez l’interface [**IAccessibleHostingElementProviders**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessiblehostingelementproviders) si votre conteneur de contrôle a une implémentation de Microsoft Active Accessibility Server et que le serveur est la racine d’une arborescence d’accessibilité qui inclut des contrôles ActiveX sans fenêtre qui prennent en charge l’Automation d’interface utilisateur. L’interface **IAccessibleHostingElementProviders** possède une méthode unique, [**GetEmbeddedFragmentRoots**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-getembeddedfragmentroots), qui récupère les pointeurs d’interface [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot) de tous les contrôles ActiveX UI Automation qui sont hébergés par votre conteneur de contrôle.
+implémentez l’interface [**IAccessibleHostingElementProviders**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessiblehostingelementproviders) si votre conteneur de contrôle a une implémentation de Microsoft Active Accessibility server et que le serveur est la racine d’une arborescence d’accessibilité qui inclut des contrôles ActiveX sans fenêtre qui prennent en charge l’Automation d’interface utilisateur. l’interface **IAccessibleHostingElementProviders** possède une méthode unique, [**GetEmbeddedFragmentRoots**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-getembeddedfragmentroots), qui récupère les pointeurs d’interface [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot) de tous les contrôles ActiveX sans fenêtre UI Automation qui sont hébergés par votre conteneur de contrôle.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Comment héberger un contrôle ActiveX UI Automation sans fenêtre](host-a-ui-automation-windowless-activex-control.md)
+[comment héberger un contrôle ActiveX sans fenêtre UI Automation](host-a-ui-automation-windowless-activex-control.md)
 </dt> <dt>
 
-[Accessibilité des contrôles ActiveX sans fenêtre](windowless-activex-control-accessibility.md)
+[accessibilité des contrôles ActiveX sans fenêtre](windowless-activex-control-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

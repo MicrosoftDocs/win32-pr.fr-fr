@@ -4,12 +4,12 @@ description: Fournit une approche étape par étape pour résoudre les problème
 ms.assetid: aeded6c9-315d-4115-9750-485f017dd8dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b7c4e3058598f98327570fbcd0347cfb84e5825
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: a8bc8cb112a6def55085cbd0b94068407320e4116a4b0161d7d923319257258f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104101121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085883"
 ---
 # <a name="sso-eap-tls-pin-caching-behavior"></a>Comportement de mise en cache du code confidentiel EAP-TLS SSO
 
@@ -23,7 +23,7 @@ La liste suivante représente une approche étape par étape pour résoudre les 
     > [!Note]  
     > Bien que soumis à l’implémentation de demandeur particulière, il est recommandé au demandeur de conserver la structure de [**\_ tableau de \_ \_ champs d’entrée de configuration EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array) complète que le demandeur a utilisé en dernier dans l’appel [**EapHostPeerQueryUserBlobFromCredentialInputFields**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields) à EAPHost.
 
-     
+     
 
 -   À mesure que l’utilisateur se déplace pour la première fois et que la réauthentification commence, le demandeur appelle à nouveau [**EapHostPeerQueryUserBlobFromCredentialInputFields**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields) avec la même structure de [**tableau de \_ \_ \_ champs d’entrée de configuration EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array) ; le demandeur doit également passer le même objet blob d’utilisateur conservé après la première authentification réussie.
 -   EAPHost transmet ensuite les informations de l’objet BLOB utilisateur à la méthode EAP.
@@ -40,9 +40,9 @@ La liste suivante représente une approche étape par étape pour résoudre les 
 [SSO et PLAP](understanding-sso-and-plap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

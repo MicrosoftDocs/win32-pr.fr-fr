@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: ebd32af433fd932cb05d062fbc515a3245113343
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85962aac5e841c929518a7a37fdada647ce4c74baa69be23048f26f5470c91fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142017"
 ---
 # <a name="stringlistitem-property"></a>StringList. Item, propriété
 
@@ -39,7 +39,7 @@ propVal = StringList.Item
 
 Numéro d’index de l’élément avec la collection de chaînes. Ce paramètre est obligatoire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le client doit vérifier que l' [**objet StringList**](stringlist-object.md) existe et n’est pas vide avant de référencer la propriété **Item** .
 

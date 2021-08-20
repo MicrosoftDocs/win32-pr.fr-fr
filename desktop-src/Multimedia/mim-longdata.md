@@ -1,9 +1,9 @@
 ---
 title: Message MIM_LONGDATA (mmsystem. h)
-description: Le \_ message MIM LONGDATA est envoyé à une fonction de rappel d’entrée MIDI lorsqu’un tampon système exclusif a été rempli de données et est retourné à l’application.
+description: le \_ message MIM LONGDATA est envoyé à une fonction de rappel d’entrée MIDI lorsqu’un tampon système exclusif a été rempli de données et est retourné à l’application.
 ms.assetid: 3a11ed21-e7c5-4b78-9536-f0d862e26a02
 keywords:
-- Message MIM_LONGDATA Windows Multimedia
+- message MIM_LONGDATA Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc5f83b1f0468540da18d0d8317dae42cbf33bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82605835ce8ac231346014215c854abfe9ae7a55fd81e81b8d6214fb8a230327
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137210"
 ---
-# <a name="mim_longdata-message"></a>\_Message MIM LONGDATA
+# <a name="mim_longdata-message"></a>MIM \_ Message LONGDATA
 
-Le message **MIM \_ LONGDATA** est envoyé à une fonction de rappel d’entrée MIDI lorsqu’un tampon système exclusif a été rempli de données et est retourné à l’application.
+le message **MIM \_ LONGDATA** est envoyé à une fonction de rappel d’entrée MIDI lorsqu’un tampon système exclusif a été rempli de données et est retourné à l’application.
 
 
 ```C++
@@ -56,7 +56,7 @@ Heure à laquelle les données ont été reçues par le pilote de périphérique
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mémoire tampon retournée n’est peut-être pas pleine. Pour déterminer le nombre d’octets enregistrés dans la mémoire tampon retournée, utilisez le membre **dwBytesRecorded** de la structure [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) spécifiée par *lpMidiHdr*.
 
@@ -68,7 +68,7 @@ La mémoire tampon retournée n’est peut-être pas pleine. Pour déterminer le
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

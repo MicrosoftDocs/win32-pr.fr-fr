@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: ddff631f1fa4b6b9f9af74f71e2b1eb38a2bf48e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d545bcdf8f3cc01159b3afbc86a686fb2bf8e83493784d2197353f19ff01e576
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993429"
 ---
 # <a name="sio_rcvall-control-code"></a>Code de contrôle SIO_RCVALL
 
@@ -146,9 +146,9 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Le descripteur *s* n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | La commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est retournée si l’IOCTL **SIO \_ RCVALL** n’est pas prise en charge par le fournisseur de transport. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’IOCTL **SIO \_ RCVALL** est prise en charge sur Windows 2000 et les versions ultérieures du système d’exploitation.
+l’IOCTL **SIO \_ RCVALL** est prise en charge sur Windows 2000 et les versions ultérieures du système d’exploitation.
 
 L’IOCTL **SIO \_ RCVALL** permet à un socket de recevoir tous les paquets IPv4 ou IPv6 sur une interface réseau.
 Le descripteur de socket passé à la fonction [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) ou **WSPIoctl** doit être l’un des suivants :
@@ -168,10 +168,10 @@ Cette IOCTL ne capture pas d’autres paquets (paquets ARP, IPX et NetBEUI, par 
 Un socket lié à une interface locale spécifique avec l’IOCTL **SIO \_ RCVALL** recevra uniquement les paquets passant par cette interface.
 Elle ne reçoit pas de paquets reçus sur une autre interface et est transférée vers une autre interface différente du socket lié à **SIO \_ RCVALL** ioctl.
 
-Sur Windows Server 2008 et versions antérieures, le paramètre IOCTL **SIO \_ RCVALL** ne capture pas les paquets locaux envoyés à partir d’une interface réseau.
+sur Windows Server 2008 et versions antérieures, le paramètre IOCTL **SIO \_ RCVALL** ne capture pas les paquets locaux envoyés à partir d’une interface réseau.
 Cela inclut les paquets reçus sur une autre interface et a transmis l’interface réseau spécifiée pour l’IOCTL **SIO \_ RCVALL** .
 
-Sur Windows 7 et Windows Server 2008 R2, cela a été modifié afin que les paquets locaux envoyés à partir d’une interface réseau soient également capturés.
+sur Windows 7 et Windows Server 2008 R2, cela a été modifié afin que les paquets locaux envoyés à partir d’une interface réseau soient également capturés.
 Cela comprend les paquets reçus sur une autre interface, puis le transfert de l’interface réseau liée au socket avec **SIO \_ RCVALL** ioctl.
 
 La définition de cette IOCTL requiert des privilèges d’administrateur sur l’ordinateur local.

@@ -4,12 +4,12 @@ ms.assetid: 214debba-4256-4682-b98d-0bbfb2d68a13
 title: Affectations de canaux belges
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fb1d295c8ff4c5fc28a7c0a92f3d787f3d92ec6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8cd4bef5c934fcedb3cccc92921ec449aeb274bc764accf42d0225d85646be04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159261"
 ---
 # <a name="belgium-channel-assignments"></a>Affectations de canaux belges
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 ## <a name="cable-assignments"></a>Attributions de câble
 

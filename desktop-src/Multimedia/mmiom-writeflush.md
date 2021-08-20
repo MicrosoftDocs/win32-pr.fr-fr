@@ -3,7 +3,7 @@ title: Message MMIOM_WRITEFLUSH (mmsystem. h)
 description: Le \_ message MMIOM WRITEFLUSH est envoyé à une procédure d’e/s par la fonction mmioWrite pour demander que les données soient écrites dans un fichier ouvert et que les mémoires tampons internes utilisées par la procédure d’e/s soient vidées sur le disque.
 ms.assetid: e04acaef-9584-410c-a020-af09fb888490
 keywords:
-- Message MMIOM_WRITEFLUSH Windows Multimedia
+- message MMIOM_WRITEFLUSH Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b294d4c461970a3304f09088cf63a6564acd50c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b274536e934f426ef5e545e758c2f7bf918d552c42085650fc7c81a6a47c842e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807089"
 ---
 # <a name="mmiom_writeflush-message"></a>\_Message MMIOM WRITEFLUSH
 
@@ -56,7 +56,7 @@ Nombre d’octets à écrire dans le fichier.
 
 Retourne le nombre d’octets réellement écrits dans le fichier. En cas d’erreur, la valeur de retour est 1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La procédure d’e/s est responsable de la mise à jour du membre **lDiskOffset** de la structure [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) pour refléter la nouvelle position de fichier après l’opération d’écriture.
 
@@ -70,7 +70,7 @@ Ce message est équivalent au message [**d' \_ écriture MMIOM**](mmiom-write.md
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

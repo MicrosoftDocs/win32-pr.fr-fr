@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETPALETTE (VFW. h)
 description: Le \_ message MCIWNDM GETPALETTE récupère un descripteur de la palette utilisée par un périphérique MCI. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetPalette.
 ms.assetid: f8426344-0fee-4419-9d8a-dcee26cb4c28
 keywords:
-- Message MCIWNDM_GETPALETTE Windows Multimedia
+- message MCIWNDM_GETPALETTE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faec3dd5d9c401d943fbc55ca58e452d3fb25497
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 319fe1fedc21c064896c3316d0a45132c034b73c25bf107ee667269a13ed678b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137700"
 ---
 # <a name="mciwndm_getpalette-message"></a>\_Message MCIWNDM GETPALETTE
 

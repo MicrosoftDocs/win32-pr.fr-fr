@@ -1,17 +1,17 @@
 ---
 description: Le type de données Language est une chaîne de texte contenant un ou plusieurs ID de langue numériques valides. S’il existe deux ou plusieurs ID de langue, ceux-ci doivent être séparés par des virgules.
 ms.assetid: 547fc662-f055-421e-a621-eecdfa0b13f6
-title: Language
+title: Langage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc87cb8b88dc3a693eee6890276adb67ad359e7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b98e24ec0ad4d4b42dfcba02374792e10ea117db474a973eae06336a55834538
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013127"
 ---
-# <a name="language"></a>Language
+# <a name="language"></a>Langage
 
 Le type de données Language est une chaîne de texte contenant un ou plusieurs ID de langue numériques valides. S’il existe deux ou plusieurs ID de langue, ceux-ci doivent être séparés par des virgules.
 

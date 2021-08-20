@@ -15,12 +15,12 @@ keywords:
 - interfaces, IRangeValueProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf426069ad88ad272fd78c521a220ba7ccf72275
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae87ca25fd1ada2f57ce77412fb589875792541fd2b5d31d6eb0aa86192dee36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106531595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114860"
 ---
 # <a name="rangevalue-control-pattern"></a>Modèle de contrôle RangeValue
 
@@ -53,13 +53,13 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 | [**Valeur**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_value)             | Propriété    | Aucun  |
 | [**LargeChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_largechange) | Propriété    | Aucun  |
 | [**SmallChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_smallchange) | Propriété    | Aucun  |
-| [**Maximale**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | Propriété    | Aucun  |
+| [**Maximum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | Propriété    | Aucun  |
 | [**Minimum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum)         | Propriété    | Aucun  |
 | [**SetValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-setvalue)       | Méthode      | Aucun  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -76,9 +76,9 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 364550a1-070a-4f7e-bd62-84672959dc21
 title: Définition des options de restauration VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c814ffb94f25229e7f3e17f592c631f13b6717e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58f3ca56a516148bcc11a12fc72aaa6941b0436236525c06c63142107bd18b59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121994"
 ---
 # <a name="setting-vss-restore-options"></a>Définition des options de restauration VSS
 

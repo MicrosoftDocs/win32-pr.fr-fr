@@ -1,19 +1,19 @@
 ---
 title: WNet, fonctions
-description: Les fonctions de réseau Windows fournissent des informations et des utilitaires pour la gestion des ressources réseau.
+description: Windows Les fonctions de mise en réseau fournissent des informations et des utilitaires pour la gestion des ressources réseau.
 ms.assetid: 8a83186f-a912-4c61-8137-1f6be1f3afd6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623de7adfdb57e21f01bff8b9647d6d2d175bd63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 771974bcc2967ddba32439bb655173f62b8478ad367e086e620ca02825a2567f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330784"
 ---
 # <a name="wnet-functions"></a>WNet, fonctions
 
-Les fonctions de réseau Windows fournissent des informations et des utilitaires pour la gestion des ressources réseau. Les fonctions de mise en réseau Windows peuvent être regroupées comme suit :
+Windows Les fonctions de mise en réseau fournissent des informations et des utilitaires pour la gestion des ressources réseau. les fonctions de mise en réseau Windows peuvent être regroupées comme suit :
 
 -   [Fonctions de connexion](#connection-functions)
 -   [Fonctions d’énumération](#enumeration-functions)
@@ -45,12 +45,12 @@ Appelez les fonctions de connexion WNet suivantes pour connecter un appareil loc
 
 
 
- 
+ 
 
 > [!Note]  
-> Les fonctions [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona) et [**WNetCancelConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona) sont prises en charge pour la compatibilité avec Windows pour les groupes de travail. Toutefois, les nouvelles applications doivent utiliser [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) ou [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a), et [**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a).
+> les fonctions [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona) et [**WNetCancelConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona) sont prises en charge pour la compatibilité avec Windows pour les groupes de travail. Toutefois, les nouvelles applications doivent utiliser [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) ou [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a), et [**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a).
 
- 
+ 
 
 ## <a name="enumeration-functions"></a>Fonctions d’énumération
 
@@ -66,7 +66,7 @@ Appelez les fonctions WNet suivantes pour énumérer les ressources réseau.
 
 
 
- 
+ 
 
 ## <a name="information-functions"></a>Fonctions d'information
 
@@ -84,7 +84,7 @@ Appelez les fonctions d’information et d’utilitaire WNet suivantes pour réc
 
 
 
- 
+ 
 
 ## <a name="user-functions"></a>Fonctions utilisateur
 
@@ -98,10 +98,10 @@ Appelez la fonction WNet suivante pour récupérer le nom de l’utilisateur ass
 
 
 
- 
+ 
 
 La plupart des fonctions WNET utilisent une structure [**Resource**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea) pour stocker des informations sur une ressource réseau.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\presenting_a_scene.htm
 title: Présentation d’une scène (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7b1c2e86964f3165df31ea8ae360f99d9e6d014
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d1b8c1da1e85918c0a08da1990cc919ad83b86437b0e5910d89a0478ca540706
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092886"
 ---
 # <a name="presenting-a-scene-direct3d-9"></a>Présentation d’une scène (Direct3D 9)
 

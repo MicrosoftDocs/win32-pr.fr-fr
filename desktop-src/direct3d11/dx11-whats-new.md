@@ -1,19 +1,19 @@
 ---
-title: Nouveautés du kit de développement logiciel (SDK) Windows 7/Direct3D 11 d’août 2009
-description: Cette version de Windows 7/Direct3D 11 est fournie avec le kit de développement logiciel (SDK) DirectX et contient de nouvelles fonctionnalités, des outils et de la documentation.
+title: nouveautés du kit de développement logiciel (SDK) Windows 7/Direct3D 11 d’août 2009
+description: cette version de Windows 7/Direct3D 11 est fournie avec le kit de développement logiciel (SDK) DirectX et contient de nouvelles fonctionnalités, outils et documentation.
 ms.assetid: c2dc3726-70a0-49ff-bbad-8ef774bc4868
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5e600e5dff679129bb9d007b9f1659bfd018d1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 83c51f350065134893ed2303d8854eb9d24fc7f58e8ab762f71da019d89d45b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103731557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608909"
 ---
-# <a name="whats-new-in-the-august-2009-windows-7direct3d-11-sdk"></a>Nouveautés du kit de développement logiciel (SDK) Windows 7/Direct3D 11 d’août 2009
+# <a name="whats-new-in-the-august-2009-windows-7direct3d-11-sdk"></a>nouveautés du kit de développement logiciel (SDK) Windows 7/Direct3D 11 d’août 2009
 
-Cette version de Windows 7/Direct3D 11 est fournie avec le kit de développement logiciel (SDK) DirectX et contient de nouvelles fonctionnalités, des outils et de la documentation.
+cette version de Windows 7/Direct3D 11 est fournie avec le kit de développement logiciel (SDK) DirectX et contient de nouvelles fonctionnalités, outils et documentation.
 
 
 
@@ -43,11 +43,11 @@ Cette version de Windows 7/Direct3D 11 est fournie avec le kit de développement
 <li>Prise en charge des fonctionnalités typographiques avancées des polices OpenType.<br/></li>
 <li>Prise en charge de la disposition et du rendu du texte dans toutes les langues prises en charge par Windows.<br/></li>
 </ul>
-Ce kit de développement logiciel (SDK) permet aux développeurs d’évaluer l’API et d’écrire des applications de base à des fins de démonstration uniquement.<br/> <a href="/windows/win32/directwrite/direct-write-portal">La documentation</a> et les <a href="/windows/win32/directwrite/samples">exemples</a> de DirectWrite sont actuellement disponibles sur MSDN.<br/></td>
+Ce kit de développement logiciel (SDK) permet aux développeurs d’évaluer l’API et d’écrire des applications de base à des fins de démonstration uniquement.<br/> <a href="/windows/win32/directwrite/direct-write-portal">la Documentation</a> et les <a href="/windows/win32/directwrite/samples">exemples</a> de DirectWrite sont actuellement disponibles sur MSDN.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="DXGI_1.1"></span><span id="dxgi_1.1"></span>DXGI 1,1<br/></td>
-<td><a href="/windows/desktop/direct3ddxgi/dx-graphics-dxgi-overviews">DXGI 1,1</a> s’appuie sur DXGI 1,0 et sera disponible sur Windows Vista et Windows 7. DXGI 1,1 ajoute plusieurs nouvelles fonctionnalités :<br/>
+<td><a href="/windows/desktop/direct3ddxgi/dx-graphics-dxgi-overviews">DXGI 1,1</a> s’appuie sur DXGI 1,0 et sera disponible à la fois sur Windows Vista et Windows 7. DXGI 1,1 ajoute plusieurs nouvelles fonctionnalités :<br/>
 <ul>
 <li>Prise en charge des surfaces partagées synchronisées. Cela permet un partage des surfaces de lecture et d’écriture efficace entre plusieurs périphériques D3D (entre D3D10 et D3D11).<br/></li>
 <li>Prise en charge du format BGRA. Cela permet à GDI de s’afficher sur la même surface DXGI ciblée par un appareil Direct2D, Direct3D 10,1 ou Direct3D 11. <br/></li>

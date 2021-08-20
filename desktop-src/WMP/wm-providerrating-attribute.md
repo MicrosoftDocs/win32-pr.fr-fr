@@ -3,7 +3,7 @@ title: Attribut WM/ProviderRating
 description: L’attribut WM/ProviderRating est l’évaluation de l’élément assigné par le fournisseur des valeurs d’attribut.
 ms.assetid: a1a76560-a8d9-486a-badc-56d7bf488c10
 keywords:
-- Attribut WM/ProviderRating lecteur Windows Media
+- Lecteur Windows Media de l’attribut WM/ProviderRating
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc0f71985d948e59b8c0f98d50445a48263d67cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ddcff262f21b4f31daff6f704dba1cb096f54bb295a21a3ae9a7c90f574af34f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116604"
 ---
 # <a name="wmproviderrating-attribute"></a>Attribut WM/ProviderRating
 
@@ -28,17 +28,17 @@ L’attribut **WM/ProviderRating** est l’évaluation de l’élément assigné
 -   [Éléments audio](audio-item-attributes.md)
 -   [Sélections de CD](cd-playlist-attributes.md)
 -   [Pistes de CD](cd-track-attributes.md)
--   [Attributs de fichiers Windows Media couramment utilisés](commonly-used-windows-media-file-attributes.md)
+-   [attributs de fichier multimédia Windows couramment utilisés](commonly-used-windows-media-file-attributes.md)
 -   [DVD](dvd-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké à la fois dans la bibliothèque (ou le cache) et dans le fichier multimédia numérique.
 
 L' **évaluation** est un alias pour cet attribut.
 
-La constante du kit de développement logiciel (SDK) du format Windows Media pour cet attribut est g \_ wszWMProviderRating.
+la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMProviderRating.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 

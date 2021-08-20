@@ -3,7 +3,7 @@ title: Commande MCI_LIST (mmsystem. h)
 description: La \_ commande MCI List obtient des informations sur le nombre et les types d’entrées disponibles pour l’appareil. Les appareils vidéo numériques et VCR reconnaissent cette commande.
 ms.assetid: 1977fbfa-cae4-4afe-9fc5-ac68177574ca
 keywords:
-- Commande MCI_LIST Windows multimédia
+- commande MCI_LIST Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d5a616085028132c83fd71c46f7d409bf48a14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f9bd3aa35875791d6fa916d9d6831bdcb83a6db43be6e5859ce582243606f666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138635"
 ---
 # <a name="mci_list-command"></a>\_Commande de liste MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants s’appliquent au type d’appareil **Digitalvideo** :
 
@@ -218,7 +218,7 @@ Pour les périphériques VCR, *lpList* pointe vers une structure de [**\_ \_ lis
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

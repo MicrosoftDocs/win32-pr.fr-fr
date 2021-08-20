@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: faea1699657efd92049068e48ff361c48242e9c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59d1a4d8491175acb0f833cbafb430faae9b36b38a179970b7a99d6b0077591d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907160"
 ---
 # <a name="sslcomputeclientauthhash-function"></a>SslComputeClientAuthHash fonction)
 
@@ -120,7 +120,7 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **SslComputeClientAuthHash** calcule le hachage qui est envoyé dans le message de vérification du certificat de la négociation SSL. La valeur de hachage est calculée en créant un hachage qui contient le secret principal avec un hachage de tous les messages de négociation précédents envoyés ou reçus. Pour plus d’informations sur la séquence de négociation SSL, consultez [Description du protocole de transfert de SSL (Secure Sockets Layer) (SSL)](https://support.microsoft.com/kb/257591).
 
@@ -132,8 +132,8 @@ La manière dont le hachage est calculé dépend du protocole et de la suite de 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Sslprovider. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

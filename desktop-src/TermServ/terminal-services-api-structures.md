@@ -5,12 +5,12 @@ ms.assetid: 5d467241-499c-4038-8d9c-4244457e484f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22fb8de65f7f234f85eb8071cc66743c9c26cc9b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe3161d7c8e8b295e42930af1edcc79b7c60d83b61097b4d02661c1b11b5f1a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000099"
 ---
 # <a name="remote-desktop-services-api-structures"></a>Structures d’API Services Bureau à distance
 
@@ -139,69 +139,69 @@ Contient les informations de configuration d’un utilisateur sur un contrôleur
 
 </dd> <dt>
 
-[**\_adresse du client WTS \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_client_address)
+[**WTS \_ adresse du CLIENT \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_client_address)
 </dt> <dd>
 
 Contient l’adresse réseau du client d’une session de Services Bureau à distance.
 
 </dd> <dt>
 
-[**\_affichage du client WTS \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_client_display)
+[**WTS \_ affichage du CLIENT \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_client_display)
 </dt> <dd>
 
 Contient des informations sur l’affichage d’un client Connexion Bureau à distance (RDC).
 
 </dd> <dt>
 
-[**\_informations sur le processus WTS \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_infoa)
+[**WTS \_ \_informations sur le processus**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_infoa)
 </dt> <dd>
 
 Contient des informations sur un processus en cours d’exécution sur un serveur hôte de session Bureau à distance.
 
 </dd> <dt>
 
-[**\_informations sur le processus WTS \_ \_ ex**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa)
+[**WTS \_ \_informations sur le processus \_ ex.**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_process_info_exa)
 </dt> <dd>
 
 Contient des informations étendues sur un processus en cours d’exécution sur un serveur hôte de session Bureau à distance.
 
 </dd> <dt>
 
-[**\_informations sur le produit WTS \_**](https://msdn.microsoft.com/library/Mt283722(v=VS.85).aspx)
+[**WTS \_ \_informations sur le produit**](https://msdn.microsoft.com/library/Mt283722(v=VS.85).aspx)
 </dt> <dd>
 
 Détails de la licence de produit requise pour se connecter à un serveur Terminal Server.
 
 </dd> <dt>
 
-[**\_informations sur le serveur WTS \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_server_infoa)
+[**WTS \_ \_informations sur le serveur**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_server_infoa)
 </dt> <dd>
 
 Contient des informations sur un serveur de Services Bureau à distance spécifique.
 
 </dd> <dt>
 
-[**\_adresse de session WTS \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_address)
+[**WTS \_ adresse de la SESSION \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_address)
 </dt> <dd>
 
 Contient l’adresse IP virtuelle assignée à une session.
 
 </dd> <dt>
 
-[**\_informations sur la session WTS \_**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_infoa)
+[**WTS \_ \_informations sur la session**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_infoa)
 </dt> <dd>
 
 Contient des informations sur une session cliente sur un serveur hôte de session Bureau à distance.
 
 </dd> <dt>
 
-[**\_Informations de session WTS \_ \_ 1**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_info_1a)
+[**WTS \_ Informations de SESSION \_ \_ 1**](/windows/desktop/api/Wtsapi32/ns-wtsapi32-wts_session_info_1a)
 </dt> <dd>
 
 Contient des informations étendues sur une session cliente sur un serveur hôte de session Bureau à distance ou un serveur serveur hôte de virtualisation des services Bureau à distance (hôte de virtualisation des services Bureau à distance).
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

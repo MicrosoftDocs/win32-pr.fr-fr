@@ -1,6 +1,6 @@
 ---
 title: Classe MicrosoftDNS_WINSType
-description: Sous-classe de MicrosoftDNS \_ ResourceRecord qui représente un enregistrement WINS (Windows Internet Name Service).
+description: sous-classe de MicrosoftDNS \_ ResourceRecord qui représente un enregistrement WINS (Windows Internet Name Service).
 ms.assetid: 8f891d80-ee4d-4641-8a6c-159c78e5cf86
 keywords:
 - MicrosoftDNS_WINSType de la classe DNS
@@ -21,16 +21,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce23132073305142948518327ea5b6c7e46f1289
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 089faa6fa3cda6780b600dbf6c296fd1ce71f902428e6c2abe16f92dada1e219
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162839"
 ---
 # <a name="microsoftdns_winstype-class"></a>MicrosoftDNS \_ WINSType, classe
 
-Sous-classe de [**MicrosoftDNS \_ ResourceRecord**](microsoftdns-resourcerecord.md) qui représente un enregistrement WINS (Windows Internet Name Service).
+sous-classe de [**MicrosoftDNS \_ ResourceRecord**](microsoftdns-resourcerecord.md) qui représente un enregistrement WINS (Windows Internet Name Service).
 
 La syntaxe suivante est simplifiée à partir du code MOF.
 
