@@ -4,12 +4,12 @@ ms.assetid: 3e367190-4c88-430e-adbf-9837e1bf0d2b
 title: Interfaces Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a12379dc83287b2a03ae0223a5a9a7d945d8fa77
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 23354a571f0b8df19b6abbffa88382eeb10e1d93dfbe192b4100d2c2808fb242
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877931"
 ---
 # <a name="media-foundation-interfaces"></a>Interfaces Media Foundation
 
@@ -71,11 +71,11 @@ ms.locfileid: "103953357"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>IEVRFilterConfig</strong></a><br/></td>
-<td>Définit le nombre de broches d’entrée sur le filtre de <a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter"><strong>convertisseur vidéo amélioré</strong></a> DirectShow (EVR).<br/></td>
+<td>définit le nombre de broches d’entrée sur le filtre DirectShow <a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter"><strong>enhanced Video renderer</strong></a> (EVR).<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfigex"><strong>IEVRFilterConfigEx</strong></a><br/></td>
-<td>Configure le filtre EVR ( <a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter"><strong>Enhanced Video Renderer</strong></a> ) DirectShow.<br/></td>
+<td>configure DirectShow le filtre EVR ( <a href="/windows/desktop/DirectShow/enhanced-video-renderer-filter"><strong>enhanced Video renderer</strong></a> ).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin"><strong>IEVRTrustedVideoPlugin</strong></a><br/></td>
@@ -283,7 +283,7 @@ ms.locfileid: "103953357"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfdrmnethelper"><strong>IMFDRMNetHelper</strong></a><br/></td>
-<td>Configure la Rights Management Windows Media Digital (DRM) pour les périphériques réseau sur un récepteur réseau.<br/></td>
+<td>configure Windows Media Digital Rights Management (DRM) pour les périphériques réseau sur un récepteur réseau.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer"><strong>IMFDXGIBuffer</strong></a><br/></td>
@@ -587,7 +587,7 @@ ms.locfileid: "103953357"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmpclientapp"><strong>IMFPMPClientApp</strong></a><br/></td>
-<td>Fournit un mécanisme pour une source de média afin d’implémenter la fonctionnalité de protection de contenu dans les applications du Windows Store.<br/></td>
+<td>fournit un mécanisme pour une source de média afin d’implémenter la fonctionnalité de protection de contenu dans un Windows applications du windows Store.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphost"><strong>IMFPMPHost</strong></a><br/></td>
@@ -595,7 +595,7 @@ ms.locfileid: "103953357"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp"><strong>IMFPMPHostApp</strong></a><br/></td>
-<td>Permet à une source de média de créer un objet <a href="/windows/desktop/WinRT/reference">Windows Runtime</a> dans le processus PMP ( <a href="protected-media-path.md">protected Media Path</a> ). <br/></td>
+<td>permet à une source de média de créer un objet <a href="/windows/desktop/WinRT/reference">Windows Runtime</a> dans le processus PMP ( <a href="protected-media-path.md">protected media Path</a> ). <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver"><strong>IMFPMPServer</strong></a><br/></td>
@@ -615,7 +615,7 @@ ms.locfileid: "103953357"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess"><strong>IMFProtectedEnvironmentAccess</strong></a><br/></td>
-<td>Fournit une méthode qui permet aux systèmes de protection de contenu d’effectuer une négociation avec l’environnement protégé. Cela est nécessaire, car les API <strong>CreateFile</strong> et <strong>DeviceIoControl</strong> ne sont pas disponibles pour les applications du Windows Store.<br/></td>
+<td>Fournit une méthode qui permet aux systèmes de protection de contenu d’effectuer une négociation avec l’environnement protégé. cela est nécessaire, car les api <strong>CreateFile</strong> et <strong>DeviceIoControl</strong> ne sont pas disponibles pour Windows les applications du windows Store.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise"><strong>IMFQualityAdvise</strong></a><br/></td>
@@ -763,7 +763,7 @@ ms.locfileid: "103953357"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfsignedlibrary"><strong>IMFSignedLibrary</strong></a><br/></td>
-<td>Fournit une méthode qui permet aux systèmes de protection de contenu d’obtenir l’adresse de la procédure d’une fonction dans la bibliothèque signée. Cette méthode fournit les mêmes fonctionnalités que <strong>GetProcAddress</strong> , qui n’est pas disponible pour les applications du Windows Store.<br/></td>
+<td>Fournit une méthode qui permet aux systèmes de protection de contenu d’obtenir l’adresse de la procédure d’une fonction dans la bibliothèque signée. cette méthode fournit les mêmes fonctionnalités que <strong>GetProcAddress</strong> , qui n’est pas disponible pour Windows les applications du windows Store.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume"><strong>IMFSimpleAudioVolume</strong></a><br/></td>
@@ -971,7 +971,7 @@ ms.locfileid: "103953357"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>IMFVideoPositionMapper</strong></a><br/></td>
-<td>Mappe une position sur un flux vidéo d’entrée à la position correspondante sur un flux vidéo de sortie.<br/></td>
+<td>Cartes une position sur un flux vidéo d’entrée à la position correspondante sur un flux vidéo de sortie.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter"><strong>IMFVideoPresenter</strong></a><br/></td>
@@ -1043,7 +1043,7 @@ ms.locfileid: "103953357"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata"><strong>IWMCodecPrivateData</strong></a><br/></td>
-<td>Obtient les données du codec privé qui doivent être ajoutées au type de média de sortie. Ces données de codec sont nécessaires pour décoder correctement le contenu Windows Media Video.<br/></td>
+<td>Obtient les données du codec privé qui doivent être ajoutées au type de média de sortie. ces données de codec sont nécessaires pour décoder correctement le contenu Windows Media Video.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops"><strong>IWMCodecProps</strong></a><br/></td>

@@ -3,7 +3,7 @@ title: Message HDM_EDITFILTER (commctrl. h)
 description: Déplace le focus d’entrée vers la zone d’édition lorsqu’un bouton de filtre a le focus.
 ms.assetid: 580f7872-4056-4d7d-8e69-274b4b4b5545
 keywords:
-- HDM_EDITFILTER les contrôles de message Windows
+- HDM_EDITFILTER les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 733c79bf747d3b55aa8dd38eb8fad8fdc83601e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8636c17bfa9043891e5037df79be9c72c1ddc8f3aa2b4d13520f4289205b5099
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118006159"
 ---
 # <a name="hdm_editfilter-message"></a>\_Message HDM EDITFILTER
 
@@ -58,14 +58,14 @@ Indicateur qui spécifie comment gérer les modifications de modification de l�
 
 Retourne un entier. La propriété **LRESULT** est castée en un entier qui indique **true**(1) ou **false**(0).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

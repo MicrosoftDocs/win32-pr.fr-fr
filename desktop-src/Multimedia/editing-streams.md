@@ -1,6 +1,6 @@
 ---
-title: Modification des flux
-description: Modification des flux
+title: Modification Flux
+description: Modification Flux
 ms.assetid: 1653ff90-e96a-43fc-b509-6d8ad4ddcd2c
 keywords:
 - CreateEditableStream fonction)
@@ -11,14 +11,14 @@ keywords:
 - EditStreamSetInfo fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29eb687eb36ff9dfe0b1d3477bff095bdd78a135
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8616b3560409dfd15991cbdb9c5c1ecd7492a11c3690ee3728b0e52ec8d0951a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117988820"
 ---
-# <a name="editing-streams"></a>Modification des flux
+# <a name="editing-streams"></a>Modification Flux
 
 Vous pouvez créer un flux que vous pouvez modifier à l’aide de la fonction [**CreateEditableStream**](/windows/desktop/api/Vfw/nf-vfw-createeditablestream) . Cette fonction initialise l’environnement pour la modification d’un flux. Cela comprend la création d’une interface pour le nouveau flux et les tables de modification internes qui effectuent le suivi des modifications apportées au flux. **CreateEditableStream** retourne un pointeur de flux vers un flux modifiable requis par d’autres fonctions de modification de flux. Le pointeur de flux modifiable peut également être utilisé par d’autres fonctions AVIFile qui acceptent des pointeurs de flux.
 
@@ -39,11 +39,11 @@ Les fonctions d’édition fonctionnent sur les flux. Vous devez couper et colle
 > [!Note]  
 > La modification des tables dans un flux modifiable conserve toutes les modifications apportées à un flux. Le flux source n’est jamais modifié.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

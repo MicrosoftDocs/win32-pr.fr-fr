@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101166
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f7805bf07f210faa4b9a59bba4b15db99b024d75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a8a51292048251d3f2c76d1f252ea83c60dc9f7d41ccc0c5e37993dad34cb5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117714907"
 ---
 # <a name="esentcannotnestddlexception-methods"></a>Méthodes EsentCannotNestDDLException
 

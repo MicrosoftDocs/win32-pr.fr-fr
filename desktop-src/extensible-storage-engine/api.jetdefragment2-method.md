@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b22c89b304103954a2088bf05ba98797777489be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5654cee21ec027980347484e83c757fae85e2d207f80c93d6958c63e307dd4f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117903432"
 ---
 # <a name="apijetdefragment2-method"></a>API. JetDefragment2, méthode
 
@@ -132,7 +132,7 @@ public static JET_wrn JetDefragment2(
 Type : [Microsoft.ISAM.esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 Code d’avertissement.  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le rappel passé à JetDefragment2 peut être exécuté de façon asynchrone. Le GC ne sait pas que le code non managé a une référence au rappel. il est donc important de s’assurer que le rappel n’est pas collecté.
 

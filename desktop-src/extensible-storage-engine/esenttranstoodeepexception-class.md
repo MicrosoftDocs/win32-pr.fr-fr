@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c7b56840a053c6f3ea0106700447986d8b706877
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d01c9216d7d386889411e60afc88ecbdd53af1a174f607b7ed4073443b7787d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117706629"
 ---
 # <a name="esenttranstoodeepexception-class"></a>EsentTransTooDeepException, classe
 

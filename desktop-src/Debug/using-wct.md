@@ -4,12 +4,12 @@ ms.assetid: 7c5fa606-6e9b-41da-bfa9-1f066449d813
 title: Utilisation de WCT
 ms.topic: article
 ms.date: 11/19/2019
-ms.openlocfilehash: 1c0f284bf501018e4ec379a64dbbd0adc0ec026e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ea36857198b8be2b0b532b8ecda30312497f18bb7cedf4b0cc134d3fbc7d5be5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004786"
 ---
 # <a name="using-wct"></a>Utilisation de WCT
 
@@ -19,7 +19,7 @@ Pour énumérer tous les threads du système, exécutez l’exemple sans paramè
 
 1. Appelle la fonction [RegisterWaitChainCOMCallback](/windows/desktop/api/Wct/nf-wct-registerwaitchaincomcallback) pour enregistrer les fonctions de rappel com.
 2. Appelle la fonction [OpenThreadWaitChainSession](/windows/desktop/api/Wct/nf-wct-openthreadwaitchainsession) pour créer la session de chaîne d’attente.
-3. Appelle la fonction [AdjustTokenPrivileges](/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) pour activer le \_ privilège de nom de débogage se \_ .
+3. appelle la fonction [AdjustTokenPrivileges](/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) pour activer le \_ privilège SE nom de débogage \_ .
 4. Appelle les fonctions [EnumProcesses](/windows/win32/api/psapi/nf-psapi-enumprocesses) et [CreateToolhelp32Snapshot](/windows/win32/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot) pour énumérer les threads spécifiés.
 5. Appelle [GetThreadWaitChain](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain) pour récupérer un tableau de structures [d' \_ \_ informations de nœud WAITCHAIN](/windows/desktop/api/Wct/ns-wct-waitchain_node_info) qui contiennent les nœuds de la chaîne d’attente.
 6. Imprime les informations de la chaîne d’attente.

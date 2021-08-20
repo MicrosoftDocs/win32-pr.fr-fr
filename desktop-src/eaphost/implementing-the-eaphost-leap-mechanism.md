@@ -4,12 +4,12 @@ description: Décrit le mécanisme EAPHost qui permet à des tiers d’écrire d
 ms.assetid: d17a99cb-4a43-4719-984e-b742c9518f52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc50cda8d32cc26dd81af5733345deebb579c792
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: b98deca674b74a33151a73f65620cf038a12c6e8f3fedd0816567a26aa4fcd86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104102508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117719956"
 ---
 # <a name="implementing-the-eaphost-leap-mechanism"></a>Implémentation du mécanisme d’LEAP EAPHost
 
@@ -42,11 +42,11 @@ Le processus d’authentification LEAP diffère du processus d’authentificatio
         > [!Note]  
         > Chaque demande EAP a un champ type pour indiquer ce qui est demandé. Comme pour le paquet de demande, chaque paquet de réponse EAP contient un champ de type, qui correspond au champ de type de la demande. Citons par exemple les paquets de demande d’identité et de demande de stimulation.
 
-         
+         
 
 -   En cas de défaillance avec EAPHost, une nouvelle authentification peut être tentée en ouvrant une autre session avec EAPHost et en fournissant la même identité ou une nouvelle identité.
 
-### <a name="leap-authenticator-method-implementation"></a>Implémentation de la méthode d’authentificateur LEAP
+### <a name="leap-authenticator-method-implementation"></a>implémentation de la méthode Authenticator LEAP
 
 Lors du développement d’une méthode d’authentificateur LEAP, vérifiez les points suivants :
 
@@ -72,9 +72,9 @@ Lors du développement d’une méthode pair LEAP, vérifiez les points suivants
 [Utilisation d’EAPHost](using-eap-host.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

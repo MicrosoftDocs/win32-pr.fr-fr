@@ -4,12 +4,12 @@ ms.assetid: 2628f47e-3e73-4e02-91b8-ba4cb0800864
 title: Option de socket SO_BSP_STATE (Ws2def. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d10e391d70dd67190e1aec803036d019261c9000
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ff165eaef1f773f41c93f1c9905588b8d715f64e89ea0cbf06d53eb656bc91a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118111249"
 ---
 # <a name="so_bsp_state-socket-option"></a>\_Option de \_ Socket d’État BSP
 
@@ -88,7 +88,7 @@ Si l’opération échoue, une valeur d’erreur de SOCKET \_ est renvoyée et u
 | <dl> <dt>**[WSANOTINITIALISED](windows-sockets-error-codes-2.md)**</dt> </dl> | Un appel [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) réussi doit se produire avant l’utilisation de cette fonction.<br/>                                                                                                                                                                                     |
 | <dl> <dt>**[WSAENETDOWN](windows-sockets-error-codes-2.md)**</dt> </dl>             | Le sous-système réseau a échoué.<br/>                                                                                                                                                                                                                                               |
 | <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md)**</dt> </dl>                 | L’un des paramètres *optval* ou *optlen* pointent vers la mémoire qui n’est pas dans une partie valide de l’espace d’adressage de l’utilisateur. Cette erreur est également retournée si la valeur vers laquelle pointe le paramètre *optlen* est inférieure à la taille d’une structure [**CSADDR \_ info**](/windows/win32/api/ws2def/ns-ws2def-csaddr_info) .<br/> |
-| <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md)**</dt> </dl>       | Un appel de blocage de Windows Sockets 1,1 est en cours, ou le fournisseur de services traite toujours une fonction de rappel.<br/>                                                                                                                                                            |
+| <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md)**</dt> </dl>       | un appel de blocage Windows sockets 1,1 est en cours, ou le fournisseur de services traite toujours une fonction de rappel.<br/>                                                                                                                                                            |
 | <dl> <dt>**[WSAEINVAL](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Le paramètre de *niveau* est inconnu ou non valide.<br/>                                                                                                                                                                                                                                    |
 | <dl> <dt>**[WSAENOPROTOOPT](windows-sockets-error-codes-2.md)**</dt> </dl>       | L’option est inconnue ou non prise en charge par la famille de protocoles indiquée.<br/>                                                                                                                                                                                                          |
 | <dl> <dt>**[WSAENOTSOCK](windows-sockets-error-codes-2.md)**</dt> </dl>             | Le descripteur n’est pas un Socket.<br/>                                                                                                                                                                                                                                                 |
@@ -97,7 +97,7 @@ Si l’opération échoue, une valeur d’erreur de SOCKET \_ est renvoyée et u
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) appelée avec l’option de socket d' **\_ \_ État BSP** récupère l’adresse locale, le port local, l’adresse distante, le port distant, le type de socket et le protocole utilisés par un Socket. L’option de socket d' **\_ \_ État BSP so** fonctionne avec les sockets IPv6 ou IPv4 (familles d’adresses **AF \_ inet6** et **AF \_ inet** ).
 
@@ -113,14 +113,14 @@ Si la fonction [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsocko
 
 Notez que le fichier d’en-tête *Ws2def. h* est automatiquement inclus dans *Winsock2. h* et ne doit jamais être utilisé directement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Ws2def. h (inclure Winsock2. h)</dt> </dl> |
 
 

@@ -1,19 +1,19 @@
 ---
-title: Fonctionnement de la liaison asynchrone et du stockage
+title: fonctionnement de la liaison asynchrone et du Stockage
 description: Le stockage asynchrone améliore la spécification de stockage structuré COM afin de prendre en charge le téléchargement d’objets de stockage sur des réseaux à latence élevée et de liaison lente tels qu’Internet.
 ms.assetid: 891152c3-5abd-45e4-a7bb-0aac23262b03
 keywords:
-- Fonctionnement de la liaison asynchrone et du stockage
+- fonctionnement de la liaison asynchrone et du Stockage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 626e8c7a55b667e158de42b3c88a17315b5e41ad
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 176ff85044210a94cecf2649fa7475eae2b291def43b0876d2ecbc9c98b0866e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961899"
 ---
-# <a name="how-asynchronous-binding-and-storage-work"></a>Fonctionnement de la liaison asynchrone et du stockage
+# <a name="how-asynchronous-binding-and-storage-work"></a>fonctionnement de la liaison asynchrone et du Stockage
 
 Le stockage asynchrone améliore la spécification de stockage structuré COM afin de prendre en charge le téléchargement d’objets de stockage sur des réseaux à latence élevée et de liaison lente tels qu’Internet. Le stockage asynchrone fonctionne avec les monikers asynchrones pour fournir un comportement de liaison asynchrone complet.
 
@@ -39,6 +39,6 @@ Lorsqu’un utilisateur clique sur un lien représentant un document incorporé 
 6.  Que le téléchargement soit synchrone ou asynchrone, le moniker retourne de [**IMoniker :: BindToObject**](/windows/win32/api/objidl/nf-objidl-imoniker-bindtoobject), et le navigateur reçoit l’objet initialisé qu’il a demandé.
 7.  Le navigateur interroge [**IOleObject**](/windows/win32/api/oleidl/nn-oleidl-ioleobject) et héberge l’objet sous la forme d’un objet document. (À ce stade, l’objet ne peut pas être initialisé complètement, mais suffisant pour afficher un résultat utile, auquel cas le téléchargement se poursuit en arrière-plan.)
 
- 
+ 
 
- 
+ 

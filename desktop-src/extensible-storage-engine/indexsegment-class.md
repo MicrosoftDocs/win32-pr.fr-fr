@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 01e8a306c2c74330903c898408e9b03e2d1024d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca422ec049bc545562e6de1151a17bbe626c9fa80f012cf5fcc870308a4434a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118077243"
 ---
 # <a name="indexsegment-class"></a>IndexSegment, classe
 

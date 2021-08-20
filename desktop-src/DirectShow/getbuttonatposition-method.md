@@ -4,17 +4,17 @@ ms.assetid: ac933d0d-db2e-488f-b661-2fdc9f5acb39
 title: Méthode GetButtonAtPosition
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9347929946a6f26cac4652a5357bd6454c80446c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f7ad30e3cc9bb9b3f93d731c19f4418d8e567a0cb80e63832dfe27b8c4553921
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118000271"
 ---
 # <a name="getbuttonatposition-method"></a>Méthode GetButtonAtPosition
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -46,7 +46,7 @@ Spécifie la coordonnée y du pointeur de la souris sous la forme d’un entier.
 
 Retourne une valeur entière qui spécifie le bouton, le cas échéant, à la position spécifiée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne zéro si aucun bouton n’est présent aux coordonnées spécifiées. Utilisez cette méthode lors de l’implémentation de la gestion de souris personnalisée après avoir défini [**DisableAutoMouseProcessing**](disableautomouseprocessing-property.md) sur **true**.
 

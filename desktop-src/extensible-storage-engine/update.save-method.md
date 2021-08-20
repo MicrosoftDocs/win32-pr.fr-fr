@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: fbb960ad5be6e7774a52fed9dd75a4ff6c420197
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 6e5c888c6bd51d3ef581834c8f346979c365ef2f9413c8f5595a0200a0d30bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106532025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890131"
 ---
 # <a name="updatesave-method-overload-list"></a>Update. Save, liste de surcharge de méthode
 

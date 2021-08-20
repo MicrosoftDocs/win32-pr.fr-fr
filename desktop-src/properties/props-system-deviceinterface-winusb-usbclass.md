@@ -4,12 +4,12 @@ ms.assetid: ef1781eb-25eb-44cd-935a-dcd1441425bd
 title: System. DeviceInterface. WinUsb. UsbClass
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c9daebf019aa69e1e67e2beccdd5eebecd81576
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65cd0e62ef40082fd706e4d2cfeb16d7c8dbe7a5ee800486dc3643aafbc41026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054818"
 ---
 # <a name="systemdeviceinterfacewinusbusbclass"></a>System. DeviceInterface. WinUsb. UsbClass
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Byte
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Énumération de WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d94f4a1fcff06423bad9d2bf5570ec1b9705fdef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 417e5ea2ae1a1216c567a1ddf257c34796b4344a807d323ad4ad7165f1707098
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117924695"
 ---
 # <a name="enumerating-wmi"></a>Énumération de WMI
 
@@ -64,7 +64,7 @@ foreach ($Drive in $objCol)
 
 ## <a name="enumerating-wmi-using-c-microsoftmanagementinfrastructure"></a>Énumération de WMI à l’aide de C# (Microsoft. Management. infrastructure)
 
-1.  Ajoutez une référence à l’assembly de référence **Microsoft. Management. infrastructure** . (Cet assembly est fourni avec le [Kit de développement logiciel (SDK) Windows pour Windows 8](https://msdn.microsoft.com/library/windows/desktop/hh852363.aspx).)
+1.  Ajoutez une référence à l’assembly de référence **Microsoft. Management. infrastructure** . (cet assembly est fourni avec le [kit de développement logiciel (SDK) Windows pour Windows 8](https://msdn.microsoft.com/library/windows/desktop/hh852363.aspx).)
 2.  Ajoutez une instruction **using** pour l’espace de noms **Microsoft. Management. infrastructure** .
 
 ```CSharp
@@ -81,7 +81,7 @@ foreach ($Drive in $objCol)
 
     
 
-4.  Appelez la méthode [**CimSession. QueryInstances**](https://www.bing.com/search?q=**CimSession.QueryInstances**) en passant l’espace de noms CIM souhaité et WQL à utiliser. L’extrait de code suivant retourne deux instances représentant deux processus Windows standard où la propriété handle (représentant un ID de processus, ou PID) a la valeur 0 ou 4.
+4.  Appelez la méthode [**CimSession. QueryInstances**](https://www.bing.com/search?q=**CimSession.QueryInstances**) en passant l’espace de noms CIM souhaité et WQL à utiliser. l’extrait de code suivant retourne deux instances représentant deux processus de Windows standard où la propriété de handle (représentant un ID de processus, ou PID) a la valeur 0 ou 4.
 
 ```CSharp
     IEnumerable<CimInstance> queryInstances =     

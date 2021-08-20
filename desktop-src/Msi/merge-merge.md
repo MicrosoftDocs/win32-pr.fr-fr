@@ -14,18 +14,18 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: f33a0ba8218ae38d8fb31cefb6910f5b2c16484d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43644f8ef19b81331f9f2d88d4dac03d654379d51174a50e994d3642cb86eabc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117804729"
 ---
 # <a name="mergemerge-method"></a>Merge. Merge, méthode
 
 La méthode **Merge** de l’objet [**Merge**](merge-object.md) exécute une fusion de la base de données active et du module actuel. La fusion attache les composants du module à la fonctionnalité identifiée par la *fonctionnalité*. La racine de l’arborescence de répertoires du module est redirigée vers l’emplacement donné par *RedirectDir*.
 
-La méthode **Merge** ne peut être appelée qu’une seule fois pour fusionner une combinaison particulière de fichiers. msi et. msm.
+La méthode **Merge** ne peut être appelée qu’une seule fois pour fusionner une combinaison particulière de fichiers .msi et. msm.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -61,11 +61,11 @@ Clé d’une entrée dans la [table des répertoires](directory-table.md) de la 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois la fusion terminée, les composants du module sont attachés à la fonctionnalité identifiée par la *fonctionnalité*. Cette fonctionnalité n’est pas créée et doit être une fonctionnalité existante. Notez que la méthode **Merge** obtient toutes les références de fonctionnalités dans le module et remplace la référence de fonctionnalité pour toutes les occurrences du GUID null dans la base de données du module. Pour plus d’informations, consultez [référencement des fonctionnalités dans les modules de fusion](referencing-features-in-merge-modules.md).
 
-Le module peut être attaché à des fonctionnalités supplémentaires à l’aide de la méthode [**Connect**](merge-connect.md) . Notez que l’appel de la méthode **Connect** crée uniquement des associations composant-composant. Elle ne modifie pas les lignes qui ont déjà été fusionnées dans la base de données.
+le module peut être attaché à des fonctionnalités supplémentaires à l’aide de la méthode [**Connecter**](merge-connect.md) . notez que l’appel de la méthode **Connecter** crée uniquement des associations fonctionnalité-composant. Elle ne modifie pas les lignes qui ont déjà été fusionnées dans la base de données.
 
 Les modifications apportées à la base de données sont enregistrées si et seulement si la méthode [**FermerBase**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-closedatabase) est appelée avec *BCommit* défini sur **true**.
 

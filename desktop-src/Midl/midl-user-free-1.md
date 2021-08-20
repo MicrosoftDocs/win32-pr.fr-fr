@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53819035f700a948c9ca45c565310d7796516147
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 686850418079b86b4bd083a4ea8c25ce6a0dd876f6f613647e389e3670d699f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991165"
 ---
 # <a name="midl_user_free-attribute"></a>\_ \_ attribut gratuit de l’utilisateur MIDL
 
@@ -38,7 +38,7 @@ Pointeur vers le bloc de mémoire à libérer.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application cliente et l’application serveur doivent implémenter la fonction **\_ \_ gratuite utilisateur MIDL** , sauf si vous compilez en mode de compatibilité OSF ([**/OSF**](-osf.md)). La **fonction \_ \_ gratuite de l’utilisateur MIDL** doit pouvoir libérer tout le stockage alloué par l’allocation de l' [**\_ utilisateur \_ MIDL**](/windows/desktop/Rpc/the-midl-user-allocate-function).
 
@@ -74,7 +74,7 @@ void __RPC_API midl_user_free(void __RPC_FAR * p)
 [Attributs de tableau et de Sized-Pointer](array-and-sized-pointer-attributes.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [**allouer un \_ utilisateur MIDL \_**](/windows/desktop/Rpc/the-midl-user-allocate-function)
@@ -89,6 +89,6 @@ void __RPC_API midl_user_free(void __RPC_FAR * p)
 [**unique**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

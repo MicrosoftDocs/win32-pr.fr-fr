@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101239
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5bf6ebde319461edd3bbc6e8fe9d6a63ccd3f9d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e8f9943747ec665ac72d457ef0386753a9d17571480666f7644eb56ca2c1059
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104554577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117713860"
 ---
 # <a name="esentcolumninrelationshipexception-methods"></a>Méthodes EsentColumnInRelationshipException
 

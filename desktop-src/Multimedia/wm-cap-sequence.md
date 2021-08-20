@@ -3,7 +3,7 @@ title: Message WM_CAP_SEQUENCE (VFW. h)
 description: Le message de séquence de l' \_ embout WM \_ initie la diffusion vidéo et la capture audio dans un fichier. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capCaptureSequence.
 ms.assetid: 33d53abc-e37e-48c6-bfc8-9cd02fde5cb6
 keywords:
-- Message WM_CAP_SEQUENCE Windows Multimedia
+- message WM_CAP_SEQUENCE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ef945510d0d71f1aa0e0cb5827288a613f5991
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 023fd22d79fdfcd1df1f44b2862814ed809fd93c43ab9cd7122414ee1e27db39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800264"
 ---
 # <a name="wm_cap_sequence-message"></a>Message de séquence de l' \_ embout WM \_
 
@@ -40,7 +40,7 @@ Retourne la **valeur true** en cas de réussite ou **false** dans le cas contrai
 
 Si une erreur se produit et qu’une fonction de rappel d’erreur est définie à l’aide du message d' [**\_ erreur WM Cap \_ Set \_ callback \_**](wm-cap-set-callback-error.md) , la fonction de rappel d’erreur est appelée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous souhaitez modifier les paramètres de contrôle de la capture en continu, utilisez le message [**\_ \_ \_ \_ d’installation de la séquence WM Cap Set**](wm-cap-set-sequence-setup.md) avant de démarrer la capture.
 

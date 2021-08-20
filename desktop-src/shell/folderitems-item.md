@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ed670ed4af3882e38faf2699429c3d1c076f3056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e246a1ada6cdf9935ae2ce9f8ca2a0ae25ced8ea08db8e98fef59a8fbc66ef40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117679473"
 ---
 # <a name="folderitemsitem-method"></a>FolderItems. Item, méthode
 
@@ -54,9 +54,9 @@ Référence d’objet à l’objet [**FolderItem**](folderitem.md) .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **Item** pour récupérer l’objet [**FolderItem**](folderitem.md) représentant le fichier Notepad.exe figurant dans le dossier Windows. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+l’exemple suivant utilise **Item** pour récupérer l’objet [**FolderItem**](folderitem.md) représentant le fichier Notepad.exe figurant dans le dossier Windows. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -160,13 +160,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

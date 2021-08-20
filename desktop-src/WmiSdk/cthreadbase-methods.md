@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CThreadBase
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0b617b8779a5d1db1fbc63a156b4d454dbece50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53c8cb020fbca8eb00abf1151bb2e215404a477430bf9b454cb183524e472556
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925457"
 ---
 # <a name="cthreadbase-methods"></a>Méthodes CThreadBase
 

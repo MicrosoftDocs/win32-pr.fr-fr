@@ -3,7 +3,7 @@ title: fenêtre (commande)
 description: La commande de fenêtre contrôle la fenêtre d’affichage.
 ms.assetid: 613dfedb-5ca8-45da-a4ba-ce465b933451
 keywords:
-- commande fenêtre multimédia Windows
+- commande windows Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21dde3304fa1445b0eaac68950cdfb91f48e5986
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5c65fe13309d30a3aff94e6e78dc0ab1fbcfec26aa1634e8dae72130370cc8e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800703"
 ---
 # <a name="window-command"></a>fenêtre (commande)
 
@@ -107,7 +107,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les périphériques de superposition vidéo créent et affichent généralement une fenêtre lorsqu’ils sont ouverts. Si votre application fournit une fenêtre au pilote, votre application est responsable de la gestion des messages envoyés à la fenêtre.
 
@@ -121,7 +121,7 @@ La commande suivante affiche et définit la légende de la fenêtre de lecture d
 window movie text "Welcome to the Movies" state show
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

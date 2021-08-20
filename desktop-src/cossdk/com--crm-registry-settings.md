@@ -1,17 +1,17 @@
 ---
 description: Plusieurs paramètres du Registre sont disponibles pour modifier le comportement de CRM afin de faciliter le dépannage et le développement.
 ms.assetid: c4e68451-fb8a-45b5-9968-7d5a6418dfe8
-title: Paramètres du Registre CRM CRM
+title: Paramètres du registre CRM COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac0ea4ec245ab55b73c79660973824fcf33c6c2b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: de11dab5d84df3bd4df1f18d69946405c2bd32f1f9849b45b0a8d0cd62f5a6f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117917439"
 ---
-# <a name="com-crm-registry-settings"></a>Paramètres du Registre CRM CRM
+# <a name="com-crm-registry-settings"></a>Paramètres du registre CRM COM+
 
 Plusieurs paramètres du Registre sont disponibles pour modifier le comportement de CRM afin de faciliter le dépannage et le développement. Tous ces paramètres de Registre, répertoriés et décrits dans le tableau suivant, sont facultatifs. aucun n’est requis pour le fonctionnement normal du CRM.
 

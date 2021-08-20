@@ -1,19 +1,19 @@
 ---
-description: Ce guide identifie une application lente en tant qu’application Microsoft Windows avec des performances altérées.
+description: ce guide identifie une application lente en tant qu’application Microsoft Windows avec des performances altérées.
 ms.assetid: cacf55d8-ab64-47a4-a55b-59a3c4e3877b
 title: Reconnaître les applications lentes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07be9484a3b08951b8b64989757459531ff72906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 775239b76cfd287a446596f9a4a0eda6298caab35c31f70fade378ec0d44d586
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118111813"
 ---
 # <a name="recognizing-slow-applications"></a>Reconnaître les applications lentes
 
-Ce guide identifie une application *lente* en tant qu’application Microsoft Windows avec des performances altérées. Une application lente présente un ou plusieurs des symptômes suivants :
+ce guide identifie une application *lente* en tant qu’application Microsoft Windows avec des performances altérées. Une application lente présente un ou plusieurs des symptômes suivants :
 
 -   L’utilisation du processeur et du réseau est faible.
 
@@ -40,7 +40,7 @@ Chaque application doit être testée dans un environnement avec un temps RTT im
 [Comportement de l’application](application-behavior-2.md)
 </dt> <dt>
 
-[Applications Windows Sockets hautes performances](high-performance-windows-sockets-applications-2.md)
+[Applications de sockets Windows hautes performances](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [L’algorithme Nagle](https://msdn.microsoft.com/library/ms817942.aspx)

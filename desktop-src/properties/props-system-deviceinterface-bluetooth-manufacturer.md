@@ -1,19 +1,19 @@
 ---
-description: Fabricant du périphérique Bluetooth.
+description: Bluetooth fabricant de l’appareil.
 ms.assetid: bf2dbd9c-e372-423e-8fe5-2ebefe3c541d
-title: System. DeviceInterface. Bluetooth. Manufacturer
+title: System. DeviceInterface. Bluetooth. Fécule
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1de112885b9f2f07c85d64461c2a0bc0c2afbe38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a4519ddaf38644236cea9262951b9a5a994868d34c67d7900ee71f339acdf70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117684203"
 ---
-# <a name="systemdeviceinterfacebluetoothmanufacturer"></a>System. DeviceInterface. Bluetooth. Manufacturer
+# <a name="systemdeviceinterfacebluetoothmanufacturer"></a>System. DeviceInterface. Bluetooth. Fécule
 
-Fabricant du périphérique Bluetooth.
+Bluetooth fabricant de l’appareil.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

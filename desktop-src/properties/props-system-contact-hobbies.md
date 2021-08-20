@@ -4,12 +4,12 @@ ms.assetid: 5af7cb4c-d79e-4a07-be9c-c4742f15443e
 title: System. contact. hobbies
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bba5d7e819250117405d367f6073dfdd892f16ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 456a0ec53ab1316f2870d76cee040f52e49ca335668c36b7373504d72d489445
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055358"
 ---
 # <a name="systemcontacthobbies"></a>System. contact. hobbies
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ ms.assetid: cef6d76f-664a-4808-a224-e82a5adb2d70
 title: editControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 966f9742082fd6b5f939941a956eaae1ac4e427a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bdb47a3866c156ff10dba8eed4584f814793b863e8f615ae5e1a10b8d687ed4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118055989"
 ---
 # <a name="editcontrol"></a>editControl
 
@@ -77,7 +77,7 @@ Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété i
 <tbody>
 <tr class="odd">
 <td>contrôle</td>
-<td>Public. Optionnel. La valeur par défaut est &quot; default &quot; . Les valeurs valides sont les suivantes. 
+<td>Public. Facultatif. La valeur par défaut est &quot; default &quot; . Les valeurs valides sont les suivantes. 
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -91,7 +91,7 @@ Si <typeInfo isInnate="true"> , cet élément est ignoré, car une propriété i
 </thead>
 <tbody>
 <tr class="odd">
-<td>Default</td>
+<td>Par défaut</td>
 <td>Par défaut. Utilise le contrôle par défaut basé sur l' <typeInfo type=&quot;&quot;> attribut. Les types par défaut sont répertoriés ci-dessous. Tout autre type entraîne l’utilisation du &quot; contrôle de texte &quot; . 
 <table>
 <thead>

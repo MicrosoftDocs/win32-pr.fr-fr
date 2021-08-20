@@ -4,12 +4,12 @@ ms.assetid: cb7b50fc-6591-48a9-b3a7-327de9a6dc06
 title: Windows System Information
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f7144d5be7f6ba33dc1743e57935f9bf3bbdadd
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: c5e4613ce87917dfcca61deb52bb70e577cea02e2ac2eafebf75fe1b0f0048a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117957471"
 ---
 # <a name="windows-system-information"></a>Windows System Information
 

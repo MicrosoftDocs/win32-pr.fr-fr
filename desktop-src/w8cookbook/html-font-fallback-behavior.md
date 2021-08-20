@@ -4,24 +4,24 @@ description: Comportement de substitution de la police HTML
 ms.assetid: 5BDFBD58-0B34-4A58-BFAF-B8BB1DD569DB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fc7da95c46190fd348dda72edc8283ee6438b00
-ms.sourcegitcommit: 80bac5863880f1bd4c1c3e06db27c5d8fb5232b4
+ms.openlocfilehash: 1eabc2c009657adc9b77775c550244c4bbe6a5a3b8b262c8ce915cab4f9e5756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106527560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117672047"
 ---
 # <a name="html-font-fallback-behavior"></a>Comportement de substitution de la police HTML
 
 ## <a name="platform"></a>Plateforme
 
 Clients-* * Windows 8.1  
-**Serveurs-** Windows Server 2012 R2  
+**serveurs-** Windows Server 2012 R2  
 
 
 ## <a name="description"></a>Description
 
-Microsoft met à jour la logique des polices de l’interface utilisateur pour plusieurs langues dans les applications du Windows Store en HTML. Au lieu d’utiliser une police unique pour toutes les langues, la police de l’interface utilisateur est maintenant déterminée en fonction de la langue. Par exemple, les polices de l’interface utilisateur pour le japonais seront désormais Meiryo l’interface utilisateur dans les applications qui utilisent HTML.
+Microsoft met à jour la logique des polices de l’interface utilisateur pour plusieurs langues dans Windows les applications du windows Store en HTML. Au lieu d’utiliser une police unique pour toutes les langues, la police de l’interface utilisateur est maintenant déterminée en fonction de la langue. Par exemple, les polices de l’interface utilisateur pour le japonais seront désormais Meiryo l’interface utilisateur dans les applications qui utilisent HTML.
 
 ## <a name="manifestation"></a>Manifestation
 
@@ -92,11 +92,11 @@ Les applications affectées peuvent atténuer ce comportement en spécifiant une
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

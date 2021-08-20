@@ -4,12 +4,12 @@ ms.assetid: 05808281-84fb-402d-9fa1-3a747b29d030
 title: Comment créer des gestionnaires de raccordement de copie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1468839eacc10272f8f97a120b98ada6d580bacf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19a20831103d26233f76f64f32d07bf50977a746669fff7e5562da159e14027d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117679088"
 ---
 # <a name="how-to-create-copy-hook-handlers"></a>Comment créer des gestionnaires de raccordement de copie
 
@@ -64,7 +64,7 @@ HKEY_CLASSES_ROOT
 
 Les gestionnaires de raccordement de copie pour les objets d’imprimante sont enregistrés de la même façon. La seule différence réside dans le fait que vous devez les inscrire sous la sous-clé des imprimantes **\_ \_ racines de la classe HKEY** \\  .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Normalement, les utilisateurs et les applications peuvent copier, déplacer, supprimer ou renommer des dossiers avec peu de restrictions. En implémentant un gestionnaire de raccordement de copie, vous pouvez contrôler si ces opérations ont lieu. Par exemple, l’implémentation de ce type de gestionnaire vous permet d’empêcher le renommage ou la suppression de dossiers critiques. Les gestionnaires de raccordement de copie peuvent également être implémentés pour les objets d’imprimante.
 

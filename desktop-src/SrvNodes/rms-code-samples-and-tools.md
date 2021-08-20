@@ -4,12 +4,12 @@ ms.assetid: 3e55d32b-c036-4729-8b8f-d348d8b7cac4
 title: Scénarios, code et outils RMS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07966769f72b48aa280223bdd061fabfbb509d62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ca99644c9ef6d0d9b4ed0811b46f9efbd5af463eb9960881f3729212087238e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117963006"
 ---
 # <a name="rms-scenarios-code-and-tools"></a>Scénarios, code et outils RMS
 

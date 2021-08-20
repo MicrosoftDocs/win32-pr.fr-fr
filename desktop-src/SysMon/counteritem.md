@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df999e327591309f015d8720f61643625eced4d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a52c9faa6d5ce6acd99921908b178d5a128c18bbdfb69665e929977293ec8fca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117956796"
 ---
 # <a name="counteritem-object"></a>Objet CounterItem
 
@@ -61,7 +61,7 @@ L’objet **CounterItem** a ces propriétés.
 |:----------------------------------------------------------|:--------------------------------------------------------------------------------|
 | [**Couleur**](counteritem-color.md)<br/>             | Récupère ou définit la couleur utilisée pour représenter sous forme de graphique la valeur de compteur.<br/>         |
 | [**LineStyle**](counteritem-linestyle.md)<br/>     | Récupère ou définit le style de ligne utilisé pour représenter sous forme de graphique la valeur de compteur.<br/>    |
-| [**D**](counteritem-path.md)<br/>               | Récupère le chemin d’accès du compteur.<br/>                                   |
+| [**Chemin**](counteritem-path.md)<br/>               | Récupère le chemin d’accès du compteur.<br/>                                   |
 | [**ScaleFactor**](counteritem-scalefactor.md)<br/> | Récupère ou définit le facteur d’échelle utilisé pour représenter sous forme de graphique la valeur de compteur.<br/>  |
 | [**Sélectionné**](counteritem-selected.md)<br/>       | Récupère ou définit une valeur qui indique si le compteur est sélectionné.<br/> |
 | [**Valeur**](counteritem-value.md)<br/>             | Récupère la valeur actuelle du compteur.<br/>                          |
@@ -72,11 +72,11 @@ L’objet **CounterItem** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La [**valeur**](counteritem-value.md) est la propriété par défaut de **CounterItem**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

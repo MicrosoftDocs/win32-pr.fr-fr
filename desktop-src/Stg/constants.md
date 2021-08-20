@@ -1,23 +1,23 @@
 ---
-title: Constantes (stockage structuré)
-description: Dans le stockage structuré, les constantes sont une séquence de valeurs nommées. Les constantes permettent de décrire les objets en langage naturel.
+title: constantes (Stockage structurées)
+description: dans les Stockage structurées, les constantes sont une séquence de valeurs nommées. Les constantes permettent de décrire les objets en langage naturel.
 ms.assetid: 0bcb04c6-cfa4-4df1-81b5-278e53f19590
 keywords:
-- Stockage structuré Strctd STG, référence, constantes
+- structured Stockage Strctd Stg, reference, constantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38b62fd22fd002416e992df5bab5589ea413b336
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1acf282bcc93278bb14c295fc9c62334325e6ee0448c00f601a0defb10bcaa52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117962365"
 ---
-# <a name="constants-structured-storage"></a>Constantes (stockage structuré)
+# <a name="constants-structured-storage"></a>constantes (Stockage structurées)
 
-Dans le stockage structuré, les constantes sont une séquence de valeurs nommées. Les constantes permettent de décrire les objets en langage naturel.
+dans les Stockage structurées, les constantes sont une séquence de valeurs nommées. Les constantes permettent de décrire les objets en langage naturel.
 
-Les constantes de stockage structuré sont décrites dans les sections suivantes :
+les constantes de Stockage structurées sont décrites dans les sections suivantes :
 
 -   [Constantes PROPSETFLAG](propsetflag-constants.md)
 -   [Constantes STGM](stgm-constants.md)

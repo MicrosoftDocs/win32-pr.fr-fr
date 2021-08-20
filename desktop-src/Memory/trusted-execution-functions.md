@@ -4,12 +4,12 @@ ms.assetid: DF6CDEE1-CAAA-429C-9939-DDC844302027
 title: Fonctions d’exécution approuvées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4b1bd2411d0448346f0a8afcca870c26b4a61ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0672ec1ddfe93e5145e715173ae17fbdef55dc47efe4332ba65d7f87e0d80f11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117992552"
 ---
 # <a name="trusted-execution-functions"></a>Fonctions d’exécution approuvées
 

@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_GETTIME (VFW. h)
-description: Le \_ message ICM Draw \_ GETTIME demande un pilote de rendu qui contrôle le minutage des frames de dessin pour retourner la valeur actuelle de son horloge interne. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawGetTime.
+description: le ICM \_ dessiner le \_ message GETTIME demande un pilote de rendu qui contrôle le minutage des frames de dessin pour retourner la valeur actuelle de son horloge interne. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawGetTime.
 ms.assetid: 77f0a322-c0bc-4cfe-a3d0-7633cf8d682a
 keywords:
-- Message ICM_DRAW_GETTIME Windows Multimedia
+- message ICM_DRAW_GETTIME Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f756a76408d01cb72ee1762f14bb8a5eab19e475
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ecf151b0c22b4de96421b4c11239ce147a21b6d60808b1d84506f3bad699954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987369"
 ---
-# <a name="icm_draw_gettime-message"></a>\_Message de \_ cogettime de dessin ICM
+# <a name="icm_draw_gettime-message"></a>ICM \_ DESSINER le \_ message GETTIME
 
-Le message **ICM \_ Draw \_ GETTIME** demande un pilote de rendu qui contrôle le minutage des frames de dessin pour retourner la valeur actuelle de son horloge interne. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawGetTime**](/windows/desktop/api/Vfw/nf-vfw-icdrawgettime) .
+le **ICM \_ dessiner \_** le message GETTIME demande un pilote de rendu qui contrôle le minutage des frames de dessin pour retourner la valeur actuelle de son horloge interne. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawGetTime**](/windows/desktop/api/Vfw/nf-vfw-icdrawgettime) .
 
 
 ```C++
@@ -49,11 +49,11 @@ Adresse qui doit contenir l’heure actuelle. La valeur de retour doit être sp�
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est généralement pris en charge par le matériel qui effectue sa propre décompression, son minutage et son dessin asynchrones. Le message peut également être envoyé si le matériel est utilisé en tant que maître de synchronisation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

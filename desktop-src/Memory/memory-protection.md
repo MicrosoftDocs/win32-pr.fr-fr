@@ -4,16 +4,16 @@ ms.assetid: 70ded07a-7be6-4189-a1ae-281917f42a1e
 title: Protection de la mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd30df8084c91a62c28414f4a8142397ee777e52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4421b07ee4ed88dffe0e46d1121d5d4117b471a84ffcf4f85738bd8be912f09c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117809066"
 ---
 # <a name="memory-protection"></a>Protection de la mémoire
 
-La mémoire qui appartient à un processus est implicitement protégée par son espace d’adressage virtuel privé. En outre, Windows fournit une protection de la mémoire à l’aide du matériel de mémoire virtuelle. L’implémentation de cette protection varie en fonction du processeur, par exemple, les pages de codes de l’espace d’adressage d’un processus peuvent être marquées en lecture seule et protégées contre les modifications des threads en mode utilisateur.
+La mémoire qui appartient à un processus est implicitement protégée par son espace d’adressage virtuel privé. en outre, Windows fournit une protection de la mémoire à l’aide du matériel de mémoire virtuelle. L’implémentation de cette protection varie en fonction du processeur, par exemple, les pages de codes de l’espace d’adressage d’un processus peuvent être marquées en lecture seule et protégées contre les modifications des threads en mode utilisateur.
 
 Pour obtenir la liste complète des attributs, consultez [constantes de protection](memory-protection-constants.md)de la mémoire.
 
@@ -31,7 +31,7 @@ Si le processus 1 écrit dans l’une de ces pages, le contenu de la page physiq
 
 ## <a name="loading-applications-and-dlls"></a>Chargement d’applications et de dll
 
-Lorsque plusieurs instances de la même application Windows sont chargées, chaque instance est exécutée dans son propre espace d’adressage virtuel protégé. Toutefois, leurs handles d’instance (*HINSTANCE*) ont généralement la même valeur. Cette valeur représente l’adresse de base de l’application dans son espace d’adressage virtuel. Si chaque instance peut être chargée dans son adresse de base par défaut, elle peut mapper et partager les mêmes pages physiques avec les autres instances, à l’aide de la protection de copie sur écriture. Le système permet à ces instances de partager les mêmes pages physiques jusqu’à ce que l’une d’elles modifie une page. Si, pour une raison quelconque, une de ces instances ne peut pas être chargée dans l’adresse de base souhaitée, elle reçoit ses propres pages physiques.
+lorsque plusieurs instances de la même application Windows sont chargées, chaque instance est exécutée dans son propre espace d’adressage virtuel protégé. Toutefois, leurs handles d’instance (*HINSTANCE*) ont généralement la même valeur. Cette valeur représente l’adresse de base de l’application dans son espace d’adressage virtuel. Si chaque instance peut être chargée dans son adresse de base par défaut, elle peut mapper et partager les mêmes pages physiques avec les autres instances, à l’aide de la protection de copie sur écriture. Le système permet à ces instances de partager les mêmes pages physiques jusqu’à ce que l’une d’elles modifie une page. Si, pour une raison quelconque, une de ces instances ne peut pas être chargée dans l’adresse de base souhaitée, elle reçoit ses propres pages physiques.
 
 Les dll sont créées avec une adresse de base par défaut. Chaque processus qui utilise une DLL essaiera de charger la DLL dans son propre espace d’adressage à l’adresse virtuelle par défaut de la DLL. Si plusieurs applications peuvent charger une DLL à son adresse virtuelle par défaut, elles peuvent partager les mêmes pages physiques pour la DLL. Si, pour une raison quelconque, un processus ne peut pas charger la DLL à l’adresse par défaut, il charge la DLL ailleurs. La protection de copie sur écriture force certaines des pages de la DLL à être copiées dans différentes pages physiques pour ce processus, car les correctifs pour les instructions de saut sont écrits dans les pages de la DLL et sont différents pour ce processus. Si la section de code contient de nombreuses références à la section de données, cela peut entraîner la copie de la section de code entière sur les nouvelles pages physiques.
 

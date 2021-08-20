@@ -4,12 +4,12 @@ description: Vous pouvez utiliser les outils suivants pour tester les implément
 ms.assetid: 3599617b-c26d-4b4a-9990-811a808815af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 061b139c2d137cc1ecf914dd525b28ec37704136
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 245a4bbe383644d0a23677fd49afb5056cdee2890d6d5c7285efa83439406c3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104381375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117928983"
 ---
 # <a name="tools"></a>Outils
 
@@ -24,11 +24,11 @@ Vous pouvez utiliser les outils suivants pour tester les implémentations de Mic
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

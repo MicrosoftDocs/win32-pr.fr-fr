@@ -4,16 +4,16 @@ ms.assetid: 5b22e8ba-9a18-461b-bad7-b2d76f83d7f3
 title: Message d’SPFILENOTIFY_QUEUESCAN_SIGNERINFO (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e29bf9e9c7e0ab76303d8c2fb21a0109ec60358f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c33e448178629dd9c4528fbc0257a7ceed79b7bf7dc6e6c2d70e631e2c3bd1cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117964413"
 ---
 # <a name="spfilenotify_queuescan_signerinfo-message"></a>\_Message SPFILENOTIFY QUEUESCAN \_ signataires
 
-La notification **SPFILENOTIFY \_ QUEUESCAN \_ signataires** est envoyée à une routine de rappel par [**SetupScanFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupscanfilequeuea) pour chaque nœud dans la sous-file d’attente de copie de la file d’attente de fichiers. Cela se produit uniquement si la fonction **SetupScanFileQueue** a été appelée en spécifiant le rappel d’utilisation de l’indicateur SPQ \_ Scan \_ \_ \_ signataires. Disponible à partir de Windows XP.
+La notification **SPFILENOTIFY \_ QUEUESCAN \_ signataires** est envoyée à une routine de rappel par [**SetupScanFileQueue**](/windows/desktop/api/Setupapi/nf-setupapi-setupscanfilequeuea) pour chaque nœud dans la sous-file d’attente de copie de la file d’attente de fichiers. Cela se produit uniquement si la fonction **SetupScanFileQueue** a été appelée en spécifiant le rappel d’utilisation de l’indicateur SPQ \_ Scan \_ \_ \_ signataires. disponible à partir de Windows XP.
 
 
 ```C++
@@ -46,14 +46,14 @@ Si la routine de rappel ne retourne aucune \_ erreur, l’analyse de la file d�
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -62,7 +62,7 @@ Si la routine de rappel ne retourne aucune \_ erreur, l’analyse de la file d�
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

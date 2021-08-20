@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh565530(v=EXCHG.10)
 ms:contentKeyID: 39514215
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5a4253b9f52b5ce95c079ec43e5b6f1b4f528882
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d185547bc19ba12a6db9be73db235662e176c020e16c7cf3f389cf729a037682
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104567771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118074475"
 ---
 # <a name="jet_logtime-operators"></a>Opérateurs JET_LOGTIME
 
@@ -27,7 +27,7 @@ Le type de [JET_LOGTIME](./jet-logtime-structure2.md) expose les membres suivant
 <thead>
 <tr class="header">
 <th> </th>
-<th>Nom</th>
+<th>Name</th>
 <th>Description</th>
 </tr>
 </thead>

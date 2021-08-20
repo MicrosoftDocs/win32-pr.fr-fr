@@ -8,12 +8,12 @@ keywords:
 - interfaces MIDL, bibliothèques de types
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4f0b21aad9f88f02d8029d478eead50f5501ecc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0997d2a61fef3e2bc46f4539dca2ecd67d8de385d402e5e9c862b267b697b3cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991759"
 ---
 # <a name="com-dcom-and-type-libraries"></a>COM, DCOM et les bibliothèques de types
 
@@ -44,6 +44,6 @@ Fichier de bibliothèque de types compilé (. tlb) et fichier d’en-tête assoc
 
 C/C++-fichiers du client et du serveur stub du langage et fichier d’en-tête associé pour une interface RPC. Ces fichiers sont générés lorsque des interfaces dans le fichier IDL n’ont pas l’attribut d' [**objet**](object.md) . Pour obtenir une vue d’ensemble des fichiers stub et d’en-tête, consultez [procédure de génération générale](/windows/desktop/Rpc/general-build-procedure). Pour plus d’informations, consultez [fichiers générés pour une interface RPC](files-generated-for-an-rpc-interface.md).
 
- 
+ 
 
- 
+ 

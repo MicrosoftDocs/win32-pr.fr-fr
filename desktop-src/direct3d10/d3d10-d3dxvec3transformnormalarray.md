@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: d391717056d1cd8a6957a6647612ed8b1ca65e41
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3709f44ad61be76c0e6b0002e5808c1e11060d6038f7d568100aafc04b2b7f28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914645"
 ---
 # <a name="d3dxvec3transformnormalarray-function-d3dx10mathh"></a>D3DXVec3TransformNormalArray, fonction (D3DX10Math. h)
 
@@ -98,13 +98,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers un tableau D3DXVECTOR3 qui est le tableau transformé.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette fonction transforme le vecteur (pV->x, pV->y, pV->z, 0) par la matrice vers laquelle pointe pM.
 
@@ -112,7 +112,7 @@ Si vous souhaitez transformer un normal, la matrice que vous transmettez à cett
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction **D3DXVec3TransformNormalArray** peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

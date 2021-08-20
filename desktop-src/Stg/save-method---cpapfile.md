@@ -6,12 +6,12 @@ keywords:
 - Save, méthode-CPapFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3166b649f28cb1a8ddc37e9efc53465a6cb5d3e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b465d5b275949b3cdfcea04a5023cd110a8600c59a706d2c2f1515e4225c757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960596"
 ---
 # <a name="save-method---cpapfile"></a>Save, méthode-CPapFile
 
@@ -19,7 +19,7 @@ Lorsque **CPapFile** est initialisé, il peut être utilisé pour enregistrer le
 
 ## <a name="save-method-papfilecpp"></a>Méthode Save (PAPFILE. COTISATIONS
 
-Cet exemple est la méthode **CPapFile** [**Save**](ipaper--save.md) de Papfile. cpp.
+Cet exemple est la méthode **CPapFile** [**Save**](ipaper--save.md) de Papfile. cpp.
 
 
 ```C++
@@ -83,9 +83,9 @@ L’adresse de la variable pointeur **m \_ pIStorage** est transmise à [**StgCr
 
 Dans ce cas, l’opération importante consiste à faire en sorte que l’objet du colivre stocke ses données de dessin dans le fichier. Pour ce faire, vous utilisez la méthode [**Save**](ipaper--save.md) de l’interface [**IPaper**](ipaper-methods.md) du colivre. Si l’enregistrement de ses données dans l’objet de stockage fourni par le colivre fonctionne, le nom du fichier composé est copié dans **m \_ szCurFileName** comme nouveau nom de fichier actuel.
 
- 
+ 
 
- 
+ 
 
 
 

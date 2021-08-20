@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 7359f3d5cdcfb2447b724fd6d369a1029d8fcd4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21947e2095577651412569737eaa135218519b7962fae7a1c96b6827833b37c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110311"
 ---
 # <a name="__providerregistration-class"></a>\_\_ProviderRegistration, classe
 
@@ -63,7 +63,7 @@ Référence à une instance du [**\_ \_ fournisseur**](--provider.md) représent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ ProviderRegistration** est dérivée de [**\_ \_ SystemClass**](--systemclass.md), qui n’a pas de propriétés.
 
@@ -85,7 +85,7 @@ Les instances de la classe système **\_ \_ ProviderRegistration** ne sont jamai
 
 Seuls les administrateurs peuvent inscrire ou supprimer un fournisseur en créant une instance de [**\_ \_ Win32Provider**](--win32provider.md) et en l’inscrivant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

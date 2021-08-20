@@ -3,7 +3,7 @@ title: Command. Symbol, propriété
 description: Représente le nom d’une commande qui peut être référencée en externe.
 ms.assetid: affa5f3f-f641-4bec-9165-6102509cf355
 keywords:
-- Propriété Command. Symbol, ruban Windows
+- propriété Command. Symbol Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b88dccb71a90feca7348ca9731ca5966b012c9c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb0a391b56c5d44809735d32b9d3e3dfa47dc2b9f1ce686176fa077e99bf987c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117656484"
 ---
 # <a name="commandsymbol-property"></a>Command. Symbol, propriété
 
 Représente le nom d’une [**commande**](windowsribbon-element-command.md) qui peut être référencée en externe.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Command.Symbol/>
@@ -47,9 +47,9 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**commande**](windowsribbon-element-command.md).
 
@@ -87,14 +87,14 @@ L’exemple suivant illustre le balisage pour un élément [**Command**](windows
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

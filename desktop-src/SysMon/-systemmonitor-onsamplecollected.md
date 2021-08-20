@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aab6418d19fadfcc7cb6ab66cd2078e1fba59d80
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7585d033acdbfe72fedfc1163670da247dca10c01fa2e24cd1de013e55b134cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117957191"
 ---
 # <a name="systemmonitoronsamplecollected-event"></a>Événement SystemMonitor. OnSampleCollected
 
@@ -44,7 +44,7 @@ Cet événement n’a pas de paramètres.
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

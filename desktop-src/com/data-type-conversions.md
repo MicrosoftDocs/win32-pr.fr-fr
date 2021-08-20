@@ -4,12 +4,12 @@ description: Conversions de type de données
 ms.assetid: 54688ee9-2dd7-466b-b278-13d6f9d1e6ce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8135a3fb86fda9ac9ab9666ec42991a8d04d9e6
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 89a978126cd6cb9beaf718c3d6013d86d9efa7b58c50f8d75a7cae79dc5c1543
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106509880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117919609"
 ---
 # <a name="data-type-conversions"></a>Conversions de type de données
 
@@ -51,7 +51,7 @@ Le tableau suivant répertorie les conversions entre les langages de programmati
 
 Pour plus d’informations sur les valeurs VARTYPE et leur utilisation, consultez la rubrique [types de données et structures IDispatch](/previous-versions/ms221600(v=vs.100)).
 
-Les conversions de types de données entre les langages de script sont plus simples que celles des langages de programmation. JScript et JavaScript prennent tous deux en charge les mêmes types de données, et VBScript ne prend en charge qu’un seul type de données, **Variant**. Ainsi, tous les types de données JScript et JavaScript deviennent des types **Variant** lorsqu’ils sont convertis en VBScript. Lorsque vous convertissez VBScript en JScript ou JavaScript, les types **Variant** deviennent des nombres, des chaînes, des valeurs booléennes, et ainsi de suite.
+Les conversions de types de données entre les langages de script sont plus simples que celles des langages de programmation. JScript et JavaScript prennent tous les deux en charge les mêmes types de données, et VBScript ne prend en charge qu’un seul type de données **Variant**. ainsi, tous les types de données JScript et JavaScript deviennent des types **Variant** lorsqu’ils sont convertis en VBScript. lorsque vous convertissez VBScript en JScript ou JavaScript, les types **Variant** deviennent des nombres, des chaînes, des valeurs booléennes, et ainsi de suite.
 
  
 

@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 9fbb7d56e56519576d257b077311a144e923d6bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f0aa544b9c48e437259e313d80f443da85241b9d73e8ea820cdce099e38ddda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118110851"
 ---
 # <a name="wmimonitorcolorcharacteristics-class"></a>WmiMonitorColorCharacteristics, classe
 
@@ -137,11 +137,11 @@ Coordonnées CIE pour le rouge, représentées par une instance de la classe [**
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la chromatique et du point blanc sont exprimées sous forme de nombres fractionnaires à l’aide d’un format d’encodage. Ce format est précis à l’emplacement du millième, ce qui correspond à une longueur de 10 bits. Le bit le plus significatif (MSB) représente 2 ^-1 et le bit le moins significatif (LSB) représente respectivement 2 ^-10 coefficients. La précision des valeurs stockées dans la structure E-EDID v1. x doit être précise à +/-0,005 de la valeur réelle.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

@@ -3,7 +3,7 @@ title: EFFETS. suivant
 description: La méthode suivante affiche la présélection de visualisation suivante, en passant à la visualisation suivante si nécessaire.
 ms.assetid: c03c8697-7729-41fe-b8eb-83c33ca32043
 keywords:
-- EFFETS. prochain lecteur Windows Media
+- effects. next Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3422487e3fcf3e5e4cdde6c31f7b312d506df139
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd4273372d9b51d7ffcd013c300f94e27cb8404be0a5c532c96c2744ca3b0899
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117935261"
 ---
 # <a name="effectsnext"></a>EFFETS. suivant
 
@@ -35,11 +35,11 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la présélection actuelle est la dernière de la série de toutes les visualisations disponibles, la première présélection de la première visualisation est rendue active.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

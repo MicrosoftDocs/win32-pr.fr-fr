@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 2378ae2b17102fc2bbee568b7f5baa82da554bbd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd68d064614dde3e4e20fed75841ef88f51fc2ad2ed5b43af33398ec636b5ca2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118026491"
 ---
 # <a name="wpd_command_sms_send-command"></a>Commande \_ wpd \_ SMS \_ Send, commande
 
@@ -39,8 +39,8 @@ Le pilote attend les paramètres suivants :
 | \_cible de \_ la \_ commande \_ commune de la propriété wpd | \_LPWStr VT          | Obligatoire. ID d’objet de l’objet fonctionnel SMS qui doit envoyer le message. Différents objets fonctionnels SMS peuvent avoir des paramètres différents.                                                                                     |
 | \_propriété wpd \_ \_ destinataire SMS          | \_LPWStr VT          | Obligatoire. URI du destinataire.                                                                                                                                                                                                  |
 | \_type de \_ \_ message SMS \_ de la propriété wpd      | VT \_ UI4             | Obligatoire. Énumérateur [**de \_ \_ types de messages SMS**](sms-message-types.md) qui indique le type de message (texte ou binaire).                                                                                                        |
-| \_ \_ \_ message texte SMS de la propriété wpd \_      | \_LPWStr VT          | Optionnel. Si **la \_ propriété \_ wpd \_ \_ type de message SMS** indique un message texte, il s’agit de la chaîne de message ; sinon, ce paramètre n’est pas inclus.                                                                                  |
-| \_propriété wpd \_ \_ message binaire \_ SMS    | VT \_ UI1 VT Vector \| \_ | Optionnel. Si **la \_ propriété \_ wpd \_ \_ type de message SMS** indique un message binaire, il s’agit d’un pointeur vers un tableau d’octets ; sinon, ce paramètre n’est pas inclus. Le premier DWORD de la valeur est la longueur du tableau, en octets. |
+| \_ \_ \_ message texte SMS de la propriété wpd \_      | \_LPWStr VT          | Facultatif. Si **la \_ propriété \_ wpd \_ \_ type de message SMS** indique un message texte, il s’agit de la chaîne de message ; sinon, ce paramètre n’est pas inclus.                                                                                  |
+| \_propriété wpd \_ \_ message binaire \_ SMS    | VT \_ UI1 VT Vector \| \_ | Facultatif. Si **la \_ propriété \_ wpd \_ \_ type de message SMS** indique un message binaire, il s’agit d’un pointeur vers un tableau d’octets ; sinon, ce paramètre n’est pas inclus. Le premier DWORD de la valeur est la longueur du tableau, en octets. |
 
 
 
@@ -52,10 +52,10 @@ Le pilote doit renvoyer les résultats suivants.
 
 
 
-| Résultats                                         | VarType   | Description                                                                                                                                                                                                                                                                                                                                                                            |
+| Résultat                                         | VarType   | Description                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **\_valeur courante de la propriété wpd \_ \_ HRESULT**             | \_erreur VT | Obligatoire. **HRESULT** qui indique la réussite ou l’échec de l’exécution de la commande. Si l’appelant effectue une demande non valide, le pilote doit retourner **HRESULT \_ à partir de \_ Win32 (erreur \_ non \_ prise en charge)** et n’est pas obligé de retourner d’autres valeurs de résultat. Les codes d’erreur incluent les codes d’erreur des [appareils mobiles Windows](error-constants.md) ou tout autre code d’erreur approprié. |
-| **\_code d' \_ \_ Erreur du pilote commun \_ \_ de la propriété wpd** | VT \_ UI4   | Optionnel. Code d’erreur spécifique au pilote. Cela est généralement utilisé uniquement pour le test des pilotes, ou si le pilote, le périphérique et le client sont tous conçus ensemble.                                                                                                                                                                                                                                |
+| **\_valeur courante de la propriété wpd \_ \_ HRESULT**             | \_erreur VT | Obligatoire. **HRESULT** qui indique la réussite ou l’échec de l’exécution de la commande. Si l’appelant effectue une demande non valide, le pilote doit retourner **HRESULT \_ à partir de \_ Win32 (erreur \_ non \_ prise en charge)** et n’est pas obligé de retourner d’autres valeurs de résultat. les codes d’erreur incluent Windows codes d’erreur des [appareils mobiles](error-constants.md) ou tout autre code d’erreur approprié. |
+| **\_code d' \_ \_ Erreur du pilote commun \_ \_ de la propriété wpd** | VT \_ UI4   | Facultatif. Code d’erreur spécifique au pilote. Cela est généralement utilisé uniquement pour le test des pilotes, ou si le pilote, le périphérique et le client sont tous conçus ensemble.                                                                                                                                                                                                                                |
 
 
 
@@ -65,7 +65,7 @@ Le pilote doit renvoyer les résultats suivants.
 
 Peut uniquement être appelé directement à l’aide de [**IPortableDevice :: SendCommand**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

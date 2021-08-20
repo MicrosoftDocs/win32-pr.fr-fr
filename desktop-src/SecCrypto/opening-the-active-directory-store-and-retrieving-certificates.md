@@ -4,16 +4,16 @@ ms.assetid: 5c4d1629-88f3-41f4-afb3-7791cd590e6c
 title: Ouverture du magasin de Active Directory et récupération des certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd60c7414aaec8b069817b47fbd2493bb11d98c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd2dc5810e97669e40b27bc374bee09f16c0a7c9a3b2bd4a1fa2951e1249a737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117979120"
 ---
 # <a name="opening-the-active-directory-store-and-retrieving-certificates"></a>Ouverture du magasin de Active Directory et récupération des certificats
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Les [*certificats*](../secgloss/c-gly.md) peuvent être récupérés à partir d’un magasin de Active Directory dans lequel sont stockés les certificats des utilisateurs d’un domaine. Un magasin de Active Directory peut uniquement être ouvert en mode lecture seule et les applications ne peuvent pas ajouter ou supprimer des certificats dans un magasin de Active Directory à l’aide de CAPICOM.
 

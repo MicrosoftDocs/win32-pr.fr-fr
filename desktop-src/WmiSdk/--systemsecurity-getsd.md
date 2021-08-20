@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: d471db22a9f15a38ab693ae72332e5e1893b5c55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 720443358cfce776dfe02630ea25ea994ad0ef552a9d89627b2f136e990e0194
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118109987"
 ---
 # <a name="getsd-method-of-the-__systemsecurity-class"></a>Méthode d’obtient de la \_ \_ classe SystemSecurity
 
@@ -53,7 +53,7 @@ Descripteur de sécurité au format de tableau d’octets binaire.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Cette méthode retourne un **HRESULT** indiquant l’état de l’appel de la méthode. La liste suivante répertorie les valeurs de retour dont l’importance **est déconseillée.** Pour les applications de script et de Visual Basic, le résultat peut être obtenu à partir de out- [Parameters. returnValue](parsing-outparameters-objects.md). Pour plus d’informations, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
+Cette méthode retourne un **HRESULT** indiquant l’état de l’appel de la méthode. La liste suivante répertorie les valeurs de retour dont l’importance **est déconseillée.** pour les applications de script et de Visual Basic, le résultat peut être obtenu à partir de out- [parameters. ReturnValue](parsing-outparameters-objects.md). Pour plus d’informations, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 
 <dl> <dt>
 
@@ -78,7 +78,7 @@ Tentative d’exécution de cette méthode sur un système non pris en charge.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la modification de la sécurité des espaces de noms par programmation ou manuelle, consultez [sécurisation des espaces de noms WMI](securing-wmi-namespaces.md).
 
@@ -114,7 +114,7 @@ WScript.Echo DisplaySD
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

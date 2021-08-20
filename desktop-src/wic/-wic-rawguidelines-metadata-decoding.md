@@ -4,12 +4,12 @@ ms.assetid: ff7e5e66-e1ea-49fc-909f-de361214afc3
 title: Décodage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6700865d55ba7349447f5e41285d60446f0e4630
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff3bfef7fe219ae7ff05227bfba48b69188844dc2373bd1c3099737224758fbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117667326"
 ---
 # <a name="decoding"></a>Décodage
 
@@ -31,7 +31,7 @@ Pour prendre en charge correctement les métadonnées, les auteurs des décodeur
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Recommandations de WIC pour les formats d’image RAW Camera](-wic-rawguidelines.md)

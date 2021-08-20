@@ -4,12 +4,12 @@ description: Les structures suivantes prennent en charge l’API Network List Ma
 ms.assetid: E4CEAD71-AE86-4B4D-B750-D2B90BA93A80
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cedc5221e00984a0a37212a71f9570f23e10df17
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 211f2f8522d3f5a2285c3b0e71fc412f9bbec6530221591d934bb204224476cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985131"
 ---
 # <a name="nlm-structures"></a>Structures NLM
 
@@ -26,11 +26,11 @@ Les structures suivantes prennent en charge l’API Network List Manager :
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

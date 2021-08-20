@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: da136fba61ab4f71514ab4ea053b36d2a66fb31b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9c16e613ca1f5821189042d4771dfc1353b828c2a807a4373e2c739a9648575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117702878"
 ---
 # <a name="server2003api-class"></a>Server2003Api, classe
 
-API qui ont été ajoutées à la version Windows Server 2003 d’ESENT.
+les api qui ont été ajoutées à la version 2003 du serveur Windows d’ESENT.
 
 ## <a name="inheritance-hierarchy"></a>Hiérarchie d’héritage
 

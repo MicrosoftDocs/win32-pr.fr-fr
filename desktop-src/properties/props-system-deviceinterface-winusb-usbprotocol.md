@@ -4,12 +4,12 @@ ms.assetid: c697893a-e289-4c41-8cda-9e9d697a6272
 title: System. DeviceInterface. WinUsb. UsbProtocol
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30998607843635dc0861710aa57c01a08c7494bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ddc1ef3ff47b3f882963ab5509e7252768246e8cefde951f65c1722881791b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054808"
 ---
 # <a name="systemdeviceinterfacewinusbusbprotocol"></a>System. DeviceInterface. WinUsb. UsbProtocol
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Byte
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
