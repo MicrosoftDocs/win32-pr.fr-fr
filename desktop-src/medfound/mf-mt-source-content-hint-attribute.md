@@ -4,12 +4,12 @@ ms.assetid: 6b32e257-c523-4859-8c8f-661c33810624
 title: Attribut MF_MT_SOURCE_CONTENT_HINT (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18180dcb562c7c3306c514a48f2b8948b2c329e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01b6ebfd27e31d80425e9c852ca1eb5559bc499282fed76a64a62a12e26a1fee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692146"
 ---
 # <a name="mf_mt_source_content_hint-attribute"></a>Attribut de l' \_ \_ indicateur de contenu source MF MT \_ \_
 
@@ -19,7 +19,7 @@ Décrit les proportions prévues pour un type de média vidéo.
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cet attribut est un membre de l’énumération [**MFVideoSrcContentHintFlags**](/windows/desktop/api/mfapi/ne-mfapi-mfvideosrccontenthintflags) .
 
@@ -31,8 +31,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

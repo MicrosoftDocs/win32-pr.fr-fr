@@ -3,7 +3,7 @@ title: Code de notification NM_SETCURSOR (arborescence) (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle Tree-View que le contrôle définit le curseur en réponse à un \_ message WM SETCURSOR. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 2b2f2e90-edef-484d-b67a-12983a1cde29
 keywords:
-- Contrôles Windows de code de notification NM_SETCURSOR (arborescence)
+- NM_SETCURSOR (arborescence) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b40b733e32c72abc9620e0fd18a6ef554aee9214
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b7791ff62fa9ed097052ebd38dae0000d7165519133527044e9716bb7e39c655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118410456"
 ---
 # <a name="nm_setcursor-tree-view-notification-code"></a>\_Code de notification SETCURSOR nm (arborescence)
 
@@ -55,8 +55,8 @@ Retournez zéro pour permettre au contrôle de définir le curseur ou une valeur
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

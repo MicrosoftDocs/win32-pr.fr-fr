@@ -31,7 +31,7 @@ L’attribut **WM/period** contient la période du contenu.
 
 **\_chaîne de type WMT \_**
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 
 

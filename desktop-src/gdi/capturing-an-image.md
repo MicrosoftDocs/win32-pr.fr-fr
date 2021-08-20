@@ -5,12 +5,12 @@ title: Capture d’une image
 ms.topic: article
 ms.date: 12/03/2020
 ms.custom: contperf-fy21q2
-ms.openlocfilehash: b6029ec18a39ea034ca22e4c3d6c2d1e659635cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 7516c125bd2f6953dcd91bbefee19d9ebe68c3fbbaf6ad2c029abb41d7b01542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117888112"
 ---
 # <a name="capturing-an-image"></a>Capture d’une image
 
@@ -26,7 +26,7 @@ Une fois le contexte de périphérique compatible créé et le bitmap approprié
 
 Cette section contient un exemple de code qui capture une image de l’intégralité du bureau, la met à l’échelle jusqu’à la taille de fenêtre actuelle, puis l’enregistre dans un fichier (et l’affiche dans la zone cliente).
 
-Pour tester l’exemple de code, commencez par créer un nouveau projet dans Visual Studio basé sur le modèle de projet d' **application de bureau Windows** . Il est important de nommer le nouveau projet `GDI_CapturingAnImage` afin que le code ci-dessous soit compilé (par exemple, il comprend `GDI_CapturingAnImage.h` , qui existera dans votre nouveau projet si vous le nommez comme suggéré).
+pour tester l’exemple de code, commencez par créer un nouveau projet dans Visual Studio en fonction du modèle de projet d' **Application de bureau Windows** . Il est important de nommer le nouveau projet `GDI_CapturingAnImage` afin que le code ci-dessous soit compilé (par exemple, il comprend `GDI_CapturingAnImage.h` , qui existera dans votre nouveau projet si vous le nommez comme suggéré).
 
 Ouvrez le `GDI_CapturingAnImage.cpp` fichier de code source dans votre nouveau projet et remplacez son contenu par la liste ci-dessous. Procédez ensuite à la génération et à l’exécution. Chaque fois que vous redimensionnez la fenêtre, vous verrez la capture d’écran capturée affichée dans la zone cliente.
 

@@ -3,7 +3,7 @@ title: THÈME. évènement CloseView
 description: La méthode évènement CloseView ferme une vue ouverte.
 ms.assetid: 37b56a7d-8031-4055-95ad-0510105e1c1f
 keywords:
-- THEMe. évènement CloseView Windows Media Player
+- thème. évènement closeview Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b39083979809fc2e747c54569db8d03298a951c6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e66a0c56ab2f5fc3d5d6a27d996d8b3f3cf7834c61e62113a40af3c42aeb4d59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117932544"
 ---
 # <a name="themecloseview"></a>THÈME. évènement CloseView
 

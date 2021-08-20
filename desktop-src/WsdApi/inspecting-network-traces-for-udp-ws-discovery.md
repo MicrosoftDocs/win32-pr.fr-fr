@@ -4,12 +4,12 @@ ms.assetid: f12f9847-b87f-4d5f-bee3-4d219f9ad898
 title: Inspection des suivis réseau pour les WS-Discovery UDP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f85f4acd79588ef48c7f8e1ace2a44c9a3458475
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce21e2943a37640eb091aa03c02eba0886164166b2959e31e897ee788424cd41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920753"
 ---
 # <a name="inspecting-network-traces-for-udp-ws-discovery"></a>Inspection des suivis réseau pour les WS-Discovery UDP
 
@@ -31,17 +31,17 @@ N’importe quel analyseur de paquets réseau pouvant afficher des paquets bruts
 
 ## <a name="verifying-that-messages-meet-traffic-requirements"></a>Vérification de la conformité des messages aux exigences du trafic
 
-Les clients et hôtes WSDAPI doivent envoyer des messages conformes aux critères suivants. Pour obtenir des informations générales sur les modèles de message, consultez [modèles de message d’échange de métadonnées et de découverte](discovery-and-metadata-exchange-message-patterns.md).
+Les clients et hôtes WSDAPI doivent envoyer des messages conformes aux critères suivants. pour obtenir des informations générales sur les modèles de message, consultez [découverte et métadonnées Exchange modèles de message](discovery-and-metadata-exchange-message-patterns.md).
 
 -   Les messages de [sondage](probe-message.md) doivent être envoyés par la multidiffusion UDP au port 3702.
 -   L’élément **types** d’un message de [sondage](probe-message.md) doit être présent et ne doit pas être vide. Il doit contenir les types auxquels un hôte doit répondre.
 -   Un message [messages ProbeMatches](probematches-message.md) doit être envoyé en monodiffusion au port UDP à partir duquel la [sonde](probe-message.md) a été envoyée.
 -   L’élément **latesto** d’un message [messages ProbeMatches](probematches-message.md) doit être présent et ne doit pas être vide. Sa valeur doit correspondre à la valeur de l’élément **MessageID** du message de [sondage](probe-message.md) correspondant.
 -   Si un élément **XAddrs** est inclus dans le message [messages ProbeMatches](probematches-message.md) , les adresses de transport fournies doivent être validées. Pour plus d’informations, consultez [règles de validation XAddr](xaddr-validation-rules.md).
--   Un message [messages ProbeMatches](probematches-message.md) doit être envoyé dans les 4 secondes du message de [sondage](probe-message.md) correspondant. Le pare-feu Windows peut supprimer un message messages ProbeMatches envoyé plus de 4 secondes après un message de sondage.
+-   Un message [messages ProbeMatches](probematches-message.md) doit être envoyé dans les 4 secondes du message de [sondage](probe-message.md) correspondant. le pare-feu Windows peut supprimer un message messages probematches envoyé plus de 4 secondes après un message de sondage.
 -   Si aucun élément **XAddrs** n’a été inclus dans le message [messages ProbeMatches](probematches-message.md) , et si le client ou l’hôte envoie un message http (par exemple, une [demande d’échange de métadonnées](get--metadata-exchange--http-request-and-message.md) ou un message de service), le client ou l’hôte doit envoyer un message de [résolution](resolve-message.md) par multidiffusion UDP au port 3702.
 -   Si un message de [résolution](resolve-message.md) est envoyé, un message [ResolveMatches](resolvematches-message.md) doit être envoyé en monodiffusion au port UDP à partir duquel le message de résolution a été envoyé.
--   Un message [ResolveMatches](resolvematches-message.md) doit être envoyé dans les 4 secondes du message de [résolution](resolve-message.md) correspondant. Le pare-feu Windows peut supprimer un ResolveMatchesmessage envoyé plus de 4 secondes après un message de résolution.
+-   Un message [ResolveMatches](resolvematches-message.md) doit être envoyé dans les 4 secondes du message de [résolution](resolve-message.md) correspondant. le pare-feu Windows peut supprimer un ResolveMatchesmessage envoyé plus de 4 secondes après un message de résolution.
 
 Si les messages envoyés par le programme ne sont pas conformes à ces exigences de message, la cause du problème a été correctement identifiée et aucune autre étape de dépannage n’est nécessaire. Réécrivez le programme afin qu’il génère des messages conformes et retestez le programme.
 

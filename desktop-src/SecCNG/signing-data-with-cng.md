@@ -4,12 +4,12 @@ ms.assetid: 8f0ace5a-c8f9-4a45-8500-041a9f22637d
 title: Signature de données avec CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 658dd1c9a833cfb15b708a7f85013e3d9cacac9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64a05f6cf655421422945d375c9d54ec2b74ae24efe1640c0dc9f6efe9a3e45c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907150"
 ---
 # <a name="signing-data-with-cng"></a>Signature de données avec CNG
 
@@ -22,7 +22,7 @@ Pour vérifier la signature, le destinataire extrait les données et la signatur
 **Pour créer une signature à l’aide de CNG**
 
 1.  Créez une valeur de hachage pour les données à l’aide des fonctions de hachage CNG. Pour plus d’informations sur la création d’un hachage, consultez [création d’un hachage avec CNG](creating-a-hash-with-cng.md).
-2.  Créez une clé asymétrique pour signer le hachage. Vous pouvez créer une clé persistante avec les [fonctions de stockage de clé CNG](cng-key-storage-functions.md) ou une clé éphémère avec les fonctions de la [primitive de chiffrement CNG](cng-cryptographic-primitive-functions.md).
+2.  Créez une clé asymétrique pour signer le hachage. vous pouvez créer une clé persistante avec la [clé cng Stockage fonctions](cng-key-storage-functions.md) ou une clé éphémère avec les [fonctions de la Primitive de chiffrement cng](cng-cryptographic-primitive-functions.md).
 3.  Utilisez la fonction [**NCryptSignHash**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptsignhash) ou [**BCryptSignHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptsignhash) pour signer (chiffrer) la valeur de hachage. Cette fonction signe la valeur de hachage à l’aide de la clé asymétrique.
 4.  Combiner les données et la signature dans un message qui peut être envoyé au destinataire prévu.
 
@@ -30,7 +30,7 @@ Pour vérifier la signature, le destinataire extrait les données et la signatur
 
 1.  Extrayez les données et la signature du message.
 2.  Créez une valeur de hachage pour les données à l’aide des fonctions de hachage CNG. L’algorithme de hachage utilisé doit être le même que celui utilisé pour signer le hachage.
-3.  Obtenez la partie publique de la paire de clés asymétriques qui a été utilisée pour signer le hachage. La façon dont vous obtenez cette clé dépend de la façon dont la clé a été créée et rendue persistante. Si la clé a été créée ou chargée avec les [fonctions de stockage de clé CNG](cng-key-storage-functions.md), vous allez utiliser la fonction [**NCryptOpenKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptopenkey) pour charger la clé persistante. Si la clé est une clé éphémère, elle devrait avoir été enregistrée dans un objet BLOB de clé. Vous devez passer cet objet BLOB de clé à la fonction [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) ou [**NCryptImportKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) .
+3.  Obtenez la partie publique de la paire de clés asymétriques qui a été utilisée pour signer le hachage. La façon dont vous obtenez cette clé dépend de la façon dont la clé a été créée et rendue persistante. si la clé a été créée ou chargée avec la [clé CNG Stockage fonctions](cng-key-storage-functions.md), vous allez utiliser la fonction [**NCryptOpenKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptopenkey) pour charger la clé persistante. Si la clé est une clé éphémère, elle devrait avoir été enregistrée dans un objet BLOB de clé. Vous devez passer cet objet BLOB de clé à la fonction [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) ou [**NCryptImportKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) .
 4.  Transmettez la nouvelle valeur de hachage, la signature et le handle de clé à la fonction [**NCryptVerifySignature**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptverifysignature) ou [**BCryptVerifySignature**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptverifysignature) . Ces fonctions effectuent la vérification à l’aide de la clé publique pour déchiffrer la signature et en comparant le hachage déchiffré au hachage calculé à l’étape 2. La fonction **BCryptVerifySignature** retourne l' **état \_ Success** si la signature correspond à la signature de hachage ou d' **état \_ \_ non valide** si la signature ne correspond pas au hachage. La fonction **NCryptVerifySignature** retourne l' **état \_ Success** si la signature correspond à la **\_ \_ signature incorrecte** Hash ou NPD si la signature ne correspond pas au hachage.
 
 ## <a name="signing-and-verifying-data-example"></a>Exemple de signature et de vérification des données

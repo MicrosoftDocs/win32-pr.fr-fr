@@ -4,18 +4,18 @@ ms.assetid: d0a906a8-bae4-43b3-8b02-ee5b97c9323d
 title: Rechercher un code confidentiel non connecté sur un filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ee47b811c027161b70769cb04063d0e8214934a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7a76100622f0398c58eb10f2dda041ba074f4610efbd1c649d48199ea2c676eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104033369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401753"
 ---
 # <a name="find-an-unconnected-pin-on-a-filter"></a>Rechercher un code confidentiel non connecté sur un filtre
 
 Cette rubrique explique comment rechercher un code confidentiel non connecté sur un filtre. La recherche d’un code confidentiel non connecté est utile lorsque vous connectez des filtres.
 
-Dans un scénario de création de graphiques DirectShow classique, vous avez besoin d’un code confidentiel non connecté qui correspond à une direction de pin particulière (entrée ou sortie). Par exemple, lorsque vous connectez deux filtres, vous connectez une broche de sortie d’un filtre à une broche d’entrée de l’autre filtre. Les deux broches doivent être déconnectées avant de les connecter.
+dans un scénario classique de création de graphiques DirectShow, vous avez besoin d’un code confidentiel non connecté qui correspond à une direction de pin particulière (entrée ou sortie). Par exemple, lorsque vous connectez deux filtres, vous connectez une broche de sortie d’un filtre à une broche d’entrée de l’autre filtre. Les deux broches doivent être déconnectées avant de les connecter.
 
 Tout d’abord, nous avons besoin d’une fonction qui teste si un code PIN est connecté à un autre code PIN. Cette fonction appelle la méthode [**IPIN :: ConnectedTo**](/windows/desktop/api/Strmif/nf-strmif-ipin-connectedto) pour tester si le pin est connecté à un autre code PIN.
 
@@ -149,7 +149,7 @@ done:
 
 
 
-Pour obtenir un exemple de la façon dont cette fonction peut être utilisée, consultez [connecter deux filtres](connect-two-filters.md).
+pour obtenir un exemple de la façon dont cette fonction peut être utilisée, consultez [Connecter deux filtres](connect-two-filters.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

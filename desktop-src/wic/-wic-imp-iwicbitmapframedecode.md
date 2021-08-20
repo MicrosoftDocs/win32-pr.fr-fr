@@ -4,12 +4,12 @@ ms.assetid: 7dc626ad-1158-4b67-8ca7-47b4cf88e278
 title: Implémentation de IWICBitmapFrameDecode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 394b5858ec5eee37ef1c7f52b766806c4a0c1a92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4b49e3636f5d81202b1060d868ecb40bb99d095dd9f26b6afd0d40c5f5fd0d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205763"
 ---
 # <a name="implementing-iwicbitmapframedecode"></a>Implémentation de IWICBitmapFrameDecode
 
@@ -48,7 +48,7 @@ HRESULT CopyPalette ( IWICPalette *pIPalette );
 
 ### <a name="getthumbnail"></a>GetThumbnail
 
-[**Miniature**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframedecode-getthumbnail) retourne la miniature du frame actuel. Pour des raisons de performances, les miniatures sont généralement encodées au format JPEG. Tout comme avec l’aperçu sur le décodeur, il n’est pas nécessaire ou recommandé de fournir votre propre décodeur JPEG pour les miniatures. Au lieu de cela, vous devez déléguer au décodeur JPEG fourni par Windows Imaging Component (WIC).
+[**Miniature**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframedecode-getthumbnail) retourne la miniature du frame actuel. Pour des raisons de performances, les miniatures sont généralement encodées au format JPEG. Tout comme avec l’aperçu sur le décodeur, il n’est pas nécessaire ou recommandé de fournir votre propre décodeur JPEG pour les miniatures. au lieu de cela, vous devez déléguer au décodeur JPEG fourni par Windows composant d’imagerie (WIC).
 
 Pour plus d’informations sur les miniatures, consultez la méthode [SetThumbnail](-wic-imp-iwicbitmapframeencode.md) sur l' [implémentation de IWICBitmapFrameEncode](-wic-imp-iwicbitmapframeencode.md).
 
@@ -114,7 +114,7 @@ Seuls les codecs ayant des formats de pixel indexés doivent implémenter la mé
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

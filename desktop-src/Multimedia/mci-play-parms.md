@@ -3,7 +3,7 @@ title: Structure MCI_PLAY_PARMS (Mciapi. h)
 description: La \_ \_ structure des PARMS de lecture MCI contient des informations de positionnement pour la \_ commande MCI Play.
 ms.assetid: f1bacf61-ec14-4391-b227-20b35c0bbbc3
 keywords:
-- Structure de MCI_PLAY_PARMS Windows multimédia
+- structure MCI_PLAY_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f207737d4eb93e280355d0e5041b6e7bfc1b3048
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7bd45269cd74d15d2326bf4c6528d5778ef7a5a35e40dfd2a74134afafdbcb8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803470"
 ---
 # <a name="mci_play_parms-structure"></a>La \_ structure des PARMS de lecture MCI \_
 
@@ -63,7 +63,7 @@ Position de lecture.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

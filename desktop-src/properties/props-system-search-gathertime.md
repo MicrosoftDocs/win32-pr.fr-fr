@@ -1,19 +1,19 @@
 ---
-description: Valeur DateTime qui représente l’heure à laquelle le rassembleur Windows Search a effectué le dernier envoi des propriétés de ce document aux plug-ins du Rassembleur Windows Search.
+description: valeur Datetime représentant l’heure à laquelle le rassembleur de recherche Windows traite la dernière fois que les propriétés de ce document ont fait l’objet d’un push vers les plug-ins du rassembleur de recherche Windows.
 ms.assetid: 95474132-6d07-4575-961e-249ffafd65e4
 title: System. Search. GatherTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7699b4e2853fd79ab5a4f37ab370d31d6def732
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a37329255a2cf9882f4275831d804f9b41a00bf8eaaace22aae9c22943dd84a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865035"
 ---
 # <a name="systemsearchgathertime"></a>System. Search. GatherTime
 
-Valeur DateTime qui représente l’heure à laquelle le rassembleur Windows Search a effectué le dernier envoi des propriétés de ce document aux plug-ins du Rassembleur Windows Search.
+valeur Datetime représentant l’heure à laquelle le rassembleur de recherche Windows traite la dernière fois que les propriétés de ce document ont fait l’objet d’un push vers les plug-ins du rassembleur de recherche Windows.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -46,7 +46,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

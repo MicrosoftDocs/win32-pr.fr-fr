@@ -4,7 +4,7 @@
     - name: À propos des services Web sur les appareils
       href: about-web-services-for-devices.md
       items:
-        - name: Modèles de message d’échange de métadonnées et de découverte
+        - name: détection et schémas de Message Exchange de métadonnées
           href: discovery-and-metadata-exchange-message-patterns.md
           items:
             - name: Message de salutation
@@ -17,9 +17,9 @@
               href: resolve-message.md
             - name: Message ResolveMatches
               href: resolvematches-message.md
-            - name: Obtenir (échange de métadonnées) une requête et un message HTTP
+            - name: obtenir (métadonnées Exchange) la requête et le Message HTTP
               href: get--metadata-exchange--http-request-and-message.md
-            - name: Message GetResponse (échange de métadonnées)
+            - name: Message GetResponse (Exchange de métadonnées)
               href: getresponse--metadata-exchange--message.md
             - name: Message Bye
               href: bye-message.md
@@ -66,7 +66,7 @@
         - name: Développement de périphérique WSD
           href: wsd-device-development.md
           items:
-            - name: Recommandations en matière d’implémentation des appareils WSD
+            - name: Recommandations de l’implémentation des appareils WSD
               href: wsd-device-implementation-recommendations.md
               items:
                 - name: Implémentation d’un périphérique WSD multirésident
@@ -106,15 +106,15 @@
                   href: downloading-netmon-and-sample-dpws-filters.md
                 - name: Activation du suivi WSDAPI
                   href: enabling-wsdapi-tracing.md
-                - name: Inspection des paramètres de l’adaptateur et du pare-feu
+                - name: inspection des Paramètres de l’adaptateur et du pare-feu
                   href: inspecting-adapter-and-firewall-settings.md
                 - name: Inspection des suivis réseau pour les applications à l’aide de la découverte dirigée
                   href: inspecting-network-traces-for-applications-using-directed-discovery.md
-                - name: Inspection des suivis réseau pour l’échange de métadonnées HTTP
+                - name: Inspection des suivis réseau pour les métadonnées HTTP Exchange
                   href: inspecting-network-traces-for-http-metadata-exchange.md
                 - name: Inspection des suivis réseau pour les WS-Discovery UDP
                   href: inspecting-network-traces-for-udp-ws-discovery.md
-                - name: Utilisation d’un hôte et d’un client génériques pour l’échange de métadonnées HTTP
+                - name: Utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange
                   href: using-a-generic-host-and-client-for-http-metadata-exchange.md
                 - name: Utilisation d’un hôte et d’un client génériques pour les WS-Discovery UDP
                   href: using-a-generic-host-and-client-for-udp-ws-discovery.md
@@ -865,7 +865,7 @@
                   href: namespacedefinitions.md
                 - name: notificationInterface
                   href: notificationinterface.md
-                - name: opération
+                - name: operation
                   href: operation.md
                 - name: operationDeallocator
                   href: operationdeallocator.md

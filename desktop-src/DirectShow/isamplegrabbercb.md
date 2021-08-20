@@ -24,7 +24,7 @@ ms.locfileid: "117817501"
 # <a name="isamplegrabbercb-interface"></a>Interface ISampleGrabberCB
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

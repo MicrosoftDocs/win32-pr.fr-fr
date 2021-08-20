@@ -14,7 +14,7 @@ ms.locfileid: "118553133"
 ---
 # <a name="windows-management-instrumentation"></a>Windows Management Instrumentation
 
-## <a name="purpose"></a>Fonction
+## <a name="purpose"></a>Objectif
 
 Windows wmi (management instrumentation) est l’infrastructure de données et d’opérations de gestion sur les systèmes d’exploitation basés sur Windows. vous pouvez écrire des scripts ou des applications wmi pour automatiser des tâches administratives sur des ordinateurs distants, mais WMI fournit également des données de gestion à d’autres parties du système d’exploitation et des produits, par exemple System Center Operations Manager, anciennement Microsoft Operations Manager (MOM) ou Windows Remote Management ([WinRM](/windows/desktop/WinRM/portal)).
 

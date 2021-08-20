@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - RTWorkQ.dll
-ms.openlocfilehash: b55386b2a018b0e311a1d4dbb2084b136d49c2f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 083f0ca787bb842850320b9dd1d320ef4d5b172ee0b6d9b117296e58b991bd0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793399"
 ---
 # <a name="rtwqendunregisterworkqueuewithmmcss-function"></a>RtwqEndUnregisterWorkQueueWithMMCSS fonction)
 
@@ -57,7 +57,7 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Aucun</dt> </dl>        |
 | Bibliothèque<br/>                  | <dl> <dt>Rtworkq. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RTWorkQ.dll</dt> </dl> |

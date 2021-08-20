@@ -4,12 +4,12 @@ ms.assetid: 52947832-e634-4ecb-861e-c84a84a45fc0
 title: System. PropList. info-bulle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b43b51a7d785bfdf1b485db7c8aa56d164de23b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a404f2ff685134b2f706f7a5a8f55c417a1febca1a60a021584a2d02fdfd5d0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465604"
 ---
 # <a name="systemproplistinfotip"></a>System. PropList. info-bulle
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

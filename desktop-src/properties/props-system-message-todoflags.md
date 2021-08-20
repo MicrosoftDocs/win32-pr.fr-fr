@@ -4,12 +4,12 @@ ms.assetid: 0cd86838-34ce-4e49-b4bb-f486a55ab8f6
 title: System. message. ToDoFlags
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03f90842b8b02f5bba652a7856b32051f0acd4b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca6881ced3d42bc393aeb794b516db65acc89b5a9d42720c927d50d1e6439feb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683126"
 ---
 # <a name="systemmessagetodoflags"></a>System. message. ToDoFlags
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Int32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

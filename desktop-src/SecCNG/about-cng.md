@@ -4,12 +4,12 @@ ms.assetid: d10533d8-e919-4d2a-a173-16a8f723551d
 title: À propos de CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8883b5ad50a0e3e680d718afd0f448a5cd87dd18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb13c50b98c80f9ca45a72d0b0967fc8b95d209dd88e206e1a9abc498d408032
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909020"
 ---
 # <a name="about-cng"></a>À propos de CNG
 
@@ -23,9 +23,9 @@ Pour plus d’informations sur les fonctionnalités de CNG, consultez [fonctionn
 
 Pour plus d’informations sur les primitives de chiffrement dans CNG, consultez [primitives de chiffrement](cryptographic-primitives.md).
 
-## <a name="key-storage-and-retrieval"></a>Stockage et récupération de clés
+## <a name="key-storage-and-retrieval"></a>Stockage et récupération de clé
 
-Pour plus d’informations sur le stockage et la récupération de clés dans CNG, consultez [stockage et récupération de clés](key-storage-and-retrieval.md).
+pour plus d’informations sur le stockage et la récupération de clés dans CNG, consultez [key Stockage and retrieval](key-storage-and-retrieval.md).
 
 ## <a name="key-import-and-export"></a>Importation et exportation de clé
 

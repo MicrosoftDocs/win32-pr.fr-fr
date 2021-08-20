@@ -4,23 +4,23 @@ ms.assetid: 6e690d17-da17-452a-aa9a-9701a560856b
 title: Configuration d’un encodeur WMV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6324071257dd9d56e33d1dc6ece4886ee73661ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39001edd5901d09bc618fe92d251070d24633fb94812a9c2696b11866f3cb9cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880543"
 ---
 # <a name="configuring-a-wmv-encoder"></a>Configuration d’un encodeur WMV
 
-Pour créer un type de sortie valide pour un encodeur Windows Media Video (WMV), vous devez disposer des informations suivantes :
+pour créer un type de sortie valide pour un encodeur Windows Media Video (WMV), vous devez disposer des informations suivantes :
 
 -   Format de la vidéo non compressée que vous encoderez.
 -   Sous-type de vidéo qui repesents le format WMV encodé. Consultez [GUID de sous-type de vidéo](video-subtype-guids.md).
 -   Vitesse de transmission cible pour le flux encodé.
 -   Propriétés de configuration à définir sur l’encodeur.
 
-Les propriétés de configuration sont documentées dans la documentation Windows Media Audio et le codec vidéo et les API DSP. Pour plus d’informations, consultez « Propriétés du flux vidéo » dans [Propriétés de codage](configuring-the-encoder.md).
+les propriétés de configuration sont documentées dans la documentation Windows Media Audio et le Codec vidéo et les api DSP. Pour plus d’informations, consultez « Propriétés du flux vidéo » dans [Propriétés de codage](configuring-the-encoder.md).
 
 Pour obtenir un type de sortie valide pour l’encodeur, procédez comme suit.
 
@@ -41,15 +41,15 @@ Pour obtenir un type de sortie valide pour l’encodeur, procédez comme suit.
 
 ### <a name="private-codec-data"></a>Données de codec privées
 
-Les données de codec privées sont une structure de données opaque que vous devez extraire de l’encodeur WMV et ajouter au type de compression, avant de définir le type de compression sur l’encodeur. Pour récupérer les données privées, vous devez utiliser l’interface **IWMCodecPrivateData** , qui est documentée dans le kit de développement logiciel (SDK) Windows Media format 11.
+Les données de codec privées sont une structure de données opaque que vous devez extraire de l’encodeur WMV et ajouter au type de compression, avant de définir le type de compression sur l’encodeur. pour récupérer les données privées, vous devez utiliser l’interface **IWMCodecPrivateData** , qui est documentée dans le kit de développement logiciel (SDK) Windows Media Format 11.
 
 Pour récupérer les données du codec privé, procédez comme suit :
 
 1.  Appelez [**IMFTransform :: GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) pour obtenir un type de média à partir de l’encodeur. (Il s’agit de l’étape 6 de la section précédente.)
 2.  Spécifiez la vitesse de transmission cible en définissant l’attribut de [**\_ vitesse de \_ \_ transmission moyenne MF MT**](mf-mt-avg-bitrate-attribute.md) sur le type de média.
-3.  Convertissez le type de média en une structure de [**\_ \_ type de média DMO**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) en appelant la fonction [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype) .
+3.  convertissez le type de média en une structure de [**\_ \_ type de média DMO**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) en appelant la fonction [**MFInitAMMediaTypeFromMFMediaType**](/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype) .
 4.  Interrogez l’encodeur pour l’interface **IWMCodecPrivateData** .
-5.  Appelez la méthode **IWMCodecPrivateData :: SetPartialOutputType** , en transmettant la structure de [**\_ \_ type de média DMO**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) convertie.
+5.  appelez la méthode **IWMCodecPrivateData :: SetPartialOutputType** , en passant la structure [**de \_ \_ TYPE de média**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) convertie DMO.
 6.  Appelez la méthode **IWMCodecPrivateData :: GetPrivateData** deux fois, une fois pour obtenir la taille de la mémoire tampon pour les données privées, et une fois pour copier les données dans la mémoire tampon.
 7.  Ajoutez les données privées au type de média en définissant l’attribut de [**\_ \_ \_ données utilisateur MF MT**](mf-mt-user-data-attribute.md) sur le type.
 
@@ -374,7 +374,7 @@ HRESULT CopyPropertyStore(IPropertyStore *pSrc, IPropertyStore *pDest)
 [Instanciation d’une table MFT d’encodeur](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Encodeurs Windows Media](windows-media-encoders.md)
+[Windows Encodeurs multimédias](windows-media-encoders.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 97ed3b08-ca5d-4ac2-bf1a-7eec40f9ffc2
 title: Détermination de la page de codes du jeu de caractères en cours
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e180d908605ec423314ef2197829fd95ff51a18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f18361c0553407ade59c2d1de61ac2fb20d18d5b9d46018bcbc74dc3a114917b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150656"
 ---
 # <a name="determining-the-current-character-set-code-page"></a>Détermination de la page de codes du jeu de caractères en cours
 

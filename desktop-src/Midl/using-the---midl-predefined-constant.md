@@ -7,12 +7,12 @@ keywords:
 - _midl MIDL de constante prédéfinie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae49675b38dcc3cab2d3d41e4f48cd0637d78523
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 60fbc111ad07839d891f7bdffaf7ecaae83fbf277a0fc2c93fc483f526f9dda5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382820"
 ---
 # <a name="using-the-__midl-predefined-constant"></a>Utilisation de la \_ \_ constante prédéfinie MIDL
 
@@ -20,9 +20,9 @@ Lorsque le compilateur MIDL traite les fichiers IDL et ACF d’entrée, \_ \_ MI
 
 Si vous le souhaitez, vous pouvez remplacer cette valeur par défaut en spécifiant les éléments suivants sur la ligne de commande : **/u \_ \_ MIDL**. Pour plus d’informations, consultez [**/u**](-u.md).
 
- 
+ 
 
- 
+ 
 
 
 

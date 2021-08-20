@@ -4,12 +4,12 @@ ms.assetid: C969D653-9FEE-45B6-8DB1-4D778C836E9D
 title: Méthodes IAzApplication
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fc8ffd17addcd2b8da01b4999a7c88f78dab8b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a18e75e8f95571039fcbfc9c653af29b2e99c4abcb7ee8e364d99193cde430ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118913495"
 ---
 # <a name="iazapplication-methods"></a>Méthodes IAzApplication
 

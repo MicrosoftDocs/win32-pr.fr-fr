@@ -4,12 +4,12 @@ description: Prise en charge des entrées vocales
 ms.assetid: 4702b941-fcc9-4d00-aba2-eca624b6d417
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8ecb6f2ddfbbe10f8b892ce922cd466eca96890
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fd777f5dca0df91a4660249b0cdda380f2f20c37ba5c1c38a04264bb871ab3bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106513717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118746250"
 ---
 # <a name="speech-input-support"></a>Prise en charge des entrées vocales
 
@@ -35,6 +35,6 @@ Le serveur signale également à votre application cliente qu’elle met en corr
 
 Si l’utilisateur désactive l’entrée vocale dans les options de caractères avancées, la touche d’écoute est également désactivée. De même, toute tentative d’appel de la méthode [**Listen**](listen-method.md) lorsque l’entrée vocale est désactivée entraîne l’échec de la méthode.
 
- 
+ 
 
- 
+ 

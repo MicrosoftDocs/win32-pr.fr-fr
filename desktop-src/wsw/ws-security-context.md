@@ -6,12 +6,12 @@ keywords:
 - WS_SECURITY_CONTEXT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c041307eadd1ebcea379f9de0880fc011bd137ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c34f201c40e3079a3c26ced97e2664679f04ccec6b7804844dd305422abadfdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192355"
 ---
 # <a name="ws_security_context"></a>\_contexte de sécurité WS \_
 
@@ -24,7 +24,7 @@ typedef struct _WS_SECURITY_CONTEXT WS_SECURITY_CONTEXT;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet n’est pas thread-safe. Pour plus d’informations, consultez [sécurité des threads](thread-safety.md).
 
@@ -34,8 +34,8 @@ Cet objet n’est pas thread-safe. Pour plus d’informations, consultez [sécur
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>WebServices. h</dt> </dl> |
 
 

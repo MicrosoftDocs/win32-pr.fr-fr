@@ -4,12 +4,12 @@ description: Architecture du gestionnaire
 ms.assetid: 93839b82-09cb-41af-ac0e-a8e9448bf04b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2b02d0184d364ce438dc28f8219beea01c4868
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5c0da7846f31c94202d8d50ac0566c87ef5db085a0b9efb3f9250468346512db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118141092"
 ---
 # <a name="handler-architecture"></a>Architecture du gestionnaire
 
@@ -19,9 +19,9 @@ Un gestionnaire de fichiers permet d’accéder à une source de données compos
 
 En revanche, un gestionnaire de flux traite un type de données et apparaît comme un flux de données pour une application. Un gestionnaire de flux peut fournir des données qu’il fabrique ou peut récupérer des données à partir d’un fichier ou d’une source externe. Il fournit ses données dans un format que votre application peut utiliser.
 
- 
+ 
 
- 
+ 
 
 
 

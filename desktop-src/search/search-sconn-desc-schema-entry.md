@@ -1,19 +1,19 @@
 ---
-description: Présente le schéma de description du connecteur de recherche utilisé par les bibliothèques de l’Explorateur Windows et les fournisseurs de recherche fédérés.
+description: présente le schéma de Description du connecteur de recherche utilisé par les bibliothèques Windows Explorer et les fournisseurs de recherche fédérés.
 ms.assetid: b85a04c6-9398-4cc7-a894-881216600203
 title: Schéma de la description du connecteur de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f502f67cdc933bf4d27a3475cd6adef70c00fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e8d8ab60ba472cca961a4208b1c551679ef93eacd46e07cf5e080a3e73f3d14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118226380"
 ---
 # <a name="search-connector-description-schema"></a>Schéma de la description du connecteur de recherche
 
-Présente le schéma de description du connecteur de recherche utilisé par les bibliothèques de l’Explorateur Windows et les fournisseurs de recherche fédérés. Le schéma spécifie la structure et la configuration requise pour les fichiers de description du connecteur de recherche ( \* . searchConnector-ms) et pour les éléments **searchConnectorDescriptionType** des fichiers de description de la bibliothèque de l’interpréteur de commandes ( \* . Library-ms).
+présente le schéma de Description du connecteur de recherche utilisé par les bibliothèques Windows Explorer et les fournisseurs de recherche fédérés. Le schéma spécifie la structure et la configuration requise pour les fichiers de description du connecteur de recherche ( \* . searchConnector-ms) et pour les éléments **searchConnectorDescriptionType** des fichiers de description de la bibliothèque de l’interpréteur de commandes ( \* . Library-ms).
 
 Cette rubrique décrit le schéma en ce qui concerne les connecteurs de recherche fédérés. Pour plus d’informations sur les bibliothèques et le schéma de description de la bibliothèque, consultez [schéma de description](../shell/library-schema-entry.md)de la bibliothèque.
 
@@ -29,22 +29,22 @@ Cette rubrique comporte les sections suivantes :
 
 ## <a name="what-are-search-connectors"></a>Que sont les connecteurs de recherche ?
 
-Les connecteurs de recherche connectent les utilisateurs aux données stockées dans les services Web ou les emplacements de stockage distant. Avec Windows 7, les utilisateurs peuvent installer des connecteurs de recherche pour des emplacements tels que des services Web, afin qu’ils recherchent ces emplacements directement à partir de l’Explorateur Windows. Les connecteurs de recherche sont des fichiers de description de connecteur de recherche ( \* . searchConnector-ms) qui spécifient comment se connecter à, envoyer des requêtes à et recevoir des résultats de l’emplacement.
+Les connecteurs de recherche connectent les utilisateurs aux données stockées dans les services Web ou les emplacements de stockage distant. avec Windows 7, les utilisateurs peuvent installer des connecteurs de recherche pour des emplacements tels que des services web, afin qu’ils recherchent ces emplacements directement à partir de Windows Explorer. Les connecteurs de recherche sont des fichiers de description de connecteur de recherche ( \* . searchConnector-ms) qui spécifient comment se connecter à, envoyer des requêtes à et recevoir des résultats de l’emplacement.
 
 En plus des services Web, les connecteurs de recherche peuvent être utilisés pour rechercher des étendues d’index locales créées par des gestionnaires de protocole. Par exemple, les utilisateurs peuvent rechercher des messages électroniques indexés localement avec le gestionnaire de protocole MAPI à l’aide d’un connecteur de recherche pour ce magasin de courrier électronique.
 
 ## <a name="how-do-search-connector-description-files-work"></a>Comment fonctionnent les fichiers de description du connecteur de recherche ?
 
-Lorsque la recherche de fichiers de description de connecteur est installée sur les systèmes des utilisateurs, les utilisateurs peuvent ouvrir l’Explorateur Windows, cliquer sur le connecteur de recherche dans le volet de navigation, puis entrer une requête de recherche. L’Explorateur Windows envoie la requête à l’aide des informations du fichier de description du connecteur de recherche, telles que le fournisseur à utiliser et l’étendue de la recherche. Les résultats sont retournés en tant qu’éléments de flux RSS ou Atom et affichés aux utilisateurs comme s’il s’agissait d’éléments de Shell normaux.
+lorsque la recherche de fichiers de Description de connecteur est installée sur les systèmes des utilisateurs, les utilisateurs peuvent ouvrir Windows Explorer, cliquer sur le connecteur de recherche dans le volet de navigation, puis entrer une requête de recherche. Windows L’Explorateur envoie la requête à l’aide des informations du fichier de description du connecteur de recherche, telles que le fournisseur à utiliser et l’étendue de la recherche. Les résultats sont retournés en tant qu’éléments de flux RSS ou Atom et affichés aux utilisateurs comme s’il s’agissait d’éléments de Shell normaux.
 
 Le mode de déploiement du fichier de description du connecteur de recherche dépend du type d’emplacement pris en charge par le connecteur de recherche :
 
--   Dans un fichier de configuration OpenSearch ( \* . fichier osdx) pour votre service Web
+-   dans un fichier de configuration OpenSearch ( \* . fichier osdx) pour votre service web
 -   Dans le cadre de l’installation du gestionnaire de protocole
 
 Vous devez vous assurer que les événements suivants se produisent lorsqu’un utilisateur ouvre le fichier. fichier osdx ou installe le gestionnaire de protocole :
 
--   Le fichier. searchconnector-MS est créé dans le dossier **recherches Windows** des utilisateurs (% UserProfile%/Searches).
+-   le fichier. searchconnector-ms est créé dans le dossier **recherches Windows** des utilisateurs (% userprofile%/Searches).
 -   Un raccourci vers le fichier. searchconnector-MS est créé dans le dossier **des liens des** utilisateurs (% UserProfile%/Links).
 
 ## <a name="what-is-the-search-connector-description-schema"></a>Qu’est-ce que le schéma de description du connecteur de recherche ?
@@ -71,7 +71,7 @@ Le tableau suivant répertorie les principales parties du schéma.
 | [locationProvider](search-schema-sconn-locationprovider.md)                           | Spécifie le moteur de recherche à utiliser par ce connecteur de recherche.                                                                                                                      |
 | [scope](search-schema-sconn-scope.md)                                                 | Spécifie les emplacements à inclure dans l’étendue de recherche et à exclure de celle-ci.                                                                                                                |
 | [propertyStore](search-schema-sconn-propertystore.md)                                 | Spécifie l’emplacement d’un [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) basé sur XML pour ce connecteur de recherche. **IPropertyStore** prend en charge les métadonnées ouvertes du connecteur de recherche. |
-| [includeInStartMenuScope](search-schema-sconn-includeinstartmenuscope.md)             | Spécifie si l’emplacement représenté par le connecteur de recherche doit être inclus dans l’étendue de recherche du menu Démarrer.                                                                 |
+| [includeInStartMenuScope](search-schema-sconn-includeinstartmenuscope.md)             | spécifie si l’emplacement représenté par le connecteur de recherche doit être inclus dans l’étendue de recherche du menu Démarrer.                                                                 |
 | [Domain](search-schema-sconn-domain.md)                                               | Identifie le domaine de premier niveau du connecteur de recherche.                                                                                                                                     |
 | [supportsAdvancedQuerySyntax](search-schema-sconn-supportsadvancedquerysyntax.md)     | Spécifie si le connecteur de recherche prend en charge la syntaxe de requête avancée (AQS).                                                                                                            |
 | [isIndexed](search-schema-sconn-isindexed.md)                                         | Spécifie si l’emplacement représenté par le connecteur de recherche est indexé.                                                                                                          |

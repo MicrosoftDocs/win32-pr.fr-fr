@@ -1,31 +1,31 @@
 ---
 title: Activation des modifications de schéma au niveau du contrôleur de schéma
-description: Par défaut, la modification du schéma est désactivée sur tous les contrôleurs de domaine Windows 2000.
+description: par défaut, la modification du schéma est désactivée sur tous les contrôleurs de domaine Windows 2000.
 ms.assetid: 08806a9e-283c-48d9-9557-bcb9719fc13c
 ms.tgt_platform: multiple
 keywords:
 - Activation des modifications de schéma au niveau de l’AD du contrôleur de schéma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4840c9928011179ce303c83f4d00ef598f38eb64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 251716adaae4dab153b749b4db361bf7adca9b6aca2a800cec1b9d73943c595b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191385"
 ---
 # <a name="enabling-schema-changes-at-the-schema-master"></a>Activation des modifications de schéma au niveau du contrôleur de schéma
 
-Par défaut, la modification du schéma est désactivée sur tous les contrôleurs de domaine Windows 2000. La possibilité de mettre à jour le schéma est contrôlée par la valeur de Registre suivante sur le contrôleur de domaine principal du schéma :
+par défaut, la modification du schéma est désactivée sur tous les contrôleurs de domaine Windows 2000. La possibilité de mettre à jour le schéma est contrôlée par la valeur de Registre suivante sur le contrôleur de domaine principal du schéma :
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            NTDS
-               Parameters
-                  Schema Update Allowed
+   System
+      CurrentControlSet
+         Services
+            NTDS
+               Parameters
+                  Schema Update Allowed
 ```
 
 Cette valeur de Registre est une valeur **reg \_ DWORD** . Si cette valeur est absente ou si elle contient zéro (0), la modification du schéma est désactivée. Si cette valeur est présente et contient une valeur différente de zéro, la modification de schéma est activée.
@@ -191,9 +191,9 @@ HRESULT EnableSchemaUpdate(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

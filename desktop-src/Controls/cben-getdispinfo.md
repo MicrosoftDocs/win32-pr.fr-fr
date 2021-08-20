@@ -3,7 +3,7 @@ title: CBEN_GETDISPINFO le code de notification (commctrl. h)
 description: Envoyé pour récupérer des informations d’affichage sur un élément de rappel. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: a181be28-0001-4953-8e59-77aff2dc40be
 keywords:
-- Contrôles Windows de code de notification CBEN_GETDISPINFO
+- CBEN_GETDISPINFO les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c3121d15b1482bdedf19a814a42e3309265909f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 896d282426c11f40fe949c73f44eb963a399c5c210e839198527f9bc903e2fdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413692"
 ---
 # <a name="cben_getdispinfo-notification-code"></a>\_Code de notification CBEN GETDISPINFO
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMCOMBOBOXEX**](/windows/desktop/api/Commctrl/ns-
 
 L’application traitant ce code de notification doit retourner zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure [**NMCOMBOBOXEX**](/windows/desktop/api/Commctrl/ns-commctrl-nmcomboboxexa) contient une structure [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) . Le membre de **masque** spécifie les informations demandées par le contrôle.
 
@@ -63,8 +63,8 @@ Remplissez les membres appropriés de la structure pour retourner les informatio
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **CBEN \_ GETDISPINFOW** (Unicode) et **CBEN \_ GETDISPINFOA** (ANSI)<br/>         |
 

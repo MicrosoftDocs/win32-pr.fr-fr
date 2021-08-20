@@ -4,12 +4,12 @@ description: Entier non signé soustrait avec emprunt.
 ms.assetid: 6D42E3CA-5A37-4194-AB42-7A2337C5AB9D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 111ffd134a75b8cfe19f63597cd80655201359c4
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e7c2f70f39729f5245f7044945e9d3b233ec4f0893be27c5143f5c55989693b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117721823"
 ---
 # <a name="usubb-sm5---asm"></a>usubb (SM5-ASM)
 
@@ -37,7 +37,7 @@ Entier non signé soustrait avec emprunt.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction effectue une soustraction non signée au niveau du composant des opérandes 32 bits *src1* à partir de *src0*, en plaçant la partie LSB du résultat 32 bits dans *dest0*.
 
@@ -49,7 +49,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -63,9 +63,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

@@ -4,12 +4,12 @@ ms.assetid: 85a9fe30-871b-4909-b789-3fc257ffdbff
 title: Autorisations, page de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69a3f4a42a193b0e25d6ee080a49bbb17cfa31cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81e8eacad4bb5e845d5da13ec0f50cc784b6e9e7446c78efffdaf456cea45d38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118912145"
 ---
 # <a name="permissions-property-page"></a>Autorisations, page de propriétés
 

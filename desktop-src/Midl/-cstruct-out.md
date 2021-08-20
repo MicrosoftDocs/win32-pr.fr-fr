@@ -11,12 +11,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 12/10/2020
-ms.openlocfilehash: 535e1630046b424493e2211c29248c18bf1ed798
-ms.sourcegitcommit: 9cf1ed65dfbea1ba118b63d0656f30c3685d8520
+ms.openlocfilehash: 212f79eaad18ba49d12a49e9a831d2b2b5365a87cb9a36c558879adf76e8bb98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385809"
 ---
 # <a name="cstruct_out-switch"></a>\_commutateur/cstruct out
 
@@ -30,9 +30,9 @@ midl /cstruct_out
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Certaines définitions d’interface (notamment celles de `d3d12.idl` ) contiennent des `__stdcall` méthodes qui retournent des structures. Les Abi C et C++ de MSVC diffèrent dans la manière dont ils implémentent les fonctions suivantes :
+Certaines définitions d’interface (notamment celles de `d3d12.idl` ) contiennent des `__stdcall` méthodes qui retournent des structures. les abi C et C++ de MSVC diffèrent dans la manière dont ils implémentent les fonctions suivantes :
 
 * C les traite comme des fonctions brutes qui prennent un `this` pointeur masqué comme premier paramètre. Le compilateur applique une petite optimisation de struct qui autorise les structs inférieurs à 8 octets (ou plus si toutes les valeurs sont à virgule flottante) d’être retournés dans les registres. Seules les structures plus grandes sont promues pour utiliser un paramètre masqué et une valeur de retour allouée par l’appelant.
 * C++ les traite comme des fonctions membres. Le compilateur effectue *toujours* cela en insérant un paramètre masqué (pointeur vers une valeur de retour allouée par l’appelant) en tant que deuxième paramètre, après le `this` pointeur. Elle retourne également le même pointeur que sa valeur de retour.

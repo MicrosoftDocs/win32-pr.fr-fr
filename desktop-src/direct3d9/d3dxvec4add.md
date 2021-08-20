@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 62747cec15c4a9916dfb42572006cbb9fc908b3e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 75b25101044f3934006739f2454dd792eb5bc29d6ae6df5b9fd6b10e54c427a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095279"
 ---
 # <a name="d3dxvec4add-function"></a>D3DXVec4Add fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) qui est la somme des deux vecteurs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec4Add** peut être utilisée comme paramètre pour une autre fonction.
 

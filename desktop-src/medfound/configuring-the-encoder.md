@@ -4,16 +4,16 @@ ms.assetid: 6845c3fb-38a8-4b0d-aea2-e10f7e518653
 title: Propriétés d’encodage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 093b72dc37501ca88882c6e3b530cda0eed1baa2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bc7a1528e68153c742ece8c8d7fcb34bfb9b7bbc08f86567f51b54754bb6da3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743491"
 ---
 # <a name="encoding-properties"></a>Propriétés d’encodage
 
-Les encodeurs Windows Media Audio et Windows Media Video prennent en charge un large éventail de modes d’encodage. Ces modes sont généralement configurés en définissant des propriétés sur l’encodeur [Media Foundation transformer](media-foundation-transforms.md) (MFT). Pour effectuer un encodage de fichier, qu’il s’agisse d’utiliser des composants de niveau WMContainer ou de créer une topologie partielle, vous devez configurer l’encodeur de manière appropriée en définissant des propriétés en fonction du mode d’encodage et du type de média du flux. Le même ensemble de propriétés doit être défini à la fois sur l’encodeur et sur l’objet (récepteur de fichiers ASF ou multiplexeur ASF) que vous utilisez pour écrire le fichier ASF.
+les encodeurs Windows Media Audio et Windows Media Video prennent en charge un large éventail de modes d’encodage. Ces modes sont généralement configurés en définissant des propriétés sur l’encodeur [Media Foundation transformer](media-foundation-transforms.md) (MFT). Pour effectuer un encodage de fichier, qu’il s’agisse d’utiliser des composants de niveau WMContainer ou de créer une topologie partielle, vous devez configurer l’encodeur de manière appropriée en définissant des propriétés en fonction du mode d’encodage et du type de média du flux. Le même ensemble de propriétés doit être défini à la fois sur l’encodeur et sur l’objet (récepteur de fichiers ASF ou multiplexeur ASF) que vous utilisez pour écrire le fichier ASF.
 
 Les propriétés de l’encodeur sont définies dans wmcodecdsp. h. Les propriétés spécifiques utilisées pour configurer l’encodeur sont définies à l’aide des méthodes de l’interface [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) .
 
@@ -76,7 +76,7 @@ Pour plus d’informations sur la création d’objets Media Foundation à l’a
 [Instanciation d’une table MFT d’encodeur](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Encodeurs Windows Media](windows-media-encoders.md)
+[Windows Encodeurs multimédias](windows-media-encoders.md)
 </dt> </dl>
 
  

@@ -4,18 +4,18 @@ ms.assetid: da67c486-d2e7-4632-ac7a-c18aabc3f21d
 title: Droits d’accès et masques d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32f06cdf447f9d91c1553ea5fb6b3b7d1f324dc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1238766e2e4c8629b6c3a508b30d1e8832314d2e8ddd5ffdf4a1b93085f3c64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914356"
 ---
 # <a name="access-rights-and-access-masks"></a>Droits d’accès et masques d’accès
 
 Un *droit d’accès* est un indicateur binaire qui correspond à un ensemble particulier d’opérations qu’un thread peut effectuer sur un objet sécurisable. Par exemple, une clé de registre a le \_ \_ droit d’accès à la valeur de jeu de clés, qui correspond à la capacité d’un thread à définir une valeur sous la clé. Si un thread essaie d’exécuter une opération sur un objet, mais n’a pas le droit d’accès nécessaire à l’objet, le système n’effectue pas l’opération.
 
-Un [*masque d’accès*](/windows/desktop/SecGloss/a-gly) est une valeur 32 bits dont les bits correspondent aux droits d’accès pris en charge par un objet. Tous les objets sécurisables Windows utilisent un [format de masque d’accès](access-mask-format.md) qui comprend des bits pour les types suivants de droits d’accès :
+Un [*masque d’accès*](/windows/desktop/SecGloss/a-gly) est une valeur 32 bits dont les bits correspondent aux droits d’accès pris en charge par un objet. tous les objets sécurisables Windows utilisent un [format de masque d’accès](access-mask-format.md) qui comprend des bits pour les types suivants de droits d’accès :
 
 -   [Droits d’accès génériques](generic-access-rights.md)
 -   [Droits d’accès standard](standard-access-rights.md)
@@ -28,7 +28,7 @@ Le tableau suivant présente les fonctions qui manipulent les informations de s�
 
 
 
-| Type d'objet                                                                                                                                           | Fonctions du descripteur de sécurité                                                                                                                                                                      |
+| Type d’objet                                                                                                                                           | Fonctions du descripteur de sécurité                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Fichiers ou répertoires](/windows/desktop/FileIO/file-security-and-access-rights) sur un système de fichiers NTFS                                                                     | [**GetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getnamedsecurityinfoa), [**SetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa), [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo), [**SetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo) |
 | Canaux [nommés](/windows/desktop/ipc/named-pipe-security-and-access-rights)canaux[anonymes](/windows/desktop/ipc/anonymous-pipe-security-and-access-rights)<br/>                 | [**GetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-getsecurityinfo), [ **SetSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-setsecurityinfo)                                                                                                             |

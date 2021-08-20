@@ -4,12 +4,12 @@ ms.assetid: 40df7410-64d6-4edd-8009-d9c3d2aca920
 title: stockage local des threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e17d2ff7a1ff253ce5a20b3921cc9605bf2989f6
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: a32c1630fb5690fc3ade4d319e7787c5287b27c270a9b43e3825e547e68bd4c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104566307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792997"
 ---
 # <a name="thread-local-storage"></a>stockage local des threads
 

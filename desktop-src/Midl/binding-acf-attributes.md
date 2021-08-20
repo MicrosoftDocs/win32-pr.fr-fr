@@ -6,12 +6,12 @@ keywords:
 - ACF MIDL, attributs, liaison
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2a2e9ac9ada0ee33c4930005add6a1ca031ee5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c32b4d53cea81ed2a69a702a1a58942834a538ffbef75cb11315dd792882bf89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385225"
 ---
 # <a name="binding-acf-attributes"></a>Liaison d’attributs ACF
 
@@ -19,9 +19,9 @@ Spécifiez la façon dont le client se connecte au serveur pour les appels de pr
 
 
 
-| Attribut                                                          | Utilisation                                                                                                                                                                                                              |
+| Attribut                                                          | Usage                                                                                                                                                                                                              |
 |--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**async**](async.md)                                             | Définit un handle qui permet à l’appelant de passer un appel asynchrone et de retourner immédiatement sans attendre les résultats, puis de se resynchroniser avec la fonction appelée pour recevoir des données une fois l’appel terminé. |
+| [**Suppr**](async.md)                                             | Définit un handle qui permet à l’appelant de passer un appel asynchrone et de retourner immédiatement sans attendre les résultats, puis de se resynchroniser avec la fonction appelée pour recevoir des données une fois l’appel terminé. |
 | [**\_handle automatique**](auto-handle.md)                                | Indique à MIDL de laisser le code stub contrôler automatiquement la liaison. Il s’agit de la valeur par défaut si vous ne spécifiez pas de handle de liaison.                                                                                    |
 | [**handle de contexte \_ \_ noserialize**](context-handle-noserialize.md) | Garantit qu’un handle de contexte ne sera jamais sérialisé, quel que soit le comportement par défaut de l’application.                                                                                                       |
 | [**\_sérialisation du handle de contexte \_**](context-handle-serialize.md)     | Garantit qu’un handle de contexte sera toujours sérialisé, quel que soit le comportement par défaut de l’application.                                                                                                       |
@@ -31,11 +31,11 @@ Spécifiez la façon dont le client se connecte au serveur pour les appels de pr
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

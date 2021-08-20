@@ -4,12 +4,12 @@ ms.assetid: e45d055f-d404-47e9-b3c8-ac743b290138
 title: Attribut MF_PD_ASF_METADATA_LEAKY_BUCKET_PAIRS (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7426d15a806a8c61c9a2ea1fdfb0565372c5f48f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9444292ad437551622e1f418a6f21198ecd8341f01e4e5bda0a2047f847cfd37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740747"
 ---
 # <a name="mf_pd_asf_metadata_leaky_bucket_pairs-attribute"></a>\_Attribut des \_ \_ paires de \_ \_ compartiments avec fuite de métadonnées ASF PD \_
 
@@ -19,7 +19,7 @@ Spécifie une liste de vitesses de transmission et les fenêtres de mémoire tam
 
 Tableau d’octets
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
@@ -46,7 +46,7 @@ typedef struct _WMLeakyBucketPair {
 Pour chaque vitesse de transmission, le membre **msBufferWindow** indique la quantité de contenu mis en mémoire tampon avant le début de la lecture, en millisecondes. La taille de la mémoire tampon en octets est égale à **msBufferWinow** x **dwBitrate** /8000.
 
 > [!Note]  
-> Cet attribut correspond à l’attribut **ASFLeakyBucketPairs** dans le kit de développement logiciel (SDK) du format Windows Media.
+> cet attribut correspond à l’attribut **ASFLeakyBucketPairs** dans le kit de développement logiciel (SDK) de Format multimédia Windows.
 
  
 
@@ -56,8 +56,8 @@ Pour chaque vitesse de transmission, le membre **msBufferWindow** indique la qua
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

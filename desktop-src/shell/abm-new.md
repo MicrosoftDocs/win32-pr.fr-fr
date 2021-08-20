@@ -4,12 +4,12 @@ ms.assetid: 1da9db13-6fdc-44b3-9985-de32d572675a
 title: Message ABM_NEW (shellapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fad11e6712d0afd0c1a5e9de07fd3d690800db13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 400439e6808d40eb74c18fa4219109a0abca1973cdac4dcb9de5154384fd0071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460966"
 ---
 # <a name="abm_new-message"></a>ABM \_ un nouveau message
 
@@ -37,13 +37,13 @@ Pointeur vers une structure [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-sh
 
 Retourne la **valeur true** en cas de réussite, ou **false** si une erreur se produit ou si le appbar est déjà inscrit.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Shellapi. h</dt> </dl> |
 

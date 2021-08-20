@@ -4,12 +4,12 @@ ms.assetid: f9789f1d-35bf-40d6-9724-d5a160a0d06d
 title: Table des médias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a59cd8bf864aa890891873ed92a39225c6eebdf
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 29939553e64fb6558aa6480fb69b7beab208a4ccb3e2c9ce55c4d8fcbfc18cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805094"
 ---
 # <a name="media-table"></a>Table des médias
 
@@ -46,7 +46,7 @@ Détermine l’ordre de tri de la table. Ce nombre doit être supérieur ou éga
 <span id="LastSequence"></span><span id="lastsequence"></span><span id="LASTSEQUENCE"></span>LastSequence
 </dt> <dd>
 
-Numéro de séquence du fichier pour le dernier fichier de ce média. Les nombres dans la colonne LastSequence spécifient les fichiers de la table de [fichiers](file-table.md) qui se trouvent sur un disque source particulier. Chaque disque source contient tous les fichiers avec des numéros de séquence (comme indiqué dans la colonne séquence de la table file) inférieurs ou égaux à la valeur de la colonne LastSequence et supérieur à la valeur LastSequence du disque précédent (ou supérieur à 0, pour la première entrée de la table Media). Ce nombre ne doit pas être négatif. la limite maximale est de 32767 fichiers. Pour plus d’informations sur la création d’un package Windows Installer avec d’autres fichiers, consultez [création d’un package volumineux](authoring-a-large-package.md).
+Numéro de séquence du fichier pour le dernier fichier de ce média. Les nombres dans la colonne LastSequence spécifient les fichiers de la table de [fichiers](file-table.md) qui se trouvent sur un disque source particulier. Chaque disque source contient tous les fichiers avec des numéros de séquence (comme indiqué dans la colonne séquence de la table file) inférieurs ou égaux à la valeur de la colonne LastSequence et supérieur à la valeur LastSequence du disque précédent (ou supérieur à 0, pour la première entrée de la table Media). Ce nombre ne doit pas être négatif. la limite maximale est de 32767 fichiers. pour plus d’informations sur la création d’un package Windows Installer avec d’autres fichiers, consultez [création d’un package volumineux](authoring-a-large-package.md).
 
 </dd> <dt>
 
@@ -60,7 +60,7 @@ Le nom du disque, qui est généralement le texte visible imprimé sur le disque
 <span id="Cabinet"></span><span id="cabinet"></span><span id="CABINET"></span>CAB
 </dt> <dd>
 
-Nom de l’armoire si certains ou l’ensemble des fichiers stockés sur le support sont compressés dans un fichier CAB. Si aucune armoire n’est utilisée, cette colonne doit être vide. Le nom du fichier cab doit utiliser la syntaxe du type de données [Cabinet](cabinet.md) . Windows Installer requiert toujours une source valide pour réparer les fichiers inclus dans les fichiers CAB incorporés. Lorsque Windows Installer installe un package contenant un fichier CAB incorporé, une copie du fichier CAB peut être enregistrée par le système. Cette copie ne peut pas être utilisée pour réparer le fichier CAB. Pour économiser de l’espace disque, utilisez des fichiers CAB externes plutôt que des fichiers CAB incorporés.
+Nom de l’armoire si certains ou l’ensemble des fichiers stockés sur le support sont compressés dans un fichier CAB. Si aucune armoire n’est utilisée, cette colonne doit être vide. Le nom du fichier cab doit utiliser la syntaxe du type de données [Cabinet](cabinet.md) . Windows Le programme d’installation requiert toujours une source valide pour réparer les fichiers inclus dans les fichiers CAB incorporés. lorsque Windows Installer installe un package contenant un fichier cab incorporé, une copie du fichier cab peut être enregistrée par le système. Cette copie ne peut pas être utilisée pour réparer le fichier CAB. Pour économiser de l’espace disque, utilisez des fichiers CAB externes plutôt que des fichiers CAB incorporés.
 
 </dd> <dt>
 
@@ -78,13 +78,13 @@ Ce champ est utilisé uniquement par la mise à jour corrective et n’est pas v
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le nom du fichier cab est précédé d’un signe dièse ( \# ), les fichiers qui font référence à cet enregistrement de table de média sont empaquetés dans un fichier CAB stocké dans la base de données sous la forme d’un flux distinct.
 
 Pour plus d’informations sur l’ajout d’armoires aux tables de fichiers et aux tables multimédias, consultez [utilisation des armoires et des sources compressées](using-cabinets-and-compressed-sources.md).
 
-Windows Installer nécessite que le fichier. msi se trouve sur le premier disque d’un support amovible (CD, DVD ou disquette) utilisé pour l’installation du produit.
+Windows Le programme d’installation de nécessite que le fichier .msi se trouve sur le premier disque d’un support amovible (CD, DVD ou disquette) utilisé pour l’installation du produit.
 
 **Détermination de la SourceMode**
 

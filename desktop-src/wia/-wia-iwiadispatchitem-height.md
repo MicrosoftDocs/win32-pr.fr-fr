@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 16b4b4a259bf4e1c77fde592c5668f8584b28ecd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9828fddf5630bfa1513fdb7913087054ad2c2c533468d69ca9b1b63e79b0341
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208345"
 ---
 # <a name="itemheight-property"></a>Item. Height, propriété
 
@@ -39,7 +39,7 @@ propVal = Item.Height
 
 Variable qui reçoit la hauteur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément est un appareil photo numérique, la propriété **Height** représente la hauteur des images générées par cette caméra. Si l’élément est un scanneur, cette propriété représente la hauteur de la vitre de numérisation. Si l’élément est une image, cette propriété représente la hauteur réelle de l’image.
 
@@ -49,8 +49,8 @@ Si l’élément est un appareil photo numérique, la propriété **Height** rep
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e422bbe59414d75541127b41e5e2cc1829adaaa7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: beb9e82a27717b33bcd0e06f5cd5bc23a3c43bc3a67cf70068f1a9eeb31b08bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106516500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911092"
 ---
 # <a name="winbio_bir-structure"></a>WINBIO \_ Bir, structure
 
@@ -53,7 +53,7 @@ Structure [**de \_ \_ données WINBIO Bir**](winbio-bir-data.md) qui contient la
 **StandardDataBlock**
 </dt> <dd>
 
-Structure [**de \_ \_ données WINBIO Bir**](winbio-bir-data.md) qui contient la taille, en octets, et l’offset des informations biométriques traitées ou non traitées créées par le Windows Biometric Framework (WBF).
+structure [**de \_ \_ données WINBIO BIR**](winbio-bir-data.md) qui contient la taille, en octets, et l’offset des informations biométriques traitées ou non traitées créées par le Windows Biometric Framework (WBF).
 
 </dd> <dt>
 
@@ -71,13 +71,13 @@ Structure de [**\_ \_ données WINBIO Bir**](winbio-bir-data.md) facultative qui
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’utilisation de décalages plutôt que de pointeurs permet de faciliter la sérialisation du BIR et de la traduction moins compliquée entre les environnements 32 et 64 bits ou entre l’utilisateur et le mode noyau.
 
-BIR est compatible avec la structure Common Exchange format (CBEFF) définie par le NIST 6529-A.
+le BIR est compatible avec l’infrastructure de Format de Exchange biométrique commune (CBEFF) définie par le NIST 6529-A.
 
-Si cette structure contient une valeur *StandardDataBlock* , le paramètre de *type* de l’en-tête spécifié par le paramètre *HeaderBlock* doit être défini sur le **\_ \_ \_ \_ type de format ANSI 381 WINBIO**. Il s’agit du seul format de données standard pris en charge par la version actuelle du Windows Biometric Framework.
+Si cette structure contient une valeur *StandardDataBlock* , le paramètre de *type* de l’en-tête spécifié par le paramètre *HeaderBlock* doit être défini sur le **\_ \_ \_ \_ type de format ANSI 381 WINBIO**. il s’agit du seul format de données standard pris en charge par la version actuelle du Windows Biometric Framework.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -85,8 +85,8 @@ Si cette structure contient une valeur *StandardDataBlock* , le paramètre de *t
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

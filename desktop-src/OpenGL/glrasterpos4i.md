@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 952038f7a956722db8a40634bfc4175612e530be
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fcec7fb1e4ee30c0c6c7bfbab1e23002ff70b950048a2454a67e15ee7af8889f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103869746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795050"
 ---
 # <a name="glrasterpos4i-function"></a>glRasterPos4i fonction)
 
@@ -57,7 +57,7 @@ Spécifie la coordonnée y de la position raster actuelle.
 
 </dd> <dt>
 
-*z* 
+*Lettre* 
 </dt> <dd>
 
 Spécifie la coordonnée z de la position de la trame actuelle.
@@ -75,7 +75,7 @@ Coordonnée w pour la position raster actuelle.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 OpenGL gère une position 3D dans les coordonnées de la fenêtre. Cette position, appelée position raster, est conservée avec la précision des sous-pixels. Il est utilisé pour positionner les opérations d’écriture de pixel et de bitmap. Consultez [**glBitmap**](glbitmap.md), [**glDrawPixels**](gldrawpixels.md)et [**glCopyPixels**](glcopypixels.md).
 

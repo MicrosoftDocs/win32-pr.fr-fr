@@ -7,12 +7,12 @@ keywords:
 - Recherche d’une liste d’attributs pour interroger Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4b6fb6b4d948a7cbc4d76caba9b78e189324eaa
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5e0edfee59c42a8cf07be05ab31e58c0298f7285c8a02de659257e3b3cd14bfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189189"
 ---
 # <a name="finding-a-list-of-attributes-to-query"></a>Recherche d’une liste d’attributs à interroger
 
@@ -29,8 +29,8 @@ En outre, certains attributs, principalement sur l’objet utilisateur, sont con
 > [!Note]  
 > Pour plus d’informations sur les classes et les attributs prédéfinis inclus dans le système, consultez [Active Directory Domain Services référence](active-directory-domain-services-reference.md). Ces pages répertorient les attributs obligatoires et facultatifs de chaque classe d’objet. Pour les attributs, la page de référence indique si l’attribut est indexé, construit, lié ou dans le catalogue global.
 
- 
+ 
 
- 
+ 
 
- 
+ 
