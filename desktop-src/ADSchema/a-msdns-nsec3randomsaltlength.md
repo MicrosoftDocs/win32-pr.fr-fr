@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4860aa20af91c36f266801e623bd6a0cf9098a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 88e254bee9dba9d58d7f748c6a9fa7e8521e155181069c3affea68786356168f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553029"
 ---
 # <a name="ms-dns-nsec3-random-salt-length-attribute"></a>MS-DNS-NSEC3-Random-sel-Length, attribut
 
@@ -36,7 +36,7 @@ Attribut qui définit la longueur, en octets, du Salt aléatoire utilisé lors d
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2137              |
 | System-ID-GUID    | 13361665-916c-4de7-a59d-b1ebbd0de129 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

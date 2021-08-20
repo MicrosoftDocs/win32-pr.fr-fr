@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27c7a6d8626fd1173239d5a3c98e92ece48414a5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c229f9630f253742754d7ac9bc3dc07009bdf9f39cd0e6bb69b46532b6ed863d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119550959"
 ---
 # <a name="mssfu-30-result-attributes-attribute"></a>attribut msSFU-30-result-Attributes
 
@@ -43,7 +43,7 @@ Contient un objet que le serveur NIS utilise pour le stockage temporaire.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

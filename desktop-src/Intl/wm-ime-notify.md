@@ -4,12 +4,12 @@ ms.assetid: 20e064b8-2baf-4b4c-8341-36c3e4643eff
 title: Message WM_IME_NOTIFY (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca5ab1b2a1fd62d159ab4f216bf9b1bb6892ed69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a072ff41b5731662afa94e387ec48de7d14bc245906e581303fe976dcf455708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014217"
 ---
 # <a name="wm_ime_notify-message"></a>Message WM_IME_NOTIFY
 
@@ -72,7 +72,7 @@ Données spécifiques à la commande, avec un format dépendant de la valeur du 
 
 La valeur de retour dépend de la commande envoyée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application traite ce message s’il est responsable de la gestion de la fenêtre IME.
 
@@ -84,7 +84,7 @@ Une application traite ce message s’il est responsable de la gestion de la fen
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                                                                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                                                                                                      |
-| En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h); </dt> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h);</dt> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

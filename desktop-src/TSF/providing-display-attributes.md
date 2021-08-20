@@ -9,12 +9,12 @@ keywords:
 - attributs d'affichage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 780cc191e39d5b1d0c3329bab87af5267e4a6c73
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d1b14b39b9c2c0f942fbe9b3ab3caf3112bbec4e7b18fc15e488345c75927d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118875652"
 ---
 # <a name="providing-display-attributes"></a>Fournir des attributs d’affichage
 

@@ -1,74 +1,74 @@
 ---
-title: Pilotes Microsoft Windows Sound System
-description: Pilotes Microsoft Windows Sound System
+title: pilotes Microsoft Windows Sound System
+description: pilotes Microsoft Windows Sound System
 ms.assetid: 226ed685-70a0-440f-8e55-c25807cd89c1
 keywords:
-- Windows Multimedia, pilotes de système audio
+- Windows multimédia, pilotes de système audio
 - multimédia, pilotes de système audio
 - pilotes de système audio
 - pilotes de système audio multimédia
 - Pilotes Sound Blaster
-- Pilotes WSS NT
+- WSS Pilotes NT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 153cb8fa8159ec34e52c9d246bfd0b6f34329a40
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 02320fd17a5c3edf20f043fab015169ff0c9bb62b4abffd71e0e66f197f8941e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137521"
 ---
-# <a name="microsoft-windows-sound-system-drivers"></a>Pilotes Microsoft Windows Sound System
+# <a name="microsoft-windows-sound-system-drivers"></a>pilotes Microsoft Windows Sound System
 
 
 
 | Pilote                            | Identificateur                         |
 |-----------------------------------|------------------------------------|
 | Sortie de forme d’onde Sound Blaster 16  | MM \_ msft \_ SB16 \_ WAVEOUT            |
-| Sound Blaster 16 pour (CD)         | MM \_ WSS \_ SB16 \_ sur \_ CD             |
+| Sound Blaster 16 pour (CD)         | MM \_ WSS \_ SB16 \_ aux \_             |
 | Sound Blaster 16 pour (CD)         | MM \_ msft \_ SB16 \_ sur \_ CD            |
-| Sound Blaster 16 aux (ligne en)    | MM \_ ligne at WSS \_ SB16 \_ \_           |
+| Sound Blaster 16 aux (ligne en)    | MM \_ WSS à la \_ \_ \_ ligne           |
 | Sound Blaster 16 aux (ligne en)    | MM \_ msft \_ SB16 \_ aux \_          |
-| Son synthétiseur FM Sound Blaster 16   | \_ \_ Synthétiseur WSS SB16 de mm \_               |
+| Son synthétiseur FM Sound Blaster 16   | SYNTH. MM \_ WSS \_ SB16 \_               |
 | Son synthétiseur FM Sound Blaster 16   | Synth’MM \_ msft \_ SB16 \_              |
 | Sound Blaster 16 sortie MIDI         | MM \_ WSS \_ SB16 \_ MIDIOUT             |
 | Sound Blaster 16 sortie MIDI         | MM \_ msft \_ SB16 \_ MIDIOUT            |
 | Sound Blaster 16 MIDI          | MM \_ \_ midi WSS SB16 \_              |
 | Sound Blaster 16 MIDI          | MM \_ \_ midi- \_ midi SB16             |
-| Périphérique mixage Sound Blaster 16     | \_ \_ \_ Mélangeur WSS SB16               |
+| Périphérique mixage Sound Blaster 16     | \_MIXER MM WSS \_ SB16 \_               |
 | Périphérique mixage Sound Blaster 16     | \_Mixer mm \_ - \_ mixage SB16              |
-| Entrée de forme d’onde Sound Blaster 16   | MM \_ Wave de WSS \_ SB16 \_              |
+| Entrée de forme d’onde Sound Blaster 16   | MM \_ WSS \_ \_ wave SB16              |
 | Entrée de forme d’onde Sound Blaster 16   | MM \_ \_ Wave SB16 \_             |
 | Sortie de forme d’onde Sound Blaster 16  | MM \_ WSS \_ SB16 \_ WAVEOUT             |
-| Sound Blaster Pro sur (CD)        | MM \_ WSS \_ SBPRO \_ sur \_ CD-ROM            |
-| Sound Blaster Pro sur (CD)        | MM \_ msft \_ SBPRO \_ sur \_ CD-ROM           |
-| Sound Blaster Pro pour (ligne)   | MM \_ \_ SBPRO des \_ lignes auxiliaires WSS \_          |
-| Sound Blaster Pro pour (ligne)   | MM \_ msft \_ SBPRO \_ aux \_ lignes         |
-| Sound Blaster Pro photosynthétiseur FM  | \_ \_ SBPRO \_ synthétiseur WSS de mm              |
-| Sound Blaster Pro photosynthétiseur FM  | \_ \_ SBPRO \_ synthic msft             |
-| Sound Blaster Pro MIDI dans         | MM \_ \_ midi SBPRO \_ midi             |
-| Sound Blaster Pro MIDI dans         | MM \_ \_ SBPRO \_ midi            |
-| Sound Blaster Pro sortie MIDI        | MM \_ WSS \_ SBPRO \_ MIDIOUT            |
-| Sound Blaster Pro sortie MIDI        | MM \_ msft \_ SBPRO \_ MIDIOUT           |
-| Mixage Sound Blaster Pro           | MM \_ \_ \_ mélangeur WSS SBPRO              |
-| Mixage Sound Blaster Pro           | MM \_ \_ mixer SBPRO \_ msft             |
-| Entrée de forme d’onde Sound Blaster Pro  | MM \_ \_ SBPRO \_ Wave WSS             |
-| Entrée de forme d’onde Sound Blaster Pro  | MM \_ \_ SBPRO \_ Wave            |
-| Sortie de forme d’onde Sound Blaster Pro | MM \_ WSS \_ SBPRO \_ WAVEOUT            |
-| Sortie de forme d’onde Sound Blaster Pro | MM \_ msft \_ SBPRO \_ WAVEOUT           |
-| WSS NT aux                        | MM \_ msft \_ WSS \_ NT \_             |
-| Synthétiseur FM WSS NT             | MM \_ msft \_ WSS \_ NT \_ FMSYNTH \_ |
-| Mélangeur WSS NT                      | \_ \_ \_ mélangeur WSS NT \_ de mm msft           |
-| Wave WSS NT dans                    | MM \_ \_ Wave WSS \_ NT \_ msft          |
-| Sortie Wave WSS NT                   | MM \_ msft \_ WSS \_ NT \_ WAVEOUT         |
+| sound Blaster Pro aux (CD)        | MM \_ WSS \_ SBPRO \_ sur \_ CD-rom            |
+| sound Blaster Pro aux (CD)        | MM \_ msft \_ SBPRO \_ sur \_ CD-ROM           |
+| sound Blaster Pro aux (ligne)   | MM \_ WSS \_ SBPRO \_ aux \_ lignes          |
+| sound Blaster Pro aux (ligne)   | MM \_ msft \_ SBPRO \_ aux \_ lignes         |
+| sound Blaster Pro synthétiseur FM  | \_ \_ synthétiseur SBPRO MM WSS \_              |
+| sound Blaster Pro synthétiseur FM  | \_ \_ SBPRO \_ synthic msft             |
+| sound Blaster Pro MIDI dans         | MM \_ WSS \_ \_ midi SBPRO             |
+| sound Blaster Pro MIDI dans         | MM \_ \_ SBPRO \_ midi            |
+| sound Blaster Pro sortie MIDI        | MM \_ WSS \_ SBPRO \_ MIDIOUT            |
+| sound Blaster Pro sortie MIDI        | MM \_ msft \_ SBPRO \_ MIDIOUT           |
+| mélangeur sound Blaster Pro           | \_SBPRO MM \_ WSS \_ MIXER              |
+| mélangeur sound Blaster Pro           | MM \_ \_ mixer SBPRO \_ msft             |
+| sound Blaster Pro entrée de forme d’onde  | MM \_ WSS \_ \_ wave SBPRO             |
+| sound Blaster Pro entrée de forme d’onde  | MM \_ \_ SBPRO \_ Wave            |
+| sound Blaster Pro sortie de forme d’onde | MM \_ WSS \_ SBPRO \_ WAVEOUT            |
+| sound Blaster Pro sortie de forme d’onde | MM \_ msft \_ SBPRO \_ WAVEOUT           |
+| WSS NT aux                        | MM \_ MSFT \_ WSS \_ NT \_ aux             |
+| WSS Synthétiseur FM NT             | MM \_ MSFT \_ WSS \_ NT \_ FMSYNTH \_ STEREO |
+| WSS Mélangeur NT                      | \_MIXER MM MSFT \_ WSS \_ NT \_           |
+| WSS Wave NT dans                    | MM \_ MSFT \_ WSS \_ \_ wave NT          |
+| WSS Sortie de l’onde NT                   | MM \_ MSFT \_ WSS \_ NT \_ WAVEOUT         |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

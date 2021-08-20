@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: fe9e3508273a3ee52d72ede65fd6575d72decb8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4f72edf2a3532c6d0f2641d979885e6d294c2ad923a28f19b71b348ea3a6377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051997"
 ---
 # <a name="iwinhttprequestwaitforresponse-method"></a>IWinHttpRequest :: WaitForResponse, méthode
 
@@ -70,14 +70,14 @@ Reçoit l’une des valeurs suivantes.
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode interrompt l’exécution en attendant une réponse à une requête asynchrone. Cette méthode doit être appelée après un [**envoi**](iwinhttprequest-send.md). L’appel d’applications peut spécifier une valeur de *délai d’attente* facultative, en secondes. Si cette méthode expire, la demande n’est pas abandonnée. De cette façon, l’application appelante peut continuer à attendre la demande, le cas échéant, dans un appel ultérieur à cette méthode.
 
 L’appel de cette propriété après une méthode d' [**envoi**](iwinhttprequest-send.md) synchrone retourne immédiatement et n’a aucun effet.
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
@@ -205,8 +205,8 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 675287c2-9394-4d32-8ef4-9bb64794d326
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 755df4aba2be70bf4f76e1bcf37629bfe492495e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3f8824eb5ed60011f3af206d0eacd9c41e69d2ed64c5f9b7d37a98d703f6dc26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162741"
 ---
 # <a name="r-dns"></a>R (DNS)
 
@@ -28,7 +28,7 @@ Nom qui identifie de façon unique un hôte dans son propre domaine, mais pas da
 <span id="_dns_resolver_gly"></span><span id="_DNS_RESOLVER_GLY"></span>**outil**
 </dt> <dd>
 
-Composant logiciel intégré à la pile Windows Transmission Control Protocol/Internet Protocol (TCP/IP) qui communique avec les serveurs DNS pour créer et résoudre des requêtes de résolution de noms.
+composant logiciel regroupé dans la pile TCP/IP (Transmission control protocol/Internet protocol) Windows qui communique avec les serveurs DNS pour créer et résoudre des requêtes de résolution de noms.
 
 </dd> <dt>
 

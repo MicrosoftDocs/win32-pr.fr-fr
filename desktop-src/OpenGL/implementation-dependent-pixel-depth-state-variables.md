@@ -1,6 +1,6 @@
 ---
-title: Implementation-Dependent les variables d’État Pixel-Depth
-description: Implementation-Dependent les variables d’État Pixel-Depth
+title: Densité de pixels, variables d’état dépendantes de l’implémentation
+description: Densité de pixels, variables d’état dépendantes de l’implémentation
 ms.assetid: 3e1de9fe-dce5-437f-ae21-875958660da9
 keywords:
 - Implementation-Dependent les variables d’État Pixel-Depth OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fbee3de10d0a4749aea88c238636040b023dc3fe
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 556e95ae587f44bf41fc1d6f3e9dd0e2fc1351c8dcef9171ffb5d6dba7de134d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554089"
 ---
-# <a name="implementation-dependent-pixel-depth-state-variables"></a>Implementation-Dependent les variables d’État Pixel-Depth
+# <a name="implementation-dependent-pixel-depth-state-variables"></a>Densité de pixels, variables d’état dépendantes de l’implémentation
 
 <dl> <dt><span id="GL_RED_BITS"></span><span id="gl_red_bits"></span>\_bits rouges \_</dt> <dd> 
 

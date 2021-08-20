@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec73b5cb9833c15a77c96a784e1ded88d266f9a6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 614abaf4c124aa0a6e1ca5f7da347ab4a9a2264e174c91734e6a75b188500a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014057"
 ---
 # <a name="use_epv-switch"></a>\_commutateur/utilisez EPV
 
@@ -31,7 +31,7 @@ midl /use_epv
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, les applications requièrent une liaison statique à la routine d’application serveur. Le compilateur MIDL génère ce type d’appel par défaut. Toutefois, si une application requiert que le stub serveur appelle la routine d’application serveur à l’aide de EPV, le commutateur **/Utilisez \_ EPV** doit être spécifié. Quand le commutateur **/Utilisez \_ EPV** est spécifié, le compilateur MIDL génère un EPV par défaut. Ce EPV par défaut est ensuite utilisé si l’application n’enregistre pas un autre EPV via l’appel [**RpcServerRegisterIf**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif) .
 
@@ -55,6 +55,6 @@ En règle générale, les applications requièrent une liaison statique à la ro
 [**RpcServerRegisterIf**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

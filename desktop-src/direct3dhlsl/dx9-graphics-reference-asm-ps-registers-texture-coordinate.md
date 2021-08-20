@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 456ea0da6c1c23f51dbdba357f18de747b318e6a
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 42ef86bba7ca3c31f6158a6aee8d3228cd696fa500f4066b2ef7492558c307c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104971627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118090024"
 ---
 # <a name="texture-coordinate-register-hlsl-ps-reference"></a>Registre de coordonnées de texture (référence PS HLSL)
 
@@ -28,7 +28,7 @@ Registre d’entrée de nuanceur de pixels contenant des coordonnées de texture
 
 
 
- 
+ 
 
 Un registre de coordonnées de texture contient des données de coordonnée de texture. Avant d’utiliser un registre de coordonnées de texture, il doit être déclaré par une déclaration de nuanceur de pixels. Pour plus d’informations sur la façon de déclarer un registre de texture, consultez [DCL-(SM2, SM3-PS ASM)](dcl---ps.md).
 
@@ -49,9 +49,9 @@ En outre, Voici d’autres propriétés des registres de coordonnées de texture
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

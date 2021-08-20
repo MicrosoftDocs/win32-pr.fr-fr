@@ -1,19 +1,19 @@
 ---
 title: Utilisation d’NDF
-description: Network Diagnostics Framework (NDF) est fourni avec Windows Vista, Windows Server 2008 et versions ultérieures.
+description: Network diagnostics Framework (NDF) est fourni avec Windows Vista, Windows Server 2008 et versions ultérieures.
 ms.assetid: 1eccd402-5b5a-46a0-91df-98b5c70a5967
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 380bf4c9770ca2791a825a06ba08f409b6f3eb15
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7a5c020be46aac69190c3af2fbe4ce329e67b8ef80a9bc9de212ead111f720a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780589"
 ---
 # <a name="using-ndf"></a>Utilisation d’NDF
 
-Network Diagnostics Framework (NDF) est fourni avec Windows Vista, Windows Server 2008 et versions ultérieures. NDF peut être utilisé par les développeurs de logiciels pour diagnostiquer et résoudre les problèmes réseau qui peuvent être à l’origine de l’échec de leurs applications. Les développeurs peuvent utiliser des API fournies par Microsoft qui connectent leurs applications à NDF. Dans certains cas, les développeurs peuvent également générer des extensions de classe d’assistance NDF pour aider à diagnostiquer les problèmes spécifiques à leur logiciel réseau.
+Network diagnostics Framework (NDF) est fourni avec Windows Vista, Windows Server 2008 et versions ultérieures. NDF peut être utilisé par les développeurs de logiciels pour diagnostiquer et résoudre les problèmes réseau qui peuvent être à l’origine de l’échec de leurs applications. Les développeurs peuvent utiliser des API fournies par Microsoft qui connectent leurs applications à NDF. Dans certains cas, les développeurs peuvent également générer des extensions de classe d’assistance NDF pour aider à diagnostiquer les problèmes spécifiques à leur logiciel réseau.
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -30,11 +30,11 @@ Network Diagnostics Framework (NDF) est fourni avec Windows Vista, Windows Serve
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

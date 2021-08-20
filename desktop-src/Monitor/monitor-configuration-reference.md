@@ -10,12 +10,12 @@ keywords:
 - configuration de l’analyse, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ad595d8cc86820d96065a5b0b9807c80b28af09
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65ebd8ffcd546eb65c355d3e1bacf4a76944bc597a9b0cd9550d4b2d8be260fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013417"
 ---
 # <a name="monitor-configuration-reference"></a>Référence de configuration de l’analyse
 
@@ -32,9 +32,9 @@ Les éléments suivants prennent en charge la configuration de l’analyse.
 [Configuration de l’analyse](monitor-configuration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

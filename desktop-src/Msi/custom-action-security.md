@@ -4,12 +4,12 @@ ms.assetid: 62a3d103-a786-4727-b757-3a8229c8a53f
 title: Sécurité des actions personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e7d36e0e5c6cecc61730144fb7efdeed63ba0fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0a8011640bea177ec253f555b6ff83302541b640a050ccf861eb345c58ca13f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143309"
 ---
 # <a name="custom-action-security"></a>Sécurité des actions personnalisées
 
@@ -51,7 +51,7 @@ Si le bit **msidbCustomActionTypeNoImpersonate** n’est pas défini pour une ac
 
 Si le bit **msidbCustomActionTypeNoImpersonate** est défini et qu’une application managée est en cours d’installation avec l’autorisation administrateur, le programme d’installation peut exécuter l’action personnalisée avec des privilèges élevés. Toutefois, si un utilisateur tente d’installer l’application gérée sans autorisation d’administrateur, le programme d’installation exécute l’application avec des privilèges de niveau utilisateur, que **msidbCustomActionTypeNoImpersonate** soit défini ou non.
 
-Notez qu’une action personnalisée peut s’exécuter avec des privilèges système même si le bit **msidbCustomActionTypeNoImpersonate** n’est pas défini. Cela se produit si un administrateur installe l’application pour tous les utilisateurs sur un serveur exécutant le service de rôle Terminal Server à l’aide de Windows 2000 et que l’action n’est pas marquée avec **msidbCustomActionTypeTSAware**. Une action personnalisée peut également s’exécuter avec des privilèges système si l’installation est appelée en l’absence de contexte utilisateur. Par exemple, s’il n’y a pas d’utilisateur actuellement connecté pendant une installation appelée par le déploiement d’applications Windows 2000.
+Notez qu’une action personnalisée peut s’exécuter avec des privilèges système même si le bit **msidbCustomActionTypeNoImpersonate** n’est pas défini. cela se produit si un administrateur installe l’application pour tous les utilisateurs sur un serveur exécutant le service de rôle Terminal Server à l’aide de Windows 2000 et que l’action n’est pas marquée avec **msidbCustomActionTypeTSAware**. Une action personnalisée peut également s’exécuter avec des privilèges système si l’installation est appelée en l’absence de contexte utilisateur. par exemple, s’il n’y a pas d’utilisateur actuellement connecté pendant une installation appelée par Windows déploiement d’Application 2000.
 
 Lorsque vous créez vos propres actions personnalisées, vous devez toujours créer l’action personnalisée à l’aide de méthodes sécurisées. Pour plus d’informations, consultez [instructions pour la sécurisation des actions personnalisées](guidelines-for-securing-custom-actions.md).
 

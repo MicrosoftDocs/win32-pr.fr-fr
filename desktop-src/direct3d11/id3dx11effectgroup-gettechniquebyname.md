@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5121f67345ba863d773d8e7a73a5d6fa8b69895
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 590defa7477ad41d1e861dc7a8afa05370f4d83d7846c99fa1086aae94c57c1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046257"
 ---
 # <a name="id3dx11effectgroupgettechniquebyname-method"></a>ID3DX11EffectGroup :: GetTechniqueByName, méthode
 
@@ -58,14 +58,14 @@ Type : **[ **ID3DX11EffectTechnique**](id3dx11effecttechnique.md)\***
 
 Pointeur vers un [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md), ou **null** si la technique est introuvable.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le kit de développement logiciel (SDK) DirectX ne fournit aucun binaire compilé pour les effets. Vous devez utiliser la source Effects 11 pour créer votre application Effects-type. Pour plus d’informations sur l’utilisation de la source Effects 11, consultez [différences entre les effets 10 et 11](d3d11-graphics-programming-guide-effects-differences.md).
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - Niveau de MPC 1, configuration minimale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b6daa3b6849d53d6a0d68cdf448df170422e25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c098850061bda909d63ae996d522b6caa9ff102a5b01def172fe35ef437c5bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139857"
 ---
 # <a name="level-1-system-resources"></a>Ressources système de niveau 1
 
@@ -25,11 +25,11 @@ La configuration minimale d’un PC pour répondre à la spécification de nivea
 -   Lecteur de disquette à haute densité 3,5 pouces
 -   Un lecteur de disque dur avec au moins 30 Mo d’espace disque
 -   Une analyse de couleur avec une résolution d’écran de 640 x 480 pixels avec 16 couleurs
--   Logiciel système qui offre une compatibilité binaire avec le système d’exploitation Microsoft Windows version 3,0
+-   logiciel système qui offre une compatibilité binaire avec le système d’exploitation Microsoft Windows version 3,0
 
- 
+ 
 
- 
+ 
 
 
 

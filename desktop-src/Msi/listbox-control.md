@@ -4,12 +4,12 @@ ms.assetid: f2aace82-3b42-4790-a817-1b874a702938
 title: ListBox, contrôle (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb90adad5cae83a70aee1601319a68e8e3004f35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a8ba99e0328fe2ca8096ba5aa19f7b359be805d5e233cb12208a9604160971e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013107"
 ---
 # <a name="listbox-control"></a>ListBox, contrôle
 
@@ -29,7 +29,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 | [PropertyValue](propertyvalue-control-attribute.md)               |                                  | Valeur actuelle de la propriété affichée ou modifiée par ce contrôle. Si le bit d’attribut indirect n’est pas défini, il s’agit de la valeur de PropertyName. Si le bit d’attribut indirect est défini, il s’agit de la valeur de IndirectPropertyName. Si l’attribut change, le contrôle reflète la nouvelle valeur.                                                                                                                                                                                                                                  |
 | [Text](text-control-attribute.md)                                 |                                  | Texte affiché par les lecteurs d’écran. Entrez le texte à afficher dans la colonne de texte de la [table de contrôle](control-table.md). Pour définir la police et le style de police d’une chaîne de texte, ajoutez le préfixe { \\ style} ou {&style} à la chaîne de caractères affichés. Où style est un identificateur figurant dans la colonne TextStyle de la [table TextStyle](textstyle-table.md). Si aucun de ces deux n’est présent, mais que la propriété [**DefaultUIFont**](defaultuifont.md) est définie comme un style de texte valide, cette police sera utilisée.<br/> |
 | [Visible](visible-control-attribute.md)                           | 0x00000000 0x00000001<br/> | Contrôle masqué. Contrôle visible.<br/> Incluez ce bit dans le mot de bits de la colonne d’attributs dans la [table de contrôle](control-table.md) pour rendre le contrôle visible ou masqué lors de sa création.<br/> Vous pouvez également masquer ou afficher un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                                                                                            |
-| [Enabled](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                                                                                          |
+| [Activé](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                                                                                          |
 | [Sunken](sunken-control-attribute.md)                             | 0x00000000 0x00000004<br/> | Affiche le style visuel par défaut. Affiche le contrôle avec une apparence enfoncée, 3D et un look.<br/> Incluez ces bits dans le mot de bits dans la colonne attributs de la [table de contrôle](control-table.md).<br/>                                                                                                                                                                                                                                                                                                                   |
 | [Indirect](indirect-control-attribute.md)                         | 0x00000000 0x00000008<br/> | Le contrôle affiche ou modifie la valeur de la propriété dans la colonne propriété de la [table de contrôle](control-table.md). Le contrôle affiche ou modifie la valeur de la propriété qui a l’identificateur figurant dans la colonne propriété de la table de contrôle.<br/> Détermine si la propriété associée à ce contrôle est référencée indirectement.<br/>                                                                                                                                                        |
 | [Integer](integer-control-attribute.md)                           | 0x00000000 0x00000010<br/> | La propriété associée au contrôle est une valeur de chaîne. La propriété associée au contrôle est une valeur entière.<br/> Incluez ce bit dans le mot de bits de la colonne d’attributs de la [table de contrôle](control-table.md) pour définir cet attribut lors de la création du contrôle.<br/>                                                                                                                                                                                                                                    |
@@ -44,7 +44,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce contrôle peut être créé à partir de la classe LISTBOX à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les styles **WS \_ TABSTOP**, **WS \_ Group** et **WS \_ Child** . Si le bit de style de contrôle trié est activé, le contrôle est créé avec les styles **\_ Notify**, **WS \_ VSCROLL** et **WS \_ Border** . dans le cas contraire, le contrôle est créé avec le style **\_ standard lbs** .
 

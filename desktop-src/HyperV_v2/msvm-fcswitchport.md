@@ -77,12 +77,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 443ae1065b7c7a6a4bb1523a672e388cacb91667
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0667ee042e40a979a8efe6042c292c1a2c81f7830f228c6d1a229f26ca1f7ede
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014567"
 ---
 # <a name="msvm_fcswitchport-class"></a>MSVM \_ FcSwitchPort, classe
 
@@ -179,7 +179,7 @@ La classe **MSVM \_ FcSwitchPort** possède ces méthodes.
 | **OnlineDevice**                                                   | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                  | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-fcswitchport-requeststatechange.md) | demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-fcswitchport-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
+| [**Initialisation**](msvm-fcswitchport-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
 | **RestoreProperties**                                              | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                 | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                  | Cette méthode n'est pas prise en charge.<br/> |
@@ -1458,8 +1458,8 @@ Dans certains cas, un port logique peut être identifiable comme un port frontal
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

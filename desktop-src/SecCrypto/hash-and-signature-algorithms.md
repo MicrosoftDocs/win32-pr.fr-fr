@@ -4,12 +4,12 @@ ms.assetid: 91bf898d-658a-4e45-aa6e-eded46657563
 title: Algorithmes de hachage et de signature
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc1ca0819aebc01bba342410eda20b626349f1b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7c176b3a21ac5793f249f9aa7aceda897d53ea209f3e8e6bd260dc5ec529c92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006607"
 ---
 # <a name="hash-and-signature-algorithms"></a>Algorithmes de hachage et de signature
 

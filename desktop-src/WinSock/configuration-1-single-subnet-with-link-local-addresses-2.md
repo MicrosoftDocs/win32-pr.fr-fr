@@ -4,12 +4,12 @@ ms.assetid: ceed4983-e088-44e8-9cfc-26afb3c35ba0
 title: 'Configuration 1 : sous-réseau unique avec adresses lien-local'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d09feb44c222b7213da18a6745fc632f3903209
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a541edd96175dc61ec0aba3b1358c2bbd9464668e6aa1a11aeb6f2097e5b13bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051731"
 ---
 # <a name="configuration-1-single-subnet-with-link-local-addresses"></a>Configuration 1 : sous-réseau unique avec adresses lien-local
 
@@ -92,7 +92,7 @@ Vous pouvez effectuer une requête ping simple (échange de messages ICMPv6 de d
 
 **Pour exécuter une commande ping à l’aide d’IPv6 entre deux hôtes lien-local**
 
-1.  Installez la version préliminaire de la technologie Microsoft IPv6 pour Windows sur deux hôtes Windows (hôte A et hôte B) qui se trouvent sur le même lien (sous-réseau).
+1.  installez la version préliminaire de la technologie Microsoft IPv6 pour Windows sur deux hôtes Windows (hôte A et hôte B) qui se trouvent sur le même lien (sous-réseau).
 2.  Utilisez IPv6 si sur l’hôte A pour obtenir l’adresse lien-local de l’interface Ethernet.
 
     Exemple : l’adresse lien-local de l’hôte A est FE80 :: 210:5aff : FEAA : 20a2.

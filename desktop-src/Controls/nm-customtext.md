@@ -3,7 +3,7 @@ title: NM_CUSTOMTEXT le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle des opérations de texte personnalisées. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: b4bde648-3479-4fac-ad32-b34c7272c1fc
 keywords:
-- Contrôles Windows de code de notification NM_CUSTOMTEXT
+- NM_CUSTOMTEXT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9eebc4033a76d137e28a0c4170c5c613c7933562
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 512ccb6cd94ce680b9832c342696941d98c0e6543c319caeb89eb409de1fe73c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018871"
 ---
 # <a name="nm_customtext-notification-code"></a>\_Code de notification CUSTOMTEXT nm
 
@@ -55,8 +55,8 @@ La valeur de retour est ignorée par le contrôle.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

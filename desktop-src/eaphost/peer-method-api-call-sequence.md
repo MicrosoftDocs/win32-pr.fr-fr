@@ -4,12 +4,12 @@ description: En savoir plus sur la séquence d’appels d’API de méthode homo
 ms.assetid: aac69e89-249d-4bc8-baef-1f0681f9f7ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac9be0f6de228fd5b1ebf2d2c28320baf76e914
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 647a6a558d282ff4ae3691c23600b696b79764ee68a1007ccabb445c5a1fe65d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042787"
 ---
 # <a name="peer-method-api-call-sequence"></a>Séquence d’appel de l’API de méthode homologue
 
@@ -38,15 +38,15 @@ La liste suivante illustre la séquence d’appels effectuée par EAPHost sur un
 [Séquence d’appel de l’API Supplier](supplicant-api-call-sequence.md)
 </dt> <dt>
 
-[Séquence d’appel de l’API de méthode d’authentificateur](authenticator-method-api-call-sequence.md)
+[Authenticator Séquence d’appel de l’API de méthode](authenticator-method-api-call-sequence.md)
 </dt> <dt>
 
 [Séquences d’appels EAPHost](about-eaphost-call-sequences.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

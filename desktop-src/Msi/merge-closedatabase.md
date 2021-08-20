@@ -1,5 +1,5 @@
 ---
-description: La méthode FermerBase de l’objet Merge ferme la base de données Windows Installer actuellement ouverte.
+description: la méthode fermerbase de l’objet Merge ferme la base de données Windows Installer actuellement ouverte.
 ms.assetid: a89fe77a-0099-4c49-b484-c05ee351a66a
 title: Merge. FermerBase, méthode (Mergemod. h)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 5df72b9423ad212264736d16db0ae73ded9afef5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f3b250cbaebd565f14ef7f10cd8180e497f20347d00a7e96a74298d3e5dc770
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013027"
 ---
 # <a name="mergeclosedatabase-method"></a>Merge. FermerBase, méthode
 
-La méthode **FermerBase** de l’objet [**Merge**](merge-object.md) ferme la base de données Windows Installer actuellement ouverte.
+la méthode **fermerbase** de l’objet [**Merge**](merge-object.md) ferme la base de données Windows Installer actuellement ouverte.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -51,7 +51,7 @@ Merge.CloseDatabase(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fermeture d’une base de données efface toutes les informations de dépendance, mais n’affecte pas les erreurs qui n’ont pas été récupérées.
 

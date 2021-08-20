@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2171515bffc41abf2b5fe9a25826c2a71d3939c2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5ea717048a89c626ef19d5b1c41fcd558a163f7b4ade9c05eee0e3ea362d50ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013937"
 ---
 # <a name="default-attribute"></a>attribut par défaut
 
@@ -74,7 +74,7 @@ Spécifie le nom de l’interface.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une [**coclasse**](coclass.md) peut avoir au plus deux membres **\[ par défaut \]** . L’une représente l’interface sortante (source) ou dispinterface, tandis que l’autre représente l’interface entrante (sink) ou dispinterface. Si l’attribut **\[ par \] défaut** n’est spécifié pour aucun membre de la **coclasse** ou du **cotype**, les premiers membres sortants et entrants qui n’ont pas l' **\[** attribut [**Restricted**](restricted.md) **\]** sont traités comme des valeurs par défaut.
 
@@ -121,6 +121,6 @@ coclass Hello
 [**code**](source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

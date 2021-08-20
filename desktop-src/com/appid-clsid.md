@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre AppID (CLSID) COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d605587d125a5555b553457056db00a6f4dcad07
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0d4737e3ca79d0e3bee805a92741fa4a19e409f761b328478340e30c07c872a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106510716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048877"
 ---
 # <a name="appid-clsid-key"></a>AppID (clé CLSID)
 
@@ -25,7 +25,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
       AppID = {AppID_GUID}
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **reg \_ SZ** .
 

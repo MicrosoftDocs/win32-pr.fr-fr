@@ -4,17 +4,17 @@ ms.assetid: 41623395-e891-4e0a-8a1a-1a000b9fd537
 title: Méthode RestoreBookmark (segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47a6bd3fc1739e35467870b35df909e23d170b6f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9102c2d10192ab66a3c870c7f2516b995a89249ff331c7e558ca8f4a72f2231b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072742"
 ---
 # <a name="restorebookmark-method"></a>Méthode RestoreBookmark
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

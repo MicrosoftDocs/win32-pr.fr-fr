@@ -4,26 +4,26 @@ ms.assetid: 753d2820-4d47-4e07-9f54-9b996e55f0b6
 title: Objet MSDVDAdm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 193d5e46837c576c61b8bf1704ec967c1b6fc246
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fa4001def80bff94920996dc627869ffecfd6dda3fbc679be79f2b321ac33a1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072973"
 ---
 # <a name="msdvdadm-object"></a>Objet MSDVDAdm
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
 > [!Note]  
-> Cette API est déconseillée. Pour plus d’informations sur la lecture et la navigation sur DVD dans DirectShow, consultez [applications DVD](dvd-applications.md).
+> Cette API est déconseillée. pour plus d’informations sur la lecture et la navigation des dvd dans DirectShow, consultez [Applications dvd](dvd-applications.md).
 
  
 
-Les méthodes et propriétés de l' `MSDVDAdm` objet « Administration » permettent à une application de script de modifier ses paramètres par défaut dans le Registre Microsoft® Windows®. Le Registre est une base de données sur tous les systèmes Windows où les applications peuvent stocker des informations sur elles-mêmes pour les utiliser lors de l’initialisation ou au moment de l’exécution.
+les méthodes et les propriétés de l' `MSDVDAdm` objet « administration » permettent à une application de script de modifier ses paramètres par défaut dans le registre Microsoft® Windows®. le registre est une base de données sur tous les systèmes de Windows où les applications peuvent stocker des informations sur elles-mêmes pour les utiliser lors de l’initialisation ou au moment de l’exécution.
 
 La plupart de ces méthodes et propriétés ne définissent pas ou ne récupèrent pas les valeurs actuelles dans l’objet [mswebdvd](mswebdvd-object.md) lui-même. Cela signifie, par exemple, que lorsque vous appelez **GetParentalLevel** , la valeur retournée n’est pas le niveau parental actuel stocké dans l’objet. Au lieu de cela, il s’agit du niveau parental par défaut stocké dans le registre. Pour connaître le niveau parental actuel, appelez la  méthode mswebdvd [**GetPlayerParentalLevel**](getplayerparentallevel-method.md). L’appel de [**SaveParentalLevel**](saveparentallevel-method.md) écrit simplement un nouveau niveau d’accès parental par défaut dans le registre ; vous devez toujours appeler la méthode **mswebdvd** [**SelectParentalLevel**](selectparentallevel-method.md) pour que la modification prenne effet immédiatement dans l’objet **mswebdvd** . Les méthodes par défaut des identificateurs de paramètres régionaux (LCID) fonctionnent de la même façon.
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 9f315629c810027e18dac3a337c126f4a4a4bcce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4a77c0e5687319bbea438127ce9c30b27ff3122f42359237df5d4cd158b1393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004347"
 ---
 # <a name="protectkeywithtpmandpinandstartupkey-method-of-the-win32_encryptablevolume-class"></a>Méthode ProtectKeyWithTPMAndPINAndStartupKey de la \_ classe Win32 EncryptableVolume
 
@@ -67,7 +67,7 @@ Type : **UInt8**
 
 Tableau d’entiers qui spécifie la façon dont le module de plateforme sécurisée de l’ordinateur sécurise la clé de chiffrement du volume. Un profil de validation de plateforme se compose d’un ensemble d’index de registre de configuration de plateforme (PCR) compris entre 0 et 23 inclus. Les valeurs de répétition dans le paramètre sont ignorées. Chaque index PCR est associé à des services qui s’exécutent au démarrage du système d’exploitation. Chaque fois que l’ordinateur démarre, le module de plateforme sécurisée vérifie que les services que vous avez spécifiés dans le profil de validation de plateforme n’ont pas changé. Si l’un de ces services change alors que la protection BitLocker reste activée, le module de plateforme sécurisée ne libère pas la clé de chiffrement pour déverrouiller le volume et l’ordinateur passe en mode de récupération.
 
-Si ce paramètre n’est pas spécifié, les index par défaut de 0, 2, 4, 5, 8, 9, 10 et 11 sont utilisés. Le profil de validation de plateforme par défaut protège la clé de chiffrement contre les modifications apportées à la racine principale de l’approbation de mesure (CRTM). le BIOS et les extensions de plateforme (PCR 0), le code d’option ROM (PCR 2), le code d’enregistrement de démarrage principal (PCR 4), la table de partition MBR (Master Boot Record) (PCR 5), le secteur de démarrage NTFS (PCR 8), le bloc de démarrage NTFS (PCR 9), le gestionnaire de démarrage (PCR 10) et le Access Control BitLocker (PCR 11). Les ordinateurs basés sur Unified Extensible Firmware Interface (UEFI) n’utilisent pas la PCR 5 par défaut.
+Si ce paramètre n’est pas spécifié, les index par défaut de 0, 2, 4, 5, 8, 9, 10 et 11 sont utilisés. Le profil de validation de plateforme par défaut protège la clé de chiffrement contre les modifications apportées à la racine principale de l’approbation de mesure (CRTM). le BIOS et les extensions de plateforme (PCR 0), le code option ROM (PCR 2), le code MBR (Master Boot Record) (PCR 4), la table de partition MBR (Master Boot Record) (PCR 5), le secteur de démarrage NTFS (PCR 8), le bloc de démarrage NTFS (PCR 9),  le gestionnaire de démarrage (PCR 10) et le Access Control BitLocker (PCR 11). Les ordinateurs basés sur Unified Extensible Firmware Interface (UEFI) n’utilisent pas la PCR 5 par défaut.
 
 Le profil de validation de plateforme par défaut est recommandé. Pour bénéficier d’une protection supplémentaire contre les changements de configuration de démarrage précoces, utilisez un profil de PCR 0, 1, 2, 3, 4, 5, 8, 9, 10, 11.
 
@@ -161,7 +161,7 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Au plus un protecteur de clé de type « TPM et PIN et clé de démarrage » peut exister pour un volume à tout moment. Si vous souhaitez modifier le nom complet ou le profil de validation de plateforme utilisé par un protecteur de clé « TPM et code confidentiel et clé de démarrage » existants, vous devez d’abord supprimer le protecteur de clé existant, puis appeler **ProtectKeyWithTPMAndPINAndStartupKey** pour en créer un nouveau.
 
@@ -169,7 +169,7 @@ Des protecteurs de clé supplémentaires doivent être spécifiés pour déverro
 
 Bien qu’il soit possible d’avoir à la fois un protecteur de clé du type « TPM » et un autre du type « TPM et clé de démarrage », la présence du type de protecteur de clé « TPM » nie les effets des autres protecteurs de clés basés sur le module de plateforme sécurisée.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -177,8 +177,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista entreprise avec SP1, Windows Vista Édition intégrale avec des \[ applications de bureau SP1 uniquement\]<br/>     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows vista Enterprise avec sp1, Windows les applications de bureau vista Ultimate avec sp1 \[ uniquement\]<br/>     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

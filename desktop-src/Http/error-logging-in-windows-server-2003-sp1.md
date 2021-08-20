@@ -1,23 +1,23 @@
 ---
-title: Journalisation des erreurs dans Windows Server 2003 SP1
-description: Journalisation des erreurs dans Windows Server 2003 SP1
+title: journalisation des erreurs dans Windows Server 2003 SP1
+description: journalisation des erreurs dans Windows Server 2003 SP1
 ms.assetid: 8c7fcc66-5446-4e25-8e6d-1a9260c55e36
 keywords:
-- Journalisation des erreurs dans Windows Server 2003 avec Service Pack 1 (SP1)
+- journalisation des erreurs dans Windows Server 2003 avec Service Pack 1 (SP1)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b82c816dab39877f700973de3c0c7798034d124
-ms.sourcegitcommit: 7bdca1558c21be976be950a213c5a072c449f111
+ms.openlocfilehash: a71d5a84dfba8ecb9a78ed38d3ad112f0820e6b578bce77e189e5047a25f458b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "103679093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014807"
 ---
-# <a name="error-logging-in-windows-server-2003-sp1"></a>Journalisation des erreurs dans Windows Server 2003 SP1
+# <a name="error-logging-in-windows-server-2003-sp1"></a>journalisation des erreurs dans Windows Server 2003 SP1
 
 ## <a name="addition-of-w3c-style-headers"></a>Ajout d’en-têtes de style W3C
 
-À compter de Windows Server 2003 avec Service Pack 1 (SP1), le journal des erreurs de l’API du serveur HTTP comprend des en-têtes de style W3C permettant d’analyser les fichiers journaux à l’aide d’analyseurs de journaux standard. Le modèle ci-dessous répertorie tous les champs qui peuvent être consignés dans le fichier journal des erreurs http.
+à compter de Windows server 2003 avec Service Pack 1 (SP1), le journal des erreurs de l’API du serveur HTTP comprend des en-têtes de style W3C permettant d’analyser les fichiers journaux à l’aide d’analyseurs de journaux standard. Le modèle ci-dessous répertorie tous les champs qui peuvent être consignés dans le fichier journal des erreurs http.
 
 ``` syntax
 #Software: <Name of the HTTP Server>
@@ -50,11 +50,11 @@ La clé de Registre **ErrorLoggingFields** a été ajoutée pour contrôler les 
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-      Services
-         HTTP
-            Parameters
+   System
+      CurrentControlSet
+      Services
+         HTTP
+            Parameters
 ```
 
 La valeur de Registre **ErrorLoggingFields** est une valeur DWORD qui contient des valeurs de bit pour chacun des champs pouvant être journalisés. Pour activer la journalisation d’un champ spécifique, définissez sa valeur de bit correspondante sur 1 et redémarrez le service HTTP. Pour désactiver la journalisation, définissez la valeur de bit sur 0. Pour configurer plusieurs champs, utilisez une opération or au niveau du bit des valeurs individuelles. Par exemple, pour activer les champs de journalisation des cookies et des référents, la valeur doit être 0x00020000 \| 0x00040000 = 0x00060000. Si la clé de Registre **ErrorLoggingFields** est absente, les champs par défaut sont journalisés. La valeur **ErrorLoggingFields** pour enregistrer les champs par défaut est 0x7c884c7. Pour activer la journalisation de tous les champs affichés dans le tableau ci-dessous, définissez la valeur sur 0x7dff4e7.
@@ -90,19 +90,19 @@ Les champs de journalisation des erreurs sont répertoriés dans le tableau suiv
 
 
 
- 
+ 
 
 ## <a name="time-and-date-rollover"></a>Substitution d’heure et de date
 
-Par défaut, un nouveau fichier journal des erreurs HTTP est créé (substitution de fichier terme) quand le fichier journal actuel atteint une taille spécifiée. À compter de Windows Server 2003 avec SP1, de nouveaux fichiers journaux des erreurs peuvent être créés en fonction de la date et de l’heure. Les substitutions de date et d’heure sont contrôlées par deux nouvelles valeurs de Registre : **ErrorLoggingRolloverType** et **ErrorLoggingLocaltimeRollover**. Pour permettre la substitution d’heure et de date, ces valeurs de Registre doivent être ajoutées au registre. Le service http doit être redémarré lorsque ces clés sont ajoutées au registre. Les clés de registre de substitution du fichier journal sont créées sous la clé suivante :
+Par défaut, un nouveau fichier journal des erreurs HTTP est créé (substitution de fichier terme) quand le fichier journal actuel atteint une taille spécifiée. à compter de Windows Server 2003 avec SP1, de nouveaux fichiers journaux des erreurs peuvent être créés en fonction de la date et de l’heure. Les substitutions de date et d’heure sont contrôlées par deux nouvelles valeurs de Registre : **ErrorLoggingRolloverType** et **ErrorLoggingLocaltimeRollover**. Pour permettre la substitution d’heure et de date, ces valeurs de Registre doivent être ajoutées au registre. Le service http doit être redémarré lorsque ces clés sont ajoutées au registre. Les clés de registre de substitution du fichier journal sont créées sous la clé suivante :
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            HTTP
-               Parameters
+   System
+      CurrentControlSet
+         Services
+            HTTP
+               Parameters
 ```
 
 La clé de Registre **ErrorLoggingRolloverType** indique le type de substitution souhaité et est défini par défaut sur la substitution basée sur la taille. La substitution peut également être définie sur une base quotidienne, hebdomadaire, mensuelle ou horaire. Lorsque la substitution de fichier est basée sur le temps, une valeur **ErrorLoggingLocaltimeRollover** de 0 indique que l’heure de substitution est exprimée en GMT et une valeur de 1 indique que l’heure de substitution est exprimée en heure locale. La clé **ErrorLoggingRolloverType** peut prendre une valeur comprise entre 0 et 4, comme indiqué dans le tableau suivant.
@@ -119,7 +119,7 @@ La clé de Registre **ErrorLoggingRolloverType** indique le type de substitution
 
 
 
- 
+ 
 
 Les conventions d’affectation de noms pour les fichiers qui stockent les journaux d’erreurs sont différentes pour la taille, la date et la substitution temporelle. Le tableau suivant répertorie les conventions d’affectation de noms pour les fichiers journaux http.
 
@@ -129,17 +129,17 @@ Les conventions d’affectation de noms pour les fichiers qui stockent les journ
 |---------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Taille          | HTTPERRn. LOG   | Le fichier journal est recyclé lorsqu’il atteint une taille spécifique. n est le numéro de fichier et est incrémenté lorsque le fichier journal est restauré. |
 | Quotidien         | htYYMMDD. log   | Le fichier journal est recyclé quotidiennement.                                                                                                     |
-| Hebdomadaire        | htYYMMww. log   | Le fichier journal est recyclé chaque semaine, où SS est la semaine du mois.                                                                 |
-| Mensuelle       | htYYMM. log     | Le fichier journal est recyclé chaque mois.                                                                                               |
+| Chaque semaine        | htYYMMww. log   | Le fichier journal est recyclé chaque semaine, où SS est la semaine du mois.                                                                 |
+| Chaque mois       | htYYMM. log     | Le fichier journal est recyclé chaque mois.                                                                                               |
 | Toutes les heures        | htYYMMDDhh. log | Le fichier journal est recyclé toutes les heures, où HH est l’heure du jour exprimée en notation de 0-24 heures.                                   |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 
