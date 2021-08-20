@@ -4,12 +4,12 @@ ms.assetid: 2b6fef4a-b95e-4384-a978-d1d5c2c84685
 title: Region. Union, méthodes
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 727bc51d9db59af9cd44ba625c7d11c9796da944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66851cb044b89f73f65e50e1ef72d932e014fa2934f5953dec2e202d569bfa0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067950"
 ---
 # <a name="regionunion-methods"></a>Region. Union, méthodes
 

@@ -4,12 +4,12 @@ description: DblClick, événement
 ms.assetid: 81ed5396-a2dc-49fe-820f-61ca0935fe85
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20b900b8a8b79345c50749a4355deeb05fdc1220
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f48e5b4574f8378930001e1cea3916d12904fcc317b3b00ff14c436fb4912574
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117693773"
 ---
 # <a name="dblclick-event"></a>DblClick, événement
 
@@ -40,17 +40,17 @@ Se produit lorsque l’utilisateur double-clique sur un caractère.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cet événement est envoyé uniquement au client d’entrée-actif d’un caractère. Lorsque l’utilisateur double-clique sur un caractère ou sur son icône de barre des tâches sans client d’entrée-actif, le serveur envoie l’événement à son dernier client d’entrée-actif. Si le caractère est [visible (](visible-property.md)  =  **true**), il définit également le client actif comme le client d’entrée-actif en cours, en envoyant l’événement [**ActivateInput**](activateinput-event.md) à ce client, puis en envoyant l’événement **DblClick** . Si le caractère est masqué (visible = **false**) et que l’utilisateur double-clique sur l’icône de barre des tâches du caractère en utilisant le bouton 1, il affiche également automatiquement le caractère.
 
- 
+ 
 
- 
+ 
 
 
 

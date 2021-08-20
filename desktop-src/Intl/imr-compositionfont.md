@@ -4,12 +4,12 @@ ms.assetid: 46bb71ee-8dc9-4ef0-bc4e-59866c122bf7
 title: IMR_COMPOSITIONFONT le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8be2751944e451475fd0bde9a34d8902dcaf30e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e241605358a0b6781a5725e4d0cfabc23b06a89f8e2bc041e9556434b6c5816f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810096"
 ---
 # <a name="imr_compositionfont-notification-code"></a>\_Code de notification IMR COMPOSITIONFONT
 
@@ -44,11 +44,11 @@ Pointeur vers une mémoire tampon contenant une structure [**LOGFONT**](/windows
 
 Retourne une valeur différente de zéro si l’application remplit la structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) . Dans le cas contraire, la commande retourne 0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande peut être envoyée par l’IME à une fenêtre qui a effacé l' \_ indicateur ISC SHOWUICOMPOSITIONWINDOW dans le gestionnaire de messages [**WM \_ IME \_ SETCONTEXT**](wm-ime-setcontext.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -56,7 +56,7 @@ Cette commande peut être envoyée par l’IME à une fenêtre qui a effacé l' 
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

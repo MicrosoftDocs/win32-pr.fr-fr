@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 1976980d1a22f4246f0ace686941cc4bcec87c92
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4af16c5f143d44a743b4e8f327b7d89f616b833707e09dc365a087ef37243f40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980065"
 ---
 # <a name="oidfriendlyname-property"></a>OID. FriendlyName, propriété
 
@@ -39,17 +39,17 @@ OID.FriendlyName As String
 
 Nom complet de l' [**OID**](oid.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la propriété **FriendlyName** est définie, la propriété [**value**](oid-value.md) est définie sur la valeur en pointillé correspondante. Si la propriété **valeur** est définie, la propriété **FriendlyName** est définie sur le nom complet correspondant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

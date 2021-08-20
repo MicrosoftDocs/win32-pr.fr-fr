@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 007332a85f170f865604526199681cad6d68cdcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81a0658d2bfd9757fe59628cb60a8c96ca705f5a6aae7e00b2213d7be4390975
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117982178"
 ---
 # <a name="getpropertyinfo-function"></a>GetPropertyInfo fonction)
 
@@ -52,11 +52,11 @@ Si la fonction réussit, la valeur de retour est un pointeur désignant la propr
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetPropertyInfo** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

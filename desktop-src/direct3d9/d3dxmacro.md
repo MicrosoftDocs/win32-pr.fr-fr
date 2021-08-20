@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: 7fd6c52b94c3fb6f36c9b3a8e2b4b513fb8903f0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fa78c69ffe0c25b66e73da6fd9139c3b1f69661e5237c3c03e4dd2d8a377461d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095946"
 ---
 # <a name="d3dxmacro-structure"></a>D3DXMACRO, structure
 
@@ -62,7 +62,7 @@ Nom de la définition.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser **D3DXMACRO** sur plusieurs lignes, préfixez chaque caractère de nouvelle ligne avec une barre oblique inverse (par exemple, une \# définition dans le langage C). Par exemple :
 
@@ -79,7 +79,7 @@ macro.Definition =
 
 Notez les 3 barres obliques inverses à la fin de la ligne. Les deux premières sont requises pour générer un seul « \\ », suivi du caractère de saut de ligne « \\ n ». Si vous le souhaitez, vous pouvez également mettre fin à vos lignes à l’aide de « \\ \\ \\ r \\ n ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

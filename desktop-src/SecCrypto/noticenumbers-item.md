@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: a797db5869e11bfc441ce3b1e3642b83e84e6714
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 97f202447a8c5821cf184b14af3784016eec5ba481e45df23ed06bbdfc6ca9dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980200"
 ---
 # <a name="noticenumbersitem-property"></a>NoticeNumbers. Item, propriété
 
@@ -41,13 +41,13 @@ NoticeNumbers.Item( _
 
 Objet d' [**extension**](extension.md) qui représente le numéro d’avis indexé de la collection.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

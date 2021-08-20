@@ -4,12 +4,12 @@ ms.assetid: 86f9f995-4de3-4e90-a507-a886ccff80c4
 title: System. ThumbnailCacheId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d62e4c504b343c51ecf30f2feaba2ecb260cf14d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a80a5afef18af7121cdbff645636f73b7a53ae6bd741327e0df716008e88f670
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864255"
 ---
 # <a name="systemthumbnailcacheid"></a>System. ThumbnailCacheId
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

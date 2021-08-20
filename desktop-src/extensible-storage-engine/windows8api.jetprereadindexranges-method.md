@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 986213a054dec54e92e4ecfe6fb0abd541b451ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2195cd0db4b0fb608d2f36770904614d81b172556fe8beefb14d3f31d7a4924f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118069325"
 ---
 # <a name="windows8apijetprereadindexranges-method"></a>Méthode Windows8Api. JetPrereadIndexRanges
 

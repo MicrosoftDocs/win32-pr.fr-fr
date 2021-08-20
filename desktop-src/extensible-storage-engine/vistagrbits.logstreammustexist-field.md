@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4006d5fa8780c5da61a85b94cefe183dfbec3ab2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12a676d9d5adc88ca8b95e54c3ec988f26aaef8bbffd8141339e068517547b92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117701417"
 ---
 # <a name="vistagrbitslogstreammustexist-field"></a>Champ VistaGrbits. LogStreamMustExist
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4a5b210e9b60ea0431226f35f1b14eaab5310588
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b92d470e8592eb485b14eb65725c53fb39291c5079313f75af17d0a2aa07dd6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117892654"
 ---
 # <a name="jet_tablecreateccreated-property"></a>JET_TABLECREATE. encore, propriété
 

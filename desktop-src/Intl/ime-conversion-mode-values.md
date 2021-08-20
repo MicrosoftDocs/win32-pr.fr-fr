@@ -4,12 +4,12 @@ ms.assetid: 0b0afb4e-f7aa-4ca6-9174-21983b2a422b
 title: Valeurs du mode de conversion IME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c52bc2f8f6f9fc87df48a15c66ce24b33e51742
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 09aa2f400dbf75346b537df2a0c724ea0a241a6c3b32ef23b2f27a2ce5d075e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810379"
 ---
 # <a name="ime-conversion-mode-values"></a>Valeurs du mode de conversion IME
 
@@ -22,7 +22,7 @@ Ces valeurs sont utilisées avec les fonctions [**ImmGetConversionStatus**](/win
 | IME \_ CMODE \_ alphanumérique | Mode de saisie alphanumérique. Il s’agit de la valeur par défaut, définie comme 0x0000.                          |
 | \_CHARCODE CMODE \_ IME     | Défini sur 1 si le mode de saisie du code du caractère ; 0 dans le cas contraire.                                          |
 | CMODE de l’IME \_ \_         | Défini sur 1 si le mode de conversion EUDC ; 0 dans le cas contraire.                                               |
-| \_CMODE IME \_ corrigé        | Windows **Me/98, windows 2000, Windows XP :** Défini sur 1 si le mode de conversion est fixe ; 0 dans le cas contraire. |
+| \_CMODE IME \_ corrigé        | **Windows Me/98, Windows 2000, Windows XP :** Défini sur 1 si le mode de conversion est fixe ; 0 dans le cas contraire. |
 | IME \_ CMODE \_ FULLSHAPE    | Défini sur 1 en mode de forme complète ; 0 s’il s’agit du mode demi-forme.                                        |
 | IME \_ CMODE \_ HANJACONVERT | Défini sur 1 si le mode de conversion HANJA ; 0 dans le cas contraire.                                                 |
 | \_CMODE IME \_ Katakana     | Défini sur 1 si le mode KATAKANA ; 0 en mode HIRAGANA.                                            |

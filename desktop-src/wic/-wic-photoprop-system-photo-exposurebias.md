@@ -4,12 +4,12 @@ ms.assetid: 00ebe037-0116-4d75-868b-d75b3e58a84d
 title: Stratégie de métadonnées de photo System. photo. ExposureBias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 709aa21da7cec56d36b5de643681a592873717bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5692876182dfc200ea6b89d022d97c8dfc5b518157593ec9f79de9cf0d043564
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118032586"
 ---
 # <a name="systemphotoexposurebias-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. ExposureBias
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Expo
 
 \_Photo \_ ExposureBias
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -41,7 +41,7 @@ Cette valeur est générée à partir de System. photo. ExposureBiasNumerator et
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37380} |             |
 | 2     | /xmp/exif:ExposureBiasValue   |             |
@@ -54,7 +54,7 @@ Cette valeur est générée à partir de System. photo. ExposureBiasNumerator et
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37380} |             |
 | 2     | /xmp/exif:ExposureBiasValue   |             |
@@ -67,7 +67,7 @@ Cette valeur est générée à partir de System. photo. ExposureBiasNumerator et
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37380} |
 | 2     | /xmp/exif:exposurebiasvalue   |
@@ -82,7 +82,7 @@ Cette valeur est générée à partir de System. photo. ExposureBiasNumerator et
 
 
 
-| Commande | Chemin d’accès                            | Format de disque |
+| Commande | Chemin                            | Format de disque |
 |-------|---------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37380}        |             |
 | 2     | /ifd/xmp/exif:ExposureBiasValue |             |
@@ -95,7 +95,7 @@ Cette valeur est générée à partir de System. photo. ExposureBiasNumerator et
 
 
 
-| Commande | Chemin d’accès                            | Format de disque |
+| Commande | Chemin                            | Format de disque |
 |-------|---------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37380}        |             |
 | 2     | /ifd/xmp/exif:ExposureBiasValue |             |
@@ -108,7 +108,7 @@ Cette valeur est générée à partir de System. photo. ExposureBiasNumerator et
 
 
 
-| Commande | Chemin d’accès                            |
+| Commande | Chemin                            |
 |-------|---------------------------------|
 | 1     | /IFD/EXIF/{UShort = 37380}        |
 | 2     | /ifd/xmp/exif:exposurebiasvalue |
@@ -117,7 +117,7 @@ Cette valeur est générée à partir de System. photo. ExposureBiasNumerator et
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7605cdb44c66d929e6663caaad9e40d3c98737b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca6b9222b98b74f5f2e136987e1b6e1cd7e9786b6e44a455d91aab4ce31ef1c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118069426"
 ---
 # <a name="windows8apijetbegintransaction3-method"></a>Méthode Windows8Api. JetBeginTransaction3
 
@@ -83,9 +83,9 @@ public static void JetBeginTransaction3(
     
     Options de transaction.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Introduit dans Windows 8.
+Introduite dans Windows 8.
 
 ## <a name="see-also"></a>Voir aussi
 

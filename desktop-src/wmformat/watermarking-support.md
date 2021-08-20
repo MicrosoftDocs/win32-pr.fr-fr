@@ -4,38 +4,38 @@ description: Prise en charge du filigrane
 ms.assetid: 1fafb15e-57b8-4dd0-8f0c-ccf460f05157
 keywords:
 - Windows Media Format SDK, prise en charge du filigrane
-- Kit de développement logiciel (SDK) Windows Media format, filigrane numérique
+- Windows Media Format SDK, mise en filigrane numérique
 - ASF (Advanced Systems Format), prise en charge du filigrane
 - ASF (format des systèmes avancés), prise en charge du filigrane
 - ASF (Advanced Systems Format), filigrane numérique
 - ASF (format de systèmes avancés), filigrane numérique
-- SDK Windows Media format, DMO
+- Windows Media Format SDK, DMO
 - ASF (Advanced Systems Format), DMO
-- ASF (format des systèmes avancés), DMO
+- ASF (format avancé des systèmes), DMO
 - Windows Media Format SDK, interface IWMWatermarkInfo
 - ASF (Advanced Systems Format), interface IWMWatermarkInfo
 - ASF (format des systèmes avancés), interface IWMWatermarkInfo
 - filigrane, à propos de
 - filigrane numérique
-- DirectX Media Object (DMO), à propos de
-- DMO (objet multimédia DirectX), à propos de
+- objet multimédia DirectX (DMO), à propos de
+- DMO (objet DirectX Media), à propos de
 - IWMWatermarkInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417012cb165c0028e71af6f8b50052fdd2fab208
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 78610c95d041390f819c24a11ccbf393bd62d19037e655e2d1c53b458e0a664b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106511876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653432"
 ---
 # <a name="watermarking-support"></a>Prise en charge du filigrane
 
 Le filigrane numérique est un moyen d’incorporer des droits d’auteur ou d’autres informations dans les données d’un flux multimédia. Les techniques de filigrane varient considérablement d’une solution à l’autre. La forme la plus simple de filigrane est d’ajouter simplement une image d’identification à chaque image d’un flux vidéo. Les stations de télévision utilisent souvent cette technique pour insérer un logo semi-transparent dans le coin inférieur de leur diffusion. Des formes plus sophistiquées de filigrane numérique sont imperceptibles à l’utilisateur qui regarde ou écoute le contenu.
 
-Le kit de développement logiciel (SDK) Windows Media format prend en charge l’utilisation de [*DMOs*](wmformat-glossary.md)de filigrane numérique. Dans la pratique, un système de filigrane est très similaire à un codec : il prend des exemples de supports, exécute des algorithmes sur les données et génère les exemples modifiés. Lorsqu’un système de filigrane est spécifié pour un flux de données, l’objet Writer comprend le module DMO dans son traitement d’exemples d’entrée.
+le kit de développement logiciel (SDK) Windows Media Format prend en charge l’utilisation de [*DMOs*](wmformat-glossary.md)de filigrane numérique. Dans la pratique, un système de filigrane est très similaire à un codec : il prend des exemples de supports, exécute des algorithmes sur les données et génère les exemples modifiés. lorsqu’un système de filigrane est spécifié pour un flux de données, l’objet writer comprend les DMO dans son traitement des exemples d’entrée.
 
-Vous devez spécifier les informations de configuration du filigrane lorsque vous configurez un flux pour le filigrane. Les valeurs de configuration sont différentes en fonction du filigrane DMO. La DMO que vous utilisez doit être accompagnée d’instructions décrivant les valeurs de configuration qu’elle prend en charge.
+Vous devez spécifier les informations de configuration du filigrane lorsque vous configurez un flux pour le filigrane. Les valeurs de configuration sont différentes en fonction de la DMO de filigrane. le DMO que vous utilisez doit être fourni avec des instructions décrivant les valeurs de configuration qu’il prend en charge.
 
 Pour plus d’informations sur les paramètres utilisés pour spécifier un système de filigrane, consultez [ **IWMWriterAdvanced2 :: SetInputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting)
 
@@ -48,9 +48,9 @@ Vous pouvez programmer votre application pour énumérer les DMOs de filigranes 
 [**Fonctionnalités d’écriture de fichier**](file-writing-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

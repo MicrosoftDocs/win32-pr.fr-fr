@@ -4,16 +4,16 @@ ms.assetid: ''
 title: Estimation de mouvement vidéo Direct3D
 ms.topic: article
 ms.date: 08/19/2019
-ms.openlocfilehash: 7fdb6146e1bb77c673eb89d944bcf42a8babce49
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: 0a49f7d3ec5e68ee6151b706be65866f1e156d6f876909c99b485356fb4df21c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "106538419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064116"
 ---
 # <a name="direct3d-video-motion-estimation"></a>Estimation de mouvement vidéo Direct3D
 
-Cet article contient des conseils sur l’estimation du vecteur de mouvement avec les API vidéo Direct3D 12. Cette fonctionnalité a été introduite dans Windows 10, version 2004 (10,0 ; Build 19041). L’estimation de mouvement est le processus qui consiste à déterminer les vecteurs de mouvement qui décrivent la transformation d’une image 2D à une autre. L’estimation de mouvement est un élément essentiel de l’encodage vidéo et peut être utilisée dans les algorithmes de conversion de fréquence d’images. 
+Cet article contient des conseils sur l’estimation du vecteur de mouvement avec les API vidéo Direct3D 12. cette fonctionnalité a été introduite dans Windows 10, version 2004 (10,0 ; Build 19041). L’estimation de mouvement est le processus qui consiste à déterminer les vecteurs de mouvement qui décrivent la transformation d’une image 2D à une autre. L’estimation de mouvement est un élément essentiel de l’encodage vidéo et peut être utilisée dans les algorithmes de conversion de fréquence d’images. 
 
 Bien que l’estimation de mouvement puisse être implémentée avec des nuanceurs, l’objectif de la fonctionnalité d’estimation de mouvement D3D12 consiste à exposer l’accélération de fonction fixe pour la recherche de mouvement afin de décharger cette partie du travail à partir de la 3D. Cela se produit souvent sous la forme d’une exposition de l’estimateur de mouvement de l’encodeur vidéo GPU. L’objectif de l’estimation de mouvement D3D12 est le circuit optique, mais il convient de noter que les estimateurs de mouvement d’encodeur peuvent être optimisés pour améliorer la compression.
 
@@ -51,7 +51,7 @@ VERIFY_SUCCEEDED(spVideoDevice->CreateVideoMotionEstimator(
 
 
 
-## <a name="storage-of-motion-vectors"></a>Stockage des vecteurs de mouvement
+## <a name="storage-of-motion-vectors"></a>Stockage de vecteurs de mouvement
 
 [ID3D12VideoMotionVectorHeap](/windows/win32/api/d3d12video/nn-d3d12video-id3d12videomotionvectorheap) stocke les vecteurs de mouvement. Cette interface est utilisée par la structure [D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_motion_estimator_output) retournée à partir de [ID3D12VideoEncodeCommandList :: EstimateMotion](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videoencodecommandlist-estimatemotion). La texture 2D de sortie résolue est une texture de [DXGI_FORMAT_R16G16_SINT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) où R contient le composant horizontal et G contient le composant vertical du vecteur de mouvement. Cette texture est dimensionnée de façon à contenir une paire de composants par bloc. Appelez [ID3D12VideoEncodeCommandList :: ResolveMotionVectorHeap](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videoencodecommandlist-resolvemotionvectorheap) pour convertir la sortie de vecteur de mouvement de **EstimateMotion** des formats dépendants du matériel dans un format cohérent défini par les API d’estimation de mouvement vidéo.
 

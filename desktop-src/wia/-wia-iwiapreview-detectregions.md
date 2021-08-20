@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 40665d2aae6e1e2dffa4356540afb05d45050492
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a1663c50213f959da9f6d7f450fb58a5ac0bb4e1bb9ffec8e302abd15e4698e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117669465"
 ---
 # <a name="iwiapreviewdetectregions-method"></a>IWiaPreview ::D méthode etectRegions
 
@@ -66,11 +66,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit appeler [**IWiaPreview :: GetNewPreview**](-wia-iwiapreview-getnewpreview.md) avant d’appeler cette fonction.
 
-Lorsque le composant d’évaluation WIA (Windows Image Acquisition) 2,0 appelle **IWiaPreview ::D etectregions**, il appelle le filtre de segmentation de pilote et passe l’interface [**IWiaItem2**](-wia-iwiaitem2.md) précédemment passée à [**IWiaPreview :: GetNewPreview**](-wia-iwiapreview-getnewpreview.md). Il passe également l’image mise en cache en interne au filtre. Le filtre de segmentation utilise l’image mise en cache pour créer les extensions enfants.
+lorsque le composant d’aperçu de l’acquisition d’images Windows (WIA) 2,0 appelle **IWiaPreview ::D etectregions**, il appelle le filtre de segmentation de pilote et passe l’interface [**IWiaItem2**](-wia-iwiaitem2.md) précédemment passée à [**IWiaPreview :: GetNewPreview**](-wia-iwiapreview-getnewpreview.md). Il passe également l’image mise en cache en interne au filtre. Le filtre de segmentation utilise l’image mise en cache pour créer les extensions enfants.
 
 Si une application modifie des propriétés de l’interface [**IWiaItem2**](-wia-iwiaitem2.md) après avoir appelé [**IWiaPreview :: GetNewPreview**](-wia-iwiapreview-getnewpreview.md), les propriétés d’origine doivent être restaurées avant que l’application n’appelle **IWiaPreview ::D etectregions**. Utilisez [**GetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream) et [**SetPropertyStream**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream) pour restaurer les propriétés d’origine.
 
@@ -80,14 +80,14 @@ Le pilote ne prend peut-être pas en charge la segmentation. Avant d’appeler *
 
 L’application doit nettoyer les éléments enfants créés en appelant **IWiaPreview ::D etectregions**. Par exemple, si une application effectue un appel supplémentaire à **IWiaPreview ::D etectregions** sur le même élément, elle doit nettoyer les éléments enfants précédents.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

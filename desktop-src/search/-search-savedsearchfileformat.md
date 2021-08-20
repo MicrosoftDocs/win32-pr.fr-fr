@@ -220,7 +220,7 @@ Ces éléments définissent l’Union du « genre » d’éléments qui doiven
 - video
 - webhistory
 - item
-- Autres
+- other
 
 ### <a name="conditions-element"></a>Élément \<conditions>
 

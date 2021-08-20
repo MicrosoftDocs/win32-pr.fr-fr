@@ -4,12 +4,12 @@ ms.assetid: 3cf56caf-5c6d-4318-811a-c8bdc1959148
 title: Comment effectuer un nettoyage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dad1f06cb6abe6a570fd85407028450651e32a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab86ae39567132352592883b7441e4f325cb1b021b74e5b7a67f4a2755c3c947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118063356"
 ---
 # <a name="how-to-perform-scrubbing"></a>Comment effectuer un nettoyage
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur le nettoyage, consultez [à propos du contrôle d
 4.  Appelez [**IMFMediaSession :: Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start) avec la position de recherche pour démarrer la lecture.
 5.  Lorsque l’opération de nettoyage est terminée, la session multimédia envoie un événement [MESessionScrubSampleComplete](mesessionscrubsamplecomplete.md) . Attendez que cet événement soit [**redémarré**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start) pour une autre opération de nettoyage.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’exemple de code suivant montre comment effectuer un nettoyage.
 

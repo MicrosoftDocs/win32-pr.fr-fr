@@ -5,12 +5,12 @@ ms.assetid: F9A2640F-D1FA-481C-BDF1-B15372E3C512
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a3cd3980bede72d6e2f4b163abe11b249970eb7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f213141d0857c7c3459e4e2edd83e964db5f6400d8d1cd81d3fb8fcbf86c6600
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74103390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118097531"
 ---
 # <a name="using-constants-directly-in-the-root-signature"></a>Utilisation des constantes directement dans la signature racine
 
@@ -47,12 +47,12 @@ Reportez-vous également à la structure des [**\_ \_ constantes racine D3D12**]
 
 <dl> <dt>
 
-[Signatures racines](root-signatures.md)
+[Signatures racine](root-signatures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

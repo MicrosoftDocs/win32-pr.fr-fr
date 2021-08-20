@@ -24,7 +24,7 @@ ms.locfileid: "117819382"
 # <a name="idxtkeyput_luminance-method"></a>IDxtKey : méthode de \_ Luminance :p ut
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

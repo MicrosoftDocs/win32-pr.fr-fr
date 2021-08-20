@@ -4,16 +4,16 @@ ms.assetid: 3abb2e45-430d-47ce-829f-319b31985f9f
 title: À propos des polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80001654d905790e0bf81801a5f19ddb5df0a350
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28dcb884317236922967598ed3dda2fd99b3350e2cf08408d75d598dd96830e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117700028"
 ---
 # <a name="about-fonts"></a>À propos des polices
 
-Pour une personne formée dans le cadre de la composition de la main ou connaissant la typographie standard, certains des termes typographiques utilisés dans cette vue d’ensemble peuvent être inhabituels. La plupart des différences entre la typographie standard et le texte sur Microsoft Windows reflètent les modifications apportées à la technologie. Les termes typographiques originaux étaient basés sur la composition de métal chaud, tandis que les termes utilisés ici, qui apparaissent en tant que noms de membres pour les structures de sortie de police et de texte, reflètent une nouvelle technologie basée sur la sortie de l’imprimante laser et la composition effectuée sur un ordinateur personnel à l’aide d’un logiciel de publication de bureau.
+Pour une personne formée dans le cadre de la composition de la main ou connaissant la typographie standard, certains des termes typographiques utilisés dans cette vue d’ensemble peuvent être inhabituels. la plupart des différences entre la typographie standard et le texte sur Microsoft Windows refléter les changements de technologie. Les termes typographiques originaux étaient basés sur la composition de métal chaud, tandis que les termes utilisés ici, qui apparaissent en tant que noms de membres pour les structures de sortie de police et de texte, reflètent une nouvelle technologie basée sur la sortie de l’imprimante laser et la composition effectuée sur un ordinateur personnel à l’aide d’un logiciel de publication de bureau.
 
 Les sections suivantes traitent des polices :
 

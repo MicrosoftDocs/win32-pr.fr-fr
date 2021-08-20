@@ -36,7 +36,7 @@ l’attribut **ACS-Max-Token-compartiment-Per-Flow** est réservé à un usage i
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1313              |
 | System-ID-GUID    | 81f6e0df-3b90-11d2-90cc-00c04fd91ab1 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 

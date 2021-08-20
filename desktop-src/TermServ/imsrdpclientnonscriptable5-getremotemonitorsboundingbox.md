@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f67192b78c734359fc6113969eb5eb410e1bf3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a47b308bf95389dcf043e87565be365ec69ecc34500ac187ee11a679349f18ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129887"
 ---
 # <a name="imsrdpclientnonscriptable5getremotemonitorsboundingbox-property"></a>IMsRdpClientNonScriptable5 :: GetRemoteMonitorsBoundingBox, propriété
 
@@ -55,7 +55,7 @@ Reçoit le bord droit du rectangle.
 
 Reçoit le bord inférieur du rectangle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Toutes les coordonnées se trouvent dans des coordonnées d’écran virtuelles, qui sont relatives au coin supérieur gauche de l’écran principal. S’il ne s’agit pas du moniteur principal, une partie ou la totalité de ces valeurs peut être négative.
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh564661(v=EXCHG.10)
 ms:contentKeyID: 39511065
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: dd32c44693b4f17ce319d270e5a61488dc6a6cab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef042a1ca197d5d8b8ea78fa8750c980beaa18a4ddd9bf3c17e9e788bcbf0661
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104559859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117894814"
 ---
 # <a name="jet_indexid-operators"></a>Opérateurs JET_INDEXID
 
@@ -27,7 +27,7 @@ Le type de [JET_INDEXID](./jet-indexid-structure2.md) expose les membres suivant
 <thead>
 <tr class="header">
 <th> </th>
-<th>Nom</th>
+<th>Name</th>
 <th>Description</th>
 </tr>
 </thead>

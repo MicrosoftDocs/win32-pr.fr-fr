@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Keymgr.dll
-ms.openlocfilehash: 59b6b38cf7e78755c7d5c481a22a0a8b3854c8a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 58b62b036b1aba7916c2c08cdbdb137e136c85c694dc11210cadcd7fe2a92d37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004131"
 ---
 # <a name="krshowkeymgr-function"></a>KRShowKeyMgr fonction)
 
-\[Cette fonction est incluse uniquement dans Windows XP. Il n’est pas inclus dans les autres versions de Windows et ne devrait pas être inclus dans les futures versions de Windows.\]
+\[cette fonction est incluse uniquement dans Windows XP. elle n’est pas incluse dans les autres versions de Windows, pas plus qu’elle ne devrait être incluse dans les futures versions de Windows.\]
 
 Affiche la boîte de dialogue Gestionnaire de clés dans l’interface utilisateur.
 
@@ -76,11 +76,11 @@ Ce paramètre n’est pas utilisé et doit avoir la valeur **null**.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

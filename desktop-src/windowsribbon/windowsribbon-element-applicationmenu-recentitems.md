@@ -3,7 +3,7 @@ title: ApplicationMenu. RecentItems, propriété
 description: Représente un conteneur pour le contrôle d’éléments récents dans le menu de l’application.
 ms.assetid: 26ed38b6-17de-423f-a113-ccbaf3780a91
 keywords:
-- Ruban Windows de la propriété ApplicationMenu. RecentItems
+- ApplicationMenu. RecentItems, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 473ab6436eabd7fcbbbfb533a8ae4afc07098c81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 415c7d05c29bf44a13d60062c1623cc18d9ba081550afaec8b98a7c6e23a1cb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117656494"
 ---
 # <a name="applicationmenurecentitems-property"></a>ApplicationMenu. RecentItems, propriété
 
 Représente un conteneur pour le contrôle d' [éléments récents](windowsribbon-controls-recentitems.md) dans le menu de l' [application](windowsribbon-controls-applicationmenu.md).
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ApplicationMenu.RecentItems
@@ -85,9 +85,9 @@ Représente un conteneur pour le contrôle d' [éléments récents](windowsribbo
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**ApplicationMenu**](windowsribbon-element-applicationmenu.md) .
 
@@ -121,14 +121,14 @@ L’exemple suivant illustre la déclaration des contrôles **ApplicationMenu. R
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

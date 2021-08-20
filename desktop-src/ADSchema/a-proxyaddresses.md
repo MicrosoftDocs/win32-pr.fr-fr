@@ -1,6 +1,6 @@
 ---
 title: Attribut Proxy-Addresses
-description: Une adresse proxy est l’adresse par laquelle un objet destinataire Microsoft Exchange Server est reconnu dans un système de messagerie étranger. Des adresses proxy sont requises pour tous les objets destinataires, tels que les destinataires personnalisés et les listes de distribution.
+description: une adresse proxy est l’adresse par laquelle un objet destinataire Microsoft Exchange Server est reconnu dans un système de messagerie étranger. Des adresses proxy sont requises pour tous les objets destinataires, tels que les destinataires personnalisés et les listes de distribution.
 ms.assetid: 7bb299d8-e67a-4062-91a3-b579fd71d5c9
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a03542cef9bca48dbba1585e3837056b53673f34
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4333995a30eef76626fba8965eef4ec8e8083e4699b449fd9da69492080b5750
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836843"
 ---
 # <a name="proxy-addresses-attribute"></a>Attribut Proxy-Addresses
 
-Une adresse proxy est l’adresse par laquelle un objet destinataire Microsoft Exchange Server est reconnu dans un système de messagerie étranger. Des adresses proxy sont requises pour tous les objets destinataires, tels que les destinataires personnalisés et les listes de distribution.
+une adresse proxy est l’adresse par laquelle un objet destinataire Microsoft Exchange Server est reconnu dans un système de messagerie étranger. Des adresses proxy sont requises pour tous les objets destinataires, tels que les destinataires personnalisés et les listes de distribution.
 
 
 
@@ -46,7 +46,7 @@ Une adresse proxy est l’adresse par laquelle un objet destinataire Microsoft E
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

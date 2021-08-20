@@ -4,12 +4,12 @@ ms.assetid: 50039b30-1c91-4e93-9f23-873accb651cf
 title: Configuration des applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16319baf7e34348751e9cafd0efcbd99906d0985
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 372d15e00898d88b3aed13ca2edaa03bc8a666ceb62dc1389af3e8f6959c971f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117916929"
 ---
 # <a name="configuring-com-applications"></a>Configuration des applications COM+
 
@@ -21,7 +21,7 @@ Vous pouvez configurer des applications COM+ à l’aide de l’outil d’admini
 
 Vous pouvez configurer des éléments aux niveaux suivants dans les applications COM+ :
 
--   [Paramètres au niveau de l’application](#application-level-settings)
+-   [Paramètres au niveau de l’Application](#application-level-settings)
 -   [Paramètres au niveau du composant (au niveau de la classe)](#component-level-class-level-settings)
 -   [Paramètre au niveau de l’interface](#interface-level-setting)
 -   [Paramètre au niveau de la méthode](#method-level-setting)
@@ -29,7 +29,7 @@ Vous pouvez configurer des éléments aux niveaux suivants dans les applications
 
 La façon dont vous installez les composants dans une application peut affecter la façon dont vous pouvez les configurer. Vous devez toujours installer les composants dans des applications COM+ (au lieu de les importer). L’installation des composants les enregistre entièrement, ainsi que les interfaces et les bibliothèques de types, dans la base de données d’inscription de classe COM+ (RegDB) afin que vous puissiez les configurer.
 
-## <a name="application-level-settings"></a>Paramètres de Application-Level
+## <a name="application-level-settings"></a>Application-Level Paramètres
 
 
 
@@ -57,7 +57,7 @@ La façon dont vous installez les composants dans une application peut affecter 
 
  
 
-## <a name="component-level-class-level-settings"></a>Paramètres de Component-Level (au niveau de la classe)
+## <a name="component-level-class-level-settings"></a>Component-Level (au niveau de la classe) Paramètres
 
 
 

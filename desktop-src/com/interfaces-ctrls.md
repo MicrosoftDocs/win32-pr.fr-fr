@@ -4,12 +4,12 @@ description: Les interfaces suivantes sont utilisées pour créer des objets COM
 ms.assetid: f0d655b3-fa92-4553-ba21-617649a922a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e143ab1793eaf0335bbcf04093707bdc359e868e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f34718a9968d339ee2abe9ecd36803c854aba13ae6d679742bde26cbbd993f58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106513758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117918901"
 ---
 # <a name="interfaces-controls-and-property-pages"></a>Interfaces (contrôles et pages de propriétés)
 
@@ -19,7 +19,7 @@ Les interfaces suivantes sont utilisées pour créer des objets COM standard et 
 
 | Interface                                             | Description                                                                                                                                                                                                  |
 |-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IFont**](/windows/desktop/api/OCIdl/nn-ocidl-ifont)                                | Fournit un wrapper autour d’un objet de police Windows.                                                                                                                                                             |
+| [**IFont**](/windows/desktop/api/OCIdl/nn-ocidl-ifont)                                | fournit un wrapper autour d’un objet Windows font.                                                                                                                                                             |
 | [**IFontDisp**](/windows/win32/api/ocidl/nn-ocidl-ifontdisp)                        | Expose les propriétés d’un objet font par le biais de l’automatisation. Il fournit un sous-ensemble des méthodes [**IFont**](/windows/desktop/api/OCIdl/nn-ocidl-ifont) .                                                                                           |
 | [**IOleControl**](/windows/desktop/api/OCIdl/nn-ocidl-iolecontrol)                    | Fournit les fonctionnalités pour la prise en charge des mnémoniques du clavier, des propriétés ambiantes et des événements dans les objets de contrôle.                                                                                                  |
 | [**IOleControlSite**](/windows/desktop/api/OCIdl/nn-ocidl-iolecontrolsite)            | Fournit les méthodes qui permettent à un objet de site de gérer chaque contrôle incorporé dans un conteneur.                                                                                                           |

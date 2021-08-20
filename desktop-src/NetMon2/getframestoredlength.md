@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: e48f1d357645a9f50a85da4aba79d72baba4e4bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f18066c9ff55699fa58f887cf9b3cdedf8f7ba3cd9324667abb556de5634552
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117982323"
 ---
 # <a name="getframestoredlength-function"></a>GetFrameStoredLength fonction)
 
@@ -52,11 +52,11 @@ Si la fonction réussit, la valeur de retour est la longueur de la trame telle q
 
 Si la fonction échoue, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetFrameStoredLength** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

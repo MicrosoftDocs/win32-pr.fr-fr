@@ -4,12 +4,12 @@ ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
 title: OCM__BASE (OLECTL. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa3713d8a7b7447430e914e2582089244a417b1c
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: a0f159dc4eab2f6a240b3400354b58ab1e94e466522c9b91f34af0f0cc60eb70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112588062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118031199"
 ---
 # <a name="ocm__base"></a>BASE de OCM \_ \_
 
@@ -48,7 +48,7 @@ Les numéros de message dans la quatrième plage (0xC000 à 0xFFFF) sont défini
 
 Les numéros de message dans la cinquième plage (supérieure à 0xFFFF) sont réservés par le système.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -64,7 +64,7 @@ Les numéros de message dans la cinquième plage (supérieure à 0xFFFF) sont r�
 
 <dl> <dt>
 
-**Informations de référence**
+**Référence**
 </dt> <dt>
 
 [**RegisterWindowMessage**](/windows/win32/api/winuser/nf-winuser-registerwindowmessagea)

@@ -50,12 +50,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 616dc80d835e22502b6781355a2eff35a6375e05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1544ac88a301ce6cc6360e1e7a6aea1fa5d72a7b1930c6dd7113bdda35fde242
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117705309"
 ---
 # <a name="jet_coltyp-enumeration"></a>Énumération JET_coltyp
 

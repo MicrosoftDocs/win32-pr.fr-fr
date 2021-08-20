@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: b9bda11b5cb7a27f7744df6e20890a125a66bd88
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 47b8e52651d26df38f82e922b95a83275fe3b151ea8a20e1fe0e526042332cf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067296"
 ---
 # <a name="wm_pointeractivate-message"></a>Message WM_POINTERACTIVATE
 
@@ -62,7 +62,7 @@ Si une application traite ce message, elle doit retourner l’une des valeurs d�
 
 Si l’application ne traite pas ce message, elle doit appeler [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application peut gérer ce message et retourner l’une des valeurs suivantes pour déterminer comment le système traite l’activation et l’entrée d’activation :
 
@@ -73,14 +73,14 @@ Il est important de noter que, lorsque l’utilisateur interagit avec le systèm
 
 Si l’application ne gère pas ce message, [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca) transmet le message à la fenêtre parente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

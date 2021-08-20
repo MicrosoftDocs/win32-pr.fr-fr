@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e1b9f113792b14f5fb86e0349d083ea48ffdb3fd
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f14ca5f0e657729e30a72cc70553bfda78b38352dd983c096f35021cfac10d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117919231"
 ---
 # <a name="iaccessibilitydockingservicegetavailablesize-method"></a>IAccessibilityDockingService :: GetAvailableSize, méthode
 
@@ -74,7 +74,7 @@ En cas d’échec, définissez sur zéro.
 
 | Code de retour                                                                                                                          | Description                                                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                                                 | Opération réussie.<br/>                                                              |
+| <dl> <dt>**\_OK**</dt> </dl>                                                 | Réussite.<br/>                                                              |
 | <dl> <dt>**HRESULT \_ à partir de \_ Win32 (handle de moniteur d’erreur \_ non valide \_ \_ )**</dt> </dl> | L’analyse spécifiée par le descripteur du moniteur ne prend pas en charge l’ancrage.<br/> |
 
 
@@ -83,9 +83,9 @@ En cas d’échec, définissez sur zéro.
 
 Si *puMaxHeight* ou *puFixedWidth* a la valeur null, une violation d’accès se produit.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fenêtres d’accessibilité peuvent uniquement être ancrées à une analyse qui a au moins 768 pixels d’écran verticaux. Cette API n’autorise pas l’ancrage de ces fenêtres avec une hauteur qui amènerait les applications du Windows Store à avoir moins de 768 pixels d’écran verticaux.
+Les fenêtres d’accessibilité peuvent uniquement être ancrées à une analyse qui a au moins 768 pixels d’écran verticaux. cette API n’autorise pas l’ancrage de ces fenêtres avec une hauteur qui obligerait Windows applications du Store à avoir moins de 768 pixels d’écran verticaux.
 
 ## <a name="examples"></a>Exemples
 

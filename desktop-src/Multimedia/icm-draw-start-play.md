@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_START_PLAY (VFW. h)
-description: Le \_ \_ \_ message de début de dessin ICM fournit les heures de début et de fin d’une opération de lecture à un pilote de rendu. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawStartPlay.
+description: le \_ message ICM DRAW \_ START \_ PLAY fournit les heures de début et de fin d’une opération de lecture à un pilote de rendu. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawStartPlay.
 ms.assetid: 27c4c06e-6510-43dc-a754-fe44144796f5
 keywords:
-- Message ICM_DRAW_START_PLAY Windows Multimedia
+- message ICM_DRAW_START_PLAY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eefea0f6344fb598fac1f0413bba5c377c5914e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 57caf05182f01ef1e6aec6939946a23ca0acf6f3f82ec29be04ec7e3a49cb782
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987234"
 ---
-# <a name="icm_draw_start_play-message"></a>Message de début de la \_ \_ \_ lecture ICM
+# <a name="icm_draw_start_play-message"></a>ICM \_ DESSINER le \_ message de début de \_ lecture
 
-Le message de **début de dessin ICM fournit les \_ \_ \_** heures de début et de fin d’une opération de lecture à un pilote de rendu. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawStartPlay**](/windows/desktop/api/Vfw/nf-vfw-icdrawstartplay) .
+le message **ICM \_ DRAW \_ START \_ PLAY** fournit les heures de début et de fin d’une opération de lecture à un pilote de rendu. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawStartPlay**](/windows/desktop/api/Vfw/nf-vfw-icdrawstartplay) .
 
 
 ```C++
@@ -56,15 +56,15 @@ Heure de fin.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message précède toutes les données de frame envoyées au pilote de rendu.
 
-Les unités pour *lFrom* et *lTo* sont spécifiées avec le message [**ICM \_ Draw \_ Begin**](icm-draw-begin.md) . Pour les données vidéo, il s’agit généralement d’un nombre de trames. Pour plus d’informations sur la vitesse de lecture, consultez les membres **dwRate** et **dwScale** de la structure [**ICDRAWBEGIN**](/windows/desktop/api/Vfw/ns-vfw-icdrawbegin) .
+les unités pour *lFrom* et *lTo* sont spécifiées avec le message [**ICM \_ DRAW \_ BEGIN**](icm-draw-begin.md) . Pour les données vidéo, il s’agit généralement d’un nombre de trames. Pour plus d’informations sur la vitesse de lecture, consultez les membres **dwRate** et **dwScale** de la structure [**ICDRAWBEGIN**](/windows/desktop/api/Vfw/ns-vfw-icdrawbegin) .
 
 Si l’heure de fin est inférieure à l’heure de début, la direction de la lecture est inversée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

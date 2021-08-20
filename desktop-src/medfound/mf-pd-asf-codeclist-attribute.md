@@ -4,12 +4,12 @@ ms.assetid: 6dde30d3-dbdc-469c-ad7e-5e670b7e0a64
 title: Attribut MF_PD_ASF_CODECLIST (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 402c53c082ae57fed444168c559f99718322f8a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d99f6118049e48f4ebefe6e84f6b58d5e03ac07b56d44f142aa67e6a3c835414
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118059758"
 ---
 # <a name="mf_pd_asf_codeclist-attribute"></a>\_ \_ Attribut CODECLIST MF PD ASF \_
 
@@ -19,7 +19,7 @@ Contient des informations sur les codecs et les formats utilisés pour encoder l
 
 Tableau d’octets
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
@@ -31,7 +31,7 @@ Le tableau suivant montre la disposition de l’objet blob d’attributs.
 
 | Champ d’objet de liste de codecs | Type de données    | Taille    | Description                           |
 |-------------------------|--------------|---------|---------------------------------------|
-| Nombre d’entrées de codec     | **GRANDE**    | 4 octets | Nombre de codecs                      |
+| Nombre d’entrées de codec     | **DWORD**    | 4 octets | Nombre de codecs                      |
 | Entrées de codec           | **POIDS**\[\] | Variable  | Tableau de structures d’informations de codec |
 
 
@@ -60,7 +60,7 @@ Le champ entrées de code est un tableau de structures. Le tableau suivant prés
 <tbody>
 <tr class="odd">
 <td>Type</td>
-<td><strong>GRANDE</strong></td>
+<td><strong>DWORD</strong></td>
 <td>4 octets</td>
 <td>Type de codec. Il peut s’agir de l’une des valeurs suivantes :<br/>
 <ul>
@@ -71,7 +71,7 @@ Le champ entrées de code est un tableau de structures. Le tableau suivant prés
 </tr>
 <tr class="even">
 <td>Longueur du nom du codec</td>
-<td><strong>GRANDE</strong></td>
+<td><strong>DWORD</strong></td>
 <td>4 octets</td>
 <td>Taille, en octets, de la chaîne de nom du codec, y compris le caractère <strong>null</strong> .</td>
 </tr>
@@ -79,11 +79,11 @@ Le champ entrées de code est un tableau de structures. Le tableau suivant prés
 <td>Nom du codec</td>
 <td><strong>WCHAR</strong>[]</td>
 <td>Variable</td>
-<td>Chaîne Unicode terminée par le caractère null qui contient le nom du codec, par exemple &quot; Windows Media Video 9 &quot; .</td>
+<td>chaîne Unicode terminée par le caractère Null qui contient le nom du codec, par exemple &quot; Windows Media Video 9 &quot; .</td>
 </tr>
 <tr class="even">
 <td>Longueur de la description du codec</td>
-<td><strong>GRANDE</strong></td>
+<td><strong>DWORD</strong></td>
 <td>4 octets</td>
 <td>Taille, en octets, de la chaîne de description du codec, y compris le caractère <strong>null</strong> .</td>
 </tr>
@@ -95,7 +95,7 @@ Le champ entrées de code est un tableau de structures. Le tableau suivant prés
 </tr>
 <tr class="even">
 <td>Longueur des informations du codec</td>
-<td><strong>GRANDE</strong></td>
+<td><strong>DWORD</strong></td>
 <td>4 octets</td>
 <td>Taille du champ d’informations du codec, en octets.</td>
 </tr>
@@ -117,14 +117,14 @@ Le champ entrées de code est un tableau de structures. Le tableau suivant prés
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

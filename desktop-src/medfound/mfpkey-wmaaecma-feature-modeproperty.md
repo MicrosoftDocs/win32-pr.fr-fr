@@ -4,12 +4,12 @@ ms.assetid: 1c11e817-36bd-4a5d-9c2b-6a91e86f623f
 title: MFPKEY_WMAAECMA_FEATURE_MODE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9a47ef86a2acf83131800e9cb55b86de2cd3d98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e2e4e370876b8ecae91638a4cbe462a4f55e31e8f9e9f525b7b312c04343433
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117689317"
 ---
 # <a name="mfpkey_wmaaecma_feature_mode-property"></a>MFPKEY \_ \_ propriété mode de fonctionnalité WMAAECMA \_
 
@@ -31,7 +31,7 @@ VARIANTE \_ false
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette propriété a la \_ valeur true, l’application peut définir les propriétés suivantes sur le DSP :
 
@@ -48,14 +48,14 @@ Si cette propriété a la \_ valeur true, l’application peut définir les prop
 
 Si cette propriété a \_ la valeur false, le DSP ignore ces propriétés et utilise ses paramètres par défaut. La valeur par défaut de cette propriété est \_ false false.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

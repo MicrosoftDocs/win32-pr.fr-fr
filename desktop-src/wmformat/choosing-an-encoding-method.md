@@ -11,16 +11,16 @@ keywords:
 - codecs, sélection des méthodes d’encodage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f54c5bd099e5aaf8b3a735594c8b87a335fc2594
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a87a780798885e86b515a8d111797af304a58f13c962ecab7f7862dfb1790411
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117656129"
 ---
 # <a name="choosing-an-encoding-method"></a>Choix d’une méthode d’encodage
 
-Certains codecs, comme le codec Windows Media Video 9, prennent en charge plusieurs méthodes d’encodage. La méthode d’encodage que vous choisissez pour un flux dépend de la façon dont le flux doit être remis. Le tableau suivant décrit quand utiliser les différentes méthodes d’encodage.
+certains codecs, comme le codec Windows Media Video 9, prennent en charge plusieurs méthodes d’encodage. La méthode d’encodage que vous choisissez pour un flux dépend de la façon dont le flux doit être remis. Le tableau suivant décrit quand utiliser les différentes méthodes d’encodage.
 
 
 
@@ -34,26 +34,26 @@ Certains codecs, comme le codec Windows Media Video 9, prennent en charge plusie
 
 
 
- 
+ 
 
-Le tableau suivant répertorie les méthodes d’encodage prises en charge par les codecs fournis avec le kit de développement logiciel (SDK) du format Windows Media.
+le tableau suivant répertorie les méthodes d’encodage prises en charge par les codecs fournis avec le kit de développement logiciel (SDK) de Format multimédia Windows.
 
 
 
 | Codec                                  | CBR | 2-pass CBR | MODE VBR | 2-passer le VBR |
 |----------------------------------------|-----|------------|-----|------------|
 | Windows Media Video 9                  | X   | X          | X   | X          |
-| Windows Media Audio 9 et versions ultérieures        | X   | X          | X   | X          |
-| Écran Windows Media Video 9           | X   |            | X   |            |
-| Voix Windows Media Audio 9            | X   |            |     |            |
-| Windows Media Audio professionnel       | X   | X          | X   | X          |
-| Windows Media Audio sans perte           |     |            | X   |            |
-| Image Windows Media Video 9 et versions ultérieures  | X   |            | X   |            |
-| Profil avancé Windows Media Video 9 | X   | X          | X   | X          |
+| Windows Média audio 9 et versions ultérieures        | X   | X          | X   | X          |
+| Windows Écran Media Video 9           | X   |            | X   |            |
+| Windows Media Audio 9 voix            | X   |            |     |            |
+| Windows Professional multimédia audio       | X   | X          | X   | X          |
+| Windows Média audio sans perte           |     |            | X   |            |
+| Windows Media Video 9 image et versions ultérieures  | X   |            | X   |            |
+| Windows Profil Media Video 9 Advanced | X   | X          | X   | X          |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -71,9 +71,9 @@ Le tableau suivant répertorie les méthodes d’encodage prises en charge par l
 [**Encodage à vitesse de transmission variable (VBR)**](variable-bit-rate--vbr--encoding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

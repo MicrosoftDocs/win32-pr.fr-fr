@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2ddced604c93512742c3548ebd9238b162597f2a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d1af312bab7b799ad0bea6ef28ec3c6673cc7c187cc9018538b2e8f2463acbe6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104393960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117719946"
 ---
 # <a name="peapextensionsv2-peapextensionstype-element-v1-schema"></a>PeapExtensionsV2 (PeapExtensionsType), élément (schéma v1)
 
@@ -33,18 +33,18 @@ L’élément **PeapExtensionsV2 (PeapExtensionsType)** permet de futures améli
 
 L’élément **PeapExtensionsV2** est défini par l’élément [**PeapExtensionsType**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **PeapExtensionsV2** est facultatif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

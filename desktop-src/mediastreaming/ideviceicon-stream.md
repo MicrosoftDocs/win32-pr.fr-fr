@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fd00d757fceb90cf5ee7199256b003464063abcb
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 75163836c2722156ec4bf6cd8b763a7c1b0f43b35a087c9dbdce6aef1ec99541
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871184"
 ---
 # <a name="ideviceiconstream-method"></a>IDeviceIcon :: Stream, méthode
 
@@ -50,7 +50,7 @@ Reçoit une référence à un [**IRandomAccessStreamWithContentType**](/uwp/api/
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

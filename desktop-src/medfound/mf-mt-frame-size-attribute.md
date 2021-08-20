@@ -4,12 +4,12 @@ ms.assetid: 9f10a972-406f-47ef-b71c-86ed771c9a9a
 title: Attribut MF_MT_FRAME_SIZE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3d6278cdbd4c279c498839cb183b3331fe1efc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d0801e9fb074521c7ca22a0feb21d84687ad0d00aad8156e16733786523f6e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060180"
 ---
 # <a name="mf_mt_frame_size-attribute"></a>\_Attribut de \_ taille de trame MT MF \_
 
@@ -19,7 +19,7 @@ Largeur et hauteur d’une image vidéo, en pixels.
 
 **UINT64**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les 32 bits de poids fort contiennent la largeur et les 32 inférieurs contiennent la hauteur.
 
@@ -46,14 +46,14 @@ inline HRESULT GetFrameSize(IMFMediaType *pType, UINT32 *pWidth, UINT32 *pHeight
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

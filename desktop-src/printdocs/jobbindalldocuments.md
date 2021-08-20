@@ -4,12 +4,12 @@ ms.assetid: f21199e2-2220-40c4-9429-72aa2a34a5f2
 title: JobBindAllDocuments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5abff455756b2abc1d84bf2cff470fa49c93278
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1efa510a328f37bc1b7f6cf31d1dad60b09e44effb9ee2f521a11bdc6a26620d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117686498"
 ---
 # <a name="jobbindalldocuments"></a>JobBindAllDocuments
 
@@ -25,9 +25,9 @@ Décrit la méthode de liaison. Tous les documents du travail sont liés ensembl
 
 
 
-| Nom | Valeur |
+| Name | Valeur |
 |----------------------------|--------------------------------------------------------------------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/>                                                             |
+| Type d'élément <br/>   | Caractéristique<br/>                                                             |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                 |
 | Notes <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize.<br/> |
 
@@ -61,7 +61,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Nom                               | Type de données          | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Résumé                                                                                                                                                                |
+| Name                               | Type de données          | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Récapitulatif                                                                                                                                                                |
 |------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_OptionName\_<br/>          | string<br/>  | caractères<br/> | Nom complet valide tel que défini par les [espaces de noms dans XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). Si aucun espace de noms n’est spécifié, l’espace de noms par défaut est utilisé.<br/> | Nom de l'option.<br/>                                                                                                                                     |
 | \_IdentityOptionValue\_<br/> | string<br/>  | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Définit une option qui, lorsqu’elle est sélectionnée, désactive cette fonctionnalité.<br/>                                                                                           |

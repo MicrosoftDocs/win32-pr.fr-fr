@@ -1,6 +1,6 @@
 ---
 title: Méthode IMsRdpClientNonScriptable NotifyRedirectDeviceChange
-description: Notifie le module de redirection de périphérique du contrôle ActiveX Bureau à distance qu’une modification de périphérique s’est produite sur le système. Cette méthode passe \_ les notifications WM DEVICECHANGE au contrôle.
+description: notifie le module de redirection de l’appareil du contrôle de Bureau à distance ActiveX qu’une modification de l’appareil s’est produite sur le système. Cette méthode passe \_ les notifications WM DEVICECHANGE au contrôle.
 ms.assetid: 36323831-06e0-4e47-8a6c-06367119298f
 ms.tgt_platform: multiple
 keywords:
@@ -29,16 +29,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7357fcb5e31eeeb0de5791425b8d9fada4365ab8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 37986a218f672f5ace6d81b6496b958547e70a95f8ddea91bf6a130eb05b1ed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118130076"
 ---
 # <a name="imsrdpclientnonscriptablenotifyredirectdevicechange-method"></a>IMsRdpClientNonScriptable :: NotifyRedirectDeviceChange, méthode
 
-Notifie le module de redirection de périphérique du contrôle ActiveX Bureau à distance qu’une modification de périphérique s’est produite sur le système. Cette méthode passe les notifications [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) au contrôle.
+notifie le module de redirection de l’appareil du contrôle de Bureau à distance ActiveX qu’une modification de l’appareil s’est produite sur le système. Cette méthode passe les notifications [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) au contrôle.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -206,7 +206,7 @@ Pointeur vers une structure qui contient des données spécifiques à l’évén
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application conteneur qui permet l’ajout ou la suppression dynamique d’appareils doit traiter le message [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) dans sa fenêtre de niveau supérieur et transférer le message au contrôle à l’aide de la méthode **NotifyRedirectDeviceChange** . Par exemple, un changement de périphérique dynamique se fait lorsqu’un lecteur de disque Redirigé est ajouté ou supprimé pendant que le système est en cours d’exécution.
 

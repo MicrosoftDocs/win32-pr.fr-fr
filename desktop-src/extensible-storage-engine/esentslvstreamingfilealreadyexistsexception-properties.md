@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102917
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8f0652aa51f94b92eb6e58a635e4ba5f1be027b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c68c6020823661d4cbf07a1a2ad156bc139408ca9c89409e4059636d41e5afd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117707652"
 ---
 # <a name="esentslvstreamingfilealreadyexistsexception-properties"></a>Propriétés EsentSLVStreamingFileAlreadyExistsException
 
@@ -49,7 +49,7 @@ Le type [EsentSLVStreamingFileAlreadyExistsException](./esentslvstreamingfilealr
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

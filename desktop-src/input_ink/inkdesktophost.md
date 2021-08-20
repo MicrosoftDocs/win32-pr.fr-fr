@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - InkPresenterDesktop.idl
-ms.openlocfilehash: 74eebdbdfdbe3a4018d63b1f2161687152ebb5cc
-ms.sourcegitcommit: 1f917afc149b5cc449a4a25a87de311e4842734b
+ms.openlocfilehash: f422af645b3f5bc9431830c0ddab6f7321d09156b96fb6041104f684358bb9dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113689222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884586"
 ---
 # <a name="inkdesktophost-class"></a>InkDesktopHost, classe
 
@@ -53,7 +53,7 @@ CoCreateInstance(__uuidof(InkDesktopHost),
   IID_PPV_ARGS(&_spInkHost));
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 | Condition requise | Valeur |
 |---|---|

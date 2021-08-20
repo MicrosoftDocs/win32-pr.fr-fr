@@ -4,12 +4,12 @@ ms.assetid: 584095bb-a02a-4b56-9270-1163f36a6fde
 title: Lien
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8fe39a8f4c55cb1f4f0e13947555611f69144f9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c312e43ac200f2523a49f176927b5f4980c242faa1cba6ea7b6c7689f75bf36a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117685556"
 ---
 # <a name="link"></a>Lien
 

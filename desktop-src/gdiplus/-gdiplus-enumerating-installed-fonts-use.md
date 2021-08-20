@@ -4,12 +4,12 @@ ms.assetid: 59598f66-4241-4766-a2f0-5de736de959e
 title: Énumération des polices installées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f41242522c2575ffb08e53f7100380ac9a849d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa54298cb7d177708d609e2ee011dd4da7173c726445b59b07a9c8e60ce786cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067350"
 ---
 # <a name="enumerating-installed-fonts"></a>Énumération des polices installées
 

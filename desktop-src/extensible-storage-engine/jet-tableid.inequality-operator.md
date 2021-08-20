@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b7e1cfc9a43beb8478be287e1659883d49f62239
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5684d79f0be5ceaccccb4a420c16ab1cb6fae41dcf529386ae6f1a1ed9484ec0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117892307"
 ---
 # <a name="jet_tableidinequality-operator"></a>JET_TABLEID. Opérateur d’inégalité
 
