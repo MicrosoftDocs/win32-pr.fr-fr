@@ -4,12 +4,12 @@ ms.assetid: b2f70989-f0a8-4a11-baeb-18f026afaeab
 title: Connexion et déconnexion des nœuds de topologie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08057eba74314ae6b87da418b743a089506a3b26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6113f4648d0aafbe41dc13090dc83807f746f0acc945f76eca0acf1b4898913f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064625"
 ---
 # <a name="connecting-and-disconnecting-topology-nodes"></a>Connexion et déconnexion des nœuds de topologie
 

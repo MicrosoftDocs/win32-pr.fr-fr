@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxva.h
-ms.openlocfilehash: cafcbf31a7d4b7fee84e6c695f1d0f0a1e0302ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dae9dbe657a8aefacb5d2d3e71bbb61c724288b4b5832e913a8e24b843d86c83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064038"
 ---
 # <a name="dxva_picparams_hevc-structure"></a>DXVA \_ PicParams \_ HEVC, structure
 
@@ -398,14 +398,14 @@ typedef struct _DXVA_PicParams_HEVC {
 **StatusReportFeedbackNumber**
 </dt> <dd></dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>DXVA. h</dt> </dl> |
 
 

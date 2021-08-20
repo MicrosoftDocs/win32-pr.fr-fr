@@ -4,16 +4,16 @@ ms.assetid: b86c3863-b92c-4f6c-b953-3e0638bc915e
 title: Classes MOF de suivi d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0a94fb5608ddcdd8a13df2d221adf3d032f6be8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e37d955b760eefeaa3aa98b9033ab8acee1a146df5ad8d94d412e7af056673f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814789"
 ---
 # <a name="event-tracing-mof-classes"></a>Classes MOF de suivi d’événements
 
-Les classes sont définies dans l' \\ \\ espace de noms WMI racine. Le qualificateur **EventVersion** pour les événements du noyau associe la classe à un système d’exploitation spécifique. Par exemple, la version zéro est associée à Windows 2000, version 1 avec Windows XP et Windows Server 2003, et à la version 2 avec Windows Vista.
+Les classes sont définies dans l' \\ \\ espace de noms WMI racine. Le qualificateur **EventVersion** pour les événements du noyau associe la classe à un système d’exploitation spécifique. par exemple, la version zéro est associée à Windows 2000, version 1 avec Windows XP et Windows Server 2003 et version 2 avec Windows Vista.
 
 Les classes MOF suivantes définissent les classes d’événements ETW.
 

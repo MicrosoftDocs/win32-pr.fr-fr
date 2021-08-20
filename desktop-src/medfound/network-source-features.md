@@ -4,12 +4,12 @@ ms.assetid: a4e20ecb-c145-4823-ae59-f6fc88593d86
 title: Fonctionnalités de la source réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e937a97cf743740d9cebf84ad477c52cdee5083
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a06b945f82093d5ff235eef306768e68b9f9771a2816df9a4580adab2d8dde8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104553996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871886"
 ---
 # <a name="network-source-features"></a>Fonctionnalités de la source réseau
 
@@ -34,7 +34,7 @@ Media Foundation ne prend pas en charge les flux d’octets pour les sources ré
 Si l’application demande au programme de résolution de la source de créer un objet de flux d’octets pour les schémas « http : », « MMS : » ou « RTSP : », l’appel échoue avec l' \_ \_ erreur de schéma non pris en charge MF E \_ .
 
 > [!Note]  
-> Dans Windows 7, la source réseau prend en charge les fichiers de station Windows Media (. NSC). Ces fichiers sont utilisés dans la diffusion en continu de contenu multimédia sur un réseau. Pour créer la source réseau pour un spécifié. Fichier NSC, l’application doit utiliser le programme de résolution source.
+> dans Windows 7, la source réseau prend en charge les fichiers de Station Windows Media (. NSC). Ces fichiers sont utilisés dans la diffusion en continu de contenu multimédia sur un réseau. Pour créer la source réseau pour un spécifié. Fichier NSC, l’application doit utiliser le programme de résolution source.
 
  
 

@@ -1,19 +1,19 @@
 ---
-description: Classe Bluetooth de découverte limitée par le service d’appareil.
+description: Bluetooth classe de détection limitée de service d’appareil.
 ms.assetid: 6972462b-cbda-4d5a-9d49-b0ec0d84d295
-title: System. Devices. AEP. Bluetooth. cod. services. LimitedDiscovery
+title: System. Devices. AEP. Bluetooth. COD. services. LimitedDiscovery
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5cbfa774881bd7c7ed67479cad5ac28bf5a5b66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b26d72e06c186d971707dc5d9983ee8f351c5cfcef1d7682f81831c8b28214a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054652"
 ---
-# <a name="systemdevicesaepbluetoothcodserviceslimiteddiscovery"></a>System. Devices. AEP. Bluetooth. cod. services. LimitedDiscovery
+# <a name="systemdevicesaepbluetoothcodserviceslimiteddiscovery"></a>System. Devices. AEP. Bluetooth. COD. services. LimitedDiscovery
 
-Classe Bluetooth de découverte limitée par le service d’appareil.
+Bluetooth classe de détection limitée de service d’appareil.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

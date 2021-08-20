@@ -3,7 +3,7 @@ title: VIDÉO. sans fenêtre
 description: L’attribut sans fenêtre spécifie ou récupère une valeur indiquant si le contrôle vidéo sera fenêtre ou sans fenêtre ; autrement dit, si le rectangle entier du contrôle est visible à tout moment ou s’il peut être coupé.
 ms.assetid: d59e6baf-374b-48f6-b99f-35a83af7feb6
 keywords:
-- VIDÉO. Windows Media Player sans fenêtre
+- VIDEO. window Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3a17d905d2ba8c11254476337d656890469b2b6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c98aefde5aab9837f220ccb7df254e6a592e0d5e9d41de43291b2ab73e287321
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117931739"
 ---
 # <a name="videowindowless"></a>VIDÉO. sans fenêtre
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** spécifiée au moment de la conceptio
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous souhaitez une fenêtre vidéo non rectangulaire ou si vous souhaitez couvrir une partie quelconque de la fenêtre vidéo avec une image, cet attribut doit avoir la valeur true. Cela sacrifie certaines performances pour effectuer l’écrêtage nécessaire.
 

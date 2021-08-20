@@ -4,12 +4,12 @@ ms.assetid: 8eb4e574-3209-459c-9a25-95377b2f7439
 title: DocumentRollCut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92f7232cbe9dafce25aa2ee482ca40bf99145841
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d3d4135929796db16a55fb11e6d8c895b67bd7ef858c8c594d96bed5961e2808
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056519"
 ---
 # <a name="documentrollcut"></a>DocumentRollCut
 
@@ -25,9 +25,9 @@ Décrit la méthode de coupe pour le papier en rouleau. Chaque document est gér
 
 
 
-| Nom | Valeur |
+| Name | Valeur |
 |----------------------------|---------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/>  |
+| Type d'élément <br/>   | Caractéristique<br/>  |
 | Préfixe d’étendue <br/> | Document<br/> |
 | Notes <br/>          | Aucun<br/>     |
 
@@ -59,7 +59,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Nom                               | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Résumé                                                                      |
+| Name                               | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Récapitulatif                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | \_OptionName\_<br/>          | string<br/> | caractères<br/> | Nom complet valide tel que défini par les [espaces de noms dans XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). Si aucun espace de noms n’est spécifié, l’espace de noms par défaut est utilisé.<br/> | Nom de l'option.<br/>                                           |
 | \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Définit une option qui, lorsqu’elle est sélectionnée, désactive cette fonctionnalité.<br/> |

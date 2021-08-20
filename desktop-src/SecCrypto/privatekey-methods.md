@@ -4,12 +4,12 @@ ms.assetid: 7C8CF645-FF24-4E06-88CD-8CA3FA5C95A9
 title: Méthodes PrivateKey
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b1c089429ba25e8e4f020ed1e3fb42b69d688f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcc9b3a0a187f040bd3c0ff6c49ad3e52babe06405d17133ebc6af11cc313b55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978003"
 ---
 # <a name="privatekey-methods"></a>Méthodes PrivateKey
 

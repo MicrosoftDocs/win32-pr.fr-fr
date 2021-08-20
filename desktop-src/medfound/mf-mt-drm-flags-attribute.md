@@ -4,12 +4,12 @@ ms.assetid: fb12ba38-a4f4-44fe-bf31-e731c56bb145
 title: Attribut MF_MT_DRM_FLAGS (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa8ef771cb72050b2273d822ce799092ce51e64c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e38f41bf2db38528379d1d409b65e5c81190fa01f4f84f7d57f468bec748263d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118060261"
 ---
 # <a name="mf_mt_drm_flags-attribute"></a>\_ \_ Attribut indicateurs DRM pour MF MT \_
 
@@ -19,7 +19,7 @@ Spécifie si un type de média vidéo requiert l’application de la protection 
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cet attribut est un membre de l’énumération [**MFVideoDRMFlags**](/windows/desktop/api/mfapi/ne-mfapi-mfvideodrmflags) .
 
@@ -27,14 +27,14 @@ Cet attribut fournit une indication à l’application. Elle n’est pas utilis�
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

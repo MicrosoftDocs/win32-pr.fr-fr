@@ -4,12 +4,12 @@ description: Jeu de commandes Video-Overlay
 ms.assetid: e1f9da94-00c2-472e-a78d-1b65e656c8ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eabbc829012b36cfc0970912577a1ef1885f461
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c97ce4b4997c9a5d504834018cf88ce7acd619e556d667bf770c78b038f53ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800801"
 ---
 # <a name="video-overlay-command-set"></a>Jeu de commandes Video-Overlay
 
@@ -25,7 +25,7 @@ Les périphériques de superposition vidéo prennent en charge l’ensemble de c
 | [**antigel**](freeze.md)         | [**\_blocage MCI**](mci-freeze.md)         |
 | [**méta**](info.md)             | [**\_infos MCI**](mci-info.md)             |
 | [**chargera**](load.md)             | [**\_chargement MCI**](mci-load.md)             |
-| [**afficher**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
+| [**ouvert**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
 | [**posé**](put.md)               | [**\_put MCI**](mci-put.md)               |
 | [**été**](save.md)             | [**\_enregistrement MCI**](mci-save.md)             |
 | [**définie**](set.md)               | [**jeu de MCI \_**](mci-set.md)               |
@@ -37,11 +37,11 @@ Les périphériques de superposition vidéo prennent en charge l’ensemble de c
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

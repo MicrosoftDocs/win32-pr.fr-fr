@@ -1,25 +1,25 @@
 ---
-description: La DLL de filtre de mot de passe Windows, Passfilt.dll, s’exécute dans le contexte de sécurité du compte système local et vous aide à filtrer les mots de passe de compte local ou de domaine.
+description: la DLL de filtre de mot de passe Windows, Passfilt.dll, s’exécute dans le contexte de sécurité du compte système local et vous aide à filtrer les mots de passe de compte local ou de domaine.
 ms.assetid: 12a6fe6d-5b37-4fcf-bd04-0a22d84ba323
 title: Installation et inscription d’une DLL de filtre de mot de passe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cb2e9f93630dc6bdaa5dbcc7e665a6b1cebff0e
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: 1ba3cb74571748c38bdfe5a80282e640c13595806c6b7b87b33d9608e420576d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117969315"
 ---
 # <a name="installing-and-registering-a-password-filter-dll"></a>Installation et inscription d’une DLL de filtre de mot de passe
 
-Vous pouvez utiliser le filtre de mot de passe Windows pour filtrer les mots de passe de compte local ou de domaine. Pour utiliser le filtre de mot de passe pour les comptes de domaine, installez et inscrivez la DLL sur chaque contrôleur de domaine du domaine.
+vous pouvez utiliser le filtre de mot de passe Windows pour filtrer les mots de passe de compte local ou de domaine. Pour utiliser le filtre de mot de passe pour les comptes de domaine, installez et inscrivez la DLL sur chaque contrôleur de domaine du domaine.
 
 Procédez comme suit pour installer votre filtre de mot de passe. Vous pouvez effectuer ces étapes manuellement, ou vous pouvez écrire un programme d’installation pour effectuer ces étapes. Pour effectuer ces étapes, vous devez être administrateur ou appartenir au groupe administrateurs.
 
-**Pour installer et inscrire une DLL de filtre de mot de passe Windows**
+**pour installer et inscrire une DLL de filtre de mot de passe Windows**
 
-1.  Copiez la DLL dans le répertoire d’installation de Windows sur le contrôleur de domaine ou l’ordinateur local. Sur les installations standard, le dossier par défaut est \\ Windows \\ system32. Veillez à créer une DLL de filtre de mots de passe 32 bits pour les ordinateurs 32 bits et une DLL de filtre de mot de passe 64 bits pour les ordinateurs 64 bits, puis copiez-les à l’emplacement approprié.
+1.  copiez la DLL dans le répertoire d’installation de Windows sur le contrôleur de domaine ou l’ordinateur local. sur les installations standard, le dossier par défaut est \\ Windows \\ System32. Veillez à créer une DLL de filtre de mots de passe 32 bits pour les ordinateurs 32 bits et une DLL de filtre de mot de passe 64 bits pour les ordinateurs 64 bits, puis copiez-les à l’emplacement approprié.
 2.  Pour inscrire le filtre de mot de passe, mettez à jour la clé de Registre système suivante :
 
     ```
@@ -30,9 +30,9 @@ Procédez comme suit pour installer votre filtre de mot de passe. Vous pouvez ef
                 Lsa
     ```
 
-    Si la valeur des **packages de notifications** de type *REG_MULTI_SZ* existe, ajoutez le nom de votre dll aux données de la valeur existante. Ne remplacez pas les valeurs existantes et n’incluez pas l’extension. dll.
+    Si la valeur des **packages de notifications** de type *REG_MULTI_SZ* existe, ajoutez le nom de votre dll aux données de la valeur existante. Ne remplacez pas les valeurs existantes et n’incluez pas l’extension .dll.
 
-    Si la valeur des **packages de notifications** n’existe pas, créez-la, donnez-lui le type de *REG_MULTI_SZ* , puis spécifiez le nom de la dll pour les données de la valeur. N’incluez pas l’extension. dll.
+    Si la valeur des **packages de notifications** n’existe pas, créez-la, donnez-lui le type de *REG_MULTI_SZ* , puis spécifiez le nom de la dll pour les données de la valeur. N’incluez pas l’extension de .dll.
 
     La valeur des **packages de notifications** peut ajouter plusieurs packages.
 
@@ -40,7 +40,7 @@ Procédez comme suit pour installer votre filtre de mot de passe. Vous pouvez ef
 
     Dans le panneau de configuration, cliquez sur **performances et maintenance**, sur **Outils d’administration**, double-cliquez sur **stratégie de sécurité locale**, sur **stratégies de comptes**, puis sur **stratégie de mot de passe**.
 
-4.  Pour appliquer le filtre de mot de passe Windows par défaut et le filtre de mot de passe personnalisé, assurez-vous que le paramètre de stratégie les **mots de passe doivent respecter les exigences de complexité** est activé. Dans le cas contraire, désactivez le paramètre de stratégie les **mots de passe doivent respecter des exigences de complexité** .
+4.  pour appliquer le filtre de mot de passe Windows par défaut et le filtre de mot de passe personnalisé, assurez-vous que le paramètre de stratégie les **mots de passe doivent respecter les exigences de complexité** est activé. Dans le cas contraire, désactivez le paramètre de stratégie les **mots de passe doivent respecter des exigences de complexité** .
 
 ## <a name="related-topics"></a>Rubriques connexes
 

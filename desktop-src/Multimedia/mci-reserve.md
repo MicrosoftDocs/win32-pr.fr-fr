@@ -3,7 +3,7 @@ title: Commande MCI_RESERVE (mmsystem. h)
 description: La \_ commande de réserve MCI alloue de l’espace disque contigu à l’espace de travail de l’instance de pilote de périphérique afin de l’utiliser lors de l’enregistrement suivant. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: 01f0a377-0179-4b05-a642-af152a7a12ae
 keywords:
-- Commande MCI_RESERVE Windows multimédia
+- commande MCI_RESERVE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b89eb457b63012aa9ee5624efef95945258d42c8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f21570d37fba9bc0c9595715715a9291aedd30650081edfa5d50f7264cf16c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803460"
 ---
 # <a name="mci_reserve-command"></a>\_Commande de réserve MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ réserves \_ de DGV MCI**](/windows/desk
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’espace de travail contient des données non enregistrées, ces données sont perdues. Si l’espace disque n’est pas réservé avant l’enregistrement, la commande [MCI \_ Record](mci-record.md) effectue une réservation implicite avec des paramètres par défaut spécifiques à l’appareil. Sur certaines implémentations, la réserve n’est pas obligatoire et peut être ignorée par le pilote de périphérique. La réservation explicite d’espace vous permet de mieux contrôler le moment où se produit l’allocation de disque, la quantité d’espace allouée et l’emplacement où l’espace disque est alloué. La quantité et l’emplacement de l’espace disque déjà réservé pour cette instance d’appareil peuvent être modifiés par l’émission d' \_ une nouvelle réserve MCI. Tout espace disque alloué et toujours inutilisé n’est pas libéré tant que les données enregistrées ne sont pas enregistrées ou que l’instance de pilote de périphérique n’est pas fermée.
 
@@ -100,7 +100,7 @@ Le membre **dwSize nul** de la structure identifiée par *lpReserve* spécifie l
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

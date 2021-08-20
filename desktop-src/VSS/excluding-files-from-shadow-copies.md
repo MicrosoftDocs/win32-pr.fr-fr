@@ -1,19 +1,19 @@
 ---
-description: Dans Windows Vista et Windows Server 2008 et versions ultérieures, le développeur d’une application ou d’un rédacteur VSS peut choisir d’exclure certains fichiers des clichés instantanés.
+description: dans Windows Vista et Windows Server 2008 et versions ultérieures, le développeur d’un enregistreur ou d’une application VSS peut choisir d’exclure certains fichiers des clichés instantanés.
 ms.assetid: 4fe1ae94-7b2f-421a-9009-3a7e88822458
 title: Exclusion de fichiers des clichés instantanés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52546c8ddc6da62433dc610f2bf4fc2c46c5e53f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c39acf8c92d44bcf8786a880b6ae5eb6a88786809f5af1609dee1b342cd2fb65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122105"
 ---
 # <a name="excluding-files-from-shadow-copies"></a>Exclusion de fichiers des clichés instantanés
 
-Dans Windows Vista et Windows Server 2008 et versions ultérieures, le développeur d’une application ou d’un rédacteur VSS peut choisir d’exclure certains fichiers des clichés instantanés.
+dans Windows Vista et Windows Server 2008 et versions ultérieures, le développeur d’un enregistreur ou d’une application VSS peut choisir d’exclure certains fichiers des clichés instantanés.
 
 L’impact sur les performances et la zone de stockage des clichés instantanés (également appelée « zone diff ») de l’utilisation d’un fichier dans un cliché instantané sont directement liés à la quantité de modification dans le contenu du fichier après la création du cliché instantané. En outre, l’exclusion de fichiers des clichés instantanés peut ralentir la création de clichés instantanés.
 
@@ -64,13 +64,13 @@ Pour rendre le chemin d’accès récursif, ajoutez « /s » à la fin. Par ex
 
 La variable $UserProfile $ provoque l’application de la chaîne de chemin d’accès à tous les profils utilisateur sur l’ordinateur. Les profils utilisateur sont énumérés en examinant la clé de Registre suivante :
 
-**HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ ProfileList**
+**HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ ProfileList**
 
 La variable $AllVolumes $ provoque l’application de la chaîne de chemin d’accès à tous les clichés instantanés sur l’ordinateur. Supposons, par exemple, que le chemin d’accès est «$AllVolumes $ \\ TemporaryFiles \\ \* . \* /s», et l’ordinateur a trois volumes : C :, D : et E :. Si C : et E : contiennent le chemin d’accès « \\ TemporaryFiles \\ » et que le volume d : contient uniquement le chemin d : \\ Data \\ , l’arborescence de répertoires c : \\ TemporaryFiles \\ est supprimée des clichés instantanés de C :, et l’arborescence de répertoires E : \\ TemporaryFiles \\ est supprimée des clichés instantanés de E :.
 
 Les administrateurs peuvent désactiver l’extension de la variable $UserProfile $ à l’aide de la clé de Registre suivante :
 
-**HKEY \_ local \_ machine \\ System \\ système \\ CurrentControlSet \\ services \\ paramètres VSS**
+**HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Services \\ Vss \\ Paramètres**
 
 Sous cette clé de Registre, spécifiez DisableUserProfileExpansion pour le nom de la valeur, REG \_ DWORD pour le type de valeur et une valeur différente de zéro pour les données de la valeur.
 

@@ -4,12 +4,12 @@ ms.assetid: 4f971549-8f79-4995-9796-1177c3a3c416
 title: Message d’SPFILENOTIFY_STARTSUBQUEUE (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30e4f20440c12e7fcd1900cd9762a504a26b907f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 223fb54132721601633201ff34bd239c58d85cac4324970823b6a16496dbd5d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117964079"
 ---
 # <a name="spfilenotify_startsubqueue-message"></a>\_Message SPFILENOTIFY STARTSUBQUEUE
 
@@ -49,14 +49,14 @@ Si une erreur se produit, la routine de rappel doit appeler [**SetLastError**](/
 
 Si aucune erreur ne se produit, la routine de rappel doit retourner une valeur différente de zéro.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -65,7 +65,7 @@ Si aucune erreur ne se produit, la routine de rappel doit retourner une valeur d
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

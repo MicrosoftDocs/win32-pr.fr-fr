@@ -4,12 +4,12 @@ ms.assetid: dde7852f-0a5b-4f17-9857-bc0d3e093b01
 title: System. GPS. ImgDirectionDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ae519418f612e842ae929b0bd91609eae9538ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7a487f7751f35a0fc2dc88944dd581b271deb9e652581580c662809cbbf31ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118053053"
 ---
 # <a name="systemgpsimgdirectiondenominator"></a>System. GPS. ImgDirectionDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

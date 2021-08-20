@@ -4,12 +4,12 @@ ms.assetid: d6d820fc-01f3-4b27-9c1b-6d8c99198d46
 title: Référence du Tablet PC de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a8f4490d6b8462c3cd96df3e244585c3cd705cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90ce364516f85dbff24e9115c4cacf2b797460d29719ad3ace668f88096c6dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118045913"
 ---
 # <a name="core-tablet-pc-reference"></a>Référence du Tablet PC de base
 

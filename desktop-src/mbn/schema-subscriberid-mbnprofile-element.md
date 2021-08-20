@@ -11,12 +11,12 @@ api_name:
 - SubscriberID
 api_type:
 - Schema
-ms.openlocfilehash: ca098383aadd51e1e05d6b02bdd02a563eb0a09c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42290b0a80e85b2fdd1c794aced78571e939010b0e260bf1bdeba15f221cc103
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065883"
 ---
 # <a name="subscriberid-mbnprofile-element"></a>Élément abonné (MBNProfile)
 
@@ -36,13 +36,13 @@ L’élément est obligatoire.
 
 L’élément **abonné** est défini par l’élément [**MBNProfile**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

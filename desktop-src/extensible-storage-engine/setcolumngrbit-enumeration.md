@@ -44,12 +44,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 893f8e79b910a305bf6caccacd2d928e947be693
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8cfde1fe2bb0cefeb108cd957b043b14fc6b224375ae82b894eab0b9a0cb8865
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071475"
 ---
 # <a name="setcolumngrbit-enumeration"></a>Énumération SetColumnGrbit
 
@@ -88,7 +88,7 @@ public enum SetColumnGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 <tr class="even">

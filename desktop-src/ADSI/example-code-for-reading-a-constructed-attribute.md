@@ -1,18 +1,18 @@
 ---
 title: Exemple de code pour la lecture d’un attribut construit
-description: Cette rubrique contient des exemples de code VB et C++ qui montrent comment lire un attribut construit.
+description: cette rubrique contient des exemples de code VB et C++ qui montrent comment lire un attribut construit.
 ms.assetid: c4acc848-f89e-4cd1-905a-2ed20443b03c
 ms.tgt_platform: multiple
 keywords:
 - Exemple de code pour la lecture d’un attribut construit ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb69bf99807d87e711d0d54d2c5b228d304149e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bcd51e5649ec0b2b9e654eb160c4fe8708f4743fbdd1dfe55e85231c7a451e2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840009"
 ---
 # <a name="example-code-for-reading-a-constructed-attribute"></a>Exemple de code pour la lecture d’un attribut construit
 
@@ -93,9 +93,9 @@ HRESULT GetAttribute(IADs *pads, BSTR bstrAttribute, VARIANT *pvar)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

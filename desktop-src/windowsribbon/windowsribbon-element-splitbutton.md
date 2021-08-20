@@ -3,7 +3,7 @@ title: Élément SplitButton
 description: Représente un contrôle de bouton partagé standard.
 ms.assetid: dece1100-ed04-49a3-a16d-3c5d5e7a2225
 keywords:
-- Ruban fenêtres d’élément SplitButton
+- élément SplitButton Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cf03d85dd0402548d02f107dafb209b68c13bb72
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 53445bc3f57f8a861800f9edcd95d8af2ecfbd54f4055cf8787695dab1f25cb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850771"
 ---
 # <a name="splitbutton-element"></a>Élément SplitButton
 
 Représente un contrôle de [bouton partagé](windowsribbon-controls-splitbutton.md) standard.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <SplitButton
@@ -109,7 +109,7 @@ Représente un contrôle de [bouton partagé](windowsribbon-controls-splitbutton
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**DropDownGallery**](windowsribbon-element-dropdowngallery.md), [**Group**](windowsribbon-element-group.md), [**MenuGroup**](windowsribbon-element-menugroup.md), **SplitButton** ou [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) .
 
@@ -211,7 +211,7 @@ Cette section de code montre les déclarations de contrôle **SplitButton** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-- **Système minimal pris en charge**: Windows 7 
+- **système minimal pris en charge**: Windows 7 
 - **Peut être vide**: non
 
 

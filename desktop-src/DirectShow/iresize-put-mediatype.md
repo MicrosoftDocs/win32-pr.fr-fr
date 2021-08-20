@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: aedaced5033c229131f548e298217e3c77ff70c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c26878af6f091efd3c3f321cb073ce51a8e6236d4bafa326ab99f85f39e1a91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818200"
 ---
 # <a name="iresizeput_mediatype-method"></a>IResize ::p ut \_ MediaType, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -56,7 +56,7 @@ Pointeur vers une structure de [**\_ \_ type de média am**](/windows/win32/api/
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 DES appelle cette méthode avant de connecter la broche de sortie du filtre. Utilisez le type de média comme type de média de la broche de sortie. Retournez ce type de média dans la méthode [**CTransformFilter :: GetMediaType**](ctransformfilter-getmediatype.md) et vérifiez agsint ce type dans la méthode [**CTransformFilter :: CheckTransform**](ctransformfilter-checktransform.md) . DES n’appelle jamais cette méthode une fois que la broche de sortie est connectée.
 
@@ -68,7 +68,7 @@ Actuellement, le définit toujours le type de média de sortie sur un format RVB
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

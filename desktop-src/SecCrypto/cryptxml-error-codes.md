@@ -4,12 +4,12 @@ ms.assetid: c3678767-aab3-4771-b2f2-8d79545d420d
 title: Codes d’erreur CryptXML (Cryptxml. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5906c406f14081844ddce042f0e170668950e7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccb4b06070ca77f8b55f96d3e6c4732abc22c26970b83b6a70c720b7bade8a84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767976"
 ---
 # <a name="cryptxml-error-codes"></a>Codes d’erreur CryptXML
 
@@ -45,8 +45,8 @@ Voici les codes d’erreur au moment de l’exécution, définis dans Cryptxml. 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Cryptxml. h</dt> </dl> |
 
 

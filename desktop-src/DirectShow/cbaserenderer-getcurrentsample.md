@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 48c42ff02b22d30138fcad7d1e8af5e57a391b99
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5ffe3cdf95d5ab248956e670c04572140fa4621fff5b0cb5183f9a7cbd9b837e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117822720"
 ---
 # <a name="cbaserenderergetcurrentsample-method"></a>Méthode CBaseRenderer. GetCurrentSample
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne un pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-strmif-imediasample) de l’exemple, ou **null** si aucun échantillon n’est disponible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À moins que la méthode ne retourne la **valeur null**, la méthode appelle **AddRef** sur le pointeur [**IMediaSample**](/windows/desktop/api/Strmif/nn-strmif-imediasample) avant de la retourner. L’appelant doit libérer le pointeur. (Par implication, vous devez affecter la valeur de retour à une variable, afin de pouvoir la libérer ultérieurement.)
 
@@ -54,7 +54,7 @@ Retourne un pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

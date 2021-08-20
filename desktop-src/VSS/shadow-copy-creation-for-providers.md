@@ -4,12 +4,12 @@ ms.assetid: d5042945-ba81-40d0-b204-1f08d153a788
 title: Création de clichés instantanés pour les fournisseurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91cc7306e7a13ef8e96ab032016a922411a70f95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 953f9b5556b8cf0a35117d8df6756fdd52bdf033d390f0b08a7e018d1eaf5410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121845"
 ---
 # <a name="shadow-copy-creation-for-providers"></a>Création de clichés instantanés pour les fournisseurs
 
@@ -73,7 +73,7 @@ Cette prise en charge du noyau VSS pour un point dans le temps commun est distri
 Les fournisseurs doivent effectuer tout le travail critique avant de retourner à partir de [**EndPrepareSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-endpreparesnapshots).
 
 -   [**CommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots) doit être retourné en quelques secondes. La phase **CommitSnapshots** se trouve dans la fenêtre de vidage et de suspension. La prise en charge du noyau VSS annule le vidage et le blocage qui maintiennent les e/s si la version suivante n’est pas reçue dans les 10 secondes, et VSS ne parvient pas à créer le cliché instantané. D’autres activités se produiront sur le système, de sorte qu’un fournisseur ne doit pas s’appuyer sur la durée totale de 10 secondes. Le fournisseur ne doit pas appeler les API Win32 au cours de la validation, car le nombre d’écritures et de bloc est inattendu. Si le fournisseur prend plus de quelques secondes pour terminer l’appel, il y a une forte probabilité que cette opération échoue.
--   La séquence complète de [**PreCommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-precommitsnapshots) au retour de [**PostCommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots) est mappée à la fenêtre entre les enregistreurs recevant les événements Freeze et dégeler. La valeur par défaut de l’enregistreur pour cette fenêtre est de 60 secondes, mais un enregistreur peut remplacer cette valeur par un délai d’expiration plus court. Par exemple, l’enregistreur Microsoft Exchange Server change le délai d’expiration à 20 secondes. Les fournisseurs ne doivent pas passer plus d’une seconde ou deux dans cette méthode.
+-   La séquence complète de [**PreCommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-precommitsnapshots) au retour de [**PostCommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots) est mappée à la fenêtre entre les enregistreurs recevant les événements Freeze et dégeler. La valeur par défaut de l’enregistreur pour cette fenêtre est de 60 secondes, mais un enregistreur peut remplacer cette valeur par un délai d’expiration plus court. par exemple, l’enregistreur de Microsoft Exchange Server modifie le délai d’expiration à 20 secondes. Les fournisseurs ne doivent pas passer plus d’une seconde ou deux dans cette méthode.
 
 Pendant la [**CommitSnapshots**](/windows/desktop/api/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots) , le fournisseur doit éviter toute e/s de fichier non paginée ; ces e/s ont une probabilité très élevée de blocage. En particulier, le fournisseur ne doit pas écrire de manière synchrone les journaux de débogage ou de suivi.
 

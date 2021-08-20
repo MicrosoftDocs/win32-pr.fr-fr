@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7095e29daf18dc111caf37038b06b0beff5245a8
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 115f8e5bbb34cff06b75447e863aeae0a6ec61f99064356b0600b261860f8568
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117991688"
 ---
 # <a name="const-attribute"></a>attribut const
 
@@ -103,7 +103,7 @@ Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de point
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -158,7 +158,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [Types de base MIDL](midl-base-types.md)
 </dt> <dt>
 
-[**Expression**](boolean.md)
+[**Boolean**](boolean.md)
 </dt> <dt>
 
 [**poids**](byte.md)
@@ -182,7 +182,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [**tenir**](ignore.md)
 </dt> <dt>
 
-[**localisé**](local.md)
+[**local**](local.md)
 </dt> <dt>
 
 [**long**](long.md)
@@ -197,7 +197,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [**ref**](ref.md)
 </dt> <dt>
 
-[**Résumé**](short.md)
+[**short**](short.md)
 </dt> <dt>
 
 [**abonné**](signed.md)
@@ -212,7 +212,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [**modélis**](struct.md)
 </dt> <dt>
 
-[**UE**](union.md)
+[**union**](union.md)
 </dt> <dt>
 
 [**unique**](unique.md)

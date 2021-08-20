@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: c159375727ef115631a8a047d69ce235a5b8f2a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5220e7290f1487da336e22a744aed599df94baac4040877d4ce7713786668e4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050662"
 ---
 # <a name="diskquotacontroldeleteuser-method"></a>DiskQuotaControl. DeleteUser, méthode
 
@@ -52,11 +52,11 @@ Expression d’objet qui prend la valeur de l’objet [**DIDiskQuotaUser**](didi
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode échoue si l’utilisateur possède un stockage sur le volume. Avant de supprimer un utilisateur d’un volume, tout le stockage de cet utilisateur doit être supprimé, déplacé vers un autre volume ou une propriété est transférée à un autre utilisateur.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 

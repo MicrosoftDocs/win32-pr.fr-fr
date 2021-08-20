@@ -4,12 +4,12 @@ ms.assetid: 33bc28e8-0b83-4d58-a03e-ccf2a97887e6
 title: Propriétés IUpdateService
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84ff3cf92c89a5ba02b7d95f1a1c99f33de3202d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbef15c3173812f3a50d01cacba2100206f622a576a170da5a1e0a3333cebd9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118106426"
 ---
 # <a name="iupdateservice-properties"></a>Propriétés IUpdateService
 
@@ -26,8 +26,8 @@ L’interface [**IUpdateService**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatese
 | [**IsRegisteredWithAU**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_isregisteredwithau)       | Obtient une valeur booléenne qui indique si un service est inscrit avec Mises à jour automatiques.     |
 | [**IsScanPackageService**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_isscanpackageservice)   | Obtient une valeur booléenne qui indique si un service est basé sur un package d’analyse.               |
 | [**Émis**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_issuedate)                         | Obtient la date à laquelle le fichier cab d’autorisation a été émis.                               |
-| [**Nom**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_name)                                   | Obtient le nom du service.                                                                   |
-| [**OffersWindowsUpdates**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_offerswindowsupdates)   | Obtient une valeur booléenne qui indique si le service en cours propose des mises à jour à partir des mises à jour Windows. |
+| [**Name**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_name)                                   | Obtient le nom du service.                                                                   |
+| [**OffersWindowsUpdates**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_offerswindowsupdates)   | obtient une valeur booléenne qui indique si le service en cours propose des mises à jour à partir de Windows mises à jour. |
 | [**RedirectUrls**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_redirecturls)                   | Obtient l’URL du fichier CAB du redirecteur.                                                   |
 | [**ServiceID**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_serviceid)                         | Obtient l’identificateur d’un service.                                                              |
 | [**ServiceUrl**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservice-get_serviceurl)                       | Obtient l’URL du service.                                                                   |

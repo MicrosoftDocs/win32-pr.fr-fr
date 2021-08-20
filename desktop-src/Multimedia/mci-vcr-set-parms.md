@@ -3,7 +3,7 @@ title: Structure de MCI_VCR_SET_PARMS (VCR. h)
 description: La structure de l' \_ ensemble de paramètres MCI magnétoscope \_ contient des \_ paramètres pour la \_ commande MCI Set pour les enregistreurs vidéo-cassettes.
 ms.assetid: f55515f5-14f6-47e4-8be2-4524975fc950
 keywords:
-- Structure de MCI_VCR_SET_PARMS Windows multimédia
+- structure MCI_VCR_SET_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0066adf80446843fe5a3e1e3defbb2109484cbb6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9fe32f93500ae4c294bad372868e9f7818c672824611bcbc29c3315eb75a9742
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802984"
 ---
 # <a name="mci_vcr_set_parms-structure"></a>La \_ structure de l’ensemble de magnétoscopes MCI \_ \_
 
@@ -159,7 +159,7 @@ La longueur des cassettes vidéo est nécessaire pour freiner le transport du ma
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

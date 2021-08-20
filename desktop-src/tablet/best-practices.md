@@ -4,12 +4,12 @@ ms.assetid: 5b127743-0c88-4c4c-bcb6-5a91690cd2a1
 title: Meilleures pratiques (Tablet PC)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd492dfeda94ce9dce056b286ef1989f3389658c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 833a08235923d4db49d1b5960a37ba956465219aeb7865b89f653f8d731b86b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118046156"
 ---
 # <a name="best-practices-tablet-pc"></a>Meilleures pratiques (Tablet PC)
 

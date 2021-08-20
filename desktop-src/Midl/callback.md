@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 379aa3cbef4df872f8b133017b1b06a6c73e8181
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e77eb93a78553ccbc95b1671dc215012eeccc56b0bff8ea23e47f68aaf51e10b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807335"
 ---
 # <a name="callback-attribute"></a>attribut de rappel
 
@@ -54,7 +54,7 @@ Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de point
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -75,9 +75,9 @@ Spécifie un déclarateur C standard, comme des identificateurs, des déclarateu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La fonction de **\[ rappel \]** est utile lorsque le serveur doit obtenir des informations à partir du client. Si les applications serveur étaient prises en charge sur Windows 3. *x*, le serveur peut passer un appel à une procédure distante sur Windows 3. *x* Server pour obtenir les informations nécessaires. La fonction de rappel remplit la même fonction et permet au serveur d’interroger le client à la recherche d’informations dans le contexte de l’appel d’origine.
+La fonction de **\[ rappel \]** est utile lorsque le serveur doit obtenir des informations à partir du client. si les applications serveur étaient prises en charge sur Windows 3. *x*, le serveur peut passer un appel à une procédure distante sur le Windows 3. *x* Server pour obtenir les informations nécessaires. La fonction de rappel remplit la même fonction et permet au serveur d’interroger le client à la recherche d’informations dans le contexte de l’appel d’origine.
 
 Les rappels sont des cas spéciaux d’appels distants qui s’exécutent dans le cadre d’un thread unique. Un rappel est émis dans le contexte d’un appel distant. Toute procédure distante définie dans le cadre de la même interface que la fonction de rappel statique peut appeler la fonction de rappel.
 
@@ -122,7 +122,7 @@ Les rappels peuvent être imbriqués à n’importe quelle profondeur.
 [**tenir**](ignore.md)
 </dt> <dt>
 
-[**localisé**](local.md)
+[**local**](local.md)
 </dt> <dt>
 
 [**/osf**](-osf.md)
@@ -140,7 +140,7 @@ Les rappels peuvent être imbriqués à n’importe quelle profondeur.
 [**modélis**](struct.md)
 </dt> <dt>
 
-[**UE**](union.md)
+[**union**](union.md)
 </dt> <dt>
 
 [**unique**](unique.md)
@@ -149,6 +149,6 @@ Les rappels peuvent être imbriqués à n’importe quelle profondeur.
 [**RpcCancelThread**](/windows/desktop/api/rpcdce/nf-rpcdce-rpccancelthread)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

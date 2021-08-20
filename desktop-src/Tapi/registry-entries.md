@@ -4,18 +4,18 @@ ms.assetid: 0ab2896e-3634-47f7-b1f4-e7d1ffcb3592
 title: Entrées de Registre (API de téléphonie)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 035126f614e526f3b1557f5323d52b3bf6b2b12c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afd6e4e4d91b65e3ef886fd4d2d44b571f4ac4696697aef8b8d8b2715e273e18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761166"
 ---
 # <a name="registry-entries-telephony-api"></a>Entrées de Registre (API de téléphonie)
 
 Les terminaux enfichables sont classés en superclasses de terminaux. Chaque superclasse de terminal a une entrée dans le Registre sous la clé suivante :
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Telephony** \\ **TerminalManager**
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **telephony** \\ **TerminalManager**
 
 Sous la clé de superclasse terminal sont des entrées pour chaque terminal enfichable au sein de la superclasse terminal.
 

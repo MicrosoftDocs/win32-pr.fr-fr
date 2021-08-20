@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 44f4e9e7011e6a4766183307e81ef7e783da899f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10a483331d15c09de8398d11e940453d8f239e2207fdefb82d86fd4bb1460daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843012"
 ---
 # <a name="iwpdserializergetbufferfromiportabledevicevalues-method"></a>IWpdSerializer :: GetBufferFromIPortableDeviceValues, méthode
 
@@ -52,7 +52,7 @@ Pointeur vers une interface [**IPortableDeviceValues**](iportabledevicevalues.md
 *ppBuffer* \[ à\]
 </dt> <dd>
 
-Pointeur vers un **octet \* *_ qui contient les données sérialisées. Les appareils mobiles Windows allouent cette mémoire ; l’appelant doit le libérer en appelant _* CoTaskMemFree**.
+Pointeur vers un **octet \* *_ qui contient les données sérialisées. Windows Les périphériques portables allouent cette mémoire ; l’appelant doit le libérer en appelant _* CoTaskMemFree**.
 
 </dd> <dt>
 
@@ -65,7 +65,7 @@ Pointeur vers une **valeur DWORD** qui spécifie la taille de la mémoire tampon
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

@@ -4,21 +4,21 @@ ms.assetid: c0a1269b-f9d4-49e1-89ca-526fef148134
 title: WLX_SAS_TYPE_XXX (Winwlx. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a75c7d7a71855700c4c8c233db3cfc18e06b9d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 568308d064b576f036d18aaa2d150cb1c6b7f0a2d89ee60d9410fcad123351d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785712"
 ---
 # <a name="wlx_sas_type_xxx"></a>\_type wlx \_ SAS \_ xxx
 
-\[La constante WLX de \_ \_ type SAS \_ xxx n’est plus disponible pour une utilisation à partir de Windows Server 2008 et Windows Vista.\]
+\[la constante WLX de \_ \_ TYPE SAS \_ XXX n’est plus disponible pour une utilisation à partir de Windows Server 2008 et Windows Vista.\]
 
 Les valeurs de **\_ type SAS wlx \_ \_ xxx** définissent un type SAP spécifique.
 
 > [!Note]  
-> Les DLL GINA sont ignorées dans Windows Vista.
+> les dll GINA sont ignorées dans Windows Vista.
 
  
 
@@ -44,8 +44,8 @@ Toutes les valeurs comprises entre zéro et 127 sont réservées pour les types 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                               |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winwlx. h</dt> </dl> |

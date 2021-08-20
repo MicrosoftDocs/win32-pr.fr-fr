@@ -1,5 +1,5 @@
 ---
-description: Utilisé pour les scénarios qui requièrent l’authentification 802.1 X avant l’ouverture de session Windows.
+description: utilisé pour les scénarios qui requièrent l’authentification 802.1 x avant Windows ouverture de session.
 ms.assetid: 76c8d416-3912-41b1-ac9d-3e6e86a76ceb
 title: Exemple de profil de Sign-On unique
 ms.topic: article
@@ -9,24 +9,24 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 077ed95095150e81ad9a3d7412d1940dcb1b33e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f89f7e9c39123cd7bf55c8bc48ff69d007d150c086714c82c37619c477dd25b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797953"
 ---
 # <a name="single-sign-on-profile-sample"></a>Exemple de profil de Sign-On unique
 
-L’exemple de profil de l’authentification unique (SSO) peut être utilisé pour les scénarios qui requièrent l’authentification 802.1 X avant l’ouverture de session Windows.
+l’exemple de profil de l’authentification unique (SSO) peut être utilisé pour les scénarios qui requièrent l’authentification 802.1 x avant Windows ouverture de session.
 
-Cet exemple est configuré pour utiliser Wi-Fi la sécurité Access 2 protégée s’exécutant en mode entreprise (WPA2-Entreprise). Le protocole PEAP-MSCHAPv2 (Protected Extensible Authentication Protocol avec PEAP-MSCHAPv2) est utilisé pour l’authentification réseau. Les informations d’identification d’ouverture de session Windows sont utilisées pour l’authentification PEAP-MSCHAPv2.
+cet exemple est configuré pour utiliser Wi-Fi la sécurité Access 2 protégée s’exécutant en mode Enterprise (WPA2-Enterprise). Le protocole PEAP-MSCHAPv2 (Protected Extensible Authentication Protocol avec PEAP-MSCHAPv2) est utilisé pour l’authentification réseau. les informations d’identification d’ouverture de session Windows sont utilisées pour l’authentification PEAP-MSCHAPv2.
 
 Bien que cet exemple soit configuré pour utiliser WPA2-Enterprise et PEAP-MSCHAPv2, les profils SSO peuvent être configurés avec d’autres types de sécurité et d’authentification.
 
-**Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé :** Les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Le paramètre par défaut pour [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. La valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé. Le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Pour plus d’informations, reportez-vous à la description de l’élément de schéma [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
+**Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé :** les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Le paramètre par défaut pour [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. la valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé. le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Pour plus d’informations, reportez-vous à la description de l’élément de schéma [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) . Les enfants [**cacheUserData**](onexschema-cacheuserdata-onex-element.md), [**maxAuthFailures**](onexschema-maxauthfailures-onex-element.md), [**authmode**](onexschema-authmode-onex-element.md)et [**singleSignOn**](onexschema-singlesignon-onex-element.md) de l’élément [**Onex**](onexschema-onex-element.md) ne sont pas pris en charge et doivent être supprimés du profil avant l’utilisation.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) . Les enfants [**cacheUserData**](onexschema-cacheuserdata-onex-element.md), [**maxAuthFailures**](onexschema-maxauthfailures-onex-element.md), [**authmode**](onexschema-authmode-onex-element.md)et [**singleSignOn**](onexschema-singlesignon-onex-element.md) de l’élément [**Onex**](onexschema-onex-element.md) ne sont pas pris en charge et doivent être supprimés du profil avant l’utilisation.
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>

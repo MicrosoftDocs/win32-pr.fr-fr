@@ -4,17 +4,17 @@ ms.assetid: 523aa25c-790b-4532-9c69-76544235bdfe
 title: Élément at
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5822f82a349f31f0d4c8de3f522f7f4f3346a08
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 4d67a5e3c3ca2bd47381084ad0e0090d7aa208db87f35e5efe3a7d805a73d097
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824389"
 ---
 # <a name="at-element"></a>Élément at
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -30,7 +30,7 @@ L' `at` élément définit la valeur d’un élément [**param**](param-element.
 
 | Étiquette | Valeur |
 |----------|--------------------------------|
-| Parent   | [**envoyés**](param-element.md) |
+| Parent   | [**param**](param-element.md) |
 | Children | Aucun                           |
 
 
