@@ -1,19 +1,19 @@
 ---
-description: Le Windows Installer réduit le coût total de possession (TCO) de vos applications en renforçant la capacité de vos clients à gérer et à gérer les composants de l’application lors de l’installation et de l’exécution.
+description: le Windows Installer réduit le coût total de possession (TCO) de vos applications en renforçant la capacité de vos clients à gérer et à gérer les composants de l’application lors de l’installation et de l’exécution.
 ms.assetid: fbb139e3-c81b-44fc-9e92-bada0be02862
 title: Gestion des composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeff6c25556879429330170ec8190b1296576517
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a818e6ceab0ed793ded2bdd0034d9fe8355d16fbbea1d5c78d521f4682b7c373
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144812"
 ---
 # <a name="component-management"></a>Gestion des composants
 
-Le Windows Installer réduit le coût total de possession (TCO) de vos applications en renforçant la capacité de vos clients à gérer et à gérer les composants de l’application lors de l’installation et de l’exécution. La base de données d’installation effectue le suivi des applications qui nécessitent un composant particulier, des fichiers qui composent chaque composant, où chaque fichier est installé sur le système et où se trouvent les sources des composants. Cela permet aux développeurs de créer des packages qui offrent les avantages suivants :
+le Windows Installer réduit le coût total de possession (TCO) de vos applications en renforçant la capacité de vos clients à gérer et à gérer les composants de l’application lors de l’installation et de l’exécution. La base de données d’installation effectue le suivi des applications qui nécessitent un composant particulier, des fichiers qui composent chaque composant, où chaque fichier est installé sur le système et où se trouvent les sources des composants. Cela permet aux développeurs de créer des packages qui offrent les avantages suivants :
 
 -   Résilience accrue des applications. Utilisez le programme d’installation pour détecter et réinstaller les composants endommagés sans avoir à réexécuter l’installation. Le programme d’installation vérifie le chemin d’accès d’un composant au moment de l’exécution. Cela permet de libérer des applications de la dépendance sur les chemins d’accès de fichiers statiques qui diffèrent généralement entre les ordinateurs et peuvent pointer vers des composants manquants. Pour plus d’informations, consultez [résilience](resiliency.md).
 -   Installation à la demande. Ce jeu de fonctionnalités n’est pas installé lors de l’installation, mais il est spécifié dans la base de données à installer juste-à-temps pour une utilisation si l’application l’exige à l’avenir. Les utilisateurs n’ont pas besoin de réexécuter l’installation. Pour plus d’informations, consultez [installation-à la demande](installation-on-demand.md).

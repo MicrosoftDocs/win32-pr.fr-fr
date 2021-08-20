@@ -9,20 +9,20 @@ keywords:
 - MPC-niveau 2, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5456c9ac8b1245c89f0a4831964f73dd3694ed9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1641349849a03d130b599f78592d4907e8627169a78406cab858ae19918b04fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139705"
 ---
 # <a name="level-2-specification"></a>Spécification de niveau 2
 
 La spécification de niveau 2 a été développée pour encourager l’adoption de fonctionnalités multimédias améliorées. Cette spécification s’appuie sur les exigences définies dans la spécification de niveau 1 et est un sur-ensemble de celle-ci. La spécification de niveau 2 définit les fonctionnalités système minimales pour les fonctionnalités multimédias améliorées. Il ne s’agit pas d’une recommandation pour une configuration système.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 5ff559bd1da335307a4362b6857ff127aadb81af
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b29c4839b8d722b1900dda004364b3e5c1537427925a14cee801d343e5a8986f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144197"
 ---
 # <a name="configurableitemcontext-property"></a>ConfigurableItem. Context, propriété
 

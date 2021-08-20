@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 013215af3f5005e68b396312d0ef13fa974d8a32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 86cb3ee7c9d62d943a369dd18cb4471e0682c1c1d0f5e6193a6f34b8c0451203
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859851"
 ---
 # <a name="folderitemverbsitem-method"></a>FolderItemVerbs. Item, méthode
 
@@ -56,9 +56,9 @@ Objet qui reçoit l’objet [**FolderItemVerb**](folderitemverb.md) .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **Item** pour récupérer les premiers verbes de la collection disponibles dans le dossier du panneau de configuration et affiche son nom. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant utilise **Item** pour récupérer les premiers verbes de la collection disponibles dans le dossier du panneau de configuration et affiche son nom. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -170,13 +170,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

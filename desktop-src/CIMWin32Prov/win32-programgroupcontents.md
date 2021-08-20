@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5f77a61052357f7c67009ee7a89da018abeadda8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bd203d00ac8e0de6d25899ccd321651b0edde52b4fa2e1e64a76849bccd887bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118007809"
 ---
 # <a name="win32_programgroupcontents-class"></a>\_Classe ProgramGroupContents Win32
 
@@ -84,11 +84,11 @@ Référence à l’instance représentant le groupe ou l’élément du menu **D
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ ProgramGroupContents** est dérivée [**du \_ composant CIM**](cim-component.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

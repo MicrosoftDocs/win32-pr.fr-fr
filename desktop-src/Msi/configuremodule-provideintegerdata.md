@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 482e1010dea850506b159b129eb4dcef77829fca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 96472a13902322d940dc7e756c3639f9befaf6764b3ede8521f27a885a50e8d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143688"
 ---
 # <a name="configuremoduleprovideintegerdata-method"></a>Méthode ConfigureModule. ProvideIntegerData
 
@@ -65,7 +65,7 @@ Pointeur vers le texte de personnalisation.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le client peut être appelé plusieurs fois pour chaque enregistrement de la [table ModuleConfiguration](moduleconfiguration-table.md). Notez que Mergemod.dll n’effectue jamais plusieurs appels au client pour la même valeur « Name ». Si aucun enregistrement de la table ModuleSubstitution n’utilise la propriété, une entrée de la table ModuleConfiguration n’entraîne aucun appel au client.
 

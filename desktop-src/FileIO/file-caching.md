@@ -1,21 +1,21 @@
 ---
-description: Windows met en cache les données de fichier qui sont lues à partir des disques et écrites sur les disques.
+description: Windows met en cache les données de fichiers qui sont lues à partir des disques et écrites sur les disques.
 ms.assetid: 0865c741-63e3-4246-ba69-801b02153e4a
 title: Mise en cache des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a14fb668af16cfb8a4e42b59b25b73ecefbb7cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82295edb7126c73e1a3801e7140fc9a62763b1e3400ef3b568571251b2f6cc40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117997321"
 ---
 # <a name="file-caching"></a>Mise en cache des fichiers
 
 Par défaut, Windows met en cache les données de fichier lues à partir de disques et écrites sur des disques. Cela implique que les opérations de lecture lisent les données du fichier à partir d’une zone de la mémoire système appelée « cache des fichiers système », plutôt qu’à partir du disque physique. En conséquence, les opérations d’écriture écrivent les données de fichier dans le cache de fichiers système plutôt que sur le disque, et ce type de cache est appelé cache de réinscription. La mise en cache est gérée par objet de fichier.
 
-La mise en cache se produit dans le sens du *Gestionnaire de cache*, qui fonctionne en continu pendant que Windows est en cours d’exécution. Les données de fichier dans le cache de fichiers système sont écrites sur le disque à des intervalles déterminés par le système d’exploitation, et la mémoire utilisée précédemment par ces données de fichier est libérée. cela s’appelle le *vidage* du cache. La stratégie de retardement de l’écriture des données dans le fichier et de leur conservation dans le cache jusqu’à ce que le cache soit vidé est appelée écriture différée, et elle est déclenchée par le gestionnaire de caches à un intervalle de temps d’arrêt. Le moment auquel un bloc de données de fichier est vidé dépend en partie de la durée pendant laquelle il a été stocké dans le cache et de la période écoulée depuis le dernier accès aux données lors d’une opération de lecture. Cela garantit que les données de fichier fréquemment lues resteront accessibles dans le cache de fichiers système pendant le temps maximal imparti.
+la mise en cache se produit dans le sens du *gestionnaire de cache*, qui fonctionne en continu pendant que Windows est en cours d’exécution. Les données de fichier dans le cache de fichiers système sont écrites sur le disque à des intervalles déterminés par le système d’exploitation, et la mémoire utilisée précédemment par ces données de fichier est libérée. cela s’appelle le *vidage* du cache. La stratégie de retardement de l’écriture des données dans le fichier et de leur conservation dans le cache jusqu’à ce que le cache soit vidé est appelée écriture différée, et elle est déclenchée par le gestionnaire de caches à un intervalle de temps d’arrêt. Le moment auquel un bloc de données de fichier est vidé dépend en partie de la durée pendant laquelle il a été stocké dans le cache et de la période écoulée depuis le dernier accès aux données lors d’une opération de lecture. Cela garantit que les données de fichier fréquemment lues resteront accessibles dans le cache de fichiers système pendant le temps maximal imparti.
 
 Ce processus de mise en cache des données de fichier est illustré dans la figure suivante.
 

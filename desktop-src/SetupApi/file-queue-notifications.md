@@ -4,12 +4,12 @@ ms.assetid: 4a171b4a-8623-4be3-81ee-99081fe23034
 title: Notifications de file d’attente de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d7b674dee015c4c9408ff5dc853d5d3b2412e67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2ed3dcef7de951c66bd3822b5c1e14fed676ea8a55a41d6468f60c5cf6ca218
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117965692"
 ---
 # <a name="file-queue-notifications"></a>Notifications de file d’attente de fichiers
 

@@ -46,12 +46,12 @@ Le tableau suivant décrit les paramètres utilisés par cette transition et ré
 </thead>
 <tbody>
 <tr class="odd">
-<td>Largeur</td>
+<td>Width</td>
 <td><strong>fEffectPara0</strong></td>
 <td>Largeur de l’incrustation en pixels.</td>
 </tr>
 <tr class="even">
-<td>Hauteur</td>
+<td>Height</td>
 <td><strong>fEffectPara1</strong></td>
 <td>Hauteur de l’incrustation en pixels.</td>
 </tr>

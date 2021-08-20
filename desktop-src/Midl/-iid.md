@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 631a28f1bc5a1a24253c9416104df9941cd8da33
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8bfe2aa9ebb96aa4878ac198e320bda4816f0b81025df5b0497d99c59a612767
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117992228"
 ---
 # <a name="iid-switch"></a>commutateur/IID
 
@@ -38,7 +38,7 @@ Spécifie un nom de fichier d’identificateur d’interface qui remplace le nom
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le commutateur **/IID** n’affecte pas les interfaces RPC.
 
@@ -64,9 +64,9 @@ Si *filename* n’inclut pas de chemin d’accès explicite, le fichier est écr
 [**/proxy**](-proxy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

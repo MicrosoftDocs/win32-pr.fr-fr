@@ -9,12 +9,12 @@ keywords:
 - MPC niveau 2, configuration audio requise
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e20458f8dcb26149c9fa697587faf93cf10c0f27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f5a2bc9398a25ac916352f41ad2ddc2325820354d1c7beb511b03b27004fadd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139830"
 ---
 # <a name="level-2-audio-requirements"></a>Exigences audio de niveau 2
 
@@ -44,9 +44,9 @@ Le sous-système audio d’un PC répondant à la spécification de niveau 2 com
     -   Les sources de mixage sont les CD Red, synthétiseur et DAC
     -   Chaque source de mixage a un contrôle de volume de 3 bits avec un cône logarithmique
 
- 
+ 
 
- 
+ 
 
 
 

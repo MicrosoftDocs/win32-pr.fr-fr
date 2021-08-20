@@ -4,12 +4,12 @@ ms.assetid: f896d6eb-052e-4aa7-b479-3f0117055c78
 title: System. GPS. LatitudeDecimal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cdbc120eb7a3185b58c907c1e008a1473e9abf4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13cc7b674ed19b27936928300c808305dec624678ecfba1ca398e9bfba8385d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866362"
 ---
 # <a name="systemgpslatitudedecimal"></a>System. GPS. LatitudeDecimal
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -11,12 +11,12 @@ api_name:
 - IsDefault
 api_type:
 - Schema
-ms.openlocfilehash: a59001e385fa7007d188daf2c1348d1a00c3a074
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dada4789b0a1c1f11676359972eeff074928ca064c04679e35fb7e83132ef53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065903"
 ---
 # <a name="isdefault-mbnprofile-element"></a>Élément IsDefault (MBNProfile)
 
@@ -40,13 +40,13 @@ Les fournisseurs de services mobiles peuvent fournir les détails de connexion d
 
 L’élément **IsDefault** est défini par l’élément [**MBNProfile**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

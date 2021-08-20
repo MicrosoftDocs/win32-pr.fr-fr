@@ -1,23 +1,23 @@
 ---
-description: Les versions localisées de la table d’erreurs et de la table ActionText sont fournies par le kit de développement logiciel (SDK) Windows Installer. Les versions en anglais de ces tables, Error. FRA et ActionTe. FRA, se trouvent dans le dossier Intl du kit de développement logiciel (SDK) Windows Installer.
+description: les versions localisées de la table d’erreurs et de la table ActionText sont fournies par le kit de développement logiciel (SDK) Windows Installer. les versions en anglais de ces tables, Error. fra et ActionTe. fra, se trouvent dans le dossier Intl du kit de développement logiciel (SDK) Windows Installer.
 ms.assetid: 8de687c8-c7da-497e-8a90-2404096ad100
 title: Importation de tables Error et ActionText localisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d48a68ca1053a1a1c66899a17802ac337c3ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bda0916f634d986874cd17f9871fa602277b180e1ba436e9d9786fb061f3ac4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142234"
 ---
 # <a name="importing-localized-error-and-actiontext-tables"></a>Importation de tables Error et ActionText localisées
 
-Les versions localisées de la [table d’erreurs](error-table.md) et de la [table ActionText](actiontext-table.md) sont fournies par le kit de développement logiciel (SDK) Windows Installer. Les versions en anglais de ces tables, Error. FRA et ActionTe. FRA, se trouvent dans le dossier Intl du kit de développement logiciel (SDK) Windows Installer.
+les versions localisées de la [table d’erreurs](error-table.md) et de la [table ActionText](actiontext-table.md) sont fournies par le kit de développement logiciel (SDK) Windows Installer. les versions en anglais de ces tables, Error. fra et ActionTe. fra, se trouvent dans le dossier Intl du kit de développement logiciel (SDK) Windows Installer.
 
 Vous pouvez utiliser l’éditeur de table Orca ou l’utilitaire Msidb.exe fourni avec le kit de développement logiciel (SDK) pour importer les versions françaises de ces tables dans la base de données.
 
-Un exemple d’utilisation de [**MsiDatabaseImport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta) et de la [**méthode d’importation**](database-import.md) de l' [**objet de base de données**](database-object.md) est fourni dans le kit de développement logiciel (SDK) Windows Installer en tant que WiImport.vbs de l’utilitaire. L’extrait de code suivant, Imp.vbs, illustre également l’utilisation de la méthode Import et est destiné à être utilisé avec Windows Script Host.
+un exemple d’utilisation de [**MsiDatabaseImport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta) et de la [**méthode d’importation**](database-import.md) de l' [**objet de base de données**](database-object.md) est fourni dans le kit de développement logiciel (SDK) Windows Installer en tant que WiImport.vbs de l’utilitaire. l’extrait de code suivant, Imp.vbs, illustre également l’utilisation de la méthode d’importation et est destiné à être utilisé avec Windows hôte de Script.
 
 
 ```VB

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: fc45e1ebe519e5988ad73e1481c68e9e9811ba04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bf840b921461f7b767d622a3daecd7b9d3dc3ad8d93b90b7b1f8cfa4d101af8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118044850"
 ---
 # <a name="icontextnodecontainspropertydata-method"></a>IContextNode :: ContainsPropertyData, méthode
 
@@ -58,17 +58,17 @@ Identificateur des données.
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Outre les données spécifiques à l’application, vous pouvez également utiliser cette méthode pour déterminer si ce [**IContextNode**](icontextnode.md) contient d’autres données internes (voir Propriétés de l' [indicateur d’analyse](analysis-hint-properties.md) et propriétés du nœud de [contexte](context-node-properties.md)).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

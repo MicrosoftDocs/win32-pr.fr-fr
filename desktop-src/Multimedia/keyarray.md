@@ -6,12 +6,12 @@ keywords:
 - MIDIPATCHSIZE DE TABLEAU
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6e45e46417fb3b6653ecae605aa60f775c1d654
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 507c5f578b912a7b184f9f455bc4a730132b2316472d061532c48847c312302d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140039"
 ---
 # <a name="keyarray"></a>Tableau de la matrice
 
@@ -42,7 +42,7 @@ Chaque élément du tableau correspond à un correctif à percussion basé sur d
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
 | Version<br/>                  | MIDI (Musical Instrument Digital Interface), types MIDI<br/>                                        |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 
