@@ -1,19 +1,19 @@
 ---
-description: Le journal de sécurité est conçu pour être utilisé par le système. Toutefois, les utilisateurs peuvent lire et effacer le journal de sécurité s’ils ont reçu le \_ privilège de nom de sécurité de se \_ (le &\# 0034 ; gérer le journal d’audit et de sécurité&\# 0034 ; droit d’utilisateur). Pour plus d’informations, consultez privilèges.
+description: Le journal de sécurité est conçu pour être utilisé par le système. toutefois, les utilisateurs peuvent lire et effacer le journal de sécurité s’ils ont reçu le \_ privilège SE nom de sécurité \_ (le &\# 0034 ; gérer le journal d’audit et de sécurité&\# 0034 ; droit d’utilisateur). Pour plus d’informations, consultez privilèges.
 ms.assetid: 861be39a-012e-473b-a2d3-2a8c7ba3adaa
 title: Sécurité de la journalisation des événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4e2dce7318efeb6f26917bca1d6812eb32a343
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b52f6c801b061290ebb4d6f47fe78efebc09e1b2d23dc4a598dc9f97c1b3a46d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151549"
 ---
 # <a name="event-logging-security"></a>Sécurité de la journalisation des événements
 
-Le journal de **sécurité** est conçu pour être utilisé par le système. Toutefois, les utilisateurs peuvent lire et effacer le journal de **sécurité** s’ils ont reçu le \_ privilège de nom de sécurité de se \_ (le droit d’utilisateur « gérer le journal d’audit et de sécurité »). Pour plus d’informations, consultez [privilèges](/windows/desktop/SecAuthZ/privileges).
+Le journal de **sécurité** est conçu pour être utilisé par le système. toutefois, les utilisateurs peuvent lire et effacer le journal de **sécurité** s’ils ont reçu le \_ privilège SE nom de sécurité \_ (le droit d’utilisateur « gérer le journal d’audit et de sécurité »). Pour plus d’informations, consultez [privilèges](/windows/desktop/SecAuthZ/privileges).
 
 Seule l’autorité de sécurité locale (Lsass.exe) dispose de l’autorisation d’écriture pour le journal de **sécurité** . Aucun autre compte ne peut demander ce privilège. Pour écrire un événement dans le journal de **sécurité** , utilisez la fonction [**AuthzReportSecurityEvent**](/windows/desktop/api/authz/nf-authz-authzreportsecurityevent) .
 

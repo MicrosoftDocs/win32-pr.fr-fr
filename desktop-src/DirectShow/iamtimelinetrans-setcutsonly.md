@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 6b2944d652bffac5bf3bfa72a1e2372f734645bd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b008e0aef31548dcba71f3b2a2940009c0cd0c71786bd9bd733c206c1d68ee3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154724"
 ---
 # <a name="iamtimelinetranssetcutsonly-method"></a>IAMTimelineTrans :: SetCutsOnly, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -56,7 +56,7 @@ Spécifie s’il faut restituer la transition comme une coupe. Si la **valeur es
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le rendu d’une transition en tant que coupe n’est pas compatible avec la permutation des entrées. (Voir [**IAMTimelineTrans :: SetSwapInputs**](iamtimelinetrans-setswapinputs.md).) Si vous appelez `SetCutsOnly` avec la valeur **true**, il remplace temporairement le paramètre **SetSwapInputs** . Toutefois, le paramètre de coupe uniquement est prévu pour l’aperçu. par conséquent, cette limitation n’affecte pas la sortie du fichier. n’oubliez pas d’appeler `SetCutsOnly` avec la valeur **false** avant d’écrire le fichier.
 
@@ -66,7 +66,7 @@ Le rendu d’une transition en tant que coupe n’est pas compatible avec la per
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

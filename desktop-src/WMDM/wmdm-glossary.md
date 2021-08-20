@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 8fc30ada-1397-4d32-a242-8a70646ebf6e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36f502c79762f3c70d33c116f2412b51eaec1881
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ee6450be89c5b1b366f6fcb3fa5375a5bc6d87e0ff7a70c5620ff0da18b7ed99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862849"
 ---
 # <a name="wmdm-glossary"></a>Glossaire WMDM
 
@@ -23,7 +23,7 @@ Vous pouvez également lire les termes du Glossaire dans le texte de l’aide en
 <span id="projectid114.active_template_library__atl_"></span><span id="PROJECTID114.ACTIVE_TEMPLATE_LIBRARY__ATL_"></span>**Active Template Library (ATL)**
 </dt> <dd>
 
-Collection de classes de modèle pour Microsoft Visual C++. Il est utilisé pour créer des serveurs COM lors de l’écriture d’un fournisseur de services pour Windows Media Gestionnaire de périphériques.
+Collection de classes de modèle pour Microsoft Visual C++. il est utilisé pour créer des serveurs COM lors de l’écriture d’un fournisseur de services pour Windows Gestionnaire de périphériques de média.
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ Demande de licence. Une stimulation contient des informations sur l’ordinateur
 <span id="projectid114.clear_content"></span><span id="PROJECTID114.CLEAR_CONTENT"></span>**effacer le contenu**
 </dt> <dd>
 
-Fichier Windows Media non chiffré.
+fichier multimédia Windows qui n’est pas chiffré.
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ Solution de sécurité qui sépare une partie d’un réseau d’une autre parti
 <span id="projectid114.key"></span><span id="PROJECTID114.KEY"></span>**clé**
 </dt> <dd>
 
-Élément de données requis pour déverrouiller un fichier Windows Media empaqueté. Cette clé est incluse dans une licence distincte.
+élément de données requis pour déverrouiller un fichier multimédia Windows empaqueté. Cette clé est incluse dans une licence distincte.
 
 </dd> <dt>
 
@@ -142,14 +142,14 @@ Données jointes au contenu protégé qui décrit comment le contenu peut être 
 <span id="projectid114.microsoft_secure_content_provider__scp_"></span><span id="PROJECTID114.MICROSOFT_SECURE_CONTENT_PROVIDER__SCP_"></span>**Fournisseur de contenu sécurisé Microsoft (SCP)**
 </dt> <dd>
 
-Un plug-in pour Windows Media Gestionnaire de périphériques qui fournit des services de gestion des droits numériques (DRM).
+un plug-in pour Windows Media Gestionnaire de périphériques qui fournit des services de gestion des droits numériques (DRM).
 
 </dd> <dt>
 
-<span id="projectid114.microsoft_windows_media_player"></span><span id="PROJECTID114.MICROSOFT_WINDOWS_MEDIA_PLAYER"></span>**Lecteur Microsoft Windows Media**
+<span id="projectid114.microsoft_windows_media_player"></span><span id="PROJECTID114.MICROSOFT_WINDOWS_MEDIA_PLAYER"></span>**Lecteur Windows Media Microsoft**
 </dt> <dd>
 
-Client/contrôle qui reçoit un flux à partir d’un serveur Windows Media ou d’un contenu local pour la lecture. Il peut être exécuté en tant que programme exécutable client autonome ou être incorporé dans une page Web, un programme C++ ou un programme Microsoft Visual Basic qui utilise le contrôle ActiveX client.
+client/contrôle qui reçoit un flux à partir d’un serveur multimédia Windows ou d’un contenu local pour la lecture. il peut être exécuté en tant que programme exécutable client autonome ou être incorporé dans une page Web, un programme C++ ou un programme Microsoft Visual Basic qui utilise le contrôle client ActiveX.
 
 </dd> <dt>
 
@@ -163,7 +163,7 @@ Collection de propriétés et de méthodes qui remplissent un but particulier et
 <span id="projectid114.player"></span><span id="PROJECTID114.PLAYER"></span>**lecteur**
 </dt> <dd>
 
-Programme ou contrôle client qui reçoit du contenu multimédia numérique diffusé en continu à partir d’un serveur ou lu à partir de fichiers locaux. Le lecteur Windows Media est un exemple de lecteur.
+Programme ou contrôle client qui reçoit du contenu multimédia numérique diffusé en continu à partir d’un serveur ou lu à partir de fichiers locaux. Lecteur Windows Media est un exemple de joueur.
 
 </dd> <dt>
 
@@ -198,45 +198,45 @@ Pour chiffrer les fichiers avec une clé et ajouter des informations telles que 
 <span id="projectid114.sdmi"></span><span id="PROJECTID114.SDMI"></span>**SDMI**
 </dt> <dd>
 
-Consultez la définition de : l' [initiative de Secure Digital Music (SDMI)](/windows)
+voir la définition de : [SDMI (secure Digital Musique Initiative)](/windows)
 
 </dd> <dt>
 
-<span id="projectid114.secure_digital_music_initiative__sdmi_"></span><span id="PROJECTID114.SECURE_DIGITAL_MUSIC_INITIATIVE__SDMI_"></span>**Initiative de sécuriser la musique numérique (SDMI)**
+<span id="projectid114.secure_digital_music_initiative__sdmi_"></span><span id="PROJECTID114.SECURE_DIGITAL_MUSIC_INITIATIVE__SDMI_"></span>programme **SDMI (secure Digital Musique Initiative)**
 </dt> <dd>
 
 Organisation qui définit des normes pour la musique numérique sécurisée. L’un des principaux objectifs de SDMI est de créer une infrastructure pour sécuriser la diffusion, le stockage et la distribution de la musique numérique.
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_encoder"></span><span id="PROJECTID114.WINDOWS_MEDIA_ENCODER"></span>**Encodeur Windows Media**
+<span id="projectid114.windows_media_encoder"></span><span id="PROJECTID114.WINDOWS_MEDIA_ENCODER"></span>**encodeur multimédia Windows**
 </dt> <dd>
 
-Technologie qui compresse l’audio et la vidéo en direct ou préenregistrés dans un flux Windows Media, qui peut être distribué immédiatement ou enregistré en tant que fichier Windows Media pour une distribution ultérieure.
+technologie qui compresse l’audio et la vidéo en direct ou préenregistrés dans un flux de données multimédia Windows, qui peut être distribué immédiatement ou enregistré en tant que fichier multimédia Windows pour une distribution ultérieure.
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_file"></span><span id="PROJECTID114.WINDOWS_MEDIA_FILE"></span>**Fichier Windows Media**
+<span id="projectid114.windows_media_file"></span><span id="PROJECTID114.WINDOWS_MEDIA_FILE"></span>**Windows un fichier multimédia**
 </dt> <dd>
 
-Fichier qui contient des données audio, vidéo ou de script. Le contenu du fichier est encodé à l’aide de l’un des codecs Windows Media.
+Fichier qui contient des données audio, vidéo ou de script. le contenu du fichier est encodé à l’aide de l’un des codecs multimédias Windows.
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_format"></span><span id="PROJECTID114.WINDOWS_MEDIA_FORMAT"></span>**Format Windows Media**
+<span id="projectid114.windows_media_format"></span><span id="PROJECTID114.WINDOWS_MEDIA_FORMAT"></span>**Format de média Windows**
 </dt> <dd>
 
-Format d’un fichier multimédia numérique ou d’un flux encodé à l’aide de codecs Windows Media.
+format d’un fichier multimédia numérique ou d’un flux encodé à l’aide de Windows codecs multimédias.
 
 </dd> <dt>
 
-<span id="projectid114.windows_media_services"></span><span id="PROJECTID114.WINDOWS_MEDIA_SERVICES"></span>**Media Services Windows**
+<span id="projectid114.windows_media_services"></span><span id="PROJECTID114.WINDOWS_MEDIA_SERVICES"></span>**Services Windows Media**
 </dt> <dd>
 
 Service utilisé pour diffuser des données audio et vidéo numériques sur Internet ou sur un intranet.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

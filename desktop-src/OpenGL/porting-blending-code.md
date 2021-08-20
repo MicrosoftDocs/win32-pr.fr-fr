@@ -10,12 +10,12 @@ keywords:
 - mélanger
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7956c675848f454b660126a7a17869295a827438
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13548a2f08821e4f80bf63230077f9a39540ba9b8a37763e7935d211ef0dcdc0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485909"
 ---
 # <a name="porting-blending-code"></a>Portage du code de fusion
 
@@ -32,7 +32,7 @@ Le tableau suivant répertorie les fonctions de fusion de l’IRIS dans le GL et
 
 
 
- 
+ 
 
 La fonction OpenGL **glBlendFunc** et la fonction Iris GL **BLENDFUNCTION** sont presque identiques. Le tableau suivant répertorie les facteurs de mélange IRIS GL et leurs équivalents OpenGL.
 
@@ -54,13 +54,13 @@ La fonction OpenGL **glBlendFunc** et la fonction Iris GL **BLENDFUNCTION** sont
 
 
 
- 
+ 
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Player. lecture
-description: La propriété lecture récupère une valeur indiquant l’état de l’opération du lecteur Windows Media.
+description: la propriété lecture récupère une valeur indiquant l’état de l’opération de Lecteur Windows Media.
 ms.assetid: 8ed1ee1f-8731-402a-aff5-5ae513a35eea
 keywords:
 - Lecteur Windows Media Player. lecture
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c442b1be9e1ea15b8a54c2dafc264edf8aeb479
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0241f8ab538e985a64835065e1eb6bca0a831164cd66fbb7d9166724a72680e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118835118"
 ---
 # <a name="playerplaystate"></a>Player. lecture
 
-La propriété **lecture** récupère une valeur indiquant l’état de l’opération du lecteur Windows Media.
+la propriété **lecture** récupère une valeur indiquant l’état de l’opération de Lecteur Windows Media.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -35,9 +35,9 @@ Cette propriété est un **nombre** en lecture seule (**long**). La constante d�
 
 
 
-| Valeur | State         | Description                                                                                                                 |
+| Valeur | État         | Description                                                                                                                 |
 |-------|---------------|-----------------------------------------------------------------------------------------------------------------------------|
-| 0     | Indéfini     | Le lecteur Windows Media est dans un État non défini.                                                                              |
+| 0     | Indéfini     | Lecteur Windows Media est dans un état indéfini.                                                                              |
 | 1     | Arrêté       | La lecture de l’élément multimédia en cours est arrêtée.                                                                              |
 | 2     | Suspendu        | La lecture de l’élément multimédia actuel est suspendue. Lorsqu’un élément multimédia est suspendu, la reprise de la lecture commence à partir du même emplacement. |
 | 3     | Lecture en cours       | L’élément multimédia actuel est en cours de diffusion.                                                                                          |
@@ -54,13 +54,13 @@ Cette propriété est un **nombre** en lecture seule (**long**). La constante d�
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Il n’est pas garanti que les États du lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
+il n’est pas garanti que les états de Lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
 
 ## <a name="examples"></a>Exemples
 
-Le code JScript suivant illustre l’utilisation du *lecteur*. propriété **lecture** . Un élément de texte HTML, nommé « myText », affiche l’état actuel. L’objet **Player** a été créé avec ID = "Player".
+le code JScript suivant illustre l’utilisation du *lecteur*. propriété **lecture** . Un élément de texte HTML, nommé « myText », affiche l’état actuel. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript
@@ -73,7 +73,7 @@ else
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

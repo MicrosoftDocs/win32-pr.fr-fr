@@ -1,6 +1,6 @@
 ---
 title: Identificateurs de légende intégrés (Fwpmu. h)
-description: Les identificateurs des fonctions de légende intégrées à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID. Ces identificateurs sont définis comme suit.
+description: les identificateurs des fonctions de légende intégrées à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID. Ces identificateurs sont définis comme suit.
 ms.assetid: b283cb2e-7f82-4d44-982a-38499504e3bc
 topic_type:
 - apiref
@@ -33,16 +33,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c21d0428953d8b3e27590b186d931a7d902db377
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7d430f44e6e72f575d5e2ff0fd30681c04e81892f0438f0508be994d53c1643e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151425"
 ---
 # <a name="built-in-callout-identifiers"></a>Identificateurs de légende intégrés
 
-Les identificateurs des fonctions de légende intégrées à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID. Ces identificateurs sont définis comme suit.
+les identificateurs des fonctions de légende intégrées à la plateforme de filtrage Windows (WFP) sont chacun représentés par un GUID. Ces identificateurs sont définis comme suit.
 
 Les suffixes V4 et V6 à la fin des identificateurs de légende indiquent si la légende est pour la pile réseau IPv4 ou pour la pile réseau IPv6.
 
@@ -160,7 +160,7 @@ Applique les modificateurs de stratégie IPsec aux applications clientes.
 Signale à la protection DoS IPsec que le trafic doit être vérifié pour les attaques potentielles et peut nécessiter un débit limité.
 
 > [!Note]  
-> Disponible uniquement dans Windows 7 et Windows Server 2008 R2.
+> disponible uniquement dans Windows 7 et Windows Server 2008 R2.
 
  
 
@@ -217,7 +217,7 @@ Définit les options de classification sur les flux sortants.
 Définit les options de classification sur les flux entrants.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -242,7 +242,7 @@ Cet identificateur est réservé à un usage interne.
 Signale au service Teredo qu’une application requiert une adresse Teredo.
 
 > [!Note]  
-> Pour Windows 7 et les versions ultérieures, utilisez la **FWPM d' \_ \_ \_ \_ \_ écoute \_ ALE Traversal de traversée** de la légende.
+> pour les Windows 7 et versions ultérieures, utilisez la **FWPM d' \_ \_ \_ \_ \_ écoute \_ ALE traversal de traversée** de la légende.
 
  
 
@@ -257,7 +257,7 @@ Signale au service Teredo qu’une application requiert une adresse Teredo.
 Signale au service Teredo qu’une application requiert une adresse Teredo.
 
 > [!Note]  
-> Pour Windows 7 et les versions ultérieures, utilisez la version d' **\_ affectation de \_ \_ \_ ressources ALE Traversal \_ \_ \_ de l’appel Edge FWPM V6**.
+> pour les Windows 7 et versions ultérieures, utilisez la version d' **\_ affectation de \_ \_ \_ ressources ALE traversal \_ \_ \_ de l’appel EDGE FWPM V6**.
 
  
 
@@ -292,7 +292,7 @@ Cet identificateur est réservé à une utilisation ultérieure.
 Applique les paramètres de modèle TCP pour les connexions sortantes correspondantes.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -307,7 +307,7 @@ Applique les paramètres de modèle TCP pour les connexions sortantes correspond
 Applique les paramètres de modèle TCP pour les connexions entrantes correspondantes.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -320,8 +320,8 @@ Applique les paramètres de modèle TCP pour les connexions entrantes correspond
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |
 
 

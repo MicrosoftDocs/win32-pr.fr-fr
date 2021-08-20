@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: df8b52a5bd5267cf88eaf101a0589000099dd600
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c02e65bb17e07b3d75c4949730141831e5b146011e77478d95c8976b792c1c5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118094554"
 ---
 # <a name="id3dxanimationcontrollergetcurrentpriorityblend-method"></a>ID3DXAnimationController :: GetCurrentPriorityBlend, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **D3DXEVENTHANDLE**](id3dxanimationcontroller.md)**
 
 Handle d’événement vers l’événement de fusion de priorité en cours d’exécution. La **valeur null** est retournée si aucun événement de fusion de priorité n’est en cours d’exécution.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

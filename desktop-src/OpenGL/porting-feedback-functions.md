@@ -10,12 +10,12 @@ keywords:
 - feedback
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a04bcfe2c1d914a178ad7ad0dca95fb85d86bbc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0f4ab584dfbd9038d45e7d24c006857f278a9239fc6f9da4d38a75363f0d585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132631"
 ---
 # <a name="porting-feedback-functions"></a>Portage des fonctions de commentaires
 

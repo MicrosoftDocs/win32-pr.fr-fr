@@ -4,12 +4,12 @@ ms.assetid: c5654335-ad80-4a5b-bf1f-5f32b2cc8ea2
 title: Rendu d’un effet (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79db595585c6587648fba12afa5fbb22ff33e845
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 46fcee8c4f0056359416133bbfc852259843b15391a422c3cf12bdeff7c25157
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118101529"
 ---
 # <a name="rendering-an-effect-direct3d-10"></a>Rendu d’un effet (Direct3D 10)
 

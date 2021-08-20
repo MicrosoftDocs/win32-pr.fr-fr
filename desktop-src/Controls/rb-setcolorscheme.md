@@ -3,7 +3,7 @@ title: Message RB_SETCOLORSCHEME (commctrl. h)
 description: Définit les informations de jeu de couleurs pour le contrôle rebar.
 ms.assetid: ddf8f3e4-66b7-4b53-a04e-b4dd372f71c4
 keywords:
-- RB_SETCOLORSCHEME les contrôles de message Windows
+- RB_SETCOLORSCHEME les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c7725d3c0bc3f3a7a7a72db16e19626a3c4d2a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce7715082a371c3632d8accb8fdf60bbac50d8d7d8182732d6a62c2dbb423c34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169275"
 ---
 # <a name="rb_setcolorscheme-message"></a>\_Message SETCOLORSCHEME RB
 
@@ -43,7 +43,7 @@ Pointeur vers une structure [**COLORSCHEME**](/windows/win32/api/commctrl/ns-com
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle rebar utilise les informations de modèle de couleurs lors du dessin des éléments 3D dans le contrôle et les bandes.
 
@@ -53,8 +53,8 @@ Le contrôle rebar utilise les informations de modèle de couleurs lors du dessi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

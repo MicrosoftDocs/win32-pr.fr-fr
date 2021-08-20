@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.int3
 ms:contentKeyID: 55103358
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 32d9588aab3c78df5b674e9559641e384e1d396a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dca8e2a6a18267e70b2bee5ac26a2bdcfe0dc2e762ccf9e02930c249d9d2ae23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104551542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119668551"
 ---
 # <a name="int32columnvalue-properties"></a>Propriétés Int32ColumnValue
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b5fb573d289b71bb459cd8595b5df5115f42bf
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f8be46baa33ac3df504001e0c52a19f427c277275d95c7bbcc317296bb4c851f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118011525"
 ---
 # <a name="rdn-att-id-attribute"></a>Attribut RDN-att-ID
 
@@ -46,7 +46,7 @@ RDN pour l’attribut utilisé pour nommer une classe.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,8 +58,8 @@ RDN pour l’attribut utilisé pour nommer une classe.
 |------------------------|--------------------------------------------------|
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |
-| System-Only            | Vrai                                             |
-| Est de valeur unique       | Vrai                                             |
+| System-Only            | True                                             |
+| Est de valeur unique       | True                                             |
 | Est indexé             | Faux                                            |
 | Dans le catalogue global      | Faux                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                     |
@@ -80,7 +80,7 @@ RDN pour l’attribut utilisé pour nommer une classe.
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |
 | System-Only            | Vrai                                             |
-| Est de valeur unique       | Vrai                                             |
+| Est de valeur unique       | True                                             |
 | Est indexé             | Faux                                            |
 | Dans le catalogue global      | Faux                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                     |
@@ -100,7 +100,7 @@ RDN pour l’attribut utilisé pour nommer une classe.
 |------------------------|--------------------------------------------------|
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |
-| System-Only            | Vrai                                             |
+| System-Only            | True                                             |
 | Est de valeur unique       | Vrai                                             |
 | Est indexé             | Faux                                            |
 | Dans le catalogue global      | Faux                                            |
@@ -121,8 +121,8 @@ RDN pour l’attribut utilisé pour nommer une classe.
 |------------------------|--------------------------------------------------|
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |
-| System-Only            | Vrai                                             |
-| Est de valeur unique       | Vrai                                             |
+| System-Only            | True                                             |
+| Est de valeur unique       | True                                             |
 | Est indexé             | Faux                                            |
 | Dans le catalogue global      | Faux                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                     |
@@ -143,7 +143,7 @@ RDN pour l’attribut utilisé pour nommer une classe.
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |
 | System-Only            | Vrai                                             |
-| Est de valeur unique       | Vrai                                             |
+| Est de valeur unique       | True                                             |
 | Est indexé             | Faux                                            |
 | Dans le catalogue global      | Faux                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                     |
@@ -163,8 +163,8 @@ RDN pour l’attribut utilisé pour nommer une classe.
 |------------------------|--------------------------------------------------|
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |
-| System-Only            | Vrai                                             |
-| Est de valeur unique       | Vrai                                             |
+| System-Only            | True                                             |
+| Est de valeur unique       | True                                             |
 | Est indexé             | Faux                                            |
 | Dans le catalogue global      | Faux                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                     |
@@ -184,8 +184,8 @@ RDN pour l’attribut utilisé pour nommer une classe.
 |------------------------|--------------------------------------------------|
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |
-| System-Only            | Vrai                                             |
-| Est de valeur unique       | Vrai                                             |
+| System-Only            | True                                             |
+| Est de valeur unique       | True                                             |
 | Est indexé             | Faux                                            |
 | Dans le catalogue global      | Faux                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                     |

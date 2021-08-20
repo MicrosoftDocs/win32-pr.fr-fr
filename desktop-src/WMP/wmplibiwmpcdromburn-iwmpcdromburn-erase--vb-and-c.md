@@ -3,9 +3,9 @@ title: IWMPCdromBurn, méthode d’effacement
 description: La méthode Erase efface le CD actuel.
 ms.assetid: ed0fbd7e-61a6-445a-bca5-ed2969d5cadc
 keywords:
-- méthode Erase Windows Media Player
-- méthode Erase lecteur Windows Media, interface IWMPCdromBurn
-- Interface IWMPCdromBurn lecteur Windows Media, méthode Erase
+- méthode erase Lecteur Windows Media
+- erase, méthode Lecteur Windows Media, IWMPCdromBurn, interface
+- Lecteur Windows Media de l’interface IWMPCdromBurn, méthode erase
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4e168142a6ee77081871bb7dbefa79de8031d71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 356b7bcdd332198c40760860e69741e76e0e993b6b47b3c5a5ff207d3d55bc42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116332"
 ---
 # <a name="iwmpcdromburnerase-method"></a>IWMPCdromBurn :: Erase, méthode
 
@@ -53,7 +53,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne fonctionne pas si le disque du lecteur n’est pas réinscriptible. Utilisez [IWMPCdromBurn. isAvailable](wmplibiwmpcdromburn-iwmpcdromburn-isavailable--vb-and-c.md) pour déterminer si un CD peut être effacé.
 

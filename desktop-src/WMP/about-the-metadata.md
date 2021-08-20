@@ -8,16 +8,16 @@ keywords:
 - métadonnées, attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a1c2e9782b52adc274a5b3dbaf16c48ed1a892e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2dcccda2af46e60e4bb0733d17e35e1a50d1fe923e9775fa6b10d2c06e3a972a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865359"
 ---
 # <a name="about-the-metadata"></a>À propos des métadonnées
 
-Le lecteur Windows Media 10 ou une version ultérieure tente de synchroniser les attributs de métadonnées suivants.
+Lecteur Windows Media 10 ou une version ultérieure tente de synchroniser les attributs de métadonnées suivants.
 
 
 
@@ -30,13 +30,13 @@ Le lecteur Windows Media 10 ou une version ultérieure tente de synchroniser les
 | WM/genre         | \_wszWMDMGenre g       | **Chaîne** terminée par le caractère null qui contient le genre du contenu.                                             | Lecteur Windows Media 11 ou version ultérieure. |
 | UserPlayCount    | \_wszWMDMPlayCount g   | **Valeur DWORD** qui contient le nombre de fois que l’utilisateur a lu le fichier multimédia numérique.                        | Lecteur Windows Media 10 ou version ultérieure. |
 | ReleaseDate      | \_wszWMDMYear g        | Date de la version d’origine de l’élément.                                                               | Lecteur Windows Media 11 ou version ultérieure. |
-| Intitulé            | \_wszWMDMTitle g       | **Chaîne** terminée par le caractère null qui contient le titre.                                                            | Lecteur Windows Media 11 ou version ultérieure. |
+| Titre            | \_wszWMDMTitle g       | **Chaîne** terminée par le caractère null qui contient le titre.                                                            | Lecteur Windows Media 11 ou version ultérieure. |
 | WM/TrackNumber   | \_wszWMDMTrack g       | **Valeur DWORD** qui contient le numéro de suivi de l’élément sur l’album sur lequel il a été publié à l’origine.         | Lecteur Windows Media 11 ou version ultérieure. |
 | UserRating       | \_wszWMDMUserRating g  | **DWORD** contenant une valeur qui représente l’évaluation de l’étoile spécifiée par l’utilisateur pour le fichier multimédia numérique. | Lecteur Windows Media 10 ou version ultérieure. |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,9 +45,9 @@ Le lecteur Windows Media 10 ou une version ultérieure tente de synchroniser les
 [**Extensions d’appareil pour le transfert de métadonnées accéléré**](device-extensions-for-accelerated-metadata-transfer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

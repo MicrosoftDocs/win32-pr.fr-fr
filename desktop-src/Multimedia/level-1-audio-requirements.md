@@ -9,12 +9,12 @@ keywords:
 - Niveau 1 de MPC, configuration audio requise
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96a10ad4e31c9d7d3b2e2f5fdc0e3e5399f5ad48
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 407b8c5a31b9f745e6443f9ae3bb062201f0a17198020e7d89b8c02825819625
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139907"
 ---
 # <a name="level-1-audio-requirements"></a>Exigences audio de niveau 1
 
@@ -24,9 +24,9 @@ Le sous-système audio d’un PC répondant à la spécification de niveau 1 com
 -   Un convertisseur analogique-à-numérique (ADC) 8 bits qui permet d’enregistrer des fichiers audio Waveform au taux d’échantillonnage de 11,025 kHz via une source externe, telle qu’un microphone
 -   Fonctionnalités de synthétiseur interne avec quatre ou neuf multivoix, capacité multitimbral et deux notes à percussion simultanées
 
- 
+ 
 
- 
+ 
 
 
 

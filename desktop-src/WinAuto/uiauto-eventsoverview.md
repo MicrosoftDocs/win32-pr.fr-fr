@@ -15,12 +15,12 @@ keywords:
 - Événements de modification globaux du Bureau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9ddd61ed72ae0e92a13f6b59b493427fd7be421
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9ec99a479d390c72232f28521394b2d178f1ad76c913d72ec80aa0a4c93e0d57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859569"
 ---
 # <a name="ui-automation-events-overview"></a>Vue d'ensemble des événements UI Automation
 
@@ -42,7 +42,7 @@ Les événements UI Automation s’inscrivent dans les catégories suivantes.
 
 
 
- 
+ 
 
 Certains événements ne signifient pas nécessairement que l'état de l'interface utilisateur a changé. Par exemple, si l’utilisateur passe à un champ d’entrée de texte, puis clique sur un bouton pour mettre à jour le champ, un événement de [**\_ \_ TextChangedEventId de texte UIA**](uiauto-event-ids.md) est déclenché, même si l’utilisateur n’a pas réellement modifié le texte. Pendant le traitement d'un événement, une application cliente peut être amenée à vérifier ce qui a réellement changé avant d'agir.
 
@@ -62,6 +62,6 @@ Pour obtenir une description de tous les événements UI Automation, consultez [
 [Abonnement à des événements UI Automation](uiauto-eventsforclients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

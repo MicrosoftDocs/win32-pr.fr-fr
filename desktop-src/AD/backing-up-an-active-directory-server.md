@@ -7,18 +7,18 @@ keywords:
 - sauvegarde Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5affde952ee543afe1bb9b794cce074a74382aa7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d7040612639bff63e5f4e810fc7467c45e6dd6bb3b5dcb913e1038573525d92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118024166"
 ---
 # <a name="backing-up-an-active-directory-server"></a>Sauvegarde d’un serveur de Active Directory
 
 Une sauvegarde Active Directory Server vous oblige à sauvegarder la base de données et les journaux des transactions. Cette rubrique fournit une procédure pas à pas décrivant comment une application de sauvegarde sauvegarde le service d’annuaire Active Directory.
 
-L’appelant de ces fonctions de sauvegarde doit avoir le privilège de **\_ \_ nom de sauvegarde se** . Vous pouvez utiliser la fonction [**DsSetAuthIdentity**](dssetauthidentity.md) pour définir le contexte de sécurité sous lequel les fonctions de sauvegarde/restauration d’annuaire sont appelées.
+l’appelant de ces fonctions de sauvegarde doit avoir le privilège de **\_ \_ nom de sauvegarde SE** . Vous pouvez utiliser la fonction [**DsSetAuthIdentity**](dssetauthidentity.md) pour définir le contexte de sécurité sous lequel les fonctions de sauvegarde/restauration d’annuaire sont appelées.
 
 **Pour sauvegarder un serveur Active Directory, procédez comme suit :**
 
@@ -32,9 +32,9 @@ L’appelant de ces fonctions de sauvegarde doit avoir le privilège de **\_ \_ 
 8.  Libérez la mémoire pour le jeton d’expiration en passant le pointeur de jeton à la fonction [**DsBackupFree**](dsbackupfree.md) .
 9.  Enfin, appelez la fonction [**DsBackupEnd**](dsbackupend.md) pour libérer toutes les ressources associées au descripteur de contexte de sauvegarde.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - interfaces, ILegacyIAccessibleProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cffbd205b072f6f900ea5b5eb5a9f6ddfb5ddc5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 993dcba736be2232ffceb1e6ab0b1dd26b58722b1bb3c26886103229fc7574a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118827193"
 ---
 # <a name="legacyiaccessible-control-pattern"></a>Modèle de contrôle LegacyIAccessible
 
@@ -67,7 +67,7 @@ Les propriétés, méthodes et événements suivants sont des membres du modèle
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -84,9 +84,9 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

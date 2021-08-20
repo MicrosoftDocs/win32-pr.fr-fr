@@ -4,12 +4,12 @@ ms.assetid: 57ef6c08-3bad-4d8d-8daf-61041b878802
 title: Propriété AVEncCommonMinBitRate (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95c9b6e84675994d2aca7548f6c13d6558ebc020
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 65488b3a855d4b664c96a1d7abfc1718a35e94c466877c68848a1acf25a3bfe4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106519196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159855"
 ---
 # <a name="avenccommonminbitrate-property"></a>Propriété AVEncCommonMinBitRate
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’encodeur applique la vitesse de transmission minimale en renforçant la qualité d’encodage en fonction des besoins.
 
@@ -39,8 +39,8 @@ L’encodeur applique la vitesse de transmission minimale en renforçant la qual
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

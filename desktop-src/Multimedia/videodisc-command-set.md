@@ -6,12 +6,12 @@ keywords:
 - jeu de commandes videodisc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: facea09cd84f55b2cf8acb2abf042e3232289573
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a5ca5212d1fe121f2d5f8f3bb57772780b4b694f7c3069ff48fb19cbdd21f6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135567"
 ---
 # <a name="videodisc-command-set"></a>Jeu de commandes Videodisc
 
@@ -26,7 +26,7 @@ Les appareils Videodisc prennent en charge l’ensemble de commandes suivant.
 | [**plus**](close.md)           | [**\_fermeture MCI**](mci-close.md)           |
 | [sortie](escape.md)             | [**\_échappement MCI**](mci-escape.md)         |
 | [**méta**](info.md)             | [**\_infos MCI**](mci-info.md)             |
-| [**afficher**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
+| [**ouvert**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
 | [**suspen**](pause.md)           | [**\_Pause MCI**](mci-pause.md)           |
 | [**répétition**](play.md)             | [**\_lecture MCI**](mci-play.md)             |
 | [**sort**](resume.md)         | [**\_reprise MCI**](mci-resume.md)         |
@@ -40,11 +40,11 @@ Les appareils Videodisc prennent en charge l’ensemble de commandes suivant.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

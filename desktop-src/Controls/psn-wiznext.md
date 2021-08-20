@@ -3,7 +3,7 @@ title: PSN_WIZNEXT le code de notification (Prsht. h)
 description: Notifie une page sur laquelle l’utilisateur a cliqué sur le bouton suivant dans un Assistant. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: ff5be154-f2d1-403d-8f22-8f6cacfb66b1
 keywords:
-- Contrôles Windows de code de notification PSN_WIZNEXT
+- PSN_WIZNEXT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 145591b725548ffc4175541fd37db8f285533590
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dead2de1e21631b2b8e13cb54e3ee45d5d3bc29f2234380c31ec134c3790eae7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169629"
 ---
 # <a name="psn_wiznext-notification-code"></a>\_Code de notification PSN WIZNEXT
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 Retourne 0 pour permettre à l’Assistant de passer à la page suivante. Retourne-1 pour empêcher l’Assistant de modifier les pages. Pour afficher une page particulière, retournez son identificateur de ressource de boîte de dialogue. Si la boîte de dialogue a été spécifiée avec l’indicateur [**PSP \_ DLGINDIRECT**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) , cette notification retourne le pointeur vers le modèle de boîte de dialogue.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir la valeur de retour, la procédure de la boîte de dialogue de la page doit appeler la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec la valeur de **\_ MSGRESULT DWL** et retourner **true**. Par exemple :
 
@@ -100,8 +100,8 @@ Notez que cette technique est nécessaire uniquement si votre Assistant supprime
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

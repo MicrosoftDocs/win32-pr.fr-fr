@@ -28,12 +28,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b68cbfc75d0a71eacedb4bbd462fcd8a93d43690
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fc99b08363e8954c8fd33d5c2f34447799ecf23b69cc5a72f40556433313030
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118084246"
 ---
 # <a name="beginexternalbackupgrbit-enumeration"></a>Énumération BeginExternalBackupGrbit
 
@@ -72,7 +72,7 @@ public enum BeginExternalBackupGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 <tr class="even">

@@ -3,18 +3,18 @@ title: G
 description: G
 ms.assetid: 17900c00-ade1-4dae-8012-bcf3c5cfe846
 keywords:
-- Windows Color System (WCS), Glossaire
-- WCS (système de couleurs Windows), Glossaire
+- Windows Système de couleurs (WCS), Glossaire
+- WCS (Windows Color System), glossaire
 - gestion des couleurs des images, Glossaire
 - gestion des couleurs, Glossaire
 - couleurs, Glossaire
-- Système de couleurs Windows (WCS), définitions
-- WCS (système de couleurs Windows), définitions
+- Windows Système de couleurs (WCS), définitions
+- WCS (Windows Color System), définitions
 - gestion des couleurs des images, définitions
 - gestion des couleurs, définitions
 - couleurs, définitions
-- Windows Color System (WCS), termes
-- WCS (système de couleurs Windows), termes
+- Windows Système de couleurs (WCS), termes
+- WCS (Windows Color System), termes
 - gestion des couleurs des images, termes
 - gestion des couleurs, termes
 - couleurs, termes
@@ -27,12 +27,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89e251b97df23a60415235b003f29ad199aa3860
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 8f4f4d6e7cac8a0832e430acbbf55ff14d3991d5146b13fc952457ba7892e7b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106538410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007699"
 ---
 # <a name="g"></a>G
 

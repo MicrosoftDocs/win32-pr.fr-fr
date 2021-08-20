@@ -4,16 +4,16 @@ ms.assetid: 6655bbae-07d3-416b-9e45-ddcbe3433f40
 title: Objet du portail
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01328d8dccfe7a29c0686cde9b531df63d56e63e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b7004f648b11b16c8c6279a0a74bae775fa539d8f0a93fc83d7effccea68915
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864519"
 ---
 # <a name="portal-object"></a>Objet du portail
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet portail modélise un portail iSCSI qui est contenu dans un sous-système iSCSI.
 

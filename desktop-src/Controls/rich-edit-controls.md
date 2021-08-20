@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: vs|controls|~\controls\richedit\richeditcontrols.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98fc87b75bcfad16770603150667b77605ee2c4b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 61f294a595105a448c6f3254f53867164c79a5339a150a1759143e8e77e29ff9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169062"
 ---
 # <a name="rich-edit"></a>Édition enrichie
 

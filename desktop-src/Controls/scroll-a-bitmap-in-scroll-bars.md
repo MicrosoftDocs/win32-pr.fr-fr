@@ -4,12 +4,12 @@ description: Cette section décrit les modifications que vous pouvez apporter à
 ms.assetid: FA6FEA49-25EB-4C18-AD07-74BD77501906
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a01a93fbb005b75d7cd860bc8545c4e77a80767
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 084d8fff259326c4eb73838f1f6e2b650aab40d54882633a76e2fbf120a1ae89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118005282"
 ---
 # <a name="how-to-scroll-a-bitmap"></a>Comment faire défiler une bitmap
 
@@ -17,16 +17,16 @@ Cette section décrit les modifications que vous pouvez apporter à la procédur
 
 L’exemple comprend un élément de menu qui copie le contenu de l’écran dans une image bitmap et affiche l’image bitmap dans la zone cliente. L’exemple traite également les messages [**WM \_ HSCROLL**](wm-hscroll.md) et [**WM \_ VSCROLL**](wm-vscroll.md) qui sont générés par les barres de défilement de sorte que l’utilisateur puisse faire défiler le bitmap horizontalement et verticalement. Contrairement à l’exemple de texte défilé, l’exemple de bitmap utilise la fonction [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) pour dessiner la partie non valide de la zone cliente.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -404,9 +404,9 @@ LRESULT CALLBACK MyBitmapWindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM 
 [Utilisation des barres de défilement](using-scroll-bars.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

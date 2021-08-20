@@ -3,9 +3,9 @@ title: IWMPClosedCaption2 propriété SAMIStyleCount
 description: La propriété SAMIStyleCount obtient le nombre de styles pris en charge par le fichier SAMI actuel.
 ms.assetid: e2a0d194-6fa2-48c9-9fc7-0b60029d2e5d
 keywords:
-- Propriété SAMIStyleCount lecteur Windows Media
-- Propriété SAMIStyleCount lecteur Windows Media, interface IWMPClosedCaption2
-- Interface IWMPClosedCaption2 lecteur Windows Media, propriété SAMIStyleCount
+- Lecteur Windows Media de la propriété SAMIStyleCount
+- Lecteur Windows Media de la propriété SAMIStyleCount, interface IWMPClosedCaption2
+- Lecteur Windows Media de l’interface IWMPClosedCaption2, propriété SAMIStyleCount
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff361b4c6d34f63e86e3d8458bff4d3308cae29f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f73ab4e252386f790f74741053012239d0219b1e296e392146894f906e1556f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115916"
 ---
 # <a name="iwmpclosedcaption2samistylecount-property"></a>IWMPClosedCaption2 :: SAMIStyleCount, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property SAMIStyleCount As System.Int32
 
 **System. Int32** qui correspond au nombre de styles.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété retourne la valeur 0, sauf si un fichier multimédia numérique est ouvert (AxWindowsMediaPlayer. openState est égal à 13).
 

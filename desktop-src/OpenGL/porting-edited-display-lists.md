@@ -10,12 +10,12 @@ keywords:
 - afficher les listes, Portage à partir de IRIS GL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5555c850d4695ba3732b61c0a41b7aedd8af0a9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13f1630b0560091482d47f85e038d908dcfab202ae772c4d35dc388324b46075
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485579"
 ---
 # <a name="porting-edited-display-lists"></a>Portage des listes d’affichage modifiées
 
@@ -44,9 +44,9 @@ glNewList(2, GL_COPILE);
 glEndList;
 ```
 
- 
+ 
 
- 
+ 
 
 
 

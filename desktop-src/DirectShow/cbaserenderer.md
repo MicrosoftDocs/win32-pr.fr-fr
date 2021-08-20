@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e30bae52cf5a7eba642354d002173291cb7d38b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81e529493bfd892607748423bb1bab9016eb232aaeb3ed22287fa2c1c1917687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954802"
 ---
 # <a name="cbaserenderer-class"></a>CBaseRenderer, classe
 
@@ -110,7 +110,7 @@ Lorsque le filtre en amont appelle la méthode [**IPIN :: EndOfStream**](/windo
 | [**CompleteConnect**](cbaserenderer-completeconnect.md)                     | Termine la connexion de la broche d’entrée à une autre broche. Virtuels.                                                                           |
 | [**CompleteStateChange**](cbaserenderer-completestatechange.md)             | Détermine si une transition vers l’état suspendu est terminée. Virtuels.                                                               |
 | [**EndFlush**](cbaserenderer-endflush.md)                                   | Termine une opération de vidage. Virtuels.                                                                                                        |
-| [**Inactif**](cbaserenderer-inactive.md)                                   | Appelé lorsque l’état passe à arrêté. Virtuels.                                                                                  |
+| [**Inactive**](cbaserenderer-inactive.md)                                   | Appelé lorsque l’état passe à arrêté. Virtuels.                                                                                  |
 | [**NotReady**](cbaserenderer-notready.md)                                   | Signale qu’une transition d’État n’est pas encore terminée.                                                                                    |
 | [**Ready**](cbaserenderer-ready.md)                                         | Signale qu’une transition d’État est terminée.                                                                                            |
 | [**StartStreaming**](cbaserenderer-startstreaming.md)                       | Lance la diffusion en continu lorsque le filtre passe à l’État en cours d’exécution. Virtuels.                                                               |
@@ -138,7 +138,7 @@ Lorsque le filtre en amont appelle la méthode [**IPIN :: EndOfStream**](/windo
 | Méthodes IMediaFilter                                                         | Description                                                                                                                             |
 | [**GetState**](cbaserenderer-getstate.md)                                   | Récupère l’état du filtre (en cours d’exécution, arrêté ou suspendu).                                                                             |
 | [**Suspendre**](cbaserenderer-pause.md)                                         | Suspend le filtre.                                                                                                                      |
-| [**Utilisez**](cbaserenderer-run.md)                                             | Permet d'exécuter le filtre.                                                                                                                        |
+| [**Exécuter**](cbaserenderer-run.md)                                             | Permet d'exécuter le filtre.                                                                                                                        |
 | [**Erreur**](cbaserenderer-stop.md)                                           | Arrête le filtre.                                                                                                                       |
 | Méthodes IBaseFilter                                                          | Description                                                                                                                             |
 | [**FindPin**](cbaserenderer-findpin.md)                                     | Récupère le code confidentiel avec l’identificateur spécifié.                                                                                        |
@@ -153,7 +153,7 @@ Lorsque le filtre en amont appelle la méthode [**IPIN :: EndOfStream**](/windo
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

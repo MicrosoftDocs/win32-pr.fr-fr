@@ -4,16 +4,16 @@ ms.assetid: ae4d18f2-4d50-480c-bc7a-4eec0334707d
 title: Objets de démarrage et de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92beb0a4f825f767299a7ced74d43ef2487fa252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d60a87c7e52a263d03e80f44911f72db5f49259baf33a7b2f90680f30bb3b2fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125929"
 ---
 # <a name="startup-and-service-objects"></a>Objets de démarrage et de service
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 VDS fournit des objets pour effectuer des activités liées aux services. Cette rubrique décrit chaque objet.
 
@@ -33,8 +33,8 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 | Type                                              | Élément                                         |
 |---------------------------------------------------|-------------------------------------------------|
 | Interfaces toujours exposées par cet objet | [**IVdsServiceLoader**](/windows/desktop/api/Vds/nn-vds-ivdsserviceloader). |
-| Énumérations associées                           | Aucun                                           |
-| Structures associées                             | Aucun                                           |
+| Énumérations associées                           | Aucun.                                           |
+| Structures associées                             | Aucun.                                           |
 
 
 
@@ -69,7 +69,7 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 
  
 
-**\* Windows Server 2003 :** ces interfaces ne sont pas prises en charge tant que Windows Server 2003 R2 n’est pas pris en charge.
+**\* Windows server 2003 :** ces interfaces ne sont pas prises en charge tant que Windows Server 2003 R2.
 
 ## <a name="initiator-adapter-object"></a>Objet adaptateur de l’initiateur
 
@@ -87,7 +87,7 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 
  
 
-**\* Windows Server 2003 :** cette interface n’est pas prise en charge tant que Windows Server 2003 R2 n’est pas pris en charge.
+**\* Windows server 2003 :** cette interface n’est pas prise en charge tant que Windows Server 2003 R2.
 
 ## <a name="initiator-portal-object"></a>Objet portail de l’initiateur
 
@@ -105,7 +105,7 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 
  
 
-**\* Windows Server 2003 :** cette interface n’est pas prise en charge tant que Windows Server 2003 R2 n’est pas pris en charge.
+**\* Windows server 2003 :** cette interface n’est pas prise en charge tant que Windows Server 2003 R2.
 
 ## <a name="hba-port-object"></a>Objet port HBA
 
@@ -125,7 +125,7 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 
  
 
-**\* Windows Server 2003 :** cette interface n’est pas prise en charge tant que Windows Server 2003 R2 n’est pas pris en charge.
+**\* Windows server 2003 :** cette interface n’est pas prise en charge tant que Windows Server 2003 R2.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

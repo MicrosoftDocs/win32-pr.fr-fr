@@ -4,19 +4,19 @@ description: Modèle d’association de type de fichier et d’URI
 ms.assetid: 4DE7DD08-088A-4E09-B1C7-AE9033EA533D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c78540a072405aade01a9f94503999ad105d2078
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: aabcdb40bd38aeee24ee0e5d86f11651633a7eead1748810e8c1c6a846827690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104031994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028857"
 ---
 # <a name="file-type-and-uri-associations-model"></a>Modèle d’association de type de fichier et d’URI
 
 ## <a name="platforms"></a>Plateformes
 
  **Clients** -Windows 8  
-**Serveurs** -Windows Server 2012  
+**serveurs** -Windows Server 2012  
 
 
 
@@ -38,7 +38,7 @@ Les utilisateurs peuvent effectuer plusieurs tâches pour prendre en compte les 
 -   Les utilisateurs sont invités à choisir une application par défaut pour gérer les types de fichiers, les schémas d’URI ou les deux quand aucun n’a été spécifié.
 -   Les utilisateurs ont la possibilité de modifier leur gestionnaire par défaut après l’installation de nouvelles applications capables de gérer un type de fichier ou un schéma d’URI
 -   Le panneau de configuration programmes par défaut permet aux utilisateurs de définir des valeurs par défaut pour une application, ou pour un type de fichier, un modèle d’URI, ou les deux. les applications peuvent être liées au panneau de configuration
--   Les valeurs par défaut peuvent être modifiées à partir de l’Explorateur Windows
+-   les valeurs par défaut peuvent être modifiées à partir de l’explorateur de Windows
 
 ## <a name="solution"></a>Solution
 
@@ -72,9 +72,9 @@ Suite à ces modifications, cette recommandation d’API est fournie :
 
 ## <a name="resources"></a>Ressources
 
--   [Meilleures pratiques pour les associations de type de fichier et d’URI dans les applications de bureau Windows 8](/previous-versions/windows/desktop/legacy/cc144156(v=vs.85))
+-   [meilleures pratiques pour les Associations de Type de fichier et d’URI dans les applications de bureau Windows 8](/previous-versions/windows/desktop/legacy/cc144156(v=vs.85))
 -   [Associations de types de fichier et présentation de la Conférence génération d’exécution automatique](https://channel9.msdn.com/events/BUILD/BUILD2011/PLAT-282T)
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ keywords:
 - waveOutBreakLoop fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c233799e2d4faf8107b4a2a68a261b544ec1274
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 2d98732ccc0a1d75ad13a10dc881b66a3bb634beab03a95a86a9db5689890979
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106531162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139310"
 ---
 # <a name="looping-playback"></a>Lecture en boucle
 

@@ -4,12 +4,12 @@ ms.assetid: 28654bae-9ce2-467b-b769-63279d69b173
 title: Événements de source de Sequencer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdf97cc5ff25c8a5fc40fa4990bf38c652f94e63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f6237d5b79be9555f6d3f00da870ac461b86395e84d837bd0cc5818040e20cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058116"
 ---
 # <a name="sequencer-source-events"></a>Événements de source de Sequencer
 

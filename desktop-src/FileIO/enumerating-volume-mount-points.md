@@ -4,12 +4,12 @@ ms.assetid: 052a363f-adfd-4f66-a8b0-5d9d37eedcb0
 title: Énumération des dossiers montés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16b047e4af74f33d6bc56476734f0f39c41dd14f
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 27ccc8dab4a3491fd93772582e6a40ab0fe60c9cdc52bc10904d5430d1224c55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117997496"
 ---
 # <a name="enumerating-mounted-folders"></a>Énumération des dossiers montés
 

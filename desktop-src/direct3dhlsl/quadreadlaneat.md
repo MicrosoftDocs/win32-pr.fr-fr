@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ddc772c2dca66873891483431eab14ad504da77e
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: a6c06fc1118496c0f87b39ea73dfa9a515d2f2f684eb7258979c7c93dfc4eea1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088645"
 ---
 # <a name="quadreadlaneat-function"></a>QuadReadLaneAt fonction)
 
@@ -58,7 +58,7 @@ ID Lane ; Il s’agit d’une valeur comprise entre 0 et 3.
 
 Valeur source spécifiée. Le résultat de cette fonction est uniforme sur le quadruple. Si le couloir source est inactif, les résultats ne sont pas définis.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur les Quad, reportez-vous à [vue d’ensemble du Shader Model 6](hlsl-shader-model-6-0-features-for-direct3d-12.md).
 

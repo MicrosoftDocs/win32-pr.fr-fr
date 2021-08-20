@@ -1,9 +1,9 @@
 ---
 title: Message WM_DDE_REQUEST (DDE. h)
-description: Une application cliente de échange dynamique de données (DDE) envoie un \_ message de requête de l’échange de données (DDE) WM \_ à une application de serveur DDE pour demander la valeur d’un élément de données. Pour poster ce message, appelez la fonction PostMessage avec les paramètres suivants.
+description: une application cliente de échange dynamique de données (dde) envoie un \_ message de requête de l’échange de données (dde) WM \_ à une application de serveur dde pour demander la valeur d’un élément de données. Pour poster ce message, appelez la fonction PostMessage avec les paramètres suivants.
 ms.assetid: 922452d2-455c-43e1-a8a8-e3c52b0fab51
 keywords:
-- WM_DDE_REQUEST l’échange de données de message
+- WM_DDE_REQUEST des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f7d5eab75d3b7298d78547b17fccfb164a47ae4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05c58877b15f39d2de907688972905e98007658981bcc57df62655634bafe8be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118811349"
 ---
 # <a name="wm_dde_request-message"></a>\_Message de \_ requête DDE WM
 
-Une application cliente de échange dynamique de données (DDE) envoie un message de **\_ \_ requête** de l’échange de données (DDE) WM à une application de serveur DDE pour demander la valeur d’un élément de données.
+une application cliente de échange dynamique de données (dde) envoie un message de **\_ \_ requête** de l’échange de données (dde) WM à une application de serveur dde pour demander la valeur d’un élément de données.
 
 Pour poster ce message, appelez la fonction [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) avec les paramètres suivants.
 
@@ -54,7 +54,7 @@ Le mot de poids fort contient un atome qui identifie l’élément de données d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="posting"></a>Publication
 
@@ -66,7 +66,7 @@ Si l’application de réception (serveur) peut répondre à la demande, elle r�
 
 Lorsque vous répondez avec un message de type de [**\_ \_ données DDE**](wm-dde-data.md) ou un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE de WM, l’application serveur peut réutiliser l’Atom ou supprimer l’atome et en créer un nouveau.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -74,7 +74,7 @@ Lorsque vous répondez avec un message de type de [**\_ \_ données DDE**](wm-dd
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>DDE. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Dde. h (inclure Windows. h)</dt> </dl> |
 
 
 

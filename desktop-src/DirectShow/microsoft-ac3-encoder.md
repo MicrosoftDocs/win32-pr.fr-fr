@@ -4,12 +4,12 @@ ms.assetid: 59d46ee2-d45f-4492-938d-39c55a7368e1
 title: Encodeur AC-3 Microsoft (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 160b020e07bb3ba4e4dc5636b58dd0e66f581a6f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 35984975fc5a56b043f1b2ceda56505ee6fe74038034fb35deb09b6a5f6a0f41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153167"
 ---
 # <a name="microsoft-ac-3-encoder"></a>Encodeur AC-3 Microsoft
 
@@ -69,7 +69,7 @@ msac3enc.dll
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce filtre n’est pas disponible pour une utilisation par des applications tierces.
 
@@ -79,7 +79,7 @@ Ce filtre n’est pas disponible pour une utilisation par des applications tierc
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista Édition familiale Premium, Windows Vista Édition intégrale, Windows 7 Édition familiale Premium, Windows 7 professionnel, Windows 7 entreprise, applications de bureau Windows 7 édition intégrale \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows vista familial Premium, Windows vista Ultimate, Windows 7 Édition Familiale Premium, Windows 7 Professionnel, Windows 7 Entreprise, Windows 7 Édition Intégrale les \[ applications de bureau uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl>                                                                                       |
 
@@ -89,7 +89,7 @@ Ce filtre n’est pas disponible pour une utilisation par des applications tierc
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  
