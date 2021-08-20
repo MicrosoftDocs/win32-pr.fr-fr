@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f2a84d2da1f3ca88a117c0150e7b27485838c300
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8edeac0ee198366683f0915911611f8edf000b138bea563f11f7da5d14a91be0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117910617"
 ---
 # <a name="d3dxcreateeffectfromresource-function"></a>D3DXCreateEffectFromResource fonction)
 
@@ -93,7 +93,7 @@ Pointeur d’interface facultatif, [**ID3DXInclude**](id3dxinclude.md), à utili
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -129,21 +129,21 @@ Retourne une mémoire tampon qui contient une liste d’erreurs de compilation.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Si les paramètres du compilateur requièrent Unicode, le type de données LPCTSTR est résolu en LPCWSTR. Dans le cas contraire, le type de données LPCTSTR est résolu en LPCSTR.
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXCreateEffectFromResourceW. Dans le cas contraire, l’appel de fonction est résolu en D3DXCreateEffectFromResourceA, car les chaînes ANSI sont utilisées.
 
-D3DXCreateEffectFromResource charge des données à partir d’une ressource de type RT \_ RCDATA. Pour plus d’informations sur les ressources Windows, consultez MSDN.
+D3DXCreateEffectFromResource charge des données à partir d’une ressource de type RT \_ RCDATA. pour plus d’informations sur les ressources de Windows, consultez MSDN.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

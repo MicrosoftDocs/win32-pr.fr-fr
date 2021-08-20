@@ -1,21 +1,21 @@
 ---
 title: Présentation de StoServe
-description: L’exemple de code StoServe montre comment utiliser les services de stockage structurés fournis dans l’implémentation de fichiers composés. L’utilisation des interfaces IStorage et IStream standard est décrite.
+description: l’exemple de code StoServe montre comment utiliser les services Stockage structurés fournis dans l’implémentation des fichiers composés. L’utilisation des interfaces IStorage et IStream standard est décrite.
 ms.assetid: 41ccd333-15c8-46b2-91c6-3e1929f7198c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c0c8325fbc20d4917785d0b83ca70bffa996824
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4fcae743a13f110e06e6df6292ab20ce9e8685a2c3f57b166b4510c32cb95071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960110"
 ---
 # <a name="stoserve-overview"></a>Présentation de StoServe
 
 ## <a name="purpose"></a>Objectif
 
-L’objectif principal de cet exemple de code est l’utilisation de services de stockage structurés fournis dans l’implémentation des fichiers composés. L’utilisation des interfaces [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) et [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) standard est décrite. **StoServe** fonctionne avec l’exemple de code [StoClien](structured-storage-client-sample--stoclien-.md) pour illustrer l’utilisation conjointe du stockage de fichiers composés par le client et le serveur.
+l’objectif principal de cet exemple de code est l’utilisation de services Stockage structurés fournis dans l’implémentation des fichiers composés. L’utilisation des interfaces [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) et [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) standard est décrite. **StoServe** fonctionne avec l’exemple de code [StoClien](structured-storage-client-sample--stoclien-.md) pour illustrer l’utilisation conjointe du stockage de fichiers composés par le client et le serveur.
 
 ## <a name="functionality"></a>Fonctionnalités
 
@@ -45,7 +45,7 @@ Il existe deux niveaux de sauvegarde des données manuscrites dans le codocument
 
 Il s’agit d’une division client/serveur courante. Cela s’avère particulièrement utile lorsque plusieurs clients ont besoin de partager les données. Le colivre est codé pour activer cette. Elle utilise la fonction APPUTIL CThreaded pour assurer la sécurité des threads. Une application qui peut exploiter cette conception est une application de tableau blanc partagé, où plusieurs clients peuvent contribuer à un dessin fréquemment consulté. La prise en charge de COM pour DCOM (Distributed COM) prend en charge ce type d’utilisation d’applications de groupe de travail sur le réseau. Pour plus d’informations, consultez l’exemple REMCLIEN précédent.
 
-Une utilisation plus modeste du schéma « client/serveur » est d’intégrer le comportement des objets implémentés dans des applications différentes sur le même ordinateur. Dans ce cas, les clients peuvent être un conteneur ActiveX dans des applications distinctes qui partagent des données gérées par le même objet. Ces données ne sont peut-être pas les données de dessin manuscrits prises en charge par le composant DllPaper. **StoServe** peut être utilisé comme infrastructure de départ pour la programmation de composants qui gèrent d’autres types de données partagées.
+Une utilisation plus modeste du schéma « client/serveur » est d’intégrer le comportement des objets implémentés dans des applications différentes sur le même ordinateur. dans ce cas, les clients peuvent être un conteneur ActiveX dans des applications distinctes qui partagent des données gérées par le même objet. Ces données ne sont peut-être pas les données de dessin manuscrits prises en charge par le composant DllPaper. **StoServe** peut être utilisé comme infrastructure de départ pour la programmation de composants qui gèrent d’autres types de données partagées.
 
 ## <a name="support-information"></a>Informations de support
 
@@ -53,17 +53,17 @@ Le Makefile **StoServe** inscrit le composant COM **StoServe** DllPaper dans le 
 
 Pour plus d’informations sur la configuration de votre système pour générer et tester les exemples de code de cette série de didacticiels COM, consultez [Comment générer des exemples](how-to-build-samples.md). Le Makefile fourni (MAKEFILE) est compatible avec Microsoft NMAKE. Pour créer une version Debug, émettez la commande NMAKE dans la fenêtre d’invite de commandes.
 
-Pour une utilisation pratique dans Microsoft Visual Studio, un fichier projet est fourni pour chaque exemple. Pour charger le projet pour l’exemple **StoServe** , vous pouvez exécuter Visual Studio à partir de l’invite de commandes dans le répertoire Samples comme suit :
+pour une utilisation pratique dans Microsoft Visual Studio, un fichier projet est fourni pour chaque exemple. pour charger le projet pour l’exemple **StoServe** , vous pouvez exécuter Visual Studio à l’invite de commandes dans le répertoire samples comme suit :
 
 MSDEV STOSERVE. DSP
 
-Vous pouvez également double-cliquer sur le fichier stoserve. DSP dans l’Explorateur Windows pour charger un exemple de projet dans Visual Studio. Dans Visual Studio, vous pouvez parcourir les classes C++ de l’exemple de source et effectuer généralement les autres opérations de modification-compilation-débogage.
+vous pouvez également double-cliquer sur le fichier Stoserve. dsp dans Windows Explorer pour charger un exemple de projet dans Visual Studio. dans Visual Studio vous pouvez parcourir les classes C++ de l’exemple de source et effectuer généralement les autres opérations de modification-compilation-débogage.
 
 > [!Note]  
-> Dans le cadre du kit de développement logiciel (SDK) de la plateforme, la compilation de ces exemples à partir de Visual Studio requiert le paramètre approprié des chemins d’accès aux répertoires dans Visual Studio. Pour plus d’informations, consultez [Comment générer des exemples](how-to-build-samples.md).
+> dans le cadre du kit de développement logiciel (SDK) de la plateforme, la compilation de ces exemples à partir de Visual Studio requiert le paramètre approprié des chemins d’accès aux répertoires dans Visual Studio. Pour plus d’informations, consultez [Comment générer des exemples](how-to-build-samples.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 

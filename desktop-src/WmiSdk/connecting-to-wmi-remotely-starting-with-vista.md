@@ -1,5 +1,5 @@
 ---
-description: La connexion à un espace de noms WMI sur un ordinateur distant peut nécessiter la modification des paramètres du pare-feu Windows, du contrôle de compte d’utilisateur (UAC, User Account Control), de DCOM ou de Common Information Model Object Manager (CIMOM).
+description: la connexion à un espace de noms WMI sur un ordinateur distant peut nécessiter la modification des paramètres pour Windows pare-feu, le contrôle de compte d’utilisateur (UAC), DCOM ou le gestionnaire d’objets de Common Information Model (cimom).
 ms.assetid: 028b3101-0945-4288-bf32-ef4ad12a55f9
 ms.tgt_platform: multiple
 title: Configuration d’une connexion WMI à distance
@@ -10,28 +10,28 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6ee254e12ecd806cd286d4a55746e203a3136b6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b88aa453646e60bf17e31f1197d76506bb4f75453eb800dc0fa272946a3bf8df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925701"
 ---
 # <a name="setting-up-a-remote-wmi-connection"></a>Configuration d’une connexion WMI à distance
 
-La connexion à un espace de noms WMI sur un ordinateur distant peut nécessiter la modification des paramètres du [pare-feu Windows](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11)), du [contrôle de compte d’utilisateur (UAC, User Account Control)](/previous-versions/aa905108(v=msdn.10)), de DCOM ou de Common Information Model Object Manager (CIMOM).
+la connexion à un espace de noms WMI sur un ordinateur distant peut nécessiter la modification des paramètres pour [Windows pare-feu](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11)), [le contrôle de compte d’utilisateur (UAC)](/previous-versions/aa905108(v=msdn.10)), DCOM ou le gestionnaire d’objets de Common Information Model (cimom).
 
 Les sections suivantes sont présentées dans cette rubrique :
 
--   [Paramètres du pare-feu Windows](#windows-firewall-settings)
+-   [Windows Paramètres de pare-feu](#windows-firewall-settings)
 -   [Paramètres du contrôle de compte d’utilisateur](#user-account-control-settings)
 -   [Paramètres DCOM](#dcom-settings)
--   [Paramètres CIMOM](#cimom-settings)
+-   [Paramètres cimom](#cimom-settings)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="windows-firewall-settings"></a>Paramètres de pare-feu Windows
 
-Les paramètres WMI pour les paramètres du pare-feu Windows activent uniquement les connexions WMI, plutôt que d’autres applications DCOM.
+les paramètres wmi pour Windows paramètres du pare-feu activent uniquement les connexions WMI, plutôt que d’autres applications DCOM.
 
 Une exception doit être définie dans le pare-feu pour WMI sur l’ordinateur cible distant. L’exception pour WMI permet à WMI de recevoir des connexions à distance et des rappels asynchrones pour Unsecapp.exe. Pour plus d’informations, consultez [définition de la sécurité sur un appel asynchrone](setting-security-on-an-asynchronous-call.md).
 
@@ -39,13 +39,13 @@ Si une application cliente crée son propre récepteur, ce récepteur doit être
 
 L’exception pour WMI fonctionne également si WMI a été démarré avec un port fixe, à l’aide de la commande **winmgmt/standalonehost** . Pour plus d’informations, consultez [configuration d’un port fixe pour WMI](setting-up-a-fixed-port-for-wmi.md).
 
-Vous pouvez activer ou désactiver le trafic WMI par le biais de l’interface utilisateur du pare-feu Windows.
+vous pouvez activer ou désactiver le trafic WMI par le biais de l’interface utilisateur du pare-feu Windows.
 
 **Pour activer ou désactiver le trafic WMI à l’aide de l’interface utilisateur du pare-feu**
 
-1.  Dans le **panneau de configuration**, cliquez sur **sécurité** , puis sur **pare-feu Windows**.
-2.  Cliquez sur **modifier les paramètres** , puis sur l’onglet **exceptions** .
-3.  Dans la fenêtre exceptions, activez la case à cocher **Windows Management Instrumentation (WMI)** pour activer le trafic WMI via le pare-feu. Pour désactiver le trafic WMI, désactivez la case à cocher.
+1.  dans le **panneau de configuration**, cliquez sur **sécurité** , puis sur **Windows pare-feu**.
+2.  cliquez sur **modifier les Paramètres** , puis sur l’onglet **Exceptions** .
+3.  dans la fenêtre Exceptions, activez la case à cocher **Windows Management Instrumentation (wmi)** pour activer le trafic wmi via le pare-feu. Pour désactiver le trafic WMI, désactivez la case à cocher.
 
 Vous pouvez activer ou désactiver le trafic WMI via le pare-feu à partir de l’invite de commandes.
 
@@ -109,7 +109,7 @@ Lorsque vous n’êtes pas connecté au compte administrateur intégré, le cont
 
 Pour plus d’informations sur les paramètres DCOM, consultez [sécurisation d’une connexion WMI à distance](securing-a-remote-wmi-connection.md). Toutefois, le contrôle de compte d’utilisateur affecte les connexions pour les comptes d’utilisateurs de domaine. Si vous vous connectez à un ordinateur distant à l’aide d’un compte d’utilisateur qui n’est pas un compte de domaine inclus dans le groupe Administrateurs local de l’ordinateur distant, vous devez accorder explicitement les droits d’accès et d’activation DCOM à distance au compte.
 
-## <a name="cimom-settings"></a>Paramètres CIMOM
+## <a name="cimom-settings"></a>Paramètres cimom
 
 Les paramètres CIMOM doivent être mis à jour si la connexion à distance se fait entre des ordinateurs qui n’ont pas de relation d’approbation ; dans le cas contraire, une connexion asynchrone échoue. Ce paramètre ne doit pas être modifié pour les ordinateurs situés dans le même domaine ou dans des domaines approuvés.
 

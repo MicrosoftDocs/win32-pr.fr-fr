@@ -4,12 +4,12 @@ ms.assetid: 047439EA-789B-41CF-87C2-66CFB3F20908
 title: Constantes SID du conteneur d’application (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 300b5ed110bbdc88d32efb76b20f5ec0f8454970
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53659e72a816661f0a9a85cb2efe74e49a5b1eb27d6974302fe60b90d242f94b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784742"
 ---
 # <a name="app-container-sid-constants"></a>Constantes SID du conteneur d’application
 
@@ -24,8 +24,8 @@ Les constantes SID spécifiques au conteneur d’application déterminent l’au
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Winnt. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Un dictionnaire de noms d’affichage de propriété permet aux uti
 ms.assetid: b6813a86-39d3-4754-86e4-51035a7c91d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd844b4d37d4f10434fc5b73f936b4b6565c1506
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90e416b41844348b80ce6db561a5c63a7717b1e6a98da1f6edead0d48f66e780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960738"
 ---
 # <a name="property-set-display-name-dictionary"></a>Dictionnaire des noms d’affichage des jeux de propriétés
 
@@ -105,6 +105,6 @@ Tenez compte des problèmes suivants concernant les dictionnaires de jeux de pro
 -   Les noms de propriété qui commencent par les caractères Unicode binaires 0x0001 à 0x001F sont réservés pour une utilisation ultérieure.
 -   Le nom de propriété associé à l’ID de propriété 0 représente le nom du jeu de propriétés entier.
 
- 
+ 
 
- 
+ 

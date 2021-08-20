@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e8685b44d00d3f48e8de2a567218ef08c1cb5070
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: b30e312a5a8afab59a220d6ad87aa3cb09af979c64e38cc5e0093b6e0fb8f3fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118048755"
 ---
 # <a name="scriptable-shell-objects"></a>Objets Shell scriptable
 
@@ -38,7 +38,7 @@ La plupart des objets Shell sont disponibles dans la [version 4,71](versions.md)
 
 | Version 4,71                                            | Version 5,00                                          |
 |---------------------------------------------------------|-------------------------------------------------------|
-| [**Répertoire**](folder.md)                                | [**DIDiskQuotaUser**](didiskquotauser-object.md)     |
+| [**Dossier**](folder.md)                                | [**DIDiskQuotaUser**](didiskquotauser-object.md)     |
 | [**FolderItemVerb**](folderitemverb.md)                | [**DiskQuotaControl**](diskquotacontrol-object.md)   |
 | [**FolderItemVerbs**](folderitemverbs.md)              | [**Dossier2**](folder2-object.md)                     |
 | [**Shell**](shell.md)                                  | [**FolderItem**](folderitem.md)                      |
@@ -112,7 +112,7 @@ Le ProgID de chacun des objets Shell est indiqué dans le tableau suivant.
 |---------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | [**DIDiskQuotaUser**](didiskquotauser-object.md)       | Microsoft. DiskQuota. 1                                                                   |
 | [**DiskQuotaControl**](diskquotacontrol-object.md)     | Liaison tardive impossible                                                                        |
-| [**Répertoire**](folder.md)                                | Shell. Shell \_ application. Namespace ("...")                                               |
+| [**Dossier**](folder.md)                                | Shell. Shell \_ application. Namespace ("...")                                               |
 | [**Dossier2**](folder2-object.md)                       | Shell. Shell \_ application. Namespace ("...")                                               |
 | [**FolderItem**](folderitem.md)                        | Shell. Shell \_ application. Namespace ("..."). Self ou dossier. Items. Item ou Folder. ParseName |
 | [**FolderItems**](folderitems.md)                      | Dossier. Items                                                                            |
@@ -156,7 +156,7 @@ Le tableau suivant répertorie chaque objet Shell et son CLASSID respectif.
 |--------------------------------------------------------|--------------------------------------|
 | [**DIDiskQuotaUser**](didiskquotauser-object.md)       | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
 | [**DiskQuotaControl**](diskquotacontrol-object.md)     | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
-| [**Répertoire**](folder.md)                                | BBCBDE60-C3FF-11CE-8350-444553540000 |
+| [**Dossier**](folder.md)                                | BBCBDE60-C3FF-11CE-8350-444553540000 |
 | [**Dossier2**](folder2-object.md)                       | f0d2d8ef-3890-11d2-bf8b-00c04fb93661 |
 | [**FolderItem**](folderitem.md)                        | 744129E0-CBE5-11CE-8350-444553540000 |
 | [**FolderItems**](folderitems.md)                      | 744129E0-CBE5-11CE-8350-444553540000 |

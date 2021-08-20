@@ -1,19 +1,19 @@
 ---
-title: Fonctions de l’API de stockage structuré
+title: fonctions d’API Stockage structurées
 description: Certaines des fonctions d’API pour le stockage structuré sont des fonctions d’assistance qui exécutent une séquence d’appels à d’autres fonctions d’API et méthodes d’interface. Vous pouvez utiliser ces fonctions d’assistance comme raccourcis.
 ms.assetid: 99ac66bc-db73-4811-9a39-fc49bb90ada8
 keywords:
-- Stockage structuré Strctd STG, notions de base, fonctions d’API
+- Strctd Stockage structurés Stg, notions de base, fonctions API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df87e8c5910c6da23ca518d05541a69e7070f8bf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24cccaf49d4144251fc9dcfd8713953990203ac2e077e3d3e8318a1f73b3c114
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960056"
 ---
-# <a name="structured-storage-api-functions"></a>Fonctions de l’API de stockage structuré
+# <a name="structured-storage-api-functions"></a>fonctions d’API Stockage structurées
 
 Certaines des fonctions d’API pour le stockage structuré sont des fonctions d’assistance qui exécutent une séquence d’appels à d’autres fonctions d’API et méthodes d’interface. Vous pouvez utiliser ces fonctions d’assistance comme raccourcis.
 
@@ -23,11 +23,11 @@ Toutefois, un autre ensemble de fonctions d’API vous permet de convertir des o
 
 Enfin, il existe des fonctions d’API pour la conversion et l’émulation d’autres objets. Ces fonctions fournissent des services permettant à une application serveur de travailler avec des données provenant d’une autre application. Les données peuvent être converties au format natif de l’application serveur en lisant les données à partir de leur format d’origine, mais en les écrivant dans le format natif de l’application objet. Ou bien, les données peuvent rester dans leur format d’origine, tandis que l’application serveur lit et écrit les données dans leur format d’origine.
 
-Pour plus d’informations, consultez la section ci-dessous [modes d’accès structurés au stockage](structured-storage-access-modes.md).
+pour plus d’informations, consultez la section suivante [structured Stockage Access Modes](structured-storage-access-modes.md).
 
- 
+ 
 
- 
+ 
 
 
 

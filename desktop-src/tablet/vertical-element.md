@@ -4,12 +4,12 @@ ms.assetid: af6f485e-13df-41bb-b57a-10d8393b83e7
 title: Élément vertical
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42565e6f2828c4ef27d1b28830502303a03e6f13
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: 4f9f074d144a9910b16823d5c9a6e2793e59472bd0f2b60fcd72da1d6a0e4d92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117675565"
 ---
 # <a name="vertical-element"></a>Élément vertical
 

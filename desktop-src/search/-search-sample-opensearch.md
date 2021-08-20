@@ -1,29 +1,29 @@
 ---
-description: L’exemple de code OpenSearch montre comment créer un service de recherche fédéré à l’aide du protocole OpenSearch et un fichier de descripteur OpenSearch (. fichier osdx) (un connecteur de recherche).
+description: l’exemple de code OpenSearch montre comment créer un service de recherche fédéré à l’aide du protocole OpenSearch et d’un fichier de descripteur de OpenSearch (. fichier osdx) (un connecteur de recherche).
 ms.assetid: 792884e4-826b-4474-82e1-1680d4d8b602
 title: OpenSearch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8656efec434744d14714529d1e7b0d01a5349ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6279b66be3b259058cc1b13bae6d9185e035211c65e87c21e070db638e74573
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118051838"
 ---
 # <a name="opensearch"></a>OpenSearch
 
-L’exemple de code OpenSearch montre comment créer un service de recherche fédéré à l’aide du protocole [OpenSearch](https://github.com/dewitt/opensearch) et un fichier de descripteur OpenSearch (. fichier osdx) (un connecteur de recherche).
+l’exemple de code OpenSearch montre comment créer un service de recherche fédéré à l’aide du protocole [OpenSearch](https://github.com/dewitt/opensearch) et d’un fichier de descripteur de OpenSearch (. fichier osdx) (un connecteur de recherche).
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -44,7 +44,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 | Emplacement      | URL du chemin                                                                  |
 |---------------|---------------------------------------------------------------------------|
-| GitHub  | [OpenSearch, exemple](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/shellextensibility/OpenSearch)      |
+| GitHub  | [exemple de OpenSearch](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/shellextensibility/OpenSearch)      |
 
 
 
@@ -53,7 +53,7 @@ Cet exemple est disponible aux emplacements suivants.
  
 
 > [!Note]  
-> Pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
+> pour toutes les versions de Windows, y compris Windows 7, nous vous recommandons de télécharger les exemples directement à partir de GitHub pour obtenir la version la plus récente.
 
  
 
@@ -64,22 +64,22 @@ Pour générer l’exemple à partir de l’invite de commandes :
 1.  Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **AdventureSearch** . 
 2.  Entrez `msbuild AdventureSearch.sln`.
 
-Pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
+pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet **AdventureSearch** .
+1.  ouvrez Windows Explorer et accédez au répertoire du projet **AdventureSearch** .
 2.  Double-cliquez sur l’icône du fichier AdventureSearch. sln pour ouvrir le projet dans Visual Studio.
     > [!Note]  
-    > L’extension de nom de fichier. sln n’est pas affichée sous paramètres de dossier par défaut. Dans ce cas, il peut être identifié par son icône unique ou par sa description de type, « Microsoft Visual Studio solution ».
+    > L’extension de nom de fichier. sln n’est pas affichée sous paramètres de dossier par défaut. dans ce cas, il peut être identifié par son icône unique ou par sa description de type, « Microsoft Visual Studio Solution ».
 
      
 
-3.  Dans le menu **générer** , sélectionnez **générer la solution**.
+3.  Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1.  Accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de l’Explorateur Windows.
-2.  À l’invite de commandes, entrez `AdventureSearch.exe` , ou à partir de l’Explorateur Windows, double-cliquez sur l’icône de AdventureSearch.exe.
-3.  À l’invite de commandes, entrez `GetOSDX.exe` , ou à partir de l’Explorateur Windows, double-cliquez sur l’icône de GetOSDX.exe.
+1.  accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de la fenêtre d’invite de commandes ou de Windows Explorer.
+2.  à l’invite de commandes, entrez `AdventureSearch.exe` ou dans Windows Explorer, double-cliquez sur l’icône de AdventureSearch.exe.
+3.  à l’invite de commandes, entrez `GetOSDX.exe` ou dans Windows Explorer, double-cliquez sur l’icône de GetOSDX.exe.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

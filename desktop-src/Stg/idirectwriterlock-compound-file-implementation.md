@@ -6,12 +6,12 @@ keywords:
 - IDirectWriterLock Strctd STG, implémentation de fichier composé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 861935a4c373ce03408c0e633e581e56d39623da
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 540806fd9c3907b53a50807a2ee60f5fdc0be9a3ad5ea753b52325533c5e9b24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961879"
 ---
 # <a name="idirectwriterlock---compound-file-implementation"></a>IDirectWriterLock-implémentation de fichier composé
 
@@ -31,7 +31,7 @@ Appelez [**IDirectWriterLock :: WaitForWriteAccess**](/windows/desktop/api/Obji
 
 [**IDirectWriterLock :: HaveWriteAccess**](/windows/desktop/api/Objidl/nf-objidl-idirectwriterlock-havewriteaccess) indique si le fichier est actuellement verrouillé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’implémentation de fichier composé de la fonctionnalité à un seul Writer et à plusieurs lecteurs est basée sur le verrouillage de plage. L’enregistreur obtient un accès exclusif au stockage à écrire une fois que tous les lecteurs actuels ont fermé le stockage. Lorsque le writer est actif, les lecteurs suivants ne peuvent pas ouvrir le stockage. Le writer appelle [**IDirectWriterLock :: WaitForWriteAccess**](/windows/desktop/api/Objidl/nf-objidl-idirectwriterlock-waitforwriteaccess) pour obtenir un accès en écriture exclusif. Le writer doit ensuite appeler [**IDirectWriterLock :: ReleaseWriteAccess**](/windows/desktop/api/Objidl/nf-objidl-idirectwriterlock-releasewriteaccess) pour libérer le stockage.
 
@@ -52,9 +52,9 @@ Si un writer unique obtient l’accès exclusif en appelant, [**IDirectWriterLoc
 [**IDirectWriterLock**](/windows/desktop/api/Objidl/nn-objidl-idirectwriterlock)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

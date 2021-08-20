@@ -10,30 +10,30 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e6ec49f808f6c6dea74d3c8c2ac4408bc5d1a26e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ef488a715532372592606f31dcfe1925a93dc29de78a54c869db83c21433c08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049862"
 ---
 # <a name="shell-glossary"></a>Glossaire de l’interpréteur de commandes
 
-## <a name="a"></a>Un
+## <a name="a"></a>A
 
 <dl> <dt>
 
 **Association**
 </dt> <dd>
 
-Mappage d’une extension de nom de fichier (par exemple,. mp3) ou d’un protocole (par exemple, http) à un identificateur programmatique (ProgID). Ce mappage est stocké dans le Registre sous la forme d’un paramètre par utilisateur avec une solution de secours pour chaque ordinateur. Les applications qui participent au système de programmes par défaut définissent le mappage d’association pour l’extension de nom de fichier ou le protocole de manière à pointer vers les clés ProgID dont ils sont propriétaires.
+Mappage d’une extension de nom de fichier (par exemple, .mp3) ou protocole (par exemple, http) à un identificateur programmatique (ProgID). Ce mappage est stocké dans le Registre sous la forme d’un paramètre par utilisateur avec une solution de secours pour chaque ordinateur. Les applications qui participent au système de programmes par défaut définissent le mappage d’association pour l’extension de nom de fichier ou le protocole de manière à pointer vers les clés ProgID dont ils sont propriétaires.
 
 </dd> <dt>
 
 **Tableau d’association**
 </dt> <dd>
 
-Liste ordonnée d’emplacements du Registre utilisée pour stocker des informations sur un type d’élément, y compris les gestionnaires, les verbes et d’autres attributs, tels que l’icône et le nom d’affichage du type. Par exemple, un fichier. jpg possède le tableau d’association suivant sur un système Windows par défaut : « HKCR \\ jpgfile », « HKCR \\ SystemFileAssociations \\ . jpg », « HKCR \\ SystemFileAssociations \\ image », « HKCR \\ \* », « HKCR \\ AllFileSystemObjects ».
+Liste ordonnée d’emplacements du Registre utilisée pour stocker des informations sur un type d’élément, y compris les gestionnaires, les verbes et d’autres attributs, tels que l’icône et le nom d’affichage du type. par exemple, un fichier de .jpg a le tableau d’association suivant sur un système de Windows par défaut : « hkcr \\ jpgfile », « hkcr \\ SystemFileAssociations \\.jpg », « hkcr \\ SystemFileAssociations \\ image », « hkcr \\ \* », « hkcr \\ AllFileSystemObjects ».
 
 </dd> </dl>
 
@@ -69,7 +69,7 @@ Nom indépendant du langage qui peut être utilisé par programme pour faire ré
 **container**
 </dt> <dd>
 
-Type d’élément de Shell qui peut contenir d’autres éléments. Les éléments d’un conteneur sont exposés à l’espace de noms Shell à l’aide d’une source de données Shell. Les exemples incluent les dossiers, les lecteurs, les serveurs réseau et les fichiers compressés avec une extension de nom de fichier. zip. Voir aussi : source de données Shell, dossier, élément Shell.
+Type d’élément de Shell qui peut contenir d’autres éléments. Les éléments d’un conteneur sont exposés à l’espace de noms Shell à l’aide d’une source de données Shell. Les exemples incluent les dossiers, les lecteurs, les serveurs réseau et les fichiers compressés avec une extension de nom de fichier .zip. Voir aussi : source de données Shell, dossier, élément Shell.
 
 </dd> <dt>
 
@@ -83,14 +83,14 @@ Texte et propriétés associés à un élément de Shell ou à une source de con
 **source du contenu**
 </dt> <dd>
 
-Élément auquel l’indexeur peut accéder. Les sources de contenu sont adressables par une URL et sont fournies à l’indexeur par un gestionnaire de protocole. Voici quelques exemples : fichiers et dossiers du système de fichiers, éléments et dossiers Microsoft Outlook, enregistrements de base de données et éléments stockés dans Microsoft SharePoint. Une source de contenu peut être exposée en tant qu’élément de Shell en implémentant une source de données Shell. Voir aussi : contenu, élément de Shell.
+Élément auquel l’indexeur peut accéder. Les sources de contenu sont adressables par une URL et sont fournies à l’indexeur par un gestionnaire de protocole. voici quelques exemples : fichiers et dossiers du système de fichiers, éléments et dossiers de microsoft Outlook, enregistrements de base de données et éléments stockés dans microsoft SharePoint. Une source de contenu peut être exposée en tant qu’élément de Shell en implémentant une source de données Shell. Voir aussi : contenu, élément de Shell.
 
 </dd> <dt>
 
 **content view (affichage du contenu)**
 </dt> <dd>
 
-Vue dans l’Explorateur Windows (proposée dans Windows 7 et versions ultérieures) qui affiche le contenu le plus pertinent pour chaque élément de la liste en fonction de son extension de nom de fichier ou de son association de type. L’affichage du contenu utilise une logique de redimensionnement qui supprime des propriétés lorsque la taille de la fenêtre diminue pour s’assurer que les propriétés les plus critiques disposent toujours de suffisamment de place pour être clairement lisibles. Voir aussi : modèle de disposition, genre, Association de genres.
+vue dans Windows Explorer (proposée dans Windows 7 et versions ultérieures) qui affiche le contenu le plus pertinent pour chaque élément de la liste en fonction de son extension de nom de fichier ou de son association de type. L’affichage du contenu utilise une logique de redimensionnement qui supprime des propriétés lorsque la taille de la fenêtre diminue pour s’assurer que les propriétés les plus critiques disposent toujours de suffisamment de place pour être clairement lisibles. Voir aussi : modèle de disposition, genre, Association de genres.
 
 </dd> <dt>
 
@@ -136,14 +136,14 @@ Ce terme est parfois utilisé pour signifier le magasin de données ou la source
 **magasin de données**
 </dt> <dd>
 
-Référentiel de données. Un magasin de données peut être exposé au modèle de programmation de l’interpréteur de commandes en tant que conteneur à l’aide d’une source de données Shell. Les éléments d’un magasin de données peuvent être indexés par le système de recherche Windows à l’aide d’un gestionnaire de protocole.
+Référentiel de données. Un magasin de données peut être exposé au modèle de programmation de l’interpréteur de commandes en tant que conteneur à l’aide d’une source de données Shell. les éléments d’un magasin de données peuvent être indexés par le système de recherche Windows à l’aide d’un gestionnaire de protocole.
 
 </dd> <dt>
 
 **composition du Bureau**
 </dt> <dd>
 
-Fonctionnalité Windows Vista qui permet aux fenêtres individuelles d’être dessinées sur des surfaces hors écran dans la mémoire vidéo au lieu d’être directement dessinées sur le périphérique d’affichage principal.
+fonctionnalité Windows Vista qui permet aux fenêtres individuelles d’être dessinées sur des surfaces hors écran dans la mémoire vidéo au lieu d’être directement dessinées sur le périphérique d’affichage principal.
 
 </dd> <dt>
 
@@ -182,7 +182,7 @@ Verbe qui dépend de l’état d’un élément de Shell ou du système ; l’a
 **Commande Explorer**
 </dt> <dd>
 
-Objet qui peut être présenté sous la forme d’un bouton près du haut de la fenêtre de l’Explorateur Windows qui fournit des fonctionnalités pour les éléments et les conteneurs de cette fenêtre. Une source de données Shell fournit les objets de commande de l’Explorateur Windows pour un élément de conteneur particulier. Les commandes sont parfois utilisées comme verbes.
+objet qui peut être présenté sous la forme d’un bouton près du haut de la fenêtre de l’explorateur de Windows qui fournit des fonctionnalités pour les éléments et les conteneurs de cette fenêtre. une source de données Shell fournit les objets de commande Windows Explorer pour un élément de conteneur particulier. Les commandes sont parfois utilisées comme verbes.
 
 </dd> </dl>
 
@@ -221,7 +221,7 @@ Indicateur principal d’un type de fichier pour les éléments du système de f
 **type de fichier**
 </dt> <dd>
 
-Une valeur d’extension de nom de fichier particulière, telle que « . htm » ou « . jpg », définit une classe de fichiers qui sont du même type et qui ont un ensemble commun d’associations. Voir aussi : genre, Association de type de fichier.
+Une valeur d’extension de nom de fichier particulière, telle que « .htm » ou « .jpg », définit une classe de fichiers qui sont du même type et qui ont un ensemble commun d’associations. Voir aussi : genre, Association de type de fichier.
 
 </dd> <dt>
 
@@ -264,7 +264,7 @@ PIDL qui décrit de façon unique un objet par rapport au dossier Desktop.
 
 <dl> <dt>
 
-**d**
+**gestionnaire**
 </dt> <dd>
 
 Objet COM qui fournit les fonctionnalités d’un élément de Shell. La plupart des sources de données Shell offrent un système extensible pour lier les gestionnaires aux éléments. Par exemple, le dossier de système de fichiers utilise le système d’association pour rechercher les gestionnaires pour un type de fichier particulier. Voir aussi : Association de fichier, type de fichier, personnalisation de type de fichier.
@@ -317,7 +317,7 @@ Séquence d’une ou plusieurs structures SHITEMID qui définissent de façon un
 **Type**
 </dt> <dd>
 
-Propriété qui fournit un nom de genre convivial et qui peut être associée à une liste de propriétés et un modèle de disposition. Le genre a été introduit dans Windows Vista pour exprimer une notion plus conviviale de type de fichier par l’utilisateur final et il a été défini comme étant une propriété de chaîne à valeurs multiples (valeurs de chaîne canoniques). vous pouvez donc avoir une valeur de type « audio, vidéo » ou « lien ; document ». Certains noms de genres conviviaux sont déjà associés à des propriétés et des modèles de disposition. Par exemple, les éléments associés au type. Picture et aux éléments associés à Kind.Document affichent des propriétés différentes, même s’ils se trouvent dans la même vue. Chaque genre d’élément peut être associé à l’un des quatre modèles de disposition uniques qui définissent le nombre de propriétés affichées pour chaque élément et leur disposition. Voir aussi : Association de genres, vue de contenu, modèle de disposition.
+Propriété qui fournit un nom de genre convivial et qui peut être associée à une liste de propriétés et un modèle de disposition. le genre a été introduit dans Windows Vista pour exprimer une notion plus conviviale de type de fichier par l’utilisateur final et il a été défini comme étant une propriété de chaîne à valeurs multiples (valeurs de chaîne canoniques). vous pouvez donc avoir une valeur de type « audio, vidéo » ou « liaison ; document ». Certains noms de genres conviviaux sont déjà associés à des propriétés et des modèles de disposition. Par exemple, les éléments associés au type. Picture et aux éléments associés à Kind.Document affichent des propriétés différentes, même s’ils se trouvent dans la même vue. Chaque genre d’élément peut être associé à l’un des quatre modèles de disposition uniques qui définissent le nombre de propriétés affichées pour chaque élément et leur disposition. Voir aussi : Association de genres, vue de contenu, modèle de disposition.
 
 </dd> </dl>
 
@@ -328,7 +328,7 @@ Propriété qui fournit un nom de genre convivial et qui peut être associée à
 **modèle de disposition**
 </dt> <dd>
 
-L’un des nombreux mécanismes d’affichage des propriétés. Dans Windows 7 et versions ultérieures, lorsque vous inscrivez un nouveau type de fichier, vous pouvez utiliser l’affichage de contenu pour inscrire une liste de propriétés personnalisées et un modèle de disposition pour votre type de fichier. Vous pouvez choisir parmi quatre modèles de disposition différents : alpha (pour les résultats de recherche de documents qui contiennent des extraits de code), la version bêta (pour les résultats de recherche par courrier électronique avec extraits de code), gamma (semblable à alpha mais avec une disposition sur deux lignes au lieu de quatre) et Delta Voir aussi : vue de contenu, genre, Association de genres.
+L’un des nombreux mécanismes d’affichage des propriétés. dans Windows 7 et versions ultérieures, lorsque vous inscrivez un nouveau type de fichier, vous pouvez utiliser l’affichage de contenu pour inscrire une liste de propriétés personnalisées et un modèle de disposition pour votre type de fichier. Vous pouvez choisir parmi quatre modèles de disposition différents : alpha (pour les résultats de recherche de documents qui contiennent des extraits de code), la version bêta (pour les résultats de recherche par courrier électronique avec extraits de code), gamma (semblable à alpha mais avec une disposition sur deux lignes au lieu de quatre) et Delta Voir aussi : vue de contenu, genre, Association de genres.
 
 </dd> </dl>
 
@@ -379,21 +379,21 @@ Consultez la définition de : liaison objet et incorporation d’une base de do
 **PerceivedType**
 </dt> <dd>
 
-Catégorie étendue de types de format de fichier. PerceivedType a été introduit dans Windows XP et prend en charge un ensemble limité de types de fichiers connus (par exemple, les types de fichier image, texte, audio et fichiers compressés). Les types de fichiers, généralement les types de fichiers publics, peuvent également avoir un type perçu. Par exemple, les types de fichiers image. bmp,. png,. jpg et. gif sont également du type perçu, image. Au niveau de la couche de programmation, PerceivedType est exprimé sous la forme d’un entier. Étant donné que du code utilise Kind et PerceivedType, les propriétaires de format de fichier doivent inscrire les deux. Par exemple, « lire tout » dépend de PerceivedType. Voir aussi : type de fichier.
+Catégorie étendue de types de format de fichier. PerceivedType a été introduit dans Windows XP et prend en charge un ensemble limité de types de fichiers connus (par exemple, les types de fichier Image, texte, Audio et fichiers compressés). Les types de fichiers, généralement les types de fichiers publics, peuvent également avoir un type perçu. Par exemple, les types de fichiers image .bmp, .png, .jpg et .gif sont également du type perçu, image. Au niveau de la couche de programmation, PerceivedType est exprimé sous la forme d’un entier. Étant donné que du code utilise Kind et PerceivedType, les propriétaires de format de fichier doivent inscrire les deux. Par exemple, « lire tout » dépend de PerceivedType. Voir aussi : type de fichier.
 
 </dd> <dt>
 
 **gestionnaire d’aperçus**
 </dt> <dd>
 
-Gestionnaire qui produit rapidement une vue simplifiée en lecture seule de l’élément de Shell à afficher dans le volet de visualisation de l’Explorateur Windows.
+gestionnaire qui produit rapidement une vue simplifiée en lecture seule de l’élément de Shell à afficher dans le volet de visualisation de l’explorateur de Windows.
 
 </dd> <dt>
 
 **Gestionnaire de propriétés**
 </dt> <dd>
 
-Gestionnaire qui traduit les données stockées dans un fichier dans un schéma structuré qui est reconnu par et qui est accessible par l’Explorateur Windows, la recherche Windows et d’autres applications. Ces systèmes peuvent ensuite interagir avec le gestionnaire de propriétés pour écrire et lire les propriétés vers et à partir du fichier. Les données traduites comprennent la vue détails, info-bulles, le volet Détails, les pages de propriétés, etc. Chaque gestionnaire de propriétés est associé à un type de fichier particulier, identifié par l’extension de nom de fichier. Voir aussi : système de propriétés.
+gestionnaire qui traduit les données stockées dans un fichier dans un schéma structuré qui est reconnu par et qui est accessible par Windows Explorer, Windows Search et d’autres applications. Ces systèmes peuvent ensuite interagir avec le gestionnaire de propriétés pour écrire et lire les propriétés vers et à partir du fichier. Les données traduites comprennent la vue détails, info-bulles, le volet Détails, les pages de propriétés, etc. Chaque gestionnaire de propriétés est associé à un type de fichier particulier, identifié par l’extension de nom de fichier. Voir aussi : système de propriétés.
 
 </dd> <dt>
 
@@ -421,7 +421,7 @@ Valeur associée à un nom de propriété pour un élément de Shell. Par exempl
 **Gestionnaire de protocole**
 </dt> <dd>
 
-Gestionnaire qui accède aux sources de contenu et fournit un objet IUrlAccessor pour un protocole et une URL spécifiés. Les gestionnaires de protocole étendent la fonctionnalité de recherche Windows et peuvent fournir des notifications de modifications aux indexeurs. Différents gestionnaires de protocole sont requis pour indexer des types spécifiques de magasins de données. Pour fournir une expérience utilisateur raisonnable, vous devez également fournir une source de données Shell pour le magasin de données en plus de l’implémentation de votre gestionnaire de protocole. Le gestionnaire de protocole expose les éléments de la Banque de données à l’indexeur, tandis que la source de données Shell expose les éléments de la Banque de données au shell.
+Gestionnaire qui accède aux sources de contenu et fournit un objet IUrlAccessor pour un protocole et une URL spécifiés. les gestionnaires de protocole étendent Windows fonctionnalité de recherche et peuvent fournir des notifications de modifications aux indexeurs. Différents gestionnaires de protocole sont requis pour indexer des types spécifiques de magasins de données. Pour fournir une expérience utilisateur raisonnable, vous devez également fournir une source de données Shell pour le magasin de données en plus de l’implémentation de votre gestionnaire de protocole. Le gestionnaire de protocole expose les éléments de la Banque de données à l’indexeur, tandis que la source de données Shell expose les éléments de la Banque de données au shell.
 
 </dd> </dl>
 
@@ -471,7 +471,7 @@ Ce terme est parfois utilisé pour signifier un gestionnaire de type de fichier.
 **Élément de Shell**
 </dt> <dd>
 
-Une seule partie du contenu. Certains éléments de l’interpréteur de commandes sont des sources de contenu, et d’autres non. Un dossier est une source de contenu, par exemple, mais il ne s’agit pas d’un fichier. jpg. Les gestionnaires de types de fichiers exposent les éléments de Shell. Dans certains contextes, l’élément est utilisé pour distinguer les conteneurs des non-conteneurs. Voir aussi : conteneur, source de contenu, gestionnaire de type de fichier.
+Une seule partie du contenu. Certains éléments de l’interpréteur de commandes sont des sources de contenu, et d’autres non. Un dossier est une source de contenu, par exemple, mais un fichier .jpg ne l’est pas. Les gestionnaires de types de fichiers exposent les éléments de Shell. Dans certains contextes, l’élément est utilisé pour distinguer les conteneurs des non-conteneurs. Voir aussi : conteneur, source de contenu, gestionnaire de type de fichier.
 
 </dd> <dt>
 

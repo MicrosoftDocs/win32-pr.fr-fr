@@ -4,12 +4,12 @@ description: Consultez les rubriques sur les exemples de propriétés d’utilis
 ms.assetid: 8e8ee656-11de-42fd-a960-f691330ee16e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3459e4f36ab28610f9eec42fcbb5e970aa415018
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 9263effe1888194c7d5e2029f96f9efb131e580893e3619810cfb62b393aaea6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117903590"
 ---
 # <a name="user-properties"></a>Propriétés de l’utilisateur
 
@@ -33,9 +33,9 @@ Pour obtenir des exemples de schéma supplémentaires, reportez-vous à [schéma
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

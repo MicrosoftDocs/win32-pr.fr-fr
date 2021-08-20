@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 30b41b490b97991b13c0dbc397499a23b4b746da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1339ae7ed872b3d52a82b91be8bef444f472549a712e702e6d43fd89c369cac2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117901305"
 ---
 # <a name="esentdistributedtransactionalreadypreparedtocommitexception-constructor"></a>Constructeur EsentDistributedTransactionAlreadyPreparedToCommitException
 

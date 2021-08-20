@@ -4,12 +4,12 @@ ms.assetid: 18a58b3b-771c-4829-b3d4-253383b4bee8
 title: Élément scopeItem (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c2033202be6d904880ec9c4efa1c60db4bb7e50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67bf8cc7ba9d296503a9703845d8a03287006ed178dca7f51228e89827a0c710
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118051501"
 ---
 # <a name="scopeitem-element-search-connector-schema"></a>Élément scopeItem (schéma du connecteur de recherche)
 
@@ -65,11 +65,11 @@ L' <scopeItem> élément représente une entrée unique dans la table d’étend
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez les <scope> <scopeItem> éléments et pour identifier les emplacements à rechercher et les emplacements qui doivent être exclus de la recherche.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’exemple suivant montre une étendue de recherche qui comprend C : \\ ExampleFolder et tous ses dossiers enfants, à l’exception de c : \\ ExampleFolder \\ ExcludeMe.
 

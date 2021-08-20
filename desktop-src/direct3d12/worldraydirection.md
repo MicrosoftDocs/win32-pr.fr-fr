@@ -12,12 +12,12 @@ api_name:
 - WorldRayDirection
 api_type:
 - NA
-ms.openlocfilehash: 9d38ab75d0f0708f70624284483a0222eadf9591
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 41159507f0ee8798abded87f3e9bac1706cecf97474e36af07c90aea0dec3d4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117911744"
 ---
 # <a name="worldraydirection"></a>WorldRayDirection
 
@@ -32,7 +32,7 @@ float3 WorldRayDirection();
 
 
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Cette fonction peut être appelée à partir des types de nuanceur Raytracing suivants :
 

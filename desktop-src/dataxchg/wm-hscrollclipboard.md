@@ -3,7 +3,7 @@ title: Message WM_HSCROLLCLIPBOARD (winuser. h)
 description: Envoyé au propriétaire du presse-papiers par une fenêtre de la visionneuse du presse-papiers.
 ms.assetid: 73558de6-a822-40f7-9eb2-47ea5afd4e6e
 keywords:
-- WM_HSCROLLCLIPBOARD l’échange de données de message
+- WM_HSCROLLCLIPBOARD des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a34ee33709601b483258ae0aec4873c47fa69a00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e1066760fe4fb6f2d0c7449fe8f726f41e0e3530610dd3fe7790c369d4821f88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914850"
 ---
 # <a name="wm_hscrollclipboard-message"></a>\_Message WM HSCROLLCLIPBOARD
 
@@ -71,11 +71,11 @@ Le mot de poids faible de *lParam* spécifie un événement de barre de défilem
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le propriétaire du presse-papiers peut utiliser la fonction [**ScrollWindow**](https://msdn.microsoft.com/library/Cc410994(v=MSDN.10).aspx) pour faire défiler l’image dans la fenêtre de la visionneuse du presse-papiers et invalider la région appropriée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

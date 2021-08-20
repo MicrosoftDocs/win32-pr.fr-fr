@@ -6,18 +6,18 @@ keywords:
 - Init, méthode-CPapFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea4fb5729ddcf20545254e3e461070c3e68f3421
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a5e1be255f822b17dbae82e3c5ea76eb75c0a127c3eebe23590d6331721aab4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961683"
 ---
 # <a name="init-method---cpapfile"></a>Init, méthode-CPapFile
 
 L’exemple de code suivant montre comment **CPapFile** est initialisé.
 
-Cet exemple est la méthode **CPapFile** **init** de Papfile. cpp.
+Cet exemple est la méthode **CPapFile** **init** de Papfile. cpp.
 
 
 ```C++
@@ -54,6 +54,6 @@ Le paramètre *pszAppFileName* est utilisé pour initialiser CPapFile avec un no
 
 Le paramètre *pIPaper* est requis par CPapFile, car il utilise cette interface sur l’objet du copapier pour effectuer ses opérations de chargement et d’enregistrement. **AddRef** est appelé sur cette copie stockée de *pIPaper*, conformément aux règles com. La **version** correspondante est appelée dans le destructeur CPapFile.
 
- 
+ 
 
- 
+ 

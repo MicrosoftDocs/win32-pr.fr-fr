@@ -4,16 +4,16 @@ ms.assetid: 70f23d93-2bca-419b-9de7-e52ce4fb1350
 title: Déchiffrement d’un message dans CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba984bad7d9289eaf89725e9598a4330f16b49ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 744878378fbe2791e66151e451029be8adde2435b451d540196a1082c4e005f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767757"
 ---
 # <a name="decrypting-a-message-in-capicom"></a>Déchiffrement d’un message dans CAPICOM
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 Cette sous-routine prend une chaîne de mot de passe à utiliser pour générer une clé de chiffrement de session, ainsi que le nom d’un fichier à partir duquel un message chiffré sera lu. Tous les paramètres sont passés dans la sous-routine par valeurs.
 

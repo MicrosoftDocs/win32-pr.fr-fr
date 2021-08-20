@@ -4,12 +4,12 @@ ms.assetid: 73ec52de-c74a-45b3-a453-7f32510b4484
 title: MFPKEY_ASFOVERHEADPERFRAME, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 208acf55871b18bb029279a27abd36a33ea8c79c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 481c99c50a305219d0548007755d6b6ba27239e39bef5cb47d61ff3d665dfa47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874078"
 ---
 # <a name="mfpkey_asfoverheadperframe-property"></a>MFPKEY \_ propriété ASFOVERHEADPERFRAME
 
@@ -27,7 +27,7 @@ VT \_
 
 17
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous utilisez la structure de fichiers ASF (Advanced Systems Format), ne modifiez pas cette valeur par défaut. Si vous ne stockez pas les données dans un fichier ASF, vous devez définir cette valeur sur 0.
 
@@ -37,8 +37,8 @@ Si vous utilisez la structure de fichiers ASF (Advanced Systems Format), ne modi
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

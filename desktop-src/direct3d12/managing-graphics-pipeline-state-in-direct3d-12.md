@@ -1,5 +1,5 @@
 ---
-title: Gestion de l’état des pipelines graphiques dans Direct3D 12
+title: Gestion de l’état des pipelines graphiques dans Direct3D 12
 description: Cette rubrique décrit comment l’état du pipeline graphique est défini dans Direct3D 12.
 ms.assetid: AAF97BD2-D532-469D-9242-CC94C06727C3
 keywords:
@@ -8,14 +8,14 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7564b5863d3efebdf8a335e2c46945aeebea93e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fbff2af55d3148d229b70fd724f3f26a7e39ea73f11280a7529202bad06f4127
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117912351"
 ---
-# <a name="managing-graphics-pipeline-state-in-direct3d-12"></a>Gestion de l’état des pipelines graphiques dans Direct3D 12
+# <a name="managing-graphics-pipeline-state-in-direct3d-12"></a>Gestion de l’état des pipelines graphiques dans Direct3D 12
 
 Cette rubrique décrit comment l’état du pipeline graphique est défini dans Direct3D 12.
 
@@ -69,4 +69,4 @@ Pour plus d’informations sur les liaisons, reportez-vous à la section **séma
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-* [Envoi de travail dans Direct3D 12](command-queues-and-command-lists.md)
+* [Envoi de travail dans Direct3D 12](command-queues-and-command-lists.md)

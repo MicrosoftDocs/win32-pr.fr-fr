@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69920496485e1b774bbef430466cd44529c57aa1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 677117d851bcf6128390be509286dad1ae2de419f1271081246b68c05ab42500
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837373"
 ---
 # <a name="ms-wmi-intmin-attribute"></a>attribut ms-WMI-intMin
 
@@ -36,7 +36,7 @@ Valeur minimale d’un objet de paramètre entier WMI 32 bits.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1630              |
 | System-ID-GUID    | 68c2e3ba-9837-4c70-98e0-f0c33695d023 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -44,7 +44,7 @@ Valeur minimale d’un objet de paramètre entier WMI 32 bits.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

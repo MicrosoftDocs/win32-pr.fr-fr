@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Gdi32.dll
-ms.openlocfilehash: 755ce2e0a659593b17487e86e28f5d454e48122c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5767be62d23e992223500bf7192fc89efe04f03288280c73445378e083cc1613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117699474"
 ---
 # <a name="enableeudc-function"></a>EnableEUDC fonction)
 
@@ -52,15 +52,15 @@ Si la fonction réussit, la valeur de retour est différente de zéro.
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si EUDC est désactivé, toute tentative d’affichage des caractères EUDC entraîne des glyphes manquants ou incorrects.
 
 Pendant la session multisession, cette fonction affecte uniquement la session active.
 
-Il est recommandé d’utiliser cette fonction avec Windows XP SP2 ou version ultérieure.
+il est recommandé d’utiliser cette fonction avec Windows XP SP2 ou version ultérieure.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

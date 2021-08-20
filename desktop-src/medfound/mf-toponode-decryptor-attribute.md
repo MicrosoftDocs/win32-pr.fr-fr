@@ -4,12 +4,12 @@ ms.assetid: 211789d8-5e51-485c-b8f1-cd0ae3e39250
 title: Attribut MF_TOPONODE_DECRYPTOR (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a8129e82fc2ebc01ee8cf21aabda77dc26970e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8e3bb58dd176e02f80d3e18e64c08c1e880e40c19179582e50cfac8927399da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875163"
 ---
 # <a name="mf_toponode_decryptor-attribute"></a>\_Attribut de \_ déchiffreur MF TOPONODE
 
@@ -21,7 +21,7 @@ Spécifie si l’objet sous-jacent d’un nœud topologie est un Decrypter.
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique à tous les types de nœuds.
 
@@ -31,14 +31,14 @@ En général, les applications n’utilisent pas cet attribut directement. La se
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

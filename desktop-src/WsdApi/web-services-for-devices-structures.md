@@ -4,12 +4,12 @@ ms.assetid: daaa7d18-7af9-4f03-bbbd-378f4af79eec
 title: Services Web sur les structures d’appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97c9b83403c513fab780398d198756b51b567128
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b4f963676dfdc8e7d931bb2c61fd1d661b30f544caf51d0d76e5bf79fc42612
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920010"
 ---
 # <a name="web-services-on-devices-structures"></a>Services Web sur les structures d’appareils
 

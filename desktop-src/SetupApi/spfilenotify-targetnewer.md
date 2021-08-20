@@ -4,12 +4,12 @@ ms.assetid: 93bcd610-f75d-4900-841c-f67946af5c4a
 title: Message d’SPFILENOTIFY_TARGETNEWER (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c432515a5ce0e9a1eddb8ea6e92f7376c318b4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 947a0c2a1aff8c42ea95c489a7fcc87e40221ca0405b3048d43e3de718f5f3b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117964069"
 ---
 # <a name="spfilenotify_targetnewer-message"></a>\_Message SPFILENOTIFY TARGETNEWER
 
@@ -58,14 +58,14 @@ La routine de rappel doit retourner l’une des valeurs suivantes.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -74,7 +74,7 @@ La routine de rappel doit retourner l’une des valeurs suivantes.
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

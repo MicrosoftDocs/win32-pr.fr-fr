@@ -4,12 +4,12 @@ ms.assetid: 599f5962-da91-4688-b333-a784f06581ed
 title: Dépannage des applications WSDAPI à l’aide de la découverte dirigée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a34ebec44c58545c65a4ff04941c5f98c9bc047d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e58403ec7d77b2bd3d018f43e3f591820ee16334be5620b5d5c64b8f42e40815
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920419"
 ---
 # <a name="troubleshooting-wsdapi-applications-using-directed-discovery"></a>Dépannage des applications WSDAPI à l’aide de la découverte dirigée
 

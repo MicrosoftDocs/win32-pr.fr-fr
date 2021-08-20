@@ -4,12 +4,12 @@ description: . | Notifications du presse-papiers
 ms.assetid: 246dc19b-278e-4a65-81f4-0868a6cec541
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25a2638bbfc66220abd63af068c5e5edf0918150
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 77e3ef980e4665ee740f6c9afd167d6b6517c25f096c34bdede4879823f28075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106520284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915400"
 ---
 # <a name="clipboard-notifications"></a>Notifications du presse-papiers
 

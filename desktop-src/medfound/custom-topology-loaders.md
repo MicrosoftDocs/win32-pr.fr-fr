@@ -4,12 +4,12 @@ ms.assetid: 3982b07e-3179-45c1-9f17-f2114363f53d
 title: Chargeurs de topologie personnalisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a8f9e24b207d43620e7b2d09080d244b0a9e72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02ca9cf393b83693199cea984183bf88186f74322ed816352e3c43d19a6e880b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880384"
 ---
 # <a name="custom-topology-loaders"></a>Chargeurs de topologie personnalisés
 

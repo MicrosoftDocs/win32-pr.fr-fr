@@ -1,19 +1,19 @@
 ---
 title: Utilisation du moniteur système
-description: Le moniteur système (SYSMON) peut être inclus dans n’importe quelle application qui prend en charge ActiveX \ 174 ; commandes. Par exemple, vous pouvez inclure SYSMON dans une application Microsoft Visual Basic ou dans un document HTML.
+description: le moniteur système (SYSMON) peut être inclus dans toutes les applications qui prennent en charge ActiveX \ 174 ; commandes. par exemple, vous pouvez inclure SYSMON dans une application Microsoft Visual Basic ou dans un document HTML.
 ms.assetid: 36931aae-b608-42d9-a3e3-09784e80f386
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abd636c8b984f7c891c2222b4674dd8d0d7e747d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8fcd29993e49b3db1693792949bd20f7a37ef8ba9d85d3bbe36ea67ac013919
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117954467"
 ---
 # <a name="using-system-monitor"></a>Utilisation du moniteur système
 
-Le moniteur système (SYSMON) peut être inclus dans n’importe quelle application qui prend en charge les contrôles de® ActiveX. Par exemple, vous pouvez inclure SYSMON dans une application Microsoft Visual Basic ou dans un document HTML.
+le moniteur système (SYSMON) peut être inclus dans n’importe quelle application qui prend en charge les contrôles ActiveX®. par exemple, vous pouvez inclure SYSMON dans une application Microsoft Visual Basic ou dans un document HTML.
 
 L’exemple suivant montre comment inclure SYSMON dans un document HTML. L’exemple utilise VBScript pour ajouter des compteurs dont les valeurs sont extraites de l’ordinateur local, modifie certaines des propriétés SYSMON qui contrôlent le mode d’affichage de l’analyse et traite l’événement OnCounterAdd. L’exemple utilise le caractère générique ( \* ) pour ajouter toutes les instances du compteur de processus.
 
@@ -48,9 +48,9 @@ L’exemple suivant montre comment inclure SYSMON dans un document HTML. L’exe
 </HTML>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

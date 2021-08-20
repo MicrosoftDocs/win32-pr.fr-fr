@@ -9,12 +9,12 @@ keywords:
 - attributs, liste
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 793c0a860f6f9e40257bb6aec610dc7680b34538
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 43ad976956a57ff1a1ac65cc969fe55e79110557296f9ab0dcb46c69cc811af7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117656200"
 ---
 # <a name="attribute-list"></a>Liste d’attributs
 
@@ -23,7 +23,7 @@ Les attributs prédéfinis inclus dans ce kit de développement logiciel (SDK) s
 > [!Note]  
 > Consultez la liste des attributs [DRM](drm-attribute-list.md) pour obtenir une table de tous les attributs DRM.
 
- 
+ 
 
 Lorsque vous programmez avec ces attributs, vous devez utiliser l’identificateur global au lieu d’utiliser le nom comme littéral de chaîne. À l’aide de l’identificateur global, les erreurs typographiques génèrent une erreur au moment de la compilation.
 
@@ -66,7 +66,7 @@ Lorsque vous programmez avec ces attributs, vous devez utiliser l’identificate
 | [**\_LICENSEID DRM**](drm-licenseid.md)                                              | g \_ wszWMDRM \_ LicenseID                        | **\_chaîne de type WMT \_**                                |
 | [**\_SOURCEID DRM**](drm-sourceid.md)                                                | \_wszWMDRM \_ SourceId                         | **\_valeur DWORD de type WMT \_**                                 |
 | [**\_V1LICENSEACQURL DRM**](drm-v1licenseacqurl.md)                                  | g \_ wszWMDRM \_ V1LicenseAcqURL                  | **\_chaîne de type WMT \_**                                |
-| [**Duration**](duration.md)                                                         | \_wszWMDuration g                              | **\_type WMT \_ QWord**                                 |
+| [**Macauley**](duration.md)                                                         | \_wszWMDuration g                              | **\_type WMT \_ QWord**                                 |
 | [**FileSize**](filesize.md)                                                         | \_wszWMFileSize g                              | **\_type WMT \_ QWord**                                 |
 | [**HasArbitraryDataStream**](hasarbitrarydatastream.md)                             | \_wszWMHasArbitraryDataStream g                | **\_type WMT \_ bool**                                  |
 | [**HasAttachedImages**](hasattachedimages.md)                                       | \_wszWMHasAttachedImages g                     | **\_type WMT \_ bool**                                  |
@@ -91,7 +91,7 @@ Lorsque vous programmez avec ces attributs, vous devez utiliser l’identificate
 | [**Identifiable**](seekable.md)                                                         | \_wszWMSeekable g                              | **\_type WMT \_ bool**                                  |
 | [**Nom de la signature \_**](signature-name.md)                                            | \_nom wszWMSignature \_ g                       | **\_chaîne de type WMT \_**                                |
 | [**Stridable**](stridable.md)                                                       | \_wszWMStridable g                             | **\_type WMT \_ bool**                                  |
-| [**Intitulé**](title.md)                                                               | \_wszWMTitle g                                 | **\_chaîne de type WMT \_**                                |
+| [**Titre**](title.md)                                                               | \_wszWMTitle g                                 | **\_chaîne de type WMT \_**                                |
 | [**VBRPeak**](vbrpeak.md)                                                           | \_wszVBRPeak g                                 | **\_valeur DWORD de type WMT \_**                                 |
 | [**WM/AlbumArtist**](wm-albumartist.md)                                             | \_wszWMAlbumArtist g                           | **\_chaîne de type WMT \_**                                |
 | [**WM/AlbumCoverURL**](wm-albumcoverurl.md)                                         | \_wszWMAlbumCoverURL g                         | **\_chaîne de type WMT \_**                                |
@@ -104,7 +104,7 @@ Lorsque vous programmez avec ces attributs, vous devez utiliser l’identificate
 | [**WM/BeatsPerMinute**](wm-beatsperminute.md)                                       | \_wszWMBeatsPerMinute g                        | **\_chaîne de type WMT \_**                                |
 | [**WM/Category**](wm-category.md)                                                   | \_wszWMCategory g                              | **\_chaîne de type WMT \_**                                |
 | [**WM/codec**](wm-codec.md)                                                         | \_wszWMCodec g                                 | **\_chaîne de type WMT \_**                                |
-| [**WM/composer**](wm-composer.md)                                                   | \_wszWMComposer g                              | **\_chaîne de type WMT \_**                                |
+| [**WM/Composer**](wm-composer.md)                                                   | \_wszWMComposer g                              | **\_chaîne de type WMT \_**                                |
 | [**WM/conducteur**](wm-conductor.md)                                                 | \_wszWMConductor g                             | **\_chaîne de type WMT \_**                                |
 | [**WM/ContainerFormat**](wm-containerformat.md)                                     | \_wszWMContainerFormat g                       | **WMT \_ \_format de stockage** (type de stockage **WMT \_ \_ binaire**)     |
 | [**WM/ContentDistributor**](wm-contentdistributor.md)                               | \_wszWMContentDistributor g                    | **\_chaîne de type WMT \_**                                |
@@ -162,7 +162,7 @@ Lorsque vous programmez avec ces attributs, vous devez utiliser l’identificate
 | [**WM/ProviderCopyright**](wm-providercopyright.md)                                 | \_wszWMProviderCopyright g                     | **\_chaîne de type WMT \_**                                |
 | [**WM/ProviderRating**](wm-providerrating.md)                                       | \_wszWMProviderRating g                        | **\_chaîne de type WMT \_**                                |
 | [**WM/ProviderStyle**](wm-providerstyle.md)                                         | \_wszWMProviderStyle g                         | **\_chaîne de type WMT \_**                                |
-| [**WM/serveur de publication**](wm-publisher.md)                                                 | \_wszWMPublisher g                             | **\_chaîne de type WMT \_**                                |
+| [**WM/Publisher**](wm-publisher.md)                                                 | \_wszWMPublisher g                             | **\_chaîne de type WMT \_**                                |
 | [**WM/RadioStationName**](wm-radiostationname.md)                                   | \_wszWMRadioStationName g                      | **\_chaîne de type WMT \_**                                |
 | [**WM/RadioStationOwner**](wm-radiostationowner.md)                                 | \_wszWMRadioStationOwner g                     | **\_chaîne de type WMT \_**                                |
 | [**WM/SharedUserRating**](wm-shareduserrating.md)                                   | \_wszWMSharedUserRating g                      | **\_valeur DWORD de type WMT \_**                                 |
@@ -195,9 +195,9 @@ Lorsque vous programmez avec ces attributs, vous devez utiliser l’identificate
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les constantes suivantes sont définies avec les attributs. Chacun d’eux indique le nombre d’un type spécifique d’attribut. Vous n’avez pas besoin d’utiliser ces valeurs dans vos applications.
 
@@ -211,7 +211,7 @@ Les constantes suivantes sont définies avec les attributs. Chacun d’eux indiq
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -220,6 +220,6 @@ Les constantes suivantes sont définies avec les attributs. Chacun d’eux indiq
 [**Attributs**](attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

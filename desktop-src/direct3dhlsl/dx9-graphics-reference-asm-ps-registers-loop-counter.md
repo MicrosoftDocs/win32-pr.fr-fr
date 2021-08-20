@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b2a2f7f42c83308fa72ceae2875c35c600dfd7db
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 421a60e42981fbe030aee7b19b98170cf9979c4b49699598d282294e34e21204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117908543"
 ---
 # <a name="loop-counter-register-hlsl-ps-reference"></a>Registre de compteur de boucles (référence du PS HLSL)
 

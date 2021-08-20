@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 846297f2-b826-45de-8617-228790e87a63
-ms.openlocfilehash: 5f7b1d700c73df56ce7aaef39e162517629f96f6
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: d48a01e6336320ab1d11d661962dce17d6da28a816e662ba189f8aebe8310237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050581"
 ---
 # <a name="diskquotacontrol-object"></a>Objet DiskQuotaControl
 
@@ -90,7 +90,7 @@ L’objet **DiskQuotaControl** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un administrateur peut utiliser l’objet **DiskQuotaControl** pour effectuer un certain nombre de tâches, y compris les éléments suivants :
 
@@ -108,9 +108,9 @@ Il existe plusieurs façons d’obtenir l’objet [**DIDiskQuotaUser**](didiskqu
 -   Lorsque vous ajoutez un nouvel utilisateur, la méthode [**adduser**](diskquotacontrol-adduser.md) retourne l’objet [**DIDiskQuotaUser**](didiskquotauser-object.md) de l’utilisateur.
 -   Si vous avez le nom de l’utilisateur, la méthode [**FindUser**](diskquotacontrol-finduser.md) retourne l’objet [**DIDiskQuotaUser**](didiskquotauser-object.md) de l’utilisateur.
 
-Cet objet rend les fonctionnalités essentielles de l’interface IDiskQuotaControl disponibles pour les scripts et les applications basées sur Microsoft Visual Basic.
+cet objet rend les fonctionnalités essentielles de l’interface IDiskQuotaControl disponibles pour les scripts et les applications basées sur Microsoft Visual Basic.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 

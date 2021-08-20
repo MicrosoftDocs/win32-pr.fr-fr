@@ -1,15 +1,15 @@
 ---
-title: Vue d’ensemble de Windows Media DRM
-description: Vue d’ensemble de Windows Media DRM
+title: vue d’ensemble de la DRM Windows Media
+description: vue d’ensemble de la DRM Windows Media
 ms.assetid: 944b5e0b-649f-4955-8df3-4762726b9893
 keywords:
-- Kit de développement logiciel (SDK) Windows Media format, gestion des droits numériques (DRM)
-- Windows Media Format SDK, licences DRM
+- Windows Media Format SDK, gestion des droits numériques (DRM)
+- Windows Kit de développement logiciel (SDK) Media format, licences DRM
 - Windows Media Format SDK, licences pour DRM
 - gestion des droits numériques (DRM), à propos de
 - DRM (gestion des droits numériques), à propos de
-- gestion des droits numériques (DRM), empaquetage de fichiers Windows Media
-- DRM (gestion des droits numériques), empaquetage de fichiers Windows Media
+- gestion des droits numériques (DRM), empaquetage Windows fichiers multimédias
+- DRM (gestion des droits numériques), empaquetage Windows fichiers multimédias
 - gestion des droits numériques (DRM), gestion des licences de fichiers protégés
 - DRM (gestion des droits numériques), gestion des licences de fichiers protégés
 - gestion des droits numériques (DRM), licences
@@ -21,20 +21,20 @@ keywords:
 - licences, DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d14cb76fcf61346aab9bd68746afc7e50a2f146d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa6cc882d31873a05361869b9246da1b57ac3d3aebb85073d0b31f24509a615b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846414"
 ---
-# <a name="overview-of-windows-media-drm"></a>Vue d’ensemble de Windows Media DRM
+# <a name="overview-of-windows-media-drm"></a>vue d’ensemble de la DRM Windows Media
 
-La Rights Management Windows Media Digital (DRM) est un système de protection du contenu des fichiers Windows Media afin que les utilisateurs non autorisés ne puissent pas y accéder. Il existe trois phases pour le cycle DRM de base : l’empaquetage, la gestion des licences et la lecture.
+Windows le Rights Management media Digital (DRM) est un système de protection du contenu des fichiers multimédias Windows afin que les utilisateurs non autorisés ne puissent pas y accéder. Il existe trois phases pour le cycle DRM de base : l’empaquetage, la gestion des licences et la lecture.
 
-## <a name="packaging-windows-media-files"></a>Empaquetage de fichiers Windows Media
+## <a name="packaging-windows-media-files"></a>empaquetage de fichiers multimédias Windows
 
-Windows Media DRM est conçu pour fonctionner avec les fichiers Windows Media. Un fichier Windows Media est un fichier conforme à la spécification ASF (Advanced Systems Format) et qui contient uniquement des données audio et vidéo qui ont été compressées à l’aide de la Windows Media Audio et des codecs vidéo.
+Windows media DRM est conçu pour fonctionner avec Windows fichiers multimédias. un fichier multimédia Windows est un fichier conforme à la spécification ASF (Advanced Systems Format) et qui contient uniquement des données Audio et vidéo qui ont été compressées à l’aide des codecs Windows Media Audio et vidéo.
 
 Lorsqu’un fichier ASF est empaqueté, une section spécifique à DRM est ajoutée à l’en-tête. L’en-tête DRM contient un ID de clé qui identifie le contenu à des fins de licence, et une URL d’acquisition de licence, qui est l’adresse d’une page Web qui peut émettre des licences pour lire le contenu protégé. Il existe bien d’autres informations qui peuvent être placées dans l’en-tête DRM, mais elles sont facultatives. L’en-tête DRM est signé afin que le gestionnaire de package puisse être vérifié.
 
@@ -55,12 +55,12 @@ Lorsqu’un utilisateur tente d’effectuer une opération sur un fichier proté
 
 <dl> <dt>
 
-[**À propos des API étendues du client Windows Media DRM**](about-the-windows-media-drm-client-extended-apis.md)
+[**à propos des api étendues du Client DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

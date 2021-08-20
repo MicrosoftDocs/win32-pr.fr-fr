@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 168b25833deb6bde2424ea4552f4600b83bc9679
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6730de1e0c66093c0382b9b8fd04c05b5ea3dab4e151d581b155c1704bf26f58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050759"
 ---
 # <a name="dfm_invokecommand-message"></a>\_Message DFM commande InvokeCommand
 
@@ -199,7 +199,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui contient des a
 
 Le gestionnaire de ce message doit retourner la \_ valeur false si vous souhaitez que l’implémentation par défaut appelle le gestionnaire par défaut pour la commande. Retourne S \_ OK si le message a été géré. Sinon, retourne un code d’erreur HRESULT standard.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est envoyé à la fonction de rappel ou à l’objet de rappel, en fonction de la façon dont le rappel est implémenté. Il existe deux API pour la construction de rappel, [**CDefFolderMenu \_ Create2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-cdeffoldermenu_create2) qui prend un pointeur vers une fonction de rappel, ou [**SHCreateDefaultContextMenu**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu) qui utilise un objet de rappel qui prend en charge [**IContextMenuCB**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenucb).
 
@@ -207,7 +207,7 @@ Les éléments sur lesquels la commande est appelée sont fournis dans un objet 
 
 [**DFM \_ INVOKECOMMANDEX**](dfm-invokecommandex.md) est une version étendue de ce message et fournit plus d’informations sur le rappel. Utilisez **DFM \_ INVOKECOMMANDEX** si les informations supplémentaires fournies par cette interface sont nécessaires dans votre implémentation de.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 

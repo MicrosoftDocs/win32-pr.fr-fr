@@ -1,17 +1,17 @@
 ---
-description: Bibliothèque de classes Windows Server Update Services 2,0
+description: bibliothèque de classes Windows Server Update Services 2,0
 ms.assetid: 6c3bf388-07cb-400d-89ca-207e5e7762dc
-title: Bibliothèque de classes Windows Server Update Services 2,0
+title: bibliothèque de classes Windows Server Update Services 2,0
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c31f02159c2b825f2199f2239e7a7c0fbc4ad16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3273719cc405de10029666b58e09f37933396307b7df3534b6f407ae0e62aa5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117962949"
 ---
-# <a name="windows-server-update-services-20-class-library"></a>Bibliothèque de classes Windows Server Update Services 2,0
+# <a name="windows-server-update-services-20-class-library"></a>bibliothèque de classes Windows Server Update Services 2,0
 
 ## <a name="in-this-section"></a>Dans cette section
 

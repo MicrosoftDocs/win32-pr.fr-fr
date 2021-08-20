@@ -3,8 +3,8 @@ title: Structure MPTHREAT_DATA (MpClient. h)
 description: Données de notification transmises en raison de la détection ou de la modification des menaces.
 ms.assetid: 07A2F88B-9D58-44EC-86D0-BDCC1DF44B94
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_DATA
-- PMPTHREAT_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_DATA
+- PMPTHREAT_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cafbb11dbb3b1a34b38ffd0448db96fd1409efd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2bd6338a027e3b03971f357950bbc351acef0d3fcdca83b72130e0ea475164d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883229"
 ---
 # <a name="mpthreat_data-structure"></a>\_Structure de données MPTHREAT
 
@@ -94,8 +94,8 @@ Type : **DWORD**
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 34149fae8ac273565f98c3f39adb31b61b406ade
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f0cbd79f0ce89ace1189ca0bc13dbb2df4bf8b053dbddc62e52b391cc58080bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117936786"
 ---
 # <a name="event-schema-elements"></a>Éléments du schéma d’événement
 
@@ -35,7 +35,7 @@ Voici les éléments définis par le schéma d’événement. Cette section cont
 | [**Nom (ProcessingErrorDataType)**](eventschema-dataitemname-processingerrordatatype-element.md) | Contient le nom de l’élément de données d’événement qui a provoqué une erreur lors du traitement des données d’événement.<br/>                                                                                            |
 | [**Données (ComplexDataType)**](eventschema-data-complexdatatype-element.md)                                 | Liste des éléments de données de la structure. La liste des éléments se trouve dans le même ordre que celui défini dans le modèle.<br/>                                                                                |
 | [**Données (EventDataType)**](eventschema-data-eventdatatype-element.md)                                     | Élément de données de niveau supérieur défini dans le modèle pour l’événement.<br/>                                                                                                                        |
-| [**DebugData (EventType)**](eventschema-debugdata-eventtype-element.md)                                   | Contient les données qui peuvent être journalisées pour les événements du préprocesseur de trace logiciel Windows (WPP).<br/>                                                                                                  |
+| [**DebugData (EventType)**](eventschema-debugdata-eventtype-element.md)                                   | contient les données qui peuvent être journalisées pour Windows événements du préprocesseur de trace logiciel (WPP).<br/>                                                                                                  |
 | [**ErrorCode (ProcessingErrorDataType)**](eventschema-errorcode-processingerrordatatype-element.md)       | Contient le code d’erreur qui a été déclenché lorsqu’une erreur s’est produite lors du traitement des données d’événement. <br/>                                                                                                     |
 | [**Événement**](eventschema-event-element.md)                                                                 | Il s’agit du nœud racine des données d’événement rendues.<br/>                                                                                                                                           |
 | [**EventData (EventType)**](eventschema-eventdata-eventtype-element.md)                                   | Contient les données d'événement.<br/>                                                                                                                                                                    |
