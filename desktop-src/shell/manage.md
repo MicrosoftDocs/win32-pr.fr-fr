@@ -4,12 +4,12 @@ ms.assetid: d9ffda6f-adc0-44a3-b410-e23bf5f4f165
 title: Gestion du système de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee0f3b47e17e691c540a9775f3b8588b311b9878
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: f64bce2bea08794451d80fc4b1921baa21ee0fc26544b62ed9412d13b9bcb242
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049228"
 ---
 # <a name="managing-the-file-system"></a>Gestion du système de fichiers
 

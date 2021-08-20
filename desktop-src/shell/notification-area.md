@@ -4,12 +4,12 @@ ms.assetid: D37E2BF7-1887-4780-81AD-85B2117321E4
 title: Notifications et zone de notification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89af1d0b8af0b41674f79325f0eeb389cbc8f2c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: d07fcbbbcbb779d4b71dfc89069523a53059ebca9395c662ffe49048e6a3bf1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677957"
 ---
 # <a name="notifications-and-the-notification-area"></a>Notifications et zone de notification
 
@@ -30,9 +30,9 @@ Cette rubrique contient les sections suivantes :
 
 ## <a name="notification-and-notification-area-guidelines"></a>Instructions relatives à la notification et à la zone de notification
 
-Consultez les sections [notifications](../uxguide/mess-notif.md) et [zone de notification](../uxguide/winenv-notification.md) des instructions d’interaction avec l’expérience utilisateur Windows pour connaître les meilleures pratiques en matière d’utilisation des notifications et de la zone de notification. L’objectif est de fournir l’avantage de l’utilisateur via une utilisation appropriée des notifications, sans être ennuyeux ou gênant.
+consultez les sections [notifications](../uxguide/mess-notif.md) et [zone de notification](../uxguide/winenv-notification.md) de la Windows instructions d’Interaction avec l’expérience utilisateur pour connaître les meilleures pratiques en matière d’utilisation des notifications et de la zone de notification. L’objectif est de fournir l’avantage de l’utilisateur via une utilisation appropriée des notifications, sans être ennuyeux ou gênant.
 
-La zone de notification ne concerne pas les informations critiques qui doivent être traitées immédiatement. Il n’est pas non plus prévu pour un accès rapide aux programmes ou aux commandes. À compter de Windows 7, une grande partie de cette fonctionnalité est la meilleure possible via le bouton de la barre des tâches d’une application.
+La zone de notification ne concerne pas les informations critiques qui doivent être traitées immédiatement. Il n’est pas non plus prévu pour un accès rapide aux programmes ou aux commandes. à partir de Windows 7, une grande partie de cette fonctionnalité est la meilleure possible via le bouton de la barre des tâches d’une application.
 
 Windows 7 permet à un utilisateur de supprimer toutes les notifications d’une application, le cas échéant. une conception et une utilisation de notification réfléchies inclinent l’utilisateur pour permettre à votre application de continuer à les afficher. Les notifications sont une interruption ; Assurez-vous qu’elles en valent la chance.
 
@@ -51,11 +51,11 @@ Les sections restantes de cette rubrique décrivent la procédure de base à sui
 
 ### <a name="add-a-notification-icon"></a>Icône Ajouter une notification
 
-Pour afficher une notification, vous devez disposer d’une icône dans la zone de notification. Dans certains cas, tels que Microsoft Communicator ou le niveau de batterie, cette icône est déjà présente. Toutefois, dans de nombreux autres cas, vous allez ajouter une icône à la zone de notification uniquement si nécessaire pour afficher la notification. Dans les deux cas, cela s’effectue à l’aide de la fonction [**\_ NotifyIcon Shell**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) . **Shell \_ NotifyIcon** vous permet d’ajouter, de modifier ou de supprimer une icône dans la zone de notification.
+Pour afficher une notification, vous devez disposer d’une icône dans la zone de notification. dans certains cas, tels que Microsoft Communicator ou niveau de batterie, cette icône est déjà présente. Toutefois, dans de nombreux autres cas, vous allez ajouter une icône à la zone de notification uniquement si nécessaire pour afficher la notification. Dans les deux cas, cela s’effectue à l’aide de la fonction [**\_ NotifyIcon Shell**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) . **Shell \_ NotifyIcon** vous permet d’ajouter, de modifier ou de supprimer une icône dans la zone de notification.
 
 ![zone de notification contenant trois icônes](images/taskbar/notificationareaicons.png)
 
-Quand une icône est ajoutée à la zone de notification sur Windows 7, elle est ajoutée à la section de dépassement de capacité de la zone de notification par défaut. Cette zone contient les icônes de la zone de notification qui sont actives, mais qui ne sont pas visibles dans la zone de notification. Seul l’utilisateur peut promouvoir une icône du dépassement de capacité vers la zone de notification, même si, dans certaines circonstances, le système peut promouvoir temporairement une icône dans la zone de notification sous la forme d’un bref aperçu (sous une minute).
+quand une icône est ajoutée à la zone de notification sur Windows 7, elle est ajoutée par défaut à la section de dépassement de capacité de la zone de notification. Cette zone contient les icônes de la zone de notification qui sont actives, mais qui ne sont pas visibles dans la zone de notification. Seul l’utilisateur peut promouvoir une icône du dépassement de capacité vers la zone de notification, même si, dans certaines circonstances, le système peut promouvoir temporairement une icône dans la zone de notification sous la forme d’un bref aperçu (sous une minute).
 
 > [!Note]  
 > L’utilisateur doit avoir l’affirmation finale sur les icônes qu’il souhaite voir dans sa zone de notification. Avant d’installer une icône non transitoire dans la zone de notification, l’utilisateur doit être invité à fournir l’autorisation. Ils doivent également recevoir l’option (normalement, par le biais de son menu contextuel) pour supprimer l’icône de la zone de notification.
@@ -73,8 +73,8 @@ La structure [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-noti
 
 Chaque icône de la zone de notification peut être identifiée de deux manières :
 
--   GUID avec lequel l’icône est déclarée dans le registre. Il s’agit de la méthode recommandée sur Windows 7 et versions ultérieures.
--   Handle d’une fenêtre associée à l’icône de la zone de notification, plus un identificateur d’icône défini par l’application. Cette méthode est utilisée sur Windows Vista et les versions antérieures.
+-   GUID avec lequel l’icône est déclarée dans le registre. il s’agit de la méthode recommandée sur Windows 7 et versions ultérieures.
+-   Handle d’une fenêtre associée à l’icône de la zone de notification, plus un identificateur d’icône défini par l’application. cette méthode est utilisée sur Windows Vista et les versions antérieures.
 
 Les icônes de la zone de notification peuvent avoir une info-bulle. L’info-bulle peut être une info-bulle standard (par défaut) ou une interface utilisateur dessinée, indépendante de l’application. Une info-bulle n’est pas obligatoire, mais elle est recommandée.
 
@@ -100,7 +100,7 @@ Vous pouvez également ajouter l’icône à la zone de notification et afficher
 
 ### <a name="define-the-notifyicondata-version"></a>Définir la version de NOTIFYICONDATA
 
-Lorsque Windows a progressé, la structure [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) a été développée pour inclure davantage de membres afin de définir davantage de fonctionnalités. Les constantes sont utilisées pour déclarer la version de **NOTIFYICONDATA** à utiliser avec votre icône de zone de notification, afin de permettre la compatibilité descendante. À moins qu’il y ait une raison impérieuse de faire autrement, il est fortement recommandé d’utiliser la \_ version \_ de NOTIFYICON version 4, introduite dans Windows Vista. Cette version fournit toutes les fonctionnalités disponibles, notamment la possibilité d’identifier l’icône de la zone de notification via un GUID inscrit, un mécanisme de rappel supérieur et une meilleure accessibilité.
+comme Windows a progressé, la structure [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) a été développée pour inclure davantage de membres afin de définir davantage de fonctionnalités. Les constantes sont utilisées pour déclarer la version de **NOTIFYICONDATA** à utiliser avec votre icône de zone de notification, afin de permettre la compatibilité descendante. à moins qu’il y ait une raison impérieuse de faire autrement, il est fortement recommandé d’utiliser la \_ version \_ de NOTIFYICON version 4, introduite dans Windows Vista. Cette version fournit toutes les fonctionnalités disponibles, notamment la possibilité d’identifier l’icône de la zone de notification via un GUID inscrit, un mécanisme de rappel supérieur et une meilleure accessibilité.
 
 Définissez la version à l’aide des appels suivants :
 
@@ -131,7 +131,7 @@ La structure [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-noti
 -   Titre de la notification. Ce titre doit contenir jusqu’à 48 caractères en anglais (pour prendre en charge la localisation). Le titre est la première ligne de la notification et est défini à l’aide de la taille de police, de la couleur et de la pondération.
 -   Texte à utiliser dans le corps de la notification. Ce texte ne doit pas dépasser 200 caractères en anglais (pour prendre en charge la localisation).
 -   Indique si la notification doit être ignorée si elle ne peut pas être affichée immédiatement.
--   Délai d’attente de la notification. Ce paramètre est ignoré dans les systèmes Windows Vista et versions ultérieures, en faveur d’un paramètre de délai d’accessibilité à l’ensemble du système.
+-   Délai d’attente de la notification. ce paramètre est ignoré dans les systèmes Windows Vista et versions ultérieures, en faveur d’un paramètre de délai d’accessibilité à l’ensemble du système.
 -   Indique si la notification doit respecter le temps de silence, définie à l’aide du drapeau [**NIIF \_ respecter le \_ \_ temps de silence**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) .
 
 > [!Note]  
@@ -174,7 +174,7 @@ Une fois que vous avez défini la version de [**NOTIFYICONDATA**](/windows/deskt
 
     
 
-Le code suivant montre un exemple de définition de données [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) et de leur envoi via [**\_ NotifyIcon Shell**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona). Notez que cet exemple identifie l’icône de notification via un GUID (par défaut dans Windows 7).
+Le code suivant montre un exemple de définition de données [**NOTIFYICONDATA**](/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa) et de leur envoi via [**\_ NotifyIcon Shell**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona). notez que cet exemple identifie l’icône de notification via un GUID (par défaut dans Windows 7).
 
 
 ```
@@ -227,7 +227,7 @@ Shell_NotifyIcon(NIM_DELETE, &nid);
 
 ## <a name="sdk-sample"></a>Exemple SDK
 
-Consultez l’exemple d’exemple [NotificationIcon](samples-notificationicon.md) dans le kit de développement logiciel (SDK) Windows pour obtenir un exemple complet de l’utilisation de l' [**interface \_ NotifyIcon de l’interpréteur**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona)de commandes.
+consultez l’exemple d’exemple [NotificationIcon](samples-notificationicon.md) dans le kit de développement logiciel (SDK) Windows pour obtenir un exemple complet de l’utilisation de l' [**interface \_ NotifyIcon de l’interpréteur**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona)de commandes.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

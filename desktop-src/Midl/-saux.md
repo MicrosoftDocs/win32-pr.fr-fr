@@ -12,20 +12,20 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f98ae6190a3192b5eec51bd08daf3c30c564534
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9b08661c23143962baebbf9486a0ce2a6d50e22cddb6dfd496386c1ea74caf37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808756"
 ---
 # <a name="saux-switch"></a>commutateur/Saux
 
 Ce commutateur est obsolète et, s’il est utilisé, génère une erreur.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Le gestionnaire de portée d’analyse (CSM) est un ensemble d’interfaces qui fournit des méthodes pour informer le moteur de recherche Windows des conteneurs à analyser et les éléments sous ces conteneurs à inclure ou exclure dans le catalogue.
+description: le gestionnaire de portée d’analyse (CSM) est un ensemble d’interfaces qui fournit des méthodes pour informer le moteur de recherche Windows sur les conteneurs à analyser et les éléments sous ces conteneurs à inclure ou exclure dans le catalogue.
 ms.assetid: 7d65d00a-7294-4718-b593-89394b2e416f
 title: Utilisation du gestionnaire de portée d’analyse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef79c9e5a2a4b1dda97bf8a8be7bbaa35d5ecd2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a440041c4af9b0ab5e1d282b91cf8fba35c041a546b8247d320884f072a641c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117681205"
 ---
 # <a name="using-the-crawl-scope-manager"></a>Utilisation du gestionnaire de portée d’analyse
 
-Le gestionnaire de portée d’analyse (CSM) est un ensemble d’interfaces qui fournit des méthodes pour informer le moteur de recherche Windows des conteneurs à analyser et les éléments sous ces conteneurs à inclure ou exclure dans le catalogue. Les développeurs peuvent utiliser le CSM pour définir par programmation une étendue d’analyse pour un nouveau magasin de données ou gestionnaire de protocole. Les administrateurs peuvent utiliser le CSM pour afficher tous les index des utilisateurs, les racines de recherche et les règles d’étendue.
+le gestionnaire de portée d’analyse (CSM) est un ensemble d’interfaces qui fournit des méthodes pour informer le moteur de recherche Windows sur les conteneurs à analyser et les éléments sous ces conteneurs à inclure ou exclure dans le catalogue. Les développeurs peuvent utiliser le CSM pour définir par programmation une étendue d’analyse pour un nouveau magasin de données ou gestionnaire de protocole. Les administrateurs peuvent utiliser le CSM pour afficher tous les index des utilisateurs, les racines de recherche et les règles d’étendue.
 
 Cette section est organisée comme suit :
 
@@ -32,7 +32,7 @@ Pour comprendre le gestionnaire de portée d’analyse, vous devez comprendre le
 -   Une *racine de recherche* est l’URL de niveau supérieur qui identifie un conteneur ou un magasin de données associé à un gestionnaire de protocole particulier. Les racines de recherche peuvent identifier les emplacements qui sont spécifiques à un utilisateur, qui se trouvent sur un ordinateur distant ou qui correspondent à un modèle de caractère générique. Lorsque vous ajoutez un nouveau magasin de données ou un nouveau gestionnaire de protocole, vous devez également ajouter une racine de recherche à la portée de l’analyse.
 -   Une *règle d’étendue* est une règle qui inclut ou exclut de l’analyse et de l’indexation des URL d’une racine de recherche. Par exemple, supposons que vous souhaitiez que tout le contenu du dossier ProjectFiles soit indexé, à l’exception des prototypes de sous-dossier. Vous avez besoin d’une règle d’inclusion pour file:///C : \\ WorkteamA \\ ProjectFiles \\ et d’une règle d’exclusion pour file:///C : \\ WorkteamA \\ ProjectFiles \\ prototypes \\ .
 
-Le **Gestionnaire de portée d’analyse (CSM)** est un ensemble d’API qui vous permet d’ajouter, de supprimer et d’énumérer des racines de recherche et des règles d’étendue pour l’indexeur de recherche Windows. Lorsque vous souhaitez que l’indexeur commence l’analyse d’un nouveau conteneur, vous pouvez utiliser CSM pour définir les règles de racine et d’étendue de recherche pour les chemins d’accès dans la ou les racines de recherche. Par exemple, si vous installez un nouveau gestionnaire de protocole, vous pouvez créer une racine de recherche et ajouter une ou plusieurs règles d’inclusion. l’indexeur peut ensuite lancer une analyse pour l’indexation initiale. Le CSM offre les interfaces suivantes pour vous aider à effectuer cette opération par programme.
+le **gestionnaire de portée d’analyse (CSM)** est un ensemble d’api qui vous permet d’ajouter, de supprimer et d’énumérer des racines de recherche et des règles d’étendue pour le Windows indexeur de recherche. Lorsque vous souhaitez que l’indexeur commence l’analyse d’un nouveau conteneur, vous pouvez utiliser CSM pour définir les règles de racine et d’étendue de recherche pour les chemins d’accès dans la ou les racines de recherche. Par exemple, si vous installez un nouveau gestionnaire de protocole, vous pouvez créer une racine de recherche et ajouter une ou plusieurs règles d’inclusion. l’indexeur peut ensuite lancer une analyse pour l’indexation initiale. Le CSM offre les interfaces suivantes pour vous aider à effectuer cette opération par programme.
 
 -   [**IEnumSearchRoots**](/windows/desktop/api/Searchapi/nn-searchapi-ienumsearchroots)
 -   [IEnumSearchScopeRules](/windows/win32/api/searchapi/nn-searchapi-ienumsearchscoperules)
@@ -42,7 +42,7 @@ Le **Gestionnaire de portée d’analyse (CSM)** est un ensemble d’API qui vou
 -   [**ISearchScopeRule**](/windows/desktop/api/Searchapi/nn-searchapi-isearchscoperule)
 -   [ISearchItem](./-search-isearchitem.md)
 
-Bien que vous puissiez utiliser les API CSM pour définir une étendue d’analyse par programme, CSM a été conçu pour prendre également en charge les utilisateurs finaux. Par exemple, supposez que vous avez développé un gestionnaire de protocole pour un nouveau magasin de données et que vous souhaitez permettre aux utilisateurs ou aux administrateurs de gérer les chemins d’accès à indexer. Vous pouvez utiliser le gestionnaire de portée d’analyse pour définir une ou plusieurs racines de recherche (par exemple, file:///C : \\ mycontainer \\ ), et l’interface utilisateur de recherche Windows pour définir les options d’indexation affiche chaque racine de recherche avec une case à cocher. Les utilisateurs peuvent ensuite inclure ou exclure ce chemin d’accès ou les enfants de ce chemin d’accès.
+Bien que vous puissiez utiliser les API CSM pour définir une étendue d’analyse par programme, CSM a été conçu pour prendre également en charge les utilisateurs finaux. Par exemple, supposez que vous avez développé un gestionnaire de protocole pour un nouveau magasin de données et que vous souhaitez permettre aux utilisateurs ou aux administrateurs de gérer les chemins d’accès à indexer. vous pouvez utiliser le gestionnaire de portée d’analyse pour définir une ou plusieurs racines de recherche (par exemple, file:///C : \\ MyContainer \\ ), et l’interface utilisateur de recherche Windows pour définir les options d’indexation affiche chaque racine de recherche avec une case à cocher. Les utilisateurs peuvent ensuite inclure ou exclure ce chemin d’accès ou les enfants de ce chemin d’accès.
 
 ## <a name="search-roots-and-scope-rules"></a>Rechercher les racines et les règles d’étendue
 

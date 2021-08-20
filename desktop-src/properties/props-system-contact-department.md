@@ -4,12 +4,12 @@ ms.assetid: 84b22284-553e-4144-80af-d5cdfdc77e9e
 title: System. contact. Department
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 455800b2e7755bf53783d36cc7c4c17c676bb333
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ccfa8f092a10cb4d38e8ca56da4aac0126382710058f4c0082b030b50a28126
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117684983"
 ---
 # <a name="systemcontactdepartment"></a>System. contact. Department
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

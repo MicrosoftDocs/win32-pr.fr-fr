@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9db6477aed5180ae18b99f53f4ebadf9d0ad0c91
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 947feb790b5fbee628c846f88595b1ae25db4cfddedbbab223fd05513560d63e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117687771"
 ---
 # <a name="html-resource"></a>Ressource HTML
 
@@ -53,9 +53,9 @@ L’exemple suivant définit une ressource HTML :
 ID_RESPONSE_ERROR_PAGE  HTML "res\\responseerorpage.htm"
 ```
 
- 
+ 
 
- 
+ 
 
 
 

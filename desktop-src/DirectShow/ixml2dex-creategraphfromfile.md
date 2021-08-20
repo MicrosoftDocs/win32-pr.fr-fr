@@ -22,7 +22,7 @@ ms.locfileid: "117817066"
 # <a name="ixml2dexcreategraphfromfile-method"></a>IXml2Dex :: CreateGraphFromFile, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

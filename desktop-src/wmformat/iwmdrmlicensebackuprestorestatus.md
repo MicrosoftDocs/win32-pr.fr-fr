@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a9db5d95daab78a506a3cc994fb9dd22153d0907
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 26583a2911545cd256598025806d238c2f98f84434b4f23d9f13f952bfd15927
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847038"
 ---
 # <a name="iwmdrmlicensebackuprestorestatus-interface"></a>Interface IWMDRMLicenseBackupRestoreStatus
 

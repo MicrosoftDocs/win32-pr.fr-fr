@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df0068beff1f7d7af1ab66f01f7236dcc4b0116c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 982b3b781ecfaea05352ac8efd41e023295da65a1251df0ade51a9bd6e4953a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017059"
 ---
 # <a name="max-renew-age-attribute"></a>Attribut Max-Renew-Age
 
@@ -36,7 +36,7 @@ Cet attribut détermine le délai, en jours, pendant lequel le ticket TGT (Ticke
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.75                |
 | System-ID-GUID    | bf9679bc-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ Cet attribut détermine le délai, en jours, pendant lequel le ticket TGT (Ticke
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,7 +58,7 @@ Cet attribut détermine le délai, en jours, pendant lequel le ticket TGT (Ticke
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -79,7 +79,7 @@ Cet attribut détermine le délai, en jours, pendant lequel le ticket TGT (Ticke
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -100,7 +100,7 @@ Cet attribut détermine le délai, en jours, pendant lequel le ticket TGT (Ticke
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -121,7 +121,7 @@ Cet attribut détermine le délai, en jours, pendant lequel le ticket TGT (Ticke
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -142,7 +142,7 @@ Cet attribut détermine le délai, en jours, pendant lequel le ticket TGT (Ticke
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -163,7 +163,7 @@ Cet attribut détermine le délai, en jours, pendant lequel le ticket TGT (Ticke
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |

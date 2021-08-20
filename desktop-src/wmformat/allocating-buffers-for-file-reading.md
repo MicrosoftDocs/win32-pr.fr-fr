@@ -14,12 +14,12 @@ keywords:
 - allocation de mémoire tampon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecdf9ba0a333bbe25c94ec087911237b68f38f74
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 09c02f82cdeb19adb42c3240abb9b560a1fd2d86f3de3de3ac66d6930e43a57e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117656237"
 ---
 # <a name="allocating-buffers-for-file-reading"></a>Allocation de tampons pour la lecture de fichiers
 
@@ -44,9 +44,9 @@ L’objet de lecture appelle le rappel d’allocateur approprié et récupère d
 [**Lecture des fichiers ASF**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

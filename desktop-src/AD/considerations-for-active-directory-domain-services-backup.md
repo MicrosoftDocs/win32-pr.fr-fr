@@ -8,12 +8,12 @@ keywords:
 - Active Directory Domain Services Active Directory, sauvegarde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52bf284804ba5a8882ecee6f6e03ae95249e5435
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b61fbe30d6c8e74a0896fe1b8b9d6ed34bf9caae2f37fc2ac7de2afd8a75c00c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104031042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022013"
 ---
 # <a name="considerations-for-active-directory-domain-services-backup"></a>Considérations relatives à la sauvegarde Active Directory Domain Services
 
@@ -27,6 +27,6 @@ Tout plan de récupération doit s’assurer que l’ancienneté de la sauvegard
 
 Les sauvegardes incrémentielles de Active Directory Domain Services ne sont pas prises en charge ; des sauvegardes complètes sont requises.
 
- 
+ 
 
- 
+ 

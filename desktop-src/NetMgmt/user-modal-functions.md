@@ -4,12 +4,12 @@ description: Les fonctions modales utilisateur de gestion de réseau obtiennent 
 ms.assetid: e655b9f6-2808-4bd4-998c-c8a2e980920b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c65595f78a412196b9fd54030ec1ac1f1fb8ae59
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: addea3c76d79cbcdb0e359424be154893d2c436c1f6d45157ecf50e748fc9417
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796795"
 ---
 # <a name="user-modal-functions"></a>Fonctions modales utilisateur
 
@@ -26,7 +26,7 @@ Les fonctions modales utilisateur sont répertoriées ci-dessous.
 
 
 
- 
+ 
 
 Les fonctions **NetUserModalsGet** et **NetUserModalsSet** examinent et modifient les paramètres modaux, qui sont des paramètres globaux qui affectent chaque compte de la base de données de sécurité (par exemple, la longueur minimale autorisée pour le mot de passe). Tous les paramètres modaux peuvent être modifiés en appelant **NetUserModalsSet**. La plupart des modaux peuvent également être modifiés à l’aide de la commande **net Accounts** . Les fonctions modales de l’utilisateur de gestion de réseau ne nécessitent pas que le serveur dispose d’une sécurité au niveau de l’utilisateur.
 
@@ -49,6 +49,6 @@ Les niveaux d’informations suivants sont valides uniquement pour [**NetUserMod
 
 Si vous programmez pour Active Directory, vous pourrez peut-être appeler certaines méthodes d’interface de service d’Active Directory (ADSI) pour obtenir les mêmes fonctionnalités que celles que vous pouvez obtenir en appelant les fonctions modales utilisateur de gestion de réseau. Pour plus d’informations, consultez [**IADsDomain**](/windows/desktop/api/iads/nn-iads-iadsdomain).
 
- 
+ 
 
- 
+ 

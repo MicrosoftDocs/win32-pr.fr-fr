@@ -4,12 +4,12 @@ ms.assetid: 7dfd85e6-936e-4b78-a2cb-a5d59153e1c4
 title: GUID de sous-type de vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38829480aed7372496fc196cc6c55d781b672a2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0dc442b68a77e3df50667979c9d2d1654d26e45882af1b70d04b3fc8c014ce72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117688372"
 ---
 # <a name="video-subtype-guids"></a>GUID de sous-type de vidéo
 
@@ -45,7 +45,7 @@ Quand ces sous-types sont utilisés, affectez à l’attribut de [ \_ \_ \_ type
  
 
 > [!Note]  
-> Ces sous-types ne correspondent pas aux GUID de sous-type RGB utilisés dans les kits de développement logiciel (SDK) précédents, tels que DirectShow.
+> Ces sous-types ne correspondent pas aux GUID de sous-type RGB utilisés dans les kits de développement logiciel (SDK) précédents, tels que les DirectShow.
 
  
 
@@ -136,8 +136,8 @@ Pour plus d’informations sur ces formats, consultez [formats vidéo YUV 10 bit
 | **MFVideoFormat \_ H264 –**     | H264 –         | Vidéo H. 264.<br/> Les exemples de supports contiennent des données de flux binaire H. 264 avec des codes de démarrage et des SPS/PPS entrelacés. Chaque échantillon contient une image complète, qu’il s’agisse d’un champ ou d’un cadre.<br/>                                                                                                       |
 | **MFVideoFormat \_ H265**     | 'H265'         | Vidéo H. 265.                                                                                                                                                                                                                                                                                                |
 | **MFVideoFormat \_ H264 – \_ es** | Non applicable | Flux élémentaire H. 264.<br/> Ce type de média est identique à **MFVideoFormat \_ H264 –**, sauf que les exemples de média contiennent un flux binaire H. 264 fragmenté. Chaque exemple peut contenir une image partielle. plusieurs images complètes ; ou une ou plusieurs images complètes plus une image partielle.<br/>           |
-| **MFVideoFormat \_ HEVC**     | HEVC         | Le profil principal HEVC et le profil d’image reste principal.<br/> Chaque exemple contient une image complète.<br/> Pris en charge dans Windows 8.1 et versions ultérieures. Le profil principal HEVC et le profil principal de profil d’image continue. <br/>                                                              |
-| **MFVideoFormat \_ HEVC \_ es** | 'HEVS'         | Ce type de média est le même que **MFVideoFormat \_ HEVC**, sauf que les exemples de supports contiennent un flux binaire HEVC fragmenté. Chaque exemple peut contenir une image partielle. plusieurs images complètes ; ou une ou plusieurs images complètes plus une image partielle.<br/> Pris en charge dans Windows 8.1 et versions ultérieures.<br/> |
+| **MFVideoFormat \_ HEVC**     | HEVC         | Le profil principal HEVC et le profil d’image reste principal.<br/> Chaque exemple contient une image complète.<br/> pris en charge dans Windows 8.1 et versions ultérieures. Le profil principal HEVC et le profil principal de profil d’image continue. <br/>                                                              |
+| **MFVideoFormat \_ HEVC \_ es** | 'HEVS'         | Ce type de média est le même que **MFVideoFormat \_ HEVC**, sauf que les exemples de supports contiennent un flux binaire HEVC fragmenté. Chaque exemple peut contenir une image partielle. plusieurs images complètes ; ou une ou plusieurs images complètes plus une image partielle.<br/> pris en charge dans Windows 8.1 et versions ultérieures.<br/> |
 | **MFVideoFormat \_ M4S2**     | 4S2 ' '         | Vidéo MPEG-4 part 2.                                                                                                                                                                                                                                                                                        |
 | **MFVideoFormat \_ MJPG**     | 'MJPG'         | Motion JPEG.                                                                                                                                                                                                                                                                                                |
 | **MFVideoFormat \_ mp43**     | 'MP43'         | Codec Microsoft MPEG 4 version 3. Ce codec n’est plus pris en charge.                                                                                                                                                                                                                                        |
@@ -147,11 +147,11 @@ Pour plus d’informations sur ces formats, consultez [formats vidéo YUV 10 bit
 | **MFVideoFormat \_ VP80**     | 'MPG1'         | Vidéo VP8.                                                                                                                                                                                                                                                                                                  |
 | **MFVideoFormat \_ VP90**     | 'MPG1'         | Vidéo VP9.                                                                                                                                                                                                                                                                                                  |
 | **MFVideoFormat \_ MPG1**     | 'MPG1'         | Vidéo MPEG-1.                                                                                                                                                                                                                                                                                               |
-| **MFVideoFormat \_ MSS1**     | 'MSS1'         | Codec d’écran Windows Media version 1.                                                                                                                                                                                                                                                                       |
-| **MFVideoFormat \_ MSS2**     | 'MSS2'         | Codec d’écran Windows Media Video 9.                                                                                                                                                                                                                                                                         |
-| **MFVideoFormat \_ WMV1**     | 'WMV1'         | Windows Media Video codec version 7.                                                                                                                                                                                                                                                                        |
-| **MFVideoFormat \_ WMV2**     | 'WMV2'         | Codec Windows Media Video 8.                                                                                                                                                                                                                                                                                |
-| **MFVideoFormat \_ WMV3**     | 'WMV3'         | Codec Windows Media Video 9.                                                                                                                                                                                                                                                                                |
+| **MFVideoFormat \_ MSS1**     | 'MSS1'         | Windows Codec d’écran de média version 1.                                                                                                                                                                                                                                                                       |
+| **MFVideoFormat \_ MSS2**     | 'MSS2'         | Windows Codec d’écran vidéo multimédia 9.                                                                                                                                                                                                                                                                         |
+| **MFVideoFormat \_ WMV1**     | 'WMV1'         | Windows Codec vidéo multimédia version 7.                                                                                                                                                                                                                                                                        |
+| **MFVideoFormat \_ WMV2**     | 'WMV2'         | Windows Codec Media Video 8.                                                                                                                                                                                                                                                                                |
+| **MFVideoFormat \_ WMV3**     | 'WMV3'         | Windows Codec Media Video 9.                                                                                                                                                                                                                                                                                |
 | **MFVideoFormat \_ WVC1**     | 'WVC1'         | SMPTE 421M (« VC-1 »).                                                                                                                                                                                                                                                                                        |
 | **MFVideoFormat \_ 420O**     | '420O'         | vidéo 4:2:0 de 8 bits par canal.                                                                                                                                                                                                                                                                   |
 | **MFVideoFormat \_ AV1**     | 'AV01'         | Vidéo AV1.                                                                                                                                                                                                                                                                                                |
@@ -167,7 +167,7 @@ Les formats vidéo sont souvent représentés par les valeurs FOURCCs ou **D3DFO
 Si un format vidéo est associé à une valeur FOURCC ou **D3DFORMAT** , vous pouvez créer le GUID du sous-type correspondant comme suit : démarrez avec la **\_ base constante MFVideoFormat** et remplacez le premier **DWORD** du GUID par la valeur de la vidéo FourCC ou **D3DFORMAT** . Vous pouvez utiliser la macro [**définir le \_ \_ GUID du MediaType**](/windows/desktop/api/mfapi/nf-mfapi-define_mediatype_guid) à cet effet.
 
 > [!Note]  
-> DirectShow utilise également ce système pour la plupart des sous-types vidéo, mais pas pour les formats RVB non compressés. Par conséquent, les sous-types RGB dans DirectShow ne correspondent pas aux sous-types RGB dans Media Foundation.
+> DirectShow utilise également ce système pour la plupart des sous-types vidéo, mais pas pour les formats rvb non compressés. par conséquent, les sous-types rgb dans DirectShow ne correspondent pas aux sous-types rgb dans Media Foundation.
 
  
 

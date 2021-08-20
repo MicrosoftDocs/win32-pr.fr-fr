@@ -59,12 +59,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e3aa7f269d24c284eef3ad2c519f5fdbf48513a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19ab479f3c40fc820c8592e365cc8f83936f0be7a212970b64f9f548edf90cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117811716"
 ---
 # <a name="msvm_kvpexchangecomponent-class"></a>MSVM \_ KvpExchangeComponent, classe
 
@@ -140,7 +140,7 @@ La classe **MSVM \_ KvpExchangeComponent** possède ces méthodes.
 | **OnlineDevice**                                                           | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                          | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-kvpexchangecomponent-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-kvpexchangecomponent-reset.md)                           | Réinitialise le composant.<br/>         |
+| [**Initialisation**](msvm-kvpexchangecomponent-reset.md)                           | Réinitialise le composant.<br/>         |
 | **RestoreProperties**                                                      | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                         | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                          | Cette méthode n'est pas prise en charge.<br/> |
@@ -877,7 +877,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ KvpExchangeComponent** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -887,8 +887,8 @@ L’accès à la classe **MSVM \_ KvpExchangeComponent** peut être limité par 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

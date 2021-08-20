@@ -4,12 +4,12 @@ ms.assetid: 3da855f9-70d6-4b46-95eb-3c5e03a91647
 title: System. photo. DigitalZoomDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31d70565c39d7f03f7eb34361e6a405062fb8b37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70fa7403f0f2b95bafea2db64a00dd61fc741ae9dbee24e726872c71343f9c64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117682782"
 ---
 # <a name="systemphotodigitalzoomdenominator"></a>System. photo. DigitalZoomDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

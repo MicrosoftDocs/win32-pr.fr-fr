@@ -4,12 +4,12 @@ ms.assetid: a03286eb-83a9-4170-b514-e8899fd04c74
 title: Identification appelée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63f862d18fb3deb661cb8379c90a4b3e70caab1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29c751b54d167aace808ddd6003810aa0062102dcb064e3b8ab4252a6c6230a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117947667"
 ---
 # <a name="called-identification"></a>Identification appelée
 

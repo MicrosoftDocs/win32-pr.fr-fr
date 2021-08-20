@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f17078f625f3f2b96a32eceed034e3e0e0729f76
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 08dd21961cc90023f1c0e8eac52d68c029fae0f218698cbf3cecaf0f0496d34c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118013886"
 ---
 # <a name="msmq-ds-service-attribute"></a>Attribut MSMQ-DS-service
 
@@ -45,7 +45,7 @@ Indique si ce serveur fournit des services DS.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,7 +58,7 @@ Indique si ce serveur fournit des services DS.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -79,7 +79,7 @@ Indique si ce serveur fournit des services DS.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -100,7 +100,7 @@ Indique si ce serveur fournit des services DS.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -121,7 +121,7 @@ Indique si ce serveur fournit des services DS.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -142,7 +142,7 @@ Indique si ce serveur fournit des services DS.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -163,7 +163,7 @@ Indique si ce serveur fournit des services DS.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |

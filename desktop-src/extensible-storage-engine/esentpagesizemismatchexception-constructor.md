@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2d180946fbf04f7390c71118550f2b3d93f0c35f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f919ff658d05694b4c04c3c4a3b41cf758391dfc0239694f9d55025456f2fb2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117898500"
 ---
 # <a name="esentpagesizemismatchexception-constructor"></a>Constructeur EsentPageSizeMismatchException
 

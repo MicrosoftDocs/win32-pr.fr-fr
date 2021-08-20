@@ -5,12 +5,12 @@ ms.assetid: 42b20d3b-1799-4f5f-b74e-fe9284dd8ac3
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4afe084e4285f4851457f9a519e747952e3bbd67
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: cb4e7ddd37001b3b349159a21137fc1ae7b488c3a4997ac5f406677e3d421969
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118018250"
 ---
 # <a name="domain-controller-and-replication-management-structures"></a>Structures de contrôleur de domaine et de gestion de la réplication
 
@@ -67,6 +67,6 @@ Les fonctions de contrôleur de domaine et de gestion de la réplication utilise
 [Structures dans Active Directory Domain Services](structures-in-active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

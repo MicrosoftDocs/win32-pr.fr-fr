@@ -4,12 +4,12 @@ ms.assetid: 21769028-064d-4e17-88ec-16708732a176
 title: System.Devices.Aep.SignalStrength
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a01a037f26518eda75f4c4f5eccaa175d6c7cfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa5e7f3d25b5e6d7626e9cbaf96fe117832fe6741d7ca136916da24fd39dd976
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683977"
 ---
 # <a name="systemdevicesaepsignalstrength"></a>System.Devices.Aep.SignalStrength
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

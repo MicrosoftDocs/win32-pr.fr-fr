@@ -12,12 +12,12 @@ keywords:
 - prototypes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6212461b45d65b73caa77cf21b7591a77ef2a199
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 417ea7a87e989cd66ae98ecaeae552699a7cead592278a3f156638dac769b02b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117951648"
 ---
 # <a name="prototypes"></a>Prototypes
 
@@ -80,6 +80,6 @@ interface ITfContextRenderingMarkup : IUnknown
 
 
 
- 
+ 
 
- 
+ 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94af3a31a29da4ce5740c4e326bbf1a8961f9f82
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f900542c631193057985ca70d81dbfa7d3e53c6602f81a69b4e61a7cd107641a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118021365"
 ---
 # <a name="cqpm_clearform-message"></a>\_Message CQPM CLEARFORM
 
@@ -48,7 +48,7 @@ Non utilisé.
 
 Retourne **S \_ OK** en cas de réussite ou un code d’erreur **HRESULT** standard dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

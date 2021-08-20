@@ -5,12 +5,12 @@ ms.assetid: 3418667f-4d5a-4a4b-b0f5-7744a21608f7
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bcfb25d0f04a459217811a2ff0393fac47e3206
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa0a6f0105ebc7732303f74afdebba33883a9d8bc915ef36cbb314858c56e5ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118021993"
 ---
 # <a name="consistency-guids"></a>GUID de cohérence
 
@@ -22,9 +22,9 @@ Quelques points importants à prendre en compte :
 -   Les applications doivent générer leurs propres GUID (une API Microsoft Win32, UuidCreate, fournit cette fonction) et ne pas utiliser les GUID générés par le système qui se trouvent dans l’attribut **objectGUID** d’un objet. Cela est dû au fait qu’un GUID de cohérence doit changer chaque fois que l’ensemble d’objets est mis à jour. Les GUID d’identité d’objet trouvés dans **objectGUID** ne changent jamais après la création de l’objet.
 -   Les GUID de cohérence supposent qu’aucun objet n’est partagé entre les ensembles, donc chaque ensemble peut avoir un GUID de cohérence unique.
 
- 
+ 
 
- 
+ 
 
 
 

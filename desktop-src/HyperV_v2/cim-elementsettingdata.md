@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e22dbd221f2e83009e4268cc0de337374e04298a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86f2b83c46a9b533d922991574d33a12d0a620e1559116eccc356d2b4283e486
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812276"
 ---
 # <a name="cim_elementsettingdata-class"></a>\_Classe CIM ElementSettingData
 
@@ -206,7 +206,7 @@ Données de paramètre associées à l’élément.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

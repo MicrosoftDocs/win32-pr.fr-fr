@@ -9,26 +9,26 @@ keywords:
 - métadonnées, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 552e968ab4a5908ec1a2a80012ecba3a5b959c6c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fad8a687db3fc21c6d73ee43e4f6530fd6e2e504433699f4619ee3165c7af0fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846444"
 ---
 # <a name="metadata"></a>Métadonnées
 
 Dans le cadre de ce kit de développement logiciel (SDK), les métadonnées sont des informations qui décrivent un fichier ASF ou le contenu du fichier. La section d’en-tête d’un fichier ASF contient toutes les métadonnées associées à ce fichier. Les éléments de métadonnées d’un fichier ASF sont appelés attributs. Chaque attribut a un nom et une valeur. Tout au long de cette documentation, les constantes globales sont utilisées pour identifier les attributs. Par exemple, le titre d’un fichier ASF est stocké dans l’attribut **g \_ wszWMTitle** .
 
-Un certain nombre d’attributs sont définis dans le kit de développement logiciel (SDK) Windows Media format pour gérer les métadonnées les plus courantes. En outre, vous pouvez créer vos propres attributs. Toutefois, lorsque vous nommez des attributs personnalisés, vous devez être prudent, car d’autres développeurs d’applications peuvent utiliser les mêmes noms et des conflits peuvent se produire.
+un certain nombre d’attributs sont définis dans le kit de développement logiciel (SDK) Windows Media Format pour gérer les métadonnées les plus courantes. En outre, vous pouvez créer vos propres attributs. Toutefois, lorsque vous nommez des attributs personnalisés, vous devez être prudent, car d’autres développeurs d’applications peuvent utiliser les mêmes noms et des conflits peuvent se produire.
 
 Certains attributs sont définis par le kit de développement logiciel (SDK) et ne peuvent pas être modifiés manuellement. Par exemple, lorsque vous indexez un fichier ASF, le kit de développement logiciel (SDK) définit l’attribut **g \_ wszWMSeekable** pour indiquer que le fichier peut désormais être lu à partir de n’importe quel point spécifié.
 
 D’autres attributs sont purement informatifs et doivent être définis manuellement. Par exemple, si vous souhaitez effectuer le suivi de l’auteur d’un fichier, vous devez définir **g \_ wszWMAuthor**.
 
-Le kit de développement logiciel (SDK) Windows Media format prend en charge les attributs qui s’appliquent à l’ensemble du fichier, ainsi que les attributs qui s’appliquent aux flux individuels.
+le kit de développement logiciel (SDK) Windows Media Format prend en charge les attributs qui s’appliquent à l’ensemble du fichier, ainsi que les attributs qui s’appliquent aux flux individuels.
 
-Vous pouvez utiliser le kit de développement logiciel (SDK) de format Windows Media pour modifier les métadonnées dans les fichiers MP3, même si vous devez toujours utiliser des attributs conformes à ID3 dans des fichiers MP3 pour maintenir la compatibilité avec d’autres programmes de manipulation MP3.
+vous pouvez utiliser le kit de développement logiciel (SDK) de Format multimédia Windows pour modifier les métadonnées dans les fichiers mp3, même si vous devez toujours utiliser des attributs conformes à ID3 dans des fichiers mp3 pour maintenir la compatibilité avec d’autres programmes de manipulation MP3.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -46,9 +46,9 @@ Vous pouvez utiliser le kit de développement logiciel (SDK) de format Windows M
 [**Utilisation des métadonnées**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
