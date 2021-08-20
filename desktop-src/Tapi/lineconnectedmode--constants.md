@@ -4,12 +4,12 @@ ms.assetid: d75a5989-3f4e-4e5d-90b1-4e450def017e
 title: Constantes LINECONNECTEDMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5191d3a575ef353c54c91c0e53b3228621b703cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1b8038f7d67f5805f4e4ea6669b4a5cf0f2eb693503401cb7610f2faa56e698
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117944883"
 ---
 # <a name="lineconnectedmode_-constants"></a>\_Constantes LINECONNECTEDMODE
 
@@ -67,7 +67,7 @@ Indique que la station n’est pas un participant actif dans l’appel et que le
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Non extensible. Tous les 32 bits sont réservés.
 
@@ -79,7 +79,7 @@ Dans une telle situation, une opération de [**lineDrop**](/windows/desktop/api/
 
 De nombreuses opérations qui sont valides dans les appels de l’État Connected peuvent être impossibles dans le mode inactif, par exemple la surveillance des tons et des chiffres, car la station ne participe pas réellement à l’appel ; la surveillance est généralement suspendue (même si elle n’est pas annulée) pendant que l’appel est en mode inactif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: c4c87ca8-fbae-4275-9b69-7b32daf4c18f
 title: Mémoire tampon de compatibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8669e32cd47978c10e2f5abdbe076bcf08ba1862
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 739063a6570a93b1fb05442ebe3f6ec10a040626ba7a0fe4b9692d7e5636b5ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117946591"
 ---
 # <a name="compatibility-buffer"></a>Mémoire tampon de compatibilité
 

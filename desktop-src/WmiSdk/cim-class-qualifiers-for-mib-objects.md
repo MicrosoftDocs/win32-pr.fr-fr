@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Qualificateurs de classe CIM pour les objets MIB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d60fe97debc7fd81b48a6daf0f5a955374546458
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3f7e84473a85ef78cd81f6d0a3f4fc7cc1e488d2dec955c31a917677a9631c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925846"
 ---
 # <a name="cim-class-qualifiers-for-mib-objects"></a>Qualificateurs de classe CIM pour les objets MIB
 

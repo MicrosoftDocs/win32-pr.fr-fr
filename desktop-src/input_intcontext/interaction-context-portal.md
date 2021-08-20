@@ -12,18 +12,18 @@ keywords:
 - stylet
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: 6c5ace33c2752f14d45c06ea60efc91a4e564a07
-ms.sourcegitcommit: 6b8d5058d02daacad4d2ed7830da63b63a509586
+ms.openlocfilehash: c0525d5d149176044b19220100e0ff0f9d5f7437263fbb770e4e900104b5edeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "106512488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884566"
 ---
 # <a name="interaction-context"></a>Contexte d’interaction
 
 ## <a name="purpose"></a>Objectif
 
-Les rubriques de cette section fournissent une vue d’ensemble de la prise en charge du contexte d’interaction dans Windows 8. Le contexte d’interaction permet aux applications Windows 8 et aux infrastructures d’interface utilisateur de prendre en charge plusieurs interactions simultanées en fournissant la détection de mouvement et le traitement de manipulation.
+Les rubriques de cette section fournissent une vue d’ensemble de la prise en charge du contexte d’interaction dans Windows 8. le contexte d’Interaction permet à Windows 8 applications et à des infrastructures d’interface utilisateur de prendre en charge plusieurs interactions simultanées en fournissant la détection de mouvement et le traitement de manipulation.
 
 La collection de rubriques fournie ici décrit comment votre application peut utiliser le contexte d’interaction pour optimiser l’expérience utilisateur de votre client.
 

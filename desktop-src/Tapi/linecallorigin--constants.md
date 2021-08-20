@@ -4,12 +4,12 @@ ms.assetid: b830a40e-62d9-4a6c-b43f-8318f30a7cd4
 title: Constantes LINECALLORIGIN_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f00495d67dcff56ef7ee34cd85600a281e006ec3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 296bcc27f3f238e20608279a14ab00c0ab04060faef458fade3f222c7fa35fe8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117944910"
 ---
 # <a name="linecallorigin_-constants"></a>\_Constantes LINECALLORIGIN
 
@@ -87,13 +87,13 @@ L’origine de l’appel est actuellement inconnue, mais peut devenir connue ult
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 
 L’origine d’un appel est stockée dans le membre **dwOrigin** de la structure [**LINECALLINFO**](/windows/desktop/api/Tapi/ns-tapi-linecallinfo) de l’appel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

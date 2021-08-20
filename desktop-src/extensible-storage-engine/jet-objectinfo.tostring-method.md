@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bb8c11956ad7ff80f061b8c30513b7292f4cf029
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d67f4a0c49c8abb3a0a0278ad7023baa0316fb7ecfb38714cdb1a935a321c196
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118074124"
 ---
 # <a name="jet_objectinfotostring-method"></a>JET_OBJECTINFO. Méthode ToString
 

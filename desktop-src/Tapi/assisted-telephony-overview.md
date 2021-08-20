@@ -4,12 +4,12 @@ ms.assetid: 1c41f52b-f8bf-410e-a966-9323a690a4d5
 title: Vue d’ensemble de la téléphonie assistée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b6a8826fd0c273936204d9250fb91504333d807
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86adba883e558419731405c5b1274e812816944295c5743e8a91d343b42082c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948842"
 ---
 # <a name="assisted-telephony-overview"></a>Vue d’ensemble de la téléphonie assistée
 

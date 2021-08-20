@@ -4,12 +4,12 @@ ms.assetid: 3069232f-d016-4973-ae39-89b0e2a03cd7
 title: Clés RSA/Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93c9d23de40f32a499013928086ccb52fc1d1e67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: edc134557bcac9f38f204ebb70a3c55a7b3e1be476ef2c4d767dd216701bcd25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117974783"
 ---
 # <a name="rsaschannel-keys"></a>Clés RSA/Schannel
 

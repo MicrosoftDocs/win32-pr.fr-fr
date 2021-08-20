@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7d377d101edeabcbd88a4dac4897b7373a568e2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58b2b1e0a0964e83c15c3b2c4ea170c51efc9bb3b71a4d6cfe7ec1e3d8af2a12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117812735"
 ---
 # <a name="cim_diskdrive-class-hyper-v-management"></a>Classe CIM_DiskDrive (gestion Hyper-V)
 
@@ -37,7 +37,7 @@ class CIM_DiskDrive : CIM_MediaAccessDevice
 
 La classe **CIM \_ DiskDrive** ne définit aucun membre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

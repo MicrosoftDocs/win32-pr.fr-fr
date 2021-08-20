@@ -83,12 +83,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 7c166e005c9bcc9efe68fee926c9fa9c2a4f4e7e
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 2841148c5907375fd653c57a38638b49319ec8fc8ed7bedc121895d142a02736
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047091"
 ---
 # <a name="shlwapi-wrapper-functions"></a>Fonctions de wrapper SHLWAPI
 
@@ -113,7 +113,7 @@ Les fonctions wrapper dans ce tableau sont toutes contenues dans Shlwapi.dll. Po
 
 
 
-| Fonction                  | Ordinal | Transférer à                                             | DLL      | Notes                                                                                                                             |
+| Fonction                  | Ordinal | Transférer à                                             | DLL      | Remarques                                                                                                                             |
 |---------------------------|---------|---------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|
 | AppendMenuWrapW           | 36      | [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua)                     | USER32   | [(a)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(menu)](#menu)                                                           |
 | CallWindowProcWrapW       | 37      | [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca)             | USER32   | [cliqu](#shlwapi-wrapper-functions)                                                                                                   |
@@ -187,7 +187,7 @@ Les fonctions wrapper dans le tableau suivant n’effectuent pas de conversion d
 
 
 
-| Fonction                     | Ordinal | Transférer à                                                                     | DLL      | Notes                                                                        |
+| Fonction                     | Ordinal | Transférer à                                                                     | DLL      | Remarques                                                                        |
 |------------------------------|---------|---------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------|
 | MLGetUILanguage              | 376     | [**GetUserDefaultUILanguage**](/windows/win32/api/winnls/nf-winnls-getuserdefaultuilanguage)                   | KERNEL32 | [manutention](#shlwapi-wrapper-functions)                                              |
 | SHCancelTimerQueueTimer      | 265     | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer)                         | KERNEL32 | [manutention](#shlwapi-wrapper-functions)                                              |
@@ -200,7 +200,7 @@ Les fonctions wrapper dans le tableau suivant n’effectuent pas de conversion d
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="a"></a>un
 
@@ -307,7 +307,7 @@ FormatMessageWrapW(FORMAT_MESSAGE_FROM_STRING,
 
 Cet exemple de code utilise «  ! s ! » HH:MM:SS. Sur les plateformes ANSI natives, cette chaîne est transmise à la version ANSI de la fonction [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage) . Par conséquent, une chaîne ANSI est attendue au lieu d’une chaîne Unicode. De même, le format « %2 » implique un argument de chaîne. Lorsqu’elle est transmise à la fonction ANSI **FormatMessage** , elle est interprétée comme une chaîne ANSI et non comme une chaîne Unicode. La chaîne de format correcte est L "%1 ! ws ! %2 ! WS !». Cela imprime les chaînes correctement sur les plateformes ANSI et Unicode.
 
-La fonction ne prend pas en charge « %0 » chaîne de format spéciale.
+La fonction ne prend pas en charge la chaîne de format spéciale "%0".
 
 Le MSLU n’a pas ces limitations.
 
@@ -363,7 +363,7 @@ Les paramètres doivent être définis comme suit :
 
     
 
-    | Nom              | Valeur      | Signification                          |
+    | Name              | Valeur      | Signification                          |
     |-------------------|------------|----------------------------------|
     | TPS \_ EXECUTEIO    | 0x00000001 | Identique à WT \_ EXECUTEINIOTHREAD.   |
     | TPS \_ LONGEXECTIME | 0x00000008 | Identique à WT \_ EXECUTELONGFUNCTION. |
@@ -462,7 +462,7 @@ Les paramètres doivent être définis comme suit :
 
     
 
-    | Nom              | Valeur      | Signification                         |
+    | Name              | Valeur      | Signification                         |
     |-------------------|------------|---------------------------------|
     | TPS \_ EXECUTEIO    | 0x00000001 | Identique à WT \_ EXECUTEINIOTHREAD   |
     | TPS \_ LONGEXECTIME | 0x00000008 | Identique à WT \_ EXECUTELONGFUNCTION |

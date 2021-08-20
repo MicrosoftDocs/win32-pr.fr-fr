@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 590b9b08c5386aaf1cd2dd541ac496a5fa0871d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 011c8ba50ea708df93a0bb9b7f781e19391317676034434de67c61134ddff603
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117891506"
 ---
 # <a name="jetdupcursor-function"></a>Fonction JetDupCursor
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetdupcursor-function"></a>Fonction JetDupCursor
 
@@ -63,7 +63,7 @@ Réservé pour un usage futur.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -87,7 +87,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
+<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errNotInitialized</p></td>
@@ -103,7 +103,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="odd">
 <td><p>JET_errSessionSharingViolation</p></td>
-<td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
+<td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errTermInProgress</p></td>
@@ -117,7 +117,7 @@ En cas de réussite, *pTableID* est défini sur un curseur dupliqué.
 
 En cas d’échec, aucune modification n’est apportée. L’état de *TableID* est inchangé.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Le curseur dupliqué n’a pas l’état de curseur entier copié. L’emplacement du curseur dupliqué, y compris l’index actuel, est généralement différent du curseur donné. Le curseur dupliqué est toujours retourné sur l’index cluster et sur la première ligne de la table. Si la table est vide, le curseur dupliqué ne figure pas sur une ligne.
 
@@ -125,7 +125,7 @@ Les tables ouvertes avec **JetDupCursor** doivent généralement être fermées 
 
 Le nombre de tables pouvant être ouvertes simultanément est directement affecté par [JET_paramMaxOpenTables](./resource-parameters.md). Pour plus d’informations, consultez [paramètres système](./extensible-storage-engine-system-parameters.md) .
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Conditions requises
 
 <table>
 <colgroup>
@@ -135,11 +135,11 @@ Le nombre de tables pouvant être ouvertes simultanément est directement affect
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

@@ -4,12 +4,12 @@ ms.assetid: 872de1e9-20f9-409b-9917-24b13a8cc08a
 title: Interfaces COM (API de capteur)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66a73e506f5b2a59a7ce8373b810aeba779f5e9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dec09b777379b283a4b941eccd6b6a393d4b51acbdd212e13f6b70569e866833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117968301"
 ---
 # <a name="com-interfaces-sensor-api"></a>Interfaces COM (API de capteur)
 

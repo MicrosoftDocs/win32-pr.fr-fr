@@ -3,7 +3,7 @@ title: Commande MCI_SET (mmsystem. h)
 description: La \_ commande Set MCI définit les informations de l’appareil. Les périphériques CD audio, numérique-vidéo, MIDI Sequencer, VCR, videodisc, vidéo-overlay et Waveform-Audio reconnaissent cette commande.
 ms.assetid: c527f9d6-2119-4274-98b7-dc892e9b70f9
 keywords:
-- Commande MCI_SET Windows multimédia
+- commande MCI_SET Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e1da0da94c0d970b607a29548c773fa9302d26d
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: 7f5affb6ce41c5c321b24353ece8f0946dc668194ac59cee95e579178a8b03df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "106535724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803385"
 ---
 # <a name="mci_set-command"></a>\_Commande Set MCI
 
@@ -71,7 +71,7 @@ Pointeur vers une [**structure \_ Set \_ PARMS de MCI**](mci-set-parms.md) . (Le
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants s’appliquent à tous les appareils prenant en charge l' \_ ensemble MCI :
 
@@ -744,7 +744,7 @@ Plusieurs propriétés des données Waveform-Audio sont définies lors de la cr�
 -   \_jeu Wave \_ MCI \_ FORMATTAG
 -   \_jeu Wave \_ MCI \_ SAMPLESPERSEC
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -752,7 +752,7 @@ Plusieurs propriétés des données Waveform-Audio sont définies lors de la cr�
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

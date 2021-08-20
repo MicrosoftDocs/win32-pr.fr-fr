@@ -4,12 +4,12 @@ ms.assetid: 9f405e99-28f5-4415-a274-682b87ae6842
 title: Détection d’une suite de produits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 594acbe22283e1c2a3be3ce60116076b2de6f3fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ab81c93fff4422604b6c45c12819dc60dde0e92f6a24f27b41e7aa1ac9c1698
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117958632"
 ---
 # <a name="detecting-a-product-suite"></a>Détection d’une suite de produits
 

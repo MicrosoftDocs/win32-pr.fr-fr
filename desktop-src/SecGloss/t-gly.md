@@ -5,12 +5,12 @@ ms.assetid: 11f2e098-1d1e-473b-90ff-7b86eb923e9f
 title: T (Glossaire sécurité)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e118eda45c2923470adf4ee1668a26111995a0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a91fa55a6f03b571db5b09b354bd20a8d348df74ae387a3c2fe05e4002da23cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117969903"
 ---
 # <a name="t-security-glossary"></a>T (Glossaire sécurité)
 

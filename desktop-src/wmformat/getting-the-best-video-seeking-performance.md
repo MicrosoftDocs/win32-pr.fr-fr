@@ -14,16 +14,16 @@ keywords:
 - performances, recherche de vidéos
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c95feb9158bbab09ce28024100f3ebbffb56ad9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d055ade42caada84e4c58667d568d796c36cf10b3250e827b6194ac68369ec4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117655596"
 ---
 # <a name="getting-the-best-video-seeking-performance"></a>Obtenir les meilleures performances de recherche de vidéos
 
-La recherche de contenu dans un fichier est une opération très courante qui est potentiellement un problème de performances. La vidéo encodée avec le codec Windows Media Video 9 est constituée principalement d’images Delta, qui enregistrent uniquement les modifications par rapport au frame précédent. La reconstruction des frames Delta prend du temps, en particulier si les images clés sont éloignées. Pour plus d’informations sur la configuration d’images clés pour une recherche efficace, consultez [Configuration des flux vidéo pour la recherche de performances](configuring-video-streams-for-seeking-performance.md).
+La recherche de contenu dans un fichier est une opération très courante qui est potentiellement un problème de performances. la vidéo encodée avec le codec Windows Media Video 9 est constituée principalement d’images delta, qui enregistrent uniquement les modifications par rapport au frame précédent. La reconstruction des frames Delta prend du temps, en particulier si les images clés sont éloignées. pour plus d’informations sur la configuration d’images clés pour une recherche efficace, consultez [configuration de la vidéo Flux pour la recherche de performances](configuring-video-streams-for-seeking-performance.md).
 
 En plus de la configuration appropriée, vous pouvez améliorer les performances de recherche à l’aide de l’indexation des frames pour le flux vidéo. La recherche d’un numéro de trame est généralement plus rapide que la recherche d’une heure de présentation.
 
@@ -48,9 +48,9 @@ En cas de recherche dans un fichier contenant plusieurs flux, vous ne devez sél
 [**Pour effectuer une recherche par heure à l’aide du lecteur synchrone**](to-seek-by-time-using-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

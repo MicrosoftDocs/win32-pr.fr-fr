@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b0a7af204495d08d3ffc138b8e5b7e96ace4a9ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 922ae1f3d9221384456a1e4c3167614c3df940436006670932fa955d097a63e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117893616"
 ---
 # <a name="jet_ossnapidnil-property"></a>JET_OSSNAPID. Nil, propriété
 

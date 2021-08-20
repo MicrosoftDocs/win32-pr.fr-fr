@@ -4,12 +4,12 @@ ms.assetid: e4e5ef5c-d5ea-4931-bbec-1635e8f08c91
 title: Ouverture d’un métafichier amélioré et affichage de son contenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4f27ce191d66345e5b46ef355757a9c077cf2f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aceb51d9b1d2117f5b47445b3026b9651fa29d656715dc03a1892881b4fd32f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117698701"
 ---
 # <a name="opening-an-enhanced-metafile-and-displaying-its-contents"></a>Ouverture d’un métafichier amélioré et affichage de son contenu
 

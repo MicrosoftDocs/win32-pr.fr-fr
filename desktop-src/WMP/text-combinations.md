@@ -3,24 +3,24 @@ title: Combinaisons de texte
 description: Combinaisons de texte
 ms.assetid: 0220b77e-5f1e-4569-a8fe-5085e0c16338
 keywords:
-- Windows Media Player Mobile Skins, palissades
+- Lecteur Windows Media Habillages mobiles, rectangles de sélection
 - apparences, rectangles de sélection
 - informations de référence sur les habillages, les cadres
 - textes défilant dans les apparences, combinaisons de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5668a9e18555b871c82bae7ed1826766ec9429e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5d0d937d0ae2f90fe37ea8f4af1208443bbb127d622a83ecb5f556ddff596824
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117933417"
 ---
 # <a name="text-combinations"></a>Combinaisons de texte
 
 Cette valeur est une liste de combinaisons de zones d’affichage de texte, séparées par des virgules. Les zones d’affichage de texte peuvent être jointes par un caractère plus pour créer une nouvelle valeur d’affichage de texte défilant et tout type de texte défini dans la section type de texte peut être utilisé dans votre texte défilant.
 
-Lorsque vous déterminez ce qui doit être affiché, le lecteur Windows Media Mobile évalue chaque élément de la liste pour voir si toutes les parties sont disponibles. Si ce n’est pas le cas, l’élément suivant est évalué, et ainsi de suite, jusqu’à ce que toutes les parties disponibles aient été trouvées. Par exemple, si vous souhaitez afficher l’auteur et le titre, mais que vous ne savez pas si les deux sont disponibles, utilisez la valeur suivante :
+lorsque vous déterminez ce qui doit être affiché, Lecteur Windows Media Mobile évalue chaque élément de la liste pour voir si toutes les parties sont disponibles. Si ce n’est pas le cas, l’élément suivant est évalué, et ainsi de suite, jusqu’à ce que toutes les parties disponibles aient été trouvées. Par exemple, si vous souhaitez afficher l’auteur et le titre, mais que vous ne savez pas si les deux sont disponibles, utilisez la valeur suivante :
 
 
 ```C++
@@ -44,9 +44,9 @@ Lorsque vous utilisez le signe plus pour la concaténation, veillez à ne pas av
 [**Type de texte**](text-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

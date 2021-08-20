@@ -4,12 +4,12 @@ ms.assetid: 71effafe-55a9-40ed-81c7-07278eba32d3
 title: Font-Embedding des messages d’erreur de fonction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a4bf348d73e6b452ba9afe819e3fa515ebd04c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b059b88c9261092fd69b9fce5eca65a9fdf49de5a1b63c8411e605aec38c65a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117699356"
 ---
 # <a name="font-embedding-function-error-messages"></a>Font-Embedding des messages d’erreur de fonction
 
@@ -64,8 +64,8 @@ Les valeurs longues suivantes sont retournées par les fonctions d’incorporati
 | \_STREAMINVALID E              | Le flux spécifié dans [**TTEmbedFont**](/windows/desktop/api/T2embapi/nf-t2embapi-ttembedfont) ou les fonctions de chargement n’est pas valide.                                                                                                                                                                                             |
 | \_SUBSETTINGFAILED E           | [**TTEmbedFont**](/windows/desktop/api/T2embapi/nf-t2embapi-ttembedfont) a échoué lors de la tentative de création d’un sous-ensemble d’une police.                                                                                                                                                                                                 |
 | \_T2NOFREEMEMORY E             | Une erreur s’est produite lors de la tentative de libération de mémoire. La mémoire en question a échoué pendant l’opération libre.                                                                                                                                                                              |
-| \_WINDOWSAPI E                 | Une erreur interne s’est produite lors de l’une des fonctions appelées « API Windows », telles que [**GetTextMetrics**](/windows/desktop/api/Wingdi/nf-wingdi-gettextmetrics) ou [**GetOutlineTextMetrics**](/windows/desktop/api/Wingdi/nf-wingdi-getoutlinetextmetricsa).                                                                                                   |
-| \_NOTIMPL API \_               | Cette fonction d’API n’est pas implémentée dans la version de Windows sur laquelle elle est exécutée.                                                                                                                                                                                                   |
+| \_WINDOWSAPI E                 | une erreur interne s’est produite lors de l’une des fonctions appelées API Windows, telles que [**GetTextMetrics**](/windows/desktop/api/Wingdi/nf-wingdi-gettextmetrics) ou [**GetOutlineTextMetrics**](/windows/desktop/api/Wingdi/nf-wingdi-getoutlinetextmetricsa).                                                                                                   |
+| \_NOTIMPL API \_               | cette fonction d’API n’est pas implémentée dans la version de Windows sur laquelle elle s’exécute.                                                                                                                                                                                                   |
 
 
 

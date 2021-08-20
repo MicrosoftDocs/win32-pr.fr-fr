@@ -4,18 +4,18 @@ description: L’API AccChecker prend en charge les tests automatisés. Après a
 ms.assetid: 9AD9A259-130B-4968-B7FD-DAFA89320391
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7c098d25e282a8df8ff4125dfd2ce1f94d795b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65d90fc45ea80e164db08b9232c7e65588921e0af5a1b156d2a924b00076b405
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929001"
 ---
 # <a name="the-accchecker-api"></a>API AccChecker
 
 L’API AccChecker prend en charge les tests automatisés. Après avoir suivi une application à l’aide de tests manuels avec l’interface graphique utilisateur AccChecker, vous pouvez écrire des tests automatisés qui incorporent les journaux de messages et de suppression créés avec l’outil GUI.
 
-L’exemple de code suivant montre comment utiliser l’API AccChecker pour tester la fonctionnalité de tabulation dans l’application du panneau de configuration du pare-feu Windows.
+l’exemple de code suivant montre comment utiliser l’API AccChecker pour tester la fonctionnalité de tabulation dans le Windows application du panneau de configuration du pare-feu.
 
 
 ```CSharp
@@ -72,9 +72,9 @@ public class TestCases : TestBase
 [Vérificateur d’accessibilité de l’interface utilisateur](ui-accessibility-checker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: a32602ebcc279685ff1d1e2e6c837d1a39b7a8d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9d7fc4d9a703282f2ce7b17d00b8e7cdb330d782bc7997751f03b0b50f09219
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922491"
 ---
 # <a name="swbemnamedvaluesetcount-property"></a>SWbemNamedValueSet. Count (propriété)
 
@@ -42,7 +42,7 @@ SWbemNamedValueSet.Count As Integer
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

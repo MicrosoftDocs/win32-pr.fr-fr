@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 84ca02bf749fd69db01ca7925b554c4eb0d95c35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e087937e87b178be286710631ef202695e79b322a02b021d30ac354e752102a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922481"
 ---
 # <a name="swbemobjectclone_-method"></a>SWbemObject. Clone, \_ méthode
 
@@ -74,13 +74,13 @@ Mémoire insuffisante pour cloner l’objet.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la **méthode \_ clone** pour dupliquer une définition de classe ou une instance. Cela est utile lorsque vous avez besoin de la copie d’origine de l’objet à des fins de sauvegarde lors de la modification d’une nouvelle copie. De même, utilisez cette méthode pour créer un grand nombre de nouvelles instances à partir d’une seule instance source. Par exemple, utilisez [**SWbemObject. SpawnInstance \_**](swbemobject-spawninstance-.md) pour créer une instance de démarrage unique et utilisez **SWbemObject. Clone \_** pour produire rapidement 100 copies de l’instance. Par la suite, vous pouvez modifier les objets, en attribuant à chacune d’elles des valeurs spécifiques.
 
 Il n’est pas possible d’utiliser cette méthode pour convertir une définition de classe en instance, ni pour convertir une instance en une définition de classe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

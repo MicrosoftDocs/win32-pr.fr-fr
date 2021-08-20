@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e875a269d2cf1cd4e3b40d5c84d42ffb97dc35a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9df081d9b7ff238b347f7068f3631c17a8921c3fef1a567ee151dae93b5dda52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117923750"
 ---
 # <a name="making-a-semisynchronous-call-with-vbscript"></a>Exécution d’un appel semi-synchrone avec VBScript
 
-Certaines méthodes WMI peuvent retourner des collections volumineuses, provoquant ainsi un blocage des scripts. Dans le script, l’accès semi-synchrone est la valeur par défaut, et Windows Management Instrumentation (WMI) définit **wbemFlagReturnImmediately** pour les appels qui peuvent retourner des collections d’objets volumineuses, telles que les méthodes [**SWbemServices**](swbemservices.md) suivantes : [**InstancesOf**](swbemservices-instancesof.md), [**SubclassesOf**](swbemservices-subclassesof.md), [**ExecQuery**](swbemservices-execquery.md), [**AssociatorsOf**](swbemservices-associatorsof.md)et [**ReferencesTo**](swbemservices-referencesto.md).
+Certaines méthodes WMI peuvent retourner des collections volumineuses, provoquant ainsi un blocage des scripts. dans le script, l’accès semi-synchrone est la valeur par défaut, et Windows Management Instrumentation (WMI) définit **wbemFlagReturnImmediately** pour les appels qui peuvent retourner des collections d’objets volumineuses, telles que les méthodes [**SWbemServices**](swbemservices.md) suivantes : [**InstancesOf**](swbemservices-instancesof.md), [**SubclassesOf**](swbemservices-subclassesof.md), [**ExecQuery**](swbemservices-execquery.md), [**AssociatorsOf**](swbemservices-associatorsof.md)et [**ReferencesTo**](swbemservices-referencesto.md).
 
 L’accès semi-synchrone qui utilise **wbemFlagReturnImmediately** défini dans le paramètre *IFlags* est également la valeur par défaut pour les appels qui peuvent retourner des jeux d’objets volumineux pour les méthodes [**SWbemObject**](swbemobject.md) suivantes : [**instances \_**](swbemobject-instances-.md), [**sous-classes \_**](swbemobject-subclasses-.md), [**\_ associateurs**](swbemobject-associators-.md)et [**références \_**](swbemobject-references-.md).
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: af690e09a5d967d693e1a3b09b178a63a65d1741
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3d85b3be08568a692cabc0ea8b8993d025dacd416d77f3e88b1428f71c487b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117893697"
 ---
 # <a name="jet_opentemporarytablegrbit-property"></a>JET_OPENTEMPORARYTABLE. Grbit, propriété
 

@@ -3,7 +3,7 @@ title: Message WM_GESTURE (winuser. h)
 description: Transmet des informations sur un geste.
 ms.assetid: 4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8
 keywords:
-- WM_GESTURE message Windows tactile
+- WM_GESTURE message Windows Touch
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d1184d1f54d110f84630a727decb91ad28e6c08
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c9b87e0e3f5fbcfbd9205b4ee6808e0c692923ca46e8a0557f9afd62fb39cbcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117656284"
 ---
 # <a name="wm_gesture-message"></a>\_Message de mouvement WM
 
@@ -49,7 +49,7 @@ Si une application traite ce message, elle doit retourner 0.
 
 Si l’application ne traite pas le message, elle doit appeler [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca). Si ce n’est pas le cas, l’application risque de provoquer une fuite de mémoire, car le handle d’entrée tactile n’est pas fermé et la mémoire de processus associée n’est pas libérée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant répertorie les commandes de mouvement prises en charge.
 
@@ -165,14 +165,14 @@ Le code suivant montre comment obtenir des informations spécifiques au geste as
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                  |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 
@@ -184,7 +184,7 @@ Le code suivant montre comment obtenir des informations spécifiques au geste as
 [Notifications](notifications.md)
 </dt> <dt>
 
-[Guide de programmation des gestes tactiles Windows](guide-multi-touch-gestures.md)
+[Windows Guide de programmation des gestes tactiles](guide-multi-touch-gestures.md)
 </dt> </dl>
 
  

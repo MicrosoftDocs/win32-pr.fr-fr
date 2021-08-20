@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0174ab2f896a27e44df592ec28b7cb12a03198f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9e5e5402eb123c5edd44a5616b6973940ba065e2b0c8c2bfa63e7d151ae30124
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117957246"
 ---
 # <a name="systemmonitoroncounterselected-event"></a>Événement SystemMonitor. OnCounterSelected
 
@@ -53,7 +53,7 @@ Index du compteur sélectionné dans l’objet de collection de [**compteurs**](
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez recevoir cet événement lorsque
 
@@ -61,7 +61,7 @@ Vous pouvez recevoir cet événement lorsque
 -   L’utilisateur sélectionne un compteur dans la légende
 -   L’utilisateur double-clique sur un compteur dans la légende
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

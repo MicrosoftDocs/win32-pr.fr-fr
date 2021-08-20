@@ -8,12 +8,12 @@ keywords:
 - clients, éléments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d4705d75a0a80c114e2b83f9625f827c75503b9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f37ff185e72c25f5c3b8eeba8cdd4ae9250391a867538ad3e4b6de4f8d1dce25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117928681"
 ---
 # <a name="ui-automation-clients-overview"></a>Vue d’ensemble des clients UI Automation
 
@@ -61,6 +61,6 @@ Du point de vue d’UI Automation, les principales tâches qu’une application 
 [Vue d'ensemble des événements UI Automation](uiauto-eventsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

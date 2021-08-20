@@ -4,12 +4,12 @@ ms.assetid: 467d4a61-8430-403c-90ed-f8c224ce3b61
 title: GraphicsPath. AddRectangles, méthodes (Gdipluspath. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 0e5fa6f277d89c64d55c3aeb5c1cf535d73c51da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
-ms.translationtype: HT
+ms.openlocfilehash: 4b5d9c1af35938996bf4a2f0cdb8f8cc5fff39f6ff77c1e680f49c816f9504f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104996525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117697554"
 ---
 # <a name="graphicspathaddrectangles-methods"></a>GraphicsPath. AddRectangles, méthodes
 
@@ -26,7 +26,7 @@ Cette rubrique répertorie les méthodes AddRectangles de la classe [**GraphicsP
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 

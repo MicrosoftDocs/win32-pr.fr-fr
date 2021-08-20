@@ -23,12 +23,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: a60b24278fb235cec38c127e7ebbbb481e49a140
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88b611e4e1a58fb045f13b75a10c84199c936da68bb3c9bbc8f1c556f8b9937d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926167"
 ---
 # <a name="__objectproviderregistration-class"></a>\_\_ObjectProviderRegistration, classe
 
@@ -174,7 +174,7 @@ Si la **valeur est true**, le fournisseur prend en charge la suppression des don
 
 <dt>
 
-Vrai
+True
 </dt> <dd>
 
 Le fournisseur prend en charge la suppression de classe ou d’instance en implémentant l’un des [**Eleteclassasync IWbemServices ::D**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync) (fournisseurs de classes) ou [**IWbemServices ::D eleteinstanceasync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync) (fournisseurs d’instances).
@@ -203,7 +203,7 @@ Si la **valeur est true**, le fournisseur prend en charge l’énumération des 
 
 <dt>
 
-Vrai
+True
 </dt> <dd>
 
 Le fournisseur prend en charge l’énumération des données en implémentant l’une des classes [**IWbemServices :: CreateClassEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createclassenumasync) (fournisseurs de classes) ou [**IWbemServices :: CreateInstanceEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync) (fournisseurs d’instances).
@@ -232,7 +232,7 @@ Si la **valeur est true**, la classe ou le fournisseur d’instance prend en cha
 
 <dt>
 
-Vrai
+True
 </dt> <dd>
 
 Le fournisseur prend en charge la récupération de données en implémentant [**IWbemServices :: GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync).
@@ -290,7 +290,7 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ ObjectProviderRegistration** est dérivée de [**\_ \_ ProviderRegistration**](--providerregistration.md).
 
@@ -298,11 +298,11 @@ Les fournisseurs de classes doivent définir la propriété **SupportsEnumeratio
 
 Un fournisseur qui définit **QuerySupportLevels** sur « WQL : UnarySelect » peut accepter une requête qui se compose de l’instruction SELECT de base telle qu’elle est prise en charge dans la version 1,0 de WMI. Les fournisseurs de classes et d’instances sont censés être en mesure de gérer la propriété système de **\_ \_ classe** . Les fournisseurs de classes sont également censés traiter la propriété système de la **\_ \_ superclasse** et l’opérateur ISA. L’opérateur ISA est utilisé pour étendre un jeu de résultats aux classes dérivées. Si un fournisseur reçoit une requête qu’il ne peut pas interpréter, il demande que WMI le gère en retournant la valeur d’erreur **WBEM \_ E \_ trop \_ complexe** . Pour obtenir une description de la syntaxe WQL valide, consultez [interrogation avec WQL](querying-with-wql.md).
 
-Un fournisseur qui affecte à **QuerySupportLevels** la valeur **WQL : V1ProviderDefined** peut essayer de prendre en charge un plus grand ensemble de syntaxe SQL à son propre risque, par exemple la `ORDER BY` clause. WMI n’interprète pas les clauses supplémentaires ou ne tente pas de s’assurer que le jeu de résultats est correct.
+un fournisseur qui affecte à **QuerySupportLevels** la valeur **WQL : V1ProviderDefined** peut essayer de prendre en charge un plus grand ensemble de la syntaxe SQL à son propre risque, par exemple la `ORDER BY` clause. WMI n’interprète pas les clauses supplémentaires ou ne tente pas de s’assurer que le jeu de résultats est correct.
 
 Seuls les administrateurs peuvent inscrire ou supprimer un fournisseur en créant une instance de [**\_ \_ Win32Provider**](--win32provider.md) et en l’inscrivant.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

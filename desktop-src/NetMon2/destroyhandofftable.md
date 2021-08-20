@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 7afccfd1932c57b2a0d77dbb5467afc31726c6fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec956ff4d0098b5a8992d6d28ab10afb925e76cb95b55d85ea7aa813ab2ba3c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796265"
 ---
 # <a name="destroyhandofftable-function"></a>DestroyHandoffTable fonction)
 
@@ -48,9 +48,9 @@ Handle vers la table de remise détruite.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Aucun
+Aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 31cc4ebe-83cb-43d0-8249-0f14db6629ab
 title: System. GPS. Status
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bd644f0d8d73a29d14f94ad57e54e63a0cc22f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c8c7451246d08e6a75d38bd52055d42f984c7cac722dd4e67c741b3c44eb933
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866081"
 ---
 # <a name="systemgpsstatus"></a>System. GPS. Status
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

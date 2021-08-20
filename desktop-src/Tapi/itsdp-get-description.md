@@ -4,16 +4,16 @@ ms.assetid: 09a372fe-0dcd-4daf-8f13-c4c89b1ecd16
 title: 'ITSdp :: get_Description, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5f60f7aefcfac852a1665f54a59ff0541b1d82a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5466200a3efe51e102af5bb2abb92e86dff5c49a10f3f6498c77a992ba43073d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117945045"
 ---
 # <a name="itsdpget_description-method"></a>ITSdp :: méthode d’extraction, \_ méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir la \_ Description** obtient la description de session (**BSTR**). Il doit s’agir d’une chaîne convertible ASCII si le jeu de caractères est ASCII. (Dans le cas contraire, il peut s’agir d’une chaîne **BSTR** .)
 
@@ -57,11 +57,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer le paramètre *ppDescription* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

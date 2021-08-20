@@ -4,12 +4,12 @@ ms.assetid: df06ddcb-e573-461c-99a3-8f108fe2c143
 title: API d’impression XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30c53322a8ae6a03c3ac4bb71fc680f719999546
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 494fed2e1a09604c2989a96d7372d62eb710537259938f7f1fd1783cd8cdd36f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867701"
 ---
 # <a name="xps-print-api"></a>API d’impression XPS
 
@@ -26,9 +26,9 @@ Cette section contient des informations sur les rubriques suivantes.
 [Informations de référence sur l’API d’impression XPS](xpsprint-interfaces.md)  
 </dl>
 
-Les applications Windows natives qui créent des documents XPS, par exemple à l’aide de l' [API de document XPS](/previous-versions/windows/desktop/dd316976(v=vs.85)), peuvent utiliser l’API d’impression XPS pour envoyer du contenu de document XPS à une imprimante.
+les applications natives Windows qui créent des documents xps, par exemple à l’aide de l' [api de document xps](/previous-versions/windows/desktop/dd316976(v=vs.85)), peuvent utiliser l’api d’impression xps pour envoyer du contenu de Document xps à une imprimante.
 
-Le diagramme suivant montre la relation entre l’API d’impression XPS et les autres API d’impression qu’une application Windows Native peut utiliser.
+le diagramme suivant montre la relation entre l’api d’impression XPS et les autres api d’impression qu’une application de Windows native peut utiliser.
 
 ![diagramme qui montre la relation entre l’API d’impression XPS et les autres API d’impression qu’une application Windows Native peut utiliser](images/print-apis-xps.png)
 

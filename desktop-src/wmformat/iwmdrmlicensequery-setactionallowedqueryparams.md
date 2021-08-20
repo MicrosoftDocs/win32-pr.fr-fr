@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a83a28c4d9f3758b711c43ddd83a509c58f8ea8a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54dfa59300c9d222b13067524d2e9e174e1600adff98bbaaed3973a0168942ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117655036"
 ---
 # <a name="iwmdrmlicensequerysetactionallowedqueryparams-method"></a>IWMDRMLicenseQuery :: SetActionAllowedQueryParams, méthode
 
@@ -49,14 +49,14 @@ HRESULT SetActionAllowedQueryParams(
 *fIsMF* \[ dans\]
 </dt> <dd>
 
-Spécifie si le contenu sera rendu à l’aide des objets du kit de développement logiciel (SDK) Microsoft Media Foundation. **False** indique le rendu par les objets du kit de développement logiciel (SDK) de format Windows Media. Ce paramètre est facultatif.
+Spécifie si le contenu sera rendu à l’aide des objets du kit de développement logiciel (SDK) Microsoft Media Foundation. **false** indique le rendu par les objets du kit de développement logiciel (SDK) de Format multimédia Windows. Ce paramètre est facultatif.
 
 </dd> <dt>
 
 *dwAppSecLevel* \[ dans\]
 </dt> <dd>
 
-Niveau de sécurité de l’application de requête. Cette valeur n’est importante que si les objets du kit de développement logiciel (SDK) du format Windows Media sont utilisés, auquel cas *fIsMF* doit avoir la valeur **false**. Ce paramètre est facultatif.
+Niveau de sécurité de l’application de requête. cette valeur n’est importante que si les objets du kit de développement logiciel (SDK) de Format multimédia Windows sont utilisés, auquel cas *fIsMF* doit avoir la valeur **false**. Ce paramètre est facultatif.
 
 </dd> <dt>
 
@@ -70,13 +70,13 @@ Spécifie si l’appareil cible pour une opération de copie a un numéro de sé
 *bstrDeviceCert* \[ dans\]
 </dt> <dd>
 
-Certificat d’appareil de l’appareil cible lors de l’utilisation de Windows Media DRM pour les appareils mobiles. Ce paramètre est facultatif et s’applique uniquement aux requêtes pour les opérations de copie.
+certificat d’appareil de l’appareil cible lors de l’utilisation de Windows Media DRM pour les appareils mobiles. Ce paramètre est facultatif et s’applique uniquement aux requêtes pour les opérations de copie.
 
 </dd> </dl>
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -92,7 +92,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
 Aucun.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

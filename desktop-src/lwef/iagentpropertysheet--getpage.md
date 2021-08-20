@@ -4,12 +4,12 @@ description: IAgentPropertySheet GetPage
 ms.assetid: 40d00e9b-dd81-4e23-907a-6ca24a28fa95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7c08e564b5170d62cf5757536b9e11baec4883c
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: f6eabb7278e40030209ac85f55c3a7d5c00edda5c666493e053dfcbfae2ecd9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692460"
 ---
 # <a name="iagentpropertysheetgetpage"></a>IAgentPropertySheet::GetPage
 

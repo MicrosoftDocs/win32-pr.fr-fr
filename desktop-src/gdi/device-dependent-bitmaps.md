@@ -4,12 +4,12 @@ ms.assetid: 63ff9cd6-cd07-4085-b166-268e4d9b7aad
 title: Device-Dependent des bitmaps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92a3de2c59509c71b38f9981df330b3b28effa26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: a3cf365b0f3b11e4a79bb0e7b1e1749d75ca356d41454e40cc6c31f383a74701
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117887235"
 ---
 # <a name="device-dependent-bitmaps"></a>Device-Dependent des bitmaps
 

@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c8ce75a1c84b0e7d345d7631a0610e292dee9249
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d004e027c921436aefb3ce82675b7ca2d5528febe939283a1e75f561ece7a174
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117696751"
 ---
 # <a name="sizefsizef-constructors"></a>SizeF. SizeF, constructeurs
 

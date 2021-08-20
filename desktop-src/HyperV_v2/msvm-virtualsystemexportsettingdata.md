@@ -28,12 +28,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 77bd451912063ec1164abf14247d81e1d258f56f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6760fb671e9e06ea603f86c944cf45a8637d1a811a8c8a0743946a88f25d5a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117810494"
 ---
 # <a name="msvm_virtualsystemexportsettingdata-class"></a>MSVM \_ VirtualSystemExportSettingData, classe
 
@@ -89,7 +89,7 @@ Type d’accès : lecture/écriture
 Indique l’intention d’utiliser les jeux de sauvegarde exportés.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10 et Windows Server 2016.
+> cette propriété a été ajoutée dans Windows 10 et Windows Server 2016.
 
  
 
@@ -180,7 +180,7 @@ Les fichiers d’État enregistrés pour la machine virtuelle en cours d’exéc
 L’état de cohérence des applications de la machine virtuelle en cours d’exécution sera exporté.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -244,7 +244,7 @@ Les instantanés identifiés par la propriété **SnapshotVirtualSystem** sont e
 L’instantané identifié par la propriété **SnapshotVirtualSystem** sera exporté à des fins de sauvegarde de la machine virtuelle. La configuration exportée utilise l’ID de la machine virtuelle.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -267,7 +267,7 @@ Indique si les informations d’exécution de la machine virtuelle seront copié
 
 | Valeur                                                                                | Signification                                                                 |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| <dl> <dt>**Vrai**</dt> </dl>  | Les informations d’exécution de la machine virtuelle seront copiées.<br/>     |
+| <dl> <dt>**True**</dt> </dl>  | Les informations d’exécution de la machine virtuelle seront copiées.<br/>     |
 | <dl> <dt>**Faux**</dt> </dl> | Les informations d’exécution de l’ordinateur virtuel ne seront pas copiées.<br/> |
 
 
@@ -291,7 +291,7 @@ Indique si le stockage de l’ordinateur virtuel sera copié lors de l’exporta
 
 | Valeur                                                                                | Signification                                                    |
 |--------------------------------------------------------------------------------------|------------------------------------------------------------|
-| <dl> <dt>**Vrai**</dt> </dl>  | Le stockage de l’ordinateur virtuel sera copié.<br/>     |
+| <dl> <dt>**True**</dt> </dl>  | Le stockage de l’ordinateur virtuel sera copié.<br/>     |
 | <dl> <dt>**Faux**</dt> </dl> | Le stockage de l’ordinateur virtuel ne sera pas copié.<br/> |
 
 
@@ -349,7 +349,7 @@ Type d’accès : lecture/écriture
 Base pour l’exportation différentielle. Il s’agit de l’un des chemins d’accès à une instance [**MSVM \_ VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) qui représente le point de référence ou le chemin d’accès à une instance [**\_ VirtualSystemSettingData MSVM**](msvm-virtualsystemsettingdata.md) qui représente l’instantané à utiliser comme base pour l’exportation différentielle. Si la propriété **CopySnapshotConfiguration** n’a pas la valeur 3 (**ExportOneSnapshotForBackup**), cette propriété est ignorée.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -367,7 +367,7 @@ Type d’accès : lecture/écriture
 Indique si les disques de différenciation seront créés ou non pour le stockage ignoré pendant l’exportation. Par défaut, cette valeur est définie sur false, ce qui signifie que les disques de différenciation sont créés pour le stockage qui ne va pas être copié vers la destination d’exportation.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -402,7 +402,7 @@ Les disques durs virtuels référencés par cette propriété peuvent provenir d
 Notez que l’ID d’instance RASD pour les disques durs virtuels représente l’emplacement auquel ils sont attachés, et l’exclusion de cet ID exclut tous les disques durs virtuels attachés à cet emplacement dans l’arborescence des captures instantanées de la machine virtuelle, quelle que soit la chaîne de disque dur virtuel valide.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -420,7 +420,7 @@ Type d’accès : lecture/écriture
 Indique si la machine virtuelle exportée est destinée à être utilisée dans la migration dynamique.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -455,18 +455,18 @@ Chemin d’accès à une instance [**MSVM \_ VirtualSystemSettingData**](msvm-vi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ VirtualSystemExportSettingData** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

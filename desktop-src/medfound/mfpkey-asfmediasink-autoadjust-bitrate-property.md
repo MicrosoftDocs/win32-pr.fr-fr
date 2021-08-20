@@ -4,12 +4,12 @@ ms.assetid: 0a6f4dd4-4ad7-4aab-a33d-14b4716f9902
 title: MFPKEY_ASFMEDIASINK_AUTOADJUST_BITRATE, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2d22463f477eb5abc1bb84254ad312427ecef52
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: abb9c026010ba1995bb15f37562eb378361051e4f9f8da4eb9e065dfadfdccb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106535746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117690546"
 ---
 # <a name="mfpkey_asfmediasink_autoadjust_bitrate-property"></a>\_Propriété MFPKEY ASFMEDIASINK de vitesse de \_ \_ transmission
 
@@ -31,7 +31,7 @@ VT \_ bool
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur de cette propriété est \_ true, le récepteur multimédia ASF ajuste automatiquement la vitesse de transmission du contenu ASF en réponse aux caractéristiques des flux multiplexés.
 
@@ -58,16 +58,16 @@ Définissez cette propriété lorsque vous configurez le récepteur multimédia 
 
 Si vous affectez à cette propriété la \_ valeur variant true, le récepteur multimédia ASF définit l’indicateur de **\_ \_ \_ débit binaire MFASF multiplexer** sur le multiplexeur ASF. Consultez [**IMFASFMultiplexer :: SetFlags**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-setflags).
 
-Pour plus d’informations sur le concept de compartiment avec fuites, consultez la rubrique « modèle de tampon de compartiment perdu » dans la documentation du kit de développement logiciel (SDK) Windows Media format.
+pour plus d’informations sur le concept de compartiment avec fuite, consultez la rubrique « modèle de tampon de compartiment perdu » dans la documentation du kit de développement logiciel (SDK) Windows Media Format.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

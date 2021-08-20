@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 967c44940b195c4d8ddd3028e1d4f307827bbbfa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc1c7c4a46ac746582d62ee7ce08980b078eb8d972cb6b4d3ed787b49f2285f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117955402"
 ---
 # <a name="systemmonitorlogviewstart-property"></a>SystemMonitor. LogViewStart, propriété
 
@@ -42,7 +42,7 @@ Property LogViewStart As Date
 
 Date de début utilisée pour récupérer les valeurs de compteur à partir des fichiers journaux.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 SYSMON récupère les valeurs de compteur à partir des fichiers journaux qui se trouvent dans les dates Start et [**systemmonitor. LogViewStop**](systemmonitor-logviewstop.md) , inclus.
 
@@ -52,7 +52,7 @@ Si cette propriété est définie sur une valeur de date supérieure à [**LogVi
 
 Si vous spécifiez une date de début et de fin, vous devez spécifier les dates avant de définir [**systemmonitor. DataSourceType**](systemmonitor-datasourcetype.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

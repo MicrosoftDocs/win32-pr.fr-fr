@@ -4,12 +4,12 @@ ms.assetid: 17556708-9350-444f-84a3-d982270b31d1
 title: élément messageTypeDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 696cd6d30e6a791f68c152e0d0c5d0b1a7300769
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 6768090d5cb91df31e65020543a1f41109c863d3b8ece7cf1b50c4775dc1be93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920577"
 ---
 # <a name="messagetypedeclarations-element"></a>élément messageTypeDeclarations
 
@@ -65,7 +65,7 @@ Les tables de schéma sont référencées par des définitions de type de port. 
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

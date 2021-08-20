@@ -4,12 +4,12 @@ ms.assetid: c9834827-8e1d-436d-be82-c1a2a2f7ca5c
 title: Comment découper une source bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43919e03d5d866d37ad4af203e741d2b10e60889
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69315aae20ffd464249de1163d9fc0f1b8189111df115917a1350764c4397aff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668712"
 ---
 # <a name="how-to-clip-a-bitmap-source"></a>Comment découper une source bitmap
 
@@ -17,7 +17,7 @@ Cette rubrique montre comment obtenir une partie rectangulaire d’un [**IWICBit
 
 Pour découper une source bitmap
 
-1.  Créez un objet [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
+1.  créez un objet [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
 
     ```C++
     // Create WIC factory

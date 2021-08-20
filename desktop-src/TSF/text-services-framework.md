@@ -4,12 +4,12 @@ description: Microsoft Windows Text Services Framework (TSF) est un service syst
 ms.assetid: ecc34b2e-89e8-48a8-8a8e-442d2145fe24
 ms.topic: article
 ms.date: 01/14/2020
-ms.openlocfilehash: 9c21cae442b5fbed62c00010a17849d1d5f27b49
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c2912538326158abbff47b4bde115c26966a751995d30a7183fafe0811ab666a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117950956"
 ---
 # <a name="text-services-framework-text-services-framework"></a>Text Services Framework (Text Services Framework)
 
@@ -19,15 +19,15 @@ Microsoft Windows Text Services Framework (TSF) est un service système disponib
 
 ## <a name="where-applicable"></a>Le cas échéant
 
-Text Services Framework s’applique aux ordinateurs Windows utilisant les services de texte et Windows XP ou versions ultérieures du système d’exploitation.
+text services Framework s’applique aux ordinateurs Windows utilisant les services de texte et les versions Windows XP ou ultérieures du système d’exploitation.
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Text Services Framework est conçu pour être utilisé par les programmeurs COM (Component Object Model) à l’aide des langages de programmation C/C++. Les programmeurs doivent être familiarisés avec les services de texte pour les ordinateurs Windows. La connaissance de la reconnaissance de l’écriture manuscrite, de la reconnaissance vocale et de la programmation pour la prise en charge multilingue est recommandée.
+Text Services Framework est conçu pour être utilisé par les programmeurs COM (Component Object Model) à l’aide des langages de programmation C/C++. les programmeurs doivent être familiarisés avec les services de texte pour les ordinateurs Windows. La connaissance de la reconnaissance de l’écriture manuscrite, de la reconnaissance vocale et de la programmation pour la prise en charge multilingue est recommandée.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Pour obtenir le redistribuable le plus récent, téléchargez le [Kit de développement logiciel (SDK) de la plateforme Windows 10](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
+pour obtenir le redistribuable le plus récent, téléchargez le [kit de développement logiciel (SDK) Windows 10 platform](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
 
 Pour plus d’informations sur la configuration requise de certains éléments d’API, consultez la section relative à la configuration requise dans la rubrique] (/Windows/Win32/TSF/Text-Services-Framework-Reference) [documentation de référence TFS.
 

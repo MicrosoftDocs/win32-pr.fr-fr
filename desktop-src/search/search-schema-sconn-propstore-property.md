@@ -4,12 +4,12 @@ ms.assetid: 33854123-d4c0-4385-910b-a32d6922423f
 title: Élément Property de propertyStore (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df2e4cee6f26ee65ba03d9225eafcea4a03a7c55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e477a4d7a8690ace52973ff0bd429eb57ae85adfc7bc72d835dab0db8392b94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117862514"
 ---
 # <a name="property-element-of-propertystore-search-connector-schema"></a>Élément Property de propertyStore (schéma du connecteur de recherche)
 
@@ -72,7 +72,7 @@ L' <property> élément facultatif spécifie une propriété utilisée par le co
 <td> </td>
 </tr>
 <tr class="even">
-<td>type</td>
+<td>Type</td>
 <td>Public. Obligatoire. Type de propriété.</td>
 <td>Any : valeur par défaut. La valeur ne sera pas forcée par le sous-système de propriété. VT_NULL est retourné par GetPropertyType.
 <ul>
@@ -98,7 +98,7 @@ L' <property> élément facultatif spécifie une propriété utilisée par le co
 </tr>
 <tr class="odd">
 <td>schéma</td>
-<td>Public. Optionnel. Schéma dans lequel la propriété est définie.</td>
+<td>Public. Facultatif. Schéma dans lequel la propriété est définie.</td>
 <td> </td>
 </tr>
 </tbody>
@@ -108,11 +108,11 @@ L' <property> élément facultatif spécifie une propriété utilisée par le co
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les connecteurs de recherche OpenSearch peuvent utiliser la propriété OpenSearchHTMLRolloverTemplate. Cette propriété identifie un modèle mis en forme selon la Convention de modèle OpenSearch. Le modèle OpenSearchHTMLRolloverTemplate est utilisé lorsque l’utilisateur clique sur le bouton « Rechercher sur le site Web » dans la barre de commandes.
+OpenSearch les connecteurs de recherche peuvent utiliser la propriété OpenSearchHTMLRolloverTemplate. cette propriété identifie un modèle mis en forme selon la convention de modèle OpenSearch. Le modèle OpenSearchHTMLRolloverTemplate est utilisé lorsque l’utilisateur clique sur le bouton « Rechercher sur le site Web » dans la barre de commandes.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’exemple suivant illustre un <propertyStore> élément avec deux <property> éléments.
 

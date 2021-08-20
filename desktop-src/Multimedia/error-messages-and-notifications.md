@@ -6,12 +6,12 @@ keywords:
 - MCIWndGetError macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37e40e78c72dc378baa37b56dbb2d5718ae2d85b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f1626b48bd04d5c7311767ab277abb4cbdd9d1a6104724ca244ab9544077a4f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117988557"
 ---
 # <a name="error-messages-and-notifications"></a>Messages d’erreur et notifications
 
@@ -28,6 +28,6 @@ Vous pouvez obtenir une description textuelle du message d’erreur MCI le plus 
 
 Vous pouvez acheminer toutes les notifications vers une autre fenêtre à l’aide de la macro [**MCIWndSetOwner**](/windows/desktop/api/Vfw/nf-vfw-mciwndsetowner) .
 
- 
+ 
 
- 
+ 

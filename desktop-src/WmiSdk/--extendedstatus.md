@@ -19,12 +19,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: cfc364ac6523aad69e53755d96fe220d0109fab8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0767215653895de6849e10174f0e66a63ade97e84bbf2b05410768e5e735d298
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926278"
 ---
 # <a name="__extendedstatus-class"></a>\_\_ExtendedStatus, classe
 
@@ -70,7 +70,7 @@ Toute chaîne définie par l’utilisateur qui décrit une erreur ou un état op
 
 </dd> <dt>
 
-**Opération**
+**opération**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -79,7 +79,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Opération qui se produit au moment d’une défaillance ou d’une anomalie. En règle générale, Windows Management Instrumentation (WMI) définit cette propriété sur le nom d’une API COM pour la méthode WMI, telle que la suivante : [**IWbemServices :: CreateInstanceEnum**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum).
+Opération qui se produit au moment d’une défaillance ou d’une anomalie. en règle générale, Windows Management Instrumentation (WMI) définit cette propriété sur le nom d’une API COM pour la méthode WMI, telle que la suivante : [**IWbemServices :: CreateInstanceEnum**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum).
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Identifie le fournisseur qui provoque ou signale une modification d’erreur ou d’État. Si aucun fournisseur n’est impliqué, cette chaîne est définie sur « Windows Management ».
+Identifie le fournisseur qui provoque ou signale une modification d’erreur ou d’État. si aucun fournisseur n’est impliqué, cette chaîne est définie sur « gestion de la Windows ».
 
 </dd> <dt>
 
@@ -122,7 +122,7 @@ Contient une erreur ou un code d’information pour une opération. Il peut s’
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ ExtendedStatus** est dérivée de la classe [**\_ \_ NotifyStatus**](--notifystatus.md) .
 
@@ -154,7 +154,7 @@ End sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

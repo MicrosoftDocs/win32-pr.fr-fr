@@ -3,9 +3,9 @@ title: Propriété Count IWMPCdromCollection
 description: La propriété Count obtient le nombre de lecteurs CD et DVD disponibles sur le système.
 ms.assetid: 1359ab7e-fbe3-461c-801b-7c986f6e5687
 keywords:
-- propriété Count Windows Media Player
-- propriété Count lecteur Windows Media, interface IWMPCdromCollection
-- IWMPCdromCollection interface Windows Media Player, propriété Count
+- Lecteur Windows Media de la propriété count
+- Lecteur Windows Media de la propriété count, interface IWMPCdromCollection
+- Lecteur Windows Media de l’interface IWMPCdromCollection, propriété count
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2da4d4d443c730d19c791a486fed4be0241b8c5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8e042e2a1d84d9e654cd4b50c5e5d726cc0306d64261e3e7d750bb6db73c77a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930629"
 ---
 # <a name="iwmpcdromcollectioncount-property"></a>IWMPCdromCollection :: Count, propriété
 
@@ -48,11 +48,11 @@ Public ReadOnly Property count As System.Int32
 
 **System. Int32** qui correspond au nombre de lecteurs disponibles.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Les lecteurs de DVD sont comptabilisés exactement comme les lecteurs de CD. Toutefois, le contrôle ActiveX du lecteur Windows Media ne prend en charge que les fonctionnalités DVD pour Windows XP ou version ultérieure. En règle générale, les lecteurs de DVD peuvent lire des CD, mais les lecteurs de CD ne peuvent pas lire les DVD.
+Les lecteurs de DVD sont comptabilisés exactement comme les lecteurs de CD. toutefois, le contrôle de ActiveX Lecteur Windows Media prend en charge uniquement les fonctionnalités de DVD pour Windows XP ou version ultérieure. En règle générale, les lecteurs de DVD peuvent lire des CD, mais les lecteurs de CD ne peuvent pas lire les DVD.
 
 ## <a name="examples"></a>Exemples
 
@@ -81,7 +81,7 @@ System.Windows.Forms.MessageBox.Show(&quot;Number of available CD and DVD drives
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

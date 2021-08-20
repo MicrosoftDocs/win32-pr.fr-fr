@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: f763ec4f738b612b9f2fef32871a63d6b170f96d
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 94e29b7795f113467152b2708aba8b7c3d80b438b8e55b679bddbec4d5107f26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117921583"
 ---
 # <a name="swbemrefresher-object"></a>Objet SWbemRefresher
 
@@ -63,7 +63,7 @@ L’objet **SWbemRefresher** a ces propriétés.
 | Propriété                                                         | Type d’accès          | Description                                                                                                           |
 |:-----------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------------------------------------------|
 | [**Reconnexion automatique**](swbemrefresher-autoreconnect.md)<br/> | Lecture seule<br/> | Indique si l’actualisateur se reconnecte automatiquement à un fournisseur distant si la connexion est interrompue.<br/> |
-| [**Saut**](swbemrefresher-count.md)<br/>                 | Lecture seule<br/> | Contient le nombre d’éléments dans l’objet actualisateur.<br/>                                                      |
+| [**Count**](swbemrefresher-count.md)<br/>                 | Lecture seule<br/> | Contient le nombre d’éléments dans l’objet actualisateur.<br/>                                                      |
 
 
 
@@ -119,7 +119,7 @@ next
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

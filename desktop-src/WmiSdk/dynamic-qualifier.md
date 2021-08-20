@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: f6530942859c8c3de571ba9ddb94e9b1ce78cc0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbfc44e22447744e646b51249315a1e6e42f885f54e51d75a0feb50ebea8da23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117924685"
 ---
 # <a name="dynamic-qualifier"></a>Qualificateur dynamique
 
@@ -32,7 +32,7 @@ Toutes les classes dérivées d’une classe dynamique doivent être dynamiques.
 
 Quand **Dynamic** est spécifié sur une propriété d’une instance, le qualificateur **PropertyContext** doit également être spécifié.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

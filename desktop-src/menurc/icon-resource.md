@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d5f762c4f4b459d51a0243a9cdbd7367deda7b9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a2819d068f26433562ccb30369792af37b67f7d9dc78d1344988f60c699528e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117687700"
 ---
 # <a name="icon-resource"></a>Ressource icône
 
@@ -47,7 +47,7 @@ Nom du fichier qui contient la ressource. Le nom doit être un nom de fichier va
 
 Certains attributs sont également pris en charge pour la compatibilité descendante. Pour plus d’informations, consultez [attributs de ressource communs](common-resource-attributes.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les ressources icône et curseur peuvent contenir plusieurs images.
 
@@ -67,6 +67,6 @@ desk1   ICON "desk.ico"
 [Utilisation des icônes](./using-icons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

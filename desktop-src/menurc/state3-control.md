@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24333fa9567db5613896f26429b72ff68e029335
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 53a2c6b6078b13d9aa7b69506f51dc58335f414884b53447b5f7a16c37497a91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117686866"
 ---
 # <a name="state3-control"></a>Contrôle STATE3
 
@@ -63,9 +63,9 @@ Pour plus d’informations sur la syntaxe générale d’une instruction de cont
 [**RÉGULATION**](control-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 194d5add-d1a1-4c10-89ee-171ff008a7ab
 title: Contextes de périphérique d’affichage parent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e423ceaa65790df35fa55c8dda597cb1bb45019
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93f7f1a00c62927953ee7122d451719e8f6209b46d593fa2b5e4ca36d270d539
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117886214"
 ---
 # <a name="parent-display-device-contexts"></a>Contextes de périphérique d’affichage parent
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes SWbemLastError
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b79749fe047aedfcca8a52a90c1fd96c4964468
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f353fb641d493f181e41d188f76894eef252bfe8e1c12cbc4ce989ead7a8274
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117922518"
 ---
 # <a name="swbemlasterror-methods"></a>Méthodes SWbemLastError
 
