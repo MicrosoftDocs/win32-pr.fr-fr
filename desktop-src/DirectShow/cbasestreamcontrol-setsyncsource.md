@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 60832d1bf7ceca59089875f10579d52cf2cfec4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2b7fa5a4f627b33bbca1665e3d1ff2c5bc347cfa0e35adec37e0afffa81f198
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954778"
 ---
 # <a name="cbasestreamcontrolsetsyncsource-method"></a>Méthode CBaseStreamControl. SetSyncSource
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IReferenceClock**](/windows/desktop/api/Strmif/nn
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode à l’intérieur de la méthode [**IMediaFilter :: SetSyncSource**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-setsyncsource) du filtre. La classe **CBaseStreamControl** utilise l’interface **IReferenceClock** pour s’assurer qu’elle n’ignore pas les exemples trop rapidement.
 
@@ -78,7 +78,7 @@ STDMETHODIMP CMyFilter::SetSyncSource(IReferenceClock *pClock)
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Strmctl. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Strmctl. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c68c9c9a0bc47dcbea25158bb1f25db6cd084075
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0bcff91d41ce77003219336431433ee511ff144dfcb8be7880526994689a929
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055657"
 ---
 # <a name="iwmdrmdevice2getpartialsynclist-method"></a>IWMDRMDevice2 :: GetPartialSyncList, méthode
 
@@ -108,11 +108,11 @@ Nombre d’éléments en cours de traitement.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Toutes les méthodes d’interface dans Windows Media Gestionnaire de périphériques peuvent retourner l’une des classes de codes d’erreur suivantes :
+Cette méthode retourne un code **HRESULT**. toutes les méthodes d’interface dans Windows Media Gestionnaire de périphériques peuvent retourner l’une des classes suivantes de codes d’erreur :
 
 -   Codes d’erreur COM standard
--   Codes d’erreur Windows convertis en valeurs HRESULT
--   Codes d’erreur de Gestionnaire de périphériques Windows Media
+-   Windows les codes d’erreur convertis en valeurs HRESULT
+-   Windows Codes d’erreur du Gestionnaire de périphériques de média
 
 Pour obtenir une liste complète des codes d’erreur possibles, consultez [codes d’erreur](error-codes.md).
 

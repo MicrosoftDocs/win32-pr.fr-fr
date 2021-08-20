@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 4f84ecac1eb910f4b3c97aba6ed42691c70b5b1f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 87d1b386409047eefc3e70ce5007082dda2158122ccfe4e2d3b2bea683a25a49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991089"
 ---
 # <a name="d3dxquaternionmultiply-function-d3dx10mathh"></a>D3DXQuaternionMultiply, fonction (D3DX10Math. h)
 
@@ -69,13 +69,13 @@ Pointeur vers une structure [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) source
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointeur vers une structure [**D3DXQUATERNION**](d3d10-d3dxquaternion.md) qui est le produit de deux quaternions.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le résultat représente la rotation Q1 suivie de la rotation Q2 (out = 2e trimestre \* Q1). Pour ce faire, **D3DXQuaternionMultiply** conserve la même sémantique que [**D3DXMatrixMultiply**](d3d10-d3dxmatrixmultiply.md) , car les quaternions d’unité peuvent être considérés comme une autre façon de représenter des matrices de rotation.
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: 8f76d516570725fe6da5e8a21ec5a29699276ee3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: bfd640aaf0bbc68e8798f62f41542d794db34808674c0bdb47587c7396ad7bc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094194"
 ---
 # <a name="findresourcewrapw-function"></a>FindResourceWrapW fonction)
 
@@ -84,7 +84,7 @@ Si la fonction est réussie, la valeur de retour est un handle vers le bloc d’
 
 Si la fonction échoue, la valeur de retour est **null**. Pour afficher les informations d’erreur étendues, appelez la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous devez spécifier une localisation particulière, utilisez la fonction [**FindResourceEx**](/windows/win32/api/winbase/nf-winbase-findresourceexa) au lieu de **FindResourceWrapW**.
 
@@ -92,14 +92,14 @@ Si vous devez spécifier une localisation particulière, utilisez la fonction [*
 
 **FindResourceWrapW** doit être appelé directement à partir de Shlwapi.dll, à l’aide de l’ordinal 66.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Aucun</dt> </dl>                               |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (version 5,0 ou ultérieure)</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **FindResourceWrapW** (Unicode)<br/>                                                                    |

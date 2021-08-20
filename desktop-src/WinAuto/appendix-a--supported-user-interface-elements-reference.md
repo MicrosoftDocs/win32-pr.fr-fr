@@ -1,25 +1,25 @@
 ---
 title: Annexe A prise en charge des éléments de référence d’interface utilisateur
-description: Cette annexe contient des informations sur les éléments d’interface utilisateur fournis par Microsoft Active Accessibility dans Windows 95, Windows 98, Microsoft Windows NT, Windows 2000, Windows XP et Windows 2000 Server.
+description: cette annexe contient des informations sur les éléments d’interface utilisateur fournis par Microsoft Active Accessibility dans Windows 95, Windows 98, microsoft Windows NT, Windows 2000, Windows XP et Windows serveur 2000.
 ms.assetid: 5d0a81d8-5d36-4c33-bb8c-abcb8b00166e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f75cd4251ed7d75d9aa6a2d83387a51a8b157e9
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 2e434eec9a480f46bb352dbd5b523b8b5c9cde6624c9d94372703d054e945bab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "106509831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994369"
 ---
 # <a name="appendix-a-supported-user-interface-elements-reference"></a>Annexe A : informations de référence sur les éléments d’interface utilisateur pris en charge
 
-Cette annexe contient des informations sur les éléments d’interface utilisateur fournis par Microsoft Active Accessibility dans Windows 95, Windows 98, Microsoft Windows NT, Windows 2000, Windows XP et Windows 2000 Server. Cette prise en charge permet aux utilitaires clients d’obtenir des informations sur les éléments d’interface utilisateur fournis par le système dans les applications qui n’implémentent pas Microsoft Active Accessibility.
+cette annexe contient des informations sur les éléments d’interface utilisateur fournis par Microsoft Active Accessibility dans Windows 95, Windows 98, microsoft Windows NT, Windows 2000, Windows XP et Windows serveur 2000. Cette prise en charge permet aux utilitaires clients d’obtenir des informations sur les éléments d’interface utilisateur fournis par le système dans les applications qui n’implémentent pas Microsoft Active Accessibility.
 
-Oleacc.dll prend en charge les contrôles définis dans les éléments d’interface utilisateur User32.dll, Comctl32.dll et Windows. Plus précisément, il prend en charge les types d’éléments d’interface utilisateur suivants (listés par nom de classe Windows).
+Oleacc.dll prend en charge les contrôles définis dans les éléments d’interface utilisateur User32.dll, Comctl32.dll et Windows. plus précisément, il prend en charge les types d’éléments d’interface utilisateur suivants (listés par Windows nom de la classe).
 
 
 
-| Nom de classe Windows                   | Type d’élément d’interface utilisateur                                         | Mises à jour de Windows Vista                                                                                                                                                                                                |
+| nom de la classe Windows                   | Type d’élément d’interface utilisateur                                         | Windows Mises à jour de Vista                                                                                                                                                                                                |
 |--------------------------------------|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ListBox                              | Zones de liste                                              | Aucun                                                                                                                                                                                                                 |
 | Bouton                               | Boutons de commande, cases d’option, boutons de case à cocher, zones de groupe | Les boutons partagés peuvent avoir zéro ou plusieurs enfants.                                                                                                                                                                        |
@@ -40,18 +40,18 @@ Oleacc.dll prend en charge les contrôles définis dans les éléments d’inter
 | SysHeader32                          | En-têtes de mode liste                                       | Aucun                                                                                                                                                                                                                 |
 | SysListView32                        | Contrôles d’affichage de liste                                      | Aucun                                                                                                                                                                                                                 |
 | SysTreeView32                        | Contrôles Tree View                                      | Aucun                                                                                                                                                                                                                 |
-| SysDateTimePick32 (versions 5 et 6) | Date et/ou sélecteur d’heure                                 | La version 6 de ce contrôle dans Windows Vista a une implémentation [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) native.                                                                                                           |
+| SysDateTimePick32 (versions 5 et 6) | Date et/ou sélecteur d’heure                                 | la Version 6 de ce contrôle dans Windows Vista a une implémentation [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) native.                                                                                                           |
 | SysIPAddress32                       | Contrôles d’adresse IP                                     | Aucun                                                                                                                                                                                                                 |
 | info-bulles \_ Class32                    | Info-bulles                                                | Aucun                                                                                                                                                                                                                 |
 | ToolbarWindow32                      | Barres d'outils                                                | Aucun                                                                                                                                                                                                                 |
 | RICHEDIT, RichEdit20A, RichEdit20W   | Champs de texte                                             | Aucun                                                                                                                                                                                                                 |
-| SysMonthCal32 (versions 5 et 6)     | Calendrier du mois                                          | La version 6 de ce contrôle dans Windows Vista a une implémentation [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) native.                                                                                                           |
+| SysMonthCal32 (versions 5 et 6)     | Calendrier du mois                                          | la Version 6 de ce contrôle dans Windows Vista a une implémentation [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) native.                                                                                                           |
 
 
 
- 
+ 
 
-Bien que la prise en charge des éléments d’interface fournis par le système soit assurée par Microsoft Active Accessibility sur Microsoft Windows NT 4,0 avec Service Pack 4, cette prise en charge est limitée.
+Bien que la prise en charge des éléments d’interface fournis par le système soit fournie par Microsoft Active Accessibility sur Microsoft Windows NT 4,0 avec Service Pack 4, cette prise en charge est limitée.
 
 Cette annexe répertorie les propriétés et les méthodes [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) que Microsoft Active Accessibility prend en charge pour chaque élément de l’interface utilisateur. Le cas échéant, la documentation répertorie également les [winEvents](winevents-infrastructure.md) que l’élément d’interface utilisateur déclenche et contient des informations supplémentaires sur les propriétés et les méthodes prises en charge. Elle contient également des informations sur les rôles d’objet et leurs propriétés et méthodes **IAccessible** prises en charge.
 
@@ -64,9 +64,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 -   [Comment Active Accessibility expose les éléments d’interface utilisateur](how-active-accessibility-exposes-user-interface-elements.md)
 -   [Référence des éléments de l’interface utilisateur](user-interface-element-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

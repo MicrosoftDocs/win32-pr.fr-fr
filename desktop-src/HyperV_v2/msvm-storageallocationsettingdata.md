@@ -54,12 +54,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d889c262eee9d827a02547ddbfdff2cb121cb337
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ba95ef5f4eb0afd20b80ab97db1ab7fc9a37b11e45638188c31459f8003cbda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950218"
 ---
 # <a name="msvm_storageallocationsettingdata-class"></a>MSVM \_ StorageAllocationSettingData, classe
 
@@ -281,7 +281,7 @@ Type d'accès : Lecture seule
 Qualificateurs : **MaxLen** (64)
 </dt> </dl>
 
-Brève description de l’objet. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres par défaut de l’image de disque dur ».
+Brève description de l’objet. cette propriété est héritée de la [**\_ propriété managedelement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « Image de disque dur par défaut Paramètres ».
 
 </dd> <dt>
 
@@ -500,7 +500,7 @@ Type d'accès : Lecture seule
 
 Si la valeur est true, Hyper-V ignore le vidage de l’écriture différée pour cet ordinateur virtuel particulier. Si la valeur est false, Hyper-V continue à réécrire sur le disque à chaque vidage. False est le paramètre par défaut.
 
-**Windows 10 :** Cette valeur n’est pas prise en charge avant Windows 10.
+**Windows 10 :** Cette valeur n’est pas prise en charge tant que Windows 10.
 
 </dd> <dt>
 
@@ -535,7 +535,7 @@ Spécifie les unités d’allocation utilisées par les propriétés **IOPSLimit
 
 Le débit est mesuré en opérations d’e/s normalisées par seconde (IOPS) au lieu d’IOPS brutes. Lorsque vous utilisez des e/s par seconde normalisées, chaque demande d’e/s est comptabilisée comme 1 e/s normalisée si la taille de la demande est inférieure ou égale à une taille de base prédéfinie (8 Ko). Les requêtes qui sont plus volumineuses que la taille de base sont comptabilisées comme des opérations d’e/s, où N est la valeur arrondie de la taille de la demande divisée par la taille de base. Par exemple, si la taille de base est de 8 Ko, une requête de 16 Ko est comptée comme 2 opérations d’e/s normalisées, une demande de 32 Ko comme 4 opérations d’e/s normalisées, et ainsi de suite.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -558,7 +558,7 @@ Nombre maximal d’opérations d’e/s par seconde (IOPS) qui seront servies pou
 
  
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -583,7 +583,7 @@ Si **IOPSLimit** et **IOPSReservation** sont tous les deux définis, la valeur d
 
  
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -676,7 +676,7 @@ Type d'accès : Lecture seule
 
 Indique si le disque dur virtuel prend en charge les réservations persistantes SCSI-3.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -789,10 +789,10 @@ Type de ressource représenté par ce paramètre d’allocation. Cette propriét
 <span id="Tape_Drive"></span><span id="tape_drive"></span><span id="TAPE_DRIVE"></span>**Lecteur de bande** (18)
 </dt> <dt>
 
-<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**Extension de stockage** (19)
+<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**étendue du Stockage** (19)
 </dt> <dt>
 
-<span id="Other_Storage_Device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>**Autre dispositif de stockage** (20)
+<span id="Other_Storage_Device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>**autre appareil de Stockage** (20)
 </dt> <dt>
 
 <span id="Serial_port"></span><span id="serial_port"></span><span id="SERIAL_PORT"></span>**Port série** (21)
@@ -828,7 +828,7 @@ Type de ressource représenté par ce paramètre d’allocation. Cette propriét
 <span id="Logical_Disk"></span><span id="logical_disk"></span><span id="LOGICAL_DISK"></span>**Disque logique** (31)
 </dt> <dt>
 
-<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>**Volume de stockage** (32)
+<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>**Volume de Stockage** (32)
 </dt> <dt>
 
 <span id="Ethernet_connection"></span><span id="ethernet_connection"></span><span id="ETHERNET_CONNECTION"></span>**Connexion Ethernet** (33)
@@ -869,7 +869,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Spécifie l’identificateur unique de la stratégie de qualité de service de stockage à appliquer à cette extension de stockage virtuel.
+spécifie l’identificateur unique de la stratégie de QoS Stockage à appliquer à cette extension de stockage virtuel.
 
 > [!Note]  
 > Ajouté dans Windows 10.
@@ -958,7 +958,7 @@ Type d'accès : Lecture seule
 Indique quelle méthode de sécurisation renforcée d’écriture est prise en charge par le disque.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -1000,8 +1000,8 @@ Indique quelle méthode de sécurisation renforcée d’écriture est prise en c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

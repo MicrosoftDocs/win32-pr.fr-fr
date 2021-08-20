@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3de4bb2b33a45ab7d10bad72ba286d1695b980a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 825df20c2233678828407351d0b8d7ee7210badb19f2f870cca36d00cf300f44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106536934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545229"
 ---
 # <a name="acs-minimum-policed-size-attribute"></a>ACS-attribut de taille minimale de police
 
@@ -36,7 +36,7 @@ L’attribut **ACS-minimum-policiers-Size** est destiné à un usage interne uni
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1315              |
 | System-ID-GUID    | 8d0e7195-3b90-11d2-90cc-00c04fd91ab1 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ L’attribut **ACS-minimum-policiers-Size** est destiné à un usage interne uni
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

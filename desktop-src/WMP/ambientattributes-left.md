@@ -3,7 +3,7 @@ title: AmbientAttributes. Left
 description: L’attribut Left spécifie ou récupère la coordonnée gauche du contrôle.
 ms.assetid: fb1856f2-e286-4ba8-9ae4-b6cd8b0967b1
 keywords:
-- AmbientAttributes. gauche du lecteur Windows Media
+- AmbientAttributes. left Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f881de6733637c0776dd9626a7efc02b145ec25f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3624113fbc92e8114cdd4924fb0452f1091803557e5e32995450f8d2fae6e60a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055087"
 ---
 # <a name="ambientattributesleft"></a>AmbientAttributes. Left
 

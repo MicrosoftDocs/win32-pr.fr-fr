@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 97b50581aa4825b31983a234a5eb47ff7b7b7e06
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e35df4f102801f7d52faeb384f9a1113e00abbf034026d19b5b7b6e7b4c90ed7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621099"
 ---
 # <a name="daysinterval-dailyscheduletype-element"></a>Élément DaysInterval (dailyScheduleType)
 
@@ -55,7 +55,7 @@ L’élément est défini par le type complexe [**dailyScheduleType**](tasksched
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de script, l’intervalle de jours pour un déclencheur quotidien est spécifié par la propriété [**DailyTrigger. DaysInterval**](dailytrigger-daysinterval.md) .
 
@@ -86,8 +86,8 @@ Pour obtenir un exemple complet du code XML d’une tâche qui spécifie une pla
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

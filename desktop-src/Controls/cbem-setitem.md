@@ -3,7 +3,7 @@ title: Message CBEM_SETITEM (commctrl. h)
 description: Définit les attributs d’un élément dans un contrôle ComboBoxEx.
 ms.assetid: 752df8ea-fd5e-47fa-b729-d019bdde0904
 keywords:
-- CBEM_SETITEM les contrôles de message Windows
+- CBEM_SETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50ae19287e3e30810b1d8c558be9b6153a86ab6b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b1010c090283a47404ee93ef5f3bc1cf2d5ffe71a646d6d734cb443152bdd64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527929"
 ---
 # <a name="cbem_setitem-message"></a>\_Message CBEM SETITEM
 
@@ -51,8 +51,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **CBEM \_ SETITEMW** (Unicode) et **CBEM \_ SETITEMA** (ANSI)<br/>                 |
 

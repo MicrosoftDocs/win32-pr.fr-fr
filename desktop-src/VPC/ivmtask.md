@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e1d519471fe5b1fc32cb6365d1139243c85538
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6e7afa39e8e95ac2a961212b3a3fe7b74e73bc8b1100ac44b34d09700ab58bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998719"
 ---
 # <a name="ivmtask-interface"></a>Interface IVMTask
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Utilisez l’interface **IVMTask** pour surveiller et contrôler les tâches asynchrones pour différentes méthodes com.
 
@@ -59,19 +59,19 @@ L’interface **IVMTask** possède les propriétés suivantes.
 | Propriété                                                        | Type d’accès          | Description                                                        |
 |:----------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------|
 | [**Description**](ivmtask-description.md)<br/>           | Lecture seule<br/> | Une description de la tâche.<br/>                              |
-| [**Error**](ivmtask-error.md)<br/>                       | Lecture seule<br/> | Erreur enregistrée pour cette tâche.<br/>                       |
+| [**Erreur**](ivmtask-error.md)<br/>                       | Lecture seule<br/> | Erreur enregistrée pour cette tâche.<br/>                       |
 | [**ErrorDescription**](ivmtask-errordescription.md)<br/> | Lecture seule<br/> | Description d’erreur localisée enregistrée pour cette tâche.<br/> |
 | [**IDENTIFI**](ivmtask-id.md)<br/>                             | Lecture seule<br/> | Identificateur unique pour cette tâche.<br/>                      |
 | [**IsCancelable**](ivmtask-iscancelable.md)<br/>         | Lecture seule<br/> | Indique si la tâche peut être annulée.<br/>             |
 | [**IsComplete**](ivmtask-iscomplete.md)<br/>             | Lecture seule<br/> | Indique si la tâche est terminée.<br/>               |
 | [**PercentCompleted**](ivmtask-percentcompleted.md)<br/> | Lecture seule<br/> | Pourcentage d’achèvement de la tâche.<br/>                  |
-| [**Venir**](ivmtask-result.md)<br/>                     | Lecture seule<br/> | Résultat de la tâche.<br/>                                 |
+| [**Résultat**](ivmtask-result.md)<br/>                     | Lecture seule<br/> | Résultat de la tâche.<br/>                                 |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un objet **IVMTask** est retourné par des méthodes qui peuvent éventuellement nécessiter un temps considérable. Cela permet à l’application de surveiller la progression de l’opération souhaitée sans la forcer à bloquer une exécution supplémentaire en attendant la fin de l’opération.
 
@@ -100,7 +100,7 @@ Les méthodes suivantes retournent un objet **IVMTask** qui peut être utilisé 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

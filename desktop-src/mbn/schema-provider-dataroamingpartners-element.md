@@ -11,12 +11,12 @@ api_name:
 - Provider
 api_type:
 - Schema
-ms.openlocfilehash: b5b36c973bf44175b90e25fd2a141fed3624d8b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5ce12ddf15ad57071f2717e5801fbd05f8e2925ea474345f7c376bc2445cd02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119347159"
 ---
 # <a name="provider-dataroamingpartners-element"></a>Élément Provider (DataRoamingPartners)
 
@@ -43,7 +43,7 @@ L’élément **Provider** est défini par l’élément [**DataRoamingPartners*
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

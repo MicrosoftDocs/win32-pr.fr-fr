@@ -4,17 +4,17 @@ description: En savoir plus sur le texte de l’interface utilisateur qui appara
 ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: a0ab5025407d5149d1747fbd083fed7df345e3f3
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 93dd04bdce0331e6dca97922e2f5f8879a2214e932ac51889f03114009dc1165
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119030681"
 ---
 # <a name="user-interface-text"></a>Texte de l’interface utilisateur
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Le texte de l’interface utilisateur apparaît sur les surfaces de l’interface utilisateur. Ce texte comprend des étiquettes de contrôle et du texte statique :
 
@@ -45,7 +45,7 @@ Le texte de l’interface utilisateur a plusieurs modèles d’utilisation :
 
 Les développeurs de logiciels considèrent souvent que le texte est relégué à la documentation du produit et au support technique. « Tout d’abord, nous allons écrire le code, puis nous engageons quelqu’un pour nous aider à expliquer ce que nous avons développé ». En réalité, le texte important est écrit plus tôt dans le processus, car l’interface utilisateur est conçue et codée. Ce texte est, après tout, vu plus souvent et par plus de personnes que d’autres types d’écriture technique.
 
-**Le texte compréhensible est essentiel à l’interface utilisateur efficace.** Les rédacteurs et éditeurs professionnels doivent travailler avec les développeurs de logiciels sur le texte de l’interface utilisateur en tant que partie intégrante du processus de conception. Qu’ils travaillent sur du texte plus tôt, car les problèmes de texte révèlent souvent des problèmes de conception. Si votre équipe a des difficultés à expliquer une conception, il s’agit souvent de la conception, et non pas de l’explication, qui nécessite une amélioration.
+**Le texte compréhensible est essentiel à l’interface utilisateur efficace.** les rédacteurs et éditeurs de Professional doivent travailler avec les développeurs de logiciels sur le texte de l’interface utilisateur en tant que partie intégrante du processus de conception. Qu’ils travaillent sur du texte plus tôt, car les problèmes de texte révèlent souvent des problèmes de conception. Si votre équipe a des difficultés à expliquer une conception, il s’agit souvent de la conception, et non pas de l’explication, qui nécessite une amélioration.
 
 ### <a name="a-design-model-for-ui-text"></a>Modèle de conception pour le texte de l’interface utilisateur
 
@@ -107,7 +107,7 @@ Dans cet exemple, les informations essentielles se trouvent dans la requête du 
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Supprimez le texte redondant.** Recherchez du texte redondant dans les titres de la fenêtre, les instructions principales, les instructions supplémentaires, les zones de contenu, les liens de commande et les boutons de validation. En règle générale, laissez le texte intégral dans les instructions principales et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
 -   **Évitez les grands blocs de texte de l’interface utilisateur.** Voici les différentes façons de procéder :
@@ -153,7 +153,7 @@ Les polices et couleurs suivantes sont des valeurs par défaut pour Windows.
 | ![première colonne : texte modifiable ](images/text-ui-image17.png)<br/>               | BodyText<br/>         | 9 PT. noir ( \# 000000) Segoe UI, dans une zone<br/>       |
 | ![première colonne : texte désactivé ](images/text-ui-image18.png)<br/>               | Désactivé<br/>         | 9 PT. gris foncé ( \# 323232) Segoe UI<br/>             |
 | ![première colonne : lien ](images/text-ui-image19.png)<br/>                        | HyperLinkText<br/>    | 9 PT. bleu ( \# 0066CC) Segoe UI<br/>                  |
-| ![première colonne : liens (pointage) ](images/text-ui-image20.png)<br/>               | À chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
+| ![première colonne : liens (pointage) ](images/text-ui-image20.png)<br/>               | Chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
 | ![première colonne : en-tête de groupe ](images/text-ui-image21.png)<br/>                |  <br/>                | 11 PT bleu ( \# 003399) Segoe UI<br/>                 |
 | ![première colonne : nom de fichier (dans l’affichage du contenu) ](images/text-ui-image22.png)<br/> |  <br/>                | 11 PT noir ( \# 000000) Segoe UI<br/>                |
 | ![première colonne : texte du document ](images/text-ui-image23.png)<br/>               | (aucun)<br/>           | 9 PT. noir ( \# 000000) Calibri<br/>                  |
@@ -209,7 +209,7 @@ Pour plus d’informations et d’exemples, consultez [polices](vis-fonts.md) et
 
 ### <a name="punctuation"></a>Ponctuation
 
-**Points**
+**Paiements**
 
 -   **Ne placez pas à la fin des étiquettes de contrôle, des instructions principales ou des liens d’aide.**
 -   Placez à la fin des instructions supplémentaires, des explications supplémentaires ou tout autre texte statique qui forme une phrase complète.
@@ -259,7 +259,7 @@ Pour plus d’informations et d’exemples, consultez [polices](vis-fonts.md) et
 
 ### <a name="capitalization"></a>Mise en majuscules
 
--   **Utilisez la mise en majuscules de style titre pour les titres, en majuscules pour tous les autres éléments de l’interface utilisateur.** Cela est plus approprié pour le [ton Windows](text-style-tone.md).
+-   **Utilisez la mise en majuscules de style titre pour les titres, en majuscules pour tous les autres éléments de l’interface utilisateur.** cela est plus approprié pour le [ton Windows](text-style-tone.md).
 
     -   **Exception :** Pour les applications héritées, vous pouvez utiliser la mise en majuscules de style titre pour les boutons de commande, les menus et les en-têtes de colonnes si nécessaire pour éviter de mélanger les styles de mise en majuscules.
 
@@ -302,7 +302,7 @@ Pour plus d’informations, consultez la section « texte » ou « étiquette
 
     ![capture d’écran du format de date : lundi 06 juillet, 2009](images/text-ui-image29.png)![capture d’écran du format de date : 06 juillet 2009](images/text-ui-image30.png)
 
-    Dans ces exemples de Microsoft Outlook, les deux formats pour la date longue sont corrects. Ils reflètent différents choix effectués par les utilisateurs dans l’élément du panneau de configuration région et langue.
+    dans ces exemples de Microsoft Outlook, les deux formats pour la date longue sont corrects. Ils reflètent différents choix effectués par les utilisateurs dans l’élément du panneau de configuration région et langue.
 
 -   **Utilisez le format de date longue pour les scénarios qui tirent parti de l’utilisation d’informations supplémentaires.** Utilisez le format de date abrégé pour les contextes qui n’ont pas suffisamment d’espace pour le format long. Tandis que les utilisateurs choisissent les informations qu’ils souhaitent inclure dans les formats longs et courts, les concepteurs choisissent le format à afficher dans leurs programmes en fonction du scénario et du contexte.
 
@@ -577,7 +577,7 @@ Le tableau suivant répertorie les étiquettes de bouton de validation les plus 
 <li>Utilisez uniquement dans les feuilles de propriétés.</li>
 <li>Ne fournissez un bouton appliquer que si la feuille de propriétés contient des paramètres (au moins un) avec des effets que les utilisateurs peuvent évaluer de manière explicite. En règle générale, les boutons appliquer sont utilisés lorsque les paramètres apportent des modifications visibles. Les utilisateurs doivent pouvoir appliquer une modification, évaluer la modification et apporter d’autres modifications en fonction de cette évaluation. Si ce n’est pas le cas, supprimez le bouton appliquer au lieu de le désactiver.</li>
 </ul></td>
-<td>Un<br/></td>
+<td>A<br/></td>
 </tr>
 <tr class="even">
 <td><strong>Next</strong><br/></td>
@@ -594,7 +594,7 @@ Le tableau suivant répertorie les étiquettes de bouton de validation les plus 
 <td><ul>
 <li>À utiliser uniquement dans les assistants et les tâches à plusieurs étapes. Toutefois, l’utilisation de la finition est déconseillée, car il existe généralement un bouton de validation mieux adapté :
 <ul>
-<li>Si le fait de cliquer sur le bouton est validé sur la tâche (donc la tâche n’a pas déjà été exécutée), utilisez une étiquette spécifique qui commence par un verbe (exemples : Print, Connect, Start) qui est une réponse à l’instruction principale.</li>
+<li>si le fait de cliquer sur le bouton est validé sur la tâche (donc la tâche n’a pas déjà été effectuée), utilisez une étiquette spécifique qui commence par un verbe (exemples : Print, Connecter, Start) qui est une réponse à l’instruction principale.</li>
 <li>Si la tâche a déjà été effectuée dans l’Assistant, utilisez à la place la fermeture.</li>
 </ul></li>
 <li>Toutefois, vous pouvez utiliser terminer lorsque :

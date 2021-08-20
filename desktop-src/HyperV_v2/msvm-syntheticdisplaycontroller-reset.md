@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f52463aa570942e7696aa0c8fea55bbb848fcc99
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 99d54850bb658ec4f3b0cd8a4904d944e6748b8ea5da562764a69bcd73022cb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949898"
 ---
 # <a name="reset-method-of-the-msvm_syntheticdisplaycontroller-class"></a>Méthode Reset de la \_ classe MSVM SyntheticDisplayController
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

@@ -73,12 +73,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0cd102fe29cf34aa0930ca264c8820868da7daf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83094be6dfa7642f64fcf436e3aa5ab514c9c772b116eede0906efbcf73fc747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950048"
 ---
 # <a name="msvm_synthetic3ddisplaycontroller-class"></a>MSVM \_ Synthetic3DDisplayController, classe
 
@@ -224,7 +224,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (1024)
 </dt> </dl>
 
-Identificateur de l’unité de traitement graphique (GPU) physique allouée à cette machine virtuelle. Cette propriété s’applique uniquement aux machines virtuelles qui utilisent RemoteFX.
+Identificateur de l’unité de traitement graphique (GPU) physique allouée à cette machine virtuelle. Cette propriété s’applique uniquement aux ordinateurs virtuels qui utilisent RemoteFX.
 
 </dd> <dt>
 
@@ -1050,7 +1050,7 @@ Chaîne qui décrit le processeur/contrôleur vidéo. Cette propriété est hér
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

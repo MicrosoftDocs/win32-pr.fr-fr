@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 817d025551ae10002b008a181edd8a7dfd2ec68c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4af759cf621f5afbaef90924351ad24a232889b1d81048f0e1372630c74f98f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950088"
 ---
 # <a name="msvm_summaryinformation-class"></a>MSVM \_ SummaryInformation, classe
 
@@ -140,7 +140,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Identificateur de l’unité de traitement graphique (GPU) physique allouée à cette machine virtuelle. Cette propriété s’applique uniquement aux machines virtuelles qui utilisent RemoteFX.
+Identificateur de l’unité de traitement graphique (GPU) physique allouée à cette machine virtuelle. Cette propriété s’applique uniquement aux ordinateurs virtuels qui utilisent RemoteFX.
 
 </dd> <dt>
 
@@ -263,7 +263,7 @@ Type d'accès : Lecture seule
 
 Indique si les connexions en mode étendu sont autorisées par l’hôte et, si elles sont autorisées, si elles sont disponibles pour l’ordinateur virtuel.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 <dt>
 
@@ -583,7 +583,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 Intégrité de la réplication pour la machine virtuelle. Pour connaître les valeurs possibles, consultez la propriété **ReplicationHealth** de la classe [**MSVM \_ ComputerSystem**](msvm-computersystem.md) .
 
 > [!Note]  
-> Cette propriété est déconseillée à partir de Windows 8.1 ; Utilisez plutôt **ReplicationHealthEx**.
+> cette propriété est déconseillée à partir de Windows 8.1 ; à la place, utilisez **ReplicationHealthEx**.
 
  
 
@@ -729,7 +729,7 @@ Qualificateurs : [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) (
 
 Pour la machine virtuelle de réplication principale ou étendue, il s’agit de l’ID du fournisseur de réplication principal. Pour un ordinateur virtuel de réplication et si la réplication étendue est activée, il s’agit de l’ID de fournisseur pour la relation étendue.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -748,7 +748,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 État de réplication de la machine virtuelle. Pour connaître les valeurs possibles, consultez la propriété **ReplicationState** de la classe [**MSVM \_ ComputerSystem**](msvm-computersystem.md) .
 
 > [!Note]  
-> Cette propriété est déconseillée à partir de Windows 8.1 ; Utilisez plutôt **ReplicationStateEx**.
+> cette propriété est déconseillée à partir de Windows 8.1 ; à la place, utilisez **ReplicationStateEx**.
 
  
 
@@ -976,7 +976,7 @@ Tableau des valeurs d’état de réplication pour les différentes relations de
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -990,7 +990,7 @@ Tableau des valeurs d’état de réplication pour les différentes relations de
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -1004,7 +1004,7 @@ Tableau des valeurs d’état de réplication pour les différentes relations de
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -1018,7 +1018,7 @@ Tableau des valeurs d’état de réplication pour les différentes relations de
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -1032,7 +1032,7 @@ Tableau des valeurs d’état de réplication pour les différentes relations de
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -1046,7 +1046,7 @@ Tableau des valeurs d’état de réplication pour les différentes relations de
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -1060,7 +1060,7 @@ Tableau des valeurs d’état de réplication pour les différentes relations de
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -1080,7 +1080,7 @@ Type d'accès : Lecture seule
 Indique si la protection est configurée pour la machine virtuelle.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -1247,7 +1247,7 @@ Qualificateurs : [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) (
 
 Chaînes qui spécifient les noms conviviaux des commutateurs virtuels auxquels la machine virtuelle est connectée.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -1262,7 +1262,7 @@ Type d'accès : Lecture seule
 
 Sous-type du système virtuel.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 <dt>
 
@@ -1282,7 +1282,7 @@ Sous-type du système virtuel.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ SummaryInformation** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1292,8 +1292,8 @@ L’accès à la classe **MSVM \_ SummaryInformation** peut être limité par le
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

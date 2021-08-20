@@ -3,7 +3,7 @@ title: AmbientAttributes.clippingImage
 description: L’attribut clippingImage spécifie ou récupère la zone dans laquelle détourer le contrôle.
 ms.assetid: e4b51d31-f9c7-4398-983d-95867a2cab45
 keywords:
-- Lecteur Windows Media AmbientAttributes. clippingImage
+- AmbientAttributes. clippingImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e05e05ca9c7c3efdf842ffd4297da6f9fee035d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15302483143b17075b6a6164fcd05da80eb1c7c666a83c76a460408d70ac72e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055187"
 ---
 # <a name="ambientattributesclippingimage"></a>AmbientAttributes.clippingImage
 
@@ -31,7 +31,7 @@ L’attribut **clippingImage** spécifie ou récupère la zone dans laquelle dé
 
 Cet attribut est une **chaîne** en lecture/écriture indiquant le nom du fichier image. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **clippingImage** prend en charge les fichiers PNG, jpg, BMP et GIF (à l’exclusion des fichiers GIF animés). Étant donné que les JPGs sont perdus et, par conséquent, soumis à une modification de couleur inattendue, ils ne sont pas recommandés pour les images de découpage.
 

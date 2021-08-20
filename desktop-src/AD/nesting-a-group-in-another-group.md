@@ -8,12 +8,12 @@ keywords:
 - groupes Active Directory, imbrication d’un groupe dans un autre groupe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01c0f7deb77d576faba4c6298311bdb913ec2286
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab710d8d66d3d0f8ea8b74bc45da35ee4415804839b251e580bbb5ab42f4037b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025727"
 ---
 # <a name="nesting-a-group-in-another-group"></a>Imbrication d’un groupe dans un autre groupe
 
@@ -25,9 +25,9 @@ Les options d’imbrication varient également selon que le domaine est en mode 
 
 Pour plus d’informations sur l’imbrication de groupes, consultez [Erreurs courantes](common-errors.md).
 
- 
+ 
 
- 
+ 
 
 
 

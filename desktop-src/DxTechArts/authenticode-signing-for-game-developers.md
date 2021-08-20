@@ -4,12 +4,12 @@ description: Cet article explique comment prendre en main l’authentification d
 ms.assetid: 0b3138ea-e4ea-57fb-756b-62fdc20cf813
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 256b1cec0693787e76cfa479940524fca28d508e
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: d1e41d9b0f1149394e1aa2634f5df2a428630bfc0e7bd006e86065567e28eb6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650429"
 ---
 # <a name="authenticode-signing-for-game-developers"></a>Signature Authenticode pour les développeurs de jeux
 
@@ -180,11 +180,11 @@ de nombreux types de pilotes peuvent être signés avec une signature approuvée
 
 au minimum, les pilotes doivent être signés par Authenticode, car les pilotes non signés ou auto-signés (c’est-à-dire, signés avec un certificat de test) ne peuvent pas être installés sur de nombreuses plateformes basées sur Windows. pour plus d’informations sur la signature des pilotes et du code et des fonctionnalités associées, consultez [configuration requise pour la signature des pilotes pour Windows](https://www.microsoft.com/whdc/winlogo/drvsign/drvsign.mspx) sur [Windows Hardware developer Central](https://www.microsoft.com/whdc/).
 
-## <a name="summary"></a>Résumé
+## <a name="summary"></a>Récapitulatif
 
 L’utilisation de Microsoft Authenticode est un processus simple. Une fois que vous avez obtenu une région d’exécution limitée et créé une clé privée, il est simple d’utiliser les outils fournis par Microsoft. vous pouvez ensuite activer des fonctionnalités importantes dans Windows Vista et Windows 7, telles que le contrôle parental, et informer les clients que votre produit provient directement de son propriétaire légitime.
 
-## <a name="more-information"></a>Informations complémentaires
+## <a name="more-information"></a>Plus d’informations
 
 Pour plus d’informations sur les outils et les processus liés à la signature de code, consultez les liens suivants :
 

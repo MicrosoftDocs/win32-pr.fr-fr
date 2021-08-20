@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPLibrary (VB et C) (WMP. h)
+title: interface IWMPLibrary (VB et C) (Wmp. h)
 description: Représente une bibliothèque. L’interface IWMPLibrary expose les propriétés suivantes.
 ms.assetid: 956b2da1-5f01-48d6-8faa-e360c225afda
 keywords:
-- IWMPLibrary (VB et C) interface Windows Media Player
-- Interface IWMPLibrary (VB et C), le lecteur Windows Media, décrit
+- interface IWMPLibrary (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPLibrary (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9749d3a2363c3863180639f249d7261ec1b9694
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a418192e45363b6757d7360e779b8f8134677d8a321228d81fddd3d49501075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054827"
 ---
-# <a name="iwmplibrary-vb-and-c-interface"></a>Interface IWMPLibrary (VB et C#)
+# <a name="iwmplibrary-vb-and-c-interface"></a>interface IWMPLibrary (VB et C#)
 
 Représente une bibliothèque.
 
@@ -30,14 +30,14 @@ L’interface **IWMPLibrary** expose les propriétés suivantes.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPLibrary (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPLibrary (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPLibrary (VB et C#)** possède ces méthodes.
+l’interface **IWMPLibrary (VB et C#)** possède ces méthodes.
 
 
 
@@ -51,7 +51,7 @@ L’interface **IWMPLibrary (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPLibrary (VB et C#)** a ces propriétés.
+l’interface **IWMPLibrary (VB et C#)** a ces propriétés.
 
 
 
@@ -91,7 +91,7 @@ Procurez-vous une interface **IWMPLibrary** à l’aide de la méthode suivante.
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPLibraryServices. getLibraryByType (VB et C#)**](wmplibiwmplibraryservices-iwmplibraryservices-getlibrarybytype--vb-and-c.md)

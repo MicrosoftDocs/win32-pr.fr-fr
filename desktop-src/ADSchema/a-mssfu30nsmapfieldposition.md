@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c26d691a9fdccf82125bc4d29f156c1c5ead5dbc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 40551adb7452120da1e85177a5b1fd82a8a01ce65a9f9e5ee2b2cf35d6493c94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581899"
 ---
 # <a name="mssfu-30-nsmap-field-position-attribute"></a>attribut msSFU-30-NSMAP-Field-position
 
@@ -43,7 +43,7 @@ Contient la position de champ utilisée pour extraire la clé d’un mappage non
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

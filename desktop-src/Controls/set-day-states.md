@@ -4,12 +4,12 @@ description: Cette rubrique montre comment définir les informations d’État d
 ms.assetid: EA92D858-BC80-4D08-9768-29A2BBDF900C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa1fc105c94a15e1a658218013dca00129c883c2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9e3ed2c99e6faf18f0e1d06ec06eaaf9a0d573faebe6f3697e43562603447571
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078473"
 ---
 # <a name="how-to-set-day-states"></a>Comment définir les États des jours
 
@@ -17,16 +17,16 @@ Cette rubrique montre comment définir les informations d’État du jour. Le co
 
 Les contrôles de calendrier mensuel qui utilisent les États du jour du support de style [**MCS \_ DAYSTATE**](month-calendar-control-styles.md) . Les informations d’État du jour sont exprimées sous la forme d’un type de données 32 bits, [**MONTHDAYSTATE**](monthdaystate.md). Chaque bit dans un champ de bits **MONTHDAYSTATE** (0 à 30) spécifie l’état d’un jour dans un mois. Si un bit est activé, le jour correspondant est affiché en gras.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

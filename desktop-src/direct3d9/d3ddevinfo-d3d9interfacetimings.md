@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: dfd6303f3682e29090db41fa83b38fc67f99121e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d7261096ed373620b8438ccce2d353ccf21f1c236028e8c829951fc64ee3725a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106524846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989029"
 ---
 # <a name="d3ddevinfo_d3d9interfacetimings-structure"></a>D3DDEVINFO \_ D3D9INTERFACETIMINGS, structure
 
@@ -100,7 +100,7 @@ Pourcentage de temps passé par le pilote à attendre un autre traitement GPU.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces mesures permettent d’identifier le moment où un pilote est en attente et ce qu’il attend. Les pourcentages élevés ne sont pas nécessairement un problème.
 

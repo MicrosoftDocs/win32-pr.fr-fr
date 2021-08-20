@@ -14,19 +14,19 @@ api_location:
 api_name:
 - _aulldiv
 targetos: Windows
-ms.openlocfilehash: 2fce346ee9608f20667c76841a63a8a3fb9cfe21
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: 0a37dd5a88d668ed92d79f7bc939119068840741a54cfacb5a15119fcefb774e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "104462687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538899"
 ---
 # <a name="_aulldiv-routine"></a>\_Routine aulldiv
 
 Divise deux entiers **ULONGLONG** .
 Par exemple, pour diviser deux valeurs UInt64, le compilateur peut générer un appel à la routine **\_ aulldiv** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La routine **\_ aulldiv** est une routine d’assistance pour le compilateur C.
 Le fait que le compilateur utilise **\_ aulldiv** dépend entièrement du jeu d’optimisation.

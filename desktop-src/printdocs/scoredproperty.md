@@ -57,7 +57,7 @@ Le tableau suivant répertorie les éléments qui peuvent être des parents de c
 
 Un élément ScoredProperty ne peut pas avoir de dépendances de configuration.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemples
 
 Déclarez un élément ScoredProperty nommé MediaSizeWidth avec la valeur 11.
 

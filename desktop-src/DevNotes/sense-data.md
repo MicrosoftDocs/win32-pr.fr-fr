@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Scsi.h
-ms.openlocfilehash: b5eacf9bee8c2cebf93b27c97a88c691852a3841
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 2f6b3bd9fd4353e396bc7fe4ff7273e598704d1348062fec1c2f64aed9380686
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106538275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075952"
 ---
 # <a name="sense_data-structure"></a>Structure de données de sens \_
 
@@ -208,7 +208,7 @@ Le contenu et le format des informations spécifiques à la clé de détection s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur le format de données de sens, consultez [commande SCSI Request sens](https://wikipedia.org/wiki/SCSI_command) ( https://wikipedia.org/wiki/SCSI_command) .
 
@@ -218,8 +218,8 @@ Pour plus d’informations sur le format de données de sens, consultez [command
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>SCSI. h</dt> </dl> |
 
 

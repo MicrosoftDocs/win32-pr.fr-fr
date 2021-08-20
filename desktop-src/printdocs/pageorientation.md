@@ -4,12 +4,12 @@ ms.assetid: 52f02fc1-56fb-404d-8939-df3a4b21570d
 title: PageOrientation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6f0af08fcd29f34bb55bd16b1eac50487e96ffb
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 4ece08b4a9500b72cab3bf36f4c40b6379532cf8b89d483b09a4b067ff1737ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034107"
 ---
 # <a name="pageorientation"></a>PageOrientation
 
@@ -40,7 +40,7 @@ Décrit l’orientation de la feuille de média physique.
 
 | Nom | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Type d'élément <br/>   | Composant<br/>                                                                                                                                                                                      |
+| Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                                                                                      |
 | Préfixe d’étendue <br/> | Page<br/>                                                                                                                                                                                         |
 | Remarques <br/>          | Si un périphérique d’impression ne peut prendre en charge qu’une seule direction paysage et que cette direction est dite « inversée », l’orientation de la page sera toujours considérée comme « paysage ».<br/> |
 

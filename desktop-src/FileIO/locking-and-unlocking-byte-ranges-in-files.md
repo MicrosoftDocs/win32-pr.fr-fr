@@ -4,12 +4,12 @@ ms.assetid: 9d54fe11-b1ad-4723-a42a-00bc6dc64072
 title: Verrouillage et déverrouillage des plages d’octets dans les fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7789c56cea100d00168494fac97bdb46e036953c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ccd18fc8a5e2f143cb58717f72abbc135421ee802ff93b651dad0916ed8a953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951158"
 ---
 # <a name="locking-and-unlocking-byte-ranges-in-files"></a>Verrouillage et déverrouillage des plages d’octets dans les fichiers
 
@@ -1028,7 +1028,7 @@ int __cdecl wmain(int argc, LPCWSTR argv[])
 
 
 
-Cet exemple est une application console Windows qui exécute plusieurs accès simultanés à un fichier, tous coordonnés par des verrous de plage d’octets à l’aide d’une base de données simple, composée de plusieurs enregistrements d’une taille fixe. Notez que la vraie simultanéité dépend du nombre de cœurs de processeurs présents sur le système hôte.
+cet exemple est une application console Windows qui exécute plusieurs accès simultanés à un fichier, tous coordonnés par des verrous de plage d’octets à l’aide d’une base de données simple, composée de plusieurs enregistrements d’une taille fixe. Notez que la vraie simultanéité dépend du nombre de cœurs de processeurs présents sur le système hôte.
 
 Tous les enregistrements ont les deux premiers champs en commun : un code de type et un numéro de séquence. Le code de type est l’un des deux codes suivants : le code « Master » fait référence au type d' **\_ enregistrement principal** et le code « Data » fait référence à un type d' **\_ enregistrement de données** . Il ne peut y avoir qu’un seul **\_ enregistrement principal** et zéro ou plusieurs **\_ enregistrements de données**. Pour cet exemple, les données contenues dans les enregistrements de données sont générées de manière aléatoire. Le deuxième champ, le numéro de séquence, est incrémenté chaque fois qu’un enregistrement est modifié.
 

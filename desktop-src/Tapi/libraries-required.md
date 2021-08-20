@@ -4,12 +4,12 @@ ms.assetid: f1765829-9a5d-4e85-b898-6679279aa6d9
 title: Bibliothèques requises
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0948599041c466a337d2d6828750a9996dc8d813
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8337042681d84b5f93d5d0218cff18c4bef9259543f60fd13f692ebe5611835
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621359"
 ---
 # <a name="libraries-required"></a>Bibliothèques requises
 
@@ -32,7 +32,7 @@ Liste des fichiers. lib requis pour compiler différentes applications TAPI 3, �
 -   Wldap32. lib
 -   Ws2 \_ 32. lib
 
-Si vous utilisez Microsoft Visual Studio, vous devrez peut-être mettre à jour votre version. En particulier, Link.exe doit comporter une date de 3/19/98 ou une version ultérieure.
+si vous utilisez Microsoft Visual Studio, vous devrez peut-être mettre à jour votre version. En particulier, Link.exe doit comporter une date de 3/19/98 ou une version ultérieure.
 
 Le compilateur définit doit inclure \_ Win32 \_ winnt défini sur au moins 0x500 et \_ \_ DCOM Win32.
 

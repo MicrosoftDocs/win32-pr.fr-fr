@@ -1,19 +1,19 @@
 ---
 title: Configuration IPsec
-description: La plateforme de filtrage Windows (WFP) est la plateforme sous-jacente pour le pare-feu Windows avec fonctions avancées de sécurité.
+description: Windows la plateforme de filtrage (WFP) est la plateforme sous-jacente pour Windows pare-feu avec sécurité avancée.
 ms.assetid: d54b5caa-daea-4231-9909-7a8d388df661
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78af8e3d0a23713c0505082555fe260bc562dfa4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 34cf20fc8c95aafe3c387195b02468cec3ce884cc97287adde44a594305ee189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069012"
 ---
 # <a name="ipsec-configuration"></a>Configuration IPsec
 
-La plateforme de filtrage Windows (WFP) est la plateforme sous-jacente pour le pare-feu Windows avec fonctions avancées de sécurité. WFP est utilisé pour configurer les règles de filtrage réseau, qui incluent des règles qui régissent la sécurisation du trafic réseau avec IPsec. Les développeurs d’applications peuvent configurer IPsec directement à l’aide de l’API WFP, afin de tirer parti d’un modèle de filtrage du trafic réseau plus granulaire que le modèle exposé via le composant logiciel enfichable MMC (Microsoft Management Console) pour le pare-feu Windows avec fonctions avancées de sécurité.
+Windows la plateforme de filtrage (WFP) est la plateforme sous-jacente pour Windows pare-feu avec sécurité avancée. WFP est utilisé pour configurer les règles de filtrage réseau, qui incluent des règles qui régissent la sécurisation du trafic réseau avec IPsec. les développeurs d’applications peuvent configurer IPsec directement à l’aide de l’API WFP, afin de tirer parti d’un modèle de filtrage du trafic réseau plus granulaire que le modèle exposé via le composant logiciel enfichable MMC (Microsoft Management Console) pour Windows pare-feu avec fonctions avancées de sécurité.
 
 ## <a name="what-is-ipsec"></a>Qu’est-ce qu’IPsec ?
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur IPsec, consultez également :
 
 ## <a name="what-is-ike"></a>Qu’est-ce que IKE ?
 
-Protocole IKE (Internet Key Exchange) (IKE) est un protocole d’échange de clés qui fait partie de l’ensemble de protocoles IPsec. IKE est utilisé lors de la configuration d’une connexion sécurisée et effectue l’échange sécurisé de clés secrètes et d’autres paramètres liés à la protection sans l’intervention de l’utilisateur.
+protocole IKE (Internet Key Exchange) (IKE) est un protocole d’échange de clés qui fait partie de l’ensemble de protocoles IPsec. IKE est utilisé lors de la configuration d’une connexion sécurisée et effectue l’échange sécurisé de clés secrètes et d’autres paramètres liés à la protection sans l’intervention de l’utilisateur.
 
 Pour plus d’informations sur IKE, voir aussi :
 
@@ -88,7 +88,7 @@ Pour plus d’informations sur les stratégies IPsec, voir aussi :
 
 ## <a name="how-to-use-wfp-to-configure-ipsec-policies"></a>Comment utiliser WFP pour configurer des stratégies IPsec
 
-L’implémentation Microsoft d’IPsec utilise la plateforme de filtrage Windows pour configurer des stratégies IPsec. Les stratégies IPsec sont implémentées en ajoutant des filtres dans différentes couches WFP comme suit.
+l’implémentation Microsoft d’IPsec utilise Windows plate-forme de filtrage pour configurer des stratégies IPsec. Les stratégies IPsec sont implémentées en ajoutant des filtres dans différentes couches WFP comme suit.
 
 -   Au niveau de la \_ couche FWPM \_ \_ couches IKEEXT V {4 \| 6}, ajoutez des filtres qui spécifient les stratégies de négociation utilisées par les modules de génération de clé (IKE/AuthIP) pendant les échanges en mode principal (mm). Les méthodes d’authentification et les algorithmes de chiffrement sont spécifiés au niveau de ces couches.
 -   Au niveau des \_ couches FWPM Layer \_ IPSec \_ V {4 \| 6}, ajoutez des filtres qui spécifient les stratégies de négociation utilisées par les modules de génération de clés en mode rapide (QM) et les échanges en mode étendu (EM). Les en-têtes IPsec (AH/ESP) et les algorithmes de chiffrement sont spécifiés au niveau de ces couches.
@@ -98,7 +98,7 @@ L’implémentation Microsoft d’IPsec utilise la plateforme de filtrage Window
     > [!Note]  
     > L’API WFP peut être utilisée pour spécifier les associations de sécurité (SAP) directement et par conséquent pour ignorer la stratégie de négociation du module de génération de clés.
 
-     
+     
 
 -   Au niveau des \_ \_ \_ couches FWPM transport entrant \_ v {4 \| 6} et \_ transport sortant de couche FWPM \_ \_ \_ v {4 \| 6}, ajoutez des filtres qui appellent des légendes et déterminent le flux de trafic à sécuriser.
 -   Au niveau des \_ couches FWPM d’authentification ALE de la couche \_ ALE \_ \_ \_ , accepter les \_ couches {4 \| 6} ajoutez des filtres qui implémentent le filtrage d’identité et la stratégie par application.
@@ -139,7 +139,7 @@ Voici un exemple de stratégie d’isolation qui peut être implémentée à l�
 [Mode de transport de la découverte de négociation en mode limite](negotiation-discovery-transport-mode-in-boundary-mode.md)
 </dt> <dt>
 
-[Mode de tunnel](tunnel-mode.md)
+[Tunnel Mode](tunnel-mode.md)
 </dt> <dt>
 
 [Chiffrement garanti](guaranteed-encryption.md)
@@ -160,6 +160,6 @@ Voici un exemple de stratégie d’isolation qui peut être implémentée à l�
 [Isolation de serveur et de domaine](/previous-versions/windows/it-pro/windows-server-2003/cc776080(v=ws.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

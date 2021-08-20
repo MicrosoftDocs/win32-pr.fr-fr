@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility crée un objet proxy pour chaque él
 ms.assetid: 64aa8fac-cea7-4466-ae34-2760956c296b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b450ebe79aa467100fe9b6fb3bc4cdfb5540b60c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4260788cc37aa6d4a33fcccb68a51fb61833d753c98ba4ae5dcff89f0d18cec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994159"
 ---
 # <a name="how-active-accessibility-exposes-user-interface-elements"></a>Comment Active Accessibility expose les éléments d’interface utilisateur
 
@@ -17,16 +17,16 @@ Microsoft Active Accessibility crée un objet *proxy* pour chaque élément de l
 
 Lorsque Microsoft Active Accessibility crée un objet pour exposer un contrôle prédéfini ou commun, il crée en fait au moins deux objets : un pour le contrôle et un pour la fenêtre qui entoure le contrôle. Dans la plupart des cas, ces fenêtres parentes possèdent la [propriété Role](role-property.md) de la [**\_ \_ fenêtre système Role**](object-roles.md) et ont les mêmes [propriété Name](name-property.md) et Name Class Name que le contrôle. Les informations sur le contrôle que les clients transmettent aux utilisateurs finaux sont contenues dans l’objet que Microsoft Active Accessibility crée pour exposer le contrôle, et non l’objet parent qui expose la fenêtre qui entoure le contrôle.
 
-Pour plus d'informations, consultez les rubriques ci-dessous.
+Pour plus d’informations, voir les rubriques suivantes :
 
 -   [Filtrage des objets inutiles](screening-out-unnecessary-objects.md)
 -   [Fourniture de la propriété Name](providing-the-name-property.md)
 -   [S’assurer que les éléments d’interface utilisateur sont correctement nommés](ensure-that-ui-elements-are-named-correctly.md)
 -   [Éléments d’interface utilisateur non pris en charge](unsupported-user-interface-elements.md)
 
- 
+ 
 
- 
+ 
 
 
 

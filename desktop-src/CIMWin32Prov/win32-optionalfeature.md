@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9ee0a8fc631430401328170f15c0dd2653d0ce8b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 72a185dec57b4b285b12ae689b0936bef928494fdc632cac0b176e16f1372cf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020197"
 ---
 # <a name="win32_optionalfeature-class"></a>\_Classe OptionalFeature Win32
 

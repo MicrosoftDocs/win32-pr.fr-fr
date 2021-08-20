@@ -3,7 +3,7 @@ title: Message SB_SETICON (commctrl. h)
 description: Définit l’icône d’un composant dans une barre d’État.
 ms.assetid: d8528cd1-54d2-44ba-b0d6-29111f75616a
 keywords:
-- SB_SETICON les contrôles de message Windows
+- SB_SETICON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f720c414238eb89cf98bf0556ebabffefceae4b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d0e08b1c3b0ce1a453ca9050c20552a14169a594c8091708339b4a436f1fb1a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540069"
 ---
 # <a name="sb_seticon-message"></a>\_Message SB SETICON
 
@@ -47,7 +47,7 @@ Handle de l’icône à définir. Si cette valeur est **null**, l’icône est s
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La barre d’État ne détruit pas l’icône. Il incombe à l’application appelante d’effectuer le suivi et de détruire les icônes.
 
@@ -57,8 +57,8 @@ La barre d’État ne détruit pas l’icône. Il incombe à l’application app
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

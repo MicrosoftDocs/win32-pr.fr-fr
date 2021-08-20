@@ -10,12 +10,12 @@ keywords:
 - GenProfile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59e04751bd33da6599fd7ff3766c4dc8350889c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 260219e408872dc21ecf82bd64b59b6c12b014c6e073a687a1b55957b290b76f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548048"
 ---
 # <a name="configuring-arbitrary-stream-types"></a>Configuration de types de flux arbitraires
 
@@ -29,30 +29,30 @@ Les sections suivantes décrivent comment configurer des types de flux arbitrair
 
 | Section                                                                                                                                        | Description                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [Configuration de flux de script](configuring-script-streams.md)                                                                                   | Décrit comment configurer des flux de script.                                                  |
-| [Configuration des flux de transfert de fichiers](configuring-file-transfer-streams.md)                                                                     | Décrit comment configurer des flux de transfert de fichiers.                                           |
-| [Configuration de flux Web](configuring-web-streams.md)                                                                                         | Décrit comment configurer des flux Web.                                                     |
-| [Configuration de flux de texte](configuring-text-streams.md)                                                                                       | Décrit comment configurer des flux de texte.                                                    |
-| [Configuration de flux arbitraires personnalisés](configuring-custom-arbitrary-streams.md)                                                               | Décrit comment configurer des flux pour des types de flux arbitraires personnalisés.                       |
-| [Calcul de la vitesse de transmission et des valeurs de fenêtre de mémoire tampon pour les flux arbitraires](calculating-bit-rate-and-buffer-window-values-for-arbitrary-streams.md) | Décrit comment calculer la vitesse de transmission et les paramètres de fenêtre de mémoire tampon pour un flux arbitraire. |
+| [Configuration des Flux de script](configuring-script-streams.md)                                                                                   | Décrit comment configurer des flux de script.                                                  |
+| [Configuration du transfert de fichiers Flux](configuring-file-transfer-streams.md)                                                                     | Décrit comment configurer des flux de transfert de fichiers.                                           |
+| [Configuration de Flux Web](configuring-web-streams.md)                                                                                         | Décrit comment configurer des flux Web.                                                     |
+| [Configuration de la Flux de texte](configuring-text-streams.md)                                                                                       | Décrit comment configurer des flux de texte.                                                    |
+| [Configuration de Flux arbitraires personnalisés](configuring-custom-arbitrary-streams.md)                                                               | Décrit comment configurer des flux pour des types de flux arbitraires personnalisés.                       |
+| [Calcul de la vitesse de transmission et des valeurs de fenêtre de mémoire tampon pour des Flux arbitraires](calculating-bit-rate-and-buffer-window-values-for-arbitrary-streams.md) | Décrit comment calculer la vitesse de transmission et les paramètres de fenêtre de mémoire tampon pour un flux arbitraire. |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Flux arbitraires**](arbitrary-streams.md)
+[**Flux arbitraire**](arbitrary-streams.md)
 </dt> <dt>
 
-[**Configuration de flux**](configuring-streams.md)
+[**Configuration de Flux**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8cc5179a55aabfa3324e3caab7005f4abe437a6d
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: bfd4fc15f3ea7d4f6275f0d4dd31ed96729715b6089397fff7ee73fc7d0c6e9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104394283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614932"
 ---
 # <a name="jetossnapshotprepareinstance-function"></a>JetOSSnapshotPrepareInstance fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetossnapshotprepareinstance-function"></a>JetOSSnapshotPrepareInstance fonction)
 
 La fonction **JetOSSnapshotPrepareInstance** sélectionne une instance spécifique pour faire partie de la session d’instantané.
 
-**Windows Vista :** **JetOSSnapshotPrepareInstance** a été introduit dans Windows Vista.
+**Windows vista :** **JetOSSnapshotPrepareInstance** a été introduit dans Windows vista.
 
 ```cpp
 JET_ERR JET_API JetOSSnapshotPrepareInstance(
@@ -60,7 +60,7 @@ Options pour cet appel. Ce paramètre est réservé à un usage futur. La seule 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -98,7 +98,7 @@ Si cette fonction est réussie, l’instance spécifiée fera partie de la sessi
 
 Si cette fonction échoue, aucune modification de l’état du moteur ne se produit.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 L’appel de séquence d’API normal est : [JetOSSnapshotPrepare](./jetossnapshotprepare-function.md), éventuellement suivi d’un ou plusieurs appels à **JetOSSnapshotPrepareInstance**, puis de [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md). Une fois le blocage démarré, il peut être arrêté à l’aide de [JetOSSnapshotThaw](./jetossnapshotthaw-function.md). À tout moment après la préparation, la session d’instantané peut être interrompue soudainement avec [JetOSSnapshotAbort](./jetossnapshotabort-function.md). Les entrées du journal des événements seront générées pour les différentes étapes de l’instantané.
 
@@ -118,11 +118,11 @@ Si **JetOSSnapshotPrepareInstance** n’est pas appelé entre le début de la se
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista.</p></td>
+<td><p>requiert Windows Vista.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008.</p></td>
+<td><p>requiert Windows Server 2008.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>
@@ -143,7 +143,7 @@ Si **JetOSSnapshotPrepareInstance** n’est pas appelé entre le début de la se
 #### <a name="see-also"></a>Voir aussi
 
 [Paramètres de gestion des erreurs](./error-handling-parameters.md)  
-[Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md)  
+[erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md)  
 [JET_ERR](./jet-err.md)  
 [JetOSSnapshotAbort](./jetossnapshotabort-function.md)  
 [JetOSSnapshotEnd](./jetossnapshotend-function.md)  

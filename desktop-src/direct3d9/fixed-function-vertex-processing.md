@@ -4,12 +4,12 @@ ms.assetid: a882a5c5-b05e-4659-9040-92d3e2ccd89c
 title: Résolution du traitement des vertex de fonction (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da30dd0fb6cf6e055d8b1bbb31fdfdb01d9e1e20
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 827a293a4fbd552327d93076de773aec90dbd895faf3c086f4794036978984fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988019"
 ---
 # <a name="fixed-function-vertex-processing-direct3d-9"></a>Résolution du traitement des vertex de fonction (Direct3D 9)
 
@@ -19,7 +19,7 @@ Les premier, deuxième et troisième paramètres, SrcStartIndex, DestIndex et Ve
 
 Le paramètre final, Flags, détermine les options de traitement spéciales pour la méthode. Vous pouvez définir ce paramètre sur 0 pour le traitement par défaut des vertex ou sur [D3DPV \_ DONOTCOPYDATA](other-direct3d-constants.md) pour optimiser le traitement dans certaines situations. Vous pouvez également combiner la \_ valeur D3DPV DONOTCOPYDATA avec une ou plusieurs valeurs [D3DLOCK](d3dlock.md) appropriées pour la mémoire tampon de destination. Lorsque vous affectez la valeur 0 à Flags, les composants de vertex du format de vertex de la mémoire tampon du vertex de destination qui ne sont pas affectés par l’opération de vertex sont toujours copiés à partir du nuanceur de sommets ou ont la valeur 0. Toutefois, lors de l’utilisation \_ de D3DPV DONOTCOPYDATA, [**IDirect3DDevice9 ::P rocessvertices**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-processvertices) ne remplace pas les informations de coordonnées de couleur et de texture dans la mémoire tampon de destination, sauf si ces données sont générées par Direct3D. La couleur diffuse est générée lorsque l’éclairage est activé, c’est-à-dire que l’éclairage D3DRS a la valeur \_ **true**. La couleur spéculaire est générée lorsque l’éclairage est activé et que l’option spéculaire est activée, c’est-à-dire que D3DRS \_ SpecularEnable et D3DRS \_ Lighting ont la valeur **true**. La couleur spéculaire est également générée quand le brouillard est activé. Des coordonnées de texture sont générées lorsque la transformation de texture ou la génération de texture est activée. **IDirect3DDevice9 ::P rocessvertices** utilise les États de rendu actuels pour déterminer le traitement du vertex à effectuer.
 
-## <a name="fvf-usage-settings-for-destination-vertex-buffers"></a>Paramètres d’utilisation du prix final pour les mémoires tampons de vertex de destination
+## <a name="fvf-usage-settings-for-destination-vertex-buffers"></a>Paramètres de l’utilisation du prix final pour les mémoires tampons de Vertex de Destination
 
 La méthode [**IDirect3DDevice9 ::P rocessvertices**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-processvertices) requiert des paramètres spécifiques pour le [D3DFVF](d3dfvf.md) de la mémoire tampon de vertex de destination. Les paramètres d’utilisation du niveau de la Commission doivent être compatibles avec les paramètres actuels pour le traitement des vertex.
 

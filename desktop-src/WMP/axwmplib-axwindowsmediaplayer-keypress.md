@@ -3,7 +3,7 @@ title: Événement KeyPress de l’objet AxWindowsMediaPlayer
 description: L’événement KeyPress se produit lorsqu’une touche est enfoncée et libérée. | Événement KeyPress de l’objet AxWindowsMediaPlayer
 ms.assetid: 73ecd6f9-1b58-4e28-ad1b-2d930a235e1d
 keywords:
-- Événement KeyPress de l’objet AxWindowsMediaPlayer lecteur Windows Media
+- événement keypress de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4a01e84b8f765d024c753d08211f3bb84e7f011
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 45b8022feacda910b28d68636c1abdcb2f6c1c9d3c2e799f762f25f5060b2b82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618789"
 ---
 # <a name="keypress-event-of-the-axwindowsmediaplayer-object"></a>Événement KeyPress de l’objet AxWindowsMediaPlayer
 
@@ -53,7 +53,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement se produit lorsque la séquence de touches génère un caractère imprimable du clavier, la touche CTRL combinée à un caractère de l’alphabet standard ou l’un des quelques caractères spéciaux, et la touche entrée ou retour arrière.
 
@@ -73,7 +73,7 @@ Cet événement se produit lorsque la séquence de touches génère un caractèr
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

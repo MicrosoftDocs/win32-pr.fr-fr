@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 47177066cd88dec29331ab0cd6c845bd37a240c8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2ee8f008347d12a3b94a6497960628bbfbe2d9c81096d0f872728259e0cf6c1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986899"
 ---
 # <a name="shader-model-5-attributes"></a>Attributs du modèle de nuanceur 5
 
@@ -39,9 +39,9 @@ Tous ces attributs sont requis (à l’exception de l’attribut d' **instance**
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

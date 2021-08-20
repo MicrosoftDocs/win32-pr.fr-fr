@@ -4,12 +4,12 @@ ms.assetid: f6fa0421-a125-4ead-a540-d2f7327a26b6
 title: PageScalingOffsetHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f02370d28716dd3a8840001959bb7d963307d2f
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 434dd3faf8f5d7fdc230738e33a3715217bbaeb0d0b3c74cb0d1545fb77cd1fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113548957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034117"
 ---
 # <a name="pagescalingoffsetheight"></a>PageScalingOffsetHeight
 
@@ -24,11 +24,11 @@ Spécifie le décalage de mise à l’échelle dans la direction ImageableSizeHe
 
 
 
-| Nom | Valeur |
+| Name | Valeur |
 |----------------------------|---------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                 |
 | Préfixe d’étendue <br/> | Page<br/>                                         |
-| Remarques <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
+| Notes <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
 
 
 
@@ -78,7 +78,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 

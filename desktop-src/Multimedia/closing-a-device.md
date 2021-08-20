@@ -6,12 +6,12 @@ keywords:
 - Commande MCI_CLOSE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 824d156baa72ee404f29ae490d4d9816078f4d15
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29f81ddaf42ef5509b55271159b8e36ac56584b92734a6b04e5b555041596530
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498079"
 ---
 # <a name="closing-a-device"></a>Fermeture d’un appareil
 
@@ -20,13 +20,13 @@ La commande [**Fermer**](close.md) ([**MCI \_ Close**](mci-close.md)) libère l�
 Lorsque vous fermez un périphérique MCI externe qui utilise son propre support au lieu de fichiers (tels qu’un CD audio), le pilote laisse l’appareil dans son mode de fonctionnement actuel. Ainsi, si vous fermez un périphérique CD audio en train de jouer, même si le pilote de périphérique est libéré de la mémoire, le périphérique CD audio continue de fonctionner jusqu’à ce qu’il atteigne la fin de son contenu.
 
 > [!Note]  
-> La fermeture d’une application avec des appareils MCI ouverts peut empêcher d’autres applications d’utiliser ces appareils jusqu’au redémarrage de Windows.
+> la fermeture d’une application avec des appareils MCI ouverts peut empêcher d’autres applications d’utiliser ces appareils jusqu’à ce que Windows redémarre.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

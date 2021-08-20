@@ -4,12 +4,12 @@ description: Les exemples de code suivants montrent comment utiliser les options
 ms.assetid: 02d57ea2-066b-4cb9-81f1-2ff9ee55f22f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b08363e26443f8d407be14d0db207e37412b1298
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bfbbe99bd155832534f9f1d7d27372dd49e13f6e6154fbc36739657477163193
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106527134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535369"
 ---
 # <a name="using-classify-options"></a>Utilisation des options de classification
 
@@ -304,9 +304,9 @@ DWORD wmain(int argc,
 [**Conditions de filtrage disponibles pour chaque couche de filtrage**](filtering-conditions-available-at-each-filtering-layer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

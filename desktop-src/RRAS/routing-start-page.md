@@ -9,12 +9,12 @@ keywords:
 - RAS RRAS, voir routage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40e3b2a92a6c54f47693d657315ec0a48e660061
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe5745af9d7c4cc3da5fbe50e745506a54cfc629ebbbe3cff6aa021d8ea14acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672509"
 ---
 # <a name="routing"></a>Routage
 
@@ -32,7 +32,7 @@ Les API de routage sont conçues pour être utilisées par les programmeurs C/C+
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Le routage est une technologie serveur. Toutes les fonctionnalités du routage sont intégrées à Windows 2000 Server et à Windows Server 2003. Les applications de routage ne peuvent pas s’exécuter sur Windows NT Workstation 4,0 ou sur des systèmes d’exploitation clients, tels que Windows 95. Pour plus d’informations sur les systèmes d’exploitation qui prennent en charge une fonction particulière, reportez-vous aux sections relatives à la configuration requise dans la documentation.
+Le routage est une technologie serveur. toutes les fonctionnalités du routage sont intégrées à Windows serveur 2000 et au Windows server 2003. les applications de routage ne peuvent pas s’exécuter sur Windows NT Workstation 4,0 ou sur des systèmes d’exploitation clients, tels que Windows 95. Pour plus d’informations sur les systèmes d’exploitation qui prennent en charge une fonction particulière, reportez-vous aux sections relatives à la configuration requise dans la documentation.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -40,7 +40,7 @@ Le routage est une technologie serveur. Toutes les fonctionnalités du routage s
 
 | Rubrique                                                                                               | Description                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Gestion de routeur](about-router-management.md)<br/>                                         | L’API d’administration de routeur permet aux développeurs de créer des applications pour gérer le service de routeur sur un ordinateur exécutant Windows 2000 Server et des systèmes d’exploitation ultérieurs.<br/>                                                                                                                                                     |
+| [Gestion de routeur](about-router-management.md)<br/>                                         | l’API d’administration de routeur permet aux développeurs de créer des applications pour gérer le service de routeur sur un ordinateur exécutant Windows serveur 2000 et les systèmes d’exploitation ultérieurs.<br/>                                                                                                                                                     |
 | [Bases d’informations de gestion et gestionnaires de routeur](/windows/desktop/RRAS/about-router-management-with-mib)<br/> | Les API MIB (Management Information base) pour la gestion de routeur permettent d’interroger et de définir les valeurs des variables MIB exportées par l’un des gestionnaires de routeur ou l’un des protocoles de routage utilisés par le service gestionnaires de routeur. À l’aide de cette API, le routeur prend en charge le protocole SNMP (simple Network Management Protocol).<br/> |
 
 

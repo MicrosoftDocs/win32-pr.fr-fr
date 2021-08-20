@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccd2798cdba03cd5ad362acb8720f75153437c28
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 81188513c785fefec22d431f69582e9c0df35652ff32a55a4c83dcb9a21af66e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021697"
 ---
 # <a name="generate-rsop-logging-extended-right"></a>Générer-RSoP-journalisation étendue à droite
 
@@ -38,7 +38,7 @@ L’utilisateur qui dispose des droits sur une unité d’organisation ou un dom
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

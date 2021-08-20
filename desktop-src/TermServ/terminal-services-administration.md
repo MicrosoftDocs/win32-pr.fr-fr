@@ -5,12 +5,12 @@ ms.assetid: 85a9ed9d-79d6-4011-93a4-00847c689747
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e763a652335c85931225746334bc21db0e6e086d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 46df6277b924d25608b3c4def5074c1f156738e23d114de075af01521953e7d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106543414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000279"
 ---
 # <a name="remote-desktop-services-administration"></a>Administration de Services Bureau à distance
 
@@ -37,10 +37,10 @@ Vous pouvez utiliser le handle retourné par **WTSOpenServer** pour effectuer le
 
 
 
- 
+ 
 
 Plusieurs de ces fonctions allouent des tampons pour retourner des informations à l’appelant. Lorsque vous avez fini d’utiliser la mémoire tampon, libérez-la en appelant la fonction [**WTSFreeMemory**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsfreememory) .
 
- 
+ 
 
- 
+ 

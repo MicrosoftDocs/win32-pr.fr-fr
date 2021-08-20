@@ -4,12 +4,12 @@ ms.assetid: 2534d387-a280-4716-9a9d-3e42f40e2f92
 title: Collecte des données de performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e99bd2c0e22553245e87d3844694051c88c57895
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79f65280190e67e27783ea7e7387eac0e348aad1a53ad016df3010ae0bfd2ea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061237"
 ---
 # <a name="collecting-performance-data"></a>Collecte des données de performances
 
@@ -51,7 +51,7 @@ Le tableau suivant montre comment cela peut se produire si un processus est arr�
 |----------|----------------------|--------------------------------|------------------------------------------|
 | Exemple 1 | 0                    | 0                              | 0                                        |
 | Exemple 2 | 20                   | 10                             | 500                                      |
-| Exemple 3 | 40                   | 20                             | 1 000                                    |
+| Exemple 3 | 40                   | 20                             | 1 000                                    |
 | Exemple 4 | 60                   | 1 500 (à partir de l’emplacement 2 précédent) | Non applicable. Désormais collectées dans l’emplacement 1. |
 | Exemple 5 | 80                   | 2 000                          | Non applicable. Désormais collectées dans l’emplacement 1. |
 

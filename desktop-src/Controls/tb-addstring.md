@@ -3,7 +3,7 @@ title: Message TB_ADDSTRING (commctrl. h)
 description: Ajoute une nouvelle chaîne au pool de chaînes de la barre d’outils.
 ms.assetid: e22ee2cc-6443-49d3-aea6-a4ab256d4538
 keywords:
-- TB_ADDSTRING les contrôles de message Windows
+- TB_ADDSTRING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fba57c298a2b903a65c429ae6b4f9d55fc9ed2b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c0556add41addb4a58d5734ab900af4a43c2018b533723145ed4f9c8272e3890
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078373"
 ---
 # <a name="tb_addstring-message"></a>TO \_ message ADDSTRING
 
@@ -45,11 +45,11 @@ Identificateur de ressource de la ressource de type chaîne, ou pointeur vers un
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne l’index de la première nouvelle chaîne en cas de réussite, ou-1 dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si *wParam* a la **valeur null**, *lParam* pointe vers un tableau de caractères avec une ou plusieurs chaînes se terminant par un caractère null. La dernière chaîne dans le tableau doit se terminer par deux caractères null.
 
@@ -61,8 +61,8 @@ Si *wParam* est le HINSTANCE de l’application ou d’un autre module contenant
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **To \_ ADDSTRINGW** (Unicode) et **to \_ ADDSTRINGA** (ANSI)<br/>                 |
 

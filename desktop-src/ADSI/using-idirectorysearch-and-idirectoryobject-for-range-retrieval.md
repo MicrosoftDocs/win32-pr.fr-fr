@@ -9,12 +9,12 @@ keywords:
 - ADSI de récupération de plage, avec IDirectorySearch et IDirectoryObject
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 591d2cf7b65b7a8159a92de324f18fbe93164f0e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 506d061dd49c98bdb3b8cc731a28d0dc0ee5fe9a0df5816abf259ece17e456ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023057"
 ---
 # <a name="using-idirectorysearch-and-idirectoryobject-for-range-retrieval"></a>Utilisation de IDirectorySearch et IDirectoryObject pour la récupération de plages
 
@@ -61,9 +61,9 @@ Lors de l’utilisation de l’interface [**IDirectorySearch**](/windows/desktop
 
 Pour plus d’informations et pour obtenir un exemple de code qui montre comment utiliser l’interface [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) pour la récupération de plages, consultez l' [exemple de code pour](example-code-for-ranging-with-idirectorysearch.md)plus d’informations sur IDirectorySearch.
 
- 
+ 
 
- 
+ 
 
 
 

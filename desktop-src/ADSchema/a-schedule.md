@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abf53e86f77ecffc872d8b007e32b1f964ae244e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6b65ff20b9eaba0c8429f5fec164e44a3e4b842e82bfddcca61461f6832f55d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022217"
 ---
 # <a name="schedule-attribute"></a>Attribut de planification
 
@@ -46,7 +46,7 @@ Objet BLOB de planification tel que défini par le service de travail Windows NT
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Objet BLOB de planification tel que défini par le service de travail Windows NT
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
+| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Objet BLOB de planification tel que défini par le service de travail Windows NT
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
+| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ Objet BLOB de planification tel que défini par le service de travail Windows NT
 | Range-Upper            | \-                                                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                                                    |
-| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
+| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Objet BLOB de planification tel que défini par le service de travail Windows NT
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
+| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Objet BLOB de planification tel que défini par le service de travail Windows NT
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
+| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Objet BLOB de planification tel que défini par le service de travail Windows NT
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
+| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ Objet BLOB de planification tel que défini par le service de travail Windows NT
 | Range-Upper            | \-                                                                                                                                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                       |
-| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
+| Classes utilisées dans        | [**NTDS-connexion**](c-ntdsconnection.md)<br/> [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)<br/> [**NTFRS-abonné**](c-ntfrssubscriber.md)<br/> [**Lien de site**](c-sitelink.md)<br/> |
 
 
 

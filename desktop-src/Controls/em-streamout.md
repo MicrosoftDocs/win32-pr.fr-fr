@@ -3,7 +3,7 @@ title: Message EM_STREAMOUT (RichEdit. h)
 description: Fait en sorte qu’un contrôle RichEdit passe son contenu à une fonction de rappel EditStreamCallback définie par l’application \ 8211 ;. La fonction de rappel peut ensuite écrire le flux de données dans un fichier ou tout autre emplacement qu’il choisit.
 ms.assetid: 3f14aaac-4b17-47af-8f2b-503390631a88
 keywords:
-- EM_STREAMOUT les contrôles de message Windows
+- EM_STREAMOUT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cbdef51348593f8dbcfdb1ef579aca7dba6f96e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63236083c1964d29cb915e4bfc51303b30b730e01f76f2b186cc200d1dcfce6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019467"
 ---
 # <a name="em_streamout-message"></a>\_Message STREAMOUT em
 
@@ -79,7 +79,7 @@ Pointeur vers une structure [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-ri
 
 Ce message retourne le nombre de caractères écrits dans le flux de données.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous envoyez un **message \_ em STREAMOUT** , le contrôle RichEdit effectue des appels répétés à la fonction [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) spécifiée par le membre **pfnCallback** de la structure [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream) . À chaque fois qu’il appelle la fonction de rappel, le contrôle passe une mémoire tampon contenant une partie du contenu du contrôle. Ce processus se poursuit jusqu’à ce que le contrôle ait passé tout son contenu à la fonction de rappel, ou jusqu’à ce qu’une erreur se produise.
 
@@ -89,8 +89,8 @@ Lorsque vous envoyez un **message \_ em STREAMOUT** , le contrôle RichEdit effe
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

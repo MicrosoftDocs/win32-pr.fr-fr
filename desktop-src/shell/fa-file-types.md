@@ -4,16 +4,16 @@ ms.assetid: 055648cd-46ce-4e61-80b2-bcf1d1823e20
 title: Types de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d697c42626c6e1ab3e0b5cc0b88bd065523d53a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 541e6068237b504ea8c9faf06e2083986ed5bb48a7c16dabb82e5096569d9f17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094204"
 ---
 # <a name="file-types"></a>Types de fichiers
 
-Cette rubrique explique comment créer de nouveaux types de fichiers et comment associer votre application à votre type de fichier et à d’autres types de fichiers bien définis. Les fichiers avec une extension de nom de fichier commun partagée (. doc,. html, etc.) sont du même *type*. Par exemple, si vous créez un éditeur de texte, vous pouvez utiliser le type de fichier. txt existant. Dans d’autres cas, vous devrez peut-être créer un nouveau type de fichier.
+Cette rubrique explique comment créer de nouveaux types de fichiers et comment associer votre application à votre type de fichier et à d’autres types de fichiers bien définis. Les fichiers avec une extension de nom de fichier commun partagée (.doc, .html, etc.) sont du même *type*. Par exemple, si vous créez un éditeur de texte, vous pouvez utiliser le type de fichier .txt existant. Dans d’autres cas, vous devrez peut-être créer un nouveau type de fichier.
 
 Cette rubrique est organisée comme suit :
 
@@ -40,12 +40,12 @@ Les types de fichiers publics sont également appelés types populaires ou conte
 -   Ils doivent être pris en charge sur de nombreuses plateformes différentes.
 -   Les applications de plusieurs fournisseurs sont susceptibles de les gérer.
 
-Voici quelques exemples de types de fichiers considérés comme étant publics : types de fichiers image. png,. gif,. jpg et. bmp, et types audio. wav,. mp3 et. au.
+Voici quelques exemples de types de fichiers considérés comme étant publics : les types de fichiers image .png, .gif, .jpg et .bmp, ainsi que les types audio. wav, .mp3 et. au.
 
 Contrairement aux types de fichiers publics, les types de fichiers privés ou propriétaires ont généralement un format qui est implémenté et interprété par une seule application ou un seul fournisseur. Par conséquent, les types de fichiers privés ne sont généralement pas sujets aux conflits entre les applications. Certains types de fichiers peuvent démarrer en tant que types de fichiers privés, mais deviennent par la suite des types de fichiers publics.
 
 > [!Note]  
-> Windows ne fait pas la distinction entre les types de fichiers publics et privés. La distinction est pertinente uniquement pour prendre des décisions sur votre choix d’inscription de type de fichier.
+> Windows ne fait pas la différence entre les types de fichiers publics et privés. La distinction est pertinente uniquement pour prendre des décisions sur votre choix d’inscription de type de fichier.
 
  
 
@@ -81,9 +81,9 @@ Les entrées d’extension de type de fichier utilisées par les associations de
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Default         | Définissez la valeur par défaut de la sous-clé d’extension sur le ProgID auquel elle est liée.                                                                                                                                                                                                                                                 |
 | Type de contenu    | Définissez la valeur type de contenu sur le type de contenu MIME du type de fichier.                                                                                                                                                                                                                                                                   |
-| OpenWithList    | Ne pas utiliser. Cette sous-clé contient une ou plusieurs sous-clés d’application pour les applications qui s’affichent dans l’entrée de la boîte de dialogue **Ouvrir avec** pour le type de fichier et est destinée uniquement aux applications. exe sur les systèmes d’exploitation antérieurs à Windows XP. Utilisez OpenWithProgIds à la place.                                                            |
-| OpenWithProgIds | Cette sous-clé contient une liste d’autres ProgID pour ce type de fichier. Les programmes pour ces ProgID s’affichent dans le menu **Ouvrir avec** et sont disponibles en tant qu’applications du Windows Store par défaut pour le type de fichier. Chaque fois qu’une application prend le contrôle de ce type de fichier en modifiant la valeur par défaut, elle doit également ajouter une entrée à cette liste. |
-| PerceivedType   | Définissez la valeur PerceivedType sur le PerceivedType auquel le fichier appartient, le cas échéant. Cette chaîne n’est pas utilisée par les versions de Windows antérieures à Windows Vista. Pour plus d’informations, consultez [types perçus et inscription des applications](fa-perceivedtypes.md).                                                                           |
+| OpenWithList    | Ne pas utiliser. cette sous-clé contient une ou plusieurs sous-clés d’application pour les applications qui s’affichent dans l’entrée de la boîte de dialogue **ouvrir avec** pour le type de fichier et est destinée uniquement à .exe applications sur les systèmes d’exploitation antérieurs à Windows XP. Utilisez OpenWithProgIds à la place.                                                            |
+| OpenWithProgIds | Cette sous-clé contient une liste d’autres ProgID pour ce type de fichier. les programmes pour ces progid s’affichent dans le menu **ouvrir avec** et sont disponibles par défaut Windows les applications du windows Store pour le type de fichier. Chaque fois qu’une application prend le contrôle de ce type de fichier en modifiant la valeur par défaut, elle doit également ajouter une entrée à cette liste. |
+| PerceivedType   | Définissez la valeur PerceivedType sur le PerceivedType auquel le fichier appartient, le cas échéant. cette chaîne n’est pas utilisée par les versions de Windows antérieures à Windows Vista. Pour plus d’informations, consultez [types perçus et inscription des applications](fa-perceivedtypes.md).                                                                           |
 
 
 
@@ -132,7 +132,7 @@ Considérations importantes à propos des types de fichiers :
 
 ### <a name="deleting-registry-information-during-uninstallation"></a>Suppression des informations du registre lors de la désinstallation
 
-Lors de la désinstallation d’une application, les ProgID et la plupart des autres informations de Registre associées à cette application doivent être supprimés dans le cadre de la désinstallation. Toutefois, les applications qui ont pris possession d’un type de fichier (en définissant la valeur par défaut de la sous-clé HKEY. extension **\_ \_ racine** du type de fichier \\  sur le ProgID de l’application) ne doivent pas tenter de supprimer cette valeur lors de la désinstallation de. Le fait de laisser les données en place pour la valeur par défaut évite de déterminer si une autre application a pris possession du type de fichier et a remplacé la valeur par défaut après l’installation de l’application d’origine. Windows respecte la valeur par défaut uniquement si le ProgID a trouvé un ProgID enregistré. Si le ProgID n’est pas inscrit, il est ignoré.
+Lors de la désinstallation d’une application, les ProgID et la plupart des autres informations de Registre associées à cette application doivent être supprimés dans le cadre de la désinstallation. Toutefois, les applications qui ont pris possession d’un type de fichier (en définissant la valeur par défaut de la sous-clé HKEY. extension **\_ \_ racine** du type de fichier \\  sur le ProgID de l’application) ne doivent pas tenter de supprimer cette valeur lors de la désinstallation de. Le fait de laisser les données en place pour la valeur par défaut évite de déterminer si une autre application a pris possession du type de fichier et a remplacé la valeur par défaut après l’installation de l’application d’origine. Windows respecte la valeur par défaut uniquement si le progid a trouvé un progid enregistré. Si le ProgID n’est pas inscrit, il est ignoré.
 
 Notez que d’autres informations sur la propriété du type de fichier sont stockées dans la sous-arborescence de l' **\_ \_ utilisateur actuel HKEY** et sont également utilisées uniquement lorsque l’application à laquelle elle fait référence est inscrite. Par conséquent, il n’est pas nécessaire de supprimer ces données lors de la désinstallation d’une application.
 
@@ -160,17 +160,17 @@ HKEY_CLASSES_ROOT
 
 ## <a name="file-types-that-support-open-metadata"></a>Types de fichiers prenant en charge les métadonnées ouvertes
 
-Dans Windows 7 et versions ultérieures, les types de fichiers suivants prennent en charge les métadonnées ouvertes.
+dans Windows 7 et versions ultérieures, les types de fichiers suivants prennent en charge les métadonnées ouvertes.
 
 
 
 | Type de fichier                                                               | Extensions de nom de fichier                                          |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
-| Documents Office 2007                                                   | . docx,. xlsx,. pptx                                           |
-| Documents Office 97-2003                                                | . doc,. xls,. ppt                                              |
+| Documents Office 2007                                                   | .docx, .xlsx .pptx                                           |
+| Documents Office 97-2003                                                | .doc, .xls .ppt                                              |
 | Recherche enregistrée                                                            | . search-ms                                                    |
-| Formats basés sur Windows Media (conteneur ASF) | . wmv,. WMA                                                    |
-| MP4 (gestionnaire de propriétés)                                                  | . MP4,. M4A,. m4v,. mp4v,. M4P,. M4B,. 3gp,. 3GPP,. 3GP2,. mov |
+| Windows Formats basés sur le support (conteneur ASF) | . wmv,. WMA                                                    |
+| MP4 (gestionnaire de propriétés)                                                  | .mp4,. M4A,. m4v,. mp4v,. M4P,. M4B,. 3gp,. 3GPP,. 3GP2,. mov |
 
 
 

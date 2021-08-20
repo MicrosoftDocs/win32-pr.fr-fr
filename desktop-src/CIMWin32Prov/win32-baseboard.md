@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c4287076a550e25bf74a160b191c777c25d9ab3b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac22dc01864d74902c666529bd40344f65eacfb1ad2515552e1cd46fbf65b9e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546512"
 ---
 # <a name="win32_baseboard-class"></a>\_Classe Baseboard de Win32
 
@@ -708,7 +708,7 @@ Cette propriété est héritée de la [**\_ PhysicalPackage CIM**](cim-physicale
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **classe \_ Baseboard Win32** est dérivée de la [**\_ carte CIM**](cim-card.md) qui dérive de [**CIM \_ PhysicalPackage**](cim-physicalelement.md).
 

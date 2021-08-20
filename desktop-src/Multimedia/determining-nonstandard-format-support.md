@@ -9,12 +9,12 @@ keywords:
 - audio auxiliaire, prise en charge du format standard
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d0933a82ca8da53c89e1cb8b7d32b40dc89ae0c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 30a90d38f7419b6fbdb3de951c0aa2205ccd3dd9ff5366eb1e69eab945220db1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497279"
 ---
 # <a name="determining-nonstandard-format-support"></a>Détermination de la prise en charge des formats non standard
 
@@ -47,6 +47,6 @@ Cette technique pour déterminer la prise en charge des formats non standard s�
 
 Pour déterminer si un format de données Waveform-Audio particulier est pris en charge par l’un des périphériques audio Wave dans un système, utilisez la technique illustrée dans l’exemple précédent, mais spécifiez la \_ constante du mappeur Wave pour le paramètre *uDeviceID* .
 
- 
+ 
 
- 
+ 

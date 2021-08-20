@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e95b953aebaa39bb3fc3e4c9cf96632f32a37850
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d652d53627643e1028ee73cc67678119c689e46d8f4ec289c92ca32127e098dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022847"
 ---
 # <a name="admin-count-attribute"></a>Attribut Admin-Count
 
@@ -36,7 +36,7 @@ Indique qu’un objet donné a fait passer ses ACL à une valeur plus sécurisé
 | Fréquence des mises à jour  | Lorsqu’un objet est ajouté à un groupe d’administration. |
 | Attribute-Id      | 1.2.840.113556.1.4.150                              |
 | System-ID-GUID    | bf967918-0de6-11d0-a285-00aa003049e2                |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                |
 
 
 
@@ -45,7 +45,7 @@ Indique qu’un objet donné a fait passer ses ACL à une valeur plus sécurisé
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

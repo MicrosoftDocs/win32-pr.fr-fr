@@ -8,21 +8,21 @@ keywords:
 - Bluetooth et getsockopt
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dede19b27eea39b7d1e778b3e92312a5e148c0ec
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2ee63d8dc1665868023967dd88c5ba223cce538c1fa1d41dd151329f6bf52f7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081083"
 ---
 # <a name="bluetooth-and-getsockopt"></a>Bluetooth et getsockopt
 
-Bluetooth utilise la fonction [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) pour interroger différents paramètres associés au canal du serveur ou à la connexion. L’utilisation de **getsockopt** avec Bluetooth présente les exigences suivantes :
+Bluetooth utilise la fonction [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) pour interroger différents paramètres associés au canal du serveur ou à la connexion. l’utilisation de **getsockopt** avec Bluetooth présente les exigences suivantes :
 
--   Le paramètre *s* de [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) doit être un Socket Bluetooth valide.
+-   le paramètre *s* de [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) doit être un socket Bluetooth valide.
 -   Le paramètre de *niveau* de [**GETSOCKOPT**](/windows/desktop/api/winsock/nf-winsock-getsockopt) doit être sol \_ RFCOMM.
 
-Pour obtenir la liste des options de Socket Bluetooth disponibles, consultez [options de socket et Bluetooth](bluetooth-and-socket-options.md).
+pour obtenir la liste des options de socket Bluetooth disponibles, consultez options de sockets [et de Bluetooth](bluetooth-and-socket-options.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -34,6 +34,6 @@ Pour obtenir la liste des options de Socket Bluetooth disponibles, consultez [op
 [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

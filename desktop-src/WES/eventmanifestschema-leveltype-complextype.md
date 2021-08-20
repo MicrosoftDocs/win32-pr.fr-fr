@@ -62,7 +62,7 @@ Définit une valeur de gravité qui détermine le niveau de détail des événem
 | message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | Nom complet localisé du niveau. La chaîne de message fait référence à une chaîne localisée dans la section [**STRINGTABLE**](eventmanifestschema-stringtable-resources-element.md) du manifeste. <br/>                                                                                                    |
 | name    | **QName**                                                         | Nom à assigner à ce niveau. Ce nom doit être unique dans l’étendue du fournisseur.<br/>                                                                                                                                                                                                            |
 | symbole  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | Symbole à utiliser pour référencer le niveau dans votre application. Le [**compilateur de message (MC.exe)**](message-compiler--mc-exe-.md) utilise le symbole pour créer une constante pour le niveau dans le fichier d’en-tête généré par le compilateur. Si vous ne spécifiez pas de symbole, le compilateur en génère un pour vous.<br/> |
-| value   | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | Valeur de niveau. Vous pouvez spécifier des valeurs comprises dans la plage comprise entre 16 et 255. Pour les valeurs de niveau prédéfinies, consultez la section Notes.<br/>                                                                                                                                                                                               |
+| valeur   | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | Valeur de niveau. Vous pouvez spécifier des valeurs comprises dans la plage comprise entre 16 et 255. Pour les valeurs de niveau prédéfinies, consultez la section Notes.<br/>                                                                                                                                                                                               |
 
 
 
@@ -72,7 +72,7 @@ Voici les valeurs de niveau prédéfinies que vous pouvez utiliser. ces valeurs 
 
 
 
-| Nom              | Valeur | Symbole                    | Description                                                             |
+| Name              | Valeur | Symbole                    | Description                                                             |
 |-------------------|-------|---------------------------|-------------------------------------------------------------------------|
 | win:Critical      | 1     | \_niveau WINEVENT \_ critique | Identifie un événement de sortie ou d’arrêt anormal.<br/>            |
 | win:Error         | 2     | \_erreur de niveau WINEVENT \_    | Identifie un événement d’erreur grave.<br/>                             |

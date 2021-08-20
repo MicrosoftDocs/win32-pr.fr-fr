@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df5fa4c9c21eec80157bdc6d67f7693bd9ff6b2e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6197b5ceaeded58ee983f3a54d9d87623fffb96c8c3dcfa7e0917caf42dffc4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546769"
 ---
 # <a name="wmisrc"></a>WM/ISRC
 
@@ -31,7 +31,7 @@ L’attribut **WM/ISRC** contient le code d’enregistrement standard internatio
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le ISRC est utilisé dans le secteur de l’enregistrement pour identifier un enregistrement. Elle est indépendante de MCDI, qui identifie un DICS compact par sa table des matières.
 
@@ -45,9 +45,9 @@ Le ISRC est utilisé dans le secteur de l’enregistrement pour identifier un en
 [**WM/MCDI**](wm-mcdi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

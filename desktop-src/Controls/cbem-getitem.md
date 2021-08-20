@@ -3,7 +3,7 @@ title: Message CBEM_GETITEM (commctrl. h)
 description: Obtient des informations sur les éléments d’un élément ComboBoxEx donné.
 ms.assetid: 2df07ae8-fa84-487c-a4a7-90244dfdb40e
 keywords:
-- CBEM_GETITEM les contrôles de message Windows
+- CBEM_GETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 940bbf7aea8ec93dd0f808937d959477c964df96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dcf4dadf72a9f1fab679599c01c8fd0c6ca3541f2f77a5e8c52a740828966034
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528059"
 ---
 # <a name="cbem_getitem-message"></a>\_Message CBEM GETITEM
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le message est envoyé, les membres **iItem** et **Mask** de la structure doivent être définis pour indiquer l’index de l’élément cible et le type d’informations à récupérer. D’autres membres sont définis en fonction des besoins. Par exemple, pour récupérer du texte, vous devez définir l' \_ indicateur de texte CBEIF dans le **masque** et assigner une valeur à **cchTextMax**. La définition du membre **iItem** sur-1 permet de récupérer l’élément affiché dans le contrôle d’édition.
 
@@ -57,8 +57,8 @@ Si l' \_ indicateur de texte CBEIF est défini dans le membre **Mask** de la str
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **CBEM \_ GETITEMW** (Unicode) et **CBEM \_ GETITEMA** (ANSI)<br/>                 |
 

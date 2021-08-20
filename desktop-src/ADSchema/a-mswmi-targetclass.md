@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b617d2c68bba314610bdf81902c0e2696d9f96ba
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a854ded477199728bad845baf73d49a57241a5d01de109fe732062837f4a36d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022477"
 ---
 # <a name="ms-wmi-targetclass-attribute"></a>attribut ms-WMI-TargetClass
 
@@ -44,7 +44,7 @@ Nom de classe de l’objet de stratégie à créer.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
