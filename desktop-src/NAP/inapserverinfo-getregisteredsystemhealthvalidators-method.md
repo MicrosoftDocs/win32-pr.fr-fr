@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16ffdd4d363c994efbecdb57fe4ad7203393fd1f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 54e096d706107ca812e569e46c980f56cdc7b8eba14f4742530f632570fd3d08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133944"
 ---
 # <a name="inapserverinfogetregisteredsystemhealthvalidators-method"></a>INapServerInfo :: GetRegisteredSystemHealthValidators, méthode
 
@@ -93,7 +93,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                               |
 | En-tête<br/>                   | <dl> <dt>NapServerManagement. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapServerManagement. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |

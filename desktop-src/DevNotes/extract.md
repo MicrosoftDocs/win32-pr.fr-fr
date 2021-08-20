@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cabinet.dll
-ms.openlocfilehash: 2e1096cdb7909f49fbcac7c32891210b25637c90
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbcb53aae008423ac56bb489d43f6fd78016a9b1f716be21390a6dfc1de00404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162063"
 ---
 # <a name="extract-function"></a>Extraire une fonction
 
@@ -42,7 +42,7 @@ HRESULT Extract(
 
 <dl> <dt>
 
-*alimentation* 
+*ps* 
 </dt> <dd>
 
 Pointeur vers une structure de [**session**](session.md) qui contient des informations sur la session active.
@@ -60,7 +60,7 @@ Pointeur vers le nom du fichier cab à partir duquel les fichiers doivent être 
 
 Si la fonction est réussie, elle retourne **S \_ OK**; sinon, elle retourne un code d’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

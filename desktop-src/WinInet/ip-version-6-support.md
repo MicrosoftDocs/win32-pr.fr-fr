@@ -6,12 +6,12 @@ keywords:
 - Prise en charge d’IP version 6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ed0857d9a0968bcd3e6c18e54623fb0c7d86cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 67a024c792995780769a078c84b0493b7abba8647189fa2cee835d93dcb83770
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113629"
 ---
 # <a name="ip-version-6-support"></a>Prise en charge d’IP version 6
 
@@ -25,7 +25,7 @@ WinINet implémente les littéraux IPv6 conformément aux spécifications de la 
 
 L’adresse littérale IPv6 dans l’URI peut inclure un ID d’étendue. Un ID d’étendue peut être un ID d’interface comme \[ FE80 :: 1% 1 \] . La norme d’URI, documentée dans le document RFC 3986, ne définit pas la syntaxe de l’ID de portée et l’URI est considéré comme non uniforme lorsque l’ID d’étendue est présent. Toutefois, WinINet accepte un ID d’étendue dans le composant d’autorité de l’URI et dans le littéral IPv6 du nom d’hôte.
 
-Le caractère de pourcentage (%) dans l’adresse littérale IPv6 doit être un pourcentage d’échappement lorsqu’il est présent dans l’URI. Par exemple, l’ID d’étendue FE80 :: 2% 3, doit apparaître dans l’URI sous la forme « https:// \[ FE80 :: 2% 253 \] / », où %25 est le caractère de pourcentage encodé en hex (%). Si l’application récupère l’URI à partir d’une API Unicode, telle que l’API Winsock [**WSAAddressToString**](/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa) , l’application doit ajouter la version d’échappement du caractère de pourcentage (%) dans le nom d’hôte de l’URI. Pour créer la version échappée de l’URI, les applications appellent [**InternetCreateUrl**](/windows/desktop/api/Wininet/nf-wininet-internetcreateurla) avec le paramètre *dwFlags* défini sur l' **\_ \_ autorité d’échappement ICU** et le nom d’hôte IPv6 spécifié dans la structure de composants URL spécifiée dans le paramètre *lpUrlComponents* .
+Le caractère de pourcentage (%) dans l’adresse littérale IPv6 doit être un caractère d’échappement de pourcentage lorsqu’il est présent dans l’URI. Par exemple, l’ID d’étendue FE80 :: 2% 3, doit apparaître dans l’URI sous la forme « https:// \[ FE80 :: 2% 253 \] / », où %25 est le caractère de pourcentage encodé en hex (%). Si l’application récupère l’URI à partir d’une API Unicode, telle que l’API [**WSAAddressToString**](/windows/desktop/api/winsock2/nf-winsock2-wsaaddresstostringa) Winsock, l’application doit ajouter la version d’échappement du caractère de pourcentage (%) dans le nom d’hôte de l’URI. Pour créer la version échappée de l’URI, les applications appellent [**InternetCreateUrl**](/windows/desktop/api/Wininet/nf-wininet-internetcreateurla) avec le paramètre *dwFlags* défini sur l' **\_ \_ autorité d’échappement ICU** et le nom d’hôte IPv6 spécifié dans la structure de composants URL spécifiée dans le paramètre *lpUrlComponents* .
 
 Pour toutes les opérations de sockets, WinINet utilise l’ID d’étendue. Toutefois, étant donné que l’ID d’étendue a uniquement l’importance de l’hôte local, il n’est pas envoyé dans le cadre des en-têtes de protocole HTTP de la demande. Par exemple, l’appel à [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-internetopenurla) est appelé avec l’URL suivante dans le paramètre *lpszUrl* .
 
@@ -41,10 +41,10 @@ Host: [fec0::2]
 ```
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

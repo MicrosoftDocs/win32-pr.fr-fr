@@ -4,12 +4,12 @@ ms.assetid: 62d02e3b-466a-4d3d-994b-0a1ae12049e1
 title: 'Événement IWinHttpRequestEvents :: OnResponseDataAvailable'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41cb2fbc680b1f6739a66bb68565188c8a5d78b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12b55f87584164a47b47920caf961f02f0bd9cc6596c4c90f76f381027af545e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114243"
 ---
 # <a name="iwinhttprequesteventsonresponsedataavailable-event"></a>Événement IWinHttpRequestEvents :: OnResponseDataAvailable
 
@@ -33,7 +33,7 @@ void OnResponseDataAvailable(
 *Données* \[ dans\]
 </dt> <dd>
 
-Tableau de base zéro d’octets qui reçoit les données de réponse reçues par les services HTTP Microsoft Windows (WinHTTP) jusqu’au point que cet événement se produit. Il s’agit d’une **variante** de type VT \_ array \| VT \_ UI1.
+tableau de base zéro d’octets qui reçoit les données de réponse reçues par Microsoft Windows HTTP Services (WinHTTP) jusqu’au point que cet événement se produit. Il s’agit d’une **variante** de type VT \_ array \| VT \_ UI1.
 
 </dd> </dl>
 
@@ -41,12 +41,12 @@ Tableau de base zéro d’octets qui reçoit les données de réponse reçues pa
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Comme les données sont en octets, elles doivent être converties en caractères larges lorsqu’elles sont placées dans une chaîne à caractères larges (Unicode).
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
@@ -56,8 +56,8 @@ Comme les données sont en octets, elles doivent être converties en caractères
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 

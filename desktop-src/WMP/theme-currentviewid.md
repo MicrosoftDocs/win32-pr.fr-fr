@@ -3,7 +3,7 @@ title: THÈME. currentViewID
 description: L’attribut currentViewID spécifie ou récupère la vue actuellement affichée.
 ms.assetid: 94f23da9-cfda-4dc4-9804-b7daff5ebb8f
 keywords:
-- THEMe. currentViewID Windows Media Player
+- thème. currentViewID Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c0c1b52ffdc35abf846987ed459565904938d4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 21bf3027b0249286689862e53fc2d616d1d33b19eca562c886e981bffb7f0267
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117810"
 ---
 # <a name="themecurrentviewid"></a>THÈME. currentViewID
 
@@ -31,7 +31,7 @@ theme.currentViewID
 
 Cet attribut est une **chaîne** en lecture/écriture spécifiant l' **ID** de la **vue** actuelle. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La spécification de **currentViewID** ferme automatiquement la **currentView** existante (vers laquelle pointe l’attribut **View** global) et ouvre la **vue** spécifiée.
 

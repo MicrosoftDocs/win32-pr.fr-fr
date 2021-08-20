@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofilemgr.h
-ms.openlocfilehash: 13949fe08dd547ecb5319e18ecc84139ccd310bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f736c126d1f12282662f0d30c64e9ec99ae8324d3492e0560130c39ee38dc82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118035544"
 ---
 # <a name="iscanprofilemgrgetprofiles-method"></a>IScanProfileMgr :: GetProfiles, méthode
 
@@ -43,13 +43,13 @@ HRESULT GetProfiles(
 *pulNumProfiles* \[ in, out\]
 </dt> <dd>
 
-Type : **ULong \** _
+Type : **ULong \***
 
 En cas de réussite, pointeur vers le nombre maximal de profils à retourner. En cas de retour, pointeur vers le nombre de profils retournés.
 
 </dd> <dt>
 
-_ppScanProfile * \[ out\]
+*ppScanProfile* \[ à\]
 </dt> <dd>
 
 Type : **[ **IScanProfile**](-wia-iscanprofile.md)\*\***
@@ -64,18 +64,18 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le nombre total de profils disponibles pour l’utilisateur est inférieur à la valeur transmise à *pulNumProfiles*, *pulNumProfiles* retourne ce total. Sinon, elle retourne la même valeur que celle qui lui a été passée.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofilemgr. h</dt> </dl> |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

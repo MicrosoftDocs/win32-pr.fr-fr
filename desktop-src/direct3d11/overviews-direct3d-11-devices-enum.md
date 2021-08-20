@@ -4,12 +4,12 @@ description: Cette rubrique montre comment utiliser Microsoft DirectX Graphics i
 ms.assetid: f8ef981c-363e-4ac8-8734-69c68f346950
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af16aba0131d93a5f72732931a68f132126b5d48
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fa74a41f95095c4de9ad58615c5b860153c72d1fcd706286b295653a8004d187
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118098254"
 ---
 # <a name="how-to-enumerate-adapters"></a>Comment : énumérer des adaptateurs
 
@@ -50,7 +50,7 @@ L’exemple de code suivant montre comment énumérer tous les adaptateurs d’u
 > [!Note]  
 > Pour Direct3D 11,0 et versions ultérieures, nous recommandons que les applications utilisent toujours [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1) et [**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1) à la place.
 
- 
+ 
 
 
 ```C++
@@ -95,6 +95,6 @@ std::vector <IDXGIAdapter*> EnumerateAdapters(void)
 [Comment utiliser Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

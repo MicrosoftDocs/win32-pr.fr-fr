@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e9232506b52795521300e827701f685e351d8ec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0df2c76b9289cb710de4e82e3cbc3dfc0b482ea63448b90a02fa37b7965fd931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163767"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_aaaatype-class"></a>Méthode CreateInstanceFromPropertyData de la \_ classe MicrosoftDNS AAAAType
 

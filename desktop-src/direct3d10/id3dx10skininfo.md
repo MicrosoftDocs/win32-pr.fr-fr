@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3216765ab9ef2ba9f2b0883c31a878a7eae6861f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 49ddcd4eba2f99a18992ce9b63cb4af5c93bfe7f7e40cf5fc7b1fe9003de281f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118100238"
 ---
 # <a name="id3dx10skininfo-interface"></a>Interface ID3DX10SkinInfo
 
@@ -43,7 +43,7 @@ L’interface **ID3DX10SkinInfo** possède ces méthodes.
 | [**AddBones**](id3dx10skininfo-addbones.md)                             | Allouez de l’espace pour d’autres segments.<br/>                                                                                          |
 | [**AddVertices**](id3dx10skininfo-addvertices.md)                       | Allouez de l’espace pour des vertex supplémentaires.<br/>                                                                                 |
 | [**ClearBoneInfluences**](id3dx10skininfo-clearboneinfluences.md)       | Désactivez la liste des vertex d’un os qu’elle influence.<br/>                                                                     |
-| [**Compact**](id3dx10skininfo-compact.md)                               | Limitez le nombre d’os pouvant influencer un vertex et/ou limitez la quantité d’influence qu’un segment peut avoir sur un sommet.<br/> |
+| [**ROM**](id3dx10skininfo-compact.md)                               | Limitez le nombre d’os pouvant influencer un vertex et/ou limitez la quantité d’influence qu’un segment peut avoir sur un sommet.<br/> |
 | [**DoSoftwareSkinning**](id3dx10skininfo-dosoftwareskinning.md)         | Effectuez des dépassements de logiciels sur un tableau de vertex.<br/>                                                                           |
 | [**FindBoneInfluenceIndex**](id3dx10skininfo-findboneinfluenceindex.md) | Recherche l’index qui indique où un vertex donné figure dans la liste des vertex influencés d’un segment donné.<br/>                    |
 | [**GetBoneInfluence**](id3dx10skininfo-getboneinfluence.md)             | Obtenir le degré d’influence d’un segment donné sur un vertex donné.<br/>                                                       |
@@ -61,7 +61,7 @@ L’interface **ID3DX10SkinInfo** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Créez une interface ID3DX10SkinInfo avec [**D3DX10CreateSkinInfo**](d3d10-d3dx10createskininfo.md), **D3DX10CreateSkinInfoFromBlendedMesh** ou **D3DX10CreateSkinInfoFVF**.
 
@@ -74,7 +74,7 @@ typedef struct ID3DX10SkinInfo *LPD3DX10SKININFO;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

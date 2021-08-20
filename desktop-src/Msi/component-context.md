@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 4d8f156c44d7577810047ff0122205b5714056b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15a8fe7bdf71f72c8a297a63060a86a42ca67733967d72495afecc315b2ad197
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144856"
 ---
 # <a name="componentcontext-property"></a>Composant. Context, propriété
 
 Contexte déterminé pour être applicable au composant en question. Cette propriété appelle la fonction [**MsiEnumComponentsEx**](/windows/desktop/api/Msi/nf-msi-msienumcomponentsexa) .
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Cette propriété est disponible à partir de Windows Installer 5,0.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. cette propriété est disponible à partir de Windows Installer 5,0.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -36,7 +36,7 @@ Contexte déterminé pour être applicable au composant en question. Cette propr
 
 | Condition requise | Valeur |
 |--------------------|------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 ou version ultérieure.<br/>                                         |
+| Version<br/> | Windows Programme d’installation 5,0 ou version ultérieure.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |
 | IID<br/>     | IID \_ IComponent est défini en tant que 000C1097-0000-0000-C000-000000000046<br/>      |
 

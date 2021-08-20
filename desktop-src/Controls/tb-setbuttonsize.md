@@ -3,7 +3,7 @@ title: Message TB_SETBUTTONSIZE (commctrl. h)
 description: Définit la taille des boutons sur une barre d’outils.
 ms.assetid: ef6beed7-a3d6-4379-b9c1-c64a5e33ce78
 keywords:
-- TB_SETBUTTONSIZE les contrôles de message Windows
+- TB_SETBUTTONSIZE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5db17b943c8a7cc8e71735d08718ece02a8c2582
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 58b0b957ad6328515da7aee2f978870662801aa6aba81133e9e4bc22ee7d9c92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167732"
 ---
 # <a name="tb_setbuttonsize-message"></a>TO \_ SETBUTTONSIZE message
 
@@ -47,7 +47,7 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) sp�
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **To \_ SETBUTTONSIZE** doit généralement être appelé après l’ajout de boutons.
 
@@ -71,8 +71,8 @@ SendMessage(hWndToolbar, TB_SETBUTTONSIZE, 0, MAKELPARAM(80, 30);
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

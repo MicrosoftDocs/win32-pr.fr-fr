@@ -24,7 +24,7 @@ ms.locfileid: "118154830"
 # <a name="iamtimelinesrcsplicewithnext-method"></a>IAMTimelineSrc :: SpliceWithNext, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

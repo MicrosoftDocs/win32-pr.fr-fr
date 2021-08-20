@@ -1,7 +1,7 @@
 ---
-description: 'Méthode IRTC :: Connect : la méthode Connect connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.'
+description: 'IRTC :: Connecter méthode-la méthode Connecter connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.'
 ms.assetid: d017c2a3-a832-4084-b21b-0cca428c5360
-title: 'IRTC :: Connect, méthode (NetMon. h)'
+title: 'IRTC :: Connecter, méthode (Netmon. h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: ba62f3341b18ddfdbf09af4eec701322d901ab79
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: da7ff72414a1702a1849f76f658f0fbf85116b9b831e800148d5a6165da7ac17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132898"
 ---
-# <a name="irtcconnect-method"></a>IRTC :: Connect, méthode
+# <a name="irtcconnect-method"></a>IRTC :: Connecter, méthode
 
-La méthode **Connect** connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.
+la méthode **Connecter** connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -79,7 +79,7 @@ Handle vers un objet BLOB d’erreur qui contient des informations supplémentai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si cette méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -91,7 +91,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ déjà \_ connecté**</dt> </dl>            | Cette instance de l’objet COM NPP est déjà connectée au réseau.<br/>                                                                                                                                                                                                          |
 | <dl> <dt>**\_erreur de conversion d’objet BLOB NMERR \_ \_**</dt> </dl>       | L’objet BLOB de configuration est endommagé. Cette erreur est générée par l’appel de **IRTC :: configure** .<br/>                                                                                                                                                                                       |
-| <dl> <dt>**l' \_ entrée d’objet BLOB NMERR \_ \_ n' \_ \_ existe pas**</dt> </dl> | L’objet BLOB d’entrée spécifié par le paramètre *hInputBlob* n’a pas d’entrée nécessaire pour effectuer cette opération. Cette erreur peut être générée par l’appel de **IRTC :: Connect** ou **IRTC :: configure** . Examinez l’objet BLOB d’erreur retourné par *hErrorBlob* pour déterminer quelle entrée est introuvable.<br/> |
+| <dl> <dt>**l' \_ entrée d’objet BLOB NMERR \_ \_ n' \_ \_ existe pas**</dt> </dl> | L’objet BLOB d’entrée spécifié par le paramètre *hInputBlob* n’a pas d’entrée nécessaire pour effectuer cette opération. cette erreur peut être générée par l’appel de **IRTC :: Connecter** ou **IRTC :: configure** . Examinez l’objet BLOB d’erreur retourné par *hErrorBlob* pour déterminer quelle entrée est introuvable.<br/> |
 | <dl> <dt>**\_objet BLOB NMERR \_ non \_ initialisé**</dt> </dl>        | La fonction **CreateBlob** n’a pas été appelée. Cette erreur est générée par l’appel de **IRTC :: configure** .<br/>                                                                                                                                                                         |
 | <dl> <dt>**\_chaîne d’objet BLOB NMERR \_ \_ non valide**</dt> </dl>         | La chaîne ne se termine pas par un caractère null. Cette erreur est générée par l’appel de **IRTC :: configure** .<br/>                                                                                                                                                                                       |
 | <dl> <dt>**\_déclencheur NMERR non conforme \_**</dt> </dl>              | La partie déclencheur de l’objet BLOB d’entrée est endommagée. Cette erreur est générée par l’appel de **IRTC :: configure** .<br/>                                                                                                                                                                        |
@@ -104,9 +104,9 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
-Lorsque la méthode **Connect** est appelée, le NPP appelle automatiquement la méthode **IRTC :: configure** à l’aide de l’objet BLOB fourni par *hInputBlob*. Notez que les codes d’erreur retournés par l’appel à **IRTC :: configure** sont passés en retour et retournés par l’appel de **IRTC :: Connect** .
+lorsque la méthode **Connecter** est appelée, le NPP appelle automatiquement la méthode **IRTC :: configure** à l’aide de l’objet BLOB fourni par *hInputBlob*. notez que les codes d’erreur retournés par l’appel à **IRTC :: configure** sont passés en retour et retournés par l’appel de **IRTC :: Connecter** .
 
 Cette méthode doit être appelée avant que vous ne puissiez commencer à capturer des frames. Notez que lorsque vous vous connectez au réseau à l’aide de cette méthode, vous devez continuer à utiliser l’interface **IRTC** pour capturer des frames.
 

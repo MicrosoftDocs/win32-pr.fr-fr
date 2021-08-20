@@ -3,7 +3,7 @@ title: VIEW. minWidth
 description: L’attribut minWidth spécifie ou récupère la largeur minimale, en pixels, de la vue lors du redimensionnement.
 ms.assetid: 7372983e-e210-4f1f-9bf2-802a7426cdfa
 keywords:
-- VIEW. minWidth Windows Media Player
+- VIEW. minWidth Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c357dbd5d05e4630f69c010e6f37ce9a4648dc01
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dd6bc59ec96568f0bdd3fc0f4f18f0f242d984f734d12ef3d0f494c0c2442e11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116713"
 ---
 # <a name="viewminwidth"></a>VIEW. minWidth
 

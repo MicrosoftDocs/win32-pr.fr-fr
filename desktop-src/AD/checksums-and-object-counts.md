@@ -5,12 +5,12 @@ ms.assetid: 14829a74-c186-4250-beac-036c5ecc5913
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc643ec7cd896a7c73df0be5738887a330392140
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1690b30f4027f5fe2e35b85129bbcdfb6cac3356a1d053e77dcb518ff75f8fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104461963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022796"
 ---
 # <a name="checksums-and-object-counts"></a>Sommes de contrôle et nombre d’objets
 
@@ -25,9 +25,9 @@ Quelques points importants à prendre en compte :
 -   Pour que l’approche checksum fonctionne, vous devez mettre à jour un ou plusieurs attributs utilisés dans le calcul de la somme de contrôle. L’algorithme utilisé pour calculer la somme de contrôle doit refléter de manière fiable les différences d’entrée. Si de nombreuses entrées différentes produit le même Checksum, l’algorithme ne détecte pas de manière fiable les mises à jour partielles. « Salage » l’entrée avec des valeurs telles que l' **objectGUID** de l’ordinateur source et la date et l’heure de la mise à jour sont également utiles.
 -   Le nombre d’objets fonctionne mieux lorsqu’il est utilisé avec de nouveaux ensembles d’objets ou en combinaison avec des GUID de cohérence (pour plus d’informations, consultez la section suivante). L’application effectuant la mise à jour doit soit savoir, à l’avance, le nombre d’objets qui se trouveront dans le conteneur lorsque la mise à jour est terminée, soit utiliser d’autres moyens pour marquer le conteneur comme étant non valide pendant la mise à jour (par exemple, en définissant le nombre à zéro). À la fin de la mise à jour, l’application source marque le conteneur avec le nombre d’objets contenus.
 
- 
+ 
 
- 
+ 
 
 
 

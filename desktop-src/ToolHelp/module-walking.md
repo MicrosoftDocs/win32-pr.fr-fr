@@ -9,12 +9,12 @@ keywords:
 - énumération, dll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb6a844b536d12a15202f47ad9712f3f7ef55df0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a61e72fcdbcae52a78e62465b12845077572b6b4669e1b0744c26d50ddfd2a26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126489"
 ---
 # <a name="module-walking"></a>Parcours du module
 
@@ -23,9 +23,9 @@ Un instantané qui inclut la liste des modules pour un processus spécifié cont
 Vous pouvez récupérer un code d’état d’erreur étendu pour [**Module32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-module32first) et [**Module32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-module32next) à l’aide de la fonction [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) .
 
 > [!Note]  
-> L’identificateur de module, qui est spécifié dans le membre **th32ModuleID** de [**MODULEENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-moduleentry32), n’a qu’une signification dans Windows 16 bits.
+> L’identificateur de module, qui est spécifié dans le membre **th32ModuleID** de [**MODULEENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-moduleentry32), a uniquement une signification en Windows 16 bits.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -34,6 +34,6 @@ Vous pouvez récupérer un code d’état d’erreur étendu pour [**Module32Fir
 [Parcours de la liste des modules](traversing-the-module-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

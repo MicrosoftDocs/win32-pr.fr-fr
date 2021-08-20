@@ -4,16 +4,16 @@ ms.assetid: 99bfc55d-6519-4e85-98ce-cad27bd71ffb
 title: Démultiplexeur MPEG-2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea71727dc273bd0dc5d65ac49b28385b4898067
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d4648a456e8f7fa43274486111973fa2255ab29e4e674bc249e1c2a3c64a7b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106544548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118152979"
 ---
 # <a name="mpeg-2-demultiplexer"></a>Démultiplexeur MPEG-2
 
-Ce filtre démultiplexe les flux de transport MPEG-2 et les flux de programme qui sont fournis en mode push. À partir de Windows XP, ce filtre prend également en charge les flux de programme en mode par extraction (lecture de fichier). Sur les plateformes antérieures, utilisez le filtre de [séparateur MPEG-2](mpeg-2-splitter.md) pour les flux de programme en mode par extraction. Ce filtre peut être utilisé dans n’importe quel type de graphique de filtre, y compris un graphique de filtre TV numérique BDA.
+Ce filtre démultiplexe les flux de transport MPEG-2 et les flux de programme qui sont fournis en mode push. à partir de Windows XP, ce filtre prend également en charge les flux de programme en mode par extraction (lecture de fichier). Sur les plateformes antérieures, utilisez le filtre de [séparateur MPEG-2](mpeg-2-splitter.md) pour les flux de programme en mode par extraction. Ce filtre peut être utilisé dans n’importe quel type de graphique de filtre, y compris un graphique de filtre TV numérique BDA.
 
 > [!Note]  
 > Le démultiplexeur MPEG-2 ne prend pas en charge la recherche avec précision de trame.
@@ -92,7 +92,7 @@ Pour plus d’informations, consultez <a href="mpeg-2-demultiplexer-media-types.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour sortir des flux de données audio et vidéo élémentaires, le demux doit recevoir les flux PCR et SCR. Du côté de l’entrée, cela signifie qu’un flux de transport doit contenir les tables PAT et VPM qui définissent le PID du flux PCR. et les flux de programme doivent contenir au moins un en-tête pack.
 
@@ -112,7 +112,7 @@ Pour sortir des flux de données audio et vidéo élémentaires, le demux doit r
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [Utilisation du démultiplexeur MPEG-2](using-the-mpeg-2-demultiplexer.md)

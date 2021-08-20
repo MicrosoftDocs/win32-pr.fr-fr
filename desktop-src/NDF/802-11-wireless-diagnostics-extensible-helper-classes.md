@@ -70,7 +70,7 @@ Le tableau suivant répertorie les attributs correspondants pour la classe d’a
 
 
 
-| Nom          | Type    | Valeur                         |
+| Name          | Type    | Valeur                         |
 |---------------|---------|-------------------------------|
 | DiagnosticsID | SZ de REG \_ | \[\_Chaîne GUID \_ DiagnosticsID |
 
@@ -119,7 +119,7 @@ Le tableau suivant répertorie les attributs correspondants pour la classe d’a
 
 
 
-| Nom          | Type    | Valeur                         |
+| Name          | Type    | Valeur                         |
 |---------------|---------|-------------------------------|
 | DiagnosticsID | SZ de REG \_ | \[\_Chaîne GUID \_ DiagnosticsID |
 

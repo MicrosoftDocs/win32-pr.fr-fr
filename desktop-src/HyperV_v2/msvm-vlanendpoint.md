@@ -49,12 +49,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5606e18fd1327f17feaac07570e5bf8c0c8eb59d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: beeecdebe03a443c1da95a75598bc83b9c7e2f0952cd85ceaad1866e2200ef7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146232"
 ---
 # <a name="msvm_vlanendpoint-class"></a>MSVM \_ VLANEndpoint, classe
 
@@ -254,7 +254,7 @@ Mode VLAN requis pour l’utilisation. Le mode actuel est fourni par la proprié
 | <span id="Dynamic_Auto"></span><span id="dynamic_auto"></span><span id="DYNAMIC_AUTO"></span><dl> <dt>**Dynamique automatique**</dt> <dt>3</dt> </dl>                           | Permet au point de terminaison de convertir le lien en lien Trunk. Le point de terminaison devient une interface Trunk si l’interface voisine est définie en mode Trunk ou désirable.<br/>                                                                                                   |
 | <span id="Dynamic_Desirable"></span><span id="dynamic_desirable"></span><span id="DYNAMIC_DESIRABLE"></span><dl> <dt>**Désirable dynamique**</dt> <dt>4</dt> </dl>       | Fait en sorte que le point de terminaison tente activement de convertir le lien en lien Trunk. Le point de terminaison devient une interface Trunk si l’interface voisine est définie en mode Trunk, désirable ou auto. Le mode de port commuté par défaut pour toutes les interfaces Ethernet est souhaitable dynamiquement.<br/> |
 | <span id="Trunk"></span><span id="trunk"></span><span id="TRUNK"></span><dl> <dt>**Trunk**</dt> <dt>5</dt> </dl>                                                       | Place le point de terminaison en mode Trunking permanent et négocie pour convertir le lien en lien Trunk. Le point de terminaison devient une interface Trunk même si l’interface voisine n’est pas une interface Trunk.<br/>                                                               |
-| <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Tunnel Dot1Q**</dt> <dt>6</dt> </dl>                           | Configure l’interface en tant que point de terminaison/port (sans Trunking) de tunnel à connecter dans un lien asymétrique avec un port 802.1 Q Trunk. le tunneling 802.1 q est utilisé pour maintenir l’intégrité VLAN du client sur un réseau de fournisseur de services.<br/>                                     |
+| <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Dot1Q Tunnel**</dt> <dt>6</dt> </dl>                           | Configure l’interface en tant que point de terminaison/port (sans Trunking) de tunnel à connecter dans un lien asymétrique avec un port 802.1 Q Trunk. le tunneling 802.1 q est utilisé pour maintenir l’intégrité VLAN du client sur un réseau de fournisseur de services.<br/>                                     |
 | <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF réservé**</dt> <dt>7 32767</dt> </dl>                 |                                                                                                                                                                                                                                                                                  |
 | <span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span><dl> <dt> **Fournisseur réservé**</dt> <dt>32768 65535</dt> </dl> |                                                                                                                                                                                                                                                                                  |
 
@@ -484,7 +484,7 @@ Mode de configuration pour le point de terminaison de réseau local virtuel. Cet
 | <span id="Dynamic_Auto"></span><span id="dynamic_auto"></span><span id="DYNAMIC_AUTO"></span><dl> <dt>**Dynamique automatique**</dt> <dt>3</dt> </dl>                           | Permet au point de terminaison de convertir le lien en lien Trunk. Le point de terminaison devient une interface Trunk si l’interface voisine est définie en mode Trunk ou désirable.<br/>                                                                                      |
 | <span id="Dynamic_Desirable"></span><span id="dynamic_desirable"></span><span id="DYNAMIC_DESIRABLE"></span><dl> <dt>**Désirable dynamique**</dt> <dt>4</dt> </dl>       | Fait en sorte que le point de terminaison tente activement de convertir le lien en lien Trunk. Le point de terminaison devient une interface Trunk si l’interface voisine est définie en mode Trunk, désirable ou auto. Il s’agit du mode de port commuté par défaut pour toutes les interfaces Ethernet.<br/> |
 | <span id="Trunk"></span><span id="trunk"></span><span id="TRUNK"></span><dl> <dt>**Trunk**</dt> <dt>5</dt> </dl>                                                       | Place le point de terminaison en mode Trunking permanent et négocie pour convertir le lien en lien Trunk. Le point de terminaison devient une interface Trunk même si l’interface voisine n’est pas une interface Trunk.<br/>                                                  |
-| <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Tunnel Dot1Q**</dt> <dt>6</dt> </dl>                           | Configure l’interface en tant que point de terminaison/port (sans Trunking) de tunnel à connecter dans un lien asymétrique avec un port 802.1 Q Trunk. le tunneling 802.1 q est utilisé pour maintenir l’intégrité VLAN du client sur un réseau de fournisseur de services.<br/>                        |
+| <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Dot1Q Tunnel**</dt> <dt>6</dt> </dl>                           | Configure l’interface en tant que point de terminaison/port (sans Trunking) de tunnel à connecter dans un lien asymétrique avec un port 802.1 Q Trunk. le tunneling 802.1 q est utilisé pour maintenir l’intégrité VLAN du client sur un réseau de fournisseur de services.<br/>                        |
 | <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF réservé**</dt> <dt>7 32767</dt> </dl>                 |                                                                                                                                                                                                                                                                     |
 | <span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span><dl> <dt> **Fournisseur réservé**</dt> <dt>32768 65535</dt> </dl> |                                                                                                                                                                                                                                                                     |
 
@@ -778,7 +778,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ VLANEndpoint** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -792,8 +792,8 @@ Consultez [interrogation d’objets de mise en réseau](querying-networking-obje
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

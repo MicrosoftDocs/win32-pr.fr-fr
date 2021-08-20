@@ -4,12 +4,12 @@ description: La clé de Registre TlsServerAcceptAllPurposeCert détermine si les
 ms.assetid: F0881397-5D8C-4C8F-8EB5-6D59454C55B7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c6561418d8d9cb06fb9618e6b93189cbd28e408
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 804185773a948299aed3d8b8e2f581d8d8355d112720b66e860bd1f00b7fc3d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106512709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118085751"
 ---
 # <a name="tlsserveracceptallpurposecert"></a>TlsServerAcceptAllPurposeCert
 
@@ -19,10 +19,10 @@ La clé de Registre TlsServerAcceptAllPurposeCert détermine si les certificats 
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\13
-   TlsServerAcceptAllPurposeCert = value
+   TlsServerAcceptAllPurposeCert = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **Registre \_ DWORD** .
 
@@ -35,7 +35,7 @@ Il s’agit d’une valeur de **Registre \_ DWORD** .
 
 
 
- 
+ 
 
 Si cette valeur de Registre n’est pas présente, le serveur et le client acceptent les certificats à usage général envoyés par l’autre partie pour l’authentification EAP-TLS.
 
@@ -43,12 +43,12 @@ Si cette valeur de Registre n’est pas présente, le serveur et le client accep
 
 <dl> <dt>
 
-[Paramètres du Registre EAPHost](eaphost-registry-settings.md)
+[Paramètres du registre EAPHost](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

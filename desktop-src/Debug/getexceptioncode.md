@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3b87b77ddb2d2e2af3a22e30d1204cf178ee6981
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5c1badd5317b5a12eb97ed6418873b5c576f520f4a8106361abb1a6f7c95921e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162660"
 ---
 # <a name="getexceptioncode-macro"></a>GetExceptionCode macro)
 
@@ -77,7 +77,7 @@ La valeur de retour identifie le type d’exception. Le tableau suivant identifi
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **GetExceptionCode** peut être appelée uniquement à partir de l’expression de filtre ou du bloc de gestionnaire d’exceptions d’un gestionnaire d’exceptions. L’expression de filtre est évaluée si une exception se produit pendant l’exécution du bloc **\_ \_ try** et détermine si le bloc **\_ \_ except** est exécuté ou non.
 
@@ -99,8 +99,8 @@ Pour obtenir un exemple, consultez [utilisation d’un gestionnaire d’exceptio
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

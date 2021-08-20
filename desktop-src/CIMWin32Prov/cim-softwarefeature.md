@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3959f7b99170cf1470d3688a101e4858f70e9a99
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 75795792a0ddfc5147538b6988c9ee00c9618ce8b0bc64eede132063bfb9fdf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118421218"
 ---
 # <a name="cim_softwarefeature-class"></a>\_Classe CIM SoftwareFeature
 
@@ -293,7 +293,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**propagate**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**\_ produit CIM**](cim-product.md).**Vendor**»), [**\_ clé CIM**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (256), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (« DMTF \| ComponentID \| 001,1 »)
 </dt> </dl>
 
-Nom du fournisseur du produit, qui correspond à la propriété **Vendor** dans l’objet Product de la norme d’échange de solution DMTF.
+nom du fournisseur du produit, qui correspond à la propriété **Vendor** dans l’objet product de la Solution DMTF Exchange Standard.
 
 </dd> <dt>
 
@@ -309,11 +309,11 @@ Type d'accès : Lecture seule
 Qualificateurs : [**propagate**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**\_ produit CIM**](cim-product.md).**Version**"), [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| ComponentID \| 001,3 ")
 </dt> </dl>
 
-Les informations de version du produit, qui correspondent à la propriété **version** dans l’objet Product de la norme d’échange de solutions DMTF.
+les informations de version du produit, qui correspondent à la propriété **version** de l’objet product de la Solution DMTF Exchange Standard.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ SoftwareFeature** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

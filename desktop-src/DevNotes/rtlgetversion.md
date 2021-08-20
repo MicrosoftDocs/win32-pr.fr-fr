@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntdll.dll
 - NtosKrnl.exe
-ms.openlocfilehash: a6a026ee55a6ccd75162915729070ad76f621bc8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7420b9dba03e3b136331f4463f476908882ca5564d0fc7ac563036c7acccb356
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118161681"
 ---
 # <a name="rtlgetversion-function"></a>RtlGetVersion fonction)
 
@@ -51,9 +51,9 @@ Pointeur vers une structure [**\_ OSVERSIONINFOW RTL**](/windows-hardware/driver
 
 Retourne l’état \_ réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-**RtlGetVersion** est l’équivalent de la fonction [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) dans le SDK Windows. Consultez l’exemple dans le SDK Windows qui montre comment obtenir la version du système.
+**RtlGetVersion** est l’équivalent de la fonction [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) dans le SDK Windows. consultez l’exemple dans le SDK Windows qui montre comment obtenir la version du système.
 
 Quand vous utilisez **RtlGetVersion** pour déterminer si une version particulière du système d’exploitation est en cours d’exécution, un appelant doit vérifier les numéros de version qui sont supérieurs ou égaux au numéro de version requis. Cela garantit qu’un test de version est correctement effectué pour les versions ultérieures de Windows.
 

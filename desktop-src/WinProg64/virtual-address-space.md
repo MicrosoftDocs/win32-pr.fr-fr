@@ -1,22 +1,22 @@
 ---
-title: Espace d’adressage virtuel (Guide de programmation pour Windows 64 bits)
-description: Par défaut, les applications basées sur Microsoft Windows 64 bits disposent d’un espace d’adressage en mode utilisateur de plusieurs téraoctets.
+title: Espace d’adressage virtuel (Guide de programmation pour l’Windows 64 bits)
+description: par défaut, les applications basées sur Windows Microsoft 64 bits disposent d’un espace d’adressage en mode utilisateur de plusieurs téraoctets.
 ms.assetid: c5c4af39-727e-46e1-821e-8342c555bf4c
 keywords:
-- Guide de programmation Windows 64 bits-programmation Windows 64 bits, espace d’adressage virtuel
-- espace d’adressage virtuel 64-programmation Windows bits
+- guide de programmation Windows 64 bits 64-bits Windows programmation, espace d’adressage virtuel
+- programmation de l’espace d’adressage virtuel 64 bits Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e4aa6eb67ebf931d1152b3a1101df2757e899b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: cb2e673befb66c45501558effb37f3d04ee1a99199010f8cca89abb2cb31c6d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113369"
 ---
-# <a name="virtual-address-space-programming-guide-for-64-bit-windows"></a>Espace d’adressage virtuel (Guide de programmation pour Windows 64 bits)
+# <a name="virtual-address-space-programming-guide-for-64-bit-windows"></a>Espace d’adressage virtuel (Guide de programmation pour l’Windows 64 bits)
 
-Par défaut, les applications basées sur Microsoft Windows 64 bits disposent d’un espace d’adressage en mode utilisateur de plusieurs téraoctets. Pour obtenir des valeurs précises, consultez [limites de mémoire pour les versions de Windows et Windows Server](/windows/desktop/Memory/memory-limits-for-windows-releases). Toutefois, les applications peuvent spécifier que le système doit allouer toute la mémoire pour l’application inférieure à 2 gigaoctets. Cette fonctionnalité est utile pour les applications 64 bits si les conditions suivantes sont remplies :
+par défaut, les applications basées sur Windows Microsoft 64 bits disposent d’un espace d’adressage en mode utilisateur de plusieurs téraoctets. pour obtenir des valeurs précises, consultez [limites de mémoire pour les versions Windows et Windows Server](/windows/desktop/Memory/memory-limits-for-windows-releases). Toutefois, les applications peuvent spécifier que le système doit allouer toute la mémoire pour l’application inférieure à 2 gigaoctets. Cette fonctionnalité est utile pour les applications 64 bits si les conditions suivantes sont remplies :
 
 -   Un espace d’adressage de 2 Go suffit.
 -   Le code contient de nombreux avertissements de troncation de pointeur.

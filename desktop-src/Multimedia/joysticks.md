@@ -3,7 +3,7 @@ title: Manette
 description: Manette
 ms.assetid: 29fe25c8-51ea-4dc1-9f98-1c10d23b7b2a
 keywords:
-- Multimédia Windows, manettes
+- Windows multimédia, joysticks
 - multimédia, manettes
 - entrée multimédia, joysticks
 - joysticks, à propos de
@@ -14,12 +14,12 @@ keywords:
 - manches de vol
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 559a28263721718088ffcf67ec6efa10b9d10722
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 719a0d4c94af0a967bddacb700cd9915bda6f6d26f80a492c679bf6a3dde78c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140238"
 ---
 # <a name="joysticks"></a>Manette
 
@@ -31,9 +31,9 @@ Cette vue d’ensemble décrit les fonctions et les messages qui prennent en cha
 
 L’API de manette de jeu multimédia a été remplacée par DirectInput, qui offre davantage de fonctionnalités pour les périphériques d’entrée et de retour à l’évaluation d’aujourd’hui. Pour plus d’informations, consultez la documentation de DirectX.
 
- 
+ 
 
- 
+ 
 
 
 

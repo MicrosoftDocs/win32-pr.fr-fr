@@ -4,12 +4,12 @@ ms.assetid: 8b527307-51bf-47b3-a0b2-3421cc5278b7
 title: Table CompLocator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e9fcb4a3c4f2e2c6f3ca3c92f6dc7466326bd11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad6a51ad618521ff49b2a5b13f76fcfbae4207b5cdf4d77e76d3e128816bbb82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145078"
 ---
 # <a name="complocator-table"></a>Table CompLocator
 
@@ -69,13 +69,13 @@ Le tableau suivant répertorie les valeurs valides. Si elle est absente, le type
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table est utilisée avec la [table AppSearch](appsearch-table.md).
 
 En règle générale, les colonnes de cette table ne sont pas localisées. Si un auteur décide de rechercher des produits dans plusieurs langues, il peut y avoir une entrée distincte incluse dans le tableau pour chaque langue.
 
-Pour plus d’informations, consultez [recherche d’applications, de fichiers, d’entrées de registre ou d’entrées de fichier. ini existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
+Pour plus d’informations, consultez [recherche d’applications, de fichiers, d’entrées de registre ou de .ini entrées de fichier existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
 
 ## <a name="validation"></a>Validation
 

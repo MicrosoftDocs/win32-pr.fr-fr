@@ -43,7 +43,7 @@ Définit les éléments utilisés pour créer un champ d’en-tête dans un mess
 
 | Élément                                                            | Type                                                                    | Description                                                            |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [**Nom**](taskschedulerschema-name-headerfieldtype-element.md)   | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md) | Spécifie le nom du champ d’en-tête dans un message électronique.<br/> |
+| [**Name**](taskschedulerschema-name-headerfieldtype-element.md)   | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md) | Spécifie le nom du champ d’en-tête dans un message électronique.<br/> |
 | [**Valeur**](taskschedulerschema-value-headerfieldtype-element.md) | **string**                                                              | Spécifie la valeur d’un champ d’en-tête dans un message électronique.<br/>  |
 
 

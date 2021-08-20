@@ -7,12 +7,12 @@ keywords:
 - profils, concevoir
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41f72ddab19e86d0460776fb39790e6f9531d009
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf7b7239e38b97caffe65d10f0f06db80d85aef2b005a430d86cf47d6407147d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118029826"
 ---
 # <a name="designing-profiles"></a>Conception de profils
 
@@ -25,13 +25,13 @@ Les sections suivantes décrivent les facteurs impliqués dans la conception de 
 | Section                                                                                    | Description                                                                                                     |
 |--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [Sélection des fonctionnalités de profil](selecting-profile-features.md)                               | Décrit les différentes fonctionnalités de profil et quand les utiliser.                                                    |
-| [Choix d’une méthode d’encodage](choosing-an-encoding-method.md)                             | Décrit les méthodes d’encodage disponibles à l’aide des codecs Windows Media Audio et vidéo, et quand les utiliser.  |
+| [Choix d’une méthode d’encodage](choosing-an-encoding-method.md)                             | décrit les méthodes d’encodage disponibles à l’aide des codecs Windows Media Audio et vidéo, et quand les utiliser.  |
 | [Sélection des vitesses de transmission](selecting-bit-rates.md)                                             | Décrit le processus de sélection des vitesses de transmission appropriées pour les flux de votre profil.                         |
 | [Utilisation des modèles de conformité des appareils](working-with-device-conformance-templates.md) | Discute des nouveaux modèles de conformité des appareils et comment les utiliser pour adapter le contenu à votre public cible. |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -40,9 +40,9 @@ Les sections suivantes décrivent les facteurs impliqués dans la conception de 
 [**Utilisation des profils**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

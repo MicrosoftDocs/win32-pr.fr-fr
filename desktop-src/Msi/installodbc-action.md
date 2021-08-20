@@ -4,16 +4,16 @@ ms.assetid: fbcf1fdc-5aef-4431-93fe-3ed02748b5ff
 title: Action InstallODBC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5ac9becd2a528646805f4201cfb415a6bc61bd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a371aed67ec412c46946d7df7fd4775f0a0d4e20d91cbb60d69f894371f203ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118142223"
 ---
 # <a name="installodbc-action"></a>Action InstallODBC
 
-L’action InstallODBC installe les pilotes, les traducteurs et les sources de données dans la table [ODBCDriver](odbcdriver-table.md), la table [ODBCTranslator](odbctranslator-table.md)et la [table ODBCDataSource](odbcdatasource-table.md). S’il existe déjà un pilote ou un convertisseur, l’action InstallODBC effectue les appels SQL nécessaires à l’installation.
+L’action InstallODBC installe les pilotes, les traducteurs et les sources de données dans la table [ODBCDriver](odbcdriver-table.md), la table [ODBCTranslator](odbctranslator-table.md)et la [table ODBCDataSource](odbcdatasource-table.md). s’il existe déjà un pilote ou un convertisseur, l’action InstallODBC effectue SQL les appels nécessaires à l’installation.
 
 ## <a name="sequence-restrictions"></a>Restrictions de séquence
 
@@ -66,7 +66,7 @@ Le tableau suivant identifie les messages ActionData pour chaque source de donn�
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le gestionnaire de pilotes ODBC doit être créé dans le package Microsoft installer et un composant nommé ODBCDriverManager doit être inclus. Le gestionnaire est installé si nécessaire.
 
@@ -80,7 +80,7 @@ Pour renommer le composant, définissez une propriété nommée ODBCDriverManage
 
 <dl> <dt>
 
-[Exemples de Windows Installer](windows-installer-examples.md)
+[Windows Exemples de programme d’installation](windows-installer-examples.md)
 </dt> </dl>
 
  

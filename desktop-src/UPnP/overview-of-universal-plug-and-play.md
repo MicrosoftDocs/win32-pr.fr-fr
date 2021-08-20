@@ -4,12 +4,12 @@ description: L’architecture UPnP définit la connectivité de réseau pair à 
 ms.assetid: 09aba033-6229-4a55-9421-a7b967508bf4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10ce11009bfecfe03fa176c1e6c75be173fbde86
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5866d3e701f53e95225538655ca45d159fb7c5f67d00e3c46c97357c7a9ee6a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126452"
 ---
 # <a name="overview-of-upnp-architecture"></a>Vue d’ensemble de l’architecture UPnP
 
@@ -38,6 +38,6 @@ Microsoft fournit deux API pour travailler avec des appareils basés sur UPnP :
 -   [API du point de contrôle](control-point-api.md) : fournit un ensemble d’interfaces COM qui permettent aux applications de rechercher et de contrôler les périphériques UPnP.
 -   [API](device-host-api.md) de l’hôte de périphérique : fournit un ensemble d’interfaces COM qui permettent aux développeurs d’écrire les fonctionnalités principales des appareils et d’inscrire l’appareil auprès de l’hôte de l’appareil. L’hôte d’appareil gère la découverte, la description, le contrôle et les parties d’événements des fonctionnalités d’appareil UPnP.
 
- 
+ 
 
- 
+ 

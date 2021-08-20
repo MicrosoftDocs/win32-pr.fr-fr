@@ -3,19 +3,19 @@ title: Élément VIDEOSETTINGS
 description: Élément VIDEOSETTINGS
 ms.assetid: 2d147bd2-0010-41ab-8073-a4dc2979be1e
 keywords:
-- Apparences du lecteur Windows Media, élément VIDEOSETTINGS
+- habillages Lecteur Windows Media, élément VIDEOSETTINGS
 - habillages, élément VIDEOSETTINGS
 - Élément VIDEOSETTINGS
 - informations de référence sur les habillages, élément VIDEOSETTINGS
 - éléments, VIDEOSETTINGS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61dd56c0103b5a4f6f95e913e967526ef1d46b78
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43096cbe0ee196581a3ad3ed0632342f3fadf2faddf4e203641244687cd660fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116855"
 ---
 # <a name="videosettings-element"></a>Élément VIDEOSETTINGS
 
@@ -34,7 +34,7 @@ L’élément **VIDEOSETTINGS** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **VIDEOSETTINGS** prend en charge la méthode suivante.
 
@@ -46,14 +46,14 @@ L’élément **VIDEOSETTINGS** prend en charge la méthode suivante.
 
 
 
- 
+ 
 
 L’élément **VIDEOSETTINGS** peut implémenter les gestionnaires d’événements [ \_ OnChange d’attribut](attribute-onchange.md) .
 
 > [!Note]  
-> Cet élément requiert le lecteur Windows Media pour Windows XP ou version ultérieure.
+> cet élément requiert Lecteur Windows Media pour Windows XP ou version ultérieure.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -62,9 +62,9 @@ L’élément **VIDEOSETTINGS** peut implémenter les gestionnaires d’événem
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - visualisations personnalisées, variable timeStamp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f2d9a23818d57305b3b205ea2e17b6dda2884e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1e6ce4d675fa37a519952f1b31d3c52cd93005a82eef977b7bd7d77623f1e508
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116936"
 ---
 # <a name="using-timed-levels"></a>Utilisation de niveaux chronométrés
 
@@ -30,7 +30,7 @@ La structure **TimedLevel** est composée de tableaux 2 2 dimensionnels, d’une
 
 Le tableau Frequency est un tableau à deux dimensions. La première dimension de chaque tableau correspond au canal audio stéréo (à gauche ou à droite), tandis que la seconde correspond aux niveaux de fréquence (en octets) de l’instantané, où le spectre audio est divisé en zones de 1024.
 
-Vous pouvez récupérer les données de tableau de fréquences fournies par le lecteur Windows Media de la manière suivante :
+vous pouvez récupérer les données de tableau de fréquences fournies à partir de la Lecteur Windows Media de la manière suivante :
 
 
 ```C++
@@ -48,7 +48,7 @@ Si le signal n’est pas stéréo, le deuxième tableau contiendra une copie du 
 
 Le tableau Waveform est également un tableau à deux dimensions. La première dimension du tableau correspond au canal (à gauche ou à droite), tandis que la seconde correspond aux niveaux d’alimentation (en octets) de l’instantané, où la puissance audio est divisée en segments de temps contigus de 1024.
 
-Vous pouvez récupérer les données du tableau de forme d’onde à partir du lecteur Windows Media de la manière suivante :
+vous pouvez récupérer les données du tableau de forme d’onde à partir de Lecteur Windows Media de la manière suivante :
 
 
 ```C++
@@ -63,9 +63,9 @@ La valeur de l’instantané est pour le canal gauche et contient la première v
 
 Si le signal n’est pas stéréo, le deuxième tableau contiendra une copie du signal mono. Autrement dit, la forme d’onde \[ 0 \] \[ *n* \] et la forme d’onde \[ 1 \] \[ *n* \] contiennent les mêmes données, où *n* est l’index d’une cellule particulière.
 
-## <a name="state"></a>State
+## <a name="state"></a>État
 
-La variable d’État reflète l’état de lecture audio du lecteur Windows Media. Les valeurs d’énumération PlayerState sont
+la variable d’état reflète l’état de lecture audio de Lecteur Windows Media. Les valeurs d’énumération PlayerState sont
 
 
 ```C++
@@ -92,9 +92,9 @@ Vous pouvez utiliser cette variable pour l’heure de vos animations. Si les ins
 [**Implémentation du rendu**](implementing-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

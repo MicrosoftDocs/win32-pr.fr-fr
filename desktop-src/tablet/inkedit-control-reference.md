@@ -4,12 +4,12 @@ ms.assetid: 52761cb2-4433-4824-ba19-fe597de2faf0
 title: Référence du contrôle InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbbe2aad6b7d8b536f2ede35fd93bd19840e69fc
-ms.sourcegitcommit: f8f06d7ad2ff6599e90b0493b355e0c1811d898f
+ms.openlocfilehash: 67efa2c8e5b56643138f4173167e22f2667dd9d318eeaecfd91a0a8286a6f1db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113369311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118042337"
 ---
 # <a name="inkedit-control-reference"></a>Référence du contrôle InkEdit
 
@@ -60,7 +60,7 @@ La création du contrôle InkEdit derrière un contrôle transparent (tel qu’u
 
 | Événement                                                  | Description                                                                                                                                                                                 |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Modifiés**](inkedit-change.md)                       | Se produit lorsque le contenu du contrôle ou une valeur de propriété change.<br/>                                                                                                              |
+| [**Modifier**](inkedit-change.md)                       | Se produit lorsque le contenu du contrôle ou une valeur de propriété change.<br/>                                                                                                              |
 | [**Cliquez sur**](inkedit-click.md)                         | Se produit suite à un clic sur le contrôle.<br/>                                                                                                                                              |
 | [**Double**](inkedit-dblclick.md)                   | Se produit à la suite d'un double-clic sur le contrôle.<br/>                                                                                                                                       |
 | [**Mouvement**](inkedit-gesture.md)                     | Se produit lorsqu’un mouvement d’application est reconnu.<br/>                                                                                                                                |
@@ -119,7 +119,7 @@ La création du contrôle InkEdit derrière un contrôle transparent (tel qu’u
 |------------------------------------------------------|---------------------------------------------------------------------------------|
 | [**GetGestureStatus**](/windows/desktop/api/inked/nf-inked-iinkedit-getgesturestatus) | Obtient l’intérêt du contrôle InkEdit dans un jeu connu de mouvements.<br/> |
 | [**Recognize**](/windows/desktop/api/inked/nf-inked-iinkedit-recognize)               | Spécifie que la reconnaissance doit se produire.<br/>                             |
-| [**Actualiser**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh)             | Provoque le redessin du contrôle.<br/>                                        |
+| [**Générer**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh)             | Provoque le redessin du contrôle.<br/>                                        |
 | [**SetGestureStatus**](/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus) | Définit l’intérêt du contrôle InkEdit dans un ensemble connu de mouvements.<br/> |
 
 
@@ -135,7 +135,7 @@ La création du contrôle InkEdit derrière un contrôle transparent (tel qu’u
 | [**BorderStyle**](/windows/desktop/api/inked/nf-inked-iinkedit-get_borderstyle)               | Obtient ou définit une valeur qui détermine si le contrôle InkEdit a une bordure.<br/>                                                                                             |
 | [**DisableNoScroll**](/windows/desktop/api/inked/nf-inked-iinkedit-get_disablenoscroll)       | Obtient ou définit une valeur qui détermine si les barres de défilement dans le contrôle InkEdit sont désactivées.<br/>                                                                              |
 | [**DrawingAttributes**](/windows/desktop/api/inked/nf-inked-iinkedit-get_drawingattributes)   | Obtient ou définit les attributs de dessin pour l’encre qui est encore dessinée sur le contrôle InkEdit.<br/>                                                                                |
-| [**activé**](/windows/desktop/api/inked/nf-inked-iinkedit-get_enabled)                       | Obtient ou définit une valeur qui détermine si le contrôle InkEdit peut répondre aux événements générés par l’utilisateur.<br/>                                                                     |
+| [**Activé**](/windows/desktop/api/inked/nf-inked-iinkedit-get_enabled)                       | Obtient ou définit une valeur qui détermine si le contrôle InkEdit peut répondre aux événements générés par l’utilisateur.<br/>                                                                     |
 | [**Factoid**](/windows/desktop/api/inked/nf-inked-iinkedit-get_factoid)                       | Obtient ou définit la constante [Factoid](factoid-constants.md) utilisée par un objet [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) pour contraindre sa recherche au résultat de la reconnaissance.<br/> |
 | [**Police**](/windows/desktop/api/inked/nf-inked-iinkedit-get_font)                             | Obtient ou définit la police du texte affiché par le contrôle InkEdit.<br/>                                                                                                       |
 | [**hWnd**](/windows/desktop/api/inked/nf-inked-iinkedit-get_hwnd)                             | Obtient le handle de fenêtre auquel le contrôle [**InkDisp**](inkdisp-class.md) est lié.<br/>                                                                                     |
@@ -163,8 +163,8 @@ La création du contrôle InkEdit derrière un contrôle transparent (tel qu’u
 | [**SelStart**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selstart)                     | Obtient ou définit le point de départ du texte sélectionné dans la zone de texte (exécution uniquement).<br/>                                                                              |
 | [**SelText**](/windows/desktop/api/inked/nf-inked-iinkedit-get_seltext)                       | Obtient ou définit le texte sélectionné dans le contrôle InkEdit (heure de l’exécution uniquement).<br/>                                                                                                 |
 | [**SelUnderline**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selunderline)             | Obtient ou définit une valeur qui spécifie si le style de police du texte actuellement sélectionné dans le contrôle InkEdit est souligné (heure de l’exécution uniquement).<br/>                            |
-| [**Statut**](/windows/desktop/api/inked/nf-inked-iinkedit-get_status)                         | Obtient une valeur qui spécifie si le contrôle InkEdit est inactif, en collectant l’encre ou en reconnaissant l’encre (heure de l’exécution uniquement).<br/>                                                       |
-| [**Texte**](/windows/desktop/api/inked/nf-inked-iinkedit-get_text)                             | Obtient ou définit le texte actuel de la zone de texte.<br/>                                                                                                                             |
+| [**État**](/windows/desktop/api/inked/nf-inked-iinkedit-get_status)                         | Obtient une valeur qui spécifie si le contrôle InkEdit est inactif, en collectant l’encre ou en reconnaissant l’encre (heure de l’exécution uniquement).<br/>                                                       |
+| [**Financière**](/windows/desktop/api/inked/nf-inked-iinkedit-get_text)                             | Obtient ou définit le texte actuel de la zone de texte.<br/>                                                                                                                             |
 | [**TextRTF**](/windows/desktop/api/inked/nf-inked-iinkedit-get_textrtf)                       | Obtient ou définit le texte du contrôle InkEdit, y compris tous les codes RTF.<br/>                                                                                                     |
 | [**UseMouseForInput**](/windows/desktop/api/inked/nf-inked-iinkedit-get_usemouseforinput)     | Obtient ou définit une valeur qui indique si la souris peut être utilisée comme périphérique d’entrée.<br/>                                                                                      |
 

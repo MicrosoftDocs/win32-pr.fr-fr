@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 39bd80ceebaee915b8175f2adf13b3b200000fa6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 248236bd4b1952a8a53b25087f9acf2ce952e99ff7f39d0d9d20a49d314fa22f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095447"
 ---
 # <a name="d3dxplanescale-function"></a>D3DXPlaneScale fonction)
 
@@ -75,11 +75,11 @@ Type : **[ **D3DXPLANE**](d3dxplane.md)\***
 
 Pointeur vers une structure [**D3DXPLANE**](d3dxplane.md) qui représente le plan mis à l’échelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . Par conséquent, cette fonction peut être utilisée comme paramètre pour une autre fonction.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

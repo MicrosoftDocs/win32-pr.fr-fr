@@ -6,18 +6,18 @@ keywords:
 - Domain Name System, normes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 528198b429da4908f688bd56b430979810f1b08e
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7fb93ca884e93c8e6435d89a8f78a8da6d7b88b1e557551c1bf63d6a8fa1e23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103723675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118164030"
 ---
 # <a name="dns-standards-documents"></a>Documents de normes DNS
 
 Le DNS (Domain Name System) est un protocole ouvert. Ainsi, les efforts de collaboration du secteur dans son ensemble garantissent que son implémentation sur différents systèmes ne limite pas l’interopérabilité. Le corps de normes qui supervise ces recommandations est l’IETF (Internet Engineering Task Force). Voici les demandes RFC (Request for Comments) de l’IETF. Pour plus d’informations sur l’un de ces documents, visitez [www.ietf.org](https://www.ietf.org/).
 
-## <a name="dns-rfcs"></a>RFC DNS
+## <a name="dns-rfcs"></a>RFC DNS
 
 -   [RFC 1034](https://www.ietf.org/rfc/rfc1034.txt): noms de domaine-concepts et installations
 -   [RFC 1035](https://www.ietf.org/rfc/rfc1035.txt): Domain Names-Implementation and Specification
@@ -40,9 +40,9 @@ Le DNS (Domain Name System) est un protocole ouvert. Ainsi, les efforts de colla
 -   [RFC 3596](https://www.ietf.org/rfc/rfc3596.txt): extensions DNS pour prendre en charge IP version 6
 -   [RFC 3645](https://www.ietf.org/rfc/rfc3645.txt): algorithme Generic Security service pour l’authentification de la transaction de clé secrète pour DNS (GSS-TSIG)
 
- 
+ 
 
- 
+ 
 
 
 
