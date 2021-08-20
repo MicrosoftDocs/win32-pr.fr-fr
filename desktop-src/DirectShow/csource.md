@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a4fcecbd1973c54e30c9bf1251bed174aa4a469f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6708ce38c826aae9ccb40d077972d267a20d5e22b4f67157000c4a62e92afa1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687512"
 ---
 # <a name="csource-class"></a>CSource, classe
 
@@ -30,7 +30,7 @@ ms.locfileid: "106538125"
 La classe **CSource** est une classe de base pour l’implémentation de filtres sources. Un filtre dérivé de **CSource** contient une ou plusieurs broches de sortie dérivées de la classe [**CSourceStream**](csourcestream.md) . Chaque broche de sortie crée un thread de travail qui pousse les exemples de média en aval.
 
 > [!Note]  
-> La classe **CSource** est conçue pour prendre en charge le modèle push pour le workflow de données. Cette classe n’est pas recommandée pour créer des filtres de lecteur de fichier. Les lecteurs de fichiers doivent prendre en charge le modèle d’extraction par le biais de l’interface [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) . Pour plus d’informations, consultez [Data Flow for filtre Developers](data-flow-for-filter-developers.md).
+> La classe **CSource** est conçue pour prendre en charge le modèle push pour le workflow de données. Cette classe n’est pas recommandée pour créer des filtres de lecteur de fichier. Les lecteurs de fichiers doivent prendre en charge le modèle d’extraction par le biais de l’interface [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) . pour plus d’informations, consultez [Flow de données pour les développeurs de filtres](data-flow-for-filter-developers.md).
 
  
 
@@ -57,7 +57,7 @@ La classe **CSource** est une classe de base pour l’implémentation de filtres
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour implémenter une broche de sortie, procédez comme suit :
 
@@ -86,7 +86,7 @@ CAutoLock lock(m_pFilter->pStateLock());
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Source. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Source. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

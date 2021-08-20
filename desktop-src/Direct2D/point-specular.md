@@ -6,12 +6,12 @@ keywords:
 - effet d’éclairage spéculaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 355c573888604af8dfac443f4f53554a8a780071
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 37adb0c6ea0ca946abf819730dcc378f421bf2c220dc0ab8d41916f570501d0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075140"
 ---
 # <a name="point-specular-lighting-effect"></a>Effet d’éclairage spéculaire par point
 
@@ -27,7 +27,7 @@ Le CLSID de cet effet est CLSID \_ D2D1PointSpecular.
 -   [Constante d’éclairage spéculaire et exposant](#specular-lighting-constant-and-exponent)
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes de mise à l’échelle](#scales-modes)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -130,8 +130,8 @@ La propriété *SpecularConstant* K ? définit la quantité de lumière réflé
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

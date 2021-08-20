@@ -4,12 +4,12 @@ ms.assetid: 292b57ea-1c7e-49b6-876c-4ad307a2ec43
 title: Préparation d’un fichier de configuration de ressource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac162ad7f6d20148e0ef60cb9dc15da41cc27186
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b862f48f15997300f079a39de0eb385c535758d9392dc452e1d338d86c8d59e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147102"
 ---
 # <a name="preparing-a-resource-configuration-file"></a>Préparation d’un fichier de configuration de ressource
 
@@ -32,7 +32,7 @@ Tous les fichiers de configuration de ressources pour les applications Win32 com
 
 
 
-Cette rubrique se concentre sur les aspects du schéma XML qui sont utiles lors de la création de code non managé sur Windows Vista et versions ultérieures. En particulier, il est uniquement concerné par le comportement de l’élément win32Resources.
+cette rubrique se concentre sur les aspects du schéma XML qui sont utiles pour la création de code non managé sur Windows Vista et versions ultérieures. En particulier, il est uniquement concerné par le comportement de l’élément win32Resources.
 
 ## <a name="win32resources-element"></a>Élément win32Resources
 
@@ -44,8 +44,8 @@ L’élément win32Resources a les attributs décrits dans le tableau suivant.
 |--------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | fileType                 | Non        | Type de fichier. Doit toujours être « application ».                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | somme de contrôle                 | Non        | Valeur de somme de contrôle à afficher dans les données de configuration de ressource du fichier LN et des fichiers de ressources spécifiques à une langue. Par exemple, cet attribut vous permet de copier la somme de contrôle à partir d’un seul fichier de ressources spécifique à une langue, en le comparant à celle de l’anglais (États-Unis), et de placer la somme de contrôle dans un fichier de ressources spécifique à une langue. La somme de contrôle peut être spécifiée sous la forme d’une chaîne de nombres hexadécimaux ne dépassant pas 32 caractères. La valeur numérique doit être contenance dans un nombre de 128 bits. |
-| langage                 | Non        | Langue spécifiée à l’aide d’un format de nom conforme à la norme RFC 4646 (Windows Vista et versions ultérieures), par exemple, en-US pour l’anglais (États-Unis).                                                                                                                                                                                                                                                                                                                                                                             |
-| ultimateFallbackLanguage | Non        | Langue à insérer dans les données de configuration de ressource pour le fichier LN, représentant le langage de secours ultime à utiliser dans une recherche de fichier de ressources spécifique à une langue correspondante. Si le chargeur de ressources ne parvient pas à charger un fichier de ressources demandé à partir des langues d’interface utilisateur préférées du thread, il utilise un langage de secours ultime comme dernière tentative. Le langage est spécifié à l’aide d’un format de nom conforme à la norme RFC 4646 (Windows Vista et versions ultérieures), par exemple, en-US pour l’anglais (États-Unis).       |
+| langage                 | Non        | langue spécifiée à l’aide d’un format de nom conforme à la norme RFC 4646 (Windows Vista et versions ultérieures), par exemple, en-US pour l’anglais (États-Unis).                                                                                                                                                                                                                                                                                                                                                                             |
+| ultimateFallbackLanguage | Non        | Langue à insérer dans les données de configuration de ressource pour le fichier LN, représentant le langage de secours ultime à utiliser dans une recherche de fichier de ressources spécifique à une langue correspondante. Si le chargeur de ressources ne parvient pas à charger un fichier de ressources demandé à partir des langues d’interface utilisateur préférées du thread, il utilise un langage de secours ultime comme dernière tentative. le langage est spécifié à l’aide d’un format de nom conforme à la norme RFC 4646 (Windows Vista et versions ultérieures), par exemple, en-US pour l’anglais (États-Unis).       |
 | ultimateFallbackLocation | Non        | Emplacement de secours. Spécifiez « Internal » si les ressources de secours ultimes sont compilées dans le fichier LN. Spécifiez « External » (valeur par défaut) si le fichier LN doit faire référence à un fichier de ressources spécifique à une langue pour ses ressources de secours ultimes.                                                                                                                                                                                                                                                                                |
 
 
@@ -195,7 +195,7 @@ Voici les types de ressources standard et leurs identificateurs numériques :
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous incluez des types de ressources icône (3), boîte de dialogue (5), chaîne (6) ou VERSION (16) dans l’élément neutralResources, vous devez dupliquer cette entrée dans l’élément localizedResources. Vous pouvez voir ce qui est illustré dans l’exemple ci-dessus, où le type de ressource 16 apparaît dans les sections ressources neutres et ressources localisées.
 

@@ -4,12 +4,12 @@ ms.assetid: f0821b90-51d1-4e77-8aed-04337a3dd623
 title: Mappage de coordonnées dans VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c18b38249471e6e68e36f1b9051f51e920f62b31
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ad128e4d4e40fe3141f0b23edde1e06df8c5044e0a9877e2d9a2fcc3f293a9fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073791"
 ---
 # <a name="coordinate-mapping-in-the-vmr"></a>Mappage de coordonnées dans VMR
 
@@ -39,7 +39,7 @@ Le facteur T (SRC) T (indicateur) T (AR) est relatif à la résolution de la sou
 
 <dl> <dt>
 
-[Utilisation de VMR pour les développeurs de filtres DirectShow](using-the-vmr-for-directshow-filter-developers.md)
+[utilisation de VMR pour les développeurs de filtre DirectShow](using-the-vmr-for-directshow-filter-developers.md)
 </dt> </dl>
 
  

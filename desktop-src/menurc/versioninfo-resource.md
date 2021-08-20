@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9248abe18d07820ebefaa6d939f36f617f6cd07f
-ms.sourcegitcommit: 25e1fa2b3641ae13b79e0afdf9cb7a168d99e009
+ms.openlocfilehash: d6708b4fefc564685a9989140e5f07dd20714e8bbcb60c53710f43cbfee4aa7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "104316716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971868"
 ---
 # <a name="versioninfo-resource"></a>Ressource VERSIONINFO
 
@@ -62,7 +62,7 @@ Les informations de version, telles que la version du fichier et le système d�
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  *Version* de FileVersion         | Numéro de version binaire du fichier. La *version* se compose d’entiers 2 32 bits, définis par des entiers 4 16 bits. Par exemple, « FILEVERSION 3, 10, 0, 61 » est traduit en deux mots doubles : 0x0003000a et 0x0000003d, dans cet ordre. Par conséquent, si la *version* est définie par les valeurs **DWORD** *DW1* et *DW2*, elles doivent apparaître dans l’instruction **FileVersion** comme suit : `HIWORD(dw1)` , `LOWORD(dw1)` , `HIWORD(dw2)` , `LOWORD(dw2)` . |
 |  *Version* de PRODUCTVERSION      | Numéro de version binaire du produit avec lequel le fichier est distribué. Le paramètre de *version* est un entier 2 32 bits, défini par des entiers 4 16 bits. Pour plus d’informations sur la *version*, consultez la description de **FileVersion** .                                                                                                                                                                                                           |
-| **FILEFLAGSMASK** *FILEFLAGSMASK* | Indique les bits de l’instruction **FileFlags** qui sont valides. Pour Windows 16 bits, cette valeur est 0x3F.                                                                                                                                                                                                                                                                                                                                          |
+| **FILEFLAGSMASK** *FILEFLAGSMASK* | Indique les bits de l’instruction **FileFlags** qui sont valides. pour les Windows 16 bits, cette valeur est 0x3f.                                                                                                                                                                                                                                                                                                                                          |
 | **FileFlags FileFlags**          | Attributs du fichier.                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Fichieros**                | Système d’exploitation pour lequel ce fichier a été conçu. Le paramètre *fileos* peut être l’une des valeurs de système d’exploitation spécifiées dans la section Notes.                                                                                                                                                                                                                                                                                               |
 | **Filetype type_fichier**            | Type général de fichier. Le paramètre *filetype* peut être l’une des valeurs de type de fichier listées dans la section Notes.                                                                                                                                                                                                                                                                                                                                |
@@ -70,7 +70,7 @@ Les informations de version, telles que la version du fichier et le système d�
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,9 +81,9 @@ Spécifie un ou plusieurs blocs d’informations sur la version. Un bloc peut co
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour utiliser les constantes spécifiées avec l’instruction **VERSIONINFO** , vous devez inclure le fichier d’en-tête winver. h ou Windows. h dans le fichier de définition de ressource.
+pour utiliser les constantes spécifiées avec l’instruction **VERSIONINFO** , vous devez inclure le fichier d’en-tête Winver. h ou Windows. h dans le fichier de définition de ressource.
 
 La liste suivante décrit les paramètres utilisés dans l’instruction **VERSIONINFO** :
 
@@ -107,7 +107,7 @@ Combinaison des valeurs suivantes.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,16 +122,16 @@ Une des valeurs suivantes.
 |-------------------------|------------------------------------------------------------------|
 | **VOS \_ inconnu**        | Le système d’exploitation pour lequel le fichier a été conçu est inconnu. |
 | **VOS \_ dos**            | Le fichier a été conçu pour MS-DOS.                                    |
-| **VOS \_ NT**             | Le fichier a été conçu pour Windows 32 bits.                            |
-| **VOS \_ \_ WINDOWS16**    | Le fichier a été conçu pour Windows 16 bits.                            |
-| **VOS \_ \_ WINDOWS32**    | Le fichier a été conçu pour Windows 32 bits.                            |
-| **VOS \_ dos \_ WINDOWS16** | Le fichier a été conçu pour Windows 16 bits s’exécutant avec MS-DOS.        |
-| **VOS \_ dos \_ WINDOWS32** | Le fichier a été conçu pour Windows 32 bits s’exécutant avec MS-DOS.        |
-| **VOS \_ NT \_ WINDOWS32**  | Le fichier a été conçu pour Windows 32 bits.                            |
+| **VOS \_ NT**             | Le fichier a été conçu pour une Windows de 32 bits.                            |
+| **VOS \_ \_ WINDOWS16**    | Le fichier a été conçu pour une Windows 16 bits.                            |
+| **VOS \_ \_ WINDOWS32**    | Le fichier a été conçu pour une Windows de 32 bits.                            |
+| **VOS \_ dos \_ WINDOWS16** | le fichier a été conçu pour une Windows de 16 bits s’exécutant avec MS-DOS.        |
+| **VOS \_ dos \_ WINDOWS32** | le fichier a été conçu pour une Windows de 32 bits s’exécutant avec MS-DOS.        |
+| **VOS \_ NT \_ WINDOWS32**  | Le fichier a été conçu pour une Windows de 32 bits.                            |
 
 
 
- 
+ 
 
 Les valeurs 0x00002L, 0x00003L, 0x20000L et 0x30000L sont réservées.
 
@@ -156,7 +156,7 @@ Une des valeurs suivantes.
 
 
 
- 
+ 
 
 Toutes les autres valeurs sont réservées à une utilisation par Microsoft.
 
@@ -188,7 +188,7 @@ Si *filetype* spécifie **VFT \_ DRV**, ce paramètre peut avoir l’une des val
 
 
 
- 
+ 
 
 Si *filetype* spécifie la **\_ police VFT**, ce paramètre peut avoir l’une des valeurs suivantes.
 
@@ -203,7 +203,7 @@ Si *filetype* spécifie la **\_ police VFT**, ce paramètre peut avoir l’une d
 
 
 
- 
+ 
 
 Si *filetype* spécifie VFT \_ vxd, ce paramètre doit être l’identificateur de l’appareil virtuel inclus dans le bloc de contrôle de l’appareil virtuel.
 
@@ -246,7 +246,7 @@ L’un des codes de langue suivants.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -274,7 +274,7 @@ Un des identificateurs de jeu de caractères suivants.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -288,7 +288,7 @@ L’un des noms prédéfinis suivants.
 | Nom                 | Description                                                                                                                                                                                                                                                                                                 |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Commentaires**         | Informations supplémentaires à afficher à des fins de diagnostic.                                                                                                                                                                                                                                    |
-| **Prennent**      | Société qui a produit le fichier ? par exemple, « Microsoft Corporation » ou « Standard Microsystems Corporation, Inc. » Cette chaîne est requise.                                                                                                                                                                   |
+| **CompanyName**      | Société qui a produit le fichier ? par exemple, « Microsoft Corporation » ou « Standard Microsystems Corporation, Inc. » Cette chaîne est requise.                                                                                                                                                                   |
 | **FileDescription**  | Description du fichier à présenter aux utilisateurs. Cette chaîne peut être affichée dans une zone de liste lorsque l’utilisateur choisit les fichiers à installer ? par exemple, « pilote de clavier pour AT-Style claviers ». Cette chaîne est requise.                                                                                            |
 | **FileVersion**      | Numéro de version du fichier, par exemple « 3,10 » ou « 5,00. RC2 ». Cette chaîne est requise.                                                                                                                                                                                                                      |
 | **InternalName**     | Nom interne du fichier, s’il en existe un, par exemple, un nom de module s’il s’agit d’une bibliothèque de liens dynamiques. Si le fichier n’a pas de nom interne, cette chaîne doit être le nom de fichier d’origine, sans extension. Cette chaîne est requise.                                                                       |
@@ -302,7 +302,7 @@ L’un des noms prédéfinis suivants.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -376,6 +376,6 @@ END
 [Informations sur la version](./version-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

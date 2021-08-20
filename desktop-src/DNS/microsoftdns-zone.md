@@ -52,12 +52,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b15119c7a5cdc1dba2998e17b5c69a4d0e15c6ca
-ms.sourcegitcommit: 03fb201e1ea36e353c335ff063ed993fb5993e61
+ms.openlocfilehash: a37b8c99fcd0fb70206758dd67dab8cfffe145ea2ef1aa75186b1268a7ff3b63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104033358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957178"
 ---
 # <a name="microsoftdns_zone-class"></a>\_Classe de zone MicrosoftDNS
 

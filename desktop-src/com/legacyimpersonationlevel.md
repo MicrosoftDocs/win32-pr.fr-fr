@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre LegacyImpersonationLevel COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74fa00494eb71e49c35bfa37b434afc5c999e73e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd032e83290c18fc3a2588e382ade7730fa2ea39a7847e375b1e887cdbbb90f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048077"
 ---
 # <a name="legacyimpersonationlevel"></a>LegacyImpersonationLevel
 
@@ -20,16 +20,16 @@ Définit le niveau d’emprunt d’identité par défaut pour les applications q
 > [!Caution]  
 > Il n’est pas recommandé de modifier cette valeur, car cela affecte toutes les applications serveur COM qui ne définissent pas leur propre sécurité au niveau du processus, et peut les empêcher de fonctionner correctement. Si vous modifiez cette valeur pour affecter les paramètres de sécurité d’une application COM particulière, vous devez à la place modifier les paramètres de sécurité à l’ensemble du processus pour cette application COM particulière. Pour plus d’informations sur la définition de la sécurité au niveau du processus, consultez Définition de la [sécurité au niveau du processus](setting-processwide-security.md).
 
- 
+ 
 
 ## <a name="registry-entry"></a>Entrée de Registre
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   LegacyImpersonationLevel = value
+   LegacyImpersonationLevel = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **\_ mot reg** qui est équivalente aux \_ \_ constantes de niveau d’IMP RPC C \_ .
 
@@ -44,7 +44,7 @@ Il s’agit d’une valeur de **\_ mot reg** qui est équivalente aux \_ \_ cons
 
 
 
- 
+ 
 
 Si cette valeur de Registre est absente, le niveau d’emprunt d’identité par défaut établi par le système est 2 ( \_ identification du niveau d’IMP RPC C \_ \_ \_ ).
 
@@ -58,9 +58,9 @@ Si cette valeur de Registre est absente, le niveau d’emprunt d’identité par
 [Définition de la sécurité au niveau du processus](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

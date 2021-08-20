@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 760c0bea3a213d7126ea795e9575b3897117f7a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b72be7342e6085b773ef2493f5ad138f73349dffcdafc1a60a380692df3f16ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016987"
 ---
 # <a name="cbaselistaddafteri-method"></a>Méthode CBaseList. AddAfterI
 
@@ -61,7 +61,7 @@ Pointeur vers l’élément à ajouter.
 
 Retourne l’indicateur de position de l’élément inséré.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si *pos* a la **valeur null**, cette méthode ajoute l’élément au début de la liste (équivalent à l’appel de la méthode [**CBaseList :: AddHeadI**](cbaselist-addheadi.md) ).
 
@@ -71,7 +71,7 @@ Si *pos* a la **valeur null**, cette méthode ajoute l’élément au début de 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxlist. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxlist. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

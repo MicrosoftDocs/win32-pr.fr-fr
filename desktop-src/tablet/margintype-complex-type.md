@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: ed602a7ef562ffed6bd18851dd1f25f4e18b13aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3f03b28eaec62d2c7afe74198e41410dfc2020fc83b7214ee99afc1f4b7b51a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119031697"
 ---
 # <a name="margintype-complex-type"></a>Type complexe MarginType
 
@@ -33,7 +33,7 @@ Définit le type qui contient les détails sur toutes les marges dans la note du
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

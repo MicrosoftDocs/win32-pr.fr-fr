@@ -40,12 +40,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0098556fcbc1400ccd1042198903fec7e018ed57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d3e8ca70d2bb5f37303c20117ddba59db6950d1dda58779179c6ef08c95abc4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025127"
 ---
 # <a name="replicationprovider1-class"></a>ReplicationProvider1, classe
 
@@ -159,7 +159,7 @@ Cette propriété est héritée de [**\_ \_ Win32Provider**](/windows/desktop/Wm
 
 </dd> <dt>
 
-**Enabled**
+**Activé**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -372,7 +372,7 @@ Type de données : **chaîne**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Le descripteur de sécurité (SD) dans le langage SDDL (Security Descriptor Definition Language) qui détermine l’ensemble des utilisateurs qui peuvent appeler [**IWbemDecoupledRegistrar : Register**](/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) pour le fournisseur découplé. Pour plus d’informations, consultez la rubrique [langage de définition du descripteur de sécurité](/windows/desktop/SecAuthZ/security-descriptor-definition-language) dans la section sécurité de la SDK Windows. Ce descripteur de sécurité est utilisé uniquement pour les fournisseurs découplés et n’affecte pas les autres fournisseurs. Pour plus d’informations, consultez [incorporation d’un fournisseur dans une application](/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application).
+Le descripteur de sécurité (SD) dans le langage SDDL (Security Descriptor Definition Language) qui détermine l’ensemble des utilisateurs qui peuvent appeler [**IWbemDecoupledRegistrar : Register**](/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register) pour le fournisseur découplé. pour plus d’informations, consultez la rubrique [langage de définition du descripteur de sécurité](/windows/desktop/SecAuthZ/security-descriptor-definition-language) dans la section sécurité de la SDK Windows. Ce descripteur de sécurité est utilisé uniquement pour les fournisseurs découplés et n’affecte pas les autres fournisseurs. Pour plus d’informations, consultez [incorporation d’un fournisseur dans une application](/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application).
 
 WMI effectue des vérifications d’accès pour les fournisseurs découplés qui utilisent les interfaces [**IWbemProviderInit**](/windows/desktop/api/wbemprov/nn-wbemprov-iwbemproviderinit) et [**IWbemObjectSink**](/windows/desktop/WmiSdk/iwbemobjectsink) . Si le descripteur de sécurité a la **valeur null**, seules les applications ou les services qui s’exécutent sous les comptes LocalSystem, NetworkService et LocalService peuvent exécuter un fournisseur découplé.
 
@@ -506,7 +506,7 @@ Cette propriété est héritée de [**\_ \_ Win32Provider**](/windows/desktop/Wm
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une instance de cette classe représente le fournisseur WMI pour les services domaine Active Directory. Ces paramètres par défaut sont les suivants :
 

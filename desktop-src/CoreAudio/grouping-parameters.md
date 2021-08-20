@@ -4,12 +4,12 @@ ms.assetid: 088156f7-fb75-4fcf-b928-87e97b13bdab
 title: Paramètres de regroupement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecfb674d4349f351ce36fe1e236d1ecd3b265d8e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3083c3a7ad0971d6d3334303cf9eaf4c0313c4482825c3623a04a12ae046b665
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018367"
 ---
 # <a name="grouping-parameters"></a>Paramètres de regroupement
 
@@ -26,7 +26,7 @@ Le regroupement des paramètres permet de réduire le nombre de contrôles de vo
 
 Comme expliqué précédemment, les API audio de niveau supérieur attribuent généralement leurs flux à la session par défaut, spécifique au processus (identifiée par la valeur du GUID de session GUID \_ null). Cette valeur par défaut permet à sndvol d’afficher un contrôle de volume distinct pour chaque processus d’application cliente, qui est souvent le comportement souhaité. En outre, si plusieurs instances du même client s’exécutent dans des processus distincts, mais requièrent un seul contrôle de volume partagé, les clients peuvent simplement affecter leurs flux à la même session inter-processus. Aucun de ces cas ne requiert l’utilisation de paramètres de regroupement. Toutefois, un cas important, tel qu’illustré par Microsoft Internet Explorer, requiert l’utilisation de paramètres de regroupement pour obtenir le comportement souhaité.
 
-Internet Explorer permet aux utilisateurs d’ouvrir plusieurs fenêtres de navigateur, et ces fenêtres peuvent ne pas s’exécuter toutes dans le même processus. Les utilisateurs peuvent être déconcertés si sndvol affiche un contrôle de volume distinct pour chaque instance d’application, qui avait la même étiquette, « Internet Explorer ». Une session inter-processus n’est pas une solution faisable dans ce cas. dans ce cas, si plusieurs instances d’Internet Explorer s’exécutent dans des processus différents, elles risquent de ne pas pouvoir attribuer l’ensemble de leurs flux audio à une seule session inter-processus. Cela est dû au fait que les fenêtres Internet Explorer peuvent exécuter des instances du lecteur Windows Media ou d’un autre plug-in multimédia qui utilise une API audio de niveau supérieur pour lire ses flux audio. Ces API attribuent généralement les flux d’un processus à une session par défaut spécifique au processus. Internet Explorer n’a aucun contrôle sur l’affectation de ces flux aux sessions.
+Internet Explorer permet aux utilisateurs d’ouvrir plusieurs fenêtres de navigateur, et ces fenêtres peuvent ne pas s’exécuter toutes dans le même processus. Les utilisateurs peuvent être déconcertés si sndvol affiche un contrôle de volume distinct pour chaque instance d’application, qui avait la même étiquette, « Internet Explorer ». Une session inter-processus n’est pas une solution faisable dans ce cas. dans ce cas, si plusieurs instances d’Internet Explorer s’exécutent dans des processus différents, elles risquent de ne pas pouvoir attribuer l’ensemble de leurs flux audio à une seule session inter-processus. cela est dû au fait que les fenêtres Internet Explorer peuvent exécuter des instances de Lecteur Windows Media ou un autre plug-in multimédia qui utilise une API audio de niveau supérieur pour lire ses flux audio. Ces API attribuent généralement les flux d’un processus à une session par défaut spécifique au processus. Internet Explorer n’a aucun contrôle sur l’affectation de ces flux aux sessions.
 
 WASAPI résout ce problème en permettant à chaque instance d’Internet Explorer d’accéder aux contrôles de session pour sa session par défaut, propre au processus, et d’affecter un paramètre de regroupement à cette session. Si toutes les instances d’Internet Explorer attribuent le même paramètre de regroupement à toutes leurs sessions audio, sndvol affiche un contrôle de volume unique pour ces sessions.
 

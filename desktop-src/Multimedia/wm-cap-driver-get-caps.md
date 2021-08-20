@@ -3,7 +3,7 @@ title: Message WM_CAP_DRIVER_GET_CAPS (VFW. h)
 description: Le \_ message WM Cap \_ Driver to Cap \_ \_ retourne les fonctionnalités matérielles du pilote de capture actuellement connecté à une fenêtre de capture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capDriverGetCaps.
 ms.assetid: 898a800c-1109-47cd-bcc9-cb61d86a4a2e
 keywords:
-- Message WM_CAP_DRIVER_GET_CAPS Windows Multimedia
+- message WM_CAP_DRIVER_GET_CAPS Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 027e530be82c76afebc343ceebe4905daef9b126
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aecc863234cddf64bece47896015fd01e97093d227951aef69363136e55cabe5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687079"
 ---
 # <a name="wm_cap_driver_get_caps-message"></a>Message d’accès aux \_ \_ \_ majuscules du pilote WM Cap \_
 
@@ -56,7 +56,7 @@ Pointeur vers la structure [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-cap
 
 Retourne la **valeur true** en cas de réussite ou **false** si la fenêtre de capture n’est pas connectée à un pilote de capture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctionnalités retournées dans [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) sont constantes pour un pilote de capture donné. Les applications doivent récupérer ces informations une seule fois lorsque le pilote de capture est connecté pour la première fois à une fenêtre de capture.
 

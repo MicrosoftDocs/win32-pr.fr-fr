@@ -1,19 +1,19 @@
 ---
-description: Un fichier d’archive de texte pour une base de données Windows Installer comporte une extension de nom de fichier. IDT.
+description: un fichier d’archive de texte pour une base de données Windows Installer comporte une extension de nom de fichier. idt.
 ms.assetid: 91d81fb2-3a41-477a-85c2-e68bfe482b9c
 title: Format de fichier d’archive
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaf39383b961c305bf621793784332342f369a30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e72c7fe21b547bb5469af00dc9202d90dba3873a7ed86a6db6261a4228097a50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145832"
 ---
 # <a name="archive-file-format"></a>Format de fichier d’archive
 
-Un [fichier d’archive de texte](text-archive-files.md) pour une base de données Windows Installer comporte une extension de nom de fichier. IDT. Lorsqu’une base de données entière est exportée vers des fichiers d’archive, chaque table de la base de données a un fichier. IDT distinct. Si une table contient une colonne de flux, chaque flux de la table est représenté par un fichier avec une extension de nom de fichier. IBD. Les fichiers. IBD sont stockés dans un dossier portant le même nom que la table.
+un [fichier d’archive de texte](text-archive-files.md) pour une base de données Windows Installer comporte une extension de nom de fichier. idt. Lorsqu’une base de données entière est exportée vers des fichiers d’archive, chaque table de la base de données a un fichier. IDT distinct. Si une table contient une colonne de flux, chaque flux de la table est représenté par un fichier avec une extension de nom de fichier. IBD. Les fichiers. IBD sont stockés dans un dossier portant le même nom que la table.
 
 ## <a name="idt-file-format"></a>Format de fichier. IDT
 
@@ -54,7 +54,7 @@ Les définitions de colonne sont indiquées par des caractères.
 -   Le deuxième caractère indique la taille des données de la colonne.
 
     > [!Note]  
-    > La Windows Installer n’utilise pas réellement la taille de colonne spécifiée pour limiter la taille de la chaîne qui peut être entrée dans un champ de colonne de chaîne. Toutefois, certains outils de création utilisent la taille de colonne spécifiée pour limiter la taille d’une chaîne valide. Il est recommandé que les chaînes entrées dans une colonne répondent à l’exigence de taille spécifiée.
+    > la Windows Installer n’utilise pas réellement la taille de colonne spécifiée pour limiter la taille de la chaîne qui peut être entrée dans un champ de colonne de chaîne. Toutefois, certains outils de création utilisent la taille de colonne spécifiée pour limiter la taille d’une chaîne valide. Il est recommandé que les chaînes entrées dans une colonne répondent à l’exigence de taille spécifiée.
 
      
 
@@ -83,7 +83,7 @@ L’exportation d’une table dans un fichier d’archive de texte traduit les c
 | BS                | 27                  | Espace arrière      |
 | HT                | 16                  | Onglet             |
 | CHARIOT                | 25                  | Saut de ligne       |
-| FF                | 24                  | Flux de formulaire       |
+| FF                | 24                  | Saut de page       |
 | CR                | 17                  | Retour chariot |
 
 

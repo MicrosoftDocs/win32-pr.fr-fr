@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5b4bf2a43e762b85b8b8cfd0c15468b3dc438221
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6c5a0813243f3d04a729f000c9e42a1eb1ade6406273a1217ca067d8e2f1c3a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043217"
 ---
 # <a name="idcompositionmatrixtransformsetmatrixelementint-int-idcompositionanimation-method"></a>IDCompositionMatrixTransform :: SetMatrixElement (int, int, IDCompositionAnimation \* ), méthode
 
@@ -31,9 +31,9 @@ Anime la valeur d’un élément de la matrice de cette transformation 2D.
 
 ```C++
 HRESULT SetMatrixElement(
-  [in] int                    row,
-  [in] int                    column,
-  [in] IDCompositionAnimation *animation
+  [in] int                    row,
+  [in] int                    column,
+  [in] IDCompositionAnimation *animation
 );
 ```
 
@@ -68,7 +68,7 @@ Animation qui représente la façon dont la valeur de l’élément spécifié c
 
 Si la fonction est réussie, elle retourne la valeur \_ OK. Sinon, elle retourne un code d’erreur **HRESULT** . Pour obtenir la liste des codes d’erreur, consultez [codes d’erreur DirectComposition](directcomposition-error-codes.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode effectue une copie de l’animation spécifiée. Si l’objet référencé par le paramètre d' *animation* est modifié après l’appel de cette méthode, la modification n’affecte pas l’élément à moins que cette méthode ne soit appelée à nouveau. Si l’élément a été précédemment animé, l’appel de cette méthode remplace l’animation précédente par la nouvelle animation.
 
@@ -81,6 +81,6 @@ Cette méthode échoue si l' *animation* est un pointeur non valide ou si elle n
 [**IDCompositionMatrixTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionmatrixtransform)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

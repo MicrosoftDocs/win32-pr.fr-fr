@@ -6,21 +6,21 @@ keywords:
 - Exemples de Planificateur de tâches Planificateur de tâches, Planificateur de tâches 1,0 exemples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 746c8c44648359f269d61fd27fc57b1fd90932da
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0ea41bbe0679935cd964f61efd52e9fa5b57cc34aab73f3bb1dd09ea64a0f9c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059877"
 ---
 # <a name="task-scheduler-10-examples"></a>Exemples de Planificateur de tâches 1,0
 
 Les exemples de cette section utilisent l’API introduite dans Planificateur de tâches 1,0.
 
 > [!Note]  
-> Pour qu’un ordinateur Windows Server 2003, Windows XP ou Windows 2000 crée, surveille ou contrôle des tâches sur un ordinateur Windows Vista, certaines opérations doivent être effectuées sur l’ordinateur Windows Vista. Pour plus d’informations, consultez l’article [Tâches MSBuild](tasks.md).
+> pour un ordinateur Windows Server 2003, Windows XP ou Windows 2000 pour créer, surveiller ou contrôler des tâches sur un ordinateur Windows vista, certaines opérations doivent être effectuées sur l’ordinateur Windows vista. Pour plus d’informations, consultez l’article [Tâches MSBuild](tasks.md).
 
- 
+ 
 
 Les rubriques suivantes fournissent des exemples qui montrent comment utiliser les fonctions introduites dans Planificateur de tâches 1,0.
 
@@ -43,7 +43,7 @@ Les rubriques suivantes fournissent des exemples qui montrent comment utiliser l
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -52,9 +52,9 @@ Les rubriques suivantes fournissent des exemples qui montrent comment utiliser l
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

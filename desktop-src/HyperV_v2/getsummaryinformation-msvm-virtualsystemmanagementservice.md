@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1399acd40f768fdb857d6a4a26e80a52d29111b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efa879cd3da0f5e8a4cc8cf1e9873390c94a94bae0eef3dd8d36c59c9e1680e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119253649"
 ---
 # <a name="getsummaryinformation-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode GetSummaryInformation de la \_ classe VirtualSystemManagementService MSVM
 
@@ -173,7 +173,7 @@ Cela correspond à la propriété **AllocatedGPU** de la [**classe \_ SummaryInf
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -187,7 +187,7 @@ Cela correspond à la propriété **AllocatedGPU** de la [**classe \_ SummaryInf
 </dt> <dd>
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -484,7 +484,7 @@ Tableau d’instances [**de \_ SummaryInformationBase MSVM**](msvm-summaryinform
 Les propriétés non spécifiées dans le paramètre *RequestedInformation* auront une valeur **null** .
 
 > [!Note]  
-> Type de données mis à jour à partir de dans Windows 10, version 1703 à partir de [**MSVM \_ SummaryInformation**](msvm-summaryinformation.md).
+> type de données mis à jour à partir de dans Windows 10, version 1703 à partir de [**Msvm \_ SummaryInformation**](msvm-summaryinformation.md).
 
  
 
@@ -537,7 +537,7 @@ Le **système n’est pas disponible** (32777)
 **Mémoire insuffisante** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe [**MSVM \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -663,8 +663,8 @@ public class GetSummaryInformationClassV2
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

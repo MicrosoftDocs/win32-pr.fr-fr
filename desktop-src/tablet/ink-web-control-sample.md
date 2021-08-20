@@ -4,12 +4,12 @@ ms.assetid: 7a9e304c-57ef-41a3-83be-2b2d31435da8
 title: Exemple de contrôle Web Ink
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 101537c4cc7b42181cf8d9ff177a5854c5b84054
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8a2f305f1dcbb412325970510c6eaa5f09732bf10d870c961820ab8d8749eda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032197"
 ---
 # <a name="ink-web-control-sample"></a>Exemple de contrôle Web Ink
 
@@ -17,7 +17,7 @@ Cet exemple montre comment créer un contrôle avec prise en charge de l’écri
 
 Pour plus d’informations sur l’utilisation de l’encre sur le Web, voir [Ink on the Web](ink-on-the-web.md).
 
-## <a name="modifications-to-the-original-sample-project"></a>Modifications apportées à l’exemple de projet d’origine
+## <a name="modifications-to-the-original-sample-project"></a>Modifications apportées à l’exemple d’origine Project
 
 Cet exemple se compose d’une solution qui inclut deux projets et un fichier HTML. Le premier projet, réclamation, est un projet de bibliothèque de contrôles Microsoft Visual C \# (un contrôle utilisateur). Le code source de ce contrôle est presque identique à celui de l’exemple autoclaims, à deux différences près :
 
@@ -63,9 +63,9 @@ Notez le format de la valeur de l’attribut ClassID pour la <object> balise. Il
 
 Un contrôle utilisateur réel inclut probablement des méthodes supplémentaires utilisées pour conserver ou envoyer les données collectées dans l’application.
 
-## <a name="the-autoclaims_webcontrol-project"></a>Le projet de contrôle d’un \_ WebControl
+## <a name="the-autoclaims_webcontrol-project"></a>Le Project WebControl de la récupération d’autorevendication \_
 
-Le projet de contrôle de configuration de l' \_ ordinateur virtuel est un projet de déploiement qui crée un programme d’installation qui ajoute une racine virtuelle, \_ le contrôle de l’utilisateur sur le serveur Web lors de l’installation. Le contrôle et le fichier HTML sont placés dans cette racine virtuelle.
+le projet de contrôle de configuration de l’autorevendication \_ est un Project de déploiement qui crée un programme d’installation qui ajoute une racine virtuelle, \_ le contrôle de l’utilisateur sur le serveur Web lors de l’installation. Le contrôle et le fichier HTML sont placés dans cette racine virtuelle.
 
 > [!Note]  
 > Les exemples Web compilés ne sont pas installés par l’option d’installation par défaut pour le kit de développement logiciel (SDK). Vous devez effectuer une installation personnalisée et sélectionner la sous-option « exemples Web précompilés » pour les installer.

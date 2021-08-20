@@ -4,12 +4,12 @@ ms.assetid: 0cc319af-cd0b-4089-928b-cae6c86f6f61
 title: Événement InkRecognizerContext. Recognition (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86da1a7470169f9f978e92a87f3e32f7e63acb42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4f6c4799f3366003d14451a19a7bea19ea35aadcce9226f25f1fe80a14ab19e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966938"
 ---
 # <a name="inkrecognizercontextrecognition-event"></a>Événement InkRecognizerContext. Recognition
 
@@ -61,7 +61,7 @@ Pour plus d’informations sur la structure de la variante, consultez [utilisati
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le comportement de l’interface de programmation d’applications (API) est imprévisible si vous essayez d’accéder à l’objet [**InkRecognizerContext**](inkrecognizercontext-class.md) d’origine à partir du gestionnaire d’événements de reconnaissance. N’essayez pas de le faire. Au lieu de cela, si vous avez besoin de le faire, créez un indicateur et définissez-le dans le gestionnaire d’événements de [reconnaissance](ink-recognition.md) . Vous pouvez ensuite interroger cet indicateur pour déterminer quand modifier les propriétés de **InkRecognizerContext** en dehors du gestionnaire d’événements.
 
@@ -73,7 +73,7 @@ Cette méthode d’événement est définie dans l' \_ interface IInkEvents. L' 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a853d67be282227168da4b90f4fdd47a49d2d212
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b03a90fcd6ee5179a900739c40e78f796c6340d9609f4cfbeb21e6a70156afe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937939"
 ---
 # <a name="glreadpixels-function"></a>glReadPixels fonction)
 
@@ -97,7 +97,7 @@ Format des données de pixels. Les valeurs symboliques suivantes sont acceptées
 *type* 
 </dt> <dd>
 
-Type de données des données de pixels. Doit avoir l’une des valeurs suivantes.
+Type de données des données de pixels. Il doit s’agir de l’une des valeurs suivantes.
 
 
 
@@ -144,7 +144,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | le *format* était \_ le \_ composant de profondeur GL et il n’existait pas de mémoire tampon de profondeur.<br/>                                                          |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glReadPixels** retourne des données de pixels à partir du trame, en commençant par le pixel dont l’angle inférieur gauche se trouve à l’emplacement (*x*, *y*), dans la mémoire du client à partir des *pixels* de l’emplacement. Plusieurs paramètres contrôlent le traitement des données de pixels avant qu’elles ne soient placées dans la mémoire du client. Ces paramètres sont définis avec trois commandes : [**glPixelStore**](glpixelstore-functions.md), [**glPixelTransfer**](glpixeltransfer.md)et [**glPixelMap**](glpixelmap.md). Cette rubrique décrit les effets sur les **glReadPixels** de la plupart des paramètres spécifiés par ces trois commandes.
 
@@ -156,7 +156,7 @@ La dernière étape consiste à convertir les index ou les composants au format 
 
 Si le *format* est le GL \_ rouge, le GL \_ vert, le GL général, le GL \_ \_ alpha, le GL \_ RGB, le GL \_ RVBA, le GL \_ BGR \_ ext, le GL \_ BGRA \_ ext, \_ la luminance du GL ou le type de \_ luminance \_ alpha et le *type* ne sont pas des \_ valeurs GL float, chaque composant est multiplié par le multiplicateur indiqué dans le tableau précédent. Si le type est \_ float float, chaque composant est passé en tant que (ou converti au format à virgule flottante simple précision du client s’il est différent de celui utilisé par OpenGL).
 
-Les valeurs de retour sont placées en mémoire comme suit. Si le *format* est \_ l' \_ index de couleur GL, l' \_ index de stencils GL \_ , le \_ \_ composant de profondeur GL, le GL rouge, le GL de GL, le GL général, le GL \_ \_ \_ \_ alpha ou \_ la luminance du GL, une valeur unique est retournée et les données du *premier* pixel de la ligne *j* sont placées à l’emplacement (*j* )*largeur*  +  *i*. \_Le GL RGB et GL \_ BGR \_ ext renvoient trois valeurs : GL \_ RVBA et GL \_ BGRA \_ ext retournent quatre valeurs, et \_ \_ la luminance alpha du GL retourne deux valeurs pour chaque pixel, avec toutes les valeurs correspondant à un seul pixel occupant de l’espace contigu en *pixels*. Les paramètres de stockage définis par [**glPixelStore**](glpixelstore-functions.md), tels que les \_ octets d’échange de packs GL \_ \_ et \_ les LSB de packs GL \_ \_ , affectent d’abord la façon dont les données sont écrites dans la mémoire. Pour obtenir une description, consultez [**glPixelStore**](glpixelstore-functions.md) .
+Les valeurs de retour sont placées en mémoire comme suit. Si le *format* est \_ l' \_ index de couleur GL, l' \_ index de stencils GL \_ , le \_ \_ composant de profondeur GL, le GL rouge, le GL de GL, le GL général, le GL \_ \_ \_ \_ alpha ou \_ la luminance du GL, une valeur unique est retournée et les données du *premier* pixel de la ligne *j* sont placées à l’emplacement (*j* )*largeur*  +  *i*. \_Le GL RGB et GL \_ BGR \_ ext renvoient trois valeurs : GL \_ RVBA et GL \_ BGRA \_ ext retournent quatre valeurs, et \_ \_ la luminance alpha du GL retourne deux valeurs pour chaque pixel, avec toutes les valeurs correspondant à un seul pixel occupant de l’espace contigu en *pixels*. Stockage paramètres définis par [**glPixelStore**](glpixelstore-functions.md), tels que les \_ octets d’échange de packs gl \_ et les LSB de \_ \_ packs gl \_ \_ , affectent d’abord la façon dont les données sont écrites dans la mémoire. Pour obtenir une description, consultez [**glPixelStore**](glpixelstore-functions.md) .
 
 Les valeurs des pixels qui se trouvent en dehors de la fenêtre connectée au contexte OpenGL actuel ne sont pas définies.
 

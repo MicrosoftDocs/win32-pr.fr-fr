@@ -4,12 +4,12 @@ ms.assetid: 680211de-3f81-4ea7-b03e-741096b5dde0
 title: Mots réservés, en-tête et commentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8879d0dbb518f92f0d8a6c38793ab315ae48b73e
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: f583084b3faa4777a5fe6031cc247fdb99c27cc1fb23c6a5676e60afe00aba20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044278"
 ---
 # <a name="reserved-words-header-and-comments"></a>Mots réservés, en-tête et commentaires
 

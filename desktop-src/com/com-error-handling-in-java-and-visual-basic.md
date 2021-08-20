@@ -4,16 +4,16 @@ description: Gestion des erreurs COM dans Java et Visual Basic
 ms.assetid: 1130a038-3c18-4530-a6d7-9f538352297f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11c55c1c2414c69ff9398845858baadebd58cbf9
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 1ba8e179ca3e7a1d57fdae63e8ad20d14a6fff358fab1fff24bfe7ae8df185d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048517"
 ---
 # <a name="com-error-handling-in-java-and-visual-basic"></a>Gestion des erreurs COM dans Java et Visual Basic
 
-Il existe trois interfaces et trois fonctions qui peuvent être utilisées dans COM pour assurer la gestion des erreurs lors de la programmation en Java ou Microsoft Visual Basic. En Java et Visual Basic, l’appel de méthode ne retourne pas de valeur **HRESULT** comme valeur de retour. Au lieu de cela, ces langages utilisent les interfaces et les fonctions COM pour obtenir des valeurs **HRESULT** et pour gérer les erreurs ou les exceptions. (Les exceptions sont des événements qui se trouvent au-delà du contrôle du programme, tels que des problèmes de fichier ou des paramètres non valides.)
+Il existe trois interfaces et trois fonctions qui peuvent être utilisées dans COM pour assurer la gestion des erreurs lors de la programmation en Java ou Microsoft Visual Basic. en Java et Visual Basic, l’appel de méthode ne retourne pas de valeur **HRESULT** comme valeur de retour. Au lieu de cela, ces langages utilisent les interfaces et les fonctions COM pour obtenir des valeurs **HRESULT** et pour gérer les erreurs ou les exceptions. (Les exceptions sont des événements qui se trouvent au-delà du contrôle du programme, tels que des problèmes de fichier ou des paramètres non valides.)
 
 Les trois interfaces qui assurent la prise en charge de **HRESULT** s sont répertoriées et décrites brièvement dans le tableau suivant.
 

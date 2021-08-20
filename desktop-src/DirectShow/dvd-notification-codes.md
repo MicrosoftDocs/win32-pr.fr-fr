@@ -4,18 +4,18 @@ ms.assetid: c028918e-aba2-49b2-a6ce-c620ab38b558
 title: Codes de notification des événements DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e15172e8eba3da048e7c7704a90d7992fa21714a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 717c260c84a1038860ee04f46db6224025b7709c3ad039e7625a48ae6359cc05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106527587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686449"
 ---
 # <a name="dvd-event-notification-codes"></a>Codes de notification des événements DVD
 
 Cette section répertorie les codes de notification d’événement pour la lecture et la navigation sur DVD dans DirectShow.
 
-Pour plus d’informations sur la réception d’événements dans DirectShow, consultez [notification d’événements dans DirectShow](event-notification-in-directshow.md).
+pour plus d’informations sur la réception d’événements dans DirectShow, consultez [Notification d’événements dans DirectShow](event-notification-in-directshow.md).
 
 Pour les autres codes d’événement non-DVD, consultez [codes de notification d’événement](event-notification-codes.md).
 

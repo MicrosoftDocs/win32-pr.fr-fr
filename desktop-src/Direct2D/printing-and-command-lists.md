@@ -4,12 +4,12 @@ description: Le contrôle d’impression Direct2D \ 32 ; est un nouveau composa
 ms.assetid: C51ACCDE-B205-4F79-A2FD-D112BAAD1616
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b6beb16a24c972016686e2dffe915a947128a63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: de0026071ce8e78fc2ea946e0fffff2993e32ab48a2a20d4de6cdb12ca9b1eaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075046"
 ---
 # <a name="printing-and-command-lists"></a>Impression et listes de commandes
 
@@ -27,11 +27,11 @@ Pour imprimer avec [Direct2D](./direct2d-portal.md), vous devez préparer une li
 Le diagramme ici illustre l’interaction entre l’application, le contexte de périphérique, la cible bitmap, la cible de la liste de commandes et le contrôle d’impression.
 
 > [!Note]  
-> Les Sub-System d’impression Windows et les composants d’imprimante sont grisés, car ils sont complètement masqués dans les applications [Direct2D](./direct2d-portal.md) .
+> les Windows d’impression Sub-System et les composants d’imprimante sont en gris, car ils sont complètement masqués dans les applications [Direct2D](./direct2d-portal.md) .
 
 ![diagramme qui montre comment le commandlist et l’impression interagissent avec une application et Direct2D.](images/d2dprintcontroldiagram.png)
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 Le processus complet d’impression du contenu Direct2D comprend les étapes suivantes.
 

@@ -4,32 +4,32 @@ description: Maintenance automatique
 ms.assetid: D3B61105-D118-42A4-8F3D-ED92EFAF597F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 320625fa0ac8e56368396a7f1be88def0ac3c526
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: d4a839191d84f3f20fcc598b42433c888b090b2b174dd6891c0b5b9fc72f0af5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104463838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028867"
 ---
 # <a name="automatic-maintenance"></a>Maintenance automatique
 
 ## <a name="platforms"></a>Plateformes
 
 **Clients** – Windows 8  
-**Serveurs** – Windows Server 2012  
+**serveurs** – Windows Server 2012  
 
 
 ## <a name="description"></a>Description
 
-Windows dépend de l’exécution de la boîte de réception et de l’activité de maintenance d’un tiers pour une grande partie de sa valeur ajoutée, y compris Windows Update et la défragmentation automatique des disques, ainsi que des mises à jour et des analyses antivirus. En outre, les entreprises utilisent fréquemment des activités de maintenance telles que l’analyse de la protection d’accès réseau (NAP) pour renforcer l’application des normes de sécurité sur toutes les stations de travail d’entreprise.
+Windows dépend de l’exécution de la boîte de réception et de l’activité de maintenance tierce pour une grande partie de sa valeur ajoutée, y compris Windows Update et la défragmentation automatique des disques, ainsi que des mises à jour et des analyses antivirus. En outre, les entreprises utilisent fréquemment des activités de maintenance telles que l’analyse de la protection d’accès réseau (NAP) pour renforcer l’application des normes de sécurité sur toutes les stations de travail d’entreprise.
 
-L’activité de maintenance dans Windows est conçue pour s’exécuter en arrière-plan avec une interaction utilisateur limitée et un impact minimal sur les performances et l’efficacité énergétique. Toutefois, dans Windows 7 et les versions antérieures, les performances et l’efficacité énergétique sont toujours affectées en raison de la planification non déterministe et très variée des diverses activités de maintenance dans Windows. La réactivité des utilisateurs est réduite lors de l’exécution de l’activité de maintenance pendant que les utilisateurs utilisent l’ordinateur activement. Les applications demandent également souvent à l’utilisateur de mettre à jour ses logiciels et d’exécuter une maintenance en arrière-plan, et de diriger les utilisateurs vers plusieurs expériences, notamment le centre de maintenance, le panneau de configuration, Windows Update, Planificateur de tâches composant logiciel enfichable MMC et les contrôles tiers.
+l’activité de Maintenance dans Windows est conçue pour s’exécuter en arrière-plan avec une interaction utilisateur limitée et un impact minimal sur les performances et l’efficacité énergétique. toutefois, dans Windows 7 et les versions antérieures, l’efficacité des performances et de l’énergie est toujours affectée en raison de la planification non déterministe et très variée des diverses activités de maintenance dans Windows. La réactivité des utilisateurs est réduite lors de l’exécution de l’activité de maintenance pendant que les utilisateurs utilisent l’ordinateur activement. les applications demandent également souvent à l’utilisateur de mettre à jour ses logiciels et d’exécuter une maintenance en arrière-plan, et de diriger les utilisateurs vers plusieurs expériences, notamment le centre de maintenance, le panneau de configuration, Windows Update, Planificateur de tâches composant logiciel enfichable MMC et les contrôles tiers.
 
-L’objectif de la maintenance automatique consiste à combiner toutes les activités de maintenance en arrière-plan dans Windows et à aider les développeurs tiers à ajouter leur activité de maintenance à Windows sans avoir d’impact négatif sur les performances et l’efficacité énergétique. En outre, la maintenance automatique permet aux utilisateurs et aux entreprises de contrôler la planification et la configuration des activités de maintenance.
+l’objectif de la maintenance automatique consiste à combiner toutes les activités de maintenance en arrière-plan dans Windows et à aider les développeurs tiers à ajouter leur activité de maintenance à Windows sans nuire aux performances et à l’efficacité énergétique. En outre, la maintenance automatique permet aux utilisateurs et aux entreprises de contrôler la planification et la configuration des activités de maintenance.
 
 **Problèmes clés**
 
-La maintenance automatique est conçue pour résoudre ces problèmes liés à l’activité de maintenance dans Windows :
+La maintenance automatique est conçue pour résoudre les problèmes liés à l’activité de maintenance dans Windows :
 
 -   Planification de l’échéance
 -   Conflits d’utilisation des ressources
@@ -38,7 +38,7 @@ La maintenance automatique est conçue pour résoudre ces problèmes liés à l�
 
 ## <a name="functionality"></a>Fonctionnalités
 
-La maintenance automatique facilite l’efficacité inactive et autorise l’exécution de toute l’activité en temps opportun et par ordre de priorité. Il permet également de bénéficier d’une visibilité et d’un contrôle unifiés sur l’activité de maintenance, et permet aux développeurs tiers d’ajouter leur activité de maintenance à Windows sans avoir un impact négatif sur les performances et l’efficacité énergétique. Pour ce faire, il fournit un mode entièrement automatique, un mode initié par l’utilisateur, un arrêt automatique, des échéances et des notifications, ainsi qu’un contrôle d’entreprise. Celles-ci sont décrites ci-dessous.
+La maintenance automatique facilite l’efficacité inactive et autorise l’exécution de toute l’activité en temps opportun et par ordre de priorité. il permet également de bénéficier d’une visibilité et d’un contrôle unifiés sur l’activité de maintenance, et permet aux développeurs tiers d’ajouter leur activité de maintenance à Windows sans avoir un impact négatif sur les performances et l’efficacité énergétique. Pour ce faire, il fournit un mode entièrement automatique, un mode initié par l’utilisateur, un arrêt automatique, des échéances et des notifications, ainsi qu’un contrôle d’entreprise. Celles-ci sont décrites ci-dessous.
 
 **Mode entièrement automatique**
 
@@ -59,15 +59,15 @@ La maintenance automatique arrête automatiquement les activités de maintenance
 > [!Note]  
 > Toutes les activités de maintenance automatique doivent prendre en charge l’arrêt en moins de 2 secondes. L’utilisateur doit être informé que l’activité a été arrêtée.
 
- 
+ 
 
 **Échéances et notification**
 
 L’activité de maintenance critique doit s’exécuter dans une fenêtre de temps prédéfinie. Si les tâches critiques n’ont pas pu s’exécuter dans le délai imparti, la maintenance automatique démarrera automatiquement à la prochaine occasion d’inactivité du système disponible. Toutefois, si l’état de la tâche reste en retard, la maintenance automatique avertit l’utilisateur de l’activité et fournit une option pour une exécution manuelle de la maintenance automatique. Toutes les tâches planifiées pour la maintenance sont exécutées, bien que les tâches les plus dépendantes soient prioritaires. Cette activité peut avoir un impact sur la réactivité et les performances du système ; par conséquent, la maintenance automatique informe l’utilisateur que l’activité de maintenance critique est en cours d’exécution.
 
-**Contrôle d’entreprise**
+**contrôle Enterprise**
 
-Les professionnels de l’informatique d’entreprise doivent être en mesure de déterminer le moment où la maintenance automatique s’exécute sur leurs systèmes Windows, d’appliquer cette planification via des interfaces de gestion standardisées et de récupérer les données d’événement sur l’état des tentatives d’exécution de maintenance automatique. En outre, les professionnels de l’informatique doivent être en mesure d’appeler une activité de maintenance automatique spécifique à distance via des interfaces de gestion standard. Chaque fois que la maintenance automatique s’exécute, rapport d’État, y compris les notifications lorsque la maintenance automatique n’a pas pu être exécutée parce que l’utilisateur a suspendu manuellement l’activité, s’exécute. Les professionnels de l’informatique doivent envisager de déplacer les scripts d’ouverture de session vers la maintenance automatique pour faciliter l’expérience d’ouverture de session de l’utilisateur.
+Enterprise les professionnels de l’informatique doivent être en mesure de déterminer le moment où la Maintenance automatique s’exécute sur leurs systèmes de Windows, d’appliquer cette planification via des interfaces de gestion standardisées et de récupérer les données d’événement sur l’état des tentatives d’exécution de Maintenance automatique. En outre, les professionnels de l’informatique doivent être en mesure d’appeler une activité de maintenance automatique spécifique à distance via des interfaces de gestion standard. Chaque fois que la maintenance automatique s’exécute, rapport d’État, y compris les notifications lorsque la maintenance automatique n’a pas pu être exécutée parce que l’utilisateur a suspendu manuellement l’activité, s’exécute. Les professionnels de l’informatique doivent envisager de déplacer les scripts d’ouverture de session vers la maintenance automatique pour faciliter l’expérience d’ouverture de session de l’utilisateur.
 
 ## <a name="creating-an-automatic-maintenance-task"></a>Création d’une tâche de maintenance automatique
 
@@ -123,7 +123,7 @@ Planificateur de tâches comprend un outil en ligne de commande intégré, schta
 
 
 
-Pour enregistrer la tâche sur un ordinateur Windows, enregistrez le XML ci-dessus en tant que fichier texte et utilisez la ligne de commande suivante :
+pour enregistrer la tâche sur un ordinateur Windows, enregistrez le XML ci-dessus en tant que fichier texte et utilisez la ligne de commande suivante :
 
 `Schtasks.exe /create /tn <task name> /xml <text file name>`
 
@@ -422,6 +422,6 @@ Exécutez cette ligne de commande pour lancer la tâche et vérifier que l’int
 
 -   [Planification de la tâche 2,0](/previous-versions/bb756979(v=msdn.10))
 
- 
+ 
 
- 
+ 

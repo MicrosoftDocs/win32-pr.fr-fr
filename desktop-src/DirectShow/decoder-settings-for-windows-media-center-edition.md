@@ -1,17 +1,17 @@
 ---
-description: Paramètres du décodeur pour Windows Media Center Edition
+description: décodeur Paramètres pour Windows édition Media Center
 ms.assetid: 019b063f-f215-44d8-a916-3125bee6af93
-title: Paramètres du décodeur pour Windows Media Center Edition
+title: décodeur Paramètres pour Windows édition Media Center
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2f66b5107fa0316f6ce2547e1f5f066165ed598
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: cfc373f2ea58bc169748ff42841650cf979822014e579a78459e47da5c694814
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106527041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953158"
 ---
-# <a name="decoder-settings-for-windows-media-center-edition"></a>Paramètres du décodeur pour Windows Media Center Edition
+# <a name="decoder-settings-for-windows-media-center-edition"></a>décodeur Paramètres pour Windows édition Media Center
 
 Windows XP Media Center Edition 2005 et versions ultérieures utilise l’interface [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) pour configurer le filtre de décodeur audio pour la télévision et la lecture de DVD. Les propriétés suivantes sont prises en charge.
 
@@ -25,7 +25,7 @@ Windows XP Media Center Edition 2005 et versions ultérieures utilise l’interf
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de la \_ \_ propriété format de sortie audio CODECAPI \_ est une représentation sous forme de chaîne d’un GUID, stockée en tant que valeur **BSTR** . Les GUID suivants sont définis.
 

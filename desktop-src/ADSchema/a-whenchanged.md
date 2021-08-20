@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7c3608a33aa5d5ac52b226cd7a3d94ff0b95520
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1f90dcfa593099c08a6f74933211a5eff6f0fda28a6440d1f89b223905fd6032
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081233"
 ---
 # <a name="when-changed-attribute"></a>Attribut When-Changed
 
@@ -46,7 +46,7 @@ Date à laquelle cet objet a été modifié pour la dernière fois. Cette valeur
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

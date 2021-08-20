@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: fa7f0430631082a9690cf2083f6b075ca62ee26b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 478b4617f56c73e425d833842b313767f85c385e9142314a7ca8978b5783f492
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950228"
 ---
 # <a name="msvm_storagealert-class"></a>MSVM \_ StorageAlert, classe
 
@@ -172,7 +172,7 @@ Tableau qui contient le contenu dynamique du message. Si la valeur de **MessageI
 
 </dd> <dt>
 
-**ID**
+**MessageID**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -183,7 +183,7 @@ Type d'accès : Lecture seule
 
 Identifie de façon unique, dans l’étendue de la propriété **OwningEntity** , le format de la propriété de **message** . Les valeurs possibles pour cette propriété sont :
 
-32930 (message « volume de débit (QoS) du pool de stockage insuffisant »)
+32930 (« Message de débit insuffisant QoS du Pool Stockage »)
 
 </dd> <dt>
 
@@ -211,7 +211,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Identifie de façon unique l’entité qui possède la définition du format du **message** décrit dans cette instance. La valeur de cette propriété est toujours « Microsoft-Windows-Hyper-V ».
+Identifie de façon unique l’entité qui possède la définition du format du **message** décrit dans cette instance. la valeur de cette propriété est toujours « Microsoft-Windows-Hyper-V ».
 
 « Microsoft-Windows-Hyper-V »
 
@@ -251,7 +251,7 @@ Décrit la cause probable de la situation qui a entraîné l’indication de l�
 
 <dl> <dt>
 
-<span id="Storage_Capacity_Problem"></span><span id="storage_capacity_problem"></span><span id="STORAGE_CAPACITY_PROBLEM"></span>**Problème de capacité de stockage** (50)
+<span id="Storage_Capacity_Problem"></span><span id="storage_capacity_problem"></span><span id="STORAGE_CAPACITY_PROBLEM"></span>**Stockage problème de capacité** (50)
 </dt> <dt>
 
 <span id="Previous_Alert_Cleared"></span><span id="previous_alert_cleared"></span><span id="PREVIOUS_ALERT_CLEARED"></span>**Alerte précédente effacée** (59)
@@ -272,11 +272,11 @@ Description textuelle qui correspond à la valeur de la propriété **ProbableCa
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fournisseur WMI Hyper-V ne déclenche pas d’événements pour des disques virtuels individuels afin d’éviter d’inonder les clients avec des événements en cas de dysfonctionnements à grande échelle des systèmes de stockage sous-jacents.
 
-Lorsqu’un client reçoit un événement **MSVM \_ StorageAlert** , si la valeur de la propriété **ProbableCause** est 50 (problème de capacité de stockage), le client peut détecter les disques virtuels qui fonctionnent en dehors de leur stratégie de QoS à l’aide de l’une des procédures suivantes :
+lorsqu’un client reçoit un événement **Msvm \_ StorageAlert** , si la valeur de la propriété **ProbableCause** est 50 (Stockage problème de capacité), le client peut détecter les disques virtuels qui fonctionnent en dehors de leur stratégie de QoS à l’aide de l’une des procédures suivantes :
 
 -   Interrogez toutes les instances de [**\_ disque logique MSVM**](msvm-logicaldisk.md) allouées à partir du pool de ressources pour lequel l’événement a été généré. Ces instances de **\_ disque logique MSVM** sont associées au pool de ressources via l’Association [**MSVM \_ ElementAllocatedFromPool**](msvm-elementallocatedfrompool.md) .
 -   Filtrez la liste des résultats en sélectionnant les instances dont OperationalStatus contient un débit insuffisant.
@@ -288,7 +288,7 @@ Lorsqu’un client reçoit un événement **MSVM \_ StorageAlert** , si la valeu
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

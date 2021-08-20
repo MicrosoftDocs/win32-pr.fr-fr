@@ -21,12 +21,12 @@ keywords:
 - référence pour OpenGL, fonctions de maillage à deux dimensions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6198210a5aaedd8f67e3a180b5a2acbed98a2d40
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43bc03268cd65c607cf9fe09c157fc7a5302d7e6be1b615ff49b8554892b9acb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938462"
 ---
 # <a name="glmapgrid-functions"></a>glMapGrid, fonctions
 
@@ -37,9 +37,9 @@ Ces fonctions définissent un maillage unidimensionnel ou à deux dimensions :
 -   [**glMapGrid2d**](glmapgrid2d.md)
 -   [**glMapGrid2f**](glmapgrid2f.md)
 
- 
+ 
 
- 
+ 
 
 
 

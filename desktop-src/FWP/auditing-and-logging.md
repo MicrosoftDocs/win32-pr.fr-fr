@@ -1,19 +1,19 @@
 ---
 title: Audit
-description: La plateforme de filtrage Windows (WFP) permet d’auditer les événements liés aux pare-feu et IPsec.
+description: Windows La plateforme de filtrage (WFP) permet d’auditer les événements liés aux pare-feu et IPsec.
 ms.assetid: 30ff9cf7-bf93-4979-bacd-d76e5dadbef6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cef1d4fee81afc366a987575935c1de8880092c
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 854841685bab015fc0b9a4bc985762df46a7f0c89eae3d38b4b63e081107b70b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "103941533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015407"
 ---
 # <a name="auditing"></a>Audit
 
-La plateforme de filtrage Windows (WFP) permet d’auditer les événements liés au pare-feu et à IPsec. Ces événements sont stockés dans le journal de sécurité système.
+la plateforme de filtrage de Windows (WFP) permet d’auditer les événements liés aux pare-feu et IPsec. Ces événements sont stockés dans le journal de sécurité système.
 
 Les événements audités sont les suivants :
 
@@ -150,8 +150,8 @@ Par exemple, pour activer l’audit des événements de modification de stratég
     1.  Exécutez **gpedit. msc**.
     2.  Développez stratégie de l’ordinateur local.
     3.  Développez Configuration de l’ordinateur.
-    4.  Développez Paramètres Windows.
-    5.  Développez Paramètres de sécurité.
+    4.  développez Windows Paramètres.
+    5.  développez Paramètres de sécurité.
     6.  Développez Stratégies locales.
     7.  Cliquez sur stratégie d’audit.
     8.  Double-cliquez sur auditer la modification de la stratégie pour lancer la boîte de dialogue Propriétés.

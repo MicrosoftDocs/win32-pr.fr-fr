@@ -1,19 +1,19 @@
 ---
-description: Les développeurs de packages de Windows Installer peuvent choisir d’utiliser un type d’action personnalisé 53 quand les actions standard sont insuffisantes pour exécuter l’installation.
+description: les développeurs de packages de Windows Installer peuvent choisir d’utiliser un type d’action personnalisé 53 quand les actions standard sont insuffisantes pour exécuter l’installation.
 ms.assetid: d024c73e-c2dc-4187-a8ae-ed96dc7c107e
 title: Type d’action personnalisé 53
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a016d3b3f5a282567b909215d6ab7b32759417
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 776b78c2dbc8aa233175eeacfa8d16521968dfceeb6b97504e639946c6284b84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947890"
 ---
 # <a name="custom-action-type-53"></a>Type d’action personnalisé 53
 
-Cette action personnalisée est écrite en JScript, telle que l’ECMA 262. Windows Installer ne prend pas en charge JScript 1,0. Pour plus d’informations, consultez [scripts](scripts.md).
+cette action personnalisée est écrite en JScript, par exemple ECMA 262. Windows le programme d’installation ne prend pas en charge JScript 1,0. Pour plus d’informations, consultez [scripts](scripts.md).
 
 ## <a name="source"></a>Source
 
@@ -33,7 +33,7 @@ Incluez la valeur suivante dans la colonne type de la [table CustomAction](custo
 
  
 
-Windows Installer pouvez utiliser des actions personnalisées 64 bits sur les systèmes d’exploitation 64 bits. Une action personnalisée 64 bits basée sur des scripts doit inclure le bit **msidbCustomActionType64BitScript** dans son type numérique. Pour plus d’informations [, consultez actions personnalisées 64 bits](64-bit-custom-actions.md). Incluez la valeur suivante dans la colonne type de la [table CustomAction](customaction-table.md) pour spécifier le type numérique de base d’une action personnalisée 64 bits.
+Windows Le programme d’installation peut utiliser des actions personnalisées 64 bits sur les systèmes d’exploitation 64 bits. Une action personnalisée 64 bits basée sur des scripts doit inclure le bit **msidbCustomActionType64BitScript** dans son type numérique. Pour plus d’informations [, consultez actions personnalisées 64 bits](64-bit-custom-actions.md). Incluez la valeur suivante dans la colonne type de la [table CustomAction](customaction-table.md) pour spécifier le type numérique de base d’une action personnalisée 64 bits.
 
 
 
@@ -63,11 +63,11 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la [table Cu
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Les fonctions facultatives écrites dans le script doivent retourner l’une des valeurs décrites dans les [valeurs de retour des actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md).
+les fonctions facultatives écrites dans le script doivent retourner l’une des valeurs décrites dans [valeurs de retour des Actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Une action personnalisée écrite en JScript requiert l’objet de [**session**](session-object.md) d’installation. Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration d’installation, une action personnalisée différée écrite dans un script utilise l’une des méthodes décrites dans [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md).
+une action personnalisée écrite en JScript nécessite l’objet de [**Session**](session-object.md) d’installation. Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration d’installation, une action personnalisée différée écrite dans un script utilise l’une des méthodes décrites dans [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

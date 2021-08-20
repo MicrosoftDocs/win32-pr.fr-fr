@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 5aef9a70897f5a8a46f9c966242d8842c54f9946
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7dac10cb5f648cc7281d95bcd83be9983a63abd76208f6f745e1bd6c5ec00b42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956538"
 ---
 # <a name="ntgdiddcreatesurfaceobject-function"></a>NtGdiDdCreateSurfaceObject fonction)
 
@@ -117,7 +117,7 @@ Créez l’objet, mais ne configurez pas de données internes telles que le poin
 
 En cas de réussite, cette fonction retourne un handle vers la représentation sous forme de surface en mode noyau. Sinon, elle retourne la **valeur null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est recommandé aux applications d’utiliser les API DirectDraw et [Direct3D](../direct3d10/d3d10-graphics-reference.md) pour créer et gérer des objets d’appareils graphiques. Ces constructions résument le processus de création d’appareils de façon simplifiée et indépendante du système d’exploitation.
 

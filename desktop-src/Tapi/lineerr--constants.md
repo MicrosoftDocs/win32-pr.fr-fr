@@ -4,12 +4,12 @@ ms.assetid: bdaf60d1-6ff2-4bd6-b246-8556d6cae644
 title: Constantes LINEERR_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ed7757377d26dbde832b7ef50f275b45e21760d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de8e362e942f7819b0e15fcd7e8359c308e931868d57cc9da84acd62fe9e531d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119254633"
 ---
 # <a name="lineerr_-constants"></a>\_Constantes LINEERR
 
@@ -1047,7 +1047,7 @@ La chaîne contenant les informations utilisateur-utilisateur dépasse le nombre
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs 0xC0000000 à 0xFFFFFFFF sont disponibles pour les extensions spécifiques à l’appareil. Les valeurs 0x80000000 à 0xBFFFFFFF sont réservées, tandis que 0x00000000 à 0x7FFFFFFF sont utilisées en tant qu’identificateurs de demande.
 

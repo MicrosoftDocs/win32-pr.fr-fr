@@ -1,5 +1,5 @@
 ---
-description: Permet à un client de gérer les paramètres de quota de disque global d’un volume NTFS. Cet objet rend les fonctionnalités essentielles de l’interface DIDiskQuotaUser disponibles pour les scripts et les applications basées sur Microsoft Visual Basic.
+description: Permet à un client de gérer les paramètres de quota de disque global d’un volume NTFS. cet objet rend les fonctionnalités essentielles de l’interface DIDiskQuotaUser disponibles pour les scripts et les applications basées sur Microsoft Visual Basic.
 title: Objet DIDiskQuotaUser
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 0cdf3293-3dcf-44e7-a80d-4eacf9d09fbf
-ms.openlocfilehash: b370056f40320561a38b1f77fbcf9a53ee35686a
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 65d8397ed07fc3ebab9fd4846b008f97c1b7e756366118314b978f94b64c8636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032807"
 ---
 # <a name="didiskquotauser-object"></a>Objet DIDiskQuotaUser
 
-Permet à un client de gérer les paramètres de quota de disque global d’un volume NTFS. Cet objet rend les fonctionnalités essentielles de l’interface **DIDiskQuotaUser** disponibles pour les scripts et les applications basées sur Microsoft Visual Basic.
+Permet à un client de gérer les paramètres de quota de disque global d’un volume NTFS. cet objet rend les fonctionnalités essentielles de l’interface **DIDiskQuotaUser** disponibles pour les scripts et les applications basées sur Microsoft Visual Basic.
 
 ## <a name="members"></a>Membres
 
@@ -56,7 +56,7 @@ L’objet **DIDiskQuotaUser** a ces propriétés.
 | [**AccountContainerName**](didiskquotauser-accountcontainername.md)<br/> | Lecture seule<br/>  | Obtient le nom du conteneur de compte de l’utilisateur.<br/>                                            |
 | [**AccountStatus**](didiskquotauser-accountstatus.md)<br/>               | Lecture seule<br/>  | Obtient l’état du compte de l’utilisateur.<br/>                                                    |
 | [**NomComplet**](didiskquotauser-displayname.md)<br/>                   | Lecture seule<br/>  | Obtient le nom complet de l’utilisateur.<br/>                                                             |
-| [**ID**](didiskquotauser-id.md)<br/>                                     | Lecture seule<br/>  | Obtient un ID qui identifie de façon unique l’utilisateur.<br/>                                             |
+| [**IDENTIFI**](didiskquotauser-id.md)<br/>                                     | Lecture seule<br/>  | Obtient un ID qui identifie de façon unique l’utilisateur.<br/>                                             |
 | [**LogonName**](didiskquotauser-logonname.md)<br/>                       | Lecture seule<br/>  | Obtient le nom du compte d’ouverture de session de l’utilisateur.<br/>                                                       |
 | [**QuotaLimit**](didiskquotauser-quotalimit.md)<br/>                     | Lecture/écriture<br/> | Définit ou obtient la [**limite de quota**](diskquotacontrol-object.md)actuelle de l’utilisateur.<br/>           |
 | [**QuotaLimitText**](didiskquotauser-quotalimittext.md)<br/>             | Lecture seule<br/>  | Obtient la [**limite de quota**](diskquotacontrol-object.md) actuelle de l’utilisateur sous la forme d’une chaîne de texte. <br/> |
@@ -69,7 +69,7 @@ L’objet **DIDiskQuotaUser** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque utilisateur sur le volume qui est géré par l’objet [**DiskQuotaControl**](diskquotacontrol-object.md) est associé à un objet **DIDiskQuotaUser** . Cet objet permet à un client de gérer les paramètres d’un utilisateur individuel. Il existe plusieurs façons d’obtenir l’objet **DIDiskQuotaUser** d’un utilisateur :
 
@@ -79,11 +79,11 @@ Chaque utilisateur sur le volume qui est géré par l’objet [**DiskQuotaContro
 
 ### <a name="enumerating-disk-quota-users"></a>Énumération des utilisateurs du quota de disque
 
-Les objets **DIDiskQuotaUser** pour tous les utilisateurs avec un quota sur le volume sont exposés en tant que collection. L’objet [**DiskQuotaControl**](diskquotacontrol-object.md) exporte une méthode d’énumérateur standard qui vous permet d’énumérer la collection d’objets **DIDiskQuotaUser** . La procédure suivante montre comment effectuer l’énumération avec Microsoft JScript (compatible avec la spécification du langage ECMA 262). Vous pouvez utiliser une procédure similaire avec Visual Basic ou Microsoft Visual Basic Scripting Edition (VBScript).
+Les objets **DIDiskQuotaUser** pour tous les utilisateurs avec un quota sur le volume sont exposés en tant que collection. L’objet [**DiskQuotaControl**](diskquotacontrol-object.md) exporte une méthode d’énumérateur standard qui vous permet d’énumérer la collection d’objets **DIDiskQuotaUser** . la procédure suivante montre comment effectuer l’énumération avec Microsoft JScript (compatible avec la spécification du langage ECMA 262). vous pouvez utiliser une procédure similaire avec Visual Basic ou Microsoft Visual Basic scripting Edition (VBScript).
 
 1.  Créez un nouvel objet [**DiskQuotaControl**](diskquotacontrol-object.md) .
 2.  Initialisez-le avec [**Initialize**](diskquotacontrol-initialize.md).
-3.  Créez un nouvel objet **énumérateur** JScript.
+3.  créez un nouvel objet **énumérateur** JScript.
 4.  Utilisez une boucle **for** pour énumérer les objets **DIDiskQuotaUser** . Il n’est pas nécessaire de définir une valeur de départ. La méthode **MoveNext** de l’objet Enumerator indique à la méthode **Item** de retourner l’objet **DIDiskQuotaUser** suivant. La méthode **atEnd** retourne la **valeur false** lorsque vous atteignez la fin de la liste.
 5.  Si nécessaire, utilisez l’objet **DIDiskQuotaUser** retourné par la méthode **Item** de l’énumérateur pour récupérer ou définir une ou plusieurs des propriétés de quota de disque de l’utilisateur associé.
 
@@ -114,7 +114,7 @@ function EnumUsers(Volume_Label)
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

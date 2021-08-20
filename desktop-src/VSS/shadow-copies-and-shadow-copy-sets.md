@@ -4,12 +4,12 @@ ms.assetid: 8ef2478a-c8bc-4517-9a14-e1d9226ec4cd
 title: Clichés instantanés et jeux de clichés instantanés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18709842b1fb0fbf6d6cce2557b51042dfb024ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 764478c371cf4a622612865ef7a529955780d82847125874253533d331c195f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998152"
 ---
 # <a name="shadow-copies-and-shadow-copy-sets"></a>Clichés instantanés et jeux de clichés instantanés
 
@@ -26,7 +26,7 @@ Cela permet à deux ensembles d’activités d’avoir lieu en même temps :
 
 Les clichés instantanés ne doivent pas être implémentés de la même façon pour chaque fichier, répertoire ou volume. Différentes implémentations du mécanisme de cliché instantané ([*fournisseurs*](vssgloss-p.md)) peuvent utiliser des approches différentes pour créer un cliché instantané. Toutefois, pour toutes les applications qui utilisent l’API VSS, tous les clichés instantanés doivent être identiques.
 
-Pour plus d’informations sur l’implémentation par défaut du fournisseur Windows, consultez [fournisseur système](providers.md).
+pour plus d’informations sur l’implémentation par défaut du fournisseur Windows, consultez [fournisseur système](providers.md).
 
 ## <a name="default-shadow-copy-state"></a>État du cliché instantané par défaut
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e866090dfb754c11fb4a25bbe904d5922a8fafd6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a23cc8c5c01195429ba126632ed6c888354c66a4bc5d3cede75d28126fbafba7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961738"
 ---
 # <a name="delta-revocation-list-attribute"></a>Attribut Delta-Revocation-List
 
@@ -45,7 +45,7 @@ Liste des certificats qui ont été révoqués depuis la dernière mise à jour 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

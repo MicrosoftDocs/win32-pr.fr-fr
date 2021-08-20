@@ -1,19 +1,19 @@
 ---
-description: Vous trouverez un exemple d’utilisation de requêtes de base de données basées sur des scripts dans le kit de développement logiciel (SDK) Windows Installer, car l’utilitaire WiRunSQL.vbs.
+description: vous trouverez un exemple d’utilisation de requêtes de base de données basées sur des scripts dans le kit de développement logiciel (SDK) Windows Installer, car l’utilitaire WiRunSQL.vbs.
 ms.assetid: aa38dbe5-411d-432e-b3fe-09994fc59c75
-title: Exemples de requêtes de base de données utilisant SQL et script
+title: exemples de requêtes de base de données utilisant des SQL et des scripts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbd839151b40ddd5e9a265c6c370c27a4a9fd125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f137927ba47c4fae5eef4534b7dfab1fa5c8fa1af2ba28d27669cc4605f836b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947057"
 ---
-# <a name="examples-of-database-queries-using-sql-and-script"></a>Exemples de requêtes de base de données utilisant SQL et script
+# <a name="examples-of-database-queries-using-sql-and-script"></a>exemples de requêtes de base de données utilisant des SQL et des scripts
 
-Vous trouverez un exemple d’utilisation de requêtes de base de données basées sur des scripts dans le [Kit de développement logiciel](platform-sdk-components-for-windows-installer-developers.md) (SDK) Windows Installer en tant qu' WiRunSQL.vbs de l’utilitaire. Cet utilitaire gère les requêtes de base de données à l’aide de la version Windows Installer de SQL décrite dans la section [syntaxe SQL](sql-syntax.md).
+vous trouverez un exemple d’utilisation de requêtes de base de données pilotées par des scripts dans le [kit de développement logiciel](platform-sdk-components-for-windows-installer-developers.md) (SDK) Windows pour l’utilitaire WiRunSQL.vbs. cet utilitaire gère les requêtes de base de données à l’aide de la version Windows Installer de SQL décrite dans la section [SQL syntaxe](sql-syntax.md).
 
 **Supprimer un enregistrement d’une table**
 
@@ -51,7 +51,7 @@ Cela insère l’enregistrement suivant dans la table des [fonctionnalités](fea
 
 
 
-| Fonctionnalité | Parent de la fonctionnalité \_ | Intitulé  | Description | Afficher | Level | Répertoire\_ | Attributs |
+| Fonctionnalité | Parent de la fonctionnalité \_ | Titre  | Description | Affichage | Niveau | Répertoire\_ | Attributs |
 |---------|-----------------|--------|-------------|---------|-------|-------------|------------|
 | Tennis  | Sport           | Tennis | Oppos  | 25      | 3     | SPORTDIR    | 2          |
 
@@ -59,7 +59,7 @@ Cela insère l’enregistrement suivant dans la table des [fonctionnalités](fea
 
  
 
-Notez que les données binaires ne peuvent pas être insérées directement dans une table à l’aide de l’instruction INSERT INTO ou de la mise à jour de requêtes SQL. Pour plus d’informations, consultez [Ajout de données binaires à une table à l’aide de SQL](adding-binary-data-to-a-table-using-sql.md).
+notez que les données binaires ne peuvent pas être insérées directement dans une table à l’aide des requêtes INSERT into ou UPDATE SQL. Pour plus d’informations, consultez [Ajout de données binaires à une table à l’aide de SQL](adding-binary-data-to-a-table-using-sql.md).
 
 **Modifier un enregistrement existant dans une table**
 

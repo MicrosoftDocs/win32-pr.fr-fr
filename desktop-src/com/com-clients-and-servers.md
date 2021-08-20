@@ -4,12 +4,12 @@ description: L’un des aspects essentiels de COM est la façon dont les clients
 ms.assetid: 5d1d8613-3087-443d-8547-a767c8ba4959
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d7c3e29e4a4a3e2fcefe1c3473350d3423a8c24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 79d189b464c8e3a32ff378951067275ab29f5fbabc0b2777c2b2226d632a8bfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048657"
 ---
 # <a name="com-clients-and-servers"></a>Clients et serveurs COM
 
@@ -19,12 +19,12 @@ Il existe deux principaux types de serveurs : *in-process* et *out-of-process*.
 
 Les constructions et le modèle de programmation COM ont été étendus pour que les clients et les serveurs COM puissent travailler ensemble sur le réseau, et pas seulement au sein d’un ordinateur donné. Cela permet aux applications existantes d’interagir avec de nouvelles applications et entre elles sur des réseaux avec une administration correcte, et de nouvelles applications peuvent être écrites pour tirer parti des fonctionnalités de mise en réseau.
 
-Les applications clientes COM n’ont pas besoin de savoir comment les objets serveur sont empaquetés, qu’ils soient empaquetés en tant qu’objets in-process (dans des dll) ou en tant qu’objets locaux ou distants (dans les fichiers exe). Le modèle COM distribué permet d’empaqueter des objets en tant qu’applications de service, en synchronisant COM avec les puissantes fonctionnalités d’administration et d’intégration système de Windows.
+Les applications clientes COM n’ont pas besoin de savoir comment les objets serveur sont empaquetés, qu’ils soient empaquetés en tant qu’objets in-process (dans des dll) ou en tant qu’objets locaux ou distants (dans les fichiers exe). Le modèle COM distribué permet d’empaqueter des objets en tant qu’applications de service, en synchronisant COM avec les puissantes fonctionnalités d’intégration d’administration et de système de Windows.
 
 > [!Note]  
 > Dans cette documentation, l’acronyme COM est utilisé de préférence à DCOM. Cela est dû au fait que DCOM n’est pas séparé ; il s’agit simplement de COM avec un câble plus long. Dans les cas où la description est une opération à distance, le terme *com distribué* est utilisé.
 
- 
+ 
 
 COM est conçu pour permettre l’ajout de la prise en charge de la transparence d’emplacement qui s’étend sur un réseau. Il permet aux applications écrites pour des ordinateurs uniques de s’exécuter sur un réseau et fournit des fonctionnalités qui étendent ces fonctionnalités et ajoutent à la sécurité nécessaire dans un réseau. (Pour plus d’informations, consultez [sécurité dans com](security-in-com.md).)
 
@@ -49,9 +49,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Sécurité dans COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

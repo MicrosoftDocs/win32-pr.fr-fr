@@ -6,12 +6,12 @@ keywords:
 - IP4_ADDRESS
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2caa113670a749029b70df9772d6e2707684b7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81756daaff73e7d5afc1b7c749cd976a9ede09d74ae70eb7db05d9e5d12f2f62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076863"
 ---
 # <a name="dns-data-types"></a>Types de données DNS
 
@@ -39,8 +39,8 @@ Valeur qui représente une adresse IPv4 (Internet Protocol version 4). Par exemp
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Windns. h</dt> </dl> |
 
 

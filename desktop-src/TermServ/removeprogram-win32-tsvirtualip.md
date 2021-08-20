@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6241664b6e56c3d387673b6a1cc50e43b413336
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c44d955c7547a308086ea365681a5991012fe65e390ebe296f031f0c0ef99856
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058617"
 ---
 # <a name="removeprogram-method-of-the-win32_tsvirtualip-class"></a>Méthode RemoveProgram de la \_ classe Win32 TSVirtualIP
 

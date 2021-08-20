@@ -70,12 +70,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d7f566bf2a75b3ed4f503da245d7b6ce428dce5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 156396e61fca255f7aa4fd584aa10e9386b57c4b3e86f687fb39a922ed1f2fd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949888"
 ---
 # <a name="msvm_syntheticdisplaycontroller-class"></a>MSVM \_ SyntheticDisplayController, classe
 
@@ -162,7 +162,7 @@ La classe **MSVM \_ SyntheticDisplayController** possède ces méthodes.
 | **OnlineDevice**                                                                 | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                                | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-syntheticdisplaycontroller-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-syntheticdisplaycontroller-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
+| [**Initialisation**](msvm-syntheticdisplaycontroller-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
 | **RestoreProperties**                                                            | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                               | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                                | Cette méthode n'est pas prise en charge.<br/> |
@@ -1018,7 +1018,7 @@ Chaîne qui décrit le processeur/contrôleur vidéo. Cette propriété est hér
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ SyntheticDisplayController** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1028,8 +1028,8 @@ L’accès à la classe **MSVM \_ SyntheticDisplayController** peut être limit�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

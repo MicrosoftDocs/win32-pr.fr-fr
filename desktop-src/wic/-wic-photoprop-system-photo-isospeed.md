@@ -4,12 +4,12 @@ ms.assetid: 22b5552c-41b1-4090-a827-b920dcbba5e9
 title: Stratégie de métadonnées de photo System. photo. ISOSpeed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2988f774f70721ab1817ffaf605098ab1164316a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c01cb8c3e8e4c80c63985b49e8eda49ebe16d47982dde4cd051f555b8c93d68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964800"
 ---
 # <a name="systemphotoisospeed-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. ISOSpeed
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. ISOS
 
 \_Photo \_ ISOSpeed
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    | Format de disque |
+| Commande | Chemin                                    | Format de disque |
 |-------|-----------------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 34855}           | ushort      |
 | 2     | /XMP/ <xmpseq> EXIF : ISOSpeedRatings | unicode     |
@@ -59,7 +59,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    | Format de disque |
+| Commande | Chemin                                    | Format de disque |
 |-------|-----------------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 34855}           | ushort      |
 | 2     | /XMP/ <xmpseq> EXIF : ISOSpeedRatings | unicode     |
@@ -73,7 +73,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    |
+| Commande | Chemin                                    |
 |-------|-----------------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 34855}           |
 | 2     | /XMP/ <xmpseq> EXIF : ISOSpeedRatings |
@@ -89,7 +89,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                        | Format de disque |
+| Commande | Chemin                                        | Format de disque |
 |-------|---------------------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 34855}                    | ushort      |
 | 2     | /IFD/XMP/ <xmpseq> EXIF : ISOSpeedRatings | unicode     |
@@ -103,7 +103,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                        | Format de disque |
+| Commande | Chemin                                        | Format de disque |
 |-------|---------------------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 34855}                    | ushort      |
 | 2     | /IFD/XMP/ <xmpseq> EXIF : ISOSpeedRatings | unicode     |
@@ -117,7 +117,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                        |
+| Commande | Chemin                                        |
 |-------|---------------------------------------------|
 | 1     | /IFD/EXIF/{UShort = 34855}                    |
 | 2     | /IFD/XMP/ <xmpseq> EXIF : ISOSpeedRatings |
@@ -127,7 +127,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 
