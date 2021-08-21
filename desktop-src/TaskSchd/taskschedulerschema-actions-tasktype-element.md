@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 21af0f8a06faa9cdc61917dcb3b3b0672c47e0e7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79fb5fe36b6fcff3622e0d12f0571e7f06c5f00d1ae930abc2bca805315f7dd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118357097"
 ---
 # <a name="actions-tasktype-element"></a>Élément actions (taskType)
 
@@ -63,11 +63,11 @@ L’élément **actions** est défini par le type complexe [**TaskType**](tasksc
 
 | Nom    | Type | Description                                                                                          |
 |---------|------|------------------------------------------------------------------------------------------------------|
-| Context |      | Identificateur principal de l’utilisateur qui est le contexte de sécurité pour les actions de la tâche.<br/> |
+| Contexte |      | Identificateur principal de l’utilisateur qui est le contexte de sécurité pour les actions de la tâche.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les éléments enfants répertoriés précédemment (32 maximum) sont définis par le groupe [**actionGroup**](taskschedulerschema-actiongroup-group.md) . Ces éléments peuvent être ajoutés dans n’importe quel ordre.
 
@@ -85,8 +85,8 @@ Pour plus d’informations et pour obtenir un exemple complet de code XML pour u
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

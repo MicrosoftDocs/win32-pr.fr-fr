@@ -9,12 +9,12 @@ keywords:
 - interroge ADSI, en recherchant OLE DB, un exemple de code pour l’utilisation de OLE DB pour accéder à Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb98e84035cdfef3c95d47919354622df3808b86
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5d55e115978025a95cc4c48f99f9ab05061c3cf384860eeb25b96f793d664605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106509069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428442"
 ---
 # <a name="example-code-for-using-ole-db-to-search-active-directory"></a>Exemple de code pour l’utilisation de OLE DB pour la recherche Active Directory
 
@@ -27,7 +27,7 @@ Il existe deux dialectes de requête qui peuvent être utilisés avec le fournis
 
 Cet exemple utilise le dialecte LDAP.
 
-La méthode [ICommandText :: SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85)) peut également accepter le **GUID \_ par défaut DBGUID** pour le dialecte. Dans ce cas, ADSI tente d’utiliser le dialecte SQL en premier ; en cas d’échec, ADSI tente d’utiliser le dialecte LDAP. Pour plus d’informations, consultez dialecte [LDAP](ldap-dialect.md) et [dialecte SQL](sql-dialect.md).
+La méthode [ICommandText :: SetCommandText](/previous-versions/windows/desktop/ms709757(v=vs.85)) peut également accepter le **GUID \_ par défaut DBGUID** pour le dialecte. dans ce cas, ADSI tente d’abord d’utiliser le dialecte SQL. en cas d’échec, ADSI tente d’utiliser le dialecte LDAP. pour plus d’informations, consultez [dialecte LDAP](ldap-dialect.md) et [dialecte SQL](sql-dialect.md).
 
 Pour plus d’informations sur OLE DB, consultez le Guide du programmeur OLE DB.
 

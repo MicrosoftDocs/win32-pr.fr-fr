@@ -4,12 +4,12 @@ description: UiaElementIsOrphaned
 ms.assetid: F85F08E7-5A9C-4F08-B680-8B251D51168A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0ec0861a586fd5275a674d9ef8ba6a0e72364b2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 940e1242be2b0393023bc83b31cc662a52677c59307dff01fed30d8319604d75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118827395"
 ---
 # <a name="uiaelementisorphaned"></a>UiaElementIsOrphaned
 
@@ -19,7 +19,7 @@ L’élément est un AutomationElement orphelin dans l’arborescence
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -39,9 +39,9 @@ Ce problème est un problème pour les personnes qui s’appuient sur un lecteur
 [**IUIAutomationElement.ElementFromPoint**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomation-elementfrompoint)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

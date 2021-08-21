@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6f9fdd0c7123b8abb1fc180f1a43947cc179f1ce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 424b3be1394d2989ac9328ce088d05fbfd0a9192360ef56acbfd70d58be7864f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433588"
 ---
 # <a name="iwmdrmencrypt-interface"></a>Interface IWMDRMEncrypt
 
@@ -39,7 +39,7 @@ L’interface **IWMDRMEncrypt** possède ces méthodes.
 
 | Méthode                                   | Description                                 |
 |:-----------------------------------------|:--------------------------------------------|
-| [**Encrypt (Chiffrer)**](iwmdrmencrypt-encrypt.md) | Chiffre une mémoire tampon de données en place.<br/> |
+| [**Encrypt**](iwmdrmencrypt-encrypt.md) | Chiffre une mémoire tampon de données en place.<br/> |
 
 
 

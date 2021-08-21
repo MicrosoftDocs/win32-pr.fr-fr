@@ -50,7 +50,7 @@ m_d2dContext->EndDraw();
 
 Les propriétés de l’effet redresser sont définies par l’énumération [**d2d1 \_ redresse \_ prop**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_straighten_prop) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

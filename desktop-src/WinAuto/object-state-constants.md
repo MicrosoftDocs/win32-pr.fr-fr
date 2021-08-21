@@ -43,12 +43,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b9adebec9f93c7abca2cfdcff8bfbaeb0d2f236
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4bd55241d443baa035bf8d40d101b4c257cf63f12f80557f4698861c0cf356f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118828170"
 ---
 # <a name="object-state-constants"></a>Constantes d’état d’objet
 
@@ -101,7 +101,7 @@ Les éléments suivants sont des constantes d’état d’objet :
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

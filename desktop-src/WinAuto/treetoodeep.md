@@ -4,12 +4,12 @@ description: TreeTooDeep
 ms.assetid: 3FD4A1BE-4710-4A1F-9ED7-98D7FCBCD304
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 681a929eca288584e9bd9ccd7b32920b10a72131
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 201de20e9d1ccd34619cb711429d05fac15a507fc27a377211d5969a0a70b2e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118827584"
 ---
 # <a name="treetoodeep"></a>TreeTooDeep
 
@@ -39,9 +39,9 @@ Ce problème provoque des problèmes pour les personnes qui reposent sur un lect
 [Recommandations en matière de conception d’interface utilisateur clavier](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
 </dt> <dt>
 
-[Instructions relatives à l’interaction avec l’expérience utilisateur Windows-clavier](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
+[Windows Instructions relatives à l’interaction avec l’expérience utilisateur-clavier](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

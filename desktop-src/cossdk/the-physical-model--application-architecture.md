@@ -4,12 +4,12 @@ ms.assetid: 18c440f0-88c8-4738-9f29-c82772439b51
 title: 'Modèle physique : architecture de l’application'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f0fab87d76e445a365958ab330f572f657d1505
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5147241b460763b4218734344340291af5c423c2ee2e7a8ec9e485b30221d795
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118812214"
 ---
 # <a name="the-physical-model-application-architecture"></a>Modèle physique : architecture de l’application
 

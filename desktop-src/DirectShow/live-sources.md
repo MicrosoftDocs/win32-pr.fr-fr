@@ -4,12 +4,12 @@ ms.assetid: 571fe5e5-9616-463b-837c-f8dbb8adf1be
 title: Sources en direct
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43486cf3db797f493c9446bf782989b8beaae829
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8872cc5489ae61f3b7b9629e97303ad033630346094f8f1faa013f5da81d9142
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118153197"
 ---
 # <a name="live-sources"></a>Sources en direct
 
@@ -20,15 +20,15 @@ Un filtre est considéré comme une source dynamique si l’une des conditions s
 -   Le filtre retourne le filtre AM les \_ \_ \_ indicateurs divers est un \_ \_ indicateur de source de la méthode [**IAMFilterMiscFlags :: GetMiscFlags**](/windows/desktop/api/Strmif/nf-strmif-iamfiltermiscflags-getmiscflags) , et au moins l’une de ses broches de sortie expose l’interface [**IAMPushSource**](/windows/desktop/api/Strmif/nn-strmif-iampushsource) .
 -   Le filtre expose l’interface [**IKsPropertySet**](ikspropertyset.md) et a une broche de capture ( \_ capture de catégorie pin \_ ). Pour plus d’informations, consultez la [propriété épingle définie](pin-property-set.md) .
 
-Si un filtre de source dynamique fournit une horloge, le gestionnaire de graphique de filtre préfèrera cette horloge lorsqu’il choisit l’horloge de référence du graphique. Pour plus d’informations, consultez [horloges de référence](reference-clocks.md) .
+si un filtre de source dynamique fournit une horloge, le gestionnaire de Graph de filtre préfèrera cette horloge lorsqu’il choisit l’horloge de référence du graphique. Pour plus d’informations, consultez [horloges de référence](reference-clocks.md) .
 
 **Latence**
 
 La latence d’un filtre correspond à la durée pendant laquelle il prend le filtre pour traiter un exemple. Pour les sources en direct, la latence est déterminée par la taille de la mémoire tampon utilisée pour contenir des échantillons. Par exemple, supposons que le graphique de filtre ait une source vidéo avec une latence de 33 millisecondes (MS) et une source audio avec une latence de 500 ms. Chaque image vidéo arrive au convertisseur vidéo environ 470 ms avant que l’exemple audio correspondant n’atteigne le convertisseur audio. À moins que le graphique compense la différence, le son et la vidéo ne sont pas synchronisés.
 
-Les sources dynamiques peuvent être synchronisées par le biais de l’interface [**IAMPushSource**](/windows/desktop/api/Strmif/nn-strmif-iampushsource) . Le gestionnaire de graphes de filtre ne synchronise pas les sources dynamiques, sauf si l’application active la synchronisation en appelant la méthode [**IAMGraphStreams :: SyncUsingStreamOffset**](/windows/desktop/api/Strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset) . Si la synchronisation est activée, le gestionnaire de graphes de filtres interroge chaque filtre source pour **IAMPushSource**. Si le filtre prend en charge **IAMPushSource**, le gestionnaire de graphique de filtre appelle [**IAMLatency :: GetLatency**](/windows/desktop/api/Strmif/nf-strmif-iamlatency-getlatency) pour récupérer la latence attendue du filtre. (L’interface **IAMPushSource** hérite de [**IAMLatency**](/windows/desktop/api/Strmif/nn-strmif-iamlatency).) À partir des valeurs de latence combinées, le gestionnaire de graphes de filtre détermine la latence maximale attendue dans le graphique. Il appelle ensuite [**IAMPushSource :: SetStreamOffset**](/windows/desktop/api/Strmif/nf-strmif-iampushsource-setstreamoffset) pour attribuer à chaque filtre source un décalage de flux, que le filtre ajoute aux horodatages qu’il génère.
+Les sources dynamiques peuvent être synchronisées par le biais de l’interface [**IAMPushSource**](/windows/desktop/api/Strmif/nn-strmif-iampushsource) . le gestionnaire de Graph de filtre ne synchronise pas les sources dynamiques, sauf si l’application active la synchronisation en appelant la méthode [**IAMGraphStreams :: SyncUsingStreamOffset**](/windows/desktop/api/Strmif/nf-strmif-iamgraphstreams-syncusingstreamoffset) . si la synchronisation est activée, le gestionnaire de Graph de filtre interroge chaque filtre source pour **IAMPushSource**. si le filtre prend en charge **IAMPushSource**, le gestionnaire de Graph de filtre appelle [**IAMLatency :: GetLatency**](/windows/desktop/api/Strmif/nf-strmif-iamlatency-getlatency) pour récupérer la latence attendue du filtre. (L’interface **IAMPushSource** hérite de [**IAMLatency**](/windows/desktop/api/Strmif/nn-strmif-iamlatency).) à partir des valeurs de latence combinées, le gestionnaire de Graph de filtre détermine la latence maximale attendue dans le graphique. Il appelle ensuite [**IAMPushSource :: SetStreamOffset**](/windows/desktop/api/Strmif/nf-strmif-iampushsource-setstreamoffset) pour attribuer à chaque filtre source un décalage de flux, que le filtre ajoute aux horodatages qu’il génère.
 
-Cette méthode est principalement destinée à l’aperçu instantané. Toutefois, Notez qu’un code PIN sur un appareil de capture dynamique (par exemple, un appareil photo) ne définit pas d’horodatage sur les échantillons qu’il livre. Par conséquent, pour utiliser cette méthode avec un appareil de capture dynamique, vous devez afficher un aperçu à partir du code confidentiel de capture. Pour plus d’informations, consultez [filtres de capture vidéo DirectShow](directshow-video-capture-filters.md).
+Cette méthode est principalement destinée à l’aperçu instantané. Toutefois, Notez qu’un code PIN sur un appareil de capture dynamique (par exemple, un appareil photo) ne définit pas d’horodatage sur les échantillons qu’il livre. Par conséquent, pour utiliser cette méthode avec un appareil de capture dynamique, vous devez afficher un aperçu à partir du code confidentiel de capture. pour plus d’informations, consultez [DirectShow des filtres de Capture vidéo](directshow-video-capture-filters.md).
 
 Actuellement, l’interface [**IAMPushSource**](/windows/desktop/api/Strmif/nn-strmif-iampushsource) est prise en charge par le filtre de [capture VFW](vfw-capture-filter.md) et le filtre de [capture audio](audio-capture-filter.md) .
 

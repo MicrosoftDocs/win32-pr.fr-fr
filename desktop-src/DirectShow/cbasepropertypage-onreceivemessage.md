@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 69d9da708d45524d15f735273d47f242104ee22f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 833f0f7ab9192d88440afff75a36fee744ac2fe053c6fe99d1940686c452799a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158131"
 ---
 # <a name="cbasepropertypageonreceivemessage-method"></a>Méthode CBasePropertyPage. OnReceiveMessage
 
@@ -48,7 +48,7 @@ virtual INT_PTR OnReceiveMessage(
 *HWND* 
 </dt> <dd>
 
-Handle de la fenêtre.
+Handle vers la fenêtre.
 
 </dd> <dt>
 
@@ -77,7 +77,7 @@ Deuxième paramètre de message.
 
 Retourne une valeur booléenne. La procédure de dialogue retourne cette valeur ; Pour plus d’informations, consultez la documentation du kit de développement Platform SDK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’implémentation de la classe de base appelle **DefWindowProc**. Substituez cette méthode pour gérer les messages liés aux contrôles de boîte de dialogue. Si la méthode de substitution ne gère pas un message particulier, elle doit appeler la méthode de la classe de base.
 
@@ -127,7 +127,7 @@ void CMyProp::SetDirty()
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Cprop. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Cprop. h (inclure Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

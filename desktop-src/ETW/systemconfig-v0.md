@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 24f0c579f4fb9c947ea02ff677cd433da3103cfc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6986e5ac907784a19c14fb8dc6b9c086031863f322c3c35a58edcf3fd4089ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151219"
 ---
 # <a name="systemconfig_v0-class"></a>SystemConfig \_ v0 (classe)
 
@@ -38,9 +38,9 @@ class SystemConfig_V0 : MSNT_SystemTrace
 
 La classe **SystemConfig \_ v0** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
-Pour les événements de configuration matérielle sur Windows XP, consultez la classe [**HWConfig**](hwconfig.md) .
+pour les événements de configuration matérielle sur Windows XP, consultez la classe [**HWConfig**](hwconfig.md) .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -49,7 +49,7 @@ Pour les événements de configuration matérielle sur Windows XP, consultez la 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 
