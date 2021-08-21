@@ -1,20 +1,20 @@
 ---
-description: Lorsqu’une application cliente se connecte à Windows Management Instrumentation (WMI) pour la première fois, elle doit définir le niveau de sécurité de processus par défaut à l’aide d’un appel à CoInitializeSecurity.
+description: lorsqu’une application cliente se connecte à Windows Management Instrumentation (WMI) pour la première fois, elle doit définir le niveau de sécurité de processus par défaut à l’aide d’un appel à CoInitializeSecurity.
 ms.assetid: 4248fd1b-0867-40d8-8c9c-541156212df8
 ms.tgt_platform: multiple
 title: Définition du niveau de sécurité de processus par défaut à l’aide de C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33bb51deb2c228f0958209c774e7526b4eeed958
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fcaec4ebbcd39c8cee9ee8aae002621a4a5a1853d1e4cfd4282194115c15ce3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050287"
 ---
 # <a name="setting-the-default-process-security-level-using-c"></a>Définition du niveau de sécurité de processus par défaut à l’aide de C++
 
-Lorsqu’une application cliente se connecte à Windows Management Instrumentation (WMI) pour la première fois, elle doit définir le niveau de sécurité de processus par défaut à l’aide d’un appel à [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). COM utilise les informations de l’appel pour déterminer la sécurité qu’un autre processus doit avoir pour accéder au processus de l’application cliente.
+lorsqu’une application cliente se connecte à Windows Management Instrumentation (WMI) pour la première fois, elle doit définir le niveau de sécurité de processus par défaut à l’aide d’un appel à [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). COM utilise les informations de l’appel pour déterminer la sécurité qu’un autre processus doit avoir pour accéder au processus de l’application cliente.
 
 Les sections suivantes sont présentées dans cette rubrique :
 
@@ -62,7 +62,7 @@ using namespace std;
 
 
 
-La définition du niveau d’authentification à la **\_ \_ \_ \_ valeur par défaut** du niveau d’authentification RPC C permet à DCOM de négocier le niveau d’authentification pour répondre aux demandes de sécurité de l’ordinateur cible. Pour plus d’informations, consultez [modification des informations d’authentification par défaut à l’aide de c++](#changing-the-default-authentication-credentials-using-c) et [modification des paramètres d’emprunt d’identité par défaut à l’aide de c++](#changing-the-default-impersonation-levels-using-c).
+La définition du niveau d’authentification à la **\_ \_ \_ \_ valeur par défaut** du niveau d’authentification RPC C permet à DCOM de négocier le niveau d’authentification pour répondre aux demandes de sécurité de l’ordinateur cible. pour plus d’informations, consultez [modification des informations d’authentification par défaut à l’aide de c++](#changing-the-default-authentication-credentials-using-c) et [modification de l’emprunt d’identité par défaut Paramètres à l’aide de c++](#changing-the-default-impersonation-levels-using-c).
 
 ## <a name="changing-the-default-authentication-credentials-using-c"></a>Modification des informations d’authentification par défaut à l’aide de C++
 
@@ -141,7 +141,7 @@ COM fournit des niveaux de sécurité par défaut lus à partir du Registre syst
 
 
 
-| Level                           | Description                                                                                                   |
+| Niveau                           | Description                                                                                                   |
 |---------------------------------|---------------------------------------------------------------------------------------------------------------|
 | \_ \_ \_ valeur par défaut du niveau d’IMP RPC C \_     | Le système d’exploitation choisit le niveau d’emprunt d’identité.                                                      |
 | \_niveau d' \_ IMP \_ \_ anonyme du C RPC   | Le serveur peut emprunter l’identité du client, mais le jeton d’emprunt d’identité ne peut pas être utilisé pour quoi que ce soit.               |

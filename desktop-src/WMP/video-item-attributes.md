@@ -3,24 +3,24 @@ title: Attributs d’éléments vidéo
 description: Attributs d’éléments vidéo
 ms.assetid: 000bc03d-aa2e-4922-b611-7d6e8ebb22e9
 keywords:
-- Lecteur Windows Media, attributs d’éléments vidéo
-- Windows Media Player Mobile, attributs d’éléments vidéo
-- Modèle d’objet du lecteur Windows Media, attributs d’élément vidéo
+- Lecteur Windows Media, attributs d’élément vidéo
+- Lecteur Windows Media Mobile, attributs d’éléments vidéo
+- Lecteur Windows Media modèle objet, attributs d’élément vidéo
 - modèle objet, attributs d’élément vidéo
-- Contrôle ActiveX, attributs d’éléments vidéo
-- Contrôle ActiveX du lecteur Windows Media, attributs des éléments vidéo
-- Contrôle ActiveX mobile du lecteur Windows Media, attributs d’élément vidéo
+- contrôle de ActiveX, attributs d’éléments vidéo
+- contrôle de ActiveX Lecteur Windows Media, attributs d’éléments vidéo
+- Lecteur Windows Media contrôle Mobile ActiveX, attributs d’éléments vidéo
 - informations de référence sur le modèle objet, les attributs d’élément vidéo
 - attributs, éléments vidéo
 - attributs d’éléments vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ab23559ca6322ffd6ebc38517a73d802d7001ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e2b3fa64fe3898708a3df85b01fadbb372d1fad76abe99379ec914016c602585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054177"
 ---
 # <a name="video-item-attributes"></a>Attributs d’éléments vidéo
 
@@ -99,7 +99,7 @@ Les attributs suivants sont disponibles pour un élément vidéo dans la bibliot
 -   [**Attribut WM/Provider**](wm-provider-attribute.md)
 -   [**Attribut WM/ProviderRating**](wm-providerrating-attribute.md)
 -   [**Attribut WM/ProviderStyle**](wm-providerstyle-attribute.md)
--   [**Attribut WM/Publisher**](wm-publisher-attribute.md)
+-   [**attribut WM/Publisher**](wm-publisher-attribute.md)
 -   [**Attribut WM/SubscriptionContentID**](wm-subscriptioncontentid-attribute.md)
 -   [**Attribut WM/subsous-titre**](wm-subtitle-attribute.md)
 -   [**Attribut WM/SubTitleDescription**](wm-subtitledescription-attribute.md)
@@ -114,9 +114,9 @@ Les attributs suivants sont disponibles pour un élément vidéo dans la bibliot
 [**Référence d’attribut**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

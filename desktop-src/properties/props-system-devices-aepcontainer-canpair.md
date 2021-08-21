@@ -4,12 +4,12 @@ ms.assetid: 48ce03d9-2b16-44d1-8dd1-c3dbddc2139c
 title: System.Devices.AepContainer.CanPair
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b42bfa1426564c838e272dee389d6c63109fd262
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9395d08d2a6f9bfb32750cd16088d70d84c2e3f82bfa087290f34feaff07c8f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010789"
 ---
 # <a name="systemdevicesaepcontainercanpair"></a>System.Devices.AepContainer.CanPair
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

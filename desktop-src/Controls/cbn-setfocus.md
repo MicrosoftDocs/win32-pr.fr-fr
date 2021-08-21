@@ -3,7 +3,7 @@ title: CBN_SETFOCUS le code de notification (winuser. h)
 description: Envoyé lorsqu’une zone de liste déroulante reçoit le focus clavier. La fenêtre parente de la zone de liste déroulante reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: 8072edc6-aedc-4daf-80df-d3acd82fcffa
 keywords:
-- Contrôles Windows de code de notification CBN_SETFOCUS
+- CBN_SETFOCUS les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 885bbaebac0a79fc600cbcc2b7864cbdfd19ea93
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c70edb99a18cc7f1e2f1051670bbc9d9596c3630f2dfc01e14aa8b68fd61ca3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699049"
 ---
 # <a name="cbn_setfocus-notification-code"></a>\_Code de notification CBN SetFocus
 
@@ -59,8 +59,8 @@ Handle vers la zone de liste déroulante.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

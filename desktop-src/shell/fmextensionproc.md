@@ -1,6 +1,6 @@
 ---
 description: Spécifie une fonction de rappel définie par l’application appelée par le gestionnaire de fichiers pour communiquer avec une extension du gestionnaire de fichiers.
-title: Fonction de rappel FMExtensionProc (Wfext. h)
+title: FMExtensionProc, fonction de rappel (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 6e02d655-f7d8-460a-97d2-5b369493e941
-ms.openlocfilehash: 5e7b1f0142ea77967af15087131d3036aaec505e
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 7cd13fe534f3bb121a4056f67ceff47ddfa71fa5506c2020a243ab340768ce35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032657"
 ---
 # <a name="fmextensionproc-callback-function"></a>FMExtensionProc fonction de rappel
 
@@ -168,13 +168,13 @@ Valeur spécifique au message.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **long**
 
 Retourne une valeur en fonction du message de paramètre *wMsg* .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: f3de5803d10458156fb453e964d782f7c9760333
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88d1b0f2056d6a10ac623421a7fe261acb832657d08c030ab3247f0acf1a0629
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004647"
 ---
 # <a name="converttoownerauth-method-of-the-win32_tpm-class"></a>Méthode ConvertToOwnerAuth de la \_ classe TPM Win32
 
@@ -78,7 +78,7 @@ Les tableaux suivants répertorient certains des codes de retour courants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une chaîne encodée UTF-16LE Unicode est convertie en valeur d’autorisation du propriétaire du module de plateforme sécurisée (TPM) de 20 octets en acceptant le hachage SHA-1 de la représentation binaire de la chaîne. La fin **null** de la chaîne Unicode n’est pas incluse dans le hachage. Aucun Salt n’est utilisé dans le hachage SHA-1.
 
@@ -88,7 +88,7 @@ Par exemple, pour convertir la phrase secrète du propriétaire du module de pla
 
 Pour convertir une phrase secrète de longueur nulle en valeur d’autorisation du propriétaire, le hachage SHA-1 est pris dans le flux d’octets **null** .
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -96,8 +96,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                      |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>\_TPM. mof Win32</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>\_tpm.dllWin32</dt> </dl> |

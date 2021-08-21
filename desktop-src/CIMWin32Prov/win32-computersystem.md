@@ -79,12 +79,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5e5282c854bfdb1ce4b80f61a202ebecac990576
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c6a2d965a764be8925fda55958302d815b62ad6180ce4d3abb48d399fc2e817
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699999"
 ---
 # <a name="win32_computersystem-class"></a>\_Classe Win32 ComputerSystem
 
@@ -204,7 +204,7 @@ Type de données : **UInt16**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 24 \| Hardware Security Settings \| AdminPasswordStatus")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 24 \| Hardware Security Paramètres \| AdminPasswordStatus")
 </dt> </dl>
 
 Paramètres de sécurité du matériel système pour l’état du mot de passe administrateur.
@@ -413,7 +413,7 @@ Champs d’État et de données supplémentaires identifiant l’état de démar
 
 Cette valeur provient du membre **État de démarrage** de la structure d' **informations de démarrage du système** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -512,7 +512,7 @@ Cette valeur provient du membre d' **État de démarrage** de la structure du **
 
 <span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>
 
-**Sécurité** (3)
+**Coffre** (3)
 
 
 </dt> <dd></dd> <dt>
@@ -556,7 +556,7 @@ Numéro de référence du châssis ou du boîtier sous forme de chaîne.
 
 Cette valeur provient du membre **numéro de référence (SKU** ) de la structure du **boîtier du système ou du châssis** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -749,7 +749,7 @@ Type de données : **UInt16**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 24 \| Hardware Security Settings \| FrontPanelResetStatus")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 24 \| Hardware Security Paramètres \| FrontPanelResetStatus")
 </dt> </dl>
 
 Le tableau suivant répertorie les paramètres de sécurité matérielle pour le bouton Réinitialiser sur un ordinateur.
@@ -800,7 +800,7 @@ Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifie
 
 Si la **valeur est true**, un hyperviseur est présent.
 
-**Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 8 et Windows Server 2012.
+**Windows server 2008 R2, Windows 7, Windows Server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 8 et Windows Server 2012.
 
 </dd> <dt>
 
@@ -864,7 +864,7 @@ Type de données : **UInt16**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 24 \| Hardware Security Settings \| KeyboardPasswordStatus")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 24 \| Hardware Security Paramètres \| KeyboardPasswordStatus")
 </dt> </dl>
 
 Paramètres de sécurité du matériel système pour l’état du mot de passe du clavier.
@@ -925,7 +925,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 1 \| System information \| Manufacturer")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 1 \| System Information \| manufacturer")
 </dt> </dl>
 
 Nom du fabricant de l’ordinateur.
@@ -943,7 +943,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 1 \| System information \| Product Name")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 1 \| System Information \| Product Name")
 </dt> </dl>
 
 Nom de produit qu’un fabricant donne à un ordinateur. Cette propriété doit avoir une valeur.
@@ -1132,7 +1132,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| System Information structures \| [**System \_ info**](/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) \| dwNumberOfProcessors")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| System Information Structures \| [**System \_ INFO**](/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) \| dwNumberOfProcessors")
 </dt> </dl>
 
 Nombre de processeurs physiques actuellement disponibles sur un système. Il s’agit du nombre de processeurs activés pour un système, qui n’inclut pas les processeurs désactivés. Si un système informatique a deux processeurs physiques contenant chacun deux processeurs logiques, la valeur de **NumberOfProcessors** est 2 et **NumberOfLogicalProcessors** est 4. Les processeurs peuvent être multicœurs ou ils peuvent être des processeurs hyperthreading. Pour plus d'informations, consultez la section Notes.
@@ -1251,7 +1251,7 @@ Type de l’ordinateur en cours d’utilisation, tel qu’un ordinateur portable
 
 <span id="Enterprise_Server"></span><span id="enterprise_server"></span><span id="ENTERPRISE_SERVER"></span>
 
-<span id="Enterprise_Server"></span><span id="enterprise_server"></span><span id="ENTERPRISE_SERVER"></span>**Serveur d’entreprise** (4)
+<span id="Enterprise_Server"></span><span id="enterprise_server"></span><span id="ENTERPRISE_SERVER"></span>**serveur Enterprise** (4)
 
 
 </dt> <dd></dd> <dt>
@@ -1263,7 +1263,7 @@ Type de l’ordinateur en cours d’utilisation, tel qu’un ordinateur portable
 
 </dt> <dd>
 
-Serveur SOHO (Small Office and Home Office)
+serveur SOHO (small Office et home Office)
 
 </dd> <dt>
 
@@ -1304,7 +1304,7 @@ Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifie
 
 Type de l’ordinateur en cours d’utilisation, tel qu’un ordinateur portable, un ordinateur de bureau ou une tablette.
 
-**Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 8.1 et Windows Server 2012 R2.
+**Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 8.1 et Windows Server 2012 R2.
 
 <dt>
 
@@ -1338,7 +1338,7 @@ Type de l’ordinateur en cours d’utilisation, tel qu’un ordinateur portable
 
 <span id="Enterprise_Server"></span><span id="enterprise_server"></span><span id="ENTERPRISE_SERVER"></span>
 
-**Serveur d’entreprise** (4)
+**serveur Enterprise** (4)
 
 
 </dt> <dd></dd> <dt>
@@ -1502,7 +1502,7 @@ Type de données : **UInt16**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 24 \| Hardware Security Settings \| PowerOnPasswordStatus")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 24 \| Hardware Security Paramètres \| PowerOnPasswordStatus")
 </dt> </dl>
 
 Paramètres de sécurité du matériel système pour Power-On l’état du mot de passe.
@@ -1670,7 +1670,7 @@ La liste suivante identifie les valeurs de cette propriété.
 
 <span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>
 
-<span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>**Sécurité** (3)
+<span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>**Coffre** (3)
 
 
 </dt> <dd></dd> <dt>
@@ -1875,7 +1875,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| [**GetPrivateProfileString**](/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring) \| support information")
 </dt> </dl>
 
-Liste des informations de contact du support technique pour le système d’exploitation Windows.
+liste des informations de contact du support technique pour le système d’exploitation Windows.
 
 </dd> <dt>
 
@@ -1888,14 +1888,14 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 1 \| System information \| Family")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| Type 1 \| System Information \| Family")
 </dt> </dl>
 
 Famille à laquelle appartient un ordinateur particulier. Une famille fait référence à un ensemble d’ordinateurs similaires, mais non identiques à ceux d’un point de vue matériel ou logiciel.
 
-Cette valeur provient du membre de la **famille** de la structure des **informations système** dans les informations SMBIOS.
+cette valeur provient du membre de la **famille** de la structure **System Information** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -1908,14 +1908,14 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 1 \| Information System information \| Number numéro SKU")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (« SMBIOS \| Type 1 \| System Information \| SKU Number »)
 </dt> </dl>
 
 Identifie une configuration d’ordinateur spécifique pour la vente. Il est parfois également appelé ID de produit ou numéro de bon de commande.
 
-Cette valeur provient du membre **numéro de référence (SKU** ) de la structure des **informations système** dans les informations SMBIOS.
+cette valeur provient du membre **numéro de référence (SKU** ) de la structure **System Information** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -1976,10 +1976,10 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| System Information structures \| [**System \_ info**](/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) \| wProcessorArchitecture")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| System Information Structures \| [**System \_ INFO**](/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info) \| wProcessorArchitecture")
 </dt> </dl>
 
-Système s’exécutant sur l’ordinateur Windows. Cette propriété doit avoir une valeur.
+système s’exécutant sur l’ordinateur Windows. Cette propriété doit avoir une valeur.
 
 La liste suivante identifie certaines des valeurs possibles pour cette propriété.
 
@@ -2093,7 +2093,7 @@ Cette valeur provient du membre d' **état thermique** de la structure du **boî
 
 <span id="Safe"></span><span id="safe"></span><span id="SAFE"></span>
 
-**Sécurité** (3)
+**Coffre** (3)
 
 
 </dt> <dd></dd> <dt>
@@ -2150,7 +2150,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (« win32api \| System Information Functions \| [**getUserName**](/windows/desktop/api/winbase/nf-winbase-getusernamea)»)
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| System Information functions \| [**GetUserName**](/windows/desktop/api/winbase/nf-winbase-getusernamea)")
 </dt> </dl>
 
 Nom d’un utilisateur qui a ouvert une session actuellement. Cette propriété doit avoir une valeur. Dans une session des services Terminal Server, **username** retourne le nom de l’utilisateur qui est connecté à la console, et non celui de l’utilisateur connecté pendant la session du service Terminal Server.
@@ -2168,12 +2168,12 @@ Type de données : **UInt16**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 1 \| System information \| type Wake-up type")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("SMBIOS \| type 1 \| System Information \| type de mise en éveil")
 </dt> </dl>
 
 Événement qui provoque la mise sous tension du système.
 
-Cette valeur provient du membre de **type de mise en éveil** de la structure des **informations système** dans les informations SMBIOS.
+cette valeur provient du membre de **Type de mise en éveil** de la structure **System Information** dans les informations SMBIOS.
 
 <dt>
 
@@ -2242,7 +2242,7 @@ Cette valeur provient du membre de **type de mise en éveil** de la structure de
 
 </dd> <dt>
 
-**Groupe**
+**Groupe de travail**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -2258,7 +2258,7 @@ Nom du groupe de travail pour cet ordinateur. Si la valeur de la propriété **P
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour déterminer le nombre total d’instances de processeur associées à un objet système informatique, utilisez la classe d’association [**Win32 \_ ComputerSystemProcessor**](win32-computersystemprocessor.md) .
 

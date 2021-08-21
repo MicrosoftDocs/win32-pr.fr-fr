@@ -4,12 +4,12 @@ ms.assetid: cc0d2b60-64d7-49f3-844f-97487cab8466
 title: 'Étape 3 : ouvrir un fichier multimédia'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b50f036b84806f96e4349f77a3f06e02e08764
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c198b07358ebbf5d8da591d75d44f4687b600f6bb387c4f55901974397308dc3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104042950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012351"
 ---
 # <a name="step-3-open-a-media-file"></a>Étape 3 : ouvrir un fichier multimédia
 

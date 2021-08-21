@@ -1,28 +1,28 @@
 ---
 title: How to create an app package signing certificate (Comment créer un certificat de signature de package d’application)
-description: Découvrez comment utiliser MakeCert.exe et Pvk2Pfx.exe pour créer un certificat de signature de code de test, afin de pouvoir signer vos packages d’applications Windows.
+description: découvrez comment utiliser MakeCert.exe et Pvk2Pfx.exe pour créer un certificat de signature de code de test afin de pouvoir signer vos packages d’application Windows.
 ms.assetid: DEDD3727-3F0E-403D-9A6E-55949E98FE74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 382771c23d57b580508017d0bbf24bd742a6eeaf
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: bdc495c27e63dc4ee3a42db1b2763f4f59f7647a3a98d20193d8049dcfad965c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104031064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049067"
 ---
 # <a name="how-to-create-an-app-package-signing-certificate"></a>How to create an app package signing certificate (Comment créer un certificat de signature de package d’application)
 
 > [!IMPORTANT]
 > MakeCert.exe est déconseillé. Pour plus d’informations sur la création d’un certificat, consultez [créer un certificat pour la signature de package](/windows/msix/package/create-certificate-package-signing).
 
- 
+ 
 
-Découvrez comment utiliser [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) et [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) pour créer un certificat de signature de code de test, afin de pouvoir signer vos packages d’applications Windows.
+découvrez comment utiliser [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) et [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) pour créer un certificat de signature de code de test afin de pouvoir signer vos packages d’application Windows.
 
-Vous devez signer numériquement vos applications Windows empaquetées avant de les déployer. Si vous n’utilisez pas Microsoft Visual Studio 2012 pour créer et signer vos packages d’application, vous devez créer et gérer vos propres certificats de signature de code. Vous pouvez créer des certificats à l’aide de [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) et [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) à partir du kit WDK (Windows Driver Kit). Ensuite, vous pouvez utiliser les certificats pour signer les packages d’application, afin qu’ils puissent être déployés localement à des fins de test.
+vous devez signer numériquement vos applications Windows empaquetées avant de les déployer. si vous n’utilisez pas Microsoft Visual Studio 2012 pour créer et signer vos packages d’application, vous devez créer et gérer vos propres certificats de signature de code. vous pouvez créer des certificats à l’aide de [**MakeCert.exe**](/windows-hardware/drivers/devtest/makecert) et [**Pvk2Pfx.exe**](/windows-hardware/drivers/devtest/pvk2pfx) à partir du Kit de pilotes Windows (WDK). Ensuite, vous pouvez utiliser les certificats pour signer les packages d’application, afin qu’ils puissent être déployés localement à des fins de test.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -38,7 +38,7 @@ Vous devez signer numériquement vos applications Windows empaquetées avant de 
 
 ### <a name="step-1-determine-the-publisher-name-of-the-package"></a>Étape 1 : déterminer le nom de l’éditeur du package
 
-Pour que le certificat de signature que vous créez puisse être utilisé avec le package d’application que vous souhaitez signer, le nom d’objet du certificat de signature doit correspondre à l’attribut **Publisher** de l’élément [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) dans le AppxManifest.xml pour cette application. Par exemple, supposons que le AppxManifest.xml contient :
+pour que le certificat de signature que vous créez soit utilisable avec le package d’application que vous souhaitez signer, le nom du sujet du certificat de signature doit correspondre à l’attribut **Publisher** de l’élément [**identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) dans le AppxManifest.xml de cette application. Par exemple, supposons que le AppxManifest.xml contient :
 
 ``` syntax
   <Identity Name="Contoso.AssetTracker" 
@@ -51,9 +51,9 @@ Pour le paramètre *PublisherName* que vous spécifiez avec l’utilitaire [**Ma
 > [!Note]  
 > Cette chaîne de paramètres est spécifiée entre guillemets et respecte à la fois la casse et l’espace blanc.
 
- 
+ 
 
-La chaîne d’attribut du serveur de **publication** qui est définie pour l’élément [**Identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) dans le AppxManifest.xml doit être identique à la chaîne que vous spécifiez avec le paramètre [**Makecert**](/windows-hardware/drivers/devtest/makecert) /n pour le nom d’objet du certificat. Copiez et collez la chaîne dans la mesure du possible.
+la chaîne d’attribut **Publisher** définie pour l’élément [**identity**](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) dans le AppxManifest.xml doit être identique à la chaîne que vous spécifiez avec le paramètre [**MakeCert**](/windows-hardware/drivers/devtest/makecert) /n pour le nom d’objet du certificat. Copiez et collez la chaîne dans la mesure du possible.
 
 ### <a name="step-2-create-a-private-key-using-makecertexe"></a>Étape 2 : créer une clé privée à l’aide de MakeCert.exe
 
@@ -92,7 +92,7 @@ Définit les valeurs de l’utilisation améliorée de la clé pour le certifica
 > [!Note]  
 > Ne placez pas d’espace entre les deux valeurs délimitées par des virgules.
 
- 
+ 
 
 -   1.3.6.1.5.5.7.3.3 indique que le certificat est valide pour la signature de code. Spécifiez toujours cette valeur pour limiter l’utilisation prévue du certificat.
 -   1.3.6.1.4.1.311.10.3.13 indique que le certificat respecte la signature de la durée de vie. En règle générale, si une signature est horodatée, tant que le certificat était valide au moment où il a été horodaté, la signature reste valide même si le certificat expire. Cette utilisation améliorée de la valeur force la signature à expirer, que la signature soit ou non horodatée.
@@ -108,7 +108,7 @@ Définit la date d’expiration du certificat. Fournissez une valeur pour le par
 
 Pour plus d’informations sur les autres options, consultez [**Makecert**](/windows-hardware/drivers/devtest/makecert).
 
-### <a name="step-3-create-a-personal-information-exchange-pfx-file-using-pvk2pfxexe"></a>Étape 3 : créer un fichier d’échange d’informations personnelles (. pfx) à l’aide de Pvk2Pfx.exe
+### <a name="step-3-create-a-personal-information-exchange-pfx-file-using-pvk2pfxexe"></a>étape 3 : créer un fichier de Exchange d’informations personnelles (. pfx) à l’aide de Pvk2Pfx.exe
 
 Utilisez l’utilitaire [**Pvk2Pfx**](/windows-hardware/drivers/devtest/pvk2pfx) pour convertir les fichiers. pvk et. [**CER créés dans**](/windows-hardware/drivers/devtest/makecert) un fichier. pfx que vous pouvez utiliser avec [SignTool](/windows/desktop/SecCrypto/signtool) pour signer un package d’application :
 
@@ -120,7 +120,7 @@ Les fichiers *myKey. pvk* et *myKey. cer* sont les mêmes que ceux [**MakeCert.e
 
 Pour plus d’informations sur les autres options, consultez [**Pvk2Pfx**](/windows-hardware/drivers/devtest/pvk2pfx).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois que vous avez créé le fichier. pfx, vous pouvez utiliser le fichier avec [SignTool](/windows/desktop/SecCrypto/signtool) pour signer un package d’application. Pour plus d’informations, consultez [Comment signer un package d’application à l’aide de SignTool](how-to-sign-a-package-using-signtool.md). Toutefois, le certificat n’est toujours pas approuvé par l’ordinateur local pour le déploiement de packages d’application tant que vous ne l’avez pas installé dans le magasin de certificats de confiance de l’ordinateur local. Vous pouvez utiliser [Certutil.exe](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732443(v=ws.10)), qui est fourni avec Windows.
 
@@ -171,6 +171,6 @@ En ajoutant un certificat aux [magasins de certificats de l’ordinateur local](
 [Signature d’un package d’application](/previous-versions/br230260(v=vs.110))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

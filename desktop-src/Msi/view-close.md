@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: d0a0afbf078879f579eae15a9636a4a270799fcd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: edbf2dd30902fa437fdd67d21efb86bb2edeabbd499f0f022501f166ad1b92a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498849"
 ---
 # <a name="viewclose-method"></a>View. Close, méthode
 
@@ -41,7 +41,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode doit être appelée avant que la méthode [**Execute**](view-execute.md) soit appelée à nouveau sur l’objet [**View**](view-object.md) , à moins que toutes les lignes du jeu de résultats aient été obtenues avec la méthode [**Fetch**](view-fetch.md) . Elle est appelée en interne lorsque la vue est détruite.
 

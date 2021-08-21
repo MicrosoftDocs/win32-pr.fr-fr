@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 724970817b89f6a9f2490b0776775f6a3a4e69ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a4510e464c2201952823d144721614caa7b5f1397c68f4f129dac73a4015b86a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702179"
 ---
 # <a name="sisfreeallocatedmemory-function"></a>SisFreeAllocatedMemory fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers la mémoire allouée par l’API SIS.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois l’appel à cette fonction terminé, l’appelant ne peut plus accéder à la mémoire libérée.
 
@@ -63,8 +63,8 @@ Cet appel doit être utilisé pour libérer la mémoire allouée pour les chaîn
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Sisbkup. h</dt> </dl>   |
 | Bibliothèque<br/>                  | <dl> <dt>Sisbkup. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |

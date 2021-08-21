@@ -4,12 +4,12 @@ ms.assetid: 444fb9ac-8626-4079-80be-6c210a69d984
 title: Attribut de contrôle RightAligned
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea94807801845ee18458f6c3105c6e1e5fc3834c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc8a2df776adb167dd82575a8a926e814ecede47e1e7cc07e49c759ea3b046ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868889"
 ---
 # <a name="rightaligned-control-attribute"></a>Attribut de contrôle RightAligned
 
@@ -85,7 +85,7 @@ Si ce bit de style est défini, le texte dans le contrôle est aligné à droite
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir cet attribut sur un contrôle, incluez le bit RightAligned dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 65f3f9836b52693e3f74bac5cfd94553e02d7bf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25f8b04aa8c581d8d7e40ab1d52162d305c97d0d8ce3f7d626cb3d29e7262666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050087"
 ---
 # <a name="swbemdatetime-object"></a>Objet SWbemDateTime
 
@@ -62,18 +62,18 @@ L’objet **SWbemDateTime** a ces propriétés.
 
 | Propriété                                                                        | Type d’accès           | Description                                                                                                                     |
 |:--------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| [**Temps**](swbemdatetime-day.md)<br/>                                     | Lecture/écriture<br/> | Composant « jour » d’une valeur [DateTime](datetime.md) CIM.<br/>                                                           |
+| [**Jour**](swbemdatetime-day.md)<br/>                                     | Lecture/écriture<br/> | Composant « jour » d’une valeur [DateTime](datetime.md) CIM.<br/>                                                           |
 | [**DaySpecified**](swbemdatetime-dayspecified.md)<br/>                   | Lecture/écriture<br/> | Indique si le jour est spécifié ou laissé comme caractère générique.<br/>                                                        |
 | [**Heures**](swbemdatetime-hours.md)<br/>                                 | Lecture/écriture<br/> | Heures du composant « jour » d’une valeur [DateTime](datetime.md) CIM.<br/>                                              |
 | [**HoursSpecified**](swbemdatetime-hoursspecified.md)<br/>               | Lecture/écriture<br/> | Indique si l’heure est spécifiée ou laissée comme caractère générique.<br/>                                                       |
 | [**IsInterval**](swbemdatetime-isinterval.md)<br/>                       | Lecture/écriture<br/> | Indique qu’au moins un composant de la valeur [DateTime](datetime.md) CIM représente un intervalle et non une date.<br/> |
 | [**Microsecondes**](swbemdatetime-microseconds.md)<br/>                   | Lecture/écriture<br/> | Composant microsecondes d’une valeur [DateTime](datetime.md) CIM.<br/>                                                  |
 | [**MicrosecondsSpecified**](swbemdatetime-microsecondsspecified.md)<br/> | Lecture/écriture<br/> | Indique si le composant microsecondes est spécifié ou laissé comme caractère générique.<br/>                                     |
-| [**Maximum**](swbemdatetime-minutes.md)<br/>                             | Lecture/écriture<br/> | Composant « minutes » d’une valeur [DateTime](datetime.md) CIM.<br/>                                                       |
+| [**Minutes**](swbemdatetime-minutes.md)<br/>                             | Lecture/écriture<br/> | Composant « minutes » d’une valeur [DateTime](datetime.md) CIM.<br/>                                                       |
 | [**MinutesSpecified**](swbemdatetime-minutesspecified.md)<br/>           | Lecture/écriture<br/> | Indique si le composant « minutes » est spécifié ou laissé comme caractère générique.<br/>                                          |
 | [**Chronique**](swbemdatetime-month.md)<br/>                                 | Lecture/écriture<br/> | Composant « mois » d’une valeur [DateTime](datetime.md) CIM.<br/>                                                         |
 | [**MonthSpecified**](swbemdatetime-monthspecified.md)<br/>               | Lecture/écriture<br/> | Indique si le mois est spécifié ou laissé comme caractère générique.<br/>                                                      |
-| [**Durée**](swbemdatetime-seconds.md)<br/>                             | Lecture/écriture<br/> | Composant « secondes » d’une valeur [DateTime](datetime.md) CIM.<br/>                                                       |
+| [**Secondes**](swbemdatetime-seconds.md)<br/>                             | Lecture/écriture<br/> | Composant « secondes » d’une valeur [DateTime](datetime.md) CIM.<br/>                                                       |
 | [**SecondsSpecified**](swbemdatetime-secondsspecified.md)<br/>           | Lecture/écriture<br/> | Indique si le composant seconds est spécifié ou laissé comme caractère générique.<br/>                                          |
 | [**UNIVERSEL**](swbemdatetime-utc.md)<br/>                                     | Lecture/écriture<br/> | Composant UTC d’une valeur [DateTime](datetime.md) CIM.<br/>                                                           |
 | [**UTCSpecified**](swbemdatetime-utcspecified.md)<br/>                   | Lecture/écriture<br/> | Indique si le composant UTC est spécifié ou laissé comme caractère générique.<br/>                                              |
@@ -85,7 +85,7 @@ L’objet **SWbemDateTime** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI enregistre les horodateurs au format UTC (Universal Time Coordinate). L’heure UTC n’est pas le format utilisé par la plupart des développeurs et administrateurs informatiques. Par conséquent, un problème courant consiste à déterminer comment traduire le temps universel coordonné (UTC) en un nom plus lisible. Pour plus d’informations sur l’utilisation du temps universel coordonné (UTC), consultez [tâches WMI : dates et heures](wmi-tasks--dates-and-times.md) et [utilisation de dates et d’heures à l’aide de WMI](/previous-versions/tn-archive/ee198928(v=technet.10)). Vous pouvez également lire les informations [sur le temps (OH et sur les dates)](/previous-versions/technet-magazine/cc160973(v=msdn.10)) et [comment soustraire un nombre spécifié de jours d’une valeur UTC ?](https://blogs.technet.com/b/heyscriptingguy/archive/2006/07/21/how-can-i-subtract-a-specified-number-of-days-from-a-utc-value.aspx) billets de blog pour plus d’informations.
 

@@ -3,7 +3,7 @@ title: NomBibliothèque (attribut)
 description: L’attribut NomBibliothèque est le nom de la bibliothèque à laquelle l’élément appartient.
 ms.assetid: 70ce2de1-6c7b-427a-ba48-a9f69bacd015
 keywords:
-- L’attribut NomBibliothèque lecteur Windows Media
+- nombibliothèque (Lecteur Windows Media d’attribut)
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 263023c9881e109efe77ec30c1e37091200c051b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 57d2b86a1b551fab103db732dd5405187c06395f37b1ae59c030c3a75a05f275
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054787"
 ---
 # <a name="libraryname-attribute"></a>NomBibliothèque (attribut)
 
@@ -30,7 +30,7 @@ L’attribut NomBibliothèque est le nom de la bibliothèque à laquelle l’él
 -   [**Éléments de sélection**](playlist-attributes-ref.md)
 -   [**Éléments vidéo**](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un élément multimédia peut appartenir à la bibliothèque locale de l’utilisateur actuel ou il peut appartenir à une bibliothèque qui a été mise à la disposition d’un autre utilisateur sur un réseau privé.
 

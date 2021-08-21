@@ -4,12 +4,12 @@ ms.assetid: 4b731f22-6837-4c03-9c8c-a76451369cf1
 title: Types d’applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fb365863ee2b2fbe41997facdf21d84866af1f6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 13bf55f7c2f25c490f0806a7924d32c6cbf981e79b8461ba12fc0f95964691c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499669"
 ---
 # <a name="types-of-com-applications"></a>Types d’applications COM+
 
@@ -20,7 +20,7 @@ Voici les quatre types de base d’applications COM+ :
 -   **Proxys d’application.** Un *proxy d’application* est un ensemble de fichiers contenant des informations d’inscription permettant à un client d’accéder à distance à une application serveur. Lorsqu’il est exécuté sur un ordinateur client, un fichier de proxy d’application écrit les informations relatives à l’application serveur COM+, y compris les CLSID, les ProgID, les RemoteServerName et les informations de marshaling, sur l’ordinateur client. L’application serveur est ensuite accessible à distance à partir de l’ordinateur client.
 -   **Applications préinstallées par com+**. COM+ comprend un ensemble d’applications préinstallées qui gèrent les fonctions internes. Les applications préinstallées sont répertoriées dans le dossier applications COM+ de l’outil d’administration Services de composants, mais elles ne peuvent pas être modifiées ou supprimées. Ces applications sont les suivantes :
     -   Utilitaires .NET
-    -   Application de l’éditeur de contrôle de l’analyseur
+    -   Application Publisher contrôle de l’analyseur
     -   Explorateur COM+
     -   Écouteur de file d’attente de lettres mortes QC COM+
     -   Utilitaires COM+
@@ -30,9 +30,9 @@ Voici les quatre types de base d’applications COM+ :
 
 ## <a name="notes"></a>Notes
 
-À compter de Windows Server 2003, il est possible d’exécuter des applications COM+ même si l’application système est désactivée. Les applications COM+ seront exécutées, mais sans les services généralement fournis par l’application système. Ces services incluent l’utilisation de l’outil d’administration Services de composants et le suivi des événements système.
+à partir de Windows Server 2003, il est possible d’exécuter des applications COM+ même si l’Application système est désactivée. Les applications COM+ seront exécutées, mais sans les services généralement fournis par l’application système. Ces services incluent l’utilisation de l’outil d’administration Services de composants et le suivi des événements système.
 
-À compter de Windows Server 2003, la fonctionnalité d’authentification de l’application système COM+ comprend également la valeur EOAC \_ Disable \_ AAA. Cette valeur, qui désactive les activations AAA (Activate-As-Activator), est utilisée avec la fonction [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) lors du lancement de l’application système. La définition de la fonctionnalité d’authentification sur EOAC \_ Disable \_ AAA permet à une application qui s’exécute sous un compte privilégié (tel que LocalSystem) d’empêcher son identité d’être utilisée pour lancer des composants non fiables.
+à partir de Windows Server 2003, la fonction d’authentification de l’Application système COM+ comprend également la valeur EOAC \_ DISABLE \_ AAA. Cette valeur, qui désactive les activations AAA (Activate-As-Activator), est utilisée avec la fonction [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) lors du lancement de l’application système. La définition de la fonctionnalité d’authentification sur EOAC \_ Disable \_ AAA permet à une application qui s’exécute sous un compte privilégié (tel que LocalSystem) d’empêcher son identité d’être utilisée pour lancer des composants non fiables.
 
  
 

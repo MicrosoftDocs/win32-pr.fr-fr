@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ea694c09e11e5801016a4ea85b9774448c542991
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 15d9142abb95998fce803c30c439632775cd8ff807f3b7d99653875d08e534e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020667"
 ---
 # <a name="compress-method-of-the-win32_directory-class"></a>Méthode Compress de la \_ classe Directory Win32
 
@@ -137,7 +137,7 @@ Un paramètre spécifié n’est pas valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La compression permet de libérer de l’espace de stockage supplémentaire sur un lecteur de disque sans acheter de nouveau matériel ni supprimer de fichiers ou de dossiers. En fonction de la taille de votre disque dur et du type de fichiers stockés sur ce disque, vous pouvez récupérer des centaines de mégaoctets d’espace disque et, par conséquent, éviter d’acheter un nouveau disque dur et de mettre l’ordinateur hors connexion jusqu’à ce que le nouveau lecteur soit installé.
 
@@ -145,7 +145,7 @@ La méthode Compress compresse tous les fichiers et sous-dossiers dans un dossie
 
 Dans la mesure où la compression réduit légèrement les performances, il n’est pas recommandé pour les fichiers ou dossiers accessibles sur une base régulière. par exemple, vous ne souhaitez probablement pas compresser des fichiers de base de données, des fichiers journaux ou des dossiers de profil utilisateur. Les meilleurs candidats à la compression sont les fichiers et les dossiers qui ne sont pas très souvent utilisés. Par exemple, vous pouvez écrire un script pour retourner une collection de dossiers sur un lecteur qui n’a pas été consulté depuis un mois ou plus, puis compresser chacun de ces dossiers.
 
-La quantité d’espace disque libérée par la compression des dossiers varie selon le type de fichier stocké dans ce dossier. Par exemple, les fichiers. jpg sont déjà compressés et la compression n’a que peu d’effet sur la taille du fichier. Toutefois, avec d’autres types de fichiers, les économies peuvent être considérables. Par exemple, un nouveau dossier a été créé sur un ordinateur de test Windows 2000 et 33 documents Microsoft Word, qui occupent un total de 15 mégaoctets (Mo) d’espace disque, ont été copiés dans ce dossier. Lorsque les documents ont été compressés, le dossier n’a pris que 7 Mo d’espace disque.
+La quantité d’espace disque libérée par la compression des dossiers varie selon le type de fichier stocké dans ce dossier. Par exemple, .jpg fichiers sont déjà compressés et la compression n’a que peu d’effet sur la taille du fichier. Toutefois, avec d’autres types de fichiers, les économies peuvent être considérables. par exemple, un nouveau dossier a été créé sur un ordinateur de test Windows 2000 et 33 Microsoft Word documents, avec un total de 15 mégaoctets (mo) d’espace disque, ont été copiés dans ce dossier. Lorsque les documents ont été compressés, le dossier n’a pris que 7 Mo d’espace disque.
 
 ## <a name="examples"></a>Exemples
 

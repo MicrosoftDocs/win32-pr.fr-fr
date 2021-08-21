@@ -6,12 +6,12 @@ keywords:
 - définition des propriétés de tâche Planificateur de tâches, priorité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 540405ebe3544d6fad9418533957ddcda8a567c0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 574d88a10bda5d9de93dde3607618aa3827ee89aa02588e0c1253f7fccdeca12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011639"
 ---
 # <a name="cc-code-example-setting-task-priority"></a>Exemple de code C/C++ : définition de la priorité de la tâche
 
@@ -139,9 +139,9 @@ int main(int argc, char **argv)
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

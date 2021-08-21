@@ -1,37 +1,38 @@
 ---
-description: Cet article fournit un index de la documentation sur les API Win32 disponibles pour les fonctionnalités et les technologies Windows.
+description: cet article fournit un index de la documentation sur les api Win32 disponibles pour Windows les fonctionnalités et les technologies.
 ms.assetid: FF115416-220F-4FCD-8690-F9C0890CD6CC
 title: Technologies d’application de bureau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b5b6e077c5f8fde2e723fbf9a971cbe09b8d008
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: fd764c23b38e7239cea1d4d26d018ecbf9711b22
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106535848"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812217"
 ---
 # <a name="desktop-app-technologies"></a>Technologies d’application de bureau
 
-Cette section fournit des conseils détaillés et des exemples de code relatifs aux fonctionnalités Windows qui sont disponibles pour les applications de bureau à l’aide de l’API Win32.
+cette section fournit des conseils détaillés et des exemples de code relatifs à Windows fonctionnalités disponibles pour les applications de bureau à l’aide de l’API Win32.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
 | Rubrique | Description  |  
 |----------------------------------|---|
-| [Accessibilité](accessibility/accessibility.md) | Fournit des conseils pour les développeurs Windows qui conçoivent des applications accessibles, les développeurs de technologie d’assistance qui créent des outils tels que les lecteurs d’écran et les loupes, et les ingénieurs de test de logiciel qui créent des scripts automatisés pour tester des applications Windows. |
+| [Accessibilité](accessibility/accessibility.md) | fournit des conseils pour les développeurs de Windows qui conçoivent des applications accessibles, les développeurs de technologie d’assistance qui créent des outils tels que les lecteurs d’écran et les loupes, et les ingénieurs de test de logiciels qui créent des scripts automatisés pour tester des applications Windows |
 | [Interface utilisateur de bureau](windows-application-ui-development.md) | Fournit des informations qui vous permettent de développer des interfaces utilisateur graphiques pour vos applications, notamment des fonctionnalités telles que les fenêtres et les messages, les ressources et les contrôles. |
-| [Environnement de bureau](user-interface.md) | Fournit des conseils pour l’intégration et l’extension des fonctionnalités destinées aux utilisateurs de bureau de Windows, y compris la barre des tâches, le bureau et l’Explorateur de fichiers. |
-| [Installation d’application et maintenance](application-installing-and-servicing.md) | Fournit des informations sur l’utilisation des API et des services fournis par Windows pour installer, gérer et traiter vos applications de bureau. |
+| [Environnement de bureau](user-interface.md) | fournit des conseils pour l’intégration et l’extension des fonctionnalités accessibles aux utilisateurs du bureau de Windows, y compris la barre des tâches, le bureau et l’explorateur de fichiers. |
+| [Installation d’application et maintenance](application-installing-and-servicing.md) | fournit des informations sur l’utilisation des api et des services fournis par Windows pour installer, gérer et traiter vos applications de bureau. |
 | [Audio et vidéo](audio-and-video.md) | Fournit des conseils sur l’utilisation des fonctionnalités audio et vidéo fournies par Windows. |
 | [Accès aux données et stockage](data-access-and-storage.md) | Fournit des informations sur l’accès aux données et les fonctionnalités de stockage que vous pouvez utiliser dans vos applications de bureau, notamment la gestion du système de fichiers et les moteurs de synchronisation du Cloud.  |
 | [Appareils](devices.md) | Décrit les API permettant d’interagir avec les appareils et les capteurs. |
 | [Diagnostics](diagnostics.md) | Fournit des conseils sur le débogage et la gestion des erreurs, le profilage des performances, l’analyse du réseau et d’autres fonctionnalités de diagnostic. |
-| [Documents et impression](printdocs/documents-and-printing.md) | Décrit les documents et les fonctionnalités d’impression de Windows qui permettent aux applications d’enregistrer, d’afficher et d’imprimer.  |
-| [Graphismes et jeux ](graphics-and-multimedia.md) | Fournit des informations sur les fonctionnalités graphiques et de jeux de Windows, y compris DirectX et l’imagerie numérique.  |
-| [Mise en réseau et Internet](networking.md) | Fournit des conseils sur la mise en réseau et les fonctionnalités Internet de Windows, notamment la gestion du réseau, les API HTTP et l’appel de procédure distante (RPC). |
+| [Documents et impression](printdocs/documents-and-printing.md) | décrit les documents et les fonctionnalités d’impression des Windows qui permettent aux applications d’enregistrer, d’afficher et d’imprimer.  |
+| [Graphismes et jeux ](graphics-and-multimedia.md) | fournit des informations sur les fonctionnalités graphiques et de jeu de Windows, y compris DirectX et l’imagerie numérique.  |
+| [Mise en réseau et Internet](networking.md) | fournit des conseils sur la mise en réseau et les fonctionnalités Internet de Windows, notamment la gestion du réseau, les api HTTP et l’appel de procédure distante (RPC). |
 | [Sécurité et identité](security.md) | Fournit des informations sur l’authentification, l’autorisation, le chiffrement et d’autres fonctionnalités de sécurité de Windows. |
 | [Services système](system-services.md) | Fournit des conseils sur les fonctionnalités fondamentales du système d’exploitation, telles que les processus et les threads, les services, les bibliothèques de liens dynamiques, COM, le registre, et bien plus encore. |
+| [IA et Machine Learning](/windows/ai/) | Transformez votre application Windows en utilisant la puissance de l’intelligence artificielle. Windows IA vous permet à vous et à votre entreprise d’aller plus loin en fournissant des solutions intelligentes à des problèmes complexes. |
 
 <!--
 <br/>

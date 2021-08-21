@@ -4,12 +4,12 @@ description: Lorsque vous téléchargez un fichier, le service BITS crée un ID 
 ms.assetid: 97283f8e-d2fa-4383-9b92-a05f46680443
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae59bb1d605af7e4dd53b0c1d66618b6816e7886
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4c08555acf8bcdc99576675b0ec5852f322f7b37fea9821f3f0156352a29b61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701699"
 ---
 # <a name="preventing-multiple-uploads"></a>Empêcher plusieurs chargements
 
@@ -21,9 +21,9 @@ Le serveur BITS tentera d’envoyer le fichier de téléchargement une seule foi
 
 Un même cas de figure peut se produire même avec un serveur frontal unique. Par exemple, lorsque le client a téléchargé la totalité du fichier sur le serveur, le bloc final fait en sorte que le serveur transfère le fichier à l’application serveur. Si le serveur BITS ou l’application serveur se termine après le traitement du fichier mais avant que l’accusé de réception ne soit envoyé au client, le client recevra un code d’erreur et réessaiera ultérieurement. Lorsque le client effectue une nouvelle tentative, le serveur BITS voit que le dernier bloc a été chargé, et il transfère à nouveau le fichier à l’application serveur. Si la réception du fichier de téléchargement à plusieurs moments est un problème pour votre application serveur, vous devez envisager d’inclure un identificateur de transaction dans les données.
 
- 
+ 
 
- 
+ 
 
 
 

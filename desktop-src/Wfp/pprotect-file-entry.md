@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Sfcfiles.h
-ms.openlocfilehash: 98cda570a3677560d51800d58822d93a942847c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9070290170febf08e532b071812600fb0ef8755302a4bd1603858659196d0c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053197"
 ---
 # <a name="pprotect_file_entry-structure"></a>Structure d’entrée de \_ fichier PPROTECT \_
 
-\[Cette structure peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. La prise en charge de cette structure a été supprimée dans Windows Vista et Windows Server 2008. Utilisez à la place les fonctions prises en charge listées dans [fonctions WRP](wfp-functions.md) .\]
+\[Cette structure peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. la prise en charge de cette structure a été supprimée dans Windows Vista et Windows Server 2008. Utilisez à la place les fonctions prises en charge listées dans [fonctions WRP](wfp-functions.md) .\]
 
 Structure utilisée par la fonction [**SfcGetFiles**](sfcgetfiles.md) .
 
@@ -70,8 +70,8 @@ Pointeur vers la valeur de chaîne contenant le nom du fichier INF qui fournit l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                 |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                        |
 | En-tête<br/>                   | <dl> <dt>Sfcfiles. h</dt> </dl> |

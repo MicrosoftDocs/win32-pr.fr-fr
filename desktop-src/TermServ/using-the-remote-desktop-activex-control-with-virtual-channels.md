@@ -1,20 +1,20 @@
 ---
-title: Utilisation du contrôle ActiveX Bureau à distance avec des canaux virtuels
+title: utilisation du contrôle Bureau à distance ActiveX avec des canaux virtuels
 description: Si vous avez activé une application de canaux virtuels dans votre déploiement Services Bureau à distance, vous pouvez mettre cette application à la disposition des ordinateurs clients.
 ms.assetid: df537ffb-41dd-400e-8a49-9d8a10734eda
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 026c8fa23f1498270bd0d2a29c5f48d50f0b2463
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9dae33c059a84422788bc49d47f95e0011f78930054ed3884669e8f35763461b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868729"
 ---
-# <a name="using-the-remote-desktop-activex-control-with-virtual-channels"></a>Utilisation du contrôle ActiveX Bureau à distance avec des canaux virtuels
+# <a name="using-the-remote-desktop-activex-control-with-virtual-channels"></a>utilisation du contrôle Bureau à distance ActiveX avec des canaux virtuels
 
-Si vous avez activé une application de canaux virtuels dans votre déploiement Services Bureau à distance, vous pouvez mettre cette application à la disposition des ordinateurs clients qui accèdent au serveur de l’hôte de session Bureau à distance (hôte de session Bureau à distance) au moyen du contrôle ActiveX Bureau à distance.
+si vous avez activé une application de canaux virtuels dans votre déploiement Services Bureau à distance, vous pouvez mettre cette application à la disposition des ordinateurs clients qui accèdent au serveur de l’hôte de session Bureau à distance (hôte de session bureau à distance) au moyen du contrôle de ActiveX Bureau à distance.
 
 **Pour rendre une application de canal virtuel disponible**
 
@@ -34,16 +34,16 @@ Si vous avez activé une application de canaux virtuels dans votre déploiement 
 
 2.  Assurez-vous que le module côté client est installé dans le répertoire% windir% \\ system32.
 
-L’API de canal virtuel ne permet pas de charger plusieurs instances de la même DLL de canal virtuel au sein d’un même processus. Pour cette raison, si plusieurs instances du Bureau à distance contrôle ActiveX s’exécutent dans le même processus, seule la première instance du contrôle sera en mesure de charger la DLL du canal virtuel. Si vous concevez une application de canal virtuel qui doit prendre en charge plusieurs instances au sein d’un même processus, vous devez utiliser l’API [canaux virtuels dynamiques](dynamic-virtual-channels.md) pour implémenter votre application de canal virtuel.
+L’API de canal virtuel ne permet pas de charger plusieurs instances de la même DLL de canal virtuel au sein d’un même processus. pour cette raison, s’il existe plusieurs instances du Bureau à distance ActiveX contrôle s’exécutant dans le même processus, seule la première instance du contrôle sera en mesure de charger la DLL du canal virtuel. Si vous concevez une application de canal virtuel qui doit prendre en charge plusieurs instances au sein d’un même processus, vous devez utiliser l’API [canaux virtuels dynamiques](dynamic-virtual-channels.md) pour implémenter votre application de canal virtuel.
 
 > [!Note]  
-> Par défaut, le contrôle ActiveX Bureau à distance charge les dll du client de canal virtuel à partir du répertoire% windir% \\ system32. Il est possible pour un administrateur de modifier ce répertoire DLL de plug-in client par défaut. Pour ce faire, modifiez la clé de Registre **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Terminal Server client** \\ **vdllpath** sur l’ordinateur client. Ce chemin d’accès de répertoire ne peut pas être spécifié au format UNC.
+> par défaut, le contrôle Bureau à distance ActiveX charge les dll du client du canal virtuel à partir du répertoire% windir% \\ system32. Il est possible pour un administrateur de modifier ce répertoire DLL de plug-in client par défaut. Pour ce faire, modifiez la clé de Registre **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Terminal Server client** \\ **vdllpath** sur l’ordinateur client. Ce chemin d’accès de répertoire ne peut pas être spécifié au format UNC.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

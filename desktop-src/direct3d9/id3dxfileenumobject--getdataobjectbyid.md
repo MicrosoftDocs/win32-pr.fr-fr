@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 82a74ca4ff472d678ded92aa01f2c2406560955e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1a99da554a404a9bcc279830eaf50710a67a8c62bb61d1b67ac84c90b8fdc594
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118659"
 ---
 # <a name="id3dxfileenumobjectgetdataobjectbyid-method"></a>ID3DXFileEnumObject :: GetDataObjectById, méthode
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : DXFILEERR \_ BADVALUE, DXFILEERR \_ NotFound.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obtient le GUID rguid de l’objet de données de fichier actuel avec la méthode [**ID3DXFileData :: GetId**](id3dxfiledata--getid.md) .
 

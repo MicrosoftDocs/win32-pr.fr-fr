@@ -4,27 +4,27 @@ description: Cette rubrique montre comment traiter une notification de format de
 ms.assetid: 74E29438-2F50-4ADD-B0C4-DB3450BF08D7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e8de1e1a80d04f9a7f9e9d0cfcda198118e67c2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 941c148332c36711e68b7c3b773fdb47acef202c5fd2a67f5620319f06c7fbc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696939"
 ---
 # <a name="how-to-process-the-dtn_formatquery-notification"></a>Comment traiter la notification DTN \_ FORMATQUERY
 
 Cette rubrique montre comment traiter une notification de format de requête envoyée par le contrôle de sélecteur de date et d’heure (PAO).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -33,7 +33,7 @@ Un contrôle de PAO envoie un code de notification [DTN \_ FORMATQUERY](dtn-form
 
 L’exemple de code C++ suivant est une fonction définie par l’application qui traite le code de notification [DTN \_ FORMATQUERY](dtn-formatquery.md) en calculant la largeur de la chaîne la plus large possible pour un champ de rappel donné.
 
-**Avertissement de sécurité :** L’utilisation incorrecte de **lstrcmp** peut compromettre la sécurité de votre application. Par exemple, avant d’appeler **lstrcmp** dans l’exemple de code suivant, vous devez vous assurer que les deux chaînes se terminent par un caractère null. Vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
+**Avertissement de sécurité :** L’utilisation incorrecte de **lstrcmp** peut compromettre la sécurité de votre application. Par exemple, avant d’appeler **lstrcmp** dans l’exemple de code suivant, vous devez vous assurer que les deux chaînes se terminent par un caractère null. vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
 
 
 

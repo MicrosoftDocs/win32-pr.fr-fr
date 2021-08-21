@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 142ac518c91c6378f1606235e25502be8c06dd6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 505ff0e2d74f9eb4f252e4e663ceec00fd86469b3d69374623b2763915a08b0d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491609"
 ---
 # <a name="glshademodel-function"></a>glShadeModel fonction)
 
@@ -57,14 +57,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *mode* est une valeur autre que GL \_ glat ou GL \_ Smooth.<br/>                                                                      |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les primitives OpenGL peuvent avoir un ombrage plat ou lissé. L’ombrage lissé, par défaut, entraîne l’interpolation des couleurs calculées des vertex lorsque la primitive est pixellisée, en affectant généralement des couleurs différentes à chaque fragment de pixel résultant. L’ombrage plat sélectionne la couleur calculée d’un seul vertex et l’attribue à tous les fragments de pixel générés par la pixellisation d’une seule primitive. Dans les deux cas, la couleur calculée d’un vertex est le résultat de l’éclairage, si l’éclairage est activé ou s’il s’agit de la couleur actuelle au moment de la spécification du vertex, si l’éclairage est désactivé.
 

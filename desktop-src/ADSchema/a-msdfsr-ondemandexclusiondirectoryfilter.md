@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac6da8cff9dedf0baaa9557cb261e00714f71e1b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8b3910d3ec53f4780fb8c49fc2a73b9fce6c66995448a59f6cb632384f028180
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119298739"
 ---
 # <a name="ms-dfsr-ondemandexclusiondirectoryfilter-attribute"></a>attribut ms-DFSR-OnDemandExclusionDirectoryFilter
 
@@ -42,7 +42,7 @@ Chaîne de filtrage appliquée aux répertoires de réplication à la demande.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -55,7 +55,7 @@ Chaîne de filtrage appliquée aux répertoires de réplication à la demande.
 | ID de lien                | \-                                                                                                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                                                                                                     |
 | System-Only            | Faux                                                                                                                                                                                                  |
-| Est de valeur unique       | Vrai                                                                                                                                                                                                   |
+| Est de valeur unique       | True                                                                                                                                                                                                   |
 | Est indexé             | Faux                                                                                                                                                                                                  |
 | Dans le catalogue global      | Faux                                                                                                                                                                                                  |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                                           |
@@ -76,7 +76,7 @@ Chaîne de filtrage appliquée aux répertoires de réplication à la demande.
 | ID de lien                | \-                                                                                                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                                                                                                     |
 | System-Only            | Faux                                                                                                                                                                                                  |
-| Est de valeur unique       | Vrai                                                                                                                                                                                                   |
+| Est de valeur unique       | True                                                                                                                                                                                                   |
 | Est indexé             | Faux                                                                                                                                                                                                  |
 | Dans le catalogue global      | Faux                                                                                                                                                                                                  |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                                           |
@@ -97,7 +97,7 @@ Chaîne de filtrage appliquée aux répertoires de réplication à la demande.
 | ID de lien                | \-                                                                                                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                                                                                                     |
 | System-Only            | Faux                                                                                                                                                                                                  |
-| Est de valeur unique       | Vrai                                                                                                                                                                                                   |
+| Est de valeur unique       | True                                                                                                                                                                                                   |
 | Est indexé             | Faux                                                                                                                                                                                                  |
 | Dans le catalogue global      | Faux                                                                                                                                                                                                  |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                                           |

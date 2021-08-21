@@ -4,16 +4,16 @@ description: BITSAdmin est un outil de ligne de commande que vous pouvez utilise
 ms.assetid: 686d2201-c142-4e1c-a2b1-347d9334caa8
 ms.topic: article
 ms.date: 03/05/2019
-ms.openlocfilehash: 6d2bf864c0efcbaed5409ed0aaeeaf5786d85e36
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 644e11bedfd66ef765fe1c453eaad77956dfc779b8873a4b5268a46270224c3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104569818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701902"
 ---
 # <a name="bitsadmin-tool"></a>Outil BITSAdmin
 
-BITSAdmin est un outil de ligne de commande que vous pouvez utiliser pour créer des travaux de téléchargement ou de téléchargement et pour surveiller leur progression. Pour obtenir une documentation complète et complète de l’outil et de toutes ses commandes, consultez les exemples [Bitsadmin](/windows-server/administration/windows-commands/bitsadmin) et [Bitsadmin](/windows-server/administration/windows-commands/bitsadmin-examples) dans le Windows IT Pro Center.
+BITSAdmin est un outil de ligne de commande que vous pouvez utiliser pour créer des travaux de téléchargement ou de téléchargement et pour surveiller leur progression. pour obtenir une documentation complète et complète de l’outil et de toutes ses commandes, consultez les exemples [bitsadmin](/windows-server/administration/windows-commands/bitsadmin) et [bitsadmin](/windows-server/administration/windows-commands/bitsadmin-examples) dans la Windows IT Pro Center.
 
 Par exemple, pour répertorier toutes les tâches BITS, vous pouvez exécuter la commande `bitsadmin /list /verbose` . Voici une capture d’écran de l’exemple de sortie pour cette commande.
 
@@ -21,5 +21,5 @@ Par exemple, pour répertorier toutes les tâches BITS, vous pouvez exécuter la
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-* [Bitsadmin](/windows-server/administration/windows-commands/bitsadmin)  dans le Windows IT Pro Center
-* [exemples Bitsadmin](/windows-server/administration/windows-commands/bitsadmin-examples) dans le Windows IT Pro Center
+* [bitsadmin](/windows-server/administration/windows-commands/bitsadmin) dans le centre de Pro informatique Windows
+* [exemples bitsadmin](/windows-server/administration/windows-commands/bitsadmin-examples) dans le centre de Pro informatique Windows

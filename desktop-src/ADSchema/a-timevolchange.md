@@ -36,7 +36,7 @@ Cet attribut indique l’heure de la dernière modification d’un fichier du vo
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.502               |
 | System-ID-GUID    | ddac0cf0-af8f-11d0-afeb-00c04fd930c9 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 

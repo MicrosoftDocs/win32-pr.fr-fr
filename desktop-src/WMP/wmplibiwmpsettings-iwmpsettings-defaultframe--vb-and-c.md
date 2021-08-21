@@ -3,9 +3,9 @@ title: IWMPSettings propriété defaultFrame
 description: La propriété defaultFrame obtient ou définit le nom du frame utilisé pour afficher une URL qui est reçue dans un \_ \_ événement ScriptCommandEvent WMPOCXEvents.
 ms.assetid: 92c775ac-5ff1-4d21-b21d-491bc48a033f
 keywords:
-- propriété defaultFrame lecteur Windows Media
-- propriété defaultFrame lecteur Windows Media, interface IWMPSettings
-- Interface IWMPSettings lecteur Windows Media, propriété defaultFrame
+- Lecteur Windows Media de la propriété defaultFrame
+- Lecteur Windows Media de la propriété defaultFrame, interface IWMPSettings
+- Lecteur Windows Media de l’interface IWMPSettings, propriété defaultFrame
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28539640214165ab5b2808762ed854b19b434311
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b39352b2c49bfdcd50f3e5c74d88a9fafef6752034dbd220cda3bb34dc0ed5de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053437"
 ---
 # <a name="iwmpsettingsdefaultframe-property"></a>IWMPSettings ::d propriété efaultFrame
 
@@ -48,7 +48,7 @@ Public Property defaultFrame As System.String
 
 **System. String** qui est la valeur de l’attribut Name de l’élément **Frame** cible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un frame cible est spécifié dans l’événement **\_ WMPOCXEvents \_ ScriptCommandEvent** lui-même, cette propriété est ignorée.
 
@@ -70,7 +70,7 @@ Cette propriété est ignorée lors de l’utilisation de l’applet Java de Net
 
 <dl> <dt>
 
-[**Événement AxWindowsMediaPlayer. commande (VB et C#)**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
+[**événement AxWindowsMediaPlayer. commande (VB et C#)**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
 </dt> <dt>
 
 [**Interface IWMPSettings (VB et C#)**](iwmpsettings--vb-and-c.md)

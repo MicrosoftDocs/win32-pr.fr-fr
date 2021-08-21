@@ -1,9 +1,9 @@
 ---
 title: Message ICM_GETQUALITY (VFW. h)
-description: Le \_ message GETQUALITY ICM interroge un pilote de compression vidéo pour retourner son paramètre de qualité actuel.
+description: le \_ message ICM GETQUALITY interroge un pilote de compression vidéo pour retourner son paramètre de qualité actuel.
 ms.assetid: 8da99a26-7b2a-4118-89e1-7485915cbdc9
 keywords:
-- Message ICM_GETQUALITY Windows Multimedia
+- message ICM_GETQUALITY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c4fa2a26e1fe5fa111585ce0a59422a2fe9b072
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cef214fe36c713e63659fcbd4dde2021c8d410b36ea9f5525ed54c76c5c4b6a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495859"
 ---
-# <a name="icm_getquality-message"></a>\_Message GETQUALITY ICM
+# <a name="icm_getquality-message"></a>ICM \_ Message GETQUALITY
 
-Le **message \_ GETQUALITY ICM** interroge un pilote de compression vidéo pour retourner son paramètre de qualité actuel.
+le message **ICM \_ GETQUALITY** interroge un pilote de compression vidéo pour retourner son paramètre de qualité actuel.
 
 
 ```C++

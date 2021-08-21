@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6025c40465ecf2e8fe7a33dcda50ece07d34b9d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: a7703a3539ff16c7f2dc78d51c62cfe05612dcb6e935bb5c5701f9a7b59a9f1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106531600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869569"
 ---
 # <a name="optimize-attribute"></a>optimiser l’attribut
 
@@ -26,7 +26,7 @@ L’attribut **\[ optimize \]** ACF est utilisé pour affiner le niveau de grada
 > [!Note]  
 > Ce mot clé est superceeded et ne doit pas être utilisé. Les compilations MIDL actuelles doivent utiliser [**/Oicf**](-oi.md)[**/Robust**](-robust.md) à la place.
 
- 
+ 
 
 ``` syntax
 optimize ("optimization-options")
@@ -43,7 +43,7 @@ Spécifie la méthode de marshaling des données. Utilisez « s » pour le mar
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette version de RPC fournit deux méthodes pour le marshaling des données : mode mixte (« s ») et interprété (« i »). Ces méthodes correspondent aux commutateurs de ligne de commande [**/OS**](-os.md) et [**/OI**](-oi.md) . La méthode interprétée marshale les données complètement hors connexion. Bien que cela puisse réduire considérablement la taille du stub, les performances peuvent être affectées.
 
@@ -74,9 +74,9 @@ optimize ("i") HRESULT SmallerProcedure(...);
 [**/Robust**](-robust.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

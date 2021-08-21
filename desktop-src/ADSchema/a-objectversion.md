@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f038f6286db575f4141c2e306086bb9a8faac71
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: facf10e8ea5466b75f9ce87f9a980a0ddc197dde839f40d76157f128c15b5d49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106512006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704549"
 ---
 # <a name="object-version-attribute"></a>Attribut Object-Version
 
@@ -36,7 +36,7 @@ Cela peut être utilisé pour stocker un numéro de version pour l’objet.
 | Fréquence des mises à jour  | Cette valeur doit être incrémentée chaque fois que l’objet change. |
 | Attribute-Id      | 1.2.840.113556.1.2.76                                          |
 | System-ID-GUID    | 16775848-47f3-11d1-a9c3-0000f80367c1                           |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                           |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                           |
 
 
 
@@ -46,7 +46,7 @@ Cela peut être utilisé pour stocker un numéro de version pour l’objet.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -1,21 +1,21 @@
 ---
-description: Windows autorise la définition locale de caractères non standard dans les jeux de caractères codés sur deux octets (DBCS) et Unicode.
+description: Windows permet la définition locale de caractères non standard dans les jeux de caractères codés sur deux octets (dbcs) et Unicode.
 ms.assetid: 32d0ddab-4b3f-473e-bf92-3230b3746079
 title: Jeux de caractères et polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43dbf3dae2875ec6d714419bb45411f3208bfe5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5eeee925f55887ac8120474f14b727ea244dc02c3b1e7908f424c0dbf09d502b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068279"
 ---
 # <a name="character-sets-and-fonts"></a>Jeux de caractères et polices
 
-Windows autorise la définition locale de caractères non standard dans les [jeux de caractères codés sur deux octets](double-byte-character-sets.md) (DBCS) et [Unicode](unicode.md). Pour un DBCS, ces caractères non standard sont connus sous le nom de caractères définis par l’utilisateur final (EUDC). Unicode offre une fonctionnalité similaire par le biais de sa zone d’utilisation privée (PUA). Les applications identifient un caractère spécifié à l’aide de la valeur de caractère DBCS ou Unicode associée.
+Windows permet la définition locale de caractères non standard dans les [jeux de caractères codés sur deux octets](double-byte-character-sets.md) (dbcs) et [Unicode](unicode.md). Pour un DBCS, ces caractères non standard sont connus sous le nom de caractères définis par l’utilisateur final (EUDC). Unicode offre une fonctionnalité similaire par le biais de sa zone d’utilisation privée (PUA). Les applications identifient un caractère spécifié à l’aide de la valeur de caractère DBCS ou Unicode associée.
 
-Les valeurs de caractères DBCS qui peuvent être assignées dépendent du jeu de caractères spécifié. Chaque [page de codes](code-pages.md) Windows asiatique a au moins une plage de valeurs réservées à utiliser comme EUDCs. Les plages sont définies par la clé de Registre [EUDCCodeRange](eudccoderange.md) . Les valeurs Unicode à cet effet proviennent toujours des PUA Unicode, des valeurs U + E000 à U + F8FF, U + F0000 à U + FFFFD et de U + 100000 à U + 10FFFD.
+Les valeurs de caractères DBCS qui peuvent être assignées dépendent du jeu de caractères spécifié. chaque [page de codes](code-pages.md) Windows d’extrême-orient a au moins une plage de valeurs réservées à utiliser comme EUDCs. Les plages sont définies par la clé de Registre [EUDCCodeRange](eudccoderange.md) . Les valeurs Unicode à cet effet proviennent toujours des PUA Unicode, des valeurs U + E000 à U + F8FF, U + F0000 à U + FFFFD et de U + 100000 à U + 10FFFD.
 
 Pour créer un caractère EUDC ou PUA, l’utilisateur choisit une valeur de caractère comprise dans la plage spécifiée et ajoute le [glyphe](uniscribe-glossary.md) à la police de l’entrée qui correspond à cette valeur de caractère. L’utilisateur crée le glyphe à l’aide d’un éditeur EUDC ou à l’aide d’un package de polices acheté auprès d’un fournisseur de polices. Toute police DBCS peut contenir EUDCs et toute police Unicode peut contenir des caractères PUA. La police est appelée une police EUDC/PUA « distincte » si elle contient uniquement des EUDCs. La police est une police EUDC/PUA « intégrée » si elle contient des caractères standard et EUDCs.
 
