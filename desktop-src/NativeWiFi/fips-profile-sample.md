@@ -9,20 +9,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f6d24f82a815c752a662af5f093dd9a7c34de33d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 688a5811407d8a0d48963a54db9fc0d717b75a719ba8879ba20f1e83cbf7012e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801289"
 ---
 # <a name="fips-profile-sample"></a>Exemple de profil FIPS
 
 L’exemple de profil FIPS peut être utilisé pour se connecter à un réseau qui requiert des paramètres de sécurité conformes à la norme FIPS (Federal Information Processing Standards) 140-2. Pour plus d’informations sur FIPS, consultez [**FipsMode**](wlan-profileschema-fipsmode-authencryption-element.md).
 
-**Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé :** Les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Le paramètre par défaut pour [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. La valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé. Le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Pour plus d’informations, reportez-vous à la description de l’élément de schéma [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
+**Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé :** les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Le paramètre par défaut pour [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. la valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé. le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Pour plus d’informations, reportez-vous à la description de l’élément de schéma [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) . L’élément [**FipsMode**](wlan-profileschema-fipsmode-authencryption-element.md) n’est pas pris en charge.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) . L’élément [**FipsMode**](wlan-profileschema-fipsmode-authencryption-element.md) n’est pas pris en charge.
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>

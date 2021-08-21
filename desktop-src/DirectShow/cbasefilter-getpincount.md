@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0081b4cec45ed4cac5b4f0883032631983824cec
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e7d136b5b3bbdcd8a6b21fcbd9f854de7a78a91be87a199c990e294ce8b28fb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640479"
 ---
 # <a name="cbasefiltergetpincount-method"></a>Méthode CBaseFilter. GetPinCount
 
@@ -40,11 +40,11 @@ virtual int GetPinCount() = 0;
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne le nombre de broches.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La classe dérivée doit implémenter cette méthode virtuelle pure. Retourne le nombre de codes confidentiels actuellement disponibles sur ce filtre. Les filtres peuvent créer ou détruire dynamiquement des broches.
 
@@ -54,7 +54,7 @@ La classe dérivée doit implémenter cette méthode virtuelle pure. Retourne le
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

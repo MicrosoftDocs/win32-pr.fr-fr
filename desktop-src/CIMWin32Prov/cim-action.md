@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a5f37fa4b62c1e8b678533de4abaa7f6a172904e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 171912934b7161a763bac75ceeb06a7ece0c521b4cefb163d67a9e2f42c34302
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080993"
 ---
 # <a name="cim_action-class"></a>\_Classe d’action CIM
 
@@ -398,7 +398,7 @@ Machine virtuelle Microsoft pour Java
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -480,7 +480,7 @@ NCR 3000
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -799,7 +799,7 @@ La version de l’opération doit se présenter sous l’une des formes suivante
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe. Consultez [classes Win32](win32-provider.md) pour les classes dérivées de l' **\_ action CIM**.
 

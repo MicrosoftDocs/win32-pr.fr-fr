@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7a0a59ae9e6724386cb2f7891a14e4bf9d4c1a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c568afbe63ab01bd2866f180f968ea80101fec2ff22062707f4929d662ea47ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519699"
 ---
 # <a name="gltexsubimage2d-function"></a>glTexSubImage2D fonction)
 
@@ -139,7 +139,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Name                                                                                                  | Signification                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | la *cible* n’était pas la \_ texture GL \_ 2D.<br/>                                                                                                                                                                                                                                                                                                                                                                 |
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *format* n’est pas une constante acceptée.<br/>                                                                                                                                                                                                                                                                                                                                                            |
@@ -154,7 +154,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La texturation à deux dimensions pour une primitive est activée à l’aide de [**glEnable**](glenable.md) et **glDisable** avec l’argument GL \_ texture \_ 2D. Pendant la texturation, une partie d’une image de texture spécifiée est mappée à chaque primitive activée. Vous utilisez la fonction **glTexSubImage2D** pour spécifier une sous-image contiguë d’une image de texture à deux dimensions existante pour la texturation.
 

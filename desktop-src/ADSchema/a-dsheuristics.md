@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65922b580975ec05877ae33d213ff3a3675ec72f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3a5d501cd8b34a8d1c391a75d9caa8243db8e3a94088a898b0c2b7672b2d0aab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106543635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656629"
 ---
 # <a name="ds-heuristics-attribute"></a>Attribut DS-Heuristics
 
@@ -48,7 +48,7 @@ Des informations sur les bits d’exclusion adminSDholder sont disponibles sur l
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -199,7 +199,7 @@ Des informations sur les bits d’exclusion adminSDholder sont disponibles sur l
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque forêt Active Directory contient un attribut DS-Heuristics qui contient des paramètres pour l’ensemble de la forêt. L’attribut DS-Heuristics est un attribut de l’objet « CN = Directory Service, CN = Windows NT, CN = Services, CN = Configuration <Domain> ».
 

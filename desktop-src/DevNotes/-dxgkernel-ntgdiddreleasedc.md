@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: a7319b423f12d7e4415d78d995bfb1d7cd0341a9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: daa4cad2f6f3937ebe29b3996ebbaa72b894ee743f97222cb1f6e2ff61f7dbb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824909"
 ---
 # <a name="ntgdiddreleasedc-function"></a>NtGdiDdReleaseDC fonction)
 
@@ -55,7 +55,7 @@ Handle vers l’objet de surface DirectDraw en mode noyau précédemment créé.
 
 En cas de réussite, cette fonction retourne la **valeur true**; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications qui doivent obtenir un contrôleur de réseau pour une surface DirectDraw peuvent utiliser [IDirectDrawSurface7 :: GetDC](/windows/win32/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc), qui expose cette fonctionnalité de façon indépendante du système d’exploitation.
 

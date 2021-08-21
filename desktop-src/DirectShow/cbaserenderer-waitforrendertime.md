@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 43a537728ca0874fa1dfd69b4712bcc97cf23850
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e590a09c2c6d4cc34728f5ec29db0d8f650d3a1e9cb663e5993acd2cebe4793f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157353"
 ---
 # <a name="cbaserendererwaitforrendertime-method"></a>Méthode CBaseRenderer. WaitForRenderTime
 
@@ -48,14 +48,14 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
 | Code de retour                                                                                           | Description                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                                                       |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                                                       |
 | <dl> <dt>**\_État VFW \_ E \_ modifié**</dt> </dl> | L’état du filtre a changé avant l’heure de la présentation.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode attend jusqu’à ce que l’un des éléments suivants se produise :
 
@@ -72,7 +72,7 @@ Cette méthode appelle la méthode [**CBaseRenderer :: OnWaitStart**](cbaserend
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

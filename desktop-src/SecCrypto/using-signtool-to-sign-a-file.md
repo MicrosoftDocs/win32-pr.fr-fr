@@ -4,16 +4,16 @@ ms.assetid: fa8ee4d3-8927-4f7d-a09e-dbcf75a164d3
 title: Utilisation de SignTool pour signer un fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 089026cde629278e5c6ac033164c2a9d26528917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a71d8e85e8e22f65ccbe8b5f15453b0a0cac34fc27697bad648b1c815f255b10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971469"
 ---
 # <a name="using-signtool-to-sign-a-file"></a>Utilisation de SignTool pour signer un fichier
 
-La commande suivante signe le fichier nommé MyControl.exe à l’aide d’un [*certificat*](../secgloss/c-gly.md) stocké dans un fichier d’échange d’informations personnelles (pfx) :
+la commande suivante signe le fichier nommé MyControl.exe à l’aide d’un [*certificat*](../secgloss/c-gly.md) stocké dans un fichier PFX (Personal Information Exchange) :
 
 <pre>SignTool sign /f <b>MyCert</b>.pfx MyControl.exe</pre>
 
@@ -35,11 +35,11 @@ La commande suivante signe et horodatage le fichier :
 
  
 
-La commande suivante signe le fichier à l’aide d’un certificat situé dans mon magasin avec le nom d’objet de l’éditeur de l’entreprise :
+La commande suivante signe le fichier à l’aide d’un certificat situé dans le magasin My, avec le nom d’objet My Company Publisher :
 
 <pre>SignTool sign /n "<b>My Company Publisher</b>" MyControl.exe</pre>
 
-La commande suivante signe un contrôle ActiveX et fournit des informations qui sont affichées par Internet Explorer lorsque l’utilisateur est invité à installer le contrôle :
+la commande suivante signe un contrôle ActiveX et fournit des informations qui sont affichées par Internet Explorer lorsque l’utilisateur est invité à installer le contrôle :
 
 <pre>SignTool sign /f <b>MyCert</b>.pfx /d "<b>My Product Name</b>" /du <b>"https://www.example.com/myproductinfo.html"</b> MyControl.exe</pre>
 

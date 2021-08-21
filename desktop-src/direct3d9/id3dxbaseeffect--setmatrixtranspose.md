@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 384d4a7ed5e1b769218b9290ed6cc0f7f060bd66
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d516d9fc5a92ff3661caaf5fbca17372804ea2805688542a0283736cf55f4959
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790669"
 ---
 # <a name="id3dxbaseeffectsetmatrixtranspose-method"></a>ID3DXBaseEffect :: SetMatrixTranspose, méthode
 
@@ -59,13 +59,13 @@ Pointeur désignant une matrice transposée. Consultez [**D3DXMATRIX**](d3dxmatr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Une matrice transposée contient des données de colonne principales ; autrement dit, chaque vecteur est contenu dans une colonne.
 

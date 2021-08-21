@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1f128ce8cb2fee5479efeddd5932d0392b92a6fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ed3ffc9cc0656509b29a6c32baeaf7311437a79e8402fbae0727cf9f93a30abe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384549"
 ---
 # <a name="cbasepinnewsegment-method"></a>Méthode CBasePin. NewSegment
 
@@ -69,7 +69,7 @@ Taux auquel ce segment doit être traité, sous la forme d’un pourcentage du t
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode définit les variables membres [**CBasePin :: m \_ tStart**](cbasepin-m-tstart.md), [**CBasePin :: m \_ tStop**](cbasepin-m-tstop.md)et [**CBasePin :: m \_ dRate**](cbasepin-m-drate.md) . Dans votre classe dérivée, substituez cette méthode pour passer la notification en aval.
 
@@ -79,7 +79,7 @@ Cette méthode définit les variables membres [**CBasePin :: m \_ tStart**](cba
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

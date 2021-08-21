@@ -4,12 +4,12 @@ description: Modèle objet du composant OLE
 ms.assetid: f3200d81-c2fa-4cc7-bf85-54f6c753a529
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 211c41de8c16eb1cabb1e62f475adbbf603e2c92
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 5de83641250c912efbe92d7181deb52b477af06e2b49598ee63762488a932687
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103941462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805019"
 ---
 # <a name="the-ole-component-object-model"></a>Modèle objet du composant OLE
 
@@ -25,6 +25,6 @@ Quand une application est effectuée à l’aide d’un objet, elle appelle la m
 
 La plupart des méthodes d’interface OLE retournent des handles de résultats définis à l’aide du type de données **HRESULT** . Ce type de données est constitué d’un code de gravité, d’informations contextuelles, d’un code d’installation et d’un code d’État. Handle de résultat de retour qui indique que la réussite a la valeur zéro. Une valeur différente de zéro indique un échec et le membre de code d’État du handle de résultat de retour fournit une base pour une interprétation supplémentaire. Pour plus d’informations sur les handles de résultats de retour OLE, consultez le *Guide de référence du programmeur OLE*.
 
- 
+ 
 
- 
+ 

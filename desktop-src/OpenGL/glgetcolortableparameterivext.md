@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 897dd11781968838bb8c26a716e3857acc119e9c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: bc45217d420aab9c5db3b1ceb416c369b5fb948df2911ea20e6e174eeed0649f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106524825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742030"
 ---
 # <a name="glgetcolortableparameterivext-function"></a>glGetColorTableParameterivEXT fonction)
 
@@ -84,7 +84,7 @@ Pointe vers les données de paramètre de table de couleurs spécifiées par le 
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous utilisez les fonctions **glGetColorTableParameterivEXT** et [**glGetColorTableParameterfvEXT**](glgetcolortableparameterfvext.md) pour récupérer des données de paramètres spécifiques à partir de tables de couleurs définies avec [**glColorTableEXT**](glcolortableext.md) pour les palettes de texture ciblées. Vous pouvez également utiliser ces fonctions pour déterminer le nombre d’entrées de table des couleurs retournées par **glGetColorTableEXT** .
 

@@ -12,20 +12,20 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 71a58e464528136244cec745aed2e59c6fea737d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7f9af94923f9160d18a9787b61036d5cf4104aede6488e2219b18a84325da46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684019"
 ---
 # <a name="phytype-connectivity-element"></a>Élément phyType (Connectivity)
 
 L’élément phyType (Connectivity) spécifie la norme de réseau local sans fil 802,11 utilisée sur un réseau local sans fil.
 
-Vous pouvez spécifier plusieurs **phyType** s. Si aucun **phyType** n’est spécifié, le profil peut être utilisé pour se connecter à n’importe quel **phyType**. La valeur « n » est uniquement prise en charge sur Windows Vista avec Service Pack 1 (SP1) et les versions ultérieures du système d’exploitation.
+Vous pouvez spécifier plusieurs **phyType** s. Si aucun **phyType** n’est spécifié, le profil peut être utilisé pour se connecter à n’importe quel **phyType**. la valeur « n » est uniquement prise en charge sur Windows Vista avec Service pack 1 (SP1) et les versions ultérieures du système d’exploitation.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
 
 ``` syntax
 <xs:element name="phyType"
@@ -61,8 +61,8 @@ L’élément est défini par l’élément [**Connectivity**](wlan-profileschem
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

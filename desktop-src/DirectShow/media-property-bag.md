@@ -4,12 +4,12 @@ ms.assetid: 06678d57-c00b-4575-84e7-3d09f65f19ba
 title: Conteneur des propriétés du média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1812d7237fdd58869befec8494b82e34df56b937
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: cd6a36bb666b1562538fffc4f09321ffa95ceea329ddd8d6c7206cc0daefbff5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791439"
 ---
 # <a name="media-property-bag"></a>Conteneur des propriétés du média
 
@@ -30,7 +30,7 @@ L’objet Media Property Bag définit ou récupère des blocs d’informations e
 
 <dl> <dt>
 
-[Objets DirectShow](directshow-objects.md)
+[DirectShow Objets](directshow-objects.md)
 </dt> <dt>
 
 [**Interface IPersistMediaPropertyBag**](/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag)

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c3c77f9b29747d715252882f75384afbfa01172
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d40a082dd790cf84852a1d5cbb0d27c5ceb2fba3f9fd52b50c3bf744fc2d123f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106517134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802728"
 ---
 # <a name="ms-spp-csvlk-sku-id-attribute"></a>attribut ms-SPP-CSVLK-SKU-ID
 

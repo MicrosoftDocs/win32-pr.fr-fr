@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 400addd7d32914cb4e849e4e0bfae76ccc3ddf22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cb16ad2d7f505a90d806e3f6a155f2c20affce2c71267316c2278e2320c371b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802429"
 ---
 # <a name="freehelperattributes-function"></a>FreeHelperAttributes fonction)
 
@@ -45,13 +45,13 @@ VOID FreeHelperAttributes(
 *pinfo* \[ dans\]
 </dt> <dd>
 
-Type : **\* [**\_ attribut d’assistance**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)* _
+Type : **[ **\_ attribut d’assistance**](/windows/win32/api/ndattrib/ns-ndattrib-helper_attribute)\***
 
 Tableau de structures. La mémoire allouée pointée par ces structures sera libérée.
 
 </dd> <dt>
 
-_HelperAttributeCount * 
+*HelperAttributeCount* 
 </dt> <dd>
 
 Type : **ULong**
@@ -79,8 +79,8 @@ Cette fonction ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ndattributils. h</dt> </dl> |
 
 

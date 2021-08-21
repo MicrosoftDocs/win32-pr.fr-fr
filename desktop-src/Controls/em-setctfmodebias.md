@@ -3,7 +3,7 @@ title: Message EM_SETCTFMODEBIAS (RichEdit. h)
 description: Définit le décalage du mode Text Services Framework (TSF) pour un contrôle RichEdit.
 ms.assetid: 17e3aac8-2ba8-4c06-bfd6-e118cfb82529
 keywords:
-- EM_SETCTFMODEBIAS les contrôles de message Windows
+- EM_SETCTFMODEBIAS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b872fa5489c898ec4482ecdc094de7df6e3180be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fd6aa0f10b07092d9637d9e5a993848671ab6aa7e7eb610eca48c3df353c4a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019507"
 ---
 # <a name="em_setctfmodebias-message"></a>\_Message SETCTFMODEBIAS em
 
@@ -69,7 +69,7 @@ Non utilisé ; doit être égal à zéro.
 
 En cas de réussite, la valeur de retour est la nouvelle valeur de biais du mode TSF. En cas d’échec, la valeur de retour est l’ancienne valeur de biais du mode TSF.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand une application RichEdit (Microsoft Rich Edit) utilise TSF, elle peut sélectionner le biais du mode TSF. Ce message définit les critères selon lesquels un autre choix apparaît en haut de la liste pour la sélection.
 
@@ -82,7 +82,7 @@ Pour définir le décalage de mode pour l’éditeur de méthode d’entrée (IM
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

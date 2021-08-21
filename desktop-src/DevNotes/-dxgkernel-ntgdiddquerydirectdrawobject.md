@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 557854f70f4f1a55022b16d1bfe045efbc017a13
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2cd87bc1cc278f8ee680dbd458ed3b92cc699a060021a91535de66996376db84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103819"
 ---
 # <a name="ntgdiddquerydirectdrawobject-function"></a>NtGdiDdQueryDirectDrawObject fonction)
 
@@ -135,7 +135,7 @@ Pointeur désignant une liste de formats de surface de [codes à quatre caractè
 
 En cas de réussite, cette fonction retourne la **valeur true**; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un appel à cette fonction est conçu pour être effectué dans un processus en deux étapes. Dans la première étape, *puFourCC*, *puvmList* et *PuD3dTextureFormats* doivent avoir la **valeur null**, et [**DdQueryDirectDrawObject**](/windows/desktop/api/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject) remplira le [**\_ HALINFO DD**](/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo).**ddCaps**. **dwNumFourCCCodes**, **DD \_ HALINFO**.**vmiData**. **dwNumHeaps** et [**D3DHAL \_ GLOBALDRIVERDATA**](/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_globaldriverdata).**dwNumTextureFormats** avec le nombre d’entrées qui doivent être retournées. Dans le deuxième appel, l’appelant doit allouer des tableaux de la taille indiquée et passer ces pointeurs au lieu de valeurs **null** dans les paramètres *puFourCC*, *puvmList* et *puD3dTextureFormats* . Les tableaux sont ensuite remplis avec les données appropriées.
 

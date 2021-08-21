@@ -4,12 +4,12 @@ ms.assetid: cf35bb37-bf67-4e86-bfef-9838606982a5
 title: PageScaling
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 795332f38da331a9f16b614154bf0a9270e613de
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: c4cf1a122f71148570cf69fc17455c8ca5c917ee4f441d1bc16be1922705eb81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948129"
 ---
 # <a name="pagescaling"></a>PageScaling
 
@@ -37,7 +37,7 @@ Décrit les caractéristiques de mise à l’échelle de la sortie. Certaines op
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                                                                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                                                                                                                                                                       |

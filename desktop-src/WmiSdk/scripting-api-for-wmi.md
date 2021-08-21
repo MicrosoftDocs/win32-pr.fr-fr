@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: API de script pour WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6c43587fd8f40c2524bcabd79fe80e3d00d74b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35045aa8528c5a3c27475fff753478bd2202d9137cec6b019039aac52775f70a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640539"
 ---
 # <a name="scripting-api-for-wmi"></a>API de script pour WMI
 
-La référence de script WMI contient des définitions pour l’API de script WMI. Utilisez cette API si vous écrivez des applications avec Microsoft Visual Basic, Visual Basic pour Applications, Visual Basic Scripting Edition (VBScript) ou tout autre langage de script prenant en charge les technologies Active Scripting.
+La référence de script WMI contient des définitions pour l’API de script WMI. utilisez cette API si vous écrivez des applications avec Microsoft Visual Basic, Visual Basic pour Applications, Visual Basic scripting Edition (VBScript) ou tout autre langage de script prenant en charge les technologies active scripting.
 
 > [!Note]  
-> PowerShell est également disponible pour l’écriture de scripts avec WMI. L’applet de commande obtient-WMI et les trois accélérateurs de type ( \[ WMI \] , \[ WMIClass \] et \[ WmiSearcher \] ) permettent un accès administratif de base à WMI. Pour plus d’informations, consultez [écriture de scripts avec Windows PowerShell](https://TechNet.Microsoft.Com/library/bb978526.aspx).
+> PowerShell est également disponible pour l’écriture de scripts avec WMI. L’applet de commande obtient-WMI et les trois accélérateurs de type ( \[ WMI \] , \[ WMIClass \] et \[ WmiSearcher \] ) permettent un accès administratif de base à WMI. Pour plus d’informations, consultez [Scripting with Windows PowerShell](https://TechNet.Microsoft.Com/library/bb978526.aspx).
 
  
 

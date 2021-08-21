@@ -4,12 +4,12 @@ description: Cette rubrique présente les différences entre les effets 10 et 11
 ms.assetid: c3e5e6bc-c544-49ee-b6d9-021ce87f9b12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29af1b9e7aec72f96a62e0f62668b81a6eec8367
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9b488015deae8cc93b9bc692c49d66ff1510bcc5639047fe253265be5b382a85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990119"
 ---
 # <a name="differences-between-effects-10-and-effects-11"></a>Différences entre les effets 10 et les effets 11
 
@@ -204,7 +204,7 @@ Ces expressions peuvent apparaître dans des expressions de bloc d’État (par 
 
 ## <a name="source-availability-and-location"></a>Disponibilité et emplacement de la source
 
-Effects 10 a été distribué dans D3D10.dll. Effects 11 est distribué en tant que source, avec les solutions Visual Studio correspondantes pour le compiler. Lorsque vous créez des applications de type Effects, nous vous recommandons d’inclure la source Effects 11 directement dans ces applications.
+Effects 10 a été distribué dans D3D10.dll. effects 11 est distribué en tant que source, avec les solutions de Visual Studio correspondantes pour le compiler. Lorsque vous créez des applications de type Effects, nous vous recommandons d’inclure la source Effects 11 directement dans ces applications.
 
 Vous pouvez obtenir les effets 11 des [effets de la mise à jour de Direct3D 11](https://github.com/Microsoft/FX11).
 
@@ -215,6 +215,6 @@ Vous pouvez obtenir les effets 11 des [effets de la mise à jour de Direct3D 11]
 [Effets (Direct3D 11)](d3d11-graphics-programming-guide-effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

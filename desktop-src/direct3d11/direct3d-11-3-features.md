@@ -4,12 +4,12 @@ description: Les sections suivantes décrivent la fonctionnalité qui a été aj
 ms.assetid: CA79A315-22C4-4141-8E66-89C0DCF29191
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc256b9b85dd807e2e6c923affdec496fe92e075
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 4bfdead81de43cbe0391b661f450db0acfa402417148ed1d1731e4a22f05f1ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118099241"
 ---
 # <a name="direct3d-113-features"></a>Fonctionnalités Direct3D 11,3
 

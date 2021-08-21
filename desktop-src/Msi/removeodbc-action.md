@@ -4,12 +4,12 @@ ms.assetid: 548984fd-e4f7-4db8-a625-87b4a0a4bdb2
 title: Action RemoveODBC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1234ed736a8cb8258bccf3085de92bfb1b324cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6619bc5b8a18cff2ee33dbe45261764c682953bad75a17cb9d6e93cbe487147b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580429"
 ---
 # <a name="removeodbc-action"></a>Action RemoveODBC
 
@@ -55,13 +55,13 @@ Pour chaque source de données installée.
 |-------|---------------------------------------------------------|
 | \[1\] | Description du pilote. Clé du pilote ODBC.                |
 | \[2\] | ComponentId                                             |
-| \[3\] | Inscription : SQL \_ Remove \_ DSN ou SQL \_ Remove \_ sys \_ DSN |
+| \[3\] | inscription : SQL \_ supprimer le \_ dsn ou SQL \_ supprimer le \_ \_ dsn SYS |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le nombre d’utilisations ODBC et le nombre d’utilisations de fichiers deviennent nuls, le fichier est supprimé. L’inscription dépend du nombre d’utilisations ODBC et la suppression des fichiers est basée sur les nombres de références de clé dll partagés.
 

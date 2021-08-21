@@ -3,7 +3,7 @@ title: Message LB_ITEMFROMPOINT (winuser. h)
 description: Obtient l’index de base zéro de l’élément le plus proche du point spécifié dans une zone de liste.
 ms.assetid: 5739eccb-e708-4ddb-ac97-d3e6c6120842
 keywords:
-- LB_ITEMFROMPOINT les contrôles de message Windows
+- LB_ITEMFROMPOINT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5c4f06b9de8e6580c81c7faf7ddb8c287a148b3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddddd58780cb4b140501c567d699373cb1fa03cbf212332bea71611a4add3788
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575929"
 ---
 # <a name="lb_itemfrompoint-message"></a>\_Message ITEMFROMPOINT lb
 
@@ -55,8 +55,8 @@ La valeur de retour contient l’index de l’élément le plus proche dans le [
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

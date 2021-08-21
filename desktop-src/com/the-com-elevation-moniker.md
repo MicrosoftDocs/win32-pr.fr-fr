@@ -4,12 +4,12 @@ description: Le moniker d’élévation COM autorise les applications qui s’ex
 ms.assetid: 1595ebb8-65af-4609-b3e7-a21209e64391
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acc80774764cb99e63ed3334a8c0f9c8cedd2500
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8d11980c9c6a54a06991d6f2ab189640414dc5072dd913e450ce6fe33487f747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118103862"
 ---
 # <a name="the-com-elevation-moniker"></a>Moniker d’élévation COM
 
@@ -31,7 +31,7 @@ Toutes les fonctionnalités COM ne sont pas compatibles avec l’élévation. Le
 -   Un processus élevé à l’aide du mécanisme de contrôle de compte d’utilisateur ne charge pas les classes par utilisateur lors des activations COM. Pour les applications COM, cela signifie que les classes COM de l’application doivent être installées dans la ruche de Registre **HKEY \_ local \_ machine** si l’application doit être utilisée à la fois par des comptes non privilégiés et privilégiés. Les classes COM de l’application doivent uniquement être installées dans la ruche des **\_ utilisateurs HKEY** si l’application n’est jamais utilisée par des comptes privilégiés.
 -   La fonction glisser-déplacer n’est pas autorisée pour les applications avec élévation de privilèges non élevées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 Afin d’utiliser le moniker d’élévation pour activer une classe COM, la classe doit être configurée pour s’exécuter en tant qu’utilisateur de lancement ou en tant qu’identité d’application’Activate As Activator'. Si la classe est configurée pour s’exécuter sous n’importe quelle autre identité, l’activation retourne l’erreur la valeur de CO \_ E \_ runas \_ \_ doit \_ être \_ AAA.
 
@@ -39,8 +39,8 @@ La classe doit également être annotée avec un nom d’affichage « convivial
 
 ```
 HKEY_LOCAL_MACHINE\Software\Classes\CLSID
-   {CLSID}
-      LocalizedString = displayName
+   {CLSID}
+      LocalizedString = displayName
 ```
 
 Si cette entrée est manquante, l’activation renvoie le message d’erreur «le \_ \_ DisplayName est manquant \_ . Si le fichier MUI est manquant, le code d’erreur de la fonction [**RegLoadMUIStringW**](/windows/desktop/api/winreg/nf-winreg-regloadmuistringa) est retourné.
@@ -49,9 +49,9 @@ Si vous le souhaitez, pour spécifier une icône d’application à afficher par
 
 ```
 HKEY_LOCAL_MACHINE\Software\Classes\CLSID
-   {CLSID}
-      Elevation
-         IconReference = applicationIcon
+   {CLSID}
+      Elevation
+         IconReference = applicationIcon
 ```
 
 **IconReference** utilise le même format que **LocalizedString**:
@@ -64,9 +64,9 @@ La classe COM doit également être annotée comme étant compatible LUA. Pour c
 
 ```
 HKEY_LOCAL_MACHINE\Software\Classes\CLSID
-   {CLSID}
-      Elevation
-         Enabled = 1
+   {CLSID}
+      Elevation
+         Enabled = 1
 ```
 
 Si cette entrée est manquante, l’activation retourne l’erreur CO \_ E \_ Elévation \_ désactivée.
@@ -258,11 +258,11 @@ else
 
 ## <a name="com-permissions-and-mandatory-access-labels"></a>Autorisations COM et étiquettes d’accès obligatoires
 
-Windows Vista introduit la notion d' *étiquettes d’accès obligatoires* dans les descripteurs de sécurité. L’étiquette détermine si les clients peuvent obtenir un accès en exécution à un objet COM. L’étiquette est spécifiée dans la partie liste de contrôle d’accès système (SACL) du descripteur de sécurité. Dans Windows Vista, COM prend en charge l’étiquette obligatoire nom du système non en cours d' \_ \_ \_ \_ exécution \_ . Les listes SACL dans les autorisations COM sont ignorées sur les systèmes d’exploitation antérieurs à Windows Vista.
+Windows Vista introduit la notion d' *étiquettes d’accès obligatoires* dans les descripteurs de sécurité. L’étiquette détermine si les clients peuvent obtenir un accès en exécution à un objet COM. L’étiquette est spécifiée dans la partie liste de contrôle d’accès système (SACL) du descripteur de sécurité. dans Windows Vista, COM prend en charge l’étiquette \_ \_ non exécuter le nom obligatoire du système \_ \_ \_ . les listes sacl dans les autorisations COM sont ignorées sur les systèmes d’exploitation antérieurs à Windows Vista.
 
-À compter de Windows Vista, dcomcnfg.exe ne prend pas en charge la modification du niveau d’intégrité (IL) dans les autorisations COM. Elle doit être définie par programmation.
+à partir de Windows Vista, dcomcnfg.exe ne prend pas en charge la modification du niveau d’intégrité (IL) dans les autorisations COM. Elle doit être définie par programmation.
 
-L’exemple de code suivant montre comment créer un descripteur de sécurité COM avec une étiquette qui autorise les demandes de lancement/activation à partir de tous les clients IL bas. Notez que les étiquettes sont valides pour les autorisations de lancement/activation et d’appel. Par conséquent, il est possible d’écrire un serveur COM qui interdit le lancement, l’activation ou les appels des clients avec un langage intermédiaire donné. Pour plus d’informations sur les niveaux d’intégrité, consultez la section « fonctionnement du mécanisme d’intégrité de Windows Vista » dans [présentation et utilisation du mode protégé d’Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/).
+L’exemple de code suivant montre comment créer un descripteur de sécurité COM avec une étiquette qui autorise les demandes de lancement/activation à partir de tous les clients IL bas. Notez que les étiquettes sont valides pour les autorisations de lancement/activation et d’appel. Par conséquent, il est possible d’écrire un serveur COM qui interdit le lancement, l’activation ou les appels des clients avec un langage intermédiaire donné. pour plus d’informations sur les niveaux d’intégrité, consultez la section « fonctionnement du mécanisme d’intégrité de Windows Vista » dans [présentation et utilisation du Mode protégé d’Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/).
 
 
 ```C++
@@ -300,19 +300,19 @@ done:
 
 ## <a name="cocreateinstance-and-integrity-levels"></a>CoCreateInstance et niveaux d’intégrité
 
-Le comportement de [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) a été modifié dans Windows Vista pour empêcher les clients il de se lier aux serveurs COM par défaut. Le serveur doit autoriser explicitement ces liaisons en spécifiant la liste SACL. Les modifications apportées à **CoCreateInstance** sont les suivantes :
+le comportement de [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) a changé dans Windows Vista, afin d’empêcher les clients IL bas de se lier aux serveurs COM par défaut. Le serveur doit autoriser explicitement ces liaisons en spécifiant la liste SACL. Les modifications apportées à **CoCreateInstance** sont les suivantes :
 
 1.  Lors du lancement d’un processus serveur COM, le langage intermédiaire du jeton de processus serveur est défini sur le langage intermédiaire du client ou du serveur, selon la valeur la plus basse.
 2.  Par défaut, COM empêche les clients IL bas de se lier aux instances en cours d’exécution de tous les serveurs COM. Pour autoriser la liaison, le descripteur de sécurité de lancement/activation d’un serveur COM doit contenir une liste SACL qui spécifie l’étiquette IL faible (consultez la section précédente pour l’exemple de code pour créer un tel descripteur de sécurité).
 
 ## <a name="elevated-servers-and-rot-registrations"></a>Serveurs élevés et inscriptions ROT
 
-Si un serveur COM souhaite s’inscrire dans la table ROT (Running Object Table) et autoriser n’importe quel client à accéder à l’inscription, il doit utiliser l' \_ indicateur ROTFLAGS ALLOWANYCLIENT. Un serveur COM « Activate As Activator » ne peut pas spécifier ROTFLAGS \_ ALLOWANYCLIENT, car le gestionnaire de contrôle des services DCOM (DCOMSCM) applique un contrôle d’usurpation d’identité à cet indicateur. Par conséquent, dans Windows Vista, COM ajoute la prise en charge d’une nouvelle entrée de Registre qui permet au serveur de stipuler que ses inscriptions ROT sont mises à la disposition de n’importe quel client :
+Si un serveur COM souhaite s’inscrire dans la table ROT (Running Object Table) et autoriser n’importe quel client à accéder à l’inscription, il doit utiliser l' \_ indicateur ROTFLAGS ALLOWANYCLIENT. Un serveur COM « Activate As Activator » ne peut pas spécifier ROTFLAGS \_ ALLOWANYCLIENT, car le gestionnaire de contrôle des services DCOM (DCOMSCM) applique un contrôle d’usurpation d’identité à cet indicateur. par conséquent, dans Windows Vista, COM ajoute la prise en charge d’une nouvelle entrée de registre qui permet au serveur de stipuler que ses inscriptions ROT sont mises à la disposition de n’importe quel client :
 
 ```
 HKEY_LOCAL_MACHINE\Software\Classes\AppID
-   {APPID}
-      ROTFlags
+   {APPID}
+      ROTFlags
 ```
 
 La seule valeur valide pour cette entrée de Registre \_ DWORD est :
@@ -335,6 +335,6 @@ Cette entrée fournit un serveur « Activate As Activator » avec les mêmes f
 [Présentation et utilisation d’Internet Explorer en mode protégé](/previous-versions/windows/internet-explorer/ie-developer/)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

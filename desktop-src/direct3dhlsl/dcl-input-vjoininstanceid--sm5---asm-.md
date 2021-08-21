@@ -4,12 +4,12 @@ description: Déclarez l’ID d’instance dans une phase de jointure de nuanceu
 ms.assetid: 2EABB24A-7ED7-460D-A2AD-D2C40DCCB2DC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bae9351fc7183aa37cd660c265aab803f4661e9
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 499da42f6f0b63c6a5315a16cf0d4f1615fdbd9dc99f224c374189c6f73d185e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103940580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789869"
 ---
 # <a name="dcl_input-vjoininstanceid-sm5---asm"></a>\_vJoinInstanceID d’entrée DCL (SM5-ASM)
 
@@ -34,13 +34,13 @@ Déclarez l’ID d’instance dans une phase de jointure de nuanceur de coque.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        | X    |        |          |       |         |
 
@@ -54,9 +54,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

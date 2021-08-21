@@ -1,19 +1,19 @@
 ---
-description: Les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée de type 21 quand les actions standard sont insuffisantes pour exécuter l’installation.
+description: les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée de type 21 quand les actions standard sont insuffisantes pour exécuter l’installation.
 ms.assetid: 0b28ad22-4e3a-49f2-8eed-2341a91eb67c
 title: Type d’action personnalisée 21
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5bb7482c2f7c7b6cbd85af7a6f01cc83edbb89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc6184455b15b1bcea1c53532ef53ef526b7af159d81322994220186d6cd187e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105258"
 ---
 # <a name="custom-action-type-21"></a>Type d’action personnalisée 21
 
-Cette action personnalisée est écrite en JScript, telle que l’ECMA 262. Windows Installer ne prend pas en charge JScript 1,0. Pour plus d’informations, consultez [scripts](scripts.md).
+cette action personnalisée est écrite en JScript, par exemple ECMA 262. Windows le programme d’installation ne prend pas en charge JScript 1,0. Pour plus d’informations, consultez [scripts](scripts.md).
 
 ## <a name="source"></a>Source
 
@@ -33,7 +33,7 @@ Incluez la valeur suivante dans la colonne type de la [table CustomAction](custo
 
  
 
-Windows Installer pouvez utiliser des [actions personnalisées 64 bits](64-bit-custom-actions.md) sur les systèmes d’exploitation 64 bits. Une action personnalisée 64 bits basée sur des scripts doit inclure le bit **msidbCustomActionType64BitScript** dans son type numérique. Pour plus d’informations, consultez actions personnalisées 64 bits. Incluez la valeur suivante dans la colonne type de la [table CustomAction](customaction-table.md) pour spécifier le type numérique de base d’une action personnalisée 64 bits.
+Windows Le programme d’installation peut utiliser des [actions personnalisées 64 bits](64-bit-custom-actions.md) sur les systèmes d’exploitation 64 bits. Une action personnalisée 64 bits basée sur des scripts doit inclure le bit **msidbCustomActionType64BitScript** dans son type numérique. Pour plus d’informations, consultez actions personnalisées 64 bits. Incluez la valeur suivante dans la colonne type de la [table CustomAction](customaction-table.md) pour spécifier le type numérique de base d’une action personnalisée 64 bits.
 
 
 
@@ -63,15 +63,15 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la [table Cu
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Les fonctions facultatives écrites dans le script doivent retourner l’une des valeurs décrites dans les [valeurs de retour des actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md).
+les fonctions facultatives écrites dans le script doivent retourner l’une des valeurs décrites dans [valeurs de retour des Actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Une action personnalisée écrite en JScript ou VBScript requiert l’objet de [**session**](session-object.md) d’installation. Le programme d’installation joint l' **objet de session** au script avec le nom « session ». Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés de l’objet **session** décrit dans la section [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md) afin d’extraire son contexte.
+une action personnalisée écrite en JScript ou VBScript requiert l’objet de [**Session**](session-object.md) d’installation. Le programme d’installation joint l' **objet de session** au script avec le nom « session ». Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés de l’objet **session** décrit dans la section [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md) afin d’extraire son contexte.
 
-Les actions personnalisées qui font référence à un fichier installé comme source, telles que le type d’action personnalisé 21 (JScript), doivent respecter les restrictions de séquencement suivantes :
+les actions personnalisées qui font référence à un fichier installé comme source, telles que le Type d’Action personnalisée 21 (JScript), doivent respecter les restrictions de séquencement suivantes :
 
--   L’action personnalisée doit être séquencée après l' [action CostFinalize](costfinalize-action.md). Cela permet à l’action personnalisée de résoudre le chemin d’accès nécessaire pour localiser le fichier source contenant JScript.
+-   L’action personnalisée doit être séquencée après l' [action CostFinalize](costfinalize-action.md). Cela permet à l’action personnalisée de résoudre le chemin d’accès nécessaire pour localiser le fichier source contenant le JScript.
 -   Si le fichier source n’est pas déjà installé sur l’ordinateur, les actions personnalisées différées (dans le script) de ce type doivent être séquencées après l' [action InstallFiles](installfiles-action.md).
 -   Si le fichier source n’est pas déjà installé sur l’ordinateur, les actions personnalisées non différées de ce type doivent être séquencées après l' [action InstallFinalize](installfinalize-action.md).
 

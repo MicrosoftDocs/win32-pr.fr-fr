@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1a8ca556c24295e2c4b04ab851610ef35ec9b715
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c33511d1f8a1b7ccf3657f31a0c3b997f7e1044f7425de9683f167d557b1dba9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827979"
 ---
 # <a name="win32_systemprogramgroups-class"></a>\_Classe SystemProgramGroups Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance de qui représente le groupe de programmes logique s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SystemProgramGroups** est dérivée de [**Win32 \_ SystemSetting**](win32-systemsetting.md).
 

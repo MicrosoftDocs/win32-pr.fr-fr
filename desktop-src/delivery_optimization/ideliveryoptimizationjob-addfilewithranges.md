@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cc147f5cb3f91a2fe0b8518493dba72798ce8056
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 197aa7443123c81d1a675d321b91573823a84f15
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510367"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476126"
 ---
 # <a name="ideliveryoptimizationjobaddfilewithranges-method"></a>IDeliveryOptimizationJob :: AddFileWithRanges, méthode
 
@@ -90,55 +90,22 @@ Taille du fichier en octets. Transmettez **DO_UNKNOWN_FILE_SIZE** si la taille n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Cette méthode retourne les valeurs de retour suivantes, ainsi que d’autres.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Code de retour</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong><strong>S_OK</strong></strong></dt> </dl></td>
-<td>Opération réussie.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> </dl></td>
-<td>Le nom de fichier local est NULL ou une chaîne vide. <br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>E_ACCESSDENIED</strong></dt> </dl></td>
-<td>L’utilisateur n’a pas l’autorisation d’écrire dans le répertoire spécifié sur le client.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>DO_E_INVALID_RANGE</strong></dt> </dl></td>
-<td>L’une des plages n’est pas valide. Par exemple, InitialOffset est défini sur <strong>BG_LENGTH_TO_EOF</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>DO_E_OVERLAPPING_RANGES</strong></dt> </dl></td>
-<td>Vous ne pouvez pas spécifier des plages en double ou qui se chevauchent. <br/>
-<blockquote>
-[!Note]<br />
-Les plages sont triées selon le décalage de la valeur, et non la longueur. Si des plages ont le même décalage, mais sont dans l’ordre inverse, cette erreur est retournée. Par exemple, si 100,5 et 100,0 sont entrés dans cet ordre, vous ne serez pas en mesure d’ajouter le fichier au travail.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>DO_E_INVALID_STATE</strong></dt> </dl></td>
-<td>L’état du travail ne peut pas être <strong>BG_JOB_STATE_CANCELLED</strong> ou <strong>BG_JOB_STATE_ACKNOWLEDGED</strong>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Code de retour | Description | 
+|-------------|-------------|
+| <dl><dt><strong><strong>S_OK</strong></strong></dt></dl> | Réussite.<br /> | 
+| <dl><dt><strong>E_INVALIDARG</strong></dt></dl> | Le nom de fichier local est NULL ou une chaîne vide. <br /> | 
+| <dl><dt><strong>E_ACCESSDENIED</strong></dt></dl> | L’utilisateur n’a pas l’autorisation d’écrire dans le répertoire spécifié sur le client.<br /> | 
+| <dl><dt><strong>DO_E_INVALID_RANGE</strong></dt></dl> | L’une des plages n’est pas valide. Par exemple, InitialOffset est défini sur <strong>BG_LENGTH_TO_EOF</strong>.<br /> | 
+| <dl><dt><strong>DO_E_OVERLAPPING_RANGES</strong></dt></dl> | Vous ne pouvez pas spécifier des plages en double ou qui se chevauchent. <br /><blockquote>[!Note]<br />Les plages sont triées selon le décalage de la valeur, et non la longueur. Si des plages ont le même décalage, mais sont dans l’ordre inverse, cette erreur est retournée. Par exemple, si 100,5 et 100,0 sont entrés dans cet ordre, vous ne serez pas en mesure d’ajouter le fichier au travail.</blockquote><br /> | 
+| <dl><dt><strong>DO_E_INVALID_STATE</strong></dt></dl> | L’état du travail ne peut pas être <strong>BG_JOB_STATE_CANCELLED</strong> ou <strong>BG_JOB_STATE_ACKNOWLEDGED</strong>.<br /> | 
+
 
 
 
@@ -150,8 +117,8 @@ Les plages sont triées selon le décalage de la valeur, et non la longueur. Si 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

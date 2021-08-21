@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Rwnh.dll
-ms.openlocfilehash: 0b7b7d55c9fd8d979aa14f12939df922e7a89099
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7eae3f0eb57d534ea352b7d1c1e0834ef54dfb42460dfe7b2edc4f6fc07fa013
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162343"
 ---
 # <a name="csharelocknhpartiallock-method"></a>CShareLockNH ::P méthode artialLock
 
@@ -41,7 +41,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Alors que **PartialLock** est activé, les autres threads appelant [**ShareLock**](csharelocknh--sharelock.md) peuvent entrer le verrou.
 

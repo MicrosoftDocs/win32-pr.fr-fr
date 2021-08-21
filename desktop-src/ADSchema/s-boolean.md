@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98956a367ff7241fb7ff350efa406e88d3388573
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 38325b2b374c3e21ffc5d59e86cdf2ca67b175b71cdbbeba2f622d9d49cce76c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580309"
 ---
 # <a name="boolean-syntax"></a>Syntaxe booléenne
 
@@ -28,7 +28,7 @@ Représente une valeur booléenne.
 
 | Entrée | Valeur |
 |--------------|--------------------------------------------------------------------------|
-| Nom         | Boolean                                                                  |
+| Name         | Boolean                                                                  |
 | ID de syntaxe    | 2.5.5.8                                                                  |
 | ID OM        | 1                                                                        |
 | Type MAPI    | BOOLEAN                                                                  |
@@ -38,7 +38,7 @@ Représente une valeur booléenne.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour les requêtes qui incluent des attributs de syntaxe booléenne dans un filtre, spécifiez « TRUE » ou « FALSe » (par exemple, « myboolattr = TRUE »).
 

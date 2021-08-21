@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_VolumeSet
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ead53eb5f485f4899988426c17188a134e7eb2e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a4d3bd4edc565639558214157713b62af76fc7d6452823e0328d3043028d584
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103747925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505449"
 ---
 # <a name="cim_volumeset-methods"></a>\_Méthodes VOLUMESET CIM
 

@@ -1,19 +1,19 @@
 ---
-description: Certaines applications, telles que Microsoft Active Directory, Microsoft Exchange et Microsoft Access, gèrent une base de données pouvant être triée des paramètres régionaux et des chaînes de langue indexées par nom (chaîne UTF-16) et leurs pondérations de tri associées.
+description: certaines applications, telles que microsoft Active Directory, microsoft Exchange et microsoft Access, gèrent une base de données pouvant être triée des paramètres régionaux et des chaînes de langue indexées par nom (chaîne UTF-16) et leurs pondérations de tri associées.
 ms.assetid: c8fc32bd-02bd-4a40-a836-d9ad9f69c209
 title: Gestion du tri dans vos applications
 ms.topic: article
 ms.date: 03/04/2020
-ms.openlocfilehash: c0bba3d78a5219781226ecf58292ed461c902090
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73c7ca897cb5f83e5a073205341f8b0d0f96ff2d0a9d4c7144a914cd5c96c44d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822689"
 ---
 # <a name="handling-sorting-in-your-applications"></a>Gestion du tri dans vos applications
 
-Certaines applications, telles que Microsoft Active Directory, Microsoft Exchange et Microsoft Access, gèrent une base de données pouvant être triée des paramètres régionaux et des chaînes de langue indexées par nom (chaîne UTF-16) et leurs pondérations de tri associées.
+certaines applications, telles que microsoft Active Directory, microsoft Exchange et microsoft Access, gèrent une base de données pouvant être triée des paramètres régionaux et des chaînes de langue indexées par nom (chaîne UTF-16) et leurs pondérations de tri associées.
 
 Le [Tri](sorting.md) est généralement intuitif pour les utilisateurs dans leurs propres paramètres régionaux. Toutefois, il peut être non intuitif pour les développeurs d’applications. Cette rubrique décrit les considérations relatives à la gestion du tri dans vos applications. Le tri peut être linguistique ou ordinal (non linguistique).
 
@@ -55,7 +55,7 @@ Le tableau suivant compare les résultats d’un tri de mot avec les résultats 
 Les fonctions [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) et [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) testent l’égalité linguistique. Vos applications doivent utiliser ces fonctions avec les paramètres régionaux appropriés pour trier les chaînes linguistiquement.
 
 > [!Note]  
-> Pour la compatibilité avec Unicode, une application doit préférer [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) ou la version Unicode de [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw). Une autre raison pour préférer [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) est que Microsoft migre vers l’utilisation des noms de paramètres régionaux au lieu des identificateurs de paramètres régionaux pour les nouveaux paramètres régionaux, pour des raisons d’interopérabilité. Toutes les applications qui s’exécutent uniquement sous Windows Vista et versions ultérieures doivent utiliser [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex).
+> Pour la compatibilité avec Unicode, une application doit préférer [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) ou la version Unicode de [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw). Une autre raison pour préférer [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) est que Microsoft migre vers l’utilisation des noms de paramètres régionaux au lieu des identificateurs de paramètres régionaux pour les nouveaux paramètres régionaux, pour des raisons d’interopérabilité. toutes les applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent utiliser [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex).
 
  
 
@@ -68,7 +68,7 @@ Les fonctions récupèrent les résultats linguistiques appropriés pour tous le
 
 Les fonctions essaient de vérifier rigoureusement que les points de code définis dans la norme Unicode sont canoniquement égaux à une chaîne de points de code équivalents. Par exemple, le point de code qui représente un « u » minuscule avec un ditréma (ü) est égal de façon canonique à un « u » minuscule associé à ditréma (̈). Notez cependant que l’équivalence canonique n’est pas toujours possible.
 
-Comme presque toutes les données entrées à l’aide des claviers Windows et des éditeurs de méthode d’entrée (IME) sont conformes à la normalisation de formulaire C définie dans la norme Unicode, la conversion des données entrantes à partir d’autres plateformes à l’aide des fonctions de normalisation Unicode NLS fournit des résultats plus cohérents, en particulier pour les paramètres régionaux qui utilisent le script tibétain ou le script Hangul pour Pour plus d’informations sur la prise en charge de la normalisation Unicode dans Windows Vista et versions ultérieures, consultez [utilisation de la normalisation Unicode pour représenter des chaînes](using-unicode-normalization-to-represent-strings.md).
+comme quasiment toutes les données entrées à l’aide de Windows claviers et éditeurs de méthode d’entrée (ime) sont conformes à la normalisation C définie dans la norme unicode, la conversion des données entrantes à partir d’autres plateformes à l’aide des fonctions de normalisation unicode NLS fournit des résultats plus cohérents, en particulier pour les paramètres régionaux qui utilisent le script tibétain ou le script hangûl pour le hangul pour plus d’informations sur la prise en charge de la normalisation unicode dans Windows Vista et versions ultérieures, consultez [utilisation de la normalisation unicode pour représenter des chaînes](using-unicode-normalization-to-represent-strings.md).
 
 Lorsque la comparaison de chaînes suit la préférence de langue de l’utilisateur, par exemple, lors du tri d’éléments pour un contrôle ListView ordonné, l’application peut effectuer l’une des opérations suivantes :
 
@@ -101,7 +101,7 @@ int iReturn = CompareString(lcid, NORM_IGNORECASE, mystr, -1, _T("InLap"), -1);
 Pour le tri ordinal (non linguistique), vos applications doivent toujours utiliser la fonction [**comparestringordinal,**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal) .
 
 > [!Note]  
-> Cette fonction est uniquement disponible pour Windows Vista et versions ultérieures.
+> cette fonction est uniquement disponible pour Windows Vista et versions ultérieures.
 
  
 
@@ -120,20 +120,20 @@ Pour plus d’informations sur les séquences canoniques équivalentes dans des 
 
 ## <a name="sort-code-points"></a>Trier les points de code
 
-Certains points de code Unicode n’ont aucun poids, par exemple, un NON-joint de largeur nulle, U + 200C. Les fonctions de tri évaluent intentionnellement les points de code sans poids comme équivalents, car ils n’ont pas de poids dans le tri. Sur Windows Vista et versions ultérieures, l’application peut trier ces points de code en appelant les fonctions de comparaison de chaînes NLS, en particulier [**comparestringordinal,**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal), pour l’évaluation de tous les points de code dans un littéral, sens binaire, par exemple, lors de la validation du mot de passe. Sur les systèmes d’exploitation antérieurs à Windows Vista, l’application doit utiliser la fonction C Runtime **strcmp** ou **wcscmp**.
+Certains points de code Unicode n’ont aucun poids, par exemple, un NON-joint de largeur nulle, U + 200C. Les fonctions de tri évaluent intentionnellement les points de code sans poids comme équivalents, car ils n’ont pas de poids dans le tri. sur Windows Vista et versions ultérieures, l’application peut trier ces points de code en appelant les fonctions de comparaison de chaînes NLS, en particulier [**comparestringordinal,**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal), pour l’évaluation de tous les points de code dans un littéral, sens binaire, par exemple, dans la validation de mot de passe. sur les systèmes d’exploitation antérieurs à Windows Vista, l’application doit utiliser la fonction C runtime **strcmp** ou **wcscmp**.
 
-Les fonctions de tri ignorent les signes diacritiques, tels que le NON-ESPACEment, U + 0306, lorsque l’application spécifie l’indicateur de NON- \_ espace hlink. De même, ces fonctions ignorent les symboles, par exemple, signe égal, U + 003d, lorsque l' \_ indicateur de symboles Hlink est spécifié. Sur Windows Vista et versions ultérieures, l’application appelle [**comparestringordinal,**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal) pour l’évaluation des signes diacritiques et des points de code de symbole dans un littéral binaire. Sur les systèmes d’exploitation antérieurs à Windows Vista, l’application doit utiliser **strcmp** ou **wcscmp**.
+Les fonctions de tri ignorent les signes diacritiques, tels que le NON-ESPACEment, U + 0306, lorsque l’application spécifie l’indicateur de NON- \_ espace hlink. De même, ces fonctions ignorent les symboles, par exemple, signe égal, U + 003d, lorsque l' \_ indicateur de symboles Hlink est spécifié. sur Windows Vista et versions ultérieures, l’application appelle [**comparestringordinal,**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal) pour l’évaluation des signes diacritiques et des points de code de symbole dans un littéral binaire. sur les systèmes d’exploitation antérieurs à Windows Vista, l’application doit utiliser **strcmp** ou **wcscmp**.
 
 Certains points de code, tels que 0xFFFF et 0x058b, ne sont actuellement pas assignés en Unicode. Ces points de code ne reçoivent aucun poids en tri et ne doivent jamais être passés aux fonctions de tri. L’application doit utiliser [**IsNLSDefinedString**](/windows/desktop/api/Winnls/nf-winnls-isnlsdefinedstring) pour détecter les points de code non-Unicode dans un flux de données.
 
 > [!Note]  
-> Les résultats de [**IsNLSDefinedString**](/windows/desktop/api/Winnls/nf-winnls-isnlsdefinedstring) peuvent varier en fonction de la version Unicode passée si un caractère est ajouté à Unicode dans une version ultérieure et est ensuite ajouté aux tables de tri Windows. Pour plus d’informations, consultez utiliser le contrôle de [version de tri](#use-sort-versioning).
+> les résultats de [**IsNLSDefinedString**](/windows/desktop/api/Winnls/nf-winnls-isnlsdefinedstring) peuvent varier en fonction de la version unicode passée si un caractère est ajouté à Unicode dans une version plus récente et est ensuite ajouté au Windows trier les tables. Pour plus d’informations, consultez utiliser le contrôle de [version de tri](#use-sort-versioning).
 
  
 
 ## <a name="sort-digits-as-numbers"></a>Trier les chiffres en tant que nombres
 
-Sur Windows 7 et versions ultérieures, l’application peut appeler [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw), [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex), [**LCMapString**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa)ou [**LCMAPSTRINGEX**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringex) à l’aide de l' \_ indicateur sort DIGITSASNUMBERS. Cet indicateur prend en charge le tri qui traite les chiffres comme des nombres, par exemple le tri de « 2 » avant « 10 ».
+sur Windows 7 et versions ultérieures, l’application peut appeler [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw), [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex), [**LCMapString**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa)ou [**LCMapStringEx**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringex) à l’aide de l' \_ indicateur SORT DIGITSASNUMBERS. Cet indicateur prend en charge le tri qui traite les chiffres comme des nombres, par exemple le tri de « 2 » avant « 10 ».
 
 Notez que l’utilisation de cet indicateur n’est pas appropriée pour les chiffres hexadécimaux tels que ce qui suit. <dl> 01AF  
 1BCD  
@@ -189,7 +189,7 @@ La version NLS est spécifique à un [identificateur](locale-identifiers.md) de 
  
 
 > [!IMPORTANT]
-> La version principale a été modifiée dans Windows 8. Les données créées sous des versions antérieures de Windows doivent être réindexées.
+> La version principale a été modifiée dans Windows 8. les données créées sous des versions antérieures de Windows doivent être réindexées.
 
  
 
