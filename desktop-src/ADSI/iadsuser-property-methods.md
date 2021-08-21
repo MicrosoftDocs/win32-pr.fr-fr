@@ -150,12 +150,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6689776fe1ce9102ed4bb8ad97252be41901a0ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4cd41380e2c8ca58f5ce530f4c3024eb43522b474f128c3a296aaf5b4d84937f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082373"
 ---
 # <a name="iadsuser-property-methods"></a>Méthodes de propriété IADsUser
 
@@ -993,7 +993,7 @@ HRESULT put_NameSuffix(
 **OfficeLocations**
 </dt> <dd> <dl>
 
-Emplacement du Bureau en tant que tableau **BSTR** pour l’utilisateur. Pour Active Directory, cette propriété est à valeur unique et le tableau a un élément.
+Office emplacement en tant que tableau **BSTR** pour l’utilisateur. Pour Active Directory, cette propriété est à valeur unique et le tableau a un élément.
 
 <dt>
 
@@ -1186,7 +1186,7 @@ HRESULT put_Picture(
 **PostalAddresses**
 </dt> <dd> <dl>
 
-Adresse postale en tant que tableau **BSTR** . Cette propriété a plusieurs valeurs pour contenir plus de adresses de l’utilisateur. Le format interne d’un PostalAddress doit être conforme à CCITT F. 401 comme mentionné dans X. 521-1993, qui définit un PostalAddress comme six éléments de 30 octets chacun, contenant une adresse postale (facultatif) une boîte postale, une ville ou une localité, un État ou une province, un code postal et un pays/région.
+Adresse postale en tant que tableau **BSTR** . Cette propriété a plusieurs valeurs pour contenir plus de adresses de l’utilisateur. le format interne d’un PostalAddress doit être conforme à CCITT F. 401 comme mentionné dans X. 521-1993, qui définit un PostalAddress comme six éléments de 30 octets chacun, contenant une adresse postale (facultatif) Post Office zone, ville ou localité, état ou province, Code Postal et pays/région.
 
 <dt>
 
@@ -1465,7 +1465,7 @@ HRESULT put_Title(
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fournisseur Winnt fourni par Microsoft ne prend pas en charge toutes les méthodes de propriété [**IADsUser**](/windows/desktop/api/Iads/nn-iads-iadsuser) comme indiqué ci-dessus. Toutefois, le fournisseur prend en charge d’autres propriétés accessibles à l’aide de la méthode [**IADs :: obten**](/windows/desktop/api/Iads/nf-iads-iads-get) ou [**IADs ::P ut**](/windows/desktop/api/Iads/nf-iads-iads-put) . Pour plus d’informations et pour obtenir la liste des propriétés et des exemples de code non pris en charge, consultez [objet utilisateur Winnt](winnt-user-object.md) dans le [fournisseur Winnt ADSI](adsi-winnt-provider.md).
 

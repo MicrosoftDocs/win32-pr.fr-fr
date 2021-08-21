@@ -4,16 +4,16 @@ ms.assetid: 4da2046c-00fd-46a8-805f-503729cfa531
 title: Conférence de téléphonie IP Rendezvous
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1cbfc3a1e07fdc245af0ae6b93277c90083a75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c1486f2ca730f1efb0391fdea5a3ad22bec65385a31bce9bf233f0f230b7ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773569"
 ---
 # <a name="rendezvous-ip-telephony-conferencing"></a>Conférence de téléphonie IP Rendezvous
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Les contrôles de l’interface TAPI 3 Rendezvous permettent à un programmeur de créer des applications capables de créer et de découvrir des conférences IP multidiffusion multimédias.
 

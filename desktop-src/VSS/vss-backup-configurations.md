@@ -4,12 +4,12 @@ ms.assetid: eddf29bc-221b-4b10-9842-a893b62fa846
 title: Configurations de sauvegarde VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4e4c4f383a208781722053b47ba9ae5bcbf1db7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8552bc379be4fc2bf7301043355a1a4417a59154ea15c36061b9cfd13c5d209f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056337"
 ---
 # <a name="vss-backup-configurations"></a>Configurations de sauvegarde VSS
 

@@ -10,18 +10,18 @@ keywords:
 - UI Automation, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1d369493fae6bd82f882dc9251df7185be7b862
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ed9a71b5946f7e0b38241a1d7ef7ced9832203bfd4f0637032903f4dad948607
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570489"
 ---
 # <a name="ui-automation-specification-and-community-promise"></a>Spécification UI Automation et promesse de la communauté
 
 La spécification UI Automation fournit des informations sur les infrastructures d’accessibilité Microsoft, notamment Microsoft Active Accessibility et Microsoft UI Automation. Il aborde les principaux composants de l’infrastructure, fournit des considérations de conception et des exemples, et décrit la configuration requise pour l’implémentation. Pour plus d’informations, consultez [UI Automation Specification](ui-automation-specification.md).
 
-La promesse de la communauté UI Automation permet à quiconque de mettre en œuvre librement la spécification UI Automation sans avoir à signer les accords avec Microsoft. En outre, il n’est pas nécessaire de faire une mention ou une référence à Microsoft. Pour plus d’informations, consultez [UI Automation Community promesse](uiauto-specandcommunitypromise.md).
+la promesse de Community d’ui automation permet à quiconque d’implémenter librement la spécification d’ui automation sans avoir à signer des accords avec Microsoft. En outre, il n’est pas nécessaire de faire une mention ou une référence à Microsoft. pour plus d’informations, consultez [UI Automation Community promesse](uiauto-specandcommunitypromise.md).
 
 ## <a name="ui-automation-specification"></a>Spécification UI Automation
 
@@ -35,11 +35,11 @@ La licence de Copyright suivante s’applique à la spécification UI Automation
 
 L’autorisation de copier, d’afficher et de distribuer le contenu de ce document (la « spécification »), à quelque fin que ce soit, sans frais ou payants, est accordée, à condition que vous incluiez la mention suivante sur toutes les copies de la spécification, ou des parties de celle-ci, que vous faites :
 
-Copyright © Microsoft Corporation. Tous droits réservés. L’autorisation de copier, d’afficher et de distribuer ce document est disponible auprès de la [communauté UI Automation](uiauto-specandcommunitypromise.md).
+Copyright © Microsoft Corporation. All rights reserved. l’autorisation de copier, d’afficher et de distribuer ce document est disponible dans [UI Automation Community promesse](uiauto-specandcommunitypromise.md).
 
 Vous pouvez créer des œuvres dérivées de la spécification, à condition que vous incluiez toutes les parties nécessaires de la spécification dans votre travail dérivé et que vous fournissiez la notification ci-dessus.
 
-Une promesse de brevet distincte est disponible pour les parties intéressées par l’implémentation de logiciels conformes à la spécification UI Automation. Cette licence de brevet est disponible à cet emplacement : [UI Automation Community](uiauto-specandcommunitypromise.md) promise
+Une promesse de brevet distincte est disponible pour les parties intéressées par l’implémentation de logiciels conformes à la spécification UI Automation. cette licence de brevet est disponible à cet emplacement : [UI Automation Community promesse](uiauto-specandcommunitypromise.md)
 
 La spécification est fournie « en l’absence de » et Microsoft ne fait aucune déclaration ou garantie, expresse ou implicite, y compris, mais sans s’y limiter, les garanties de qualité marchande, d’adéquation à un usage particulier, de non-contrefaçon ou de titre ; que le contenu de la spécification est adapté à tous les besoins ; en revanche, l’implémentation de ce contenu n’enfreint pas les brevets, droits d’auteur, marques ou autres droits tiers. Microsoft n’est pas responsable des dommages directs, indirects, spéciaux, accessoires ou consécutifs liés à l’utilisation ou à la distribution de la spécification.
 
@@ -47,7 +47,7 @@ Le nom et les marques commerciales de Microsoft ne peuvent pas être utilisés d
 
 Aucun autre droit n’est concédé, que ce soit par implication, préclusion ou de toute autre manière.
 
-## <a name="ui-automation-community-promise"></a>Promesse de la communauté UI Automation
+## <a name="ui-automation-community-promise"></a>promesse Community UI Automation
 
 À l’instar de la mise en vente, de l’importation ou de la distribution de toute mise en œuvre, l’utilisation, la vente, l’offre à la vente, l’importation ou la distribution d’une mise en œuvre, dans la mesure où elle est conforme à l’une des spécifications couvertes, est conforme à toutes les dispositions obligatoires de cette spécification (« implémentation couverte »), sous réserve des
 
@@ -65,9 +65,9 @@ Cette promesse de Microsoft ne garantit pas que (i) l’une des demandes de brev
 [Notions de base d’UI Automation](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Attribut AlbumIDAlbumArtist
 description: L’attribut AlbumIDAlbumArtist est un identificateur unique pour l’album.
 ms.assetid: beaa8d01-1722-4545-8705-6b3d130113b1
 keywords:
-- Attribut AlbumIDAlbumArtist lecteur Windows Media
+- Lecteur Windows Media de l’attribut AlbumIDAlbumArtist
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1925f40a50b15efcd339ad949d5d54ddb915cbe9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4905f0448c7e08abe308a57b1ad08020d47563847db1aa32744c0de3279cdcdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055387"
 ---
 # <a name="albumidalbumartist-attribute"></a>Attribut AlbumIDAlbumArtist
 
@@ -27,7 +27,7 @@ L’attribut **AlbumIDAlbumArtist** est un identificateur unique pour l’album.
 
 -   [Éléments audio](audio-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

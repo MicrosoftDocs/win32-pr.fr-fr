@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10db2fa770d3da8487a712e631c41fdd4256bf7f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94120c5ccf0f86cf2687941f3442b3e7f16db3c140af5c6234fe475445a3dd06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573609"
 ---
 # <a name="modify-method-of-the-microsoftdns_x25type-class"></a>Modifier la méthode de la \_ classe X25Type MicrosoftDNS
 
@@ -69,7 +69,7 @@ Référence au nouvel objet.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout paramètre non spécifié reste inchangé dans l’enregistrement modifié.
 

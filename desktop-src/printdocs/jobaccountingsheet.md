@@ -25,9 +25,9 @@ Décrit le tableau de comptabilité à générer pour le travail. La feuille de 
 
 
 
-| Nom | Valeur |
+| Name | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/> |
+| Type d'élément <br/>   | Caractéristique<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |
 | Notes <br/>          | Aucun<br/>    |
 
@@ -58,7 +58,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Nom                               | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Récapitulatif                                                                      |
+| Name                               | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Résumé                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | \_OptionName\_<br/>          | string<br/> | caractères<br/> | Nom complet valide tel que défini par les [espaces de noms dans XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). Si aucun espace de noms n’est spécifié, l’espace de noms par défaut est utilisé.<br/> | Nom de l'option.<br/>                                           |
 | \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Définit une option qui, lorsqu’elle est sélectionnée, désactive cette fonctionnalité.<br/> |

@@ -9,12 +9,12 @@ keywords:
 - Éditeur ADSI du fournisseur WinNT, exemples de gestion des utilisateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c340ba3980ca001ba507c9c281b457b670cc5637
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 11853ec083e35ea349aff7dd33250636f2973dc1de28bab71c39eb31a99f5af1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082133"
 ---
 # <a name="winnt-user-account-management-examples"></a>Exemples de gestion de compte d’utilisateur Winnt
 
@@ -28,9 +28,9 @@ Les exemples de code suivants montrent comment utiliser certaines des propriét�
 -   [L’utilisateur ne peut pas changer de mot de passe (fournisseur WinNT)](winnt-user-cannot-change-password.md)
 -   [L’utilisateur doit changer de mot de passe à la prochaine ouverture de session (fournisseur WinNT)](winnt-user-must-change-password-at-next-logon.md)
 
- 
+ 
 
- 
+ 
 
 
 

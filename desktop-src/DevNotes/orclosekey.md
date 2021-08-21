@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: df6b8d9176efc1eb1e4ffb4e0453ec665ec19b6c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 28f93c2bb1de61da072d7fde6d811463106be0c56f049b3ebf7e74f79ef740fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572109"
 ---
 # <a name="orclosekey-function"></a>ORCloseKey fonction)
 
@@ -54,7 +54,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur différent de
 
 Si la clé spécifiée est la clé racine de la ruche du Registre, la fonction échoue avec un paramètre d’erreur \_ non valide \_ .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le descripteur d’une clé spécifiée ne doit pas être utilisé après avoir été fermé, car il ne sera plus valide. Les handles de clés ne doivent pas être laissés ouverts plus longtemps que nécessaire.
 
@@ -66,7 +66,7 @@ Utilisez la fonction [**ORCloseHive**](orclosehive.md) pour fermer une ruche de 
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

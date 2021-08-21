@@ -7,12 +7,12 @@ keywords:
 - Recherches asynchrones ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfe8b8fff875af18b85cdffa4ce67d631d94ed14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7bca36a30b3b0a46f983da54ecaee753a4b15a455b0e69f9399eacdec68aecd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082783"
 ---
 # <a name="asynchronous-searches"></a>Recherches asynchrones
 
@@ -27,12 +27,12 @@ Une recherche asynchrone paginée permet un contrôle précis d’une recherche.
 Pour plus d’informations sur l’utilisation des recherches asynchrones avec une interface de recherche spécifique, consultez :
 
 -   [Recherches synchrones et asynchrones avec IDirectorySearch](synchronous-and-asynchronous-searches-with-idirectorysearch.md)
--   [Recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
+-   [recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
 -   [Recherche avec OLE DB](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 
 
 
 

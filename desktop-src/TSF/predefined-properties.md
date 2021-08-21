@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 807d1be5d1cc025971ad294fac825b89a4a0a519
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e506f334de8c440319c2bd09dab28b3576fe4ca2e5a2852b610532166a1d0a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118875974"
 ---
 # <a name="predefined-properties"></a>Propriétés prédéfinies
 
@@ -34,23 +34,23 @@ Les valeurs suivantes identifient les propriétés définies par TSF. Le format 
 | **\_attribut prop \_ GUID**       | Contient une valeur [**TfGuidAtom**](tfguidatom.md) qui représente le **GUID** de l’attribut d’affichage. [**ITfCategoryMgr :: GetGuid**](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-getguid) est utilisé pour convertir cette valeur en **GUID**. Pour plus d’informations, consultez [utilisation des attributs d’affichage](using-display-attributes.md).                                                                                                                                                                                                                                                                                                                                                                             |
 | **GUID \_ prop \_ TEXTOWNER**       | Contient une valeur [**TfGuidAtom**](tfguidatom.md) qui représente l’identificateur de classe ( **CLSID** ) du service de texte qui possède le texte. [**ITfCategoryMgr :: GetGuid**](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-getguid) est utilisé pour convertir cette valeur en **CLSID**.                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **GUID \_ prop \_ ID de langue**          | Contient une valeur **DWORD** qui contient l’identificateur de langue ( **LangID** ) du texte dans le mot de poids faible.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **lecture du GUID \_ prop \_**         | Contient le texte de lecture phonétique pour le texte couvert par la propriété. Cela peut être différent du texte réel. Les applications du Windows Store ne prennent pas en charge cette propriété.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **lecture du GUID \_ prop \_**         | Contient le texte de lecture phonétique pour le texte couvert par la propriété. Cela peut être différent du texte réel. Windows Les applications du Windows Store ne prennent pas en charge cette propriété.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **\_composition GUID prop \_**       | Contient une valeur booléenne différente de zéro si le texte fait partie d’une composition ou zéro dans le cas contraire. S’il s’agit \_ d’une propriété VT vide, il peut être supposé que le texte ne fait pas partie d’une composition.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **GUID \_ prop \_ MODEBIAS**        | Contient une valeur [**TfGuidAtom**](tfguidatom.md) qui représente le type de décalage de mode pris en charge. [**ITfCategoryMgr :: GetGuid**](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-getguid) est utilisé pour convertir cette valeur en **GUID**. Il peut s’agir de l’une des [**valeurs de biais du mode**](mode-bias-values.md).                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **GUID \_ prop \_ amour mon lifeATTICE**       | Contient un pointeur vers un objet [**ITfLMLattice**](/windows/desktop/api/Ctffunc/nn-ctffunc-itflmlattice) .                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **\_remplacements du GUID prop \_ TKB \_** | **À compter de Windows 8 :** Contient une valeur **DWORD** définie par le clavier tactile. Cette propriété peut être utilisée par les contrôles d’édition et les applications sensibles à TSF pour identifier la nature du texte dans la plage de texte couverte par la propriété, par exemple, si le texte de la plage résulte de l’insertion d’une suggestion de texte ou d’une correction automatique. <br/> La nature du texte dans la plage de texte couverte par la propriété s’étend également au type des alternatives qui seraient retournées par l’interface [**ITfFnReconversion**](/windows/desktop/api/Ctffunc/nn-ctffunc-itffnreconversion) pour cette plage de texte dans le document.<br/> Consultez les notes suivantes pour connaître les valeurs possibles de cette propriété.<br/> |
+| **\_remplacements du GUID prop \_ TKB \_** | **À partir de Windows 8 :** Contient une valeur **DWORD** définie par le clavier tactile. Cette propriété peut être utilisée par les contrôles d’édition et les applications sensibles à TSF pour identifier la nature du texte dans la plage de texte couverte par la propriété, par exemple, si le texte de la plage résulte de l’insertion d’une suggestion de texte ou d’une correction automatique. <br/> La nature du texte dans la plage de texte couverte par la propriété s’étend également au type des alternatives qui seraient retournées par l’interface [**ITfFnReconversion**](/windows/desktop/api/Ctffunc/nn-ctffunc-itffnreconversion) pour cette plage de texte dans le document.<br/> Consultez les notes suivantes pour connaître les valeurs possibles de cette propriété.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété de **\_ \_ \_ remplacements GUID prop TKB** peut avoir l’une des valeurs suivantes.
 
 
 
-| Nom                                     | Valeur      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Name                                     | Valeur      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_autres normes TKB \_                | 0x00000001 | Indique que le clavier tactile a généré une liste de mots alternatifs possibles pour le texte de la plage couverte par la propriété, et que ni la plage de texte, ni les autres ne sont une correction automatique ou une suggestion de texte.                                                                                                                                                                                                              |
 | TKB \_ alternatives \_ pour la \_ Correction automatique     | 0x00000002 | Indique que le clavier tactile a généré un autre mot qui doit automatiquement remplacer le texte de la plage de texte couverte par la propriété.<br/> Le clavier tactile n’appliquera pas la correction automatique sans y être invité par le contrôle ou l’application d’édition. L’interface de reconversion ([**ITfFnReconversion**](/windows/desktop/api/Ctffunc/nn-ctffunc-itffnreconversion)) doit être utilisée pour appliquer la correction au texte du document.<br/> |
@@ -61,7 +61,7 @@ La propriété de **\_ \_ \_ remplacements GUID prop TKB** peut avoir l’une de
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -69,7 +69,7 @@ La propriété de **\_ \_ \_ remplacements GUID prop TKB** peut avoir l’une de
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                 |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                      |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                      |
 | En-tête<br/>                   | <dl> <dt>Msctf. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Msctf. idl</dt> </dl> |
 

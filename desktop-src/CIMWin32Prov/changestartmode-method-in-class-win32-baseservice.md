@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9877300a2135b7082677193696cd2d11811ab3dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dbf010482472077a876fcb8bf06fddd0d57ffa32e2ea1203c0401e56fd69b5d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081003"
 ---
 # <a name="changestartmode-method-of-the-win32_baseservice-class"></a>Méthode ChangeStartMode de la \_ classe Win32 BaseService
 
@@ -45,7 +45,7 @@ uint32 ChangeStartMode(
 *StartMode* \[ dans\]
 </dt> <dd>
 
-Mode de démarrage du service de base Windows. La valeur par défaut est « Automatic ».
+mode de démarrage du service de base Windows. La valeur par défaut est « Automatic ».
 
 <dt>
 

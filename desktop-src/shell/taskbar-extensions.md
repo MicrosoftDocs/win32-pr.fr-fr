@@ -4,16 +4,16 @@ ms.assetid: cbf2b07d-d67c-4755-888c-d40692d13cae
 title: Extensions de la barre des tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4df308d8045301b98937eb03af595d2e800921b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c92cb8f100da2c7b5173319c25369a0ada7284b2ff5f4adbfe9b519c0ee96485
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773749"
 ---
 # <a name="taskbar-extensions"></a>Extensions de la barre des tâches
 
-À compter de Windows 7, la barre des tâches a été étendue de manière significative sous le principe de l’optimisation des utilisateurs là où ils se dépasseront aussi rapidement et efficacement que possible. À cette fin, les fenêtres d’application, les fichiers et les commandes que l’utilisateur doit accomplir et sont désormais centralisés dans un bouton de barre des tâches unique qui consolide les sources d’informations et les contrôles précédemment éparpillés. Un utilisateur peut désormais trouver des tâches courantes, des fichiers récents et fréquents, des alertes, des notifications de progression et des miniatures pour des documents individuels ou des onglets dans un même emplacement.
+à partir de Windows 7, la barre des tâches a été étendue de manière significative dans le cadre du principe de guidisation de l’obtention des utilisateurs là où ils seront le plus rapide et le plus efficace possible. À cette fin, les fenêtres d’application, les fichiers et les commandes que l’utilisateur doit accomplir et sont désormais centralisés dans un bouton de barre des tâches unique qui consolide les sources d’informations et les contrôles précédemment éparpillés. Un utilisateur peut désormais trouver des tâches courantes, des fichiers récents et fréquents, des alertes, des notifications de progression et des miniatures pour des documents individuels ou des onglets dans un même emplacement.
 
 -   [Lancement et commutation unifiés](#unified-launching-and-switching)
 -   [Listes de raccourcis](#jump-lists)
@@ -30,7 +30,7 @@ ms.locfileid: "103867742"
 
 ## <a name="unified-launching-and-switching"></a>Lancement et commutation unifiés
 
-À partir de la barre des tâches de Windows 7, le lancement rapide n’est plus une barre d’outils distincte. Les raccourcis du lanceur que le lancement rapide contient généralement sont maintenant épinglés à la barre des tâches proprement dite, mélangés à des boutons pour les applications en cours d’exécution. Quand un utilisateur démarre une application à partir d’un raccourci de lancement épinglé, l’icône se transforme en bouton de la barre des tâches de l’application tant que l’application est en cours d’exécution. Lorsque l’utilisateur ferme l’application, le bouton revient à l’icône. Toutefois, le raccourci du lanceur et le bouton pour l’application en cours d’exécution sont simplement des formes différentes du bouton de la barre des tâches de Windows 7.
+à partir de la barre des tâches Windows 7, lancement rapide n’est plus une barre d’outils distincte. Les raccourcis du lanceur que le lancement rapide contient généralement sont maintenant épinglés à la barre des tâches proprement dite, mélangés à des boutons pour les applications en cours d’exécution. Quand un utilisateur démarre une application à partir d’un raccourci de lancement épinglé, l’icône se transforme en bouton de la barre des tâches de l’application tant que l’application est en cours d’exécution. Lorsque l’utilisateur ferme l’application, le bouton revient à l’icône. toutefois, le raccourci du lanceur et le bouton pour l’application en cours d’exécution sont simplement des formes différentes du bouton Windows 7 de la barre des tâches.
 
 ![barre des tâches Windows 7](images/taskbar/taskbar.png)
 
@@ -48,7 +48,7 @@ Pendant que l’application est en cours d’exécution, son bouton de la barre 
 
 Le bouton de la barre des tâches peut représenter un lanceur, une fenêtre d’application unique ou un groupe. Un identificateur connu sous le nom d’ID de modèle d’utilisateur d’application (AppUserModelID) est attribué à chaque groupe. Une valeur AppUserModelID peut être spécifiée pour remplacer le regroupement de la barre des tâches standard, ce qui permet à Windows de devenir membres du même groupe lorsqu’ils ne peuvent pas être considérés comme tels. Chaque membre d’un groupe reçoit un aperçu séparé dans le menu volant miniature qui s’affiche lorsque la souris pointe sur le bouton de la barre des tâches du groupe. Notez que le regroupement lui-même reste facultatif.
 
-À compter de Windows 7, les boutons de la barre des tâches peuvent désormais être réorganisés par l’utilisateur par le biais d’opérations de glisser-déplacer.
+à partir de Windows 7, les boutons de la barre des tâches peuvent désormais être réorganisés par l’utilisateur par le biais d’opérations de glisser-déplacer.
 
 > [!Note]  
 > Le dossier lancement rapide ([* * * * FOLDERID \_ QuickLaunch * *](knownfolderid.md)* *) est toujours disponible à des fins de compatibilité descendante, bien qu’il n’y ait plus d’interface utilisateur de lancement rapide. Toutefois, les nouvelles applications ne doivent pas demander à d’ajouter une icône au lancement rapide lors de l’installation.
@@ -67,7 +67,7 @@ Par défaut, une liste de raccourcis standard contient deux catégories : élé
 
 ## <a name="destinations"></a>Destinations
 
-Les catégories **récentes** et **fréquentes** sont considérées comme contenant des destinations. Une destination, généralement un fichier, un document ou une URL, est une valeur qui peut être modifiée, parcourue, affichée, et ainsi de suite. Imaginez une destination comme un élément plutôt qu’une action. En règle générale, une destination est un élément de l’espace de noms Shell, représenté par un [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) ou un [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka). Ces parties de la liste de destination sont analogues à la liste des documents utilisés récemment du menu **Démarrer** (qui n’est plus affichée par défaut) et à la liste des applications fréquemment utilisées, mais elles sont spécifiques à une application et sont donc plus précises et utiles à l’utilisateur. Les résultats utilisés dans la liste de destination sont calculés par le biais d’appels à [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs). Notez que lorsque l’utilisateur ouvre un fichier à partir de l’Explorateur Windows ou utilise la boîte de dialogue de fichier commune pour ouvrir, enregistrer ou créer un fichier, **SHAddToRecentDocs** est appelé automatiquement pour vous, ce qui a pour effet que de nombreuses applications obtiennent leurs éléments récents dans la liste de destination sans aucune action de leur part.
+Les catégories **récentes** et **fréquentes** sont considérées comme contenant des destinations. Une destination, généralement un fichier, un document ou une URL, est une valeur qui peut être modifiée, parcourue, affichée, et ainsi de suite. Imaginez une destination comme un élément plutôt qu’une action. En règle générale, une destination est un élément de l’espace de noms Shell, représenté par un [**IShellItem**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem) ou un [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka). Ces parties de la liste de destination sont analogues à la liste des documents utilisés récemment du menu **Démarrer** (qui n’est plus affichée par défaut) et à la liste des applications fréquemment utilisées, mais elles sont spécifiques à une application et sont donc plus précises et utiles à l’utilisateur. Les résultats utilisés dans la liste de destination sont calculés par le biais d’appels à [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs). notez que lorsque l’utilisateur ouvre un fichier à partir de Windows Explorer ou utilise la boîte de dialogue de fichier commune pour ouvrir, enregistrer ou créer un fichier, **SHAddToRecentDocs** est appelé automatiquement pour vous, ce qui a pour effet que de nombreuses applications obtiennent leurs éléments récents dans la liste de destination sans aucune action de leur part.
 
 Le lancement d’une destination est semblable au lancement d’un élément à l’aide de la commande **Ouvrir avec** . L’application démarre avec cette destination chargée et prête à l’emploi. Vous pouvez également faire glisser des éléments de la liste de destination à partir de la liste vers une destination de dépôt telle qu’un message électronique. En faisant en sorte que ces éléments soient centralisés dans une liste de destination, il obtient des utilisateurs où ils souhaitent aller plus rapidement, ce qui est l’objectif.
 
@@ -114,7 +114,7 @@ Le nombre maximal d’éléments dans une liste de destination est déterminé p
 
 ## <a name="thumbnail-toolbars"></a>Barres d’outils miniatures
 
-Pour fournir l’accès aux commandes de clé d’une fenêtre particulière sans effectuer la restauration de l’utilisateur ou activer la fenêtre de l’application, un contrôle de barre d’outils actif peut être incorporé dans la miniature de cette fenêtre. Par exemple, le lecteur Windows Media peut proposer des contrôles de transport multimédia standard tels que lecture, pause, muet et arrêt. L’interface utilisateur affiche cette barre d’outils directement sous la miniature, comme indiqué dans l’illustration suivante : elle ne couvre aucune partie de celle-ci.
+Pour fournir l’accès aux commandes de clé d’une fenêtre particulière sans effectuer la restauration de l’utilisateur ou activer la fenêtre de l’application, un contrôle de barre d’outils actif peut être incorporé dans la miniature de cette fenêtre. par exemple, Lecteur Windows Media pouvez proposer des contrôles de transport multimédia standard tels que lecture, pause, muet et arrêt. L’interface utilisateur affiche cette barre d’outils directement sous la miniature, comme indiqué dans l’illustration suivante : elle ne couvre aucune partie de celle-ci.
 
 ![barre des tâches miniature pour Windows Media Player, avec trois boutons : précédent, lire et transférer](images/taskbar/thumbbar.png)
 
@@ -140,7 +140,7 @@ Une application peut communiquer certaines notifications et certains États à l
 
 ![bouton de la barre des tâches Windows Messenger avec une superposition pour indiquer un état disponible](images/taskbar/taskbaroverlay.png)
 
-Les superpositions d’icône servent de notification contextuelle de l’État et sont destinées à annuler la nécessité d’une autre icône d’état de la zone de notification pour communiquer ces informations à l’utilisateur. Par exemple, le nouvel État du courrier dans Microsoft Outlook, actuellement affiché dans la zone de notification, peut maintenant être indiqué par une superposition sur le bouton de la barre des tâches. Là encore, vous devez décider au cours de votre cycle de développement de la méthode la mieux adaptée à votre application. Les icônes de superposition sont destinées à fournir des notifications importantes et de longue durée, telles que l’état du réseau, l’état de Messenger ou le nouveau courrier. L’utilisateur ne doit pas être présenté avec des superpositions ou animations constamment modifiées.
+Les superpositions d’icône servent de notification contextuelle de l’État et sont destinées à annuler la nécessité d’une autre icône d’état de la zone de notification pour communiquer ces informations à l’utilisateur. par exemple, le nouvel état du courrier dans Microsoft Outlook, actuellement affiché dans la zone de notification, peut maintenant être indiqué par une superposition sur le bouton de la barre des tâches. Là encore, vous devez décider au cours de votre cycle de développement de la méthode la mieux adaptée à votre application. Les icônes de superposition sont destinées à fournir des notifications importantes et de longue durée, telles que l’état du réseau, l’état de Messenger ou le nouveau courrier. L’utilisateur ne doit pas être présenté avec des superpositions ou animations constamment modifiées.
 
 Comme une superposition unique est superposée sur le bouton de la barre des tâches et non sur les miniatures de fenêtre individuelles, il s’agit d’une fonctionnalité par groupe plutôt que par fenêtre. Les demandes d’icônes de superposition peuvent être reçues à partir de fenêtres individuelles dans un groupe de la barre des tâches, mais elles ne sont pas mises en file d’attente. La dernière superposition reçue est la superposition affichée.
 
@@ -161,7 +161,7 @@ La barre de progression du bouton de la barre des tâches est une expérience si
 
 ## <a name="deskbands"></a>Deskbands
 
-Dans les versions de Windows antérieures à Windows 7, il était possible d’obtenir des fonctionnalités similaires à celles de la barre d’outils miniatures à l’aide d’un Deskband, une barre d’outils hébergée dans la barre des tâches. Par exemple, le lecteur Windows Media peut réduire la barre des tâches en tant qu’ensemble de contrôles de transport plutôt qu’en tant que bouton standard. Dans Windows 7, deskbands peut toujours être implémenté et les barres d’outils miniatures ne sont pas destinées à les remplacer toutes. Toutes les applications ne se prêtent pas à une barre d’outils miniatures, et une autre solution comme Deskband ou une tâche dans une liste de destination peut être la bonne réponse pour votre application ; vous devez choisir la solution qui convient le mieux à votre application dans le cadre de votre cycle de développement. Toutefois, sachez que deskbands doit prendre en charge Windows Aero avec translucidité (« Glass ») activé et l’interface [**IDeskBand2**](/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2) .
+dans les versions de Windows antérieures à Windows 7, il est possible d’obtenir des fonctionnalités similaires à celles de la barre d’outils miniatures à l’aide d’un deskband, une barre d’outils hébergée dans la barre des tâches. par exemple, Lecteur Windows Media pouvez réduire la barre des tâches en tant qu’ensemble de contrôles de transport plutôt qu’en tant que bouton standard. dans Windows 7, deskbands peut toujours être implémenté et les barres d’outils miniatures ne sont pas destinées à les remplacer toutes. Toutes les applications ne se prêtent pas à une barre d’outils miniatures, et une autre solution comme Deskband ou une tâche dans une liste de destination peut être la bonne réponse pour votre application ; vous devez choisir la solution qui convient le mieux à votre application dans le cadre de votre cycle de développement. toutefois, sachez que deskbands doit prendre en charge Windows Aero avec translucidité (« glass ») activé et l’interface [**IDeskBand2**](/windows/desktop/api/Shobjidl/nn-shobjidl-ideskband2) .
 
 ### <a name="apis"></a>API
 
@@ -173,14 +173,14 @@ Des modifications ont été apportées à la zone de notification pour permettre
 
 ## <a name="thumbnails"></a>Miniatures
 
-Dans Windows Vista, si vous pointez sur le bouton de la barre des tâches d’une application, vous affichez une miniature qui représente la fenêtre en cours d’exécution. Si la barre des tâches a réduit les fenêtres de l’application, la miniature la représente en s’affichant sous forme de pile, mais seule la fenêtre active est affichée dans la miniature elle-même.
+dans Windows Vista, si vous pointez sur le bouton de la barre des tâches d’une application, vous affichez une miniature qui représente la fenêtre en cours d’exécution. Si la barre des tâches a réduit les fenêtres de l’application, la miniature la représente en s’affichant sous forme de pile, mais seule la fenêtre active est affichée dans la miniature elle-même.
 
-Dans Windows 7, chaque membre d’un groupe est affiché sous la forme d’une miniature distincte et est maintenant également une cible de commutateur. Une application peut définir ses enfants (tels que des véritables fenêtres enfants, des documents individuels ou des onglets) et fournir des miniatures correspondantes pour chacune de ces fenêtres, même si elles n’apparaissent pas normalement dans la barre des tâches. Cela permet aux utilisateurs de basculer directement vers l’affichage de l’application qu’ils souhaitent, plutôt que de basculer vers l’application, puis de basculer vers leur destination. Par exemple, les applications d’interface/tabbed-document (TDI) d’interface multidocument (MDI) peuvent avoir chaque document ou onglet affiché sous la forme d’une miniature distincte et d’un commutateur cible lorsque la souris pointe sur le bouton de la barre des tâches d’un groupe.
+dans Windows 7, chaque membre d’un groupe est affiché sous la forme d’une miniature distincte et est maintenant également une cible de commutateur. Une application peut définir ses enfants (tels que des véritables fenêtres enfants, des documents individuels ou des onglets) et fournir des miniatures correspondantes pour chacune de ces fenêtres, même si elles n’apparaissent pas normalement dans la barre des tâches. Cela permet aux utilisateurs de basculer directement vers l’affichage de l’application qu’ils souhaitent, plutôt que de basculer vers l’application, puis de basculer vers leur destination. Par exemple, les applications d’interface/tabbed-document (TDI) d’interface multidocument (MDI) peuvent avoir chaque document ou onglet affiché sous la forme d’une miniature distincte et d’un commutateur cible lorsque la souris pointe sur le bouton de la barre des tâches d’un groupe.
 
 ![trois miniatures de la barre des tâches qui représentent des onglets individuels dans Windows Internet Explorer](images/taskbar/taskbarthumbnails.png)
 
 > [!Note]  
-> Comme dans Windows Vista, Aero doit être actif pour afficher les miniatures.
+> comme dans Windows Vista, Aero doit être actif pour afficher les miniatures.
 
  
 

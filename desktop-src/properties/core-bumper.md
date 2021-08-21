@@ -1,7 +1,7 @@
 ---
-description: Base
+description: Core
 ms.assetid: f37e7c10-b2b9-4344-8bf3-0206582e26dd
-title: Base
+title: Core
 ms.topic: article
 ms.date: 05/31/2018
 ms.openlocfilehash: 0c920517163d163ac69e64d3eaa343c30fe9a9bfb358206d6409ee6bdd4e4659
@@ -11,7 +11,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/11/2021
 ms.locfileid: "119776449"
 ---
-# <a name="core"></a>Base
+# <a name="core"></a>Core
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
