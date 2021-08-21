@@ -7,12 +7,12 @@ keywords:
 - Exemple de code pour la lecture des attributs ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2417a30ba4f4b6bf1247ec05bcfb03380f2203f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae9ef6abf864d77571383b3834a88c6a8936132b9fdcc2e01ea84603f0aab95f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082603"
 ---
 # <a name="example-code-for-reading-attributes"></a>Exemple de code pour la lecture d’attributs
 
@@ -642,7 +642,7 @@ void wmain(int argc, wchar_t *argv[])
 
 
 
-L’exemple de code Visual Basic suivant montre comment obtenir les propriétés d’un objet utilisateur. Pour utiliser cet exemple de code, créez une référence à la bibliothèque de types Active Directory et à la bibliothèque de ActiveX Data Objects Microsoft dans votre projet Visual Basic.
+l’exemple de code Visual Basic suivant montre comment obtenir les propriétés d’un objet utilisateur. pour utiliser cet exemple de code, créez une référence à la bibliothèque de types Active directory et à la bibliothèque de ActiveX Data Objects Microsoft dans votre projet Visual Basic.
 
 
 ```VB
@@ -800,9 +800,9 @@ Set propVal = Nothing
 
 
 
- 
+ 
 
- 
+ 
 
 
 

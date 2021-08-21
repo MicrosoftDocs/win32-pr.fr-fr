@@ -5,16 +5,16 @@ ms.assetid: 033E3D8F-3003-42F7-BF77-68A7D62802E5
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff9d459f3195a4cf722ea210edbe63e5c1bf3cc8
-ms.sourcegitcommit: 170bc12e9724d00cecbb96d57c7226c51e135dee
+ms.openlocfilehash: a3f32b423b017477e66ea3ae32eee509ec455d85
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113489166"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121813231"
 ---
 # <a name="using-descriptors-directly-in-the-root-signature"></a>Utilisation directe des descripteurs dans la signature racine
 
-Pour éviter d’avoir à passer par un tas de descripteur, vous pouvez placer un descripteur directement dans la signature racine. Ces descripteurs occupent beaucoup d’espace dans la signature racine (voir [limites de signature racine](/windows/win32/direct3d12/root-signature-limits)). nous vous recommandons donc de les utiliser avec modération.
+Pour éviter d’avoir à passer par un tas de descripteur, vous pouvez placer un descripteur directement dans la signature racine. Ces descripteurs occupent beaucoup d’espace dans la signature racine (voir [limites de signature racine](./root-signature-limits.md)). nous vous recommandons donc de les utiliser avec modération.
 
 Un exemple d’utilisation serait de placer dans la disposition racine une vue de mémoire tampon constante (CBV) qui est modifiée par dessin. C’est pour cela que l’espace du tas du descripteur ne doit pas être alloué par l’application par dessin (et enregistre le pointage d’une table de descripteur au nouvel emplacement dans le tas du descripteur). En plaçant un texte dans la signature racine, l’application confie simplement la responsabilité du contrôle de version au pilote ; mais c’est l’infrastructure que les pilotes possèdent déjà.
 

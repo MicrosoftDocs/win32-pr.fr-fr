@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b90d068da3b8dca1bbcae361d1dbacafcf44464
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3993c3f3680dca46d2f880705fae44812a3bb5fd7a046084c1d818c3433ea7f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082383"
 ---
 # <a name="iadsnametranslate-property-methods"></a>Méthodes de propriété IADsNameTranslate
 
@@ -59,7 +59,7 @@ HRESULT put_ChaseReferral(
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les options de repérage de références s’appliquent uniquement lorsque vous utilisez [**IADsNameTranslate :: Set**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-set) et [**IADsNameTranslate :: obten**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-get). La fonctionnalité n’est pas disponible avec [**IADsNameTranslate :: SetEx**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-setex) ou [**IADsNameTranslate :: GETEX**](/windows/desktop/api/Iads/nf-iads-iadsnametranslate-getex).
 

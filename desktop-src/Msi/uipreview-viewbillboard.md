@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 9cf1c6ee2a47fdb246fcc847627bb63432b8a67f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9892dc68ae5edb66759e4c19499af56d06fb6efac56b823821cd74c4a28644b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810369"
 ---
 # <a name="uipreviewviewbillboard-method"></a>Méthode UIPreview. ViewBillboard
 

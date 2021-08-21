@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48b40de9d10fe563ea5514cd1c773dbdfcb5f691
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e444fc2a9d27b4157218d3e51948d62eda13bb4649c4be3fc6e49c7d8ea6f350
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081753"
 ---
 # <a name="msmq-services-attribute"></a>Attribut MSMQ-Services
 
@@ -36,7 +36,7 @@ Type de service fourni par MSMQ installé sur ce serveur.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.950               |
 | System-ID-GUID    | 9a0dc33d-c100-11d1-bbc5-0080c76670c0 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Type de service fourni par MSMQ installé sur ce serveur.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 8c1b64d2e024f3905d171ab5ca90e59df929ffc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5f459b12d90a12b7c75aabd44d25f6fcf352aff8914e6d991471acaee400260
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079689"
 ---
 # <a name="ntopenthread-function"></a>NtOpenThread fonction)
 
-\[Cette fonction peut être modifiée ou supprimée de Windows sans préavis. Utilisez à la place la fonction [**OpenThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthread) .\]
+\[cette fonction peut être modifiée ou supprimée de Windows sans préavis. Utilisez à la place la fonction [**OpenThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthread) .\]
 
 Ouvre un handle vers un objet thread avec l’accès spécifié.
 
@@ -82,7 +82,7 @@ Retourne un code **NTSTATUS** ou d’erreur.
 
 Les formulaires et la signification des codes d’erreur de **NTSTATUS** sont répertoriés dans le fichier d’en-tête Ntstatus. h disponible dans le kit WDK et sont décrits dans la documentation WDK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a aucun fichier d’en-tête associé. La bibliothèque d’importation associée, ntdll. lib, est disponible dans le kit WDK. Vous pouvez également utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à Ntdll.dll.
 

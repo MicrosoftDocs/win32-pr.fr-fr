@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74c0abf6ec03ca0c29ede3b7d396db375fd06ac6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 212a76930e87d5a83c32a2f6707def8e2af40b89c5ede621ec0c31159d3aa0c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962399"
 ---
 # <a name="glgeterror-function"></a>glGetError fonction)
 
@@ -60,7 +60,7 @@ La fonction **glGetError** retourne l’un des codes d’erreur suivants.
 
 Notez que **glGetError** retourne \_ une opération GL non valide \_ si elle est appelée entre un appel à [**glBegin**](glbegin.md) et son appel correspondant à [**glEnd**](glend.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque erreur détectable est assignée à un code numérique et à un nom symbolique. Lorsqu’une erreur se produit, l’indicateur d’erreur est défini sur la valeur de code d’erreur appropriée. Aucune autre erreur n’est enregistrée tant que **glGetError** n’est pas appelé, le code d’erreur est retourné et l’indicateur est réinitialisé sur GL \_ no \_ Error. Si un appel à **glGetError** retourne GL \_ no \_ Error, aucune erreur détectable n’est survenue depuis le dernier appel à **glGetError** ou depuis que OpenGL a été initialisé.
 

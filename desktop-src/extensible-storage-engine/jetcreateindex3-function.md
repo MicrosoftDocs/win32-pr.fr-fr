@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c4f3331a903d4885499ff6c2cd2cad0d8b8534a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb8e2eec2fe0b60245884b654f99353480833f27
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319762"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465416"
 ---
 # <a name="jetcreateindex3-function"></a>Fonction JetCreateIndex3
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetcreateindex3-function"></a>Fonction JetCreateIndex3
 
@@ -67,129 +67,35 @@ Nombre d’éléments dans le tableau *pindexcreate* .
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errCannotIndex</p></td>
-<td><p>Une tentative d’indexation sur une colonne de dépôt/mise à jour ou SLV (Notez que les colonnes SLV sont dépréciées) a été tentée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errColumnNotFound</p></td>
-<td><p>Une tentative d’indexation sur une colonne inexistante a été effectuée. Toute tentative d’indexation conditionnelle sur une colonne inexistante peut également générer cette erreur.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDensityInvalid</p></td>
-<td><p>Cette erreur est retournée si le membre <strong>ulDensity</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> est défini sur un nombre inférieur à 20 ou supérieur à 100.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errIndexDuplicate</p></td>
-<td><p>Une tentative de définition de deux index identiques a été effectuée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexHasPrimary</p></td>
-<td><p>Une tentative a été effectuée pour spécifier plusieurs index primaires pour une table. Une table doit avoir un seul index primaire. Si aucun index primaire n’est spécifié, le moteur de base de données en crée un en toute transparence.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errIndexInvalidDef</p></td>
-<td><p>Une définition d’index non valide a été spécifiée. Voici quelques raisons possibles pour la réception de cette erreur :</p>
-<ul>
-<li><p>Un index principal est conditionnel (le membre<strong>Grbit</strong> de <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> a JET_bitIndexPrimary défini et le membre <strong>cConditionalColumn</strong> de <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> est supérieur à zéro).</p></li>
-<li><p>Windows Server 2003 et versions ultérieures de Windows. Tentative de création d’un index de tuple avec des limites de tuple, mais sans passer d’informations dans le membre <strong>ptuplelimits</strong> de <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> (autrement dit, <em>Grbit</em> a JET_bitIndexTupleLimits défini, mais le pointeur <strong>ptuplelimits</strong> est null).</p></li>
-<li><p>Passage d’une définition de clé non valide dans le membre <strong>szKey</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> . Pour plus d’informations sur les définitions valides, consultez <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> .</p></li>
-<li><p>La définition du membre <strong>cbVarSegMac</strong> dans <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> est supérieure à JET_cbPrimaryKeyMost (pour un index principal) ou supérieure à JET_cbSecondaryKeyMost (pour un index secondaire).</p></li>
-<li><p>Passage d’une combinaison non valide pour un index Unicode défini par l’utilisateur (un qui a le bit JET_bitIndexUnicode défini dans le membre <strong>Grbit</strong> de <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a>). Certaines causes courantes peuvent être que le champ pidxunicode de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> a la valeur null ou que le LCID spécifié dans la structure pidxunicode n’est pas valide.</p></li>
-<li><p>Spécification d’une colonne à valeurs multiples pour un index primaire.</p></li>
-<li><p>Tentative d’indexation d’un trop grand nombre de colonnes conditionnelles. Le membre <strong>cConditionalColumn</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> ne doit pas être supérieur à JET_ccolKeyMost.</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexTuplesInvalidLimits</p></td>
-<td><p>Windows XP et versions ultérieures de Windows. Une structure de <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> a été spécifiée et ses limites ne sont pas prises en charge. Consultez la section Notes de la structure <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> .</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errIndexTuplesNonUniqueOnly</p></td>
-<td><p>Windows XP et versions ultérieures de Windows. Un index de tuple ne peut pas être unique (<em>Grbit</em> ne doit pas avoir à la fois JET_bitIndexTuples et JET_bitIndexUnique défini).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexTuplesOneColumnOnly</p></td>
-<td><p>Windows XP et versions ultérieures de Windows. Un index de tuple ne peut être que sur une seule colonne (autrement dit, le membre <strong>Grbit</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> a JET_bitIndexTuples jeu et le membre <strong>szKey</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> spécifie plusieurs colonnes).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errIndexTuplesSecondaryIndexOnly</p></td>
-<td><p>Windows XP et versions ultérieures de Windows. Un index de tuple ne peut pas être un index primaire (autrement dit, le membre <strong>Grbit</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> ne doit pas avoir JET_bitIndexPrimary et JET_bitIndexTuples défini).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexTuplesTextColumnsOnly</p></td>
-<td><p>Windows XP et versions ultérieures de Windows. Un index de tuple ne peut être que sur une colonne de type texte ou Unicode. Si vous tentez d’indexer d’autres colonnes (par exemple, des colonnes binaires), JET_errIndexTuplesTextColumnsOnly.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errIndexTuplesVarSegMacNotAllowed</p></td>
-<td><p>Windows XP et versions ultérieures de Windows. Un index de tuple n’autorise pas la définition du membre <strong>cbVarSegMac</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> .</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInTransaction</p></td>
-<td><p>Une tentative de création d’un index sans informations de version a été effectuée dans une transaction.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>La définition de l’index n’est pas valide, car le membre <strong>Grbit</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> contient des valeurs incohérentes. Voici quelques raisons possibles :</p>
-<ul>
-<li><p>Un index principal avait un bit ignore spécifié (JET_bitIndexPrimary a été passé avec l’un des JET_bitIndexIgnoreNull, JET_bitIndexIgnoreAnyNull ou JET_bitIndexIgnoreFirstNull).</p></li>
-<li><p>Un index vide n’ignore aucun champ NULL (autrement dit, le membre <strong>Grbit</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> n’a JET_bitIndexEmpty défini, mais n’a pas de JET_bitIndexIgnoreAnyNull défini).</p></li>
-<li><p>Passage d’une structure <a href="gg269214(v=exchg.10).md">JET_CONDITIONALCOLUMN</a> avec un membre <strong>Grbit</strong> non valide. Consultez <a href="gg269214(v=exchg.10).md">JET_CONDITIONALCOLUMN</a>.</p></li>
-</ul>
-<p>Lors de la création de plusieurs index à la fois (autrement dit, si le paramètre <em>cIndexCreate</em> est supérieur à un), aucun des index ne peut contenir l’un des bits suivants :</p>
-<ul>
-<li><p>JET_bitIndexPrimary</p></li>
-<li><p>JET_bitIndexUnversioned</p></li>
-<li><p>JET_bitIndexEmpty</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidLanguageId</p></td>
-<td><p>Un ID de paramètres régionaux (LCID) non valide a été passé (par le biais du membre <strong>LCID</strong> dans la structure <a href="gg294097(v=exchg.10).md">JET_UNICODEINDEX</a> , que le membre <strong>pidxunicode</strong> dans la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> contient un pointeur vers ou via le membre <strong>LCID</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> ).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidName</p></td>
-<td><p>Un nom d’index non valide a été spécifié. Pour plus d’informations, consultez <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> .</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Un paramètre non valide a été passé dans l’API. Voici quelques raisons pour lesquelles cette erreur peut être retournée :</p>
-<ul>
-<li><p>Le champ <strong>cbKey</strong> d’une structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> a la valeur zéro.</p></li>
-<li><p>Le membre <strong>cbStruct</strong> d’une structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> n’a pas la valeur sizeof ( <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> ).</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errUnicodeTranslationFail</p></td>
-<td><p>Une erreur s’est produite lors de la normalisation d’une colonne Unicode. Cela peut être dû à un manque de ressources système.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSpaceHintsInvalid</p></td>
-<td><p>Un élément de la structure d’indicateurs d’espace JET n’est pas correct ou n’est pas exploitable.</p></td>
-</tr>
-</tbody>
-</table>
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 
-#### <a name="remarks"></a>Notes
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errCannotIndex</p> | <p>Une tentative d’indexation sur une colonne de dépôt/mise à jour ou SLV (Notez que les colonnes SLV sont dépréciées) a été tentée.</p> | 
+| <p>JET_errColumnNotFound</p> | <p>Une tentative d’indexation sur une colonne inexistante a été effectuée. Toute tentative d’indexation conditionnelle sur une colonne inexistante peut également générer cette erreur.</p> | 
+| <p>JET_errDensityInvalid</p> | <p>Cette erreur est retournée si le membre <strong>ulDensity</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> est défini sur un nombre inférieur à 20 ou supérieur à 100.</p> | 
+| <p>JET_errIndexDuplicate</p> | <p>Une tentative de définition de deux index identiques a été effectuée.</p> | 
+| <p>JET_errIndexHasPrimary</p> | <p>Une tentative a été effectuée pour spécifier plusieurs index primaires pour une table. Une table doit avoir un seul index primaire. Si aucun index primaire n’est spécifié, le moteur de base de données en crée un en toute transparence.</p> | 
+| <p>JET_errIndexInvalidDef</p> | <p>Une définition d’index non valide a été spécifiée. Voici quelques raisons possibles pour la réception de cette erreur :</p><ul><li><p>Un index principal est conditionnel (le membre<strong>Grbit</strong> de <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> a JET_bitIndexPrimary défini et le membre <strong>cConditionalColumn</strong> de <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> est supérieur à zéro).</p></li><li><p>Windows Le serveur 2003 et les versions ultérieures de Windows. Tentative de création d’un index de tuple avec des limites de tuple, mais sans passer d’informations dans le membre <strong>ptuplelimits</strong> de <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> (autrement dit, <em>Grbit</em> a JET_bitIndexTupleLimits défini, mais le pointeur <strong>ptuplelimits</strong> est null).</p></li><li><p>Passage d’une définition de clé non valide dans le membre <strong>szKey</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> . Pour plus d’informations sur les définitions valides, consultez <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> .</p></li><li><p>La définition du membre <strong>cbVarSegMac</strong> dans <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> est supérieure à JET_cbPrimaryKeyMost (pour un index principal) ou supérieure à JET_cbSecondaryKeyMost (pour un index secondaire).</p></li><li><p>Passage d’une combinaison non valide pour un index Unicode défini par l’utilisateur (un qui a le bit JET_bitIndexUnicode défini dans le membre <strong>Grbit</strong> de <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a>). Certaines causes courantes peuvent être que le champ pidxunicode de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> a la valeur null ou que le LCID spécifié dans la structure pidxunicode n’est pas valide.</p></li><li><p>Spécification d’une colonne à valeurs multiples pour un index primaire.</p></li><li><p>Tentative d’indexation d’un trop grand nombre de colonnes conditionnelles. Le membre <strong>cConditionalColumn</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> ne doit pas être supérieur à JET_ccolKeyMost.</p></li></ul> | 
+| <p>JET_errIndexTuplesInvalidLimits</p> | <p>Windows XP et versions ultérieures de Windows. Une structure de <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> a été spécifiée et ses limites ne sont pas prises en charge. Consultez la section Notes de la structure <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> .</p> | 
+| <p>JET_errIndexTuplesNonUniqueOnly</p> | <p>Windows XP et versions ultérieures de Windows. Un index de tuple ne peut pas être unique (<em>Grbit</em> ne doit pas avoir à la fois JET_bitIndexTuples et JET_bitIndexUnique défini).</p> | 
+| <p>JET_errIndexTuplesOneColumnOnly</p> | <p>Windows XP et versions ultérieures de Windows. Un index de tuple ne peut être que sur une seule colonne (autrement dit, le membre <strong>Grbit</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> a JET_bitIndexTuples jeu et le membre <strong>szKey</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> spécifie plusieurs colonnes).</p> | 
+| <p>JET_errIndexTuplesSecondaryIndexOnly</p> | <p>Windows XP et versions ultérieures de Windows. Un index de tuple ne peut pas être un index primaire (autrement dit, le membre <strong>Grbit</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> ne doit pas avoir JET_bitIndexPrimary et JET_bitIndexTuples défini).</p> | 
+| <p>JET_errIndexTuplesTextColumnsOnly</p> | <p>Windows XP et versions ultérieures de Windows. Un index de tuple ne peut être que sur une colonne de type texte ou Unicode. Si vous tentez d’indexer d’autres colonnes (par exemple, des colonnes binaires), JET_errIndexTuplesTextColumnsOnly.</p> | 
+| <p>JET_errIndexTuplesVarSegMacNotAllowed</p> | <p>Windows XP et versions ultérieures de Windows. Un index de tuple n’autorise pas la définition du membre <strong>cbVarSegMac</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> .</p> | 
+| <p>JET_errInTransaction</p> | <p>Une tentative de création d’un index sans informations de version a été effectuée dans une transaction.</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>La définition de l’index n’est pas valide, car le membre <strong>Grbit</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> contient des valeurs incohérentes. Voici quelques raisons possibles :</p><ul><li><p>Un index principal avait un bit ignore spécifié (JET_bitIndexPrimary a été passé avec l’un des JET_bitIndexIgnoreNull, JET_bitIndexIgnoreAnyNull ou JET_bitIndexIgnoreFirstNull).</p></li><li><p>Un index vide n’ignore aucun champ NULL (autrement dit, le membre <strong>Grbit</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> n’a JET_bitIndexEmpty défini, mais n’a pas de JET_bitIndexIgnoreAnyNull défini).</p></li><li><p>Passage d’une structure <a href="gg269214(v=exchg.10).md">JET_CONDITIONALCOLUMN</a> avec un membre <strong>Grbit</strong> non valide. Consultez <a href="gg269214(v=exchg.10).md">JET_CONDITIONALCOLUMN</a>.</p></li></ul><p>Lors de la création de plusieurs index à la fois (autrement dit, si le paramètre <em>cIndexCreate</em> est supérieur à un), aucun des index ne peut contenir l’un des bits suivants :</p><ul><li><p>JET_bitIndexPrimary</p></li><li><p>JET_bitIndexUnversioned</p></li><li><p>JET_bitIndexEmpty</p></li></ul> | 
+| <p>JET_errInvalidLanguageId</p> | <p>Un ID de paramètres régionaux (LCID) non valide a été passé (par le biais du membre <strong>LCID</strong> dans la structure <a href="gg294097(v=exchg.10).md">JET_UNICODEINDEX</a> , que le membre <strong>pidxunicode</strong> dans la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> contient un pointeur vers ou via le membre <strong>LCID</strong> de la structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> ).</p> | 
+| <p>JET_errInvalidName</p> | <p>Un nom d’index non valide a été spécifié. Pour plus d’informations, consultez <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> .</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Un paramètre non valide a été passé dans l’API. Voici quelques raisons pour lesquelles cette erreur peut être retournée :</p><ul><li><p>Le champ <strong>cbKey</strong> d’une structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> a la valeur zéro.</p></li><li><p>Le membre <strong>cbStruct</strong> d’une structure <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> n’a pas la valeur sizeof ( <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> ).</p></li></ul> | 
+| <p>JET_errUnicodeTranslationFail</p> | <p>Une erreur s’est produite lors de la normalisation d’une colonne Unicode. Cela peut être dû à un manque de ressources système.</p> | 
+| <p>JET_errSpaceHintsInvalid</p> | <p>Un élément de la structure d’indicateurs d’espace JET n’est pas correct ou n’est pas exploitable.</p> | 
+
+
+
+#### <a name="remarks"></a>Remarques
 
 La valeur de retour est JET_errSuccess en cas d’achèvement réussi de tous les index spécifiés.
 
@@ -197,38 +103,9 @@ La valeur de retour est JET_errSuccess en cas d’achèvement réussi de tous le
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetCreateIndex3W</strong> (Unicode) et <strong>JetCreateIndex3A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetCreateIndex3W</strong> (Unicode) et <strong>JetCreateIndex3A</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

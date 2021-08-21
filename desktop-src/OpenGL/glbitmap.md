@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7aeb97bb16a1e3c4c29d1dfb1a5320c02f44404d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8da90b8e592f8cd9d1702c7810990042b3929ef40e70814e8fb7d3326d902cb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082229"
 ---
 # <a name="glbitmap-function"></a>glBitmap fonction)
 
@@ -105,14 +105,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | la *largeur* ou la *hauteur* est négative.<br/>                                                                                           |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une image bitmap est une image binaire. Lorsqu’elle est dessinée, la bitmap est positionnée par rapport à la position actuelle du raster, et trame pixels correspondant aux 1s dans le bitmap sont écrits à l’aide de la couleur ou de l’index raster actuel. Les pixels de la mémoire tampon de trame correspondant aux zéros dans l’image bitmap ne sont pas modifiés.
 

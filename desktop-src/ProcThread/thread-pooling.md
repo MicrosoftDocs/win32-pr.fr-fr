@@ -4,18 +4,18 @@ ms.assetid: a5e52080-35d4-47f5-9050-90889e3bf2f8
 title: Regroupement des threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcf3565401dc57b077e333043861d42b683e810c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c581e416952e6bac14dbf12a8f87202925a5254879b7e220c7cb2d780699f9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081279"
 ---
 # <a name="thread-pooling"></a>Regroupement des threads
 
 Il existe de nombreuses applications qui créent des threads qui consacrent beaucoup de temps à l’état de veille en attendant qu’un événement se produise. D’autres threads peuvent entrer dans un état de veille uniquement pour être mis à jour régulièrement pour demander des informations sur l’état des modifications ou des mises à jour. Le *regroupement de threads* vous permet d’utiliser les threads plus efficacement en fournissant à votre application un pool de threads de travail qui sont gérés par le système. Au moins un thread surveille l’état de toutes les opérations d’attente en attente dans le pool de threads. Quand une opération d’attente est terminée, un thread de travail du pool de threads exécute la fonction de rappel correspondante.
 
-Cette rubrique décrit l’API du pool de threads d’origine. L’API de pool de threads introduite dans Windows Vista est plus simple, plus fiable, offre de meilleures performances et offre davantage de flexibilité aux développeurs. Pour plus d’informations sur l’API de pool de threads actuelle, consultez [pools de threads](thread-pools.md).
+Cette rubrique décrit l’API du pool de threads d’origine. l’API de pool de threads introduite dans Windows Vista est plus simple, plus fiable, offre de meilleures performances et offre davantage de flexibilité aux développeurs. Pour plus d’informations sur l’API de pool de threads actuelle, consultez [pools de threads](thread-pools.md).
 
 Vous pouvez également mettre en file d’attente des éléments de travail qui ne sont pas associés à une opération d’attente dans le pool de threads. Pour demander qu’un élément de travail soit géré par un thread dans le pool de threads, appelez la fonction [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem) . Cette fonction accepte un paramètre de la fonction qui sera appelée par le thread sélectionné dans le pool de threads. Il n’existe aucun moyen d’annuler un élément de travail après qu’il a été mis en file d’attente.
 

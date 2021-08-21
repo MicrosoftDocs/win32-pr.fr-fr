@@ -4,12 +4,12 @@ ms.assetid: 53791b1c-5fd5-45d8-817b-098566ab4f9c
 title: Action StartServices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9c150a8970c5852d9cfc53581290e792c00b628
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 100ff7b927eb4bc157530cebe9767ef7a434d92f0b72f9e6c799b02a2969f5b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627529"
 ---
 # <a name="startservices-action"></a>Action StartServices
 
@@ -46,7 +46,7 @@ L’une des actions suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette action nécessite que l’utilisateur soit un administrateur ou qu’il dispose de privilèges élevés avec l’autorisation de contrôler les services ou que l’application fasse partie d’une installation gérée.
 

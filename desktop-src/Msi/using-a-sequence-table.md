@@ -4,12 +4,12 @@ ms.assetid: db9a9cae-2a66-4e0d-a981-8de66d7c2a13
 title: Utilisation d’une table de séquences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0be10082aba05429a63df69444ed28bea350aa5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16adf47a554bf70298b0efc893847f84eafd6e97313b09ba9ea3182398cdd97d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809009"
 ---
 # <a name="using-a-sequence-table"></a>Utilisation d’une table de séquences
 
@@ -50,11 +50,11 @@ Pour obtenir une description détaillée des tables de séquence et de la façon
 
 * * Windows Installer 3,0 et versions ultérieures : * *
 
-À partir de Windows Installer 3,0, un package de correctifs peut contenir la [table MsiPatchSequence](msipatchsequence-table.md). Ce tableau contient toutes les informations requises par le programme d’installation pour déterminer la séquence de l’application d’un correctif logiciel de petite mise à jour par rapport à tous les autres correctifs. Pour plus d’informations, consultez [mise à jour corrective et mises à niveau](patching-and-upgrades.md).
+à partir de Windows Installer 3,0, un package de correctifs peut contenir la [table MsiPatchSequence](msipatchsequence-table.md). Ce tableau contient toutes les informations requises par le programme d’installation pour déterminer la séquence de l’application d’un correctif logiciel de petite mise à jour par rapport à tous les autres correctifs. Pour plus d’informations, consultez [mise à jour corrective et mises à niveau](patching-and-upgrades.md).
 
 > [!Note]
 >
-> Les [modules de fusion](merge-modules.md) peuvent contenir des [tables de base de données de module de fusion](merge-module-database-tables.md) qui modifient les tables de séquences d’action du fichier. msi cible. La fusion du module dans une base de données peut modifier les informations de la table Sequence, mais n’ajoute pas ces tables au fichier. msi. Pour plus d’informations, consultez [création de tables de séquence de module de fusion](authoring-merge-module-sequence-tables.md).
+> Les [modules de fusion](merge-modules.md) peuvent contenir des [tables de base de données de module de fusion](merge-module-database-tables.md) qui modifient les tables de séquences d’action du fichier de .msi cible. La fusion du module dans une base de données peut modifier les informations de la table Sequence, mais n’ajoute pas ces tables au fichier .msi. Pour plus d’informations, consultez [création de tables de séquence de module de fusion](authoring-merge-module-sequence-tables.md).
 
  
 

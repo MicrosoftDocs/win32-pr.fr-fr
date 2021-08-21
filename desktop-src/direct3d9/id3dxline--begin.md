@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ee241b39f2d0c1939cf2cb0cc09e079abd3430a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9daa65558c58849d406056ce3358c26fdf2ce1c604342f993babe6af553d130f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629649"
 ---
 # <a name="id3dxlinebegin-method"></a>ID3DXLine :: Begin, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appel de **ID3DXLine :: Begin** est facultatif. Si elle est appelée en dehors d’une séquence ID3DXLine :: Begin/ID3DXLine :: end, les fonctions de dessin appellent en interne ID3DXLine :: Begin et ID3DXLine :: end. Pour éviter une surcharge supplémentaire, cette méthode doit être utilisée si plusieurs fonctions de dessin seront appelées successivement.
 

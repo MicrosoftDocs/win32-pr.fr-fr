@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e6eb207d826b641e9295e4a3fa4fcda16e0b2769
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa5807314092c6245c23a329deb44a644ed54b22640292a06e08a9944f54e4dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629329"
 ---
 # <a name="sessionevaluatecondition-method"></a>Session. EvaluateCondition, méthode
 
@@ -63,13 +63,13 @@ Cette méthode retourne un entier qui indique l’évaluation de la condition.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les expressions conditionnelles peuvent être utilisées pour comparer les États des fonctionnalités et des composants. Le tableau suivant présente les États des fonctionnalités et des composants utilisés par la méthode EvaluateCondition.
 
 
 
-| State                 | Valeur | Description                                              |
+| État                 | Valeur | Description                                              |
 |-----------------------|-------|----------------------------------------------------------|
 | Null                  | Null  | Aucune action effectuée sur la fonctionnalité ou le composant.                 |
 | msiInstallStateAbsent | 2     | La fonctionnalité ou le composant n’est pas présent.                     |

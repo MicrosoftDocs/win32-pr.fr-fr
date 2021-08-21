@@ -3,9 +3,9 @@ title: Méthode IWMPNetwork getProxyExceptionList
 description: La méthode getProxyExceptionList retourne la liste des exceptions du proxy.
 ms.assetid: 1b209d75-0fa7-420e-831c-160f3826cf3a
 keywords:
-- méthode getProxyExceptionList lecteur Windows Media
-- méthode getProxyExceptionList lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, méthode getProxyExceptionList
+- Lecteur Windows Media de la méthode getProxyExceptionList
+- méthode getProxyExceptionList Lecteur Windows Media, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, méthode getProxyExceptionList
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 402e3b28d5423314b499213c9ddb02bca482d629
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 96434d4ea2341a8d33fcb9673898f4adca5eae7ace27eb7a7cafb9d482d74a53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053537"
 ---
 # <a name="iwmpnetworkgetproxyexceptionlist-method"></a>IWMPNetwork :: getProxyExceptionList, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPNetwork.getProxyExceptionList
 
 **System. String** qui est une liste délimitée par des points-virgules des hôtes pour lesquels le serveur proxy est contourné. La valeur est significative uniquement lorsque **IWMPNetwork. getProxySettings** retourne la valeur 2 (utiliser des paramètres manuels).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une liste d’ordinateurs, de domaines et/ou d’adresses qui contournent le serveur proxy lorsque la partie hôte de l’URL cible correspond à une entrée de la liste.
 
@@ -74,7 +74,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code suivant utilise **getProxyExceptionList** pour indiquer si le lecteur Windows Media est configuré pour ignorer le serveur proxy pour les adresses locales. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
+l’exemple de code suivant utilise **getProxyExceptionList** pour indiquer si Lecteur Windows Media est défini pour ignorer le serveur proxy pour les adresses locales. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
 
 
 ```CSharp

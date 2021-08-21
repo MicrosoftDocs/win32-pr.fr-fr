@@ -3,9 +3,9 @@ title: IWMPMedia propriété markerCount
 description: La propriété markerCount obtient le nombre de marqueurs dans l’élément multimédia.
 ms.assetid: d1ccaa9b-98fb-4c53-8064-ee4bf718d18a
 keywords:
-- propriété markerCount lecteur Windows Media
-- propriété markerCount lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, propriété markerCount
+- Lecteur Windows Media de la propriété markerCount
+- Lecteur Windows Media de la propriété markerCount, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, propriété markerCount
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdad591d8be66dcd20bc5e59d206a637d9b1181f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8afbc402858452c987bb6f2dcce0e1ad0428b8c67b81d2369de2a8cdbc6a7dd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053627"
 ---
 # <a name="iwmpmediamarkercount-property"></a>IWMPMedia :: markerCount, propriété
 
@@ -51,7 +51,7 @@ Public ReadOnly Property markerCount As System.Int32
 
 **System. Int32** qui est le nombre de marqueurs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété retourne la valeur zéro si un fichier n’a pas de marqueurs, ou si l’élément multimédia n’est pas le même que celui spécifié dans AxWindowsMediaPlayer. currentMedia.
 

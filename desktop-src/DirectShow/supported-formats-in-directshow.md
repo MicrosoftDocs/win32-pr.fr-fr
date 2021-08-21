@@ -4,16 +4,16 @@ ms.assetid: cd8af779-2fb5-4724-a838-5d0c8244f0d3
 title: Formats pris en charge dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a6c9a0c85a3ccdfd3db092ba2efce00a191493
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10e42079f29ce89ba66fcd0c03a6520769a91538eb1a9b8901115b6895420d65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633229"
 ---
 # <a name="supported-formats-in-directshow"></a>Formats pris en charge dans DirectShow
 
-DirectShow est une architecture ouverte, ce qui signifie qu’elle peut prendre en charge n’importe quel format, à condition qu’il y ait des filtres pour l’analyser et la décoder. Les filtres fournis par Microsoft, tels que les fichiers redistribuables via DirectShow ou les composants du système d’exploitation Windows, fournissent une prise en charge par défaut pour les formats de fichier et de compression suivants.
+DirectShow est une architecture ouverte, ce qui signifie qu’elle peut prendre en charge n’importe quel format, à condition qu’il y ait des filtres pour l’analyser et le décoder. les filtres fournis par Microsoft, tels que les fichiers redistribuables par le biais de DirectShow ou Windows composants du système d’exploitation, fournissent une prise en charge par défaut pour les formats de fichiers et de compression suivants.
 
 Types de fichiers :
 
@@ -56,7 +56,7 @@ Formats de compression :
 
  
 
-Pour plus d’informations sur la disponibilité de codecs tiers spécifiques pour la redistribution avec des applications DirectShow, contactez le fabricant du codec.
+pour plus d’informations sur la disponibilité de codecs tiers spécifiques pour la redistribution avec des applications DirectShow, contactez le fabricant du codec.
 
  
 

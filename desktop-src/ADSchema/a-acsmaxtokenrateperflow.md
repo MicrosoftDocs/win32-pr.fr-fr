@@ -1,10 +1,10 @@
 ---
-title: Attribut ACS-Max-Token-DEBIT-per-Flow
+title: attribut ACS-Max-Token-Rate-Per-Flow
 description: Taux de jetons maximal pour un utilisateur donné.
 ms.assetid: 2898b7a6-f2b1-4e08-aba6-9e1ac655a4db
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD ACS-attribut Max-Token-rate-per-Flow
+- schéma AD des attributs ACS-Max-Token-Rate-Per-Flow
 - Schéma AD de l’attribut aCSMaxTokenRatePerFlow
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5165c20a27f7d1a389b9aada118d89786c015d2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 33e3c4319345e47a90b09e5f101fec875fbd97dde7d704618f39fbbb76385e14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082073"
 ---
-# <a name="acs-max-token-rate-per-flow-attribute"></a>Attribut ACS-Max-Token-DEBIT-per-Flow
+# <a name="acs-max-token-rate-per-flow-attribute"></a>attribut ACS-Max-Token-Rate-Per-Flow
 
 Taux de jetons maximal pour un utilisateur donné.
 
@@ -29,14 +29,14 @@ Taux de jetons maximal pour un utilisateur donné.
 
 | Entrée | Valeur |
 |-------------------|--------------------------------------|
-| CN                | ACS-Max-Token-DEBIT-per-Flow          |
+| CN                | ACS-Max-Token-rate-per-Flow          |
 | LDAP-Display-Name | aCSMaxTokenRatePerFlow               |
 | Taille              | 8 octets                              |
 | Mettre à jour le privilège  | \-                                   |
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.758               |
 | System-ID-GUID    | 7f56127b-5301-11d1-a9c5-0000f80367c1 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ Taux de jetons maximal pour un utilisateur donné.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

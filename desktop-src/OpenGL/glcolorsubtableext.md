@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a0386bda82bf08ae778d20b1be69858698ac7bb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d99b8dcef2ef21b4d75eb5262d2e3ecffa3804fa8e7a4889ae5dcbf8d68f018
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081679"
 ---
 # <a name="glcolorsubtableext-function"></a>glColorSubTableEXT fonction)
 
@@ -118,11 +118,11 @@ Format des données de pixels. Les constantes symboliques suivantes sont accept�
 </tr>
 <tr class="odd">
 <td><span id="GL_BGR_EXT"></span><span id="gl_bgr_ext"></span><dl> <dt><strong>GL_BGR_EXT</strong></dt> </dl></td>
-<td>Chaque pixel est un groupe de trois composants dans cet ordre : bleu, vert, rouge.<br/> GL_BGR_EXT fournit un format qui correspond à la disposition mémoire des bitmaps indépendants du périphérique Windows (DIB). Par conséquent, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
+<td>Chaque pixel est un groupe de trois composants dans cet ordre : bleu, vert, rouge.<br/> GL_BGR_EXT fournit un format qui correspond à la disposition de la mémoire des Windows des bitmaps indépendantes du périphérique (dib). par conséquent, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="GL_BGRA_EXT"></span><span id="gl_bgra_ext"></span><dl> <dt><strong>GL_BGRA_EXT</strong></dt> </dl></td>
-<td>Chaque pixel est un groupe de quatre composants dans l’ordre suivant : bleu, vert, rouge, alpha.<br/> GL_BGRA_EXT fournit un format qui correspond à la disposition mémoire des bitmaps indépendants du périphérique Windows (DIB). Par conséquent, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
+<td>Chaque pixel est un groupe de quatre composants dans l’ordre suivant : bleu, vert, rouge, alpha.<br/> GL_BGRA_EXT fournit un format qui correspond à la disposition de la mémoire des Windows des bitmaps indépendantes du périphérique (dib). par conséquent, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -175,7 +175,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                              | Signification                                                                                                                               |
+| Name                                                                                              | Signification                                                                                                                               |
 |---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl> | *Start* ou *Count* était un entier non valide.<br/>                                                                                 |
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>  | la *cible*, le *format* ou le *type* n’était pas une valeur acceptée.<br/>                                                                    |
@@ -183,7 +183,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glColorSubTableEXT** spécifie des parties de la palette de la texture ciblée actuelle à remplacer. Contrairement à [**glColorTableEXT**](glcolortableext.md), vous ne pouvez pas spécifier le paramètre *target* comme une palette de texture de proxy.
 
