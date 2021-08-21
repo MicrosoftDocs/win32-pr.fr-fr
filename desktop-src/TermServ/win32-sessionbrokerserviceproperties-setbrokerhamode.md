@@ -1,6 +1,6 @@
 ---
 title: Méthode SetBrokerHAMode de la classe Win32_SessionBrokerServiceProperties
-description: Migre les données d’une base de données WID locale vers la nouvelle base de données SQL Server. Il configure également le serveur Broker pour utiliser le serveur SQL Server central.
+description: migre les données d’une base de données WID locale vers la nouvelle base de données SQL server. il configure également le serveur du service broker pour qu’il utilise le serveur de SQL central.
 ms.assetid: 8f14590d-3042-403c-a1cb-a3b257866284
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4526f8ded96086ccf223b3c8e5aad72d9e0262cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17b72233b51686911e4b1d0a661f4e46fa9bcaa813bb6ccc973b2f8a5b12da24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118604548"
 ---
 # <a name="setbrokerhamode-method-of-the-win32_sessionbrokerserviceproperties-class"></a>Méthode SetBrokerHAMode de la \_ classe Win32 SessionBrokerServiceProperties
 
-Migre les données d’une base de données WID locale vers la nouvelle base de données SQL Server. Il configure également le serveur Broker pour utiliser le serveur SQL Server central.
+migre les données d’une base de données WID locale vers la nouvelle base de données SQL server. il configure également le serveur du service broker pour qu’il utilise le serveur de SQL central.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -58,7 +58,7 @@ Chaîne de connexion à la base de données centrale.
 
 Chaîne de connexion secondaire à la base de données centrale.
 
-**Windows server 2012 R2 et Windows server 2012 :** Ce paramètre n’est pas disponible avant Windows Server 2016.
+**Windows Server 2012 R2 et Windows Server 2012 :** Ce paramètre n’est pas disponible avant Windows Server 2016.
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ Nom DNS du Service Broker.
 
 Nom de service Broker actif.
 
-**Windows server 2012 R2 et Windows server 2012 :** Ce paramètre n’est pas disponible avant Windows Server 2016.
+**Windows Server 2012 R2 et Windows Server 2012 :** Ce paramètre n’est pas disponible avant Windows Server 2016.
 
 </dd> </dl>
 

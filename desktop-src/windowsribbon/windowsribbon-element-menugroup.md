@@ -3,7 +3,7 @@ title: Élément MenuGroup
 description: Représente un conteneur de contrôles à afficher dans une galerie, un menu ou une barre d’outils.
 ms.assetid: 75da63fe-dd9e-46af-8f13-a8d8e7575641
 keywords:
-- Ruban des fenêtres d’élément MenuGroup
+- élément MenuGroup Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 95cbda43fe2f652888a7b84539752b5d671868c3
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 854b33d1e11df15b5b383bf004986edc18418f6204ae1298c3171a6653cf5301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707089"
 ---
 # <a name="menugroup-element"></a>Élément MenuGroup
 
 Représente un conteneur de contrôles à afficher dans une galerie, un menu ou une barre d’outils.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <MenuGroup
@@ -211,7 +211,7 @@ Cette section de code montre les déclarations de contrôle [**SplitButton**](wi
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

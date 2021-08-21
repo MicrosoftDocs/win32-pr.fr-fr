@@ -4,12 +4,12 @@ ms.assetid: addde51d-2982-4964-b16a-406fea89a0ce
 title: Filtre de compresseur AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 212ab58eb3800e0ad5531ebc5c50d3b054e7866c
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: fa074f5ad4a72fe1e1a32f45baa4888a526b1a0532a562c2fadb7753ea71e0aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159271"
 ---
 # <a name="avi-compressor-filter"></a>Filtre de compresseur AVI
 
@@ -20,7 +20,7 @@ La broche d’entrée du filtre se connecte aux filtres qui génèrent des donn�
 Si le codec prend en charge une boîte de dialogue de configuration de VFW de style ancien ou une boîte de dialogue à propos de, une application peut l’afficher à l’aide de l’interface [**IAMVfwCompressDialogs**](/windows/desktop/api/Strmif/nn-strmif-iamvfwcompressdialogs) .
 
 > [!Note]  
-> Les compresseurs MPEG ne sont jamais implémentés en tant que codecs VCM, mais uniquement en tant que filtres DirectShow natifs.
+> les compresseurs MPEG ne sont jamais implémentés en tant que codecs VCM, mais uniquement en tant que filtres de DirectShow natifs.
 
  
 
@@ -47,7 +47,7 @@ Si le codec prend en charge une boîte de dialogue de configuration de VFW de st
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

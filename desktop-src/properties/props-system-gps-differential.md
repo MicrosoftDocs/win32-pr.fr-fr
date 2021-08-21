@@ -4,12 +4,12 @@ ms.assetid: 9e88e861-b5cd-4f13-9765-b63306bbaa29
 title: System. GPS. Differential
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d47ef2942a18582ad4f741d1f0be3744a4418714
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1ff314d85a7681df287b342a91a06d19cb1a613c3f815b31f385c2a90bae473
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106525036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727487"
 ---
 # <a name="systemgpsdifferential"></a>System. GPS. Differential
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt16
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

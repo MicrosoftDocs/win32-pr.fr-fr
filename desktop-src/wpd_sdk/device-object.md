@@ -4,12 +4,12 @@ ms.assetid: 0d403a6e-c22e-4b77-9be4-b8d53092f279
 title: Objet appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aef76dbe26b1fd2c8d2bfd6da708728c9eb2177b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf5279f63c7dabd8bd5b523d9234e33a60d9cf05608ac7b3f1b7601fd8c25024
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083613"
 ---
 # <a name="device-object"></a>Objet appareil
 
@@ -27,10 +27,10 @@ Si un appareil donné implémente la catégorie d' [ \_ \_ \_ appareils de caté
 | [\_ \_ \_ ID unique persistant de l’objet wpd \_](object-properties.md)                          | Obligatoire.                                                                                                   |
 | [WPD, \_ objet \_ ISHIDDEN](object-properties.md)                                                    | Obligatoire si l’objet de l’appareil ne doit pas être présenté à l’utilisateur.                                              |
 | [\_références d’objets wpd \_](object-properties.md)                                                | Obligatoire si l’objet appareil a des références à d’autres objets.                                              |
-| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Optionnel.                                                                                                   |
-| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Optionnel.                                                                                                   |
-| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Optionnel.                                                                                                   |
-| [\_partenaire de \_ synchronisation des appareils wpd \_](device-properties.md)                                           | Optionnel.                                                                                                   |
+| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Facultatif.                                                                                                   |
+| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Facultatif.                                                                                                   |
+| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Facultatif.                                                                                                   |
+| [\_partenaire de \_ synchronisation des appareils wpd \_](device-properties.md)                                           | Facultatif.                                                                                                   |
 | [\_ \_ version du microprogramme de l’appareil wpd \_](device-properties.md)                                   | Obligatoire.                                                                                                   |
 | [niveau de puissance de l' \_ appareil wpd \_ \_](device-properties.md)                                             | Recommandé si l’appareil dispose d’une batterie.                                                                    |
 | [\_ \_ source d’alimentation de l’appareil wpd \_](device-properties.md)                                           | Recommandé.                                                                                                |
@@ -39,15 +39,15 @@ Si un appareil donné implémente la catégorie d' [ \_ \_ \_ appareils de caté
 | [\_modèle d’appareil wpd \_](device-properties.md)                                                          | Obligatoire.                                                                                                   |
 | [Numéro de série de l' \_ appareil wpd \_ \_](device-properties.md)                                         | Obligatoire.                                                                                                   |
 | [l' \_ appareil wpd \_ prend en charge les appareils \_ non \_ consommables](device-properties.md)                    | Obligatoire si l’appareil prend en charge des objets non-consommables ; autrement dit, s’il peut être utilisé pour le stockage de données simple. |
-| [\_ \_ date/heure de l’appareil wpd](device-properties.md)                                                    | Optionnel.                                                                                                   |
+| [\_ \_ date/heure de l’appareil wpd](device-properties.md)                                                    | Facultatif.                                                                                                   |
 | [\_ \_ nom convivial de l’appareil wpd \_](device-properties.md)                                         | Recommandé.                                                                                                |
 | [\_ \_ schéma DRM pris en charge par l’appareil wpd \_ \_](device-properties.md)                          | Recommandé si l’appareil prend en charge les Rights Management numériques (DRM).                                         |
 | [\_ \_ les formats pris en charge pour les appareils wpd \_ \_ sont \_ classés](device-properties.md)       | Recommandé si l’appareil prend en charge la classification de format par défaut.                                               |
 | [\_type d’appareil wpd \_](device-properties.md)                                                            | Recommandé.                                                                                                |
-| [\_ \_ \_ ID unique fonctionnel de l’appareil wpd \_](device-properties.md)                          | Optionnel.                                                                                                   |
-| [\_ \_ ID unique du modèle d’appareil wpd \_ \_](device-properties.md)                                    | Optionnel.                                                                                                   |
+| [\_ \_ \_ ID unique fonctionnel de l’appareil wpd \_](device-properties.md)                          | Facultatif.                                                                                                   |
+| [\_ \_ ID unique du modèle d’appareil wpd \_ \_](device-properties.md)                                    | Facultatif.                                                                                                   |
 | [TRANSPORT de l' \_ appareil wpd \_](device-properties.md)                                                  | Recommandé.                                                                                                |
-| [étape de l’appareil d’utilisation de l' \_ appareil wpd \_ \_ \_](device-properties.md)                                  | Optionnel.                                                                                                   |
+| [étape de l’appareil d’utilisation de l' \_ appareil wpd \_ \_ \_](device-properties.md)                                  | Facultatif.                                                                                                   |
 | [\_catégorie d' \_ objet \_ fonctionnel wpd](device-properties.md)                             | Obligatoire.                                                                                                   |
 
 
@@ -60,7 +60,7 @@ Ces objets n’hébergent généralement pas de ressources.
 
 ## <a name="commands"></a>Commandes
 
-En plus des propriétés, les appareils doivent prendre en charge un ensemble spécifique de commandes définies par les appareils mobiles Windows. Les commandes prises en charge par un objet ou un appareil dépendent de son type, de ses fonctionnalités et de ses fonctionnalités.
+outre les propriétés, les appareils doivent prendre en charge un ensemble spécifique de commandes définies par Windows appareils mobiles. Les commandes prises en charge par un objet ou un appareil dépendent de son type, de ses fonctionnalités et de ses fonctionnalités.
 
 Le tableau suivant décrit les classes de commande qui s’appliquent aux appareils, par fonctionnalité. En règle générale, un appareil se trouve sous plusieurs catégories et doit prendre en charge les commandes pour toutes les catégories applicables. Par exemple, un téléphone mobile avec un appareil photo se présente sous trois catégories : tous les appareils, appareils SMS et périphériques de capture d’images fixes. Une application cliente et de pilote personnalisée peut prendre en charge des commandes ou des propriétés supplémentaires que vous définissez, mais elle doit prendre en charge les commandes suivantes. Pour obtenir une description des commandes spécifiques qui se trouvent sous chaque catégorie de commande, consultez [commandes](commands.md).
 

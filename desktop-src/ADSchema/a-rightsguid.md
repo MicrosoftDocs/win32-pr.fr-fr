@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4da47ec8e4736dd13b6ba39da0208aed505aa8a9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 057ede64b269e607e9f8e7f914756dd541b7d1d473bc0628c490d5b7fccb618d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681720"
 ---
 # <a name="rights-guid-attribute"></a>Attribut Rights-Guid
 
@@ -46,7 +46,7 @@ GUID utilisé pour représenter un droit étendu dans une entrée de contrôle d
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -1,11 +1,11 @@
 ---
 title: AxWindowsMediaPlayer. versionInfo, propriété
-description: La propriété versionInfo obtient une valeur qui spécifie la version du lecteur Windows Media.
+description: la propriété versionInfo obtient une valeur qui spécifie la version du Lecteur Windows Media.
 ms.assetid: e128bec5-1ae9-4710-800e-4f97df362909
 keywords:
-- propriété versionInfo lecteur Windows Media
-- propriété versionInfo lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété versionInfo
+- Lecteur Windows Media de propriétés versionInfo
+- Lecteur Windows Media de propriétés versionInfo, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété versionInfo
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2f759c2aedb19e21c4b7d90f3634141e4c37ec8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fd7491af0fc102f03da9855b78ecef79ac0a09ca9b3ab8b49f9bf6b948f0d86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118841160"
 ---
 # <a name="axwindowsmediaplayerversioninfo-property"></a>AxWindowsMediaPlayer. versionInfo, propriété
 
-La propriété versionInfo obtient une valeur qui spécifie la version du lecteur Windows Media.
+la propriété versionInfo obtient une valeur qui spécifie la version du Lecteur Windows Media.
 
 Cette propriété est en lecture seule.
 
@@ -52,7 +52,7 @@ System. String qui correspond aux informations de version au format suivant : �
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant crée un bouton qui, lorsque vous cliquez dessus, affiche une boîte de message contenant les informations de version pour le lecteur Windows Media. L’objet AxWMPLib. AxWindowsMediaPlayer est représenté par la variable Player.
+l’exemple suivant crée un bouton qui, lorsque vous cliquez dessus, affiche une boîte de message contenant les informations de version de Lecteur Windows Media. L’objet AxWMPLib. AxWindowsMediaPlayer est représenté par la variable Player.
 
 
 ```CSharp
@@ -100,7 +100,7 @@ End Sub
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

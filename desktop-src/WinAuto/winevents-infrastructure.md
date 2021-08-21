@@ -1,19 +1,19 @@
 ---
 title: Infrastructure WinEvents
-description: Le système d’exploitation Microsoft Windows comprend une fonctionnalité, appelée WinEvents, qui permet aux processus et aux applications qui s’exécutent sur le bureau Windows d’échanger certains types d’informations.
+description: le système d’exploitation Microsoft Windows comprend une fonctionnalité, appelée WinEvents, qui permet aux processus et aux applications exécutés sur le bureau Windows d’échanger certains types d’informations.
 ms.assetid: ba97b00b-4a4c-4889-ae9c-8e92eb742849
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8846582a6d18f304cc08e3cb13ddb444cb278d7
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 8662cdcbfa9546ce04dc787e7089f68ba1c03137c41067c20792f7da111cf2a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "103679545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563284"
 ---
 # <a name="winevents"></a>WinEvents
 
-Le système d’exploitation Microsoft Windows comprend une fonctionnalité, appelée *winEvents*, qui permet aux processus et aux applications qui s’exécutent sur le bureau Windows d’échanger certains types d’informations. Les outils d’accessibilité qui utilisent Microsoft UI Automation et Microsoft Active Accessibility font partie des principaux utilisateurs de WinEvents.
+le système d’exploitation Microsoft Windows comprend une fonctionnalité, appelée *WinEvents*, qui permet aux processus et aux applications exécutés sur le bureau Windows d’échanger certains types d’informations. Les outils d’accessibilité qui utilisent Microsoft UI Automation et Microsoft Active Accessibility font partie des principaux utilisateurs de WinEvents.
 
 Dans le contexte de l’accessibilité, les fournisseurs UI Automation et les serveurs Microsoft Active Accessibility utilisent WinEvents pour informer les clients des modifications apportées à l’interface utilisateur d’une application, par exemple lorsqu’un élément d’interface utilisateur a été créé ou détruit, ou lorsqu’un nom d’élément, un État ou une valeur a changé.
 
@@ -37,9 +37,9 @@ Pour obtenir une vue d’ensemble du processus de notification d’événements 
 [Infrastructure commune](common-infrastructure.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

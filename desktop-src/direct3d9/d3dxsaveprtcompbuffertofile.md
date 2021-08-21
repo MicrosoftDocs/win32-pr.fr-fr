@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d06629185637ce6fa0d7d33d5454282d2bbb8ec2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a62bd164ce8eb8175c62658b19dd5ce6282d6c75b081db45f8b0af4994322579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524509"
 ---
 # <a name="d3dxsaveprtcompbuffertofile-function"></a>D3DXSavePRTCompBufferToFile fonction)
 
@@ -54,7 +54,7 @@ Type : **[HRESULT](../com/structure-of-com-error-codes.md)**
 
 Si la méthode est réussie, la valeur de retour est **D3D \_ OK**. Si la méthode échoue, la valeur de retour peut être **D3DERR \_ INVALIDCALL**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en [D3DXSavePRTCompBufferToFileW](). Dans le cas contraire, l’appel de fonction est résolu en **D3DXSavePRTCompBufferToFileA**.
 

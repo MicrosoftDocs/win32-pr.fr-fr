@@ -3,7 +3,7 @@ title: String. Symbol, propriété
 description: Représente le nom d’une ressource de type chaîne.
 ms.assetid: 7c1d0197-2c9b-4f42-afba-73fd1c366deb
 keywords:
-- Propriété String. Symbol, ruban Windows
+- propriété String. Symbol Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7bf7d30ddd8677b1c5ff0a5e55d4b9c119795ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fe6c071461fcdeb5f2bbbdbb15fce0f3f6e6031edddf4bd18e034416ba8c49e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706860"
 ---
 # <a name="stringsymbol-property"></a>String. Symbol, propriété
 
 Représente le nom d’une ressource de type chaîne.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <String.Symbol/>
@@ -47,9 +47,9 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément de [**chaîne**](windowsribbon-element-string.md) .
 
@@ -82,8 +82,8 @@ L’exemple suivant illustre le balisage pour un élément [**Command. LabelTitl
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 093ff5f20db42bcafe62ee0ec57d5027abcf9f22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 389d40b76614fe64038133c8cc0623706d4f2be82e68b3e096b59b3023f08bf2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529489"
 ---
 # <a name="sisrestoredcommonstorefile-function"></a>SisRestoredCommonStoreFile fonction)
 
@@ -59,7 +59,7 @@ Nom du fichier de stockage commun restauré.
 
 Cette fonction retourne la **valeur true** si elle se termine avec succès et la **valeur false** dans le cas contraire. Appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) pour obtenir plus d’informations sur la raison de l’échec de l’appel.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction doit être appelée une fois que vous avez restauré un fichier de magasin commun. Il informe l’architecture SIS qu’un nouveau fichier de magasin commun a été écrit, afin que l’architecture SIS puisse effectuer des tâches de maintenance internes, telles que l’initialisation de ses structures de données internes ou la résolution des liens vers le fichier de magasin commun.
 
@@ -71,8 +71,8 @@ Votre opération de restauration doit restaurer uniquement les fichiers du magas
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Sisbkup. h</dt> </dl>   |
 | Bibliothèque<br/>                  | <dl> <dt>Sisbkup. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |

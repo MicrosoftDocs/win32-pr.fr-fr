@@ -4,12 +4,12 @@ ms.assetid: 1b0943fb-076e-4feb-9a4f-36a06bdd19ae
 title: Utilisation du client de débogage WSD pour vérifier le trafic de multidiffusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a814ac97512ef4b0691c22d3238d151372023a7
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 6831fa0583a4525c5df3a42d0ce4679d217f63e57e2c645ef429157fdf8cafbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552326"
 ---
 # <a name="using-wsd-debug-client-to-verify-multicast-traffic"></a>Utilisation du client de débogage WSD pour vérifier le trafic de multidiffusion
 
@@ -32,7 +32,7 @@ Si les messages requis s’affichent dans la sortie du client de débogage WSD, 
 
 ## <a name="verifying-that-messages-are-being-multicast"></a>Vérification de la multidiffusion des messages
 
-Vérifiez toujours que les messages de [sondage](probe-message.md) sont en cours de multidiffusion. Si vous le souhaitez, vérifiez que les messages de [salutation](hello-message.md) et de [résolution](resolve-message.md) sont en cours de multidiffusion. Notez que toutes les applications n’utilisent pas les messages de résolution. Pour plus d’informations sur les modèles de message utilisés par les clients et les hôtes, consultez [modèles de message d’échange de métadonnées](discovery-and-metadata-exchange-message-patterns.md) et de découverte et [prise en main avec résolution des problèmes wsdapi](getting-started-with-wsdapi-troubleshooting.md).
+Vérifiez toujours que les messages de [sondage](probe-message.md) sont en cours de multidiffusion. Si vous le souhaitez, vérifiez que les messages de [salutation](hello-message.md) et de [résolution](resolve-message.md) sont en cours de multidiffusion. Notez que toutes les applications n’utilisent pas les messages de résolution. pour plus d’informations sur les modèles de message utilisés par les clients et les hôtes, voir [détection et métadonnées Exchange les modèles de message](discovery-and-metadata-exchange-message-patterns.md) et les [Prise en main avec la résolution des problèmes WSDAPI](getting-started-with-wsdapi-troubleshooting.md).
 
 Les messages doivent être déclenchés pour pouvoir être envoyés comme décrit à l’étape 3 ci-dessus. Le client de débogage WSD affiche le message SOAP brut comme sortie. Étant donné que tous les messages imprimés par le client de débogage WSD en mode de multidiffusion sont reçus sur un socket de multidiffusion, l’adresse de destination du message n’est pas affichée.
 

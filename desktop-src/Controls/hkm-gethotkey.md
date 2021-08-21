@@ -3,7 +3,7 @@ title: Message HKM_GETHOTKEY (commctrl. h)
 description: Obtient le code de touche virtuel et les indicateurs de modificateur d’une touche d’accès rapide à partir d’un contrôle de touche d’accès rapide.
 ms.assetid: 8b061411-604d-46ea-a082-3eca2d47d992
 keywords:
-- HKM_GETHOTKEY les contrôles de message Windows
+- HKM_GETHOTKEY les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16e23e02f32a4dd6f82f61fd735688353f48ec19
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79bfbad1eb5e9a6679a1b3e419a0877e61cd90247ef0cf91b0a30c655f755a57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672267"
 ---
 # <a name="hkm_gethotkey-message"></a>\_Message hkm GETHOTKEY
 
@@ -52,7 +52,7 @@ Retourne le code de touche virtuel et les indicateurs de modificateur. Le [**LOB
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur 16 bits retournée par ce message peut être utilisée comme paramètre *wParam* dans le message [**WM \_ SETHOTKEY**](/windows/desktop/inputdev/wm-sethotkey) .
 
@@ -62,8 +62,8 @@ La valeur 16 bits retournée par ce message peut être utilisée comme paramètr
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -3,9 +3,9 @@ title: Propriété Count IWMPPlaylist
 description: La propriété Count obtient le nombre d’éléments multimédias dans une sélection.
 ms.assetid: dbff3c86-2d42-4d47-a5cb-b8199efac728
 keywords:
-- propriété Count Windows Media Player
-- propriété Count lecteur Windows Media, interface IWMPPlaylist
-- IWMPPlaylist interface Windows Media Player, propriété Count
+- Lecteur Windows Media de la propriété count
+- Lecteur Windows Media de la propriété count, interface IWMPPlaylist
+- Lecteur Windows Media de l’interface IWMPPlaylist, propriété count
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56d988fefc436b65652d2b0765320ca289417c9c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aad690278b45563395c926adb4d0329bff8a01c7e8ace2f25ff3fefdb9c39cee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568694"
 ---
 # <a name="iwmpplaylistcount-property"></a>IWMPPlaylist :: Count, propriété
 

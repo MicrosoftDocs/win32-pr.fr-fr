@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdf790e6bd56a6c4d128841777a9bd7a541b13f3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 147b6baff5bc3181c18f9b3bff1d25460afd638cf7b9e3dfe96283b6d752a2f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685749"
 ---
 # <a name="ms-dfsr-options-attribute"></a>MS-DFSR-attribut options
 
@@ -36,14 +36,14 @@ Contient les options de l’objet de réplication système de fichiers DFS (DFS)
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.13.3.17           |
 | System-ID-GUID    | d6d67084-C720-417D-8647-b696237a114c |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -131,7 +131,7 @@ Contient les options de l’objet de réplication système de fichiers DFS (DFS)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **MS-DFSR-options** fait partie de la prise en charge du service réplication DFS.
 

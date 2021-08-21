@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87c0e5ba002a3941ebc1d3855309adb7851c9c7a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d4e921cb1b5f021a7c0edb2a60d80d2c8b9835af34295bb737bc403b0e733692
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685828"
 ---
 # <a name="ms-dfsr-memberreference-attribute"></a>attribut ms-DFSR-MemberReference
 
@@ -43,7 +43,7 @@ Contient le lien suivant vers l’objet [**MS-DFSR-Member**](c-msdfsr-member.md)
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -131,7 +131,7 @@ Contient le lien suivant vers l’objet [**MS-DFSR-Member**](c-msdfsr-member.md)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **MS-DFSR-MemberReference** fait partie de la prise en charge du service de réplication système de fichiers DFS (DFS).
 

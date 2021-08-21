@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a44dd7f648754c2ded7334c9b221022d936ebfb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b19473a851a683a14c26df5d71165f326dbfc45ed04eed50db0e5cde6195a2d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683337"
 ---
 # <a name="ms-ds-tombstone-quota-factor-attribute"></a>attribut de facteur de quota ms-DS-Tombstone
 
@@ -36,7 +36,7 @@ Facteur de pourcentage par lequel le nombre d’objets tombstone doit être réd
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1847              |
 | System-ID-GUID    | 461744d7-F3B6-45ba-8753-fb9552a5df32 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Facteur de pourcentage par lequel le nombre d’objets tombstone doit être réd
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

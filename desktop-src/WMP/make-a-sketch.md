@@ -3,18 +3,18 @@ title: Créer une esquisse
 description: Créer une esquisse
 ms.assetid: 4030aae7-26e7-4acd-a988-6ac53ce43639
 keywords:
-- Apparences mobiles du lecteur Windows Media, croquis
+- Lecteur Windows Media Skins mobiles, croquis
 - habillages, croquis
 - créer des apparences, des croquis
 - croquis dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aff7edba0eaa115f6cc88c2a62f0060b700ed21a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1e498850b723645f43cb2858cac9d40f7bf06822c49b70155ae5448c9d012910
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118837225"
 ---
 # <a name="make-a-sketch"></a>Créer une esquisse
 
@@ -26,7 +26,7 @@ Démarrez Photoshop et créez une image de la taille requise. Créez une nouvell
 
 Le bouton PlayPause est en haut à gauche, les boutons arrêter, suivant et préc se trouvent à gauche, le TrackBar du volume est en bas et le texte défilant entre le bouton PlayPause et le TrackBar du volume.
 
-Lors de la création d’une apparence pour Windows Media Player 10 mobile ou version ultérieure, un bouton PlayPauseStop doit être utilisé à la place d’un bouton PlayPause. Aucun bouton d’arrêt supplémentaire n’est nécessaire.
+lors de la création d’une apparence pour Lecteur Windows Media 10 Mobile ou version ultérieure, un bouton PlayPauseStop doit être utilisé à la place d’un bouton PlayPause. Aucun bouton d’arrêt supplémentaire n’est nécessaire.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -35,9 +35,9 @@ Lors de la création d’une apparence pour Windows Media Player 10 mobile ou ve
 [**Création de l’illustration**](creating-the-art.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

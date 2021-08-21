@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9d8eeaac8fa258a2df1452b8aa261ee59b3cc85
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd01887751a4389984a4bc765d924d6c8a8e81dd9a65be3b7a868a3cbb845cf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106515072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691126"
 ---
 # <a name="iadspostaladdress-property-methods"></a>Méthodes de propriété IADsPostalAddress
 

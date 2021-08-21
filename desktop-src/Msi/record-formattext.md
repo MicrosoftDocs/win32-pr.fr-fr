@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 377a1614d06ab4dfe1fa4f8b0745d420dc4d01ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 28170a4d92f656dcd12863eca5c003ccb851772f42de375e8f5f1b61a768ba49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118626979"
 ---
 # <a name="recordformattext-method"></a>Record. FormatText, méthode
 
@@ -41,7 +41,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **FormatText** suit les fonctionnalités de la fonction [**MsiFormatRecord**](/windows/desktop/api/Msiquery/nf-msiquery-msiformatrecorda) si **MsiFormatRecord** a reçu un handle de programme d’installation null en tant que premier paramètre. Par conséquent, seuls les paramètres de champ d’enregistrement sont traités et les propriétés ne sont pas disponibles pour la substitution.
 

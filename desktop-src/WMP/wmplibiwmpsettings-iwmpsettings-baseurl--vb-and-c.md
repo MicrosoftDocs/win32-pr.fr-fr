@@ -3,9 +3,9 @@ title: IWMPSettings, propriété baseURL
 description: La propriété baseURL obtient ou définit l’URL de base utilisée pour la résolution de chemin d’accès relative avec des commandes de script d’URL incorporées dans le contenu multimédia numérique.
 ms.assetid: e136303f-ba08-434f-ad7e-9fffa66785c4
 keywords:
-- propriété baseURL lecteur Windows Media
-- propriété baseURL lecteur Windows Media, interface IWMPSettings
-- Interface IWMPSettings lecteur Windows Media, propriété baseURL
+- propriété baseURL Lecteur Windows Media
+- propriété baseURL Lecteur Windows Media, interface IWMPSettings
+- Lecteur Windows Media de l’interface IWMPSettings, propriété baseURL
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 393575a93bf904f6fe312b13647ad5a7557b15bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3224a43a2689fd49dee2b2a66cc768250b1a829e61863d8cfbd029e3cdf783c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568417"
 ---
 # <a name="iwmpsettingsbaseurl-property"></a>IWMPSettings :: baseURL, propriété
 
@@ -48,7 +48,7 @@ Public Property baseURL As System.String
 
 **System. String** qui est l’URL de base.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété spécifie l’URL HTTP de base qui est transmise en tant que paramètre de commande par l’événement **AxWindowsMediaPlayer \_ WMPOCXEvents \_ ScriptCommandEvent** . L’URL de base est concaténée avec l’URL relative, comme suit :
 
@@ -59,7 +59,7 @@ Cette propriété spécifie l’URL HTTP de base qui est transmise en tant que p
 
 **Remarque**
 
-Le contrôle du lecteur Windows Media ne prend pas en charge l’utilisation de deux points (..) dans l’URL relative pour indiquer le parent de l’emplacement actuel.
+le contrôle Lecteur Windows Media ne prend pas en charge l’utilisation de deux points (..) dans l’URL relative pour indiquer le parent de l’emplacement actuel.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -77,7 +77,7 @@ Le contrôle du lecteur Windows Media ne prend pas en charge l’utilisation de 
 
 <dl> <dt>
 
-[**Événement AxWindowsMediaPlayer. commande (VB et C#)**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
+[**événement AxWindowsMediaPlayer. commande (VB et C#)**](axwmplib-axwindowsmediaplayer-scriptcommand.md)
 </dt> <dt>
 
 [**Interface IWMPSettings (VB et C#)**](iwmpsettings--vb-and-c.md)

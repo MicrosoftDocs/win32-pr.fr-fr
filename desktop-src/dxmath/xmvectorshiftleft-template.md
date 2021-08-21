@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.template.xmvectorshiftleft(xmvector,xmvector
 title: Modèle XMVectorShiftLeft (DirectXMath. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 115604871d9e8402157a82bf3c420e5762b3a424
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ab92e2fb64a101251a7531ca1d96b8b06f3e9af6e2b7dabe7958673a61bd8c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499278"
 ---
 # <a name="xmvectorshiftleft-template"></a>Modèle XMVectorShiftLeft
 
@@ -46,7 +46,7 @@ template<uint32_t Elements> XMVECTOR XMVectorShiftLeft(
 
 Retourne le décalage et le remplissage de [**XMVECTOR**](xmvector-data-type.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est une version de modèle de [**XMVectorShiftLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorshiftleft) où l’argument *Elements* est une valeur de modèle.
 
@@ -59,7 +59,7 @@ Cette fonction est une version de modèle de [**XMVectorShiftLeft**](/windows/wi
 
 ### <a name="platform-requirements"></a>Conditions requises par la plateforme
 
-Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. Pris en charge pour les applications de bureau Win32, les applications du Windows Store et les applications Windows Phone 8.
+Microsoft Visual Studio 2010 ou Microsoft Visual Studio 2012 avec le SDK Windows pour Windows 8. pris en charge pour les applications de bureau Win32, les applications de Windows Store et les applications Windows Phone 8.
 
 ## <a name="requirements"></a>Configuration requise
 

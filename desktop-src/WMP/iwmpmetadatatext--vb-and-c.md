@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPMetadataText (VB et C) (WMP. h)
+title: interface IWMPMetadataText (VB et C) (Wmp. h)
 description: Fournit des propriétés pour obtenir des informations sur les attributs de métadonnées textuelles complexes.
 ms.assetid: c0f300d2-6ddb-470b-849d-771d3719bb97
 keywords:
-- IWMPMetadataText (VB et C) interface Windows Media Player
-- Interface IWMPMetadataText (VB et C), le lecteur Windows Media, décrit
+- interface IWMPMetadataText (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPMetadataText (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 146afd709d0805043603cfb3b14b1c1fc1838075
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 9e39e82b117bcf4425ac09d7d18357fbfe5bfb73ed5c2848087f1cc7cab95fde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575405"
 ---
-# <a name="iwmpmetadatatext-vb-and-c-interface"></a>Interface IWMPMetadataText (VB et C#)
+# <a name="iwmpmetadatatext-vb-and-c-interface"></a>interface IWMPMetadataText (VB et C#)
 
 Fournit des propriétés pour obtenir des informations sur les attributs de métadonnées textuelles complexes.
 
@@ -53,7 +53,7 @@ Obtient une interface **IWMPMetadataText** en passant un nom d’attribut tel qu
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPMetadataText (VB et C#)** ne définit aucun membre.
+l’interface **IWMPMetadataText (VB et C#)** ne définit aucun membre.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -69,7 +69,7 @@ L’interface **IWMPMetadataText (VB et C#)** ne définit aucun membre.
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

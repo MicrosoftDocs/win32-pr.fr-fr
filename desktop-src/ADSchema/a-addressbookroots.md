@@ -1,6 +1,6 @@
 ---
 title: Adresse-attribut de répertoire racines
-description: Utilisé par Exchange. Exchange configure les arborescences des conteneurs de carnets d’adresses à afficher dans le carnet d’adresses MAPI. Cet attribut sur l’objet de configuration Exchange répertorie les racines des arborescences de conteneurs du carnet d’adresses. | Adresse-attribut de répertoire racines
+description: Utilisé par Exchange. Exchange configure les arborescences des conteneurs de carnets d’adresses à afficher dans le carnet d’adresses MAPI. cet attribut sur l’objet de configuration Exchange répertorie les racines des arborescences de conteneurs du carnet d’adresses. | Adresse-attribut de répertoire racines
 ms.assetid: 7e6d2677-9818-4870-8429-50f73f9c8c1f
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab195744bb7fb5029a9a48aeca55d703e6e05b62
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d2a1d6edd1ba18da126be413224bd32c71c707e8cb905dca9445513467b9af22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106527057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689006"
 ---
 # <a name="address-book-roots-attribute"></a>Adresse-attribut de répertoire racines
 
-Utilisé par Exchange. Exchange configure les arborescences des conteneurs de carnets d’adresses à afficher dans le carnet d’adresses MAPI. Cet attribut sur l’objet de configuration Exchange répertorie les racines des arborescences de conteneurs du carnet d’adresses.
+Utilisé par Exchange. Exchange configure les arborescences des conteneurs de carnets d’adresses à afficher dans le carnet d’adresses MAPI. cet attribut sur l’objet de configuration Exchange répertorie les racines des arborescences de conteneurs du carnet d’adresses.
 
 
 
@@ -45,7 +45,7 @@ Utilisé par Exchange. Exchange configure les arborescences des conteneurs de ca
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

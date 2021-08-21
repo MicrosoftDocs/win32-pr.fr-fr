@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-attribut AppleTalk
+title: MS-SQL-AppleTalk (attribut)
 description: Point de connexion AppleTalk.
 ms.assetid: f60835f9-4d7e-45c3-bb7d-769712f59a87
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD des attributs MS-SQL-AppleTalk
-- Schéma AD des attributs mS-SQL-AppleTalk
+- schéma AD d’attribut MS-SQL-AppleTalk
+- schéma AD d’attribut mS-SQL-AppleTalk
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe81121fa453cfcf7e21e30d1eb780ae84b3ab2c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dde288e86fdba9095233d7cfd55fd7ff76a914772a28bff094f146af9a9d882a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686980"
 ---
-# <a name="ms-sql-appletalk-attribute"></a>MS-SQL-attribut AppleTalk
+# <a name="ms-sql-appletalk-attribute"></a>MS-SQL-AppleTalk (attribut)
 
 Point de connexion AppleTalk.
 
@@ -45,7 +45,7 @@ Point de connexion AppleTalk.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

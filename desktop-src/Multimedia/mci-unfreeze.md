@@ -3,7 +3,7 @@ title: Commande MCI_UNFREEZE (mmsystem. h)
 description: La commande MCI dégeler \_ restaure le mouvement vers une zone de la mémoire tampon vidéo figée avec la \_ commande de blocage MCI. Les périphériques numériques vidéo, VCR et vidéo reconnaissent cette commande.
 ms.assetid: 79ff1be5-6e30-4ef4-ab81-fc5643e3a72d
 keywords:
-- Commande MCI_UNFREEZE Windows multimédia
+- commande MCI_UNFREEZE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8736e27998330f9337bb21569e145a4395e90020
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3011f3d2c05c304b37957c6f4cb78f2ada9389ab727a7af63a358fd4b5afdd3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525569"
 ---
 # <a name="mci_unfreeze-command"></a>\_Commande MCI libérer
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’indicateur supplémentaire suivant est utilisé avec le type d’appareil **Digitalvideo** :
 
@@ -117,7 +117,7 @@ Pour les périphériques de superposition vidéo, le paramètre *lpUnfreeze* poi
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

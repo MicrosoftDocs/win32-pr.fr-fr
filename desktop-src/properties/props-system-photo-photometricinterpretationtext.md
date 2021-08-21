@@ -4,12 +4,12 @@ ms.assetid: e61bdfd5-0602-4964-b761-720fe58f5d31
 title: System. photo. PhotometricInterpretationText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1eeef82b979ea2f4eb5256bc016e38e34ea6d83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 726832227421d99c505faea785fd096d5387d76e148f53913fa9afba22ad6059
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723697"
 ---
 # <a name="systemphotophotometricinterpretationtext"></a>System. photo. PhotometricInterpretationText
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

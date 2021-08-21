@@ -4,12 +4,12 @@ ms.assetid: 2959f574-1a39-4db1-9e4a-a303d0c7f8f3
 title: Étape 10. Prise en charge de l’inscription COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fead7e3448d8f02fd477141699e1107ca288afd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f68efdeda754d5f7b728138a26a6bc9f4b782918f8c4b5140fd2457bcee6012f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652149"
 ---
 # <a name="step-10-support-com-registration"></a>Étape 10. Prise en charge de l’inscription COM
 
@@ -79,7 +79,7 @@ Pour tester la page de propriétés, inscrivez la DLL, puis chargez le filtre da
 [Création d’une page de propriétés de filtre](creating-a-filter-property-page.md)
 </dt> <dt>
 
-[Comment créer une DLL de filtre DirectShow](how-to-create-a-dll.md)
+[comment créer une DLL de filtre DirectShow](how-to-create-a-dll.md)
 </dt> </dl>
 
  

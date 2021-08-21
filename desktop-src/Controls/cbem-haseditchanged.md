@@ -3,7 +3,7 @@ title: Message CBEM_HASEDITCHANGED (commctrl. h)
 description: Détermine si l’utilisateur a modifié le texte d’un contrôle d’édition ComboBoxEx.
 ms.assetid: 8bf8c40a-e1ab-4748-899b-a9ed27767884
 keywords:
-- CBEM_HASEDITCHANGED les contrôles de message Windows
+- CBEM_HASEDITCHANGED les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5234b816a2ec080449ade072981b489968df8f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ae5949827dbabf962ec9a9e9bd9d3b6d27d09a3b7e62f7fc71f2c4343e8ce370
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528039"
 ---
 # <a name="cbem_haseditchanged-message"></a>\_Message CBEM HASEDITCHANGED
 
@@ -39,7 +39,7 @@ Détermine si l’utilisateur a modifié le texte d’un contrôle d’édition 
 
 Retourne la **valeur true** si le texte de la zone d’édition du contrôle a été modifié, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un contrôle ComboBoxEx utilise un contrôle de zone d’édition lorsqu’il est défini sur le style de [**\_ liste déroulante CBS**](combo-box-styles.md) . Vous pouvez récupérer le handle de fenêtre du contrôle de zone d’édition en envoyant un message [**CBEM \_ GETEDITCONTROL**](cbem-geteditcontrol.md) .
 
@@ -53,8 +53,8 @@ Le [**style \_ simple CBS**](combo-box-styles.md) ne fonctionne pas correctement
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: b94fca60-237a-43b1-a75a-faccf9dc63fb
 title: Gestion des imprimantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73e9625fbe17c0dd350a10c0c71dcd5332fb9154
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7086b360355d0ad85be440bc8bc9e330bfa6dd25793cc943d3aacdbaa0d4a8f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719597"
 ---
 # <a name="managing-printers"></a>Gestion des imprimantes
 
@@ -30,7 +30,7 @@ Vous pouvez gérer les imprimantes sur un système à l’aide de la fonction [*
 
 ## <a name="printing-files-with-shellexecuteex"></a>Impression de fichiers avec ShellExecuteEx
 
-Si un type de fichier est associé à une commande d’impression, vous pouvez imprimer le fichier en appelant [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) avec **Print** comme verbe. Cette commande est souvent la même que celle utilisée pour le verbe **Open** , avec l’ajout d’un indicateur pour indiquer à l’application d’imprimer le fichier. Par exemple, les fichiers. txt peuvent être imprimés par Microsoft WordPad. Le verbe **Open** d’un fichier. txt correspond donc à une commande semblable à la suivante :
+Si un type de fichier est associé à une commande d’impression, vous pouvez imprimer le fichier en appelant [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) avec **Print** comme verbe. Cette commande est souvent la même que celle utilisée pour le verbe **Open** , avec l’ajout d’un indicateur pour indiquer à l’application d’imprimer le fichier. Par exemple, .txt fichiers peuvent être imprimés par Microsoft WordPad. Le verbe **Open** d’un fichier .txt correspond donc à une commande semblable à la suivante :
 
 
 ```C++
@@ -39,7 +39,7 @@ Si un type de fichier est associé à une commande d’impression, vous pouvez i
 
 
 
-Quand vous utilisez [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) pour imprimer un fichier. txt, WordPad ouvre le fichier, l’imprime, puis ferme le contrôle à l’application. L’exemple de fonction suivant prend un chemin d’accès complet et utilise **ShellExecuteEx** pour l’imprimer, à l’aide de la commande Imprimer associée à son extension de nom de fichier.
+Quand vous utilisez [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) pour imprimer un fichier .txt, WordPad ouvre le fichier, l’imprime, puis ferme le contrôle à l’application. L’exemple de fonction suivant prend un chemin d’accès complet et utilise **ShellExecuteEx** pour l’imprimer, à l’aide de la commande Imprimer associée à son extension de nom de fichier.
 
 
 ```C++

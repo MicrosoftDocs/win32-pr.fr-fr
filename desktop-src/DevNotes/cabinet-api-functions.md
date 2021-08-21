@@ -4,12 +4,12 @@ ms.assetid: 43afef50-8fd2-49ec-9fb4-dafd8ebc009e
 title: Fonctions de l’API Cabinet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 327490332d2fe0cb9384eeaaad11215d551f4f0c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1b08234a47c84a604c78275632d88be2bcdeef68e47fd092bbf50e4d97dcf925
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118668353"
 ---
 # <a name="cabinet-api-functions"></a>Fonctions de l’API Cabinet
 
@@ -55,7 +55,7 @@ La bibliothèque FDI (file Decompression interface) offre la possibilité d’ex
 
 -   [**DeleteExtractedFiles**](deleteextractedfiles.md)
 -   [**DllGetVersion**](dllgetversion.md)
--   [**Extraction**](extract.md)
+-   [**Extract**](extract.md)
 -   [**GetDllVersion**](getdllversion.md)
 
 ## <a name="related-topics"></a>Rubriques connexes

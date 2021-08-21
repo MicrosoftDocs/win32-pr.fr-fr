@@ -3,25 +3,25 @@ title: Exemple de fichier SAMI
 description: Exemple de fichier SAMI
 ms.assetid: 52b566f1-0d87-4bf2-87b3-3821e69a5699
 keywords:
-- Lecteur Windows Media, SAMI (Synchronized Accessible Media Interchange)
-- Modèle objet du lecteur Windows Media, SAMI (Synchronized Accessible Media Interchange)
+- Lecteur Windows Media, SAMI (synchronized Accessible Media Interchange)
+- modèle objet Lecteur Windows Media, SAMI (synchronized Accessible Media Interchange)
 - modèle objet, SAMI (Synchronized Accessible Media Interchange)
-- Windows Media Player Mobile, SAMI (Synchronized Accessible Media Interchange)
-- Contrôle ActiveX du lecteur Windows Media, SAMI (Synchronized Accessible Media Interchange)
-- Contrôle ActiveX Mobile Player Windows Media, SAMI (Synchronized Accessible Media Interchange)
-- Contrôle ActiveX, SAMI (Synchronized Accessible Media Interchange)
+- Lecteur Windows Media Mobile, accessible en SAMI (Synchronized Accessible Media Interchange)
+- contrôle de ActiveX Lecteur Windows Media, SAMI (synchronized Accessible Media Interchange)
+- Lecteur Windows Media contrôle Mobile ActiveX, SAMI (synchronized Accessible Media Interchange)
+- contrôle de ActiveX, SAMI (synchronized Accessible Media Interchange)
 - Fichiers de Media Interchange (SAMI) synchronisés, fichiers
 - SAMI (Synchronized Accessible Media Interchange), fichiers
 - SAMI (Synchronized Accessible Media Interchange), exemple de code
 - SAMI (Synchronized Accessible Media Interchange), exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9634de52f71b4ca1db151bdf9104c3891c8ce5d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 4d4e2ab5189f99118afae3fb2dae7374323cc8c16605bb458a04bd31810ed91a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103869386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569805"
 ---
 # <a name="sami-file-example"></a>Exemple de fichier SAMI
 
@@ -63,7 +63,7 @@ L’exemple de code suivant est un fichier SAMI complet avec un ensemble de text
 
 Les styles définis dans un fichier SAMI sont conformes à la syntaxe du sélecteur CSS standard pour les éléments, les classes et les ID. Dans l’élément BODY, tous les éléments P ont le style défini pour le sélecteur d’élément P dans l’élément STYLE. L’attribut Class d’un élément spécifie le langage de cet élément tel que défini par les sélecteurs de classe dans l’élément STYLE (les sélecteurs qui commencent par des points). Les noms de langage spécifiés par les sélecteurs de classe peuvent être n’importe quelle chaîne. Les éléments avec l’attribut ID spécifié ont un style supplémentaire appliqué comme indiqué par les sélecteurs d’ID dans l’élément STYLE (les sélecteurs préfixés par des \# caractères).
 
-Lorsqu’ils sont utilisés conjointement avec le modèle objet du lecteur Windows Media, les sélecteurs de classe correspondent à *ClosedCaption*. Propriété **SAMILang** , qui peut être utilisée pour spécifier la langue des légendes. Les sélecteurs d’ID correspondent au *ClosedCaption*. Propriété **SAMIStyle** , qui peut être utilisée pour spécifier le style dans lequel les sous-titres apparaîtront.
+lorsqu’ils sont utilisés conjointement avec le modèle objet Lecteur Windows Media, les sélecteurs de classe correspondent à *ClosedCaption*. Propriété **SAMILang** , qui peut être utilisée pour spécifier la langue des légendes. Les sélecteurs d’ID correspondent au *ClosedCaption*. Propriété **SAMIStyle** , qui peut être utilisée pour spécifier le style dans lequel les sous-titres apparaîtront.
 
 Pour plus d’informations sur la création de fichiers SAMI, voir présentation de SAMI 1,0 sur le [site Web de Microsoft](/documentation/).
 

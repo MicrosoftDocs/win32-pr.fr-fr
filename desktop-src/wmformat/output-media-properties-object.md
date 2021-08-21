@@ -10,12 +10,12 @@ keywords:
 - objets de propriétés de média de sortie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61490464381a0b4e58be7994dfaeb0dfec2baa76
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 6848270147a1a191faf93830f062cf7768a19ccd38a77598d15617197a1967a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104030936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084630"
 ---
 # <a name="output-media-properties-object"></a>Objet de propriétés du média de sortie
 
@@ -39,7 +39,7 @@ Les interfaces suivantes sont prises en charge par chaque objet de propriétés 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -51,9 +51,9 @@ Les interfaces suivantes sont prises en charge par chaque objet de propriétés 
 [**Lecteur, objet**](reader-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: b2f7628c-b567-40a9-9ad7-6c47077af5fb
 title: À propos de VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 911145fda8f2dd63c886530af3d8507c38d8e829
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 1215251bf86c3ac4ba9a7a342a483de19653d20a21978715261b87aa7bea31a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104568277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603712"
 ---
 # <a name="about-vds"></a>À propos de VDS
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
-Le service de disque virtuel est un service Microsoft Windows qui effectue des opérations de requête et de configuration à la demande des utilisateurs finaux, des scripts et des applications. Le service étend les fonctionnalités de stockage existantes des systèmes d’exploitation Windows Server des manières suivantes :
+le service de disque virtuel est un service Microsoft Windows qui effectue des opérations de requête et de configuration à la demande des utilisateurs finaux, des scripts et des applications. le service étend les fonctionnalités de stockage existantes des systèmes d’exploitation Windows Server des manières suivantes :
 
 -   Fournit une API aux fonctionnalités existantes de gestion des volumes et des disques dans Windows.
 -   Unifie la gestion des volumes et le matériel redondant de gestion des disques indépendants (RAID) sous une seule API.
@@ -23,7 +23,7 @@ Le service de disque virtuel est un service Microsoft Windows qui effectue des o
 VDS n’effectue pas les activités de gestion du stockage suivantes :
 
 -   Gestion du sous-système matériel, telle que la surveillance de la température ou la surveillance des statistiques de performances pour les baies de disques.
--   Gestion de la structure du réseau de zone de stockage (SAN, Storage Area Network), telle que la sécurité et le zonage de l’adaptateur de Host-Based (HBA).
+-   Stockage Gestion de structure de réseau SAN, telle que la sécurité et la segmentation de la carte Host-Based (HBA).
 
 Les sections qui suivent décrivent l’architecture de VDS, le rôle des fournisseurs VDS et l’API.
 

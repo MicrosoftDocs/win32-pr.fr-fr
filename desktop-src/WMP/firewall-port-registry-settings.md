@@ -1,32 +1,32 @@
 ---
-title: Paramètres de Registre du port du pare-feu
-description: Paramètres de Registre du port du pare-feu
+title: Paramètres du registre du Port du pare-feu
+description: Paramètres du registre du Port du pare-feu
 ms.assetid: 86995f2c-8794-45da-9dca-9cdd388b2a21
 keywords:
-- Windows Media Player, paramètres de Registre du port de pare-feu
-- Lecteur Windows Media, paramètres de Registre du port
+- Lecteur Windows Media, paramètres de registre du port de pare-feu
+- Lecteur Windows Media, paramètres du registre de port
 - Lecteur Windows Media, registre
 - Registre, paramètres de port de pare-feu
 - Registre, paramètres de port
-- Registre, paramètres pour le lecteur Windows Media
+- registre, paramètres pour Lecteur Windows Media
 - paramètres de Registre du port du pare-feu
 - paramètres du registre de port
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e231732e8d62efce575ae3fdee5edc63975f23c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 140f55a4008a03c2b3bc4184e2eca92129a5e30dc69f0871da856b4555daec73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118576766"
 ---
-# <a name="firewall-port-registry-settings"></a>Paramètres de Registre du port du pare-feu
+# <a name="firewall-port-registry-settings"></a>Paramètres du registre du Port du pare-feu
 
-Le lecteur Windows Media place des entrées dans le registre afin que les pare-feu puissent déterminer s’il faut ouvrir ou fermer les ports utilisés par le partage de bibliothèque multimédia.
+Lecteur Windows Media place des entrées dans le registre afin que les pare-feu puissent déterminer s’il faut ouvrir ou fermer les ports utilisés par le partage de bibliothèque multimédia.
 
 **Entrée de Registre AcceptedEULA**
 
-Le lecteur Windows Media utilise l’entrée de Registre suivante pour indiquer si l’utilisateur a accepté le contrat de licence utilisateur final (CLUF).
+Lecteur Windows Media utilise l’entrée de registre suivante pour indiquer si l’utilisateur a accepté le contrat de licence utilisateur final (cluf).
 
 
 ```C++
@@ -40,7 +40,7 @@ La valeur 1 indique que l’utilisateur a accepté le contrat de licence. La val
 
 **Entrée de Registre WMPNSSFirewallPortsOpen**
 
-Le lecteur Windows Media utilise l’entrée de Registre suivante pour indiquer si l’utilisateur a choisi de partager sa bibliothèque multimédia avec d’autres ordinateurs sur un réseau privé.
+Lecteur Windows Media utilise l’entrée de registre suivante pour indiquer si l’utilisateur a choisi de partager sa bibliothèque multimédia avec d’autres ordinateurs sur un réseau privé.
 
 
 ```C++
@@ -54,7 +54,7 @@ La valeur 1 indique que l’utilisateur a choisi de partager la bibliothèque. L
 
 **Ports associés au partage de bibliothèque multimédia**
 
-Sur Windows Vista, si l’entrée de Registre **WMPNSSFirewallPortsOpen** a la valeur 1, les ports suivants doivent être ouverts.
+sur Windows Vista, si l’entrée de registre **WMPNSSFirewallPortsOpen** a la valeur 1, les ports suivants doivent être ouverts.
 
 
 
@@ -72,9 +72,9 @@ Sur Windows Vista, si l’entrée de Registre **WMPNSSFirewallPortsOpen** a la v
 
 
 
- 
+ 
 
-Sur Windows Vista, si l’entrée de Registre **AcceptedEULA** a la valeur 1, les ports suivants doivent être ouverts.
+sur Windows Vista, si l’entrée de registre **AcceptedEULA** a la valeur 1, les ports suivants doivent être ouverts.
 
 
 
@@ -86,9 +86,9 @@ Sur Windows Vista, si l’entrée de Registre **AcceptedEULA** a la valeur 1, le
 
 
 
- 
+ 
 
-Sur Microsoft Windows XP, si l’entrée de Registre **WMPNSSFirewallPortsOpen** a la valeur 1, les ports suivants doivent être ouverts.
+sur Microsoft Windows XP, si l’entrée de registre **WMPNSSFirewallPortsOpen** a la valeur 1, les ports suivants doivent être ouverts.
 
 
 
@@ -101,7 +101,7 @@ Sur Microsoft Windows XP, si l’entrée de Registre **WMPNSSFirewallPortsOpen**
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -110,9 +110,9 @@ Sur Microsoft Windows XP, si l’entrée de Registre **WMPNSSFirewallPortsOpen**
 [**Paramètres du Registre**](registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

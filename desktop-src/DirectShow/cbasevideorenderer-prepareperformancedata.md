@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 12dd61dee7416ce8ca7ac07cba62cbc769df5973
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e8cb276b37e64b6bb34751ed2d034666f7ceeddd90d8e52e47b2a1fca499ff9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658333"
 ---
 # <a name="cbasevideorendererprepareperformancedata-method"></a>Méthode CBaseVideoRenderer. PreparePerformanceData
 
@@ -61,7 +61,7 @@ Temps d’intertramage, en unités de temps de référence.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre définit **m \_ trLate** à la valeur de *trLate* et **m \_ trFrame** à la valeur de *trFrame*.
 
@@ -73,7 +73,7 @@ Lorsque la fonction membre [**CBaseVideoRenderer :: RecordFrameLateness**](cbas
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

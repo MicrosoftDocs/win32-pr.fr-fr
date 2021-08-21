@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 600bb15585ade3750fdd86615100b59de1c54ab7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e873bca6dddd315b64a30d5fc5778551ace82c166b186bbe9a9f8e75146b5bf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684858"
 ---
 # <a name="ms-ds-lockout-duration-attribute"></a>attribut ms-DS-verrouillage-Duration
 
@@ -42,7 +42,7 @@ Durée de verrouillage pour les comptes d’utilisateurs verrouillés.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -63,7 +63,7 @@ Durée de verrouillage pour les comptes d’utilisateurs verrouillés.
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**ms-DS-Password-paramètres**](c-msds-passwordsettings.md)<br/> |
+| Classes utilisées dans        | [**ms-DS-mot de passe-Paramètres**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -84,7 +84,7 @@ Durée de verrouillage pour les comptes d’utilisateurs verrouillés.
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**ms-DS-Password-paramètres**](c-msds-passwordsettings.md)<br/> |
+| Classes utilisées dans        | [**ms-DS-mot de passe-Paramètres**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -105,7 +105,7 @@ Durée de verrouillage pour les comptes d’utilisateurs verrouillés.
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**ms-DS-Password-paramètres**](c-msds-passwordsettings.md)<br/> |
+| Classes utilisées dans        | [**ms-DS-mot de passe-Paramètres**](c-msds-passwordsettings.md)<br/> |
 
 
 

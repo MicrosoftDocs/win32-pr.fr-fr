@@ -1,9 +1,9 @@
 ---
 title: Attribut PLAYERAPPLICATION. playerDocked
-description: L’attribut playerDocked récupère une valeur indiquant si le lecteur Windows Media est dans un état d’ancrage.
+description: l’attribut playerDocked récupère une valeur indiquant si Lecteur Windows Media est dans un état ancré.
 ms.assetid: 8b95da72-037b-4179-a564-fc9bc63368ac
 keywords:
-- Lecteur Windows Media PLAYERAPPLICATION. playerDocked
+- PLAYERAPPLICATION. playerDocked Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21abe3dd5cb14906db39e8eb50a1d18302a92ff6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8e05d186ab8123dcd4a03eff6c282cec4f7884225d8271540eebb8dc2e73eba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571786"
 ---
 # <a name="playerapplicationplayerdocked"></a>PLAYERAPPLICATION.playerDocked
 
-L’attribut **playerDocked** récupère une valeur indiquant si le lecteur Windows Media est dans un état d’ancrage.
+l’attribut **playerDocked** récupère une valeur indiquant si Lecteur Windows Media est dans un état ancré.
 
 ``` syntax
         elementID.playerDocked
@@ -35,8 +35,8 @@ Cet attribut est une **valeur booléenne** en lecture seule.
 
 | Valeur | Description                       |
 |-------|-----------------------------------|
-| True  | Le lecteur Windows Media est ancré.   |
-| Faux | Le lecteur Windows Media n’est pas ancré. |
+| True  | Lecteur Windows Media est ancré.   |
+| False | Lecteur Windows Media n’est pas ancré. |
 
 
 
@@ -44,7 +44,7 @@ Cet attribut est une **valeur booléenne** en lecture seule.
 
 ## <a name="remarks"></a>Notes
 
-Cet attribut est utilisé uniquement lors de la communication à distance du contrôle du lecteur Windows Media.
+cet attribut est utilisé uniquement lors de la communication à distance du contrôle Lecteur Windows Media.
 
 ## <a name="requirements"></a>Configuration requise
 

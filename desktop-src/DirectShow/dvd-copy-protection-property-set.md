@@ -4,12 +4,12 @@ ms.assetid: da3abefd-8f25-449d-8787-84d2cef928da
 title: Jeu de propriétés de protection de copie de DVD (Dvdmedia.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 382243a6071fa73361df13ae933d259979686a06
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: e76877da54a0c404cb6673ed2a3b36c03464fa18a77ceed393ca87edbb7dc6fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652993"
 ---
 # <a name="dvd-copy-protection-property-set"></a>Jeu de propriétés protection de copie de DVD
 
@@ -84,7 +84,7 @@ Les informations suivantes présentent les constantes et types de données néce
 <td>Si cette propriété a la <strong>valeur true</strong>, le navigateur DVD n’envoie pas d’échantillons <strong>AM_UseNewCSSKey</strong> avant de négocier la clé de disque. Consultez <a href="/windows/win32/api/strmif/ns-strmif-am_sample2_properties"><strong>AM_SAMPLE2_PROPERTIES</strong></a>.<br/> Lecture seule. Les données de propriété sont une valeur <strong>bool</strong> .<br/>
 <blockquote>
 [!Note]<br />
-S’applique à Windows 7.
+s’applique à Windows 7.
 </blockquote>
 <br/></td>
 </tr>

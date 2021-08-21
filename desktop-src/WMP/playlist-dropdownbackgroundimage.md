@@ -3,7 +3,7 @@ title: PLAYLIST. dropDownBackgroundImage
 description: L’attribut dropDownBackgroundImage spécifie ou récupère le nom de l’image qui s’affiche dans l’arrière-plan de la liste déroulante.
 ms.assetid: 40253d82-7178-4f6c-805b-7c1e92ea0636
 keywords:
-- Lecteur Windows Media PLAYLIST. dropDownBackgroundImage
+- PLAYLIST. dropDownBackgroundImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23ac925d5c5b3985d04a9ad5afd622abae5042a3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a47f964e1aaa4b2d22a922d70ea41970b5c1ae667920dbebf49dd5e6cc1d4dff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571459"
 ---
 # <a name="playlistdropdownbackgroundimage"></a>PLAYLIST. dropDownBackgroundImage
 

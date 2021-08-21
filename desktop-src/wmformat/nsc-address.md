@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d4a56a9faa500f11c73776f071315b36175c634
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: faa445cc651a5914ee777108a93ba6abcb4e53ede0f1e0609f47d5713e6200da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084629"
 ---
 # <a name="nsc_address"></a>\_Adresse NSC
 
@@ -41,9 +41,9 @@ L’attribut d' **\_ adresse NSC** contient l’adresse du contact de la station
 [**Attributs de station de multidiffusion**](multicast-station-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
