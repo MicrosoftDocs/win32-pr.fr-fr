@@ -5,29 +5,29 @@ title: API audio principales
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 2cabb462d13786c874401394fa814484f79b0e3b
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 69c0c83700dabd3aa0298bcd6474b95c4c38bdf933c9867a4c639edee1e43379
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077643"
 ---
 # <a name="core-audio-apis"></a>API audio principales
 
 > [!NOTE]
 > Pour obtenir des exemples de code, consultez [le kit de développement logiciel (SDK) qui utilise les API audio principales](./sdk-samples-that-use-the-core-audio-apis.md).
 
-Cette documentation fournit des informations sur les interfaces de programmation d’applications (API) audio principales pour la famille de systèmes d’exploitation Microsoft Windows. Il fournit des recommandations pour les développeurs de logiciels à suivre dans le développement d’applications qui utilisent les API audio de base dans Windows Vista. Ces API ont été introduites dans Windows Vista et ne sont pas disponibles dans les versions antérieures de Windows.
+cette documentation fournit des informations sur les interfaces de programmation d’applications (api) audio principales pour la famille de systèmes d’exploitation Microsoft Windows. il fournit des recommandations pour les développeurs de logiciels à suivre dans le développement d’applications qui utilisent les api audio de base dans Windows Vista. ces api sont nouvelles dans Windows Vista et ne sont pas disponibles dans les versions antérieures de Windows.
 
-Les API audio principales permettent aux applications audio d’accéder à des périphériques de point de terminaison audio tels que des casques et des microphones. Les API audio principales jouent le rôle de base pour les API audio de niveau supérieur, telles que Microsoft DirectSound et les fonctions **WaveXxx** Windows Multimedia. La plupart des applications communiquent avec les API de niveau supérieur, mais certaines applications avec des exigences spéciales peuvent avoir besoin de communiquer directement avec les API audio de base.
+Les API audio principales permettent aux applications audio d’accéder à des périphériques de point de terminaison audio tels que des casques et des microphones. les api audio principales jouent le rôle de base pour les api audio de niveau supérieur, telles que Microsoft DirectSound et Windows les fonctions **waveXxx** multimedia. La plupart des applications communiquent avec les API de niveau supérieur, mais certaines applications avec des exigences spéciales peuvent avoir besoin de communiquer directement avec les API audio de base.
 
-À compter de Windows 7, les API existantes ont été améliorées et de nouvelles API ont été ajoutées pour prendre en charge de nouveaux scénarios. Les API de gestion de flux et de sessions ont été améliorées afin que l’application puisse désormais énumérer et obtenir un contrôle étendu sur la session audio. En utilisant les nouvelles API, l’application peut implémenter une expérience d’atténuation de flux personnalisée. Les nouvelles API associées aux appareils fournissent un accès aux propriétés du pilote des appareils de point de terminaison.
+à partir de Windows 7, les api existantes ont été améliorées et de nouvelles api ont été ajoutées pour prendre en charge de nouveaux scénarios. Les API de gestion de flux et de sessions ont été améliorées afin que l’application puisse désormais énumérer et obtenir un contrôle étendu sur la session audio. En utilisant les nouvelles API, l’application peut implémenter une expérience d’atténuation de flux personnalisée. Les nouvelles API associées aux appareils fournissent un accès aux propriétés du pilote des appareils de point de terminaison.
 
 Cette documentation contient les sections suivantes.
 
 | Section                                                                    | Description                                                                       |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [À propos des API audio Windows Core](about-the-windows-core-audio-apis.md) | Fournit une vue d’ensemble des API audio Windows Core et décrit les concepts de base. |
+| [à propos des api Audio Windows Core](about-the-windows-core-audio-apis.md) | fournit une vue d’ensemble des api audio Windows core et décrit les concepts de base. |
 | [Guide de programmation](programming-guide.md)                                 | Décrit les principales fonctionnalités des API audio principales et comment les utiliser.            |
 | [Guide de référence de programmation](programming-reference.md)                         | Fournit des informations de référence sur C++ pour les principales API audio.                       |
 

@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 348384dd729c5c7e63a45fcb8b3f05d0189a7fec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22075c68ef30fda7360f25e76c84dbffbf7e306335a0ef20bda45559cb6dac09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472292"
 ---
 # <a name="ivmguestossuitemask-property"></a>IVMGuestOS :: SuiteMask, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère le SuiteMask du système d’exploitation invité en cours d’exécution sur l’ordinateur virtuel.
 
@@ -53,17 +53,17 @@ Masque de suite. Les valeurs de chaîne suivantes sont prises en charge.
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>0x00000004</dt> </dl> | Les composants Microsoft BackOffice sont installés.<br/>                                                                                                              |
 | <dl> <dt>"0x00000400"</dt> </dl> | Windows Server 2003, Web Edition est installé.<br/>                                                                                                              |
-| <dl> <dt>"0x00004000"</dt> </dl> | Windows Server 2003, Compute Cluster Edition est installé.<br/>                                                                                                  |
-| <dl> <dt>"0x00000080"</dt> </dl> | Windows Server 2008 R2 Datacenter, Windows Server 2008 Datacenter, Windows Server 2003, Datacenter Edition ou Windows 2000 Datacenter Server est installé.<br/> |
-| <dl> <dt>0x00000002</dt> </dl> | Windows Server 2008 R2 Entreprise, Windows Server 2008 entreprise, Windows Server 2003, Enterprise Edition ou Windows 2000 Advanced Server est installé.<br/>   |
+| <dl> <dt>"0x00004000"</dt> </dl> | Windows Le serveur 2003, Compute Cluster Edition est installé.<br/>                                                                                                  |
+| <dl> <dt>"0x00000080"</dt> </dl> | Windows Server 2008 R2 Datacenter, Windows server 2008 datacenter, Windows server 2003, datacenter Edition ou Windows 2000 datacenter Server est installé.<br/> |
+| <dl> <dt>0x00000002</dt> </dl> | Windows Server 2008 R2 Entreprise, Windows server 2008 Enterprise, Windows server 2003, Êdition Entreprise ou Windows 2000 Advanced Server est installé.<br/>   |
 | <dl> <dt>0x00000040</dt> </dl> | Windows XP Embedded est installé.<br/>                                                                                                                           |
-| <dl> <dt>"0x00000200"</dt> </dl> | Windows Vista Édition familiale Premium, Windows Vista Édition familiale basique ou Windows XP Édition familiale est installé.<br/>                                                              |
+| <dl> <dt>"0x00000200"</dt> </dl> | Windows vista édition familial Premium, Windows Vista édition familial Basic ou Windows XP édition personnelle est installé.<br/>                                                              |
 | <dl> <dt>0x00000100</dt> </dl> | Bureau à distance est pris en charge, mais une seule session interactive est prise en charge.<br/>                                                                                 |
 | <dl> <dt>0x00000001</dt> </dl> | Microsoft Small Business Server a été installé sur le système, mais il a peut-être été mis à niveau vers une autre version de Windows.<br/>                                 |
 | <dl> <dt>0x00000020</dt> </dl> | Microsoft Small Business Server est installé avec la licence client restrictive en vigueur.<br/>                                                                  |
-| <dl> <dt>0x00002000</dt> </dl> | Windows Storage Server 2003 R2 ou Windows Storage Server 2003 est installé.<br/>                                                                                 |
+| <dl> <dt>0x00002000</dt> </dl> | Windows Stockage server 2003 R2 ou Windows Stockage server 2003 est installé.<br/>                                                                                 |
 | <dl> <dt>0x00000010</dt> </dl> | Services Bureau à distance est installé. Cette valeur est toujours définie.<br/>                                                                                             |
-| <dl> <dt>"0x00008000"</dt> </dl> | Windows Server famille est installé.<br/>                                                                                                                           |
+| <dl> <dt>"0x00008000"</dt> </dl> | Windows Le serveur d’hébergement est installé.<br/>                                                                                                                           |
 
 
 
@@ -89,7 +89,7 @@ Masque de suite. Les valeurs de chaîne suivantes sont prises en charge.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

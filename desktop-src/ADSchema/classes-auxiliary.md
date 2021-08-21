@@ -5,12 +5,12 @@ ms.assetid: ce981795-a76f-4043-852a-249c79dff7e9
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6c9e0c25476b2667d5acdfb962886b044973790
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e28515cc33f1af16f07ac46b11ddfb599e7ae46c818d329d968942a9aec7a9f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533069"
 ---
 # <a name="auxiliary-classes"></a>Classes auxiliaires
 
@@ -125,9 +125,9 @@ Voici les classes auxiliaires définies par Active Directory.
 [**simpleSecurityObject**](c-simplesecurityobject.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

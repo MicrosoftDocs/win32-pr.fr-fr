@@ -4,12 +4,12 @@ ms.assetid: 2ff58e01-cc47-4612-a3bc-a87ccb343bd2
 title: TAGID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e7d8b8a25633d3505936d105b0eef7ed38746ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cd4c65183170c7304bf05a670b1eadb3a5953d6f33b1f6415210f12db8898760
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075782"
 ---
 # <a name="tagid"></a>TAGID
 
@@ -22,7 +22,7 @@ typedef DWORD TAGID;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un **TagId** est spécifique à une base de données. Il peut s’agir d’une valeur entière qui représente l’index ou de l’une des valeurs suivantes :
 
@@ -48,8 +48,8 @@ Indique une BALIse de liste racine qui peut être utilisée comme parent pour ob
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

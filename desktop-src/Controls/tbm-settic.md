@@ -3,7 +3,7 @@ title: Message TBM_SETTIC (commctrl. h)
 description: Définit une graduation dans un TrackBar à la position logique spécifiée.
 ms.assetid: 89b42cac-967e-40c7-9fab-2bd76f06f3f9
 keywords:
-- TBM_SETTIC les contrôles de message Windows
+- TBM_SETTIC les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a42839157125c8def28a19dd9c2ccce21d3b96c3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74f286a2f03e318629a10651d066da5aa6cfe70aa293f242ad7508d0ef4739a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540019"
 ---
 # <a name="tbm_settic-message"></a>\_Message TBM SETTIC
 
@@ -43,7 +43,7 @@ Position de la graduation. Ce paramètre peut être n’importe laquelle des val
 
 Retourne la **valeur true** si la graduation est définie, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un TrackBar crée ses propres première et dernière graduations. N’utilisez pas ce message pour définir les première et dernière graduations.
 
@@ -53,8 +53,8 @@ Un TrackBar crée ses propres première et dernière graduations. N’utilisez p
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

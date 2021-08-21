@@ -4,12 +4,12 @@ ms.assetid: 11438e0b-d841-44d0-b68f-77868be4c92f
 title: Détection de langue Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0b395f6a1a320b66f00d996510b7cafc28b8e64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 472c4c4df0484287ef8bebcfdb2f395212b1985b282b7391d6c047dfb98d2ed8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788379"
 ---
 # <a name="microsoft-language-detection"></a>Détection de langue Microsoft
 

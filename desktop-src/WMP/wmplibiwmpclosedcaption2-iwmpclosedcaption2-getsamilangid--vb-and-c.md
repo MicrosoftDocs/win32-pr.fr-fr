@@ -3,9 +3,9 @@ title: Méthode IWMPClosedCaption2 getSAMILangID
 description: La méthode getSAMILangID retourne l’identificateur de paramètres régionaux (LCID) d’une langue prise en charge par le fichier SAMI actuel.
 ms.assetid: 41aca317-6182-47c3-8bd9-ba42b92b10f4
 keywords:
-- méthode getSAMILangID lecteur Windows Media
-- méthode getSAMILangID lecteur Windows Media, interface IWMPClosedCaption2
-- Interface IWMPClosedCaption2 lecteur Windows Media, méthode getSAMILangID
+- Lecteur Windows Media de la méthode getSAMILangID
+- méthode getSAMILangID Lecteur Windows Media, interface IWMPClosedCaption2
+- Lecteur Windows Media de l’interface IWMPClosedCaption2, méthode getSAMILangID
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9aaebecf8e86c056fa9c91141042facc6bcc18
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0fc62222f98d6c056bb8ce9ffd328582a6764202bb8446617471d3f7cb4a5ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506428"
 ---
 # <a name="iwmpclosedcaption2getsamilangid-method"></a>IWMPClosedCaption2 :: getSAMILangID, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPClosedCaption2.getSAMILangID
 
 **System. Int32** qui est le LCID de la langue avec l’index spécifié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les langues d’un fichier SAMI sont indexées dans l’ordre indiqué dans le fichier, à partir de zéro.
 

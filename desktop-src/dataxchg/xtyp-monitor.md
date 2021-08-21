@@ -1,9 +1,9 @@
 ---
 title: XTYP_MONITOR transaction (Ddeml. h)
-description: Une fonction de rappel DDE du débogueur échange dynamique de données (DDE), DdeCallback, reçoit la \_ transaction XTYP Monitor à chaque fois qu’un événement DDE se produit dans le système.
+description: une fonction de rappel dde du débogueur échange dynamique de données (dde), DdeCallback, reçoit la \_ transaction XTYP MONITOR à chaque fois qu’un événement DDE se produit dans le système.
 ms.assetid: a27791b1-c1b4-4516-b050-71da164fa80a
 keywords:
-- Échange de données de transaction XTYP_MONITOR
+- XTYP_MONITOR Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6a1cb86a1cbf7e0c02c082719e0a7d302d03975
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11a86235c2964bbd09d51ce3adc2e602e23fed09597df14721e92e76c0cd8109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047257"
 ---
 # <a name="xtyp_monitor-transaction"></a>XTYP \_ surveiller la transaction
 
-Une fonction de rappel DDE du débogueur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction **XTYP \_ Monitor** à chaque fois qu’un événement DDE se produit dans le système. Pour recevoir cette transaction, une application doit spécifier la valeur du **\_ moniteur APPCLASS** quand elle appelle la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
+une fonction de rappel dde du débogueur échange dynamique de données (dde), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction **XTYP \_ MONITOR** à chaque fois qu’un événement DDE se produit dans le système. Pour recevoir cette transaction, une application doit spécifier la valeur du **\_ moniteur APPCLASS** quand elle appelle la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
 
 ```C++
@@ -163,7 +163,7 @@ Si la fonction de rappel traite cette transaction, elle doit retourner 0.
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

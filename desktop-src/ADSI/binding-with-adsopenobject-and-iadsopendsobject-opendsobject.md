@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, utilisation de, liaison avec ADsOpenObject et IADsOpenDSObject OpenDSObject
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5a249aa3d51520d0d345b5a098f84480e5b5016
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d41ffe1e9ad0b8a78d1a8c563de250851a894012938682c4cfd0d0fd713f99bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082773"
 ---
 # <a name="binding-with-adsopenobject-and-iadsopendsobjectopendsobject"></a>Liaison avec ADsOpenObject et IADsOpenDSObject :: OpenDSObject
 
@@ -25,9 +25,9 @@ Les informations d’identification du thread appelant doivent être utilisées 
 -   Implémentez une liaison sans serveur ou établissez une liaison avec le même serveur dans chaque opération de liaison.
 -   Maintenez une session ouverte en maintenant la valeur sur une référence d’objet à partir de l’une des opérations de liaison. La session est fermée lorsque la référence du dernier objet est libérée.
 
-[**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) et [**IADsOpenDSObject :: OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) utilisent les [interfaces SSPI (Security Support Provider interfaces)](/windows/desktop/SecAuthN/sspi) de Windows NT pour offrir plus de souplesse dans les options d’authentification. Le principal avantage de l’utilisation de ces interfaces est de fournir différents types d’authentification à Active Directory clients et de chiffrer la session. Actuellement, ADSI ne permet pas de transmettre des certificats. Par conséquent, vous pouvez utiliser SSL pour le chiffrement, puis Kerberos, NTLM ou une authentification simple, selon la façon dont les indicateurs sont définis sur le paramètre *dwReserved* .
+[**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) et [**IADsOpenDSObject :: OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) utilisent les [Interfaces SSPI (Security Support Provider Interfaces)](/windows/desktop/SecAuthN/sspi) Windows NT pour offrir une flexibilité dans les options d’authentification. Le principal avantage de l’utilisation de ces interfaces est de fournir différents types d’authentification à Active Directory clients et de chiffrer la session. Actuellement, ADSI ne permet pas de transmettre des certificats. Par conséquent, vous pouvez utiliser SSL pour le chiffrement, puis Kerberos, NTLM ou une authentification simple, selon la façon dont les indicateurs sont définis sur le paramètre *dwReserved* .
 
-Vous ne pouvez pas demander un fournisseur SSPI spécifique dans ADSI, bien que vous obteniez toujours le protocole de préférence le plus élevé. Dans le cas d’une liaison client Windows à un ordinateur exécutant Windows, le protocole est Kerberos. Le fait de ne pas autoriser un certificat pour l’authentification est acceptable dans le cas d’une page Web, car l’authentification se produit avant l’exécution de la page Web.
+Vous ne pouvez pas demander un fournisseur SSPI spécifique dans ADSI, bien que vous obteniez toujours le protocole de préférence le plus élevé. dans le cas d’une liaison de client Windows à un ordinateur exécutant Windows, le protocole est Kerberos. Le fait de ne pas autoriser un certificat pour l’authentification est acceptable dans le cas d’une page Web, car l’authentification se produit avant l’exécution de la page Web.
 
 Bien que les opérations d’ouverture vous permettent de spécifier un utilisateur et un mot de passe, vous ne devez pas le faire. Au lieu de cela, ne spécifiez pas d’informations d’identification et utilisez implicitement les informations d’identification du contexte de sécurité de l’appelant. Pour effectuer une liaison à un objet d’annuaire à l’aide des informations d’identification de l’appelant avec [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) ou [**IADsOpenDSObject :: OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject), spécifiez **null** pour le nom d’utilisateur et le mot de passe.
 
@@ -38,11 +38,11 @@ Si les indicateurs d’authentification ont la valeur zéro, ADSI effectue une l
 > [!Caution]  
 > Si un nom d’utilisateur et un mot de passe sont spécifiés sans spécifier d’indicateurs d’authentification, le nom d’utilisateur et le mot de passe sont transmis sur le réseau en texte clair, ce qui constitue un risque pour la sécurité. Ne spécifiez pas de nom d’utilisateur ni de mot de passe sans spécifier les indicateurs d’authentification.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code Visual Basic suivant montre comment utiliser la méthode [**IADsOpenDSObject :: OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) .
+l’exemple de code Visual Basic suivant montre comment utiliser la méthode [**IADsOpenDSObject :: OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) .
 
 
 ```VB
@@ -124,6 +124,6 @@ if(SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 

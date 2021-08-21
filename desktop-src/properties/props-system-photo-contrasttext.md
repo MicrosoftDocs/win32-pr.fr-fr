@@ -4,12 +4,12 @@ ms.assetid: 583cb138-d1f7-409d-8219-49256381b420
 title: System. photo. ContrastText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af9fb95c32afd6b1c71135c3981c46afc0e84645
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43a3c8f815c4511ffc502aaa40ead9558de25c273567bd98ffb85446955444fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938289"
 ---
 # <a name="systemphotocontrasttext"></a>System. photo. ContrastText
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ description: Persistance
 ms.assetid: 4916ea52-a21c-4938-81cb-392b5ca1f6c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6cffab1c9a0f2746e57e356a90698caf9903deb
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: a3c8600307bfe6c29f72fb9d29e633358062c4e8c1c61da8898173cf190f1d08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500329"
 ---
 # <a name="persistence"></a>Persistance
 
@@ -19,13 +19,13 @@ Les autres interfaces de persistance qu’un contrôle peut offrir incluent : [
 
 Avant de charger un contrôle à partir de son état persistant, un client peut vérifier l' \_ indicateur OLEMISC SETCLIENTSITEFIRST pour déterminer si le contrôle prend en charge l’obtention de son site client et les propriétés ambiantes avant de charger son état persistant. Cette optimisation peut gagner du temps lors de l’instanciation d’un contrôle, car le contrôle est ensuite libre d’ignorer ses valeurs persistantes plutôt que de les charger uniquement pour qu’elles soient remplacées par les propriétés ambiantes fournies par le client.
 
-Un contrôle peut également prendre en charge l’enregistrement et la restauration de son état dans un jeu de propriétés OLE, un ensemble d’identificateurs et de valeurs dans un format spécifié. Cette fonctionnalité peut être utile avec les conteneurs tels que Visual Basic, qui enregistre ses programmes sous une forme textuelle. Un contrôle qui souhaite prendre en charge cette fonctionnalité implémente [**IDataObject :: GetData**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-getdata) et [**IDataObject :: SetData**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-setdata) pour passer ses valeurs de propriété vers et à partir du conteneur, respectivement. Il s’agit de la tâche du conteneur pour convertir ces informations en texte et les enregistrer. Les identificateurs utilisés par le contrôle correspondent aux noms de propriété du contrôle et aux valeurs. Consultez le CDK OLE pour la définition de ce jeu de propriétés.
+Un contrôle peut également prendre en charge l’enregistrement et la restauration de son état dans un jeu de propriétés OLE, un ensemble d’identificateurs et de valeurs dans un format spécifié. cette fonctionnalité peut être utile avec les conteneurs tels que Visual Basic, qui enregistre ses programmes sous une forme textuelle. Un contrôle qui souhaite prendre en charge cette fonctionnalité implémente [**IDataObject :: GetData**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-getdata) et [**IDataObject :: SetData**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-setdata) pour passer ses valeurs de propriété vers et à partir du conteneur, respectivement. Il s’agit de la tâche du conteneur pour convertir ces informations en texte et les enregistrer. Les identificateurs utilisés par le contrôle correspondent aux noms de propriété du contrôle et aux valeurs. Consultez le CDK OLE pour la définition de ce jeu de propriétés.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Contrôles ActiveX](activex-controls.md)
+[ActiveX Commandes](activex-controls.md)
 </dt> </dl>
 
  

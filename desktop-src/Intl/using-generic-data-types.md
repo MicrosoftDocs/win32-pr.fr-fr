@@ -4,20 +4,20 @@ ms.assetid: 1c9cbb18-9295-4847-86c1-d596668cbe57
 title: Utilisation des types de données génériques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0e2604f87b12e86076bed47f509c6398fa8482b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77a61bed094506f0d31718b0b88fe519028ba1db785ebda3e00404a7aa3257e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535460"
 ---
 # <a name="using-generic-data-types"></a>Utilisation des types de données génériques
 
-Si vous utilisez des types de données génériques dans votre code, il peut être compilé pour [Unicode](unicode.md) simplement à l’aide d’une directive de préprocesseur pour définir « Unicode » avant les instructions **\# include** pour les fichiers d’en-tête. Pour compiler le code pour les [pages de codes Windows (ANSI)](code-pages.md), omettez la définition « Unicode ». Les nouvelles applications Windows doivent utiliser Unicode pour éviter les incohérences de pages de codes variées et simplifier la localisation.
+Si vous utilisez des types de données génériques dans votre code, il peut être compilé pour [Unicode](unicode.md) simplement à l’aide d’une directive de préprocesseur pour définir « Unicode » avant les instructions **\# include** pour les fichiers d’en-tête. pour compiler le code pour les [pages de codes Windows (ANSI)](code-pages.md), omettez la définition « UNICODE ». les nouvelles Windows applications doivent utiliser Unicode pour éviter les incohérences de pages de codes variées et simplifier la localisation.
 
-Pour créer du code source qui peut être compilé pour utiliser des chaînes et des caractères Unicode ou pour utiliser des caractères et des chaînes à partir de pages de codes Windows :
+pour créer du code source qui peut être compilé soit pour utiliser des chaînes et des caractères Unicode, soit pour utiliser des caractères et des chaînes à partir de Windows pages de codes :
 
-1.  Utilisez des types de données génériques, tels que TCHAR, LPTSTR et LPTCH, pour tous les types de caractères et de chaînes utilisés pour le texte. Pour plus d’informations sur les types génériques, consultez [types de données Windows pour les chaînes](windows-data-types-for-strings.md).
+1.  Utilisez des types de données génériques, tels que TCHAR, LPTSTR et LPTCH, pour tous les types de caractères et de chaînes utilisés pour le texte. pour plus d’informations sur les types génériques, consultez [Windows types de données pour les chaînes](windows-data-types-for-strings.md).
 2.  Assurez-vous que les pointeurs vers des mémoires tampons de données non textuelles ou des tableaux d’octets binaires sont codés avec des types de données tels que LPBYTE ou LPWORD, au lieu du type LPTSTR ou LPTCH.
 3.  Déclarez les pointeurs de type indéterminé explicitement comme pointeurs void en utilisant LPVOID comme il convient.
 4.  Rendre le type arithmétique du pointeur indépendant. L’utilisation d’unités de taille TCHAR génère des variables de 2 octets si UNICODE est défini et 1 octet si UNICODE n’est pas défini. L’utilisation de l’arithmétique de pointeur retourne toujours le nombre d’éléments indiqués par le pointeur, que la taille des éléments soit de 1 ou 2 octets. L’expression suivante récupère toujours le nombre d’éléments, qu’UNICODE soit défini ou non.
@@ -68,11 +68,11 @@ Pour créer du code source qui peut être compilé pour utiliser des chaînes et
 
     La macro [**Text**](/windows/desktop/api/Winnt/nf-winnt-text) fait en sorte que les chaînes soient évaluées en tant que L "String" lorsque Unicode est défini, et en tant que "String" dans le cas contraire. Pour faciliter la gestion, déplacez des chaînes littérales dans des ressources, en particulier si elles contiennent des caractères en dehors de la plage ASCII (0x00 à 0x7F) ou sont exposées au niveau de l’interface utilisateur. Pour prendre en charge la localisation de votre application dans différentes langues nationales, il est très important que toutes les chaînes d’interface utilisateur se trouvent dans des ressources localisables.
 
-6.  Utilisez les versions génériques des fonctions Windows. Pour plus d’informations, consultez [conventions pour les prototypes de fonction](conventions-for-function-prototypes.md).
+6.  utilisez les versions génériques des fonctions Windows. Pour plus d’informations, consultez [conventions pour les prototypes de fonction](conventions-for-function-prototypes.md).
 7.  Utilisez les versions génériques des fonctions de chaîne de la bibliothèque C standard et n’oubliez pas de définir « Unicode », ainsi que \_ « Unicode », comme indiqué dans [fonctions C standard](standard-c-functions.md).
-8.  Si vous adaptez une application écrite à l’origine pour les pages de code Windows, n’oubliez pas de modifier le code qui s’appuie sur 255 comme la plus grande valeur d’un caractère.
+8.  si vous adaptez une application écrite à l’origine pour Windows pages de codes, n’oubliez pas de modifier le code qui s’appuie sur 255 comme valeur la plus élevée pour un caractère.
 
-Quand vous compilez le code que vous avez écrit comme indiqué ci-dessus, le compilateur peut créer des versions de page de codes Unicode et Windows de votre application à partir de la même source. Selon les définitions pour UNICODE, les fonctions génériques sont résolues pour produire les mêmes fichiers binaires que si vous avez écrit du code exclusivement pour Unicode ou exclusivement pour les pages de codes Windows.
+quand vous compilez le code que vous avez écrit comme indiqué ci-dessus, le compilateur peut créer des versions Unicode et Windows page de codes de votre application à partir de la même source. selon les définitions pour unicode, les fonctions génériques sont résolues pour produire les mêmes fichiers binaires que si vous avez écrit du code exclusivement pour UNICODE ou exclusivement pour Windows pages de codes.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

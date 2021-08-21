@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 5d29448e2f8ae98c4e15d6c3a51747257d20c62b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f03b65a1ce009313b996fc7bede03f8c7425ff589fd29506c243f3161a851583
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938719"
 ---
 # <a name="inkrenderer-class"></a>InkRenderer, classe
 
@@ -59,7 +59,7 @@ La classe **InkRenderer** possède ces méthodes.
 | [**GetViewTransform**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform)                   | Récupère la transformation de vue qui est utilisée pour restituer l’encre.<br/>                                                                                      |
 | [**InkSpaceToPixel**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel)                     | Convertit un emplacement dans les coordonnées de l’espace d’encre en espace en pixels.<br/>                                                                            |
 | [**InkSpaceToPixelFromPoints**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints) | Convertit un tableau de points dans les coordonnées d’espace d’encre en espace de pixels.<br/>                                                                          |
-| [**Unité**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measure)                                     | Calcule le rectangle sur le contexte de périphérique qui contient une collection de traits s’ils ont été dessinés avec l’objet **InkRenderer** .<br/> |
+| [**Measure**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measure)                                     | Calcule le rectangle sur le contexte de périphérique qui contient une collection de traits s’ils ont été dessinés avec l’objet **InkRenderer** .<br/> |
 | [**MeasureStroke**](/windows/win32/api/msinkaut/nf-msinkaut-iinkrenderer-measurestroke)                         | Calcule le rectangle sur le contexte de périphérique qui contiendra un trait s’il a été dessiné avec l’objet **InkRenderer** .<br/>                |
 | [**Activer**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-move)                                           | Applique une translation à la transformation de vue dans les coordonnées d’espace d’encre.<br/>                                                                         |
 | [**PixelToInkSpace**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspace)                     | Convertit un emplacement en coordonnées en pixels en espace d’encre.<br/>                                                                                  |
@@ -73,7 +73,7 @@ La classe **InkRenderer** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’impression s’effectue également par le biais de l’objet **InkRenderer** .
 
@@ -85,7 +85,7 @@ Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 534fef5a4eaf9d22d502097124dcecdb91433f73
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f34700666ecb830470e58a3f3389cd6207be68403e612f50ddafc841dd839ed2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565059"
 ---
 # <a name="d3ddeclmethod-enumeration"></a>Énumération D3DDECLMETHOD
 
@@ -124,7 +124,7 @@ Recherche d’une carte de décalage prééchantillonnée. Le type d’entrée d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le du paveur examine la méthode pour déterminer les données à calculer à partir des données de vertex pendant le pavage. Les données de maillage doivent utiliser la valeur par défaut. Les correctifs peuvent utiliser n’importe quel autre type implémenté.
 

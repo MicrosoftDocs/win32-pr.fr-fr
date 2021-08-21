@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18e3385b25a9dbe3e77085ae011b85e9be21b224
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83c6b935c34dda3f8a676d025bc1995a30e1bbb3f11dd4db3c055f6e28437ba3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119515279"
 ---
 # <a name="imsrdpclientadvancedsettingsconnecttoserverconsole-property"></a>IMsRdpClientAdvancedSettings :: ConnectToServerConsole, propriété
 
@@ -92,7 +92,7 @@ Affectez à ce paramètre la valeur **Variant \_ false**. **Variante \_ TRUE** n
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

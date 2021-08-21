@@ -1,6 +1,6 @@
 ---
 title: RequestReplyTcpClientWithWindowsTransportSecurityExample
-description: Cet exemple montre un client TCP qui envoie des messages de demande-réponse, avec la sécurité fournie par la sécurité du transport SSPI Windows. Il illustre également le client à l’aide des propriétés de jeton de sécurité pour modifier le niveau d’emprunt d’identité autorisé à partir de la valeur par défaut.
+description: cet exemple montre un client TCP qui envoie des messages de demande-réponse, avec la sécurité fournie par Windows la sécurité de transport SSPI. Il illustre également le client à l’aide des propriétés de jeton de sécurité pour modifier le niveau d’emprunt d’identité autorisé à partir de la valeur par défaut.
 ms.assetid: 8419e861-dc7f-41ca-96a4-b7c6d380a210
 keywords:
 - RequestReplyTcpClientWithWindowsTransportSecurityExample-services Web natifs
@@ -8,16 +8,16 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4216a05010c2e0fbca8ea0968314c2b61f4c3a2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1aa97da03ff62c704275d9f8094af40e34f49260fa5e13faf764559ebdf019ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083183"
 ---
 # <a name="requestreplytcpclientwithwindowstransportsecurityexample"></a>RequestReplyTcpClientWithWindowsTransportSecurityExample
 
-Cet exemple montre un client TCP qui envoie des messages de demande-réponse, avec la sécurité fournie par la sécurité du transport SSPI Windows. Il illustre également le client à l’aide des propriétés de jeton de sécurité pour modifier le niveau d’emprunt d’identité autorisé à partir de la valeur par défaut.
+cet exemple montre un client TCP qui envoie des messages de demande-réponse, avec la sécurité fournie par Windows la sécurité de transport SSPI. Il illustre également le client à l’aide des propriétés de jeton de sécurité pour modifier le niveau d’emprunt d’identité autorisé à partir de la valeur par défaut.
 
 -   [RequestReplyTcpClientWithWindowsTransportSecurity. cpp](#requestreplytcpclientwithwindowstransportsecuritycpp)
 -   [PurchaseOrder. wsdl](#purchaseorderwsdl)
@@ -584,9 +584,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

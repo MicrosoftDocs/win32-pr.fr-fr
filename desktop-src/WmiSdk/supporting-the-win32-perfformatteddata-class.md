@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: Prise en charge de la classe Win32_PerfFormattedData
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54911105f5c485d3a80ddb93b96f0af2637c9506
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bbed50bde7ef16f6362d28151744cf22d66e5d0f56df253ad48ab469b397d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050127"
 ---
 # <a name="supporting-the-win32_perfformatteddata-class"></a>Prise en charge de la \_ classe Win32 PerfFormattedData
 
 Lors de l’écriture d’un fournisseur de haute performance qui dérive des classes de [**Win32 \_ PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata), vous devez suivre des conventions spécifiques afin que WMI puisse calculer les valeurs de propriété.
 
 > [!Note]  
-> L’écriture d’un fournisseur de performances élevées WMI pour créer des compteurs de performance n’est pas recommandée sur une version du système d’exploitation Windows. Pour plus d’informations, consultez [création d’un fournisseur d’instances dans un fournisseur de High-Performance](making-an-instance-provider-into-a-high-performance-provider.md)et [bibliothèques de performances et WMI](performance-libraries-and-wmi.md).
+> l’écriture d’un fournisseur de performances élevées WMI pour créer des compteurs de performance n’est pas recommandée sur une version du système d’exploitation Windows. Pour plus d’informations, consultez [création d’un fournisseur d’instances dans un fournisseur de High-Performance](making-an-instance-provider-into-a-high-performance-provider.md)et [bibliothèques de performances et WMI](performance-libraries-and-wmi.md).
 
  
 

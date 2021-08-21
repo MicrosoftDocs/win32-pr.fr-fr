@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a720046d8f5cd25c55f2d5f367d2c23d5e4fc882
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 0847179cc67635ab872f71d79ed77c337ec6044291db13f5d1ca48101fc5dbad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104485936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049887"
 ---
 # <a name="wmi-tasks-processes"></a>Tâches WMI : Processus
 
@@ -28,7 +28,7 @@ La procédure suivante décrit comment exécuter un script.
 
 **Pour exécuter un script**
 
-1.  Copiez le code et enregistrez-le dans un fichier avec une extension. vbs, par exemple *filename.vbs*. Assurez-vous que votre éditeur de texte n’ajoute pas d’extension. txt au fichier.
+1.  Copiez le code et enregistrez-le dans un fichier avec une extension. vbs, par exemple *filename.vbs*. Assurez-vous que votre éditeur de texte n’ajoute pas d’extension de .txt au fichier.
 2.  Ouvrez une fenêtre d’invite de commandes et accédez au répertoire où vous avez enregistré le fichier.
 3.  Tapez **cscript filename.vbs** à l’invite de commandes.
 4.  Si vous ne pouvez pas accéder à un journal des événements, vérifiez si vous exécutez à partir d’une invite de commandes avec élévation de privilèges. Certains journaux des événements, tels que le journal des événements de sécurité, peuvent être protégés par les contrôles d’accès utilisateur (UAC).

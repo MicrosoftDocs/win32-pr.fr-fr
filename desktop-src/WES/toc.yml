@@ -1,9 +1,9 @@
 - name: Journal des événements Windows
   href: windows-event-log.md
   items:
-    - name: What's New
+    - name: Nouveautés
       href: what-s-new.md
-    - name: Utilisation du journal des événements Windows
+    - name: utilisation du journal des événements Windows
       href: using-windows-event-log.md
       items:
         - name: Écriture d’un manifeste d’instrumentation
@@ -55,7 +55,7 @@
           href: accessing-remote-computers.md
         - name: Enregistrement des événements dans un fichier journal
           href: saving-events-to-a-log-file.md
-    - name: Informations de référence sur le journal des événements Windows
+    - name: Windows Référence du journal des événements
       href: windows-event-log-reference.md
       items:
         - name: Schéma EventManifest
@@ -481,13 +481,13 @@
                   href: queryschema-querylisttype-complextype.md
                 - name: QueryType (type complexe)
                   href: queryschema-querytype-complextype.md
-        - name: Constantes du journal des événements Windows
+        - name: Windows Constantes du journal des événements
           href: windows-event-log-constants.md
-        - name: Types de données du journal des événements Windows
+        - name: Windows Types de données du journal des événements
           href: windows-event-log-data-types.md
-        - name: Constantes d’erreur du journal des événements Windows
+        - name: Windows Constantes d’erreur du journal des événements
           href: windows-event-log-error-constants.md
-        - name: Énumérations des journaux des événements Windows
+        - name: Windows Énumérations des journaux des événements
           href: windows-event-log-enumerations.md
           items:
             - name: EVT_CHANNEL_CLOCK_TYPE
@@ -538,7 +538,7 @@
               href: /windows/win32/api/WinEvt/ne-winevt-evt_system_property_id
             - name: EVT_VARIANT_TYPE
               href: /windows/win32/api/WinEvt/ne-winevt-evt_variant_type
-        - name: Fonctions du journal des événements Windows
+        - name: Windows Fonctions du journal des événements
           href: windows-event-log-functions.md
           items:
             - name: EVT_SUBSCRIBE_CALLBACK
@@ -613,14 +613,14 @@
               href: /windows/desktop/api/WinEvt/nf-winevt-evtsubscribe
             - name: EvtUpdateBookmark
               href: /windows/desktop/api/WinEvt/nf-winevt-evtupdatebookmark
-        - name: Structures du journal des événements Windows
+        - name: Windows Structures du journal des événements
           href: windows-event-log-structures.md
           items:
             - name: EVT_RPC_LOGIN
               href: /windows/win32/api/WinEvt/ns-winevt-evt_rpc_login
             - name: EVT_VARIANT
               href: /windows/win32/api/WinEvt/ns-winevt-evt_variant
-        - name: Outils du journal des événements Windows
+        - name: Windows Outils du journal des événements
           href: windows-event-log-tools.md
           items:
             - name: Message Compiler (MC.exe)

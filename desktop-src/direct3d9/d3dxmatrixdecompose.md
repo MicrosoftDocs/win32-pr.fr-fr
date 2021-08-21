@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: aaaa1059c4ffeafa453694d9c348656c856decaa
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ffb6ce07713b4f66f4a85a678b5b28b589f8ae797c5a7b5c578ed136bbb9e3f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460389"
 ---
 # <a name="d3dxmatrixdecompose-function-d3dx9mathh"></a>D3DXMatrixDecompose, fonction (D3dx9math. h)
 
@@ -79,7 +79,7 @@ Pointeur vers une matrice d’entrée [**D3DXMATRIX**](d3dxmatrix.md) à décomp
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

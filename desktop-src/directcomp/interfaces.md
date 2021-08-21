@@ -4,12 +4,12 @@ description: Cette section décrit les interfaces fournies par Microsoft DirectC
 ms.assetid: AE51F47F-4315-4DA2-959E-B256957BE6DA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91acd1504680a7ea8adccc11aa8d85c5d99224dd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: caad1e974dc18a6201114d32363e391791ad8c05a78b289e5cbbdd6532809b0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562109"
 ---
 # <a name="directcomposition-interfaces"></a>Interfaces DirectComposition
 

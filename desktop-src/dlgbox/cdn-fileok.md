@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5aef63d531b603c94369936374bc10531639254
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e32e9b4abbae65c2c29020bdab191272921ee601eebff1e7b07e0c674c783dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787419"
 ---
-# <a name="cdn_fileok-notification-code"></a>\_Code de notification CDN FILEOK
+# <a name="cdn_fileok-notification-code"></a>CDN \_ Code de notification FILEOK
 
 Envoyé par une boîte de dialogue **ouvrir** ou **Enregistrer sous** de style Explorateur lorsque l’utilisateur spécifie un nom de fichier et clique sur le bouton **OK** .
 
@@ -51,7 +51,7 @@ Ce paramètre n'est pas utilisé.
 
 Pointeur vers une structure [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) .
 
-La structure [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) contient une structure [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr) dont le membre de **code** indique le message de notification **CDN \_ FILEOK** .
+la structure [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) contient une structure [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr) dont le membre de **code** indique le CDN message de notification **\_ FILEOK** .
 
 La structure [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) contient également un pointeur vers une structure [**OpenFileName**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) dont le membre **lpstrFile** spécifie l’adresse du nom de fichier sélectionné.
 
@@ -63,7 +63,7 @@ Si la procédure de raccordement retourne la valeur zéro, la boîte de dialogue
 
 Pour rejeter le nom de fichier spécifié et forcer la boîte de dialogue à rester ouverte, retournez une valeur différente de zéro à partir de la procédure de raccordement et appelez la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) pour définir une valeur **\_ MSGRESULT DWL** différente de zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le système envoie cette notification uniquement si la boîte de dialogue a été créée à l’aide de la valeur **OFN \_ Explorer** .
 

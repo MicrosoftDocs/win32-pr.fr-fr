@@ -1,9 +1,9 @@
 ---
 title: XTYP_CONNECT_CONFIRM transaction (Ddeml. h)
-description: Une fonction de rappel de serveur échange dynamique de données (DDE), DdeCallback, reçoit \_ la \_ transaction XTYP Connect Confirm pour confirmer qu’une conversation a été établie avec un client et pour fournir au serveur le descripteur de conversation.
+description: une fonction de rappel de serveur échange dynamique de données (DDE), DdeCallback, reçoit \_ la \_ transaction XTYP CONNECT CONFIRM pour confirmer qu’une conversation a été établie avec un client et pour fournir au serveur le descripteur de conversation.
 ms.assetid: 4db67539-9322-44d7-bf2b-749bd6cfcbb4
 keywords:
-- Échange de données de transaction XTYP_CONNECT_CONFIRM
+- XTYP_CONNECT_CONFIRM Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e880dfffc7f7825c99ab9e4e3bf980baa978b786
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a0259540801a49bc631dc60e33979a8730b46bdfc06ac81142098e851b8a51a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499077"
 ---
 # <a name="xtyp_connect_confirm-transaction"></a>Transaction de confirmation de \_ connexion XTYP \_
 
-Une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction **XTYP \_ Connect \_ Confirm** pour confirmer qu’une conversation a été établie avec un client et pour fournir au serveur le descripteur de conversation. Le système envoie cette transaction à la suite d’une transaction [**XTYP \_ Connect**](xtyp-connect.md) ou [**XTYP \_ WILDCONNECT**](xtyp-wildconnect.md) précédente.
+une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction **XTYP \_ CONNECT \_ CONFIRM** pour confirmer qu’une conversation a été établie avec un client et pour fournir au serveur le descripteur de conversation. Le système envoie cette transaction à la suite d’une transaction [**XTYP \_ Connect**](xtyp-connect.md) ou [**XTYP \_ WILDCONNECT**](xtyp-wildconnect.md) précédente.
 
 
 ```C++
@@ -94,7 +94,7 @@ Spécifie si le client est la même instance d’application que le serveur. Si 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette transaction est filtrée si l’application serveur a spécifié l’indicateur **CBF \_ Skip \_ Connect \_ Confirm** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
@@ -131,7 +131,7 @@ Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

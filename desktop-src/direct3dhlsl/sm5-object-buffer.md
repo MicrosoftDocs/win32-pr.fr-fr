@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ce1754272fd90cedc5a806543dd83a99cdcd9455
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: a65e4e662800e877d55838056ee5b3c086d2b881095cbab40ff57c2a45a0cce8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119486749"
 ---
 # <a name="buffer"></a>Buffer
 
@@ -34,7 +34,7 @@ Type de mémoire tampon tel qu’il existe dans le nuanceur modèle 4, ainsi que
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
 
@@ -42,25 +42,25 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
- 
+ 
 
 Cet objet est pris en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -69,9 +69,9 @@ Cet objet est pris en charge pour les types de nuanceurs suivants :
 [Objets Shader Model 5](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

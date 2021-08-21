@@ -4,12 +4,12 @@ description: Écriture d’un substitut personnalisé
 ms.assetid: 510e38e5-1965-46f4-b09c-6fa585cff993
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af0899702f6626d586f8a819e8fee2c2e67b7c80
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 32c6098f4d0e9d99be86956bacce413e7e8a4b864a91212d6c2a1a257d9c1db7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047657"
 ---
 # <a name="writing-a-custom-surrogate"></a>Écriture d’un substitut personnalisé
 
@@ -95,6 +95,6 @@ Suivez ces instructions pour créer un processus de substitution quand cela est 
 [Substituts de DLL](dll-surrogates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

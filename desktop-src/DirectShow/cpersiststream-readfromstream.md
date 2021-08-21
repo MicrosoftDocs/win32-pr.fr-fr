@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ce6c037fbce9fbaeabf7491b1b840000f67e25d2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 39f40871e12a069045197d0cc61970c7d7f88c784f6b0873c294727b75121ae6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073643"
 ---
 # <a name="cpersiststreamreadfromstream-method"></a>Méthode CPersistStream. ReadFromStream
 
@@ -53,7 +53,7 @@ Pointeur vers une interface **IStream** à partir de laquelle les données doive
 
 Retourne S \_ OK. La classe dérivée doit retourner une valeur **HRESULT** valide.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La version par défaut ne lit rien ; Il peut être substitué pour lire des données spécifiques à votre classe.
 
@@ -63,7 +63,7 @@ La version par défaut ne lit rien ; Il peut être substitué pour lire des don
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>PStream. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Pstream. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

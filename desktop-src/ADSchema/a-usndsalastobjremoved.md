@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcbc246aa1a0f7c794b9dc0a9d2a725273a918e3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b864b34d89455610700aff685bb879c499da7c4320bbcd4efb3b83725e34ad7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081303"
 ---
 # <a name="usn-dsa-last-obj-removed-attribute"></a>USN-DSA-Last-obj-attribut supprimé
 
@@ -36,7 +36,7 @@ Contient le numéro de séquence de mise à jour (USN) pour le dernier objet sys
 | Fréquence des mises à jour  | À chaque modification d’un objet d’annuaire. |
 | Attribute-Id      | 1.2.840.113556.1.2.267               |
 | System-ID-GUID    | bf967a71-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -46,7 +46,7 @@ Contient le numéro de séquence de mise à jour (USN) pour le dernier objet sys
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

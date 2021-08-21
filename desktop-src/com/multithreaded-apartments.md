@@ -4,12 +4,12 @@ description: Apartments (cloisonnés) multithread
 ms.assetid: d3e6acd9-cd5c-4a2c-8526-4f43db3b606b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc2594f9341fc662b068fb7e007e538282a31273
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f69271b4fb6447d48c15fa9005d39020075af09bcc327b12ce539a739c33f8d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106511102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047917"
 ---
 # <a name="multithreaded-apartments"></a>Apartments (cloisonnés) multithread
 
@@ -33,7 +33,7 @@ Plusieurs clients peuvent appeler simultanément, à partir de différents threa
 
 Le client peut effectuer un travail COM dans plusieurs threads. Tous les threads appartiennent au même cloisonnement multithread. Les pointeurs d’interface sont passés directement du thread au thread dans un cloisonnement multithread, de sorte que les pointeurs d’interface ne sont pas marshalés entre ses threads. Les filtres de messages (implémentations de [**IMessageFilter**](/windows/desktop/api/ObjIdl/nn-objidl-imessagefilter)) ne sont pas utilisés dans les cloisonnements multithread. Le thread client s’interrompt lorsqu’il effectue un appel COM aux objets hors cloisonnement et reprendra lorsque l’appel sera retourné. Les appels entre les processus sont toujours gérés par RPC.
 
-Les threads initialisés avec le modèle à thread libre doivent implémenter leur propre synchronisation. Comme mentionné plus haut dans cette section, Windows active cette implémentation via les primitives de synchronisation suivantes :
+Les threads initialisés avec le modèle à thread libre doivent implémenter leur propre synchronisation. comme mentionné plus haut dans cette section, Windows active cette implémentation via les primitives de synchronisation suivantes :
 
 -   Les objets d’événement offrent un moyen de signaler un ou plusieurs threads qu’un événement s’est produit. Tout thread dans un processus peut créer un objet d’événement. Un descripteur de l’événement est retourné par la fonction de création d’événements, [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa). Une fois qu’un objet d’événement a été créé, les threads avec un handle de l’objet peuvent attendre avant de poursuivre l’exécution.
 -   Les sections critiques sont utilisées pour une section de code qui nécessite un accès exclusif à un ensemble de données partagées avant de pouvoir être exécutée et qui est utilisée uniquement par les threads dans un processus unique. Une section critique est comme un tourniquet par lequel un seul thread à la fois peut réussir, en procédant comme suit :
@@ -64,6 +64,6 @@ Les threads initialisés avec le modèle à thread libre doivent implémenter le
 [Apartments (cloisonnés) à thread unique](single-threaded-apartments.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

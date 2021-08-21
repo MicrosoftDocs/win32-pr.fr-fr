@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f246fe8401e1f671f5935ff7d7454093ea1d3179
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c04d4e24c621dd704b8aeba91646016e334a6f6bface4769578a710322a7cff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074553"
 ---
 # <a name="cbasewindowsetpalette-method-winutilh"></a>Méthode CBaseWindow. SetPalette (Winutil. h)
 
@@ -58,13 +58,13 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                             | Description                                                    |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Un appel interne à **GdiFlush** a retourné une erreur.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                                            |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                                            |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur de la variable membre [**CBaseWindow :: m \_ BNoRealize**](cbasewindow-m-bnorealize.md) est **false** (valeur par défaut), cette méthode sélectionne la palette et la réalise. Dans le cas contraire, il sélectionne la palette, mais ne le réalise pas. L’objet ne supprime pas les palettes précédentes qu’il utilisait. L’appelant est responsable de la suppression des palettes.
 
@@ -76,7 +76,7 @@ Tout thread peut appeler cette méthode en toute sécurité, pas seulement le th
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

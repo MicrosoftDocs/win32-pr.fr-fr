@@ -3,7 +3,7 @@ title: Message TBM_GETCHANNELRECT (commctrl. h)
 description: Récupère la taille et la position du rectangle englobant pour le canal d’un TrackBar.
 ms.assetid: 353edae3-1a26-4e85-8a32-ba8b5a976d24
 keywords:
-- TBM_GETCHANNELRECT les contrôles de message Windows
+- TBM_GETCHANNELRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02982e9ce417b9fcf3e16d0e14d061e3ffd97a8a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: af2c9932782a150635365c1cdcb74b624f6863b27180136bc9483e8d0de3ba1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078103"
 ---
 # <a name="tbm_getchannelrect-message"></a>\_Message TBM GETCHANNELRECT
 
@@ -49,8 +49,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

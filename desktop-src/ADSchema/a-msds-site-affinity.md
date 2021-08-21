@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dd3ed17b07c73d9e7a6a2d93d93463e1dea40fc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1a1d3fc359388f5303be808786a929840a409d29505949601b54bd9c7a8b18cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544579"
 ---
 # <a name="ms-ds-site-affinity-attribute"></a>ms-DS-site-attribut Affinity
 
@@ -44,7 +44,7 @@ L’attribut **ms-DS-site-Affinity** est utilisé par le gestionnaire de comptes
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

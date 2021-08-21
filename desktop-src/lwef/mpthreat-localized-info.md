@@ -3,8 +3,8 @@ title: Structure MPTHREAT_LOCALIZED_INFO (MpClient. h)
 description: Informations localisées pour une menace.
 ms.assetid: 99DC9737-9A61-4407-B544-A7A979C5B556
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_LOCALIZED_INFO
-- PMPTHREAT_LOCALIZED_INFO des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_LOCALIZED_INFO
+- PMPTHREAT_LOCALIZED_INFO des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ea0bee7c8cae15389b40b64038aad92a56dd5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ff28c77c60421fcaabe31580400ad87823ad3edf3536d96ba3ba5eec177ad94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555949"
 ---
 # <a name="mpthreat_localized_info-structure"></a>MPTHREAT \_ structure des \_ informations localisées
 
@@ -154,8 +154,8 @@ URL d’une page Web contenant des informations sur la menace.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

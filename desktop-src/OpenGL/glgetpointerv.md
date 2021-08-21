@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 569861922514af88835fbb4e313dab3286b7c47d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fdbef5cc17a547e82dfa55876d927ef9fed87f106d9e5fa0d5d1c36a5ce269b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106543056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493919"
 ---
 # <a name="glgetpointerv-function"></a>glGetPointerv fonction)
 
@@ -65,13 +65,13 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-| Nom                                                                                             | Signification                                       |
+| Name                                                                                             | Signification                                       |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl> | *pname* n’est pas une valeur acceptée.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGetPointerv** retourne les informations de pointeur de tableau. Le paramètre *pname* est une constante symbolique spécifiant le type de pointeur de tableau à retourner, et *params* est un pointeur vers un emplacement où placer les données retournées.
 
