@@ -1,9 +1,9 @@
 ---
-title: Configuration requise pour que les lecteurs audio portables s’affichent dans l’Explorateur Windows
-description: Configuration requise pour que les lecteurs audio portables s’affichent dans l’Explorateur Windows
+title: configuration requise pour que les lecteurs Audio portables s’affichent dans l’explorateur de Windows
+description: configuration requise pour que les lecteurs Audio portables s’affichent dans l’explorateur de Windows
 ms.assetid: 94227ed8-56e7-4366-9c38-9b5dbf907e16
 keywords:
-- Gestionnaire de périphériques Windows Media, lecteurs audio portables
+- Windows Gestionnaire de périphériques multimédia, lecteurs audio portables
 - Gestionnaire de périphériques, lecteurs audio portables
 - Guide de programmation, lecteurs audio portables
 - fournisseurs de services, lecteurs audio portables
@@ -11,22 +11,22 @@ keywords:
 - lecteurs audio portables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a163bf04f4185bc1325aa12ea6acddd43191529
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16d91e844f564ead03ddb78cf57c13c81a56bc8934bbfbde51c105b5c7e1e2f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106530782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055577"
 ---
-# <a name="requirements-for-portable-audio-players-to-appear-in-windows-explorer"></a>Configuration requise pour que les lecteurs audio portables s’affichent dans l’Explorateur Windows
+# <a name="requirements-for-portable-audio-players-to-appear-in-windows-explorer"></a>configuration requise pour que les lecteurs Audio portables s’affichent dans l’explorateur de Windows
 
-L’extension de l’espace de noms du shell de lecteur audio portable offre aux utilisateurs Windows un moyen cohérent de gérer les périphériques audio gérés par Windows Media Gestionnaire de périphériques. Si vous créez votre fournisseur de services et vos composants de pilote conformément aux instructions suivantes, votre appareil s’affiche dans l’espace de noms Shell. Les utilisateurs peuvent interagir avec le contenu de votre appareil de manière cohérente dans l’Explorateur Windows pour effectuer des opérations de base telles que copier, supprimer et renommer.
+l’extension de l’espace de noms du shell de lecteur audio portable offre aux utilisateurs Windows un moyen cohérent de gérer les périphériques audio gérés par Windows Gestionnaire de périphériques multimédia. Si vous créez votre fournisseur de services et vos composants de pilote conformément aux instructions suivantes, votre appareil s’affiche dans l’espace de noms Shell. les utilisateurs peuvent interagir avec le contenu de votre appareil de manière cohérente dans Windows Explorer pour effectuer des opérations de base telles que copier, supprimer et renommer.
 
-Les spécifications de l’interpréteur de commandes pour le fournisseur de services et les composants de pilote sont destinées à compléter les instructions générales de Gestionnaire de périphériques Windows Media.
+les spécifications de l’interpréteur de commandes suivantes pour le fournisseur de services et les composants de pilote sont destinées à compléter les instructions générales relatives à la Gestionnaire de périphériques Windows Media.
 
 Fonctionnalités de l’appareil
 
-Les fournisseurs de services Windows Media Gestionnaire de périphériques doivent être explicites dans leurs fonctionnalités prises en charge. Si un appel n’est pas pris en charge, un code d’erreur doit être retourné. Les champs appropriés doivent être définis pour la présence ou l’absence de fonctionnalités au retour des fonctions suivantes :
+Windows Les fournisseurs de services Media Gestionnaire de périphériques doivent être explicites dans leurs fonctionnalités prises en charge. Si un appel n’est pas pris en charge, un code d’erreur doit être retourné. Les champs appropriés doivent être définis pour la présence ou l’absence de fonctionnalités au retour des fonctions suivantes :
 
 -   [**IMDSPStorageGlobals :: GetCapabilities**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities)
 -   [**IMDSPStorage :: GetAttributes**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getattributes)
@@ -56,15 +56,15 @@ Si les métadonnées sont prises en charge, les champs suivants doivent être pr
 
 
 
- 
+ 
 
 Accès concurrentiel
 
-Les pilotes en mode noyau pour Windows Media Gestionnaire de périphériques doivent être robustes pour gérer l’accès simultané. Par exemple, un utilisateur peut accéder simultanément à l’appareil à l’aide de l’interpréteur de commandes et du lecteur multimédia, ou simplement à l’aide de plusieurs fenêtres dans l’interpréteur de commandes. Dans le cadre de la gestion de l’accès concurrentiel, les pilotes ne doivent pas supposer, juste parce que le fournisseur de services est chargé, que l’appareil est en cours d’utilisation. Au lieu de cela, ils doivent implémenter un mécanisme de verrouillage pour sérialiser l’accès à l’appareil en fonction des besoins des opérations individuelles.
+les pilotes en mode noyau pour Windows Media Gestionnaire de périphériques doivent être robustes pour gérer l’accès simultané. Par exemple, un utilisateur peut accéder simultanément à l’appareil à l’aide de l’interpréteur de commandes et du lecteur multimédia, ou simplement à l’aide de plusieurs fenêtres dans l’interpréteur de commandes. Dans le cadre de la gestion de l’accès concurrentiel, les pilotes ne doivent pas supposer, juste parce que le fournisseur de services est chargé, que l’appareil est en cours d’utilisation. Au lieu de cela, ils doivent implémenter un mécanisme de verrouillage pour sérialiser l’accès à l’appareil en fonction des besoins des opérations individuelles.
 
 Interface utilisateur du service
 
-Les fournisseurs de services pour Windows Media Gestionnaire de périphériques ne doivent afficher aucune interface utilisateur. Toutes les erreurs doivent être retournées par les appels de méthode en tant que Gestionnaire de périphériques des codes d’erreur Windows Media spécifiques chaque fois que cela est possible.
+les fournisseurs de services pour Windows Media Gestionnaire de périphériques ne doivent afficher aucune interface utilisateur. toutes les erreurs doivent être retournées à partir des appels de méthode en tant que Windows spécifique Gestionnaire de périphériques les codes d’erreur dans la mesure du possible.
 
 Activation dans l’interpréteur de commandes
 
@@ -77,9 +77,9 @@ Si votre package remplit toutes les conditions requises de l’interpréteur de 
 [**Création d’un fournisseur de services**](creating-a-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: f730a7df-af8f-4dce-9bfe-6ee1eca8fd90
 title: Inscription des codecs MPEG2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6de007cebdd0a911f6b43f21003ed3ede0bc1723
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b7aaf683d03f529e394fe7e01af8ccae0e0fd009ad7a90b608c8bbebf834c5ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952138"
 ---
 # <a name="registering-mpeg2-codecs"></a>Inscription des codecs MPEG2
 
-Cette rubrique s’applique uniquement à Windows XP Media Center Edition.
+cette rubrique s’applique à Windows XP édition Media Center uniquement.
 
-Windows XP Media Center Edition gère deux clés de registre qu’il utilise pour déterminer le codec à utiliser pour lire les fichiers audio et vidéo MPEG2. La première clé de Registre spécifie le codec MPEG2 préféré du fabricant de l’ordinateur, et la seconde répertorie tous les codecs compatibles Media Center qui sont actuellement installés sur l’ordinateur. Quand Media Center doit lire un fichier MPEG2, il utilise le codec préféré du fabricant, si celui-ci est spécifié. Si ce n’est pas le cas, il utilise le premier codec compatible Media Center listé dans le registre. Si le registre ne spécifie aucun codec préféré ou compatible, Media Center utilise la valeur de filtre DirectShow standard pour choisir un codec.
+Windows XP Media Center Edition gère deux clés de registre qu’il utilise pour déterminer le codec à utiliser pour lire les fichiers audio et vidéo MPEG2. La première clé de Registre spécifie le codec MPEG2 préféré du fabricant de l’ordinateur, et la seconde répertorie tous les codecs compatibles Media Center qui sont actuellement installés sur l’ordinateur. Quand Media Center doit lire un fichier MPEG2, il utilise le codec préféré du fabricant, si celui-ci est spécifié. Si ce n’est pas le cas, il utilise le premier codec compatible Media Center listé dans le registre. si le registre ne spécifie aucun codec préféré ou compatible, Media Center utilise le filtre de DirectShow standard pour choisir un codec.
 
 Pour vous assurer que Media Center utilise toujours un codec MPEG2 compatible, les fabricants d’ordinateurs Media Center doivent spécifier le codec MPEG2 préféré à l’emplacement de Registre suivant :
 

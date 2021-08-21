@@ -7,12 +7,12 @@ keywords:
 - GPC base services TBS, page d’hébergement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d2cbdfc1f85d6917f2e9a7a5b8e7a0fc25ebdc8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c0ccec7d7e70d8dece377518b379c0597c1392a3266222d6e70fa3ac524a010f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118880460"
 ---
 # <a name="tpm-base-services"></a>Services de base du module de plateforme sécurisée
 

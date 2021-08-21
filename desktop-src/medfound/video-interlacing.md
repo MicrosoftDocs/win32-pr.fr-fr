@@ -4,12 +4,12 @@ ms.assetid: 2911ae57-1703-4a9d-bd33-94af1e0f8804
 title: Entrelacement de vidéos
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec10f49ef21f3701f85467a3f4a1c4b08d69df72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c3724316c1190c2fe01c8debdc8bd4c85a0ba8810eb62a0690e19c087a06352
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972618"
 ---
 # <a name="video-interlacing"></a>Entrelacement de vidéos
 
@@ -237,13 +237,13 @@ Si le type de média est MFVideoInterlace \_ FieldSingleUpper ou MFVideoInterlac
 
 La même règle s’applique à l’ouverture géométrique (attribut d'[ \_ \_ \_ ouverture géométrique MF MT](mf-mt-geometric-aperture-attribute.md) ) et à l’ouverture de l’affichage minimale (attribut d’ouverture d’affichage de l'[ \_ affichage MF MT \_ minimum \_ \_ ](mf-mt-minimum-display-aperture-attribute.md) ). Ces régions sont spécifiées en termes d’ensemble du cadre, et non des champs individuels.
 
-## <a name="directshow-mappings"></a>Mappages DirectShow
+## <a name="directshow-mappings"></a>DirectShow Mappages
 
-Dans DirectShow, les informations d’entrelacement par échantillon sont contenues dans le membre **dwTypeSpecificFlags** de la structure de **\_ \_ Propriétés am SAMPLE2** . Le tableau suivant présente les attributs équivalents pour Media Foundation.
+dans DirectShow, les informations d’entrelacement par échantillon sont contenues dans le membre **dwTypeSpecificFlags** de la structure de **\_ \_ propriétés AM SAMPLE2** . Le tableau suivant présente les attributs équivalents pour Media Foundation.
 
 
 
-| Exemple d’indicateur DirectShow              | Media Foundation l’exemple d’attribut                                                                                                                                                  |
+| indicateur d’exemple de DirectShow              | Media Foundation l’exemple d’attribut                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | image de l' \_ \_ indicateur vidéo \_ entrelacé \_ | **MFSampleExtension \_ SingleField**  =  **false**.                                                                                                                                    |
 | \_Indicateur de vidéo am \_ \_ champ1             | **MFSampleExtension \_**  =  **True** entrelacé.<br/> **MFSampleExtension \_ SingleField**  =  **true**.<br/> **MFSampleExtension \_ BottomFieldFirst**  =  **false**.<br/> |
@@ -256,11 +256,11 @@ Dans DirectShow, les informations d’entrelacement par échantillon sont conten
 
  
 
-Si l’exemple DirectShow ne contient pas d’indicateurs d’échantillon, utilisez la valeur de **dwInterlaceFlags** à partir de la structure **VIDEOINFOHEADER2** :
+si l’exemple DirectShow ne contient pas d’indicateurs, utilisez la valeur de **dwInterlaceFlags** à partir de la structure **VIDEOINFOHEADER2** :
 
 
 
-| Indicateur entrelacé DirectShow    | Media Foundation l’exemple d’attribut                    |
+| DirectShow l’indicateur entrelacé    | Media Foundation l’exemple d’attribut                    |
 |------------------------------|------------------------------------------------------|
 | AMINTERLACE \_ IsInterlaced    | **MFSampleExtension \_**  =  **True** entrelacé.        |
 | AMINTERLACE \_ 1FieldPerSample | **MFSampleExtension \_ SingleField**  =  **true**.       |

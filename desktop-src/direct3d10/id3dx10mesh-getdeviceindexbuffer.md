@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3ec3e65cfc4acb5a903bcf18d2f707d39127e975
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 869bd40b49801a1469ca08baa3a493cc23e6f6238624380411c8d91de829c79b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990369"
 ---
 # <a name="id3dx10meshgetdeviceindexbuffer-method"></a>ID3DX10Mesh :: GetDeviceIndexBuffer, méthode
 
@@ -55,7 +55,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la mémoire tampon d’index du maillage n’a pas déjà été validée sur l’appareil, cette API valide automatiquement le tampon d’index avant de retourner un pointeur vers la mémoire tampon.
 

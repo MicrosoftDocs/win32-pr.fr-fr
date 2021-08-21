@@ -1,27 +1,27 @@
 ---
-description: Lorsque vous effectuez une sauvegarde ou une restauration VSS, l’état du système Windows est défini comme étant une collection de plusieurs éléments clés du système d’exploitation et de leurs fichiers. Ces éléments doivent toujours être traités comme une unité par les opérations de sauvegarde et de restauration.
+description: lorsque vous effectuez une sauvegarde ou une restauration VSS, l’état du système de Windows est défini comme étant une collection de plusieurs éléments clés du système d’exploitation et de leurs fichiers. Ces éléments doivent toujours être traités comme une unité par les opérations de sauvegarde et de restauration.
 ms.assetid: 48721358-8450-462f-8f99-23e207311041
 title: Sauvegarde et restauration de l’état du système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed61c3ccad51ebd8cd632fab292160c795741c9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3b027fa0d1a01f3d4f735494d34d4f2da2d07a0e0d82ecfd189f7a9c7c8537c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056397"
 ---
 # <a name="backing-up-and-restoring-system-state"></a>Sauvegarde et restauration de l’état du système
 
 > [!Note]  
-> Cette rubrique s’applique à Windows Vista, Windows Server 2008 et versions ultérieures. Pour plus d’informations sur Windows Server 2003, voir [sauvegarde et restauration de l’état du système dans Windows server 2003 R2 et Windows server 2003 SP1](backing-up-and-restoring-system-state-under-vss.md)
+> cette rubrique s’applique à Windows Vista, Windows Server 2008 et versions ultérieures. pour plus d’informations sur Windows server 2003, voir [sauvegarde et restauration de l’état du système dans Windows server 2003 R2 et Windows server 2003 SP1](backing-up-and-restoring-system-state-under-vss.md)
 
  
 
-Lorsque vous effectuez une sauvegarde ou une restauration VSS, l’état du système Windows est défini comme étant une collection de plusieurs éléments clés du système d’exploitation et de leurs fichiers. Ces éléments doivent toujours être traités comme une unité par les opérations de sauvegarde et de restauration.
+lorsque vous effectuez une sauvegarde ou une restauration VSS, l’état du système de Windows est défini comme étant une collection de plusieurs éléments clés du système d’exploitation et de leurs fichiers. Ces éléments doivent toujours être traités comme une unité par les opérations de sauvegarde et de restauration.
 
 > [!Note]  
-> Microsoft ne fournit pas de support technique pour les développeurs ou les professionnels de l’informatique pour l’implémentation de restaurations en ligne sur l’état du système sur Windows (toutes les versions).
+> Microsoft ne fournit pas de support technique pour les développeurs ou les professionnels de l’informatique pour l’implémentation des restaurations en ligne de l’état du système sur Windows (toutes les versions).
 
  
 
@@ -39,21 +39,21 @@ Tous les composants signalés par un enregistreur VSS du système font partie de
 Les programmes de sauvegarde doivent également définir la clé de Registre **LastRestoreId** . Pour plus d’informations, consultez [clés et valeurs de Registre pour la sauvegarde et la restauration](../backup/registry-keys-for-backup-and-restore.md).
 
 > [!Note]  
-> Dans Windows Vista, Windows Server 2008 et versions ultérieures, les noms et les emplacements de certains fichiers système ont été modifiés comme suit.
+> dans Windows Vista, Windows Server 2008 et versions ultérieures, les noms et les emplacements de certains fichiers système ont été modifiés comme suit.
 
  
 
 ## <a name="system-state"></a>État du système
 
-Pour Windows Server 2012 et versions ultérieures, en plus des fichiers signalés par les différents enregistreurs d’état système VSS, seuls les fichiers de licence suivants doivent être inclus explicitement et les fichiers DRM suivants doivent être exclus explicitement.
+pour Windows Server 2012 et versions ultérieures, en plus des fichiers signalés par les différents enregistreurs d’état système VSS, seuls les fichiers de licence suivants doivent être inclus explicitement et les fichiers DRM suivants doivent être exclus explicitement.
 
-## <a name="windows-media-digital-rights-management-files"></a>Fichiers Rights Management numériques Windows Media
+## <a name="windows-media-digital-rights-management-files"></a>Windows Fichiers Rights Management Media Digital
 
-Dans Windows Server 2008 et versions ultérieures, les fichiers suivants, y compris tous les sous-répertoires sous le chemin d’accès suivant, sont exclus de l’état du système et ne doivent pas être sauvegardés :
+dans Windows Server 2008 et versions ultérieures, les fichiers suivants, y compris tous les sous-répertoires sous le chemin d’accès suivant, sont exclus de l’état du système et ne doivent pas être sauvegardés :
 
 -   % ProgramData% \\ Microsoft \\ Windows \\ DRM\\
 
-Cela remplace les informations de la section Windows Media Digital Rights Management de l' [utilisation des fonctionnalités de sécurité et de système de fichiers](working-with-file-system-and-security-features.md).
+cela remplace les informations de la section Windows Media Digital Rights Management de l' [utilisation des fonctionnalités de sécurité et de système de fichiers](working-with-file-system-and-security-features.md).
 
 ## <a name="performance-counter-configuration-files"></a>Fichiers de configuration du compteur de performances
 
@@ -75,16 +75,16 @@ Ces fichiers sont modifiés uniquement lors de l’installation de l’applicati
 ## <a name="iis-configuration-files"></a>Fichiers de configuration IIS
 
 > [!Note]  
-> Dans Windows Vista avec Service Pack 1 (SP1) et versions ultérieures, vous ne devez pas sauvegarder ces fichiers. Au lieu de cela, utilisez l’enregistreur de configuration IIS dans la zone. Pour plus d’informations sur ce writer, consultez [la page enregistreurs VSS intégrés](in-box-vss-writers.md).
+> dans Windows Vista avec Service Pack 1 (SP1) et versions ultérieures, vous ne devez pas sauvegarder ces fichiers. Au lieu de cela, utilisez l’enregistreur de configuration IIS dans la zone. Pour plus d’informations sur ce writer, consultez [la page enregistreurs VSS intégrés](in-box-vss-writers.md).
 
  
 
 Les fichiers de configuration IIS appropriés et leurs emplacements sont répertoriés ci-dessous :
 
 -   Le fichier de machine.config .NET FX se trouve dans le répertoire de la version du Framework.
--   Le fichier web.config racine ASP.NET se trouve dans le répertoire de la version du Framework.
+-   le fichier de web.config racine ASP.NET se trouve dans le répertoire de la version du framework.
     > [!Note]  
-    > Les fichiers de configuration pour .NET FX et ASP.NET se trouvent dans le répertoire de la version du Framework. Si plusieurs versions du Framework sont installées sur l’ordinateur, ce répertoire contiendra un fichier de configuration pour chaque version installée.
+    > les fichiers de configuration pour .net FX et ASP.NET se trouvent dans le répertoire de la version du framework. Si plusieurs versions du Framework sont installées sur l’ordinateur, ce répertoire contiendra un fichier de configuration pour chaque version installée.
 
      
 

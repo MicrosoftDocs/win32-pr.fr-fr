@@ -14,18 +14,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9cf44295c9972d7549eb4a82fda7c415ba81c31d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d618a0534592ebe01a961ba9b0fdd462fcda70597b5f909b30e8fb92f6bdbeb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106544157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055627"
 ---
 # <a name="iwmdrmdeviceapp-interface"></a>Interface IWMDRMDeviceApp
 
-\[La fonctionnalité Windows Media DRM est déconseillée et ne doit pas être utilisée. Utilisez plutôt [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) .\]
+\[la fonctionnalité DRM Windows Media est déconseillée et ne doit pas être utilisée. utilisez à la place [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) .\]
 
-L’interface **IWMDRMDeviceApp** permet à une application de mesurer, de synchroniser des licences et de mettre à jour les composants DRM d’un appareil. Cette interface ne fonctionne que pour les appareils qui prennent en charge Windows Media DRM 10 pour les appareils mobiles.
+L’interface **IWMDRMDeviceApp** permet à une application de mesurer, de synchroniser des licences et de mettre à jour les composants DRM d’un appareil. cette interface ne fonctionne que pour les appareils qui prennent en charge Windows Media DRM 10 pour les appareils mobiles.
 
 Pour accéder à cette interface, appelez **CoCreateInstance**, en transmettant CLSID \_ WMDRMDeviceApp.
 

@@ -8,12 +8,12 @@ keywords:
 - ADsPath ADSI, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b13d2d8b58dd01713fa6382f27714b72651ad6f8
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ad8e1bc59011c1279b340348572fa0681a0d301319f75603b73714df4c9cb96f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023687"
 ---
 # <a name="binding-string"></a>Chaîne de liaison
 
@@ -27,7 +27,7 @@ Le tableau suivant répertorie les fournisseurs ADSI fournis par défaut.
 
 | Fournisseur         | Description                                                                                                                                                     |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| WinNT<br/> | Utilisé pour communiquer avec les contrôleurs de domaine Windows. Pour plus d’informations sur le ADsPath de WinNT, consultez [winnt ADsPath](winnt-adspath.md).<br/>           |
+| NT<br/> | utilisé pour communiquer avec les contrôleurs de domaine Windows. Pour plus d’informations sur le ADsPath de WinNT, consultez [winnt ADsPath](winnt-adspath.md).<br/>           |
 | LDAP<br/>  | Utilisé pour communiquer avec les serveurs LDAP, par exemple Active Directory. Pour plus d’informations sur l’ADsPath LDAP, consultez [LDAP ADsPath](ldap-adspath.md).<br/>  |
 | Fenêtres<br/>   | Fournit une implémentation de [**IADsNamespaces**](/windows/desktop/api/Iads/nn-iads-iadsnamespaces) qui peut être utilisée pour énumérer tous les fournisseurs ADSI installés sur le client.<br/> |
 

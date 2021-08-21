@@ -7,12 +7,12 @@ keywords:
 - interfaces d’utilitaire ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bfe65f8f31f10f6c7dadfedf3e90f84d22963c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 205b90fc87877b6e6812b43a92ede631fc3a56a43f789a3f3d23e44209726b19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023027"
 ---
 # <a name="utility-interfaces"></a>Interfaces de l’utilitaire
 
@@ -25,9 +25,9 @@ Cette section décrit les interfaces d’utilitaire suivantes :
 -   [**IADsPathname**](/windows/desktop/api/Iads/nn-iads-iadspathname)
 -   [**IADsWinNTSystemInfo**](/windows/desktop/api/Iads/nn-iads-iadswinntsysteminfo)
 
- 
+ 
 
- 
+ 
 
 
 

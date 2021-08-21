@@ -3,7 +3,7 @@ title: Événement CdromMediaChange de l’objet AxWindowsMediaPlayer
 description: L’événement CdromMediaChange se produit lorsqu’un CD ou un DVD est inséré ou éjecté d’un lecteur de CD ou DVD. | Événement CdromMediaChange de l’objet AxWindowsMediaPlayer
 ms.assetid: 0a6378c1-59e4-4be3-8764-d5c4ab478b6c
 keywords:
-- Événement CdromMediaChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement CdromMediaChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35385541f6bc91b6935f148fd8ae28df6a415f3d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55dac05b3ca8a8675bfae431d3f2e8ffbb38db8701a2501fa80d282cd3c976ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055001"
 ---
 # <a name="cdrommediachange-event-of-the-axwindowsmediaplayer-object"></a>Événement CdromMediaChange de l’objet AxWindowsMediaPlayer
 
@@ -53,7 +53,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’index du lecteur de CD correspond à l’index d’une interface IWMPCdrom accessible via l’interface IWMPCdromCollection.
 
@@ -73,7 +73,7 @@ L’index du lecteur de CD correspond à l’index d’une interface IWMPCdrom a
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPCdrom (VB et C#)**](iwmpcdrom--vb-and-c.md)

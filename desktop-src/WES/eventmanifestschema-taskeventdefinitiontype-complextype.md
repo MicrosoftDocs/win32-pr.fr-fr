@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2ebf752dbaf97ceced84b6bd9698faf7b191c07e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 44a4fc7ca8784b3472fea3b0d4f4e657ce615fae05a8cc7372aa3cca0fedb431
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106537223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055837"
 ---
 # <a name="taskeventdefinitiontype-complex-type"></a>Type complexe TaskEventDefinitionType
 
-\[À partir du compilateur de messages fourni avec la version Windows 7 du SDK Windows, le type complexe TaskEventDefinitionType n’est plus disponible. Utilisez plutôt des OpCodes spécifiques à la tâche pour fournir les mêmes fonctionnalités.\]
+\[à partir du compilateur de messages fourni avec la version Windows 7 du SDK Windows, le type complexe TaskEventDefinitionType n’est plus disponible. Utilisez plutôt des OpCodes spécifiques à la tâche pour fournir les mêmes fonctionnalités.\]
 
 Définit un événement spécifique à la tâche que votre fournisseur peut journaliser.
 
@@ -64,7 +64,7 @@ Définit un événement spécifique à la tâche que votre fournisseur peut jour
 | Élément                                                                      | Type                                                                               | Description                                             |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------|
 | **event**                                                                    | [**EventDefinitionType**](eventmanifestschema-eventdefinitiontype-complextype.md) | Événement spécifique à une tâche publié à l’aide d’une tâche.<br/> |
-| [**OpCode**](eventmanifestschema-opcode-taskeventdefinitiontype-element.md) |                                                                                    | Opcode spécifique à une tâche qui est utilisé pour un événement. <br/>   |
+| [**opcode**](eventmanifestschema-opcode-taskeventdefinitiontype-element.md) |                                                                                    | Opcode spécifique à une tâche qui est utilisé pour un événement. <br/>   |
 
 
 
@@ -85,8 +85,8 @@ Définit un événement spécifique à la tâche que votre fournisseur peut jour
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

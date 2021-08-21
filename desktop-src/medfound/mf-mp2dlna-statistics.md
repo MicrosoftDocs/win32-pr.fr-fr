@@ -4,12 +4,12 @@ ms.assetid: 1fa6ea9f-fd30-4fa2-a0e6-1647273bcc35
 title: Attribut MF_MP2DLNA_STATISTICS (Mfmp2dlna. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a51620c1ca093a422a5e4657edcfbfaa66ae6cd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47a80bf0682cf6e46845a968122bf512a6e9cff15df8fb8e0312e1c63c8dab0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973618"
 ---
 # <a name="mf_mp2dlna_statistics-attribute"></a>Attribut des statistiques de \_ MP2DLNA MF \_
 
@@ -23,7 +23,7 @@ Obtient les statistiques du récepteur multimédia DLNA (Digital vivant Network 
 
 Pour récupérer cet attribut, appelez [**IMFAttributes :: GetBlob**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pendant la diffusion en continu, le récepteur multimédia DLNA met à jour cet attribut avec des statistiques sur l’encodage et le multiplexage des flux MPEG-2. L’application peut interroger cet attribut à tout moment pour obtenir les valeurs les plus récentes.
 
@@ -35,8 +35,8 @@ La définition de cet attribut sur le récepteur multimédia DLNA n’a aucun ef
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Mfmp2dlna. h</dt> </dl> |
 
 

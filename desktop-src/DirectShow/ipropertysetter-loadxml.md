@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 65127d313309ca7d670a99c912531db0657a9b51
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1779c6bcd37baad4bd423d0a46abd3741dd3a7939c1615a5871e6746729558c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952568"
 ---
 # <a name="ipropertysetterloadxml-method"></a>IPropertySetter :: LoadXML, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -61,7 +61,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 | Code de retour                                                                                                  | Description                     |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>                      | Aucune donnée de propriété.<br/>    |
-| <dl> <dt>**\_OK**</dt> </dl>                         | Opération réussie.<br/>             |
+| <dl> <dt>**\_OK**</dt> </dl>                         | Réussite.<br/>             |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>                | Mémoire insuffisante.<br/> |
 | <dl> <dt>**VFW \_ E \_ \_ format de fichier non valide \_**</dt> </dl> | Format non valide.<br/>      |
 
@@ -69,14 +69,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, les applications n’ont pas besoin d’utiliser cette méthode. DES l’utilise en interne pour charger des propriétés à partir de fichiers XTL.
 
 Pour utiliser cette méthode, créez un objet **IXMLDocument** et utilisez-le pour analyser un fichier XML. Utilisez ensuite l’objet **IXMLDocument** pour récupérer des objets **IXMLElement** . Si l’objet possède des propriétés, vous pouvez passer le pointeur **IXMLElement** à la méthode **LoadXml** . La méthode charge les propriétés dans l’accesseur Set de propriété.
 
 > [!Note]  
-> Les interfaces **IXMLDocument** et **IXMLElement** sont implémentées dans Microsoft XML Core Services (MSXML) version 1,0, mais elles ne sont pas implémentées dans les versions plus récentes de MSXML.
+> les interfaces **IXMLDocument** et **IXMLElement** sont implémentées dans la version 1,0 de Microsoft XML Core Services® (MSXML), mais elles ne sont pas implémentées dans les versions plus récentes de MSXML.
 
  
 
@@ -86,7 +86,7 @@ Pour utiliser cette méthode, créez un objet **IXMLDocument** et utilisez-le po
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

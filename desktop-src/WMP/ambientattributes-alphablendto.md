@@ -3,7 +3,7 @@ title: AmbientAttributes.alphaBlendTo
 description: La méthode alphaBlendTo ajuste la propriété alphaBlend sur une période donnée.
 ms.assetid: 5cb259bd-3010-4086-be9d-65022be297b7
 keywords:
-- Lecteur Windows Media AmbientAttributes. alphaBlendTo
+- AmbientAttributes. alphaBlendTo Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 16b21e78de3510e2e4a58c7214995f7888f778c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8e0e29df897d070cd4d337e27a7f5f7f7e3a86c7f44a784afadb5bc203674ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055227"
 ---
 # <a name="ambientattributesalphablendto"></a>AmbientAttributes.alphaBlendTo
 
@@ -50,14 +50,14 @@ La méthode **alphaBlendTo** ajuste la propriété **alphaBlend** sur une pério
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est utile pour faire apparaître ou disparaître progressivement des éléments.
 
 Quand vous utilisez **alphaBlendTo** avec un élément de **texte** pour lequel le **backgroundColor** n’est pas spécifié, une couleur d’arrière-plan noire est utilisée. Si la couleur de premier plan est également noire (valeur par défaut pour le *texte*).**foregroundColor**), votre texte peut devenir illisible. Pour éviter cela, spécifiez toujours l’attribut **backgroundColor** ou définissez **foregroundColor** sur une couleur autre que Black.
 
 > [!Note]  
-> Cet attribut n’est pas pris en charge dans Windows 98.
+> cet attribut n’est pas pris en charge dans Windows 98.
 
  
 

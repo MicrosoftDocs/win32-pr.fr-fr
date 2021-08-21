@@ -4,12 +4,12 @@ ms.assetid: 9e699f7c-f738-4702-bdef-fb2c276c38fc
 title: DecryptMessage (Kerberos) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: b32968ea83ca0403a5d8dd1579c4e03f30776c19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62add8d4b33f356aeae5bbbf8fa16b19a0b5e419e0ab6c0a6847a3ed087ce726
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008537"
 ---
 # <a name="decryptmessage-kerberos-function"></a>DecryptMessage (Kerberos) (fonction)
 
@@ -67,7 +67,7 @@ Si la fonction ne parvient pas à déchiffrer le message, elle retourne l’un d
 | **s \_ E \_ message incomplet \_** | Les données de la mémoire tampon d’entrée sont incomplètes. L’application doit lire plus de données à partir du serveur et appeler à nouveau [**DecryptMessage (Kerberos)**](decryptmessage--kerberos.md) . |
 | **SEC \_ E \_ hors \_ \_ séquence**   | Le message n’a pas été reçu dans l’ordre correct.                                                                                                                            |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Parfois, une application lit les données du tiers distant, tente de les déchiffrer à l’aide de **DecryptMessage (Kerberos)** et découvre que **DecryptMessage (Kerberos)** a réussi, mais les tampons de sortie sont vides. Il s’agit d’un comportement normal, et les applications doivent être en mesure de les gérer.
 
@@ -79,8 +79,8 @@ Pour plus d’informations sur l’interopérabilité avec GSSAPI, consultez [in
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]          |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]          |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\] |
 | En-tête                   | SSPI. h (include Security. h)               |
 | Bibliothèque                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |

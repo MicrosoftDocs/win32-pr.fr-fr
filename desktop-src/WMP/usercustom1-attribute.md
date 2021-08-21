@@ -3,7 +3,7 @@ title: Attribut UserCustom1
 description: L’attribut UserCustom1 est du texte arbitraire.
 ms.assetid: c8ca54df-7849-4eea-b229-5056564f984a
 keywords:
-- Attribut UserCustom1 lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserCustom1
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9e9aef7f8e38d3a038d494c36d31cceea8ec008
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 869dffa3e988ce333403b3611c1c10b5317c6200c88b43592583e3b5a39b072c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118831027"
 ---
 # <a name="usercustom1-attribute"></a>Attribut UserCustom1
 
@@ -31,19 +31,19 @@ L’attribut **UserCustom1** est du texte arbitraire.
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans le lecteur Windows Media 10 ou version ultérieure)<br/> |
+| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans Lecteur Windows Media 10 ou version ultérieure)<br/> |
 
 
 

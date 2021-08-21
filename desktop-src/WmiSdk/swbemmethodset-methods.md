@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes SWbemMethodSet
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46a66e6413318710394ee6a8e1059c5746608132
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78d5a61fea0f9e17e6edaadfc967b0af9388f63822db169ceea8a56edafa9480
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992109"
 ---
 # <a name="swbemmethodset-methods"></a>Méthodes SWbemMethodSet
 

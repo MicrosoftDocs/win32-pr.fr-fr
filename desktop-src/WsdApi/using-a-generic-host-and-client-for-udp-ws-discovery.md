@@ -4,12 +4,12 @@ ms.assetid: e82ce911-b2a7-4a57-a2f0-9aca6b74478f
 title: Utilisation d’un hôte et d’un client génériques pour les WS-Discovery UDP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3289f5205e4e417fe8162b401be6c608432cfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae6af77529116e21848e22812e04322273e08f1f0cf4d107787b4039b2442b19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991489"
 ---
 # <a name="using-a-generic-host-and-client-for-udp-ws-discovery"></a>Utilisation d’un hôte et d’un client génériques pour les WS-Discovery UDP
 
@@ -23,7 +23,7 @@ Si l’hôte ou le client est une application en cours d’exécution sur un PC,
 2.  Exécutez la commande suivante : **WSDDebug \_host.exe/mode Metadata/Start**
 
     > [!Note]  
-    > Une boîte de dialogue d' **alerte de sécurité Windows** peut s’afficher. Dans ce cas, cliquez sur **débloquer** pour permettre l’exécution de l’hôte de débogage WSD.
+    > une boîte de dialogue d' **alerte Sécurité Windows** peut s’afficher. Dans ce cas, cliquez sur **débloquer** pour permettre l’exécution de l’hôte de débogage WSD.
 
      
 
@@ -38,7 +38,7 @@ Si l’hôte ou le client est une application en cours d’exécution sur un PC,
 
 3.  Exécutez la commande suivante : **WSDDebug \_client.exe les métadonnées/mode/Hello OFF/Resolve** *<id>* . Remplacez *<id>* par l’ID d’appareil identifié à l’étape 2.
     > [!Note]  
-    > Une boîte de dialogue d' **alerte de sécurité Windows** peut s’afficher. Dans ce cas, cliquez sur **débloquer** pour permettre l’exécution du client de débogage WSD.
+    > une boîte de dialogue d' **alerte Sécurité Windows** peut s’afficher. Dans ce cas, cliquez sur **débloquer** pour permettre l’exécution du client de débogage WSD.
 
      
 
@@ -74,7 +74,7 @@ Prenez note de l’adresse de référence du point de terminaison (EPR). Cette a
 Si l’ID de l’appareil ne correspond pas à l’adresse du EPR, l’échec de l’application est probablement lié au système d’exploitation ou à l’environnement réseau. L’échec peut avoir une ou plusieurs des causes suivantes :
 
 -   L’application s’exécute dans un contexte de sécurité incorrect. Vérifiez que l’application utilise les informations d’identification correctes et que le client et l’hôte disposent des autorisations suffisantes pour accéder au réseau.
--   La configuration du pare-feu est incorrecte. Suivez les instructions de la [section inspection des paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md) pour vérifier que les paramètres du pare-feu Windows sont corrects et qu’aucune autre règle ne supprime les paquets. Le client et l’hôte peuvent également être copiés sur un ordinateur « initial » (l’un avec une installation de système d’exploitation par défaut qui n’a jamais été jointe à un domaine) afin de tenter de reproduire l’échec.
+-   La configuration du pare-feu est incorrecte. suivez les instructions de la section inspection des Paramètres de l' [adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md) pour vérifier que les paramètres du pare-feu Windows sont corrects et qu’aucune autre règle ne supprime les paquets. Le client et l’hôte peuvent également être copiés sur un ordinateur « initial » (l’un avec une installation de système d’exploitation par défaut qui n’a jamais été jointe à un domaine) afin de tenter de reproduire l’échec.
 -   Une stratégie IPSec bloque l’application. Copiez le client et l’hôte sur un ordinateur qui n’est pas soumis aux stratégies IPSec et essayez de reproduire l’échec.
 
 ## <a name="related-topics"></a>Rubriques connexes

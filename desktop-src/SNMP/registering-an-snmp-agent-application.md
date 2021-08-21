@@ -4,12 +4,12 @@ description: Outre les opérations du gestionnaire SNMP, la version 2,0 de l’A
 ms.assetid: 473560b5-4611-410e-aeae-764c9c76e765
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40922469c52e33e4b5c2f408c1c107b6784529f5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c3415e511639c7cbbc18455ed93be74e11414c1f442797c8b72f7456092757c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009127"
 ---
 # <a name="registering-an-snmp-agent-application"></a>Inscription d’une application d’agent SNMP
 
@@ -26,9 +26,9 @@ Si une application appelle la fonction [**SnmpListen**](/windows/desktop/api/Win
 
 Pour plus d’informations sur les applications de gestion SNMP et les applications de l’agent, consultez [à propos de SNMP](about-snmp.md).
 
- 
+ 
 
- 
+ 
 
 
 

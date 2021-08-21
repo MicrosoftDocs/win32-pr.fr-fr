@@ -4,16 +4,16 @@ ms.assetid: c292f145-f385-4f18-8f98-e414d86860e2
 title: Top-Down et Bottom-Up DIB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e719bea5923aeccc4a0a92b5f73a253e13d2e12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: adff1d525423ef8590a3656a5e63f7541be180e2dcc5c70307f93298eb9ce991
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951564"
 ---
 # <a name="top-down-vs-bottom-up-dibs"></a>Top-Down et Bottom-Up DIB
 
-Si vous ne connaissez pas la programmation graphique, vous pouvez vous attendre à ce qu’une bitmap soit organisée en mémoire afin que la ligne supérieure de l’image apparaisse au début de la mémoire tampon, suivie de la ligne suivante, et ainsi de suite. Toutefois, cela n’est pas nécessairement le cas. Dans Windows, les images bitmap indépendantes du périphérique (DIB) peuvent être placées en mémoire dans deux orientations différentes, de bas en haut et de haut en bas.
+Si vous ne connaissez pas la programmation graphique, vous pouvez vous attendre à ce qu’une bitmap soit organisée en mémoire afin que la ligne supérieure de l’image apparaisse au début de la mémoire tampon, suivie de la ligne suivante, et ainsi de suite. Toutefois, cela n’est pas nécessairement le cas. dans Windows, les bitmaps indépendantes du périphérique (dib) peuvent être placées en mémoire dans deux orientations différentes, de bas en haut et de haut en bas.
 
 Dans un DIB de bas en haut, la mémoire tampon d’image commence par la ligne inférieure des pixels, suivie de la ligne suivante, et ainsi de suite. La ligne supérieure de l’image est la dernière ligne de la mémoire tampon. Par conséquent, le premier octet en mémoire est le pixel inférieur gauche de l’image. Dans GDI, tous les DIB sont ascendants. Le diagramme suivant montre la disposition physique d’un DIB ascendant.
 

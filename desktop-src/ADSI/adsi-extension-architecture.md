@@ -7,12 +7,12 @@ keywords:
 - extensions ADSI, architecture d’extension
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 377409f4b9ac36d72d6885e89860b9e6e680b103
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 239a2562054f062464fc924a0f67c31ea3d9fab696fd23e532eab78e1dc66d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023865"
 ---
 # <a name="adsi-extension-architecture"></a>Architecture d’extension ADSI
 
@@ -42,8 +42,8 @@ L’illustration suivante montre l’architecture du modèle d’extension ADSI.
 ADSI prend en charge deux niveaux d’extension :
 
 -   Prise en charge de la liaison précoce. Il s’agit du premier niveau de l’extension. Une extension doit prendre en charge l’inscription et implémenter de nouvelles interfaces. Les consommateurs d’extension doivent utiliser des outils ou des hôtes de script qui prennent en charge la liaison précoce, par exemple Visual C++, Visual Basic.
--   Prise en charge de la liaison tardive. Cela se produit lorsqu’une extension satisfait à toutes les exigences de liaison précoce, et implémente une interface supplémentaire, [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension). Les implémenteurs d’extension peuvent utiliser n’importe quel outil qui fonctionne comme un contrôleur Automation, tel que Windows Script Host, Active Server pages ou HTML avec VBScript.
+-   Prise en charge de la liaison tardive. Cela se produit lorsqu’une extension satisfait à toutes les exigences de liaison précoce, et implémente une interface supplémentaire, [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension). les implémenteurs d’Extension peuvent utiliser n’importe quel outil qui fonctionne comme un contrôleur Automation, tel que l’hôte de Script Windows, les Pages Active Server ou le code HTML avec VBScript.
 
- 
+ 
 
- 
+ 

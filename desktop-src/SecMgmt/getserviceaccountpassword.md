@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Secpkg.h
-ms.openlocfilehash: 08719fb2b7e4a775df890f20cd640d059cb44475
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc00dc01d3acd996257ebc4056be573335a1fd209e9d38abbdcb6bab33124b4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894772"
 ---
 # <a name="getserviceaccountpassword-function"></a>GetServiceAccountPassword fonction)
 
@@ -116,11 +116,11 @@ Si la fonction réussit, la valeur de retour est STATUs \_ successful.
 
 Si la fonction échoue, la valeur de retour est un code NTSTATUS. Pour plus d’informations, consultez valeurs de retour de la [fonction de stratégie LSA](management-return-values.md).
 
-Vous pouvez utiliser la fonction [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) pour convertir le code NTSTATUS en code d’erreur Windows.
+vous pouvez utiliser la fonction [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) pour convertir le code NTSTATUS en code d’erreur Windows.
 
 Lorsque vous avez terminé d’utiliser les mémoires tampons retournées dans les paramètres *CurrentPassword* et *PreviousPassword* , libérez-les en appelant la fonction [**FreeLsaHeap**](/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **GetServiceAccountPassword** peut être appelée dans les scénarios suivants :
 
@@ -128,14 +128,14 @@ La fonction **GetServiceAccountPassword** peut être appelée dans les scénario
 
 -   Des SSP dans leurs appels [**InitializeSecurityContext**](../SecAuthN/initializesecuritycontext--general.md) et [**AcceptSecurityContext**](../SecAuthN/acceptsecuritycontext--general.md) . Les SSP doivent détecter que le \_ \_ mot de passe du compte de service est utilisé pour ces appels, et si l’appel concerne les informations d’identification non principales, le SSP doit s’assurer que l’appelant possède un privilège TCB ou est un service réseau. Le SSP doit ensuite appeler la fonction **GetServiceAccountPassword** avec la valeur **CredFetchDefault** dans l’énumération d' [**\_ extraction cred**](cred-fetch.md) et procéder à l’appel. Si les appels **InitializeSecurityContext** et **AcceptSecurityContext** échouent, le SSP doit utiliser le *FileTimeExpiry* récupéré à partir de l’appel précédent à **GetServiceAccountPassword** et l’utiliser comme entrée pour appeler à nouveau **GetServiceAccountPassword** à l’aide de la valeur **CredFetchForced** dans l’énumération **\_ Fetch FETCH** . Si de nouvelles informations d’identification gMSA sont disponibles, le deuxième appel sera correctement effectué avec les nouvelles informations d’identification et le SSP devra ensuite réessayer avec les nouvelles informations d’identification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Secpkg. h</dt> </dl> |
 
 

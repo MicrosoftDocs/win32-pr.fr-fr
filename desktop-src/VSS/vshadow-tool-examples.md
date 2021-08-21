@@ -4,12 +4,12 @@ ms.assetid: 6a69b75b-ee4a-4613-ba05-d2deb42759b7
 title: Exemples d’outils VShadow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b65fd2bfa1c390b1bd5310cd80f02e029dbf935f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86ec0a753f2865be98cfed76cd192a73cfc785b3fcdc487f7685c9f4ae7d52e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056347"
 ---
 # <a name="vshadow-tool-examples"></a>Exemples d’outils VShadow
 
@@ -37,7 +37,7 @@ Si vous utilisez l’indicateur **-script** facultatif lors de la création de c
 Vous pouvez utiliser le fichier CMD généré pour effectuer des opérations de gestion limitées sur les clichés instantanés.
 
 > [!Note]  
-> L’événement du writer [**BackupComplete**](/windows/win32/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete) est envoyé après l’exécution du script **-Exec** . VSS appelle la méthode **IVssBackupComponents :: BackupComplete** pour signaler aux rédacteurs que la sauvegarde est terminée, et les enregistreurs peuvent potentiellement tronquer les journaux à ce stade. Par conséquent, il est important de vérifier que l’ombre/sauvegarde est effectivement terminée. En cas d’échec de la sauvegarde, vous pouvez annuler le processus de création en retournant un code de sortie différent de zéro dans le script/la commande exécuté (e). (Consultez la documentation de la commande exit dans la [référence de la ligne de commande Windows](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754340(v=ws.11)).) Si la commande personnalisée retourne avec un code de sortie différent de zéro, la création de clichés instantanés est annulée et **IVssBackupComponents :: BackupComplete** n’est pas appelé.
+> L’événement du writer [**BackupComplete**](/windows/win32/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete) est envoyé après l’exécution du script **-Exec** . VSS appelle la méthode **IVssBackupComponents :: BackupComplete** pour signaler aux rédacteurs que la sauvegarde est terminée, et les enregistreurs peuvent potentiellement tronquer les journaux à ce stade. Par conséquent, il est important de vérifier que l’ombre/sauvegarde est effectivement terminée. En cas d’échec de la sauvegarde, vous pouvez annuler le processus de création en retournant un code de sortie différent de zéro dans le script/la commande exécuté (e). (consultez la documentation de la commande exit dans la [Windows référence de ligne de commande](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc754340(v=ws.11)).) Si la commande personnalisée retourne avec un code de sortie différent de zéro, la création de clichés instantanés est annulée et **IVssBackupComponents :: BackupComplete** n’est pas appelé.
 
  
 

@@ -8,12 +8,12 @@ keywords:
 - propriétés ADSI, enregistrer les valeurs actuelles des propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5965a46e5accd2a00adc006fe37511de13ff0df3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e732cefa2d09b92f4fefec2b56f5f2ac8a99f77b2c7720822173cfaa647d7c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023137"
 ---
 # <a name="the-setinfo-method"></a>Méthode SetInfo
 
@@ -23,9 +23,9 @@ La méthode [**IADs :: setinfo**](/windows/desktop/api/Iads/nf-iads-iads-setinf
 
 Au moment de l’appel de [**setinfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) , si des valeurs de cache de propriété ont été écrites [**avec un code de contrôle**](/windows/desktop/api/Iads/nf-iads-iads-putex) de point de contrôle d’état de la propriété, par exemple, \_ \_ la propriété ad Update ou ADS est \_ \_ désactivée, les demandes appropriées sont transmises au service d’annuaire sous-jacent.
 
- 
+ 
 
- 
+ 
 
 
 

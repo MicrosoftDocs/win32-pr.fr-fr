@@ -3,7 +3,7 @@ title: Élément HTMLView
 description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. L’élément HTMLView spécifie l’URL de base d’une page Web HTMLView.
 ms.assetid: 741db1ed-9452-4cae-9185-15668abe06b3
 keywords:
-- Élément HTMLView lecteur Windows Media
+- élément HTMLView Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f11a60e41b7f78be3440e16a7d2b3934f75e8ee3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 703668427757df19675734e1503296a8a7144517801d0e8fdc0fadb25a16b0a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054887"
 ---
 # <a name="htmlview-element"></a>Élément HTMLView
 
@@ -42,7 +42,7 @@ L’élément **HTMLView** spécifie l’URL de base d’une page Web HTMLView.
 <span id="BaseURL__required_"></span><span id="baseurl__required_"></span><span id="BASEURL__REQUIRED_"></span>**BaseURL** (obligatoire)
 </dt> <dd>
 
-URL de base de la page Web HTMLView affichée par le lecteur Windows Media.
+URL de Base de la page web HTMLView que Lecteur Windows Media affiche.
 
 </dd> </dl>
 
@@ -53,15 +53,15 @@ URL de base de la page Web HTMLView affichée par le lecteur Windows Media.
 | Hierarchy       | Élément         |
 |-----------------|-----------------|
 | Éléments parents | **ServiceInfo** |
-| Éléments enfants  | Aucune            |
+| Éléments enfants  | None            |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser cet élément pour intégrer la fonctionnalité HTMLView à votre magasin en ligne. Si le domaine de l’URL spécifiée par le magasin en ligne actuel correspond à celui de la page Web HTMLView, le commutateur à **présent** se produit sans intervention de l’utilisateur et le contenu de HTMLView est affiché. Dans le cas contraire, le lecteur Windows Media demande à l’utilisateur l’autorisation d’afficher le contenu HTMLView.
+Vous pouvez utiliser cet élément pour intégrer la fonctionnalité HTMLView à votre magasin en ligne. Si le domaine de l’URL spécifiée par le magasin en ligne actuel correspond à celui de la page Web HTMLView, le commutateur à **présent** se produit sans intervention de l’utilisateur et le contenu de HTMLView est affiché. dans le cas contraire, Lecteur Windows Media demande à l’utilisateur l’autorisation d’afficher le contenu HTMLView.
 
 Par exemple, si l’URL de la page Web HTMLView est https://www.proseware.com/html/HTMLView.htm et que l’URL de l’attribut **BaseURL** est spécifiée en tant que https://www.proseware.com , la page Web HTMLView s’affiche sans demander confirmation à l’utilisateur.
 
@@ -79,7 +79,7 @@ Par exemple, si l’URL de la page Web HTMLView est https://www.proseware.com/ht
 
 <dl> <dt>
 
-[**Affichage des pages Web dans le lecteur Windows Media**](displaying-web-pages-in-windows-media-player.md)
+[**affichage des Pages Web dans les Lecteur Windows Media**](displaying-web-pages-in-windows-media-player.md)
 </dt> <dt>
 
 [**Exemple de document ServiceInfo pour une boutique en ligne de type 1**](example-serviceinfo-document-for-a-type-1-online-store.md)

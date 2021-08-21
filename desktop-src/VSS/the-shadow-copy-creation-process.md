@@ -4,12 +4,12 @@ ms.assetid: ca484eec-31c6-4790-9232-3ed67263f6fb
 title: Processus de création de clichés instantanés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4239e2b671edcaeb35b404d9b9411b43316c0212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dae0d0cff8e4afdbecb5c61a934be1a9c9b731cbdbee8778afd714f6802ca2ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056357"
 ---
 # <a name="the-shadow-copy-creation-process"></a>Processus de création de clichés instantanés
 
@@ -42,9 +42,9 @@ Après l’importation, le cliché instantané est accessible via la méthode [*
 
 ### <a name="transportable-shadow-copies-on-a-san"></a>Clichés instantanés transportables sur un réseau SAN
 
-À compter de Windows Server 2003, Datacenter Edition et Windows Server 2003, Enterprise Edition, VSS active les jeux de clichés instantanés transportables sur un réseau SAN. Du point de vue d’un fournisseur qui peut transporter des numéros d’unités logiques entre les ordinateurs hôtes, il y a peu ou pas de différence entre un ensemble non transportable et un jeu de clichés instantanés transportables.
+à partir de Windows server 2003, Datacenter Edition et Windows server 2003, Êdition Entreprise, VSS active les jeux de clichés instantanés transportables sur un réseau SAN. Du point de vue d’un fournisseur qui peut transporter des numéros d’unités logiques entre les ordinateurs hôtes, il y a peu ou pas de différence entre un ensemble non transportable et un jeu de clichés instantanés transportables.
 
-**Windows server 2003, Standard Edition, Windows server 2003, Web Edition et Windows XP :** Les jeux de clichés instantanés transportables ne sont pas pris en charge. Toutes les éditions de Windows Server 2003 avec Service Pack 1 (SP1) prennent en charge les jeux de clichés instantanés transportables.
+**Windows server 2003, Édition Standard, Windows server 2003, Web Edition et Windows XP :** Les jeux de clichés instantanés transportables ne sont pas pris en charge. toutes les éditions de Windows Server 2003 avec Service Pack 1 (SP1) prennent en charge les jeux de clichés instantanés transportables.
 
 Les jeux de clichés instantanés transportables doivent être créés à l’aide de l’attribut transportable de l’attribut **\_ \_ \_ transportable** [**de l’environnement \_ \_ \_ \_**](/windows/desktop/api/Vss/ne-vss-vss_volume_snapshot_attributes) VSS Tous les volumes de l’ensemble doivent être transportables. En retournant la réussite de [**IVssHardwareSnapshotProvider :: AreLunsSupported**](/windows/desktop/api/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported), le fournisseur indique que non seulement il prend en charge le numéro d’unité logique, mais également qu’il peut transporter le numéro d’unité logique. La création d’un jeu de clichés instantanés transportables se termine lorsque le service VSS enregistre les informations sur le numéro d’unité logique dans le document des composants de sauvegarde. Un jeu de clichés instantanés ne peut être importé qu’une seule fois après la création initiale.
 

@@ -4,12 +4,12 @@ ms.assetid: 7634bd05-fca0-4538-94da-7af6e3d8e6b8
 title: 'Exemple de programme C : encodage et décodage de données'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b694bcb9836dfa750940ef75d41ba703251ee190
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45c5840711fbbf71badd6bc50dec7cc154a7c8bf9bf7caaacc4fa9b5d9b00f7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007697"
 ---
 # <a name="example-c-program-encoding-and-decoding-data"></a>Exemple de programme C : encodage et décodage de données
 

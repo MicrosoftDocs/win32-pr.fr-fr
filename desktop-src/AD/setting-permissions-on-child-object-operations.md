@@ -8,12 +8,12 @@ keywords:
 - objets AD, Child, définition d’autorisations sur les opérations d’objets enfants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d407e9b0db865c5df8d5dab53bd97f9f1afa1497
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 1f136119d5e61ea312748d5cd64cabb8c0aee0b651d8b192519dc2d74e2045cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104101420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024767"
 ---
 # <a name="setting-permissions-on-child-object-operations"></a>Définition des autorisations sur les opérations sur les objets enfants
 
@@ -31,6 +31,6 @@ Pour plus d’informations et pour connaître la procédure de création d’une
 
 Pour plus d’informations et pour obtenir un exemple de code qui peut être utilisé pour définir une entrée de contrôle d’accès qui contrôle les opérations d’objets enfants, consultez [l’exemple de code pour la définition d’une entrée du contrôle d’accès sur un objet d’annuaire](example-code-for-setting-an-ace-on-a-directory-object.md).
 
- 
+ 
 
- 
+ 
