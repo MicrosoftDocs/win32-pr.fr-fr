@@ -3,7 +3,7 @@ title: AmbientAttributes. bas
 description: L’attribut Bottom spécifie ou récupère la coordonnée inférieure du contrôle.
 ms.assetid: a07af5b0-154d-4c3f-be8b-39aeb52a6f1e
 keywords:
-- AmbientAttributes. Bottom Windows Media Player
+- AmbientAttributes. bottom Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed707dbd821119963a46c5ac9a8301c20f4d39e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 244688d8263d08573fdfcdf322e09008ae5cd79eb5815511c5cd913d9179b8d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055197"
 ---
 # <a name="ambientattributesbottom"></a>AmbientAttributes. bas
 

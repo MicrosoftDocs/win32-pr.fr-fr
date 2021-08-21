@@ -4,12 +4,12 @@ ms.assetid: f2b89578-22f5-4b3b-bc43-7cf4f7eb5f0e
 title: EC_LENGTH_CHANGED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30936dee7af1f89ea9d99dd011566bdf297339ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0e4182c143ba729093a052c450b7b09ca4d3f446141d8d8ee35f0cf3f03bcf5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015947"
 ---
 # <a name="ec_length_changed"></a>longueur des EC \_ \_ modifiés
 
@@ -35,7 +35,7 @@ Zéro.
 
 ## <a name="default-action"></a>Action par défaut
 
-Le gestionnaire de graphique de filtre stocke la nouvelle heure d’arrêt.
+le gestionnaire de Graph de filtre stocke la nouvelle heure d’arrêt.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -54,7 +54,7 @@ Le gestionnaire de graphique de filtre stocke la nouvelle heure d’arrêt.
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

@@ -9,21 +9,21 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7e1b4746d2e559b567adb4cbd2305ea474b03129
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29c7399fb4bda82ffce234379d51c4cd7ceb17a281f82f3e13db8b45c6b0a449
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032187"
 ---
 # <a name="shell-library-backup-sample"></a>Sauvegarde de bibliothèque Shell, exemple
 
-Montre comment énumérer les bibliothèques en tant que conteneurs. Les bibliothèques sont le nouveau paradigme de stockage pour les fichiers utilisateur et sont introduits dans Windows 7.
+Montre comment énumérer les bibliothèques en tant que conteneurs. les bibliothèques sont le nouveau paradigme de stockage pour les fichiers utilisateur et sont introduites dans Windows 7.
 
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -32,7 +32,7 @@ Cette rubrique contient les sections suivantes.
 
 Cet exemple est une application de sauvegarde fictive qui montre comment sélectionner des bibliothèques dans la boîte de dialogue de fichier commune. Il montre également comment sauvegarder des bibliothèques à l’aide de l’Explorateur d’espaces de noms Shell.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -15,18 +15,18 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b010e8f0fdce67f16750d0f66d1cf272c8ddb849
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 876fbb5e666680e85854196fb9136bfd4d765d6eecf8f16bf6101bb321a7039a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531286"
 ---
 # <a name="cd3dx12_default-structure"></a>CD3DX12, \_ structure par défaut
 
 Passe D3D12 \_ par défaut dans un constructeur pour chaque structure d’assistance. Cette structure est simplement utilisée comme un mécanisme pour définir des paramètres par défaut sur les autres structures d’assistance.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce struct est déclaré comme suit :
 

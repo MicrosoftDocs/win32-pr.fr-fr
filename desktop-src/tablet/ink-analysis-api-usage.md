@@ -1,25 +1,25 @@
 ---
-description: 'Il y a quatre couches dans la bibliothèque d’analyse d’encre : Windows Forms, WPF, COM et la couche de base. Cette section explique quand utiliser chaque couche.'
+description: 'il y a quatre couches dans la bibliothèque d’analyse d’encre : Windows Forms, WPF, COM et la couche de base. Cette section explique quand utiliser chaque couche.'
 ms.assetid: bd190606-5bd8-4280-ba2b-267588904ed3
 title: Utilisation de l’API analyse de l’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24e291066d6cfd6ecdec319728b7394d730ba311
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdfada58868c7fe959f832e0c1243bc91a373fb0186d8deee2f9481d78a95714
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032347"
 ---
 # <a name="ink-analysis-api-usage"></a>Utilisation de l’API analyse de l’encre
 
-Il y a quatre couches dans la bibliothèque d’analyse d’encre : Windows Forms, WPF, COM et la couche de base. Cette section explique quand utiliser chaque couche.
+il y a quatre couches dans la bibliothèque d’analyse d’encre : Windows Forms, WPF, COM et la couche de base. Cette section explique quand utiliser chaque couche.
 
 ## <a name="ink-analysis-api-overview"></a>Vue d’ensemble de l’API d’analyse d’encre
 
 Les bibliothèques d’analyse de l’encre sont conçues pour être utilisées dans un large éventail d’environnements de programmation pris en charge. Il existe quatre couches de base par lesquelles votre application peut utiliser l’analyse de l’encre. Ces couches sont les suivantes :
 
--   Couche Windows Forms
+-   couche Windows Forms
 -   Couche WPF
 -   Couche COM
 -   Couche de base
@@ -31,13 +31,13 @@ Vous pouvez utiliser l’API d’analyse d’encre dans votre projet managé en 
 -   Microsoft. Ink. Analysis (Microsoft.Ink.Analysis.dll)
 -   Bibliothèque d’analyse de documents manuscrits (IACore.dll)
 
-Dans Windows Forms applications, vous utiliserez très probablement les bibliothèques conjointement avec les objets de plateforme Tablet PC standard qui se trouvent dans l’assembly v 1.7 de l’API Microsoft Tablet PC. Vérifiez que vous avez également une référence à :
+dans Windows Forms applications, vous utiliserez très probablement les bibliothèques conjointement avec les objets de plateforme tablet pc standard qui se trouvent dans l’assembly v 1.7 de l’API Microsoft tablet pc. Vérifiez que vous avez également une référence à :
 
 -   API Microsoft Tablet PC v 1.7.2600.2180 (Microsoft.Ink.dll)
 
-### <a name="windows-presentation-framework-applications"></a>Applications Windows Presentation Framework
+### <a name="windows-presentation-framework-applications"></a>Windows Applications de l’infrastructure de présentation
 
-Vous pouvez utiliser l’API d’analyse d’encre dans votre projet WPF en ajoutant une référence aux membres de l’analyse d’encre qui sont définis dans l’espace de noms System. Windows. Ink dans l’assembly IAWinFX.dll. Cet assembly est installé par le kit de développement logiciel (SDK).
+Vous pouvez utiliser l’API d’analyse d’encre dans votre projet WPF en ajoutant une référence aux membres de l’analyse d’encre qui sont définis dans le système. Windows. Espace de noms Ink dans l’assembly IAWinFX.dll. Cet assembly est installé par le kit de développement logiciel (SDK).
 
 ### <a name="com-applications"></a>Applications COM
 
@@ -49,7 +49,7 @@ Vous devez \# inclure « IACom. h ». Vous utiliserez très probablement les b
 
 ### <a name="rts-and-other-applications"></a>RTS et d’autres applications
 
-La couche de base de l’analyse d’encre fonctionne différemment des autres en ce sens qu’elle prend des données de point pour l’analyse plutôt que des objets [Stroke](/previous-versions/ms552692(v=vs.100)) . Parmi les exemples d’utilisation directe de la couche de base plutôt que d’utiliser les couches Windows Forms ou COM, citons les applications qui n’utilisent pas les objets Ink de plateforme Tablet PC de première génération, ou les applications qui utilisent les API [**RealTimeStylus**](realtimestylus-class.md) pour gérer l’entrée de stylet au lieu d’utiliser les objets [Ink](/previous-versions/ms583670(v=vs.100)) de plateforme Tablet PC.
+La couche de base de l’analyse d’encre fonctionne différemment des autres en ce sens qu’elle prend des données de point pour l’analyse plutôt que des objets [Stroke](/previous-versions/ms552692(v=vs.100)) . des exemples d’utilisation directe de la couche de Base plutôt que d’utiliser les Windows des formes ou des couches COM sont des applications qui n’utilisent pas d’objets ink de plateforme tablet pc de première génération, ou des applications qui utilisent les api [**RealTimeStylus**](realtimestylus-class.md) pour gérer l’entrée de stylet au lieu d’utiliser les objets [ink](/previous-versions/ms583670(v=vs.100)) de plateforme tablet pc.
 
 ## <a name="32-bit-support-only"></a>32 bits pris en charge uniquement
 

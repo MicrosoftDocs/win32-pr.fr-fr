@@ -4,12 +4,12 @@ ms.assetid: 435034e1-d90c-4bad-8758-8a627d88875f
 title: Mappeur de répartition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ed0a3a6cbc906861f5e95694bfd75aec6f5791f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0880228ab608abe5f599d58bb47d211d1458dd49636a9bdc992f31dfa26c028
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118866683"
 ---
 # <a name="dispatch-mapper"></a>Mappeur de répartition
 

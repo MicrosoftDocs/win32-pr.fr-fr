@@ -4,12 +4,12 @@ ms.assetid: 736715f4-c610-42cc-9fbb-c2b579da69e5
 title: InkEdit. geste, événement (Y2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a61f4fce033672fde8cc4d74dced727fe60b7f97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a718106f4485682a1b6267f942ec3ef0f5a9fb670449e1f6023d86a5b03af56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032077"
 ---
 # <a name="inkeditgesture-event"></a>InkEdit. geste (événement)
 
@@ -67,7 +67,7 @@ Si la collection [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293
 
 Si cet événement a la valeur, il retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode d’événement est définie dans l’interface **\_ IInkEditEvents** . L’interface **\_ IInkEditEvents** implémente l’interface IDispatch avec un identificateur de DISPID \_ IeeGesture.
 
@@ -108,7 +108,7 @@ Pour modifier l’action par défaut pour un mouvement :
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>« Y2. h » (nécessite également l' \_ entrée i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

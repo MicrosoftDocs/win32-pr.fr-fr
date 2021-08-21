@@ -4,12 +4,12 @@ ms.assetid: 3894d9fa-2bf7-447a-bac3-e72a0fdb7187
 title: JobDeviceLanguage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b7bf56018a2b395ec5aa182336a89d8872057e7
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5e71d45f013b90c733f4e7116c65de451b0735c894cb166a1d3a84497457a1c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034147"
 ---
 # <a name="jobdevicelanguage"></a>JobDeviceLanguage
 
@@ -25,9 +25,9 @@ Décrit les langues de l’appareil prises en charge pour l’envoi de données 
 
 
 
-| Nom | Valeur |
+| Name | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/> |
+| Type d'élément <br/>   | Caractéristique<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |
 | Notes <br/>          | Aucun<br/>    |
 
@@ -68,7 +68,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Nom                                 | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Résumé                                                                      |
+| Name                                 | Type de données         | Unité                  | Valeurs prises en charge                                                                                                                                                                      | Récapitulatif                                                                      |
 |--------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | \_OptionName\_<br/>            | string<br/> | caractères<br/> | Nom complet valide tel que défini par les [espaces de noms dans XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). Si aucun espace de noms n’est spécifié, l’espace de noms par défaut est utilisé.<br/> | Nom de l'option.<br/>                                           |
 | \_IdentityOptionValue\_<br/>   | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Définit une option qui, lorsqu’elle est sélectionnée, désactive cette fonctionnalité.<br/> |

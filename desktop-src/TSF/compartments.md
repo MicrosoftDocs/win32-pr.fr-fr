@@ -20,12 +20,12 @@ keywords:
 - notifications de modification de compartiment
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76636c684ee74f7e452b5602ebfd59d6d1947b0f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 92ff74cf3c98f99aa2462da8c0bfe1505b555b879f4d4e38f51e57ccc239a78f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118879836"
 ---
 # <a name="compartments"></a>Compartiments
 
@@ -97,9 +97,9 @@ Lorsque la valeur d’un compartiment change, le gestionnaire TSF avertit tous l
 [**ITfCompartmentEventSink :: OnChange**](/windows/desktop/api/Msctf/nf-msctf-itfcompartmenteventsink-onchange)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

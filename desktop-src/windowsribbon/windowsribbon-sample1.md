@@ -4,12 +4,12 @@ description: cet exemple de code montre comment implémenter une application Win
 ms.assetid: 9196ae63-ca9e-43ae-8b4c-a30f1ef700f0
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: b2a7ab939239bd3c0017dfeeeab1487bcb1dce26
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 33e257114a4b6da2ed8888f2b80c0eaaabb2584ad3ddb293256ded27a44afb73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028527"
 ---
 # <a name="simpleribbon-sample"></a>Exemple SimpleRibbon
 

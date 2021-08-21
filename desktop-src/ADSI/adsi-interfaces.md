@@ -9,12 +9,12 @@ keywords:
 - interfaces ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2930292defa99301fb74f37c933a9af24b73f1fd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c75463a2b9ce70013482d2abee4f21ff786e7914cff0fefe691c562c4f39edb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023817"
 ---
 # <a name="adsi-interfaces"></a>Interfaces ADSI
 
@@ -31,9 +31,9 @@ Les interfaces de service Active Directory (ADSI) prennent en charge un ensemble
 -   [Utilitaire](utility-interfaces.md). Ces interfaces fournissent des fonctions d’assistance avancées pour la gestion des objets ADSI.
 -   [Type de données](data-type-interfaces.md). Ces interfaces fournissent des méthodes pour accéder aux types de données ADSI.
 
- 
+ 
 
- 
+ 
 
 
 

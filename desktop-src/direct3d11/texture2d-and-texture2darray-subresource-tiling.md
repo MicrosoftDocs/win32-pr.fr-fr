@@ -4,12 +4,12 @@ description: Ces tableaux montrent comment les sous-ressources Texture2D et Text
 ms.assetid: 3CFA384D-2C49-4BB2-9A92-FC45B1A499B5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18a7ded22fcb7e7e476a701c7db3063dfae33fda
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 55ee7cc181845785ab978dc5d58b1e131a7f32c34a6d04006af1ac8034f089ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530434"
 ---
 # <a name="texture2d-and-texture2darray-subresource-tiling"></a>Restitution des sous-ressources Texture2D et Texture2DArray sous forme de mosaïque
 
@@ -31,7 +31,7 @@ Ce tableau montre comment les sous-ressources [**Texture2D**](/windows/desktop/d
 
 
 
- 
+ 
 
 Les nombres de bits de format non pris en charge avec les ressources en mosaïque sont les formats 96 BPP, les formats vidéo, le \_ format dxgi \_ R1 \_ UNORM, le \_ format dxgi \_ R8G8 B8G8 UNORM et le \_ \_ format dxgi \_ \_ \_ \_ R8R8 G8B8 UNORM.
 
@@ -49,7 +49,7 @@ Ce tableau montre comment les sous-ressources [**Texture2D**](/windows/desktop/d
 
 
 
- 
+ 
 
 Seuls les nombres d’échantillons 1 et 4 sont requis (et autorisés) pour être pris en charge avec les ressources en mosaïque. Les ressources en mosaïque ne prennent pas en charge 2, 8 et 16, même si elles sont affichées.
 
@@ -64,6 +64,6 @@ Les ressources en mosaïque avec des nombres d’échantillons supérieurs à 1 
 [Mode de mosaïque de la zone d’une ressource en mosaïque](how-a-tiled-resource-s-area-is-tiled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

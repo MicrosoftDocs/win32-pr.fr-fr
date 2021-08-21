@@ -9,12 +9,12 @@ keywords:
 - Active Directory de schéma, interrogation des objets de schéma de catégorie 1 ou 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c67b57821cbebc80b3b6e93d158bbb8af8f7103
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 7f934ba0401c7d782706e1e853819ba935c1315a267c668614878ec41045f63b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104314621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025347"
 ---
 # <a name="querying-for-category-1-or-2-schema-objects"></a>Interrogation des objets de schéma de catégorie 1 ou 2
 
@@ -48,6 +48,6 @@ La chaîne de requête suivante recherche les attributs de catégorie 2 (objets 
 
 Sachez que cette requête retourne également des objets **attributeSchema** qui n’ont pas de propriété **systemFlags** et, par conséquent, n’ont pas l’indicateur spécifié défini.
 
- 
+ 
 
- 
+ 

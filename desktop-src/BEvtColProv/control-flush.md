@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - BEvtCol.exe
-ms.openlocfilehash: 14af77fcef729bff392c211d05fa342fac448bc8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 50b3ca42c9cb65b86efbed40acad367191ac589bb5a3a93e5bbcb84d5f92b1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579769"
 ---
 # <a name="flush-method-of-the-control-class"></a>Méthode Flush de la classe Control
 
@@ -48,9 +48,9 @@ Cette méthode ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                          |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                       |
-| Espace de noms<br/>                | Racine \\ Microsoft \\ Windows \\ BootEventCollector<br/>                                              |
+| Espace de noms<br/>                | racine \\ Microsoft \\ Windows \\ BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
 

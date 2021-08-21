@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9622e962f130a082a5c1206367f4850cebb6ce02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 94a2169d9938a8c2ff8a1961eee0895fefd7cc8a2dd487a4193d8053d27d98ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955448"
 ---
 # <a name="cammsgeventwaitmsg-method"></a>Méthode CAMMsgEvent. WaitMsg
 
@@ -53,7 +53,7 @@ Valeur de délai d’attente facultative, en millisecondes.
 
 Retourne la **valeur true** si l’événement est signalé, ou **false** si le délai d’attente a expiré.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle la fonction PeekMessage pour traiter les messages. Appelez cette méthode à la place de [**CAMEvent :: wait**](camevent-wait.md) si votre thread doit traiter des messages en attendant un événement. Si le thread ne traite pas les messages et qu’un autre thread envoie un message, un interblocage peut se produire.
 
@@ -65,7 +65,7 @@ Par exemple, supposons que vous créez un thread, puis que vous bloquiez jusqu�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

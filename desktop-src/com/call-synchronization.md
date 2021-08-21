@@ -4,12 +4,12 @@ description: Synchronisation des appels
 ms.assetid: e74407ef-f500-4d13-aef4-ca6bb37d5858
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9254aceaaa8a6fa26d56d4a86987cc955b90dc
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9969c968294a3dfdbfbc4cb78d40e64ad65c17392bf3b9fd09fc7a5f99b9049b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048737"
 ---
 # <a name="call-synchronization"></a>Synchronisation des appels
 
@@ -40,7 +40,7 @@ Lors de l’envoi de notifications asynchrones, l’appelant n’attend pas la r
 > [!Note]  
 > Alors que COM traite un appel asynchrone, les appels synchrones ne peuvent pas être effectués. Par exemple, l’implémentation d’une application conteneur de [**OnDataChange**](/windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-ondatachange) ne peut pas contenir un appel à [**IPersistStorage :: Save**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-save). Ces appels sont les seuls appels asynchrones pris en charge par COM. Il n’existe aucun moyen de créer une interface personnalisée qui est asynchrone à ce stade.
 
- 
+ 
 
 </dd> <dt>
 
@@ -66,6 +66,6 @@ Pour réduire les problèmes qui peuvent survenir à partir du traitement des me
 
 COM gère les appels de méthode en assignant un identificateur appelé *ID de thread logique*. Une nouvelle est affectée lorsqu’un utilisateur sélectionne une commande de menu ou lorsque l’application lance une nouvelle opération COM. Les appels suivants liés à l’appel COM initial reçoivent le même ID de thread logique que l’appel initial.
 
- 
+ 
 
- 
+ 

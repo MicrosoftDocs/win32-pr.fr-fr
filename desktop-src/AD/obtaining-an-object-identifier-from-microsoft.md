@@ -7,12 +7,12 @@ keywords:
 - Obtention d’un identificateur d’objet de Microsoft
 ms.topic: article
 ms.date: 02/19/2021
-ms.openlocfilehash: 3daa03798afe8e887e8a33a2fde6bd04ddb5b7cb
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6eceb154d6f8a11b2322e4ad573b5db7d390db8d9d22cdcdedbe1b3423bb3cda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104530448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025547"
 ---
 # <a name="obtaining-an-object-identifier-from-microsoft"></a>Obtention d’un identificateur d’objet de Microsoft
 

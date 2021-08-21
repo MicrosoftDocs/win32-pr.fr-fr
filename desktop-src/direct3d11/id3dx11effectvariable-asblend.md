@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f7e3d09a1299d00482e9a5cfbb75f563d4bba5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3fd9f6f76c0e3aa46e176b2f35960196fcc73eb021d4e5a250be4a5b245a5ca4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531601"
 ---
 # <a name="id3dx11effectvariableasblend-method"></a>ID3DX11EffectVariable :: AsBlend, méthode
 
@@ -47,7 +47,7 @@ Type : **[ **ID3DX11EffectBlendVariable**](id3dx11effectblendvariable.md)\***
 
 Pointeur vers une variable d’effet de fusion. Consultez [**ID3DX11EffectBlendVariable**](id3dx11effectblendvariable.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 AsBlend retourne une version de la variable Effect qui a été spécialisée pour une variable Effect-Blend. Comme pour un cast, cette spécialisation retourne un objet non valide si la variable Effect ne contient pas de données Effect-Blend.
 
@@ -58,7 +58,7 @@ Les applications peuvent tester la validité de l’objet retourné en appelant 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -7,12 +7,12 @@ keywords:
 - Contrôle de version et stratégies de secours AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45f6383ad06e73457e18dddfac53295a0c16389c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b55226efcd72cec4f6dbe65447a945733dac88a56b976661bcf24564c9b366ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024411"
 ---
 # <a name="versioning-and-fallback-strategies"></a>Contrôle de version et stratégies de secours
 
@@ -20,9 +20,9 @@ Quand une application détecte une mise à jour partielle à l’aide de l’une
 
 Les implémentations doivent veiller à éviter des conséquences inattendues. Une version antérieure d’objets doit être utilisée uniquement lorsqu’une mise à jour partielle est détectée ou que les nouveaux objets ne sont pas encore « effectifs ». En arrière-plan, car un événement de l’application « ne fonctionne pas » peut contourner l’intention d’un administrateur. Par exemple, deux ordinateurs qui pouvaient auparavant communiquer peuvent se trouver incapables de le faire en raison d’une modification de la stratégie IPsec (Internet Protocol Security). Si cela est intentionnel pour la part de l’administrateur, les systèmes affectés ne doivent pas revenir à la stratégie qui leur a permis de communiquer, car il s’agit d’une violation de la sécurité.
 
- 
+ 
 
- 
+ 
 
 
 

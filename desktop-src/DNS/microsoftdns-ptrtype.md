@@ -18,12 +18,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65dc434eb751ed925ab9efcdaf29f04741b749ea
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a5c78cf945ff58071930e5e65fec08f075ddb9337977e6cd5575853e9c437a73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076753"
 ---
 # <a name="microsoftdns_ptrtype-class"></a>MicrosoftDNS \_ PTRType, classe
 

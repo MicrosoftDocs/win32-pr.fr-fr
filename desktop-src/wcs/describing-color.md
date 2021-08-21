@@ -3,8 +3,8 @@ title: Description de la couleur
 description: La couleur peut être décrite en termes de composants.
 ms.assetid: 441d4f8d-57ef-4ecb-90b4-9d7d0e804ea2
 keywords:
-- Windows Color System (WCS), composants de couleur
-- WCS (système de couleurs Windows), composants de couleur
+- Windows Système de couleurs (WCS), composants de couleur
+- WCS (Windows color System), composants de couleur
 - gestion des couleurs des images, composants de couleur
 - gestion des couleurs, composants de couleur
 - couleurs, composants
@@ -18,12 +18,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1137f2c75091dd62ac8f8a9e8d0a371146e621ee
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: ebad23d619c4fbe0c03f9e4278b734fd6fbd8e6f43feb68e1337354d36619ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106538409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028777"
 ---
 # <a name="describing-color"></a>Description de la couleur
 

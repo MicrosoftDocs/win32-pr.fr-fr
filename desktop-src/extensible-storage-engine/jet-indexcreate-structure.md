@@ -17,19 +17,19 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4c465d81dce628497b1b9210fb08b37a3003e2e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf34f8552b23f37f2d5cd032f2d25aa49f8b9a1af972db97fab8270dc6d9cf79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039067"
 ---
 # <a name="jet_indexcreate-structure"></a>Structure JET_INDEXCREATE
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-La structure **JET_INDEXCREATE** contient les informations nécessaires à la création d’un index sur des données dans une base de données ESE (Extensible Storage Engine). La structure est utilisée par des fonctions telles que [JetCreateIndex2](./jetcreateindex2-function.md)et dans des structures telles que [JET_TABLECREATE](./jet-tablecreate-structure.md) et [JET_TABLECREATE2](./jet-tablecreate2-structure.md).
+la structure **JET_INDEXCREATE** contient les informations nécessaires à la création d’un index sur des données dans une base de données ESE (Extensible Stockage Engine). La structure est utilisée par des fonctions telles que [JetCreateIndex2](./jetcreateindex2-function.md)et dans des structures telles que [JET_TABLECREATE](./jet-tablecreate-structure.md) et [JET_TABLECREATE2](./jet-tablecreate2-structure.md).
 
 ``` c++
 typedef struct tagJET_INDEXCREATE {
@@ -172,17 +172,17 @@ Groupe de bits qui comprend zéro, une ou plusieurs des valeurs énumérées dan
 <tr class="odd">
 <td><p>JET_bitIndexKeyMost 0x00008000</p></td>
 <td><p>La spécification de cet indicateur entraîne l’utilisation par l’index de la taille de clé maximale spécifiée dans le champ <strong>cbKeyMost</strong> de la structure. Dans le cas contraire, l’index utilise JET_cbKeyMost (255) comme taille de clé maximale.</p>
-<p>JET_bitIndexKeyMost a été introduit dans Windows Vista.</p></td>
+<p>JET_bitIndexKeyMost a été introduite dans Windows Vista.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_bitIndexDisallowTruncation 0x00010000</p></td>
 <td><p>Si vous spécifiez cet indicateur, toute mise à jour de l’index entraînant l’échec d’une clé tronquée avec JET_errKeyTruncated. Dans le cas contraire, les clés sont tronquées en mode silencieux. Pour plus d’informations sur la troncation de clé, consultez la fonction <a href="gg269329(v=exchg.10).md">JetMakeKey</a> .</p>
-<p><strong>Windows Vista : JET_bitIndexDisallowTruncation</strong> est introduite dans Windows Vista.</p></td>
+<p><strong>Windows vista : JET_bitIndexDisallowTruncation</strong> est introduite dans Windows vista.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_bitIndexNestedTable 0x00020000</p></td>
 <td><p>La spécification de cet indicateur entraîne la mise à jour de l’index sur plusieurs colonnes à valeurs multiples, mais uniquement avec les valeurs du même <strong>itagSequence</strong>.</p>
-<p>JET_bitIndexNestedTable a été introduit dans Windows Vista.</p></td>
+<p>JET_bitIndexNestedTable a été introduite dans Windows Vista.</p></td>
 </tr>
 </tbody>
 </table>
@@ -214,7 +214,7 @@ Si vous spécifiez la valeur 0 (zéro) pour ce champ, cela équivaut à :
 
 Pointeur vers une structure [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) si la valeur JET_bitIndexTupleLimits est spécifiée dans le paramètre *Grbit* .
 
-ptuplelimits a été introduit dans Windows Server 2003.
+ptuplelimits a été introduite dans Windows Server 2003.
 
 **rgconditionalcolumn**
 
@@ -246,9 +246,9 @@ La taille de clé maximale prise en charge pour l’instance peut également êt
 
 **cbKeyMost** a été introduit dans Windows Vista.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
-Le moteur ESE prend en charge l’indexation sur des colonnes clés contenant plusieurs valeurs. Pour utiliser cette fonctionnalité, la colonne doit être un type de colonne avec balises (JET_bitColumnTagged), et elle doit être marquée pour que ses multiples valeurs soient indexées avec JET_bitColumnMultiValued. Dans les versions de Windows antérieures à Windows Vista, seule la première colonne clé à valeurs multiples de l’index aura ses valeurs développées dans l’index. Toutes les autres colonnes à valeurs multiples et balises auront uniquement leurs premières valeurs développées dans l’index.
+Le moteur ESE prend en charge l’indexation sur des colonnes clés contenant plusieurs valeurs. Pour utiliser cette fonctionnalité, la colonne doit être un type de colonne avec balises (JET_bitColumnTagged), et elle doit être marquée pour que ses multiples valeurs soient indexées avec JET_bitColumnMultiValued. dans les versions de Windows antérieures à Windows Vista, seule la première colonne clé à valeurs multiples de l’index aura ses valeurs développées dans l’index. Toutes les autres colonnes à valeurs multiples et balises auront uniquement leurs premières valeurs développées dans l’index.
 
 En supposant que les lignes suivantes existent dans une table (la colonne alpha n’est pas à valeurs multiples, tandis que les colonnes Beta, gamma et Delta sont à valeurs multiples) et qu’un index est créé en tant que « + alpha \\ 0 + bêta \\ 0 + gamma \\ 0 + Delta \\ 0 \\ 0 » :
 
@@ -275,7 +275,7 @@ GHI<br />
 JKL</p></td>
 <td><p>MNO<br />
 PQR<br />
-TT2</p></td>
+STU</p></td>
 <td><p>VWX<br />
 YZ</p></td>
 </tr>
@@ -283,7 +283,7 @@ YZ</p></td>
 <td><p>2</p></td>
 <td><p>LA</p></td>
 <td><p>PLUIE<br />
-Espagne</p></td>
+ESPAGNE</p></td>
 <td><p>IN<br />
 FAIT</p></td>
 </tr>
@@ -300,7 +300,7 @@ La chute des tuples d’index sera stockée :
 
 Notez que {2, l’Espagne, IN} n’est pas stocké, même si la colonne alpha de la deuxième ligne contient une seule valeur multivaleur.
 
-Dans les versions de Windows à partir de Windows Vista, toutes les colonnes à valeurs multiples peuvent être développées dans l’index en spécifiant JET_bitIndexCrossProduct.
+dans les versions de Windows à partir de Windows Vista, toutes les colonnes à valeurs multiples peuvent être développées dans l’index en spécifiant JET_bitIndexCrossProduct.
 
 ### <a name="requirements"></a>Configuration requise
 
@@ -312,11 +312,11 @@ Dans les versions de Windows à partir de Windows Vista, toutes les colonnes à 
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

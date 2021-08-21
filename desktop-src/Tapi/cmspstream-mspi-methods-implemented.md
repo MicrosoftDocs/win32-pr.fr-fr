@@ -4,12 +4,12 @@ ms.assetid: 184d74c7-a36e-47f5-8f11-9161cc03b627
 title: Méthodes CMSPStream MSPI implémentées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9b8e124bee945cc03f5b9dc773425c5aeff6bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5740b4e3927eed664b90ca3238b1fd4be8cfa1432fe5cd91d1753d19be95f2bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118868304"
 ---
 # <a name="cmspstream-mspi-methods-implemented"></a>Méthodes CMSPStream MSPI implémentées
 

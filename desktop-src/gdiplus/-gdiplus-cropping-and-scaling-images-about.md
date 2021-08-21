@@ -4,12 +4,12 @@ description: Vous pouvez utiliser la méthode DrawImage de la classe Graphics po
 ms.assetid: 81d20adc-0481-4b1b-80aa-ae218fdecd84
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b44a13b5cee632e6ceafe327f94eca48edd93dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9e69adb7f817c36b955ed313290cf0b762c279b4296e06ad52aa6175ff2c467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036837"
 ---
 # <a name="about-cropping-and-scaling-gdi-images"></a>À propos du rognage et de la mise à l’échelle d’images GDI+
 

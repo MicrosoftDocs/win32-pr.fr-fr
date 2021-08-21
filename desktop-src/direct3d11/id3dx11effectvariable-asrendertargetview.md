@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ca6270503ff786b3f4a319e3f068ba76acada7d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9a8b44b3ed67b6293d4b4add329eef532fdc44cb12cea9e84b1ddf43fb72cc05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104996320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118531420"
 ---
 # <a name="id3dx11effectvariableasrendertargetview-method"></a>ID3DX11EffectVariable :: AsRenderTargetView, méthode
 
@@ -47,7 +47,7 @@ Type : **[ **ID3DX11EffectRenderTargetViewVariable**](id3dx11effectrendertarget
 
 Pointeur vers une variable de vue de rendu-cible. Consultez [**ID3DX11EffectRenderTargetViewVariable**](id3dx11effectrendertargetviewvariable.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne une version de la variable Effect qui a été spécialisée pour une variable Render-Target-View. Comme pour un cast, cette spécialisation retourne un objet non valide si la variable Effect ne contient pas de données Render-Target-View.
 
@@ -58,7 +58,7 @@ Les applications peuvent tester la validité de l’objet retourné en appelant 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

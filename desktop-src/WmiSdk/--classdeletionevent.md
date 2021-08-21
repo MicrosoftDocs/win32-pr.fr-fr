@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 29242335edeffbdc44deebb3acacd5631fcc7b68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49058a74e8c1f451731ee74eda56ec540135482ac612631fc568da5ef18ccadc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568879"
 ---
 # <a name="__classdeletionevent-class"></a>\_\_ClassDeletionEvent, classe
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ ClassDeletionEvent** est dérivée de [**\_ \_ ClassOperationEvent**](--classoperationevent.md).
 

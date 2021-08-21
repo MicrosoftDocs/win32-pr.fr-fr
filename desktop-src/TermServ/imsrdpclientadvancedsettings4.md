@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7d840206a139e3c3272551eab6a187a7b18416e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2aaf0e09131264440fc1efaaad3291e110ea718312b042b232837cdff4722494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118855307"
 ---
 # <a name="imsrdpclientadvancedsettings4-interface"></a>Interface IMsRdpClientAdvancedSettings4
 
-Gère les paramètres client avancés. Dérive de l’interface [**IMsRdpClientAdvancedSettings3**](imsrdpclientadvancedsettings3.md) . Cette interface comprend des méthodes pour récupérer et définir des propriétés avancées (facultatives) pour le contrôle ActiveX Bureau à distance.
+Gère les paramètres client avancés. Dérive de l’interface [**IMsRdpClientAdvancedSettings3**](imsrdpclientadvancedsettings3.md) . cette interface comprend des méthodes pour récupérer et définir des propriétés avancées (facultatives) pour le contrôle ActiveX Bureau à distance.
 
 Pour obtenir une instance de cette interface, utilisez la propriété [**IMsTscAx :: AdvancedSettings**](imstscax-advancedsettings.md) pour obtenir un pointeur d’interface [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) . Appelez ensuite [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur le pointeur **IMsTscAdvancedSettings** et transmettez **IID \_ IMsRdpClientAdvancedSettings4** à **QueryInterface**.
 
@@ -49,7 +49,7 @@ L’interface **IMsRdpClientAdvancedSettings4** possède les propriétés suivan
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 
@@ -59,14 +59,14 @@ Cette interface a été étendue par les interfaces suivantes, chaque nouvelle i
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                         |
-| Serveur minimal pris en charge<br/> | Windows Server 2008, Windows Server 2008 avec SP1<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows serveur 2008, Windows server 2008 avec SP1<br/>                                     |
 | Bibliothèque de types<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID \_ IMsRdpClientAdvancedSettings4 est défini en tant que FBA7F64E-7345-4405-AE50-FA4A763DC0DE<br/> |

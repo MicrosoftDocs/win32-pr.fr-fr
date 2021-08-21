@@ -1,7 +1,7 @@
 ---
-description: La méthode Connect termine une connexion à la broche de sortie.
+description: la méthode Connecter effectue une connexion à la broche de sortie.
 ms.assetid: fb20ef5d-e00a-4154-a6da-25bef663c0e7
-title: CPullPin. Connect, méthode (Pullpin. h)
+title: CPullPin. méthode Connecter (Pullpin. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,14 +16,14 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 97e3b0b676e02dee0e3ebd82de9def56edc2ea28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 37240be1b732410d1e91974922f8ed7dc464b57b2596faa381c646a7513daf26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073503"
 ---
-# <a name="cpullpinconnect-method"></a>CPullPin. Connect, méthode
+# <a name="cpullpinconnect-method"></a>CPullPin. méthode Connecter
 
 La `Connect` méthode termine une connexion à la broche de sortie.
 
@@ -73,7 +73,7 @@ Retourne un **HRESULT**. Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                               | Description                                                                     |
 |-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                      | Opération réussie.<br/>                                                             |
+| <dl> <dt>**\_OK**</dt> </dl>                      | Réussite.<br/>                                                             |
 | <dl> <dt>**VFW \_ E \_ déjà \_ connecté**</dt> </dl> | La broche d’entrée est déjà connectée.<br/>                                  |
 | <dl> <dt>**E \_ NOinterface**</dt> </dl>             | La broche de sortie n’expose pas [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader).<br/> |
 
@@ -81,7 +81,7 @@ Retourne un **HRESULT**. Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode pendant le processus de connexion du code confidentiel d’entrée. Si la méthode échoue, le code PIN doit faire échouer la connexion.
 

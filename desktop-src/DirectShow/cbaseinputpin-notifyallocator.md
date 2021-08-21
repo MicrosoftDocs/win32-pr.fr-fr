@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c63e448d0cf2d287a441a4983f6a2e06bd9b8151
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 37bcd7d8d69f18dce98339a34a4641ddd2502e946e29a0097fe6c381f4af5c2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017007"
 ---
 # <a name="cbaseinputpinnotifyallocator-method"></a>Méthode CBaseInputPin. NotifyAllocator
 
@@ -57,11 +57,11 @@ Indicateur qui spécifie si les exemples de cet allocateur sont en lecture seule
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Au cours de la connexion de code confidentiel, la broche de sortie choisit un allocateur et appelle cette méthode pour notifier la broche d’entrée. La broche de sortie peut utiliser l’allocateur que la broche d’entrée a proposée dans la méthode [**IMemInputPin :: GetAllocator**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-getallocator) , ou elle peut fournir son propre allocateur.
 
@@ -71,7 +71,7 @@ Au cours de la connexion de code confidentiel, la broche de sortie choisit un al
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

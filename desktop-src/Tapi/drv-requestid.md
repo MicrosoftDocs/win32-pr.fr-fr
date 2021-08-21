@@ -4,12 +4,12 @@ ms.assetid: cef6a42a-2e40-4f65-8fab-79cfba143206
 title: DRV_REQUESTID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f9c0db093b06b263bcdc702ff14af7e308033f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e75e593ccbf2d9d8135fbb52762a83a539dc29f8ef9446735d0898d3437e37c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118866539"
 ---
 # <a name="drv_requestid"></a>DRV \_ REQUESTID
 

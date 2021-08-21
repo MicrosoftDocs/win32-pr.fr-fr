@@ -1,18 +1,18 @@
 ---
-title: Prédication
+title: Prédicat
 description: Un prédicat est une fonctionnalité qui permet au GPU plutôt qu’au processeur de déterminer de ne pas dessiner, copier ou distribuer un objet.
 ms.assetid: 5c5138c7-f6e8-4646-961a-0e2312b5356b
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a18df35c94fbd6b2b6f449585dfdcd4028bf2e9
-ms.sourcegitcommit: 9dadca1a0d77cb2a372e5a941ec707f9d77b354d
+ms.openlocfilehash: 422d0f2fc5f69ca0e633be4e93af4448a02efc42fbc89592125c45909710c462
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2020
-ms.locfileid: "104548581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118806679"
 ---
-# <a name="predication"></a>Prédication
+# <a name="predication"></a>Prédicat
 
 Un prédicat est une fonctionnalité qui permet au GPU plutôt qu’au processeur de déterminer de ne pas dessiner, copier ou distribuer un objet.
 

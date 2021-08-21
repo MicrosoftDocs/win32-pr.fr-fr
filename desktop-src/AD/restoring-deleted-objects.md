@@ -1,6 +1,6 @@
 ---
 title: Restauration des objets supprimés
-description: Windows Server 2003 comprend les objets \ 0034 ; Restore Deleted Objects \ 0034 ; fonctionnalité.
+description: Windows Le serveur 2003 comprend les objets \ 0034 ; Restore Deleted Objects \ 0034 ; fonctionnalité.
 ms.assetid: b64c5c91-fb76-4323-b78d-f692aa887c96
 ms.tgt_platform: multiple
 keywords:
@@ -9,18 +9,18 @@ keywords:
 - objets AD, restauration des objets supprimés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f8f1d3511bb4246826e677aa239ca594918127a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 431bcddcbd15366a6accf9b8368fa8d34377b27af923fb102803b6316462634e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104507858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025117"
 ---
 # <a name="restoring-deleted-objects"></a>Restauration des objets supprimés
 
-Windows Server 2003 comprend la fonctionnalité « restaurer les objets supprimés ».
+Windows Le serveur 2003 comprend la fonctionnalité « restaurer les objets supprimés ».
 
-Pour activer la restauration d’objets supprimés, au moins un contrôleur de domaine du domaine doit s’exécuter sur Windows Server 2003 ou une version ultérieure de Windows. Par défaut, seuls les administrateurs de domaine peuvent restaurer des objets supprimés, même si cela peut être délégué à d’autres utilisateurs.
+pour activer la restauration d’objets supprimés, au moins un contrôleur de domaine dans le domaine doit être en cours d’exécution sur Windows Server 2003 ou une version ultérieure de Windows. Par défaut, seuls les administrateurs de domaine peuvent restaurer des objets supprimés, même si cela peut être délégué à d’autres utilisateurs.
 
 Les limitations suivantes s’appliquent à la restauration d’objets supprimés :
 
@@ -36,7 +36,7 @@ Lorsqu’un objet est supprimé, le descripteur de sécurité de l’objet est c
 > [!Note]  
 > L’octroi à un utilisateur de cette autorisation peut être un risque pour la sécurité, car il peut permettre à l’utilisateur de restaurer un objet de compte qui a accès aux ressources auxquelles l’utilisateur n’a normalement pas accès. En restaurant un compte, l’utilisateur gagne le contrôle de ce compte, car il doit définir le mot de passe initial sur le compte lorsque le compte est restauré.
 
- 
+ 
 
 Pour restaurer complètement un objet supprimé, l’utilisateur doit :
 
@@ -53,7 +53,7 @@ Pour restaurer complètement un objet supprimé, l’utilisateur doit :
     > [!Note]  
     > L’attribut **IsDeleted** n’est pas vérifié au cours de l’opération de restauration. Aucune des autorisations supprimer-enfant sur le conteneur « objets supprimés » n’est vérifiée.
 
-     
+     
 
 ## <a name="restoring-a-deleted-object"></a>Restauration d’un objet supprimé
 
@@ -62,13 +62,13 @@ Pour restaurer un objet supprimé, l’objet doit d’abord se trouver dans le c
 Lorsque l’objet a été localisé, les opérations suivantes doivent être effectuées dans une seule opération LDAP. Pour cela, vous devez utiliser la fonction [**LDAP \_ Modify \_ ext \_ s**](/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_ext_s) avec le contrôle [**\_ \_ Show \_ Deleted \_ OID du serveur LDAP**](/previous-versions/windows/desktop/ldap/ldap-server-show-deleted-oid) .
 
 -   Supprimez la valeur de l’attribut **IsDeleted** . La valeur de l’attribut **IsDeleted** doit être supprimée, et non définie sur **false**.
--   Remplacez le nom unique de l’objet pour qu’il soit déplacé vers un conteneur autre que le conteneur objets supprimés. Il peut s’agir de n’importe quel conteneur qui peut normalement contenir l’objet. Le nom unique du conteneur précédent de l’objet se trouve dans l’attribut **lastKnownParent** de l’objet supprimé. L’attribut **lastKnownParent** est défini uniquement si l’objet a été supprimé sur un contrôleur de domaine Windows Server 2003. Par conséquent, il est possible que le contenu de l’attribut **lastKnownParent** ne soit pas exact.
+-   Remplacez le nom unique de l’objet pour qu’il soit déplacé vers un conteneur autre que le conteneur objets supprimés. Il peut s’agir de n’importe quel conteneur qui peut normalement contenir l’objet. Le nom unique du conteneur précédent de l’objet se trouve dans l’attribut **lastKnownParent** de l’objet supprimé. l’attribut **lastKnownParent** est défini uniquement si l’objet a été supprimé sur un contrôleur de domaine Windows Server 2003. Par conséquent, il est possible que le contenu de l’attribut **lastKnownParent** ne soit pas exact.
 -   Restaurez les attributs obligatoires pour l’objet qui ont été effacés pendant la suppression.
 
 > [!Note]  
 > L’attribut **objectCategory** peut également être défini lors de la restauration de l’objet, mais il n’est pas obligatoire. Si aucune valeur **objectCategory** n’est spécifiée, le **objectCategory** par défaut de l' **objectClass** de l’objet est utilisé.
 
- 
+ 
 
 Une fois l’objet restauré, il est accessible tel qu’il était avant sa suppression. À ce stade, tous les attributs facultatifs qui sont importants doivent être restaurés. Toutes les références à l’objet à partir d’autres objets dans le répertoire doivent également être restaurées.
 
@@ -246,6 +246,6 @@ HRESULT RestoreDeletedObject(LPCWSTR pwszDeletedDN, LPCWSTR pwszDestContainerDN)
 
 
 
- 
+ 
 
- 
+ 
