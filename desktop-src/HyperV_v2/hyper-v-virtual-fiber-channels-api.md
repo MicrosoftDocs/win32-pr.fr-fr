@@ -4,12 +4,12 @@ ms.assetid: 238B20B0-1C59-41D0-B2B5-5B0C6032300A
 title: API Virtual Fibre Channel Hyper-V
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eaea1872ce60379f6a4791932c1ffd4eb0febcf5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c583b8f5d4a36d9011cfa2adb5888e2e463ab2758cad8780011c2bc415537d47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118149756"
 ---
 # <a name="hyper-v-virtual-fibre-channel-api"></a>API Virtual Fibre Channel Hyper-V
 

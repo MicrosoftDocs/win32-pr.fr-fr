@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3b5eca7ddcc506d158175782e3e13796e56de267
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6f489f2c9dbc5685561b3105001de5ae5dca5fef4d68f80b5d2b0d41d479cd8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147164"
 ---
 # <a name="setkeyprotector-method-of-the-msvm_securityservice-class"></a>Méthode SetKeyProtector de la \_ classe securityservice MSVM
 
@@ -62,7 +62,7 @@ Paramètre facultatif permettant de surveiller la progression de l’opération,
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 En cas de réussite, retourne 0 ou 4096 ; Sinon, retourne une erreur.
 
@@ -113,7 +113,7 @@ Le **système n’est pas disponible** (32777)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

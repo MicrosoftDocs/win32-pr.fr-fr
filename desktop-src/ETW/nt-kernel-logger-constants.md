@@ -4,12 +4,12 @@ ms.assetid: f64f05c1-b904-4847-8502-4abb9cf4d37f
 title: Constantes d’enregistreur de noyau NT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13767400ff851e358f6665c88e16767cc378a4da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbd5b8176fb3b0ca6c63bc5a0aa3bf4bcd6d7067f4c3710a9a6e74b48603dc50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151455"
 ---
 # <a name="nt-kernel-logger-constants"></a>Constantes d’enregistreur de noyau NT
 
@@ -183,7 +183,7 @@ Les valeurs suivantes définissent les GUID de classe possibles pour les événe
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser les GUID, copiez les définitions de GUID que vous souhaitez utiliser dans votre code source. Vous devez inclure \# define INITGUID avant les définitions que vous incluez dans votre code source, afin que le compilateur transforme le GUID de définition \_ en GUID constant. Par exemple,
 

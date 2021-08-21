@@ -4,12 +4,12 @@ description: Calcule une réciproque à double précision au niveau du composant
 ms.assetid: 499A14D6-36DB-4860-94D1-887D931E60D4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 770159f5007b08f5482ba8b58634b44e7f3e6ef0
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9539a53b27840b51d0a1d2e9904c744aa3f5c3e60bd9dc21a6bf72ba9291efa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515341"
 ---
 # <a name="drcp-sm5---asm"></a>DRCP (SM5-ASM)
 
@@ -63,7 +63,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 

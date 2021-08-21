@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3955848bf2a87e0983ddd7dc3bef48f157ae6648
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6dac439b94a62e9dbd11ca9e12ab80023071fc00cf22abcf6b9b4b93b07c356c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118156855"
 ---
 # <a name="cmediapositioninvoke-method"></a>CMediaPosition. Invoke, méthode
 
@@ -113,7 +113,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                              | Description                                      |
 |----------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                     | Opération réussie.<br/>                              |
+| <dl> <dt>**\_OK**</dt> </dl>                     | Réussite.<br/>                              |
 | <dl> <dt>**\_UNKNOWNINTERFACE DISP \_**</dt> </dl> | Le paramètre *riid* n’est pas une valeur d’IID \_ null<br/> |
 
 
@@ -126,7 +126,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

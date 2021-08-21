@@ -26,8 +26,8 @@ La table de contrôle contient les colonnes suivantes.
 | Type          | [Identificateur](identifier.md)       | N   | N        |
 | X             | [Integer](integer.md)             | N   | N        |
 | O             | [Integer](integer.md)             | N   | N        |
-| Largeur         | [Integer](integer.md)             | N   | N        |
-| Hauteur        | [Integer](integer.md)             | N   | N        |
+| Width         | [Integer](integer.md)             | N   | N        |
+| Height        | [Integer](integer.md)             | N   | N        |
 | Attributs    | [DoubleInteger](doubleinteger.md) | N   | O        |
 | Propriété      | [Identificateur](identifier.md)       | N   | O        |
 | Texte          | [Correct](formatted.md)         | N   | O        |

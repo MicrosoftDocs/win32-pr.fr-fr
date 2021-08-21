@@ -4,12 +4,12 @@ ms.assetid: e4d4e456-61fb-492b-b817-30629681e270
 title: Interfaces pour le rendu et la superposition vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cfa8a94765671e38c48418d37b929215e84b2fe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 48cd1ae1f90d26bdbdac40410fa9aa8484e296c338f901ddac7b2f4abb0ef055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118154063"
 ---
 # <a name="interfaces-for-video-rendering-and-overlay"></a>Interfaces pour le rendu et la superposition vidéo
 
@@ -39,7 +39,7 @@ Ces interfaces prennent en charge le contrôle d’application sur le rendu vid�
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties"><strong>IAMVideoDecimationProperties</strong></a></td>
-<td>Contrôler la façon dont DirectShow met à l’échelle une image vidéo si la fenêtre vidéo est plus petite que la taille native de la vidéo. (Déconseillée).</td>
+<td>contrôler la façon dont DirectShow met à l’échelle une image vidéo si la fenêtre vidéo est plus petite que la taille native de la vidéo. (Déconseillée).</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Control/nn-control-ibasicvideo2"><strong>IBasicVideo2</strong></a></td>
@@ -59,19 +59,19 @@ Ces interfaces prennent en charge le contrôle d’application sur le rendu vid�
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Amstream/nn-amstream-idirectdrawmediasample"><strong>IDirectDrawMediaSample</strong></a></td>
-<td>Accédez à une surface DirectDraw allouée par le filtre de <a href="overlay-mixer-filter.md">mixage de superposition</a> . (Déconseillé.)</td>
+<td>accédez à une surface DirectDraw allouée par la <a href="overlay-mixer-filter.md">superposition Mixer</a> filtre. (Déconseillé.)</td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/api/Mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a></td>
-<td>Implémenté sur le mélangeur de superposition. Permet aux clients sans fenêtre tels que les contrôles de® ActiveX d’acquérir et de définir les propriétés du rectangle vidéo et de conseiller le filtre des événements.</td>
+<td>Implémenté sur le Mixer de superposition. permet aux clients sans fenêtre tels que ActiveX® contrôles d’extraire et de définir des propriétés du rectangle vidéo et de conseiller le filtre des événements.</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify"><strong>IMixerOCXNotify</strong></a></td>
-<td>Implémenté par les clients sans fenêtre et appelé par le mélangeur de superposition pour envoyer des notifications d’événements affectant le rectangle d’affichage de la vidéo.</td>
+<td>implémenté par les clients sans fenêtre et appelé par le Mixer de superposition pour envoyer des notifications d’événements affectant le rectangle d’affichage de la vidéo.</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Mpconfig/nn-mpconfig-imixerpinconfig2"><strong>IMixerPinConfig2</strong></a></td>
-<td>Définissez les contrôles de couleur vidéo sur le filtre de mixage de superposition lors du mélange de plusieurs flux vidéo. (Déconseillée).</td>
+<td>définissez les contrôles de couleur vidéo sur la superposition Mixer filtre lors du mélange de plusieurs flux vidéo. (Déconseillée).</td>
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a></td>

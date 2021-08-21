@@ -6,12 +6,12 @@ keywords:
 - Protocole EAP (Extensible Authentication Protocol), référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0ca739d52ca93cbb22205902f76091e7b1903ba
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 8e3fcb1f0d97b640b96db9e08234f4a27506bd4c651b2a51585d50c253378720
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104381273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499144"
 ---
 # <a name="extensible-authentication-protocol-reference"></a>Référence du protocole EAP (Extensible Authentication Protocol)
 
@@ -24,9 +24,9 @@ Cette documentation décrit les rubriques suivantes.
 -   [Interfaces EAP](eap-interfaces.md)
 -   [Structures EAP](eap-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

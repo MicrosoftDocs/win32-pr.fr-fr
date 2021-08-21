@@ -3,7 +3,7 @@ title: Structure MCI_STATUS_PARMS (Mciapi. h)
 description: La \_ \_ structure de l’état de MCI contient des informations sur la \_ commande d’État MCI.
 ms.assetid: c4897b34-4184-46aa-af17-2127edfbf82d
 keywords:
-- Structure de MCI_STATUS_PARMS Windows multimédia
+- structure MCI_STATUS_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8295f2e747752889c10083c6bb794ba2df7ac273
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2685ec70f10dc8dcecb0149f3bcf1af6c9814dd360e8f7e185d31710c24d5527
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138095"
 ---
 # <a name="mci_status_parms-structure"></a>Structure de l' \_ État MCI \_
 
@@ -71,7 +71,7 @@ Longueur ou nombre de pistes.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' \_ indicateur d’élément d’État MCI \_ doit être défini dans le paramètre *fdwCommand* de la fonction [**MciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider le membre **dwItem** , qui doit contenir l’une des constantes indiquant les informations d’État demandées.
 

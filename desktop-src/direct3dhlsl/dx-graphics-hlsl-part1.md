@@ -9,21 +9,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3ea71da99dd68769324b07d3fc76a0c5ca00009d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 03e5b23f5186111719e45b8e3c0b1b5bd0227065f28489996524ffca3b38d2f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118090986"
 ---
 # <a name="compiling-shaders"></a>Compilation des nuanceurs
 
 > [!NOTE]
 > Cette rubrique couvre le `FXC.EXE` compilateur utilisé pour les modèles de nuanceur 2 à 5,1. Pour le nuancier modèle 6, vous utilisez `DXC.EXE` à la place, qui est documenté dans [utilisation de dxc.exe et dxcompiler.dll](https://github.com/microsoft/DirectXShaderCompiler/wiki/Using-dxc.exe-and-dxcompiler.dll).
 
-Microsoft Visual Studio 2012 peut maintenant compiler du code de nuanceur à partir de \* fichiers. HLSL que vous incluez dans votre projet C++.
+Microsoft Visual Studio 2012 peut maintenant compiler du code de nuanceur à partir de \* fichiers. hlsl que vous incluez dans votre projet C++.
 
-Dans le cadre du processus de génération, Visual Studio 2012 utilise le compilateur de code [fxc.exe](/windows/desktop/direct3dtools/fxc) HLSL pour compiler les fichiers. HLSL dans des fichiers objets de nuanceur binaire ou dans des tableaux d’octets définis dans des fichiers d’en-tête. La façon dont le compilateur de code HLSL compile chaque fichier. HLSL dans votre projet dépend de la manière dont vous spécifiez la propriété **fichiers de sortie** pour ce fichier. Pour plus d’informations sur les pages de propriétés HLSL, consultez [HLSL Property pages](/previous-versions/visualstudio/visual-studio-2012/jj620902(v=vs.110)).
+dans le cadre du processus de génération, Visual Studio 2012 utilise le compilateur de code [fxc.exe](/windows/desktop/direct3dtools/fxc) HLSL pour compiler les fichiers. hlsl dans des fichiers objets de nuanceur binaire ou dans des tableaux d’octets définis dans des fichiers d’en-tête. La façon dont le compilateur de code HLSL compile chaque fichier. HLSL dans votre projet dépend de la manière dont vous spécifiez la propriété **fichiers de sortie** pour ce fichier. Pour plus d’informations sur les pages de propriétés HLSL, consultez [HLSL Property pages](/previous-versions/visualstudio/visual-studio-2012/jj620902(v=vs.110)).
 
 La méthode de compilation que vous utilisez en général dépend de la taille de votre \* fichier. HLSL. Si vous incluez une grande quantité de code d’octet dans un en-tête, vous augmentez la taille et le temps de chargement initial de votre application. Vous forcez également tous les codes d’octet à résider en mémoire même après la création du nuanceur, ce qui gaspille les ressources. Toutefois, lorsque vous incluez le code d’octet dans un en-tête, vous pouvez réduire la complexité du code et simplifier la création de nuanceur.
 
@@ -78,9 +78,9 @@ Si vous compilez vos fichiers. HLSL dans des tableaux d’octets qui sont défin
 Vous pouvez également utiliser la fonction [**D3DCompileFromFile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompilefromfile) au moment de l’exécution pour compiler le code du nuanceur. Pour plus d’informations sur la façon de procéder, consultez [Comment : compiler un nuanceur](/windows/desktop/direct3d11/how-to--compile-a-shader).
 
 > [!Note]  
-> Les applications du Windows Store prennent en charge l’utilisation de [**D3DCompileFromFile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompilefromfile) pour le développement, mais pas pour le déploiement.
+> Windows Les applications du Store prennent en charge l’utilisation de [**D3DCompileFromFile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompilefromfile) pour le développement, mais pas pour le déploiement.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -94,6 +94,6 @@ Vous pouvez également utiliser la fonction [**D3DCompileFromFile**](/windows/wi
 [Guide de programmation pour HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

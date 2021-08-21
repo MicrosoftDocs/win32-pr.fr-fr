@@ -4,12 +4,12 @@ description: Pour des raisons de sécurité, Service de transfert intelligent en
 ms.assetid: cf5c8b50-066f-431e-8bdf-ed0692219b20
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6753c326e926724a57e1905c3fb9fe24e28fdc7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 71b08f4dd7435c9afc28f1a4401f01ad196b1b8d2a1394d4998634f70b750434
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173251"
 ---
 # <a name="setting-permissions-on-virtual-directories"></a>Définition des autorisations sur les répertoires virtuels
 
@@ -28,7 +28,7 @@ Si le type de notification (voir la propriété [BITSServerNotificationType](bit
 > [!Note]  
 > L’application notifiée doit être en mesure de mapper et d’accéder au fichier distant même si l’URL de notification est desservie par un serveur Web situé sur un autre ordinateur que le répertoire de chargement physique. L’en-tête [bits-Request-DataFile-Name](notification-protocol-for-server-applications.md) contient toujours une spécification de chemin d’accès relative à l’ordinateur hébergeant le composant extensions bits. Une application s’exécutant sur un autre ordinateur peut avoir besoin de convertir le chemin en chemin UNC avant d’y accéder.
 
- 
+ 
 
 BITS prend en charge de nombreuses combinaisons de schémas d’authentification. Toutefois, vous devez utiliser le schéma d’authentification suivant pour le répertoire virtuel et l’URL de notification correspondante.
 
@@ -42,10 +42,10 @@ BITS prend en charge de nombreuses combinaisons de schémas d’authentification
 
 Un répertoire virtuel peut pointer vers un lecteur mappé sur un autre ordinateur ou un partage réseau. S’il pointe vers un lecteur réseau mappé, les informations d’identification utilisées pour mapper le lecteur doivent disposer d’un contrôle total sur le partage distant.
 
-Si le répertoire virtuel pointe vers un partage réseau, le service BITS utilise les informations d’identification de **connexion en tant qu'** utilisateur du répertoire virtuel pour accéder au partage distant. Pour accéder à un partage distant, le compte de **connexion** doit disposer des privilèges décrits dans la documentation de la fonction [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera) . BITS se connecte à l’aide des types d’ouverture de session \_ \_ interactive LOGON32 batch ou LOGON32 \_ Logon \_ . Le compte **se connecter en tant qu'** utilisateur a besoin d’autorisations Full-Access sur le partage distant. l’octroi d’autorisations en écriture ne suffit pas.
+si le répertoire virtuel pointe vers un partage réseau, le service BITS utilise le Connecter du répertoire virtuel **en tant qu'** informations d’identification de l’utilisateur pour accéder au partage distant. pour accéder à un partage distant, le **Connecter compte en tant** que compte doit avoir des privilèges, comme décrit dans la documentation de la fonction [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera) . BITS se connecte à l’aide des types d’ouverture de session \_ \_ interactive LOGON32 batch ou LOGON32 \_ Logon \_ . le **Connecter en tant que** compte d’utilisateur a besoin d’autorisations Full-Access sur le partage distant ; l’octroi d’autorisations en écriture ne suffit pas.
 
-Lorsque le répertoire de chargement physique est mappé à un partage réseau, l’identité de l’appelant qui demande l’URL de notification est soit l’utilisateur **se connecter en tant qu'** utilisateur, soit l’utilisateur authentifié du répertoire de chargement physique (uniquement disponible dans IIS 6,0 et versions ultérieures, lorsque la case à cocher **utiliser toujours les informations d’identification de l’utilisateur authentifié lors de la validation de l’accès à la ressource réseau** est sélectionnée dans la boîte de dialogue **se connecter**
+lorsque le répertoire de chargement physique est mappé à un partage réseau, l’identité de l’appelant demandant l’URL de notification est soit le **Connecter en tant qu'** utilisateur, soit l’utilisateur authentifié du répertoire de chargement physique (uniquement disponible dans IIS 6,0 et versions ultérieures, lorsque la case à cocher **utilise toujours les informations d’identification de l’utilisateur authentifié lors de la validation de l’accès à la ressource réseau** est sélectionnée dans la boîte de dialogue **Connecter en tant que** ).
 
- 
+ 
 
- 
+ 

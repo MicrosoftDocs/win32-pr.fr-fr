@@ -58,12 +58,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f4a0a287d85b7a229b0e8e50a10c402fca734429
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c87667a8a16ff6b8e038c84d51b7229ce53c3397dca8ef8bb4708275512593ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146168"
 ---
 # <a name="msvm_wifiendpoint-class"></a>MSVM \_ WiFiEndpoint, classe
 
@@ -540,10 +540,10 @@ Contient le type EAP (Extensible Authentication Protocol) si et seulement si **A
 <span id="PEAPv1_EAP-GTC"></span><span id="peapv1_eap-gtc"></span><span id="PEAPV1_EAP-GTC"></span>**PEAPv1/EAP-GTC** (3)
 </dt> <dt>
 
-<span id="EAP-FAST_MSCHAPv2"></span><span id="eap-fast_mschapv2"></span><span id="EAP-FAST_MSCHAPV2"></span>**EAP-FAST/MSCHAPv2** (4)
+<span id="EAP-FAST_MSCHAPv2"></span><span id="eap-fast_mschapv2"></span><span id="EAP-FAST_MSCHAPV2"></span>**/MSCHAPv2 EAP-FAST** (4)
 </dt> <dt>
 
-<span id="EAP-FAST_GTC"></span><span id="eap-fast_gtc"></span>**EAP-FAST/GTC** (5)
+<span id="EAP-FAST_GTC"></span><span id="eap-fast_gtc"></span>**/GTC EAP-FAST** (5)
 </dt> <dt>
 
 <span id="EAP-MD5"></span><span id="eap-md5"></span>**EAP-MD5** (6)
@@ -558,7 +558,7 @@ Contient le type EAP (Extensible Authentication Protocol) si et seulement si **A
 <span id="EAP-AKA"></span><span id="eap-aka"></span>**EAP-alias** (9)
 </dt> <dt>
 
-<span id="EAP-FAST_TLS"></span><span id="eap-fast_tls"></span>**EAP-FAST/TLS** (10)
+<span id="EAP-FAST_TLS"></span><span id="eap-fast_tls"></span>**/TLS EAP-FAST** (10)
 </dt> <dt>
 
 <span id="DMTF_Reserved_"></span><span id="dmtf_reserved_"></span><span id="DMTF_RESERVED_"></span>**DMTF réservé** (11.. )
@@ -961,8 +961,8 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

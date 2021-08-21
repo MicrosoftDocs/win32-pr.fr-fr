@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dc0d4fc70e9ed64f9481d827cb678eb3ff9721d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8de57346138b4683f59cfa612f01fff1ef3d8fd9aceec9b34daee49bfa74ebbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157979"
 ---
 # <a name="cbaserenderercheckmediatype-method"></a>Méthode CBaseRenderer. CheckMediaType
 
@@ -53,7 +53,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui contient le type de m
 
 Retourne S \_ OK si le type de média proposé est acceptable. Sinon, retourne S \_ false ou un code d’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La broche d’entrée appelle cette méthode à partir de sa propre méthode [**CBasePin :: CheckMediaType**](cbasepin-checkmediatype.md) . La classe dérivée doit implémenter cette méthode.
 
@@ -63,7 +63,7 @@ La broche d’entrée appelle cette méthode à partir de sa propre méthode [**
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

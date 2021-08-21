@@ -4,16 +4,16 @@ ms.assetid: 258b22d7-b58a-499a-be00-de548578db83
 title: Cause
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f93d2a2864db347183ca42f5458681e4de3ecc6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d0539918e745c9b158a5a56923c45f37f87d5069ce63ef74083d7270204c5a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322380"
 ---
 # <a name="cause"></a>Cause
 
-En plus de tous les éléments d’information décrits précédemment, qui peuvent être spécifiés dans la structure [**QoS**](/windows/win32/api/winsock2/ns-winsock2-qos) spécifique à ATM lors de l’appel de [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), il existe une cause qui ne peut être utilisée que lors de la mise en service de l’appel. Lors de la déconnexion, les applications Windows Sockets 2 peuvent éventuellement spécifier cet IE comme données de déconnexion dans [**WSASendDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsasenddisconnect). Le tiers distant peut récupérer cet IE via [**WSARecvDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvdisconnect) après avoir reçu la \_ notification FD Close.
+En plus de tous les éléments d’information décrits précédemment, qui peuvent être spécifiés dans la structure [**QoS**](/windows/win32/api/winsock2/ns-winsock2-qos) spécifique à ATM lors de l’appel de [**WSAConnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), il existe une cause qui ne peut être utilisée que lors de la mise en service de l’appel. lors de la déconnexion, les applications Windows sockets 2 peuvent éventuellement spécifier cet IE comme données de déconnexion dans [**WSASendDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsasenddisconnect). Le tiers distant peut récupérer cet IE via [**WSARecvDisconnect**](/windows/desktop/api/Winsock2/nf-winsock2-wsarecvdisconnect) après avoir reçu la \_ notification FD Close.
 
 ``` syntax
 #include <windows.h>

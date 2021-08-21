@@ -4,12 +4,12 @@ ms.assetid: 5517b0e7-2264-4173-8e10-ff7626458bfa
 title: Fonctions de gestion d’annuaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00bc10d0f8d7caddc1ea821c397e16edf600d92c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2042b7fc4cc7f6af64c3c0eba0938b3f5d78e7b551981e1cc820b38000b1d745
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150437"
 ---
 # <a name="directory-management-functions"></a>Fonctions de gestion d’annuaire
 

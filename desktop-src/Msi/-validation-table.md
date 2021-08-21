@@ -21,7 +21,7 @@ La \_ table de validation contient les colonnes suivantes.
 
 | Colonne      | Type                               | Clé | Nullable |
 |-------------|------------------------------------|-----|----------|
-| Table de charge de travail       | [Identificateur](identifier.md)       | O   | N        |
+| Table       | [Identificateur](identifier.md)       | O   | N        |
 | Colonne      | [Identificateur](identifier.md)       | O   | N        |
 | Nullable    | [Text](text.md)                   | N   | N        |
 | MinValue    | [DoubleInteger](doubleinteger.md) | N   | O        |

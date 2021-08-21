@@ -3,7 +3,7 @@ title: Commande MCI_QUALITY (mmsystem. h)
 description: La \_ commande MCI Quality définit un niveau de qualité personnalisé pour l’audio, la vidéo ou la compression des données d’image fixe. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: 91ad9704-0089-4b1f-b0f6-919ab5fd84e0
 keywords:
-- Commande MCI_QUALITY Windows multimédia
+- commande MCI_QUALITY Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 996703c1a5b7d3adec1a001af58ebc8d916301a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1237d9b70c9f06782342c404c19dd23cf6f0848f8c7b33523bce35990287fa27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138220"
 ---
 # <a name="mci_quality-command"></a>\_Commande de qualité MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ qualité \_ MCI DGV**](/windows/desktop/
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom défini pour ce niveau de qualité peut être utilisé lors de la définition de l’audio, de la vidéo ou encore de la qualité avec les commandes [MCI \_ SETAUDIO](mci-setaudio.md) et [MCI \_ SETVIDEO](mci-setvideo.md) .
 
@@ -119,7 +119,7 @@ Le membre **lpstrName** de la structure identifiée par *lpQuality* contient l�
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

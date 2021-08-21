@@ -4,18 +4,18 @@ ms.assetid: cbcb4d6d-dc85-4ae2-b0a8-110f15092733
 title: Capture d’une image à partir d’un code confidentiel d’image continue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3510f318f3107dd698dc753704d6c09d70ddd308
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cab750fb6b847bc39d28c8906df8dcb982278f7a4447bfc3d79631ee58eb574e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158661"
 ---
 # <a name="capturing-an-image-from-a-still-image-pin"></a>Capture d’une image à partir d’un code confidentiel d’image continue
 
 Certains appareils photo peuvent produire une image toujours distincte du flux de capture, et l’image continue est souvent d’une qualité supérieure à celle des images générées par le flux de capture. L’appareil photo peut avoir un bouton qui agit comme un déclencheur matériel ou peut prendre en charge le déclenchement de logiciels. Une caméra qui prend en charge les images continues expose une broche d’image continue, qui est la catégorie de code confidentiel catégorie \_ \_ toujours.
 
-La méthode recommandée pour l’obtention d’images toujours à partir de l’appareil consiste à utiliser les API WIA (Windows Image Acquisition). Pour plus d’informations, consultez « acquisition d’images Windows » dans la documentation du kit de développement Platform SDK. Toutefois, vous pouvez également utiliser DirectShow pour capturer une image.
+la méthode recommandée pour l’obtention d’images toujours à partir de l’appareil consiste à utiliser les api d’Acquisition d’images Windows (WIA). pour plus d’informations, consultez « Windows Image Acquisition » dans la documentation du kit de développement platform SDK. toutefois, vous pouvez également utiliser DirectShow pour capturer une image.
 
 Pour déclencher le code confidentiel toujours, utilisez la méthode [**IAMVideoControl :: setMode**](/windows/desktop/api/Strmif/nf-strmif-iamvideocontrol-setmode) lorsque le graphique est en cours d’exécution, comme suit :
 

@@ -49,7 +49,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 -   [Commande](#order)
 -   [ProtocolCode](#protocolcode)
 
-### <a name="name"></a>Nom
+### <a name="name"></a>Name
 
 
 

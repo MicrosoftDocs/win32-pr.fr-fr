@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102561
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f666d4785560e8cecc959690fbd7868fce9a3a98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d9d140b5ea81063604182ba6cc2df54d6770703eef3166b7e85497bd0918dbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118079781"
 ---
 # <a name="esentreadverifyfailureexception-properties"></a>Propriétés EsentReadVerifyFailureException
 
@@ -49,7 +49,7 @@ Le type [EsentReadVerifyFailureException](./esentreadverifyfailureexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

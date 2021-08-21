@@ -4,12 +4,12 @@ ms.assetid: 2b639e30-5368-45bb-943d-db1ab6b62582
 title: Contexte d’entrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16f1f83a397373e17a7d637b61a3232a3d72acde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2927d3f573704aadb1ef72bdb26a35d37d90c1f90ab58d3a947ee84f8f38f7c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145898"
 ---
 # <a name="input-context"></a>Contexte d’entrée
 
