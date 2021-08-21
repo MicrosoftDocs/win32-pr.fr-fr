@@ -1,19 +1,19 @@
 ---
-description: Windows Server 2008 R2 et Windows 7 présentent les modifications suivantes apportées au Service VSS.
+description: Windows le serveur 2008 R2 et le Windows 7 présentent les modifications suivantes apportées au Service VSS.
 ms.assetid: 1287f175-29e4-40be-804b-d78542e76efc
-title: 'Nouveautés : VSS dans Windows Server 2008 R2 & Windows 7'
+title: 'nouveautés : VSS dans Windows Server 2008 R2 & Windows 7'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3677f89517a770a4519369ae11f2eed7e7985414
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8eeaaf42a82e13c5766ee3cfa6ba9fe73a36a783824497482ac97fc20d058a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121525"
 ---
-# <a name="whats-new-vss-in-windows-server-2008-r2--windows-7"></a>Nouveautés : VSS dans Windows Server 2008 R2 & Windows 7
+# <a name="whats-new-vss-in-windows-server-2008-r2--windows-7"></a>nouveautés : VSS dans Windows Server 2008 R2 & Windows 7
 
-Windows Server 2008 R2 et Windows 7 présentent les modifications suivantes apportées au Service VSS.
+Windows le serveur 2008 R2 et le Windows 7 présentent les modifications suivantes apportées au Service VSS.
 
 ## <a name="new-vss-interfaces"></a>Nouvelles interfaces VSS
 
@@ -55,7 +55,7 @@ Interface [**IVssHardwareSnapshotProviderEx**](/windows/desktop/api/VsProv/nn-vs
 
 ## <a name="vss-event-tracing-and-logging"></a>Suivi et journalisation des événements VSS
 
-À compter de Windows Server 2008 R2 et Windows 7, vous pouvez utiliser l’outil VssTrace, l’outil Logman ou l’outil tracelog pour collecter des informations de traçage pour l’infrastructure VSS. Pour plus d’informations, consultez [utilisation des outils de suivi avec VSS](using-tracing-tools-with-vss.md).
+à partir de Windows Server 2008 R2 et Windows 7, vous pouvez utiliser l’outil VssTrace, l’outil Logman ou l’outil Tracelog pour collecter des informations de traçage pour l’infrastructure VSS. Pour plus d’informations, consultez [utilisation des outils de suivi avec VSS](using-tracing-tools-with-vss.md).
 
 ## <a name="lun-resynchronization"></a>Resynchronisation des LUN
 
@@ -67,11 +67,11 @@ Dans Windows Server 2008 R2 et Windows 7, les demandeurs VSS peuvent utiliser 
 
 ## <a name="express-writers"></a>Writers Express
 
-Dans Windows Server 2008 R2 et Windows 7, l’interface VSS Express permet à une application d’enregistrer l’emplacement de ses fichiers de données sans avoir à implémenter un enregistreur VSS. Pour plus d’informations, consultez [service VSS (VSS) enregistreurs Express](https://blogs.technet.com/filecab/archive/2009/06/17/volume-shadow-copy-service-vss-express-writers.aspx).
+dans Windows Server 2008 R2 et Windows 7, l’interface vss express permet à une application d’enregistrer l’emplacement de ses fichiers de données sans implémenter d’enregistreur VSS. Pour plus d’informations, consultez [service VSS (VSS) enregistreurs Express](https://blogs.technet.com/filecab/archive/2009/06/17/volume-shadow-copy-service-vss-express-writers.aspx).
 
 ## <a name="new-vss-writers"></a>Nouveaux enregistreurs VSS
 
-Windows Server 2008 R2 et Windows 7 présentent les enregistreurs VSS suivants :
+Windows le serveur 2008 R2 et le Windows 7 présentent les enregistreurs VSS suivants :
 
 -   Enregistreur des compteurs de performances
 -   Rédacteur de Planificateur de tâches

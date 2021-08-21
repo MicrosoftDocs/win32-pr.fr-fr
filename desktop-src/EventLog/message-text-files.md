@@ -4,12 +4,12 @@ ms.assetid: 99fbb3d6-6fde-4162-b0b9-99a1cdf0b8f8
 title: Fichiers texte du message
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e87547f44b0b556df4e3a2ffb67736b950321c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 818210cfe58fb8eafe939c70a2a57b358e306bb9bc072a64abebbec5ca41c266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151475"
 ---
 # <a name="message-text-files"></a>Fichiers texte du message
 
@@ -94,7 +94,7 @@ Language=Japanese
 .
 ```
 
-Vous pouvez spécifier les séquences d’échappement suivantes pour mettre en forme le texte du message en vue de son utilisation par l’observateur d’événements ou votre application. Caractère du signe de pourcentage (%) commence toutes les séquences d’échappement. Tout autre caractère qui suit un signe de pourcentage est affiché sans le signe de pourcentage.
+Vous pouvez spécifier les séquences d’échappement suivantes pour mettre en forme le texte du message en vue de son utilisation par l’observateur d’événements ou votre application. Le signe de pourcentage (%) commence toutes les séquences d’échappement. Tout autre caractère qui suit un signe de pourcentage est affiché sans le signe de pourcentage.
 
 <dl> <dt>
 

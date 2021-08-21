@@ -9,28 +9,28 @@ keywords:
 - ASF (format des systèmes avancés), lire les fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32f35cbd0e9a7dde800e23f83337ac30cdd66582
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e01f417cafad4e125c6c176ac35e95ff3ab8f08c4f600b811865a9fb6ae51362
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197517"
 ---
 # <a name="reading-asf-files"></a>Lecture des fichiers ASF
 
-Le kit de développement logiciel (SDK) Windows Media format peut être utilisé pour fournir des exemples de supports à partir d’un fichier ASF. Deux objets sont utilisés pour récupérer des exemples, l’objet lecteur et l’objet lecteur synchrone.
+le kit de développement logiciel (SDK) de Format de média Windows peut être utilisé pour fournir des exemples de supports à partir d’un fichier ASF. Deux objets sont utilisés pour récupérer des exemples, l’objet lecteur et l’objet lecteur synchrone.
 
-L’objet lecteur est l’objet de lecture d’origine dans le kit de développement logiciel (SDK) de format Windows Media. L’objet lecteur utilise une architecture asynchrone pour envoyer des exemples à une application. Les applications générées à l’aide de l’objet Reader doivent implémenter des fonctions de rappel qui répondent aux divers messages et événements qui résultent de ce modèle multithread. Par souci de clarté, cette section fait référence à l’objet lecteur comme lecteur asynchrone.
+l’objet lecteur est l’objet de lecture d’origine dans le kit de développement logiciel (SDK) de Format multimédia Windows. L’objet lecteur utilise une architecture asynchrone pour envoyer des exemples à une application. Les applications générées à l’aide de l’objet Reader doivent implémenter des fonctions de rappel qui répondent aux divers messages et événements qui résultent de ce modèle multithread. Par souci de clarté, cette section fait référence à l’objet lecteur comme lecteur asynchrone.
 
-L’objet lecteur synchrone est nouveau pour cette version du kit de développement logiciel (SDK) du format Windows Media. Le lecteur synchrone n’utilise pas plusieurs threads dans le traitement des exemples de fichiers ASF. Une application générée à l’aide du lecteur synchrone récupère des exemples à la demande, au lieu d’attendre que le lecteur les envoie.
+l’objet lecteur synchrone est nouveau pour cette version du kit de développement logiciel (SDK) de Format multimédia Windows. Le lecteur synchrone n’utilise pas plusieurs threads dans le traitement des exemples de fichiers ASF. Une application générée à l’aide du lecteur synchrone récupère des exemples à la demande, au lieu d’attendre que le lecteur les envoie.
 
-Lorsque vous créez une application pour lire des fichiers ASF, vous devez choisir l’objet lecteur à utiliser. En général, les applications conçues pour fournir du contenu Windows Media doivent être créées à l’aide du lecteur asynchrone, tandis que les applications conçues pour modifier des fichiers ASF doivent être créées avec le lecteur synchrone.
+Lorsque vous créez une application pour lire des fichiers ASF, vous devez choisir l’objet lecteur à utiliser. en général, les applications conçues pour fournir Windows contenu multimédia doit être créé à l’aide du lecteur asynchrone, tandis que les applications conçues pour modifier des fichiers ASF doivent être créées avec le lecteur synchrone.
 
 Le tableau suivant répertorie les principales fonctionnalités des deux objets lecteur. Utilisez ce tableau pour déterminer l’objet à utiliser pour votre application.
 
 
 
-| Fonctionnalité                                                                    | Lecteur Async | Lecteur de synchronisation |
+| Caractéristique                                                                    | Lecteur Async | Lecteur de synchronisation |
 |----------------------------------------------------------------------------|--------------|-------------|
 | Lire les exemples non compressés par numéro de sortie                                 | Oui          | Oui         |
 | Lire des exemples compressés par numéro de flux                                   | Oui          | Oui         |
@@ -45,7 +45,7 @@ Le tableau suivant répertorie les principales fonctionnalités des deux objets 
 
 
 
- 
+ 
 
 Les sections suivantes fournissent plus d’informations sur l’utilisation des deux objets Reader.
 
@@ -66,7 +66,7 @@ Les sections suivantes fournissent plus d’informations sur l’utilisation des
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -81,9 +81,9 @@ Les sections suivantes fournissent plus d’informations sur l’utilisation des
 [**Lecteur synchrone, objet**](synchronous-reader-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

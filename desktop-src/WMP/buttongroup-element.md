@@ -3,19 +3,19 @@ title: Élément BUTTONGROUP
 description: Élément BUTTONGROUP
 ms.assetid: 4756c016-3347-4129-be5e-e822270a24de
 keywords:
-- Apparences du lecteur Windows Media, élément BUTTONGROUP
+- habillages Lecteur Windows Media, élément BUTTONGROUP
 - habillages, élément BUTTONGROUP
 - Élément BUTTONGROUP
 - informations de référence sur les habillages, élément BUTTONGROUP
 - éléments, BUTTONGROUP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4de489e779b5e20214778b56fd8d19c7627e444
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6021d29322b98fe4cea96a67998aaf82fbd11e1abe397578a9b0f8999179ee1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118120039"
 ---
 # <a name="buttongroup-element"></a>Élément BUTTONGROUP
 
@@ -43,7 +43,7 @@ L’élément **BUTTONGROUP** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **BUTTONGROUP** prend en charge les méthodes suivantes.
 
@@ -56,7 +56,7 @@ L’élément **BUTTONGROUP** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’élément **BUTTONGROUP** prend en charge les attributs ambiants et peut implémenter les gestionnaires d’événements ambiants. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md) et [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
@@ -67,9 +67,9 @@ L’élément **BUTTONGROUP** prend en charge les attributs ambiants et peut imp
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

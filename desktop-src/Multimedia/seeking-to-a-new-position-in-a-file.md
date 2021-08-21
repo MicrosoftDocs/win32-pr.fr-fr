@@ -15,12 +15,12 @@ keywords:
 - recherche d’une nouvelle position dans des fichiers d’e/s
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 949ca3e9d118fdd83e5b53ae9336ad8ab601c64b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 97e51ab51065bcdf89af84f2fd622558261dd4cf42cac3e50fe54fb116a7ad9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136583"
 ---
 # <a name="seeking-to-a-new-position-in-a-file"></a>Recherche d’une nouvelle position dans un fichier
 
@@ -52,6 +52,6 @@ mmioSeek(hFile, -10L, SEEK_END);
 
 
 
- 
+ 
 
- 
+ 

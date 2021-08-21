@@ -4,12 +4,12 @@ ms.assetid: 7b3a31e6-a929-41e4-b7f0-c5b3beac2519
 title: Stratégie de métadonnées de photo System. photo. WhiteBalance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc333cedcd4665ace37033452ec3c7f0336f13e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4ef48d7dd5d87e8aff251a2285131d341ebd73a8fe323a8913cf71dc5afb62c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118032333"
 ---
 # <a name="systemphotowhitebalance-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. WhiteBalance
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Whit
 
 \_Photo \_ WhiteBalance
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41987} | ushort      |
 | 2     | /xmp/exif:WhiteBalance        | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41987} | ushort      |
 | 2     | /xmp/exif:WhiteBalance        | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 41987} |
 | 2     | /xmp/exif:whitebalance        |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                       | Format de disque |
+| Commande | Chemin                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41987}   | ushort      |
 | 2     | /ifd/xmp/exif:WhiteBalance | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                       | Format de disque |
+| Commande | Chemin                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 41987}   | ushort      |
 | 2     | /ifd/xmp/exif:WhiteBalance | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                       |
+| Commande | Chemin                       |
 |-------|----------------------------|
 | 1     | /IFD/EXIF/{UShort = 41987}   |
 | 2     | /ifd/xmp/exif:whitebalance |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

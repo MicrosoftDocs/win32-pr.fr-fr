@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 342e54c446ed7374284b4f158412a9e5067aaa07
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 49060d49acff08ef36cd028df17199dc9f2f1350c27e1d600febea904ef2fcb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010931"
 ---
 # <a name="reanimate-tombstones-extended-right"></a>Reanimate-Tombstones le droit étendu
 
@@ -39,7 +39,7 @@ Droit de contrôle d’accès qui permet de restaurer les éléments de schéma 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -49,7 +49,7 @@ Droit de contrôle d’accès qui permet de restaurer les éléments de schéma 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 64                                                                                                                               |
 
 
@@ -60,7 +60,7 @@ Droit de contrôle d’accès qui permet de restaurer les éléments de schéma 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 64                                                                                                                               |
 
 
@@ -71,7 +71,7 @@ Droit de contrôle d’accès qui permet de restaurer les éléments de schéma 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 64                                                                                                                               |
 
 
@@ -82,7 +82,7 @@ Droit de contrôle d’accès qui permet de restaurer les éléments de schéma 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 64                                                                                                                               |
 
 
@@ -93,7 +93,7 @@ Droit de contrôle d’accès qui permet de restaurer les éléments de schéma 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 64                                                                                                                               |
 
 
@@ -104,7 +104,7 @@ Droit de contrôle d’accès qui permet de restaurer les éléments de schéma 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 64                                                                                                                               |
 
 

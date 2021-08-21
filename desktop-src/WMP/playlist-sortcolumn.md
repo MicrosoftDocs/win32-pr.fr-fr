@@ -3,7 +3,7 @@ title: PLAYLIST. sortColumn
 description: La méthode sortColumn trie les données dans la colonne spécifiée.
 ms.assetid: 1563fee8-044a-4cb4-a9c2-11d4533536da
 keywords:
-- PLAYLIST. sortColumn lecteur Windows Media
+- PLAYLIST. sortColumn Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f21f0032ee4db4c7af46b5dda814bb11db551330
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 34dfce7306ceb39d64665538a21dbaef965ea799141a2756c2fea5bbe23ea9cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118335655"
 ---
 # <a name="playlistsortcolumn"></a>PLAYLIST. sortColumn
 
@@ -43,7 +43,7 @@ La méthode **SortColumn** trie les données dans la colonne spécifiée.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode trie la colonne spécifiée de la même façon que les boutons d’en-tête de colonne dans l’élément **playlist** . Si la colonne n’a pas encore été triée, elle est triée dans l’ordre alphanumérique. S’il a été trié, son ordre est inversé.
 

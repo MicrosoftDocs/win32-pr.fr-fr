@@ -4,18 +4,18 @@ ms.assetid: 76e7202e-74ce-40a3-a04b-9af5117fe20e
 title: Écriture d’événements basés sur un manifeste
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2887194d731ca93379b07c9929de239cef3cdb
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 6963051f65beb652eda04e3d0be6db99925e4eed81032c5687850915a0f1c173
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112261961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151078"
 ---
 # <a name="writing-manifest-based-events"></a>Écriture d’événements basés sur un manifeste
 
 Avant de pouvoir écrire des événements dans une session de trace, vous devez inscrire votre fournisseur. L’inscription d’un fournisseur indique à ETW que votre fournisseur est prêt à écrire des événements dans une session de suivi. Un processus peut inscrire jusqu’à 1 024 GUID de fournisseur ; Toutefois, vous devez limiter le nombre de fournisseurs que votre processus inscrit à un ou deux.
 
-**Avant Windows Vista :** Il n’existe aucune limite au nombre de fournisseurs qu’un processus peut inscrire.
+**avant Windows Vista :** Il n’existe aucune limite au nombre de fournisseurs qu’un processus peut inscrire.
 
 Pour inscrire un fournisseur basé sur un manifeste, appelez la fonction [**EventRegister**](/windows/desktop/api/Evntprov/nf-evntprov-eventregister) . La fonction enregistre le GUID du fournisseur et identifie un rappel facultatif que ETW appelle lorsqu’un contrôleur active ou désactive le fournisseur.
 

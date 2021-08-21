@@ -1,6 +1,6 @@
 ---
 title: Indicateurs de condition de filtrage (Fwptypes. h)
-description: Les indicateurs de condition de filtrage de la plateforme de filtrage Windows (WFP) sont tous représentés par un champ de champ.
+description: les indicateurs de condition de filtrage de la plateforme de filtrage Windows (WFP) sont représentés par un champ de champ.
 ms.assetid: fe879479-331d-42ef-ac2f-634f0c13c21d
 topic_type:
 - apiref
@@ -51,16 +51,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c88fa56f37332d52ed31f5ef042c5064a82ac4d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a43ae080a9ef1c17baa262cc1154f9ae89a837f0ec6f6919d80c22376f3b995
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150892"
 ---
 # <a name="filtering-condition-flags"></a>Indicateurs de condition de filtrage
 
-Les indicateurs de condition de filtrage de la plateforme de filtrage Windows (WFP) sont tous représentés par un champ de champ.
+les indicateurs de condition de filtrage de la plateforme de filtrage Windows (WFP) sont représentés par un champ de champ.
 
 Ces indicateurs et les couches de filtrage dans lesquelles ils peuvent être utilisés sont définis comme suit.
 
@@ -81,32 +81,32 @@ Filtrage des couches :
 -   \_Transport sortant de la couche FWPM \_ \_ \_ V {4 \| 6}
 -   \_Flux de couche FWPM \_ \_ {v4 \| 6}
     > [!Note]  
-    > Disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
+    > disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
 
      
 
 -   \_Couche FWPM \_ \_ erreur ICMP entrante \_ \_ V {4 \| 6}
     > [!Note]  
-    > Disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
+    > disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
 
      
 
 -   \_Erreur ICMP sortie de la couche FWPM \_ \_ \_ \_ V {4 \| 6}
     > [!Note]  
-    > Disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
+    > disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
 
      
 
 -   FWPM \_ d' \_ authentification ALE de la couche ALE \_ \_ reçues \_ accepter \_ V {4 \| 6}
 -   FWPM \_ d' \_ authentification ALE de couche ALE \_ \_ \_ V {4 \| 6}
     > [!Note]  
-    > Disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
+    > disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
 
      
 
 -   FWPM \_ de \_ couche \_ ALE \_ établi \_ V {4 \| 6}
     > [!Note]  
-    > Disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
+    > disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
 
      
 
@@ -170,19 +170,19 @@ Filtrage des couches :
 
 -   \_Transport entrant de la couche FWPM \_ \_ \_ V {4 \| 6}
     > [!Note]  
-    > Disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
+    > disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
 
      
 
 -   \_Transport sortant de la couche FWPM \_ \_ \_ V {4 \| 6}
     > [!Note]  
-    > Disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
+    > disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
 
      
 
 -   Données de datagramme de la \_ couche FWPM \_ \_ \_ {v4 \| 6}
     > [!Note]  
-    > Disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
+    > disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
 
      
 
@@ -247,9 +247,9 @@ Indique que le paquet sera reclassé au niveau de la couche de réception/accept
 
 
 
-Teste si Windows Sockets effectue une liaison implicite.
+teste si Windows sockets effectue une liaison implicite.
 
-Disponible uniquement sur Windows Vista et Windows Server 2008.
+disponible uniquement sur Windows Vista et Windows Server 2008.
 
 
 </dt> </dl> </dd> <dt>
@@ -262,7 +262,7 @@ Disponible uniquement sur Windows Vista et Windows Server 2008.
 Teste si le paquet a été réassemblé.
 
 > [!Note]  
-> Disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
+> disponible uniquement sur Windows Server 2008, Windows Vista avec SP1 et versions ultérieures.
 
  
 
@@ -281,7 +281,7 @@ Couche de filtrage :
 Teste si le nom de l’ordinateur homologue auquel l’application s’attend à se connecter a été reçu via une API telle que [**WSASetSocketPeerTargetName**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) et n’est pas obtenue via les heuristiques de mise en cache.
 
 > [!Note]  
-> Disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
+> disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
 
  
 
@@ -310,7 +310,7 @@ Réservé.
 Teste si la connexion est authentifiée de bout en bout, même si les paquets individuels n’ont pas été vérifiés.
 
 > [!Note]  
-> Disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
+> disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
 
  
 
@@ -330,7 +330,7 @@ Couche de filtrage :
 Teste si le moteur de filtrage reclasse une demande de liaison ou d’écoute précédente.
 
 > [!Note]  
-> Disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
+> disponible uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
 
  
 
@@ -350,7 +350,7 @@ Couche de filtrage :
 Teste si la connexion utilise un proxy.
 
 > [!Note]  
-> Disponible uniquement sur Windows 8 et Windows Server 2012.
+> disponible uniquement sur Windows 8 et Windows Server 2012.
 
  
 
@@ -365,7 +365,7 @@ Teste si la connexion utilise un proxy.
 Teste si le trafic réseau est un trafic de bouclage de conteneur d’application.
 
 > [!Note]  
-> Disponible uniquement sur Windows 8 et Windows Server 2012.
+> disponible uniquement sur Windows 8 et Windows Server 2012.
 
  
 
@@ -380,7 +380,7 @@ Teste si le trafic réseau est un trafic de bouclage de conteneur d’applicatio
 Teste si le trafic réseau est un trafic de bouclage de conteneur non-App.
 
 > [!Note]  
-> Disponible uniquement sur Windows 8 et Windows Server 2012.
+> disponible uniquement sur Windows 8 et Windows Server 2012.
 
  
 
@@ -402,10 +402,10 @@ Réservé.
 
 
 
-Indique que la classification en cours est en cours d’exécution pour honorer l’intention d’une application du Windows Store redirigée pour se connecter à un ordinateur hôte spécifié. Une telle classification contient les mêmes valeurs de champ de classement que si l’application n’a jamais été redirigée. L’indicateur indique également qu’une classification future sera appelée pour correspondre à la destination redirigée effective. Si l’application est redirigée vers un service proxy pour inspection, cela signifie également qu’une classification future sera appelée sur la connexion proxy. Les pilotes de légende doivent généralement autoriser cette classification.
+indique que la classification en cours est en cours d’exécution pour honorer l’intention d’une application redirigée de Windows Store pour se connecter à un ordinateur hôte spécifié. Une telle classification contient les mêmes valeurs de champ de classement que si l’application n’a jamais été redirigée. L’indicateur indique également qu’une classification future sera appelée pour correspondre à la destination redirigée effective. Si l’application est redirigée vers un service proxy pour inspection, cela signifie également qu’une classification future sera appelée sur la connexion proxy. Les pilotes de légende doivent généralement autoriser cette classification.
 
 > [!Note]  
-> Disponible uniquement sur Windows 8 et Windows Server 2012.
+> disponible uniquement sur Windows 8 et Windows Server 2012.
 
  
 
@@ -419,7 +419,7 @@ Couche de filtrage :
 Les indicateurs suivants spécifient la raison de la réautorisation d’une connexion précédemment autorisée. Ces indicateurs et les couches de filtrage dans lesquelles ils peuvent être utilisés sont définis comme suit.
 
 > [!Note]  
-> Ces conditions de filtrage sont uniquement disponibles sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
+> ces conditions de filtrage sont disponibles uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
 
  
 
@@ -562,7 +562,7 @@ Couche de filtrage :
 Les indicateurs suivants spécifient les propriétés de socket qui sont liées au fait qu’une application souhaite recevoir le trafic de traversée latérale. Ces indicateurs et les couches de filtrage dans lesquelles ils peuvent être utilisés sont définis comme suit.
 
 > [!Note]  
-> Ces conditions de filtrage sont uniquement disponibles sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
+> ces conditions de filtrage sont disponibles uniquement sur Windows Server 2008 R2, Windows 7 et versions ultérieures.
 
  
 
@@ -616,7 +616,7 @@ Couche de filtrage :
 Les indicateurs suivants spécifient les détails de connexion relatifs au filtrage L2.
 
 > [!Note]  
-> Ces conditions de filtrage sont uniquement disponibles sur Windows 8 et Windows Server 2012.
+> ces conditions de filtrage sont disponibles uniquement sur Windows 8 et Windows Server 2012.
 
  
 
@@ -764,8 +764,8 @@ Couche de filtrage :
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Fwptypes. h</dt> </dl> |
 
 

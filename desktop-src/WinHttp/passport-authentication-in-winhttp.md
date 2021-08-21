@@ -1,19 +1,19 @@
 ---
-description: Les services HTTP Microsoft Windows (WinHTTP) prennent entièrement en charge l’utilisation côté client du protocole d’authentification Microsoft Passport. Cette rubrique fournit une vue d’ensemble des transactions impliquées dans l’authentification Passport et explique comment les gérer.
+description: les Services HTTP Microsoft Windows (WinHTTP) prennent entièrement en charge l’utilisation côté client du protocole d’authentification Microsoft Passport. Cette rubrique fournit une vue d’ensemble des transactions impliquées dans l’authentification Passport et explique comment les gérer.
 ms.assetid: 395d7aef-4da0-4664-8328-7d31ce58fedd
 title: Authentification Passport dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8fc00217c7c14fbd4635fab68398d2056c1ea5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f69d6aff7f8924c307d4e21efb77bc57ebae2469e50361b57d12dce5b348555e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114301"
 ---
 # <a name="passport-authentication-in-winhttp"></a>Authentification Passport dans WinHTTP
 
-Les services HTTP Microsoft Windows (WinHTTP) prennent entièrement en charge l’utilisation côté client du protocole d’authentification Microsoft Passport. Cette rubrique fournit une vue d’ensemble des transactions impliquées dans l’authentification Passport et explique comment les gérer.
+les Services HTTP Microsoft Windows (WinHTTP) prennent entièrement en charge l’utilisation côté client du protocole d’authentification Microsoft Passport. Cette rubrique fournit une vue d’ensemble des transactions impliquées dans l’authentification Passport et explique comment les gérer.
 
 > [!Note]  
 > Dans WinHTTP 5,1, l’authentification Passport est désactivée par défaut.
@@ -24,9 +24,9 @@ Les services HTTP Microsoft Windows (WinHTTP) prennent entièrement en charge l�
 
 Passport est un composant principal des services de bloc de Microsoft .NET. Elle permet aux entreprises de développer et d’offrir des services Web distribués dans un large éventail d’applications et permet à ses membres d’utiliser un nom et un mot de passe de connexion sur tous les sites Web participants.
 
-WinHTTP assure la prise en charge de la plateforme pour Microsoft Passport 1,4 en implémentant le protocole côté client pour l’authentification Passport 1,4. Il libère les applications des détails de l’interaction avec l’infrastructure Passport et des noms d’utilisateurs et mots de passe stockés dans Windows XP. Cette abstraction utilise Passport, et non pas du point de vue d’un développeur, que les schémas d’authentification traditionnels comme Basic ou Digest.
+WinHTTP assure la prise en charge de la plateforme pour Microsoft Passport 1,4 en implémentant le protocole côté client pour l’authentification Passport 1,4. il libère les applications des détails de l’interaction avec l’infrastructure Passport et des noms d’utilisateurs et mots de passe stockés dans Windows XP. Cette abstraction utilise Passport, et non pas du point de vue d’un développeur, que les schémas d’authentification traditionnels comme Basic ou Digest.
 
-**Windows XP :** La clé de Registre **\\ Passport NumRegistrationRuns du logiciel HKCU \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet \\ \\** identifie le nombre de fois où l’Assistant authentification Passport s’affiche lorsque l’authentification Passport est requise. Si la valeur de cette clé est définie sur un nombre supérieur à 5, l’Assistant n’est pas affiché.
+**Windows XP :** la clé de registre **HKCU \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet Paramètres \\ Passport \\ NumRegistrationRuns** identifie le nombre de fois où l’assistant authentification passport s’affiche lorsque l’authentification passport est requise. Si la valeur de cette clé est définie sur un nombre supérieur à 5, l’Assistant n’est pas affiché.
 
 Les sections suivantes décrivent les transactions impliquées dans l’authentification Passport du point de vue d’une application cliente. Pour le développement Passport côté serveur, consultez la présentation de la documentation du kit de développement logiciel (SDK) Passport.
 
@@ -96,7 +96,7 @@ Contrairement aux schémas d’authentification traditionnels pris en charge par
 
 ### <a name="stored-user-names-and-passwords"></a>Noms d’utilisateur et mots de passe stockés
 
-Windows XP a introduit le concept de noms d’utilisateurs et de mots de passe stockés. Si les informations d’identification Passport d’un utilisateur sont enregistrées via l' **Assistant Inscription Passport** ou la **boîte de dialogue informations d’identification** standard, elles sont enregistrées dans les noms d’utilisateur et mots de passe stockés. Quand vous utilisez WinHTTP sur Windows XP ou version ultérieure, WinHTTP utilise automatiquement les informations d’identification dans les noms d’utilisateurs et les mots de passe stockés si les informations d’identification ne sont pas définies explicitement. Cela est similaire à la prise en charge des informations d’identification d’ouverture de session par défaut pour NTLM/Kerberos. Toutefois, l’utilisation des informations d’identification Passport par défaut n’est pas soumise aux paramètres de stratégie d’ouverture de session automatique.
+Windows XP a introduit le concept de noms d’utilisateurs et de mots de passe stockés. Si les informations d’identification Passport d’un utilisateur sont enregistrées via l' **Assistant Inscription Passport** ou la **boîte de dialogue informations d’identification** standard, elles sont enregistrées dans les noms d’utilisateur et mots de passe stockés. quand vous utilisez winhttp sur Windows XP ou version ultérieure, winhttp utilise automatiquement les informations d’identification dans les noms d’utilisateurs et les mots de passe stockés si les informations d’identification ne sont pas définies explicitement. Cela est similaire à la prise en charge des informations d’identification d’ouverture de session par défaut pour NTLM/Kerberos. Toutefois, l’utilisation des informations d’identification Passport par défaut n’est pas soumise aux paramètres de stratégie d’ouverture de session automatique.
 
 ### <a name="disabling-passport-authentication"></a>Désactivation de l’authentification Passport
 

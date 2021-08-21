@@ -1,29 +1,29 @@
 ---
-description: Génération du graphique de recompression
+description: Génération de la Graph de recompression
 ms.assetid: 8f25c60e-30be-4cc4-b924-b8d6654604d3
-title: Génération du graphique de recompression
+title: Génération de la Graph de recompression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b8ea604bead34c22c123bbabe5d88e985006a9e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0432f51e5309a308b32535993fef04da1762d45f179e1ab3a6826d4c5432b02b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159094"
 ---
-# <a name="building-the-recompression-graph"></a>Génération du graphique de recompression
+# <a name="building-the-recompression-graph"></a>Génération de la Graph de recompression
 
 Un graphique de filtre classique pour la recompression de fichiers AVI ressemble à ce qui suit :
 
 ![graphique de recompression AVI](images/avi2avi4.png)
 
-Le [filtre de séparateur AVI](avi-splitter-filter.md) extrait les données du [filtre source de fichier (Async)](file-source--async--filter.md) et les analyse dans des flux vidéo et audio. Le décompresseur vidéo décode la vidéo compressée, où elle est recompressée par le compresseur vidéo. Le choix des décompresseurs dépend du fichier source ; il sera géré automatiquement par [intelligent Connect](intelligent-connect.md). L’application doit choisir le compresseur, généralement en présentant une liste à l’utilisateur. (Voir [choix d’un filtre de compression](choosing-a-compression-filter.md).)
+Le [filtre de séparateur AVI](avi-splitter-filter.md) extrait les données du [filtre source de fichier (Async)](file-source--async--filter.md) et les analyse dans des flux vidéo et audio. Le décompresseur vidéo décode la vidéo compressée, où elle est recompressée par le compresseur vidéo. Le choix des décompresseurs dépend du fichier source ; il sera géré automatiquement par les [connecter intelligentes](intelligent-connect.md). L’application doit choisir le compresseur, généralement en présentant une liste à l’utilisateur. (Voir [choix d’un filtre de compression](choosing-a-compression-filter.md).)
 
 La vidéo compressée passe alors au [filtre multiplex MUX](avi-mux-filter.md). Le flux audio de cet exemple n’étant pas compressé, il passe directement du séparateur AVI à AVI Mux. Le multiplexeur de fichiers AVI entrelace les deux flux et le [filtre du writer de fichier](file-writer-filter.md) écrit la sortie sur le disque. Notez que le multiplexeur de données AVI est requis même si le fichier d’origine n’a pas de flux audio.
 
-Le moyen le plus simple de créer ce graphique de filtre consiste à utiliser le [Générateur de graphiques de capture](capture-graph-builder.md), qui est un composant DirectShow pour générer des graphiques de capture et d’autres graphiques de filtres personnalisés.
+le moyen le plus simple de créer ce graphique de filtre consiste à utiliser la [Graph de capture](capture-graph-builder.md), qui est un composant DirectShow pour générer des graphiques de capture et d’autres graphiques de filtres personnalisés.
 
-Commencez par appeler CoCreateInstance pour créer le générateur de graphiques de capture :
+commencez par appeler CoCreateInstance pour créer le générateur de Graph de Capture :
 
 
 ```C++
@@ -35,11 +35,11 @@ hr = CoCreateInstance(CLSID_CaptureGraphBuilder2,
 
 
 
-Utilisez ensuite le générateur de graphiques de capture pour générer le graphique de filtre :
+utilisez ensuite le générateur de Graph de Capture pour générer le graphique de filtre :
 
 1.  Générez la section de rendu du graphique, qui comprend le filtre multiplex MUX et le [writer de fichier](file-writer-filter.md).
 2.  Ajoutez le filtre source et le filtre de compression au graphique.
-3.  Connectez le filtre source au filtre MUX. Le générateur de graphiques de capture insère les filtres de séparateur et de décodeur nécessaires pour analyser le fichier source. Il peut également acheminer les flux vidéo et audio via des filtres de compression.
+3.  Connecter le filtre de la source au filtre MUX. Le générateur de graphiques de capture insère les filtres de séparateur et de décodeur nécessaires pour analyser le fichier source. Il peut également acheminer les flux vidéo et audio via des filtres de compression.
 
 Les sections suivantes décrivent chacune de ces étapes.
 
@@ -72,7 +72,7 @@ Le filtre MUX expose deux interfaces pour le contrôle du format AVI :
 
 Ajouter les filtres source et de compression
 
-L’étape suivante consiste à ajouter les filtres source et de compression au graphique de filtre. Le générateur de graphiques de capture crée automatiquement une instance du gestionnaire de graphes de filtre quand vous appelez SetOutputFileName. Pour obtenir un pointeur vers cette dernière, appelez la méthode [**ICaptureGraphBuilder2 :: GetFiltergraph**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-getfiltergraph) :
+L’étape suivante consiste à ajouter les filtres source et de compression au graphique de filtre. le générateur de Graph de Capture crée automatiquement une instance du gestionnaire de Graph de filtre quand vous appelez SetOutputFileName. Pour obtenir un pointeur vers cette dernière, appelez la méthode [**ICaptureGraphBuilder2 :: GetFiltergraph**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-getfiltergraph) :
 
 
 ```C++
@@ -97,7 +97,7 @@ hr = pGraph->AddFilter(pVComp, L"Compressor");
 
 ![filtrer le graphique avec les filtres source et de compression](images/avi2avi2.png)
 
-Connecter la source au multiplexeur
+Connecter la Source au multiplexeur
 
 La dernière étape consiste à connecter le filtre source au filtre multiplex MUX par le biais du compresseur vidéo. Utilisez la méthode [**ICaptureGraphBuilder2 :: RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) , qui connecte une broche de sortie sur le filtre source à un filtre de récepteur spécifié, éventuellement à l’aide d’un filtre de compression.
 

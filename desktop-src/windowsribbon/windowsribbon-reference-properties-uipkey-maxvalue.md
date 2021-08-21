@@ -4,12 +4,12 @@ description: Identifie la propriété de la \_ \_ propriété hypermaxvalue de l
 ms.assetid: f05436ed-b8bd-4374-af12-d9b114d98f6c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46558e0b36c0be8b13889f8771e4505e7dc05701
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6057c334c114cc292c67bade0254b095195cca9f29d492385eb1663f13dc0ff9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118031449"
 ---
 # <a name="ui_pkey_maxvalue"></a>IU-# \_ \_ MaxValue
 
@@ -17,15 +17,15 @@ Identifie la propriété de la \_ \_ propriété hypermaxvalue de l’interface 
 
 ```
 propertyDescription
-   name = UI_PKEY_MaxValue
-   shellPKey = UI_PKEY_MaxValue
-   formatID = 00000203-7363-696e-8441798acf5aebb7
-   propID = 203
-   typeInfo
-      type = VT_DECIMAL
+   name = UI_PKEY_MaxValue
+   shellPKey = UI_PKEY_MaxValue
+   formatID = 00000203-7363-696e-8441798acf5aebb7
+   propID = 203
+   typeInfo
+      type = VT_DECIMAL
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' \_ UI \_ hypermaxvalue est utilisé par une application pour interroger la valeur maximale du contrôle [Spinner](windowsribbon-controls-spinner.md) .
 
@@ -36,9 +36,9 @@ L' \_ UI \_ hypermaxvalue est utilisé par une application pour interroger la va
 [Propriétés de l’État](windowsribbon-reference-properties-state.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

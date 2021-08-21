@@ -60,12 +60,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b65390c7cb03f195e9de39aedc3629688717e0fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47d8b46f9ae438f99965ee8e49b15b246a38a77685a141729330d842bc8edb9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147258"
 ---
 # <a name="msvm_scsiprotocolcontroller-class"></a>MSVM \_ SCSIProtocolController, classe
 
@@ -142,7 +142,7 @@ La classe **MSVM \_ SCSIProtocolController** possède ces méthodes.
 | **OnlineDevice**                                                             | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                            | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-scsiprotocolcontroller-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-scsiprotocolcontroller-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
+| [**Initialisation**](msvm-scsiprotocolcontroller-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
 | **RestoreProperties**                                                        | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                           | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                            | Cette méthode n'est pas prise en charge.<br/> |
@@ -893,7 +893,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ SCSIProtocolController** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -903,8 +903,8 @@ L’accès à la classe **MSVM \_ SCSIProtocolController** peut être limité pa
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -921,7 +921,7 @@ L’accès à la classe **MSVM \_ SCSIProtocolController** peut être limité pa
 [**\_SCSIPROTOCOLCONTROLLER CIM**](/previous-versions/windows/desktop/iscsitarg/cim-protocolcontroller)
 </dt> <dt>
 
-[Classes de stockage](storage-classes.md)
+[Stockage Catégories](storage-classes.md)
 </dt> </dl>
 
  

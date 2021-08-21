@@ -1,9 +1,9 @@
 ---
-title: EC_WMT_EVENT (kit de développement logiciel (SDK) Windows Media format 11)
+title: EC_WMT_EVENT (kit de développement logiciel (SDK) Windows Media Format 11)
 description: '\_événement EC WMT \_'
 ms.assetid: 51d51659-8e7d-49b7-83f2-a80e99d39d78
 keywords:
-- Kit de développement logiciel (SDK) Windows Media format, EC_WMT_EVENT
+- Windows Media Format SDK, EC_WMT_EVENT
 - DirectShow, EC_WMT_EVENT
 - EC_WMT_EVENT
 - gestion des droits numériques (DRM), EC_WMT_EVENT
@@ -12,16 +12,16 @@ keywords:
 - ASF (format avancé des systèmes), EC_WMT_EVENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebe74baaba676a97e609b4c03cd4db9010bd8f6a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: dbe0e53a759515914a352707550e281aca3aebe096f168352c36c1ff4200b2ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118029218"
 ---
-# <a name="ec_wmt_event-windows-media-format-11-sdk"></a>EC_WMT_EVENT (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="ec_wmt_event-windows-media-format-11-sdk"></a>EC_WMT_EVENT (kit de développement logiciel (SDK) Windows Media Format 11)
 
-Envoyé par le kit de développement logiciel (SDK) de format Windows Media lorsqu’une application utilise le filtre de lecteur ASF pour lire des fichiers ASF protégés par la gestion des droits numériques (DRM).
+envoyé par le kit de développement logiciel (SDK) de Format multimédia Windows lorsqu’une application utilise le filtre de lecteur asf pour lire des fichiers asf protégés par la gestion des droits numériques (DRM).
 
 Paramètres
 
@@ -45,7 +45,7 @@ Il peut s’agir de l’une des valeurs d’État WMT suivantes \_ .
 
 *lParam2*
 
-Pointeur vers une structure de **données d’événement « am \_ \_ \_ WMT** » qui contient des informations sur l’événement dans le pointeur de membre **pData** , ainsi qu’un code d’état **HRESULT** envoyé par le kit de développement logiciel (SDK) de format Windows Media. La valeur de *lParam2* dépend de la valeur de *lParam1*, comme décrit dans le tableau suivant. (Les structures « WM \_ » sont définies dans le kit de développement logiciel (SDK) du format Windows Media.)
+pointeur vers une structure de **données d’événement « AM \_ \_ \_ WMT** » qui contient des informations sur l’événement dans le pointeur de membre **pData** , ainsi qu’un code d’état **HRESULT** envoyé par le kit de développement logiciel (SDK) de Format multimédia Windows. La valeur de *lParam2* dépend de la valeur de *lParam1*, comme décrit dans le tableau suivant. (les structures « WM \_ » sont définies dans le kit de développement logiciel (SDK) Format multimédia Windows.)
 
 
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de **données d’événement « am \_ \_ \_ WMT** 
 [**Fonctionnalités de Rights Management numérique**](digital-rights-management-features.md)
 </dt> <dt>
 
-[**Informations de référence sur DirectShow QASF**](directshow-qasf-reference.md)
+[**DirectShow Référence QASF**](directshow-qasf-reference.md)
 </dt> <dt>
 
 [**Activation de la prise en charge de DRM**](enabling-drm-support.md)

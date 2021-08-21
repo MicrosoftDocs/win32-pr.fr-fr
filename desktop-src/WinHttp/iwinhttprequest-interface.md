@@ -1,5 +1,5 @@
 ---
-description: L’interface IWinHttpRequest fournit toutes les méthodes inégales pour les services HTTP Microsoft Windows (WinHTTP).
+description: l’interface IWinHttpRequest fournit toutes les méthodes inégales pour Microsoft Windows HTTP Services (WinHTTP).
 ms.assetid: 6417b3b5-b74a-4c7b-acf9-87e2e814a4df
 title: Interface IWinHttpRequest
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 77ebc8947ad36d2dc9efba121cdd6da2d6de359b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87a31ebe116726d70eb847fe54d563be57477f7133147226657c4c74135defa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114398"
 ---
 # <a name="iwinhttprequest-interface"></a>Interface IWinHttpRequest
 
-L’interface **IWinHttpRequest** fournit toutes les méthodes inégales pour les [services http Microsoft Windows (WinHTTP)](about-winhttp.md).
+l’interface **IWinHttpRequest** fournit toutes les méthodes inégales pour [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md).
 
 ## <a name="members"></a>Membres
 
@@ -39,7 +39,7 @@ L’interface **IWinHttpRequest** possède ces méthodes.
 
 | Méthode                                                                 | Description                                                                                                                             |
 |:-----------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| [**Abandon**](iwinhttprequest-abort.md)                                 | Abandonne une méthode d' [**envoi**](iwinhttprequest-send.md) [WinHTTP](about-winhttp.md) .<br/>                                           |
+| [**Arrêté**](iwinhttprequest-abort.md)                                 | Abandonne une méthode d' [**envoi**](iwinhttprequest-send.md) [WinHTTP](about-winhttp.md) .<br/>                                           |
 | [**GetAllResponseHeaders**](iwinhttprequest-getallresponseheaders.md) | Récupère tous les en-têtes de réponse HTTP.<br/>                                                                                         |
 | [**GetResponseHeader**](iwinhttprequest-getresponseheader.md)         | Récupère les en-têtes de réponse HTTP.<br/>                                                                                         |
 | [**Afficher**](iwinhttprequest-open.md)                                   | Ouvre une connexion HTTP à une ressource HTTP.<br/>                                                                                |
@@ -68,19 +68,19 @@ L’interface **IWinHttpRequest** possède les propriétés suivantes.
 | [**ResponseBody**](iwinhttprequest-responsebody.md)<br/>     | Lecture seule<br/>  | Corps d’entité de réponse sous la forme d’un tableau d’octets non signés.<br/>    |
 | [**ResponseStream**](iwinhttprequest-responsestream.md)<br/> | Lecture seule<br/>  | Corps d’entité de réponse en tant qu' [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).<br/> |
 | [**ResponseText**](iwinhttprequest-responsetext.md)<br/>     | Lecture seule<br/>  | Corps d’entité de réponse.<br/>                                  |
-| [**Statu**](iwinhttprequest-status.md)<br/>                 | Lecture seule<br/>  | Code d’état HTTP de la dernière réponse.<br/>               |
+| [**État**](iwinhttprequest-status.md)<br/>                 | Lecture seule<br/>  | Code d’état HTTP de la dernière réponse.<br/>               |
 | [**StatusText**](iwinhttprequest-statustext.md)<br/>         | Lecture seule<br/>  | Texte d’état HTTP.<br/>                                      |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **IWinHttpRequest** définie dans HttpRequest. idl est implémentée par une classe avec l’ID **CLSID \_ WinHttpRequest**. Une application obtient cette interface en appelant [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) avec l’ID de classe **CLSID \_ WinHttpRequest** et l’ID d’interface **\_ IWinHttpRequest IID**.
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHttp.
 
  
 
@@ -90,8 +90,8 @@ L’interface **IWinHttpRequest** définie dans HttpRequest. idl est implément�
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

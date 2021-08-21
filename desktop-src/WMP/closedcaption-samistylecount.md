@@ -3,7 +3,7 @@ title: ClosedCaption.SAMIStyleCount
 description: La propriété SAMIStyleCount récupère le nombre de styles pris en charge par le fichier SAMI actuel.
 ms.assetid: 57a85e5d-1598-4cb3-b47d-a6d8f22adfff
 keywords:
-- Lecteur Windows Media ClosedCaption. SAMIStyleCount
+- ClosedCaption. SAMIStyleCount Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ab48fc6660065da1635b58b67784f2ab0ff91b8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6e5563e40fabfa2cc82dc24598414f312192f864ecacd6ed743834e12e06759
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118119520"
 ---
 # <a name="closedcaptionsamistylecount"></a>ClosedCaption.SAMIStyleCount
 
@@ -33,7 +33,7 @@ player.closedCaption.SAMIStyleCount
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne peut pas être utilisée tant qu’un fichier multimédia numérique n’est pas ouvert (*lecteur*.**openState** est égal à 13).
 

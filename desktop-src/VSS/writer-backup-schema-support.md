@@ -4,12 +4,12 @@ ms.assetid: ea504f8e-26d9-499e-b3e9-03515b480a75
 title: Prise en charge du schéma de sauvegarde de l’enregistreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 593df12f552f206d5d0eedbf8d021b69ef955c6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56b037591d6deda2657acdfe4f4e4755fef96b52bafc92e4cc51e4ef7119de1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344242"
 ---
 # <a name="writer-backup-schema-support"></a>Prise en charge du schéma de sauvegarde de l’enregistreur
 
@@ -24,7 +24,7 @@ L’implémentation complète d’une sauvegarde nécessite la participation des
 -   Emplacements de restauration personnalisés ( \_ l' \_ enregistreur VSS BS \_ prend en charge \_ \_ la nouvelle cible) : indique la prise en charge de l’enregistreur pour un demandeur qui change, au moment de la restauration, où ses fichiers sont restaurés. Cela signifie qu’un writer a été codé pour vérifier ce réadressage (à l’aide de [**IVssComponent :: GetNewTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getnewtarget)) et qu’il dispose de la capacité nécessaire pour travailler avec des fichiers déplacés.
 -   Restore with Move (VSS \_ BS \_ writer \_ prend en charge \_ Restore \_ with \_ Move) : indique que le writer prend en charge l’exécution de plusieurs instances d’écriture avec le même ID de classe et qu’il prend en charge le déplacement d’un composant vers une instance de writer différente au moment de la restauration. L’instance de writer est spécifiée à l’aide d’un nom d’instance d’enregistreur persistant qui a été passé comme paramètre *wszWriterInstanceName* à la méthode [**CVssWriter :: Initialize**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-initialize) . Un demandeur peut obtenir le nom de l’instance du writer à l’aide de [**IVssExamineWriterMetadataEx :: GetIdentityEx**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex) et déplacer les composants pendant la restauration à l’aide de [**IVssBackupComponentsEx :: SetSelectedForRestoreEx**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex-setselectedforrestoreex).
 
-    **Windows Server 2003 et Windows XP :** Cette valeur n’est pas prise en charge tant que Windows Server 2003 avec Service Pack 1 (SP1) n’est pas pris en charge.
+    **Windows Server 2003 et Windows XP :** cette valeur n’est pas prise en charge jusqu’à Windows Server 2003 avec Service Pack 1 (SP1).
 
 -   Incrémentielle (VSS \_ BS \_ incrémentielle) : indique que le writer utilise l’API VSS pour aider le demandeur, en veillant à ce que seuls les fichiers qui ont été modifiés ou ajoutés depuis la dernière sauvegarde complète ou incrémentielle soient copiés sur un support de stockage.
 
@@ -39,15 +39,15 @@ L’implémentation complète d’une sauvegarde nécessite la participation des
 -   Incremental/Differential : limitation de prise en charge (VSS \_ BS \_ exclusive \_ INCREMENTAL \_ Differential) : indique la prise en charge de l’enregistreur des schémas de sauvegarde différentielle ou incrémentielle, mais uniquement : par exemple, vous ne pouvez pas suivre une sauvegarde incrémentielle avec une sauvegarde différentielle.
 -   État du système indépendant (VSS \_ BS \_ Independent \_ System \_ State) : indique que le writer prend en charge la sauvegarde des données qui font partie de l’état du système, mais qui peuvent également être sauvegardées indépendamment de l’état du système.
 
-    **Windows Server 2003 et Windows XP :** Cette valeur n’est pas prise en charge jusqu’à Windows Vista.
+    **Windows Server 2003 et Windows XP :** cette valeur n’est pas prise en charge tant que Windows Vista.
 
 -   Roll-Forward Restore (VSS \_ BS \_ restauration par progression \_ Restore) : indique que le writer prend en charge le paramètre d’un demandeur de restauration par progression à l’aide de [**IVssBackupComponentsEx2 :: SetRollForward**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward).
 
-    **Windows Server 2003 et Windows XP :** Cette valeur n’est pas prise en charge jusqu’à Windows Vista.
+    **Windows Server 2003 et Windows XP :** cette valeur n’est pas prise en charge tant que Windows Vista.
 
 -   Restore Rename (renommer VSS \_ BS \_ \_ ) : indique que le writer prend en charge un demandeur de nom de restauration à l’aide de [**IVssBackupComponentsEx2 :: SetRestoreName**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename).
 
-    **Windows Server 2003 et Windows XP :** Cette valeur n’est pas prise en charge jusqu’à Windows Vista.
+    **Windows Server 2003 et Windows XP :** cette valeur n’est pas prise en charge tant que Windows Vista.
 
 -   Restauration faisant autorité (VSS \_ BS \_ faisant autorité \_ ) : indique que le writer prend en charge un paramètre de demandeur faisant autorité de la restauration à l’aide de [**IVssBackupComponentsEx2 :: SetAuthoritativeRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-setauthoritativerestore).
 

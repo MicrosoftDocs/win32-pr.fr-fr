@@ -4,12 +4,12 @@ description: Les cookies HTTP fournissent au serveur un mécanisme de stockage e
 ms.assetid: c3574592-572f-4fde-adfa-aed3e862f13f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a6855f0b105dc73760541bf9eb7a6da80dfb38e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f0ba5b2d3917ea8f140e334f5f78b1bd730908d25506d9023667403410833c80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113713"
 ---
 # <a name="http-cookies"></a>Cookies HTTP
 
@@ -92,7 +92,7 @@ La définition du chemin d’accès, à l’aide du modèle Path =*some \_ path*
 
 Le cookie peut également être marqué comme sécurisé, ce qui indique que le cookie peut être envoyé uniquement aux serveurs HTTPS.
 
-Enfin, un cookie peut être marqué comme HttpOnly (les attributs ne respectent pas la casse), pour indiquer que le cookie est non scriptable et ne doit pas être révélé à l’application cliente pour des raisons de sécurité. Dans Windows Internet, cela signifie que le cookie ne peut pas être récupéré via la fonction **InternetGetCookie** .
+Enfin, un cookie peut être marqué comme HttpOnly (les attributs ne respectent pas la casse), pour indiquer que le cookie est non scriptable et ne doit pas être révélé à l’application cliente pour des raisons de sécurité. dans Windows Internet, cela signifie que le cookie ne peut pas être récupéré via la fonction **InternetGetCookie** .
 
 ### <a name="cookie-header"></a>En-tête de cookie
 
@@ -106,7 +106,7 @@ Une ou plusieurs séquences de chaînes, à l’aide de la valeur de *nom* de fo
 
 ## <a name="generating-cookies"></a>Génération de cookies
 
-Il existe trois méthodes pour générer des cookies pour Microsoft Internet Explorer : à l’aide de Microsoft JScript, à l’aide des fonctions WinINet et à l’aide d’un script CGI. Toutes les méthodes doivent définir les informations qui sont incluses dans l’en-tête Set-Cookie.
+il existe trois méthodes pour générer des cookies pour microsoft Internet Explorer : à l’aide de microsoft JScript, à l’aide des fonctions WinINet et à l’aide d’un script CGI. Toutes les méthodes doivent définir les informations qui sont incluses dans l’en-tête Set-Cookie.
 
 ### <a name="generating-a-cookie-using-the-dhtml-object-model"></a>Génération d’un cookie à l’aide du modèle objet DHTML
 
@@ -137,10 +137,10 @@ print "Set-Cookie:Test=test_value;
 ```
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

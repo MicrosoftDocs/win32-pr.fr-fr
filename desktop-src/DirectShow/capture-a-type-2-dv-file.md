@@ -4,12 +4,12 @@ ms.assetid: c7d49c86-1b5d-43bf-98a5-78b297682375
 title: Capturer un fichier DV de type 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b919928a4c02ce9e3f3f3e6fcf3d2cd376f880a8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9c944c84ed6cf04ec46de99a209a7b3d2942ae5157bc3ff9d14104da6615d03d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158739"
 ---
 # <a name="capture-a-type-2-dv-file"></a>Capturer un fichier DV de type 2
 
@@ -67,7 +67,7 @@ hr = pBuilder->RenderStream(&PIN_CATEGORY_PREVIEW, &MEDIATYPE_Interleaved,
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
  

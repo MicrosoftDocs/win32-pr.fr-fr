@@ -4,12 +4,12 @@ ms.assetid: 10fb56dd-3c96-4944-9b53-aee76c269528
 title: Hébergement multiple et PGM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 142527c7fdf3e5d34d80c51e4002bc21ad47691c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e19ab149c8068c1a13f2c8089a567157618ef7287e8ef632145e5b934d626c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112083"
 ---
 # <a name="multihoming-and-pgm"></a>Hébergement multiple et PGM
 
@@ -27,9 +27,9 @@ Windows Sockets gère l’interface définie et, si cette interface disparaît, 
 
 Quand une application ne parvient pas à spécifier une interface lors de l’appel de la fonction [**Listen**](/windows/desktop/api/Winsock2/nf-winsock2-listen) , l’interface par défaut est utilisée. Si aucune interface n’est disponible, la [**liaison**](/windows/desktop/api/winsock/nf-winsock-bind) échoue.
 
-Lorsqu’une application spécifie une ou plusieurs interfaces sur lesquelles écouter, à l’aide de [RM \_ Add \_ Receive \_ si](socket-options.md), Windows Sockets tente de se lier à l’interface ou aux interfaces demandées à l’aide de TCP/IP. Toute erreur de TCP/IP entraîne l’échec de cette requête. Contrairement au cas de l’expéditeur PGM, l’ajout de plusieurs fois à une interface de réception entraîne la publication de l’écoute sur toutes les interfaces ajoutées avec succès. Utilisez l' \_ \_ option recevoir si le socket RM del \_ pour arrêter l’écoute sur une interface.
+lorsqu’une application spécifie une ou plusieurs interfaces sur lesquelles écouter, à l’aide de [RM \_ ADD \_ RECEIVE \_ si](socket-options.md), Windows sockets tente de lier à l’interface ou aux interfaces demandées à l’aide de TCP/IP. Toute erreur de TCP/IP entraîne l’échec de cette requête. Contrairement au cas de l’expéditeur PGM, l’ajout de plusieurs fois à une interface de réception entraîne la publication de l’écoute sur toutes les interfaces ajoutées avec succès. Utilisez l' \_ \_ option recevoir si le socket RM del \_ pour arrêter l’écoute sur une interface.
 
-Windows Sockets ne conserve pas l’État sur plusieurs interfaces d’écoute spécifiées et s’appuie plutôt sur le protocole TCP/IP pour le faire. Toutefois, une fois qu’une session est en cours, les sockets Windows effectuent le suivi de l’interface entrante pour cette session et, si cette interface disparaît, Windows Sockets déconnecte la session.
+Windows Les sockets ne maintiennent pas l’État sur plusieurs interfaces d’écoute spécifiées et s’appuient sur le protocole TCP/IP pour le faire. toutefois, une fois qu’une session est en cours, Windows sockets effectue le suivi de l’interface entrante pour cette session et, si cette interface disparaît, Windows sockets déconnecte la session.
 
  
 

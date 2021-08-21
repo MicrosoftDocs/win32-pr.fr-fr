@@ -4,12 +4,12 @@ description: Le Guide de programmation contient des informations sur l’utilisa
 ms.assetid: ee4dae04-1a52-4587-87c1-006abb687a91
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82b6ec64e315275ca6faaf513d04f996609615a2
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: a255aff973e356ec9b5c1c77a622cb509082e21f9f9136d1041b5d9318f63e27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104032067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118099164"
 ---
 # <a name="direct3d-11-features"></a>Fonctionnalités Direct3D 11
 
@@ -162,7 +162,7 @@ Il s’agit d’une liste complète des fonctionnalités de Direct3D 11.
 
 Pour obtenir la liste des fonctionnalités ajoutées dans les versions précédentes, consultez les rubriques suivantes :
 
--   [Nouveautés du kit de développement logiciel (SDK) Windows 7/Direct3D 11 d’août 2009](dx11-whats-new.md)
+-   [nouveautés du kit de développement logiciel (SDK) Windows 7/Direct3D 11 d’août 2009](dx11-whats-new.md)
 -   [Nouveautés de la version d’évaluation technique de Direct3D 11 de novembre 2008](dx11-08nov-whats-new.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
@@ -172,6 +172,6 @@ Pour obtenir la liste des fonctionnalités ajoutées dans les versions précéde
 [Nouveautés de Direct3D 11](dx-graphics-overviews-introduction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
