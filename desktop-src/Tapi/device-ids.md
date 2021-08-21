@@ -4,12 +4,12 @@ ms.assetid: 3e8e18fc-d577-4406-8225-048813c4cb9e
 title: ID des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc8eb9d43b22ab6cd39a90ab8ed0776c4e043ef3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51363d5b5de2ee45858c5500231ef2b9840087160574e9884958fb724328932e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118867391"
 ---
 # <a name="device-ids"></a>ID des appareils
 

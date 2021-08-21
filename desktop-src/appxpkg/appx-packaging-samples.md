@@ -1,19 +1,19 @@
 ---
 title: Exemples de SDK d’empaquetage, de déploiement et de requête
-description: Ces exemples illustrent les API de Packaging, de déploiement et de requête des applications Windows.
+description: ces exemples illustrent les api de packaging, de déploiement et de requête pour les applications Windows.
 ms.assetid: 2D27A7EC-3F80-4F0A-A9E3-47D81C409C63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6684aa06e7337e86e11a8b638da018dde7a83e71
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 4008903a2547e387482473574b785d3c09f10b9700582036156a31b7ec4d653e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104381771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118814521"
 ---
 # <a name="packaging-deployment-and-query-sdk-samples"></a>Exemples de SDK d’empaquetage, de déploiement et de requête
 
-Ces exemples illustrent les API de Packaging, de déploiement et de requête des applications Windows.
+ces exemples illustrent les api de packaging, de déploiement et de requête pour les applications Windows.
 
 ## <a name="packaging-api-samples"></a>Exemples d’API de Packaging
 
@@ -48,6 +48,6 @@ Ces exemples illustrent les API de Packaging, de déploiement et de requête des
 [API de requête de package](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

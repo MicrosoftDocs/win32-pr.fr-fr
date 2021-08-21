@@ -4,16 +4,16 @@ ms.assetid: 9ebdcf51-e095-4173-97d6-7754560abfb5
 title: 'ITMedia :: get_NumPorts, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc223ddd5d210d2c1d440c52ca4201ccd6334b08
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 928f1622c26159720a5eaabe42a16dd5513705c4d9abe9ad75db47160ab3e218
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118865002"
 ---
 # <a name="itmediaget_numports-method"></a>ITMedia :: \_ NumPorts, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ NumPorts** obtient le nombre de ports nécessaires pour la session. La session utilise le nombre spécifié de ports à partir de la valeur retournée par [**\_ StartPort**](itmedia-get-startport.md).
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

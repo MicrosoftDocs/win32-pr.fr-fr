@@ -8,12 +8,12 @@ keywords:
 - personnalisation des boîtes de dialogue courantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7eaa71c4f6fc6aa038ef150eb53935f6b3ec280
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6272cbff88b7544ea945851f4f347cb43031b93ae08852bc139c7fb7ca6dd91d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786119"
 ---
 # <a name="customizing-common-dialog-boxes"></a>Personnalisation des boîtes de dialogue courantes
 
@@ -40,8 +40,8 @@ Quand vous créez un modèle de boîte de dialogue personnalisé en modifiant le
 
 | Type de boîte de dialogue               | Fichier de modèle | Fichier include |
 |-------------------------------|---------------|--------------|
-| **Color**                     | Color. DLG     | ColorDlg. h   |
-| **Trouver**                      | FindText. DLG  | Dlgs. h       |
+| **Couleur**                     | Color. DLG     | ColorDlg. h   |
+| **Rechercher**                      | FindText. DLG  | Dlgs. h       |
 | **Police**                      | Font. DLG      | Dlgs. h       |
 | **Ouvrir** (sélection multiple) | FileOpen. DLG  | Dlgs. h       |
 | **Ouvrir** (sélection unique)   | FileOpen. DLG  | Dlgs. h       |
@@ -90,7 +90,7 @@ Le tableau suivant indique le type de procédure de raccordement à fournir pour
 
 | Type de boîte de dialogue                          | Procédure de Hook                                      |
 |------------------------------------------|-----------------------------------------------------|
-| **Color**                                | [*CCHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcchookproc)                      |
+| **Couleur**                                | [*CCHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcchookproc)                      |
 | **Rechercher** ou **remplacer**                  | [*FRHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpfrhookproc)                      |
 | **Police**                                 | [*CFHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc)                      |
 | **Ouvrir** ou **Enregistrer sous** (style Explorateur) | [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)                    |
@@ -120,18 +120,18 @@ La bibliothèque de boîtes de dialogue communes définit un ensemble de chaîne
 | Constantes                               | Utilisation                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**COLOROKSTRING**](colorokstring.md) | Une boîte de dialogue de **couleur** envoie ce message à la procédure de hook lorsque l’utilisateur sélectionne une couleur et clique sur le bouton **OK** . La procédure de raccordement peut accepter la couleur ou la rejeter et forcer la boîte de dialogue à rester ouverte.                                                                                                                                                                                             |
-| [**FILEOKSTRING**](fileokstring.md)   | Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie ce message à la procédure de hook lorsque l’utilisateur sélectionne un nom de fichier et clique sur le bouton **OK** . La procédure de raccordement peut accepter le nom de fichier ou la rejeter et forcer la boîte de dialogue à rester ouverte. Pour les boîtes de dialogue **ouvrir** et **Enregistrer sous** d’un navigateur, ce message a été remplacé par le message de notification [**CDN \_ FILEOK**](cdn-fileok.md) .<br/> |
+| [**FILEOKSTRING**](fileokstring.md)   | Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie ce message à la procédure de hook lorsque l’utilisateur sélectionne un nom de fichier et clique sur le bouton **OK** . La procédure de raccordement peut accepter le nom de fichier ou la rejeter et forcer la boîte de dialogue à rester ouverte. pour les boîtes de dialogue **ouvrir** et **enregistrer sous** d’un navigateur, ce message a été remplacé par le message de notification [**CDN \_ FILEOK**](cdn-fileok.md) .<br/> |
 | [**FINDMSGSTRING**](findmsgstring.md) | Une boîte de dialogue **Rechercher** ou **remplacer** envoie ce message à la procédure de fenêtre de sa fenêtre parente lorsque l’utilisateur clique sur **Rechercher suivant**, **remplacer** ou **remplacer tout**, ou ferme la boîte de dialogue. Le paramètre *lParam* du message est un pointeur vers une structure [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea) contenant l’entrée de l’utilisateur.                                                                               |
-| [**HELPMSGSTRING**](helpmsgstring.md) | Toutes les boîtes de dialogue courantes envoient ce message à la procédure de fenêtre de la fenêtre parente quand l’utilisateur clique sur le bouton **aide** . Pour les boîtes de dialogue **ouvrir** et **Enregistrer sous** d’un navigateur, ce message a été remplacé par le message de notification [**\_ d’aide CDN**](cdn-help.md) .<br/>                                                                                                                    |
-| [**LBSELCHSTRING**](lbselchstring.md) | Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie ce message à la procédure de hook lorsque l’utilisateur modifie la sélection dans la zone de liste **nom de fichier** . Pour les boîtes de dialogue **ouvrir** et **Enregistrer sous** d’un navigateur, ce message a été remplacé par le message de notification [**CDN \_ selChange**](cdn-selchange.md) .<br/>                                                                                           |
+| [**HELPMSGSTRING**](helpmsgstring.md) | Toutes les boîtes de dialogue courantes envoient ce message à la procédure de fenêtre de la fenêtre parente quand l’utilisateur clique sur le bouton **aide** . pour les boîtes de dialogue **ouvrir** et **enregistrer sous** d’un navigateur, ce message a été remplacé par le message de notification [**\_ d’aide CDN**](cdn-help.md) .<br/>                                                                                                                    |
+| [**LBSELCHSTRING**](lbselchstring.md) | Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie ce message à la procédure de hook lorsque l’utilisateur modifie la sélection dans la zone de liste **nom de fichier** . pour les boîtes de dialogue **ouvrir** et **enregistrer sous** d’un navigateur, ce message a été remplacé par le message de notification [**CDN \_ SELCHANGE**](cdn-selchange.md) .<br/>                                                                                           |
 | [**SETRGBSTRING**](setrgbstring.md)   | Une procédure de raccordement peut envoyer ce message à une boîte de dialogue de **couleur** pour définir la sélection de couleur actuelle.                                                                                                                                                                                                                                                                                                                   |
-| [**SHAREVISTRING**](sharevistring.md) | Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie ce message à la procédure de hook si une violation de partage se produit pour le fichier sélectionné quand l’utilisateur clique sur le bouton **OK** . Pour les boîtes de dialogue **ouvrir** et **Enregistrer sous** d’un navigateur, ce message a été remplacé par le message de notification [**CDN \_ SHAREVIOLATION**](cdn-shareviolation.md) .<br/>                                                        |
+| [**SHAREVISTRING**](sharevistring.md) | Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie ce message à la procédure de hook si une violation de partage se produit pour le fichier sélectionné quand l’utilisateur clique sur le bouton **OK** . pour les boîtes de dialogue **ouvrir** et **enregistrer sous** d’un navigateur, ce message a été remplacé par le message de notification [**CDN \_ SHAREVIOLATION**](cdn-shareviolation.md) .<br/>                                                        |
 
 
 
  
 
-Certaines boîtes de dialogue courantes envoient et reçoivent d’autres messages de fenêtre. La procédure de raccordement d’une boîte de dialogue de **police** peut envoyer n’importe quel message **WM \_ \_ \* CHOOSEFONT** à la boîte de dialogue **police** . Pour plus d’informations, consultez [boîte de dialogue police](font-dialog-box.md). La boîte de dialogue **mise en page** envoie les messages **\_ \_ \* WM** , si vous avez activé une procédure de hook [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) . Pour plus d’informations, consultez [boîte de dialogue mise en page](page-setup-dialog-box.md).
+Certaines boîtes de dialogue courantes envoient et reçoivent d’autres messages de fenêtre. La procédure de raccordement d’une boîte de dialogue de **police** peut envoyer n’importe quel **\_ message WM CHOOSEFONT \_ \* *_ à la boîte de dialogue _* font** . Pour plus d’informations, consultez [boîte de dialogue police](font-dialog-box.md). La boîte de dialogue **mise en page** envoie les messages **WM \_ PSD \_ \** _ si vous avez activé une procédure de hook [_PagePaintHook *](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) . Pour plus d’informations, consultez [boîte de dialogue mise en page](page-setup-dialog-box.md).
 
 Les boîtes de dialogue **ouvrir** et **Enregistrer sous** de style Explorateur prennent en charge un ensemble de messages prédéfinis. Celles-ci incluent les messages de notification envoyés sous la forme d’un message [**WM \_ Notify**](../controls/wm-notify.md) à votre procédure de raccordement, ainsi que les messages que votre procédure de raccordement peut envoyer à la boîte de dialogue. Pour obtenir la liste complète de ces messages, consultez [procédures de hook de style Explorateur](open-and-save-as-dialog-boxes.md).
 
@@ -174,7 +174,7 @@ Pour traiter les messages d’aide dans l’une de vos procédures de fenêtre, 
 
 Pour traiter les messages d’aide dans une procédure de Hook, vous devez traiter le message de [**\_ commande WM**](/windows/desktop/menurc/wm-command) . La procédure de raccordement fournit de l’aide si le paramètre *wParam* de ce message indique que l’utilisateur a cliqué sur le bouton **aide** . L’identificateur du bouton **d’aide** est la constante **pshHelp** définie dans le fichier Dlgs. h.
 
-Les procédures de Hook pour les boîtes de dialogue **ouvrir** et **Enregistrer sous** de type Explorateur ne reçoivent pas les messages de [**\_ commande WM**](/windows/desktop/menurc/wm-command) pour le bouton **aide** . Au lieu de cela, la boîte de dialogue envoie un message de notification [**\_ d’aide CDN**](cdn-help.md) à la procédure de hook lorsque l’utilisateur clique sur le bouton **aide** .
+Les procédures de Hook pour les boîtes de dialogue **ouvrir** et **Enregistrer sous** de type Explorateur ne reçoivent pas les messages de [**\_ commande WM**](/windows/desktop/menurc/wm-command) pour le bouton **aide** . au lieu de cela, la boîte de dialogue envoie un message de notification d' [**\_ aide CDN**](cdn-help.md) à la procédure de hook lorsque l’utilisateur clique sur le bouton **aide** .
 
  
 

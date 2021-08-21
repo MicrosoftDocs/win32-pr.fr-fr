@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b304d7f7739ce551c1efc6a1d33a934c48dc8b4d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7ba202a4f0205a28d294d2d4f54372921205ebb72516f6f26c4042e08d9cfe2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118757372"
 ---
 # <a name="wm_setfocus-message"></a>\_Message WM SetFocus
 
@@ -54,7 +54,7 @@ Ce paramètre n'est pas utilisé.
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour afficher un signe insertion, une application doit appeler les fonctions de signe insertion appropriées lorsqu’elle reçoit le message **WM \_ SetFocus** .
 

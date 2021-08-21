@@ -4,12 +4,12 @@ description: 'IMAPi prend en charge trois formats de système de fichiers : ISO
 ms.assetid: 9cd782c0-203b-452c-9d04-3464d39453b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af9b4d4c5c5b6aa3e0c4c96598486a531c297b61
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af71733ec2747ae227ac412a7b49f0faa73639cf1000f1332db5ec1d1d55db9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758601"
 ---
 # <a name="disc-formats"></a>Formats de disque
 
@@ -17,7 +17,7 @@ IMAPi prend en charge trois formats de système de fichiers : [ISO 9660](#iso-9
 
 ## <a name="iso-9660"></a>ISO 9660
 
-Le format ISO 9660 est le système de fichiers standard d’origine pour les disques de données de CD. Le format est reconnu sur plusieurs systèmes d’exploitation, notamment MSDOS, le Mac OS, UNIX et le système d’exploitation Windows. Le format ISO 9660 est publié par le Organisation internationale de normalisation (ISO).
+Le format ISO 9660 est le système de fichiers standard d’origine pour les disques de données de CD. le format est reconnu sur plusieurs systèmes d’exploitation, notamment MSDOS, le Mac OS, UNIX et le système d’exploitation Windows. Le format ISO 9660 est publié par le Organisation internationale de normalisation (ISO).
 
 Le format commence au secteur 16 avec l’en-tête volume, CD0001 ; le reste de l’en-tête suit. D’autres formats dérivés commencent également au secteur 16, mais utilisent une autre chaîne pour l’en-tête du volume. Par exemple, les disques High Sierra utilisent la chaîne CD-ROM0001 et le format interactif du CD Compact utilise CD-I0001.
 
@@ -28,7 +28,7 @@ Des en-têtes de système de fichiers supplémentaires, pour les formats tels qu
 La spécification ISO 9660 définit trois niveaux de format :
 
 -   Le niveau 1 définit des noms de fichiers pour utiliser le format de caractère 8,3.
--   Le niveau 2 autorise des noms de fichiers plus longs, tels qu’ils figurent sur les plateformes DOS 6. xx, MacIntosh et UNIX.
+-   le niveau 2 autorise des noms de fichiers plus longs, tels qu’ils figurent sur les plateformes DOS 6. xx, MacIntosh et UNIX.
 -   Le niveau 3 permet d’améliorer les performances de récupération (lecture) des données et des fichiers audio entrelacés. Ce niveau supprime également la limite de 2 Go de fichiers. Ce niveau n’est **pas** pris en charge par l’API de mastérisation d’image.
 
 Les disques DVD peuvent également utiliser ISO 9660 ; Toutefois, le système de fichiers UDF est le système de fichiers le plus répandu utilisé avec les supports DVD.
@@ -49,7 +49,7 @@ L’en-tête de format Joliet commence au secteur 17 du disque.
 
 ## <a name="universal-disk-format-udf"></a>Format UDF (Universal Disk Format)
 
-Le format UDF (Universal Disk Format) est un système de fichiers plus récent développé pour le support optique par l’Association de technologie de stockage optique (OSTA). UDF est un format portable reconnu par plusieurs systèmes d’exploitation. UDF remplace ISO 9660 comme nouveau standard, en particulier avec les supports de lecture/écriture.
+le Format UDF (Universal Disk Format) est un système de fichiers plus récent développé pour le support optique par l’Association de technologie OSTA (optical Stockage Technology Association). UDF est un format portable reconnu par plusieurs systèmes d’exploitation. UDF remplace ISO 9660 comme nouveau standard, en particulier avec les supports de lecture/écriture.
 
 Les fonctionnalités UDF sont les suivantes :
 
@@ -61,9 +61,9 @@ Les fonctionnalités UDF sont les suivantes :
 -   Prend en charge un format de pont où les formats ISO 9660, Joliet et UDF résident tous sur le même disque. Cela est utilisé dans les applications vidéo, telles que DVD-Video, DVD + VR et DVD-VR.
 -   Prend en charge les flux nommés et les fichiers « en temps réel ».
 
- 
+ 
 
- 
+ 
 
 
 

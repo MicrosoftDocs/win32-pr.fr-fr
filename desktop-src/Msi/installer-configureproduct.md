@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 989855508215b2cd5d04bff7903628513314b9a5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7fd64424105bc06364abf2b047ba4d986fdd5540d007109dfb9fdc087250c194
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632156"
 ---
 # <a name="installerconfigureproduct-method"></a>Installer.Configméthode ureProduct
 
@@ -82,7 +82,7 @@ Spécifie l’état d’installation de la fonctionnalité. Ce paramètre doit a
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **ConfigureProduct** affiche l’interface utilisateur à l’aide des paramètres actuels. Les paramètres de l’interface utilisateur peuvent être modifiés en modifiant la [**propriété UILevel (objet programme d’installation)**](installer-uilevel.md) avant d’appeler la méthode **ConfigureProduct** .
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2052f8ced24ac998a56a4365552fee4bc5e0b21e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e7ddf63ab4643ef59e45a4850a18a9823753c16a59b4519fe099326fe071704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118757221"
 ---
 # <a name="wm_sysdeadchar-message"></a>\_Message WM SYSDEADCHAR
 
@@ -68,7 +68,7 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour les claviers à touche 101 et 102 améliorés, les touches étendues sont les touches ALT et CTRL appropriées sur la section principale du clavier. les touches Inser, DEL, début, fin, PAGE précédente, PAGE suivante et flèche dans les clusters à gauche du pavé numérique ; et les touches de division (/) et de saisie dans le pavé numérique. D’autres claviers peuvent prendre en charge le bit de clé étendue dans le paramètre *lParam* .
 

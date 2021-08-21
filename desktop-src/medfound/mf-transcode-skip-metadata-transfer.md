@@ -4,12 +4,12 @@ ms.assetid: 0fbfc035-c9d1-4014-a28a-93d7e6adc718
 title: Attribut MF_TRANSCODE_SKIP_METADATA_TRANSFER (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54978d76ec1392c3be731e1452a653d1423976a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7874d7d8cc20bbf5222cd8fd2fa0ca938c0b597dbc42914ab809dad926968306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739421"
 ---
 # <a name="mf_transcode_skip_metadata_transfer-attribute"></a>\_Attribut de \_ \_ transfert de métadonnées Skip de transcodage MF \_
 
@@ -38,7 +38,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
@@ -48,8 +48,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

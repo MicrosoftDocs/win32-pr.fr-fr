@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 45b1f0f3029cc6157f2f100b3324165cfac1b03b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddeb3ea128f173d53c71467d4098c1b777beea48f7b1304922f7468d55fc3b89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118810947"
 ---
 # <a name="bg_job_priority-enumeration"></a>Énumération BG_JOB_PRIORITY
 
@@ -73,7 +73,7 @@ Le comportement est le même pour tous les travaux qui ne sont pas au premier pl
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Plusieurs transferts de premier plan et d’arrière-plan peuvent avoir lieu simultanément.
 
@@ -83,8 +83,8 @@ Plusieurs transferts de premier plan et d’arrière-plan peuvent avoir lieu sim
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl> |
 
 

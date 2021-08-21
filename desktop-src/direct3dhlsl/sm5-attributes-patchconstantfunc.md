@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 455a10e8af567cf7c1adbf569700b00f769ef512
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3d7c6b0e7820742356c00a47d928f5fe69a4b968b075f0f92c688216455532f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118790660"
 ---
 # <a name="patchconstantfunc"></a>patchconstantfunc
 
@@ -27,7 +27,7 @@ patchconstantfunc("function_name")
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 *le \_ nom de fonction* est le nom d’une fonction distincte qui génère les données de constante de patch.
 
@@ -35,13 +35,13 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -53,9 +53,9 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

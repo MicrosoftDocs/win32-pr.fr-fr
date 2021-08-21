@@ -3,19 +3,19 @@ title: Source d’image tertiaire envoyée
 description: Source d’image tertiaire envoyée
 ms.assetid: e2d41729-87c5-4cec-931c-8702585930f2
 keywords:
-- Apparences mobiles du lecteur Windows Media, source de l’image du bouton
+- Lecteur Windows Media Skins mobiles, source d’image de bouton
 - apparences, source de l’image du bouton
 - informations de référence sur les apparences, les boutons
 - boutons dans les apparences, source d’image
 - source d’image pour les apparences, boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a37f79ab3c5fbf02eed1f0a02219a517b12ce1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 649730c877f9f5063737c16638b2c27d5e25a7d5578c2c7bce75f9f4fb24b71b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118834208"
 ---
 # <a name="pushed-tertiary-image-source"></a>Source d’image tertiaire envoyée
 
@@ -42,9 +42,9 @@ Les États tertiaires ne peuvent pas avoir d’image désactivée. Les images te
 [**Boutons**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1948481b-febd-434b-a5dc-faef592ea0ed
 title: MFNETSOURCE_STATISTICS, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a09e6c0fe4697595ff3600135327ba093350e0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 822e9ae2e65170f3bf6e0f9ce065dd0ea5c62189a9a2b77fe2cd59beeb164248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738566"
 ---
 # <a name="mfnetsource_statistics-property"></a>MFNETSOURCE, \_ propriété de statistiques
 
@@ -19,7 +19,7 @@ Contient des statistiques réseau pour la source réseau.
 
 Diffère consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante MFNETSOURCE \_ Statistics définit un GUID utilisé conjointement avec l’énumération [**MFNETSOURCE \_ Statistics \_ ID**](/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_statistics_ids) pour définir un ensemble de clés de propriété. Chaque clé de propriété dans le jeu a **fmtid** égal à MFNETSOURCE \_ Statistics et **PID** égal à un membre de l’énumération. Pour plus d’informations, consultez [**MFNETSOURCE \_ Statistics \_ IDS**](/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_statistics_ids).
 
@@ -29,8 +29,8 @@ La constante MFNETSOURCE \_ Statistics définit un GUID utilisé conjointement a
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

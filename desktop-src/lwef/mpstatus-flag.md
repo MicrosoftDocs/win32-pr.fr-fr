@@ -4,7 +4,7 @@ description: Indicateurs de bits d’état de produit globaux possibles.
 ms.assetid: BF2E6506-E76A-4785-8E91-99937B413548
 keywords:
 - MPSTATUS_FLAG énumération des fonctionnalités d’environnement Windows héritées
-- PMPSTATUS_FLAG des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPSTATUS_FLAG de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c7175980c09c63938be04626091c31b53335756
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4d850f0e8de9a3b0ed18a1a1353dfdef40d41bcb1ce4d17265ec245e82ba73f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747033"
 ---
 # <a name="mpstatus_flag-enumeration"></a>\_Énumération de l’indicateur MPSTATUS
 
@@ -168,7 +168,7 @@ Le produit est en cours d’exécution en mode évaluation.
 <span id="MP_STATUS_FLAG_NONGENUINE"></span><span id="mp_status_flag_nongenuine"></span>**indicateur d’état de point de gestion pas \_ \_ \_ authentique**
 </dt> <dd>
 
-Le produit est en cours d’exécution en mode Windows non authentique.
+le produit s’exécute en mode de Windows non-authentique.
 
 </dd> <dt>
 
@@ -262,8 +262,8 @@ Valeur maximale possible.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

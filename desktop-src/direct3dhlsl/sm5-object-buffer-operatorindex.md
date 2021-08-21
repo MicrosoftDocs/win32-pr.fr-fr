@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0b811dd2409a00bb07f0b2441f6d57d4bd122f50
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6c2b89ec69fd81e4852be41521add3103b0b2e5472856cd6668f421ede46225a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104393907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118790431"
 ---
 # <a name="bufferoperator--function"></a>Buffer :: Operator, fonction
 
@@ -51,13 +51,13 @@ Type : **R**
 
 Variable de ressource en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

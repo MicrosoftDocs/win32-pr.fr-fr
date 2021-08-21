@@ -4,12 +4,12 @@ ms.assetid: f9a00828-52df-449e-914b-4c6cd7c29f3a
 title: PagePhotoPrintingIntent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d1cf9ae587062efc68b953f5931b55147940b1b
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 22988a1471b678d9841a65063bda62eb9f4db67b0954fc1c23209503a87e3aea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113548977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731977"
 ---
 # <a name="pagephotoprintingintent"></a>PagePhotoPrintingIntent
 
@@ -29,7 +29,7 @@ Indique un objectif de haut niveau pour le pilote pour le remplissage des param�
 
 | Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Composant<br/> |
+| Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

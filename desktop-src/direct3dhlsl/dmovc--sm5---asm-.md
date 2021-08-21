@@ -4,12 +4,12 @@ description: Déplacement conditionnel au niveau du composant. | dmovc (SM5-ASM)
 ms.assetid: E376FE08-E251-4BE5-9F15-99B3B67A29C8
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e364e6340733c42ae69412db726851329eb2809d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: bc0ed15d81a91d8a93ce99eda3fa17b91900e0045301f1c5b5d1f56e4448954a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104393931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118792380"
 ---
 # <a name="dmovc-sm5---asm"></a>dmovc (SM5-ASM)
 
@@ -37,7 +37,7 @@ Déplacement conditionnel au niveau du composant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’exemple suivant montre comment utiliser cette instruction.
 
@@ -91,7 +91,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -105,9 +105,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

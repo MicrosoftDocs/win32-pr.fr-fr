@@ -4,12 +4,12 @@ ms.assetid: ce330ce0-4bda-4340-b21c-63a8b9168cf4
 title: MFPKEY_DYN_VBR_BAVG, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e117c2852f660b015bcdd95224178730d2e2a1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a77ba4d3f3d7a5587a7c8aa90771f58accd8a80864dd5a875c6c580eb9e29e01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738159"
 ---
 # <a name="mfpkey_dyn_vbr_bavg-property"></a>MFPKEY \_ dyn \_ VBR \_ BAVG, propriété
 
@@ -23,7 +23,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 **VT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si les propriétés [**MFPKEY \_ AVGCONSTRAINED**](mfpkey-avgconstrainedproperty.md) et [**MFPKEY \_ VBRENABLED**](mfpkey-vbrenabledproperty.md) sont toutes deux définies sur **Variant \_ true**, l’encodeur utilise l’encodage VBR moyen-contrôlable. Dans ce cas, l’encodeur configure lui-même en fonction de la valeur de cette propriété et de la propriété [**MFPKEY \_ dyn \_ VBR \_ RAVG**](mfpkey-dyn-vbr-ravgproperty.md) .
 
@@ -33,8 +33,8 @@ Si les propriétés [**MFPKEY \_ AVGCONSTRAINED**](mfpkey-avgconstrainedproperty
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

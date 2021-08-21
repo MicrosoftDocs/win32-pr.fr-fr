@@ -1,20 +1,20 @@
 ---
-description: L’un des principaux outils de Windows Management Instrumentation (WMI) est la capacité à interroger le référentiel WMI pour obtenir des informations sur les classes et les instances.
+description: l’un des principaux outils de Windows Management Instrumentation (WMI) est la capacité à interroger le référentiel wmi pour obtenir des informations sur les classes et les instances.
 ms.assetid: 0cceda42-fba0-4a08-90dd-43f022d0be41
 ms.tgt_platform: multiple
 title: Interrogation de WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdae44d4c40e1127bfc4d3436d6230eafd52146a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfc9cd51946bad1df482bb286c538e38bba8e2b3337776e3cd62e0a0da652574
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817537"
 ---
 # <a name="querying-wmi"></a>Interrogation de WMI
 
-L’un des principaux outils de Windows Management Instrumentation (WMI) est la capacité à interroger le référentiel WMI pour obtenir des informations sur les classes et les instances. Par exemple, vous pouvez demander que WMI retourne tous les objets représentant les événements d’arrêt à partir de votre système de bureau. Vous pouvez également récupérer des données de classe, d’instance ou de schéma. Le tableau suivant répertorie les différents types de requêtes que vous pouvez effectuer.
+l’un des principaux outils de Windows Management Instrumentation (WMI) est la capacité à interroger le référentiel wmi pour obtenir des informations sur les classes et les instances. Par exemple, vous pouvez demander que WMI retourne tous les objets représentant les événements d’arrêt à partir de votre système de bureau. Vous pouvez également récupérer des données de classe, d’instance ou de schéma. Le tableau suivant répertorie les différents types de requêtes que vous pouvez effectuer.
 
 
 

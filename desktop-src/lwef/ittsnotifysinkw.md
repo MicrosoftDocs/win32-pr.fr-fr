@@ -4,12 +4,12 @@ description: ITTSNotifySinkW
 ms.assetid: 6305dad6-c162-458a-899e-628f6486680e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5820f262779f86deeeca9982d0551b16d3a3406
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: f86cedf8c4a349da800f34f2f6acd7266f9cd0c3c383be9accb72dd162df8e7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118748707"
 ---
 # <a name="ittsnotifysinkw"></a>ITTSNotifySinkW
 
@@ -19,9 +19,9 @@ Le moteur doit appeler [**AudioStop**](https://www.bing.com/search?q=**AudioStop
 
 Bien que la notification [**visuelle**](https://www.bing.com/search?q=**Visual**) soit assez riche, Microsoft Agent utilise uniquement la valeur **cIPAPhoneme** pour animer la bouche à mesure que le caractère parle. Tout moteur compatible avec Microsoft Agent doit fournir un flux de notifications **visuelles** étroitement synchronisé reflétant le contenu phonétique de l’énoncé généré. Dans ce cas, la « notification relativement opportune » n’est pas appropriée, car les conférenciers sont assez sensibles aux différences entre la position de la bouche et le contenu acoustique. Les notifications **visuelles** doivent être retournées rapidement.
 
- 
+ 
 
- 
+ 
 
 
 

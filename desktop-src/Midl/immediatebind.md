@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc8a797514c15f8d4c46bb6161946d5d0b6bd10b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 40396343177da07a2747c79473cdc52f2d665fea8411f4d6f117a5032d66707a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104198838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642975"
 ---
 # <a name="immediatebind-attribute"></a>immediatebind (attribut)
 
@@ -65,7 +65,7 @@ Spécifie le type de retour de la fonction.
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction dans le fichier IDL.
@@ -79,7 +79,7 @@ Zéro, un ou plusieurs paramètres de fonction.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ immediatebind \]** permet aux contrôles de faire la différence entre les propriétés qui doivent notifier la base de données de chaque modification et celles qui ne le font pas. Par exemple, chaque modification apportée à un contrôle de case à cocher doit être envoyée immédiatement à la base de données sous-jacente, même si le contrôle n’a pas perdu le focus. Toutefois, pour un contrôle ListBox, une modification se produit chaque fois qu’une sélection différente est mise en surbrillance. Notifier la base de données d’une modification avant que le contrôle ne perde le focus n’est pas efficace et inutile. L’attribut **\[ immediatebind \]** vous permet de spécifier, en définissant le bit immediatebind, des propriétés individuelles sur un formulaire dont les modifications doivent être signalées immédiatement.
 
@@ -131,6 +131,6 @@ interface MyObject : IUnknown
 [Génération d’une bibliothèque de types avec MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

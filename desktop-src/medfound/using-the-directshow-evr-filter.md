@@ -1,23 +1,23 @@
 ---
-description: Utilisation du filtre DirectShow EVR
+description: utilisation du filtre EVR DirectShow
 ms.assetid: 4d85aed0-4b11-4c5f-bfc0-cad0a7d2f490
-title: Utilisation du filtre DirectShow EVR
+title: utilisation du filtre EVR DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02568a5ea9cbaa0310409a5a0966a2bea1bbfffe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bc454b6d298546afdbb5a06b7081505d9ddd7c2ab87a816e79bdb13836e9a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118737312"
 ---
-# <a name="using-the-directshow-evr-filter"></a>Utilisation du filtre DirectShow EVR
+# <a name="using-the-directshow-evr-filter"></a>utilisation du filtre EVR DirectShow
 
 Pour créer le filtre EVR (Enhanced Video Renderer), appelez **CoCreateInstance**. Le CLSID est CLSID \_ EnhancedVideoRenderer, défini dans UUID. h. Vous n’avez pas besoin d’appeler [**MFStartup**](/windows/desktop/api/mfapi/nf-mfapi-mfstartup) ou [**MFShutdown**](/windows/desktop/api/mfapi/nf-mfapi-mfshutdown) pour utiliser le filtre EVR.
 
-Pour plus d’informations sur l’utilisation du filtre EVR dans une application DirectShow, consultez [lecture audio/vidéo dans DirectShow](../directshow/audio-video-playback-in-directshow.md).
+pour plus d’informations sur l’utilisation du filtre EVR dans une application DirectShow, consultez [lecture Audio/vidéo dans DirectShow](../directshow/audio-video-playback-in-directshow.md).
 
-Le filtre EVR commence par une broche d’entrée, qui correspond au flux de référence. Pour ajouter des codes confidentiels pour les sous-flux, interrogez le filtre de l’interface [**IEVRFilterConfig**](/windows/desktop/api/evr/nn-evr-ievrfilterconfig) et appelez [**IEVRFilterConfig :: SetNumberOfStreams**](/windows/desktop/api/evr/nf-evr-ievrfilterconfig-setnumberofstreams). Appelez cette méthode avant de connecter des broches d’entrée. La broche 0 est toujours le flux de référence. Connectez ce code confidentiel avant tout autre pin, car le format du flux de référence peut limiter les formats de sous-flux disponibles.
+Le filtre EVR commence par une broche d’entrée, qui correspond au flux de référence. Pour ajouter des codes confidentiels pour les sous-flux, interrogez le filtre de l’interface [**IEVRFilterConfig**](/windows/desktop/api/evr/nn-evr-ievrfilterconfig) et appelez [**IEVRFilterConfig :: SetNumberOfStreams**](/windows/desktop/api/evr/nf-evr-ievrfilterconfig-setnumberofstreams). Appelez cette méthode avant de connecter des broches d’entrée. La broche 0 est toujours le flux de référence. Connecter ce code pin avant tout autre pin, car le format du flux de référence peut limiter les formats de sous-flux disponibles.
 
 Avant de démarrer le graphique, définissez la fenêtre de découpage vidéo et le rectangle de destination. Pour plus d’informations, consultez [utilisation des contrôles d’affichage vidéo](using-the-video-display-controls.md).
 
@@ -29,7 +29,7 @@ Contrairement au convertisseur de mixage vidéo (VMR), le EVR n’a pas de modes
 
 ## <a name="filter-interfaces"></a>Interfaces de filtre
 
-Le filtre EVR expose les interfaces suivantes. Certaines de ces interfaces sont documentées dans le kit de développement logiciel (SDK) DirectShow. Utilisez **QueryInterface** pour récupérer les pointeurs vers ces interfaces :
+Le filtre EVR expose les interfaces suivantes. certaines de ces interfaces sont documentées dans le kit de développement logiciel (SDK) DirectShow. Utilisez **QueryInterface** pour récupérer les pointeurs vers ces interfaces :
 
 -   [**IAMCertifiedOutputProtection**](/windows/win32/api/strmif/nn-strmif-iamcertifiedoutputprotection) (DirectShow)
 -   [**IAMFilterMiscFlags**](/windows/win32/api/strmif/nn-strmif-iamfiltermiscflags) (DirectShow)
@@ -63,7 +63,7 @@ En outre, vous pouvez utiliser l’interface [**IMFGetService**](/windows/deskto
 
 <dl> <dt>
 
-[Lecture audio/vidéo dans DirectShow](../directshow/audio-video-playback-in-directshow.md)
+[Lecture audio/vidéo en DirectShow](../directshow/audio-video-playback-in-directshow.md)
 </dt> <dt>
 
 [Convertisseur vidéo amélioré](enhanced-video-renderer.md)

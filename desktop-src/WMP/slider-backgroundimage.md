@@ -3,7 +3,7 @@ title: Slider. backgroundImage
 description: L’attribut backgroundImage spécifie ou récupère l’image d’arrière-plan du curseur.
 ms.assetid: 73757635-4d1c-4ed0-8721-0608cd85859c
 keywords:
-- Slider. backgroundImage lecteur Windows Media
+- slider. backgroundImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1188756c16b13bef69dfd0bcd9a5b66560856f99
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4b2c4f6d31e3f870541310b23544a15c7b9af0043014a9013310cea7dd4ee072
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118832996"
 ---
 # <a name="sliderbackgroundimage"></a>Slider. backgroundImage
 
@@ -31,7 +31,7 @@ L’attribut **BackgroundImage** spécifie ou récupère l’image d’arrière-
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est facultatif. Lorsque vous utilisez des images pour construire un curseur, l' **BackgroundImage** est utilisé pour l’image de curseur principale. Le **thumbImage** représente le curseur réel et peut être déplacé à l’aide de la souris. Au niveau du curseur **thumbImage** se trouve une ligne invisible dans laquelle l’image d’arrière-plan est affichée d’un côté de la ligne, et l’image de premier plan s’affiche de l’autre côté.
 

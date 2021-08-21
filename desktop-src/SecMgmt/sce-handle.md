@@ -4,12 +4,12 @@ ms.assetid: 8db91e6f-b31e-40c6-a158-b4b3b00ba0c0
 title: SCE_HANDLE (scesvc. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fef21dbe03d97dfa14537d5df132ba3cb222643
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92e9023cb03a906b154c8bedd70370c5e3c3d9a4679f71504102e222ae0442d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118893530"
 ---
 # <a name="sce_handle"></a>\_handle SCE
 
@@ -22,14 +22,14 @@ typedef PVOID SCE_HANDLE;
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Scesvc. h</dt> </dl> |
 
 

@@ -1,6 +1,6 @@
 ---
 title: MS-KDS-Prov-Cle_principale, classe
-description: Clés racine pour le service de distribution de clés de groupe.
+description: clés racines pour le Service de distribution de clés de groupe.
 ms.assetid: d4a38d24-80a8-4a5e-a50c-1e177f0a7c7a
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: baedb7bb995da28264bb457fb0d6d34f2d612e57
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 68c54ffcacf7f4b4f1df442c7c8530e30ee2b32848777b414ae2547eaa106d19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106509152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118175723"
 ---
 # <a name="ms-kds-prov-rootkey-class"></a>MS-KDS-Prov-Cle_principale, classe
 
-Clés racine pour le service de distribution de clés de groupe.
+clés racines pour le Service de distribution de clés de groupe.
 
 
 
@@ -64,7 +64,7 @@ Clés racine pour le service de distribution de clés de groupe.
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -88,12 +88,12 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                         |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                         |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**FSMO-Role-owner**](a-fsmoroleowner.md)                                                   | Faux     | [**Retour au début**](c-top.md)<br/>                         |
-| [**Type d’instance**](a-instancetype.md)                                                      | Vrai      | [**Retour au début**](c-top.md)<br/>                         |
+| [**Type d’instance**](a-instancetype.md)                                                      | True      | [**Retour au début**](c-top.md)<br/>                         |
 | [**Is-Critical-System-Object**](a-iscriticalsystemobject.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**Est supprimé**](a-isdeleted.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**Is-Member-of-DL**](a-memberof.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                         |
@@ -143,28 +143,28 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                         |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                         |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**MS-KDS-CreateTime**](a-mskds-createtime.md)                                              | Vrai      | **MS-KDS-Prov-Cle_principale**                                 |
-| [**MS-KDS-domaine**](a-mskds-domainid.md)                                                  | Vrai      | **MS-KDS-Prov-Cle_principale**                                 |
-| [**MS-KDS-KDF-AlgorithmID**](a-mskds-kdfalgorithmid.md)                                     | Vrai      | **MS-KDS-Prov-Cle_principale**                                 |
+| [**MS-KDS-domaine**](a-mskds-domainid.md)                                                  | True      | **MS-KDS-Prov-Cle_principale**                                 |
+| [**MS-KDS-KDF-AlgorithmID**](a-mskds-kdfalgorithmid.md)                                     | True      | **MS-KDS-Prov-Cle_principale**                                 |
 | [**MS-KDS-KDF-param**](a-mskds-kdfparam.md)                                                 | Faux     | **MS-KDS-Prov-Cle_principale**                                 |
-| [**MS-KDS-PrivateKey-longueur**](a-mskds-privatekeylength.md)                                 | Vrai      | **MS-KDS-Prov-Cle_principale**                                 |
-| [**MS-KDS-PublicKey-longueur**](a-mskds-publickeylength.md)                                   | Vrai      | **MS-KDS-Prov-Cle_principale**                                 |
-| [**MS-KDS-RootKeyData**](a-mskds-rootkeydata.md)                                            | Vrai      | **MS-KDS-Prov-Cle_principale**                                 |
-| [**MS-KDS-SecretAgreement-AlgorithmID**](a-mskds-secretagreementalgorithmid.md)             | Vrai      | **MS-KDS-Prov-Cle_principale**                                 |
+| [**MS-KDS-PrivateKey-longueur**](a-mskds-privatekeylength.md)                                 | True      | **MS-KDS-Prov-Cle_principale**                                 |
+| [**MS-KDS-PublicKey-longueur**](a-mskds-publickeylength.md)                                   | True      | **MS-KDS-Prov-Cle_principale**                                 |
+| [**MS-KDS-RootKeyData**](a-mskds-rootkeydata.md)                                            | True      | **MS-KDS-Prov-Cle_principale**                                 |
+| [**MS-KDS-SecretAgreement-AlgorithmID**](a-mskds-secretagreementalgorithmid.md)             | True      | **MS-KDS-Prov-Cle_principale**                                 |
 | [**MS-KDS-SecretAgreement-param**](a-mskds-secretagreementparam.md)                         | Faux     | **MS-KDS-Prov-Cle_principale**                                 |
-| [**MS-KDS-UseStartTime**](a-mskds-usestarttime.md)                                          | Vrai      | **MS-KDS-Prov-Cle_principale**                                 |
-| [**MS-KDS-version**](a-mskds-version.md)                                                    | Vrai      | **MS-KDS-Prov-Cle_principale**                                 |
+| [**MS-KDS-UseStartTime**](a-mskds-usestarttime.md)                                          | True      | **MS-KDS-Prov-Cle_principale**                                 |
+| [**MS-KDS-version**](a-mskds-version.md)                                                    | True      | **MS-KDS-Prov-Cle_principale**                                 |
 | [**msSFU-30-POSIX-Member-of**](a-mssfu30posixmemberof.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                                     | Vrai      | [**Retour au début**](c-top.md)<br/>                         |
 | [**Obj-Dist-Name**](a-distinguishedname.md)                                                 | Faux     | [**Retour au début**](c-top.md)<br/>                         |
-| [**Catégorie d’objet**](a-objectcategory.md)                                                  | Vrai      | [**Retour au début**](c-top.md)<br/>                         |
-| [**Classe d’objet**](a-objectclass.md)                                                        | Vrai      | [**Retour au début**](c-top.md)<br/>                         |
+| [**Catégorie d’objet**](a-objectcategory.md)                                                  | True      | [**Retour au début**](c-top.md)<br/>                         |
+| [**Classe d’objet**](a-objectclass.md)                                                        | True      | [**Retour au début**](c-top.md)<br/>                         |
 | [**GUID de l’objet**](a-objectguid.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**Version de l’objet**](a-objectversion.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                         |
 | [**Autres objets bien connus**](a-otherwellknownobjects.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>                         |

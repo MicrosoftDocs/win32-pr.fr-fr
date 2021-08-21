@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101419
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5e8f7bc7ea6d27ce782875e62ac94656ac9edab5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5744eb09d548791caae3e27515d376ff2e524af14d10ef5c5507152e8996edc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104554416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118781798"
 ---
 # <a name="esentdatabasealreadyrunningmaintenanceexception-members"></a>Membres EsentDatabaseAlreadyRunningMaintenanceException
 
@@ -73,7 +73,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

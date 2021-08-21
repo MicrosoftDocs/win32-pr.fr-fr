@@ -4,12 +4,12 @@ ms.assetid: bf3ca2b0-a9fb-4e63-87de-6d5cbe5cd746
 title: Bit-Flag les constantes de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 238627505bf414ed0ab94ff2f5c35197705c91d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e7842c7054fb973e4159b281486e4f4326debf3178b340770c0be280c7d1620
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118871501"
 ---
 # <a name="bit-flag-data-constants"></a>Bit-Flag les constantes de données
 

@@ -4,12 +4,12 @@ ms.assetid: 78430503-3e1f-49ab-be9c-d48bd21a840e
 title: Extensibilité constante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 975d2901dcc3f7e574ffdacdabbcf457821ef932
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: ad1141428cae8f5428bb221033f3bdbc1bd1549b4d1d01d7796c3239eeb7c293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118867573"
 ---
 # <a name="constant-extensibility"></a>Extensibilité constante
 

@@ -4,12 +4,12 @@ ms.assetid: 3281387e-3f72-4fda-8199-b3ce6e45e910
 title: Surveillance des médias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb54989306fd80c48c0b99c9f8285a83b40bed25
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fa29b26e422ecbb3f1cf66ce0babfee1147508ad8c42da20c5340793460d1c08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106539146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118863079"
 ---
 # <a name="media-monitoring"></a>Surveillance des médias
 

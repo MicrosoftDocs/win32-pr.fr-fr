@@ -4,12 +4,12 @@ ms.assetid: 209b3024-60cf-47e0-8738-cd7795e38c2a
 title: PageMediaSizeMediaSizeHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 547077e7a63d91d6db43e8ebf6225a771bf237d8
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 60cd6b0630da5a05f29fbeeaefd6aa0f43d35622130201fbca6ba0602703da91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732652"
 ---
 # <a name="pagemediasizemediasizeheight"></a>PageMediaSizeMediaSizeHeight
 
@@ -28,7 +28,7 @@ Spécifie la direction MediaSizeHeight de la dimension pour l’option MediaSize
 |----------------------------|-----------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                   |
 | Préfixe d’étendue <br/> | Page<br/>                                           |
-| Notes <br/>          | Lié à l’élément PageMediaSize, option personnalisée<br/> |
+| Remarques <br/>          | Lié à l’élément PageMediaSize, option personnalisée<br/> |
 
 
 
@@ -71,14 +71,14 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Property                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | entier<br/> | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 

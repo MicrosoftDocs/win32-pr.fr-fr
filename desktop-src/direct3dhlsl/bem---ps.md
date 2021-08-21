@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1adae07e3e2ebbca085981ca03a3b6449e2ffd9d
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: fdc28e6eaf71156504306b247a1a2a3797423f9a7e3bde6d4040ecb1297e09da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794820"
 ---
 # <a name="bem---ps"></a>Bem-PS
 
@@ -76,7 +76,7 @@ Règles d’utilisation de BEM :
 
 
 
-| Condition requise                         | Value           |
+| Condition requise                         | Valeur           |
 |--------------------------|------------|
 | Système d’exploitation minimal | Windows 98 |
 

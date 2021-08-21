@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1d11b428e9a17819f850ce210e6854e4f1d17e52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6454b6080a4841ef261233ce304725ec4a08a1a793cfb657c87e20ef56592df0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647357"
 ---
 # <a name="cim_softwareelement-class-hyper-v-management"></a>Classe CIM_SoftwareElement (gestion Hyper-V)
 
@@ -327,7 +327,7 @@ Le système d’exploitation de l’élément logiciel. La valeur de cette propr
 
 <span id="Tru64_UNIX"></span><span id="tru64_unix"></span><span id="TRU64_UNIX"></span>
 
-**Tru64 UNIX** (6)
+**UNIX Tru64** (6)
 
 
 </dt> <dd></dd> <dt>
@@ -453,7 +453,7 @@ Le système d’exploitation de l’élément logiciel. La valeur de cette propr
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-**Dépendant d’UNIX** (24)
+**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -726,7 +726,7 @@ Le système d’exploitation de l’élément logiciel. La valeur de cette propr
 
 <span id="Windows__R__Me"></span><span id="windows__r__me"></span><span id="WINDOWS__R__ME"></span>
 
-**Windows (R) me** (63)
+**Windows (R) Me** (63)
 
 
 </dt> <dd></dd> <dt>
@@ -775,21 +775,21 @@ Le système d’exploitation de l’élément logiciel. La valeur de cette propr
 
 <span id="Microsoft_Windows_Server_2003_64-Bit"></span><span id="microsoft_windows_server_2003_64-bit"></span><span id="MICROSOFT_WINDOWS_SERVER_2003_64-BIT"></span>
 
-**Microsoft Windows Server 2003 64 bits** (70)
+**Microsoft Windows Server 2003 64** bits (70)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Windows_XP_64-Bit"></span><span id="windows_xp_64-bit"></span><span id="WINDOWS_XP_64-BIT"></span>
 
-**Windows XP 64 bits** (71)
+**Windows XP 64** bits (71)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Windows_XP_Embedded"></span><span id="windows_xp_embedded"></span><span id="WINDOWS_XP_EMBEDDED"></span>
 
-**Windows XP Embedded** (72)
+**Windows XP embedded** (72)
 
 
 </dt> <dd></dd> <dt>
@@ -810,7 +810,7 @@ Le système d’exploitation de l’élément logiciel. La valeur de cette propr
 
 <span id="Windows_Embedded_for_Point_of_Service"></span><span id="windows_embedded_for_point_of_service"></span><span id="WINDOWS_EMBEDDED_FOR_POINT_OF_SERVICE"></span>
 
-**Windows Embedded for Point of service** (75)
+**Windows incorporé pour le Point de Service** (75)
 
 
 </dt> <dd></dd> <dt>
@@ -824,7 +824,7 @@ Le système d’exploitation de l’élément logiciel. La valeur de cette propr
 
 <span id="Microsoft_Windows_Server_2008_64-Bit"></span><span id="microsoft_windows_server_2008_64-bit"></span><span id="MICROSOFT_WINDOWS_SERVER_2008_64-BIT"></span>
 
-**Microsoft Windows Server 2008 64 bits** (77)
+**Microsoft Windows Server 2008 64** bits (77)
 
 
 </dt> <dd></dd> <dt>
@@ -845,7 +845,7 @@ Le système d’exploitation de l’élément logiciel. La valeur de cette propr
 
 <span id="RedHat_Enterprise_Linux_64-Bit"></span><span id="redhat_enterprise_linux_64-bit"></span><span id="REDHAT_ENTERPRISE_LINUX_64-BIT"></span>
 
-**RedHat Enterprise Linux 64** bits (80)
+**RedHat Enterprise Linux 64-Bit** (80)
 
 
 </dt> <dd></dd> <dt>

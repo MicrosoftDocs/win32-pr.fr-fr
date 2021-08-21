@@ -23,12 +23,12 @@ api_type:
 - Schema
 api_location:
 - Root\snmp\SMIR
-ms.openlocfilehash: e21fcc32976c42f41cd33a519e5fa6c684acdfc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8da8533e9ac5c86dfa3291092fb5165b94e2e393e507c55f15b64c1e30cd6a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118816539"
 ---
 # <a name="snmpextendednotification-class"></a>SnmpExtendedNotification, classe
 
@@ -131,7 +131,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Nom de communauté associé à une instance de la PDU. Le nom de la communauté authentifie l’expéditeur de l’PDU. Cette propriété est valide pour SNMPv1 et SNMPv2C.
+nom de Community associé à une instance de la PDU. Le nom de la communauté authentifie l’expéditeur de l’PDU. Cette propriété est valide pour SNMPv1 et SNMPv2C.
 
 </dd> <dt>
 
@@ -147,7 +147,7 @@ Type d'accès : Lecture seule
 Qualificateurs : **\_ Convention textuelle** (« OBJECTIDENTIFIER »), **encodage** (« OBJECTIDENTIFIER ») **, \_ syntaxe d’objet** (« OBJECTIDENTIFIER »), **\_ identificateur d’objet** (« 1.3.6.1.6.3.1.1.4.1 »)
 </dt> </dl>
 
-Identification faisant autorité de cette notification. Mappe directement à l’entrée MIB liaison de variable SnmpTrapOID. Cette propriété est valide uniquement pour SNMPv2C.
+Identification faisant autorité de cette notification. Cartes directement à l’entrée MIB liaison de variable SnmpTrapOID. Cette propriété est valide uniquement pour SNMPv2C.
 
 </dd> <dt>
 
@@ -195,11 +195,11 @@ Durée en centièmes de seconde depuis la dernière réinitialisation de la part
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une macro de [type notification](notification-type-macro.md) qui contient des références à une macro de [type objet](object-type-macro.md) nommée **timestamp** ou **identification** provoque un conflit de mappage. Si ce conflit se produit, les propriétés requises sont prioritaires et les références en conflit doivent être renommées.
 
-Une macro de [type notification](notification-type-macro.md) qui contient des références à une macro de [type objet](object-type-macro.md) nommée **Community** provoque un conflit de mappage. Si ce conflit se produit, les propriétés requises sont prioritaires et les références en conflit doivent être renommées.
+une macro de [type NOTIFICATION](notification-type-macro.md) qui contient des références à une macro de [type objet](object-type-macro.md) nommée **Community** provoque un conflit de mappage. Si ce conflit se produit, les propriétés requises sont prioritaires et les références en conflit doivent être renommées.
 
 ## <a name="requirements"></a>Configuration requise
 

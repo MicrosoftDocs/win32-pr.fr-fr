@@ -4,30 +4,30 @@ ms.assetid: 53d639e2-8717-4552-b0d3-b8c500bd38a8
 title: Interfaces de diffusion multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d654bae73ee822f553a1494e3b374cf35b8ac4a1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6b38200d98b0f01b7260508cbf7bd19c6e65efdfb3af78f2efff77be38294e8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104530561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118152955"
 ---
 # <a name="multimedia-streaming-interfaces"></a>Interfaces de diffusion multimédia
 
 > [!Note]  
-> Ces API sont déconseillées. Les applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
+> Ces API sont déconseillées. les Applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
 
  
 
-Cette section contient des entrées de référence pour toutes les interfaces de diffusion multimédia en continu et leurs méthodes, y compris celles prises en charge par Microsoft DirectShow.
+cette section contient des entrées de référence pour toutes les interfaces de diffusion multimédia en continu et leurs méthodes, y compris celles prises en charge par Microsoft DirectShow.
 
 
 
 | Interface                                                  | Description                                                                                                                                             |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IAMMediaStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammediastream)                   | Gère les connexions internes entre les filtres DirectShow et les graphiques de filtre dans les applications qui utilisent la diffusion multimédia en continu.                            |
+| [**IAMMediaStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammediastream)                   | gère les connexions internes entre les filtres de DirectShow et les graphiques de filtre dans les applications qui utilisent la diffusion multimédia en continu.                            |
 | [**IAMMediaTypeSample**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammediatypesample)           | Contient des méthodes pour manipuler des exemples de flux avec des types de média arbitraires.                                                                            |
 | [**IAMMediaTypeStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammediatypestream)           | Contient des méthodes pour créer des flux multimédias avec des types de média arbitraires.                                                                            |
-| [**IAMMultiMediaStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammultimediastream)         | Expose les fonctionnalités DirectShow aux développeurs de flux multimédias.                                                                                       |
+| [**IAMMultiMediaStream**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammultimediastream)         | expose les fonctionnalités de DirectShow aux développeurs de flux multimédias.                                                                                       |
 | [**IAudioData**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiodata)                           | Fournit des méthodes qui permettent aux applications de définir et d’extraire les données audio sous-jacentes auxquelles les flux audio feront référence.                                   |
 | [**IAudioMediaStream**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiomediastream)             | Contrôle les flux de données multimédias audio en fournissant des méthodes qui définissent et obtiennent le format du flux.                                                                 |
 | [**IAudioStreamSample**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiostreamsample)           | Récupère des informations à partir des objets de données [**IAudioData**](/previous-versions/windows/desktop/api/austream/nn-austream-iaudiodata) sous-jacents.                                                                |
