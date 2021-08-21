@@ -8,12 +8,12 @@ keywords:
 - ICCompressorChoose fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbbba48b919265ea6e0bab2c3d891f628c4e660a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c855acb1ecd69876009d0cc3eb6a3b3f4129cc252183e40c5b2d00289be82842
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370799"
 ---
 # <a name="user-selected-compressors"></a>Compresseurs User-Selected
 
@@ -23,9 +23,9 @@ Le compresseur sélectionné par l’utilisateur est automatiquement ouvert et s
 
 Si vous utilisez **ICCompressorChoose**, utilisez la fonction [**ICCompressorFree**](/windows/desktop/api/Vfw/nf-vfw-iccompressorfree) pour fermer le compresseur et libérer toutes les ressources associées à la structure **COMPVARS** .
 
- 
+ 
 
- 
+ 
 
 
 

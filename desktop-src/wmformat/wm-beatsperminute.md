@@ -35,7 +35,7 @@ L’attribut **WM/BeatsPerMinute** contient les temps par minute du contenu.
 
 La valeur d’un attribut **BeatsPerMinute** est un entier stocké sous la forme d’une chaîne.
 
-### <a name="example"></a> Exemple
+### <a name="example"></a>Exemples
 
 
 

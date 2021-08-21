@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETREPEAT (VFW. h)
 description: Le \_ message MCIWNDM GETREPEAT détermine si la lecture continue a été activée. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetRepeat.
 ms.assetid: 6d644117-e705-421f-b45f-9f0e833e6bc8
 keywords:
-- Message MCIWNDM_GETREPEAT Windows Multimedia
+- message MCIWNDM_GETREPEAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef47dc4f639c7aa34f7a00341e6ad2e19be909d1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5045f56f2d189884e6d2dee978ec8800fa9c24c3ff01fc3fe93680b4ae7f53af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374196"
 ---
 # <a name="mciwndm_getrepeat-message"></a>\_Message MCIWNDM GETREPEAT
 

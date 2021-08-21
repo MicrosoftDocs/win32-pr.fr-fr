@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Réception des événements en toute sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f27d156213553ee17a346d780cbea0ff82beca83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d64db5b0289abd9a43caee6ddb3b68da94a9560b0ea8f591d95ee472cf900b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316526"
 ---
 # <a name="receiving-events-securely"></a>Réception des événements en toute sécurité
 
@@ -110,7 +110,7 @@ Le compte qui exécute le processus de consommateur doit avoir un accès en **\_
 
 ## <a name="sids-and-permanent-subscriptions"></a>Sid et abonnements permanents
 
-Un abonnement permanent ne fonctionne pas lorsque la liaison, le consommateur et le filtre ne sont pas créés par le même utilisateur, ce qui signifie que les [**\_ \_ FilterToConsumerBinding**](--filtertoconsumerbinding.md), [**\_ \_ EventConsumer**](--eventconsumer.md)et [**\_ \_ EventFilter**](--eventfilter.md) doivent avoir la même valeur d’identificateur de sécurité (SID) individuelle dans la propriété **CreatorSID** . Windows Management Instrumentation (WMI) stocke cette valeur.
+Un abonnement permanent ne fonctionne pas lorsque la liaison, le consommateur et le filtre ne sont pas créés par le même utilisateur, ce qui signifie que les [**\_ \_ FilterToConsumerBinding**](--filtertoconsumerbinding.md), [**\_ \_ EventConsumer**](--eventconsumer.md)et [**\_ \_ EventFilter**](--eventfilter.md) doivent avoir la même valeur d’identificateur de sécurité (SID) individuelle dans la propriété **CreatorSID** . Windows WMI (Management Instrumentation) stocke cette valeur.
 
 ## <a name="creating-permanent-subscriptions-using-domain-accounts"></a>Création d’abonnements permanents à l’aide de comptes de domaine
 
@@ -143,7 +143,7 @@ L’exemple de code suivant montre comment vous pouvez spécifier la propriété
     }
 ```
 
-Pour les situations inter-domaines, ajoutez des utilisateurs authentifiés au « groupe d’accès d’autorisation Windows ».
+pour les situations inter-domaines, ajoutez des utilisateurs authentifiés au « Windows groupe d’accès d’autorisation ».
 
 ## <a name="related-topics"></a>Rubriques connexes
 

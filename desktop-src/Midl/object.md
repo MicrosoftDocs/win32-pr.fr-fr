@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb2c21246282646dcf6ae488411316e07ab62b2f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2ddf51e020cdcd5d13dde6938a58ea5e51f22d9dd03f8632312b3d6b8453a9ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118383507"
 ---
 # <a name="object-attribute"></a>attribut d'objet
 
@@ -67,7 +67,7 @@ Interface COM dérivée de cette interface. L’interface de base doit être [**
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une liste d’attributs d’interface pour une interface COM doit inclure l' **\[** attribut [**UUID**](uuid.md) **\]** , mais elle ne peut pas inclure l' **\[** attribut [**version**](version.md) **\]** .
 
@@ -134,7 +134,7 @@ interface ILocalInterface : ISomeOldCOMInterface
 [**interface**](interface.md)
 </dt> <dt>
 
-[**localisé**](local.md)
+[**local**](local.md)
 </dt> <dt>
 
 [**/osf**](-osf.md)
@@ -149,6 +149,6 @@ interface ILocalInterface : ISomeOldCOMInterface
 [**Version**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - All
-ms.openlocfilehash: fcdc192801b839451cee256f57090780818d2046
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d44322820514fc676c1b3ad304375f5f3ce8966a73217c6505f24659914f7853
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315626"
 ---
 # <a name="setsecuritydescriptor-method-of-the-__systemsecurity-class"></a>Méthode SetSecurityDescriptor de la \_ \_ classe SystemSecurity
 
@@ -88,7 +88,7 @@ Un paramètre spécifié dans l’appel de méthode n’est pas valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' [**instance \_ Win32 SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) représente un type de données de [**\_ \_ contrôle de descripteur de sécurité**](/windows/desktop/SecAuthZ/security-descriptor-control) et contient une liste de contrôle d' [*accès discrétionnaire*](/windows/desktop/SecGloss/d-gly) (DACL) et une [*liste de Access Control système*](/windows/desktop/SecGloss/a-gly) (SACL). Pour plus d’informations, consultez [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).
 
@@ -98,11 +98,11 @@ Vous pouvez mettre à jour la liste DACL et la liste SACL dans l’instance [**W
 
 Les valeurs suivantes dans [**le \_ \_ contrôle de descripteur de sécurité**](/windows/desktop/SecAuthZ/security-descriptor-control) déterminent si la liste DACL ou la liste SACL ou les deux sont mises à jour.
 
--   **SE \_ DACL en \_ présence**
+-   **SE \_ liste DACL \_ présente**
 
     Indique que la liste DACL doit être mise à jour. Si cette valeur n’est pas définie, WMI conserve la valeur d’origine de la liste DACL.
 
--   **\_liste SACL se \_ présente**
+-   **SE \_ liste SACL \_ présente**
 
     Indique que la liste SACL doit être mise à jour. Si cette valeur n’est pas définie, WMI conserve la valeur d’origine de la liste SACL. Pour mettre à jour la liste SACL, le privilège **SeSecurityPrivilege** doit être activé sur le compte. Pour les scripts, le nom du privilège est **SeSecurityPrivilege**. Pour plus d’informations, consultez [**constantes de privilège**](privilege-constants.md).
 

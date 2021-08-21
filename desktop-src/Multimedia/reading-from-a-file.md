@@ -6,12 +6,12 @@ keywords:
 - AVIFileInfo fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba1ffe866e454a898c5c3b91c7721c24f6a861ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab95186b1ec8913623b0ab02e0d2bc5556302d4dcd03f7737ac12c5872b9f2fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371684"
 ---
 # <a name="reading-from-a-file"></a>Lire à partir d’un fichier
 
@@ -19,9 +19,9 @@ Vous pouvez récupérer des informations sur un fichier ouvert à l’aide de la
 
 Pour récupérer des informations supplémentaires dans un fichier AVI, utilisez la fonction [**AVIFileReadData**](/windows/desktop/api/Vfw/nf-vfw-avifilereaddata) . Des informations supplémentaires sont applicables à l’ensemble du fichier et ne sont pas incluses dans les en-têtes de fichier normaux. Par exemple, le nom de la société ou de la personne qui détient les droits d’auteur d’un fichier peut être des informations supplémentaires. Les informations supplémentaires ne sont pas conformes à un format spécifique. Il peut s’agir d’un fichier spécifique. **AVIFileReadData** retourne les informations supplémentaires dans une mémoire tampon fournie par l’application.
 
- 
+ 
 
- 
+ 
 
 
 

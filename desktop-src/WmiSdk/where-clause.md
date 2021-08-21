@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: WHERE, clause (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0587bffb1a10c4611773de8a61fdb7ac1576952
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 6a6a51657dac26a002890bde8346cd7570f6057f2ace5cdfb5350d6c90d0fee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312180"
 ---
 # <a name="where-clause-wmi"></a>WHERE, clause (WMI)
 
-Utilisez la clause WHERE pour limiter l’étendue d’une requête de données, d’événement ou de schéma. Pour plus d’informations, consultez [interrogation avec WQL](querying-with-wql.md). La clause WHERE est constituée d’une propriété ou d’un mot clé, d’un opérateur et d’une constante. Toutes les clauses WHERE doivent spécifier l’un des opérateurs prédéfinis qui sont inclus dans le langage de requête WMI (Windows Management Instrumentation (WMI) Query Language (WQL). Vous pouvez ajouter la clause WHERE à l’instruction SELECT en utilisant l’une des formes suivantes :
+Utilisez la clause WHERE pour limiter l’étendue d’une requête de données, d’événement ou de schéma. Pour plus d’informations, consultez [interrogation avec WQL](querying-with-wql.md). La clause WHERE est constituée d’une propriété ou d’un mot clé, d’un opérateur et d’une constante. toutes les clauses where doivent spécifier l’un des opérateurs prédéfinis qui sont inclus dans le langage de requête WMI (Windows Management Instrumentation (WMI) Query Language (WQL). Vous pouvez ajouter la clause WHERE à l’instruction SELECT en utilisant l’une des formes suivantes :
 
 
 ```sql

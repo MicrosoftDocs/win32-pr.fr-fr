@@ -1,20 +1,20 @@
 ---
-description: WMI rend les données relatives aux objets gérables de Windows disponibles via des fournisseurs WMI.
+description: wmi fournit des données sur Windows objets gérables accessibles via des fournisseurs WMI.
 ms.assetid: 74558c6e-28b6-479f-9de6-2fbad793ae26
 ms.tgt_platform: multiple
 title: Fourniture de données à WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60df0384bd6f512b931870775067d9d9e6d4077d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f22fbff46959c001f589587f21b8b2b50ab5c5187d387338f407bf45e3e1a29d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316573"
 ---
 # <a name="providing-data-to-wmi"></a>Fourniture de données à WMI
 
-WMI rend les données relatives aux objets gérables de Windows disponibles via des [*fournisseurs*](gloss-p.md)WMI. Un fournisseur récupère les données d’un composant système, tel qu’un processus, ou une application instrumentée, telle que SNMP ou IIS, et transmet ces données via WMI à une application de gestion. Par exemple, lorsqu’une application ou un script demande des informations de traitement à l’aide de la classe de [**\_ processus WMI Win32**](/windows/desktop/CIMWin32Prov/win32-process) , les données sont obtenues de manière dynamique via un fournisseur préinstallé.
+wmi fournit des données sur Windows objets gérables accessibles via des [*fournisseurs*](gloss-p.md)WMI. Un fournisseur récupère les données d’un composant système, tel qu’un processus, ou une application instrumentée, telle que SNMP ou IIS, et transmet ces données via WMI à une application de gestion. Par exemple, lorsqu’une application ou un script demande des informations de traitement à l’aide de la classe de [**\_ processus WMI Win32**](/windows/desktop/CIMWin32Prov/win32-process) , les données sont obtenues de manière dynamique via un fournisseur préinstallé.
 
 Les sections suivantes sont présentées dans cette rubrique :
 
@@ -71,7 +71,7 @@ Le terme fournisseur couplé ou découplé détermine sous quel processus hôte 
 
 Pour plus d’informations sur la création d’un fournisseur couplé, consultez [fourniture de données à WMI en écrivant un fournisseur](supplying-data-to-wmi-by-writing-a-provider.md)et pour plus d’informations sur l’incorporation d’un fournisseur découplé dans une application, consultez [incorporation d’un fournisseur dans une application](incorporating-a-provider-in-an-application.md).
 
-Les fournisseurs couplés peuvent être décrits comme in-process (in-proc) ou out-of-process (out-of-proc). Lorsqu’un fournisseur couplé est un fournisseur in-proc, il s’exécute sous un processus d’hébergement WMIPRVSE.EXE WMI partagé et est implémenté en tant que serveur COM in-proc (. dll). Lorsqu’un fournisseur est un fournisseur hors processus, il est démarré par WMI à la demande d’un client ou d’un événement, mais il s’exécute en tant que processus séparé et est implémenté en tant qu’exécutable (. exe).
+Les fournisseurs couplés peuvent être décrits comme in-process (in-proc) ou out-of-process (out-of-proc). Lorsqu’un fournisseur couplé est un fournisseur in-proc, il s’exécute sous un processus d’hébergement WMIPRVSE.EXE WMI partagé et est implémenté en tant que serveur COM in-proc (.dll). Lorsqu’un fournisseur est un fournisseur hors processus, il est démarré par WMI à la demande d’un client ou d’un événement, mais il s’exécute en tant que processus séparé et est implémenté en tant qu’exécutable (.exe).
 
 ## <a name="implementing-a-provider"></a>Implémentation d’un fournisseur
 
@@ -79,19 +79,19 @@ Un fournisseur peut être implémenté des manières suivantes :
 
 -   À l’aide de l’Assistant ATL dans Visual Studio.
 
-    L’Assistant ATL génère du code fournisseur qui implémente un fournisseur couplé. Lors de l’utilisation de l’Assistant ATL, vous pouvez spécifier que vous souhaitez créer un modèle d’exécution de fournisseur in-proc (. dll) ou out-of-proc (. exe).
+    L’Assistant ATL génère du code fournisseur qui implémente un fournisseur couplé. Lors de l’utilisation de l’Assistant ATL, vous pouvez spécifier que vous souhaitez créer un modèle d’exécution de fournisseur in-proc (.dll) ou out-of-proc (.exe).
 
 -   Définition d’un objet COM pour contenir votre fournisseur.
 
     Le code du fournisseur est écrit en C++. Pour plus d’informations, consultez [fourniture de données à WMI en écrivant un fournisseur](supplying-data-to-wmi-by-writing-a-provider.md).
 
--   Utilisation des classes de l’espace de noms [**Microsoft. Management. infrastructure**](/previous-versions//hh872326(v=vs.85)) dans le .NET Framework pour créer un fournisseur à l’aide de code managé. (L’espace de noms **System. Management. Instrumentation** n’est plus pris en charge.)
+-   utilisation des classes de l’espace de noms [**Microsoft. Management. Infrastructure**](/previous-versions//hh872326(v=vs.85)) dans le .NET Framework pour créer un fournisseur à l’aide de code managé. (L’espace de noms **System. Management. Instrumentation** n’est plus pris en charge.)
 
     Ce processus crée un fournisseur découplé.
 
 ## <a name="registering-a-provider-with-wmi-and-the-system"></a>Inscription d’un fournisseur avec WMI et le système
 
-Avant d’utiliser le fournisseur d’un consommateur, il est important de l’inscrire auprès du système WMI et du sous-système Windows COM.
+avant d’utiliser le fournisseur d’un consommateur, il est important de l’inscrire auprès du système WMI et du sous-système Windows COM.
 
 Un fichier MOF peut contenir plusieurs types de fournisseurs pour les mêmes classes. Le même nom de fournisseur est enregistré sous la forme, par exemple, d’une instance ou d’un fournisseur de méthode. Pour plus d’informations, consultez [inscription d’un fournisseur](registering-a-provider.md).
 

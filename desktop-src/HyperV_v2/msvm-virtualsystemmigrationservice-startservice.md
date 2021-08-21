@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7bdd457e545c8a443952bc8fdaa08dedb1db478b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f88db5a78044d4382ad4daf1c154fb29b5dd88fe956847dede88bc3d64bcc8e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146448"
 ---
 # <a name="startservice-method-of-the-msvm_virtualsystemmigrationservice-class"></a>Méthode StartService de la \_ classe MSVM VirtualSystemMigrationService
 
@@ -37,7 +37,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

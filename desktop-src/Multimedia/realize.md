@@ -3,7 +3,7 @@ title: commande de réalisation
 description: La commande de réalisation indique à un appareil de sélectionner et de réaliser sa palette dans le contexte d’affichage de la fenêtre affichée. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: ad3a52dc-5c8d-47fc-95bd-437b700fc029
 keywords:
-- Réalisez une commande multimédia Windows
+- réalisez Windows commande multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33accaa9638210adf4385a1776fcd8d2bd2021e7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc0aba1e610f4636c7dbfb71fbc959d9b4b8496cc23e91a97100ef6edce133b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371434"
 ---
 # <a name="realize-command"></a>commande de réalisation
 
@@ -75,7 +75,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette commande uniquement si votre application utilise un handle de fenêtre et reçoit un message **WM \_ QUERYNEWPALLETTE** ou **WM \_ PALETTECHANGED** .
 
