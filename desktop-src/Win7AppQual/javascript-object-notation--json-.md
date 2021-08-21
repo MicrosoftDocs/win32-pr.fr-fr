@@ -4,16 +4,16 @@ ms.assetid: 2F6FDE88-C852-46BC-B6B1-630C266AF0AA
 title: JSON (JavaScript Object Notation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1b5f12a2c4e3a4cd0a66a8f917c3cdf41ed17d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 970737e7f19c5043c418941351ea82537b36a4a2429c44428a90031699458525
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053077"
 ---
 # <a name="javascript-object-notation-json"></a>JSON (JavaScript Object Notation)
 
-[JavaScript Object Notation (JSON)](https://www.json.org/) est un format d’échange de données simple et léger basé sur un sous-ensemble de la notation de littéral d’objet du langage JavaScript. Le moteur JavaScript de Windows Internet Explorer 8 implémente la [proposition json 3,1 JSON](https://www.ecma-international.org/) pour les fonctions de gestion JSON natives (qui utilisent [l’API json2.js de Douglas Crockford](https://github.com/douglascrockford/JSON-js/blob/master/json2.js)).
+[JavaScript Object Notation (JSON)](https://www.json.org/) est un format d’échange de données simple et léger basé sur un sous-ensemble de la notation de littéral d’objet du langage JavaScript. le moteur JavaScript dans Windows Internet Explorer 8 implémente la [proposition json 3,1 json](https://www.ecma-international.org/) pour les fonctions de gestion json natives (qui utilisent [l’API json2.js de Douglas Crockford](https://github.com/douglascrockford/JSON-js/blob/master/json2.js)).
 
 Internet Explorer 8 comprend un objet JSON natif qui est conforme à la prise en charge de JSON décrite dans le [brouillon de travail](https://www.ecma-international.org/)de la proposition de la version 3.1. Certaines pages Web détectent l’objet JSON natif, puis l’utilisent de manière non standard. Cette utilisation provoque généralement une erreur de script et interrompt la gestion des demandes AJAX. L’exemple de code suivant montre une façon incorrecte d’utiliser l’objet JSON.
 

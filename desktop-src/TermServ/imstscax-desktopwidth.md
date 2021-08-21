@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16cd1391c6aeb27d9ec0f87317b06e9084337fbb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ca982303208bb2badecf210c9590f627a7b3b57c5acd9ecd7f8fee0bbb70ec93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058841"
 ---
 # <a name="imstscaxdesktopwidth-property"></a>IMsTscAx ::D propriété esktopWidth
 
@@ -100,9 +100,9 @@ Nouvelle largeur, en pixels.
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La définition de la propriété **DesktopWidth** est facultative, mais elle doit être définie avant d’appeler la méthode [**Connect**](imstscax-connect.md) . Si la largeur du Bureau n’est pas spécifiée ou si elle est définie sur zéro, la largeur du Bureau est définie sur la largeur du contrôle. Les valeurs minimales et maximales dépendent de la version du système d’exploitation du client Bureau à distance.
+la définition de la propriété **DesktopWidth** est facultative, mais elle doit être définie avant d’appeler la méthode [**Connecter**](imstscax-connect.md) . Si la largeur du Bureau n’est pas spécifiée ou si elle est définie sur zéro, la largeur du Bureau est définie sur la largeur du contrôle. Les valeurs minimales et maximales dépendent de la version du système d’exploitation du client Bureau à distance.
 
 <dl> <dt>
 

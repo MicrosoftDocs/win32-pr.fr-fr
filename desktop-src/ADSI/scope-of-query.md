@@ -8,12 +8,12 @@ keywords:
 - interroge ADSI, Scope
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dac51fc261cb418db0018acd996c248766896a25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 45a31ebe378502dd9b4ddda6dce83e3547dab580360a8d1ec07516d1e3347cf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023250"
 ---
 # <a name="scope-of-query"></a>Étendue de la requête
 
@@ -37,9 +37,9 @@ Une recherche à un niveau est limitée aux enfants immédiats d’un objet de b
 
 Une recherche de sous-arborescence, également appelée recherche détaillée, comprend tous les objets sous l’objet de base, à l’exclusion de l’objet de base lui-même. Cette recherche peut générer des références à d’autres serveurs. Cette recherche a la plus grande étendue et peut retourner un jeu de résultats volumineux. Si possible, recherchez au moins un attribut indexé et définissez les paramètres de référence (pour plus d’informations, consultez [performances et gestion des jeux de résultats volumineux](performance-and-handling-large-result-sets.md)) en fonction de vos critères de recherche. Il est également conseillé de faire en sorte que les résultats d’une recherche de sous-arborescence soient exécutés de façon asynchrone et paginé pour réduire la charge du serveur et l’efficacité du réseau. Une recherche de sous-arborescence est normalement utilisée pour rechercher des objets pour une étendue donnée. Par exemple, recherchez tous les utilisateurs dont les comptes expirent dans 30 jours ou moins.
 
- 
+ 
 
- 
+ 
 
 
 

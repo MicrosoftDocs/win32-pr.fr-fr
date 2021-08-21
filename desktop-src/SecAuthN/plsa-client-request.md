@@ -4,12 +4,12 @@ ms.assetid: 384dd6e0-726f-4100-a036-1cca6a332a64
 title: PLSA_CLIENT_REQUEST (Ntsecpkg. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a3685c3cd38843edfd4ae708a18761b6ee698c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 792b81516e434469750b4ddd667bf6ddb82df31f4f13f82588d281f743bc8835
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921038"
 ---
 # <a name="plsa_client_request"></a>\_demande du client PLSA \_
 
@@ -32,8 +32,8 @@ typedef PVOID *PLSA_CLIENT_REQUEST;
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Ntsecpkg. h</dt> </dl> |
 
 

@@ -1,5 +1,5 @@
 ---
-description: Représente l’en-tête commun utilisé par toutes les classes MSMCAEvent. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Représente l’en-tête commun utilisé par toutes les classes MSMCAEvent. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: ff20522c-f805-47dc-bef2-4176211de698
 title: Classe MSMCAEvent_Header
 ms.topic: reference
@@ -19,16 +19,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 426f943014f3b6cfbdba5a25d331c0ea621048cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9b09e745fd3d2a6819a756ff6a012c85330f327739dae28445c2e376189d293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051267"
 ---
 # <a name="msmcaevent_header-class"></a>\_Classe d’en-tête MSMCAEvent
 
-La classe d' **\_ en-tête MSMCAEvent** représente l’en-tête commun utilisé par toutes les [classes MSMCA](msmca-classes.md) . Les fichiers d’en-tête sont utilisés afin que le code C et C++ puisse avoir une structure de données qui décrit l’en-tête commun pour tous les événements. Cette classe est réservée à un usage interne. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe d' **\_ en-tête MSMCAEvent** représente l’en-tête commun utilisé par toutes les [classes MSMCA](msmca-classes.md) . Les fichiers d’en-tête sont utilisés afin que le code C et C++ puisse avoir une structure de données qui décrit l’en-tête commun pour tous les événements. Cette classe est réservée à un usage interne. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -99,7 +99,7 @@ Niveau de gravité de l’erreur signalée.
 
 | Valeur                                                                                                | Signification                |
 |------------------------------------------------------------------------------------------------------|------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Récupérable<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Récupérable<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Erreur irrécupérable<br/>       |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Corrigible<br/> |
 
@@ -146,7 +146,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Type de message du journal des événements. Ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
+Type de message du journal des événements. ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
 
 </dd> </dl>
 

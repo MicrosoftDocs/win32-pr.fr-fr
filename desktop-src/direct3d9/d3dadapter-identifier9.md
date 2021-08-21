@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 85401573956d29386b5ddabbd48711a7be140463
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 843dff64de7ad4b97b2719f469bb8fb13813f06b8045d7de1b9f5ec4215a76ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989239"
 ---
 # <a name="d3dadapter_identifier9-structure"></a>D3DADAPTER \_ IDENTIFIER9, structure
 
@@ -181,7 +181,7 @@ Type : **[ **DWORD**](../winprog/windows-data-types.md)**
 
 </dd> <dd>
 
-Utilisé pour déterminer le niveau de validation WHQL (Windows Hardware Quality Labs) pour ce pilote et cette paire d’appareils. La valeur DWORD est une structure de date compressée qui définit la date de publication du test WHQL le plus récent passé par le pilote. Il est légal d’effectuer des opérations de < et de > sur cette valeur. L’exemple suivant illustre le format de date.
+utilisé pour déterminer le niveau de validation Windows WHQL (Hardware Quality Labs) pour cette paire pilote/appareil. La valeur DWORD est une structure de date compressée qui définit la date de publication du test WHQL le plus récent passé par le pilote. Il est légal d’effectuer des opérations de < et de > sur cette valeur. L’exemple suivant illustre le format de date.
 
 
 
@@ -199,7 +199,7 @@ Les valeurs suivantes sont également utilisées.
 
 
 
-| Value    |  Description                                                     |
+| Valeur    |  Description                                                     |
 |-----|-------------------------------------------------------|
 | 0   | Non certifié.                                        |
 | 1   | WHQL validée, mais aucune information de date n’est disponible. |
@@ -210,7 +210,7 @@ Les valeurs suivantes sont également utilisées.
 
 Différences entre Direct3D 9 et Direct3D 9Ex :
 
-Pour les Direct3D9Ex s’exécutant sur Windows Vista, Windows Server 2008, Windows 7 et Windows Server 2008 R2 (ou plus le système d’exploitation actuel), [**IDirect3D9 :: GetAdapterIdentifier**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier) retourne 1 pour le niveau WHQL sans vérifier l’état du pilote.
+pour les Direct3D9Ex s’exécutant sur Windows Vista, Windows server 2008, Windows 7 et Windows server 2008 R2 (ou plus le système d’exploitation actuel), [**IDirect3D9 :: GetAdapterIdentifier**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier) retourne 1 pour le niveau WHQL sans vérifier l’état du pilote.
 
 </dd> </dl>
 
@@ -241,7 +241,7 @@ Consultez le kit de développement Platform SDK pour plus d’informations sur l
 
 Les membres ID de périphérique, DeviceId, SubSysId et Revision peuvent être utilisés en tandem pour identifier des jeux de puces particuliers. Toutefois, utilisez ces membres avec précaution.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

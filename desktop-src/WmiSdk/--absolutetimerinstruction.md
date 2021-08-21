@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 5f4f55e635e42ec34e9b3558a0784d319e4d91ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0797366a95931bec67805c9acd94e52fcab72669fe021efe6907e771a373db46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821163"
 ---
 # <a name="__absolutetimerinstruction-class"></a>\_\_AbsoluteTimerInstruction, classe
 
@@ -111,13 +111,13 @@ Chaîne unique assignée par l’utilisateur qui identifie un événement de min
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ AbsoluteTimerInstruction** est dérivée de [**\_ \_ TimerInstruction**](--timerinstruction.md).
 
 WMI génère l’événement de minuteur absolu en créant une instance de la classe [**\_ \_ TimerEvent**](--timerevent.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

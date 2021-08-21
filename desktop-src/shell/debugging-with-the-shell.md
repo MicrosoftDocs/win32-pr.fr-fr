@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 3ca6e30809565408454976e1b07ff37dcc8f8f8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 276023e5628ab7390398fd7bd367be32e45c13825fcf96625104be1ded8735de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032827"
 ---
 # <a name="debugging-with-the-shell"></a>Débogage avec l’interpréteur de commandes
 
@@ -26,27 +26,27 @@ Cette rubrique explique comment déboguer des dll d’extension de Shell et d’
 
 ## <a name="running-the-shell-under-a-debugger"></a>Exécution de l’interpréteur de commandes sous un débogueur
 
-Pour déboguer votre extension, vous devez exécuter le shell à partir du débogueur. Suivez les étapes ci-dessous :
+Pour déboguer votre extension, vous devez exécuter le shell à partir du débogueur. Procédez comme suit :
 
 1.  Chargez le projet de l’extension dans le débogueur, mais ne l’exécutez pas.
 2.  Arrêtez l’interpréteur de commandes.
 
-    -   Pour Windows Vista et versions ultérieures :
+    -   pour Windows Vista et versions ultérieures :
         1.  Affichez le menu **Démarrer** .
         2.  Appuyez sur CTRL + MAJ et cliquez avec le bouton droit sur l’arrière-plan de la moitié droite du menu **Démarrer** .
         3.  Dans le menu qui s’affiche, choisissez **quitter l’Explorateur**.
-    -   Pour Windows XP :
+    -   pour Windows XP :
         1.  Dans le menu **Démarrer** , choisissez **arrêter**.
-        2.  Appuyez sur CTRL + ALT + MAJ, puis cliquez sur **non** dans la boîte de dialogue **arrêter Windows** .
+        2.  appuyez sur CTRL + ALT + maj, puis cliquez sur **non** dans la boîte de dialogue **arrêter l’Windows** .
 
     L’interpréteur de commandes est maintenant arrêté, mais toutes les autres applications sont toujours en cours d’exécution, y compris le débogueur.
 
-3.  Définissez le débogueur pour exécuter la DLL d’extension avec Explorer.exe à partir du répertoire **Windows** .
+3.  définissez le débogueur pour exécuter la DLL d’extension avec Explorer.exe à partir du répertoire **Windows** .
 4.  Exécutez le projet à partir du débogueur. L’interpréteur de commandes est lancé comme d’habitude, mais le débogueur est attaché au processus de l’interpréteur de commandes.
 
 ## <a name="running-and-testing-shell-extensions"></a>Exécution et test des extensions de Shell
 
-Vous pouvez exécuter et tester vos extensions dans un processus d’Explorateur Windows distinct pour éviter d’arrêter et de redémarrer le bureau et la barre des tâches. Votre bureau et votre barre des tâches peuvent toujours être utilisés pendant l’exécution et le test des extensions.
+vous pouvez exécuter et tester vos extensions dans un processus distinct de l’explorateur de Windows pour éviter d’arrêter et de redémarrer le bureau et la barre des tâches. Votre bureau et votre barre des tâches peuvent toujours être utilisés pendant l’exécution et le test des extensions.
 
 Pour activer cette fonctionnalité, ajoutez l' \_ entrée de Registre DWORD suivante au registre.
 

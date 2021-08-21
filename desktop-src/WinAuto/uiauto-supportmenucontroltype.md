@@ -21,18 +21,18 @@ keywords:
 - types de contrôles, menu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edee9f30f4d4cea123a2c7f5ff4dac235782faea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0041d7e84a66d86e74ba89c87453c288cbc111397bda8335ec0311a4a63987fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825464"
 ---
 # <a name="menu-control-type"></a>Menu (type de contrôle)
 
 Cette rubrique fournit des informations sur la prise en charge de Microsoft UI Automation pour le type de contrôle **menu** .
 
-Un contrôle menu permet une organisation hiérarchique des éléments associés à des commandes et des gestionnaires d’événements. Dans une application Microsoft Windows classique, une barre de menus contient plusieurs boutons de menu (tels que **fichier**, **Edition** et **fenêtre**) et chaque bouton de menu affiche un menu. Un menu contient un groupe d’éléments de menu (tels que **Nouveau**, **Ouvrir** et **Fermer**), qui peuvent être développés pour afficher des éléments de menu supplémentaires ou pour exécuter une action spécifique quand vous cliquez dessus.
+Un contrôle menu permet une organisation hiérarchique des éléments associés à des commandes et des gestionnaires d’événements. dans une application Microsoft Windows classique, une barre de menus contient plusieurs boutons de menu (tels que **fichier**, **edition** et **fenêtre**) et chaque bouton de menu affiche un menu. Un menu contient un groupe d’éléments de menu (tels que **Nouveau**, **Ouvrir** et **Fermer**), qui peuvent être développés pour afficher des éléments de menu supplémentaires ou pour exécuter une action spécifique quand vous cliquez dessus.
 
 Les sections suivantes définissent l’arborescence UI Automation, les propriétés, les modèles de contrôle et les événements requis pour le type de contrôle **menu** . Les exigences d’UI Automation s’appliquent à tous les contrôles de menu où l’infrastructure ou la plateforme d’interface utilisateur intègre la prise en charge d’UI Automation pour les types de contrôle et les modèles de contrôle.
 
@@ -87,7 +87,7 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
- 
+ 
 
 Les contrôles de menu s’affichent toujours dans l’affichage de contrôle et l’affichage de contenu de l’arborescence UI Automation. Les contrôles de menu doivent apparaître sous le contrôle auquel leurs informations font référence. Les clients UI Automation peuvent écouter [**UIA \_ MenuOpenedEventId**](uiauto-event-ids.md) pour s’assurer qu’ils obtiennent régulièrement les informations véhiculées par les contrôles menu. Les contrôles de menu contextuel constituent un cas particulier. Ils peuvent apparaître en tant qu’enfants du bureau ou d’une fenêtre d’application de niveau supérieur.
 
@@ -109,7 +109,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -135,7 +135,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -150,9 +150,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

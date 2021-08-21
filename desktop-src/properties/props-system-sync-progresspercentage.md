@@ -4,12 +4,12 @@ ms.assetid: 88ff4ca0-183c-4e9a-a240-ee69ef6eaf38
 title: System. Sync. ProgressPercentage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f005332e870fcd5b187918e1caaf5aae0880634
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a25ee53de0a24fffb1a639e82e723a6f7798fa7eb6d6543c0d0f9b9d58e348f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033297"
 ---
 # <a name="systemsyncprogresspercentage"></a>System. Sync. ProgressPercentage
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ description: Contient deux scénarios qui illustrent les avantages d’un demand
 ms.assetid: 2a5cbcae-74fe-4241-9e20-ec1ec5d9ed8a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 975310489758e299d1100584551296476c4690ca
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 1bc9be7af26844004073f21154df5ac12cb44d4eaa04fddc457b729ffe5e1083
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104101125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042777"
 ---
 # <a name="sso-eaphost-scenario-overview"></a>Vue d’ensemble du scénario EAPHost SSO
 
@@ -42,9 +42,9 @@ Pour une approche pas à pas, consultez comportement de [modification du mot de 
 [SSO et PLAP](understanding-sso-and-plap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

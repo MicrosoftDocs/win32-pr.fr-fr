@@ -1,19 +1,19 @@
 ---
-description: En fonction de la taxonomie définie pour les schémas multipoint/multidiffusion indépendante du protocole Windows Sockets 2, la technologie ATM se trouve dans la catégorie des données enracinées et des plans de contrôle enracinés.
+description: sur la base de la taxonomie définie Windows pour les modèles multipoint/multidiffusion de sockets 2 indépendantes du protocole, la technologie ATM se trouve dans la catégorie des données enracinées et des plans de contrôle enracinés.
 ms.assetid: 309afa65-2cc4-4b7b-9968-4c4efb2d10a3
 title: Détails de la fonction ATM Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e82ca0531272490c2d3189467186535a63d6ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b089d02653ee996acc249f63144654c952ba724425fb208d9eb35cc9c2589e4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051377"
 ---
 # <a name="winsock-atm-function-details"></a>Détails de la fonction ATM Winsock
 
-En fonction de la taxonomie définie pour les schémas multipoint/multidiffusion indépendante du protocole Windows Sockets 2, la technologie ATM se trouve dans la catégorie des données enracinées et des plans de contrôle enracinés. (Pour plus d’informations, consultez la spécification de l’API Windows Sockets 2, annexe D.) Une application agissant comme racine crée des \_ sockets racine c, et les homologues exécutés sur les nœuds terminaux utilisent des \_ sockets de feuille c. L’application racine utilise [**WSAJoinLeaf**](/windows/desktop/api/Winsock2/nf-winsock2-wsajoinleaf) pour ajouter de nouveaux nœuds terminaux. Les applications correspondantes sur les nœuds terminaux auront défini leurs \_ sockets de feuille c en mode d’écoute. **WSAJoinLeaf** avec un \_ Socket racine c spécifié sera MAPPÉ au message d’installation Q. 2931 (pour la première feuille) ou au message d’ajout de tiers (pour les autres feuilles).
+sur la base de la taxonomie définie Windows pour les modèles multipoint/multidiffusion de sockets 2 indépendantes du protocole, la technologie ATM se trouve dans la catégorie des données enracinées et des plans de contrôle enracinés. (pour plus d’informations, consultez la spécification de l’API Windows sockets 2, annexe D.) Une application agissant comme racine crée des \_ sockets racine c, et les homologues exécutés sur les nœuds terminaux utilisent des \_ sockets de feuille c. L’application racine utilise [**WSAJoinLeaf**](/windows/desktop/api/Winsock2/nf-winsock2-wsajoinleaf) pour ajouter de nouveaux nœuds terminaux. Les applications correspondantes sur les nœuds terminaux auront défini leurs \_ sockets de feuille c en mode d’écoute. **WSAJoinLeaf** avec un \_ Socket racine c spécifié sera MAPPÉ au message d’installation Q. 2931 (pour la première feuille) ou au message d’ajout de tiers (pour les autres feuilles).
 
 > [!Note]  
 > Les paramètres de qualité de service (QoS) spécifiés dans **WSAJoinLeaf** pour les autres feuilles doivent être ignorés par la spécification Uni du Forum ATM.

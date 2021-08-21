@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 78176a6966f379240b5b7edd1ef5b73d7fa75b3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 91d20477f83ec79c6ae6095e81810c98454f9c26521eda995c919867b3e3ac12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953812"
 ---
 # <a name="cseekingpassthruinit-method"></a>Méthode CSeekingPassThru.Init
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                   | Description                                        |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                                |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                                |
 | <dl> <dt>**E \_ échec**</dt> </dl>        | L’objet a déjà été initialisé.<br/>         |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante pour créer l’objet.<br/> |
 
@@ -73,7 +73,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur de *bSupportRendering* est **true**, cette méthode crée une instance de la classe [**CRendererPosPassThru**](crendererpospassthru.md) . Sinon, elle crée une instance de la classe [**CPosPassThru**](cpospassthru.md) .
 
@@ -83,7 +83,7 @@ Si la valeur de *bSupportRendering* est **true**, cette méthode crée une insta
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Seekpt. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Seekpt. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

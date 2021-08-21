@@ -1,20 +1,20 @@
 ---
-title: Conseils sur les performances OpenGL
-description: Conseils sur les performances OpenGL
+title: Astuces de performances OpenGL
+description: Astuces de performances OpenGL
 ms.assetid: f85bf725-1361-49b9-894c-c803b2dead60
 keywords:
 - OpenGL, conseils sur les performances
 - OpenGL, meilleures pratiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7e5b6fa33f8d6841d0fd47d1a655ef99facc84e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0fe91602d4a30767ed1e66e62d33445bf37152ede2cf9f8450e056f577cb3045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936829"
 ---
-# <a name="opengl-performance-tips"></a>Conseils sur les performances OpenGL
+# <a name="opengl-performance-tips"></a>Astuces de performances OpenGL
 
 Ces pratiques de programmation optimisent les performances de votre application :
 
@@ -40,9 +40,9 @@ Ces pratiques de programmation optimisent les performances de votre application�
 -   Évitez d’effectuer des modifications de mode redondantes, telles que la définition de la couleur sur la même valeur entre chaque vertex d’un polygone à ombrage constant.
 -   Lorsque vous dessinez ou copiez des images, désactivez la pixellisation et les opérations par fragments pour optimiser les ressources. OpenGL peut appliquer des textures à des images de pixels.
 
- 
+ 
 
- 
+ 
 
 
 

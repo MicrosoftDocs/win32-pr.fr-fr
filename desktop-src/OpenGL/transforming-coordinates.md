@@ -11,12 +11,12 @@ keywords:
 - transformation de coordonnées OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 504a5a58c723dcccfc54ce2f47a01710133ccc30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe3c2e4f8c0dd9540e8ba7963640072ebf44997cf9d99e807f31914ddf8eed4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553569"
 ---
 # <a name="transforming-coordinates"></a>Transformation des coordonnées
 
@@ -28,9 +28,9 @@ Pour déterminer l’emplacement dans la fenêtre où un objet est dessiné, uti
 
 La fonction [**gluUnProject**](gluunproject.md) effectue la conversion inverse : elle transforme les coordonnées de fenêtre spécifiées *Winx*, *winy* et *WINZ* en coordonnées d’objet à l’aide de *modelMatrix*, *projMatrix* et *Viewport*. Le résultat est stocké dans *objX*, *objy* et *objz*. Si la fonction est réussie, la valeur de retour est GL \_ true. Si la fonction échoue, la valeur de retour est GL \_ false.
 
- 
+ 
 
- 
+ 
 
 
 

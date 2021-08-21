@@ -3,7 +3,7 @@ title: Message EM_GETHYPHENATEINFO (RichEdit. h)
 description: Récupère des informations sur la césure pour un contrôle Rich Edit Microsoft.
 ms.assetid: 70ccb698-e440-493b-8f38-2bf7f32e4b26
 keywords:
-- EM_GETHYPHENATEINFO les contrôles de message Windows
+- EM_GETHYPHENATEINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d083b4bbc4b6854f767395d51dd9899c2a185d0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bd9bbb6eb156bd2a5af1b69ecaad800f721aebb68b3d8ccfcb7bf8cb9ba465e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019617"
 ---
 # <a name="em_gethyphenateinfo-message"></a>\_Message GETHYPHENATEINFO em
 
@@ -50,7 +50,7 @@ Non utilisé ; doit être égal à zéro.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

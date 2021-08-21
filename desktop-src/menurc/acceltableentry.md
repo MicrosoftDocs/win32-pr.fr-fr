@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9ff12fe39f2ea54c90530133263bceb157d79dcf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5ef163c8473c049d3bbe6fbfa8b36876765bf07df0b26cd1d68d3f92c5d315f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972128"
 ---
 # <a name="acceltableentry-structure"></a>ACCELTABLEENTRY, structure
 
@@ -56,7 +56,7 @@ Décrit les caractéristiques des accélérateurs clavier. Ce membre peut avoir 
 | Valeur                                                                                                                                                                                                      | Signification                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FVIRTKEY"></span><span id="fvirtkey"></span><dl> <dt>**FVIRTKEY**</dt> <dt>true</dt> </dl>    | La touche accélérateur est un [Code de touche virtuelle](/windows/desktop/inputdev/virtual-key-codes). Si cet indicateur n’est pas spécifié, la touche d’accès rapide est supposée spécifier un code de caractère ASCII. <br/>                          |
-| <span id="FNOINVERT"></span><span id="fnoinvert"></span><dl> <dt>**FNOINVERT**</dt> <dt>0x02</dt> </dl> | Un élément de menu de la barre de menus n’est pas mis en surbrillance lorsqu’un accélérateur est utilisé. Cet attribut est obsolète et conservé uniquement à des fins de compatibilité descendante avec les fichiers de ressources conçus pour Windows 16 bits.<br/> |
+| <span id="FNOINVERT"></span><span id="fnoinvert"></span><dl> <dt>**FNOINVERT**</dt> <dt>0x02</dt> </dl> | Un élément de menu de la barre de menus n’est pas mis en surbrillance lorsqu’un accélérateur est utilisé. Cet attribut est obsolète et conservé uniquement à des fins de compatibilité descendante avec les fichiers de ressources conçus pour une Windows 16 bits.<br/> |
 | <span id="FSHIFT"></span><span id="fshift"></span><dl> <dt>**FSHIFT**</dt> <dt>0x04</dt> </dl>          | L’accélérateur est activé uniquement si l’utilisateur appuie sur la touche Maj. Cet indicateur s’applique uniquement aux clés virtuelles. <br/>                                                                                        |
 | <span id="FCONTROL"></span><span id="fcontrol"></span><dl> <dt>**FCONTROL**</dt> <dt>0x08</dt> </dl>    | L’accélérateur est activé uniquement si l’utilisateur appuie sur la touche CTRL. Cet indicateur s’applique uniquement aux clés virtuelles. <br/>                                                                                         |
 | <span id="FALT"></span><span id="falt"></span><dl> <dt>**Falt**</dt> <dt>0x10</dt> </dl>                | L’accélérateur est activé uniquement si l’utilisateur appuie sur la touche ALT. Cet indicateur s’applique uniquement aux clés virtuelles. <br/>                                                                                          |
@@ -101,7 +101,7 @@ Nombre d’octets insérés pour garantir que la structure est alignée sur une 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure **ACCELTABLEENTRY** est répétée pour toutes les entrées de la table d’accélérateurs dans la ressource. La dernière entrée de la table est marquée avec la valeur 0x0080.
 

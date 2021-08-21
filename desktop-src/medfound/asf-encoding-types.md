@@ -4,16 +4,16 @@ ms.assetid: ffa99c6b-3b62-4068-96d5-ad57c340d088
 title: Types d’encodage ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c6187f4bbf49eafaf50a46a8af92b71b4e72885
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d83e1b9f39118cea5e7c5610b9480ea3d615a002d7f889933e3f3e7d62f0b53c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035577"
 ---
 # <a name="asf-encoding-types"></a>Types d’encodage ASF
 
-Les méthodes d’encodage se concentrent sur la mémoire tampon utilisée par l’encodeur pour gérer les données d’entrée non compressées. Cette mémoire tampon est définie par la vitesse de transmission du flux, en bits par seconde, et la fenêtre de mémoire tampon, en millisecondes. Lors de l’encodage de fichiers ASF, les encodeurs Windows Media respectent les contraintes de la mémoire tampon. Pour plus d’informations sur la fenêtre de mémoire tampon, consultez [le modèle de tampon de compartiment](the-leaky-bucket-buffer-model.md)perdu. Savoir quand et comment utiliser chaque méthode peut vous aider à créer du contenu compressé de haute qualité. Le tableau suivant contient des liens vers des rubriques relatives à chacune des méthodes d’encodage disponibles qu’une application peut utiliser pour encoder les données multimédias en ASF.
+Les méthodes d’encodage se concentrent sur la mémoire tampon utilisée par l’encodeur pour gérer les données d’entrée non compressées. Cette mémoire tampon est définie par la vitesse de transmission du flux, en bits par seconde, et la fenêtre de mémoire tampon, en millisecondes. lors de l’encodage de fichiers ASF, les encodeurs de média Windows respectent les contraintes de la mémoire tampon. Pour plus d’informations sur la fenêtre de mémoire tampon, consultez [le modèle de tampon de compartiment](the-leaky-bucket-buffer-model.md)perdu. Savoir quand et comment utiliser chaque méthode peut vous aider à créer du contenu compressé de haute qualité. Le tableau suivant contient des liens vers des rubriques relatives à chacune des méthodes d’encodage disponibles qu’une application peut utiliser pour encoder les données multimédias en ASF.
 
 
 
@@ -35,7 +35,7 @@ Les méthodes d’encodage se concentrent sur la mémoire tampon utilisée par l
 [Prise en charge ASF dans Media Foundation](asf-support-in-media-foundation.md)
 </dt> <dt>
 
-[Encodeurs Windows Media](windows-media-encoders.md)
+[Windows Encodeurs multimédias](windows-media-encoders.md)
 </dt> </dl>
 
  

@@ -3,7 +3,7 @@ title: Attribut AlternateSourceURL
 description: L’attribut AlternateSourceURL est un localisateur de ressources uniforme pour l’élément multimédia qui sert d’alternative aux attributs DLNASourceURI et SourceURL.
 ms.assetid: 2be88d9b-4fd8-4e70-9a4d-114a2bf8b23c
 keywords:
-- Attribut AlternateSourceURL lecteur Windows Media
+- Lecteur Windows Media de l’attribut AlternateSourceURL
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 574a355dfa862c4db004fa2df942e464934a38ec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 765c7a3945224e82a0112c0f4dd7249e4340ec13e0d78adbd59039d25f234aaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055237"
 ---
 # <a name="alternatesourceurl-attribute"></a>Attribut AlternateSourceURL
 
@@ -30,7 +30,7 @@ L’attribut **AlternateSourceURL** est un localisateur de ressources uniforme p
 -   [**Éléments de sélection**](playlist-attributes-ref.md)
 -   [**Éléments vidéo**](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut n’est pas disponible pour les éléments multimédias dans la bibliothèque locale de l’utilisateur actuel. Elle est disponible uniquement pour les éléments multimédias appartenant à une bibliothèque distante ; autrement dit, une bibliothèque qui a été mise à la disposition d’un autre utilisateur sur le réseau privé. Pour déterminer si une bibliothèque multimédia est distante, appelez [**IWMPLibrary :: obtenir le \_ type**](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type).
 

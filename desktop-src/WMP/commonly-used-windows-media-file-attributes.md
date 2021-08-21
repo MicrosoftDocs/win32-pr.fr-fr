@@ -1,35 +1,35 @@
 ---
-title: Attributs de fichiers Windows Media couramment utilisés
-description: Attributs de fichiers Windows Media couramment utilisés
+title: attributs de fichier multimédia Windows couramment utilisés
+description: attributs de fichier multimédia Windows couramment utilisés
 ms.assetid: 81306424-4a0f-4603-9cb0-152a4af5987f
 keywords:
 - Lecteur Windows Media, attributs de fichier
-- Windows Media Player Mobile, attributs de fichier
-- Modèle d’objet du lecteur Windows Media, attributs de fichier
+- Lecteur Windows Media Mobile, attributs de fichier
+- Lecteur Windows Media modèle objet, attributs de fichier
 - modèle objet, attributs de fichier
-- Contrôle ActiveX, attributs de fichier
-- Contrôle ActiveX du lecteur Windows Media, attributs de fichier
-- Contrôle ActiveX Windows Media Player Mobile, attributs de fichier
+- contrôle ActiveX, attributs de fichier
+- Lecteur Windows Media ActiveX contrôle, attributs de fichier
+- Lecteur Windows Media contrôle de ActiveX Mobile, attributs de fichier
 - référence pour le modèle objet, les attributs de fichier
 - attributs, fichiers
 - attributs de fichiers
-- Fichiers Windows Media
+- Windows Fichiers multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c199f39d7963b910c2dbb6cf361f7654154c2815
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 032944e7f7e617994523f0dca15553ccb6dde1e488a157434b1763a5f68edd61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118840206"
 ---
-# <a name="commonly-used-windows-media-file-attributes"></a>Attributs de fichiers Windows Media couramment utilisés
+# <a name="commonly-used-windows-media-file-attributes"></a>attributs de fichier multimédia Windows couramment utilisés
 
-Les fichiers Windows Media peuvent contenir un nombre quelconque d’attributs, y compris les attributs définis par l’utilisateur.
+Windows Les fichiers multimédias peuvent contenir un nombre quelconque d’attributs, y compris les attributs définis par l’utilisateur.
 
 Si le fichier a été ajouté à la bibliothèque, des attributs supplémentaires associés au type de média peuvent également être disponibles. Consultez [éléments audio](audio-item-attributes.md) ou [vidéo](video-item-attributes.md) pour ces attributs supplémentaires.
 
-Pour plus d’informations sur les attributs des fichiers Windows Media, consultez les [instructions relatives à l’utilisation des métadonnées Windows Media](/previous-versions/ms867702(v=msdn.10)).
+pour plus d’informations sur les attributs du fichier de média Windows, consultez les [instructions d’utilisation des métadonnées de Windows media](/previous-versions/ms867702(v=msdn.10)).
 
 La liste suivante contient des attributs couramment utilisés.
 
@@ -51,9 +51,9 @@ La liste suivante contient des attributs couramment utilisés.
 [**Référence d’attribut**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

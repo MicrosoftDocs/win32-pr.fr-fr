@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8ee2fcb910dc788b01a58544bbfe6a06ba215585
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60e69c7ceafb574824412e54f40749dbbc0adf250470a1c9fd53042d45688219
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950308"
 ---
 # <a name="msvm_shutdowncomponentsettingdata-class"></a>MSVM \_ ShutdownComponentSettingData, classe
 
@@ -399,7 +399,7 @@ Type de ressource représenté par ce paramètre d’allocation. Cette propriét
 
 | Valeur                                                                        | Signification          |
 |------------------------------------------------------------------------------|------------------|
-| <dl> <dt>1</dt> </dl> | Autres<br/> |
+| <dl> <dt>1</dt> </dl> | Autre<br/> |
 
 
 
@@ -446,7 +446,7 @@ Priorité relative pour cette allocation par rapport à d’autres allocations �
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ ShutdownComponentSettingData** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -456,8 +456,8 @@ L’accès à la classe **MSVM \_ ShutdownComponentSettingData** peut être limi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

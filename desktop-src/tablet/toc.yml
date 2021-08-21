@@ -17,9 +17,9 @@
               href: which-library-version-to-reference.md
             - name: Bibliothèque et contrôles managés (Tablet PC)
               href: managed-library-and-controls--tablet-pc.md
-            - name: Windows Presentation Foundation (Tablet PC)
+            - name: Windows Presentation Foundation (Tablet pc)
               href: windows-presentation-foundation--tablet-pc.md
-            - name: Bibliothèque COM et contrôles ActiveX (Tablet PC)
+            - name: bibliothèque COM et contrôles de ActiveX (Tablet pc)
               href: com-library-and-activex-controls--tablet-pc.md
         - name: Forum Aux Questions (FAQ)
           href: frequently-asked-questions.yml
@@ -106,7 +106,7 @@
                   href: understanding-wordlists--the-recognizercontext--and-factoids.md
                 - name: Utilisation de dictionnaires d’applications avec les API de plateforme Tablet PC
                   href: using-application-dictionaries-with-the-tablet-pc-platform-apis.md
-                - name: Création de dictionnaires personnalisés pour la reconnaissance de l’écriture manuscrite dans Windows 7 et Windows Server 2008 R2
+                - name: création de dictionnaires personnalisés pour la reconnaissance de l’écriture manuscrite dans Windows 7 et Windows Server 2008 R2
                   href: creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2.md
             - name: 'Propriété confidence [à propos de la reconnaissance'
               href: confidence-property--about-recognition.md
@@ -190,7 +190,7 @@
               href: basic-recognition-and-ink-analysis.md
             - name: Proxy de données avec analyse de l’encre
               href: data-proxy-with-ink-analysis.md
-            - name: Workflow d’événement de proxy de données
+            - name: Flow de l’événement de proxy de données
               href: data-proxy-event-flow.md
             - name: Objet de séparateur
               href: the-divider-object.md
@@ -214,7 +214,7 @@
         - name: Contrôles Ink
           href: ink-controls.md
           items:
-            - name: Ajout de contrôles Ink à un projet
+            - name: Ajout de contrôles Ink à un Project
               href: adding-ink-controls-to-a-project.md
             - name: 'InkEdit, contrôle'
               href: inkedit-control.md
@@ -276,7 +276,7 @@
               href: ink-recognition.md
             - name: Analyse des entrées manuscrites
               href: ink-analysis.md
-            - name: Reconnaissance de l’écriture manuscrite dans Windows Server 2008 R2
+            - name: reconnaissance de l’écriture manuscrite dans Windows Server 2008 R2
               href: handwriting-recognition-in-windows-server-2008-r2.md
         - name: Programmation du contrôle d’entrée mathématique
           href: programming-the-math-input-control.md
@@ -314,7 +314,7 @@
                   href: factoid-support.md
                 - name: Text Services Framework
                   href: text-services-framework.md
-                - name: Bonnes pratiques
+                - name: Meilleures pratiques
                   href: best-practices.md
         - name: Considérations sur les threads Tablet PC
           href: tablet-pc-threading-considerations.md
@@ -344,7 +344,7 @@
                   href: recognizercontext-object-events.md
                 - name: Événements de collection de traits
                   href: strokes-collection-events.md
-        - name: Prise en charge de l’outil capture dans Windows Vista
+        - name: prise en charge de l’outil capture dans Windows Vista
           href: snipping-tool-support-in-windows-vista.md
         - name: Reconnaissance vocale et accessibilité
           href: speech-and-accessibility.md
@@ -354,7 +354,7 @@
             - name: Exposer des contrôles et des menus
               href: exposing-controls-and-menus.md
               items:
-                - name: Utilisation des contrôles Windows standard
+                - name: utilisation des contrôles de Windows Standard
                   href: using-standard-windows-controls.md
                 - name: Utilisation de contrôles personnalisés
                   href: using-custom-controls.md
@@ -436,7 +436,7 @@
               href: scanned-paper-form-sample.md
             - name: Exemple d’informations sur la plateforme Tablet PC
               href: tablet-pc-platform-info-sample.md
-        - name: Prise en charge des entrées tactiles dans Windows Vista
+        - name: prise en charge des entrées tactiles dans Windows Vista
           href: touch-input-support-in-windows-vista.md
         - name: Utilisation des mouvements
           href: using-gestures.md
@@ -2383,7 +2383,7 @@
                       href: /previous-versions/windows/desktop/legacy/dd317351(v=vs.85)
                     - name: 'Insert, méthode'
                       href: /previous-versions/windows/desktop/legacy/dd317352(v=vs.85)
-                    - name: Méthode Paint
+                    - name: Paint Méthode
                       href: /previous-versions/windows/desktop/legacy/dd317353(v=vs.85)
                 - name: IMathInputControl
                   href: /windows/desktop/api/micaut/nn-micaut-imathinputcontrol

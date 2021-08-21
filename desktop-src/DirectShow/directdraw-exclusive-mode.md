@@ -4,12 +4,12 @@ ms.assetid: 3ef4f267-4dc2-421b-ade4-6b1efa364733
 title: Mode exclusif DirectDraw
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5b04bae9c3221a4acee9900c5f19ba4e9b0d54
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 09199e04a221299676c21fbc2876af4b8149943a743101d34893d5563ed42482
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016178"
 ---
 # <a name="directdraw-exclusive-mode"></a>Mode exclusif DirectDraw
 
@@ -22,7 +22,7 @@ En mode exclusif DirectDraw, une application prend le contrôle exclusif du mat�
 
 VMR possède un Allocator-Presenter spécial qui lui permet de s’exécuter en mode exclusif DirectDraw. Pour configurer VMR afin d’utiliser cet Allocator-presenter :
 
-1.  Créez le graphique de filtre et ajoutez VMR à celui-ci à l’aide de la méthode [**IFilterGraph :: AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) . Pour obtenir un exemple de code, consultez [mode sans fenêtre VMR](vmr-windowless-mode.md).
+1.  créez le filtre Graph et ajoutez VMR à celui-ci à l’aide de la méthode [**IFilterGraph :: AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) . Pour obtenir un exemple de code, consultez [mode sans fenêtre VMR](vmr-windowless-mode.md).
 2.  Créer l’allocateur en mode exclusif-présentateur :
     ```C++
     IVMRImagePresenterExclModeConfig* pExclModeConfig;

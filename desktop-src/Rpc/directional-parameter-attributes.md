@@ -4,16 +4,16 @@ description: Les attributs directionnels décrivent si les données sont transmi
 ms.assetid: 1e4f92ae-2d98-412f-a693-54bb09ae4674
 keywords:
 - Appel de procédure distante RPC, décrit, attributs directionnels
-- in
+- commencer
 - out
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eec37dbf65919f5aae9e7674cf7102eddcdf5170
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7e08e9ff23e7e12acbd5cf301afe6786599268d2e149878a326a62f79cd91f7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930641"
 ---
 # <a name="directional-parameter-attributes"></a>Attributs directionnels (paramètre)
 
@@ -62,6 +62,6 @@ Au retour de l’appel à **InOutProc**, les deuxième et troisième paramètres
 
 ![paramètres en sortie](images/prog-a21.png)
 
- 
+ 
 
- 
+ 

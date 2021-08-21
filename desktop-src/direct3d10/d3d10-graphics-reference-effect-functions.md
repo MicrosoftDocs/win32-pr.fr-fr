@@ -4,12 +4,12 @@ ms.assetid: b76643f0-387f-49c6-80e5-4d7b406b4db7
 title: Fonctions Effect (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 111fdcb34bbf1d9a86a295e62f734938991dda99
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac42036207f089f1eb34e9f64a5138a615210e445d7aa7316f5aee590b95b9e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118809264"
 ---
 # <a name="effect-functions-direct3d-10"></a>Fonctions Effect (Direct3D 10)
 

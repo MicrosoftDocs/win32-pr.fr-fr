@@ -17,12 +17,12 @@ keywords:
 - métadonnées, lire lors de la lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42a2515dd62092d02a45b0261fe2b501e0833a31
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: f62100da8c2f27e626e27ae6686e08f7217867ec2775f69292aac495d218fcb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104030922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027347"
 ---
 # <a name="reading-metadata-at-playback"></a>Lecture des métadonnées lors de la lecture
 
@@ -37,9 +37,9 @@ Pour plus d’informations sur l’accès aux métadonnées, consultez [utilisat
 [**Lecture des fichiers ASF**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

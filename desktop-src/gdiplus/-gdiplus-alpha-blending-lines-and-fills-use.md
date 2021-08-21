@@ -1,19 +1,19 @@
 ---
-description: Dans Windows GDI+, une couleur est une valeur 32 bits avec 8 bits chacun pour alpha, rouge, vert et bleu.
+description: dans Windows GDI+, une couleur est une valeur 32 bits avec 8 bits chacun pour alpha, rouge, vert et bleu.
 ms.assetid: f8c22d1a-b96b-4d16-928e-20adbae4c4a7
 title: Fusion alpha de lignes et de remplissages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd13fe306dbf31c2a60a0bd38bf71b9e96edb201
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64096bbabc632ad7c2b159191ad21b3b09f3801a486f27679118008e4927e88f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977799"
 ---
 # <a name="alpha-blending-lines-and-fills"></a>Fusion alpha de lignes et de remplissages
 
-Dans Windows GDI+, une couleur est une valeur 32 bits avec 8 bits chacun pour alpha, rouge, vert et bleu. La valeur alpha indique la transparence de la couleur, c’est-à-dire l’étendue de la fusion de la couleur avec la couleur d’arrière-plan. Les valeurs alpha sont comprises entre 0 et 255, où 0 représente une couleur entièrement transparente et 255 représente une couleur entièrement opaque.
+dans Windows GDI+, une couleur est une valeur 32 bits avec 8 bits chacun pour alpha, rouge, vert et bleu. La valeur alpha indique la transparence de la couleur, c’est-à-dire l’étendue de la fusion de la couleur avec la couleur d’arrière-plan. Les valeurs alpha sont comprises entre 0 et 255, où 0 représente une couleur entièrement transparente et 255 représente une couleur entièrement opaque.
 
 La fusion alpha est une fusion pixel par pixel des données de couleur d’arrière-plan et de la source. Chacun des trois composants (rouge, vert, bleu) d’une couleur source donnée est fusionné avec le composant correspondant de la couleur d’arrière-plan en fonction de la formule suivante :
 

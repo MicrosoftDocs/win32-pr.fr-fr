@@ -1,46 +1,46 @@
 ---
-title: Plug-ins du lecteur Windows Media
-description: Plug-ins du lecteur Windows Media
+title: Lecteur Windows Media Plug-ins
+description: Lecteur Windows Media Plug-ins
 ms.assetid: 6265084b-e1ff-455b-aca8-dc008d94ed43
 keywords:
 - Lecteur Windows Media, plug-ins
-- Plug-ins du lecteur Windows Media, à propos de
+- plug-ins Lecteur Windows Media, à propos de
 - plug-ins, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d7d666874590f380e6f3828031b297d483ffff7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 65ee8ac885d088095157375a04dd3af48bbfcdfd080349f652b68cae26cbb419
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053987"
 ---
-# <a name="windows-media-player-plug-ins"></a>Plug-ins du lecteur Windows Media
+# <a name="windows-media-player-plug-ins"></a>Lecteur Windows Media Plug-ins
 
-Le lecteur Microsoft Windows Media expose des interfaces qui vous permettent d’étendre les fonctionnalités de plusieurs façons. Les sections suivantes décrivent les architectures de plug-in prises en charge et le processus de création d’un plug-in :
+Microsoft Lecteur Windows Media expose des interfaces qui vous permettent d’étendre les fonctionnalités de plusieurs façons. Les sections suivantes décrivent les architectures de plug-in prises en charge et le processus de création d’un plug-in :
 
 
 
 | Section                                                                                                         | Description                                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Génération d’un plug-in](building-a-plug-in.md)                                                                    | Vous pouvez créer plusieurs types de plug-ins à l’aide de Visual Studio et de l’Assistant de plug-in du lecteur Windows Media.                                                                                                                                                                                             |
-| [Visualisations personnalisées du lecteur Windows Media](windows-media-player-custom-visualizations.md)                    | Les visualisations du lecteur Windows Media sont des objets COM (Component Object Model) utilisés pour afficher l’image visuelle qui est synchronisée avec la partie audio de la lecture du média du lecteur. Les visualisations personnalisées peuvent être créées à l’aide de Microsoft Visual C++.                                             |
-| [Plug-ins de l’interface utilisateur du lecteur Windows Media](windows-media-player-user-interface-plug-ins.md)                | Les plug-ins de l’interface utilisateur du lecteur Windows Media ajoutent de nouvelles fonctionnalités au volet de **lecture** en cours du lecteur en mode complet. Vous pouvez créer des plug-ins qui utilisent la zone de visualisation, une fenêtre distincte, la zone Paramètres, la zone de métadonnées ou des plug-ins d’arrière-plan qui n’exposent aucune interface utilisateur visible. |
-| [Plug-ins du lecteur Windows Media DSP](windows-media-player-dsp-plug-ins.md)                                      | Les plug-ins du lecteur Windows Media DSP modifient ou traitent les données audio et vidéo avant qu’il ne soit rendu par le lecteur. Les plug-ins DSP sont des objets Media Media Objects (DMO) qui se connectent au lecteur via des interfaces COM.                                                                                           |
-| [Plug-ins de rendu du lecteur Windows Media (déconseillé)](/previous-versions/windows/desktop/legacy/dd564683(v=vs.85)) | Décoder les plug-ins de rendu de Windows Media Player (si nécessaire) et rendre les données personnalisées contenues dans un flux de format Windows Media. Les plug-ins de rendu sont des objets Media Media Objects (DMO) qui se connectent au lecteur via des interfaces COM.                                                                  |
-| [Plug-ins de conversion du lecteur Windows Media](windows-media-player-conversion-plug-ins.md)                        | Les plug-ins de conversion du lecteur Windows Media convertissent les fichiers multimédias numériques créés à l’aide des technologies non fournies par Microsoft en ASF (Advanced Systems Format).                                                                                                                                 |
+| [Génération d’un plug-in](building-a-plug-in.md)                                                                    | vous pouvez créer plusieurs types de plug-ins à l’aide de Visual Studio et de l’assistant de plug-in Lecteur Windows Media.                                                                                                                                                                                             |
+| [Lecteur Windows Media Visualisations personnalisées](windows-media-player-custom-visualizations.md)                    | les visualisations Lecteur Windows Media sont des objets COM (component Object Model) utilisés pour afficher l’image visuelle qui est synchronisée avec la partie audio de la lecture du média du lecteur. Les visualisations personnalisées peuvent être créées à l’aide de Microsoft Visual C++.                                             |
+| [Lecteur Windows Media Plug-ins d’interface utilisateur](windows-media-player-user-interface-plug-ins.md)                | Lecteur Windows Media plug-ins d’interface utilisateur ajoutent de nouvelles fonctionnalités au volet de **lecture** en cours du lecteur en mode complet. Vous pouvez créer des plug-ins qui utilisent la zone de visualisation, une fenêtre distincte, la zone Paramètres, la zone de métadonnées ou des plug-ins d’arrière-plan qui n’exposent aucune interface utilisateur visible. |
+| [Lecteur Windows Media Plug-ins DSP](windows-media-player-dsp-plug-ins.md)                                      | Lecteur Windows Media Les plug-ins DSP modifient ou traitent les données audio et vidéo avant qu’elles ne soient rendues par le joueur. les plug-ins DSP sont des objets multimédia DirectX (DMO) qui se connectent au lecteur via des interfaces COM.                                                                                           |
+| [Lecteur Windows Media Rendu des plug-ins (déconseillé)](/previous-versions/windows/desktop/legacy/dd564683(v=vs.85)) | Lecteur Windows Media le décodage des plug-ins (si nécessaire) et le rendu des données personnalisées contenues dans un flux de format de média Windows. les plug-ins de rendu sont des objets de média DirectX (DMO) qui se connectent au lecteur via des interfaces COM.                                                                  |
+| [Lecteur Windows Media Plug-ins de conversion](windows-media-player-conversion-plug-ins.md)                        | les plug-ins de conversion Lecteur Windows Media convertissent les fichiers multimédias numériques créés à l’aide des technologies non fournies par Microsoft, au Format ASF (Advanced Systems Format).                                                                                                                                 |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**SDK du lecteur Windows Media**](windows-media-player-sdk.md)
+[**Lecteur Windows Media SDK**](windows-media-player-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

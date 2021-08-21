@@ -1,17 +1,17 @@
 ---
-title: Composants Windows installés à la demande
-description: Composants Windows installés à la demande
+title: composants Windows installés à la demande
+description: composants Windows installés à la demande
 ms.assetid: 14865DD7-167C-462C-B85A-BD07C929D7B8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09d2c3c3fee1cd12d7b12900e41dc006badcf53f
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 765768d2e16005ca0a465b53f076c64c6a30f31b8739113954ccc11959c8e0c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104031988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028797"
 ---
-# <a name="windows-components-installed-on-demand"></a>Composants Windows installés à la demande
+# <a name="windows-components-installed-on-demand"></a>composants Windows installés à la demande
 
 ## <a name="platform"></a>Plateforme
 
@@ -25,7 +25,7 @@ ms.locfileid: "104031988"
 
 ## <a name="description"></a>Description
 
-Deux composants Windows seront installés à la demande dans Windows 8.1 : DirectPlay et NTVDM. Ces composants sont répertoriés dans les composants facultatifs sous le nœud « composants hérités ». Ces composants sont installés localement dans le cadre du système d’exploitation et compressés en tant que composants facultatifs. Quand une application référence ou appelle l’un de ces composants (généralement au premier lancement de l’application), l’installation est déclenchée automatiquement. Les utilisateurs sont avertis que le composant sera installé et doivent confirmer l’action pour continuer. L’élévation est nécessaire pour que cette opération aboutisse si l’utilisateur n’est pas un administrateur. Après l’installation initiale, l’utilisateur n’a pas besoin d’effectuer d’autres actions pour réutiliser le composant.
+deux composants de Windows seront installés à la demande dans Windows 8.1 : DirectPlay et NTVDM. Ces composants sont répertoriés dans les composants facultatifs sous le nœud « composants hérités ». Ces composants sont installés localement dans le cadre du système d’exploitation et compressés en tant que composants facultatifs. Quand une application référence ou appelle l’un de ces composants (généralement au premier lancement de l’application), l’installation est déclenchée automatiquement. Les utilisateurs sont avertis que le composant sera installé et doivent confirmer l’action pour continuer. L’élévation est nécessaire pour que cette opération aboutisse si l’utilisateur n’est pas un administrateur. Après l’installation initiale, l’utilisateur n’a pas besoin d’effectuer d’autres actions pour réutiliser le composant.
 
 ## <a name="manifestation"></a>Manifestation
 
@@ -37,15 +37,15 @@ Pour que l’interface utilisateur des fonctionnalités à la demande ne s’ouv
 
 ## <a name="solution"></a>Solution
 
-Il est vivement recommandé d’éviter de référencer ou d’appeler des composants qui ont été répertoriés en tant que composants facultatifs hérités dans Windows dans les futures versions de votre application. Les composants facultatifs hérités incluent uniquement des composants plus anciens et moins utilisés qui pourraient provoquer des problèmes de performances et de sécurité pour les utilisateurs.
+il est vivement recommandé d’éviter de référencer ou d’appeler des composants qui ont été répertoriés en tant que composants facultatifs hérités dans Windows dans les futures versions de votre application. Les composants facultatifs hérités incluent uniquement des composants plus anciens et moins utilisés qui pourraient provoquer des problèmes de performances et de sécurité pour les utilisateurs.
 
 ## <a name="tests"></a>Tests
 
 Aucun aménagement de test supplémentaire n’est nécessaire pour la compatibilité. Il est important de savoir que cette boîte de dialogue apparaît lorsque le composant facultatif est appelé ou référencé, et que cette installation requiert une élévation.
 
- 
+ 
 
- 
+ 
 
 
 

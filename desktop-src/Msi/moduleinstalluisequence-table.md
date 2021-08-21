@@ -4,12 +4,12 @@ ms.assetid: a125aecc-57d9-4c8e-873e-d5315eaafa56
 title: Table ModuleInstallUISequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ca6771daa0b95acbc23e2d60eddda5420e417db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8bb8f2868fbad03439758cd45a79a71febb5e2a9b0b863c2ee9ea0597f5b112f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945364"
 ---
 # <a name="moduleinstalluisequence-table"></a>Table ModuleInstallUISequence
 
@@ -24,7 +24,7 @@ La table ModuleInstallUISequence contient les colonnes suivantes.
 | Action     | [Identificateur](identifier.md) | O   | N        |
 | Séquence   | [Integer](integer.md)       |     | O        |
 | BaseAction | [Identificateur](identifier.md) |     | O        |
-| After      | [Integer](integer.md)       |     | O        |
+| Après      | [Integer](integer.md)       |     | O        |
 | Condition  | [Condition](condition.md)   |     | O        |
 
 
@@ -49,14 +49,14 @@ Si une [action standard](standard-actions.md) est utilisée dans la colonne acti
 
 Numéro de séquence d’une action standard. Si une action ou une boîte de dialogue personnalisée est entrée dans la colonne action de cette ligne, ce champ doit avoir la valeur null.
 
-Lorsque vous utilisez des [actions standard](standard-actions.md) dans les tables de séquence de module de fusion, la valeur dans la colonne Sequence doit être le numéro de séquence d’action recommandé. Si le numéro de séquence du module de fusion diffère de celui de la même action dans le tableau séquence de fichiers. msi, l’outil de fusion utilise le numéro de séquence du fichier. msi. Consultez les séquences suggérées dans [à l’aide d’une table de séquences](using-a-sequence-table.md) pour connaître les numéros de séquence recommandés pour les actions standard.
+Lorsque vous utilisez des [actions standard](standard-actions.md) dans les tables de séquence de module de fusion, la valeur dans la colonne Sequence doit être le numéro de séquence d’action recommandé. Si le numéro de séquence dans le module de fusion diffère de celui de la même action dans la table de séquence de fichiers .msi, l’outil de fusion utilise le numéro de séquence du fichier .msi. Consultez les séquences suggérées dans [à l’aide d’une table de séquences](using-a-sequence-table.md) pour connaître les numéros de séquence recommandés pour les actions standard.
 
 </dd> <dt>
 
 <span id="BaseAction"></span><span id="baseaction"></span><span id="BASEACTION"></span>BaseAction
 </dt> <dd>
 
-La colonne BaseAction peut contenir une action standard, une action personnalisée spécifiée dans la table d’actions personnalisée du module de fusion ou une boîte de dialogue spécifiée dans la table de boîte de dialogue du module. La colonne BaseAction est une clé dans la colonne action de ce tableau. Il ne peut pas s’agir d’une clé étrangère dans une autre table ou table de fusion du fichier. msi. Cela signifie que chaque action standard, action personnalisée ou boîte de dialogue figurant dans la colonne BaseAction doit également figurer dans la colonne action d’un autre enregistrement dans ce tableau.
+La colonne BaseAction peut contenir une action standard, une action personnalisée spécifiée dans la table d’actions personnalisée du module de fusion ou une boîte de dialogue spécifiée dans la table de boîte de dialogue du module. La colonne BaseAction est une clé dans la colonne action de ce tableau. Il ne peut pas s’agir d’une clé étrangère dans une autre table de fusion ou table dans le fichier .msi. Cela signifie que chaque action standard, action personnalisée ou boîte de dialogue figurant dans la colonne BaseAction doit également figurer dans la colonne action d’un autre enregistrement dans ce tableau.
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ Instruction conditionnelle qui indique si l’action est exécutée. NULL prend 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette table est présente, la [table InstallUISequence](installuisequence-table.md) doit également être présente dans le module de fusion.
 

@@ -10,12 +10,12 @@ keywords:
 - clients, modèle de contrôle TextRange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f6dae1fc5ca02af69ab3d5386461e6bd7a864d4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 655f291e9cc11d925f947617fe31be96ebd81a2dbff73506a0e474dcde9e4446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823890"
 ---
 # <a name="understanding-the-ui-automation-text-object-model"></a>Fonctionnement du modèle d’objet de texte UI Automation
 
@@ -31,7 +31,7 @@ Les types de contrôle qui prennent en charge le modèle d’objet de texte UI A
 > [!Note]  
 > Le modèle d’objet de texte UI Automation n’offre aucun moyen d’insérer ou de modifier du texte. Toutefois, certains contrôles permettent l’insertion ou la modification de texte par le biais de l’interface [**IUIAutomationValuePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationvaluepattern) , ou via une entrée directe au clavier.
 
- 
+ 
 
 ## <a name="control-specific-object-model"></a>Modèle d’objet spécifique au contrôle
 
@@ -54,9 +54,9 @@ Pour accéder au DOM, appelez la méthode [**IUIAutomationElement :: GetCurrent
 [Utilisation de contrôles textuels](uiauto-workingwithtextbasedcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

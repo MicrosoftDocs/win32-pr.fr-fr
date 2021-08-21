@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Réception des notifications d’événements synchrones et semi-synchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15327c66f7ba3e59824c94d54a206ec348c85952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8657767150012124c3ccb0df8d95896f51b36ef47fa00998cf786df9beddf977
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817258"
 ---
 # <a name="receiving-synchronous-and-semisynchronous-event-notifications"></a>Réception des notifications d’événements synchrones et semi-synchrones
 
@@ -20,7 +20,7 @@ L’exemple de code suivant montre comment interroger les événements d’un jo
 
 `Select * from Win32_NTLogEvent`
 
-Pour plus d’informations, consultez [déterminer le type d’événement à recevoir](determining-the-type-of-event-to-receive.md), recevoir [des notifications d’événements](receiving-event-notifications.md)et [WQL (SQL pour WMI)](wql-sql-for-wmi.md).
+pour plus d’informations, consultez [déterminer le Type d’événement à recevoir](determining-the-type-of-event-to-receive.md), recevoir [des notifications d’événements](receiving-event-notifications.md)et [WQL (SQL pour WMI)](wql-sql-for-wmi.md).
 
 L’appel par défaut à [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) utilise la communication semi-synchrone. Les indicateurs **wbemFlagForwardOnly** et **wbemFlagReturnImmediately** sont définis par défaut pour le paramètre *IFlags* . Pour plus d’informations, consultez [appel d’une méthode](calling-a-method.md).
 
@@ -34,7 +34,7 @@ La procédure suivante décrit comment recevoir une notification d’événement
 
 3.  Si nécessaire, spécifiez une instance, par exemple, le nom d’un espace de noms lors de la demande de futures instances [**\_ \_ NamespaceModificationEvent**](--namespacemodificationevent.md) pour un espace de noms spécifique.
 
-4.  Spécifiez une fréquence d’interrogation de Windows Management Instrumentation (WMI) dans une requête, telle que « dans les 10 », pour interroger toutes les 10 secondes. Pour plus d’informations, consultez [dans la clause in](within-clause.md).
+4.  spécifiez une fréquence d’interrogation de Windows Management Instrumentation (WMI) dans une requête, telle que « dans les 10 », pour interroger toutes les 10 secondes. Pour plus d’informations, consultez [dans la clause in](within-clause.md).
 
 5.  Appelez [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) à l’aide de la requête.
 

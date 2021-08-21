@@ -4,12 +4,12 @@ ms.assetid: 9ba47bdc-90c8-444a-ba8b-71c723b54556
 title: Table MoveFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2340626e745627c3c6146998c851a076d21ab81a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49d90afe8a5fb950f2e6fdb96ba0f8af4f8969226a5dc219bc9cd0598481beb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945094"
 ---
 # <a name="movefile-table"></a>Table MoveFile
 
@@ -22,7 +22,7 @@ La table MoveFile contient les colonnes suivantes.
 | Colonne       | Type                         | Clé | Nullable |
 |--------------|------------------------------|-----|----------|
 | FileKey      | [Identificateur](identifier.md) | O   | N        |
-| -\_  | [Identificateur](identifier.md) | N   | N        |
+| Composant\_  | [Identificateur](identifier.md) | N   | N        |
 | SourceName   | [Text](text.md)             | N   | O        |
 | DestName     | [Nom du fichier](filename.md)     | N   | O        |
 | SourceFolder | [Identificateur](identifier.md) | N   | O        |
@@ -97,7 +97,7 @@ Valeur entière spécifiant le mode d’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un \* caractère générique «» est entré dans la colonne SourceName de la table MoveFile et qu’un nom de fichier de destination est spécifié dans la colonne DestName, tous les fichiers déplacés ou copiés conservent les noms dans les sources.
 

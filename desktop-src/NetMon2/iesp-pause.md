@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 486c7aedc7092e0dd0f9f68cc1ea2ccad08d9438
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3727bbabe9c56620b313d70ed529b5ac5f43bed620e98e49a3f6c3564fd1ba3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063959"
 ---
 # <a name="iesppause-method"></a>IESP ::P méthode ause
 
@@ -47,7 +47,7 @@ Obsolète.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -59,14 +59,14 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR \_ suspendue**</dt> </dl> | La capture est déjà suspendue.<br/>                                                                                     |
 | <dl> <dt>**NMERR \_ pas de \_ capture**</dt> </dl>  | Le NPP ne capture pas de données. Appelez [IESP :: Start](iesp-start.md) pour démarrer la capture.<br/>                            |
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>  | Le NPP n’est pas connecté au réseau. Appelez [IESP :: Connect](iesp-connect.md) pour connecter le NPP au réseau.<br/> |
-| <dl> <dt>**NMERR \_ non \_ ESP**</dt> </dl>        | Le NPP est connecté au réseau, mais pas avec la méthode [IESP :: Connect](iesp-connect.md) .<br/>                     |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>  | Le NPP n’est pas connecté au réseau. appelez [IESP :: Connecter](iesp-connect.md) pour connecter le NPP au réseau.<br/> |
+| <dl> <dt>**NMERR \_ non \_ ESP**</dt> </dl>        | le NPP est connecté au réseau, mais pas avec la méthode [IESP :: Connecter](iesp-connect.md) .<br/>                     |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Lorsque la capture est dans un état suspendu, les nouvelles données ne sont pas ajoutées au [*fichier de capture*](c.md) actuel tant que vous n’avez pas appelé la méthode [IESP :: Resume](iesp-resume.md) pour redémarrer la capture. Lorsque l' **interruption** et la **reprise** sont utilisées pour arrêter et redémarrer la capture, toutes les informations capturées sont placées dans le même fichier de capture.
 
@@ -74,7 +74,7 @@ Lorsque vous utilisez les méthodes **IESP ::P ause** et **IESP :: Resume** po
 
 Pour redémarrer la capture, appelez [IESP :: Resume](iesp-resume.md). Pour arrêter la capture, appelez [IESP :: Stop](iesp-stop.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -94,7 +94,7 @@ Pour redémarrer la capture, appelez [IESP :: Resume](iesp-resume.md). Pour arr
 [IESP](iesp.md)
 </dt> <dt>
 
-[IESP :: Connect](iesp-connect.md)
+[IESP :: Connecter](iesp-connect.md)
 </dt> <dt>
 
 [IESP :: Resume](iesp-resume.md)

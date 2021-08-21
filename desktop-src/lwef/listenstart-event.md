@@ -4,12 +4,12 @@ description: Événement ListenStart
 ms.assetid: 59feacd6-0b9f-4bf4-b544-48de49384312
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19b8cc19ad727f8e9c4606bbbfba7b2e03e7d638
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b0017b628af3ca266058de74508d379bd665c94f94c64207f4d7bef5487a0f4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976109"
 ---
 # <a name="listenstart-event"></a>Événement ListenStart
 
@@ -37,11 +37,11 @@ Se produit lorsque le mode d’écoute (reconnaissance vocale) commence.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cet événement est envoyé à tous les clients lorsque le mode d’écoute commence parce que l’utilisateur a appuyé sur la touche d’écoute ou sur le client d’entrée-actif appelé la méthode [**Listen**](listen-method.md) avec la **valeur true**. Vous pouvez utiliser cet événement pour éviter que votre caractère ne parle alors que le mode d’écoute est activé.
 
@@ -54,9 +54,9 @@ L’événement retourne le caractère aux clients pour lesquels ce caractère e
 [**Événement ListenComplete**](listencomplete-event.md), [ **méthode Listen**](listen-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5d4c86da-6317-4a34-88d6-caf794aaa165
 title: System. ItemTypeText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 699a953392054cb2344c5f3b3d652e64a9a2c1f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f145aa2491f3352c4691be95c0e8ae16a75e8e0880732904e983fbf02c167dbd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553749"
 ---
 # <a name="systemitemtypetext"></a>System. ItemTypeText
 
@@ -31,13 +31,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
 Si [System. ItemType](./props-system-itemtype.md) est \_ un VT vide, la valeur de cette propriété est également une valeur VT \_ vide. Si l’élément est un fichier, la valeur de cette propriété est la même que si vous avez passé la valeur System. ItemType du fichier à [**PSFormatForDisplay**](/windows/win32/api/propsys/nf-propsys-psformatfordisplay).
 
-Cette propriété ne doit pas être confondue avec [System. Kind](./props-system-kind.md), qui est un nom de type de haut niveau et convivial. Par exemple, pour un fichier de document. doc, les différentes propriétés sont les suivantes :
+Cette propriété ne doit pas être confondue avec [System. Kind](./props-system-kind.md), qui est un nom de type de haut niveau et convivial. Par exemple, pour un fichier de document .doc, les différentes propriétés sont les suivantes :
 
 
 
@@ -45,7 +45,7 @@ Cette propriété ne doit pas être confondue avec [System. Kind](./props-system
 |--------------------------------------------------------|-------------------------|
 | [System. Kind](./props-system-kind.md)                 | Document                |
 | [System. ItemType](./props-system-itemtype.md)         | .doc                    |
-| [System. ItemTypeText]() | Document Microsoft Word |
+| [System. ItemTypeText]() | Microsoft Word Document |
 
 
 
@@ -55,13 +55,13 @@ Exemples de valeurs
 
 
 
-| Chemin d’accès                                   | ItemTypeText            |
+| Chemin                                   | ItemTypeText            |
 |----------------------------------------|-------------------------|
 | c : \\hello.txt de la \\ barre mydir \\              | Fichier texte               |
-| \\\\goodnews.doc du partage de serveur \\ \\ mydir \\ | Document Microsoft Word |
+| \\\\goodnews.doc du partage de serveur \\ \\ mydir \\ | Microsoft Word Document |
 | \\\\\\dossier partage du serveur \\              | Dossier de fichiers             |
 | c : \\ mydir \\ mondossier                    | Dossier de fichiers             |
-| Compte/Mailbox/boîte de réception/'re : Bonjour ! '    | Message électronique Outlook  |
+| Compte/Mailbox/boîte de réception/'re : Bonjour ! '    | Outlook Message électronique  |
 
 
 

@@ -3,7 +3,7 @@ title: NM_OUTOFMEMORY le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle que le contrôle n’a pas pu terminer une opération, car la mémoire disponible est insuffisante. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: d7d80515-ae6c-4817-a698-d486a9d86c4a
 keywords:
-- Contrôles Windows de code de notification NM_OUTOFMEMORY
+- NM_OUTOFMEMORY les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f1321f88360d168b13d16b36f984d9b797dc094
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8a2efdd0048006b86d97964dc953d2dbd7c4ecb2687b3c0fb67a5effc63fea0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958108"
 ---
 # <a name="nm_outofmemory-notification-code"></a>\_Code de notification OUTOFMEMORY nm
 
@@ -55,8 +55,8 @@ La valeur de retour est ignorée par le contrôle.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

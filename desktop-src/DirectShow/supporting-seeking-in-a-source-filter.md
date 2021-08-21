@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique décrit comment implémenter la recherche dans un filtre de source Microsoft DirectShow. Elle utilise l’exemple de filtre ball comme point de départ et décrit le code supplémentaire nécessaire pour prendre en charge la recherche dans ce filtre.
+description: cette rubrique décrit comment implémenter la recherche dans un filtre de source Microsoft DirectShow. Elle utilise l’exemple de filtre ball comme point de départ et décrit le code supplémentaire nécessaire pour prendre en charge la recherche dans ce filtre.
 ms.assetid: a2b4be09-2fd6-4aac-8ad6-c3d62377c1f2
 title: Prise en charge de la recherche dans un filtre source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42ac4bbb63410adf9cb4e8d69064679143b84d67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d92c52ff4bde3ea75b156e5521af9825b0902df38f0d0c6bc23cc7be99c37a55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072353"
 ---
 # <a name="supporting-seeking-in-a-source-filter"></a>Prise en charge de la recherche dans un filtre source
 
-Cette rubrique décrit comment implémenter la recherche dans un filtre de source Microsoft DirectShow. Elle utilise l’exemple de [filtre ball](ball-filter-sample.md) comme point de départ et décrit le code supplémentaire nécessaire pour prendre en charge la recherche dans ce filtre.
+cette rubrique décrit comment implémenter la recherche dans un filtre de source Microsoft DirectShow. Elle utilise l’exemple de [filtre ball](ball-filter-sample.md) comme point de départ et décrit le code supplémentaire nécessaire pour prendre en charge la recherche dans ce filtre.
 
 L’exemple de [filtre ball](ball-filter-sample.md) est un filtre source qui crée une balle de rebond animée. Cet article explique comment ajouter des fonctionnalités de recherche à ce filtre. Une fois que vous avez ajouté cette fonctionnalité, vous pouvez afficher le filtre dans GraphEdit et contrôler la balle en faisant glisser le curseur GraphEdit.
 
@@ -26,7 +26,7 @@ Cette rubrique contient les sections suivantes :
 
 ## <a name="overview-of-seeking-in-directshow"></a>Vue d’ensemble de la recherche dans DirectShow
 
-Une application recherche le graphique de filtre en appelant une méthode [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) sur le gestionnaire de graphique de filtre. Le gestionnaire de graphique de filtre distribue ensuite l’appel à chaque convertisseur dans le graphique. Chaque convertisseur envoie l’appel en amont, par le biais de la broche de sortie du filtre amont suivant. L’appel se déplace en amont jusqu’à ce qu’il atteigne un filtre qui peut exécuter la commande Seek, en général un filtre source ou un filtre d’analyseur. En général, le filtre qui est à l’origine de l’horodatage gère également la recherche.
+une application recherche le graphique de filtre en appelant une méthode [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) sur le gestionnaire de Graph de filtre. le gestionnaire de Graph de filtre distribue ensuite l’appel à chaque convertisseur dans le graphique. Chaque convertisseur envoie l’appel en amont, par le biais de la broche de sortie du filtre amont suivant. L’appel se déplace en amont jusqu’à ce qu’il atteigne un filtre qui peut exécuter la commande Seek, en général un filtre source ou un filtre d’analyseur. En général, le filtre qui est à l’origine de l’horodatage gère également la recherche.
 
 Un filtre répond à une commande Seek comme suit :
 
@@ -107,7 +107,7 @@ STDMETHODIMP CBallStream::NonDelegatingQueryInterface
 
 
 
-La méthode est appelée « NonDelegating » en raison de la façon dont les classes de base DirectShow prennent en charge l’agrégation COM (Component Object Model). Pour plus d’informations, consultez la rubrique « Comment implémenter IUnknown » dans le kit de développement logiciel (SDK) DirectShow.
+la méthode est appelée « NonDelegating » en raison de la façon dont les classes de base DirectShow prennent en charge l’agrégation COM (component Object Model). pour plus d’informations, consultez la rubrique « comment implémenter IUnknown » dans le kit de développement logiciel (SDK) DirectShow.
 
 ### <a name="seeking-methods"></a>Méthodes de recherche
 

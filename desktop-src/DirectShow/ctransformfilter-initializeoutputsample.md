@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: efe7e62936c6feb1984a339a67783cdbc1e4f124
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 083867f2ef6b2e40462112036dbbb000c25bc3ad2bb443f011235e36bf245ab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953618"
 ---
 # <a name="ctransformfilterinitializeoutputsample-method"></a>CTransformFilter.Iniméthode tializeOutputSample
 
@@ -61,7 +61,7 @@ Reçoit un pointeur vers l’interface **IMediaSample** de l’exemple de sortie
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est appelée par la méthode [**CTransformFilter :: Receive**](ctransformfilter-receive.md) pour préparer l’exemple de sortie. En général, il n’est pas nécessaire d’appeler cette méthode dans votre classe dérivée, sauf si vous substituez la méthode **Receive** .
 
@@ -73,7 +73,7 @@ Cette méthode récupère un nouvel exemple à partir de l’allocateur de la br
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

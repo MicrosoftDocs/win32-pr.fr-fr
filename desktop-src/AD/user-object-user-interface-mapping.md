@@ -8,12 +8,12 @@ keywords:
 - Mappage de l’interface utilisateur Active Directory, objet User
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc797be7c53ba7759051016ddd0548c8c7124cd2
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 656e8071b558b730ecb1fc0463834f6fbadb7eb9bf4c56b11640e2b95209735f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024497"
 ---
 # <a name="user-object-user-interface-mapping"></a>Mappage de l’interface utilisateur Objet utilisateur
 
@@ -41,7 +41,7 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur de l
 
 
 
- 
+ 
 
 ## <a name="account-property-page"></a>Page de propriétés du compte
 
@@ -52,7 +52,7 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur de l
 | Étiquette d’interface utilisateur                                | Attribut dans Active Directory Domain Services                                                   | Commentaire                                                                                                                                                                                                                                                                                                                                                                                 |
 |-----------------------------------------|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nom de UserLogon                          | [**userPrincipalName**](/windows/desktop/ADSchema/a-userprincipalname)                                           | Ce champ est extrait de tous les éléments de l’attribut [**userPrincipalName**](/windows/desktop/ADSchema/a-userprincipalname) qui précèdent le dernier caractère « @ ». Le dernier caractère « @ » et tout ce qui suit est placé dans la zone de liste déroulante des suffixes.                                                                                                                                                      |
-| Nom d’ouverture de session de l’utilisateur (antérieur à Windows 2000)      | [**sAMAccountname**](/windows/desktop/ADSchema/a-samaccountname)                                                 | Aucun commentaire.                                                                                                                                                                                                                                                                                                                                                                             |
+| nom d’ouverture de session de l’utilisateur (pré-Windows 2000)      | [**sAMAccountname**](/windows/desktop/ADSchema/a-samaccountname)                                                 | Aucun commentaire.                                                                                                                                                                                                                                                                                                                                                                             |
 | Horaires d’accès                             | [**logonHours**](/windows/desktop/ADSchema/a-logonhours)                                                         | Aucun commentaire.                                                                                                                                                                                                                                                                                                                                                                             |
 | Se connecter à                               | [**logonWorkstation**](/windows/desktop/ADSchema/a-logonworkstation)                                             | Aucun commentaire.                                                                                                                                                                                                                                                                                                                                                                             |
 | Le compte est verrouillé                   | [**lockoutTime**](/windows/desktop/ADSchema/a-lockouttime) et [ **lockoutDuration**](/windows/desktop/ADSchema/a-lockoutduration) | Si l’attribut [**lockoutTime**](/windows/desktop/ADSchema/a-lockouttime) n’est pas égal à zéro, l’attribut [**lockoutDuration**](/windows/desktop/ADSchema/a-lockoutduration) est ajouté à **lockoutTime** et comparé à la date et à l’heure actuelles pour déterminer si le compte est verrouillé.                                                                                                                                |
@@ -63,7 +63,7 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur de l
 
 
 
- 
+ 
 
 ## <a name="address-property-page"></a>Page de propriétés de l’adresse
 
@@ -75,14 +75,14 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur de l
 |-----------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | Rue          | [**streetAddress**](/windows/desktop/ADSchema/a-streetaddress)                                                 | Aucun commentaire.                                               |
 | P. O. Box         | [**postOfficeBox**](/windows/desktop/ADSchema/a-postofficebox)                                                 | Aucun commentaire.                                               |
-| City            | [**l**](/windows/desktop/ADSchema/a-l)                                                                         | Le nom de l’attribut **l** est un « l » minuscule, comme dans les paramètres régionaux. |
+| City            | [**budget**](/windows/desktop/ADSchema/a-l)                                                                         | Le nom de l’attribut **l** est un « l » minuscule, comme dans les paramètres régionaux. |
 | État/province  | [**St**](/windows/desktop/ADSchema/a-st)                                                                       | Aucun commentaire.                                               |
-| Code postal | [**postalCode**](/windows/desktop/ADSchema/a-postalcode)                                                       | Aucun commentaire.                                               |
-| Pays/région  | [**c**](/windows/desktop/ADSchema/a-c), [**co**](/windows/desktop/ADSchema/a-co)et [**CountryCode**](/windows/desktop/ADSchema/a-countrycode) | Aucun commentaire.                                               |
+| Code postal | [**Postal**](/windows/desktop/ADSchema/a-postalcode)                                                       | Aucun commentaire.                                               |
+| Pays/Région  | [**c**](/windows/desktop/ADSchema/a-c), [**co**](/windows/desktop/ADSchema/a-co)et [**CountryCode**](/windows/desktop/ADSchema/a-countrycode) | Aucun commentaire.                                               |
 
 
 
- 
+ 
 
 ## <a name="member-of-property-page"></a>Membre de la page de propriétés
 
@@ -97,7 +97,7 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur du *
 
 
 
- 
+ 
 
 ## <a name="organization-property-page"></a>Page de propriétés de l’Organisation
 
@@ -107,15 +107,15 @@ Le tableau suivant présente les étiquettes de l’interface utilisateur de la 
 
 | Étiquette d’interface utilisateur       | Attribut dans Active Directory Domain Services | Commentaire     |
 |----------------|-----------------------------------------------|-------------|
-| Intitulé          | [**title**](/windows/desktop/ADSchema/a-title)                 | Aucun commentaire. |
-| department     | [**department**](/windows/desktop/ADSchema/a-department)       | Aucun commentaire. |
+| Titre          | [**bonhomme**](/windows/desktop/ADSchema/a-title)                 | Aucun commentaire. |
+| Service     | [**compétent**](/windows/desktop/ADSchema/a-department)       | Aucun commentaire. |
 | Company        | [**entreprise**](/windows/desktop/ADSchema/a-company)             | Aucun commentaire. |
 | Gestionnaire : nom   | [**gestion**](/windows/desktop/ADSchema/a-manager)             | Aucun commentaire. |
 | Rapports directs | [**directReports**](/windows/desktop/ADSchema/a-directreports) | Aucun commentaire. |
 
 
 
- 
+ 
 
 ## <a name="profile-property-page"></a>Page de propriétés du profil
 
@@ -128,12 +128,12 @@ Le tableau suivant répertorie les étiquettes de l’interface utilisateur de l
 | Chemin d’accès du profil            | [**profilePath**](/windows/desktop/ADSchema/a-profilepath)     | Aucun commentaire.                                                                                                             |
 | Script d’ouverture de session            | [**scriptPath**](/windows/desktop/ADSchema/a-scriptpath)       | Aucun commentaire.                                                                                                             |
 | Dossier de démarrage : chemin d’accès local | [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory) | Si le **chemin d’accès local** est sélectionné, le chemin d’accès local est stocké dans l’attribut [**HomeDirectory**](/windows/desktop/ADSchema/a-homedirectory) . |
-| Dossier de démarrage : se connecter    | [**homeDrive**](/windows/desktop/ADSchema/a-homedrive)         | Si **connexion** est sélectionné, le lecteur mappé est stocké dans l’attribut [**homeDrive**](/windows/desktop/ADSchema/a-homedrive) .          |
-| Dossier de démarrage : à         | [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory) | Si **connexion** est sélectionné, le chemin d’accès est stocké dans l’attribut [**HomeDirectory**](/windows/desktop/ADSchema/a-homedirectory) .          |
+| Dossier de démarrage : Connecter    | [**homeDrive**](/windows/desktop/ADSchema/a-homedrive)         | si **Connecter** est sélectionné, le lecteur mappé est stocké dans l’attribut [**homeDrive**](/windows/desktop/ADSchema/a-homedrive) .          |
+| Dossier de démarrage : à         | [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory) | si **Connecter** est sélectionné, le chemin d’accès est stocké dans l’attribut [**homeDirectory**](/windows/desktop/ADSchema/a-homedirectory) .          |
 
 
 
- 
+ 
 
 ## <a name="telephones-property-page"></a>Page de propriétés des téléphones
 
@@ -143,26 +143,26 @@ Le tableau suivant répertorie les éléments d’interface utilisateur de la pa
 
 | Étiquette d’interface utilisateur        | Attribut dans Active Directory Domain Services                                 |
 |-----------------|-------------------------------------------------------------------------------|
-| Accueil            | [**homePhone**](/windows/desktop/ADSchema/a-homephone)                                         |
+| page d'accueil            | [**homePhone**](/windows/desktop/ADSchema/a-homephone)                                         |
 | Page d’hébergement : autres     | [**otherHomePhone**](/windows/desktop/ADSchema/a-otherhomephone)                               |
 | Récepteur de radiomessagerie           | [**destinés**](/windows/desktop/ADSchema/a-pager)                                                 |
 | Radiomessagerie : Other    | [**otherPager**](/windows/desktop/ADSchema/a-otherpager)                                       |
-| Mobile          | [**mobile**](/windows/desktop/ADSchema/a-mobile)                                               |
+| Mobile          | [**processeur**](/windows/desktop/ADSchema/a-mobile)                                               |
 | Mobile : autres   | [**otherMobile**](/windows/desktop/ADSchema/a-othermobile)                                     |
 | Fax             | [**facsimileTelephoneNumber**](/windows/desktop/ADSchema/a-facsimiletelephonenumber)           |
 | Télécopie : autres      | [**otherFacsimileTelephoneNumber**](/windows/desktop/ADSchema/a-otherfacsimiletelephonenumber) |
 | Téléphone IP        | [**ipPhone**](/windows/desktop/ADSchema/a-ipphone)                                             |
 | Téléphone IP : autre | [**otherIpPhone**](/windows/desktop/ADSchema/a-otheripphone)                                   |
-| Notes           | [**méta**](/windows/desktop/ADSchema/a-info)                                                   |
+| Remarques           | [**méta**](/windows/desktop/ADSchema/a-info)                                                   |
 
 
 
- 
+ 
 
 ## <a name="environment-sessions-remote-control-and-terminal-services-profile-property-pages"></a>Pages de propriétés environnement, sessions, contrôle à distance et profil des services Terminal Server
 
 Les pages **environnement**, **sessions**, **contrôle à distance** et **profil des services Terminal Server** sont fournies pour un objet utilisateur qui prend en charge les services Terminal Server. Les éléments d’interface utilisateur pour ces pages ne correspondent pas à des attributs individuels. Au lieu de cela, les paramètres sont stockés dans des données privées dans Active Directory Domain Services. Vous pouvez accéder aux paramètres des services Terminal Server à l’aide de l’interface [**IADsTsUserEx**](/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex) .
 
- 
+ 
 
- 
+ 

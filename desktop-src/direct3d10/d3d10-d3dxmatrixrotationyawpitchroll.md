@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: ae00865c45878159dbf86a6f829e9d1cf50337e3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b4872389893f65316f33e1685c124b7d36a92f0820a6b5288577eced8b46cf95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118810116"
 ---
 # <a name="d3dxmatrixrotationyawpitchroll-function-d3dx10mathh"></a>D3DXMatrixRotationYawPitchRoll, fonction (D3DX10Math. h)
 
@@ -79,13 +79,13 @@ Tourner autour de l’axe z, en radians.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX avec le lacet, le tangage et le roulis spécifiés.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXMatrixRotationYawPitchRoll peut être utilisée comme paramètre pour une autre fonction.
 
@@ -93,7 +93,7 @@ L’ordre des transformations est le premier, puis le tangage, puis le lacet. Pa
 
 ![illustration du rouleau, du tangage et du lacet comme rotations autour des trois axes](images/pitchyawroll.png)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

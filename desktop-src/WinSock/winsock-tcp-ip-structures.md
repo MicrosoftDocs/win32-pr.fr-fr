@@ -4,12 +4,12 @@ ms.assetid: 9c9a4639-4b51-4e00-b790-a0a5841c6ed3
 title: Structures TCP/IP Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e350fc6fe12f6881d08d6757c739f9480d59afa4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 059bcf4fc7e5f3a8376e26e58afd5de22eb4805c3b7a9674f9406af72d2b5851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821963"
 ---
 # <a name="winsock-tcpip-structures"></a>Structures TCP/IP Winsock
 
