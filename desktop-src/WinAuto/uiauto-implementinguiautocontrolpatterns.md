@@ -9,12 +9,12 @@ keywords:
 - modèles de contrôle, implémenter UI Automation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bfb75b6b275fee9230eb25d9a0b02e1da26ad4d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 37901313c9dfb2bf0b66ea78c1993ddd07c776a5cf2313be430548761c555708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106518021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114820"
 ---
 # <a name="implementing-ui-automation-control-patterns"></a>Implémentation des modèles de contrôle UI Automation
 
@@ -68,6 +68,6 @@ Cette section fournit des informations détaillées sur l’implémentation des 
 [Prise en charge des types de contrôle UI Automation](uiauto-supportinguiautocontroltypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

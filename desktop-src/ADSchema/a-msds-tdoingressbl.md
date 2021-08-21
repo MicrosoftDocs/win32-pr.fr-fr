@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c0fe74a1df1193d27e257dd44037c07e71cf357
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 65ac91f48915b30ef1214c0b140262f5b3acd7f7a8ade7b2ed92bcc3ba1cb048
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425761"
 ---
 # <a name="ms-ds-tdo-ingress-bl-attribute"></a>ms-DS-TDO-Ingres-BL (attribut)
 

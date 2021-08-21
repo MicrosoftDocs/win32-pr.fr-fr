@@ -4,16 +4,16 @@ ms.assetid: 6b75fdb2-3d4c-4419-96e8-8677439e366b
 title: Chargement de VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01c66685668641f3036739c57bd7353f72052c6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ec6a757b57c8e06e53862b3d36b9d54f291e4b07693dff008ecc2bbbb961c84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125939"
 ---
 # <a name="loading-vds"></a>Chargement de VDS
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 **Pour charger et initialiser VDS**
 

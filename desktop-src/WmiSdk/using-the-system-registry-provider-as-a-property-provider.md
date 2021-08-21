@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 64fc701843438b4d173b1914ed2ac86214fe685e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b9b23be76845512df76bc0327543d463fd5eec6a816d57871f959b53229aecf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118107449"
 ---
 # <a name="use-the-system-registry-provider-as-a-property-provider"></a>Utiliser le fournisseur de Registre système comme fournisseur de propriétés
 

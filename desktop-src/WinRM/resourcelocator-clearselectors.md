@@ -5,7 +5,7 @@ ms.assetid: 759880e6-5026-45de-b7e1-a4f5a16c32a0
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode ClearSelectors
-- Méthode ClearSelectors Windows Remote Management, objet ResourceLocator
+- méthode ClearSelectors Windows Remote Management, objet ResourceLocator
 - Windows Remote Management objet ResourceLocator, méthode ClearSelectors
 topic_type:
 - apiref
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd5dbf1322a5e0c36a1383581e2822fbd00a00e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d54fda16aa67086304e62b4c762769cc7dea832437a939f3928eda665623f5ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112835"
 ---
 # <a name="resourcelocatorclearselectors-method"></a>Méthode ResourceLocator. ClearSelectors
 
@@ -41,7 +41,7 @@ ResourceLocator.ClearSelectors()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWSManResourceLocator :: ClearSelectors** est la méthode C++ correspondante.
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 93f95bf31a546e5503fe41ae437ddb0ef662c48f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 77aac2c1ac1ed7e28f771d3bf9e2def34a27175c05b08d5c300b67cc35b7e1a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148696"
 ---
 # <a name="reset-method-of-the-msvm_diskettedrive-class"></a>Méthode Reset de la \_ classe MSVM DisketteDrive
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

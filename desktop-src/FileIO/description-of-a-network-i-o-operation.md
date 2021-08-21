@@ -4,12 +4,12 @@ ms.assetid: 72dc0c57-28ae-4289-bb0d-b399d294c126
 title: Description d’une opération d’e/s réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 371b72389554f1c3fa2ec43180b1a6e4c76dc012
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4d872f8eaf6f9a90ab313e6a7b17e3fe93073cdb13e5b039e401de41287f1c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150819"
 ---
 # <a name="description-of-a-network-io-operation"></a>Description d’une opération d’e/s réseau
 
@@ -25,7 +25,7 @@ Quand une application appelle une fonction d’e/s de fichier pour accéder à u
 -   Lorsque la requête a été exécutée, le redirecteur sur le serveur envoie toutes les données résultant de la demande d’e/s au redirecteur sur le client, ainsi qu’une notification de réussite. Cela est illustré dans la figure précédente par la flèche en pointillés entre le serveur et le redirecteur du client.
 -   Le redirecteur sur le client reçoit le paquet du serveur et transmet les données du paquet à l’application, ainsi qu’une notification de réussite. Cela est illustré dans la figure précédente par la flèche pointillée entre le redirecteur du client et l’application.
 
-Windows peut utiliser divers protocoles réseau pour effectuer une opération d’e/s réseau, notamment le [protocole SMB Microsoft et la vue d’ensemble du protocole CIFS](microsoft-smb-protocol-and-cifs-protocol-overview.md) et NFS.
+Windows pouvez utiliser divers protocoles réseau pour effectuer une opération d’e/s réseau, notamment le [protocole SMB Microsoft et la vue d’ensemble du protocole CIFS](microsoft-smb-protocol-and-cifs-protocol-overview.md) et NFS.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

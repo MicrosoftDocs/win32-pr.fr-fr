@@ -4,12 +4,12 @@ description: Cette rubrique identifie une séquence typique d’opérations qui 
 ms.assetid: 1245fd98-8370-4f1b-8c86-de9be5e678bd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c99af3e4914c5496c2adea10b3ac658f75f3018
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7d24defe190c073f7ca359309baf6731d466459d9bb7cfbd9ffc05268ded11ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106518004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150332"
 ---
 # <a name="http-server-api-overview"></a>Vue d’ensemble de l’API serveur HTTP
 
@@ -29,14 +29,14 @@ Chaque application crée sa propre file d’attente de demandes. Une application
 > [!Note]  
 > Il incombe à l’application d’examiner tous les en-têtes de requête pertinents, y compris les en-têtes Content-Negotiation s’ils sont utilisés, et de faire échouer les demandes en fonction du contenu d’en-tête. L’API du serveur HTTP garantit que chaque ligne d’en-tête est correctement terminée et ne contient pas de caractères non conformes.
 
- 
+ 
 
 Utilisez la fonction [**HttpReceiveRequestEntityBody**](/windows/desktop/api/Http/nf-http-httpreceiverequestentitybody) avec le handle de la file d’attente des demandes pour récupérer les parties suivantes du corps d’entité d’une demande, le cas échéant.
 
 > [!Note]  
 > L’API du serveur HTTP décode les messages segmentés côté réception, mais n’effectue pas de codage mémorisé en bloc côté envoi. Si la segmentation est requise côté envoi, l’application doit l’implémenter. Pour plus d’informations sur l’encodage mémorisé en bloc, consultez [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt).
 
- 
+ 
 
 Utilisez la fonction [**HttpReceiveClientCertificate**](/windows/desktop/api/Http/nf-http-httpreceiveclientcertificate) avec des applications qui traitent des URL à l’aide d’un schéma sécurisé («**https**») pour récupérer éventuellement les informations de certificat du client.
 
@@ -45,7 +45,7 @@ Les réponses sont envoyées avec la fonction [**HttpSendHttpResponse**](/window
 > [!Note]  
 > Par défaut, [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) utilise « Microsoft-HTTPAPI/1.0 » comme en-tête « Server : ». Si une application spécifie un en-tête de serveur dans une réponse, cette valeur est placée en tant que première partie de l’en-tête de serveur, suivie d’un espace, puis de « Microsoft-HTTPAPI/1.0 ».
 
- 
+ 
 
 En général, l’API du serveur HTTP masque les détails de la gestion des connexions et leur établissement et leur destruction à partir des applications. Toutefois, une application peut éventuellement détecter l’arrêt d’une connexion en appelant [**HttpWaitForDisconnect**](/windows/desktop/api/Http/nf-http-httpwaitfordisconnect).
 
@@ -55,6 +55,6 @@ Les applications doivent être nettoyées en procédant comme suit :
 -   Lorsque l’application a terminé d’utiliser la file d’attente des demandes, fermez le handle de la file d’attente des demandes à l’aide de la fonction [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) .
 -   Lorsque l’application a terminé d’utiliser l’API du serveur HTTP, appelez la fonction [**HttpTerminate**](/windows/desktop/api/Http/nf-http-httpterminate) .
 
- 
+ 
 
- 
+ 

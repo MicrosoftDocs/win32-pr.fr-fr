@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 53293687fd4ab0d87155b86edd026189f6d7c925
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a8602594bdbdf6d39532213b0be660b5b3cfb6a90cd8281d9555ed2ff3a9d401
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106543016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121049"
 ---
 # <a name="channellisttype-complex-type"></a>Type complexe ChannelListType
 
@@ -60,7 +60,7 @@ Définit une liste de canaux auxquels les fournisseurs peuvent enregistrer des �
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez spécifier jusqu’à huit canaux (n’importe quelle combinaison de canaux ou canaux importés que vous définissez).
 
@@ -70,8 +70,8 @@ Vous pouvez spécifier jusqu’à huit canaux (n’importe quelle combinaison de
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

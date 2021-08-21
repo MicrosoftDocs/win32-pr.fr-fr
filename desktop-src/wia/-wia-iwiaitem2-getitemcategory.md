@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: fdf650e8b540fcb9dc58f93f34771462fbc0a5c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 958d5046e93dca4e5c90214bdb89803921ca507827c1134957db99fb70e3244f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118034977"
 ---
 # <a name="iwiaitem2getitemcategory-method"></a>IWiaItem2 :: GetItemCategory, méthode
 
@@ -42,7 +42,7 @@ HRESULT GetItemCategory(
 *pItemCategoryGUID* \[ à\]
 </dt> <dd>
 
-Type : **GUID \** _
+Type : **GUID \***
 
 Reçoit un pointeur vers le GUID qui identifie la catégorie de l’élément.
 
@@ -50,22 +50,22 @@ Reçoit un pointeur vers le GUID qui identifie la catégorie de l’élément.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Chaque objet [**IWiaItem2**](-wia-iwiaitem2.md) dans l’arborescence hiérarchique d’objets associés à un périphérique matériel WIA (Windows Image Acquisition) 2,0 a une catégorie spécifique. Cette méthode permet aux applications d’identifier la catégorie d’un élément dans une arborescence hiérarchique d’objets Item dans un appareil.
+chaque objet [**IWiaItem2**](-wia-iwiaitem2.md) dans l’arborescence hiérarchique d’objets associés à un périphérique matériel WIA (Windows Image Acquisition) 2,0 a une catégorie spécifique. Cette méthode permet aux applications d’identifier la catégorie d’un élément dans une arborescence hiérarchique d’objets Item dans un appareil.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

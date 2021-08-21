@@ -4,12 +4,12 @@ description: Explique comment configurer le demandeur en fournissant une configu
 ms.assetid: f6a23201-e221-4098-863f-71a81735d927
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9b82debadc075b1fcc12dad06484c0fd3617874
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: a6709e68bf20d8f38d3685f66e45313083e70e46b1a8a0bb0675616bdb4e8bcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106512293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086703"
 ---
 # <a name="configuring-the-eap-method-user-interface"></a>Configuration de l’interface utilisateur de la méthode EAP
 
@@ -21,7 +21,7 @@ Pour qu’un demandeur effectue une authentification basée sur EAP à l’aide 
     > [!Note]  
     > Le demandeur peut choisir de filtrer la liste affichée des méthodes en fonction des bits de propriété de méthode indiqués dans informations sur la **\_ méthode EAP \_ . eapProperties**. Certaines méthodes peuvent ne pas convenir aux caractéristiques de sécurité du transport fournies par le demandeur, par exemple.
 
-     
+     
 
 2.  Une fois que le contrôle d’interface utilisateur est rempli avec l’ensemble de méthodes EAP possibles, l’utilisateur sélectionne la méthode qu’il souhaite configurer. En règle générale, le demandeur fournit un bouton de **configuration** ou de **Propriétés** permettant à l’utilisateur d’accéder aux propriétés de configuration de la méthode EAP sélectionnée.
     > [!Note]
@@ -29,7 +29,7 @@ Pour qu’un demandeur effectue une authentification basée sur EAP à l’aide 
     >
     > Pour plus d’informations, consultez Propriétés de la [**méthode EAP**](eap-method-properties.md).
 
-     
+     
 
 3.  Lorsque l’utilisateur clique sur le contrôle d’interface utilisateur approprié, le demandeur appelle [**EapHostPeerInvokeConfigUI**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui), en passant à la fonction la valeur **HWND** pour la propre interface utilisateur du demandeur, la structure de [**\_ \_ type de méthode EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type) obtenue à partir de la structure de la requête vers la structure d' [**\_ \_ informations de méthode EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info) et d’autres paramètres requis.
 4.  L’appel de [**EapHostPeerInvokeConfigUI**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui) appelle l’interface utilisateur de configuration de la méthode EAP. Au retour de **EapHostPeerInvokeConfigUI**, la fonction retourne un objet blob de configuration de méthode EAP en tant que paramètre out.
@@ -55,9 +55,9 @@ Pour qu’un demandeur effectue une authentification basée sur EAP à l’aide 
 [Demandeurs EAPHost](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

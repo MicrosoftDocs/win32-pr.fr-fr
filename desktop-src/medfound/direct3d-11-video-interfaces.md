@@ -4,12 +4,12 @@ ms.assetid: 2AE97FFE-0FA4-4CC0-8433-7BA46BCACE30
 title: Interfaces vidéo Direct3D 11
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2752612fa4865e1c76b9e1cd85b93e6c7c455983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40d9e0f31b50e695840024280bc4a4d4e7e2e90b6790dd8342da121a2d02d08d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118064203"
 ---
 # <a name="direct3d-11-video-interfaces"></a>Interfaces vidéo Direct3D 11
 

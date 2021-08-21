@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b24a07041dae1ea2387ced93d1d2ae541a806029
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae1f456c59a75fa8cd9969e57f7e991cc836ee3783d25e52919387606ec79262
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117974250"
 ---
 # <a name="signedcodecertificates-property"></a>SignedCode. Certificates, propriété
 
@@ -39,13 +39,13 @@ SignedCode.Certificates As Certificates
 
 Collection de [**certificats**](certificates.md) qui contient tous les certificats dans le fichier exécutable signé.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

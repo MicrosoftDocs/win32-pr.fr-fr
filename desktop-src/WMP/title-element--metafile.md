@@ -3,7 +3,7 @@ title: TITLE, élément (Metafile)
 description: L’élément TITLE définit une chaîne de texte spécifiant le titre d’un élément ASX ou d’un élément d’entrée.
 ms.assetid: d7ad7f00-fcf2-456d-a106-98bf0a258b81
 keywords:
-- TITRE, élément (métafichier) lecteur Windows Media
+- TITLE, élément (metafile) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bdb58edbb3ffd99e8be557fdb05a7e51298fda14
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 085bec9a9937c8dbd02fad6df785f4bce7afea90a74117e745f09cb5135633d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117719"
 ---
 # <a name="title-element-metafile"></a>TITLE, élément (Metafile)
 
@@ -41,13 +41,13 @@ Cet élément n’a pas d’attributs.
 | Hierarchy       | Éléments           |
 |-----------------|--------------------|
 | Éléments parents | **ASX**, **entrée** |
-| Éléments enfants  | Aucune               |
+| Éléments enfants  | None               |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet élément définit une chaîne de texte qui spécifie le titre d’un élément **ASX** ou d’un élément d' **entrée** . Le titre s’affiche dans la boîte de dialogue **Propriétés** et panneau d’affichage.
 
@@ -86,10 +86,10 @@ Chaque **ASX** parent et élément d' **entrée** doit contenir au plus un élé
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

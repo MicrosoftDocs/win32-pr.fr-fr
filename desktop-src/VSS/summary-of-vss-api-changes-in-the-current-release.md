@@ -1,17 +1,17 @@
 ---
-description: Résumé des modifications de l’API VSS dans Windows Server 2003
+description: résumé des modifications de l’API VSS dans Windows Server 2003
 ms.assetid: 35572fc6-9147-4726-ae7a-d78292683ba0
-title: Résumé des modifications de l’API VSS dans Windows Server 2003
+title: résumé des modifications de l’API VSS dans Windows Server 2003
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9154da0ac67dd7a599064ed3b5cf1dc7285b0fb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a620a7498e5bc6af29e46e41f34c4cc96e04241db9d7618009d61493595945f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121562"
 ---
-# <a name="summary-of-vss-api-changes-in-windows-server-2003"></a>Résumé des modifications de l’API VSS dans Windows Server 2003
+# <a name="summary-of-vss-api-changes-in-windows-server-2003"></a>résumé des modifications de l’API VSS dans Windows Server 2003
 
 ## <a name="changes-in-the-vss-service"></a>Modifications dans le service VSS
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: a937dcf23f894d094fb5f6cc75a765b1d563a1b7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cfe6f25c8da74c3ee74d386748a278b156c33579ecdab9c0ca4b8aa69ff4d97b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095420"
 ---
 # <a name="d3dxquaternion-extensions"></a>Extensions D3DXQUATERNION
 
@@ -69,13 +69,13 @@ public:
 
 Types dérivés : \* LPD3DXQUATERNION
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur les membres de structure, consultez [**D3DXQUATERNION**](d3dxquaternion.md).
 
 Les surcharges d’opérateur et les casts de type pour cette structure sont implémentés dans d3dx9math. inl.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

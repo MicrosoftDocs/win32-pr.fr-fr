@@ -1,19 +1,19 @@
 ---
-title: Fonctions de réseau Windows
-description: Les fonctions suivantes sont utilisées dans la mise en réseau Windows
+title: Windows Fonctions de mise en réseau
+description: les fonctions suivantes sont utilisées dans la mise en réseau Windows
 ms.assetid: 95e30f8f-a326-424d-bd80-5fc9b3078dad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3d962d82cc613416838fcdc75734d26c17f9d40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7b6028720b5987261398789ad00ecb2c84c283ab82332984e9dd5c7a53cf9dec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330893"
 ---
-# <a name="windows-networking-functions"></a>Fonctions de réseau Windows
+# <a name="windows-networking-functions"></a>Windows Fonctions de mise en réseau
 
-Les fonctions suivantes sont utilisées dans la mise en réseau Windows :
+les fonctions suivantes sont utilisées dans la mise en réseau Windows :
 
 <dl>
 
@@ -50,6 +50,6 @@ La fonction suivante est fournie uniquement pour la compatibilité avec les vers
 [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)  
 </dl>
 
- 
+ 
 
- 
+ 

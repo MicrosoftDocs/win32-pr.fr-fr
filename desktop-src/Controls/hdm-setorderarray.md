@@ -3,7 +3,7 @@ title: Message HDM_SETORDERARRAY (commctrl. h)
 description: Définit l’ordre de gauche à droite des éléments d’en-tête. Vous pouvez envoyer ce message explicitement ou utiliser la macro d’en-tête \_ SetOrderArray.
 ms.assetid: 094c424f-10bd-484d-8236-937811b703a6
 keywords:
-- HDM_SETORDERARRAY les contrôles de message Windows
+- HDM_SETORDERARRAY les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f07874bfc102babec18b142a087b14e330044ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6218da9ec51e8bbce6aa928bdab203ca675426595d8e9bba476e511b84f4ea9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170959"
 ---
 # <a name="hdm_setorderarray-message"></a>\_Message HDM SETORDERARRAY
 
@@ -47,14 +47,14 @@ Pointeur vers un tableau qui spécifie l’ordre dans lequel les éléments doiv
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

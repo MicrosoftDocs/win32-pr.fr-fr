@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre SRPActivateAsActivatorChecks COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b66ae6b1c7f267f48f24441c04e95eea75e4345
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c88accfb436124f13fc25eea9a5ee3621c7784fb509de7d842765bf0a072c977
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118104270"
 ---
 # <a name="srpactivateasactivatorchecks"></a>SRPActivateAsActivatorChecks
 
@@ -21,10 +21,10 @@ Détermine si les niveaux de confiance de la stratégie de restriction logiciell
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   SRPActivateAsActivatorChecks = value
+   SRPActivateAsActivatorChecks = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **reg \_ SZ** .
 
@@ -37,9 +37,9 @@ Les valeurs de chaîne {N, n, NO, no} indiquent que l’objet serveur s’exécu
 [SRPTrustLevel](srptrustlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1c6219640085370202b8dbebad9a2e9d4992b4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 755e2dc0ed6b53f3a2ee5ef5310369b734a58cba27481b8b478eef63fdfe5722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132601"
 ---
 # <a name="porting-matrix-and-transformation-functions"></a>Fonctions de transformation et de matrice de Portage
 

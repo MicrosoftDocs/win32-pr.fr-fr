@@ -3,23 +3,23 @@ title: Méthode OnSearch
 description: Méthode OnSearch
 ms.assetid: 709bb428-1a5e-4b8d-8622-5fcc816f0a1a
 keywords:
-- Plug-ins du lecteur Windows Media, méthode OnSearch
+- plug-ins Lecteur Windows Media, méthode OnSearch
 - plug-ins, méthode OnSearch
 - plug-ins d’interface utilisateur, méthode OnSearch
 - Plug-ins d’interface utilisateur, méthode OnSearch
 - Méthode OnSearch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de5c33af434028e6ee72c757c8d71def0d4109fd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49ab5cb4b26d291a940ed329e2422240e6fc36e5ba980431af169d58f1398fdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118117999"
 ---
 # <a name="the-onsearch-method"></a>Méthode OnSearch
 
-La méthode OnSearch est appelée par le lecteur Windows Media quand l’utilisateur clique sur le bouton de **recherche** . Cette méthode récupère l’objet **multimédia** en cours et le passe à la méthode launchpage.
+la méthode OnSearch est appelée par Lecteur Windows Media lorsque l’utilisateur clique sur le bouton de **recherche** . Cette méthode récupère l’objet **multimédia** en cours et le passe à la méthode launchpage.
 
 Le code suivant est utilisé pour implémenter cette méthode :
 
@@ -57,9 +57,9 @@ LRESULT OnSearch(WORD wNotifyCode, WORD wID, HWND hwndCtl, BOOL& fHandled)
 [**Implémentation de CPluginWindow**](implementing-cpluginwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

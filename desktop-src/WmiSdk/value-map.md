@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: df85342df9543e4d62b04482785ec31bb5bd3982
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34b95b540a99dfaecefcbe0b87e817fd0c44c58606921046476b3411cdd256e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118107378"
 ---
 # <a name="valuemap-and-value-qualifiers"></a>ValueMap et qualificateurs de valeur
 
@@ -60,7 +60,7 @@ La propriété agit comme un index dans le tableau, en maintenant une valeur qui
 
 Il revient à l’application de tirer parti des mappages de façon utile. Il revient au fournisseur d’appliquer une plage légale de valeurs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour déterminer s’il faut utiliser les / qualificateurs de **valeur** ValueMap ou de **bitmaps de bitmap** /  , déterminez si l’une des valeurs indiquées peut se produire simultanément. Si plusieurs valeurs simultanées peuvent exister, vous devez utiliser des / **bitvalues** bitmap. Si toutes les valeurs s’excluent mutuellement, vous devez utiliser les / qualificateurs de **valeur** ValueMap.
 

@@ -3,7 +3,7 @@ title: Message TB_SAVERESTORE (commctrl. h)
 description: Envoyer ce message pour lancer l’enregistrement ou la restauration de l’état d’une barre d’outils.
 ms.assetid: 59f51d07-cd08-4d6f-9d19-614064ba6f20
 keywords:
-- TB_SAVERESTORE les contrôles de message Windows
+- TB_SAVERESTORE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e87e4ddbed87e81a88c8711c9931dcf95cf9e59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94d04c16fda40bf66736431a684398eddf313529c669cc6db9ec49fbaad4f6f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168021"
 ---
 # <a name="tb_saverestore-message"></a>TO \_ SAVERESTORE message
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**TBSAVEPARAMS**](/windows/win32/api/commctrl/ns-co
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour la version 4,72 et les versions antérieures, afin d’utiliser ce message pour enregistrer ou restaurer une barre d’outils, la fenêtre parente du contrôle ToolBar doit implémenter un gestionnaire pour le code de notification [TBN \_ GETBUTTONINFO](tbn-getbuttoninfo.md) . La barre d’outils émet cette notification pour extraire des informations sur chaque bouton lors de sa restauration.
 
@@ -61,8 +61,8 @@ La version 5,80 comprend une nouvelle option d’enregistrement/restauration. Au
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **To \_ SAVERESTOREW** (Unicode) et **to \_ SAVERESTOREA** (ANSI)<br/>             |
 

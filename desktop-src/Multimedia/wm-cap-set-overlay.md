@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_OVERLAY (VFW. h)
 description: Le \_ message WM Cap \_ Set \_ Overlay active ou désactive le mode superposition. En mode superposition, la vidéo est affichée à l’aide de la superposition matérielle. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capOverlay.
 ms.assetid: b74c0619-2b70-46e0-9acd-43d658529233
 keywords:
-- Message WM_CAP_SET_OVERLAY Windows Multimedia
+- message WM_CAP_SET_OVERLAY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f197ae3a7df9ad1520b84cf27fd15a1c76524ab1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10f2161f3c163fb5f6c411293770a2b2ba3907bef7eb03aad2d67b0e0637abbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135091"
 ---
 # <a name="wm_cap_set_overlay-message"></a>\_Message de \_ superposition du jeu de bouchon WM \_
 
@@ -49,7 +49,7 @@ Indicateur de superposition. Spécifiez **true** pour ce paramètre pour activer
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’utilisation d’une superposition ne requiert pas de ressources processeur.
 

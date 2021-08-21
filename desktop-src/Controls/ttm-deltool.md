@@ -3,7 +3,7 @@ title: Message TTM_DELTOOL (commctrl. h)
 description: Supprime un outil d’un contrôle ToolTip.
 ms.assetid: 433b6f1c-3e9f-4e3a-9834-d447a3f9e6a5
 keywords:
-- TTM_DELTOOL les contrôles de message Windows
+- TTM_DELTOOL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d943259c5496757c0f15ca4127d0a5e6a4237fbe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea54eefd2b9cc84b3aabe5dd600c5fcc32c7468cae01d1819b5fda7b631aeabd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166382"
 ---
 # <a name="ttm_deltool-message"></a>\_Message atténuation DELTOOL
 
@@ -51,8 +51,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **Atténuation \_ DELTOOLW** (Unicode) et **atténuation \_ DELTOOLA** (ANSI)<br/>                   |
 

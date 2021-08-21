@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 036ff3b4088413f8641028c9c76e708a9a47c2ea
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 455b03e0f9122ab49353f5fff3dcd5e91cb70c4191ca11c83534456b8bd79891
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426706"
 ---
 # <a name="ms-ds-geocoordinates-longitude-attribute"></a>ms-DS-coordonnées-attribut de longitude
 
@@ -36,7 +36,7 @@ Coordonnées géographiques pour les services de localisation, en particulier la
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2185              |
 | System-ID-GUID    | 94c42110-bae4-4cea-8577-af813af5da25 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 

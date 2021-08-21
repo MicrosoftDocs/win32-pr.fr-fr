@@ -1,5 +1,5 @@
 ---
-description: Représente l’inscription d’un service dans la plateforme Microsoft Hyper-V.
+description: représente l’inscription d’un service dans la plateforme Microsoft Hyper-V.
 ms.assetid: 706557C2-49D6-453F-9DC0-2C655888EEBE
 title: Classe Msvm_VirtualizationComponentRegistration
 ms.topic: reference
@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7e9704dcade0474a10ca60383280941ec2e3591b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7acd111ab95f59146763e874d40c4efb411313938c94b1a4527aa1e2d08490c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146553"
 ---
 # <a name="msvm_virtualizationcomponentregistration-class"></a>MSVM \_ VirtualizationComponentRegistration, classe
 
-Représente l’inscription d’un service dans la plateforme Microsoft Hyper-V.
+représente l’inscription d’un service dans la plateforme Microsoft Hyper-V.
 
 La syntaxe suivante est simplifiée format MOF (MOF).
 
@@ -76,7 +76,7 @@ Référence à une instance de qui décrit un type de ressource pris en charge p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ VirtualizationComponentRegistration** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -86,8 +86,8 @@ L’accès à la classe **MSVM \_ VirtualizationComponentRegistration** peut êt
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Fin de la prise en charge des clients<br/>    | Windows 8.1<br/>                                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
