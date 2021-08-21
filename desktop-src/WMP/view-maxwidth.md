@@ -3,7 +3,7 @@ title: VIEW. maxWidth
 description: L’attribut maxWidth spécifie ou récupère la largeur maximale, en pixels, de la vue lors du redimensionnement.
 ms.assetid: 41912c42-a43f-428c-9f52-6918561674db
 keywords:
-- AFFICHER. maxWidth lecteur Windows Media
+- VIEW. maxWidth Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4969a4cba3c874a2c5ec857b8a3e737c74bff420
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fb566bf8925c8d6a79b107ce440504318d188c9b7ab551dd7dc405fa80dcd48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118116784"
 ---
 # <a name="viewmaxwidth"></a>VIEW. maxWidth
 

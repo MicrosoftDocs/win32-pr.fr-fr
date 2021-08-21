@@ -4,12 +4,12 @@ description: Événement clic
 ms.assetid: 772029d5-97b6-49d8-a989-04f0fc429aca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3956d19e833a3e0a5f71192b2846ef9cb270ad10
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1bc10726c91612a6d43c4b7f8ceb0509fc347904f1328c9b99a3ec05d8e2eb0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480185"
 ---
 # <a name="click-event"></a>Événement clic
 
@@ -40,22 +40,22 @@ Se produit lorsque l’utilisateur clique sur un caractère ou sur l’icône du
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cet événement est envoyé uniquement au client d’entrée-actif d’un caractère. Lorsque l’utilisateur clique sur un caractère ou sur son icône de barre des tâches sans client d’entrée-actif, le serveur envoie l’événement à son client actif. Si le caractère est [**visible (**](visible-property.md)  =  **true**), l’action de l’utilisateur définit également le dernier client d’entrée-actif du caractère en tant que client d’entrée-actif en cours, en envoyant l’événement [**ActivateInput**](activateinput-event.md) à ce client, puis en envoyant l’événement **Click** . Si le caractère est masqué (  =  **false** visible) et que l’utilisateur clique sur l’icône de barre des tâches du caractère en utilisant le bouton 1, le caractère s’affiche également automatiquement.
 
 > [!Note]  
 > Le fait de cliquer sur un caractère ne désactive pas toutes les autres sorties de caractères (tous les caractères). Toutefois, le fait d’appuyer sur la touche d’écoute vide la sortie du caractère d’entrée-actif et déclenche l’événement [**RequestComplete**](requestcomplete-event.md) , en passant une [requête. Status](status-property.md) qui indique que la file d’attente du client a été interrompue.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

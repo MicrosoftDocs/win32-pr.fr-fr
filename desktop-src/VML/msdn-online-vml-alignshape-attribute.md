@@ -4,27 +4,27 @@ description: AlignShape VML (attribut)
 ms.assetid: 427e5969-4545-47b2-80f8-0e8783c52d65
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c32a4baba060dff4a7a45ccf5a374acf33620a4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e00e1fe8d07fb04c198ced2e2eb50d6ef0e6c020984d2d8cf12a3ca37cf09d79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125312"
 ---
 # <a name="vml-alignshape-attribute"></a>AlignShape VML (attribut)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Détermine si une image est alignée sur une forme. En lecture/écriture. **VgTriState**.
 
 **S’applique à**
 
-[Complète](msdn-online-vml-fill-element.md)
+[Remplir](msdn-online-vml-fill-element.md)
 
 **Syntaxe de balise**
 
@@ -59,6 +59,6 @@ L’image de remplissage en mosaïque créée à partir de myimage.gif est align
 
 
 
- 
+ 
 
- 
+ 

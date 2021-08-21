@@ -4,12 +4,12 @@ ms.assetid: 62bb9717-cc41-4e34-af1a-ff41324bd3a9
 title: IMN_SETCONVERSIONMODE le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52c0ba945b9988ddb32d86c2005ec240c16f82ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ff970f5800dee660948bce84a8862f8da93b7390b3742c0de9c9cbdb21d9d7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146101"
 ---
 # <a name="imn_setconversionmode-notification-code"></a>\_Code de notification SETCONVERSIONMODE IMN
 
@@ -44,7 +44,7 @@ Non utilisé.
 
 Cette commande n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application peut obtenir des informations sur le mode de conversion à l’aide de la fonction [**ImmGetConversionStatus**](/windows/desktop/api/Imm/nf-imm-immgetconversionstatus) .
 
@@ -56,7 +56,7 @@ L’application peut obtenir des informations sur le mode de conversion à l’a
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

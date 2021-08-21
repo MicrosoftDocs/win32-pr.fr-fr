@@ -15,12 +15,12 @@ keywords:
 - interfaces, IObjectModelProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54ff115233faf19f93963153a0b2a0a1ff52c3f8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 62081f8fb841e7827f589fd2441c7b6411810f9a71c1c1962a0dfcf8b0e37180
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118114992"
 ---
 # <a name="objectmodel-control-pattern"></a>ObjectModel (modèle de contrôle)
 
@@ -54,7 +54,7 @@ La méthode suivante est requise pour l’implémentation de l’interface [**IO
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -71,6 +71,6 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

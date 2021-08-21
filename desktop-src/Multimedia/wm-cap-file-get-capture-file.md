@@ -3,7 +3,7 @@ title: Message WM_CAP_FILE_GET_CAPTURE_FILE (VFW. h)
 description: Le \_ message WM Cap \_ file \_ obtenir \_ \_ un fichier de capture renvoie le nom du fichier de capture actuel. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capFileGetCaptureFile.
 ms.assetid: 86ce2904-834d-449f-9ef8-5a158c55bbaa
 keywords:
-- Message WM_CAP_FILE_GET_CAPTURE_FILE Windows Multimedia
+- message WM_CAP_FILE_GET_CAPTURE_FILE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7008e0b217f29ad9602afbdc41cc97f9cb7ecaa3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 462f919458078129f6756782c2fde5322b3cd814c3108cb0ba8ee24e2f54c022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135317"
 ---
 # <a name="wm_cap_file_get_capture_file-message"></a>Message de capture de fichier de la \_ \_ file d' \_ \_ \_ attente WM
 
@@ -56,7 +56,7 @@ Pointeur vers une mémoire tampon définie par l’application utilisée pour re
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom de fichier de capture par défaut est C : \\CAPTURE.AVI.
 

@@ -3,7 +3,7 @@ title: Message TB_LOADIMAGES (commctrl. h)
 description: Charge les images de bouton définies par le système dans la liste d’images d’un contrôle ToolBar.
 ms.assetid: 61146f43-9fd9-4fe3-b85c-cf465f2de769
 keywords:
-- TB_LOADIMAGES les contrôles de message Windows
+- TB_LOADIMAGES les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0b0ba6bf75855a0b81ac56438489d7eced3d589
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df2cfae5e1658dec2652eb68cae4283dd0df697ad055434f1290cc0da7c2b485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168195"
 ---
 # <a name="tb_loadimages-message"></a>TO \_ LOADIMAGES message
 
@@ -38,16 +38,16 @@ Identificateur d’une liste d’images de boutons définie par le système. Ce 
 
 | Valeur                                                                                                                                                                                | Signification                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| <span id="IDB_HIST_LARGE_COLOR"></span><span id="idb_hist_large_color"></span><dl> <dt>**format d' \_ historique des \_ couleurs de grande taille \_**</dt> </dl> | Bitmaps de l’Explorateur Windows en grande taille.<br/>                                  |
-| <span id="IDB_HIST_SMALL_COLOR"></span><span id="idb_hist_small_color"></span><dl> <dt>**\_couleur de \_ petite taille \_ de IDB hist**</dt> </dl> | Bitmaps de l’Explorateur Windows en petite taille.<br/>                                  |
+| <span id="IDB_HIST_LARGE_COLOR"></span><span id="idb_hist_large_color"></span><dl> <dt>**format d' \_ historique des \_ couleurs de grande taille \_**</dt> </dl> | Windows Bitmaps de l’Explorateur en grande taille.<br/>                                  |
+| <span id="IDB_HIST_SMALL_COLOR"></span><span id="idb_hist_small_color"></span><dl> <dt>**\_couleur de \_ petite taille \_ de IDB hist**</dt> </dl> | Windows Bitmaps de l’Explorateur dans une petite taille.<br/>                                  |
 | <span id="IDB_STD_LARGE_COLOR"></span><span id="idb_std_large_color"></span><dl> <dt>**\_taille STD de la \_ grande \_ couleur**</dt> </dl>    | Images bitmap standard en grande taille.<br/>                                          |
 | <span id="IDB_STD_SMALL_COLOR"></span><span id="idb_std_small_color"></span><dl> <dt>**\_couleur standard de la \_ petite \_ couleur IDB**</dt> </dl>    | Images bitmap standard de petite taille.<br/>                                          |
 | <span id="IDB_VIEW_LARGE_COLOR"></span><span id="idb_view_large_color"></span><dl> <dt>**\_ \_ grande \_ couleur de la vue IDB**</dt> </dl> | Affichez les bitmaps en grandes tailles.<br/>                                              |
 | <span id="IDB_VIEW_SMALL_COLOR"></span><span id="idb_view_small_color"></span><dl> <dt>**\_couleur de \_ petite taille \_ de la vue IDB**</dt> </dl> | Affichez les bitmaps dans une petite taille.<br/>                                              |
-| <span id="IDB_HIST_NORMAL"></span><span id="idb_hist_normal"></span><dl> <dt>**historique des IDB- \_ \_ normal**</dt> </dl>                 | Les boutons de déplacement de l’Explorateur Windows et les bitmaps favoris sont dans un état normal.<br/>   |
-| <span id="IDB_HIST_HOT"></span><span id="idb_hist_hot"></span><dl> <dt>**\_historique \_ chaud de IDB**</dt> </dl>                          | Les boutons de déplacement de l’Explorateur Windows et les bitmaps favoris dans un état actif.<br/>      |
-| <span id="IDB_HIST_DISABLED"></span><span id="idb_hist_disabled"></span><dl> <dt>**Hist. IDB \_ \_ désactivé**</dt> </dl>           | Les boutons de déplacement et les bitmaps favoris de l’Explorateur Windows sont en état désactivé.<br/> |
-| <span id="IDB_HIST_PRESSED"></span><span id="idb_hist_pressed"></span><dl> <dt>**historique de IDB \_ \_ enfoncé**</dt> </dl>              | Les boutons de déplacement et les bitmaps favoris de l’Explorateur Windows sont en état appuyé.<br/>  |
+| <span id="IDB_HIST_NORMAL"></span><span id="idb_hist_normal"></span><dl> <dt>**historique des IDB- \_ \_ normal**</dt> </dl>                 | Windows Les boutons de déplacement et les bitmaps favoris de l’Explorateur sont dans un état normal.<br/>   |
+| <span id="IDB_HIST_HOT"></span><span id="idb_hist_hot"></span><dl> <dt>**\_historique \_ chaud de IDB**</dt> </dl>                          | Windows Les boutons de déplacement et les bitmaps favoris de l’Explorateur sont dans un état actif.<br/>      |
+| <span id="IDB_HIST_DISABLED"></span><span id="idb_hist_disabled"></span><dl> <dt>**Hist. IDB \_ \_ désactivé**</dt> </dl>           | Windows Les boutons de déplacement et les bitmaps favoris de l’Explorateur sont dans un état désactivé.<br/> |
+| <span id="IDB_HIST_PRESSED"></span><span id="idb_hist_pressed"></span><dl> <dt>**historique de IDB \_ \_ enfoncé**</dt> </dl>              | Windows Les boutons de déplacement et les bitmaps favoris de l’Explorateur sont dans un état appuyé.<br/>  |
 
 
 
@@ -66,7 +66,7 @@ Handle d’instance. Ce paramètre doit être défini sur HINST \_ COMMCTRL.
 
 Nombre d’images dans la liste d’images. Retourne zéro si la barre d’outils n’a pas de liste d’images ou si la liste d’images existante est vide.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez utiliser les valeurs d’index d’image appropriées lorsque vous préparez des structures [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) avant d’envoyer le message [**to \_ ADDBUTTONS**](tb-addbuttons.md) . Pour obtenir la liste des valeurs d’index d’image pour ces bitmaps prédéfinies, consultez la rubrique [valeurs d’index d’image du bouton standard de la barre d’outils](toolbar-standard-button-image-index-values.md).
 
@@ -88,8 +88,8 @@ SendMessage(hWndToolbar, TB_LOADIMAGES, (WPARAM)IDB_STD_SMALL_COLOR, (LPARAM)HIN
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

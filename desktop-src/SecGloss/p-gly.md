@@ -5,12 +5,12 @@ ms.assetid: 2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a
 title: P (Glossaire de la sécurité)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dd5b580295c35bc021ade53d3cb922ce8fe13d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea06fef6f39c1cbee3adbb8f53870013da9cec52cceef6e318e679af42fd37ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117969957"
 ---
 # <a name="p-security-glossary"></a>P (Glossaire de la sécurité)
 
@@ -56,7 +56,7 @@ Normes recommandées pour l’implémentation du chiffrement à clé publique ba
 <span id="_security_pkcs_12_standard_gly"></span><span id="_SECURITY_PKCS_12_STANDARD_GLY"></span>**PKCS \# 12**
 </dt> <dd>
 
-Norme, développée et gérée par RSA Data Security, Inc. Cette norme de syntaxe spécifie un format portable pour le stockage ou le transport des clés privées, des certificats et des secrets divers d’un utilisateur.
+informations personnelles Exchange la norme de syntaxe, développée et gérée par RSA Data Security, Inc. Cette norme de syntaxe spécifie un format portable pour le stockage ou le transport des clés privées, des certificats et des secrets divers d’un utilisateur.
 
 Voir également les *normes de chiffrement* des [*certificats*](c-gly.md) et des clés publiques.
 
@@ -93,7 +93,7 @@ Message non chiffré. Les messages en texte brut sont quelquefois connus sous le
 <span id="_security_portable_executable_pe_image_gly"></span><span id="_SECURITY_PORTABLE_EXECUTABLE_PE_IMAGE_GLY"></span>**Image PE (Portable Executable)**
 </dt> <dd>
 
-Format d’exécutable Windows standard.
+format d’exécutable standard Windows.
 
 </dd> <dt>
 
@@ -123,7 +123,7 @@ Fournisseur de services qui fournit les interfaces de contrôle à la carte. Cha
 <span id="_security_primary_token_gly"></span><span id="_SECURITY_PRIMARY_TOKEN_GLY"></span>**jeton principal**
 </dt> <dd>
 
-Jeton d’accès qui est généralement créé uniquement par le noyau Windows. Il peut être assigné à un processus pour représenter les informations de sécurité par défaut pour ce processus.
+jeton d’accès qui est généralement créé uniquement par le noyau Windows. Il peut être assigné à un processus pour représenter les informations de sécurité par défaut pour ce processus.
 
 Voir aussi jeton d' [*accès*](a-gly.md) et jeton d' [*emprunt d’identité*](i-gly.md).
 
@@ -225,7 +225,7 @@ Consultez *\_ type de \_ fournisseur MS Exchange Prov*.
 <span id="_security_prov_ms_exchange_provider_type_gly"></span><span id="_SECURITY_PROV_MS_EXCHANGE_PROVIDER_TYPE_GLY"></span>**\_Type de \_ fournisseur MS Exchange Prov.**
 </dt> <dd>
 
-Type de fournisseur prédéfini conçu pour les besoins de Microsoft Exchange, ainsi que d’autres applications compatibles avec Microsoft Mail. Il fournit l’échange de clés, la signature numérique, le chiffrement et les algorithmes de hachage.
+type de fournisseur prédéfini conçu pour les besoins de microsoft Exchange, ainsi que d’autres applications compatibles avec microsoft Mail. Il fournit l’échange de clés, la signature numérique, le chiffrement et les algorithmes de hachage.
 
 </dd> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 920ad763f478a2e6bcb9fbe98cc7e2a677ebe783
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b561189c0aaafa42cc877246bb5a666ac26853133c227aa6c7a4f8beb1f23a28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118299363"
 ---
 # <a name="d3dxcomputenormalmap-function"></a>D3DXComputeNormalMap fonction)
 
@@ -72,7 +72,7 @@ Pointeur vers un type [**PaletteEntry**](/windows/win32/api/wingdi/ns-wingdi-pal
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -105,7 +105,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être la valeur suivante : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Cette méthode calcule le normal à l’aide de la différence centrale avec une taille de noyau de 3 x 3. Le dénominateur de différenciation central utilisé est 2,0. Les canaux RVB dans la destination contiennent des composants (x, y, z) biaisés de la normale.
 

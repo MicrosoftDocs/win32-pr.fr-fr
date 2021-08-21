@@ -1,9 +1,9 @@
 ---
-title: WM/serveur de publication
-description: L’attribut WM/Publisher contient le nom de la société qui a publié le contenu.
+title: WM/Publisher
+description: l’attribut WM/Publisher contient le nom de la société qui a publié le contenu.
 ms.assetid: d83ae7cc-ee28-409c-9afe-69571d58f3e7
 keywords:
-- Format Windows Media WM/Publisher
+- Format windows Media WM/Publisher
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35e24e450f32678e8f99f55d1f4bb38b510fa9e6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 60c22d4659b57b463ac6afab079955389f58835cd0d0576664dae24419db6ed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106517987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118027720"
 ---
-# <a name="wmpublisher"></a>WM/serveur de publication
+# <a name="wmpublisher"></a>WM/Publisher
 
-L’attribut **WM/Publisher** contient le nom de la société qui a publié le contenu.
+l’attribut **WM/Publisher** contient le nom de la société qui a publié le contenu.
 
 ## <a name="global-constant"></a>Constante globale
 
@@ -38,9 +38,9 @@ L’attribut **WM/Publisher** contient le nom de la société qui a publié le c
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -129,7 +129,7 @@ Définit les types de métadonnées que vous pouvez définir dans la section mé
 | mid     | xs:string                                                         | Non utilisé.<br/>                                                                               |
 | name    | anyURI                                                            | URI du fichier méta. <br/>                                                              |
 | symbole  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | Nom symbolique que vous souhaitez que le compilateur de message crée pour cette chaîne de message.<br/> |
-| value   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Nombre à utiliser comme identificateur de message pour ce message.<br/>                           |
+| valeur   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Nombre à utiliser comme identificateur de message pour ce message.<br/>                           |
 
 
 

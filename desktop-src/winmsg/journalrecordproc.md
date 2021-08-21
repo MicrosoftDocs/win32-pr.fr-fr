@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: bc255441ca82c86542dd8dd4729564122df6c719
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: cc5e1bdbd99b234b347d0b9c10caa7125aead9b68138472e125c8e2a11180609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "103940785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437116"
 ---
 # <a name="journalrecordproc-function"></a>JournalRecordProc fonction)
 
@@ -92,7 +92,7 @@ Type : **LRESULT**
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une procédure de hook **JournalRecordProc** doit copier mais ne pas modifier les messages.
 Une fois que la procédure de Hook a retourné le contrôle au système, le message continue à être traité.

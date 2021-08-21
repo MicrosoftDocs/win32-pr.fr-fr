@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 174f58ba3fb1012e6ff46612fe312579969e6945
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57c8416b1c1f5820f632271b0ef0973c76a14be9ef08f24b217ebee441fb29d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118056509"
 ---
 # <a name="enumjobs-function"></a>EnumJobs, fonction
 
@@ -124,7 +124,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -135,7 +135,7 @@ La [**structure \_ informations \_ sur le travail 1**](job-info-1.md) contient d
 
 Pour déterminer le nombre de travaux d’impression dans la file d’attente de l’imprimante, appelez la fonction [**GetPrinter**](getprinter.md) avec le paramètre de *niveau* défini sur 2.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

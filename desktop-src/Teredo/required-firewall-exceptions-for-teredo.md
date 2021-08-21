@@ -4,12 +4,12 @@ description: Pour qu’une application reçoive le trafic Teredo, l’applicatio
 ms.assetid: 2fc74d86-9696-4ba9-adbe-e5558ae7d7c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbc2fcf0f7c8b1f5fe51afc056dc8c8ff7c7916a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a67d7de38ed91de7d8d8afeada6fe9705ff55f2af1b726ed5c5d49b271464dc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118354442"
 ---
 # <a name="required-firewall-exceptions-for-teredo"></a>Exceptions de pare-feu requises pour Teredo
 
@@ -24,7 +24,7 @@ Les configurations de pare-feu suivantes sont requises pour assurer une interop�
     > [!Note]  
     > Si cette condition n’est pas remplie, les scénarios susceptibles de rencontrer des problèmes de compatibilité impliquant la communication entre certains types NAT sont introduits. en particulier entre les NAT symétriques et les NAT restreints. Alors que les NAT symétriques sont populaires dans les zones réactives et que les traducteurs d’adresses réseau sont populaires dans les maisons, la communication entre les deux risque d’échouer sur le côté du NAT restreint.
 
-     
+     
 
 -   Les exceptions entrantes et sortantes ICMPv6 « demande ECHO » et « réponse à écho » doivent être activées. Ces exceptions sont nécessaires pour s’assurer qu’un client Teredo peut agir en tant que relais Teredo spécifique à l’hôte. Un relais Teredo spécifique à l’hôte peut être identifié par l’adresse IPv6 native supplémentaire ou une adresse 6to4 fournie avec l’adresse Teredo.
 
@@ -44,11 +44,11 @@ Les pare-feu clients doivent prendre en charge les messages d’erreur ICMPv6 et
 
 
 
- 
+ 
 
 Si ces messages ne peuvent pas être explicitement autorisés, l’exemption de tous les messages ICMPv6 doit être activée sur le pare-feu. En outre, le pare-feu de l’hôte peut remarquer que les paquets classés par codes 135/136 ou 133/134 proviennent du service en mode utilisateur **iphlpsvc** et non de la pile. Ces paquets ne doivent pas être supprimés par le pare-feu hôte. Le service Teredo est implémenté principalement dans le service d’assistance IP « mode utilisateur ».
 
-À l’aide de l’API du pare-feu Windows [**INetFwPolicy2**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2) pour énumérer toutes les règles avec l’indicateur de parcours Edge défini, toutes les applications qui souhaitent écouter le trafic non sollicité sont énumérées pour l’exception de pare-feu. Des informations spécifiques concernant l’utilisation de l’option de traversée latérale sont détaillées dans [réception de trafic non sollicité sur Teredo](receiving-unsolicited-traffic-over-teredo.md).
+à l’aide de l’API de pare-feu [**INetFwPolicy2**](/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2) Windows pour énumérer toutes les règles avec l’indicateur de parcours Edge défini, toutes les applications qui souhaitent écouter le trafic non sollicité sont énumérées pour l’exception de pare-feu. Des informations spécifiques concernant l’utilisation de l’option de traversée latérale sont détaillées dans [réception de trafic non sollicité sur Teredo](receiving-unsolicited-traffic-over-teredo.md).
 
 Les rappels ne sont pas associés au code d’énumération d’exemple suivant ; Il est fortement recommandé que les pare-feu tiers effectuent l’énumération régulièrement, ou chaque fois que le pare-feu détecte une nouvelle application tentant de traverser le pare-feu.
 
@@ -250,6 +250,6 @@ int __cdecl main()
 
 
 
- 
+ 
 
- 
+ 

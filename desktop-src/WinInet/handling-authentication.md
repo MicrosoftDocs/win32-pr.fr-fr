@@ -4,12 +4,12 @@ description: Certains proxys et serveurs requièrent une authentification avant 
 ms.assetid: f3752031-30d3-4e35-8eae-1d4971b66bc2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e82d8cd93f1010c71560d856793ad06d8bc5d9d5
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 1797f34eb4f25f8d5e345b6790489acd5fad7e2bc21e6457642a1b4ffa022f9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113828"
 ---
 # <a name="handling-authentication"></a>Gestion de l’authentification
 
@@ -57,7 +57,7 @@ Les fonctions [**InternetOpenUrl**](/windows/desktop/api/Wininet/nf-wininet-inte
 
 ### <a name="registering-authentication-keys"></a>Inscription des clés d’authentification
 
-\_ \_ La préconfiguration de type ouvert Internet \_ examine les valeurs de Registre **ProxyEnable**, **ProxyServer** et **ProxyOverride**. Ces valeurs se trouvent sous **HKEY \_ Current \_ User** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Internet Settings**.
+\_ \_ La préconfiguration de type ouvert Internet \_ examine les valeurs de Registre **ProxyEnable**, **ProxyServer** et **ProxyOverride**. ces valeurs se trouvent sous **HKEY \_ CURRENT \_ USER** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Internet Paramètres**.
 
 Pour les schémas d’authentification autres que Basic, une clé doit être ajoutée au Registre sous **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Internet Explorer** \\ **Security**. Une valeur **DWORD** , **Flags**, doit être définie avec la valeur appropriée. La liste suivante affiche les valeurs possibles pour la valeur **Flags** .
 
@@ -242,7 +242,7 @@ switch (dwStatus)
 
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

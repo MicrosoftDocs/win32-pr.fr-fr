@@ -24,7 +24,7 @@ ms.locfileid: "118401050"
 # <a name="iamtimelinecompgetnextvtrack-method"></a>IAMTimelineComp :: GetNextVTrack, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

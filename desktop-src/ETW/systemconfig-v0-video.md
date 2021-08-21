@@ -23,12 +23,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 94fb9e50344cfbdde4be67815b80e4074ab1a878
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7121d56d2acf0890a75bccdaf397f184c8780f1f1d3152d3ce2ea4db7781ecaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151368"
 ---
 # <a name="systemconfig_v0_video-class"></a>\_ \_ Classe vidéo SystemConfig v0
 
@@ -266,7 +266,7 @@ Nombre actuel de pixels verticaux.
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

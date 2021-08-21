@@ -4,12 +4,12 @@ ms.assetid: bbcfb3e6-a86a-4621-b8d9-92ace60e8c10
 title: Attribut MF_PD_MIME_TYPE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce1893253af139a73555d3a4fd483e9f59c5ae1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebb68e9b45d51b9fe4732957ef60a4496ca57df5be0185f46a7e28204217b4ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118059639"
 ---
 # <a name="mf_pd_mime_type-attribute"></a>\_Attribut de \_ type MIME MF PD \_
 
@@ -19,7 +19,7 @@ Spécifie le type MIME du contenu.
 
 Chaîne de caractères larges
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation.
 
@@ -29,14 +29,14 @@ Le \_ \_ type MIME MF PD \_ et [System. MIMEType](../properties/props-system-mim
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

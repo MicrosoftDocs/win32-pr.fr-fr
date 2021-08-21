@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef441754fd5de09e3792d9269f05d96ecc08aa23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 76965f63afb751e810daa6feffe76774f03daaaf7278996b4c6800f0efa42dfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113683"
 ---
 # <a name="internetgetproxyinfo-function"></a>InternetGetProxyInfo, fonction
 
@@ -91,7 +91,7 @@ Pointeur vers une variable qui reçoit la taille, en octets, de la chaîne retou
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire. Pour recevoir les données d’erreur étendues, appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour appeler **InternetGetProxyInfo**, vous devez le lier de manière dynamique à l’aide du type de pointeur fonction défini **pfnInternetGetProxyInfo**. L’extrait de code ci-dessous montre comment déclarer une instance de ce type de pointeur fonction, puis l’initialiser et l’appeler.
 
@@ -122,7 +122,7 @@ Pour appeler **InternetGetProxyInfo**, vous devez le lier de manière dynamique 
 Comme tous les autres aspects de l’API WinINet, cette fonction ne peut pas être appelée en toute sécurité à partir de DllMain ou des constructeurs et des destructeurs d’objets globaux.
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
 ## <a name="requirements"></a>Configuration requise
 

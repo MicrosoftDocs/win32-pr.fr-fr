@@ -3,7 +3,7 @@ title: Message SB_GETICON (commctrl. h)
 description: Récupère l’icône pour un composant dans une barre d’État.
 ms.assetid: f99508e3-afa8-48fd-b87a-fce41c4410ff
 keywords:
-- SB_GETICON les contrôles de message Windows
+- SB_GETICON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab86809df54d796b8e83f05f2a2b9041450ce2fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3df97598c1b002a794badb54f727632d58cc915f216947c019e452f5632a09fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168765"
 ---
 # <a name="sb_geticon-message"></a>\_Message SB GETICON
 
@@ -49,8 +49,8 @@ Retourne le handle de l’icône en cas de réussite, ou **null** dans le cas co
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

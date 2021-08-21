@@ -4,12 +4,12 @@ ms.assetid: 72455193-cd17-45f8-b19c-a1f735ff81bf
 title: IMN_SETSENTENCEMODE le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0130c5b3d7284112e64cca698b358650f51f3642
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30a5fa976bbd28e86d5b46eec074e5ed802cc0a32e1c7c1c86b0e01a4629fe13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145945"
 ---
 # <a name="imn_setsentencemode-notification-code"></a>\_Code de notification SETSENTENCEMODE IMN
 
@@ -44,7 +44,7 @@ Non utilisé.
 
 Cette commande n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application peut obtenir des informations sur le mode phrase à l’aide de la fonction [**ImmGetConversionStatus**](/windows/desktop/api/Imm/nf-imm-immgetconversionstatus) .
 
@@ -56,7 +56,7 @@ L’application peut obtenir des informations sur le mode phrase à l’aide de 
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

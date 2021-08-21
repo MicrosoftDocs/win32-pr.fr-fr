@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientShell propriété IsRemoteProgramClientInstalled
-description: Récupère si le client Connexion Bureau à distance (RDC) prend en charge les fonctionnalités RemoteApp de Windows Server 2008 R2.
+description: récupère si le client Connexion Bureau à distance (RDC) prend en charge les fonctionnalités RemoteApp Windows Server 2008 R2.
 ms.assetid: ce2fec74-c567-48e1-91d6-655c539d1fb9
 ms.tgt_platform: multiple
 keywords:
@@ -18,16 +18,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 787d45f10e109a89429be5032fda245aa3609567
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3073bb9a9e5890ff7a6a46bb9ea0c03964bf54f1c91550dbb2746385a11fa809
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129762"
 ---
 # <a name="imsrdpclientshellisremoteprogramclientinstalled-property"></a>IMsRdpClientShell :: IsRemoteProgramClientInstalled, propriété
 
-Récupère si le client Connexion Bureau à distance (RDC) prend en charge les fonctionnalités RemoteApp de Windows Server 2008 R2.
+récupère si le client Connexion Bureau à distance (RDC) prend en charge les fonctionnalités RemoteApp Windows Server 2008 R2.
 
 Cette propriété est en lecture seule.
 

@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61a97402fa267693de23ed2085b3d41973dc409e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ccddd5663b6a079656823efed4cb48b3183d88d0688149c7ae05d96e8dc1cdd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106545894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530699"
 ---
 # <a name="cd3dx12_pipeline_state_stream_root_signature-structure"></a>Structure de la signature de la \_ racine du flux d’État du pipeline CD3DX12 \_ \_ \_ \_
 
@@ -72,7 +72,7 @@ Conversion implicite en pointeur de structure [**ID3D12RootSignature**](/windows
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_ \_ \_ \_ La signature racine du flux d’État du pipeline CD3DX12 \_ est une spécialisation typedef du modèle de sous- [**objet de flux d' \_ \_ état \_ \_ du pipeline CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est définie comme suit :
 

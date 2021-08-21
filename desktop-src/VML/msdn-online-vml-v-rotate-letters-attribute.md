@@ -4,21 +4,21 @@ description: Attribut VML V-Rotate-Letters
 ms.assetid: f9bd5c04-7479-4dc0-83d7-4a0bd5e2d41d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9397fe8a819e9f4c8b517e1ac92e0094ad8e4458
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 779f7878b01765416560dacaed5e3b81a1e00a25d4bf7c53e0071c8bb487d16a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118123779"
 ---
 # <a name="vml-v-rotate-letters-attribute"></a>Attribut VML V-Rotate-Letters
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Détermine si les lettres du texte sont pivotées. En lecture/écriture. **VgTriState**.
 
@@ -58,6 +58,6 @@ Les lettres sont pivotées de 90 degrés.
 
 
 
- 
+ 
 
- 
+ 

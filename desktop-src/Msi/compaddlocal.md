@@ -4,18 +4,18 @@ ms.assetid: 10c178c5-1eae-4191-b79c-9285810efb6a
 title: Propriété COMPADDLOCAL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e403459f0355c28d66da00170b9c649084afbb1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c442ede6e8affaaddef1dc028a8a6fffc5b780afd536bbc3eaa52e6949df8fc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145142"
 ---
 # <a name="compaddlocal-property"></a>Propriété COMPADDLOCAL
 
 La valeur de la propriété **COMPADDLOCAL** est une liste de GUID de composant à partir de la colonne ComponentID de la [table de composants](component-table.md), délimitée par des virgules, qui doivent être installées localement. Le programme d’installation utilise cette liste pour déterminer les fonctionnalités qui sont configurées pour être installées localement, en fonction des composants spécifiés. Pour chaque ID de composant listé, le programme d’installation examine toutes les fonctionnalités liées à ce composant par le biais de la table [FeatureComponents](featurecomponents-table.md) et installe la fonctionnalité qui nécessite le moins d’espace disque à installer. Les composants listés doivent être présents dans la colonne composant de la table des [composants](component-table.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez que les noms des composants respectent la casse. Notez également que si l’indicateur de bit SourceOnly est défini dans la colonne attributs de la table des [composants](component-table.md) pour un composant, le composant est installé pour s’exécuter à partir de la source.
 
@@ -44,7 +44,7 @@ Le programme d’installation définit la propriété [**présélectionnée**](p
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

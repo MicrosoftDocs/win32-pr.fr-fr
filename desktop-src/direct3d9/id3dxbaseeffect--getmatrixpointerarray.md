@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: a841c321e641b74841a76432eab8b016f396f61a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c3abae67374f425540565cb959575a59f1839e55da53daa4b34ef732b15d649c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103954003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118296775"
 ---
 # <a name="id3dxbaseeffectgetmatrixpointerarray-method"></a>ID3DXBaseEffect :: GetMatrixPointerArray, méthode
 
@@ -69,7 +69,7 @@ Nombre de matrices dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

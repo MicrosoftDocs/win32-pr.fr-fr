@@ -8,12 +8,12 @@ keywords:
 - conteneurs, navigateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 964c67873cc7936a75e2b9c1cdf331d0fa1fdae1
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: ddd32cd7c172f08cd407feec50823fe410be4d13a36f4f0ee9ed1b2e75f11346
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104031040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118021939"
 ---
 # <a name="container-browser"></a>Navigateur de conteneurs
 
@@ -232,6 +232,6 @@ HRESULT BrowseForContainer(HWND hwndParent,
 
 
 
- 
+ 
 
- 
+ 

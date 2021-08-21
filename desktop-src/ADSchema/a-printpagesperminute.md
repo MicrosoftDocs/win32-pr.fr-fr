@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a42cc793b69406e548f4c0967bea176419c1405
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 926bdefce05c42038c7184efa0c02f84a5b331853a0be22dea41f9d747b5e260
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118011768"
 ---
 # <a name="print-pages-per-minute-attribute"></a>Attribut imprimer-pages par minute
 
@@ -36,7 +36,7 @@ Taux d’impression fourni par le pilote en pages par minute.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.631               |
 | System-ID-GUID    | 19405b97-3cfa-11d1-a9c0-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Taux d’impression fourni par le pilote en pages par minute.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,9 +58,9 @@ Taux d’impression fourni par le pilote en pages par minute.
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
+| Est de valeur unique       | True                                           |
 | Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -79,7 +79,7 @@ Taux d’impression fourni par le pilote en pages par minute.
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
+| Est de valeur unique       | True                                           |
 | Est indexé             | Faux                                          |
 | Dans le catalogue global      | Vrai                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
@@ -100,9 +100,9 @@ Taux d’impression fourni par le pilote en pages par minute.
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
+| Est de valeur unique       | True                                           |
 | Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -121,9 +121,9 @@ Taux d’impression fourni par le pilote en pages par minute.
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
+| Est de valeur unique       | True                                           |
 | Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -142,9 +142,9 @@ Taux d’impression fourni par le pilote en pages par minute.
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
+| Est de valeur unique       | True                                           |
 | Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -163,9 +163,9 @@ Taux d’impression fourni par le pilote en pages par minute.
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
+| Est de valeur unique       | True                                           |
 | Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |

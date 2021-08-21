@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 20373e4738adec9051dfed41c1e24b377a2c8670
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d8acfe3488659b46f37617f87dc3725d1b6d6f43583032babf1f66d06a4c6366
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118091077"
 ---
 # <a name="appendix-hlsl"></a>Annexe (HLSL)
 

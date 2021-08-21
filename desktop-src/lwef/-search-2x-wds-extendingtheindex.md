@@ -1,26 +1,26 @@
 ---
-title: Extension de l’index (fonctionnalités héritées de l’environnement Windows)
-description: Découvrez comment étendre l’index dans Windows Desktop Search 2. x. Pour les versions de Windows ultérieures à Windows XP et Windows Server 2003, utilisez Windows Search à la place.
+title: extension de l’Index (fonctionnalités héritées de l’environnement Windows)
+description: découvrez comment étendre l’index dans Windows Desktop Search 2. x. pour les versions de Windows ultérieures à Windows XP et Windows Server 2003, utilisez Windows Search à la place.
 ms.assetid: vs|search|~\search\wds2x\extending_index_ovr.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63408cfe1efeb8da4d6a4540cc57b99ea56ae935
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d73bbf1ab143bcac581a59467e7a3813511e7b20204434ee5ae7dd7d8893b636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480921"
 ---
-# <a name="extending-the-index-legacy-windows-environment-features"></a>Extension de l’index (fonctionnalités héritées de l’environnement Windows)
+# <a name="extending-the-index-legacy-windows-environment-features"></a>extension de l’Index (fonctionnalités héritées de l’environnement Windows)
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
-L’utilisation de et le développement des versions 2. x de Microsoft Windows Desktop Search (WDS) sont fortement déconseillées au profit de [Windows Search](../search/-search-3x-wds-overview.md).
+l’utilisation de et du développement pour les versions 2. x de Microsoft Windows Desktop Search (WDS) est fortement déconseillée en faveur de la [recherche Windows](../search/-search-3x-wds-overview.md).
 
 WDS peut être étendu pour indexer le contenu de nouveaux types de fichiers et de nouveaux magasins de données. Actuellement, WDS 2. x contient des filtres pour plus de 200 types d’éléments (y compris des éléments en texte brut tels que des fichiers HTML, XML et de code source) et utilise la même technologie [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)et le même gestionnaire de protocole que SharePoint Services. Si vous avez déjà installé des implémentations de filtre pour vos nouveaux types de fichiers, WDS peut utiliser les interfaces de filtre existantes pour indexer ces données.
 
-Les compléments WDS 2. x permettent à l’index de traverser et d’analyser les nouvelles données et structures de données pour les informations à ajouter au catalogue pouvant faire l’objet d’une recherche. Ces compléments peuvent également étendre le shell Windows pour associer des icônes et des gestionnaires de menus contextuels aux nouveaux types de fichiers et banques de données. Pour inclure de nouveaux types de fichiers dans le catalogue WDS, un complément doit implémenter l’interface [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter). Pour inclure de nouveaux magasins de données, un complément doit être un gestionnaire de protocole. Si le nouveau magasin de données comprend des fichiers incorporés ou de nouveaux types de fichiers, vous devrez également écrire un filtre approprié.
+Les compléments WDS 2. x permettent à l’index de traverser et d’analyser les nouvelles données et structures de données pour les informations à ajouter au catalogue pouvant faire l’objet d’une recherche. ces compléments peuvent également étendre l’interpréteur de commandes Windows pour associer des icônes et des gestionnaires de menus contextuels aux nouveaux types de fichiers et banques de données. Pour inclure de nouveaux types de fichiers dans le catalogue WDS, un complément doit implémenter l’interface [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter). Pour inclure de nouveaux magasins de données, un complément doit être un gestionnaire de protocole. Si le nouveau magasin de données comprend des fichiers incorporés ou de nouveaux types de fichiers, vous devrez également écrire un filtre approprié.
 
 > [!Note]
 >

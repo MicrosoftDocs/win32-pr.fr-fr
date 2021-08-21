@@ -4,12 +4,12 @@ ms.assetid: 2816e1f8-c4be-4905-b070-6e67255811d4
 title: Exemple de demande en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43dbcaea567ed6d6427ab17cf1b99c0a41807651
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 202723d5e12652eba62eac900934937c62dffa78c2aa67caae399267d16d8e83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117975239"
 ---
 # <a name="request-sample-in-c"></a>Exemple de demande en C++
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cabinet.dll
-ms.openlocfilehash: 4ab032864e59d8e7379fe347d241874d9336e431
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 500de4df41c82f1956f50abcc25dc84f11484b693dc8d1a5f8bc53ab556ade0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162090"
 ---
 # <a name="deleteextractedfiles-function"></a>DeleteExtractedFiles fonction)
 
@@ -41,7 +41,7 @@ VOID WINAPI DeleteExtractedFiles(
 
 <dl> <dt>
 
-*alimentation* 
+*ps* 
 </dt> <dd>
 
 Pointeur vers une structure de [**session**](session.md) qui contient des informations sur la session active.
@@ -54,7 +54,7 @@ Cette fonction libère la mémoire dans le membre **pFileList** de cette structu
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
@@ -72,7 +72,7 @@ Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-t
 
 <dl> <dt>
 
-[**Extraction**](extract.md)
+[**Extract**](extract.md)
 </dt> <dt>
 
 [**SESSION**](session.md)

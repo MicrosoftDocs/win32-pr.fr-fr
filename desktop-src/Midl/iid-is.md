@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e94c6f46a6828e81817e45ff6eb6eb8245b00a61
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 74553fdb1e3020d49eca7dfdd219354a4690056c45126b3af208395117ade991
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118383866"
 ---
 # <a name="iid_is-attribute"></a>IID \_ est l’attribut
 
@@ -38,7 +38,7 @@ Spécifie une expression de langage C. Le compilateur MIDL prend en charge les e
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser **\[ IID \_ \]** dans les listes d’attributs pour les paramètres de fonction et pour les membres de structure ou d’Union. Les stubs utilisent l’IID pour déterminer comment marshaler le pointeur d’interface. Cela est utile pour un pointeur d’interface qui est typé comme paramètre de classe de base.
 
@@ -56,15 +56,15 @@ HRESULT    CreateInstance(
 
 <dl> <dt>
 
-[**object**](object.md)
+[**dessin**](object.md)
 </dt> <dt>
 
 [**universel**](uuid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

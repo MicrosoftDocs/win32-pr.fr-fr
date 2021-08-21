@@ -3,7 +3,7 @@ title: Message TDM_UPDATE_ELEMENT_TEXT (commctrl. h)
 description: TDM_UPDATE_ELEMENT_TEXT message-met à jour un élément de texte dans une boîte de dialogue de tâche.
 ms.assetid: 2df446c8-db87-42b5-b5bd-40fadbf9d45b
 keywords:
-- TDM_UPDATE_ELEMENT_TEXT les contrôles de message Windows
+- TDM_UPDATE_ELEMENT_TEXT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c155b426b92645c0b9cdbabe00c44ffa722b89f3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5abf6eb91b3eadfea71d0c9a4b5386e44db100c3a548998d5113636ff7f8cc29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166912"
 ---
 # <a name="tdm_update_element_text-message"></a>\_Message texte de l’élément de mise à jour TDM \_ \_
 
@@ -56,11 +56,11 @@ Pointeur vers une chaîne Unicode qui contient le nouveau texte.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour éviter le découpage, le nouveau texte ne doit pas être plus long que le texte existant. La définition du texte sur une chaîne plus petite n’entraîne pas le redimensionnement de la boîte de dialogue.
 
@@ -74,8 +74,8 @@ Les éléments ci-dessus s’appliquent également aux pieds de page et pieds de
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

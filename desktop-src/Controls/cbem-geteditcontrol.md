@@ -3,7 +3,7 @@ title: Message CBEM_GETEDITCONTROL (commctrl. h)
 description: Obtient le handle vers la partie du contrôle d’édition d’un contrôle ComboBoxEx. Un contrôle ComboBoxEx utilise une zone d’édition quand il est défini sur le \_ style de liste déroulante CBS.
 ms.assetid: def91949-cadc-4297-a504-0680d7d9b815
 keywords:
-- CBEM_GETEDITCONTROL les contrôles de message Windows
+- CBEM_GETEDITCONTROL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 412d1183b29c8c89b5977d5f7f2a1b962d54dc01
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 885a90a1b37fab7cd8e4a492bd00ad349f96202e13ee25a404f7f4aa41f623e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118414069"
 ---
 # <a name="cbem_geteditcontrol-message"></a>\_Message CBEM GETEDITCONTROL
 
@@ -45,8 +45,8 @@ Retourne le handle du contrôle d’édition dans le contrôle ComboBoxEx s’il
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: e03351068cdc4f8fca28c612b7bb4c546125a4cc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 289bd86e5bca95155ea9f3ee14ef25e23d37d183298ddc2bbfbc3c83db7fe12a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118093464"
 ---
 # <a name="idirectxfiledatagetnextobject-method"></a>IDirectXFileData :: GetNextObject, méthode
 
@@ -55,11 +55,11 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est DXFILE \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des valeurs suivantes : DXFILEERR \_ BADVALUE, DXFILEERR \_ NOMOREOBJECTS.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour déterminer le type d’objet récupéré, utilisez QueryInterface pour interroger l’objet récupéré pour la prise en charge des interfaces [**IDirectXFileData**](idirectxfiledata.md), [**IDirectXFileDataReference**](idirectxfiledatareference.md)ou [**IDirectXFileBinary**](idirectxfilebinary.md) . L’interface prise en charge indique le type d’objet (données, référence de données ou binaire).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
