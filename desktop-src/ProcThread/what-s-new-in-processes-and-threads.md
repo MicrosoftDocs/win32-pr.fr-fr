@@ -4,12 +4,12 @@ ms.assetid: 69cd8713-b40c-4fec-a256-9c2ee3d73da5
 title: Nouveautés des processus et des threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee7dfb708a2890bab1fcd3fd66385f74bd8513b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efe8b53349f5c6f19dd9beda1ffe6b933fbff63533988a40937453194df57295
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792957"
 ---
 # <a name="whats-new-in-processes-and-threads"></a>Nouveautés des processus et des threads
 
@@ -17,7 +17,7 @@ Windows 7 et Windows Server 2008 R2 incluent les nouveaux éléments de programm
 
 ## <a name="new-capabilities"></a>Nouvelles fonctionnalités
 
-Les versions 64 bits de Windows 7 et Windows Server 2008 R2 prennent en charge plus de 64 processeurs logiques sur un seul ordinateur. Pour plus d’informations, consultez [groupes de processeurs](processor-groups.md).
+les versions 64 bits de Windows 7 et Windows Server 2008 R2 prennent en charge plus de 64 processeurs logiques sur un seul ordinateur. Pour plus d’informations, consultez [groupes de processeurs](processor-groups.md).
 
 La planification en mode utilisateur (UMS) est un mécanisme léger que les applications peuvent utiliser pour planifier leurs propres threads. Pour plus d’informations, consultez [planification en mode utilisateur](user-mode-scheduling.md).
 

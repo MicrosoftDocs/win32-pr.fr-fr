@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b573280dc3f180d9f7a4f479670e9742c6797d7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8aa796ed7b6567dba8b0bc5e7bcdcbf2df6ba3ddceaed7348e129cf1e218d337
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118013819"
 ---
 # <a name="msmq-qm-id-attribute"></a>Attribut MSMQ-QM-ID
 
@@ -45,7 +45,7 @@ ObjectGUID de l’objet de configuration MSMQ du serveur.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,7 +58,7 @@ ObjectGUID de l’objet de configuration MSMQ du serveur.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -79,7 +79,7 @@ ObjectGUID de l’objet de configuration MSMQ du serveur.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -100,7 +100,7 @@ ObjectGUID de l’objet de configuration MSMQ du serveur.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -121,7 +121,7 @@ ObjectGUID de l’objet de configuration MSMQ du serveur.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -142,7 +142,7 @@ ObjectGUID de l’objet de configuration MSMQ du serveur.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
@@ -163,7 +163,7 @@ ObjectGUID de l’objet de configuration MSMQ du serveur.
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
 | System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
+| Est de valeur unique       | True                                               |
 | Est indexé             | Faux                                              |
 | Dans le catalogue global      | Faux                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |

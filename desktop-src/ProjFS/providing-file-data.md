@@ -4,12 +4,12 @@ description: Décrit comment un fournisseur fournit des informations d’espace 
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/01/2018
 ms.topic: article
-ms.openlocfilehash: 341a0f1c477b605b2a437edf311c380910744ac0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4f0da65095e908ec3211bb23be654ee9e0e2853c093bb36e8a92701c24106ff4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792393"
 ---
 # <a name="providing-file-data"></a>Envoi de données de fichier
 
@@ -29,7 +29,7 @@ Quand ProjFS appelle le rappel **PRJ_GET_PLACEHOLDER_INFO_CB** du fournisseur, l
 
     > Si le magasin de stockage prend en charge les liens symboliques, le fournisseur doit utiliser **[PrjWritePlaceholderInfo2](/windows/win32/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo2)** pour envoyer les données d’espace réservé à ProjFS.  **PrjWritePlaceholderInfo2** prend en charge une entrée de mémoire tampon supplémentaire qui permet au fournisseur de spécifier que l’espace réservé est un lien symbolique et quelle est sa cible.  Elle se comporte autrement comme décrit ci-dessus pour **PrjWritePlaceholderInfo**.  L’exemple suivant illustre l’utilisation de **PrjWritePlaceholderInfo2** pour assurer la prise en charge des liens symboliques.
     >
-    > Notez que **PrjWritePlaceholderInfo2** est pris en charge à partir de Windows 10, version 2004.  Un fournisseur doit détecter l’existence de **PrjWritePlaceholderInfo2**, par exemple à l’aide de **[GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)**.
+    > notez que **PrjWritePlaceholderInfo2** est pris en charge à partir de Windows 10, version 2004.  Un fournisseur doit détecter l’existence de **PrjWritePlaceholderInfo2**, par exemple à l’aide de **[GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)**.
 
 ```C++
 HRESULT

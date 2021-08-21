@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac707dfaf2ed379884395a08128ddaeda771fa00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 41e5cfcc65c54f882f10e87a0f2aaebad0e1a55c94b6581031b034799987bc6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117956958"
 ---
 # <a name="counteritemselected-property"></a>CounterItem. Selected, propriété
 
@@ -42,7 +42,7 @@ Property Selected As Boolean
 
 True si le compteur est sélectionné ; Sinon, false.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez sélectionner un ou plusieurs compteurs dans la collection de compteurs. En sélectionnant un compteur, sélectionne le compteur dans la légende, rend le compteur visible dans la légende et génère un événement [**OnCounterSelected**](-systemmonitor-oncounterselected.md) .
 
@@ -52,8 +52,8 @@ Vous pouvez sélectionner un ou plusieurs compteurs dans la collection de compte
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon. ocx</dt> </dl> |
 
 

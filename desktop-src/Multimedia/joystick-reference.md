@@ -3,7 +3,7 @@ title: Référence de la manette de jeu
 description: Référence de la manette de jeu
 ms.assetid: c2ad092f-a0c5-4e28-ada7-227dc52c3c83
 keywords:
-- Windows Multimedia, référence de la manette de jeu
+- Windows multimédia, référence de la manette de jeu
 - multimédia, référence de la manette de jeu
 - entrée multimédia, référence de la manette de jeu
 - joysticks, référence
@@ -11,12 +11,12 @@ keywords:
 - Référence de la manette de jeu, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 242f3fb21f9da9b1853ae8e9e7f694b9ad3bf711
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5eb0386239b0d80d9bc23e324f5754a37e79b7caab7aaabc07649ddc655888f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140248"
 ---
 # <a name="joystick-reference"></a>Référence de la manette de jeu
 
@@ -58,6 +58,6 @@ Cette section décrit les fonctions, les structures et les messages associés au
 [Manette](joysticks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

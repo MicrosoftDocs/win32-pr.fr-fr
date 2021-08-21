@@ -4,12 +4,12 @@ ms.assetid: 7ecde6ae-56fd-451b-bebb-224c6801be05
 title: Fonctions OPM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e32b4ef210ace3f7f179b59980cedb962a5bee44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3de880584716c5caac94c93e48dd89ded481c14e1c7a08be3e23ac334e1c8bfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058763"
 ---
 # <a name="opm-functions"></a>Fonctions OPM
 

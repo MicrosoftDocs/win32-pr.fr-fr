@@ -1,19 +1,19 @@
 ---
 title: Sécurité dans COM
-description: La sécurité dans COM est fermement basée sur la sécurité fournie par Windows et les mécanismes de sécurité RPC sous-jacents.
+description: la sécurité dans COM est fermement basée sur la sécurité fournie par Windows et les mécanismes de sécurité RPC sous-jacents.
 ms.assetid: c9f6d06c-da24-48ea-908a-2462c33f7ee3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e5e462317d85f7c445d4d8a5ae0aa4d9d3ee724
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b197a632494545e5a151110ca17f1cf1ae1df7577a897284d1e5d437b74093f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117918120"
 ---
 # <a name="security-in-com"></a>Sécurité dans COM
 
-La sécurité dans COM est fermement basée sur la sécurité fournie par Windows et les mécanismes de sécurité RPC sous-jacents. La sécurité COM repose sur l' *authentification* (le processus de vérification de l’identité d’un appelant) et l' *autorisation* (le processus de détermination si un appelant est autorisé à faire ce qu’il demande). Il existe deux principaux types de sécurité dans COM : la *sécurité de l’activation* et la sécurité de l' *appel*. La sécurité d’activation détermine si un client peut lancer un serveur. Une fois le serveur lancé, vous pouvez utiliser la sécurité de l’appel pour contrôler l’accès aux objets d’un serveur.
+la sécurité dans COM est fermement basée sur la sécurité fournie par Windows et les mécanismes de sécurité RPC sous-jacents. La sécurité COM repose sur l' *authentification* (le processus de vérification de l’identité d’un appelant) et l' *autorisation* (le processus de détermination si un appelant est autorisé à faire ce qu’il demande). Il existe deux principaux types de sécurité dans COM : la *sécurité de l’activation* et la sécurité de l' *appel*. La sécurité d’activation détermine si un client peut lancer un serveur. Une fois le serveur lancé, vous pouvez utiliser la sécurité de l’appel pour contrôler l’accès aux objets d’un serveur.
 
 Dans ce modèle de sécurité, les serveurs gèrent et aident à protéger les objets, les clients obtiennent l’accès aux objets via des serveurs, et les serveurs peuvent tenter d’accéder au client en usurpant l’identité du client.
 
@@ -35,10 +35,10 @@ Pour en savoir plus sur la sécurité COM, consultez les rubriques suivantes :
 -   [Sécurité côté serveur](server-side-security.md)
 -   [Négociation de sécurité permanente](security-blanket-negotiation.md)
 -   [Packages COM et de sécurité](com-and-security-packages.md)
--   [Améliorations de la sécurité DCOM dans Windows XP Service Pack 2 et Windows Server 2003 Service Pack 1](dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1.md)
+-   [améliorations de la sécurité DCOM dans Windows XP service pack 2 et Windows Server 2003 service pack 1](dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1.md)
 -   [Listes de Access Control pour COM](access-control-lists-for-com.md)
 -   [Moniker d’élévation COM](the-com-elevation-moniker.md)
 
- 
+ 
 
- 
+ 

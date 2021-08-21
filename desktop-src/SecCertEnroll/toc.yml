@@ -21,7 +21,7 @@
               items:
                 - name: Autorités de certification
                   href: about-certification-authorities.md
-                - name: Répertoire du certificat
+                - name: Répertoire de certificat
                   href: about-certificate-directory.md
                 - name: Serveur de récupération de clé
                   href: about-key-recovery-server.md
@@ -182,7 +182,7 @@
               href: cryptographic-service-provider-functions.md
             - name: Fonctions du magasin de certificats
               href: certificate-store-functions.md
-            - name: Fonctions d’échange d’informations personnelles
+            - name: fonctions d’informations personnelles Exchange
               href: personal-information-exchange-functions.md
             - name: Fonctions d’assistance
               href: helper-functions.md
@@ -226,7 +226,7 @@
               href: cryptoapi-cryptographic-service-providers.md
             - name: Fournisseurs d’algorithmes de chiffrement CNG
               href: cng-cryptographic-algorithm-providers.md
-            - name: Fournisseurs de stockage de clés CNG
+            - name: fournisseurs de Stockage de clé CNG
               href: cng-key-storage-providers.md
             - name: Énumération des fournisseurs installés
               href: enumerating-installed-providers.md

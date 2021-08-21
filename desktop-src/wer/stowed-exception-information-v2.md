@@ -4,7 +4,7 @@ description: Contient les informations sur les exceptions arrimées.
 ms.assetid: 79267974-EE1B-4427-A6D6-265F6BC5D73A
 keywords:
 - STOWED_EXCEPTION_INFORMATION_V2 structure Rapport d’erreurs Windows
-- Pointeur de structure PSTOWED_EXCEPTION_INFORMATION_V2 Rapport d’erreurs Windows
+- pointeur de structure PSTOWED_EXCEPTION_INFORMATION_V2 Rapport d’erreurs Windows
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eefd313f0edcc122708f141cd65418beaade03a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9bb7ed638007bbffd67e61c07d26a591149318d64171467053dec2f7593f347e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117670631"
 ---
 # <a name="stowed_exception_information_v2-structure"></a>Structure d' \_ informations d’exception de la \_ \_ version v2
 
@@ -232,20 +232,20 @@ Pointeur vers un type d’exception imbriquée. Le type d’objet est indiqué p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Rangé \_ Les \_ informations \_ sur l’exception v2** et l' [**\_ \_ \_ en-tête d’informations d’exception arrimées**](stowed-exception-information-header.md) ne sont actuellement pas définis dans un en-tête disponible publiquement. vous devez donc les définir dans votre code source avant de les utiliser.
 
 La structure d’informations d’exception de la version **\_ \_ \_ v1** est identique à cette structure, sauf qu’elle ne contient pas les membres **NestedExceptionType** et **NestedException** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                         |
 | En-tête<br/>                   | <dl> <dt>Aucun</dt> </dl> |
 
 

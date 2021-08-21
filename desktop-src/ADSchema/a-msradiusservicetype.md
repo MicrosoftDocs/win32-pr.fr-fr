@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b2930d31bfd461fcc1e96a316a9c8725797b7fb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4b0c281d8cdd7b61a866d958ec772bed0bffa7e18c8c1de62ac33159dac0961c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118013252"
 ---
 # <a name="msradiusservicetype-attribute"></a>attribut msRADIUSServiceType
 
@@ -35,7 +35,7 @@ L’attribut **msRADIUSServiceType** est utilisé en interne. Ne modifiez pas ce
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1171              |
 | System-ID-GUID    | db0c90b6-c1f2-11d1-bbc5-0080c76670c0 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -44,7 +44,7 @@ L’attribut **msRADIUSServiceType** est utilisé en interne. Ne modifiez pas ce
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,7 +57,7 @@ L’attribut **msRADIUSServiceType** est utilisé en interne. Ne modifiez pas ce
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
+| Est de valeur unique       | True                              |
 | Est indexé             | Faux                             |
 | Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
@@ -78,7 +78,7 @@ L’attribut **msRADIUSServiceType** est utilisé en interne. Ne modifiez pas ce
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
+| Est de valeur unique       | True                              |
 | Est indexé             | Faux                             |
 | Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
@@ -99,7 +99,7 @@ L’attribut **msRADIUSServiceType** est utilisé en interne. Ne modifiez pas ce
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
+| Est de valeur unique       | True                              |
 | Est indexé             | Faux                             |
 | Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
@@ -120,7 +120,7 @@ L’attribut **msRADIUSServiceType** est utilisé en interne. Ne modifiez pas ce
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
+| Est de valeur unique       | True                              |
 | Est indexé             | Faux                             |
 | Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
@@ -141,7 +141,7 @@ L’attribut **msRADIUSServiceType** est utilisé en interne. Ne modifiez pas ce
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
+| Est de valeur unique       | True                              |
 | Est indexé             | Faux                             |
 | Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
@@ -162,7 +162,7 @@ L’attribut **msRADIUSServiceType** est utilisé en interne. Ne modifiez pas ce
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
+| Est de valeur unique       | True                              |
 | Est indexé             | Faux                             |
 | Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |

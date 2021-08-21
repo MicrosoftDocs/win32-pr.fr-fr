@@ -4,12 +4,12 @@ description: Fonctions d’assistance pour la création d’instances
 ms.assetid: 0b9b7bcf-f0f0-42c4-945e-63a532640d4b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84956f6040aaba13b46dea92bea611a49d5d8de3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: e8bd8535d1dc90ac47210a7ec9b34b5fcced61a3a541b27b2aa5af2ba1cf8b27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117918920"
 ---
 # <a name="instance-creation-helper-functions"></a>Fonctions d’assistance pour la création d’instances
 
@@ -35,6 +35,6 @@ La création d’un objet via [**CoCreateInstanceEx**](/windows/desktop/api/comb
 [Création d’un objet à l’aide d’un objet de classe](creating-an-object-through-a-class-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

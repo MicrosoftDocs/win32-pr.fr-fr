@@ -4,12 +4,12 @@ description: La version 2,0 de l’API du serveur HTTP fournit les structures su
 ms.assetid: 5a8e28e9-f85b-4550-929e-53f38eca6a8c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca5e41016592e16fcf159188cc1ebc760568f807
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e73c3da357483f35b39b79d19e9e02f0e8d7e944da347cb5d9a582cc37f506b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118150275"
 ---
 # <a name="http-server-api-version-20-structures"></a>Structures de la version 2,0 de l’API du serveur HTTP
 
@@ -47,9 +47,9 @@ La version 2,0 de l’API du serveur HTTP fournit les structures suivantes pour 
 -   [**\_informations d’État http \_**](/windows/desktop/api/Http/ns-http-http_state_info)
 -   [**\_ \_ informations sur la limite du délai d’expiration http \_**](/windows/desktop/api/Http/ns-http-http_timeout_limit_info)
 
- 
+ 
 
- 
+ 
 
 
 

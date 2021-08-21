@@ -1,19 +1,19 @@
 ---
-description: Chaque enregistrement de la table IsolatedComponent associe le composant spécifié dans la \_ colonne application du composant (généralement un fichier. exe) au composant spécifié dans la \_ colonne partagé du composant (généralement une DLL partagée).
+description: Chaque enregistrement de la table IsolatedComponent associe le composant spécifié dans la \_ colonne application du composant (généralement un .exe) au composant spécifié dans la \_ colonne partagé du composant (généralement une DLL partagée).
 ms.assetid: dc30e4c7-a938-4060-be4f-744de9c20fd9
 title: Table IsolatedComponent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c3e6c5bdba6efc546a36e77fa793c0b397f6d5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9644f1e122464e1321d55c0b615892167e84a7e059472adc4f01ee6bac571720
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805617"
 ---
 # <a name="isolatedcomponent-table"></a>Table IsolatedComponent
 
-Chaque enregistrement de la table IsolatedComponent associe le composant spécifié dans la \_ colonne application du composant (généralement un fichier. exe) au composant spécifié dans la \_ colonne partagé du composant (généralement une DLL partagée). L' [action IsolateComponents](isolatecomponents-action.md) installe une copie du composant \_ partagé dans un emplacement privé pour une utilisation par l’application de composant \_ . Cela isole l’application du composant des \_ autres copies du composant \_ partagé qui peuvent être installées dans un emplacement partagé sur l’ordinateur. Consultez [composants isolés](isolated-components.md).
+Chaque enregistrement de la table IsolatedComponent associe le composant spécifié dans la \_ colonne application du composant (généralement un .exe) au composant spécifié dans la \_ colonne partagé du composant (généralement une DLL partagée). L' [action IsolateComponents](isolatecomponents-action.md) installe une copie du composant \_ partagé dans un emplacement privé pour une utilisation par l’application de composant \_ . Cela isole l’application du composant des \_ autres copies du composant \_ partagé qui peuvent être installées dans un emplacement partagé sur l’ordinateur. Consultez [composants isolés](isolated-components.md).
 
 Pour lier un composant \_ partagé à plusieurs applications de composant \_ , incluez un enregistrement distinct pour chaque paire dans la table IsolatedComponents. Le programme d’installation copie les fichiers du composant \_ partagé dans le répertoire de chaque application de composant \_ installée.
 
@@ -46,7 +46,7 @@ Le composant partagé contrôle l’inscription de toutes les copies isolées du
 <span id="Component_Application"></span><span id="component_application"></span><span id="COMPONENT_APPLICATION"></span>Application de composant \_
 </dt> <dd>
 
-Clé étrangère dans la [table des composants](component-table.md). Composant qui contient le fichier. exe qui charge le fichier partagé. Le fichier. exe doit être le fichier de clé pour ce composant. Il doit s’agir d’un composant différent de celui indiqué dans la \_ colonne partagé du composant.
+Clé étrangère dans la [table des composants](component-table.md). Composant qui contient l' .exe qui charge le fichier partagé. Le .exe doit être le fichier de clé pour ce composant. Il doit s’agir d’un composant différent de celui indiqué dans la \_ colonne partagé du composant.
 
 </dd> </dl>
 

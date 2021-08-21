@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: 89e819e81c11842feaa6996e047f3cac3587792c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9a847e0978022f8f09c69050184801a46fb50b762f98ec488e9306acc15a01e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117914455"
 ---
 # <a name="d3dx10_image_load_info-structure"></a>\_Structure des \_ informations de chargement d’image d3dx10 \_
 
@@ -194,7 +194,7 @@ Informations sur l’image d’origine. Consultez [**d3dx10 \_ image \_ info**](
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de l’initialisation de la structure, vous pouvez définir n’importe quel membre sur D3DX10 \_ par défaut et D3DX l’initialise avec une valeur par défaut à partir de la texture source lorsque la texture est chargée.
 
@@ -203,7 +203,7 @@ Cette structure peut être utilisée par les API qui :
 -   Créer des ressources, telles que [**D3DX10CreateTextureFromFile**](d3dx10createtexturefromfile.md) et [**D3DX10CreateShaderResourceViewFromFile**](d3dx10createshaderresourceviewfromfile.md).
 -   Créer des processeurs de données, tels que [**D3DX10CreateAsyncTextureInfoProcessor**](d3dx10createasynctextureinfoprocessor.md) ou [**D3DX10CreateAsyncShaderResourceViewProcessor**](d3dx10createasyncshaderresourceviewprocessor.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

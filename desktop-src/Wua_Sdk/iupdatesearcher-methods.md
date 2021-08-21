@@ -4,12 +4,12 @@ ms.assetid: 82735555-b23a-43b0-bf5b-a8cf72dc40d4
 title: Méthodes IUpdateSearcher
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 462cbd371546743bab836ed1cdc2479e30f13612
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbf2207f92fb0eae48b79641109e9218bc993f2048d5ec623ea1d476424457f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118106470"
 ---
 # <a name="iupdatesearcher-methods"></a>Méthodes IUpdateSearcher
 

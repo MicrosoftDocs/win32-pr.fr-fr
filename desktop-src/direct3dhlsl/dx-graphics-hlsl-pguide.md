@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: cd242efaaf3cdb44f424a603f2fc522dda540ec8
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: ca0b1f93b3c5f56cd7a074571ec6657cedc924688606e3612a66ef0f9e40d51e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "104973859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726068"
 ---
 # <a name="programming-guide-for-hlsl"></a>Guide de programmation pour le HLSL
 
@@ -31,17 +31,17 @@ Les nuanceurs HLSL peuvent être compilés au moment de la création ou au momen
 | [Utilisation de nuanceurs dans Direct3D 9](dx-graphics-hlsl-using-shaders-9.md) | |
 | [Utilisation des nuanceurs dans Direct3D 10](dx-graphics-hlsl-using-shaders-10.md) | |
 | [Optimisation des nuanceurs HLSL](dx-graphics-hlsl-optimize.md) | |
-| [Débogage des nuanceurs dans Visual Studio](dx-graphics-hlsl-debug-visual-studio.md) | Le dernier outil de débogage des nuanceurs est désormais fourni sous la forme d’une fonctionnalité de Microsoft Visual Studio, appelée débogueur graphique Visual Studio.  |
+| [Débogage des nuanceurs dans Visual Studio](dx-graphics-hlsl-debug-visual-studio.md) | le dernier outil de débogage des nuanceurs est désormais fourni sous la forme d’une fonctionnalité de Microsoft Visual Studio, appelée Visual Studio débogueur graphics.  |
 | [Compilation des nuanceurs](dx-graphics-hlsl-part1.md) | Examinons à présent les différentes façons de compiler le code et les conventions de votre nuanceur pour les extensions de fichier pour le code du nuanceur. |
-| [Spécification de cibles de compilateur](specifying-compiler-targets.md) | Ici, nous répertorions les cibles pour les différents profils que les fonctions **D3DCompile \** _ et le compilateur HLSL prennent en charge. |
+| [Spécification de cibles de compilateur](specifying-compiler-targets.md) | Ici, nous répertorions les cibles pour les différents profils que les fonctions **D3DCompile \*** et le compilateur HLSL prennent en charge. |
 | [Décompresser et compresser le \_ format DXGI pour la modification des images In-Place](dx-graphics-hlsl-unpacking-packing-dxgi-format.md) | |
-| [Utilisation de la précision minimale HLSL](using-hlsl-minimum-precision.md) | À compter de Windows 8, les pilotes graphiques peuvent implémenter des [types de données scalaires HLSL](dx-graphics-hlsl-scalar.md) de précision minimale à l’aide d’une précision supérieure ou égale à la précision de bit spécifiée.  |
+| [Utilisation de la précision minimale HLSL](using-hlsl-minimum-precision.md) | à partir de Windows 8, les pilotes graphiques peuvent implémenter des [types de données scalaires HLSL](dx-graphics-hlsl-scalar.md) de précision minimale à l’aide d’une précision supérieure ou égale à la précision de bit spécifiée.  |
 | [Nuanceur HLSL modèle 5](overviews-direct3d-11-hlsl.md) | |
 | [Modèle de nuanceur HLSL 5,1](hlsl-shader-model-5-1-features-for-direct3d-12.md) | Cette section décrit les fonctionnalités du modèle de nuanceur 5,1 telles qu’elles s’appliquent dans la pratique à D3D12 et à D3D 11.3. Tout le matériel DirectX 12 prend en charge le modèle de nuanceur 5,1. |
-| [Modèle de nuanceur HLSL 6,0](hlsl-shader-model-6-0-features-for-direct3d-12.md) | Décrit les fonctions intrinsèques de l’opération Wave ajoutées au modèle de nuanceur HLSL 6,0. |
+| [Modèle de nuanceur HLSL 6.0](hlsl-shader-model-6-0-features-for-direct3d-12.md) | Décrit les fonctions intrinsèques de l’opération Wave ajoutées au modèle de nuanceur HLSL 6,0. |
 | [Modèle de nuanceur HLSL 6,4](hlsl-shader-model-6-4-features-for-direct3d-12.md) | Décrit les Machine Learning intrinsèques ajoutés au modèle de nuanceur HLSL 6,4. |
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-_ [HLSL](dx-graphics-hlsl.md)
+* [HLSL](dx-graphics-hlsl.md)
 * [Référence pour le langage HLSL](dx-graphics-hlsl-reference.md)

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a94394c32712d8ee8871ada753f342861e1f530e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceac5f857e7b9bef51f4c8f527afe90f46f506f445eaf4fe1ef50670a090a7aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117984449"
 ---
 # <a name="wlan_profile-schema-elements"></a>\_Éléments de schéma de profil WLAN
 

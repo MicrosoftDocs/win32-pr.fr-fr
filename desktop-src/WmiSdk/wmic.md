@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: wmic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 070b21cb21381fb989b81795a6c7e0b787b5c89a
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: a0248ea4ac6a584816da20e8feb8d278d7feab0a018739fa4328c3023179d4b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107222927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117920999"
 ---
 # <a name="wmic"></a>wmic
 
-L’utilitaire de ligne de commande WMI (WMIC) fournit une interface de ligne de commande pour Windows Management Instrumentation (WMI). WMIC est compatible avec les interpréteurs de commandes et les commandes utilitaires existantes. Voici une rubrique de référence générale pour WMIC. Pour plus d’informations et des instructions sur l’utilisation de WMIC, y compris des informations supplémentaires sur les alias, les verbes, les commutateurs et les commandes, consultez [utilisation de Windows Management Instrumentation ligne de commande](/previous-versions/windows/it-pro/windows-server-2003/cc779482(v=ws.10)) et [WMIC-prendre le contrôle de ligne de commande sur WMI](/previous-versions/windows/it-pro/windows-2000-server/bb742610(v=technet.10)).
+l’utilitaire de ligne de commande wmi (WMIC) fournit une interface de ligne de commande pour Windows Management Instrumentation (WMI). WMIC est compatible avec les interpréteurs de commandes et les commandes utilitaires existantes. Voici une rubrique de référence générale pour WMIC. pour plus d’informations et des instructions sur l’utilisation de WMIC, y compris des informations supplémentaires sur les alias, les verbes, les commutateurs et les commandes, consultez [utilisation de Windows Management Instrumentation ligne de commande](/previous-versions/windows/it-pro/windows-server-2003/cc779482(v=ws.10)) et [WMIC-prendre le contrôle de ligne de commande sur WMI](/previous-versions/windows/it-pro/windows-2000-server/bb742610(v=technet.10)).
 
 ## <a name="alias"></a>Alias
 
@@ -24,7 +24,7 @@ Un alias est un changement de nom convivial d’une classe, d’une propriété 
 
 Un commutateur est une option WMIC que vous pouvez définir globalement ou éventuellement. Pour obtenir la liste des commutateurs disponibles, consultez [commutateurs WMIC](/previous-versions/windows/it-pro/windows-server-2003/cc787035(v=ws.10)).
 
-## <a name="verbs"></a>Verbes et adverbes
+## <a name="verbs"></a>Verbes
 
 Pour utiliser des verbes dans WMIC, entrez le nom d’alias suivi du verbe. Si un alias ne prend pas en charge un verbe, vous recevez le message « le fournisseur ne peut pas prendre en charge l’opération tentée ». Pour plus d’informations, consultez [verbes WMIC](/previous-versions/windows/it-pro/windows-server-2003/cc784966(v=ws.10)).
 
@@ -87,7 +87,7 @@ Exemple : **processus où name = "CALC.EXE" Delete**
 
 </dd> <dt>
 
-<span id="GET"></span><span id="get"></span>Télécharger
+<span id="GET"></span><span id="get"></span>TÉLÉCHARGER
 </dt> <dd>
 
 Récupérer des valeurs de propriété spécifiques.

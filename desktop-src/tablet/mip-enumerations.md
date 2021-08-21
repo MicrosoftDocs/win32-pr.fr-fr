@@ -19,7 +19,7 @@ Cette section décrit les énumérations utilisées avec le contrôle d’entré
 
 
 
-| Nom                                           | Description                                                               |
+| Name                                           | Description                                                               |
 |------------------------------------------------|---------------------------------------------------------------------------|
 | [**MICUIELEMENT**](/windows/win32/api/micaut/ne-micaut-micuielement)           | Spécifie les éléments de l’interface utilisateur d’un contrôle d’entrée mathématique (MIC). |
 | [**MICUIELEMENTSTATE**](/windows/win32/api/micaut/ne-micaut-micuielementstate) | Spécifie les États du bouton d’un contrôle d’entrée mathématique (MIC).                |

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0b43ae5ec19e8c50e1eaddfb3288b46269e85cd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9d04cb444fc029355e7d7f996220f6280f3fe70745dbbb7d57c6151d6e6d50e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118015523"
 ---
 # <a name="ms-com-userlink-attribute"></a>attribut ms-COM-UserLink
 
@@ -44,7 +44,7 @@ Lien utilisé pour associer un PartitionSet COM+ à un objet utilisateur.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,7 +56,7 @@ Lien utilisé pour associer un PartitionSet COM+ à un objet utilisateur.
 |------------------------|---------------------------------|
 | ID de lien                | 1049                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
+| System-Only            | True                            |
 | Est de valeur unique       | Faux                           |
 | Est indexé             | Faux                           |
 | Dans le catalogue global      | Faux                           |
@@ -98,7 +98,7 @@ Lien utilisé pour associer un PartitionSet COM+ à un objet utilisateur.
 |------------------------|---------------------------------|
 | ID de lien                | 1049                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
+| System-Only            | True                            |
 | Est de valeur unique       | Faux                           |
 | Est indexé             | Faux                           |
 | Dans le catalogue global      | Faux                           |

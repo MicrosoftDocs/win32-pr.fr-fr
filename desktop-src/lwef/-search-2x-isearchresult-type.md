@@ -3,9 +3,9 @@ title: Méthode de type ISearchResult
 description: Réservé. | Méthode de type ISearchResult
 ms.assetid: 9c4e5a30-7e0e-4e8d-a31e-5160afb3749c
 keywords:
-- Méthode de type fonctionnalités d’environnement Windows héritées
-- Méthode de type fonctionnalités d’environnement Windows héritées, interface ISearchResult
-- Fonctionnalités d’environnement Windows héritées de l’interface ISearchResult, méthode de type
+- fonctionnalités d’environnement de méthode de Type héritées Windows
+- méthode de Type héritage Windows fonctionnalités d’environnement, interface ISearchResult
+- fonctionnalités d’environnement Windows héritées de l’interface ISearchResult, méthode de Type
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5eb2c88b9333b2bdb176495ae74bcf69d4a9b6a6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b2166a3950ed9406b899b38d28f206ff607757d2e1b2dab5c9aefb08ceb2971e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103869970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117694467"
 ---
 # <a name="isearchresulttype-method"></a>ISearchResult :: type, méthode
 

@@ -4,12 +4,12 @@ ms.assetid: c5fc3346-e5d7-49c0-979b-10d91ab965c5
 title: Utilisation de formes remplies
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03092c0eea329759b70c18c4fa8247081ca99fa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a63cf1371f18d6c21fb373bf787a0c93cb5de28143466b5860115a5493b8582
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117698016"
 ---
 # <a name="using-filled-shapes"></a>Utilisation de formes remplies
 

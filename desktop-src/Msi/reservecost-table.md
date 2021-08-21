@@ -4,12 +4,12 @@ ms.assetid: 371e72f1-40a2-4ed2-b0ab-33840075ff47
 title: Table ReserveCost
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5f593fd11789cd2304385b97e96e50a009fbde0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df729e6afd66222bed3025991432354a7ec04023dcba17ce2bc5b5d81788827b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990402"
 ---
 # <a name="reservecost-table"></a>Table ReserveCost
 
@@ -22,7 +22,7 @@ La table ReserveCost contient les colonnes suivantes.
 | Colonne        | Type                               | Clé | Nullable |
 |---------------|------------------------------------|-----|----------|
 | ReserveKey    | [Identificateur](identifier.md)       | O   | N        |
-| -\_   | [Identificateur](identifier.md)       | N   | N        |
+| Composant\_   | [Identificateur](identifier.md)       | N   | N        |
 | ReserveFolder | [Identificateur](identifier.md)       | N   | O        |
 | ReserveLocal  | [DoubleInteger](doubleinteger.md) | N   | N        |
 | ReserveSource | [DoubleInteger](doubleinteger.md) | N   | N        |
@@ -70,7 +70,7 @@ Nombre d’octets d’espace disque à réserver si le composant lié est instal
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La réservation de coûts de cette façon peut être utile pour les auteurs qui souhaitent s’assurer qu’une quantité minimale d’espace disque sera disponible une fois l’installation terminée. Par exemple, cet espace disque peut être réservé pour les documents utilisateur ou pour les fichiers d’application (tels que les fichiers d’index) qui sont créés uniquement après le démarrage de l’application après l’installation.
 

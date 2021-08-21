@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f333798a6b151b63cbd40c69fab438ecdff68ed9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91ba4cae054d212cde702a87cc1a1295b91ec64ee060e86fbf1764943c7e3f61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117715126"
 ---
 # <a name="esentcannotdeletetemptableexception-class"></a>EsentCannotDeleteTempTableException, classe
 

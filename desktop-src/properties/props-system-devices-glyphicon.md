@@ -4,12 +4,12 @@ ms.assetid: 114dbfa2-7a83-4666-b4ad-6563fb8efaaa
 title: System.Devices.GlyphIcon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85744aa45ca392ebc8462dfe72e98b6e72b534d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f94ace6f57785d199163a5906b84333f98874622945904dd1ffa8f98163910e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054116"
 ---
 # <a name="systemdevicesglyphicon"></a>System.Devices.GlyphIcon
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

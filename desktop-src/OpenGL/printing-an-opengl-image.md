@@ -7,12 +7,12 @@ keywords:
 - impression d’images OpenGL OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ca0c5260a084796915a7564f793f0e252b5228c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 00d5cb2e08a247ad8ebd5d333a8a680b57e38a3fc1a9c2281dfb2bd8671f4c92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980703"
 ---
 # <a name="printing-an-opengl-image"></a>Impression d’une image OpenGL
 
@@ -46,6 +46,6 @@ EndDoc(hDC); // End the print job
 
 Pour plus d’informations sur l’utilisation des métafichiers, consultez [opérations de métafichier améliorées](/windows/desktop/gdi/enhanced-metafile-operations).
 
- 
+ 
 
- 
+ 

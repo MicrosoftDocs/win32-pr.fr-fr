@@ -5,12 +5,12 @@ ms.assetid: B7D38602-FCCA-44F9-9E54-F07829751E85
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c9ad93adcc103b04473ce2526a6b5b6107bbaf6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 44f4232544ff877e8ecae3d6ddcd9f59d59abed6397926258dde866647fb2733
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113045"
 ---
 # <a name="iwsmansession-methods"></a>Méthodes IWSManSession
 
@@ -26,9 +26,9 @@ L’interface [**IWSManSession**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iw
 -   [**Invoke (méthode)**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-invoke)
 -   [**Méthode put**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmansession-put)
 
- 
+ 
 
- 
+ 
 
 
 

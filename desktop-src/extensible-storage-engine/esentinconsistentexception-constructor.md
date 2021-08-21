@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 6e1aef80b1ff29e788f23db20b05a01baecbcf51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e44d8bed66053c036b8e72fdcdb3f1d8c86d0c1f8445ba5f738029f63877002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118081222"
 ---
 # <a name="esentinconsistentexception-constructor"></a>Constructeur EsentInconsistentException
 
@@ -32,7 +32,7 @@ Inclure les membres hérités
 <thead>
 <tr class="header">
 <th> </th>
-<th>Nom</th>
+<th>Name</th>
 <th>Description</th>
 </tr>
 </thead>

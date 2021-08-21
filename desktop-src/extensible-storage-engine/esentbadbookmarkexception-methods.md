@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101051
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9287f2938b58ae06f9a03d65adcae136c656313f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6224f65ab29cd4e5c64eee9ce9247b6b35ffc367319f67f946eea96c72d0f5c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117716097"
 ---
 # <a name="esentbadbookmarkexception-methods"></a>Méthodes EsentBadBookmarkException
 

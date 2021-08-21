@@ -4,12 +4,12 @@ ms.assetid: a890ed0a-1f68-45b8-93cb-b621d1908d9f
 title: Textures opaques et alpha 1 bits (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f629eff594d28d9a807021c0b9df0bd05ea66c3
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: bda620810e48cba519322f3f2426555443fb696f524f4fbe7752a8c7aaedba73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104562069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728187"
 ---
 # <a name="opaque-and-1-bit-alpha-textures-direct3d-9"></a>Textures opaques et alpha 1 bits (Direct3D 9)
 

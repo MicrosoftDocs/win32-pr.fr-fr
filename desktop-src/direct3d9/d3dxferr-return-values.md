@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9xof.h
-ms.openlocfilehash: cab1cc5e70b6204c832fd9fe5b0fecac4276f578
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b6e106fc7163ed4ff66e74332336cc85b2a95afdc0fa6b712b00f3b32e2af248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118096064"
 ---
 # <a name="d3dxferr-return-values"></a>D3DXFERR les valeurs de retour
 
@@ -152,7 +152,7 @@ Un handle valide est introuvable pour la ressource spécifiée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le code d’erreur de fichier. x \_ FACD3DXF est utilisé pour générer des codes d’erreur. Par exemple :
 
@@ -164,7 +164,7 @@ Le code d’erreur de fichier. x \_ FACD3DXF est utilisé pour générer des cod
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

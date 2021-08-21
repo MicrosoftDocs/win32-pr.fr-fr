@@ -4,12 +4,12 @@ ms.assetid: 715be0fa-3a5b-4939-8db4-a7e04f14f4ac
 title: System.Devices.ClassGuid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18781d7d7cad647b0da284898ef1818c50d54925
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e156ea536262e99b5d5ee449a590c7a3db567a82165931cc51b63e103f389fcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054403"
 ---
 # <a name="systemdevicesclassguid"></a>System.Devices.ClassGuid
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

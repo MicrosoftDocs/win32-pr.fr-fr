@@ -4,18 +4,18 @@ description: Audio Low-Delay
 ms.assetid: f93819eb-f38a-45a0-aa1b-4e677e33daf8
 keywords:
 - Windows Media Format SDK, audio à faible délai
-- Kit de développement logiciel (SDK) Windows Media format, prise en charge audio
+- Windows Media Format SDK, prise en charge audio
 - codecs, audio à faible délai
 - codecs, prise en charge audio
 - audio à faible retards
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be8cedd3a6bb54942f5a517c7133e993cf5b11cb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: da92450b32e65401e71f0eac11fec994d8f5427714a3d838264819743db476ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117654826"
 ---
 # <a name="low-delay-audio"></a>Audio Low-Delay
 
@@ -23,7 +23,7 @@ L’audio à faible délai est un mode d’encodage qui produit un contenu audio
 
 Lorsque vous utilisez un format audio à faible retards, la latence du changement de contenu est considérablement réduite par rapport à d’autres formats audio. La latence est également réduite pour les diffusions en direct lorsque vous utilisez des formats à faible délai.
 
-Cette fonctionnalité est prise en charge par les codecs Windows Media Audio 9,1 et Windows Media Audio 9,1 Professional. Les formats à faible délai sont disponibles uniquement pour l’encodage à vitesse binaire constante (à la fois en un passage et en deux passes).
+cette fonctionnalité est prise en charge par les codecs Professional Windows Media Audio 9,1 et Windows Media Audio 9,1. Les formats à faible délai sont disponibles uniquement pour l’encodage à vitesse binaire constante (à la fois en un passage et en deux passes).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -32,9 +32,9 @@ Cette fonctionnalité est prise en charge par les codecs Windows Media Audio 9,1
 [**Fonctionnalités du codec**](codec-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

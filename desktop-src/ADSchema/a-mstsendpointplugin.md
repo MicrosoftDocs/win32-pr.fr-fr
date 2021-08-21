@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a7f86ca40df4a639a034af603d6a84f8845a92
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ea0c95f0bd5ccadba86b3684daf652756044a647bbd85b47cdda5537a0ccf0e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837832"
 ---
 # <a name="ms-ts-endpoint-plugin-attribute"></a>MS-TS-Endpoint-attribut de plug-in
 

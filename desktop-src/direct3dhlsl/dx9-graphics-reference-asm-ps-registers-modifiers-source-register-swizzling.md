@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4ffc655129740f112a3ade9eb40c0bbe29dfc1fb
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 2c0357a902c793165149da5c853ac953cf5989f8a472fe936c6c2b95cb9e3197
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104313792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118090112"
 ---
 # <a name="source-register-swizzling-hlsl-ps-reference"></a>Registre source swizzling (référence du PS HLSL)
 
@@ -62,7 +62,7 @@ Certaines instructions présentent des restrictions pour les Swizzle sources. Il
 
 
 
- 
+ 
 
 \* Disponible uniquement si le masque d’écriture de destination est. w (. a).
 
@@ -93,9 +93,9 @@ Répliquer Swizzle copie un composant vers un autre. Il s’agit d’un seul des
 [\_registres PS 3 \_ 0](dx9-graphics-reference-asm-ps-registers-ps-3-0.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

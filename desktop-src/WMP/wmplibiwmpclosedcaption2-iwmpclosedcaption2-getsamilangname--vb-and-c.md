@@ -3,9 +3,9 @@ title: Méthode IWMPClosedCaption2 getSAMILangName
 description: La méthode getSAMILangName retourne le nom d’une langue prise en charge par le fichier SAMI actuel.
 ms.assetid: 52aaf1cc-89ef-4c4c-af43-3f88dc4a9539
 keywords:
-- méthode getSAMILangName lecteur Windows Media
-- méthode getSAMILangName lecteur Windows Media, interface IWMPClosedCaption2
-- Interface IWMPClosedCaption2 lecteur Windows Media, méthode getSAMILangName
+- Lecteur Windows Media de la méthode getSAMILangName
+- méthode getSAMILangName Lecteur Windows Media, interface IWMPClosedCaption2
+- Lecteur Windows Media de l’interface IWMPClosedCaption2, méthode getSAMILangName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e50df643fdd6b665de1275873fb8de9d5d094a42
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 99941c7c8c62480ea13572b22083a2d64bda9924cdf3d26200dbc9ac6ba9bdf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930302"
 ---
 # <a name="iwmpclosedcaption2getsamilangname-method"></a>IWMPClosedCaption2 :: getSAMILangName, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPClosedCaption2.getSAMILangName
 
 **System. String** qui est le nom de la langue tel que spécifié dans le fichier sami.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les langues d’un fichier SAMI sont indexées dans l’ordre indiqué dans le fichier, à partir de zéro.
 

@@ -1,6 +1,6 @@
 ---
-title: Guide de programmation du SDK Windows Media format
-description: Guide de programmation du SDK Windows Media format
+title: Windows Guide de programmation du SDK Media format
+description: Windows Guide de programmation du SDK Media format
 ms.assetid: 9b382c88-e4a9-4aed-a250-250fabface44
 keywords:
 - Windows Media Format SDK, Guide de programmation
@@ -9,18 +9,18 @@ keywords:
 - ASF (format des systèmes avancés), Guide de programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f4ea4f6819a31693d7c9d149717324ef6dcc65a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8d9de2bab3d832f97c59c7facf7904f3b5ac7cad932438fd53b0d03c32cf026d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117654387"
 ---
-# <a name="windows-media-format-sdk-programming-guide"></a>Guide de programmation du SDK Windows Media format
+# <a name="windows-media-format-sdk-programming-guide"></a>Windows Guide de programmation du SDK Media format
 
-Le Guide de programmation est destiné à vous aider à apprendre à utiliser le kit de développement logiciel (SDK) Microsoft Windows Media format pour créer des applications qui fonctionnent avec des fichiers à l’aide du format ASF (Advanced Systems Format).
+le Guide de programmation est destiné à vous aider à apprendre à utiliser le kit de développement logiciel (SDK) Microsoft Windows Media format pour créer des applications qui fonctionnent avec des fichiers à l’aide du format ASF (Advanced Systems format).
 
-Vous pouvez utiliser le kit de développement logiciel (SDK) Windows Media format pour créer des applications qui écrivent des flux multimédias numériques dans des fichiers ASF et les lisent. Ce kit de développement logiciel prend également en charge la modification des métadonnées dans les fichiers ASF. En outre, ce kit de développement logiciel (SDK) peut être utilisé pour lire et manipuler les métadonnées dans les fichiers MP3.
+vous pouvez utiliser le kit de développement logiciel (SDK) de Format multimédia Windows pour créer des applications qui écrivent des flux multimédias numériques sur des fichiers ASF et les lisent. Ce kit de développement logiciel prend également en charge la modification des métadonnées dans les fichiers ASF. En outre, ce kit de développement logiciel (SDK) peut être utilisé pour lire et manipuler les métadonnées dans les fichiers MP3.
 
 Les sections suivantes expliquent en détail les étapes requises pour écrire, lire et modifier des fichiers ASF à l’aide de ce kit de développement logiciel (SDK).
 
@@ -41,8 +41,8 @@ Les sections suivantes expliquent en détail les étapes requises pour écrire, 
 | [Activation de la prise en charge de DRM](enabling-drm-support.md)                                   | Décrit comment activer la prise en charge de la lecture de fichiers ASF protégés par DRM.                                          |
 | [Implémentation des fonctionnalités réseau](implementing-network-functionality.md)       | Décrit l’utilisation de ce kit de développement logiciel (SDK) pour effectuer les opérations réseau qui sont essentielles au succès de la diffusion de médias. |
 | [Rubriques avancées](advanced-topics.md)                                             | Décrit comment utiliser certaines fonctionnalités avancées de ce kit de développement logiciel (SDK) dans vos applications.                              |
-| [DirectShow et Windows Media](directshow-and-windows-media.md)                   | Décrit comment vous pouvez utiliser Microsoft DirectShow pour créer et lire des fichiers ASF.                                      |
-| [Considérations relatives aux projets](project-considerations.md)                               | Fournit des détails sur la finalisation et la distribution de vos applications.                                              |
+| [support DirectShow et Windows](directshow-and-windows-media.md)                   | décrit comment vous pouvez utiliser Microsoft DirectShow pour créer et lire des fichiers ASF.                                      |
+| [Project Raisons](project-considerations.md)                               | Fournit des détails sur la finalisation et la distribution de vos applications.                                              |
 
 
 
@@ -52,10 +52,10 @@ Les sections suivantes expliquent en détail les étapes requises pour écrire, 
 
 <dl> <dt>
 
-[**À propos du kit de développement logiciel (SDK) Windows Media format**](about-the-windows-media-format-sdk.md)
+[**à propos du kit de développement logiciel (SDK) Windows Media Format**](about-the-windows-media-format-sdk.md)
 </dt> <dt>
 
-[**SDK Windows Media format 11**](windows-media-format-11-sdk.md)
+[**Windows Kit de développement logiciel (SDK) Media format 11**](windows-media-format-11-sdk.md)
 </dt> </dl>
 
  

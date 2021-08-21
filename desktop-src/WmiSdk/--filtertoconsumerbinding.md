@@ -21,12 +21,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 0fd9b7f3cf60d14d27fdf5b5014b57e6f599d67f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58196a18a0894b12b6e43a963834f324503e974338d4dec78b01ac6850d66859
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117926187"
 ---
 # <a name="__filtertoconsumerbinding-class"></a>\_\_FilterToConsumerBinding, classe
 
@@ -191,7 +191,7 @@ Si la **valeur est true**, les fournisseurs sont ralentis si ce consommateur ne 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ FilterToConsumerBinding** est dérivée de [**\_ \_ IndicationRelated**](--indicationrelated.md), qui n’a pas de propriétés.
 
@@ -201,7 +201,7 @@ Les consommateurs d’événements permanents utilisent la classe système **\_ 
 
 L’exemple de création d’un [événement WMI permanent pour surveiller les fichiers](https://Gallery.TechNet.Microsoft.Com/Create-Permenant-WMI-Event-f67ce5c2) PowerShell sur la Galerie TechNet utilise **\_ \_ FilterToConsumerBinding** dans le cadre d’un script complexe pour configurer une inscription d’événement WMI permanente.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

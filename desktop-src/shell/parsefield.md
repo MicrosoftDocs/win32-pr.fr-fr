@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 45c7d5bc692f969ba821b5d3243b312d0883658e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 737602777e02e4cdf88d2e07e3037ae940d257036a03a415271e4a6e1291dc7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677927"
 ---
 # <a name="parsefield-function"></a>ParseField fonction)
 
-\[La fonction **ParseField** est actuellement censée être utilisée dans la prochaine version du système d’exploitation Microsoft Windows. Il peut être modifié ou non disponible dans les versions ultérieures.\]
+\[la fonction **ParseField** est actuellement censée être utilisée dans la prochaine version du système d’exploitation Microsoft Windows. Il peut être modifié ou non disponible dans les versions ultérieures.\]
 
 Lit une ligne à partir de Setup. inf et extrait le champ spécifié de la chaîne.
 
@@ -47,13 +47,13 @@ bool ParseField(
 *szData* \[ dans\]
 </dt> <dd>
 
-Tapez : **LPCTSTR \** _
+Type : **LPCTSTR \***
 
 Pointeur vers la ligne de Setup. inf.
 
 </dd> <dt>
 
-_n * \[ dans\]
+*n* \[ dans\]
 </dt> <dd>
 
 Type : **int**
@@ -87,13 +87,13 @@ Indique le premier champ.
 *szBuf* \[ dans\]
 </dt> <dd>
 
-Type : **LPTStr \** _
+Type : **LPTStr \***
 
 Pointeur vers la mémoire tampon qui reçoit le champ extrait.
 
 </dd> <dt>
 
-_iBufLen * \[ dans\]
+*iBufLen* \[ dans\]
 </dt> <dd>
 
 Type : **int**
@@ -108,13 +108,13 @@ Type : **bool**
 
 Retourne la **valeur true** si la fonction a réussi et **false** si elle échoue.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les champs de la chaîne doivent être séparés par des virgules.
 
 Les espaces de début et de fin sont supprimés.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Conditions requises
 
 
 
