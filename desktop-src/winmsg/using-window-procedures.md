@@ -4,12 +4,12 @@ ms.assetid: acc68991-4689-44dc-8547-a7b6153b0f62
 title: Utilisation des procédures de fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e0508119a2ba62c813c32e8fd0c00bd3dd1e85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f05e5999b216ad8c51be4de6fdec80b5f58ff94956f8c1129d74c3f7075a90eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028297"
 ---
 # <a name="using-window-procedures"></a>Utilisation des procédures de fenêtre
 
@@ -118,7 +118,7 @@ int APIENTRY WinMain(
 Pour sous-classer une instance d’une fenêtre, appelez la fonction [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga) et spécifiez le descripteur de la fenêtre pour sous-classer l' \_ indicateur WNDPROC GWL et un pointeur vers la procédure de sous-classe. **SetWindowLong** retourne un pointeur vers la procédure de fenêtre d’origine ; Utilisez ce pointeur pour passer des messages à la procédure d’origine. La procédure de fenêtre de la sous-classe doit utiliser la fonction [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca) pour appeler la procédure de fenêtre d’origine.
 
 > [!Note]  
-> Pour écrire du code compatible avec les versions 32 bits et 64 bits de Windows, utilisez la fonction [**SetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra) .
+> pour écrire du code compatible avec les versions 32 bits et 64 bits de Windows, utilisez la fonction [**SetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-setwindowlongptra) .
 
  
 

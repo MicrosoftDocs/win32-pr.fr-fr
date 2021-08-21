@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fbe56fb0431ab109b1a19030ae6ba20af55492ea
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82c891e5d6646ead421eea337e5f1f182717165505db50216a44c71f24549223
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059787"
 ---
 # <a name="executiontimelimit-triggerbasetype-element"></a>Élément ExecutionTimeLimit (triggerBaseType)
 
-Spécifie la durée maximale pendant laquelle la tâche peut être démarrée par le déclencheur. Le format de cette chaîne est PnYnMnDTnHnMnS, où nY est le nombre d’années, nM est le nombre de mois, nD le nombre de jours, 't’est le séparateur de date/heure, nH est le nombre d’heures, nM est le nombre de minutes et nS est le nombre de secondes (par exemple, PT5M spécifie 5 minutes et P1M4DT2H5M spécifie un mois, quatre jours, deux heures et cinq minutes). Pour plus d’informations sur le type de durée, consultez <https://go.microsoft.com/fwlink/p/?linkid=106886> .
+Durée maximale pendant laquelle la tâche lancée par le déclencheur est autorisée à s’exécuter. Le format de cette chaîne est PnYnMnDTnHnMnS, où nY est le nombre d’années, nM est le nombre de mois, nD le nombre de jours, 't’est le séparateur de date/heure, nH est le nombre d’heures, nM est le nombre de minutes et nS est le nombre de secondes (par exemple, PT5M spécifie 5 minutes et P1M4DT2H5M spécifie un mois, quatre jours, deux heures et cinq minutes). Pour plus d’informations sur le type de durée, consultez <https://go.microsoft.com/fwlink/p/?linkid=106886> .
 
 ``` syntax
 <xs:element name="ExecutionTimeLimit"
@@ -48,7 +48,7 @@ L’élément **ExecutionTimeLimit** est défini par le type complexe [**trigger
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de scripts, la limite de durée d’exécution est spécifiée à l’aide de la propriété [**Trigger.ExecutionTimeLimit**](trigger-executiontimelimit.md) qui est héritée par tous les objets déclencheurs.
 
@@ -60,8 +60,8 @@ Pour le développement C++, le délai d’exécution est spécifié à l’aide 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

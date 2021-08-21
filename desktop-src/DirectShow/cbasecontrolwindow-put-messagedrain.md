@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f03f944a6af6ac99de6000a2507178eea510c06a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b58ac59d83023530ca6da51efc2f84ba42c4bef9ac0d3f25ad9a234a320291f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017257"
 ---
 # <a name="cbasecontrolwindowput_messagedrain-method"></a>CBaseControlWindow. put \_ MessageDrain, méthode
 
@@ -53,7 +53,7 @@ Fenêtre dans laquelle les messages doivent être publiés.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les messages envoyés au filtre de convertisseur vidéo peuvent être publiés dans une autre fenêtre. Cette fonction membre inscrit la fenêtre pour recevoir ces messages. Contrairement à la fonction membre [**CBaseControlWindow ::p ut \_ owner**](cbasecontrolwindow-put-owner.md) , cette fonction membre ne rend pas la fenêtre vidéo enfant d’une autre fenêtre. Elle est particulièrement utile pour les convertisseurs vidéo en plein écran, qui ne peuvent pas être des fenêtres enfants.
 
@@ -63,7 +63,7 @@ Les messages envoyés au filtre de convertisseur vidéo peuvent être publiés d
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

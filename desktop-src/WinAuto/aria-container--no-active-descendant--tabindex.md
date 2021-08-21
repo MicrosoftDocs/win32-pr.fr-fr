@@ -6,12 +6,12 @@ keywords:
 - AriaContainerWithoutActiveDescendantTabIndexErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a01d3391d93b7e7f146f379bcfecd629e14bce7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6eb2198b5ad28cf8a2dd1c625342fef399eefbe3f93ed5e09f4796e06d16338
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994339"
 ---
 # <a name="aria-container-role-without-active-descendant-tabindex-error"></a>Erreur TabIndex du rôle de conteneur ARIA (sans descendant actif)
 
@@ -21,7 +21,7 @@ L’élément est un conteneur pouvant être actif sans descendant actif défini
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -75,9 +75,9 @@ Pour corriger cette erreur, affectez à l’attribut **TabIndex** de l’un des 
 [Erreur de TabIndex du conteneur ARIA](aria-container-tabindex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

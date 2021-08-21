@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Modification d’une méthode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93009891deec8651599f73f14a73f83bba8ffd4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae9d780bad44ff89365041a2388fbdf01c1ddd8cc630b278ea6af7abd7ae4f2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992849"
 ---
 # <a name="modifying-a-method"></a>Modification d’une méthode
 

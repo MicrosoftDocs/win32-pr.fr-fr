@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: b41a28bcd1494fd2fd43f2af530e3eb7353ff1ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87917743dbb13076dd8303f0fffdda6abc4a6177fd0a98223c58649907c79771
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983849"
 ---
 # <a name="apigettablecolumns-method"></a>API. GetTableColumns, méthode
 
@@ -32,7 +32,7 @@ Inclure les membres hérités
 <thead>
 <tr class="header">
 <th> </th>
-<th>Nom</th>
+<th>Name</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -55,7 +55,7 @@ Haut
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

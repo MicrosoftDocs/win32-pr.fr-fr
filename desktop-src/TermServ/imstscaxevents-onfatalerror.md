@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73402ac178bcb2ac3dc03c0adda092d3b49f6ba3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 47a10315eca4fcbf96edf123699614d29a2c0b8974f563c52148b5de75310fc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000679"
 ---
 # <a name="imstscaxeventsonfatalerror-method"></a>IMsTscAxEvents :: OnFatalError, méthode
 
@@ -153,7 +153,7 @@ Erreur d’initialisation Winsock.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En réponse à cet événement, le conteneur affiche un message d’erreur et s’arrête.
 

@@ -28,7 +28,7 @@ Une fonction Effect est écrite en langage HLSL et est déclarée avec la syntax
 
 
 
-| Nom         | Description                                                                                                                                                                                                                                                          |
+| Name         | Description                                                                                                                                                                                                                                                          |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ReturnType   | Tout [type HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-variable-syntax)                                                                                                                                                                                                       |
 | FunctionName | Chaîne ASCII qui identifie de façon unique le nom de la fonction de nuanceur.                                                                                                                                                                                            |
@@ -41,7 +41,7 @@ Une fonction Effect est écrite en langage HLSL et est déclarée avec la syntax
 
 Une fonction Effect peut être un nuanceur ou il peut simplement s’agir d’une fonction appelée par un nuanceur. Une fonction est identifiée de manière unique par son nom, les types de ses paramètres et la plateforme cible ; par conséquent, les fonctions peuvent être surchargées. Toute fonction HLSL valide doit respecter ce format ; pour obtenir une liste plus détaillée de la syntaxe des fonctions HLSL, consultez [fonctions (DirectX HLSL)](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-functions).
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemples
 
 Voici un exemple de fonction de nuanceur de pixels.
 

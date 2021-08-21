@@ -3,11 +3,11 @@ title: Réalisation de l’individualisation DRM
 description: Réalisation de l’individualisation DRM
 ms.assetid: daad1a31-f0a7-43ab-b920-94b9f050a44e
 keywords:
-- SDK Windows Media format, API étendues du client DRM
+- Windows Kit de développement logiciel (SDK) Media format, API étendues clientes DRM
 - Windows Media Format SDK, API étendues du client
 - Windows Media Format SDK, API étendues
 - Windows Media Format SDK, API
-- Kit de développement logiciel (SDK) Windows Media format, gestion des droits numériques (DRM)
+- Windows Media Format SDK, gestion des droits numériques (DRM)
 - Windows Media Format SDK, individualisation DRM
 - Windows Media Format SDK, individualisation
 - gestion des droits numériques (DRM), API étendues du client
@@ -24,16 +24,16 @@ keywords:
 - API étendues clientes, individualisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d8f7f04add4ed626985651d5220e69ea713e4d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72c46d2cd6fccd2c6c1a8898a2d0215b6bc62a3655b12412192d1809021747ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027387"
 ---
 # <a name="performing-drm-individualization"></a>Réalisation de l’individualisation DRM
 
-L’individualisation est le processus qui consiste à mettre à jour le composant DRM sur l’ordinateur client, à le chiffrer et à le rendre unique. Lorsqu’un ordinateur est individualisé, le composant DRM est lié à l’ordinateur et ne peut pas décoder le contenu sur un autre ordinateur. Les API étendues du client Windows Media DRM prennent en charge l’individualisation du composant DRM sur les ordinateurs clients.
+L’individualisation est le processus qui consiste à mettre à jour le composant DRM sur l’ordinateur client, à le chiffrer et à le rendre unique. Lorsqu’un ordinateur est individualisé, le composant DRM est lié à l’ordinateur et ne peut pas décoder le contenu sur un autre ordinateur. les api étendues du client Media DRM Windows prennent en charge l’individualisation du composant drm sur les ordinateurs clients.
 
 L’individualisation est effectuée en appelant la méthode [**IWMDRMSecurity ::P erformsecurityupdate**](iwmdrmsecurity-performsecurityupdate.md) . Vous pouvez appeler **PerformSecurityUpdate** pour qu’il soit personnalisable uniquement si la version sur le serveur est plus récente que celle installée sur l’ordinateur client, ou vous pouvez forcer l’individualisation sans tenir compte des versions de sécurité relatives. L’indicateur de l’individualisation en tant que nécessaire est la \_ sécurité WMDRM \_ perform \_ indiv. L’indicateur de l’individualisation forcée est la \_ sécurité WMDRM \_ perform \_ force \_ indiv.
 
@@ -58,12 +58,12 @@ Lorsque l’individualisation est terminée, les seuls objets existants qui refl
 [**Utilisation du modèle d’événement Media Foundation**](using-the-media-foundation-model.md)
 </dt> <dt>
 
-[Meilleures pratiques pour l’individualisation DRM Windows Media](/previous-versions/ms867216(v=msdn.10))
+[Windows Meilleures pratiques pour l’individualisation DRM de média](/previous-versions/ms867216(v=msdn.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

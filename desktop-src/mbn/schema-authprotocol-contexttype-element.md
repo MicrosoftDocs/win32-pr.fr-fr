@@ -11,12 +11,12 @@ api_name:
 - AuthProtocol
 api_type:
 - Schema
-ms.openlocfilehash: 8626d17a234784491c5f186f800943a6ab208bf0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65b944b2966c9b5cac307f6f8efe6af2f42a1ffa5b4f2f400074caa0efe9f84e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975258"
 ---
 # <a name="authprotocol-contexttype-element"></a>Élément AuthProtocol (contextType)
 
@@ -68,7 +68,7 @@ L’élément **AuthProtocol** est défini par le type complexe [**ContextType**
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

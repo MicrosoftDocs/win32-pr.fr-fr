@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3bc38a0b35f46de223ed84174c3b10f5300cc94d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ef75aaf396e8677e9c470239d5dfca747729b534b67f8fef53a065280175f017
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017377"
 ---
 # <a name="cbasecontrolwindowget_visible-method"></a>CBaseControlWindow. obtient la \_ méthode visible
 
@@ -53,7 +53,7 @@ Pointeur vers un indicateur booléen Automation (0 est désactivé, 1 est activ�
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre retourne 1 si la fenêtre a le \_ style WS visible ; sinon, 0.
 
@@ -63,7 +63,7 @@ Cette fonction membre retourne 1 si la fenêtre a le \_ style WS visible ; sino
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

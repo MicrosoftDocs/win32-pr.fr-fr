@@ -15,16 +15,16 @@ keywords:
 - DRM (gestion des droits numériques), sélections avec des fichiers sécurisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 214c1dbd4ee08f90b3e5e8aa6186508af5044f29
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: f6d43cfbf3bb6e8ce4bac5cc1006fe73292988547ef2fc35289a4ced13e6f0d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "106511275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028117"
 ---
 # <a name="burning-playlists-that-contain-secure-files"></a>Gravure de playlists contenant des fichiers sécurisés
 
-Les licences créées à l’aide des objets du kit de développement logiciel (SDK) Windows Media Rights Manager 10 peuvent spécifier le droit de copier un fichier vers un CD-ROM dans le cadre d’une sélection. Cette fonctionnalité, appelée « gravure de playlist », requiert que vous vérifiiez les licences de tous les fichiers de la sélection avant de commencer à copier les données. Le kit de développement logiciel (SDK) Windows Media Format fournit l’interface [**IWMReaderPlaylistBurn**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn) pour effectuer la vérification des fichiers.
+les licences créées à l’aide des objets du kit de développement logiciel (SDK) Windows Media Rights Manager 10 peuvent spécifier le droit de copier un fichier vers un cd-rom dans le cadre d’une sélection. Cette fonctionnalité, appelée « gravure de playlist », requiert que vous vérifiiez les licences de tous les fichiers de la sélection avant de commencer à copier les données. le kit de développement logiciel (SDK) Windows Media Format fournit l’interface [**IWMReaderPlaylistBurn**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn) pour effectuer la vérification des fichiers.
 
 Pour implémenter la gravure de playlist, procédez comme suit :
 
@@ -39,7 +39,7 @@ Pour implémenter la gravure de playlist, procédez comme suit :
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -48,9 +48,9 @@ Pour implémenter la gravure de playlist, procédez comme suit :
 [**Activation de la prise en charge de DRM**](enabling-drm-support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

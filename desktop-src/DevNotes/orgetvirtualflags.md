@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 36c41bb9e510a107689790162e03e3bb86c8de1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f0e44c388b576bb514ed86f2a537cefaf1a4f0984e3e5beb1b466e88c5b82c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076053"
 ---
 # <a name="orgetvirtualflags-function"></a>ORGetVirtualFlags fonction)
 
@@ -72,11 +72,11 @@ Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur différent de zéro défini dans Winerror. h. Vous pouvez utiliser la fonction [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) avec le format \_ message \_ de l' \_ indicateur système pour obtenir une description générique de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La virtualisation du Registre est une technologie de compatibilité des applications temporaire qui permet d’effectuer des opérations d’écriture dans le Registre qui ont un impact global sur les emplacements par utilisateur. Cette redirection est transparente pour les applications qui lisent ou écrivent dans le registre.
 
-La virtualisation du Registre est prise en charge à partir de Windows Vista. Toutefois, Microsoft envisage de la supprimer des versions futures du système d’exploitation Windows à mesure que d’autres applications sont compatibles avec Windows Vista. Par conséquent, les applications ne doivent pas dépendre du comportement de la virtualisation du Registre dans le système.
+la virtualisation du registre est prise en charge à partir de Windows Vista. toutefois, Microsoft envisage de la supprimer des versions futures du système d’exploitation Windows à mesure que d’autres applications sont compatibles avec Windows Vista. Par conséquent, les applications ne doivent pas dépendre du comportement de la virtualisation du Registre dans le système.
 
 La virtualisation du Registre est activée uniquement pour les éléments suivants :
 
@@ -92,7 +92,7 @@ Pour plus d’informations, consultez [virtualisation du Registre](../sysinfo/re
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

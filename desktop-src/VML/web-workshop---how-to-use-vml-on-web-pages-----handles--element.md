@@ -18,21 +18,21 @@ keywords:
 - attacher du texte à des formes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d54c721d50f51c46cd4bf08393e85ad83307fc1d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 94d504024a3d5c42caf8af116a08e5bd8787905991f14c4181fe3a75b10f4814
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119057204"
 ---
 # <a name="using-the-handles-element"></a>Utilisation de l’élément Handles
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Dans cette rubrique, nous allons vous montrer comment utiliser l' `<handles>` élément pour attacher du texte à une forme.
 
@@ -40,7 +40,7 @@ Vous pouvez placer le `<handles>` sous-élément à l’intérieur de `<shape>` 
 
 Par exemple, comme illustré dans la représentation VML suivante, vous pouvez fournir une poignée d’ajustement (zone jaune) que les utilisateurs peuvent simplement faire glisser pour ajuster la forme.
 
-Remarque : les descripteurs sont disponibles lorsque cette forme VML est affichée dans Microsoft Office applications, où la forme est destinée à être manipulablee.
+remarque : les descripteurs sont disponibles lorsque cette forme VML est affichée dans Microsoft Office applications, où la forme est destinée à être manipulablee.
 
 ![shape1.gif (564 octets)](images/shape1h.gif)
 
@@ -98,6 +98,6 @@ path="m@0,0l@0@1,0@1,0@2@0@2@0,21600,21600,10800xe">
 
 Pour plus d’informations sur cet élément, consultez la [spécification VML](https://www.w3.org/TR/NOTE-VML#-toc416858393) .
 
- 
+ 
 
- 
+ 

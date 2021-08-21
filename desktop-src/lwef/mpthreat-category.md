@@ -4,7 +4,7 @@ description: Catégories de menaces possibles.
 ms.assetid: 478ED59E-5D3C-43B3-A89D-44A649EDD086
 keywords:
 - MPTHREAT_CATEGORY énumération des fonctionnalités d’environnement Windows héritées
-- PMPTHREAT_CATEGORY des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPTHREAT_CATEGORY de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a149ef6ce6ebadacbac6f0dd35247d793ca7000
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70cfd95de751d51be3ab4b61bc361687738422a6d31c234576e812efcd57bd4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975969"
 ---
 # <a name="mpthreat_category-enumeration"></a>\_Énumération de la catégorie MPTHREAT
 
@@ -104,7 +104,7 @@ Catégorie de menace | Description
 <span id="MP_THREAT_CATEGORY_NUKER"></span><span id="mp_threat_category_nuker"></span>Pack d’e **\_ catégorie de menace \_ \_ NUKER** | Programme malveillant conçu pour bloquer un appareil ou le rendre moins stable.
 <span id="MP_THREAT_CATEGORY_SECURITYDISABLER"></span><span id="mp_threat_category_securitydisabler"></span>Pack d’e **\_ catégorie de menace \_ \_ SECURITYDISABLER** | Programme malveillant qui désactive les paramètres de sécurité ou les produits.
 <span id="MP_THREAT_CATEGORY_JOKEPROGRAM"></span><span id="mp_threat_category_jokeprogram"></span>Pack d’e **\_ catégorie de menace \_ \_ JOKEPROGRAM** | Application conçue pour amuser ou effrayer un utilisateur, sans endommager réellement l’appareil.
-<span id="MP_THREAT_CATEGORY_HOSTILEACTIVEXCONTROL"></span><span id="mp_threat_category_hostileactivexcontrol"></span>Pack d’e **\_ catégorie de menace \_ \_ HOSTILEACTIVEXCONTROL** | Contrôle ActiveX conçu par une personne malveillante pour endommager un appareil. Un contrôle ActiveX est un type de module complémentaire de navigateur propre à Internet Explorer.
+<span id="MP_THREAT_CATEGORY_HOSTILEACTIVEXCONTROL"></span><span id="mp_threat_category_hostileactivexcontrol"></span>Pack d’e **\_ catégorie de menace \_ \_ HOSTILEACTIVEXCONTROL** | contrôle de ActiveX conçu par une personne malveillante pour nuire à un appareil. un contrôle ActiveX est un type de module complémentaire de navigateur propre à Internet Explorer.
 <span id="MP_THREAT_CATEGORY_SOFTWAREBUNDLER"></span><span id="mp_threat_category_softwarebundler"></span>Pack d’e **\_ catégorie de menace \_ \_ SOFTWAREBUNDLER** | Logiciel qui installe d’autres applications potentiellement indésirables, telles que des logiciels publicitaires ou des logiciels espions. Le contrat de licence du logiciel de regroupement peut nécessiter ces autres composants pour fonctionner.
 <span id="MP_THREAT_CATEGORY_STEALTHNOTIFIER"></span><span id="mp_threat_category_stealthnotifier"></span>Pack d’e **\_ catégorie de menace \_ \_ STEALTHNOTIFIER** | Programme malveillant qui se connecte à un serveur distant via une connexion furtive pour notifier une personne malveillante que le logiciel malveillant a été installé.
 <span id="MP_THREAT_CATEGORY_SETTINGSMODIFIER"></span><span id="mp_threat_category_settingsmodifier"></span>Pack d’e **\_ catégorie de menace \_ \_ SETTINGSMODIFIER** | Application potentiellement indésirable qui modifie les paramètres d’un utilisateur sans la connaissance ou le consentement de l’utilisateur.
@@ -127,7 +127,7 @@ Catégorie de menace | Description
 <span id="MP_THREAT_CATEGORY_VIRUS"></span><span id="mp_threat_category_virus"></span>Pack d’e **\_ \_ \_ virus de catégorie de menace** | Programme malveillant qui réplique, en général, en infectant d’autres fichiers dans le système, ce qui permet l’exécution du code de programme malveillant et sa propagation lorsque ces fichiers sont activés.
 <span id="MP_THREAT_CATEGORY_KNOWN"></span><span id="mp_threat_category_known"></span>Pack d’e **\_ catégorie de menace \_ \_ connue** | Une menace malveillante non spécifiée.
 <span id="MP_THREAT_CATEGORY_UNKNOWN"></span><span id="mp_threat_category_unknown"></span>Pack d’e **\_ catégorie de menace \_ \_ inconnue** | Une menace malveillante non spécifiée n’a pas encore été définie.
-<span id="MP_THREAT_CATEGORY_SPP"></span><span id="mp_threat_category_spp"></span>Pack d’e **\_ catégorie de menace \_ \_ spp** | Technologie anti-piratage qui requiert l’activation de chaque installation d’un produit Windows auprès de Microsoft.
+<span id="MP_THREAT_CATEGORY_SPP"></span><span id="mp_threat_category_spp"></span>Pack d’e **\_ catégorie de menace \_ \_ spp** | technologie Anti-piratage qui requiert l’activation de chaque installation d’un produit Windows avec Microsoft.
 <span id="MP_THREAT_CATEGORY_BEHAVIOR"></span><span id="mp_threat_category_behavior"></span>Pack d’e **\_ \_ \_ comportement de catégorie de menace** | Type de détection basée sur les actions de fichier qui sont souvent associées à une activité malveillante.
 <span id="MP_THREAT_CATEGORY_VULNERABILTIY"></span><span id="mp_threat_category_vulnerabiltiy"></span>Pack d’e **\_ catégorie de menace \_ \_ VULNERABILTIY** | Toute faiblesse, tout processus administratif ou toute activité qui rend un appareil vulnérable à une attaque par une menace.
 <span id="MP_THREAT_CATEGORY_POLICY"></span><span id="mp_threat_category_policy"></span>Pack d’e **\_ \_ \_ stratégie de catégorie de menace** | Ensemble de règles définies par un administrateur, qui contrôlent les fonctionnalités sur les appareils de bureau et mobiles, tels que les mises à jour logicielles.

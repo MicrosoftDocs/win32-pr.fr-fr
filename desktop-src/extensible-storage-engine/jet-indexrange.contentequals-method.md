@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8934ed14339c24348199fe50b09bbf2da3e94207
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 749697c6241a72c04c0ae4fda2f307f17451a7d95e6c229b6852cd692f780e61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980192"
 ---
 # <a name="jet_indexrangecontentequals-method"></a>JET_INDEXRANGE. Méthode ContentEquals
 
@@ -61,7 +61,7 @@ public bool ContentEquals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - other  
     Type : [Microsoft.ISAM.esent.Interop.JET_INDEXRANGE](./jet-indexrange-class.md)  
     
     Instance de à comparer à cette instance.

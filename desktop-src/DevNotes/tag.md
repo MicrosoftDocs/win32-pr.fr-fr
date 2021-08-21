@@ -4,12 +4,12 @@ ms.assetid: c092592d-a4f4-4b2f-9b03-c07951ed214a
 title: TAG (Exposeenums2managed. h)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dacbd3c8d29e1f41d7aaabc989848c561415ae4a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dfc7e4df727245ead30ecefef0cd941148b8f4c76e2881ab19f41c3388934abd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075793"
 ---
 # <a name="tag"></a>ÉTIQUETTE
 
@@ -133,7 +133,7 @@ Les entrées suivantes sont de type de **balise \_ \_ DWORD** (0x4000).
 | <span id="TAG_APP_NAME_RC_ID"></span><span id="tag_app_name_rc_id"></span><dl> <dt>**Balise \_ Nom de l’application \_ \_ \_ ID RC**</dt> <dt>( \| **type de balise 0x24 \_ \_ DWORD**)</dt> </dl>               | Attribut d’identificateur de ressource de nom d’application pour les entrées apphelp.<br/>                                   |
 | <span id="TAG_VENDOR_NAME_RC_ID"></span><span id="tag_vendor_name_rc_id"></span><dl> <dt>**Balise \_ \_Nom du \_ fournisseur \_ ID RC**</dt> <dt>( \| **type de balise 0x25 \_ \_ DWORD**)</dt> </dl>      | Attribut d’identificateur de ressource de nom de fournisseur pour les entrées apphelp.<br/>                                        |
 | <span id="TAG_SUMMARY_MSG_RC_ID"></span><span id="tag_summary_msg_rc_id"></span><dl> <dt>**Balise \_ RESUME \_ MSG \_ RC \_ ID**</dt> <dt>( \| **type de balise égale 0x26 \_ \_ DWORD**)</dt> </dl>      | Attribut d’identificateur de ressource de message résumé pour les entrées apphelp.<br/>                                    |
-| <span id="TAG_VISTA_SKU"></span><span id="tag_vista_sku"></span><dl> <dt>**Balise \_ \_SKU Vista**</dt> <dt>( \| **type de balise 0x27 \_ \_ DWORD**)</dt> </dl>                                | Attribut SKU Windows Vista.<br/>                                                                          |
+| <span id="TAG_VISTA_SKU"></span><span id="tag_vista_sku"></span><dl> <dt>**Balise \_ \_SKU Vista**</dt> <dt>( \| **type de balise 0x27 \_ \_ DWORD**)</dt> </dl>                                | Windows Attribut SKU Vista.<br/>                                                                          |
 | <span id="TAG_DESCRIPTION_RC_ID"></span><span id="tag_description_rc_id"></span><dl> <dt>**Balise \_ DESCRIPTION \_ RC \_ ID**</dt> <dt>( \| **type de balise 0x28 + \_ \_ DWORD**)</dt> </dl>       | Attribut d’identificateur de ressource de description pour les entrées apphelp.<br/>                                        |
 | <span id="TAG_PARAMETER1_RC_ID"></span><span id="tag_parameter1_rc_id"></span><dl> <dt>**Balise \_ PARAMÈTRE1 \_ RC \_ ID**</dt> <dt>( \| **type de balise 0x29 \_ \_ DWORD**)</dt> </dl>          | Attribut d’identificateur de ressource paramètre1 pour les entrées apphelp.<br/>                                         |
 | <span id="TAG_TAGID"></span><span id="tag_tagid"></span><dl> <dt>**Balise \_ TAGID**</dt> <dt>( \| **type de balise 0x801 \_ \_ DWORD**)</dt> </dl>                                            | Attribut **TagId** .<br/>                                                                                  |

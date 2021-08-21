@@ -4,12 +4,12 @@ ms.assetid: 686fb391-d337-41b4-bb51-b70f27a0c300
 title: Concepts de sécurité de COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ca5126f4b715f84c2b8801c8ec1adc29b3cbb83
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b93ac113cf4ff2b1c679936fd610c2d44f29689ff175930c6a67274002457d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047527"
 ---
 # <a name="com-security-concepts"></a>Concepts de sécurité de COM+
 
@@ -42,7 +42,7 @@ Pour obtenir une description des problèmes de sécurité et d’administration 
 
 ## <a name="client-authentication"></a>Client Authentication (Authentification du client)
 
-Avant de pouvoir autoriser les clients à accéder aux ressources, vous devez être certain qu’ils sont ceux qu’ils disent. Pour activer cette vérification d’identité, COM+ fournit des services d’authentification. Bien que ces services soient réellement fournis à un niveau plus fondamental par COM et Microsoft Windows, une application COM+ vous permet d’activer le service d’authentification de façon administrative afin qu’il fonctionne en coulisses, transparent pour l’application. Pour obtenir une description des services d’authentification, consultez [authentification du client](client-authentication.md).
+Avant de pouvoir autoriser les clients à accéder aux ressources, vous devez être certain qu’ils sont ceux qu’ils disent. Pour activer cette vérification d’identité, COM+ fournit des services d’authentification. bien que ces services soient réellement fournis à un niveau plus fondamental par COM et Microsoft Windows, une application COM+ vous permet d’activer le service d’authentification de façon administrative afin qu’il fonctionne en coulisses, transparent pour l’application. Pour obtenir une description des services d’authentification, consultez [authentification du client](client-authentication.md).
 
 ## <a name="client-impersonation-and-delegation"></a>Emprunt d’identité et délégation du client
 

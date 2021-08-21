@@ -4,16 +4,16 @@ ms.assetid: 384f0732-e0c5-4b1f-b590-195e0acf90e1
 title: Implémentation d’une barre de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acd3f2440c011267c792c79c8bc3550926c5767f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 15e86dc52f92a4800639a5dbb1659f70fbe1cfaca7cbc2f0d022df889f970ea5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015547"
 ---
 # <a name="implementing-a-seek-bar"></a>Implémentation d’une barre de recherche
 
-Cette section décrit comment implémenter une barre de recherche pour une application de lecteur multimédia. La barre de recherche est implémentée en tant que contrôle TrackBar. Pour obtenir une vue d’ensemble de la recherche dans DirectShow, consultez [recherche du graphique de filtre](seeking-the-filter-graph.md).
+Cette section décrit comment implémenter une barre de recherche pour une application de lecteur multimédia. La barre de recherche est implémentée en tant que contrôle TrackBar. pour obtenir une vue d’ensemble de la recherche dans DirectShow, consultez [recherche du Graph de filtre](seeking-the-filter-graph.md).
 
 Lorsque l’application démarre, initialisez le TrackBar :
 
@@ -33,7 +33,7 @@ void InitSlider(HWND hwnd)
 
 Le TrackBar est désactivé jusqu’à ce que l’utilisateur ouvre un fichier multimédia. La plage TrackBar est définie entre 0 et 100. Pendant la lecture du fichier, l’application calcule la position de lecture en pourcentage de la durée du fichier et met à jour la barre de TrackBar en conséquence. Par exemple, la position TrackBar « 50 » correspond toujours au milieu du fichier.
 
-Lorsque l’utilisateur ouvre un fichier, générez un graphique de lecture de fichier à l’aide de **RenderFile**. Le code correspondant est illustré dans [Comment lire un fichier](how-to-play-a-file.md). Interrogez ensuite le gestionnaire de graphe de filtre de l’interface **IMediaSeeking** et stockez le pointeur d’interface :
+Lorsque l’utilisateur ouvre un fichier, générez un graphique de lecture de fichier à l’aide de **RenderFile**. Le code correspondant est illustré dans [Comment lire un fichier](how-to-play-a-file.md). interrogez ensuite le gestionnaire de Graph de filtre de l’interface **IMediaSeeking** et stockez le pointeur d’interface :
 
 
 ```C++
@@ -65,7 +65,7 @@ if (bCanSeek)
 
 L' \_ indicateur AM recherchant \_ CanSeekAbsolute vérifie si le fichier source peut être recherché, et l’indicateur AM Seek \_ \_ CanGetDuration vérifie si la durée du fichier peut être déterminée à l’avance. Si les deux fonctions sont prises en charge, l’application active le TrackBar et récupère la durée du fichier.
 
-Si le graphique est recherché, l’application utilise un minuteur pour mettre à jour la position de la barre de déroulement lors de la lecture. Lorsque vous exécutez le graphique de filtre pour lire le fichier, démarrez l’événement du minuteur en appelant l’une des fonctions du minuteur Windows, telles que **SetTimer**. Pour plus d’informations sur les minuteries, consultez la rubrique « timers » dans le kit de développement Platform SDK.
+Si le graphique est recherché, l’application utilise un minuteur pour mettre à jour la position de la barre de déroulement lors de la lecture. lorsque vous exécutez le graphique de filtre pour lire le fichier, démarrez l’événement du minuteur en appelant l’une des fonctions de minuterie Windows, telles que **SetTimer**. Pour plus d’informations sur les minuteries, consultez la rubrique « timers » dans le kit de développement Platform SDK.
 
 
 ```C++

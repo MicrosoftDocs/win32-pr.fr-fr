@@ -1,6 +1,6 @@
 ---
 title: Méthode IWMDRMNetTransmitter SetLicenseChallenge (wmdrmsdk. h)
-description: La méthode SetLicenseChallenge traite un défi de licence envoyé par un récepteur Windows Media DRM pour les périphériques réseau.
+description: la méthode SetLicenseChallenge traite un défi de licence envoyé par une Windows Media DRM pour les périphériques réseau.
 ms.assetid: 3d4cd029-a8f5-49fc-ba8c-d8615ff94366
 keywords:
 - Méthode SetLicenseChallenge format Windows Media
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94b83ca615896039a592d147fe8c14d15493cec0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 211f8de60cddb153e157af64ee300a4bbaf327d70a1564fbd9e622008c055cb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027567"
 ---
 # <a name="iwmdrmnettransmittersetlicensechallenge-method"></a>IWMDRMNetTransmitter :: SetLicenseChallenge, méthode
 
-La méthode **SetLicenseChallenge** traite un défi de licence envoyé par un récepteur Windows Media DRM pour les périphériques réseau.
+la méthode **SetLicenseChallenge** traite un défi de licence envoyé par une Windows Media DRM pour les périphériques réseau.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -59,7 +59,7 @@ Taille de la demande de licence en octets.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -71,7 +71,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette méthode est réussie, les appels suivants aux autres méthodes de **IWMDRMNetTransmitter** utiliseront les informations du Challenge traité.
 

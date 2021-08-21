@@ -4,12 +4,12 @@ description: Propriété SRStatus
 ms.assetid: 67618a35-05e4-4bb3-b910-c75de6e32578
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a64cb6ba16bc024a52b65efa98c22fd089ad79da
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d7cc079c79b3539fa5ad90da4f45907236f19d3b841cf580142446b230ff7c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975679"
 ---
 # <a name="srstatus-property"></a>Propriété SRStatus
 
@@ -27,7 +27,7 @@ Retourne une valeur indiquant si l’entrée vocale peut être démarrée pour l
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent. ***Caractères («*** CharacterID * * * »). SRStatus**
+*agents. ***caractères («**_CharacterID_*_»). SRStatus_*
 
 
 
@@ -43,11 +43,11 @@ Retourne une valeur indiquant si l’entrée vocale peut être démarrée pour l
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété retourne les conditions nécessaires à la prise en charge de l’entrée vocale, y compris l’état du périphérique audio. Vous pouvez vérifier cette propriété avant d’appeler la méthode [**Listen**](listen-method.md) pour mieux garantir sa réussite.
 
@@ -60,9 +60,9 @@ Cette propriété s’applique uniquement à l’utilisation du caractère par v
 [**Méthode Listen**](listen-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

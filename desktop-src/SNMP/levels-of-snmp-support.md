@@ -4,12 +4,12 @@ description: L’implémentation de l’WinSNMP de Microsoft fournit la prise en
 ms.assetid: 9874ad9b-4eb9-4d63-816b-fe444c5b4d8a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92b48c930266073f10e5cb8019a7462317bd798c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa76a475ed266a7a4928a79f809b7011a537c777c89ea0a97d06983d6656a9ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009457"
 ---
 # <a name="levels-of-snmp-support"></a>Niveaux de prise en charge SNMP
 
@@ -21,9 +21,9 @@ L’implémentation retourne le niveau maximal de communications SNMP qu’il pr
 
 Si l’application WinSNMP utilise l’implémentation pour le codage et le décodage des messages SNMP uniquement, l’application doit effectuer les transformations requises que l’implémentation aurait effectué. Cela comprend la traduction des interruptions SNMPv1 retournées par un appel à la fonction [**SnmpRecvMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg) , vers des interruptions SNMPv2c. Il comprend également la conversion des types de PDU définis par SNMPv1 vers le type de PDU approprié défini par SNMPv2C, conformément à la norme RFC 1908.
 
- 
+ 
 
- 
+ 
 
 
 

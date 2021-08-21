@@ -4,12 +4,12 @@ ms.assetid: b0a94760-b4dd-4e50-a5ce-a1f674dde156
 title: Gestion des modifications de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2adf3cbc0504a37fe611b77047c73f85b9d1e742
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e238073bf518bc875b7b2d536c758eab48c8502278aae6780999c7616430337e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974428"
 ---
 # <a name="handling-stream-changes"></a>Gestion des modifications de flux
 

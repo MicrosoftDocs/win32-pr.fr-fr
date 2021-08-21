@@ -1,4 +1,4 @@
-- name: Outil d’évaluation système Windows
+- name: Windows Outil d’évaluation du système
   href: windows-system-assessment-tool-portal.md
   items:
     - name: Utilisation de WinSAT

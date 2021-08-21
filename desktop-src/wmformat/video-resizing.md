@@ -12,12 +12,12 @@ keywords:
 - redimensionnement vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b200496b1dead3abacfbfad7674519e0cf7ce4f7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7a3261b5b78b386a0589e2e5554b52793d478f052765cb9caa63cf7e399d90e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027187"
 ---
 # <a name="video-resizing"></a>Redimensionnement vidéo
 
@@ -27,7 +27,7 @@ La taille de l’image vidéo peut être considérée comme allant jusqu’à tr
 
 La taille de la vidéo d’entrée correspond à la taille des frames que vous transmettez comme exemples à l’objet enregistreur. Vous définissez cette taille comme l’une des propriétés d’entrée vidéo requises. Pour plus d’informations sur les propriétés d’entrée, consultez [pour énumérer les formats d’entrée](to-enumerate-input-formats.md).
 
-La taille vidéo de la diffusion en continu correspond à la taille des frames dans la section des données du fichier ASF. Vous définissez cette taille en tant qu’un des paramètres de configuration de flux requis dans le profil. Si vous écrivez un fichier et que la taille de la vidéo d’entrée est différente de la taille de la vidéo du flux, l’enregistreur redimensionne les frames pendant l’encodage. Pour plus d’informations sur les propriétés du flux vidéo, consultez [Configuration des flux vidéo](configuring-video-streams.md).
+La taille vidéo de la diffusion en continu correspond à la taille des frames dans la section des données du fichier ASF. Vous définissez cette taille en tant qu’un des paramètres de configuration de flux requis dans le profil. Si vous écrivez un fichier et que la taille de la vidéo d’entrée est différente de la taille de la vidéo du flux, l’enregistreur redimensionne les frames pendant l’encodage. Pour plus d’informations sur les propriétés du flux vidéo, consultez Configuration de la [vidéo flux](configuring-video-streams.md).
 
 La taille de la vidéo de sortie est la taille des trames fournies par le lecteur ou le lecteur synchrone. Vous définissez cette taille comme l’une des propriétés de sortie vidéo requises. Si vous lisez un fichier et que la taille de la vidéo de sortie est différente de celle de la vidéo de diffusion en continu, le lecteur redimensionne les frames lors du décodage.
 
@@ -35,7 +35,7 @@ Vous ne pouvez pas définir une taille vidéo de flux sur un nombre impair de pi
 
 Vous devez veiller à redimensionner la vidéo. Les images ont tendance à être plus adaptées à leur résolution d’origine. Le redimensionnement des images peut souvent provoquer une distorsion et rendre le texte illisible. Si vous compressez la vidéo à une vitesse de transmission faible, vous constaterez également que les distorsions de redimensionnement peuvent entraîner des artefacts de compression graves.
 
-Le codec d’écran Windows Media Video 9 ne prend pas en charge le redimensionnement.
+le codec d’écran Windows Media Video 9 ne prend pas en charge le redimensionnement.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -50,9 +50,9 @@ Le codec d’écran Windows Media Video 9 ne prend pas en charge le redimensionn
 [**Utilisation des sorties**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

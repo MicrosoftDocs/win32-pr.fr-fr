@@ -1,19 +1,19 @@
 ---
-title: Fonctions de méthode de l’authentificateur EAPHost
-description: En savoir plus sur les fonctions d’API de méthode d’authentificateur EAPHost, telles que EapMethodAuthenticatorFreeErrorMemory.
+title: fonctions de la méthode Authenticator EAPHost
+description: en savoir plus sur EAPHost Authenticator fonctions API de méthode, telles que EapMethodAuthenticatorFreeErrorMemory.
 ms.assetid: 319516ee-b21d-4375-8c90-e3abe0a457e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93fac5114085fe6c620084d564bbff97cc3b4535
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 1f3cc21d636c2a1b107897c3b000fca3f279288e13c14d1219f5b13515c2e8a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106512340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984269"
 ---
-# <a name="eaphost-authenticator-method-functions"></a>Fonctions de méthode de l’authentificateur EAPHost
+# <a name="eaphost-authenticator-method-functions"></a>fonctions de la méthode Authenticator EAPHost
 
-Les fonctions de l’API de la méthode d’authentificateur EAPHost sont les suivantes.
+les fonctions de l’API de méthode Authenticator EAPHost sont les suivantes.
 
 
 
@@ -35,11 +35,11 @@ Les fonctions de l’API de la méthode d’authentificateur EAPHost sont les su
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

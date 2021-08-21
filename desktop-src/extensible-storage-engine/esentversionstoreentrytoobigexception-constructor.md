@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f6f581f3c80937bbd5da9c08c5f1b2200c25612b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d94f1cba1c01109d42597abb8a0658a6e1e4279e101c28e12dc3f2f0e2ef39eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980829"
 ---
 # <a name="esentversionstoreentrytoobigexception-constructor"></a>Constructeur EsentVersionStoreEntryTooBigException
 

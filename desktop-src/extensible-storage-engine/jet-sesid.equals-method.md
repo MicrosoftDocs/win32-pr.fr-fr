@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 37cadf72e6db0ed5c14c7509b48c10245d09ddff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2144af19ae817a6274e51ec85ea829b1b778fb7b88bbc6421c26aea247353c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979459"
 ---
 # <a name="jet_sesidequals-method"></a>JET_SESID. Equals (méthode)
 
@@ -32,7 +32,7 @@ Inclure les membres hérités
 <thead>
 <tr class="header">
 <th> </th>
-<th>Nom</th>
+<th>Name</th>
 <th>Description</th>
 </tr>
 </thead>

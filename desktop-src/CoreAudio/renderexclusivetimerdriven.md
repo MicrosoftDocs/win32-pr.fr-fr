@@ -4,12 +4,12 @@ ms.assetid: 9dcfccd2-a709-4b4e-bbb3-4c68a15cce03
 title: RenderExclusiveTimerDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb6145f65de3de9425f7ba2f023a669ec0b57a3c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6876c448aa7737683aff4e495416020af7def54cb01109c3d6ad2d1c26d20780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077443"
 ---
 # <a name="renderexclusivetimerdriven"></a>RenderExclusiveTimerDriven
 
@@ -18,7 +18,7 @@ Cet exemple d’application utilise les API audio de base pour afficher les donn
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Afficher les fichiers d’exemple](#view-the-sample-files)
@@ -52,7 +52,7 @@ Cet exemple est disponible aux emplacements suivants.
 
 | Emplacement    | Chemin d’accès/URL                                                                                                    |
 |-------------|-------------------------------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ exemples \\ multimédia \\ audio \\ RenderExclusiveTimerDriven \\ ... |
+| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ \\ Audio Multimedia \\ RenderExclusiveTimerDriven \\ ... |
 
 
 
@@ -62,9 +62,9 @@ Cet exemple est disponible aux emplacements suivants.
 
 Pour générer l’exemple RenderExclusiveTimerDriven, procédez comme suit :
 
-1.  Ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple RenderExclusiveTimerDriven.
-2.  Exécutez la commande `start WASAPIRenderExclusiveTimerDriven.sln` dans le répertoire RenderExclusiveTimerDriven pour ouvrir le projet WASAPIRenderExclusiveTimerDriven dans la fenêtre Visual Studio.
-3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . Si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (SDK), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (SDK). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPIRenderExclusiveTimerDriven. vcproj.
+1.  ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple RenderExclusiveTimerDriven.
+2.  exécutez la commande `start WASAPIRenderExclusiveTimerDriven.sln` dans le répertoire RenderExclusiveTimerDriven pour ouvrir le projet WASAPIRenderExclusiveTimerDriven dans la fenêtre Visual Studio.
+3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (sdk), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (sdk). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPIRenderExclusiveTimerDriven. vcproj.
 
 ## <a name="view-the-sample-files"></a>Afficher les fichiers d’exemple
 

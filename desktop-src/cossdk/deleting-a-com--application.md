@@ -4,12 +4,12 @@ ms.assetid: 5cce94c9-8eff-40b9-946d-a57749da073d
 title: Suppression d’une application COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da685e5a7ae7590fcc247caa765d49dc34d076e9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d8332cd59ecde4115daa43ea97bc87d4354338e3ea94073317bfa293102deb78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047507"
 ---
 # <a name="deleting-a-com-application"></a>Suppression d’une application COM+
 
@@ -29,9 +29,9 @@ ms.locfileid: "104393131"
 
 6.  Cliquez sur **Oui** lorsque vous êtes invité à confirmer votre action.
 
-En outre, si une application serveur ou un proxy d’application a été installé sur un ordinateur à l’aide de Windows Installer (comme décrit dans la section « installation d’applications COM+ » du Guide d’administration des services de composants), vous pouvez la supprimer via l’utilitaire ajout/suppression de programmes du panneau de configuration de Microsoft Windows. Ou vous pouvez supprimer une application serveur installée ou un proxy d’application à l’aide de la syntaxe de ligne de commande Windows Installer :
+en outre, si une application serveur ou un proxy d’application a été installé sur un ordinateur à l’aide de Windows Installer (comme décrit dans la section « installation d’Applications COM+ » du Guide d’Administration des Services de composants), vous pouvez la supprimer via l’utilitaire ajout/suppression de programmes du panneau de configuration de Microsoft Windows. ou vous pouvez supprimer une application serveur installée ou un proxy d’application à l’aide de la syntaxe de ligne de commande Windows Installer :
 
-nom de l’application **msiexec-x** *\_ * *. msi**
+nom de l’application **msiexec-x** *\_ * * * .msi**
 
 Ces méthodes sont particulièrement utiles pour supprimer des applications COM+ sur des ordinateurs clients qui n’exécutent pas l’outil d’administration Services de composants.
 

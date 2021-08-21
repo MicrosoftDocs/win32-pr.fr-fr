@@ -6,12 +6,12 @@ keywords:
 - Microsoft Agent, bibliographie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 538767cceb9c963fcdd0d67f8f68f00734eb5b89
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9082efe04d4b788ff18d6eecae331e8d70a682fc2f4ab6e81af3564348b8ef8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976729"
 ---
 # <a name="bibliography"></a>Bibliographie
 
@@ -19,7 +19,7 @@ ms.locfileid: "104028940"
 
 Axtell, R. *gestes : le fait et taboos du langage du corps partout dans le monde*. New York : John Wiley & fils, 1998.
 
-Balle, G. et al. "caractères d’ordinateur de type vie : le projet Persona chez Microsoft Research". *Agents logiciels.* Ed. Jeff Bradshaw. Cambridge, MA : MIT Press, 1996.
+balle, G. et al. "caractères d’ordinateur de type vie : le personnage Project chez Microsoft Research." *Agents logiciels.* Ed. Jeff Bradshaw. Cambridge, MA : MIT Press, 1996.
 
 Bates, J. « la nature des caractères dans les mondes interactifs et le oz ». *Rapport technique CMU-CS-92-200*. School of Computer Science, Carnegie Mellon University. Pittsburgh, PA. 1992 octobre.
 
@@ -75,11 +75,11 @@ Yankelovich, N., Levow, G. et Marx, M. « conception de discours : problèmes 
 
 Yankelovich, N. « Comment les utilisateurs savent-ils quoi dire ? » *Interactions*, vol. III. 6. 32-43. Du 1996 au 31 novembre.
 
-*Instructions relatives à l’interface Windows pour la conception de logiciels.* Redmond, WA : Microsoft Press, 1995.
+*les instructions d’Interface Windows pour la conception de logiciels.* Redmond, WA : Microsoft Press, 1995.
 
- 
+ 
 
- 
+ 
 
 
 

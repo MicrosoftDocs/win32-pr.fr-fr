@@ -4,12 +4,12 @@ description: L’application WinSNMP doit s’inscrire pour recevoir des interru
 ms.assetid: 2bccba35-bf5c-4e5c-94e4-59980f2b9776
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51e3a2d9fed1f7c34dd8191550d1dbc68ed984e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 402a768aa28efb6f2fdc18994d749cfca2f2c412f748f853fb76fcd7fe3e41d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009377"
 ---
 # <a name="managing-traps-and-notifications"></a>Gestion des interruptions et des notifications
 
@@ -29,9 +29,9 @@ Pour récupérer des données d’interruption et des notifications en attente p
 
 Pour plus d’informations, consultez [envoi de messages SNMP](sending-snmp-messages.md) et [réception de messages SNMP](receiving-snmp-messages.md). Pour plus d’informations sur l’allocation et la désallocation des ressources pour les interruptions et les notifications, consultez [allocation d’objets mémoire WinSNMP](allocating-winsnmp-memory-objects.md).
 
- 
+ 
 
- 
+ 
 
 
 

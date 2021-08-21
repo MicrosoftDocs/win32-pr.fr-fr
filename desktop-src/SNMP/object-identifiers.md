@@ -4,12 +4,12 @@ description: Un identificateur d’objet SNMP désigne un objet de manière uniq
 ms.assetid: b4552185-ef37-4e04-9b19-a226165e0b32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ed1f54f67b85000e508dddb42b9c784628a53ab
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1b81d52e43cb3be89551dd597bc5084d533f3913264f8bcf5c0a2ef7dbb375bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009257"
 ---
 # <a name="object-identifiers-snmp"></a>Identificateurs d’objets (SNMP)
 
