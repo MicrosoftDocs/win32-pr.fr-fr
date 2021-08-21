@@ -4,19 +4,19 @@ description: La nouvelle API permet aux applications d’envoyer \ 0034 ; TRIM 
 ms.assetid: DDBC3592-BD4D-4826-83FE-387564DA07E8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e043c1188bda790b4ed151e8a79e1f7b4c6f0f9
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 78d79d47dceb5c8bf2e7575836c9a40ddf0347b7e5c616ab4b7196b547742c97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "106511518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028827"
 ---
 # <a name="new-api-allows-apps-to-send-trim-and-unmap-hints-to-storage-media"></a>La nouvelle API permet aux applications d’envoyer des indicateurs « supprimer et annuler le mappage » sur des supports de stockage
 
 ## <a name="platforms"></a>Plateformes
 
 **Clients** – Windows 8  
-**Serveurs** – Windows Server 2012  
+**serveurs** – Windows Server 2012  
 
 
 ## <a name="description"></a>Description
@@ -25,11 +25,11 @@ Les indicateurs de découpage informent le lecteur que certains secteurs qui ont
 
 **Qu’est-ce que TRIM ?**
 
-Les disques SSD (Solid State Drives) sont généralement des appareils avec effacement de blocs basés sur la mémoire flash ; Cela signifie que lorsque les données sont écrites dans le SSD, elles ne peuvent pas être remplacées et doivent être écrites ailleurs jusqu’à ce que le bloc puisse être récupéré par le garbage collector. Étant donné que le SSD n’a pas de mécanisme interne pour déterminer que certains blocs sont supprimés et que d’autres sont nécessaires. La seule fois où le SSD peut marquer un « impropre » de secteur est lorsqu’il est trop écrit. Dans d’autres cas, par exemple lors de la suppression d’un fichier, le disque SSD conserve ces secteurs, car la suppression est effectuée en tant que modification de table de fichiers maîtres (MFT) uniquement, et non en tant qu’opération à tous les secteurs du fichier. Dans Windows 7, nous avons introduit une méthode standard de communication avec les disques SSD à propos des secteurs qui ne sont plus nécessaires. Cette commande est définie dans la [spécification T13](https://www.t13.org/Standards/Default.aspx?DocumentType=3) comme commande Trim ; NTFS envoie la commande TRIM pour certaines opérations Inline normales, telles que « DeleteFile ».
+Les disques SSD (Solid State Drives) sont généralement des appareils avec effacement de blocs basés sur la mémoire flash ; Cela signifie que lorsque les données sont écrites dans le SSD, elles ne peuvent pas être remplacées et doivent être écrites ailleurs jusqu’à ce que le bloc puisse être récupéré par le garbage collector. Étant donné que le SSD n’a pas de mécanisme interne pour déterminer que certains blocs sont supprimés et que d’autres sont nécessaires. La seule fois où le SSD peut marquer un « impropre » de secteur est lorsqu’il est trop écrit. Dans d’autres cas, par exemple lors de la suppression d’un fichier, le disque SSD conserve ces secteurs, car la suppression est effectuée en tant que modification de table de fichiers maîtres (MFT) uniquement, et non en tant qu’opération à tous les secteurs du fichier. dans Windows 7, nous avons introduit une méthode standard de communication avec les disques ssd à propos des secteurs qui ne sont plus nécessaires. Cette commande est définie dans la [spécification T13](https://www.t13.org/Standards/Default.aspx?DocumentType=3) comme commande Trim ; NTFS envoie la commande TRIM pour certaines opérations Inline normales, telles que « DeleteFile ».
 
 **Autres utilisations du découpage dans le monde du stockage**
 
-Comme les disques SSD, les réseaux de zone de stockage (San) et les nouvelles mises en œuvre de l’espace logiciel de la fonctionnalité Windows 8 consomment les indicateurs de commande TRIM pour gérer leurs espaces dans les environnements alloués dynamiquement. Les espaces San et logiciels allouent des régions de stockage dans des tailles supérieures à celles des secteurs ou des clusters (n’importe où entre 1 Mo et 1 Go). Lorsqu’ils reçoivent des indicateurs de découpage pour la taille d’allocation (ou supérieur à la taille d’allocation), le SAN/SSD peut désallouer une région pour libérer de l’espace pour d’autres fichiers. Ils transmettent généralement tous les indicateurs de découpage au média sous-jacent (SSD ou HDD) afin qu’ils puissent consommer l’espace libéré comme il convient. Elles ne déplacent généralement pas les données dans les régions de désallocation, ni n’effectuent le suivi des zones de découpage dans les zones désallouées (lorsque la région est vide).
+comme les disques ssd, les réseaux de zone de stockage (san) et le nouveau Windows 8 les implémentations d’espaces logiciels consomment les indicateurs de commande TRIM pour gérer leurs espaces dans les environnements alloués dynamiquement. Les espaces San et logiciels allouent des régions de stockage dans des tailles supérieures à celles des secteurs ou des clusters (n’importe où entre 1 Mo et 1 Go). Lorsqu’ils reçoivent des indicateurs de découpage pour la taille d’allocation (ou supérieur à la taille d’allocation), le SAN/SSD peut désallouer une région pour libérer de l’espace pour d’autres fichiers. Ils transmettent généralement tous les indicateurs de découpage au média sous-jacent (SSD ou HDD) afin qu’ils puissent consommer l’espace libéré comme il convient. Elles ne déplacent généralement pas les données dans les régions de désallocation, ni n’effectuent le suivi des zones de découpage dans les zones désallouées (lorsque la région est vide).
 
 Les réseaux San alloués dynamiquement utilisent les indicateurs de découpage qui leur sont transmis pour réduire l’encombrement de stockage physique global, réduisant ainsi les coûts. La [spécification SCSI de T10](https://www.t10.org) définit la commande’Annuler' (semblable à la commande Trim). ici, la commande s’applique à tous les types de stockage, y compris les disques durs, les disques SSD et d’autres. La commande de mappage permet de supprimer des blocs physiques de l’allocation du SAN.
 
@@ -85,7 +85,7 @@ Le disque dur virtuel est initialement monté sur le média non utilisé « Cle
 
 Le disque dur virtuel est initialement monté sur une plaque minimale d’un environnement dynamiquement approvisionné. Au fur et à mesure que les fichiers sont stockés dans le disque dur virtuel, l’encombrement de stockage du disque dur virtuel augmente en multiples de tablettes. Lorsque des fichiers sont supprimés du disque dur virtuel, Hyper-V appelle la \_ Suppression de fichiers sur le réseau San sous-jacent alloué dynamiquement. Si les SUPPRESSIONs sont supérieures à la granularité de la dalle, le réseau SAN peut maintenant supprimer une dalle et, par conséquent, réduire l’encombrement du disque dur virtuel sur ce réseau SAN.
 
-Si le disque dur virtuel réside sur un serveur Windows 8, l’optimiseur de stockage enverra également des découpages pour réduire l’encombrement des dalles du disque dur virtuel à partir du disque dur virtuel monté.
+si le disque dur virtuel réside sur un serveur Windows 8, l’optimiseur de Stockage enverra également des découpages pour réduire l’encombrement des dalles du disque dur virtuel à partir du disque dur virtuel monté.
 
 ## <a name="tests"></a>Tests
 
@@ -96,9 +96,9 @@ Il n’existe pas d’API comparables dans les versions antérieures du système
 -   [Spécification T13](http://www.t13.org/Standards/Default.aspx?DocumentType=3)
 -   [Spécification SCSI de T10](https://www.t10.org/)
 
- 
+ 
 
- 
+ 
 
 
 

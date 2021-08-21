@@ -4,16 +4,16 @@ ms.assetid: df8985f4-8153-4f32-a90c-a5eb7c76b3c7
 title: 'ITAudioDeviceControl :: GetRange, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cbf5bf36d4ec754440e1612f2e228c495d165c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87779131dea5bb01a1575074e4f019dbfa2a62addebf5b91a7eee6e9cc041710
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003447"
 ---
 # <a name="itaudiodevicecontrolgetrange-method"></a>ITAudioDeviceControl :: GetRange, méthode
 
-\[ Cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **GetRange** récupère la plage de valeurs valides pour une [**propriété de périphérique audio**](audiodeviceproperty.md)donnée.
 

@@ -4,16 +4,16 @@ ms.assetid: fb0f0324-d72e-4759-9f4d-deedf8848e21
 title: À propos des capteurs logiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be6f8687575aaedbb006eb2ad6ebaad9cf8d3ab6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 655bb7a6e67223bb959b155e55f6cc059ffd8280bc8c08fb00d4d88cb2c8b0a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003890"
 ---
 # <a name="about-logical-sensors"></a>À propos des capteurs logiques
 
-Les *capteurs logiques* fournissent des données sans dépendre des périphériques matériels. Par exemple, un capteur logique peut fournir des données sur l’emplacement actuel de l’utilisateur à l’aide d’un service qui recherche une adresse IP dans une table. Les capteurs logiques sont implémentés en tant que pilotes de capteur. Pour plus d’informations sur la façon d’implémenter un pilote de capteur, consultez le kit de pilotes Windows.
+Les *capteurs logiques* fournissent des données sans dépendre des périphériques matériels. Par exemple, un capteur logique peut fournir des données sur l’emplacement actuel de l’utilisateur à l’aide d’un service qui recherche une adresse IP dans une table. Les capteurs logiques sont implémentés en tant que pilotes de capteur. pour plus d’informations sur la façon d’implémenter un pilote de capteur, consultez le Kit de pilotes Windows.
 
 Une fois qu’un capteur logique est installé sur l’ordinateur de l’utilisateur, vous pouvez l’utiliser de la même façon qu’un capteur basé sur le matériel. L’API de capteur fournit une interface [**ISensor**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor) pour représenter le capteur logique, et votre programme peut demander des données à l’aide des mêmes mécanismes que ceux que vous utiliseriez pour n’importe quel autre type de capteur. Les capteurs logiques peuvent également utiliser les catégories, les types de données, les types de données, les propriétés et les événements de capteur définis par la plateforme. Ou vous pouvez définir des valeurs personnalisées.
 
@@ -30,15 +30,15 @@ Pour essayer d’utiliser un exemple de capteur logique, consultez [à propos de
 
 [**ILogicalSensorManager**](/previous-versions/windows/desktop/legacy/dd318934(v=vs.85)) présente les méthodes suivantes :
 
--   [**Se connecter**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85))
+-   [**Connecter**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85))
 -   [**Déconnecter**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85))
--   [**Désinstaller l’interface**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85))
+-   [**Supprimer**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85))
 
-Lorsque vous appelez [**Connect**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85)), l’API de capteur crée une instance du pilote de capteur, s’il n’en existe pas déjà une, puis connecte le capteur logique à la plateforme. Cela signifie que le capteur logique apparaît avec d’autres capteurs dans le panneau de configuration **emplacement et autres capteurs** . Lorsque vous appelez [**Disconnect**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85)), l’API Sensor déconnecte le capteur logique et le supprime du panneau de configuration. L’appel de **Disconnect** ne supprime pas le capteur logique de **Gestionnaire de périphériques**. Par conséquent, les appels futurs à **Connect** entraînent une connexion beaucoup plus rapide au capteur logique.
+lorsque vous appelez [**Connecter**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85)), l’API de capteur crée une instance du pilote de capteur, si elle n’existe pas déjà, puis connecte le capteur logique à la plateforme. Cela signifie que le capteur logique apparaît avec d’autres capteurs dans le panneau de configuration **emplacement et autres capteurs** . Lorsque vous appelez [**Disconnect**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85)), l’API Sensor déconnecte le capteur logique et le supprime du panneau de configuration. L’appel de **Disconnect** ne supprime pas le capteur logique de **Gestionnaire de périphériques**. par conséquent, les appels futurs à **Connecter** entraînent une connexion beaucoup plus rapide au capteur logique.
 
 Pour supprimer un capteur logique, vous devez appeler [**Uninstall**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85)). La désinstallation d’un capteur logique supprime le capteur de **Gestionnaire de périphériques**. Étant donné que les périphériques de capteur logique existent uniquement en mémoire, un capteur logique est désinstallé lorsque l’utilisateur redémarre Windows.
 
-L’API de capteur identifie un capteur logique particulier par son *ID logique*, qui est un **GUID**. Chaque fois que vous vous connectez à un capteur logique particulier, vous devez fournir un ID logique. Chaque fois que vous déconnectez ou désinstallez un capteur particulier, vous devez fournir le même ID logique que celui que vous avez utilisé pour vous connecter. Si vous vous connectez plusieurs fois au même pilote de capteur logique en utilisant différents ID logiques, vous allez créer une instance distincte du capteur logique pour chaque nouvel ID logique. Même si vous appelez [**Disconnect**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85)) pour chaque ID logique, ces instances distinctes resteront dans **Gestionnaire de périphériques** jusqu’à ce que vous appeliez [**Uninstall**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85)) pour chaque capteur logique, ou que l’utilisateur redémarre Windows.
+L’API de capteur identifie un capteur logique particulier par son *ID logique*, qui est un **GUID**. Chaque fois que vous vous connectez à un capteur logique particulier, vous devez fournir un ID logique. Chaque fois que vous déconnectez ou désinstallez un capteur particulier, vous devez fournir le même ID logique que celui que vous avez utilisé pour vous connecter. Si vous vous connectez plusieurs fois au même pilote de capteur logique en utilisant différents ID logiques, vous allez créer une instance distincte du capteur logique pour chaque nouvel ID logique. Même si vous appelez [**Disconnect**](/previous-versions/windows/desktop/legacy/dd374030(v=vs.85)) pour chaque ID logique, ces instances sont conservées dans **Gestionnaire de périphériques** jusqu’à ce que vous appeliez [**Uninstall**](/previous-versions/windows/desktop/legacy/dd374031(v=vs.85)) pour chaque capteur logique, ou que l’utilisateur redémarre Windows.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7ba0833534d21e48c251da6491fee2996c3ed9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff31d347e0ab6bedce29898c40451976e3a38990adebc7ae2396878bf726ce1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061821"
 ---
 # <a name="glcopypixels-function"></a>glCopyPixels fonction)
 
@@ -146,7 +146,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glCopyPixels** copie un rectangle de pixels aligné à l’écran, de l’emplacement trame spécifié vers une région relative à la position raster actuelle. Son fonctionnement est bien défini uniquement si la région source de pixel entière se trouve dans la partie exposée de la fenêtre. Les résultats des copies en dehors de la fenêtre, ou à partir des régions de la fenêtre qui ne sont pas exposées, sont dépendants du matériel et non définis.
 

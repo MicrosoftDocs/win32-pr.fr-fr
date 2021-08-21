@@ -4,12 +4,12 @@ description: Implémentation du décompte de références
 ms.assetid: d4fd98c9-afa4-4c5c-a3c9-44d34881cbdb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0d4dfe2b0faf2fc6557d1b089e33ae6ce4b98cb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: efa2a3e9827d35d07fa88b62c6f1097fcb3ad3ae3b5b75764deeac1c9c271050
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106509685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048157"
 ---
 # <a name="implementing-reference-counting"></a>Implémentation du décompte de références
 
@@ -33,6 +33,6 @@ La sécurité des threads est également un problème important dans l’implém
 [Gestion des durées de vie des objets via le décompte de références](managing-object-lifetimes-through-reference-counting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

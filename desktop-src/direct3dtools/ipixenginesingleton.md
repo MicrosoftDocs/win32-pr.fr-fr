@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 439f1e4461308076d2e349bf1bc2638db6754fe5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4271a0b70e9468a816302b8c78e3d59f7388a3e8c2ef9973c3082500da6ea2d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985949"
 ---
 # <a name="span-idvspixengineipixenginesingletonspanipixenginesingleton-interface"></a><span id="vspixengine.ipixenginesingleton"></span>Interface IPixEngineSingleton
 

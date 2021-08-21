@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 20c7ff5d2a171228223d52db28d3bae6007068c5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 805ffe89b1f9d14ca70da0a8121353e6bf766b8b6e433441350d1b55c4531415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119953"
 ---
 # <a name="shader-model-4-assembly"></a>Assembly modèle 4 du nuanceur
 
-Le modèle de nuanceur 4 vous oblige à programmer des nuanceurs en HLSL. Toutefois, le compilateur du nuanceur compile le code HLSL dans un assembly qui s’exécute sur l’appareil. Si vous utilisez PIX pour Windows pour déboguer vos nuanceurs, vous pouvez choisir d’afficher le code du nuanceur en HLSL ou en assembly. Cette section répertorie les instructions de l’assembly Shader Model 4 et Shader Model 4,1 que vous pouvez rencontrer lors du débogage d’un nuanceur.
+Le modèle de nuanceur 4 vous oblige à programmer des nuanceurs en HLSL. Toutefois, le compilateur du nuanceur compile le code HLSL dans un assembly qui s’exécute sur l’appareil. si vous utilisez PIX pour Windows pour déboguer vos nuanceurs, vous pouvez choisir d’afficher le code du nuanceur en HLSL ou en assembly. Cette section répertorie les instructions de l’assembly Shader Model 4 et Shader Model 4,1 que vous pouvez rencontrer lors du débogage d’un nuanceur.
 
 <dl>
 
@@ -87,7 +87,7 @@ Le modèle de nuanceur 4 vous oblige à programmer des nuanceurs en HLSL. Toutef
 [label](label--sm4---asm-.md)  
 [ld](ld--sm4---asm-.md)  
 [Sign](log--sm4---asm-.md)  
-[loop](loop--sm4---asm-.md)  
+[circuit](loop--sm4---asm-.md)  
 [lt](lt--sm4---asm-.md)  
 [Mad](mad--sm4---asm-.md)  
 [max](max--sm4---asm-.md)  
@@ -151,9 +151,9 @@ Le modèle de nuanceur 4,1 prend en charge toutes les instructions du Shader Mod
 [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

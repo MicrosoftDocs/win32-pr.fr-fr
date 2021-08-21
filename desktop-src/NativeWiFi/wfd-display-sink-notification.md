@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wfdsink.h
-ms.openlocfilehash: d4c2a15bbe6ef0df62fc0d607c97ecb3a2b54ec6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96d78be4942b9b1313f5b3f1f35aca0b2f3441e2c05a2c376092f01cbaf36c29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064909"
 ---
 # <a name="wfd_display_sink_notification-structure"></a>\_Structure de \_ notification du récepteur d’affichage WFD \_
 
@@ -179,14 +179,14 @@ Port RTSP.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Wfdsink. h</dt> </dl> |
 
 

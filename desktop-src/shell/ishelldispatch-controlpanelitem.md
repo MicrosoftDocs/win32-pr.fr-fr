@@ -13,19 +13,19 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
-ms.openlocfilehash: 1a1c024b316472be00f119485326b704a4fe8dd0
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 89ea8431df7e8cac09a041bd9a16c805633cd3ec82a2cc506cb30fcf0f0cd39b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032257"
 ---
 # <a name="ishelldispatchcontrolpanelitem-method"></a>Méthode IShellDispatch. ControlPanelItem
 
 Exécute l’application du panneau de configuration spécifiée. Si l’application est déjà ouverte, elle activera l’instance en cours d’exécution.
 
 > [!Note]  
-> À compter de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :
+> à partir de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :
 >
 > ``` syntax
 > control.exe /name Microsoft.Personalization
@@ -67,7 +67,7 @@ Nom de fichier de l’application du panneau de configuration.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -77,15 +77,15 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ControlPanelItem**](shell-controlpanelitem.md) .
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants utilisent [**ControlPanelItem**](shell-controlpanelitem.md) pour exécuter l’élément des **propriétés d’affichage** du panneau de configuration. L’utilisation est indiquée pour JScript, VBScript et Visual Basic.
+Les exemples suivants utilisent [**ControlPanelItem**](shell-controlpanelitem.md) pour exécuter l’élément des **propriétés d’affichage** du panneau de configuration. l’utilisation est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -135,13 +135,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

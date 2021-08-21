@@ -1,20 +1,20 @@
 ---
-description: Le fournisseur Windows Driver Model (WDM) accorde l’accès aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au modèle WDM.
+description: le fournisseur Windows Driver Model (WDM) accorde l’accès aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au modèle WDM.
 ms.assetid: 8686a613-0e53-4e6e-b193-7839abfb70de
 ms.tgt_platform: multiple
 title: Accès aux données à partir des pilotes de périphérique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72a59b59116ca0f71178fb2faed290d6bc76c9d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82bec478f83ddbc6d58419710fb868ddd233f820a06004210c1dac495de86b16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131912"
 ---
 # <a name="accessing-data-from-device-drivers"></a>Accès aux données à partir des pilotes de périphérique
 
-Le fournisseur Windows Driver Model (WDM) accorde l’accès aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au modèle WDM. Les classes pour les pilotes de matériel résident dans l' \\ \\ \\ espace de noms WMI racine.
+le fournisseur Windows Driver Model (WDM) accorde l’accès aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au modèle WDM. Les classes pour les pilotes de matériel résident dans l' \\ \\ \\ espace de noms WMI racine.
 
 Le fournisseur WDM présente un intérêt pour ceux qui écrivent des pilotes de périphérique et pour les administrateurs qui sont intéressés par les données de pilote de périphérique.
 
@@ -42,7 +42,7 @@ Si l’espace de noms WMI est endommagé, il peut être supprimé et rouvert pou
 
 Les classes de pilote peuvent parfois être « bloquées » si le chargement du pilote est interrompu ou si d’autres opérations anormales se produisent. Le fournisseur WDM recherche et nettoie uniquement les classes « bloquées » lors de l’installation d’un nouveau pilote ou lorsque la valeur de clé de Registre **WDMProvider du logiciel \\ Microsoft \\ WBEM \\** **ProcessStrandedClasses** est définie sur **true**. La définition de cette valeur sur **true** ralentit les performances de démarrage de WMI en raison de l’opération de nettoyage. La valeur par défaut est **FALSE**. Le fournisseur WDM vérifie cette valeur de Registre uniquement lorsque l' \\ espace de noms WMI racine est ouvert pour la première fois.
 
-Si des modifications de sécurité sont apportées à un pilote de périphérique WDM, les modifications n’entrent pas en vigueur tant que le fournisseur WDM n’est pas chargé et rechargé. Pour ce faire, vous devez arrêter et redémarrer le service de gestion Windows.
+Si des modifications de sécurité sont apportées à un pilote de périphérique WDM, les modifications n’entrent pas en vigueur tant que le fournisseur WDM n’est pas chargé et rechargé. pour ce faire, vous devez arrêter et redémarrer le service de gestion de Windows.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

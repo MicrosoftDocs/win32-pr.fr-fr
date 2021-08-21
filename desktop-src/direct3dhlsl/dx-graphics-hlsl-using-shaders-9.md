@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6455b47d24c1c83683ce8b85c48990bb32e221ae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a1ef04c14682aa6e763222fd0c8db0e2eedf33abf747da97a16b2b1621e1c42a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119743"
 ---
 # <a name="using-shaders-in-direct3d-9"></a>Utilisation de nuanceurs dans Direct3D 9
 
@@ -85,7 +85,7 @@ Un nuanceur est rendu en définissant le nuanceur actuel dans l’appareil, en i
 
 ## <a name="debugging-shaders"></a>Débogage des nuanceurs
 
-L’extension DirectX pour Microsoft Visual Studio .NET fournit un débogueur HLSL entièrement intégré dans l’environnement de développement intégré (IDE) de Visual Studio .NET. Pour préparer le débogage du nuanceur, vous devez installer les outils appropriés sur votre ordinateur (consultez [débogage des nuanceurs dans Visual Studio (Direct3D 9)](dx-graphics-hlsl-debug-visual-studio.md)).
+l’extension DirectX pour Microsoft Visual Studio .net fournit un débogueur HLSL entièrement intégré au sein de l’environnement de développement intégré (IDE) Visual Studio .net. pour préparer le débogage du nuanceur, vous devez installer les outils appropriés sur votre ordinateur (consultez [débogage des nuanceurs dans Visual Studio (Direct3D 9)](dx-graphics-hlsl-debug-visual-studio.md)).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -94,6 +94,6 @@ L’extension DirectX pour Microsoft Visual Studio .NET fournit un débogueur HL
 [Guide de programmation pour HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

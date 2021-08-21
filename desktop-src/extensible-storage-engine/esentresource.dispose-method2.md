@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d301b3b1f43d57631091003bf77d06d749bd98ae
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 454e1de49c74e33da796fc6c1dec9559223834eb3e92437a0b671814847e5190
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106530068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115189"
 ---
 # <a name="esentresourcedispose-method"></a>EsentResource. dispose, méthode
 

@@ -1,5 +1,5 @@
 ---
-description: Spécifie si les réseaux refusés s’affichent dans l’Assistant Connexion à un réseau.
+description: spécifie si les réseaux refusés s’affichent dans le Connecter à un assistant réseau.
 ms.assetid: d0a13a80-2532-4383-8946-2536cc1f5e12
 title: Élément showDeniedNetwork (globalFlags)
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 33049dad00e5fda22e3f739d3dc200a282481a8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04c6c95f9c9db4c6b88a5258ced4b272947a932342a82d380be36210c3196521
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064709"
 ---
 # <a name="showdeniednetwork-globalflags-element"></a>Élément showDeniedNetwork (globalFlags)
 
-L’élément **showDeniedNetwork** (globalFlags) spécifie si les réseaux refusés s’affichent dans l’Assistant **connexion à un réseau** . Les réseaux peuvent être refusés par la stratégie de groupe ou par les paramètres utilisateur. Lorsque **showDeniedNetwork** a la valeur true, les réseaux refusés s’affichent dans l’Assistant **connexion à un réseau** . dans le cas contraire, les réseaux refusés n’apparaissent pas dans l’Assistant.
+l’élément **showDeniedNetwork** (globalFlags) spécifie si les réseaux refusés s’affichent dans le **Connecter à un assistant réseau** . Les réseaux peuvent être refusés par la stratégie de groupe ou par les paramètres utilisateur. lorsque **showDeniedNetwork** a la valeur TRUE, les réseaux refusés s’affichent dans le **Connecter à un assistant réseau** . dans le cas contraire, les réseaux refusés n’apparaissent pas dans l’Assistant.
 
 Cet élément est obligatoire. Lorsqu’un profil est créé par le service de configuration automatique, cet élément prend la valeur par défaut FALSe.
 
@@ -33,14 +33,14 @@ Cet élément est obligatoire. Lorsqu’un profil est créé par le service de c
 
 L’élément **showDeniedNetwork** est défini par l’élément [**globalFlags**](wlan-policyschema-globalflags-wlanpolicy-element.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

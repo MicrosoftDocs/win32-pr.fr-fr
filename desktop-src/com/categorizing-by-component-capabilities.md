@@ -4,12 +4,12 @@ description: Les catégories de composants peuvent être utilisées pour affiche
 ms.assetid: 522af5d7-ba7b-4127-9cdb-48ef4d0f8e65
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff44e03e9eae0226ac57279c37d4a5dfd32fc6bd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 251e8197c00a39c8d9666dee7122be7445402fc84ce7b3508987bcf79f27df15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048747"
 ---
 # <a name="categorizing-by-component-capabilities"></a>Catégorisation par fonctionnalités de composant
 
@@ -19,11 +19,11 @@ Par exemple, tous les composants qui implémentent la fonctionnalité d’incorp
 
 ```
 HKEY_CLASSES_ROOT\Component Categories\{40FC6ED3-2438-11cf-A3DB-080036F12502}
-   (Default) = ""
-   409 = "Embeddable Objects"
+   (Default) = ""
+   409 = "Embeddable Objects"
 ```
 
-Chaque classe qui implémente les fonctionnalités correspondant à une catégorie de composant répertorie l’ID de catégorie de cette catégorie dans la clé CLSID du Registre. Étant donné qu’un seul composant peut prendre en charge un large éventail de fonctionnalités, les composants peuvent appartenir à plusieurs catégories de composants. Par exemple, un contrôle OLE particulier peut prendre en charge toutes les fonctionnalités requises pour participer en tant qu’incorporation de documents OLE, Microsoft Visual Basic la liaison de données et les fonctionnalités Internet. Ce type de contrôle aurait les informations suivantes stockées dans sa clé CLSID dans le registre :
+Chaque classe qui implémente les fonctionnalités correspondant à une catégorie de composant répertorie l’ID de catégorie de cette catégorie dans la clé CLSID du Registre. Étant donné qu’un seul composant peut prendre en charge un large éventail de fonctionnalités, les composants peuvent appartenir à plusieurs catégories de composants. par exemple, un contrôle ole particulier peut prendre en charge toutes les fonctionnalités requises pour participer en tant qu’incorporation de documents ole, Microsoft Visual Basic la liaison de données et les fonctionnalités Internet. Ce type de contrôle aurait les informations suivantes stockées dans sa clé CLSID dans le registre :
 
 ``` syntax
 ;The CLSID for "My Super OLE Control" is {12345678-ABCD-4321-0101-00000000000C}HKEY_CLASSES_ROOT\CLSID\{12345678-ABCD-4321-0101-00000000000C}\Implemented Categories
@@ -54,9 +54,9 @@ Grâce à ces informations, un conteneur peut énumérer les contrôles install�
 [Gestionnaire de catégories de composants](the-component-categories-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

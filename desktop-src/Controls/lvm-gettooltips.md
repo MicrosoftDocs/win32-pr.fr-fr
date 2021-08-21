@@ -3,7 +3,7 @@ title: Message LVM_GETTOOLTIPS (commctrl. h)
 description: Récupère le contrôle ToolTip que le contrôle List-View utilise pour afficher des info-bulles. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro ListView GetToolTips.
 ms.assetid: a3522c64-9498-40b8-9062-c112b7c8cacc
 keywords:
-- LVM_GETTOOLTIPS les contrôles de message Windows
+- LVM_GETTOOLTIPS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f409c85ed6157e8cfc837e5efa3a68488aec504
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6ca4340a8c57c6551d3c46f9324e4b66250f383c9412a3772df3114f105c5f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019287"
 ---
 # <a name="lvm_gettooltips-message"></a>\_Message GETTOOLTIPS LVM
 
@@ -45,8 +45,8 @@ Retourne le handle du contrôle ToolTip.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

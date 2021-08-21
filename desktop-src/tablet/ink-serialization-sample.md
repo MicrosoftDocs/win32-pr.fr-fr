@@ -4,12 +4,12 @@ ms.assetid: 468d9c2a-0b3c-4a44-a049-3f3b78e952ba
 title: Ink Serialization, exemple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e898f91db17efcb7579c067e7db5c422da8213a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80e71eed5c91bf4fa1524cc52af163516ced0c7362d0d20b8ecf52ac1a08ccd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032267"
 ---
 # <a name="ink-serialization-sample"></a>Ink Serialization, exemple
 
@@ -27,7 +27,7 @@ Les fonctionnalités suivantes sont utilisées dans cet exemple :
 
 ## <a name="collecting-ink"></a>Collecte d'encre
 
-Tout d’abord, référencez l’API Tablet PC qui est installée avec le kit de développement logiciel (SDK) Windows Vista et Windows XP Tablet PC Edition.
+tout d’abord, référencez l’API tablet pc qui est installée avec le kit de développement logiciel (SDK) Windows Vista et Windows XP Tablet pc Edition.
 
 
 ```C++

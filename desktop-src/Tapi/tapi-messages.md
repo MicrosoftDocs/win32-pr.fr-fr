@@ -4,12 +4,12 @@ ms.assetid: d302819e-c522-470a-be5e-52625c9223a4
 title: Messages TAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58307a0230b76c6ad98c57f4590098f0dcf6b236
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dd0a73a5ed845901d3cbe937a366a357c149541e8973a423310345dc241b92d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002727"
 ---
 # <a name="tapi-messages"></a>Messages TAPI
 
@@ -33,7 +33,7 @@ Cette section contient des informations de référence sur les messages TAPI sui
 -   [Messages du centre d’appels](call-center-messages.md)
 -   [Messages d’erreur mis en forme](formatted-error-messages.md)
 -   [Messages du périphérique de ligne](line-device-messages.md)
--   [Messages de l’appareil téléphonique](phone-device-messages.md)
+-   [Téléphone Messages de l’appareil](phone-device-messages.md)
 
  
 

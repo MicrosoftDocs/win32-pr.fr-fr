@@ -3,7 +3,7 @@ title: LVN_DELETEALLITEMS le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle List-View que tous les éléments du contrôle sont sur le côté d’être supprimés. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: e4a219cf-4af9-4d02-8810-f576ba658177
 keywords:
-- Contrôles Windows de code de notification LVN_DELETEALLITEMS
+- LVN_DELETEALLITEMS les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 583ad6e2372649ab5f63bd208fb97b93b1591c12
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06f76ec4deaf67c1448fab5054c05ea8ede79c0972061c8be8e4f36b2e40ef54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019127"
 ---
 # <a name="lvn_deleteallitems-notification-code"></a>\_Code de notification LVN DELETEALLITEMS
 
@@ -51,7 +51,7 @@ Pour supprimer les codes de notification [LVN \_ DELETEITEM](lvn-deleteitem.md) 
 
 Pour recevoir les codes de notification [LVN \_ DELETEITEM](lvn-deleteitem.md) suivants, retournez la **valeur false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un contrôle List-View envoie le code de notification [**\_ DELETEALLITEMS LVM**](lvm-deleteallitems.md) lorsqu’il est détruit ou lorsqu’il reçoit le message **\_ DELETEALLITEMS LVM** . Si **LVM \_ DELETEALLITEMS** ne retourne pas la **valeur true**, le contrôle enverra également un code de notification [LVN \_ DELETEITEM](lvn-deleteitem.md) au fur et à mesure que chaque élément sera supprimé.
 
@@ -63,8 +63,8 @@ Si le gestionnaire de messages [**\_ DELETEALLITEMS LVM**](lvm-deleteallitems.md
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

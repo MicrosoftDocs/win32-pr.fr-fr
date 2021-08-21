@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 02895da685c78484c907af51745264abb81086da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e04e8b7bde5f564ad5075fee2755a5f95c945e7d59822c1cd4cce8e0d0e2450b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064659"
 ---
 # <a name="authentication-authencryption-element"></a>Élément Authentication (authEncryption)
 
@@ -54,7 +54,7 @@ L’élément Authentication (authEncryption) spécifie la méthode d’authenti
 
 L’élément est défini par l’élément [**authEncryption**](wlan-profileschema-authencryption-security-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant décrit les valeurs d’énumération.
 
@@ -79,14 +79,14 @@ Pour plus d’informations sur les méthodes d’authentification 802,11, consul
 
 Pour afficher des exemples de profils qui utilisent l’élément **Authentication** , consultez Exemples de profils [sans fil](wireless-profile-samples.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

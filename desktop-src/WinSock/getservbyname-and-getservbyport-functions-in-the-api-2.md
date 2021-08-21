@@ -4,12 +4,12 @@ ms.assetid: 6d4eb1d4-1498-4367-886b-6b08e87bc4a0
 title: Fonctions getservbyname et getservbyport dans l’API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0028b9ed090463234d01e2b13191ff2328baf2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47e5d7cc9b1811eef98cc6d337abc3230ea46bd537a19969a4b412473e671b39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132212"
 ---
 # <a name="getservbyname-and-getservbyport-functions-in-the-api"></a>Fonctions getservbyname et getservbyport dans l’API
 
@@ -28,7 +28,7 @@ Les fonctions [**getservbyname**](/windows/desktop/api/winsock/nf-winsock-getser
 
 <dl> <dt>
 
-[Résolution de noms compatible pour TCP/IP dans l’API Windows Sockets 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
+[résolution de noms Compatible pour TCP/IP dans l’API Windows sockets 1,1](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
 </dt> <dt>
 
 [Résolution de noms indépendante du protocole](protocol-independent-name-resolution-2.md)

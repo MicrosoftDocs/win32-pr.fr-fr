@@ -4,12 +4,12 @@ description: Conversion en VBScript à partir de JavaScript
 ms.assetid: f302e032-4e94-42f1-839b-022dab538760
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eda8169a665dc93133f7ac933de12ecc612f3e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6138a6d13710e87ae2b80c979b208d0360e28501ce5d763546a1605c49f0802a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047737"
 ---
 # <a name="translating-to-vbscript-from-javascript"></a>Conversion en VBScript à partir de JavaScript
 
@@ -32,9 +32,9 @@ VBScript prend en charge la gestion des erreurs via son objet Err. JavaScript ne
 [Conversion en VBScript](translating-to-vbscript.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

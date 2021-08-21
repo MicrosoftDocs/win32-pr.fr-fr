@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9b2a17bbfa0f10c08edb581b4a4bf51173facfea
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 61fc210f02891755c04d170a4b329b1aa9e27c343bf2e2b6e973016ee84c530b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020497"
 ---
 # <a name="disableipsec-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode DisableIPSec de la \_ classe Win32 NetworkAdapterConfiguration
 

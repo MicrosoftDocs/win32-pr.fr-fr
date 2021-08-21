@@ -3,7 +3,7 @@ title: Message MM_MOM_OPEN (mmsystem. h)
 description: Le \_ \_ message Open MOM de mm est envoyé à une fenêtre lorsqu’un appareil de sortie MIDI est ouvert.
 ms.assetid: 1374a07c-02fa-4b43-82df-cbd96302aec5
 keywords:
-- Message MM_MOM_OPEN Windows Multimedia
+- message MM_MOM_OPEN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2f676dccf532290ab2153b888c20fad7b19d98d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 842eaeeb6e18e6623f8c88d8f5c65527db36ee8370c48a4cb26edca55f6d5f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065489"
 ---
 # <a name="mm_mom_open-message"></a>MM \_ \_ message ouvert MOM
 
@@ -64,7 +64,7 @@ Ce message ne retourne pas de valeur.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

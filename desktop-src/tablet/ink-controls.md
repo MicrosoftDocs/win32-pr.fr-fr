@@ -4,16 +4,16 @@ ms.assetid: 03229b86-f59b-4946-8816-fa153af57630
 title: Contrôles Ink
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1206c5e77c12c31a80dcfbca0bebf317a28e0e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54f07a26d30746f99b291053276de20ef78c5ce4b4f0c7a14afce6633684b7b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032337"
 ---
 # <a name="ink-controls"></a>Contrôles Ink
 
-La plateforme Tablet PC fournit deux contrôles, [InkEdit](inkedit-control.md) et [InkPicture](inkpicture-control.md), qui vous permettent d’ajouter facilement la reconnaissance de l’écriture manuscrite et de l’écriture manuscrite aux applications Tablet PC. Le contrôle InkEdit a des versions [managées](/previous-versions/ms835842(v=msdn.10)), [ActiveX](inkedit-control-reference.md) et Win32, tandis que InkPicture n’a que les versions d' [InkPicture](/previous-versions/ms583740(v=vs.100)) et [ActiveX](inkpicture-control-reference.md) gérées.
+La plateforme Tablet PC fournit deux contrôles, [InkEdit](inkedit-control.md) et [InkPicture](inkpicture-control.md), qui vous permettent d’ajouter facilement la reconnaissance de l’écriture manuscrite et de l’écriture manuscrite aux applications Tablet PC. le contrôle InkEdit a des versions [managées](/previous-versions/ms835842(v=msdn.10)), [ActiveX](inkedit-control-reference.md) et Win32, tandis que InkPicture contient uniquement les versions de [ActiveX](inkpicture-control-reference.md) et [inkpicture](/previous-versions/ms583740(v=vs.100)) managées.
 
 La principale différence entre les contrôles réside dans la façon dont les données sont enregistrées. Le contrôle [InkEdit](inkedit-control.md) enregistre l’encre sous forme de texte par défaut, tandis que [InkPicture](inkpicture-control.md) enregistre l’encre sous forme d’encre.
 
@@ -43,7 +43,7 @@ Dans le code managé, pour éviter une fuite de mémoire, vous devez appeler exp
 
 Les sections suivantes décrivent les contrôles Ink et l’utilisation des contrôles Ink dans les applications :
 
--   [Ajout de contrôles Ink à un projet](adding-ink-controls-to-a-project.md)
+-   [Ajout de contrôles Ink à un Project](adding-ink-controls-to-a-project.md)
 -   [InkEdit, contrôle](inkedit-control.md)
 -   [Contrôle InkPicture](inkpicture-control.md)
 

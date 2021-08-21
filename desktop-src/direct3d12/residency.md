@@ -5,12 +5,12 @@ ms.assetid: 956F80D7-EEC8-4D88-B251-EE325614F31E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b842ce5b3e89c3877f50036e747a90f14104bce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 257af2526120df5509a38fcc0c81984aa53a954f8eed6a8ce9194fa2aadb020a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989452"
 ---
 # <a name="residency"></a>Résidence
 
@@ -48,7 +48,7 @@ D3D12 apporte plus de flexibilité et d’orthogonalité à son modèle de resso
 
 ## <a name="residency-priorities"></a>Priorités de résidence
 
-La mise à jour de Windows 10 Creators permet aux développeurs d’influencer les tas et les ressources qui seront préférés pour rester résidents lorsque la sollicitation de la mémoire nécessite que certaines de ses ressources soient rétrogradées. Cela permet aux développeurs de créer des applications plus performantes en tirant parti de la connaissance que le runtime ne peut pas déduire de l’utilisation de l’API. Il s’attend à ce que les développeurs soient plus confortables et en mesure de spécifier des priorités lorsqu’ils passent de l’utilisation des ressources validées aux ressources réservée, et en mosaïque.
+le Windows 10 Creators Update permet aux développeurs d’influencer les tas et les ressources qui seront préférés pour rester résidents lorsque la sollicitation de la mémoire nécessite que certaines de ses ressources soient rétrogradées. Cela permet aux développeurs de créer des applications plus performantes en tirant parti de la connaissance que le runtime ne peut pas déduire de l’utilisation de l’API. Il s’attend à ce que les développeurs soient plus confortables et en mesure de spécifier des priorités lorsqu’ils passent de l’utilisation des ressources validées aux ressources réservée, et en mosaïque.
 
 L’application de ces priorités doit être plus facile que la gestion de deux budgets de mémoire dynamique, la rétrogradation manuelle et la promotion des ressources bettween, car les applications peuvent déjà le faire. Par conséquent, la conception de l’API de priorité de la résidence est à la une des priorités par défaut assignées à chaque segment de mémoire ou ressource comme créé. Pour plus d’informations, consultez [**ID3D12Device1 :: SetResidencyPriority**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device1-setresidencypriority) et l’énumération priorité de la [**délégation de \_ site \_ D3D12**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_residency_priority) .
 
@@ -87,6 +87,6 @@ Plusieurs parties d’une application sont susceptibles d’être reportées à 
 [Gestion de la mémoire](memory-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

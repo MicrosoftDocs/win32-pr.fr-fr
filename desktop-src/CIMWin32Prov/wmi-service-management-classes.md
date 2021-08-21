@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes de gestion des services WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b502abebbddfd2ce90562045a8b0d7acd3974171
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 879044411a0bcba63900de648c798863e764261fe80934bbc914a01854ae8f1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079513"
 ---
 # <a name="wmi-service-management-classes"></a>Classes de gestion des services WMI
 
@@ -48,7 +48,7 @@ Voici un tableau des classes de gestion WMI.
 | Classe                                                       | Description                                                                                   |
 |-------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [**\_WMISetting Win32**](win32-wmisetting.md)               | Contient les paramètres opérationnels du service WMI.                                      |
-| [**\_WMIElementSetting Win32**](win32-wmielementsetting.md) | Association entre un service s’exécutant dans le système Windows et les paramètres WMI qu’il peut utiliser. |
+| [**\_WMIElementSetting Win32**](win32-wmielementsetting.md) | Association entre un service s’exécutant dans le système de Windows et les paramètres WMI qu’il peut utiliser. |
 
 
 

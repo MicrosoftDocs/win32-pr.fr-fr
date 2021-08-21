@@ -4,17 +4,17 @@ description: Malgré ce merveilleux, le nom de saugrenu, les assistants ne sont 
 ms.assetid: 122d6e65-92f0-4e8a-92f7-ecd7e90665c8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 6455c38228606932e9144c744dd217d0a7fa67e8
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 31a9a0b4ed0c114dbdeadce7fe894bdd7da9cc099960f6ce2291e073ffdf3ef5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103869357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119029063"
 ---
 # <a name="wizards"></a>Assistants
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Malgré ce merveilleux, le nom de saugrenu, les assistants ne sont pas véritablement une forme spéciale de l’interface utilisateur, et ils n’ont qu’une gamme particulière d’utilitaires.
 
@@ -61,7 +61,7 @@ Un Assistant peut être utilisé pour n’importe quelle tâche nécessitant plu
 
     ![capture d’écran de la boîte de dialogue Options d’impression ](images/win-wizards-image4.png)
 
-    La boîte de dialogue Options d’impression de Microsoft PowerPoint contient de nombreuses options d’entrée d’utilisateur. vous pouvez donc les présenter dans un Assistant. Toutefois, il n’est pas nécessaire de les fournir de manière séquentielle, donc une boîte de dialogue est un meilleur choix.
+    la boîte de dialogue options d’impression de Microsoft PowerPoint contient de nombreuses options d’entrée d’utilisateur. vous pouvez donc les présenter dans un assistant. Toutefois, il n’est pas nécessaire de les fournir de manière séquentielle, donc une boîte de dialogue est un meilleur choix.
 
 Les assistants sont une forme relativement lourde de l’interface utilisateur. Si une solution appropriée et allégée est disponible, utilisez-la !
 
@@ -79,15 +79,15 @@ Avant de créer un Assistant, déterminez si les utilisateurs doivent vraiment �
 
 Les assistants sont l’une des clés permettant de simplifier l’expérience utilisateur. Elles vous permettent d’effectuer une opération complexe, telle que la configuration d’un programme, et de la décomposer en une série d’étapes simples. À chaque étape du processus, vous pouvez fournir une explication de ce qui est nécessaire et afficher les contrôles qui permettent à l’utilisateur d’effectuer des sélections et d’entrer du texte.
 
-Certains types de tâches à plusieurs étapes se prêtent au formulaire de l’Assistant. Par exemple, dans Windows, plusieurs assistants impliquent des fonctions de connectivité (à Internet ou au réseau d’entreprise, ou à des périphériques périphériques tels que des imprimantes et des télécopieurs).
+Certains types de tâches à plusieurs étapes se prêtent au formulaire de l’Assistant. par exemple, dans Windows, plusieurs assistants impliquent des fonctions de connectivité (à Internet ou au réseau d’entreprise, ou à des périphériques périphériques tels que des imprimantes et des télécopieurs).
 
 ![capture d’écran de l’Assistant de connexion ](images/win-wizards-image5.png)
 
-La connexion à un réseau est une tâche courante dans Windows appropriée pour un Assistant.
+la connexion à un réseau est une tâche courante dans Windows appropriée pour un assistant.
 
 Ici, la fonction de l’Assistant consiste à effectuer une médiation entre un nom connu et stable (le système d’exploitation prêt à l’emploi) et un événement inconnu et variable (dispositifs de connectivité avec une société de téléphone ou un fournisseur de services Internet). La complexité des écosystèmes informatiques est suffisamment significative à présent qu’il est réellement utile d’utiliser des assistants pour réduire cette complexité.
 
-Les autres types de tâches qui fonctionnent bien avec les assistants Windows incluent des fonctionnalités haut de gamme (telles que la reconnaissance vocale et de l’écriture manuscrite) et des expériences multimédias riches (telles que la configuration des options de création et de publication de films). Les assistants peuvent également être déployés pour des tâches en plusieurs étapes de base, telles que la résolution des problèmes. En résumé, si différents utilisateurs sont susceptibles de vouloir expérimenter votre programme de manière très différente, cela peut indiquer la nécessité d’un Assistant et sa capacité pour plusieurs points d’entrée utilisateur.
+les autres types de tâches qui fonctionnent bien comme des assistants Windows incluent des fonctionnalités haut de gamme (telles que la reconnaissance vocale et de l’écriture manuscrite) et des expériences multimédias riches (telles que la configuration des options de création et de publication de films). Les assistants peuvent également être déployés pour des tâches en plusieurs étapes de base, telles que la résolution des problèmes. En résumé, si différents utilisateurs sont susceptibles de vouloir expérimenter votre programme de manière très différente, cela peut indiquer la nécessité d’un Assistant et sa capacité pour plusieurs points d’entrée utilisateur.
 
 Pour votre programme, il est intéressant de consacrer un peu de temps à la conception pour déterminer la fonction que votre Assistant sert, et si cette fonction s’élève vraiment au niveau du déploiement d’un Assistant.
 
@@ -100,7 +100,7 @@ Les questions de conception apparaissent naturellement autour du nombre et de l�
 -   Faut-il plus de pages qui nécessitent moins de choix ? Ou moins de pages avec plus de complexité ? Quelle conception est considérée comme plus utilisable ?
 -   Pouvez-vous concevoir des expériences d’Assistant plus rapides en appliquant des conventions d’interface utilisateur telles que des pages à onglets ?
 
-Microsoft a utilisé pour signaler que des assistants de trois pages ou moins sont conçus comme des assistants simples, et que ceux de quatre pages ou plus utilisent une conception avancée de l’Assistant (consultez les instructions de l' [expérience utilisateur Windows](/previous-versions/ms997609(v=msdn.10)) de 1999). Toutefois, les normes de conception de l’Assistant actuelles disparaissent de ce qui était l’une des principales différences entre les formulaires simples et avancés (l’utilisation des pages de bienvenue et de félicitations). par conséquent, ces catégories ne sont pas adéquates et le nombre de pages déterminant le choix de conception semble arbitraire.
+Microsoft a utilisé pour signaler que des assistants de trois pages ou moins sont conçus comme des assistants simples, et que ceux de quatre pages ou plus utilisent une conception avancée de l’assistant (consultez les instructions relatives à l' [expérience utilisateur Windows](/previous-versions/ms997609(v=msdn.10)) de 1999). Toutefois, les normes de conception de l’Assistant actuelles disparaissent de ce qui était l’une des principales différences entre les formulaires simples et avancés (l’utilisation des pages de bienvenue et de félicitations). par conséquent, ces catégories ne sont pas adéquates et le nombre de pages déterminant le choix de conception semble arbitraire.
 
 Votre assistant doit être aussi long ou bref que la tâche l’exige ; Il n’existe aucune instruction fixe pour sa longueur. Un assistant d’une seule page doit être présenté sous la forme d’une boîte de dialogue, donc deux pages sont probablement la forme la plus condensée possible pour un Assistant.
 
@@ -124,9 +124,9 @@ Cette page de l’Assistant est bien conçue pour les utilisateurs finaux, car e
 
 **Correct :**
 
-![Capture d’écran montrant la page sélection des fonctionnalités de l’Assistant Installation de « SQL Server ».](images/win-wizards-image8.png)
+![capture d’écran montrant la page sélection des fonctionnalités de l’assistant installation de « SQL Server ».](images/win-wizards-image8.png)
 
-Dans l’Assistant Installation de Microsoft SQL Server 2008, la conception des pages est plus chargée et les nombreux choix nécessitent plus de réflexion, mais le public cible est un administrateur de base de données qui s’attend à un contrôle étroit de la sélection des fonctionnalités.
+dans l’assistant installation de Microsoft SQL Server 2008, la conception des pages est plus chargée et les nombreux choix nécessitent plus de réflexion, mais le public cible est un administrateur de base de données qui s’attend à un contrôle étroit de la sélection des fonctionnalités.
 
 Enfin, soyez attentif à la fréquence à laquelle la tâche particulière peut être exécutée. Une tâche rare peut déployer un Assistant plus long, tandis que les tâches fréquentes doivent absolument favoriser la concision.
 
@@ -150,7 +150,7 @@ Les guides de navigation non séquentiels sont interactifs, ce qui permet aux ut
 -   Les pages ultérieures peuvent ne pas être affichées si elles ont des conditions préalables.
 -   Les pages qui peuvent être visitées doivent être clairement distinguées de celles qui ne le peuvent pas (par exemple en utilisant des liens actifs ou désactivés), ainsi que des pages obligatoires ou facultatives.
 
-Les utilisateurs peuvent être déconcertés quant à la signification du bouton précédent dans ce scénario. Le fait de cliquer sur précédent vous amène à la page ou à la section précédente dans le Guide de navigation, ou à la dernière page ou section affichée ? Étant donné que les assistants Windows placent à présent le bouton précédent dans l’angle supérieur gauche des pages de l’Assistant, plutôt que dans le coin inférieur droit avec les autres boutons de validation, les utilisateurs considèrent les fonctionnalités en arrière comme sur le Web. Par conséquent, la meilleure solution consiste à donner à votre bouton précédent le sens de navigation Web (cliquez sur précédent pour accéder à la dernière page ou section affichée) et utilisez le Guide de navigation de l’Assistant pour la navigation séquentielle.
+Les utilisateurs peuvent être déconcertés quant à la signification du bouton précédent dans ce scénario. Le fait de cliquer sur précédent vous amène à la page ou à la section précédente dans le Guide de navigation, ou à la dernière page ou section affichée ? étant donné que les assistants Windows placent le bouton précédent dans l’angle supérieur gauche des pages de l’assistant, plutôt que dans le coin inférieur droit avec les autres boutons de validation, les utilisateurs considèrent les fonctionnalités en arrière comme sur le Web. Par conséquent, la meilleure solution consiste à donner à votre bouton précédent le sens de navigation Web (cliquez sur précédent pour accéder à la dernière page ou section affichée) et utilisez le Guide de navigation de l’Assistant pour la navigation séquentielle.
 
 ### <a name="page-integrity"></a>Intégrité de la page
 
@@ -168,7 +168,7 @@ En termes d’éléments visuels et de texte, réduisez ces éléments à l’é
 
 Avec trois onglets d’une entrée utilisateur relativement dense, cette page de l’Assistant tente d’accomplir trop de choses.
 
-Dans la plupart des cas, conservez la taille de chaque page dans l’Assistant pour encourager une apparence cohérente. Bien que les assistants Windows autorisent les pages redimensionnables afin que la taille d’une page corresponde à la quantité de contenu, seules quelques-unes utilisent cette option.
+Dans la plupart des cas, conservez la taille de chaque page dans l’Assistant pour encourager une apparence cohérente. bien que Windows assistants autorisent les pages redimensionnables afin que la taille d’une page corresponde à la quantité de contenu, seules quelques-unes d’entre elles utilisent cette option.
 
 Enfin, mettez à jour les éléments structurels de chaque page de l’Assistant par le biais de la séquence. Par exemple, ne déplacez pas le bouton précédent de l’angle supérieur gauche vers le haut dans la zone boutons de validation pour une ou deux pages. Ce niveau de cohérence de la disposition aide les utilisateurs à se sentir stables dans l’Assistant. Considérez ceci comme une ligne de base pour l’intégrité visuelle d’une page.
 
@@ -217,7 +217,7 @@ La version modifiée de cette page d’Assistant fournit une instruction princip
 
     ![capture d’écran des commentaires de la boîte de dialogue Diagnostics ](images/win-wizards-image13.png)
 
-    Dans cet exemple, les diagnostics réseau Windows sont constitués de pages de progression et de résultats. Étant donné que la tâche n’est qu’une seule étape, elle ne nécessite pas les boutons de navigation dont les utilisateurs ont besoin dans un Assistant. Elle est en fait présentée sous la forme d’une boîte de dialogue à plusieurs pages.
+    dans cet exemple, Windows les diagnostics réseau sont constitués de pages de progression et de résultats. Étant donné que la tâche n’est qu’une seule étape, elle ne nécessite pas les boutons de navigation dont les utilisateurs ont besoin dans un Assistant. Elle est en fait présentée sous la forme d’une boîte de dialogue à plusieurs pages.
 
 ### <a name="window-size"></a>Taille de la fenêtre
 
@@ -268,11 +268,11 @@ La version modifiée de cette page d’Assistant fournit une instruction princip
 
 ### <a name="commit-buttons"></a>Boutons de validation
 
--   **Lorsque les utilisateurs s’engagent sur une tâche, utilisez un bouton de validation qui est une réponse spécifique à l’instruction principale** (par exemple, imprimer, connecter ou démarrer). N’utilisez pas d’étiquettes génériques comme Next (qui n’implique pas engagement) ou terminer (qui n’est pas spécifique) pour la validation d’une tâche. Les étiquettes sur ces boutons de validation doivent être logiques. Démarrez toujours les étiquettes de bouton de validation avec un verbe. **Exceptions :**
+-   **lorsque les utilisateurs s’engagent sur une tâche, utilisez un bouton de validation qui est une réponse spécifique à l’instruction principale** (par exemple, imprimer, Connecter ou démarrer). N’utilisez pas d’étiquettes génériques comme Next (qui n’implique pas engagement) ou terminer (qui n’est pas spécifique) pour la validation d’une tâche. Les étiquettes sur ces boutons de validation doivent être logiques. Démarrez toujours les étiquettes de bouton de validation avec un verbe. **Exceptions :**
     -   Utilisez terminer lorsque les réponses spécifiques sont toujours génériques, telles que enregistrer, sélectionner, choisir ou récupérer.
     -   Utilisez terminer pour modifier un paramètre spécifique ou une collection de paramètres.
 -   **Un seul Assistant peut avoir plusieurs points de validation, mais un point unique est préféré.**
--   **Si nécessaire, vous pouvez renommer ou masquer les boutons de validation sur une page.** Cette flexibilité est l’un des avantages de la nouvelle conception de l’Assistant dans Windows qui n’était pas disponible dans les assistants plus anciens. Notez que le masquage d’un bouton de validation est différent de sa désactivation.
+-   **Si nécessaire, vous pouvez renommer ou masquer les boutons de validation sur une page.** cette flexibilité est l’un des avantages de la nouvelle conception de l’assistant dans Windows qui n’était pas disponible dans les assistants plus anciens. Notez que le masquage d’un bouton de validation est différent de sa désactivation.
 -   **Évitez de désactiver un bouton de validation positif.** Sinon, les utilisateurs doivent déduire la raison pour laquelle les boutons de validation sont désactivés. Il est préférable de laisser les boutons de validation activés et de fournir un message d’erreur utile à chaque fois qu’un problème survient. La désactivation du bouton est acceptable uniquement si la raison de cette action est évidente et non ambiguë.
 -   **Ne confondez pas les boutons de navigation (suivant et précédent) avec les boutons de validation.** Ensuite, vous pouvez progresser dans l’Assistant sans engagement ; L’arrière-plan doit toujours être disponible sur la page suivante, et si vous cliquez sur précédent, vous devez annuler l’effet du dernier bouton suivant. Si ce n’est pas possible, les utilisateurs effectuent un engagement et sont indiqués par une étiquette spécifique sur le bouton valider. Pour plus d’instructions sur les boutons suivant et précédent, consultez [navigation](#providing-a-navigation-guide).
 
@@ -375,7 +375,7 @@ La version modifiée de cette page d’Assistant fournit une instruction princip
 
 -   Placez le nom de l’Assistant dans la barre de titre. Utilisez la mise [en majuscules du style titre](glossary.md).
 -   Les titres ne doivent pas inclure de signes de ponctuation, sauf pour ceux comportant des points d’interrogation.
--   N’incluez pas l’Assistant Word dans les titres de l’Assistant. Par exemple, utilisez l’Assistant Connexion à un réseau au lieu de l’Assistant Configuration du réseau.
+-   N’incluez pas l’Assistant Word dans les titres de l’Assistant. par exemple, utilisez Connecter à un réseau au lieu de l’assistant configuration du réseau.
 
 ### <a name="buttons"></a>Boutons
 
@@ -383,7 +383,7 @@ La version modifiée de cette page d’Assistant fournit une instruction princip
 -   Ajoutez du texte sur le bouton suivant. N’utilisez pas de glyphes (tels que > ou >>) en plus du mot suivant.
 -   Utilisez des étiquettes de bouton de validation spécifiques qui sont logiques et qui sont une réponse à l’instruction principale. Idéalement, les utilisateurs ne doivent pas lire d’autres éléments pour comprendre l’étiquette. Les utilisateurs sont beaucoup plus susceptibles de lire des étiquettes de bouton de commande que du texte statique.
 -   Si possible, n’utilisez pas le mot terminer pour l’étiquette du bouton valider, car il existe généralement un bouton de validation mieux adapté :
-    -   Si le fait de cliquer sur le bouton est validé sur la tâche (donc la tâche n’a pas déjà été effectuée), utilisez une étiquette spécifique qui commence par un verbe qui est une réponse à l’instruction principale (exemples : Print, Connect, Start).
+    -   si le fait de cliquer sur le bouton est validé sur la tâche (donc la tâche n’a pas déjà été effectuée), utilisez une étiquette spécifique qui commence par un verbe qui est une réponse à l’instruction principale (exemples : Print, Connecter, Start).
     -   Si la tâche a déjà été effectuée dans l’Assistant, utilisez à la place la fermeture.
 
         **Exceptions :**
@@ -397,10 +397,10 @@ La version modifiée de cette page d’Assistant fournit une instruction princip
 
 ## <a name="documentation"></a>Documentation
 
--   Bien que la plupart des assistants Windows ne contiennent plus le mot Assistant dans le titre, il est acceptable de faire référence aux assistants en tant qu’assistants dans la documentation. Cette référence doit être en minuscules.
+-   bien que la plupart des Windows assistants n’aient plus le mot assistant dans le titre, il est possible de faire référence aux assistants en tant qu’assistants dans la documentation. Cette référence doit être en minuscules.
 -   **Correct :**
--   Si vous configurez un réseau pour la première fois, vous pouvez obtenir de l’aide à l’aide de l’Assistant **connexion à un réseau** .
--   Certains assistants hérités de versions antérieures de Windows peuvent inclure l’Assistant dans le titre. Lorsque vous faites référence à l’un de ces assistants, il est acceptable d’utiliser l' \[ \] Assistant x pour éviter de dire l’Assistant \[ x \] .
+-   si vous configurez un réseau pour la première fois, vous pouvez obtenir de l’aide à l’aide de l’assistant **Connecter à un réseau** .
+-   certains assistants hérités des versions antérieures de Windows peuvent inclure l’assistant dans le titre. Lorsque vous faites référence à l’un de ces assistants, il est acceptable d’utiliser l' \[ \] Assistant x pour éviter de dire l’Assistant \[ x \] .
 -   Reportez-vous à un écran individuel dans un Assistant sous la forme d’une page.
 
  

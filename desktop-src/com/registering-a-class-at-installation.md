@@ -4,12 +4,12 @@ description: Si une classe est destinée à être disponible pour les clients à
 ms.assetid: 6d78c2ce-56d8-4866-9801-35125ec9cac4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4253c40cb3feb7e737368c947c0b20715f5becbd
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 017e4393a4c5422157c8f9b9e9b7f366c2fafc8cfe6af5722e451a3d1b9fa069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047857"
 ---
 # <a name="registering-a-class-at-installation"></a>Inscription d’une classe lors de l’installation
 
@@ -49,6 +49,6 @@ Les classes implémentées dans des exécutables peuvent spécifier que COM doit
 [Inscription automatique](self-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

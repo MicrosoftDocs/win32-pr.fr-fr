@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7cbf7c42b8523bcd12b19e9b474ecc50bd031939
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: edaafa00f792cf01b4166d525171cf15b7f781c8c0c943c17377b3bd9b3401dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020587"
 ---
 # <a name="create-method-of-the-win32_clustershare-class"></a>Créer une méthode de la \_ classe ClusterShare Win32
 
@@ -45,7 +45,7 @@ static uint32 Create(
 *Chemin d’accès* \[ dans\]
 </dt> <dd>
 
-Chemin d’accès local du partage Windows.
+chemin d’accès Local du partage de Windows.
 
 Par exemple, « C : \\ Program Files ».
 
