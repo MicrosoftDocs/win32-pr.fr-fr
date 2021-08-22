@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 949bd41ddb04618d238c0ddf09782e12fb228b26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11d3321d58065d890d864ed967a4e6a66dad22cde2cc234b5907afab74986898
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104200566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023427"
 ---
 # <a name="iadspathname-property-methods"></a>Méthodes de propriété IADsPathname
 
@@ -63,7 +63,7 @@ HRESULT get_EscapedMode(
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **EscapedMode** représente un État. Vous pouvez l’activer ou la désactiver, en le définissant sur ADS \_ ESCAPEDMODE \_ sur ou publicités \_ ESCAPEDMODE \_ /annonces \_ ESCAPEDMODE \_ OFF \_ . Lorsqu’elle est activée ou désactivée, toutes les récupérations suivantes produisent des chaînes de chemin d’accès sans séquence d’échappement ou de séquence d’échappement.
 

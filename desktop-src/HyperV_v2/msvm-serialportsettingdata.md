@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 21a1ab58608c5631a328795272d6a04aa56aedf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7365ee67cdcf3f9046ac162f36a909f54da5ab4b9683f801827213d43d0fb79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950558"
 ---
 # <a name="msvm_serialportsettingdata-class"></a>MSVM \_ SerialPortSettingData, classe
 
@@ -58,7 +58,7 @@ Type de données : **booléen**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-**true** si le mode du débogueur est activé sur un port série virtuel ; Sinon, **false**. Le mode du débogueur améliore l’utilisation d’un débogueur du noyau Microsoft Windows sur un port série virtuel.
+**true** si le mode du débogueur est activé sur un port série virtuel ; Sinon, **false**. le mode de débogage améliore l’utilisation d’un débogueur de noyau Microsoft Windows sur un port série virtuel.
 
 </dd> </dl>
 
@@ -68,7 +68,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

@@ -6,12 +6,12 @@ keywords:
 - Gestion de la mémoire stub serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6e052df6da999e5371ac498a1d39852b4be2b5e
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 2c772678e28a51c4d5162472bc7b0ef73e19888feefbd0e1890cb13f65650425
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103842826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925186"
 ---
 # <a name="server-stub-memory-management"></a>Gestion de la mémoire stub serveur
 
@@ -228,6 +228,6 @@ typedef [force_allocate] PLINKEDLIST;
 
 Cet attribut force le stub de serveur à allouer séparément chaque nœud de la liste liée, et l’application peut libérer la partie abrégée de la liste liée en appelant l' **\_ utilisateur \_ gratuit MIDL ()**. L’application peut ensuite définir en toute sécurité le pointeur **pNext** à la fin de la liste liée récemment raccourcie sur **null**.
 
- 
+ 
 
- 
+ 

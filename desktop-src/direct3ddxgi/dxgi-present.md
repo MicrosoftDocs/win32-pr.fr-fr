@@ -4,12 +4,12 @@ ms.assetid: 1ddf8643-ea3e-4c9f-8439-c245942f7333
 title: DXGI_PRESENT (DXGI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2a21d53159572a52b372774e4988e775744ede5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 84ce79d686aebd77e24a5be6facccd6fa4abd48e10bf15c07729a8ff6a0397bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796603"
 ---
 # <a name="dxgi_present"></a>DXGI \_ présente
 
@@ -95,7 +95,7 @@ L’appel de <a href="/windows/desktop/api/DXGI/nf-dxgi-idxgiswapchain-present">
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les options de présentation sont fournies lors de l’appel de [**IDXGISwapChain ::P renvoyé**](/windows/desktop/api/DXGI/nf-dxgi-idxgiswapchain-present) ou [**IDXGISwapChain1 ::P resent1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) . Les mémoires tampons sont spécifiées dans la description de la chaîne de permutation (consultez la chaîne de permutation [**dxgi \_ \_ \_ desc**](/windows/desktop/api/DXGI/ns-dxgi-dxgi_swap_chain_desc) ou [**dxgi \_ swap \_ chain \_ DESC1**](/windows/desktop/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1)).
 

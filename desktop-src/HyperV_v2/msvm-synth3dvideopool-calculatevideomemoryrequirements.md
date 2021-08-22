@@ -1,5 +1,5 @@
 ---
-description: Calcule la quantité de mémoire vidéo requise pour une machine virtuelle RemoteFX.
+description: calcule la quantité de mémoire vidéo requise pour un ordinateur virtuel RemoteFX.
 ms.assetid: F8C30601-EDA3-47F1-A717-9FE7E9DB8F62
 title: Méthode CalculateVideoMemoryRequirements de la classe Msvm_Synth3dVideoPool
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2a9fd80e777a9d166b896c2ce51d03bd91bbabfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fd1485cdd4e96155db6540a5f07344add5f413514a92c420fcac78a008e7aca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950078"
 ---
 # <a name="calculatevideomemoryrequirements-method-of-the-msvm_synth3dvideopool-class"></a>Méthode CalculateVideoMemoryRequirements de la \_ classe Synth3dVideoPool MSVM
 
-Calcule la quantité de mémoire vidéo requise pour une machine virtuelle RemoteFX.
+calcule la quantité de mémoire vidéo requise pour un ordinateur virtuel RemoteFX.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -114,9 +114,9 @@ Retourne un code d’État, qui peut prendre l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode est généralement appelée sur le système hôte pour déterminer si l’ordinateur hôte dispose de suffisamment de mémoire vidéo pour héberger une machine virtuelle RemoteFX. Pour ce faire, vous comparez la quantité de mémoire vidéo calculée par cette méthode avec la propriété [**MSVM \_ PhysicalGPUInfo. AvailableVideoMemory**](msvm-physicalgpuinfo.md) pour déterminer si l’ordinateur hôte dispose de suffisamment de mémoire vidéo. Vous pouvez utiliser ces informations pour déterminer si une machine virtuelle peut être déplacée vers le système hôte.
+cette méthode est généralement appelée sur le système hôte pour déterminer si l’ordinateur hôte dispose de suffisamment de mémoire vidéo pour héberger un RemoteFX ordinateur virtuel. Pour ce faire, vous comparez la quantité de mémoire vidéo calculée par cette méthode avec la propriété [**MSVM \_ PhysicalGPUInfo. AvailableVideoMemory**](msvm-physicalgpuinfo.md) pour déterminer si l’ordinateur hôte dispose de suffisamment de mémoire vidéo. Vous pouvez utiliser ces informations pour déterminer si une machine virtuelle peut être déplacée vers le système hôte.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -124,8 +124,8 @@ Cette méthode est généralement appelée sur le système hôte pour détermine
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

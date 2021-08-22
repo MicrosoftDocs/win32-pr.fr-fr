@@ -1,6 +1,6 @@
 ---
 description: Fournit au système des informations d’État après la fin d’une opération de presse-papiers.
-title: DlpNotifyPostStashClipboard, fonction (endpointdlp. h)
+title: DlpNotifyPostStashClipboard, fonction (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: e549593acab6d74edf838a0f82952d8f3034bfcc
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 97366a356b960fb8bea87bf552bf98576363663a6ca21de290d4035414fcb904
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118751658"
 ---
 # <a name="dlpnotifypoststashclipboard-function"></a>DlpNotifyPostStashClipboard fonction)
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [DLP_POSTOP_STATUS](enpointdlp-dlp_postop_status.md)
 </dd> </dl>
 
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne void.
 

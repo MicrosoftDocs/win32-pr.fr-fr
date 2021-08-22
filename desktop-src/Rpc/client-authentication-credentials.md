@@ -4,12 +4,12 @@ description: Chaque client authentifié doit fournir des informations d’authen
 ms.assetid: d567e944-8d68-4d95-be6a-840e30f57ba9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3704663411fc33340a462d8e3b356041b6061468
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2410b073886ffd70409cd749ea90305faa8d4635754e8f9596547c47bb976800
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932185"
 ---
 # <a name="client-authentication-credentials"></a>Informations d’identification d’authentification du client
 
@@ -26,9 +26,9 @@ Pour utiliser des informations d’identification implicites, le client appelle 
 
 Si le client utilise des informations d’identification explicites, le cinquième paramètre de ces deux fonctions est de type [**RPC \_ auth \_ Identity \_ handle**](rpc-auth-identity-handle.md). Il s’agit d’un type flexible qui est un pointeur vers une structure de données. Le contenu de la structure de données peut être différent avec chaque service d’authentification. À l’heure actuelle, les fournisseurs de sécurité partagés pris en charge par RPC requièrent que votre application définisse le **\_ handle d' \_ identité \_ RPC auth** pour pointer vers une structure d' [**\_ \_ \_ identité Winnt auth**](/windows/desktop/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a) . La structure de l' **\_ \_ \_ identité d’authentification Winnt** de la sec contient des champs pour un nom d’utilisateur, un domaine et un mot de passe.
 
- 
+ 
 
- 
+ 
 
 
 

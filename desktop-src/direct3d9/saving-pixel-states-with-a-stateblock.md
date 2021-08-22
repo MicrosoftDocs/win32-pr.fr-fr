@@ -4,12 +4,12 @@ ms.assetid: 30624c0a-e30f-4383-bc0c-b43f42403e72
 title: Enregistrement de l’état de Pixel avec un StateBlock (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80741d9f17939d5795163a3e84c58bcdb9003c70
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eebc7cc408fe919b1569d51f5cdd4e3e5916968d05b90557a17a22377673fdfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797915"
 ---
 # <a name="saving-pixel-state-with-a-stateblock-direct3d-9"></a>Enregistrement de l’état de Pixel avec un StateBlock (Direct3D 9)
 
@@ -56,9 +56,9 @@ Le tableau suivant répertorie tous les États de rendu qui configurent l’éta
 | D3DRS \_ STENCILPASS                         | D3DSTENCILOP \_ conserver |
 | D3DRS \_ STENCILFUNC                         | D3DCMP \_ toujours     |
 | D3DRS \_ STENCILREF                          | 0                  |
-| D3DRS \_ STENCILMASK                         | égale         |
-| D3DRS \_ STENCILWRITEMASK                    | égale         |
-| D3DRS \_ TEXTUREFACTOR                       | égale         |
+| D3DRS \_ STENCILMASK                         | 0xffffffff         |
+| D3DRS \_ STENCILWRITEMASK                    | 0xffffffff         |
+| D3DRS \_ TEXTUREFACTOR                       | 0xffffffff         |
 | D3DRS \_ WRAP0                               | 0                  |
 | D3DRS \_ WRAP1                               | 0                  |
 | D3DRS \_ WRAP2                               | 0                  |
@@ -93,7 +93,7 @@ Le tableau suivant répertorie tous les États de rendu qui configurent l’éta
 | D3DRS \_ COLORWRITEENABLE1                   | 0x0000000f         |
 | D3DRS \_ COLORWRITEENABLE2                   | 0x0000000f         |
 | D3DRS \_ COLORWRITEENABLE3                   | 0x0000000f         |
-| D3DRS \_ BLENDFACTOR                         | égale         |
+| D3DRS \_ BLENDFACTOR                         | 0xffffffff         |
 | D3DRS \_ SRGBWRITEENABLE                     | 0                  |
 | D3DRS \_ SEPARATEALPHABLENDENABLE            | **FALSE**          |
 | D3DRS \_ SRCBLENDALPHA                       | D3DBLEND \_ un      |

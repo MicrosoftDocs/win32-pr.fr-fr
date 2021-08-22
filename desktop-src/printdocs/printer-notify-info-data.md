@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 4c76ffe70a8388e920b5f8576830e31ed23edc81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e26f7ed7f002801d3bbdf60708d83234231fe3333675a1c211488431868a4236
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731193"
 ---
 # <a name="printer_notify_info_data-structure"></a>\_Structure de \_ données d’informations de notification d’imprimante \_
 
@@ -121,7 +121,7 @@ Pointeur vers une mémoire tampon qui contient les données actuelles du champ.
 
 </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le membre de **type** spécifie le \_ type de notification d’imprimante \_ , le membre de **champ** peut prendre l’une des valeurs suivantes.
 

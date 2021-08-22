@@ -1,17 +1,17 @@
 ---
 description: Cette section contient des informations pour vous aider à développer efficacement des applications graphiques DirectX. Les rubriques suivantes sont traitées.
 ms.assetid: c6d60ae3-50ed-4dd6-b766-c9b0c8a78533
-title: Conseils de programmation (Direct3D 9)
+title: Astuces de programmation (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d93cde0f19844baf8ccb91f356a22dc52ebb04e9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b403c6f83518d91314e3d56be66d89f514e637da3234970ff537e6d08abdb0d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118798330"
 ---
-# <a name="programming-tips-direct3d-9"></a>Conseils de programmation (Direct3D 9)
+# <a name="programming-tips-direct3d-9"></a>Astuces de programmation (Direct3D 9)
 
 Cette section contient des informations pour vous aider à développer efficacement des applications graphiques DirectX. Les rubriques suivantes sont traitées.
 
@@ -23,7 +23,7 @@ Cette section contient des informations pour vous aider à développer efficacem
 -   [Optimisations des performances](performance-optimizations.md)
 -   [Présentation de plusieurs vues en mode fenêtre](presenting-multiple-views-in-windowed-mode.md)
 -   [Dépannage](troubleshooting.md)
--   [Utilisation des fenêtres d’appareils](working-with-device-windows.md)
+-   [Utilisation des Windows d’appareils](working-with-device-windows.md)
 -   [Utilisation des pilotes antérieurs](working-with-earlier-drivers.md)
 -   [Utilisation de plusieurs moniteurs système](working-with-multiple-monitor-systems.md)
 -   [Utilisation des curseurs de souris](working-with-mouse-cursors.md)

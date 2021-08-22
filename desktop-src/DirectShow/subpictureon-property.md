@@ -4,17 +4,17 @@ ms.assetid: fa4500bc-48b4-41ed-8b88-0011a0e51c6f
 title: Propriété SubpictureOn
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83376793f20468bda88edd8897e8c956094c1a88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 692df6b69bc960562e9acd223a0e4e156fe00de2206146f609ba15d550b7a961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951768"
 ---
 # <a name="subpictureon-property"></a>Propriété SubpictureOn
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -28,7 +28,7 @@ La `SubpictureOn` propriété définit ou récupère l’état de la sous-image 
 
 Retourne une valeur booléenne indiquant si la sous-image est affichée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété n’a aucune incidence sur l’affichage des sous-titres. Les sous-titres sont incorporés dans le flux vidéo. Les sous-images de DVD sont transportées sur un flux de travail distinct.
 

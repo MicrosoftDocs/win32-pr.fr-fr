@@ -4,16 +4,16 @@ ms.assetid: ba85ccd8-5251-4e47-84da-80899fe84c39
 title: À propos des constantes de capteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea862d38af74058d11d3a6fa1eb11a702b3b277
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45cab8b5def4cdfa185a55dd993896fb5157563424b7753497413e5d7706465e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890254"
 ---
 # <a name="about-sensor-constants"></a>À propos des constantes de capteur
 
-La plate-forme capteur et emplacement Windows utilise des constantes de nombreuses façons. La plateforme définit différentes constantes que vous pouvez utiliser dans le code de votre pilote de capteur. Les fabricants de capteurs peuvent définir des constantes personnalisées. Vous pouvez trouver les définitions des constantes définies par la plateforme dans le fichier sensors. h. Pour plus d’informations sur les constantes de capteur définies par la plateforme, consultez [constantes](constants.md).
+le capteur Windows et la plateforme d’emplacement utilisent des constantes de nombreuses façons. La plateforme définit différentes constantes que vous pouvez utiliser dans le code de votre pilote de capteur. Les fabricants de capteurs peuvent définir des constantes personnalisées. Vous pouvez trouver les définitions des constantes définies par la plateforme dans le fichier sensors. h. Pour plus d’informations sur les constantes de capteur définies par la plateforme, consultez [constantes](constants.md).
 
 ### <a name="sensor-and-data-organization"></a>Capteur et Organisation des données
 

@@ -4,12 +4,12 @@ ms.assetid: f08f751d-877b-4b17-8015-7108d5fd8195
 title: Action MoveFiles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f06db0cef12753652bf94bf05875b2c2f9d4067c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b8581cd19569109c0f7697b5dfebf33e91b33da9ba84d15caf424242e4e21ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945034"
 ---
 # <a name="movefiles-action"></a>Action MoveFiles
 
@@ -33,7 +33,7 @@ L’action MoveFiles doit venir après l’action [InstallValidate](installvalid
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La table MoveFiles contient une colonne nommée « options » qui spécifie les fichiers sources à déplacer ou à copier. Un fichier source déplacé est supprimé une fois qu’il a été copié vers un nouvel emplacement. Pour connaître la syntaxe exacte, consultez la [table MoveFile](movefile-table.md).
 
@@ -41,7 +41,7 @@ Les colonnes SourceFolder et DestFolder de la table MoveFile sont des noms de pr
 
 L’action MoveFiles n’agit pas sur les entrées de la table MoveFile dans lesquelles la propriété SourceFolder ou DestFolder ne correspond pas à un chemin d’accès complet.
 
-L’action MoveFiles tente de déplacer ou de copier tous les fichiers du répertoire source qui correspondent au nom donné dans la colonne SourceName de la table MoveFiles. Le nom dans la colonne SourceName peut inclure \* ou ? caractères génériques qui permettent de déplacer ou de copier un groupe de fichiers. Par exemple, la colonne SourceName peut contenir une entrée de « \* . xls » et l’action MoveFiles déplace ou copie chaque classeur Microsoft Excel du répertoire source vers la destination.
+L’action MoveFiles tente de déplacer ou de copier tous les fichiers du répertoire source qui correspondent au nom donné dans la colonne SourceName de la table MoveFiles. Le nom dans la colonne SourceName peut inclure \* ou ? caractères génériques qui permettent de déplacer ou de copier un groupe de fichiers. par exemple, la colonne SourceName peut contenir une entrée « \*.xls » et l’action MoveFiles déplace ou copie chaque Microsoft Excel classeur du répertoire source vers la destination.
 
 Le nom à attribuer au fichier de destination peut être spécifié dans la colonne DestName de la table MoveFile. Le nom du fichier de destination conserve le nom du fichier source si cette colonne est laissée vide.
 

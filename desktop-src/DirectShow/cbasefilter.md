@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fe032d0614b1067c9351b643d457a718b4917a8b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fbffdf47e019494570506dac164735a2471d0617daa190ad74fb3c8910a7dede
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118659633"
 ---
 # <a name="cbasefilter-class"></a>CBaseFilter, classe
 
@@ -71,9 +71,9 @@ Plusieurs classes de base dérivent de `CBaseFilter` , y compris [**CSource**](c
 | [**GetState**](cbasefilter-getstate.md)                       | Récupère l’état du filtre (en cours d’exécution, arrêté ou suspendu).                                        |
 | [**SetSyncSource**](cbasefilter-setsyncsource.md)             | Définit une horloge de référence pour le filtre.                                                             |
 | [**GetSyncSource**](cbasefilter-getsyncsource.md)             | Récupère l’horloge de référence utilisée par le filtre.                                            |
-| [**Erreur**](cbasefilter-stop.md)                               | Arrête le filtre.                                                                                  |
+| [**Arrêter**](cbasefilter-stop.md)                               | Arrête le filtre.                                                                                  |
 | [**Suspendre**](cbasefilter-pause.md)                             | Suspend le filtre.                                                                                 |
-| [**Utilisez**](cbasefilter-run.md)                                 | Permet d'exécuter le filtre.                                                                                   |
+| [**Exécuter**](cbasefilter-run.md)                                 | Permet d'exécuter le filtre.                                                                                   |
 | Méthodes IBaseFilter                                            | Description                                                                                        |
 | [**EnumPins**](cbasefilter-enumpins.md)                       | Énumère les broches sur ce filtre.                                                                |
 | [**FindPin**](cbasefilter-findpin.md)                         | Récupère le code confidentiel avec l’identificateur spécifié.                                                   |
@@ -82,7 +82,7 @@ Plusieurs classes de base dérivent de `CBaseFilter` , y compris [**CSource**](c
 | [**QueryVendorInfo**](cbasefilter-queryvendorinfo.md)         | Récupère une chaîne contenant des informations sur le fournisseur.                                                  |
 | Méthodes IAMovieSetup                                           | Description                                                                                        |
 | [**S’inscrire**](cbasefilter-register.md)                       | Ajoute le filtre au registre.                                                                   |
-| [**Unregister**](cbasefilter-unregister.md)                   | Supprime le filtre du Registre.                                                              |
+| [**Annuler l’inscription**](cbasefilter-unregister.md)                   | Supprime le filtre du Registre.                                                              |
 
 
 
@@ -94,7 +94,7 @@ Plusieurs classes de base dérivent de `CBaseFilter` , y compris [**CSource**](c
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

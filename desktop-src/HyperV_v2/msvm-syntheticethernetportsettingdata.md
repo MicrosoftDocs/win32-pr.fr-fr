@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5b31b02782c0f215f70f3bb5d2767b01294c7261
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d82c1826b865d94ae0a9a9d5a63fb535ad804ad5e874dec9563c5b5e74bd67f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949788"
 ---
 # <a name="msvm_syntheticethernetportsettingdata-class"></a>MSVM \_ SyntheticEthernetPortSettingData, classe
 
@@ -158,7 +158,7 @@ Type d’accès : lecture/écriture
 Indique si la projection d’un PacketDirect est activée pour la machine virtuelle.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703 et Windows Server 2016.
+> ajouté dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -216,7 +216,7 @@ Indique si cette carte Ethernet est surveillée par un cluster. La valeur par d�
 
 Il s’agit d’une propriété en lecture seule, mais elle peut être modifiée à l’aide de la méthode [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) de la classe [**MSVM \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) .
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -286,7 +286,7 @@ Indique si cette carte Ethernet prend en charge les noms d’appareil.
 Il s’agit d’une propriété en lecture seule, mais elle peut être modifiée à l’aide de la méthode [**ModifyVirtualSystemResources**](https://www.bing.com/search?q=**ModifyVirtualSystemResources**) de la classe [**MSVM \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) .
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -519,7 +519,7 @@ Priorité relative pour cette allocation par rapport à d’autres allocations �
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ SyntheticEthernetPortSettingData** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -533,8 +533,8 @@ Consultez [interrogation d’objets de mise en réseau](querying-networking-obje
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

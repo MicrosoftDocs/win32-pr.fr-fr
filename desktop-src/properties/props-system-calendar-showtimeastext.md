@@ -4,12 +4,12 @@ ms.assetid: 22e3fc4b-89f2-4dcf-bf33-cc38842fdcfd
 title: System. Calendar. ShowTimeAsText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 131cd9000a0194c04592a0db50122db36b81a744
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a26b96cdee5d4da2c6556e95563b954cc46388ed26163c71b8857de46fa353e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118730805"
 ---
 # <a name="systemcalendarshowtimeastext"></a>System. Calendar. ShowTimeAsText
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

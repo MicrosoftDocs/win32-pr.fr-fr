@@ -4,16 +4,16 @@ ms.assetid: 535bbb33-01cb-4484-b216-4808e47e4db5
 title: Contrôles blob de conférence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bacf13567abd46f56c399cefa732be97b081cfd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1361951fcb830676e36acb4ec397832629dc5745983c654317a457a0d66ac336
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118867990"
 ---
 # <a name="conference-blob-controls"></a>Contrôles blob de conférence
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Le diagramme suivant illustre les principaux objets impliqués dans les contrôles blob de conférence TAPI 3. Les interfaces affichées sont des liens hypertexte vers les pages de référence appropriées.
 

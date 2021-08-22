@@ -4,12 +4,12 @@ description: Les handles de liaison implicite permettent à votre application de
 ms.assetid: cf4e179b-8d97-4597-89e6-c8967b9db6c7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5fda8501224d66518ad2e86f13fb769c4b2fa0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3d49618ec505cc776c346a504fb19b65db539dadb90d030e45efbabcf08371db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929074"
 ---
 # <a name="implicit-binding-handles"></a>Handles de liaison implicites
 
@@ -18,7 +18,7 @@ Les handles de liaison implicite permettent à votre application de sélectionne
 > [!Note]  
 > Les handles de liaison implicite ne sont pas thread-safe. Les applications multithread doivent donc éviter d’utiliser des handles de liaison implicites.
 
- 
+ 
 
 Lorsque votre application utilise des liaisons implicites, le client doit définir les informations de liaison afin qu’il puisse créer la liaison. Une fois que le client a créé une liaison implicite, il n’est pas obligé de passer des handles de liaison à des procédures distantes. La bibliothèque RPC gère le reste du mécanisme de la session de communication.
 
@@ -55,6 +55,6 @@ status = RpcBindingFree(hHello);
 
 Dans l’exemple précédent, les fonctions de la bibliothèque Runtime RPC [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding) et [**RpcBindingFree**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree) nécessitaient que le handle de liaison implicite soit passé dans leurs listes de paramètres. Toutefois, la procédure distante MyRemoteProcedure n’a pas été effectuée, car il ne s’agit pas d’une fonction de bibliothèque Runtime RPC.
 
- 
+ 
 
- 
+ 

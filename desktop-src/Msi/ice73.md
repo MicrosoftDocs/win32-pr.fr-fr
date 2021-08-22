@@ -4,18 +4,18 @@ ms.assetid: a04429c2-ff9e-4ec8-8d07-faf1479f4920
 title: ICE73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11ac0e192f7c2ab7fb6f6236e45e0e4da70157e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2e5beecbfc7b4345d3b0dd7a93b86c55acc1abde4cc4f99d72749368be9d303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635075"
 ---
 # <a name="ice73"></a>ICE73
 
 ICE73 vérifie que votre package ne réutilise pas les codes de package, les codes de mise à niveau ou les codes de produit des exemples du kit de développement logiciel (SDK) Windows Installer. Les packages ne doivent jamais réutiliser le package, la mise à niveau ou les codes de produit d’un autre produit.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE73 génère un avertissement si le package de votre produit réutilise un package ou un code de produit d’un Windows Installer exemple du kit de développement logiciel (SDK).
 
@@ -30,7 +30,7 @@ This package reuses the '{8FC7****-88A0-4b41-82B8-8905D4AA904C}' Upgrade Code of
 ```
 
 > [!Note]  
-> Les astérisques ( \* \* \* \* ) du GUID représentent la plage de GUID réservée aux packages Windows Installer SDK suivants.
+> les astérisques ( \* \* \* \* ) du guid représentent la plage de guid réservée aux packages Windows Installer SDK suivants.
 
  
 

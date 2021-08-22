@@ -9,16 +9,16 @@ keywords:
 - Underlay plans OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6fe68c4bb57d431151c4d879965fcf7496c8615
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7b968a0ab028fd0a699e31ad3a3601d7140435e2b36d0188bef46c5dca7cbad9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936488"
 ---
 # <a name="overlay-underlay-and-main-planes"></a>Superposition, Underlay et plans principaux
 
-Vous pouvez utiliser des plans de couche matérielle (plans superposés et Underlay) dans vos applications. Avec Windows, les formats de pixel décrivent les configurations en pixels d’un périphérique graphique. Chaque format de pixel décrit la profondeur et d’autres caractéristiques des mémoires tampons de couleur principales et décrit des mémoires tampons supplémentaires (par exemple, profondeur, accumulation, stencil et auxiliaire) utilisées par le plan principal. Les formats de pixel sont maintenant étendus pour inclure les mémoires tampons de superposition et Underlay.
+Vous pouvez utiliser des plans de couche matérielle (plans superposés et Underlay) dans vos applications. avec Windows, les formats de pixel décrivent les configurations en pixels d’un périphérique graphique. Chaque format de pixel décrit la profondeur et d’autres caractéristiques des mémoires tampons de couleur principales et décrit des mémoires tampons supplémentaires (par exemple, profondeur, accumulation, stencil et auxiliaire) utilisées par le plan principal. Les formats de pixel sont maintenant étendus pour inclure les mémoires tampons de superposition et Underlay.
 
 Les plans de couche ont toujours une mémoire tampon de couleur frontale et peuvent également inclure des tampons de couleur d’arrière-plan et de couleur d’arrière-plan. Chaque plan de couche a un contexte de rendu spécifique à afficher dans les mémoires tampons de couche. Vous ne pouvez pas utiliser de fonctions de dessin GDI dans des plans de couche.
 
@@ -38,9 +38,9 @@ Les fonctions suivantes sont utilisées avec les plans de couche :
 -   [**wglSetLayerPaletteEntries**](/windows/desktop/api/wingdi/nf-wingdi-wglsetlayerpaletteentries)
 -   [**wglSwapLayerBuffers**](/windows/desktop/api/wingdi/nf-wingdi-wglswaplayerbuffers)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Message BM_GETSTATE (winuser. h)
 description: Récupère l’état d’un bouton ou d’une case à cocher. Vous pouvez envoyer ce message de manière explicite ou utiliser le bouton \_ GetState macro.
 ms.assetid: ca4c2f1a-b657-490a-ac8b-5f0cfef64d76
 keywords:
-- BM_GETSTATE les contrôles de message Windows
+- BM_GETSTATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b5e69f067acfc13cd8661be8a585fcfc8e6fe4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd44921c61477e26cd5570fcbaa6f96a4e61f96ee22ad1c705bf553788d8cfba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674839"
 ---
 # <a name="bm_getstate-message"></a>\_Message GETSTATE BM
 
@@ -69,8 +69,8 @@ La valeur de retour spécifie l’état actuel du bouton. Il s’agit d’une co
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

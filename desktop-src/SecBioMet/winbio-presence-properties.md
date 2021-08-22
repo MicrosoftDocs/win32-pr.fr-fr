@@ -1,10 +1,10 @@
 ---
 title: WINBIO_PRESENCE_PROPERTIES Union ( \_ types WINBIO. h)
-description: Contient des valeurs biométriques que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.
+description: contient des valeurs biométriques que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.
 ms.assetid: 596CAA7F-35D2-442A-8041-BA1010DF5BAD
 keywords:
-- API Windows Biometric Framework WINBIO_PRESENCE_PROPERTIES Union
-- API Windows Biometric Framework du pointeur d’Union PWINBIO_PRESENCE_PROPERTIES
+- API Windows Biometric Framework WINBIO_PRESENCE_PROPERTIES union
+- API Windows Biometric Framework du pointeur d’union PWINBIO_PRESENCE_PROPERTIES
 topic_type:
 - apiref
 api_name:
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0568008b870953c34205706acc90cb22a2c0e92
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6a3964883f5dcd5b00c6f3eb6929c9deec99e58db014d18e51a192180a4d11f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909654"
 ---
 # <a name="winbio_presence_properties-union"></a>WINBIO \_ Propriétés de présence de l' \_ Union
 
-Contient des valeurs biométriques que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.
+contient des valeurs biométriques que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -54,7 +54,7 @@ typedef union _WINBIO_PRESENCE_PROPERTIES {
 **FacialFeatures**
 </dt> <dd>
 
-Valeurs pour l’emplacement des caractéristiques du visage que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.
+valeurs pour l’emplacement des caractéristiques du visage que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.
 
 <dl> <dt>
 
@@ -75,7 +75,7 @@ Distance entre l’emplacement réel de la face et la distance focale idéale po
 **IRI**
 </dt> <dd>
 
-Valeurs de l’emplacement de l’IRIS que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.
+valeurs de l’emplacement de l’iris que le Windows Biometric Framework utilisé pour déterminer qu’un individu était présent.
 
 <dl> <dt>
 
@@ -124,8 +124,8 @@ Distance entre l’emplacement réel du diaphragme et la distance focale idéale
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                                                                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (inclure WinBio. h pour les applications clientes ou les \_ cartes WinBio. h pour les adaptateurs)</dt> </dl> |
 
 

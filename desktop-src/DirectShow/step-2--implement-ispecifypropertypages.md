@@ -1,15 +1,15 @@
 ---
-description: Implémentez l’interface ISpecifyPropertyPages dans votre filtre dans le cadre de la création d’une page de propriétés de filtre pour un filtre DirectShow personnalisé.
+description: implémentez l’interface ISpecifyPropertyPages dans votre filtre dans le cadre de la création d’une page de propriétés de filtre pour un filtre de DirectShow personnalisé.
 ms.assetid: 8be83564-07ad-47cf-9538-73136f42ba79
 title: Étape 2. Implémenter ISpecifyPropertyPages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe37a22c6ba9c14f8656ac41294360569316be1a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1c2d1df86ef6e8b3e59f14a3efe1708a286761c9ba6425a7710a692ed6dcd3bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112410052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951848"
 ---
 # <a name="step-2-implement-ispecifypropertypages"></a>Étape 2. Implémenter ISpecifyPropertyPages
 

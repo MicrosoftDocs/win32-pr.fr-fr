@@ -1,17 +1,17 @@
 ---
-title: Conseils sur les performances des appels RPC divers
+title: Astuces des performances RPC diverses
 description: Cette section décrit divers conseils relatifs aux performances pour le développement de serveurs RPC haute performance. Cette section fournit de nombreux conseils qui font référence au client RPC. Le développement d’un client RPC permet au serveur RPC d’effectuer moins de travail.
 ms.assetid: 82278f4b-1273-45e8-9078-ad919a4711f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82b0b43f996cc0a165076f1d7aab1b69e6fb9b73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c0946b83aae296f7b908babca9135c35a0afe8dbe7588a8292ad66bc19dc6488
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928068"
 ---
-# <a name="miscellaneous-rpc-performance-tips"></a>Conseils sur les performances des appels RPC divers
+# <a name="miscellaneous-rpc-performance-tips"></a>Astuces des performances RPC diverses
 
 Cette section décrit divers conseils relatifs aux performances pour le développement de serveurs RPC haute performance. Cette section fournit de nombreux conseils qui font référence au client RPC. Le développement d’un client RPC permet au serveur RPC d’effectuer moins de travail.
 
@@ -25,7 +25,7 @@ Si la sécurité est utilisée, essayez d’utiliser le suivi d’identité stat
 
 ## <a name="use-the-rpcgetauthorizationcontextforclient-function"></a>Utiliser la fonction RpcGetAuthorizationContextForClient
 
-Si vous devez vérifier l’accès dans Windows XP, utilisez la fonction [**RpcGetAuthorizationContextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient) . Les contextes d’autorisation qui en résultent permettent des contrôles d’accès très rapides, qui sont mis en cache efficacement par le runtime RPC.
+si vous devez vérifier l’accès dans Windows XP, utilisez la fonction [**RpcGetAuthorizationContextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient) . Les contextes d’autorisation qui en résultent permettent des contrôles d’accès très rapides, qui sont mis en cache efficacement par le runtime RPC.
 
 ## <a name="do-not-modify-the-token-unless-necessary"></a>Ne modifiez pas le jeton, sauf si nécessaire
 
@@ -35,9 +35,9 @@ Si le suivi dynamique des identités est utilisé, ne modifiez pas le jeton de t
 
 Le mode de sérialisation par défaut pour le handle de contexte est sérialisé (exclusif). Envisagez d’effectuer tous les appels qui ne modifient pas l’état du handle de contexte en mode de sérialisation partagé. Pour plus d’informations, consultez [**RpcSsContextLockExclusive**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcsscontextlockexclusive) .
 
- 
+ 
 
- 
+ 
 
 
 

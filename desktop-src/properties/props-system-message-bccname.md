@@ -4,12 +4,12 @@ ms.assetid: ad888d32-956d-45c1-a73d-4799cc3ed320
 title: System. message. BccName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ce478d2ac0ec553b77d41f8741ce9dcf4ee1120
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe861d6ad42cc7d293a79eeb5bf8be4cd7fe494c6a9ea430693e8d7c22d6bc81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118724829"
 ---
 # <a name="systemmessagebccname"></a>System. message. BccName
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

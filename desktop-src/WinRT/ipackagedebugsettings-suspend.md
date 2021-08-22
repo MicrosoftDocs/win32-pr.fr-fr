@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shobjidl.idl
-ms.openlocfilehash: 385ddc856661090caec4345df6651605b67fe883
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0517ce3cca6a8e74f19b053897511062cefa252297d3a0e6633d4678c0deaa95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118822812"
 ---
 # <a name="ipackagedebugsettingssuspend-method"></a>IPackageDebugSettings :: suspend, méthode
 
@@ -65,7 +65,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque processus reçoit l’événement [**suspension**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) . Il peut être utile pour les développeurs d’effectuer un pas à pas détaillé de la façon dont leurs applications répondent à cet événement.
 

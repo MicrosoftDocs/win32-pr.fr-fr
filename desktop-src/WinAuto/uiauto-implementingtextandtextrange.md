@@ -25,12 +25,12 @@ keywords:
 - interfaces, ITextRangeProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f53429dc8ec137a83b6a40db377b5c84aeb36120
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 99baf1af267e67ffe3f75a83fb970c991e9ebe5674497db2a2edad8d9cc328b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104550592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826980"
 ---
 # <a name="text-and-textrange-control-patterns"></a>Modèles de contrôle Text et TextRange
 
@@ -46,7 +46,7 @@ Un objet de plage de texte est représenté par le modèle de contrôle **TextRa
 
 Pour plus d’informations sur les modèles de contrôle **Text** et **TextRange** , consultez [prise en charge d’UI Automation pour le contenu textuel](uiauto-ui-automation-textpattern-overview.md).
 
-À partir de Windows 8.1 fournisseurs peuvent implémenter l’interface [**ITextRangeProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider2) . Cela permet d’appeler des menus contextuels associés à une plage de texte. Cela prend en charge des scénarios tels que la correction automatique de texte ou la sélection de candidat de l’éditeur de méthode d’entrée (IME).
+à partir de Windows 8.1 fournisseurs peuvent implémenter l’interface [**ITextRangeProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider2) . Cela permet d’appeler des menus contextuels associés à une plage de texte. Cela prend en charge des scénarios tels que la correction automatique de texte ou la sélection de candidat de l’éditeur de méthode d’entrée (IME).
 
 Cette rubrique contient les sections suivantes.
 
@@ -101,7 +101,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                                                                        | Type de membre | Notes |
+| Membres nécessaires                                                                                        | Type de membre | Remarques |
 |---------------------------------------------------------------------------------------------------------|-------------|-------|
 | [**DocumentRange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-get_documentrange)                                             | Propriété    | Aucun  |
 | [**SupportedTextSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider-get_supportedtextselection)                           | Propriété    | Aucun  |
@@ -114,20 +114,20 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
- 
+ 
 
 Les propriétés et méthodes supplémentaires suivantes sont requises pour implémenter l’interface [**ITextProvider2**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2) .
 
 
 
-| Membres nécessaires                                                         | Type de membre | Notes |
+| Membres nécessaires                                                         | Type de membre | Remarques |
 |--------------------------------------------------------------------------|-------------|-------|
 | [**GetCaretRange**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider2-getcaretrange)         | Méthode      | Aucun  |
 | [**RangeFromAnnotation**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextprovider2-rangefromannotation) | Méthode      | Aucun  |
 
 
 
- 
+ 
 
 ## <a name="required-members-for-itextrangeprovider"></a>Membres requis pour **ITextRangeProvider**
 
@@ -135,7 +135,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                                                 | Type de membre | Notes |
+| Membres nécessaires                                                                 | Type de membre | Remarques |
 |----------------------------------------------------------------------------------|-------------|-------|
 | [**AddToSelection**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-addtoselection)               | Méthode      | Aucun  |
 | [**Répliqué**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-clone)                                 | Méthode      | Aucun  |
@@ -157,19 +157,19 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
- 
+ 
 
 Les propriétés et méthodes supplémentaires suivantes sont requises pour implémenter l’interface [**ITextRangeProvider2**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextrangeprovider2) .
 
 
 
-| Membres nécessaires                                                      | Type de membre | Notes                                      |
+| Membres nécessaires                                                      | Type de membre | Remarques                                      |
 |-----------------------------------------------------------------------|-------------|--------------------------------------------|
 | [**ShowContextMenu**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itextrangeprovider2-showcontextmenu) | Méthode      | Consultez la section « implémentation de ShowContextMenu ». |
 
 
 
- 
+ 
 
 Le modèle de contrôle **TextRange** n’a pas d’événements associés.
 
@@ -262,6 +262,6 @@ Les coordonnées d’écran du centre de la bitmap du signe insertion du systèm
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

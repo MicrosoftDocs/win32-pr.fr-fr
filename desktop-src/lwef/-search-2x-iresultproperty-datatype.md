@@ -3,9 +3,9 @@ title: Propriété de type de données IResultProperty (WdsSharedIDL. h)
 description: Type de données des propriétés.
 ms.assetid: 2bf83256-0d69-48f2-aa7d-d34dcba17050
 keywords:
-- Propriété DataType, fonctionnalités de l’environnement Windows héritées
-- Propriété DataType héritée fonctionnalités de l’environnement Windows, interface IResultProperty
-- Interface IResultProperty fonctionnalités d’environnement Windows héritées, propriété DataType
+- propriété DataType héritée Windows fonctionnalités d’environnement
+- propriété DataType héritée Windows fonctionnalités d’environnement, interface IResultProperty
+- interface IResultProperty Windows héritée fonctionnalités d’environnement, propriété DataType
 topic_type:
 - apiref
 api_name:
@@ -17,17 +17,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d887642594ed5ac7f78de1d4eac76fb4709f0dfa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f669fdbb01459e99edb0ccc9ba75fed1cbd60ebfe789fdb4393d217239cdc1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118755258"
 ---
 # <a name="iresultpropertydatatype-property"></a>IResultProperty ::D propriété ataType
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez plutôt l' [API Windows Search](../search/-search-reference-entry-page.md) . 
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez plutôt l' [API de recherche Windows](../search/-search-reference-entry-page.md) . 
 
 Type de données des propriétés.
 
@@ -55,7 +55,7 @@ retourne un pointeur vers le type de données des propriétés.
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                             |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | En-tête<br/>                   | <dl> <dt>WdsSharedIDL. h</dt> </dl> |
 

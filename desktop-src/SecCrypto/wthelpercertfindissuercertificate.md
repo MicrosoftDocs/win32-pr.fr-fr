@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wintrust.dll
-ms.openlocfilehash: 99135ac22509b288726732ca4a16248b304f294b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c6c7957e969d04eaf65014e023a5f64e0826b6285fb878d9afefbd7cda25721
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895831"
 ---
 # <a name="wthelpercertfindissuercertificate-function"></a>WTHelperCertFindIssuerCertificate fonction)
 
@@ -120,7 +120,7 @@ Pointeur vers une variable **DWORD** qui contient la valeur d’erreur de ce cer
 
 Certificat d’émetteur qui correspond au certificat de sujet spécifié par le paramètre *pChildContext* .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour trouver un certificat d’émetteur correspondant, les conditions suivantes doivent être remplies :
 
@@ -135,8 +135,8 @@ Pour trouver un certificat d’émetteur correspondant, les conditions suivantes
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Wintrust.dll</dt> </dl> |
 
 

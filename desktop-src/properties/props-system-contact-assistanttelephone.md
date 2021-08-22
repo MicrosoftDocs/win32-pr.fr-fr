@@ -4,12 +4,12 @@ ms.assetid: 2e3008b6-e427-468a-9381-f1d4866111c7
 title: System. contact. AssistantTelephone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f08074906e97819126d4dc449d2f81576c8960c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22f5569604caced9eb277d642341d8a3819c2a5ebe1d03effd96e9a0fa394ab5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118730311"
 ---
 # <a name="systemcontactassistanttelephone"></a>System. contact. AssistantTelephone
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

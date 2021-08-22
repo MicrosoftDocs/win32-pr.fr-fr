@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9252db845c5e1cc732adc295e1989fee83d4ac6e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b53d4ddeabdf343270664e2d65e17d44aeb7ba8f05a23d6f759a51fcc8e99579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118877907"
 ---
 # <a name="isoftkbdcreatesoftkeyboardlayoutfromxmlfile-method"></a>ISoftKbd :: CreateSoftKeyboardLayoutFromXMLFile, méthode
 
@@ -80,7 +80,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -88,7 +88,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                             |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                   |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                        |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Softkbdc. h</dt> </dl>  |
 | MIDL<br/>                      | <dl> <dt>Softkbd. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |

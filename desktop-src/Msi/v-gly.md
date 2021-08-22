@@ -1,15 +1,15 @@
 ---
-description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre V, par exemple volume.
+description: en savoir plus sur les concepts de Windows Installer qui commencent par la lettre V, par exemple volume.
 ms.assetid: d53147c3-5618-496f-b8b9-de20e1d33c01
 title: V (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22931a448c6dc1933e579af9d4f72d67ece354ca
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 087840f1791290da4cf82f1583370395a53ccd58f53beeb814ef819b9efa577d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942249"
 ---
 # <a name="v-windows-installer"></a>V (Windows Installer)
 
@@ -20,7 +20,7 @@ ms.locfileid: "112010682"
 <span id="_msi_volume_gly"></span><span id="_MSI_VOLUME_GLY"></span>**agrégat**
 </dt> <dd>
 
-Un support de stockage, tel qu’un disque ou une bande, formaté pour contenir des fichiers et des répertoires ;
+Stockage support, tel qu’un disque ou une bande, formaté pour contenir des fichiers et des répertoires.
 
 </dd> </dl>
 

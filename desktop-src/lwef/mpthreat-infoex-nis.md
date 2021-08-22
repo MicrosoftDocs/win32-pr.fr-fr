@@ -3,8 +3,8 @@ title: Structure MPTHREAT_INFOEX_NIS (MpClient. h)
 description: Contient des informations spécifiques à NIS.
 ms.assetid: 3887C5BF-B1F6-4420-B40A-9585E44BE7A9
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_INFOEX_NIS
-- PMPTHREAT_INFOEX_NIS des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_INFOEX_NIS
+- PMPTHREAT_INFOEX_NIS des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b4ed68432a2d0ebe78535a139fcc7b0882b9ba7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8320070f80000ec5c2b235a815dc075f96f82ddd3c6d56c4022b9d60759c3e44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118746898"
 ---
 # <a name="mpthreat_infoex_nis-structure"></a>\_Structure MPTHREAT INFOEX \_ NIS
 
@@ -94,8 +94,8 @@ Type : **MP \_ MIDL \_ String** de type LPWStr
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

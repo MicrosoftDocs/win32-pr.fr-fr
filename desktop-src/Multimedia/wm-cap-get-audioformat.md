@@ -3,7 +3,7 @@ title: Message WM_CAP_GET_AUDIOFORMAT (VFW. h)
 description: Le \_ message WM \_ Cap \_ AUDIOFORMAT obtient le format audio ou la taille du format audio. Vous pouvez envoyer ce message explicitement ou à l’aide des macros capGetAudioFormat et capGetAudioFormatSize.
 ms.assetid: 25e58863-2b1e-4ed8-9f34-c39617a15bc1
 keywords:
-- Message WM_CAP_GET_AUDIOFORMAT Windows Multimedia
+- message WM_CAP_GET_AUDIOFORMAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9508972c173c9e189bdc092a63d849adf3be739
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d247c035f251b387537f8e6c360adf79e6ed479d8d40e4f8fe8180e059dab3cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940737"
 ---
 # <a name="wm_cap_get_audioformat-message"></a>Message WM d' \_ \_ extraction de \_ AUDIOFORMAT
 
@@ -56,7 +56,7 @@ Pointeur vers une structure [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmea
 
 Retourne la taille, en octets, du format audio.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Étant donné que les formats audio compressés varient en fonction de la taille requise, les applications doivent d’abord récupérer la taille, puis allouer de la mémoire et enfin demander les données de format audio.
 

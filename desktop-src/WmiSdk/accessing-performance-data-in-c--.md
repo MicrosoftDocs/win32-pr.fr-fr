@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Accès aux données de performances en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b076e1ab15b934f347ee491711d7d3d1b8fbbe0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e566fb5803e598e42fac06d8f04fe3e71935008668e397a47d0226a96560eec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820326"
 ---
 # <a name="accessing-performance-data-in-c"></a>Accès aux données de performances en C++
 
@@ -100,7 +100,7 @@ La procédure suivante montre comment ajouter un énumérateur à un actualisate
 
         Un descripteur de propriété peut être passé à chaque instance [**IWbemObjectAccess**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemobjectaccess) pour récupérer la valeur actualisée. Le client doit appeler [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) pour libérer les pointeurs **IWbemObjectAccess** retournés par [**GetObjects**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects).
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’exemple de code C++ suivant énumère une classe à hautes performances, où le client récupère un handle de propriété à partir du premier objet et réutilise le handle pour le reste de l’opération d’actualisation. Chaque appel à la méthode [**Refresh**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemrefresher-refresh) met à jour le nombre d’instances et les données d’instance.
 

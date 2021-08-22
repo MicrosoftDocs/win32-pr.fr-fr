@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 18cd9ad6f8e0491700d5618e29a0a629e8045366
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1e5ce18e81e4d775fdc801517867491740a7dd5035fc730226cb084e5af7d41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732697"
 ---
 # <a name="enumforms-function"></a>EnumForms fonction)
 
@@ -94,7 +94,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -103,7 +103,7 @@ Si la fonction échoue, la valeur de retour est égale à zéro.
 
 Si l’appelant est distant et que le *niveau* est 2, la **valeur StringType** des structures d' [**informations de formulaire \_ \_ 2**](form-info-2.md) retournées est toujours la **chaîne \_ LANGPAIR**.
 
-Dans Windows Vista, les données de formulaire retournées par **EnumForms** sont récupérées à partir d’un cache local lorsque *hPrinter* fait référence à un serveur d’impression distant ou à une imprimante hébergée par un serveur d’impression et qu’il existe au moins une connexion ouverte à une imprimante sur le serveur d’impression distant. Dans toutes les autres configurations, les données du formulaire sont interrogées à partir du serveur d’impression distant.
+dans Windows Vista, les données de formulaire retournées par **EnumForms** sont récupérées à partir d’un cache local lorsque *hPrinter* fait référence à un serveur d’impression distant ou à une imprimante hébergée par un serveur d’impression et qu’il existe au moins une connexion ouverte à une imprimante sur le serveur d’impression distant. Dans toutes les autres configurations, les données du formulaire sont interrogées à partir du serveur d’impression distant.
 
 ## <a name="requirements"></a>Configuration requise
 

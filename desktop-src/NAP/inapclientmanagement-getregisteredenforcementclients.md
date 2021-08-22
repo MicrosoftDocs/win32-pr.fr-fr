@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7767f96c9b5410b3de9cfef3695193c0d5572b2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ae7854a36ffb1d313a1598764c5375a8146471c1b2fd930b4022948f147acc24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940207"
 ---
 # <a name="inapclientmanagementgetregisteredenforcementclients-method"></a>INapClientManagement :: GetRegisteredEnforcementClients, méthode
 
@@ -85,8 +85,8 @@ La méthode retourne un code d’État HRESULT incluant, sans s’y limiter, l�
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>NapManagement. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapManagement. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |

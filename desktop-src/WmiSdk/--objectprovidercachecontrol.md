@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: 53cfaa69afead4f436879f128a4d42e50d36fe67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4711f13afde50d512c3a7e210a0853ef9cc7606be096d95f86b144684a5add6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820689"
 ---
 # <a name="__objectprovidercachecontrol-class"></a>\_\_ObjectProviderCacheControl, classe
 
@@ -63,11 +63,11 @@ Intervalle de temps après lequel WMI libère une instance, une classe ou un fou
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ ObjectProviderCacheControl** est dérivée de [**\_ \_ CacheControl**](--cachecontrol.md). Pour plus d’informations sur l’utilisation de cette classe, consultez [déchargement d’un fournisseur](unloading-a-provider.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

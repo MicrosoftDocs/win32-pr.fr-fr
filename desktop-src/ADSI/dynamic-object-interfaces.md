@@ -7,12 +7,12 @@ keywords:
 - interfaces d’objets dynamiques ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3c1af00027053cf194769c1a224c59903252093
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0dc14ecdbc7e4497054cb8e0176da5ea156dad68f44c958490f711ccf35a1685
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023637"
 ---
 # <a name="dynamic-object-interfaces"></a>Interfaces d’objets dynamiques
 
@@ -26,9 +26,9 @@ Cette section décrit les interfaces d’objets dynamiques suivantes :
 -   [**IADsServiceOperations**](/windows/desktop/api/Iads/nn-iads-iadsserviceoperations)
 -   [**IADsSession**](/windows/desktop/api/Iads/nn-iads-iadssession)
 
- 
+ 
 
- 
+ 
 
 
 

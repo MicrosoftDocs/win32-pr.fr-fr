@@ -4,18 +4,18 @@ ms.assetid: 09802282-72ad-43f1-8cce-4cdc68b01e87
 title: ModuleSignature, table
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d75e3bb013472c49d18fa44b840ce07b11728faf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92f269215fef06af5eeacc80f1356c2ad2226c20075c1d09f1e128c062438508
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945337"
 ---
 # <a name="modulesignature-table"></a>ModuleSignature, table
 
-La table ModuleSignature est une table obligatoire. Il contient toutes les informations nécessaires pour identifier un module de fusion. L’outil de fusion ajoute cette table au fichier. msi s’il n’en existe pas déjà une. La table ModuleSignature d’un module de fusion n’a qu’une seule ligne contenant le ModuleID, la langue et la version. Toutefois, la table ModuleSignature d’un fichier. msi contient une ligne contenant ces informations pour chaque fichier. msm qui a été fusionné dans celui-ci.
+La table ModuleSignature est une table obligatoire. Il contient toutes les informations nécessaires pour identifier un module de fusion. L’outil de fusion ajoute cette table au fichier .msi s’il n’en existe pas déjà une. La table ModuleSignature d’un module de fusion n’a qu’une seule ligne contenant le ModuleID, la langue et la version. Toutefois, la table ModuleSignature d’un fichier .msi contient une ligne contenant ces informations pour chaque fichier. msm qui a été fusionné dans celui-ci.
 
-Les outils de fusion et de vérification vérifient la table ModuleSignature dans les fichiers. msi pour déterminer si elle contient tous les modules de fusion dépendants requis par le module de fusion actuel (consultez la [table ModuleDependency](moduledependency-table.md)) et si le package d’installation a été précédemment fusionné avec des modules de fusion en conflit (voir la [table ModuleExclusion](moduleexclusion-table.md)).
+Les outils de fusion et de vérification vérifient la table ModuleSignature dans .msi fichiers pour déterminer si elle contient tous les modules de fusion dépendants requis par le module de fusion actuel (consultez la [table ModuleDependency](moduledependency-table.md)) et si le package d’installation a été précédemment fusionné avec des modules de fusion en conflit (consultez la [table ModuleExclusion](moduleexclusion-table.md)).
 
 La table ModuleSignature contient les colonnes suivantes.
 
@@ -24,7 +24,7 @@ La table ModuleSignature contient les colonnes suivantes.
 | Colonne   | Type                         | Clé | Nullable |
 |----------|------------------------------|-----|----------|
 | ModuleID | [Identificateur](identifier.md) | O   | N        |
-| Language | [Integer](integer.md)       | O   | N        |
+| Langage | [Integer](integer.md)       | O   | N        |
 | Version  | [Version](version.md)       |     | N        |
 
 

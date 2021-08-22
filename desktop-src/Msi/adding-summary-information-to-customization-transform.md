@@ -4,18 +4,18 @@ ms.assetid: 586f6c43-7449-4d06-9201-9b4b4919871e
 title: Ajout d’informations de résumé à la transformation de personnalisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64957fcf8f29ab8793517015c7018292ba9a6e69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4ea4c9aa505d425bfd06fe5cac1f45666e794624618db14100ee5f517dd3048
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639469"
 ---
 # <a name="adding-summary-information-to-customization-transform"></a>Ajout d’informations de résumé à la transformation de personnalisation
 
 Pour appliquer la transformation de personnalisation lors de l’installation du produit, vous devez ajouter un [flux d’informations de synthèse](summary-information-stream.md) au fichier de transformation MNPtrans. MST généré lors de la [génération d’une transformation de personnalisation](generating-a-customization-transform.md).
 
-Vous pouvez générer des informations de synthèse pour une transformation à l’aide de [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa) ou de la [**méthode CreateTransformSummaryInfo**](database-createtransformsummaryinfo.md). L’extrait de code suivant, Sum.vbs, illustre la [**méthode CreateTransformSummaryInfo**](database-createtransformsummaryinfo.md) et est destiné à être utilisé avec Windows Script Host. Notez que cet exemple n’effectue aucune validation et ne supprime aucune condition d’erreur.
+Vous pouvez générer des informations de synthèse pour une transformation à l’aide de [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa) ou de la [**méthode CreateTransformSummaryInfo**](database-createtransformsummaryinfo.md). l’extrait de code suivant, Sum.vbs, illustre la [**méthode CreateTransformSummaryInfo**](database-createtransformsummaryinfo.md) et est destiné à être utilisé avec Windows hôte de Script. Notez que cet exemple n’effectue aucune validation et ne supprime aucune condition d’erreur.
 
 
 ```VB

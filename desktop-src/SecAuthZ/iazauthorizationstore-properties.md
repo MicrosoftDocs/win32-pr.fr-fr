@@ -4,12 +4,12 @@ ms.assetid: FAA581E5-98F4-48DD-9B21-911896AE5A31
 title: Propriétés IAzAuthorizationStore
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ecd324ce31397007ac8e665df37d2308217673e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 344698d1bf4a29a2ab0ab735f853eb4356943d9fb21b0c47720128b288947a97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118913445"
 ---
 # <a name="iazauthorizationstore-properties"></a>Propriétés IAzAuthorizationStore
 

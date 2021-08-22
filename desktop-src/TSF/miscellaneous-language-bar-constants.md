@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91fd1a371581dea02226ba6539ca25a06ef98e75
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 681477018ad9afbfd42de3a1756cf68c4efe4f20405a7e3d566078927e75817b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118876487"
 ---
 # <a name="miscellaneous-language-bar-constants"></a>Constantes diverses de la barre de langage
 
@@ -37,7 +37,7 @@ Les constantes diverses de la barre de langage définissent certaines propriét�
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -45,7 +45,7 @@ Les constantes diverses de la barre de langage définissent certaines propriét�
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                            |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                  |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                       |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ctfutb. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Ctfutb. idl</dt> </dl> |
 

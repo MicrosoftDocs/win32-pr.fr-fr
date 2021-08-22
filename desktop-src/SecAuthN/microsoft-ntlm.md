@@ -1,19 +1,19 @@
 ---
-description: Le protocole de stimulation/réponse de Windows (NTLM) est le protocole d’authentification utilisé sur les réseaux qui incluent des systèmes exécutant le système d’exploitation Windows et sur des systèmes autonomes.
+description: Windows la stimulation/réponse (NTLM) est le protocole d’authentification utilisé sur les réseaux qui incluent des systèmes exécutant le système d’exploitation Windows et sur des systèmes autonomes.
 ms.assetid: 35a38858-d36f-45c9-95f4-2541a182f5ac
 title: Microsoft NTLM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9723f24d5913adefe70d4e238de0591790a34bfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcb3d7f272c831c6bf9ac5efd30b8fa67bc7ad27d78d43794e5110fb63d1fe49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921690"
 ---
 # <a name="microsoft-ntlm"></a>Microsoft NTLM
 
-Le protocole de stimulation/réponse de Windows (NTLM) est le protocole d’authentification utilisé sur les réseaux qui incluent des systèmes exécutant le système d’exploitation Windows et sur des systèmes autonomes.
+Windows la stimulation/réponse (NTLM) est le protocole d’authentification utilisé sur les réseaux qui incluent des systèmes exécutant le système d’exploitation Windows et sur des systèmes autonomes.
 
 Le [*package de sécurité*](../secgloss/s-gly.md) Microsoft [*Kerberos*](../secgloss/k-gly.md) ajoute une sécurité supérieure à celle de NTLM pour les systèmes d’un réseau. Bien que Microsoft *Kerberos* soit le protocole de choix, NTLM est toujours pris en charge. NTLM doit également être utilisé pour l’authentification d’ouverture de session sur des systèmes autonomes. Pour plus d’informations sur Kerberos, consultez [Microsoft Kerberos](microsoft-kerberos.md).
 

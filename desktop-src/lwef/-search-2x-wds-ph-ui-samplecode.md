@@ -4,17 +4,17 @@ description: L’exemple de code suivant montre comment créer des extensions d�
 ms.assetid: b2d5bcdb-ad71-44db-9bea-486ffaad3655
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4da87609de9bb8572e9c4c607a7452abbe4eba10
-ms.sourcegitcommit: b9a94cea8f83153214af4c09509e1cc61a1bb616
+ms.openlocfilehash: eb33a63ff49309805a3dcf54a6ec19ecc42c66d3425d5f4e4921e46e7bc29a1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "104381673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118753225"
 ---
 # <a name="custom-protocol-handler-user-interface-sample-code"></a>Exemple de code d’interface utilisateur du gestionnaire de protocole personnalisé
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
 L’exemple de code suivant montre comment créer des extensions d’interface utilisateur pour un gestionnaire de protocole personnalisé.
 
@@ -26,7 +26,7 @@ L’exemple de code suivant montre comment créer des extensions d’interface u
 >
 > Copyright (C) Microsoft. Tous droits réservés.
 
- 
+ 
 
 
 ```
@@ -500,9 +500,9 @@ STDMETHODIMP CSampleShellFolder::SetNameOf(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

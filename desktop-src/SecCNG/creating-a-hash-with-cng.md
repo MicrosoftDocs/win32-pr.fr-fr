@@ -4,12 +4,12 @@ ms.assetid: f36b7e36-4377-4940-8951-6caba6e3ce8a
 title: Création d’un hachage avec CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 735f95182b63facee687f408ea4a07e09399e562
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f57d56c4be7dc2f947dbb1869e63fb1789f57e9b4fe6b3a7a06e3cce15580ab8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907818"
 ---
 # <a name="creating-a-hash-with-cng"></a>Création d’un hachage avec CNG
 
@@ -226,7 +226,7 @@ Cleanup:
 
 ## <a name="creating-a-reusable-hashing-object"></a>Création d’un objet de hachage réutilisable
 
-À compter de Windows 8 et de Windows Server 2012, vous pouvez créer un objet de hachage réutilisable pour les scénarios qui nécessitent le calcul de plusieurs hachages ou HMAC en succession rapide. Pour ce faire, spécifiez l' **\_ \_ \_ indicateur de hachage de hachage BCRYPT** lors de l’appel de la fonction [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) . Tous les fournisseurs d’algorithmes de hachage Microsoft prennent en charge cet indicateur. Un objet de hachage créé à l’aide de cet indicateur peut être réutilisé immédiatement après l’appel de [**BCryptFinishHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptfinishhash) comme s’il avait été créé récemment en appelant [**BCryptCreateHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptcreatehash). Pour créer un objet de hachage réutilisable, procédez comme suit :
+à partir de Windows 8 et Windows Server 2012, vous pouvez créer un objet de hachage réutilisable pour les scénarios qui nécessitent le calcul de plusieurs hachages ou hmac en succession rapide. Pour ce faire, spécifiez l' **\_ \_ \_ indicateur de hachage de hachage BCRYPT** lors de l’appel de la fonction [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) . Tous les fournisseurs d’algorithmes de hachage Microsoft prennent en charge cet indicateur. Un objet de hachage créé à l’aide de cet indicateur peut être réutilisé immédiatement après l’appel de [**BCryptFinishHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptfinishhash) comme s’il avait été créé récemment en appelant [**BCryptCreateHash**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptcreatehash). Pour créer un objet de hachage réutilisable, procédez comme suit :
 
 1.  Ouvrez un fournisseur d’algorithme qui prend en charge l’algorithme de hachage souhaité. Appelez la fonction [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) et spécifiez l’identificateur d’algorithme approprié dans le paramètre *pszAlgId* et l' **\_ \_ \_ indicateur de réutilisabilité de hachage BCRYPT** dans le paramètre *dwFlags* . La fonction retourne un handle au fournisseur.
 2.  Pour créer l’objet de hachage, procédez comme suit :

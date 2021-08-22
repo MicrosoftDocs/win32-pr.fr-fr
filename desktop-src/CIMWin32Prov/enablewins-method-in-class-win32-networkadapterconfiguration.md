@@ -1,5 +1,5 @@
 ---
-description: EnableWINS &\# 32 ; La méthode statique de la classe WMI active les paramètres WINS (Windows Internet Service de nommage) spécifiques à TCP/IP, mais indépendamment de la carte réseau.
+description: EnableWINS &\# 32 ; la méthode statique de la classe WMI active les paramètres WINS (Windows Internet Service de nommage) spécifiques à TCP/IP, mais indépendamment de la carte réseau.
 ms.assetid: ce0fb170-978f-4d70-bced-e530e43da719
 ms.tgt_platform: multiple
 title: Méthode EnableWINS de la classe Win32_NetworkAdapterConfiguration
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 77f5ba32606ff228908e8b7a1559a73ae5139e9c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1ce820e515bb72cbd2521521726f2b6962c49ee1b453781b5d17993c45e0d22d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676502"
 ---
 # <a name="enablewins-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode EnableWINS de la \_ classe Win32 NetworkAdapterConfiguration
 
-La méthode statique de la [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **EnableWINS** permet aux paramètres WINS (Windows Internet service de nommage) spécifiques à TCP/IP, mais indépendamment de la carte réseau.
+la méthode statique de la [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **EnableWINS** permet Windows paramètres WINS (Internet Service de nommage) spécifiques à TCP/IP, mais indépendamment de la carte réseau.
 
 Cette rubrique utilise la syntaxe format MOF (MOF). Pour plus d’informations sur l’utilisation de cette méthode, consultez [appel d’une méthode](/windows/desktop/WmiSdk/calling-a-method).
 

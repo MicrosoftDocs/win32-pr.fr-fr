@@ -4,16 +4,16 @@ ms.assetid: 39c6d082-415f-4375-8cad-6d4c734d277f
 title: 'IEnumMedia :: Next, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 711e9c844c46aab6ca90988d4e456e926716b201
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c526ce608066f8b3e67affb10bd777042d0d2e93cf02887ba5bfd49a744e931a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118865929"
 ---
 # <a name="ienummedianext-method"></a>IEnumMedia :: Next, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **suivante** obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération.
 
@@ -55,7 +55,7 @@ Pointeur vers le nombre d’éléments réellement fournis. Peut avoir la **vale
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -71,11 +71,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**ITMedia**](itmedia.md) retournée par **IEnumMedia :: Next**. L’application doit appeler **Release** sur l’interface **ITMedia** pour libérer les ressources qui lui sont associées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

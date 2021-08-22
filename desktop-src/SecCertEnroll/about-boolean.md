@@ -4,12 +4,12 @@ ms.assetid: 17388e0c-bc9e-41b6-b339-e5ae59a12e74
 title: BOOLEAN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4f95f31ef92414c2c7282d3bd16403f6c307013
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9095d12d978dd8ac54214d93b9109bc4ee4a0358274f9790f173369c640e246e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905028"
 ---
 # <a name="boolean-certificate-enrollment-api"></a>BOOLÉEN (API d’inscription de certificats)
 

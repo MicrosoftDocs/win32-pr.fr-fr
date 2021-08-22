@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fdcdfc2cd278ab452d48ecb1c254bdb00ffbb7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6898ed6484a66e1c0d5fa498b0352498c0a57fbe91a74f738e2c6438511aef21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785821"
 ---
 # <a name="dm_getdefid-message"></a>\_Message GETDEFID DM
 
@@ -55,7 +55,7 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 Si un bouton de commande par défaut existe, le mot de poids fort de la valeur de retour contient la valeur **DC \_ HASDEFID** et le mot de poids faible contient l’identificateur de contrôle. Sinon, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**DefDlgProc**](/windows/desktop/api/Winuser/nf-winuser-defdlgprocw) traite ce message.
 

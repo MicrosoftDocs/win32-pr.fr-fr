@@ -4,12 +4,12 @@ description: Balises de sortie vocale Microsoft Agent
 ms.assetid: b7939974-bc54-4dd8-8e79-3ebd24e76215
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e712285b8160cf12817890ac42c4d49e95d72a2b
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: a27add35cc9be72a002cdb1a6fba60ef61d47cca61ef532a6d80fd6ed4a5794d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747885"
 ---
 # <a name="microsoft-agent-speech-output-tags"></a>Balises de sortie vocale Microsoft Agent
 
@@ -26,7 +26,7 @@ Les balises de sortie vocale utilisent les règles de syntaxe suivantes :
 
 Sauf indication contraire ou modification par une autre balise, la sortie vocale conserve la caractéristique définie par la balise dans le texte spécifié dans une méthode [**Speak**](speak-method.md) unique. La sortie vocale est automatiquement réinitialisée via les paramètres définis par l’utilisateur après la fin d’une méthode **Speak** .
 
-Certaines balises incluent des chaînes entre guillemets. Pour certains langages de programmation, tels que Visual Basic Scripting Edition (VBScript) et Visual Basic, cela signifie que vous devrez peut-être utiliser deux guillemets pour désigner le paramètre de la balise ou concaténer un guillemet double comme faisant partie de la chaîne. Ce dernier s’affiche dans cet exemple de Visual Basic :
+Certaines balises incluent des chaînes entre guillemets. pour certains langages de programmation, tels que Visual Basic scripting Edition (VBScript) et Visual Basic, cela signifie que vous devrez peut-être utiliser deux guillemets pour désigner le paramètre de la balise ou concaténer un guillemet double comme faisant partie de la chaîne. ce dernier s’affiche dans cet exemple de Visual Basic :
 
 
 ```

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c9020510030d3b3d4b30e066adfe67367618fb3d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf6c7793af3cb7866ddaaaae8823acd91ed10ac71d939af8bc9e71eff768d75f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118657654"
 ---
 # <a name="cbasewindowonsize-method"></a>Méthode CBaseWindow. OnSize
 
@@ -61,7 +61,7 @@ Hauteur de la zone cliente, en pixels.
 
 Retourne la **valeur true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode stocke les nouvelles largeur et hauteur. Pour récupérer ces valeurs, appelez les méthodes [**CBaseWindow :: GetWindowHeight**](cbasewindow-getwindowheight.md) et [**CBaseWindow :: GetWindowWidth**](cbasewindow-getwindowwidth.md) .
 
@@ -71,7 +71,7 @@ Cette méthode stocke les nouvelles largeur et hauteur. Pour récupérer ces val
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
