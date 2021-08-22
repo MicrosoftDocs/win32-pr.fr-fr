@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2a4796a97722f2d26142a2ff374414ca3ca1cf2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 37d014cf19c1410d21a8ee8c851fbee213e012a631ade04b6117e1cf949e22ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424484"
 ---
 # <a name="ms-ts-initial-program-attribute"></a>attribut ms-TS-initial-Program
 
@@ -42,7 +42,7 @@ Programme initial de session des services Terminal Server spécifie le chemin d�
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

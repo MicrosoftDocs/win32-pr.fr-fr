@@ -12,18 +12,18 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 609660d6f3161cbaaa5e0505daf9c6b9180b6c32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23e32d7a658e41f80eb2a4d8d743afc2c96f7a5a1b4135e646374b98e6acac26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619255"
 ---
 # <a name="pmkcachemode-security-element"></a>Élément PMKCacheMode (Security)
 
 L’élément PMKCacheMode (Security) indique si la mise en cache PMK sera utilisée. Cet élément est valide uniquement pour les réseaux définis par WPA2. La mise en cache de la clé PMK est décrite dans la spécification [802.11 i](https://standards.ieee.org/findstds/standard/802.11i-2004.html) .
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
 
 ``` syntax
 <xs:element name="PMKCacheMode"
@@ -52,8 +52,8 @@ L’élément est défini par l’élément de [**sécurité**](wlan-profilesche
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

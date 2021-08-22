@@ -8,16 +8,16 @@ keywords:
 - mise en cache des connexions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 857d102a52be9c7ccf40f9076892a85d5b3b8683
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa0fbf63d65a6941e986069289db201a237deb9ddc7058f291218c1496d0a40e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429026"
 ---
 # <a name="connection-caching"></a>Mise en cache des connexions
 
-Lorsqu’une connexion à un serveur est établie, le descripteur de connexion est mis en cache sur l’ordinateur client pour ce processus jusqu’à ce que la connexion soit fermée. Si le même serveur, le même port et les mêmes informations d’identification sont utilisés dans une connexion suivante et que seuls les indicateurs de liaison **\_ rapide \_ ADS** ou d’authentification de **\_ \_ liaison de serveur ADS** diffèrent, ADSI réutilise la connexion existante. ADSI effectue cette mise en cache des connexions par processus.
+Lorsqu’une connexion à un serveur est établie, le descripteur de connexion est mis en cache sur l’ordinateur client pour ce processus jusqu’à ce que la connexion soit fermée. si le même serveur, le même port et les mêmes informations d’identification sont utilisés dans le cadre d’une connexion suivante, et que seuls les indicateurs d’authentification de liaison de publicités **\_ FAST de \_ liaison** ou de **\_ serveur \_ ads** diffèrent, ADSI réutilise la connexion existante. ADSI effectue cette mise en cache des connexions par processus.
 
 Pour améliorer les performances, réutilisez les connexions existantes lorsque cela est possible.
 
@@ -64,9 +64,9 @@ Set cachedConn = Nothing
 
 
 
- 
+ 
 
- 
+ 
 
 
 

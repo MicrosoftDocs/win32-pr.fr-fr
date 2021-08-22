@@ -4,20 +4,20 @@ description: Lorsque vous définissez le symbole STRICT, vous activez des foncti
 ms.assetid: 4029c7a7-108a-40cb-8600-eb23968e9d8a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0400b67025f11dc9c58553f6835b2a8e2b36b4c
-ms.sourcegitcommit: 35bb565804eaeed7ac5503595753f59d120076dd
+ms.openlocfilehash: bca6ca814d69910620b89095cc18be3b37601329dc053937d5772243097537c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "106531441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118561793"
 ---
 # <a name="enabling-strict"></a>Activation du STRICT
 
-Lorsque vous définissez le symbole **strict** , vous activez des fonctionnalités qui requièrent plus de soin pour déclarer et utiliser des types. Cela vous permet d’écrire du code plus portable. Cela permet également de réduire le temps de débogage. L’activation de **strict** redéfinit certains types de données afin que le compilateur n’autorise pas l’affectation d’un type à un autre sans cast explicite. Cela s’avère particulièrement utile avec le code Windows. Les erreurs lors du passage de types de données sont signalées au moment de la compilation au lieu de provoquer des erreurs irrécupérables au moment de l’exécution.
+Lorsque vous définissez le symbole **strict** , vous activez des fonctionnalités qui requièrent plus de soin pour déclarer et utiliser des types. Cela vous permet d’écrire du code plus portable. Cela permet également de réduire le temps de débogage. L’activation de **strict** redéfinit certains types de données afin que le compilateur n’autorise pas l’affectation d’un type à un autre sans cast explicite. cela est particulièrement utile avec Windows code. Les erreurs lors du passage de types de données sont signalées au moment de la compilation au lieu de provoquer des erreurs irrécupérables au moment de l’exécution.
 
 Avec Visual C++, la vérification de type **stricte** est définie par défaut.
 
-Pour définir **strict** au niveau fichier par fichier, insérez une instruction **\# define** avant d’inclure Windows. h :
+pour définir **STRICT** au niveau fichier par fichier, insérez une instruction **\# define** avant d’inclure Windows. h :
 
 
 ```C++

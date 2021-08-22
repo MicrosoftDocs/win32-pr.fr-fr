@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3350fd4b9153319f9a1084ffc3fd37784eb6ad3e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a84530c401398f373d9ae7e2f02619f9b3abeaa9f1d51a9f550afe55a7347e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118609280"
 ---
 # <a name="imsrdpclient9-interface"></a>Interface IMsRdpClient9
 
@@ -43,7 +43,7 @@ L’interface **IMsRdpClient9** possède ces méthodes.
 | Méthode                                                                             | Description                                                                                                                                                                                 |
 |:-----------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attachEvent**](imsrdpclient9-attachevent.md)                                   | Joint un événement.<br/>                                                                                                                                                               |
-| [**Se connecter**](imstscax-connect.md)                                                | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle.<br/>                                                                                                        |
+| [**Connecter**](imstscax-connect.md)                                                | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle.<br/>                                                                                                        |
 | [**CreateVirtualChannels**](imstscax-createvirtualchannels.md)                    | Crée un objet de canal virtuel côté client pour chaque nom de canal virtuel spécifié.<br/>                                                                                            |
 | [**detachEvent**](imsrdpclient9-detachevent.md)                                   | Détache un événement.<br/>                                                                                                                                                               |
 | [**Déconnecter**](imstscax-disconnect.md)                                          | Déconnecte la connexion active.<br/>                                                                                                                                               |
@@ -51,10 +51,10 @@ L’interface **IMsRdpClient9** possède ces méthodes.
 | [**GetStatusText**](imsrdpclient7-getstatustext.md)                               | Récupère le texte d’État pour le code d’état spécifié.<br/>                                                                                                                         |
 | [**GetVirtualChannelOptions**](imsrdpclient-getvirtualchanneloptions.md)          | Récupère les options définies pour un canal virtuel.<br/>                                                                                                                                 |
 | [**Reconnexion**](imsrdpclient8-reconnect.md)                                       | Se reconnecte à la session à distance avec la largeur et la hauteur du nouveau bureau.<br/>                                                                                                          |
-| [**RequestClose**](imsrdpclient-requestclose.md)                                  | Demande un arrêt approprié du contrôle ActiveX Bureau à distance.<br/>                                                                                                              |
+| [**RequestClose**](imsrdpclient-requestclose.md)                                  | demande un arrêt approprié du contrôle de Bureau à distance ActiveX.<br/>                                                                                                              |
 | [**SendOnVirtualChannel**](imstscax-sendonvirtualchannel.md)                      | Envoie des données au serveur hôte de session Bureau à distance via un canal virtuel qui a été créé précédemment à l’aide de la méthode [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) .<br/> |
 | [**SendRemoteAction**](imsrdpclient8-sendremoteaction.md)                         | Entraîne l’exécution d’une action dans la session à distance.<br/>                                                                                                                          |
-| [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)          | Définit les options de canal virtuel pour le contrôle ActiveX Bureau à distance.<br/>                                                                                                         |
+| [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)          | définit les options de canal virtuel pour le contrôle de ActiveX Bureau à distance.<br/>                                                                                                         |
 | [**SyncSessionDisplaySettings**](imsrdpclient9-syncsessiondisplaysettings.md)     | Synchronise les paramètres d’affichage de la session.<br/>                                                                                                                                           |
 | [**UpdateSessionDisplaySettings**](/previous-versions/windows/desktop/legacy/mt703457(v=vs.85)) | Met à jour les paramètres d’affichage de la session.<br/>                                                                                                                                                |
 
@@ -87,9 +87,9 @@ L’interface **IMsRdpClient9** possède les propriétés suivantes.
 | [**DesktopHeight**](imstscax-desktopheight.md)<br/>                           | Lecture/écriture<br/> | Spécifie la hauteur, en pixels, du contrôle actuel sur le Bureau à distance initial.<br/>                                                                                                                                                           |
 | [**DesktopWidth**](imstscax-desktopwidth.md)<br/>                             | Lecture/écriture<br/> | Spécifie la largeur, en pixels, du contrôle actif sur le Bureau à distance initial.<br/>                                                                                                                                                            |
 | [**DisconnectedText**](imstscax-disconnectedtext.md)<br/>                     | Lecture/écriture<br/> | Spécifie le texte qui apparaît centré dans le contrôle avant qu’une connexion ne soit terminée.<br/>                                                                                                                                                  |
-| [**Domaine**](imstscax-domain.md)<br/>                                         | Lecture/écriture<br/> | Spécifie le domaine auquel l’utilisateur actuel se connecte.<br/>                                                                                                                                                                                     |
+| [**Domain**](imstscax-domain.md)<br/>                                         | Lecture/écriture<br/> | Spécifie le domaine auquel l’utilisateur actuel se connecte.<br/>                                                                                                                                                                                     |
 | [**ExtendedDisconnectReason**](imsrdpclient-extendeddisconnectreason.md)<br/> | Lecture seule<br/>  | Contient des informations étendues sur la raison de la déconnexion du contrôle.<br/>                                                                                                                                                                 |
-| [**FullScreen**](imsrdpclient-fullscreen.md)<br/>                             | Lecture/écriture<br/> | Détermine si le contrôle client est en mode plein écran.<br/>                                                                                                                                                                               |
+| [**Large**](imsrdpclient-fullscreen.md)<br/>                             | Lecture/écriture<br/> | Détermine si le contrôle client est en mode plein écran.<br/>                                                                                                                                                                               |
 | [**FullScreenTitle**](imstscax-fullscreentitle.md)<br/>                       | Écriture seule<br/> | Spécifie le titre de la fenêtre qui s’affiche lorsque le contrôle est en mode plein écran.<br/>                                                                                                                                                               |
 | [**HorizontalScrollBarVisible**](imstscax-horizontalscrollbarvisible.md)<br/> | Lecture seule<br/>  | Indique si le contrôle a affiché une barre de défilement horizontale.<br/>                                                                                                                                                                        |
 | [**MsRdpClientShell**](imsrdpclient5-msrdpclientshell.md)<br/>                | Lecture seule<br/>  | Récupère l’interface de paramètre client scriptable [**IMsRdpClientShell**](imsrdpclientshell.md).<br/>                                                                                                                                           |
@@ -99,7 +99,7 @@ L’interface **IMsRdpClient9** possède les propriétés suivantes.
 | [**SecuredSettings2**](imsrdpclient-securedsettings2.md)<br/>                 | Lecture seule<br/>  | Récupère un pointeur vers l’interface [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) . Cette interface peut être utilisée pour définir des paramètres sécurisés pour le contrôle client.<br/>                                               |
 | [**SecuredSettings3**](imsrdpclient7-securedsettings3.md)<br/>                | Lecture seule<br/>  | Récupère un objet qui prend en charge l’interface [**IMsRdpClientSecuredSettings2**](imsrdpclientsecuredsettings2.md) .<br/>                                                                                                                       |
 | [**SecuredSettingsEnabled**](imstscax-securedsettingsenabled.md)<br/>         | Lecture seule<br/>  | Indique si l’interface [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) est disponible. Autrement dit, si la page Web contenant le contrôle se trouve actuellement dans l’une des zones de sécurité d’URL Internet Explorer autorisées.<br/> |
-| [**Serveur**](imstscax-server.md)<br/>                                         | Lecture/écriture<br/> | Spécifie le nom du serveur auquel le contrôle actuel est connecté.<br/>                                                                                                                                                                 |
+| [**Serveurs**](imstscax-server.md)<br/>                                         | Lecture/écriture<br/> | Spécifie le nom du serveur auquel le contrôle actuel est connecté.<br/>                                                                                                                                                                 |
 | [**StartConnected**](imstscax-startconnected.md)<br/>                         | Lecture/écriture<br/> | Indique si le contrôle établira la connexion au serveur hôte de session Bureau à distance dès le démarrage.<br/>                                                                                                                                |
 | [**TransportSettings**](imsrdpclient5-transportsettings.md)<br/>              | Lecture seule<br/>  | Récupère ce qui a été passé via un script à l’interface [**IMsRdpClientTransportSettings**](imsrdpclienttransportsettings.md) .<br/>                                                                                                         |
 | [**TransportSettings2**](imsrdpclient6-transportsettings2.md)<br/>            | Lecture seule<br/>  | Récupère l’interface [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md) .<br/>                                                                                                                                           |
@@ -113,7 +113,7 @@ L’interface **IMsRdpClient9** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **IMsRdpClient9** a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 

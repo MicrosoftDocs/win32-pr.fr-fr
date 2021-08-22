@@ -4,12 +4,12 @@ ms.assetid: bb46b171-d70a-4e01-88c4-321a210a0220
 title: Propriété AVEncVideoCodedVideoAccessUnitSize (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be3a6e499749d862fdcc63f28b1a9a02f476d1c7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fcce45dbd232226aa5e0013cbead8e4ff2d8d82b5362d1d6a43cf45c2d030407
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103949980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663164"
 ---
 # <a name="avencvideocodedvideoaccessunitsize-property"></a>Propriété AVEncVideoCodedVideoAccessUnitSize
 
@@ -35,8 +35,8 @@ Cette propriété est retournée sous la forme d’une plage de valeurs. Pour ac
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

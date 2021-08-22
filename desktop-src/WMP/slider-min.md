@@ -3,7 +3,7 @@ title: Slider. min.
 description: L’attribut min spécifie ou récupère la valeur minimale de la plage définie par le contrôle Slider.
 ms.assetid: c67ef9b1-2bd0-4b05-823b-fe7cdb90721d
 keywords:
-- Slider. min. du lecteur Windows Media
+- slider. min Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a33d57fbd3449ec0b0e320246e9277c8c4e707ea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 12d1529ee7f27a2b0cafb392ed051eb89f92bf3ad21b69befa9f58b463bf46d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569072"
 ---
 # <a name="slidermin"></a>Slider. min.
 

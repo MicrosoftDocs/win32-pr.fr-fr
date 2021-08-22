@@ -1,9 +1,9 @@
 ---
 title: Événement d’erreur de l’objet AxWindowsMediaPlayer
-description: L’événement d’erreur se produit lorsque le contrôle du lecteur Windows Media a une condition d’erreur.
+description: l’événement d’erreur se produit lorsque le contrôle de Lecteur Windows Media a une condition d’erreur.
 ms.assetid: d28c18a9-c650-4169-989b-8727b7a5a831
 keywords:
-- Événement d’erreur de l’objet AxWindowsMediaPlayer Windows Media Player
+- événement d’erreur de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cfd3571538aa2cdd263a9f5d57e479e73818806
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a146f58276ab433fa11b4c5b212af43a92511328e22f70b93d0a45779f4eaa24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582157"
 ---
 # <a name="error-event-of-the-axwindowsmediaplayer-object"></a>Événement d’erreur de l’objet AxWindowsMediaPlayer
 
-L’événement d’erreur se produit lorsque le contrôle du lecteur Windows Media a une condition d’erreur.
+l’événement d’erreur se produit lorsque le contrôle de Lecteur Windows Media a une condition d’erreur.
 
 ``` syntax
 [C#]
@@ -96,7 +96,7 @@ End Sub
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPError. Item (VB et C#)**](iwmperror-item--vb-and-c.md)

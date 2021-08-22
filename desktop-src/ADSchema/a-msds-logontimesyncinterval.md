@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dbf23ca77bda9dac76f02986be1c05c80559199
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fa27a1d6281eda7eea9f88a11c4ca6632422a1cfd9f0cb471aab513018c56150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684633"
 ---
 # <a name="ms-ds-logon-time-sync-interval-attribute"></a>attribut ms-DS-Logon-Time-Sync-Interval
 
@@ -36,7 +36,7 @@ Cet attribut contrôle la granularité, en jours, à laquelle l’heure de la de
 | Fréquence des mises à jour  | Rarement, étant donné qu’il s’agit d’un paramètre de stratégie, il est mis à jour uniquement lorsqu’une modification de la stratégie à l’ensemble du domaine est souhaitée. |
 | Attribute-Id      | 1.2.840.113556.1.4.1784                                                                                    |
 | System-ID-GUID    | ad7940f8-e43a-4a42-83bc-d688e59ea605                                                                       |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                                                                       |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                                                                       |
 
 
 
@@ -44,7 +44,7 @@ Cet attribut contrôle la granularité, en jours, à laquelle l’heure de la de
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d71149bfeceeb6c17cafa27f56bb15bb184ead06
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c3357322b2f05ba5d9abfd51dbb7d53778cabcd5dbf6f8163af0163e8cce07f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611496"
 ---
 # <a name="randomdelay-calendartriggertype-element"></a>Élément RandomDelay (calendarTriggerType)
 
@@ -50,8 +50,8 @@ L’élément **RandomDelay** est défini par le type complexe [**calendarTrigge
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52de0c57c159c0e875958d19611cadf42cc2b98d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ac2bf2c828be70fe5b35f182cf7ccd2ea663e63321a6f2ea5a63539d1adbc98c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686065"
 ---
 # <a name="ms-dfs-ttl-v2-attribute"></a>attribut ms-DFS-TTL-v2
 
@@ -36,13 +36,13 @@ TTL associée à la racine ou au lien DFS. À utiliser au moment de la référen
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2035              |
 | System-ID-GUID    | ea944d31-864a-4349-ada5-062e2c614f5e |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

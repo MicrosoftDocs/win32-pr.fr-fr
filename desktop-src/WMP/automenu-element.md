@@ -3,19 +3,19 @@ title: Élément automenu
 description: Élément automenu
 ms.assetid: 670c9d85-6362-4068-b283-e4ca17ed43b3
 keywords:
-- Apparences du lecteur Windows Media, élément automenu
+- skins Lecteur Windows Media, élément automenu
 - Skins, élément automenu
 - Élément automenu
 - référence pour les apparences, élément automenu
 - éléments, MENU
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77dc15db3089c48723084642d68787c04436d41a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 75a77036ffd88d514e890d92921deea5bae9d9fba1856fe324bd41c70dbbfc92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582958"
 ---
 # <a name="automenu-element"></a>Élément automenu
 
@@ -31,14 +31,14 @@ L’élément **automenu** prend en charge la méthode suivante.
 
 
 
- 
+ 
 
 L’élément **automenu** prend en charge les attributs ambiants suivants : gauche et haut.
 
 > [!Note]  
-> Cet élément requiert le lecteur Windows Media série 9 ou une version ultérieure.
+> cet élément requiert Lecteur Windows Media série 9 ou une version ultérieure.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -47,9 +47,9 @@ L’élément **automenu** prend en charge les attributs ambiants suivants : ga
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

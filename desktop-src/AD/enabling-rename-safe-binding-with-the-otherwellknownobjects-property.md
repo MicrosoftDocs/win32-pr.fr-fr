@@ -9,12 +9,12 @@ keywords:
 - Active Directory, utilisation de, liaison, liaison de renommage sécurisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7114fa6dfb44625433d8da1c57491a13aefa7cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 446f669adc9a59f9f8aba93e852546fe3991952857469d6f37978d9cf91a7666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695318"
 ---
 # <a name="enabling-rename-safe-binding-with-the-otherwellknownobjects-property"></a>Activation de la liaison de Rename-Safe avec la propriété otherWellKnownObjects
 
@@ -68,9 +68,9 @@ Après la liaison à cet objet, vous pouvez utiliser les interfaces COM ADSI pou
 
 Pour plus d’informations et pour obtenir un exemple de code qui montre comment ajouter un objet à l’attribut **otherWellKnownObjects** , consultez l' [exemple de code pour la création d’un objet conteneur](example-code-for-creating-a-container-object.md).
 
- 
+ 
 
- 
+ 
 
 
 

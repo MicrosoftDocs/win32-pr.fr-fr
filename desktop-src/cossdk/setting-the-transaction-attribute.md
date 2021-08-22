@@ -4,12 +4,12 @@ ms.assetid: b0d701c7-47ef-4034-873f-dd4428efb4c7
 title: Définition de l’attribut de transaction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c0690a50f79c77a18b089cec1865dfbb9e7f428
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: de6310d2544090d4b551a93782b4756b3d89f2d6d365dfc09aec4658d5d3e1b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546216"
 ---
 # <a name="setting-the-transaction-attribute"></a>Définition de l’attribut de transaction
 
@@ -31,7 +31,7 @@ Vous devez répéter cette procédure pour chaque composant.
 
 ## <a name="to-set-the-attribute-value-programmatically"></a>Pour définir la valeur de l’attribut par programmation
 
-Les programmeurs qui utilisent Microsoft Visual Basic peuvent définir l’attribut de transaction avec **MTSTransactionMode**, une propriété de module de classe pour les projets DLL ActiveX. Visual Basic mappe votre sélection à la valeur d’attribut de transaction COM+ équivalente et publie la valeur dans la bibliothèque de types de votre composant.
+les programmeurs qui utilisent Microsoft Visual Basic peuvent définir l’attribut de transaction avec **MTSTransactionMode**, une propriété de module de classe pour les projets ActiveX DLL. Visual Basic mappe votre sélection à la valeur d’attribut de transaction COM+ équivalente et publie la valeur dans la bibliothèque de types de votre composant.
 
 Le tableau suivant mappe chaque valeur de constante **MTSTransactionMode** à sa valeur de transaction com+ équivalente.
 

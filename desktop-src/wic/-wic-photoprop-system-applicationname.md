@@ -4,12 +4,12 @@ ms.assetid: bf4b310a-7e63-45c5-a327-2638fb31d676
 title: Stratégie de métadonnées de la photo System. ApplicationName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e36fac2a864cabfd7c1521d72357d187a8aea50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3084f21453a82c79925d4a164f5f847c3a24968009b7b8c4236ce3a40872dad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710918"
 ---
 # <a name="systemapplicationname-photo-metadata-policy"></a>Stratégie de métadonnées de la photo System. ApplicationName
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. Application
 
 $ $ \_ Nom_application ApplicationName
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                         | Format de disque |
+| Commande | Chemin                                         | Format de disque |
 |-------|----------------------------------------------|-------------|
 |       | /App1/IFD/{UShort = 305}                       | ascii       |
 |       | Programme/app13/irb/8bimiptc/iptc/Originating |             |
@@ -63,7 +63,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                         | Format de disque |
+| Commande | Chemin                                         | Format de disque |
 |-------|----------------------------------------------|-------------|
 |       | /App1/IFD/{UShort = 305}                       | ascii       |
 |       | /xmp/xmp:CreatorTool                         | unicode     |
@@ -80,7 +80,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                         |
+| Commande | Chemin                                         |
 |-------|----------------------------------------------|
 |       | /App1/IFD/{UShort = 305}                       |
 |       | /xmp/xmp:CreatorTool                         |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                       | Format de disque |
+| Commande | Chemin                                       | Format de disque |
 |-------|--------------------------------------------|-------------|
 |       | /IFD/{UShort = 305}                          | ascii       |
 |       | Programme/ifd/iptc/Originating              |             |
@@ -118,7 +118,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                       | Format de disque |
+| Commande | Chemin                                       | Format de disque |
 |-------|--------------------------------------------|-------------|
 |       | /IFD/{UShort = 305}                          | ascii       |
 |       | /ifd/xmp/xmp:CreatorTool                   | unicode     |
@@ -136,7 +136,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                       |
+| Commande | Chemin                                       |
 |-------|--------------------------------------------|
 |       | /IFD/{UShort = 305}                          |
 |       | /ifd/xmp/xmp:CreatorTool                   |
@@ -150,7 +150,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -4,18 +4,18 @@ ms.assetid: 9c1a4fa4-30b9-445f-8aee-46711355ace7
 title: Implémentation d’un encodeur WIC-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e65f969ba7c65e6860009b2fc998024d358301
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b7f0bf3c073b3658c6c6edda6cf0761e3d594965b83b1b54206a48b62c96727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710928"
 ---
 # <a name="implementing-a-wic-enabled-encoder"></a>Implémentation d’un encodeur WIC-Enabled
 
 ## <a name="introduction"></a>Introduction
 
-L’implémentation d’un encodeur WIC (Windows Imaging Component) requiert l’écriture de deux classes, comme c’est également le cas pour l’implémentation d’un décodeur WIC. Les interfaces sur ces classes correspondent directement aux responsabilités d’encodeur décrites dans la section [encodage](-wic-howwicworks.md) du fonctionnement du composant de création d’images Windows.
+l’implémentation d’un encodeur wic (Windows Imaging Component) requiert l’écriture de deux classes, comme c’est également le cas pour l’implémentation d’un décodeur wic. les interfaces sur ces classes correspondent directement aux responsabilités d’encodeur décrites dans la section [encodage](-wic-howwicworks.md) du composant de création d’images Windows.
 
 L’une des classes fournit des services au niveau du conteneur et gère la sérialisation des trames d’image individuelles dans le conteneur. Cette classe implémente l’interface [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) . Si votre format d’image prend en charge les métadonnées au niveau du conteneur, vous devez également implémenter l’interface [**IWICMetadataBlockWriter**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter) sur cette classe.
 
@@ -45,7 +45,7 @@ Dans certains cas, tels que les formats bruts, l’auteur du codec peut ne pas s
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

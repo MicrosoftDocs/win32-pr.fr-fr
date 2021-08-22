@@ -1,19 +1,19 @@
 ---
-description: Éléments de l’interface Windows Sockets 2 (Winsock) pour multipoint et multidiffusion.
+description: Windows Éléments d’interface de sockets 2 (Winsock) pour multipoint et multidiffusion.
 ms.assetid: c6f704cf-031b-4714-9f07-2d7715a157a0
-title: Éléments de l’interface Windows Sockets 2 pour multipoint et multidiffusion
+title: Windows Sockets 2 éléments d’interface pour multipoint et multidiffusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad86905fe19c5c4c603db488874039b7cc8a0b2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcf2422d8171a041f75ba8abed6ea490982187af3affb3d3c3d1349984210ce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558851"
 ---
-# <a name="windows-sockets-2-interface-elements-for-multipoint-and-multicast"></a>Éléments de l’interface Windows Sockets 2 pour multipoint et multidiffusion
+# <a name="windows-sockets-2-interface-elements-for-multipoint-and-multicast"></a>Windows Sockets 2 éléments d’interface pour multipoint et multidiffusion
 
-Les mécanismes qui ont été incorporés dans Windows Sockets 2 pour l’utilisation des fonctionnalités multipoint peuvent être résumés comme suit :
+les mécanismes qui ont été incorporés dans Windows sockets 2 pour l’utilisation des fonctionnalités multipoint peuvent être résumés comme suit :
 
 -   Trois bits d’attribut dans la structure [**WSAPROTOCOL \_ info**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) .
 -   Quatre indicateurs définis pour le paramètre *dwFlags* de [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa).

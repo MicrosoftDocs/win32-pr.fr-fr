@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 573b56dda0479f58595b0849f6443fd8a2e67e71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 48481a701b7e78de372f5579dab5c9d5976a68063958b0812d6ae1ddc08b109a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118631695"
 ---
 # <a name="installerenablelog-method"></a>Installer. EnableLog, méthode
 
@@ -62,7 +62,7 @@ Chaîne obligatoire qui contient des lettres représentant les types de messages
 | p     | Table des propriétés de vidage ; « property = value » à l’arrêt du moteur                                          |
 | \+    | Ajouter au fichier journal existant.                                                                           |
 | !     | Videz chaque ligne dans le fichier journal.                                                                       |
-| x     | Informations supplémentaires sur le débogage. Cette option est disponible uniquement avec Windows Server 2003.                      |
+| x     | Informations supplémentaires sur le débogage. cette option est disponible uniquement avec Windows Server 2003.                      |
 | o     | Messages d’espace disque insuffisants.                                                                            |
 
 
@@ -82,11 +82,11 @@ Chaîne obligatoire contenant le chemin d’accès au fichier journal à créer.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le chemin d’accès à l’emplacement du fichier journal doit déjà exister lors de l’utilisation de cette méthode. Le programme d’installation ne crée pas la structure de répertoire pour le fichier journal.
 
-Les options de journalisation définies à l’aide de **EnableLog** remplacent les paramètres de stratégie de journalisation Windows Installer existants.
+les options de journalisation définies à l’aide de **EnableLog** remplacent les paramètres de stratégie de journalisation Windows Installer existants.
 
 La journalisation remplace un fichier journal existant par défaut. Vous devez utiliser la lettre « + » dans le mode de journalisation pour ajouter à un fichier journal existant.
 
@@ -120,7 +120,7 @@ L’exemple de script suivant active la journalisation documentée pour une inst
 
 <dl> <dt>
 
-[Journalisation Windows Installer](windows-installer-logging.md)
+[Windows Journalisation du programme d’installation](windows-installer-logging.md)
 </dt> </dl>
 
  

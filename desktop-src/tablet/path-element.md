@@ -4,12 +4,12 @@ ms.assetid: bf7f39ec-8f1f-437c-b172-fd6f94af97bc
 title: Élément Path
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee8299e66874a04ba9ff338b0b77d73ffd547ec4
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: b6a801cb356653cfe873b68fd77d4682ff57466d63eb03a5ead7988612122e6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716229"
 ---
 # <a name="path-element"></a>Élément Path
 

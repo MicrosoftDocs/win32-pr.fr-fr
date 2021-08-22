@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: ec9f497e687c52735784a5e3edad01905ac7a6a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f29fad2ccfcac5cbca1c6ef13e0aeef5bdd0f4764e81dd14cabdfa58fd30fbde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563217"
 ---
 # <a name="iwinhttprequestresponsestream-property"></a>IWinHttpRequest :: ResponseStream, propriété
 
@@ -57,12 +57,12 @@ La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur
 
 Il sera **E \_ en attente** si l’opération d' [**envoi**](iwinhttprequest-send.md) précédente n’est pas terminée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur le pointeur retourné pour obtenir un pointeur vers une interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) . Cette propriété retourne les données de réponse sous la forme d’un **IStream**. Cette propriété ne peut être appelée qu’une fois que la méthode [**Send**](iwinhttprequest-send.md) a été appelée.
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
@@ -289,8 +289,8 @@ int main(int argc, char* argv[])
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

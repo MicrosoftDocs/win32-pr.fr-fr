@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8c43ac3658aaf32d9ac52b69c1f114267fbbc807
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e8cd378cbff7e8c723d0e9dc7a99cf4a10ffce8b541ec46a5b8232d6e43937e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118418854"
 ---
 # <a name="reset-method-of-the-cim_nonvolatilestorage-class"></a>Méthode Reset de la \_ classe CIM NonVolatileStorage
 
@@ -47,7 +47,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

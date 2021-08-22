@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - Scrcons.exe
-ms.openlocfilehash: 11e2886fd5d0804946433e102e24617df768dcec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acf7ef4b4207f72cbaee61c0aaad8b2279419682bdddbeb4373c36c6868b8fce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557832"
 ---
 # <a name="activescripteventconsumer-class"></a>ActiveScriptEventConsumer, classe
 
@@ -183,7 +183,7 @@ Texte du script exprimé dans un langage connu du moteur de script. Cette propri
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe est dérivée de la classe abstraite [**\_ \_ EventConsumer**](--eventconsumer.md) . Il se trouve dans l’espace de noms de l' \\ abonnement racine.
 
@@ -195,7 +195,7 @@ L’échec du chargement du moteur de script ou de l’analyse et de la validati
 
 **ScriptText** ou **ScriptFileName** ne doit pas avoir la **valeur null**. Si les deux propriétés ont la **valeur null** ou not **null**, une erreur est générée.
 
-Lorsque WMI est exécuté en tant que service, les scripts exécutés par **ActiveScriptEventConsumer** ne génèrent pas de sortie écran. Les scripts qui utilisent **MsgBox** s’exécutent, mais ils n’affichent pas d’informations à l’écran. L’exécution du service WMI en tant que fichier exécutable n’est pas prise en charge, mais WMI autorise les scripts qui utilisent la fonction **MsgBox** à afficher la sortie ou à accepter les entrées utilisateur. Aucune des méthodes fournies par l’objet [wscript](/previous-versions//at5ydy31(v=vs.85)) ne peut être utilisée, car **ActiveScriptEventConsumer** n’utilise pas Windows Script Host (WSH).
+Lorsque WMI est exécuté en tant que service, les scripts exécutés par **ActiveScriptEventConsumer** ne génèrent pas de sortie écran. Les scripts qui utilisent **MsgBox** s’exécutent, mais ils n’affichent pas d’informations à l’écran. L’exécution du service WMI en tant que fichier exécutable n’est pas prise en charge, mais WMI autorise les scripts qui utilisent la fonction **MsgBox** à afficher la sortie ou à accepter les entrées utilisateur. aucune des méthodes fournies par l’objet [WScript](/previous-versions//at5ydy31(v=vs.85)) ne peut être utilisée, car **ActiveScriptEventConsumer** n’utilise pas Windows Script Host (WSH).
 
 ## <a name="examples"></a>Exemples
 

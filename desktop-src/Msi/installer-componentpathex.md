@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b7bf98dd8e7a81a0dd261f22a565bec8298a86a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 720b10c75fcdf4a6b72f22a72d3b0860fc6089403385b0a951127f56286b6953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632614"
 ---
 # <a name="installercomponentpathex-property"></a>Installer. ComponentPathEx, propriété
 
 Cette propriété retourne un objet [**RecordList**](recordlist-object.md) qui donne le chemin d’accès complet d’un composant installé spécifié. Cette propriété appelle [**MsiGetComponentPathEx**](/windows/desktop/api/Msi/nf-msi-msigetcomponentpathexa).
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Cette propriété est disponible à partir de Windows Installer 5,0.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. cette propriété est disponible à partir de Windows Installer 5,0.
 
 Cette propriété est en lecture seule.
 
@@ -45,7 +45,7 @@ propVal = Installer.ComponentPathEx
 
 | Condition requise | Valeur |
 |--------------------|---------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7<br/> |
+| Version<br/> | Windows programme d’installation 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                      |
 | IID<br/>     | IID \_ IInstaller est défini en tant que 000C1090-0000-0000-C000-000000000046<br/>                           |
 

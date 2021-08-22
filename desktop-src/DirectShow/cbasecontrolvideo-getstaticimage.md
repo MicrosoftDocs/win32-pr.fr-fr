@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 13b0515e20202373954050b6fa18f10a20a76a6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69496754c8a1f80be341c475f422229aba6108dbc0e73cd1db9506a301690ffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660829"
 ---
 # <a name="cbasecontrolvideogetstaticimage-method"></a>Méthode CBaseControlVideo. GetStaticImage
 
@@ -61,7 +61,7 @@ Pointeur vers la mémoire tampon de sortie.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par le biais de l’interface [**IBasicVideo**](/windows/desktop/api/Control/nn-control-ibasicvideo) , une application peut demander à recevoir une copie de l’image actuelle dans une mémoire tampon (certains convertisseurs peuvent retourner E \_ NOTIMPL à cet objet s’ils ne le prennent pas en charge). La classe dérivée détermine comment récupérer l’image. Lorsque l’application appelle **CBaseControlVideo :: GetStaticImage**, elle appelle cette méthode virtuelle pure que la classe dérivée doit substituer pour l’implémenter. Cela est également appelé par la fonction membre [**CBaseControlVideo :: GetCurrentImage**](cbasecontrolvideo-getcurrentimage.md) .
 
@@ -101,7 +101,7 @@ HRESULT CVideoText::GetStaticImage(long *pBufferSize,long *pDIBImage)
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

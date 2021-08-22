@@ -4,12 +4,12 @@ ms.assetid: 24c15df0-4190-4c75-b89b-0c73d645c9ca
 title: WPD_RESOURCE_AUDIO_CLIP
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7013fb59670c92903f89509f720f7c597ef916fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03fa4b81d56ceac14f1619164b3df5727fd711577e567aa21d8149e1583aced2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118696435"
 ---
 # <a name="wpd_resource_audio_clip"></a>\_ \_ clip audio de la ressource wpd \_
 
@@ -22,10 +22,10 @@ Ce type de ressource doit prendre en charge les attributs suivants.
 | Nom de l'attribut                                                                                                            | Obligatoire ou facultatif                                   |
 |---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [\_ \_ débit binaire wpd](audio-properties.md)                                                             | Recommandé.                                           |
-| [\_nombre de \_ canaux \_ audio wpd](audio-properties.md)                                                | Optionnel.                                              |
-| [\_Code de \_ format \_ audio wpd](audio-properties.md)                                                    | Optionnel.                                              |
-| [\_profondeur de \_ bits \_ audio wpd](audio-properties.md)                                                        | Optionnel.                                              |
-| [\_alignement des \_ blocs \_ audio wpd](audio-properties.md)                                            | Optionnel.                                              |
+| [\_nombre de \_ canaux \_ audio wpd](audio-properties.md)                                                | Facultatif.                                              |
+| [\_Code de \_ format \_ audio wpd](audio-properties.md)                                                    | Facultatif.                                              |
+| [\_profondeur de \_ bits \_ audio wpd](audio-properties.md)                                                        | Facultatif.                                              |
+| [\_alignement des \_ blocs \_ audio wpd](audio-properties.md)                                            | Facultatif.                                              |
 | [\_ \_ \_ taille totale de l’attribut de ressource wpd \_](resource-attribute-properties.md)              | Obligatoire.                                              |
 | [l' \_ attribut de ressource wpd \_ \_ peut \_ lire](attributes.md)                                     | Obligatoire si les clients peuvent lire cette ressource.            |
 | [l' \_ attribut de ressource wpd \_ \_ peut \_ écrire](attributes.md)                                   | Obligatoire si les clients peuvent écrire dans cette ressource.        |

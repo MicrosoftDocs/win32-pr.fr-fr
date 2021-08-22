@@ -1,25 +1,25 @@
 ---
-description: Le kit de développement logiciel (SDK) Microsoft Windows comprend des chaînes de ressources localisées, des tables d’erreurs localisées et des tables ActionText localisées pour les langues listées dans le tableau ci-dessous.
+description: le kit de développement logiciel (SDK) Microsoft Windows comprend des chaînes de ressources localisées, des tables d’erreurs localisées et des tables ActionText localisées pour les langues listées dans le tableau suivant.
 ms.assetid: 2e3a6e73-5b06-452d-9f87-18eb6914b961
 title: Localisation des tables Error et ActionText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c45428d9f0d3c4b8dcafbf489f7316225a83f032
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1839141b80afd1d28aa9e9317da10d79aea41232f9e7ebde0db7971d22f5141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118629464"
 ---
 # <a name="localizing-the-error-and-actiontext-tables"></a>Localisation des tables Error et ActionText
 
-Le kit de développement logiciel (SDK) Microsoft Windows comprend des chaînes de ressources localisées, des [tables d’erreurs](error-table.md)localisées et des [tables ActionText](actiontext-table.md) localisées pour les langues listées dans le tableau ci-dessous. Les langues indiquées par des astérisques indiquent que les chaînes de ressources sont stockées en tant que langue de base et peuvent donc être utilisées avec tous les dialectes de cette langue.
+le kit de développement logiciel (SDK) Microsoft Windows comprend des chaînes de ressources localisées, des [tables d’erreurs](error-table.md)localisées et des [tables ActionText](actiontext-table.md) localisées pour les langues listées dans le tableau suivant. Les langues indiquées par des astérisques indiquent que les chaînes de ressources sont stockées en tant que langue de base et peuvent donc être utilisées avec tous les dialectes de cette langue.
 
 Vous pouvez importer les tables Error et ActionText localisées dans votre base de données à l’aide de Msidb.exe ou [**MsiDatabaseImport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta).
 
 
 
-| LANGID (décimal) | LANGID (hexadécimal) | Page de codes ASCII | Abréviation | Language                      | Language-Culture |
+| LANGID (décimal) | LANGID (hexadécimal) | Page de codes ASCII | Abréviation | Langage                      | Language-Culture |
 |------------------|----------------------|-----------------|--------------|-------------------------------|------------------|
 | 1025\*           | 0x401                | 1256            | ARA          | Arabe - Arabie saoudite         | ar-SA            |
 | 1027             | 0x403                | 1252            | CHATS          | Catalan                       | ca-ES            |
@@ -61,11 +61,11 @@ Vous pouvez importer les tables Error et ActionText localisées dans votre base 
 
  
 
-**Windows Vista :** Outre les langues répertoriées dans le tableau précédent, les langues répertoriées dans le tableau suivant sont disponibles à partir de Windows Vista.
+**Windows Vista :** outre les langues répertoriées dans le tableau précédent, les langues répertoriées dans le tableau suivant sont disponibles à partir de Windows Vista.
 
 
 
-| LANGID (décimal) | LANGID (hexadécimal) | Page de codes ASCII | Abréviation | Language        | Language-Culture |
+| LANGID (décimal) | LANGID (hexadécimal) | Page de codes ASCII | Abréviation | Langage        | Language-Culture |
 |------------------|----------------------|-----------------|--------------|-----------------|------------------|
 | 1026             | 0x402                | 1251            | BVR          | Bulgare       | bg-BG            |
 | 1058             | 0x422                | 1251            | UKR          | Ukrainien       | uk-UA            |

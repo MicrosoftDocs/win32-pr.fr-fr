@@ -4,12 +4,12 @@ ms.assetid: b01145c6-76ba-4a81-bca6-59c4ca488dac
 title: Considérations relatives à la sécurité pour les demandeurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d3e989793dbf5a5dd1fac3224cf6f06958564de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60d64a5c817a8c45951d56d3fa12e78a03d8bee9dd742f67755f949d1f90a0e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590950"
 ---
 # <a name="security-considerations-for-requesters"></a>Considérations relatives à la sécurité pour les demandeurs
 
@@ -33,7 +33,7 @@ Lors du développement d’un demandeur, définissez l’exception COM COMGLB \_
 
 Les demandeurs doivent savoir que lorsque leur processus agit comme un serveur (par exemple, en autorisant les enregistreurs à modifier le document des composants de sauvegarde), ils doivent autoriser les appels entrants d’autres participants VSS, tels que les enregistreurs ou le service VSS.
 
-Toutefois, par défaut, un processus Windows autorise uniquement les clients COM qui s’exécutent sous la même session de connexion (le SID SELF) ou s’exécutent sous le compte système local. Il s’agit d’un problème potentiel, car ces paramètres par défaut ne sont pas adaptés à l’infrastructure VSS. Par exemple, les enregistreurs peuvent s’exécuter en tant que compte d’utilisateur « opérateur de sauvegarde » qui n’est pas dans la même session de connexion que le processus du demandeur ou un compte système local.
+toutefois, par défaut, un processus de Windows autorise uniquement les clients COM qui s’exécutent sous la même session de connexion (l’auto-SID) ou qui s’exécutent sous le compte système Local. Il s’agit d’un problème potentiel, car ces paramètres par défaut ne sont pas adaptés à l’infrastructure VSS. Par exemple, les enregistreurs peuvent s’exécuter en tant que compte d’utilisateur « opérateur de sauvegarde » qui n’est pas dans la même session de connexion que le processus du demandeur ou un compte système local.
 
 Pour gérer ce type de problème, chaque processus serveur COM peut exercer un contrôle accru sur le fait qu’un client RPC ou COM est autorisé à exécuter une méthode COM implémentée par le serveur (demandeur dans ce cas) en utilisant [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) pour définir une autorisation de vérification de l’accès com par défaut au niveau du processus.
 
@@ -41,7 +41,7 @@ Les demandeurs peuvent explicitement effectuer les opérations suivantes :
 
 -   Autorisez l’accès de tous les processus à appeler le processus du demandeur.
 
-    Cette option peut être adaptée à la grande majorité des demandeurs et est utilisée par d’autres serveurs COM. par exemple, tous les services Windows basés sur SVCHOST utilisent déjà cette option, comme tous les services COM+ par défaut.
+    cette option peut être adaptée à la grande majorité des demandeurs et est utilisée par d’autres serveurs COM. par exemple, tous les services Windows basés sur SVCHOST utilisent déjà cette option, comme tous les services COM+ par défaut.
 
     Autoriser tous les processus à effectuer des appels COM entrants n’est pas nécessairement une faille de sécurité. Un demandeur agissant comme un serveur COM, comme tous les autres serveurs COM, conserve toujours l’option permettant d’autoriser ses clients sur chaque méthode COM implémentée dans son processus.
 
@@ -49,7 +49,7 @@ Les demandeurs peuvent explicitement effectuer les opérations suivantes :
 
     Pour permettre à tous les processus d’accéder à COM à un demandeur, vous pouvez passer un descripteur de sécurité **null** comme premier paramètre de [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). (Notez que **CoInitializeSecurity** doit être appelé au plus une fois pour l’ensemble du processus. Pour plus d’informations sur les appels **CoInitializeSecurity** , consultez la documentation com ou MSDN.)
 
-    L’exemple de code suivant montre comment un demandeur doit appeler [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) dans Windows 8 et windows server 2012 et versions ultérieures, afin d’être compatible avec VSS pour les partages de fichiers distants (VSS) :
+    l’exemple de code suivant montre comment un demandeur doit appeler [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) dans Windows 8 et Windows Server 2012 et versions ultérieures, afin d’être compatible avec VSS pour les partages de fichiers distants (vss) :
 
     ``` syntax
     // Initialize COM security.
@@ -72,7 +72,7 @@ Les demandeurs peuvent explicitement effectuer les opérations suivantes :
     -   Définissez le niveau d’emprunt d’identité sur le niveau d’emprunt d' **\_ \_ \_ \_ identité RPC C IMP**.
     -   Définissez les fonctionnalités de sécurité de masquage sur **EOAC \_ statique**. Pour plus d’informations sur le masquage de la sécurité, consultez [masquage](../com/cloaking.md).
 
-    L’exemple de code suivant montre comment un demandeur doit appeler [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) dans Windows 7 et windows Server 2008 R2 et versions antérieures (ou dans Windows 8 et windows server 2012 et versions ultérieures, si la compatibilité VSS n’est pas nécessaire) :
+    l’exemple de code suivant montre comment un demandeur doit appeler [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) dans Windows 7 et Windows Server 2008 R2 et versions antérieures (ou dans Windows 8 et Windows Server 2012 et versions ultérieures, si la compatibilité vss n’est pas nécessaire) :
 
     ``` syntax
     // Initialize COM security.
@@ -103,11 +103,11 @@ Les demandeurs peuvent explicitement effectuer les opérations suivantes :
     -   Système Local
     -   Service local
 
-        **Windows XP :** Cette valeur n’est pas prise en charge avant Windows Server 2003.
+        **Windows XP :** cette valeur n’est pas prise en charge jusqu’à Windows Server 2003.
 
     -   Service réseau
 
-        **Windows XP :** Cette valeur n’est pas prise en charge avant Windows Server 2003.
+        **Windows XP :** cette valeur n’est pas prise en charge jusqu’à Windows Server 2003.
 
     -   Membres du groupe Administrateurs local
     -   Membres du groupe opérateurs de sauvegarde local
@@ -123,7 +123,7 @@ Dans ces cas, vous devez modifier la clé de Registre HKEY VssAccessControl VSS 
 
 Sous cette clé, vous devez créer une sous-clé portant le même nom que le compte auquel l’accès doit être accordé ou refusé. Cette sous-clé doit être définie sur l’une des valeurs indiquées dans le tableau suivant.
 
-| Valeur | Signification                                             |
+| Value | Signification                                             |
 |-------|-----------------------------------------------------|
 | 0     | Refusez à l’utilisateur l’accès à votre rédacteur et au demandeur.  |
 | 1     | Accordez à l’utilisateur l’accès à votre rédacteur.               |
@@ -181,7 +181,7 @@ Si un demandeur effectue une sauvegarde de l’état du système en sauvegardant
 
 Ces répertoires sont accessibles uniquement par les membres du groupe administrateurs. Pour cette raison, un tel demandeur doit s’exécuter sous le compte système ou un compte d’utilisateur membre du groupe administrateurs.
 
-**Windows XP et Windows Server 2003 :** Les fonctions [**FindFirstFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findfirstfilenamew) et [**FindNextFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findnextfilenamew) ne sont pas prises en charge jusqu’à Windows Vista et Windows Server 2008.
+**Windows XP et Windows Server 2003 :** les fonctions [**FindFirstFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findfirstfilenamew) et [**FindNextFileNameW**](/windows/win32/api/fileapi/nf-fileapi-findnextfilenamew) ne sont pas prises en charge tant que Windows Vista et Windows Server 2008.
 
  
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe90158d6f1e9a864f7d19448a412d70890133d2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 56a9d338cdaad8ed46fd3c3c730ca3ae4c2065cda9803c283ae262addd939713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622115"
 ---
 # <a name="inapclientmanagement-interface"></a>Interface INapClientManagement
 
@@ -69,8 +69,8 @@ L’interface **INapClientManagement** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>NapManagement. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapManagement. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |

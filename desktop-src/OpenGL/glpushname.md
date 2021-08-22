@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff783a108f5cb1ac34141c6c57f47b16e23531a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: cd447c4b36822e25d70f0aa387040a76738f280a2b22393b53732941a087ff45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106545239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118358329"
 ---
 # <a name="glpushname-function"></a>glPushName fonction)
 
@@ -64,7 +64,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glPushName** provoque un push du nom dans la pile de noms, qui est initialement vide. La fonction [**glPopName**](glpopname.md) Dépile un nom en haut de la pile. La pile de noms est utilisée en mode de sélection pour permettre l’identification unique des jeux de commandes de rendu. Il se compose d’un ensemble ordonné d’entiers non signés.
 

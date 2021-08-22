@@ -4,12 +4,12 @@ ms.assetid: 3f60146e-12bf-4755-bbca-93bb1c300fb7
 title: Msiinfo.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98291c26678efa8b17b42c08bb34c0d1df16c6e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57487406533b060d9343d4afbdf7e5254c32e15149bb3385f81cc7dc3923fc71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628097"
 ---
 # <a name="msiinfoexe"></a>Msiinfo.exe
 
@@ -60,13 +60,13 @@ Msiinfo.exe utilise les options de ligne de commande suivantes qui ne respectent
 
  
 
-Cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
+cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Outils de développement Windows Installer](windows-installer-development-tools.md)
+[Windows Outils de développement du programme d’installation](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Versions, outils et redistribuables publiés](released-versions-tools-and-redistributables.md)

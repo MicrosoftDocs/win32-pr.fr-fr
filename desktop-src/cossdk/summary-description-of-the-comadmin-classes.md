@@ -4,12 +4,12 @@ ms.assetid: 5a20199f-9d46-4dbe-8e30-2c7ddbde8795
 title: Description Résumé des classes comadmin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d4a2f54f21f89e9bca644006d50f4eec544565c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2dbcb1ec19b7178b94eae033b1f24d1956e1de373a99ff6545492fabe7b158c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118812472"
 ---
 # <a name="summary-description-of-the-comadmin-classes"></a>Description Résumé des classes comadmin
 
@@ -20,7 +20,7 @@ Il existe trois classes fournies par la bibliothèque comadmin (comadmin.dll), c
 La classe [**COMAdminCatalog**](comadmincatalog.md) représente le catalogue lui-même. Un objet créé à partir de **COMAdminCatalog** est l’objet fondamental que vous utilisez dans l’administration par programme. Outre l’établissement de la connexion de base avec le serveur de catalogue quand vous l’instanciez, **COMAdminCatalog** fournit des méthodes qui vous permettent d’effectuer les opérations suivantes :
 
 -   Obtient des collections sur le catalogue.
--   Connectez-vous au serveur de catalogue sur une machine distante.
+-   Connecter au serveur de catalogue sur une machine distante.
 -   Installer, exporter, démarrer, arrêter et obtenir des informations sur les applications COM+.
 -   Installer des composants dans des applications COM+ et obtenir des informations sur les composants.
 -   Démarrez, arrêtez ou actualisez les services s’exécutant sur l’ordinateur.

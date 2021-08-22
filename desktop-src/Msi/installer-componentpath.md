@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e249290af2477d2dfcbc73f80f80b439f1dd3663
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 88601dc4c65d0d3f69a5386ed62d1523c9fa21723e73b1ad4d208d0eff437658
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632622"
 ---
 # <a name="installercomponentpath-property"></a>Installer. ComponentPath, propriété
 
@@ -37,7 +37,7 @@ propVal = Installer.ComponentPath
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le composant est une clé de Registre, les racines du Registre sont représentées par ordre numérique. Par exemple, le chemin d’accès au registre « HKEY \_ Current \_ User \\ Software \\ Microsoft » est retourné sous la forme « 01 : \\ Software \\ Microsoft ». Les racines de Registre retournées sont définies comme suit :
 

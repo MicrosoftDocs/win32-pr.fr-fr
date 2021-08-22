@@ -3,7 +3,7 @@ title: ClosedCaption.captioningID
 description: La propriété captioningID spécifie ou récupère le nom de l’élément affichant le sous-titrage.
 ms.assetid: 99d4aae3-485f-4c86-9130-101b1ca968e9
 keywords:
-- Lecteur Windows Media ClosedCaption. captioningID
+- ClosedCaption. captioningID Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faadae626dd5ac0314c4140e3f9d82ab645ef9b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1da667e5479cc33312375920c1d573f0e2c19607b2399ff6f4fe34b130ca61e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580987"
 ---
 # <a name="closedcaptioncaptioningid"></a>ClosedCaption.captioningID
 
@@ -41,7 +41,7 @@ Le nom d’élément spécifié peut être n’importe quel élément HTML dans 
 
 ## <a name="examples"></a>Exemples
 
-L’exemple Microsoft JScript suivant utilise *ClosedCaption*. **captioningID** pour choisir la zone d’une page Web utilisée pour afficher les sous-titres. Deux éléments HTML DIV ont été créés, respectivement avec ID = CC1 et ID = CC2. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript Microsoft suivant utilise *ClosedCaption*. **captioningID** pour choisir la zone d’une page Web utilisée pour afficher les sous-titres. Deux éléments HTML DIV ont été créés, respectivement avec ID = CC1 et ID = CC2. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

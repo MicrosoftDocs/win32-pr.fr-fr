@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: e644db16b6638bbc87006819e186540a9ce1874e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fffc8508eff24181201792207a151f5effd28a3022fec56506953b55d3e59deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557756"
 ---
 # <a name="__instancemodificationevent-class"></a>\_\_InstanceModificationEvent, classe
 
@@ -109,7 +109,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ InstanceModificationEvent** est dérivée de [**\_ \_ InstanceOperationEvent**](--instanceoperationevent.md).
 

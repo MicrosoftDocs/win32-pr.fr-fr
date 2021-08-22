@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Shsvcs.dll
 ms.assetid: ff0ad023-42ea-4c74-adae-af55527b6ac3
-ms.openlocfilehash: c22f01835f9c526e95a4330e6ad35d370421e604
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 42f2da51bac93733a74113d3a567802975aca18be2a34f6fa349ff65349749c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460553"
 ---
 # <a name="createhardwareeventmoniker-function"></a>CreateHardwareEventMoniker fonction)
 
-\[Cette fonction est disponible via Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 Crée un moniker qui représente un composant matériel et son gestionnaire d’événements associé. La lecture automatique utilise cette fonction pour permettre aux applications d’utiliser des événements de lecture automatique.
 
@@ -70,13 +70,13 @@ Adresse d’une variable pointeur qui reçoit le pointeur d’interface [**IMoni
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez **CreateHardwareEventMoniker** lors de l’inscription d’applications en cours d’exécution afin que ces applications aient accès aux événements de lecture automatique. Pour utiliser des événements de lecture automatique dans des applications en cours d’exécution, vous devez d’abord créer un nouveau composant qui implémente l’interface [**IHWEventHandler**](/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler) . Initialisez cette interface avec la valeur InitCmdLine de l’entrée du gestionnaire particulier sous la clé des **gestionnaires** , car la lecture automatique n’appelle pas la méthode [**Initialize**](/windows/desktop/api/Shobjidl/nf-shobjidl-ihweventhandler-initialize) .
 
@@ -102,14 +102,14 @@ HKEY_CLASSES_ROOT
          RunAs = Interactive User
 ```
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Aucun</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Shsvcs.dll</dt> </dl> |
 

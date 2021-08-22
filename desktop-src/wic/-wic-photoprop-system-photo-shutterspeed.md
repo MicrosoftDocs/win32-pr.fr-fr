@@ -4,12 +4,12 @@ ms.assetid: f320944c-978d-4a3c-9bf8-5c5652123e29
 title: Stratégie de métadonnées de photo System. photo. ShutterSpeed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8df8c9e7fda5643fed022f67c3b6b7846e7a72f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ad11550a19cd043fd5d182b2cf508aec3e26c64a0dc2ee1d1c24576ebf18f8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710098"
 ---
 # <a name="systemphotoshutterspeed-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. ShutterSpeed
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Shut
 
 \_Photo \_ ShutterSpeed
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -41,7 +41,7 @@ Cette valeur est générée à partir de System. photo. ShutterSpeedNumerator et
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37377} |             |
 | 2     | /xmp/exif:ShutterSpeedValue   |             |
@@ -54,7 +54,7 @@ Cette valeur est générée à partir de System. photo. ShutterSpeedNumerator et
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37377} |             |
 | 2     | /xmp/exif:ShutterSpeedValue   |             |
@@ -67,7 +67,7 @@ Cette valeur est générée à partir de System. photo. ShutterSpeedNumerator et
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37377} |
 | 2     | /xmp/exif:shutterspeedvalue   |
@@ -82,7 +82,7 @@ Cette valeur est générée à partir de System. photo. ShutterSpeedNumerator et
 
 
 
-| Commande | Chemin d’accès                            | Format de disque |
+| Commande | Chemin                            | Format de disque |
 |-------|---------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37377}        |             |
 | 2     | /ifd/xmp/exif:ShutterSpeedValue |             |
@@ -95,7 +95,7 @@ Cette valeur est générée à partir de System. photo. ShutterSpeedNumerator et
 
 
 
-| Commande | Chemin d’accès                            | Format de disque |
+| Commande | Chemin                            | Format de disque |
 |-------|---------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37377}        |             |
 | 2     | /ifd/xmp/exif:ShutterSpeedValue |             |
@@ -108,7 +108,7 @@ Cette valeur est générée à partir de System. photo. ShutterSpeedNumerator et
 
 
 
-| Commande | Chemin d’accès                            |
+| Commande | Chemin                            |
 |-------|---------------------------------|
 | 1     | /IFD/EXIF/{UShort = 37377}        |
 | 2     | /ifd/xmp/exif:shutterspeedvalue |
@@ -117,7 +117,7 @@ Cette valeur est générée à partir de System. photo. ShutterSpeedNumerator et
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -5,12 +5,12 @@ ms.assetid: d0eb41cb-e9c0-4a60-aeac-77d1dd90a75b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d1dfc680c8a23ca1e80f52230736b3ab586cc8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9d1f604d7cea69bcc8866176f612c76d2e6820bc4a00aa58d3760761ef59270b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362305"
 ---
 # <a name="network-policy-server"></a>Serveur de stratégie réseau
 
@@ -31,27 +31,27 @@ L’API des objets de données du serveur peut être utilisée pour manipuler la
 > [!Note]  
 > Les stratégies réseau dans NPS sont équivalentes aux stratégies d’accès à distance dans IAS.
 
- 
+ 
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
 L’API extensions NPS est conçue pour être utilisée par les programmeurs qui utilisent le logiciel de développement C/C++. Les programmeurs doivent être familiarisés avec les concepts de mise en réseau et le protocole RADIUS. RADIUS est documenté dans le document [rfc 2865](https://www.ietf.org/rfc/rfc2865.txt) et [RFC 2866](https://www.ietf.org/rfc/rfc2866.txt).
 
-L’API Server Data Objects est conçue pour être utilisée par les programmeurs à l’aide du logiciel de développement C/C++ ou Visual Basic. Les programmeurs doivent être familiarisés avec le [service d’accès à distance](/windows/desktop/RRAS/remote-access-request-for-comments) (RAS) et le protocole RADIUS.
+l’API Server Data objects est conçue pour être utilisée par les programmeurs à l’aide du logiciel de développement C/C++ ou Visual Basic. Les programmeurs doivent être familiarisés avec le [service d’accès à distance](/windows/desktop/RRAS/remote-access-request-for-comments) (RAS) et le protocole RADIUS.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-L’API des extensions NPS est prise en charge sur Windows Server 2008 avec l’installation du service Microsoft Commercial Internet (MCIS).
+l’API des Extensions NPS est prise en charge sur Windows Server 2008 avec l’installation du Service Microsoft Commercial Internet (MCIS).
 
-L’API des objets de données du serveur est prise en charge sur Windows Server 2008.
+l’API des objets de données du serveur est prise en charge sur Windows Server 2008.
 
-NPS est disponible sur Windows Server 2008 avec l’installation du service Microsoft Commercial Internet (MCIS).
+NPS est disponible sur le serveur Windows 2008 avec l’installation du Service Microsoft Commercial Internet (MCIS).
 
 ## <a name="in-this-section"></a>Dans cette section
 
 <dl> <dt>
 
-[Vue d’ensemble](about-network-policy-server.md)
+[Vue d'ensemble](about-network-policy-server.md)
 </dt> <dd>
 
 Informations générales concernant RADIUS, IAS et NPS.
@@ -72,7 +72,7 @@ API pour la gestion de la configuration de la stratégie réseau.
 
 </dd> <dt>
 
-[Programmabilité SQL](sql-programmability.md)
+[SQL Programmabilité](sql-programmability.md)
 </dt> <dd>
 
 Exemples de procédures stockées utilisées pour la gestion de la journalisation NPS (IAS).
@@ -89,9 +89,9 @@ Exemples de procédures stockées utilisées pour la gestion de la journalisatio
 [TechNet : service d’authentification Internet](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831683(v=ws.11))
 </dt> <dt>
 
-[Protection d’accès réseau](/windows/desktop/NAP/network-access-protection-start-page)
+[Protection d’accès réseau (NAP)](/windows/desktop/NAP/network-access-protection-start-page)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

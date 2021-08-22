@@ -1,5 +1,5 @@
 ---
-description: La méthode ForceSourceListResolution de l’objet installer force l’Windows Installer à rechercher dans la liste source une source de produit valide.
+description: la méthode ForceSourceListResolution de l’objet Installer force l’Windows Installer à rechercher dans la liste source une source de produit valide.
 ms.assetid: d5097331-8cf5-494f-9e88-bcffcad3fe5d
 title: Installer. ForceSourceListResolution, méthode
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: cadc27f3eaa90cd6fb2729f73d07cbcfa1f96b73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cafff03a392fc1977fd19b5b8415ca499d614c2c4ba3fb4f7104edd5344f3a86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118630591"
 ---
 # <a name="installerforcesourcelistresolution-method"></a>Installer. ForceSourceListResolution, méthode
 

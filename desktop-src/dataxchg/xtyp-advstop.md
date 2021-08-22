@@ -1,9 +1,9 @@
 ---
 title: XTYP_ADVSTOP transaction (Ddeml. h)
-description: Un client utilise la \_ transaction XTYP ADVSTOP pour mettre fin à une boucle de notification avec un serveur. Une fonction de rappel de serveur échange dynamique de données (DDE), DdeCallback, reçoit cette transaction lorsqu’un client spécifie XTYP \_ ADVSTOP dans la fonction DdeClientTransaction.
+description: Un client utilise la \_ transaction XTYP ADVSTOP pour mettre fin à une boucle de notification avec un serveur. une fonction de rappel de serveur échange dynamique de données (DDE), DdeCallback, reçoit cette transaction lorsqu’un client spécifie XTYP \_ ADVSTOP dans la fonction DdeClientTransaction.
 ms.assetid: 67dfa463-6a44-43a5-93be-a39c19c87c1c
 keywords:
-- Échange de données de transaction XTYP_ADVSTOP
+- XTYP_ADVSTOP Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61292683377cd6c7243c3e41c5dbd9332a671163
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 37e81f1fe407186410e604a259f6e8039c074da039fc23b2f8a090c34ff58154
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544768"
 ---
 # <a name="xtyp_advstop-transaction"></a>\_Transaction ADVSTOP XTYP
 
-Un client utilise la transaction **XTYP \_ ADVSTOP** pour mettre fin à une boucle de notification avec un serveur. Une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie **XTYP \_ ADVSTOP** dans la fonction [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) .
+Un client utilise la transaction **XTYP \_ ADVSTOP** pour mettre fin à une boucle de notification avec un serveur. une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie **XTYP \_ ADVSTOP** dans la fonction [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) .
 
 
 ```C++
@@ -93,7 +93,7 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette transaction est filtrée si l’application serveur a spécifié l’indicateur de **\_ \_ notifications d’échec CBF** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
@@ -128,7 +128,7 @@ Cette transaction est filtrée si l’application serveur a spécifié l’indic
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

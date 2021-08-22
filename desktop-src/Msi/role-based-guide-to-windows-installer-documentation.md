@@ -1,32 +1,32 @@
 ---
-description: Windows Installer est la solution recommandée pour l’installation et la configuration d’applications sur Windows.
+description: Windows Le programme d’installation est la solution recommandée pour l’installation et la configuration d’applications sur Windows.
 ms.assetid: 13f41020-5275-44cd-b26b-f45483700d8a
-title: Guide basé sur les rôles pour Windows Installer la documentation
+title: Guide basé sur les rôles pour Windows Installer la Documentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc8a2138e963b6d29bd161df5e09144cf0cfd36b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 029f886050f3bb0256f6f0f993e613be940cee9cd2fe748b2d17b5dc0f0f84a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625861"
 ---
-# <a name="role-based-guide-to-windows-installer-documentation"></a>Guide basé sur les rôles pour Windows Installer la documentation
+# <a name="role-based-guide-to-windows-installer-documentation"></a>Guide basé sur les rôles pour Windows Installer la Documentation
 
-Windows Installer est la solution recommandée pour l’installation et la configuration d’applications sur Windows. Par conséquent, certaines des informations contenues dans ce kit de développement logiciel (SDK) présentent un intérêt pour un large éventail de développeurs de logiciels et de professionnels de l’informatique. Cette section est fournie à titre de guide pour les lecteurs qui préfèrent voir des liens vers des rubriques organisées par rôle professionnel et les scénarios de tâches courantes. Étant donné que les rôles peuvent varier d’une organisation à l’autre, le regroupement suivant doit être considéré comme un guide d’un emplacement pour commencer à rechercher les informations dont vous avez besoin.
+Windows Le programme d’installation est la solution recommandée pour l’installation et la configuration d’applications sur Windows. Par conséquent, certaines des informations contenues dans ce kit de développement logiciel (SDK) présentent un intérêt pour un large éventail de développeurs de logiciels et de professionnels de l’informatique. Cette section est fournie à titre de guide pour les lecteurs qui préfèrent voir des liens vers des rubriques organisées par rôle professionnel et les scénarios de tâches courantes. Étant donné que les rôles peuvent varier d’une organisation à l’autre, le regroupement suivant doit être considéré comme un guide d’un emplacement pour commencer à rechercher les informations dont vous avez besoin.
 
 -   [Développeurs d’applications](#application-developers)
 -   [Auteurs d’installation](#setup-authors)
 -   [Professionnels de l’informatique](#it-professionals)
 -   [Développeurs d’infrastructure](#infrastructure-developers)
 
-Cette documentation est destinée aux développeurs de logiciels qui souhaitent créer des applications qui utilisent Windows Installer. En tant que principale source de documentation de référence pour le programme d’installation, le kit de développement logiciel (SDK) fournit des informations sur les packages d’installation et le service d’installation. Elle contient des descriptions complètes de l’interface de programmation d’applications (API) et des éléments de la base de données du programme d’installation.
+cette documentation est destinée aux développeurs de logiciels qui souhaitent créer des applications qui utilisent Windows Installer. En tant que principale source de documentation de référence pour le programme d’installation, le kit de développement logiciel (SDK) fournit des informations sur les packages d’installation et le service d’installation. Elle contient des descriptions complètes de l’interface de programmation d’applications (API) et des éléments de la base de données du programme d’installation.
 
-Pour plus d’informations, consultez [autres sources d’informations sur les Windows Installer](other-sources-of-windows-installer-information.md).
+pour plus d’informations, consultez [autres Sources d’informations sur les Windows Installer](other-sources-of-windows-installer-information.md).
 
 ## <a name="application-developers"></a>Développeurs d’applications
 
-Les développeurs d’applications créent des applications qui appellent l’interface de programmation d’applications Windows Installer et installent des packages Windows Installer au moment de l’exécution. La Windows Installer peut faire fonctionner dans une application telle que la réparation automatique et l’installation à la demande. En règle générale, les développeurs d’applications effectuent les opérations suivantes :
+les développeurs d’applications créent des applications qui appellent l’interface de programmation d’applications Windows Installer et installent des packages d’installation Windows au moment de l’exécution. la Windows Installer peut faire fonctionner dans une application telle que la réparation automatique et l’installation à la demande. En règle générale, les développeurs d’applications effectuent les opérations suivantes :
 
 -   Activer l’installation à la demande des applications au moment de l’exécution à partir d’une autre application.
 
@@ -51,7 +51,7 @@ Les développeurs d’applications créent des applications qui appellent l’in
     -   [Recherche d’une fonctionnalité ou d’un composant endommagé](searching-for-a-broken-feature-or-component.md)
     -   [Remplacement des fichiers existants](replacing-existing-files.md)
 
--   Affichez une interface utilisateur pour collecter des informations sur l’utilisateur et des préférences de configuration la première fois qu’une application est installée ou exécutée. L’interface utilisateur doit être ajoutée par l’auteur du programme d’installation du Windows Installer.
+-   Affichez une interface utilisateur pour collecter des informations sur l’utilisateur et des préférences de configuration la première fois qu’une application est installée ou exécutée. l’interface utilisateur doit être ajoutée par l’auteur du programme d’installation du Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -60,7 +60,7 @@ Les développeurs d’applications créent des applications qui appellent l’in
     -   [Boîte de dialogue FirstRun](firstrun-dialog.md)
     -   [À propos de l’interface utilisateur](about-the-user-interface.md)
 
--   Créez des applications qui utilisent un modèle d’indirection pour faire référence aux composants avec des fonctionnalités parallèles. Les catégories de composants qualifiés doivent être ajoutées par l’auteur du programme d’installation du Windows Installer.
+-   Créez des applications qui utilisent un modèle d’indirection pour faire référence aux composants avec des fonctionnalités parallèles. les catégories de composants qualifiés doivent être ajoutées par l’auteur du programme d’installation du Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -72,9 +72,9 @@ Les développeurs d’applications créent des applications qui appellent l’in
     Pour plus d’informations, consultez les rubriques suivantes :
 
     -   [Assemblys](assemblies.md)
-    -   [Clés de registre de l’assembly écrites par Windows Installer](assembly-registry-keys-written-by-windows-installer-.md)
-    -   [Installation d’assemblys Win32 pour le partage côte à côte sur Windows XP](installing-win32-assemblies-for-side-by-side-sharing-on-windows-xp.md)
-    -   [Installation d’assemblys Win32 pour l’utilisation privée d’une application sur Windows XP](installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp.md)
+    -   [clés de registre de l’assembly écrites par Windows Installer](assembly-registry-keys-written-by-windows-installer-.md)
+    -   [installation d’assemblys Win32 pour le partage côte à côte sur Windows XP](installing-win32-assemblies-for-side-by-side-sharing-on-windows-xp.md)
+    -   [installation d’assemblys Win32 pour l’utilisation privée d’une Application sur Windows XP](installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp.md)
     -   [Table MsiAssembly](msiassembly-table.md)
     -   [Table MsiAssemblyName](msiassemblyname-table.md)
     -   [**MsiProvideAssembly**](/windows/desktop/api/Msi/nf-msi-msiprovideassemblya)
@@ -100,11 +100,11 @@ Les développeurs d’applications créent des applications qui appellent l’in
     -   [Petites mises à jour](small-updates.md)
     -   [Mises à niveau mineures](minor-upgrades.md)
 
--   Organisez les ressources d’application en composants pouvant fonctionner avec l’Windows Installer.
+-   organisez les ressources d’application en composants pouvant fonctionner avec l’Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
-    -   [Composants Windows Installer](windows-installer-components.md)
+    -   [Windows Composants du programme d’installation](windows-installer-components.md)
     -   [Utilisation des fonctionnalités et des composants](working-with-features-and-components.md)
     -   [Utilisation de composants transitifs](using-transitive-components.md)
     -   [Que se passe-t-il si les règles des composants sont rompues ?](what-happens-if-the-component-rules-are-broken.md)
@@ -114,43 +114,43 @@ Les développeurs d’applications créent des applications qui appellent l’in
 
 ## <a name="setup-authors"></a>Auteurs d’installation
 
-Le programme d’installation crée des packages de Windows Installer (fichiers. msi) qui contiennent la logique d’installation et les informations nécessaires pour installer une application. Ils utilisent généralement des outils de création tels que [Orca.exe](orca-exe.md) pour remplir la base de données Windows Installer avec la logique d’installation et des informations. En règle générale, les auteurs d’installation effectuent les opérations suivantes :
+les auteurs du programme d’installation créent des packages de Windows Installer (fichiers .msi) qui contiennent la logique d’installation et les informations nécessaires pour installer une application. ils utilisent généralement des outils de création tels que [Orca.exe](orca-exe.md) pour remplir la base de données Windows Installer avec la logique d’installation et des informations. En règle générale, les auteurs d’installation effectuent les opérations suivantes :
 
--   Déterminer les fonctionnalités disponibles avec différentes versions de Windows Installer.
+-   déterminer les fonctionnalités disponibles avec différentes versions de Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
-    -   [Détermination de la version de Windows Installer](determining-the-windows-installer-version.md)
+    -   [détermination de la Version de Windows Installer](determining-the-windows-installer-version.md)
     -   [Versions commercialisées de Windows Installer](released-versions-of-windows-installer.md)
-    -   [Nouveautés de Windows Installer](what-s-new-in-windows-installer.md)
+    -   [nouveautés de Windows Installer](what-s-new-in-windows-installer.md)
 
--   Organisez les ressources d’application en composants Windows Installer.
+-   organisez les ressources d’application en composants Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
-    -   [Composants Windows Installer](windows-installer-components.md)
+    -   [Windows Composants du programme d’installation](windows-installer-components.md)
     -   [Organisation des applications en composants](organizing-applications-into-components.md)
     -   [Modification du code du composant](changing-the-component-code.md)
     -   [Que se passe-t-il si les règles des composants sont rompues ?](what-happens-if-the-component-rules-are-broken.md)
-    -   [Exemples de Windows Installer](windows-installer-examples.md)
+    -   [Windows Exemples de programme d’installation](windows-installer-examples.md)
 
--   Utilisez des outils de création de packages tiers Windows Installer ou des outils du kit de développement logiciel (SDK) tels que [Orca.exe](orca-exe.md) pour remplir une base de données d’installation et créer un package de Windows Installer.
+-   utilisez des outils de création de packages tiers Windows Installer ou des outils du kit de développement logiciel (SDK) tels que [Orca.exe](orca-exe.md) pour remplir une base de données d’installation et créer un package de Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
-    -   [Outils de développement Windows Installer](windows-installer-development-tools.md)
+    -   [Windows Outils de développement du programme d’installation](windows-installer-development-tools.md)
     -   [Package d’installation, à propos de la base de données du programme d’installation](installation-package.md)
-    -   [Extensions de fichier Windows Installer](windows-installer-file-extensions.md)
+    -   [Windows Extensions de fichier du programme d’installation](windows-installer-file-extensions.md)
     -   [Tables de base de données](database-tables.md)
     -   [Codes de package](package-codes.md)
     -   [Création d’un package volumineux](authoring-a-large-package.md)
-    -   [Windows Installer sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
+    -   [Windows Programme d’installation sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
     -   [Attribution d’un nom aux tables, propriétés et actions personnalisées](naming-custom-tables-properties-and-actions.md)
-    -   [Limitations OLE sur les flux](ole-limitations-on-streams.md)
+    -   [Limitations OLE sur les Flux](ole-limitations-on-streams.md)
     -   [Format de définition de colonne](column-definition-format.md)
-    -   [Réduction de la taille d’un fichier. msi](reducing-the-size-of-an--msi-file.md)
+    -   [Réduction de la taille d’un fichier .msi](reducing-the-size-of-an--msi-file.md)
 
--   Créez la base de données Windows Installer pour installer des fichiers.
+-   créez la base de données Windows Installer pour installer des fichiers.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -170,9 +170,9 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Table FileSFPCatalog](filesfpcatalog-table.md)
     -   [Recherche d’un fichier et création d’une propriété contenant le chemin d’accès du fichier](searching-for-a-file-and-creating-a-property-holding-the-file-s-path.md)
     -   [Recherche d’un répertoire et d’un fichier dans le répertoire](searching-for-a-directory-and-a-file-in-the-directory.md)
-    -   [Exemples de Windows Installer](windows-installer-examples.md)
+    -   [Windows Exemples de programme d’installation](windows-installer-examples.md)
 
--   Créer une base de données Windows Installer qui installe une structure de répertoires et des dossiers.
+-   créer une base de données Windows Installer qui installe une structure de répertoires et des dossiers.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -187,9 +187,9 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Table LockPermissions](lockpermissions-table.md)
     -   [Table MsiLockPermissionsEx](msilockpermissionsex-table.md)
     -   [Modification de l’emplacement cible d’un répertoire](changing-the-target-location-for-a-directory.md)
-    -   [Exemples de Windows Installer](windows-installer-examples.md)
+    -   [Windows Exemples de programme d’installation](windows-installer-examples.md)
 
--   Créer une base de données Windows Installer qui installe des clés de registre.
+-   créer une base de données Windows Installer qui installe des clés de registre.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -200,15 +200,15 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Ajout ou suppression de clés de registre lors de l’installation ou de la suppression de composants](adding-or-removing-registry-keys-on-the-installation-or-removal-of-components.md)
     -   [Ajout et suppression d’une application et absence de trace dans le registre](adding-and-removing-an-application-and-leaving-no-trace-in-the-registry.md)
     -   [Installation des composants permanents, des fichiers, des polices, des clés de Registre](installing-permanent-components-files-fonts-registry-keys.md)
-    -   [Recherche d’applications, de fichiers, d’entrées de registre ou d’entrées de fichier. ini existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
+    -   [Recherche d’applications, de fichiers, d’entrées de registre ou d’entrées de fichier .ini existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
     -   [Recherche d’une entrée de Registre et création d’une propriété contenant la valeur du Registre](searching-for-a-registry-entry-and-creating-a-property-holding-the-value-of-the-registry.md)
-    -   [Clés de registre de l’assembly écrites par l’Windows Installer](assembly-registry-keys-written-by-windows-installer-.md)
+    -   [clés de registre de l’assembly écrites par l’Windows Installer](assembly-registry-keys-written-by-windows-installer-.md)
     -   [Désinstaller la clé de Registre](uninstall-registry-key.md)
     -   [Table SelfReg](selfreg-table.md)
     -   [Spécification de l’ordre d’inscription automatique](specifying-the-order-of-self-registration.md)
-    -   [Exemples de Windows Installer](windows-installer-examples.md)
+    -   [Windows Exemples de programme d’installation](windows-installer-examples.md)
 
--   Créer une base de données Windows Installer qui installe les services.
+-   créer une base de données Windows Installer qui installe les services.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -216,7 +216,7 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Table ServiceControl](servicecontrol-table.md)
     -   [Table des composants](component-table.md)
 
--   Créer une base de données Windows Installer qui installe des composants isolés ou des composants COM.
+-   créer une base de données Windows Installer qui installe des composants isolés ou des composants COM.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -230,21 +230,21 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Suppression de composants isolés](removal-of-isolated-components.md)
     -   [Installation d’un composant COM dans un emplacement privé](installing-a-com-component-to-a-private-location.md)
     -   [Rendre un composant COM dans un package existant privé](make-a-com-component-in-an-existing-package-private.md)
-    -   [Installation d’une application COM+ avec la Windows Installer](installing-a-com--application-with-the-windows-installer.md)
+    -   [installation d’une Application COM+ avec la Windows Installer](installing-a-com--application-with-the-windows-installer.md)
     -   [Installation d’un composant non-COM dans un emplacement privé](installing-a-non-com-component-to-a-private-location.md)
     -   [Rendre un composant non-COM dans un package existant privé](make-a-non-com-component-in-an-existing-package-private.md)
 
--   Créer une base de données Windows Installer qui installe les assemblys.
+-   créer une base de données Windows Installer qui installe les assemblys.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
     -   [Table MsiAssembly](msiassembly-table.md)
     -   [Table MsiAssemblyName](msiassemblyname-table.md)
     -   [Assemblys](assemblies.md)
-    -   [Clés de registre de l’assembly écrites par l’Windows Installer](assembly-registry-keys-written-by-windows-installer-.md)
+    -   [clés de registre de l’assembly écrites par l’Windows Installer](assembly-registry-keys-written-by-windows-installer-.md)
     -   [Installation d’assemblys Win32](installation-of-win32-assemblies.md)
 
--   Créer une base de données Windows Installer qui installe les pilotes ODBC et les traducteurs.
+-   créer une base de données Windows Installer qui installe les pilotes ODBC et les traducteurs.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -254,7 +254,7 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Table ODBCDataSource](odbcdatasource-table.md)
     -   [Table ODBCSourceAttribute](odbcsourceattribute-table.md)
 
--   Créer une base de données Windows Installer qui installe le protocole MIME.
+-   créer une base de données Windows Installer qui installe le protocole MIME.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -262,22 +262,22 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Table d’extension](extension-table.md)
     -   [Modification du Registre](modifying-the-registry.md)
 
--   Créer une base de données Windows Installer qui installe les variables d’environnement.
+-   créer une base de données Windows Installer qui installe les variables d’environnement.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
     -   [Table d’environnement](environment-table.md)
 
--   Créer une base de données Windows Installer qui installe les raccourcis.
+-   créer une base de données Windows Installer qui installe les raccourcis.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
     -   [Tableau de raccourcis](shortcut-table.md)
     -   [Table MsiShortcutProperty](msishortcutproperty-table.md)
     -   [Modification des raccourcis du programme d’installation](editing-installer-shortcuts.md)
-    -   [Exemples de Windows Installer](windows-installer-examples.md)
+    -   [Windows Exemples de programme d’installation](windows-installer-examples.md)
 
--   Créer une base de données Windows Installer qui installe plusieurs instances d’applications.
+-   créer une base de données Windows Installer qui installe plusieurs instances d’applications.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -322,9 +322,9 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Exemples de syntaxe d’instruction conditionnelle](examples-of-conditional-statement-syntax.md)
     -   [Mesures de conditionnement à exécuter pendant la suppression](conditioning-actions-to-run-during-removal.md)
     -   [Actions standard](standard-actions.md)
-    -   [Exemples de Windows Installer](windows-installer-examples.md)
+    -   [Windows Exemples de programme d’installation](windows-installer-examples.md)
 
--   Préparez le package d’installation de l’application pour les futures mises à niveau de l’application par le service Windows Installer.
+-   préparez le package d’installation de l’application pour les futures mises à niveau de l’application par le service Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -336,24 +336,24 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Empêcher l’installation d’un ancien package sur une version plus récente](preventing-an-old-package-from-installing-over-a-newer-version.md)
     -   [Modification du code du produit](changing-the-product-code.md)
     -   [Mise à jour des assemblys](updating-assemblies.md)
-    -   [Exemples de Windows Installer](windows-installer-examples.md)
+    -   [Windows Exemples de programme d’installation](windows-installer-examples.md)
 
--   Résolvez les problèmes Windows Installer packages en cours de développement.
+-   résolvez les problèmes Windows Installer packages en cours de développement.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
     -   [Validations de package](package-validation.md)
     -   [Évaluateurs de cohérence internes-CIEM](internal-consistency-evaluators-ices.md)
-    -   [Journalisation Windows Installer](windows-installer-logging.md)
+    -   [Windows Journalisation du programme d’installation](windows-installer-logging.md)
     -   [Vérification de l’installation des fonctionnalités, des composants, des fichiers](checking-the-installation-of-features-components-files.md)
     -   [Création d’un package volumineux](authoring-a-large-package.md)
     -   [Wilogutl.exe](wilogutl-exe.md)
-    -   [Outils de développement Windows Installer](windows-installer-development-tools.md)
+    -   [Windows Outils de développement du programme d’installation](windows-installer-development-tools.md)
     -   [Validation des modules de fusion](validating-merge-modules.md)
     -   [Validation d’une base de données d’installation](validating-an-installation-database.md)
     -   [Validation de la mise à niveau d’une installation](validating-an-installation-upgrade.md)
     -   [Recherche d’une fonctionnalité ou d’un composant endommagé](searching-for-a-broken-feature-or-component.md)
-    -   [Windows Installer des messages d’erreur](windows-installer-error-messages.md)
+    -   [Windows Messages d’erreur du programme d’installation](windows-installer-error-messages.md)
     -   [Journalisation des demandes de redémarrage](logging-of-reboot-requests.md)
 
 -   Assurez une configuration et une installation sécurisées de l’application.
@@ -368,7 +368,7 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Exemple d’installation de Windows Installer basée sur une URL](a-url-based-windows-installer-installation-example.md)
     -   [Création de l’interface utilisateur pour l’entrée de mot de passe](authoring-the-user-interface-for-password-input.md)
     -   [Signatures numériques et Windows Installer](digital-signatures-and-windows-installer.md)
-    -   [Utilisation de Windows Installer avec UAC](using-windows-installer-with-uac.md)
+    -   [utilisation de Windows Installer avec UAC](using-windows-installer-with-uac.md)
     -   [Mise à jour corrective du contrôle de compte d’utilisateur (UAC)](user-account-control--uac--patching.md)
     -   [Msicert.exe](msicert-exe.md)
     -   [**Propriété AdminUser**](adminuser.md)
@@ -394,7 +394,7 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
 
     -   [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia)
     -   [Surveillance d’une installation à l’aide de MsiSetExternalUIRecord](monitoring-an-installation-using-msisetexternaluirecord.md)
-    -   [Analyse des messages de Windows Installer](parsing-windows-installer-messages.md)
+    -   [analyse des Messages de Windows Installer](parsing-windows-installer-messages.md)
     -   [Retour de valeurs à partir d’un gestionnaire d’interface utilisateur externe](returning-values-from-an-external-user-interface-handler.md)
     -   [\_Gestionnaire INSTALLUI](/windows/desktop/api/Msi/nc-msi-installui_handlera)
     -   [Gestion des messages de progression à l’aide de MsiSetExternalUI](handling-progress-messages-using-msisetexternalui.md)
@@ -404,11 +404,11 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
-    -   [Configuration de l’ajout/suppression de programmes avec Windows Installer](configuring-add-remove-programs-with-windows-installer.md)
+    -   [configuration de l’ajout/suppression de programmes avec Windows Installer](configuring-add-remove-programs-with-windows-installer.md)
     -   [Ajout et suppression d’une application et absence de trace dans le registre](adding-and-removing-an-application-and-leaving-no-trace-in-the-registry.md)
     -   [Désinstaller la clé de Registre](uninstall-registry-key.md)
 
--   Écrivez des actions personnalisées pour gérer la logique d’installation qui n’est pas prise en charge en mode natif par Windows Installer.
+-   écrivez des actions personnalisées pour gérer la logique d’installation qui n’est pas prise en charge en mode natif par Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -422,7 +422,7 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Accès à la session de programme d’installation actuelle à partir d’une action personnalisée](accessing-the-current-installer-session-from-inside-a-custom-action.md)
     -   [Modification de l’état du système à l’aide d’une action personnalisée](changing-the-system-state-using-a-custom-action.md)
 
--   Amorcez le Windows Installer sur l’ordinateur d’un utilisateur.
+-   amorcez le Windows Installer sur l’ordinateur d’un utilisateur.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -434,7 +434,7 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Configuration des ressources Setup.exe](configuring-the-setup-exe-resources.md)
     -   [Téléchargement d’une installation à partir d’Internet](downloading-an-installation-from-the-internet.md)
 
--   Respectez les instructions de Active Accessibility lors de l’écriture de packages Windows Installer.
+-   respectez les instructions de Active Accessibility lors de l’écriture de packages Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -444,9 +444,9 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
-    -   [Préparation d’un package de Windows Installer pour la localisation](preparing-a-windows-installer-package-for-localization.md),
-    -   [Localisation d’un package Windows Installer](localizing-a-windows-installer-package.md)
-    -   [Gestion des pages de codes (Windows Installer)](code-page-handling-windows-installer-.md)
+    -   [préparation d’un Package de Windows Installer pour la localisation](preparing-a-windows-installer-package-for-localization.md),
+    -   [localisation d’un Package Windows Installer](localizing-a-windows-installer-package.md)
+    -   [gestion des pages de codes (Windows Installer)](code-page-handling-windows-installer-.md)
     -   [Ajout de ressources localisées](adding-localized-resources.md)
     -   [Exemple de localisation](a-localization-example.md)
     -   [Localisation des tables Error et ActionText](localizing-the-error-and-actiontext-tables.md)
@@ -462,16 +462,16 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Gérer la langue et la page de codes](manage-language-and-codepage.md)
     -   [Vérification de la page de codes de la base de données d’installation](checking-the-installation-database-code-page.md)
 
--   Créez des packages Windows Installer pour les plateformes 32 bits et 64 bits.
+-   créez des packages Windows Installer pour les plateformes 32 bits et 64 bits.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
-    -   [Windows Installer sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
+    -   [Windows Programme d’installation sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
     -   [Actions personnalisées 64 bits](64-bit-custom-actions.md)
     -   [Utilisation d’actions personnalisées 64 bits](using-64-bit-custom-actions.md)
     -   [Utilisation des modules de fusion 64 bits](using-64-bit-merge-modules.md)
 
--   Redistribuer les composants de Windows Installer partagés et la logique d’installation en tant que modules de fusion.
+-   redistribuer les composants de Windows Installer partagés et la logique d’installation en tant que modules de fusion.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -479,7 +479,7 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Création d’une transformation de langue pour un module de fusion à plusieurs langues](authoring-a-language-transform-for-a-multiple-language-merge-module.md)
     -   [Application d’un module de fusion configurable avec des personnalisations](applying-a-configurable-merge-module-with-customizations.md)
 
--   Planifiez ou supprimez les redémarrages au cours d’une installation Windows Installer.
+-   planifiez ou supprimez les redémarrages au cours d’une installation Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -501,13 +501,13 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
     -   [Création d’un package unique](single-package-authoring.md)
     -   [Exemple de création de package unique](single-package-authoring-example.md)
 
--   Personnalisez les services sur l’ordinateur à l’aide de l’Windows Installer.
+-   personnalisez les services sur l’ordinateur à l’aide de l’Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
     -   [Utilisation de la configuration des services](using-services-configuration.md)
 
--   Sécurisez les ressources sur l’ordinateur à l’aide de l’Windows Installer.
+-   sécurisez les ressources sur l’ordinateur à l’aide de l’Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -526,7 +526,7 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
 
     -   [Installations sur plusieurs packages](multiple-package-installations.md)
 
--   Incorporez une interface utilisateur personnalisée dans le package Windows Installer.
+-   incorporez une interface utilisateur personnalisée dans le package Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -535,9 +535,9 @@ Le programme d’installation crée des packages de Windows Installer (fichiers.
 
 ## <a name="it-professionals"></a>Professionnels de l’informatique
 
-Les professionnels de l’informatique et les administrateurs peuvent personnaliser et déployer des packages de Windows Installer existants. Ces utilisateurs reconditionnent les configurations des applications existantes dans Windows Installer des packages d’installation, et installent et gèrent les images administratives des installations Windows Installer sur les réseaux.
+les professionnels de l’informatique et les administrateurs peuvent personnaliser et déployer des packages de Windows Installer existants. ces utilisateurs reconditionnent les configurations des applications existantes dans Windows Installer des packages d’installation, et installent et gèrent les images administratives des installations Windows Installer sur les réseaux.
 
--   Personnaliser les applications et le programme d’installation en générant et en appliquant des transformations Windows Installer
+-   personnaliser les applications et le programme d’installation en générant et en appliquant des transformations Windows Installer
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -554,7 +554,7 @@ Les professionnels de l’informatique et les administrateurs peuvent personnali
     -   [Afficher les différences entre deux bases de données](view-differences-between-two-databases.md)
     -   [Mise à jour corrective des applications personnalisées](patching-customized-applications.md)
 
--   Déployez un package d’installation Windows Installer, une mise à jour ou un correctif logiciel.
+-   déployez un package d’installation Windows Installer, une mise à jour ou un correctif logiciel.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -570,24 +570,24 @@ Les professionnels de l’informatique et les administrateurs peuvent personnali
     -   [Mise à jour corrective des installations initiales](patching-initial-installations.md)
     -   [Options de ligne de commande](command-line-options.md)
 
--   Résolvez les problèmes Windows Installer packages.
+-   résolvez les problèmes Windows Installer packages.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
-    -   [Journalisation Windows Installer](windows-installer-logging.md)
+    -   [Windows Journalisation du programme d’installation](windows-installer-logging.md)
     -   [Vérification de l’installation des fonctionnalités, des composants, des fichiers](checking-the-installation-of-features-components-files.md)
     -   [Wilogutl.exe](wilogutl-exe.md)
     -   [Recherche d’une fonctionnalité ou d’un composant endommagé](searching-for-a-broken-feature-or-component.md)
-    -   [Windows Installer des messages d’erreur](windows-installer-error-messages.md)
+    -   [Windows Messages d’erreur du programme d’installation](windows-installer-error-messages.md)
     -   [Msicert.exe](msicert-exe.md)
 
--   Utilisez les scripts pour interroger des packages Windows Installer pour obtenir des informations sur un produit et modifier l’installation.
+-   utilisez les scripts pour interroger des packages Windows Installer pour obtenir des informations sur un produit et modifier l’installation.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
     -   [Interface d’automatisation](automation-interface.md)
-    -   [Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
-    -   [Utilisation de Windows Installer avec WMI](using-windows-installer-with-wmi.md)
+    -   [Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
+    -   [utilisation de Windows Installer avec WMI](using-windows-installer-with-wmi.md)
 
 -   Créer et gérer des installations administratives.
 
@@ -647,7 +647,7 @@ Les professionnels de l’informatique et les administrateurs peuvent personnali
 
     -   [Installations sur plusieurs packages](multiple-package-installations.md)
 
--   Incorporez une interface utilisateur personnalisée dans un package Windows Installer.
+-   incorporez une interface utilisateur personnalisée dans un package Windows Installer.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -656,7 +656,7 @@ Les professionnels de l’informatique et les administrateurs peuvent personnali
 
 ## <a name="infrastructure-developers"></a>Développeurs d’infrastructure
 
-Les développeurs d’infrastructure peuvent créer des plateformes unifiées pour le déploiement et la gestion de logiciels qui utilisent le service Windows Installer. Ils peuvent utiliser l’interface de programmation Windows Installer pour interroger, gérer et distribuer des applications, des correctifs et des sources sur un système.
+les développeurs d’Infrastructure peuvent créer des plateformes unifiées pour le déploiement et la gestion de logiciels qui utilisent le service Windows Installer. ils peuvent utiliser l’interface de programmation Windows Installer pour interroger, gérer et distribuer des applications, des correctifs et des sources sur un système.
 
 -   Localisez, stockez et interrogez l’État, les informations et les clients des composants.
 
@@ -679,7 +679,7 @@ Les développeurs d’infrastructure peuvent créer des plateformes unifiées po
     -   [Product, objet](product-object.md)
     -   [Objet patch](patch-object.md)
 
--   Améliorez la résilience de la source à l’aide de la Windows Installer pour inventorier, interroger et modifier la liste source des applications, des mises à niveau et des correctifs.
+-   améliorez la résilience de la source à l’aide de la Windows Installer pour inventorier, interroger et modifier la liste source des applications, des mises à niveau et des correctifs.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 
@@ -690,7 +690,7 @@ Les développeurs d’infrastructure peuvent créer des plateformes unifiées po
     -   [Product, objet](product-object.md)
     -   [Objet patch](patch-object.md)
 
--   Améliorez la résilience de la source à l’aide de la Windows Installer pour inventorier, interroger et modifier des sources multimédias.
+-   améliorez la résilience de la source à l’aide de la Windows Installer pour inventorier, interroger et modifier des sources multimédias.
 
     Pour plus d’informations, consultez les rubriques suivantes :
 

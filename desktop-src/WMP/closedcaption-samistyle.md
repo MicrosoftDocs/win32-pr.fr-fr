@@ -3,7 +3,7 @@ title: ClosedCaption.SAMIStyle
 description: La propriété SAMIStyle spécifie ou récupère le style de sous-titrage.
 ms.assetid: 5535fb31-f1c0-49c4-b758-df74964b1e67
 keywords:
-- Lecteur Windows Media ClosedCaption. SAMIStyle
+- ClosedCaption. SAMIStyle Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ebe81c2c2c4f4504d6167abe538c52ab769550a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ed4a12671877cf0d4d8abdb77d169b0f13000bc564e6c1dc37e65bf6eccdf005
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580764"
 ---
 # <a name="closedcaptionsamistyle"></a>ClosedCaption.SAMIStyle
 
@@ -55,7 +55,7 @@ Si aucun style SAMI n’est spécifié, le premier style défini dans le fichier
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant crée un élément SELECT HTML qui utilise *closedCaption*. **SAMIStyle** pour modifier l’apparence du texte de la légende fermée. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant crée un élément SELECT HTML qui utilise *closedCaption*. **SAMIStyle** pour modifier l’apparence du texte de la légende fermée. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

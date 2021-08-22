@@ -3,9 +3,9 @@ title: Méthode IWMPSettings setMode
 description: La méthode setMode définit le mode de boucle ou le mode de lecture aléatoire sur actif ou inactif.
 ms.assetid: e9d3765e-6edb-47a5-ac97-5e00b62498c2
 keywords:
-- méthode setMode lecteur Windows Media
-- méthode setMode lecteur Windows Media, interface IWMPSettings
-- Interface IWMPSettings lecteur Windows Media, méthode setMode
+- Lecteur Windows Media de la méthode setMode
+- méthode setMode Lecteur Windows Media, interface IWMPSettings
+- Lecteur Windows Media de l’interface IWMPSettings, méthode setMode
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8dffede5e634c5c4f726cff1631b79781ed5179
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 529aadf412cdae869ae3c308d82dcd08a7dfd581aeb7ecc711052f6acd54b962
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568406"
 ---
 # <a name="iwmpsettingssetmode-method"></a>IWMPSettings :: setMode, méthode
 
@@ -86,9 +86,9 @@ Valeur **System. Boolean** spécifiant si le nouveau mode spécifié est actif.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque le mode showFrame est actif, le lecteur Windows Media doit accéder au contenu Track pour récupérer la trame vidéo. Utilisez ce mode avec précaution lors de la diffusion de contenu qui n’est pas local.
+lorsque le mode showFrame est actif, Lecteur Windows Media devez accéder au contenu track pour récupérer l’image vidéo. Utilisez ce mode avec précaution lors de la diffusion de contenu qui n’est pas local.
 
 ## <a name="requirements"></a>Configuration requise
 

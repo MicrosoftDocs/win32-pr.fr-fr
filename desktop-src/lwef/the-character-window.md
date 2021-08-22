@@ -4,12 +4,12 @@ description: Fenêtre de caractères
 ms.assetid: 92b6111f-b52d-4720-8bd9-59585d826bf5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67a386dc769e2b5fe7313b768d1b2debfe4a1131
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 426aab4cbd6e0ad536135cb47ec9a636ea56a0509f3fb0cb75ad6440addc62da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474885"
 ---
 # <a name="the-character-window"></a>Fenêtre de caractères
 

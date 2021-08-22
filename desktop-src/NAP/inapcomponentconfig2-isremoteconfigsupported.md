@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2d144926aafff6f5ad7e243efe2a81a2955f497
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a42ae316063fc14054c8ffeb6e3987794bc33021441621ee231c9e839fc00248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118621766"
 ---
 # <a name="inapcomponentconfig2isremoteconfigsupported-method"></a>INapComponentConfig2 :: IsRemoteConfigSupported, méthode
 
@@ -75,9 +75,9 @@ Indique le type de configuration à distance pris en charge à l’aide de la va
 
 ## <a name="return-value"></a>Valeur retournée
 
-Retourne S \_ OK en cas de réussite, ou l’un des codes d’erreur Windows standard.
+retourne \_ la valeur OK si l’opération réussit ou l’un des codes d’erreur Windows standard.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si ni [**InvokeUIForMachine**](inapcomponentconfig2-invokeuiformachine.md) ni [**InvokeUIFromConfigBlob**](inapcomponentconfig2-invokeuifromconfigblob.md) n’est implémentée, la configuration distante de la SHV n’est pas possible.
 
@@ -88,7 +88,7 @@ Si ni [**InvokeUIForMachine**](inapcomponentconfig2-invokeuiformachine.md) ni [*
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>NapCommon. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapCommon. idl</dt> </dl> |
 

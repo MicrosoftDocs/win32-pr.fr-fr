@@ -4,16 +4,16 @@ ms.assetid: c1c17a97-cf4b-45b7-bc32-4bad94c3ddb2
 title: Objet Drive
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df8501c79f9381dba80a1fe0276014dccdf7a34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d04ec68fab408c4ed6412990296c0ebb265b8c3e4c4c9b05645b1f4bd1e625fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603419"
 ---
 # <a name="drive-object"></a>Objet Drive
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet lecteur modélise un lecteur de disque physique qui est contenu dans un sous-système. Chaque lecteur se connecte à un bus, occupe un emplacement et contient un ensemble d’étendues de lecteurs. Chaque lecteur peut fournir des étendues à n’importe quel nombre de numéros d’unités logiques. Un lecteur peut également être désigné comme disque de rechange à chaud.
 

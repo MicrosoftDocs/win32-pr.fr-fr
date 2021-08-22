@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62d4f0c75ac0dddeeaced0f1a3a6f1247df4ae36
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a00a6513350ee9c39855aba8168faf9ced788a0686a0fdbe845013dcc521142f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572038"
 ---
 # <a name="playerurl"></a>Player. URL
 
@@ -43,7 +43,7 @@ N’appelez pas cette méthode à partir du code du gestionnaire d’événement
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant crée un élément INPUT de texte HTML et un élément INPUT de bouton HTML. L’élément TEXT permet à l’utilisateur de taper un chemin d’accès pour spécifier un fichier multimédia numérique à lire. L’élément BUTTON exécute JScript qui ouvre le fichier et démarre le lecteur Windows Media. L’objet **Player** a été créé avec ID = "Player".
+L’exemple suivant crée un élément INPUT de texte HTML et un élément INPUT de bouton HTML. L’élément TEXT permet à l’utilisateur de taper un chemin d’accès pour spécifier un fichier multimédia numérique à lire. l’élément BUTTON exécute JScript qui ouvre le fichier et démarre Lecteur Windows Media. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

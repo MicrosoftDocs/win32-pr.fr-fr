@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4fef0f9f9e24a855564a8d3df2f94610ff9a8248
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85f20b364998fb34f3fe9eb6973770b414de501b60e34df6f97a607acb494947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118588181"
 ---
 # <a name="system-eventtype-element"></a>Élément System (EventType)
 
@@ -36,10 +36,10 @@ L’élément **système** est défini par le type complexe [**eventType**](even
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

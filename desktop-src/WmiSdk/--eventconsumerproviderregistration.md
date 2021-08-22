@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 38552519221018735c3c7543d9a1f3f2d4b680e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc3acec16b92c375f07836318be0e77c335862aec826c80bb77815865a337a72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557933"
 ---
 # <a name="__eventconsumerproviderregistration-class"></a>\_\_EventConsumerProviderRegistration, classe
 
@@ -77,7 +77,7 @@ Chemin d’accès de l’objet au fournisseur. Cette propriété est héritée d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ EventConsumerProviderRegistration** est dérivée de [**\_ \_ ProviderRegistration**](--providerregistration.md).
 

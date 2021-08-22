@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 039e5acb341ba5d2ecb8025a91ee87aa09f5ecbe
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fe39dcbd29f3cdf60421ebb7fe31436ca8d457313433c6d6fcf7ce9411007825
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103942952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118422784"
 ---
 # <a name="ms-ds-claim-type-property-base-class"></a>classe ms-DS-claim-type-Property-base
 
@@ -64,7 +64,7 @@ Classe abstraite qui définit la classe de base pour les classes de type de reve
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -87,9 +87,9 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**Nom complet-imprimable**](a-displaynameprintable.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**DSA-signature**](a-dsasignature.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>    |
-| [**Enabled**](a-enabled.md)                                                                 | Faux     | **ms-DS-claim-type-Property-base** |
+| [**Activé**](a-enabled.md)                                                                 | Faux     | **ms-DS-claim-type-Property-base** |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>    |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>    |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>    |
@@ -146,7 +146,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>    |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>    |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>    |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/>    |

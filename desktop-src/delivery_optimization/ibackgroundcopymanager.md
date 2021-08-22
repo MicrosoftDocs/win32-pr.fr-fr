@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6fa752398c0849c987e2a28b804e65a8361e15b0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8cf1ca14443823a5448a63c04d19d00957d4064353183d79aa7762f729115301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118542151"
 ---
 # <a name="ibackgroundcopymanager-interface"></a>Interface IBackgroundCopyManager
 
@@ -54,8 +54,8 @@ L’interface **IBackgroundCopyManager** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_CALLBACK_YIELD (VFW. h)
 description: Le \_ message WM Cap \_ Set \_ callback \_ yield définit une fonction de rappel dans l’application. AVICap appelle cette procédure lorsque la fenêtre de capture est obtenue pendant la capture en continu. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capSetCallbackOnYield.
 ms.assetid: d978dc3b-4336-46a4-85ae-7d588a63489b
 keywords:
-- Message WM_CAP_SET_CALLBACK_YIELD Windows Multimedia
+- message WM_CAP_SET_CALLBACK_YIELD Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b95c9ba0be7a0abeb99c0590e255adb0bd442343
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee12db79a9e4808442618ca295694611aa9e098a87c8f72b25f04360e156c8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622234"
 ---
 # <a name="wm_cap_set_callback_yield-message"></a>\_Message de \_ \_ \_ régénérer le rappel de la définition de l’embout WM
 
@@ -49,7 +49,7 @@ Pointeur vers la fonction de rappel yield, de type [**capYieldCallback**](/windo
 
 Retourne la **valeur true** en cas de réussite ou **false** si la capture en continu ou une session de capture de trame unique est en cours.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications peuvent éventuellement définir une fonction de rappel yield. La fonction de rappel Yield est appelée au moins une fois pour chaque image vidéo capturée pendant la capture en continu. Si une fonction de rappel Yield est installée, elle est appelée indépendamment de l’état du membre **fYield** de la structure [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) .
 

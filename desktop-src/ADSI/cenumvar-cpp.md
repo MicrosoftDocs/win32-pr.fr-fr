@@ -5,12 +5,12 @@ ms.assetid: 6b38bc99-25d4-40af-863a-9cc37f786d9b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d361cb7d3e2657a31645fba05aa2e1a23762a3fc
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 74277f31640bc3c44b81511596eaf0739934330e01fc2d44f1f3cb3e28112106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692518"
 ---
 # <a name="cenumvarcpp"></a>CENUMVAR. COTISATIONS
 
@@ -31,8 +31,8 @@ Dans l’exemple de composant fournisseur, l’implémentation de base pour les 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

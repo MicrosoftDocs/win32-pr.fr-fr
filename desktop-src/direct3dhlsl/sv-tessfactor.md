@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 308034fe607283ef9f1213cca1cabb4a7229765e
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 2243827fa1b955079aaf64b9805cf02ac82934bde814ed780570a5ba9b63ade8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118285495"
 ---
 # <a name="sv_tessfactor"></a>SV \_ TessFactor
 
@@ -40,7 +40,7 @@ Définit la quantité de pavage sur chaque bord d’un correctif.
 
 Les facteurs de pavage doivent être déclarés en tant que tableau ; ils ne peuvent pas être empaquetés dans un seul vecteur.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 La valeur du facteur de pavage doit être définie au cours de la fonction de constante de patch du nuanceur de coque.
 
@@ -60,7 +60,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 

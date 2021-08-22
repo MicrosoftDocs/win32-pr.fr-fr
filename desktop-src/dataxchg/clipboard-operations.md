@@ -3,7 +3,7 @@ title: Opérations du presse-papiers
 description: Une fenêtre doit utiliser le presse-papiers pour couper, copier ou coller des données. Une fenêtre place les données dans le presse-papiers pour les opérations couper et copier et récupère les données du presse-papiers pour les opérations de collage.
 ms.assetid: 27f9142c-3154-4de5-aea6-3c53f7e940ec
 keywords:
-- Interface utilisateur Windows, presse-papiers
+- Windows Interface utilisateur, presse-papiers
 - presse-papiers, fenêtres
 - presse-papiers, découper des données
 - presse-papiers, copier des données
@@ -13,12 +13,12 @@ keywords:
 - presse-papiers, mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cb2c3451cf562b35b976e137a974e19892acbb3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e8a0dfe82f6130f0435521ac4e17cf8e8b7162115074f7b3ff716187730f8bb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118545433"
 ---
 # <a name="clipboard-operations"></a>Opérations du presse-papiers
 

@@ -3,7 +3,7 @@ title: Authentification de l’application
 description: Authentification de l’application
 ms.assetid: 011815fa-d55c-4abc-9ec8-55d754827342
 keywords:
-- Gestionnaire de périphériques Windows Media, authentification
+- Windows Gestionnaire de périphériques de média, authentification
 - Gestionnaire de périphériques, authentification
 - Guide de programmation, authentification
 - applications de bureau, authentification
@@ -11,16 +11,16 @@ keywords:
 - Authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7779cdbb874278e6b62517cc2c1983dd2ce8fa1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9b67ad7c603bbfd3a56667bfcfe8742775c8ae5683888d72661e0a0974aa5358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106536274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586734"
 ---
 # <a name="authenticating-the-application"></a>Authentification de l’application
 
-La première étape que votre application doit effectuer est l’authentification. L’authentification vérifie l’identité de l’application auprès de Windows Media Gestionnaire de périphériques. Une fois que vous avez authentifié votre application, vous pouvez appeler **QueryInterface** pour obtenir l’interface [**IWMDeviceManager**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager) racine, qui peut être interrogée pour d’autres interfaces requises, qui peuvent eux-mêmes être interrogées pour toutes les autres interfaces. L’authentification n’a besoin d’être effectuée qu’une seule fois, au démarrage.
+La première étape que votre application doit effectuer est l’authentification. l’authentification vérifie l’identité de l’application pour Windows Gestionnaire de périphériques de média. Une fois que vous avez authentifié votre application, vous pouvez appeler **QueryInterface** pour obtenir l’interface [**IWMDeviceManager**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager) racine, qui peut être interrogée pour d’autres interfaces requises, qui peuvent eux-mêmes être interrogées pour toutes les autres interfaces. L’authentification n’a besoin d’être effectuée qu’une seule fois, au démarrage.
 
 Pour authentifier votre application, procédez comme suit :
 
@@ -91,9 +91,9 @@ HRESULT CWMDMController::Authenticate()
 
 <dl> <dt>
 
-[**Création d’une application Windows Media Gestionnaire de périphériques**](creating-a-windows-media-device-manager-application.md)
+[**création d’une Application de Gestionnaire de périphériques multimédia Windows**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-description: De nombreuses applications doivent utiliser la compression et la décompression des données sans perte. L’API de compression simplifie cela en exposant les algorithmes de compression Windows par le biais d’une API publique.
+description: De nombreuses applications doivent utiliser la compression et la décompression des données sans perte. l’api de compression simplifie cela en exposant Windows algorithmes de compression par le biais d’une API publique.
 ms.assetid: D603A7DE-D4A1-4515-9702-B03C81504661
 title: Utilisation de l’API de compression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01eff163f4ea1ccf03e1cd4ac9cb16a26afeb265
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fedc1d57ad48196290500383686b35f557c87c34099aad842b1e8ff18f00d318
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118551383"
 ---
 # <a name="using-the-compression-api"></a>Utilisation de l’API de compression
 
-De nombreuses applications doivent utiliser la compression et la décompression des données sans perte. L’API de compression simplifie cela en exposant les algorithmes de compression Windows par le biais d’une API publique. Chaque algorithme de compression a un ensemble de propriétés qui contrôle son comportement. L’API de compression expose une interface qui permet au développeur de définir ou d’interroger les valeurs de ces propriétés. Toutes les propriétés des algorithmes de compression pris en charge ont des valeurs par défaut qui représentent les valeurs couramment utilisées de ces propriétés. Si une propriété est requise pour la compression et la décompression, les valeurs par défaut sont identiques, ce qui garantit que des valeurs identiques sont utilisées pour la compression et la décompression.
+De nombreuses applications doivent utiliser la compression et la décompression des données sans perte. l’api de compression simplifie cela en exposant Windows algorithmes de compression par le biais d’une API publique. Chaque algorithme de compression a un ensemble de propriétés qui contrôle son comportement. L’API de compression expose une interface qui permet au développeur de définir ou d’interroger les valeurs de ces propriétés. Toutes les propriétés des algorithmes de compression pris en charge ont des valeurs par défaut qui représentent les valeurs couramment utilisées de ces propriétés. Si une propriété est requise pour la compression et la décompression, les valeurs par défaut sont identiques, ce qui garantit que des valeurs identiques sont utilisées pour la compression et la décompression.
 
 ## <a name="selecting-the-compression-algorithm"></a>Sélection de l’algorithme de compression
 

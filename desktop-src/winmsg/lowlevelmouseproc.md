@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: df6f246e5824099d01ab2a42f887464c7177cfa5
-ms.sourcegitcommit: 36610cefb8577d0cf9aa2286c8000d8f31cc4ec2
+ms.openlocfilehash: 53f75d14395388ce22ce86ef73f8819892c3fe7285909b1f38c801af476636a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "104032043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705785"
 ---
 # <a name="lowlevelmouseproc-function"></a>LowLevelMouseProc fonction)
 
@@ -93,7 +93,7 @@ Si *nCode* est inférieur à zéro, la procédure de raccordement doit retourner
 Si *nCode* est supérieur ou égal à zéro et que la procédure de hook n’a pas traité le message, il est vivement recommandé d’appeler **CallNextHookEx** et de retourner la valeur qu’il retourne ; dans le cas contraire, les autres applications qui ont installé [WH_MOUSE_LL](about-hooks.md) hooks ne recevront pas de notifications de raccordement et pourront se comporter de manière incorrecte.
 Si la procédure de Hook a traité le message, elle peut retourner une valeur différente de zéro pour empêcher le système de transmettre le message au reste de la chaîne de raccordement ou à la procédure de fenêtre cible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application installe la procédure de raccordement en spécifiant le type de hook **WH_MOUSE_LL** et un pointeur vers la procédure de Hook dans un appel à la fonction **SetWindowsHookEx** .
 
@@ -111,7 +111,7 @@ La procédure de raccordement doit traiter un message en moins de temps que l’
 
 Cette valeur est exprimée en millisecondes.
 Si la procédure de raccordement expire, le système transmet le message au Hook suivant.
-Toutefois, sur Windows 7 et versions ultérieures, le hook est supprimé en mode silencieux sans être appelé.
+toutefois, sur Windows 7 et versions ultérieures, le hook est supprimé en mode silencieux sans être appelé.
 L’application n’a aucun moyen de savoir si le hook est supprimé.
 
 **Remarque :**  Les raccordements de débogage ne peuvent pas suivre ce type de crochets de souris de bas niveau.

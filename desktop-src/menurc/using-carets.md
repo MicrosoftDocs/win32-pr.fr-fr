@@ -22,12 +22,12 @@ keywords:
 - entrée au clavier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6450a3169588b3072d1fee271f4890a7cdeafd2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8c930931df8ce401fbed8cc9af16db3cb52de08ebe9cf539109b426497318d5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472645"
 ---
 # <a name="using-carets"></a>Utilisation des signes d’insertion
 
@@ -177,7 +177,7 @@ case WM_KILLFOCUS:
 
 ## <a name="adjusting-the-blink-time"></a>Réglage de la durée de clignotement
 
-Dans Windows 16 bits, une application Windows peut appeler la fonction [**GetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-getcaretblinktime) pour enregistrer la durée de clignotement actuelle, puis appeler la fonction [**SetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-setcaretblinktime) pour ajuster la durée de clignotement lors du traitement du message [**WM \_ SetFocus**](/windows/desktop/inputdev/wm-setfocus) . L’application restaure la durée de clignotement enregistrée pour l’utilisation d’autres applications en appelant **SetCaretBlinkTime** lors du traitement du message [**WM \_ KILLFOCUS**](/windows/desktop/inputdev/wm-killfocus) . Toutefois, cette technique ne fonctionne pas dans les environnements multithreads. Plus précisément, la désactivation d’une application n’est pas synchronisée avec l’activation d’une autre application, de sorte que si une application se bloque, une autre application peut toujours être activée.
+en Windows 16 bits, une application basée sur des Windows peut appeler la fonction [**GetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-getcaretblinktime) pour enregistrer la durée de clignotement actuelle, puis appeler la fonction [**SetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-setcaretblinktime) pour ajuster la durée de clignotement lors du traitement du message [**WM \_ SETFOCUS**](/windows/desktop/inputdev/wm-setfocus) . L’application restaure la durée de clignotement enregistrée pour l’utilisation d’autres applications en appelant **SetCaretBlinkTime** lors du traitement du message [**WM \_ KILLFOCUS**](/windows/desktop/inputdev/wm-killfocus) . Toutefois, cette technique ne fonctionne pas dans les environnements multithreads. Plus précisément, la désactivation d’une application n’est pas synchronisée avec l’activation d’une autre application, de sorte que si une application se bloque, une autre application peut toujours être activée.
 
 Les applications doivent respecter la durée de clignotement choisie par l’utilisateur. La fonction [**SetCaretBlinkTime**](/windows/desktop/api/Winuser/nf-winuser-setcaretblinktime) doit être appelée uniquement par une application qui permet à l’utilisateur de définir la durée de clignotement.
 
@@ -495,6 +495,6 @@ LONG APIENTRY MainWndProc(
 
 
 
- 
+ 
 
- 
+ 

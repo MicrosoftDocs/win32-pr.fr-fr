@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_CALLBACK_WAVESTREAM (VFW. h)
 description: Le \_ message de \_ rappel de la valeur du paramètre WM Cap Set \_ \_ définit une fonction de rappel dans l’application.
 ms.assetid: f2554cbb-73de-4f76-b785-6c18c82c2992
 keywords:
-- Message WM_CAP_SET_CALLBACK_WAVESTREAM Windows Multimedia
+- message WM_CAP_SET_CALLBACK_WAVESTREAM Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d36abc7848de082e033cfc25d4f15d90c86cf3b2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e4a8ef585a3ceb35aa07fe4e31c5819ce3e56d20b0bfd2d6c5f588fc25c335b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622518"
 ---
 # <a name="wm_cap_set_callback_wavestream-message"></a>\_ \_ \_ Message WAVESTREAM de rappel \_ défini par WM Cap
 
@@ -49,7 +49,7 @@ Pointeur vers la fonction de rappel de flux Wave, de type [**capWaveStreamCallba
 
 Retourne la **valeur true** en cas de réussite ou **false** si la capture en continu ou une session de capture de trame unique est en cours.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre de capture appelle la procédure avant d’écrire la mémoire tampon audio sur le disque. Cela permet aux applications de modifier la mémoire tampon audio si vous le souhaitez.
 

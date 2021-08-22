@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 3dde476ee9958952d85c66816a113b92529aa13e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff41aca0d268083132fd1a45371b0bb1ca026e5e6d693619ba1e2c2f9f2dd8f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666729"
 ---
 # <a name="rtlgetfunctiontablelisthead-function"></a>RtlGetFunctionTableListHead fonction)
 
-\[Cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
+\[cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
 
 Permet à un débogueur d’examiner les informations de table de fonctions dynamiques.
 
@@ -43,9 +43,9 @@ Cette fonction n’a pas de paramètres.
 
 Retourne un pointeur vers le début de la liste de tables de fonctions.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Notez que le fichier d’en-tête Windows Driver Kit (WDK) Ntdef. h est requis pour certaines définitions. La bibliothèque d’importation associée, ntdll. lib, est disponible dans le kit WDK. Vous pouvez également utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à Ntdll.dll.
+notez que le fichier d’en-tête WDK (Windows Driver Kit) Ntdef. h est requis pour certaines définitions. La bibliothèque d’importation associée, ntdll. lib, est disponible dans le kit WDK. Vous pouvez également utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à Ntdll.dll.
 
 ## <a name="requirements"></a>Configuration requise
 

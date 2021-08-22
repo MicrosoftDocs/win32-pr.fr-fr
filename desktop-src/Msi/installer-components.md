@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e6767be5182b15836c071bf8b00ed8441f6031dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b8538e594ed02a1bc355ed4cf57db1befb1443e58d7afe2038b16e08eb9e4659
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632407"
 ---
 # <a name="installercomponents-property"></a>Installer. Components, propriété
 
@@ -37,7 +37,7 @@ propVal = Installer.Components
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour énumérer les composants, une application peut itérer au sein de l’objet [**StringList**](stringlist-object.md) à l’aide d’une construction for each. Comme les composants ne sont pas triés, tous les nouveaux composants possèdent un index arbitraire. Cela signifie que la fonction peut retourner des composants dans n’importe quel ordre.
 

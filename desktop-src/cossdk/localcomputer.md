@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 4e1ce08f3bf1fef74af0d77ada15716abb4530a6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b832da702942e8f84baee4303b7fa74a7fd74d683d62534cca619e8c7270e88a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118813463"
 ---
 # <a name="localcomputer-collection"></a>Collection LocalComputer
 
-Contient un objet unique qui correspond à l’ordinateur dont vous accédez au catalogue. Cet objet contient des informations sur les paramètres au niveau de l’ordinateur. Si vous appelez la méthode [**Connect**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect) sur un objet créé à partir de la classe [**COMAdminCatalog**](comadmincatalog.md) , l’objet de la collection **LocalComputer** contient des informations sur l’ordinateur distant dont vous accédez au catalogue.
+Contient un objet unique qui correspond à l’ordinateur dont vous accédez au catalogue. Cet objet contient des informations sur les paramètres au niveau de l’ordinateur. si vous appelez la méthode [**Connecter**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-connect) sur un objet créé à partir de la classe [**COMAdminCatalog**](comadmincatalog.md) , l’objet de la collection **LocalComputer** contient des informations sur l’ordinateur distant dont vous accédez au catalogue.
 
 Cette collection ne prend pas en charge les méthodes [**Add**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-add) et [**Remove**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-remove) de l’objet [**COMAdminCatalogCollection**](comadmincatalogcollection.md) .
 
@@ -58,7 +58,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 -   [LoadBalancingCLSID](#loadbalancingclsid)
 -   [LocalPartitionLookupEnabled](#localpartitionlookupenabled)
 -   [Nom](#name)
--   [OperatingSystem](#operatingsystem)
+-   [Exploitation](#operatingsystem)
 -   [PartitionsEnabled](#partitionsenabled)
 -   [Ports](#defaulttointernetports)
 -   [ResourcePoolingEnabled](#resourcepoolingenabled)
@@ -451,7 +451,7 @@ Si cette propriété est définie sur true, le serveur CLB est configuré et dé
 
 ## <a name="example"></a>Exemple
 
-L’exemple de Visual Basic Microsoft suivant montre comment se connecter à un ordinateur distant et obtenir sa propriété SecurityTrackingEnabled à l’aide de la collection **LocalComputer** de l’ordinateur distant. Pour utiliser cet exemple, ajoutez la bibliothèque de types d’administration COM+ en tant que référence à votre projet Visual Basic.
+l’exemple de Visual Basic Microsoft suivant montre comment se connecter à un ordinateur distant et obtenir sa propriété SecurityTrackingEnabled à l’aide de la collection **LocalComputer** de l’ordinateur distant. pour utiliser cet exemple, ajoutez la bibliothèque de types d’administration COM+ en tant que référence à votre projet Visual Basic.
 
 
 ```VB
@@ -501,7 +501,7 @@ End Function
 
 
 
-Pour utiliser la fonction, fournissez une valeur de chaîne pour le nom de l’ordinateur distant. Le code Visual Basic suivant montre comment se connecter à l’ordinateur nommé « RemoteComputerName ».
+Pour utiliser la fonction, fournissez une valeur de chaîne pour le nom de l’ordinateur distant. le code Visual Basic suivant montre comment se connecter à l’ordinateur nommé « RemoteComputerName ».
 
 
 ```VB

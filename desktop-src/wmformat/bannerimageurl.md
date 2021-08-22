@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c4859013b77f2ad7bfafb4ad79327ef0b208544
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0af787dedcbfce4749773fb2000e305032414ef055f9f868b3679e65da529672
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705185"
 ---
 # <a name="bannerimageurl"></a>BannerImageURL
 
@@ -38,9 +38,9 @@ L’attribut **BannerImageURL** contient l’adresse d’un site Web associé à
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
