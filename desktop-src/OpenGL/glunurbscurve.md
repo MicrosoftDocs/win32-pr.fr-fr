@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c38e3d5fe35e994afa4b5d8b91c4244573132c5b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d5973ce3cb4d1ac05ea353fd78359f6b3b1bc9a3a0ab3180807b0834cc4bb20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489039"
 ---
 # <a name="glunurbscurve-function"></a>gluNurbsCurve fonction)
 
@@ -99,7 +99,7 @@ Type de la courbe. Si cette courbe est définie au sein d’une paire [**gluBegi
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand **gluNurbsCurve** apparaît entre une  / paire de **gluEndCurve** gluBeginCurve, il décrit une courbe à restituer. Vous associez les coordonnées de position, de texture et de couleur en les présentant comme un **gluNurbsCurve** distinct entre une paire **gluBeginCurve** / **gluEndCurve** . N’effectuez pas plus d’un appel à **gluNurbsCurve** pour les données de couleur, de position et de texture dans une paire de / **gluEndCurve** gluBeginCurve unique. Effectuez un seul appel pour décrire la position de la courbe (un *type* de Map1 de comptabilité GL de \_ \_ vertex \_ 3 ou de Map1 de type GL \_ \_ \_ 4).
 

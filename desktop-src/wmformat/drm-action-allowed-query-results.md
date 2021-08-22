@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d1e328acb915bd32547f3455e8556e4caba2360
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d66973838bb6d9cf745ae30b885acccf7b4b311834bbe827d96ccbeea501bd17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547809"
 ---
 # <a name="drm_action_allowed_query_results-enumeration"></a>\_ \_ \_ Énumération des résultats de requête autorisés par l’action DRM \_
 
@@ -144,7 +144,7 @@ Spécifie que les droits de l’action interrogée ne peuvent pas être détermi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de ce type d’énumération indiquent qu’une action n’est pas autorisée. La valeur zéro indique que l’action est autorisée.
 

@@ -4,12 +4,12 @@ ms.assetid: 532bf089-d5ca-4a04-847d-69e48990ff5c
 title: Constantes PHONEHOOKSWITCHMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8028cb531d5b38185edf75ae58e4c3c855398f2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff8f25b7126056690b0b1953065caff3e475ac00cb073c68c8200d056c0114b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404479"
 ---
 # <a name="phonehookswitchmode_-constants"></a>\_Constantes PHONEHOOKSWITCHMODE
 
@@ -67,7 +67,7 @@ Le mode hookswitch de l’appareil est actuellement inconnu.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

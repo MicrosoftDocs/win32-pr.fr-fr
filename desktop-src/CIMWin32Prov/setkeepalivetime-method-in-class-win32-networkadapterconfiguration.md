@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1dc2674f3c09626749b4c7ac6151349401670e27
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2aa9ea7474c3c53f2f073c263de0be987be3161704957105cdb2cca903706f95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439949"
 ---
 # <a name="setkeepalivetime-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetKeepAliveTime de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le système distant est toujours accessible et fonctionne, il accuse réception de la transmission Keep Alive. Les paquets Keep Alive ne sont pas envoyés par défaut. Cette fonctionnalité peut être activée dans une connexion par une application.
 

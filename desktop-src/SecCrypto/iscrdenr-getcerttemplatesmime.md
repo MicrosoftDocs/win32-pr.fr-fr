@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 4ed66af6a8a91855fbfc5a972a8bf00358314663
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8da8c9c3202c0955a001a63e77f85858fc6237d7476c0fc5222ae8f85e94a7c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119515959"
 ---
 # <a name="iscrdenrgetcerttemplatesmime-method"></a>ISCrdEnr :: getCertTemplateSMIME, méthode
 
@@ -80,7 +80,7 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Valeur **longue** d’une si *bstrCertTemplateName* prend en charge S/MIME ; Sinon, zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante pour la \_ protection de la \_ messagerie électronique szOID PKIX \_ \_ est définie dans wincrypt. h.
 
@@ -91,7 +91,7 @@ La constante pour la \_ protection de la \_ messagerie électronique szOID PKIX 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr est défini en tant que 753988a1-1357-436D-9cf5-f089bdd67d64<br/>             |
 

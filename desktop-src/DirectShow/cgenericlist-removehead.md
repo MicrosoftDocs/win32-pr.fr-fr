@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: da9267d6b3e0c3196b3a9d1e873f222649b66684
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b374ad6a08aac039de3c7d54ee4403f240fdf6bf9839a5ea2554901de789f11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317749"
 ---
 # <a name="cgenericlistremovehead-method"></a>Méthode CGenericList. RemoveHead
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne un pointeur vers un objet de type **Object** (le type de modèle), ou **null** si la liste est vide.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode supprime le nœud de liste, mais pas l’élément contenu dans le nœud.
 
@@ -54,7 +54,7 @@ Cette méthode supprime le nœud de liste, mais pas l’élément contenu dans l
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxlist. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxlist. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

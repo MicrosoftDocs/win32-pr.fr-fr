@@ -4,12 +4,12 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\windowprocedures.htm
 title: Procédures de fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92ae68ba9b64557a6dc70d5c83788b8337648a2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b7892c1547d7f5ed1bf5d70a9242e3bb5bc6a3c8e93121470d27ecbd64fb912
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548459"
 ---
 # <a name="window-procedures"></a>Procédures de fenêtre
 
@@ -19,7 +19,7 @@ Chaque fenêtre a une procédure de fenêtre associée, c’est-à-dire une fonc
 
 
 
-| Nom                                                         | Description                                                                                                                                                                                                    |
+| Name                                                         | Description                                                                                                                                                                                                    |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [À propos des procédures de fenêtre](about-window-procedures.md)       | Traite des procédures de fenêtre. Chaque fenêtre est un membre d’une classe de fenêtre particulière. La classe de fenêtre détermine la procédure de fenêtre par défaut utilisée par une fenêtre individuelle pour traiter ses messages.<br/> |
 | [Utilisation des procédures de fenêtre](using-window-procedures.md)       | Explique comment effectuer les tâches suivantes associées aux procédures de fenêtre.<br/>                                                                                                                        |
@@ -33,7 +33,7 @@ Chaque fenêtre a une procédure de fenêtre associée, c’est-à-dire une fonc
 
 
 
-| Nom                                     | Description                                                                                                                                                                                                                                                                                                   |
+| Name                                     | Description                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca) | Transmet les informations de message à la procédure de fenêtre spécifiée. <br/>                                                                                                                                                                                                                                     |
 | [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)   | Appelle la procédure de fenêtre par défaut pour fournir le traitement par défaut pour tous les messages de fenêtre qu’une application ne traite pas. Cette fonction garantit que chaque message est traité. [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) est appelé avec les mêmes paramètres que ceux reçus par la procédure de fenêtre. <br/> |

@@ -4,17 +4,17 @@ description: Cette section décrit les meilleures pratiques pour l’utilisation
 ms.assetid: 49F6E356-90C7-423A-A31A-AEE41F882D3B
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0658a9693567dfd88e9a986893048fa1d0fa1e5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 73606d34fff20c6d48a748d713ee292b36fd791ffde5cddb255ad9c60982cf1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106517986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119484729"
 ---
 # <a name="how-to-use-directcomposition"></a>Utilisation de DirectComposition
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette section décrit les meilleures pratiques pour l’utilisation de l’API Microsoft DirectComposition et montre comment utiliser l’API pour accomplir plusieurs tâches courantes.
 

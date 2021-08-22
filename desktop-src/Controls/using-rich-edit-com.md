@@ -4,27 +4,27 @@ description: Cette section contient des informations sur l’utilisation de la l
 ms.assetid: bfcecbf5-cc35-47b8-a713-7e5fd03f60cc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7868bd62044c87765a25f6033499460ed044e57
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 9d825a9876005cadb20e4fc7717f766582ab12224f4f86995319357875d24230
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104101380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119311679"
 ---
 # <a name="how-to-use-ole-in-rich-edit-controls"></a>Utilisation d’OLE dans des contrôles RichEdit
 
 Cette section contient des informations sur l’utilisation de la liaison et de l’incorporation d’objets (OLE) dans les contrôles RichEdit.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -36,7 +36,7 @@ Une autre interface, [**IRichEditOleCallback**](/windows/desktop/api/Richole/nn-
 
 ### <a name="insert-an-object-into-a-rich-edit-control"></a>Insérer un objet dans un contrôle RichEdit
 
-L’exemple de code suivant insère un objet fichier dans un contrôle RichEdit. Si un programme est associé au type de fichier sur l’ordinateur de l’utilisateur (par exemple, Microsoft Excel pour un fichier. xls), le contenu du fichier s’affiche dans le contrôle ; dans le cas contraire, une icône s’affiche.
+L’exemple de code suivant insère un objet fichier dans un contrôle RichEdit. si un programme est associé au type de fichier sur l’ordinateur de l’utilisateur (par exemple, Microsoft Excel pour un fichier .xls), le contenu du fichier s’affiche dans le contrôle ; dans le cas contraire, une icône s’affiche.
 
 1.  Obtient l’interface [**IRichEditOle**](/windows/desktop/api/Richole/nn-richole-iricheditole) .
 
@@ -333,12 +333,12 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
 [Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

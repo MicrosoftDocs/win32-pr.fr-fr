@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af04ab2364fafcea709ca36cab2f10a8bea1a96f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2db848c6971fe2893f2bc2cd4ca33e96811dda0d44e81e8a852cd441a6478d79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488469"
 ---
 # <a name="glutessnormal-function"></a>gluTessNormal fonction)
 
@@ -64,7 +64,7 @@ Composant de coordonnée y d’un normal.
 
 </dd> <dt>
 
-*z* 
+*Lettre* 
 </dt> <dd>
 
 Composant de coordonnée z d’un normal.
@@ -75,7 +75,7 @@ Composant de coordonnée z d’un normal.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluTessNormal** décrit un normal pour un polygone que vous définissez. Toutes les données d’entrée sont projetées sur un plan perpendiculaire à l’un des trois axes de coordonnées avant la polygonalisation, et tous les triangles de sortie sont orientés vers le sens inverse des aiguilles d’une dépassement en respectant la normale. (Pour obtenir l’orientation dans le sens des aiguilles d’une montre, inversez le signe de la normale fournie). Par exemple, si vous savez que tous les polygones se trouvent dans le plan x-y, appelez **gluTessNormal**(tess, 0,0, 0,0, 1,0) avant de restituer des polygones.
 

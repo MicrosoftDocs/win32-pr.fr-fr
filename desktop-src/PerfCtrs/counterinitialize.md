@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 18996fc4349a120069a9b38293a11faf70632033
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7c2fb61b53ca1847eefcc453a91f69b3c0602e06277b4858b8f0b733be7f71b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103952017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119517679"
 ---
 # <a name="counterinitialize-function"></a>CounterInitialize fonction)
 
@@ -40,7 +40,7 @@ Cette fonction n’a pas de paramètres.
 
 Retourne l’erreur \_ de réussite en cas de réussite ; sinon, code d’erreur Win32 standard.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Votre fournisseur appelle cette fonction. La fonction comprend des appels à la fonction [**PerfStartProvider**](/windows/desktop/api/Perflib/nf-perflib-perfstartprovider) et à la fonction [**PerfSetCounterSetInfo**](/windows/desktop/api/Perflib/nf-perflib-perfsetcountersetinfo) .
 
@@ -95,8 +95,8 @@ Informations de contexte à passer à votre allocation de mémoire et à vos rou
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

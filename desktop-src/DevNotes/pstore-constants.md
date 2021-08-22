@@ -17,20 +17,20 @@ api_type:
 - HeaderDef
 api_location:
 - Pstore.h
-ms.openlocfilehash: 1c80fe7235a859ef0a754420fe5bd22caa10d6bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69a82241e8f270389c5385143e83973d380f5671e30e2086749a75c984670cf0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386039"
 ---
 # <a name="pstore-constants"></a>Constantes PStore
 
-\[Le stockage protégé (PStore) peut être utilisé dans Windows Server 2003 et Windows XP. Elle est uniquement disponible pour les opérations en lecture seule dans Windows Server 2008 et Windows Vista, mais elle peut ne pas être disponible dans les versions ultérieures. Pstore utilise une implémentation plus ancienne de la protection des données. Les développeurs sont vivement encouragés à tirer parti de la protection renforcée des données fournie par les fonctions [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) et [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
+\[le Stockage protégé (Pstore) peut être utilisé dans Windows Server 2003 et Windows XP. elle est uniquement disponible pour les opérations en lecture seule dans Windows Server 2008 et Windows Vista, mais elle peut ne pas être disponible dans les versions ultérieures. Pstore utilise une implémentation plus ancienne de la protection des données. Les développeurs sont vivement encouragés à tirer parti de la protection renforcée des données fournie par les fonctions [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) et [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
 
 Les constantes suivantes sont utilisées par PStore.
 
-Codes d’erreur de stockage protégé
+Codes d’erreur Stockage protégés
 
 
 
@@ -49,7 +49,7 @@ Valeurs de clause d’accès
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
 | <span id="PST_AUTHENTICODE"></span><span id="pst_authenticode"></span><dl> <dt>**Fichier PST \_ AUTHENTICODE**</dt> <dt>1</dt> </dl>                       | Pointe vers une [**structure \_ AUTHENTICODEDATA PST**](pst-authenticodedata.md) .<br/> |
 | <span id="PST_BINARY_CHECK_"></span><span id="pst_binary_check_"></span><dl> <dt> **\_ \_ Vérification binaire PST**</dt> <dt>2</dt> </dl>                   | Pointe vers une **structure \_ BINARYCHECKDATA PST** .<br/>                              |
-| <span id="PST_SECURITY_DESCRIPTOR"></span><span id="pst_security_descriptor"></span><dl> <dt>**Fichier PST \_ \_Descripteur de sécurité**</dt> <dt>4</dt> </dl> | Pointe vers un descripteur de sécurité Windows valide. <br/>                              |
+| <span id="PST_SECURITY_DESCRIPTOR"></span><span id="pst_security_descriptor"></span><dl> <dt>**Fichier PST \_ \_Descripteur de sécurité**</dt> <dt>4</dt> </dl> | pointe vers un descripteur de sécurité Windows valide. <br/>                              |
 
 
 

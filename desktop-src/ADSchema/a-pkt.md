@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1647e2730b254121763b6598a8ec365b376dd52d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f01f0b1abcf73223848b75867c052b056ab2f0ff6dfdf2e4f9b633af676c57dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581849"
 ---
 # <a name="pkt-attribute"></a>Attribut PKT
 
@@ -45,7 +45,7 @@ Table de connaissance de la partition DFS. Décrit la structure d’une hiérarc
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

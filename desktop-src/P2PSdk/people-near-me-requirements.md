@@ -4,20 +4,20 @@ ms.assetid: c7ab73fc-56a6-4b6c-820a-3f8e4a97cfaf
 title: Conditions requises pour les personnes près de moi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff6afb97800041e0fcd9a10a6d95334b832fb363
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ebbb904175184b6e9d06c807aa4b4ed645c93633114d6b9b64085e34dfa3683
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518349"
 ---
 # <a name="people-near-me-requirements"></a>Conditions requises pour les personnes près de moi
 
-Pour que les [personnes près de moi](about-people-near-me.md) puissent fournir une connectivité transparente et une collaboration simple aux utilisateurs pour les applications de réseau homologue Windows, les conditions suivantes sont remplies :
+pour que les [personnes près de moi](about-people-near-me.md) puissent fournir une connectivité transparente et une collaboration simple aux utilisateurs pour Windows les applications réseau homologues, les conditions suivantes sont remplies :
 
 ### <a name="people-discovery"></a>Découverte de personnes
 
-La découverte de personnes permet à un utilisateur de découvrir et d’afficher l’ensemble des pairs qui se trouvent sur le sous-réseau local. Tous les ordinateurs sur le sous-réseau local doivent publier les noms des homologues connectés. Les homologues répertoriés après une requête de découverte sont l’ensemble des utilisateurs qui exécutent Windows Vista et qui sont configurés pour annoncer un surnom à d’autres utilisateurs à l’aide du voisinage [immédiat](about-people-near-me.md). Cette fonctionnalité est désactivée par défaut et doit être activée par l’utilisateur connecté.
+La découverte de personnes permet à un utilisateur de découvrir et d’afficher l’ensemble des pairs qui se trouvent sur le sous-réseau local. Tous les ordinateurs sur le sous-réseau local doivent publier les noms des homologues connectés. les homologues répertoriés après une requête de découverte sont l’ensemble des utilisateurs qui exécutent Windows Vista et qui sont configurés pour publier un surnom pour d’autres utilisateurs à l’aide du voisinage [immédiat](about-people-near-me.md). Cette fonctionnalité est désactivée par défaut et doit être activée par l’utilisateur connecté.
 
 > [!Note]  
 > Les homologues distants découverts pendant le processus de découverte « People Near me » ne sont pas nécessairement les utilisateurs anticipés associés aux homologues découverts.
@@ -46,7 +46,7 @@ Si les utilisateurs établissent une activité de collaboration par le biais de 
 
 ### <a name="security"></a>Sécurité
 
-Pour protéger les utilisateurs et les données échangées dans une activité de collaboration pair à pair, les utilisateurs disposent d’un contrôle de configuration sur ce qui est publié. Les utilisateurs doivent également accepter une invitation avant que la collaboration pair à pair puisse commencer. L’activité de collaboration est chiffrée avec un canal chiffré SSL (Secure Sockets Layer) (SSL) (également connu sous le nom de Schannel). SSL est un protocole de chiffrement pour protéger les communications basées sur TCP. Pour plus d’informations, consultez [Schannel](windows-vista-components-for-people-near-me.md). Ces exigences sont prises en charge par un nouvel ensemble de composants dans l’architecture de [mise en réseau d’homologues Windows](what-is-peer-networking-.md)dans Windows Vista.
+Pour protéger les utilisateurs et les données échangées dans une activité de collaboration pair à pair, les utilisateurs disposent d’un contrôle de configuration sur ce qui est publié. Les utilisateurs doivent également accepter une invitation avant que la collaboration pair à pair puisse commencer. L’activité de collaboration est chiffrée avec un canal chiffré SSL (Secure Sockets Layer) (SSL) (également connu sous le nom de Schannel). SSL est un protocole de chiffrement pour protéger les communications basées sur TCP. Pour plus d’informations, consultez [Schannel](windows-vista-components-for-people-near-me.md). ces exigences sont prises en charge par un nouvel ensemble de composants dans l’architecture de [mise en réseau Windows homologue](what-is-peer-networking-.md)dans Windows Vista.
 
  
 

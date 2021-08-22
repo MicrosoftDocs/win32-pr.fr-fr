@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dd258a4372c16a7f98f2fe3ea8b84bbfef44f69e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 23093858f034a128c08ac2c39343a51a1d73de229440b444d37e777e2b0d0ba0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439439"
 ---
 # <a name="setpowerstate-method-of-the-cim_logicaldevice-class-cimwin32-wmi-providers"></a>Méthode SetPowerState de la classe CIM_LogicalDevice (fournisseurs WMI CIMWin32)
 
@@ -130,7 +130,7 @@ Spécifie quand l’état d’alimentation doit être défini comme une valeur d
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans une sous-classe, l’ensemble des codes de retour possibles doit être spécifié à l’aide d’un qualificateur **ValueMap** sur la méthode. Les chaînes dans lesquelles le contenu **ValueMap** est traduit doivent également être spécifiées dans la sous-classe en tant que qualificateur de tableau de **valeurs** . Cette méthode est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 

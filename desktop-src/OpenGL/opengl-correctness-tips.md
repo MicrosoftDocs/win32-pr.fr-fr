@@ -1,20 +1,20 @@
 ---
-title: Conseils d’exactitude OpenGL
-description: Conseils d’exactitude OpenGL
+title: exactitude de l’Astuces OpenGL
+description: exactitude de l’Astuces OpenGL
 ms.assetid: 48397fbf-823d-4ea0-adfd-2c639e20e38f
 keywords:
 - OpenGL, conseils d’exactitude
 - OpenGL, meilleures pratiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5294d2e989591216ea8cf66aa380933718776f2d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 588cb53ca9e096eb768c4ce448c0bb7badae6f01e7b8d7e16c31a631ebcafb47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119486399"
 ---
-# <a name="opengl-correctness-tips"></a>Conseils d’exactitude OpenGL
+# <a name="opengl-correctness-tips"></a>exactitude de l’Astuces OpenGL
 
 Suivez ces instructions pour créer des applications OpenGL qui fonctionnent comme vous le souhaitez :
 
@@ -50,9 +50,9 @@ Suivez ces instructions pour créer des applications OpenGL qui fonctionnent com
 
 -   Évitez d’utiliser des coordonnées de vertex *w* négatives et des coordonnées de texture *q* négatives. OpenGL peut ne pas découper de telles coordonnées correctement et peut faire des erreurs d’interpolation lors de la définition de primitives d’ombrage définies par ces coordonnées.
 
- 
+ 
 
- 
+ 
 
 
 

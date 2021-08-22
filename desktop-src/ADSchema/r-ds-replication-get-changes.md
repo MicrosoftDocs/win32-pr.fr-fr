@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c14a91a0b0bc4792b162deb7992b8672afcc59da
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1de99b14fb45501af0e10ab335f780f8c4527d46b3cf22e23fa174beafd12f86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548669"
 ---
 # <a name="ds-replication-get-changes-extended-right"></a>Droits étendus DS-Replication-
 
@@ -40,7 +40,7 @@ Droit étendu nécessaire à la réplication des modifications à partir d’un 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -50,7 +50,7 @@ Droit étendu nécessaire à la réplication des modifications à partir d’un 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 25                                                                                                                               |
 
 
@@ -61,7 +61,7 @@ Droit étendu nécessaire à la réplication des modifications à partir d’un 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 25                                                                                                                               |
 
 
@@ -72,7 +72,7 @@ Droit étendu nécessaire à la réplication des modifications à partir d’un 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 25                                                                                                                               |
 
 
@@ -83,7 +83,7 @@ Droit étendu nécessaire à la réplication des modifications à partir d’un 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 25                                                                                                                               |
 
 
@@ -94,7 +94,7 @@ Droit étendu nécessaire à la réplication des modifications à partir d’un 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 25                                                                                                                               |
 
 
@@ -105,7 +105,7 @@ Droit étendu nécessaire à la réplication des modifications à partir d’un 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 25                                                                                                                               |
 
 
@@ -116,7 +116,7 @@ Droit étendu nécessaire à la réplication des modifications à partir d’un 
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 25                                                                                                                               |
 
 

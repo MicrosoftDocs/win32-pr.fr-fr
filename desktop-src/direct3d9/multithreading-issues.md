@@ -4,12 +4,12 @@ ms.assetid: 66a9e14f-46c8-45e8-ae0e-4d8cf5106acc
 title: Problèmes liés aux multithreads (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa8d163698e6cc1b4855668d255ed46fd28700d1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dd86b07850a1134d214d02c8b809c825f7cab2971ee87f93bd66aeae1dbd4b5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119371929"
 ---
 # <a name="multithreading-issues-direct3d-9"></a>Problèmes liés aux multithreads (Direct3D 9)
 
@@ -25,7 +25,7 @@ Pour ces raisons, Direct3D est conçu de sorte que les méthodes [**IDirect3DDev
 
 <dl> <dt>
 
-[Conseils de programmation](programming-tips.md)
+[Astuces de programmation](programming-tips.md)
 </dt> </dl>
 
  

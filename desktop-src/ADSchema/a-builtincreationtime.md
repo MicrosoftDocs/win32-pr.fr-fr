@@ -1,6 +1,6 @@
 ---
 title: Attribut de temps de création builtin
-description: L’attribut builtin-Creation-Time est utilisé pour prendre en charge la réplication vers des domaines Windows NT 4,0.
+description: L’attribut builtin-Creation-Time est utilisé pour prendre en charge la réplication vers Windows domaines NT 4,0.
 ms.assetid: b3da9913-8c7b-481b-ae47-6b124544f1e2
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54d5b6d37ee0242999afd47415cb067abe26e7fd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f49db533ad85dc9531a1274687ebe70e728dba6f5c27e952a443344be3d02f12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442739"
 ---
 # <a name="builtin-creation-time-attribute"></a>Attribut de temps de création builtin
 
-L’attribut **BuiltIn-Creation-Time** est utilisé pour prendre en charge la réplication vers des domaines Windows NT 4,0.
+L’attribut **BuiltIn-Creation-Time** est utilisé pour prendre en charge la réplication vers Windows domaines NT 4,0.
 
 
 
@@ -45,7 +45,7 @@ L’attribut **BuiltIn-Creation-Time** est utilisé pour prendre en charge la r�
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

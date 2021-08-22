@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cfa9c422dfe196ab002c02c361759461f43965d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 220438034793c4cae72ab730e8c9116edff69a0524c1dc135185da3ff8b6af73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119443009"
 ---
 # <a name="authentication-options-attribute"></a>Attribut Authentication-Options
 
@@ -31,12 +31,12 @@ Options d’authentification utilisées dans l’interface ADSI pour la liaison 
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CN                | Authentication-Options                                                                                                                                                                                                                                                       |
 | LDAP-Display-Name | authenticationOptions                                                                                                                                                                                                                                                        |
-| Taille              | 4 octets. Valeurs définies dans IADS. h : \_ authentification sécurisée des publicités \_ 0x1, annonces \_ utiliser le \_ chiffrement 0X2, ad \_ use \_ SSL 0X2, ADS \_ ReadOnly \_ Server 0x4, \_ \_ informations d’identification de l’invite ADS, informations d’identification ADS, ad \_ no \_ Authentication 0x10, ADS \_ Fast \_ Bind 0x20, ad \_ use \_ Signing 0x40 \_ \_ |
+| Taille              | 4 octets. valeurs définies dans IADS. h : \_ authentification sécurisée des publicités \_ 0x1, annonces \_ utiliser le \_ chiffrement 0x2, ads \_ utiliser \_ SSL 0x2, annonces \_ READONLY \_ serveur 0x4, \_ informations d’identification de l’invite ads, annonces non- \_ \_ \_ authentification 0x10, ads \_ FAST \_ lier 0x20, annonces \_ utiliser la \_ signature 0x40, \_ \_ annonces avec scellement |
 | Mettre à jour le privilège  | \-                                                                                                                                                                                                                                                                           |
 | Fréquence des mises à jour  | \-                                                                                                                                                                                                                                                                           |
 | Attribute-Id      | 1.2.840.113556.1.4.11                                                                                                                                                                                                                                                        |
 | System-ID-GUID    | bf967928-0de6-11d0-a285-00aa003049e2                                                                                                                                                                                                                                         |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                                                                                                                                                                                                                                         |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                                                                                                                                                                                                                                         |
 
 
 
@@ -45,7 +45,7 @@ Options d’authentification utilisées dans l’interface ADSI pour la liaison 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Options d’authentification utilisées dans l’interface ADSI pour la liaison 
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -78,10 +78,10 @@ Options d’authentification utilisées dans l’interface ADSI pour la liaison 
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -99,10 +99,10 @@ Options d’authentification utilisées dans l’interface ADSI pour la liaison 
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -120,10 +120,10 @@ Options d’authentification utilisées dans l’interface ADSI pour la liaison 
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -141,10 +141,10 @@ Options d’authentification utilisées dans l’interface ADSI pour la liaison 
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -162,10 +162,10 @@ Options d’authentification utilisées dans l’interface ADSI pour la liaison 
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |

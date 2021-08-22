@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f749513757ee32f6fe468dadbe968b8657a06f3d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1258eee2f9fa706fb4a855ef31b283a0449ad891bc9995a98acc9b3c4f49abd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490109"
 ---
 # <a name="gltexparameterf-function"></a>glTexParameterf fonction)
 
@@ -86,14 +86,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                                                                          |
+| Name                                                                                                  | Signification                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ \_énumération non valide**</dt> </dl>     | *target* ou *pname* ne faisait pas partie des valeurs définies acceptées, ou lorsque *param* aurait dû avoir une valeur de constante définie (basée sur la valeur de *pname*) et ne l’a pas fait.<br/> |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/>                                            |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le mappage de texture est une technique qui applique une image sur la surface d’un objet comme si l’image était un cellophane de décalque ou de réduction. L’image est créée dans l’espace de texture, avec un système de coordonnées (*s*, *t*). Une texture est une image à une ou deux dimensions et un ensemble de paramètres qui déterminent la façon dont les échantillons sont dérivés de l’image.
 

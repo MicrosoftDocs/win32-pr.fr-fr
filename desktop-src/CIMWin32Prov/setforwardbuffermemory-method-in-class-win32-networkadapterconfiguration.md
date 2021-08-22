@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 30179610e6eee121a86119fa347067b40ef04c2f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1672c8d60cfdf8b831cfbcae9a1da1de5a6baa6225f220856ea579f7857c6650
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440049"
 ---
 # <a name="setforwardbuffermemory-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetForwardBufferMemory de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque l’espace de la mémoire tampon est rempli, le routeur commence à ignorer les paquets aléatoirement dans sa file d’attente.
 

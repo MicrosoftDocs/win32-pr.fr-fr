@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a06d2abd1c4ad92d751afa6c8aa47c0cfaa8b1f9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 457bf0e094e4196c2ff60b05581daf5dc6a51349530d3563119962e01c94c40d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548269"
 ---
 # <a name="cim_logicalfile-class"></a>\_Classe CIM LogicalFile
 
@@ -124,7 +124,7 @@ La classe **CIM \_ LogicalFile** possède ces méthodes.
 | [**CompressEx**](compressex-method-in-class-cim-logicalfile.md)                                   | Compresse le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet. Non implémenté par WMI.<br/>                                              |
 | [**Copier**](copy-method-in-class-cim-logicalfile.md)                                               | Copie le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre d’entrée. Non implémenté par WMI.<br/> |
 | [**CopyEx**](copyex-method-in-class-cim-logicalfile.md)                                           | Copie le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre d’entrée. Non implémenté par WMI.<br/> |
-| [**Supprimer**](delete-method-in-class-cim-logicalfile.md)                                           | Supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet. Non implémenté par WMI.<br/>                                                 |
+| [**DELETE**](delete-method-in-class-cim-logicalfile.md)                                           | Supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet. Non implémenté par WMI.<br/>                                                 |
 | [**DeleteEx**](deleteex-method-in-class-cim-logicalfile.md)                                       | Supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet. Non implémenté par WMI.<br/>                                                 |
 | [**GetEffectivePermission**](geteffectivepermission-method-in-class-cim-logicalfile.md)           | Détermine si l’appelant dispose des autorisations agrégées spécifiées par l’argument d' **autorisation** . Non implémenté par WMI.<br/>                |
 | [**Renommer**](rename-method-in-class-cim-logicalfile.md)                                           | Renomme le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet. Non implémenté par WMI.<br/>                                                 |
@@ -670,7 +670,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name"), [**Key**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-La propriété Name est une chaîne représentant le nom hérité qui sert de clé à une instance de fichier logique dans un système de fichiers. Les noms de chemin d’accès complets doivent être fournis. Exemple : C : \\ \\ système Windows \\win.ini
+La propriété Name est une chaîne représentant le nom hérité qui sert de clé à une instance de fichier logique dans un système de fichiers. Les noms de chemin d’accès complets doivent être fournis. exemple : C : \\ Windows \\ système \\win.ini
 
 </dd> <dt>
 
@@ -846,7 +846,7 @@ Si la **valeur est true**, le fichier peut être écrit.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ LogicalFile** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

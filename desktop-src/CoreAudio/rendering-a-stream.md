@@ -4,12 +4,12 @@ ms.assetid: 00bfcfd1-6592-43e3-90ad-730c92aa4cd3
 title: Rendu d’un flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d96e720bab43c75b0a3958bb3b6137d3a3d9ef6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a49632e89e42e4e353cec48ee993f990904bc4557c0f63fcaec4d13bed5becf3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318569"
 ---
 # <a name="rendering-a-stream"></a>Rendu d’un flux
 
@@ -178,11 +178,11 @@ Tant que LoadData parvient à écrire au moins une trame de données réelles (p
 
 Dans son appel à la méthode [**IAudioClient :: Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) , la fonction PlayAudioStream dans l’exemple précédent demande une mémoire tampon partagée qui a une durée d’une seconde. (La mémoire tampon allouée peut avoir une durée légèrement plus longue.) Dans ses appels initiaux aux méthodes [**IAudioRenderClient :: GetBuffer**](/windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-getbuffer) et [**IAudioRenderClient :: ReleaseBuffer**](/windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-releasebuffer) , la fonction remplit l’intégralité de la mémoire tampon avant d’appeler la méthode [**IAudioClient :: Start**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-start) pour commencer la diffusion de la mémoire tampon.
 
-Dans la boucle principale, la fonction remplit de façon itérative la moitié de la mémoire tampon à intervalles de demi-seconde. Juste avant chaque appel à la fonction [**Sleep**](/windows/win32/api/synchapi/nf-synchapi-sleep) de Windows dans la boucle principale, la mémoire tampon est pleine ou presque saturée. Lorsque l’appel de mise en **veille** retourne, la mémoire tampon est à moitié pleine. La boucle se termine après l’appel final à la fonction LoadData affecte `flags` à la variable la valeur AUDCLNT \_ BUFFERFLAGS \_ Silent. À ce stade, la mémoire tampon contient au moins une trame de données réelles et peut contenir jusqu’à une demi-seconde de données réelles. Le reste de la mémoire tampon contient le silence. L’appel de mise en **veille** qui suit la boucle fournit suffisamment de temps (une demi-seconde) pour lire toutes les données restantes. Le silence qui suit les données empêche les sons indésirables avant que l’appel à la méthode [**IAudioClient :: Stop**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop) arrête le flux audio. Pour plus d’informations sur la mise en **veille**, consultez la documentation SDK Windows.
+Dans la boucle principale, la fonction remplit de façon itérative la moitié de la mémoire tampon à intervalles de demi-seconde. juste avant chaque appel à la Windows fonction [**Sleep**](/windows/win32/api/synchapi/nf-synchapi-sleep) dans la boucle principale, la mémoire tampon est saturée ou presque saturée. Lorsque l’appel de mise en **veille** retourne, la mémoire tampon est à moitié pleine. La boucle se termine après l’appel final à la fonction LoadData affecte `flags` à la variable la valeur AUDCLNT \_ BUFFERFLAGS \_ Silent. À ce stade, la mémoire tampon contient au moins une trame de données réelles et peut contenir jusqu’à une demi-seconde de données réelles. Le reste de la mémoire tampon contient le silence. L’appel de mise en **veille** qui suit la boucle fournit suffisamment de temps (une demi-seconde) pour lire toutes les données restantes. Le silence qui suit les données empêche les sons indésirables avant que l’appel à la méthode [**IAudioClient :: Stop**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop) arrête le flux audio. pour plus d’informations sur la mise en **veille**, consultez la documentation SDK Windows.
 
 À la suite de l’appel à la méthode [**IAudioClient :: Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) , le flux reste ouvert jusqu’à ce que le client libère toutes ses références à l’interface [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) et à toutes les références aux interfaces de service obtenues par le client par le biais de la méthode [**IAudioClient :: GetService**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice) . L’appel de [**version**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) finale ferme le flux.
 
-La fonction PlayAudioStream de l’exemple de code précédent appelle la fonction [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer un énumérateur pour les périphériques de point de terminaison audio dans le système. À moins que le programme appelant n’ait appelé auparavant la fonction **CoCreateInstance** ou [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) pour initialiser la bibliothèque com, l’appel **CoCreateInstance** échoue. Pour plus d’informations sur **CoCreateInstance**, **CoCreateInstance** et **CoInitializeEx**, consultez la documentation SDK Windows.
+La fonction PlayAudioStream de l’exemple de code précédent appelle la fonction [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer un énumérateur pour les périphériques de point de terminaison audio dans le système. À moins que le programme appelant n’ait appelé auparavant la fonction **CoCreateInstance** ou [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) pour initialiser la bibliothèque com, l’appel **CoCreateInstance** échoue. pour plus d’informations sur **cocreateinstance**, **cocreateinstance** et **CoInitializeEx**, consultez la documentation SDK Windows.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

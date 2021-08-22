@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1427a4ffd4637e073e517e5df54af72191992d11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32e34285c6291cb7cb87aeb9095e5261b43999b0eefa82e33704719e7673f1b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119515949"
 ---
 # <a name="keysvcc_handle"></a>\_handle KEYSVCC
 
@@ -34,7 +34,7 @@ typedef void* KEYSVCC_HANDLE;
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Rkeysvcc. h</dt> </dl> |
 
 

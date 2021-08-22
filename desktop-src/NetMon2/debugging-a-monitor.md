@@ -4,12 +4,12 @@ ms.assetid: 499f409c-e25a-4ab3-b0aa-e6b308fc7169
 title: Débogage d’une analyse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4641818b7f1cd1740c2732ced5527a2e278793a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad7ce15252470b280a988f81fe221218778a0fa5e4851db0d3e419d1653fbe92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144202"
 ---
 # <a name="debugging-a-monitor"></a>Débogage d’une analyse
 
@@ -27,9 +27,9 @@ La procédure suivante montre comment déboguer une analyse.
 
     **Mcsvc.exe/service**
 
-4.  Dans Microsoft Visual Studio, lancez Microsoft Visual C++.
+4.  dans Microsoft Visual Studio, lancez Microsoft Visual C++.
 5.  Dans l’option de menu **fichier**, **ouvrir** , sélectionnez le nom de votre dll d’analyse.
-6.  Après le chargement de Microsoft Visual C++, cliquez sur **projet**, **paramètres**.
+6.  après le chargement de Microsoft Visual C++, cliquez sur **Project**, **Paramètres**.
 7.  Cliquez sur l’onglet **Déboguer** sous **exécutable** pour session de débogage et tapez le chemin d’accès complet de Mcsvc.exe. Par exemple, C : \\ Program Files \\ Netmon2 \\Mcsvc.exe.
 8.  Définissez les points d’arrêt dans le code.
 

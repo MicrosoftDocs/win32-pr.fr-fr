@@ -4,12 +4,12 @@ ms.assetid: 4b482dcc-3878-4bc6-85e4-229a1726cecc
 title: Fonction InitializeSecurityContext (Digest) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: cd5d99f4caef41523ee879abe086659de1889254
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a09f598cacdd8b45fa1fe3e253c2e0de729796c6495204d98e20789b5de1441c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482589"
 ---
 # <a name="initializesecuritycontext-digest-function"></a>Fonction InitializeSecurityContext (Digest)
 
@@ -196,7 +196,7 @@ Si la fonction échoue, la fonction retourne l’un des codes d’erreur suivant
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appelant est chargé de déterminer si les attributs de contexte finaux sont suffisants. Si, par exemple, la confidentialité a été demandée mais n’a pas pu être établie, certaines applications peuvent choisir d’arrêter immédiatement la connexion.
 
@@ -247,8 +247,8 @@ Les appelants en mode noyau présentent les différences suivantes : le nom cib
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
 | En-tête<br/>                   | <dl> <dt>SSPI. h (include Security. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

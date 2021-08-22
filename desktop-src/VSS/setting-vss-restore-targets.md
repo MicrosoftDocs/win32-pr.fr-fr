@@ -4,12 +4,12 @@ ms.assetid: 362c6f44-ca67-4043-8d2c-4e46b5c8edd3
 title: Définition des cibles de restauration VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e8815e552db518c447bd63b9f02ba9228850384
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76f9378fe8175970a8ccacb196414f3afafbcd583ad74f9aca438a3e9b6cf6d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119394189"
 ---
 # <a name="setting-vss-restore-targets"></a>Définition des cibles de restauration VSS
 

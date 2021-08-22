@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15f94bb8d0f159e71cac44f069f9d8e7d9453509
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2f6b20d95505f1e6dbbda31506660f3825541f8f2a0ecdcb6cf293d7d6d4a0df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322439"
 ---
 # <a name="cim_cardoncard-class"></a>\_Classe CIM CardOnCard
 
@@ -121,7 +121,7 @@ Une [**\_ carte CIM**](cim-card.md) qui décrit la carte qui est connectée ou m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ CardOnCard** est dérivée [**du \_ conteneur CIM**](cim-container.md).
 

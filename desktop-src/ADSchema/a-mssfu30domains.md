@@ -1,6 +1,6 @@
 ---
 title: attribut msSFU-30-Domains
-description: Contient la liste des domaines NIS UNIX qui ont été migrés vers le même domaine Active Directory NIS.
+description: contient la liste des domaines nis de UNIX qui ont été migrés vers le même domaine nis nis.
 ms.assetid: 7f9f3994-a46d-49d4-8d99-35762be7bc33
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d344e02f956a1476427c33792b29b016b16a6558
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a117db51b90a5a403077aa4b0bd3efd6622891910cbf9ba1d7f294edff49a456
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581979"
 ---
 # <a name="mssfu-30-domains-attribute"></a>attribut msSFU-30-Domains
 
-Contient la liste des domaines NIS UNIX qui ont été migrés vers le même domaine Active Directory NIS.
+contient la liste des domaines nis de UNIX qui ont été migrés vers le même domaine nis nis.
 
 
 
@@ -43,7 +43,7 @@ Contient la liste des domaines NIS UNIX qui ont été migrés vers le même doma
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

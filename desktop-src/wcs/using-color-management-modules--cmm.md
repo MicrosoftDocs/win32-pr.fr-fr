@@ -3,8 +3,8 @@ title: Utilisation des modules de gestion des couleurs (CMM)
 description: Les modules de gestion des couleurs (CMMs) sont des modules de code WCS qui utilisent les informations des profils d’appareil pour effectuer la conversion des couleurs et le mappage des couleurs.
 ms.assetid: df119e1a-b6f5-40a3-8852-8a57b21483d0
 keywords:
-- Système de couleurs Windows (WCS), module de gestion des couleurs (CMM)
-- WCS (système de couleurs Windows), module de gestion des couleurs (CMM)
+- Windows Système de couleurs (WCS), module de gestion des couleurs (CMM)
+- WCS (Windows color System), Module de gestion des couleurs (CMM)
 - gestion des couleurs des images, module de gestion des couleurs (CMM)
 - gestion des couleurs, module de gestion des couleurs (CMM)
 - couleurs, module de gestion des couleurs (CMM)
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b12a087bfc972ffcbd7f9fb083a9d73d669f134
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 147c13a688942d46e400c2158c340fcea58d86616de042e9a44511861b67b802
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442349"
 ---
 # <a name="using-color-management-modules-cmm"></a>Utilisation des modules de gestion des couleurs (CMM)
 
@@ -29,7 +29,7 @@ Les modules de gestion des couleurs (CMMs) sont des modules de code WCS qui util
 
  
 
-Lors de l’installation de CMMs, le programme d’installation les inscrit dans le Registre Windows. Les applications peuvent énumérer le CMMs inscrit et en sélectionner un à l’aide de la fonction [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) . L’exemple d’application suivant montre comment énumérer tous les CMMs inscrits.
+lors de l’installation de CMMs, le programme d’installation les inscrit dans le registre Windows. Les applications peuvent énumérer le CMMs inscrit et en sélectionner un à l’aide de la fonction [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) . L’exemple d’application suivant montre comment énumérer tous les CMMs inscrits.
 
 
 ```C++

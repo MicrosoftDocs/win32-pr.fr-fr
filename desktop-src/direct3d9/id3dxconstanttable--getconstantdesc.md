@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e5574c72fabd7561da0c60c903ae815faaebbfd5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8462ccfbbf306da08c67d460584a470d82301a5bda5f95a1ad09b2062702ee62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607209"
 ---
 # <a name="id3dxconstanttablegetconstantdesc-method"></a>ID3DXConstantTable :: GetConstantDesc, méthode
 
@@ -75,7 +75,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **ID3DXConstantTable :: GetConstantDesc** retourne parfois une [**\_ desc D3DXCONSTANT**](d3dxconstant-desc.md) avec un \_ nombre de registres égal à 0. Cela se produit si une constante apparaît dans plusieurs registres, \_ mais n’a pas d’espace dans ce jeu de registres alloué.
 
