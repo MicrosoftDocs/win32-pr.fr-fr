@@ -4,12 +4,12 @@ ms.assetid: fdddbffb-c44f-4364-9e2e-b721ba39c74f
 title: Rectangles source et cible dans les convertisseurs vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 556aea6aad22e5ea6df61c74ed0a46d2e3984d67
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 020be0786a071c6bbdf33649405517ed3788789268052b61ee89d97a23f357f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104521871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072543"
 ---
 # <a name="source-and-target-rectangles-in-video-renderers"></a>Rectangles source et cible dans les convertisseurs vidéo
 
@@ -45,7 +45,7 @@ Supposons à présent que Filter A appelle [**CBaseAllocator :: GetBuffer**](cb
 -   **rcSource**: (0, 0, 160, 120)
 -   **rcTarget**: (0, 0, 80, 60)
 
-Cela signifie que l’exemple de support a une mémoire tampon dont la taille est de 640 x 480. Le membre **rcSource** est relatif au type de support de connexion d’origine (320, 240) et non au nouveau type de média (640, 480), donc **rcSource** spécifie que l’angle supérieur gauche (25%) de la vidéo d’entrée doit être utilisé. Cette partie de la vidéo d’entrée est placée en haut à gauche (80, 60) pixels de la mémoire tampon de sortie 640 x 480, comme spécifié par **rcTarget** (0, 0, 80, 60). Étant donné que le filtre A reçoit une vidéo 160 x 120, le coin supérieur gauche de la vidéo d’entrée est un élément (80, 60), dont la taille est identique à celle de la bitmap de sortie et aucun étirement n’est nécessaire.
+Cela signifie que l’exemple de support a une mémoire tampon dont la taille est de 640 x 480. Le membre **rcSource** est relatif au type de support de connexion d’origine (320, 240) et non au nouveau type de média (640, 480), de sorte que **rcSource** spécifie que l’angle supérieur gauche (25%) de la vidéo d’entrée doit être utilisé. Cette partie de la vidéo d’entrée est placée en haut à gauche (80, 60) pixels de la mémoire tampon de sortie 640 x 480, comme spécifié par **rcTarget** (0, 0, 80, 60). Étant donné que le filtre A reçoit une vidéo 160 x 120, le coin supérieur gauche de la vidéo d’entrée est un élément (80, 60), dont la taille est identique à celle de la bitmap de sortie et aucun étirement n’est nécessaire.
 
 Le filtre A n’placera aucune donnée dans les autres pixels de la mémoire tampon de sortie et laisse ces bits intacts. Le membre **rcSource** est limité par la **bilargeur** et la **bihauteur** du type de média connecté d’origine entre les filtres A et B, et **rcTarget** est délimité par la nouvelle **largeur** et la **bihauteur** de l’échantillon de support. Dans l’exemple précédent, **rcSource** n’a pas pu aller en dehors des limites de (0, 0, 320, 240) et **rcTarget** n’a pas pu sortir des limites de (0, 0, 640, 480).
 

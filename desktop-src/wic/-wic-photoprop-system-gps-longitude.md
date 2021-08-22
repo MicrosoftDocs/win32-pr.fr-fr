@@ -4,12 +4,12 @@ ms.assetid: 36539e20-d00c-4bbb-b9ee-1cf5e4b8df4b
 title: Stratégie de métadonnées de photo System. GPS. Longitude
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25eb9869bc536f97adfc8f3c0f5b1f70c8bf030f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff05dd8ada6e10bbd3109187d34b220ff352ae984f92bd68281c56d3c1a29a76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087187"
 ---
 # <a name="systemgpslongitude-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. Longitude
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. longit
 
 \_Longitude GPS \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -41,7 +41,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LongitudeNumerato
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 4} |             |
 | 2     | /xmp/exif:GPSLongitude   |             |
@@ -54,7 +54,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LongitudeNumerato
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 4} |             |
 | 2     | /xmp/exif:GPSLongitude   |             |
@@ -67,7 +67,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LongitudeNumerato
 
 
 
-| Commande | Chemin d’accès                     |
+| Commande | Chemin                     |
 |-------|--------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 4} |
 | 2     | /xmp/exif:gpslongitude   |
@@ -82,7 +82,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LongitudeNumerato
 
 
 
-| Commande | Chemin d’accès                       | Format de disque |
+| Commande | Chemin                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 4}        |             |
 | 2     | /ifd/xmp/exif:GPSLongitude |             |
@@ -95,7 +95,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LongitudeNumerato
 
 
 
-| Commande | Chemin d’accès                       | Format de disque |
+| Commande | Chemin                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 4}        |             |
 | 2     | /ifd/xmp/exif:GPSLongitude |             |
@@ -108,7 +108,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LongitudeNumerato
 
 
 
-| Commande | Chemin d’accès                       |
+| Commande | Chemin                       |
 |-------|----------------------------|
 | 1     | /IFD/GPS/{UShort = 4}        |
 | 2     | /ifd/xmp/exif:gpslongitude |
@@ -117,7 +117,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. LongitudeNumerato
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

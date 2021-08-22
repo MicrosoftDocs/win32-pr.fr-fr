@@ -4,12 +4,12 @@ description: Marquez de manière conditionnelle les résultats du nuanceur de pi
 ms.assetid: 566C4A9A-B32A-4AA6-A888-70F6965B1B5A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57d98365ae6d80710f15cf7204f98d810be30a13
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ba6b5744ee8cf8d2953247711d95fe5d5ec6f96c36c700e1a38ce4e0cb1e1ff5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103940563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986599"
 ---
 # <a name="discard-sm4---asm"></a>ignorer (SM4-ASM)
 
@@ -34,7 +34,7 @@ Marquez de manière conditionnelle les résultats du nuanceur de pixels à ignor
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction marque le pixel actuel comme terminé, tout en continuant son exécution, afin que les autres pixels s’exécutant en parallèle peuvent obtenir des dérivées si nécessaire. Même si l’exécution se poursuit, toute la sortie du nuanceur de pixels écrit avant ou après l’instruction **ignorée** .
 
@@ -64,11 +64,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

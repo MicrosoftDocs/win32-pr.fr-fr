@@ -6,12 +6,12 @@ keywords:
 - Planificateur de tâches des exemples Planificateur de tâches, déclencheur quotidien
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebb5b11e1942f342437347f1aa4a510e101c56df
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f32a5ec9b7eb7c6f6888bec669c422ff5348e97b9c3c0f27ed8b554dc1c0b78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059947"
 ---
 # <a name="starting-an-executable-daily"></a>Démarrage quotidien d’un exécutable
 
@@ -23,7 +23,7 @@ Les déclencheurs quotidiens utilisent leur limite de départ pour activer le d�
 
 ## <a name="daily-trigger-examples"></a>Exemples de déclencheurs quotidiens
 
-Les exemples suivants montrent comment créer des tâches qui démarrent le bloc-notes quotidiennement.
+les exemples suivants montrent comment créer des tâches qui démarrent Bloc-notes quotidiennement.
 
 -   [Exemple de déclencheur quotidien (script)](daily-trigger-example--scripting-.md)
 -   [Exemple de déclencheur quotidien (C++)](daily-trigger-example--c---.md)
@@ -36,9 +36,9 @@ Les exemples suivants montrent comment créer des tâches qui démarrent le bloc
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

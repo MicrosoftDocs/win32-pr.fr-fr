@@ -1,19 +1,19 @@
 ---
-title: Objets (infrastructure de ruban Windows)
-description: Documentation de référence sur les objets de l’infrastructure du ruban Windows.
+title: objets (infrastructure de ruban Windows)
+description: documentation de référence sur les objets d’infrastructure de ruban Windows.
 ms.assetid: 8401efed-e753-4fcb-8fcf-208dc42a85ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bae641decce31c96b1d4f44c8de618bb9112503b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7bffeca2b10e3952d6b73b7d129f6e77bb2d7a5b93434aab8fa97885356cd745
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086532"
 ---
-# <a name="objects-windows-ribbon-framework"></a>Objets (infrastructure de ruban Windows)
+# <a name="objects-windows-ribbon-framework"></a>objets (infrastructure de ruban Windows)
 
-Documentation de référence sur les objets de l’infrastructure du ruban Windows.
+documentation de référence sur les objets d’infrastructure de ruban Windows.
 
 ### <a name="objects"></a>Objets
 
@@ -32,7 +32,7 @@ Documentation de référence sur les objets de l’infrastructure du ruban Windo
 
 <dl> <dt>
 
-[Informations de référence sur l’infrastructure du ruban Windows](windowsribbon-reference-entry.md)
+[Windows Informations de référence sur l’infrastructure du ruban](windowsribbon-reference-entry.md)
 </dt> </dl>
 
  

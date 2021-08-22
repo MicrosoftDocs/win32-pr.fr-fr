@@ -4,16 +4,16 @@ ms.assetid: 9783d18c-79f6-4faa-b12d-9504c13d54e3
 title: 'ITConferenceBlob :: get_CharacterSet, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 681085672f49c75a8434c4b0311e75d2b9cea270
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 20a9dd719d2ae9742a6ec4b3295e3e22ffe871b4a38c55d07e07a3421271553d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060997"
 ---
 # <a name="itconferenceblobget_characterset-method"></a>ITConferenceBlob :: obtient la \_ méthode CharacterSet
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ CharacterSet** obtient un descripteur de [**\_ \_ jeu de caractères BLOB**](blob-character-set.md) du jeu de caractères utilisé dans l’objet blob de conférence actuel.
 

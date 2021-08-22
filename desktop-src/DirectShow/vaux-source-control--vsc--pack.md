@@ -4,18 +4,18 @@ ms.assetid: 9d5dd89e-9084-409d-86c0-30b57645d33d
 title: Pack de contrôle de code source VAUX (VSC)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed51363a15c0024dcaf3edca5d21217cb29396d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcdc91d5c4b2cea460c85b696c59bfce7799d39aed0a6bfcbc03f3d3c522a6ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072073"
 ---
 # <a name="vaux-source-control-vsc-pack"></a>Pack de contrôle de code source VAUX (VSC)
 
-Les tableaux suivants répertorient les valeurs utilisées par le pilote MSDV pour remplir le membre **dwDVVAuxCtl** de la structure [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . Pour plus d’informations, consultez [paramètres de champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md).
+Les tableaux suivants répertorient les valeurs utilisées par le pilote MSDV pour remplir le membre **dwDVVAuxCtl** de la structure [**DVINFO**](/windows/desktop/api/strmif/ns-strmif-dvinfo) . pour plus d’informations, consultez [DVINFO Field Paramètres dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md).
 
-**Paramètres de magnétoscope numérique**
+**magnétoscope numérique Paramètres**
 
 
 
@@ -233,7 +233,7 @@ Pack VSC
 
  
 
-**Paramètres DVCPRO 25 et DVCPRO 50 (planifié)**
+**dvcpro 25 et dvcpro 50 Paramètres (planifié)**
 
 
 
@@ -401,7 +401,7 @@ Pack VSC
 
  
 
-**Paramètres DVCPRO 100 (planifié)**
+**DVCPRO 100 Paramètres (planifié)**
 
 
 
@@ -537,7 +537,7 @@ Pack VSC
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les codes de champ suivants présentent un intérêt :
 
@@ -557,10 +557,10 @@ Les codes de champ suivants présentent un intérêt :
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> <dt>
 
-[Paramètres de champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md)
+[Paramètres du champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md)
 </dt> </dl>
 
  

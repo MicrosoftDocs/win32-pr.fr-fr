@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 95a6dca29a9bdcaf978a54587035b34959d81719
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 526c10dc0cda2f9b4d4cee6a955620f2aa1aae697522aaf3e14e57c3317ca325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108120047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017067"
 ---
 # <a name="cbaseinputpincbaseinputpin-constructor"></a>Constructeur CBaseInputPin. CBaseInputPin
 
@@ -81,7 +81,7 @@ Chaîne de caractères larges contenant le nom du code confidentiel (également 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Tous les paramètres sont passés directement au constructeur [**CBasePin**](cbasepin-cbasepin.md) .
 
@@ -91,7 +91,7 @@ Tous les paramètres sont passés directement au constructeur [**CBasePin**](cba
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

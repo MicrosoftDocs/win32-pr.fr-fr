@@ -1,6 +1,6 @@
 ---
 description: Spécifie le type d’action d’une opération de protection contre la perte de données (DLP) de point de terminaison.
-title: Énumération DlpActionType (endpointdlp. h)
+title: DlpActionType, énumération (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - endpointdlp.h
-ms.openlocfilehash: 7900e79536cc9ac45037e205962a563bcde8878a
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 5b7066eec7832ba0b76dee38e6483e0bfcfcfb05fdb8448ee7b3a91e701069fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976649"
 ---
 # <a name="dlpactiontype-enumeration"></a>Énumération DlpActionType
 
@@ -138,11 +138,11 @@ Valeur maximale de l’énumération.
 </dd> </dl>
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de cette énumération sont utilisées par la structure [DLP_APP_OP_ENLIGHTENED_LEVEL](endpointdlp-dlp_app_op_enlightened_level.md) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fe91862ff4a36bc9c501a95c3c8ba21d051ddf4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1ee82f8e0384c5523b8656c0ecc6cc40bad959c2c9ad6fa1c7b19486d73b00db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985242"
 ---
 # <a name="dwm_tnp-constants"></a>\_Constantes DWM TNP
 
@@ -100,8 +100,8 @@ Une valeur a été spécifiée pour le membre **fSourceClientAreaOnly** .
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Dwmapi. h</dt> </dl> |
 
 

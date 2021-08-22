@@ -7,12 +7,12 @@ keywords:
 - transférer les BITS de tâche, état
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2c96a170eca5edd6b2cd7c394ba104347814e1e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 104410c26f41e2a639aebe4597c9fce00dda562f5fcdb54d867a4ec5327d5842
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021170"
 ---
 # <a name="determining-the-status-of-a-job"></a>Détermination de l’état d’un travail
 
@@ -24,9 +24,9 @@ L’état d’un travail fait référence aux modifications de l’état d’un 
 
 Pour obtenir des informations sur la progression d’un travail, consultez [détermination de la progression d’un travail](determining-the-progress-of-a-job.md).
 
- 
+ 
 
- 
+ 
 
 
 

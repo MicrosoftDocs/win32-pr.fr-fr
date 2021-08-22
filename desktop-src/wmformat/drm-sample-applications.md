@@ -1,26 +1,26 @@
 ---
-title: Exemples d’applications clientes Microsoft Windows Media DRM
-description: Exemples d’applications clientes Microsoft Windows Media DRM
+title: exemples d’Applications clientes Windows Microsoft Media DRM
+description: exemples d’Applications clientes Windows Microsoft Media DRM
 ms.assetid: 7bbcc238-2858-4a08-a76b-9502fc453f17
 keywords:
 - Windows Media Format SDK, exemples d’applications
-- Kit de développement logiciel (SDK) Windows Media format, exemples d’applications
+- Windows Media Format SDK, exemples d’applications
 - gestion des droits numériques (DRM), exemples d’applications
 - DRM (gestion des droits numériques), exemples d’applications
 - gestion des droits numériques (DRM), exemples d’applications
 - DRM (gestion des droits numériques), exemples d’applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f49d38a7a0f4865e319db0dc55841ce9e67c297e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: efd21fc5351b1987eb2476e46a56ef09a51302004c5a29ef4d98bb09535521c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085984"
 ---
-# <a name="microsoft-windows-media-drm-client-sample-applications"></a>Exemples d’applications clientes Microsoft Windows Media DRM
+# <a name="microsoft-windows-media-drm-client-sample-applications"></a>exemples d’Applications clientes Windows Microsoft Media DRM
 
-Les exemples d’applications qui utilisent les API étendues du client Windows Media DRM sont fournis en tant que projets pour Microsoft Visual Studio 2005.
+les exemples d’applications qui utilisent les api étendues du Client Windows Media DRM sont fournis sous forme de projets pour Microsoft Visual Studio 2005.
 
 Le tableau suivant résume les exemples. Vous trouverez des informations supplémentaires sur chaque exemple, notamment des informations sur l’utilisation, dans le fichier readme.txt dans chaque répertoire d’exemple.
 
@@ -39,7 +39,7 @@ Le tableau suivant résume les exemples. Vous trouverez des informations supplé
 
 <dl> <dt>
 
-[**À propos des API étendues du client Windows Media DRM**](about-the-windows-media-drm-client-extended-apis.md)
+[**à propos des api étendues du Client DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
 </dt> </dl>
 
  

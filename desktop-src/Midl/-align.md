@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 019a06be10a4937127d98d508275b57dfe508399
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 187607b783678d3045224daec021eabf436fa8ba1884128789f44b06ac4365ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104507614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067649"
 ---
 # <a name="align-switch"></a>commutateur/align
 
@@ -26,7 +26,7 @@ Le commutateur **/align** est fonctionnellement identique à l’option [**/ZP/Z
 > [!Note]  
 > L’outil Mktyplib.exe est obsolète. Utilisez plutôt le compilateur MIDL.
 
- 
+ 
 
 ``` syntax
 midl /align:alignment
@@ -43,7 +43,7 @@ Spécifie l’alignement pour les types dans la bibliothèque. La valeur d' *ali
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous générez un nouveau Makefile, utilisez le commutateur [**/ZP**](-zp.md) .
 
@@ -65,9 +65,9 @@ Pour plus d’informations, consultez la documentation de programmation de Micro
 [**/ZP**](-zp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

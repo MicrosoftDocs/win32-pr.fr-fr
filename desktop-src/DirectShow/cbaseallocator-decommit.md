@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 613af805f1c04a7bf375755ff8f3adba7b70be18
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 614986a912f08d918d4fbbaf6b3eeeb0d3b2c3eabc47748351934a08b8280cca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017547"
 ---
 # <a name="cbaseallocatordecommit-method"></a>CBaseAllocator. decommit, méthode
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois cette méthode appelée, les appels à la méthode [**CBaseAllocator :: GetBuffer**](cbaseallocator-getbuffer.md) échouent. À mesure que des exemples sont publiés, ils sont retournés à la liste libre. Lorsque le dernier échantillon est retourné, l’allocateur appelle la méthode [**CBaseAllocator :: Free**](cbaseallocator-free.md) , qui libère la mémoire allouée. (Dans la classe de base, **Free** est une méthode virtuelle pure.)
 
@@ -56,7 +56,7 @@ De plus, cette méthode libère tous les threads qui sont bloqués sur les appel
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

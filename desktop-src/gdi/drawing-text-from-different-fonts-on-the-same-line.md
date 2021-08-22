@@ -4,12 +4,12 @@ ms.assetid: d21613ef-1ba4-40bb-b922-afe287556441
 title: Dessin de texte à partir de différentes polices sur la même ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2eae2a7a332bd929b9a965462ce802734679f9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: ad28f13c94e568073504f07e8722e5d688cb12aa1b376b0f52fad752574e6f8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038047"
 ---
 # <a name="drawing-text-from-different-fonts-on-the-same-line"></a>Dessin de texte à partir de différentes polices sur la même ligne
 

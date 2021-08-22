@@ -3,7 +3,7 @@ title: Message TVM_SETIMAGELIST (commctrl. h)
 description: Définit la liste d’images normale ou d’État pour un contrôle d’arborescence et redessine le contrôle à l’aide des nouvelles images. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro SetImageList TreeView.
 ms.assetid: 1a7bf2f8-c7db-44a8-b234-0ffc498e9000
 keywords:
-- TVM_SETIMAGELIST les contrôles de message Windows
+- TVM_SETIMAGELIST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f308cb8a56b2e74a5703af144bac03c271efc95
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df79089c7a2071c6af702da9ef862178738ede3dccff312c3fbae7dbefe4de56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018677"
 ---
 # <a name="tvm_setimagelist-message"></a>TVM \_ SETIMAGELIST message
 
@@ -58,7 +58,7 @@ Handle de la liste d’images. Si *lParam* a la **valeur null**, le message supp
 
 Retourne le handle vers la liste d’images précédente, le cas échéant, ou **null** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle Tree-View ne détruit pas la liste d’images spécifiée avec ce message. Votre application doit détruire la liste d’images lorsqu’elle n’est plus nécessaire.
 
@@ -68,8 +68,8 @@ Le contrôle Tree-View ne détruit pas la liste d’images spécifiée avec ce m
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

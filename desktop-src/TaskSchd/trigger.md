@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f4a7edc6eff0bb04c81ba3bff3bb86ec0455b25
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b27427bf77465be119fc678cb4babf85254fa437b350c54d4409c0cd5b28024
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002007"
 ---
 # <a name="trigger-object"></a>Objet Trigger
 
@@ -47,13 +47,13 @@ L’objet **déclencheur** a ces propriétés.
 | [**Identifi**](trigger-id.md)<br/>                                 | Lecture/écriture<br/> | Obtient ou définit l’identificateur pour le déclencheur.<br/>                                                                                             |
 | [**Répétition**](trigger-repetition.md)<br/>                 | Lecture/écriture<br/> | Obtient ou définit une valeur qui indique la fréquence d’exécution de la tâche et la durée de répétition du modèle de répétition après le démarrage de la tâche.<br/> |
 | [**StartBoundary**](trigger-startboundary.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit la date et l’heure d’activation du déclencheur. Le déclencheur peut démarrer la tâche une fois que le déclencheur est activé.<br/>             |
-| [**Entrer**](trigger-type.md)<br/>                             |                       | Obtient le type du déclencheur.<br/>                                                                                                            |
+| [**Type**](trigger-type.md)<br/>                             |                       | Obtient le type du déclencheur.<br/>                                                                                                            |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’Planificateur de tâches fournit les objets individuels suivants pour les différents déclencheurs qu’une tâche peut utiliser :
 
@@ -81,8 +81,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

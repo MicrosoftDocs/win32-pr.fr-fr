@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9eadb6b13798af0d18d56d0141cd3a7997106dc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb8411b99d77fa1256d0c78279e9de3d19164544b41d30f7c3185af79cbc4dee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980249"
 ---
 # <a name="jet_index_columnpvdata-property"></a>JET_INDEX_COLUMN. pvData, propriété
 

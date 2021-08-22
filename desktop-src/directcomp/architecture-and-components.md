@@ -4,17 +4,17 @@ description: Cette rubrique décrit les composants qui composent Microsoft Direc
 ms.assetid: 7C79B330-41EA-4BA0-9103-BB5A0C3D4CE2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb2de495aa170560b1e7082cacf1893a8c94905a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3125a640f902bc64d55af8cdcdbf816c788e0507a48034dfb52c972fa3f068d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985457"
 ---
 # <a name="architecture-and-components"></a>Architecture et composants
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique décrit les composants qui composent Microsoft DirectComposition. Il se compose des sections suivantes.
 
@@ -96,6 +96,6 @@ Par exemple, au début du lot d’applications présenté dans l’illustration 
 [Concepts DirectComposition](directcomposition-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

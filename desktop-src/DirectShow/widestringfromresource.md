@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9c7cbdccc76fc57e660109851ae5b8f141704d04
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 798f915536c491d32ccab7e7dbdc9b506d8b5df22b4459818472307e62356b71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071813"
 ---
 # <a name="widestringfromresource-function"></a>WideStringFromResource fonction)
 
@@ -61,7 +61,7 @@ Identificateur de ressource de la chaîne à récupérer.
 
 Retourne la même chaîne que *pbuffer*. Si la fonction échoue, retourne une chaîne NULL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les pages de propriétés sont généralement appelées par le biais de leurs interfaces COM, qui utilisent des chaînes de caractères larges, quelle que soit la façon dont le binaire est généré. Cette fonction vous permet de convertir une chaîne de ressource en une chaîne de caractères larges. La fonction convertit la ressource en une chaîne de caractères larges (si elle ne l’est pas déjà) après l’avoir chargée.
 
@@ -71,7 +71,7 @@ Les pages de propriétés sont généralement appelées par le biais de leurs in
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

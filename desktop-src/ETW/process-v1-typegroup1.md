@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 8d7f4426f34a97ff79dc41806f1e0070013528d2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cd2b4ab072b04246351ede86027536d777bce3c7e2321260be4d0622f55663d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069999"
 ---
 # <a name="process_v1_typegroup1-class"></a>Traiter \_ la \_ classe TypeGroup1 v1
 
@@ -182,8 +182,8 @@ Identificateur de sécurité (SID) du contexte de l’utilisateur sous lequel l�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

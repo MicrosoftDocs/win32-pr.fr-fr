@@ -35,12 +35,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb628c8e6ada93546291cd9afb87c3194798b9f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f9a4e314c2e47adc2500c74c570589ce5b808a16c52b6c3d7e7b285d4b5f106e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052317"
 ---
 # <a name="annotation-type-identifiers"></a>Identificateurs de type d’annotation
 
@@ -83,8 +83,8 @@ Cette rubrique décrit les constantes nommées utilisées pour identifier les ty
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                            |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                            |
 | En-tête<br/>                   | <dl> <dt>UIAutomationClient. h</dt> </dl> |
 
 

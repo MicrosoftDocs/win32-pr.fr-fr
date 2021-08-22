@@ -4,16 +4,16 @@ ms.assetid: 3d9315fc-dcfb-483a-9437-55c440813dc2
 title: Obtention des pointeurs d’interface DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24825b2d24ffae70e3def131e8aa522a987c11d0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 70d965dff48813800fa76821c72fa06a2d2f652e623c8aaeb7c0b44f9f9fafc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106517152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072939"
 ---
 # <a name="obtaining-the-dvd-interface-pointers"></a>Obtention des pointeurs d’interface DVD
 
-Une fois le graphique de filtre créé, votre application peut obtenir les pointeurs dont il a besoin pour contrôler le navigateur DVD, le gestionnaire de graphique de filtre et la fenêtre vidéo. Les étapes de base, avec la vérification des erreurs et d’autres codes laissés pour des raisons de simplicité, sont illustrées dans l’exemple de code suivant. Le code complet est disponible dans l’exemple d’application de DVD dans la méthode CDvdCore :: BuildGraph. (Pour plus d’informations, consultez [exemples DirectShow](directshow-samples.md).)
+une fois le graphique de filtre créé, votre application peut obtenir les pointeurs dont il a besoin pour contrôler le navigateur DVD, le gestionnaire de Graph de filtre et la fenêtre vidéo. Les étapes de base, avec la vérification des erreurs et d’autres codes laissés pour des raisons de simplicité, sont illustrées dans l’exemple de code suivant. Le code complet est disponible dans l’exemple d’application de DVD dans la méthode CDvdCore :: BuildGraph. (pour plus d’informations, consultez [DirectShow des exemples](directshow-samples.md).)
 
 
 ```C++

@@ -4,12 +4,12 @@ ms.assetid: 08347831-7100-4220-a83b-693bb7b98ccb
 title: Mise à l’échelle des couleurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 370155306f7b1a177358d7cf28d329ebb0d75f8c
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 7877db07ff1a11dcb985f8b0ca8ec3cc017f25fe45f00e989c9108891f8ff1ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104211160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036367"
 ---
 # <a name="scaling-colors"></a>Mise à l’échelle des couleurs
 
@@ -21,7 +21,7 @@ Une transformation de mise à l’échelle multiplie un ou plusieurs des quatre 
 |------------------------|--------------|
 | Rouge                    | \[0 \] \[ 0\]   |
 | Vert                  | \[1 \] \[ 1\]   |
-| Blue                   | \[2 \] \[ 2\]   |
+| Bleu                   | \[2 \] \[ 2\]   |
 | Alpha                  | \[3 \] \[ 3\]   |
 
 
@@ -67,7 +67,7 @@ L’illustration suivante montre l’image d’origine à gauche et l’image mi
 
 ![Affiche quatre barres colorées, puis les mêmes barres avec des couleurs différentes.](images/colortrans3.png)
 
-Le tableau suivant présente les vecteurs de couleur pour les quatre barres avant et après la mise à l’échelle bleue. Notez que le composant bleu de la quatrième barre de couleur est passé de 0,8 à 0,6. Cela est dû au fait que GDI+ conserve uniquement la partie fractionnaire du résultat. Par exemple, (2) (0,8) = 1,6, et la partie fractionnaire de 1,6 est 0,6. Conserver uniquement la partie fractionnaire garantit que le résultat est toujours \[ compris entre 0 et 1 \] .
+Le tableau suivant présente les vecteurs de couleur pour les quatre barres avant et après la mise à l’échelle bleue. Notez que le composant bleu de la quatrième barre de couleur est passé de 0,8 à 0,6. cela est dû au fait que GDI+ conserve uniquement la partie fractionnaire du résultat. Par exemple, (2) (0,8) = 1,6, et la partie fractionnaire de 1,6 est 0,6. Conserver uniquement la partie fractionnaire garantit que le résultat est toujours \[ compris entre 0 et 1 \] .
 
 
 

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8a4c25265d21a1908e6b7e16f5d7a787b90d6513
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f7a661f2ba049c10934c262fdfd1d047fdcb1fc726c9f8fbfa1f7061c08c8ea7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985729"
 ---
 # <a name="span-idvspixengineirunactionrequestspanirunactionrequest-interface"></a><span id="vspixengine.irunactionrequest"></span>Interface IRunActionRequest
 

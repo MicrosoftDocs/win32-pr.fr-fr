@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - Idndl.dll
-ms.openlocfilehash: 62e029576d53109e3c57faf4ec913472f8aea65e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df0bdb1e8968d6bb044a3f270eb9200adf1ecaa54137fe3cface0e0898a9b5be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068239"
 ---
 # <a name="downlevelverifyscripts-function"></a>DownlevelVerifyScripts fonction)
 
 Compare deux listes énumérées de scripts.
 
 > [!Note]  
-> Cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert le package de téléchargement. Les applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts).
+> cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert le package de téléchargement. les Applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts).
 
  
 
@@ -102,7 +102,7 @@ Une valeur de retour **false** peut indiquer que la liste de tests contient un �
 -   ERREUR \_ : indicateurs non valides \_ . Les valeurs fournies pour les indicateurs ne sont pas valides.
 -   ERREUR \_ \_ : paramètre non valide. Les valeurs de paramètre ne sont pas valides.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction compare des chaînes, telles que « Latn ». Cyrl ;», qui se compose d’une série de noms de script de 4 caractères, chaque nom de script suivi d’un point-virgule. Il a également un cas particulier de tenir compte du fait que le script latin est souvent utilisé dans les langages et les paramètres régionaux pour lesquels il n’est pas natif.
 
@@ -133,9 +133,9 @@ Le fichier d’en-tête et la DLL requis font partie du téléchargement des API
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                                                         |
-| Composant redistribuable<br/>          | API d’atténuation des IDN (Internationalized Domain Name) Microsoft onWindows XP avec SP2, Windows Server 2003 avec SP1, intégral Vista<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                                                         |
+| Composant redistribuable<br/>          | api d’atténuation des IDN (internationalized domain Name) Microsoft onWindows XP avec SP2, Windows Server 2003 avec SP1, intégral Vista<br/> |
 | En-tête<br/>                   | <dl> <dt>Idndl. h</dt> </dl>                                                           |
 | DLL<br/>                      | <dl> <dt>Idndl.dll</dt> </dl>                                                         |
 

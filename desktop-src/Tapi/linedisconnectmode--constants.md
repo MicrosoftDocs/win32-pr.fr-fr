@@ -4,12 +4,12 @@ ms.assetid: 1b26f13c-b0bf-4d2c-8514-f0c376e36bcd
 title: Constantes LINEDISCONNECTMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c70ba70175685e2c264343f9345227ee64c206f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41ad56f993d746e5d09e33e4dcfb74d29766dd359fa47302053e0af13513a7da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060667"
 ---
 # <a name="linedisconnectmode_-constants"></a>\_Constantes LINEDISCONNECTMODE
 
@@ -221,7 +221,7 @@ L’utilisateur distant n’a pas pu être atteint.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les 16 bits de poids fort peuvent être affectés pour les extensions spécifiques à l’appareil. Les 16 bits de poids faible sont réservés.
 

@@ -62,16 +62,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7766a147939b107ab173d927d90019c23cc6efb5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93d1d6d8e4987fd60d3b3ff0fea73c615f75444e76ed6ebdf3c95110564ef6c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068889"
 ---
 # <a name="filtering-layer-identifiers"></a>Filtrage des identificateurs de couche
 
-Les identificateurs de couche WFP (Windows Filtering Platform) sont tous représentés par un GUID. Ces identificateurs sont définis comme suit.
+les identificateurs de couche WFP (Windows filtering Platform) sont représentés par un GUID. Ces identificateurs sont définis comme suit.
 
 Les suffixes V4 et V6 à la fin des identificateurs de couche indiquent si la couche se trouve dans la pile réseau IPv4 ou dans la pile réseau IPv6.
 
@@ -375,7 +375,7 @@ Cette couche de filtrage permet d’inspecter le moment où une connexion TCP é
 Cette couche de filtrage se trouve dans le chemin de réception après le traitement de la couche MAC (802,3), mais avant le traitement de la trame par la couche de tramage. Il s’agit de la couche après native dans laquelle toutes les images ressemblent à des trames Ethernet.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -390,7 +390,7 @@ Cette couche de filtrage se trouve dans le chemin de réception après le traite
 Cette couche de filtrage se trouve dans le chemin d’envoi après que le traitement de la couche de tramage s’est produit mais avant que le frame ne soit traité par la couche MAC (802,3). Il s’agit de la couche après native dans laquelle toutes les images ressemblent à des trames Ethernet.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -405,7 +405,7 @@ Cette couche de filtrage se trouve dans le chemin d’envoi après que le traite
 Cette couche de filtrage se trouve dans le chemin de réception une fois que le traitement de la couche MAC s’est produit, mais avant que le frame ne soit traité par la couche de tramage. C’est la première couche après que le miniport remet le cadre à NDIS.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -420,7 +420,7 @@ Cette couche de filtrage se trouve dans le chemin de réception une fois que le 
 Cette couche de filtrage se trouve dans le chemin d’envoi après que le traitement de la couche de tramage s’est produit mais avant que le frame ne soit traité par la couche MAC (Native 802,11). C’est la première couche après que le miniport remet le cadre à NDIS.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -435,7 +435,7 @@ Cette couche de filtrage se trouve dans le chemin d’envoi après que le traite
 Cette couche de filtrage se trouve dans le chemin d’entrée du vSwitch juste après l’analyse de l’en-tête MAC, mais avant l’exécution de tout traitement d’en-tête MAC.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -450,7 +450,7 @@ Cette couche de filtrage se trouve dans le chemin d’entrée du vSwitch juste a
 Cette couche de filtrage se trouve dans le chemin de sortie vSwitch juste après l’analyse de l’en-tête MAC, mais avant l’exécution de tout traitement d’en-tête MAC.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -469,7 +469,7 @@ Si un vSwitchPort est en mode PVLAN ou Trunk, les filtres de cette couche sont i
 Si IPv4 est désinstallé sur l’hôte, les filtres de cette couche entraînent la suppression des paquets.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -488,7 +488,7 @@ Si un vSwitchPort est en mode PVLAN ou Trunk, les filtres de cette couche sont i
 Si IPv4 est désinstallé sur l’hôte, les filtres de cette couche entraînent la suppression des paquets.
 
 > [!Note]  
-> Disponible uniquement dans Windows 8 et Windows Server 2012.
+> disponible uniquement dans Windows 8 et Windows Server 2012.
 
  
 
@@ -663,9 +663,9 @@ Pour plus d’informations, consultez [couches ALE](ale-layers.md) .
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Ces identificateurs de couche de filtrage sont également appelés identificateurs de couche de filtrage de gestion. L’API WFP contient également un ensemble d' [identificateurs de couche de filtrage d’exécution](/windows-hardware/drivers/network/management-filtering-layer-identifiers), documentés dans le kit WDK (Windows Driver Kit). Les identificateurs de couche de filtrage au moment de l’exécution sont LUID et, par conséquent, sont plus petits, seulement 64 bits en taille, par rapport aux identificateurs de couche de filtrage de gestion, qui sont de 128 bits.
+Ces identificateurs de couche de filtrage sont également appelés identificateurs de couche de filtrage de gestion. l’API WFP contient également un ensemble d' [identificateurs de couche de filtrage d’exécution](/windows-hardware/drivers/network/management-filtering-layer-identifiers), documentés dans le Kit de pilotes Windows (WDK). Les identificateurs de couche de filtrage au moment de l’exécution sont LUID et, par conséquent, sont plus petits, seulement 64 bits en taille, par rapport aux identificateurs de couche de filtrage de gestion, qui sont de 128 bits.
 
 Les identificateurs de couche et de filtrage d’exécution du filtrage de gestion pointent vers les mêmes couches.
 
@@ -679,8 +679,8 @@ Les identificateurs de couche de filtrage au moment de l’exécution sont utili
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |
 
 

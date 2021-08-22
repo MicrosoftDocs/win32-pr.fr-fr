@@ -1,4 +1,4 @@
-- name: Backup
+- name: Sauvegarde
   href: backup.md
   items:
     - name: Clés et valeurs de Registre pour la sauvegarde et la restauration

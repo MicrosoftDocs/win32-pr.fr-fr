@@ -4,12 +4,12 @@ description: Principes d’animation
 ms.assetid: 3633744c-ddb1-44bb-a390-7114386d265c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3b7468c519b282062c6ef15720b641d40b6f674
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88477f228d12c68218963d5c12f3354892e45997504497a71622e30fe249c25a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976739"
 ---
 # <a name="animation-principles"></a>Principes d’animation
 
@@ -61,9 +61,9 @@ La création d’un caractère animé implique plus que la création d’une sé
 
 La réussite de l’implémentation dépend de la bonne compréhension de votre public. L’image globale et la personnalité de votre personnage doivent être appelées par votre public cible. l’attrait ne nécessite pas de réalisme photo. La personnalité d’un caractère peut être transforme, quelle que soit sa forme, en utilisant les gestes, la posture et d’autres mannerisms. Une affectation courante d’animateurs de début consiste à créer une variété d’expressions pour une farine ou un petit placard. Les caractères avec des formes simples sont souvent plus efficaces que les caractères complexes. Considérons, par exemple, que de nombreux caractères populaires ne comportent que trois doigts et un Thumb.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - MIDL du compilateur MIDL, MIDL et RPC MIDL, fichiers générés pour RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76e6725d50bd4ccffdfb85ffc283e3f74d0f1628
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa7b1735c4312013d42f667d27498f40b502846118e61be1697ae78368a41fff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013877"
 ---
 # <a name="files-generated-for-an-rpc-interface"></a>Fichiers générés pour une interface RPC
 
@@ -21,9 +21,9 @@ Le compilateur MIDL génère le stub du langage C et les fichiers d’en-tête n
 -   [Stub serveur](the-server-stub.md)
 -   [Fichier d’en-tête](the-header-file.md)
 
- 
+ 
 
- 
+ 
 
 
 

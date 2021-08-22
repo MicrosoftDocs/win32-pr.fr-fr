@@ -4,12 +4,12 @@ ms.assetid: 3D4C1A81-A9BA-427F-93DB-F522A0616EAB
 title: Attribut MF_MT_MPEG2_STANDARD (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0650a68975f449ea938b41872005e11d79922393
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba3c773fbf453bba77cb3f0472894e251e56f48b0cebe2a09cb9bf3ea6288c35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035137"
 ---
 # <a name="mf_mt_mpeg2_standard-attribute"></a>\_ \_ Attribut standard MF MT MPEG2 \_
 
@@ -23,7 +23,7 @@ Pour un type de média qui décrit un flux de programme (PS) MPEG-2 ou un flux d
 
 | Valeur                                                                                                | Signification                                                                    |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Standard MPEG-2 PS ou TS.<br/>                                       |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Standard MPEG-2 PS ou TS.<br/>                                       |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Norme ATSC (Advanced TV Systems Committee).<br/>          |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Norme de diffusion vidéo numérique (DVB).<br/>                      |
 | <span id="3"></span><dl> <dt>**3**</dt> </dl> | Association de la norme ARIB (Radio Industries and Business).<br/> |
@@ -38,8 +38,8 @@ Pour un type de média qui décrit un flux de programme (PS) MPEG-2 ou un flux d
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

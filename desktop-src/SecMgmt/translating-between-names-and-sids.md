@@ -4,12 +4,12 @@ ms.assetid: 8845b709-a8f9-4d0f-a4a6-86d23d6b01d5
 title: Conversion entre les noms et les sid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 417034a99331c09f20546f2f352bc762a86f02e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d5f67bd95e41a9813522d635e737f4fc528a61aebceeab205a2d40e1f44d7c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106532082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004807"
 ---
 # <a name="translating-between-names-and-sids"></a>Conversion entre les noms et les sid
 
@@ -81,7 +81,7 @@ Dans l’exemple précédent, la fonction **InitLsaString** convertit une chaîn
 
  
 
-Windows Access Control fournit également des fonctions qui effectuent des traductions entre les SID et les noms de comptes : [**LookupAccountName**](/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) et [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). Si votre application doit rechercher un nom de compte ou un SID et n’utilise pas de fonctionnalité de stratégie LSA supplémentaire, utilisez les fonctions de Access Control de Windows au lieu des fonctions de stratégie LSA. Pour plus d’informations sur ces fonctions, consultez [Access Control](/windows/desktop/SecAuthZ/access-control).
+Windows Access Control fournit également des fonctions qui effectuent des traductions entre les SID et les noms de comptes : [**LookupAccountName**](/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea) et [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida). si votre application doit rechercher un nom de compte ou un SID et n’utilise pas de fonctionnalité de stratégie lsa supplémentaire, utilisez les fonctions Windows Access Control à la place des fonctions de stratégie lsa. Pour plus d’informations sur ces fonctions, consultez [Access Control](/windows/desktop/SecAuthZ/access-control).
 
  
 

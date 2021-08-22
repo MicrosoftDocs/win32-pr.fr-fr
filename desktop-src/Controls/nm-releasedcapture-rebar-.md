@@ -3,7 +3,7 @@ title: Code de notification NM_RELEASEDCAPTURE (Rebar) (commctrl. h)
 description: Notifie la fenêtre parente d’un contrôle rebar que le contrôle libère la capture de la souris. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 1196260f-b9ba-4a9e-80a7-e126196c3beb
 keywords:
-- Contrôles Windows de code de notification NM_RELEASEDCAPTURE (Rebar)
+- NM_RELEASEDCAPTURE (rebar) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c2f5367a0a5d5fac0948493ef70e4be1140013c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0601a8daa581b9f3dea477c849d668e222308bdcb991fe4c107470c341ff5661
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018777"
 ---
 # <a name="nm_releasedcapture-rebar-notification-code"></a>\_Code de notification RELEASEDCAPTURE nm (Rebar)
 
@@ -55,8 +55,8 @@ Le contrôle ignore la valeur de retour de ce code de notification.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

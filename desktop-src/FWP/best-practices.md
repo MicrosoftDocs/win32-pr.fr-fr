@@ -1,19 +1,19 @@
 ---
-title: Meilleures pratiques (plateforme de filtrage Windows)
-description: La liste suivante contient les meilleures pratiques pour le développement d’applications à l’aide de l’API WFP (Windows Filtering Platform).
+title: meilleures pratiques (Windows la plateforme de filtrage)
+description: la liste suivante contient les meilleures pratiques pour le développement d’applications à l’aide de l’API de plateforme de filtrage Windows (WFP).
 ms.assetid: 017ff210-8666-466e-8424-c95e750fd5ac
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ac43f103e0076945d566e26a1706bdec22916db
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3e0ddb6038a9fe43070f1c16e545dbd7ac8929f3363fc88556aac391428175ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069459"
 ---
-# <a name="best-practices-windows-filtering-platform"></a>Meilleures pratiques (plateforme de filtrage Windows)
+# <a name="best-practices-windows-filtering-platform"></a>meilleures pratiques (Windows la plateforme de filtrage)
 
-La liste suivante contient les meilleures pratiques pour le développement d’applications à l’aide de l’API WFP (Windows Filtering Platform).
+la liste suivante contient les meilleures pratiques pour le développement d’applications à l’aide de l’API de plateforme de filtrage Windows (WFP).
 
 -   Utilisez des sessions dynamiques.
 
@@ -49,11 +49,11 @@ La liste suivante contient les meilleures pratiques pour le développement d’a
 
 -   Effectuer l’inspection des paquets au niveau de la couche de données de flux/datagramme plutôt qu’au niveau de la couche de transport.
 
-    Cela s’applique au développement de légendes. Pour plus d’informations, consultez Considérations sur la [programmation du pilote Callout](/windows-hardware/drivers/network/callout-driver-programming-considerations) dans le kit de pilotes Windows (WDK).
+    Cela s’applique au développement de légendes. pour plus d’informations, consultez considérations sur la [programmation du pilote Callout](/windows-hardware/drivers/network/callout-driver-programming-considerations) dans le Kit de pilotes Windows (WDK).
 
 -   Tenez compte des implications en termes de performances lors de l’utilisation de filtres complexes.
 
-    À compter de Windows 7 et de Windows Server 2008 R2, les filtres peuvent être créés avec plusieurs conditions qui utilisent la même clé de champ. Cela permet de créer des stratégies complexes avec moins de filtres. Toutefois, ces filtres complexes peuvent entraîner une baisse des performances du moteur de filtre WFP. Une évaluation doit être effectuée pour déterminer si l’utilisation de ces filtres entraîne un effet néfaste sur les performances globales de votre solution.
+    à partir de Windows 7 et Windows Server 2008 R2, des filtres peuvent être créés avec plusieurs conditions qui utilisent la même clé de champ. Cela permet de créer des stratégies complexes avec moins de filtres. Toutefois, ces filtres complexes peuvent entraîner une baisse des performances du moteur de filtre WFP. Une évaluation doit être effectuée pour déterminer si l’utilisation de ces filtres entraîne un effet néfaste sur les performances globales de votre solution.
 
  
 

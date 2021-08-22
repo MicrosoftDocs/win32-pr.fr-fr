@@ -4,12 +4,12 @@ ms.assetid: 2ae4af90-2612-4b00-b47d-0155e98bffa5
 title: Méthodes Graphics. TranslateClip (Gdiplusgraphics. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d56e6457c78f4ceaacd901275b4ff7fcf6fc754f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b834b102dac5900f4377202a52fc08cc62a31785d1ef620a6854794dd960a87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104996560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977869"
 ---
 # <a name="graphicstranslateclip-methods"></a>Méthodes Graphics. TranslateClip
 
@@ -26,7 +26,7 @@ Cette rubrique répertorie les méthodes TranslateClip de la classe [**Graphics*
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

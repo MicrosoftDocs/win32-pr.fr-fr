@@ -3,7 +3,7 @@ title: Code de notification EN_CORRECTTEXT (RichEdit. h)
 description: Avertit une fenêtre parente du contrôle RichEdit qu’un \_ geste SyV correct s’est produit, donnant à la fenêtre parente la possibilité d’annuler la correction du texte. Un contrôle RichEdit envoie ce code de notification sous la forme d’un \_ message WM Notify.
 ms.assetid: d6f6278f-ff63-4f6a-a352-2b4d70df3e1a
 keywords:
-- Contrôles Windows de code de notification EN_CORRECTTEXT
+- EN_CORRECTTEXT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5d1339513a94967ab60bdab2b9ee39172b19e76
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48f03bf0d1bd31cc1f4139c24c6b0efa904f013231af4e108b0f97ef7f308bbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019417"
 ---
 # <a name="en_correcttext-notification-code"></a>\_Code de notification en CORRECTTEXT
 
@@ -51,7 +51,7 @@ Retournez zéro pour ignorer l’action.
 
 Retourne une valeur différente de zéro pour traiter l’action.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce code de notification est envoyé uniquement si les fonctionnalités du stylet sont disponibles.
 
@@ -68,8 +68,8 @@ Pour recevoir les \_ codes de notification en CORRECTTEXT, spécifiez [**ENM \_ 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

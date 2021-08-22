@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1495da3f1a1f5e69e7a6af9c64e69aa1ea354abc
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 194057a8769f32902388e733731fb1e3d987ecafd0eff26ea62c15d4fc8555d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106541246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984019"
 ---
 # <a name="servervalidation-eaptype-element-peap"></a>ServerValidation (EapType), élément (PEAP)
 
@@ -33,7 +33,7 @@ L’élément **ServerValidation (EapType)** contient des informations sur la fa
 
 L’élément **ServerValidation** est défini par l’élément [**EapType**](mspeapconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **ServerValidation** est facultatif.
 
@@ -43,8 +43,8 @@ L’élément **ServerValidation** est facultatif.
 
 | Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

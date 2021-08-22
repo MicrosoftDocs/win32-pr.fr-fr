@@ -3,24 +3,24 @@ title: Attributs d’élément de photo
 description: Attributs d’élément de photo
 ms.assetid: 3d3ed3a8-09ac-4e3d-b52d-3614b3a3fc05
 keywords:
-- Windows Media Player, attributs d’élément de photo
-- Windows Media Player Mobile, attributs d’élément de photo
-- Modèle d’objet du lecteur Windows Media, attributs d’élément de photo
+- Lecteur Windows Media, attributs d’élément de photo
+- Lecteur Windows Media Attributs mobiles, élément photo
+- Lecteur Windows Media modèle objet, attributs d’élément de photo
 - modèle objet, attributs d’élément photo
-- Contrôle ActiveX, attributs d’élément de photo
-- Contrôle ActiveX du lecteur Windows Media, attributs d’élément de photo
-- Windows Media Player Mobile contrôle ActiveX, attributs d’élément de photo
+- contrôle de ActiveX, attributs d’élément de photo
+- Lecteur Windows Media ActiveX contrôle, attributs d’élément de photo
+- Lecteur Windows Media contrôle de ActiveX Mobile, attributs d’élément de photo
 - informations de référence sur le modèle objet, les attributs d’élément photo
 - attributs, éléments de photo
 - attributs d’élément de photo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6482151e2d9bbb15cff236f420b1386e5b68bfec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c9a5d36e77e9b58b642469bf8900eb32b3b789882afb7862bf8f44f5ab8cc22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054417"
 ---
 # <a name="photo-item-attributes"></a>Attributs d’élément de photo
 
@@ -67,9 +67,9 @@ Les attributs suivants sont disponibles pour un élément photo dans la biblioth
 [**Référence d’attribut**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

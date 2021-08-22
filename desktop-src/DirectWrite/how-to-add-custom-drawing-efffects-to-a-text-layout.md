@@ -1,19 +1,19 @@
 ---
 title: Comment ajouter des effets de dessin client à une disposition de texte
-description: Fournit un bref didacticiel sur l’ajout d’effets de dessin client à une application DirectWrite qui affiche du texte à l’aide de l’interface IDWriteTextLayout et d’un convertisseur de texte personnalisé.
+description: fournit un bref didacticiel sur l’ajout d’effets de dessin client à une application DirectWrite qui affiche du texte à l’aide de l’interface IDWriteTextLayout et d’un convertisseur de texte personnalisé.
 ms.assetid: b66ff814-2113-48b0-8913-3d30a5d20077
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 338dc1a720bde80c1daf2b4baf7c7a4bad6d2cff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7bae98813d8f8aa8fc8a7df0a1a53d11a0329c93abb22a7f60d60754b8edc91f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071707"
 ---
 # <a name="how-to-add-client-drawing-effects-to-a-text-layout"></a>Comment ajouter des effets de dessin client à une disposition de texte
 
-Fournit un bref didacticiel sur l’ajout d’effets de dessin client à une application [DirectWrite](direct-write-portal.md) qui affiche du texte à l’aide de l’interface [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) et d’un convertisseur de texte personnalisé.
+fournit un bref didacticiel sur l’ajout d’effets de dessin client à une application [DirectWrite](direct-write-portal.md) qui affiche du texte à l’aide de l’interface [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) et d’un convertisseur de texte personnalisé.
 
 Le produit final de ce didacticiel est une application qui affiche du texte avec des plages de texte avec un effet de dessin de couleur différent sur chaque, comme illustré dans la capture d’écran suivante.
 
@@ -22,7 +22,7 @@ Le produit final de ce didacticiel est une application qui affiche du texte avec
 > [!Note]  
 > Ce didacticiel est destiné à être un exemple simplifié de la création d’effets de dessin client personnalisés, et non d’un exemple de méthode simple pour dessiner du texte de couleur. Pour plus d’informations, consultez la page de référence de [**IDWriteTextLayout :: SetDrawingEffect**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-setdrawingeffect) .
 
- 
+ 
 
 Ce didacticiel contient les éléments suivants :
 
@@ -121,7 +121,7 @@ pRT_(pRT)
 
 Une exécution de glyphe est un ensemble de glyphes qui partagent le même format, y compris l’effet de dessin client. La méthode [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) s’occupe du rendu de texte pour une exécution de glyphes spécifiée.
 
-Tout d’abord, créez un [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) et un [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink), puis récupérez le plan d’exécution de glyphe à l’aide de [**IDWriteFontFace :: GetGlyphRunOutline**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline). Transformez ensuite l’origine de la géométrie à l’aide de la méthode [Direct2D](../direct2d/direct2d-portal.md) [**ID2D1Factory :: CreateTransformedGeometry**](../direct2d/id2d1factory-createtransformedgeometry.md) , comme indiqué dans le code suivant.
+Tout d’abord, créez un [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) et un [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink), puis récupérez le plan d’exécution de glyphe à l’aide de [**IDWriteFontFace :: GetGlyphRunOutline**](/windows/win32/api/dwrite/nf-dwrite-idwritefontface-getglyphrunoutline). Transformez ensuite l’origine de la géométrie à l’aide de la méthode [Direct2D](../direct2d/direct2d-portal.md) [**ID2D1Factory :: CreateTransformedGeometry**](../direct2d/id2d1factory-createtransformedgeometry.md) , comme indiqué dans le code suivant.
 
 
 ```C++
@@ -408,6 +408,6 @@ SafeRelease(&greenDrawingEffect_);
 
 
 
- 
+ 
 
- 
+ 

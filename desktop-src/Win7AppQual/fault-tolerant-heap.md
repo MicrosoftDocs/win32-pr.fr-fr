@@ -4,12 +4,12 @@ ms.assetid: f1ac375a-3f08-49cd-8752-6f55db24a60c
 title: Segment de mémoire à tolérance de panne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b17ab2630e6dc28cb84604e48be1aa60bf208a97
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a99d6df576906c82a3c0bc95ca4dc8b8ae54b26433c9fb213da5917d596af947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053167"
 ---
 # <a name="fault-tolerant-heap"></a>Segment de mémoire à tolérance de panne
 
@@ -25,7 +25,7 @@ ms.locfileid: "108088397"
 
 ## <a name="description"></a>Description
 
-Le segment de mémoire à tolérance de panne (FTH) est un sous-système de Windows 7 responsable de la surveillance des pannes d’application et de l’application de mesures d’atténuation de manière autonome afin d’éviter les pannes futures pour chaque application. Pour la grande majorité des utilisateurs, FTH ne nécessite aucune intervention ni modification de leur part. Toutefois, dans certains cas, les développeurs d’applications et les testeurs de logiciels peuvent avoir besoin de remplacer le comportement par défaut de ce système.
+le segment de mémoire à tolérance de panne (FTH) est un sous-système de Windows 7 responsable de la surveillance des pannes d’application et de l’application de mesures d’atténuation de manière autonome afin d’éviter les pannes futures pour chaque application. Pour la grande majorité des utilisateurs, FTH ne nécessite aucune intervention ni modification de leur part. Toutefois, dans certains cas, les développeurs d’applications et les testeurs de logiciels peuvent avoir besoin de remplacer le comportement par défaut de ce système.
 
 ## <a name="solution"></a>Solution
 
@@ -35,7 +35,7 @@ Le segment de mémoire à tolérance de panne enregistre les informations lorsqu
 
 1.  Cliquez sur le menu Démarrer.
 2.  Cliquez avec le bouton droit sur **ordinateur** , puis cliquez sur **gérer**.
-3.  Cliquez sur **Observateur d’événements**  >  **les journaux des applications et des services**  >  **Microsoft**  >  **Windows > avec tolérance de pannes**
+3.  cliquez sur **observateur d’événements**  >  **journaux des Applications et des Services**  >  **Microsoft**  >  **Windows > le segment de mémoire à tolérance de pannes**
 4.  Affichez les événements FTH.
 
 Les événements d’arrêt et de démarrage du service ne contiennent pas de données supplémentaires. L’événement FTH activé contient l’ID de processus (PID), le nom de l’image de processus et l’heure de début de l’instance de processus.
