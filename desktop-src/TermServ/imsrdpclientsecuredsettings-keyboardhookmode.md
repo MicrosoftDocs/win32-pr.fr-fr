@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientSecuredSettings propriété KeyboardHookMode
-description: Spécifie les paramètres de redirection du clavier, qui spécifient comment et quand appliquer le raccourci clavier Windows (par exemple, ALT + TAB).
+description: spécifie les paramètres de redirection du clavier, qui spécifient comment et quand appliquer Windows raccourci clavier (par exemple, ALT + TAB).
 ms.assetid: 16734580-9be9-476b-b8e7-1eca3ba24d61
 ms.tgt_platform: multiple
 keywords:
@@ -19,16 +19,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 948069b689d8799a98805148017a204b719d7645
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a291eeb26f8011440b8629ed46e1bb12c8b9cfb7adb937d33f80afe60a4d5cd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657589"
 ---
 # <a name="imsrdpclientsecuredsettingskeyboardhookmode-property"></a>IMsRdpClientSecuredSettings :: KeyboardHookMode, propriété
 
-Spécifie les paramètres de redirection du clavier, qui spécifient comment et quand appliquer le raccourci clavier Windows (par exemple, ALT + TAB).
+spécifie les paramètres de redirection du clavier, qui spécifient comment et quand appliquer Windows raccourci clavier (par exemple, ALT + TAB).
 
 Cette propriété est en lecture/écriture.
 
@@ -70,7 +70,7 @@ Appliquez des combinaisons de touches au serveur distant.
 2
 </dt> <dd>
 
-Appliquez des combinaisons de touches au serveur distant uniquement lorsque le client s’exécute en mode plein écran. Il s’agit de la valeur par défaut.
+Appliquez des combinaisons de touches au serveur distant uniquement lorsque le client s’exécute en mode plein écran. Il s'agit de la valeur par défaut.
 
 </dd> </dl>
 
@@ -78,7 +78,7 @@ Appliquez des combinaisons de touches au serveur distant uniquement lorsque le c
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces propriétés ne peuvent pas être définies lorsque le contrôle est connecté.
 

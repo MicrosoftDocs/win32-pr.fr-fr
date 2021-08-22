@@ -19,12 +19,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 5a413b96e00514b64b3cf1b1ee451a84a9e9ff09
-ms.sourcegitcommit: 6eb53540b8d882fd035d428567d7d1c5ec17042c
+ms.openlocfilehash: 34adfd708ef3c1b8d7a6af145d9d1c9505b01beb1ba9b31834e267123ad05b69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "104463887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641499"
 ---
 # <a name="improving-the-performance-of-direct2d-apps"></a>Amélioration des performances des applications Direct2D
 
@@ -86,7 +86,7 @@ Comme mentionné précédemment, la création et la suppression de ressources so
 > [!Note]  
 > Vous ne pouvez pas réutiliser des ressources pour l’opération de redimensionnement de fenêtre. Quand une fenêtre est redimensionnée, certaines ressources dépendantes de l’échelle, telles que les cibles de rendu compatibles et éventuellement certaines ressources de couche, doivent être recréées, car le contenu de la fenêtre doit être redessiné. Cela peut être important pour maintenir la qualité globale de la scène rendue.
 
- 
+ 
 
 ## <a name="restrict-the-use-of-flush"></a>Limiter l’utilisation du vidage
 
@@ -107,12 +107,12 @@ Un Atlas des bitmaps peut être très bien utilisé dans certains scénarios cou
 > [!Note]  
 > Une bitmap Direct2D créée dans la mémoire vidéo est limitée à la taille maximale de bitmap prise en charge par l’adaptateur sur lequel elle est stockée. La création d’une bitmap plus grande peut entraîner une erreur.
 
- 
+ 
 
 > [!Note]  
-> À partir de Windows 8, Direct2D comprend un [effet Atlas](atlas.md) qui peut faciliter ce processus.
+> à partir de Windows 8, Direct2D comprend un [effet Atlas](atlas.md) qui peut faciliter ce processus.
 
- 
+ 
 
 ### <a name="create-shared-bitmaps"></a>Créer des bitmaps partagées
 
@@ -121,7 +121,7 @@ La création de bitmaps partagées permet aux appelants avancés de créer des o
 > [!Note]  
 > Les bitmaps partagées sont généralement limitées aux cibles logicielles ou aux cibles interopérables avec DXGI. Utilisez les méthodes [**CreateBitmapFromDxgiSurface**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1_id2d1bitmap1)), [**CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties1_id2d1bitmap1))et [**CreateSharedBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap) pour créer des bitmaps partagées.
 
- 
+ 
 
 ### <a name="copying-bitmaps"></a>Copier des bitmaps
 
@@ -272,7 +272,7 @@ Les applications qui s’attendent à afficher des quantités significatives de 
 
 Remarques :
 
--   À partir de Windows 8.1, cet indicateur affecte uniquement le rendu de la géométrie du chemin d’accès. Elle n’a aucun impact sur les scènes contenant uniquement d’autres types primitifs (tels que du texte, des bitmaps ou des réalisations géométriques).
+-   à partir de Windows 8.1, cet indicateur affecte uniquement le rendu de la géométrie du chemin d’accès. Elle n’a aucun impact sur les scènes contenant uniquement d’autres types primitifs (tels que du texte, des bitmaps ou des réalisations géométriques).
 -   En outre, cet indicateur n’a aucun impact lors du rendu dans le logiciel (par exemple, lors du rendu avec un périphérique Direct3D WARP). Pour contrôler le multithreading logiciel, les appelants doivent utiliser \_ l' \_ indicateur d3d11 créer \_ un appareil empêcher l' \_ \_ optimisation du Threading interne \_ lors de la création de l’appareil de distorsion Direct3D.
 -   La spécification de cet indicateur peut augmenter le pic du jeu de travail pendant le rendu et peut également augmenter la contention des threads dans les applications qui tirent déjà parti du traitement multithread.
 
@@ -282,7 +282,7 @@ La fonctionnalité de rendu de texte Direct2D est proposée en deux parties. La 
 
 ### <a name="drawtextlayout-vs-drawtext"></a>DrawTextLayout et DrawText
 
-[**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) et [**DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) permettent à une application de restituer facilement du texte mis en forme par l’API [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) . **DrawTextLayout** dessine un objet [**DWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) existant dans le [**renderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget), et **DrawText** construit une disposition DirectWrite pour l’appelant, en fonction des paramètres transmis. Si le même texte doit être restitué plusieurs fois, utilisez **DrawTextLayout** au lieu de **DrawText**, car **DrawText** crée une disposition chaque fois qu’il est appelé.
+[**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) et [**DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) permettent à une application de rendre facilement le texte mis en forme par l’API [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) . **DrawTextLayout** dessine un objet [**DWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) existant dans le [**RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget), et **DrawText** construit une disposition DirectWrite pour l’appelant, en fonction des paramètres passés. Si le même texte doit être restitué plusieurs fois, utilisez **DrawTextLayout** au lieu de **DrawText**, car **DrawText** crée une disposition chaque fois qu’il est appelé.
 
 ### <a name="choosing-the-right-text-rendering-mode"></a>Choix du mode de rendu de texte approprié
 
@@ -349,11 +349,11 @@ m_d2dContext->FillGeometry(
 
 Dans cet exemple de code, lorsque vous appelez la méthode PushLayer, vous ne transmettez pas de couche créée par une application. Direct2D crée une couche pour vous. Direct2D est en mesure de gérer l’allocation et la destruction de cette ressource sans aucune implication de l’application. Cela permet à Direct2D de réutiliser des couches en interne et d’appliquer des optimisations de gestion des ressources.
 
-Dans Windows 8, de nombreuses optimisations ont été apportées à l’utilisation des couches et nous vous recommandons d’essayer d’utiliser les API de couche au lieu de [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) chaque fois que cela est possible.
+dans Windows 8 de nombreuses optimisations ont été apportées à l’utilisation des couches et nous vous recommandons d’essayer d’utiliser les api de couche au lieu de [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) chaque fois que cela est possible.
 
 ### <a name="pushlayer-in-windows-8"></a>PushLayer dans Windows 8
 
-L’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) est dérivée de l’interface [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) et est la clé de l’affichage du contenu Direct2D dans Windows 8. pour plus d’informations sur cette interface, consultez [contextes de périphériques et](devices-and-device-contexts.md)de périphériques. Avec l’interface de contexte de périphérique, vous pouvez ignorer l’appel de la méthode [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) , puis passer la valeur null à la méthode [**ID2D1DeviceContext ::P ushlayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) . Direct2D gère automatiquement la ressource de couche et peut partager des ressources entre les couches et les graphiques d’effet.
+l’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) est dérivée de l’interface [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) et est la clé de l’affichage du contenu Direct2D dans Windows 8. pour plus d’informations sur cette interface, consultez [contextes de périphériques et](devices-and-device-contexts.md)de périphériques. Avec l’interface de contexte de périphérique, vous pouvez ignorer l’appel de la méthode [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) , puis passer la valeur null à la méthode [**ID2D1DeviceContext ::P ushlayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) . Direct2D gère automatiquement la ressource de couche et peut partager des ressources entre les couches et les graphiques d’effet.
 
 ### <a name="axis-aligned-clips"></a>Clips alignés sur l’axe
 
@@ -447,6 +447,6 @@ Toutefois, vous ne pouvez pas opter pour cette optimisation, car :
 
 Bien que Direct2D soit accéléré par le matériel et soit conçu pour des performances élevées, vous devez utiliser les fonctionnalités correctement pour maximiser le débit. Les techniques que nous avons étudiées ici sont dérivées de l’étude des scénarios courants et peuvent ne pas s’appliquer à tous les scénarios d’application.
 
- 
+ 
 
- 
+ 

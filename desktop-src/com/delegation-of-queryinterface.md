@@ -4,12 +4,12 @@ description: Délégation de QueryInterface
 ms.assetid: c5c1b584-9ca3-4dc4-a769-0142e5d8790a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e062f3d063d4f23c941182d80170cec0a680c6f3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 7c63a9eb336bcf049877957bd55523ee70de489263bd19e0ebece8b65fbdd0ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501209"
 ---
 # <a name="delegation-of-queryinterface"></a>Délégation de QueryInterface
 
@@ -26,6 +26,6 @@ Dans le cas de [**IMultiQI**](/windows/win32/api/objidlbase/nn-objidlbase-imulti
 [Gestionnaire de Client-Side léger](the-lightweight-client-side-handler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

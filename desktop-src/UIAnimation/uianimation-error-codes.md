@@ -1,6 +1,6 @@
 ---
-title: Codes d’erreur d’animation Windows (winerror. h)
-description: Si une erreur se produit, l’animation Windows retourne un code en tant que valeur HRESULT. Cette section fournit la liste des codes d’erreur spécifiques à l’animation Windows. Pour obtenir la liste des codes d’erreur COM généraux, consultez Codes d’erreur COM.
+title: Windows Codes d’erreur d’animation (winerror. h)
+description: si une erreur se produit, Windows Animation retourne un code en tant que valeur HRESULT. cette section fournit la liste des codes d’erreur spécifiques à Windows Animation. Pour obtenir la liste des codes d’erreur COM généraux, consultez Codes d’erreur COM.
 ms.assetid: 38f15d61-d415-4c7d-b454-5144fc7c9b1e
 topic_type:
 - apiref
@@ -33,16 +33,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb7c63066690b15ec8fad8ef5b9f74ed5cf2fbc5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44d725874de9c511558cef6ebbe8652905a7f5dac6372230385eaa3253ba3454
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513659"
 ---
-# <a name="windows-animation-error-codes"></a>Codes d’erreur de l’animation Windows
+# <a name="windows-animation-error-codes"></a>Windows Codes d’erreur d’animation
 
-Si une erreur se produit, l’animation Windows retourne un code en tant que valeur **HRESULT** . Cette section fournit la liste des codes d’erreur spécifiques à l’animation Windows. Pour obtenir la liste des codes d’erreur COM généraux, consultez [codes d’erreur com](/windows/desktop/com/com-error-codes).
+si une erreur se produit, Windows Animation retourne un code en tant que valeur **HRESULT** . cette section fournit la liste des codes d’erreur spécifiques à Windows Animation. Pour obtenir la liste des codes d’erreur COM généraux, consultez [codes d’erreur com](/windows/desktop/com/com-error-codes).
 
 <dl> <dt>
 
@@ -343,7 +343,7 @@ Ce client est déjà connecté à un minuteur.
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7, Windows Vista et la mise à jour de la plateforme pour les applications de bureau Windows Vista \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 7, Windows Vista et la mise à jour de la plateforme pour les applications de bureau Windows vista \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                       |
 | En-tête<br/>                   | <dl> <dt>Winerror. h</dt> </dl>           |
 
@@ -353,7 +353,7 @@ Ce client est déjà connecté à un minuteur.
 
 <dl> <dt>
 
-[Informations de référence sur les animations Windows](windows-animation-reference.md)
+[Windows Référence d’animation](windows-animation-reference.md)
 </dt> </dl>
 
  

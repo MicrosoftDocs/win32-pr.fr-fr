@@ -4,12 +4,12 @@ ms.assetid: feace6c3-7828-44d0-8d2b-482a02e8e0c0
 title: Transformations non sécurisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6743898142197d87d4e3fef5d0f48778f6261ff4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6bb234a0cdee852d3a5e1717642f5325283a571b740c9d7b4a5f6901afb52c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499609"
 ---
 # <a name="unsecured-transforms"></a>Transformations non sécurisées
 
@@ -21,9 +21,9 @@ Si le package est installé ou publié dans le [contexte d’installation](insta
 
 Si le package est installé ou publié dans le [contexte d’installation](installation-context.md)par ordinateur et utilise des transformations non sécurisées, le programme d’installation enregistre la source de transformation dans le dossier% windir% \\ installer.
 
-Lors de la première installation du package, le programme d’installation commence par Rechercher la transformation à la source fournie par la propriété [**TRANSformations**](transforms.md) ou la chaîne de ligne de commande. Si cette source n’est pas disponible, le programme d’installation recherche la transformation à la source du package à côté du fichier. msi.
+Lors de la première installation du package, le programme d’installation commence par Rechercher la transformation à la source fournie par la propriété [**TRANSformations**](transforms.md) ou la chaîne de ligne de commande. Si cette source n’est pas disponible, le programme d’installation recherche la transformation à la source du package à côté du fichier .msi.
 
-Pendant une [installation de maintenance](maintenance-installation.md), le programme d’installation recherche la transformation à l’emplacement du cache. Si la copie mise en cache de la transformation devient indisponible, le programme d’installation recherche la transformation à la source du package à côté du fichier. msi.
+Pendant une [installation de maintenance](maintenance-installation.md), le programme d’installation recherche la transformation à l’emplacement du cache. Si la copie mise en cache de la transformation devient indisponible, le programme d’installation recherche la transformation à la source du package en regard du fichier .msi.
 
 Pour plus d’informations, consultez [application de transformations](applying-transforms.md) et [résilience source](source-resiliency.md).
 

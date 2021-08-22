@@ -76,12 +76,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7e257fa319b1d1b55562f47c7a3049a694fc27f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a05dee4d08d40874c3d1688b9bcbe9b739f5877a38d417bfeb2b9c7c1553f23e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520871"
 ---
 # <a name="msvm_physical3dgraphicsprocessor-class"></a>MSVM \_ Physical3dGraphicsProcessor, classe
 
@@ -313,7 +313,7 @@ Type d'accès : Lecture seule
 **true** si compatible pour la virtualisation ; Sinon, **false**.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -480,7 +480,7 @@ Qualificateurs : [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (102
 Spécifie la version du modèle de pilote.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -937,7 +937,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-qualifiers) (« aucune valeur »)
 </dt> </dl>
 
-Spécifie l’évaluation RemoteFX du GPU pour cet appareil. Cette propriété n’est pas utilisée actuellement.
+spécifie l’évaluation du GPU RemoteFX pour cet appareil. Cette propriété n’est pas utilisée actuellement.
 
 </dd> <dt>
 
@@ -1091,7 +1091,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -4,12 +4,12 @@ ms.assetid: a66b9c52-a015-41d2-b27a-3ce6a4d95be9
 title: Convertisseur de fréquence d’images DSP (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6197c29e9e753db6f327aa8b2797ba04131448d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ca4a728f37caa43ee99a0d293d5113e9c26cfb1dcfe51f399482fb614283737
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600489"
 ---
 # <a name="frame-rate-converter-dsp"></a>Convertisseur de fréquence d’images DSP
 
@@ -48,7 +48,7 @@ CLSID \_ CFrameRateConvertDmo
 -   [MFPKEY \_ conv \_ INPUTFRAMERATE](mfpkey-conv-inputframerate.md)
 -   [MFPKEY \_ conv \_ OUTPUTFRAMERATE](mfpkey-conv-outputframerate.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce DSP modifie la fréquence d’images en répétant ou en supprimant des frames.
 
@@ -60,8 +60,8 @@ Par défaut, le DSP obtient les fréquences d’images des types de médias. Si 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mfvdsp.dll</dt> </dl>   |
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d2c4a982f583d1780dbab37d982fd9a54601e141
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 74a179fd1a7f59dcf4e4d22eadf509db9b00cbe482d55e6a6755d7207de8079d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688999"
 ---
 # <a name="cbasepinqueryaccept-method"></a>Méthode CBasePin. QueryAccept
 
@@ -53,7 +53,7 @@ Pointeur vers une structure de [**\_ \_ type de média am**](/windows/win32/api/
 
 Retourne S \_ OK si le type de média est acceptable. Sinon, retourne S \_ false.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans la classe de base, cette méthode délègue à la méthode [**CBasePin :: CheckMediaType**](cbasepin-checkmediatype.md) . Si **CheckMediaType** échoue, `QueryAccept` retourne la \_ valeur false.
 
@@ -65,7 +65,7 @@ Cette méthode ne contient pas la section critique du pin ([**CBasePin :: m \_ 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

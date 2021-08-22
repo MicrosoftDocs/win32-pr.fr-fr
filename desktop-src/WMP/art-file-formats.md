@@ -1,27 +1,27 @@
 ---
 title: Formats de fichier art
-description: Découvrez les formats de fichiers artistiques reconnus par le lecteur Windows Media pour les habillages. Il peut s’agir de bitmap, GIF, JPEG et PNG.
+description: découvrez les formats de fichier art que Lecteur Windows Media reconnaît pour les apparences. Il peut s’agir de bitmap, GIF, JPEG et PNG.
 ms.assetid: 803479e8-0e00-4724-80b7-9d86709c43db
 keywords:
-- Apparences du lecteur Windows Media, fichiers artistiques
+- habillages Lecteur Windows Media, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les apparences, les formats de fichier
-- Apparences du lecteur Windows Media, formats de fichiers pour l’art
+- apparences de Lecteur Windows Media, formats de fichiers pour l’art
 - apparences, formats de fichiers pour l’art
 - formats de fichiers pour l’art de l’apparence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b525bc316d6a9901e32e51a54b6fb938fa91208
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 95872ef6bf98f690841372471c8170439c2b44ac7d8ee8027e91f0372b4b4437
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573809"
 ---
 # <a name="art-file-formats"></a>Formats de fichier art
 
-Les formats de fichier art suivants sont reconnus par le lecteur Windows Media pour les habillages :
+les formats de fichier art suivants sont reconnus par Lecteur Windows Media pour les habillages :
 
 
 

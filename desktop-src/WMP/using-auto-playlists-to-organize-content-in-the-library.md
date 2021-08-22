@@ -3,15 +3,15 @@ title: Utilisation de sélections automatiques pour organiser le contenu de la b
 description: Utilisation de sélections automatiques pour organiser le contenu de la bibliothèque
 ms.assetid: 118d4357-044f-4986-af51-0c344470e891
 keywords:
-- Windows Media Player Online stores, sélections automatiques
+- Lecteur Windows Media des magasins en ligne, sélections automatiques
 - magasins en ligne, sélections automatiques
 - tapez 1 magasins en ligne, sélections automatiques
 - tapez 2 magasins en ligne, sélections automatiques
-- Windows Media Player Online stores, organiser le contenu de la bibliothèque
+- Lecteur Windows Media des magasins en ligne, organisation du contenu de la bibliothèque
 - magasins en ligne, organiser le contenu de la bibliothèque
 - tapez 1 magasins en ligne, organiser le contenu de la bibliothèque
 - tapez 2 magasins en ligne, organiser le contenu de la bibliothèque
-- Magasins en ligne du lecteur Windows Media, organisation du contenu de la bibliothèque
+- Lecteur Windows Media des magasins en ligne, organisation du contenu de la bibliothèque
 - magasins en ligne, organisation du contenu de la bibliothèque
 - types 1 magasins en ligne, organisation du contenu de la bibliothèque
 - type 2 magasins en ligne, organisation du contenu de la bibliothèque
@@ -20,26 +20,26 @@ keywords:
 - sélections automatiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa53a4b9f56a8aa6425f137ef4a8c43bd8ed1454
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c0e32d0f95093d9550c71643330267d59a57f56db7e0d666274a492ac29b2c58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507169"
 ---
 # <a name="using-auto-playlists-to-organize-content-in-the-library"></a>Utilisation de sélections automatiques pour organiser le contenu de la bibliothèque
 
-Vous pouvez utiliser les sélections automatiques pour organiser le contenu Premium que vous fournissez. Par exemple, vous pouvez utiliser le lecteur Windows Media pour créer une sélection automatique qui contient uniquement le contenu que vous avez fourni avec un classement utilisateur d’au moins quatre étoiles. Vous pouvez ensuite ajouter la sélection automatique à la bibliothèque dans le lecteur Windows Media pour qu’elle s’affiche dans le nœud musique achetée sous le nœud serveur de distribution de contenu.
+Vous pouvez utiliser les sélections automatiques pour organiser le contenu Premium que vous fournissez. par exemple, vous pouvez utiliser Lecteur Windows Media pour créer une sélection automatique qui contient uniquement le contenu que vous avez fourni avec un classement utilisateur d’au moins quatre étoiles. vous pouvez ensuite ajouter la sélection automatique à la bibliothèque dans Lecteur Windows Media afin qu’elle s’affiche dans le nœud Musique acheté sous le nœud serveur de distribution de contenu.
 
-Pour ce faire, procédez comme suit :
+Pour cela, procédez comme suit :
 
 1.  Créez la sélection automatique.
-2.  À l’aide de l’Explorateur Windows, accédez à la sélection automatique et récupérez le fichier. wpl.
-3.  À l’aide du modèle objet du lecteur Windows Media, ajoutez la sélection automatique à la bibliothèque.
+2.  à l’aide de l’explorateur de Windows, accédez à la sélection automatique et récupérez le fichier. wpl.
+3.  à l’aide du modèle objet Lecteur Windows Media, ajoutez la sélection automatique à la bibliothèque.
 4.  Définissez l’attribut **WM/ContentDistributor** pour la sélection sur le nom de votre clé de serveur de distribution de contenu.
 5.  Affectez à l’attribut **SyncOnly** de la playlist la valeur true.
 
-L’exemple de code JScript suivant illustre une fonction qui ajoute une sélection automatique nommée « correspondances favorites » au nœud Proseware dans la bibliothèque :
+l’exemple de code JScript suivant illustre une fonction qui ajoute une sélection automatique nommée « correspondances favorites » au nœud proseware dans la bibliothèque :
 
 
 ```C++
@@ -81,9 +81,9 @@ function AddWPL()
 [**Utilisation de la bibliothèque**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

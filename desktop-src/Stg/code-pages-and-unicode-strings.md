@@ -6,12 +6,12 @@ keywords:
 - Pages de codes et chaînes Unicode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 508d508ec21e7e763a683e534cf485ebbeec018d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65a1d5a830d3d4e2fccbb61563e7a8a0447d74e7c427e5e2e0434e7194a2ad3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663599"
 ---
 # <a name="code-pages-and-unicode-strings"></a>Pages de codes et chaînes Unicode
 
@@ -27,9 +27,9 @@ La définition de l’indicateur **\_ ANSI PROPSETFLAG** comme signalé par un a
 
 Vous pouvez accéder à l’ID de propriété 1 à l’aide d’un appel à [**IPropertyStorage :: ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple). Toutefois, il est en lecture seule et ne peut pas être mis à jour avec [**WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple). En outre, il ne peut pas être supprimé avec [**DeleteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-deletemultiple).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 110efeab-c02f-4244-8950-a975cfc91e8a
 title: Paramètres régionaux personnalisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50108750fb1209aa210b04d8be9adcd48e5fd308
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acda75d0d097bf6860e1385bb2557d56c2b2d2a1df530404781817590e381b3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754919"
 ---
 # <a name="custom-locales"></a>Paramètres régionaux personnalisés
 
-**Windows Vista et versions ultérieures :** Les paramètres régionaux personnalisés prennent en charge des propriétés internationales qui fournissent une expérience utilisateur plus culturellement appropriée que celles fournies avec les paramètres régionaux standard fournis par Microsoft avec le système d’exploitation. L’utilisation de paramètres régionaux personnalisés permet aux administrateurs d’étendre l’ensemble de paramètres régionaux fournis par Microsoft ou de remplacer les données dans des paramètres régionaux fournis avec Windows, par exemple, les symboles monétaires ou les noms des mois de l’année.
+**Windows Vista et versions ultérieures :** Les paramètres régionaux personnalisés prennent en charge des propriétés internationales qui fournissent une expérience utilisateur plus culturellement appropriée que celles fournies avec les paramètres régionaux standard fournis par Microsoft avec le système d’exploitation. l’utilisation de paramètres régionaux personnalisés permet aux administrateurs d’étendre l’ensemble de paramètres régionaux fournis par Microsoft ou de remplacer les données dans des paramètres régionaux fournis avec Windows, par exemple, les symboles monétaires ou les noms des mois de l’année.
 
 Les deux types de paramètres régionaux personnalisés sont les paramètres régionaux supplémentaires et les paramètres régionaux de remplacement. Les paramètres régionaux supplémentaires sont des paramètres régionaux personnalisés qui permettent aux entreprises, aux universités, aux gouvernements et à d’autres tiers de créer des données de paramètres régionaux qui ne sont pas disponibles dans le système d’exploitation d’expédition. Les paramètres régionaux de remplacement sont des paramètres régionaux personnalisés fournis avec le système d’exploitation sans modification des [identificateurs](locale-identifiers.md) de paramètres régionaux ou des [noms de paramètres](locale-names.md)régionaux.
 
@@ -45,7 +45,7 @@ Le tableau suivant décrit les différences entre les paramètres régionaux sup
 | Nom des paramètres régionaux    | Description                                                                                                                                                                                                                                                                                                                                     |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | en-Californie-fabricam | Fabricam est un fabricant de PC canadien avec des bureaux dans le monde entier. Pour fournir un comportement d’interface utilisateur cohérent pour tous ses ordinateurs, l’entreprise développe des paramètres régionaux pour utiliser l’ensemble de l’entreprise.                                                                                                                                                          |
-| fr-US          | Woodlawn Bank utilise Windows XP Embedded pour ses distributeurs automatisés (DAB), que la Banque expédie sur Amérique du Nord avec des interfaces utilisateur en français, en anglais et en espagnol. Pour fournir une expérience cohérente, la Banque crée des paramètres régionaux pour le français dans le États-Unis qui a des formats de États-Unis, mais des noms de jours et de mois français. |
+| fr-US          | la banque Woodlawn utilise Windows XP embedded pour ses distributeurs automatiques de billets (dab), que la banque expédie sur Amérique du Nord avec des interfaces utilisateur en français, en anglais et en espagnol. Pour fournir une expérience cohérente, la Banque crée des paramètres régionaux pour le français dans le États-Unis qui a des formats de États-Unis, mais des noms de jours et de mois français. |
 
 
 

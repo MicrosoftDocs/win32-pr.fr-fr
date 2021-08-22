@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2901887233ff8b25114334c97e6a731072a69ce1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d322334d5a14439461f903a583e11e78a7b829863c2b55dbf653dc13aa4d22d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604479"
 ---
 # <a name="index-parameters"></a>Paramètres d’index
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="index-parameters"></a>Paramètres d’index
 
@@ -48,7 +48,7 @@ Ce paramètre spécifie la valeur par défaut pour l’incrément de décalage u
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -84,7 +84,7 @@ Ce paramètre spécifie la valeur par défaut pour l’incrément de décalage u
 </tr>
 <tr class="odd">
 <td><p>Disponibilité :</p></td>
-<td><p>Windows Vista et versions ultérieures</p></td>
+<td><p>Windows Versions Vista et ultérieures</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +107,7 @@ Ce paramètre spécifie la valeur par défaut pour le décalage dans la valeur d
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
@@ -143,7 +143,7 @@ Ce paramètre spécifie la valeur par défaut pour le décalage dans la valeur d
 </tr>
 <tr class="odd">
 <td><p>Disponibilité :</p></td>
-<td><p>Windows Vista et versions ultérieures</p></td>
+<td><p>Windows Versions Vista et ultérieures</p></td>
 </tr>
 </tbody>
 </table>
@@ -154,7 +154,7 @@ Ce paramètre spécifie la valeur par défaut pour le décalage dans la valeur d
 
 Ce paramètre spécifie la valeur par défaut de la longueur maximale du tuple dans un index de Tuple. Pour plus d’informations, consultez la structure [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-**Windows Vista :**  Avant Windows Vista, l’affectation de la valeur zéro à ce paramètre permet de rétablir sa valeur par défaut. Pour Windows Vista, ce n’est plus pris en charge.
+**Windows Vista :**  avant Windows Vista, l’affectation de la valeur zéro à ce paramètre permet de rétablir sa valeur par défaut. pour Windows Vista, ce n’est plus pris en charge.
 
 <table>
 <colgroup>
@@ -168,12 +168,12 @@ Ce paramètre spécifie la valeur par défaut de la longueur maximale du tuple d
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 : </strong>  0, 2-255</p>
-<p><strong>Windows Vista :</strong>  2-255</p></td>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0, 2-255</p>
+<p><strong>Windows Vista :</strong> 2-255</p></td>
 </tr>
 <tr class="even">
 <td><p>Étendue :</p></td>
@@ -216,7 +216,7 @@ Ce paramètre spécifie la valeur par défaut de la longueur maximale du tuple d
 
 Ce paramètre spécifie la valeur par défaut pour la longueur minimale du tuple dans un index de Tuple. Pour plus d’informations, consultez [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-**Windows Vista :**  Avant Windows Vista, l’affectation de la valeur zéro à ce paramètre permet de rétablir sa valeur par défaut. Pour Windows Vista, ce n’est plus pris en charge.
+**Windows Vista :**  avant Windows Vista, l’affectation de la valeur zéro à ce paramètre permet de rétablir sa valeur par défaut. pour Windows Vista, ce n’est plus pris en charge.
 
 <table>
 <colgroup>
@@ -230,12 +230,12 @@ Ce paramètre spécifie la valeur par défaut pour la longueur minimale du tuple
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 : </strong>  0, 2-255</p>
-<p><strong>Windows Vista :</strong>  2-255</p></td>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0, 2-255</p>
+<p><strong>Windows Vista :</strong> 2-255</p></td>
 </tr>
 <tr class="even">
 <td><p>Étendue :</p></td>
@@ -278,7 +278,7 @@ Ce paramètre spécifie la valeur par défaut pour la longueur minimale du tuple
 
 Ce paramètre spécifie la valeur par défaut pour la longueur maximale d’une chaîne source à décomposer en tuples pour un index de Tuple. Pour plus d’informations, consultez [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-**Windows Vista :**  Avant Windows Vista, l’affectation de la valeur zéro à ce paramètre permet de rétablir sa valeur par défaut. Pour Windows Vista, ce n’est plus pris en charge.
+**Windows Vista :**  avant Windows Vista, l’affectation de la valeur zéro à ce paramètre permet de rétablir sa valeur par défaut. pour Windows Vista, ce n’est plus pris en charge.
 
 <table>
 <colgroup>
@@ -292,12 +292,12 @@ Ce paramètre spécifie la valeur par défaut pour la longueur maximale d’une 
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
+<td><p>Entier</p></td>
 </tr>
 <tr class="odd">
 <td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong>  0 – 32767</p>
-<p><strong>Windows Vista :</strong>  1 – 32767</p></td>
+<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0 – 32767</p>
+<p><strong>Windows Vista :</strong> 1 – 32767</p></td>
 </tr>
 <tr class="even">
 <td><p>Étendue :</p></td>
@@ -412,11 +412,11 @@ La valeur par défaut de ce paramètre contient un LCID pour les paramètres ré
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

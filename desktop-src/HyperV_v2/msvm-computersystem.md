@@ -59,12 +59,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ae36179e14b584bad4e68350e27d485cdc10c42b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8a81d5e1503c868865f1f1fae7238be74f024c1bd1c992f5610ce75b5702ab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531782"
 ---
 # <a name="msvm_computersystem-class"></a>\_Classe MSVM ComputerSystem
 
@@ -143,9 +143,9 @@ La classe **MSVM \_ ComputerSystem** possède ces méthodes.
 
 | Méthode                                                                                         | Description                                                                                                                                                                                                                                                                                                                         |
 |:-----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InjectNonMaskableInterrupt**](injectnonmaskableinterrupt-msvm-computersystem.md)           | Injecte une interruption non masquable dans la machine virtuelle. Cette méthode est prise en charge uniquement pour les instances de la classe **MSVM \_ ComputerSystem** qui représentent un ordinateur virtuel.<br/> **Windows 8.1 :** Cette méthode n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.<br/>                                    |
+| [**InjectNonMaskableInterrupt**](injectnonmaskableinterrupt-msvm-computersystem.md)           | Injecte une interruption non masquable dans la machine virtuelle. Cette méthode est prise en charge uniquement pour les instances de la classe **MSVM \_ ComputerSystem** qui représentent un ordinateur virtuel.<br/> **Windows 8.1 :** cette méthode n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.<br/>                                    |
 | [**RequestReplicationStateChange**](msvm-computersystem-requestreplicationstatechange.md)     | Demande que l’état de réplication de l’ordinateur virtuel soit remplacé par la valeur spécifiée. Cette méthode est prise en charge uniquement pour les instances de la classe **MSVM \_ ComputerSystem** qui représentent un ordinateur virtuel.<br/>                                                                                                        |
-| [**RequestReplicationStateChangeEx**](msvm-requestreplicationstatechangeex-computersystem.md) | Demande que l’état de réplication de l’ordinateur virtuel soit remplacé par la valeur spécifiée. Cette méthode est prise en charge uniquement pour les instances de la classe **MSVM \_ ComputerSystem** qui représentent un ordinateur virtuel.<br/> **Windows 8.1 :** Cette méthode n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.<br/> |
+| [**RequestReplicationStateChangeEx**](msvm-requestreplicationstatechangeex-computersystem.md) | Demande que l’état de réplication de l’ordinateur virtuel soit remplacé par la valeur spécifiée. Cette méthode est prise en charge uniquement pour les instances de la classe **MSVM \_ ComputerSystem** qui représentent un ordinateur virtuel.<br/> **Windows 8.1 :** cette méthode n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.<br/> |
 | [**RequestStateChange**](requeststatechange-msvm-computersystem.md)                           | Demande que l’état de l’ordinateur virtuel soit modifié. Cette méthode est prise en charge uniquement pour les instances de la classe **MSVM \_ ComputerSystem** qui représentent un ordinateur virtuel.<br/>                                                                                                                                           |
 | **SetPowerState**                                                                              | Cette méthode n'est pas prise en charge.<br/>                                                                                                                                                                                                                                                                                            |
 
@@ -389,7 +389,7 @@ Spécifie l’état actuel du mode de session étendu sur l’ordinateur virtuel
 
 Le fournisseur WMI Hyper-V déclenche un [**\_ \_ InstanceModificationEvent**](/windows/desktop/WmiSdk/--instancemodificationevent) chaque fois que le **EnhancedSessionModeState** de la classe **MSVM \_ ComputerSystem** change. Si une session vmconnection active reçoit un **\_ \_ InstanceModificationEvent**, elle tente de basculer en mode de session étendu si l’utilisateur a activé ce paramètre.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 **EnhancedSessionModeState** peut prendre l’une des valeurs suivantes :
 
@@ -445,7 +445,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 Type de point de données de récupération appliqué pendant l’opération de basculement.
 
 > [!Note]  
-> Cette propriété est déconseillée à partir de Windows 8.1 ; Utilisez plutôt la propriété du même nom dans la classe [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
+> cette propriété est déconseillée à partir de Windows 8.1 ; à la place, utilisez la propriété du même nom dans la classe [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
 
  
 
@@ -552,11 +552,11 @@ Qualificateurs : **clé**
 
 Identifie de façon unique une instance de cette classe. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).
 
-Dans Windows 8, il existe une seule instance de [**ReplicationSettingData**](msvm-replicationsettingdata.md) pour chaque système informatique ou ordinateur virtuel. Par Windows 8.1, une machine virtuelle de récupération a deux instances de **ReplicationSettingData**. Ce changement différencie et associe les données de paramètres à la relation de réplication.
+dans Windows 8, il existe une seule instance de [**ReplicationSettingData**](msvm-replicationsettingdata.md) pour chaque système informatique ou ordinateur virtuel. par Windows 8.1, une machine virtuelle de récupération a deux instances de **ReplicationSettingData**. Ce changement différencie et associe les données de paramètres à la relation de réplication.
 
 
 
-| Nom de la propriété  | Valeur Windows 8               | Valeur Windows 8.1                          |
+| Nom de la propriété  | valeur Windows 8               | valeur Windows 8.1                          |
 |----------------|-------------------------------|--------------------------------------------|
 | **InstanceID** | Microsoft : <vmguid> \\ HVR | Microsoft : <vmguid> \\ HVR \\<0/1> |
 
@@ -564,7 +564,7 @@ Dans Windows 8, il existe une seule instance de [**ReplicationSettingData**](msv
 
  
 
-Dans la valeur Windows 8.1, 0 indique primaire et 1 indique la réplication étendue. Pour plus d’informations sur la réplication étendue, consultez [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md).
+dans la valeur Windows 8.1, 0 indique primaire et 1 indique la réplication étendue. Pour plus d’informations sur la réplication étendue, consultez [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md).
 
 </dd> <dt>
 
@@ -583,7 +583,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 Heure à laquelle la dernière réplication de cohérence des applications a été reçue pour l’ordinateur virtuel.
 
 > [!Note]  
-> Cette propriété est déconseillée à partir de Windows 8.1 ; Utilisez plutôt la propriété du même nom dans la classe [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
+> cette propriété est déconseillée à partir de Windows 8.1 ; à la place, utilisez la propriété du même nom dans la classe [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
 
  
 
@@ -604,7 +604,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 Heure à laquelle la dernière réplication est reçue lors de la récupération de la machine virtuelle.
 
 > [!Note]  
-> Cette propriété est déconseillée à partir de Windows 8.1 ; Utilisez plutôt la propriété du même nom dans la classe [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
+> cette propriété est déconseillée à partir de Windows 8.1 ; à la place, utilisez la propriété du même nom dans la classe [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
 
  
 
@@ -625,7 +625,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 Type de la dernière réplication qui a été reçue pour l’ordinateur virtuel.
 
 > [!Note]  
-> Cette propriété est déconseillée à partir de Windows 8.1 ; Utilisez plutôt la propriété du même nom dans la classe [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
+> cette propriété est déconseillée à partir de Windows 8.1 ; à la place, utilisez la propriété du même nom dans la classe [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
 
  
 
@@ -911,7 +911,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 Intégrité de la réplication pour la machine virtuelle.
 
 > [!Note]  
-> Cette propriété est déconseillée à partir de Windows 8.1 ; Utilisez plutôt la propriété du même nom dans la classe [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
+> cette propriété est déconseillée à partir de Windows 8.1 ; à la place, utilisez la propriété du même nom dans la classe [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
 
  
 
@@ -1022,7 +1022,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 État de réplication de la machine virtuelle.
 
 > [!Note]  
-> Cette propriété est déconseillée à partir de Windows 8.1 ; Utilisez plutôt la propriété du même nom dans la classe [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
+> cette propriété est déconseillée à partir de Windows 8.1 ; à la place, utilisez la propriété du même nom dans la classe [**Msvm \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour obtenir la valeur de la relation principale ou étendue.
 
  
 
@@ -1244,7 +1244,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’illustration suivante montre les valeurs **EnabledState** .
 
@@ -1264,8 +1264,8 @@ Consultez [interrogation d’objets de mise en réseau](querying-networking-obje
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

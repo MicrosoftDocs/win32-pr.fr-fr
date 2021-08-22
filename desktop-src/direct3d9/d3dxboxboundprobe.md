@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 707ab21a3babe7d9a93f776f438cbaab7137849b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 197582c2f404124edd5a49c9d7780ce35cac61b15438a81d120839f283b82373
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676389"
 ---
 # <a name="d3dxboxboundprobe-function"></a>D3DXBoxBoundProbe fonction)
 
@@ -85,7 +85,7 @@ Type : **[ **bool**](../winprog/windows-data-types.md)**
 
 Retourne la **valeur true** si le rayon croise le volume du cadre englobant de la zone. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **D3DXboxBoundProbe** détermine si le rayon croise le volume du cadre englobant de la zone, pas seulement la surface de la boîte.
 

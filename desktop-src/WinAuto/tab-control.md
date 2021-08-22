@@ -4,12 +4,12 @@ description: Un contrôle onglet définit plusieurs pages pour la même zone d�
 ms.assetid: 664dd109-3c4a-4106-9b92-e10ec5a33463
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cc8381a668701446e06df81694941ece9f5f259
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78fe3216194da590b0c0802343afc41b1f7765c13d194e533163f9af2c22b287
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505659"
 ---
 # <a name="tab-control-msaa-ui-element-reference"></a>Tab, contrôle (référence des éléments d’interface utilisateur MSAA)
 
@@ -18,7 +18,7 @@ ms.locfileid: "106511417"
 
  
 
-Un contrôle onglet définit plusieurs pages pour la même zone d’une fenêtre ou d’une boîte de dialogue. Chaque page se compose d’un ensemble d’informations ou d’un groupe de contrôles qu’une application affiche lorsque l’utilisateur sélectionne l’onglet correspondant. Le système d’exploitation Windows utilise des contrôles onglet pour afficher les boutons de la barre des tâches, à l’exception du bouton **Démarrer** .
+Un contrôle onglet définit plusieurs pages pour la même zone d’une fenêtre ou d’une boîte de dialogue. Chaque page se compose d’un ensemble d’informations ou d’un groupe de contrôles qu’une application affiche lorsque l’utilisateur sélectionne l’onglet correspondant. le système d’exploitation Windows utilise des contrôles onglet pour afficher les boutons de la barre des tâches, à l’exception du bouton **démarrer** .
 
 Le nom de la classe de fenêtre pour un contrôle onglet est WC \_ TABCONTROL, qui est défini en tant que « SysTabControl » dans commctrl. h.
 

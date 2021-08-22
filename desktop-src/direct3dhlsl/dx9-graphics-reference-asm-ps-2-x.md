@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9efedc6011cb63b6465fd2d3ced4a7807c09f4da
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 37bc9709effeb865651ca920a155094946b88753586174ecf6e1ab06eabd2fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489409"
 ---
 # <a name="ps_2_x"></a>PS \_ 2 \_ x
 
@@ -27,7 +27,7 @@ Un nuanceur de pixels programmable est constitué d’un ensemble d’instructio
 -   Les [modificateurs de Registre source du nuanceur de pixels](dx9-graphics-reference-asm-ps-registers-modifiers-source.md) modifient les données du Registre source avant l’exécution de l’instruction.
 -   Le [Registre source Swizzling](dx9-graphics-reference-asm-ps-registers-modifiers-source-register-swizzling.md) offre un contrôle supplémentaire sur les composants Register qui sont lus, copiés ou écrits.
 
-## <a name="dynamic-flow-control"></a>Contrôle de Flow dynamique
+## <a name="dynamic-flow-control"></a>contrôle de Flow dynamique
 
 [**DynamicFlowControlDepth**](/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) représente la profondeur d’imbrication des instructions de contrôle de Flow [](if-bool---ps.md)dynamique : [si \_ COMP](if-comp---ps.md), [si \_ prédit](if-pred---ps.md), [break-PS](break---ps.md)et [break \_ COMP-PS](break-comp---ps.md). La valeur est égale à la profondeur d’imbrication du bloc if \_ COMP. Si cette limite est égale à zéro, l’appareil ne prend pas en charge les instructions de contrôle de Flow dynamique.
 
@@ -35,7 +35,7 @@ Un nuanceur de pixels programmable est constitué d’un ensemble d’instructio
 
 Nombre de registres temporaires pris en charge par l’appareil. La plage est comprise entre 12 et 32.
 
-## <a name="static-flow-control-nesting-depth"></a>Profondeur d’imbrication du contrôle de Flow statique
+## <a name="static-flow-control-nesting-depth"></a>profondeur d’imbrication des contrôles de Flow statique
 
 [**StaticFlowControlDepth**](/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0) représente la profondeur d’imbrication de deux types d’instructions de contrôle de Flow statique : le REP de [boucle](loop---ps.md)  / [](rep---ps.md) et l' [appel](call---ps.md)de  / [callnz](callnz-bool---ps.md). les instructions Loop/REP peuvent être imbriquées jusqu’à **StaticFlowControlDepth** Deep. De manière indépendante, les instructions/callnz peuvent être imbriquées jusqu’à **StaticFlowControlDepth** Deep.
 

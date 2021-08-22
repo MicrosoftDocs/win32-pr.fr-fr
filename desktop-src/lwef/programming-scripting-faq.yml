@@ -5,12 +5,12 @@ metadata:
   ms.assetid: 84078c5b-7b04-48fa-9d0a-d95393c323eb
   ms.topic: article
   ms.date: 05/31/2018
-  ms.openlocfilehash: f3e9604bdc6bcd3871cbd931fb22b16400764dbd
-  ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+  ms.openlocfilehash: 2465e4a347a82ec892b5f22e32cc11809a6d9c86ba1162212ae82e04294e4fef
+  ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 07/07/2021
-  ms.locfileid: "113483646"
+  ms.lasthandoff: 08/11/2021
+  ms.locfileid: "119555859"
 title: FAQ sur les scripts de programmation
 summary: >
   \[Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.\]
@@ -109,7 +109,7 @@ sections:
   - question: >
       Lorsque j’utilise le symbole esperluette « & », le texte autour du symbole dans les bulles de mot du caractère est tronqué.
     answer: >
-      Il s’agit d’un problème connu. Vous pouvez contourner ce paramètre à l’aide de la balise map. Par exemple, pour afficher « A & B » dans la bulle de mot du caractère, utilisez « A \\ Map = » et « = » && « \\ B » dans l’instruction Speak.
+      Il s'agit d'un problème connu. Vous pouvez contourner ce paramètre à l’aide de la balise map. Par exemple, pour afficher « A & B » dans la bulle de mot du caractère, utilisez « A \\ Map = » et « = » && « \\ B » dans l’instruction Speak.
   - question: >
       Mon application permet aux utilisateurs de modifier le caractère par défaut et, le cas échéant, le programme se bloque.
     answer: >

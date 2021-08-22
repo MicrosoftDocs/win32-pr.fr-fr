@@ -3,8 +3,8 @@ title: Structure MPVERSION_INFO (MpClient. h)
 description: Informations de version pour les composants du gestionnaire de protection contre les programmes malveillants.
 ms.assetid: C18EE6FE-57E1-4814-85CA-19C3ACE275D2
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPVERSION_INFO
-- PMPVERSION_INFO des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPVERSION_INFO
+- PMPVERSION_INFO des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f30153c427b880600a3d8aeb3c411a8679cd64b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 50a89b03b8b310416f9b0b496c055f732f4e83859bb7eba50b7891abebc27d26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608699"
 ---
 # <a name="mpversion_info-structure"></a>\_Structure d’informations MPVERSION
 
@@ -154,8 +154,8 @@ Champs réservés.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

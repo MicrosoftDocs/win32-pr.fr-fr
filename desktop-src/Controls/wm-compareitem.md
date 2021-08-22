@@ -3,7 +3,7 @@ title: Message WM_COMPAREITEM (winuser. h)
 description: Envoyé pour déterminer la position relative d’un nouvel élément dans la liste triée d’une zone de liste déroulante ou d’une zone de liste owner-drawn.
 ms.assetid: 22882730-9fd6-4b45-a563-d7b00ed26564
 keywords:
-- WM_COMPAREITEM les contrôles de message Windows
+- WM_COMPAREITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f269b90f00e69cce2fb84e6b4efa76e554ad96f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 819df3c4dd36c784ef5747d4aa4cdf688b3a48dbd052254192a7c98574bbfa94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655769"
 ---
 # <a name="wm_compareitem-message"></a>\_Message WM COMPAREITEM
 
@@ -63,14 +63,14 @@ La valeur de retour indique la position relative des deux éléments. Il peut s�
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | <dl> <dt>**Valeur**</dt> </dl> | Signification<br/>                                           |
 | <dl> <dt>**-1**</dt> </dl>    | L’élément 1 précède l’élément 2 dans l’ordre de tri.<br/>       |
-| <dl> <dt>**0**</dt> </dl>     | Les éléments 1 et 2 sont équivalents dans l’ordre de tri.<br/> |
+| <dl> <dt>**entre**</dt> </dl>     | Les éléments 1 et 2 sont équivalents dans l’ordre de tri.<br/> |
 | <dl> <dt>**1**</dt> </dl>     | L’élément 1 suit l’élément 2 dans l’ordre de tri.<br/>        |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le propriétaire d’une zone de liste déroulante ou d’une zone de liste owner-drawn reçoit ce message, le propriétaire retourne une valeur indiquant les éléments spécifiés par la structure [**compareitemstruct,**](/windows/win32/api/winuser/ns-winuser-compareitemstruct) qui apparaîtront avant l’autre. En règle générale, le système envoie ce message plusieurs fois jusqu’à ce qu’il détermine la position exacte du nouvel élément.
 
@@ -82,8 +82,8 @@ Si une procédure de boîte de dialogue gère ce message, elle doit effectuer un
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

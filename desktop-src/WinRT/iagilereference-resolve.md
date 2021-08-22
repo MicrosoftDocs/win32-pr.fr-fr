@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - objidl.h
-ms.openlocfilehash: 1c3ac95802a44f4305abb24566744ad98c67b174
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b58013ba81bb394715a0042f3f3d7435a381fa01f5b985bd9ad81d12122441e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758773"
 ---
 # <a name="iagilereferenceresolve-method"></a>IAgileReference :: Resolve, méthode
 
@@ -69,7 +69,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez la fonction [**RoGetAgileReference**](/windows/desktop/api/ComBaseApi/nf-combaseapi-rogetagilereference) pour créer une référence agile à un objet. Appelez la méthode **Resolve** pour localiser l’objet dans le cloisonnement dans lequel **Resolve** est appelé.
 
@@ -79,8 +79,8 @@ Appelez la fonction [**RoGetAgileReference**](/windows/desktop/api/ComBaseApi/nf
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>            |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/> |
 
 
 

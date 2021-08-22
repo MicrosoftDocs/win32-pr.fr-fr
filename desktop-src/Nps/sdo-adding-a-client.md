@@ -5,26 +5,26 @@ ms.assetid: 7e9e25af-e3b9-40ba-a89d-50b3874e3e68
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ccb2ecc6d92a387107dc473bc7c7844c106da43
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e3ec37354fc65e498664f266b9ca7823b0c5ab739111fa09c728d6e329480a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676249"
 ---
 # <a name="adding-a-client"></a>Ajout d’un client
 
-Le code Visual Basic suivant ajoute un nouveau client RADIUS et définit l’adresse et le secret partagé pour le client.
+le code Visual Basic suivant ajoute un nouveau client RADIUS et définit l’adresse et le secret partagé pour le client.
 
 > [!Note]  
-> Une référence COM doit être ajoutée au projet Visual Basic pour pouvoir être générée correctement. Voici un exemple de la séquence de commande VB : Add Reference-> COM-> "IAS SDO 1,0 Type Library". Cela varie en fonction de votre version de VB.
+> une référence COM doit être ajoutée au projet Visual Basic pour pouvoir être générée correctement. voici un exemple de la séquence de commandes VB : ajouter une référence-> COM-> « IAS SDO 1,0 bibliothèque de types ». Cela varie en fonction de votre version de VB.
 
- 
+ 
 
 > [!Note]  
 > Cet exemple ne fonctionne pas en tant que code VBScript.
 
- 
+ 
 
 
 ```VB
@@ -193,6 +193,6 @@ End Class
 [**RADIUSPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-radiusproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

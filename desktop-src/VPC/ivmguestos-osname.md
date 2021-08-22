@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 672c7b2c852bcbb1ec39b61889b03738e3a2df23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5df969058facebd99e7438b10ed3021d9033df7f30874d4b1c23a8339cc9994
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512419"
 ---
 # <a name="ivmguestososname-property"></a>IVMGuestOS :: OSName, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère le nom du système d’exploitation invité en cours d’exécution sur la machine virtuelle.
 
@@ -61,7 +61,7 @@ Nom complet (y compris le nom de la suite) du système d’exploitation invité.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La machine virtuelle doit être en cours d’exécution (c’est-à-dire être entièrement amorcée et ne pas s’arrêter) et des composants d’intégration doivent être installés lorsque cette méthode est appelée.
 
@@ -71,7 +71,7 @@ La machine virtuelle doit être en cours d’exécution (c’est-à-dire être e
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

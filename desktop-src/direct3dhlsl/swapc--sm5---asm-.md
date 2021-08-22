@@ -4,12 +4,12 @@ description: Effectue un échange conditionnel au niveau du composant des valeur
 ms.assetid: 3DFCEB82-076E-4AFA-915F-47390A355B7C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46d2ee674a1cb1067594b0e96c739ff8df73b152
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9d09d52bd497c7819500c11c4464907e4a7854bb305ed0e31d53b897ba4cf7e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119486259"
 ---
 # <a name="swapc-sm5---asm"></a>swapc (SM5-ASM)
 
@@ -38,7 +38,7 @@ Effectue un échange conditionnel au niveau du composant des valeurs entre deux 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’encodage de cette instruction tente d’exprimer compactement plusieurs swaps conditionnels parallèles de scalaires dans des registres de composants de 2 4, avec une flexibilité mineure dans la disposition des paires de nombres impliquées dans l’échange.
 
@@ -74,7 +74,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -88,9 +88,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

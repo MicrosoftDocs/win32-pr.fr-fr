@@ -3,7 +3,7 @@ title: Attribut WM/BeatsPerMinute
 description: L’attribut WM/BeatsPerMinute est le temps par minute du contenu.
 ms.assetid: 657adf62-7217-451d-b797-feda6f44d78d
 keywords:
-- Attribut WM/BeatsPerMinute lecteur Windows Media
+- Lecteur Windows Media de l’attribut WM/BeatsPerMinute
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12f5cf4f2717bf881c1c5ba6ca7a49e34ceec6eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7946becb0b76d847b0aacfa4318ae0464fc6e6c46d8a3136b88a344cdb71030c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506625"
 ---
 # <a name="wmbeatsperminute-attribute"></a>Attribut WM/BeatsPerMinute
 
@@ -25,15 +25,15 @@ L’attribut **WM/BeatsPerMinute** est le temps par minute du contenu.
 
 ## <a name="applies-to"></a>S'applique à
 
--   [Fichiers musicaux](music-file-attributes.md)
+-   [Musique Fichiers](music-file-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans un fichier musical qui ne se trouve pas dans la bibliothèque.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
-La constante du kit de développement logiciel (SDK) du format Windows Media pour cet attribut est g \_ wszWMBeatsPerMinute
+la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMBeatsPerMinute
 
 ## <a name="requirements"></a>Configuration requise
 

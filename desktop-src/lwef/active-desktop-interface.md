@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l’objet Active Desktop
-description: Cet article contient des informations sur l’objet ActiveDesktop qui fait partie de l’API du shell Windows. Cet objet, via son interface IActiveDesktop, vous permet d’ajouter, de supprimer et de modifier des éléments sur le bureau.
+description: cet article contient des informations sur l’objet ActiveDesktop qui fait partie de l’API Windows Shell. Cet objet, via son interface IActiveDesktop, vous permet d’ajouter, de supprimer et de modifier des éléments sur le bureau.
 ms.assetid: 68d72b0f-f5e9-4fff-bb13-4c60d1dd7009
 keywords:
 - Objet ActiveDesktop
@@ -8,18 +8,18 @@ keywords:
 - énumération, éléments du Bureau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7e61a4a9145386fc4c84a454aa79558b8d5df79
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e6daf1b5fbc73286619f07c8af76fbbce53bcaa8962cc88cf20f5af74bbdec82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610659"
 ---
 # <a name="using-the-active-desktop-object"></a>Utilisation de l’objet Active Desktop
 
-\[Cette fonctionnalité est prise en charge uniquement sous Windows XP ou version antérieure. \]
+\[cette fonctionnalité est prise en charge uniquement sous Windows XP ou version antérieure. \]
 
-Cet article contient des informations sur l’objet **ActiveDesktop** qui fait partie de l’API du shell Windows. Cet objet, via son interface [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) , vous permet d’ajouter, de supprimer et de modifier des éléments sur le bureau.
+cet article contient des informations sur l’objet **ActiveDesktop** qui fait partie de l’API Windows Shell. Cet objet, via son interface [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) , vous permet d’ajouter, de supprimer et de modifier des éléments sur le bureau.
 
 ## <a name="overview-of-the-active-desktop-interface"></a>Vue d’ensemble de l’interface Active Desktop
 
@@ -27,7 +27,7 @@ Cet article contient des informations sur l’objet **ActiveDesktop** qui fait p
 -   [Ajout d’un élément de bureau](#adding-a-desktop-item)
 -   [Énumération des éléments du Bureau](#enumerating-the-desktop-items)
 
-Active Desktop est une fonctionnalité introduite dans Microsoft Internet Explorer 4,0 qui vous permet d’inclure des documents et des éléments HTML (tels que des contrôles Microsoft ActiveX et des applets Java) directement sur votre bureau. L’interface [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) , qui fait partie de l’API Windows Shell, est utilisée pour ajouter, supprimer et modifier des éléments sur le bureau par programmation. Vous pouvez également ajouter des éléments Active Desktop à l’aide d’un fichier CDF (Channel Definition Format).
+Active Desktop est une fonctionnalité introduite dans Microsoft Internet Explorer 4,0 qui vous permet d’inclure des documents et des éléments HTML (tels que des contrôles Microsoft ActiveX et des applets Java) directement sur votre bureau. l’interface [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop) , qui fait partie de l’API Windows Shell, est utilisée pour ajouter, supprimer et modifier des éléments sur le bureau par programmation. Vous pouvez également ajouter des éléments Active Desktop à l’aide d’un fichier CDF (Channel Definition Format).
 
 ### <a name="accessing-the-active-desktop"></a>Accès à Active Desktop
 
@@ -128,6 +128,6 @@ pActiveDesktop->Release();
 
 
 
- 
+ 
 
- 
+ 

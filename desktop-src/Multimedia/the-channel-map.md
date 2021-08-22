@@ -12,12 +12,12 @@ keywords:
 - messages de canal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c87027c74ebddea9b51545d15bfa90e52dee95a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f5d514b5af6df6426db7cc5a313d1c6a52070a49c22a8a04e8cd2a9c34f49d80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688283"
 ---
 # <a name="the-channel-map"></a>Carte de canal
 
@@ -37,9 +37,9 @@ L’appareil de sortie de destination est défini sur l’un des périphériques
 
 Les messages système MIDI sont des messages MIDI (avec octets d’État) de 0xF0 à 0xFF. Il n’existe aucun canal associé aux messages système MIDI, ils ne peuvent donc pas être mappés. Les messages système MIDI sont envoyés à tous les périphériques de sortie MIDI répertoriés dans une carte de canal.
 
- 
+ 
 
- 
+ 
 
 
 

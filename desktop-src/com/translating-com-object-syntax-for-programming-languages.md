@@ -4,12 +4,12 @@ description: Traduction de la syntaxe d’objet COM pour les langages de program
 ms.assetid: 021e0085-c720-401e-9637-76580e67b307
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf9d1ec65e5b4ff8f3b61106a4b7a8c9ee3134b3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bb6871046a80537dd39b4c9b502d945e28e46e719e637c4e6a629179dd3c6454
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500079"
 ---
 # <a name="translating-com-object-syntax-for-programming-languages"></a>Traduction de la syntaxe d’objet COM pour les langages de programmation
 
@@ -23,9 +23,9 @@ Pour appeler un objet COM à partir d’une application écrite dans un langage 
 
 2.  Prenez en compte les considérations spéciales relatives à la traduction de votre langage de programmation.
 
-    Étant donné que chaque langage de programmation définit des concepts qui peuvent ne pas avoir d’équivalent dans d’autres langages, certaines des fonctionnalités d’un objet peuvent fonctionner différemment dans un autre langage ou ne pas être disponibles du tout. Par exemple, le langage de programmation Visual Basic ne reconnaît pas les types de données non signés C++, tels que **unsignedÂ long**. Une application écrite en Visual Basic ne peut pas utiliser les méthodes COM qui acceptent ou retournent des variables de type de données non signées.
+    Étant donné que chaque langage de programmation définit des concepts qui peuvent ne pas avoir d’équivalent dans d’autres langages, certaines des fonctionnalités d’un objet peuvent fonctionner différemment dans un autre langage ou ne pas être disponibles du tout. par exemple, le langage de programmation Visual Basic ne reconnaît pas les types de données non signés C++, tels que **unsignedÂ long**. une application écrite en Visual Basic ne peut pas utiliser les méthodes COM qui acceptent ou retournent des variables de type de données non signées.
 
-3.  Ajoutez le code compilé de l’objet COM à votre projet. Le code compilé est généralement contenu dans un fichier. dll ou. ocx. Cette étape est nécessaire pour que le compilateur reconnaisse les classes de l’objet COM. Une fois que vous avez ajouté l’objet COM, votre application peut utiliser ses classes et interfaces.
+3.  Ajoutez le code compilé de l’objet COM à votre projet. Le code compilé est généralement contenu dans un fichier .dll ou. ocx. Cette étape est nécessaire pour que le compilateur reconnaisse les classes de l’objet COM. Une fois que vous avez ajouté l’objet COM, votre application peut utiliser ses classes et interfaces.
 
 Les rubriques suivantes décrivent comment traduire et utiliser des objets COM dans différents langages de programmation :
 
@@ -35,9 +35,9 @@ Les rubriques suivantes décrivent comment traduire et utiliser des objets COM d
 
 Ces rubriques décrivent les outils et les processus de conversion fournis par les produits de développement Microsoft. Pour obtenir des instructions sur la façon de programmer des objets COM à l’aide des outils de développement créés par d’autres sociétés, consultez la documentation de ces outils de développement.
 
- 
+ 
 
- 
+ 
 
 
 

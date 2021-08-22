@@ -5,12 +5,12 @@ ms.assetid: 9ba03801-8471-43a9-8e24-114a082d5776
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fde3263925a3b8bf4921dd0dfc95842a5dc5b4c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1f54634112b4a6ac3cc1e981421e4a3e33af5e32bae8ab63ec8690f2df12c7a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657989"
 ---
 # <a name="detecting-the-remote-desktop-services-environment"></a>Détection de l’environnement de Services Bureau à distance
 
@@ -33,13 +33,13 @@ BOOL IsRemoteSession(void)
 
 Pour plus d’informations, consultez la page [liaison au moment de l’exécution pour Wtsapi32.dll](run-time-linking-to-wtsapi32-dll.md).
 
-Vous ne devez pas utiliser **GetSystemMetrics (SM \_ REMOTESESSION)** pour déterminer si votre application s’exécute dans une session à distance dans Windows 8 et versions ultérieures, ou Windows Server 2012 et versions ultérieures si la session à distance peut également utiliser les améliorations du processeur graphique à distance RemoteFX avec le protocole RDP (Microsoft Remote Display Protocol). Dans ce cas, **GetSystemMetrics (SM \_ REMOTESESSION)** identifie la session à distance en tant que session locale.
+vous ne devez pas utiliser **GetSystemMetrics (SM \_ REMOTESESSION)** pour déterminer si votre application s’exécute dans une session à distance dans Windows 8 et versions ultérieures, ou Windows Server 2012 et versions ultérieures si la session à distance peut également utiliser le RemoteFX améliorations du processeur graphique à distance (RDP) de Microsoft. Dans ce cas, **GetSystemMetrics (SM \_ REMOTESESSION)** identifie la session à distance en tant que session locale.
 
-Votre application peut vérifier la clé de Registre suivante pour déterminer si la session est une session à distance qui utilise le processeur graphique virtuel RemoteFX. Si une session locale existe, cette clé de Registre fournit l’ID de la session locale.
+votre application peut vérifier la clé de registre suivante pour déterminer si la session est une session à distance qui utilise RemoteFX processeur graphique virtuel. Si une session locale existe, cette clé de Registre fournit l’ID de la session locale.
 
 **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ Control \\ Terminal Server \\ GlassSessionId**
 
-Si l’ID de la session active dans laquelle l’application est exécutée est identique à celui de la clé de Registre, l’application s’exécute dans une session locale. Les sessions identifiées comme session à distance de cette façon incluent les sessions à distance qui utilisent le processeur graphique virtuel RemoteFX. C'est ce que montre l'exemple de code suivant.
+Si l’ID de la session active dans laquelle l’application est exécutée est identique à celui de la clé de Registre, l’application s’exécute dans une session locale. les sessions identifiées comme session à distance de cette façon incluent les sessions à distance qui utilisent RemoteFX processeur graphique virtuel. C'est ce que montre l'exemple de code suivant.
 
 
 ```C++
@@ -106,9 +106,9 @@ IsCurrentSessionRemoteable()
 
 
 
- 
+ 
 
- 
+ 
 
 
 

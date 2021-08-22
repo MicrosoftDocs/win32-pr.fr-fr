@@ -4,12 +4,12 @@ ms.assetid: 40802859-711E-4531-948F-902E8735A977
 title: Attribut MFPROTECTION_CGMSA (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b6ca190d3d306f5e3e342337966a5cfa53ccb77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd2767e2ee77eb2ff1dbe3df005db2242a095aaf695f0071832503210c9b3041
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555169"
 ---
 # <a name="mfprotection_cgmsa-attribute"></a>\_Attribut MFPROTECTION CGMSA
 
@@ -25,8 +25,8 @@ Spécifie la protection du système de gestion générationnel-A (CGMS-A).
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

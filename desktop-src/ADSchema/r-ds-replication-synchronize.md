@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 429bce8708fac9e7ed7142a79ebaec99a1b6899b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ae1cebc1d3940f2d54f97b7b07ece3549125d3148c06e42eccc542cce3f80250
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532019"
 ---
 # <a name="ds-replication-synchronize-extended-right"></a>DS-Replication-synchroniser le droit étendu
 
@@ -40,7 +40,7 @@ Droit étendu nécessaire pour synchroniser la réplication à partir d’un con
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -50,7 +50,7 @@ Droit étendu nécessaire pour synchroniser la réplication à partir d’un con
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 26                                                                                                                               |
 
 
@@ -61,7 +61,7 @@ Droit étendu nécessaire pour synchroniser la réplication à partir d’un con
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 26                                                                                                                               |
 
 
@@ -72,7 +72,7 @@ Droit étendu nécessaire pour synchroniser la réplication à partir d’un con
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 26                                                                                                                               |
 
 
@@ -83,7 +83,7 @@ Droit étendu nécessaire pour synchroniser la réplication à partir d’un con
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 26                                                                                                                               |
 
 
@@ -94,7 +94,7 @@ Droit étendu nécessaire pour synchroniser la réplication à partir d’un con
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 26                                                                                                                               |
 
 
@@ -105,7 +105,7 @@ Droit étendu nécessaire pour synchroniser la réplication à partir d’un con
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 26                                                                                                                               |
 
 
@@ -116,7 +116,7 @@ Droit étendu nécessaire pour synchroniser la réplication à partir d’un con
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 26                                                                                                                               |
 
 

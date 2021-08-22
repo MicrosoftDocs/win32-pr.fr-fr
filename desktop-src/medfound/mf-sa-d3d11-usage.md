@@ -4,12 +4,12 @@ ms.assetid: E9A415FA-74BF-4822-BB0E-D8AAA7D73664
 title: Attribut MF_SA_D3D11_USAGE (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e0609435cf42134f28e8464fd3173412836c8d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c7364b9777d94baa1a6c25aead6631ad6b11dcddc12db83698da04affebe0fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663949"
 ---
 # <a name="mf_sa_d3d11_usage-attribute"></a>\_Attribut d' \_ utilisation d3d11 MF sa \_
 
@@ -19,7 +19,7 @@ Spécifie comment allouer des surfaces Microsoft Direct3D 11 pour des exemples d
 
 **D3d11 \_ UTILISATION** stockée en tant que **UInt32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cet attribut est une valeur d' [**\_ utilisation d3d11**](/windows/win32/api/d3d11/ne-d3d11-d3d11_usage) .
 
@@ -49,8 +49,8 @@ Cet attribut peut être défini sur l’allocateur d’échantillon vidéo, dans
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

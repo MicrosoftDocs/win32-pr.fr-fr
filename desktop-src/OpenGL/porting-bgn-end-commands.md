@@ -11,12 +11,12 @@ keywords:
 - commandes BGN/fin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c25118d4e5050ea22d4b18fab596dfb9c92f562e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c63084b1f05d984fdc19254edaadaca9098d13f974a433f5c6ff7c5d370ec223
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485969"
 ---
 # <a name="porting-bgnend-commands"></a>Portage des commandes de point de terminaison/fin
 
@@ -64,7 +64,7 @@ Avec OpenGL, vous dessinez différents objets géométriques en spécifiant des 
 
 
 
- 
+ 
 
 Pour plus d’informations sur les différences entre les maillages de triangle, les bandes et les fans, consultez [Portage des triangles](porting-triangles.md).
 
@@ -88,17 +88,17 @@ En plus de spécifier des vertex à l’intérieur d’une paire **glBegin**  / 
 
 
 
- 
+ 
 
 > [!Note]
 >
 > Si vous utilisez une fonction OpenGL différente de celle indiquée dans le tableau précédent à l’intérieur d’une paire [**glBegin**](glbegin.md)  /  [**glEnd**](glend.md) , vous obtiendrez des résultats imprévisibles ou éventuellement une erreur.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

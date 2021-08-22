@@ -7,12 +7,12 @@ keywords:
 - AVIGetFromClipboard fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe46f463f22aa2d015d4ffd8496eb95c37053a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 579f7eeed3b5b7397e248bb1c9090bc086cb715c591ec436af5de7d885551c14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687839"
 ---
 # <a name="using-the-clipboard-with-avi-files"></a>Utilisation du presse-papiers avec des fichiers AVI
 
@@ -25,11 +25,11 @@ Vous pouvez effacer un fichier du presse-papiers à l’aide de la fonction [**A
 > [!Note]  
 > Si votre application copie un fichier dans le presse-papiers et que le fichier contient des données de flux susceptibles de changer, vous pouvez créer un fichier de mémoire de flux clonés à l’aide de la fonction [**AVIMakeFileFromStreams**](/windows/desktop/api/Vfw/nf-vfw-avimakefilefromstreams) . Vous pouvez ensuite placer le fichier dans le presse-papiers, puis libérer le fichier d’origine sans l’invalider.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

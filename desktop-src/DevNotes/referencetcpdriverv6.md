@@ -13,12 +13,12 @@ api_type:
 - LibDef
 api_location:
 - Drvref.lib
-ms.openlocfilehash: d0a3f56ea59eb753dc7a49d6f6b1d0c48be8abca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c8fc1a24b812608db74fa16b8dafc323fe48442d61d7d7b35c0d371c0828ad3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571769"
 ---
 # <a name="referencetcpdriverv6-function"></a>ReferenceTcpDriverV6 fonction)
 
@@ -50,11 +50,11 @@ Pointeur vers une structure **d' \_ objet de pilote** . Pour plus d’informatio
 
 Si la fonction réussit, elle retourne l' **état \_ Success**. En cas d’échec, il retourne le code d’état approprié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction ne peut être appelée qu’à partir du mode noyau. L’appelant doit décrémenter le décompte de références en appelant la fonction **ObDereferenceObject** lorsqu’il a fini d’utiliser l’objet.
 
-Cette fonction est implémentée dans Drvref. lib, qui est disponible au téléchargement. Consultez [bibliothèque d’API de référence du pilote réseau Windows](https://www.microsoft.com/downloads/details.aspx?FamilyID=85037e05-f8f8-46b4-a013-3aa6248396c0).
+Cette fonction est implémentée dans Drvref. lib, qui est disponible au téléchargement. consultez [Windows bibliothèque d’API de référence de pilote réseau](https://www.microsoft.com/downloads/details.aspx?FamilyID=85037e05-f8f8-46b4-a013-3aa6248396c0).
 
 ## <a name="requirements"></a>Configuration requise
 

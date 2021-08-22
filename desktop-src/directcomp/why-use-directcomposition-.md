@@ -8,17 +8,17 @@ keywords:
 - Fonctionnalités et avantages de DirectComposition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7ad68f779abc023b7645ed9e66f8af3bf63a140
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe9b67b17869c53b393d8a1f1ecb6230a69322d898f691c21370a5b24befda21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562089"
 ---
 # <a name="why-use-directcomposition"></a>Pourquoi utiliser DirectComposition ?
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique décrit les fonctionnalités et les avantages de Microsoft DirectComposition. Il contient les sections suivantes :
 
@@ -31,7 +31,7 @@ Cette rubrique décrit les fonctionnalités et les avantages de Microsoft Direct
 
 ## <a name="create-a-visually-engaging-user-interface"></a>Créer une interface utilisateur attrayante
 
-DirectComposition vous permet de combiner et d’animer des éléments [*visuels*](directcomposition-glossary.md) pour créer une interface utilisateur visuellement attrayante pour vos applications Windows. Il peut vous aider à donner à votre application une apparence unique, en établissant une identité qui la distingue des autres applications.
+DirectComposition vous permet de combiner et d’animer des éléments [*visuels*](directcomposition-glossary.md) pour créer une interface utilisateur visuellement attrayante pour vos applications basées sur Windows. Il peut vous aider à donner à votre application une apparence unique, en établissant une identité qui la distingue des autres applications.
 
 DirectComposition peut également aider à faciliter l’utilisation de vos applications. Par exemple, vous pouvez l’utiliser pour créer des signaux visuels et des transitions d’écran animées qui montrent les relations entre les différents éléments à l’écran.
 
@@ -41,15 +41,15 @@ DirectComposition est un moteur de composition bitmap à hautes performances qui
 
 ## <a name="combine-bitmaps-from-a-variety-of-sources"></a>Combiner des bitmaps de diverses sources
 
-De nombreuses applications basées sur Windows ont une interface utilisateur qui se compose d’éléments créés par différents frameworks graphiques. Par exemple, une application peut utiliser Windows Forms pour créer une barre d’État, GDI (Windows Graphics Device Interface) pour créer le contenu de la fenêtre principale, Microsoft DirectX pour le contenu graphique, etc. DirectComposition vous permet de combiner le contenu de diverses infrastructures graphiques et de l’afficher dans la même fenêtre de niveau supérieur ou enfant sans avoir à vous soucier de ce qui se passe si le contenu de différents frameworks chevauche.
+de nombreuses applications basées sur les Windows ont une interface utilisateur qui se compose d’éléments créés par différents frameworks graphiques. par exemple, une application peut utiliser Windows Forms pour créer une barre d’état, Windows Graphics Device Interface (GDI) pour créer le contenu de la fenêtre principale, Microsoft DirectX pour le contenu graphique, etc. DirectComposition vous permet de combiner le contenu de diverses infrastructures graphiques et de l’afficher dans la même fenêtre de niveau supérieur ou enfant sans avoir à vous soucier de ce qui se passe si le contenu de différents frameworks chevauche.
 
 ## <a name="memory-savings-though-integration-with-dwm"></a>Économies de mémoire grâce à l’intégration avec DWM
 
-Les compositions et les animations créées par DirectComposition sont passées à un composant intégré de Windows appelé [Gestionnaire de fenêtrage (DWM)](/windows/desktop/dwm/dwm-overview) pour le rendu à l’écran. Par conséquent, aucun composant de rendu spécial ou infrastructure d’interface utilisateur n’est requis sur l’ordinateur.
+les compositions et les animations créées par DirectComposition sont passées à un composant intégré de Windows appelée [Gestionnaire de fenêtrage (DWM)](/windows/desktop/dwm/dwm-overview) pour le rendu à l’écran. Par conséquent, aucun composant de rendu spécial ou infrastructure d’interface utilisateur n’est requis sur l’ordinateur.
 
 ## <a name="keep-what-you-already-have"></a>Conserver ce que vous avez déjà
 
-Le code d’interface utilisateur d’une application Windows existante représente un investissement significatif. Pour l’essentiel, DirectComposition vous permet de composer et d’animer le contenu existant de votre interface utilisateur. Cela signifie que vous pouvez utiliser DirectComposition pour effectuer des mises à jour et des améliorations significatives de l’interface utilisateur de votre application sans avoir à apporter de modifications importantes à votre base de code d’interface utilisateur existante.
+le code d’interface utilisateur d’une application Windows existante représente un investissement significatif. Pour l’essentiel, DirectComposition vous permet de composer et d’animer le contenu existant de votre interface utilisateur. Cela signifie que vous pouvez utiliser DirectComposition pour effectuer des mises à jour et des améliorations significatives de l’interface utilisateur de votre application sans avoir à apporter de modifications importantes à votre base de code d’interface utilisateur existante.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -58,6 +58,6 @@ Le code d’interface utilisateur d’une application Windows existante représe
 [DirectComposition](directcomposition-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

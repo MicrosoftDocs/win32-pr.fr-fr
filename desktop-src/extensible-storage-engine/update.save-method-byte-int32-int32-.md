@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e2c798f22039ced1bab30ecaa9c3f650079be0f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17e586177075a34f3832486a9ace4a919abaad65dad21c0e54eba47b79f207be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603539"
 ---
 # <a name="updatesave-method-byte--int32-int32"></a>Update. Save, méthode (Byte, Int32, Int32)
 
@@ -82,7 +82,7 @@ public void Save(
     
     Retourne la taille réelle du signet.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’enregistrement est la dernière étape de l’exécution d’une instruction INSERT ou Update. La mise à jour commence par appeler la création d’un objet de mise à jour, puis en appelant JetSetColumn ou JetSetColumns une ou plusieurs fois pour définir l’état de l’enregistrement. Enfin, Update est appelé pour terminer l’opération de mise à jour. Les index sont mis à jour uniquement par Update ou et non pendant JetSetColumn ou JetSetColumns.
 

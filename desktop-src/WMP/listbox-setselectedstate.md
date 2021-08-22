@@ -3,7 +3,7 @@ title: LISTBOX. setSelectedState
 description: La méthode setSelectedState sélectionne ou désélectionne l’élément avec l’index spécifié.
 ms.assetid: a72aa461-f378-4612-b580-ecad735931cb
 keywords:
-- LISTBOX. setSelectedState Windows Media Player
+- LISTBOX. setSelectedState Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 95ca3b5a1b81224d99aace1cefb9da0d616eedc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c03702df06aa6faf885ec0d4bda01651f4e6ab2d8163047f0756ef5806b108ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616908"
 ---
 # <a name="listboxsetselectedstate"></a>LISTBOX. setSelectedState
 
@@ -50,7 +50,7 @@ Valeur **booléenne** indiquant si l’élément doit être sélectionné (true)
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cela permet de sélectionner ou de désélectionner plusieurs lignes.
 

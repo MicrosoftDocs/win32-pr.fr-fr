@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 128e92bfc396c1d1c22a2535e7f9f32f24456cac
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fe7bad231327cd6a605dc07ea515f3ebb87e587744b5873c85a1c3aa51313a15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119530059"
 ---
 # <a name="stringsid-syntax"></a>Syntaxe de chaîne (SID)
 
@@ -28,13 +28,13 @@ Chaîne d’octets qui contient un identificateur de sécurité (SID).
 
 | Entrée | Valeur |
 |--------------|-------------------------------------------------------------------|
-| Nom         | String(Sid)                                                       |
+| Name         | String(Sid)                                                       |
 | ID de syntaxe    | 2.5.5.17                                                          |
 | ID OM        | 4                                                                 |
 | Type MAPI    | BINARY                                                            |
 | Type ADS     | \_chaîne d’octets ADSTYPE \_                                            |
 | Type de variante | \_Tableau VT UI1 \| VT \_                                              |
-| SDS, type     | [System. Byte\[\]](/dotnet/api/system.byte) |
+| SDS, type     | [System.Byte\[\]](/dotnet/api/system.byte) |
 
 
 
@@ -42,7 +42,7 @@ Chaîne d’octets qui contient un identificateur de sécurité (SID).
 
 <dl> <dt>
 
-[System. Byte\[\]](/dotnet/api/system.byte)
+[System.Byte\[\]](/dotnet/api/system.byte)
 </dt> </dl>
 
  

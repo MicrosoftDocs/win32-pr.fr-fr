@@ -1,6 +1,6 @@
 ---
 title: Interface IMsRdpClientSecuredSettings2
-description: Définit des propriétés supplémentaires du contrôle ActiveX Bureau à distance qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques.
+description: définit des propriétés supplémentaires du contrôle Bureau à distance ActiveX qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques.
 ms.assetid: dde9824c-7adf-4783-bb1a-fb2bdbb7aead
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8ceaf322b51a4b619f8d73a898c444706d61f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da6ebbc3ef1c9f3fa264e4470377d38efb60fa3f4a38e4f7fe15f502139ef5fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574079"
 ---
 # <a name="imsrdpclientsecuredsettings2-interface"></a>Interface IMsRdpClientSecuredSettings2
 
-Définit des propriétés supplémentaires du contrôle ActiveX Bureau à distance qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques.
+définit des propriétés supplémentaires du contrôle Bureau à distance ActiveX qui sont limitées à des zones de sécurité d’URL Internet Explorer spécifiques.
 
 ## <a name="members"></a>Membres
 

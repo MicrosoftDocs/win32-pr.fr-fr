@@ -11,12 +11,12 @@ keywords:
 - Mode RVBA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b82a2db1bade12a0ff844006a1572cdc3b977dd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a7bd27ae35f11a3fd1fcf775a37852e3a308a4c598ca8152ccf8f63e72e42eff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553819"
 ---
 # <a name="r-opengl"></a>R (OpenGL)
 

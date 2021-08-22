@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: b2d9d728065818b1e94fa436f4d1e9b62dbeb5cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6049684798d6dda9030abd667c28a62f4b19f9b4e66a831ef4c1d2caa880fb1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676869"
 ---
 # <a name="onloadingdll-function"></a>OnLoadingDLL fonction)
 
@@ -105,7 +105,7 @@ Si la fonction réussit, la valeur de retour est S OK, ce \_ qui est identique �
 
 Si la fonction échoue, le MCSVC omet le moniteur spécifié dans toutes ses listes ; après, aucune analyse de ce type ne peut être créée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **OnLoadingDLL** est appelée une fois par MCSVC, lors du premier chargement de la dll. La DLL fournit ensuite les valeurs par défaut qui seront utilisées par le MCSVC lors de la création d’une instance d’analyse.
 

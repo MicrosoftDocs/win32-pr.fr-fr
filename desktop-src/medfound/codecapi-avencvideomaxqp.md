@@ -4,12 +4,12 @@ ms.assetid: 2C02F82B-E645-4C5B-9526-5E130A6E2F67
 title: CODECAPI_AVEncVideoMaxQP, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9bcf23866da5530d2edc1203be359071e5e33e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d95f605dbb647ed96ec40e89870c761400a6d414cd354cb0197bb316bd3cf27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606319"
 ---
 # <a name="codecapi_avencvideomaxqp-property"></a>CODECAPI \_ propriété AVEncVideoMaxQP
 
@@ -23,7 +23,7 @@ Spécifie le nombre maximal de QP pris en charge par l’encodeur.
 
 **CODECAPI \_ AVEncVideoMaxQP**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Encodeurs H. 264/AVC :**
 
@@ -39,8 +39,8 @@ La valeur par défaut est le nombre maximal de QP autorisé par la norme de coda
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

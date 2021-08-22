@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 92299b46c3942b2a8a3304da3b1c41b8ec985e6c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 935b3e2105593959ccfec4f8044374b8c8cf573a5f933218684bca9b1e0c98be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642899"
 ---
 # <a name="win32_classiccomclass-class"></a>\_Classe ClassicCOMClass Win32
 
@@ -254,7 +254,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ ClassicCOMClass** est dérivée de [**Win32 \_ ComClass**](win32-comclass.md).
 

@@ -4,12 +4,12 @@ ms.assetid: 71034362-3f67-49ae-bbbf-d38853ababb3
 title: Message WM_STYLECHANGING (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62e587797404bb361a443a60750d4de5ea6a8924
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26574f000c23c918bc0dfb14c5ddd0afcbc439939d6719b95da8024b4828f30b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705839"
 ---
 # <a name="wm_stylechanging-message"></a>\_Message WM STYLECHANGING
 

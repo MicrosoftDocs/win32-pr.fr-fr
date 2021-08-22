@@ -4,12 +4,12 @@ description: Cet effet applique un masque Alpha à une image. Il a deux entrées
 ms.assetid: fddad107-ec70-3a24-f4ae-9dc4f3716536
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87669608ab75ab7a655c072e174dbcd19df4bb39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed4c9c205f7f19c3fa43d95ee92a70d7d43ed709b40c924165833fab7190e3b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570549"
 ---
 # <a name="alpha-mask-effect"></a>Effet masque Alpha
 
@@ -27,8 +27,8 @@ Cet effet n’a aucune propriété propre à l’effet.
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
+| Client minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
+| Serveur minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 2. h                                  |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                              |
 

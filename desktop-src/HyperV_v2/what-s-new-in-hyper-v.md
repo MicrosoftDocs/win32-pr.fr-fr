@@ -1,19 +1,19 @@
 ---
-description: La version 2 du fournisseur WMI Hyper-V est une nouveauté pour Windows 8 et Windows Server 2012.
+description: la Version 2 du fournisseur WMI Hyper-V est une nouveauté pour les Windows 8 et les Windows Server 2012.
 ms.assetid: A91ACF7A-AFE6-45B6-960C-C4AAA0083735
 title: Nouveautés du fournisseur WMI Hyper-V
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce222fd18955e88b9e33e1b706cf81ef5a806917
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbaab65c08031c291eb11e8f865b77e256e5600deba060e0f8176ec8d13c3714
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754929"
 ---
 # <a name="whats-new-in-hyper-v-wmi-provider"></a>Nouveautés du fournisseur WMI Hyper-V
 
-La version 2 du fournisseur WMI Hyper-V est une nouveauté pour Windows 8 et Windows Server 2012.
+la Version 2 du fournisseur WMI Hyper-V est une nouveauté pour les Windows 8 et les Windows Server 2012.
 
 ## <a name="windows-10-version-1709"></a>Windows 10, version 1709
 
@@ -97,7 +97,7 @@ Propriétés supprimées :
 
 -   [**MSVM \_ VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md): **ParentPackage**
 
-## <a name="windows-10"></a>Windows 10
+## <a name="windows-10"></a>Windows 10
 
 Nouvelles classes :
 
@@ -218,7 +218,7 @@ Windows 8.1 et Windows Server 2012 R2 incluent les nouvelles fonctionnalités de
 -   La propriété **PnpDevicePath** a été ajoutée à la classe [**MSVM \_ MountedStorageImage**](msvm-mountedstorageimage.md) .
 -   Les propriétés **AllowedHashAlgorithms** et **TrustedIssuerCertificateHashes** ont été ajoutées à la [**classe \_ TerminalServiceSettingData MSVM**](msvm-terminalservicesettingdata.md) .
 
-Windows 8.1 et Windows Server 2012 R2 incluent de nouvelles fonctionnalités pour la récupération de la réplication et du basculement d’ordinateurs virtuels.
+Windows 8.1 et Windows Server 2012 R2 incluent de nouvelles fonctionnalités de réplication de machines virtuelles et de récupération de basculement.
 
 -   [**MSVM \_ ReplicationProvider**](msvm-replicationprovider.md) , classe
 -   [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md) , classe

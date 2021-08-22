@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e8c382d0e60b16d85fbc86f7579a0e700d3dd30b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a91908d5cd774f19f32a182934688dc899179d1abba967b7871a646efcfe042
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106514867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513739"
 ---
 # <a name="workingdirectory-exectype-element"></a>Élément WorkingDirectory (execType)
 
@@ -42,7 +42,7 @@ L’élément **WorkingDirectory** est défini par le type complexe [**execType*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de scripts, le répertoire de travail est spécifié par la propriété [**ExecAction. WorkingDirectory**](execaction-workingdirectory.md) .
 
@@ -69,8 +69,8 @@ Le code XML suivant définit une action d’exécution.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

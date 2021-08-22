@@ -4,12 +4,12 @@ ms.assetid: 4263032f-9093-4c7a-9ca0-14f8dc0d1aef
 title: Attribut MF_MT_DV_VAUX_SRC_PACK (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0db4d10c7603a2374366fce83cd6f541e4637ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d0b79e0ba124e0ce3b196c8753777e6fe01b061aefe7c7d1d6b1cb4459deada
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714649"
 ---
 # <a name="mf_mt_dv_vaux_src_pack-attribute"></a>\_Attribut de \_ \_ Pack de \_ src Vaux DV \_ MF
 
@@ -19,9 +19,9 @@ Pack source VAUX (Video auxiliaire) dans un type de média vidéo numérique (DV
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet attribut correspond au membre **dwDVVAuxSrc** de la structure DirectShow [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo) .
+cet attribut correspond au membre **dwDVVAuxSrc** de la structure [**DVINFO**](/windows/win32/api/strmif/ns-strmif-dvinfo) DirectShow.
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
@@ -31,8 +31,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 74113fca944e79e9ecba8f822f73769775631821
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 99ed42acb94f260e229abfe9df428aaa61d3658cb887892b84bb73fd6e7e63e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106535778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635719"
 ---
 # <a name="ideliveryoptimizationfile2setproperty-method"></a>IDeliveryOptimizationFile2 :: SetProperty, méthode
 
@@ -68,8 +68,8 @@ Cette méthode retourne les valeurs HRESULT suivantes.
 
 | Condition requise | Valeur |
 |---------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge  | Applications de bureau Windows 10, version 1803 \[ uniquement\]                                   |
-| Serveur minimal pris en charge  | Windows Server, version 1709, \[ applications de bureau uniquement\]                               |
+| Client minimal pris en charge  | Windows 10, les applications de bureau version 1803 \[ uniquement\]                                   |
+| Serveur minimal pris en charge  | Windows Serveur, version 1709 \[ applications de bureau uniquement\]                               |
 | En-tête                    | Deliveryoptimization. h                                                           |
 | MIDL                       | DeliveryOptimization. idl                                                         |
 | Bibliothèque                   | Dosvc. lib                                                                        |

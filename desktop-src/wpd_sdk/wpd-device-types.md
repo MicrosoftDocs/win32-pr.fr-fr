@@ -1,5 +1,5 @@
 ---
-description: Le \_ type d' \_ énumération types d’appareils wpd décrit les différents types d’appareils mobiles Windows couramment utilisés pour déterminer la classification de base et l’apparence visuelle d’un appareil portable.
+description: le \_ type d' \_ énumération TYPES d’appareils wpd décrit les différents TYPES d’appareils mobiles (wpd) Windows couramment utilisés pour déterminer la classification de base et l’apparence visuelle d’un appareil portable.
 ms.assetid: 51714e0f-e9b7-4474-a8bb-da3875ef5399
 title: Énumération WPD_DEVICE_TYPES (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 3e71acf200a95bba05b7298a5824bfa353e4a90b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 747c4631bc2c24a6550904e36e58a6fc02547bc010da7fa1d08b896c6c17489c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657459"
 ---
 # <a name="wpd_device_types-enumeration"></a>\_Énumération des types d’appareils wpd \_
 
-Le type d’énumération **\_ \_ types d’appareils wpd** décrit les différents types d’appareils mobiles Windows couramment utilisés pour déterminer la classification de base et l’apparence visuelle d’un appareil portable.
+le type d’énumération **\_ \_ TYPES d’appareils wpd** décrit les différents TYPES d’appareils mobiles (wpd) Windows couramment utilisés pour déterminer la classification de base et l’apparence visuelle d’un appareil portable.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -94,7 +94,7 @@ Un périphérique d’enregistrement audio.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Wpd \_ Les \_ types d’appareils** sont lus à l’aide de l’interface [**IPortableDeviceManager**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager) . Les applications WPD peuvent utiliser ces valeurs pour déterminer l’apparence visuelle générique de l’appareil. Autrement dit, une image de caméra est affichée pour les appareils de type caméra, une image de téléphone mobile s’affiche pour les appareils de type téléphone, et ainsi de suite.
 
