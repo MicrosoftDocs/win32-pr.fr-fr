@@ -23,7 +23,7 @@ L’interface [**ICategory**](/windows/desktop/api/Wuapi/nn-wuapi-icategory) dé
 | [**Children**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_children)       | Obtient une collection d’interfaces qui contient les catégories enfants de cette catégorie.                 |
 | [**Description**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_description) | Obtient la description de la catégorie.                                                             |
 | [**Image**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_image)             | Obtient une interface qui contient des informations sur l’image associée à la catégorie. |
-| [**Nom**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_name)               | Obtient le nom localisé de la catégorie.                                                          |
+| [**Name**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_name)               | Obtient le nom localisé de la catégorie.                                                          |
 | [**Commande**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_order)             | Obtient l’ordre d’affichage recommandé de cette catégorie parmi ses catégories sœurs.                 |
 | [**Parent**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_parent)           | Obtient une interface qui décrit la catégorie parente de cette catégorie.                            |
 | [**Type**](/windows/desktop/api/Wuapi/nf-wuapi-icategory-get_type)               | Obtient le type de la catégorie.                                                                    |

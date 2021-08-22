@@ -3,7 +3,7 @@ title: Attribut AcquisitionTimeYear
 description: L’attribut AcquisitionTimeYear est la partie année de la date et de l’heure à laquelle l’élément a été ajouté à la bibliothèque.
 ms.assetid: f2efdaaf-3b1d-4d04-861a-a58895dd0769
 keywords:
-- Attribut AcquisitionTimeYear lecteur Windows Media
+- Lecteur Windows Media de l’attribut AcquisitionTimeYear
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60f325d4bdfe7c1dce8e110ac052e42b07b37245
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2ff9e8ae1e7af18b6831dc264f1dfe86c278585bbf37b3b8c7ee8a169294df6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902839"
 ---
 # <a name="acquisitiontimeyear-attribute"></a>Attribut AcquisitionTimeYear
 
@@ -32,7 +32,7 @@ L’attribut **AcquisitionTimeYear** est la partie année de la date et de l’h
 -   [Éléments radio](radio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

@@ -4,12 +4,12 @@ ms.assetid: d87544f1-a107-440f-8ce0-77d9f2d90578
 title: Propriétés IUpdate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df3f67f95936ea54dd09131e605da9e439caa43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b93db8e7d8d6786e3f3f827d9eb2e9f97c43aae4781edf0a05fcf6d03e8fb1f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859859"
 ---
 # <a name="iupdate-properties"></a>Propriétés IUpdate
 
@@ -19,7 +19,7 @@ L’interface [**IUpdate**](/windows/desktop/api/Wuapi/nn-wuapi-iupdate) défini
 
 | Propriété                                                                           | Description                                                                                                                                                                         |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AutoSelectOnWebSites**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_autoselectonwebsites)                       | Obtient une valeur booléenne qui indique si la mise à jour est marquée comme étant automatiquement sélectionnée par Windows Update.                                                                   |
+| [**AutoSelectOnWebSites**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_autoselectonwebsites)                       | obtient une valeur booléenne qui indique si la mise à jour est marquée comme étant automatiquement sélectionnée par Windows Update.                                                                   |
 | [**BundledUpdates**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_bundledupdates)                                   | Obtient une interface qui contient des informations sur la liste triée des mises à jour regroupées pour la mise à jour.                                                                           |
 | [**CanRequireSource**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_canrequiresource)                               | Obtient une valeur booléenne qui indique si le média source de la mise à jour est requis pour l’installation ou la désinstallation.                                                          |
 | [**Catégories**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_categories)                                           | Obtient une interface qui contient une collection de catégories auxquelles la mise à jour appartient.                                                                                             |
@@ -56,8 +56,8 @@ L’interface [**IUpdate**](/windows/desktop/api/Wuapi/nn-wuapi-iupdate) défini
 | [**SecurityBulletinIDs**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_securitybulletinids)                         | Obtient une collection de valeurs de chaîne qui contiennent les ID de bulletin de sécurité associés à la mise à jour.                                                                      |
 | [**SupersededUpdateIDs**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_supersededupdateids)                         | Obtient une collection d’identificateurs de mise à jour. Cette collection d’identificateurs spécifie les mises à jour qui sont remplacées par la mise à jour.                                                    |
 | [**SupportUrl**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_supporturl)                                           | Obtient un lien hypertexte vers les informations de prise en charge propres à la langue pour la mise à jour.                                                                                                       |
-| [**Intitulé**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_title)                                                     | Obtient le titre localisé de la mise à jour.                                                                                                                                             |
-| [**Entrer**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_type)                                                       | Obtient le type de la mise à jour.                                                                                                                                                        |
+| [**Titre**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_title)                                                     | Obtient le titre localisé de la mise à jour.                                                                                                                                             |
+| [**Type**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_type)                                                       | Obtient le type de la mise à jour.                                                                                                                                                        |
 | [**UninstallationBehavior**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationbehavior)                   | Obtient une interface qui contient les options de désinstallation de la mise à jour.                                                                                                          |
 | [**UninstallationNotes**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationnotes)                         | Obtient les notes de désinstallation de la mise à jour.                                                                                                                                       |
 | [**UninstallationSteps**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate-get_uninstallationsteps)                         | Obtient une interface qui contient les étapes de désinstallation de la mise à jour.                                                                                                            |

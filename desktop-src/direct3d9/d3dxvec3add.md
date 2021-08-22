@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 16fb06c5e7b32506a94a5828fe7f5e1305afff7b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 126eda973a2a8db9cf4431790ad6d0fee466cc71bb6d6b5a4f0af1df402f6a05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119038"
 ---
 # <a name="d3dxvec3add-function"></a>D3DXVec3Add fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est la somme des deux vecteurs 3D.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec3Add** peut être utilisée comme paramètre pour une autre fonction.
 

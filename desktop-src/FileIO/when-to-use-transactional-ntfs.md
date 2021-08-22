@@ -4,12 +4,12 @@ ms.assetid: 886d6075-57e8-47db-aec5-77660d0a53f9
 title: Quand utiliser le NTFS transactionnel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c0a134a8cb5824337022fedf14fe3db3c6f76c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 022f7a67fe6960a8754f768956457afbd04a509bbf9a3c18360b4651e4d9ccda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830129"
 ---
 # <a name="when-to-use-transactional-ntfs"></a>Quand utiliser le NTFS transactionnel
 
@@ -40,7 +40,7 @@ Une application peut utiliser cette fonctionnalité pour permettre aux clients d
 
 Les transactions utilisées avec les systèmes de fichiers traités peuvent également être utilisées avec le registre traité. Les mises à jour apportées au fichier et au Registre sont coordonnées avec une seule transaction.
 
-En utilisant des transactions [Distributed Transaction Coordinator](/previous-versions/windows/desktop/mscs/distributed-transaction-coordinator) (DTC) ou System. transactions, les mises à jour apportées à SQL, MSMQ et d’autres ressources transactionnelles peuvent être coordonnées avec les mises à jour des fichiers traités. Pour plus d’informations, consultez [IKernelTransaction](/previous-versions/windows/desktop/aa344210(v=vs.85))du DTC.
+en utilisant des transactions [Distributed Transaction Coordinator](/previous-versions/windows/desktop/mscs/distributed-transaction-coordinator) (DTC) ou System. transactions, les mises à jour apportées à SQL, MSMQ et d’autres ressources transactionnelles peuvent être coordonnées avec les mises à jour des fichiers traités. Pour plus d’informations, consultez [IKernelTransaction](/previous-versions/windows/desktop/aa344210(v=vs.85))du DTC.
 
 ## <a name="unsupported-scenarios"></a>Scénarios non pris en charge
 

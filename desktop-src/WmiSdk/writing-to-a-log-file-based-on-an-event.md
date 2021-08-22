@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 33cc82925b6afc1690f2cd87607f21e9ea02fdbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 881435986a1097c2ba97160693ed15e28bae3d86019fb703adf6bf1e8b07f8a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049727"
 ---
 # <a name="writing-to-a-log-file-based-on-an-event"></a>Écriture dans un fichier journal basé sur un événement
 
@@ -43,7 +43,7 @@ La procédure suivante ajoute à la procédure de base, est spécifique à la cl
 5.  Pour contrôler qui lit ou écrit dans votre fichier journal, définissez la sécurité sur le répertoire où le journal se trouve au niveau requis.
 6.  Compilez votre fichier MOF à l’aide de [**Mofcomp.exe**](mofcomp.md).
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’exemple de cette section se trouve dans le code MOF, mais vous pouvez créer des instances par programme à l’aide [de l’API de script pour WMI](scripting-api-for-wmi.md) ou [de l’API com pour WMI](com-api-for-wmi.md). L’exemple utilise le LogFileEventConsumer standard pour créer une classe de consommateur nommée LogFileEvent qui écrit une ligne dans le fichier c : \\ logfile. log lorsqu’une instance de la classe LogFileEvent est créée.
 

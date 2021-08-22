@@ -4,12 +4,12 @@ ms.assetid: 3315785e-306f-44d6-ac39-796025a2da3a
 title: Propriété AVEncCommonBufferSize (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c677c483c320c9dceef391f45c5d8bf163eece0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 69eb0c4829d30f3eff0297b7e591686f671d0d67967a65dc76695878d74b454e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794729"
 ---
 # <a name="avenccommonbuffersize-property"></a>Propriété AVEncCommonBufferSize
 
@@ -29,13 +29,13 @@ Cette propriété est en lecture/écriture.
 
 Cette propriété a une plage de valeurs linéaire. Pour accéder à la plage prise en charge, appelez [**ICodecAPI :: GetParameterRange**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange). Les plages de paramètres ne sont pas prises en charge pour les encodeurs de caméra H. 264 UVC 1,5.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour certains formats vidéo, la taille de la mémoire tampon est spécifiée en bits et, pour d’autres, elle est spécifiée en octets. Consultez les remarques ci-dessous pour obtenir des informations spécifiques.
 
 Pour la vidéo MPEG, cette propriété définit la taille de la mémoire tampon du vérificateur de mémoire tampon vidéo (VBV). La taille de la mémoire tampon est en bits.
 
-Pour la vidéo H. 264 et Windows Media Video, la propriété définit la taille du décodeur de référence hypothétique (découverte du domaine). La taille de la mémoire tampon est en octets.
+pour la vidéo H. 264 et Windows Media Video, la propriété définit la taille du décodeur de référence hypothétique (découverte du domaine). La taille de la mémoire tampon est en octets.
 
 Pour les caméras de codage UVC 1,5 H264 –, la valeur CPB envoyée à l’encodeur de l’appareil photo doit être alignée sur 16 bits. La taille de la mémoire tampon est en octets.
 
@@ -47,8 +47,8 @@ Cette propriété est également utilisée avec les [encodeurs de caméra H. 264
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

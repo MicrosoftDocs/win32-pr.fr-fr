@@ -4,12 +4,12 @@ ms.assetid: b9b6ca95-b986-4de7-bd28-994a5125ad05
 title: EncryptMessage (Kerberos) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 9413bc61739d67d7462e7e1257727e0401967ff2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52ca8fd4d0806db717ae29bdd959e472d72f74ca812e93bcaf3929a488dd4fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008337"
 ---
 # <a name="encryptmessage-kerberos-function"></a>EncryptMessage (Kerberos) (fonction)
 
@@ -88,7 +88,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 | <dl> <dt>**s \_ E \_ jeton non valide \_**</dt> </dl>          | Aucune \_ mémoire tampon de type de données SECBUFFER n’a été trouvée.                                                                                                                                                                                          |
 | <dl> <dt>**SEC \_ E \_ QoP \_ non \_ pris en charge**</dt> </dl>     | La confidentialité et l' [*intégrité*](../secgloss/i-gly.md) ne sont pas prises en charge par le [*contexte de sécurité*](../secgloss/s-gly.md). |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **EncryptMessage (Kerberos)** chiffre un message basé sur le message et la [*clé de session*](../secgloss/s-gly.md) à partir d’un contexte de [*sécurité*](../secgloss/s-gly.md).
 
@@ -112,8 +112,8 @@ Pour des performances optimales, les structures *pMessage* doivent être alloué
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]          |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]          |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\] |
 | En-tête                   | SSPI. h (include Security. h)               |
 | Bibliothèque                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |

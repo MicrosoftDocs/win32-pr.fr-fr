@@ -3,7 +3,7 @@ title: BOUTON. curseur
 description: L’attribut Cursor spécifie ou récupère le curseur qui apparaît lorsque le pointeur de la souris est positionné sur le bouton.
 ms.assetid: 19bdbb23-00e2-45cf-b67d-9ada036b9c3b
 keywords:
-- BUTTON. curseur lecteur Windows Media
+- BUTTON. cursor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2641491a5a73498da2c43fd74d4187b5594e177
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa98c91080bc6d108e8ab62f0de99758c4eb6ba4229a83f8ded8b22bb2ec9695
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123789"
 ---
 # <a name="buttoncursor"></a>BOUTON. curseur
 
@@ -50,7 +50,7 @@ Cet attribut est une **chaîne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le système ne reconnaît pas la valeur de curseur spécifiée, la valeur de curseur reste à la valeur précédemment définie.
 

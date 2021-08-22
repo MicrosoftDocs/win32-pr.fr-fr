@@ -3,7 +3,7 @@ title: Attribut SourceURL
 description: L’attribut SourceURL est l’adresse de l’élément.
 ms.assetid: fcd47515-2b42-491d-98f1-48000056089e
 keywords:
-- Attribut SourceURL lecteur Windows Media
+- Lecteur Windows Media de l’attribut SourceURL
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e56dd294c733d00721d549185759a6a6759b2938
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: adba0a1ad16995f322fb31214477e368853351c39912d87469aededf0b09e42d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123049"
 ---
 # <a name="sourceurl-attribute"></a>Attribut SourceURL
 
@@ -32,7 +32,7 @@ L’attribut **SourceURL** est l’adresse de l’élément.
 -   [Éléments radio](radio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

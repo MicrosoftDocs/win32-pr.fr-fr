@@ -1,5 +1,5 @@
 ---
-title: Meilleures pratiques pour l’utilisation de groupes sécurisés
+title: meilleures pratiques pour l’utilisation de Coffre des tableaux
 description: De nombreuses méthodes d’interface de Microsoft UI Automation \ 32 ; L’API prend des arguments appelés tableaux sécurisés, du type de données SAFEARRAY. Cette rubrique décrit les meilleures pratiques pour l’utilisation de tableaux sécurisés dans une application UI Automation.
 ms.assetid: 07e87cfd-d565-41b5-a68d-b99dd191fa95
 keywords:
@@ -13,14 +13,14 @@ keywords:
 - types de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b12ade30398f8fbeb43336707f66a0709dfab83d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 39ea76358f3a547b4364d01f56e850d0cbb523fc35dfbaa2870448f70c6ad5ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106540765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098119"
 ---
-# <a name="best-practices-for-using-safe-arrays"></a>Meilleures pratiques pour l’utilisation de groupes sécurisés
+# <a name="best-practices-for-using-safe-arrays"></a>meilleures pratiques pour l’utilisation de Coffre des tableaux
 
 De nombreuses méthodes d’interface de l’API d’automatisation d’interface utilisateur de Microsoft acceptent des arguments appelés tableaux sécurisés, du type de données [**SAFEARRAY**](/windows/win32/api/oaidl/ns-oaidl-safearray) . Cette rubrique décrit les meilleures pratiques pour l’utilisation de tableaux sécurisés dans une application UI Automation.
 
@@ -42,7 +42,7 @@ L’interface [**IUIAutomation**](/windows/desktop/api/UIAutomationClient/nn-uia
 
 
 
- 
+ 
 
 ## <a name="providers"></a>Fournisseurs
 
@@ -61,6 +61,6 @@ Un fournisseur doit implémenter un certain nombre de méthodes d’interface ap
 [Notions de base d’UI Automation](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

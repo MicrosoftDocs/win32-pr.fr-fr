@@ -3,7 +3,7 @@ title: NM_SETCURSOR le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle que le contrôle définit le curseur en réponse à un \_ message WM SETCURSOR. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 8d70563f-05a3-4116-b686-6d9063940fae
 keywords:
-- Contrôles Windows de code de notification NM_SETCURSOR
+- NM_SETCURSOR les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6cc3c48a0224efec0c8ab8844a3e7f234a9ba51
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2b41f8c0b713e48bfef3b4d447666d92ac87cd3180f3f0e02ee323d75ceececc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834469"
 ---
 # <a name="nm_setcursor-notification-code"></a>\_Code de notification SETCURSOR nm
 
@@ -55,8 +55,8 @@ Retournez zéro pour permettre au contrôle de définir le curseur ou une valeur
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

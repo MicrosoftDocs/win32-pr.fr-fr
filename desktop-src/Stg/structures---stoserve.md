@@ -4,12 +4,12 @@ description: Le coemballage regroupe la couleur, la largeur et les coordonnées 
 ms.assetid: 25e68c39-5306-4ad6-85dd-a8a5e256abf0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9868f38d7915185b8d3511bd1bf6faa9c7a1e1b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f81b46f2f0a992f27ed405361734fe53db98cf9272697b88866451ef1d7d4b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796889"
 ---
 # <a name="structures---stoserve"></a>Structures-StoServe
 
@@ -74,9 +74,9 @@ Bien que cela ne soit pas utilisé dans les exemples **StoServe** / **StoClien**
 
 La date de création et les dates de dernière modification ne sont pas incluses dans les propriétés de ce document, car l’interface [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) utilisée pour accéder aux fichiers composés gère ces informations.
 
- 
+ 
 
- 
+ 
 
 
 

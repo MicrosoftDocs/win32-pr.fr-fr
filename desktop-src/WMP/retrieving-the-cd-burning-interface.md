@@ -3,24 +3,24 @@ title: Récupération de l’interface de gravure de CD
 description: Récupération de l’interface de gravure de CD
 ms.assetid: d52f7b27-a327-4656-8dc2-0b075264d295
 keywords:
-- Lecteur Windows Media, gravure de CD
-- Windows Media Player Object Model, gravage de CD
+- Lecteur Windows Media, gravage de CD
+- modèle d’objet Lecteur Windows Media, gravage de CD
 - modèle d’objet, gravage de CD
-- Contrôle ActiveX du lecteur Windows Media, gravure de CD
-- Contrôle ActiveX, gravage de CD
-- Windows Media Player Mobile contrôle ActiveX, gravure de CD
-- Lecteur Windows Media Mobile, gravure de CD
+- contrôle de ActiveX Lecteur Windows Media, gravure de CD
+- contrôle de ActiveX, gravure de CD
+- Lecteur Windows Media contrôle de ActiveX Mobile, gravage de CD
+- Lecteur Windows Media Mobile, gravage de CD
 - Gravage de CD, récupération de l’interface IWMPCdromCollection
 - gravure de CD, récupération de l’interface IWMPCdromCollection
 - Interface IWMPCdromCollection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b63763f9dd99bbaf88ae099edb53ba072cd1a25e
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 84013d5df4244fc30c9cb52e3447d15f60e559befe1223f0964934dd8ca1e1cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104030921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123199"
 ---
 # <a name="retrieving-the-cd-burning-interface"></a>Récupération de l’interface de gravure de CD
 
@@ -91,9 +91,9 @@ HRESULT CMainDlg::GetCdromBurnInterface (long lIndex)
 [**Interface IWMPCdromCollection**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

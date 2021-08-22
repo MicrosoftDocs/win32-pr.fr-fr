@@ -4,20 +4,20 @@ ms.assetid: c9ddd3b7-f017-4880-976a-c879a40dc17b
 title: Codes de retour courants du service de disque virtuel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d23b2ca000461f181be17b552630420cf30a6e50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59382ae4f61d3dc1f12d745f7f7608e9c55ddcb3c65792f9303cdc2b9243f531
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864529"
 ---
 # <a name="virtual-disk-service-common-return-codes"></a>Codes de retour courants du service de disque virtuel
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 
 
-| Code d'erreur                                                     | Valeur       | Description                                                                                                                                                                                                                                  |
+| Code d’erreur                                                     | Valeur       | Description                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | VDS \_ E \_ non \_ pris en charge                                         | 0x80042400L | L’opération n’est pas prise en charge par l’objet.                                                                                                                                                                                                |
 | \_échec de \_ l’initialisation de VDS E \_                                    | 0x80042401L | Échec de l’initialisation du VDS ou du fournisseur.                                                                                                                                                                                                    |
@@ -48,7 +48,7 @@ ms.locfileid: "106521201"
 | l' \_ objet VDS E \_ \_ existe                                         | 0x8004241DL | L'objet existe déjà.                                                                                                                                                                                                                   |
 | \_ \_ cache du fournisseur VDS E \_ \_ endommagé                               | 0x8004241FL | Le cache pour un fournisseur est endommagé.                                                                                                                                                                                                         |
 | échec de l’appel de la \_ méthode VDS E \_ DMADMIN \_ \_ \_                          | 0x80042420L | Échec d’un appel de méthode au service d’administration de gestion des disques logiques.                                                                                                                                                                  |
-| \_Erreur du fournisseur VDS S lors \_ \_ \_ du chargement \_ du cache                        | 0x00042421L | Le fournisseur a rencontré des erreurs lors du chargement du cache. Pour plus d’informations, consultez le journal des événements Windows.                                                                                                                                    |
+| \_Erreur du fournisseur VDS S lors \_ \_ \_ du chargement \_ du cache                        | 0x00042421L | Le fournisseur a rencontré des erreurs lors du chargement du cache. pour plus d’informations, consultez le journal des événements Windows.                                                                                                                                    |
 | nom de l' \_ \_ appareil vol du fournisseur VDS E \_ \_ \_ \_ \_ introuvable                | 0x80042422L | Impossible de récupérer le format de l’appareil du chemin d’accès du volume.                                                                                                                                                                               |
 | \_notification de \_ \_ corruption endommagée VDS E DMADMIN \_                         | 0x80042424L | Une notification endommagée a été envoyée à partir du service d’administration du gestionnaire de disque logique.                                                                                                                                                        |
 | \_système de fichiers VDS E \_ incompatible \_ \_                             | 0x80042425L | Le système de fichiers est incompatible avec l’opération spécifiée.                                                                                                                                                                                |
@@ -85,7 +85,7 @@ ms.locfileid: "106521201"
 | \_ \_ le volume E VDS n’est \_ pas \_ un \_ miroir                                 | 0x80042445L | Le volume n’est pas un miroir.                                                                                                                                                                                                                  |
 | VDS \_ E \_ aucune \_ étendue \_ pour le \_ volume                               | 0x80042446L | Aucune étendue n’a été trouvée pour le volume.                                                                                                                                                                                                        |
 | le \_ disque VDS E \_ \_ n’est pas \_ chargé dans le \_ \_ cache                           | 0x80042447L | Le disque migré n’a pas pu se charger dans le cache.                                                                                                                                                                                               |
-| \_ \_ erreur interne VDS \_ E                                        | 0x80042448L | VDS a rencontré une erreur interne. Pour plus d’informations, consultez le journal des événements Windows.                                                                                                                                                          |
+| \_ \_ erreur interne VDS \_ E                                        | 0x80042448L | VDS a rencontré une erreur interne. pour plus d’informations, consultez le journal des événements Windows.                                                                                                                                                          |
 | le \_ disque VDS E \_ \_ n’est pas \_ en ligne                                      | 0x8004244BL | Un ou plusieurs des disques spécifiés ne sont pas en ligne.                                                                                                                                                                                           |
 | \_disque VDS \_ E \_ \_ utilisé \_ par \_ volume                              | 0x8004244CL | Une ou plusieurs étendues du disque sont déjà utilisées par le volume.                                                                                                                                                                        |
 | \_volume E \_ VDS \_ non \_ monté                                   | 0x8004244FL | Le volume n’est pas monté.                                                                                                                                                                                                                   |

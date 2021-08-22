@@ -3,7 +3,7 @@ title: MpManagerStatusQueryEx, fonction (MpClient. h)
 description: Retourne des informations d’État sur les différents composants du gestionnaire de protection contre les programmes malveillants. | MpManagerStatusQueryEx, fonction (MpClient. h)
 ms.assetid: 98088AB9-C7CF-46A1-B444-2C0EF882AA66
 keywords:
-- Fonctionnalités d’environnement Windows hérités de la fonction MpManagerStatusQueryEx
+- fonctionnalités d’environnement Windows hérités de la fonction MpManagerStatusQueryEx
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca541b5f1aff2e0ba03b88d69c451891c3a174bb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d8d7e3e6135a5f01691528480b760cfea422c78b9c032219f6e100da5ebd929d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961109"
 ---
 # <a name="mpmanagerstatusqueryex-function"></a>MpManagerStatusQueryEx fonction)
 
@@ -94,8 +94,8 @@ Si la fonction échoue, la valeur de retour est un code **HRESULT** en échec. L
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

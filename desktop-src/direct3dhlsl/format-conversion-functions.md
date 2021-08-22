@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 355fb59aa6a94e144daf05942b40d3f685daff51
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: f1158a45ce2fc5df0bdc762a5d422492522886b8025c940e807c80707be173e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107222877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672919"
 ---
 # <a name="format-conversion-functions-hlsl-reference"></a>Fonctions de conversion de format (référence HLSL)
 
@@ -23,7 +23,7 @@ La section contient les fonctions de conversion de format utilisées dans les nu
 -   [Fonctions de convertisseur](#converter-functions)
 -   [Rubriques connexes](#related-topics)
 
-> L’en-tête D3DX_DXGIFormatConvert. inl est fourni dans le SDK DirectX hérité et s’appuyait sur XNAMath pour la prise en charge de C++. Il est également inclus dans le package NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) . La dernière version utilise DirectXMath pour la prise en charge de C++, et toutes les fonctions sont définies dans l’espace de noms **DirectX** C++.
+> L’en-tête D3DX_DXGIFormatConvert. inl est fourni dans le SDK DirectX hérité et s’appuyait sur XNAMath pour la prise en charge de C++. il est également inclus dans le package de NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) . La dernière version utilise DirectXMath pour la prise en charge de C++, et toutes les fonctions sont définies dans l’espace de noms **DirectX** C++.
 
 ## <a name="converter-functions"></a>Fonctions de convertisseur
 
@@ -162,7 +162,7 @@ La section contient les fonctions de conversion de format utilisées dans les nu
 
 <dl> <dt>
 
-[Référence de conversion de format Inline](inline-format-conversion-reference.md)
+[Référence de conversion de format inline](inline-format-conversion-reference.md)
 </dt> <dt>
 
 [Décompresser et compresser le \_ format DXGI pour la modification des images In-Place](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)

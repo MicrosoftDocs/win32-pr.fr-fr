@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 02fbc32557ab29c66849a4249d26cc2ca41564e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ce39d442b48f32c2aafcd6e24c1c214dce82a19435b6b36bce65d5426161859
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050067"
 ---
 # <a name="swbemeventsourcenextevent-method"></a>Méthode SWbemEventSource. NextEvent
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_DisketteDrive
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17bd0e1a13c21f1c90eb7fe036cdaa9b917d8ff6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d861414290d3c0e657e3094c6d47d0dcf5125884683995ecfdfb116e6d2df778
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080743"
 ---
 # <a name="cim_diskettedrive-methods"></a>\_Méthodes DISKETTEDRIVE CIM
 

@@ -1,23 +1,23 @@
 ---
-description: Les utilisateurs et les applications avec des privilèges d’administrateur peuvent récupérer et modifier les informations de liste de sources de données, d’URL et de réseau pour Windows Installer les applications et les correctifs sur le système.
+description: les utilisateurs et les applications avec des privilèges d’administrateur peuvent récupérer et modifier les informations de liste de sources de données, d’URL et de réseau pour Windows Installer les applications et les correctifs sur le système.
 ms.assetid: e8c66bad-f594-4926-b3b4-c8b245dcfa83
 title: Gestion des sources d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7fc45253af20ae5f9792ee3a5ec7dd318c80295
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e7555bc9595ba10d9ce569c15c2a8138a05348e503d86a025f0cfe1783843fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013067"
 ---
 # <a name="managing-installation-sources"></a>Gestion des sources d’installation
 
-Les utilisateurs et les applications avec des privilèges d’administrateur peuvent récupérer et modifier les informations de liste de sources de données, d’URL et de réseau pour Windows Installer les applications et les correctifs sur le système.
+les utilisateurs et les applications avec des privilèges d’administrateur peuvent récupérer et modifier les informations de liste de sources de données, d’URL et de réseau pour Windows Installer les applications et les correctifs sur le système.
 
-**Windows Installer 2,0 :** Non pris en charge. Les administrateurs ne peuvent pas lire, réorganiser ou remplacer des entrées dans la liste source et ne peuvent pas modifier ou récupérer les propriétés de la liste source. Il est possible de gérer des sources réseau, mais pas des sources d’URL ou de médias. Les administrateurs peuvent uniquement gérer des listes de sources pour les applications par ordinateur ou les applications installées en fonction de l’utilisateur actuel. Cela empêche les administrateurs qui utilisent des versions antérieures à Windows Installer version 3,0 de gérer les informations de liste source pour tous les utilisateurs du système.
+**Windows Installer 2,0 :** Non pris en charge. Les administrateurs ne peuvent pas lire, réorganiser ou remplacer des entrées dans la liste source et ne peuvent pas modifier ou récupérer les propriétés de la liste source. Il est possible de gérer des sources réseau, mais pas des sources d’URL ou de médias. Les administrateurs peuvent uniquement gérer des listes de sources pour les applications par ordinateur ou les applications installées en fonction de l’utilisateur actuel. cela empêche les administrateurs qui utilisent des versions antérieures à Windows Installer version 3,0 de gérer les informations de liste source pour tous les utilisateurs du système.
 
-**Windows Installer 3,0 et versions ultérieures :** Les utilisateurs et les applications qui possèdent des privilèges d’administrateur peuvent récupérer et modifier les informations de liste source pour les applications Windows Installer et les correctifs installés sur le système pour tous les utilisateurs. Les fonctions de liste source peuvent être utilisées pour gérer des listes sources et des propriétés de liste source pour les sources de réseau, d’URL et de média. Le programme d’installation peut réorganiser les listes de sources à partir d’un processus externe.
+**Windows Installer 3,0 et versions ultérieures :** les utilisateurs et les applications qui possèdent des privilèges d’administrateur peuvent récupérer et modifier les informations de liste source pour les applications Windows Installer et les correctifs installés sur le système pour tous les utilisateurs. Les fonctions de liste source peuvent être utilisées pour gérer des listes sources et des propriétés de liste source pour les sources de réseau, d’URL et de média. Le programme d’installation peut réorganiser les listes de sources à partir d’un processus externe.
 
 Les utilisateurs et les applications qui ont des privilèges d’administrateur peuvent lire et modifier les types suivants d’informations de liste source :
 

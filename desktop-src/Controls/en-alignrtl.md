@@ -3,7 +3,7 @@ title: Code de notification EN_ALIGNRTL (RichEdit. h)
 description: Avertit une fenêtre parente d’un contrôle RichEdit que la direction du paragraphe est passée de droite à gauche. Un contrôle RichEdit envoie ce code de notification sous la forme d’un \_ message de commande WM.
 ms.assetid: 2db5fd49-9ecd-49d7-8199-1706648255ca
 keywords:
-- Contrôles Windows de code de notification EN_ALIGNRTL
+- EN_ALIGNRTL les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fac2adaa629d00ef940f02f1ed69eb778cdc7813
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 179b9a610d2d834081ddd246ea4d649c099a8df3a62d21815c825bd55701dad2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799849"
 ---
 # <a name="en_alignrtl-notification-code"></a>\_Code de notification en ALIGNRTL
 
@@ -63,8 +63,8 @@ Ce code de notification ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

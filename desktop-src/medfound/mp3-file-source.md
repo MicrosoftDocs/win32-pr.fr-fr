@@ -4,12 +4,12 @@ ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: Source du fichier MP3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89b5649f1bdbc9d9b3dfa0af2f04878dfa64852af85ff8e829d4d2d4c4d20d8e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5c95e54319fb189fa3bcc366b554b4d6555b2f4a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240104"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479835"
 ---
 # <a name="mp3-file-source"></a>Source du fichier MP3
 
@@ -61,41 +61,14 @@ En outre, il expose les interfaces suivantes par le biais de [**IMFGetService**]
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>GUID du service</th>
-<th>Interface</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>MF_METADATA_PROVIDER_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider"><strong>IMFMetadataProvider</strong></a></td>
-</tr>
-<tr class="even">
-<td><strong>MF_PROPERTY_HANDLER_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a>
-<blockquote>
-[!Note]<br />
-Consultez <a href="shell-metadata-providers.md">fournisseurs de métadonnées de Shell</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol"><strong>IMFRateControl</strong></a></td>
-</tr>
-<tr class="even">
-<td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport"><strong>IMFRateSupport</strong></a></td>
-</tr>
-</tbody>
-</table>
+
+| GUID du service | Interface | 
+|--------------|-----------|
+| <strong>MF_METADATA_PROVIDER_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider"><strong>IMFMetadataProvider</strong></a> | 
+| <strong>MF_PROPERTY_HANDLER_SERVICE</strong> | <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a><blockquote>[!Note]<br />Consultez <a href="shell-metadata-providers.md">fournisseurs de métadonnées de Shell</a>.</blockquote><br /><br /> | 
+| <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol"><strong>IMFRateControl</strong></a> | 
+| <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport"><strong>IMFRateSupport</strong></a> | 
+
 
 
 

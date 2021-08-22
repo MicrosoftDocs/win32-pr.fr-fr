@@ -3,9 +3,9 @@ title: IWMPClosedCaption propriété SAMIStyle
 description: La propriété SAMIStyle obtient ou définit le style de sous-titrage.
 ms.assetid: 0b1f92c6-b659-4ade-90c8-62a06e475f5c
 keywords:
-- Propriété SAMIStyle lecteur Windows Media
-- Propriété SAMIStyle lecteur Windows Media, interface IWMPClosedCaption
-- Interface IWMPClosedCaption lecteur Windows Media, propriété SAMIStyle
+- Lecteur Windows Media de la propriété SAMIStyle
+- Lecteur Windows Media de la propriété SAMIStyle, interface IWMPClosedCaption
+- Lecteur Windows Media de l’interface IWMPClosedCaption, propriété SAMIStyle
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bd0b48fc1807d6ca1854651c7f222183a845be3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2cede8964636073c393cb34bfa1be22855467f4cb243834bd1e11a4ffc492665
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031419"
 ---
 # <a name="iwmpclosedcaptionsamistyle-property"></a>IWMPClosedCaption :: SAMIStyle, propriété
 
@@ -48,7 +48,7 @@ Public Property SAMIStyle As System.String
 
 **System. String** qui est le nom spécifié dans l’identificateur de style d’un fichier sami.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un fichier SAMI peut contenir plusieurs définitions de style de format. Les styles SAMI sont définis entre les balises <STYLE> et </STYLE> dans le fichier sami. Un style est défini avec une chaîne de texte précédée d’un \# caractère. Par exemple :
 

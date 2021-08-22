@@ -4,12 +4,12 @@ ms.assetid: f3a2cd5a-bc3a-4aeb-8606-7b8aa6afb105
 title: Plusieurs descripteurs sur un seul socket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2356f24a69d132f87e0f6543f61509ff12acba5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05e402d19c3306158a905f2e9ddc263649e52d214a3d9441509e7a277f7d2800
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121399"
 ---
 # <a name="multiple-handles-to-a-single-socket"></a>Plusieurs descripteurs sur un seul socket
 

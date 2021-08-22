@@ -19,12 +19,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d867185d8ce07a54a47eb5ea7591ec8d68a11059
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 287dc3d80370f812b6ee721b9556f906df289c67a17048aa326efc3b80de5954
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077059"
 ---
 # <a name="microsoftdns_rttype-class"></a>MicrosoftDNS \_ RTType, classe
 
@@ -83,7 +83,7 @@ Nom de domaine complet spécifiant un hôte qui servira de intermédiaire pour a
 
 </dd> <dt>
 
-**Relatives**
+**Préférence**
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt16**

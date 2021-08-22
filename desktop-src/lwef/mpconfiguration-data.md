@@ -3,8 +3,8 @@ title: Structure MPCONFIGURATION_DATA (MpClient. h)
 description: Contient des données sur les modifications de configuration, y compris les anciennes et nouvelles valeurs.
 ms.assetid: AB70B1C0-C148-44BC-8C0E-CC5D2A66BCA5
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPCONFIGURATION_DATA
-- PMPCONFIGURATION_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPCONFIGURATION_DATA
+- PMPCONFIGURATION_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bb54ae4e323f2144dd25c52005d8484b0a207e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 192cb4d2e35d1b471ef92fb976535bb1e6ed733e2f29ebf86d357f722904514c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114579"
 ---
 # <a name="mpconfiguration_data-structure"></a>\_Structure de données MPCONFIGURATION
 
@@ -82,7 +82,7 @@ Taille des données précédentes, en octets.
 **pPreviousData**
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
 </dd> <dd>
 
@@ -90,7 +90,7 @@ Pointeur vers les données précédentes.
 
 </dd> <dt>
 
-_ *CurrentDataSize**
+**CurrentDataSize**
 </dt> <dd>
 
 Type : **DWORD**
@@ -118,8 +118,8 @@ Pointeur vers de nouvelles données.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

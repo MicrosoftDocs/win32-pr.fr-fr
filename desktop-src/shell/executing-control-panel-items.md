@@ -4,12 +4,12 @@ ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: Exécution des éléments du panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc1e2bc84ce5225176585f2da221fab6110ce79f9ff68dfc83b3c66125d623d4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bb941bb7542b0d786d682e6626e8d78faea8bd7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118224275"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478415"
 ---
 # <a name="executing-control-panel-items"></a>Exécution des éléments du panneau de configuration
 
@@ -139,51 +139,9 @@ Lorsque vous utilisez la fonction [**WinExec**](/windows/win32/api/winbase/nf-wi
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>control.exe Desktop</td>
-<td>Lance la fenêtre <strong>propriétés d’affichage</strong> .
-<blockquote>
-[!Note]<br />
-Les éditions Starter et Basic ne prennent pas en charge cette commande.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Couleur de control.exe</td>
-<td>Ouvre la fenêtre <strong>propriétés d’affichage</strong> avec l’onglet <strong>apparence</strong> présélectionné.</td>
-</tr>
-<tr class="odd">
-<td>Date/heure de control.exe</td>
-<td>Lance la fenêtre des <strong>Propriétés de date et d’heure</strong> .</td>
-</tr>
-<tr class="even">
-<td>control.exe international</td>
-<td>Lance la fenêtre <strong>Options régionales et linguistiques</strong> .</td>
-</tr>
-<tr class="odd">
-<td>control.exe souris</td>
-<td>Lance la fenêtre Propriétés de la <strong>souris</strong> .</td>
-</tr>
-<tr class="even">
-<td>Clavier control.exe</td>
-<td>Lance la fenêtre <strong>Propriétés du clavier</strong> .</td>
-</tr>
-<tr class="odd">
-<td>Imprimantes control.exe</td>
-<td>Affiche le dossier <strong>imprimantes et télécopieurs</strong> .</td>
-</tr>
-<tr class="even">
-<td>Polices de control.exe</td>
-<td>Affiche le dossier <strong>polices</strong> .</td>
-</tr>
-</tbody>
-</table>
+
+| | | control.exe Desktop | Lance la fenêtre <strong>propriétés d’affichage</strong> .<blockquote>[!Note]<br />Les éditions Starter et Basic ne prennent pas en charge cette commande.</blockquote><br /> | | Couleur de control.exe | Ouvre la fenêtre <strong>propriétés d’affichage</strong> avec l’onglet <strong>apparence</strong> présélectionné. | | Date/heure de la control.exe | Lance la fenêtre des <strong>Propriétés de date et d’heure</strong> . | | control.exe international | Lance la fenêtre <strong>Options régionales et linguistiques</strong> . | | control.exe de la souris | Lance la fenêtre Propriétés de la <strong>souris</strong> . | | Clavier control.exe | Lance la fenêtre <strong>Propriétés du clavier</strong> . | | Imprimantes control.exe | Affiche le dossier <strong>imprimantes et télécopieurs</strong> . | | Polices de control.exe | Affiche le dossier <strong>polices</strong> . | 
+
 
 
 

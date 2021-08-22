@@ -4,21 +4,21 @@ description: Élément de format VML VML
 ms.assetid: 4e0288c9-ab0f-4399-982a-97dcf16f4ec4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbb35eef0a3c987fe1e6ec35d15701236ae0af1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0632919a141ae04f80b0b6cd6782ea907aa8cfe1d720e599964110c038f3998e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099089"
 ---
 # <a name="vml-shapetype-element"></a>Élément de format VML VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit une forme qui peut être utilisée pour créer d’autres formes.
 
@@ -32,7 +32,7 @@ L’attribut suivant modifie un **Typedeforme**.
 
 
 
- 
+ 
 
 **Remarques**
 
@@ -46,6 +46,6 @@ Les attributs de positionnement CSS (tels que **haut**, **gauche**, etc.) ne son
 
 Pour utiliser cet élément, créez un **Typedeforme** avec un attribut d' [ID](id-attribute--vml.md) spécifique. Créez ensuite une **forme** et référencez le **Typedeforme** avec l’attribut **type** . Pour plus d’informations, consultez l’attribut [type](type-attribute--shape--vml.md) .
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 0c396d54-cb2e-4b07-999f-3f4001db2a02
 title: Utilisation d’événements d’API de capteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a54fcb14138c1b20470a2b716e5cce86235c3102
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ba26e99ef039808ea8c3d6bee9ac8a5b0d6b1a231fb2a4b62c2bb05a2489099
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126499"
 ---
 # <a name="using-sensor-api-events"></a>Utilisation d’événements d’API de capteur
 

@@ -4,12 +4,12 @@ ms.assetid: 86c0c553-af35-4ad1-8918-63d9e4577c73
 title: Affichage des sous-titres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82ff2d6d213259ccce6e9b02272d0c9db3ad7b71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f52288b1c4fa5c43f7e0419d81bd9727a4db86848d368b600e1d713c53dc1593
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903427"
 ---
 # <a name="viewing-closed-captions"></a>Affichage des sous-titres
 
@@ -40,9 +40,9 @@ Ce graphique utilise les filtres suivants pour l’affichage des sous-titres :
 
 -   [Convertisseur de tee/récepteur à récepteur](tee-sink-to-sink-converter.md). Accepte les informations VBI du filtre de capture et les divise en flux distincts pour chaque service de données présent sur le signal. Microsoft fournit des codecs VBI pour les sous-titres, les NABTS et le Teletext standard (WST).
 -   [Décodeur CC](cc-decoder-filter.md). Décode les données CC à partir des formes d’onde VBI échantillonnées fournies par le filtre de capture.
--   [Décodeur de ligne 21](line-21-decoder-filter.md). Traduit les paires d’octets CC et dessine le texte de légende sur les bitmaps. Le filtre en aval (dans ce cas, le mélangeur de superposition) recouvre les bitmaps dans la vidéo.
+-   [Décodeur de ligne 21](line-21-decoder-filter.md). Traduit les paires d’octets CC et dessine le texte de légende sur les bitmaps. le filtre en aval (dans ce cas, la superposition Mixer) recouvre les bitmaps dans la vidéo.
 
-La méthode [**RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) du générateur de graphiques de capture ajoute automatiquement ces filtres. Si le filtre de capture a un pin CC au lieu d’un code confidentiel VBI, le code PIN CC est directement connecté au filtre de décodeur de ligne 21.
+la méthode [**RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) de Capture Graph Builder ajoute automatiquement ces filtres. Si le filtre de capture a un pin CC au lieu d’un code confidentiel VBI, le code PIN CC est directement connecté au filtre de décodeur de ligne 21.
 
 > [!Note]  
 > Si vous utilisez le filtre de convertisseur de mixage vidéo (VMR) pour le rendu, utilisez le filtre de décodeur de ligne 21 2. Ce filtre a les mêmes fonctionnalités que le décodeur de ligne 21, mais le CLSID est CLSID \_ Line21Decoder2.
@@ -50,7 +50,7 @@ La méthode [**RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegra
  
 
 > [!Note]  
-> Le filtre de décodage CC a été supprimé de Windows Vista. Les nouvelles applications doivent utiliser le filtre VBICodec, qui est documenté dans la documentation Microsoft TV technologies.
+> le filtre de décodage CC a été supprimé dans Windows Vista. Les nouvelles applications doivent utiliser le filtre VBICodec, qui est documenté dans la documentation Microsoft TV technologies.
 
  
 

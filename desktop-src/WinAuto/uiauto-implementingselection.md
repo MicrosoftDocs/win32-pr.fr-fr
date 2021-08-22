@@ -15,12 +15,12 @@ keywords:
 - interfaces, ISelectionProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad6950302373494f307c91c0aadaeab1db0132a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a2d0578dcdcfa9d381272afaa474338a54caa1f4b17989f2461f9aec5086bc18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098319"
 ---
 # <a name="selection-control-pattern"></a>Selection (modèle de contrôle)
 
@@ -40,11 +40,11 @@ Lorsque vous implémentez le modèle de contrôle **Selection** , notez les conv
 
 -   Les contrôles qui implémentent [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider) autorisent la sélection d’un ou de plusieurs éléments enfants. Par exemple, les zones de liste, les affichages de liste et les arborescences prennent en charge les sélections multiples, alors que les zones de liste modifiable, les curseurs et les groupes de cases d’option prennent en charge la sélection unique
 -   Les contrôles qui ont une plage minimale, maximale et continue, tels que le contrôle Slider **volume** d’un lecteur multimédia, doivent implémenter [**IRangeValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irangevalueprovider) au lieu de [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider).
--   Les contrôles à sélection unique qui gèrent des contrôles enfants qui implémentent [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot), tels que le curseur **résolution d’écran** dans la boîte de dialogue des propriétés d' **affichage** pour Windows, ou le contrôle de sélection du **Sélecteur de couleurs** de Microsoft Word (Voir l’image suivante), doivent implémenter [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider); leurs enfants doivent implémenter à la fois [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment) et [**ISelectionItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider).
+-   les contrôles à sélection unique qui gèrent des contrôles enfants qui implémentent [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot), tels que le curseur **résolution d’écran** dans la boîte de dialogue des propriétés d' **affichage** pour Windows, ou le contrôle de sélection du **sélecteur de couleurs** de Microsoft Word (voir l’image suivante), doivent implémenter [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider); leurs enfants doivent implémenter à la fois [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment) et [**ISelectionItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider).
 
     ![image présentant un exemple de mappage de chaîne d’échantillons de couleurs](images/uia-valuepattern-colorpicker.jpg)
 
--   Les menus ne prennent pas en charge le modèle de contrôle **Selection** . Si vous utilisez des éléments de menu qui incluent à la fois des graphiques et du texte (tels que les éléments du **volet de visualisation** dans le menu **affichage** de Microsoft Outlook) et que vous devez communiquer l’État, vous devez implémenter [**IToggleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itoggleprovider).
+-   Les menus ne prennent pas en charge le modèle de contrôle **Selection** . si vous utilisez des éléments de menu qui incluent à la fois des graphiques et du texte (tels que les éléments du **volet de visualisation** dans le menu **affichage** de Microsoft Outlook) et que vous devez communiquer l’état, vous devez implémenter [**IToggleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itoggleprovider).
 
 ## <a name="required-members-for-iselectionprovider"></a>Membres requis pour **ISelectionProvider**
 
@@ -52,7 +52,7 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 
 
 
-| Membres nécessaires                                                                                | Type de membre | Notes                                                                       |
+| Membres nécessaires                                                                                | Type de membre | Remarques                                                                       |
 |-------------------------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------|
 | [**CanSelectMultiple**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple)                        | Propriété    | Aucun                                                                        |
 | [**IsSelectionRequired**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired)                    | Propriété    | Aucun                                                                        |
@@ -61,7 +61,7 @@ Les propriétés, méthodes et événements suivants sont requis pour implément
 
 
 
- 
+ 
 
 Les propriétés [**ISelectionProvider :: IsSelectionRequired**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired) et [**CanSelectMultiple**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple) peuvent être dynamiques. Par exemple, l’état initial d’un contrôle peut ne pas avoir d’éléments sélectionnés par défaut, ce qui indique que **IsSelectionRequired** a la valeur false. Toutefois, une fois qu’un élément a été sélectionné, le contrôle doit toujours avoir au moins un élément sélectionné. De la même façon, dans quelques cas rares, un contrôle peut autoriser la sélection de plusieurs éléments lors de l’initialisation, mais n’autoriser par la suite que des sélections uniques.
 
@@ -81,9 +81,9 @@ Les propriétés [**ISelectionProvider :: IsSelectionRequired**](/windows/deskt
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 64a8b9b336a1e7aa6007b17d2e878f1ace5e6163
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98b2ab6963bf547b3fbf8321fde37359264286f77da98697f5ef88cc145be2e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794389"
 ---
 # <a name="swbemservicesreferencestoasync-method"></a>SWbemServices. ReferencesToAsync, méthode
 
@@ -140,7 +140,7 @@ Empêche les appels asynchrones d’envoyer des mises à jour d’État au gesti
 
 </dt> <dd>
 
-Fait en sorte que Windows Management Instrumentation (WMI) retourne des données de modification de classe avec la définition de la classe de base. Pour plus d’informations, consultez [localisation des informations de classe WMI](localizing-wmi-class-information.md).
+fait en sorte que Windows Management Instrumentation (WMI) retourne des données de modification de classe avec la définition de la classe de base. Pour plus d’informations, consultez [localisation des informations de classe WMI](localizing-wmi-class-information.md).
 
 </dd> </dl> </dd> <dt>
 
@@ -201,7 +201,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet appel est retourné immédiatement. Les objets et l’État demandés sont retournés à l’appelant via des rappels remis au récepteur spécifié dans *objWbemSink*. Pour traiter chaque objet lorsqu’il retourne, créez un *objWbemSink*. Sous-routine d’événement [**OnObjectReady**](swbemsink-onobjectready.md) . Une fois que tous les objets sont retournés, vous pouvez effectuer le traitement final dans votre implémentation de *objWbemSink*. Événement [**OnCompleted**](swbemsink-oncompleted.md) .
 

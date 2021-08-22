@@ -3,9 +3,9 @@ title: AxWindowsMediaPlayer. currentMedia, propriété
 description: La propriété currentMedia obtient ou définit l’interface IWMPMedia qui correspond à l’élément multimédia actuel.
 ms.assetid: 814ccb1d-713d-4b91-b225-d2199a7c9b6b
 keywords:
-- propriété currentMedia lecteur Windows Media
-- propriété currentMedia lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété currentMedia
+- Lecteur Windows Media de la propriété currentMedia
+- Lecteur Windows Media de la propriété currentMedia, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété currentMedia
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3720a36d2a1969c652ed757f31301cf6a9ead706
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 027949872b2ff988fcfcad5a8464d9a48ed69d3389ddbca0ad4f91b2d9e3c8d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098839"
 ---
 # <a name="axwindowsmediaplayercurrentmedia-property"></a>AxWindowsMediaPlayer. currentMedia, propriété
 
@@ -48,7 +48,7 @@ Public Property currentMedia As IWMPMedia
 
 Interface WMPLib. IWMPMedia qui fournit l’accès à l’élément multimédia actuel.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si AxWindowsMediaPlayer. Settings. la propriété **AutoStart** a la valeur true, la lecture commence automatiquement chaque fois que vous définissez **currentMedia**.
 
@@ -103,7 +103,7 @@ currentMediaLabel.Text = (&quot;Found first media item. Name = &quot; + player.c
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**AxWindowsMediaPlayer. newMedia (VB et C#)**](axwmplib-axwindowsmediaplayer-newmedia.md)
@@ -118,7 +118,7 @@ currentMediaLabel.Text = (&quot;Found first media item. Name = &quot; + player.c
 [**IWMPPlaylist. Item (VB et C#)**](iwmpplaylist-item--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings. AutoStart (VB et C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
+[**IWMPSettings. autostart (VB et C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> </dl>
 
  

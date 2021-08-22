@@ -14,7 +14,7 @@ ms.locfileid: "119072253"
 # <a name="transition"></a>Transition
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

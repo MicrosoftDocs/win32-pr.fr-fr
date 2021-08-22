@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1912698fbb6d6ac13f119161c4d05926f05d245b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4f4e41830b0bb4507e3969c327c84a85c5336e5f07389fa12e05f3a92f4089a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675459"
 ---
 # <a name="id3dxeffectbegin-method"></a>ID3DXEffect :: Begin, méthode
 
@@ -50,7 +50,7 @@ Pointeur vers une valeur retournée qui indique le nombre de passes nécessaires
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application définit une technique active dans le système d’effet en appelant **ID3DXEffect :: Begin**. Le système d’effet répond en capturant tout l’état du pipeline qui peut être modifié par la technique dans un bloc d’État. Une application signale la fin d’une technique en appelant [**ID3DXEffect :: end**](id3dxeffect--end.md), qui utilise le bloc d’État pour restaurer l’état d’origine. Le système d’effet prend donc en charge l’enregistrement de l’État lorsqu’une technique devient active et la restauration de l’État lorsqu’une technique se termine. Si vous choisissez de désactiver cette fonctionnalité d’enregistrement et de restauration, consultez [D3DXFX \_ DONOTSAVESAMPLERSTATE](d3dxfx.md).
 

@@ -3,9 +3,9 @@ title: StringCollection. getItemInfoByType, méthode
 description: La méthode getItemInfoByType récupère la valeur correspondant à l’index, au nom, à la langue et à l’index d’attribut de StringCollection spécifiés.
 ms.assetid: 32a25c69-9399-4857-84c1-143c529be58f
 keywords:
-- méthode getItemInfoByType lecteur Windows Media
-- méthode getItemInfoByType Player Windows Media, StringCollection Class
-- StringCollection, classe Windows Media Player, méthode getItemInfoByType
+- Lecteur Windows Media de la méthode getItemInfoByType
+- getItemInfoByType, méthode Lecteur Windows Media, StringCollection, classe
+- StringCollection, classe Lecteur Windows Media, méthode getItemInfoByType
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4b3aa8c5bc367095765f24f19f107dd7cb986ec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b9d270ab746618f81f7c2e4135f7a6057f207d2cc89961ebe7c8f47d9fd1abd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123029"
 ---
 # <a name="stringcollectiongetiteminfobytype-method"></a>StringCollection. getItemInfoByType, méthode
 
@@ -93,7 +93,7 @@ Cette méthode retourne un **nombre**, une **chaîne**, un objet **MetadataPictu
 
 Pour les attributs dont la valeur sous-jacente est **booléenne**, cette méthode retourne la chaîne « true » ou « false ».
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode prend en charge des attributs avec plusieurs valeurs et des attributs avec des valeurs complexes. La méthode **getItemInfo** ne prend pas en charge les attributs avec plusieurs valeurs ou des valeurs complexes.
 

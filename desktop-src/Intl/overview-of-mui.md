@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique fournit une vue d’ensemble conceptuelle de la technologie MUI (Multilingual User Interface), la prise en charge de la plateforme qu’elle fournit pour l’activation de l’expérience utilisateur multilingue et les avantages qu’elle offre à l’écosystème Windows.
+description: cette rubrique fournit une vue d’ensemble conceptuelle de la technologie d’interface utilisateur multilingue (MUI), la prise en charge de la plateforme qu’elle fournit pour l’activation de l’expérience utilisateur multilingue et les avantages qu’elle offre à l’écosystème Windows.
 ms.assetid: ef828da8-61cd-43d9-a5fe-e09a1f8af5c7
 title: Vue d’ensemble de MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674cb5e0fee4e7b8d3990a99f13f981c4a8c5803
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42e4e92c9103b27b35be427a74174c644a285266
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562704"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625775"
 ---
 # <a name="overview-of-mui"></a>Vue d’ensemble de MUI
 
-Cette rubrique fournit une vue d’ensemble conceptuelle de la technologie MUI (Multilingual User Interface), la prise en charge de la plateforme qu’elle fournit pour l’activation de l’expérience utilisateur multilingue et les avantages qu’elle offre à l’écosystème Windows.
+cette rubrique fournit une vue d’ensemble conceptuelle de la technologie d’interface utilisateur multilingue (MUI), la prise en charge de la plateforme qu’elle fournit pour l’activation de l’expérience utilisateur multilingue et les avantages qu’elle offre à l’écosystème Windows.
 
 Sur cette page :
 
@@ -33,7 +33,7 @@ La langue, la culture et les spécificités du marché sont toujours extrêmemen
 
 Dans le monde entier, il existe 193 pays et plus de 6 900 langues connues en cours d’utilisation. En anglais, en dépit de son rôle de langage professionnel, n’est parlé que de 8,5% du remplissage du monde en tant que premier ou deuxième langage. Pour fournir des informations natives à 94% de la population mondiale, ces informations doivent être disponibles dans le 347 (environ 5%) des langues du monde qui ont au moins un million d’orateurs. Cela est particulièrement vrai lorsque les tendances de globalisation ont augmenté les attentes de ces utilisateurs concernant la technologie et leur disponibilité sur leurs marchés.
 
-Le besoin de localiser des logiciels dans un plus grand nombre de langues a augmenté au fil des années et Microsoft propose désormais Windows Vista et d’autres produits dans plus de langues que jamais. Cette évolution est particulièrement claire avec Microsoft Windows, car elle est passée de la prise en charge de 30 langues avec Windows 98 à presque 100 avec Windows Vista, comme illustré dans le graphique à barres suivant.
+le besoin de localiser des logiciels dans un plus grand nombre de langues a augmenté au fil des années et Microsoft fournit désormais Windows Vista et d’autres produits dans plus de langues que jamais. cette évolution est particulièrement claire avec Microsoft Windows, car elle vient de la prise en charge de 30 langues avec Windows de 98 à presque 100 avec Windows Vista, comme illustré dans le graphique à barres suivant.
 
 ![graphique à barres indiquant que le nombre de langues est bien plus important dans Windows Vista que dans Windows 98 ou Windows XP](images/overview-of-mui-fig2.gif)
 
@@ -43,9 +43,9 @@ Le besoin de localiser des logiciels dans un plus grand nombre de langues a augm
 
 Comme nous l’avons vu dans la section précédente, la [globalisation](glossary-for-understanding-mui.md) et la [localisation](glossary-for-understanding-mui.md) des applications sont devenues une nécessité dans un monde plus intégré dans le monde entier. En particulier, à mesure que de plus en plus d’entreprises sont en général, soit en interne, soit via leurs réseaux d’entreprise, la nécessité d’applications multilingues augmente considérablement. Voici donc les obstacles auxquels ces sociétés sont confrontés pour le déploiement global de ces applications.
 
-La prise en charge d’un plus grand nombre de langues pour les systèmes d’exploitation Windows, ainsi que d’applications logicielles conçues pour la plate-forme Windows, requiert de nouvelles stratégies qui permettent d’implémenter tous les principaux scénarios avec une surcharge d’ingénierie minimale.
+la prise en charge d’un plus grand nombre de langues pour Windows systèmes d’exploitation, ainsi que d’applications logicielles conçues pour la plateforme Windows, nécessite de nouvelles stratégies qui permettent d’implémenter tous les principaux scénarios avec une surcharge d’ingénierie minimale.
 
-La technologie MUI est destinée aux développeurs et aux éditeurs de logiciels indépendants visant à créer et à prendre en charge des applications multilingues pour la plate-forme Windows. MUI est également très important pour les OEM et les entreprises, qui peuvent en tirer parti pour déployer le système d’exploitation Windows et ajouter des applications aux ordinateurs dans différentes langues via un déploiement d’image unique.
+la technologie MUI est destinée aux développeurs et aux éditeurs de logiciels indépendants visant à créer et à prendre en charge des applications multilingues pour la plate-forme Windows. MUI est également très important pour les oem et les entreprises, qui peuvent en tirer parti pour déployer le système d’exploitation Windows et ajouter des applications aux ordinateurs dans différentes langues via un déploiement d’image unique.
 
 ## <a name="core-concepts-of-mui"></a>Concepts de base de MUI
 
@@ -62,11 +62,11 @@ Ces attributs fondamentaux de l’interface MUI facilitent les scénarios d’en
 
 ## <a name="history-of-mui-in-windows"></a>Historique de MUI dans Windows
 
-Le niveau de prise en charge disponible pour une expérience utilisateur multilingue au niveau du système d’exploitation Windows et pour le développement d’applications multilingues sur la plate-forme Windows a évolué au fil du temps et dans les différentes versions de Windows.
+le niveau de prise en charge disponible pour une expérience utilisateur multilingue au niveau du système d’exploitation Windows et pour le développement d’applications multilingues sur la plateforme Windows a évolué au fil du temps et dans les différentes versions de Windows.
 
-Les fonctionnalités prises en charge [avant Windows Vista](evolution-of-mui-support-across-windows-versions.md) étaient assez basiques, avec des images Windows en une seule langue et une option permettant d’ajouter des packs d’interface utilisateur multilingue dans des scénarios spécifiques. Aucune prise en charge de développeur pour les applications multilingues n’était disponible.
+les fonctionnalités prises en charge [avant Windows Vista](evolution-of-mui-support-across-windows-versions.md) étaient assez basiques, avec des images de Windows en une seule langue et une option pour les packs d’interface utilisateur multilingue supplémentaires dans des scénarios spécifiques. Aucune prise en charge de développeur pour les applications multilingues n’était disponible.
 
-[Avec Windows Vista](evolution-of-mui-support-across-windows-versions.md), Microsoft a fait un investissement significatif dans MUI et Windows Vista est entièrement basé sur une plateforme MUI. Bien que cela représente une avancée majeure dans la stratégie de localisation Windows, étant donné qu’il s’agit d’un activateur clé permettant à Microsoft de fournir des fenêtres dans un plus grand nombre de langues que jamais auparavant, il s’agit d’abord d’une grande avancée pour les utilisateurs, les développeurs et les clients Windows. Il offre plusieurs avantages majeurs tels que :
+[avec Windows vista](evolution-of-mui-support-across-windows-versions.md), Microsoft a fait un investissement significatif dans MUI et Windows Vista est entièrement basé sur une plateforme mui. bien que cela représente une avancée majeure dans Windows stratégie de localisation, car il s’agit d’un activateur clé permettant à Microsoft de fournir des Windows dans un plus grand nombre de langages que jamais auparavant, il est tout d’abord essentiel pour les utilisateurs Windows, les développeurs et les clients. Il offre plusieurs avantages majeurs tels que :
 
 -   Un système d’exploitation indépendant du langage avec prise en charge intégrée de MUI.
 -   L’empaquetage, le déploiement et l’installation configurables pour prendre en charge les scénarios multilingues.
@@ -74,12 +74,12 @@ Les fonctionnalités prises en charge [avant Windows Vista](evolution-of-mui-sup
 -   Modèle de maintenance amélioré dans lequel le code exécutable peut être mis à jour indépendamment des ressources.
 -   Prise en charge des développeurs pour la création d’applications multilingues.
 
-Le tableau suivant fournit une présentation détaillée de la prise en charge de la plateforme Windows pour MUI :
+le tableau suivant fournit une présentation détaillée de la prise en charge de la plateforme Windows pour MUI :
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -89,10 +89,10 @@ Le tableau suivant fournit une présentation détaillée de la prise en charge d
 </thead>
 <tbody>
 <tr class="odd">
-<td>Versions de Windows prises en charge (prise en charge du système d’exploitation uniquement)</td>
+<td>versions de Windows prises en charge (prise en charge du système d’exploitation uniquement)</td>
 <td><ul>
 <li>Windows 2000 Professionnel</li>
-<li>Famille de serveurs Windows 2000</li>
+<li>famille de serveurs Windows 2000</li>
 <li>Windows XP Professionnel</li>
 <li>Windows XP Édition Tablet PC</li>
 <li>Famille Windows Server 2003.</li>
@@ -101,7 +101,7 @@ Le tableau suivant fournit une présentation détaillée de la prise en charge d
 <br/></td>
 </tr>
 <tr class="even">
-<td>Versions de Windows prises en charge (système d’exploitation & application)</td>
+<td>versions de Windows prises en charge (système d’exploitation & prise en charge des applications)</td>
 <td><ul>
 <li>Windows Vista</li>
 </ul>
@@ -111,7 +111,7 @@ Le tableau suivant fournit une présentation détaillée de la prise en charge d
 <td>Versions de Windows non prise en charge</td>
 <td><ul>
 <li>Windows 9x</li>
-<li>Windows me</li>
+<li>Windows J'</li>
 <li>Windows XP Édition familiale</li>
 </ul>
 <br/></td>
@@ -127,7 +127,7 @@ Le tableau suivant fournit une présentation détaillée de la prise en charge d
 
 MUI a un impact positif sur plusieurs aspects de l’écosystème Windows :
 
--   [Avantages pour les développeurs](benefits-of-mui-explained.md): de nombreux avantages sont offerts aux développeurs d’applications grâce à la disponibilité de la prise en charge de l’API MUI pour créer des applications multilingues modélisées selon les mêmes principes que la prise en charge multilingue dans le système d’exploitation Windows principal. Les avantages sont les suivants :
+-   [avantages pour les développeurs](benefits-of-mui-explained.md): de nombreux avantages sont offerts aux développeurs d’applications grâce à la disponibilité de la prise en charge de l’API MUI pour créer des applications multilingues modélisées selon les mêmes principes que la prise en charge multilingue dans le système d’exploitation principal Windows. Les avantages sont les suivants :
     -   La possibilité de fournir une expérience de langue d’affichage conforme à ce que le système d’exploitation lui-même offre.
     -   La possibilité d’étendre facilement la prise en charge linguistique pour une application.
     -   La possibilité de gérer et de traiter facilement l’application.

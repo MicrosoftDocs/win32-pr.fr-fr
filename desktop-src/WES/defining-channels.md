@@ -4,16 +4,16 @@ description: Les événements peuvent être écrits dans des canaux de journaux 
 ms.assetid: 3c2f39ee-fbc0-40ae-8279-566905250f47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab3c73697aa11e7b63ace0ece33be23ca7a1b883
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 89c2f932616a131e478c100996fd0b76034b3cccdebf4e3714fd5b9b38ba9678
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104101361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032479"
 ---
 # <a name="defining-channels"></a>Définition des canaux
 
-Les événements peuvent être écrits dans des canaux de journaux des événements, des fichiers journaux de suivi des événements ou les deux. Un canal est fondamentalement un récepteur qui collecte des événements. Si le public cible de vos événements utilise des consommateurs d’événements tels que les observateur d’événements Windows, vous devez définir de nouveaux canaux pour collecter vos événements ou importer un canal existant défini par un autre fournisseur.
+Les événements peuvent être écrits dans des canaux de journaux des événements, des fichiers journaux de suivi des événements ou les deux. Un canal est fondamentalement un récepteur qui collecte des événements. si le public cible de vos événements utilise des consommateurs d’événements tels que le Windows observateur d’événements, vous devez définir de nouveaux canaux pour collecter vos événements ou importer un canal existant défini par un autre fournisseur.
 
 Pour définir vos propres canaux, utilisez l’élément **Channel** . Pour définir un canal importé, utilisez l’élément **importChannel** . Vous pouvez spécifier jusqu’à huit canaux dans n’importe quelle combinaison de canaux ou de canaux importés que vous définissez.
 
@@ -64,7 +64,7 @@ L’exemple suivant montre comment importer un canal. Vous devez définir les at
 </instrumentationManifest>
 ```
 
-Bien que Winmeta.xml définisse des canaux hérités que vous pouvez importer, vous ne devez pas les utiliser, sauf si vous prenez en charge des consommateurs hérités qui consomment des événements hors des canaux hérités (par exemple, une application ou un système). Le fichier Winmeta.xml est inclus dans le SDK Windows.
+Bien que Winmeta.xml définisse des canaux hérités que vous pouvez importer, vous ne devez pas les utiliser, sauf si vous prenez en charge des consommateurs hérités qui consomment des événements hors des canaux hérités (par exemple, une application ou un système). le fichier Winmeta.xml est inclus dans le SDK Windows.
 
 L’exemple suivant montre comment définir un canal. Vous devez définir les attributs **enfants**, **Name** et **type** . L’attribut **enfants** identifie de façon unique le canal : chaque identificateur de canal dans votre liste de canaux doit être unique. Affectez à l’attribut **enfants** une valeur unique pour les canaux que votre fournisseur répertorie ; l’identificateur de canal est référencé dans une ou plusieurs de vos définitions d’événements. La Convention pour nommer le canal consiste à utiliser le nom et le type de canal du fournisseur sous la forme, *providerName* / *channelType*.
 

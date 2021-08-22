@@ -3,7 +3,7 @@ title: Lecture des fichiers à partir de l’appareil
 description: Lecture des fichiers à partir de l’appareil
 ms.assetid: adb87b53-39e2-4f83-ab6d-7e2f7c0bd5d3
 keywords:
-- Windows Media Gestionnaire de périphériques, lire des fichiers à partir d’appareils
+- Windows Gestionnaire de périphériques de média, lire des fichiers à partir d’appareils
 - Gestionnaire de périphériques, lire des fichiers à partir d’appareils
 - Guide de programmation, lire des fichiers à partir d’appareils
 - applications de bureau, lire des fichiers à partir d’appareils
@@ -11,12 +11,12 @@ keywords:
 - lecture de fichiers à partir d’appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0b80cf820e889b29e612206f90b07e1cb02c4c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4352be59a335461f46bfc722146e4c51d31f72c1559e9ad8631e80cb6752c241
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903999"
 ---
 # <a name="reading-files-from-the-device"></a>Lecture des fichiers à partir de l’appareil
 
@@ -28,7 +28,7 @@ Les étapes suivantes illustrent la façon de copier un fichier à partir d’un
 2.  Déterminez si le stockage est un fichier ou un dossier. Seuls les fichiers peuvent être copiés à partir de l’appareil. Appelez [**IWMDMStorage :: GetAttributes**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes) pour obtenir les attributs de stockage, ce qui vous indique si le stockage est un fichier ou un dossier.
 3.  Interrogez **IWMDMStorage** pour [**IWMDMStorageControl**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol)et appelez [**IWMDMStorageControl :: Read**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read) pour lire le fichier à partir de l’appareil et l’enregistrer à un emplacement spécifié.
 
-Si, à la place, vous souhaitez lire le bloc de fichier par bloc à partir de l’appareil, vous devez implémenter l’interface de rappel [**IWMDMOperation**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation) . Transmettez cette interface dans l’appel **IWMDMStorageControl :: Read** , et Windows Media gestionnaire de périphériques enverra des segments de données de fichier de manière séquentielle à votre rappel. Les étapes suivantes montrent comment lire un bloc de fichiers de périphérique par bloc :
+Si, à la place, vous souhaitez lire le bloc de fichier par bloc à partir de l’appareil, vous devez implémenter l’interface de rappel [**IWMDMOperation**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation) . transmettez cette interface dans l’appel **IWMDMStorageControl :: Read** et Windows Media Gestionnaire de périphériques enverra des segments de données de fichier de manière séquentielle à votre rappel. Les étapes suivantes montrent comment lire un bloc de fichiers de périphérique par bloc :
 
 1.  Obtenir l’interface **IWMDMStorage** pour le stockage et déterminer s’il s’agit d’un fichier, comme décrit précédemment.
 2.  Préparez les descripteurs de fichiers ou d’autres Handles dont vous avez besoin pour stocker les données reçues.
@@ -121,12 +121,12 @@ HRESULT myFileRead(IWMDMStorage pStorage, LPWSTR pwszDestName, IWMDMOperation* p
 
 <dl> <dt>
 
-[**Création d’une application Windows Media Gestionnaire de périphériques**](creating-a-windows-media-device-manager-application.md)
+[**création d’une Application de Gestionnaire de périphériques multimédia Windows**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

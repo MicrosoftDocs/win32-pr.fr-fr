@@ -1,5 +1,5 @@
 ---
-description: La classe NTEventLogEventConsumer écrit un message dans le journal des événements Windows lorsqu’un événement spécifié se produit. Cette classe est un consommateur d’événements standard fourni par WMI.
+description: la classe NTEventLogEventConsumer écrit un message dans le journal des événements Windows lorsqu’un événement spécifié se produit. Cette classe est un consommateur d’événements standard fourni par WMI.
 ms.assetid: ca998a91-d9f7-44ff-bb83-5ba92d68f31e
 ms.tgt_platform: multiple
 title: Journalisation dans le journal des événements NT en fonction d’un événement
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 69bf24c0d64c95a012b8681b88bde34dc28fa179
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8c070b1a52fe41f32b8610ff0931d33be7feb33f9f5cd6f6067652e963f6824
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050707"
 ---
 # <a name="logging-to-nt-event-log-based-on-an-event"></a>Journalisation dans le journal des événements NT en fonction d’un événement
 
-La classe [**NTEventLogEventConsumer**](nteventlogeventconsumer.md) écrit un message dans le journal des événements Windows lorsqu’un événement spécifié se produit. Cette classe est un consommateur d’événements standard fourni par WMI.
+la classe [**NTEventLogEventConsumer**](nteventlogeventconsumer.md) écrit un message dans le journal des événements Windows lorsqu’un événement spécifié se produit. Cette classe est un consommateur d’événements standard fourni par WMI.
 
 > [!Note]  
 > Les utilisateurs authentifiés ne peuvent pas, par défaut, consigner les événements dans le journal des applications sur un ordinateur distant. Par conséquent, l’exemple décrit dans cette rubrique échouera si vous utilisez la propriété **UNCServerName** de la classe [**NTEventLogEventConsumer**](nteventlogeventconsumer.md) et que vous spécifiez un ordinateur distant comme valeur. Pour savoir comment modifier la sécurité du journal des événements, consultez cet article de la [base de connaissances](https://support.microsoft.com/kb/323076).
@@ -30,7 +30,7 @@ La procédure de base pour l’utilisation d’un consommateur standard est déc
 
 La procédure suivante décrit comment créer un consommateur d’événements qui écrit dans le journal des événements NT.
 
-**Pour créer un consommateur d’événements qui écrit dans le journal des événements Windows**
+**pour créer un consommateur d’événements qui écrit dans le journal des événements Windows**
 
 1.  Dans un fichier format MOF (MOF), créez une instance de [**NTEventLogEventConsumer**](nteventlogeventconsumer.md) pour recevoir les événements que vous demandez dans la requête. Pour plus d’informations sur l’écriture de code MOF, consultez [conception de Classes format MOF (MOF)](designing-managed-object-format--mof--classes.md).
 2.  Créez et nommez une instance de [**\_ \_ EventFilter**](--eventfilter.md), puis créez une requête pour spécifier le type d’événement qui déclenche l’écriture dans le journal des événements NT.
@@ -40,7 +40,7 @@ La procédure suivante décrit comment créer un consommateur d’événements q
 3.  Créez une instance de [**\_ \_ FilterToConsumerBinding**](--filtertoconsumerbinding.md) pour associer le filtre à l’instance de [**NTEventLogEventConsumer**](nteventlogeventconsumer.md).
 4.  Compilez le fichier MOF à l’aide de [**Mofcomp.exe**](mofcomp.md).
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’exemple de cette section se trouve dans le code MOF, mais vous pouvez créer des instances par programme à l’aide [de l’API de script pour WMI](scripting-api-for-wmi.md) ou [de l’API com pour WMI](com-api-for-wmi.md). L’exemple montre comment créer un consommateur pour écrire dans le journal des événements de l’application à l’aide de [**NTEventLogEventConsumer**](nteventlogeventconsumer.md). Le MOF crée une nouvelle classe nommée « NTLogCons \_ example », un filtre d’événements pour interroger les opérations, telles que la création, sur une instance de cette nouvelle classe et une liaison entre le filtre et le consommateur. Étant donné que la dernière action du MOF consiste à créer une instance de NTLogCons \_ exemple, vous pouvez immédiatement voir l’événement dans le journal des événements d’application en exécutant Eventvwr.exe.
 

@@ -4,12 +4,12 @@ description: Un TrackBar est une fenêtre qui contient un curseur (parfois appel
 ms.assetid: 9fc7bef8-da1d-493b-9a9a-3770873713f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83e364f57a094ed5a29369a00a112150d0282f24
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 450fba1c9b41cf5789bcda08263ff7a0b8b2d2d17db3746cf5d47bdc5d0b6a4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967937"
 ---
 # <a name="about-trackbar-controls"></a>À propos des contrôles TrackBar
 
@@ -46,7 +46,7 @@ Les unités logiques d’un TrackBar sont l’ensemble de valeurs contiguës que
 
 Pour récupérer la position du curseur (autrement dit, la valeur choisie par l’utilisateur), utilisez le message [**TBM \_ GETPOS**](tbm-getpos.md) . Pour définir la position du curseur, utilisez le message [**TBM \_ SetPos**](tbm-setpos.md) .
 
-Un TrackBar affiche automatiquement les graduations au début et à la fin, sauf si vous spécifiez le style [**tbs \_ notiques**](trackbar-control-styles.md) . (Dans l’éditeur de ressources Microsoft Visual Studio, cela signifie affecter la valeur false à la propriété Tick Marks.) Vous pouvez utiliser le style des [**\_ graduations tbs**](trackbar-control-styles.md) pour afficher automatiquement des graduations supplémentaires à intervalles réguliers le long du TrackBar. Par défaut, un suivi de la barre de défilement **tbs \_** affiche une graduation à chaque incrément de la plage du TrackBar. Pour spécifier un intervalle différent pour les graduations automatiques, envoyez le message [**TBM \_ SETTICFREQ**](tbm-setticfreq.md) au TrackBar. Par exemple, vous pouvez utiliser ce message pour afficher uniquement 10 graduations dans une plage comprise entre 1 et 100.
+Un TrackBar affiche automatiquement les graduations au début et à la fin, sauf si vous spécifiez le style [**tbs \_ notiques**](trackbar-control-styles.md) . (dans l’éditeur de ressources Microsoft Visual Studio, cela signifie affecter la valeur false à la propriété Tick marks.) Vous pouvez utiliser le style des [**\_ graduations tbs**](trackbar-control-styles.md) pour afficher automatiquement des graduations supplémentaires à intervalles réguliers le long du TrackBar. Par défaut, un suivi de la barre de défilement **tbs \_** affiche une graduation à chaque incrément de la plage du TrackBar. Pour spécifier un intervalle différent pour les graduations automatiques, envoyez le message [**TBM \_ SETTICFREQ**](tbm-setticfreq.md) au TrackBar. Par exemple, vous pouvez utiliser ce message pour afficher uniquement 10 graduations dans une plage comprise entre 1 et 100.
 
 Pour définir la position d’une graduation, envoyez le message [**TBM \_ SETTIC**](tbm-settic.md) . Un TrackBar gère un tableau de valeurs DWORD qui stocke la position de chaque graduation. Le tableau n’inclut pas les première et dernière graduations, que le TrackBar crée automatiquement. Vous pouvez spécifier un index dans ce tableau lorsque vous envoyez le message [**TBM \_ GETTIC**](tbm-gettic.md) pour récupérer la position de la graduation correspondante. Vous pouvez également envoyer le message [**TBM \_ GETPTICS**](tbm-getptics.md) pour récupérer un pointeur vers le tableau. Le nombre d’éléments dans le tableau est égal à deux fois inférieur au nombre de cycles retourné par le message [**TBM \_ GETNUMTICS**](tbm-getnumtics.md) . Cela est dû au fait que le nombre retourné par **TBM \_ GETNUMTICS** inclut la première et la dernière graduations, qui ne sont pas incluses dans le tableau. Pour récupérer la position physique d’une graduation, dans les coordonnées clientes de la fenêtre du TrackBar, envoyez le message [**TBM \_ GETTICPOS**](tbm-getticpos.md) . Le message [**TBM \_ CLEARTICS**](tbm-cleartics.md) supprime toutes les graduations de la barre de progression sauf la première et la dernière.
 
@@ -61,7 +61,7 @@ Vous pouvez récupérer ou définir la plage de sélection en envoyant des messa
 > [!Note]  
 > Il incombe à l’application de s’assurer que l’utilisateur ne peut pas sélectionner de valeurs en dehors de la plage de sélection. Le contrôle lui-même n’empêche pas l’utilisateur de déplacer le curseur en dehors de la plage.
 
- 
+ 
 
 ## <a name="trackbar-notification-messages"></a>Messages de notification TrackBar
 
@@ -85,7 +85,7 @@ Le système envoie les \_ codes de notification TB bas, to \_ LINEDOWN, TB \_ et
 
 
 
- 
+ 
 
 ## <a name="default-trackbar-message-processing"></a>Traitement du message TrackBar par défaut
 
@@ -115,7 +115,7 @@ Cette section décrit le traitement des messages de fenêtre effectué par un Tr
 
 
 
- 
+ 
 
 ## <a name="trackbar-tooltips"></a>Info-bulles de TrackBar
 
@@ -123,6 +123,6 @@ Un TrackBar créé avec le style des [**\_ info-bulles tbs**](trackbar-control-s
 
 Vous pouvez assigner un nouveau contrôle ToolTip à un TrackBar en envoyant le message [**TBM \_ SETTOOLTIPS**](tbm-settooltips.md) . Pour récupérer le handle d’un contrôle ToolTip assigné, utilisez le message [**TBM \_ GETTOOLTIPS**](tbm-gettooltips.md) .
 
- 
+ 
 
- 
+ 

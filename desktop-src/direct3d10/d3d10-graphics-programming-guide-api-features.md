@@ -4,16 +4,16 @@ ms.assetid: 2e24de6c-4f73-4844-b87f-3487ef069db6
 title: Fonctionnalités de l’API (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab12285509441bb429c78d995e68ed1753ceb5bd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 416018fcddf2643ba9fbc8e633ec2f636b8158ff329780a55205034e5dbbe240
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858659"
 ---
 # <a name="api-features-direct3d-10"></a>Fonctionnalités de l’API (Direct3D 10)
 
-Le pipeline graphique Direct3D 10 représente une modification d’architecture fondamentale, reconstruite à partir de la base du matériel et des logiciels pour alimenter la prochaine génération de jeux et d’applications multimédias 3D. Il utilise le modèle WDDM (Windows Display Driver Model), qui permet des améliorations des performances et du comportement, telles que la mémoire du GPU virtuel.
+Le pipeline graphique Direct3D 10 représente une modification d’architecture fondamentale, reconstruite à partir de la base du matériel et des logiciels pour alimenter la prochaine génération de jeux et d’applications multimédias 3D. il utilise le modèle WDDM (Windows Display Driver Model), qui permet des améliorations des performances et du comportement, telles que la mémoire du GPU virtuel.
 
 Les développeurs familiarisés avec Direct3D 9 découvriront une série d’améliorations fonctionnelles et des améliorations des performances dans Direct3D 10, notamment :
 

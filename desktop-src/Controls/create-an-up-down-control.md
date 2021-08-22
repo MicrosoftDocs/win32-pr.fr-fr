@@ -1,34 +1,34 @@
 ---
 title: Comment créer des contrôles Up-Down
-description: Vous créez des contrôles up-out en appelant la fonction CreateWindowEx et en passant la \_ classe de valeur UpDown pour le paramètre de classe Windows lpClassName.
+description: vous créez des contrôles up-out en appelant la fonction CreateWindowEx et en passant la \_ classe de valeur updown pour le paramètre de classe Windows lpClassName.
 ms.assetid: 9B7A5F8B-4EE5-413B-A60C-800758DD1120
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 427361d7748270ad9c689867aa8100e95afbd6b0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0089941cd147f0c94dc86f2283fe2c8fa10ba5e141d4a8ef99d689a991668ce7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062959"
 ---
 # <a name="how-to-create-up-down-controls"></a>Comment créer des contrôles Up-Down
 
-Vous créez des contrôles up-out en appelant la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) et en passant la [**\_ classe**](common-control-window-classes.md) de valeur UpDown pour le paramètre de classe Windows *lpClassName*.
+vous créez des contrôles up-out en appelant la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) et en passant la [**\_ classe**](common-control-window-classes.md) de valeur updown pour le paramètre de classe Windows *lpClassName*.
 
-**Remarque**    La fonction [**CreateUpDownControl**](/windows/desktop/api/Commctrl/nf-commctrl-createupdowncontrol) est déconseillée. Vous devez utiliser la `CreateWindowEx` fonction à la place.
+**Remarque**   La fonction [**CreateUpDownControl**](/windows/desktop/api/Commctrl/nf-commctrl-createupdowncontrol) est déconseillée. Vous devez utiliser la `CreateWindowEx` fonction à la place.
 
 L’exemple de code proposé dans cette rubrique utilise un contrôle up-up pour piloter une barre de progression.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -105,7 +105,7 @@ icex.dwSize = sizeof(INITCOMMONCONTROLSEX);
 > [!Note]  
 > Vous ne devez initialiser le membre **dwSize nul** qu’une seule fois, mais vous devez appeler la fonction **InitCommonControlsEx** chaque fois que vous créez un contrôle commun.
 
- 
+ 
 
 ### <a name="step-4-create-a-parent-dialog-box-to-host-the-up-down-control"></a>Étape 4 : créer une boîte de dialogue parente pour héberger le contrôle de Up-Down
 
@@ -590,9 +590,9 @@ HWND CreateProgBar(HWND hwndParent)
 [Utilisation de contrôles Up-Down](using-up-down-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

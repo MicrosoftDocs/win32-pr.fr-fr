@@ -4,12 +4,12 @@ description: L’API RTMv2 permet aux clients de travailler avec la liste des tr
 ms.assetid: ef474091-48fe-48e5-b476-73d77dbcbec5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d20a812fd272afafd2cd8eb1d6fb93d97530a2a7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5f629bb5f43298c2cada3759ea3ab9c7bb71f0ca47a3c4158028d923646662c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024709"
 ---
 # <a name="working-with-next-hops"></a>Utilisation des tronçons suivants
 
@@ -20,11 +20,11 @@ Les clients peuvent également mettre à jour le tronçon suivant directement. P
 > [!Note]  
 > L’adresse de saut suivant et les champs d’index d’interface dans le tronçon suivant identifient de façon unique le tronçon suivant et ne doivent pas être modifiés.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

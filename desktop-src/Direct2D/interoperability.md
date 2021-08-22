@@ -4,19 +4,19 @@ description: Décrit le fonctionnement de Direct2D avec d’autres systèmes.
 ms.assetid: 538e0ff7-50a8-40e2-ab34-d3eb6b7d0c6a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 872a090980618548fd73e43c6f82644962b8bd90
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e867324c0b31bc78f83457e02039b23a587c413d38ad6fcb6f25e5aed7d12ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076699"
 ---
 # <a name="interoperability"></a>Interopérabilité
 
 Les rubriques de cette section décrivent le fonctionnement de Direct2D avec d’autres systèmes, tels que GDI, Direct3D et WIC.
 
 > [!Note]  
-> À compter de Windows 8, Direct2D fournit l’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) qui fournit un moyen simple d’interopérer. Pour plus d’informations, consultez la rubrique sur les [contextes des appareils et](devices-and-device-contexts.md) des appareils.
+> à partir de Windows 8, Direct2D fournit l’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) qui fournit un moyen simple d’interopérer. Pour plus d’informations, consultez la rubrique sur les [contextes des appareils et](devices-and-device-contexts.md) des appareils.
 
  
 

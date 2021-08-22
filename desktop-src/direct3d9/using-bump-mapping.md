@@ -4,12 +4,12 @@ ms.assetid: ded07764-1a11-42df-9a16-e4c3a328fb23
 title: Utilisation du mappage de relief (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4bc96f78ffb19dda04ff6b2bc3d0e46800b04b8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 195a99ffaa29d416aea93c5599f1fb461cd78a9961bd9c69f3f02ae3e8fe4719
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025829"
 ---
 # <a name="using-bump-mapping-direct3d-9"></a>Utilisation du mappage de relief (Direct3D 9)
 
@@ -136,7 +136,7 @@ d3dDevice->SetTextureStageState( 1, D3DTSS_BUMPENVLOFFSET, F2DW(0.0f) );
 
 Une fois que votre application a configuré les paramètres de mappage de bosselage, elle peut s’afficher normalement, et les polygones rendus en relief.
 
-Notez que l’exemple précédent montre les paramètres définis pour le mappage d’environnement spéculaire. Lors de l’exécution d’un mappage de lumière diffuse, les applications définissent l’opération de fusion de texture pour la dernière étape en \_ modulant D3DTOP. Pour plus d’informations, consultez les [cartes de lumière diffuse (Direct3D 9)](diffuse-light-maps.md).
+Notez que l’exemple précédent montre les paramètres définis pour le mappage d’environnement spéculaire. Lors de l’exécution d’un mappage de lumière diffuse, les applications définissent l’opération de fusion de texture pour la dernière étape en \_ modulant D3DTOP. pour plus d’informations, consultez [diffusion en clair Cartes (Direct3D 9)](diffuse-light-maps.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

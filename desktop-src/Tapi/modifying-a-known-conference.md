@@ -4,16 +4,16 @@ ms.assetid: 7f05d62e-2bcc-4d98-8a71-97ed20a12af2
 title: Modification d’une conférence connue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5bd58003b276bd3cdd54da2e7ed0df4f154311e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00b139b05f70f801a28b91ecb6c2773fd740f10df7c0fd2b8e86b904b210cc50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575599"
 ---
 # <a name="modifying-a-known-conference"></a>Modification d’une conférence connue
 
-\[Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Le fragment de code suivant illustre la modification de l’intervalle de temps d’une conférence. L’intervalle de temps par défaut est de trente minutes. Dans ce fragment, l’intervalle de temps est défini sur une année.
 

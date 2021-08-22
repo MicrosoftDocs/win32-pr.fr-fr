@@ -4,21 +4,21 @@ description: Création de l’image de survol
 ms.assetid: 169a99ba-96a0-4487-aa1c-07c83c0bc237
 keywords:
 - création d’apparences, images de survol
-- Apparences du lecteur Windows Media, fichiers artistiques
+- habillages Lecteur Windows Media, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les apparences, les images de survol
-- Apparences du lecteur Windows Media, images de survol
+- apparences Lecteur Windows Mediaes, images de survol
 - apparences, images de survol
 - images de survol dans les enveloppes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d7f5bbb8b57820c2805b9b9d6ea79762933035
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88eff91123a28dae94425d7ea6e7591462545a2d7da0372b088eeec6bd67ed60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902279"
 ---
 # <a name="creating-the-hover-image"></a>Création de l’image de survol
 
@@ -27,9 +27,9 @@ L’image principale de cette apparence est deux boutons assis sur un ovale. Pou
 Pour créer l’image de survol, vous devez prendre les deux boutons que vous avez créés pour le fichier art principal, les copier dans de nouvelles couches et ajouter d’autres couches pour le texte. Utiliser les étapes suivantes :
 
 1.  Copiez la couche du bouton Fermer et renommez-la « fermer le pointage ».
-2.  Utilisez le sélecteur de couleurs pour créer une couleur de premier plan d’un jaune clair ( \# CCFF33). Cela a été choisi pour comparer avec les couleurs de bouton. Utilisez ensuite l’outil Pot de peinture pour remplir l’intérieur du cercle dans la couche de survol.
+2.  Utilisez le sélecteur de couleurs pour créer une couleur de premier plan d’un jaune clair ( \# CCFF33). Cela a été choisi pour comparer avec les couleurs de bouton. utilisez ensuite l’outil Pot de peinture pour remplir l’intérieur du cercle dans la couche de survol.
 3.  Copiez la couche du bouton de lecture et renommez-la « lire le pointage ».
-4.  Utilisez l’outil Pot de peinture pour remplir l’intérieur du cercle dans la couche de pointage de lecture avec la même couleur que le cercle de survol.
+4.  utilisez l’outil Pot de peinture pour remplir l’intérieur du cercle dans la couche de pointage de lecture avec la même couleur que le cercle de survol.
 5.  Créez une nouvelle couche et nommez-la « fermer le carré ». Utilisez le sélecteur de couleurs pour créer une couleur de premier plan du bleu foncé. Utilisez l’outil plume pour dessiner un carré, le transformer en sélection, le remplir et supprimer le tracé. À l’aide de l’outil déplacement, déplacez le carré et centrez-le sur le bouton de survol.
 6.  Créez une nouvelle couche et nommez-la « triangle de lecture ». Utilisez l’outil plume pour créer le triangle pour la « lecture » en utilisant les mêmes techniques que celles que vous avez utilisées pour créer la couche carrée de fermeture. Centrez-le sur le bouton de lecture.
 
@@ -60,9 +60,9 @@ Lorsque vous enregistrez votre fichier, le nom de fichier que vous choisissez se
 [**Création de votre première apparence**](building-your-first-skin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

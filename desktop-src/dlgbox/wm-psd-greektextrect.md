@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd0853720bea8cadc8df40d8fa649f644fd00694
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7c30e4873255a59a86da91b3145d0675f6940ce35081273696ce6c68b70a1560
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726049"
 ---
 # <a name="wm_psd_greektextrect-message"></a>\_ \_ Message GREEKTEXTRECT WM
 
@@ -57,7 +57,7 @@ Si la procédure de raccordement retourne la **valeur true**, la boîte de dialo
 
 Si la procédure de raccordement retourne la **valeur false**, la boîte de dialogue dessine la partie du texte grec de la page d’exemple.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La boîte de dialogue **mise en page** comprend une image d’un exemple de page qui montre comment les sélections de l’utilisateur affectent l’apparence de la sortie imprimée. Quand vous appelez la fonction [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) , vous pouvez fournir une procédure de hook [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) pour personnaliser l’apparence de la page d’exemple. Chaque fois que la boîte de dialogue est sur le paragraphe pour dessiner le contenu de la page d’exemple, la boîte de dialogue envoie une séquence de messages à la procédure de raccordement.
 

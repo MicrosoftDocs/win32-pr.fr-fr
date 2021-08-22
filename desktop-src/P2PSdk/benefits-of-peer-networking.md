@@ -4,12 +4,12 @@ ms.assetid: 3aed8c13-4dc0-4242-b3de-8817ff2f4018
 title: Avantages de la mise en réseau pair à pair
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f836d8e60cb249b5a0e603f0a295a55686bc5ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84c9e6ab5eedd130735f4c352712e0445d29e6333b033113dfa2f90130b28c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011767"
 ---
 # <a name="benefits-of-peer-networking"></a>Avantages de la mise en réseau pair à pair
 

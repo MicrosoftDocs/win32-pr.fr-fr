@@ -3,19 +3,19 @@ title: Objet de restauration de sauvegarde
 description: Objet de restauration de sauvegarde
 ms.assetid: 83ce28c0-fd17-46ff-94c0-d28124a0e56a
 keywords:
-- Windows Media Format SDK, objets du remagasin de sauvegarde
+- Windows Media Format SDK, objets de restauration de sauvegarde
 - ASF (Advanced Systems Format), objets de restauration de sauvegarde
 - ASF (format des systèmes avancés), objets du remagasin de sauvegarde
 - objets, objets de restauration de sauvegarde
 - restauration de sauvegarde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d08e8bec9bb7bbc2a45fbf632e69d230a2536633
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8a7bf14f8afda284d8d0ae3d4f36d37fff0baa63f4f42802a98830038ec2d850
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106512716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028127"
 ---
 # <a name="backup-restorer-object"></a>Objet de restauration de sauvegarde
 
@@ -35,7 +35,7 @@ Les interfaces suivantes sont prises en charge par l’objet de restauration de 
 
 
 
- 
+ 
 
 L’interface de rappel suivante doit être implémentée par l’application afin d’utiliser l’objet de restauration de sauvegarde.
 
@@ -47,7 +47,7 @@ L’interface de rappel suivante doit être implémentée par l’application af
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -59,9 +59,9 @@ L’interface de rappel suivante doit être implémentée par l’application af
 [**Objets**](objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

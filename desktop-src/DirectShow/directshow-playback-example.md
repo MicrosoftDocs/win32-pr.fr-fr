@@ -1,17 +1,17 @@
 ---
 description: Cette section contient le code complet pour la lecture audio/vidéo du didacticiel dans DirectShow.
 ms.assetid: a96474d9-8258-4c5d-b339-48fe167bd615
-title: Exemple de lecture DirectShow
+title: DirectShow Exemple de lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 523117facf1917233372b672af3a48ebc8e8101e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d8f5a33d0692a47578f957e1a376a09d98fb6a36c7029134452968b253cd46a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104033468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966369"
 ---
-# <a name="directshow-playback-example"></a>Exemple de lecture DirectShow
+# <a name="directshow-playback-example"></a>DirectShow Exemple de lecture
 
 Cette section contient le code complet pour la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md).
 
@@ -27,7 +27,7 @@ Cette section contient le code complet pour la [lecture audio/vidéo du didactic
 
 <dl> <dt>
 
-[Lecture audio/vidéo dans DirectShow](audio-video-playback-in-directshow.md)
+[Lecture audio/vidéo en DirectShow](audio-video-playback-in-directshow.md)
 </dt> </dl>
 
  

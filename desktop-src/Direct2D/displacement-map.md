@@ -6,12 +6,12 @@ keywords:
 - effet de mappage de déplacement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd0ad2deb0c584ccc9c55faebd60f803d66efa42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73888d8168e411bf0f8daee1f2e04801353ee8358d27ba4d5cc9b1f71630a762
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833012"
 ---
 # <a name="displacement-map-effect"></a>Effet de mappage de déplacement
 
@@ -23,7 +23,7 @@ Le CLSID de cet effet est CLSID \_ D2D1DisplacementMap.
 -   [Propriétés d’effet](#effect-properties)
 -   [Canaux de couleur](#color-channels)
 -   [Bitmap de sortie](#output-bitmap)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -33,7 +33,7 @@ Le CLSID de cet effet est CLSID \_ D2D1DisplacementMap.
 | Avant                                                           |
 |------------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)       |
-| After                                                            |
+| Après                                                            |
 | ![image après la transformation.](images/19-displacementmap.png) |
 
 
@@ -119,8 +119,8 @@ Bitmap de sortie<sub>y</sub> pixels = (taille de la bitmap d’entrée<sub>y</su
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

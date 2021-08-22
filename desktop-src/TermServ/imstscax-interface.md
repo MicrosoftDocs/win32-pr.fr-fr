@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9970523811b49270906fc7abd686d48387ce51f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4cefdaa28d4331b1cc74c84de6b67d9d4d43336c90315c20bde8642ca9b9219c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125389"
 ---
 # <a name="imstscax-interface"></a>Interface IMsTscAx
 
@@ -81,7 +81,7 @@ L’interface **IMsTscAx** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

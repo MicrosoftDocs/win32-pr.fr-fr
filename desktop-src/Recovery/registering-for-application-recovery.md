@@ -4,12 +4,12 @@ ms.assetid: 2940b1b2-a0ca-4f81-a576-ae6d53ffd4a8
 description: 'En savoir plus sur : inscription pour la récupération d’application'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 056232bc2a8a10857ff07900ce261d95ed719b81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ce2a67a36b26895fdc16652dd271b3b244d0860c14c268144c1357fa3cf51c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024585"
 ---
 # <a name="registering-for-application-recovery"></a>Inscription pour la récupération d’application
 
@@ -35,7 +35,7 @@ Vous devez envisager d’enregistrer régulièrement des copies temporaires des 
 
 ## <a name="saving-data-and-application-state-when-application-is-being-closed-due-to-a-software-update"></a>Enregistrement des données et de l’état de l’application quand l’application est fermée en raison d’une mise à jour logicielle
 
-Si une application Windows peut être mise à jour, l’application doit également traiter les messages [**WM \_ QUERYENDSESSION**](/windows/desktop/Shutdown/wm-queryendsession) et [**WM \_ ENDSESSION**](/windows/desktop/Shutdown/wm-endsession) . Le programme d’installation envoie ces messages lorsque le programme d’installation a besoin que l’application s’arrête pour terminer l’installation ou lorsqu’un redémarrage est nécessaire pour terminer l’installation. Notez que dans ce cas, l’application a moins de temps pour effectuer la récupération. Par exemple, l’application doit répondre à chaque message dans un délai de cinq secondes.
+si une Windows application peut être mise à jour, l’application doit également traiter les messages [**wm \_ QUERYENDSESSION**](/windows/desktop/Shutdown/wm-queryendsession) et [**wm \_ ENDSESSION**](/windows/desktop/Shutdown/wm-endsession) . Le programme d’installation envoie ces messages lorsque le programme d’installation a besoin que l’application s’arrête pour terminer l’installation ou lorsqu’un redémarrage est nécessaire pour terminer l’installation. Notez que dans ce cas, l’application a moins de temps pour effectuer la récupération. Par exemple, l’application doit répondre à chaque message dans un délai de cinq secondes.
 
 Pour les applications console qui peuvent être mises à jour, vous devez envisager de gérer les \_ \_ notifications d’événements Ctrl C. Pour obtenir un exemple, consultez [inscription au redémarrage de l’application](registering-for-application-restart.md). Le programme d’installation envoie cette notification lorsqu’il a besoin que l’application s’arrête pour terminer la mise à jour. L’application a 30 secondes pour gérer la notification.
 

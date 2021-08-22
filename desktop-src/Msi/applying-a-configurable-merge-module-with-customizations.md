@@ -4,12 +4,12 @@ ms.assetid: 6035b1a9-d452-4020-9fe3-c20ba874a2ed
 title: Application d’un module de fusion configurable avec des personnalisations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4f1e3da426ba5ca13e149814ab9bb927e83d4e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4e9c771493a7a8e854472d840ffc21358c9741d8b3a8ea9876251456b6badf9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829199"
 ---
 # <a name="applying-a-configurable-merge-module-with-customizations"></a>Application d’un module de fusion configurable avec des personnalisations
 

@@ -3,9 +3,9 @@ title: Méthode IWMPPlaylistCollection importPlaylist
 description: La méthode importPlaylist ajoute une sélection statique à la bibliothèque. | Méthode IWMPPlaylistCollection importPlaylist
 ms.assetid: 7a64e618-920d-419d-8769-612ab5dff49b
 keywords:
-- méthode importPlaylist lecteur Windows Media
-- méthode importPlaylist lecteur Windows Media, interface IWMPPlaylistCollection
-- Interface IWMPPlaylistCollection lecteur Windows Media, méthode importPlaylist
+- Lecteur Windows Media de la méthode importPlaylist
+- méthode importPlaylist Lecteur Windows Media, interface IWMPPlaylistCollection
+- Lecteur Windows Media de l’interface IWMPPlaylistCollection, méthode importPlaylist
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad3ca727155d6ae859123d427812d93ebaa0b05c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ee4c231a045b39454908753dc197c95e26d85c711968f07ab27dbd859c29c6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122529"
 ---
 # <a name="iwmpplaylistcollectionimportplaylist-method"></a>IWMPPlaylistCollection :: importPlaylist, méthode
 
@@ -64,7 +64,7 @@ Une interface **wmplib. IWMPPlaylist** pour la sélection que cette méthode ajo
 
 Interface **wmplib. IWMPPlaylist** pour la sélection ajoutée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les sélections qui ne contiennent pas d’éléments multimédias ne peuvent pas être ajoutées à la bibliothèque à l’aide de cette méthode. Pour créer une playlist vide dans la bibliothèque, utilisez la méthode **newPlaylist** . Vous pouvez ensuite remplir la playlist obtenue avec des éléments multimédias à l’aide de **IWMPPlaylist. appendItem** ou **IWMPPlaylist. InsertItem**.
 
@@ -88,7 +88,7 @@ Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture �
 
 <dl> <dt>
 
-[**IWMPMediaCollection. Add (VB et C#)**](wmplibiwmpmediacollection-iwmpmediacollection-add--vb-and-c.md)
+[**IWMPMediaCollection. add (VB et C#)**](wmplibiwmpmediacollection-iwmpmediacollection-add--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPPlaylist (VB et C#)**](iwmpplaylist--vb-and-c.md)

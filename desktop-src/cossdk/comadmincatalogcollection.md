@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ComAdmin.Idl
-ms.openlocfilehash: 985a6b947708542ec3ce1dc6ecc835c94259b315
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3656e65b89ae02b0cfe8ea3b1dbe9784d679c5eb40e11edbfe2951e08893e1aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029479"
 ---
 # <a name="comadmincatalogcollection-class"></a>COMAdminCatalogCollection, classe
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur les regroupements du catalogue et leurs propriét
 
 Pour une introduction à l’administration par programme de COM+, consultez automatisation de l' [administration com+](automating-com--administration.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous ne pouvez pas créer directement un objet **COMAdminCatalogCollection** . Pour utiliser les méthodes de cet objet, vous devez créer un objet [**COMAdminCatalog**](comadmincatalog.md) , obtenir une référence à [**ICOMAdminCatalog**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog), puis utiliser [**ICOMAdminCatalog :: GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) pour obtenir une référence à une interface [**ICatalogCollection**](/windows/desktop/api/ComAdmin/nn-comadmin-icatalogcollection) qui représente une collection de niveau supérieur. Cela est illustré dans l’exemple suivant, où « cocollection » doit être remplacé par le nom de l’une des collections d’administration COM+ de niveau supérieur.
 
@@ -65,7 +65,7 @@ Vous ne pouvez pas créer directement un objet **COMAdminCatalogCollection** . P
 
 
 
-Pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+. Un objet COMAdminCatalogCollection peut être créé en appelant [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) sur un objet [**COMAdminCatalog**](comadmincatalog.md) . Cela est illustré dans l’exemple suivant, où « cocollection » doit être remplacé par le nom de l’une des collections d’administration COM+ de niveau supérieur.
+pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+. Un objet COMAdminCatalogCollection peut être créé en appelant [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) sur un objet [**COMAdminCatalog**](comadmincatalog.md) . Cela est illustré dans l’exemple suivant, où « cocollection » doit être remplacé par le nom de l’une des collections d’administration COM+ de niveau supérieur.
 
 
 ```VB

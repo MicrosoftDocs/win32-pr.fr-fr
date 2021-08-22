@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c28c2f87a1d8fb165f02ad71c96b38bcbb381bb3590bd9bff98b3feb364044bc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2f954d7b96d3ec2304cd63cd689241a46384fda
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117850813"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626735"
 ---
 # <a name="splitbuttongallery-element"></a>Élément SplitButtonGallery
 
 Représente un contrôle de [Galerie de boutons partagés](windowsribbon-controls-splitbuttongallery.md) avec un menu déroulant basé sur la Galerie.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <SplitButtonGallery
@@ -45,10 +45,10 @@ Représente un contrôle de [Galerie de boutons partagés](windowsribbon-control
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,14 +62,14 @@ Représente un contrôle de [Galerie de boutons partagés](windowsribbon-control
 <tr class="odd">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Valide uniquement si <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> est l’élément parent.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne qui contient une liste d’entiers séparés par des virgules, comprise entre 0 et 31.<br/> L’espace blanc est valide et ignoré.<br/> Longueur maximale : 250 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -88,26 +88,26 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 <tr class="even">
 <td><strong>ItemHeight</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> La valeur par défaut est -1. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>ItemWidth</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> La valeur par défaut est -1. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>TextPosition</strong><br/></td>
 <td>TextPositionType<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> Ballon<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Cuir<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Gauche<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Éviter<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Approprié<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Coin<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>Type</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> Contenus<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Commandes<br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -123,7 +123,7 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 | Élément                                                                                                 | Description                                        |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                                               | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**Activé**](windowsribbon-element-checkbox.md)<br/>                                           | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                                           | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                                     | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**SplitButtonGallery.MenuGroups**](windowsribbon-element-splitbuttongallery-menugroups.md)<br/> | Doit se produire exactement une fois<br/> <br/>     |
 | [**SplitButtonGallery.MenuLayout**](windowsribbon-element-splitbuttongallery-menulayout.md)<br/> | Peut se produire au plus une fois<br/> <br/>      |
@@ -137,8 +137,8 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -178,7 +178,7 @@ Windows 8 et versions ultérieures.
 
 ## <a name="remarks"></a>Remarques
 
-Facultatif.
+Optionnel.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**Group**](windowsribbon-element-group.md), [**MenuGroup**](windowsribbon-element-menugroup.md)ou [**SplitButton**](windowsribbon-element-splitbutton.md) .
 
