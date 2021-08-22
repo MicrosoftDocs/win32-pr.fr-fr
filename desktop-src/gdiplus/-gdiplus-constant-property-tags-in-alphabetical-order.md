@@ -1,19 +1,19 @@
 ---
-description: Le tableau suivant répertorie les balises de propriété d’image GDI+ Windows dans l’ordre alphabétique.
+description: le tableau suivant répertorie les balises de propriétés d’image GDI+ Windows par ordre alphabétique.
 ms.assetid: c6d196a8-b10f-4e09-bf43-0198d96e5f40
 title: Balises de propriété par ordre alphabétique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7179fa936d5e0e934ea1d317c1d14c25c189ed8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73ef09cbc65d1e52dbe466f0d151ecd6a17b7becedc3bc8c80e1b293a775cf43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612509"
 ---
 # <a name="property-tags-in-alphabetical-order"></a>Balises de propriété par ordre alphabétique
 
-Le tableau suivant répertorie les balises de propriété d’image GDI+ Windows dans l’ordre alphabétique.
+le tableau suivant répertorie les balises de propriétés d’image GDI+ Windows par ordre alphabétique.
 
 
 

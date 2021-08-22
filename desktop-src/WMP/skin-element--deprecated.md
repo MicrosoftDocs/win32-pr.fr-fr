@@ -1,9 +1,9 @@
 ---
 title: Élément SKIN (déconseillé)
-description: Cette page décrit une fonctionnalité qui peut ne pas être disponible dans les versions ultérieures du lecteur Windows Media et du kit de développement logiciel (SDK) du lecteur Windows Media.
+description: cette page documente une fonctionnalité qui peut ne pas être disponible dans les futures versions de Lecteur Windows Media et le kit de développement logiciel (SDK) Lecteur Windows Media.
 ms.assetid: 593244c1-f850-46d7-8b84-14dcd59b024e
 keywords:
-- Élément SKIN (déconseillé) lecteur Windows Media
+- élément SKIN (déconseillé) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: abf503706dec131eef411ebaf3625071e2b31098
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b868b756ed190301c66987b6e26249762bac71842f4a5425d6d7c6d4b16816a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507909"
 ---
 # <a name="skin-element-deprecated"></a>Élément SKIN (déconseillé)
 
-Cette page décrit une fonctionnalité qui peut ne pas être disponible dans les versions ultérieures du lecteur Windows Media et du kit de développement logiciel (SDK) du lecteur Windows Media.
+cette page documente une fonctionnalité qui peut ne pas être disponible dans les futures versions de Lecteur Windows Media et le kit de développement logiciel (SDK) Lecteur Windows Media.
 
 L’élément **Skin** spécifie une URL vers une bordure.
 
@@ -36,7 +36,7 @@ L’élément **Skin** spécifie une URL vers une bordure.
 
 **Href** (obligatoire)
 
-URL d’un fichier de bordure compressé avec l’extension de nom de fichier. WMZ. Pour le lecteur Windows Media série 9 ou version ultérieure, cette valeur peut référencer uniquement les fichiers de bordure sur le disque dur de l’utilisateur situé dans le même répertoire que la sélection de métafichiers. Consultez l’exemple de code.
+URL d’un fichier de bordure compressé avec l’extension de nom de fichier. WMZ. pour Lecteur Windows Media série 9 ou version ultérieure, cette valeur peut faire référence uniquement aux fichiers de bordure sur le disque dur de l’utilisateur situé dans le même répertoire que la sélection de métafichiers. Consultez l’exemple de code.
 
 ## <a name="parentchild-elements"></a>Éléments parent/enfant
 
@@ -45,17 +45,17 @@ URL d’un fichier de bordure compressé avec l’extension de nom de fichier. W
 | Hierarchy       | Éléments |
 |-----------------|----------|
 | Éléments parents | **ASX**  |
-| Éléments enfants  | Aucune     |
+| Éléments enfants  | None     |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’élément **Skin** est utilisé pour créer une bordure, qui est similaire à une apparence, mais qui est affichée dans la zone de **lecture à présent** du lecteur Windows Media en mode complet. L’élément **Skin** est utilisé uniquement pour les bordures, qui apparaissent dans le lecteur Windows Media en mode complet, et non pour les skins standard, qui remplacent entièrement le mode compact du lecteur Windows Media.
+l’élément **SKIN** est utilisé pour créer une bordure, qui est similaire à une apparence, mais qui est affichée dans la zone de **jeu à présent** du Lecteur Windows Media en mode complet. l’élément **SKIN** est utilisé uniquement pour les bordures, qui apparaissent à l’intérieur du Lecteur Windows Media en mode complet, et non pour les apparences régulières, qui remplacent entièrement le mode compact Lecteur Windows Media.
 
-Dans un package de téléchargement Windows Media (avec l’extension de nom de fichier. WMD), l’élément **Skin** permet à une bordure d’avoir du contenu et d’établir un lien vers d’autres sites. Le package de téléchargement Windows Media est un fichier compressé qui contient un fichier de bordure et un métafichier Windows Media. Le fichier de bordure (avec l’extension de nom de fichier. WMZ) est compressé et comprend un fichier de définition d’apparence (avec l’extension de nom de fichier. WMS).
+dans un Package Windows Media Download (avec l’extension de nom de fichier. wmd), l’élément **SKIN** permet à une bordure d’avoir du contenu et d’établir un lien vers d’autres sites. le Package de téléchargement Windows Media est un fichier compressé qui contient un fichier de bordure et un métafichier Windows media. Le fichier de bordure (avec l’extension de nom de fichier. WMZ) est compressé et comprend un fichier de définition d’apparence (avec l’extension de nom de fichier. WMS).
 
 Un élément **Skin** a trois composants :
 
@@ -63,7 +63,7 @@ Un élément **Skin** a trois composants :
 -   Du contenu
 -   Un métafichier
 
-Les habillages fournis avec les packages de téléchargement Windows Media doivent être de forme rectangulaire. La création de bordures avec des apparences qui ne sont pas rectangulaires peut produire des résultats inattendus.
+les habillages fournis avec Windows Packages de téléchargement de médias doivent être de forme rectangulaire. La création de bordures avec des apparences qui ne sont pas rectangulaires peut produire des résultats inattendus.
 
 ## <a name="examples"></a>Exemples
 
@@ -99,13 +99,13 @@ Les habillages fournis avec les packages de téléchargement Windows Media doive
 
 <dl> <dt>
 
-[**Bordures du lecteur Windows Media (déconseillée)**](borders-for-windows-media-player--deprecated.md)
+[**bordures pour la Lecteur Windows Media (déconseillée)**](borders-for-windows-media-player--deprecated.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 19902bfa-504e-40cd-882a-4fac4bb7daf6
 title: Utilisation de PenInputPanel avec des zones de liste déroulante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c5306708fd00871f07b241ca777e672e2d3de94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9da1e90d581e08f9a23346bbf13cf8c3866f6e947f1d9b23375248f3ba9c8636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589299"
 ---
 # <a name="using-the-peninputpanel-with-combo-boxes"></a>Utilisation de PenInputPanel avec des zones de liste déroulante
 

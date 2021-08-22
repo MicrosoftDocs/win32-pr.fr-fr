@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d978ec4c5693a5087734975c412b999ed7d5890
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: c9dbfcaeab897d55064fe11a506cefbc9d85dd6852a32d279133e6fe7a33a692
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "106536283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588799"
 ---
 # <a name="ack-for-create-session"></a>ACK pour Create-Session
 
@@ -94,7 +94,7 @@ BITS utilise un GUID pour identifier la session, mais vous pouvez utiliser n’i
 <span id="BITS-Host-Id"></span><span id="bits-host-id"></span><span id="BITS-HOST-ID"></span>BITS-Host-ID
 </dt> <dd>
 
-Optionnel. Incluez cet en-tête uniquement si la [propriété d’extension IIS bits](bits-iis-extension-properties.md), BITSHostId, est définie. Remplacez PublicHostName par le nom du serveur ou l’adresse IP de la propriété BITSHostId.
+Facultatif. Incluez cet en-tête uniquement si la [propriété d’extension IIS bits](bits-iis-extension-properties.md), BITSHostId, est définie. Remplacez PublicHostName par le nom du serveur ou l’adresse IP de la propriété BITSHostId.
 
 Le client doit remplacer la partie serveur de l’URL distante sur tous les paquets suivants. Si le client ne spécifie pas ce nom d’hôte sur les paquets suivants, il est possible que le travail redémarre sur un autre serveur de la batterie, laissant ainsi un fichier de téléchargement partiel sur le serveur précédent.
 
@@ -103,7 +103,7 @@ Le client doit remplacer la partie serveur de l’URL distante sur tous les paqu
 <span id="BITS-Host-Id-Fallback-Timeout"></span><span id="bits-host-id-fallback-timeout"></span><span id="BITS-HOST-ID-FALLBACK-TIMEOUT"></span>BITS-Host-ID-repli-Timeout
 </dt> <dd>
 
-Optionnel. Incluez cet en-tête uniquement si l’en-tête BITS-Host-ID est spécifié. Remplacez Timeout par la valeur du délai d’attente de la propriété BITSHostIdFallbackTimeout. La propriété BITSHostIdFallbackTimeout est l’une des [propriétés d’extension IIS bits](bits-iis-extension-properties.md).
+Facultatif. Incluez cet en-tête uniquement si l’en-tête BITS-Host-ID est spécifié. Remplacez Timeout par la valeur du délai d’attente de la propriété BITSHostIdFallbackTimeout. La propriété BITSHostIdFallbackTimeout est l’une des [propriétés d’extension IIS bits](bits-iis-extension-properties.md).
 
 Le client utilise le délai d’expiration pour déterminer la durée pendant laquelle il tente de se reconnecter au nom du serveur spécifié dans l’en-tête BITS-Host-ID avant de revenir au nom d’hôte spécifié dans le nom de fichier distant du travail. La minuterie commence lorsque BITS ne parvient pas à se connecter au serveur BITS-Host-ID. La minuterie est réinitialisée lors de la restauration d’une connexion au serveur. Si aucun délai d’attente n’est spécifié, le client ne retourne jamais au nom d’hôte spécifié dans le nom de fichier distant.
 

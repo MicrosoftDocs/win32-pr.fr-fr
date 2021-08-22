@@ -3,7 +3,7 @@ title: Message MM_JOY2BUTTONUP (mmsystem. h)
 description: Le \_ message JOY2BUTTONUP mm notifie la fenêtre qui a capturé la manette de jeu JOYSTICKID2 qu’un bouton a été relâché.
 ms.assetid: da024466-7cd3-42ec-90a7-1468eb42841e
 keywords:
-- Message MM_JOY2BUTTONUP Windows Multimedia
+- message MM_JOY2BUTTONUP Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7a4f2d23739fc72a6898e2b53fc3e1c330687f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f94a1761686bd2e3ac7c470268427a213d54cdb4b8a58d54fdd6961427c2377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557309"
 ---
 # <a name="mm_joy2buttonup-message"></a>MM \_ message JOY2BUTTONUP
 
@@ -96,7 +96,7 @@ Coordonnée y de la manette de jeu par rapport au coin supérieur gauche de la z
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

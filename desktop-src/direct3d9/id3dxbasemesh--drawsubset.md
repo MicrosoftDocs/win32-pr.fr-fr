@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 252c9b9921c7eafd8f0c2a54cfa14a85e91b8f7d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d72e397bf44c8e0a1de241e1d4190ad8e017ca77b35b87790cda90a1d5413e97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119494639"
 ---
 # <a name="id3dxbasemeshdrawsubset-method"></a>ID3DXBaseMesh ::D méthode rawSubset
 
@@ -49,13 +49,13 @@ Valeur DWORD qui spécifie le sous-ensemble du maillage à dessiner. Cette valeu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le sous-ensemble spécifié par AttribId sera restitué par la méthode [**IDirect3DDevice9 ::D rawindexedprimitive**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawindexedprimitive) , à l’aide du \_ type primitif TRIANGLELIST D3DPT, de sorte qu’une mémoire tampon d’index doit être correctement initialisée.
 

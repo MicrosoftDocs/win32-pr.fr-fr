@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6623a1b348af14fecc8dab41a44439bf2d745bf9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7d1360b9169d5355ef23caf47fa56a283dc4e5267fb603aa08bd0600f126c69f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300299"
 ---
 # <a name="ms-ds-user-account-auto-locked-attribute"></a>ms-DS-User-Account-attribut verrouillé automatiquement
 
@@ -65,7 +65,7 @@ Indique si le compte auquel cet attribut fait référence a été verrouillé. T
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans ADAM, cet attribut remplace l’indicateur de [**\_ \_ verrouillage des publicités UF**](/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) de l’attribut [**UserAccountControl**](a-useraccountcontrol.md) .
 

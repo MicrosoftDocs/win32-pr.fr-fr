@@ -4,12 +4,12 @@ ms.assetid: 43ca51f1-ba73-4031-96c3-5815311ce6f6
 title: Événements de débogage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bee6d159dded992e56ac05bc1d751246cd051733
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e7d1f9f723e55b75b32d9f9e3cbf4baac0a8cc683dd3a5aa1b95a2931bceba29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642189"
 ---
 # <a name="debugging-events"></a>Événements de débogage
 

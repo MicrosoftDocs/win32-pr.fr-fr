@@ -1,5 +1,5 @@
 ---
-description: Vous pouvez utiliser les méthodes et propriétés de l’objet SWbemObject pour représenter une définition de classe ou une instance d’objet Windows Management Instrumentation (WMI).
+description: vous pouvez utiliser les méthodes et propriétés de l’objet SWbemObject pour représenter une définition de classe ou une instance d’objet Windows Management Instrumentation (WMI).
 ms.assetid: d303ec1a-5e0c-4a5e-8ed3-ed353a138755
 ms.tgt_platform: multiple
 title: SWbemObject, objet (wbemdisp. h)
@@ -15,16 +15,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 287395b976177170c8bdffa0e1817a8755a4d397
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8e33a3a0a5028292ce7cef7b44a37433b00f942ea9459ec18e6d53e1cf9a43c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504049"
 ---
 # <a name="swbemobject-object"></a>SWbemObject, objet
 
-Vous pouvez utiliser les méthodes et propriétés de l’objet **SWbemObject** pour représenter une définition de classe ou une instance d’objet Windows Management Instrumentation (WMI). Cet objet ne peut pas être créé par l’appel VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) .
+vous pouvez utiliser les méthodes et propriétés de l’objet **SWbemObject** pour représenter une définition de classe ou une instance d’objet Windows Management Instrumentation (WMI). Cet objet ne peut pas être créé par l’appel VBScript [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) .
 
 Cet objet prend en charge deux types de propriétés et de méthodes. Ceux qui sont définis dans cette section sont des propriétés et des méthodes génériques qui s’appliquent à tous les objets WMI. En outre, cet objet expose les propriétés et les méthodes de l’objet sous-jacent sous forme de propriétés Automation dynamiques et de méthodes de **SWbemObject**. Les noms et les types de ces propriétés et méthodes dépendent de l’objet WMI sous-jacent. Pour plus d’informations sur la façon dont ces propriétés et méthodes dynamiques sont exposées, consultez [manipulation des informations relatives aux classes et aux instances](manipulating-class-and-instance-information.md).
 
@@ -88,7 +88,7 @@ L’objet **SWbemObject** possède ces méthodes.
 | [**AssociatorsAsync\_**](swbemobject-associatorsasync-.md)   | Récupère de manière asynchrone les associateurs de l’objet.<br/>                                      |
 | [**Répliqué\_**](swbemobject-clone-.md)                         | Effectue une copie de l’objet en cours.<br/>                                                          |
 | [**CompareTo\_**](swbemobject-compareto-.md)                 | Teste si deux objets sont égaux.<br/>                                                              |
-| [**Supprimer\_**](swbemobject-delete-.md)                       | Supprime l’objet de WMI.<br/>                                                                 |
+| [**DELETE\_**](swbemobject-delete-.md)                       | Supprime l’objet de WMI.<br/>                                                                 |
 | [**DeleteAsync\_**](swbemobject-deleteasync-.md)             | Supprime de façon asynchrone l’objet de WMI.<br/>                                                  |
 | [**ExecMethod\_**](swbemobject-execmethod-.md)               | Exécute une méthode exportée par un fournisseur de méthode.<br/>                                             |
 | [**ExecMethodAsync\_**](swbemobject-execmethodasync-.md)     | Exécute de façon asynchrone une méthode exportée par un fournisseur de méthode.<br/>                              |
@@ -118,7 +118,7 @@ L’objet **SWbemObject** possède les propriétés suivantes.
 |:-----------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Dérivation\_**](swbemobject-derivation-.md)<br/> | Lecture seule<br/> | Contient un tableau de chaînes qui décrit la hiérarchie de dérivation pour la classe.<br/>                                             |
 | [**Méthodes\_**](swbemobject-methods-.md)<br/>       | Lecture seule<br/> | Objet [**SWbemMethodSet**](swbemmethodset.md) qui est la collection de méthodes pour cet objet.<br/>                           |
-| [**D\_**](swbemobject-path-.md)<br/>             | Lecture seule<br/> | Contient un objet [**SWbemObjectPath**](swbemobjectpath.md) qui représente le chemin d’accès de l’objet de la classe ou de l’instance actuelle.<br/> |
+| [**Chemin\_**](swbemobject-path-.md)<br/>             | Lecture seule<br/> | Contient un objet [**SWbemObjectPath**](swbemobjectpath.md) qui représente le chemin d’accès de l’objet de la classe ou de l’instance actuelle.<br/> |
 | [**Propriétés\_**](swbemobject-properties-.md)<br/> | Lecture seule<br/> | Objet [**SWbemPropertySet**](swbempropertyset.md) qui est la collection de propriétés pour cet objet.<br/>                    |
 | [**Qualificateurs\_**](swbemobject-qualifiers-.md)<br/> | Lecture seule<br/> | Objet [**SWbemQualifierSet**](swbemqualifierset.md) qui est la collection de qualificateurs pour cet objet.<br/>                  |
 | [**Sécurité\_**](swbemobject-security-.md)<br/>     | Lecture seule<br/> | Contient un objet [**SWbemSecurity**](swbemsecurity.md) utilisé pour lire ou modifier les paramètres de sécurité.<br/>                         |

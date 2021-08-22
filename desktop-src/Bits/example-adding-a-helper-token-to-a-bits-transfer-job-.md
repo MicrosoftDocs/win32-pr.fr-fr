@@ -4,12 +4,12 @@ description: Vous pouvez configurer une tâche de transfert Service de transfert
 ms.assetid: 08670c6d-e589-41be-842d-597f460d9c97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dab12fe93ae54d91d02bef5e59e99d267571413e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c4adab6ca8cebeeca9b9883e89db28205dfdab1ea43e05c01fd119c14c26d374
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528819"
 ---
 # <a name="example-adding-a-helper-token-to-a-bits-transfer-job"></a>Exemple : ajout d’un jeton d’assistance à une tâche de transfert BITS
 
@@ -35,11 +35,11 @@ Cet exemple utilise l’en-tête et l’implémentation définis dans [exemple 
 10. Appelez la méthode [**IBitsTokenOptions :: SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) pour emprunter l’identité du jeton de l’utilisateur connecté. Si cette méthode échoue, l’exemple appelle la [fonction RevertToSelf](/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself) pour mettre fin à l’emprunt d’identité de l’utilisateur connecté, une erreur est générée et le descripteur est fermé.
     > [!Note]
     >
-    > Dans les versions prises en charge de Windows antérieures à Windows 10, la version 1607, le propriétaire du travail doit disposer d’informations d’identification d’administration pour appeler la méthode [**IBitsTokenOptions :: SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) .
+    > dans les versions de Windows Windows 10 antérieures à la version 1607, le propriétaire du travail doit avoir des informations d’identification d’administration pour appeler la méthode [**IBitsTokenOptions :: SetHelperToken**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken) .
     >
-    > À compter de Windows 10, version 1607, les propriétaires de travaux non-administrateurs peuvent définir des jetons d’assistance non-administrateur sur les travaux BITS qu’ils possèdent. Les propriétaires de travaux doivent toujours disposer d’informations d’identification administratives pour définir des jetons d’assistance avec des privilèges d’administrateur.
+    > à partir de Windows 10, la version 1607, les propriétaires de travaux non-administrateurs peuvent définir des jetons d’assistance non-administrateur sur les travaux BITS qu’ils possèdent. Les propriétaires de travaux doivent toujours disposer d’informations d’identification administratives pour définir des jetons d’assistance avec des privilèges d’administrateur.
 
-     
+     
 
 11. Appelez la méthode [**IBitsTokenOptions :: SetHelperTokenFlags**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertokenflags) pour spécifier les ressources auxquelles accéder à l’aide du contexte de sécurité du jeton d’assistance.
 12. Une fois l’emprunt d’identité terminé, l’exemple appelle la [fonction RevertToSelf](/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself) pour mettre fin à l’emprunt d’identité de l’utilisateur connecté et le descripteur est fermé.
@@ -279,6 +279,6 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
 [Exemple : classes communes](common-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

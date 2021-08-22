@@ -4,12 +4,12 @@ description: Après avoir créé vos ressources graphiques, vous êtes prêt à 
 ms.assetid: a73f7043-dffc-4688-adfc-16ed9a9e12d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40f8f3cf82d3ce6f485a7c54700c32c9eb65d054
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a2d8a346300b32fe1c716e51efe6bfb8fdbf6220fb2ff17df6de617de27ba1a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535073"
 ---
 # <a name="drawing-with-direct2d"></a>Dessiner avec Direct2D
 
@@ -121,6 +121,6 @@ La boucle présentée ici gère la perte d’appareil en ignorant les ressources
 
 [PPP et Device-Independent pixels](dpi-and-device-independent-pixels.md)
 
- 
+ 
 
- 
+ 

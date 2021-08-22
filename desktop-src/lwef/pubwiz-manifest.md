@@ -10,12 +10,12 @@ keywords:
 - Window. external, manifeste de transfert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20fa7b3a35a6f06e2939b6c25f82d12c2b98a7f7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 48d7f4ea3f9cd392f4b0bab50e1e558613fc7485d4f44a27472cd48ad898b3ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555849"
 ---
 # <a name="using-the-transfer-manifest"></a>Utilisation du manifeste de transfert
 
@@ -47,7 +47,7 @@ Le schéma de manifeste de transfert est écrit sous la forme d’un modèle ouv
 > [!Note]  
 > Le manifeste est recréé chaque fois qu’un nouveau fournisseur est choisi afin que le fournisseur puisse stocker les informations de site dans le manifeste.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -56,6 +56,6 @@ Le schéma de manifeste de transfert est écrit sous la forme d’un modèle ouv
 [Schéma de manifeste de transfert](/windows/desktop/shell/interfaces)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

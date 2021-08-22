@@ -1,9 +1,9 @@
 ---
 title: Message ICM_GETBUFFERSWANTED (VFW. h)
-description: Le \_ message GETBUFFERSWANTED ICM interroge un pilote sur le nombre de mémoires tampons à allouer. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICGetBuffersWanted.
+description: le \_ message ICM GETBUFFERSWANTED interroge un pilote sur le nombre de mémoires tampons à allouer. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICGetBuffersWanted.
 ms.assetid: 109e8627-7ed4-4f17-bf7f-e77f42dfc8c7
 keywords:
-- Message ICM_GETBUFFERSWANTED Windows Multimedia
+- message ICM_GETBUFFERSWANTED Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06de8cc3bcfe463d0318651c8e2d51b269504769
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4bd5fae6e9f008649366cf922ef117f5b6f7560a7764c4f8d81552a255de48a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495869"
 ---
-# <a name="icm_getbufferswanted-message"></a>\_Message GETBUFFERSWANTED ICM
+# <a name="icm_getbufferswanted-message"></a>ICM \_ Message GETBUFFERSWANTED
 
-Le **message \_ GETBUFFERSWANTED ICM** interroge un pilote sur le nombre de mémoires tampons à allouer. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICGetBuffersWanted**](/windows/desktop/api/Vfw/nf-vfw-icgetbufferswanted) .
+le message **ICM \_ GETBUFFERSWANTED** interroge un pilote sur le nombre de mémoires tampons à allouer. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICGetBuffersWanted**](/windows/desktop/api/Vfw/nf-vfw-icgetbufferswanted) .
 
 
 ```C++
@@ -49,7 +49,7 @@ Adresse qui contient le nombre d’échantillons dont le pilote a besoin pour re
 
 Retourne ICERR \_ OK en cas de réussite ou ICERR \_ non pris en charge dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est utilisé par les pilotes qui utilisent le matériel pour afficher les données et qui souhaitent garantir un délai minimal en raison de l’arrivée d’une mémoire tampon. Par exemple, si un pilote contrôle une carte de décompression vidéo qui peut contenir 10 images vidéo, il peut renvoyer 10 pour ce message. Cela indique aux applications d’essayer de conserver 10 frames à l’avance du frame dont il a besoin.
 

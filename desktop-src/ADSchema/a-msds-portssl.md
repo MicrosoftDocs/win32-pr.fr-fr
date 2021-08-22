@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d25b46c8d76416d543007139cee8038a25f2a92e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 354b92228e78dea4c2a66595cafe507c0cf0180445fa47083e208755e95658fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119294409"
 ---
 # <a name="ms-ds-port-ssl-attribute"></a>attribut ms-DS-port-SSL
 
@@ -36,7 +36,7 @@ Spécifie le port utilisé par le service d’annuaire pour les demandes SSL.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1860              |
 | System-ID-GUID    | 2c85cfc2-2061-468c-a0ea-c8e0910f7374 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

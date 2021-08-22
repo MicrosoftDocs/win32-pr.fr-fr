@@ -3,7 +3,7 @@ title: MetadataPicture. Description
 description: La propriété Description récupère une description de l’image de métadonnées.
 ms.assetid: 7a07a8a0-d50a-4951-95a8-c1285a1be737
 keywords:
-- MetadataPicture. Description du lecteur Windows Media
+- MetadataPicture. description Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbacd8f2fbded3501100809de166651ca56cca8d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 32868fbf276b5892bb5444093bf683920233483aa9756a5cc4ea63b490c0d023
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508359"
 ---
 # <a name="metadatapicturedescription"></a>MetadataPicture. Description
 
@@ -33,7 +33,7 @@ La propriété **Description** récupère une description de l’image de métad
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

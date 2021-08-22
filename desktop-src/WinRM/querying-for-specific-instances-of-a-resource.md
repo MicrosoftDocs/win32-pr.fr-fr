@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 30ae068c712dd04ba892220657ad64820a890040
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f757b6392ec26f809004d599f6c5603629d23e8eb7a7f4b08a4f3a4ef18791a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642849"
 ---
 # <a name="querying-for-specific-instances-of-a-resource"></a>Interrogation d’instances spécifiques d’une ressource
 
@@ -48,7 +48,7 @@ Dans cet exemple, le nom de ressource de la constante de ressource est représen
 
     
 
-3.  Construire la chaîne de filtrage. Windows Remote Management prend en charge [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi) comme dialecte de filtre.
+3.  Construire la chaîne de filtrage. Windows La gestion à distance prend en charge [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi) comme dialecte de filtre.
 
     ```VB
     strFilter = "SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IpEnabled=TRUE"
@@ -116,7 +116,7 @@ End Sub
 
 <dl> <dt>
 
-[Utilisation de Windows Remote Management](using-windows-remote-management.md)
+[utilisation de Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
 [Énumération ou liste de toutes les instances d’une ressource](enumerating-or-listing-all-instances-of-a-resource.md)
@@ -125,6 +125,6 @@ End Sub
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

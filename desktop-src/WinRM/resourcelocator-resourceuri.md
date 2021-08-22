@@ -4,9 +4,9 @@ description: Obtient ou définit l’URI de ressource dans un objet ResourceLoca
 ms.assetid: adb1e08a-290f-4a23-a6e4-d7567a6b7eee
 ms.tgt_platform: multiple
 keywords:
-- Propriété ResourceURI Windows Remote Management
-- Propriété ResourceURI Windows Remote Management, objet ResourceLocator
-- Objet ResourceLocator Windows Remote Management, propriété ResourceURI
+- propriété ResourceURI Windows Remote Management
+- propriété ResourceURI Windows Remote Management, objet ResourceLocator
+- objet ResourceLocator Windows Remote Management, propriété ResourceURI
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f804835b5445c32f74094e8280a598785d1526
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 323240462dad32ba757897798b663b78b373ebb3ab3e60c3387dd7da8eef4c85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642859"
 ---
 # <a name="resourcelocatorresourceuri-property"></a>ResourceLocator. ResourceURI, propriété
 
@@ -43,7 +43,7 @@ ResourceLocator.ResourceURI As string
 
 Chaîne qui identifie la ressource. Lors de la définition de l’URI de ressource pour un objet [**ResourceLocator**](resourcelocator.md) , l’URI doit contenir uniquement le chemin d’accès.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici un exemple de chemin d’accès approprié pour [**resourceuri**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_resourceuri).
 

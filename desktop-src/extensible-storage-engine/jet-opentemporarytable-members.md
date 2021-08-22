@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 55104223
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: af149ecba6858aca4b4877fc9446872386406838
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 934ea18663e2fd2de786bb44d32482f42fd45d38b9e6ec23e73caf815560b264
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119560039"
 ---
 # <a name="jet_opentemporarytable-members"></a>Membres JET_OPENTEMPORARYTABLE
 
@@ -59,7 +59,7 @@ Haut
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>
 <td><a href="dn335290(v=exchg.10).md">cbKeyMost</a></td>
-<td>Obtient ou définit la taille maximale d’une clé représentant une ligne donnée. La taille de clé maximale peut être définie pour contrôler la façon dont les clés sont tronquées. La troncation de clé est importante, car elle peut affecter le moment où les lignes sont considérées comme distinctes. Si ce paramètre a la valeur 0 ou 255, la taille maximale de la clé et sa sémantique restent identiques à la taille de clé maximale prise en charge par Windows Server 2003. Ce paramètre peut également être défini sur une valeur supérieure en fonction de la taille de page de la base de données pour l’instance <a href="hh596135(v=exchg.10).md">DatabasePageSize</a>. Pour <a href="dn335292(v=exchg.10).md">plus</a> d’informations, consultez.</td>
+<td>Obtient ou définit la taille maximale d’une clé représentant une ligne donnée. La taille de clé maximale peut être définie pour contrôler la façon dont les clés sont tronquées. La troncation de clé est importante, car elle peut affecter le moment où les lignes sont considérées comme distinctes. si ce paramètre a la valeur 0 ou 255, la taille maximale de la clé et sa sémantique restent identiques à la taille de clé maximale prise en charge par Windows Server 2003. Ce paramètre peut également être défini sur une valeur supérieure en fonction de la taille de page de la base de données pour l’instance <a href="hh596135(v=exchg.10).md">DatabasePageSize</a>. Pour <a href="dn335292(v=exchg.10).md">plus</a> d’informations, consultez.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /></td>

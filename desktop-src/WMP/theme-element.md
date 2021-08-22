@@ -3,19 +3,19 @@ title: Élément THEMe
 description: Élément THEMe
 ms.assetid: fe7e793e-1774-412c-aed2-721ed2cf1bb3
 keywords:
-- Apparences du lecteur Windows Media, élément de thème
+- apparences de Lecteur Windows Media, élément theme
 - apparences, élément THEMe
 - Élément THEMe
 - référence pour les apparences, élément THEMe
 - éléments, thème
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8cd0d40b4b020cf5416569417401af9e4f3a33b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c15091ffa93e3ae64a06979580931c27bdf4c1cd2e26c7acc206d76de8b0fc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507389"
 ---
 # <a name="theme-element"></a>Élément THEMe
 
@@ -32,11 +32,11 @@ L’élément **Theme** prend en charge les attributs suivants.
 | [intellectuelle](theme-copyright.md)         | Spécifie ou récupère la chaîne de copyright pour l’apparence.                                                                       |
 | [currentViewID](theme-currentviewid.md) | Spécifie ou récupère la **vue** actuellement affichée.                                                                        |
 | [title](theme-title.md)                 | Spécifie ou récupère le titre de l’apparence.                                                                                   |
-| [version](theme-version.md)             | Spécifie ou récupère le numéro de version du lecteur Windows Media pour lequel l’apparence a été créée. Ne peut être défini qu’au moment de la conception. |
+| [version](theme-version.md)             | spécifie ou récupère le numéro de version Lecteur Windows Media pour lequel l’apparence a été créée. Ne peut être défini qu’au moment de la conception. |
 
 
 
- 
+ 
 
 L’élément **Theme** prend en charge les méthodes suivantes.
 
@@ -56,7 +56,7 @@ L’élément **Theme** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’élément **Theme** ne prend pas en charge les gestionnaires d’événements.
 
@@ -67,9 +67,9 @@ L’élément **Theme** ne prend pas en charge les gestionnaires d’événement
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

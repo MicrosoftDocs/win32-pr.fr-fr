@@ -4,12 +4,12 @@ ms.assetid: 16771121-cb10-42b4-babc-59270188495a
 title: Dépendances de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c139d0d6e78288b25e42bd0a84b29432cebb44ca
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ed2976426d652ca50c4e7399f39e98ba13ef337d15ef8c15a2271d4a562d1790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499729"
 ---
 # <a name="synchronization-dependencies"></a>Dépendances de synchronisation
 

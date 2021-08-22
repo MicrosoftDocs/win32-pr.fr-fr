@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97b398d611cc832154898386e6faf547bd7b695c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ad0aa987f9c7b539da3332b89b672f181b7f41da6ebca64aaf22f33fc3503fb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532829"
 ---
 # <a name="add-guid-extended-right"></a>Add-GUID étendu droit
 
@@ -39,7 +39,7 @@ Droit étendu nécessaire à la racine du contexte de nommage pour ajouter un ob
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -3,7 +3,7 @@ title: STN_ENABLE le code de notification (winuser. h)
 description: Le STN \_ activer le code de notification est envoyé lorsqu’un contrôle statique est activé.
 ms.assetid: daac2ed3-c7cd-46f8-abfa-78754b277ef4
 keywords:
-- Contrôles Windows de code de notification STN_ENABLE
+- STN_ENABLE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfc9cc21e884a8a7e907054daa48a21678efa65e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c1ffea3e3bf4deda67a0ea950ded7e4f16718ace502d16922e50d3750d90bc8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642539"
 ---
 # <a name="stn_enable-notification-code"></a>STN \_ activer le code de notification
 
@@ -59,8 +59,8 @@ Handle vers le contrôle statique.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

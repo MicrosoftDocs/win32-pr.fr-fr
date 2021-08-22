@@ -1,22 +1,22 @@
 ---
 title: Administration du cache d’homologue
-description: Remarque à compter de Windows 7, le modèle de mise en cache d’homologue Service de transfert intelligent en arrière-plan (BITS) 3,0 est déconseillé.
+description: remarque à compter de Windows 7, le modèle de mise en cache d’homologue Service de transfert intelligent en arrière-plan (BITS) 3,0 est déconseillé.
 ms.assetid: a33a43e5-02f9-4902-ad3a-ec65b0d80520
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40b3ea1dd19c9aca855ffd73e174dcb3b588a54d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f3821cc0894754b8dbc2ee9f9a189381ac69030d39938c8f6cb4bc52625ef03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588749"
 ---
 # <a name="administering-the-peer-cache"></a>Administration du cache d’homologue
 
 > [!Note]  
-> À compter de Windows 7, le modèle de mise en cache d’homologue Service de transfert intelligent en arrière-plan (BITS) 3,0 est déconseillé. Si BITS 4,0 est installé, le modèle de mise en cache d’homologue BITS 3,0 n’est pas disponible.
+> à partir de Windows 7, le modèle de mise en cache d’homologue Service de transfert intelligent en arrière-plan (BITS) 3,0 est déconseillé. Si BITS 4,0 est installé, le modèle de mise en cache d’homologue BITS 3,0 n’est pas disponible.
 
- 
+ 
 
 Pour améliorer les performances de téléchargement, BITS vous permet de télécharger du contenu à partir d’ordinateurs homologues. Pour activer cette fonctionnalité, l’administrateur doit activer le paramètre de stratégie de groupe EnablePeerCaching. S’il est activé, l’homologue peut télécharger du contenu à partir de pairs et servir du contenu à des homologues. L’administrateur peut également utiliser les paramètres de stratégie DisablePeerCachingClient et DisablePeerCachingServer pour empêcher le téléchargement de contenu à partir d’un homologue ou la fourniture de contenu à des homologues, respectivement.
 
@@ -32,9 +32,9 @@ Pour répertorier les fichiers dans le cache que BITS servira aux homologues, ap
 
 Vous ne devez jamais avoir à gérer le cache d’homologue en ce qui concerne la découverte d’homologues ou la suppression d’enregistrements de cache. Cette fonctionnalité a été incluse dans l’interface [**IBitsPeerCacheAdministration**](/windows/desktop/api/Bits3_0/nn-bits3_0-ibitspeercacheadministration) à des fins d’exhaustivité.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: A1B1E088-72D3-4B5F-B868-64896AF04EF1
 title: MFPKEY_MediaProtectionSystemContext, propriété
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 130d8a42883acb2ca32870242a28e2ca6db8b320
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a64efadd5d0e3145a036236f7f173aae1c1fb4f4920102b428fccfabfd04bd0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663369"
 ---
 # <a name="mfpkey_mediaprotectionsystemcontext-property"></a>MFPKEY \_ propriété MediaProtectionSystemContext
 

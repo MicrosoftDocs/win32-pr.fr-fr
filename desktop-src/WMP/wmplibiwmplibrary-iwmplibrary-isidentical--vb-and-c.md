@@ -3,9 +3,9 @@ title: Méthode IWMPLibrary isIdentical
 description: La méthode isIdentical retourne une valeur qui indique si l’objet fourni est le même que celui en cours.
 ms.assetid: c4eebc46-6a5f-4f9a-8cd4-7421b156670c
 keywords:
-- méthode isIdentical lecteur Windows Media
-- méthode isIdentical lecteur Windows Media, interface IWMPLibrary
-- Interface IWMPLibrary lecteur Windows Media, méthode isIdentical
+- Lecteur Windows Media de la méthode isIdentical
+- méthode isIdentical Lecteur Windows Media, interface IWMPLibrary
+- Lecteur Windows Media de l’interface IWMPLibrary, méthode isIdentical
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53071caa98b8f8e3ccb95e926969926cc68e7860
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d0ed37725bbda5b170ece8ce71c12499b42f0b361cbac3bbe65f1b875af06fc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506049"
 ---
 # <a name="iwmplibraryisidentical-method"></a>IWMPLibrary :: isIdentical, méthode
 

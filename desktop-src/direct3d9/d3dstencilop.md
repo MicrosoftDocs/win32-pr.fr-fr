@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 34784a57d3afd3862d380554040f3909ec905898
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 166f670e6e34edd6a3b05584c54e63be274e54161faea242fa701e771a90a771
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564939"
 ---
 # <a name="d3dstencilop-enumeration"></a>Énumération D3DSTENCILOP
 
@@ -50,7 +50,7 @@ typedef enum D3DSTENCILOP {
 <span id="D3DSTENCILOP_KEEP"></span><span id="d3dstencilop_keep"></span>**D3DSTENCILOP \_ conserver**
 </dt> <dd>
 
-Ne mettez pas à jour l’entrée dans la mémoire tampon du stencil. Il s’agit de la valeur par défaut.
+Ne mettez pas à jour l’entrée dans la mémoire tampon du stencil. Il s'agit de la valeur par défaut.
 
 </dd> <dt>
 
@@ -110,7 +110,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les entrées de mémoire tampon de stencil sont des valeurs entières comprises entre 0 et 2 ⁿ-1, où n est la profondeur en bits de la mémoire tampon du stencil.
 

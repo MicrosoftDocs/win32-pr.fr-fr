@@ -3,8 +3,8 @@ title: Schéma d’étalonnage WCS
 description: Cette rubrique décrit le schéma d’étalonnage du WCS qui développe le profil du modèle de périphérique de couleur WCS.
 ms.assetid: 99f3e9e3-15b7-4bca-87cc-a3bf3b6d0112
 keywords:
-- Système de couleurs Windows (WCS), étalonnage
-- WCS (système de couleurs Windows), étalonnage
+- Windows Système de couleurs (WCS), étalonnage
+- WCS (Windows Color System), étalonnage
 - gestion des couleurs des images, étalonnage
 - gestion des couleurs, étalonnage
 - couleurs, étalonnage
@@ -14,12 +14,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e859ab9d2b47355db063961004f17a8cc1537694
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 3744f8aa0190f09acf80b469ae01fddb035c48deda73d53871094ef9ece8e88b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106545866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451419"
 ---
 # <a name="wcs-calibration-schema"></a>Schéma d’étalonnage WCS
 
@@ -27,7 +27,7 @@ Cette rubrique décrit le schéma d’étalonnage du WCS qui développe le [Prof
 
 ## <a name="the-wcs-calibration-schema"></a>Schéma d’étalonnage WCS
 
-La définition de schéma suivante est utilisée pour spécifier les nouvelles définitions Windows 7 qui prennent en charge l’étalonnage du [profil de modèle de périphérique de couleur WCS](wcs-color-device-model-profile-schema-and-algorithms.md) .
+la définition de schéma suivante est utilisée pour spécifier les nouvelles définitions de Windows 7 qui prennent en charge l’étalonnage du [profil de modèle de périphérique de couleur WCS](wcs-color-device-model-profile-schema-and-algorithms.md) .
 
 
 ```C++
@@ -74,7 +74,7 @@ La définition de schéma suivante est utilisée pour spécifier les nouvelles d
 
 
 
-Pour la compatibilité avec Windows Vista, les profils contenant des balises d’étalonnage doivent inclure l’attribut `mc:Ignoreable="cdm_calibration"` .
+pour la compatibilité avec Windows Vista, les profils qui contiennent des balises d’étalonnage doivent inclure l’attribut `mc:Ignoreable="cdm_calibration"` .
 
  
 

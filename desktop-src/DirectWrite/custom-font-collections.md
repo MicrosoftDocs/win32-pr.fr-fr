@@ -4,12 +4,12 @@ description: DirectWrite permet d’accéder à la collection de polices systèm
 ms.assetid: ec892904-6778-4fbd-93b4-62d0db5b82ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39aa764330f27b72051ef682c6ce5f1176c42c7d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ffc76214dda067b43c27c8e04e4419f147d0e33b7566b4dedc5ac3255a1c1dc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290759"
 ---
 # <a name="custom-font-collections-windows-78"></a>Collections de polices personnalisées (Windows 7/8)
 
@@ -35,18 +35,18 @@ Le chargeur de collection de polices doit éventuellement être déchargé à l�
 > [!Note]  
 > L’inscription du chargeur de collection de polices ajoute au décompte de références. n’appelez pas [**UnregisterFontCollectionLoader**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontcollectionloader) à partir du destructeur ou l’objet chargeur de collection ne sera jamais inscrit.
 
- 
+ 
 
 ## <a name="idwritefontcollectionloader"></a>IDWriteFontCollectionLoader
 
 Vous créez un objet [**IDWriteFontFileEnumerator**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator) à l’aide de [**IDWriteFactory :: CreateCustomFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection) et en lui transmettant une clé définie par l’application. La clé est un pointeur void et le type de données, le format et la signification sont définis par l’application et sont opaques pour le système de polices.
 
-Alors que la clé peut être n’importe quoi, [DirectWrite](direct-write-portal.md) requiert que chaque clé soit à la fois :
+alors que la clé peut être n’importe quoi, [DirectWrite](direct-write-portal.md) nécessite que chaque clé soit à la fois :
 
 -   Unique à une collection de polices unique dans l’étendue du chargeur.
 -   Valide jusqu’à ce que le chargeur soit désinscrit à l’aide de la fabrique.
 
-Lorsque la méthode [**CreateCustomFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection) est appelée, [DirectWrite](direct-write-portal.md) rappelle une interface [**IDWriteFontCollectionLoader**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader) implémentée en tant qu’objet singleton par l’application. La méthode de rappel [**IDWriteFontCollectionLoader :: CreateEnumeratorFromKey**](/windows/win32/api/dwrite/nf-dwrite-idwritefontcollectionloader-createenumeratorfromkey) est utilisée par DirectWrite pour récupérer un objet [**IDWriteFontFileEnumerator**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator) implémenté par l’application. L’objet [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) utilisé pour créer la collection est passé à cette méthode et doit être utilisé par l’énumérateur de fichier de police pour créer les objets [**IDWriteFontFile**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) à inclure dans la collection.
+lorsque la méthode [**CreateCustomFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection) est appelée, [DirectWrite](direct-write-portal.md) rappelle à une interface [**IDWriteFontCollectionLoader**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader) implémentée en tant qu’objet singleton par l’application. la méthode de rappel [**IDWriteFontCollectionLoader :: CreateEnumeratorFromKey**](/windows/win32/api/dwrite/nf-dwrite-idwritefontcollectionloader-createenumeratorfromkey) est utilisée par DirectWrite pour récupérer un objet [**IDWriteFontFileEnumerator**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator) implémenté par l’application. L’objet [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) utilisé pour créer la collection est passé à cette méthode et doit être utilisé par l’énumérateur de fichier de police pour créer les objets [**IDWriteFontFile**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) à inclure dans la collection.
 
 La clé passée à cette méthode identifie la collection de polices et est la même clé passée à [**CreateCustomFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection).
 
@@ -57,7 +57,7 @@ L’objet [**IDWriteFontFileEnumerator**](/windows/win32/api/dwrite/nn-dwrite-id
 > [!Note]  
 > L’énumérateur de fichier de police doit commencer par être positionné avant le premier élément et avancé au premier appel de [**MoveNext**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-movenext).
 
- 
+ 
 
 Un objet [**IDWriteFontFile**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) est généré par la méthode [**IDWriteFontFileEnumerator :: GetCurrentFontFile**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-getcurrentfontfile) . S’il n’y a aucun fichier de police à la position actuelle, car [**MoveNext**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-movenext) n’a pas encore été appelé ou hasCurrentFile a été défini sur **false**, **GetCurrentFontFile** retourne alors **E \_ Fail**.
 
@@ -76,10 +76,10 @@ L’objet [**IDWriteFontFileStream**](/windows/win32/api/dwrite/nn-dwrite-idwrit
 > [!Note]  
 > Les implémentations de [**ReadFileFragment**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-readfilefragment) doivent retourner une erreur si le fragment demandé se trouve en dehors des limites du fichier.
 
- 
+ 
 
 Un [**IDWriteFontFileStream**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream) peut récupérer le contenu du fichier de police où que vous soyez, par exemple le lecteur de disque dur local ou les ressources incorporées.
 
- 
+ 
 
- 
+ 

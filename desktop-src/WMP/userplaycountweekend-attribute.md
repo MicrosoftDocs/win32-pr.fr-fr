@@ -3,7 +3,7 @@ title: Attribut UserPlaycountWeekend
 description: L’attribut UserPlaycountWeekend est le nombre de fois que l’élément a été lu sur un samedi ou un dimanche.
 ms.assetid: 672b7ca8-6a1d-470d-bd66-ab7b35a1d55c
 keywords:
-- Attribut UserPlaycountWeekend lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserPlaycountWeekend
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83c7919a352819eafa6d8cd5c3c72d77255824fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3809208abddc317cff7ba9799860a4ee9ccae96e987e94eecab9ad5c3aba226f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507159"
 ---
 # <a name="userplaycountweekend-attribute"></a>Attribut UserPlaycountWeekend
 
@@ -30,7 +30,7 @@ L’attribut **UserPlaycountWeekend** est le nombre de fois que l’élément a 
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

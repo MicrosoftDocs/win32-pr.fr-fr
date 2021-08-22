@@ -148,12 +148,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c1c568e82a0cc145e4e075f7ce14b5690bd4b22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1641c652ed37c021e790fe44969f347c733dbfb265606982857f7c895364814a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501609"
 ---
 # <a name="com-error-codes-stg-rpc"></a>Codes d’erreur COM (STG, RPC)
 
@@ -289,7 +289,7 @@ Si vous rencontrez des difficultés avec une application que vous installez ou e
 | <span id="CO_E_NOMATCHINGNAMEFOUND"></span><span id="co_e_nomatchingnamefound"></span><dl> <dt>**Co \_ \_NOMATCHINGNAMEFOUND**</dt> <dt>0x80010131</dt> </dl>                                        | Impossible de trouver un nom de tiers de confiance qui correspond à un identificateur de sécurité fourni par l’utilisateur<br/>                                                                |
 | <span id="CO_E_LOOKUPACCNAMEFAILED"></span><span id="co_e_lookupaccnamefailed"></span><dl> <dt>**Co \_ \_LOOKUPACCNAMEFAILED**</dt> <dt>0x80010132</dt> </dl>                                        | La fonction système, LookupAccountName, a échoué<br/>                                                                                                              |
 | <span id="CO_E_SETSERLHNDLFAILED"></span><span id="co_e_setserlhndlfailed"></span><dl> <dt>**Co \_ \_SETSERLHNDLFAILED**</dt> <dt>0x80010133</dt> </dl>                                              | Impossible de définir ou de réinitialiser un handle de sérialisation<br/>                                                                                                               |
-| <span id="CO_E_FAILEDTOGETWINDIR"></span><span id="co_e_failedtogetwindir"></span><dl> <dt>**Co \_ \_FAILEDTOGETWINDIR**</dt> <dt>0x80010134</dt> </dl>                                              | Impossible d’obtenir le répertoire Windows<br/>                                                                                                                      |
+| <span id="CO_E_FAILEDTOGETWINDIR"></span><span id="co_e_failedtogetwindir"></span><dl> <dt>**Co \_ \_FAILEDTOGETWINDIR**</dt> <dt>0x80010134</dt> </dl>                                              | impossible d’obtenir le répertoire Windows<br/>                                                                                                                      |
 | <span id="CO_E_PATHTOOLONG"></span><span id="co_e_pathtoolong"></span><dl> <dt>**Co \_ \_PATHTOOLONG**</dt> <dt>0x80010135</dt> </dl>                                                                | Chemin d'accès trop long<br/>                                                                                                                                               |
 | <span id="CO_E_FAILEDTOGENUUID"></span><span id="co_e_failedtogenuuid"></span><dl> <dt>**Co \_ \_FAILEDTOGENUUID**</dt> <dt>0x80010136</dt> </dl>                                                    | Impossible de générer un UUID.<br/>                                                                                                                                  |
 | <span id="CO_E_FAILEDTOCREATEFILE"></span><span id="co_e_failedtocreatefile"></span><dl> <dt>**Co \_ \_FAILEDTOCREATEFILE**</dt> <dt>0x80010137</dt> </dl>                                           | Impossible de créer le fichier<br/>                                                                                                                                       |

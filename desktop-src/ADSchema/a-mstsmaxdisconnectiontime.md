@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46a846454ab450968b854a815d546c33588a1afb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 522201425122ebf525c2ba4bbcc3c4f20a43fafea894082c14aab4a71048ae06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508089"
 ---
 # <a name="ms-ts-max-disconnection-time-attribute"></a>attribut ms-TS-Max-disconnection-Time
 
@@ -36,13 +36,13 @@ Délai maximal de déconnexion de la session des services Terminal Server est la
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1981              |
 | System-ID-GUID    | 326f7089-53d8-4784-b814-46d8535110d2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

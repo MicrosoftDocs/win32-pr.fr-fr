@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7ebd7d22f9cfbd59f95ee3dcfe68229536503b0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd4d9cdd73cd42512fe667b84867328c65f13fafa7281341eca7ba6379eef7d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119476769"
 ---
 # <a name="miscellaneous-tsf-text-service-constants"></a>Constantes diverses de service de texte TSF
 
@@ -41,7 +41,7 @@ Les valeurs suivantes sont utilisées avec les services de texte.
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                             |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                   |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                        |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Ctffunc. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Ctffunc. idl</dt> </dl> |
 

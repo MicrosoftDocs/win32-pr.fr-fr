@@ -6,12 +6,12 @@ keywords:
 - Créer et exécuter un exemple StoClien
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f00274293c05e21e660dc8e9448ca95946cab8a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4d3d9526e81fc3fb2d6a0cfb03e8943ccf68688096588122da87861d8c88e531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663459"
 ---
 # <a name="create-and-run-stoclien-sample"></a>Créer et exécuter un exemple StoClien
 
@@ -49,23 +49,23 @@ Le tableau suivant répertorie les fichiers pertinents pour l’exemple **StoCli
 | PAPFILE. COTISATIONS  | Fichier d’implémentation pour la classe C++ **CPapFile** .                                                                              |
 | GUIPAPER. Manutention   | Déclaration de classe pour la classe C++ **CGuiPaper** .                                                                           |
 | GUIPAPER. COTISATIONS | Fichier d’implémentation pour la classe C++ **CGuiPaper** .                                                                             |
-| STOCLIEN. DSP | Microsoft Visual Studio fichier projet.                                                                                            |
+| STOCLIEN. DSP | Microsoft Visual Studio Project fichier.                                                                                            |
 
 
 
- 
+ 
 
 ## <a name="compound-files"></a>Fichiers composés
 
 **StoClien** s’appuie sur le codocument pour enregistrer les données de dessin. Il s’appuie également sur le copapier pour stocker les données dans un fichier composé. Toutefois, dans une division classique du travail entre le client et le serveur COM, **StoClien** partage une partie de la responsabilité pour le stockage de fichiers. Cette division de main-d’œuvre est importante dans les applications COM où le client est un conteneur et le serveur est un objet incorporé. Dans cette organisation, le client est responsable de la création ou de l’ouverture d’un fichier de stockage structuré, tandis que l’objet serveur est chargé d’utiliser ce stockage pour ses propres fonctions de stockage de données. Cela peut impliquer l’objet serveur qui crée des sous-stockages dans le stockage qui lui est donné. Il implique généralement l’objet serveur qui crée des objets de flux dans le stockage. L’utilisation par le biais de flux de stockage est détaillée dans l’exemple **StoClien** .
 
-L’interface [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) est utilisée par l’objet client et le serveur pour effectuer des opérations sur les fichiers. L’implémentation des fichiers composés de l’architecture de stockage structuré est utilisée. Les fonctions de service standard sont utilisées pour les opérations sur les fichiers composés. Par exemple, la fonction [**StgCreateDocFile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile) crée initialement un fichier composé et transmet un pointeur **IStorage** qui peut être utilisé pour manipuler le fichier. Cette fonction particulière est appelée dans **StoClien**. L’interface **IStorage** qu’elle obtient est transmise en tant que paramètre au codocument pour son utilisation. L’objet codocument ne crée pas ou n’ouvre pas les fichiers composés de manière autonome : il utilise les interfaces **IStorage** et [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) pour travailler dans des fichiers composés qui lui sont attribués.
+L’interface [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) est utilisée par l’objet client et le serveur pour effectuer des opérations sur les fichiers. l’implémentation des fichiers composés de l’architecture Stockage structurée est utilisée. Les fonctions de service standard sont utilisées pour les opérations sur les fichiers composés. Par exemple, la fonction [**StgCreateDocFile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile) crée initialement un fichier composé et transmet un pointeur **IStorage** qui peut être utilisé pour manipuler le fichier. Cette fonction particulière est appelée dans **StoClien**. L’interface **IStorage** qu’elle obtient est transmise en tant que paramètre au codocument pour son utilisation. L’objet codocument ne crée pas ou n’ouvre pas les fichiers composés de manière autonome : il utilise les interfaces **IStorage** et [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) pour travailler dans des fichiers composés qui lui sont attribués.
 
 Ces interfaces [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) et [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) ne sont pas implémentées dans **StoClien** ou **StoServe**. Elles sont implémentées dans les bibliothèques COM. Lorsqu’un pointeur vers l’une de ces interfaces est obtenu, leurs méthodes sont essentiellement utilisées comme un ensemble de services pour opérer sur un fichier composé.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c94bb62b822552a863df99dac83e98462514c42
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ee025cb904d0e37a0498b021183ea0ab8f45f621644843734ddef16d842d6ac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106517351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119294629"
 ---
 # <a name="ms-ds-per-user-trust-tombstones-quota-attribute"></a>MS-DS-par-utilisateur-confiance-Tombstone-attribut de quota
 
@@ -36,7 +36,7 @@ Utilisé pour appliquer un quota par utilisateur pour la suppression d’objets 
 | Fréquence des mises à jour  | À la création de la forêt et rarement après cela. |
 | Attribute-Id      | 1.2.840.113556.1.4.1790                   |
 | System-ID-GUID    | 8b70a6c6-50f9-4fa3-a71e-1ce03040449b      |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)      |
+| Syntaxe            | [**Énumération**](s-enumeration.md)      |
 
 
 
@@ -44,7 +44,7 @@ Utilisé pour appliquer un quota par utilisateur pour la suppression d’objets 
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

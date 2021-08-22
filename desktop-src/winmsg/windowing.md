@@ -1,19 +1,19 @@
 ---
-description: La section fenêtrage décrit les éléments d’une application avec une interface utilisateur graphique Windows.
+description: la section fenêtrage décrit les éléments d’une application avec une interface utilisateur graphique basée sur la Windows.
 ms.assetid: 2e00186d-cc1f-4954-a074-685efacb46de
-title: Fenêtres et messages
+title: Windows et Messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed13b7507ba48a984d5eb1bb237794fb54434f01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21f30a34033ea34a384e3895e92145dc25068eb9aea424a80487514dc46087c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587679"
 ---
-# <a name="windows-and-messages"></a>Fenêtres et messages
+# <a name="windows-and-messages"></a>Windows et Messages
 
-Les sections suivantes décrivent les éléments d’une application avec une interface utilisateur graphique Windows.
+les sections suivantes décrivent les éléments d’une application avec une interface utilisateur graphique basée sur Windows.
 
 ### <a name="in-this-section"></a>Dans cette section
 

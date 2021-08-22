@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2d328b9ffe52b52313c810dca42eb70531458b0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4600980c2d5aafdea73a704e7aabd3f1f9a1808aada48b9245efd8cb526b7b6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533289"
 ---
 # <a name="user-class"></a>Classe d’utilisateur
 
@@ -42,7 +42,7 @@ Cette classe est utilisée pour stocker des informations sur un employé ou un e
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -71,9 +71,9 @@ Cette classe est utilisée pour stocker des informations sur un employé ou un e
 
 
 
-## <a name="windows-2000-server-attributes"></a>Attributs du serveur Windows 2000
+## <a name="windows-2000-server-attributes"></a>attributs de serveur Windows 2000
 
-Cette classe contient les attributs suivants pour le serveur Windows 2000 :
+cette classe contient les attributs suivants pour Windows serveur 2000 :
 
 
 
@@ -107,7 +107,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**Date et heure de création**](a-createtimestamp.md)                               | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**DBCS-pwd**](a-dbcspwd.md)                                                | Faux     | **Utilisateur**                                                                                                                   |
 | [**Default-Class-Store**](a-defaultclassstore.md)                           | Faux     | **Utilisateur**                                                                                                                   |
-| [**Compétent**](a-department.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Service**](a-department.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Description**](a-description.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Bureau-profil**](a-desktopprofile.md)                                  | Faux     | **Utilisateur**                                                                                                                   |
 | [**Destination-indicateur**](a-destinationindicator.md)                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
@@ -121,7 +121,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**ID d’employé**](a-employeeid.md)                                          | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Nom de l’extension**](a-extensionname.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Télécopie-numéro de téléphone**](a-facsimiletelephonenumber.md)             | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Père**](a-flags.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
+| [**Indicateurs**](a-flags.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Entrée de**](a-fromentry.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
@@ -156,7 +156,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**Objets managés**](a-managedobjects.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Gestion**](a-manager.md)                                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Masterisé-par**](a-masteredby.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
-| [**Max-stockage**](a-maxstorage.md)                                          | Faux     | **Utilisateur**                                                                                                                   |
+| [**Max-Stockage**](a-maxstorage.md)                                          | Faux     | **Utilisateur**                                                                                                                   |
 | [**MHS-ou-adresse**](a-mhsoraddress.md)                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Date et heure de modification**](a-modifytimestamp.md)                               | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**MS-DS-Consistency-enfant-nombre**](a-ms-ds-consistencychildcount.md)       | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
@@ -198,22 +198,22 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**Partial-attribute-set**](a-partialattributeset.md)                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Personnel-titre**](a-personaltitle.md)                                    | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Téléphone-télécopie-autre**](a-otherfacsimiletelephonenumber.md)                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-bureau-autre**](a-otherhomephone.md)                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-privé-principal**](a-homephone.md)                                    | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-IP-autre**](a-otheripphone.md)                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-IP-principal**](a-ipphone.md)                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-RNIS-principal**](a-primaryinternationalisdnnumber.md)               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-mobile-autre**](a-othermobile.md)                                  | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-mobile-principal**](a-mobile.md)                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-bureau-autre**](a-othertelephone.md)                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-radiomessagerie-autre**](a-otherpager.md)                                    | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-récepteur de radiomessagerie principal**](a-pager.md)                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-à-soi-autre**](a-otherhomephone.md)                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-page d’hébergement principal**](a-homephone.md)                                    | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-Ip-autre**](a-otheripphone.md)                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-Ip-principal**](a-ipphone.md)                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-rnis-principal**](a-primaryinternationalisdnnumber.md)               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-Mobile-autres**](a-othermobile.md)                                  | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-Mobile-principal**](a-mobile.md)                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-Office-autre**](a-othertelephone.md)                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-téléavertisseur-autre**](a-otherpager.md)                                    | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-page de récepteur-principal**](a-pager.md)                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Aperçu**](a-thumbnailphoto.md)                                          | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Possible-inférieur**](a-possibleinferiors.md)                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Adresse postale**](a-postaladdress.md)                                    | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Code postal**](a-postalcode.md)                                          | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Boîte postale**](a-postofficebox.md)                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**boîte de Office**](a-postofficebox.md)                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Méthode de remise par défaut**](a-preferreddeliverymethod.md)               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**UO préférée**](a-preferredou.md)                                        | Faux     | **Utilisateur**                                                                                                                   |
 | [**ID de groupe principal**](a-primarygroupid.md)                                 | Faux     | **Utilisateur**                                                                                                                   |
@@ -257,7 +257,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**Serveur Terminal Server**](a-terminalserver.md)                                  | Faux     | **Utilisateur**                                                                                                                   |
 | [**Texte-pays**](a-co.md)                                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Texte-ou-adresse**](a-textencodedoraddress.md)                    | Faux     | [**E-mail-destinataire**](c-mailrecipient.md)<br/>                                                                       |
-| [**Intitulé**](a-title.md)                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Titre**](a-title.md)                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Jetons-groupes**](a-tokengroups.md)                                        | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                               |
 | [**Token-Groups-global-et-Universal**](a-tokengroupsglobalanduniversal.md) | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                               |
 | [**Token-Groups-non-GC-acceptable**](a-tokengroupsnogcacceptable.md)         | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                               |
@@ -289,9 +289,9 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 
 
 
-## <a name="windows-2000-server-extended-rights"></a>Droits étendus du serveur Windows 2000
+## <a name="windows-2000-server-extended-rights"></a>droits étendus du serveur Windows 2000
 
-Cette classe contient les droits étendus suivants pour le serveur Windows 2000 :
+cette classe contient les droits étendus suivants pour Windows serveur 2000 :
 
 
 
@@ -304,9 +304,9 @@ Cette classe contient les droits étendus suivants pour le serveur Windows 2000�
 
 
 
-## <a name="windows-2000-server-property-sets"></a>Jeux de propriétés de serveur Windows 2000
+## <a name="windows-2000-server-property-sets"></a>jeux de propriétés de serveur Windows 2000
 
-Cette classe contient les jeux de propriétés suivants pour le serveur Windows 2000 :
+cette classe contient les jeux de propriétés suivants pour Windows serveur 2000 :
 
 
 
@@ -315,7 +315,7 @@ Cette classe contient les jeux de propriétés suivants pour le serveur Windows 
 | [**Informations générales**](r-general-information.md)             |
 | [**Compte d’utilisateur-restrictions**](r-user-account-restrictions.md) |
 | [**Ouverture de session utilisateur**](r-user-logon.md)                               |
-| [**Member**](r-membership.md)                               |
+| [**Appartenance**](r-membership.md)                               |
 | [**Informations personnelles**](r-personal-information.md)           |
 | [**E-mail-informations**](r-email-information.md)                 |
 | [**Informations Web**](r-web-information.md)                     |
@@ -349,9 +349,9 @@ Cette classe contient les jeux de propriétés suivants pour le serveur Windows 
 
 
 
-## <a name="windows-server-2003-attributes"></a>Attributs Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Attributs du serveur 2003
 
-Cette classe contient les attributs suivants pour Windows Server 2003 :
+cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
@@ -389,7 +389,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**Date et heure de création**](a-createtimestamp.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**DBCS-pwd**](a-dbcspwd.md)                                                       | Faux     | **Utilisateur**                                                                                                                   |
 | [**Default-Class-Store**](a-defaultclassstore.md)                                  | Faux     | **Utilisateur**                                                                                                                   |
-| [**Compétent**](a-department.md)                                                  | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Service**](a-department.md)                                                  | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**departmentNumber**](a-departmentnumber.md)                                      | Faux     | **Utilisateur**                                                                                                                   |
 | [**Description**](a-description.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Bureau-profil**](a-desktopprofile.md)                                         | Faux     | **Utilisateur**                                                                                                                   |
@@ -406,7 +406,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**Type d’employé**](a-employeetype.md)                                             | Faux     | **Utilisateur**                                                                                                                   |
 | [**Nom de l’extension**](a-extensionname.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Télécopie-numéro de téléphone**](a-facsimiletelephonenumber.md)                    | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Père**](a-flags.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
+| [**Indicateurs**](a-flags.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Entrée de**](a-fromentry.md)                                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
@@ -445,7 +445,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**Objets managés**](a-managedobjects.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Gestion**](a-manager.md)                                                        | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                |
 | [**Masterisé-par**](a-masteredby.md)                                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
-| [**Max-stockage**](a-maxstorage.md)                                                 | Faux     | **Utilisateur**                                                                                                                   |
+| [**Max-Stockage**](a-maxstorage.md)                                                 | Faux     | **Utilisateur**                                                                                                                   |
 | [**MHS-ou-adresse**](a-mhsoraddress.md)                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Date et heure de modification**](a-modifytimestamp.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**MS-COM-PartitionSetLink**](a-mscom-partitionsetlink.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
@@ -517,23 +517,23 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**Partial-attribute-set**](a-partialattributeset.md)                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Personnel-titre**](a-personaltitle.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Téléphone-télécopie-autre**](a-otherfacsimiletelephonenumber.md)                          | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-bureau-autre**](a-otherhomephone.md)                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-privé-principal**](a-homephone.md)                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                |
-| [**Téléphone-IP-autre**](a-otheripphone.md)                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-IP-principal**](a-ipphone.md)                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-RNIS-principal**](a-primaryinternationalisdnnumber.md)                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-mobile-autre**](a-othermobile.md)                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-mobile-principal**](a-mobile.md)                                            | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                |
-| [**Téléphone-bureau-autre**](a-othertelephone.md)                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-radiomessagerie-autre**](a-otherpager.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Téléphone-récepteur de radiomessagerie principal**](a-pager.md)                                              | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                |
+| [**Téléphone-à-soi-autre**](a-otherhomephone.md)                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-page d’hébergement principal**](a-homephone.md)                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                |
+| [**Téléphone-Ip-autre**](a-otheripphone.md)                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-Ip-principal**](a-ipphone.md)                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-rnis-principal**](a-primaryinternationalisdnnumber.md)                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-Mobile-autres**](a-othermobile.md)                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-Mobile-principal**](a-mobile.md)                                            | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                |
+| [**Téléphone-Office-autre**](a-othertelephone.md)                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-téléavertisseur-autre**](a-otherpager.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Téléphone-page de récepteur-principal**](a-pager.md)                                              | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                |
 | [**photos**](a-photo.md)                                                            | Faux     | **Utilisateur**                                                                                                                   |
-| [**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Aperçu**](a-thumbnailphoto.md)                                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Possible-inférieur**](a-possibleinferiors.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                            |
 | [**Adresse postale**](a-postaladdress.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Code postal**](a-postalcode.md)                                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
-| [**Boîte postale**](a-postofficebox.md)                                          | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**boîte de Office**](a-postofficebox.md)                                          | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Méthode de remise par défaut**](a-preferreddeliverymethod.md)                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**preferredLanguage**](a-preferredlanguage.md)                                    | Faux     | **Utilisateur**                                                                                                                   |
 | [**UO préférée**](a-preferredou.md)                                               | Faux     | **Utilisateur**                                                                                                                   |
@@ -582,7 +582,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**Serveur Terminal Server**](a-terminalserver.md)                                         | Faux     | **Utilisateur**                                                                                                                   |
 | [**Texte-pays**](a-co.md)                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Texte-ou-adresse**](a-textencodedoraddress.md)                           | Faux     | [**E-mail-destinataire**](c-mailrecipient.md)<br/>                                                                       |
-| [**Intitulé**](a-title.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
+| [**Titre**](a-title.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                         |
 | [**Jetons-groupes**](a-tokengroups.md)                                               | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                               |
 | [**Token-Groups-global-et-Universal**](a-tokengroupsglobalanduniversal.md)        | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                               |
 | [**Token-Groups-non-GC-acceptable**](a-tokengroupsnogcacceptable.md)                | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                               |
@@ -617,9 +617,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
-## <a name="windows-server-2003-extended-rights"></a>Droits étendus Windows Server 2003
+## <a name="windows-server-2003-extended-rights"></a>Windows Droits étendus du serveur 2003
 
-Cette classe contient les droits étendus suivants pour Windows Server 2003 :
+cette classe contient les droits étendus suivants pour Windows Server 2003 :
 
 
 
@@ -633,9 +633,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2003 :
 
 
 
-## <a name="windows-server-2003-property-sets"></a>Jeux de propriétés Windows Server 2003
+## <a name="windows-server-2003-property-sets"></a>Windows Jeux de propriétés du serveur 2003
 
-Cette classe contient les jeux de propriétés suivants pour Windows Server 2003 :
+cette classe contient les jeux de propriétés suivants pour Windows Server 2003 :
 
 
 
@@ -644,7 +644,7 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2003
 | [**Informations générales**](r-general-information.md)             |
 | [**Compte d’utilisateur-restrictions**](r-user-account-restrictions.md) |
 | [**Ouverture de session utilisateur**](r-user-logon.md)                               |
-| [**Member**](r-membership.md)                               |
+| [**Appartenance**](r-membership.md)                               |
 | [**Informations personnelles**](r-personal-information.md)           |
 | [**E-mail-informations**](r-email-information.md)                 |
 | [**Informations Web**](r-web-information.md)                     |
@@ -678,9 +678,9 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2003
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Attributs Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Attributs du serveur 2003 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
+cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
@@ -718,7 +718,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**Date et heure de création**](a-createtimestamp.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**DBCS-pwd**](a-dbcspwd.md)                                                       | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Default-Class-Store**](a-defaultclassstore.md)                                  | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**Compétent**](a-department.md)                                                  | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Service**](a-department.md)                                                  | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**departmentNumber**](a-departmentnumber.md)                                      | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Description**](a-description.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/>                                        |
 | [**Bureau-profil**](a-desktopprofile.md)                                         | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -735,7 +735,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**Type d’employé**](a-employeetype.md)                                             | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Nom de l’extension**](a-extensionname.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Télécopie-numéro de téléphone**](a-facsimiletelephonenumber.md)                    | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Père**](a-flags.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
+| [**Indicateurs**](a-flags.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Entrée de**](a-fromentry.md)                                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
@@ -777,7 +777,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**Objets managés**](a-managedobjects.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Gestion**](a-manager.md)                                                        | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
 | [**Masterisé-par**](a-masteredby.md)                                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
-| [**Max-stockage**](a-maxstorage.md)                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**Max-Stockage**](a-maxstorage.md)                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MHS-ou-adresse**](a-mhsoraddress.md)                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Date et heure de modification**](a-modifytimestamp.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**MS-COM-PartitionSetLink**](a-mscom-partitionsetlink.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
@@ -855,23 +855,23 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**Partial-attribute-set**](a-partialattributeset.md)                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Personnel-titre**](a-personaltitle.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Téléphone-télécopie-autre**](a-otherfacsimiletelephonenumber.md)                          | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-bureau-autre**](a-otherhomephone.md)                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-privé-principal**](a-homephone.md)                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
-| [**Téléphone-IP-autre**](a-otheripphone.md)                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-IP-principal**](a-ipphone.md)                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-RNIS-principal**](a-primaryinternationalisdnnumber.md)                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-mobile-autre**](a-othermobile.md)                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-mobile-principal**](a-mobile.md)                                            | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
-| [**Téléphone-bureau-autre**](a-othertelephone.md)                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-radiomessagerie-autre**](a-otherpager.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-récepteur de radiomessagerie principal**](a-pager.md)                                              | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-à-soi-autre**](a-otherhomephone.md)                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-page d’hébergement principal**](a-homephone.md)                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-Ip-autre**](a-otheripphone.md)                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Ip-principal**](a-ipphone.md)                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-rnis-principal**](a-primaryinternationalisdnnumber.md)                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Mobile-autres**](a-othermobile.md)                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Mobile-principal**](a-mobile.md)                                            | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-Office-autre**](a-othertelephone.md)                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-téléavertisseur-autre**](a-otherpager.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-page de récepteur-principal**](a-pager.md)                                              | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
 | [**photos**](a-photo.md)                                                            | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Aperçu**](a-thumbnailphoto.md)                                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Possible-inférieur**](a-possibleinferiors.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Adresse postale**](a-postaladdress.md)                                           | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Code postal**](a-postalcode.md)                                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Boîte postale**](a-postofficebox.md)                                          | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**boîte de Office**](a-postofficebox.md)                                          | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Méthode de remise par défaut**](a-preferreddeliverymethod.md)                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**preferredLanguage**](a-preferredlanguage.md)                                    | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**UO préférée**](a-preferredou.md)                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -927,7 +927,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**Serveur Terminal Server**](a-terminalserver.md)                                         | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Texte-pays**](a-co.md)                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Texte-ou-adresse**](a-textencodedoraddress.md)                           | Faux     | [**E-mail-destinataire**](c-mailrecipient.md)<br/>                                                                                                                         |
-| [**Intitulé**](a-title.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Titre**](a-title.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Jetons-groupes**](a-tokengroups.md)                                               | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
 | [**Token-Groups-global-et-Universal**](a-tokengroupsglobalanduniversal.md)        | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
 | [**Token-Groups-non-GC-acceptable**](a-tokengroupsnogcacceptable.md)                | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
@@ -965,9 +965,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
-## <a name="windows-server-2003-r2-extended-rights"></a>Droits étendus Windows Server 2003 R2
+## <a name="windows-server-2003-r2-extended-rights"></a>Windows Droits étendus du serveur 2003 R2
 
-Cette classe contient les droits étendus suivants pour Windows Server 2003 R2 :
+cette classe contient les droits étendus suivants pour Windows Server 2003 R2 :
 
 
 
@@ -981,9 +981,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2003 R2 
 
 
 
-## <a name="windows-server-2003-r2-property-sets"></a>Jeux de propriétés Windows Server 2003 R2
+## <a name="windows-server-2003-r2-property-sets"></a>Windows Jeux de propriétés de Server 2003 R2
 
-Cette classe contient les jeux de propriétés suivants pour Windows Server 2003 R2 :
+cette classe contient les jeux de propriétés suivants pour Windows Server 2003 R2 :
 
 
 
@@ -992,7 +992,7 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2003
 | [**Informations générales**](r-general-information.md)             |
 | [**Compte d’utilisateur-restrictions**](r-user-account-restrictions.md) |
 | [**Ouverture de session utilisateur**](r-user-logon.md)                               |
-| [**Member**](r-membership.md)                               |
+| [**Appartenance**](r-membership.md)                               |
 | [**Informations personnelles**](r-personal-information.md)           |
 | [**E-mail-informations**](r-email-information.md)                 |
 | [**Informations Web**](r-web-information.md)                     |
@@ -1026,9 +1026,9 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2003
 
 
 
-## <a name="windows-server-2008-attributes"></a>Attributs Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Attributs du serveur 2008
 
-Cette classe contient les attributs suivants pour Windows Server 2008 :
+cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
@@ -1066,7 +1066,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**Date et heure de création**](a-createtimestamp.md)                                                                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**DBCS-pwd**](a-dbcspwd.md)                                                                                                    | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Default-Class-Store**](a-defaultclassstore.md)                                                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**Compétent**](a-department.md)                                                                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Service**](a-department.md)                                                                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**departmentNumber**](a-departmentnumber.md)                                                                                   | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Description**](a-description.md)                                                                                             | Faux     | [**Retour au début**](c-top.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/>                                        |
 | [**Bureau-profil**](a-desktopprofile.md)                                                                                      | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -1083,7 +1083,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**Type d’employé**](a-employeetype.md)                                                                                          | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Nom de l’extension**](a-extensionname.md)                                                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Télécopie-numéro de téléphone**](a-facsimiletelephonenumber.md)                                                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Père**](a-flags.md)                                                                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
+| [**Indicateurs**](a-flags.md)                                                                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Entrée de**](a-fromentry.md)                                                                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
@@ -1125,7 +1125,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**Objets managés**](a-managedobjects.md)                                                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Gestion**](a-manager.md)                                                                                                     | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
 | [**Masterisé-par**](a-masteredby.md)                                                                                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
-| [**Max-stockage**](a-maxstorage.md)                                                                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**Max-Stockage**](a-maxstorage.md)                                                                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MHS-ou-adresse**](a-mhsoraddress.md)                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Date et heure de modification**](a-modifytimestamp.md)                                                                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**MS-COM-PartitionSetLink**](a-mscom-partitionsetlink.md)                                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
@@ -1218,8 +1218,8 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**msSFU-30-POSIX-Member-of**](a-mssfu30posixmemberof.md)                                                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**MS-TS-autoriser-ouvrir une session**](a-mstsallowlogon.md)                                                                                    | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-Broken-Connection-action**](a-mstsbrokenconnectionaction.md)                                                           | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**MS-TS-Connect-client-lecteurs**](a-mstsconnectclientdrives.md)                                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**MS-TS-Connect-imprimantes-lecteurs**](a-mstsconnectprinterdrives.md)                                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**ms-TS-Connecter-clients-lecteurs**](a-mstsconnectclientdrives.md)                                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**ms-TS-Connecter-imprimantes-lecteurs**](a-mstsconnectprinterdrives.md)                                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-par défaut-à-imprimante**](a-mstsdefaulttomainprinter.md)                                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-expiré**](a-mstsexpiredate.md)                                                                                     | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-ExpireDate2**](a-mstsexpiredate2.md)                                                                                   | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -1269,23 +1269,23 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**Partial-attribute-set**](a-partialattributeset.md)                                                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Personnel-titre**](a-personaltitle.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Téléphone-télécopie-autre**](a-otherfacsimiletelephonenumber.md)                                                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-bureau-autre**](a-otherhomephone.md)                                                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-privé-principal**](a-homephone.md)                                                                                        | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
-| [**Téléphone-IP-autre**](a-otheripphone.md)                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-IP-principal**](a-ipphone.md)                                                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-RNIS-principal**](a-primaryinternationalisdnnumber.md)                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-mobile-autre**](a-othermobile.md)                                                                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-mobile-principal**](a-mobile.md)                                                                                         | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
-| [**Téléphone-bureau-autre**](a-othertelephone.md)                                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-radiomessagerie-autre**](a-otherpager.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-récepteur de radiomessagerie principal**](a-pager.md)                                                                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-à-soi-autre**](a-otherhomephone.md)                                                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-page d’hébergement principal**](a-homephone.md)                                                                                        | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-Ip-autre**](a-otheripphone.md)                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Ip-principal**](a-ipphone.md)                                                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-rnis-principal**](a-primaryinternationalisdnnumber.md)                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Mobile-autres**](a-othermobile.md)                                                                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Mobile-principal**](a-mobile.md)                                                                                         | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-Office-autre**](a-othertelephone.md)                                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-téléavertisseur-autre**](a-otherpager.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-page de récepteur-principal**](a-pager.md)                                                                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
 | [**photos**](a-photo.md)                                                                                                         | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Aperçu**](a-thumbnailphoto.md)                                                                                              | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Possible-inférieur**](a-possibleinferiors.md)                                                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Adresse postale**](a-postaladdress.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Code postal**](a-postalcode.md)                                                                                              | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Boîte postale**](a-postofficebox.md)                                                                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**boîte de Office**](a-postofficebox.md)                                                                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Méthode de remise par défaut**](a-preferreddeliverymethod.md)                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**preferredLanguage**](a-preferredlanguage.md)                                                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**UO préférée**](a-preferredou.md)                                                                                            | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -1341,7 +1341,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**Serveur Terminal Server**](a-terminalserver.md)                                                                                      | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Texte-pays**](a-co.md)                                                                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Texte-ou-adresse**](a-textencodedoraddress.md)                                                                        | Faux     | [**E-mail-destinataire**](c-mailrecipient.md)<br/>                                                                                                                         |
-| [**Intitulé**](a-title.md)                                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Titre**](a-title.md)                                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Jetons-groupes**](a-tokengroups.md)                                                                                            | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
 | [**Token-Groups-global-et-Universal**](a-tokengroupsglobalanduniversal.md)                                                     | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
 | [**Token-Groups-non-GC-acceptable**](a-tokengroupsnogcacceptable.md)                                                             | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
@@ -1379,9 +1379,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-extended-rights"></a>Droits étendus Windows Server 2008
+## <a name="windows-server-2008-extended-rights"></a>Windows Droits étendus du serveur 2008
 
-Cette classe contient les droits étendus suivants pour Windows Server 2008 :
+cette classe contient les droits étendus suivants pour Windows Server 2008 :
 
 
 
@@ -1395,9 +1395,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-property-sets"></a>Jeux de propriétés Windows Server 2008
+## <a name="windows-server-2008-property-sets"></a>Windows Jeux de propriétés du serveur 2008
 
-Cette classe contient les jeux de propriétés suivants pour Windows Server 2008 :
+cette classe contient les jeux de propriétés suivants pour Windows Server 2008 :
 
 
 
@@ -1406,7 +1406,7 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2008
 | [**Informations générales**](r-general-information.md)                       |
 | [**Compte d’utilisateur-restrictions**](r-user-account-restrictions.md)           |
 | [**Ouverture de session utilisateur**](r-user-logon.md)                                         |
-| [**Member**](r-membership.md)                                         |
+| [**Appartenance**](r-membership.md)                                         |
 | [**Informations personnelles**](r-personal-information.md)                     |
 | [**E-mail-informations**](r-email-information.md)                           |
 | [**Informations Web**](r-web-information.md)                               |
@@ -1442,9 +1442,9 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2008
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Attributs Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Attributs du serveur 2008 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
+cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
@@ -1482,7 +1482,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**Date et heure de création**](a-createtimestamp.md)                                                                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**DBCS-pwd**](a-dbcspwd.md)                                                                                                    | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Default-Class-Store**](a-defaultclassstore.md)                                                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**Compétent**](a-department.md)                                                                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Service**](a-department.md)                                                                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**departmentNumber**](a-departmentnumber.md)                                                                                   | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Description**](a-description.md)                                                                                             | Faux     | [**Retour au début**](c-top.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/>                                        |
 | [**Bureau-profil**](a-desktopprofile.md)                                                                                      | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -1499,7 +1499,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**Type d’employé**](a-employeetype.md)                                                                                          | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Nom de l’extension**](a-extensionname.md)                                                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Télécopie-numéro de téléphone**](a-facsimiletelephonenumber.md)                                                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Père**](a-flags.md)                                                                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
+| [**Indicateurs**](a-flags.md)                                                                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Entrée de**](a-fromentry.md)                                                                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
@@ -1542,7 +1542,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**Objets managés**](a-managedobjects.md)                                                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Gestion**](a-manager.md)                                                                                                     | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
 | [**Masterisé-par**](a-masteredby.md)                                                                                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
-| [**Max-stockage**](a-maxstorage.md)                                                                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**Max-Stockage**](a-maxstorage.md)                                                                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MHS-ou-adresse**](a-mhsoraddress.md)                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Date et heure de modification**](a-modifytimestamp.md)                                                                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**MS-COM-PartitionSetLink**](a-mscom-partitionsetlink.md)                                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
@@ -1642,8 +1642,8 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**msSFU-30-POSIX-Member-of**](a-mssfu30posixmemberof.md)                                                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**MS-TS-autoriser-ouvrir une session**](a-mstsallowlogon.md)                                                                                    | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-Broken-Connection-action**](a-mstsbrokenconnectionaction.md)                                                           | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**MS-TS-Connect-client-lecteurs**](a-mstsconnectclientdrives.md)                                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**MS-TS-Connect-imprimantes-lecteurs**](a-mstsconnectprinterdrives.md)                                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**ms-TS-Connecter-clients-lecteurs**](a-mstsconnectclientdrives.md)                                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**ms-TS-Connecter-imprimantes-lecteurs**](a-mstsconnectprinterdrives.md)                                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-par défaut-à-imprimante**](a-mstsdefaulttomainprinter.md)                                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-expiré**](a-mstsexpiredate.md)                                                                                     | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-ExpireDate2**](a-mstsexpiredate2.md)                                                                                   | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -1695,23 +1695,23 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**Partial-attribute-set**](a-partialattributeset.md)                                                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Personnel-titre**](a-personaltitle.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Téléphone-télécopie-autre**](a-otherfacsimiletelephonenumber.md)                                                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-bureau-autre**](a-otherhomephone.md)                                                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-privé-principal**](a-homephone.md)                                                                                        | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
-| [**Téléphone-IP-autre**](a-otheripphone.md)                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-IP-principal**](a-ipphone.md)                                                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-RNIS-principal**](a-primaryinternationalisdnnumber.md)                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-mobile-autre**](a-othermobile.md)                                                                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-mobile-principal**](a-mobile.md)                                                                                         | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
-| [**Téléphone-bureau-autre**](a-othertelephone.md)                                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-radiomessagerie-autre**](a-otherpager.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-récepteur de radiomessagerie principal**](a-pager.md)                                                                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-à-soi-autre**](a-otherhomephone.md)                                                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-page d’hébergement principal**](a-homephone.md)                                                                                        | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-Ip-autre**](a-otheripphone.md)                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Ip-principal**](a-ipphone.md)                                                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-rnis-principal**](a-primaryinternationalisdnnumber.md)                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Mobile-autres**](a-othermobile.md)                                                                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Mobile-principal**](a-mobile.md)                                                                                         | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-Office-autre**](a-othertelephone.md)                                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-téléavertisseur-autre**](a-otherpager.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-page de récepteur-principal**](a-pager.md)                                                                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
 | [**photos**](a-photo.md)                                                                                                         | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Aperçu**](a-thumbnailphoto.md)                                                                                              | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Possible-inférieur**](a-possibleinferiors.md)                                                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Adresse postale**](a-postaladdress.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Code postal**](a-postalcode.md)                                                                                              | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Boîte postale**](a-postofficebox.md)                                                                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**boîte de Office**](a-postofficebox.md)                                                                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Méthode de remise par défaut**](a-preferreddeliverymethod.md)                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**preferredLanguage**](a-preferredlanguage.md)                                                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**UO préférée**](a-preferredou.md)                                                                                            | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -1767,7 +1767,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**Serveur Terminal Server**](a-terminalserver.md)                                                                                      | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Texte-pays**](a-co.md)                                                                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Texte-ou-adresse**](a-textencodedoraddress.md)                                                                        | Faux     | [**E-mail-destinataire**](c-mailrecipient.md)<br/>                                                                                                                         |
-| [**Intitulé**](a-title.md)                                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Titre**](a-title.md)                                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Jetons-groupes**](a-tokengroups.md)                                                                                            | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
 | [**Token-Groups-global-et-Universal**](a-tokengroupsglobalanduniversal.md)                                                     | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
 | [**Token-Groups-non-GC-acceptable**](a-tokengroupsnogcacceptable.md)                                                             | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
@@ -1805,9 +1805,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
-## <a name="windows-server-2008-r2-extended-rights"></a>Droits étendus Windows Server 2008 R2
+## <a name="windows-server-2008-r2-extended-rights"></a>Windows Droits étendus du serveur 2008 R2
 
-Cette classe contient les droits étendus suivants pour Windows Server 2008 R2 :
+cette classe contient les droits étendus suivants pour Windows Server 2008 R2 :
 
 
 
@@ -1821,9 +1821,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2008 R2 
 
 
 
-## <a name="windows-server-2008-r2-property-sets"></a>Jeux de propriétés Windows Server 2008 R2
+## <a name="windows-server-2008-r2-property-sets"></a>Windows Jeux de propriétés de Server 2008 R2
 
-Cette classe contient les jeux de propriétés suivants pour Windows Server 2008 R2 :
+cette classe contient les jeux de propriétés suivants pour Windows Server 2008 R2 :
 
 
 
@@ -1832,7 +1832,7 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2008
 | [**Informations générales**](r-general-information.md)                       |
 | [**Compte d’utilisateur-restrictions**](r-user-account-restrictions.md)           |
 | [**Ouverture de session utilisateur**](r-user-logon.md)                                         |
-| [**Member**](r-membership.md)                                         |
+| [**Appartenance**](r-membership.md)                                         |
 | [**Informations personnelles**](r-personal-information.md)                     |
 | [**E-mail-informations**](r-email-information.md)                           |
 | [**Informations Web**](r-web-information.md)                               |
@@ -1868,7 +1868,7 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2008
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -1908,7 +1908,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**Date et heure de création**](a-createtimestamp.md)                                                                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**DBCS-pwd**](a-dbcspwd.md)                                                                                                    | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Default-Class-Store**](a-defaultclassstore.md)                                                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**Compétent**](a-department.md)                                                                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Service**](a-department.md)                                                                                               | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**departmentNumber**](a-departmentnumber.md)                                                                                   | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Description**](a-description.md)                                                                                             | Faux     | [**Retour au début**](c-top.md)<br/> [**posixAccount**](c-posixaccount.md)<br/> [**shadowAccount**](c-shadowaccount.md)<br/>                                        |
 | [**Bureau-profil**](a-desktopprofile.md)                                                                                      | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -1925,7 +1925,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**Type d’employé**](a-employeetype.md)                                                                                          | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Nom de l’extension**](a-extensionname.md)                                                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Télécopie-numéro de téléphone**](a-facsimiletelephonenumber.md)                                                                 | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Père**](a-flags.md)                                                                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
+| [**Indicateurs**](a-flags.md)                                                                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Entrée de**](a-fromentry.md)                                                                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
@@ -1968,7 +1968,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**Objets managés**](a-managedobjects.md)                                                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Gestion**](a-manager.md)                                                                                                     | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
 | [**Masterisé-par**](a-masteredby.md)                                                                                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
-| [**Max-stockage**](a-maxstorage.md)                                                                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**Max-Stockage**](a-maxstorage.md)                                                                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MHS-ou-adresse**](a-mhsoraddress.md)                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Date et heure de modification**](a-modifytimestamp.md)                                                                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**MS-COM-PartitionSetLink**](a-mscom-partitionsetlink.md)                                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
@@ -2039,7 +2039,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-types de chiffrement pris en charge**](a-msds-supportedencryptiontypes.md)                                                      | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                                                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**ms-DS-utilisateur-compte-contrôle-calculé**](a-msds-user-account-control-computed.md)                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**ms-DS-utilisateur-expiration du mot de passe-heure de calcul**](a-msds-userpasswordexpirytimecomputed.md)                                        | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -2079,8 +2079,8 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**msSFU-30-POSIX-Member-of**](a-mssfu30posixmemberof.md)                                                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**MS-TS-autoriser-ouvrir une session**](a-mstsallowlogon.md)                                                                                    | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-Broken-Connection-action**](a-mstsbrokenconnectionaction.md)                                                           | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**MS-TS-Connect-client-lecteurs**](a-mstsconnectclientdrives.md)                                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**MS-TS-Connect-imprimantes-lecteurs**](a-mstsconnectprinterdrives.md)                                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**ms-TS-Connecter-clients-lecteurs**](a-mstsconnectclientdrives.md)                                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
+| [**ms-TS-Connecter-imprimantes-lecteurs**](a-mstsconnectprinterdrives.md)                                                               | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-par défaut-à-imprimante**](a-mstsdefaulttomainprinter.md)                                                              | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-expiré**](a-mstsexpiredate.md)                                                                                     | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**MS-TS-ExpireDate2**](a-mstsexpiredate2.md)                                                                                   | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -2132,23 +2132,23 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**Partial-attribute-set**](a-partialattributeset.md)                                                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Personnel-titre**](a-personaltitle.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Téléphone-télécopie-autre**](a-otherfacsimiletelephonenumber.md)                                                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-bureau-autre**](a-otherhomephone.md)                                                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-privé-principal**](a-homephone.md)                                                                                        | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
-| [**Téléphone-IP-autre**](a-otheripphone.md)                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-IP-principal**](a-ipphone.md)                                                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-RNIS-principal**](a-primaryinternationalisdnnumber.md)                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-mobile-autre**](a-othermobile.md)                                                                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-mobile-principal**](a-mobile.md)                                                                                         | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
-| [**Téléphone-bureau-autre**](a-othertelephone.md)                                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-radiomessagerie-autre**](a-otherpager.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Téléphone-récepteur de radiomessagerie principal**](a-pager.md)                                                                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-à-soi-autre**](a-otherhomephone.md)                                                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-page d’hébergement principal**](a-homephone.md)                                                                                        | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-Ip-autre**](a-otheripphone.md)                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Ip-principal**](a-ipphone.md)                                                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-rnis-principal**](a-primaryinternationalisdnnumber.md)                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Mobile-autres**](a-othermobile.md)                                                                                      | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-Mobile-principal**](a-mobile.md)                                                                                         | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
+| [**Téléphone-Office-autre**](a-othertelephone.md)                                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-téléavertisseur-autre**](a-otherpager.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Téléphone-page de récepteur-principal**](a-pager.md)                                                                                           | Faux     | **Utilisateur** [ **de l’organisation**](c-organizationalperson.md)<br/>                                                                                                  |
 | [**photos**](a-photo.md)                                                                                                         | Faux     | **Utilisateur**                                                                                                                                                                     |
-| [**Physical-Delivery-Office-Name**](a-physicaldeliveryofficename.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Physical-delivery-Office-Name**](a-physicaldeliveryofficename.md)                                                            | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Aperçu**](a-thumbnailphoto.md)                                                                                              | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Possible-inférieur**](a-possibleinferiors.md)                                                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                                                                                                              |
 | [**Adresse postale**](a-postaladdress.md)                                                                                        | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Code postal**](a-postalcode.md)                                                                                              | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
-| [**Boîte postale**](a-postofficebox.md)                                                                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**boîte de Office**](a-postofficebox.md)                                                                                       | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Méthode de remise par défaut**](a-preferreddeliverymethod.md)                                                                   | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**preferredLanguage**](a-preferredlanguage.md)                                                                                 | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**UO préférée**](a-preferredou.md)                                                                                            | Faux     | **Utilisateur**                                                                                                                                                                     |
@@ -2204,7 +2204,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**Serveur Terminal Server**](a-terminalserver.md)                                                                                      | Faux     | **Utilisateur**                                                                                                                                                                     |
 | [**Texte-pays**](a-co.md)                                                                                                     | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Texte-ou-adresse**](a-textencodedoraddress.md)                                                                        | Faux     | [**E-mail-destinataire**](c-mailrecipient.md)<br/>                                                                                                                         |
-| [**Intitulé**](a-title.md)                                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
+| [**Titre**](a-title.md)                                                                                                         | Faux     | [**Organizational-Person**](c-organizationalperson.md)<br/>                                                                                                           |
 | [**Jetons-groupes**](a-tokengroups.md)                                                                                            | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
 | [**Token-Groups-global-et-Universal**](a-tokengroupsglobalanduniversal.md)                                                     | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
 | [**Token-Groups-non-GC-acceptable**](a-tokengroupsnogcacceptable.md)                                                             | Faux     | [**Sécurité-principal**](c-securityprincipal.md)<br/>                                                                                                                 |
@@ -2242,7 +2242,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 
 
 
-## <a name="windows-server-2012-extended-rights"></a>Droits étendus Windows Server 2012
+## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012 Droits étendus
 
 Cette classe contient les droits étendus suivants pour Windows Server 2012 :
 
@@ -2258,7 +2258,7 @@ Cette classe contient les droits étendus suivants pour Windows Server 2012 :
 
 
 
-## <a name="windows-server-2012-property-sets"></a>Jeux de propriétés Windows Server 2012
+## <a name="windows-server-2012-property-sets"></a>Windows Server 2012 Jeux de propriétés
 
 Cette classe contient les jeux de propriétés suivants pour Windows Server 2012 :
 
@@ -2269,7 +2269,7 @@ Cette classe contient les jeux de propriétés suivants pour Windows Server 2012
 | [**Informations générales**](r-general-information.md)                       |
 | [**Compte d’utilisateur-restrictions**](r-user-account-restrictions.md)           |
 | [**Ouverture de session utilisateur**](r-user-logon.md)                                         |
-| [**Member**](r-membership.md)                                         |
+| [**Appartenance**](r-membership.md)                                         |
 | [**Informations personnelles**](r-personal-information.md)                     |
 | [**E-mail-informations**](r-email-information.md)                           |
 | [**Informations Web**](r-web-information.md)                               |

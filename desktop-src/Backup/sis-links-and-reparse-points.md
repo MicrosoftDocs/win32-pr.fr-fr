@@ -8,12 +8,12 @@ keywords:
 - Sauvegarde SIS (Single-Instance Store), points d’analyse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4987e7c64a83e7d0b02ed91899a182616be7943
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 00f89901df6ce1fea1635d4250f2884ec9baf68fb1552766564909486c8ed00a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588859"
 ---
 # <a name="sis-links-and-reparse-points"></a>Liens SIS et points d’analyse
 
@@ -29,6 +29,6 @@ Lors de la restauration d’un lien SIS, votre application de restauration doit 
 
 La seule surcharge supplémentaire requise pour les sauvegardes assistées par SIS est que votre application de sauvegarde doit sauvegarder le lien SIS et les données associées aux fichiers de sauvegarde. Toutes les opérations de sauvegarde et de restauration SIS sont locales sur un volume spécifique.
 
- 
+ 
 
- 
+ 

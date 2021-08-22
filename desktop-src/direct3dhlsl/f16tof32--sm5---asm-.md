@@ -4,12 +4,12 @@ description: Conversion float16 à float32 au niveau du composant. | f16tof32 (S
 ms.assetid: CFAA1350-DA7F-4105-A90A-72052C5E2FB3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d53af1f2eab1f50dfded820bf27b2cda8f23e6b4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0cc4456737d5ddaaed351ae2a1cc76418c33af9c498e725099e1912d8fabe7ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562650"
 ---
 # <a name="f16tof32-sm5---asm"></a>f16tof32 (SM5-ASM)
 
@@ -35,7 +35,7 @@ Conversion float16 à float32 au niveau du composant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette opération effectue une conversion au niveau du composant d’une valeur float16 de LSB bits en un résultat float32.
 
@@ -47,7 +47,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -61,9 +61,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

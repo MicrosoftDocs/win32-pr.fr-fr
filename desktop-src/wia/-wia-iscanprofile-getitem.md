@@ -1,5 +1,5 @@
 ---
-description: Obtient le GUID de la catégorie de l’élément WIA (Windows Image Acquisition) 2,0 auquel le profil est associé.
+description: obtient le GUID de la catégorie de l’élément de l’acquisition d’images Windows (WIA) 2,0 auquel le profil est associé.
 ms.assetid: 2c816789-ad66-4b06-9160-7a86289ff373
 title: 'IScanProfile :: GetItem, méthode (Scanprofile. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: 888a3bb5bcb6e6c4fc2fefff2d976eb7fc1c7f82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a7f52a2d89bbd35b59febb25528fe493c4b5646afc70251fc19978d6d6265db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451039"
 ---
 # <a name="iscanprofilegetitem-method"></a>IScanProfile :: GetItem, méthode
 
-Obtient le GUID de la catégorie de l’élément WIA (Windows Image Acquisition) 2,0 auquel le profil est associé.
+obtient le GUID de la catégorie de l’élément de l’acquisition d’images Windows (WIA) 2,0 auquel le profil est associé.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,7 +42,7 @@ HRESULT GetItem(
 *pguidCategory* \[ à\]
 </dt> <dd>
 
-Type : **GUID \** _
+Type : **GUID \***
 
 Pointeur vers le GUID de la catégorie de l’élément WIA 2,0. Il s’agit toujours de l’une \_ des \_ constantes de catégorie d’éléments de la loi WIA \_ .
 
@@ -50,7 +50,7 @@ Pointeur vers le GUID de la catégorie de l’élément WIA 2,0. Il s’agit tou
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -60,8 +60,8 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofile. h</dt> </dl>    |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

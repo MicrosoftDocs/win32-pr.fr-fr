@@ -1,23 +1,23 @@
 ---
-description: Windows Installer développeurs peuvent utiliser les instructions de cette rubrique pour créer des packages Windows Installer qui contiennent des assemblys.
+description: Windows les développeurs du programme d’installation peuvent utiliser les instructions de cette rubrique pour créer des packages Windows Installer qui contiennent des assemblys.
 ms.assetid: 60687a4f-aaa4-4264-a3f7-0a16eb1fb336
 title: Ajout d’assemblys à un package
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ded0795003ae8faf1b7bb945671990767d3eefb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68a96c1b8c8d9b73fedf03fceeb82be62b8457556da02334ed7a224aefc2202a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119534869"
 ---
 # <a name="adding-assemblies-to-a-package"></a>Ajout d’assemblys à un package
 
-Windows Installer développeurs peuvent utiliser les instructions de cette rubrique pour créer des packages Windows Installer qui contiennent des assemblys.
+Windows les développeurs du programme d’installation peuvent utiliser les instructions de cette rubrique pour créer des packages Windows Installer qui contiennent des assemblys.
 
-Les indications suivantes s’appliquent aux assemblys Win32 et aux assemblys que la common language runtime de l’infrastructure de Microsoft .NET utilise.
+les indications suivantes s’appliquent aux assemblys Win32 et aux assemblys utilisés par le common language runtime de Microsoft .NET Framework.
 
--   Un composant Windows Installer ne doit pas contenir plus d’un assembly.
+-   un composant Windows Installer ne doit pas contenir plus d’un assembly.
 -   Tous les fichiers de l’assembly doivent se trouver dans un seul composant.
 -   Chaque composant qui contient un assembly doit avoir une entrée dans la table [MsiAssembly](msiassembly-table.md) .
 -   Le nom fort du cache d’assembly de chaque assembly doit être créé dans la table [MsiAssemblyName](msiassemblyname-table.md) .
@@ -40,7 +40,7 @@ Utilisez les instructions suivantes lorsque vous incluez des assemblys Win32 :
 
 ## <a name="adding-assemblies-used-with-the-net-framework"></a>Ajout d’assemblys utilisés avec le .NET Framework
 
-Utilisez les instructions suivantes lorsque vous incluez des assemblys que la common language runtime de la .NET Framework utilise.
+utilisez les instructions suivantes lorsque vous incluez des assemblys que la common language runtime de la .NET Framework utilise.
 
 -   La valeur keyPath dans la table des [composants](component-table.md) pour un composant qui contient l’assembly ne doit pas être null.
 -   Quand vous installez un assembly utilisé par le common language runtime dans le Global Assembly Cache, la valeur dans la \_ colonne application de fichier de la table MsiAssembly doit être null.
@@ -50,9 +50,9 @@ Utilisez les instructions suivantes lorsque vous incluez des assemblys que la co
 
 
 
-| Composant  | Nom           | Valeur            |
+| Composant  | Name           | Valeur            |
 |------------|----------------|------------------|
-| Composant | Nom           | simple           |
+| Composant | Name           | simple           |
 | Composant | version        | 1.0.0.0          |
 | Composant | Culture        | neutre          |
 | Composant | publicKeyToken | 9d1ec8380f483f5a |

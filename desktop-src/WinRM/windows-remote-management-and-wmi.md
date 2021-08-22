@@ -1,6 +1,6 @@
 ---
-title: Windows Remote Management et WMI
-description: Windows Remote Management peut être utilisé pour récupérer les données exposées par Windows Management Instrumentation.
+title: Windows Gestion à distance et WMI
+description: Windows la gestion à distance peut être utilisée pour récupérer les données exposées par Windows Management Instrumentation.
 ms.assetid: a625440b-a839-487d-b862-e35934f24e1f
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6942e89ea2e63ef809f3452e6ce55a493662c938
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 4d4fab5cd1ee27f664fc43838a62db949c5892147818466edf649641eff203b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106539810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642469"
 ---
-# <a name="windows-remote-management-and-wmi"></a>Windows Remote Management et WMI
+# <a name="windows-remote-management-and-wmi"></a>Windows Gestion à distance et WMI
 
-Windows Remote Management peut être utilisé pour récupérer les données exposées par Windows Management Instrumentation ([WMI](/windows/desktop/WmiSdk/wmi-start-page) et [mi](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure)). Vous pouvez obtenir des données WMI avec des scripts ou des applications qui utilisent l' [API de script WinRM](winrm-scripting-api.md) ou via l’outil en ligne de commande **WinRM** .
+Windows la gestion à distance peut être utilisée pour récupérer les données exposées par Windows Management Instrumentation ([WMI](/windows/desktop/WmiSdk/wmi-start-page) et [MI](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure)). Vous pouvez obtenir des données WMI avec des scripts ou des applications qui utilisent l' [API de script WinRM](winrm-scripting-api.md) ou via l’outil en ligne de commande **WinRM** .
 
-WinRM prend en charge la plupart des opérations et classes WMI familières, y compris les objets incorporés. WinRM peut tirer parti de WMI pour collecter des données sur les [*ressources*](windows-remote-management-glossary.md) ou pour gérer les ressources sur un système d’exploitation Windows. Cela signifie que vous pouvez obtenir des données sur des objets tels que des disques, des cartes réseau, des services ou des processus de votre entreprise par le biais de l’ensemble existant de [classes WMI](/windows/desktop/WmiSdk/wmi-classes). Vous pouvez également accéder aux données matérielles disponibles à partir du [fournisseur IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)WMI standard.
+WinRM prend en charge la plupart des opérations et classes WMI familières, y compris les objets incorporés. WinRM peut tirer parti de WMI pour collecter des données sur les [*ressources*](windows-remote-management-glossary.md) ou pour gérer les ressources sur un système d’exploitation basé sur Windows. Cela signifie que vous pouvez obtenir des données sur des objets tels que des disques, des cartes réseau, des services ou des processus de votre entreprise par le biais de l’ensemble existant de [classes WMI](/windows/desktop/WmiSdk/wmi-classes). Vous pouvez également accéder aux données matérielles disponibles à partir du [fournisseur IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)WMI standard.
 
 ## <a name="identifying-a-wmi-resource"></a>Identification d’une ressource WMI
 
@@ -31,7 +31,7 @@ Une classe ou une méthode WMI est identifiée par un [*URI*](windows-remote-man
 
 ## <a name="constructing-the-uri-prefix-for-wmi-classes"></a>Construction du préfixe URI pour les classes WMI
 
-Le préfixe URI contient une partie fixe et l’espace de noms WMI. Par exemple, le préfixe URI dans Windows Server qui contient la partie fixe du préfixe est : `http://schemas.microsoft.com/wbem/wsman/1/wmi/<WmiNamespace>` . Cela permet de générer le préfixe URI pour n’importe quel espace de noms WMI. Par exemple, pour accéder à l’espace de noms WMI **\\ par défaut racine** , utilisez le préfixe URI suivant : `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/default/` .
+Le préfixe URI contient une partie fixe et l’espace de noms WMI. par exemple, le préfixe URI dans Windows serveur qui contient la partie fixe du préfixe est : `http://schemas.microsoft.com/wbem/wsman/1/wmi/<WmiNamespace>` . Cela permet de générer le préfixe URI pour n’importe quel espace de noms WMI. Par exemple, pour accéder à l’espace de noms WMI **\\ par défaut racine** , utilisez le préfixe URI suivant : `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/default/` .
 
 La majorité des classes WMI pour la gestion se trouvent dans l’espace de noms **\\ cimv2 racine** . Pour accéder aux classes et aux instances dans l’espace de noms **\\ cimv2 racine** , utilisez le préfixe URI : `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/` . Pour plus d’informations, consultez [URI de ressource](resource-uris.md).
 
@@ -70,7 +70,7 @@ La procédure suivante décrit comment générer un URI de ressource pour obteni
 
 ## <a name="locating-a-wmi-resource-with-winrm"></a>Recherche d’une ressource WMI avec WinRM
 
-Vous pouvez obtenir des données WMI via l’outil en ligne de commande, **WinRM** ou via un script Visual Basic qui utilise l' [API de script WinRM](winrm-scripting-api.md). Vous n’utilisez pas de [chemin d’accès WMI](/windows/desktop/WmiSdk/describing-the-location-of-a-wmi-object) pour rechercher une ressource. Au lieu de cela, vous convertissez l’espace de noms WMI et la hiérarchie en un [*URI*](windows-remote-management-glossary.md).
+vous pouvez obtenir des données WMI via l’outil en ligne de commande, **Winrm** ou via un script Visual Basic qui utilise l' [API de script winrm](winrm-scripting-api.md). Vous n’utilisez pas de [chemin d’accès WMI](/windows/desktop/WmiSdk/describing-the-location-of-a-wmi-object) pour rechercher une ressource. Au lieu de cela, vous convertissez l’espace de noms WMI et la hiérarchie en un [*URI*](windows-remote-management-glossary.md).
 
 L’URI WinRM pour une classe WMI contient deux parties : le [préfixe URI](uri-prefixes.md) et la classe à laquelle vous souhaitez accéder.
 
@@ -167,7 +167,7 @@ Vous pouvez obtenir une instance spécifique d’une classe de plusieurs façons
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
 [Préfixes d’URI](uri-prefixes.md)
@@ -176,5 +176,5 @@ Vous pouvez obtenir une instance spécifique d’une classe de plusieurs façons
 [URI de ressource](resource-uris.md)
 </dt> <dt>
 
-[Scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)
+[scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)
 </dt> </dl>

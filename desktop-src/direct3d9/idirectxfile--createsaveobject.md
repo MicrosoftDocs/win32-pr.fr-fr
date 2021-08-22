@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 848010a1f701b39f5cc77a126272bc019ed01f4f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c3646f54b1f232c6eec3e1b3d06441a8e6a7c090f784e3c4c016f7f1bcfc3b03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491849"
 ---
 # <a name="idirectxfilecreatesaveobject-method"></a>IDirectXFile :: CreateSaveObject, méthode
 
@@ -75,7 +75,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est DXFILE \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : DXFILEERR \_ BADALLOC, DXFILEERR \_ BadFile, DXFILEERR \_ BADVALUE.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après l’utilisation de cette méthode, utilisez les méthodes de l’interface [**IDirectXFileSaveObject**](idirectxfilesaveobject.md) pour créer des objets de données et enregistrer des modèles ou des données.
 

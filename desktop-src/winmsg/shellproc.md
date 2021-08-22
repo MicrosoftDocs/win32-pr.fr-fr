@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 4add84011745aeb61659c39775b94fed91028d83
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: 3776748994b44b3a870fd4689fa9f4019bff99ae8d6f7dd7b13edbf2c98054d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "106509432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449099"
 ---
 # <a name="shellproc-function"></a>ShellProc fonction)
 
@@ -75,7 +75,7 @@ Ce paramètre peut prendre les valeurs suivantes.
 | **HSHELL_GETMINRECT** 5 | Une fenêtre est réduite ou agrandie. Le système a besoin des coordonnées du rectangle réduit pour la fenêtre. |
 | **HSHELL_LANGUAGE** 8 | La langue du clavier a été modifiée ou une nouvelle disposition du clavier a été chargée. |
 | **HSHELL_REDRAW** 6 | Le titre d’une fenêtre dans la barre des tâches a été redessiné. |
-| **HSHELL_TASKMAN** 7 | L’utilisateur a sélectionné la liste des tâches. Une application d’environnement qui fournit une liste de tâches doit retourner la **valeur true** pour empêcher Windows de démarrer sa liste de tâches. |
+| **HSHELL_TASKMAN** 7 | L’utilisateur a sélectionné la liste des tâches. une application d’environnement qui fournit une liste de tâches doit retourner la **valeur TRUE** pour empêcher Windows de démarrer sa liste des tâches. |
 | **HSHELL_WINDOWACTIVATED** 4 | L’activation a été remplacée par une nouvelle fenêtre de niveau supérieur, sans propriétaire. |
 | **HSHELL_WINDOWCREATED** 1 | Une fenêtre de niveau supérieur sans propriétaire a été créée. La fenêtre existe lorsque le système appelle ce hook. |
 | **HSHELL_WINDOWDESTROYED** 2 | Une fenêtre de niveau supérieur, sans propriétaire, va être détruite. La fenêtre existe toujours lorsque le système appelle ce hook. |
@@ -122,7 +122,7 @@ Type : **LRESULT**
 La valeur de retour doit être égale à zéro, sauf si la valeur de nCode est **HSHELL_APPCOMMAND** et que la procédure Shell gère le message **WM_COMMAND** .
 Dans ce cas, le retour doit être différent de zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Installez cette procédure de hook en spécifiant le type de hook [WH_SHELL](about-hooks.md) et un pointeur vers la procédure de Hook dans un appel à la fonction **SetWindowsHookEx** .
 

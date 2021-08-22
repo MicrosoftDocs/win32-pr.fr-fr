@@ -4,12 +4,12 @@ ms.assetid: 14ecb06c-3f80-47b8-9964-6a2c3b572300
 title: Lecture et écriture dans des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffd0e6518ce2430e18bbb11033023ee6dc274573
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b88de3510a681839a9592bed4755de6249f79db117d94985ddb00320381b92c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533319"
 ---
 # <a name="reading-from-and-writing-to-files"></a>Lecture et écriture dans des fichiers
 
@@ -17,7 +17,7 @@ Une application lit et écrit dans un fichier à l’aide des fonctions [**ReadF
 
 Quand le pointeur de fichier atteint la fin d’un fichier et que l’application tente de lire à partir du fichier, aucune erreur ne se produit, mais aucun octet n’est lu. Par conséquent, la lecture de zéro octet sans erreur signifie que l’application a atteint la fin du fichier. L’écriture de zéro octet ne fait rien.
 
-Pour plus d'informations, consultez les rubriques ci-dessous.
+Pour plus d’informations, voir les rubriques suivantes :
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

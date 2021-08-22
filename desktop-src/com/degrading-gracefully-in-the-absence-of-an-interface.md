@@ -4,18 +4,18 @@ description: Comme un contrôle peut ne pas prendre en charge une interface autr
 ms.assetid: 1b833900-2357-4b39-b88d-5ee6321f488e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26618e00f2d959cccfd7ab4d2948fac9c1a3f020
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: fef1b329faa2d4da333cf2e201fc887764af96bc5ea2573060f41774b57c0d56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "106509426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501272"
 ---
 # <a name="degrading-gracefully-in-the-absence-of-an-interface"></a>Dégradation normale en l’absence d’une interface
 
 Comme un contrôle peut ne pas prendre en charge une interface autre que [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), un conteneur doit se dégrader correctement lorsqu’il rencontre l’absence d’une interface particulière.
 
-Il peut être question de l’utilité d’un contrôle avec une valeur autre que [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown). Toutefois, prenez en compte les avantages qu’un contrôle reçoit de l’environnement de programmation visuel d’un conteneur (tel que VB) quand le conteneur reconnaît l’objet comme un contrôle :
+Il peut être question de l’utilité d’un contrôle avec une valeur autre que [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown). toutefois, tenez compte des avantages qu’un contrôle reçoit de l’environnement de programmation visuel d’un conteneur (par exemple VB) lorsque le conteneur reconnaît l’objet comme un contrôle :
 
 -   Un bouton pour l’objet s’affiche dans une boîte à outils.
 -   Vous pouvez créer un objet en le faisant glisser de la boîte à outils vers un formulaire.
@@ -24,7 +24,7 @@ Il peut être question de l’utilité d’un contrôle avec une valeur autre qu
 -   Le conteneur peut fournir automatiquement des points d’entrée de code pour tous les événements disponibles à partir de cet objet.
 -   Le conteneur fournit sa propre interface utilisateur de navigation des propriétés pour toutes les propriétés disponibles.
 
-Lorsqu’un objet n’est pas reconnu comme un contrôle, il perd potentiellement toutes ces fonctionnalités d’intégration très puissantes et bénéfiques. Par exemple, dans Visual Basic 4,0, il est très difficile d’intégrer vraiment un objet aléatoire qui n’est pas un contrôle dans le sens complet, mais peut toujours avoir des propriétés et des événements. Étant donné que l’idée de Visual Basic 4 d’un contrôle est très restrictive, l’objet n’obtient aucune des fonctionnalités d’intégration ci-dessus. Mais même un contrôle avec [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), où la simple durée de vie du contrôle détermine l’existence d’une ressource, doit être en mesure d’obtenir les fonctionnalités d’intégration décrites ci-dessus.
+Lorsqu’un objet n’est pas reconnu comme un contrôle, il perd potentiellement toutes ces fonctionnalités d’intégration très puissantes et bénéfiques. par exemple, dans Visual Basic 4,0, il est très difficile d’intégrer vraiment un objet aléatoire qui n’est pas un contrôle dans le sens complet, mais peut toujours avoir des propriétés et des événements. étant donné que l’idée de Visual Basic 4 d’un contrôle est très restrictive, l’objet n’obtient aucune des fonctionnalités d’intégration ci-dessus. Mais même un contrôle avec [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), où la simple durée de vie du contrôle détermine l’existence d’une ressource, doit être en mesure d’obtenir les fonctionnalités d’intégration décrites ci-dessus.
 
 Comme les outils actuels requièrent un grand nombre d’interfaces de contrôle pour tirer parti de tout avantage, les contrôles sont généralement dirigés vers une implémentation excessive, de sorte qu’ils contiennent plus de code que nécessaire. Les contrôles qui pourraient être 7K peuvent finir par dépasser 25 Ko, ce qui constitue un problème de performances considérable dans des domaines tels qu’Internet. Cela a également conduit à la perception qu’il est possible d’implémenter un contrôle avec un seul outil comme le CDK, en raison de la complexité de l’implémentation de toutes les interfaces, et cela a des implications quand une grande DLL comme OC30.DLL est requise pour un tel contrôle, ce qui augmente la plage de travail. Si toutes les interfaces ne sont pas requises, cela ouvre de nombreux développeurs pour écrire des contrôles très petits et légers avec OLE direct ou avec d’autres outils, ce qui réduit la surcharge de chaque contrôle.
 

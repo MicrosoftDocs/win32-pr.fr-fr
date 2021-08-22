@@ -5,12 +5,12 @@ ms.assetid: a7bd3c26-984c-42c8-9903-1bbee40637da
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e14da2e1ee29d2377519bcc97931e376a7219f28
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 232cdfea15a0d316b3290f41ce916eca146cb3271baa69785039d265a7776511
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533169"
 ---
 # <a name="all-classes"></a>Toutes les classes
 
@@ -26,8 +26,8 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**Modèle d’adresse**](c-addresstemplate.md)  
 [**Entité d’application**](c-applicationentity.md)  
 [**Processus d’application**](c-applicationprocess.md)  
-[**Paramètres de l’application**](c-applicationsettings.md)  
-[**Application-site-paramètres**](c-applicationsitesettings.md)  
+[**Paramètres de l’Application**](c-applicationsettings.md)  
+[**Application-Site-Paramètres**](c-applicationsitesettings.md)  
 [**Version de l’application**](c-applicationversion.md)  
 [**Attribut-schéma**](c-attributeschema.md)  
 [**bootableDevice**](c-bootabledevice.md)  
@@ -39,7 +39,7 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**Magasin de classes**](c-classstore.md)  
 [**Point de connexion com**](c-comconnectionpoint.md)  
 [**Computer**](c-computer.md)  
-[**Configuré**](c-configuration.md)  
+[**Configuration**](c-configuration.md)  
 [**Point de connexion**](c-connectionpoint.md)  
 [**Contact**](c-contact.md)  
 [**Conteneur**](c-container.md)  
@@ -63,7 +63,7 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**Stratégie de domaine**](c-domainpolicy.md)  
 [**domainRelatedObject**](c-domainrelatedobject.md)  
 [**DSA**](c-dsa.md)  
-[**DS-UI-paramètres**](c-dsuisettings.md)  
+[**DS-UI-Paramètres**](c-dsuisettings.md)  
 [**Objet dynamique**](c-dynamicobject.md)  
 [**Suivi des liens de fichiers**](c-filelinktracking.md)  
 [**Suivi des liaisons de fichiers-entrée**](c-filelinktrackingentry.md)  
@@ -93,7 +93,7 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**Stratégie IPSec**](c-ipsecpolicy.md)  
 [**ipService**](c-ipservice.md)  
 [**Feuille**](c-leaf.md)  
-[**Gestion des licences-site-paramètres**](c-licensingsitesettings.md)  
+[**licences-Site-Paramètres**](c-licensingsitesettings.md)  
 [**Link-Track-Object-Move-table**](c-linktrackobjectmovetable.md)  
 [**Lien-Track-OMT-entrée**](c-linktrackomtentry.md)  
 [**Lien-Track-vol-entrée**](c-linktrackvolentry.md)  
@@ -122,7 +122,7 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**MS-DFSR-abonné**](c-msdfsr-subscriber.md)  
 [**MS-DFSR-abonnement**](c-msdfsr-subscription.md)  
 [**MS-DFSR-topologie**](c-msdfsr-topology.md)  
-[**MS-DNS-Server-paramètres**](c-msdns-serversettings.md)  
+[**ms-DNS-Server-Paramètres**](c-msdns-serversettings.md)  
 [**ms-DS-App-configuration**](c-msds-app-configuration.md)  
 [**ms-DS-App-données**](c-msds-appdata.md)  
 [**ms-DS-AZ-admin-Manager**](c-msds-azadminmanager.md)  
@@ -141,8 +141,8 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**ms-DS-Group-Managed-service-account**](c-msds-groupmanagedserviceaccount.md)  
 [**ms-DS-Managed-service-account**](c-msds-managedserviceaccount.md)  
 [**ms-DS-optional-Feature**](c-msds-optionalfeature.md)  
-[**ms-DS-Password-paramètres**](c-msds-passwordsettings.md)  
-[**ms-DS-Password-Settings-Container**](c-msds-passwordsettingscontainer.md)  
+[**ms-DS-mot de passe-Paramètres**](c-msds-passwordsettings.md)  
+[**ms-DS-Password-Paramètres-Container**](c-msds-passwordsettingscontainer.md)  
 [**ms-DS-quota-Container**](c-msds-quotacontainer.md)  
 [**ms-DS-quota-Control**](c-msds-quotacontrol.md)  
 [**ms-DS-Resource-Properties**](c-msds-resourceproperties.md)  
@@ -159,7 +159,7 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**MS-KDS-Prov-ServerConfiguration**](c-mskds-provserverconfiguration.md)  
 [**Configuration MSMQ**](c-msmqconfiguration.md)  
 [**MSMQ-personnalisé-destinataire**](c-msmq-custom-recipient.md)  
-[**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)  
+[**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)  
 [**Groupe MSMQ**](c-msmq-group.md)  
 [**MSMQ-migrated-User**](c-msmqmigrateduser.md)  
 [**MSMQ-file d’attente**](c-msmqqueue.md)  
@@ -167,7 +167,7 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**MSMQ-site-lien**](c-msmqsitelink.md)  
 [**MS-net-IEEE-80211-GroupPolicy**](c-ms-net-ieee-80211-grouppolicy.md)  
 [**MS-net-IEEE-8023-GroupPolicy**](c-ms-net-ieee-8023-grouppolicy.md)  
-[**MS-PKI-Enterprise-OID**](c-mspki-enterprise-oid.md)  
+[**ms-PKI-Enterprise-Oid**](c-mspki-enterprise-oid.md)  
 [**MS-PKI-Key-Recovery-agent**](c-mspki-key-recovery-agent.md)  
 [**MS-PKI-privé-clé-Recovery-agent**](c-mspki-privatekeyrecoveryagent.md)  
 [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)  
@@ -213,10 +213,10 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**NTDS-DSA**](c-ntdsdsa.md)  
 [**NTDS-DSA-RO**](c-ntdsdsaro.md)  
 [**NTDS-service**](c-ntdsservice.md)  
-[**NTDS-site-paramètres**](c-ntdssitesettings.md)  
+[**NTDS-Site-Paramètres**](c-ntdssitesettings.md)  
 [**NTFRS-Member**](c-ntfrsmember.md)  
 [**NTFRS-jeu de réplicas**](c-ntfrsreplicaset.md)  
-[**NTFRS-paramètres**](c-ntfrssettings.md)  
+[**NTFRS-Paramètres**](c-ntfrssettings.md)  
 [**NTFRS-abonné**](c-ntfrssubscriber.md)  
 [**NTFRS-abonnements**](c-ntfrssubscriptions.md)  
 [**oncRpc**](c-oncrpc.md)  
@@ -234,7 +234,7 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**File d’attente d’impression**](c-printqueue.md)  
 [**Requête-stratégie**](c-querypolicy.md)  
 [**Destinataire de la messagerie à distance**](c-remotemailrecipient.md)  
-[**Point de service de stockage distant**](c-remotestorageservicepoint.md)  
+[**Point de Service Stockage à distance**](c-remotestorageservicepoint.md)  
 [**Personne privée**](c-residentialperson.md)  
 [**rFC822LocalPart**](c-rfc822localpart.md)  
 [**Gestionnaire RID**](c-ridmanager.md)  
@@ -268,19 +268,19 @@ Les rubriques suivantes fournissent des listes des types de classes définis par
 [**Site-lien-pont**](c-sitelinkbridge.md)  
 [**Sites-conteneur**](c-sitescontainer.md)  
 [**Stockage**](c-storage.md)  
-[**Subnet**](c-subnet.md)  
+[**Sous-réseau**](c-subnet.md)  
 [**Sous-réseau-conteneur**](c-subnetcontainer.md)  
 [**Sous-schéma**](c-subschema.md)  
 [**Retour au début**](c-top.md)  
 [**Domaine approuvé**](c-trusteddomain.md)  
 [**Bibliothèque de types**](c-typelibrary.md)  
 [**Utilisateur**](c-user.md)  
-[**Volume**](c-volume.md)  
+[**Agrégat**](c-volume.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

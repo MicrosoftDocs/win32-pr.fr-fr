@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadefd.h
-ms.openlocfilehash: 82ca6cba81101e577eed882ad45272ab81546fed
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 800f7ceb102cafcad8ddda5204990706b908a4a0137a16143af76a90345b472e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451189"
 ---
 # <a name="devicedialogdata2-structure"></a>DEVICEDIALOGDATA2, structure
 
@@ -164,8 +164,8 @@ Pointeur vers l’interface [**IWiaItem2**](-wia-iwiaitem2.md) de l’élément 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Wiadefd. h</dt> </dl> |
 
 

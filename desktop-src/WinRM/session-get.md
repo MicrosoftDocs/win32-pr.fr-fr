@@ -4,9 +4,9 @@ description: Récupère la ressource spécifiée par l’URI et retourne une rep
 ms.assetid: 873242fd-9da3-42f4-a18e-258fedba77ec
 ms.tgt_platform: multiple
 keywords:
-- Méthode d’extraction Windows Remote Management
-- Méthode d’extraction Windows Remote Management, objet session
-- Windows Remote Management d’objet de session, méthode d’extraction
+- méthode d’extraction Windows Remote Management
+- méthode d’extraction Windows Remote Management, objet Session
+- Windows Remote Management d’objet de Session, méthode d’extraction
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e4ee84cc711db312389151d1dd95fb890474dcd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c983c5f95ddfa3acc88b85b383ec85ddf85f885293031fe9bc4e4e07c90850a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642559"
 ---
 # <a name="sessionget-method"></a>Session. obten, méthode
 
@@ -51,7 +51,7 @@ Identificateur de la ressource à récupérer.
 
 Ce paramètre peut contenir l’un des éléments suivants :
 
--   URI avec ou sans [*sélecteurs*](windows-remote-management-glossary.md). Quand vous appelez la méthode **obtenir** avec un sélecteur pour obtenir une ressource WMI, utilisez la ou les propriétés de clé de l’objet. Par exemple, dans l’exemple de code Visual Basic Scripting Edition (VBScript) suivant, la clé est spécifiée par `Win32_Service?Name=winmgmt` . Pour les classes Singleton, telles que [**Win32 \_ localtime**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime), vous ne pouvez pas utiliser de sélecteur.
+-   URI avec ou sans [*sélecteurs*](windows-remote-management-glossary.md). Quand vous appelez la méthode **obtenir** avec un sélecteur pour obtenir une ressource WMI, utilisez la ou les propriétés de clé de l’objet. par exemple, dans l’exemple de code VBScript (Visual Basic scripting Edition) suivant, la clé est spécifiée par `Win32_Service?Name=winmgmt` . Pour les classes Singleton, telles que [**Win32 \_ localtime**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime), vous ne pouvez pas utiliser de sélecteur.
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/" _ 
@@ -198,7 +198,7 @@ End Sub
 
 <dl> <dt>
 
-[**session**](session.md)
+[**Session**](session.md)
 </dt> </dl>
 
  

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c126f1cd54470e50a700fdea1c121776d687a9dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a3f232c35f43cf2baeae3130c115b37c7f47b5c62959523c52b5e7e2a02009e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505039"
 ---
 # <a name="copy-method-of-the-cim_datafile-class"></a>Méthode Copy de la \_ classe de fichier de fichier CIM
 
@@ -65,7 +65,7 @@ Retourne la valeur 0 en cas de réussite, et tout autre nombre pour indiquer une
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode de **copie** dans le [**fichier de \_ fichier CIM**](cim-datafile.md) est implémentée par WMI.
 

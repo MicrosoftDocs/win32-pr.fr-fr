@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b34765db2063688ccc8fced0a1e25cac23b98ded
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c3a106fed07b677b74e5ec620bc58d605938809868347ec0d6ef354d0d9d28a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532268"
 ---
 # <a name="ds-execute-intentions-script-extended-right"></a>DS-Execute-intentions-script étendu à droite
 
@@ -39,7 +39,7 @@ Droit de contrôle d’accès, qui doit être accordé au conteneur partitions, 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

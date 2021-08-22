@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d0678e9da6f0b68047708f45fda1c9da66d8139
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 32216eab9a7c7613f082470360d3f938bbdeaf8ae38cd875d84cd0338dfa78c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491769"
 ---
 # <a name="glrotated-function"></a>glRotated fonction)
 
@@ -64,7 +64,7 @@ Coordonnée *y* d’un vecteur.
 
 </dd> <dt>
 
-*z* 
+*Lettre* 
 </dt> <dd>
 
 Coordonnée *z* d’un vecteur.
@@ -81,13 +81,13 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glRotated** calcule une matrice qui effectue une rotation dans le sens inverse des degrés d' *angle* sur le vecteur à partir de l’origine jusqu’au point (*x*, *y*, *z*).
 

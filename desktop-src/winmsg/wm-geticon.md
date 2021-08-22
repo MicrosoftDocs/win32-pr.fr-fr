@@ -4,12 +4,12 @@ ms.assetid: d3101a9b-9658-4a21-b1f6-2920b723926c
 title: Message WM_GETICON (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83d2444e70646d8122a7228094187738811a3f68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2df8922fa09cf425594a07768f0d7c9ae0ac09222647f181f45331c2b0d47fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587419"
 ---
 # <a name="wm_geticon-message"></a>\_Message WM GETICON
 
@@ -60,7 +60,7 @@ Type : **HICON**
 
 La valeur de retour est un handle vers la grande ou la petite icône, en fonction de la valeur de *wParam*. Lorsqu’une application reçoit ce message, elle peut renvoyer un descripteur à une grande ou petite icône, ou passer le message à la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’une application reçoit ce message, elle peut renvoyer un descripteur à une grande ou petite icône, ou transmettre le message à [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 

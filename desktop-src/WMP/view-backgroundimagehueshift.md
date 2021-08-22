@@ -3,7 +3,7 @@ title: VUE. backgroundImageHueShift
 description: L’attribut backgroundImageHueShift spécifie ou récupère la valeur de décalage de la teinte de l’image d’arrière-plan.
 ms.assetid: 13cedc87-f43a-4d33-9339-f317ea7b8d3b
 keywords:
-- AFFICHER. backgroundImageHueShift lecteur Windows Media
+- affichage. backgroundImageHueShift Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72dcbf1dcb06939ab74398c39bb89bc512dbb47b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9cb69321fe3ac2456c71024270ddf508ff6eac0a76b336cc3115f4882b3d35a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506889"
 ---
 # <a name="viewbackgroundimagehueshift"></a>VUE. backgroundImageHueShift
 
@@ -31,7 +31,7 @@ L’attribut **backgroundImageHueShift** spécifie ou récupère la valeur de d�
 
 Cet attribut est un **nombre** en lecture/écriture (**float**) dont la valeur est comprise entre 0,0 et 360,0, avec une valeur par défaut de 0,0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut modifie la valeur de teinte des images spécifiées par l’attribut **BackgroundImage** s’il a été spécifié et fait référence à une image BMP de 8 bits.
 

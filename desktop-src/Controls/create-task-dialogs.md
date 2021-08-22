@@ -4,27 +4,27 @@ description: Une boîte de dialogue de tâche est créée et affichée à l’ai
 ms.assetid: CCEFF52F-D501-4145-9799-0A9C529017E1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76ea8e3097454505acccf60c7cba3ef56c637af0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f6f74f1922330cae1550fda1a9ad6d451221452017f3856ae5e859948019828
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504019"
 ---
 # <a name="how-to-create-task-dialogs"></a>Guide pratique pour créer des boîtes de dialogue de tâches
 
 Une boîte de dialogue de tâche est créée et affichée à l’aide de la fonction [**TaskDialog**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialog) ou de la fonction [**TaskDialogIndirect**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -43,9 +43,9 @@ La fonction **TaskDialogIndirect** est plus puissante, prend en charge tous les 
 [Utilisation des boîtes de dialogue de tâches](using-task-dialogs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

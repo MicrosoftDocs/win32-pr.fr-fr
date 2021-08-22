@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16641916cb16b789f2349a53b09dbd2af5f520f3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3a1a52216052f597ce26e5be476a970ff78f0297c08124c9b1ca89453b6fca76
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557669"
 ---
 # <a name="wm_dpichanged_beforeparent-message"></a>\_ \_ Message BEFOREPARENT WM DPICHANGED
 
@@ -54,7 +54,7 @@ Cette valeur n’est pas utilisée et sera égale à zéro.
 
 Cette valeur n’est pas utilisée et est ignorée par le système.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il n’y a pas de gestion par défaut de ce message dans [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
@@ -66,8 +66,8 @@ Ce message est envoyé uniquement lorsque la fenêtre de niveau supérieur a un 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 
 

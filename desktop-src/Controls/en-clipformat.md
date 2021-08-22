@@ -3,7 +3,7 @@ title: Code de notification EN_CLIPFORMAT (RichEdit. h)
 description: Avertit une fenêtre parente d’un contrôle RichEdit qu’un collage a été effectué avec un format de presse-papiers particulier. Un contrôle RichEdit sans fenêtre envoie cette notification à l’aide de la méthode ITextHost TxNotify.
 ms.assetid: 79FE1350-4D45-447B-B705-63E966AC7F0E
 keywords:
-- Contrôles Windows de code de notification EN_CLIPFORMAT
+- EN_CLIPFORMAT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0430e8a4dba0b1a18f81f4e28ec67f2c93551cd5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f4ad87f1c05ac9f5461da8a4ee1d26295be0ae1baafd8991801efc0d90197a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437039"
 ---
 # <a name="en_clipformat-notification-code"></a>\_Code de notification en CLIPFORMAT
 
@@ -56,7 +56,7 @@ Pointeur vers une structure [**CLIPBOARDFORMAT**](/windows/desktop/api/Richedit/
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour recevoir les \_ codes de notification en CLIPFORMAT, spécifiez [**ENM \_ CLIPFORMAT**](rich-edit-control-event-mask-flags.md) dans le masque envoyé avec le message de [**em \_ SETEVENTMASK**](em-seteventmask.md) .
 
@@ -66,8 +66,8 @@ Pour recevoir les \_ codes de notification en CLIPFORMAT, spécifiez [**ENM \_ C
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

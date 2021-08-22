@@ -3,7 +3,7 @@ title: VIEW. Size
 description: La méthode size redimensionne la vue sur un bord spécifié.
 ms.assetid: c15a33b2-3618-41a7-bff1-9d48a566ed4f
 keywords:
-- AFFICHER. taille du lecteur Windows Media
+- VIEW. size Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: def9b416dfe5eda052ef430b587fa1c6017b4e5f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e0d9bd583b280f39bee38f0e109e6bb2bba6ce08ec0e7cea4c082b4a6db55739
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615309"
 ---
 # <a name="viewsize"></a>VIEW. Size
 
@@ -56,7 +56,7 @@ Chaîne spécifiant le bord ou le coin à déplacer lors du dimensionnement. Cet
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est généralement appelée à partir d’un gestionnaire **OnMouseDown** . Le redimensionnement s’effectue pendant le déplacement de la souris et arrête le redimensionnement lorsque le bouton de la souris est relâché. Si la taille de la **vue** est restreinte, vous ne pouvez pas faire glisser la souris pour redimensionner la **vue** au-delà des limites restreintes.
 

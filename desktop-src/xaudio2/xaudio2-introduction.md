@@ -4,12 +4,12 @@ ms.assetid: c87be63a-58b5-9cd1-1f03-f32b5a858b2e
 title: Présentation de XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7cde958256d9126746a07764dc0c792e88289c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4a966e9682a7f605864c0374a588d4b7eb3724036fe284bd6d92c64080e9225
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589899"
 ---
 # <a name="xaudio2-introduction"></a>Présentation de XAudio2
 
@@ -31,7 +31,7 @@ La liste suivante répertorie les fonctionnalités XAudio2 et les nouvelles fonc
 
     La sous-combinaison combine plusieurs sons en un seul flux audio, par exemple un son de moteur constitué de parties composites, qui sont toutes lues simultanément. En outre, vous pouvez utiliser la sous-combinaison pour traiter et combiner des parties similaires d’un jeu. Par exemple, vous pouvez combiner tous les effets sonores du jeu pour permettre l’application d’un paramètre de volume utilisateur alors qu’un paramètre distinct contrôle le volume musical. Combiné à DSP, le sous-mixage offre le type de routage et de traitement des données nécessaire pour les jeux actuels. XAudio2 autorise des niveaux de sous-mixage arbitraires, ce qui permet de créer des sons complexes et des mixages de jeux.
 
-    Pour plus d’informations sur le sous-mixage, consultez [XAudio2 audio Graph](xaudio2-audio-graph.md) et [XAudio2 Voices](xaudio2-voices.md) .
+    pour plus d’informations sur le sous-mixage, consultez [XAudio2 Audio Graph](xaudio2-audio-graph.md) et [XAudio2 voices](xaudio2-voices.md) .
 
 -   Prise en charge audio compressée
 

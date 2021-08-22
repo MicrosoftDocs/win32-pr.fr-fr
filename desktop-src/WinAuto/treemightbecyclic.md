@@ -4,12 +4,12 @@ description: TreeMightBeCyclic
 ms.assetid: 9A997949-A1A2-448C-9739-BE176621F1B4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9647f4429ba17226f342a8dceb3c51b033d08b4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0af2f8d93c3b38b52871db031419756507e009f7d8adb369fde9b5b2c154fbec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614433"
 ---
 # <a name="treemightbecyclic"></a>TreeMightBeCyclic
 
@@ -19,7 +19,7 @@ L’arborescence est {0} Deep Levels. Cela peut indiquer que l’arborescence d�
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -38,9 +38,9 @@ Plusieurs éléments, ou leurs parents, sont des contrôles personnalisés qui n
 [Recommandations en matière de conception d’interface utilisateur clavier](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
 </dt> <dt>
 
-[Instructions relatives à l’interaction avec l’expérience utilisateur Windows-clavier](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
+[Windows Instructions relatives à l’interaction avec l’expérience utilisateur-clavier](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

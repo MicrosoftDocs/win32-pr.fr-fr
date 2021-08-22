@@ -13,19 +13,19 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: aa8093ecbd428cafbf1266179b1489cac0d69c4d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: caf429437d284a27e4cda830b51e4512375310f2d466a597e58c394a2fea551f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501629"
 ---
 # <a name="validatereadptr-macro"></a>ValidateReadPtr macro)
 
 Vérifie que le processus appelant dispose d’un accès en lecture à un bloc de mémoire. Si ce n’est pas le cas, la macro appelle la macro [**DbgBreak**](dbgbreak.md) .
 
 > [!Note]  
-> Cette macro est déconseillée. Dans le SDK Windows pour Windows Vista (et versions ultérieures), cette macro ne fait rien.
+> Cette macro est déconseillée. dans le SDK Windows pour Windows Vista (et versions ultérieures), cette macro ne fait rien.
 
  
 
@@ -63,9 +63,9 @@ Taille du bloc de mémoire, en octets.
 
 Cette macro ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette macro est ignorée sauf si DEBUG, \_ Debug ou VFWROBUST est défini lorsque le fichier d’en-tête de classe de base DirectShow est inclus. Cette macro peut avoir un impact significatif sur les performances.
+cette macro est ignorée sauf si debug, \_ debug ou VFWROBUST est défini lorsque le DirectShow fichier d’en-tête de classe de base est inclus. Cette macro peut avoir un impact significatif sur les performances.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -73,7 +73,7 @@ Cette macro est ignorée sauf si DEBUG, \_ Debug ou VFWROBUST est défini lorsqu
 
 | Condition requise | Valeur |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>Wxdebug. h (include streams. h)</dt> </dl> |
+| En-tête<br/> | <dl> <dt>Wxdebug. h (inclure Flux. h)</dt> </dl> |
 
 
 

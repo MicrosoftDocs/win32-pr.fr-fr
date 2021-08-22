@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a721477c1cd6cbfdbb7161cc5cf8edc448c45369
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8318924105e9d4a95dc978103b4f312cf19cbbf8eb5cab34e5dd3a3ccff44369
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587539"
 ---
 # <a name="writebackroothintdatafile-method-of-the-microsoftdns_roothints-class"></a>Méthode WriteBackRootHintDatafile de la \_ classe MicrosoftDNS RootHints
 

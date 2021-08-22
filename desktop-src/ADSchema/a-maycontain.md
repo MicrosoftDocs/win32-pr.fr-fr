@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95ff2491f8eeb3d46fd945c411e7b7544f4cf300
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 75a57b2a6a86665255556a2bcc0effa75a3a173adde03d9a4f3c11c1af6af0d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300999"
 ---
 # <a name="may-contain-attribute"></a>Attribut May-Contain
 
@@ -46,7 +46,7 @@ Liste des attributs facultatifs d’une classe.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

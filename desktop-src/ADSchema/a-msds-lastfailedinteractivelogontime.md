@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 038b54246a93c4fb0f5fb2bc6e564fa35c50faf3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f3e61c5162b0f70db18ccc44a8f22c3a697e8500f30e39b2702042078c90edaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119295499"
 ---
 # <a name="ms-ds-last-failed-interactive-logon-time-attribute"></a>ms-DS-Last-failed-attribut-Time-Logon
 
@@ -36,13 +36,13 @@ Heure à laquelle un mot de passe incorrect a été présenté lors d’une ouve
 | Fréquence des mises à jour  | \-                                       |
 | Attribute-Id      | 1.2.840.113556.1.4.1971                  |
 | System-ID-GUID    | c7e7dafa-10c3-4b8b-9acd-54f11063742e     |
-| Syntaxe            | [**Défini**](s-interval.md)           |
+| Syntaxe            | [**Intervalle**](s-interval.md)           |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,7 +54,7 @@ Heure à laquelle un mot de passe incorrect a été présenté lors d’une ouve
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Vrai                              |
+| System-Only            | True                              |
 | Est de valeur unique       | Vrai                              |
 | Est indexé             | Faux                             |
 | Dans le catalogue global      | Faux                             |
@@ -76,7 +76,7 @@ Heure à laquelle un mot de passe incorrect a été présenté lors d’une ouve
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Vrai                              |
-| Est de valeur unique       | Vrai                              |
+| Est de valeur unique       | True                              |
 | Est indexé             | Faux                             |
 | Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
@@ -96,8 +96,8 @@ Heure à laquelle un mot de passe incorrect a été présenté lors d’une ouve
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Vrai                              |
-| Est de valeur unique       | Vrai                              |
+| System-Only            | True                              |
+| Est de valeur unique       | True                              |
 | Est indexé             | Faux                             |
 | Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |

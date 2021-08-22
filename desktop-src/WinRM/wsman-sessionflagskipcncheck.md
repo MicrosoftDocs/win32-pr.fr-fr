@@ -5,8 +5,8 @@ ms.assetid: 44884a9d-ec5f-4822-945d-2681d214a902
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagSkipCNCheck
-- Méthode SessionFlagSkipCNCheck Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagSkipCNCheck
+- méthode SessionFlagSkipCNCheck Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagSkipCNCheck
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c98981ac166ea7b1b76f1ab322db6c48679a4bf4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 339246d88dd7dc86e23b1a97442788fb969eb9de5a36f89c4ebadecd9f6e32ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613479"
 ---
 # <a name="wsmansessionflagskipcncheck-method"></a>Méthode WSMan. SessionFlagSkipCNCheck
 
@@ -78,7 +78,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 [**WSMan**](wsman.md)
 </dt> <dt>
 
-[**session**](session.md)
+[**Session**](session.md)
 </dt> </dl>
 
  
