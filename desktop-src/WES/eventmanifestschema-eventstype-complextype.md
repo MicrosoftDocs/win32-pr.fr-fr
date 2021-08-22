@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 36500aa037c8e33a48b4f9dd6e38e46eaac58da2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8d0cee50c0332d283c439448fd80c7abe319fec5065f39dcad4e053baf600bd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055987"
 ---
 # <a name="eventstype-complex-type"></a>Type complexe EventsType
 
@@ -92,10 +92,10 @@ Contient une liste de fournisseurs définis dans le manifeste.
 | message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | Référence à la chaîne localisée dans la table de chaînes.                               |
 | mid     | xs:string                                                        | Non utilisé.                                                                              |
 | symbole  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | Nom symbolique que vous souhaitez que le compilateur de message crée pour cette chaîne de message.|
-| value   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Nombre à utiliser comme identificateur de message pour ce message.                          |
+| valeur   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Nombre à utiliser comme identificateur de message pour ce message.                          |
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La limite pratique du nombre de fournisseurs que vous pouvez définir dans un manifeste est de 16 fournisseurs. Si vous spécifiez plus de 16 fournisseurs, vous devez utiliser une table de messages pour assigner explicitement des numéros de ressource aux chaînes de message auxquelles le fournisseur fait référence. Pour plus d’informations, consultez l’élément message ci-dessus.
 
@@ -103,5 +103,5 @@ La limite pratique du nombre de fournisseurs que vous pouvez définir dans un ma
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows Vista uniquement\]       |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2008 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau Vista uniquement\]       |
+| Serveur minimal pris en charge | Windows Serveur 2008 \[ applications de bureau uniquement\] |

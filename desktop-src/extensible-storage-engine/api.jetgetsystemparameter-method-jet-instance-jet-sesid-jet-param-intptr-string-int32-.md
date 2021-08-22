@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 25e8430931cbf45c84d65fb68ae877ed96e7cea8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6188db63795513d0fb207621a15ca9dd11798e619c5d9c5b7bb0d915e59ace77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983289"
 ---
 # <a name="apijetgetsystemparameter-method-jet_instance-jet_sesid-jet_param-intptr-string-int32"></a>Méthode API. JetGetSystemParameter (JET_INSTANCE, JET_SESID, JET_param, IntPtr, String, Int32)
 
@@ -118,7 +118,7 @@ public static JET_wrn JetGetSystemParameter(
 Type : [Microsoft.ISAM.esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 Code d’avertissement ESENT.  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [ErrorToString](./jet-param-enumeration.md) passe le numéro d’erreur dans valeur paramValue, ce qui explique pourquoi il s’agit d’un paramètre ref et non d’un paramètre out.
 

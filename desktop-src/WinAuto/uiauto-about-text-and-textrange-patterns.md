@@ -22,12 +22,12 @@ keywords:
 - performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9ff1eb75227454e3e9df6035798a304096a958
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 04112e0233db056c5ff3e81b68256229aa45f60cfdb1258e565e10aea1cd43ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052357"
 ---
 # <a name="about-the-text-and-textrange-control-patterns"></a>À propos des modèles de contrôle Text et TextRange
 
@@ -36,7 +36,7 @@ Le contenu textuel d’un contrôle est exposé à l’aide du modèle de contr�
 > [!Note]  
 > Le modèle de contrôle [Text](uiauto-implementingtextandtextrange.md) ne permet pas d’insérer ou de modifier du texte. Toutefois, en fonction du contrôle, cela peut être accompli à l’aide du modèle de contrôle [value](uiauto-implementingvalue.md) d’UI Automation de Microsoft ou via une entrée directe au clavier. Il y a également un modèle [**TextEdit**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) qui prend en charge la modification par programmation en texte.
 
- 
+ 
 
 Les fonctionnalités décrites dans cette rubrique sont essentielles pour les fournisseurs de technologies d’assistance et leurs utilisateurs finaux. Les technologies d’assistance peuvent utiliser UI Automation pour collecter des informations complètes sur la mise en forme du texte pour l’utilisateur et fournir une navigation par programmation et une sélection de texte par [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) (caractère, mot, ligne ou paragraphe).
 
@@ -79,7 +79,7 @@ Un fournisseur doit toujours prendre en charge les constantes [**TextUnit**](/wi
 > [!Note]  
 > Le fournisseur peut ignorer la prise en charge d’un [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) spécifique en reportant à la plus grande unité prise en charge dans l’ordre suivant : **TextUnit \_ character**, **TextUnit \_ format**, **TextUnit \_ Word**, **TextUnit \_ line**, **TextUnit \_ paragraphe**, **TextUnit \_ page** et TextUnit **\_ document**.
 
- 
+ 
 
 ## <a name="client-interfaces"></a>Interfaces clientes
 
@@ -132,6 +132,6 @@ Si possible, un fournisseur doit s’assurer que toutes les modifications de tex
 [Text Services Framework](/windows/desktop/TSF/text-services-framework)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: Vous pouvez utiliser l’API de périphérique logiciel pour créer
 ms.assetid: 203abb2c-526f-4995-95de-4eb0ecee63d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e011d806ea21310fccc6ca96517a5465cb41add1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a0bd1ae07b18171a6ed81c5db73d70083a8cf32e16deacf9d623c5a77c69a854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967948"
 ---
 # <a name="software-device-api"></a>API du périphérique logiciel
 

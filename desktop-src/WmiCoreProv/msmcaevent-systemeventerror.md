@@ -1,5 +1,5 @@
 ---
-description: Indique qu’un événement système de l’interface de gestion de plateforme intelligente (IPMI) s’est produit. L’erreur est écrite dans le journal des événements système SMBIOS (SEL). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Indique qu’un événement système de l’interface de gestion de plateforme intelligente (IPMI) s’est produit. L’erreur est écrite dans le journal des événements système SMBIOS (SEL). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: 1964f850-ac55-4639-9205-2eb0996dbaae
 title: Classe MSMCAEvent_SystemEventError
 ms.topic: reference
@@ -35,16 +35,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: f20f95fb5e1b1bf07b0f70c25d54122642b13569
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ff5d05cb1b9db7430f2f91a0f2a5ad3a97a56557c3fc5ae832eecc85d13128c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051247"
 ---
 # <a name="msmcaevent_systemeventerror-class"></a>MSMCAEvent \_ SystemEventError, classe
 
-La classe **MSMCAEvent \_ SystemEventError** indique qu’un événement système de l’interface de gestion de plateforme intelligente (IPMI) s’est produit. L’erreur est écrite dans le journal des événements système SMBIOS (SEL). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAEvent \_ SystemEventError** indique qu’un événement système de l’interface de gestion de plateforme intelligente (IPMI) s’est produit. L’erreur est écrite dans le journal des événements système SMBIOS (SEL). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -144,7 +144,7 @@ Niveau de gravité de l’erreur signalée.
 
 | Valeur                                                                                                | Signification                |
 |------------------------------------------------------------------------------------------------------|------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Récupérable<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Récupérable<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Erreur irrécupérable<br/>       |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Corrigible<br/> |
 
@@ -378,7 +378,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Type de message du journal des événements. Ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
+Type de message du journal des événements. ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
 
 </dd> <dt>
 
@@ -416,7 +416,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAEvent \_ SystemEventError** est dérivée de [**WmiEvent**](wmievent.md).
 

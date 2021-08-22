@@ -3,24 +3,24 @@ title: Démarrage des téléchargements
 description: Démarrage des téléchargements
 ms.assetid: 0a830b11-f7e1-41da-a867-86f9ac361c0b
 keywords:
-- Windows Media Player Online stores, gestionnaire de téléchargement
+- Lecteur Windows Media des magasins en ligne, gestionnaire de téléchargement
 - magasins en ligne, gestionnaire de téléchargement
 - tapez 2 magasins en ligne, gestionnaire de téléchargement
-- Windows Media Player Online stores, démarrage des téléchargements
+- Lecteur Windows Media des magasins en ligne, démarrage des téléchargements
 - magasins en ligne, démarrage des téléchargements
 - tapez 2 magasins en ligne, à partir de téléchargements
 - Lecteur Windows Media, gestionnaire de téléchargement
-- Gestionnaire de téléchargement du lecteur Windows Media
+- Lecteur Windows Media Gestionnaire de téléchargement
 - Gestionnaire de téléchargement
 - démarrage des téléchargements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cec723bd504cc511c3ca43db90f3c613a8acefd1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d600bb037204b4dae1c07d8938e92eae2862460b94ef285567a8ca14144e72c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995069"
 ---
 # <a name="starting-the-downloads"></a>Démarrage des téléchargements
 
@@ -59,9 +59,9 @@ Le code met ensuite à jour les éléments de l’interface utilisateur avec les
 [**Utilisation du gestionnaire de téléchargement**](using-the-download-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

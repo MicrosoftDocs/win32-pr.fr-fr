@@ -3,7 +3,7 @@ title: DVD. isAvailable
 description: La propriété isAvailable indique si un type spécifié d’informations est disponible ou si une action spécifiée peut être exécutée. | DVD. isAvailable
 ms.assetid: ed34a943-b9c3-40a8-8845-b83f16951a3e
 keywords:
-- DVD. isAvailable lecteur Windows Media
+- DVD. isAvailable Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5088b4b6365dd60d859fda8ec563cc9c8ff8a4c8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: efb1a240c8df072d0770521f70c526f4e096c26385df85cff7acf0d229fdc252
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996919"
 ---
 # <a name="dvdisavailable"></a>DVD. isAvailable
 
@@ -56,9 +56,9 @@ player.dvd.isAvailable(
 
 Cette méthode retourne une **valeur booléenne** en lecture seule qui indique si le paramètre spécifié est disponible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fonctionnalités DVD du lecteur Windows Media ne fonctionneront pas sur les ordinateurs sur lesquels aucun décodeur de DVD tiers n’est installé. Vous pouvez déterminer si un décodeur est disponible en appelant **isAvailable**(« dvdDecoder »).
+les fonctionnalités de dvd de Lecteur Windows Media ne fonctionnent pas sur les ordinateurs sur lesquels aucun décodeur de DVD tiers n’est installé. Vous pouvez déterminer si un décodeur est disponible en appelant **isAvailable**(« dvdDecoder »).
 
 Chaque DVD est créé différemment. Les méthodes disponibles pendant la lecture et la navigation sur DVD dépendent de la façon dont le DVD est créé.
 
@@ -70,8 +70,8 @@ Chaque DVD est créé différemment. Les méthodes disponibles pendant la lectur
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | Version<br/>                  | Lecteur Windows Media pour Windows XP ou version ultérieure<br/>                            |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 

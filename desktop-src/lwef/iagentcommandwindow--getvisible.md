@@ -4,12 +4,12 @@ description: IAgentCommandWindow GetVisible
 ms.assetid: a69a2aaa-5a3a-46b8-b505-49609a2aa5ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c66c6d7bf2ee59512f478fd8daa7cee882515690
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 949591bc22c93711af19ce18cb024ede9714335f249839eb4819a73e231e0d83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976239"
 ---
 # <a name="iagentcommandwindowgetvisible"></a>IAgentCommandWindow::GetVisible
 
@@ -39,9 +39,9 @@ Adresse d’une variable qui reçoit la **valeur true** si la fenêtre commandes
 [**IAgentCommandWindow :: SetVisible**](iagentcommandwindow--setvisible.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

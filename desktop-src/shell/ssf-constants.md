@@ -39,12 +39,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b26ba102ff72caf235a51d3888183ccafba9d639
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c022b1d93cb411f0cce73822a47f2d8f85b30e8093bbe2064fb3c50eab5c4870
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967938"
 ---
 # <a name="ssf-constants"></a>Constantes SSF
 
@@ -179,7 +179,7 @@ Le membre **fShowAttribCol** est demandé.
 
 
 
-Le membre **fDesktopHTML** est demandé. L’ensemble n’est pas disponible. Au lieu de cela, pour les versions de Windows antérieures à Windows XP, activez Desktop HTML par [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop). Toutefois, l’utilisation de **IActiveDesktop** à cet effet n’est pas recommandée pour Windows XP et les versions ultérieures de Windows. elle est déconseillée dans Windows Vista.
+Le membre **fDesktopHTML** est demandé. L’ensemble n’est pas disponible. au lieu de cela, pour les versions de Windows antérieures à Windows XP, activez desktop HTML par [**IActiveDesktop**](/windows/win32/api/shlobj_core/nn-shlobj_core-iactivedesktop). l’utilisation de **IActiveDesktop** à cet effet, toutefois, n’est pas recommandée pour Windows XP et les versions ultérieures de Windows, et est dépréciée dans Windows Vista.
 
 
 </dt> </dl> </dd> <dt>
@@ -407,7 +407,7 @@ Non utilisé.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

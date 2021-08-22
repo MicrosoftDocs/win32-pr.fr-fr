@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 773f6f9bb04aa31290bc351550a45d849d74e06f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b87d2ad73fcaea2be2214a962940f154bb6df2b428f98d4646e0cb935ab2859
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991989"
 ---
 # <a name="swbemobjectpath_-property"></a>SWbemObject. Path, \_ propriété
 
@@ -42,7 +42,7 @@ SWbemObject.Path_ As Object
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Seule la propriété de [**classe**](swbemobjectpath-class.md) de l’instance [**SWbemObjectPath**](swbemobjectpath.md) retournée peut être modifiée. Si vous essayez de modifier une autre propriété ou si vous essayez d’appeler les méthodes [**SetAsClass**](swbemobjectpath-setasclass.md) ou [**SetAsSingleton**](swbemobjectpath-setassingleton.md), vous obtiendrez une erreur **wbemErrReadOnly** .
 

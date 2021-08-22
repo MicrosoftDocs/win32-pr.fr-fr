@@ -4,12 +4,12 @@ ms.assetid: 4ae424f1-10be-466a-8a98-163789fc9553
 title: MFPKEY_WMAENC_GENERATE_DRC_PARAMS, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc29ffe9d68cce13afedf5ad694ef81b29957db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 982a48f0a42d3fe050c07a349c75fadb0cff72abc39baa1d2058870c47d0fc0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973218"
 ---
 # <a name="mfpkey_wmaenc_generate_drc_params-property"></a>MFPKEY \_ WMAENC \_ Générer \_ la \_ propriété des paramètres de la RDC
 

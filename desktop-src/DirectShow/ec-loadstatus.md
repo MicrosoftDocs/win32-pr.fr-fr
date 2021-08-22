@@ -4,12 +4,12 @@ ms.assetid: 022b87e5-76af-4253-9485-97140f294938
 title: EC_LOADSTATUS (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc06022a9774d851cabff6a18c0f8808f62f14f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 499f05a26f3fa1387347929f5c14a64b1f440a53ed9b5fd17830d582fb640c3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015937"
 ---
 # <a name="ec_loadstatus"></a>\_LOADSTATUS EC
 
@@ -39,7 +39,7 @@ Aucun.
 
 ## <a name="remarks"></a>Notes
 
-Le filtre de [lecteur ASF WM](wm-asf-reader-filter.md) et le filtre de [source Windows Media](windows-media-source-filter.md) hérité envoient cet événement. Le premier paramètre d’événement a l’une des valeurs suivantes.
+le filtre de [lecteur ASF WM](wm-asf-reader-filter.md) et le filtre de [Source de média Windows](windows-media-source-filter.md) hérité envoient cet événement. Le premier paramètre d’événement a l’une des valeurs suivantes.
 
 
 
@@ -74,7 +74,7 @@ Le filtre de [lecteur ASF WM](wm-asf-reader-filter.md) et le filtre de [source W
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

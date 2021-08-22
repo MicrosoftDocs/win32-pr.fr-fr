@@ -3,9 +3,9 @@ title: Cdrom. EJECT, méthode
 description: La méthode EJECT éjecte le CD ou DVD du lecteur. | Cdrom. EJECT, méthode
 ms.assetid: f43c7f10-7de2-488c-833a-ecd3ac21744b
 keywords:
-- méthode EJECT lecteur Windows Media
-- EJECT, méthode lecteur Windows Media, classe cdrom
-- Classe cdrom lecteur Windows Media, méthode EJECT
+- méthode eject Lecteur Windows Media
+- eject, méthode Lecteur Windows Media, Cdrom, classe
+- Lecteur Windows Media de classe Cdrom, méthode eject
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78326ca57dcf097344fc073681fae772222ea9ad
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c9bd1c5a7a79c2a9b76b3a7a1997c43713fe0f3c1ae28e635a235feb82d214ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997679"
 ---
 # <a name="cdromeject-method"></a>Cdrom. EJECT, méthode
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le loquet du lecteur est ouvert, cette méthode ferme la porte.
 
@@ -73,8 +73,8 @@ L’exemple suivant crée un élément Button HTML qui utilise *cdrom*. **éject
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | Version<br/>                  | Lecteur Windows Media version 7,0 ou ultérieure.<br/>                              |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 

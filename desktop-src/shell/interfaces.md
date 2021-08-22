@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les interfaces de l’interpréteur de commandes Windows.
+description: cette section décrit les interfaces de l’interpréteur de commandes Windows.
 title: Interfaces Shell
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 23bd87e86ba9e30ce443616920326bf37aba6d2c
-ms.sourcegitcommit: 9a614d8ce23dcca88873148683d9ec7d38be57b9
+ms.openlocfilehash: 8bf8a0669666ae45ba79fda014a8b3b92b57a974b6f72e06303c6c8a2e368bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "104383392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032367"
 ---
 # <a name="shell-interfaces"></a>Interfaces Shell
 
-Cette section décrit les interfaces de l’interpréteur de commandes Windows.
+cette section décrit les interfaces de l’interpréteur de commandes Windows.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -70,14 +70,14 @@ Cette section décrit les interfaces de l’interpréteur de commandes Windows.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager"><strong>IApplicationActivationManager</strong></a><br/></td>
-<td>Fournit des méthodes qui activent les applications du Windows Store pour les <a href="/previous-versions/windows/apps/hh464906(v=win.10)">Extensions</a>de lancement, de fichier et de protocole. Normalement, vous utiliserez cette interface dans les débogueurs et les outils de conception.<br/></td>
+<td>fournit des méthodes qui activent Windows les applications du windows Store pour les <a href="/previous-versions/windows/apps/hh464906(v=win.10)">extensions</a>de lancement, de fichier et de protocole. Normalement, vous utiliserez cette interface dans les débogueurs et les outils de conception.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration"><strong>IApplicationAssociationRegistration</strong></a><br/></td>
 <td>Expose des méthodes qui interrogent et définissent des applications par défaut pour un <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype"><strong>type d’association</strong></a>de fichier spécifique et des protocoles à un <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel"><strong>niveau d’association</strong></a>spécifique. <br/>
 <blockquote>
 [!Note]<br />
-À compter de Windows 8, les seules fonctionnalités de cette interface prises en charge sont <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault"><strong>QueryCurrentDefault</strong></a>.
+à partir de Windows 8, les seules fonctionnalités de cette interface prises en charge sont <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault"><strong>QueryCurrentDefault</strong></a>.
 </blockquote>
 <br/></td>
 </tr>
@@ -87,11 +87,11 @@ Cette section décrit les interfaces de l’interpréteur de commandes Windows.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings"><strong>IApplicationDesignModeSettings</strong></a><br/></td>
-<td>Permet aux applications de l’outil de développement d’usurper dynamiquement les États système et utilisateur, tels que la résolution d’affichage native, le facteur d’échelle de l’appareil et l’état d’affichage de l’application, afin de tester les applications du Windows Store qui s’exécutent en mode création pour un large éventail de facteurs de forme sans avoir besoin du matériel réel. Permet également de tester les modifications de l’État contrôlé par l’utilisateur normalement afin de tester les applications du Windows Store dans un large éventail de scénarios.<br/></td>
+<td>permet aux applications de l’outil de développement d’usurper dynamiquement les états système et utilisateur, tels que la résolution d’affichage native, le facteur d’échelle de l’appareil et l’état d’affichage de l’application, dans le but de tester Windows applications du windows Store qui s’exécutent en mode création pour un large éventail de facteurs de forme sans avoir besoin du matériel réel. permet également de tester les modifications de l’état contrôlé par l’utilisateur normalement afin de tester les applications de Windows store dans un large éventail de scénarios.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2"><strong>IApplicationDesignModeSettings2</strong></a><br/></td>
-<td>Permet aux applications de l’outil de développement de contrôler de manière dynamique les États utilisateur et système, tels que la résolution d’affichage native, le facteur d’échelle de l’appareil et la disposition de la vue de l’application, signalés aux applications du Windows Store afin de tester les applications du Windows Store s’exécutant en mode création pour un large éventail de facteurs de forme sans avoir besoin du matériel réel. Permet également de tester les modifications de l’État contrôlé par l’utilisateur normalement afin de tester les applications du Windows Store dans un large éventail de scénarios.<br/></td>
+<td>permet aux applications de l’outil de développement de contrôler de manière dynamique les états utilisateur et système, tels que la résolution d’affichage native, le facteur d’échelle de l’appareil et la disposition de la vue de l’application, signalés à Windows applications du windows store afin de Windows tester les applications du windows store qui s’exécutent en mode création pour un large éventail de facteurs de forme sans avoir besoin du matériel permet également de tester les modifications de l’état contrôlé par l’utilisateur normalement afin de tester les applications de Windows store dans un large éventail de scénarios.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations"><strong>IApplicationDestinations</strong></a><br/></td>
@@ -107,7 +107,7 @@ Cette section décrit les interfaces de l’interpréteur de commandes Windows.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility"><strong>IAppVisibility</strong></a><br/></td>
-<td>Fournit des fonctionnalités permettant de déterminer si l’affichage affiche les applications du Windows Store.<br/></td>
+<td>fournit des fonctionnalités permettant de déterminer si l’affichage affiche des applications Windows store.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents"><strong>IAppVisibilityEvents</strong></a><br/></td>
@@ -163,7 +163,7 @@ Cette section décrit les interfaces de l’interpréteur de commandes Windows.
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager"><strong>IColumnManager</strong></a><br/></td>
-<td>Expose des méthodes qui activent l’inspection et la manipulation de colonnes dans l’affichage Détails de l’Explorateur Windows. Chaque colonne est référencée par une structure <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> , qui nomme une propriété.<br/></td>
+<td>expose des méthodes qui activent l’inspection et la manipulation de colonnes dans l’affichage détails de l’explorateur de Windows. Chaque colonne est référencée par une structure <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> , qui nomme une propriété.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>ICommDlgBrowser</strong></a><br/></td>
@@ -296,7 +296,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop"><strong>IDataTransferManagerInterop</strong></a><br/></td>
-<td>Permet d’accéder aux méthodes <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataTransferManager"><strong>DataTransferManager</strong></a> dans une application du Windows Store qui gère plusieurs fenêtres.<br/></td>
+<td>permet l’accès aux méthodes <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataTransferManager"><strong>DataTransferManager</strong></a> dans Windows une application du windows Store qui gère plusieurs fenêtres.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit"><strong>IDefaultExtractIconInit</strong></a><br/></td>
@@ -336,7 +336,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>IDockingWindow</strong></a><br/></td>
-<td>Expose des méthodes qui notifient l’objet de fenêtre d’ancrage des modifications, notamment l’affichage, le masquage et la suppression imminente. Cette interface est implémentée par les objets de fenêtre qui peuvent être ancrés dans l’espace de bordure d’une fenêtre de l’Explorateur Windows.<br/></td>
+<td>Expose des méthodes qui notifient l’objet de fenêtre d’ancrage des modifications, notamment l’affichage, le masquage et la suppression imminente. cette interface est implémentée par les objets de fenêtre qui peuvent être ancrés dans l’espace de bordure d’une fenêtre de l’explorateur de Windows.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj/nn-shlobj-idockingwindowframe"><strong>IDockingWindowFrame</strong></a><br/></td>
@@ -452,7 +452,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a><br/></td>
-<td>Utilisé dans l’Explorateur Windows par une implémentation de <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> pour fournir des suggestions sur les volets qui sont visibles. En outre, un hôte <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>IExplorerBrowser</strong></a> peut utiliser cette interface pour fournir des informations sur la visibilité des volets. L’hôte doit implémenter <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> avec <strong>SID_ExplorerPaneVisibility</strong> comme ID de service. L’hôte doit se trouver dans la chaîne de sites. <br/> L’implémentation de <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a> est récupérée à partir du dossier shell. Le dossier shell, à son tour, est récupéré à partir de la vue. Une extension d’espace de noms peut choisir de fournir une vue personnalisée (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>) au lieu d’utiliser l’objet de vue de dossier système (DefView). Dans ce cas, l’implémentation de <strong>IShellView</strong> doit inclure une implémentation de <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>IFolderView :: GetFolder</strong></a> pour retourner l’objet <strong>IExplorerPaneVisibility</strong> .<br/> Une extension d’espace de noms peut fournir une vue personnalisée en implémentant <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> elle-même au lieu d’utiliser l’objet de vue de dossier système (DefView). Dans ce cas, l’implémentation de <strong>IShellView</strong> doit inclure une implémentation de <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>IFolderView :: GetFolder</strong></a> pour utiliser <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a> .<br/></td>
+<td>utilisé dans Windows Explorer par une implémentation de <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>IShellFolder</strong></a> pour fournir des suggestions sur les volets qui sont visibles. En outre, un hôte <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>IExplorerBrowser</strong></a> peut utiliser cette interface pour fournir des informations sur la visibilité des volets. L’hôte doit implémenter <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> avec <strong>SID_ExplorerPaneVisibility</strong> comme ID de service. L’hôte doit se trouver dans la chaîne de sites. <br/> L’implémentation de <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a> est récupérée à partir du dossier shell. Le dossier shell, à son tour, est récupéré à partir de la vue. Une extension d’espace de noms peut choisir de fournir une vue personnalisée (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a>) au lieu d’utiliser l’objet de vue de dossier système (DefView). Dans ce cas, l’implémentation de <strong>IShellView</strong> doit inclure une implémentation de <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>IFolderView :: GetFolder</strong></a> pour retourner l’objet <strong>IExplorerPaneVisibility</strong> .<br/> Une extension d’espace de noms peut fournir une vue personnalisée en implémentant <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> elle-même au lieu d’utiliser l’objet de vue de dossier système (DefView). Dans ce cas, l’implémentation de <strong>IShellView</strong> doit inclure une implémentation de <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>IFolderView :: GetFolder</strong></a> pour utiliser <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>IExplorerPaneVisibility</strong></a> .<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona"><strong>IExtractIcon</strong></a><br/></td>
@@ -548,7 +548,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewoptions"><strong>IFolderViewOptions</strong></a><br/></td>
-<td>Expose des méthodes qui permettent le contrôle des options d’affichage des dossiers spécifiques aux affichages Windows 7 et versions ultérieures.<br/></td>
+<td>expose des méthodes qui permettent le contrôle des options d’affichage des dossiers spécifiques aux affichages Windows 7 et versions ultérieures.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderviewsettings"><strong>IFolderViewSettings</strong></a><br/></td>
@@ -620,7 +620,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow"><strong>IInitializeWithWindow</strong></a><br/></td>
-<td>Expose une méthode par le biais de laquelle un client peut fournir une fenêtre propriétaire à un objet Windows Runtime utilisé dans une application de bureau.<br/></td>
+<td>expose une méthode par le biais de laquelle un client peut fournir une fenêtre propriétaire à un objet Windows Runtime utilisé dans une application de bureau.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>IInputObject</strong></a><br/></td>
@@ -636,11 +636,11 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration"><strong>IInputPanelConfiguration</strong></a><br/></td>
-<td>Fournit des fonctionnalités pour que les applications de bureau choisissent le mécanisme de suivi de focus utilisé dans les applications du Windows Store.<br/></td>
+<td>fournit des fonctionnalités pour que les applications de bureau choisissent le mécanisme de suivi de focus utilisé dans les applications Windows store.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration"><strong>IInputPanelInvocationConfiguration</strong></a><br/></td>
-<td>Permet aux applications du Windows Store de refuser le comportement d’appel automatique.<br/></td>
+<td>permet à Windows applications du windows Store de refuser le comportement d’appel automatique.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iiocancelinformation"><strong>IIOCancelInformation</strong></a><br/></td>
@@ -684,11 +684,11 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow"><strong>IModalWindow</strong></a><br/></td>
-<td>Expose une méthode qui représente une fenêtre modale. Cette interface est utilisée dans l’Assistant Passport Windows XP.<br/></td>
+<td>Expose une méthode qui représente une fenêtre modale. cette interface est utilisée dans l’assistant Passport Windows XP.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="imultimonitordockingsite.md"><strong>IMultiMonitorDockingSite</strong></a><br/></td>
-<td>Implémenté par le navigateur. Expose des méthodes qui gèrent le moniteur qui contient la barre des tâches Windows sur un système à plusieurs écrans. <br/></td>
+<td>Implémenté par le navigateur. expose des méthodes qui gèrent le moniteur qui contient la barre des tâches Windows sur un système à plusieurs écrans. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-inamedpropertybag"><strong>INamedPropertyBag</strong></a><br/></td>
@@ -740,7 +740,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewmenuclient"><strong>INewMenuClient</strong></a><br/></td>
-<td>Expose des méthodes qui permettent de manipuler des éléments dans un menu Windows 7.<br/></td>
+<td>expose des méthodes qui permettent de manipuler des éléments dans un menu Windows 7.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka"><strong>INewShortcutHook</strong></a><br/></td>
@@ -804,7 +804,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource"><strong>IOpenSearchSource</strong></a><br/></td>
-<td>Expose une méthode pour obtenir les résultats de la recherche à partir d’une source de données OpenSearch personnalisée côté client.<br/></td>
+<td>expose une méthode pour obtenir les résultats de la recherche d’une source de données OpenSearch côté client personnalisée.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog"><strong>IOperationsProgressDialog</strong></a><br/></td>
@@ -812,11 +812,11 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ipackagedebugsettings"><strong>IPackageDebugSettings</strong></a><br/></td>
-<td>Permet aux développeurs de débogueur de contrôler le cycle de vie d’une application du Windows Store, comme la suspension ou la reprise.<br/></td>
+<td>permet aux développeurs de débogueur de contrôler le cycle de vie d’une application Windows Store, comme la suspension ou la reprise.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackageexecutionstatechangenotification"><strong>IPackageExecutionStateChangeNotification</strong></a><br/></td>
-<td>Active la réception des notifications de modification de l’état du package lors du débogage d’applications du Windows Store.<br/></td>
+<td>active la réception des notifications de modification de l’état du package pendant le débogage de l’application Windows Store.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>IParentAndItem</strong></a><br/></td>
@@ -852,7 +852,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/previous-versions/windows/desktop/legacy/hh707033(v=vs.85)"><strong>IPlaybackManager</strong></a><br/></td>
-<td>Fournit des méthodes qui permettent aux applications multimédias de communiquer avec le gestionnaire de lecture Windows.<br/></td>
+<td>fournit des méthodes qui permettent aux applications multimédias de communiquer avec le gestionnaire de lecture Windows.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/previous-versions/windows/desktop/legacy/hh707034(v=vs.85)"><strong>IPlaybackManagerEvents</strong></a><br/></td>
@@ -876,7 +876,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipreviousversionsinfo"><strong>IPreviousVersionsInfo</strong></a><br/></td>
-<td>Expose une méthode qui recherche les versions antérieures des fichiers ou dossiers du serveur, stockées pour l’objectif de la réversion par la technologie des <em>clichés instantanés</em> fournie avec Windows Server 2003.<br/></td>
+<td>expose une méthode qui recherche les versions antérieures des fichiers ou dossiers du serveur, stockées pour l’objectif de la réversion par la technologie des <em>clichés instantanés</em> fournie avec Windows server 2003.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="iprivateidentitymanager.md"><strong>IPrivateIdentityManager</strong></a><br/></td>
@@ -904,7 +904,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>IPublishingWizard</strong></a><br/></td>
-<td>Expose des méthodes pour travailler avec l’Assistant impression en ligne, l’Assistant Publication Web et l’Assistant Ajouter un favori réseau. Dans Windows Vista, <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>IPublishingWizard</strong></a> ne prend plus en charge l’Assistant Publication de sites Web ou l’Assistant impression en ligne.<br/></td>
+<td>Expose des méthodes pour travailler avec l’Assistant impression en ligne, l’Assistant Publication Web et l’Assistant Ajouter un favori réseau. dans Windows Vista, <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>IPublishingWizard</strong></a> ne prend plus en charge l’assistant publication de sites Web ou l’assistant impression en ligne.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>IQueryAssociations</strong></a><br/></td>
@@ -984,7 +984,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>IShellDetails</strong></a><br/></td>
-<td>Exposé par les dossiers Shell pour fournir des informations détaillées sur les éléments d’un dossier. Il s’agit des mêmes informations que celles affichées par l’Explorateur Windows lorsque la vue du dossier est définie sur détails. Pour les systèmes Windows 2000 et versions ultérieures, <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>IShellDetails</strong></a> est remplacé par <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a>.<br/></td>
+<td>Exposé par les dossiers Shell pour fournir des informations détaillées sur les éléments d’un dossier. il s’agit des mêmes informations que celles affichées par l’explorateur de Windows lorsque la vue du dossier est définie sur détails. pour les systèmes Windows 2000 et versions ultérieures, <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>IShellDetails</strong></a> est remplacé par <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a>.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit"><strong>IShellExtInit</strong></a><br/></td>
@@ -1008,7 +1008,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb"><strong>IShellFolderViewCB</strong></a><br/></td>
-<td>Expose une méthode qui permet la communication entre l’Explorateur Windows et une vue de dossier implémentée à l’aide de l’objet de vue de dossier système (l’objet <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> retourné via <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>SHCreateShellFolderView</strong></a>) afin que l’affichage des dossiers puisse être averti des événements et modifier sa vue en conséquence.<br/></td>
+<td>expose une méthode qui permet la communication entre l’explorateur de Windows et une vue de dossier implémentée à l’aide de l’objet de vue de dossier système (objet <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a> retourné via <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>SHCreateShellFolderView</strong></a>) afin que l’affichage des dossiers puisse être averti des événements et modifier sa vue en conséquence.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual"><strong>IShellFolderViewDual</strong></a><br/></td>
@@ -1100,7 +1100,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>IShellView</strong></a><br/></td>
-<td>Expose des méthodes qui présentent une vue dans les fenêtres de dossiers ou de l’Explorateur Windows.<br/></td>
+<td>expose des méthodes qui présentent une vue dans les fenêtres de Windows ou de l’explorateur de dossiers.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a><br/></td>
@@ -1263,7 +1263,7 @@ Cette interface est la version actuelle, renommée de <a href="/previous-version
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a><br/></td>
-<td>Étend <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a> en exposant des méthodes qui prennent en charge la fonctionnalité de bouton de lancement et de basculement unifiée de la barre des tâches ajoutée dans Windows 7. Cette fonctionnalité comprend des représentations de miniatures et des cibles de commutateur basées sur des onglets individuels dans une application avec onglets, des barres d’outils miniatures, des superpositions de notifications et d’États et des indicateurs de progression.<br/></td>
+<td>étend <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a> en exposant des méthodes qui prennent en charge la fonctionnalité de bouton de lancement et de basculement unifiée de la barre des tâches ajoutée dans Windows 7. Cette fonctionnalité comprend des représentations de miniatures et des cibles de commutateur basées sur des onglets individuels dans une application avec onglets, des barres d’outils miniatures, des superpositions de notifications et d’États et des indicateurs de progression.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist4"><strong>ITaskbarList4</strong></a><br/></td>

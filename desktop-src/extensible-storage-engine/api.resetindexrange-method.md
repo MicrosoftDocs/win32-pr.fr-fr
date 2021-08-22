@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 434740a549fa83d4601bf88ab09f307f4d19f189
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8152fd3a0cbfbed1a5ad6ff4e9e73f9a89df79157862713820cb0b463f8841bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983059"
 ---
 # <a name="apiresetindexrange-method"></a>API. ResetIndexRange, méthode
 

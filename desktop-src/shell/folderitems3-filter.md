@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 26a24dc3ef1f4d0de09dbd97a5dce4c8ed8c783b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd4983d340645e916595534f17dccb2ef09e2f5c185b6eaf97cc7de2e52669dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032587"
 ---
 # <a name="folderitems3filter-method"></a>FolderItems3. Filter, méthode
 
@@ -60,9 +60,9 @@ Chaîne de filtrage qui spécifie ce qui doit être listé dans la collection [*
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte du **filtre** pour JScript, VBScript et Visual Basic.
+l’exemple suivant illustre l’utilisation correcte du **filtre** pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -165,7 +165,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

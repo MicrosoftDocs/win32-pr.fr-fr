@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 96f7ab1c237879d83be25ddb54425ac31fcb855d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9018cfab8bea6c149c4771a54dbe55a62afafd447f4db2e162aa76d183c28ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004627"
 ---
 # <a name="decrypt-method-of-the-win32_encryptablevolume-class"></a>Méthode Decrypt de la \_ classe EncryptableVolume Win32
 
@@ -70,7 +70,7 @@ L’appel de la méthode de **déchiffrement** laisse les données non protégé
 
 Si l’état de protection du volume est égal à 1 (PROTECTION activée) avant l’utilisation de cette méthode, l’exécution correcte de cette méthode modifie l’état de la protection en 0 (PROTECTION désactivée), car par définition un volume partiellement chiffré n’est pas protégé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le volume n’est pas déjà entièrement déchiffré, l’exécution de **Decrypte** fait en sorte que [**GetConversionStatus**](getconversionstatus-win32-encryptablevolume.md) indique que le déchiffrement est en cours et affiche le pourcentage du volume qui reste chiffré.
 
@@ -78,7 +78,7 @@ Si l’état de protection du volume est « activé » avant l’exécution de
 
 Si cette méthode est exécutée sur le volume du système d’exploitation en cours d’exécution et que ce volume du système d’exploitation est utilisé pour déverrouiller automatiquement les volumes de données (consultez la méthode [**EnableAutoUnlock**](enableautounlock-win32-encryptablevolume.md)), vous devez d’abord appeler la méthode [**ClearAllAutoUnlockKeys**](clearallautounlockkeys-win32-encryptablevolume.md).
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -86,8 +86,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista entreprise, les applications de bureau Windows Vista Édition intégrale \[ uniquement\]<br/>                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows vista Enterprise, Windows les applications de bureau vista Ultimate \[ uniquement\]<br/>                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | En-tête<br/>                   | <dl> <dt>InfoCard. h</dt> </dl>                   |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |

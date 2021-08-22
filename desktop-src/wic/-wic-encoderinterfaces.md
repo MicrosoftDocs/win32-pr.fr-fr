@@ -4,17 +4,17 @@ ms.assetid: 02365401-8648-4be1-a447-fabd2cb77355
 title: Interfaces d’encodeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5367a25f1a2a4caf486711f7569312a436f8f474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6169dcf55ffafe0bf4c006b45c173ecc7486555fb001456112f8f333a8ccf2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965121"
 ---
 # <a name="encoder-interfaces"></a>Interfaces d’encodeur
 
 
-Les tableaux suivants présentent les interfaces implémentées par les encodeurs WIC (Windows Imaging Component) et le diagramme de classes affiche la hiérarchie d’héritage.
+les tableaux suivants présentent les interfaces implémentées par les encodeurs de composant Windows Imaging (WIC) et le diagramme de classes affiche la hiérarchie d’héritage.
 
 Interfaces d’encodeur Container-Level
 
@@ -63,7 +63,7 @@ Vous remarquerez que les interfaces de codeur sont presque des images miroir des
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

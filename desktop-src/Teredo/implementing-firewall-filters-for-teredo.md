@@ -4,20 +4,20 @@ description: Windows permet aux applications de définir une option de socket qu
 ms.assetid: 9e53e28c-e0e5-438d-b624-27d7bd65e4a3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f24d4351f10a3b37f2bf63c952e81883d97b781
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9fe854b210e6b07f0777a492d5c952f502e2f7c2b6c1c4b40497bad3a9e8248a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001806"
 ---
 # <a name="implementing-firewall-filters-for-teredo"></a>Implémentation de filtres de pare-feu pour Teredo
 
-Windows permet aux applications de définir une option de socket qui permet aux applications d’indiquer une intention explicite de recevoir le trafic Teredo envoyé au pare-feu hôte via la plateforme de filtrage Windows. Dans Windows, une option de socket permettant de définir un niveau de protection est utilisée pour permettre à une application de définir le type de trafic qu’elle souhaite recevoir. Plus spécifiquement, dans les scénarios impliquant le trafic Teredo, l’option de socket de [ \_ \_ niveau de protection IPv6](/windows/desktop/WinSock/ipv6-protection-level) est spécifiée. Il est recommandé que les implémentations de pare-feu d’hôte maintiennent les filtres suivants pour autoriser de manière sélective le trafic Teredo pour une application, tout en bloquant le trafic par défaut pour toute application sans exemption.
+Windows permet aux applications de définir une option de socket qui permet aux applications d’indiquer une intention explicite de recevoir le trafic Teredo envoyé au pare-feu hôte via la plateforme de filtrage Windows. dans Windows, une option de socket permettant de définir un niveau de protection est utilisée pour permettre à une application de définir le type de trafic qu’elle souhaite recevoir. Plus spécifiquement, dans les scénarios impliquant le trafic Teredo, l’option de socket de [ \_ \_ niveau de protection IPv6](/windows/desktop/WinSock/ipv6-protection-level) est spécifiée. Il est recommandé que les implémentations de pare-feu d’hôte maintiennent les filtres suivants pour autoriser de manière sélective le trafic Teredo pour une application, tout en bloquant le trafic par défaut pour toute application sans exemption.
 
 ## <a name="default-block-filter-for-edge-traversed-traffic"></a>Filtre de blocage par défaut pour le trafic traversé Edge
 
-Un pare-feu d’hôte doit toujours conserver un filtre de bloc par défaut dans la \_ couche de filtrage d’authentification ALE \_ recv \_ Accept \_ V6 pour le trafic correspondant au **tunnel de type d’interface** spécifié et les conditions Teredo du type de **tunnel** . En cas d’implémentation, ce filtre indique la présence d’un pare-feu hôte prenant en charge la traversée latérale dans le système. Ce filtre est considéré comme un contrat d’API entre le pare-feu de l’hôte et Windows. Par défaut, ce filtre bloque le trafic traversé Edge vers n’importe quelle application.
+un pare-feu d’hôte doit toujours conserver un filtre de bloc par défaut dans la \_ \_ couche de filtrage d’authentification ALE RECV \_ ACCEPT \_ V6 pour le trafic correspondant au **type d’Interface spécifié Tunnel** et Tunnel conditions Teredo de **type** . En cas d’implémentation, ce filtre indique la présence d’un pare-feu hôte prenant en charge la traversée latérale dans le système. Ce filtre est considéré comme un contrat d’API entre le pare-feu de l’hôte et Windows. Par défaut, ce filtre bloque le trafic traversé Edge vers n’importe quelle application.
 
 ``` syntax
    filter.layerKey  = FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6;
@@ -54,7 +54,7 @@ Un pare-feu d’hôte doit toujours conserver un filtre de bloc par défaut dans
 > [!Note]  
 > Les classes « remise », « arrivée » et « tronçon suivant » des conditions d’interface sont utilisées pour contrôler un modèle d’hôte faible et le transfert de paquets entre les interfaces. L’exemple ci-dessus utilise la classe « Delivery ». Consultez les [conditions de filtrage disponibles à chaque couche de filtrage](/windows/desktop/FWP/filtering-conditions-available-at-each-filtering-layer) dans la documentation du kit de développement logiciel (SDK) WFP, car votre conception de sécurité doit prendre en considération chaque cas.
 
- 
+ 
 
 ## <a name="allow-filter-for-exempt-applications"></a>Autoriser le filtre pour les applications exemptes
 
@@ -100,7 +100,7 @@ Si une application est exempte de la réception du trafic Teredo sur un socket d
 
 ## <a name="dormancy-callout-filter"></a>Filtre de légende latence
 
-Le service Teredo dans Windows implémente un modèle latence. À un moment donné, si aucune application n’écoute sur un socket UDP ou TCP pour lequel la traversée latérale est activée, le service passe à un état dormant. Pour que le mécanisme latence fonctionne, le pare-feu hôte doit conserver un filtre de légende pour chaque application exempte spécifiée dans la \_ \_ \_ couche de filtrage V6 d’écoute de l’authentification ALE pour TCP et la \_ \_ couche de filtrage V6 d’affectation de ressources ALE \_ pour les applications basées sur UDP. L’exemple suivant illustre une légende latence pour une application **TCP** .
+le service Teredo dans Windows implémente un modèle latence. À un moment donné, si aucune application n’écoute sur un socket UDP ou TCP pour lequel la traversée latérale est activée, le service passe à un état dormant. Pour que le mécanisme latence fonctionne, le pare-feu hôte doit conserver un filtre de légende pour chaque application exempte spécifiée dans la \_ \_ \_ couche de filtrage V6 d’écoute de l’authentification ALE pour TCP et la \_ \_ couche de filtrage V6 d’affectation de ressources ALE \_ pour les applications basées sur UDP. L’exemple suivant illustre une légende latence pour une application **TCP** .
 
 ``` syntax
    filter.layerKey = FWPM_LAYER_ALE_AUTH_LISTEN_V6;
@@ -135,6 +135,6 @@ Le service Teredo dans Windows implémente un modèle latence. À un moment donn
    filterConditions[1].conditionValue.uint32 = FWP_CONDITION_SOCKET_PROPERTY_FLAG_ALLOW_EDGE_TRAFFIC;
 ```
 
- 
+ 
 
- 
+ 

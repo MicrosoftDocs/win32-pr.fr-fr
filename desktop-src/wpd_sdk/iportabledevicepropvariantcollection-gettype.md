@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: de5ea5b1eeaa9cf494c24e13b8b9b36f7490b84d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c29e47cd08b5c31012df92ca04e018d38f7adb7f8802ec534682289852f518b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963738"
 ---
 # <a name="iportabledevicepropvariantcollectiongettype-method"></a>IPortableDevicePropVariantCollection :: GetType, méthode
 
@@ -49,7 +49,7 @@ Valeur d’énumération **VarType** du kit de développement Platform SDK qui i
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -62,7 +62,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tous les éléments stockés dans un **IPortableDevicePropVariantCollection** sont du même type.
 

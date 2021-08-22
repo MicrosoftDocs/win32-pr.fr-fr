@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6b10e9dfd43f3ad98adf8f6abb0eb7c2223d5970
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6cc0a601ee1adbff9254baeff029c26d0cea359c7b2770b4d518bad916aca09f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074283"
 ---
 # <a name="cdynamicoutputpinblock-method"></a>CDynamicOutputPin. Block, méthode
 
@@ -70,7 +70,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 | Code de retour                                                                                                                    | Description                                              |
 |--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>                                        | Le code PIN est déjà débloqué.<br/>                     |
-| <dl> <dt>**\_OK**</dt> </dl>                                           | Opération réussie.<br/>                                      |
+| <dl> <dt>**\_OK**</dt> </dl>                                           | Réussite.<br/>                                      |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>                                   | Argument non valide.<br/>                             |
 | <dl> <dt>**\_code PIN de VFW E \_ \_ déjà \_ bloqué**</dt> </dl>                   | Le code PIN est déjà bloqué sur un autre thread.<br/>     |
 | <dl> <dt>**\_ \_ code PIN de VFW E \_ déjà \_ bloqué \_ sur \_ ce \_ thread**</dt> </dl> | Le code PIN est déjà bloqué sur le thread appelant.<br/> |
@@ -79,7 +79,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur cette méthode, consultez [**IPinFlowControl :: Block**](/windows/desktop/api/Strmif/nf-strmif-ipinflowcontrol-block). En interne, cette méthode appelle l’une des méthodes protégées suivantes :
 
@@ -95,7 +95,7 @@ Le déblocage est toujours effectué de façon synchrone.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

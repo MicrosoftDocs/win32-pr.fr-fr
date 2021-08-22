@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1394f3f2a72837df5efa3b74bd2672e39c3c3b12
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 40556db0d63441e42d46a0ed7f9bd45edb8b2ce65f8d4b9b84e3a848325ddbb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103724964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013997"
 ---
 # <a name="context_handle_noserialize-attribute"></a>\_attribut noserialize de handle de contexte \_
 
@@ -57,7 +57,7 @@ Tous les attributs ACF supplémentaires qui s’appliquent à la fonction.
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Nom de la fonction tel qu’il est défini dans le fichier IDL.
@@ -78,7 +78,7 @@ Nom du paramètre tel que défini dans le fichier IDL.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut de [**\[ \_ handle \] de contexte**](context-handle.md) identifie un handle de liaison qui gère le contexte, ou les informations d’État, sur le serveur entre les appels de procédure distante. L’attribut peut apparaître en tant qu’attribut de type [**typedef**](typedef.md) IDL, en tant qu’attribut de type de retour de fonction ou en tant qu’attribut de paramètre.
 
@@ -86,7 +86,7 @@ Par défaut, les appels sur les handles de contexte sont sérialisés. Une appli
 
 Cet attribut est disponible dans MIDL version 5,0.
 
-**Windows ServerÂ 2003 et WINDOWSÂ XP ou version ultérieure :** Une interface unique peut prendre en charge des handles de contexte sérialisés et non sérialisés, ce qui permet à une méthode sur une interface d’accéder exclusivement à un handle de contexte (sérialisé), tandis que d’autres méthodes accèdent à ce handle de contexte en mode partagé (non sérialisé). Ces fonctionnalités d’accès sont comparables aux mécanismes de verrouillage en lecture/écriture. les méthodes qui utilisent un handle de contexte sérialisé sont des utilisateurs exclusifs (enregistreurs), tandis que les méthodes qui utilisent un handle de contexte non sérialisé sont des utilisateurs partagés (lecteurs). Les méthodes qui détruisent ou modifient l’état d’un handle de contexte doivent être sérialisées. Les méthodes qui ne modifient pas l’état d’un handle de contexte, telles que les méthodes qui lisent simplement un handle de contexte, peuvent être non sérialisées. Notez que les méthodes de création sont implicitement sérialisées.
+**Windows ServerÂ 2003 et WindowsÂ XP ou version ultérieure :** Une interface unique peut prendre en charge des handles de contexte sérialisés et non sérialisés, ce qui permet à une méthode sur une interface d’accéder exclusivement à un handle de contexte (sérialisé), tandis que d’autres méthodes accèdent à ce handle de contexte en mode partagé (non sérialisé). Ces fonctionnalités d’accès sont comparables aux mécanismes de verrouillage en lecture/écriture. les méthodes qui utilisent un handle de contexte sérialisé sont des utilisateurs exclusifs (enregistreurs), tandis que les méthodes qui utilisent un handle de contexte non sérialisé sont des utilisateurs partagés (lecteurs). Les méthodes qui détruisent ou modifient l’état d’un handle de contexte doivent être sérialisées. Les méthodes qui ne modifient pas l’état d’un handle de contexte, telles que les méthodes qui lisent simplement un handle de contexte, peuvent être non sérialisées. Notez que les méthodes de création sont implicitement sérialisées.
 
 ## <a name="examples"></a>Exemples
 
@@ -123,6 +123,6 @@ HRESULT RemoteFunc([context_handle_noserialize] pCxHandle);
 [**typedef**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

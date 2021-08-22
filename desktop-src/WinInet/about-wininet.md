@@ -1,32 +1,32 @@
 ---
 title: À propos de WinINet
-description: L’interface de programmation d’applications (API) de Windows Internet (WinINet) permet à votre application d’interagir avec les protocoles FTP et HTTP pour accéder aux ressources Internet.
+description: l’interface de programmation d’applications (API) Windows Internet (WinINet) permet à votre application d’interagir avec les protocoles FTP et HTTP pour accéder aux ressources Internet.
 ms.assetid: 0a06f2af-957a-4dff-a8cc-187370181b5c
 keywords:
 - À propos de wininet wininet
 - Wininet wininet, à propos de
 - Wininet wininet, page de démarrage
-- WinINet Windows Internet
-- Internet, Windows Internet WinINet
+- Windows WinINet Internet
+- internet, Windows WinINet internet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4513e5c3912a483fd4dbef96f452c5712717c8a5
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: be38840c33735a1e064e9bdc5e044651130d6e15a6fe22d004a2e8d7c29bf140
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103940720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051867"
 ---
 # <a name="about-wininet"></a>À propos de WinINet
 
 > [!NOTE]
-> Pour les conteneurs d’applications depuis Windows 10, version 1709, HTTP/2 (voir [RFC7540](https://tools.ietf.org/html/rfc7540)) est activé par défaut.
+> pour les conteneurs d’applications depuis Windows 10, la version 1709, HTTP/2 (voir [RFC7540](https://tools.ietf.org/html/rfc7540)) est activée par défaut.
 
-L’interface de programmation d’applications (API) de Windows Internet (WinINet) permet à votre application d’interagir avec les protocoles FTP et HTTP pour accéder aux ressources Internet. À mesure que les normes évoluent, ces fonctions gèrent les modifications apportées aux protocoles sous-jacents, ce qui leur permet de conserver un comportement cohérent.
+l’interface de programmation d’applications (API) Windows Internet (WinINet) permet à votre application d’interagir avec les protocoles FTP et HTTP pour accéder aux ressources Internet. À mesure que les normes évoluent, ces fonctions gèrent les modifications apportées aux protocoles sous-jacents, ce qui leur permet de conserver un comportement cohérent.
 
 **Windows XP et Windows Server 2003 R2 et versions antérieures :** Permet également aux applications d’interagir avec Gopher.
 
-Pour plus d’informations, consultez :
+Pour plus d'informations, consultez les pages suivantes :
 
 -   [WinINet et WinHTTP](wininet-vs-winhttp.md)
 -   [Handles HINTERNET](appendix-a-hinternet-handles.md)

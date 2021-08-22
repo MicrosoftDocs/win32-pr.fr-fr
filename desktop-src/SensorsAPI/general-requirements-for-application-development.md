@@ -4,18 +4,18 @@ ms.assetid: a8d3228a-5f8b-4850-9e47-5dfb2335e655
 title: Configuration générale requise pour le développement d’applications (API de capteur)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31ec328f659bb51eddf93cc69beb2fe6236113ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 148057cd837e8eef26e73ff9cdef07ca01c70cb4a107e5f6e77f9ca43487407d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003777"
 ---
 # <a name="general-requirements-for-application-development-sensor-api"></a>Configuration générale requise pour le développement d’applications (API de capteur)
 
 Cette rubrique décrit ce que vous devez faire pour commencer à créer des programmes qui utilisent l’API de capteur.
 
-Pour créer une application API de capteur, vous devez installer Windows 7 et le kit de développement logiciel (SDK) Windows 7 sur votre ordinateur. Le tableau suivant décrit les fichiers spécifiques dont vous aurez besoin.
+pour créer une application API de capteur, vous devez installer Windows 7 et le kit de développement logiciel (SDK) Windows 7 sur votre ordinateur. Le tableau suivant décrit les fichiers spécifiques dont vous aurez besoin.
 
 
 
@@ -26,7 +26,7 @@ Pour créer une application API de capteur, vous devez installer Windows 7 et le
 | Initguid. h              | Fichier d’en-tête qui contient les définitions pour le contrôle de l’initialisation du **GUID** .                          |
 | FunctionDiscoveryKeys. h | Fichier d’en-tête qui définit les clés de propriété d’ID d’appareil qui sont requises lorsque vous vous connectez aux capteurs logiques. |
 | Sensorsapi. lib          | Bibliothèque statique qui contient des définitions de **GUID** pour l’API de capteur.                                     |
-| PortableDeviceGuids. lib | Bibliothèque statique qui contient des définitions **GUID** pour les objets périphériques mobiles Windows.                   |
+| PortableDeviceGuids. lib | bibliothèque statique qui contient des définitions de **GUID** pour Windows objets périphériques portables.                   |
 
 
 
@@ -34,13 +34,13 @@ Pour créer une application API de capteur, vous devez installer Windows 7 et le
 
 Votre programme peut nécessiter des fichiers supplémentaires.
 
-## <a name="supported-operating-systems"></a>Systèmes d’exploitation pris en charge
+## <a name="supported-operating-systems"></a>Systèmes d'exploitation pris en charge
 
-Les applications API de capteur s’exécutent sur toutes les éditions de Windows 7, à l’exception de Windows 7 Édition Starter.
+les applications API de capteur s’exécutent sur toutes les éditions de Windows 7, à l’exception de l’édition Windows 7 Édition Starter.
 
-## <a name="windows-portable-devices-interfaces"></a>Interfaces des appareils mobiles Windows
+## <a name="windows-portable-devices-interfaces"></a>Windows Interfaces des appareils mobiles
 
-L’API de capteur utilise certains objets WPD (Windows Portable Devices) pour encapsuler les clés et les valeurs de propriété. Le tableau suivant décrit les interfaces de ces objets.
+l’API de capteur utilise certains objets Windows des appareils mobiles (WPD) pour encapsuler les clés et les valeurs de propriété. Le tableau suivant décrit les interfaces de ces objets.
 
 
 

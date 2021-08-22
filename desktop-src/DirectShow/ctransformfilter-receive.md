@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 67924bffc4d4d80b998e686d80d0e50afcd040ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a0c57cf6826274169a5984dd794e1ba9a5b8e78c7ffb774b00b05f16384e4a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953408"
 ---
 # <a name="ctransformfilterreceive-method"></a>CTransformFilter. Receive, méthode
 
@@ -58,13 +58,13 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 | Code de retour                                                                             | Description                                                 |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Le filtre amont doit cesser d’envoyer des exemples.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                                         |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                                         |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La broche d’entrée du filtre appelle cette méthode lorsqu’elle reçoit un exemple. Cette méthode appelle la méthode [**CTransformFilter :: InitializeOutputSample**](ctransformfilter-initializeoutputsample.md) , qui prépare un nouvel exemple de sortie. Elle appelle ensuite la méthode [**CTransformFilter :: Transform**](ctransformfilter-transform.md) , que la classe dérivée doit implémenter. La méthode **Transform** traite les données d’entrée et génère des données de sortie.
 
@@ -76,7 +76,7 @@ Si la méthode **Transform** retourne S \_ false, la `Receive` méthode supprime
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 473ee0c7-af11-4492-ac54-4723a103a389
 title: System. photo. MakerNoteOffset
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af72d5058a153598c54d02580ef1dae0f84b921c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0658dad11198d1d9897b69cffd67c575d26d0b5c9e8a0d3431ceb5f01bf7690c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106530857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033337"
 ---
 # <a name="systemphotomakernoteoffset"></a>System. photo. MakerNoteOffset
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt64
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

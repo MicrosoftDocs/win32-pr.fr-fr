@@ -4,12 +4,12 @@ ms.assetid: d30ed536-d477-4f50-8c80-aacc35f948b9
 title: Implémentation d’un périphérique WSD multirésident
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac3537b96a577db47419d55cb5c6f732f8f7906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24ac83b0fe3b951e02e77ef9efc6241ce5a7e1780106b1e85e4f00b987bbbe05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991739"
 ---
 # <a name="implementing-a-multi-homed-wsd-device"></a>Implémentation d’un périphérique WSD multirésident
 
@@ -29,7 +29,7 @@ Il est plus difficile d’implémenter l’échange de métadonnées dans un env
 
 Il existe une autre approche, où un seul message [GetResponse](getresponse--metadata-exchange--message.md) est envoyé en réponse à toutes les adresses du service. L’inconvénient de cette méthode est que des informations privées, telles que la topologie de réseaux indirectement accessibles, peuvent être divulguées.
 
-Sur Windows Vista, les métadonnées fournies par WSDAPI contiennent uniquement les adresses valides pour l’interface sur laquelle la demande de métadonnées a été reçue.
+sur Windows Vista, les métadonnées fournies par WSDAPI contiennent uniquement les adresses valides pour l’interface sur laquelle la demande de métadonnées a été reçue.
 
  
 

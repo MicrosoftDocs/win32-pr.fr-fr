@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msmdun80.dll
-ms.openlocfilehash: 8d7bb675d76d5e455ffa6bf5099d8f1fe7f88e61
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9cbf792b3b1aa2f22550a88a0c24920c86b6874cf81a29cec6b36356a189e1fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017787"
 ---
 # <a name="_deletefile-function"></a>\_DeleteFile, fonction
 

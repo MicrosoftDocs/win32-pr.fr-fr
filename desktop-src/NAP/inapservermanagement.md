@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a5eed03f535653a3b9244ff1aa74fe499c1bf2f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6b324f32c542a6a300266d26ceb5981bb6e14d0feff28aa225698d6b32bbe94b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012527"
 ---
 # <a name="inapservermanagement-interface"></a>Interface INapServerManagement
 
@@ -60,7 +60,7 @@ L’interface **INapServerManagement** possède ces méthodes.
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                               |
 | En-tête<br/>                   | <dl> <dt>NapServerManagement. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapServerManagement. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |

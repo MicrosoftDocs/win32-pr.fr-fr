@@ -3,7 +3,7 @@ title: Message TBM_SETTICFREQ (commctrl. h)
 description: Définit la fréquence d’intervalle des graduations d’un TrackBar.
 ms.assetid: c391260c-d6c2-4b6a-84e8-7fe5d734035b
 keywords:
-- TBM_SETTICFREQ les contrôles de message Windows
+- TBM_SETTICFREQ les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b68a555a7803e663fa1708fc02214deecbb05aad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7c1b3e029abc8027d8708da31698f44db85ec78e427ba9461f0a71a740fb05a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078013"
 ---
 # <a name="tbm_setticfreq-message"></a>\_Message TBM SETTICFREQ
 
@@ -43,7 +43,7 @@ Fréquence des graduations.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le TrackBar doit avoir le style des [**\_ graduations tbs**](trackbar-control-styles.md) pour utiliser ce message.
 
@@ -53,8 +53,8 @@ Le TrackBar doit avoir le style des [**\_ graduations tbs**](trackbar-control-st
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

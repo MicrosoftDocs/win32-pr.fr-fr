@@ -4,20 +4,20 @@ ms.assetid: e4a47e1c-16aa-45c1-8aa8-8929d6e1e653
 title: Exemple ProtectedPlayback
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee64b2a64ce4d40b6f15c2e5afb3b9a39e84c619
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd4290a92ba18695d1780fc0401334c4bce252754353d8757b3e904a2aa979fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034977"
 ---
 # <a name="protectedplayback-sample"></a>Exemple ProtectedPlayback
 
 Montre comment lire du contenu multimédia protégé dans Microsoft Media Foundation.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
-L’exemple ProtectedPlayback génère une application Windows.
+l’exemple ProtectedPlayback génère une application Windows.
 
 Pour lire un fichier multimédia local, sélectionnez **ouvrir un fichier** dans le menu **fichier** . Pour spécifier un fichier par URL, sélectionnez **ouvrir l’URL** dans le menu **fichier** . Une fois que vous avez sélectionné un fichier, la lecture commence automatiquement. Pour suspendre la lecture, appuyez sur la barre d’espace. Pour reprendre la lecture, appuyez de nouveau sur la barre d’espace.
 
@@ -42,7 +42,7 @@ Cet exemple illustre les interfaces de Media Foundation suivantes :
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/protectedplayback).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/protectedplayback).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

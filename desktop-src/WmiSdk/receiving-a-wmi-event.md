@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 255f54f78bb64659d1cd07eddb72eae55b0263c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dac8aba93cc841211cbdc02bc5e75773ab444eaa2763c4b0367fbd36ada37b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992589"
 ---
 # <a name="receiving-a-wmi-event"></a>Réception d’un événement WMI
 
@@ -36,7 +36,7 @@ Vous pouvez créer une requête [semi-synchrone](receiving-synchronous-and-semis
 
 La notification d’une modification dans le modèle de données WMI standard est appelée [*événement intrinsèque*](gloss-i.md). [**\_ \_ InstanceCreationEvent**](--instancecreationevent.md) ou [**\_ \_ NamespaceDeletionEvent**](--namespacedeletionevent.md) sont des exemples d’événements intrinsèques. La notification d’une modification apportée par un fournisseur pour définir un événement de fournisseur est appelée [*événement extrinsèque*](gloss-e.md). Par exemple, le fournisseur de [Registre système](/previous-versions/windows/desktop/regprov/system-registry-provider), le fournisseur [d’événements de gestion](/windows/desktop/CIMWin32Prov/power-management-event-provider)de l’alimentation et le [fournisseur Win32](/windows/desktop/CIMWin32Prov/win32-provider) définissent leurs propres événements. Pour plus d’informations, consultez [détermination du type d’événement à recevoir](determining-the-type-of-event-to-receive.md).
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 L’exemple de code de script suivant est une requête pour le [**\_ \_ InstanceCreationEvent**](--instancecreationevent.md) intrinsèque de la classe d’événements [**Win32 \_ NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent). Vous pouvez exécuter ce programme en arrière-plan et, lorsqu’un événement survient, un message s’affiche. Si vous fermez la boîte de dialogue en **attente d’événements** , le programme cesse d’attendre les événements. N’oubliez pas que le **droit SeSecurityPrivilege** doit être activé.
 
@@ -158,9 +158,9 @@ WMI applique actuellement des quotas à l’aide des propriétés de [**\_ \_ Ar
 
 | Total/PerUser                                                                   | Quota                                                                       |
 |---------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| TemporarySubscriptionsTotal<br/> TemporarySubscriptionsPerUser<br/> | 10 000<br/> 1 000<br/>                                          |
-| PermanentSubscriptionsTotal<br/> PermanentSubscriptionsPerUser<br/> | 10 000<br/> 1 000<br/>                                          |
-| PollingInstructionsTotal<br/> PollingInstructionsPerUser<br/>       | 10 000<br/> 1 000<br/>                                          |
+| TemporarySubscriptionsTotal<br/> TemporarySubscriptionsPerUser<br/> | 10 000<br/> 1 000<br/>                                          |
+| PermanentSubscriptionsTotal<br/> PermanentSubscriptionsPerUser<br/> | 10 000<br/> 1 000<br/>                                          |
+| PollingInstructionsTotal<br/> PollingInstructionsPerUser<br/>       | 10 000<br/> 1 000<br/>                                          |
 | PollingMemoryTotal<br/> PollingMemoryPerUser<br/>                   | 10 millions (0x989680) octets<br/> 5 millions (0x4CB40) octets<br/> |
 
 

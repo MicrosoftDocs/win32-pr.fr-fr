@@ -3,7 +3,7 @@ title: TBN_DROPDOWN le code de notification (commctrl. h)
 description: Envoyé par un contrôle de barre d’outils lorsque l’utilisateur clique sur un bouton déroulant. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 85360f74-4b43-4d0a-8c89-22b0741fe96a
 keywords:
-- Contrôles Windows de code de notification TBN_DROPDOWN
+- TBN_DROPDOWN les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad7adbb9e0e2ed3d77f8ca8bfb6b09dedd2265be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e2cdee38176b2ed72d42aaa29ca685a5e73dd30ceb7e315b5cbe0971161dc13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077923"
 ---
 # <a name="tbn_dropdown-notification-code"></a>\_Code de notification de liste déroulante TBN
 
@@ -61,7 +61,7 @@ Renvoie l'une des valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Les boutons déroulants peuvent être bruts (style de [**\_ liste déroulante BTNS**](toolbar-control-and-button-styles.md) ), afficher une flèche en regard de l’image du bouton (style de [**\_ WHOLEDROPDOWN BTNS**](toolbar-control-and-button-styles.md) ) ou afficher une flèche séparée de l’image ([**TBSTYLE \_ ex \_ DRAWDDARROWS**](toolbar-extended-styles.md) style). Si une flèche séparée est utilisée, \_ la liste déroulante TBN est envoyée uniquement si l’utilisateur clique sur la partie de flèche du bouton. Si l’utilisateur clique sur la partie principale du bouton, un message de [**\_ commande WM**](/windows/desktop/menurc/wm-command) avec l’ID du bouton est envoyé, comme avec un bouton standard. Pour les deux autres styles du bouton déroulant, \_ la liste déroulante TBN est envoyée lorsque l’utilisateur clique sur une partie du bouton.
@@ -74,8 +74,8 @@ Renvoie l'une des valeurs suivantes :
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

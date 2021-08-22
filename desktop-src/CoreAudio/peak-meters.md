@@ -4,16 +4,16 @@ ms.assetid: 02f5d1b4-ba4f-424a-897f-b113d1f7cd6b
 title: Compteurs de pic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ccd2f1ce0b8fd45fbf1cb3710c878c05544f7d4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e04a15ddd2e5fd91cf60845f2a939715e7a4a992f36aea3b9129e69c30d05961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077503"
 ---
 # <a name="peak-meters"></a>Compteurs de pic
 
-Pour prendre en charge les applications Windows qui affichent des compteurs de pic, l' [API EndpointVolume](endpointvolume-api.md) comprend une interface [**IAudioMeterInformation**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation) . Cette interface représente un compteur de pic sur un [périphérique de point de terminaison audio](audio-endpoint-devices.md). Pour un périphérique de rendu, la valeur récupérée à partir du compteur de pic représente la valeur d’échantillon maximale rencontrée dans le flux de sortie à l’appareil au cours de la période de mesure précédente. Pour un appareil de capture, la valeur récupérée à partir du compteur de pic représente la valeur d’échantillon maximale rencontrée dans le flux d’entrée de l’appareil.
+pour prendre en charge Windows applications qui affichent des compteurs de pic, l' [API EndpointVolume](endpointvolume-api.md) comprend une interface [**IAudioMeterInformation**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation) . Cette interface représente un compteur de pic sur un [périphérique de point de terminaison audio](audio-endpoint-devices.md). Pour un périphérique de rendu, la valeur récupérée à partir du compteur de pic représente la valeur d’échantillon maximale rencontrée dans le flux de sortie à l’appareil au cours de la période de mesure précédente. Pour un appareil de capture, la valeur récupérée à partir du compteur de pic représente la valeur d’échantillon maximale rencontrée dans le flux d’entrée de l’appareil.
 
 Les valeurs de haut-compteur obtenues à partir des méthodes de l’interface [**IAudioMeterInformation**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation) sont des nombres à virgule flottante dans la plage normalisée comprise entre 0,0 et 1,0. Par exemple, si un flux PCM contient des exemples de 16 bits et que la valeur d’échantillon de pic au cours d’une période de mesure particulière est : 8914, la valeur absolue enregistrée par le compteur de pic est 8914, et la valeur de pic normalisée signalée par l’interface **IAudioMeterInformation** est 8914/32768 = 0,272.
 
@@ -21,7 +21,7 @@ Si l’appareil de point de terminaison audio implémente le seuil de pic dans l
 
 Si un appareil a un indicateur de pic matériel, le compteur de pic est actif à la fois en mode partagé et en mode exclusif. Si un appareil ne dispose pas de l’indicateur de pic matériel, le compteur de pic est actif en mode partagé, mais pas en mode exclusif. En mode exclusif, l’application et le matériel audio échangent directement des données audio, en ignorant le compteur de pic de logiciel (qui signale toujours une valeur maximale de 0,0).
 
-L’exemple de code C++ suivant est une application Windows qui affiche un compteur maximal pour le périphérique de rendu par défaut :
+l’exemple de code C++ suivant est un Windows application qui affiche un compteur maximal pour le périphérique de rendu par défaut :
 
 
 ```C++
@@ -178,9 +178,9 @@ void DrawPeakMeter(HWND hPeakMeter, float peak)
 
 
 
-Dans l’exemple de code précédent, la fonction [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) appelle la fonction [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer une instance de l’interface [**IMMDeviceEnumerator**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) et appelle la méthode [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) pour obtenir l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) du périphérique de rendu par défaut. **WinMain** appelle la méthode [**IMMDevice :: Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) pour obtenir l’interface [**IAudioMeterInformation**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation) de l’appareil et ouvre une boîte de dialogue pour afficher un compteur maximal pour l’appareil. Pour plus d’informations sur **WinMain** et **CoCreateInstance**, consultez la documentation SDK Windows. Pour plus d’informations sur **IMMDeviceEnumerator** et **IMMDevice**, consultez [énumération des périphériques audio](enumerating-audio-devices.md).
+Dans l’exemple de code précédent, la fonction [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) appelle la fonction [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer une instance de l’interface [**IMMDeviceEnumerator**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) et appelle la méthode [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) pour obtenir l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) du périphérique de rendu par défaut. **WinMain** appelle la méthode [**IMMDevice :: Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) pour obtenir l’interface [**IAudioMeterInformation**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudiometerinformation) de l’appareil et ouvre une boîte de dialogue pour afficher un compteur maximal pour l’appareil. pour plus d’informations sur **WinMain** et **CoCreateInstance**, consultez la documentation SDK Windows. Pour plus d’informations sur **IMMDeviceEnumerator** et **IMMDevice**, consultez [énumération des périphériques audio](enumerating-audio-devices.md).
 
-Dans l’exemple de code précédent, la fonction DlgProc affiche le compteur de pic dans la boîte de dialogue. Lors du traitement du \_ message WM INITDIALOG, DlgProc appelle la fonction [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) pour configurer un minuteur qui génère des messages de minuterie WM à des intervalles de \_ temps réguliers. Quand DlgProc reçoit un \_ message de minuteur WM, il appelle [**IAudioMeterInformation :: GetPeakValue**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-getpeakvalue) pour obtenir la dernière lecture du compteur de pointe pour le flux. DlgProc appelle ensuite la fonction DrawPeakMeter pour dessiner le compteur de pic mis à jour dans la boîte de dialogue. Pour plus d’informations sur **SetTimer** et les \_ messages du minuteur WM INITDIALOG et WM \_ , consultez la documentation SDK Windows.
+Dans l’exemple de code précédent, la fonction DlgProc affiche le compteur de pic dans la boîte de dialogue. Lors du traitement du \_ message WM INITDIALOG, DlgProc appelle la fonction [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer) pour configurer un minuteur qui génère des messages de minuterie WM à des intervalles de \_ temps réguliers. Quand DlgProc reçoit un \_ message de minuteur WM, il appelle [**IAudioMeterInformation :: GetPeakValue**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-getpeakvalue) pour obtenir la dernière lecture du compteur de pointe pour le flux. DlgProc appelle ensuite la fonction DrawPeakMeter pour dessiner le compteur de pic mis à jour dans la boîte de dialogue. pour plus d’informations sur **SetTimer** et les \_ messages du minuteur wm INITDIALOG et wm \_ , consultez la documentation SDK Windows.
 
 Vous pouvez facilement modifier l’exemple de code précédent pour afficher un compteur maximal pour le périphérique de capture par défaut. Dans la fonction [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) , remplacez la valeur du premier paramètre de l’appel de [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) de eRender par eCapture.
 

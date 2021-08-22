@@ -12,12 +12,12 @@ keywords:
 - exemples Planificateur de tâches consultez Planificateur de tâches des exemples Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f81dda9551917b8f6345248a316bd5941de53f0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d4ba0c50a918f6c90d48eb1603bf42ec1336f7eae9ec5696b7627dd7d06cbeaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001887"
 ---
 # <a name="using-the-task-scheduler"></a>Utilisation de l’Planificateur de tâches
 
@@ -29,17 +29,17 @@ Le tableau suivant répertorie Planificateur de tâches exemples 2,0 inclus dans
 
 | Exemple                                                                                                    | Description                                                                            |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [Démarrage d’un exécutable à une heure spécifique](starting-an-executable-at-a-spcific-time.md)                  | Définit une tâche qui démarre le bloc-notes à une heure spécifiée.                                |
-| [Démarrage quotidien d’un exécutable](starting-an-executable-daily.md)                                           | Définit une tâche qui démarre le bloc-notes quotidiennement.                                              |
-| [Démarrage d’un exécutable au démarrage du système](starting-an-executable-on-system-boot.md)                         | Définit une tâche qui démarre le bloc-notes au démarrage du système.                          |
-| [Démarrage d’un exécutable hebdomadaire](starting-an-executable-weekly.md)                                         | Définit une tâche qui démarre le bloc-notes chaque semaine.                                  |
-| [Démarrage d’un exécutable quand une tâche est inscrite](starting-an-executable-when-a-task-is-registered.md)   | Définit une tâche qui démarre le bloc-notes lorsque la tâche est inscrite.                        |
-| [Démarrage d’un exécutable lorsqu’un utilisateur ouvre une session](starting-an-executable-when-a-user-logs-on.md)               | Définit une tâche qui démarre le bloc-notes lorsqu’un utilisateur ouvre une session.                                |
+| [Démarrage d’un exécutable à une heure spécifique](starting-an-executable-at-a-spcific-time.md)                  | définit une tâche qui démarre Bloc-notes à une heure spécifiée.                                |
+| [Démarrage quotidien d’un exécutable](starting-an-executable-daily.md)                                           | définit une tâche qui démarre Bloc-notes quotidiennement.                                              |
+| [Démarrage d’un exécutable au démarrage du système](starting-an-executable-on-system-boot.md)                         | définit une tâche qui démarre Bloc-notes lors du démarrage du système.                          |
+| [Démarrage d’un exécutable hebdomadaire](starting-an-executable-weekly.md)                                         | définit une tâche qui démarre Bloc-notes sur une base hebdomadaire.                                  |
+| [Démarrage d’un exécutable quand une tâche est inscrite](starting-an-executable-when-a-task-is-registered.md)   | définit une tâche qui démarre Bloc-notes lorsque la tâche est inscrite.                        |
+| [Démarrage d’un exécutable lorsqu’un utilisateur ouvre une session](starting-an-executable-when-a-user-logs-on.md)               | définit une tâche qui démarre Bloc-notes lorsqu’un utilisateur ouvre une session.                                |
 | [Énumération des tâches et affichage des informations sur les tâches](enumerating-tasks-and-displaying-task-information.md) | Énumère toutes les tâches sur l’ordinateur local et affiche l’état de chaque tâche. |
 
 
 
- 
+ 
 
 Le tableau suivant répertorie Planificateur de tâches exemples 1,0 inclus dans cette section. 
 
@@ -61,7 +61,7 @@ Le tableau suivant répertorie Planificateur de tâches exemples 1,0 inclus dans
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -73,9 +73,9 @@ Le tableau suivant répertorie Planificateur de tâches exemples 1,0 inclus dans
 [À propos de l’Planificateur de tâches](about-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

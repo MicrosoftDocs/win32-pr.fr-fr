@@ -3,21 +3,21 @@ title: Fichier désactivé
 description: Fichier désactivé
 ms.assetid: 8b3339f6-a5d5-4501-826c-6ce33bfbf0cb
 keywords:
-- Windows Media Player Mobile Skins, fichiers art
+- Lecteur Windows Media Skins mobiles, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les apparences, fichiers désactivés
-- Windows Media Player Mobile Skins, fichiers désactivés
+- Lecteur Windows Media Skins mobiles, fichiers désactivés
 - apparences, fichiers désactivés
 - Fichiers désactivés dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9608c67ded6625d46126955ad42a24548a9d002c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7b7d7c052ed0de1a3e231bc204b87a84f1e9e10262acfe43df310d76f76577b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997353"
 ---
 # <a name="disabled-file"></a>Fichier désactivé
 
@@ -38,9 +38,9 @@ Notez que l’arrière-plan de l’image de bouton correspond exactement à la z
 [**Fichiers art**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

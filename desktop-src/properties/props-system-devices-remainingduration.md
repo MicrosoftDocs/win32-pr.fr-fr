@@ -4,12 +4,12 @@ ms.assetid: 124357C9-32DC-4C81-8699-4C92A542A888
 title: System. Devices. RemainingDuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b747f24dc49f7e1f51a344f854bdec4c72ebd47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39c054cb7ec36fad45c33b650179310d8de1fe8d6a77c6dbb7e5562576ab5100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097238"
 ---
 # <a name="systemdevicesremainingduration"></a>System. Devices. RemainingDuration
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

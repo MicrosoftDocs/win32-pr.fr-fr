@@ -3,18 +3,18 @@ title: Fichier de définition d’apparence
 description: Fichier de définition d’apparence
 ms.assetid: ed5f7c61-c830-4075-a79f-d5539454bd3b
 keywords:
-- Apparences du lecteur Windows Media, fichiers de définition d’apparence
+- apparences de Lecteur Windows Media, fichiers de définition d’apparence
 - apparences, fichiers de définition d’apparence
 - fichiers pour les apparences, définition d’apparence
 - fichiers de définition d’apparence, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bd06708a99a15dc9a8266278850c0507007f058
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7bf162870596968872c4f146772c9e62277f5b2ccb660270794248786a71355
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995239"
 ---
 # <a name="skin-definition-file"></a>Fichier de définition d’apparence
 
@@ -148,9 +148,9 @@ La section suivante fournit plus d’informations sur les fichiers de définitio
 [**Fichiers d’apparence**](skin-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

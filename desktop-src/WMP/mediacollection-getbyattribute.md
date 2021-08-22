@@ -3,9 +3,9 @@ title: Méthode MediaCollection. getByAttribute
 description: La méthode getByAttribute récupère une sélection d’éléments multimédias qui contiennent une valeur spécifiée pour un attribut spécifié.
 ms.assetid: a89f9c52-c655-4420-858e-c0eed661856f
 keywords:
-- méthode getByAttribute lecteur Windows Media
-- méthode getByAttribute lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode getByAttribute
+- Lecteur Windows Media de la méthode getByAttribute
+- méthode getByAttribute Lecteur Windows Media, classe MediaCollection
+- Lecteur Windows Media de la classe MediaCollection, méthode getByAttribute
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 533823127364416f8f4492c82381e682173c5c78
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f942f0718202d6c3e509b177c34c4c4be20c058b1e74991fa0ae89955d7711d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996308"
 ---
 # <a name="mediacollectiongetbyattribute-method"></a>Méthode MediaCollection. getByAttribute
 
@@ -46,7 +46,7 @@ retVal = MediaCollection.getByAttribute(
 *attribut* \[ dans\]
 </dt> <dd>
 
-**Chaîne** indiquant le nom de l’attribut à rechercher. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+**Chaîne** indiquant le nom de l’attribut à rechercher. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ retVal = MediaCollection.getByAttribute(
 
 Cette méthode retourne un objet **playlist** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être utilisée pour créer une requête générique pour les éléments multimédias qui correspondent à une valeur pour un attribut de la base de données. Cela est utile dans le cas des attributs définis par l’utilisateur. Si l’attribut n’existe pas, une erreur se produit.
 
@@ -71,12 +71,12 @@ Vous pouvez utiliser cette méthode pour récupérer tous les éléments multim�
 
 | Valeur    | Description                                                |
 |----------|------------------------------------------------------------|
-| audio    | Musique et autres éléments audio uniquement.                          |
+| audio    | Musique et d’autres éléments audio uniquement.                          |
 | playlist | Sélections représentées en tant qu’objets **multimédias** .                |
-| radio    | Éléments de station de radio. Non utilisé par le lecteur Windows Media 10.  |
+| radio    | Éléments de station de radio. non utilisé par Lecteur Windows Media 10.  |
 | video    | Éléments vidéo.                                               |
-| photos    | Éléments de photo. Requiert le lecteur Windows Media 10.             |
-| autre    | Autres éléments, tels que les fichiers ASF ou les URL, pour la diffusion multimédia en continu. |
+| photos    | Éléments de photo. requiert Lecteur Windows Media 10.             |
+| Autres    | Autres éléments, tels que les fichiers ASF ou les URL, pour la diffusion multimédia en continu. |
 
 
 
@@ -86,7 +86,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *MediaCollection*. **getByAttribute** pour lire tout le contenu de la bibliothèque par l’artiste nommé triode 48. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *MediaCollection*. **getByAttribute** pour lire tout le contenu de la bibliothèque par l’artiste nommé triode 48. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

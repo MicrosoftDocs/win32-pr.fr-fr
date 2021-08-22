@@ -4,16 +4,16 @@ ms.assetid: 8e24efb1-8f7d-498a-bd21-79e182b86846
 title: Fonctions de format de chaîne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54cbf9f7fed29c218cf9491819321505e30a7b33
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 908f43c0835cba8cc811c22313630bb357fbc4618fcd7bd1d338d71b53f7a8c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977369"
 ---
 # <a name="string-format-functions"></a>Fonctions de format de chaîne
 
-Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h. Les fonctions de l’API plate GDI+ sont encapsulées par une collection d’environ 40 classes C++. Il est recommandé de ne pas appeler directement les fonctions dans l’API plate. Chaque fois que vous effectuez des appels à GDI+, vous devez le faire en appelant les méthodes et les fonctions fournies par les wrappers C++. Les services de support technique Microsoft ne fournissent pas de prise en charge du code qui appelle l’API plate directement. Pour plus d’informations sur l’utilisation de ces méthodes Wrapper, consultez l' [API plate GDI+](-gdiplus-flatapi-flat.md).
+Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h. les fonctions de l’API plate GDI+ sont encapsulées par une collection d’environ 40 classes C++. Il est recommandé de ne pas appeler directement les fonctions dans l’API plate. chaque fois que vous effectuez des appels à GDI+, vous devez le faire en appelant les méthodes et les fonctions fournies par les wrappers C++. Les services de support technique Microsoft ne fournissent pas de prise en charge du code qui appelle l’API plate directement. pour plus d’informations sur l’utilisation de ces méthodes wrapper, consultez [GDI+ l’API plate](-gdiplus-flatapi-flat.md).
 
 Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**StringFormat**](/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat) .
 

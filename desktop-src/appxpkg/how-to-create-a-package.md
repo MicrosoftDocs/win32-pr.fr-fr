@@ -1,23 +1,23 @@
 ---
 title: Guide pratique pour créer un package d’application (C++)
-description: Découvrez comment créer un package d’application pour une application Windows à l’aide de l’API de Packaging.
+description: découvrez comment créer un package d’application pour une application Windows à l’aide de l’API de packaging.
 ms.assetid: FD677D75-50D5-4228-891F-73B5F40679B0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f1808ebf57d4c7125f5509db68e22b78ce949f7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9ac2e471443acd22a39128c046590eed29d320b75bafee0a65cb6d37fb4fb8d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106511888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049057"
 ---
 # <a name="how-to-create-an-app-package-c"></a>Guide pratique pour créer un package d’application (C++)
 
-Découvrez comment créer un package d’application pour une application Windows à l’aide de l' [API de Packaging](interfaces.md).
+découvrez comment créer un package d’application pour une application Windows à l’aide de l' [API de packaging](interfaces.md).
 
 Si vous souhaitez créer un package d’application de bureau manuellement, vous pouvez également utiliser l’outil MakeAppx.exe qui utilise l' [API de Packaging](interfaces.md). Pour plus d’informations [, consultez App Packager (MakeAppx.exe)](make-appx-package--makeappx-exe-.md) .
 
-Si vous utilisez Visual Studio, il est recommandé d’utiliser l’Assistant Empaquetage de Visual Studio pour empaqueter votre application. Pour plus d’informations, consultez [empaqueter une application UWP à l’aide de Visual Studio](/windows/msix/package/packaging-uwp-apps).
+si vous utilisez Visual Studio, il est recommandé d’utiliser l’assistant empaquetage Visual Studio pour empaqueter votre application. Pour plus d’informations, consultez [empaqueter une application UWP à l’aide de Visual Studio](/windows/msix/package/packaging-uwp-apps).
 
 ## <a name="instructions"></a>Instructions
 
@@ -309,6 +309,6 @@ CoUninitialize();
 [**IAppxPackageWriter**](/windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagewriter)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: b6c332451bc9ebb5f2ccf5068003c9a33617da21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d47989b95663a9a99f4363fb505aec996ea23acdd813cf301f7ee252c874dc78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952618"
 ---
 # <a name="imediadetenterbitmapgrabmode-method"></a>IMediaDet :: EnterBitmapGrabMode, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -60,7 +60,7 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 
 | Code de retour                                                                                             | Description                                              |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                    | Opération réussie.<br/>                                      |
+| <dl> <dt>**\_OK**</dt> </dl>                    | Réussite.<br/>                                      |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>            | Argument non valide.<br/>                             |
 | <dl> <dt>**VFW \_ E \_ INVALIDMEDIATYPE**</dt> </dl> | Le fichier source n’a pas de flux vidéo.<br/> |
 | <dl> <dt>**VFW \_ E \_ temps \_ expiré**</dt> </dl>    | Délai d’attente de la commande Seek dépassé.<br/>                       |
@@ -69,7 +69,7 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, définissez le nom de fichier et le flux en appelant [**IMediaDet ::p ut \_ filename**](imediadet-put-filename.md) et [**IMediaDet ::p ut \_ CurrentStream**](imediadet-put-currentstream.md).
 
@@ -83,7 +83,7 @@ Les méthodes [**IMediaDet :: GetBitmapBits**](imediadet-getbitmapbits.md) ou [
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

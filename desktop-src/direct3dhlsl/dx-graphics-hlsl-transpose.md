@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 44f129a87edaff260de87136954be7598ee3acb6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e6e545e657e6d9eaded92affba5bbb52a22222db2bf87acd5dddb72335a17ab0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119753"
 ---
 # <a name="transpose"></a>permuter
 
@@ -49,7 +49,7 @@ Transpose la matrice d’entrée spécifiée.
 
 Valeur transposée du paramètre *x* .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si les dimensions de la matrice source sont des *colonnes* de *lignes* , la matrice résultante est celle des *lignes* de *colonnes* .
 
@@ -59,8 +59,8 @@ Si les dimensions de la matrice source sont des *colonnes* de *lignes* , la matr
 
 | Nom | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Taille                                                                                   |
 |------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| *x*  | [**matrice**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**bool**](/windows/desktop/WinProg/windows-data-types) | n'importe laquelle                                                                                    |
-| Av  | [**matrice**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**bool**](/windows/desktop/WinProg/windows-data-types) | Rows = même nombre de colonnes en entrée *x*, Columns = même nombre de lignes comme entrée *x* |
+| *x*  | [**comparatif**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**bool**](/windows/desktop/WinProg/windows-data-types) | n'importe laquelle                                                                                    |
+| Av  | [**comparatif**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**bool**](/windows/desktop/WinProg/windows-data-types) | Rows = même nombre de colonnes en entrée *x*, Columns = même nombre de lignes comme entrée *x* |
 
 
 
@@ -72,9 +72,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge |
+| Modèle de nuanceur                                                                       | Pris en charge |
 |------------------------------------------------------------------------------------|-----------|
-| [Nuancier Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) et modèles de nuanceur plus élevés | Oui       |
+| [Nuancier Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) et modèles de nuanceur plus élevés | oui       |
 
 
 

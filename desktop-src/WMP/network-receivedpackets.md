@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bc792330cd107ca428ad0fbec930fe262a2f131
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca9544332fa6e81211dae45cddc74ce9daee0d47e70d467137aaca2084bbc6f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054497"
 ---
 # <a name="networkreceivedpackets"></a>Network. receivedPackets
 
@@ -33,13 +33,13 @@ La propriété **receivedPackets** récupère le nombre de paquets reçus.
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque fois que la lecture du clip est arrêtée et redémarrée, cette propriété est définie sur zéro. Elle n’est pas réinitialisée si la lecture du fichier est suspendue.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **receivedPackets** pour afficher le nombre de paquets reçus. Les informations sont affichées dans une balise DIV HTML créée avec l’ID = « RP ». L’exemple utilise un minuteur avec un intervalle de 1 seconde pour mettre à jour l’affichage. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **receivedPackets** pour afficher le nombre de paquets reçus. Les informations sont affichées dans une balise DIV HTML créée avec l’ID = « RP ». L’exemple utilise un minuteur avec un intervalle de 1 seconde pour mettre à jour l’affichage. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

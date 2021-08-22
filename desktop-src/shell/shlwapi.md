@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les fonctions utilitaires légers de l’interpréteur de commandes Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
+description: cette section décrit les fonctions de l’utilitaire léger de l’interpréteur de commandes Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
 title: Fonctions utilitaires légères de l’interpréteur de commandes
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: cc2c70e5d70c265511f68a91cccd38078a1f9f8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c82ba9356dfdca47fc48a5ff10a68cd6d88696ba76f368ad912d993588ee755
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968338"
 ---
 # <a name="shell-lightweight-utility-functions"></a>Fonctions utilitaires légères de l’interpréteur de commandes
 
-Cette section décrit les fonctions utilitaires légers de l’interpréteur de commandes Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
+cette section décrit les fonctions de l’utilitaire léger de l’interpréteur de commandes Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
 
 Ces fonctions sont divisées par leur utilisation comme suit :
 

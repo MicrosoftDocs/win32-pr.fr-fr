@@ -6,7 +6,7 @@
     - name: Guide de programmation
       href: '-wic-programming-guide.md'
       items:
-        - name: Vue d’ensemble du composant Windows Imaging
+        - name: Windows Vue d’ensemble du composant de création d’images
           href: '-wic-about-windows-imaging-codec.md'
         - name: Vue d’ensemble de l’API WIC
           href: '-wic-api.md'
@@ -101,7 +101,7 @@
               items:
                 - name: Introduction
                   href: '-wic-howtowriteacodec-intro.md'
-                - name: Fonctionnement du composant de création d’images Windows
+                - name: fonctionnement du composant de création d’images Windows
                   href: '-wic-howwicworks.md'
                 - name: Implémentation d’un décodeur WIC-Enabled
                   href: '-wic-implementingwicdecoder.md'
@@ -146,7 +146,7 @@
                       href: '-wic-encoderregentries.md'
                     - name: Decoder-Specific les entrées de Registre
                       href: '-wic-decoderregentries.md'
-                    - name: Intégration à la Galerie de photos Windows et à l’Explorateur Windows
+                    - name: intégration avec Windows galerie de photos et l’explorateur de Windows
                       href: '-wic-integrationregentries.md'
                 - name: Conclusion (écriture d’un codec WIC-Enabled)
                   href: '-wic-howtowriteacodec-conclusion.md'
@@ -156,7 +156,7 @@
                 - name: Introduction
                   href: '-wic-rawguidelines-intro.md'
                   items:
-                    - name: Formats d’images BRUTes dans Windows Vista
+                    - name: Formats d’images brutes dans Windows Vista
                       href: '-wic-rawguidelines-intro-vista.md'
                     - name: Instructions générales pour l’implémentation de codecs BRUTs
                       href: '-wic-rawguidelines-intro-implement.md'
@@ -173,7 +173,7 @@
                       href: '-wic-rawguidelines-metadata-encoding.md'
                 - name: Prise en charge de IWICDevelopRaw
                   href: '-wic-rawguidelines-iwicdevelopraw.md'
-                - name: Instructions d’implémentation pour la sérialisation des paramètres IWICDevelopRaw
+                - name: instructions d’implémentation pour la sérialisation de IWICDevelopRaw Paramètres
                   href: '-wic-rawguidelines-iwicdevelopraw-serializing.md'
                 - name: Performances
                   href: '-wic-rawguidelines-performance.md'
@@ -185,7 +185,7 @@
                   href: '-wic-rawguidelines-reliability-security.md'
                 - name: Disponibilité du codec et prise en charge des plateformes
                   href: '-wic-rawguidelines-availability.md'
-                - name: Configuration requise pour les codecs BRUTs pour Windows 7
+                - name: configuration requise pour les codecs bruts pour Windows 7
                   href: '-wic-rawguidelines-win7.md'
                 - name: Pour plus d'informations
                   href: '-wic-rawguidelines-moreinfo.md'
@@ -198,7 +198,7 @@
             - name: IWICBitmap
               href: /windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap
               items:
-                - name: Verrouillage
+                - name: Verrou
                   href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmap-lock
                 - name: SetPalette
                   href: /windows/desktop/api/Wincodec/nf-wincodec-iwicbitmap-setpalette
@@ -1509,7 +1509,7 @@
               href: '-wic-sample-progressive-decoding.md'
             - name: Visionneuse d’images WIC avec l’exemple Direct2D
               href: '-wic-sample-d2d-viewer.md'
-            - name: Exemple de gif animé WIC
+            - name: Exemple de Gif animé WIC
               href: '-wic-sample-animated-gif.md'
         - name: Exemples d’encodage d’image
           href: image-encoding-samples.md

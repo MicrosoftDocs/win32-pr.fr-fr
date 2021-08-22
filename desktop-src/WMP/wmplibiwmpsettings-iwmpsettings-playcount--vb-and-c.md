@@ -3,9 +3,9 @@ title: IWMPSettings propriété playCount
 description: La propriété playCount obtient ou définit le nombre de fois qu’un élément multimédia doit être lu.
 ms.assetid: 5d18909d-8b7a-448e-b54a-23a312041066
 keywords:
-- propriété playCount lecteur Windows Media
-- propriété playCount lecteur Windows Media, interface IWMPSettings
-- Interface IWMPSettings lecteur Windows Media, propriété playCount
+- Lecteur Windows Media de la propriété playCount
+- Lecteur Windows Media de la propriété playCount, interface IWMPSettings
+- Lecteur Windows Media de l’interface IWMPSettings, propriété playCount
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fab28ce930e7ab64fe1214fba937cd0ba400ab9c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a3ea6421b2e27f5154174d47b744f54bc0427fd9c28f513fb29e4967de7f09d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053397"
 ---
 # <a name="iwmpsettingsplaycount-property"></a>IWMPSettings ::p propriété layCount
 

@@ -4,12 +4,12 @@ description: XInput est une API qui permet aux applications de recevoir l’entr
 ms.assetid: 7b5eec3e-b3da-de5c-c926-8258c1418ef0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91f590f54bbb2641881cf89cd6d31539d75665c0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68a9ca17e3046db676887290b9b9dcbb7318f2dc89d4dd9543cbe790bf271b60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962498"
 ---
 # <a name="getting-started-with-xinput"></a>Prise en main avec XInput
 
@@ -30,7 +30,7 @@ Cette rubrique fournit une brève vue d’ensemble des fonctionnalités de XInpu
 
 ## <a name="introduction-to-xinput"></a>Présentation de XInput
 
-La console Xbox utilise un contrôleur de jeu qui est compatible avec Windows. Les applications peuvent utiliser l’API XInput pour communiquer avec ces contrôleurs lorsqu’elles sont connectées à un PC Windows (jusqu’à quatre contrôleurs uniques peuvent être branchés à la fois).
+La console Xbox utilise un contrôleur de jeu qui est compatible avec Windows. les Applications peuvent utiliser l’API XInput pour communiquer avec ces contrôleurs lorsqu’elles sont connectées à un PC Windows (jusqu’à quatre contrôleurs uniques peuvent être branchés à la fois).
 
 À l’aide de cette API, tout contrôleur Xbox connecté peut être interrogé pour déterminer son état et les effets vibratoires peuvent être définis. Les contrôleurs qui disposent du casque peuvent également être interrogés pour les périphériques d’entrée et de sortie audio qui peuvent être utilisés avec le casque pour le traitement vocal.
 
@@ -207,7 +207,7 @@ Le casque qui peut être connecté à un contrôleur Xbox a deux fonctions : il
 Pour associer le microphone et le casque du casque à leurs interfaces [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) appropriées, vous devez obtenir le DirectSoundGUIDs pour les appareils de capture et de rendu en appelant [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids).
 
 > [!Note]  
-> L’utilisation de [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) héritée n’est pas recommandée et n’est pas disponible dans les applications du Windows Store. Les informations de cette section s’appliquent uniquement à la version du kit de développement logiciel (SDK) DirectX de XInput (XInput 1,3). La version Windows 8 de XInput (XInput 1,4) utilise exclusivement des identificateurs d’appareil de l’API de session audio Windows (WASAPI) obtenus via [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids).
+> l’utilisation de [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) héritée n’est pas recommandée et n’est pas disponible dans les applications Windows store. Les informations de cette section s’appliquent uniquement à la version du kit de développement logiciel (SDK) DirectX de XInput (XInput 1,3). la version Windows 8 de XInput (XInput 1,4) utilise exclusivement Windows identificateurs d’appareil WASAPI (Audio Session API) obtenus via [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids).
 
 ```cpp
 XInputGetDSoundAudioDeviceGuids( i, &dsRenderGuid, &dsCaptureGuid );

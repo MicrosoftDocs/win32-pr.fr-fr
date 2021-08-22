@@ -4,12 +4,12 @@ description: Pour établir une connexion à une ressource réseau décrite par u
 ms.assetid: 0dab9eed-9019-4075-833b-324e5caee257
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 476e03193b919f17a2060e415db5e7ea60c8364e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8298216ab277c5f0ec4a0db8c4d6d1b6c592a8b643e6c30de96731ae2a32632b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106541158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053387"
 ---
 # <a name="adding-a-network-connection"></a>Ajout d’une connexion réseau
 
@@ -63,10 +63,10 @@ printf("Connected to the specified resource.\n");
 
 
 
-La fonction [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona) est prise en charge pour la compatibilité avec les versions antérieures de Windows pour les groupes de travail. Les nouvelles applications doivent appeler la fonction [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) ou la fonction [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a) .
+la fonction [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona) est prise en charge pour la compatibilité avec les versions antérieures de Windows pour les groupes de travail. Les nouvelles applications doivent appeler la fonction [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) ou la fonction [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a) .
 
 Pour plus d’informations sur l’utilisation d’un gestionnaire d’erreurs défini par l’application, consultez [récupération des erreurs réseau](retrieving-network-errors.md).
 
- 
+ 
 
- 
+ 

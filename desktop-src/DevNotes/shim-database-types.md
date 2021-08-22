@@ -4,12 +4,12 @@ ms.assetid: e893963a-6130-4f65-b925-6f3d292fc86d
 title: Types de bases de données shim
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 789265ea945ce068d2b0b74e3358582d5e4ccd78
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f5cc36cbb198570618fbd1a6524e4e7c6dc6812fb01bd74fe04cf1bd91b31f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103747676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075923"
 ---
 # <a name="shim-database-types"></a>Types de bases de données shim
 
@@ -42,8 +42,8 @@ Représente les types de bases de données de shims principales et personnalisé
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

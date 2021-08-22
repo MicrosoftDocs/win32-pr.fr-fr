@@ -1,5 +1,5 @@
 ---
-description: Section critique qui protège l’état du filtre. Pour plus d’informations, consultez Data Flow for filtre Developers.
+description: Section critique qui protège l’état du filtre. pour plus d’informations, consultez Flow de données pour les développeurs de filtres.
 ms.assetid: 75b9c8b0-e911-41fd-8d07-b854dbe25551
 title: 'Membre CTransformFilter :: m_csFilter (Transfrm. h)'
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 991b07aa654ce42a651f4fa169e757d8380fdc8e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 58fc725c29ef322cc310aae2735ffb8fcd7298d29214a51037e49682028caa81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953578"
 ---
 # <a name="ctransformfilterm_csfilter-member"></a>CTransformFilter :: m \_ csFilter, membre
 
-Section critique qui protège l’état du filtre. Pour plus d’informations, consultez [Data Flow for filtre Developers](data-flow-for-filter-developers.md).
+Section critique qui protège l’état du filtre. pour plus d’informations, consultez [Flow de données pour les développeurs de filtres](data-flow-for-filter-developers.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,7 +42,7 @@ CCritSec m_csFilter;
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
