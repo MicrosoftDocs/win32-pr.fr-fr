@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 08d3964788a238492ff7d5189544603b35808465
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: ba394fb13fd98793401b29e6343ef4fa9ff0194b7a86f22dda1e58439737b34b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104108379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119863"
 ---
 # <a name="load-directx-hlsl-texture-object"></a>Load (objet texture HLSL DirectX)
 
@@ -144,7 +144,7 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 ## <a name="example"></a>Exemple
 
-Cet exemple de code partiel provient du fichier Paint. fx dans l' [exemple AdvancedParticles](https://msdn.microsoft.com/library/Ee416394(v=VS.85).aspx).
+cet exemple de code partiel provient du fichier Paint. fx dans l' [exemple AdvancedParticles](https://msdn.microsoft.com/library/Ee416394(v=VS.85).aspx).
 
 
 ```

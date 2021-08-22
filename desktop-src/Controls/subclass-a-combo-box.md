@@ -4,27 +4,27 @@ description: Cette rubrique montre comment sous-classer des zones de liste déro
 ms.assetid: 9897EA94-1BF7-4711-AED6-5E9C863C287A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b48301309597c53f02ca87d1d1748ab1fe05139
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: ea674cfecf3c84ce4a1fa2abb1f23f8f208a8b8fd220736bbcec61bea7880b34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078443"
 ---
 # <a name="how-to-subclass-a-combo-box"></a>Comment sous-classe une zone de liste déroulante
 
 Cette rubrique montre comment sous-classer des zones de liste déroulante. L’exemple d’application C++ crée une fenêtre de barre d’outils qui contient deux zones de liste déroulante. En sous-classant les contrôles d’édition dans les zones de liste déroulante, la fenêtre de barre d’outils intercepte les touches TAB, entrée et Échap qui, sinon, seraient ignorées.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -355,6 +355,6 @@ LRESULT CALLBACK SubClassProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 [ComboBox](combo-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

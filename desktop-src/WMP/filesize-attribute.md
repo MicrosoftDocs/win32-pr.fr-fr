@@ -3,7 +3,7 @@ title: FileSize (attribut)
 description: L’attribut FileSize correspond à la taille du fichier en octets.
 ms.assetid: e845cc82-6975-4fd9-800f-a66f59a5fb39
 keywords:
-- Attribut FileSize lecteur Windows Media
+- attribut FileSize Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cee243d85be59502acead3614dced49494c11104
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6fe1d3a1bed9bc5a8ca87991b910ffa3804267fc217ff8b500cae79f185cb8a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390909"
 ---
 # <a name="filesize-attribute"></a>FileSize (attribut)
 
@@ -26,18 +26,18 @@ L’attribut **FileSize** correspond à la taille du fichier en octets.
 ## <a name="applies-to"></a>S'applique à
 
 -   [Éléments audio](audio-item-attributes.md)
--   [Fichiers Windows Media couramment utilisés](commonly-used-windows-media-file-attributes.md)
+-   [fichiers multimédias Windows couramment utilisés](commonly-used-windows-media-file-attributes.md)
 -   [Autres éléments](other-item-attributes.md)
 -   [Éléments de photo](photo-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké à la fois dans la bibliothèque et dans le fichier multimédia numérique.
 
 La **taille** est un alias pour cet attribut.
 
-La constante du kit de développement logiciel (SDK) du format Windows Media pour cet attribut est g \_ wszWMFileSize.
+la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMFileSize.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
@@ -47,7 +47,7 @@ Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans le lecteur Windows Media 10 ou version ultérieure)<br/> |
+| Version<br/> | Lecteur Windows Media série 9 ou version ultérieure (l’élément photo est pris en charge uniquement dans Lecteur Windows Media 10 ou version ultérieure)<br/> |
 
 
 

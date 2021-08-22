@@ -1,19 +1,19 @@
 ---
-description: Windows Installer contient des fonctionnalités permettant d’afficher un indicateur de progression dans une boîte de dialogue d’affichage des actions.
+description: Windows Le programme d’installation de contient les fonctionnalités permettant d’afficher un indicateur de progression dans une boîte de dialogue d’affichage des actions.
 ms.assetid: cfc2d974-4f2d-4f52-9835-eab1dc091c9b
 title: Création d’un contrôle ProgressBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b872ed2dd36fb8ed04ee48fd69e4680fce002a18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1074744220bde8734fe0cd1f65aa1037ff1f0cb26763a11845a7ea7f1b58e507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066159"
 ---
 # <a name="authoring-a-progressbar-control"></a>Création d’un contrôle ProgressBar
 
-Windows Installer contient des fonctionnalités permettant d’afficher un indicateur de progression dans une boîte de dialogue d’affichage des actions. Le [contrôle ProgressBar](progressbar-control.md) représente graphiquement l’installation de composants individuels et signale le temps total écoulé par rapport au temps restant ou la durée totale restante, jusqu’à ce que l’installation soit terminée.
+Windows Le programme d’installation de contient les fonctionnalités permettant d’afficher un indicateur de progression dans une boîte de dialogue d’affichage des actions. Le [contrôle ProgressBar](progressbar-control.md) représente graphiquement l’installation de composants individuels et signale le temps total écoulé par rapport au temps restant ou la durée totale restante, jusqu’à ce que l’installation soit terminée.
 
 Pour déterminer la durée totale prévue pour l’installation, le programme d’installation suit le nombre total de cycles de progression prévus par chaque action pendant la génération du script d’exécution. Lorsque la génération du script est terminée, le total des cycles de progression est stocké et l’installation commence.
 

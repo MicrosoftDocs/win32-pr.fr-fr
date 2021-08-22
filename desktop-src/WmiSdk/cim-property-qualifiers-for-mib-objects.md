@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Qualificateurs de propriété CIM pour les objets MIB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34f2a25edf9c15930202d3c8cf79d3d62b0d1dd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a2fd45f250b603fcea97040a35faf43f6343311094e97a52ca06823e99bfcac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131711"
 ---
 # <a name="cim-property-qualifiers-for-mib-objects"></a>Qualificateurs de propriété CIM pour les objets MIB
 
@@ -31,14 +31,14 @@ Le fournisseur SNMP utilise les qualificateurs de propriété CIM suivants lors 
 | **Description**                    | **chaîne** Facultatif<br/> Description de l’objet.<br/>                                                                                                                                    |
 | **Indicateur d’affichage \_**                  | **chaîne** Facultatif<br/> Manière dont les données de l’objet doivent apparaître à un utilisateur.<br/>                                                                                                    |
 | **Encodage**                       | **chaîne** Facultatif<br/> Type SNMP utilisé lors de l’encodage des frames de protocole SNMPv1 et SNMPv2C.<br/>                                                                                              |
-| **Enumeration**                    | **chaîne** Obligatoire, si le qualificateur de la **\_ Convention textuelle** n’est pas égal à ENUMERATEDINTEGER.<br/> Valeurs énumérées pour une définition de sous-type d’entier énuméré.<br/>                  |
+| **Énumération**                    | **chaîne** Obligatoire, si le qualificateur de la **\_ Convention textuelle** n’est pas égal à ENUMERATEDINTEGER.<br/> Valeurs énumérées pour une définition de sous-type d’entier énuméré.<br/>                  |
 | **\_Longueur fixe**                  | **UInt32** Facultatif<br/> Valeur de longueur fixe.<br/>                                                                                                                                           |
-| [**Essentiel**](standard-qualifiers.md) | Valeur **booléenne** Facultatif<br/> Propriété de clé d’une définition de classe.<br/>                                                                                                                             |
+| [**Clé**](standard-qualifiers.md) | Valeur **booléenne** Facultatif<br/> Propriété de clé d’une définition de classe.<br/>                                                                                                                             |
 | **Ordre des clés \_**                     | **UInt32** Facultatif, sauf si [**Key**](standard-qualifiers.md) est spécifié.<br/> Ordre de la propriété de clé dans la définition de classe.<br/>                                                   |
 | **Nom**                           | **chaîne** Requise<br/> Nom implicite de la propriété. Notez que ce qualificateur n’est pas défini explicitement.<br/>                                                                           |
 | **Identificateur d’objet \_**             | **chaîne** Requise<br/> Identificateur d’objet MIB de l’objet.<br/>                                                                                                                              |
 | **Syntaxe de l’objet \_**                 | **chaîne** Facultatif<br/> Définition de type nommé de l’objet.<br/>                                                                                                                               |
-| **Lire**                           | Valeur **booléenne** Facultatif (au moins l’une des options **Read** ou **Write** doit être spécifiée)<br/> Octroie l’accès en lecture à l’objet.<br/>                                                                     |
+| **Lecture**                           | Valeur **booléenne** Facultatif (au moins l’une des options **Read** ou **Write** doit être spécifiée)<br/> Octroie l’accès en lecture à l’objet.<br/>                                                                     |
 | **Référence**                      | **chaîne** Facultatif<br/> Fait référence à un autre document qui contient plus d’informations sur l’objet.<br/>                                                                                   |
 | **État**                         | **chaîne** Facultatif<br/> Indique si l’objet doit être pris en charge.<br/>                                                                                                               |
 | **\_Convention textuelle**            | **chaîne** Requise<br/> Représentation textuelle de la clause syntaxique de la macro de [type objet](object-type-macro.md) MIB.<br/>                                                           |
@@ -46,7 +46,7 @@ Le fournisseur SNMP utilise les qualificateurs de propriété CIM suivants lors 
 | **Longueur de variable \_**               | **chaîne** Facultatif<br/> Valeurs minimales, maximales et de longueur fixe associées à la définition de type de l’objet.<br/>                                                                       |
 | **Valeur de la variable \_**                | **chaîne** Facultatif<br/> Valeurs étendues et fixes associées à la définition de type de l’objet.<br/>                                                                                         |
 | **\_Clé virtuelle**                   | Valeur **booléenne** Facultatif<br/> Indique que la valeur de la propriété doit être basée sur le sur-ensemble d’informations d’instance associées à tous les objets MIB accessibles dans la définition de classe.<br/> |
-| **Écrire**                          | Valeur **booléenne** Facultatif (au moins l’une des options **Read** ou **Write** doit être spécifiée)<br/> Accorde l’accès en écriture à l’objet.<br/>                                                                    |
+| **Écriture**                          | Valeur **booléenne** Facultatif (au moins l’une des options **Read** ou **Write** doit être spécifiée)<br/> Accorde l’accès en écriture à l’objet.<br/>                                                                    |
 
 
 

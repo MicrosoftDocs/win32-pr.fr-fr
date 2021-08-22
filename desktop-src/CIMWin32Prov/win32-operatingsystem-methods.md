@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes Win32_OperatingSystem
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a55089f94ed96b486a66c766efe3427497d06aad
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4a061a3d064488e2e4e1385297f55fcc3a35ffd428674eab12d3ef6ee2989b01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079763"
 ---
 # <a name="win32_operatingsystem-methods"></a>\_Méthodes Win32 OperatingSystem
 

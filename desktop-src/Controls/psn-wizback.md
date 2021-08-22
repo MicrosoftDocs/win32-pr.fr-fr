@@ -3,7 +3,7 @@ title: PSN_WIZBACK le code de notification (Prsht. h)
 description: Notifie une page sur laquelle l’utilisateur a cliqué sur le bouton précédent dans un Assistant. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 784f92e7-6f10-40fc-b513-bea022f13ae1
 keywords:
-- Contrôles Windows de code de notification PSN_WIZBACK
+- PSN_WIZBACK les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aed1cdd742d78473266db07899796de5a5450310
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4e009a027bcd47dbfa0bd8be95e761e912e7d2a72d55245e263e303fe61603da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078733"
 ---
 # <a name="psn_wizback-notification-code"></a>\_Code de notification PSN WIZBACK
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 Retourne 0 pour permettre à l’Assistant de passer à la page précédente. Retourne-1 pour empêcher l’Assistant de modifier les pages. Pour afficher une page particulière, retournez son identificateur de ressource de boîte de dialogue. Si la boîte de dialogue a été spécifiée avec l’indicateur [**PSP \_ DLGINDIRECT**](/windows/desktop/api/Prsht/ns-prsht-propsheetpagea_v2) , cette notification retourne le pointeur vers le modèle de boîte de dialogue.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir la valeur de retour, la procédure de la boîte de dialogue de la page doit appeler la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec la valeur de **\_ MSGRESULT DWL** et retourner **true**. Par exemple :
 
@@ -94,14 +94,14 @@ Supposons, par exemple, qu’un Assistant se compose d’une page d’introducti
 
 Notez que cette technique est nécessaire uniquement si votre Assistant supprime les pages dynamiquement. Si votre Assistant ajoute uniquement des pages dynamiquement, ce processus n’est pas nécessaire.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

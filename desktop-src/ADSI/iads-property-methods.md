@@ -27,12 +27,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1134260c780958bcdba8d1f14eac535ddbf4ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3326bbbf5ea7c2d2a98a6224f9b0a83a738c76a206d343a8629138d4d45e73b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082523"
 ---
 # <a name="iads-property-methods"></a>Méthodes de propriété IADs
 
@@ -194,7 +194,7 @@ HRESULT get_Schema(
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans Active Directory, le **GUID** renvoyé à partir du GUID est une chaîne de caractères hexadécimaux. Utilisez le **GUID** résultant pour effectuer une liaison directe à l’objet.
 

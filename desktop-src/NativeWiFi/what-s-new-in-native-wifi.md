@@ -4,12 +4,12 @@ ms.assetid: 76d60b95-a34a-4747-b0fa-9230aa60bd63
 title: Nouveautés du Wi-Fi natif
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2126627f4cf6431fbac2bf4d1f6ec58561bfd8bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4a9430fa2c1645d574f8b4ab851a8cf5ce1407139cfe63a6aabeb3ebfd57abd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064859"
 ---
 # <a name="whats-new-in-native-wifi"></a>Nouveautés du Wi-Fi natif
 
@@ -17,13 +17,13 @@ ms.locfileid: "106521467"
 
 Consultez [approvisionner un profil de Wi-Fi via un site Web](prov-wifi-profile-via-website.md).
 
-## <a name="windows-10"></a>Windows 10
+## <a name="windows-10"></a>Windows 10
 
 La prise en charge de hotspot 2,0 a été ajoutée au [ \_ schéma de profil WLAN](wlan-profileschema-schema.md). La zone réactive 2,0 permet la connexion automatique aux services de Wi-Fi publics à l’aide des informations d’identification existantes et de l’appartenance aux réseaux de fournisseurs de services. Les fournisseurs de services spécifient la façon dont les connexions sont établies à l’aide des nouveaux éléments de schéma pour décrire les réseaux à utiliser et comment s’y authentifier. Pour plus d’informations, consultez la documentation de l’élément [**Hotspot2**](wlan-profileschema-hotspot2-element.md) .
 
 ## <a name="windows-8-and-windows-server-2012"></a>Windows 8 et Windows Server 2012
 
-Les fonctionnalités suivantes ont été ajoutées aux API WiFi natives sur Windows 8 et Windows Server 2012.
+les fonctionnalités suivantes ont été ajoutées aux api wi-fi natives sur Windows 8 et Windows Server 2012.
 
 Une fonctionnalité directe Wi-Fi basée sur le développement de la spécification technique d’égal à égal Wi-Fi v 1.1 par l’Alliance d' Wi-Fi (voir [spécifications publiées pour la Wi-Fi Alliance](https://www.wi-fi.org/)). L’objectif de la spécification technique d’égal à égal Wi-Fi consiste à fournir une solution pour Wi-Fi la connectivité appareil-appareil sans avoir besoin d’un point d’accès sans fil (AP sans fil) pour configurer la connexion ou l’utilisation du mécanisme ad hoc (IBSS) Wi-Fi existant.
 
@@ -40,7 +40,7 @@ Les fonctions suivantes prennent en charge la fonctionnalité Wi-Fi directe.
 
 ## <a name="windows-7-and-windows-server-2008-r2"></a>Windows 7 et Windows Server 2008 R2
 
-Les fonctionnalités suivantes ont été ajoutées aux API WiFi natives sur Windows 7 et Windows Server 2008 R2.
+les fonctionnalités suivantes ont été ajoutées aux api Wifi natives sur Windows 7 et Windows Server 2008 R2.
 
 Le réseau hébergé sans fil permet à un seul adaptateur sans fil physique de se connecter en tant que client à un point d’accès matériel, tout en faisant office de point d’accès logiciel, ce qui permet à d’autres périphériques sans fil de s’y connecter.
 

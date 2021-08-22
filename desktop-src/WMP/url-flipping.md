@@ -3,37 +3,37 @@ title: Retournement d’URL
 description: Retournement d’URL
 ms.assetid: 2921dff1-f740-491c-9b5e-79b7638e2065
 keywords:
-- Windows Media Player, présentations basées sur le Web
-- Modèle objet du lecteur Windows Media, présentations basées sur le Web
+- Lecteur Windows Media, présentations basées sur le Web
+- modèle objet Lecteur Windows Media, présentations basées sur le Web
 - modèle objet, présentations basées sur le Web
-- Windows Media Player Mobile, présentations basées sur le Web
-- Contrôle ActiveX du lecteur Windows Media, présentations basées sur le Web
-- Windows Media Player Mobile contrôle ActiveX, présentations basées sur le Web
-- Contrôle ActiveX, présentations basées sur le Web
-- Lecteur Windows Media, basculement d’URL
-- Windows Media Player Object Model, retournement d’URL
+- Lecteur Windows Media Présentations mobiles, basées sur le Web
+- contrôle de ActiveX Lecteur Windows Media, présentations basées sur le Web
+- Lecteur Windows Media contrôle Mobile ActiveX, présentations basées sur le Web
+- contrôle de ActiveX, présentations basées sur le Web
+- Lecteur Windows Media, retournement d’URL
+- Lecteur Windows Media modèle objet, retournement d’URL
 - modèle objet, basculement d’URL
-- Windows Media Player Mobile, basculement d’URL
-- Contrôle ActiveX du lecteur Windows Media, retournement d’URL
-- Windows Media Player Mobile Control, basculement d’URL
-- Contrôle ActiveX, basculement d’URL
+- Lecteur Windows Media Mobile, basculement d’URL
+- contrôle de ActiveX Lecteur Windows Media, retournement d’URL
+- Lecteur Windows Media contrôle de ActiveX Mobile, basculement d’URL
+- contrôle ActiveX, retournement d’URL
 - Présentations basées sur le Web, retournement d’URL
 - création de présentations basées sur le Web, retournement d’URL
 - Retournement d’URL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 141fdd6b4a7ffc57288a08ffa2f6760cfb029847
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: a4471045506447b93621578f27e2f156bb214016b3fa8ec114a689b919314d10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "103676014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134522"
 ---
 # <a name="url-flipping"></a>Retournement d’URL
 
-L’utilisation de pages Web pour les diaporamas s’appelle le basculement d’URL et est gérée automatiquement par le lecteur Windows Media lorsqu’il rencontre des commandes de script d’URL incorporées dans le flux de médias numériques qu’il lit. Vous pouvez spécifier un frame cible pour vos pages dans chaque commande de script, ou vous pouvez le spécifier en définissant la propriété **Settings. defaultFrame** . Vous pouvez définir cette propriété dans le code de script ou à l’aide d’un élément PARAM au sein de l’élément OBJECT qui incorpore le contrôle du lecteur Windows Media.
+l’utilisation de pages web pour les diaporamas s’appelle le basculement d’url et est gérée automatiquement par Lecteur Windows Media lorsqu’il rencontre des commandes de script d’url incorporées dans le flux de média numérique qu’il lit. vous pouvez spécifier un frame cible pour vos pages dans chaque commande de script, ou vous pouvez le spécifier en définissant la propriété **Paramètres. defaultFrame** . vous pouvez définir cette propriété dans le code de script ou à l’aide d’un élément PARAM au sein de l’élément OBJECT qui incorpore le contrôle Lecteur Windows Media.
 
-Vous êtes libre de gérer les commandes de script d’URL dans votre code JScript tout comme vous le feriez pour gérer des commandes de script personnalisées. Si vous souhaitez que le contrôle du lecteur Windows Media ignore les commandes de script d’URL afin que vous puissiez les gérer entièrement par vous-même, définissez les *paramètres*. propriété **invokeURLs** la valeur false dans le code de script ou à l’aide d’un élément param comme décrit précédemment.
+vous êtes libre de gérer les commandes de script d’URL dans votre code JScript comme vous le feriez pour gérer des commandes de script personnalisées. si vous souhaitez que le contrôle Lecteur Windows Media ignore les commandes de script d’URL afin que vous puissiez les gérer entièrement par vous-même, définissez le *Paramètres*. propriété **invokeURLs** la valeur false dans le code de script ou à l’aide d’un élément param comme décrit précédemment.
 
 L’exemple suivant illustre un jeu de frames standard pour le basculement d’URL. Tout d’abord, créez une page décrivant le jeu de frames :
 
@@ -72,7 +72,7 @@ Si vos pages Web sont suffisamment petites pour être chargées rapidement, cett
 > [!Note]  
 > Le retournement d’URL ne fonctionne pas correctement avec les pages affichées dans Netscape Navigator. Au lieu d’apparaître dans le frame spécifié par **defaultFrame**, chaque commande de script d’URL reçue dans le navigateur affiche l’URL dans une nouvelle fenêtre de navigateur.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -84,9 +84,9 @@ Si vos pages Web sont suffisamment petites pour être chargées rapidement, cett
 [**Utilisation d’un script pour contrôler le basculement d’URL**](using-script-to-control-url-flipping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

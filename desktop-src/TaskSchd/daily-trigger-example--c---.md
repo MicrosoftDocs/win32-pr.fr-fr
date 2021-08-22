@@ -1,23 +1,23 @@
 ---
 title: Exemple de déclencheur quotidien (C++)
-description: Cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes quotidiennement.
+description: cet exemple C++ montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes quotidiennement.
 ms.assetid: f1038142-b83e-4159-9a7b-db2ae4ed3bd2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05778de5740b30f3a7593873e3c9d09c209b807a
-ms.sourcegitcommit: 4834b022f93dae550cfc43068fe9e2c63d86e364
+ms.openlocfilehash: 251ef89dec6955f7a205748589f506635565ce6bf876a3d204e66ebcba37bca6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "106509639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139552"
 ---
 # <a name="daily-trigger-example-c"></a>Exemple de déclencheur quotidien (C++)
 
-Cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes quotidiennement. La tâche contient un déclencheur quotidien qui spécifie une limite de début et un intervalle de jours pour le démarrage de la tâche. L’exemple montre également comment définir un modèle de répétition pour le déclencheur afin de répéter la tâche. La tâche contient également une action qui spécifie la tâche d’exécution du bloc-notes.
+cet exemple C++ montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes quotidiennement. La tâche contient un déclencheur quotidien qui spécifie une limite de début et un intervalle de jours pour le démarrage de la tâche. L’exemple montre également comment définir un modèle de répétition pour le déclencheur afin de répéter la tâche. la tâche contient également une action qui spécifie la tâche à exécuter Bloc-notes.
 
 La procédure suivante décrit comment planifier une tâche pour démarrer un exécutable quotidiennement.
 
-**Pour planifier le démarrage quotidien du bloc-notes**
+**pour planifier le démarrage de Bloc-notes quotidiennement**
 
 1.  Initialiser COM et définir la sécurité générale de COM.
 2.  Créez l’objet [**la**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) .
@@ -42,7 +42,7 @@ La procédure suivante décrit comment planifier une tâche pour démarrer un ex
 
 7.  Inscrivez la tâche à l’aide de la méthode [**ITaskFolder :: RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition) .
 
-L’exemple C++ suivant montre comment planifier une tâche pour exécuter le bloc-notes quotidiennement.
+l’exemple C++ suivant montre comment planifier l’exécution d’une tâche Bloc-notes quotidiennement.
 
 
 ```C++
@@ -432,9 +432,9 @@ int __cdecl wmain()
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

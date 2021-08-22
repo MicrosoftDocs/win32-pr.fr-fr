@@ -4,12 +4,12 @@ ms.assetid: 7d73a4fe-6fd1-4d99-80fb-9aa5ddcdca12
 title: élément Manufacturer
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b86be60b262b37fe328a685fde5228db0c9e9a8
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 781598ed1187538edaf8612284af71e7f99d736f1b43eb759f827f6be5a2b502
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130691"
 ---
 # <a name="manufacturer-element"></a>élément Manufacturer
 
@@ -43,7 +43,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

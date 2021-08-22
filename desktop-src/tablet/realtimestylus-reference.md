@@ -4,12 +4,12 @@ ms.assetid: a239b53c-7fc9-4211-962a-6cfbe0be4e4c
 title: Référence RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9016779c3165bc8fb6e24e5612901a7fd58435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05518658a7bca01090e72cbe68d23b98d5ffffed14b2d8d091fa8c884e9f7c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091459"
 ---
 # <a name="realtimestylus-reference"></a>Référence RealTimeStylus
 
@@ -21,7 +21,7 @@ Fournit l’accès aux événements de stylet provenant des numériseurs de styl
 -   [Énumérations RealTimeStylus](realtimestylus-enumerations.md)
 -   [Structures RealTimeStylus](realtimestylus-structures.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet implémente l’interface com [**IRealTimeStylus**](/windows/desktop/api/RTSCom/nn-rtscom-irealtimestylus) .
 

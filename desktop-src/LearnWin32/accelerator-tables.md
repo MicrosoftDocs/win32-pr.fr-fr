@@ -4,12 +4,12 @@ description: Tables d’accélérateurs
 ms.assetid: 4F2CFD7C-90D3-4C3F-9A42-05B915914EF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2951ee99a31a977e0909de5639fa3110cea10e0b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 504749b6fad794f5f587e035f0dbc81662aa8b5faaf9b9eb13de365dd9a8d312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146442"
 ---
 # <a name="accelerator-tables"></a>Tables d’accélérateurs
 
@@ -23,7 +23,7 @@ Les applications définissent souvent des raccourcis clavier, tels que CTRL + O 
 Une *table d’accélérateurs* est une ressource de données qui mappe les combinaisons de touches de clavier, telles que CTRL + O, aux commandes de l’application. Avant de voir comment utiliser une table d’accélérateurs, nous aurons besoin d’une présentation rapide des ressources. Une *ressource* est un objet blob de données qui est intégré à un fichier binaire d’application (exe ou dll). Les ressources stockent des données qui sont nécessaires à l’application, telles que des menus, des curseurs, des icônes, des images, des chaînes de texte ou des données d’application personnalisées. L’application charge les données de ressources à partir du fichier binaire au moment de l’exécution. Pour inclure des ressources dans un fichier binaire, procédez comme suit :
 
 1.  Créez un fichier de définition de ressource (. RC). Ce fichier définit les types de ressources et leurs identificateurs. Le fichier de définition de ressource peut inclure des références à d’autres fichiers. Par exemple, une ressource icône est déclarée dans le fichier. RC, mais l’image d’icône est stockée dans un fichier séparé.
-2.  Utilisez le compilateur de ressources Microsoft Windows (RC) pour compiler le fichier de définition de ressource dans un fichier de ressources (. res) compilé. Le compilateur RC est fourni avec Visual Studio, ainsi que le SDK Windows.
+2.  utilisez le compilateur de ressources Microsoft Windows (RC) pour compiler le fichier de définition de ressource dans un fichier de ressources (. res) compilé. le compilateur RC est fourni avec Visual Studio, ainsi que le SDK Windows.
 3.  Liez le fichier de ressources compilé au fichier binaire.
 
 Ces étapes sont à peu près équivalentes au processus de compilation/liaison pour les fichiers de code. Visual Studio fournit un ensemble d’éditeurs de ressources qui facilitent la création et la modification des ressources. (Ces outils ne sont pas disponibles dans les éditions Express de Visual Studio.) Mais un fichier. RC est simplement un fichier texte et la syntaxe est documentée sur MSDN. il est donc possible de créer un fichier. RC à l’aide de n’importe quel éditeur de texte. Pour plus d’informations, consultez [à propos des fichiers de ressources](/windows/desktop/menurc/about-resource-files).

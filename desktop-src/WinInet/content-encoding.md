@@ -1,21 +1,21 @@
 ---
 title: Encodage du contenu
-description: À compter de Windows Server 2008 et Windows Vista, l’application peut diriger WinINet pour effectuer le décodage de contenu pour les schémas d’encodage de contenu gzip et deflate.
+description: à partir de Windows Server 2008 et Windows Vista, l’application peut diriger WinINet pour effectuer le décodage de contenu pour les schémas d’encodage de contenu gzip et deflate.
 ms.assetid: 136f22a6-e5ca-41c5-8651-6e132655d268
 keywords:
 - Encodage du contenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09b089ae2aa4cbacdfc9b6ebefe5cbdfc1bfc10e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9e1a91120e4ea01c4636c8d9942e968a0d69aeed50b6a037b31aa0241f3e933c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132882"
 ---
 # <a name="content-encoding"></a>Encodage du contenu
 
-Comme spécifié dans les applications de protocole HTTP (RFC 2616) peuvent demander que le serveur retourne les réponses HTTP dans un format encodé. Avant Windows Server 2008 et Windows Vista, les demandes avec encodage de contenu étaient envoyées à l’application à des fins de traitement à leur niveau. À compter de Windows Server 2008 et Windows Vista, l’application peut diriger WinINet pour effectuer le décodage de contenu pour les schémas d’encodage de contenu gzip et deflate.
+Comme spécifié dans les applications de protocole HTTP (RFC 2616) peuvent demander que le serveur retourne les réponses HTTP dans un format encodé. avant Windows Server 2008 et Windows Vista, les demandes avec encodage de contenu ont été envoyées à l’application à des fins de traitement à leur niveau. à partir de Windows Server 2008 et Windows Vista, l’application peut diriger WinINet pour effectuer le décodage de contenu pour les schémas d’encodage de contenu gzip et deflate.
 
 Pour activer le décodage du contenu, l’application définit l’option de décodage demandant à ce que WinINet effectue le décodage en son nom. Toutefois, l’activation du décodage ne garantit pas que WinINet effectue le décodage du contenu et que l’application doit être préparée à gérer le décodage. WinINet supprime l’en-tête Content-Encoding de la réponse lorsque le décodage du contenu est correctement effectué. Les applications sont censées gérer le décodage du contenu, que l’option de décodage soit activée ou désactivée lorsque l’en-tête Content-Encoding est présent dans la réponse.
 
@@ -39,10 +39,10 @@ Pour définir l’option de décodage, l’application appelle [**InternetSetOpt
 Lorsque l’option de décodage est définie, WinINet effectue le décodage sur la demande lorsque l’application appelle [**InternetReadFile**](/windows/desktop/api/Wininet/nf-wininet-internetreadfile). Si WinINet rencontre une erreur lors du décodage du contenu, l’appel à **InternetReadFile** échoue avec une **erreur le \_ \_ décodage Internet \_ a échoué**. Lorsque le décodage échoue, l’application dispose de deux options : elle peut supprimer l’en-tête Accept-Encoding et renvoyer la demande, ou il peut définir l’option **Internet \_ \_ \_ décodage http** de la demande sur false, puis renvoyer la demande. Si l’option de décodage est définie sur false, l’application doit vérifier l’en-tête Content-Encoding et effectuer tout décodage au niveau de l’application.
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

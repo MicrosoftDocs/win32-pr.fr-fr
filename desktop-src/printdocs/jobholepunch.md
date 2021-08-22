@@ -4,12 +4,12 @@ ms.assetid: 26e9e7d6-7c01-4687-aa64-7aea867b4e58
 title: JobHolePunch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c82a36784ab6a1fb5eb0c8d682c45cce574ee9e
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 302a904436b47ad8e5630ccb495fed769d686aad62e022f6b0923ebc54075d40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100517"
 ---
 # <a name="jobholepunch"></a>JobHolePunch
 
@@ -27,7 +27,7 @@ Décrit les caractéristiques de perforation de la sortie. Tous les documents so
 
 | Nom | Valeur |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Type d'élément <br/>   | Composant<br/>                                                                                                                              |
+| Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                              |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                                                                                  |
 | Remarques <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize, où Left est indiqué par l’origine de l’axe x et de l’axe y.<br/> |
 

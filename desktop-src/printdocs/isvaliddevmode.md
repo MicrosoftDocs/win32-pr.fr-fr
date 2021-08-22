@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 0b8a940fd08e1ab19b18969a763448b65fffd9d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c3a5cd33a6a5584ea9373df22df51a09e3e763d284a0f979f0b24e3651dc3d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100527"
 ---
 # <a name="isvaliddevmode-function"></a>IsValidDevmode fonction)
 
@@ -62,7 +62,7 @@ Taille en octets de la mémoire tampon d’octets en entrée.
 
 **False**, si le [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) présente un ou plusieurs problèmes structurels significatifs. Par exemple, son membre **dmSize** est mal aligné ou spécifie une mémoire tampon qui est trop petite. **False** également si **PDevmode** a la **valeur null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucun champ de pilote d’imprimante privée de l' [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) n’est activé, mais uniquement les champs publics.
 
@@ -76,8 +76,8 @@ Cette fonction est exécutable dans Least-Privileged contexte de compte d’util
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Winspool. h</dt> </dl>   |
 | Bibliothèque<br/>                  | <dl> <dt>Winspool. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Winspool. drv</dt> </dl> |

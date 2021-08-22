@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dc076e857dc6cb4e4a6461ed22acd5ad65a81f7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73e91413610e33875877cfbae1d162f7aae663945bf19e337597d67123783fd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384399"
 ---
 # <a name="cdrawimagenotifystartdraw-method"></a>Méthode CDrawImage. NotifyStartDraw
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans les versions antérieures de la bibliothèque de classes de base, cette méthode prenait en charge les mesures de performance par l’objet [**CDrawImage**](cdrawimage.md) .
 
@@ -54,7 +54,7 @@ Dans les versions antérieures de la bibliothèque de classes de base, cette mé
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

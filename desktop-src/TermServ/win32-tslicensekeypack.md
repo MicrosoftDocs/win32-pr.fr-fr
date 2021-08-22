@@ -28,12 +28,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d78af398ebf7c137be5b31c9db427691a66a7a2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7927270f262d0a66722660bf4b2c8f15cf75f49bb807abcff604af9edf58d99b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137812"
 ---
 # <a name="win32_tslicensekeypack-class"></a>\_Classe TSLicenseKeyPack Win32
 
@@ -237,9 +237,9 @@ Version du produit pour le jeu de clés de licence Services Bureau à distance.
 
 | Valeur | Description |
 |-------|-------------|
-| « Windows Server 2012 » | Seuls les serveurs exécutant Windows Server 2012, Windows Server 2008 R2 ou Windows Server 2008 sont pris en charge avec cette licence. |
-| « Windows Server 7 » | Seuls les serveurs exécutant Windows Server 2008 R2 ou Windows Server 2008 sont pris en charge avec cette licence. |
-| « Windows Server 2008 » | Seuls les serveurs exécutant Windows Server 2008 sont pris en charge par ce pack de clés. |
+| « Windows Server 2012 » | seuls les serveurs exécutant Windows Server 2012, Windows server 2008 R2 ou Windows server 2008 sont pris en charge avec cette licence. |
+| « Windows Server 7 » | seuls les serveurs exécutant Windows server 2008 R2 ou Windows server 2008 sont pris en charge avec cette licence. |
+| « Windows Server 2008 » | seuls les serveurs exécutant Windows Server 2008 sont pris en charge par ce pack de clés. |
 
 **ProductVersionID**
 </dt> <dd> <dl> <dt>
@@ -260,7 +260,7 @@ Identificateur de la version du produit pour le Services Bureau à distance le j
 | 3 | Windows Server 2008 R2 |
 | 4 | Windows Server 2012/Windows Server 2012 R2 |
 | 5 | Windows Server 2016 |
-| 6 | Windows Server 2019 |
+| 6 | Windows Server 2019 |
 
 **TotalLicenses**
 </dt> <dd> <dl> <dt>
@@ -288,11 +288,11 @@ Qualificateur pour le type et le modèle de jeu de clés du gestionnaire de lice
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette classe, vous devez être membre du groupe administrateurs.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

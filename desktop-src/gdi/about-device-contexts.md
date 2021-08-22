@@ -4,12 +4,12 @@ ms.assetid: f2a4c4cf-55e9-4129-8067-256552af49d2
 title: À propos des contextes de périphérique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3b686ec8b48492658f19531cb42161c043f178d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9439e3091b3138917e24ab4a49ff89c21a1e1b53480d4a138bd2bbad3288fcd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105874"
 ---
 # <a name="about-device-contexts"></a>À propos des contextes de périphérique
 
@@ -23,7 +23,7 @@ Cette vue d’ensemble fournit des informations sur les rubriques suivantes :
 -   [Modes graphiques](graphic-modes.md)
 -   [Types de contexte de périphérique](device-context-types.md)
 -   [Opérations de contexte de périphérique](device-context-operations.md)
--   [Fonctions de contexte de périphérique compatibles ICM](icm-enabled-device-context-functions.md)
+-   [fonctions de contexte de périphérique compatibles ICM](icm-enabled-device-context-functions.md)
 
 Un concept important est la disposition d’un DC ou d’une fenêtre, qui décrit l’ordre dans lequel les objets GDI et le texte sont révélés (de gauche à droite ou de droite à gauche). Pour plus d’informations, consultez « disposition des fenêtres et mise en miroir » dans [**fonctionnalités des fenêtres**](../winmsg/window-features.md) et fonctions [**GetLayout**](/windows/desktop/api/Wingdi/nf-wingdi-getlayout) et [**setLayout**](/windows/desktop/api/Wingdi/nf-wingdi-setlayout) .
 

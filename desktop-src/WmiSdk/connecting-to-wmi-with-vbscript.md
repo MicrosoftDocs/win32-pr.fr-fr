@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Connexion à WMI avec VBScript
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6952c42a024ebedd10d9ec8ced0bc4946d808c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06b4e71f4225a55e24432562d4c35754080b9746386489b7dbf7061cb65c9771
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131611"
 ---
 # <a name="connecting-to-wmi-with-vbscript"></a>Connexion à WMI avec VBScript
 
-Les scripts WMI peuvent condenser la plupart des étapes requises dans un programme C++. Ils peuvent se connecter à WMI, non seulement via un objet [**SWbemLocator**](swbemlocator.md) , mais également par le moniker « winmgmts : ». Un moniker est un nom abrégé qui localise un espace de noms, une classe ou une instance dans WMI. Le nom « winmgmts : » est le moniker WMI qui indique à Windows Script Host d’utiliser les objets WMI, se connecte à l’espace de noms par défaut et obtient un objet [**SWbemServices**](swbemservices.md) . D’autres informations de connexion, telles qu’un niveau d’emprunt d’identité ou une classe ou une instance spécifique, apparaissent dans la chaîne qui suit le nom du moniker. Vous pouvez utiliser des monikers dans les appels qui créent ou obtiennent des objets WMI. Pour plus d’informations, consultez [construction d’une chaîne de moniker](constructing-a-moniker-string.md).
+Les scripts WMI peuvent condenser la plupart des étapes requises dans un programme C++. Ils peuvent se connecter à WMI, non seulement via un objet [**SWbemLocator**](swbemlocator.md) , mais également par le moniker « winmgmts : ». Un moniker est un nom abrégé qui localise un espace de noms, une classe ou une instance dans WMI. le nom « winmgmts : » est le moniker WMI qui indique à l’hôte de Script Windows d’utiliser les objets wmi, se connecte à l’espace de noms par défaut et obtient un objet [**SWbemServices**](swbemservices.md) . D’autres informations de connexion, telles qu’un niveau d’emprunt d’identité ou une classe ou une instance spécifique, apparaissent dans la chaîne qui suit le nom du moniker. Vous pouvez utiliser des monikers dans les appels qui créent ou obtiennent des objets WMI. Pour plus d’informations, consultez [construction d’une chaîne de moniker](constructing-a-moniker-string.md).
 
 La procédure suivante décrit comment se connecter à WMI à l’aide de **SWbemLocator**.
 

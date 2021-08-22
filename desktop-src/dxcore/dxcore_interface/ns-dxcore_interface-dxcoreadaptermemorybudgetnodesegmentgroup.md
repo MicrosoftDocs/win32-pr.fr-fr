@@ -4,12 +4,12 @@ description: Décrit un groupe de segments de mémoire pour un adaptateur.
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: c583b746b304232fc65c4281f67b0190b2d24c3c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b39557226034e9462e8d51c79aa9b8276659cfe296138df2a3a57f279106f5bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118653"
 ---
 # <a name="dxcoreadaptermemorybudgetnodesegmentgroup-structure"></a>DXCoreAdapterMemoryBudgetNodeSegmentGroup, structure
 
@@ -31,7 +31,7 @@ struct DXCoreAdapterMemoryBudgetNodeSegmentGroup
 
 Type : **uint32_t**
 
-Spécifie la carte physique de l’appareil pour laquelle les informations de mémoire de l’adaptateur sont interrogées. Pour une opération à un seul adaptateur, définissez cette valeur sur zéro. S’il existe plusieurs nœuds d’adaptateur, définissez cette valeur sur l’index du nœud (la carte physique de l’appareil) pour lequel vous souhaitez interroger les informations sur la mémoire de l’adaptateur (voir [systèmes à plusieurs adaptateurs](../../direct3d12/multi-engine.md)).
+Spécifie la carte physique de l’appareil pour laquelle les informations de mémoire de l’adaptateur sont interrogées. Pour une opération à un seul adaptateur, définissez cette valeur sur zéro. S’il existe plusieurs nœuds d’adaptateur, définissez cette valeur sur l’index du nœud (la carte physique de l’appareil) pour lequel vous souhaitez interroger les informations sur la mémoire de l’adaptateur (voir [systèmes à plusieurs adaptateurs](../../direct3d12/multi-engine.md)).
 
 ### <a name="segmentgroup"></a>segmentGroup
 

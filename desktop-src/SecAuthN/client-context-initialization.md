@@ -4,12 +4,12 @@ ms.assetid: 0c8aad3e-e726-49ce-8fc9-94dbd60cc5cb
 title: Initialisation du contexte client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 615ce5c157371f1ebfec685d6227bd11a1d76531
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0c0f2912de57487c1f30fdac1ef40740553947b993ef6f5179a028625f132af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141182"
 ---
 # <a name="client-context-initialization"></a>Initialisation du contexte client
 
@@ -18,7 +18,7 @@ Pour établir une connexion sécurisée, le client acquiert un handle [*d’info
 -   [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) obtient une référence aux [*informations d’identification*](/windows/desktop/SecGloss/c-gly)d’ouverture de session précédemment obtenues.
 -   [**InitializeSecurityContext (général)**](/windows/win32/api/sspi/nf-sspi-initializesecuritycontexta) crée les jetons de sécurité de la demande d’authentification initiale.
 
-Vous pouvez voir le code de ce processus dans la fonction **GenClientContext** de l' [utilisation de SSPI avec un client Windows Sockets](using-sspi-with-a-windows-sockets-client.md).
+vous pouvez voir le Code de ce processus dans la fonction **GenClientContext** de l' [utilisation de SSPI avec un Client Windows sockets](using-sspi-with-a-windows-sockets-client.md).
 
 Si un programme client doit utiliser des informations d’identification en plus de ses propres informations d’identification d’ouverture de session, telles qu’un nom d’utilisateur, un nom de domaine et un mot de passe différents, il les fournit dans l’appel [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) avec une structure d’identité de l' [**\_ \_ authentification \_ winnt**](/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a) , en spécifiant les informations d’identification supplémentaires. Pour plus d’informations sur les fonctions d’informations d’identification, consultez [gestion des informations d’identification](authentication-functions.md).
 

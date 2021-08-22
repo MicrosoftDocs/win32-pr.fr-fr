@@ -6,12 +6,12 @@ keywords:
 - mciSendString fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d1db4cb4b3d02a93adecc82d6ce95de436fb2e7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4efeb5801c46d89686ed3fe9fcf25b311d57d4d553c220902907ac0e70a5b7e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144792"
 ---
 # <a name="converting-strings"></a>Conversion de chaînes
 
@@ -85,10 +85,10 @@ BOOL GetSourceRect(LPTSTR lpstrAlias, LPRECT lprc)
 
 
 > [!Note]  
-> Les structures **Rect** sont gérées différemment dans MCI et dans d’autres parties de Windows. dans MCI, le membre de **droite** contient la largeur du rectangle et le membre **inférieur** contient sa hauteur. Dans l’interface de chaîne, un rectangle est spécifié sous la forme *x1*, *Y1*, *x2* et *Y2*. Les coordonnées *x1* et *Y1* spécifient l’angle supérieur gauche du rectangle, tandis que les coordonnées *x2* et *Y2* spécifient la largeur et la hauteur.
+> Les structures **Rect** sont gérées différemment dans MCI et dans d’autres parties de Windows ; dans MCI, le membre de **droite** contient la largeur du rectangle et le membre **inférieur** contient sa hauteur. Dans l’interface de chaîne, un rectangle est spécifié sous la forme *x1*, *Y1*, *x2* et *Y2*. Les coordonnées *x1* et *Y1* spécifient l’angle supérieur gauche du rectangle, tandis que les coordonnées *x2* et *Y2* spécifient la largeur et la hauteur.
 
- 
+ 
 
- 
+ 
 
- 
+ 

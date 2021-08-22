@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 56843bc78943a4c76fe4fe0f5e18242728a979c8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e6d859cb0bfd47c9be21f37feef287b38cdce4cc64360dd312b2b52bb825a23e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123309"
 ---
 # <a name="d3dcomposerectdestination-structure"></a>D3DCOMPOSERECTDESTINATION, structure
 
@@ -86,7 +86,7 @@ Coordonnée supérieure à laquelle commencer la copie.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est utilisée dans les appels à [**ComposeRects**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-composerects) pour indiquer que les glyphes d’emplacement doivent être copiés vers et quel glyphe particulier doit être copié. Une mémoire tampon de vertex (voir [**IDirect3DVertexBuffer9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9)) remplie avec ces structures est créée pour contenir les emplacements de glyphe. Les membres USHORT sont utilisés pour réduire autant que possible l’encombrement mémoire.
 

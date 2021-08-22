@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a9e6990d946f32b441f0a33ceba8c0a59fdae488
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10f87fbb66f8ad1d89ff31c6653780b3fde23ecbaf55d72b6f3de2f59546b49b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073413"
 ---
 # <a name="crendererpospassthrueos-method"></a>CRendererPosPassThru. EOS, méthode
 
@@ -48,14 +48,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                            | Description                                               |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                                       |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                                       |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Échec. Le filtre n’est peut-être pas diffusé.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre doit appeler cette méthode lorsqu’il reçoit une notification de fin de flux ([**IPIN :: EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream)). La méthode définit les horodatages mis en cache comme étant égaux à la position d’arrêt, ce qui garantit que la méthode [**IMediaSeeking :: getCurrentPosition**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getcurrentposition) retourne les valeurs correctes à la fin du flux.
 
@@ -65,7 +65,7 @@ Le filtre doit appeler cette méthode lorsqu’il reçoit une notification de fi
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

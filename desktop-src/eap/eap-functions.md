@@ -6,12 +6,12 @@ keywords:
 - Fonctions EAP, liste
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cf2d29ad662d92a04f24b9dd1a6de1d4ef8a3c7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 357c09ad269f03edd8527931e120d0f1c33bf68bd8821740aa7e8db83c5d6172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117789"
 ---
 # <a name="eap-functions"></a>Fonctions EAP
 
@@ -27,6 +27,6 @@ Les fonctions suivantes sont implémentées pour les protocoles d’authentifica
 -   [**RasEapInvokeInteractiveUI**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeinteractiveui)
 -   [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85))
 
- 
+ 
 
- 
+ 

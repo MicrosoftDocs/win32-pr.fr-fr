@@ -1,19 +1,19 @@
 ---
-description: Si, après avoir exécuté une installation, vous devez vérifier qu’une fonctionnalité, un composant ou un fichier particulier a été installé, activez l’option de journalisation détaillée au cours de l’installation. Consultez Windows Installer la journalisation et les options de ligne de commande.
+description: Si, après avoir exécuté une installation, vous devez vérifier qu’une fonctionnalité, un composant ou un fichier particulier a été installé, activez l’option de journalisation détaillée au cours de l’installation. consultez Windows Installer la journalisation et les Options de ligne de commande.
 ms.assetid: c4547e5d-ea71-494f-9d92-c7fef23bcc0f
 title: Vérification de l’installation des fonctionnalités, des composants, des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7cab15b4f0590ee5613865d4b7c21439eec6dbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 866b4f7b042c97660e43a92fc55eeb99e2f1e9f3574a9b03c4d3d6e6096504c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145604"
 ---
 # <a name="checking-the-installation-of-features-components-files"></a>Vérification de l’installation des fonctionnalités, des composants, des fichiers
 
-Si, après avoir exécuté une installation, vous devez vérifier qu’une fonctionnalité, un composant ou un fichier particulier a été installé, activez l’option de journalisation détaillée au cours de l’installation. Consultez [Windows Installer la journalisation](windows-installer-logging.md) et les [options de ligne de commande](command-line-options.md).
+Si, après avoir exécuté une installation, vous devez vérifier qu’une fonctionnalité, un composant ou un fichier particulier a été installé, activez l’option de journalisation détaillée au cours de l’installation. consultez [Windows Installer la journalisation](windows-installer-logging.md) et les [Options de ligne de commande](command-line-options.md).
 
 Le journal détaillé contient une entrée pour chaque fonctionnalité et composant que le package d’installation peut installer. Le journal indique l’état de cette fonctionnalité ou de ce composant avant l’installation, l’État demandé par l’installation et l’État dans lequel le programme d’installation a quitté la fonctionnalité ou le composant. Les entrées de fonctionnalités et de composants dans le journal s’affichent comme dans les exemples suivants.
 
@@ -75,7 +75,7 @@ MSI (s) (40:A4): File: C:\Test\TESTDB.EXE;  Won't Overwrite;  Existing
 Ce journal indique que le programme d’installation ne remplacera pas le fichier Testdb.exe existant, car le fichier existant est identique à la version en cours d’installation.
 
 > [!Note]  
-> Si vous avez besoin de créer un package d’installation qui recherche un fichier ou un répertoire existant sur l’ordinateur de l’utilisateur au cours d’une installation, utilisez la méthode décrite dans [recherche d’applications, de fichiers, d’entrées de registre ou d’entrées de fichier. ini existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
+> Si vous avez besoin de créer un package d’installation qui recherche un fichier ou un répertoire existant sur l’ordinateur de l’utilisateur au cours d’une installation, utilisez la méthode décrite dans [recherche d’applications, de fichiers, d’entrées de registre ou de .ini d’entrées de fichier existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md).
 
  
 

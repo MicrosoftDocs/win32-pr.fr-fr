@@ -4,12 +4,12 @@ ms.assetid: b958eecb-2f44-420f-8c93-7a4bd8b589da
 title: NoPrefix (attribut de contrôle)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae1e1a0c6da65605efca1aacc4582b34a8f673d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15345bb56ad85ec654cffe7a0bf2173973e032ac33aca633105d3a220647cf93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065879"
 ---
 # <a name="noprefix-control-attribute"></a>NoPrefix (attribut de contrôle)
 
@@ -31,7 +31,7 @@ Si ce bit est défini sur un contrôle de texte, l’occurrence du caractère «
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir cet attribut sur un contrôle, incluez le bit de préfixe dans la colonne attributs de l’enregistrement du contrôle dans la [table de contrôle](control-table.md).
 

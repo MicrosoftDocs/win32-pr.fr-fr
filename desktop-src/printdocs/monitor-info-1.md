@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: b6af1e1b9111ac6221273f2faf68fc6ed70e07a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dff4fa4913be25d8a7cb5cd3324bd6e13d68761147fa76c451b587fb9569257d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099083"
 ---
 # <a name="monitor_info_1-structure"></a>Structure d’information d’analyse \_ \_ 1
 

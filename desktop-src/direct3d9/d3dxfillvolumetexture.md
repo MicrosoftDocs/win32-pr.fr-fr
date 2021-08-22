@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d817470f0f0617001fd83054e24e8881ac9a3a1f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7e0ef21c3fb9b5443cc488a3b6fc953953cffee6e5d0dc417dee69969907f86e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123289"
 ---
 # <a name="d3dxfillvolumetexture-function"></a>D3DXFillVolumeTexture fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le volume n’est pas dynamique (car l’utilisation est définie sur 0 lors de sa création) et située dans la mémoire vidéo (le pool de mémoire défini sur D3DPOOL \_ par défaut), **D3DXFillVolumeTexture** échoue car le volume ne peut pas être verrouillé.
 

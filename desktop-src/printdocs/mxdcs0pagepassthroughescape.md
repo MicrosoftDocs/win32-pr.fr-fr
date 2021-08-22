@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 7c1a8370d2cfa1ada9fda2d2d99b9fe500b79d31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8e0a46766f38aec16758a1efc9c0cbc775c2131b1279dcc47f92ed41e77c0e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099053"
 ---
 # <a name="mxdc_s0page_passthrough_escape_t-structure"></a>\_Structure MXDC S0PAGE \_ passthrough- \_ Escape \_
 
@@ -54,7 +54,7 @@ Structure [**MxdcS0PageData**](mxdcs0pagedata.md) qui représente une page de do
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est transmise dans le paramètre *lpszInData* de la fonction [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) quand elle est appelée avec l’échappement d' [**\_ échappement MXDC**](mxdc-escape.md) et que le membre **opcode** de la structure T de l' [**\_ \_ en-tête \_ d’échappement MXDC**](mxdcescapeheader.md) est **MXDCOP \_ défini \_ S0PAGE**. En conséquence, Microsoft XML document Converter (MXDC) transmet la page à l’imprimante sans la traiter.
 
@@ -90,8 +90,8 @@ La consommation de streaming est plus efficace si vous appelez [**ExtEscape**](/
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mxdc. h</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ ms.assetid: b65a6874-fffb-41af-8620-27d4036cc7b2
 title: Calcul des valeurs de compteurs
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: c37c5cf128d31011f184baaa6b8543ecfa8c48c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 466c4e4066b0e45fa36a2822ef1439617be545585fd56a5cba8fb664e91f5cc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061247"
 ---
 # <a name="calculating-counter-values"></a>Calcul des valeurs de compteurs
 
-La plupart des types de compteurs utilisent une formule pour calculer une valeur affichable pour le compteur. Pour obtenir la liste des types de compteurs et leurs formules, consultez la section types de compteurs du [Kit de déploiement de Windows Server 2003](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)). Si le compteur requiert deux échantillons afin de calculer la valeur affichable, l’indicateur du type de compteur `PERF_DELTA_COUNTER` est défini.
+La plupart des types de compteurs utilisent une formule pour calculer une valeur affichable pour le compteur. pour obtenir la liste des types de compteurs et leurs formules, consultez la section types de compteurs du [Kit de déploiement Windows Server 2003](/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)). Si le compteur requiert deux échantillons afin de calculer la valeur affichable, l’indicateur du type de compteur `PERF_DELTA_COUNTER` est défini.
 
 L’exemple suivant montre comment utiliser les données brutes pour calculer une valeur affichable pour chaque type de compteur. Cet exemple s’appuie sur l’exemple de [récupération de données de compteur](retrieving-counter-data.md).
 

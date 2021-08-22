@@ -4,12 +4,12 @@ ms.assetid: 1f5c3458-70ca-45ba-ac33-5c7b9f092320
 title: Récupération à partir d’une erreur Invalid-Device
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca20c32be46367f53a14ce26c39f980e3649b652
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9a9f56972aeeae5cfb370a656a621c6b6e206f8caa115bec33203cab7eded3e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318559"
 ---
 # <a name="recovering-from-an-invalid-device-error"></a>Récupération à partir d’une erreur Invalid-Device
 
@@ -41,13 +41,13 @@ Une application qui sélectionne un appareil spécifique peut tenter de récupé
 
 L’étape 2 peut être effectuée si l’appareil utilisé par l’application a été reconfiguré mais qu’il n’a pas été désactivé ou supprimé. En cas de réussite, l’étape 2 permet à l’application de continuer à utiliser automatiquement le même appareil sans nécessiter l’intervention de l’utilisateur. L’étape 3 est appropriée si l’application permet à l’utilisateur de sélectionner explicitement un autre périphérique une fois que l’utilisateur a désactivé ou supprimé l’appareil précédemment utilisé.
 
-Une application peut déterminer plus précisément la cause d’une erreur d’appareil non valide en s’inscrivant pour recevoir une notification lorsqu’une session perd sa connexion à un appareil. Pour activer cette notification, l’application implémente une interface [**IAudioSessionEvents**](/windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionevents) et appelle la méthode [**IAudioSessionControl :: RegisterAudioSessionNotification**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification) pour inscrire l’interface. Quand une erreur d’appareil non valide provoque la déconnexion de la session, WASAPI appelle la méthode [**IAudioSessionEvents :: OnSessionDisconnected**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected) dans l’interface inscrite. À l’aide de cette méthode, WASAPI informe l’application de la raison de la déconnexion. Dans Windows Vista, l’appel **OnSessionDisconnected** identifie les raisons suivantes :
+Une application peut déterminer plus précisément la cause d’une erreur d’appareil non valide en s’inscrivant pour recevoir une notification lorsqu’une session perd sa connexion à un appareil. Pour activer cette notification, l’application implémente une interface [**IAudioSessionEvents**](/windows/desktop/api/Audiopolicy/nn-audiopolicy-iaudiosessionevents) et appelle la méthode [**IAudioSessionControl :: RegisterAudioSessionNotification**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification) pour inscrire l’interface. Quand une erreur d’appareil non valide provoque la déconnexion de la session, WASAPI appelle la méthode [**IAudioSessionEvents :: OnSessionDisconnected**](/windows/desktop/api/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected) dans l’interface inscrite. À l’aide de cette méthode, WASAPI informe l’application de la raison de la déconnexion. dans Windows Vista, l’appel **OnSessionDisconnected** identifie les raisons suivantes :
 
 -   L’utilisateur a supprimé l’appareil de point de terminaison audio.
--   Le service audio Windows s’est arrêté.
+-   le service audio Windows s’est arrêté.
 -   Le format de flux préféré a changé pour l’appareil auquel la session audio est connectée.
--   L’utilisateur a fermé la session Windows Terminal Services (WTS) dans laquelle la session audio s’exécutait. Pour plus d’informations sur les sessions WTS, consultez la documentation SDK Windows.
--   La session WTS dans laquelle la session audio s’exécutait a été déconnectée.
+-   l’utilisateur a fermé la session des Services de Terminal Windows (WTS) dans laquelle la session audio s’est exécutée. pour plus d’informations sur les sessions de WTS, consultez la documentation SDK Windows.
+-   la session de WTS dans laquelle la session audio s’exécutait a été déconnectée.
 -   La session audio (en mode partagé) a été déconnectée pour rendre l’appareil de point de terminaison audio disponible pour une connexion en mode exclusif.
 
 En réponse à l’événement de déconnexion, WASAPI ferme tous les flux qui appartiennent à la session. Si une application tente par la suite d’accéder à un flux fermé par le biais d’une méthode WASAPI comme [**IAudioClient :: GetCurrentPadding**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getcurrentpadding), la méthode échoue et retourne le code d’erreur AUDCLNT E l’appareil n’est pas \_ \_ \_ valide.

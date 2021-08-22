@@ -3,7 +3,7 @@ title: PGN_CALCSIZE le code de notification (commctrl. h)
 description: Envoyé par un contrôle pager pour obtenir les dimensions déroulantes de la fenêtre contenue.
 ms.assetid: a15f4191-2f26-4139-bdaf-bab219449b78
 keywords:
-- Contrôles Windows de code de notification PGN_CALCSIZE
+- PGN_CALCSIZE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ee6de1c45402f8bdc154f9f10be00140d7c766c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c2f6da5153457a871918afea60ac1251496454831a09426f16579ac47342406
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078873"
 ---
 # <a name="pgn_calcsize-notification-code"></a>\_Code de notification PGN CALCSIZE
 
@@ -55,8 +55,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -3,9 +3,9 @@ title: Méthode Media. getItemInfoByAtom
 description: La méthode getItemInfoByAtom récupère la valeur de l’attribut avec le numéro d’index spécifié.
 ms.assetid: 6e2dea0c-c722-4737-9e8e-f5cb74156cea
 keywords:
-- méthode getItemInfoByAtom lecteur Windows Media
-- méthode getItemInfoByAtom lecteur Windows Media, classe multimédia
-- Classe multimédia lecteur Windows Media, méthode getItemInfoByAtom
+- Lecteur Windows Media de la méthode getItemInfoByAtom
+- méthode getItemInfoByAtom Lecteur Windows Media, classe multimédia
+- Lecteur Windows Media de classe de média, méthode getItemInfoByAtom
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf54d2ae177a65e1a71b5726090bba90f4ee4e5e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26db8e87a52c0d8c8236b5e4b8b5e7325fb3bb0a995dcbd81da668ea760df660
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135132"
 ---
 # <a name="mediagetiteminfobyatom-method"></a>Méthode Media. getItemInfoByAtom
 
@@ -53,7 +53,7 @@ strRetVal = Media.getItemInfoByAtom(
 
 Cette méthode retourne une **chaîne** représentant la valeur de l’attribut spécifié. Pour les attributs dont la valeur sous-jacente est **booléenne**, elle retourne la chaîne « true » ou « false ».
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être utilisée pour récupérer des métadonnées pour un élément multimédia numérique spécifique à l’aide d’un numéro d’index d’attribut. La propriété **attributeCount** peut être utilisée pour déterminer le nombre d’attributs disponibles pour l’élément multimédia.
 
@@ -61,7 +61,7 @@ La méthode **getMediaAtom** de l’objet **MediaCollection** peut également ê
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 **Lecteur Windows Media 10 Mobile :** Les attributs d’un élément multimédia sont disponibles uniquement lors de la lecture, sauf s’ils sont récupérés à partir de l’élément via la collection de supports.
 

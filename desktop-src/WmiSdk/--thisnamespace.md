@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 440ccdf0eda794b5d648cae756f9a9c808eb2db6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02e92bd8cb1c1827af86d23320e7347baa08c395d32def8c9b8adea2fcfd35bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132022"
 ---
 # <a name="__thisnamespace-class"></a>\_\_thisNAMESPACE, classe
 
@@ -59,11 +59,11 @@ Type de données : tableau **UInt8**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Descripteur de sécurité décrivant qui peut accéder à l’espace de noms et qui peut lire ou écrire dans l’espace de noms. Cette propriété est héritée de l' [**\_ \_ événement**](--event.md). Pour plus d’informations sur le format des descripteurs de sécurité, voir [descripteurs de sécurité](/windows/desktop/SecAuthZ/security-descriptors) dans la section sécurité de la SDK Windows.
+Descripteur de sécurité décrivant qui peut accéder à l’espace de noms et qui peut lire ou écrire dans l’espace de noms. Cette propriété est héritée de l' [**\_ \_ événement**](--event.md). pour plus d’informations sur le format des descripteurs de sécurité, voir [descripteurs de sécurité](/windows/desktop/SecAuthZ/security-descriptors) dans la section sécurité de la SDK Windows.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’instance singleton de **\_ \_ thisNAMESPACE** est en lecture seule. Pour modifier les paramètres de la propriété descripteur de sécurité, utilisez les méthodes de la classe [**\_ \_ SystemSecurity**](--systemsecurity.md) . La classe **\_ \_ thisNAMESPACE** dérive de [**\_ \_ SystemClass**](--systemclass.md).
 

@@ -3,7 +3,7 @@ title: Attribut WM/MCDI
 description: L’attribut WM/MCDI est l’identificateur de CD de musique du CD à partir duquel le fichier ou la piste a été copié.
 ms.assetid: f0bec14d-416c-477f-98df-dece0bf85ea4
 keywords:
-- Attribut WM/MCDI lecteur Windows Media
+- Lecteur Windows Media de l’attribut WM/MCDI
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aec51c306f94e25acb94155c4d87f1f1a8b95866
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 738ce8d5af7351b30fd986323db01d4dd335fa7307d2da88e48f4b2456eba1f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053847"
 ---
 # <a name="wmmcdi-attribute"></a>Attribut WM/MCDI
 
@@ -27,15 +27,15 @@ L’attribut **WM/MCDI** est l’identificateur de CD de musique du CD à partir
 
 -   [Éléments audio](audio-item-attributes.md)
 -   [Pistes de CD](cd-track-attributes.md)
--   [Attributs de fichiers Windows Media couramment utilisés](commonly-used-windows-media-file-attributes.md)
+-   [attributs de fichier multimédia Windows couramment utilisés](commonly-used-windows-media-file-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké à la fois dans la bibliothèque (ou le cache) et dans le fichier multimédia numérique.
 
 **TOC** est un alias pour cet attribut.
 
-La constante du kit de développement logiciel (SDK) du format Windows Media pour cet attribut est g \_ wszWMMCDI.
+la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMMCDI.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 

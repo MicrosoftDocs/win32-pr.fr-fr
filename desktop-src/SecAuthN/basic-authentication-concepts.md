@@ -4,12 +4,12 @@ ms.assetid: c3e38cd3-3749-4384-80ff-0551acfe1eec
 title: Concepts d’authentification de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723cf42913906435c8dbc3c41950da8db8ece0ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30d28aa1da3555561740dfd119603a42268ebf86056842788f7dbb1c473fe60e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141312"
 ---
 # <a name="basic-authentication-concepts"></a>Concepts d’authentification de base
 
@@ -20,7 +20,7 @@ Dans le modèle de protocole Kerberos, chaque connexion client/serveur commence 
 Le protocole Kerberos utilise les éléments suivants :
 
 -   [Authentification par clé](key-authentication.md)
--   [Messages de l’authentificateur](authenticator-messages.md)
+-   [messages Authenticator](authenticator-messages.md)
 -   [Distribution de clés](key-distribution.md)
 -   [Tickets de session](session-tickets.md)
 -   [Tickets d’accord de tickets](ticket-granting-tickets.md)
