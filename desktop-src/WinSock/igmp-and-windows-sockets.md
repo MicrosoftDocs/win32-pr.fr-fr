@@ -1,23 +1,23 @@
 ---
-description: Windows Sockets permet la détection de l’écouteur multidiffusion (MLD) sur IPv6 et le protocole IGMP (Internet Group Management Protocol) sur IPv4 pour les applications de multidiffusion par le biais de l’utilisation des options de socket et des ioctl.
+description: Windows Les sockets activent la détection d’écouteur multidiffusion (MLD) sur IPv6 et le protocole IGMP (Internet Group Management Protocol) sur IPv4 pour les applications de multidiffusion par le biais de l’utilisation des options de socket et des ioctl.
 ms.assetid: a5de4273-e86e-4f13-b068-256cb38706d4
-title: MLD et IGMP à l’aide de Windows Sockets
+title: MLD et IGMP à l’aide de sockets Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6cb9f9c345463e283adea0136037d7ccd03cebd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b2c550cf2c1463f5b646efc286c05010274d3cb44e13b9559302452bccb81c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051647"
 ---
-# <a name="mld-and-igmp-using-windows-sockets"></a>MLD et IGMP à l’aide de Windows Sockets
+# <a name="mld-and-igmp-using-windows-sockets"></a>MLD et IGMP à l’aide de sockets Windows
 
-Windows Sockets permet la détection de l’écouteur multidiffusion (MLD) sur IPv6 et le protocole IGMP (Internet Group Management Protocol) sur IPv4 pour les applications de multidiffusion par le biais de l’utilisation des options de socket et des ioctl. Cette page décrit les options de socket qui permettent la programmation de la multidiffusion et décrit comment elles sont utilisées. Pour obtenir la définition de chaque option de socket, consultez la page [options de socket](socket-options.md) .
+Windows Les sockets activent la détection d’écouteur multidiffusion (MLD) sur IPv6 et le protocole IGMP (Internet Group Management Protocol) sur IPv4 pour les applications de multidiffusion par le biais de l’utilisation des options de socket et des ioctl. Cette page décrit les options de socket qui permettent la programmation de la multidiffusion et décrit comment elles sont utilisées. Pour obtenir la définition de chaque option de socket, consultez la page [options de socket](socket-options.md) .
 
 Pour plus d’informations sur l’utilisation d’IOCTL pour la programmation de multidiffusion, consultez programmation de la [multidiffusion basée sur l’état final](final-state-based-multicast-programming.md) plus loin dans cette section.
 
-Sur Windows Vista et versions ultérieures, un ensemble d’options de socket est disponible pour la programmation multidiffusion qui prend en charge les adresses IPv6 et IPv4. Ces options de socket sont indépendantes des adresses IP et peuvent être utilisées sur les protocoles IPv6 et IPv4. Sur IPv6, ces options de socket utilisent MLDv2. Sur IPv4, ces options de socket utilisent IGMPv3. Ces options IP agnostiques sont les options de socket préférées pour la programmation multidiffusion sur Windows Vista et versions ultérieures. Windows Sockets utilise les options de socket suivantes : 
+sur Windows Vista et versions ultérieures, un ensemble d’options de socket est disponible pour la programmation de multidiffusion qui prend en charge les adresses IPv6 et IPv4. Ces options de socket sont indépendantes des adresses IP et peuvent être utilisées sur les protocoles IPv6 et IPv4. Sur IPv6, ces options de socket utilisent MLDv2. Sur IPv4, ces options de socket utilisent IGMPv3. ces options IP agnostiques sont les options de socket préférées pour la programmation multidiffusion sur Windows Vista et versions ultérieures. Windows Sockets utilise les options de socket suivantes : 
 
 | Option de socket               | Type d’argument                                            |
 |-----------------------------|----------------------------------------------------------|
@@ -65,14 +65,14 @@ Il existe deux catégories dans lesquelles la plupart des applications sont susc
 -   Toutes les applications **source** acceptent toutes les sources par défaut, ce qui permet aux sources individuelles d’être désactivées en fonction des besoins. Un exemple d’application n’appartenant à aucune source est un appel de vidéoconférence qui permet à tous les destinataires de participer.
 -   Les applications à **source contrôlée** limitent les sources à une liste donnée, telle qu’une station de radio Internet, ou la diffusion d’un événement notable. Le processus d’utilisation des options de socket est légèrement différent pour chacun.
 
-Sur Windows Vista et versions ultérieures, les étapes suivantes s’appliquent aux applications n’importe quelle source :
+sur Windows Vista et versions ultérieures, les étapes suivantes s’appliquent aux applications n’importe quelle source :
 
 - Utilisez **le \_ \_ groupe de jonction MCAST** pour joindre un groupe.  
 - Utilisez **la \_ \_ source de bloc MCAST** pour désactiver une source donnée, si nécessaire.  
 - Utilisez **la \_ \_ source de déblocage MCAST** pour réactiver une source bloquée, si nécessaire.  
 - Utilisez **MCAST \_ Leave \_ Group** pour sortir le groupe.  
 
-Sur Windows Vista et versions ultérieures, les étapes suivantes s’appliquent aux applications à source contrôlée :
+sur Windows Vista et versions ultérieures, les étapes suivantes s’appliquent aux applications à source contrôlée :
 
 - Utilisez **le \_ \_ \_ groupe source MCAST Join** pour joindre chaque paire groupe/source.  
 - Utilisez **MCAST \_ Leave \_ source \_ Group** pour conserver chaque groupe/source, ou utilisez **MCAST \_ Leave \_ Group** pour conserver toutes les sources, si la même adresse de groupe est utilisée par toutes les sources.  

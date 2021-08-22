@@ -4,12 +4,12 @@ ms.assetid: 5172b31c-d2af-45aa-5bd4-b62502f3c047
 title: 'Procédure : lire un son avec XAudio2'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ee2636ae9b6513dba9a479d63e0fd14be2c198
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cfa5cb2a7a47b7fb54e6a7e9f098a545b0c630c6c27889d7aa6eff1242121d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082907"
 ---
 # <a name="how-to-play-a-sound-with-xaudio2"></a>Procédure : lire un son avec XAudio2
 
@@ -53,9 +53,9 @@ Cette rubrique décrit les étapes minimales requises pour lire des données aud
 
     
 
-## <a name="notes-for-windows-store-apps"></a>Notes pour les applications du Windows Store
+## <a name="notes-for-windows-store-apps"></a>Notes pour les applications Windows store
 
-Nous vous recommandons d’utiliser un [pointeur intelligent](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) pour gérer la durée de vie des objets XAUDIO2 de façon sécurisée. Pour les applications du Windows Store, vous pouvez utiliser le modèle de pointeur intelligent [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) à partir de la bibliothèque de modèles C++ Windows Runtime (WRL).
+Nous vous recommandons d’utiliser un [pointeur intelligent](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) pour gérer la durée de vie des objets XAUDIO2 de façon sécurisée. pour les applications Windows store, vous pouvez utiliser le modèle de pointeur intelligent [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) à partir de la bibliothèque de modèles Windows Runtime C++ (WRL).
 
 
 ```

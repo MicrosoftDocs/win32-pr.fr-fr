@@ -7,12 +7,12 @@ keywords:
 - Référence du langage MIDL MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c543e8f49b2f79b49548bac3b1b0dfdb55775866
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6313497b995ccc8ccc0f47827ab871e86a95dc6b4b09e5b9841fe32ba3c76e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067139"
 ---
 # <a name="midl-language-reference"></a>Référence du langage MIDL
 
@@ -21,7 +21,7 @@ Cette section fournit une entrée de référence pour chaque mot clé dans le Mi
 | Rubrique | Description |
 | - | - |
 | [Mots clés réservés](reserved-keywords.md) | Cette rubrique répertorie les mots clés réservés dans MIDL. Vous ne pouvez pas utiliser ces mots clés dans les noms de vos types et membres. |
-| [Sérialisation en mode mixte des handles de contexte](mixed-mode-serialization-of-context-handles.md) | Dans Microsoft Windows XP, une seule interface peut s’adapter à la fois à des handles de contexte sérialisés et non sérialisés, appelée sérialisation en mode mixte. |
+| [Sérialisation en mode mixte des handles de contexte](mixed-mode-serialization-of-context-handles.md) | dans Microsoft Windows XP, une seule interface peut s’adapter à la fois à des handles de contexte sérialisés et non sérialisés, appelée sérialisation en mode mixte. |
 
 Les entrées de référence sont organisées par ordre alphabétique, et chaque entrée comprend la syntaxe, des exemples, des descriptions et des références croisées.
 
@@ -32,7 +32,7 @@ Les entrées de référence sont organisées par ordre alphabétique, et chaque 
 [**annoter**](annotate.md)  
 [**appobject**](appobject.md)  
 [**tableaux**](/windows/desktop/Rpc/arrays)  
-[**async**](async.md)  
+[**Suppr**](async.md)  
 [**\_UUID asynchrone**](async-uuid.md)  
 [**\_handle automatique**](auto-handle.md)  
 [**bindable**](bindable.md)  
@@ -84,8 +84,8 @@ Les entrées de référence sont organisées par ordre alphabétique, et chaque 
 [**helpstringcontext**](helpstringcontext.md)  
 [**helpstringdll**](helpstringdll.md)  
 [**masquer**](hidden.md)  
-[**consolidation**](hyper.md)  
-[**id**](id.md)  
+[**hyper**](hyper.md)  
+[**identifi**](id.md)  
 [**idempotent**](idempotent.md)  
 [**tenir**](ignore.md)  
 [**IID \_ est**](iid-is.md)  
@@ -93,7 +93,7 @@ Les entrées de référence sont organisées par ordre alphabétique, et chaque 
 [**handle implicite \_**](implicit-handle.md)  
 [**port**](import.md)  
 [**importlib**](importlib.md)  
-[**in**](in.md)  
+[**dans**](in.md)  
 [**inclusion**](include.md)  
 [**à la \_ ligne**](in-line.md)  
 [**int**](int.md)  
@@ -105,7 +105,7 @@ Les entrées de référence sont organisées par ordre alphabétique, et chaque 
 [**la longueur \_ est**](length-is.md)  
 [**Bibliothèque**](library.md)  
 [**licensed**](licensed.md)  
-[**localisé**](local.md)  
+[**local**](local.md)  
 [**long**](long.md)  
 [**le nombre maximal \_ est**](max-is.md)  
 [**environ**](maybe.md)  
@@ -136,7 +136,7 @@ Les entrées de référence sont organisées par ordre alphabétique, et chaque 
 [**nonextensible**](nonextensible.md)  
 [**indiquer**](notify.md)  
 [**\_indicateur Notify**](notify-flag.md)  
-[**object**](object.md)  
+[**dessin**](object.md)  
 [**ODL**](odl.md)  
 [**oleautomation**](oleautomation.md)  
 [**requêtes**](optimize.md)  
@@ -146,7 +146,7 @@ Les entrées de référence sont organisées par ordre alphabétique, et chaque 
 [**\_Ignorer partiellement**](partial-ignore.md)  
 [**canal**](pipe.md)  
 [**pointeur \_ par défaut**](pointer-default.md)  
-[**pragma**](pragma.md)  
+[**Bali**](pragma.md)  
 [**propget**](propget.md)  
 [**propput**](propput.md)  
 [**propputref**](propputref.md)  
@@ -154,7 +154,7 @@ Les entrées de référence sont organisées par ordre alphabétique, et chaque 
 [**ptr**](ptr.md)  
 [**publique**](public.md)  
 [**vont**](range.md)  
-[**seulement**](readonly.md)  
+[**readonly**](readonly.md)  
 [**ref**](ref.md)  
 [**représenter \_ comme**](represent-as.md)  
 [**requestedit**](requestedit.md)  
@@ -176,7 +176,7 @@ Les entrées de référence sont organisées par ordre alphabétique, et chaque 
 [**typedef**](typedef.md)  
 [**uidefault**](uidefault.md)  
 [**unique**](unique.md)  
-[**UE**](union.md)  
+[**union**](union.md)  
 [**non signé**](unsigned.md)  
 [**Marshal d’utilisateur \_**](user-marshal.md)  
 [**usesgetlasterror**](usesgetlasterror.md)  
@@ -184,11 +184,11 @@ Les entrées de référence sont organisées par ordre alphabétique, et chaque 
 [**\_enum v1**](v1-enum.md)  
 [**vararg**](vararg.md)  
 [**Version**](version.md)  
-[**void**](void.md)  
+[**nullité**](void.md)  
 [**WCHAR \_ t**](wchar-t.md)  
 [**Marshal de câble \_**](wire-marshal.md)  
 </dl>
 
- 
+ 
 
- 
+ 

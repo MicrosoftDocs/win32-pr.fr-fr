@@ -12,17 +12,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 219eb85dec0cdda77ca8741ae42df1f63d1a7dbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c9a638d962db908b24387d7baeb2f34d4e09ece561fdd1796a8a44930a5dfb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051287"
 ---
 # <a name="winsock_ws2help_lsp_reset-event"></a>\_Événement de \_ réinitialisation du LSP Winsock ws2help \_
 
 > [!Note]  
-> Les fournisseurs de services en couche sont déconseillés. À compter de Windows 8 et de Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
+> Les fournisseurs de services en couche sont déconseillés. à partir de Windows 8 et Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
 
  
 
@@ -46,7 +46,7 @@ Le catalogue Winsock (32 bits ou 64 bits) en cours de réinitialisation. Il s’
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’événement de **\_ \_ \_ réinitialisation Winsock ws2help LSP** est suivi pour une opération du fournisseur de services en couche (LSP) Winsock lors de la réinitialisation du catalogue Winsock.
 
@@ -56,8 +56,8 @@ L’événement de **\_ \_ \_ réinitialisation Winsock ws2help LSP** est suivi 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

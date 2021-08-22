@@ -3,7 +3,7 @@ title: Élément FlowMenuLayout
 description: Représente une disposition horizontale avec des sauts de ligne pour les éléments d’une galerie.
 ms.assetid: 40c3a2e1-e58a-4d34-a237-b1bea116c82e
 keywords:
-- Ruban des fenêtres d’élément FlowMenuLayout
+- élément FlowMenuLayout Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 31a040fb51ad46feb30147fea97c19210cc16094
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 03497e7249937be48b2156d674ac42b88eae68e64982b84344cfe9a935a92e02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329079"
 ---
 # <a name="flowmenulayout-element"></a>Élément FlowMenuLayout
 
 Représente une disposition horizontale avec des sauts de ligne pour les éléments d’une galerie.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <FlowMenuLayout
@@ -140,7 +140,7 @@ Cette section de code illustre la déclaration de contrôle [**DropDownGallery. 
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

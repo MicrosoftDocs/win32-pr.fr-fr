@@ -7,12 +7,12 @@ keywords:
 - MCIWndGetEnd macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84a8e7022bdfcede526a730014a07deaf22fe66d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 594aa63b4b620327cd8b9ae41c263c197e1a981405c2148545ae7b8d4df86c5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497339"
 ---
 # <a name="determining-and-changing-the-current-position"></a>Détermination et modification de la position actuelle
 
@@ -27,13 +27,13 @@ Vous pouvez également parcourir le contenu à l’aide de la macro [**MCIWndSte
 > [!Note]  
 > Les unités utilisées pour spécifier la position varient selon les différents types de médias et périphériques. Par exemple, la position de lecture pour les fichiers AVI utilisés par l’appareil MCIAVI est mesurée en frames. la position de lecture pour les fichiers audio CD, Waveform-Audio et MIDI est mesurée en millisecondes.
 
- 
+ 
 
 Les appareils pour d’autres types de supports et des appareils tiers peuvent utiliser d’autres unités. Pour plus d’informations sur la détermination de ces unités, consultez [améliorations de la lecture](playback-enhancements.md).
 
- 
+ 
 
- 
+ 
 
 
 

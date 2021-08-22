@@ -3,7 +3,7 @@ title: Attribut WM/OriginalAlbumTitle
 description: L’attribut WM/OriginalAlbumTitle est le nom de l’album sur lequel la piste est apparue pour la première fois.
 ms.assetid: e670c793-bae3-4dc5-92a1-4407cb2a094b
 keywords:
-- Attribut WM/OriginalAlbumTitle lecteur Windows Media
+- Lecteur Windows Media de l’attribut WM/OriginalAlbumTitle
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f0dc2344c95bf3d0b09448277f1522baa879c80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fd025d78c5d4fb3a3fca20cdb6ba6bf092c45465e7e738ddd4c1921301c6899
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053856"
 ---
 # <a name="wmoriginalalbumtitle-attribute"></a>Attribut WM/OriginalAlbumTitle
 
@@ -25,13 +25,13 @@ L’attribut **WM/OriginalAlbumTitle** est le nom de l’album sur lequel la pis
 
 ## <a name="applies-to"></a>S'applique à
 
--   [Fichiers musicaux](music-file-attributes.md)
+-   [Musique Fichiers](music-file-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans un fichier musical qui ne se trouve pas dans la bibliothèque.
 
-La constante du kit de développement logiciel (SDK) du format Windows Media pour cet attribut est g \_ wszWMOriginalAlbumTitle.
+la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMOriginalAlbumTitle.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 

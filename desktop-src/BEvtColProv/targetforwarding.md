@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - BEvtCol.exe
-ms.openlocfilehash: aba0a40ccd5611cecfe7450e518620d4d41ec1e0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a6025089d069504889d7b97d87a73b167746c3e594013acf58f0ed615162f787
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104522908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529689"
 ---
 # <a name="targetforwarding-class"></a>TargetForwarding, classe
 
@@ -241,7 +241,7 @@ Adresse MAC de l’ordinateur cible.
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                            |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                       |
-| Espace de noms<br/>                | Racine \\ Microsoft \\ Windows \\ BootEventCollector<br/>                                              |
+| Espace de noms<br/>                | racine \\ Microsoft \\ Windows \\ BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
 

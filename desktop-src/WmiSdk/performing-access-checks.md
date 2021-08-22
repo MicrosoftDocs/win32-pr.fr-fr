@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Exécution des vérifications d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9af65605b6e96a5ad8b820de876d553f8d19202
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e06f2bccab886b38b53ecc3592371555b8c93a0ed12cdad0a4f039b62d62752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050507"
 ---
 # <a name="performing-access-checks"></a>Exécution des vérifications d’accès
 
-Une vérification d’accès détermine si un descripteur de sécurité accorde un ensemble spécifié de droits d’accès au client ou au thread identifié par un jeton d’accès. Vous pouvez appeler la fonction de sécurité [**AccessCheck**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck) à partir des applications clientes WMI ou des fournisseurs écrits en C++ ou en C#. Les scripts et les applications de Visual Basic ne peuvent pas effectuer des vérifications d’accès à l’aide de la méthode décrite ici.
+Une vérification d’accès détermine si un descripteur de sécurité accorde un ensemble spécifié de droits d’accès au client ou au thread identifié par un jeton d’accès. Vous pouvez appeler la fonction de sécurité [**AccessCheck**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck) à partir des applications clientes WMI ou des fournisseurs écrits en C++ ou en C#. les Scripts et les applications de Visual Basic ne peuvent pas effectuer des vérifications d’accès à l’aide de la méthode décrite ici.
 
 Les applications clientes doivent effectuer une vérification d’accès pour déterminer l’identité du rappel lors du retour des résultats au récepteur fourni par l’appel asynchrone du client.
 
@@ -24,7 +24,7 @@ Lorsque les fournisseurs ne peuvent pas emprunter l’identité de l’applicati
 -   Lorsque le client s’est connecté au niveau **RPC, \_ \_ \_ Identifiez** le niveau d’emprunt d’identité.
 
 > [!Note]  
-> Les applications C++ et C# peuvent contrôler si les contrôles d’accès sont exécutés par un processus distinct. Les scripts et les applications de Visual Basic peuvent lire ou modifier une clé de Registre pour s’assurer que WMI effectue des vérifications d’accès. Pour plus d’informations, consultez [définition de la sécurité sur un appel asynchrone](setting-security-on-an-asynchronous-call.md).
+> Les applications C++ et C# peuvent contrôler si les contrôles d’accès sont exécutés par un processus distinct. les Scripts et les applications de Visual Basic peuvent lire ou modifier une clé de registre pour s’assurer que WMI effectue des vérifications d’accès. Pour plus d’informations, consultez [définition de la sécurité sur un appel asynchrone](setting-security-on-an-asynchronous-call.md).
 
  
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b4dc97f2e3b5f85d472cfcbfad6017ce4e051e4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4149afb638c01b31d51c45f5d55c6f43fe50b4a85b77c25b4f6a5e0ed5993fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498859"
 ---
 # <a name="viewmodify-method"></a>View. Modify, méthode
 
@@ -80,11 +80,11 @@ Obligatoire. Objet [**Record**](record-object.md) obtenu par la méthode [**Fetc
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode doit être appelée après la méthode [**Execute**](view-execute.md) .
 
-Pour exécuter une instruction SQL, vous devez créer une vue. Toutefois, une vue qui ne crée pas de jeu de résultats, comme CREATE TABLE ou INSERT INTO, ne peut pas être utilisée avec la méthode **Modify** pour mettre à jour des tables via la vue.
+pour exécuter une instruction SQL, vous devez créer une vue. Toutefois, une vue qui ne crée pas de jeu de résultats, comme CREATE TABLE ou INSERT INTO, ne peut pas être utilisée avec la méthode **Modify** pour mettre à jour des tables via la vue.
 
 Les valeurs msiViewModifyValidate, msiViewModifyValidateNew, msiViewModifyValidateField et msiViewModifyValidateDelete de la méthode **Modify** n’effectuent pas de mises à jour réelles. ils garantissent que les données de l’enregistrement sont valides. L’utilisation de ces actions nécessite que la base de données contienne une [ \_ table de validation](-validation-table.md) .
 

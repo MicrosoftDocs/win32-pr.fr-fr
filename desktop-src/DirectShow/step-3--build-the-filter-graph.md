@@ -1,19 +1,19 @@
 ---
 description: Cette rubrique est l’étape 3 de la lecture audio/vidéo du didacticiel dans DirectShow.
 ms.assetid: 45679c14-2671-420d-9766-61f2b2bb713a
-title: 'Étape 3 : générer le graphique de filtre'
+title: 'Étape 3 : générer le filtre Graph'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a770ad823a2578fab88a09cc44a3c7f2be4a4ca8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad4903e08b19e15721c8b62f130261bb4d05fcd94d544380b2e501f56d60704d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072503"
 ---
-# <a name="step-3-build-the-filter-graph"></a>Étape 3 : générer le graphique de filtre
+# <a name="step-3-build-the-filter-graph"></a>Étape 3 : générer le filtre Graph
 
-Cette rubrique est l’étape 3 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). Le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
+Cette rubrique est l’étape 3 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
 
 L’étape suivante consiste à créer un graphique de filtre pour lire le fichier multimédia.
 
@@ -60,12 +60,12 @@ done:
 
 
 
-### <a name="creating-the-filter-graph-manager"></a>Création du gestionnaire de graphique de filtre
+### <a name="creating-the-filter-graph-manager"></a>création du gestionnaire de Graph de filtres
 
 La `DShowPlayer::InitializeGraph` méthode crée un graphique de filtre. Cette méthode effectue les opérations suivantes :
 
-1.  Appelle [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer une nouvelle instance du [Gestionnaire de graphes de filtre](filter-graph-manager.md).
-2.  Interroge le gestionnaire de graphique de filtre pour les interfaces [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) et [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) .
+1.  appelle [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer une nouvelle instance du [filtre Graph Manager](filter-graph-manager.md).
+2.  interroge le gestionnaire de Graph de filtre pour les interfaces [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) et [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) .
 3.  Appelle [**IMediaEventEx :: SetNotifyWindow**](/windows/desktop/api/Control/nf-control-imediaeventex-setnotifywindow) pour configurer la notification d’événement. Pour plus d’informations, consultez [notification d’événements dans DirectShow](event-notification-in-directshow.md).
 
 
@@ -110,13 +110,13 @@ done:
 
 
 
-### <a name="rendering-the-streams"></a>Rendu des flux
+### <a name="rendering-the-streams"></a>Rendu de l’Flux
 
 L’étape suivante consiste à connecter le filtre source à un ou plusieurs filtres de convertisseur.
 
 La `DShowPlayer::RenderStreams` méthode effectue les étapes suivantes.
 
-1.  Interroge le gestionnaire de graphique de filtre pour l’interface [**IFilterGraph2**](/windows/desktop/api/Strmif/nn-strmif-ifiltergraph2) .
+1.  interroge le gestionnaire de Graph de filtre de l’interface [**IFilterGraph2**](/windows/desktop/api/Strmif/nn-strmif-ifiltergraph2) .
 2.  Ajoute un filtre de convertisseur vidéo au graphique de filtre.
 3.  Ajoute le [filtre de convertisseur DirectSound](directsound-renderer-filter.md) au graphique de filtre pour prendre en charge la lecture audio. Pour plus d’informations sur l’ajout de filtres au graphique de filtre, consultez [Ajouter un filtre par CLSID](add-a-filter-by-clsid.md).
 4.  Énumère les broches de sortie sur le filtre source. Pour plus d’informations sur l’énumération des codes confidentiels, consultez [énumération des codes confidentiels](enumerating-pins.md).
@@ -239,7 +239,7 @@ HRESULT RemoveUnconnectedRenderer(IGraphBuilder *pGraph, IBaseFilter *pRenderer,
 
 
 
-### <a name="releasing-the-filter-graph"></a>Libération du graphique de filtre
+### <a name="releasing-the-filter-graph"></a>Libération du filtre Graph
 
 Lorsque l’application se ferme, elle doit libérer le graphique de filtre, comme illustré dans le code suivant.
 
@@ -272,13 +272,13 @@ void DShowPlayer::TearDownGraph()
 
 <dl> <dt>
 
-[Lecture audio/vidéo dans DirectShow](audio-video-playback-in-directshow.md)
+[Lecture audio/vidéo en DirectShow](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[Exemple de lecture DirectShow](directshow-playback-example.md)
+[DirectShow Exemple de lecture](directshow-playback-example.md)
 </dt> <dt>
 
-[Génération du graphique de filtre](building-the-filter-graph.md)
+[Génération du filtre Graph](building-the-filter-graph.md)
 </dt> <dt>
 
 [Techniques d' Graph-Building générales](general-graph-building-techniques.md)

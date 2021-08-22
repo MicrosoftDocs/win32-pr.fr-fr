@@ -3,7 +3,7 @@ title: PLAYLIST. backgroundImage
 description: L’attribut backgroundImage spécifie ou récupère l’image d’arrière-plan.
 ms.assetid: d4efa774-d42e-4415-a487-1e858d984075
 keywords:
-- PLAYLIST. backgroundImage lecteur Windows Media
+- PLAYLIST. backgroundImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eca04f47f6e157d5ede529c47fb6ae65b4333cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b56ddcb42f118a5a672b6678079825b6cb3d6aba5fbdc54953fb566e4222f583
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054247"
 ---
 # <a name="playlistbackgroundimage"></a>PLAYLIST. backgroundImage
 
@@ -31,7 +31,7 @@ L’attribut **BackgroundImage** spécifie ou récupère l’image d’arrière-
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la hauteur et la largeur de l’image sont inférieures à la hauteur et à la largeur de l’élément de **sélection** , l’image est affichée en mosaïque. Les formats pris en charge sont BMP, JPG, GIF et PNG.
 
@@ -43,7 +43,7 @@ Si vous spécifiez la valeur « gradient » pour l’image d’arrière-plan, 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------|
-| Version<br/> | Lecteur Windows Media version 7,0 ou ultérieure, lecteur Windows Media 10 pour la fonctionnalité de dégradé<br/> |
+| Version<br/> | Lecteur Windows Media la version 7,0 ou ultérieure, Lecteur Windows Media 10 pour la fonctionnalité de dégradé<br/> |
 
 
 

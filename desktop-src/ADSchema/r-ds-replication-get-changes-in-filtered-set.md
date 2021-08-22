@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d64e1e2d53e0a8f58e58235d8b92ecddfad0b68
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e3f059bb5203602b59dafc7fad25ac055d14fa037b6c14c623120b504a7aad9b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532069"
 ---
 # <a name="ds-replication-get-changes-in-filtered-set-extended-right"></a>DS-Replication-obtient-changes in-Filtered-définir le droit étendu
 
@@ -34,7 +34,7 @@ ms.locfileid: "104480437"
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -44,7 +44,7 @@ ms.locfileid: "104480437"
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 77                                                                                                                               |
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "104480437"
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 77                                                                                                                               |
 
 
@@ -66,7 +66,7 @@ ms.locfileid: "104480437"
 
 | Entrée | Valeur |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuré**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
+| Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localisation-Display-ID | 77                                                                                                                               |
 
 

@@ -4,16 +4,16 @@ description: Pour vous connecter au service BITS, créez une instance de l’obj
 ms.assetid: 2fa88277-c7a1-4f1c-a63c-e2d27a163249
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: 8146fa0def8c9c7dfd976784a930f35f20c965eb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5dacd97b78fa9c5d3a1e410a44e3c376368654e99a6f4ace9161d36b127d9a94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528939"
 ---
 # <a name="connecting-to-the-bits-service"></a>Connexion au service BITS
 
-Pour vous connecter au service du système BITS, créez une instance de l’objet BackgroundCopyManager comme indiqué dans l’exemple suivant. Le service système BITS est le service système Windows en cours d’exécution sur l’ordinateur client qui implémente la fonctionnalité de transfert en arrière-plan.
+Pour vous connecter au service du système BITS, créez une instance de l’objet BackgroundCopyManager comme indiqué dans l’exemple suivant. le service système BITS est le service système Windows s’exécutant sur l’ordinateur client qui implémente la fonctionnalité de transfert en arrière-plan.
 
 
 ```C++
@@ -87,6 +87,6 @@ CoUninitialize();
 [Appel de bits à partir de .net et C#](/windows/desktop/Bits/bits-dot-net) pour bits
 </dt> </dl>
 
- 
+ 
 
- 
+ 

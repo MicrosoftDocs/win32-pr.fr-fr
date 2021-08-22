@@ -4,12 +4,12 @@ description: Passez en revue le paramètre PageBlackGenerationProcessingUnderCol
 ms.assetid: 6c2a7bb5-436d-40ed-a855-242a6a04bc16
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11bdbd970f30a7d573b7c803ea447e4ac3e94ca2
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: dd92834e85f4d95ea81eba7080632330e6951d6a99af29894d7f3adfcf3c18d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034097"
 ---
 # <a name="pageblackgenerationprocessingundercoloradditionstart"></a>PageBlackGenerationProcessingUnderColorAdditionStart
 
@@ -24,11 +24,11 @@ Décrit le niveau d’ombre au-dessous duquel l’algorithme UCA sera appliqué.
 
 
 
-| Nom | Valeur |
+| Name | Valeur |
 |----------------------------|------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                            |
-| Remarques <br/>          | Lié à l’élément PageBlackGenerationProcessing<br/> |
+| Notes <br/>          | Lié à l’élément PageBlackGenerationProcessing<br/> |
 
 
 
@@ -76,7 +76,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | 100<br/>             |
 | MinValue<br/>     | entier<br/> | 0<br/>               |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 

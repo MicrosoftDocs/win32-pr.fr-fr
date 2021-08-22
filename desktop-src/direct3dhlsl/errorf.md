@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 76c8fbcd9b6cb15dbbb735296a3aada8f5e568cb
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0651a27419a369721806e9aa4717a20088f8f5fbbaa0063628d2feb69648c7cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562679"
 ---
 # <a name="errorf-function"></a>errorf fonction)
 
@@ -28,8 +28,8 @@ Envoie un message d’erreur à la file d’attente d’informations.
 
 ``` syntax
 void errorf(
-   string format,
-    argument ...
+   string format,
+    argument ...
 );
 ```
 
@@ -55,7 +55,7 @@ Arguments facultatifs.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette opération ne fait rien sur les appareils qui ne la prennent pas en charge.
 
@@ -65,13 +65,13 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                        | Prise en charge |
+| Modèle de nuanceur                                                        | Pris en charge |
 |---------------------------------------------------------------------|-----------|
-| [Shader Model 4 (DirectX HLSL) ou version ultérieure.](dx-graphics-hlsl-sm3.md) | Oui       |
+| [Shader Model 4 (DirectX HLSL) ou version ultérieure.](dx-graphics-hlsl-sm3.md) | oui       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -80,9 +80,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 [Fonctions intrinsèques](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

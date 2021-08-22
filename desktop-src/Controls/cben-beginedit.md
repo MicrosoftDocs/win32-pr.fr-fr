@@ -3,7 +3,7 @@ title: CBEN_BEGINEDIT le code de notification (commctrl. h)
 description: Envoyé lorsque l’utilisateur active la liste déroulante ou clique dans la zone d’édition du contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 77236471-b1c0-4679-b7b8-93e85867fe3b
 keywords:
-- Contrôles Windows de code de notification CBEN_BEGINEDIT
+- CBEN_BEGINEDIT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7d4cc80d12b01b9374173f413f0aee3701e5040
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 109af3e9ccfdd7d8679ac7a5d467cafa966de6faf76adbd06450fd6ba782e80d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527899"
 ---
 # <a name="cben_beginedit-notification-code"></a>\_Code de notification CBEN BEGINEDIT
 
@@ -55,8 +55,8 @@ L’application traitant ce code de notification doit retourner zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

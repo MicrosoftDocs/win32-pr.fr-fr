@@ -4,22 +4,22 @@ ms.assetid: 6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8
 title: Configuration et démarrage d’une session SystemTraceProvider
 ms.topic: article
 ms.date: 06/02/2021
-ms.openlocfilehash: 66e9d672a7c8e6358c2a92e7661e0d4e2a5878ab
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 0e5d46ceb800479c56ef02d0bb03c3426f73d080e79356f2d7462e27db3a259a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070249"
 ---
 # <a name="configuring-and-starting-a-systemtraceprovider-session"></a>Configuration et démarrage d’une session SystemTraceProvider
 
-SystemTraceProvider est un fournisseur de noyaux avec un ensemble prédéfini d’événements de noyau pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures. Sur Windows 7 et Windows Server 2008 R2, SystemTraceProvider ne peut être utilisé que pour la session de journalisation du noyau NT.
+SystemTraceProvider est un fournisseur de noyaux avec un ensemble prédéfini d’événements de noyau pris en charge sur Windows 7, Windows Server 2008 R2 et versions ultérieures. sur Windows 7 et Windows Server 2008 R2, SystemTraceProvider ne peut être utilisé que pour la session de journalisation du noyau NT.
 
-Sur Windows 8, Windows Server 2012 et versions ultérieures, les SystemTraceProvider peuvent être multiplexés pour jusqu’à 8 sessions d’enregistreur d’événements. Les deux premiers emplacements pour les sessions de journalisation sont réservés pour l’enregistreur d’événements de noyau NT et le journal de contexte de noyau circulaire.
+sur Windows 8, Windows Server 2012 et versions ultérieures, SystemTraceProvider peut être multiplexée pour jusqu’à 8 sessions d’enregistreur d’événements. Les deux premiers emplacements pour les sessions de journalisation sont réservés pour l’enregistreur d’événements de noyau NT et le journal de contexte de noyau circulaire.
 
 Pour plus d’informations sur l’utilisation de la session de journalisation du noyau NT en tant que fournisseur de trace, consultez [configuration et démarrage de la session de journalisation du noyau NT](configuring-and-starting-the-nt-kernel-logger-session.md).
 
-Dans le kit de développement logiciel (SDK) Windows 10 version 20348 et versions ultérieures, les SystemTraceProvider peuvent être configurés via des fournisseurs système distincts, qui peuvent être contrôlés avec [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) comme des fournisseurs d’événements suivi d’v nements pour Windows standard. Pour obtenir la liste complète des fournisseurs système, des mots clés et des groupes et indicateurs hérités correspondants, consultez [fournisseurs système](system-providers.md) .
+sur Windows 10 version 20348 du kit de développement logiciel (SDK), les SystemTraceProvider peuvent être configurés via des fournisseurs système distincts, qui peuvent être contrôlés avec [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) comme les fournisseurs d’événements standard Suivi d’v nements pour Windows. Pour obtenir la liste complète des fournisseurs système, des mots clés et des groupes et indicateurs hérités correspondants, consultez [fournisseurs système](system-providers.md) .
 
 ## <a name="enable-a-systemtraceprovider-session"></a>Activer une session SystemTraceProvider
 

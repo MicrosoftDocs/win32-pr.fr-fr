@@ -3,7 +3,7 @@ title: Player. fullScreen
 description: La propriété fullScreen spécifie ou récupère une valeur indiquant si le contenu vidéo est lu en mode plein écran.
 ms.assetid: 43eeeddd-13a6-44d8-9cff-a60e976fc189
 keywords:
-- Lecteur Windows Media Player. fullScreen
+- Player. fullScreen Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3f71b4100c359effd95f79c574a52b5a5bae28c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f380dcbcaeedddd23c5e6ff42f9750ea8bcd2f552942e19ba7b847e725edc3b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054377"
 ---
 # <a name="playerfullscreen"></a>Player. fullScreen
 
@@ -44,21 +44,21 @@ Cette propriété est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour que le mode plein écran fonctionne correctement quand vous incorporez le contrôle du lecteur Windows Media, la zone d’affichage de la vidéo doit avoir une hauteur et une largeur d’au moins un pixel. Si **UIMODE** a la valeur « mini » ou « Full », la hauteur du contrôle lui-même doit être supérieure ou égale à 65 pour s’adapter à la zone d’affichage vidéo en plus de l’interface utilisateur.
+pour que le mode plein écran fonctionne correctement lors de l’incorporation du contrôle Lecteur Windows Media, la zone d’affichage vidéo doit avoir une hauteur et une largeur d’au moins un pixel. Si **UIMODE** a la valeur « mini » ou « Full », la hauteur du contrôle lui-même doit être supérieure ou égale à 65 pour s’adapter à la zone d’affichage vidéo en plus de l’interface utilisateur.
 
 Si **UIMODE** a la valeur « invisible », l’affectation de la valeur true à cette propriété génère une erreur et n’affecte pas le comportement du contrôle.
 
-Pendant la lecture en plein écran, le lecteur Windows Media masque le curseur de la souris quand **enableContextMenu** est égal à false et **UIMODE** est égal à « None ».
+pendant la lecture en plein écran, Lecteur Windows Media masque le curseur de la souris quand **enableContextMenu** est égal à false et **uiMode** est égal à « none ».
 
-Si **UIMODE** a la valeur « Full » ou « mini », le lecteur Windows Media affiche les contrôles de transport en mode plein écran lorsque le curseur de la souris se déplace. Après un bref intervalle d’absence de mouvement de la souris, les contrôles de transport sont masqués. Si **UIMODE** a la valeur « None », aucun contrôle n’est affiché en mode plein écran.
+si **uiMode** a la valeur « full » ou « mini », Lecteur Windows Media affiche les contrôles de transport en mode plein écran lorsque le curseur de la souris se déplace. Après un bref intervalle d’absence de mouvement de la souris, les contrôles de transport sont masqués. Si **UIMODE** a la valeur « None », aucun contrôle n’est affiché en mode plein écran.
 
 **Remarque**
 
-L’affichage des contrôles de transport en mode plein écran nécessite le système d’exploitation Windows XP.
+l’affichage des contrôles de transport en mode plein écran nécessite le système d’exploitation Windows XP.
 
-Si les contrôles de transport ne s’affichent pas en mode plein écran, le lecteur Windows Media quitte automatiquement le mode plein écran lorsque la lecture s’arrête.
+si les contrôles de transport ne s’affichent pas en mode plein écran, Lecteur Windows Media quitte automatiquement le mode plein écran lorsque la lecture s’arrête.
 
 **Remarque**
 

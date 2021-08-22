@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d0a2751cf0ad1ecc6fddeeffd97b97c32b4a31b1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f7c0d9a86d33d13c95295c5ef1ef46a3e6c02371d1b6520572750450320b1f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073363"
 ---
 # <a name="csourceseekingchangestart-method"></a>Méthode CSourceSeeking. modifiez l'
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**CSourceSeeking :: SetPositions**](csourceseeking-setpositions.md) appelle cette méthode si la position de début change. Cette méthode est virtuelle pure ; la classe dérivée doit l’implémenter. Après une opération de recherche, les horodatages doivent redémarrer à partir de zéro. Les temps de support doivent refléter la nouvelle heure de début. L’exemple suivant illustre une implémentation possible :
 
@@ -67,7 +67,7 @@ HRESULT CMyStream::ChangeStart( )
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

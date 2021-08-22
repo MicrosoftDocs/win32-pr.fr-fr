@@ -4,16 +4,16 @@ description: Cette annexe contient des informations sur Microsoft Active Accessi
 ms.assetid: f19036c7-5a18-4faa-a98d-564e5e63a94f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df5fdc1ebc4d6e17781e383463974f78bb9334aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 14991f869706a16c4def8fdaf49ae255e3ddf413eec416cefd1e151ee470cc02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052967"
 ---
 # <a name="appendix-g-active-accessibility-bridge-to-ui-automation"></a>Annexe G : Active Accessibility Bridge à UI Automation
 
-Cette annexe contient des informations sur Microsoft Active Accessibility Bridge. Le pont Active Accessibility permet aux applications qui implémentent Microsoft Active Accessibility d’accéder aux applications qui implémentent l’automatisation de l’interface utilisateur de Microsoft. En utilisant conjointement Microsoft Active Accessibility et UI Automation, les clients basés sur Microsoft Active Accessibility, tels qu’un Screenreader sur Windows XP, peuvent interagir par programmation avec les fournisseurs UI Automation d’UI Automation, par exemple une application Windows Presentation Foundation (WPF). Il fait partie de l’API de base native d’UI Automation (UIAutomationCore.dll).
+Cette annexe contient des informations sur Microsoft Active Accessibility Bridge. Le pont Active Accessibility permet aux applications qui implémentent Microsoft Active Accessibility d’accéder aux applications qui implémentent l’automatisation de l’interface utilisateur de Microsoft. en utilisant conjointement microsoft Active Accessibility et UI Automation, les clients basés sur Active Accessibility microsoft, tels qu’un screenreader sur Windows XP, peuvent interagir par programmation avec les fournisseurs ui automation, tels qu’une application Windows Presentation Foundation (WPF). Il fait partie de l’API de base native d’UI Automation (UIAutomationCore.dll).
 
 Le pont Active Accessibility mappe les propriétés et les événements UI Automation à ceux de Microsoft Active Accessibility. Les tableaux suivants mappent les méthodes et propriétés de l’interface Microsoft Active Accessibility [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) à UI Automation. Utilisez ces tableaux pour déterminer les pratiques de codage appropriées pour le développement de votre client Microsoft Active Accessibility.
 
@@ -30,7 +30,7 @@ Le pont Active Accessibility mappe les propriétés et les événements UI Autom
 
 
 
- 
+ 
 
 ### <a name="descriptive-properties-and-methods"></a>Propriétés et méthodes descriptives
 
@@ -52,7 +52,7 @@ Le pont Active Accessibility mappe les propriétés et les événements UI Autom
 
 
 
- 
+ 
 
 ### <a name="control-types-and-accrole"></a>Types de contrôles et accRole
 
@@ -82,7 +82,7 @@ Le rôle par défaut de Microsoft Active Accessibility est [**\_ \_ client du sy
 | [MenuBar](uiauto-supportmenubarcontroltype.md)         | [**barre de menus du \_ système de rôle \_**](object-roles.md)           | Aucun                                                     |
 | [MenuItem](uiauto-supportmenuitemcontroltype.md)       | [**système de rôle \_ \_ MenuItem**](object-roles.md)         | Exécuter ou ouvrir/fermer pour les éléments de menu qui ont des enfants. |
 | [Volet](uiauto-supportpanecontroltype.md)               | [**\_volet système de rôle \_**](object-roles.md)                 | Aucun                                                     |
-| [Barre de progression](uiauto-supportprogressbarcontroltype.md) | [**\_PROGRESSBAR du système de rôle \_**](object-roles.md)   | Aucun                                                     |
+| [ProgressBar](uiauto-supportprogressbarcontroltype.md) | [**\_PROGRESSBAR du système de rôle \_**](object-roles.md)   | Aucun                                                     |
 | [RadioButton](uiauto-supportradiobuttoncontroltype.md) | [**RadioButton du système de rôle \_ \_**](object-roles.md)   | Vérification                                                    |
 | [ScrollBar](uiauto-supportscrollbarcontroltype.md)     | [**\_ScrollBar système de rôle \_**](object-roles.md)       | Aucun                                                     |
 | [Curseur](uiauto-supportslidercontroltype.md)           | [**\_curseur système de rôle \_**](object-roles.md)             | Aucun                                                     |
@@ -97,13 +97,13 @@ Le rôle par défaut de Microsoft Active Accessibility est [**\_ \_ client du sy
 | [Spreadsheet](uiauto-supporttitlebarcontroltype.md)       | [**\_TITLEBAR système de rôle \_**](object-roles.md)         | Aucun                                                     |
 | [Barre](uiauto-supporttoolbarcontroltype.md)         | [**\_ \_ barre d’outils système de rôle**](object-roles.md)           | Aucun                                                     |
 | [ToolTip](uiauto-supporttooltipcontroltype.md)         | [**\_ \_ info-bulle du système de rôle**](object-roles.md)           | Aucun                                                     |
-| [Arborescence](uiauto-supporttreecontroltype.md)               | [**\_structure du système de rôle \_**](object-roles.md)           | Aucun                                                     |
+| [Arbres](uiauto-supporttreecontroltype.md)               | [**\_structure du système de rôle \_**](object-roles.md)           | Aucun                                                     |
 | [TreeItem](uiauto-supporttreeitemcontroltype.md)       | [**système de rôle \_ \_ OUTLINEITEM**](object-roles.md)   | Développer ou réduire                                       |
 | [Window](uiauto-supportwindowcontroltype.md)           | [**\_fenêtre système de rôle \_**](object-roles.md)             | Aucun                                                     |
 
 
 
- 
+ 
 
 ### <a name="ui-automation-properties-and-accstate"></a>Propriétés UI Automation et accState
 
@@ -130,7 +130,7 @@ Le rôle par défaut de Microsoft Active Accessibility est [**\_ \_ client du sy
 
 
 
- 
+ 
 
 ### <a name="selection-and-focus"></a>Sélection et Focus
 
@@ -144,7 +144,7 @@ Le rôle par défaut de Microsoft Active Accessibility est [**\_ \_ client du sy
 
 
 
- 
+ 
 
 ### <a name="ui-automation-properties-and-accselect-selflags"></a>Propriétés UI Automation et accSelect SELFLAGs
 
@@ -161,7 +161,7 @@ Le rôle par défaut de Microsoft Active Accessibility est [**\_ \_ client du sy
 
 
 
- 
+ 
 
 ### <a name="spatial-mapping"></a>Mappage spatial
 
@@ -174,7 +174,7 @@ Le rôle par défaut de Microsoft Active Accessibility est [**\_ \_ client du sy
 
 
 
- 
+ 
 
 ### <a name="events"></a>Événements
 
@@ -208,7 +208,7 @@ Le rôle par défaut de Microsoft Active Accessibility est [**\_ \_ client du sy
 
 
 
- 
+ 
 
 
 
@@ -224,11 +224,11 @@ Le rôle par défaut de Microsoft Active Accessibility est [**\_ \_ client du sy
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

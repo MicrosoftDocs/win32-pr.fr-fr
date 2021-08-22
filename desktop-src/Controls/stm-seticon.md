@@ -3,7 +3,7 @@ title: Message STM_SETICON (winuser. h)
 description: Une application envoie le \_ message STM SETICON pour associer une icône à un contrôle Icon.
 ms.assetid: 105b0667-8e23-47ed-9fb1-0792a22d7100
 keywords:
-- STM_SETICON les contrôles de message Windows
+- STM_SETICON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb9c7e2a007c1f866a1c73b3a1c1a55b157add47
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55ff1cbaa6a1083751b3619392fbb0d3b60695e829907c2dfe27fdb41170e167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119281419"
 ---
 # <a name="stm_seticon-message"></a>\_Message SETICON STM
 
@@ -53,8 +53,8 @@ La valeur de retour est un handle de l’icône précédemment associée au cont
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

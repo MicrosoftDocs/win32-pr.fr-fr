@@ -6,12 +6,12 @@ keywords:
 - Microsoft Agent, utilisation de moteurs de reconnaissance vocale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d008a3cbfe41d94add85147b67b909549cec2a9b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8f2be5bd7dda77ad091641b40cfd935e80d8d28d38dfd2e32dbb6d80ffa1dfb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119347659"
 ---
 # <a name="using-speech-engines-with-microsoft-agent"></a>Utilisation de moteurs de reconnaissance vocale avec Microsoft Agent
 
@@ -26,13 +26,13 @@ Les sections ci-dessous décrivent comment utiliser les moteurs de reconnaissanc
 -   [Normalisation du texte des moteurs de synthèse vocale](text-to-speech-engines-text-normalization.md)
 -   [Autres moteurs de reconnaissance vocale compatibles avec Microsoft Agent](other-speech-engines-compatible-with-microsoft-agent.md)
 
-Recherchez les modifications apportées aux fonctionnalités Microsoft Agent Speech et reconnaissance vocale pour Windows Vista en suivant le lien ci-dessous.
+recherchez les modifications apportées aux fonctionnalités Microsoft Agent speech et reconnaissance vocale pour Windows Vista en suivant le lien ci-dessous.
 
--   [Modifications de Microsoft Agent dans Windows Vista](microsoft-agent-changes-in-windows-vista.md)
+-   [modifications de l’Agent Microsoft dans Windows Vista](microsoft-agent-changes-in-windows-vista.md)
 
- 
+ 
 
- 
+ 
 
 
 

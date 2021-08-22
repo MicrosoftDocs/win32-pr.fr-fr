@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bddbcbbf9e97aff739bb06a0f0d0ddac12134463
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0f77ab30f525c37fcb2243bb6f634722420836f3893a4550edbb6604c8769773
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119276619"
 ---
 # <a name="frexp"></a>frexp
 
@@ -73,9 +73,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge           |
+| Modèle de nuanceur                                                                       | Pris en charge           |
 |------------------------------------------------------------------------------------|---------------------|
-| [Nuancier modèle 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) et modèles de nuanceur plus élevés | Oui                 |
+| [Nuancier modèle 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) et modèles de nuanceur plus élevés | oui                 |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md)                          | Oui (PS \_ 2 \_ x uniquement) |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | non                  |
 

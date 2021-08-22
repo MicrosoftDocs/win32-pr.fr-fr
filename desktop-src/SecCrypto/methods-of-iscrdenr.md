@@ -4,12 +4,12 @@ ms.assetid: 471d47c9-8d5a-41f0-9dd1-b6cf1631fed1
 title: Méthodes de ISCrdEnr
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9fe9875b4544201fadaf1287c42a16fd445d38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d44248d8182b164cfdc572dcd39bfd84d60fd749bf85b944a0bf88b622472b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425559"
 ---
 # <a name="methods-of-iscrdenr"></a>Méthodes de ISCrdEnr
 
@@ -19,7 +19,7 @@ Les méthodes introduites par [**ISCrdEnr**](iscrdenr.md) sont répertoriées da
 
 | Méthode                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**enroll**](/previous-versions/windows/desktop/legacy/aa386564(v=vs.85))                                         | Demande un certificat pour le compte de l’utilisateur et stocke le [*certificat*](../secgloss/c-gly.md) résultant sur la [*carte à puce*](../secgloss/s-gly.md)de l’utilisateur.                                                                                                                                                                                                                                                    |
+| [**inscriptions**](/previous-versions/windows/desktop/legacy/aa386564(v=vs.85))                                         | Demande un certificat pour le compte de l’utilisateur et stocke le [*certificat*](../secgloss/c-gly.md) résultant sur la [*carte à puce*](../secgloss/s-gly.md)de l’utilisateur.                                                                                                                                                                                                                                                    |
 | [**enumCAName**](iscrdenr-enumcaname.md)                                 | Énumère les noms des autorités de [*certification*](../secgloss/c-gly.md) (ca) pour un nom de modèle de certificat donné.                                                                                                                                                                                                                                                                                                           |
 | [**enumCertTemplateName**](iscrdenr-enumcerttemplatename.md)             | Énumère les noms de modèles de certificats.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [**enumCSPName**](iscrdenr-enumcspname.md)                               | Énumère le nom des [*fournisseurs de services de chiffrement*](../secgloss/c-gly.md) (CSP) disponibles.                                                                                                                                                                                                                                                                                                                   |

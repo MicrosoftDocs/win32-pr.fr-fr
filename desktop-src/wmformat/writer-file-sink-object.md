@@ -3,23 +3,23 @@ title: Récepteur de fichiers d’auteur, objet
 description: Récepteur de fichiers d’auteur, objet
 ms.assetid: 93f44579-fb2d-498e-a271-5bc91d6f0321
 keywords:
-- Windows Media Format SDK, objets récepteur de fichiers du writer
+- Windows Media Format SDK, writer file sink, objets
 - ASF (Advanced Systems Format), objets de récepteur de fichiers de writer
 - ASF (format de systèmes avancés), objets de récepteur de fichiers de writer
 - objets, writer file sink, objets
 - objets du récepteur de fichiers du writer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82009e5be74cfc23e687001a2a81cd4546812af9
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 08efb5c404a822b0c30747864bdc01f57cb1a0618eed3f7ad26bd92f158ba625
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104030938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083643"
 ---
 # <a name="writer-file-sink-object"></a>Récepteur de fichiers d’auteur, objet
 
-L’objet récepteur de fichiers du writer est utilisé lors de l’écriture de la sortie Windows Media dans un fichier.
+l’objet récepteur de fichiers du writer est utilisé lors de l’écriture Windows sortie multimédia dans un fichier.
 
 L’objet récepteur de fichiers du writer est créé par la fonction [**WMCreateWriterFileSink**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink), qui définit un pointeur vers une interface **IWMWriterFileSink** . Les autres interfaces de l’objet récepteur de fichiers du writer peuvent être obtenues en appelant la méthode **QueryInterface** .
 
@@ -37,7 +37,7 @@ Les interfaces suivantes sont prises en charge par l’objet récepteur de fichi
 
 
 
- 
+ 
 
 L’interface de rappel suivante doit être implémentée par l’application pour suivre la progression d’un objet récepteur de fichiers de writer.
 
@@ -49,7 +49,7 @@ L’interface de rappel suivante doit être implémentée par l’application po
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -61,9 +61,9 @@ L’interface de rappel suivante doit être implémentée par l’application po
 [**Utilisation des récepteurs d’écriture**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

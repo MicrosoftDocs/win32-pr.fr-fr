@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 35bb97e531f8aca5f74801d55a71e5b3f2850c08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90e16e70f7b5bd0a075ffdef54cf0c591719d4993031f3abee19dd8186ec5996
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148252"
 ---
 # <a name="msvm_replicationsettingdata-class"></a>MSVM \_ ReplicationSettingData, classe
 
@@ -142,7 +142,7 @@ Type d'accès : Lecture seule
 
 Paramètres de réplication supplémentaires que le fournisseur de point de terminaison peut utiliser.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -338,7 +338,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Brève description de l’objet. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres de réplication ».
+Brève description de l’objet. cette propriété est héritée de la [**\_ propriété managedelement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « réplication Paramètres ».
 
 </dd> <dt>
 
@@ -438,7 +438,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Description de l'objet . Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « données des paramètres de réplication de l’ordinateur virtuel ».
+Description de l'objet . cette propriété est héritée de la [**\_ propriété managedelement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « réplication de l’ordinateur virtuel Paramètres données ».
 
 </dd> <dt>
 
@@ -469,7 +469,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 
 Spécifie si tous les disques durs virtuels de réplication de la machine virtuelle sont répliqués au même point dans le temps. Cela garantit que la réplication honore l’ordre d’écriture des applications dans la machine virtuelle.
 
-**Windows 8.1 :** À partir de Windows 8.1 et de Windows Server 2012 R2, cette propriété est déconseillée et a toujours la valeur **true**.
+**Windows 8.1 :** à partir de Windows 8.1 et Windows Server 2012 R2, cette propriété est déconseillée et a toujours la valeur **TRUE**.
 
 </dd> <dt>
 
@@ -501,7 +501,7 @@ Type d'accès : Lecture seule
 Qualificateurs : **clé**
 </dt> </dl>
 
-Identifie de façon unique une instance de cette classe. Cette propriété est héritée de la [**\_ SettingData CIM**](/previous-versions//cc136911(v=vs.85)). Pour Windows 8, elle est toujours définie sur « Microsoft :*GUID d’ordinateur virtuel* \\ HVR ». Par Windows 8.1, elle est définie sur « Microsoft :*GUID d’ordinateur virtuel* \\ HVR \\<0/1> ». Dans la valeur Windows 8.1, 0 indique primaire et 1 indique la réplication étendue. Pour plus d’informations sur la réplication étendue, consultez [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md).
+Identifie de façon unique une instance de cette classe. Cette propriété est héritée de la [**\_ SettingData CIM**](/previous-versions//cc136911(v=vs.85)). Par Windows 8, elle est toujours définie sur « Microsoft :*GUID d’ordinateur virtuel* \\ HVR ». par Windows 8.1, elle est définie sur « Microsoft :*GUID d’ordinateur virtuel* \\ HVR \\<0/1> ». dans la valeur Windows 8.1, 0 indique primaire et 1 indique la réplication étendue. Pour plus d’informations sur la réplication étendue, consultez [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md).
 
 </dd> <dt>
 
@@ -668,7 +668,7 @@ Intervalle de réplication d’une relation de réplication, en secondes. Les va
 
 La valeur par défaut est 300 secondes.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -683,7 +683,7 @@ Type d'accès : Lecture seule
 
 Chemin d’accès à l’instance de la classe [**MSVM \_ ReplicationProvider**](msvm-replicationprovider.md) qui identifie le point de terminaison du fournisseur de réplication.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -774,8 +774,8 @@ Spécifie le type de machine virtuelle que les données de paramètre représent
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

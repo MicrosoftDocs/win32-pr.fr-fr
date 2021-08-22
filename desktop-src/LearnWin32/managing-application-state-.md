@@ -4,12 +4,12 @@ description: Une procédure de fenêtre est simplement une fonction qui est appe
 ms.assetid: 2f03961e-a886-4947-8f5d-62543c6b8815
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e275833c30c612b5b40ab29d089d07ed7794b429
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6b0cde27195ba0dfc16668da11beac243821902995a9d01daa337f8962944343
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068062"
 ---
 # <a name="managing-application-state"></a>Gestion de l’état de l’application
 
@@ -26,7 +26,7 @@ Ces messages sont envoyés dans l’ordre indiqué. (Il ne s’agit pas des deux
 
 Le [**\_ NCCREATE WM**](/windows/desktop/winmsg/wm-nccreate) et le message [**WM \_ Create**](/windows/desktop/winmsg/wm-create) sont envoyés avant que la fenêtre ne soit visible. Cela leur permet d’initialiser votre interface utilisateur, par exemple pour déterminer la disposition initiale de la fenêtre.
 
-Le dernier paramètre de [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) est un pointeur de type **void \***. Vous pouvez passer n’importe quelle valeur de pointeur dans ce paramètre. Lorsque la procédure de fenêtre gère le message [**WM \_ NCCREATE**](/windows/desktop/winmsg/wm-nccreate) ou [**WM \_ Create**](/windows/desktop/winmsg/wm-create) , elle peut extraire cette valeur des données de message.
+Le dernier paramètre de [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) est un pointeur de type **void \** _. Vous pouvez passer n’importe quelle valeur de pointeur dans ce paramètre. Lorsque la procédure de fenêtre gère le message [_ *WM \_ NCCREATE* *](/windows/desktop/winmsg/wm-nccreate) ou [**WM \_ Create**](/windows/desktop/winmsg/wm-create) , elle peut extraire cette valeur des données de message.
 
 Voyons comment utiliser ce paramètre pour transmettre des données d’application à votre fenêtre. Tout d’abord, définissez une classe ou une structure qui contient les informations d’État.
 
@@ -325,7 +325,7 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 Notez que le descripteur de fenêtre est stocké dans une variable membre (*m \_ HWND*). nous n’avons donc pas besoin de le passer en tant que paramètre à `HandleMessage` .
 
-La plupart des infrastructures de programmation Windows existantes, telles que Microsoft Foundation Classes (MFC) et Active Template Library (ATL), utilisent des approches qui sont fondamentalement similaires à celle illustrée ici. Bien entendu, un Framework entièrement généralisé comme MFC est plus complexe que cet exemple relativement simpliste.
+la plupart des infrastructures de programmation d’Windows existantes, telles que Microsoft Foundation Classes (MFC) et Active Template Library (ATL), utilisent des approches qui sont fondamentalement similaires à celle présentée ici. Bien entendu, un Framework entièrement généralisé comme MFC est plus complexe que cet exemple relativement simpliste.
 
 ## <a name="next"></a>Suivant
 

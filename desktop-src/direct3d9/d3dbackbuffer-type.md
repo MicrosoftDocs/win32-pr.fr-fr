@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 1641b37242339173fc5f591280d8e2beeff6a9e1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: af8cc963f6b8f980b5cc1807cbbcf7ccb7e41249602eb96c683f69dd10180379
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279879"
 ---
 # <a name="d3dbackbuffer_type-enumeration"></a>\_Énumération de type D3DBACKBUFFER
 
@@ -70,7 +70,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Direct3D 9 ne prend pas en charge la vue stéréo, donc Direct3D n’utilise pas les \_ \_ valeurs de type D3DBACKBUFFER Left et D3DBACKBUFFER \_ type \_ Right de ce type énuméré.
 

@@ -4,17 +4,17 @@ ms.assetid: b631dcb6-1117-4ba2-84e3-f4a60b94a4bc
 title: Arrêter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de2277293f85ce229bc41387c230e717df66063c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e76e4a77047301801050aa44c6c950603e30d63638bbeb69841022a90cdcd10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329849"
 ---
 # <a name="stop"></a>Arrêter
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

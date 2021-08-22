@@ -4,12 +4,12 @@ ms.assetid: b47200dc-6824-4fd8-8d9f-2aaa439a74ff
 title: Portée de la mémoire allouée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8d2db67a04c019683e737d0f9c581ce8d16b800
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f06b0ee3f9446962bb508c23d4c5542fd16168027c5913b63438d16b6cea910
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067669"
 ---
 # <a name="scope-of-allocated-memory"></a>Portée de la mémoire allouée
 

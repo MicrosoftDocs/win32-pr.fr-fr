@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility crée un objet Window générique en
 ms.assetid: cc32528f-c454-4522-91b9-06f87cff8bf5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d87c8601ecd6344dc82bbdb416055c694687e6e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 881eb863c6b12f8e72a9f48ba5ea290a2ad2f2471fa60683ee17e70c6271dad3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413269"
 ---
 # <a name="window-msaa-ui-element-reference"></a>Window (référence des éléments d’interface utilisateur MSAA)
 

@@ -4,12 +4,12 @@ description: Direct2D utilise une optimisation appelée liaison de nuanceur d’
 ms.assetid: 431A5B39-6C84-442D-AC66-0F341E10DF2C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75b6bad2170f2b897a5cf8ac3086a74945efa8bf
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 608ae0b751840fc32b31e10012eb343c73ec3e0d941a26477a192b576204c247
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431459"
 ---
 # <a name="effect-shader-linking"></a>Liaison de nuanceurs d’effet
 
@@ -71,7 +71,7 @@ En tant qu’auteur d’effet personnalisé, vous devez être conscient de plusi
 
 - **Fonctions d’assistance**
 
-    Direct2D fournit des fonctions et des macros [d’assistance HLSL](hlsl-helpers.md) qui génèrent automatiquement les versions complète et d’exportation des fonctions d’un nuanceur. Ces applications auxiliaires se trouvent dans d2d1effecthelpers. hlsli. En outre, le compilateur HLSL (FXC) vous permet d’insérer le nuanceur de fonction d’exportation dans un champ privé dans le nuanceur complet. De cette façon, il vous suffit de créer un nuanceur une seule fois et de transmettre les deux versions à Direct2D simultanément. D2d1effecthelpers. hlsli et le compilateur FXC sont inclus dans le cadre du SDK Windows.
+    Direct2D fournit des fonctions et des macros [d’assistance HLSL](hlsl-helpers.md) qui génèrent automatiquement les versions complète et d’exportation des fonctions d’un nuanceur. Ces applications auxiliaires se trouvent dans d2d1effecthelpers. hlsli. En outre, le compilateur HLSL (FXC) vous permet d’insérer le nuanceur de fonction d’exportation dans un champ privé dans le nuanceur complet. De cette façon, il vous suffit de créer un nuanceur une seule fois et de transmettre les deux versions à Direct2D simultanément. d2d1effecthelpers. hlsli et le compilateur FXC sont inclus dans le cadre du SDK Windows.
 
     Fonctions d’assistance :
 
@@ -173,7 +173,7 @@ La compilation d’un nuanceur d’effets compatible avec la liaison est un proc
 -   [Compiler le nuanceur complet et incorporer la fonction d’exportation](#step-2-compile-the-full-shader-and-embed-the-export-function)
 
 > [!Note]  
-> Lors de la compilation d’un effet à l’aide de Visual Studio, vous devez créer un fichier de commandes qui exécute les deux commandes FXC et exécuter ce fichier de commandes en tant qu’étape de génération personnalisée qui s’exécute avant l’étape de compilation.
+> lors de la compilation d’un effet à l’aide d’Visual Studio, vous devez créer un fichier de commandes qui exécute les deux commandes FXC et exécuter ce fichier de commandes en tant qu’étape de génération personnalisée qui s’exécute avant l’étape de compilation.
 
  
 
@@ -220,7 +220,7 @@ Pour compiler la version complète de votre nuanceur avec une version d’export
 
 Il est possible, bien que cela ne soit pas recommandé, de créer un nuanceur d’effets compatible sans utiliser les applications d’assistance fournies par D2D. Vous devez veiller à ce que les signatures de l’entrée de la fonction de nuanceur et de l’exportation complète soient conformes aux spécifications D2D.
 
-Les spécifications des nuanceurs complets sont identiques à celles des versions antérieures de Windows. Brièvement, les paramètres d’entrée de nuanceur de pixels doivent être \_ position de SV, position de scène \_ et une seule texcoord d’entrée par effet.
+les spécifications pour les nuanceurs complets sont les mêmes que les versions antérieures de Windows. Brièvement, les paramètres d’entrée de nuanceur de pixels doivent être \_ position de SV, position de scène \_ et une seule texcoord d’entrée par effet.
 
 Pour la fonction d’exportation, la fonction doit retourner un float4 et ses entrées doivent être de l’un des types suivants :
 
@@ -238,7 +238,7 @@ Pour la fonction d’exportation, la fonction doit retourner un float4 et ses en
     float4 d2d_uvN  : TEXCOORDN                
     ```
 
-    Pour les entrées complexes, D2D passera uniquement une coordonnée de texture comme décrit dans la documentation de Windows 8.
+    pour les entrées complexes, D2D passera uniquement une coordonnée de texture comme décrit dans Windows 8 documentation.
 
 -   Emplacement de sortie
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Erreurs 201 à 210
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0da439a0a40d41b555c1baca91caa8f70fa35be9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cba508de9d88ea01a7e173d687331560f5e26e6addaca50d1745df9cab869e10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050897"
 ---
 # <a name="errors-201-through-210"></a>Erreurs 201 à 210
 

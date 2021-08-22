@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db66edcb3b1645c6c34c72e35df53afc516dafc3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6bdf24cbd2e204e3d16f5b9a4038c21c590c23556941acdb4cc5a215c5376c13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351279"
 ---
 # <a name="wm_nclbuttondblclk-message"></a>\_Message WM NCLBUTTONDBLCLK
 
@@ -56,7 +56,7 @@ Structure de [**points**](/previous-versions//dd162808(v=vs.85)) qui contient le
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez également utiliser les macros [**obten \_ x \_ lParam**](/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam) et [**obten \_ Y \_ lParam**](/windows/desktop/api/windowsx/nf-windowsx-get_y_lparam) pour extraire les valeurs des coordonnées x et y de *lParam*.
 

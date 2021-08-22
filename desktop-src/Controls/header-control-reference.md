@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: vs|controls|~\controls\header\header_header.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3de60403165b666d9d323a38baffb926889d7946
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 25f1e1bacd4f3a4d46fb3e41127b5dacdbc00b79d8983c8494871c9baea3513d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435168"
 ---
 # <a name="header-control"></a>Contrôle header
 

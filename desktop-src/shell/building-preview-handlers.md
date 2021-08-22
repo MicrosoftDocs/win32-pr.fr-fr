@@ -4,12 +4,12 @@ ms.assetid: 6c240a63-c184-4b65-9483-794f5de4d695
 title: Génération de gestionnaires d’aperçus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a309873cf082071d5f426ce0ba6d039107c59665
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: a810f15fed66d69bce32387249a2e0d678a1eb6c0dd918ec5df2e1ddbeb5be8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032917"
 ---
 # <a name="building-preview-handlers"></a>Génération de gestionnaires d’aperçus
 
@@ -110,7 +110,7 @@ Si l’accélérateur clavier passé à cette méthode par le biais de la pompe 
 
 Il existe deux options pour transférer les accélérateurs de clavier vers le frame :
 
-Le modèle le plus simple consiste à transférer toutes les séquences de touches à l’hôte à l’aide de [**IPreviewHandlerFrame :: TranslateAccelerator**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-translateaccelerator). Cette opération s’effectue dans l’exemple de gestionnaire d’aperçus fourni avec le kit de développement logiciel (SDK) Windows. Tous les gestionnaires d’aperçus de faible intégrité doivent utiliser ce modèle. Si l’accélérateur n’est pas géré par votre gestionnaire d’aperçus, appelez **IPreviewHandlerFrame :: TranslateAccelerator** et retournez son résultat.
+Le modèle le plus simple consiste à transférer toutes les séquences de touches à l’hôte à l’aide de [**IPreviewHandlerFrame :: TranslateAccelerator**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-translateaccelerator). cette opération s’effectue dans l’exemple de gestionnaire d’aperçus fourni avec le kit de développement logiciel (SDK) Windows. Tous les gestionnaires d’aperçus de faible intégrité doivent utiliser ce modèle. Si l’accélérateur n’est pas géré par votre gestionnaire d’aperçus, appelez **IPreviewHandlerFrame :: TranslateAccelerator** et retournez son résultat.
 
 L’autre modèle consiste à utiliser une table d’accélérateurs comme optimisation pour éviter d’envoyer un trop grand nombre de frappes de touches entre les limites de processus :
 
@@ -142,11 +142,11 @@ Si cette méthode est appelée alors que l’aperçu est déjà en cours de rest
 
 ### <a name="ipreviewhandlervisualssetfont"></a>IPreviewHandlerVisuals::SetFont
 
-Stockez ces informations de police et utilisez-les lors du rendu lorsque vous souhaitez afficher du texte cohérent avec les paramètres Windows Vista actuels.
+stockez ces informations de police et utilisez-les lors du rendu lorsque vous souhaitez afficher du texte cohérent avec les paramètres actuels de Windows Vista.
 
 ### <a name="ipreviewhandlervisualssettextcolor"></a>IPreviewHandlerVisuals::SetTextColor
 
-Stockez ces informations de couleur de texte et utilisez-les lors du rendu lorsque vous souhaitez afficher du texte cohérent avec les paramètres Windows Vista actuels.
+stockez ces informations de couleur de texte et utilisez-les lors du rendu lorsque vous souhaitez afficher du texte cohérent avec les paramètres actuels de Windows Vista.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

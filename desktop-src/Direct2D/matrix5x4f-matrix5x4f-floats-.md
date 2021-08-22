@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2582e58f535ddf4f87d54e16dd2edaec2aa37e91
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3626e4af5e51555779a2d14c731fbeb4a2ad30ce542ce2ca9447116332c9faea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430629"
 ---
 # <a name="matrix5x4fmatrix5x4ffloat-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-float-constructor"></a>Matrix5x4F :: Matrix5x4F (FLOAT, float, float, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT, FLOAT), constructeur
 
@@ -247,8 +247,8 @@ Valeur dans la cinquième ligne et la quatrième colonne de la matrice.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7, Windows Vista avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Vista \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Windows Server 2008 R2, Windows Server 2008 avec SP2 et mise à jour de plateforme pour les applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 7, Windows Vista avec SP2 et la mise à jour de la plateforme pour les applications de bureau Windows vista \[ uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows server 2008 R2, Windows server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 \[\]<br/> |
 | Téléphone minimal pris en charge<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 et applications Windows Runtime\]<br/>                                           |
 | Espace de noms<br/>                | D2D1<br/>                                                                                                                   |
 | En-tête<br/>                   | <dl> <dt>D2d1 \_ Helper. h</dt> </dl>                                         |
