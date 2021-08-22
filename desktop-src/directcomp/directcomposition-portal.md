@@ -8,17 +8,17 @@ keywords:
 - Microsoft DirectComposition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb34a4bb3bb7c0ffe370777888e20704fd0165d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ca1b13dbd0ee4893f1b208cd88d7fd1251b5fb7ece2400b7e0b195e84865b2d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985409"
 ---
 # <a name="directcomposition"></a>DirectComposition
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 ## <a name="purpose"></a>Objectif
 
@@ -30,11 +30,11 @@ DirectComposition est conçu pour simplifier le processus de composition des él
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-L’API DirectComposition est conçue pour les développeurs de graphiques expérimentés et très efficaces qui connaissent C/C++, ont une bonne compréhension du modèle COM (Component Object Model) et connaissent les concepts de la programmation Windows.
+l’API DirectComposition est conçue pour les développeurs de graphiques expérimentés et très efficaces qui connaissent C/C++, ont une bonne compréhension du modèle COM (component Object Model) et connaissent Windows concepts de programmation.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-DirectComposition a été introduit dans Windows 8. Il est inclus dans les plateformes 32 bits, 64 bits et ARM.
+DirectComposition a été introduite dans Windows 8. Il est inclus dans les plateformes 32 bits, 64 bits et ARM.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

@@ -4,12 +4,12 @@ ms.assetid: 3cf7a8a1-66b2-45ca-b53d-29c80f95ff70
 title: Messages d’erreur de la fonction package de polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06bcf84f92b60351e8375df682de0c3b01c2aa1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7008707675d9b2ef3eb31229535b07b1af6000e43d1122c2929fd12988fb4ea3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761082"
 ---
 # <a name="font-package-function-error-messages"></a>Messages d’erreur de la fonction package de polices
 
@@ -48,8 +48,8 @@ Les valeurs longues suivantes sont retournées par les fonctions de package de p
 | \_formats de \_ fusion non valides pour Err \_   | 1010  | Une tentative de fusion des polices avec des formats de DTTF incorrects a échoué.                                          |
 | ERR \_ \_ NUMGLYPHS de fusion non valide \_ | 1012  | Une tentative de fusion du nombre de glyphes pour deux polices d’une police mère différente a échoué.            |
 | ERR \_ nom non valide \_             | 1067  | Le nom du package de polices ou un nom de police n’est pas valide.                                                                |
-| ERREUR \_ de \_ publication non valide             | 1068  | La police contenait une table d’informations PostScript non valide (publication).                                               |
-| ERREUR \_ OS2 non valide \_              | 1069  | La police contenait une table non valide du système d’exploitation/2 et des métriques spécifiques à Windows (système d’exploitation/2).                                    |
+| ERREUR \_ de \_ publication non valide             | 1068  | la police contenait une table d’informations de PostScript non valide (publication).                                               |
+| ERREUR \_ OS2 non valide \_              | 1069  | la police contenait une table os/2 et des métriques spécifiques Windows non valides.                                    |
 | ERREUR \_ VHEA non valide \_             | 1070  | La police contenait une table d’en-tête de métriques verticales (vhea) non valide.                                              |
 | ERREUR \_ VMTX non valide \_             | 1071  | La police contenait une table de métriques verticales (vmtx) non valide.                                                     |
 | ERR \_ \_ index TTC non valide \_       | 1015  | Un index de base zéro (TTC) non valide dans le fichier de police a été passé.                                                 |

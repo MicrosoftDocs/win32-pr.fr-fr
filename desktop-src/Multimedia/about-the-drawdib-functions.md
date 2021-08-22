@@ -3,7 +3,7 @@ title: À propos des fonctions DrawDib
 description: À propos des fonctions DrawDib
 ms.assetid: 0ae993df-8393-479e-aa11-14301384715d
 keywords:
-- Vidéo pour Windows (VFW), DrawDib
+- vidéo pour Windows (VFW), DrawDib
 - VFW (vidéo pour Windows), DrawDib
 - DrawDib, à propos de
 - DrawDib, tables de couleurs
@@ -13,12 +13,12 @@ keywords:
 - DrawDib, images compressées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 238f3e9ba822e16a7568775378b24f69bbca12de
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 18e03b41d5af776c39f7d100e9478bd408011d61d8e3d661cb80bd9ab52f08c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942087"
 ---
 # <a name="about-the-drawdib-functions"></a>À propos des fonctions DrawDib
 
@@ -44,6 +44,6 @@ Il est utile d’utiliser les fonctions DrawDib dans certaines circonstances. To
 [DrawDib](drawdib.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: a88caf5aa10828b81dccefbe8118b3a57aebce97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcb65f066286b5f5cd2fec935fb2223c25cf87fcc64d17de274b9b182a372440
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732857"
 ---
 # <a name="driver_info_2-structure"></a>\_Structure informations sur le pilote \_ 2
 
@@ -63,7 +63,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 **pEnvironment**
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement pour lequel le pilote a été écrit (par exemple, Windows x86, Windows IA64 et Windows x64).
+pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement pour lequel le pilote a été écrit (par exemple, Windows x86, Windows IA64 et Windows x64).
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie un n
 **pConfigFile**
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie un nom de fichier ou un chemin d’accès complet et un nom de fichier pour la configuration. dll du pilote de l’appareil (par exemple, « c : \\ drivers \\Pscrptui.dll »).
+Pointeur vers une chaîne se terminant par un caractère null qui spécifie un nom de fichier ou un chemin d’accès complet et un nom de fichier pour la configuration .dll du pilote de l’appareil (par exemple, « c : \\ drivers \\Pscrptui.dll »).
 
 </dd> </dl>
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8708f285445b13ecb1c9d2cb306ec14c7976905b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7110ad8adaa9f6656a415410ea4e273984e5a0eecace21f0c8856316cbb2a14c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983809"
 ---
 # <a name="apigettableindexes-method-jet_sesid-jet_tableid"></a>Méthode API. GetTableIndexes (JET_SESID, JET_TABLEID)
 
@@ -72,14 +72,14 @@ public static IEnumerable<IndexInfo> GetTableIndexes(
     
     Table pour laquelle récupérer les informations d’index.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur de retour
 
 Type : [System. Collections. Generic. IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<[IndexInfo](./indexinfo-class.md)\>  
 Itérateur sur un IndexInfo pour chaque index de la table.  
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe d’API](./api-class.md)
 

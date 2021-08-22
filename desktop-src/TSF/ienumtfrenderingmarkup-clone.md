@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7f15d1bda18d2371f6518da4fa2884fac4df91b4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4d7909e75b44baf5a9efd33d86d01b1c86571c93a181decd6d3b0dd1019a3c38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118878743"
 ---
 # <a name="ienumtfrenderingmarkupclone-method"></a>IEnumTfRenderingMarkup :: Clone, méthode
 
@@ -64,7 +64,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Cette méthode n’est pas actuellement dans les fichiers d’en-tête publics. Pour utiliser cette API, vous devez effectuer une compilation MIDL du [prototype](prototypes.md).

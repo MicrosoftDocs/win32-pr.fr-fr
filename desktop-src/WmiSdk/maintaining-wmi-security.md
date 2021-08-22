@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Maintenance de la sécurité WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f25cbf4a29567b263d6bd279aac9e2e6e21c523e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d79467b3baffd030cae1022f65bc0b8a97242c5e8bbe2f870753a3d3794b8705
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118818417"
 ---
 # <a name="maintaining-wmi-security"></a>Maintenance de la sécurité WMI
 
@@ -26,7 +26,7 @@ Les sections suivantes sont présentées dans cette rubrique :
 
 ## <a name="namespace-security"></a>Sécurité des espaces de noms
 
-La sécurité de l’espace de noms dépend des identificateurs de sécurité d’utilisateur Windows standard [*(SID)*](gloss-s.md) et du [*descripteur de sécurité*](gloss-s.md) pour l’espace de noms WMI.
+la sécurité de l’espace de noms dépend des [*identificateurs de sécurité (SID)*](gloss-s.md) d’utilisateur Windows standard et du [*descripteur de sécurité*](gloss-s.md) pour l’espace de noms WMI.
 
 Vous pouvez définir la sécurité de l’espace de noms en effectuant les actions suivantes :
 
@@ -59,7 +59,7 @@ Le tableau suivant répertorie les rubriques relatives à la maintenance de la s
 | [Sécurisation des espaces de noms WMI](securing-wmi-namespaces.md)                                             | Vous pouvez limiter l’accès aux données de l’espace de noms aux utilisateurs autorisés par le biais du contrôle WMI.                                                                                      |
 | [Sécurisation de votre fournisseur](securing-your-provider.md)                                               | Informations sur l’écriture de fournisseurs sécurisés.                                                                                                                           |
 | [Sécurisation des clients et des fournisseurs C++](securing-c---clients-and-providers.md)                       | Les fournisseurs C++ et les applications clientes doivent effectuer la plupart des opérations pour maintenir la sécurité WMI.                                                         |
-| [Sécurisation des clients de script](securing-scripting-clients.md)                                       | Les scripts et les applications Visual Basic (clients Automation) doivent définir une sécurité appropriée pour accéder aux données et aux événements WMI.                                        |
+| [Sécurisation des clients de script](securing-scripting-clients.md)                                       | les Scripts et les applications Visual Basic (clients automation) doivent définir une sécurité appropriée pour accéder aux données et aux événements WMI.                                        |
 | [Sécurisation des événements WMI](securing-wmi-events.md)                                                     | Les événements WMI sont remis par le fournisseur d’événements à un consommateur temporaire ou permanent. Les événements sont remis sous la forme d’une instance d’une classe d’événements.               |
 | [Modification de la sécurité d’accès sur les objets sécurisables](changing-access-security-on-securable-objects.md) | Avec les autorisations appropriées, vous pouvez appeler des méthodes sur les objets WMI qui représentent des objets sécurisables qui lisent ou modifient les descripteurs de sécurité sur des objets sécurisables. |
 

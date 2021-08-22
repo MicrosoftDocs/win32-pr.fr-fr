@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 40ccb8d1cee0fffb993aef417b979816597cf707
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27327db4718430ba646d9566227116e304d4d5f5770d0119987b32e0cd2adce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719541"
 ---
 # <a name="property-sheet-handlers"></a>Gestionnaires de feuille de propriétés
 
@@ -28,7 +28,7 @@ Les procédures générales d’implémentation et d’inscription d’un gestio
 
 ## <a name="how-property-sheet-handlers-work"></a>Fonctionnement des gestionnaires de feuille de propriétés
 
-L’illustration suivante montre la feuille de propriétés des propriétés d’un fichier texte Windows XP.
+l’illustration suivante montre la feuille de propriétés des propriétés d’un fichier texte Windows XP.
 
 ![feuille de propriétés](images/propsheethandler1.jpg)
 

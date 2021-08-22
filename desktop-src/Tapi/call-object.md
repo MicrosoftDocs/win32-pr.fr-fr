@@ -4,12 +4,12 @@ ms.assetid: 67c063ba-8b12-40d6-9011-923bdee8b214
 title: Objet d’appel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3b8ea40b7b2cadece9c89a45f9296995ad92fcf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb2b37ff30e1e47cc3daf5e3152d5051161535f0f4e6cdcb9d27d5537619e967
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118870015"
 ---
 # <a name="call-object"></a>Objet d’appel
 

@@ -4,12 +4,12 @@ ms.assetid: 92438df1-afde-4038-853e-9b98f7e589ea
 title: Options paramétrées et options non paramétrées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4c788eaf2fa08f4f29a541a775d2bcbf523aa51
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: ffb51d2d1df6ed49e389aff9aa614fabb2ace9d462cccbb3d56438f84b363fed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731957"
 ---
 # <a name="parameterized-options-versus-nonparameterized-options"></a>Options paramétrées et options non paramétrées
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dbd0d5e20040bc2d353287eb4243c9e9d6d21dc8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8a768acaecaa77a42990b34c50cd8eccb24d61353550751f3ed830e7844d7624
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794313"
 ---
 # <a name="breakp---vs"></a>breakp-vs
 
@@ -29,7 +29,7 @@ Décomposer de manière conditionnelle de la boucle actuelle à l’instruction 
 
 
 
- 
+ 
 
 Où :
 
@@ -37,7 +37,7 @@ Où :
 -   P0 correspond au registre de prédicat. Consultez [Registre de prédicat](dx9-graphics-reference-asm-vs-registers-predicate.md).
 -   {x \| y \| z \| w} est le Swizzle de réplication requis sur P0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -47,7 +47,7 @@ Où :
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -56,9 +56,9 @@ Où :
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

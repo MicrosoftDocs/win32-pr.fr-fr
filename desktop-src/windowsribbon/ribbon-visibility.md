@@ -1,23 +1,23 @@
 ---
 title: Affichage du ruban
-description: L’infrastructure de ruban Windows expose un ensemble de propriétés qui permettent à une application de spécifier le mode d’affichage de l’interface utilisateur du ruban au moment de l’exécution.
+description: l’infrastructure du ruban Windows expose un ensemble de propriétés qui permettent à une application de spécifier le mode d’affichage de l’interface utilisateur du ruban au moment de l’exécution.
 ms.assetid: c6716183-ef32-4fb2-812a-2d8f27448db5
 keywords:
-- Ruban Windows, personnalisation des couleurs
+- Windows Ruban, personnalisation des couleurs
 - Ruban, personnalisation des couleurs
 - personnalisation des couleurs du ruban Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 090c77c5b47afd673bc7132a87e3de336683d876
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4b61bae9bae5620d556f26f6c7103ef222f14892c8ce12acd21289dd7bc53b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964431"
 ---
 # <a name="displaying-the-ribbon"></a>Affichage du ruban
 
-L’infrastructure de ruban Windows expose un ensemble de propriétés qui permettent à une application de spécifier le mode d’affichage de l’interface utilisateur du ruban au moment de l’exécution.
+l’infrastructure du ruban Windows expose un ensemble de propriétés qui permettent à une application de spécifier le mode d’affichage de l’interface utilisateur du ruban au moment de l’exécution.
 
 -   [Introduction](#introduction)
 -   [Réduire le ruban](#minimize-the-ribbon)
@@ -40,7 +40,7 @@ Les [clés de propriété de Framework](windowsribbon-reference-properties-frame
 
 
 
- 
+ 
 
 ## <a name="minimize-the-ribbon"></a>Réduire le ruban
 
@@ -55,7 +55,7 @@ Une application de Framework de ruban peut définir dynamiquement l’État réd
 
 
 
- 
+ 
 
 Lorsque l’interface utilisateur du ruban est dans un État réduit, la ligne de l’onglet du ruban reste visible et entièrement fonctionnelle.
 
@@ -66,7 +66,7 @@ La capture d’écran suivante montre le ruban dans un État réduit.
 > [!Note]  
 > L’infrastructure du ruban expose cette fonctionnalité à l’utilisateur final via la sélection « réduire le ruban » du menu contextuel du ruban.
 
- 
+ 
 
 ## <a name="hide-the-ribbon"></a>Masquer le ruban
 
@@ -81,7 +81,7 @@ Une application de Framework de ruban peut définir dynamiquement l’État affi
 
 
 
- 
+ 
 
 Contrairement à la propriété [ \_ \_ minimisée de l’interface utilisateur](windowsribbon-reference-properties-uipkey-minimized.md) , le paramétrage de l’interface utilisateur de l’IU sur **faux** rend l’interface ruban invisible et complètement inutilisable pour un utilisateur final. [ \_ \_](windowsribbon-reference-properties-uipkey-viewable.md)
 
@@ -89,7 +89,7 @@ La capture d’écran suivante montre le ruban dans un état masqué.
 
 ![capture d’écran montrant l’interface utilisateur du ruban masquée.](images/overviews/ribbon-viewable.png)
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’exemple suivant montre comment définir l’état de l’interface utilisateur du ruban au moment de l’exécution.
 
@@ -171,6 +171,6 @@ STDMETHODIMP CCommandHandler::Execute(
 [Propriétés du ruban](windowsribbon-reference-properties-ribbon.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

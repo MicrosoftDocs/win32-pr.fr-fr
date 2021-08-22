@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: bfcc6cc4daedf0ed1bbc43e2ccc78317f9d7e17c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1a818c1fef9006abad2dd31da5a41f43aeb3df9a9b75d348d8987938abfcea6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967118"
 ---
 # <a name="inkoverlay-class"></a>InkOverlay, classe
 
@@ -129,7 +129,7 @@ La classe **InkOverlay** possède ces propriétés.
 | [**DesiredPacketDescription**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription)<br/>           | Lecture/écriture<br/> | Obtient ou définit l’intérêt des aspects du paquet associé à l’encre dessinée sur l’objet **InkOverlay** .<br/>                                                                            |
 | [**DynamicRendering**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering)<br/>                             | Lecture/écriture<br/> | Obtient ou définit une valeur qui indique si l’entrée manuscrite est restituée au fur et à mesure qu’elle est dessinée.<br/>                                                                                                       |
 | [**EditingMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode)<br/>                                       | Lecture/écriture<br/> | Obtient ou définit une valeur qui indique si **InkOverlay** est en mode Ink, en mode de suppression ou en mode de sélection/modification.<br/>                                                          |
-| [**Enabled**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled)<br/>                                             | Lecture/écriture<br/> | Obtient ou définit une valeur qui spécifie si l’objet **InkOverlay** collecte l’entrée du stylet.<br/>                                                                                         |
+| [**Activé**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled)<br/>                                             | Lecture/écriture<br/> | Obtient ou définit une valeur qui spécifie si l’objet **InkOverlay** collecte l’entrée du stylet.<br/>                                                                                         |
 | [**EraserMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode)<br/>                                         | Lecture/écriture<br/> | Obtient ou définit une valeur qui indique si l’encre est effacée par trait ou par point.<br/>                                                                                                  |
 | [**EraserWidth**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_eraserwidth)<br/>                                       | Lecture/écriture<br/> | Obtient ou définit une valeur qui spécifie la largeur de l’info-bulle du stylet de gomme.<br/>                                                                                                              |
 | [**Handle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd)<br/>                                                 | Lecture/écriture<br/> | Obtient ou définit le handle de la fenêtre à laquelle l’objet **InkOverlay** est attaché.<br/>                                                                                             |
@@ -164,7 +164,7 @@ BOOL CRecognitionAlternatesSampleCppView::OnWndMsg(UINT msg, WPARAM wp, PARAM lp
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
@@ -206,7 +206,7 @@ BOOL CRecognitionAlternatesSampleCppView::OnWndMsg(UINT msg, WPARAM wp, PARAM lp
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

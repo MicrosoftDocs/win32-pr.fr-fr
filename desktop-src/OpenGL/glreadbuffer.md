@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59f0e88cdcb2b1b3257b23606f8160e0986584db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3a25e9a799185b1a509510abb81617895fbbd0624d8816110e4c2ba8e4a7c1cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937949"
 ---
 # <a name="glreadbuffer-function"></a>glReadBuffer fonction)
 
@@ -65,7 +65,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glReadBuffer** spécifie une mémoire tampon de couleur comme source pour les commandes [**glReadPixels**](glreadpixels.md) et [**glCopyPixels**](glcopypixels.md) suivantes. Le paramètre *mode* accepte une ou plusieurs valeurs prédéfinies. (GL \_ AUX0 via GL \_ AUX3 sont toujours définis.) Dans un système entièrement configuré, les préversions GL \_ , GL gauche et GL vers l’avant-plan de la zone de préversion de la mémoire tampon de l’avant-plan, le préversion \_ \_ \_ GL \_ \_ et \_ \_ \_ \_ le nom de la mémoire tampon d’arrière-plan.
 

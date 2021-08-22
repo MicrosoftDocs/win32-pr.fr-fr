@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, génération de l’UUID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e263bfe21c4a564106c0d6328c0de891c18bca1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 21c1fbb257a4ce41a4fc0159f703a01705b4dd5926356d7850ec4ce1e0d2e002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929526"
 ---
 # <a name="generating-the-uuid"></a>Génération de l’UUID
 
@@ -34,9 +34,9 @@ interface INTERFACENAME
 }
 ```
 
- 
+ 
 
- 
+ 
 
 
 

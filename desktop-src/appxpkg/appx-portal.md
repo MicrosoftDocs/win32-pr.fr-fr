@@ -1,32 +1,32 @@
 ---
-title: Empaquetage, déploiement et interrogation d’applications Windows
-description: Créer par programme des packages d’application pour les applications Windows, et installer, mettre à jour, interroger et désinstaller des packages d’application.
+title: empaquetage, déploiement et interrogation d’applications Windows
+description: créer par programme des packages d’application pour les applications Windows, et installer, mettre à jour, interroger et désinstaller des packages d’application.
 ms.assetid: 4ea65e62-4878-41fd-9ad8-424b1546f02a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bfd1792e0b7b18f0dee04bca6f352e055b20f57
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: ca79d235aa8d0d69c887eb67704d30137cf36a7583471f28269ac939a26b2a85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104101472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118814272"
 ---
-# <a name="packaging-deployment-and-query-of-windows-apps"></a>Empaquetage, déploiement et interrogation d’applications Windows
+# <a name="packaging-deployment-and-query-of-windows-apps"></a>empaquetage, déploiement et interrogation d’applications Windows
 
-Vous déployez, gérez et serviceez les applications Windows (y compris les UWPs et les applications de bureau) par le biais de packages d’application. msix/. AppX basés sur le format OPC. Chaque package d’application contient les fichiers qui constituent l’application, ainsi qu’un fichier manifeste décrivant le logiciel à Windows.
+vous déployez, gérez et service Windows applications (y compris les applications UWPs et de bureau) par le biais de packages d’application. msix/. appx basés sur le format OPC. Chaque package d’application contient les fichiers qui constituent l’application, ainsi qu’un fichier manifeste qui décrit le logiciel à Windows.
 
 ## <a name="introduction"></a>Introduction
 
-En général, les développeurs créent et signent des packages d’application à l’aide de Visual Studio. Pour plus d’informations, consultez [empaqueter une application UWP avec Visual Studio](/windows/msix/package/packaging-uwp-apps).
+En règle générale, les développeurs créent et signent des packages d’application à l’aide de Visual Studio. Pour plus d’informations, consultez [empaqueter une application UWP avec Visual Studio](/windows/msix/package/packaging-uwp-apps).
 
-Le Microsoft Store facilite la création, l’envoi et la vente de vos applications à des clients dans le monde entier. Pour plus d’informations, consultez [envois d’applications](/windows/uwp/publish/app-submissions).
+le Microsoft Store facilite la création, l’envoi et la vente de vos applications à des clients dans le monde entier. Pour plus d’informations, consultez [envois d’applications](/windows/uwp/publish/app-submissions).
 
-Les applets de commande Windows PowerShell vous permettent d’installer et de gérer des applications métier Windows sans utiliser le Store. Pour plus d’informations, consultez applets de commande du [module AppX](/powershell/module/appx/index?view=win10-ps).
+les applets de commande Windows PowerShell vous permettent d’installer et de gérer des applications métier Windows sans utiliser le Store. Pour plus d’informations, consultez applets de commande du [module AppX](/powershell/module/appx/index?view=win10-ps).
 
 À l’aide des API de Packaging, de déploiement et de requête, vous pouvez effectuer ces tâches par programme :
 
--   Créer un package d’application pour une application Windows
--   Déployer une application Windows empaquetée
+-   créer un package d’application pour une application Windows
+-   déployer une application Windows empaquetée
 -   Énumérer les packages d’application installés sur un système et obtenir des informations à leur sujet à partir de leur manifeste
 -   Utiliser le contenu d’un package d’application
 
@@ -49,12 +49,12 @@ Les applets de commande Windows PowerShell vous permettent d’installer et de g
 | [Informations de référence sur l’API de déploiement](package-deployment-api.md)                                                   | L’API de déploiement installe, met à jour et désinstalle des packages d’application.                                                                                                                    |
 | [Référence API de requête](functions.md)                                                                     | L’API de requête obtient des informations sur les packages d’application installés sur le système.                                                                                                               |
 | [Outils et applets de commande PowerShell](appx-packaging-tools.md)                                                 | Utilisez ces outils et applets de commande pour créer, installer et gérer des packages d’application.                                                                                                              |
-| [Exemples de Kits de développement logiciel (SDK)](appx-packaging-samples.md)                                                                | Téléchargez les exemples du kit de développement logiciel (SDK) qui illustrent le Packaging, le déploiement et les API de requête des applications Windows.                                                                               |
-| [Glossaire](appx-packaging-glossary.md)                                                                  | En savoir plus sur les termes liés à l’empaquetage, au déploiement et à l’interrogation des applications Windows.                                                                                              |
+| [Exemples de Kits de développement logiciel (SDK)](appx-packaging-samples.md)                                                                | téléchargez les exemples du kit de développement logiciel (SDK) qui illustrent le packaging, le déploiement et les api de requête des applications Windows.                                                                               |
+| [Glossaire](appx-packaging-glossary.md)                                                                  | en savoir plus sur les termes liés à l’empaquetage, au déploiement et à l’interrogation des applications Windows.                                                                                              |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -84,6 +84,6 @@ Les applets de commande Windows PowerShell vous permettent d’installer et de g
 [**Windows.Management.Deployment.PackageUserInformation**](/uwp/api/Windows.Management.Deployment.PackageUserInformation)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

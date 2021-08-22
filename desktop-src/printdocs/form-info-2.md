@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 6e2129f9776706ce331677e75c5d9c81d82393c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd933bf0ace6f394a801ab8dc4ef1fa30344b47966c09865a3aa4b713c6f2ed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971518"
 ---
 # <a name="form_info_2-structure"></a>Structure des informations de formulaire \_ \_ 2
 
@@ -107,7 +107,7 @@ Spécifie comment un nom complet localisé pour le formulaire est obtenu au mome
 | Valeur            | Signification                                                                                                                                                                                        |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CHAÎNE \_ aucun     | Il n’existe aucun nom complet localisé.                                                                                                                                                            |
-| CHAÎNE \_ MUIDLL   | Le nom d’affichage est extrait de la DLL de ressources localisées de l' [interface utilisateur multilingue](/windows/desktop/Intl/mui-resource-management) spécifiée dans **pMuiDll**. L’ID se trouve dans le membre **dwResourceId** . |
+| CHAÎNE \_ MUIDLL   | le nom d’affichage est extrait de la [interface utilisateur multilingue](/windows/desktop/Intl/mui-resource-management) DLL de ressources localisées spécifiée dans **pMuiDll**. L’ID se trouve dans le membre **dwResourceId** . |
 | CHAÎNE \_ LANGPAIR | Le nom d’affichage et l’ID de langue sont fournis directement par **pDisplayName** et la langue est spécifiée par **wLangId**.                                                                       |
 
 
@@ -119,7 +119,7 @@ Spécifie comment un nom complet localisé pour le formulaire est obtenu au mome
 **pMuiDll**
 </dt> <dd>
 
-DLL de ressource localisée de l' [interface utilisateur multilingue](/windows/desktop/Intl/mui-resource-management) qui contient le nom complet localisé.
+[interface utilisateur multilingue](/windows/desktop/Intl/mui-resource-management) DLL de ressource localisée qui contient le nom complet localisé.
 
 </dd> <dt>
 
@@ -144,7 +144,7 @@ Langage du **pDisplayName**.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Sur un appel à [**AddForm**](addform.md) ou [**SetForm**](setform.md):
 
@@ -164,8 +164,8 @@ Pour les **informations de formulaire \_ \_ 2** retournées par un appel à [**G
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **\_ Informations de formulaire \_ \_ 2S** (Unicode) et **\_ informations de formulaire \_ \_ 2A** (ANSI)<br/>                                 |
 

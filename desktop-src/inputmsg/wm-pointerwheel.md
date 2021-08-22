@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: ad1177b2e92e47ca40c745e6cd5f1ea2cf259215
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93144125c21da2d29a0d71f56d8d865da4a07dda6adff2f25ce3528fca72b475
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756527"
 ---
 # <a name="wm_pointerwheel-message"></a>Message WM_POINTERWHEEL
 
@@ -77,7 +77,7 @@ Si l’application traite ce message, elle doit retourner la valeur zéro.
 
 Si l’application ne traite pas ce message, elle doit appeler [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer les unités de défilement de la roue, utilisez le **inputData** de la structure retournée par l’appel de [**POINTER_INFO**](/previous-versions/windows/desktop/api) la fonction [**GetPointerInfo**](/previous-versions/windows/desktop/api) . Ce champ contient une valeur signée et est exprimé dans un multiple de **WHEEL_DELTA**. Une valeur positive indique une rotation vers l’avant et une valeur négative indique une rotation vers l’arrière.
 
@@ -89,8 +89,8 @@ Notez que les entrées de la roue peuvent être remises même si le curseur de l
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 
