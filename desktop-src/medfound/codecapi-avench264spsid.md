@@ -4,12 +4,12 @@ ms.assetid: 583DD539-6EE8-4DD4-A0FE-D2BBE1A4302F
 title: CODECAPI_AVEncH264SPSID, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e06fb78fc128b2eec5db2c61faf70ee10a5eba5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da06e431a3747e676e3934ac9a261e1d0e1ec37e18bacf01f8a3e623c4257488
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664659"
 ---
 # <a name="codecapi_avench264spsid-property"></a>CODECAPI \_ propriété AVEncH264SPSID
 
@@ -35,8 +35,8 @@ La plage valide est 0 31, comme indiqué dans la spécification H. 264/AVC.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

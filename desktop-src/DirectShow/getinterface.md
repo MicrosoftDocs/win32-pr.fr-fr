@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 317f08af2a4ff0e9410c61da8b19d14735a14f6c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 289c6e56d4b5387fe9224e476c69865107102141b687825cdfd9a717f482632c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537029"
 ---
 # <a name="getinterface-function"></a>GetInterface, fonction
 
@@ -61,7 +61,7 @@ Adresse d’un pointeur vers l’interface récupérée.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre effectue un incrément thread-safe du décompte de références. Pour récupérer l’interface et ajouter une référence, appelez cette fonction à partir de votre implémentation de substitution de la méthode **INonDelegatingUnknown :: NonDelegatingQueryInterface** .
 
@@ -71,7 +71,7 @@ Cette fonction membre effectue un incrément thread-safe du décompte de référ
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>ComBase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

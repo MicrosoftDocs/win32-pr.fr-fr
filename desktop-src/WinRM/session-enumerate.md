@@ -4,9 +4,9 @@ description: Énumère une table, une collection de données ou une ressource de
 ms.assetid: ed8ad3ad-d033-45cb-b681-995c5f73b12e
 ms.tgt_platform: multiple
 keywords:
-- Énumération de la méthode Windows Remote Management
-- Énumérer la méthode Windows Remote Management, objet session
-- Windows Remote Management d’objet de session, énumération, méthode
+- énumération de la méthode Windows Remote Management
+- énumérer la méthode Windows Remote Management, objet Session
+- Windows Remote Management d’objet de Session, énumération, méthode
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca6b66b910251c641832cde3ddd93d6479f66be7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6dc40a45cc28179acd8e5dc9fff17df8b8accddd8dffda3ea299571e11d46564
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642629"
 ---
 # <a name="sessionenumerate-method"></a>Session. Enumerate, méthode
 
@@ -96,11 +96,11 @@ Paramètre qui doit contenir un indicateur dans l’énumération **\_ \_ WSManE
 
 Objet [**énumérateur**](enumerator.md) qui contient les résultats de l’énumération.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la limitation des appels réseau pendant une énumération, consultez la propriété [**BatchItems**](session-batchitems.md) .
 
-Sachez que si les indicateurs incluent les [**constantes d’énumération**](enumeration-constants.md) **WSManFlagHierarchyDeepBasePropsOnly** ou **WSManFlagHierarchyShallow** , Windows Remote Management Service retourne le code d’erreur le **mode de \_ polymorphisme WSMan n’est pas \_ \_ \_ pris en charge**.
+sachez que si les indicateurs incluent les [**constantes d’énumération**](enumeration-constants.md) **WSManFlagHierarchyDeepBasePropsOnly** ou **WSManFlagHierarchyShallow** , Windows Remote Management service retourne le code d’erreur le **MODE de \_ polymorphisme WSMAN n’est pas \_ \_ \_ pris en charge**.
 
 Si un filtre est spécifié, il doit s’agir d’un document valide en ce qui concerne le schéma de la ressource. Le paramètre de dialecte est facultatif. Toutefois, si la chaîne de filtre commence par <, mais n’est pas un fragment XML, vous devez inclure le paramètre de *dialecte* ou définir l’indicateur **WSManFlagNonXmlText** dans le paramètre *Flags* . Pour plus d’informations, consultez [**énumération, constantes**](enumeration-constants.md).
 
@@ -162,7 +162,7 @@ End Sub
 
 <dl> <dt>
 
-[**session**](session.md)
+[**Session**](session.md)
 </dt> <dt>
 
 [Interrogation d’instances spécifiques d’une ressource](querying-for-specific-instances-of-a-resource.md)

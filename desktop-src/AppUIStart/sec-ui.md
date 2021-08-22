@@ -1,27 +1,27 @@
 ---
-title: Considérations sur la sécurité interface utilisateur Windows
-description: Cette rubrique fournit des informations sur les considérations relatives à la sécurité dans l’interface utilisateur de Windows.
+title: considérations sur la sécurité Windows Interface utilisateur
+description: cette rubrique fournit des informations sur les considérations relatives à la sécurité dans l’Interface utilisateur Windows.
 ms.assetid: D560E59A-D6C8-40a9-AABB-DE5A47C94E6E
 keywords:
-- Interface utilisateur Windows, sécurité
-- sécurité pour l’interface utilisateur Windows
+- Windows Interface utilisateur, sécurité
+- sécurité de l’Interface utilisateur Windows
 - sécurité des chaînes
 - entrée d’utilisateur, validation
 - validation des entrées utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71b714de3ab12cb10d6e5d9a2e251c34eeeff7a5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f8d8281684dde5a78d458816c3d90c8c75fd96bb8ae7160004667ea302794c37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589199"
 ---
-# <a name="security-considerations-windows-user-interface"></a>Considérations relatives à la sécurité : interface utilisateur Windows
+# <a name="security-considerations-windows-user-interface"></a>considérations relatives à la sécurité : Windows Interface utilisateur
 
-Cette rubrique fournit des informations sur les considérations relatives à la sécurité dans l’interface utilisateur de Windows. Cette rubrique ne fournit pas tout ce que vous devez savoir sur les problèmes de sécurité. Au lieu de cela, utilisez-le comme point de départ et référence pour ce domaine technologique.
+cette rubrique fournit des informations sur les considérations relatives à la sécurité dans l’Interface utilisateur Windows. Cette rubrique ne fournit pas tout ce que vous devez savoir sur les problèmes de sécurité. Au lieu de cela, utilisez-le comme point de départ et référence pour ce domaine technologique.
 
-Avec l’augmentation de l’interconnexion des ordinateurs, les développeurs doivent maintenant se préoccuper de la sécurité des applications. Toutefois, la sécurité améliore également la sécurité et la robustesse des applications. C’est la raison pour laquelle le développeur peut fournir une bonne expérience utilisateur. Les rubriques suivantes décrivent certains problèmes de sécurité potentiels liés à l’utilisation de l’interface utilisateur Windows.
+Avec l’augmentation de l’interconnexion des ordinateurs, les développeurs doivent maintenant se préoccuper de la sécurité des applications. Toutefois, la sécurité améliore également la sécurité et la robustesse des applications. C’est la raison pour laquelle le développeur peut fournir une bonne expérience utilisateur. les rubriques suivantes décrivent certains problèmes de sécurité potentiels liés à l’utilisation de l’Interface utilisateur Windows.
 
 -   [Considérations sur les chaînes](#string-considerations)
 -   [Entrée utilisateur](#user-input)
@@ -42,7 +42,7 @@ En outre, envisagez d’utiliser les fonctions [StrSafe](/windows/desktop/menurc
 
 ## <a name="user-input"></a>Entrée utilisateur
 
-L’interface utilisateur Windows s’occupe de l’obtention et de la réponse aux informations des utilisateurs. Toutefois, les utilisateurs qui entrent des données incorrectes peuvent perturber votre application, qu’elles envisagent ou non de le faire. Ainsi, la règle de cardinalité est que toutes les entrées doivent être validées.
+l’interface utilisateur Windows s’occupe de l’obtention et de la réponse aux informations des utilisateurs. Toutefois, les utilisateurs qui entrent des données incorrectes peuvent perturber votre application, qu’elles envisagent ou non de le faire. Ainsi, la règle de cardinalité est que toutes les entrées doivent être validées.
 
 La préoccupation principale est la chaîne de données, qui est décrite dans considérations sur les [chaînes](#string-considerations). Toutefois, tous les types d’entrée doivent être validés avant d’être utilisés par votre application. Un autre problème est lié au moment où les données sont validées à un point mais qu’elles sont modifiées avant d’être utilisées, par exemple lors de la réception de messages qui donnent la longueur du texte. Par conséquent, si les données sont susceptibles de changer, vous devez vérifier les données juste avant de les utiliser.
 
@@ -52,7 +52,7 @@ Le tableau suivant répertorie les fonctionnalités qui, si elles sont utilisée
 
 
 
-| Fonctionnalité                                                                                                                                                   | Limitation des risques                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Caractéristique                                                                                                                                                   | Limitation des risques                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetAtomName**](/windows/desktop/api/winbase/nf-winbase-getatomnamea)                                                                                                               | Soyez prudent lorsque vous spécifiez la taille de la mémoire tampon.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [**GlobalGetAtomName**](/windows/desktop/api/winbase/nf-winbase-globalgetatomnamea)                                                                                                   | Les atomes de chaînes globaux sont accessibles à n’importe quelle application. Toutefois, si une autre application est inversée, elle risque de ne pas gérer leurs décomptes de références et de les supprimer. Vous devez envisager d’utiliser des atomes d’entiers globaux à la place.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -72,7 +72,7 @@ Le tableau suivant répertorie les fonctionnalités qui, si elles sont utilisée
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -93,6 +93,6 @@ Le tableau suivant répertorie les fonctionnalités qui, si elles sont utilisée
 [Meilleures pratiques pour les API de sécurité](/windows/desktop/SecBP/best-practices-for-the-security-apis)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

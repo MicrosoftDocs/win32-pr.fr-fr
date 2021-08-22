@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 160f97a3a00ddc7bbf69989991b2794ab3d6e5e8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 50dde79e57ca7edf838f05b1fa1b4d10f5da5cc936b3cbf563c7838703650806
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567029"
 ---
 # <a name="id3dx10meshcommittodevice-method"></a>ID3DX10Mesh :: CommitToDevice, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un maillage est chargé, ses données sont chargées dans des ressources intermédiaires, ce qui signifie que les données peuvent être modifiées mais pas rendues. Quand CommitToDevice est appelé, les données des ressources de mise en lots sont copiées dans les ressources de l’appareil afin qu’elles puissent être rendues. Bien que les données soient validées sur l’appareil, les ressources de mise en lots restent et peuvent être modifiées. Si des modifications sont apportées aux ressources intermédiaires, celles-ci doivent être réactivées sur l’appareil afin que ces modifications soient rendues à l’écran.
 

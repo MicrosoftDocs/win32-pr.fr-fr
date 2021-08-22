@@ -3,7 +3,7 @@ title: Message LB_SELECTSTRING (winuser. h)
 description: Recherche un élément qui commence par les caractères d’une chaîne spécifiée dans une zone de liste. Si un élément correspondant est trouvé, l’élément est sélectionné.
 ms.assetid: fd443ade-665d-439a-8951-3d9fed50695b
 keywords:
-- LB_SELECTSTRING les contrôles de message Windows
+- LB_SELECTSTRING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5963ea6530038e17bc7f23d9ab66eba14ca0b05d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 848a0935a1ca4d3ce717fecae3de76f57e36091ba084041aa9d012d6318a269a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434079"
 ---
 # <a name="lb_selectstring-message"></a>\_Message SELECTSTRING lb
 
@@ -34,7 +34,7 @@ Recherche un élément qui commence par les caractères d’une chaîne spécifi
 
 Index de base zéro de l'élément précédant le premier élément sur lequel la recherche est effectuée. Lorsque la recherche atteint le bas de la zone de liste, elle continue à partir du haut de la zone de liste jusqu’à l’élément spécifié par le paramètre *wParam* . Si *wParam* est-1, la zone de liste entière est recherchée à partir du début.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
+Windows 95/Windows 98/Windows Millennium edition (Windows) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
 
 </dd> <dt>
 
@@ -49,7 +49,7 @@ Pointeur vers la chaîne terminée par le caractère null qui contient le préfi
 
 Si la recherche réussit, la valeur de retour est l’index de l’élément sélectionné. Si la recherche échoue, la valeur de retour est LB \_ Err et la sélection actuelle n’est pas modifiée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La zone de liste défile, si nécessaire, pour afficher l’élément sélectionné.
 
@@ -65,8 +65,8 @@ Si la zone de liste a le style owner-drawn, mais pas le style [**\_ HASSTRINGS k
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

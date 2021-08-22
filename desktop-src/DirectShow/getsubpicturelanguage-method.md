@@ -4,17 +4,17 @@ ms.assetid: 2a2e6961-99c3-4200-b462-b381f9e37066
 title: Méthode GetSubpictureLanguage
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f87d1bf95ee13a1a15e631e2bc53477b62b789a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cdedc90789efb331b1438744a0f64a42782bf1d1e363170ce626ed023d2e542a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119536929"
 ---
 # <a name="getsubpicturelanguage-method"></a>Méthode GetSubpictureLanguage
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

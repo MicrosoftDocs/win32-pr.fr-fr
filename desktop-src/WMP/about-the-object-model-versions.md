@@ -3,34 +3,34 @@ title: À propos des versions de modèle objet
 description: À propos des versions de modèle objet
 ms.assetid: 20bb1681-9079-4f8c-bb5e-5c98e3bdc76a
 keywords:
-- Windows Media Player, versions
-- Windows Media Player Object Model (version)
+- Lecteur Windows Media, versions
+- Lecteur Windows Media modèle objet, versions
 - modèle objet, versions
-- Contrôle ActiveX du lecteur Windows Media, versions pour le modèle objet
-- Contrôle ActiveX, versions pour le modèle objet
-- Windows Media Player Mobile contrôle ActiveX, versions pour le modèle objet
-- Windows Media Player Mobile, versions pour le modèle objet
-- versions du lecteur Windows Media, modèle objet
+- contrôle de ActiveX Lecteur Windows Media, versions pour le modèle objet
+- contrôle ActiveX, versions pour le modèle objet
+- Lecteur Windows Media contrôle de ActiveX Mobile, versions pour le modèle objet
+- Lecteur Windows Media Mobile, versions pour le modèle objet
+- versions de Lecteur Windows Media, modèle objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59886f5750b6fc42112f73d6bb6e05e8d013ffdc
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: ce90455d93d71f6fde62b97d3b4d38e34963307e60b831c8110a914cc535cffd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104381682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119510059"
 ---
 # <a name="about-the-object-model-versions"></a>À propos des versions de modèle objet
 
-Le lecteur Windows Media 7,0 a introduit un nouveau modèle d’objet. Ce modèle objet a été étendu avec le lecteur Windows Media 7,1, le lecteur Windows Media pour Windows XP, le lecteur Windows Media série 9, le lecteur Windows Media 10, le lecteur Windows Media 11 et le lecteur Windows Media 12. Chaque rubrique de la référence de modèle objet comprend une section spécifications qui détaille la configuration minimale requise pour la propriété, la méthode ou l’événement individuel. Les listes suivantes détaillent les nouveaux objets, méthodes, propriétés et événements qui ont été ajoutés pour chaque version depuis la version 7,0. Ces listes incluent également de nouvelles interfaces, méthodes et événements C++.
+Lecteur Windows Media 7,0 a introduit un nouveau modèle objet. ce modèle objet a été étendu avec Lecteur Windows Media 7,1, Lecteur Windows Media pour Windows XP, Lecteur Windows Media 9 Series, Lecteur Windows Media 10, Lecteur Windows Media 11 et Lecteur Windows Media 12. Chaque rubrique de la référence de modèle objet comprend une section spécifications qui détaille la configuration minimale requise pour la propriété, la méthode ou l’événement individuel. Les listes suivantes détaillent les nouveaux objets, méthodes, propriétés et événements qui ont été ajoutés pour chaque version depuis la version 7,0. Ces listes incluent également de nouvelles interfaces, méthodes et événements C++.
 
-Lorsqu’une interface nouvelle ou mise à jour est également exposée en tant qu’objet, seul l’objet est répertorié. Pour localiser l’interface, reportez-vous à la [Référence du modèle objet pour C++](object-model-reference-for-c.md). En règle générale, vous devez simplement ajouter le préfixe IWMP au nom de l’objet. Si une nouvelle interface étend une interface existante, vous devrez peut-être Rechercher le numéro de version le plus récent. Par exemple, le lecteur Windows Media série 9 a introduit de nouvelles propriétés et méthodes disponibles à partir de l’objet [**Settings**](settings-object.md) . En C++, ces derniers sont disponibles via l’interface [**IWMPSettings2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings2) , qui étend [**IWMPSettings**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings).
+Lorsqu’une interface nouvelle ou mise à jour est également exposée en tant qu’objet, seul l’objet est répertorié. Pour localiser l’interface, reportez-vous à la [Référence du modèle objet pour C++](object-model-reference-for-c.md). En règle générale, vous devez simplement ajouter le préfixe IWMP au nom de l’objet. Si une nouvelle interface étend une interface existante, vous devrez peut-être Rechercher le numéro de version le plus récent. par exemple, Lecteur Windows Media série 9 a introduit de nouvelles propriétés et méthodes disponibles à partir de l’objet [**Paramètres**](settings-object.md) . En C++, ces derniers sont disponibles via l’interface [**IWMPSettings2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings2) , qui étend [**IWMPSettings**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings).
 
-## <a name="added-for-windows-media-player-71"></a>Ajouté pour le lecteur Windows Media 7,1
+## <a name="added-for-windows-media-player-71"></a>ajouté pour Lecteur Windows Media 7,1
 
 -   [**Propriété Player. stretchToFit**](player-stretchtofit.md)
 
-## <a name="added-for-windows-media-player-for-windows-xp"></a>Ajouté pour le lecteur Windows Media pour Windows XP
+## <a name="added-for-windows-media-player-for-windows-xp"></a>ajout de pour Lecteur Windows Media pour Windows XP
 
 -   [**Controls. Step, méthode**](controls-step.md)
 -   [**Objet DVD**](dvd-object.md)
@@ -40,7 +40,7 @@ Lorsqu’une interface nouvelle ou mise à jour est également exposée en tant 
 -   [**Événement Player. OpenPlaylistSwitch**](player-player-openplaylistswitch.md)
 -   [**Propriété Player. windowlessVideo**](player-windowlessvideo.md)
 
-## <a name="added-for-windows-media-player-9-series"></a>Ajouté pour le lecteur Windows Media 9
+## <a name="added-for-windows-media-player-9-series"></a>ajouté pour la série Lecteur Windows Media 9
 
 -   [**Méthode ClosedCaption. getSAMILangID**](closedcaption-getsamilangid.md)
 -   [**Méthode ClosedCaption. getSAMILangName**](closedcaption-getsamilangname.md)
@@ -78,11 +78,11 @@ Lorsqu’une interface nouvelle ou mise à jour est également exposée en tant 
 -   [**Propriété Player. playerApplication**](player-playerapplication.md)
 -   [**Événement Player. StatusChange**](player-player-statuschange.md)
 -   [**Objet PlayerApplication**](playerapplication-object.md)
--   [**Propriété Settings. defaultAudioLanguage**](settings-defaultaudiolanguage.md)
--   [**Propriété Settings. mediaAccessRights**](settings-mediaaccessrights.md)
--   [**Settings. requestMediaAccessRights, méthode**](settings-requestmediaaccessrights.md)
+-   [**Paramètres. defaultAudioLanguage, propriété**](settings-defaultaudiolanguage.md)
+-   [**Paramètres. mediaAccessRights, propriété**](settings-mediaaccessrights.md)
+-   [**méthode Paramètres. requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 
-## <a name="added-for-windows-media-player-10"></a>Ajouté pour le lecteur Windows Media 10
+## <a name="added-for-windows-media-player-10"></a>ajouté pour Lecteur Windows Media 10
 
 -   [**Interface IWMPGraphCreation**](/previous-versions/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation)
 -   [**Interface IWMPPlayerServices2**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices2)
@@ -91,7 +91,7 @@ Lorsqu’une interface nouvelle ou mise à jour est également exposée en tant 
 -   [**Énumération WMPDeviceStatus**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpdevicestatus)
 -   [**Énumération WMPSyncState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpsyncstate)
 
-## <a name="added-for-windows-media-player-11"></a>Ajouté pour le lecteur Windows Media 11
+## <a name="added-for-windows-media-player-11"></a>ajouté pour le Lecteur Windows Media 11
 
 -   [**Interface IWMPCdromBurn**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn)
 -   [**Interface IWMPCdromBurn (VB et C#)**](iwmpcdromburn--vb-and-c.md)
@@ -119,7 +119,7 @@ Lorsqu’une interface nouvelle ou mise à jour est également exposée en tant 
 -   [**Énumération WMPLibraryType**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmplibrarytype)
 -   [**Énumération WMPRipState**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpripstate)
 
-## <a name="added-for-windows-media-player-12"></a>Ajouté pour le lecteur Windows Media 12
+## <a name="added-for-windows-media-player-12"></a>ajouté pour Lecteur Windows Media 12
 
 -   [**Interface IWMPAudioRenderConfig**](/previous-versions/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpaudiorenderconfig)
 -   [**Interface IWMPEvents4**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents4)
@@ -136,9 +136,9 @@ Lorsqu’une interface nouvelle ou mise à jour est également exposée en tant 
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

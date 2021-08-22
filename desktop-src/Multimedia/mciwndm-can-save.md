@@ -3,7 +3,7 @@ title: Message MCIWNDM_CAN_SAVE (VFW. h)
 description: Le MCIWNDM \_ peut \_ enregistrer un message détermine si un périphérique MCI peut enregistrer des données. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndCanSave.
 ms.assetid: b4e27190-b095-494b-9ed3-10653bea187b
 keywords:
-- Message MCIWNDM_CAN_SAVE Windows Multimedia
+- message MCIWNDM_CAN_SAVE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b60b8a5d93ac80befc8beeb6665399efe44f1e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ccab622381208b8213414ed8b156a84e431afffc55acdf2323b0c0a2d31014f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429629"
 ---
 # <a name="mciwndm_can_save-message"></a>MCIWNDM \_ peut \_ enregistrer le message
 

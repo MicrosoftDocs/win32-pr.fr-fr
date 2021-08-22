@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5dde02c31ed0ef72e6df36a6cf0364b7f184304e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7135a07aedb879503d36011b274bdeab8035924b91bb5d9bc656d6d89dfbe201
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567002"
 ---
 # <a name="cenumpins-class"></a>CEnumPins, classe
 
@@ -46,7 +46,7 @@ Si le filtre crée ou détruit dynamiquement des broches, il incrémente la vers
 | Méthodes IEnumPins                          | Description                                                     |
 | [**Répliqué**](cenumpins-clone.md)           | Fait une copie de l’énumérateur avec le même état d’énumération. |
 | [**Suivant**](cenumpins-next.md)             | Récupère un nombre spécifié de broches.                           |
-| [**Réinitialiser**](cenumpins-reset.md)           | Réinitialise la séquence d'énumération au début.               |
+| [**Initialisation**](cenumpins-reset.md)           | Réinitialise la séquence d'énumération au début.               |
 | [**Saut**](cenumpins-skip.md)             | Ignore un nombre spécifié de broches.                          |
 
 
@@ -59,7 +59,7 @@ Si le filtre crée ou détruit dynamiquement des broches, il incrémente la vers
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

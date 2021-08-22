@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 43f051bf90afa231d3b677045468f26d06d55150
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c624ac933228c769248c2980a250a9f89e9ebdaf386aeff951e70ba966311586
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537303"
 ---
 # <a name="cenummediatypesclone-method"></a>CEnumMediaTypes. Clone, méthode
 
@@ -57,7 +57,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                                | Description                                                                         |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                       | Opération réussie.<br/>                                                                 |
+| <dl> <dt>**\_OK**</dt> </dl>                       | Réussite.<br/>                                                                 |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>              | Mémoire insuffisante.<br/>                                                     |
 | <dl> <dt>**\_pointeur E**</dt> </dl>                  | Argument de pointeur **null** .<br/>                                               |
 | <dl> <dt>**VFW \_ E \_ enum \_ non \_ \_ synchronisé**</dt> </dl> | L’état du pin a changé et est désormais incohérent avec l’énumérateur.<br/> |
@@ -72,7 +72,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

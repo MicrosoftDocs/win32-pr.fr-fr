@@ -3,7 +3,7 @@ title: Media.name
 description: La propriété Name spécifie ou récupère le nom de l’élément multimédia.
 ms.assetid: 68aba78a-86fd-4411-9ac4-58f38d915e2c
 keywords:
-- Lecteur Windows Media Media.name
+- Media.name Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9de8095d88c3ddec9049e0b43461adcf5553ec74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3abe6df00b5674cfbd443a5838b208814e30c5ecf75875586907314fc3a39d9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616855"
 ---
 # <a name="medianame"></a>Media.name
 
@@ -33,7 +33,7 @@ La propriété **Name** spécifie ou récupère le nom de l’élément multimé
 
 Cette propriété est une **chaîne** en lecture/écriture contenant le nom de l’élément multimédia.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour spécifier la valeur de cette propriété, l’accès complet à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
@@ -43,7 +43,7 @@ Avant d’utiliser cette méthode pour spécifier le nom d’un élément multim
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise un *média*. **nom** pour modifier le nom de l’élément multimédia actuel. Un élément d’entrée de texte HTML nommé NameText permet à l’utilisateur d’entrer une chaîne de texte pour le nouveau nom. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise un *média*. **nom** pour modifier le nom de l’élément multimédia actuel. Un élément d’entrée de texte HTML nommé NameText permet à l’utilisateur d’entrer une chaîne de texte pour le nouveau nom. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

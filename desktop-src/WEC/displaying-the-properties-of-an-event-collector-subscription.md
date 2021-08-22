@@ -5,12 +5,12 @@ ms.assetid: 984e21cf-3671-4aca-9e8e-bcad1fa2f02c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4630bfc41ecbc0cc9372ae6bb99ce6d3184e4b6e
-ms.sourcegitcommit: 2e9db3c7d9a3dbea15196b03c883846fad6f32be
+ms.openlocfilehash: 0a39042997fd61b3e8bb96eb7fb8030d0fbe1c91d7aa84b9c1482319355db411
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103679026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620689"
 ---
 # <a name="display-event-collector-subscription-properties"></a>Afficher les propriétés de l’abonnement du collecteur d’événements
 
@@ -22,7 +22,7 @@ Vous pouvez afficher des informations utiles sur un abonnement du collecteur d�
 >
 > **wecutil GS** *SubscriptionName*
 
- 
+ 
 
 Pour afficher ses propriétés, spécifiez le nom d’un abonnement. Pour plus d’informations et pour obtenir un exemple de code C++ sur la manière de répertorier les noms des abonnements en cours sur un ordinateur local, consultez [liste des abonnements du collecteur d’événements](listing-event-collector-subscriptions.md)ou tapez la commande suivante à l’invite de commandes :
 
@@ -32,7 +32,7 @@ L’exemple de code suivant suit une procédure pour afficher les propriétés d
 
 **Pour afficher les propriétés d’un abonnement Event Collector et de ses sources d’événement**
 
-1.  Ouvrez l’abonnement en fournissant le nom de l’abonnement et les droits d’accès en tant que paramètres à la fonction [**EcOpenSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . Pour plus d’informations sur les droits d’accès, consultez [**constantes du collecteur d’événements Windows**](windows-event-collector-constants.md).
+1.  Ouvrez l’abonnement en fournissant le nom de l’abonnement et les droits d’accès en tant que paramètres à la fonction [**EcOpenSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . pour plus d’informations sur les droits d’accès, consultez [**Windows des constantes du collecteur d’événements**](windows-event-collector-constants.md).
 2.  Obtenir et afficher les propriétés de l’abonnement et des sources d’événements en appelant la fonction [**EcGetSubscriptionProperty**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionproperty) et la fonction [**EcGetObjectArrayProperty**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetobjectarrayproperty) . Pour plus d’informations sur les propriétés d’abonnement et de source d’événements qui peuvent être affichées, consultez l’énumération de l' [**\_ ID de \_ propriété \_ d’abonnement EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_property_id) .
 3.  Fermez l’abonnement en appelant la fonction [**EcClose**](/windows/desktop/api/Evcoll/nf-evcoll-ecclose) .
 
@@ -777,12 +777,12 @@ std::wstring ConvertEcSubscriptionType(DWORD code)
 [Liste des abonnements du collecteur d’événements](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Informations de référence sur le collecteur d’événements Windows](windows-event-collector-reference.md)
+[Windows Référence du collecteur d’événements](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

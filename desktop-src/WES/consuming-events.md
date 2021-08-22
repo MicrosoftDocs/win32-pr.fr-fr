@@ -1,21 +1,21 @@
 ---
-title: Consommation d’événements (Journal des événements Windows)
+title: consommation d’événements (journal des événements Windows)
 description: Vous pouvez consommer des événements à partir de canaux ou de fichiers journaux.
 ms.assetid: 17204d3f-0875-42c5-9af4-caca6349a67d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb3fb1b36a0cd4ecf836a8893bc1abc14e46451
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f131f0f3b02485c3c838e9180ea1daaebb4121b8846e5a124f36cfdb6bf377f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106513574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620379"
 ---
-# <a name="consuming-events-windows-event-log"></a>Consommation d’événements (Journal des événements Windows)
+# <a name="consuming-events-windows-event-log"></a>consommation d’événements (journal des événements Windows)
 
 Vous pouvez consommer des événements à partir de canaux ou de fichiers journaux. Pour consommer des événements, vous pouvez utiliser tous les événements ou vous pouvez spécifier une expression XPath qui identifie les événements que vous souhaitez utiliser. Pour déterminer les éléments et les attributs d’un événement que vous pouvez utiliser dans votre expression XPath, consultez [schéma d’événement](eventschema-schema.md).
 
-Le journal des événements Windows prend en charge un sous-ensemble de XPath 1,0. Pour plus d’informations sur les limitations, consultez [limitations de XPath 1,0](#xpath-10-limitations).
+Windows Le journal des événements prend en charge un sous-ensemble de XPath 1,0. Pour plus d’informations sur les limitations, consultez [limitations de XPath 1,0](#xpath-10-limitations).
 
 Les exemples suivants illustrent des expressions XPath simples.
 
@@ -85,13 +85,13 @@ Pour plus d’informations sur l’utilisation des événements, consultez les r
 
 Les outils de l’utilisateur final standard pour l’événement de consommation sont les suivants :
 
--   [Observateur d'événements](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc766042(v=ws.11))
--   L’applet de commande Windows PowerShell [-WinEvent](/previous-versions//dd367894(v=technet.10))
+-   [Observateur d’événements](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc766042(v=ws.11))
+-   applet de commande Windows PowerShell [WinEvent](/previous-versions//dd367894(v=technet.10))
 -   [**WevtUtil**](windows-event-log-tools.md)
 
 ## <a name="xpath-10-limitations"></a>Limitations de XPath 1,0
 
-Le journal des événements Windows prend en charge un sous-ensemble de XPath 1,0. La restriction principale est que seuls les éléments XML qui représentent des événements peuvent être sélectionnés par un sélecteur d’événements. Une requête XPath qui ne sélectionne pas d’événement n’est pas valide. Tous les chemins de sélecteur valides commencent par \* ou « Event ». Tous les chemins d’accès d’emplacement fonctionnent sur les nœuds d’événement et sont composés d’une série d’étapes. Chaque étape est une structure de trois parties : l’axe, le test de nœud et le prédicat. Pour plus d’informations sur ces éléments et sur XPath 1,0, consultez [XML Path Language (XPath)](https://www.w3.org/TR/xpath). Le journal des événements Windows impose les restrictions suivantes sur l’expression :
+Windows Le journal des événements prend en charge un sous-ensemble de XPath 1,0. La restriction principale est que seuls les éléments XML qui représentent des événements peuvent être sélectionnés par un sélecteur d’événements. Une requête XPath qui ne sélectionne pas d’événement n’est pas valide. Tous les chemins de sélecteur valides commencent par \* ou « Event ». Tous les chemins d’accès d’emplacement fonctionnent sur les nœuds d’événement et sont composés d’une série d’étapes. Chaque étape est une structure de trois parties : l’axe, le test de nœud et le prédicat. Pour plus d’informations sur ces éléments et sur XPath 1,0, consultez [XML Path Language (XPath)](https://www.w3.org/TR/xpath). Windows Le journal des événements impose les restrictions suivantes sur l’expression :
 
 -   Axe : seuls les axes enfant (valeur par défaut) et attribut (et son raccourci « @ ») sont pris en charge.
 -   Tests de nœud : seuls les noms de nœuds et les tests NCName sont pris en charge. Le \* caractère «», qui sélectionne n’importe quel caractère, est pris en charge.

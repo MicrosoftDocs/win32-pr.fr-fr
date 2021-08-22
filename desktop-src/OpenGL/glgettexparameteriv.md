@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ca78983594487fd22917c15a5b211c529b6b14d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1226f4096088d20851b0eab9789acf19cb84ecfac5202ff9e992c8c07ded4bb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106524826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493669"
 ---
 # <a name="glgettexparameteriv-function"></a>glGetTexParameteriv fonction)
 
@@ -89,14 +89,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | la *cible* ou le *nom* n’était pas une valeur acceptée.<br/>                                                                              |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGetTexParameter** *retourne in paramètre* la valeur ou les valeurs du paramètre de texture spécifié comme *pname*. Le paramètre *target* définit la texture cible, à savoir la texture GL \_ \_ 1D ou la \_ texture GL \_ 2D, pour spécifier une texturation unidimensionnelle ou à deux dimensions. Le paramètre *pname* accepte les mêmes symboles que [**glTexParameter**](gltexparameter-functions.md), avec les mêmes interprétations.
 

@@ -3,7 +3,7 @@ title: Événement MouseUp de l’objet AxWindowsMediaPlayer
 description: L’événement MouseUp se produit lorsque l’utilisateur relâche un bouton de la souris. | Événement MouseUp de l’objet AxWindowsMediaPlayer
 ms.assetid: 26bb6e82-d744-4770-b4de-07c9f52b76ec
 keywords:
-- Événement MouseUp de l’objet AxWindowsMediaPlayer lecteur Windows Media
+- événement MouseUp de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2bf9c209b4fa263eb0a6cbcba2a32b0b1c46fa9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10adcb3705182be7543eb1a89ea82d50cac096f3200a6341e10156de9262fa0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509439"
 ---
 # <a name="mouseup-event-of-the-axwindowsmediaplayer-object"></a>Événement MouseUp de l’objet AxWindowsMediaPlayer
 
@@ -72,7 +72,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

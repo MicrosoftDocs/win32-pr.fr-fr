@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Création et déclaration d’une instance à l’aide de C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd316975c68625383a9d2a2d1fe2fc389d30494a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 046c8c32944c7b726e09eade2701f8d35c9edb0363635eca2a16f7e3d630799a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568798"
 ---
 # <a name="creating-and-declaring-an-instance-using-c"></a>Création et déclaration d’une instance à l’aide de C++
 

@@ -4,12 +4,12 @@ ms.assetid: 70ffe06c-e72d-4bb8-a13c-e2946ff72fa6
 title: Message d’SPFILENOTIFY_FILEEXTRACTED (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efdd66c7f218e632ba817d00a6e6c9447052e350
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56b5028dec11cf2317be080fb82b79bf155be007c66abcbee33492aa229d6317
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665109"
 ---
 # <a name="spfilenotify_fileextracted-message"></a>\_Message SPFILENOTIFY FILEEXTRACTED
 
@@ -69,8 +69,8 @@ La routine de rappel du fichier cab doit retourner l’une des valeurs suivantes
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -79,7 +79,7 @@ La routine de rappel du fichier cab doit retourner l’une des valeurs suivantes
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

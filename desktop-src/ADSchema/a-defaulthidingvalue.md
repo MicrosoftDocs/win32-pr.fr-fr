@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 181487fdada61b092bd5014e0fda777e9ca7da90
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d66ae5157d82c09a8a8d9655bca58c96f5c4efc8cc8c12865ae40f6b9f8eade4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509159"
 ---
 # <a name="default-hiding-value-attribute"></a>Attribut-masquage-valeur par défaut
 
@@ -46,7 +46,7 @@ Valeur booléenne qui spécifie le paramètre par défaut de la propriété show
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

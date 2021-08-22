@@ -4,12 +4,12 @@ ms.assetid: e55db53e-ab70-42ce-b5cd-2e59a4e96b7b
 title: MFPKEY_DROPPEDFRAMES, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b31404218e4e179e19f53e30f5750976c71e0d7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c701399684b15d07ca287813cf6bf9875bab7c17261bb1ae7b9fe2bda2e5254c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663548"
 ---
 # <a name="mfpkey_droppedframes-property"></a>MFPKEY \_ propriété DROPPEDFRAMES
 
@@ -23,7 +23,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 VT \_
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les images vidéo sont parfois ignorées ou supprimées lors de l’encodage en raison de restrictions de mémoire tampon.
 
@@ -33,8 +33,8 @@ Les images vidéo sont parfois ignorées ou supprimées lors de l’encodage en 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

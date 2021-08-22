@@ -10,16 +10,16 @@ keywords:
 - API étendues clientes, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43264c37ed9830026f87998823017d17c9d75f7e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 145381cc6d702dd338176ffa89983de137285dcd7aef946d3ece956eb450880c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447839"
 ---
 # <a name="microsoft-windows-media-drm-client-structures"></a>Structures clientes DRM Microsoft Windows Media
 
-Les structures suivantes sont prises en charge par les API étendues du client Windows Media DRM.
+les structures suivantes sont prises en charge par le Windows les api étendues du Client DRM Media.
 
 
 
@@ -46,10 +46,10 @@ Les structures suivantes sont prises en charge par les API étendues du client W
 | [**\_filtre de licence WMDRM \_**](wmdrm-license-filter.md)                                      | Contient des informations de filtrage pour créer des énumérations de licence.                                                                                           |
 | [**\_niveaux de \_ protection de sortie WMDRM \_**](wmdrm-output-protection-levels.md)                 | Contient les niveaux de protection de sortie requis par une licence pour effectuer diverses actions.                                                                    |
 | [**WMDRMCryptoData**](wmdrmcryptodata.md)                                                  | Contient des informations sur l’algorithme de chiffrement utilisé pour chiffrer et déchiffrer le contenu.                                                                 |
-| [**\_stratégie WMDRMNET**](wmdrmnet-policy.md)                                                 | Contient la stratégie à utiliser pour les opérations DRM Windows Media pour les périphériques réseau.                                                                        |
-| [**\_ \_ exigences globales de la stratégie WMDRMNET \_**](wmdrmnet-policy-global-requirements.md)       | Contient les exigences globales pour Windows Media DRM pour les périphériques réseau.                                                                                        |
-| [**\_ \_ environnement minimal de la stratégie WMDRMNET \_**](wmdrmnet-policy-minimum-environment.md)       | Contient les exigences de sécurité minimales pour Windows Media DRM pour les périphériques réseau.                                                                       |
-| [**\_stratégie WMDRMNET \_ TRANSCRYPTPLAY**](wmdrmnet-policy-transcryptplay.md)                  | Contient les informations de stratégie pour la diffusion de contenu à l’aide de Windows Media DRM pour les périphériques réseau.                                                               |
+| [**\_stratégie WMDRMNET**](wmdrmnet-policy.md)                                                 | contient la stratégie à utiliser pour le Windows Media DRM pour les opérations sur les périphériques réseau.                                                                        |
+| [**\_ \_ exigences globales de la stratégie WMDRMNET \_**](wmdrmnet-policy-global-requirements.md)       | contient les exigences globales pour Windows DRM pour les périphériques réseau.                                                                                        |
+| [**\_ \_ environnement minimal de la stratégie WMDRMNET \_**](wmdrmnet-policy-minimum-environment.md)       | contient les exigences de sécurité minimales pour Windows DRM de média pour les périphériques réseau.                                                                       |
+| [**\_stratégie WMDRMNET \_ TRANSCRYPTPLAY**](wmdrmnet-policy-transcryptplay.md)                  | contient les informations de stratégie pour la diffusion de contenu à l’aide de Windows Media DRM pour les périphériques réseau.                                                               |
 
 
 

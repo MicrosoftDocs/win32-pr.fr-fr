@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IVectorChangedEventArgs.h
-ms.openlocfilehash: a843574bcaf93ec524173ba76800cc15012c89fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2476f9563b4e2a0cabf9babbcfc265ee4f3549416c2fdfda0dbb0f204b7ca9bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504809"
 ---
 # <a name="ivectorchangedeventargsget_collectionchange-method"></a>IVectorChangedEventArgs :: obten, \_ méthode CollectionChange
 
@@ -42,9 +42,9 @@ HRESULT get_CollectionChange(
 *valeur* \[ out, retval\]
 </dt> <dd>
 
-Type : **CollectionChange \** _
+Type : **CollectionChange \***
 
-Valeur de l’énumération [_ *CollectionChange* *](/uwp/api/Windows.Foundation.Collections.CollectionChange?view=winrt-19041) qui décrit la modification.
+Valeur de l’énumération [**CollectionChange**](/uwp/api/Windows.Foundation.Collections.CollectionChange?view=winrt-19041) qui décrit la modification.
 
 </dd> </dl>
 

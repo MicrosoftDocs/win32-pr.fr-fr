@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 388161572ec9c84ed46d5b40987df5fb8d1ed077
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e30ca23a0e4ab0168ff7479a5246acfb4b34e3a43bc62886d988d5f54549672b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620319"
 ---
 # <a name="xmltypelisttype-complex-type"></a>Type complexe XmlTypeListType
 
@@ -78,9 +78,9 @@ Définit une liste de types de sortie que le service utilise pour déterminer co
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le \\ fichier include \\Winmeta.xml, inclus dans le SDK Windows, contient une liste de types de sortie prédéfinis.
+le \\ fichier include \\Winmeta.xml, inclus dans le SDK Windows, contient une liste de types de sortie prédéfinis.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -88,8 +88,8 @@ Le \\ fichier include \\Winmeta.xml, inclus dans le SDK Windows, contient une li
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

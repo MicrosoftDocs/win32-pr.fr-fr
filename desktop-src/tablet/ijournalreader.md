@@ -1,5 +1,5 @@
 ---
-description: Fournit un accès en lecture à un fichier journal Windows, en retournant un flux contenant une version XML du contenu du fichier.
+description: fournit un accès en lecture à un fichier Journal Windows, en retournant un flux contenant une version XML du contenu du fichier.
 ms.assetid: e4e19f69-6377-4f06-856d-7f9b453e7656
 title: Interface IJournalReader (Journal. h)
 ms.topic: reference
@@ -13,19 +13,19 @@ api_type:
 - COM
 api_location:
 - Journal.dll
-ms.openlocfilehash: 7576996d341f13518879310f08c0a48996e1293f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff0151432e38a3e611e09efe2d5192eefb8c1d3e6cb0e79296e992b728c5a16a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590311"
 ---
 # <a name="ijournalreader-interface"></a>Interface IJournalReader
 
-Fournit un accès en lecture à un fichier journal Windows, en retournant un flux contenant une version XML du contenu du fichier.
+fournit un accès en lecture à un fichier Journal Windows, en retournant un flux contenant une version XML du contenu du fichier.
 
 > [!Note]  
-> Le composant de lecture du journal ne peut pas lire les fichiers journaux Windows créés par des ordinateurs exécutant Windows 7 ou une version ultérieure. L’interface IJournalReader doit être considérée comme dépréciée ou obsolète et ne doit pas être utilisée.
+> le composant de lecture du journal ne peut pas lire les fichiers journaux Windows créés par des ordinateurs exécutant Windows 7 ou une version ultérieure. L’interface IJournalReader doit être considérée comme dépréciée ou obsolète et ne doit pas être utilisée.
 
  
 
@@ -49,7 +49,7 @@ L’interface **IJournalReader** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **JournalReader** vous permet de charger un flux de document de journal et de recevoir un flux XML représentant le contenu. Vous pouvez reconstituer, afficher et manipuler l’encre.
 
@@ -157,7 +157,7 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                     |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                         |
 | En-tête<br/>                   | <dl> <dt>Journal. h (nécessite également le journal \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Journal.dll</dt> </dl>                            |

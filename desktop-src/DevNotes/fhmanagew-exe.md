@@ -4,18 +4,18 @@ ms.assetid: 31A6E1AC-492A-4080-9095-3180FD60A575
 title: FhManagew.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f7c7cdaa5ddba46dc2ead3e4e9a462416758e1e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bbcf8480117dd9d10bf001682bd2c789290e2cebb0369d72afe9624ea1aefd48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538739"
 ---
 # <a name="fhmanagewexe"></a>FhManagew.exe
 
 Le programme FhManagew.exe supprime les versions de fichiers qui dépassent un âge spécifié de l’appareil cible de l’historique des fichiers actuellement attribué.
 
-Ce programme est disponible dans Windows 8 et Windows Server 2012 et versions ultérieures.
+ce programme est disponible dans Windows 8 et Windows Server 2012 et versions ultérieures.
 
 Pour exécuter ce programme, accédez au menu **Démarrer** , cliquez sur **exécuter**, puis tapez la commande suivante.
 

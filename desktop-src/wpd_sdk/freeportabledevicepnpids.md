@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 58bb5fa33007ed0e167226edf7078d08c2e5c3de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 150796912d2796a2697d3c088963c20e1523288f5a1301e9467a6859845db68c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590312"
 ---
 # <a name="freeportabledevicepnpids-function"></a>FreePortableDevicePnPIDs fonction)
 
@@ -58,7 +58,7 @@ Nombre d’identificateurs dans le tableau spécifié par le paramètre *pPnPIDs
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application est chargée de libérer le tableau de pointeurs qu’elle alloue.
 
@@ -90,7 +90,7 @@ if (pPnpDeviceIDs != NULL)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                   |
 | En-tête<br/>                   | <dl> <dt>PortableDevice. h</dt> </dl> |
 

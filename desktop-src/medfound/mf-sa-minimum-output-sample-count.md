@@ -4,12 +4,12 @@ ms.assetid: 53D393B4-BFF1-430F-9CD1-5071336E6F04
 title: Attribut MF_SA_MINIMUM_OUTPUT_SAMPLE_COUNT (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf168158fd6a5f9a173d4d5d25dda3fa5b16d2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79a7d00fcb5a11d756ed4848e3e600a6fd1cca32203ff7234cb01963dfcb5149
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663909"
 ---
 # <a name="mf_sa_minimum_output_sample_count-attribute"></a>\_Attribut de \_ nombre minimal d' \_ échantillons de sortie MF \_ sa \_
 
@@ -19,7 +19,7 @@ Spécifie le nombre maximal d’échantillons de sortie qu’une Microsoft Media
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique uniquement à MFTs qui utilisent une mémoire tampon circulaire pour allouer leurs propres exemples de sortie. Les autres MFTs ignorent cet attribut.
 
@@ -34,8 +34,8 @@ Pour définir cet attribut :
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

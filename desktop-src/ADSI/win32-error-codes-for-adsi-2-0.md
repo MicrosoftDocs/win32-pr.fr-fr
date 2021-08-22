@@ -7,12 +7,12 @@ keywords:
 - Codes d’erreur Win32 pour ADSI 2,0 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e079fa6a98df28625f6307f774ce194712a52a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ea81b4d277ad43cb2278d23549e370df1d11b3058be1e9c8b0f8b9329eabe26e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589749"
 ---
 # <a name="win32-error-codes-for-adsi-20"></a>Codes d’erreur Win32 pour ADSI 2,0
 
@@ -75,13 +75,13 @@ Le tableau suivant répertorie les messages d’erreur LDAP pour ADSI 2,0.
 
 
 
- 
+ 
 
 Dans ADSI 2,0, plusieurs messages d’erreur LDAP sont mappés à un code d’erreur Win32 en tant qu’erreur **étendue d’erreur \_ \_**. Appelez [**ADsGetLastError**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetlasterror) pour récupérer la chaîne d’erreur retournée par le serveur. Pour plus d’informations, consultez [les messages d’erreur étendus ADSI](adsi-extended-error-messages.md) ci-dessous.
 
- 
+ 
 
- 
+ 
 
 
 

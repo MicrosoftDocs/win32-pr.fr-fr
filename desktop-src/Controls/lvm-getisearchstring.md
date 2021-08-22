@@ -3,7 +3,7 @@ title: Message LVM_GETISEARCHSTRING (commctrl. h)
 description: Récupère la chaîne de recherche incrémentielle d’un contrôle List-View. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView GetISearchString.
 ms.assetid: e953c4a0-0556-4987-8abf-3276e787fe49
 keywords:
-- LVM_GETISEARCHSTRING les contrôles de message Windows
+- LVM_GETISEARCHSTRING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9040cf96c5c483b29764b1ccfb67e0e4fff3f897
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d612a6c1ba303bc08b6d5067ccb4dd3802354456159e3aea4120bd122348e74f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540819"
 ---
 # <a name="lvm_getisearchstring-message"></a>\_Message GETISEARCHSTRING LVM
 
@@ -45,9 +45,9 @@ Pointeur vers une mémoire tampon qui reçoit la chaîne de recherche incrément
 
 Retourne le nombre de caractères de la chaîne de recherche incrémentielle, à l’exclusion du caractère NULL de fin, ou zéro si le contrôle de liste n’est pas en mode de recherche incrémentielle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-**Avertissement de sécurité :** L’utilisation incorrecte de ce message peut compromettre la sécurité de votre programme. Ce message n’offre aucun moyen de connaître la taille de la mémoire tampon. Si vous utilisez ce message, appelez tout d’abord le message qui passe **null** dans *lParam*, ce qui renvoie le nombre de caractères, à l’exception de la **valeur null** requise. Ensuite, appelez le message une seconde fois pour récupérer la chaîne. Vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
+**Avertissement de sécurité :** L’utilisation incorrecte de ce message peut compromettre la sécurité de votre programme. Ce message n’offre aucun moyen de connaître la taille de la mémoire tampon. Si vous utilisez ce message, appelez tout d’abord le message qui passe **null** dans *lParam*, ce qui renvoie le nombre de caractères, à l’exception de la **valeur null** requise. Ensuite, appelez le message une seconde fois pour récupérer la chaîne. vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
 
 La *chaîne de recherche incrémentielle* correspond à la séquence de caractères que l’utilisateur tape lorsque l’affichage de liste a le focus d’entrée. Chaque fois que l’utilisateur tape un caractère, le système ajoute le caractère à la chaîne de recherche, puis recherche un élément correspondant. Si le système trouve une correspondance, il sélectionne l’élément et, si nécessaire, le fait défiler dans la vue.
 
@@ -61,8 +61,8 @@ Assurez-vous que la mémoire tampon est suffisamment grande pour contenir la cha
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVM \_ GETISEARCHSTRINGW** (Unicode) et **LVM \_ GETISEARCHSTRINGA** (ANSI)<br/> |
 

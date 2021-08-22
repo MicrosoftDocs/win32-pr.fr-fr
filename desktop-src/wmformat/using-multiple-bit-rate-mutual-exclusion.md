@@ -9,18 +9,18 @@ keywords:
 - profils, débit binaire multiple (MBR)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be77c7615845d10d07982676dfdb4dc8c617cebe
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c31c7954f6aa5098f6cc221a7a761428ff15fd6a4c2c0a6e5c8cea2b6622a84b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119446969"
 ---
 # <a name="using-multiple-bit-rate-mutual-exclusion"></a>Utilisation de l’exclusion mutuelle à vitesse de transmission multiple
 
 L’exclusion mutuelle à vitesse de transmission multiple (MBR) est utile lorsque vous souhaitez encoder du contenu pour un large éventail de scénarios de lecture. Une sortie vidéo MBR se compose d’une seule entrée encodée plusieurs fois, chacune avec des paramètres de vitesse de transmission différents. Lorsqu’un fichier avec l’encodage MBR est lu, le lecteur détermine le flux à utiliser en fonction de la bande passante disponible.
 
-Le kit de développement logiciel (SDK) Windows Media format prend en charge l’encodage MBR pour les flux vidéo et audio. En outre, vous pouvez créer un type spécial d’encodage MBR appelé encodage MBR de taille vidéo multiple. Des fonctions vidéo MBR de taille multiple vidéo sont identiques à la vidéo MBR normale, sauf que vous pouvez spécifier différentes tailles d’image pour les flux vidéo dans l’exclusion mutuelle.
+le kit de développement logiciel (SDK) Windows Media Format prend en charge l’encodage MBR pour les flux vidéo et audio. En outre, vous pouvez créer un type spécial d’encodage MBR appelé encodage MBR de taille vidéo multiple. Des fonctions vidéo MBR de taille multiple vidéo sont identiques à la vidéo MBR normale, sauf que vous pouvez spécifier différentes tailles d’image pour les flux vidéo dans l’exclusion mutuelle.
 
 L’exemple suivant montre comment configurer un profil pour une vidéo MBR avec plusieurs tailles vidéo. Il crée un nouveau profil avec trois flux vidéo de tailles et de tailles binaires variables, et les intègre dans un objet d’exclusion mutuelle.
 
@@ -164,9 +164,9 @@ pProfileMgr = NULL;
 [**\_type de média WM \_**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

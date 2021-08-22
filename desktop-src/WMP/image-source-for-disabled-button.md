@@ -3,19 +3,19 @@ title: Source de l’image pour le bouton désactivé
 description: Source de l’image pour le bouton désactivé
 ms.assetid: 6c50e0bd-c174-4335-8d34-ae25feec9ec6
 keywords:
-- Apparences mobiles du lecteur Windows Media, source de l’image du bouton
+- Lecteur Windows Media Skins mobiles, source d’image de bouton
 - apparences, source de l’image du bouton
 - informations de référence sur les apparences, les boutons
 - boutons dans les apparences, source d’image
 - source d’image pour les apparences, boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d05ccd0362f3dd11acec71eaf0b92574f2c27c77
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 071a3b31a25eb40d82d33f241a6eaebf690fe11aa2128528739a7e7bbb4dc217
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509259"
 ---
 # <a name="image-source-for-disabled-button"></a>Source de l’image pour le bouton désactivé
 
@@ -50,9 +50,9 @@ Dans l’exemple précédent, 50, 60 correspond à l’emplacement du bouton que
 [**Boutons**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

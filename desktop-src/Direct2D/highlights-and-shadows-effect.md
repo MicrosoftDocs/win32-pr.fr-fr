@@ -4,12 +4,12 @@ description: Ajuste les clairs et les ombres de l’image.
 ms.assetid: ebbb7d99-9144-ffff-af73-d89e7d269924
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d595a5b82a2df0b0b0bab14c03e6a807511ed61
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3335de3bc6b115221c1a2a343cac9c5c5154a6d868c9fa8f63b2cfa719e287c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104559429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569612"
 ---
 # <a name="highlights-and-shadows-effect"></a>Effets des tons clairs et des ombres
 
@@ -20,7 +20,7 @@ Le CLSID de cet effet est CLSID \_ D2D1HighlightsShadows.
 -   [Exemple d’image](#example-image)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -53,8 +53,8 @@ Les propriétés de l’effet des tons clairs et des tons foncés sont définies
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
+| Client minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
+| Serveur minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 2. h                                  |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                              |
 

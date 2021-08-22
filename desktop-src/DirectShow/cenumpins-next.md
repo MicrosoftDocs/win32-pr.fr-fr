@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 612dcd638939b34803b7296babf7445a07cdad22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 683b8eb5beb9946db7f37d4db53a84c96d5bff7fc91fa4864020fffde5554824
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567079"
 ---
 # <a name="cenumpinsnext-method"></a>CEnumPins. Next, méthode
 
@@ -74,7 +74,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                                                | Description                                                                            |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>                    | N’a pas récupéré autant de codes confidentiels que nécessaire.<br/>                                 |
-| <dl> <dt>**\_OK**</dt> </dl>                       | Opération réussie.<br/>                                                                    |
+| <dl> <dt>**\_OK**</dt> </dl>                       | Réussite.<br/>                                                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>               | Argument non valide.<br/>                                                           |
 | <dl> <dt>**\_pointeur E**</dt> </dl>                  | Argument de pointeur **null** .<br/>                                                  |
 | <dl> <dt>**VFW \_ E \_ enum \_ non \_ \_ synchronisé**</dt> </dl> | L’état du filtre a changé et est désormais incohérent avec l’énumérateur.<br/> |
@@ -83,7 +83,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode récupère les pointeurs vers le nombre spécifié de broches, en démarrant à la position actuelle dans l’énumération, et les place dans le tableau spécifié.
 
@@ -97,7 +97,7 @@ Si la méthode est réussie, les pointeurs **IPIN** ont tous des décomptes de r
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

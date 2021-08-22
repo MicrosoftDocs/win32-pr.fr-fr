@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cf4a4f4bb798a1a93e9d3e31c66b9245a868afd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fecb1cad302b4a302c5079f2af3dd72158d4b98ce57794b8f080a8919b9cad5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493439"
 ---
 # <a name="glindexiv-function"></a>glIndexiv fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers un tableau d’un élément qui contient la nouvelle valeur pour l
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glIndexiv** met à jour l’index de couleurs actuel (à valeur unique). Il accepte un argument : la nouvelle valeur pour l’index de couleur actuel.
 

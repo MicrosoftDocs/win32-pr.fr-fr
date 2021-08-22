@@ -5,12 +5,12 @@ ms.assetid: ed64c0bd-3d55-48c4-83b8-771025f3582a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c57d86384f2df83453b8f6384dee1c5958c51f4
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: 4315e274df16ba3d8b380c7a8386eea0fdc72aec1faba97807546f971a92d324
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "104030700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644206"
 ---
 # <a name="linked-attributes-ad-schema"></a>Attributs liés (schéma Active Directory)
 
@@ -454,7 +454,7 @@ Voici les attributs liés définis par Active Directory.
 [**ms-DS-claim-parts-possibles-values-with**](a-msds-claimsharespossiblevalueswith.md)  
 [**ms-DS-claim-shares-possibles-values-with-BL**](a-msds-claimsharespossiblevalueswithbl.md)  
 [**ms-DS-claim-type-s’applique à classe**](a-msds-claimtypeappliestoclass.md)  
-[**ms-DS-sortie-revendications-transformation-stratégie**](a-msds-egressclaimstransformationpolicy.md)  
+[**ms-DS-Egress-revendications-Transformation-stratégie**](a-msds-egressclaimstransformationpolicy.md)  
 [**Fonctionnalité ms-DS-Enabled**](a-msds-enabledfeature.md)  
 [**ms-DS-fonctionnalité-BL**](a-msds-enabledfeaturebl.md)  
 [**ms-DS-a-Domain-NC**](a-msds-hasdomainncs.md)  
@@ -500,7 +500,7 @@ Voici les attributs liés définis par Active Directory.
 [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)  
 [**ms-DS-tâches-pour-AZ-Task**](a-msds-tasksforaztask.md)  
 [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)  
-[**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)  
+[**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)  
 [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)  
 [**ms-DS-value-type-référence**](a-msds-valuetypereference.md)  
 [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)  
@@ -536,9 +536,9 @@ Voici les attributs liés définis par Active Directory.
 [**Modèle-Roots2**](a-templateroots2.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

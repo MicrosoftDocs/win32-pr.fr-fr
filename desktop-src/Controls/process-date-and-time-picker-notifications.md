@@ -4,27 +4,27 @@ description: Cette section montre comment traiter les notifications de sélecteu
 ms.assetid: DBF624F0-89E0-435B-BE96-60B7A4CEDA61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffa1214ebd671b4ae222990bde4b44586e6d7b11
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 81846d22f3c946d1bfdf661823429fd092b78647cf0ebcb0d683d2600ddcaf17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540478"
 ---
 # <a name="how-to-process-date-and-time-picker-notifications"></a>Comment traiter les notifications de sélecteur de date et d’heure
 
 Cette section montre comment traiter les notifications de sélecteur de date et d’heure.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

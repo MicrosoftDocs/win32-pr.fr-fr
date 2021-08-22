@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ad55a4e5b8230c7be67327a3cc4bd352a1d7787
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 74b2bd019be56b8fd5f6cb508ee39908e45d60b092e9256a31f68a637184868f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106512828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508789"
 ---
 # <a name="mssfu-30-yp-servers-attribute"></a>attribut msSFU-30-YP-Servers
 
@@ -43,7 +43,7 @@ Contient une liste de serveurs NIS dans un domaine NIS.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

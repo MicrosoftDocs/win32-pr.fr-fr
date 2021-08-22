@@ -4,12 +4,12 @@ description: Déclaration de la classe CGuiPaper
 ms.assetid: b772d056-bf89-46a8-9462-21772cf96dfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 269694b83804f3e85cd8654cd2a1be843396a2ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d684618eea78247b94ed03223cfce45d2cc713f5507b1e290731d3451212b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663519"
 ---
 # <a name="cguipaper-class-declaration"></a>Déclaration de la classe CGuiPaper
 
@@ -87,9 +87,9 @@ Le membre **m \_ nLockKey** est utilisé pour prendre en charge un modèle de ve
 
 Le membre **m \_ pPapFile** contient un pointeur vers un objet [**CPapFile**](cpapfile-class-and-methods.md) . Il s’agit d’un objet C++ qui encapsule les opérations de chargement et d’enregistrement sur un fichier composé de stockage structuré. **CPapFile** fonctionne avec l’objet du coarticle basé sur le serveur sous-jacent pour charger et enregistrer les données de dessin du plan.
 
- 
+ 
 
- 
+ 
 
 
 

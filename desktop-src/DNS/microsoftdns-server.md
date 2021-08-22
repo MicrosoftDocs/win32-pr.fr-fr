@@ -67,12 +67,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 854a90f5b0fa4d331bd0478d104e50dd70b0cd65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c4a42432a11b5cde0df657ba2a9725a68d76a055fce3787bce56c10dfd227ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539269"
 ---
 # <a name="microsoftdns_server-class"></a>\_Classe de serveur MicrosoftDNS
 
@@ -194,7 +194,7 @@ Spécifie si le serveur DNS accepte les demandes de mise à jour dynamiques. Les
 
 | Valeur                                                                                                | Signification                                                                                               |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Aucune restriction.<br/>                                                                           |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Aucune restriction.<br/>                                                                           |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | N’autorise pas les mises à jour dynamiques des enregistrements SOA.<br/>                                             |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | N’autorise pas les mises à jour dynamiques des enregistrements NS à la racine de la zone.<br/>                             |
 | <span id="4"></span><dl> <dt>**4**</dt> </dl> | N’autorise pas les mises à jour dynamiques des enregistrements NS qui ne se trouvent pas à la racine de la zone (enregistrements NS de délégation).<br/> |
@@ -235,7 +235,7 @@ Indique quelles zones principales standard faisant autorité pour le nom du serv
 
 | Valeur                                                                                                | Signification                                                    |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Aucun<br/>                                           |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Aucun.<br/>                                           |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Uniquement les serveurs qui autorisent les mises à jour dynamiques.<br/>        |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Seuls les serveurs qui n’autorisent pas les mises à jour dynamiques.<br/> |
 | <span id="4"></span><dl> <dt>**4**</dt> </dl> | Tous les serveurs.<br/>                                    |
@@ -280,7 +280,7 @@ Méthode d’initialisation pour le serveur DNS. Le tableau ci-dessous répertor
 
 | Valeur                                                                                                | Signification                                      |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Non initialisé.<br/>                    |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Non initialisé.<br/>                    |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Démarrez à partir du fichier.<br/>                   |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Démarrage à partir du Registre.<br/>               |
 | <span id="3"></span><dl> <dt>**3**</dt> </dl> | Démarrez à partir du répertoire et du Registre.<br/> |
@@ -440,7 +440,7 @@ Spécifie si le serveur DNS comprend des enregistrements de ressource spécifiqu
 
 | Valeur                                                                                                | Signification                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Aucun enregistrement DNSSEC n’est inclus dans la réponse, sauf si la requête a demandé un jeu d’enregistrements de ressources du type d’enregistrement DNSSEC.<br/>          |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Aucun enregistrement DNSSEC n’est inclus dans la réponse, sauf si la requête a demandé un jeu d’enregistrements de ressources du type d’enregistrement DNSSEC.<br/>          |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Les enregistrements DNSSEC sont inclus dans la réponse conformément à la norme RFC 2535.<br/>                                                                  |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Les enregistrements DNSSEC sont inclus dans une réponse uniquement si la requête du client d’origine contenait l’enregistrement de ressource OPT conformément à la norme RFC 2671<br/> |
 
@@ -480,7 +480,7 @@ Indique les événements que le serveur DNS enregistre dans le journal système 
 
 | Valeur                                                                                                | Signification                                  |
 |------------------------------------------------------------------------------------------------------|------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Aucun<br/>                         |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Aucun.<br/>                         |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Consigner uniquement les erreurs.<br/>              |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Consigne uniquement les avertissements et les erreurs.<br/> |
 | <span id="4"></span><dl> <dt>**4**</dt> </dl> | Consigner tous les événements.<br/>               |
@@ -720,7 +720,7 @@ Indique l’ensemble de caractères éligibles à utiliser dans les noms DNS. Le
 
 | Valeur                                                                                                | Signification                      |
 |------------------------------------------------------------------------------------------------------|------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | RFC strict (ANSI)<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | RFC strict (ANSI)<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Non RFC (ANSI)<br/>    |
 | <span id="3"></span><dl> <dt>**3**</dt> </dl> | Multioctet (UTF8)<br/>  |
 
@@ -805,7 +805,7 @@ Protocole RPC ou protocoles sur lesquels l’appel RPC d’administration s’ex
 
 | Valeur                                                                                                | Signification                |
 |------------------------------------------------------------------------------------------------------|------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Aucun<br/>        |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Aucun<br/>        |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | TCP<br/>         |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Canaux nommés<br/> |
 | <span id="4"></span><dl> <dt>**4**</dt> </dl> | LPC<br/>         |

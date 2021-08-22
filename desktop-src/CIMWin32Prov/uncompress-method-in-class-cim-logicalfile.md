@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a2cde35ade1b1e8cbb3705a4c2f1b08f943139c5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 268b30348ac7cb05d99e4f44dc36b6f887adb05a4d0238f2dd9632549360be78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642939"
 ---
 # <a name="uncompress-method-of-the-cim_logicalfile-class"></a>Méthode decompress de la \_ classe CIM LogicalFile
 
@@ -105,12 +105,12 @@ Le système de fichiers n’est pas NTFS.
 
 </dd> <dt>
 
-**Plateforme non NT/Windows 2000**
+**plateforme non NT/Windows 2000**
 </dt> <dd>
 
 12
 
-Plateforme non basée sur Windows NT.
+La plateforme n’est pas Windows basée sur NT.
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

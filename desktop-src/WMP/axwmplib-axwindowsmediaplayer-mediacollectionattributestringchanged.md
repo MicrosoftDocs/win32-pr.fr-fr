@@ -3,7 +3,7 @@ title: Événement MediaCollectionAttributeStringChanged de l’objet AxWindowsM
 description: L’événement MediaCollectionAttributeStringChanged se produit lorsqu’une valeur d’attribut de la bibliothèque est modifiée. | Événement MediaCollectionAttributeStringChanged de l’objet AxWindowsMediaPlayer
 ms.assetid: f5b91399-42b7-4202-9b65-caa9b15847b9
 keywords:
-- Événement MediaCollectionAttributeStringChanged de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement MediaCollectionAttributeStringChanged de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b83d8036ca0dca7f79e2a9ba721830447f9c5a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5dcc755d1a183525923b91ce2de7937860582c3cf795d13cbf4a8c22d7c9c37f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618779"
 ---
 # <a name="mediacollectionattributestringchanged-event-of-the-axwindowsmediaplayer-object"></a>Événement MediaCollectionAttributeStringChanged de l’objet AxWindowsMediaPlayer
 
@@ -47,7 +47,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 | Propriété         | Description                                                                                                                                                                                  |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| bstrAttribName   | System. StringSpecifies nom de l’attribut. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).<br/> |
+| bstrAttribName   | System. StringSpecifies nom de l’attribut. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).<br/> |
 | bstrOldAttribVal | System. StringSpecifies l’ancienne valeur de l’attribut.<br/>                                                                                                                            |
 | bstrNewAttribVal | System. StringSpecifies nouvelle valeur de l’attribut.<br/>                                                                                                                            |
 
@@ -55,7 +55,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand un utilisateur modifie des métadonnées de bibliothèque, la collection de supports est mise à jour et cet événement se déclenche pour chaque attribut modifié.
 
@@ -75,7 +75,7 @@ Quand un utilisateur modifie des métadonnées de bibliothèque, la collection d
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**AxWindowsMediaPlayer. mediaCollection (VB et C#)**](axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md)

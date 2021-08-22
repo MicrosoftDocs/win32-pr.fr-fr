@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 1af5b8637a197973bca2129a8b8a0198d20248eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e242fb17bfd80826b4bd165a2008789a2df7e478e5f526342bcbbe17ddf9d081
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537019"
 ---
 # <a name="ec_dvd_sprm_change"></a>\_Modification de \_ SPRM de DVD EC \_
 
@@ -42,7 +42,7 @@ Les 16 bits inférieurs contiennent la nouvelle valeur SPRM.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est désactivé par défaut. Pour activer cet événement, appelez [**IDvdControl2 :: SetOption**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) et affectez à l’option **DVD \_ EnableLoggingEvents** la **valeur true**.
 
@@ -66,7 +66,7 @@ Cet événement est désactivé par défaut. Pour activer cet événement, appel
 [Codes de notification des événements DVD](dvd-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
 [**IDvdInfo2::GetAllSPRMs**](/windows/desktop/api/Strmif/nf-strmif-idvdinfo2-getallsprms)

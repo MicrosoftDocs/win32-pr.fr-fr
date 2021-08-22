@@ -3,7 +3,7 @@ title: Attribut AcquisitionTimeYearMonth
 description: L’attribut AcquisitionTimeYearMonth est la partie année et mois de la date et de l’heure auxquelles l’élément a été ajouté à la bibliothèque.
 ms.assetid: 9fed9c82-5807-4dc8-87f8-c97254e7d9dc
 keywords:
-- Attribut AcquisitionTimeYearMonth lecteur Windows Media
+- Lecteur Windows Media de l’attribut AcquisitionTimeYearMonth
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b900a15e67b31482278558ab4ed16a364f04d5b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 84ab384dcbdf6bb704a3e8477a76ad40f1952d14de7bb793046b1f83079fefb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619159"
 ---
 # <a name="acquisitiontimeyearmonth-attribute"></a>Attribut AcquisitionTimeYearMonth
 
@@ -32,7 +32,7 @@ L’attribut **AcquisitionTimeYearMonth** est la partie année et mois de la dat
 -   [Éléments radio](radio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

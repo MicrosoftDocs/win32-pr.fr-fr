@@ -3,9 +3,9 @@ title: Méthode Media. getMarkerTime
 description: La méthode getMarkerTime récupère l’heure du marqueur au niveau de l’index spécifié.
 ms.assetid: c3e6bead-2831-4d84-9d13-dcb865efe472
 keywords:
-- méthode getMarkerTime lecteur Windows Media
-- méthode getMarkerTime lecteur Windows Media, classe multimédia
-- Classe multimédia lecteur Windows Media, méthode getMarkerTime
+- Lecteur Windows Media de la méthode getMarkerTime
+- méthode getMarkerTime Lecteur Windows Media, classe multimédia
+- Lecteur Windows Media de classe de média, méthode getMarkerTime
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4398f89055a1996acb3f921d33c7675e52100ddd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f90d1382302e4a053a6dee4dac911d2cc0c0aa67066469c8143f6f38b3bd889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508409"
 ---
 # <a name="mediagetmarkertime-method"></a>Méthode Media. getMarkerTime
 
@@ -53,7 +53,7 @@ retVal = Media.getMarkerTime(
 
 Cette méthode retourne un **nombre** (**double**) qui spécifie l’emplacement du marqueur, en secondes, à partir du début du clip.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne la **valeur null** si le marqueur spécifié n’existe pas.
 
@@ -65,7 +65,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise un *média*. **getMarkerTime** pour remplir un élément textarea html nommé MTIMES avec l’emplacement de chaque marqueur. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise un *média*. **getMarkerTime** pour remplir un élément textarea html nommé MTIMES avec l’emplacement de chaque marqueur. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

@@ -5,12 +5,12 @@ ms.assetid: eaeb6cfd-de62-46f1-972d-a11e0ccc11d9
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 979281fb7fa6e034894bffaecbd6246fe8a9aa94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0c2258938020593014b5b6f5ea77516e7770f8589601cf4139971b3532b22fff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569343"
 ---
 # <a name="how-to-clip-to-a-geometric-mask"></a>Comment découper un masque géométrique
 
@@ -64,9 +64,9 @@ SafeRelease(&pSink);
 Appelez [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) pour créer une couche.
 
 > [!Note]  
-> À compter de Windows 8, vous n’avez pas besoin d’appeler [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)). Dans la plupart des cas, les performances sont meilleures si vous n’appelez pas cette méthode et que Direct2D gère les ressources de couche.
+> à partir de Windows 8, vous n’avez pas besoin d’appeler [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)). Dans la plupart des cas, les performances sont meilleures si vous n’appelez pas cette méthode et que Direct2D gère les ressources de couche.
 
- 
+ 
 
 Appelez [**PushLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) avec le masque Geometry pour pousser la couche. Dessinez le contenu sur clip, puis appelez [**PopLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer) pour dépiler la couche. Cela produit le dessin en forme d’étoile. Le code suivant montre comment procéder.
 
@@ -121,6 +121,6 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 [Référence Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

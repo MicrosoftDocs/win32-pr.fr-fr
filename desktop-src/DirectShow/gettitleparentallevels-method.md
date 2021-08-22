@@ -4,17 +4,17 @@ ms.assetid: 076808d7-6cb6-4d81-b26d-c7945db298f2
 title: Méthode GetTitleParentalLevels
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db82ca21c2fdd023aa472e4c3428260464a8612
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 88ef462767c280f5e6f1c58679a78ee876e58042dce632f30711c198b4ca574a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119536669"
 ---
 # <a name="gettitleparentallevels-method"></a>Méthode GetTitleParentalLevels
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -39,7 +39,7 @@ Spécifie le titre sous la forme d’un entier.
 
 Retourne une valeur entière dont les bits indiquent les niveaux de gestion du contrôle parental (PML) qui sont définis dans le titre spécifié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un titre peut avoir des chapitres, voire des segments courts, qui ont un PML différent de la PML globale pour le titre. Utilisez cette méthode pour déterminer tous les PMLs qui seront rencontrés lors de la diffusion d’un titre spécifié. L’entier retourné est un jeu d’indicateurs binaires définis comme indiqué dans le tableau ci-dessous. Effectuez une opération and au niveau du bit sur *iLevels* et chaque valeur possible. Si l’opération retourne la **valeur true**, cela signifie que PML sera rencontré à un moment donné dans ce titre.
 
