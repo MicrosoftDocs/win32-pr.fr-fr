@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a036ba5db5b86ab7c186b25e4d858b1badc60bd0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a5c773379e3b7fa52e2095d8db676dddc081e51806fd8f615d2b3a4b744fea95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706749"
 ---
 # <a name="third-party-security-support-providers-with-credential-guard"></a>Fournisseurs de support de sécurité tiers avec Credential Guard
 
@@ -24,6 +24,6 @@ La profondeur et l’étendue des protections fournies par Credential Guard év
 
 Reportez-vous à [cet article](/windows/security/identity-protection/credential-guard/credential-guard) pour obtenir la description complète et les atténuations recommandées.
 
- 
+ 
 
- 
+ 

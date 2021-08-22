@@ -4,7 +4,7 @@ description: Type de limite de persistance.
 ms.assetid: 57423110-7966-4240-8B15-1859D3D9EA4C
 keywords:
 - MP_PERSISTENCE_LIMIT_TYPE énumération des fonctionnalités d’environnement Windows héritées
-- PMP_PERSISTENCE_LIMIT_TYPE des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMP_PERSISTENCE_LIMIT_TYPE de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fb52bc6ee630590ca189b88c1fdde5a30e17747
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2a56d4962467abe0ad338af257aca2581e612c100468fbdf2853aa4d71290ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608999"
 ---
 # <a name="mp_persistence_limit_type-enumeration"></a>\_ \_ Énumération de type limite de persistance de point de gestion \_
 
@@ -94,8 +94,8 @@ Obligation.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

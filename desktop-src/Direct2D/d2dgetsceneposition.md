@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ace0ee4d60f8c140825e41ba47de941bca09e67c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fbcd7a1ee987cf64a92aa76b0f8910bee1c9a15465872bbd3ccfe2502629f700
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641639"
 ---
 # <a name="d2dgetsceneposition-function"></a>D2DGetScenePosition fonction)
 
@@ -39,7 +39,7 @@ Cette fonction n’a pas de paramètres.
 
 La fonction retourne un **float4** au format position de la scène \_ .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’exemple suivant illustre l’utilisation de la fonction dans la génération d’un modèle de dissolution.
 

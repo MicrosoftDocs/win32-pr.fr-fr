@@ -4,19 +4,19 @@ description: Eqn VML (attribut)
 ms.assetid: b2c41bad-2f83-4280-9441-33206d8dc1b7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8da00084a825147c6f8a05f503e5ee2679f40e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ae5872c29064f24a10b4a12c0d0e2a4ca4a200f79e295d60713fe56355f23aa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655449"
 ---
 # <a name="vml-eqn-attribute"></a>Eqn VML (attribut)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
  
 
@@ -53,14 +53,14 @@ Le tableau ci-dessous définit les formules qui peuvent être utilisées avec le
 
 | Opération | Paramètres | Exact  | Résultats                    | Description                                                                    |
 |-----------|--------|--------|---------------------------|--------------------------------------------------------------------------------|
-| multiples       | 1      | Oui    | v                         | Définit une valeur de repère à partir d’une autre valeur.                                   |
-| Sum       | 3      | Oui    | v + P1-P2               | Utilisé pour l’addition et la soustraction.                                             |
+| multiples       | 1      | oui    | v                         | Définit une valeur de repère à partir d’une autre valeur.                                   |
+| Sum       | 3      | oui    | v + P1-P2               | Utilisé pour l’addition et la soustraction.                                             |
 | product   | 3      | arrondit | v \* P1/P2              | Utilisé pour la multiplication et la Division.                                          |
 | mid       | 2      | secteur    | (v + P1)/2               | Moyenne.                                                                       |
-| abs       | 1      | Oui    | ABS (v)                    | Valeur absolue.                                                                |
-| minute(s)       | 2      | Oui    | min (v, P1)                 | Valeur inférieure de v et P1.                                                  |
-| max       | 2      | Oui    | Max (v, P1)                 | Valeur supérieure de v et P1.                                                 |
-| if        | 3      | Oui    | v > 0 ? P1 : P2        | Test conditionnel.                                                           |
+| abs       | 1      | oui    | ABS (v)                    | Valeur absolue.                                                                |
+| minute(s)       | 2      | oui    | min (v, P1)                 | Valeur inférieure de v et P1.                                                  |
+| max       | 2      | oui    | Max (v, P1)                 | Valeur supérieure de v et P1.                                                 |
+| if        | 3      | oui    | v > 0 ? P1 : P2        | Test conditionnel.                                                           |
 | mod       | 3      | non     | sqrt (v ^ 2 + P1 ^ 2 + P2 ^ 2)   | Valeur de modulo.                                                                 |
 | atan2     | 2      | non     | atan2 (P1, v)               | Valeur polaire en degrés \* 2 ^ 16 (unités FD).                                     |
 | sin       | 2      | non     | \*Sin (P1)              | Sin, argument dans les degrés \* 2 ^ 16 (FD [Units](msdn-online-vml-units.md) ).     |
@@ -68,7 +68,7 @@ Le tableau ci-dessous définit les formules qui peuvent être utilisées avec le
 | cosatan2  | 3      | non     | v \* Co (atan2 (P2, P1))    | Préserve la précision complète dans le calcul intermédiaire.                           |
 | sinatan2  | 3      | non     | v \* Sin (atan2 (P2, P1))    | Préserve la précision complète dans le calcul intermédiaire.                           |
 | sqrt      | 1      | non     | sqrt (v)                   | Le résultat est positif et arrondit à la valeur inférieure.                                            |
-| sumangle  | 3      | Oui    | v + P1 \* 2 ^ 16 + P2 \* 2 ^ 16 | v mis à l’échelle de 2 ^ 16 ; P1 et P2 sont des degrés.<br/>                            |
+| sumangle  | 3      | oui    | v + P1 \* 2 ^ 16 + P2 \* 2 ^ 16 | v mis à l’échelle de 2 ^ 16 ; P1 et P2 sont des degrés.<br/>                            |
 | ellipse   | 3      | non     | \*racine P2 (1-(v/P1) ^ 2)    | Es.                                                                       |
 | tan       | 2      | non     | v \* brun (P1)              | Tangente, argument dans les degrés \* 2 ^ 16 (FD [Units](msdn-online-vml-units.md) ). |
 

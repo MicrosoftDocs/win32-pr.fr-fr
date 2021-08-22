@@ -17,12 +17,12 @@ api_location:
 - KernelBase.dll
 - MinKernelBase.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: 3e0c1596603ef7c0d13362c2608cc59b88d366fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bdae4682bcbabb09778bdf5f5d3421c16af17587eda72813c9103eb16f7037f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582549"
 ---
 # <a name="cancelsynchronousio-function"></a>CancelSynchronousIo fonction)
 
@@ -58,7 +58,7 @@ Si la fonction échoue, la valeur de retour est 0 (zéro). Pour afficher les inf
 
 Si cette fonction ne peut pas trouver de demande d’annulation, la valeur de retour est 0 (zéro), et [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne l' **erreur \_ \_ introuvable**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appelant doit disposer du droit d’accès de [ \_ terminaison du thread](/windows/desktop/ProcThread/thread-security-and-access-rights) .
 
@@ -70,7 +70,7 @@ L’opération qui est annulée se termine avec l’un des trois États suivants
 -   **L'opération a été annulée.** La fonction [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne une erreur indiquant que l’opération a été **\_ \_ abandonnée**.
 -   **L’opération a échoué avec une autre erreur.** La fonction [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne le code d’erreur approprié.
 
-Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
+dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
 
 
 
@@ -92,9 +92,9 @@ Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par le
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                                                                                                                                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                                                                                                                                    |
-| En-tête<br/>                   | <dl> <dt>IoAPI. h (inclure Windows. h); </dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista (inclure Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                                                                                                                                                                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                                                                                                                                    |
+| En-tête<br/>                   | <dl> <dt>IoAPI. h (include Windows. h);</dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista (include Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                 |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                 |
 

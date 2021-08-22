@@ -1,10 +1,10 @@
 ---
 title: Liste alphabétique de toutes les fonctions WCS
-description: Voici une liste alphabétique complète des fonctions de l’API WCS 1,0 fournies par Windows \ 160 ; 98 et versions ultérieures et Windows \ 160 ; 2000 et versions ultérieures.
+description: voici une liste alphabétique complète des fonctions de l’API WCS 1,0 fournies par Windows \ 160 ; 98 et versions ultérieures et Windows \ 160 ; 2000 et versions ultérieures.
 ms.assetid: aba45dbd-6fc2-4788-87f0-043579fa53f9
 keywords:
-- Windows Color System (WCS), fonctions
-- WCS (système de couleurs Windows), fonctions
+- Windows Système de couleurs (WCS), fonctions
+- WCS (Windows Color System), fonctions
 - gestion des couleurs des images, fonctions
 - gestion des couleurs, fonctions
 - couleurs, fonctions
@@ -13,16 +13,16 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04b70208c1f1f7d87b4f5cd6f4a14f3f22e0bc2f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 18e2c9250cc9fb1e9e418079ed3b9524b3add2535dd780eed65ae998bda80ef5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106539800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706659"
 ---
 # <a name="alphabetical-list-of-all-wcs-functions"></a>Liste alphabétique de toutes les fonctions WCS
 
-Voici une liste alphabétique complète des fonctions de l’API WCS 1,0 fournies par Windows 98 et versions ultérieures et Windows 2000 et versions ultérieures.
+voici une liste alphabétique complète des fonctions de l’API WCS 1,0 fournies par Windows 98 et versions ultérieures et Windows 2000 et versions ultérieures.
 
 
 
@@ -50,9 +50,9 @@ Voici une liste alphabétique complète des fonctions de l’API WCS 1,0 fournie
 | [**CMDeleteTransform**](/windows/win32/api/icm/nf-icm-cmdeletetransform) | Supprime une transformation de couleur spécifiée et libère toute mémoire qui lui est associée. |
 | [**CMGetInfo**](/windows/win32/api/icm/nf-icm-cmgetinfo) | Récupère diverses informations sur le module de gestion des couleurs (CMM). |
 | [**CMGetNamedProfileInfo**](/windows/win32/api/icm/nf-icm-cmgetnamedprofileinfo) | Récupère des informations sur le profil de couleurs nommé spécifié. |
-| [**CMGetPS2ColorRenderingDictionary**](/windows/desktop/api/Wingdi/)           | Obtient un dictionnaire de rendu de couleur PostScript.                                                                                                        |
-| [**CMGetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-cmgetps2colorrenderingintent) | Récupère l' [intention de rendu](rendering-intents.md) de couleur PostScript de niveau 2 d’un profil. |
-| [**CMGetPS2ColorSpaceArray**](/windows/desktop/api/Wingdi/)                             | Obtient un tableau d’espaces de couleurs PostScript.                                                                                                                 |
+| [**CMGetPS2ColorRenderingDictionary**](/windows/desktop/api/Wingdi/)           | obtient un dictionnaire de rendu de couleurs PostScript.                                                                                                        |
+| [**CMGetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-cmgetps2colorrenderingintent) | récupère l' [intention de rendu](rendering-intents.md) de couleur de niveau 2 PostScript à partir d’un profil. |
+| [**CMGetPS2ColorSpaceArray**](/windows/desktop/api/Wingdi/)                             | obtient un tableau d’espace de couleurs PostScript.                                                                                                                 |
 | [**CMIsProfileValid**](/windows/win32/api/icm/nf-icm-cmisprofilevalid) | Indique si le profil donné est un profil ICC valide qui peut être utilisé pour la gestion des couleurs. |
 | [**CMTranslateColors**](/windows/win32/api/icm/nf-icm-cmtranslatecolors) | Convertit un tableau de couleurs d’un [espace de couleurs](color-spaces.md) source en un espace de couleurs de destination à l’aide d’une transformation de couleur. |
 | [**CMTranslateRGB**](/windows/win32/api/icm/nf-icm-cmtranslatergb) | Traduit un RGBQuad fourni par l’application dans l’espace de [couleurs](color-spaces.md)du périphérique. |
@@ -74,7 +74,7 @@ Voici une liste alphabétique complète des fonctions de l’API WCS 1,0 fournie
 | [**EnumICMProfiles**](/windows/desktop/api/Wingdi/nf-wingdi-enumicmprofilesa)                                             | Énumère les profils de couleur de sortie disponibles pour un contexte de périphérique donné.                                                                               |
 | [**EnumICMProfilesProcCallback**](/windows/desktop/api/Wingdi/)                     | Fonction de rappel définie par l’application pour [**EnumICMProfiles**](/windows/desktop/api/Wingdi/nf-wingdi-enumicmprofilesa).                                                                |
 | [**GetCMMInfo**](/windows/win32/api/icm/nf-icm-getcmminfo) | Récupère diverses informations sur le module de gestion des couleurs (CMM) qui a créé la transformation de couleur spécifiée. |
-| [**GetColorDirectoryW**](/windows/win32/api/icm/nf-icm-getcolordirectoryw) | Récupère le chemin d’accès du répertoire de couleurs Windows sur un ordinateur spécifié. |
+| [**GetColorDirectoryW**](/windows/win32/api/icm/nf-icm-getcolordirectoryw) | récupère le chemin d’accès du répertoire de couleurs Windows sur un ordinateur spécifié. |
 | [**GetColorProfileElement**](/windows/win32/api/icm/nf-icm-getcolorprofileelement) | Copie les données d’un élément de profil balisé spécifié d’un profil de couleurs spécifié dans une mémoire tampon. |
 | [**GetColorProfileElementTag**](/windows/win32/api/icm/nf-icm-getcolorprofileelementtag) | Récupère le nom de balise spécifié par *dwIndex* dans la table des balises d’un profil de couleurs ICC (International Color Consortium) donné, où *dwIndex* est un index de base 1 dans cette table. |
 | [**GetColorProfileFromHandle**](/windows/win32/api/icm/getcolorprofilefromhandle)                         | Récupère le contenu du profil de couleurs en fonction d’un handle d’un profil de couleurs ouvert.                                                                        |
@@ -85,16 +85,16 @@ Voici une liste alphabétique complète des fonctions de l’API WCS 1,0 fournie
 | [**GetICMProfile**](/windows/desktop/api/Wingdi/nf-wingdi-geticmprofilea)                                                 | Obtient le profil de couleur de sortie actuel d’un contexte de périphérique.                                                                                           |
 | [**GetLogColorSpace**](/windows/desktop/api/Wingdi/nf-wingdi-getlogcolorspacea)                                           | Obtient la structure [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) d’un contexte de périphérique.                                                                       |
 | [**GetNamedProfileInfo**](/windows/win32/api/icm/nf-icm-getnamedprofileinfo) | Récupère des informations sur le profil de couleurs nommé ICC (International Color Consortium) qui est spécifié dans le premier paramètre. |
-| [**GetPS2ColorRenderingDictionary**](/windows/win32/api/icm/nf-icm-getps2colorrenderingdictionary) | Récupère le dictionnaire de rendu de couleur PostScript de niveau 2 à partir du profil de couleurs ICC spécifié. |
-| [**GetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-getps2colorrenderingintent) | Récupère l' [intention de rendu](r.md) de couleur PostScript de niveau 2 d’un profil de couleurs ICC. |
-| [**GetPS2ColorSpaceArray**](/windows/win32/api/icm/nf-icm-getps2colorspacearray) | Récupère le tableau d' [espace colorimétrique](c.md) PostScript de niveau 2 à partir d’un profil de couleurs ICC. |
+| [**GetPS2ColorRenderingDictionary**](/windows/win32/api/icm/nf-icm-getps2colorrenderingdictionary) | récupère le dictionnaire de rendu de couleur de PostScript niveau 2 à partir du profil de couleurs ICC spécifié. |
+| [**GetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-getps2colorrenderingintent) | récupère l' [intention de rendu](r.md) de couleur de niveau 2 PostScript à partir d’un profil de couleurs ICC. |
+| [**GetPS2ColorSpaceArray**](/windows/win32/api/icm/nf-icm-getps2colorspacearray) | récupère le PostScript tableau d' [espace de couleurs](c.md) de niveau 2 à partir d’un profil de couleurs ICC. |
 | [**GetStandardColorSpaceProfileW**](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew) | Récupère le profil de couleurs inscrit pour l’espace de [couleurs](c.md)standard spécifié. |
 | [**ICMProgressProcCallback**](icmprogressproccallback.md)                             | Rappel fourni par l’application pour signaler la progression.                                                                                                    |
 | [**InstallColorProfileW**](/windows/win32/api/icm/nf-icm-installcolorprofilew) | Installe un profil donné pour une utilisation sur un ordinateur spécifié. Le profil est également copié dans le répertoire des couleurs. |
 | [**IsColorProfileTagPresent**](/windows/win32/api/icm/nf-icm-iscolorprofiletagpresent) | Signale si une balise ICC (International Color Consortium) spécifiée est présente dans le profil de couleurs spécifié. |
-| [**IsColorProfileValid**](/windows/win32/api/icm/nf-icm-iscolorprofilevalid) | Permet de déterminer si le profil spécifié est un profil ICC (International Color Consortium) valide ou un handle de profil WCS (Windows Color System) valide qui peut être utilisé pour la gestion des couleurs. |
+| [**IsColorProfileValid**](/windows/win32/api/icm/nf-icm-iscolorprofilevalid) | permet de déterminer si le profil spécifié est un profil ICC (International color Consortium) valide ou un handle de profil WCS (Windows Color System) valide qui peut être utilisé pour la gestion des couleurs. |
 | [**OpenColorProfileW**](/windows/win32/api/icm/nf-icm-opencolorprofilew) | Crée un handle vers un profil de couleurs spécifié. Le descripteur peut ensuite être utilisé dans d’autres fonctions de gestion des profils. |
-| [**RegisterCMMW**](/windows/win32/api/icm/nf-icm-registercmmw) | Associe une valeur d’identification spécifiée à la bibliothèque de liens dynamiques du module de gestion des couleurs spécifiée (DLL CMM). Lorsque cet ID apparaît dans un profil de couleurs, Windows peut localiser le CMM correspondant afin de créer une transformation. |
+| [**RegisterCMMW**](/windows/win32/api/icm/nf-icm-registercmmw) | Associe une valeur d’identification spécifiée à la bibliothèque de liens dynamiques du module de gestion des couleurs spécifiée (DLL CMM). lorsque cet ID apparaît dans un profil de couleurs, Windows pouvez alors localiser le CMM correspondant afin de créer une transformation. |
 | [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) | Vous permet de sélectionner le module de gestion des couleurs par défaut (CMM) à utiliser. |
 | [**SetColorProfileElement**](/windows/win32/api/icm/nf-icm-setcolorprofileelement) | Définit les données d’élément pour un élément de profil balisé dans un profil de couleurs ICC. |
 | [**SetColorProfileElementReference**](/windows/win32/api/icm/nf-icm-setcolorprofileelementreference) | Crée dans un profil de couleurs ICC spécifié une nouvelle balise qui référence les mêmes données qu’une balise existante. |

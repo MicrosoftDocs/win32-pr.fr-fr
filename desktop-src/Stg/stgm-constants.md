@@ -29,12 +29,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd283c2dfeddc48b6bd12f8317ec352cb62e4973
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18248e862c3d5981e9c34b29522b1cd75d2b61cf78a52613b3d28a1d2c98b4fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661969"
 ---
 # <a name="stgm-constants"></a>Constantes STGM
 
@@ -48,7 +48,7 @@ Pour plus d’informations sur les transactions, consultez la section Notes.
 
 
 
-| Group                      | Indicateur                         | Valeur       |
+| Groupe                      | Indicateur                         | Valeur       |
 |----------------------------|------------------------------|-------------|
 | Accès                     | **\_lecture STGM**               | 0x00000000L |
 |                            | **\_écriture STGM**              | 0x00000001L |
@@ -317,7 +317,7 @@ Indique que le fichier sous-jacent doit être détruit automatiquement lorsque l
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez combiner ces indicateurs, mais vous ne pouvez choisir qu’un seul indicateur de chaque groupe d’indicateurs associés. En général, un indicateur de chacun des groupes d’accès et de partage doit être spécifié pour toutes les fonctions et méthodes qui utilisent ces constantes. Les indicateurs d’autres groupes sont facultatifs.
 

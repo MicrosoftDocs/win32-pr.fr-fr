@@ -4,20 +4,20 @@ ms.assetid: 48fa5484-1f8c-4133-b2e1-888cb1834402
 title: Filtre de décodeur de ligne 21
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 839a6ff8e77f4815b74f5de65b8f0e2a565cdc2a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a265b2b547b2ef1a18b65b5588afb9ed7e5e0215446f5f9967244ca5dbd20332
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584459"
 ---
 # <a name="line-21-decoder-filter"></a>Filtre de décodeur de ligne 21
 
-Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
 Ce filtre de décodeur de ligne 21 décode les données de la ligne 21 et dessine le texte de la légende sur les bitmaps.
 
-La broche d’entrée se connecte à n’importe quel fournisseur de données de ligne 21, généralement un décodeur vidéo DVD ou le filtre de [décodeur CC](cc-decoder-filter.md) . Le décodeur CC fournit des données de ligne 21 à partir du VBI d’un signal de télévision analogique. La broche de sortie se connecte à un code PIN secondaire sur le [mélangeur de superposition](overlay-mixer-filter.md) ou à un autre convertisseur vidéo, tel que VMR.
+La broche d’entrée se connecte à n’importe quel fournisseur de données de ligne 21, généralement un décodeur vidéo DVD ou le filtre de [décodeur CC](cc-decoder-filter.md) . Le décodeur CC fournit des données de ligne 21 à partir du VBI d’un signal de télévision analogique. la broche de sortie se connecte à un code pin secondaire sur la [superposition Mixer](overlay-mixer-filter.md) ou à un autre convertisseur vidéo, tel que VMR.
 
 Ce filtre accepte les données de ligne 21 dans le format de paire d’octets standard ou, pour les DVD, en tant que paquet pour l’ensemble du groupe d’images (GOP). Pour chaque groupe d’images dans le flux vidéo DVD, il peut y avoir un paquet de données utilisateur qui contient les informations d’en-tête de ce groupe d’images et les données de ligne 21. Le format des paires d’octets est défini dans la norme EIA/CEA-608-B ; Pour plus d’informations, reportez-vous à cette norme.
 
@@ -34,7 +34,7 @@ Deux versions de ce filtre sont disponibles :
 
  
 
-Le filtre version 1 est utilisé sur les plateformes Microsoft® Windows® 95/98/me et Windows 2000. Le filtre de la version 2 est disponible dans Microsoft Windows XP et versions ultérieures, et est utilisé chaque fois que le convertisseur de mixage vidéo se trouve dans le graphique.
+le filtre version 1 est utilisé sur les plateformes Microsoft® Windows® 95/98/Me et Windows 2000. le filtre de la version 2 est disponible dans Microsoft Windows XP et versions ultérieures, et est utilisé chaque fois que le convertisseur de mixage vidéo se trouve dans le graphique.
 
 Les informations du tableau suivant s’appliquent aux deux versions du filtre :
 
@@ -110,13 +110,13 @@ Type de format : FORMAT_VideoInfo<br/></td>
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [Sous-titres et télétexte](closed-captions-and-teletext.md)
 </dt> <dt>
 
-[Configuration du graphique de filtre DVD](dvd-filter-graph-configuration.md)
+[Configuration de Graph de filtre de DVD](dvd-filter-graph-configuration.md)
 </dt> </dl>
 
  

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e18559bb30260dcb4285980d8dc75642a7c9ec6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fafefaaaa3315679af2900808f581324040512816dd2211a0250375c36f824dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777819"
 ---
 # <a name="glscissor-function"></a>glScissor fonction)
 
@@ -88,7 +88,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glScissor** définit un rectangle, appelé zone de ciseaux, dans les coordonnées de la fenêtre. Les deux premiers paramètres, *x* et *y*, spécifient l’angle inférieur gauche de la zone. Les paramètres de *largeur* et de *hauteur* spécifient la largeur et la hauteur de la zone.
 

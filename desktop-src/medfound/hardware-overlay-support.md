@@ -4,18 +4,18 @@ ms.assetid: fa9d5bf5-4c0f-471a-b639-d329b0cd89a4
 title: Prise en charge de la superposition matérielle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adcae33cdf55de59bdcd074829d52b4c1c43ea5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f537c91bc217344206c0a23cf5ca8a14254a9c983e4ae550e96457bbb055e5d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600399"
 ---
 # <a name="hardware-overlay-support"></a>Prise en charge de la superposition matérielle
 
 Une superposition matérielle est une zone dédiée de la mémoire vidéo qui peut être superposée sur la surface principale. Aucune copie n’est effectuée lorsque la superposition est affichée. L’opération de superposition est effectuée dans le matériel, sans modification des données dans la surface principale.
 
-L’utilisation de superpositions de matériel pour la lecture vidéo était courante dans les versions antérieures de Windows, car les superpositions sont efficaces pour le contenu vidéo avec une fréquence d’images élevée. À compter de Windows 7, Direct3D 9 prend en charge les superpositions matérielles. Cette prise en charge est principalement destinée à la lecture vidéo et diffère à certains égards des API DirectDraw précédentes :
+l’utilisation de superpositions de matériel pour la lecture vidéo était courante dans les versions antérieures de Windows, car les superpositions sont efficaces pour le contenu vidéo avec une fréquence d’images élevée. à partir de Windows 7, Direct3D 9 prend en charge les superpositions matérielles. Cette prise en charge est principalement destinée à la lecture vidéo et diffère à certains égards des API DirectDraw précédentes :
 
 -   La superposition ne peut pas être réduite, mise en miroir ou désentrelacée.
 -   Les clés de couleur source et la fusion alpha ne sont pas prises en charge.

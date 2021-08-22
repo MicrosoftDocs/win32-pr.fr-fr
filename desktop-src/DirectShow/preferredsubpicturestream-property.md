@@ -4,17 +4,17 @@ ms.assetid: 9c15dc6f-c016-41bf-b03d-e8e5415215ae
 title: Propriété PreferredSubpictureStream
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23377d74d3632c665b001ae415dc151ca73bd148
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e28b98163607e31a207bffb3974fee3b32505ff60ba3700b452b2dff2625f421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583539"
 ---
 # <a name="preferredsubpicturestream-property"></a>Propriété PreferredSubpictureStream
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -28,7 +28,7 @@ La `PreferredSubpictureStream` propriété récupère le flux de sous-image pré
 
 Retourne une valeur entière représentant le flux de sous-image préféré actuel dans le registre système.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le flux de sous-image par défaut est défini avec [**DefaultSubpictureLCID**](defaultsubpicturelcid-property.md)de l’objet [MSDVDAdm](msdvdadm-object.md) .
 

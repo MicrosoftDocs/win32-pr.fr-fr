@@ -4,12 +4,12 @@ ms.assetid: f185ae64-1de9-4139-acd5-7c3a108e1eba
 title: Déchargement d’un module de symboles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d84b6fad0177fce36865e90dadf04bd563130789
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0da437fe0ce188e3559280d2bc347f3b976aba52adbf8e4a0306e4e469747435
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929279"
 ---
 # <a name="unloading-a-symbol-module"></a>Déchargement d’un module de symboles
 

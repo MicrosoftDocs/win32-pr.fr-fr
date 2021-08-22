@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6135f67c07f69d24df67d4f1899404359efaa7aa
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0103baa9786cdfed0d6e999021453e30da5083571c9a2c9054da701977a9493f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106520283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741339"
 ---
 # <a name="glnewlist-function"></a>glNewList fonction)
 
@@ -84,7 +84,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les listes d’affichage sont des groupes de commandes OpenGL qui ont été stockées pour une exécution ultérieure. Les listes d’affichage sont créées avec **glNewList**. Toutes les commandes suivantes sont placées dans la liste d’affichage, dans l’ordre d’émission, jusqu’à ce que **glEndList** soit appelé.
 

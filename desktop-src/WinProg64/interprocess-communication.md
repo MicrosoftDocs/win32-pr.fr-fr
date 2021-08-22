@@ -6,12 +6,12 @@ keywords:
 - communication entre processus, programmation Windows 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2398174f011127973dfd0b1773e6eb040cdde898
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5089440caf6ac537a314e7e920796fadeac5817220ba91f283c297bd0451b705
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734119"
 ---
 # <a name="interprocess-communication-between-32-bit-and-64-bit-applications"></a>Communication entre processus entre les applications 32 bits et 64 bits
 
@@ -25,6 +25,6 @@ Les techniques suivantes peuvent être utilisées pour la communication entre le
 
 Un fichier exécutable 64 bits situé sous% windir% \\ system32 ne peut pas être lancé à partir d’un processus 32 bits, car le redirecteur du système de fichiers redirige le chemin d’accès. Ne désactivez pas la redirection pour effectuer cette opération. Utilisez à la place% windir% \\ SysNative. Pour plus d’informations, consultez [redirecteur de système de fichiers](file-system-redirector.md).
 
- 
+ 
 
- 
+ 

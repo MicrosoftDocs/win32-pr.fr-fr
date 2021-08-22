@@ -116,6 +116,6 @@ Pour résoudre ce problème, nous vous recommandons d’avoir un contexte distin
 -   Vous devez partager des ressources à poids élevé (telles que des bitmaps et des graphiques d’effets complexes) qui sont initialisées une seule fois, puis jamais modifiées sur les threads pour améliorer les performances.
 -   Vous pouvez partager des ressources légères (telles que des pinceaux de couleur unie et des formats de texte) qui sont initialisés une seule fois et qui ne sont jamais modifiés à travers les threads.
 
-## <a name="summary"></a>Récapitulatif
+## <a name="summary"></a>Résumé
 
 Lorsque vous développez des applications [Direct2D](./direct2d-portal.md) multithread, vous devez créer une fabrique Direct2D multithread, puis dériver toutes les ressources Direct2D de cette fabrique. Si un thread effectue des appels [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) ou dxgi, vous devez également l’acquérir explicitement, puis appliquer le verrou Direct2D pour assurer la protection de ces appels Direct3D ou DXGI. En outre, vous devez garantir l’intégrité du contexte en utilisant une copie de ressources mutables pour chaque thread.

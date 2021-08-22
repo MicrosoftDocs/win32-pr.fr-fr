@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cce77fce941dd0a24fb6ee17e0aeb67b4e78bdae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb3a5ef050002da069f7eda56352f204797cac521885248bc7e63dfd77f840f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737559"
 ---
 # <a name="fetchreportperdeviceentries-method-of-the-win32_tslicensereport-class"></a>Méthode FetchReportPerDeviceEntries de la \_ classe Win32 TSLicenseReport
 

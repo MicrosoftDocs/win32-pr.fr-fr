@@ -4,12 +4,12 @@ ms.assetid: bb228f39-0e04-497a-8404-18f7bc027bea
 title: Application de l’activation dans le contexte des appelants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c70af40f92056e679a9211964b8a614cbeaeb4a6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e42cb657ad7d11f61de0737ca7ac935d1d570649c3e0da9db9b63c79edea38cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567419"
 ---
 # <a name="enforcing-activation-in-the-callers-context"></a>Application de l’activation dans le contexte de l’appelant
 

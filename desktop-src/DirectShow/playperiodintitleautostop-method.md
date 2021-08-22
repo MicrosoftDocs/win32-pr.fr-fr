@@ -4,17 +4,17 @@ ms.assetid: 0c4df76d-3991-4a6c-a8e5-5fd713eeffc2
 title: Méthode PlayPeriodInTitleAutoStop
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d05899b66b7f1a11f8f5b177d311b9634a52595b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 93dbf0a5c157efcf4d22e7e5ba650bfdfebc57fe6a43d319e0be14958d732024
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564059"
 ---
 # <a name="playperiodintitleautostop-method"></a>Méthode PlayPeriodInTitleAutoStop
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

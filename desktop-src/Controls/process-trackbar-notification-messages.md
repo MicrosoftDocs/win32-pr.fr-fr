@@ -4,27 +4,27 @@ description: Trackbars notifier la fenêtre parente des actions de l’utilisate
 ms.assetid: 83F47A3E-E607-49C2-A8B5-BC8A321D90BB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c723ad1bebb5c9f3ec8c4e7aefdc658e0881aef6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e211a468c5c107a96fc6b28d12feed219799450828db07be87cd8887b5816bd1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540319"
 ---
 # <a name="how-to-process-trackbar-notification-messages"></a>Comment traiter des messages de notification TrackBar
 
 Trackbars notifier la fenêtre parente des actions de l’utilisateur en lui envoyant un message [**WM \_ HSCROLL**](wm-hscroll.md) ou [**WM \_ VSCROLL**](wm-vscroll.md) .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -73,7 +73,7 @@ VOID WINAPI TBNotifications(
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une boîte de dialogue qui contient un TrackBar de style de type [**tbs \_**](trackbar-control-styles.md) peut utiliser cette fonction lorsqu’elle reçoit un message [**WM \_ VSCROLL**](wm-vscroll.md) .
 
@@ -84,9 +84,9 @@ Une boîte de dialogue qui contient un TrackBar de style de type [**tbs \_**](tr
 [Utilisation des contrôles TrackBar](using-trackbar-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4879d59b-e6d3-4811-ab2c-bcce8f214e1c
 title: Mappage d’environnement cubique (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cecac83db067224195883485bcbd282aa82ae4b5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6b02f86528c52c2e8e9376eb92e4452735c2613cc9b7dda08a8a07e8473193ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565339"
 ---
 # <a name="cubic-environment-mapping-direct3d-9"></a>Mappage d’environnement cubique (Direct3D 9)
 
@@ -33,7 +33,7 @@ Les mappages de cube peuvent être mipmapped. Pour créer un mappage de cube mip
 
 Les applications qui créent des cartes d’environnement cubiques mipmapped peuvent accéder à chaque visage en appelant la méthode [**GetCubeMapSurface**](/windows/desktop/api) . Commencez par définir la valeur appropriée à partir du type énuméré [**D3DCUBEMAP \_ faces**](./d3dcubemap-faces.md) , comme indiqué dans [création de surfaces de mappage d’environnement cubique (Direct3D 9)](creating-cubic-environment-map-surfaces.md). Ensuite, sélectionnez le niveau à récupérer en définissant le paramètre de niveau **GetCubeMapSurface** sur le niveau de mipmap souhaité. N’oubliez pas que 0 correspond à l’image de niveau supérieur.
 
-## <a name="texture-coordinates-for-cubic-environment-maps"></a>Coordonnées de texture pour les mappages d’environnement cubiques
+## <a name="texture-coordinates-for-cubic-environment-maps"></a>coordonnées de Texture pour l’environnement cubique Cartes
 
 Les coordonnées de texture qui indexent une carte d’environnement cubique ne sont pas des coordonnées de style u, v simples, telles qu’elles sont utilisées lorsque les textures standard sont appliquées. En fait, les mappages d’environnement cubique n’utilisent pas du tout des coordonnées de texture. À la place d’un ensemble de coordonnées de texture, les mappages d’environnement cubique requièrent un vecteur 3D. Vous devez veiller à spécifier un format de vertex correct. En plus d’indiquer au système le nombre de jeux de coordonnées de texture que votre application utilise, vous devez fournir des informations sur le nombre d’éléments dans chaque ensemble. Direct3D offre le jeu de macros [**\_ TEXCOORDSIZEN D3DFVF**](d3dfvf-texcoordsizen.md) à cet effet. Ces macros acceptent un seul paramètre, identifiant l’index du jeu de coordonnées de texture pour lequel la taille est décrite. Dans le cas d’un vecteur 3D, vous incluez le modèle binaire créé par la \_ macro D3DFVF TEXCOORDSIZE3. L’exemple de code suivant montre comment cette macro est utilisée.
 

@@ -4,12 +4,12 @@ ms.assetid: 2af6cea0-6d93-4aa5-a708-d305f11986ef
 title: Tables de base de données de module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17a58240c589297cf2540625bc12180252efa42d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 201b4af776ae0b68fd4330dca8240390e5731950fdaba5a734f48d887db5be84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580639"
 ---
 # <a name="merge-module-database-tables"></a>Tables de base de données de module de fusion
 
@@ -53,7 +53,7 @@ Les tables ModuleSequence suivantes se trouvent uniquement dans les modules de f
 | [ModuleAdminExecuteSequence](moduleadminexecutesequence-table.md)     | Fusionne des actions dans la [table AdminExecuteSequence](adminexecutesequence-table.md).     |
 | [ModuleAdvtUISequence](moduleadvtuisequence-table.md)                 | N’utilisez pas cette table. Pour plus d’informations, consultez la [table AdvtUISequence](advtuisequence-table.md). |
 | [ModuleAdvtExecuteSequence](moduleadvtexecutesequence-table.md)       | Fusionne des actions dans la [table AdvtExecuteSequence](advtexecutesequence-table.md).       |
-| [ModuleIgnoreTable](moduleignoretable-table.md)                       | Répertorie les tables du module qui ne sont pas fusionnées dans le fichier. msi.                        |
+| [ModuleIgnoreTable](moduleignoretable-table.md)                       | Répertorie les tables du module qui ne sont pas fusionnées dans le fichier .msi.                        |
 | [ModuleInstallUISequence](moduleinstalluisequence-table.md)           | Fusionne des actions dans la [table InstallUISequence](installuisequence-table.md).           |
 | [ModuleInstallExecuteSequence](moduleinstallexecutesequence-table.md) | Fusionne des actions dans la [table InstallExecuteSequence](installexecutesequence-table.md). |
 
@@ -143,7 +143,7 @@ Les tables de programme d’installation suivantes sont facultatives dans les mo
 -   [TextStyle](textstyle-table.md)
 -   [Exportation](typelib-table.md)
 -   [UIText](uitext-table.md)
--   [Verbe](verb-table.md)
+-   [DoVerb](verb-table.md)
 
  
 

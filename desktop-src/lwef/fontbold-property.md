@@ -4,12 +4,12 @@ description: Propriété FontBold
 ms.assetid: abf735f9-fea2-4d02-a821-e28583a8bc39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6439a7f6b7d6e3bf67620f27c77ce59f8402ce49
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c58706730c44a90729cb0d2d9f83eb16398b54ddc1072c66fef583d104073164
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778209"
 ---
 # <a name="fontbold-property"></a>Propriété FontBold
 
@@ -27,7 +27,7 @@ Retourne le style de police actuellement affiché dans la fenêtre de la bulle d
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »). Balloon. FontBold**
+*agent ***. Caractères («**_CharacterID_*_»). Balloon. FontBold_*
 
 
 
@@ -38,17 +38,17 @@ Retourne le style de police actuellement affiché dans la fenêtre de la bulle d
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur par défaut des paramètres de police de la bulle de texte d’un caractère est définie dans l’éditeur de caractères Microsoft Agent. En outre, l’utilisateur peut remplacer les paramètres de police pour tous les caractères de la feuille de propriétés de l’agent Microsoft.
 
- 
+ 
 
- 
+ 
 
 
 

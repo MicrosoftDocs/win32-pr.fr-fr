@@ -4,12 +4,12 @@ description: IAgentCharacter GetPosition
 ms.assetid: 79343337-2700-48cb-a09d-1a356ea560e0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40cdff0d6876fc7257e05014f3d9ba695db5d168
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a63e75111b7694fcb993e141b8534e8f174efd1a1a252f250167ecb597149f7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609989"
 ---
 # <a name="iagentcharactergetposition"></a>IAgentCharacter :: GetPosition
 
@@ -49,9 +49,9 @@ Même si le caractère apparaît dans une fenêtre de zone de forme irrégulièr
 [**IAgentCharacter :: SetPosition**](iagentcharacter--setposition.md), [ **IAgentCharacter ::** de](iagentcharacter--getsize.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

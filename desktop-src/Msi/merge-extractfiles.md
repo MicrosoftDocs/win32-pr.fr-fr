@@ -1,5 +1,5 @@
 ---
-description: La méthode ExtractFiles de l’objet Merge extrait le fichier. cab incorporé d’un module, puis écrit ces fichiers dans le répertoire de destination.
+description: La méthode ExtractFiles de l’objet Merge extrait le fichier .cab incorporé à partir d’un module, puis écrit ces fichiers dans le répertoire de destination.
 ms.assetid: 846355d6-32f2-4b04-91dc-acd60445fbd9
 title: Merge. ExtractFiles, méthode (Advpub. h)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 3869dc37b841d386891eb70940054bd78805bf94
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e56d6572526e2aecfc12dc5b2bb9a365be6d3c53b6fb1707fe197c056d05c377
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926559"
 ---
 # <a name="mergeextractfiles-method"></a>Merge. ExtractFiles, méthode
 
-La méthode **ExtractFiles** de l’objet [**Merge**](merge-object.md) extrait le fichier. cab incorporé d’un module, puis écrit ces fichiers dans le répertoire de destination.
+La méthode **ExtractFiles** de l’objet [**Merge**](merge-object.md) extrait le fichier .cab incorporé à partir d’un module, puis écrit ces fichiers dans le répertoire de destination.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -51,7 +51,7 @@ Le répertoire de destination complet.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tous les fichiers du répertoire de destination portant le même nom sont remplacés. Le chemin d’accès est créé s’il n’existe pas déjà.
 

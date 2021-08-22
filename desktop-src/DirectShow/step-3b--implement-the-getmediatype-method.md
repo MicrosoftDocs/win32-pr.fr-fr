@@ -4,12 +4,12 @@ ms.assetid: 0ec57083-b192-404a-938f-bc6bb1cf0ddb
 title: Étape 3B. Implémenter la méthode GetMediaType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bab3ee41c6740fc2914f943784c0d51116f90428
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f386c16e3166f910e8221d139af519363d1b49279a412603e0cfddfa41773ede
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104530501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583109"
 ---
 # <a name="step-3b-implement-the-getmediatype-method"></a>Étape 3B. Implémenter la méthode GetMediaType
 
@@ -75,7 +75,7 @@ Suivant : [étape 3c. implémentez la méthode CheckTransform](step-3c--impleme
 
 <dl> <dt>
 
-[Écriture de filtres DirectShow](writing-directshow-filters.md)
+[écriture de filtres de DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

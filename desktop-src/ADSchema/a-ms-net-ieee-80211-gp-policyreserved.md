@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f59a2fde1114f22bfe68dd1275baba8538e09a27
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a1b37a2c51115327ae004f1ed95e2644a6c58aa75fcf5547a088363ae9a467b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106523129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583419"
 ---
 # <a name="ms-net-ieee-80211-gp-policyreserved-attribute"></a>attribut ms-net-IEEE-80211-GP-PolicyReserved
 
@@ -41,7 +41,7 @@ Réservé pour un usage futur.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

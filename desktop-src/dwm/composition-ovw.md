@@ -18,12 +18,12 @@ keywords:
 - messagerie
 ms.topic: article
 ms.date: 05/30/2019
-ms.openlocfilehash: 8d7654f479896002b4bc65df613fab9506caf2a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8c5df1778436e2cfe23df85483453b01fb80884adc9a6d8ff34955deb3e0c6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741579"
 ---
 # <a name="enable-and-control-dwm-composition"></a>Activer et contrôler la composition DWM
 
@@ -115,10 +115,10 @@ Les messages suivants fournissent une notification des événements DWM. Ces mes
 - [**\_DWMNCRENDERINGCHANGED WM**](wm-dwmncrenderingchanged.md)
 - [**\_DWMWINDOWMAXIMIZEDCHANGE WM**](wm-dwmwindowmaximizedchange.md)
 
-## <a name="disabling-dwm-composition-windows7-and-earlier"></a>Désactivation de la composition DWM (Windows 7 et versions antérieures)
+## <a name="disabling-dwm-composition-windows-7-and-earlier"></a>désactivation de la composition DWM (Windows 7 et versions antérieures)
 
 > [!WARNING]
-> Les informations de cette section s’appliquent uniquement aux systèmes Windows 7 et versions antérieures.
+> les informations de cette section s’appliquent uniquement aux systèmes Windows 7 et versions antérieures.
 
 Étant donné que DWM utilise l’unité de traitement graphique (GPU) pour la composition du bureau, votre application doit peut-être désactiver DWM pour des raisons de compatibilité. Les applications qui prennent le contrôle total du bureau, comme les jeux qui s’exécutent en mode plein écran, doivent déterminer si le DWM est activé et, si c’est le cas, le désactiver. Pour ce faire, deux fonctions sont nécessaires.
 

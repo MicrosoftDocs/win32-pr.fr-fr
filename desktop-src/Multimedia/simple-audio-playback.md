@@ -14,12 +14,12 @@ keywords:
 - Wave audio, fonction PlaySound
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 256feded06de4ee92ee415f14bb08adc7fb4456e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6388f9800f93080e995ae537c2458a22da033ab2149b4bfca114c25025d97434
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688689"
 ---
 # <a name="simple-audio-playback"></a>Lecture audio simple
 
@@ -35,7 +35,7 @@ Vous pouvez utiliser les fonctions suivantes pour lire les données audio de for
 
 
 
- 
+ 
 
 La fonction **MessageBeep** est une partie standard de l’API Win32. étant donné que ses fonctionnalités sont très limitées et qu’elles sont documentées ailleurs, elles ne sont pas abordées ici.
 
@@ -50,6 +50,6 @@ Les fonctions [**sndPlaySound**](/previous-versions//dd798676(v=vs.85)) et [**Pl
 
 Pour les fichiers audio plus volumineux, utilisez les services MCI (Media Control Interface). Pour plus d’informations, consultez [MCI](mci.md).
 
- 
+ 
 
- 
+ 

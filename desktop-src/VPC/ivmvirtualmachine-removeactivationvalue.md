@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b0461b27e43066f32c25663e3b38dab9b3b71b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9fcb531a405f66e39f9821e36f10d3e65e1e8b771472d87d0bce9e415dd672a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119653029"
 ---
 # <a name="ivmvirtualmachineremoveactivationvalue-method"></a>IVMVirtualMachine :: RemoveActivationValue, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Supprime la valeur du paramètre d’activation spécifié pour cet ordinateur virtuel.
 
@@ -69,16 +69,16 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode fournit un accès de bas niveau à toute valeur d’activation. Il peut être utilisé pour supprimer des valeurs d’activation pour les clés définies par le client. Soyez prudent si vous utilisez cette méthode pour supprimer les valeurs d’activation du système, car certaines valeurs ne peuvent pas être modifiées pendant l’exécution de la machine virtuelle. Lorsqu’un ordinateur virtuel est démarré, une copie de ses valeurs de configuration est créée, qui devient son ensemble de valeurs d’activation. Les valeurs d’activation sont conservées jusqu’à ce que la machine virtuelle soit arrêtée ou redémarrée. Notez que Windows Virtual PC peut uniquement utiliser la configuration pour stocker des valeurs pour certaines clés, autrement dit, la valeur d’activation peut ne jamais être utilisée.
+Cette méthode fournit un accès de bas niveau à toute valeur d’activation. Il peut être utilisé pour supprimer des valeurs d’activation pour les clés définies par le client. Soyez prudent si vous utilisez cette méthode pour supprimer les valeurs d’activation du système, car certaines valeurs ne peuvent pas être modifiées pendant l’exécution de la machine virtuelle. Lorsqu’un ordinateur virtuel est démarré, une copie de ses valeurs de configuration est créée, qui devient son ensemble de valeurs d’activation. Les valeurs d’activation sont conservées jusqu’à ce que la machine virtuelle soit arrêtée ou redémarrée. notez que Windows Virtual PC peut uniquement utiliser la configuration pour stocker des valeurs pour certaines clés, autrement dit, la valeur d’activation peut ne jamais être utilisée.
 
 > [!Note]  
 > La session de l’ordinateur virtuel doit être en cours d’exécution pour que toutes les valeurs d’activation puissent être modifiées.
 
  
 
-Les clés d’activation sont stockées en interne de manière hiérarchique, de la même façon que les clés de Registre dans Windows. Pour spécifier une sous-clé spécifique, un « chemin d’accès de clé » est construit, qui spécifie les différentes clés dans un format délimité par des barres obliques.
+Les clés d’activation sont stockées en interne de manière hiérarchique, à l’instar des clés de Registre dans Windows. Pour spécifier une sous-clé spécifique, un « chemin d’accès de clé » est construit, qui spécifie les différentes clés dans un format délimité par des barres obliques.
 
 Par exemple, pour supprimer la valeur de la clé « \_ action par défaut » située dans l’arborescence de clé suivante :
 
@@ -100,7 +100,7 @@ La chaîne de chemin d’accès *clé* est spécifiée comme suit :
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

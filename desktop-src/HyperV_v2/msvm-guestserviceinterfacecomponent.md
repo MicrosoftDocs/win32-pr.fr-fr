@@ -32,12 +32,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4c55417edeee6d9a9fb15c474ba4ee9ca2dd93f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7e404a1195332b508de22fc0a26dfebb96eba29f487f08505987edcc72b6cec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523019"
 ---
 # <a name="msvm_guestserviceinterfacecomponent-class"></a>MSVM \_ GuestServiceInterfaceComponent, classe
 
@@ -89,7 +89,7 @@ La classe **MSVM \_ GuestServiceInterfaceComponent** possède ces méthodes.
 | Méthode                                                                               | Description                                                                                                                              |
 |:-------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
 | [**RequestStateChange**](requeststatechange-msvm-guestserviceinterfacecomponent.md) | Demande que l’état du composant d’interface de service invité soit remplacé par la valeur spécifiée.<br/>                           |
-| [**Réinitialiser**](/windows/desktop/CIMWin32Prov/reset-method-in-class-cim-logicaldevice)                        | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
+| [**Initialisation**](/windows/desktop/CIMWin32Prov/reset-method-in-class-cim-logicaldevice)                        | Demande la réinitialisation de l’unité logique. Non implémenté par WMI.<br/>                                                               |
 | [**SetPowerState**](/windows/desktop/CIMWin32Prov/setpowerstate-method-in-class-cim-logicaldevice)        | Définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État. Non implémenté par WMI.<br/> |
 
 
@@ -174,7 +174,7 @@ Code d’erreur Configuration Manager Win32.
 | <dl> <dt>2 (0X2)</dt> </dl>   | Windows ne peut pas charger le pilote de cet appareil.<br/>                                                                               |
 | <dl> <dt>3 (0x3)</dt> </dl>   | Le pilote de cet appareil est peut-être endommagé ou la mémoire ou d’autres ressources du système sont peut-être insuffisantes.<br/>                             |
 | <dl> <dt>4 (0x4)</dt> </dl>   | L’appareil ne fonctionne pas correctement. L’un de ses pilotes ou le Registre est peut-être endommagé.<br/>                                        |
-| <dl> <dt>5 (0x5)</dt> </dl>   | Le pilote de l’appareil requiert une ressource que Windows ne peut pas gérer.<br/>                                                         |
+| <dl> <dt>5 (0x5)</dt> </dl>   | le pilote de l’appareil requiert une ressource qui ne peut pas être gérée par Windows.<br/>                                                         |
 | <dl> <dt>6 (0x6)</dt> </dl>   | La configuration de démarrage de l’appareil est en conflit avec d’autres appareils.<br/>                                                               |
 | <dl> <dt>7 (0x7)</dt> </dl>   | Impossible de filtrer.<br/>                                                                                                                |
 | <dl> <dt>8 (0x8)</dt> </dl>   | Le chargeur de pilote de l’appareil est manquant.<br/>                                                                                      |
@@ -182,7 +182,7 @@ Code d’erreur Configuration Manager Win32.
 | <dl> <dt>10 (0xA)</dt> </dl>  | Impossible de démarrer l’appareil.<br/>                                                                                                          |
 | <dl> <dt>11 (0xB)</dt> </dl>  | Échec de l’appareil.<br/>                                                                                                                |
 | <dl> <dt>12 (0xC)</dt> </dl>  | L’appareil ne peut pas trouver suffisamment de ressources libres à utiliser.<br/>                                                                              |
-| <dl> <dt>13 (0xD)</dt> </dl>  | Windows ne peut pas vérifier les ressources de l’appareil.<br/>                                                                                 |
+| <dl> <dt>13 (0xD)</dt> </dl>  | Windows ne pouvez pas vérifier les ressources de l’appareil.<br/>                                                                                 |
 | <dl> <dt>14 (0xE)</dt> </dl>  | L’appareil ne peut pas fonctionner correctement tant que l’ordinateur n’a pas redémarré.<br/>                                                                  |
 | <dl> <dt>15 (0xF)</dt> </dl>  | L’appareil ne fonctionne pas correctement en raison d’un éventuel problème de réénumération.<br/>                                                      |
 | <dl> <dt>16 (0x10)</dt> </dl> | Windows ne peut pas identifier toutes les ressources utilisées par l’appareil.<br/>                                                            |
@@ -501,7 +501,7 @@ Nom du système d’étendue.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

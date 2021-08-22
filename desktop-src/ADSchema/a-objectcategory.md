@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b828e4d466b1013ab3854232859a69707553775f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ae88dfc20a2409d7fcb3e69dd19995c5c210a591c2192d5dacf5233ee5aea859
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925333"
 ---
 # <a name="object-category-attribute"></a>Attribut Object-Category
 
@@ -46,7 +46,7 @@ Nom de classe d’objet utilisé pour regrouper des objets de cette classe ou de
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

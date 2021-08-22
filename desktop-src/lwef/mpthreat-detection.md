@@ -4,7 +4,7 @@ description: Types de détection de menaces incorrects connus possibles.
 ms.assetid: 14FCA9BD-A9A1-488B-B8E8-88DE0DF18F27
 keywords:
 - MPTHREAT_DETECTION énumération des fonctionnalités d’environnement Windows héritées
-- PMPTHREAT_DETECTION des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPTHREAT_DETECTION de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86edc0e1ca4ee130f2a2a4a678447771f1ae40ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d362edbb7257f8be5577880a4390c5a2f5f5703504a5f7447154bebe5ada500
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601179"
 ---
 # <a name="mpthreat_detection-enumeration"></a>\_Énumération MPTHREAT Detection
 
@@ -86,8 +86,8 @@ Une menace a été détectée via FastPath.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

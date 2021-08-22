@@ -4,18 +4,18 @@ ms.assetid: c0c62a8e-ab16-4617-936c-b64e6e3865b4
 title: Capture d’audio TV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 138ce631aedf12ddfb52be92d08ffb47da0cbdec
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1d699533480bdeaaa528e362c0773e9df8100fda3dc2195a65c055ae7f7d5bb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641009"
 ---
 # <a name="capturing-tv-audio"></a>Capture d’audio TV
 
 Pour capturer l’audio d’un téléviseur analogique dans un fichier, utilisez le [filtre de capture audio](audio-capture-filter.md). Utilisez l’énumérateur de périphérique système pour créer le filtre de capture audio. Il peut y avoir plusieurs périphériques de capture audio sur le système de l’utilisateur ; l’utilisateur doit sélectionner l’appareil qui représente la carte son.
 
-Connectez la broche de sortie de capture audio au filtre Mux :
+Connecter la broche de sortie de capture audio au filtre mux :
 
 
 ```C++

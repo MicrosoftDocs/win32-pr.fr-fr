@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ccf3a8eff2ca5a5069fa01c4e61bc0735808fd4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c7870bdceab7af598362797a9a16080c5090a3a3ab2e6a51bea31518cd841a2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930251"
 ---
 # <a name="wmt_videoimage_transition_circle"></a>\_cercle de \_ transition \_ VIDEOIMAGE WMT
 

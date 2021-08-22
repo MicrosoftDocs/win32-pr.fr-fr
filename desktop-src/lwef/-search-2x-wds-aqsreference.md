@@ -1,29 +1,29 @@
 ---
 title: Syntaxe de requête avancée
-description: La syntaxe de requête avancée (AQS) est utilisée par Microsoft Windows Desktop Search (WDS) pour aider les utilisateurs et les programmeurs à mieux définir et limiter leurs recherches.
+description: la syntaxe de requête avancée (AQS) est utilisée par Microsoft Windows Desktop Search (WDS) pour aider les utilisateurs et les programmeurs à mieux définir et limiter leurs recherches.
 ms.assetid: 8e55bd40-c7cf-44a6-bc18-24bc7a267779
 ms.topic: article
 ms.date: 05/19/2020
-ms.openlocfilehash: bd00821e60c8d950a7ec384b62d7ff062066f224
-ms.sourcegitcommit: 8bba855bfee06d018edb16c1af70fa4d4344445b
+ms.openlocfilehash: 2daf552f8f750335abacea4b550f92bd71c91c9b2b688a387b035a8180a8b3dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "106511476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601819"
 ---
 # <a name="advanced-query-syntax"></a>Syntaxe de requête avancée
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
-La syntaxe de requête avancée (AQS) est utilisée par Microsoft Windows Desktop Search (WDS) pour aider les utilisateurs et les programmeurs à mieux définir et limiter leurs recherches. L’utilisation de AQS est un moyen simple de limiter les recherches et de fournir de meilleurs jeux de résultats. Les recherches peuvent être limitées par les paramètres suivants :
+la syntaxe de requête avancée (AQS) est utilisée par Microsoft Windows Desktop Search (WDS) pour aider les utilisateurs et les programmeurs à mieux définir et limiter leurs recherches. L’utilisation de AQS est un moyen simple de limiter les recherches et de fournir de meilleurs jeux de résultats. Les recherches peuvent être limitées par les paramètres suivants :
 
 -   Types de fichiers : dossiers, documents, présentations, images, etc.
 -   Magasins de fichiers : bases de données et emplacements spécifiques.
 -   Propriétés du fichier : taille, date, titre, etc.
 -   Contenu du fichier : Mots clés tels que « livrables du projet », « AQS », « chaussures de attrait bleu », etc.
 
-En outre, les paramètres de recherche peuvent être combinés à l’aide d’opérateurs de recherche. Le reste de cette section explique la syntaxe de requête, les paramètres et les opérateurs, et comment ils peuvent être combinés pour offrir des résultats de recherche ciblés. Les tables décrivent la syntaxe à utiliser avec WDS, ainsi que les propriétés qui peuvent être interrogées pour chaque type de fichier affiché dans la fenêtre des résultats de **Windows Desktop Search** .
+En outre, les paramètres de recherche peuvent être combinés à l’aide d’opérateurs de recherche. Le reste de cette section explique la syntaxe de requête, les paramètres et les opérateurs, et comment ils peuvent être combinés pour offrir des résultats de recherche ciblés. les tables décrivent la syntaxe à utiliser avec WDS, ainsi que les propriétés qui peuvent être interrogées pour chaque type de fichier affiché dans la fenêtre des résultats de la **recherche de bureau Windows** .
 
 ## <a name="desktop-search-syntax"></a>Syntaxe de Desktop Search
 
@@ -47,7 +47,7 @@ Supposons qu’un utilisateur souhaite rechercher un document contenant l’expr
 
 ### <a name="scope-locations-and-data-stores"></a>Étendue : emplacements et banques de données
 
-Les utilisateurs peuvent limiter l’étendue de leurs recherches à des emplacements de dossiers ou des magasins de données spécifiques. Par exemple, si vous utilisez plusieurs comptes de messagerie et que vous souhaitez limiter une requête à Microsoft Outlook ou Microsoft Outlook Express, vous pouvez utiliser `store:outlook` ou `store:oe` respectivement.
+Les utilisateurs peuvent limiter l’étendue de leurs recherches à des emplacements de dossiers ou des magasins de données spécifiques. par exemple, si vous utilisez plusieurs comptes de messagerie et que vous souhaitez limiter une requête à microsoft Outlook ou microsoft Outlook Express, vous pouvez utiliser `store:outlook` ou `store:oe` respectivement.
 
 
 
@@ -151,7 +151,7 @@ En plus de la recherche de dates et de plages de dates spécifiques à l’aide 
 
 
 
-| Par rapport à :    | Exemple de syntaxe                                                                                                                         | Résultats                                                                                                                                                                                                                                                                                                                                                    |
+| Par rapport à :    | Exemple de syntaxe                                                                                                                         | Résultat                                                                                                                                                                                                                                                                                                                                                    |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jour             | Date : aujourd’hui<br/> Date : demain<br/> Date : hier<br/>                                                               | Recherche des éléments avec la date du jour.<br/> Recherche des éléments avec la date de demain.<br/> Recherche des éléments avec la date d’hier. <br/>                                                                                                                                                                                                                     |
 | Semaine/mois/année | Date : cette semaine<br/> Date : dernière semaine<br/> Date : mois suivant<br/> Date : mois dernier<br/> Date : année à venir <br/> | Recherche les éléments dont la date est comprise dans la semaine en cours.<br/> Recherche les éléments dont la date est comprise dans la semaine précédente.<br/> Recherche les éléments dont la date est comprise dans la semaine à venir.<br/> Recherche les éléments dont la date est comprise dans le mois précédent.<br/> Recherche les éléments dont la date est comprise dans l’année à venir. <br/> |
@@ -177,14 +177,14 @@ où `<property>` est une propriété listée ci-dessous et `<value>` est le term
 | Propriété       | Utiliser                      | Exemple                        |
 |----------------|--------------------------|--------------------------------|
 | Intitulé          | titre, objet ou à propos de  | titre : « financier trimestriel »    |
-| Statut         | status                   | État : terminé                |
+| État         | status                   | État : terminé                |
 | Date           | date                     | Date : dernière semaine                 |
 | Date de modification  | DateModified ou modifié | modifié : dernière semaine             |
-| importance     | importance ou priorité   | importance : haute                |
-| Taille           | est                     | taille : > 50                   |
+| Importance     | importance ou priorité   | importance : haute                |
+| Taille           | taille                     | taille : > 50                   |
 | Deleted        | Deleted ou IsDeleted     | IsDeleted : true                 |
 | Est une pièce jointe  | isattachment             | isattachment : true              |
-| Pour             | à ou toname             | à : Bob                         |
+| À             | à ou toname             | à : Bob                         |
 | Cc             | CC ou ccname             | CC : John                        |
 | Company        | société                  | société : Microsoft              |
 | Emplacement       | location                 | emplacement : « salle de conférence 102 » |
@@ -264,7 +264,7 @@ où `<property>` est une propriété listée ci-dessous et `<value>` est le term
 
 > [!Note]
 >
-> Les numéros de téléphone sont indexés tels qu’ils sont entrés. Par exemple, si un utilisateur n’a pas inclus de code de pays ou de région lors de la saisie du numéro de téléphone, les utilisateurs ne peuvent pas localiser un contact si la recherche porte sur le pays ou l’indicatif régional dans le numéro de téléphone.
+> les numéros de Téléphone sont indexés comme entrés. Par exemple, si un utilisateur n’a pas inclus de code de pays ou de région lors de la saisie du numéro de téléphone, les utilisateurs ne peuvent pas localiser un contact si la recherche porte sur le pays ou l’indicatif régional dans le numéro de téléphone.
 
  
 
@@ -400,8 +400,8 @@ où `<property>` est une propriété listée ci-dessous et `<value>` est le term
 | Dimensions   | dimensions  | Dimensions : 8X10       |
 | Orientation  | orientation | orientation : paysage |
 | Date de prise   | datetaken   | DateTaken : hier   |
-| Largeur        | width       | Largeur : 1600            |
-| Hauteur       | height      | hauteur : 1200           |
+| Width        | width       | Largeur : 1600            |
+| Height       | height      | hauteur : 1200           |
 
 
 

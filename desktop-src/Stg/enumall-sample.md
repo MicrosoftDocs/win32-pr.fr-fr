@@ -3,15 +3,15 @@ title: Exemple EnumAll
 description: Place toutes les propriétés dans tous les jeux de propriétés d’un fichier de stockage.
 ms.assetid: 40dd62b8-f76a-4cd8-9a9f-6ac344389b6c
 keywords:
-- Stockage structuré Strctd STG, samples, EnumAll
+- structured Stockage Strctd Stg, samples, EnumAll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eadef11105fb45349d68cd3b3929602afb31545b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1bca9b05653e299df4b965723211a53069175a6e72384b9a10d9f13325712af8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683029"
 ---
 # <a name="enumall-sample"></a>Exemple EnumAll
 
@@ -791,9 +791,9 @@ extern "C" void wmain( int cArgs, WCHAR *rgwszArgs[] )
 
 
 
- 
+ 
 
- 
+ 
 
 
 

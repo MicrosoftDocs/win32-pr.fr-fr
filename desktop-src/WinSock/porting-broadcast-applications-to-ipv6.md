@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit les pratiques recommandées pour le portage d’une application de diffusion IPv6 vers les fonctionnalités de multidiffusion disponibles avec Windows Sockets.
+description: cette section décrit les pratiques recommandées pour le portage d’une application de diffusion IPv6 vers les fonctionnalités de multidiffusion disponibles avec Windows sockets.
 ms.assetid: 12e491fd-650f-43b4-afa1-9f37b1c30240
 title: Portage d’applications de diffusion vers IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9f7dce09db6822a6f9b0a61873ca6bbff5a256b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb54fec87be2aa6174de603d2c3e4d0e640156902002b1e87fab149a70e3d1ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641699"
 ---
 # <a name="porting-broadcast-applications-to-ipv6"></a>Portage d’applications de diffusion vers IPv6
 
-Cette section décrit les pratiques recommandées pour le portage d’une application de diffusion IPv6 vers les fonctionnalités de multidiffusion disponibles avec Windows Sockets.
+cette section décrit les pratiques recommandées pour le portage d’une application de diffusion IPv6 vers les fonctionnalités de multidiffusion disponibles avec Windows sockets.
 
 ## <a name="comparing-ipv4-to-ipv6"></a>Comparaison de IPv4 et IPv6
 
@@ -36,12 +36,12 @@ Il existe deux principaux scénarios pour les programmeurs d’applications util
 
 Pour le portage des applications existantes, vous pouvez passer à la multidiffusion IPv6 en utilisant les options de socket et les IOCTL.
 
--   L’utilisation des options de socket est une approche basée sur les modifications, qui permet aux développeurs de modifier les propriétés de socket en fonction des besoins (tels que le blocage ou le déblocage d’un expéditeur, l’ajout d’une nouvelle source, etc.). Cette approche est plus intuitive et l’approche recommandée. Pour plus d’informations sur l’approche basée sur les modifications de la programmation de multidiffusion, consultez [MLD et IGMP à l’aide de Windows Sockets](igmp-and-windows-sockets.md).
+-   L’utilisation des options de socket est une approche basée sur les modifications, qui permet aux développeurs de modifier les propriétés de socket en fonction des besoins (tels que le blocage ou le déblocage d’un expéditeur, l’ajout d’une nouvelle source, etc.). Cette approche est plus intuitive et l’approche recommandée. pour plus d’informations sur l’approche basée sur les modifications de la programmation de multidiffusion, consultez [MLD et IGMP à l’aide de Windows sockets](igmp-and-windows-sockets.md).
 -   L’utilisation d’IOCTL est une approche basée sur l’état final, car elle permet aux développeurs de fournir un état de socket entièrement configuré, y compris des listes d’inclusion et d’exclusion, avec un appel. Pour plus d’informations sur l’approche basée sur l’état final, consultez programmation de la [multidiffusion basée sur l’état final](final-state-based-multicast-programming.md).
 
 Pour les utilisateurs qui créent de nouvelles applications de multidiffusion IPv6, la pratique recommandée consiste à utiliser des options de socket plutôt que des ioctl.
 
-Il existe une autre approche pour créer des applications de multidiffusion avec IPv6, et cela implique l’utilisation de la fonction [**WSAJoinLeaf**](/windows/desktop/api/Winsock2/nf-winsock2-wsajoinleaf) . Bien que l’utilisation de la fonction **WSAJoinLeaf** ne soit pas la pratique recommandée, il existe des situations qui peuvent en imposer l’utilisation. Par exemple, l’un des inconvénients de l’utilisation des options de socket sur Windows Server 2003 et versions antérieures est qu’elles sont spécifiques à la version IP. Sur ces versions antérieures de Windows, les différentes options de sockets doivent être pour IPv6 et IPv4. Sur Windows Vista et versions ultérieures, les nouvelles options de socket sont prises en charge et peuvent être utilisées avec IPv4 et IPv6. La fonction **WSAJoinLeaf** , en revanche, est dépendante de la version IP et du protocole, et il peut donc s’agir d’une approche utile pour créer une application qui doit fonctionner avec plusieurs versions d’IP sur Windows Server 2003 et versions antérieures. L’utilisation de la fonction **WSAJoinLeaf** peut être plus appropriée dans certaines situations où le agnostique protocole et IP-version est requis.
+Il existe une autre approche pour créer des applications de multidiffusion avec IPv6, et cela implique l’utilisation de la fonction [**WSAJoinLeaf**](/windows/desktop/api/Winsock2/nf-winsock2-wsajoinleaf) . Bien que l’utilisation de la fonction **WSAJoinLeaf** ne soit pas la pratique recommandée, il existe des situations qui peuvent en imposer l’utilisation. par exemple, l’un des inconvénients de l’utilisation des options de socket sur Windows Server 2003 et versions antérieures est qu’elles sont spécifiques à la version IP. dans ces versions antérieures de Windows, différentes options de sockets doivent être pour IPv6 et IPv4. sur Windows Vista et versions ultérieures, de nouvelles options de socket sont prises en charge et peuvent être utilisées avec IPv4 et IPv6. la fonction **WSAJoinLeaf** , en revanche, est dépendante de la version IP et du protocole. il peut donc s’agir d’une approche utile pour créer une application qui doit fonctionner avec plusieurs versions d’ip sur Windows Server 2003 et versions antérieures. L’utilisation de la fonction **WSAJoinLeaf** peut être plus appropriée dans certaines situations où le agnostique protocole et IP-version est requis.
 
  
 

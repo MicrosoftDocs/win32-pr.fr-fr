@@ -1,5 +1,5 @@
 ---
-title: Fonctions de rappel des services Web Windows
+title: Windows Fonctions de rappel des services Web
 description: Les rappels permettent à une application d’appeler une fonction définie au niveau d’une autre couche ou d’un autre niveau.
 ms.assetid: 7398ec42-388a-494c-9fe4-5bd62aa009cb
 keywords:
@@ -7,18 +7,18 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a385ca21d00e8845f89bda0d9b04221a922ba421
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a78bce5c4023d889748af103148088462cb4b267192b1c0b3845fc735fd1bb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926869"
 ---
-# <a name="windows-web-services-callback-functions"></a>Fonctions de rappel des services Web Windows
+# <a name="windows-web-services-callback-functions"></a>Windows Fonctions de rappel des services Web
 
 Les rappels permettent à une application d’appeler une fonction définie au niveau d’une autre couche ou d’un autre niveau. L’application inscrit l’argument de fonction en tant que gestionnaire qui doit être appelé de manière asynchrone ultérieurement, en fonction des besoins. Le rappel est appelé si la fonction se termine de façon asynchrone, indiquant la réussite ou l’erreur de la fonction. Le rappel n’est pas appelé si l’opération se termine de façon synchrone.
 
-L’API des services Web Windows comprend les fonctions de rappel suivantes :
+l’API des Services Web Windows comprend les fonctions de rappel suivantes :
 
 -   [**\_rappel de \_ message WS abandon \_**](/windows/desktop/api/WebServices/nc-webservices-ws_abandon_message_callback)
 -   [**\_rappel de \_ canal WS Abort \_**](/windows/desktop/api/WebServices/nc-webservices-ws_abort_channel_callback)
@@ -83,9 +83,9 @@ L’API des services Web Windows comprend les fonctions de rappel suivantes :
 -   [**\_rappel de \_ démarrage du message WS Write \_ \_**](/windows/desktop/api/WebServices/nc-webservices-ws_write_message_start_callback)
 -   [**\_rappel de \_ type WS Write \_**](/windows/desktop/api/WebServices/nc-webservices-ws_write_type_callback)
 
- 
+ 
 
- 
+ 
 
 
 

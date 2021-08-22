@@ -15,16 +15,16 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 0564f758d47e516873b8df5020f3f03a5bcb0727
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58d27b97bb6683f32c145b92c1fda65fe0a786d5cb502e644580b57366119840
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708339"
 ---
 # <a name="peninputpanel-class"></a>PenInputPanel, classe
 
-\[Action déconseillée. **PenInputPanel** a été remplacé par le [panneau de saisie de texte (TIP)](text-input-panel-reference.md).\]
+\[Déconseillé. **PenInputPanel** a été remplacé par le [panneau de saisie de texte (TIP)](text-input-panel-reference.md).\]
 
 L’objet **PenInputPanel** vous permet d’ajouter facilement une entrée de stylet sur place à vos applications.
 
@@ -114,19 +114,19 @@ La classe **PenInputPanel** possède les propriétés suivantes.
 | [**CurrentPanel**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel)<br/>             | Lecture/écriture<br/> | Obtient ou définit le type de panneau actuellement utilisé pour l’entrée dans l’objet **PenInputPanel** .<br/>                                                                |
 | [**DefaultPanel**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_defaultpanel)<br/>             | Lecture/écriture<br/> | Obtient ou définit le type de panneau par défaut utilisé pour l’entrée dans l’objet **PenInputPanel** .<br/>                                                         |
 | [**Factoid**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_factoid)<br/>                       | Lecture/écriture<br/> | Obtient ou définit le nom de chaîne du Factoid utilisé dans la reconnaissance.<br/>                                                                                                    |
-| [**Height**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_height)<br/>                         | Lecture seule<br/>  | Obtient la hauteur de l’objet **PenInputPanel** dans les coordonnées clientes.<br/>                                                                                              |
+| [**Hauteur**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_height)<br/>                         | Lecture seule<br/>  | Obtient la hauteur de l’objet **PenInputPanel** dans les coordonnées clientes.<br/>                                                                                              |
 | [**HorizontalOffset**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset)<br/>     | Lecture/écriture<br/> | Obtient ou définit le décalage entre le bord gauche de l’objet **PenInputPanel** et le bord gauche du contrôle auquel il est attaché.<br/>                             |
 | [**Gauche**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left)<br/>                             | Lecture seule<br/>  | Obtient l’emplacement horizontal (ou axe des x) du bord gauche de l’objet **PenInputPanel** , en coordonnées d’écran.<br/>                                                   |
 | [**Retour au début**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top)<br/>                               | Lecture seule<br/>  | Obtient l’emplacement vertical, ou axe y, de l’emplacement du bord supérieur de l’objet **PenInputPanel** , en coordonnées d’écran.<br/>                                                      |
 | [**VerticalOffset**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset)<br/>         | Lecture/écriture<br/> | Obtient ou définit le décalage entre le bord horizontal le plus proche de l’objet **PenInputPanel** et le bord horizontal le plus proche du contrôle auquel il est attaché.<br/> |
 | [**Parent**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible)<br/>                       | Lecture/écriture<br/> | Obtient ou définit une valeur qui indique si l’objet **PenInputPanel** est visible.<br/>                                                                                |
-| [**Width**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_width)<br/>                           | Lecture seule<br/>  | Obtient la largeur de l’objet **PenInputPanel** dans les coordonnées clientes.<br/>                                                                                               |
+| [**Largeur**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_width)<br/>                           | Lecture seule<br/>  | Obtient la largeur de l’objet **PenInputPanel** dans les coordonnées clientes.<br/>                                                                                               |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
@@ -136,7 +136,7 @@ Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

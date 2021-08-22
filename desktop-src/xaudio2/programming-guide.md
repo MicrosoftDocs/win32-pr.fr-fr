@@ -4,12 +4,12 @@ description: Cette section répertorie les rubriques de vue d’ensemble de l’
 ms.assetid: 3d366a18-290d-5de8-4bcc-2178bd7c4c2c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d39dc28be35f94909aacced8dfbdae935c9739e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d38ef3b6886cbc2f2d36a229ce61449b74d0e8b35350e925f994f25c0181ddf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926409"
 ---
 # <a name="xaudio2-programming-guide"></a>Guide de programmation XAudio2
 
@@ -26,7 +26,7 @@ Cette section répertorie les rubriques de vue d’ensemble de l’interface de 
 | <span id="Getting_Started"></span><span id="getting_started"></span><span id="GETTING_STARTED"></span>[Prise en main](getting-started.md)<br/>                                    | Décrit la configuration de XAudio2 dans le jeu.<br/>                                                                                         |
 | <span id="Voices"></span><span id="voices"></span><span id="VOICES"></span>[Voix](voices.md)<br/>                                                                                 | Décrit les types de voix XAudio2 et comment les utiliser.<br/>                                                                   |
 | <span id="Callbacks"></span><span id="callbacks"></span><span id="CALLBACKS"></span>[Rappels](callbacks.md)<br/>                                                                  | Fournit des détails sur les rappels disponibles pour une utilisation avec XAudio2.<br/>                                                          |
-| <span id="Audio_Graph"></span><span id="audio_graph"></span><span id="AUDIO_GRAPH"></span>[Graphique audio](audio-graphs.md)<br/>                                                       | Décrit le graphique audio XAudio2.<br/>                                                                                            |
+| <span id="Audio_Graph"></span><span id="audio_graph"></span><span id="AUDIO_GRAPH"></span>[Graph audio](audio-graphs.md)<br/>                                                       | Décrit le graphique audio XAudio2.<br/>                                                                                            |
 | <span id="Audio_Effects"></span><span id="audio_effects"></span><span id="AUDIO_EFFECTS"></span>[Effets audio](audio-effects.md)<br/>                                              | Décrit l’utilisation des effets du traitement des signaux numériques avec XAudio2.<br/>                                                               |
 | <span id="Streaming_Audio_Data"></span><span id="streaming_audio_data"></span><span id="STREAMING_AUDIO_DATA"></span>[Diffusion en continu de données audio](streaming-audio-data.md)<br/>           | Décrit comment diffuser un son à partir d’un disque à l’aide de XAudio2.<br/>                                                                      |
 | <span id="X3DAudio_Overview"></span><span id="x3daudio_overview"></span><span id="X3DAUDIO_OVERVIEW"></span>[Présentation de X3DAudio](x3daudio.md)<br/>                                   | Décrit comment X3DAudio est utilisé conjointement avec XAudio2 pour créer l’illusion d’un son provenant d’un point dans l’espace 3D.<br/> |

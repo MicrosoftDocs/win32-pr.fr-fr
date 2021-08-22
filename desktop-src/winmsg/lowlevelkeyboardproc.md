@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: f33acbb6888bad97a03b610c513cbaf9c3750684
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: 5a9a2a0cb5ccf60fe5cfc9f495b621669ba1d85ca04eeb7ecd345cdc60d48bc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "104030962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548569"
 ---
 # <a name="lowlevelkeyboardproc-function"></a>LowLevelKeyboardProc fonction)
 
@@ -96,7 +96,7 @@ Si *nCode* est inférieur à zéro, la procédure de raccordement doit retourner
 Si *nCode* est supérieur ou égal à zéro et que la procédure de hook n’a pas traité le message, il est vivement recommandé d’appeler **CallNextHookEx** et de retourner la valeur qu’il retourne ; dans le cas contraire, les autres applications qui ont installé [WH_KEYBOARD_LL](about-hooks.md) hooks ne recevront pas de notifications de raccordement et pourront se comporter de manière incorrecte.
 Si la procédure de Hook a traité le message, elle peut retourner une valeur différente de zéro pour empêcher le système de transmettre le message au reste de la chaîne de raccordement ou à la procédure de fenêtre cible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application installe la procédure de raccordement en spécifiant le type de hook **WH_KEYBOARD_LL** et un pointeur vers la procédure de Hook dans un appel à la fonction **SetWindowsHookEx** .
 
@@ -114,7 +114,7 @@ La procédure de raccordement doit traiter un message en moins de temps que l’
 
 Cette valeur est exprimée en millisecondes.
 Si la procédure de raccordement expire, le système transmet le message au Hook suivant.
-Toutefois, sur Windows 7 et versions ultérieures, le hook est supprimé en mode silencieux sans être appelé.
+toutefois, sur Windows 7 et versions ultérieures, le hook est supprimé en mode silencieux sans être appelé.
 L’application n’a aucun moyen de savoir si le hook est supprimé.
 
 Remarque : les raccordements de débogage ne peuvent pas suivre ce type de hook de clavier de bas niveau.
