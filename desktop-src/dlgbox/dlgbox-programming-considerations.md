@@ -3,8 +3,8 @@ title: Considérations relatives à la programmation des boîtes de dialogue
 description: Cette vue d’ensemble décrit quelques considérations relatives à la programmation concernant les boîtes de dialogue.
 ms.assetid: 49024a0f-ea92-4d56-b063-8e5fcdbd884a
 keywords:
-- Interface utilisateur Windows, fenêtrage
-- Interface utilisateur Windows, boîtes de dialogue
+- Windows Interface utilisateur, fenêtrage
+- Windows Interface utilisateur, boîtes de dialogue
 - fenêtrage, boîtes de dialogue
 - boîtes de dialogue, à propos de
 - procédures de boîte de dialogue
@@ -21,12 +21,12 @@ keywords:
 - boîtes de dialogue, paramètres
 ms.topic: article
 ms.date: 08/25/2020
-ms.openlocfilehash: 790abe7c76cdb99f86b2a90a133b15faae721e0e
-ms.sourcegitcommit: f7cf41ffc79d1ffead9de2fc61677201f94b423a
+ms.openlocfilehash: 956f700841b0a3d76b7e071f0232382507394879a0253bc4cbcea533fdbb23bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "106510712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119456249"
 ---
 # <a name="dialog-box-programming-considerations"></a>Considérations relatives à la programmation des boîtes de dialogue
 
@@ -256,7 +256,7 @@ De nombreux contrôles reconnaissent des messages prédéfinis qui, lorsqu’ils
 
 Une procédure de boîte de dialogue peut envoyer un message à un contrôle en fournissant l’identificateur de contrôle et à l’aide de la fonction [**SendDlgItemMessage**](/windows/desktop/api/Winuser/nf-winuser-senddlgitemmessagea) , qui est identique à la fonction [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) , sauf qu’elle utilise un identificateur de contrôle au lieu d’un handle de fenêtre pour identifier le contrôle qui doit recevoir le message. Un message spécifié peut exiger que la procédure de dialogue envoie des paramètres avec le message et que le message puisse avoir des valeurs de retour correspondantes. L’opération et les exigences de chaque message de contrôle dépendent de l’objectif du message et du contrôle qui le traite.
 
-Pour plus d’informations sur les messages de contrôle, consultez [contrôles Windows](../controls/window-controls.md).
+pour plus d’informations sur les messages de contrôle, consultez [Windows des contrôles](../controls/window-controls.md).
 
 ## <a name="custom-dialog-boxes"></a>Boîtes de dialogue personnalisées
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: af3ef6c2c5ccae2b6410ac8fc81c815f790b17a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04bc22af11d83078ecf98d0386b061b520fbf9a8dcab6f6beb360c45b1c6fe96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555819"
 ---
 # <a name="modifyframe-function"></a>ModifyFrame fonction)
 
@@ -84,7 +84,7 @@ Si la fonction réussit, la valeur de retour est un handle vers un nouveau Frame
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’appel réussit, la fonction **ModifyFrame** détruit le frame d’origine.
 

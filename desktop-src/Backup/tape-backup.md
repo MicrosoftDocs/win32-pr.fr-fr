@@ -7,12 +7,12 @@ keywords:
 - Sauvegarde sur bande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2820e512646642046059cb151061e3f605d56cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 217c1a536b8a1a345218d3748c6207e9b336b84eca4cea0f4e48b4e84c521733
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588829"
 ---
 # <a name="tape-backup"></a>Sauvegarde sur bande
 
@@ -37,9 +37,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 -   [Création d’une application de sauvegarde](creating-a-backup-application.md)
 -   [Sauvegarde et restauration des liens physiques](backing-up-and-restoring-hard-links.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: d8b2522227041858770c7256d7d2520cc661948e
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: da92a9bc0de6667b80a74945adb23f1a4f5e4b18e2d614ec130990f3bcddaa69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106535104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503289"
 ---
 # <a name="swbemrefresherrefresh-method"></a>SWbemRefresher. Refresh, méthode
 

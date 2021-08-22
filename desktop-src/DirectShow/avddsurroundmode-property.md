@@ -4,12 +4,12 @@ ms.assetid: b33839c8-4829-4d90-94de-e461772d3e94
 title: Propriété AVDDSurroundMode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac2bfe34d55f3ab7b45d936f5842e46188d5452
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 06b0f4be094861b8bd84b7c1fe0d801bbdcde6284d8f6d5985fffd294db302ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503169"
 ---
 # <a name="avddsurroundmode-property"></a>Propriété AVDDSurroundMode
 
@@ -35,8 +35,8 @@ La valeur de cette propriété est un membre de l’énumération [**eAVDDSurrou
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

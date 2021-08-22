@@ -4,16 +4,16 @@ ms.assetid: 01abe1fe-fc2f-44cb-9546-45a8d682a179
 title: Jeu de propriétés du pas à pas de frame
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0ccd79feda0e5e2e537390fe5598822fb3787f6
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 5ccddab4cd7f302dc850a4581ce8e70dcffc9cb6a4943c8f768a74c890edfb9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564999"
 ---
 # <a name="frame-stepping-property-set"></a>Jeu de propriétés du pas à pas de frame
 
-Les décodeurs qui implémentent une recherche de précision des frames sous Microsoft DirectShow doivent implémenter le \_ \_ jeu de propriétés FrameStep am KSPROPSETID, qui est utilisé conjointement avec l’interface [**IVideoFrameStep**](/windows/desktop/api/Strmif/nn-strmif-ivideoframestep) .
+les décodeurs qui implémentent une recherche avec une précision de frame sous Microsoft DirectShow doivent implémenter le \_ \_ jeu de propriétés FrameStep AM KSPROPSETID, qui est utilisé conjointement avec l’interface [**IVideoFrameStep**](/windows/desktop/api/Strmif/nn-strmif-ivideoframestep) .
 
 
 

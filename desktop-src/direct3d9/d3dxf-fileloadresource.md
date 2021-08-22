@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9xof.h
-ms.openlocfilehash: ee5dc27b551382a5fa5d1c7f4833c94b205e5521
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ddc105d3df7732e1572e41c3d9cb47a285caf69cba0a24f6ea65090706394592
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564929"
 ---
 # <a name="d3dxf_fileloadresource-structure"></a>D3DXF \_ FILELOADRESOURCE, structure
 
@@ -74,7 +74,7 @@ Pointeur vers une chaîne qui spécifie le type défini par l’utilisateur qui 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure identifie une ressource à charger lorsqu’une application utilise la méthode [**CreateEnumObject**](id3dxfile--createenumobject.md) et spécifie l’indicateur [D3DXF \_ FILELOAD \_ FROMRESOURCE](d3dxf.md) .
 

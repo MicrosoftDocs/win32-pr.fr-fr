@@ -5,12 +5,12 @@ ms.assetid: 0B77E238-E8CF-466B-9188-3DE96AF97F42
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 02/10/2020
-ms.openlocfilehash: 94bc1492e3b984d96c76788430d2e63c0672ca76
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: c33321b02f22378f4d039137b8ff65559a25a32ed219c2bf336528913777791d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104548529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460789"
 ---
 # <a name="uav-counters"></a>Compteurs UAV
 Vous pouvez utiliser des compteurs non ordonnés-Access-View (UAV) pour associer un compteur Atomic 32 bits à un mode d’accès non ordonné (UAV).

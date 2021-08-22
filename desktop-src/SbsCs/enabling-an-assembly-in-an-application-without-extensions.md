@@ -4,12 +4,12 @@ ms.assetid: d043ec1b-ac31-45fb-9232-eec42aef4ac3
 title: Activation d’un assembly dans une application sans extensions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1bbcfe510f5a3cdbce323f01cb9342ce236c7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a6666d7b50775438f0d4a3edd13658e5c18127a21c37ec95e46a873682e6f8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142252"
 ---
 # <a name="enabling-an-assembly-in-an-application-without-extensions"></a>Activation d’un assembly dans une application sans extensions
 

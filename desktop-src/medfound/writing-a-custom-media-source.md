@@ -4,12 +4,12 @@ ms.assetid: 82db6f32-ad94-4563-b8bd-8a5072c5b221
 title: Écriture d’une source de média personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8769fa16d4dcbfd3438b66f9a9e78c34274735a5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e240277d5bbbabe5068f3a5f10bdb0312c29410def51bdced14715c1d3d68b07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106522501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343189"
 ---
 # <a name="writing-a-custom-media-source"></a>Écriture d’une source de média personnalisée
 
@@ -145,7 +145,7 @@ Après l’arrêt, toutes les méthodes sur la source retournent l' **\_ \_ arr�
 
 ## <a name="live-sources"></a>Sources en direct
 
-À partir de Windows 7, Media Foundation prend en charge automatiquement les périphériques de capture audio et vidéo. Pour la vidéo, l’appareil doit fournir un minipilote de streaming de noyau (KS) dans la catégorie capture vidéo. Media Foundation utilise le chemin PnP pour énumérer l’appareil. Pour le son, Media Foundation utilise l’API Windows Multimedia Device (MMDevice) pour énumérer les appareils de point de terminaison audio. Si l’appareil répond à ces critères, il n’est pas nécessaire d’implémenter une source de média personnalisée.
+à partir de Windows 7, Media Foundation prend automatiquement en charge les périphériques de capture audio et vidéo. Pour la vidéo, l’appareil doit fournir un minipilote de streaming de noyau (KS) dans la catégorie capture vidéo. Media Foundation utilise le chemin PnP pour énumérer l’appareil. pour l’audio, Media Foundation utilise l’API MMDevice (Windows Multimedia Device) pour énumérer les appareils de point de terminaison audio. Si l’appareil répond à ces critères, il n’est pas nécessaire d’implémenter une source de média personnalisée.
 
 Toutefois, vous souhaiterez peut-être implémenter une source de média personnalisée pour un autre type d’appareil ou une autre source de données active. Il n’existe que quelques différences entre une source en direct et d’autres sources multimédias :
 

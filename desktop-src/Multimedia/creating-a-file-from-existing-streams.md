@@ -1,20 +1,20 @@
 ---
-title: Création d’un fichier à partir de flux existants
-description: Création d’un fichier à partir de flux existants
+title: Création d’un fichier à partir d’un Flux existant
+description: Création d’un fichier à partir d’un Flux existant
 ms.assetid: 5149a766-7809-42b7-8e5c-b67b847b9218
 keywords:
 - AVISave fonction)
 - AVISaveV fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc422d2170ccd49b8a9746666db7ebbcd7dff14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a15a6ad3770f93bc2fb77dcb79975e1e9aa1fc8da7319e34c140baf488a69554
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498009"
 ---
-# <a name="creating-a-file-from-existing-streams"></a>Création d’un fichier à partir de flux existants
+# <a name="creating-a-file-from-existing-streams"></a>Création d’un fichier à partir d’un Flux existant
 
 Une façon de créer un fichier contenant des flux de données consiste à combiner des flux existants dans un nouveau fichier. Les flux qui fournissent des données pour le nouveau fichier peuvent résider dans la mémoire ou dans un ou plusieurs fichiers.
 
@@ -33,11 +33,11 @@ Vous pouvez créer un pointeur d’interface de fichier (et un fichier virtuel) 
 > [!Note]  
 > Pour réduire la dégradation des images et du son, évitez de compresser un fichier AVI plusieurs fois. Combinez des éléments vidéo non compressés dans votre système de montage, puis compressez le produit final. Pour plus d’informations sur les options de compression, consultez [Video Compression Manager](video-compression-manager.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

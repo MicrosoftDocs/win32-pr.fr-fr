@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cce77ce076eb17132be6ed6908a49d1fcfc77f21
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 088230f2b09089fafaa1fbe4cb67684a873c97d14d612801383222d011e1ecfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119283739"
 ---
 # <a name="reset-method-of-the-cim_diskpartition-class"></a>Méthode Reset de la \_ classe CIM DiskPartition
 
@@ -43,11 +43,11 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

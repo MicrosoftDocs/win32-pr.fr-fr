@@ -26,16 +26,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b8e608d1419cd381c507874bf1f1c334d192ae2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 225c801770bb41337ee9f3ae248092c60441cd2e9a059f64897ad19053bfe30b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107698"
 ---
 # <a name="jet_opentemporarytablecbkeymost-property"></a>JET_OPENTEMPORARYTABLE. cbKeyMost, propriété
 
-Obtient ou définit la taille maximale d’une clé représentant une ligne donnée. La taille de clé maximale peut être définie pour contrôler la façon dont les clés sont tronquées. La troncation de clé est importante, car elle peut affecter le moment où les lignes sont considérées comme distinctes. Si ce paramètre a la valeur 0 ou 255, la taille maximale de la clé et sa sémantique restent identiques à la taille de clé maximale prise en charge par Windows Server 2003. Ce paramètre peut également être défini sur une valeur supérieure en fonction de la taille de page de la base de données pour l’instance [DatabasePageSize](./jet-param-enumeration.md). Pour [plus](./vistaparam.keymost-field.md) d’informations, consultez.
+Obtient ou définit la taille maximale d’une clé représentant une ligne donnée. La taille de clé maximale peut être définie pour contrôler la façon dont les clés sont tronquées. La troncation de clé est importante, car elle peut affecter le moment où les lignes sont considérées comme distinctes. si ce paramètre a la valeur 0 ou 255, la taille maximale de la clé et sa sémantique restent identiques à la taille de clé maximale prise en charge par Windows Server 2003. Ce paramètre peut également être défini sur une valeur supérieure en fonction de la taille de page de la base de données pour l’instance [DatabasePageSize](./jet-param-enumeration.md). Pour [plus](./vistaparam.keymost-field.md) d’informations, consultez.
 
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop. Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)

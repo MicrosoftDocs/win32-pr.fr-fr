@@ -3,7 +3,7 @@ title: VIDEO. fullScreen
 description: L’attribut fullScreen spécifie ou récupère une valeur indiquant si la vidéo est affichée en mode plein écran.
 ms.assetid: de74d95a-31a2-4f65-811c-4e8018ee484a
 keywords:
-- VIDEO. fullScreen Windows Media Player
+- VIDEO. fullScreen Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c27fa1bde6437b55689494751410145995862d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e8150843ab14148d398b11cba82aa52711621c15962976ca37d5332a6ae58f24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465690"
 ---
 # <a name="videofullscreen"></a>VIDEO. fullScreen
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété ne peut être spécifiée qu’au moment de l’exécution, une fois qu’un fichier a été chargé. Il doit donc être défini dans un gestionnaire d’événements de script. Le bouton d’échappement est utilisé pour revenir à un affichage normal.
 

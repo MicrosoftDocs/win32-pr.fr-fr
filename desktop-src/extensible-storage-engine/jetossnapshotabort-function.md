@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d976f027a940bcf0199016d0e617d515273183ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70f4a7cc3db5b5c6ef90c59de05cd9c0acea9d1dfb4ac1eeeba119ded5e89c14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119559809"
 ---
 # <a name="jetossnapshotabort-function"></a>JetOSSnapshotAbort fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetossnapshotabort-function"></a>JetOSSnapshotAbort fonction)
 
 La fonction **JetOSSnapshotAbort** avertit le moteur qu’il peut reprendre des opérations d’e/s normales après la fin d’une période de blocage avec un instantané ayant échoué.
 
-**Windows server 2003 :**  **JetOSSnapshotAbort** est introduit dans Windows Server 2003.
+**Windows server 2003 :****JetOSSnapshotAbort** est introduite dans Windows server 2003.  
 
 ```cpp
     JET_ERR JET_API JetOSSnapshotAbort(
@@ -55,7 +55,7 @@ Options pour cet appel. Ce paramètre est réservé pour une utilisation ultéri
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -89,7 +89,7 @@ Si cette fonction est exécutée correctement, la session d’instantané se ter
 
 Si cette fonction échoue, la session d’instantané n’est pas abandonnée.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Cette fonction doit être appelée à la place de [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) pour informer le moteur que l’instantané a été abandonné pour des raisons qui ne sont pas liées au moteur. Ces informations peuvent être utilisées ultérieurement pour aider à émettre des messages du journal des événements concernant la session d’instantané ou pour aider à déterminer d’autres actions appropriées.
 
@@ -103,11 +103,11 @@ Cette fonction doit être appelée à la place de [JetOSSnapshotThaw](./jetossna
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista.</p></td>
+<td><p>requiert Windows Vista.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

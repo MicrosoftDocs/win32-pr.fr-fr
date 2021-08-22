@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62fa1731b96f34403587c71944e94dd1e7502751
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 14207720379bdd0e441cadff04844bf70bf7e6aae40ceb192de99fca561c0c5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300969"
 ---
 # <a name="meetingadvertisescope-attribute"></a>attribut meetingAdvertiseScope
 
@@ -44,7 +44,7 @@ Indique si une entrée doit être publiée en dehors d’un proxy ou d’une pas
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

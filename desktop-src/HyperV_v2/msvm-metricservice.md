@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c4117e3adf3db5a2b0073615ae999b9f85bb9b18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 940496e5154732fcec1912c79e4166786c48fba455a50687f508a962e7462b70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148312"
 ---
 # <a name="msvm_metricservice-class"></a>MSVM \_ MetricService, classe
 
@@ -518,7 +518,7 @@ Dernier État demandé ou souhaité pour l’élément. L’état réel de l’�
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -628,8 +628,8 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

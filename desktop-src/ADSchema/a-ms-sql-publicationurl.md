@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-PublicationURL
-description: L’attribut MS-SQL-PublicationURL n’est pas utilisé actuellement.
+title: attribut MS-SQL-PublicationURL
+description: l’attribut MS-SQL-PublicationURL n’est pas utilisé actuellement.
 ms.assetid: d758274e-7b55-4f94-a652-a33960a78fef
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-PublicationURL
-- Schéma AD de l’attribut mS-SQL-PublicationURL
+- schéma AD de l’attribut MS-SQL-PublicationURL
+- schéma AD de l’attribut mS-SQL-PublicationURL
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbea0cdad10c046d544529ad7b0467c32556c63a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: de0c2eb666cc848f7d64156bec109e8ae17dcd1b7a5a30828c4ea0974688d6df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119299599"
 ---
-# <a name="ms-sql-publicationurl-attribute"></a>Attribut MS-SQL-PublicationURL
+# <a name="ms-sql-publicationurl-attribute"></a>attribut MS-SQL-PublicationURL
 
-L’attribut **MS-SQL-PublicationURL** n’est pas utilisé actuellement.
+l’attribut **MS-SQL-PublicationURL** n’est pas utilisé actuellement.
 
 
 
@@ -45,7 +45,7 @@ L’attribut **MS-SQL-PublicationURL** n’est pas utilisé actuellement.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

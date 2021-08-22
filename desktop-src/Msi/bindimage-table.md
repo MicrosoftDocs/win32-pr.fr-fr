@@ -4,12 +4,12 @@ ms.assetid: 68bf064c-dd85-4796-8e08-6af307f94ad8
 title: Table BindImage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f47b97efc8886d7748d0426a49ed76567810939c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 729ae4f36f3b258845bcba13748495dc9dfb53c86268bd61e98475d1c7c0c282
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500763"
 ---
 # <a name="bindimage-table"></a>Table BindImage
 
@@ -22,7 +22,7 @@ La table BindImage contient les colonnes suivantes.
 | Colonne | Type                         | Clé | Nullable |
 |--------|------------------------------|-----|----------|
 | fichier\_ | [Identificateur](identifier.md) | O   | N        |
-| Chemin d’accès   | [Chemins d’accès](paths.md)           | N   | O        |
+| Chemin   | [Chemins d’accès](paths.md)           | N   | O        |
 
 
 
@@ -46,7 +46,7 @@ Liste de chemins d’accès, séparés par des points-virgules, qui représenten
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le programme d’installation calcule l’adresse virtuelle de chaque fonction importée à partir de toutes les dll, et l’adresse virtuelle calculée est ensuite enregistrée dans la table d’adresses d’importation (IAT) de l’image d’importation.
 

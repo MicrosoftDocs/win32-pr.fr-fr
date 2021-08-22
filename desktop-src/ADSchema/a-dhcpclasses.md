@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f87d4c2ebc34323f9a370fd14816deafb41d06a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 27ee1f5c0ff9ac4fb06602ab8321b4373acce391b9a38f2eab159b58f2c970b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119326719"
 ---
 # <a name="dhcp-classes-attribute"></a>attribut classes DHCP
 
@@ -45,7 +45,7 @@ L’attribut **DHCP-classes** n’est pas utilisé actuellement.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

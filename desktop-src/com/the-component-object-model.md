@@ -4,16 +4,16 @@ description: COM (Component Object Model)
 ms.assetid: f5f66603-466c-496b-be29-89a8ed9361dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 786a4bef59401877f642273ba7a97756232ac083
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07ad81adeaf41670468dd41bbf344a3fd7358c14f4b3cbeb2e482812a083ecfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462339"
 ---
 # <a name="the-component-object-model"></a>COM (Component Object Model)
 
-Le modèle COM (Component Object Model) Microsoft est un système orienté objet et indépendant de la plateforme, qui permet de créer des composants logiciels binaires pouvant interagir. COM est la technologie de base pour les composants OLE de Microsoft (documents composés), ActiveX (composants Internet), ainsi que d’autres.
+Le modèle COM (Component Object Model) Microsoft est un système orienté objet et indépendant de la plateforme, qui permet de créer des composants logiciels binaires pouvant interagir. COM est la technologie de base pour OLE (documents composés) de Microsoft, ActiveX (composants Internet), ainsi que d’autres.
 
 Pour comprendre COM (et, par conséquent, toutes les technologies basées sur COM), il est essentiel de comprendre qu’il ne s’agit pas d’un langage orienté objet, mais d’une norme. COM n’indique pas non plus comment une application doit être structurée ; les détails de la langue, de la structure et de l’implémentation sont laissés au développeur de l’application. Au lieu de cela, COM spécifie un modèle objet et des exigences de programmation qui permettent aux objets COM (également appelés composants COM, ou parfois simplement des *objets*) d’interagir avec d’autres objets. Ces objets peuvent se trouver dans un processus unique, dans d’autres processus, et peuvent même se trouver sur des ordinateurs distants. Ils peuvent être écrits dans des langages différents et peuvent être structurés de manière très différente, ce qui explique pourquoi COM est désigné comme une *norme binaire*. norme qui s’applique après qu’un programme a été traduit en code machine binaire.
 
@@ -31,9 +31,9 @@ Les rubriques suivantes de cette section décrivent les problèmes COM de base l
 -   [Bibliothèque COM](the-com-library.md)
 -   [Gestion de l’allocation de mémoire](managing-memory-allocation.md)
 
- 
+ 
 
- 
+ 
 
 
 

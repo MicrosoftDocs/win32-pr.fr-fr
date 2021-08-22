@@ -4,12 +4,12 @@ ms.assetid: 349ea57f-dd25-4e33-bbdf-63a320eae3a0
 title: Utilisation d’une police stock pour dessiner du texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56a7e580175956185bcc26a7ebbae8d46dfff078
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9bd140a931a13f6232235036fb7b9cf3de1a20505666e869f214219b7a60a95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468329"
 ---
 # <a name="using-a-stock-font-to-draw-text"></a>Utilisation d’une police stock pour dessiner du texte
 
@@ -19,11 +19,11 @@ Le système fournit six polices boursières. Une police stockée est une police 
 
 | Valeur                 | Signification                                                                                                                                                                                                                                                                                         |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_police ANSI fixe \_     | Spécifie une police à espacement fixe basée sur le jeu de caractères Windows. Une police courier est généralement utilisée.                                                                                                                                                                                                |
-| \_police ANSI var \_       | Spécifie une police proportionnelle basée sur le jeu de caractères Windows. MS Sans Serif est généralement utilisé.                                                                                                                                                                                              |
+| \_police ANSI fixe \_     | spécifie une police à espacement fixe basée sur le jeu de caractères Windows. Une police courier est généralement utilisée.                                                                                                                                                                                                |
+| \_police ANSI var \_       | spécifie une police proportionnelle basée sur le jeu de caractères Windows. MS Sans Serif est généralement utilisé.                                                                                                                                                                                              |
 | \_police par défaut de l’appareil \_ | Spécifie la police par défaut pour l’appareil spécifié. Il s’agit généralement de la police système pour les périphériques d’affichage. Toutefois, pour certaines imprimantes matricielles, il s’agit d’une police qui réside sur l’appareil. (L’impression avec cette police est généralement plus rapide que l’impression avec une police bitmap téléchargée).    |
 | \_police OEM fixe \_      | Spécifie une police à espacement fixe basée sur un jeu de caractères OEM. Pour les ordinateurs IBM et compatibles, la police OEM est basée sur le jeu de caractères IBM PC.                                                                                                                                                 |
-| \_police système          | Spécifie la police système. Il s’agit d’une police proportionnelle basée sur le jeu de caractères Windows. elle est utilisée par le système d’exploitation pour afficher des titres de fenêtre, des noms de menu et du texte dans les boîtes de dialogue. La police système est toujours disponible. D’autres polices ne sont disponibles que si elles ont été installées. |
+| \_police système          | Spécifie la police système. il s’agit d’une police proportionnelle basée sur le jeu de caractères Windows, qui est utilisée par le système d’exploitation pour afficher des titres de fenêtre, des noms de menu et du texte dans les boîtes de dialogue. La police système est toujours disponible. D’autres polices ne sont disponibles que si elles ont été installées. |
 | \_police système fixe \_   | Spécifie une police à espacement fixe compatible avec la police système dans les versions antérieures de Windows.                                                                                                                                                                                                        |
 
 

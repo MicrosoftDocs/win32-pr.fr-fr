@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cebab65cc067018b3a57aa5f6890fffad1cb4c7a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 38f41b28689ac8ae4bebc29248e27d8e6b17eae1b265237acd91ed2b03d97c9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321599"
 ---
 # <a name="cim_directory-class"></a>\_Classe de répertoire CIM
 
@@ -722,7 +722,7 @@ Nom hérité qui sert de clé d’une instance de fichier logique dans un systè
 
 Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md).
 
-Exemple : « C : \\ \\ système Windows \\win.ini »
+exemple : « C : \\ Windows \\ système \\win.ini »
 
 </dd> <dt>
 
@@ -904,7 +904,7 @@ Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ répertoire CIM** est dérivée de la [**\_ LogicalFile CIM**](cim-logicalfile.md).
 

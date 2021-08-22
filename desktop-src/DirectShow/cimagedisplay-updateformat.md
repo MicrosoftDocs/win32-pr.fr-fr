@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c6966da171e37e1cc285afc1872d221ca7aad99e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1e46065aae630132a1d7fd38a6d331009a537af18c12687fcbecd22dd7bf78b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119257199"
 ---
 # <a name="cimagedisplayupdateformat-method"></a>Méthode CImageDisplay. UpdateFormat
 
@@ -53,7 +53,7 @@ Pointeur vers une structure **VIDEOINFO** .
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode définit les membres **biClrUsed**, **biClrImportant** et **biSizeImage** sur les valeurs correctes, et efface les rectangles source et cible.
 
@@ -63,7 +63,7 @@ Cette méthode définit les membres **biClrUsed**, **biClrImportant** et **biSiz
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

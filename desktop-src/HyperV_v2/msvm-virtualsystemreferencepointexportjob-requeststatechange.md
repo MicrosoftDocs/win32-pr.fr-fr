@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: bd12d7cd5b79e38260e671bf1408304390985dac
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 520fb0d50c503da1fcacbd7fef8469e483f030b3567f229a1ca442f62d0d72ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531139"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualsystemreferencepointexportjob-class"></a>Méthode RequestStateChange de la \_ classe MSVM VirtualSystemReferencePointExportJob
 
@@ -123,7 +123,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne 0 en cas de réussite ; Sinon, retourne une erreur.
 
@@ -171,7 +171,7 @@ Retourne 0 en cas de réussite ; Sinon, retourne une erreur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

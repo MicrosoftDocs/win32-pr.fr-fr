@@ -3,7 +3,7 @@ title: AmbientAttributes.moveSizeTo
 description: La méthode moveSizeTo déplace le contrôle et spécifie une nouvelle taille pour le contrôle dans le nouvel emplacement. Le contrôle se déplace et se redimensionne de manière animée sur la période spécifiée.
 ms.assetid: 89e3bf16-a123-4fb1-8c24-bc22a978e7f6
 keywords:
-- Lecteur Windows Media AmbientAttributes. moveSizeTo
+- AmbientAttributes. moveSizeTo Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 406d48772e85a55ab82241518d499182931cc2fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 936a6696dfcc99c5a181906eb970f84c7019af7905c466f09e820044f6220271
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119469949"
 ---
 # <a name="ambientattributesmovesizeto"></a>AmbientAttributes.moveSizeTo
 
@@ -88,7 +88,7 @@ La méthode **moveSizeTo** déplace le contrôle et spécifie une nouvelle taill
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le mouvement du contrôle peut être linéaire ou non linéaire. Le mouvement linéaire signifie que le contrôle se déplace à une vitesse constante jusqu’à son nouvel emplacement, en démarrant et en arrêt brutalement. Lorsque vous spécifiez un mouvement non linéaire, un mouvement coulissant est créé, ce qui accélère la valeur zéro au début du mouvement et ralentit vers la valeur zéro à la fin, en partant d’un arrêt lisse.
 

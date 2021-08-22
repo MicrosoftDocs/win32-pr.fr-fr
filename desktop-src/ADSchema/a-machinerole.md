@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c286c0380ab8dbc0e4947a656dcf5601f1662d09
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 92896d773b488585324f2b98986f61278f9c22db677e93e51cd231438b742a47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301329"
 ---
 # <a name="machine-role-attribute"></a>Attribut Machine-Role
 
@@ -36,7 +36,7 @@ Rôle pour un ordinateur : DC, serveur ou station de travail.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.71                |
 | System-ID-GUID    | bf9679b2-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Rôle pour un ordinateur : DC, serveur ou station de travail.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

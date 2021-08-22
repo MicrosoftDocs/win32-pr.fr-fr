@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fdd64e831c233092870352b0d3b1834d5108b91
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5ee352cdb9849e5277d8d23f4b0b79bc6588c0fa25f794d9886d8125ab6be477
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322583"
 ---
 # <a name="ipsec-id-attribute"></a>Attribut d’ID IPSec
 
@@ -45,7 +45,7 @@ L’attribut d' **ID IPSec** est destiné à un usage interne uniquement.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

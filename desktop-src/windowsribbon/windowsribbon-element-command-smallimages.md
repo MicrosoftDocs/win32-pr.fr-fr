@@ -3,7 +3,7 @@ title: Command. SmallImages, propriété
 description: Représente un conteneur d’images ; dans ce cas, les petites images.
 ms.assetid: 15c00e61-543a-4cc8-b329-516985d02359
 keywords:
-- Ruban Windows de la propriété Command. SmallImages
+- propriété Command. SmallImages Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b18556cf519c21b01c3e80b63cbfc9cdf9d7d153
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63445f2dbfce88e9793b3563d0ce8ed9861f45fa0831680a455b1a0a04bb4bd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329269"
 ---
 # <a name="commandsmallimages-property"></a>Command. SmallImages, propriété
 
 Représente un conteneur d’images ; dans ce cas, les petites images.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Command.SmallImages>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**commande**](windowsribbon-element-command.md).
 
@@ -117,8 +117,8 @@ Cette section de code montre les déclarations de commande [**SplitButton**](win
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

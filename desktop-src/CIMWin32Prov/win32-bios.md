@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 53c1e953c9c1348a133cf4755ab04f6024c42034
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bda0a1a07de4411b9a8c683fb2c7e84156b658361df4f2eaf3aa5709c6d11a95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504289"
 ---
 # <a name="win32_bios-class"></a>\_Classe BIOS Win32
 
@@ -579,7 +579,7 @@ Version principale du microprogramme du contrôleur incorporé.
 
 Cette valeur provient du membre de la **version principale du microprogramme du contrôleur incorporé** de la structure d' **informations du BIOS** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -599,7 +599,7 @@ La version mineure du microprogramme du contrôleur incorporé.
 
 Cette valeur provient du membre de la **version mineure du microprogramme du contrôleur incorporé** de la structure d' **informations du BIOS** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -772,7 +772,7 @@ Type de données : **DateTime**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Date de publication du BIOS Windows au format de temps universel coordonné (UTC) de AAAAMMJJHHMMSS. MMMMMM (+-) OOO.
+date de publication du BIOS Windows au format de temps universel coordonné (UTC) de aaaammjjhhmmss. MMMMMM (+-) OOO.
 
 Cette valeur provient du membre de la **Date de publication** du BIOS de la structure d' **informations du BIOS** dans les informations SMBIOS.
 
@@ -1052,7 +1052,7 @@ La version majeure du BIOS du système.
 
 Cette valeur provient du membre **version principale du BIOS système** de la structure d' **informations du BIOS** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -1072,7 +1072,7 @@ La version mineure du BIOS du système.
 
 Cette valeur provient du membre de la **version mineure du BIOS système** de la structure d' **informations du BIOS** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 10 et Windows Server 2016.
 
 </dd> <dt>
 
@@ -1266,7 +1266,7 @@ Les valeurs possibles sont.
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-**Dépendant d’UNIX** (24)
+**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -1550,7 +1550,7 @@ Cette propriété est héritée de la [**\_ SoftwareElement CIM**](cim-softwaree
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **classe \_ BIOS Win32** est dérivée de la [**\_ BIOSElement CIM**](cim-bioselement.md).
 

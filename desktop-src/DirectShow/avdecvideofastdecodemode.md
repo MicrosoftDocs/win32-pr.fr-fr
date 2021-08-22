@@ -4,12 +4,12 @@ ms.assetid: 76F7013D-C172-4D31-93BC-EA3D186EB14C
 title: Propriété AVDecVideoFastDecodeMode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 355c085731befedbcb9245a67870d9d609a92c6f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2f36cd765754e73924caae401495e597ec69828ed62f08466884b10365517d17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503138"
 ---
 # <a name="avdecvideofastdecodemode-property"></a>Propriété AVDecVideoFastDecodeMode
 
@@ -35,8 +35,8 @@ L’énumération [**eAVFastDecodeMode**](/windows/desktop/api/codecapi/ne-codec
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

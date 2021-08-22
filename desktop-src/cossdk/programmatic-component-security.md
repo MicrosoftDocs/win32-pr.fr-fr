@@ -4,16 +4,16 @@ ms.assetid: 6117970c-5dbd-485e-978e-3aa96e42b359
 title: Sécurité des composants de programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31622608e4d4f54aeb53b403b5d8711ff9c6a9af
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3b3fc8813b6aff98f19e7c051067f3246c25b336ea7a99a2371f03c7f3f50883
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462109"
 ---
 # <a name="programmatic-component-security"></a>Sécurité des composants de programmation
 
-Lorsque vous utilisez la sécurité basée sur les rôles dans l’application COM+ qui contient votre composant, vous avez accès aux fonctionnalités de sécurité par programmation à partir de votre composant. Vous pouvez vérifier l’appartenance à un rôle pour déterminer si certaines sections de code sont exécutées, vous pouvez accéder à des informations de sécurité à l’aide de l’objet de contexte d’appel de sécurité et vous pouvez déterminer si la sécurité est activée pour l’appel en cours. Vous pouvez effectuer toutes ces tâches à l’aide d’une référence à un objet [**SecurityCallContext**](securitycallcontext.md) (pour les applications Microsoft Visual Basic) ou d’un pointeur vers l’interface [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) (pour les applications C et Microsoft Visual C++).
+Lorsque vous utilisez la sécurité basée sur les rôles dans l’application COM+ qui contient votre composant, vous avez accès aux fonctionnalités de sécurité par programmation à partir de votre composant. Vous pouvez vérifier l’appartenance à un rôle pour déterminer si certaines sections de code sont exécutées, vous pouvez accéder à des informations de sécurité à l’aide de l’objet de contexte d’appel de sécurité et vous pouvez déterminer si la sécurité est activée pour l’appel en cours. vous pouvez effectuer toutes ces tâches à l’aide d’une référence à un objet [**SecurityCallContext**](securitycallcontext.md) (pour les applications Microsoft Visual Basic) ou d’un pointeur vers l’interface [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext) (pour les applications C et Microsoft Visual C++).
 
 Pour plus d’informations sur la sécurité basée sur les rôles par programmation, consultez les rubriques suivantes dans cette section :
 

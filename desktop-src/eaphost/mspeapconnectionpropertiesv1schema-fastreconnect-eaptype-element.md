@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2214519db68b8c95b0e0efa91d68a7cd667b5f87
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 1bda956d698ebefef956e85557c6d940baa02f6bcc9ef7cca0081fd668107e18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106513554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119238719"
 ---
 # <a name="fastreconnect-eaptype-element"></a>Élément FastReconnect (EapType)
 
@@ -33,7 +33,7 @@ L’élément **FastReconnect (EapType)** indique s’il faut effectuer une reco
 
 L’élément **FastReconnect** est défini par l’élément [**EapType**](mspeapconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément **FastReconnect** a la valeur true, PEAP tente d’effectuer une reconnexion rapide ; Si la valeur est FALSe, PEAP effectue l’authentification complète. L’élément **FastReconnect** est facultatif.
 
@@ -41,10 +41,10 @@ Si l’élément **FastReconnect** a la valeur true, PEAP tente d’effectuer un
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Fonction | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

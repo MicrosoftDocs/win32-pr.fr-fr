@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 35248bcfa14609e8db25b148088b6feb8d161116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78ac2b89336a415bedd23e0ca4ecd6589abdefbf75a54900d716c78152d34d4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531759"
 ---
 # <a name="msvm_computersystemsummaryinformation-class"></a>MSVM \_ ComputerSystemSummaryInformation, classe
 
@@ -67,7 +67,7 @@ Objet [**CIM \_ CIM**](cim-computersystem.md) qui est une instance dans la repr�
 
 > [!Note]
 >
-> Type de données mis à niveau à partir de [**MSVM \_ ComputerSystem**](msvm-computersystem.md) dans Windows 10, version 1703.
+> type de données mis à niveau à partir de [**Msvm \_ ComputerSystem**](msvm-computersystem.md) dans Windows 10, version 1703.
 
  
 
@@ -89,7 +89,7 @@ Instance de [**MSVM \_ SummaryInformation**](msvm-summaryinformation.md) qui rep
 
 > [!Note]
 >
-> Type de données mis à jour à partir de [**MSVM \_ SummaryInformation**](msvm-summaryinformation.md) dans Windows 10, version 1703.
+> type de données mis à jour à partir de [**Msvm \_ SummaryInformation**](msvm-summaryinformation.md) dans Windows 10, version 1703.
 
  
 
@@ -101,7 +101,7 @@ Instance de [**MSVM \_ SummaryInformation**](msvm-summaryinformation.md) qui rep
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

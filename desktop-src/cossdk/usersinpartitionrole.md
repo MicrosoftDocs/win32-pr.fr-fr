@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2a4c134ebead08ef576337528a8ef75d8b8be21a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d07c62fc6c6cc871f803b1f752201bd500e2705c3cfca272ff350ffd018f6018
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499643"
 ---
 # <a name="usersinpartitionrole-collection"></a>Collection UsersInPartitionRole
 
@@ -54,7 +54,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom d'utilisateur. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Access         | WriteOnce                                                                                                                                                                             |
+| Accès         | WriteOnce                                                                                                                                                                             |
 | Type           | String                                                                                                                                                                                |
 | Valeur par défaut        | « Nouvel utilisateur »                                                                                                                                                                            |
 | Système minimal | Windows Server 2003                                                                                                                                                                   |

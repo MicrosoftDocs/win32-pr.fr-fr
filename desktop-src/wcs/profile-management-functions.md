@@ -3,15 +3,15 @@ title: Fonctions de gestion des profils
 description: Fonctions de gestion des profils
 ms.assetid: 185863b7-0b74-4c65-97c3-3c60b86d37fd
 keywords:
-- Windows Color System (WCS), fonctions
-- WCS (système de couleurs Windows), fonctions
+- Windows Système de couleurs (WCS), fonctions
+- WCS (Windows Color System), fonctions
 - gestion des couleurs des images, fonctions
 - gestion des couleurs, fonctions
 - couleurs, fonctions
 - Référence WCS, fonctions
 - référence pour WCS, functions
-- Système de couleurs Windows (WCS), profils
-- WCS (système de couleurs Windows), profils
+- Windows Système de couleurs (WCS), profils
+- WCS (Windows Color System), profils
 - gestion des couleurs des images, profils
 - gestion des couleurs, profils
 - couleurs, profils
@@ -21,12 +21,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0e80e300532b20148eef6d9dc362438b6714a3
-ms.sourcegitcommit: 3f366316c02c411c4c5e14620a699f6f30608634
+ms.openlocfilehash: d9f047c2dee199800fad976dd7b959fbbb54d585fd252fb8b5390c3223415db4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106531764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587769"
 ---
 # <a name="profile-management-functions"></a>Fonctions de gestion des profils
 
@@ -42,11 +42,11 @@ Les fonctions d’API suivantes sont utiles pour la gestion des profils.
 | [**CreateProfileFromLogColorSpaceW**] ((/windows/win32/api/icm/nf-icm-createprofilefromlogcolorspacew) | Convertit un [espace de couleurs](c.md) logique en un [profil de périphérique](d.md). |
 | [**DisassociateColorProfileFromDeviceW**](/windows/win32/api/icm/nf-icm-disassociatecolorprofilefromdevicew) | Dissocie un profil de couleurs spécifié avec un périphérique spécifié sur un ordinateur spécifié. |
 | [**EnumColorProfilesW**](/windows/win32/api/icm/nf-icm-enumcolorprofilesw) | Énumère tous les profils qui remplissent les critères d’énumération donnés. |
-| [**GetColorDirectoryW**](/windows/win32/api/icm/nf-icm-getcolordirectoryw) | Récupère le chemin d’accès du répertoire de couleurs Windows sur un ordinateur spécifié. |
+| [**GetColorDirectoryW**](/windows/win32/api/icm/nf-icm-getcolordirectoryw) | récupère le chemin d’accès du répertoire de couleurs Windows sur un ordinateur spécifié. |
 | [**GetDeviceGammaRamp**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicegammaramp)                                       | Obtient la rampe gamma à partir des panneaux d’affichage de couleur directe.                                                                                                |
 | [**GetStandardColorSpaceProfileW**](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew) | Récupère le profil de couleurs inscrit pour l’espace de [couleurs](c.md)standard spécifié. |
 | [**InstallColorProfileW**](/windows/win32/api/icm/nf-icm-installcolorprofilew) | Installe un profil donné pour une utilisation sur un ordinateur spécifié. Le profil est également copié dans le répertoire des couleurs. |
-| [**RegisterCMMW**](/windows/win32/api/icm/nf-icm-registercmmw) | Associe une valeur d’identification spécifiée à la bibliothèque de liens dynamiques du module de gestion des couleurs spécifiée (DLL CMM). Lorsque cet ID apparaît dans un profil de couleurs, Windows peut localiser le CMM correspondant afin de créer une transformation. |
+| [**RegisterCMMW**](/windows/win32/api/icm/nf-icm-registercmmw) | Associe une valeur d’identification spécifiée à la bibliothèque de liens dynamiques du module de gestion des couleurs spécifiée (DLL CMM). lorsque cet ID apparaît dans un profil de couleurs, Windows pouvez alors localiser le CMM correspondant afin de créer une transformation. |
 | [**SetDeviceGammaRamp**](/windows/desktop/api/Wingdi/nf-wingdi-setdevicegammaramp)                                       | Définit la rampe gamma sur les panneaux d’affichage de couleur directe.                                                                                                  |
 | [**SetStandardColorSpaceProfileW**](/windows/win32/api/icm/nf-icm-setstandardcolorspaceprofilew) | Inscrit un profil spécifié pour un [espace de couleurs](c.md)standard donné. Le profil peut être interrogé à l’aide de [GetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew). |
 | [**UninstallColorProfileW**](/windows/win32/api/icm/nf-icm-uninstallcolorprofilew) | Supprime un profil de couleurs spécifié d’un ordinateur spécifié. Les fichiers associés sont éventuellement supprimés du système. |
@@ -113,7 +113,7 @@ L’objectif de la conception décrite dans le document actif est le suivant :
 
  
 
-2. Toutes les API de gestion des profils ICM2 héritées modifient les paramètres au niveau du système et nécessitent des privilèges d’administrateur. Dans Windows Vista, tous les utilisateurs s’exécutent dans les paramètres de compte d’utilisateur à faibles privilèges (LUA) la plupart du temps, et les administrateurs peuvent élever les privilèges de manière sélective pour exécuter des applications qui modifient les paramètres au niveau du système. Dans la gestion des profils WCS, tous les paramètres de profil par utilisateur sont configurables dans le contexte LUA. Les applications de gestion des profils peuvent s’exécuter en tant que paramètres LUA, en renforçant leur portée d’utilisation et en veillant à ce que la sécurité du système ne soit pas compromise.
+2. Toutes les API de gestion des profils ICM2 héritées modifient les paramètres au niveau du système et nécessitent des privilèges d’administrateur. dans Windows Vista, tous les utilisateurs s’exécutent dans les paramètres de compte d’utilisateur à faibles privilèges (LUA) la plupart du temps, et les administrateurs peuvent élever les privilèges de manière sélective pour exécuter des applications qui modifient les paramètres au niveau du système. Dans la gestion des profils WCS, tous les paramètres de profil par utilisateur sont configurables dans le contexte LUA. Les applications de gestion des profils peuvent s’exécuter en tant que paramètres LUA, en renforçant leur portée d’utilisation et en veillant à ce que la sécurité du système ne soit pas compromise.
 
 La gestion des profils dans Vista offre les améliorations suivantes par rapport à l’infrastructure ICM2 héritée :
 
@@ -311,7 +311,7 @@ COLORPROFILETYPE
 
 COLORPROFILESUBTYPE valide
 
-Notes
+Remarques
 
 Paramètre par défaut de l’appareil
 
@@ -388,7 +388,7 @@ Nouvelle API WCS avec prise en charge de l’étendue de gestion du profil à l�
 
 
 
-Couche de stockage configuration de la gestion des profils
+Configuration de la gestion des profils Stockage couche
 
 Routines de configuration globale indépendantes du périphérique
 
@@ -398,7 +398,7 @@ $ {ROWSPAN3} $Profile l’installation et la gestion des paramètres de profil p
 
 L’Association d’appareils et la gestion des paramètres de profil par défaut spécifiques au périphérique, pris en charge dans l’étendue du stockage à l’échelle du système et de l’utilisateur actuel.
 
-Couche de stockage Device-Specific
+couche de Stockage Device-Specific
 
 Imprimer un stockage spécifique
 

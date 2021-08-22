@@ -4,12 +4,12 @@ description: Paquets de demande BITS
 ms.assetid: 4d8fd5f3-7621-438f-926f-38ece7a52f52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6738f77477342f1329818ae7c2ffb5c010b074c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 60921c9adb8e1312a6b74cd129e591db5a3be7807394807b984eb3fff153b3a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588679"
 ---
 # <a name="bits-request-packets"></a>Paquets de demande BITS
 
@@ -29,13 +29,13 @@ Le tableau suivant répertorie les paquets de demande envoyés au serveur BITS p
 
 
 
- 
+ 
 
 Le paquet ping est facultatif. Au lieu d’envoyer un paquet ping, vous pouvez utiliser le paquet Create-Session pour établir une connexion et négocier la sécurité. Toutefois, il est plus efficace d’utiliser le paquet ping à cet effet.
 
- 
+ 
 
- 
+ 
 
 
 

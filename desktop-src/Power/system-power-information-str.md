@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c32a8ad86b71ea680bd2961c9196a0896b055e5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 665c19a99bffae46cf20af8c5c634e2e9594ecd07d02f003f56d42277ce9a46f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143302"
 ---
 # <a name="system_power_information-structure"></a>Structure des informations de gestion de l’alimentation du système \_ \_
 
@@ -81,7 +81,7 @@ Mode de refroidissement du système actuel. Ce membre doit avoir l’une des val
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez que cette définition de structure a été omise par erreur dans Winnt. h. Cette erreur sera corrigée à l’avenir. En attendant, pour compiler votre application, incluez la définition de structure contenue dans cette rubrique dans votre code source.
 
@@ -91,8 +91,8 @@ Notez que cette définition de structure a été omise par erreur dans Winnt. h.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

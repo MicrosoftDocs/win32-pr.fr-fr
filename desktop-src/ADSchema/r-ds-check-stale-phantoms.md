@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f280d04a60b539d6559d9e5df830947742663b1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c2dcdec83da65117b0f04b7de08f4cd83abb589cc63fd1b8cfb053d3878e5196
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532359"
 ---
 # <a name="ds-check-stale-phantoms-extended-right"></a>DS-Check-périmé-fantômes étendus de droite
 
@@ -39,7 +39,7 @@ Droit étendu nécessaire pour forcer DS à vérifier les objets fantômes péri
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

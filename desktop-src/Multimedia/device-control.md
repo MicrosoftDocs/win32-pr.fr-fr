@@ -1,17 +1,17 @@
 ---
-title: Contrôle de périphérique (Windows Multimedia)
+title: contrôle de l’appareil (Windows multimédia)
 description: Contrôle de l’appareil
 ms.assetid: b4479803-f1da-4646-909e-c4ef412ebdcd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0e0b59127d160cc44418fd4bce1f9f670d13de
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6878e5e759f3eddb5e98d241d9a8d081005e3545dc2f0054b46630619eaa06fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497239"
 ---
-# <a name="device-control-windows-multimedia"></a>Contrôle de périphérique (Windows Multimedia)
+# <a name="device-control-windows-multimedia"></a>contrôle de l’appareil (Windows multimédia)
 
 Pour contrôler un appareil MCI, ouvrez l’appareil, envoyez-lui les commandes nécessaires, puis fermez l’appareil. Les commandes peuvent être très similaires, même pour les périphériques MCI complètement différents. Par exemple, la série suivante de commandes MCI lit la sixième piste d’un CD audio à l’aide de la fonction [**mciSendString**](/previous-versions//dd757161(v=vs.85)) :
 

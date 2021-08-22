@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbd1f660eef1df49499b8da279e6b2f6deb15b15
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 727f70425126d6a7e29289c92facca89c3ee857be9f6f1dc0d94d3ee00e0d204
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119298419"
 ---
 # <a name="ms-dfsr-rdcminfilesizeinkb-attribute"></a>attribut ms-DFSR-RdcMinFileSizeInKb
 
@@ -36,14 +36,14 @@ Contient la taille de fichier minimale, en kilo-octets, à laquelle appliquer RD
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.13.3.20           |
 | System-ID-GUID    | f402a330-ace5-4dc1-8cc9-74d900bf8ae0 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,7 +56,7 @@ Contient la taille de fichier minimale, en kilo-octets, à laquelle appliquer RD
 | ID de lien                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Faux                                                        |
-| Est de valeur unique       | Vrai                                                         |
+| Est de valeur unique       | True                                                         |
 | Est indexé             | Faux                                                        |
 | Dans le catalogue global      | Faux                                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                 |
@@ -77,7 +77,7 @@ Contient la taille de fichier minimale, en kilo-octets, à laquelle appliquer RD
 | ID de lien                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Faux                                                        |
-| Est de valeur unique       | Vrai                                                         |
+| Est de valeur unique       | True                                                         |
 | Est indexé             | Faux                                                        |
 | Dans le catalogue global      | Faux                                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                 |
@@ -98,7 +98,7 @@ Contient la taille de fichier minimale, en kilo-octets, à laquelle appliquer RD
 | ID de lien                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Faux                                                        |
-| Est de valeur unique       | Vrai                                                         |
+| Est de valeur unique       | True                                                         |
 | Est indexé             | Faux                                                        |
 | Dans le catalogue global      | Faux                                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                 |
@@ -119,7 +119,7 @@ Contient la taille de fichier minimale, en kilo-octets, à laquelle appliquer RD
 | ID de lien                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Faux                                                        |
-| Est de valeur unique       | Vrai                                                         |
+| Est de valeur unique       | True                                                         |
 | Est indexé             | Faux                                                        |
 | Dans le catalogue global      | Faux                                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                 |
@@ -131,7 +131,7 @@ Contient la taille de fichier minimale, en kilo-octets, à laquelle appliquer RD
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **MS-DFSR-RdcMinFileSizeInKb** fait partie de la prise en charge du service de réplication système de fichiers DFS (DFS).
 

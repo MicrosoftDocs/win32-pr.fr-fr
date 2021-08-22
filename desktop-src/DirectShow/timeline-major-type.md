@@ -13,17 +13,17 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 25c3e829aa73d1da78c110ffd148fb0ebaaebdd9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b18088a9d01b263c80a4ff941a6b7720043da708eaeaebf4f79a2084d1ed258f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501719"
 ---
 # <a name="timeline_major_type-enumeration"></a>\_Énumération de type principal de chronologie \_
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

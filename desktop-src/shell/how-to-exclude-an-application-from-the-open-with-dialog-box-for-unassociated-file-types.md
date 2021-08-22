@@ -3,12 +3,12 @@ description: Comment exclure une application de la boîte de dialogue Ouvrir ave
 title: Comment exclure une application de la boîte de dialogue Ouvrir avec pour les types de fichiers non associés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9443416e95fca112623d487bf58f4fce1d51d13d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d90ae5ab49128df1eedd9b760286ce54f6b6498cbe00d4a945145a80f956cde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119350911"
 ---
 # <a name="how-to-exclude-an-application-from-the-open-with-dialog-box-for-unassociated-file-types"></a>Comment exclure une application de la boîte de dialogue Ouvrir avec pour les types de fichiers non associés
 
@@ -22,7 +22,7 @@ Pour empêcher qu’une application n’apparaisse dans la boîte de dialogue **
 
 ### <a name="step-1"></a>Étape 1 :
 
-Ajoutez une entrée NoOpenWith à la sous-clé de l’application. Quand une application utilise un type de fichier, Windows enregistre ces informations pour créer la liste des **Programmes recommandés** . Cette liste est présentée dans le sous-menu **Ouvrir avec** , comme illustré dans la capture d’écran suivante.
+Ajoutez une entrée NoOpenWith à la sous-clé de l’application. quand une application utilise un type de fichier, Windows enregistre ces informations pour créer la liste des **programmes recommandés** . Cette liste est présentée dans le sous-menu **Ouvrir avec** , comme illustré dans la capture d’écran suivante.
 
 ![capture d’écran du menu contextuel avec le sous-menu Ouvrir avec affiché](images/file-assoc/openwithsubmenu.png)
 

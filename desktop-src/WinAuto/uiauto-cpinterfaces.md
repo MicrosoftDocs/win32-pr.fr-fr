@@ -1,19 +1,19 @@
 ---
 title: Interfaces de modèle de contrôle pour les fournisseurs
-description: Cette section décrit les interfaces de modèle de contrôle implémentées par les fournisseurs UI Automation pour exposer des informations sur les contrôles dans les applications Windows non managées.
+description: cette section décrit les interfaces de modèle de contrôle implémentées par les fournisseurs UI Automation pour exposer des informations sur les contrôles dans les applications Windows non managées.
 ms.assetid: 08d0226d-845c-4564-a059-539b62fc7909
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9e4051922678951a386a54b326b82b7d21a1024
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d13a88b45e6e7401f0cb760e14bff1534aa6424400023126ccbeb898429028ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614339"
 ---
 # <a name="control-pattern-interfaces-for-providers"></a>Interfaces de modèle de contrôle pour les fournisseurs
 
-Cette section décrit les interfaces de *modèle de contrôle* implémentées par les fournisseurs UI Automation pour exposer des informations sur les contrôles dans les applications Windows non managées.
+cette section décrit les interfaces de *modèle de contrôle* implémentées par les fournisseurs UI Automation pour exposer des informations sur les contrôles dans les applications Windows non managées.
 
 ## <a name="in-this-section"></a>Dans cette section
 

@@ -17,23 +17,23 @@ keywords:
 - extension du frame de fenêtre dans la zone cliente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fcf7378cfcaff93aa9a54ce399890ec1bfd8cc1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bfb7b357719ea3aa5a4853a933350ee2dda417842777354e2bbf1711e1cbeff1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119456078"
 ---
 # <a name="dwm-blur-behind-overview"></a>Vue d’ensemble du DWM en arrière-plan
 
 L’un des effets de signature Gestionnaire de fenêtrage (DWM) est une zone non cliente translucide et floue. Les API DWM permettent aux applications d’appliquer ces effets à la zone cliente de leurs fenêtres de niveau supérieur.
 
 > [!Note]  
-> Windows Vista Édition personnelle basique ne prend pas en charge l’effet de transparence transparent. Les zones qui s’affichent généralement avec l’effet de transparence sur les autres éditions de Windows sont rendues opaques.
-> À partir de Windows 8, l’appel de cette fonction n’entraîne pas l’effet de flou, en raison d’un changement de style dans la manière dont les fenêtres sont affichées.
+> Windows Vista Édition familial basique ne prend pas en charge l’effet de transparence transparent. les zones qui s’affichent généralement avec l’effet de transparence sur les autres éditions de Windows sont rendues opaques.
+> à partir de Windows 8, l’appel de cette fonction n’entraîne pas l’effet de flou, en raison d’un changement de style dans la manière dont les fenêtres sont affichées.
 
 
- 
+ 
 
 Cette rubrique décrit les scénarios de flou de client suivants que le DWM active.
 
@@ -158,6 +158,6 @@ L’image suivante illustre le flou-en arrière-plan dans le style de fenêtre �
 [Considérations sur les performances et meilleures pratiques](bestpractices-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

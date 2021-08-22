@@ -4,12 +4,12 @@ description: Passage à l’État en cours d’exécution
 ms.assetid: 2173eaa9-0e60-4411-81e4-dbabc5fe89b2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 959038c8f64fe8750ab1bcf0f06b753371f04136
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0e91261df578697afef0e33dd8c8ea847eb50cfd546dd96ee0a0085d67100bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501059"
 ---
 # <a name="entering-the-running-state"></a>Passage à l’État en cours d’exécution
 
@@ -23,9 +23,9 @@ Lorsqu’un objet lié rend la transition à l’État en cours d’exécution, 
 -   Lorsque la source de la liaison est en cours d’exécution, OLE se lie à l’instance en cours d’exécution de l’objet au lieu d’exécuter une autre instance. Dans le cas d’objets incorporés imbriqués, dont l’un est la source de la liaison, OLE doit être en mesure d’effectuer une liaison à un objet déjà en cours d’exécution à tout moment.
 -   L’exécution d’un objet requiert l’accès à la zone de stockage pour l’objet. Lorsqu’un objet incorporé est exécuté, OLE reçoit un pointeur vers le stockage pendant le processus de chargement, qu’il transmet à l’application serveur OLE. Toutefois, pour les objets liés, il n’existe pas d’interface standard pour accéder au stockage. L’application serveur OLE peut utiliser l’interface du système de fichiers ou un autre mécanisme.
 
- 
+ 
 
- 
+ 
 
 
 

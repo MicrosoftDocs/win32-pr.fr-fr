@@ -4,12 +4,12 @@ ms.assetid: a90565ce-0c33-498b-99af-6b58eb42b23d
 title: System. Devices. dnssd. TTL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d215658d399ad3455da293eb7d5337b0bd4030c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e8ebfb60372223b5cae830707eb5164c9ce4b865ffe02a25764eb0a874cf107
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119458429"
 ---
 # <a name="systemdevicesdnssdttl"></a>System. Devices. dnssd. TTL
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

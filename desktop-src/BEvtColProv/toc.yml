@@ -7,7 +7,7 @@
       href: targetforwardingdestination.md
     - name: TargetForwardingHistory
       href: targetforwardinghistory.md
-    - name: Control
+    - name: Contrôler
       href: control.md
       items:
         - name: Méthode Checkpoint

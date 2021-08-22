@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 709a0649643ae4183c379f68ba554dfecee3b2ad
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 42c092055afeea248d1a12bb2a365c300cbfd85c4f7f809f5d11ff574ac95526
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119299309"
 ---
 # <a name="ms-dfs-last-modified-v2-attribute"></a>attribut ms-DFS-Last-modified-v2
 
@@ -42,7 +42,7 @@ ms.locfileid: "104108182"
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -55,7 +55,7 @@ ms.locfileid: "104108182"
 | ID de lien                | \-                                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                                   |
 | System-Only            | Faux                                                                                                                                                                                |
-| Est de valeur unique       | Vrai                                                                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                                                                 |
 | Est indexé             | Faux                                                                                                                                                                                |
 | Dans le catalogue global      | Faux                                                                                                                                                                                |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                         |
@@ -76,7 +76,7 @@ ms.locfileid: "104108182"
 | ID de lien                | \-                                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                                   |
 | System-Only            | Faux                                                                                                                                                                                |
-| Est de valeur unique       | Vrai                                                                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                                                                 |
 | Est indexé             | Faux                                                                                                                                                                                |
 | Dans le catalogue global      | Faux                                                                                                                                                                                |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                         |

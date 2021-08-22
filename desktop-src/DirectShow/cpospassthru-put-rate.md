@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 21e7e654233f78adcda2addf73b87a178654872e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90c89c9730ee057bea3bc776f551061c0e828385fe3c6ae054f4161bdb705ab1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565500"
 ---
 # <a name="cpospassthruput_rate-method"></a>Méthode de taux de CPosPassThru. put \_
 
@@ -53,7 +53,7 @@ Vitesse de lecture. Ne doit pas être égal à zéro.
 
 Retourne E \_ INVALIDARG si *dRate* est égal à zéro. Sinon, retourne la valeur **HRESULT** de la broche connectée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les taux négatifs indiquent une lecture inversée. Tous les supports ne prennent pas en charge la lecture inversée.
 
@@ -63,7 +63,7 @@ Les taux négatifs indiquent une lecture inversée. Tous les supports ne prennen
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

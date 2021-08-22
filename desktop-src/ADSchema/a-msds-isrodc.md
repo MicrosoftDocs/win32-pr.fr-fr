@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 569a10a50319b5f663591506114cc63ac71296ba
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2a031ebe480db30c4715fc62f43a681348413468393333cea61a9634f85a1273
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119295589"
 ---
 # <a name="ms-ds-isrodc-attribute"></a>attribut ms-DS-isRODC
 
@@ -42,7 +42,7 @@ Indique si un contrôleur de domaine est un contrôleur de domaine en lecture se
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

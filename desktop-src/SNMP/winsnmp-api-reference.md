@@ -4,16 +4,16 @@ description: Le tableau suivant répertorie les rubriques qui traitent des fonct
 ms.assetid: 89135f67-7e58-4448-a1be-9c9df0b70eb9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e4b8c4de4f1b4ec55f7c5d8104f13a7d3fe8a5c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b7d3bd77700f7a19d5f3605e9ca212b10bdc7c76e83627108eec98db44998181
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143002"
 ---
 # <a name="winsnmp-api-reference"></a>Informations de référence sur l’API WinSNMP
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
 Le tableau suivant répertorie les rubriques qui traitent des fonctions, des structures, des types de données, des valeurs de retour de fonction et des codes d’erreur courants de l’API WinSNMP.
 
@@ -29,8 +29,8 @@ Le tableau suivant répertorie les rubriques qui traitent des fonctions, des str
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e25ef05cc450688c76be792f4e9e4e447353935
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a531759cbe94632349aeb7c0063f0264d9bcb4209f9216ab1a9dee83303a425f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119530069"
 ---
 # <a name="stringoctet-syntax"></a>Syntaxe de chaîne (octet)
 
@@ -28,13 +28,13 @@ Chaîne qui représente un tableau d’octets. Cette syntaxe est utilisée pour 
 
 | Entrée | Valeur |
 |--------------|-------------------------------------------------------------------|
-| Nom         | String(Octet)                                                     |
+| Name         | String(Octet)                                                     |
 | ID de syntaxe    | 2.5.5.10                                                          |
 | ID OM        | 4                                                                 |
 | Type MAPI    | BINARY                                                            |
 | Type ADS     | \_chaîne d’octets ADSTYPE \_                                            |
 | Type de variante | \_Tableau VT UI1 \| VT \_                                              |
-| SDS, type     | [System. Byte\[\]](/dotnet/api/system.byte) |
+| SDS, type     | [System.Byte\[\]](/dotnet/api/system.byte) |
 
 
 
@@ -42,7 +42,7 @@ Chaîne qui représente un tableau d’octets. Cette syntaxe est utilisée pour 
 
 <dl> <dt>
 
-[System. Byte\[\]](/dotnet/api/system.byte)
+[System.Byte\[\]](/dotnet/api/system.byte)
 </dt> </dl>
 
  

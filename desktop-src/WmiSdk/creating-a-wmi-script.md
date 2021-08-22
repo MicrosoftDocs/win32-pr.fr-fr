@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1ef13a5f9269dbc24566e95ce37101d10afa6c90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a56eca450757086b3d334d8f64fa41c4cf297f903963498afe958bee802705eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464189"
 ---
 # <a name="creating-a-wmi-script"></a>Création d’un script WMI
 
-Vous pouvez afficher ou manipuler les informations rendues disponibles par le biais de WMI à l’aide de scripts. Les scripts peuvent être écrits dans n’importe quel langage de script qui prend en charge l’hébergement de scripts Microsoft ActiveX, y compris Visual Basic Scripting Edition (VBScript), PowerShell et Perl. Windows Script Host (WSH), Active Server pages et Internet Explorer peuvent tous héberger des scripts WMI.
+Vous pouvez afficher ou manipuler les informations rendues disponibles par le biais de WMI à l’aide de scripts. les scripts peuvent être écrits dans n’importe quel langage de script prenant en charge Microsoft ActiveX script hosting, y compris Visual Basic scripting Edition (VBScript), PowerShell et Perl. Windows Script Host (WSH), Active Server pages et Internet Explorer peuvent tous héberger des scripts WMI.
 
 > [!Note]
 >
@@ -29,9 +29,9 @@ Vous pouvez afficher ou manipuler les informations rendues disponibles par le bi
 
 ## <a name="wmi-scripting-languages"></a>Langages de script WMI
 
-Les deux principaux langages pris en charge par WMI sont PowerShell et VBScript (via Windows Script Host ou WSH).
+les deux principaux langages pris en charge par WMI sont PowerShell et VBScript (via le Windows Script Host ou WSH).
 
--   **PowerShell** a été conçu avec une intégration étroite avec WMI à l’esprit. Ainsi, la plupart des éléments sous-jacents de WMI sont intégrés aux applets de commande WMI : l’applet de commande Set- [WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1), [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1), [Invoke-WmiMethod](/powershell/module/microsoft.powershell.management/invoke-wmimethod?view=powershell-5.1)et [Remove-WmiObject](/powershell/module/microsoft.powershell.management/remove-wmiobject?view=powershell-5.1). Le tableau suivant décrit les processus généraux utilisés pour accéder aux informations WMI. Notez que, bien que la plupart de ces exemples utilisent l’applet de commande-WMIObject, la plupart des applets de commande PowerShell WMI ont les mêmes paramètres, tels que *-Class* ou *-Credentials*. Par conséquent, un grand nombre de ces processus fonctionnent également pour d’autres objets. Pour une discussion plus approfondie de PowerShell et WMI, consultez Utilisation de [l’applet](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176860(v=technet.10)) de commande Get-WMiObject et [Windows PowerShell : la connexion WMI](/previous-versions/technet-magazine/cc162365(v=msdn.10)).
+-   **PowerShell** a été conçu avec une intégration étroite avec WMI à l’esprit. Ainsi, la plupart des éléments sous-jacents de WMI sont intégrés aux applets de commande WMI : l’applet de commande Set- [WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1), [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1), [Invoke-WmiMethod](/powershell/module/microsoft.powershell.management/invoke-wmimethod?view=powershell-5.1)et [Remove-WmiObject](/powershell/module/microsoft.powershell.management/remove-wmiobject?view=powershell-5.1). Le tableau suivant décrit les processus généraux utilisés pour accéder aux informations WMI. Notez que, bien que la plupart de ces exemples utilisent l’applet de commande-WMIObject, la plupart des applets de commande PowerShell WMI ont les mêmes paramètres, tels que *-Class* ou *-Credentials*. Par conséquent, un grand nombre de ces processus fonctionnent également pour d’autres objets. pour une discussion plus approfondie de PowerShell et wmi, consultez utilisation de [l’applet](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176860(v=technet.10)) de commande Get-WMiObject et [Windows PowerShell-la connexion wmi](/previous-versions/technet-magazine/cc162365(v=msdn.10)).
 
 -   **VBScript**, en revanche, effectue explicitement des appels à l' [API de script pour WMI](scripting-api-for-wmi.md), comme indiqué ci-dessus. D’autres langages, tels que Perl, peuvent également utiliser l’API de script pour WMI. Toutefois, dans le cadre de cette documentation, la plupart des exemples qui illustrent l’API de script pour WMI utilisent VBScript. Toutefois, lorsqu’une technique de programmation est spécifique à VBScript, elle est appelée out.
 
@@ -217,7 +217,7 @@ Get-WmiObject -Namespace root -Class __Namespace
 <span id="...retrieve_all_child_instances_of_a_class_"></span><span id="...RETRIEVE_ALL_CHILD_INSTANCES_OF_A_CLASS_"></span>... récupérer toutes les instances enfants d’une classe ?
 </dt> <dd>
 
-Pour les langages qui utilisent directement l’API de script pour WMI et PowerShell, WMI prend en charge la récupération des classes enfants d’une classe de base. Par conséquent, pour récupérer les instances enfants, vous devez uniquement Rechercher la classe parente. L’exemple suivant recherche le [**\_ disque logique CIM**](/windows/desktop/CIMWin32Prov/cim-logicaldisk), qui est une classe WMI préinstallée qui représente des disques logiques sur un système informatique Windows. Par conséquent, la recherche de cette classe parente retourne également des instances de [**\_ disque logique Win32**](/windows/desktop/CIMWin32Prov/win32-logicaldisk), ce que Windows utilise pour décrire les disques durs. Pour plus d’informations, consultez [Common Information Model](common-information-model.md). WMI fournit un schéma entier de ces classes préinstallées qui vous permettent d’accéder aux objets managés et de les contrôler. Pour plus d’informations, consultez [classes Win32](/windows/desktop/CIMWin32Prov/win32-provider) et [classes WMI](wmi-classes.md).
+Pour les langages qui utilisent directement l’API de script pour WMI et PowerShell, WMI prend en charge la récupération des classes enfants d’une classe de base. Par conséquent, pour récupérer les instances enfants, vous devez uniquement Rechercher la classe parente. l’exemple suivant recherche le [**\_ disque logique CIM**](/windows/desktop/CIMWin32Prov/cim-logicaldisk), qui est une classe WMI préinstallée qui représente les disques logiques sur un système informatique basé sur Windows. par conséquent, la recherche de cette classe parente retourne également des instances de [**\_ disque logique Win32**](/windows/desktop/CIMWin32Prov/win32-logicaldisk), ce que Windows utilise pour décrire les disques durs. Pour plus d’informations, consultez [Common Information Model](common-information-model.md). WMI fournit un schéma entier de ces classes préinstallées qui vous permettent d’accéder aux objets managés et de les contrôler. Pour plus d’informations, consultez [classes Win32](/windows/desktop/CIMWin32Prov/win32-provider) et [classes WMI](wmi-classes.md).
 
 
 ```VB

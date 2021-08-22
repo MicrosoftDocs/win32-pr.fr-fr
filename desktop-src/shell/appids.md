@@ -1,19 +1,19 @@
 ---
-description: Les ID de modèle d’utilisateur d’application (AppUserModelIDs) sont largement utilisés par la barre des tâches dans les systèmes Windows 7 et versions ultérieures pour associer les processus, les fichiers et les fenêtres à une application particulière.
+description: les id de modèle utilisateur de l’Application (AppUserModelIDs) sont largement utilisés par la barre des tâches des systèmes Windows 7 et versions ultérieures pour associer les processus, les fichiers et les fenêtres à une application particulière.
 ms.assetid: ebce2d99-6f20-4545-9f12-d79cd8d0828f
 title: ID de modèle d’utilisateur d’application (AppUserModelIDs)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46b79f0bdd7fb5e6c4d5c41caa3cd6be3f4fb57e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acd0835af241a36e4d9c95237890cb63790f7fe9031476dfa8ec21254266ffd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351469"
 ---
 # <a name="application-user-model-ids-appusermodelids"></a>ID de modèle d’utilisateur d’application (AppUserModelIDs)
 
-Les ID de modèle d’utilisateur d’application (AppUserModelIDs) sont largement utilisés par la barre des tâches dans les systèmes Windows 7 et versions ultérieures pour associer les processus, les fichiers et les fenêtres à une application particulière. Dans certains cas, il suffit de s’appuyer sur la AppUserModelID interne assignée à un processus par le système. Toutefois, une application qui possède plusieurs processus ou une application qui s’exécute dans un processus hôte peut avoir besoin de s’identifier de manière explicite pour pouvoir regrouper ses différentes fenêtres dans un même bouton de la barre des tâches et contrôler le contenu de la liste de raccourcis de cette application.
+les id de modèle utilisateur de l’Application (AppUserModelIDs) sont largement utilisés par la barre des tâches des systèmes Windows 7 et versions ultérieures pour associer les processus, les fichiers et les fenêtres à une application particulière. Dans certains cas, il suffit de s’appuyer sur la AppUserModelID interne assignée à un processus par le système. Toutefois, une application qui possède plusieurs processus ou une application qui s’exécute dans un processus hôte peut avoir besoin de s’identifier de manière explicite pour pouvoir regrouper ses différentes fenêtres dans un même bouton de la barre des tâches et contrôler le contenu de la liste de raccourcis de cette application.
 
 -   [AppUserModelIDs définie par l’application et System-Defined](#application-defined-and-system-defined-appusermodelids)
 -   [Comment former un Application-Defined AppUserModelID](#how-to-form-an-application-defined-appusermodelid)
@@ -36,18 +36,18 @@ Si une application utilise un AppUserModelID explicite, elle doit également aff
 Les éléments suivants décrivent des scénarios courants qui requièrent une AppUserModelID explicite. Elles signalent également les cas où plusieurs AppUserModelIDs explicites doivent être utilisés.
 
 -   Un seul fichier exécutable avec une interface utilisateur avec plusieurs modes qui s’affichent à l’utilisateur en tant qu’applications distinctes doivent assigner différents AppUserModelIDs à chaque mode. Par exemple, une partie d’une application que les utilisateurs voient comme une expérience indépendante qu’ils peuvent épingler et lancer à partir de la barre des tâches séparément du reste de l’application doit avoir son propre AppUserModelID, distinct de l’expérience principale.
--   Plusieurs raccourcis avec des arguments différents qui mènent à ce que l’utilisateur voit comme la même application doivent utiliser un AppUserModelID pour tous les raccourcis. Par exemple, Windows Internet Explorer propose différents raccourcis pour différents modes (tels que le lancement sans modules complémentaires), mais ils doivent tous apparaître à l’utilisateur sous la forme d’une seule instance d’Internet Explorer.
--   Un fichier exécutable qui agit comme un processus hôte et exécute le contenu cible comme une application doit [s’inscrire en tant qu’application hôte](#registering-an-application-as-a-host-process), après quoi il peut affecter différents AppUserModelIDs à chaque expérience perçue qu’il héberge. Le processus hôte peut également permettre au programme hébergé de définir son AppUserModelIDs. Dans les deux cas, le processus hôte doit conserver un enregistrement de la source du AppUserModelIDs, soit lui-même, soit l’application hébergée. Dans ce cas, il n’y a pas d’expérience utilisateur principale du processus hôte sans le contenu cible. Exemples : applications à distance Windows intégrées (RAIL), applications d’exécution Java, RunDLL32.exe ou DLLHost.exe.
+-   Plusieurs raccourcis avec des arguments différents qui mènent à ce que l’utilisateur voit comme la même application doivent utiliser un AppUserModelID pour tous les raccourcis. par exemple, Windows Internet explorer propose différents raccourcis pour différents modes (tels que le lancement sans modules complémentaires), mais ils doivent tous apparaître pour l’utilisateur sous la forme d’une seule instance d’Internet Explorer.
+-   Un fichier exécutable qui agit comme un processus hôte et exécute le contenu cible comme une application doit [s’inscrire en tant qu’application hôte](#registering-an-application-as-a-host-process), après quoi il peut affecter différents AppUserModelIDs à chaque expérience perçue qu’il héberge. Le processus hôte peut également permettre au programme hébergé de définir son AppUserModelIDs. Dans les deux cas, le processus hôte doit conserver un enregistrement de la source du AppUserModelIDs, soit lui-même, soit l’application hébergée. Dans ce cas, il n’y a pas d’expérience utilisateur principale du processus hôte sans le contenu cible. les exemples sont Windows applications distantes intégrées localement (RAIL), le Runtime Java, RunDLL32.exe ou DLLHost.exe.
 
     Dans le cas d’applications hébergées existantes, le système tente d’identifier les expériences individuelles, mais les nouvelles applications doivent utiliser des AppUserModelIDs explicites pour garantir l’expérience utilisateur prévue.
 
--   Les processus coopératifs ou chaînés qui font partie de la même application doivent avoir la même valeur AppUserModelID appliquée à chaque processus. Les exemples incluent des jeux avec un processus de lancement (chaîné) et Microsoft Windows Media Player, qui est exécuté en un seul processus et l’application principale s’exécutant dans un autre processus (coopératif).
--   Une extension d’espace de noms de Shell qui agit comme une application distincte pour plus que la consultation et la gestion de contenu dans l’Explorateur Windows doit affecter une AppUserModelID dans ses propriétés de dossier. Le panneau de configuration en est un exemple.
+-   Les processus coopératifs ou chaînés qui font partie de la même application doivent avoir la même valeur AppUserModelID appliquée à chaque processus. il s’agit par exemple de jeux avec un processus de lancement (chaîné) et de Microsoft Lecteur Windows Media, qui a une expérience de première exécution/configuration exécutée dans un processus et l’application principale s’exécutant dans un autre processus (coopératif).
+-   une extension d’espace de noms de Shell qui agit comme une application distincte pour plus que la consultation et la gestion de contenu dans Windows Explorer doit affecter une AppUserModelID dans ses propriétés de dossier. Le panneau de configuration en est un exemple.
 -   Dans un environnement de virtualisation comme une infrastructure de déploiement, l’environnement de virtualisation doit assigner différents AppUserModelIDs à chaque application qu’il gère. Dans ce cas, un lanceur d’applications utilise un processus intermédiaire pour configurer l’environnement, puis transmet l’opération à un processus différent pour exécuter l’application. Notez que cela entraîne l’impossibilité pour le système d’associer le processus cible en cours d’exécution au raccourci, car le raccourci pointe vers le processus intermédiaire.
 
     Si une application possède plusieurs fenêtres, raccourcis ou processus, la valeur AppUserModelID affectée à cette application doit également être appliquée à chacun de ces éléments par l’environnement de virtualisation.
 
-    L’infrastructure ClickOnce, qui assigne correctement les AppUserModelIDs pour le compte des applications qu’il gère, est un exemple de cette situation. Comme dans tous ces environnements, les applications déployées et gérées par ClickOnce ne doivent pas assigner de AppUserModelIDs explicites, car cela entraînera un conflit avec le AppUserModelIDs attribué par ClickOnce et entraînera des résultats inattendus.
+    un exemple de cette situation est le ClickOnce framework, qui affecte correctement les AppUserModelIDs pour le compte des applications qu’il gère. comme dans tous ces environnements, les applications déployées et gérées par des ClickOnce ne doivent pas assigner des AppUserModelIDs explicites, car cela entraînera un conflit avec le AppUserModelIDs attribué par ClickOnce et entraînera des résultats inattendus.
 
 ## <a name="how-to-form-an-application-defined-appusermodelid"></a>Comment former un Application-Defined AppUserModelID
 
@@ -63,7 +63,7 @@ Quand une application utilise un ou plusieurs AppUserModelIDs explicites, elle d
 
 -   Dans la propriété [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) du fichier de raccourci de l’application. Un raccourci (sous la forme d’un fichier [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka), CLSID \_ ShellLink ou. lnk) prend en charge les propriétés par le biais de [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) et d’autres mécanismes de définition de propriétés utilisés dans l’ensemble du shell. Cela permet à la barre des tâches d’identifier le raccourci approprié pour épingler et de s’assurer que les fenêtres appartenant au processus sont associées de manière appropriée à ce bouton de la barre des tâches.
     > [!Note]  
-    > La propriété [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) doit être appliquée à un raccourci lorsque ce raccourci est créé. Lors de l’utilisation du Microsoft Windows Installer (MSI) pour installer l’application, la table [MsiShortcutProperty](../msi/msishortcutproperty-table.md) permet d’appliquer la valeur AppUserModelID au raccourci lorsqu’il est créé pendant l’installation.
+    > La propriété [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md) doit être appliquée à un raccourci lorsque ce raccourci est créé. lors de l’utilisation du Microsoft Windows Installer (MSI) pour installer l’application, la table [MsiShortcutProperty](../msi/msishortcutproperty-table.md) permet d’appliquer la valeur AppUserModelID au raccourci lorsqu’il est créé pendant l’installation.
 
      
 
@@ -160,7 +160,7 @@ Sachez que certains fichiers exécutables ainsi que les raccourcis qui contienne
 
  
 
-Si l’une des chaînes suivantes, quelle que soit la casse, est incluse dans le nom du raccourci, le programme n’est pas regroupement et ne s’affiche pas dans la liste des plus fréquemment utilisés (non applicable à Windows 10) :
+Si l’une des chaînes suivantes, quelle que soit la casse, est incluse dans le nom du raccourci, le programme n’est pas regroupement et n’est pas affiché dans la liste des plus fréquemment utilisés (non applicable à Windows 10) :
 
 -   Documentation
 -   Aide
@@ -170,9 +170,9 @@ Si l’une des chaînes suivantes, quelle que soit la casse, est incluse dans le
 -   Lire en premier
 -   Fichier Lisezmoi
 -   Supprimer
--   Programme d’installation
--   Support
--   What's New
+-   Installation
+-   Assistance
+-   Nouveautés
 
 La liste de programmes suivante n’est pas regroupement et est exclue de la liste des plus fréquemment utilisés.
 

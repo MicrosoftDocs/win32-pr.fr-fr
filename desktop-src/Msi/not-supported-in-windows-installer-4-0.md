@@ -1,23 +1,23 @@
 ---
-description: Les Windows Installer fonctions, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 4.0 et versions antérieures.
+description: les Windows Installer fonctions, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 4.0 et versions antérieures.
 ms.assetid: 7256b759-3fb5-4195-b0e4-a1631327ebb7
-title: Non pris en charge dans Windows Installer 4,0
+title: non pris en charge dans Windows Installer 4,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4307422c71976057948759078dc321e38dc543b7
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 444040fca716b6bd64c8598d2d2e36013fe19cc62971483507756a66f3e961bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106527053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558799"
 ---
-# <a name="not-supported-in-windows-installer-40"></a>Non pris en charge dans Windows Installer 4,0
+# <a name="not-supported-in-windows-installer-40"></a>non pris en charge dans Windows Installer 4,0
 
-Les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 4,0 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. Consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. Pour plus d’informations sur les autres versions [de Windows Installer, consultez Nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
+les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 4,0 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. pour plus d’informations sur les autres versions [de Windows Installer, consultez nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
 
-Windows Installer 4,0 est disponible pour Microsoft Windows Server 2008 et Windows Vista. Pour obtenir la liste complète de toutes les versions de Windows Installer et des fichiers redistribuables, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
+Windows le programme d’installation 4,0 est disponible pour Microsoft Windows Server 2008 et Windows Vista. pour obtenir la liste complète de toutes les versions de Windows Installer et des fichiers redistribuables, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
 
-Les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 4,0 et versions antérieures.
+les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 4,0 et versions antérieures.
 
 [Fonctions du programme d’installation](installer-functions.md)
 
@@ -68,11 +68,11 @@ Prototypes de fonctions de rappel
 
 ## <a name="notes"></a>Notes
 
-Windows Installer 4,0 ne peut pas effectuer [plusieurs installations de packages](multiple-package-installations.md) à l’aide du [*traitement des transactions*](t-gly.md).
+Windows Le programme d’installation 4,0 ne peut pas effectuer [plusieurs installations de package](multiple-package-installations.md) à l’aide du [*traitement des transactions*](t-gly.md).
 
-À l’aide de Windows Installer 4,0 ou des versions antérieures du programme d’installation, les petites mises à jour et les mises à niveau mineures peuvent échouer lors de l’utilisation de la stratégie [EnforceUpgradeComponentRules](enforceupgradecomponentrules.md) ou [**MSIENFORCEUPGRADECOMPONENTRULES**](msienforceupgradecomponentrules.md) , car la mise à jour supprime un composant.
+à l’aide de Windows Installer 4,0 ou des versions antérieures du programme d’installation, les petites mises à jour et les mises à niveau mineures peuvent échouer lors de l’utilisation de la stratégie [EnforceUpgradeComponentRules](enforceupgradecomponentrules.md) ou [**MSIENFORCEUPGRADECOMPONENTRULES**](msienforceupgradecomponentrules.md) , car la mise à jour supprime un composant.
 
-Une interface utilisateur personnalisée ne peut pas être incorporée dans le package Windows Installer à l’aide de la méthode décrite dans [utilisation d’une interface utilisateur incorporée](using-an-embedded-ui.md).
+une interface utilisateur personnalisée ne peut pas être incorporée dans le package Windows Installer à l’aide de la méthode décrite dans [utilisation d’une interface utilisateur incorporée](using-an-embedded-ui.md).
 
  
 

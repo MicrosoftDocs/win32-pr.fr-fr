@@ -4,18 +4,18 @@ ms.assetid: 1dc68ff8-6b17-4934-82da-ab2fc612aafa
 title: Importance de l'ordre des transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7350d63456902ff47183faa08170b3b2fef481
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b8a7c0c840fa5c2debaccef4450c525bab8cf7f6e4373653eadaf53a6538891
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119359579"
 ---
 # <a name="why-transformation-order-is-significant"></a>Importance de l'ordre des transformations
 
 Un objet [**matrice**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) unique peut stocker une seule transformation ou une séquence de transformations. Ce dernier est appelé transformation *composite*.   La matrice d’une transformation composite est obtenue en multipliant les matrices des différentes transformations.
 
-Dans une transformation composite, l’ordre des transformations individuelles est important. Par exemple, si vous faites pivoter, puis mettez à l’échelle, puis Traduisez, vous obtenez un résultat différent de celui que vous convertissiez, puis faites pivoter, puis mettez à l’échelle. Dans Windows GDI+, les transformations composites sont construites de gauche à droite. Si S, R et T sont respectivement des matrices de mise à l’échelle, de rotation et de translation, le produit SRT (dans cet ordre) est la matrice de la transformation composite qui met à l’échelle, puis pivote, puis effectue une translation. La matrice produite par le logiciel SRT est différente de la matrice produite par le produit TRS.
+Dans une transformation composite, l’ordre des transformations individuelles est important. Par exemple, si vous faites pivoter, puis mettez à l’échelle, puis Traduisez, vous obtenez un résultat différent de celui que vous convertissiez, puis faites pivoter, puis mettez à l’échelle. dans Windows GDI+, les transformations composites sont construites de gauche à droite. Si S, R et T sont respectivement des matrices de mise à l’échelle, de rotation et de translation, le produit SRT (dans cet ordre) est la matrice de la transformation composite qui met à l’échelle, puis pivote, puis effectue une translation. La matrice produite par le logiciel SRT est différente de la matrice produite par le produit TRS.
 
 Un ordre de raison important est que les transformations telles que la rotation et la mise à l’échelle sont effectuées par rapport à l’origine du système de coordonnées. La mise à l’échelle d’un objet centré à l’origine produit un résultat différent de la mise à l’échelle d’un objet qui a été déplacé hors de l’origine. De même, la rotation d’un objet centré à l’origine produit un résultat différent de la rotation d’un objet qui a été déplacé à l’extérieur de l’origine.
 

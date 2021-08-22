@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-AllowSnapshotFilesFTPDownloading
+title: attribut MS-SQL-AllowSnapshotFilesFTPDownloading
 description: True si la publication autorise le téléchargement des fichiers d’instantanés à l’aide du protocole FTP.
 ms.assetid: 227e1438-db8d-4e8f-b2dd-ffc6ef50e0d1
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-AllowSnapshotFilesFTPDownloading
-- Schéma AD de l’attribut mS-SQL-AllowSnapshotFilesFTPDownloading
+- schéma AD de l’attribut MS-SQL-AllowSnapshotFilesFTPDownloading
+- schéma AD de l’attribut mS-SQL-AllowSnapshotFilesFTPDownloading
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed32d824f4832294b3484da4e871303b31820878
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c4c0f78de1eee1b69b838feadcdbdf3e3390870332b0f53ceecfab3d365cb7e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300039"
 ---
-# <a name="ms-sql-allowsnapshotfilesftpdownloading-attribute"></a>Attribut MS-SQL-AllowSnapshotFilesFTPDownloading
+# <a name="ms-sql-allowsnapshotfilesftpdownloading-attribute"></a>attribut MS-SQL-AllowSnapshotFilesFTPDownloading
 
 True si la publication autorise le téléchargement des fichiers d’instantanés à l’aide du protocole FTP.
 
@@ -45,7 +45,7 @@ True si la publication autorise le téléchargement des fichiers d’instantané
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

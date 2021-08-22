@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 603d4ae97ee5a674d60c9fadca92404a1cd8f3ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f13e4c7042c0aee72994f10c95bb95980e5f1ffa747d4636cf18cb0367fb2cba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119360349"
 ---
 # <a name="jet_bkinfohasvalue-property"></a>JET_BKINFO. HasValue, propriété
 

@@ -4,12 +4,12 @@ ms.assetid: dde2ef55-7794-4eb1-984a-ed13e990c97f
 title: Application de transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2367e02396ec33e517f8abfe579060c0a0986be2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: daf6c1bd60a084b745df14d89772008867b618f3b21116ca20c5313747950b5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119264249"
 ---
 # <a name="applying-transforms"></a>Application de transformations
 
@@ -20,7 +20,7 @@ La propriété [**TRANSformations**](transforms.md) est définie en spécifiant 
 Notez que la liste transformations ne peut pas être modifiée une fois installée et ne peut être supprimée qu’en désinstallant l’application.
 
 > [!Note]  
-> Un package de Windows Installer ne peut pas appliquer plus de 255 transformations lors de l’installation d’une application ou d’une mise à jour. Lorsque de nombreuses transformations sont nécessaires, elles doivent être combinées et les transformations obsolètes antérieures doivent être éliminées.
+> un package de Windows Installer ne peut pas appliquer plus de 255 transformations lors de l’installation d’une application ou d’une mise à jour. Lorsque de nombreuses transformations sont nécessaires, elles doivent être combinées et les transformations obsolètes antérieures doivent être éliminées.
 
  
 

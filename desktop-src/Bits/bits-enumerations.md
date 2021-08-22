@@ -4,12 +4,12 @@ description: Les interfaces Service de transfert intelligent en arrière-plan (B
 ms.assetid: e43337c8-0c41-41e9-88fd-f2a46f666157
 ms.topic: article
 ms.date: 02/20/2019
-ms.openlocfilehash: 98dcd943207607b3f5269fa26c2d202215070958
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4ced67a469ae5fb35e8098fdcfe3edcdbeafa08c55416f65f55635a7d3f5e948
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323549"
 ---
 # <a name="bits-enumerations"></a>Énumérations BITS
 
