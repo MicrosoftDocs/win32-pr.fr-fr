@@ -3,7 +3,7 @@ title: Message EM_GETWORDWRAPMODE (RichEdit. h)
 description: Obtient le retour automatique à la ligne et les options de saut de mot en cours pour le contrôle RichEdit.
 ms.assetid: a87d80d6-2e9e-40ba-9348-a1cc1ef8ec10
 keywords:
-- EM_GETWORDWRAPMODE les contrôles de message Windows
+- EM_GETWORDWRAPMODE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efc8a2b6d17623964eb0d3714c1c099f47fc788a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aef3127e5ce3652e9103dfa0e030d66ec7b1b085bc4b60d0cf0bb3f03a30d3fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437949"
 ---
 # <a name="em_getwordwrapmode-message"></a>\_Message GETWORDWRAPMODE em
 
@@ -52,7 +52,7 @@ Non utilisé ; doit être égal à zéro.
 
 Le message retourne les options retour automatique à la ligne et saut de mot en cours.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message ne doit pas être envoyé par la procédure de césure définie par l’application.
 
@@ -62,8 +62,8 @@ Ce message ne doit pas être envoyé par la procédure de césure définie par l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

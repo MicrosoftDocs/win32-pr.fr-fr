@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 92c3158a09aeb871ef367133c07278b0f3b87390
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 611ec04a5c3a53bbb8c6c35380bd0d9f824dc697a7d27a3656b262d885fb4eac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457509"
 ---
 # <a name="if-bool---ps"></a>Si bool-PS
 
@@ -29,13 +29,13 @@ Début d’un bloc If.
 
 
 
- 
+ 
 
 Où :
 
 -   bool est un numéro de Registre bool (booléen). Consultez [Registre booléen constant](dx9-graphics-reference-asm-ps-registers-constant-boolean.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -45,7 +45,7 @@ Où :
 
 
 
- 
+ 
 
 Si le registre booléen source dans l’instruction if a la valeur true, le code inclus dans l’instruction if et la correspondance [endif-PS](endif---ps.md) ou [else-PS](else---ps.md) est exécuté. Sinon, le code délimité par else-PS... les instructions endif-PS sont exécutées. Cette instruction consomme un emplacement d’instruction.
 
@@ -85,9 +85,9 @@ endif
 [endif-PS](endif---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

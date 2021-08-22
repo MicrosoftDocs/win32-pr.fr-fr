@@ -4,17 +4,17 @@ ms.assetid: 7b04a2ba-7bf9-4bff-93c8-cbb0060e069d
 title: Codes d’erreur système (1300-1699) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 8fa0cbc312c8d82879322f0bc0c79533ddb961ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7aeb1c3642331db8ed3215d55a6d77e1e7b2a98c3859a5eb64a1d5b60350d24a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119310919"
 ---
 # <a name="system-error-codes-1300-1699"></a>Codes d’erreur système (1300-1699)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) pour les erreurs 1300 à 1699. Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
@@ -2342,7 +2342,7 @@ Le thread spécifié est déjà joint à une tâche.
 
 
 
-Impossible d’accéder au service Windows Installer. Cela peut se produire si le Windows Installer n’est pas correctement installé. Contactez votre service de support technique pour obtenir de l’aide.
+impossible d’accéder au Service Windows Installer. cela peut se produire si le Windows Installer n’est pas correctement installé. Contactez votre service de support technique pour obtenir de l’aide.
 
 
 </dt> </dl> </dd> <dt>
@@ -2498,7 +2498,7 @@ La source d’installation de ce produit n’est pas disponible. Vérifiez que l
 
 
 
-Ce package d’installation ne peut pas être installé par le service Windows Installer. Vous devez installer un Service Pack Windows qui contient une version plus récente du service Windows Installer.
+ce package d’installation ne peut pas être installé par le service Windows Installer. vous devez installer un Windows Service Pack qui contient une version plus récente du service Windows Installer.
 
 
 </dt> </dl> </dd> <dt>
@@ -2524,7 +2524,7 @@ Le produit est désinstallé.
 
 
 
-Syntaxe de requête SQL non valide ou non prise en charge.
+la syntaxe de la requête de SQL n’est pas valide ou n’est pas prise en charge.
 
 
 </dt> </dl> </dd> <dt>
@@ -2576,7 +2576,7 @@ Une autre installation est déjà en cours. Terminez cette installation avant de
 
 
 
-Ce package d’installation n’a pas pu être ouvert. Vérifiez que le package existe et que vous pouvez y accéder, ou contactez le fournisseur de l’application pour vérifier qu’il s’agit d’un package de Windows Installer valide.
+Ce package d’installation n’a pas pu être ouvert. vérifiez que le package existe et que vous pouvez y accéder, ou contactez le fournisseur de l’application pour vérifier qu’il s’agit d’un package de Windows Installer valide.
 
 
 </dt> </dl> </dd> <dt>
@@ -2589,7 +2589,7 @@ Ce package d’installation n’a pas pu être ouvert. Vérifiez que le package 
 
 
 
-Ce package d’installation n’a pas pu être ouvert. Contactez le fournisseur de l’application pour vérifier qu’il s’agit d’un package de Windows Installer valide.
+Ce package d’installation n’a pas pu être ouvert. contactez le fournisseur de l’application pour vérifier qu’il s’agit d’un package de Windows Installer valide.
 
 
 </dt> </dl> </dd> <dt>
@@ -2602,7 +2602,7 @@ Ce package d’installation n’a pas pu être ouvert. Contactez le fournisseur 
 
 
 
-Une erreur s’est produite lors du démarrage de l’interface utilisateur du service Windows Installer. Contactez votre service de support technique.
+une erreur s’est produite lors du démarrage de l’interface utilisateur du service Windows Installer. Contactez votre service de support technique.
 
 
 </dt> </dl> </dd> <dt>
@@ -2732,7 +2732,7 @@ Les données de ce type ne sont pas prises en charge.
 
 
 
-Échec du démarrage du service Windows Installer. Contactez votre service de support technique.
+échec du démarrage du service Windows Installer. Contactez votre service de support technique.
 
 
 </dt> </dl> </dd> <dt>
@@ -2784,7 +2784,7 @@ Composant non utilisé sur cet ordinateur.
 
 
 
-Impossible d’ouvrir ce package de mise à jour. Vérifiez que le package de mise à jour existe et que vous pouvez y accéder, ou contactez le fournisseur de l’application pour vérifier qu’il s’agit d’un package de mise à jour Windows Installer valide.
+Impossible d’ouvrir ce package de mise à jour. vérifiez que le package de mise à jour existe et que vous pouvez y accéder, ou contactez le fournisseur de l’application pour vérifier qu’il s’agit d’un package de mise à jour Windows Installer valide.
 
 
 </dt> </dl> </dd> <dt>
@@ -2797,7 +2797,7 @@ Impossible d’ouvrir ce package de mise à jour. Vérifiez que le package de mi
 
 
 
-Impossible d’ouvrir ce package de mise à jour. Contactez le fournisseur de l’application pour vérifier qu’il s’agit d’un package de mise à jour Windows Installer valide.
+Impossible d’ouvrir ce package de mise à jour. contactez le fournisseur de l’application pour vérifier qu’il s’agit d’un package de mise à jour Windows Installer valide.
 
 
 </dt> </dl> </dd> <dt>
@@ -2810,7 +2810,7 @@ Impossible d’ouvrir ce package de mise à jour. Contactez le fournisseur de l�
 
 
 
-Ce package de mise à jour ne peut pas être traité par le service Windows Installer. Vous devez installer un Service Pack Windows qui contient une version plus récente du service Windows Installer.
+ce package de mise à jour ne peut pas être traité par le service Windows Installer. vous devez installer un Windows Service Pack qui contient une version plus récente du service Windows Installer.
 
 
 </dt> </dl> </dd> <dt>
@@ -2836,7 +2836,7 @@ Une autre version de ce produit est déjà installée. L’installation de cette
 
 
 
-Argument de ligne de commande non valide. Pour obtenir une aide détaillée sur la ligne de commande, consultez le kit de développement logiciel Windows Installer.
+Argument de ligne de commande non valide. pour obtenir une aide détaillée sur la ligne de commande, consultez le kit de développement logiciel Windows Installer.
 
 
 </dt> </dl> </dd> <dt>
@@ -2875,7 +2875,7 @@ L’opération demandée s’est terminée avec succès. Le système va être re
 
 
 
-La mise à niveau ne peut pas être installée par le service Windows Installer, car le programme à mettre à niveau est peut-être manquant ou la mise à niveau peut mettre à jour une autre version du programme. Vérifiez que le programme à mettre à niveau existe sur votre ordinateur et que vous disposez de la mise à niveau appropriée.
+la mise à niveau ne peut pas être installée par le service Windows Installer, car le programme à mettre à niveau est peut-être manquant ou la mise à niveau peut mettre à jour une autre version du programme. Vérifiez que le programme à mettre à niveau existe sur votre ordinateur et que vous disposez de la mise à niveau appropriée.
 
 
 </dt> </dl> </dd> <dt>
@@ -2914,7 +2914,7 @@ Une ou plusieurs personnalisations ne sont pas autorisées par la stratégie de 
 
 
 
-Le Windows Installer ne permet pas l’installation à partir d’un Connexion Bureau à distance.
+le Windows Installer ne permet pas l’installation à partir d’un Connexion Bureau à distance.
 
 
 </dt> </dl> </dd> <dt>
@@ -2992,7 +2992,7 @@ Les données de mise à jour XML ne sont pas valides.
 
 
 
-Windows Installer n’autorise pas la mise à jour des produits publiés gérés. Au moins une fonctionnalité du produit doit être installée avant l’application de la mise à jour.
+Windows Le programme d’installation n’autorise pas la mise à jour des produits publiés gérés. Au moins une fonctionnalité du produit doit être installée avant l’application de la mise à jour.
 
 
 </dt> </dl> </dd> <dt>
@@ -3005,12 +3005,12 @@ Windows Installer n’autorise pas la mise à jour des produits publiés gérés
 
 
 
-Le service Windows Installer n’est pas accessible en mode sans échec. Réessayez si votre ordinateur n’est pas en mode sans échec ou si vous pouvez utiliser la restauration du système pour ramener votre ordinateur à un état correct précédent.
+le service Windows Installer n’est pas accessible en Mode Coffre. réessayez si votre ordinateur n’est pas en Mode Coffre ou si vous pouvez utiliser la restauration du système pour ramener votre ordinateur à un état correct précédent.
 
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_FAIL_FAST_EXCEPTION"></span><span id="error_fail_fast_exception"></span>**ERREUR d’échec de l' \_ \_ \_ exception rapide**
+<span id="ERROR_FAIL_FAST_EXCEPTION"></span><span id="error_fail_fast_exception"></span>**erreur d' \_ échec \_ FAST d' \_ EXCEPTION**
 </dt> <dd> <dl> <dt>
 
 1653 (0x675)
@@ -3042,8 +3042,8 @@ L’application que vous essayez d’exécuter n’est pas prise en charge sur c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

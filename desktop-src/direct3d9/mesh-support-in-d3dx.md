@@ -4,12 +4,12 @@ ms.assetid: 7892370f-0807-4ab7-b7cd-a7e1182e3f9c
 title: Prise en charge des maillages dans D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1600b372432d59357a7431c70ce70ce2958002c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 310f9888a2231f781fabe0820357241318cf5e6d486e688ba9c4a786305a6b9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119240759"
 ---
 # <a name="mesh-support-in-d3dx-direct3d-9"></a>Prise en charge des maillages dans D3DX (Direct3D 9)
 

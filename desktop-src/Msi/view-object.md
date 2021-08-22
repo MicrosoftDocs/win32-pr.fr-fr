@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: c26cfa3c4873913d70fca63537f1d25532648a42
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5025df952ce6e3c5ce43bf3dcb93748a241702b8c4e2f52cd9d0fd00103dc49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145272"
 ---
 # <a name="view-object"></a>Afficher l’objet
 
-L’objet **View** représente un jeu de résultats obtenu lors du traitement d’une requête à l’aide de la méthode [**OpenView**](database-openview.md) de l’objet [**Database**](database-object.md) . Avant de pouvoir transférer des données, la requête doit être exécutée à l’aide de la méthode [**Execute**](view-execute.md) , en lui transmettant tous les paramètres remplaçables désignés dans la chaîne de requête SQL. La requête peut être exécutée à nouveau, avec des paramètres différents, si nécessaire, mais uniquement après avoir libéré le jeu de résultats en extrayant tous les enregistrements ou en appelant la méthode [**Close**](view-close.md) .
+L’objet **View** représente un jeu de résultats obtenu lors du traitement d’une requête à l’aide de la méthode [**OpenView**](database-openview.md) de l’objet [**Database**](database-object.md) . avant de pouvoir transférer des données, la requête doit être exécutée à l’aide de la méthode [**execute**](view-execute.md) , en lui transmettant tous les paramètres remplaçables désignés dans la chaîne de requête SQL. La requête peut être exécutée à nouveau, avec des paramètres différents, si nécessaire, mais uniquement après avoir libéré le jeu de résultats en extrayant tous les enregistrements ou en appelant la méthode [**Close**](view-close.md) .
 
 ## <a name="members"></a>Membres
 
@@ -39,11 +39,11 @@ L’objet de **vue** possède ces méthodes.
 
 | Méthode                            | Description                                                                                                                                                                     |
 |:----------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Fermer**](view-close.md)       | Met fin à l’exécution de la requête et libère les ressources de la base de données.<br/>                                                                                                          |
-| [**Execute**](view-execute.md)   | Utilise le jeton de point d’interrogation pour représenter les paramètres dans une requête SQL. Les valeurs de ces paramètres sont transmises en tant que champs correspondants d’un enregistrement de paramètre.<br/> |
+| [**Plus**](view-close.md)       | Met fin à l’exécution de la requête et libère les ressources de la base de données.<br/>                                                                                                          |
+| [**Effectue**](view-execute.md)   | utilise le jeton de point d’interrogation pour représenter les paramètres dans une requête de SQL. Les valeurs de ces paramètres sont transmises en tant que champs correspondants d’un enregistrement de paramètre.<br/> |
 | [**Collecté**](view-fetch.md)       | Retourne un objet [**Record**](record-object.md) contenant les données de la colonne demandée si davantage de lignes sont disponibles dans le jeu de résultats, sinon retourne la valeur null.<br/>      |
 | [**GetError**](view-geterror.md) | Retourne l’erreur de validation et le nom de la colonne pour laquelle l’erreur s’est produite.<br/>                                                                                           |
-| [**Modifier**](view-modify.md)     | Modifie une ligne de base de données avec un objet [**enregistrement**](record-object.md) modifié obtenu à l’aide de la méthode [**Fetch**](view-fetch.md) .<br/>                                   |
+| [**Modify**](view-modify.md)     | Modifie une ligne de base de données avec un objet [**enregistrement**](record-object.md) modifié obtenu à l’aide de la méthode [**Fetch**](view-fetch.md) .<br/>                                   |
 
 
 
@@ -79,7 +79,7 @@ L’objet de **vue** possède ces propriétés.
 
 <dl> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

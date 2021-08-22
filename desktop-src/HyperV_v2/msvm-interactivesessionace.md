@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6c4b63e769b04092323cd2da7362ef6b156886b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed7dd4c4a3742f43a3de8e919ae2200e76cacc03ba1f7da066f48bac018f0a17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148382"
 ---
 # <a name="msvm_interactivesessionace-class"></a>MSVM \_ InteractiveSessionACE, classe
 
@@ -89,7 +89,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Identifie le principal de sécurité auquel l’entrée de contrôle d’accès accorde ou refuse l’accès. Les formats valides pour cette propriété sont le format de nom d’utilisateur compatible avec SAM Windows et le format de chaîne SID Windows.
+Identifie le principal de sécurité auquel l’entrée de contrôle d’accès accorde ou refuse l’accès. les formats valides pour cette propriété sont les Windows format de nom d’utilisateur compatible SAM et le format de chaîne SID Windows.
 
 </dd> </dl>
 
@@ -99,8 +99,8 @@ Identifie le principal de sécurité auquel l’entrée de contrôle d’accès 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

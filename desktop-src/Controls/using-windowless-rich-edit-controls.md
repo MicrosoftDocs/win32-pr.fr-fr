@@ -4,12 +4,12 @@ description: Cette section fournit un exemple de code et des informations sur l�
 ms.assetid: BEC29152-05A0-498C-9B62-1D3868B62674
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eaec4c23289ece038b97bd6b643cb201081f0571
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bfff63cb4a7fadb1f9b17fbbedd34980b5ec659f289c2180951955a9969aa17e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077743"
 ---
 # <a name="using-windowless-rich-edit-controls"></a>Utilisation de contrôles RichEdit sans fenêtre
 

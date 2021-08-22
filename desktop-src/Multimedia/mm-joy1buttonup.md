@@ -3,7 +3,7 @@ title: Message MM_JOY1BUTTONUP (mmsystem. h)
 description: Le \_ message JOY1BUTTONUP mm notifie la fenêtre qui a capturé la manette de jeu JOYSTICKID1 qu’un bouton a été relâché.
 ms.assetid: 37f0f87a-4805-4cec-9c0c-9d6b36a3ff0d
 keywords:
-- Message MM_JOY1BUTTONUP Windows Multimedia
+- message MM_JOY1BUTTONUP Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 007a5d954b9b879f87c5e8ffe2d0774d0d1d85a3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c70c7b8dda57d91e595bd65223a2fd33ef904679e35a38aaacbaf263b525258f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065569"
 ---
 # <a name="mm_joy1buttonup-message"></a>MM \_ message JOY1BUTTONUP
 
@@ -96,7 +96,7 @@ Coordonnée y de la manette de jeu par rapport au coin supérieur gauche de la z
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

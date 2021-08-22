@@ -4,12 +4,12 @@ description: La fonction RasEapMakeMessage contrôle la majorité de l’interac
 ms.assetid: edc128e0-3104-4df9-80f4-b2aebcfe1087
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e486e3a10e323f28bc2f6fef4c131acfc095b48
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3aea18883225a2a34e592b73e0cdc93b019c1bf466124976f01851febb2a17d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117769"
 ---
 # <a name="access-point-and-authentication-protocol-interaction-during-authentication"></a>Interaction du point d’accès et du protocole d’authentification pendant l’authentification
 
@@ -41,7 +41,7 @@ Dans le cas où l' **action** est **EAPACTION \_ effectuée** ou **EAPACTION \_ 
 
 Le protocole d’authentification sur le serveur peut demander à ce que le service d’authentification appelle le fournisseur d’authentification actuel en retournant **EAPACTION \_ Authenticate** dans le membre **action** dans la [**\_ \_ sortie EAP PPP**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_output). Dans ce cas, le pointeur **pUserAttributes** dans **le \_ \_ résultat EAP PPP** pointe uniquement vers les attributs qui ont été générés par le protocole d’authentification sur le serveur. Elle n’inclut pas les attributs passés au serveur dans l’appel à [**RasEapBegin**](/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)). Le fournisseur d’authentification n’a pas besoin de ces attributs initiaux, car les informations d’authentification se trouvent dans le message EAP lui-même et non dans un attribut RADIUS distinct. Lorsque le service d’authentification répond à l’action d’authentification **EAPACTION \_** , **pUserAttributes** dans l' [**\_ \_ entrée EAP PPP**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input), pointe vers tous les attributs générés pendant l’authentification. Ces attributs sont retournés au protocole d’authentification sur le client.
 
-Si le protocole d’authentification utilise **EAPACTION \_ Authenticate**, le fournisseur d’authentification exécute PAP ou MD5-chap. Cette méthode d’authentification ne peut être utilisée qu’avec les clients Windows.
+Si le protocole d’authentification utilise **EAPACTION \_ Authenticate**, le fournisseur d’authentification exécute PAP ou MD5-chap. cette méthode d’authentification ne peut être utilisée qu’avec des clients Windows.
 
 Si le protocole d’authentification authentifie l’utilisateur sans s’appuyer sur un fournisseur d’authentification, le protocole n’a pas besoin de définir d' **action** pour l’authentification **EAPACTION \_**. Un exemple de ce cas de figure est EAP-Transport la sécurité de couche (TLS).
 
@@ -53,6 +53,6 @@ Le protocole d’authentification doit afficher une interface utilisateur unique
 
 Si, au cours du processus d’authentification, [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)) retourne une valeur autre qu' **aucune \_ erreur** ou une **erreur de \_ \_ \_ paquet PPP non valide**, la session est déconnectée et l’erreur est consignée (sur le serveur) ou affichée à l’utilisateur (sur le client).
 
- 
+ 
 
- 
+ 

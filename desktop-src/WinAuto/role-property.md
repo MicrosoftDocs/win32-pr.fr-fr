@@ -4,12 +4,12 @@ description: La propriété Role décrit l’élément d’interface utilisateur
 ms.assetid: f6abf95b-a77a-406d-9ca0-4663adc8245f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f2b285d9242542f83c6b4478df93e888a7a23cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2881b301537e9a25dabb260b84bc889cef4e4a6f9f6a5a2c8fab540d78daf8c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133722"
 ---
 # <a name="role-property"></a>Role, propriété
 
@@ -27,9 +27,9 @@ Pour les contrôles d’animation, tels que le contrôle d’animation affiché 
 
 Notez que certains rôles ne sont pas faciles à décrire. Par exemple, la vue de grande icône d’un dossier permet une disposition arbitraire des icônes, donc son rôle peut être décrit comme [**\_ \_ regroupement de système de rôle**](object-roles.md). Ou un contrôle qui fournit des éléments dans des lignes et des colonnes fixes peut avoir le rôle de [**\_ \_ table système Role**](object-roles.md) . Étant donné qu’un rôle est utilisé pour communiquer le modèle d’utilisation à un utilisateur final, il est important d’utiliser le rôle approprié. Par exemple, si votre contrôle agit comme un bouton, utilisez le [**\_ \_ PUSHBUTTON système de rôle**](object-roles.md).
 
- 
+ 
 
- 
+ 
 
 
 

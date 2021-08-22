@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101299
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7d45e157e9c1e8ffc5a611b13b2f4487ad7fdefb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f322ad91bcf7556c06ba0a66057cae9c1d006c6b37e9da6efb8ea0730fc4ceb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104567547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041957"
 ---
 # <a name="esentcolumndoesnotfitexception-members"></a>Membres EsentColumnDoesNotFitException
 
@@ -73,7 +73,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

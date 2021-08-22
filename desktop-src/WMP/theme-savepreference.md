@@ -3,7 +3,7 @@ title: THÈME. savePreference
 description: La méthode savePreference enregistre une préférence dans le registre.
 ms.assetid: 4c253d8d-15c0-4c18-bb3f-fdbcef79c999
 keywords:
-- THEMe. savePreference Windows Media Player
+- thème. savePreference Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 89633d71dd75f4ef5e804aefddc85cf00ad5c03b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5f9edca154ff6402028ba873c1643e330ab316a54a63f14fa4f9b5bdb244483
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134542"
 ---
 # <a name="themesavepreference"></a>THÈME. savePreference
 
@@ -50,9 +50,9 @@ La méthode **savePreference** enregistre une préférence dans le registre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Une préférence est une paire clé/valeur qui peut être stockée dans le registre pour conserver les informations sur l’état du lecteur Windows Media entre les exécutions. Cette fonctionnalité peut être utilisée, par exemple, pour enregistrer les paramètres de personnalisation afin qu’ils n’aient pas à entrer à nouveau chaque fois que le lecteur Windows Media est démarré.
+une préférence est une paire clé/valeur qui peut être stockée dans le registre pour conserver les informations sur l’état de Lecteur Windows Media entre les exécutions. cette fonctionnalité peut être utilisée, par exemple, pour enregistrer les paramètres de personnalisation afin qu’ils n’aient pas à entrer à nouveau chaque fois que Lecteur Windows Media est démarré.
 
 Les préférences ne sont pas chiffrées et ne sont donc pas une méthode sécurisée pour la persistance des données. N’utilisez pas de préférences pour stocker des données privées.
 

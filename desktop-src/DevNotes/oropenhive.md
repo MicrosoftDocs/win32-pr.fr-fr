@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: ba6531e7a2ab2b0b148065d9f4666812e75f2968
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86ff3d6ff15b030054d40ca7131e521cedb59ebf20c4942951f0e141f27a2840
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076013"
 ---
 # <a name="oropenhive-function"></a>OROpenHive fonction)
 
@@ -64,7 +64,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur différent de
 -   Si l’appelant ne dispose pas des droits d’accès nécessaires pour ouvrir le fichier, la fonction retourne l’erreur \_ accès \_ refusé.
 -   Si la ruche du Registre échoue à la validation, la fonction retourne l’erreur \_ non \_ fichier du Registre \_ .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **OROpenHive** est la seule fonction de Registre hors connexion qui valide une ruche de registre. Si la validation échoue, aucune tentative n’est faite pour réparer la ruche.
 
@@ -74,7 +74,7 @@ La fonction **OROpenHive** est la seule fonction de Registre hors connexion qui 
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

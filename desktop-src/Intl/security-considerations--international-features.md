@@ -4,12 +4,12 @@ ms.assetid: 4034f479-ad29-4c6f-82c6-977f420c4d4d
 title: 'Considérations relatives à la sécurité : fonctionnalités internationales'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeb9f8b849e9fb1a07f01031832449b9c9027ae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2e61566fdf51b80a76e5c8997018f35ce421dee6dd0e1b9e290888d96576249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147042"
 ---
 # <a name="security-considerations-international-features"></a>Considérations relatives à la sécurité : fonctionnalités internationales
 
@@ -39,7 +39,7 @@ Les comparaisons de chaînes peuvent présenter des problèmes de sécurité. É
 -   [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia). Compare deux chaînes de caractères en fonction des règles des paramètres régionaux, sans respect de la casse. La fonction compare les chaînes en vérifiant les premiers caractères les unes par rapport aux autres, et ainsi de suite, jusqu’à ce qu’il trouve une inégalité ou qu’il atteigne les terminaisons des chaînes.
 -   [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa). Compare des chaînes à l’aide de techniques similaires à celles de [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia). La seule différence est que [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa) effectue une comparaison de chaînes respectant la casse.
 -   [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw), [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) (Windows Vista et versions ultérieures). Effectue une comparaison de chaînes sur les paramètres régionaux fournis par l’application. [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) est similaire à [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw), mais il identifie les paramètres régionaux par [nom de paramètres régionaux](locale-names.md) et non pas par [identificateur de paramètres régionaux](locale-identifiers.md). Ces fonctions sont similaires à [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia) et [lstrcmp](/windows/win32/api/winbase/nf-winbase-lstrcmpa) , à ceci près qu’elles opèrent sur des paramètres régionaux spécifiques au lieu des paramètres régionaux sélectionnés par l’utilisateur.
--   [**Comparestringordinal,**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal) (Windows Vista et versions ultérieures). Compare deux chaînes Unicode pour tester l’équivalence binaire. À l’exception de l’option de non-respect de la casse, cette fonction ignore toutes les équivalences non binaires et teste l’égalité de tous les points de code, y compris les points de code qui n’ont pas de poids dans les schémas de [Tri](sorting.md) linguistique. Notez que les autres fonctions de comparaison mentionnées dans cette rubrique ne testent pas l’égalité de tous les points de code.
+-   [**comparestringordinal,**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal) (Windows Vista et versions ultérieures). Compare deux chaînes Unicode pour tester l’équivalence binaire. À l’exception de l’option de non-respect de la casse, cette fonction ignore toutes les équivalences non binaires et teste l’égalité de tous les points de code, y compris les points de code qui n’ont pas de poids dans les schémas de [Tri](sorting.md) linguistique. Notez que les autres fonctions de comparaison mentionnées dans cette rubrique ne testent pas l’égalité de tous les points de code.
 -   [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring), [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) (Windows Vista et versions ultérieures). Recherchez une chaîne Unicode dans une autre chaîne Unicode. [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) est similaire à [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring), à ceci près qu’il identifie les paramètres régionaux par nom de paramètres régionaux et non pas par identificateur de paramètres régionaux.
 -   [**FindStringOrdinal**](/windows/desktop/api/Libloaderapi/nf-libloaderapi-findstringordinal) (Windows 7 et versions ultérieures). Localise une chaîne Unicode dans une autre chaîne Unicode. L’application doit utiliser cette fonction au lieu de [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring) pour toutes les comparaisons non linguistiques.
 
@@ -48,20 +48,20 @@ Comme [lstrcmpi](/windows/win32/api/winbase/nf-winbase-lstrcmpia) et [lstrcmp](/
 [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) ignore les caractères non définis et retourne donc zéro (ce qui indique que les chaînes sont égales) pour de nombreuses paires de chaînes qui sont assez distinctes. Une chaîne peut contenir des valeurs qui ne correspondent à aucun caractère ou elle peut contenir des caractères avec une sémantique en dehors du domaine de l’application, tels que des caractères de contrôle dans une URL. Les applications qui utilisent cette fonction doivent fournir des gestionnaires d’erreurs et des chaînes de test pour s’assurer qu’elles sont valides avant de les utiliser.
 
 > [!Note]  
-> Pour Windows Vista et versions ultérieures, [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) est similaire à [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw). Les problèmes de sécurité sont identiques pour ces fonctions.
+> pour Windows Vista et versions ultérieures, [**CompareStringEx**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) est similaire à [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw). Les problèmes de sécurité sont identiques pour ces fonctions.
 
  
 
 Des problèmes de sécurité similaires s’appliquent aux fonctions, telles que [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring), qui effectuent des comparaisons implicites. Selon les indicateurs définis, les résultats de l’appel de [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring) pour rechercher une chaîne dans une autre chaîne peuvent varier considérablement.
 
 > [!Note]  
-> Pour Windows Vista et versions ultérieures, [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) est similaire à [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring). Les problèmes de sécurité sont identiques pour ces fonctions.
+> pour Windows Vista et versions ultérieures, [**FindNLSStringEx**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) est similaire à [**FindNLSString**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring). Les problèmes de sécurité sont identiques pour ces fonctions.
 
  
 
 ## <a name="security-considerations-for-character-sets-in-file-names"></a>Considérations relatives à la sécurité pour les jeux de caractères dans les noms de fichiers
 
-La page de codes Windows et les jeux de caractères OEM utilisés sur les systèmes en langue japonaise contiennent le symbole yen (¥) au lieu d’une barre oblique inverse ( \\ ). Par conséquent, le caractère yen est un caractère interdit pour les systèmes de fichiers NTFS et FAT. Lors du mappage Unicode sur une page de codes en japonais, les fonctions de conversion mappent la barre oblique inverse (U + 005C) et le symbole de yen Unicode normal (U + 00A5) à ce même caractère. Pour des raisons de sécurité, les applications ne doivent pas, en général, autoriser le caractère U + 00A5 dans une chaîne Unicode qui peut être convertie pour être utilisée comme nom de fichier FAT.
+Windows page de codes et les jeux de caractères OEM utilisés sur les systèmes en langue japonaise contiennent le symbole Yen (¥) au lieu d’une barre oblique inverse ( \\ ). Par conséquent, le caractère yen est un caractère interdit pour les systèmes de fichiers NTFS et FAT. Lors du mappage Unicode sur une page de codes en japonais, les fonctions de conversion mappent la barre oblique inverse (U + 005C) et le symbole de yen Unicode normal (U + 00A5) à ce même caractère. Pour des raisons de sécurité, les applications ne doivent pas, en général, autoriser le caractère U + 00A5 dans une chaîne Unicode qui peut être convertie pour être utilisée comme nom de fichier FAT.
 
 ## <a name="security-considerations-for-internationalized-domain-names"></a>Considérations relatives à la sécurité pour les noms de domaine internationaux
 
@@ -86,7 +86,7 @@ Pour plus d’informations sur les problèmes de sécurité mentionnés ici, ain
 
  
 
-De nombreuses fonctions NLS (National Language Support), telles que [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) et [**GetCalendarInfo**](/windows/desktop/api/Winnls/nf-winnls-getcalendarinfoa), ont des versions ANSI spécifiques, en l’occurrence, **GetLocaleInfoA** et **GetCalendarInfoA**, respectivement. Lorsque votre application utilise la version ANSI d’une fonction avec un système d’exploitation Unicode, tel que Windows NT, Windows 2000, Windows XP ou Windows Vista, la fonction peut échouer ou produire des résultats indéfinis. Si vous avez une bonne raison d’utiliser des fonctions ANSI avec un tel système d’exploitation, assurez-vous que les données transmises par votre application sont valides pour ANSI.
+De nombreuses fonctions NLS (National Language Support), telles que [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) et [**GetCalendarInfo**](/windows/desktop/api/Winnls/nf-winnls-getcalendarinfoa), ont des versions ANSI spécifiques, en l’occurrence, **GetLocaleInfoA** et **GetCalendarInfoA**, respectivement. lorsque votre application utilise la version ANSI d’une fonction avec un système d’exploitation Unicode, tel que Windows NT, Windows 2000, Windows XP ou Windows Vista, la fonction peut échouer ou produire des résultats indéfinis. Si vous avez une bonne raison d’utiliser des fonctions ANSI avec un tel système d’exploitation, assurez-vous que les données transmises par votre application sont valides pour ANSI.
 
 ## <a name="security-considerations-for-unicode-normalization"></a>Considérations relatives à la sécurité pour la normalisation Unicode
 

@@ -4,12 +4,12 @@ ms.assetid: 6ba9e943-bd96-47ca-9808-362f69fc2e3b
 title: System. PropList. ExtendedTileInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdcc17d0fe3e709868c33aab32fdc20c4e7c3b26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ff6d5f72f2544197d070c6cc97bf17d20c170834b61d16128393940704f0fe6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095881"
 ---
 # <a name="systemproplistextendedtileinfo"></a>System. PropList. ExtendedTileInfo
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

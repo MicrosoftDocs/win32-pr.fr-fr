@@ -4,17 +4,17 @@ description: Une application de bureau de grande qualité est puissante et, en m
 ms.assetid: 0039a3ee-95bc-457f-a1a8-6a036ce22fd2
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 74433514f61b37ba1c9941c8134767be5458ebc8
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: a9c191a92ccf6147d37deca191a861220c4a925035bf39c92e7e7d062fa14184
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119221727"
 ---
 # <a name="how-to-design-a-great-user-experience-for-desktop-applications"></a>Comment concevoir une expérience utilisateur idéale pour les applications de bureau
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Une application de bureau de grande qualité est puissante et, en même temps, simple. Grâce à la sélection et à la présentation des fonctionnalités soigneusement équilibrées, vous pouvez obtenir la puissance et la simplicité.
 
@@ -26,7 +26,7 @@ Une application de bureau de grande qualité est puissante et, en même temps, s
 
 ![capture d’écran de la liste des révisions orthographiques possibles ](images/powerful-simple-image2.png)
 
-L’application Windows idéale est à la fois puissante et simple. Bien sûr, vous souhaitez que votre application soit puissante et, bien sûr, que vous souhaitiez la rendre simple, mais pouvez-vous y parvenir ? Il existe une tension naturelle entre ces objectifs, mais cette tension est loin d’être inconciliable. Vous pouvez obtenir la puissance et la simplicité grâce à une sélection et une présentation des fonctionnalités soigneusement équilibrées.
+l’application idéale basée sur le Windows est à la fois puissante et simple. Bien sûr, vous souhaitez que votre application soit puissante et, bien sûr, que vous souhaitiez la rendre simple, mais pouvez-vous y parvenir ? Il existe une tension naturelle entre ces objectifs, mais cette tension est loin d’être inconciliable. Vous pouvez obtenir la puissance et la simplicité grâce à une sélection et une présentation des fonctionnalités soigneusement équilibrées.
 
 ## <a name="what-makes-an-application-powerful"></a>Qu’est-ce qui rend une application puissante ?
 
@@ -39,7 +39,7 @@ Une application est puissante lorsqu’elle a la bonne combinaison de ces caract
 -   **Interfaces.** L’application permet aux utilisateurs d’effectuer efficacement un large éventail de tâches dans diverses circonstances.
 -   **Directe.** L’application s’apparente à aider les utilisateurs à atteindre leurs objectifs, au lieu de s’approcher ou de nécessiter des étapes inutiles. Les fonctionnalités telles que les raccourcis, l’accès au clavier et les macros améliorent le sens de l’adressage.
 -   **Fixes.** L’application permet aux utilisateurs d’effectuer un contrôle affiné sur leur travail.
--   **Intégrer.** L’application est bien intégrée à Microsoft Windows, ce qui lui permet de partager des données avec d’autres applications.
+-   **Intégrer.** l’application est bien intégrée à Microsoft Windows, ce qui lui permet de partager des données avec d’autres applications.
 -   **Avancé.** L’application possède des fonctionnalités de pointe exceptionnelles et novatrices qui ne se trouvent pas dans les solutions concurrentes.
 
 Certaines de ces caractéristiques dépendent de la perception de l’utilisateur et sont relatives aux fonctionnalités actuelles des utilisateurs. Ce qui est considéré comme puissant peut changer au fil du temps. la fonctionnalité de recherche avancée d’aujourd’hui peut donc être très répandue demain.
@@ -80,7 +80,7 @@ Tous les utilisateurs, quel que soit leur niveau de complexité, veulent travail
 
 La simplicité est la méthode la plus efficace pour faciliter l’utilisation et la simplicité d’utilisation. Les fonctionnalités complexes et difficiles à utiliser ne sont pas utilisées. En revanche, des conceptions simples et élégantes qui effectuent bien leur fonction sont un bonheur à utiliser. Ils appellent une réponse émotionnelle positive.
 
-Par exemple, considérez la prise en charge des réseaux sans fil dans Microsoft Windows XP. Microsoft aurait pu ajouter un Assistant pour guider les utilisateurs tout au long du processus de configuration. Cette approche aurait abouti à une facilité d’utilisation, mais pas plus simple, car une fonctionnalité non essentielle (l’Assistant) aurait été ajoutée. Au lieu de cela, Microsoft a conçu la mise en réseau sans fil pour se configurer automatiquement. En fin de compte, les utilisateurs ne se soucient pas des détails de configuration, tant qu’il « fonctionne » simplement de manière fiable et sécurisée. Cette combinaison de puissance et de simplicité dans la technologie de réseau sans fil a conduit à sa popularité et à son adoption rapide.
+par exemple, considérez la prise en charge des réseaux sans fil dans Microsoft Windows XP. Microsoft aurait pu ajouter un Assistant pour guider les utilisateurs tout au long du processus de configuration. Cette approche aurait abouti à une facilité d’utilisation, mais pas plus simple, car une fonctionnalité non essentielle (l’Assistant) aurait été ajoutée. Au lieu de cela, Microsoft a conçu la mise en réseau sans fil pour se configurer automatiquement. En fin de compte, les utilisateurs ne se soucient pas des détails de configuration, tant qu’il « fonctionne » simplement de manière fiable et sécurisée. Cette combinaison de puissance et de simplicité dans la technologie de réseau sans fil a conduit à sa popularité et à son adoption rapide.
 
 **Si vous n’avez qu’une seule chose...**
 
@@ -139,7 +139,7 @@ Utilisez les techniques de conception suivantes pour préserver la puissance, to
 -   La cohérence, la configurabilité et la généralisation sont souvent des qualités souhaitables, mais elles peuvent entraîner une complexité inutile. Passez en revue votre conception pour des efforts inappropriés de cohérence (tels que le texte redondant), la généralisation (par exemple, si deux fuseaux horaires sont suffisants) et la configurabilité (comme les options que les utilisateurs ne sont pas susceptibles de modifier) et éliminer les éléments qui peuvent être éliminés.
 -   **Placez les éléments au bon endroit.** Dans une fenêtre, l’emplacement d’un élément doit suivre son utilitaire. Les contrôles, instructions et explications essentiels doivent tous être en contexte dans l’ordre logique. Si vous avez besoin de davantage d’options, exposez-les en cliquant sur un chevron ou un mécanisme similaire. Si des informations supplémentaires sont nécessaires, affichez une info-bulle au pointage de la souris. Placez des tâches, des options et des informations d’aide moins importantes en dehors du processus principal dans une fenêtre ou une page distincte. La technique consistant à afficher des détails supplémentaires en fonction des besoins est appelée Divulgation progressive.
 -   **Utilisez des combinaisons significatives de haut niveau.** Il est souvent plus simple et plus évolutif de sélectionner et de manipuler des groupes d’éléments associés que des éléments individuels. Les dossiers, les thèmes, les styles et les groupes d’utilisateurs sont des exemples de combinaisons de haut niveau. Ces combinaisons sont souvent mappées à un objectif de l’utilisateur ou à une intention qui n’est pas visible à partir des éléments individuels. Par exemple, l’intention derrière le modèle de couleurs contraste élevé noir est beaucoup plus évidente que celle d’un arrière-plan de fenêtre noire.
--   **Sélectionnez les contrôles appropriés.** Les éléments de conception sont incorporés par les contrôles que vous utilisez pour les représenter. par conséquent, il est essentiel de sélectionner le bon contrôle pour une présentation efficace. Par exemple, la zone de sélection de police utilisée par Microsoft Word affiche à la fois un aperçu de la police et des polices utilisées les plus récentes. De même, la façon dont Word affiche les erreurs potentielles d’orthographe et de grammaire en place est bien plus simple que la boîte de dialogue alternative, comme indiqué au début de cet article.
+-   **Sélectionnez les contrôles appropriés.** Les éléments de conception sont incorporés par les contrôles que vous utilisez pour les représenter. par conséquent, il est essentiel de sélectionner le bon contrôle pour une présentation efficace. par exemple, la zone de sélection de police utilisée par Microsoft Word affiche à la fois un aperçu de la police et les polices utilisées les plus récentes. De même, la façon dont Word affiche les erreurs potentielles d’orthographe et de grammaire en place est bien plus simple que la boîte de dialogue alternative, comme indiqué au début de cet article.
 
 Réduction des efforts
 
@@ -174,7 +174,7 @@ L’obtention de la simplicité tout en préservant la puissance nécessite souv
 
 ## <a name="powerful-and-simple"></a>Puissant et simple
 
-La puissance consiste à activer vos utilisateurs et à les rendre productifs. La simplicité consiste à supprimer les fonctionnalités non essentielles et présentant la bonne façon. En comprenant vos utilisateurs cibles et en obtenant un juste équilibre entre les fonctionnalités et la présentation, vous pouvez concevoir des applications Windows qui effectuent les deux.
+La puissance consiste à activer vos utilisateurs et à les rendre productifs. La simplicité consiste à supprimer les fonctionnalités non essentielles et présentant la bonne façon. en comprenant vos utilisateurs cibles et en obtenant un juste équilibre entre les fonctionnalités et la présentation, vous pouvez concevoir des applications basées sur Windows qui effectuent les deux.
 
  
 

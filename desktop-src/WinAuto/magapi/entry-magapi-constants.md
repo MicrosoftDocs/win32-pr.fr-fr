@@ -4,12 +4,12 @@ description: Cette section contient des informations de référence sur les cons
 ms.assetid: 4AF46B70-9120-47B6-B824-0410805DA89D
 ms.topic: article
 ms.date: 02/07/2020
-ms.openlocfilehash: 4381a42c3c791f3c023f81f2bc596ec09eaa577f
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: fe125ff968029d7dceb3c6b1b38fd8d2dd943ba6ae30a24dcc8936fdb7bd7099
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106529050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133822"
 ---
 # <a name="constants"></a>Constantes
 

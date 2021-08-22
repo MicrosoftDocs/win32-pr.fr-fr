@@ -1,19 +1,19 @@
 ---
-description: Les fonctionnalités de l’interpréteur de commandes peuvent être étendues avec des entrées de Registre et des fichiers. ini.
+description: Les fonctionnalités de l’interpréteur de commandes peuvent être étendues avec des entrées de Registre et des fichiers de .ini.
 ms.assetid: 74a81e4f-7357-4901-a118-ba44e8892f25
 title: Création de gestionnaires d’extensions d’environnement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 991f3c1684b7491e2ad29fae29f48164ffdd47cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 729fad22eb86e9c32e43c459d7a30b11f68d8d06360b60cee373bb3f74d3749f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032557"
 ---
 # <a name="creating-shell-extension-handlers"></a>Création de gestionnaires d’extensions d’environnement
 
-Les fonctionnalités de l’interpréteur de commandes peuvent être étendues avec des entrées de Registre et des fichiers. ini. Bien que cette approche de l’extension de l’interpréteur de commandes soit simple et adaptée à de nombreuses fins, elle est limitée. Par exemple, si vous utilisez le registre pour spécifier une icône personnalisée pour un type de fichier, la même icône s’affiche pour chaque fichier de ce type. L’extension de l’interpréteur de commandes avec le registre ne vous permet pas de faire varier l’icône pour différents fichiers du même type. D’autres aspects de l’interpréteur de commandes, tels que la feuille de propriétés des **Propriétés** qui peuvent être affichées lorsqu’un utilisateur clique avec le bouton droit, ne peuvent pas être modifiés du tout à l’aide du Registre.
+Les fonctionnalités de l’interpréteur de commandes peuvent être étendues avec des entrées de Registre et des fichiers de .ini. Bien que cette approche de l’extension de l’interpréteur de commandes soit simple et adaptée à de nombreuses fins, elle est limitée. Par exemple, si vous utilisez le registre pour spécifier une icône personnalisée pour un type de fichier, la même icône s’affiche pour chaque fichier de ce type. L’extension de l’interpréteur de commandes avec le registre ne vous permet pas de faire varier l’icône pour différents fichiers du même type. D’autres aspects de l’interpréteur de commandes, tels que la feuille de propriétés des **Propriétés** qui peuvent être affichées lorsqu’un utilisateur clique avec le bouton droit, ne peuvent pas être modifiés du tout à l’aide du Registre.
 
 Une approche plus puissante et flexible pour étendre l’interpréteur de commandes consiste à implémenter des *gestionnaires d’extensions de Shell*. Ces gestionnaires peuvent être implémentés pour diverses actions que l’interpréteur de commandes peut effectuer. Avant d’entreprendre l’action, l’interpréteur de commandes interroge le gestionnaire d’extensions, en lui donnant la possibilité de modifier l’action. Un gestionnaire d’extensions de menu contextuel est un exemple courant. Si l’une d’elles est implémentée pour un type de fichier, elle est interrogée chaque fois que l’utilisateur clique avec le bouton droit sur l’un des fichiers. Le gestionnaire peut ensuite spécifier des éléments de menu supplémentaires pour chaque fichier, au lieu d’avoir le même ensemble pour le type de fichier entier.
 
@@ -42,11 +42,11 @@ Les autres gestionnaires ne sont pas associés à un type de fichier particulier
 
 | Handler                                                            | Description                                                                                                                                  |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Gestionnaire de colonnes](../lwef/column-handlers.md)                             | Appelée par l’Explorateur Windows avant d’afficher la vue Détails d’un dossier. Elle vous permet d’ajouter des colonnes personnalisées à la vue Détails.        |
+| [Gestionnaire de colonnes](../lwef/column-handlers.md)                             | appelée par Windows Explorer avant d’afficher la vue détails d’un dossier. Elle vous permet d’ajouter des colonnes personnalisées à la vue Détails.        |
 | [Gestionnaire de raccordement de copie](how-to-create-copy-hook-handlers.md)          | Appelé lorsqu’un objet de dossier ou d’imprimante est sur le lieu d’être déplacé, copié, supprimé ou renommé. Elle vous permet d’approuver ou de refuser l’opération.   |
 | [Gestionnaire de glisser-déplacer](context-menu-handlers.md)                 | Appelé lorsqu’un fichier est glissé avec le bouton droit de la souris. Elle vous permet de modifier le menu contextuel qui s’affiche.                     |
 | [Gestionnaire de superposition d’icône](how-to-implement-icon-overlay-handlers.md) | Appelé avant l’affichage de l’icône d’un fichier. Elle vous permet de spécifier une superposition pour l’icône du fichier.                                          |
-| [Gestionnaire de recherche](../lwef/search-handlers.md)                             | Appelé pour lancer un moteur de recherche. Elle vous permet d’implémenter un moteur de recherche personnalisé accessible à partir du menu **Démarrer** ou de l’Explorateur Windows. |
+| [Gestionnaire de recherche](../lwef/search-handlers.md)                             | Appelé pour lancer un moteur de recherche. elle vous permet d’implémenter un moteur de recherche personnalisé accessible à partir du menu **démarrer** ou de l’explorateur de Windows. |
 
 
 
@@ -58,7 +58,7 @@ Les détails sur la façon d’implémenter des gestionnaires d’extensions sp�
     -   [Implémentation de IPersistFile](#implementing-ipersistfile)
     -   [Implémentation de IShellExtInit](#implementing-ishellextinit)
     -   [Personnalisation de l’info-bulle](#infotip-customization)
--   [Amélioration de la recherche Windows avec les gestionnaires d’extensions de Shell](#enhancing-windows-search-with-shell-extension-handlers)
+-   [amélioration de la recherche de Windows avec des gestionnaires d’Extension de Shell](#enhancing-windows-search-with-shell-extension-handlers)
 -   [Inscription des gestionnaires d’extensions de Shell](#registering-shell-extension-handlers)
     -   [Noms de gestionnaires](#handler-names)
     -   [Objets Shell prédéfinis](#predefined-shell-objects)
@@ -75,7 +75,7 @@ De nombreux gestionnaires d’extension de Shell sont des objets COM (Component 
 -   [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject). Expose la fabrique de classe de l’objet.
 -   [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow). COM appelle cette fonction pour déterminer si l’objet dessert des clients. Si ce n’est pas le cas, le système peut décharger la DLL et libérer la mémoire associée.
 
-Comme tous les objets COM, les gestionnaires d’extensions de Shell doivent implémenter une interface [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) et une [fabrique de classe](../com/implementing-iclassfactory.md). La plupart des gestionnaires d’extensions doivent également implémenter une interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) ou [**ISHELLEXTINIT**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) dans Windows XP ou une version antérieure. Ils ont été remplacés par [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) et [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) dans Windows Vista. L’interpréteur de commandes utilise ces interfaces pour initialiser le gestionnaire.
+Comme tous les objets COM, les gestionnaires d’extensions de Shell doivent implémenter une interface [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) et une [fabrique de classe](../com/implementing-iclassfactory.md). la plupart des gestionnaires d’extensions doivent également implémenter une interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) ou [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) dans Windows XP ou une version antérieure. celles-ci ont été remplacées par [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) et [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) dans Windows Vista. L’interpréteur de commandes utilise ces interfaces pour initialiser le gestionnaire.
 
 L’interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) doit être implémentée par les éléments suivants :
 
@@ -228,11 +228,11 @@ Les noms de propriétés suivants peuvent être utilisés :
 | Nom de la propriété    | Description                   | Récupéré à partir de                                                                             |
 |------------------|-------------------------------|--------------------------------------------------------------------------------------------|
 | Auteur           | Auteur du document        | [**\_auteur PIDSI**](../stg/the-summary-information-property-set.md)                              |
-| Intitulé            | Titre du document         | [**\_titre PIDSI**](../stg/the-summary-information-property-set.md)                               |
+| Titre            | Titre du document         | [**\_titre PIDSI**](../stg/the-summary-information-property-set.md)                               |
 | Objet          | Résumé de l’objet               | [**PIDSI \_ objet**](../stg/the-summary-information-property-set.md)                             |
 | Commentaire          | Commentaires sur le document             | [**PIDSI \_**](../stg/the-summary-information-property-set.md) Propriétés d’un commentaire ou d’un dossier/pilote |
 | PageCount        | Nombre de pages               | [**PIDSI \_ PageCount**](../stg/the-summary-information-property-set.md)                           |
-| Nom             | Nom convivial                 | Affichage des dossiers standard                                                                       |
+| Name             | Nom convivial                 | Affichage des dossiers standard                                                                       |
 | OriginalLocation | Emplacement du fichier d’origine     | Dossier porte-documents et dossier Corbeille                                                    |
 | DateDeleted      | Date de suppression du fichier         | Dossier Corbeille                                                                         |
 | Type             | Type de fichier                  | Mode Détails du dossier standard                                                               |
@@ -255,9 +255,9 @@ Les noms de propriétés suivants peuvent être utilisés :
 
  
 
-## <a name="enhancing-windows-search-with-shell-extension-handlers"></a>Amélioration de la recherche Windows avec les gestionnaires d’extensions de Shell
+## <a name="enhancing-windows-search-with-shell-extension-handlers"></a>amélioration de la recherche de Windows avec des gestionnaires d’Extension de Shell
 
-Les gestionnaires d’extensions de Shell peuvent être utilisés pour améliorer l’expérience utilisateur fournie par un gestionnaire de protocole de recherche Windows. Pour activer ces améliorations, le gestionnaire d’extensions de Shell de prise en charge doit être conçu pour s’intégrer au gestionnaire de protocole de recherche comme source de données. Pour plus d’informations sur la façon d’améliorer un gestionnaire de protocole de recherche Windows par le biais de l’intégration à un gestionnaire d’extensions de Shell, consultez [Ajout d’icônes, d’aperçus et de menus contextuels](../search/-search-3x-wds-ph-ui-extensions.md). Pour plus d’informations sur les gestionnaires de protocole de recherche Windows, consultez [développement de gestionnaires de protocole](../search/-search-3x-wds-phaddins.md).
+les gestionnaires d’extensions de Shell peuvent être utilisés pour améliorer l’expérience utilisateur fournie par un gestionnaire de protocole de recherche Windows. Pour activer ces améliorations, le gestionnaire d’extensions de Shell de prise en charge doit être conçu pour s’intégrer au gestionnaire de protocole de recherche comme source de données. pour plus d’informations sur la façon d’améliorer un gestionnaire de protocole de recherche de Windows par le biais de l’intégration à un gestionnaire d’extensions de Shell, consultez [ajout d’icônes, d’aperçus et de Menus contextuels](../search/-search-3x-wds-ph-ui-extensions.md). pour plus d’informations sur les gestionnaires de protocoles de recherche Windows, consultez [développement de gestionnaires de protocole](../search/-search-3x-wds-phaddins.md).
 
 ## <a name="registering-shell-extension-handlers"></a>Inscription des gestionnaires d’extensions de Shell
 
@@ -292,7 +292,7 @@ Pour les gestionnaires suivants, créez une sous-clé sous la clé « nom de la
 | Gestionnaire CopyHook                                      | ICopyHook          | **CopyHookHandlers**      |
 | Gestionnaire de glisser-déplacer                                 | IContextMenu       | **DragDropHandlers**      |
 | Gestionnaire de feuille de propriétés                                | IShellPropSheetExt | **PropertySheetHandlers** |
-| Gestionnaire de fournisseur de colonne (déconseillé dans Windows Vista) | IColumnProvider    | **ColumnHandlers**        |
+| gestionnaire de fournisseur de colonne (déconseillé dans Windows Vista) | IColumnProvider    | **ColumnHandlers**        |
 
 
 
@@ -314,7 +314,7 @@ Pour les gestionnaires suivants, la valeur par défaut de la clé « nom de la 
 | Lien de Shell (UNICODE)    | IShellLinkW                                       | **{000214F9-0000-0000-C000-000000000046}** |
 | Stockage structuré      | IStorage                                          | **{0000000B-0000-0000-C000-000000000046}** |
 | Métadonnées                | IPropertyStore                                    | **PropertyHandler**                        |
-| Métadonnées                | IPropertySetStorage (déconseillée dans Windows Vista) | **PropertyHandler**                        |
+| Métadonnées                | IPropertySetStorage (déconseillé dans Windows Vista) | **PropertyHandler**                        |
 | Épingler au menu Démarrer       | IStartMenuPinnedList                              | **{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}** |
 | Épingler à la barre des tâches          |                                                   | **{90AA3A4E-1CBA-4233-B8BB-535773D48449}** |
 
@@ -324,9 +324,9 @@ Pour les gestionnaires suivants, la valeur par défaut de la clé « nom de la 
 
 Les sous-clés spécifiées pour ajouter **Épingler au menu Démarrer** et **Épingler à la barre des tâches** dans le menu contextuel d’un élément ne sont nécessaires que pour les types de fichiers qui incluent l’entrée [IsShortCut](./links.md) .
 
-La prise en charge des gestionnaires de fournisseurs de colonne a été supprimée dans Windows Vista. En outre, à compter de Windows Vista, [**IPropertySetStorage**](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) a été dépréciée en faveur de [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
+la prise en charge des gestionnaires de fournisseur de colonne a été supprimée dans Windows Vista. en outre, à partir de Windows Vista, [**IPropertySetStorage**](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) a été déconseillé en faveur de [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
 
-Bien que [**IExtractImage**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage) reste pris en charge, [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) est préférable pour Windows Vista et versions ultérieures.
+bien que [**IExtractImage**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage) reste pris en charge, [**IThumbnailProvider**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) est préférable pour Windows Vista et versions ultérieures.
 
 ### <a name="predefined-shell-objects"></a>Objets Shell prédéfinis
 
@@ -345,8 +345,8 @@ Le tableau suivant indique les différentes sous-clés de la **\_ \_ racine de l
 
 | Sous-clé                    | Description                                                          | Gestionnaires possibles                                | Version |
 |---------------------------|----------------------------------------------------------------------|--------------------------------------------------|---------|
-| **\** _                    | Tous les fichiers                                                            | Menu contextuel, feuille de propriétés, verbes (voir ci-dessous) | Tous     |
-| _ *AllFileSystemObjects**  | Tous les fichiers et dossiers de fichiers                                           | Menu contextuel, feuille de propriétés, verbes             | 4.71    |
+| **\***                    | Tous les fichiers                                                            | Menu contextuel, feuille de propriétés, verbes (voir ci-dessous) | Tous     |
+| **AllFileSystemObjects**  | Tous les fichiers et dossiers de fichiers                                           | Menu contextuel, feuille de propriétés, verbes             | 4.71    |
 | **Folder**                | Tous les dossiers                                                          | Menu contextuel, feuille de propriétés, verbes             | Tous     |
 | **Directory**             | Dossiers de fichiers                                                         | Menu contextuel, feuille de propriétés, verbes             | Tous     |
 | **\\Arrière-plan du répertoire** | Arrière-plan du dossier de fichiers                                               | Menu contextuel uniquement                               | 4.71    |
@@ -358,7 +358,7 @@ Le tableau suivant indique les différentes sous-clés de la **\_ \_ racine de l
 | *\_nom du fournisseur réseau \_* | Tous les objets fournis par le fournisseur réseau «*\_ \_ nom du fournisseur réseau*» | Menu contextuel, feuille de propriétés, verbes             | Tous     |
 | **Imprimantes**              | Toutes les imprimantes                                                         | Menu contextuel, feuille de propriétés                    | Tous     |
 | **AudioCD**               | CD audio dans le lecteur CD                                                 | Verbes uniquement                                       | Tous     |
-| **DVD**                   | Lecteur de DVD (Windows 2000)                                             | Menu contextuel, feuille de propriétés, verbes             | 4.71    |
+| **DVD**                   | lecteur de DVD (Windows 2000)                                             | Menu contextuel, feuille de propriétés, verbes             | 4.71    |
 
 
 
@@ -369,7 +369,7 @@ Remarques :
 -   Le menu contextuel de l’arrière-plan du dossier de fichiers est accessible en cliquant avec le bouton droit dans un dossier de fichiers, mais pas sur le contenu du dossier.
 -   Les « verbes » sont des commandes spéciales **inscrites sous le \_ \_** verbe de Shell de la \\ *sous-clé* de l' \\ **interpréteur** de commandes \\  .
 -   Pour le type de **réseau** \\  \\ **\#** , « \# » est un code de type de fournisseur réseau au format décimal. Le code du type de fournisseur réseau est le mot de poids fort d’un type de réseau. La liste des types de réseau est fournie dans le fichier d’en-tête Winnetwk. h ( \_ valeurs net WNNC \_ \* ). Par exemple, WNNC \_ NET \_ Shiva est 0x00330000. par conséquent, la clé de type correspondante serait de type HKEY de la **\_ \_ racine** de \\  \\ **type** \\ **51** .
--   «*\_ \_ nom du fournisseur réseau*» est un nom de fournisseur réseau spécifié par [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea), avec les espaces convertis en traits de soulignement. Par exemple, si le fournisseur réseau de réseau Microsoft est installé, son nom de fournisseur est « Microsoft Windows Network » et le *\_ \_ nom du fournisseur réseau* correspondant est **Microsoft \_ Windows \_ Network**.
+-   «*\_ \_ nom du fournisseur réseau*» est un nom de fournisseur réseau spécifié par [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea), avec les espaces convertis en traits de soulignement. par exemple, si le fournisseur réseau de réseau microsoft est installé, son nom de fournisseur est « microsoft Windows network » et le *\_ \_ nom du fournisseur réseau* correspondant est **Microsoft \_ Windows \_ réseau**.
 
 ### <a name="example-of-an-extension-handler-registration"></a>Exemple d’inscription d’un gestionnaire d’extensions
 
@@ -401,7 +401,7 @@ HKEY_CLASSES_ROOT
                (Default) = {11111111-2222-3333-4444-555555555555}
 ```
 
-La procédure d’inscription décrite dans cette section doit être suivie pour tous les systèmes Windows.
+la procédure d’inscription décrite dans cette section doit être suivie pour tous les systèmes de Windows.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

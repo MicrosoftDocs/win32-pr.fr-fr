@@ -7,12 +7,12 @@ keywords:
 - capDriverGetCaps macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73eea12d69a3d23b0345bee3495d32cbb1ad0ffe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 73e6ebfa0f75f4bcec63a693636085f16c342e53761b2cb1e67a0e2536fa5cef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144472"
 ---
 # <a name="displaying-dialog-boxes-to-set-video-characteristics"></a>Affichage des boîtes de dialogue pour définir les caractéristiques de la vidéo
 
@@ -64,9 +64,9 @@ if (CapDriverCaps.fHasDlgVideoDisplay)
 [**capDriverGetCaps**](/windows/desktop/api/Vfw/nf-vfw-capdrivergetcaps)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

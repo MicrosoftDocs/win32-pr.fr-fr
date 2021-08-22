@@ -4,23 +4,23 @@ ms.assetid: 7f196462-53bd-43d7-9023-3b6e92fe350c
 title: Polices internationales et affichage du texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6b5375d3dc53f886c1ffa18d87d6971fc00ad49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3e3e601a38f091e02c29ddea9b8a21bdc7dc1995b48c915c13fbb289c799a5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147552"
 ---
 # <a name="international-fonts-and-text-display"></a>Polices internationales et affichage du texte
 
-Les polices et l’affichage de texte internationaux offrent une prise en charge de plateforme pour les polices internationales, le texte international et la typographie fine sur la plateforme Windows.
+les polices et l’affichage de texte internationaux offrent une prise en charge de plateforme pour les polices internationales, le texte international et la typographie fine sur la plateforme Windows.
 
-Les polices et le texte internationaux s’appuient sur la typographie de base, le texte et les technologies de lecture avancées de Windows pour fournir des polices et du texte pour les utilisateurs du monde entier de la plate-forme Windows. La technologie améliore les scénarios d’affichage de texte et de police de bout en bout.
+les polices et le texte internationaux sont générés sur la typographie de base, le texte et les technologies de lecture avancées de Windows pour fournir des polices et du texte pour les utilisateurs du monde de la plateforme Windows. La technologie améliore les scénarios d’affichage de texte et de police de bout en bout.
 
 Les technologies suivantes sont incluses :
 
 -   [Gestion des polices internationale](about-international-fonts-and-text.md). Présente les fonctionnalités de base des polices internationales.
--   [À l’aide de MS Shell Dlg et MS Shell Dlg 2](using-ms-shell-dlg-and-ms-shell-dlg-2.md). Vue d’ensemble des polices MS Shell Dlg et MS Shell Dlg 2, et mappage des polices de MS Shell Dlg et MS Shell Dlg 2 sur différentes versions de Windows.
+-   [À l’aide de MS Shell Dlg et MS Shell Dlg 2](using-ms-shell-dlg-and-ms-shell-dlg-2.md). vue d’ensemble des polices ms shell dlg et ms shell dlg 2, et mappage des polices de ms shell dlg et ms shell dlg 2 sur différentes versions de Windows.
 -   [Énumération et sélection des polices internationales](using-international-fonts-and-text.md). Explique comment énumérer les polices internationales pour permettre aux utilisateurs de sélectionner la police de leur choix.
 -   [Affichage de texte international](creating-your-own-format-selection-user-interface.md). Explique les différentes façons d’afficher du texte international.
 -   [Uniscribe](uniscribe.md). Permet un haut niveau de contrôle pour une typographie fine et pour le traitement de scripts complexes.

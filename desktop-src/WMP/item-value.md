@@ -3,7 +3,7 @@ title: ITEM. Value
 description: L’attribut value spécifie ou récupère le texte qui s’affiche pour une zone de liste ou un élément contextuel.
 ms.assetid: d4c8049c-7f08-429f-ba69-8ec8163c05eb
 keywords:
-- ITEM. Value lecteur Windows Media
+- ITEM. value Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1ed887340eea4f5ad59287125f8a4d8f34f46d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd60c26b4bdcbafe7faf711a0788da65b1ca9b71d03f15a45f54c2ad4442020d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135422"
 ---
 # <a name="itemvalue"></a>ITEM. Value
 

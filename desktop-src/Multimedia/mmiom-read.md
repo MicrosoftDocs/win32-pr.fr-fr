@@ -3,7 +3,7 @@ title: Message MMIOM_READ (mmsystem. h)
 description: Le \_ message de lecture MMIOM est envoyé à une procédure d’e/s par la fonction mmioRead pour demander qu’un nombre spécifié d’octets soit lu à partir d’un fichier ouvert.
 ms.assetid: db769a68-f0ac-4a79-931e-6174e438439d
 keywords:
-- Message MMIOM_READ Windows Multimedia
+- message MMIOM_READ Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5715bf8db51017c16997530256c6dfb83b3b3fc5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fcf5bbdbb20e2bc168f93857a7d59016197ccc4142d4ba18a2e6fd80842ff06c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065349"
 ---
 # <a name="mmiom_read-message"></a>MMIOM \_ lire le message
 
@@ -56,7 +56,7 @@ Nombre d’octets à lire à partir du fichier.
 
 Retourne le nombre d’octets réellement lus à partir du fichier. Si le nombre d’octets ne peut pas être lu, la valeur de retour est 0. En cas d’erreur, la valeur de retour est 1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La procédure d’e/s est responsable de la mise à jour du membre **lDiskOffset** de la structure [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) pour refléter la nouvelle position de fichier après l’opération de lecture.
 
@@ -68,7 +68,7 @@ La procédure d’e/s est responsable de la mise à jour du membre **lDiskOffset
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

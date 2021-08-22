@@ -4,12 +4,12 @@ ms.assetid: 8c3fa4ca-dcff-bd23-7220-7d0aeb6c6068
 title: Effets audio XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8de87a65ea4321b5e8d73a837f79a3e56e8e3a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 886edb81718f772f7dec31f799b1612ca701c2327468ad554fe80a17c1f69ec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082853"
 ---
 # <a name="xaudio2-audio-effects"></a>Effets audio XAudio2
 
@@ -31,7 +31,7 @@ Les interfaces APO utilisées dans XAudio2 doivent être *destructrices*. Cela s
 
 Le tableau suivant répertorie l’ensemble des effets audio intégrés fournis par XAudio2 et leurs méthodes de création. 
 
-| Résultat       | Méthode de création                                              |
+| Effet       | Méthode de création                                              |
 |--------------|--------------------------------------------------------------|
 | Réverbération       | [**XAudio2CreateReverb**](/windows/desktop/api/xaudio2fx/nf-xaudio2fx-xaudio2createreverb)           |
 | Compteur de volume | [**XAudio2CreateVolumeMeter**](/windows/desktop/api/xaudio2fx/nf-xaudio2fx-xaudio2createvolumemeter) |

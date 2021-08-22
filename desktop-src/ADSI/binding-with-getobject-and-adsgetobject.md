@@ -7,12 +7,12 @@ keywords:
 - ADSI ADSI, utilisation de, liaison avec GetObject et ADsGetObject
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f61d5aba2c2c49e97ddcfc0f727d0cd4c17a164
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 01fe3f64368f6bbecf390d07f5258c11b6752badbf701e1f248439ca81428749
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082753"
 ---
 # <a name="binding-with-getobject-and-adsgetobject"></a>Liaison avec GetObject et ADsGetObject
 
@@ -26,7 +26,7 @@ Pour un service s’exécutant sous le compte LocalSystem, le contexte de sécur
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code Visual Basic suivant montre comment utiliser la fonction **GetObject** pour établir une liaison à un objet.
+l’exemple de code Visual Basic suivant montre comment utiliser la fonction **GetObject** pour établir une liaison à un objet.
 
 
 ```VB
@@ -64,6 +64,6 @@ CoUninitialize();
 
 
 
- 
+ 
 
- 
+ 

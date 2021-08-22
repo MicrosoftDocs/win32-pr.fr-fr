@@ -4,12 +4,12 @@ ms.assetid: 874aa12b-e213-4857-9600-698c28dfda37
 title: Initialisation de Winlogon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 768983d308228e73316c797fb67b035d491a1582
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fff33740b77b23577cd7749b8cc745cd06a55e18675e35b817e405a71679b482
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482391"
 ---
 # <a name="initializing-winlogon"></a>Initialisation de Winlogon
 
@@ -21,7 +21,7 @@ WinSta0 est le nom de l’objet de station Windows qui représente l’écran, l
 
 
 
-| Bureau              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Desktop (Expérience utilisateur)              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bureau Winlogon     | Il s’agit du bureau utilisé par Winlogon et [*Gina*](../secgloss/g-gly.md) pour l’identification et l’authentification interactives, ainsi que pour d’autres boîtes de dialogue sécurisées. Winlogon bascule automatiquement vers ce bureau lorsqu’il reçoit une notification d’événement SAS.                                                                                                                                                                                                                                                                                                                                                                          |
 | Application Desktop  | Chaque fois qu’un utilisateur se connecte avec succès, un bureau d’application est créé pour cette [*session*](../secgloss/l-gly.md). Le Bureau de l’application est également appelé Bureau par défaut ou utilisateur. Ce bureau est l’endroit où l’activité de l’utilisateur a lieu. Le Bureau de l’application est protégé ; seul le système et la session interactive Logon y ont accès. Notez que seule une instance particulière de l’utilisateur connecté a accès au bureau. Si l’utilisateur interactif active un processus à l’aide du contrôleur de service, cette application de service n’aura pas accès au bureau de l’application. |

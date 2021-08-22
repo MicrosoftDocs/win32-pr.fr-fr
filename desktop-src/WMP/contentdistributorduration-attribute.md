@@ -3,7 +3,7 @@ title: Attribut ContentDistributorDuration
 description: L’attribut ContentDistributorDuration est la durée de l’exécution de l’élément, en secondes.
 ms.assetid: c64cb4ca-b0bc-4beb-b2ae-ddd0c5fcd35c
 keywords:
-- Attribut ContentDistributorDuration lecteur Windows Media
+- Lecteur Windows Media de l’attribut ContentDistributorDuration
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f17bad8ef5dd1ab4b0a3d1c7b5becec6fd34a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eefee789358f2d913d976432a485cf7726e3f7d6afa14e845ad9d7699d8ed4a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135752"
 ---
 # <a name="contentdistributorduration-attribute"></a>Attribut ContentDistributorDuration
 
@@ -28,7 +28,7 @@ L’attribut **ContentDistributorDuration** est la durée de l’exécution de l
 -   [Éléments audio](audio-item-attributes.md)
 -   [Autres éléments](other-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’attribut de **durée** normale n’est pas défini (null) ou 0, la valeur de cet attribut est retournée à la place.
 

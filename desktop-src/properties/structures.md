@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit les structures du système de propriétés Windows.
+description: cette section décrit les structures du système de propriétés Windows.
 ms.assetid: 95630aa7-39d3-4875-9614-1490904543b1
 title: Structures (système de propriétés Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98ec497184272663e1ff95bc683499cea6a641da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90495e5809eced0d8f4a2cf70fdb15d530f3e520732fadcf9ef6bda75d5fb3c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033147"
 ---
 # <a name="structures-windows-property-system"></a>Structures (système de propriétés Windows)
 
-Cette section décrit les structures du système de propriétés Windows.
+cette section décrit les structures du système de propriétés Windows.
 
 
 

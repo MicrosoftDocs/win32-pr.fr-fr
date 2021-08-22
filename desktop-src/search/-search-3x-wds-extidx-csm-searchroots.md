@@ -1,19 +1,19 @@
 ---
-description: Le gestionnaire de portée d’analyse (CSM) vous permet d’ajouter et de supprimer des racines de recherche pour vos magasins de données dans et dans la portée de l’analyse de Windows Search.
+description: le gestionnaire de portée d’analyse (CSM) vous permet d’ajouter et de supprimer des racines de recherche pour vos magasins de données depuis et vers la portée de l’analyse de recherche Windows.
 ms.assetid: 0f1ff41f-7c4c-4516-bb55-bf09a8f2f3bc
 title: Gestion des racines de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbdd63e5e71cd18d3028c6d08019890f90c0228a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 758d3c10a4c69f336202274cd1fb40528848b0ddb431fd58646cf700d2b2d736
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095286"
 ---
 # <a name="managing-search-roots"></a>Gestion des racines de recherche
 
-Le gestionnaire de portée d’analyse (CSM) vous permet d’ajouter et de supprimer des racines de recherche pour vos magasins de données dans et dans la portée de l’analyse de Windows Search.
+le gestionnaire de portée d’analyse (CSM) vous permet d’ajouter et de supprimer des racines de recherche pour vos magasins de données depuis et vers la portée de l’analyse de recherche Windows.
 
 Cette rubrique traite des sujets suivants :
 
@@ -61,7 +61,7 @@ Mais ce modèle ne correspond pas à cette URL :
 
 Vous devez créer de nouvelles racines de recherche pour les conteneurs qui ne se trouvent pas déjà dans l’étendue de l’analyse de l’indexeur. Si le chemin d’accès C : \\ ParentScope est déjà inclus dans l’étendue de l’analyse, vous n’avez pas besoin d’ajouter une nouvelle racine de recherche pour C : \\ ParentScope \\ ChildScope, sauf si vous savez que l’étendue enfant a été précédemment exclue.
 
-L’interface utilisateur permettant de définir les options de recherche Windows affiche les racines de recherche aux utilisateurs afin qu’ils puissent affiner les règles d’étendue pour leurs recherches. Dans le cadre du processus d’installation de votre gestionnaire de protocole personnalisé, de votre conteneur et/ou de votre application, vous pouvez définir une étendue d’analyse par défaut avec des règles d’inclusion et d’exclusion. Ces règles sont présentées aux utilisateurs finaux en tant qu’emplacements. Les utilisateurs peuvent naviguer dans les sous-répertoires de votre racine de recherche prédéfinie et sélectionner ceux qu’ils souhaitent inclure dans les recherches ou effacer ceux qu’ils souhaitent exclure.
+l’interface utilisateur permettant de définir Windows options de recherche affiche les racines de recherche pour les utilisateurs afin qu’ils puissent affiner les règles d’étendue pour leurs recherches. Dans le cadre du processus d’installation de votre gestionnaire de protocole personnalisé, de votre conteneur et/ou de votre application, vous pouvez définir une étendue d’analyse par défaut avec des règles d’inclusion et d’exclusion. Ces règles sont présentées aux utilisateurs finaux en tant qu’emplacements. Les utilisateurs peuvent naviguer dans les sous-répertoires de votre racine de recherche prédéfinie et sélectionner ceux qu’ils souhaitent inclure dans les recherches ou effacer ceux qu’ils souhaitent exclure.
 
  
 
@@ -79,7 +79,7 @@ Après avoir apporté des modifications au gestionnaire de l’étendue de l’a
 
 ## <a name="windows-7-new-crawl-scope-manager-api"></a>Windows 7 : nouvelle API du gestionnaire de l’étendue de l’analyse
 
-Dans **Windows 7 et versions ultérieures**, [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2) étend les fonctionnalités de l’interface [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) . La méthode [**ISearchCrawlScopeManager2 :: GetVersion**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion) obtient la version du gestionnaire de portée d’analyse (CSM), qui informe les clients si l’état du CSM a changé. **ISearchCrawlScopeManager2 :: GetVersion** n’entraîne pas d’appel interprocessus. Si la fonction est réussie, le pointeur retourné reste valide jusqu’à ce que le client appelle **UnmapViewOfFile** sur le pointeur et **CloseHandle** sur le handle retourné.
+dans **Windows 7 et versions ultérieures**, [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2) étend les fonctionnalités de l’interface [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) . La méthode [**ISearchCrawlScopeManager2 :: GetVersion**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion) obtient la version du gestionnaire de portée d’analyse (CSM), qui informe les clients si l’état du CSM a changé. **ISearchCrawlScopeManager2 :: GetVersion** n’entraîne pas d’appel interprocessus. Si la fonction est réussie, le pointeur retourné reste valide jusqu’à ce que le client appelle **UnmapViewOfFile** sur le pointeur et **CloseHandle** sur le handle retourné.
 
  
 
@@ -87,7 +87,7 @@ Dans **Windows 7 et versions ultérieures**, [**ISearchCrawlScopeManager2**](/wi
 
 Le [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) indique au moteur de recherche les conteneurs à analyser et/ou à surveiller, ainsi que les éléments sous ces conteneurs à inclure ou exclure. Pour ajouter une nouvelle racine de recherche, instanciez un objet [**ISearchRoot**](/windows/desktop/api/Searchapi/nn-searchapi-isearchroot) , définissez les attributs racine, puis appelez [**ISearchCrawlScopeManager :: AddRoot**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-addroot) et transmettez-lui un pointeur vers votre objet **ISearchRoot** . L’URL racine de recherche prend la même forme que la racine de recherche décrite précédemment.
 
-Le tableau suivant décrit les méthodes put pertinentes pour [**ISearchRoot**](/windows/desktop/api/Searchapi/nn-searchapi-isearchroot); les autres méthodes put de l’interface ne sont pas utilisées actuellement par Windows Search. Pour une meilleure sécurité, nous vous recommandons d’inclure les identificateurs de sécurité (SID) des utilisateurs dans toutes les racines. Les racines par utilisateur sont plus sécurisées, car les requêtes sont exécutées dans un processus par utilisateur, ce qui garantit qu’un utilisateur ne peut pas voir les éléments indexés à partir de la boîte de réception d’un autre utilisateur, par exemple.
+Le tableau suivant décrit les méthodes put pertinentes pour [**ISearchRoot**](/windows/desktop/api/Searchapi/nn-searchapi-isearchroot); les autres méthodes put de l’interface ne sont pas utilisées actuellement par Windows la recherche. Pour une meilleure sécurité, nous vous recommandons d’inclure les identificateurs de sécurité (SID) des utilisateurs dans toutes les racines. Les racines par utilisateur sont plus sécurisées, car les requêtes sont exécutées dans un processus par utilisateur, ce qui garantit qu’un utilisateur ne peut pas voir les éléments indexés à partir de la boîte de réception d’un autre utilisateur, par exemple.
 
 
 
@@ -118,10 +118,10 @@ Vous pouvez utiliser [**ISearchCrawlScopeManager**](/windows/desktop/api/Searcha
 
 Pour supprimer une racine de recherche existante, appelez [**ISearchCrawlScopeManager :: RemoveRoot**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-removeroot) avec la racine de recherche que vous souhaitez supprimer. L’URL racine de recherche prend la même forme que la racine de recherche décrite précédemment. Cette méthode retourne S \_ false si la racine est introuvable et un code d’erreur si une erreur s’est produite lors de la suppression d’une racine qui a été trouvée.
 
-La suppression d’une racine de recherche supprime également l’URL de l’interface utilisateur pour les options de recherche Windows, afin que les utilisateurs ne soient pas en mesure de rajouter ce conteneur ou cet emplacement à l’aide de l’interface utilisateur. Il est également possible de supprimer tous les remplacements définis par l’utilisateur d’une racine de recherche et de rétablir les règles de la racine et de l’étendue de la recherche d’origine. Pour plus d’informations, consultez [gestion des règles d’étendue](-search-3x-wds-extidx-csm-scoperules.md).
+la suppression d’une racine de recherche supprime également l’URL de l’interface utilisateur pour Windows options de recherche, de sorte que les utilisateurs peuvent ne pas être en mesure de rajouter ce conteneur ou cet emplacement à l’aide de l’interface utilisateur. Il est également possible de supprimer tous les remplacements définis par l’utilisateur d’une racine de recherche et de rétablir les règles de la racine et de l’étendue de la recherche d’origine. Pour plus d’informations, consultez [gestion des règles d’étendue](-search-3x-wds-extidx-csm-scoperules.md).
 
 > [!Note]  
-> Sur Windows Vista, si les utilisateurs sont supprimés par le biais de profils utilisateur dans le panneau de configuration, CSM supprime toutes les règles et toutes les racines avec leur SID et supprime leurs éléments indexés du catalogue. Sur Windows XP, vous devez supprimer manuellement les racines et les règles des utilisateurs.
+> sur Windows Vista, si les utilisateurs sont supprimés via les profils utilisateur dans le panneau de configuration, CSM supprime toutes les règles et toutes les racines avec leur SID et supprime leurs éléments indexés du catalogue. sur Windows XP, vous devez supprimer manuellement les racines et les règles des utilisateurs.
 
  
 

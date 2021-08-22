@@ -1,5 +1,5 @@
 ---
-description: Cette section contient des documents de référence pour les objets Windows Installer.
+description: cette section contient des documents de référence pour les objets Windows Installer.
 ms.assetid: ec97371d-554d-42d5-88ac-4a8ab35eb147
 title: Référence de l’interface Automation
 ms.topic: article
@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6f616d24cd1bf389c3062865359b73ebeee8e6f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e06aebad00f5288dacd03b2cd956b2c7bef17cd56e105243925517782b03aa5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145792"
 ---
 # <a name="automation-interface-reference"></a>Référence de l’interface Automation
 
-Les objets Windows Installer sont les suivants :
+les objets Windows Installer sont les suivants :
 
 -   [**Objet client**](client.md)
 -   [**Objet composant**](components.md)

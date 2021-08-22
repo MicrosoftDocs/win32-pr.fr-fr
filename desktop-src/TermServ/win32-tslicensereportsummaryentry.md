@@ -22,12 +22,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f34482e9c6199ef6586024d43d586421a54071ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 58efc2c70019037219d8eca986fa8afd81e4dc2d06cd638ee24fc59947e3bf3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137796"
 ---
 # <a name="win32_tslicensereportsummaryentry-class"></a>\_Classe TSLicenseReportSummaryEntry Win32
 
@@ -102,21 +102,21 @@ Version de Services Bureau à distance pour laquelle la licence d’accès clien
 « Windows Server 2012 »
 </dt> <dd>
 
-Seuls les serveurs exécutant Windows Server 2012, Windows Server 2008 R2 ou Windows Server 2008 sont pris en charge avec cette licence.
+seuls les serveurs exécutant Windows Server 2012, Windows server 2008 R2 ou Windows server 2008 sont pris en charge avec cette licence.
 
 </dd> <dt>
 
 « Windows Server 7 »
 </dt> <dd>
 
-Seuls les serveurs exécutant Windows Server 2008 R2 ou Windows Server 2008 sont pris en charge avec cette licence.
+seuls les serveurs exécutant Windows server 2008 R2 ou Windows server 2008 sont pris en charge avec cette licence.
 
 </dd> <dt>
 
 « Windows Server 2008 »
 </dt> <dd>
 
-Seuls les serveurs exécutant Windows Server 2008 sont pris en charge avec cette licence.
+seuls les serveurs exécutant Windows Server 2008 sont pris en charge avec cette licence.
 
 </dd> </dl>
 

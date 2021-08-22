@@ -1,22 +1,22 @@
 ---
-description: Cette rubrique présente l’effet des dispositifs de stockage de format avancés sur les logiciels, explique ce que les applications peuvent faire pour aider à prendre en charge ce type de média et présente l’infrastructure que Microsoft a introduite avec Windows 7 SP1 et Windows Server 2008 R2 SP1 pour permettre aux développeurs de prendre en charge ces types d’appareils.
+description: cette rubrique présente l’effet des dispositifs de stockage de Format avancés sur les logiciels, explique ce que les applications peuvent faire pour aider à prendre en charge ce type de média et présente l’infrastructure que Microsoft a introduite avec Windows 7 sp1 et Windows Server 2008 R2 sp1 pour permettre aux développeurs de prendre en charge ces types d’appareils.
 ms.assetid: 1D2847A7-15E9-42E0-90EB-7F43E76D3E44
 title: Mise à jour de la compatibilité des disques Émulation 512 octets (512e)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74b654473fa8be5fbea997bd063df2c1f898a7d1
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 5fd26cfe1b5417af75906431291a51650757c08464f0c1dc6966ef7f58223423
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107315002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134175"
 ---
 # <a name="512-byte-emulation-512e-disk-compatibility-update"></a>Mise à jour de la compatibilité des disques Émulation 512 octets (512e)
 
-## <a name="platform"></a>Plate-forme
+## <a name="platform"></a>Plateforme
 
  **Clients** -Windows Vista, Windows 7, Windows 7 SP1  
-**Serveurs** -windows Server 2008, windows Server 2008 R2, windows Server 2008 R2 SP1  
+**serveurs** -Windows server 2008, Windows server 2008 r2, Windows Server 2008 r2 SP1  
 
 ## <a name="feature-impact"></a>Impact sur les fonctionnalités
 
@@ -35,14 +35,14 @@ ms.locfileid: "107315002"
 
 Les densités de zone sont de plus en plus annuelles et, avec l’avènement récente de disques de 3 to, les mécanismes de correction d’erreur utilisés pour gérer le quotient de signal à bruit (SNR) diminuent l’efficacité de l’espace, c’est-à-dire qu’une quantité accrue de surcharge est nécessaire pour s’assurer que le média est utilisable. L’une des solutions de l’industrie du stockage pour améliorer ce mécanisme de correction des erreurs consiste à introduire un format de support physique différent qui comprend une plus grande taille de secteur physique. Ce nouveau format de média physique est appelé *format avancé*. Par conséquent, il n’est plus sûr de faire des hypothèses concernant la taille des secteurs des appareils de stockage modernes, et les développeurs doivent étudier les hypothèses sous-jacentes de leur code pour déterminer s’il y a un impact.
 
-Cette rubrique présente l’effet des dispositifs de stockage de format avancés sur les logiciels, explique ce que les applications peuvent faire pour aider à prendre en charge ce type de média et discute de l’infrastructure pour permettre aux développeurs de prendre en charge ces types d’appareils. Bien que les éléments présentés dans cette rubrique fournissent des instructions pour améliorer la compatibilité avec les disques au format avancé, les informations s’appliquent généralement à tous les systèmes avec des disques au format avancé. Les versions suivantes de Windows assurent la prise en charge de l’interrogation de la taille des secteurs physiques :
+Cette rubrique présente l’effet des dispositifs de stockage de format avancés sur les logiciels, explique ce que les applications peuvent faire pour aider à prendre en charge ce type de média et discute de l’infrastructure pour permettre aux développeurs de prendre en charge ces types d’appareils. Bien que les éléments présentés dans cette rubrique fournissent des instructions pour améliorer la compatibilité avec les disques au format avancé, les informations s’appliquent généralement à tous les systèmes avec des disques au format avancé. les versions suivantes de Windows prennent en charge l’interrogation de la taille des secteurs physiques :
 
 -   Windows 7 avec Microsoft KB 982018
 -   Windows 7 SP1
 -   Windows Server 2008 R2 avec Microsoft KB 982018
 -   Windows Server 2008 R2 SP1
 -   Windows Vista avec Microsoft KB 2553708
--   Windows Server 2008 avec Microsoft KB 2553708
+-   Windows Serveur 2008 avec Microsoft KB 2553708
 
 Pour plus d’informations, consultez [informations sur la politique de support Microsoft pour les lecteurs à grands secteurs dans Windows](https://support.microsoft.com/kb/2510009).
 
@@ -56,13 +56,13 @@ L’un des problèmes liés à l’introduction de cette modification dans le fo
 
 -   **Secteur physique**: l’unité pour laquelle les opérations de lecture et d’écriture sur l’appareil sont effectuées en une seule opération. Il s’agit de l’unité d’écriture atomique.
 
-La plupart des API Windows actuelles, telles que le **\_ disque IOCTL \_ obtiennent une \_ \_ géométrie de lecteur** , retournent la taille de secteur logique, mais la taille de secteur physique peut être récupérée par le biais du code de contrôle de [ \_ \_ \_ propriété de requête de stockage IOCTL](/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property) , avec les informations pertinentes contenues dans le champ **BytesPerPhysicalSector** de la structure du [ \_ \_ \_ descripteur d’alignement de l’accès au stockage](/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor) . Ce sujet est abordé plus en détail plus loin dans cet article.
+la plupart des api Windows actuelles, telles que le **\_ disque IOCTL \_ obtiennent une \_ \_ géométrie de lecteur** , retournent la taille de secteur logique, mais la taille de secteur physique peut être récupérée par le biais du code de contrôle de [ \_ \_ \_ propriété de requête de stockage IOCTL](/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property) , avec les informations pertinentes contenues dans le champ **BytesPerPhysicalSector** de la structure du [ \_ \_ \_ descripteur d’alignement de l’accès au stockage](/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor) . Ce sujet est abordé plus en détail plus loin dans cet article.
 
 ## <a name="initial-types-of-large-sector-media"></a>Types initiaux des médias de grands secteurs
 
 Le secteur du stockage est rapidement en train de migrer vers ce nouveau type de stockage avancé pour les médias avec des tailles de secteur physique de 4 Ko. Deux types de médias seront publiés sur le marché :
 
--   **4 Ko natifs**: ce support n’a pas de couche d’émulation et expose directement 4 Ko comme taille de secteur logique et physique. Ce support n’est actuellement pas pris en charge par Windows et la plupart des autres systèmes d’exploitation. Toutefois, Microsoft effectue une investigation sur la faisabilité de la prise en charge de ce type de média dans une future version de Windows et émet un article de la base de connaissances le cas échéant.
+-   **4 Ko natifs**: ce support n’a pas de couche d’émulation et expose directement 4 Ko comme taille de secteur logique et physique. ce support n’est actuellement pas pris en charge par les Windows et la plupart des autres systèmes d’exploitation. toutefois, Microsoft effectue une investigation sur la faisabilité de la prise en charge de ce type de média dans une future version de Windows et émet un article de la Base de connaissances le cas échéant.
 -   **émulation de 512 octets (émulation)**: ce média a une couche d’émulation comme indiqué dans la section précédente et expose 512 octets comme taille de secteur logique (semblable à un disque normal aujourd’hui), mais rend ses informations de taille de secteur physique (4 Ko) disponibles. C’est ce que plusieurs fournisseurs de stockage sont actuellement en train d’introduire sur le marché. Ce problème global avec ce nouveau type de média est que la majorité des applications et des systèmes d’exploitation ne comprennent pas l’existence de la taille de secteur physique, ce qui peut entraîner un certain nombre de problèmes, comme indiqué ci-dessous.
 
 ## <a name="how-emulation-works-read-modify-write-rmw"></a>Fonctionnement de l’émulation : lecture-modification-écriture (RMW)
@@ -100,11 +100,11 @@ La solution à cela n’est pas une atténuation dans le lecteur, mais pour que 
 
 ### <a name="issue-1-the-partition-is-not-aligned-to-a-physical-sector-boundary"></a>Problème 1 : la partition n’est pas alignée sur une limite de secteur physique
 
-Lorsque l’administrateur/l’utilisateur partitionne le disque, la première partition n’a peut-être pas été créée sur une limite alignée. Cela peut entraîner la non-alignement de toutes les écritures suivantes sur les limites du secteur physique. À compter de Windows Vista SP1 et de Windows Server 2008, la première partition est placée au premier 1024 Ko du disque (pour les disques 4 Go ou plus, sinon l’alignement est de 64 Ko) qui est aligné sur une limite de secteur physique de 4 Ko. Toutefois, étant donné le partitionnement par défaut dans Windows XP, un utilitaire de partitionnement tiers ou une utilisation incorrecte des API Windows, les partitions créées peuvent ne pas être alignées sur une limite de secteur physique. Les développeurs doivent s’assurer que les API correctes sont utilisées pour garantir l’alignement. Les API recommandées pour garantir l’alignement des partitions sont décrites ci-dessous.
+Lorsque l’administrateur/l’utilisateur partitionne le disque, la première partition n’a peut-être pas été créée sur une limite alignée. Cela peut entraîner la non-alignement de toutes les écritures suivantes sur les limites du secteur physique. à partir de Windows Vista SP1 et Windows Server 2008, la première partition est placée au premier 1024 ko du disque (pour les disques 4 go ou plus, sinon l’alignement est de 64 ko) qui est aligné sur une limite de secteur physique de 4 ko. toutefois, étant donné le partitionnement par défaut dans Windows XP, un utilitaire de partitionnement tiers ou une utilisation incorrecte des api Windows, les partitions créées peuvent ne pas être alignées sur une limite de secteur physique. Les développeurs doivent s’assurer que les API correctes sont utilisées pour garantir l’alignement. Les API recommandées pour garantir l’alignement des partitions sont décrites ci-dessous.
 
-Les API **IVdsPack :: CreateVolume** et **IVdsPack2 :: CreateVolume2** n’utilisent pas le paramètre d’alignement spécifié lorsqu’un nouveau volume est créé, et utilisent à la place la valeur d’alignement par défaut pour le système d’exploitation (pré-Windows Vista SP1 utilise 63 octets et la version ultérieure de Windows Vista SP1 utilise les valeurs par défaut indiquées ci-dessus). Par conséquent, il est recommandé que les applications qui doivent créer des partitions utilisent les API **IVdsCreatePartitionEx :: CreatePartitionEx** ou **IVdsAdvancedDisk :: CreatePartition** à la place, qui utilisent le paramètre d’alignement spécifié.
+les api **IVdsPack :: CreateVolume** et **IVdsPack2 :: CreateVolume2** n’utilisent pas le paramètre d’alignement spécifié lorsqu’un nouveau volume est créé, et utilisent plutôt la valeur d’alignement par défaut pour le système d’exploitation (préWindows vista sp1 utilise 63 octets, et la publication Windows vista sp1 utilise les valeurs par défaut indiquées ci-dessus). Par conséquent, il est recommandé que les applications qui doivent créer des partitions utilisent les API **IVdsCreatePartitionEx :: CreatePartitionEx** ou **IVdsAdvancedDisk :: CreatePartition** à la place, qui utilisent le paramètre d’alignement spécifié.
 
-La meilleure façon de s’assurer que l’alignement est correct est de le faire juste lors de la création initiale de la partition. Dans le cas contraire, votre application devra prendre en compte l’alignement lors de l’exécution d’écritures ou de l’initialisation, ce qui peut être très complexe. À compter de Windows Vista SP1, ce n’est généralement pas un problème. Toutefois, les versions antérieures de Windows peuvent créer des partitions non alignées qui peuvent entraîner des problèmes de performances avec certains disques de format avancé.
+La meilleure façon de s’assurer que l’alignement est correct est de le faire juste lors de la création initiale de la partition. Dans le cas contraire, votre application devra prendre en compte l’alignement lors de l’exécution d’écritures ou de l’initialisation, ce qui peut être très complexe. à compter de Windows Vista SP1, ce n’est généralement pas un problème. toutefois, les versions antérieures de Windows peuvent créer des partitions non alignées qui peuvent entraîner des problèmes de performances avec certains disques de Format avancé.
 
 ### <a name="issue-2-unbuffered-writes-not-aligned-to-physical-sector-size"></a>Problème 2 : écritures non mises en mémoire tampon non alignées sur la taille de secteur physique
 
@@ -132,13 +132,13 @@ Bien que l’exemple de code ci-dessus vous permette d’obtenir la taille de se
 
 L’utilisation de cette IOCTL pour obtenir la taille de secteur physique présente plusieurs limites :
 
--   Requiert des privilèges élevés. Si votre application ne s’exécute pas avec des privilèges, vous devrez peut-être écrire une application de service Windows comme indiqué ci-dessus.
+-   Requiert des privilèges élevés. si votre application ne s’exécute pas avec des privilèges, vous devrez peut-être écrire une application de Service Windows comme indiqué ci-dessus.
 
--   Ne prend pas en charge les volumes SMB. Vous devrez peut-être également écrire une application de service Windows pour prendre en charge l’interrogation de la taille des secteurs physiques sur ces volumes.
+-   Ne prend pas en charge les volumes SMB. vous devrez peut-être également écrire une Application de Service Windows pour prendre en charge l’interrogation de la taille des secteurs physiques sur ces volumes.
 
 -   Ne peut pas être émis pour un handle de fichier (l’IOCTL doit être délivré à un handle de volume).
 
--   Pris en charge uniquement dans les versions de Windows mentionnées au début de cet article.
+-   pris en charge uniquement dans les versions de Windows indiquées au début de cet article.
 
 **Les enregistrements de validation sont remplis pour les secteurs de 512 octets**
 
@@ -174,7 +174,7 @@ le support d’émulation de 512 octets est une étape de transition entre le su
 -   Étant donné qu’il n’existe aucune couche d’émulation, les écritures non alignées sont en échec par le stockage
 -   Aucune résilience cachée : les applications fonctionnent ou elles ne fonctionnent pas
 
-Même si Microsoft étudie actuellement la prise en charge de ces types de médias dans une future version de Windows et émet un article de la base de connaissances le cas échéant, les développeurs d’applications doivent prendre en compte la prise en charge de ces types de médias.
+bien que Microsoft étudie actuellement la prise en charge de ces types de médias dans une future version de Windows et qui émettra un article de la base de connaissances le cas échéant, les développeurs d’applications doivent prendre en compte la prise en charge de ces types de médias.
 
 ## <a name="closing"></a>Fermeture
 
@@ -184,9 +184,9 @@ Il s’agit d’un document vivant qui est destiné aux développeurs pour mieux
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
--   **Déclaration de support générale de Windows**: <https://support.microsoft.com/kb/2510009>
--   **Correctif logiciel pour Windows 7 et Windows Server 2008 R2**: <https://support.microsoft.com/kb/982018>
--   **Correctif pour Windows Vista et Windows Server 2008**: <https://support.microsoft.com/kb/2470478>
+-   **Windows instruction de prise en charge générale**:<https://support.microsoft.com/kb/2510009>
+-   **correctif pour Windows 7 et Windows Server 2008 R2**:<https://support.microsoft.com/kb/982018>
+-   **correctif logiciel pour Windows Vista et Windows Server 2008**:<https://support.microsoft.com/kb/2470478>
 -   **Instruction de prise en charge HyperV**: <https://support.microsoft.com/kb/2515143>
 -   **Informations générales sur l’IOCTL \_ \_Code de \_ contrôle de propriété de requête de stockage**: [https://msdn.microsoft.com/library/ff560590.aspx](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
 -   **IOCTL \_ \_Code de \_ contrôle de propriété de requête de stockage**: [https://msdn.microsoft.com/library/ff800830.aspx](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property)

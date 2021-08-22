@@ -1,15 +1,15 @@
 ---
-description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre A, tels que l’accessibilité et la phase d’acquisition.
+description: en savoir plus sur les concepts de Windows Installer qui commencent par la lettre A, tels que l’accessibilité et la phase d’acquisition.
 ms.assetid: 541fd08c-c21a-4a51-aa1c-d65cc0f5da75
 title: A (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eea91c044553ec374f28309a86002a386961d2c9
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 715e051d584ada5c96fbc8ac5cdf717b666276f81ea6f94331217a766074bace
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066479"
 ---
 # <a name="a-windows-installer"></a>A (Windows Installer)
 
@@ -27,14 +27,14 @@ Implémentation de la conception pour rendre l’interface utilisateur du progra
 <span id="_msi_acquisition_phase_gly"></span><span id="_MSI_ACQUISITION_PHASE_GLY"></span>**phase d’acquisition**
 </dt> <dd>
 
-Phase d’installation pendant laquelle le programme d’installation détermine la procédure. La phase d’acquisition commence quand une application ou un utilisateur demande à [*Windows Installer*](m-gly.md) d’installer une application ou une fonctionnalité. Le programme d’installation interroge ensuite la [*base de données*](i-gly.md) à la recherche d’informations lors de la génération du [*script d’exécution*](e-gly.md) de l’installation. Pour plus d’informations sur les phases d’une installation, consultez [mécanisme d’installation](installation-mechanism.md).
+Phase d’installation pendant laquelle le programme d’installation détermine la procédure. la phase d’Acquisition commence quand une application ou un utilisateur demande à [*Windows Installer*](m-gly.md) d’installer une application ou une fonctionnalité. Le programme d’installation interroge ensuite la [*base de données*](i-gly.md) à la recherche d’informations lors de la génération du [*script d’exécution*](e-gly.md) de l’installation. Pour plus d’informations sur les phases d’une installation, consultez [mécanisme d’installation](installation-mechanism.md).
 
 </dd> <dt>
 
 <span id="_msi_action_gly"></span><span id="_MSI_ACTION_GLY"></span>**transactionnel**
 </dt> <dd>
 
-La plupart des fonctions effectuées par Windows Installer sont encapsulées dans des actions. Chaque action spécifie l’exécution d’une fonction particulière et le déroulement total des procédures de l’installation est déterminé par la séquence d’actions dans les [*tables de séquence*](s-gly.md). Les [*actions standard*](s-gly.md) sont intégrées à Windows Installer. Les [*actions personnalisées*](c-gly.md) sont écrites par l’auteur du [*package*](p-gly.md)d’installation.
+la plupart des fonctions effectuées par Windows Installer sont encapsulées dans des actions. Chaque action spécifie l’exécution d’une fonction particulière et le déroulement total des procédures de l’installation est déterminé par la séquence d’actions dans les [*tables de séquence*](s-gly.md). les [*actions Standard*](s-gly.md) sont intégrées à Windows Installer. Les [*actions personnalisées*](c-gly.md) sont écrites par l’auteur du [*package*](p-gly.md)d’installation.
 
 </dd> <dt>
 
@@ -55,7 +55,7 @@ Capacité à rendre les interfaces nécessaires au chargement et à rendre une a
 <span id="_msi_application_information_service_gly"></span><span id="_MSI_APPLICATION_INFORMATION_SERVICE_GLY"></span>**Service d’informations d’application (AIS)**
 </dt> <dd>
 
-Service système de Windows Vista qui facilite le démarrage des installations nécessitant des privilèges élevés pour s’exécuter. Fournit l’interface utilisateur de consentement utilisée par le contrôle de compte d’utilisateur pour inviter un utilisateur à autoriser l’administrateur.
+service système de Windows Vista qui facilite le démarrage des installations nécessitant des privilèges élevés pour s’exécuter. Fournit l’interface utilisateur de consentement utilisée par le contrôle de compte d’utilisateur pour inviter un utilisateur à autoriser l’administrateur.
 
 </dd> <dt>
 

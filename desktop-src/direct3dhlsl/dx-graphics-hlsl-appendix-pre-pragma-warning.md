@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7599886b47830b33c69f11c0c341c7775c644dd3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 56d741f0d91784f578377e5ee117cf0c3b4aabe5cb1177c7942fc6e8ab8f81d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120353"
 ---
 # <a name="warning-pragma-directive"></a>Warning (directive pragma)
 
@@ -77,7 +77,7 @@ Directive pragma qui modifie le comportement des messages d’avertissement du c
 <td>N’émettez pas les avertissements avec les nombres spécifiés.</td>
 </tr>
 <tr class="odd">
-<td>erreur</td>
+<td>error</td>
 <td>Signalez les avertissements avec les nombres spécifiés en tant qu’erreurs.</td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ Directive pragma qui modifie le comportement des messages d’avertissement du c
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez spécifier n’importe quel nombre de changements de comportement d’avertissement distincts dans le même pragma d’avertissement en séparant les modifications par des points-virgules.
 

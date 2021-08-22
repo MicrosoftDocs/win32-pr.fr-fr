@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msjava.dll
-ms.openlocfilehash: 522885bfdd07843549375977630d8d1a7c6776f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0a8517d32057b6434d3822cc02977f6afd72c1b387b78e85e53810bd27f00550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075853"
 ---
 # <a name="showjavaconsole-function"></a>ShowJavaConsole fonction)
 
@@ -43,7 +43,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appel de **ShowJavaConsole** entraîne l’affichage de la fenêtre de la console Java par la machine virtuelle Java. La fenêtre de la console Java elle-même peut afficher la sortie du débogage à partir du code Java qui s’exécute dans le processus appelant. En règle générale, cela ne peut être utilisé que par une application hébergeant la machine virtuelle Java. Il n’existe qu’une seule fenêtre de console Java par processus. plusieurs appels à l’API entraînent l’affichage de la même fenêtre. En d’autres termes, si la fenêtre de console est déjà affichée, rien ne se produit. Si la fenêtre n’a pas été affichée ou si l’utilisateur l’a fermée, la fenêtre s’affiche.
 

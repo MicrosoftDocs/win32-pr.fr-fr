@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1e80cb12e6e6767b49670a1aff68c9791f224068
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87fa9fe2b15c7ed013e5e8cb8687c4d3ccb02193b48ee037c55273a50a7f84e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147962"
 ---
 # <a name="msvm_virtualsystemmigrationservice-class"></a>MSVM \_ VirtualSystemMigrationService, classe
 
@@ -117,7 +117,7 @@ La classe **MSVM \_ VirtualSystemMigrationService** possède ces méthodes.
 | [**CheckVirtualSystemIsMigratable**](checkvirtualsystemismigratable-msvm-virtualsystemmigrationservice.md)             | Méthode permettant de migrer un système virtuel ou le stockage d’un système virtuel vers un ordinateur hôte de destination spécifié par un nom d’hôte.<br/>                                              |
 | [**CheckVirtualSystemIsMigratableToHost**](checkvirtualsystemismigratabletohost-msvm-virtualsystemmigrationservice.md) | Détermine si le système virtuel spécifié peut être migré vers un ordinateur hôte cible spécifié par un nom de réseau ou une adresse IP.<br/>                                       |
 | [**GetSystemCompatibilityInfo**](getsystemcompatibilityinfo-msvm-virtualsystemmigrationservice.md)                     | Génère un blob opaque de données qui contient des informations de compatibilité pour le système spécifié.<br/>                                                                |
-| [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)               | Obtient les vecteurs de compatibilité pour un ordinateur virtuel ou un ordinateur hôte.<br/> **Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.<br/> |
+| [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)               | Obtient les vecteurs de compatibilité pour un ordinateur virtuel ou un ordinateur hôte.<br/> **Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.<br/> |
 | [**MigrateVirtualSystemToHost**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md)                     | Migre un système virtuel ou le stockage d’un système virtuel vers un ordinateur hôte de destination spécifié par un nom d’hôte.<br/>                                                       |
 | [**MigrateVirtualSystemToSystem**](migratevirtualsystemtosystem-msvm-virtualsystemmigrationservice.md)                 | Déplace, migre ou déplace un système virtuel vers un système cible.<br/>                                                                                                |
 | [**ModifyNetworkSettings**](modifynetworksettings-msvm-virtualsystemmigrationservice.md)                               | Modifie les sous-réseaux de migration du service de migration de système virtuel.<br/>                                                                                       |
@@ -439,7 +439,7 @@ Dernier État demandé ou souhaité pour l’élément. L’état réel de l’�
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -549,8 +549,8 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

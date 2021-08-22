@@ -1,6 +1,6 @@
 ---
 title: Méthode IMsTscAxEvents OnLoginComplete
-description: Appelé lorsque le contrôle client s’est correctement connecté à un serveur d’hôte de session Bureau à distance (hôte de session Bureau à distance), en suivant l’affichage de la boîte de dialogue ouverture de session Windows.
+description: appelé lorsque le contrôle client s’est connecté à un serveur d’hôte de session Bureau à distance (hôte de session bureau à distance), en suivant l’affichage de la boîte de dialogue Windows Logon.
 ms.assetid: acb345a6-3153-4b8f-ac51-fe0c19fa750a
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74d6b63f74ed99c8af939bafdc8a55a41e33b404
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6c89b494a250652e054e245eb0de3267a860bec1a193c7dc953f93fd0800c2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138432"
 ---
 # <a name="imstscaxeventsonlogincomplete-method"></a>IMsTscAxEvents :: OnLoginComplete, méthode
 
-Appelé lorsque le contrôle client s’est correctement connecté à un serveur d’hôte de session Bureau à distance (hôte de session Bureau à distance), en suivant l’affichage de la boîte de dialogue ouverture de session Windows.
+appelé lorsque le contrôle client s’est connecté à un serveur d’hôte de session Bureau à distance (hôte de session bureau à distance), en suivant l’affichage de la boîte de dialogue Windows Logon.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -45,13 +45,13 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Implémentez cette méthode dans votre récepteur d’événements pour recevoir une notification indiquant que le contrôle a terminé l’ouverture de session.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre comment gérer cet événement à l’aide de Visual Basic Code de script. Dans cet exemple, l’hypothèse est que votre objet de contrôle est nommé « MsRdpClient ».
+l’exemple suivant montre comment gérer cet événement à l’aide de Visual Basic code de script. Dans cet exemple, l’hypothèse est que votre objet de contrôle est nommé « MsRdpClient ».
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

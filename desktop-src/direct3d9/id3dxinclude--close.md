@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b60d01d59a4e54fa0d50c16a3fc845ea4e316792
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 32df78aedcf4e7e229eec8c9648c82c86f6fea9f4c7176b8780cee67ccf49fcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987399"
 ---
 # <a name="id3dxincludeclose-method"></a>ID3DXInclude :: Close, méthode
 
@@ -59,7 +59,7 @@ La méthode implémentée par l’utilisateur doit retourner S \_ OK. Si le rapp
 -   Le nuanceur d’assembly échouera à l’une des \* \* \* fonctions D3DXAssembleShader.
 -   L’effet échouera à l’une des \* \* \* fonctions D3DXCreateEffect ou D3DXCreateEffectCompiler \* \* \* .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si [**ID3DXInclude :: Open**](id3dxinclude--open.md) a réussi, l’appel de **ID3DXInclude :: Close** est garanti avant que l’API utilisant cette interface retourne.
 

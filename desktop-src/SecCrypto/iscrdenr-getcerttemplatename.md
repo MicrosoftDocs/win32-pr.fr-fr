@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 4eee84140e0a23b8a0dd5d26099ca61b868a90fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaf37f3907bc2b26ca1adbbded7be5ed7897a74ea9664d4353354d5ad9657d7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409619"
 ---
 # <a name="iscrdenrgetcerttemplatename-method"></a>ISCrdEnr :: getCertTemplateName, méthode
 
@@ -78,7 +78,7 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Chaîne qui représente le nom du modèle de certificat qui sera utilisé dans la demande de [*certificat*](../secgloss/c-gly.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous ne définissez pas le nom du modèle de certificat en appelant [**ISCrdEnr :: setCertTemplateName**](iscrdenr-setcerttemplatename.md), le nom par défaut est le prénom dans la liste des modèles de certificats disponibles.
 
@@ -89,7 +89,7 @@ Si vous ne définissez pas le nom du modèle de certificat en appelant [**ISCrdE
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr est défini en tant que 753988a1-1357-436D-9cf5-f089bdd67d64<br/>             |
 

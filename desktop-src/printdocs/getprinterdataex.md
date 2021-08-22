@@ -18,12 +18,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: bdadf2e1259445ca5285e5b12bc906140a137cf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 146c4f650b646e5b2be9e0ec809221beebe9f596fcb591fe148be615417faa04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034177"
 ---
 # <a name="getprinterdataex-function"></a>GetPrinterDataEx fonction)
 
@@ -113,7 +113,7 @@ Si la fonction réussit, la valeur de retour est une **erreur de \_ réussite**.
 
 Si la fonction échoue, la valeur de retour est une valeur d’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -130,7 +130,7 @@ Si *hPrinter* est un handle vers un serveur d’impression, *pValueName* peut sp
 
 | Valeur                                                               | Commentaires                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SPLREG \_ autoriser l' \_ utilisateur \_ MANAGEFORMS**                                | Windows XP avec Service Pack 2 (SP2) et versions ultérieures<br/> Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures<br/>                                                                                                    |
+| **SPLREG \_ autoriser l' \_ utilisateur \_ MANAGEFORMS**                                | Windows XP avec Service Pack 2 (SP2) et versions ultérieures<br/> Windows Serveur 2003 avec Service Pack 1 (SP1) et versions ultérieures<br/>                                                                                                    |
 | **\_architecture SPLREG**                                            |                                                                                                                                                                                                                                 |
 | **\_signal sonore SPLREG \_ activé**                                           |                                                                                                                                                                                                                                 |
 | **SPLREG \_ \_ Répertoire de spoule par défaut \_**                               |                                                                                                                                                                                                                                 |
@@ -140,8 +140,8 @@ Si *hPrinter* est un handle vers un serveur d’impression, *pValueName* peut sp
 | **\_Journal des événements SPLREG \_**                                              |                                                                                                                                                                                                                                 |
 | **\_version principale de SPLREG \_**                                          |                                                                                                                                                                                                                                 |
 | **\_version mineure SPLREG \_**                                          |                                                                                                                                                                                                                                 |
-| **\_fenêtre SPLREG NET \_**                                              | Non pris en charge dans Windows Server 2003 et versions ultérieures<br/>                                                                                                                                                                       |
-| **SPLREG \_ NET \_ Popup \_ à l' \_ ordinateur**                                | En cas de retour réussi, *pData* contient 1 si les notifications de travaux doivent être envoyées à l’ordinateur client, ou 0 si les notifications de travail doivent être envoyées à l’utilisateur.<br/> Non pris en charge dans Windows Server 2003 et versions ultérieures<br/> |
+| **\_fenêtre SPLREG NET \_**                                              | non pris en charge dans Windows Server 2003 et versions ultérieures<br/>                                                                                                                                                                       |
+| **SPLREG \_ NET \_ Popup \_ à l' \_ ordinateur**                                | En cas de retour réussi, *pData* contient 1 si les notifications de travaux doivent être envoyées à l’ordinateur client, ou 0 si les notifications de travail doivent être envoyées à l’utilisateur.<br/> non pris en charge dans Windows Server 2003 et versions ultérieures<br/> |
 | **\_version du système d’exploitation SPLREG \_**                                             | Windows XP et versions ultérieures<br/>                                                                                                                                                                                                 |
 | **SPLREG \_ se \_ VERSIONEX**                                           |                                                                                                                                                                                                                                 |
 | **\_ \_ \_ \_ valeur par défaut de la priorité du thread du port SPLREG**                         |                                                                                                                                                                                                                                 |
@@ -153,10 +153,10 @@ Si *hPrinter* est un handle vers un serveur d’impression, *pValueName* peut sp
 | **\_ \_ \_ stratégie d’exécution de \_ l' \_ isolation du pilote d’impression SPLREG**             | Windows 7 et ultérieur<br/>                                                                                                                                                                                                  |
 | **\_stratégie de \_ \_ remplacement d’isolation du pilote d’impression \_ SPLREG \_**              | Windows 7 et ultérieur<br/>                                                                                                                                                                                                  |
 | **\_télécopie à distance SPLREG \_**                                             | En cas de retour réussi, *pData* contient 0x0001 si le service de télécopie prend en charge les clients distants, sinon 0.<br/>                                                                                                               |
-| **\_ \_ fenêtre contextuelle SPLREG Retry**                                            | En cas de retour réussi, *pData* contient 1 si le serveur est configuré pour réessayer les fenêtres contextuelles pour tous les travaux, ou 0 si le serveur ne réessaye pas les fenêtres publicitaires pour tous les travaux.<br/> Non pris en charge dans Windows Server 2003 et versions ultérieures<br/> |
+| **\_ \_ fenêtre contextuelle SPLREG Retry**                                            | En cas de retour réussi, *pData* contient 1 si le serveur est configuré pour réessayer les fenêtres contextuelles pour tous les travaux, ou 0 si le serveur ne réessaye pas les fenêtres publicitaires pour tous les travaux.<br/> non pris en charge dans Windows Server 2003 et versions ultérieures<br/> |
 | **\_ \_ priorité de threads du planificateur SPLREG \_**                             |                                                                                                                                                                                                                                 |
 | **\_priorité de thread du planificateur SPLREG \_ \_ \_ par défaut**                    |                                                                                                                                                                                                                                 |
-| **SPLREG \_ WEBSHAREMGMT**                                            | Windows Server 2003 et versions ultérieures<br/>                                                                                                                                                                                        |
+| **SPLREG \_ WEBSHAREMGMT**                                            | Windows Serveur 2003 et versions ultérieures<br/>                                                                                                                                                                                        |
 
 
 
@@ -194,7 +194,7 @@ Appelez la fonction [**RegQueryValueEx**](/windows/win32/api/winreg/nf-winreg-re
 
 Si *pKeyName* est l’une des clés du service d’annuaire prédéfini (voir [**SetPrinter**](setprinter.md)) et *pValueName* contient une virgule (', '), la partie de *pValueName* avant la virgule est le nom de la valeur et la partie de *pValueName* à droite de la virgule est l’OID de propriété DS. Une sous-clé appelée OID est créée et une nouvelle valeur composée du nom de la valeur et de l’OID est entrée sous la clé OID. [**SetPrinterDataEx**](setprinterdataex.md) ajoute également le nom de la valeur et les données sous la clé DS.
 
-Dans Windows 7 et les versions ultérieures de Windows, les travaux d’impression qui sont envoyés à un serveur d’impression sont rendus sur le client par défaut. La configuration du rendu côté client pour une imprimante peut être lue en définissant *pKeyName* sur « PrinterDriverData » et *pValueName* sur la valeur de paramètre dans le tableau suivant.
+dans Windows 7 et les versions ultérieures de Windows, les travaux d’impression qui sont envoyés à un serveur d’impression sont rendus sur le client par défaut. La configuration du rendu côté client pour une imprimante peut être lue en définissant *pKeyName* sur « PrinterDriverData » et *pValueName* sur la valeur de paramètre dans le tableau suivant.
 
 
 

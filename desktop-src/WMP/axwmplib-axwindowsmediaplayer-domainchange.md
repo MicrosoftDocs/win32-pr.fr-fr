@@ -3,7 +3,7 @@ title: Événement DomainChange de l’objet AxWindowsMediaPlayer
 description: L’événement DomainChange se produit lorsque le domaine DVD change. | Événement DomainChange de l’objet AxWindowsMediaPlayer
 ms.assetid: a080082e-1ba4-4080-b39c-b84292ecacb0
 keywords:
-- Événement DomainChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement DomainChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 342ac559f75c3bb7d65b442bfbdced5e5ed3f690
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a37f10679225fb893fad8bcf6fc6687021256e305e8c5a08e6ebe96d16b74e81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136122"
 ---
 # <a name="domainchange-event-of-the-axwindowsmediaplayer-object"></a>Événement DomainChange de l’objet AxWindowsMediaPlayer
 
@@ -53,7 +53,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant indique les valeurs possibles pour la propriété strDomain.
 
@@ -87,7 +87,7 @@ Le tableau suivant indique les valeurs possibles pour la propriété strDomain.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPDVD (VB et C#)**](iwmpdvd--vb-and-c.md)

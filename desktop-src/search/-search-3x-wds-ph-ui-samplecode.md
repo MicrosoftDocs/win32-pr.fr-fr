@@ -4,12 +4,12 @@ ms.assetid: 4b65ced8-8dc9-43f6-bfe1-3703aea3459f
 title: 'Exemple de code : extensions de Shell pour les gestionnaires de protocole'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e436f1d7ad746181be8cb3c43375abe3656c544b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1f2a29fb75ee6838b207648e2b58d634e19eb977f6d0abedb01ba450968756e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033107"
 ---
 # <a name="code-sample-shell-extensions-for-protocol-handlers"></a>Exemple de code : extensions de Shell pour les gestionnaires de protocole
 
@@ -21,7 +21,7 @@ L’exemple de code suivant montre comment créer des extensions de Shell pour u
 >
 > **CE CODE ET CES INFORMATIONS SONT FOURNIS « EN L’ÉTAT », SANS GARANTIE D’AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ MARCHANDE ET/OU D’ADÉQUATION À UN USAGE PARTICULIER.**
 >
-> Copyright (c) Microsoft Corporation. Tous droits réservés.
+> Copyright (c) Microsoft Corporation. All rights reserved.
 
  
 
@@ -499,7 +499,7 @@ STDMETHODIMP CSampleShellFolder::SetNameOf(
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
--   Pour obtenir des exemples de code de recherche, consultez les [exemples du kit de développement Windows Search](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+-   pour obtenir des exemples de code de recherche, consultez [Windows les exemples du kit de développement logiciel (SDK)](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
 -   Pour obtenir des exemples de code Shell, consultez [Shell SDK Samples](/previous-versions/windows/desktop/legacy/dd940376(v=vs.85)).
 
 ## <a name="related-topics"></a>Rubriques connexes

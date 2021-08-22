@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: 6d4787380344a7bf8adb70f4cb5a3eaacdea403a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cf4201a0d149c7b529e595d7f2c2ea92a6010f6cffd3e6c5c74fb3cdc040651
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450919"
 ---
 # <a name="iscanprofilesave-method"></a>IScanProfile :: Save, méthode
 
@@ -43,13 +43,13 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un profil de numérisation enregistré est un fichier XML stocké dans% USERPROFILE% \\ Application Data \\ \\ Center \\ UserScanProfiles.
 
 Si plusieurs processus écrivent dans l’objet [**IScanProfile**](-wia-iscanprofile.md) , celui qui appelle **IScanProfile :: Save** Last est le seul processus dont les modifications sont enregistrées.
 
-La méthode **IScanProfile :: Save** valide le profil avant l’enregistrement. Le profil est toujours considéré comme valide, sauf si la catégorie de l’élément d’acquisition d’images Windows (WIA) 2,0 associé au profil est le \_ chargeur de catégorie WIA ou WIA de la catégorie WIA \_ \_ \_ . Si la catégorie est WIA \_ de catégorie à \_ plat ou WIA \_ \_ , les propriétés suivantes doivent être valides pour l’élément, si les propriétés sont contenues dans le profil :
+La méthode **IScanProfile :: Save** valide le profil avant l’enregistrement. le profil est toujours considéré comme valide, sauf si la catégorie de l’élément d’Acquisition d’images (wia) de l’Windows (wia) 2,0 associé au profil est le \_ chargeur de catégorie wia ou wia de la catégorie wia \_ \_ \_ . Si la catégorie est WIA \_ de catégorie à \_ plat ou WIA \_ \_ , les propriétés suivantes doivent être valides pour l’élément, si les propriétés sont contenues dans le profil :
 
 \_luminosité des adresses IP WIA \_
 
@@ -69,8 +69,8 @@ En outre, si la catégorie est WIA \_ (alimentation de catégorie WIA \_ ), la \
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofile. h</dt> </dl>    |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

@@ -4,18 +4,18 @@ ms.assetid: 4b2d3add-0430-480b-ad5f-bb1aa19fef21
 title: Étape 1. Choisir une classe de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1a2bbf704bb2247034bc2ba3a6f35812f46aaaa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c140beba3df02ace21d99779c152a79632fe0b4a1a916c4412c467b0f4ac5627
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315879"
 ---
 # <a name="step-1-choose-a-base-class"></a>Étape 1. Choisir une classe de base
 
 Il s’agit de l’étape 1 du didacticiel [écriture de filtres de transformation](writing-transform-filters.md).
 
-En supposant que vous décidiez d’écrire un filtre et non un DMO, la première étape consiste à choisir la classe de base à utiliser. Les classes suivantes sont appropriées pour les filtres de transformation :
+en supposant que vous décidiez d’écrire un filtre et non un DMO, la première étape consiste à choisir la classe de base à utiliser. Les classes suivantes sont appropriées pour les filtres de transformation :
 
 -   [**CTransformFilter**](ctransformfilter.md) est conçu pour les filtres de transformation qui utilisent des mémoires tampons d’entrée et de sortie distinctes. Ce type de filtre est parfois appelé filtre de transformation de copie. Lorsqu’un filtre de transformation de copie reçoit un exemple d’entrée, il écrit de nouvelles données dans un exemple de sortie et remet l’exemple de sortie au filtre suivant.
 -   [**CTransInPlaceFilter**](ctransinplacefilter.md) est conçu pour les filtres qui modifient les données dans la mémoire tampon d’origine, également appelées filtres de transfert sur place. Lorsqu’un filtre TRANS-in-place reçoit un échantillon, il modifie les données de cet exemple et remet le même échantillon en aval. La broche d’entrée et la broche de sortie du filtre se connectent toujours aux types de médias correspondants.
@@ -34,7 +34,7 @@ Suivant : [étape 2. Déclarez la classe de filtre](step-2--declare-the-filter-
 
 <dl> <dt>
 
-[Écriture de filtres DirectShow](writing-directshow-filters.md)
+[écriture de filtres de DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

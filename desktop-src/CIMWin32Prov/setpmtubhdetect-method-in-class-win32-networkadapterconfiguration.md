@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 098652c6ea0a53f9d3b1f616def3dd8b5e7228af
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c9b97e7c55c03dc2fe0e899f9878310eebbf395e3ff15631cea6db8c98546e3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439829"
 ---
 # <a name="setpmtubhdetect-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetPMTUBHDetect de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un routeur de trou noir ne retourne pas les messages de destination ICMP (Internet Control Message Protocol) inaccessibles lorsqu’il doit fragmenter un datagramme IP avec le bit de non fragment défini. TCP dépend de la réception de ces messages pour effectuer la détection du chemin MTU.
 
