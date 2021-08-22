@@ -8,12 +8,12 @@ keywords:
 - objets Active Directory, lire et écrire des attributs d’objets Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8da4e0c2b6da52458178fc50f4ce4e96d887b17d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9487f04d405012ac3fe89a621e0595e49dbeec689b174d5ca1be403e3a7ea289
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025337"
 ---
 # <a name="reading-and-writing-attributes-of-objects-in-active-directory-domain-services"></a>Lecture et écriture des attributs d’objets dans Active Directory Domain Services
 
@@ -29,10 +29,10 @@ Les objets de Active Directory Domain Services ont des attributs qui contiennent
 
 
 
- 
+ 
 
 Pour plus d’informations sur les attributs, consultez [détermination d’un type d’attribut](determining-an-attribute-type.md).
 
- 
+ 
 
- 
+ 

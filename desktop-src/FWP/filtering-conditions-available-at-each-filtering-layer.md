@@ -1,6 +1,6 @@
 ---
 title: Conditions de filtrage disponibles pour chaque couche de filtrage (Fwpmu. h)
-description: Le moteur de filtre de la plateforme de filtrage Windows (WFP) prend en charge un ensemble différent de conditions de filtrage à chacune de ses couches de filtrage.
+description: le moteur de filtre de la plateforme de filtrage des Windows (WFP) prend en charge un ensemble différent de conditions de filtrage à chacune de ses couches de filtrage.
 ms.assetid: 6faace21-44ec-49dd-8e77-e403c258c14a
 topic_type:
 - apiref
@@ -44,16 +44,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd0c3806c7c3c7a5fa7f10af0e5e11c212bd93e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c66aaceadec9a04e926806cf95859ffff2e4fa542b592edb4a11608a621a3338
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951198"
 ---
 # <a name="filtering-conditions-available-at-each-filtering-layer"></a>Conditions de filtrage disponibles pour chaque couche de filtrage
 
-Le moteur de filtre de la plateforme de filtrage Windows (WFP) prend en charge un ensemble différent de conditions de filtrage à chacune de ses couches de filtrage.
+le moteur de filtre de la plateforme de filtrage des Windows (WFP) prend en charge un ensemble différent de conditions de filtrage à chacune de ses couches de filtrage.
 
 La liste des conditions de filtrage disponibles à chaque couche est la suivante.
 
@@ -512,7 +512,7 @@ La liste des conditions de filtrage disponibles à chaque couche est la suivante
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les suffixes V4 et V6 à la fin des identificateurs de couche indiquent si la couche se trouve dans la pile réseau IPv4 ou dans la pile réseau IPv6.
 
@@ -522,8 +522,8 @@ Les suffixes V4 et V6 à la fin des identificateurs de couche indiquent si la co
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |
 
 

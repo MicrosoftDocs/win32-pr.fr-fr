@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit les extensions Winsock spécifiques à l’échange de paquets par interréseau (IPX/SPX). Il décrit également les aspects des fonctions Winsock de base qui requièrent une attention particulière ou qui peuvent présenter un comportement unique.
+description: cette section décrit les extensions Winsock spécifiques Exchange à/Sequenced packet Exchange (IPX/SPX). Il décrit également les aspects des fonctions Winsock de base qui requièrent une attention particulière ou qui peuvent présenter un comportement unique.
 ms.assetid: 8447e063-767a-40b8-b094-724393e85be2
 title: Annexe IPX/SPX Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c533781fa07c997d7f2363dd6b00d6b4213f22e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74e5a97b90dc29f577bf2335b93a15fb3fb2c87c8362e0585151e1ac8b1e3393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051347"
 ---
 # <a name="winsock-ipxspx-annex"></a>Annexe IPX/SPX Winsock
 
-Cette section décrit les extensions Winsock spécifiques à l’échange de paquets par interréseau (IPX/SPX). Il décrit également les aspects des fonctions Winsock de base qui requièrent une attention particulière ou qui peuvent présenter un comportement unique.
+cette section décrit les extensions Winsock spécifiques Exchange à/Sequenced packet Exchange (IPX/SPX). Il décrit également les aspects des fonctions Winsock de base qui requièrent une attention particulière ou qui peuvent présenter un comportement unique.
 
 
 

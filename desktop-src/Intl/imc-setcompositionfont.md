@@ -4,12 +4,12 @@ ms.assetid: 17b222e7-bf57-4cdd-8475-d9a8be03ab7f
 title: Commande IMC_SETCOMPOSITIONFONT (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbb84c9e05ab19206064988a71b0ffc39b21a44b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ebc9f435371d4ae08b12191419c95fd53c69256064f0e90bb654e75fab922f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949270"
 ---
 # <a name="imc_setcompositionfont-command"></a>\_Commande IMC SETCOMPOSITIONFONT
 
@@ -44,7 +44,7 @@ Pointeur vers une structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-lo
 
 Retourne 0 en cas de réussite, ou une valeur différente de zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors du traitement de cette commande, la fenêtre IME modifie la police actuellement sélectionnée dans le contexte d’entrée.
 
@@ -56,7 +56,7 @@ Lors du traitement de cette commande, la fenêtre IME modifie la police actuelle
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 70a9389ed9e9f4fff16f82610cb611bc4da2c7a3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5408b2c8133947b948bc42eb6ff0c725584b0cf2c60ccf0731a9d584d3c898a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104990672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512016"
 ---
 # <a name="evaluateattributesnapped-function"></a>EvaluateAttributeSnapped fonction)
 
@@ -28,8 +28,8 @@ ms.locfileid: "104990672"
 
 ``` syntax
 numeric EvaluateAttributeSnapped(
-  in attrib numeric value,
-  in 
+  in attrib numeric value,
+  in 
             int2 offset
 );
 ```
@@ -56,7 +56,7 @@ Décalage 2D à partir du centre de pixels à l’aide d’une grille 16x16.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La plage du paramètre *offset* doit être définie par le code d’octet suivant.
 
@@ -82,7 +82,7 @@ Seuls les 4 bits les moins significatifs des deux premiers composants (U, V) de 
 > [!Note]  
 > Les bords gauche et supérieur d’un pixel sont inclus dans le décalage ; Toutefois, les bords inférieur et droit ne sont pas inclus. Tous les autres bits dans l’entier 32 bits et les valeurs de décalage V sont ignorés.
 
- 
+ 
 
 Une implémentation peut prendre le décalage fourni par le nuanceur et obtenir une valeur à virgule fixe 32 bits complète (28,4), qui s’étend sur la plage valide, en effectuant le calcul suivant :
 
@@ -108,25 +108,25 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
- 
+ 
 
 Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -138,9 +138,9 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

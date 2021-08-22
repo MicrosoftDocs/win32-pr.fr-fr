@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxva.h
-ms.openlocfilehash: 2aba66636717eee5deb04032d9408ace495e1edf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d71b392d41c123eb0106d08f1a75d2a5147977b106c811e0bf0786ab2acff2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974588"
 ---
 # <a name="dxva_qmatrix_hevc-structure"></a>DXVA \_ Qmatrix \_ HEVC, structure
 
@@ -93,7 +93,7 @@ Contient la valeur DC de la liste de mise à l’échelle pour une taille de 32x
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>DXVA. h</dt> </dl> |
 
 

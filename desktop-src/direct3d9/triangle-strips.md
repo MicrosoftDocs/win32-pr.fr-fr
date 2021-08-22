@@ -4,12 +4,12 @@ ms.assetid: 3923c570-47a4-4b53-a097-731981380ae0
 title: Bandes triangulaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2766529a37b994e5fe30815ca6300476f06c7d4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cf229883fa156afc93ca2889a0a97f4f2c3eabbb344fb7551476c98f33905f8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104557769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044103"
 ---
 # <a name="triangle-strips"></a>Bandes triangulaires
 

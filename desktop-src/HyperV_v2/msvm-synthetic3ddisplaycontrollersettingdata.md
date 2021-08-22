@@ -39,12 +39,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c93bb67cd4a66c4ecc5f6820ff2de7cf3816b2b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f8b9aa97aa57089cd88be3c24111a49231fdc5f922e956e98c4842eef461713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949998"
 ---
 # <a name="msvm_synthetic3ddisplaycontrollersettingdata-class"></a>MSVM \_ Synthetic3DDisplayControllerSettingData, classe
 
@@ -193,7 +193,7 @@ Type d'accès : Lecture seule
 
 Appareil auquel cette ressource est connectée. Cette propriété est héritée de la [**\_ ResourceAllocationSettingData CIM**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata).
 
-Il s’agit d’une propriété en lecture seule, mais si 1) la propriété **resourceType** est 17 (port série) ou 2) la propriété **resourceType** est 21 (extension de stockage) et la propriété **ResourceSubType** est « disque dur virtuel Microsoft », puis elle peut être modifiée à l’aide de la méthode [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) de la classe [**\_ VirtualSystemManagementService MSVM**](msvm-virtualsystemmanagementservice.md) .
+il s’agit d’une propriété en lecture seule, mais si 1) la propriété **resourcetype** est 17 (port série) ou 2) la propriété **resourcetype** est 21 (Stockage étendue) et la propriété **ResourceSubType** est « disque dur virtuel Microsoft », puis elle peut être modifiée à l’aide de la méthode [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) de la classe [**\_ VirtualSystemManagementService Msvm**](msvm-virtualsystemmanagementservice.md) .
 
 </dd> <dt>
 
@@ -392,7 +392,7 @@ La résolution maximale est de 2650 1600.
 La résolution maximale est de 3840 2160.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016. MSVM \_ synte
+> ajouté dans Windows 10 et Windows Server 2016. msvm \_ synte
 
  
 
@@ -516,7 +516,7 @@ Type d’accès : lecture/écriture
 Taille de la mémoire vidéo de l’ordinateur virtuel.
 
 > [!Note]  
-> Ajouté dans Windows 10 et Windows Server 2016.
+> ajouté dans Windows 10 et Windows Server 2016.
 
  
 
@@ -582,8 +582,8 @@ Plage : 0 1000
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

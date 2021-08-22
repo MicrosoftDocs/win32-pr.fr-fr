@@ -3,8 +3,8 @@ title: Structure MPSCAN_DATA (MpClient. h)
 description: Analyser les données passées au rappel.
 ms.assetid: 6C9AAF1E-7566-43EE-A100-5112E9B8878C
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPSCAN_DATA
-- PMPSCAN_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPSCAN_DATA
+- PMPSCAN_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e78508313f102e2baad19cf359a5c3a7c172db0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5b7c00357b8f104fff42b94de552d52979c364dee64a82bb8e438946319c8c13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975989"
 ---
 # <a name="mpscan_data-structure"></a>\_Structure de données MPSCAN
 
@@ -96,8 +96,8 @@ Statistiques des menaces avec la réussite de l’analyse.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

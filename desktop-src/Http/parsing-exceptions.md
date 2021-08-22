@@ -6,12 +6,12 @@ keywords:
 - Analyse des exceptions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa071f141539a159d09f6a53f2e78a81bf75327b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 28b546c5473641bbd5d719908903c2d9e19db25ade2ff6677a5ce5ec7ea472d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950728"
 ---
 # <a name="parsing-exceptions"></a>Analyse des exceptions
 
@@ -19,11 +19,11 @@ L’API serveur HTTP fournit des clés de Registre pour prendre en charge l’an
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Http
-               Parameters
+   System
+      CurrentControlSet
+         Services
+            Http
+               Parameters
 ```
 
 Le tableau suivant répertorie les clés de Registre fournies pour prendre en charge les exceptions répertoriées. Pour activer une exception, affectez la valeur 1 à la valeur de clé correspondante, puis redémarrez le service HTTP.
@@ -39,11 +39,11 @@ Le tableau suivant répertorie les clés de Registre fournies pour prendre en ch
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

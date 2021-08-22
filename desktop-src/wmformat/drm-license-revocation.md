@@ -1,6 +1,6 @@
 ---
-title: Révocation de licence (client Microsoft Windows Media DRM)
-description: Révocation de licence (client Microsoft Windows Media DRM)
+title: révocation de licence (Client DRM Microsoft Windows)
+description: révocation de licence (Client DRM Microsoft Windows)
 ms.assetid: 615ddddf-4f2f-400d-9c4d-ff3a2851d699
 keywords:
 - Windows Media Format SDK, licences
@@ -17,14 +17,14 @@ keywords:
 - révocation de licence, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90388a7392c79f583143e06fb78ecfe45e188612
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5f3cd295ddc1aec40c04f5284d791d7482854208a17875bdd3ed60d998f4ccf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027837"
 ---
-# <a name="license-revocation-microsoft-windows-media-drm-client"></a>Révocation de licence (client Microsoft Windows Media DRM)
+# <a name="license-revocation-microsoft-windows-media-drm-client"></a>révocation de licence (Client DRM Microsoft Windows)
 
 La révocation de licence fait référence à la suppression de licences d’un magasin de licences local. Un scénario courant de révocation de licence se produit lorsqu’un fournisseur de services, tel qu’un service d’abonnement musical, doit désactiver le service sur l’ordinateur d’un utilisateur.
 

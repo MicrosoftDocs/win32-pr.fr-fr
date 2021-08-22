@@ -1,5 +1,5 @@
 ---
-description: La méthode OpenView de l’objet Database retourne un objet View qui représente la requête spécifiée par une chaîne SQL.
+description: la méthode OpenView de l’objet Database retourne un objet View qui représente la requête spécifiée par une chaîne de SQL.
 ms.assetid: 6afb2fdb-0e6a-468f-8faf-e48d8d1960b6
 title: Database. OpenView, méthode (certview. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 8dc62ca38bfe28980da71ecf63eda8e6c39aaf0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ccc37b72dd44064172672d1067dae293da30048853f3ca83f82fb50b0a90cfaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947522"
 ---
 # <a name="databaseopenview-method"></a>Database. OpenView, méthode
 
-La méthode **OpenView** de l’objet [**Database**](database-object.md) retourne un objet [**View**](view-object.md) qui représente la requête spécifiée par une chaîne SQL.
+la méthode **OpenView** de l’objet [**Database**](database-object.md) retourne un objet [**View**](view-object.md) qui représente la requête spécifiée par une chaîne de SQL.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,7 +42,7 @@ Database.OpenView(
 *sql* 
 </dt> <dd>
 
-Chaîne de requête SQL requise.
+obligatoire SQL chaîne de requête.
 
 </dd> </dl>
 
@@ -50,9 +50,9 @@ Chaîne de requête SQL requise.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur la syntaxe SQL implémentée dans le programme d’installation, consultez [syntaxe SQL](sql-syntax.md).
+pour plus d’informations sur la syntaxe de SQL implémentée dans le programme d’installation, consultez [SQL syntaxe](sql-syntax.md).
 
 Si la méthode échoue, vous pouvez obtenir des informations d’erreur étendues à l’aide de la méthode [**LastErrorRecord**](installer-lasterrorrecord.md) .
 

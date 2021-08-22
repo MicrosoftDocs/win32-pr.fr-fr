@@ -8,12 +8,12 @@ keywords:
 - ADSI du fournisseur de services LDAP, mappage de type de données entre Active Directory et LDAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45157fb7cefe1a993e6e16dffe28f101bc73759b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e1aed0ff0071c55e381e1eb66f1f84e5a98aa8acf2c361816444533c6d0ad886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106517939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961968"
 ---
 # <a name="data-type-mapping-between-active-directory-and-ldap"></a>Mappage de type de données entre Active Directory et LDAP
 
@@ -34,7 +34,7 @@ Le tableau suivant mappe le nom convivial de la syntaxe à l’OID de syntaxe LD
 | Certificat                       | 1.3.6.1.4.1.1466.115.121.1.8  | **\_chaîne d’octets ADSTYPE \_**            |
 | CertificateList                   | 1.3.6.1.4.1.1466.115.121.1.9  | **\_chaîne d’octets ADSTYPE \_**            |
 | CertificatePair                   | 1.3.6.1.4.1.1466.115.121.1.10 | **\_chaîne d’octets ADSTYPE \_**            |
-| Pays/région                    | 1.3.6.1.4.1.1466.115.121.1.11 | **ADSTYPE \_ \_ ignorer la \_ chaîne**     |
+| Pays/Région                    | 1.3.6.1.4.1.1466.115.121.1.11 | **ADSTYPE \_ \_ ignorer la \_ chaîne**     |
 | DataQualitySyntax                 | 1.3.6.1.4.1.1466.115.121.1.13 | **ADSTYPE \_ \_ ignorer la \_ chaîne**     |
 | DeliveryMethod                    | 1.3.6.1.4.1.1466.115.121.1.14 | **ADSTYPE \_ \_ ignorer la \_ chaîne**     |
 | DirectoryString                   | 1.3.6.1.4.1.1466.115.121.1.15 | **ADSTYPE \_ \_ ignorer la \_ chaîne**     |
@@ -69,11 +69,11 @@ Le tableau suivant mappe le nom convivial de la syntaxe à l’OID de syntaxe LD
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

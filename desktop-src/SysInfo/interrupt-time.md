@@ -4,31 +4,31 @@ ms.assetid: 56fe322e-53ea-4186-9b5e-352f69b09109
 title: Temps d’interruption
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6018d97ab0eecd1182c02b734357ca13fbe12632
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e0da8fa92fc51cdceef6f0052dda7a2cd27d7b21b24d11bd8ec7b1ea4aff18b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885509"
 ---
 # <a name="interrupt-time"></a>Temps d’interruption
 
 Le *temps d’interruption* correspond à la durée écoulée depuis le dernier démarrage du système, en intervalles de 100 nanosecondes. Le nombre de temps d’interruptions commence à zéro lorsque le système démarre et est incrémenté à chaque interruption d’horloge par la longueur d’un cycle d’horloge. La longueur exacte d’un cycle d’horloge dépend du matériel sous-jacent et peut varier entre les systèmes.
 
-Contrairement à l' [heure système](system-time.md), le nombre d’interruptions n’est pas soumis aux ajustements des utilisateurs ou du service de temps Windows, ce qui en fait un meilleur choix pour mesurer les durées courtes. Les applications qui requièrent une plus grande précision que le nombre d’interruptions doivent utiliser un [minuteur de haute résolution](../winmsg/about-timers.md). Utilisez la fonction [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) pour récupérer la fréquence de la minuterie haute résolution et la fonction [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) pour récupérer la valeur du compteur.
+contrairement à l' [heure système](system-time.md), le nombre d’interruptions n’est pas soumis aux ajustements des utilisateurs ou du service de temps Windows, ce qui en fait un meilleur choix pour mesurer les durées courtes. Les applications qui requièrent une plus grande précision que le nombre d’interruptions doivent utiliser un [minuteur de haute résolution](../winmsg/about-timers.md). Utilisez la fonction [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) pour récupérer la fréquence de la minuterie haute résolution et la fonction [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) pour récupérer la valeur du compteur.
 
 Les fonctions [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime), [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise), [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)et [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise) peuvent être utilisées pour récupérer le nombre d’interruptions. L’interruption non biaisée signifie que seul le moment où le système est en état de fonctionnement est compté. par conséquent, le nombre de temps d’interruption n’est pas « biaisé » au moment où le système passe en mode veille ou veille prolongée.
 
-**Windows server 2008, Windows Vista, Windows server 2003 et Windows XP/2000 :** La fonction [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime) est disponible à partir de Windows 7 et de windows Server 2008 R2.
+**Windows server 2008, Windows Vista, Windows server 2003 et Windows XP/2000 :** la fonction [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime) est disponible à partir de Windows 7 et Windows Server 2008 R2.
 
 La résolution de l’horloge définie par les fonctions [**timeBeginPeriod**](/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod) et [**timeEndPeriod**](/windows/desktop/api/timeapi/nf-timeapi-timeendperiod) affecte la résolution des fonctions [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime) et [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime) . Toutefois, l’augmentation de la résolution de la minuterie n’est pas recommandée, car elle peut réduire les performances globales du système et augmenter la consommation d’énergie en empêchant le processeur de pénétrer dans des États d’économie d’énergie. Au lieu de cela, les applications doivent utiliser un minuteur haute résolution.
 
 > [!Note]  
-> Les fonctions [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime), [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise), [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)et [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise) produisent des résultats différents sur les versions Debug (« checked ») de Windows, car le nombre de temps d’interruption et le nombre de cycles sont avancés d’environ 49 jours. Cela permet d’identifier les bogues qui peuvent ne pas se produire tant que le système n’a pas été exécuté pendant une longue période. La version vérifiée est disponible pour les abonnés MSDN via le site Web [Microsoft Developer Network (MSDN)](https://msdn.microsoft.com/default.aspx) .
+> les fonctions [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime), [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise), [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)et [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise) produisent des résultats différents sur les builds de débogage (« checked ») de Windows, car le nombre de temps d’interruption et le nombre de cycles sont avancés d’environ 49 jours. Cela permet d’identifier les bogues qui peuvent ne pas se produire tant que le système n’a pas été exécuté pendant une longue période. La version vérifiée est disponible pour les abonnés MSDN via le site Web [Microsoft Developer Network (MSDN)](https://msdn.microsoft.com/default.aspx) .
 
  
 
-L’exemple suivant montre comment récupérer le nombre de temps d’interruption en appelant les fonctions [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime), [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise), [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)et [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise) . Créez un lien vers la bibliothèque OneCore. lib lorsque vous générez une application console qui appelle ces fonctions.
+L’exemple suivant montre comment récupérer le nombre de temps d’interruption en appelant les fonctions [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime), [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise), [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)et [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise) . créez un lien vers la bibliothèque OneCore. lib lorsque vous générez une application console qui appelle ces fonctions.
 
 
 ```C++

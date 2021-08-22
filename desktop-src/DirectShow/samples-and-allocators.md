@@ -4,12 +4,12 @@ ms.assetid: 1fbea741-f29a-4815-9885-94ca9cf4bb95
 title: Exemples et allocators
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9132ff2c70b5ade63f8853b5c03bacb7a25371
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8d196adeb9b5d5bd1220c9d71d74e2c0b23769c20bcad8daf80385aaee3920e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104561978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952002"
 ---
 # <a name="samples-and-allocators"></a>Exemples et allocators
 
@@ -17,7 +17,7 @@ Lorsqu’un code PIN transmet des données multimédia à un autre code confiden
 
 Les exemples voyagent toujours en aval, de la broche de sortie à la broche d’entrée. Dans le modèle push, la broche de sortie fournit un exemple en appelant [**IMemInputPin :: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) sur la broche d’entrée. La broche d’entrée traite les données de manière synchrone (c’est-à-dire complètement à l’intérieur de la méthode de **réception** ), ou les traite de façon asynchrone sur un thread de travail. La broche d’entrée est autorisée à bloquer dans la méthode **Receive** , si elle doit attendre des ressources.
 
-Un autre objet COM, appelé *Allocator*, est responsable de la création et de la gestion des exemples de médias. Les allocateurs exposent l’interface [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) . Chaque fois qu’un filtre a besoin d’un échantillon de média avec une mémoire tampon vide, il appelle la méthode [**IMemAllocator :: GetBuffer**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-getbuffer) , qui retourne un pointeur vers l’exemple. Chaque connexion de code confidentiel partage un allocateur. Lorsque deux codes confidentiels se connectent, ils décident du filtre qui fournira l’allocateur. Les broches définissent également des propriétés sur l’allocateur, telles que le nombre de mémoires tampons et la taille de chaque mémoire tampon. (Pour plus d’informations, consultez [Comment les filtres se connectent](how-filters-connect.md) et [négocient des allocateurs](negotiating-allocators.md).)
+Un autre objet COM, appelé *Allocator*, est responsable de la création et de la gestion des exemples de médias. Les allocateurs exposent l’interface [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) . Chaque fois qu’un filtre a besoin d’un échantillon de média avec une mémoire tampon vide, il appelle la méthode [**IMemAllocator :: GetBuffer**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-getbuffer) , qui retourne un pointeur vers l’exemple. Chaque connexion de code confidentiel partage un allocateur. Lorsque deux codes confidentiels se connectent, ils décident du filtre qui fournira l’allocateur. Les broches définissent également des propriétés sur l’allocateur, telles que le nombre de mémoires tampons et la taille de chaque mémoire tampon. (pour plus d’informations, consultez [comment les filtres Connecter](how-filters-connect.md) et [négociation des allocateurs](negotiating-allocators.md).)
 
 L’illustration suivante montre les relations entre l’allocateur, les exemples de média et le filtre.
 
@@ -45,7 +45,7 @@ Lorsque la diffusion en continu s’arrête, le code PIN appelle [**IMemAllocato
 
 <dl> <dt>
 
-[Data Flow dans le graphique de filtre](data-flow-in-the-filter-graph.md)
+[données Flow dans le filtre Graph](data-flow-in-the-filter-graph.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 4db2e7fc-0a87-0344-a07c-3abf2b21af32
 title: 'Procédure : initialiser XAudio2'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4a613c1ae2b7c3a7f0c55ab5349a0a605aaeb2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4eb55425c92e6d28a2689fb388869bbf42339d14bec3550e3f9e17798c1af68f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962728"
 ---
 # <a name="how-to-initialize-xaudio2"></a>Procédure : initialiser XAudio2
 
@@ -17,7 +17,7 @@ XAudio2 est initialisé pour la lecture audio en créant une instance du moteur 
 
 **Pour initialiser XAudio2**
 
-1.  Vérifiez que vous avez initialisé COM. Pour une application du Windows Store, cette opération est effectuée dans le cadre de l’initialisation du Windows Runtime. Sinon, utilisez [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex).
+1.  Vérifiez que vous avez initialisé COM. pour une application Windows Store, cette opération est effectuée dans le cadre de l’initialisation du Windows Runtime. Sinon, utilisez [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex).
 
     ```
     HRESULT hr;
@@ -50,9 +50,9 @@ XAudio2 est initialisé pour la lecture audio en créant une instance du moteur 
 
     
 
-## <a name="notes-for-windows-store-apps"></a>Notes pour les applications du Windows Store
+## <a name="notes-for-windows-store-apps"></a>Notes pour les applications Windows store
 
-Nous vous recommandons d’utiliser un [pointeur intelligent](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) pour gérer la durée de vie des objets XAUDIO2 de façon sécurisée. Pour les applications du Windows Store, vous pouvez utiliser le modèle de pointeur intelligent [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) à partir de la bibliothèque de modèles C++ Windows Runtime (WRL).
+Nous vous recommandons d’utiliser un [pointeur intelligent](/previous-versions/visualstudio/visual-studio-2012/hh279674(v=vs.110)) pour gérer la durée de vie des objets XAUDIO2 de façon sécurisée. pour les applications Windows store, vous pouvez utiliser le modèle de pointeur intelligent [**ComPtr**](/previous-versions/visualstudio/visual-studio-2012/br244983(v=vs.110)) à partir de la bibliothèque de modèles Windows Runtime C++ (WRL).
 
 
 ```C++

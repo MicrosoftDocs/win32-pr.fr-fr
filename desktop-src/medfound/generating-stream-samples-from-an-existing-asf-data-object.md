@@ -4,12 +4,12 @@ ms.assetid: eb27f122-d958-495d-98ea-8befd105a9a8
 title: Génération d’exemples de flux à partir d’un objet de données ASF existant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee612c9352e3295d6b4957922e385de40a9a1fa3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97fb99440c3fc4721851f183b3bfc7aefafd3f652d0436b29e9cea1209ba59b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974448"
 ---
 # <a name="generating-stream-samples-from-an-existing-asf-data-object"></a>Génération d’exemples de flux à partir d’un objet de données ASF existant
 

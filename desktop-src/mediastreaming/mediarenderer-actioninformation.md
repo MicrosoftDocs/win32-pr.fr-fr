@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8f5ce6c0bf9baf30cd8184d5271ed996c6406ddf
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f23b0463397f38dd8d438f21767ca9e45c9f68465bee4452d46a63b3a3dc9027
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106510062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972148"
 ---
 # <a name="mediarendereractioninformation-property"></a>MediaRenderer. ActionInformation, propriété
 
@@ -33,7 +33,7 @@ Cette propriété est en lecture seule.
 
 ```C++
 HRESULT get_ActionInformation(
-  [out] IMediaRendererActionInformation **value
+  [out] IMediaRendererActionInformation **value
 );
 ```
 
@@ -50,6 +50,6 @@ Référence à une interface [**IMediaRendererActionInformation**](/previous-ver
 [**MediaRenderer**](mediarenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

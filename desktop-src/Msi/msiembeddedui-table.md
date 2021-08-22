@@ -1,21 +1,21 @@
 ---
-description: La table MsiEmbeddedUI définit une interface utilisateur incorporée dans le package Windows Installer.
+description: la table MsiEmbeddedUI définit une interface utilisateur incorporée dans le package Windows Installer.
 ms.assetid: d4176f99-e819-4b5a-bd06-1a2965891f9a
 title: Table MsiEmbeddedUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a52846e88e2d8f3edb439aa6b4a49c99e252173f
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 7357a0b5aa1de2218eefb58fa85fbe374e9796ad0aaa94946743f1c51d9c8daa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106538451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012947"
 ---
 # <a name="msiembeddedui-table"></a>Table MsiEmbeddedUI
 
-La table MsiEmbeddedUI définit une interface utilisateur incorporée dans le package Windows Installer.
+la table MsiEmbeddedUI définit une interface utilisateur incorporée dans le package Windows Installer.
 
-**[Windows Installer 4,0 ou version antérieure](not-supported-in-windows-installer-4-0.md):** Non pris en charge. Cette table est disponible à partir de Windows Installer 4,5.
+**[Windows Installer 4,0 ou version antérieure](not-supported-in-windows-installer-4-0.md):** Non pris en charge. cette table est disponible à partir de Windows Installer 4,5.
 
 La table MsiEmbeddedUI contient les colonnes suivantes.
 
@@ -113,11 +113,11 @@ Cette colonne contient des informations binaires. Si le champ d’attribut est m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour utiliser une interface utilisateur incorporée, le développeur du programme d’installation doit créer cette fonctionnalité dans le package Windows Installer. La table MsiEmbeddedUI définit l’interface utilisateur incorporée. La DLL de l’interface utilisateur incorporée doit exporter les fonctions *InitializeEmbeddedUI*, *EmbeddedUIHandler* et *ShutdownEmbeddedUI* . Les packages qui ne prennent pas en charge une interface utilisateur incorporée peuvent utiliser l’interface utilisateur interne Windows Installer.
+pour utiliser une interface utilisateur incorporée, le développeur du programme d’installation doit créer cette fonctionnalité dans le package Windows Installer. La table MsiEmbeddedUI définit l’interface utilisateur incorporée. La DLL de l’interface utilisateur incorporée doit exporter les fonctions *InitializeEmbeddedUI*, *EmbeddedUIHandler* et *ShutdownEmbeddedUI* . les Packages qui ne prennent pas en charge une interface utilisateur incorporée peuvent utiliser l’interface utilisateur interne Windows Installer.
 
-Pour exécuter les [outils de débogage pour Windows](https://www.microsoft.com/?ref=go) sur une interface utilisateur incorporée, utilisez les techniques décrites dans [débogage des actions personnalisées](debugging-custom-actions.md). Définissez la valeur de MsiBreak sur MsiEmbeddedUI.
+pour exécuter les [outils de débogage pour Windows](https://www.microsoft.com/?ref=go) sur une interface utilisateur incorporée, utilisez les techniques décrites dans [débogage des Actions personnalisées](debugging-custom-actions.md). Définissez la valeur de MsiBreak sur MsiEmbeddedUI.
 
 Pour obtenir un exemple d’interface utilisateur personnalisée incorporée, consultez [utilisation d’une interface utilisateur incorporée](using-an-embedded-ui.md).
 

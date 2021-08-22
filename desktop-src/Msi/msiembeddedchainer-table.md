@@ -4,20 +4,20 @@ ms.assetid: ac1e9c7b-bb83-4e1e-9108-211374c7d878
 title: Table MsiEmbeddedChainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 902a33bce5d3a0aff3d2797fce94e5d272b61271
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1cfcf48f3cf3863f19819b3337a136d2540fa3254067cacc50fcf391256caa5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945054"
 ---
 # <a name="msiembeddedchainer-table"></a>Table MsiEmbeddedChainer
 
-Utilisez ce tableau pour créer une [installation de plusieurs packages](multiple-package-installations.md). Chaque ligne de la table MsiEmbeddedChainer fait référence à une autre fonction définie par l’utilisateur qui peut être utilisée pour installer plusieurs packages Windows Installer à partir d’un package unique. Les [fichiers exécutables](executable-files.md) des fonctions définies par l’utilisateur sont stockés dans le package Windows Installer.
+Utilisez ce tableau pour créer une [installation de plusieurs packages](multiple-package-installations.md). chaque ligne de la table MsiEmbeddedChainer fait référence à une autre fonction définie par l’utilisateur qui peut être utilisée pour installer plusieurs packages Windows Installer à partir d’un package unique. les [fichiers exécutables](executable-files.md) des fonctions définies par l’utilisateur sont stockés dans le package Windows Installer.
 
-**[Windows Installer 4,0 ou version antérieure](not-supported-in-windows-installer-4-0.md):** Non pris en charge. Cette table est disponible à partir de Windows Installer 4,5.
+**[Windows Installer 4,0 ou version antérieure](not-supported-in-windows-installer-4-0.md):** Non pris en charge. cette table est disponible à partir de Windows Installer 4,5.
 
-**Windows Server 2008 R2 avec le rôle [services Bureau à distance](../termserv/terminal-services-portal.md) activé :** Non pris en charge. L’installation de plusieurs packages à l’aide de la table MsiEmbeddedChainer échoue si le rôle [services Bureau à distance](../termserv/terminal-services-portal.md) est activé.
+**Windows Server 2008 R2 avec le rôle [Services Bureau à distance](../termserv/terminal-services-portal.md) activé :** Non pris en charge. L’installation de plusieurs packages à l’aide de la table MsiEmbeddedChainer échoue si le rôle [services Bureau à distance](../termserv/terminal-services-portal.md) est activé.
 
 Pour installer plusieurs packages à partir d’un seul package, l’une des fonctions définies par l’utilisateur figurant dans la table MsiEmbeddedChainer doit avoir une instruction conditionnelle dans le champ condition qui évalue l’exécution de l’action. Si plusieurs fonctions ont une condition qui est évaluée pour s’exécuter, une seule fonction peut s’exécuter. Ce cas est une erreur, et il n’est pas garanti que la fonction s’exécutera. Si d’autres actions personnalisées sont nécessaires à l’installation, celles-ci doivent être créées dans la [table CustomAction](customaction-table.md) et les tables de séquences.
 
@@ -90,11 +90,11 @@ Les fonctions répertoriées dans le tableau MsiEmbeddedChainer sont décrites �
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La Windows Installer n’empêche pas les fonctions définies par l’utilisateur dans ce tableau de s’exécuter pendant la publication de l’application. Vous pouvez utiliser une instruction conditionnelle dans la colonne condition pour empêcher l’exécution d’une fonction pendant la publication.
+la Windows Installer n’empêche pas les fonctions définies par l’utilisateur dans ce tableau de s’exécuter pendant la publication de l’application. Vous pouvez utiliser une instruction conditionnelle dans la colonne condition pour empêcher l’exécution d’une fonction pendant la publication.
 
-Le Windows Installer fournit également un gestionnaire d’interface utilisateur externe non incorporé pour générer une interface utilisateur riche en plus du package Windows Installer. Pour plus d’informations sur l’utilisation d’un gestionnaire d’interface utilisateur externe avec le Windows Installer, consultez [surveillance d’une installation à l’aide de MsiSetExternalUI](monitoring-an-installation-using-msisetexternalui.md).
+le Windows Installer fournit également un gestionnaire d’interface utilisateur externe non incorporé pour générer une interface utilisateur riche en plus du package Windows Installer. pour plus d’informations sur l’utilisation d’un gestionnaire d’interface utilisateur externe avec le Windows Installer, consultez [surveillance d’une Installation à l’aide de MsiSetExternalUI](monitoring-an-installation-using-msisetexternalui.md).
 
 Le [tableau MsiPackageCertificate](msipackagecertificate-table.md) répertorie les certificats de signature numérique utilisés pour vérifier l’identité des packages d’installation qui effectuent une installation de plusieurs packages. Vous pouvez utiliser ce tableau pour réduire le nombre de fois où votre installation de plusieurs packages affiche une invite de [*contrôle de compte d’utilisateur*](u-gly.md) (UAC) qui requiert une réponse d’un administrateur.
 

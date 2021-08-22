@@ -1,19 +1,19 @@
 ---
-description: Les exemples de code suivants montrent comment effectuer les tâches suivantes associées aux messages Windows et aux files d’attente de messages.
+description: les exemples de code suivants montrent comment effectuer les tâches suivantes associées aux messages Windows et aux files d’attente de messages.
 ms.assetid: 62b4616c-37bf-4d9f-8891-7010c7035d18
 title: Utilisation des messages et des files d’attente de messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a33f422a1a7c77f2c2fcd5913f931168a350a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee617f2c48325eccf5a2fdb07741bb88b47738dea812d372acda1454c9dd3d9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028337"
 ---
 # <a name="using-messages-and-message-queues"></a>Utilisation des messages et des files d’attente de messages
 
-Les exemples de code suivants montrent comment effectuer les tâches suivantes associées aux messages Windows et aux files d’attente de messages.
+les exemples de code suivants montrent comment effectuer les tâches suivantes associées aux messages Windows et aux files d’attente de messages.
 
 -   [Création d’une boucle de message](#creating-a-message-loop)
 -   [Examen d’une file d’attente de messages](#examining-a-message-queue)
@@ -26,7 +26,7 @@ Le système ne crée pas automatiquement une file d’attente de messages pour c
 
 Étant donné que le système dirige les messages vers des fenêtres individuelles dans une application, un thread doit créer au moins une fenêtre avant de démarrer sa boucle de message. La plupart des applications contiennent un seul thread qui crée des fenêtres. Une application classique inscrit la classe de fenêtre pour sa fenêtre principale, crée et affiche la fenêtre principale, puis démarre sa boucle de messages, le tout dans la fonction [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) .
 
-Vous créez une boucle de messages à l’aide des fonctions [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) et [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) . Si votre application doit obtenir une entrée de caractères de la part de l’utilisateur, incluez la fonction [**TranslateMessage**](/windows/win32/api/winuser/nf-winuser-translatemessage) dans la boucle. **TranslateMessage** traduit les messages de clé virtuelle en messages de caractères. L’exemple suivant illustre la boucle de message dans la fonction [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) d’une application simple basée sur Windows.
+Vous créez une boucle de messages à l’aide des fonctions [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) et [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) . Si votre application doit obtenir une entrée de caractères de la part de l’utilisateur, incluez la fonction [**TranslateMessage**](/windows/win32/api/winuser/nf-winuser-translatemessage) dans la boucle. **TranslateMessage** traduit les messages de clé virtuelle en messages de caractères. l’exemple suivant illustre la boucle de message dans la fonction [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) d’une application simple basée sur Windows.
 
 
 ```

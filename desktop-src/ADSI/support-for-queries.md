@@ -7,12 +7,12 @@ keywords:
 - Prise en charge des requêtes ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1304dcabd9c008b0f645982e695554225f59bac9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30ad1892cf7c0e619ef55b9c3e5af6885d4cbdc7ac68fbcbd206524128b283d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106517936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023227"
 ---
 # <a name="support-for-queries"></a>Prise en charge des requêtes
 
@@ -27,9 +27,9 @@ L’implémentation ADSI des méthodes de [**IDirectorySearch**](/windows/deskto
 
 Pour plus d’informations sur OLE DB, consultez le Guide de référence du programmeur OLE DB dans le kit de développement logiciel (SDK) de la plateforme.
 
- 
+ 
 
- 
+ 
 
 
 

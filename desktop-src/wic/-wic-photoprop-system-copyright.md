@@ -4,12 +4,12 @@ ms.assetid: 84d2f55b-5ca4-4912-b038-c18a72e6fc34
 title: Stratégie de métadonnées de photos System. Copyright
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fc65024458d88088e3c0cbeccc3bc9ea0211910
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b00b57bc3523feaa29da9008340bd34c32401879a8fc4e872082bbdcddd1fdf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710812"
 ---
 # <a name="systemcopyright-photo-metadata-policy"></a>Stratégie de métadonnées de photos System. Copyright
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. Copyright](
 
 Copyright de la présente \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                      | Format de disque |
+| Commande | Chemin                                      | Format de disque |
 |-------|-------------------------------------------|-------------|
 |       | /App1/IFD/{UShort = 33432}                  | ascii       |
 |       | Avis/APP13/IRB/8bimiptc/IPTC/Copyright |             |
@@ -61,7 +61,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                      | Format de disque |
+| Commande | Chemin                                      | Format de disque |
 |-------|-------------------------------------------|-------------|
 |       | /XMP/DC : droits                            | unicode     |
 |       | /XMP/ <xmpalt> DC : droits              | unicode     |
@@ -76,7 +76,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                      |
+| Commande | Chemin                                      |
 |-------|-------------------------------------------|
 |       | /XMP/DC : droits                            |
 |       | Avis/APP13/IRB/8bimiptc/IPTC/Copyright |
@@ -92,7 +92,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    | Format de disque |
+| Commande | Chemin                                    | Format de disque |
 |-------|-----------------------------------------|-------------|
 |       | /IFD/{UShort = 33432}                     | ascii       |
 |       | Avis/IFD/IPTC/Copyright              |             |
@@ -109,7 +109,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    | Format de disque |
+| Commande | Chemin                                    | Format de disque |
 |-------|-----------------------------------------|-------------|
 |       | /IFD/XMP/DC : droits                      | unicode     |
 |       | /IFD/XMP/ <xmpalt> DC : droits        | unicode     |
@@ -125,7 +125,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                    |
+| Commande | Chemin                                    |
 |-------|-----------------------------------------|
 |       | /IFD/XMP/DC : droits                      |
 |       | Avis/IFD/IPTC/Copyright              |
@@ -136,7 +136,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

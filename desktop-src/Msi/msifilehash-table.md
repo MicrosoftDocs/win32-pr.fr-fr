@@ -1,21 +1,21 @@
 ---
-description: La table MsiFileHash est utilisée pour stocker un hachage 128 bits d’un fichier source fourni par le package Windows Installer. Le hachage est divisé en valeurs 4 32 bits et stocké dans des colonnes distinctes de la table.
+description: la table MsiFileHash est utilisée pour stocker un hachage 128 bits d’un fichier source fourni par le package Windows Installer. Le hachage est divisé en valeurs 4 32 bits et stocké dans des colonnes distinctes de la table.
 ms.assetid: 972a2784-418d-4cb3-b13c-df89b079e94c
 title: Table MsiFileHash
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86acb299e5d7f099a8d49affc64810d128e88369
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fc43c7fd812781057ec0be271ffc370a6b5eb2e3054926e1f969383c0fb390c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944946"
 ---
 # <a name="msifilehash-table"></a>Table MsiFileHash
 
-La table **MsiFileHash** est utilisée pour stocker un hachage 128 bits d’un fichier source fourni par le package Windows Installer. Le hachage est divisé en valeurs 4 32 bits et stocké dans des colonnes distinctes de la table.
+la table **MsiFileHash** est utilisée pour stocker un hachage 128 bits d’un fichier source fourni par le package Windows Installer. Le hachage est divisé en valeurs 4 32 bits et stocké dans des colonnes distinctes de la table.
 
-Windows Installer pouvez utiliser le hachage de fichiers comme moyen de détecter et d’éliminer la copie inutile de fichiers. Un hachage de fichier stocké dans la table **MsiFileHash** peut être comparé à un hachage d’un fichier existant sur l’ordinateur de l’utilisateur obtenu en appelant [**MsiGetFileHash**](/windows/desktop/api/Msi/nf-msi-msigetfilehasha). La table **MsiFileHash** peut uniquement être utilisée avec des fichiers sans version.
+Windows Le programme d’installation peut utiliser le hachage de fichiers comme un moyen de détecter et d’éliminer les copies de fichiers inutiles. Un hachage de fichier stocké dans la table **MsiFileHash** peut être comparé à un hachage d’un fichier existant sur l’ordinateur de l’utilisateur obtenu en appelant [**MsiGetFileHash**](/windows/desktop/api/Msi/nf-msi-msigetfilehasha). La table **MsiFileHash** peut uniquement être utilisée avec des fichiers sans version.
 
 La table **MsiFileHash** contient les colonnes suivantes.
 

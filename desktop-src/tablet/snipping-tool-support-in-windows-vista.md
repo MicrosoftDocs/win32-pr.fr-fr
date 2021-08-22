@@ -1,17 +1,17 @@
 ---
 description: Cette rubrique décrit comment votre application peut spécifier l’URL que l’outil capture de Tablet PC doit obtenir lors de la capture de votre application.
 ms.assetid: e31e63e8-8f6b-41f7-8bd6-afc5ca32456b
-title: Prise en charge de l’outil capture dans Windows Vista
+title: prise en charge de l’outil capture dans Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 046dd6c8a97d1dacc20065dc1f741610fec13865
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cb2c24901524500df97461f3b3acf88d9a51f73cc24134955c1df866a457a37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966768"
 ---
-# <a name="snipping-tool-support-in-windows-vista"></a>Prise en charge de l’outil capture dans Windows Vista
+# <a name="snipping-tool-support-in-windows-vista"></a>prise en charge de l’outil capture dans Windows Vista
 
 Cette rubrique décrit comment votre application peut spécifier l’URL que l’outil capture de Tablet PC doit obtenir lors de la capture de votre application.
 
@@ -21,11 +21,11 @@ L’outil capture permet aux utilisateurs de capturer une capture (capture d’�
 
 L’outil capture obtient l’URL via des objets d’accessibilité. Les applications doivent spécifier les informations nécessaires sous les clés de Registre suivantes :
 
-HKLM \\ Software \\ Microsoft \\ Windows \\ TabletPC \\ Capture Tool \\ LinkFingerprints,
+HKLM \\ Software \\ Microsoft \\ Windows \\ TabletPC \\ capture Tool \\ LinkFingerprints,
 
 Et doivent créer une sous-clé dont le nom est identique à celui de la classe de fenêtre à partir de laquelle le lien doit être obtenu. Le nom de la classe de fenêtre doit être la fenêtre de premier plan de l’application.
 
-HKLM \\ Software \\ Microsoft \\ Windows \\ TabletPC \\ Capture Tool \\ LinkFingerprints\\<Window Class Name>
+HKLM \\ Software \\ Microsoft \\ Windows \\ TabletPC \\ capture Tool \\ LinkFingerprints\\<Window Class Name>
 
 ### <a name="window-class-key-details"></a>Détails de la clé de classe de fenêtre
 
@@ -36,7 +36,7 @@ Sous la clé de la classe de fenêtre, les valeurs appropriées doivent être d�
 | VALEUR                        | TYPE                  | FILTRAGE            | INFORMATIONS STOCKÉES                                          |
 |------------------------------|-----------------------|-----------------|-------------------------------------------------------------|
 | Mask<br/>              | \_valeur DWORD reg<br/> |                 | Indique l’un des champs suivants à vérifier<br/> |
-| Nom<br/>              | SZ de REG \_<br/>    | 0x02<br/> | Nom de l’accessibilité<br/>                               |
+| Name<br/>              | SZ de REG \_<br/>    | 0x02<br/> | Nom de l’accessibilité<br/>                               |
 | Description<br/>       | SZ de REG \_<br/>    | 0x04<br/> | Description de l’accessibilité<br/>                        |
 | Role<br/>              | \_valeur DWORD reg<br/> | 0x08<br/> | Rôle d’accessibilité<br/>                               |
 | ParentName<br/>        | SZ de REG \_<br/>    | 0x10<br/> | Nom d’accessibilité du parent<br/>                     |
@@ -57,7 +57,7 @@ Si l’application utilise des chaînes localisées pour les \_ valeurs de Reg S
 La chaîne est extraite du fichier nommé, en utilisant la valeur de ressource en tant que localisateur. Si la valeur de ressource est égale ou supérieure à zéro, le nombre devient l’index de la chaîne dans le fichier binaire. Si le nombre est négatif, il devient un identificateur de ressource (ID).
 
 > [!Note]  
-> Les constantes de rôle se trouvent dans oleacc. h dans le SDK Windows. Les valeurs de Registre décrites sont spécifiques à Windows Vista.
+> les constantes de rôle se trouvent dans oleacc. h dans le SDK Windows. les valeurs de registre décrites sont spécifiques à Windows Vista.
 
  
 

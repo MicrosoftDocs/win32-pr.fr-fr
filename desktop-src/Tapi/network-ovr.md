@@ -4,12 +4,12 @@ ms.assetid: 88374ac9-81c3-48c3-bf1a-5cfd734c257c
 title: Réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70d25f0c643ed1b54edb0ec45d47abfdc2f29fd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fcfeb01caf9392cea597f0e80132ca0dd2830ea799e84b45775c6e438e0e1de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118863086"
 ---
 # <a name="network"></a>Réseau
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c017e7601e074c588aa534b6ea90aef79325ed4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c57a8c8354cea3fe43854824da5d4a139f648d7e0615b425fbf7945da9d69fef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106530929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012187"
 ---
 # <a name="glgetpixelmapuiv-function"></a>glGetPixelMapuiv fonction)
 
@@ -72,7 +72,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Consultez [**glPixelMap**](glpixelmap.md) pour obtenir une description des valeurs acceptables pour le paramètre *Map* . La fonction **glGetPixelMap** retourne dans les *valeurs* le contenu de la carte de pixels spécifiée dans *Map*. Utilisez des mappages de pixels pendant l’exécution de [**glReadPixels**](glreadpixels.md), [**glDrawPixels**](gldrawpixels.md), [**glCopyPixels**](glcopypixels.md), [**glTexImage1D**](glteximage1d.md)et [**glTexImage2D**](glteximage2d.md) pour mapper les index de couleurs, les index de stencil, les composants de couleur et les composants de profondeur à d’autres valeurs.
 

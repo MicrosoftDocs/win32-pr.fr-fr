@@ -36,12 +36,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 172f18bbddd364d74dfcfb00e7e665628267af36
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: de2cc2e7ede46b503e0d33f65c5735d5e0cc653a75184384be2d706bfc8ac9cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999809"
 ---
 # <a name="win32_tsgeneralsetting-class"></a>\_Classe TSGeneralSetting Win32
 
@@ -138,7 +138,7 @@ Nom d’affichage du nom d’objet du certificat personnel de l’ordinateur loc
 
 </dd> <dt>
 
-**Certificates**
+**Certificats**
 </dt> <dd> <dl> <dt>
 
 Type de données : tableau **UInt8**
@@ -667,7 +667,7 @@ Type de données : **UInt32**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Spécifie si la connexion est définie par défaut sur le processus d’authentification Windows standard ou sur un autre package d’authentification qui a été installé sur le système.
+spécifie si la connexion est définie par défaut sur le processus d’authentification Windows standard ou sur un autre package d’authentification qui a été installé sur le système.
 
 <dt>
 
@@ -678,7 +678,7 @@ Spécifie si la connexion est définie par défaut sur le processus d’authenti
 
 </dt> <dd>
 
-N’utilise pas par défaut le processus d’authentification Windows standard.
+n’utilise pas par défaut le processus d’authentification Windows standard.
 
 </dd> <dt>
 
@@ -689,17 +689,17 @@ N’utilise pas par défaut le processus d’authentification Windows standard.
 
 </dt> <dd>
 
-La valeur par défaut est le processus d’authentification Windows standard.
+la valeur par défaut est le processus d’authentification Windows standard.
 
 </dd> </dl>
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Sachez que les stations Windows qui ne sont pas associées à la session de console ne peuvent pas accéder aux méthodes et aux propriétés de cette classe. Si vous tentez de le faire en spécifiant « console » comme valeur de la propriété TerminalName, les méthodes de cet objet retournent **WBEM \_ E \_ non \_ pris en charge**. Ce code d’erreur est également renvoyé si une station Windows tente d’appeler des méthodes de cet objet dans le but d’ajouter ou de modifier les propriétés de sécurité des comptes LocalSystem, LocalService ou NetworkService.
 
-Pour se connecter à \\ l' \\ \\ espace de noms licences TS cimv2 racine, le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**. Pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « PktPrivacy », avec une valeur de 6. L’exemple de Visual Basic Scripting Edition suivant (VBScript) montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
+Pour se connecter à \\ l' \\ \\ espace de noms licences TS cimv2 racine, le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**. pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « pktPrivacy », avec une valeur de 6. l’exemple VBScript (Visual Basic scripting Edition) suivant montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
 
 
 ```VB
@@ -710,7 +710,7 @@ Set objServices = GetObject( _
 
 
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

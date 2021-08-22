@@ -9,16 +9,16 @@ keywords:
 - chaînes de langue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42cc82437c49feb82eac40ec5d056bbd98d99987
-ms.sourcegitcommit: 80d74c0bf4fc402865a1ad223480abe1ce4d1115
+ms.openlocfilehash: 5fbf6abfb291e111231d2bf2641633f9dc15372b3c9abb422fb5484f8e586175
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "104198760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027527"
 ---
 # <a name="language-strings"></a>Language Strings
 
-Les fonctionnalités de prise en charge de plusieurs langues du kit de développement logiciel (SDK) du format Windows Media utilisent des chaînes de langage conformes à la norme RFC 1766. Le tableau suivant répertorie les chaînes de langage couramment prises en charge.
+les fonctionnalités de prise en charge de plusieurs langues du Windows Media Format SDK utilisent des chaînes de langage conformes à la norme RFC 1766. Le tableau suivant répertorie les chaînes de langage couramment prises en charge.
 
 
 
@@ -43,7 +43,7 @@ Les fonctionnalités de prise en charge de plusieurs langues du kit de développ
 | AR-Ye           | Arabe (Yémen)               |
 | ar              | Arabe                       |
 | as              | Assamais                     |
-| AZ              | Azéri                  |
+| az              | Azéri                  |
 | chez              | Biélorusse                   |
 | bg              | Bulgare                    |
 | bn              | Bangla                       |
@@ -148,7 +148,7 @@ Les fonctionnalités de prise en charge de plusieurs langues du kit de développ
 | sb              | Sorbian                      |
 | sk              | Slovaque                       |
 | sl              | Slovène                    |
-| Sq              | Albanais                     |
+| sq              | Albanais                     |
 | sr              | Serbe                      |
 | SV-FI           | Suédois (Finlande)            |
 | sv              | Suédois                      |
@@ -178,7 +178,7 @@ Les fonctionnalités de prise en charge de plusieurs langues du kit de développ
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -187,6 +187,6 @@ Les fonctionnalités de prise en charge de plusieurs langues du kit de développ
 [**Guide de référence de programmation**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

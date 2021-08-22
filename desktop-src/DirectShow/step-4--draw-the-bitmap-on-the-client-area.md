@@ -4,12 +4,12 @@ ms.assetid: fb22468c-9113-46ff-a576-8dee30c458be
 title: 'Étape 4 : dessiner l’image bitmap sur la zone cliente'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4975215e5d75de9909f029a3378bd6cc8bc60916
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 253e7d8a5b7508d5ae9f27195dbb7d59b30508ff2aacd8ec2713e0f4d6c909f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951788"
 ---
 # <a name="step-4-draw-the-bitmap-on-the-client-area"></a>Étape 4 : dessiner l’image bitmap sur la zone cliente
 
@@ -43,7 +43,7 @@ case WM_PAINT:
 
 
 
-Les variables *pbuffer* et *pbmi* sont déclarées à l' [étape 1 : créer l’infrastructure Windows](step-1--create-the-windows-framework.md)et leurs valeurs sont obtenues à [l’étape 3 : implémenter la fonction Frame-Grabbing](step-3--implement-the-frame-grabbing-function.md).
+les variables *pBuffer* et *pbmi* sont déclarées à l' [étape 1 : créer le Windows Framework](step-1--create-the-windows-framework.md), et leurs valeurs sont obtenues à [l’étape 3 : implémenter la fonction Frame-Grabbing](step-3--implement-the-frame-grabbing-function.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

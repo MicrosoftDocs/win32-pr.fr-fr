@@ -8,12 +8,12 @@ keywords:
 - groupes Active Directory, informations pour les développeurs d’applications et de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd23f598925c959502e1013ff43ad18bbb42ed7b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2b59a8a1ce369d9b5fa1093297f219bf6a206178a950b9d0762fde3069846551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024390"
 ---
 # <a name="what-application-and-service-developers-need-to-know-about-groups"></a>Ce que les développeurs d’applications et de services doivent savoir sur les groupes
 
@@ -29,7 +29,7 @@ Il est recommandé que les applications utilisent les recommandations suivantes 
     -   Utilisez des groupes universels uniquement si nécessaire (les données de membre sont requises globalement à l’aide d’un catalogue global ; le groupe peut contenir n’importe quel utilisateur/groupe). Si vous utilisez des groupes universels, placez les groupes globaux dans le groupe universel et ajoutez/supprimez des utilisateurs dans le groupe global. Évitez toute modification excessive des groupes universels pour améliorer l’efficacité de la réplication.
 -   N’utilisez pas l’appartenance à un groupe pour le contrôle d’accès. Au lieu de cela, utilisez une entrée ACE et contrôlez l’accès en demandant au système d’effectuer une vérification d’accès.
 
-Pour contrôler l’accès aux opérations qui ne tiennent pas dans les droits d’accès prédéfinis pour les objets dans domaine Active Directory Services, utilisez la fonctionnalité contrôler les droits d’accès du contrôle d’accès dans Windows 2000. Pour plus d’informations, [**consultez \_ \_ énumération des droits ADS**](/windows/win32/api/iads/ne-iads-ads_rights_enum).
+pour contrôler l’accès aux opérations qui ne tiennent pas dans les droits d’accès prédéfinis pour les objets dans domaine Active Directory services, utilisez la fonctionnalité contrôler les droits d’accès du contrôle d’accès dans Windows 2000. Pour plus d’informations, [**consultez \_ \_ énumération des droits ADS**](/windows/win32/api/iads/ne-iads-ads_rights_enum).
 
 **Pour utiliser un droit d’accès de contrôle pour contrôler le droit d’effectuer une opération**
 
@@ -41,6 +41,6 @@ Pour contrôler l’accès aux opérations qui ne tiennent pas dans les droits d
 
 Une application de service peut également créer un groupe dont les membres seraient les différentes instances de service. Par exemple, un service avec des instances installées sur plusieurs ordinateurs dans une entreprise peut avoir un fichier journal commun sur lequel toutes les instances de service sont écrites. Le programme d’installation du service crée le fichier journal et utilise une liste DACL pour accorder l’accès uniquement aux membres d’un groupe. Les membres du groupe sont les comptes d’utilisateur sous lesquels les différentes instances de service s’exécutent, ou si les services s’exécutent sous le compte LocalSystem, les membres sont les comptes d’ordinateur des serveurs hôtes.
 
- 
+ 
 
- 
+ 

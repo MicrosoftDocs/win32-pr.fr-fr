@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e66fd0754ec82de2354983e10e23ffc6329569
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0db19c74efa323fa7e3abc4bfd17c14a471cbb9c81414ae78064f84bfc19fa7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013577"
 ---
 # <a name="strict_context_handle-attribute"></a>attribut de handle de \_ contexte strict \_
 
@@ -59,7 +59,7 @@ Une ou plusieurs instructions MIDL qui définissent les éléments de l' [**inte
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Normalement, lorsqu’un appel à une méthode d’interface génère un handle de contexte, ce descripteur devient librement disponible pour toute autre interface. Lorsque vous utilisez l’attribut de **\[ \_ \_ handle \] de contexte strict** , vous garantissez que les méthodes de cette interface acceptent uniquement les handles de contexte qui ont été créés par une méthode à partir de la même interface. Les interfaces compilées sans un **\[ \_ \_ handle \] de contexte strict** ne peuvent pas accepter des handles de contexte créés sur des interfaces compilées avec un **\[ \_ \_ \] handle de contexte strict**.
 
@@ -97,6 +97,6 @@ Normalement, lorsqu’un appel à une méthode d’interface génère un handle 
 [\_handle de \_ contexte \_ strict de type](type-strict-context-handle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

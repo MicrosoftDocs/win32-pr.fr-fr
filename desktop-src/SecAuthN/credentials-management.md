@@ -1,21 +1,21 @@
 ---
-description: Les développeurs qui écrivent pour Windows peuvent utiliser l’API de gestion des informations d’identification, y compris les fonctions d’interface utilisateur de gestion des informations d’identification pour obtenir et gérer les informations d’identification telles que les noms d’utilisateur et les mots de passe.
+description: les développeurs qui écrivent pour Windows peuvent utiliser l’API de gestion des informations d’identification, y compris les fonctions d’interface utilisateur de gestion des informations d’identification pour obtenir et gérer les informations d’identification telles que les noms d’utilisateur et les mots de passe.
 ms.assetid: 0c44a360-d9c3-448c-a0d5-e33f3c27c58c
 title: Gestion des informations d’identification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb5ffa7fb493fdfbf64945b202d2e2678fb329f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c09ebb198f8b8d6edbcca5be00b2ea2ecda0c2b50572c72e84deb877d444ad6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008727"
 ---
 # <a name="credentials-management"></a>Gestion des informations d’identification
 
-Les développeurs qui écrivent pour Windows peuvent utiliser l’API de gestion des informations d’identification, y compris les fonctions d’interface utilisateur de gestion des informations d’identification pour obtenir et gérer les informations d’identification telles que les noms d’utilisateur et les mots de passe. Ces fonctions demandent des informations de compte Windows à utiliser à la place des informations d’identification établies lors de l’ouverture de session. Ces demandes se produisent généralement lorsque les informations d’identification d’ouverture de session ne disposent pas des autorisations requises par l’application.
+les développeurs qui écrivent pour Windows peuvent utiliser l’API de gestion des informations d’identification, y compris les fonctions d’interface utilisateur de gestion des informations d’identification pour obtenir et gérer les informations d’identification telles que les noms d’utilisateur et les mots de passe. ces fonctions demandent des informations de compte Windows à utiliser à la place des informations d’identification établies lors de l’ouverture de session. Ces demandes se produisent généralement lorsque les informations d’identification d’ouverture de session ne disposent pas des autorisations requises par l’application.
 
-Les fonctions de l’interface utilisateur de gestion des informations d’identification fournissent des interfaces avec l’apparence de l’interface utilisateur Windows. Ces fonctions incluent des options personnalisables qui ajoutent les informations de l’utilisateur à la Banque d’informations d’identification de l’utilisateur.
+les fonctions de l’interface utilisateur de gestion des informations d’identification fournissent des interfaces avec l’apparence de l’interface utilisateur Windows. Ces fonctions incluent des options personnalisables qui ajoutent les informations de l’utilisateur à la Banque d’informations d’identification de l’utilisateur.
 
 Les rubriques suivantes fournissent des informations supplémentaires sur l’API de gestion des informations d’identification :
 

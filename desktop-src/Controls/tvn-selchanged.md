@@ -3,7 +3,7 @@ title: TVN_SELCHANGED le code de notification (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle Tree-View que la sélection est passée d’un élément à l’autre. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 682170d3-5843-4d92-afeb-c37f3502ed5d
 keywords:
-- Contrôles Windows de code de notification TVN_SELCHANGED
+- TVN_SELCHANGED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a564ec039e179d03dda9edc19d6de3412cd5361a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7708d797edebc8c2c0bf43b910aec4dc0a1d6ece1a8a535fdcac57e6b15d6e04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957778"
 ---
 # <a name="tvn_selchanged-notification-code"></a>\_Code de notification TVN SELCHANGED
 
@@ -69,8 +69,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TVN \_ SELCHANGEDW** (Unicode) et **TVN \_ SELCHANGEDA** (ANSI)<br/>             |
 

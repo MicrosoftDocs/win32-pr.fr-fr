@@ -4,18 +4,18 @@ ms.assetid: 6a3e682c-55c6-4728-9d14-5eb0290f3dcc
 title: Implémentation de IWICBitmapSourceTransform
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0809e1e56fe3c05c8803bb70106c4a24a466eafe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79caa17fdb874b9cbee73a9a371c4ba454e72c6eb249a6ca7d626fdd9c86aea0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711074"
 ---
 # <a name="implementing-iwicbitmapsourcetransform"></a>Implémentation de IWICBitmapSourceTransform
 
 ## <a name="iwicbitmapsourcetransform"></a>IWICBitmapSourceTransform
 
-Bien que facultatif, nous recommandons vivement que chaque décodeur implémente cette interface sur votre classe de décodage au niveau de la trame, car elle peut offrir des avantages majeurs en matière de performances. Quand une application demande une région spécifique d’intérêt, de taille, d’orientation ou de format de pixel, au lieu de simplement décoder l’image entière à la résolution complète, puis d’appliquer les transformations demandées, le composant WIC [:: QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) pour cette interface sur l’objet [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) . Si le décodeur de trame le prend en charge, WIC appelle la ou les méthodes appropriées pour déterminer si le décodeur de trame peut effectuer la transformation demandée ou déterminer la taille ou le format de pixel le plus proche que le décodeur peut fournir à celui qui a été demandé. Si le décodeur peut effectuer la transformation ou les transformations demandées, WIC appelle [**CopyPixels**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsourcetransform-copypixels) avec les paramètres appropriés. Si le décodeur peut effectuer des transformations, mais pas toutes les transformations demandées, WIC demande au décodeur d’effectuer les transformations nécessaires et utilise les objets de transformation WIC ([**IWICBitmapScaler**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler), [**IWICBitmapClipper**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper), [**IWICBitmapFlipRotator**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator)et [**IWICFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter)) pour effectuer les transformations restantes qui n’ont pas pu être effectuées par le décodeur de trame **sur le résultat de l'** Si le décodeur ne prend pas en charge [**IWICBitmapSourceTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsourcetransform), WIC doit utiliser les objets Transform pour effectuer toutes les transformations. Il est généralement plus efficace pour le décodeur d’effectuer des transformations pendant le processus de décodage que de décoder l’image entière, puis d’effectuer les transformations. Cela est particulièrement vrai pour les opérations telles que la mise à l’échelle vers une taille plus petite ou des conversions de format de pixel.
+Bien que facultatif, nous recommandons vivement que chaque décodeur implémente cette interface sur votre classe de décodage au niveau de la trame, car elle peut offrir des avantages majeurs en matière de performances. quand une application demande une région spécifique d’intérêt, de taille, d’orientation ou de format de pixel, au lieu de décoder simplement l’image entière à la résolution complète, puis d’appliquer les transformations demandées, Windows composant d’imagerie (WIC) appelle [IUnknown :: QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) pour cette interface sur l’objet [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) . Si le décodeur de trame le prend en charge, WIC appelle la ou les méthodes appropriées pour déterminer si le décodeur de trame peut effectuer la transformation demandée ou déterminer la taille ou le format de pixel le plus proche que le décodeur peut fournir à celui qui a été demandé. Si le décodeur peut effectuer la transformation ou les transformations demandées, WIC appelle [**CopyPixels**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsourcetransform-copypixels) avec les paramètres appropriés. Si le décodeur peut effectuer des transformations, mais pas toutes les transformations demandées, WIC demande au décodeur d’effectuer les transformations nécessaires et utilise les objets de transformation WIC ([**IWICBitmapScaler**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler), [**IWICBitmapClipper**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper), [**IWICBitmapFlipRotator**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator)et [**IWICFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter)) pour effectuer les transformations restantes qui n’ont pas pu être effectuées par le décodeur de trame **sur le résultat de l'** Si le décodeur ne prend pas en charge [**IWICBitmapSourceTransform**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsourcetransform), WIC doit utiliser les objets Transform pour effectuer toutes les transformations. Il est généralement plus efficace pour le décodeur d’effectuer des transformations pendant le processus de décodage que de décoder l’image entière, puis d’effectuer les transformations. Cela est particulièrement vrai pour les opérations telles que la mise à l’échelle vers une taille plus petite ou des conversions de format de pixel.
 
 
 ```C++
@@ -123,7 +123,7 @@ Pour en savoir plus sur la création d’un codec avec WIC activé, consultez [i
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

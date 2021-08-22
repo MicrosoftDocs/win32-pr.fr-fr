@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ead7c5936550715d48ee1ef6a3938b6219558823
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a1a9e1c531e5dc6cd76bdd220a94730f2fb7b859eb99d9bba217a008fb02b4c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511915"
 ---
 # <a name="if-pred---ps"></a>Si prédit-PS
 
@@ -29,7 +29,7 @@ Début d’une [si bool-PS](if-bool---ps.md)... [else-PS](else---ps.md)... [endi
 
 
 
- 
+ 
 
 Où :
 
@@ -37,7 +37,7 @@ Où :
 -   prédit est l' [enregistrement de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md).
 -   replicateSwizzle est un composant unique qui est copié (ou répliqué) sur les quatre composants (swizzled). Les composants valides sont les suivants : \[ x, y, z, w \] ou \[ r, g, b, a \] .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -47,7 +47,7 @@ Où :
 
 
 
- 
+ 
 
 Cette instruction est utilisée pour ignorer un bloc de code, en fonction d’un canal du registre de prédicat. Chaque \_ bloc si prédit doit se terminer par une instruction [else-PS](else---ps.md) ou [endif-PS](endif---ps.md) .
 
@@ -64,9 +64,9 @@ Un \_ bloc si prédit ne peut pas chevaucher un bloc de boucle ; il doit l’ê
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -8,12 +8,12 @@ keywords:
 - Active Directory, utilisation de, sécurité, définition de droits sur des propriétés spécifiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79bfa24b574639e64fbb17c33fabee1185cc014c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 86c01070b5c5b23e7524bd3b54293576e578861e0120b431e6dc95b7a5b4cc4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024737"
 ---
 # <a name="setting-rights-to-specific-properties-of-specific-types-of-objects"></a>Définition de droits sur des propriétés spécifiques de types spécifiques d’objets
 
@@ -30,10 +30,10 @@ Les autorisations spécifiques à une propriété peuvent être utilisées en as
 > [!IMPORTANT]
 > Définissez ad \_ ACEFLAG \_ inherit \_ ACE pour que l’entrée du contrôle d’accès soit héritée. En outre, Set ad \_ ACEFLAG \_ inherit \_ only \_ ACE si le type d’objet auquel s’applique cette entrée du contrôle d’accès ne correspond pas au type d’objet du conteneur dans lequel l’entrée du contrôle d’accès est spécifiée. Si ce n’est pas le cas, l’entrée du contrôle d’accès prendra également effet sur le conteneur et peut accorder des droits inattendus.
 
- 
+ 
 
 Pour plus d’informations et d’exemples de code qui peuvent être utilisés pour définir ce type d’entrée du contrôle d’accès, consultez [exemple de code pour la définition d’une entrée](example-code-for-setting-an-ace-on-a-directory-object.md)du contrôle d’accès sur un objet d’annuaire.
 
- 
+ 
 
- 
+ 

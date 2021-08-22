@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 57421b2fd9624d9798037151a5656343e386a497
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 534d588bc1633770c35b0e0edbc2079ed8f7ab5035d3a8d2ff181042d26fdb3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074273"
 ---
 # <a name="cdynamicoutputpinchangeoutputformat-method"></a>Méthode CDynamicOutputPin. ChangeOutputFormat
 
@@ -81,7 +81,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                           | Description                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                                                                                                                      |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                                                                                                                      |
 | <dl> <dt>**E \_ échec**</dt> </dl>                | Échec. Le filtre propriétaire n’a peut-être pas appelé [**CDynamicOutputPin :: SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md).<br/> |
 | <dl> <dt>**VFW \_ E \_ non \_ connecté**</dt> </dl> | Le pin n’est pas connecté.<br/>                                                                                                     |
 
@@ -89,7 +89,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode modifie le type de format pendant que le filtre est en cours d’exécution. Si le code pin en aval accepte le nouveau format, aucune reconnexion n’est nécessaire. Dans le cas contraire, la méthode tente de reconnecter le code confidentiel. Si la méthode modifie correctement le format, il remet les nouvelles informations sur le segment. Cette méthode appelle la méthode [**CDynamicOutputPin :: ChangeMediaType**](cdynamicoutputpin-changemediatype.md) pour effectuer la modification de format.
 
@@ -101,7 +101,7 @@ Vous devez appeler la méthode [**CDynamicOutputPin :: StartUsingOutputPin**](c
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

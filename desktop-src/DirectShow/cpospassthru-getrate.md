@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 997323ca2089a0b381b85c3730cb364d0883b1bf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d9976b87b22fbe5ac81c56de006e5ca65862716a9bda62a5f881c141b1e108a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954028"
 ---
 # <a name="cpospassthrugetrate-method"></a>Méthode CPosPassThru. GetRate
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit la vitesse de lecture.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la valeur **HRESULT** de la broche connectée.
 
@@ -59,7 +59,7 @@ Retourne la valeur **HRESULT** de la broche connectée.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

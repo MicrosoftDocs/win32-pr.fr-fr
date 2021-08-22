@@ -3,31 +3,31 @@ title: À propos de la surveillance des dossiers
 description: À propos de la surveillance des dossiers
 ms.assetid: d3d83e60-ecc7-4501-a6dd-15f7680a6ec9
 keywords:
-- Windows Media Player, surveillance des dossiers
-- Windows Media Player Object Model, surveillance des dossiers
+- Lecteur Windows Media, surveillance des dossiers
+- Lecteur Windows Media modèle objet, surveillance des dossiers
 - modèle objet, surveillance des dossiers
-- Contrôle ActiveX du lecteur Windows Media, surveillance des dossiers
-- Contrôle ActiveX, surveillance des dossiers
-- Contrôle ActiveX mobile du lecteur Windows Media, surveillance des dossiers
-- Windows Media Player Mobile, surveillance des dossiers
+- contrôle de ActiveX Lecteur Windows Media, surveillance des dossiers
+- contrôle de ActiveX, surveillance des dossiers
+- Lecteur Windows Media contrôle des ActiveX mobiles, surveillance des dossiers
+- Lecteur Windows Media Mobile, surveillance des dossiers
 - surveillance des dossiers
 - dossiers d’analyse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3d6af341df706cd85c4158197b27babad09c86
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b1206defcdc387659567ceedcf7347a3ab99ca45d9926a9bd32c4f75280a8a46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055507"
 ---
 # <a name="about-folder-monitoring"></a>À propos de la surveillance des dossiers
 
-Le lecteur Windows Media peut surveiller les dossiers qui contiennent des fichiers multimédias numériques et mettre à jour la bibliothèque lorsque des fichiers sont ajoutés ou supprimés. Cette fonctionnalité d’analyse des dossiers est fournie par l’interface [IWMPFolderMonitorServices](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices) .
+Lecteur Windows Media pouvez surveiller les dossiers qui contiennent des fichiers multimédias numériques et mettre à jour la bibliothèque lorsque des fichiers sont ajoutés ou supprimés. Cette fonctionnalité d’analyse des dossiers est fournie par l’interface [IWMPFolderMonitorServices](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices) .
 
-Pour utiliser les services de surveillance des dossiers, vous devez créer l’objet lecteur dans un État distant. Pour plus d’informations sur la communication à distance, consultez [communication à distance avec le contrôle du lecteur Windows Media](remoting-the-windows-media-player-control.md). Après avoir créé une instance distante du lecteur, obtenez un pointeur vers l’interface **IWMPFolderMonitorServices** en appelant **QueryInterface** sur l’interface [IWMPPlayer](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer) .
+Pour utiliser les services de surveillance des dossiers, vous devez créer l’objet lecteur dans un État distant. pour plus d’informations sur la communication à distance, consultez [communication à distance du contrôle Lecteur Windows Media](remoting-the-windows-media-player-control.md). Après avoir créé une instance distante du lecteur, obtenez un pointeur vers l’interface **IWMPFolderMonitorServices** en appelant **QueryInterface** sur l’interface [IWMPPlayer](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer) .
 
-Le lecteur Windows Media conserve une liste des dossiers en cours d’analyse. Pour obtenir la liste des dossiers analysés, utilisez les méthodes [IWMPFolderMonitorServices :: obtenir \_ Count](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_count) et [IWMPFolderMonitorServices :: Item](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-item) . Pour ajouter des dossiers à la liste ou les supprimer de la liste, utilisez respectivement les méthodes [IWMPFolderMonitorServices :: Add](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-add) et [Remove](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-remove) .
+Lecteur Windows Media conserve une liste des dossiers en cours d’analyse. Pour obtenir la liste des dossiers analysés, utilisez les méthodes [IWMPFolderMonitorServices :: obtenir \_ Count](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_count) et [IWMPFolderMonitorServices :: Item](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-item) . Pour ajouter des dossiers à la liste ou les supprimer de la liste, utilisez respectivement les méthodes [IWMPFolderMonitorServices :: Add](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-add) et [Remove](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-remove) .
 
 **Démarrage d’une analyse**
 
@@ -55,9 +55,9 @@ Après le démarrage de la deuxième passe, appelez la méthode [obtenir \_ adde
 [**Interface IWMPFolderMonitorServices**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: D84772C8-902F-4302-8288-0430892A1896
 title: Attribut MF_CAPTURE_METADATA_FRAME_ILLUMINATION (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb9aa60b5e921e99ac4f4c56cb4643af8389aa91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a23658f8f396a81180a074badc43e98d0f392fc355c1a81a4d1e731d132de12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973948"
 ---
 # <a name="mf_capture_metadata_frame_illumination-attribute"></a>\_Attribut d' \_ \_ éclairage de trame de métadonnées de capture MF \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Valeur indiquant si une image a été capturée à l’aide de l’éclairage infrarouge (active Infrared).
 
@@ -21,7 +21,7 @@ Valeur indiquant si une image a été capturée à l’aide de l’éclairage in
 
 **UINT64**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est un masque de masque. Il s’agit d’une valeur de bit de 64 pour la compatibilité descendante.
 
@@ -33,8 +33,8 @@ L’éclairage actif est lorsqu’un appareil a un émetteur de lumière proche 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                      |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                      |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

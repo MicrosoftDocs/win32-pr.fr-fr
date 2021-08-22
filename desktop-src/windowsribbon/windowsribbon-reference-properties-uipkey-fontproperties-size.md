@@ -4,12 +4,12 @@ description: Identifie la \_ propriété de \_ taille FontProperties de l’inte
 ms.assetid: bd426910-9852-48e1-91c8-b94be5ef7199
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ae991cfe5f91b4aca4fe0b49a7b7c547e71b0fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a9c013c41290f6e062b03572a9e3cb848752efcb12f1c779348a0253f94d40e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106545728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028627"
 ---
 # <a name="ui_pkey_fontproperties_size"></a>\_Taille de \_ FontProperties de l’interface utilisateur \_
 
@@ -17,15 +17,15 @@ Identifie la \_ propriété de \_ taille FontProperties de l’interface utilisa
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Size
-   shellPKey = UI_PKEY_FontProperties_Size
-   formatID = 00000302-7363-696e-8441798acf5aebb7
-   propID = 302
-   typeInfo
-      type = VT_DECIMAL
+   name = UI_PKEY_FontProperties_Size
+   shellPKey = UI_PKEY_FontProperties_Size
+   formatID = 00000302-7363-696e-8441798acf5aebb7
+   propID = 302
+   typeInfo
+      type = VT_DECIMAL
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_ \_ La taille FontProperties de l’interface utilisateur \_ est utilisée par une application pour interroger la valeur du contrôle de **taille de police** .
 
@@ -44,7 +44,7 @@ En dehors de 0, les valeurs valides pour la plage de taille FontProperties de l�
 > [!Note]  
 > Le contrôle de **taille de police** est défini sur vide lorsque la taille de police est définie par programme sur 0, par exemple lorsqu’une exécution de texte de taille hétérogène est mise en surbrillance.
 
- 
+ 
 
 Lorsqu’une exécution de texte de taille hétérogène est sélectionnée, l’application doit interroger l' [interface utilisateur \_ \_ FontProperties \_](windowsribbon-reference-properties-uipkey-fontproperties-deltasize.md) de l’IU pour capturer les commandes **agrandir la police** et **réduire la police** .
 
@@ -58,9 +58,9 @@ Lorsqu’une exécution de texte de taille hétérogène est sélectionnée, l�
 [Contrôle de police](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
