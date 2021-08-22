@@ -1,6 +1,6 @@
 ---
 title: Prise en main avec le kit de développement logiciel (SDK) Windows Media Format (déconseillé)
-description: Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez Windows Media Audio et les API de codec vidéo et DSP. | Prise en main
+description: pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez Windows Media Audio et les api de codec vidéo et DSP. | Prise en main
 ms.assetid: dfbae491-1041-4153-ba19-214465f5d641
 keywords:
 - Format Windows Media Prise en main
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b06e22022ff993e6f4cfe27a45b4aa2d04fecb23
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: dfbaf05e0b6558840e872b62fccc1b442ed55fddb21cf4d46e77416b38b74b92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106526906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119591209"
 ---
 # <a name="getting-started"></a>Mise en route
 
-Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez [Windows Media audio et les API de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
+pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez [Windows Media Audio et les api de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
 
  
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Fournisseur de compteurs de performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9288da5ac20bff6340950ba2a3506d9128200cfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0c846d66cd183e866623004cacfbcb630ac68480fab8dd58eca2b5a4dc6d2f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050527"
 ---
 # <a name="performance-counter-provider"></a>Fournisseur de compteurs de performances
 

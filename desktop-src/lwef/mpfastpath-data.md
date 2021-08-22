@@ -3,8 +3,8 @@ title: Structure MPFASTPATH_DATA (MpClient. h)
 description: Notification de mise à jour FastPath.
 ms.assetid: E19F153D-DD46-4E27-9A4B-33586794DAC2
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPFASTPATH_DATA
-- PMPFASTPATH_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPFASTPATH_DATA
+- PMPFASTPATH_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2850a48074fee6984564550683c7fe595d0779ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e138e9c45657cfc4ebeba1d1dbeed38070b6e07d09c512ec96835a04702d0c8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119556149"
 ---
 # <a name="mpfastpath_data-structure"></a>\_Structure de données MPFASTPATH
 
@@ -142,8 +142,8 @@ Raison de la suppression de la signature.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

@@ -1,5 +1,5 @@
 ---
-description: 'Permet à l’objet de rappel de modifier un menu contextuel de l’Explorateur Windows avant qu’il ne soit affiché. Utilisé par IShellFolderViewCB :: MessageSFVCB.'
+description: 'permet à l’objet de rappel de modifier un menu contextuel Windows Explorer avant qu’il ne soit affiché. Utilisé par IShellFolderViewCB :: MessageSFVCB.'
 title: Message SFVM_INITMENUPOPUP (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1f9a2a169b232fe3ad16eeee8816536ed81c74dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd69d19f753c1c72c1e0c143a0aface2cdb234cb2ace8c87d559834b97bbf0f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592315"
 ---
 # <a name="sfvm_initmenupopup-message"></a>\_Message SFVM INITMENUPOPUP
 
-Permet à l’objet de rappel de modifier un menu contextuel de l’Explorateur Windows avant qu’il ne soit affiché. Utilisé par [**IShellFolderViewCB :: MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
+permet à l’objet de rappel de modifier un menu contextuel Windows Explorer avant qu’il ne soit affiché. Utilisé par [**IShellFolderViewCB :: MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -55,7 +55,7 @@ Handle du menu.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet de vue de dossier système envoie ce message lorsqu’un menu est sélectionné, mais avant son affichage. Traiter ce message si, par exemple, vous devez activer ou désactiver les commandes de menu. Le menu contextuel peut être :
 
@@ -63,7 +63,7 @@ L’objet de vue de dossier système envoie ce message lorsqu’un menu est sél
 -   Menu de niveau supérieur défini par le client.
 -   Sous-menu défini par le client.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

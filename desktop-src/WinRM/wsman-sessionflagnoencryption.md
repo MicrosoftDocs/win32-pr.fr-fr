@@ -5,8 +5,8 @@ ms.assetid: 15c76f0e-85ae-4ee3-bf9f-ba32195d9adc
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagNoEncryption
-- Méthode SessionFlagNoEncryption Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagNoEncryption
+- méthode SessionFlagNoEncryption Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagNoEncryption
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad4c7a85e97afd67ab6b1114248a9c4b3ee3ebbb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22b1f3e278a5deafc890ee8aacf21e36174255dac82fc123647e890323a34b28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613499"
 ---
 # <a name="wsmansessionflagnoencryption-method"></a>Méthode WSMan. SessionFlagNoEncryption
 
@@ -78,7 +78,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 [**WSMan**](wsman.md)
 </dt> <dt>
 
-[**session**](session.md)
+[**Session**](session.md)
 </dt> </dl>
 
  

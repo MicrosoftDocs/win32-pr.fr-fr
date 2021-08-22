@@ -3,9 +3,9 @@ title: External. saveCurrentViewToLibrary, méthode
 description: La méthode saveCurrentViewToLibrary crée une sélection à partir des éléments multimédias dans l’affichage actuel et enregistre la sélection dans la bibliothèque locale.
 ms.assetid: cd87e932-d599-4298-bbee-6755999dda15
 keywords:
-- méthode saveCurrentViewToLibrary lecteur Windows Media
-- méthode saveCurrentViewToLibrary lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode saveCurrentViewToLibrary
+- Lecteur Windows Media de la méthode saveCurrentViewToLibrary
+- méthode saveCurrentViewToLibrary Lecteur Windows Media, classe externe
+- Lecteur Windows Media de classe externe, méthode saveCurrentViewToLibrary
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 212f590f03c32821c0774c4898720c92558ecc73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf14a6f712a72116860e7251edae73c91c4ef1dfb70876fd5f80dc329591673a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648439"
 ---
 # <a name="externalsavecurrentviewtolibrary-method"></a>External. saveCurrentViewToLibrary, méthode
 
@@ -46,7 +46,7 @@ External.saveCurrentViewToLibrary(
 *FriendlyListName* \[ dans\]
 </dt> <dd>
 
-**Chaîne** qui spécifie un nom convivial pour la sélection. Le lecteur Windows Media affiche ce nom dans son interface utilisateur.
+**Chaîne** qui spécifie un nom convivial pour la sélection. Lecteur Windows Media affiche ce nom dans son interface utilisateur.
 
 </dd> <dt>
 

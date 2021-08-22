@@ -4,12 +4,12 @@ ms.assetid: fbe53f17-940a-485e-82b2-c11ae39b3300
 title: Interfaces clientes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d7c85ec5cb9b35e30d68b1d784cdebf230fdaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b44db8fdd42b20fb2ff7a3224bccf5214147069baa9187facdb1c832c375a59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590392"
 ---
 # <a name="client-interfaces"></a>Interfaces clientes
 

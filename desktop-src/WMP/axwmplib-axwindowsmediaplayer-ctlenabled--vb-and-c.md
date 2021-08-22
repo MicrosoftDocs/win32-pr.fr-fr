@@ -1,11 +1,11 @@
 ---
 title: AxWindowsMediaPlayer. Ctlenabled, propriété
-description: La propriété Ctlenabled obtient ou définit une valeur indiquant si le contrôle du lecteur Windows Media est activé.
+description: la propriété Ctlenabled obtient ou définit une valeur indiquant si le contrôle Lecteur Windows Media est activé.
 ms.assetid: 2091e529-551a-4c02-9384-51b774c82ee6
 keywords:
-- Propriété Ctlenabled lecteur Windows Media
-- Propriété Ctlenabled lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété Ctlenabled
+- Lecteur Windows Media de la propriété Ctlenabled
+- Lecteur Windows Media de la propriété Ctlenabled, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété Ctlenabled
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f0ec59a40346b7dab35069af4c3be5435a9493b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 64e27dcc517f9409ae2fc2b68788e88605ef5e33a88a5545b7896dbb62e181a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618959"
 ---
 # <a name="axwindowsmediaplayerctlenabled-property"></a>AxWindowsMediaPlayer. Ctlenabled, propriété
 
-La propriété Ctlenabled obtient ou définit une valeur indiquant si le contrôle du lecteur Windows Media est activé.
+la propriété Ctlenabled obtient ou définit une valeur indiquant si le contrôle Lecteur Windows Media est activé.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -46,11 +46,11 @@ Public Property Ctlenabled As System.Boolean
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Valeur System. Boolean qui indique si le contrôle du lecteur Windows Media est activé. La valeur par défaut est true.
+valeur System. Boolean qui indique si le contrôle Lecteur Windows Media est activé. La valeur par défaut est true.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si la propriété **Ctlenabled** est définie sur false, le lecteur Windows Media masque les contrôles utilisateur lors de la lecture en plein écran.
+si la propriété **Ctlenabled** est définie sur false, Lecteur Windows Media masque les contrôles utilisateur lors de la lecture en plein écran.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -68,7 +68,7 @@ Si la propriété **Ctlenabled** est définie sur false, le lecteur Windows Medi
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

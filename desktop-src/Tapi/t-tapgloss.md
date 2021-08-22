@@ -5,12 +5,12 @@ ms.assetid: 36b1d6c3-2d57-4b38-a35f-6bf632411c6e
 title: T (API de téléphonie)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 342a27d4ed54458f8645ac5bb49b7ea49baafb02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fef6d897365042552429cc7679363c2e23152cef6492dfc84f25b6b32fb7a99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518399"
 ---
 # <a name="t-telephony-api"></a>T (API de téléphonie)
 
@@ -63,14 +63,14 @@ La science de la transmission de signaux vocaux, de données, de vidéos ou d’
 <span id="tapi2.telephony_application_programming_interface_tapi__tapgloss"></span><span id="TAPI2.TELEPHONY_APPLICATION_PROGRAMMING_INTERFACE_TAPI__TAPGLOSS"></span>**Interface de programmation d’applications de téléphonie (TAPI)**
 </dt> <dd>
 
-Ensemble de fonctions qui permettent de programmer des appareils basés sur des lignes téléphoniques de manière indépendante du périphérique, en fournissant une téléphonie personnelle aux utilisateurs. L’interface TAPI prend en charge la transmission vocale et de données, autorise un large éventail de périphériques terminaux et prend en charge des types de connexion et des techniques de gestion des appels complexes, tels que les conférences téléphoniques, les appels en attente et la messagerie vocale. L’interface TAPI autorise tous les éléments de l’utilisation du téléphone, de l’appel simple entre la numérotation et la parole aux messages électroniques internationaux, à contrôler dans les applications développées pour Microsoft Windows. Consultez la [vue d’ensemble de la téléphonie Microsoft](./microsoft-telephony-overview.md)
+Ensemble de fonctions qui permettent de programmer des appareils basés sur des lignes téléphoniques de manière indépendante du périphérique, en fournissant une téléphonie personnelle aux utilisateurs. L’interface TAPI prend en charge la transmission vocale et de données, autorise un large éventail de périphériques terminaux et prend en charge des types de connexion et des techniques de gestion des appels complexes, tels que les conférences téléphoniques, les appels en attente et la messagerie vocale. L’interface TAPI autorise tous les éléments de l’utilisation téléphonique, de l’appel simple entre la numérotation et la parole à la messagerie électronique internationale, à être contrôlé dans les applications développées pour Microsoft Windows. Consultez la [vue d’ensemble de la téléphonie Microsoft](./microsoft-telephony-overview.md)
 
 </dd> <dt>
 
 <span id="tapi2.telephony_service_provider_interface_tspi__tapgloss"></span><span id="TAPI2.TELEPHONY_SERVICE_PROVIDER_INTERFACE_TSPI__TAPGLOSS"></span>**Interface du fournisseur de services de téléphonie (TSPI)**
 </dt> <dd>
 
-Outil de création de fournisseurs de services pour les systèmes d’exploitation Microsoft Windows. TSPI définit la manière dont le réseau partage des informations avec la téléphonie Windows, qui à son tour communique avec l’API, qui communique avec les applications de téléphonie Windows. Pour plus d’informations, consultez [TSPI (Telephony Service Provider Interface)](./telephony-service-provider-interface-tspi-.md).
+outil de création de fournisseurs de services pour les systèmes d’exploitation Microsoft Windows. TSPI définit la manière dont le réseau partage des informations avec Windows téléphonie, qui à son tour communique avec l’API, qui communique avec les applications de téléphonie Windows. Pour plus d’informations, consultez [TSPI (Telephony Service Provider Interface)](./telephony-service-provider-interface-tspi-.md).
 
 </dd> <dt>
 

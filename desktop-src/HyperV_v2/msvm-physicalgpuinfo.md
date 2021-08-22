@@ -1,5 +1,5 @@
 ---
-description: Contient des informations sur une unité de traitement graphique (GPU) physique RemoteFX.
+description: contient des informations sur une unité de traitement graphique (GPU) physique RemoteFX.
 ms.assetid: 86B47AAE-DBFF-43EF-88C6-44836D6C3AFA
 title: Classe Msvm_PhysicalGPUInfo
 ms.topic: reference
@@ -21,16 +21,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: cd4ccf65b364620e84063ea6398c59dd0e467f67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a95310d4f2bc747ddf9d78ce485e1d3756a7507f5798d1e61b6c79dc46bf2b5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520889"
 ---
 # <a name="msvm_physicalgpuinfo-class"></a>MSVM \_ PhysicalGPUInfo, classe
 
-Contient des informations sur une unité de traitement graphique (GPU) physique RemoteFX.
+contient des informations sur une unité de traitement graphique (GPU) physique RemoteFX.
 
 La syntaxe suivante est simplifiée format MOF (MOF) et comprend toutes les propriétés héritées.
 
@@ -182,8 +182,8 @@ Quantité totale de mémoire vidéo, en octets, sur le GPU physique qui peut êt
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

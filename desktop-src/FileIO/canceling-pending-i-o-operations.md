@@ -4,12 +4,12 @@ ms.assetid: adfe6d05-f30b-40a1-b3b0-58e2593e7b25
 title: Annulation d’opérations d’e/s en attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3d108409eea32cf18a94f83bf7aacd282c60d3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6ca0f938420888934dccb28c9837bdff5dd8515bbdeeb1b3acf4078ae558ccd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119534119"
 ---
 # <a name="canceling-pending-io-operations"></a>Annulation d’opérations d’e/s en attente
 

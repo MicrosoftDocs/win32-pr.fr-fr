@@ -4,12 +4,12 @@ ms.assetid: 482c1460-ab63-4b41-a0ef-65485ca3b88e
 title: Procédures de diagnostic WSDAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a9746909fb6e73dad53c9135d7055e6b3c33445
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c990d492bd5428d4d6ad92de184150979372b4efa0e4bd4e40b2461c0649a05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119382179"
 ---
 # <a name="wsdapi-diagnostic-procedures"></a>Procédures de diagnostic WSDAPI
 
@@ -24,16 +24,16 @@ Ce guide de dépannage comprend les types de procédures de diagnostic suivants.
 
 ### <a name="udp-diagnostic-procedures"></a>Procédures de diagnostic UDP
 
--   [Inspection des paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md)
+-   [inspection des Paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md)
 -   [Utilisation d’un hôte et d’un client génériques pour UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md)
 -   [Utilisation du client de débogage WSD pour vérifier le trafic de multidiffusion](using-wsddebug-client-to-verify-multicast-traffic.md)
 -   [Inspection des suivis réseau pour UDP WS-Discovery](inspecting-network-traces-for-udp-ws-discovery.md)
 
 ### <a name="http-diagnostic-procedures"></a>Procédures de diagnostic HTTP
 
--   [Utilisation d’un hôte et d’un client génériques pour l’échange de métadonnées HTTP](using-a-generic-host-and-client-for-http-metadata-exchange.md)
+-   [Utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md)
 -   [Utilisation de la journalisation WinHTTP pour vérifier la récupération du trafic](using-winhttp-logging-to-verify-get-traffic.md)
--   [Inspection des suivis réseau pour l’échange de métadonnées HTTP](inspecting-network-traces-for-http-metadata-exchange.md)
+-   [Inspection des suivis réseau pour les métadonnées HTTP Exchange](inspecting-network-traces-for-http-metadata-exchange.md)
 
 ### <a name="directed-discovery-diagnostic-procedure"></a>Procédure de diagnostic de détection dirigée
 

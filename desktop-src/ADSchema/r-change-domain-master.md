@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5328b15d8cfa7e41102de82b42c5ccdda1027584
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 18254e42791c8e30c9e90ba96b65c4437f962f1a314ddef7942e3b9a88ff8f76
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106512845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532659"
 ---
 # <a name="change-domain-master-extended-right"></a>Modifier-domaine-maître-droit étendu
 
@@ -40,7 +40,7 @@ Droit étendu nécessaire pour modifier le propriétaire du rôle FSMO d’attri
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

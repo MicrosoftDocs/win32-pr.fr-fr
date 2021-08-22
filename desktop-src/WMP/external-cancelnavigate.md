@@ -3,9 +3,9 @@ title: External. cancelNavigate, méthode
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. cancelNavigate, méthode
 ms.assetid: e65d64fb-292c-4413-9727-b24609e78d68
 keywords:
-- méthode cancelNavigate lecteur Windows Media
-- méthode cancelNavigate lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode cancelNavigate
+- Lecteur Windows Media de la méthode cancelNavigate
+- méthode cancelNavigate Lecteur Windows Media, classe externe
+- Lecteur Windows Media de classe externe, méthode cancelNavigate
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55a6cbc0f749fd6ca33d78dfaed1d256634eb9c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 152594a427282a27c493f33f648b8a889a855f40a5fb13de69b7cc342099eed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649429"
 ---
 # <a name="externalcancelnavigate-method"></a>External. cancelNavigate, méthode
 
@@ -30,7 +30,7 @@ ms.locfileid: "106541434"
 
  
 
-La méthode **cancelNavigate** informe le lecteur Windows Media qu’il ne doit pas afficher de nouvelle page de découverte, même si la vue a été modifiée dans le lecteur.
+la méthode **cancelNavigate** informe Lecteur Windows Media qu’elle ne doit pas afficher une nouvelle page de découverte, même si la vue a été modifiée dans le lecteur.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -49,9 +49,9 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque la vue change dans le lecteur Windows Media, le lecteur appelle le plug-in de la boutique en ligne pour déterminer quelle page de découverte afficher ensuite. Dans certains cas, toutefois, le magasin en ligne peut souhaiter que le lecteur continue à afficher la page de découverte existante. Le processus suivant détermine si le lecteur affiche une nouvelle page de découverte :
+lorsque la vue change dans Lecteur Windows Media, le lecteur appelle le plug-in du magasin en ligne pour déterminer quelle page de découverte afficher ensuite. Dans certains cas, toutefois, le magasin en ligne peut souhaiter que le lecteur continue à afficher la page de découverte existante. Le processus suivant détermine si le lecteur affiche une nouvelle page de découverte :
 
 1.  Une action de l’utilisateur, que ce soit dans l’interface utilisateur du joueur ou sur la page de découverte, demande que le joueur modifie son affichage.
 2.  Le lecteur appelle la méthode [GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) du plug-in pour déterminer quelle page de découverte afficher ensuite. Le lecteur stocke l’URL de la nouvelle page de découverte, mais n’affiche pas la nouvelle page de découverte pour l’instant.

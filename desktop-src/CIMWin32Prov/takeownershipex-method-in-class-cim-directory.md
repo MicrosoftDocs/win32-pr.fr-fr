@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b02a6c40e99405c150a372f8eb15fe648f2df60a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5637e45c6dad7eec3f79ffd045a4a8d0dd3f3ba51ed5a60c09916c11802b1130
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119332779"
 ---
 # <a name="takeownershipex-method-of-the-cim_directory-class"></a>Méthode TakeOwnerShipEx de la \_ classe de répertoire CIM
 
@@ -193,7 +193,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
@@ -201,7 +201,7 @@ Cette documentation est dérivée des descriptions de classe CIM publiées par l
 
 ## <a name="examples"></a>Exemples
 
-L’Visual Basic Code de script suivant appelle la méthode **TakeOwnerShipEx** pour prendre possession du dossier C : \\ temp.
+l’Visual Basic code de Script suivant appelle la méthode **TakeOwnerShipEx** pour prendre possession du dossier C : \\ temp.
 
 
 ```VB

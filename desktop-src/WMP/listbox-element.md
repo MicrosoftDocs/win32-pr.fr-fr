@@ -3,19 +3,19 @@ title: Élément LISTBOX
 description: Élément LISTBOX
 ms.assetid: b83ba0cb-1838-494d-b4cb-55b4da18a038
 keywords:
-- Apparences du lecteur Windows Media, élément LISTBOX
+- skins Lecteur Windows Media, élément LISTBOX
 - Skins, élément LISTBOX
 - Élément LISTBOX
 - informations de référence sur les habillages, élément LISTBOX
 - éléments, LISTBOX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1d9566d11586e995b289a0048dacb29a91921b4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5b9108d8e252260a8aa7a2d9f654118d62ff84f0d53a6f80bc934323a1107ffe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054767"
 ---
 # <a name="listbox-element"></a>Élément LISTBOX
 
@@ -44,7 +44,7 @@ L’élément **ListBox** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **ListBox** prend en charge les méthodes suivantes.
 
@@ -66,12 +66,12 @@ L’élément **ListBox** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 > [!Note]  
-> Cet élément requiert le lecteur Windows Media pour Windows XP ou version ultérieure.
+> cet élément requiert Lecteur Windows Media pour Windows XP ou version ultérieure.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -83,9 +83,9 @@ L’élément **ListBox** prend en charge les méthodes suivantes.
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

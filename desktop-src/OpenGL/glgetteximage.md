@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da38ca1d6605fdc3cd6cf73cdd017404b71961e7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b116bc4ae517d0767d794767ad5232d8537033d62a099a3906f9f2ca96a7166c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493749"
 ---
 # <a name="glgetteximage-function"></a>glGetTexImage fonction)
 
@@ -89,7 +89,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                                |
+| Name                                                                                                  | Signification                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | la *cible*, le *format* ou le *type* n’était pas une valeur acceptée.<br/>                                                                    |
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | le *niveau* est inférieur à zéro ou supérieur au *Journal* 2 (*Max*), où *Max* est la valeur retournée de la taille de \_ texture max GL \_ \_ .<br/>      |
@@ -97,7 +97,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGetTexImage** retourne une image de texture en *pixels*. Le *paramètre Target* spécifie si l’image de texture souhaitée est spécifiée par [**glTexImage1D**](glteximage1d.md)**(** texture GL \_ \_ 1D **)** ou par [**glTexImage2D**](glteximage2d.md)**(** texture GL \_ \_ 2D **)**. Le paramètre *Level* spécifie le numéro de niveau de détail de l’image souhaitée. Les paramètres de *type* et de *format* spécifient le format et le type du tableau d’images souhaité. Pour obtenir une description des valeurs acceptables pour les paramètres de *type* et de *format* , consultez **glTexImage1D** et [**glDrawPixels**](gldrawpixels.md).
 

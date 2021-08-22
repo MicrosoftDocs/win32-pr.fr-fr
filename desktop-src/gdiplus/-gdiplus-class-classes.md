@@ -4,12 +4,12 @@ ms.assetid: 992388a6-11b7-4e14-b061-e2821aa6c970
 title: Classes (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 573311a6f061734ef1e6c97a5d7334c644e5d2af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3890bbaf8af943e6afeeae8a393f9390d45c9fac9dd8b2b507ab6497daa93e84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557459"
 ---
 # <a name="classes-gdi"></a>Classes (GDI+)
 
@@ -29,10 +29,10 @@ Windows GDI+ fournit les classes suivantes :
 -   [**ColorLUT**](/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorlut)
 -   [**ColorMatrixEffect**](/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colormatrixeffect)
 -   [**CustomLineCap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap)
--   [**Résultat**](/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect)
+-   [**Effet**](/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect)
 -   [**EncoderParameter**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-encoderparameter)
 -   [**EncoderParameters**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-encoderparameters)
--   [**Son**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font)
+-   [**Police**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font)
 -   [**FontCollection**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontcollection)
 -   [**Famille**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily)
 -   [**GdiplusBase**](/windows/desktop/api/gdiplusbase/nl-gdiplusbase-gdiplusbase)
@@ -63,7 +63,7 @@ Windows GDI+ fournit les classes suivantes :
 -   [**RedEyeCorrection**](/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection)
 -   [**Région**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region)
 -   [**Accentu**](/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen)
--   [**Corps**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size)
+-   [**Taille**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size)
 -   [**SizeF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef)
 -   [**SolidBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush)
 -   [**StringFormat**](/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat)

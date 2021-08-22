@@ -4,12 +4,12 @@ ms.assetid: 2e8a30ec-e8e7-4855-addb-2501bf85ab54
 title: Action CreateShortcuts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e59ae3cdcc9d35091690742322617f3c9d07628
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 209dbd38d64abb2ddedb267512dd3872991d58071769d25606ed364a15c6d958
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649739"
 ---
 # <a name="createshortcuts-action"></a>Action CreateShortcuts
 
@@ -31,7 +31,7 @@ L’action CreateShortcuts doit être postérieure à l’action [InstallFiles](
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’action CreateShortcuts crée des raccourcis vers les fichiers de clé des composants des fonctionnalités qui sont sélectionnés pour l’installation ou la publication.
 

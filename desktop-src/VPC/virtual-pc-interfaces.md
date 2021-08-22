@@ -1,23 +1,23 @@
 ---
-title: Interfaces de PC virtuels Windows
-description: Les interfaces suivantes sont prises en charge par Windows Virtual PC.
+title: Windows Interfaces Virtual PC
+description: les interfaces suivantes sont prises en charge par Windows Virtual PC.
 ms.assetid: de003075-8609-4303-838e-da449b91dc8d
 keywords:
-- PC virtuels Windows Virtual PC, interfaces
+- Windows Virtual PC Virtual PC, interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4a505fab360214d92b844c282fe12722281770f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 963574a5293a7c48b29096e3dbc563c0f2073c7a697f84a86fa0b5750feeabe9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511759"
 ---
-# <a name="windows-virtual-pc-interfaces"></a>Interfaces de PC virtuels Windows
+# <a name="windows-virtual-pc-interfaces"></a>Windows Interfaces Virtual PC
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Les interfaces suivantes sont prises en charge par Windows Virtual PC.
+les interfaces suivantes sont prises en charge par Windows Virtual PC.
 
 
 
@@ -49,24 +49,24 @@ Les interfaces suivantes sont prises en charge par Windows Virtual PC.
 | [**IVMUSBDevice**](ivmusbdevice.md)<br/>                                       | Définit l’interface pour un périphérique USB attaché au système hôte.<br/>                                    |
 | [**IVMUSBDeviceCollection**](ivmusbdevicecollection.md)<br/>                   | Définit la collection des périphériques USB attachés au système hôte.<br/>                                     |
 | [**IVMVirtualMachine**](ivmvirtualmachine.md)<br/>                             | Définit l’interface pour une machine virtuelle.<br/>                                                                        |
-| [**IVMVirtualMachineCollection**](ivmvirtualmachinecollection.md)<br/>         | Définit la collection de machines virtuelles dans Windows Virtual PC.<br/>                                               |
+| [**IVMVirtualMachineCollection**](ivmvirtualmachinecollection.md)<br/>         | définit la collection de machines virtuelles dans Windows Virtual PC.<br/>                                               |
 | [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md)<br/>                 | Définit l’interface d’événements sortants pour l’interface [**IVMVirtualMachine**](ivmvirtualmachine.md) .<br/> |
 | [**IVMVirtualNetwork**](ivmvirtualnetwork.md)<br/>                             | Définit un réseau virtuel.<br/>                                                                             |
 | [**IVMVirtualNetworkCollection**](ivmvirtualnetworkcollection.md)<br/>         | Définit une collection d’objets [**IVMVirtualNetwork**](ivmvirtualnetwork.md) .<br/>                        |
-| [**IVMVirtualPC**](ivmvirtualpc.md)<br/>                                       | Définit l’objet d’application de PC virtuel Windows de niveau supérieur.<br/>                                           |
+| [**IVMVirtualPC**](ivmvirtualpc.md)<br/>                                       | définit l’objet d’application Windows Virtual PC de niveau supérieur.<br/>                                           |
 | [**IVMVirtualPCEvents**](ivmvirtualpcevents.md)<br/>                           | Définit l’interface d’événements sortants pour l’interface [**IVMVirtualPC**](ivmvirtualpc.md) .<br/>           |
 
 
 
  
 
-## <a name="note-for-developers-on-64-bit-windows"></a>Remarque pour les développeurs sur Windows 64 bits
+## <a name="note-for-developers-on-64-bit-windows"></a>Remarque pour les développeurs sur les Windows 64 bits
 
-Sur les éditions 64 bits de Windows, la bibliothèque de types pour Windows Virtual PC se trouve dans un fichier binaire 64 bits (VPC.exe) dans le répertoire% WinDir% \\ system32. Ce répertoire n’est pas visible par défaut aux processus 32 bits ; WOW64 mappe tous les accès au répertoire% WinDir% \\ system32 dans le répertoire% windir% \\ SysWOW64 par défaut. Visual Studio est un binaire 32 bits et ne peut donc pas ouvrir le fichier à cet emplacement. Pour générer un assembly d’interopérabilité pour Windows Virtual PC, utilisez TlbImp.exe, fourni avec Visual Studio et le SDK Windows. Pour générer *Microsoft.VirtualPC.Interop.dll*, utilisez la ligne de commande suivante :
+sur les éditions 64 bits de Windows, la bibliothèque de types pour Windows Virtual PC se trouve dans un fichier binaire 64 bits (VPC.exe) dans le répertoire% WinDir% \\ System32. Ce répertoire n’est pas visible par défaut aux processus 32 bits ; WOW64 mappe tous les accès au répertoire% WinDir% \\ system32 dans le répertoire% windir% \\ SysWOW64 par défaut. Visual Studio est un binaire 32 bits et ne peut donc pas ouvrir le fichier à cet emplacement. pour générer un assembly d’interopérabilité pour Windows Virtual PC, utilisez TlbImp.exe, qui est fourni avec Visual Studio et le SDK Windows. Pour générer *Microsoft.VirtualPC.Interop.dll*, utilisez la ligne de commande suivante :
 
-**TlbImp.exe/out : * * * Microsoft.VirtualPC.Interop.dll* **/Namespace : Microsoft. VirtualPC. Interop% WinDir% \\ system32 \\VPC.exe**
+**TlbImp.exe/out :** _Microsoft.VirtualPC.Interop.dll_ **/Namespace : Microsoft. VirtualPC. Interop% windir% \\ system32 \\VPC.exe**
 
-D’autres solutions incluent la copie VPC.exe dans un répertoire différent où le compilateur peut le trouver, ou l’utilisation de l’outil OleView.exe à partir du SDK Windows pour extraire un fichier. idl de la bibliothèque de types dans VPC.exe.
+d’autres solutions incluent la copie VPC.exe dans un répertoire différent où le compilateur peut le trouver, ou l’utilisation de l’outil OleView.exe à partir du SDK Windows pour extraire un fichier. idl de la bibliothèque de types dans VPC.exe.
 
  
 

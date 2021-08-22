@@ -3,19 +3,19 @@ title: Attributs ambiants
 description: Attributs ambiants
 ms.assetid: 9dc8c770-4de3-42d8-b388-4426a4b0e788
 keywords:
-- Apparences du lecteur Windows Media, attributs ambiants
+- habillages Lecteur Windows Media, attributs ambiants
 - apparences, attributs ambiants
 - informations de référence sur les apparences, les attributs ambiants
 - attributs ambiants
 - attributs, ambiant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5157dc3cbb528cf546ff91d879d00c9b3ec2de8f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc81cdfb1775f985ecc63e8823bb36b3107d749a836a792dc9f72dc42b5832a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509679"
 ---
 # <a name="ambient-attributes"></a>Attributs ambiants
 
@@ -53,7 +53,7 @@ Les attributs suivants sont ambiants.
 
 
 
- 
+ 
 
 Les méthodes suivantes sont ambiantes.
 
@@ -68,7 +68,7 @@ Les méthodes suivantes sont ambiantes.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -77,9 +77,9 @@ Les méthodes suivantes sont ambiantes.
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,9 +3,9 @@ title: Méthode IWMPMedia setItemInfo
 description: La méthode setItemInfo définit la valeur de l’attribut spécifié pour l’élément multimédia.
 ms.assetid: 247bbba5-7d9b-489d-8e41-ae8ec6e266fd
 keywords:
-- méthode setItemInfo lecteur Windows Media
-- méthode setItemInfo lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, méthode setItemInfo
+- Lecteur Windows Media de la méthode setItemInfo
+- méthode setItemInfo Lecteur Windows Media, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, méthode setItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6702c80c13090a370e2922ccecade49bc06645de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 24265e94880899df96aa954f2df30ca6e4f5ae1e5b4fc20c419085e3f9f0ab14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053637"
 ---
 # <a name="iwmpmediasetiteminfo-method"></a>IWMPMedia :: setItemInfo, méthode
 
@@ -73,7 +73,7 @@ Implements IWMPMedia.setItemInfo
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **attributeCount** obtient le nombre d’attributs disponibles pour un élément multimédia donné. Les numéros d’index peuvent ensuite être utilisés avec la méthode **getAttributeName** pour déterminer les noms des attributs intégrés qui peuvent être utilisés avec cette méthode.
 
@@ -81,9 +81,9 @@ Avant d’utiliser cette méthode, utilisez la méthode **isReadOnlyItem** pour 
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès complet à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Remarque
+Notes
 
-Si vous incorporez le contrôle du lecteur Windows Media dans votre application, les attributs de fichier que vous modifiez ne seront pas écrits dans le fichier multimédia numérique tant que l’utilisateur n’aura pas exécuté le lecteur Windows Media.
+si vous incorporez le contrôle Lecteur Windows Media dans votre application, les attributs de fichier que vous modifiez ne seront pas écrits dans le fichier multimédia numérique tant que l’utilisateur n’aura pas exécuté Lecteur Windows Media.
 
 ## <a name="examples"></a>Exemples
 

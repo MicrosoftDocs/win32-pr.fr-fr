@@ -4,12 +4,12 @@ ms.assetid: d0f05524-4dfc-45b2-9476-6f1244190de5
 title: Message WM_IME_ENDCOMPOSITION (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73ca9d1560810b22ae0d36010d2371e75b83a81c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c9e19bcf1834d4f9e721efb2a2be53ca20268c7be42109975a7dea52e75d214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119560399"
 ---
 # <a name="wm_ime_endcomposition-message"></a>\_ \_ Message ENDCOMPOSITION de l’IME WM
 
@@ -37,7 +37,7 @@ Ce message n’a pas de paramètres.
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit traiter ce message si elle affiche lui-même des caractères de composition.
 

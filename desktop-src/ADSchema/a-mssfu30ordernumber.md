@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af67f1b5d6fdff8ca4a7739276443d67fa35679f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 995064d10d16849e75da6cc2ab796a443d684dee68af4e1d73dedcf65b8c114c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508859"
 ---
 # <a name="mssfu-30-order-number-attribute"></a>attribut msSFU-30-Order-Number
 
@@ -43,7 +43,7 @@ Contient une valeur utilisée par NIS pour vérifier si le mappage a changé. Ch
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

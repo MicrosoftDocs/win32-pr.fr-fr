@@ -4,12 +4,12 @@ ms.assetid: 257d5082-6a40-4f32-abcb-23269c49091c
 title: Propriété NOCOMPANYNAME
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e94df001ee63d8dbc22c071b9a200a2811e33600
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a4aa0f4358bcdd96d1cb2e1b56d6cc01616f2884e390a82ca6b19ee9d25f5d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558789"
 ---
 # <a name="nocompanyname-property"></a>Propriété NOCOMPANYNAME
 
@@ -25,7 +25,7 @@ Non défini. Le programme d’installation définit la propriété [**CompanyNam
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

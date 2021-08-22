@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 66eba92daf420fb4bd332d3f7d537b7936618ca6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 976e6b7bd9bf69e483b987da4d8055ffc102e89c67ed83bab6aa09c4e586b1ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531839"
 ---
 # <a name="msvm_compatibilityvector-class"></a>MSVM \_ CompatibilityVector, classe
 
@@ -164,7 +164,7 @@ Identifie un vecteur de compatibilité qui représente un attribut spécifique. 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md) de la classe [**MSVM \_ VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md) retourne un tableau d’instances **MSVM \_ CompatibilityVector** pour l’hôte (si elle est exécutée sur l’hôte) ou une machine virtuelle (si elle est exécutée sur la machine virtuelle). Chaque entrée **MSVM \_ CompatibilityVector** de la liste décrit un vecteur d’attribut de compatibilité. Pour qu’une machine virtuelle soit compatible avec un hôte, tous ses attributs de compatibilité doivent être compatibles avec les attributs de l’hôte.
 
@@ -229,7 +229,7 @@ SCVMM doit effectuer ces étapes pour déterminer si une machine virtuelle est c
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

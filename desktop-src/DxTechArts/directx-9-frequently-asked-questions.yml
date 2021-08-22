@@ -136,7 +136,7 @@ sections:
       les paramètres de contrôle de compte d’utilisateur (UAC, User account control) peuvent être affectés par stratégie de groupe paramètres sur les éditions Windows 7 Professionnel, Enterprise et Ultimate, à l’instar de Windows Vista. pour plus d’informations, consultez **quelles sont les différences entre les différentes éditions de Windows Vista ? Comment les impactent-ils sur mon application DirectX ?**
   - question: "DirectX 10 sera-t-il disponible pour Windows XP ? \n"
     answer: >
-      Non. Windows Vista, qui a directx 10, inclut un runtime directx mis à jour basé sur le runtime dans Windows XP SP2 (DirectX 9.0 c) avec des modifications pour fonctionner avec le nouveau modèle de pilote d’affichage des Windows (WDDM) et la nouvelle pile de pilotes audio, et avec d’autres mises à jour dans le système d’exploitation. en plus de Direct3D 9, Windows Vista prend en charge deux nouvelles interfaces lorsque le matériel et les pilotes vidéo corrects sont présents : Direct3D9Ex et Direct3D10.
+      Faux. Windows Vista, qui a directx 10, inclut un runtime directx mis à jour basé sur le runtime dans Windows XP SP2 (DirectX 9.0 c) avec des modifications pour fonctionner avec le nouveau modèle de pilote d’affichage des Windows (WDDM) et la nouvelle pile de pilotes audio, et avec d’autres mises à jour dans le système d’exploitation. en plus de Direct3D 9, Windows Vista prend en charge deux nouvelles interfaces lorsque le matériel et les pilotes vidéo corrects sont présents : Direct3D9Ex et Direct3D10.
 
 
       Étant donné que ces nouvelles interfaces s’appuient sur la technologie WDDM, elles ne seront jamais disponibles dans les versions antérieures de Windows. toutes les autres modifications apportées aux technologies DirectX pour Windows Vista sont également spécifiques à la nouvelle version de Windows. Le nom DirectX 10 trompe dans le fait que de nombreuses technologies fournies dans le kit de développement logiciel (SDK) DirectX (XACT, XINPUT, D3DX) ne sont pas comprises dans ce numéro de version. Ainsi, le fait de faire référence au numéro de version du runtime DirectX dans son ensemble a perdu une grande partie de sa signification, même pour la version 9.0 c. l’outil de Diagnostic directx (DXdiag.exe) sur Windows Vista signale directx 10, mais cela fait uniquement référence à Direct3D 10.
@@ -175,7 +175,7 @@ sections:
       Les différents GUID que vous utilisez doivent être définis une fois et une seule. La définition du GUID est insérée si vous \# Définissez le symbole INITGUID avant d’inclure les fichiers d’en-tête DirectX. Par conséquent, vous devez vous assurer que cela se produit uniquement pour une unité de compilation. Une alternative à cette méthode consiste à établir une liaison avec la bibliothèque dxguid. lib, qui contient les définitions de tous les GUID DirectX. Si vous utilisez cette méthode (ce qui est recommandé), vous ne devez jamais \# définir le symbole INITGUID.
   - question: "Puis-je effectuer un cast d’un pointeur vers une interface DirectX vers un numéro de version inférieur ? \n"
     answer: >
-      Non. Les interfaces DirectX sont des interfaces COM. Cela signifie qu’il n’y a aucune exigence pour que les interfaces numérotées les plus élevées soient dérivées des plus basses numérotées correspondantes. Par conséquent, le seul moyen sûr d’obtenir une interface différente pour un objet DirectX consiste à utiliser la méthode QueryInterface de l’interface. Cette méthode fait partie de l’interface IUnknown standard, à partir de laquelle toutes les interfaces COM doivent dériver.
+      Faux. Les interfaces DirectX sont des interfaces COM. Cela signifie qu’il n’y a aucune exigence pour que les interfaces numérotées les plus élevées soient dérivées des plus basses numérotées correspondantes. Par conséquent, le seul moyen sûr d’obtenir une interface différente pour un objet DirectX consiste à utiliser la méthode QueryInterface de l’interface. Cette méthode fait partie de l’interface IUnknown standard, à partir de laquelle toutes les interfaces COM doivent dériver.
   - question: "Puis-je mélanger l’utilisation des composants DirectX 9 et DirectX 8 ou des composants antérieurs au sein de la même application ? \n"
     answer: >
       Vous pouvez combiner librement différents composants de version différente ; par exemple, vous pouvez utiliser DirectInput 8 avec Direct3D 9 dans la même application. Toutefois, vous ne pouvez généralement pas mélanger différentes versions du même composant dans la même application ; par exemple, vous ne pouvez pas mélanger DirectDraw 7 avec Direct3D 9 (étant donné qu’il s’agit du même composant que DirectDraw, qui a été intégré à Direct3D depuis DirectX 8). Toutefois, il existe des exceptions, telles que l’utilisation de Direct3D 9 et de Direct3D 10 dans la même application, ce qui est autorisé.
@@ -351,13 +351,13 @@ sections:
       Un nuanceur de sommets est une procédure de traitement d’un seul vertex. Il est défini à l’aide d’un langage simple de type assembly assemblé par la bibliothèque de l’utilitaire D3DX dans un flux de jetons accepté par Direct3D. Le nuanceur de sommets prend comme entrée un seul vertex et un ensemble de valeurs constantes ; elle génère une position de vertex (dans l’espace) et éventuellement un ensemble de couleurs et de coordonnées de texture, qui sont utilisées dans la pixellisation. Notez que lorsque vous disposez d’un nuanceur vertex personnalisé, les composants de vertex n’ont plus de sémantique appliquée par Direct3D et les vertex sont simplement des données arbitraires qui sont interprétées par le nuanceur de sommets que vous créez.
   - question: "Un nuanceur vertex effectue-t-il une division ou un découpage ? \n"
     answer: >
-      Non. Le nuanceur de sommets génère une coordonnée homogène dans l’espace pour la position du vertex transformé. La Division et le découpage de la perspective sont effectués automatiquement après le nuanceur.
+      Faux. Le nuanceur de sommets génère une coordonnée homogène dans l’espace pour la position du vertex transformé. La Division et le découpage de la perspective sont effectués automatiquement après le nuanceur.
   - question: "Puis-je générer une géométrie avec un nuanceur de sommets ? \n"
     answer: >
       Un nuanceur de sommets ne peut pas créer ou détruire des vertex ; elle opère sur un seul vertex à la fois, en acceptant un vertex non traité comme entrée et en générant un vertex traité unique. Il peut donc être utilisé pour manipuler la géométrie existante (en appliquant des déformations ou en effectuant des opérations d’application d’apparence), mais ne peut pas générer une nouvelle géométrie par se.
   - question: "Puis-je Appliquer un nuanceur vertex personnalisé aux résultats du pipeline Geometry à fonction fixe (ou inversement) ? \n"
     answer: >
-      Non. Vous devez choisir l’un ou l’autre. Si vous utilisez un nuanceur de sommets personnalisé, vous êtes responsable de l’exécution de la transformation de vertex entière.
+      Faux. Vous devez choisir l’un ou l’autre. Si vous utilisez un nuanceur de sommets personnalisé, vous êtes responsable de l’exécution de la transformation de vertex entière.
   - question: "Puis-je utiliser un nuanceur vertex personnalisé si mon matériel ne le prend pas en charge ? \n"
     answer: >
       Oui. Le moteur de traitement des vertex du logiciel Direct3D prend entièrement en charge les nuanceurs vertex personnalisés avec un niveau étonnamment élevé de performances.
@@ -378,7 +378,7 @@ sections:
       Une mémoire tampon d’index est exactement analogue à une mémoire tampon de vertex, mais elle contient des index à utiliser dans les appels DrawIndexedPrimitive. Il est fortement recommandé d’utiliser des mémoires tampons d’index plutôt que de la mémoire allouée à l’application brute lorsque cela est possible, pour les mêmes raisons que les mémoires tampons de vertex.
   - question: "Je remarque que les index 32 bits sont un type pris en charge ; puis-je les utiliser sur tous les appareils ? \n"
     answer: >
-      Non. Vous devez vérifier le champ D3DCAPS9 :: MaxVertexIndex pour déterminer la valeur d’index maximale prise en charge par l’appareil. Cette valeur doit être supérieure à 2 pour le 16ème-1 (0xFFFF) afin que les mémoires tampons d’index de type D3DFMT \_ INDEX32 soient prises en charge. Notez également que certains appareils peuvent prendre en charge les index 32 bits, mais prennent en charge une valeur d’index maximale inférieure à 2 pour 32e Power-1 (0xFFFFFFFF); dans ce cas, l’application doit respecter la limite indiquée par l’appareil.
+      Faux. Vous devez vérifier le champ D3DCAPS9 :: MaxVertexIndex pour déterminer la valeur d’index maximale prise en charge par l’appareil. Cette valeur doit être supérieure à 2 pour le 16ème-1 (0xFFFF) afin que les mémoires tampons d’index de type D3DFMT \_ INDEX32 soient prises en charge. Notez également que certains appareils peuvent prendre en charge les index 32 bits, mais prennent en charge une valeur d’index maximale inférieure à 2 pour 32e Power-1 (0xFFFFFFFF); dans ce cas, l’application doit respecter la limite indiquée par l’appareil.
   - question: "Le traitement des vertex S/W prend-il en charge 64 bits ? \n"
     answer: >
       Il existe un pipeline de vertex s/w optimisé pour x64, mais il n’existe pas pour IA64.
@@ -609,7 +609,7 @@ sections:
       [SpInv]x[S]x[Sh]x[Sp]x[St]x[RpInv]x[Ro]x[R]x[Rp]x[Rt]x[T]
 
       ```
-  - question: "J’ai dépouillé mon treillis avec RigidSkin mais la maille (ou la partie) ne bouge pas. Pourquoi ? \n"
+  - question: "J’ai dépouillé mon treillis avec RigidSkin mais la maille (ou la partie) ne bouge pas. Pourquoi ? \n"
     answer: >
       L’apparence rigide de Maya n’est pas prise en charge pour l’instant. Utilisez l’apparence lisse.
   - question: "Où tout mon IK a-t-il disparu dans le fichier X ? \n"

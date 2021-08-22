@@ -11,12 +11,12 @@ keywords:
 - Téléchargement des fichiers BITS
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: 9483e297e8b48ad6466846c7eceb8d53b57d3278
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 66bc9af5231454ef63d8c74f9e500baaeb7c8cec9dbdd694943a3809da4a391d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588729"
 ---
 # <a name="background-intelligent-transfer-service"></a>Service de transfert intelligent en arrière-plan (BITS)
 
@@ -25,7 +25,7 @@ ms.locfileid: "110424209"
 Service de transfert intelligent en arrière-plan (BITS) est utilisé par les programmeurs et les administrateurs système pour télécharger des fichiers depuis ou vers des serveurs Web HTTP et des partages de fichiers SMB. Le service BITS prend en compte le coût du transfert, ainsi que l’utilisation du réseau afin que le travail de premier plan de l’utilisateur ait le moins d’impact possible. BITS gère également les interuptions réseau, en suspendant et en reprenant automatiquement les transferts, même après un redémarrage. Le service BITS comprend des applets de commande PowerShell pour la création et la gestion des transferts, ainsi que l’utilitaire de ligne de commande BitsAdmin.
 
 > [!Note]  
-> Le service BITS peut être utilisé par Windows pour télécharger les mises à jour sur votre système local. Si vous êtes un utilisateur final qui recherche des moyens de résoudre les problèmes liés à l’installation de BITS, consultez [résoudre les problèmes de Windows Update](https://support.microsoft.com/help/10164/fix-windows-update-errors). 
+> le service BITS peut être utilisé par Windows pour télécharger des mises à jour sur votre système local. si vous êtes un utilisateur final qui recherche des moyens de résoudre les problèmes liés à l’installation de BITS, consultez [résoudre les problèmes de Windows Update](https://support.microsoft.com/help/10164/fix-windows-update-errors). 
  
 
 ## <a name="where-applicable"></a>Le cas échéant
@@ -40,7 +40,7 @@ Utilisez le service BITS pour les applications qui doivent :
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-BITS est une interface COM conçue pour les développeurs C et C++ qui peut également être utilisée par les développeurs .NET. Les développeurs UWP doivent utiliser l’API [Windows. Networking. BackgroundTransfer](/uwp/api/Windows.Networking.BackgroundTransfer) et non l’API bits.
+BITS est une interface COM conçue pour les développeurs C et C++ qui peut également être utilisée par les développeurs .NET. Les développeurs UWP doivent utiliser le [Windows. L’API Networking. BackgroundTransfer](/uwp/api/Windows.Networking.BackgroundTransfer) et non l’API bits.
 
 ## <a name="bits-versions"></a>Versions de BITS
 

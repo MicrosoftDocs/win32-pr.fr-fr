@@ -21,7 +21,7 @@ ICE19 vérifie que les composants ou les raccourcis publiés ont un ComponentId.
 
 ICE19 publie un message d’erreur si la colonne keyPath de la table Component ne fait pas référence à un fichier dans le cas d’un composant publié ou d’un répertoire dans le cas d’un raccourci publié. ICE19 publie un message d’erreur si des composants ou des raccourcis publiés n’ont pas d’ID de composant.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemples
 
 ICE19 publie les messages d’erreur suivants pour l’exemple illustré :
 
@@ -62,7 +62,7 @@ ICE19 publie les messages d’erreur suivants pour l’exemple illustré :
 
 
 
-| Raccourci  | Composant\_ | Fonctionnalité\_      |
+| Raccourci  | Composant\_ | Caractéristique\_      |
 |-----------|-------------|----------------|
 | Shortcut1 | Comp4       | ProductFeature |
 | Shortcut2 | COMP3       | ProductFeature |
@@ -75,7 +75,7 @@ ICE19 publie les messages d’erreur suivants pour l’exemple illustré :
 
 
 
-| Fonctionnalité        |
+| Caractéristique        |
 |----------------|
 | ProductFeature |
 

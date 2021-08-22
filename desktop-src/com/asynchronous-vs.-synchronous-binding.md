@@ -4,12 +4,12 @@ description: Liaison asynchrone et synchrone
 ms.assetid: 9852df19-5ae4-4425-9ce0-cac160d68456
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b022df239221f0a019b972067248225210e585
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: cb498d083260db087e9f32cd3f24b67f03f9a788c0add2592dde36fe7a7905e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048857"
 ---
 # <a name="asynchronous-and-synchronous-binding"></a>Liaison asynchrone et synchrone
 
@@ -26,6 +26,6 @@ Si le client ne retourne pas l' \_ indicateur asynchrone BINDF à partir de l’
 [Monikers asynchrones](asynchronous-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

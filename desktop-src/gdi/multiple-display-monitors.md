@@ -4,12 +4,12 @@ ms.assetid: 901c8fbe-a29c-4382-80d4-5e3667a031da
 title: Moniteurs multiples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f80b9507d6c0616f2ee252539df65c3fae310998
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11da594a795fa63341e21dac09c8ea438c9f55b488916a91010a10abe81d5943
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558449"
 ---
 # <a name="multiple-display-monitors"></a>Moniteurs multiples
 

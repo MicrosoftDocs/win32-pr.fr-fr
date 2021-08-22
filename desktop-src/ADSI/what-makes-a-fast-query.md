@@ -8,18 +8,18 @@ keywords:
 - interroge ADSI, ce qui effectue une requête rapide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 883db1e9de7b7b7a1179c814d6f66f774685083e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 134d391c728d543c407ee770081e2ced96afbba86d205462e814d89f74e82a57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589839"
 ---
 # <a name="what-makes-a-fast-query"></a>Qu’est-ce qui fait une requête rapide ?
 
 Tenez compte des concepts d’amélioration des performances suivants lors de l’exécution d’une requête :
 
--   Si possible, filtrez uniquement sur les attributs indexés. Utilisez les attributs d’index dont vous vous attendez à générer le plus petit nombre d’accès. Pour plus d’informations et pour obtenir une liste complète des attributs indexés pour Windows, consultez [Active Directory schéma](/windows/desktop/ADSchema/active-directory-schema).
+-   Si possible, filtrez uniquement sur les attributs indexés. Utilisez les attributs d’index dont vous vous attendez à générer le plus petit nombre d’accès. pour plus d’informations et pour obtenir la liste complète des attributs indexés pour Windows, consultez [Active Directory schéma](/windows/desktop/ADSchema/active-directory-schema).
 -   Recherchez **objectCategory** au lieu de **objectClass** , car **objectClass** n’est pas une propriété indexée.
 -   Tenez compte des références. Envisagez de rechercher le catalogue global si vos attributs sont répertoriés en tant que GC répliqué.
 -   Évitez de rechercher du texte au milieu et à la fin d’une chaîne. Par exemple, « CN = \* Hill \* » ou « CN = \* larouse ».
@@ -30,6 +30,6 @@ Tenez compte des concepts d’amélioration des performances suivants lors de l�
 -   La liaison à un objet contient le handle de liaison pour le reste de votre session. Ne pas lier et annuler la liaison pour chaque appel. Si vous utilisez ADO ou OLE DB, ne créez pas de nombreux objets de connexion.
 -   Lisez le rootDSE une fois et rappelez son contenu pour le reste de votre session.
 
- 
+ 
 
- 
+ 

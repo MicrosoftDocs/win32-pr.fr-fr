@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b37e2acb97806ad6cf72736d39e0c9a0e6c6d217
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ed3f5c805c72f83bfab28a9272448e87a7ec34053979e1066f06196584e18155
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509279"
 ---
 # <a name="current-location-attribute"></a>Attribut Current-Location
 
@@ -45,7 +45,7 @@ Emplacement de l’ordinateur pour un objet qui a été déplacé.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -3,7 +3,7 @@ title: Message CBEM_SETEXTENDEDSTYLE (commctrl. h)
 description: Définit des styles étendus dans un contrôle ComboBoxEx.
 ms.assetid: 00848bd0-5a2f-4bfb-ae1f-ee3aa88ac57a
 keywords:
-- CBEM_SETEXTENDEDSTYLE les contrôles de message Windows
+- CBEM_SETEXTENDEDSTYLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a60518d2f6130c2c89e379125308fc2e647c6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: efd1083e838d85f9cb659acb9a28b74a1d8605934be4c53fd72993e7470fad2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527969"
 ---
 # <a name="cbem_setextendedstyle-message"></a>\_Message CBEM SETEXTENDEDSTYLE
 
@@ -47,7 +47,7 @@ Valeur **DWORD** qui contient les [styles étendus de contrôle ComboBoxEx](comb
 
 Retourne une valeur **DWORD** qui contient les styles étendus utilisés précédemment pour le contrôle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 *wParam* vous permet de modifier un ou plusieurs styles étendus sans avoir à récupérer d’abord les styles existants. Par exemple, si vous transmettez [**CBES \_ ex \_ NOEDITIMAGE**](comboboxex-control-extended-styles.md) pour *wParam* et 0 pour *lParam*, le style **CBES \_ ex \_ NOEDITIMAGE** sera effacé, mais tous les autres styles resteront les mêmes.
 
@@ -59,8 +59,8 @@ Si vous essayez de définir un style étendu pour un contrôle ComboBoxEx créé
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

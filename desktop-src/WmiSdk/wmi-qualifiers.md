@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Qualificateurs WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90b14dc8f1f73571fc2c449e55c30034f86c2453
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2dcf51888592949aadefec7c864dc0a24df6a4fa68f6fb34c8e3cda880da6873
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502809"
 ---
 # <a name="wmi-qualifiers"></a>Qualificateurs WMI
 
@@ -34,7 +34,7 @@ Le nom de chaque qualificateur apparaît avec son type de données et indique si
 
 Pour plus d’informations sur l’application de qualificateurs à vos classes WMI, consultez [Ajout d’un qualificateur](adding-a-qualifier.md). Pour voir comment examiner des qualificateurs sur des classes WMI existantes, consultez l’exemple de code ci-dessous.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 Le code PowerShell suivant, tiré de la [Galerie TechNet](https://Gallery.TechNet.Microsoft.Com/Get-WMI-Class-qualifiers-239970e7), explique comment récupérer des qualificateurs d’une classe WMI.
 

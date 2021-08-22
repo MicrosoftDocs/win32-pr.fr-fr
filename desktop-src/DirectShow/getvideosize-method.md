@@ -4,17 +4,17 @@ ms.assetid: 50db2c15-4064-4d18-94f0-f6cf05f1d236
 title: Méthode GetVideoSize
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89b96d01c3f22eaae78a442f3496f3c7c7416eac
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 21746242211357e9e58e825d8e217799953dd569e91765acabe11fc2252d17c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106540797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119536589"
 ---
 # <a name="getvideosize-method"></a>Méthode GetVideoSize
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
