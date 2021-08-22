@@ -1,15 +1,15 @@
 ---
-description: Les développeurs de packages de Windows Installer peuvent choisir d’utiliser un type d’action personnalisé 50 quand les actions standard sont insuffisantes pour exécuter l’installation.
+description: les développeurs de packages de Windows Installer peuvent choisir d’utiliser un type d’action personnalisé 50 quand les actions standard sont insuffisantes pour exécuter l’installation.
 ms.assetid: fc8a875d-21e3-452a-8455-80835b52b256
 title: Type d’action personnalisé 50
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5f3a80de730eb727c40c871070ab9e5b2470f98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4b17c6b512e53bb085c23f6ad0e8af412f6f9de44da3cc70c7153dbef7fb99e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119263249"
 ---
 # <a name="custom-action-type-50"></a>Type d’action personnalisé 50
 
@@ -55,7 +55,7 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la [table Cu
 
 Les actions personnalisées qui sont des [fichiers exécutables](executable-files.md) doivent retourner la valeur 0 en cas de réussite. Le programme d’installation interprète toute autre valeur de retour comme un échec. Pour ignorer les valeurs de retour, définissez l’indicateur de bit **msidbCustomActionTypeContinue** dans le champ type de la table CustomAction.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une action personnalisée qui lance un exécutable prend une ligne de commande, qui contient généralement des propriétés qui sont désignées dynamiquement. S’il s’agit également d’une [action personnalisée d’exécution différée](deferred-execution-custom-actions.md), le programme d’installation utilise CreateProcessAsUser ou CreateProcess pour créer le processus lorsque l’action personnalisée est appelée à partir du script d’installation.
 

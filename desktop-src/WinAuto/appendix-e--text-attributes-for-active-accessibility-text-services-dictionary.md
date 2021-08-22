@@ -4,25 +4,25 @@ description: Cette annexe fournit des informations sur les attributs de texte d�
 ms.assetid: 9e405140-c151-4f00-91c5-777c84c41806
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 588c827764d17c2576efaa5e3117527e23d1da26
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 539583f05e5140d96594490b0038b1a629f7760b13e4de223f6a8a3304c3901b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134062"
 ---
 # <a name="appendix-e-text-attributes-for-active-accessibility-text-services-dictionary"></a>Annexe E : attributs de texte pour Active Accessibility dictionnaire des services de texte
 
 Cette annexe fournit des informations sur les attributs de texte définis dans [**IAccDictionary**](/windows/desktop/api/msaatext/nn-msaatext-iaccdictionary). Il est organisé sous la forme d’une série de tables. Chaque table contient des informations sur une catégorie spécifique d’attributs. Ces catégories sont réellement imbriquées, mais sont séparées ci-dessous afin que vous puissiez voir les attributs.
 
 > [!Note]  
-> Active Accessibility Text services est déconseillé. Pour plus d’informations sur l’entrée de texte avancée et les technologies de langage naturel, consultez [Microsoft Windows Text Services Framework](../tsf/text-services-framework.md) .
+> Active Accessibility Text services est déconseillé. pour plus d’informations sur l’entrée de texte avancée et les technologies de langage naturel, consultez [Microsoft Windows text Services Framework](../tsf/text-services-framework.md) .
 
  
 
 Chaque entrée d’une table fournit un nom d’attribut et un nom convivial, un type, un feuilles de style en cascade (CSS) équivalent, un modèle d’objet de texte (TOM) équivalent, ainsi que des commentaires supplémentaires, le cas échéant. La colonne TOM équivalente fournit des informations sur la méthode TOM utilisée avec l’attribut (partie des interfaces [**ITextFont**](/windows/desktop/api/tom/nn-tom-itextfont), [**ITextRange**](/windows/desktop/api/tom/nn-tom-itextrange)ou [**ITextPara**](/windows/desktop/api/tom/nn-tom-itextpara) ). Les informations antérieures à chaque table indiquent l’interface qui prend en charge les attributs. les informations contenues dans la table équivalente TOM indiquent le nom de la méthode. Chaque entrée de la colonne équivalente TOM est associée à deux méthodes. Par exemple, l’entrée de nom est associée aux méthodes **GetName** et **SetName** .
 
-Pour plus d’informations sur ces interfaces, consultez la documentation du [modèle d’objet de texte](../controls/text-object-model.md) dans le kit de développement logiciel (SDK) Windows.
+pour plus d’informations sur ces interfaces, consultez la documentation du [modèle d’objet de texte](../controls/text-object-model.md) dans le kit de développement logiciel (SDK) Windows.
 
 ## <a name="font"></a>Police
 

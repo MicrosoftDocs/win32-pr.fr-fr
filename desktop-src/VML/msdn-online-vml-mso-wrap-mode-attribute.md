@@ -4,27 +4,27 @@ description: VML DCL-attribut de mode habillage
 ms.assetid: 51c4e90d-62cc-4646-9c71-8a6bf3366b2f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5657192fcf9da72ff99dc25cff7930b6d2d9b6b9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 88e3743522b9286da8a7f30e9100e06205430b1b18fa3c62def60b57f54b65d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136982"
 ---
 # <a name="vml-mso-wrap-mode-attribute"></a>VML DCL-attribut de mode habillage
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit le mode d’habillage pour le texte. En lecture/écriture. **Chaîne**.
 
 **S’applique à**
 
-[Graphique à base de formes](shape-element--vml.md)
+[Forme](shape-element--vml.md)
 
 **Syntaxe de balise**
 
@@ -46,11 +46,11 @@ Ces valeurs comprennent :
 
 
 
- 
+ 
 
-Utilisé par Microsoft PowerPoint pour l’enregistrement au format HTML pour indiquer si le retour automatique à la ligne dans une forme automatique est activé (**carré**) ou désactivé (**aucun**).
+utilisé par Microsoft PowerPoint pour l’enregistrement au format HTML pour indiquer si le retour automatique à la ligne dans une forme automatique est activé (**carré**) ou désactivé (**aucun**).
 
-*Attribut extensions Microsoft Office*
+*Microsoft Office Attribut extensions*
 
 **Exemple**
 
@@ -68,6 +68,6 @@ Le code suivant indique que les retours automatique à l’intérieur d’une fo
 
 
 
- 
+ 
 
- 
+ 

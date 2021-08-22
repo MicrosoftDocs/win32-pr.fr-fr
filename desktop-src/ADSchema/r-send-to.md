@@ -1,6 +1,6 @@
 ---
 title: Send-To le droit étendu
-description: Le droit Exchange permet d’envoyer des courriers à une boîte aux lettres.
+description: Exchange droit permet d’envoyer des courriers à une boîte aux lettres.
 ms.assetid: 25dfbfd7-dbeb-48fa-a7c6-63bde03db2f4
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0995f887f899eb31ec6d45210a07a849f1c50dde
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c3d6007cf9c222ac0ae52e75cbf79b63765ee14f46a976f761521c3b1740cbab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103942970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021567"
 ---
 # <a name="send-to-extended-right"></a>Send-To le droit étendu
 
-Droit Exchange : permet l’envoi vers une boîte aux lettres.
+Exchange right : autorise l’envoi à une boîte aux lettres.
 
 
 
@@ -39,7 +39,7 @@ Droit Exchange : permet l’envoi vers une boîte aux lettres.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

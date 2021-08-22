@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 990d277db855c2988021d19a0a756c49454546f7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7db6f70fb65822a63bd2bf0f9919ac1b9554a664d1ac7ec9775c611b5b4e7f73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067289"
 ---
 # <a name="dllnamestr-attribute"></a>attribut DllName (STR)
 
@@ -74,7 +74,7 @@ Spécifie une ou plusieurs instructions de définition d’élément de module.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ DllName \]** est requis sur un module.
 
@@ -111,6 +111,6 @@ module HandyStuff
 [Génération d’une bibliothèque de types avec MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

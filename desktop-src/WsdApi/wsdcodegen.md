@@ -4,12 +4,12 @@ ms.assetid: 3d40172b-6ba1-4e42-9a1a-519c8e88c2b1
 title: élément wsdCodeGen
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9861617854e0e75575f2993717f5b2a86515fb0f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 67ffac9696371f53b073fa71c0b1903c826544a6f695b9b741b48936c0250d2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049537"
 ---
 # <a name="wsdcodegen-element"></a>élément wsdCodeGen
 
@@ -45,7 +45,7 @@ Est l’élément racine d’un fichier de script XML du générateur de code WS
 | [**hostMetadata**](hostmetadata.md)<br/>                 | Métadonnées d’hébergement pour l’appareil à implémenter. Cet élément est utilisé uniquement pour les implémentations d’appareils (hôtes).<br/> <br/>                                                                                 |
 | [**layerNumber**](layernumber.md)<br/>                   | Numéro de la couche de code à générer. Les numéros de couche sont utilisés dans les tables du runtime pour distinguer une couche de code d’une autre. WSDAPI utilise le code généré qui a un numéro de couche 0.<br/> <br/> |
 | [**layerPrefix**](layerprefix.md)<br/>                   | Préfixe à utiliser dans le code généré pour garantir l’unicité des symboles générés. WSDAPI utilise le préfixe « WSD ».<br/> <br/>                                                                                     |
-| [**macrovirus**](macro.md)<br/>                               | Définit le texte ou CDATA à réutiliser par l’élément [**include**](include.md) .<br/> <br/>                                                                                                                        |
+| [**macro**](macro.md)<br/>                               | Définit le texte ou CDATA à réutiliser par l’élément [**include**](include.md) .<br/> <br/>                                                                                                                        |
 | [**Joint**](namespace.md)<br/>                       | Décrit un espace de noms à utiliser pour la génération de code.<br/> <br/>                                                                                                                                                |
 | [**relationshipMetadata**](relationshipmetadata.md)<br/> | Décrit l’hôte et les métadonnées hébergées pour l’appareil.<br/> <br/>                                                                                                                                               |
 | [**thisModelMetadata**](thismodelmetadata.md)<br/>       | Métadonnées du fabricant et du modèle pour l’appareil à implémenter. Cet élément est utilisé uniquement pour les implémentations d’appareils (hôtes).<br/> <br/>                                                                  |
@@ -84,7 +84,7 @@ En général, les éléments de [**fichier**](file.md) doivent se produire en de
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

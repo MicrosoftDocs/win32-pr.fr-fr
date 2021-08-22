@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f8a28e7740e41f8209e37345e934a36d10512bc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8b45cbb39bc0a0fd0f217d91ce7471f1a0f587315df2902fb6ce83c11f10a114
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081843"
 ---
 # <a name="msmq-journal-attribute"></a>Attribut MSMQ-Journal
 
@@ -45,7 +45,7 @@ Indique si les messages récupérés à partir de la file d’attente doivent ê
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

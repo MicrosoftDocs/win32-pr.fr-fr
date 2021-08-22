@@ -9,22 +9,22 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 30d7c5c275317a4330836cecf67a5fbed4f8747b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e375c3df67ab377ee81c0b120975ea34d84b182077b5282e1e5af13112be7fc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032847"
 ---
 # <a name="deprecated-shell-apis"></a>API Shell dépréciées
 
 \[Les [**FOLDERSETDATA**](/windows/win32/api/shdeprecated/ns-shdeprecated-foldersetdata) peuvent être modifiés ou non disponibles dans les versions ultérieures du système d’exploitation ou du produit.\]
 
-\[Cette fonction est disponible via Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. \]
+\[cette fonction est disponible par le biais de Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. \]
 
-\[Cette fonction est disponible dans Windows 2000 et Windows XP Service Pack 2 (SP2). Il n’est plus disponible à partir de Windows Vista.\]
+\[cette fonction est disponible dans Windows 2000 et par le biais de Windows XP Service Pack 2 (SP2). il n’est plus disponible à partir de Windows Vista.\]
 
-\[Cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 \[[**CharLowerWrapW**](charlowerwrapw.md) peut être utilisé dans Windows XP. Elle n’est peut-être pas disponible dans les versions ultérieures. Vous devez utiliser [**CharLowerW**](/windows/win32/api/winuser/nf-winuser-charlowera) à la place.\]
 
@@ -32,91 +32,91 @@ ms.locfileid: "103750236"
 
 \[[**CompareStringWrapW**](comparestringwrapw.md) peut être utilisé dans Windows XP. Elle ne sera pas disponible dans les versions ultérieures. Vous devez utiliser [**CompareStringW**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) à la place.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction n’est pas disponible à partir de Windows Vista.\]
+\[cette fonction n’est pas disponible à partir de Windows Vista.\]
 
 \[Cette fonction est déconseillée et peut être modifiée ou non disponible dans les versions ultérieures.\]
 
-\[[**Dad \_ Le défilement**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll) automatique est disponible dans windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures.\]
+\[[**Dad \_ le défilement**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_autoscroll) automatique est disponible dans Windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures.\]
 
-\[[**Dad \_ DragEnterEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex) est disponible dans windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragEnter**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) à la place. \]
+\[[**Dad \_ DragEnterEx**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex) est disponible dans Windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragEnter**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) à la place. \]
 
-\[[**Dad \_ DragEnterEx2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2) est disponible dans windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragEnter**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) à la place.\]
+\[[**Dad \_ DragEnterEx2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex2) est disponible dans Windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragEnter**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragenter) à la place.\]
 
-\[[**Dad \_ DragLeave**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave) est disponible dans windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragLeave**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragleave) à la place.\]
+\[[**Dad \_ DragLeave**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragleave) est disponible dans Windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragLeave**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragleave) à la place.\]
 
-\[[**Dad \_ DragMove**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove) est disponible dans windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragMove**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragmove) à la place. \]
+\[[**Dad \_ DragMove**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragmove) est disponible dans Windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragMove**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragmove) à la place. \]
 
-\[[**Dad \_ SetDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage) est disponible dans windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ BeginDrag**](/windows/win32/api/commctrl/nf-commctrl-imagelist_begindrag) à la place.\]
+\[[**Dad \_ SetDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_setdragimage) est disponible dans Windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ BeginDrag**](/windows/win32/api/commctrl/nf-commctrl-imagelist_begindrag) à la place.\]
 
-\[[**Dad \_ ShowDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage) est disponible dans windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragShowNolock**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragshownolock) à la place. \]
+\[[**Dad \_ ShowDragImage**](/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_showdragimage) est disponible dans Windows 2000 et Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures. Utilisez [**ImageList \_ DragShowNolock**](/windows/win32/api/commctrl/nf-commctrl-imagelist_dragshownolock) à la place. \]
 
 \[Cette fonction est conservée uniquement à des fins de compatibilité descendante. Utilisez [**ExpandEnvironmentStrings**](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) à la place.\]
 
-\[Cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. \]
+\[cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. \]
 
-\[Cette fonction est disponible sur Windows XP avec SP2 via Windows Vista. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. À la place, les applications clientes doivent utiliser [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) pour présenter un environnement utilisateur qui permet de télécharger et d’échanger des fichiers en toute sécurité via des pièces jointes de messagerie électronique et de messagerie.\]
+\[cette fonction est disponible sur Windows XP avec SP2 via Windows Vista. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. À la place, les applications clientes doivent utiliser [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) pour présenter un environnement utilisateur qui permet de télécharger et d’échanger des fichiers en toute sécurité via des pièces jointes de messagerie électronique et de messagerie.\]
 
 \[[**FindResourceWrapW**](findresourcewrapw.md) peut être utilisé dans Windows XP. Elle n’est peut-être pas disponible dans les versions ultérieures. Vous devez utiliser [**FindResourceW**](/windows/win32/api/winbase/nf-winbase-findresourcea) à la place.\]
 
 \[[**GetDateFormatWrapW**](getdateformatwrapw.md) peut être utilisé dans Windows XP. Elle ne sera pas disponible dans les versions ultérieures. Vous devez utiliser [**GetDateFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformata) à la place.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 \[[**GetTimeFormatWrapW**](gettimeformatwrapw.md) peut être utilisé dans Windows XP. Elle n’est peut-être pas disponible dans les versions ultérieures. Vous devez utiliser [**GetTimeFormatW**](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformata) à la place.\]
 
 \[[**GUIDFromString**](guidfromstring.md) est disponible via Windows XP avec SP2 ou Windows Vista. Il peut être modifié ou non disponible dans les versions ultérieures. Les applications doivent utiliser [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) ou [**échec iidfromstring**](/windows/win32/api/combaseapi/nf-combaseapi-iidfromstring) à la place de cette fonction.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 \[[**IsCharAlphaNumericWrapW**](ischaralphanumericwrapw.md) peut être utilisé dans Windows XP. Elle ne sera pas disponible dans les versions ultérieures. Vous devez utiliser [**IsCharAlphaNumericW**](/windows/win32/api/winuser/nf-winuser-ischaralphanumerica) à la place.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) ou [**WNetGetConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetconnectiona) à la place.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**GetDriveType**](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) ou [**WNetGetConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetconnectiona) à la place.\]
 
-\[Cette interface est prise en charge par le biais de Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cette interface est prise en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**InitCommonControlsEx**](/windows/win32/api/commctrl/nf-commctrl-initcommoncontrolsex) à la place.\]
+\[cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**InitCommonControlsEx**](/windows/win32/api/commctrl/nf-commctrl-initcommoncontrolsex) à la place.\]
 
-\[Cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction ne peut pas être utilisée à partir de Windows 7.\]
+\[cette fonction ne peut pas être utilisée à partir de Windows 7.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction ne peut pas être utilisée à partir de Windows 7.\]
+\[cette fonction ne peut pas être utilisée à partir de Windows 7.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction peut être utilisée dans Windows XP. Elle n’est peut-être pas disponible dans les versions ultérieures. Utilisez [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) à la place.\]
+\[cette fonction peut être utilisée dans Windows XP. Elle n’est peut-être pas disponible dans les versions ultérieures. Utilisez [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) à la place.\]
 
-\[La fonction [**ParseField**](parsefield.md) est actuellement censée être utilisée dans la prochaine version du système d’exploitation Microsoft Windows. Il peut être modifié ou non disponible dans les versions ultérieures.\]
+\[la fonction [**ParseField**](parsefield.md) est actuellement censée être utilisée dans la prochaine version du système d’exploitation Microsoft Windows. Il peut être modifié ou non disponible dans les versions ultérieures.\]
 
-\[Cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction n’est pas prise en charge par Windows Vista.\]
+\[cette fonction n’est pas prise en charge à partir de Windows Vista.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**CoTaskMemAlloc**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) à la place.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**CoTaskMemAlloc**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) à la place.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 \[Cette structure n’est pas prise en charge.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) à la place.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**CLSIDFromString**](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) à la place.\]
 
-\[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) n’est pas implémenté sous les systèmes Windows XP ou version ultérieure.\]
+\[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) n’est pas implémenté sous Windows XP ou les systèmes ultérieurs.\]
 
 \[[**SHCreateProcessAsUserW**](/windows/desktop/api/Shellapi/nf-shellapi-shcreateprocessasuserw) n’est plus implémenté dans Windows XP ou versions ultérieures.\]
 
@@ -124,105 +124,105 @@ ms.locfileid: "103750236"
 
 \[[**SHDestroyPropSheetExtArray**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shdestroypropsheetextarray) peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 \[[**SHExtractIconsW**](shextracticonsw.md) est disponible via Windows XP SP2. Il peut être modifié ou non disponible dans les versions ultérieures.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Elle n’est pas prise en charge sous Windows Vista et versions ultérieures. Utilisez [**OleFlushClipboard**](/windows/win32/api/ole2/nf-ole2-oleflushclipboard) à la place.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. elle n’est pas prise en charge sous Windows Vista et versions ultérieures. Utilisez [**OleFlushClipboard**](/windows/win32/api/ole2/nf-ole2-oleflushclipboard) à la place.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) à la place.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. Utilisez [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) à la place.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[[**SHGetMalloc**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetmalloc) est disponible via Windows Vista et windows Server 2003, mais peut être modifié ou non disponible dans les versions ultérieures du système d’exploitation ou du produit. Pour obtenir d’autres recommandations, consultez la section Notes.\]
+\[[**SHGetMalloc**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetmalloc) est disponible via Windows Vista et Windows Server 2003, mais peut être modifié ou non disponible dans les versions ultérieures du système d’exploitation ou du produit. Pour obtenir d’autres recommandations, consultez la section Notes.\]
 
-\[[**SHGetShellStyleHInstance**](/previous-versions/windows/desktop/legacy/bb762202(v=vs.85)) peut être utilisé dans le système d’exploitation Windows XP jusqu’à SP2, y compris. Elle n’est pas disponible dans les versions ultérieures de Windows, telles que Windows Vista.\]
+\[[**SHGetShellStyleHInstance**](/previous-versions/windows/desktop/legacy/bb762202(v=vs.85)) peut être utilisé dans le système d’exploitation Windows XP jusqu’à SP2, y compris. elle n’est pas disponible dans les versions ultérieures de Windows, comme Windows Vista.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Elle n’est pas prise en charge à partir de Windows Vista.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. elle n’est pas prise en charge à partir de Windows Vista.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Elle n’est pas disponible à partir de Windows Vista.\]
-
-\[Cette fonction n’est plus prise en charge.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. elle n’est pas disponible à partir de Windows Vista.\]
 
 \[Cette fonction n’est plus prise en charge.\]
 
-\[Cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[Cette fonction n’est plus prise en charge.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cet objet est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible via Windows XP avec SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cet objet est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cet objet est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cet objet est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cet objet est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cet objet est disponible via Windows XP Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cet objet est disponible via Windows XP SP2 et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cet objet est disponible via Windows XP Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-\[Cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[La seule méthode, [**DoContextMenuPopup**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenusite-docontextmenupopup), n’est plus disponible pour une utilisation à partir de Windows Server 2003.\]
+\[cet objet est pris en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cette interface a été déconseillée. Il est pris en charge par Windows XP SP2 et Windows Server 2003. Elle n’est pas prise en charge à partir de Windows Vista.\]
+\[la seule méthode, [**DoContextMenuPopup**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenusite-docontextmenupopup), ne peut plus être utilisée à partir de Windows Server 2003.\]
+
+\[Cette interface a été déconseillée. il est pris en charge par Windows XP SP2 et Windows Server 2003. elle n’est pas prise en charge à partir de Windows Vista.\]
 
 \[Les [**IDeskBandInfo**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskbandinfo) peuvent être modifiés ou non disponibles dans les versions ultérieures du système d’exploitation ou du produit.\]
 
-\[Cette interface est prise en charge par Windows XPSP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cette interface est prise en charge via Windows XPSP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cette interface est prise en charge par le biais de Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cette interface est prise en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cette interface est prise en charge par le biais de Windows XP SP2 et Windows Server 2003. Elle n’est pas prise en charge à partir de Windows Vista.\]
+\[cette interface est prise en charge par Windows XP SP2 et Windows Server 2003. elle n’est pas prise en charge à partir de Windows Vista.\]
 
-\[L’interface [**IEnumSyncItems**](/previous-versions/windows/desktop/legacy/bb761957(v=vs.85)) peut être utilisée via Windows XP. Elle n’est pas disponible dans les versions ultérieures de Windows.\]
+\[l’interface [**IEnumSyncItems**](/previous-versions/windows/desktop/legacy/bb761957(v=vs.85)) peut être utilisée via Windows XP. Elle n’est pas disponible dans les versions ultérieures de Windows.\]
 
-\[L’interface [**IEnumSyncSchedules**](/previous-versions/windows/desktop/legacy/bb761937(v=vs.85)) peut être utilisée via Windows XP. Elle n’est pas disponible dans les versions ultérieures de Windows.\]
+\[l’interface [**IEnumSyncSchedules**](/previous-versions/windows/desktop/legacy/bb761937(v=vs.85)) peut être utilisée via Windows XP. Elle n’est pas disponible dans les versions ultérieures de Windows.\]
 
-\[L’interface [**IIdentityChangeNotify**](iidentitychangenotify.md) peut être utilisée dans Windows 2000. Dans Windows XP, cette fonctionnalité a été remplacée par [des comptes d’utilisateur avec changement rapide d’utilisateur et bureau à distance](fastuserswitching.md)et peut être modifiée ou non disponible dans les versions ultérieures.\]
+\[l’interface [**IIdentityChangeNotify**](iidentitychangenotify.md) peut être utilisée dans Windows 2000. dans Windows XP, cette fonctionnalité a été remplacée par [des comptes d’utilisateur avec changement rapide d’utilisateur et Bureau à distance](fastuserswitching.md)et peut être modifiée ou non disponible dans les versions ultérieures.\]
 
-\[Cette interface est prise en charge par le biais de Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cette interface est prise en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cette interface n’est pas prise en charge par Windows Vista. Elle a été supprimée des en-têtes publics.\]
+\[cette interface n’est pas prise en charge à partir de Windows Vista. Elle a été supprimée des en-têtes publics.\]
 
-\[Cette interface est prise en charge par le biais de Windows XP SP2 et Windows Server 2003. Elle n’est pas prise en charge à partir de Windows Vista.\]
+\[cette interface est prise en charge par Windows XP SP2 et Windows Server 2003. elle n’est pas prise en charge à partir de Windows Vista.\]
 
-\[Cette interface est prise en charge par le biais de Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cette interface est prise en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
 \[[**IShellFolderView**](/windows/win32/api/shlobj_core/nn-shlobj_core-ishellfolderview) n’est plus disponible pour une utilisation à partir de Windows 7. Utilisez plutôt [**IFolderView2**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2) et [**IFolderView**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview).\]
 
-\[Cette interface n’est finalement pas prise en charge. Il est recommandé d’utiliser les API GDI+ Windows à la place des méthodes [**IShellImageData**](/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata) .\]
+\[Cette interface n’est finalement pas prise en charge. il est recommandé d’utiliser les api Windows GDI+ à la place des méthodes [**IShellImageData**](/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata) .\]
 
 \[[**IShellTaskScheduler2**](/previous-versions/windows/desktop/legacy/bb774852(v=vs.85)) est disponible dans Windows XP. Il peut être modifié ou non disponible dans les versions ultérieures.\]
 
-\[L’interface [**ISyncSchedule**](/previous-versions/windows/desktop/isync-schedule/bb774693(v=vs.85)) peut être utilisée via Windows XP. Elle n’est pas disponible dans les versions ultérieures de Windows.\]
+\[l’interface [**ISyncSchedule**](/previous-versions/windows/desktop/isync-schedule/bb774693(v=vs.85)) peut être utilisée via Windows XP. Elle n’est pas disponible dans les versions ultérieures de Windows.\]
 
-\[L’interface [**ISyncScheduleMgr**](/previous-versions/windows/desktop/isync-schedule-mgr/bb774672(v=vs.85)) peut être utilisée via Windows XP. Elle n’est pas disponible dans les versions ultérieures de Windows.\]
+\[l’interface [**ISyncScheduleMgr**](/previous-versions/windows/desktop/isync-schedule-mgr/bb774672(v=vs.85)) peut être utilisée via Windows XP. Elle n’est pas disponible dans les versions ultérieures de Windows.\]
 
 \[[**ITravelEntry**](/windows/desktop/api/Shdeprecated/nn-shdeprecated-itravelentry) peut ne pas être pris en charge dans les versions de Windows ultérieures à Windows XP.\]
 
-\[Cette notification est prise en charge par le biais de Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cette notification est prise en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
-\[Cette notification est prise en charge par le biais de Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
+\[cette notification est prise en charge par Windows XP SP2 et Windows Server 2003. Il est possible qu’il ne soit pas pris en charge dans les versions ultérieures de Windows.\]
 
 Les API suivantes sont déconseillées ou remplacées par des API plus récentes.
 
@@ -471,11 +471,11 @@ Les API suivantes sont déconseillées ou remplacées par des API plus récentes
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/shell/callbacks"><strong>MLLoadLibrary</strong></a><br/></td>
-<td>Mappe une DLL de ressource appropriée dans l’espace d’adressage de la fonction appelante, en fonction de la langue de l’interface utilisateur par défaut de l’utilisateur. <br/></td>
+<td>Cartes une DLL de ressource appropriée dans l’espace d’adressage de la fonction appelante, en fonction de la langue de l’interface utilisateur par défaut de l’utilisateur. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="mlwinhelp.md"><strong>MLWinHelp</strong></a><br/></td>
-<td>Démarre l’aide de Windows (Winhelp.exe) et transmet des données supplémentaires qui indiquent la nature de l’aide demandée par l’application.<br/></td>
+<td>démarre Windows aide (Winhelp.exe) et transmet des données supplémentaires qui indiquent la nature de l’aide demandée par l’application.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-openregstream"><strong>OpenRegStream</strong></a><br/></td>
@@ -699,7 +699,7 @@ Les API suivantes sont déconseillées ou remplacées par des API plus récentes
 <td>Action déconseillée. Obtient le chemin d’accès d’un dossier identifié par une valeur <a href="csidl.md"><strong>CSIDL</strong></a> . <br/>
 <blockquote>
 [!Note]<br />
-À compter de Windows Vista, cette fonction est simplement un wrapper pour <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath"><strong>SHGetKnownFolderPath</strong></a>. La valeur CSIDL est convertie en <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> associée, puis <strong>SHGetKnownFolderPath</strong> est appelée. Les nouvelles applications doivent utiliser le système de dossiers connu plutôt que l’ancien système CSIDL, qui est pris en charge uniquement pour la compatibilité descendante.
+à partir de Windows Vista, cette fonction est simplement un wrapper pour <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath"><strong>SHGetKnownFolderPath</strong></a>. La valeur CSIDL est convertie en <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> associée, puis <strong>SHGetKnownFolderPath</strong> est appelée. Les nouvelles applications doivent utiliser le système de dossiers connu plutôt que l’ancien système CSIDL, qui est pris en charge uniquement pour la compatibilité descendante.
 </blockquote>
 <br/></td>
 </tr>
@@ -756,7 +756,7 @@ Les API suivantes sont déconseillées ou remplacées par des API plus récentes
 <td>Exécute une commande sur un objet Printer. <br/>
 <blockquote>
 [!Note]<br />
-Cette fonction a été déconseillée à partir de Windows Vista. Il est recommandé, à la place, d’appeler des verbes sur des imprimantes via <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>IContextMenu</strong></a> ou <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a>.
+cette fonction a été déconseillée à partir de Windows Vista. Il est recommandé, à la place, d’appeler des verbes sur des imprimantes via <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>IContextMenu</strong></a> ou <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a>.
 </blockquote>
 <br/></td>
 </tr>
@@ -895,7 +895,7 @@ Cette fonction a été remplacée par <a href="/windows/desktop/api/Shlwapi/nf-s
 </tr>
 <tr class="even">
 <td><a href="wowshellexecute.md"><strong>WOWShellExecute</strong></a><br/></td>
-<td>Effectue une opération sur un fichier spécifié. <a href="wowshellexecute.md"><strong>WOWShellExecute</strong></a> existe uniquement pour une utilisation avec la machine DOS virtuelle Microsoft Windows NT (Ntvdm.exe), qui permet d’exécuter le système d’exploitation sur disque (dos) et le logiciel 16 bits sur un système Windows, et ne doit pas être utilisé par une autre personne. Utilisez à la place <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> .<br/></td>
+<td>Effectue une opération sur un fichier spécifié. <a href="wowshellexecute.md"><strong>WOWShellExecute</strong></a> existe uniquement pour une utilisation avec la Machine DOS virtuelle Microsoft Windows NT (Ntvdm.exe), qui permet l’exécution du système d’exploitation sur disque (DOS) et du logiciel 16 bits sur un système Windows, et ne doit pas être utilisée par une autre personne. Utilisez à la place <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> .<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-writecabinetstate"><strong>WriteCabinetState</strong></a><br/></td>
@@ -903,7 +903,7 @@ Cette fonction a été remplacée par <a href="/windows/desktop/api/Shlwapi/nf-s
 </tr>
 <tr class="even">
 <td><a href="shlwapi-wrappers.md"><strong>Fonctions de wrapper SHLWAPI</strong></a><br/></td>
-<td>Les tableaux de ce document répertorient les fonctions de wrapper de Shlwapi.dll qui fournissent des fonctionnalités Unicode limitées à Windows 95, Windows 98 et Windows Millennium Edition (Windows Me).<br/></td>
+<td>les tables de ce document contiennent des fonctions de wrapper de Shlwapi.dll qui fournissent des fonctionnalités Unicode limitées à Windows 95, Windows 98 et Windows millennium edition (Windows Me).<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/shell/samples-namespacetreecontrol"><strong>FileOpen</strong></a><br/></td>
@@ -911,7 +911,7 @@ Cette fonction a été remplacée par <a href="/windows/desktop/api/Shlwapi/nf-s
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/shell/samples-nondefaultdropmenuverb"><strong>Types</strong></a><br/></td>
-<td>Crée la <strong>page types de fichiers</strong> de la feuille de propriétés options des <strong>dossiers</strong> affichée par l’utilisateur en cliquant sur <strong>Options des dossiers</strong> dans le menu <strong>Outils</strong> de l’Explorateur Windows. <br/></td>
+<td>crée la <strong>page Types de fichiers</strong> de la feuille de propriétés options des <strong>dossiers</strong> affichée par l’utilisateur en cliquant sur <strong>Options des dossiers</strong> dans le menu <strong>outils</strong> de l’explorateur de Windows. <br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/shell/functions"><strong>FolderItemsFDF</strong></a><br/></td>
@@ -967,10 +967,10 @@ Cette fonction a été remplacée par <a href="/windows/desktop/api/Shlwapi/nf-s
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider"><strong>IColumnProvider</strong></a><br/></td>
-<td>Expose des méthodes qui permettent l’ajout de colonnes personnalisées dans l’affichage Détails de l’Explorateur Windows. <br/>
+<td>expose des méthodes qui permettent d’ajouter des colonnes personnalisées dans le mode détails de l’explorateur de Windows. <br/>
 <blockquote>
 [!Note]<br />
-La prise en charge de <a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider"><strong>IColumnProvider</strong></a> a été supprimée depuis Windows Vista. Le système de propriétés Windows est utilisé à la place. Consultez <a href="/windows/desktop/properties/windows-properties-system">système de propriétés Windows</a> pour obtenir des documents conceptuels expliquant l’utilisation du nouveau système.
+la prise en charge de <a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider"><strong>IColumnProvider</strong></a> a été supprimée à partir de Windows Vista. le système de propriétés de Windows est utilisé à la place. consultez <a href="/windows/desktop/properties/windows-properties-system">Windows système de propriétés</a> pour obtenir des documents conceptuels expliquant l’utilisation du nouveau système.
 </blockquote>
 <br/></td>
 </tr>
@@ -995,7 +995,7 @@ La prise en charge de <a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprov
 <td>Utilisé pour obtenir des informations sur un objet de bande.<br/>
 <blockquote>
 [!Important]<br />
-Vous devez utiliser les <a href="taskbar-extensions.md">barres d’outils miniatures</a> dans un nouveau développement à la place des bandes de bureau, qui ne sont pas prises en charge à partir de Windows 7.
+vous devez utiliser les <a href="taskbar-extensions.md">barres d’outils miniatures</a> dans un nouveau développement à la place des bandes de bureau, qui ne sont pas prises en charge à partir de Windows 7.
 </blockquote>
 <br/></td>
 </tr>
@@ -1004,7 +1004,7 @@ Vous devez utiliser les <a href="taskbar-extensions.md">barres d’outils miniat
 <td>Expose des méthodes pour activer et interroger des effets translucidité dans un objet Deskband.<br/>
 <blockquote>
 [!Important]<br />
-Vous devez utiliser les <a href="taskbar-extensions.md">barres d’outils miniatures</a> dans un nouveau développement à la place des bandes de bureau, qui ne sont pas prises en charge à partir de Windows 7.
+vous devez utiliser les <a href="taskbar-extensions.md">barres d’outils miniatures</a> dans un nouveau développement à la place des bandes de bureau, qui ne sont pas prises en charge à partir de Windows 7.
 </blockquote>
 <br/></td>
 </tr>
@@ -1062,11 +1062,11 @@ Vous devez utiliser les <a href="taskbar-extensions.md">barres d’outils miniat
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/shell/syncmgr-using-from-a-program"><strong>IPassportClientServices</strong></a><br/></td>
-<td>L’interface <a href="/windows/desktop/shell/syncmgr-using-from-a-program"><strong>IPassportClientServices</strong></a> expose une méthode pour déterminer si un identifiant Windows Live ID existe.<br/></td>
+<td>l’interface <a href="/windows/desktop/shell/syncmgr-using-from-a-program"><strong>IPassportClientServices</strong></a> expose une méthode pour déterminer si un ID Live Windows existe.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/shell/thumbnail-providers"><strong>IPassportWizard</strong></a><br/></td>
-<td>Expose une méthode qui appelle l’Assistant Passport Windows XP. <br/></td>
+<td>expose une méthode qui appelle l’assistant Passport Windows XP. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iregtreeitem"><strong>IRegTreeItem</strong></a><br/></td>
@@ -1076,9 +1076,9 @@ Vous devez utiliser les <a href="taskbar-extensions.md">barres d’outils miniat
 <td><a href="/windows/desktop/shell/how-to-register-and-implement-a-property-sheet-handler-for-a-control-panel-application"><strong>IShellExecuteHook</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Les hooks d’exécution de Shell sont déconseillés à partir de Windows Vista.
+les hooks d’exécution de Shell sont déconseillés à partir de Windows Vista.
 </blockquote>
-<br/> Expose une méthode qui étend le comportement des fonctions <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> ou <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> . Elle est généralement implémentée par les sous-systèmes qui exposent les noms des objets que l’utilisateur peut spécifier dans la boîte de dialogue <strong>exécuter</strong> après avoir cliqué sur le bouton <strong>Démarrer</strong> de Windows.<br/></td>
+<br/> Expose une méthode qui étend le comportement des fonctions <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea"><strong>ShellExecute</strong></a> ou <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> . elle est généralement implémentée par les sous-systèmes qui exposent les noms des objets que l’utilisateur peut spécifier dans la boîte de dialogue <strong>exécuter</strong> après avoir cliqué sur le bouton Windows <strong>démarrer</strong> .<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband"><strong>IShellFolderBand</strong></a><br/></td>
@@ -1102,7 +1102,7 @@ Les hooks d’exécution de Shell sont déconseillés à partir de Windows Vista
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice"><strong>IShellService</strong></a><br/></td>
-<td>Action déconseillée. <a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice"><strong>IShellService</strong></a> Expose une méthode qui déclare la propriété lorsqu’un composant de service implémentant une certaine interface est partagé entre plusieurs clients, tels que Windows Internet Explorer et l’Explorateur Windows. <br/></td>
+<td>Action déconseillée. <a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-ishellservice"><strong>IShellService</strong></a> expose une méthode qui déclare la propriété lorsqu’un composant de service implémentant une certaine interface est partagé entre plusieurs clients, par exemple Windows Internet explorer et Windows explorer. <br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelltaskscheduler"><strong>IShellTaskScheduler</strong></a><br/></td>
@@ -1125,7 +1125,7 @@ Les hooks d’exécution de Shell sont déconseillés à partir de Windows Vista
 <td>Expose une méthode qui obtient une représentation miniature d’un papier peint HTML. <br/>
 <blockquote>
 [!Note]<br />
-Cette interface est déconseillée à partir de Windows 7. La fonctionnalité prise en charge n’est plus disponible dans Windows.
+cette interface est déconseillée à partir de Windows 7. La fonctionnalité prise en charge n’est plus présente dans Windows.
 </blockquote>
 <br/></td>
 </tr>

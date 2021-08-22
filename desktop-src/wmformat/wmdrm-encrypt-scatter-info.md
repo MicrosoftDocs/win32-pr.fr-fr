@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 500012231f6860fd94038b240355eda9aa2aee44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ef766f40742713b01648348bedb4c1a35494fdc02d02843f8f2a41f133938a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083813"
 ---
 # <a name="wmdrm_encrypt_scatter_info-structure"></a>\_Structure des \_ informations de diffusion de CHIFFREment WMDRM \_
 
@@ -72,7 +72,7 @@ Mémoire tampon contenant des informations de protection supplémentaires.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est utilisée par la méthode [**IWMDRMEncryptScatter :: InitEncryptScatter**](iwmdrmencryptscatter-initencryptscatter.md) .
 

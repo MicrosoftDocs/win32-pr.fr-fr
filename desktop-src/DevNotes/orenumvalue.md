@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: b8049a5d16a88dc87bf4c0f6f5e8ef18b30beadc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 57a65e8fd862215bd6281e487520857580cf6026b94b2ca375079f84407e4cc7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119331799"
 ---
 # <a name="orenumvalue-function"></a>OREnumValue fonction)
 
@@ -114,7 +114,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur différent de
 
 Si la mémoire tampon *lpData* est trop petite pour recevoir la valeur, la fonction retourne l’erreur \_ plus de \_ données.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour énumérer des valeurs, une application doit appeler initialement la fonction **OREnumValue** avec le paramètre *dwIndex* défini sur zéro. L’application doit ensuite incrémenter *dwIndex* et appeler la fonction **OREnumValue** jusqu’à ce qu’il n’y ait plus de valeur (jusqu’à ce que la fonction retourne l’erreur plus \_ aucun \_ \_ élément).
 
@@ -132,7 +132,7 @@ Pour déterminer la taille maximale du nom et des tampons de données, utilisez 
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

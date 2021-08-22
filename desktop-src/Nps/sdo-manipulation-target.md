@@ -5,19 +5,19 @@ ms.assetid: a6d06a15-2694-410c-8083-6e5fe500b809
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbd2c2abf0c2f2423d64f7a8649793d68abaee6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 36b93073bff71d12c9974b0dbfd569b17f935db2d4bf7f4f3cd9e38ef3d3156c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119251114"
 ---
 # <a name="manipulation-target"></a>Manipulation-Target
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008.
 
- 
+ 
 
 Données cibles auxquelles une règle de manipulation d’attribut est appliquée. La manipulation d’attributs était auparavant appelée « traitement de domaines ». Pour plus d’informations, consultez [traitement des domaines et manipulation des attributs](/windows/desktop/Nps/sdo-realms-processing-and-attribute-manipulation).
 
@@ -27,7 +27,7 @@ Données cibles auxquelles une règle de manipulation d’attribut est appliqué
 
 **Syntaxe :** Énumérateur
 
-**Valeurs :  **
+* * Valeurs : * *
 
 Défini par l’IANA (Internet Assigned Numbers Authority) dans le document [types RADIUS](https://www.iana.org/assignments/radius-types) basé sur la [RFC 2865](https://www.ietf.org/rfc/rfc2865.txt).
 
@@ -35,6 +35,6 @@ Défini par l’IANA (Internet Assigned Numbers Authority) dans le document [typ
 -   Appelé-Station-ID (30)
 -   Call-Station-ID (31)
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1d33b8042cd1fd15d46e15dfb3624e0d3b4a885b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81e2dec50ccf765239bbbd1d6a71c8f8fb2be0e4f70f2db5717b0072f0b62d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052097"
 ---
 # <a name="authentication-using-script"></a>Authentification à l’aide d’un script
 
@@ -27,17 +27,17 @@ Cette section montre comment écrire un script qui utilise l’objet [**WinHttpR
 
 ## <a name="prerequisites-and-requirements"></a>Conditions préalables et configuration requise
 
-Outre les connaissances pratiques de Microsoft JScript, cet exemple nécessite les éléments suivants :
+outre les connaissances pratiques de Microsoft JScript, cet exemple nécessite les éléments suivants :
 
--   Version actuelle du kit de développement logiciel (SDK) Microsoft Windows.
--   L’outil de configuration de proxy pour établir les paramètres de proxy pour les services HTTP Microsoft Windows (WinHTTP), si votre connexion à Internet s’effectue via un serveur proxy. Pour plus d’informations [ , consultezProxycfg.exe, un outil de configuration de proxy](proxycfg-exe--a-proxy-configuration-tool.md) .
+-   version actuelle du kit de développement logiciel (SDK) Microsoft Windows.
+-   l’outil de configuration de proxy pour établir les paramètres de proxy pour les Services HTTP Microsoft Windows (WinHTTP), si votre connexion à Internet s’effectue via un serveur proxy. Pour plus d’informations [ , consultezProxycfg.exe, un outil de configuration de proxy](proxycfg-exe--a-proxy-configuration-tool.md) .
 -   Une bonne connaissance de la terminologie et des concepts relatifs au [réseau](network-terminology.md) .
 
 ## <a name="accessing-a-web-site-with-authentication"></a>Accès à un site Web avec l’authentification
 
 **Pour créer un script illustrant l’authentification, procédez comme suit :**
 
-1.  Ouvrez un éditeur de texte tel que le bloc-notes Microsoft.
+1.  ouvrez un éditeur de texte tel que Microsoft Bloc-notes.
 2.  Copiez le code suivant dans l’éditeur de texte après avoir remplacé « \[ authenticationSite \] » par le texte approprié pour spécifier l’URL d’un site qui requiert l’authentification http.
 
     ```VB

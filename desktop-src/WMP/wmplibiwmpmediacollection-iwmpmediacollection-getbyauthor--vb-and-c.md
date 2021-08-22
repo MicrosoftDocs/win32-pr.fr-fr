@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection getByAuthor
 description: La méthode getByAuthor retourne une interface IWMPPlaylist qui fournit l’accès aux éléments multimédias par l’auteur spécifié.
 ms.assetid: eb3793f6-bad1-4c80-991e-c6d0093ae57f
 keywords:
-- méthode getByAuthor lecteur Windows Media
-- méthode getByAuthor lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode getByAuthor
+- Lecteur Windows Media de la méthode getByAuthor
+- méthode getByAuthor Lecteur Windows Media, interface IWMPMediaCollection
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode getByAuthor
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e594de010a65c15088e2a31a3ccbac2ac5a1fc6e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 829232e6cd9fb64fec1d209991c3734ad435b4b69d0d7b66b135ab9cca1fe4a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053607"
 ---
 # <a name="iwmpmediacollectiongetbyauthor-method"></a>IWMPMediaCollection :: getByAuthor, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPMediaCollection.getByAuthor
 
 Interface **wmplib. IWMPPlaylist** pour les éléments multimédias récupérés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

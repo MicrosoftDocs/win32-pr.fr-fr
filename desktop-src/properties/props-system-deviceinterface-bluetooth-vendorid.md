@@ -1,19 +1,19 @@
 ---
-description: Identificateur du fournisseur de l’appareil Bluetooth.
+description: identificateur du fournisseur de l’appareil Bluetooth.
 ms.assetid: 8dec8338-ee12-493e-8b12-92a6d3a46400
-title: System. DeviceInterface. Bluetooth. ID de la
+title: System. DeviceInterface. Bluetooth. VendorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea34f472bb4872922a52ae70e0df7d34a3c19e23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5312a540213a9193a1a486271397a929aef1f8f80a16314a015a07d0cce66927
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033677"
 ---
-# <a name="systemdeviceinterfacebluetoothvendorid"></a>System. DeviceInterface. Bluetooth. ID de la
+# <a name="systemdeviceinterfacebluetoothvendorid"></a>System. DeviceInterface. Bluetooth. VendorId
 
-Identificateur du fournisseur de l’appareil Bluetooth.
+identificateur du fournisseur de l’appareil Bluetooth.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511
 
@@ -47,7 +47,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

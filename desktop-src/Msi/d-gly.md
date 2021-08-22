@@ -1,15 +1,15 @@
 ---
-description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre D, tels que la fonction de base de données et le correctif Delta.
+description: en savoir plus sur les concepts de Windows Installer qui commencent par la lettre D, tels que la fonction de base de données et le correctif delta.
 ms.assetid: d6dd73e7-657f-4f71-8e9b-70369cb21972
 title: D (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d76378d636c8ae14acdc9cb882c31840e3f1550f
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: c9a2e1099386a2da176eb899c7974c60244636f6da1384543bde4975ba3a18c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119289669"
 ---
 # <a name="d-windows-installer"></a>D (Windows Installer)
 
@@ -34,7 +34,7 @@ Requis pour l’utilisation d’une base de données. Pour plus d’informations
 <span id="setup.delta_patch_gly"></span><span id="SETUP.DELTA_PATCH_GLY"></span>**correctif Delta**
 </dt> <dd>
 
-Un correctif Delta est un correctif Windows Installer compressé par Delta, créé à l’aide d’un outil, tel que Patchwiz.dll, qui prend en charge la compression Delta. Les correctifs qui utilisent la compression Delta peuvent réduire la taille d’une mise à jour en fournissant uniquement les différences (deltas) entre les fichiers existants sur un ordinateur cible et les nouveaux fichiers souhaités. Les nouveaux fichiers souhaités sont ensuite synthétisés à partir des fichiers existants et des deltas téléchargés. Pour plus d’informations sur la technologie de compression Delta, consultez l' [interface de programmation d’applications de compression Delta](https://msdn.microsoft.com/library/ms811406.aspx).
+un correctif delta est un correctif Windows Installer compressé par delta, créé à l’aide d’un outil, tel que Patchwiz.dll, qui prend en charge la compression delta. Les correctifs qui utilisent la compression Delta peuvent réduire la taille d’une mise à jour en fournissant uniquement les différences (deltas) entre les fichiers existants sur un ordinateur cible et les nouveaux fichiers souhaités. Les nouveaux fichiers souhaités sont ensuite synthétisés à partir des fichiers existants et des deltas téléchargés. Pour plus d’informations sur la technologie de compression Delta, consultez l' [interface de programmation d’applications de compression Delta](https://msdn.microsoft.com/library/ms811406.aspx).
 
 </dd> </dl>
 

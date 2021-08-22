@@ -1,19 +1,19 @@
 ---
-description: Supprimer tous les filtres dans le graphique
+description: Supprimer tous les filtres dans le Graph
 ms.assetid: a11af581-c331-4607-be8b-5f65961bd422
-title: Supprimer tous les filtres dans le graphique
+title: Supprimer tous les filtres dans le Graph
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67d414ef7e532eaf5df9143a6b601a57e4a8bd45
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f10b76bb5f5bc3cff2bfb989c422f177ef0d2ee4d09acff3c2f895ef9984b7c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072733"
 ---
-# <a name="remove-all-the-filters-in-the-graph"></a>Supprimer tous les filtres dans le graphique
+# <a name="remove-all-the-filters-in-the-graph"></a>Supprimer tous les filtres dans le Graph
 
-Le moyen le plus simple de supprimer tous les filtres dans un graphique de filtre consiste simplement à libérer le gestionnaire du graphique de filtres et à en créer un nouveau. Veillez à libérer chaque pointeur de votre application sur les interfaces des gestionnaires de graphique de filtre, ainsi que les pointeurs vers des objets dans le graphique, y compris des filtres, des codes confidentiels, l’horloge de référence, etc.
+le moyen le plus simple de supprimer tous les filtres dans un graphique de filtre consiste simplement à libérer le filtre Graph Manager et à en créer un nouveau. veillez à libérer chaque pointeur de votre application sur les interfaces du filtre Graph les gestionnaires, ainsi que les pointeurs vers des objets dans le graphique, y compris les filtres, les codes confidentiels, l’horloge de référence, etc.
 
 Vous pouvez également supprimer les filtres un par un, à l’aide de la méthode [**IFilterGraph :: removeFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-removefilter) :
 

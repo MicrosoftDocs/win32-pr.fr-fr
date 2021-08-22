@@ -1,5 +1,5 @@
 ---
-description: Représente un service de la plateforme Microsoft Windows Hyper-V.
+description: représente un service de la plateforme Microsoft Windows Hyper-V.
 ms.assetid: 309EFE4C-EEA4-454C-943D-CBF99D64FE15
 title: Classe Msvm_VirtualizationComponent
 ms.topic: reference
@@ -17,16 +17,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 19811b224a4e93e85420539248b7d010491335aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab2d2d5652f2969ad20ee70077d23375371e3507991a16b6d5e6dda2245678ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068429"
 ---
 # <a name="msvm_virtualizationcomponent-class"></a>MSVM \_ VirtualizationComponent, classe
 
-Représente un service de la plateforme Microsoft Windows Hyper-V.
+représente un service de la plateforme Microsoft Windows Hyper-V.
 
 La syntaxe suivante est simplifiée format MOF (MOF).
 
@@ -84,7 +84,7 @@ Contexte dans lequel l’objet nouvellement créé s’exécutera. Cette valeur 
 
 </dd> <dt>
 
-**Enabled**
+**Activé**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -113,7 +113,7 @@ Chaîne indépendante du langage qui identifie de façon unique le service. Le f
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ VirtualizationComponent** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -123,8 +123,8 @@ L’accès à la classe **MSVM \_ VirtualizationComponent** peut être limité p
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Fin de la prise en charge des clients<br/>    | Windows 8.1<br/>                                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |

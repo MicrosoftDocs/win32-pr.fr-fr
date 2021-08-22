@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Déchargement d’un fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 123d8c4f6b9d9155cdc22dc435635466956bdb0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b831f69ba27ab3e173920cc57e7500ef543bb327a04dc5c04dc8b0b9cef31ad0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049957"
 ---
 # <a name="unloading-a-provider"></a>Déchargement d’un fournisseur
 
@@ -89,7 +89,7 @@ La solution la plus simple consiste à implémenter votre fournisseur hors proce
 
 Si vous devez placer le code de nettoyage dans votre fournisseur, vous avez deux options. Un emplacement pour effectuer ce type de nettoyage est [**DllMain**](/windows/desktop/Dlls/dllmain), la fonction de point d’entrée de dll qui est appelée par le système d’exploitation lors du déchargement de la dll. Le code de nettoyage peut être ajouté directement à **DllMain**, en l’exécutant en réponse au **\_ \_ détachement du processus dll**. L’implémentation d’un code de nettoyage dans **DllMain** peut être un peu difficile à organiser, en particulier dans les environnements de programmation tels que MFC ou ATL. Pour plus d’informations, consultez l’article Q148791 de la base de connaissances Microsoft, «*comment fournir votre propre DllMain dans une DLL régulière MFC ».* (Cette ressource n’est peut-être pas disponible dans certaines langues et pays ou régions.)
 
-Vous pouvez également placer le code de nettoyage dans le destructeur d’une classe globale. Pour plus d’informations, consultez déchargement d’un fournisseur. Le système d’exploitation Windows n’alloue pas d’objets globaux sur le segment de mémoire. Au lieu de cela, le système d’exploitation appelle les destructeurs pendant le déchargement de la DLL.
+Vous pouvez également placer le code de nettoyage dans le destructeur d’une classe globale. Pour plus d’informations, consultez déchargement d’un fournisseur. le système d’exploitation Windows n’alloue pas d’objets globaux sur le tas. Au lieu de cela, le système d’exploitation appelle les destructeurs pendant le déchargement de la DLL.
 
 Voici une procédure de nettoyage simple qui peut tenir dans un objet global pour WMI.
 

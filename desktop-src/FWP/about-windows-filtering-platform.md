@@ -1,25 +1,25 @@
 ---
-title: À propos de la plateforme de filtrage Windows
-description: La plateforme de filtrage Windows (WFP) est une plateforme de traitement du trafic réseau conçue pour remplacer les interfaces de filtrage du trafic réseau Windows XP et Windows Server 2003.
+title: à propos de la plateforme de filtrage Windows
+description: Windows la plateforme de filtrage (WFP) est une plateforme de traitement du trafic réseau conçue pour remplacer les interfaces de filtrage du trafic réseau Windows XP et Windows Server 2003.
 ms.assetid: 6faad008-b2f6-4f45-89c7-ae98c2f58ce1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ab259eca1da714bbeb8d4ea556e69513f33514c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 01a81f4f67c2f3281a6fa6b5d3220f9e2157643dfd7cf3bac34ea55743024946
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106538594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069489"
 ---
-# <a name="about-windows-filtering-platform"></a>À propos de la plateforme de filtrage Windows
+# <a name="about-windows-filtering-platform"></a>à propos de la plateforme de filtrage Windows
 
-La plateforme de filtrage Windows (WFP) est une plateforme de traitement du trafic réseau conçue pour remplacer les interfaces de filtrage du trafic réseau Windows XP et Windows Server 2003. La plateforme WFP se compose d’un ensemble de raccordements dans la pile réseau et d’un moteur de filtrage qui coordonne les interactions entre les piles réseau.
+Windows la plateforme de filtrage (WFP) est une plateforme de traitement du trafic réseau conçue pour remplacer les interfaces de filtrage du trafic réseau Windows XP et Windows Server 2003. La plateforme WFP se compose d’un ensemble de raccordements dans la pile réseau et d’un moteur de filtrage qui coordonne les interactions entre les piles réseau.
 
 ## <a name="the-wfp-components"></a>Composants WFP
 
 ### <a name="filter-engine"></a>Moteur de filtre
 
-L’infrastructure de filtrage multicouche de base, hébergée en mode noyau et en mode utilisateur, qui remplace les modules de filtrage multiples dans le sous-système de mise en réseau Windows XP et Windows Server 2003.
+l’infrastructure de filtrage multicouche de base, hébergée en mode noyau et en mode utilisateur, qui remplace les modules de filtrage multiples dans le sous-système de mise en réseau Windows XP et Windows Server 2003.
 
 -   Filtre le trafic réseau sur n’importe quelle couche du système sur tous les champs de données qu’un shim peut fournir.
 -   Implémente les filtres de « légende » en appelant des légendes pendant la classification.
@@ -28,7 +28,7 @@ L’infrastructure de filtrage multicouche de base, hébergée en mode noyau et 
 
 ### <a name="base-filtering-engine-bfe"></a>Moteur de filtrage de base (BFE)
 
-Service qui contrôle le fonctionnement de la plateforme de filtrage Windows. Il effectue les tâches suivantes.
+service qui contrôle le fonctionnement de la plateforme de filtrage de Windows. Il effectue les tâches suivantes.
 
 -   Accepte des filtres et d’autres paramètres de configuration pour la plateforme.
 -   Indique l’état actuel du système, y compris les statistiques.
@@ -48,7 +48,7 @@ Composants en mode noyau qui résident entre la pile réseau et le moteur de fil
 
 ### <a name="callouts"></a>Légendes
 
-Ensemble de fonctions exposées par un pilote et utilisées pour le filtrage spécialisé. Outre les actions de base de « autoriser » et « bloquer », les légendes peuvent modifier et sécuriser le trafic réseau entrant et sortant. Pour plus d’informations sur les légendes, consultez la rubrique [pilotes Windows de la plateforme de filtrage Windows](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2) dans la documentation du kit de pilotes Windows (WDK). WFP fournit des légendes intégrées qui effectuent les tâches suivantes.<br/>
+Ensemble de fonctions exposées par un pilote et utilisées pour le filtrage spécialisé. Outre les actions de base de « autoriser » et « bloquer », les légendes peuvent modifier et sécuriser le trafic réseau entrant et sortant. pour plus d’informations sur les légendes, consultez la rubrique pilotes de la légende de la [plateforme de filtrage Windows](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2) dans la documentation WDK (Windows Driver Kit). WFP fournit des légendes intégrées qui effectuent les tâches suivantes.<br/>
 
 -   Effectuer le traitement IPsec.
 -   Ajuster le comportement de filtrage avec état.

@@ -4,12 +4,12 @@ ms.assetid: 43db70b6-f8bc-4241-9096-5d91fd1e332b
 title: Commande IMC_GETCOMPOSITIONFONT (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 696d9809cadbe4f2c0e632719401e882777888dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ebf26592f2fd000f864685bd79d71b189fc24d695941691fe2e01d48132d00d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068099"
 ---
 # <a name="imc_getcompositionfont-command"></a>\_Commande IMC GETCOMPOSITIONFONT
 
@@ -52,7 +52,7 @@ Retourne 0 en cas de réussite, ou une valeur différente de zéro dans le cas c
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

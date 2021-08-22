@@ -7,12 +7,12 @@ keywords:
 - Rechercher dans le délai d’expiration ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cdfdc63dd4490a840a16eb61598b2461c3e1a40
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e99b287c1bc0ba0da5e39b579c4a454eae821cf2c443930a5ae0376412e2c00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082303"
 ---
 # <a name="search-time-out"></a>Délai d’expiration de la recherche
 
@@ -23,12 +23,12 @@ La propriété de délai d’attente est utile lorsqu’un client demande une re
 Pour plus d’informations sur l’utilisation de l’option de délai d’attente de recherche avec une interface de recherche spécifique, consultez :
 
 -   [Limite de temps du client avec IDirectorySearch](client-time-limit-with-idirectorysearch.md)
--   [Recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
+-   [recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
 -   [Recherche avec OLE DB](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: d62f1d40-4f42-4684-96d7-de88db67dceb
 title: HCRYPTKEY (Wincrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56bda14169aa2f4d7c6e502d3444473ea0f00408
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c78d50f7fb005d877f6520172631b4546b8d498c415de58502defd26831c65fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006437"
 ---
 # <a name="hcryptkey"></a>HCRYPTKEY
 
@@ -28,8 +28,8 @@ typedef ULONG_PTR HCRYPTKEY;
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Wincrypt. h</dt> </dl> |
 
 

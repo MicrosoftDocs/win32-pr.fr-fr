@@ -4,16 +4,16 @@ ms.assetid: 039a9f66-228e-4258-9967-2b2cd7d31091
 title: Consommation d’événements (traçage d’événements)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68ad8234cc66d07b5a52c10ab39c7d7b3c8aa029
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b42761bed132c5416a99888e067a1192571a527f39506e8964d5ea0209135b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119269359"
 ---
 # <a name="consuming-events-event-tracing"></a>Consommation d’événements (traçage d’événements)
 
-Les consommateurs de suivi d’événements peuvent traiter les événements d’un ou de plusieurs fournisseurs. Les consommateurs peuvent traiter des événements à partir d’un fichier journal ou en temps réel. Vous pouvez consommer des événements en temps réel uniquement si le contrôleur spécifie le mode de journalisation en temps réel pour la session. Pour des raisons de performances, le traitement en temps réel n’est pas recommandé avant Windows Vista.
+Les consommateurs de suivi d’événements peuvent traiter les événements d’un ou de plusieurs fournisseurs. Les consommateurs peuvent traiter des événements à partir d’un fichier journal ou en temps réel. Vous pouvez consommer des événements en temps réel uniquement si le contrôleur spécifie le mode de journalisation en temps réel pour la session. pour des raisons de performances, le traitement en temps réel n’est pas recommandé avant Windows Vista.
 
 Pour spécifier la session de trace à partir de laquelle vous souhaitez traiter les événements, vous utilisez la structure du [**\_ \_ fichier journal de suivi d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_logfilea) . Vous devez initialiser une copie de cette structure pour chaque fichier journal ou session en temps réel que vous souhaitez traiter.
 
@@ -25,9 +25,9 @@ Pour consommer des événements à partir d’un fichier journal, définissez le
 
 Après avoir défini une ou plusieurs sessions de suivi, appelez la fonction [**OpenTrace**](/windows/win32/api/evntrace/nf-evntrace-opentracea) pour chaque session de trace que vous souhaitez traiter. vous pouvez traiter les événements à partir d’un ou de plusieurs fichiers journaux, mais à partir d’une seule session en temps réel. Vous transmettez ensuite la liste des handles de session de suivi que **OpenTrace** retourne à la fonction [**ProcessTrace**](/windows/win32/api/evntrace/nf-evntrace-processtrace) . La fonction **ProcessTrace** combine les événements, les trie par ordre chronologique, puis les remet aux rappels un par un. Les événements peuvent être filtrés pour n’inclure que ceux qui appartiennent à un laps de temps spécifique à l’aide des paramètres *StartTime* et *EndTime* . La fonction **ProcessTrace** bloque le thread jusqu’à ce que votre consommateur traite tous les événements dans les sessions de trace, [*BufferCallback*](/windows/win32/api/evntrace/nc-evntrace-pevent_trace_buffer_callbacka) retourne la **valeur false** ou que vous appelez [**CloseTrace**](/windows/win32/api/evntrace/nf-evntrace-closetrace).
 
-**Avant Windows Vista :** Vous pouvez appeler [**CloseTrace**](/windows/win32/api/evntrace/nf-evntrace-closetrace) uniquement après le retour de [**ProcessTrace**](/windows/win32/api/evntrace/nf-evntrace-processtrace) .
+**avant Windows Vista :** Vous pouvez appeler [**CloseTrace**](/windows/win32/api/evntrace/nf-evntrace-closetrace) uniquement après le retour de [**ProcessTrace**](/windows/win32/api/evntrace/nf-evntrace-processtrace) .
 
-Pour obtenir un exemple qui montre comment utiliser des événements publiés à l’aide d’un manifeste, de fichiers MOF ou TMF, consultez [extraction de données d’événement à l’aide de Tdh](retrieving-event-data-using-tdh.md). Notez qu’à compter de Windows Vista, vous devez utiliser les fonctions d’assistance des données de trace (TDH) pour consommer des événements.
+Pour obtenir un exemple qui montre comment utiliser des événements publiés à l’aide d’un manifeste, de fichiers MOF ou TMF, consultez [extraction de données d’événement à l’aide de Tdh](retrieving-event-data-using-tdh.md). notez qu’à partir de Windows Vista, vous devez utiliser les fonctions d’assistance des données de trace (TDH) pour consommer des événements.
 
 Pour obtenir un exemple qui montre comment consommer des événements publiés à l’aide de MOF, consultez [extraction de données d’événement à l’aide de MOF](retrieving-event-data-using-mof.md).
 

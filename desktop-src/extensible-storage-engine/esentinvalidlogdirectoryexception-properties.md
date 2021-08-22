@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101988
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c7bccb7c9012d5672ea8f17f870ebec714d68c2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c564d347f7fab2fcdcc3ac65e6df83335972d6e9ff2b3d0c1d741f3841677a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041120"
 ---
 # <a name="esentinvalidlogdirectoryexception-properties"></a>Propriétés EsentInvalidLogDirectoryException
 
@@ -49,7 +49,7 @@ Le type [EsentInvalidLogDirectoryException](./esentinvalidlogdirectoryexception-
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

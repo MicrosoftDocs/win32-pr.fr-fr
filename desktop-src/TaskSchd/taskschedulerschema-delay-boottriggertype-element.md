@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1ab28da8e9c739d3deff52572fe6a5d37f862119
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91789b22b992af163e9676ef156a2a72f4316ac49b9b47b30ae5599446918bed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119334599"
 ---
 # <a name="delay-boottriggertype-element"></a>Élément Delay (bootTriggerType)
 
@@ -42,7 +42,7 @@ L’élément **delay** est défini par le type complexe [**bootTriggerType**](t
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de scripts, le délai de déclenchement des événements est spécifié par la propriété [**BootTrigger. Delay**](boottrigger-delay.md) .
 
@@ -54,8 +54,8 @@ Pour le développement C++, le délai de déclenchement des événements est sp�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

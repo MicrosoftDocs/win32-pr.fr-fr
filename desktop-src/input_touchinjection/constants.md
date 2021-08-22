@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: 76a763a7153bbb9aa67254ffeb5e994a55426e43
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: d86af0d67c48218e8cb3f5909b647ff59d8b0cdddddef24057e02521a7f253ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106537936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451739"
 ---
 # <a name="touch-injection-constants"></a>Constantes d’injection tactile
 
@@ -37,8 +37,8 @@ Cette section fournit les spécifications de référence pour les constantes d' 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 8 uniquement\]                                           |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2012 \[ uniquement\]                                 |
+| Client minimal pris en charge | Windows 8 \[ applications de bureau uniquement\]                                           |
+| Serveur minimal pris en charge | Windows Server 2012 \[ applications de bureau uniquement\]                                 |
 | En-tête                   | Winuser. h |
 
 ## <a name="see-also"></a>Voir aussi

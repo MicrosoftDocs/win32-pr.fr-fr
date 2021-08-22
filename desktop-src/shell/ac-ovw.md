@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: fbbf0c53fc1b26002d1b46a9a6a6f67cd15e3ead
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 822f2554f51adfb99b1b4b2ad9d61fe064f802def3c8804371639ec20563b54b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119223709"
 ---
 # <a name="using-autocomplete"></a>Utilisation de la saisie semi-automatique
 
-La saisie semi-automatique développe des chaînes qui ont été entrées partiellement dans un [contrôle d’édition](/windows/desktop/Controls/edit-controls) dans des chaînes complètes. Par exemple, lorsqu’un utilisateur commence à entrer une URL dans le contrôle d’édition d’adresse qui est incorporé dans la barre d’outils de Windows Internet Explorer, la saisie semi-automatique développe la chaîne en une ou plusieurs options d’URL complètes qui sont cohérentes avec la chaîne partielle existante. Une chaîne d’URL partielle telle que « MIC » peut être développée en « https://www.microsoft.com » ou «» https://www.microsoft.com/windows . La saisie semi-automatique est généralement utilisée avec les contrôles d’édition ou avec les contrôles qui disposent d’un contrôle d’édition incorporé, tel que le contrôle [ComboBoxEx](/windows/desktop/Controls/comboboxex-control-reference) .
+La saisie semi-automatique développe des chaînes qui ont été entrées partiellement dans un [contrôle d’édition](/windows/desktop/Controls/edit-controls) dans des chaînes complètes. par exemple, lorsqu’un utilisateur commence à entrer une URL dans le contrôle d’édition d’adresse qui est incorporé dans la Windows barre d’outils Internet Explorer, la saisie semi-automatique développe la chaîne en une ou plusieurs options d’URL complètes qui sont cohérentes avec la chaîne partielle existante. Une chaîne d’URL partielle telle que « MIC » peut être développée en « https://www.microsoft.com » ou «» https://www.microsoft.com/windows . La saisie semi-automatique est généralement utilisée avec les contrôles d’édition ou avec les contrôles qui disposent d’un contrôle d’édition incorporé, tel que le contrôle [ComboBoxEx](/windows/desktop/Controls/comboboxex-control-reference) .
 
 ## <a name="adding-autocomplete-functionality-to-your-application"></a>Ajout de la fonctionnalité de saisie semi-automatique à votre application
 

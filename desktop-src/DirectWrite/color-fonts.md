@@ -1,29 +1,29 @@
 ---
 title: Polices de couleur
-description: Cette rubrique décrit les polices de couleur, leur prise en charge dans DirectWrite et Direct2D, et comment les utiliser dans votre application.
+description: cette rubrique décrit les polices de couleur, leur prise en charge dans DirectWrite et Direct2D, et comment les utiliser dans votre application.
 ms.assetid: 74e096c4-9d1c-8854-e9ee-f8b11ac1c71a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6774089cc1f0bed1349edc940c6a1ae715d052c7
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: a5c0154e528ab8471d40f4771db5479ca9233320177386adbbd849162dbcd598
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "104563967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329522"
 ---
 # <a name="color-fonts"></a>Polices de couleur
 
-Cette rubrique décrit les polices de couleur, leur prise en charge dans DirectWrite et Direct2D, et comment les utiliser dans votre application.
+cette rubrique décrit les polices de couleur, leur prise en charge dans DirectWrite et Direct2D, et comment les utiliser dans votre application.
 
 Ce document contient les éléments suivants :
 
 -   [Que sont les polices de couleur ?](#what-are-color-fonts)
 -   [Pourquoi utiliser des polices de couleur ?](#why-use-color-fonts)
--   [Quels types de polices de couleurs Windows prend-il en charge ?](#what-kinds-of-color-fonts-does-windows-support)
+-   [quels types de polices de couleur ne prend Windows en charge ?](#what-kinds-of-color-fonts-does-windows-support)
 -   [Utilisation des polices de couleur](#using-color-fonts)
     -   [Utilisation des polices de couleur dans une application XAML](#using-color-fonts-in-a-xaml-app)
     -   [Utilisation des polices de couleur dans Microsoft Edge](#using-color-fonts-in-microsoft-edge)
-    -   [Utilisation des polices de couleur avec DirectWrite et Direct2D](#using-color-fonts-with-directwrite-and-direct2d)
+    -   [utilisation des polices de couleur avec DirectWrite et Direct2D](#using-color-fonts-with-directwrite-and-direct2d)
     -   [Utilisation des polices de couleur avec Win2D](#using-color-fonts-with-win2d)
 -   [Rubriques connexes](#related-topics)
 
@@ -45,16 +45,16 @@ Historiquement, les concepteurs et les développeurs ont utilisé diverses techn
 
 Les polices de couleur offrent un moyen d’obtenir ces effets visuels avec toute la simplicité et les fonctionnalités des polices standard. Le texte affiché dans une police de couleur est identique à un autre texte : il peut être copié et collé, il peut être analysé par les outils d’accessibilité, et ainsi de suite.
 
-## <a name="what-kinds-of-color-fonts-does-windows-support"></a>Quels types de polices de couleurs Windows prend-il en charge ?
+## <a name="what-kinds-of-color-fonts-does-windows-support"></a>quels types de polices de couleur ne prend Windows en charge ?
 
-La [spécification OpenType](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx) définit plusieurs manières d’incorporer des informations de couleur dans une police. À compter de la mise à jour anniversaire de Windows 10, DirectWrite et Direct2D (et les infrastructures Windows qui s’y basent) prennent en charge toutes ces approches. Elles sont résumées dans le tableau ci-dessous :
+La [spécification OpenType](https://www.microsoft.com/Typography/OpenTypeSpecification.aspx) définit plusieurs manières d’incorporer des informations de couleur dans une police. à partir de Windows 10 mise à jour anniversaire, DirectWrite et Direct2D (et les frameworks Windows basés sur ces dernières) prennent en charge toutes ces approches. Elles sont résumées dans le tableau ci-dessous :
 
 
 
 | Technique                                                                                                                        | Description                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Colr](/typography/opentype/spec/colr) / Tables [CPAL](/typography/opentype/spec/cpal) | Utilise des couches de vecteurs de couleur, dont les formes sont définies de la même façon que les contours de glyphe de couleur unique. **Remarque :** Prise en charge à partir de Windows 8.1. <br/>                                                                                                                                                 |
-| Table [SVG](/typography/opentype/spec/svg)                                                                 | Utilise des images vectorielles créées dans le format graphique vectoriel Scalable. **Remarque :** À compter de la mise à jour anniversaire de Windows 10, DirectWrite prend en charge un sous-ensemble de la spécification SVG complète. Le rendu de tout le contenu SVG n’est pas garanti dans une police OpenType SVG. Pour plus d’informations, consultez [prise en charge SVG](../direct2d/svg-support.md) . <br/> |
+| Table [SVG](/typography/opentype/spec/svg)                                                                 | Utilise des images vectorielles créées dans le format graphique vectoriel Scalable. **Remarque :** à partir de Windows 10 mise à jour anniversaire, DirectWrite prend en charge un sous-ensemble de la spécification SVG complète. Le rendu de tout le contenu SVG n’est pas garanti dans une police OpenType SVG. Pour plus d’informations, consultez [prise en charge SVG](../direct2d/svg-support.md) . <br/> |
 | [CBDT](/typography/opentype/spec/cbdt) / Tables [CBLC](/typography/opentype/spec/cblc) | Utilise des images bitmap de couleur incorporées.                                                                                                                                                                                                                                                                                |
 | table [sbix](/typography/opentype/spec/sbix)                                                               | Utilise des images bitmap de couleur incorporées.                                                                                                                                                                                                                                                                                |
 
@@ -66,7 +66,7 @@ La [spécification OpenType](https://www.microsoft.com/Typography/OpenTypeSpecif
 
 Du point de vue des utilisateurs, les polices de couleur sont simplement des polices. Par exemple, ils peuvent généralement être installés et désinstallés du système de la même façon que les polices monochromatiques, et ils sont rendus sous forme de texte normal et sélectionnable.
 
-Du point de vue du développeur, les polices de couleur sont généralement utilisées de la même façon que les polices monochromatiques. Dans les infrastructures XAML et Microsoft Edge, vous pouvez définir le style de votre texte avec les polices de couleur de la même façon que les polices standard, et par défaut, votre texte est rendu en couleur. Toutefois, si votre application appelle directement les API Direct2D (ou API Win2D) pour restituer le texte, elle doit explicitement demander le rendu des polices de couleurs.
+Du point de vue du développeur, les polices de couleur sont généralement utilisées de la même façon que les polices monochromatiques. dans les frameworks XAML et Microsoft Edge, vous pouvez styliser votre texte avec des polices de couleur de la même façon que les polices standard, et par défaut, votre texte est rendu en couleur. Toutefois, si votre application appelle directement les API Direct2D (ou API Win2D) pour restituer le texte, elle doit explicitement demander le rendu des polices de couleurs.
 
 ### <a name="using-color-fonts-in-a-xaml-app"></a>Utilisation des polices de couleur dans une application XAML
 
@@ -83,9 +83,9 @@ Si vous ne souhaitez pas que votre élément de texte XAML restitue le texte mul
 
 ### <a name="using-color-fonts-in-microsoft-edge"></a>Utilisation des polices de couleur dans Microsoft Edge
 
-Les polices de couleur sont rendues par défaut dans les sites Web et les applications Web s’exécutant sur Microsoft Edge, y compris le contrôle XAML [WebView](/uwp/api/windows.ui.xaml.controls.webview) . Utilisez simplement HTML et CSS pour appliquer un style à votre texte avec une police de couleur, et les glyphes de couleur sont rendus en couleur.
+les polices de couleur sont rendues par défaut dans les sites web et les applications web s’exécutant sur Microsoft Edge, y compris le contrôle XAML [webview](/uwp/api/windows.ui.xaml.controls.webview) . Utilisez simplement HTML et CSS pour appliquer un style à votre texte avec une police de couleur, et les glyphes de couleur sont rendus en couleur.
 
-### <a name="using-color-fonts-with-directwrite-and-direct2d"></a>Utilisation des polices de couleur avec DirectWrite et Direct2D
+### <a name="using-color-fonts-with-directwrite-and-direct2d"></a>utilisation des polices de couleur avec DirectWrite et Direct2D
 
 Votre application peut utiliser des méthodes de dessin de texte de niveau supérieur de Direct2D ([**DrawText**](../direct2d/id2d1devicecontext4-drawtext-overload.md) et [**DrawTextLayout**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawtextlayout)) ou elle peut utiliser des techniques de niveau inférieur pour dessiner des exécutions de glyphes directement. Dans les deux cas, votre application requiert des modifications de code afin de gérer correctement les glyphes de couleurs. Si votre application utilise les API de la valeur de Direct2D s **DrawText** et **DrawTextLayout** , Notez que celles-ci ne restituent pas les glyphes de couleur par défaut. Cela permet d’éviter des changements de comportement inattendus dans les applications de rendu de texte qui ont été conçues avant la prise en charge des polices de couleur.
 
@@ -113,7 +113,7 @@ Si votre application utilise des API de niveau inférieur pour gérer les exécu
 
 Pour gérer correctement les glyphes de couleur, votre application doit :
 
-1.  Transmettez les informations d’exécution du glyphe à [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun), ainsi qu’un paramètre de [**formats d' \_ \_ image \_ de glyphe DWRITE**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) qui indique le ou les types de glyphes de couleur que l’application est prêt à gérer. Si des glyphes de couleur sont présents (selon la police et les **formats d' \_ \_ image de \_ glyphe DWRITE** demandés), DirectWrite fractionne l’exécution du glyphe principal en différentes exécutions de glyphes de couleurs, accessibles via l’objet [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) retourné à l’étape 4.
+1.  Transmettez les informations d’exécution du glyphe à [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun), ainsi qu’un paramètre de [**formats d' \_ \_ image \_ de glyphe DWRITE**](/windows/win32/api/dcommon/ne-dcommon-dwrite_glyph_image_formats) qui indique le ou les types de glyphes de couleur que l’application est prêt à gérer. si des glyphes de couleur sont présents (en fonction de la police et **des \_ \_ \_ FORMATS d’IMAGE de glyphe DWRITE** demandés), DirectWrite fractionnera la série de glyphes principaux en exécutions de glyphes de couleurs individuelles accessibles par le biais de l’objet [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) retourné à l’étape 4.
 2.  Vérifiez le HRESULT retourné par [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun) pour déterminer si des exécutions de glyphes de couleurs ont été détectées. Un **HRESULT** de **DWRITE \_ E \_ nocolor** n’indique aucune exécution de glyphe de couleur applicable.
 3.  Si [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun) n’a signalé aucune exécution de glyphes de couleurs (en retournant **DWRITE \_ E \_ nocolor**), l’exécution de glyphe entière est traitée comme monochromatique et votre application doit la dessiner comme vous le souhaitez (par exemple, à l’aide de [**ID2D1DeviceContext ::D rawglyphrun**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawglyphrun)).
 4.  Si [**TranslateColorGlyphRun**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun) signale la présence d’exécutions de glyphes de couleurs, votre application doit ignorer l’exécution du glyphe principal et utiliser à la place les exécutions de glyphes de couleur retournées par TranslateColorGlyphRun. Pour ce faire, itérez au sein de l’objet [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) retourné, en récupérant chaque exécution de glyphe de couleur et en le dessinant en fonction de son format d’image de glyphe (par exemple, vous pouvez utiliser [**DrawColorBitmapGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawcolorbitmapglyphrun) et [**DrawSvgGlyphRun**](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-drawsvgglyphrun) pour dessiner des glyphes de bitmap de couleur et des glyphes SVG, respectivement).
@@ -225,7 +225,7 @@ args.DrawingSession.DrawText(
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Exemple de glyphe de couleur DirectWrite](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteColorGlyph)
+[exemple de glyphe de couleur DirectWrite](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteColorGlyph)
 
 
 [**Interface IDWriteFontFace4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4)

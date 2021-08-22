@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd2061f9d910e67855cc0dcb6d64248067fcb9e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9f8fd28cd616af56a9b51ecf4e709df5f07674c6d1f307320128645364f3bfc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119253879"
 ---
 # <a name="eventtriggervaluequeries-property"></a>Propriété EventTrigger. ValueQueries
 
@@ -40,7 +40,7 @@ EventTrigger.ValueQueries As String
 
 Collection de paires nom-valeur. Chaque paire nom-valeur de la collection définit un nom unique pour une valeur de propriété de l’événement qui déclenche le déclencheur d’événement. La valeur de la propriété de l’événement est définie en tant que requête d’événement XPath. Pour plus d’informations sur les requêtes d’événements XPath, consultez [sélection des événements](/previous-versions//aa385231(v=vs.85)).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom de la requête peut être utilisé en tant que variable dans les propriétés d’action suivantes :
 
@@ -76,8 +76,8 @@ Pour plus d’informations sur l’écriture d’une chaîne de requête pour ce
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

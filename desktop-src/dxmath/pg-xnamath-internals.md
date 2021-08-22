@@ -4,12 +4,12 @@ ms.assetid: 31512657-c413-9e6e-e343-1ea677a02b8c
 title: Éléments internes de bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f7c1843a83a81e7acac241c66dd18ff26217569
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: f26d2a6171a14abebbec0665233c66f873ed7ede2c3b8f01fb70ed406ffea33b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118149"
 ---
 # <a name="library-internals"></a>Éléments internes de bibliothèque
 
@@ -28,21 +28,21 @@ Cette rubrique décrit la conception interne de la bibliothèque DirectXMath.
 
 Pour améliorer la portabilité et optimiser la disposition des données, vous devez utiliser les conventions d’appel appropriées pour chaque plateforme prise en charge par la bibliothèque DirectXMath. Plus précisément, lorsque vous transmettez des objets [**XMVECTOR**](xmvector-data-type.md) en tant que paramètres, qui sont définis comme alignés sur une limite de 16 octets, il existe différents jeux d’exigences appelant, en fonction de la plateforme cible :
 
-**Pour Windows 32 bits**
+**Pour le Windows 32 bits**
 
-Pour Windows 32 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs [ \_ \_ M128](/cpp/cpp/m128) (qui implémente [**XMVECTOR**](xmvector-data-type.md) sur cette plateforme). La norme est [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), qui peut passer les trois premières valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances **XMVECTOR** ) comme arguments à une fonction dans un registre *SSE/SSE2* . [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall) passe les arguments restants via la pile.
+pour les Windowss 32 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs [ \_ \_ m128](/cpp/cpp/m128) (qui implémente [**XMVECTOR**](xmvector-data-type.md) sur cette plateforme). La norme est [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), qui peut passer les trois premières valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances **XMVECTOR** ) comme arguments à une fonction dans un registre *SSE/SSE2* . [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall) passe les arguments restants via la pile.
 
-Les nouveaux compilateurs de Microsoft Visual Studio prennent en charge une nouvelle convention d’appel, \_ \_ vectorcall, qui peut passer jusqu’à six valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances [**XMVECTOR**](xmvector-data-type.md) ) comme arguments d’une fonction dans un registre *SSE/SSE2* . Il peut également passer des agrégats vectoriels hétérogènes (également appelés [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via des registres *SSE/SSE2* s’il y a suffisamment d’espace.
+les nouveaux compilateurs de Microsoft Visual Studio prennent en charge une nouvelle convention d’appel, \_ \_ vectorcall, qui peut passer jusqu’à six valeurs [ \_ \_ m128](/cpp/cpp/m128) (instances [**XMVECTOR**](xmvector-data-type.md) ) comme arguments d’une fonction dans un registre *SSE/SSE2* . Il peut également passer des agrégats vectoriels hétérogènes (également appelés [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via des registres *SSE/SSE2* s’il y a suffisamment d’espace.
 
 **Pour les éditions 64 bits de Windows**
 
-Pour Windows 64 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs [ \_ \_ M128](/cpp/cpp/m128) . La norme est [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), qui passe toutes les valeurs [ \_ \_ M128](/cpp/cpp/m128) sur la pile.
+pour les Windowss 64 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs de [ \_ \_ m128](/cpp/cpp/m128) . La norme est [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), qui passe toutes les valeurs [ \_ \_ M128](/cpp/cpp/m128) sur la pile.
 
-Les compilateurs Visual Studio plus récents prennent en charge la \_ \_ Convention d’appel vectorcall, qui peut passer jusqu’à six valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances [**XMVECTOR**](xmvector-data-type.md) ) comme arguments à une fonction dans un registre *SSE/SSE2* . Il peut également passer des agrégats vectoriels hétérogènes (également appelés [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via des registres *SSE/SSE2* s’il y a suffisamment d’espace.
+les nouveaux compilateurs de Visual Studio prennent en charge la \_ \_ convention d’appel vectorcall, qui peut passer jusqu’à six valeurs [ \_ \_ m128](/cpp/cpp/m128) (instances [**XMVECTOR**](xmvector-data-type.md) ) comme arguments à une fonction dans un registre *SSE/SSE2* . Il peut également passer des agrégats vectoriels hétérogènes (également appelés [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via des registres *SSE/SSE2* s’il y a suffisamment d’espace.
 
-**Pour Windows sur ARM**
+**pour Windows sur ARM**
 
-Le ARM64 Windows sur ARM & prend en charge la transmission des quatre premières \_ \_ valeurs n128 (instances [**XMVECTOR**](xmvector-data-type.md) ) dans le registre.
+le Windows sur ARM & ARM64 prend en charge le passage des quatre premières \_ \_ valeurs n128 (instances [**XMVECTOR**](xmvector-data-type.md) ) dans le registre.
 
 **Solution DirectXMath**
 
@@ -92,7 +92,7 @@ XMMATRIX XM_CALLCONV XMMatrixMultiplyTranspose(FXMMATRIX M1, CXMMATRIX M2);
 
 Pour prendre en charge ces conventions d’appel, ces alias de type sont définis comme suit (les paramètres doivent être passés par valeur pour que le compilateur les prenne en compte pour la réussite de l’inscription) :
 
-**Pour les applications Windows 32 bits**
+**pour les applications Windows bits 32**
 
 Quand vous utilisez \_ \_ fastcall :
 
@@ -122,7 +122,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 
 
-**Pour les applications Windows natives 64 bits**
+**pour les applications Windows natives 64 bits**
 
 Quand vous utilisez \_ \_ fastcall :
 
@@ -172,7 +172,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 ## <a name="graphics-library-type-equivalence"></a>Équivalence de type de bibliothèque Graphics
 
-Pour prendre en charge l’utilisation de la bibliothèque DirectXMath, de nombreux types et structures de bibliothèque DirectXMath sont équivalents aux implémentations Windows des types **D3DDECLTYPE** et **D3DFORMAT** , ainsi qu’aux types de [**\_ format dxgi**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) .
+pour prendre en charge l’utilisation de la bibliothèque DirectXMath, de nombreux types et structures de bibliothèque DirectXMath sont équivalents aux implémentations Windows des types **D3DDECLTYPE** et **D3DFORMAT** , ainsi qu’aux types de [**\_ FORMAT DXGI**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) .
 
 | DirectXMath                      | D3DDECLTYPE                                                                           | D3DFORMAT                                                     | \_format dxgi                                                                                                                                                                                            |
 |----------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Ces constantes globales internes sont sujettes à modification dans les futures 
 Le jeu d’instructions SSE ne prend en charge que les vecteurs à virgule flottante simple précision. DirectXMath doit utiliser le jeu d’instructions SSE2 pour fournir la prise en charge des vecteurs entiers. SSE2 est pris en charge par tous les processeurs Intel depuis l’introduction du Pentium 4, de tous les processeurs AMD K8 et versions ultérieures, ainsi que de tous les processeurs compatibles x64.
 
 > [!Note]  
-> Windows 8 pour x86 ou version ultérieure nécessite la prise en charge de SSE2. Toutes les versions de Windows x64 requièrent la prise en charge de SSE2. Windows sur ARM/ARM64 nécessite un \_ néon ARM.
+> Windows 8 pour x86 ou version ultérieure nécessite la prise en charge de SSE2. toutes les versions de Windows x64 requièrent la prise en charge de SSE2. Windows sur arm/ARM64 nécessite un \_ néon arm.
 
  
 
@@ -246,7 +246,7 @@ Il existe plusieurs variantes de fonctions DirectXMath qui facilitent votre trav
 
 ## <a name="platform-inconsistencies"></a>Incohérences de la plateforme
 
-La bibliothèque DirectXMath est destinée à être utilisée dans des applications graphiques et des jeux sensibles aux performances. Par conséquent, l’implémentation est conçue pour une vitesse optimale de traitement normal sur toutes les plateformes prises en charge. Les résultats aux conditions limites, en particulier celles qui génèrent des spéciaux à virgule flottante, sont susceptibles de varier de la cible à la cible. Ce comportement dépend également d’autres paramètres d’exécution, tels que le mot de contrôle X87 pour la cible non intrinsèque Windows 32 bits ou le mot de contrôle SSE pour Windows 32 bits et 64 bits. En outre, il y aura des différences au sein des conditions limites entre les différents fournisseurs d’UC.
+La bibliothèque DirectXMath est destinée à être utilisée dans des applications graphiques et des jeux sensibles aux performances. Par conséquent, l’implémentation est conçue pour une vitesse optimale de traitement normal sur toutes les plateformes prises en charge. Les résultats aux conditions limites, en particulier celles qui génèrent des spéciaux à virgule flottante, sont susceptibles de varier de la cible à la cible. ce comportement dépend également d’autres paramètres d’exécution, tels que le mot de contrôle x87 pour la cible non intrinsèque Windows 32 bits ou le mot de contrôle SSE pour Windows 32 bits et 64 bits. En outre, il y aura des différences au sein des conditions limites entre les différents fournisseurs d’UC.
 
 N’utilisez pas DirectXMath dans la science ou d’autres applications où la précision numérique est primordiale. En outre, cette limitation est reflétée dans l’absence de prise en charge des calculs double ou de précision étendue.
 
@@ -257,7 +257,7 @@ N’utilisez pas DirectXMath dans la science ou d’autres applications où la p
 
 ## <a name="platform-specific-extensions"></a>Extensions spécifiques à la plateforme
 
-La bibliothèque DirectXMath est conçue pour simplifier la programmation en C++ SIMD fournissant une excellente prise en charge des plateformes x86, x64 et Windows RT à l’aide d’instructions intrinsèques largement prises en charge (SSE2 et ARM-néon).
+la bibliothèque DirectXMath est conçue pour simplifier la programmation de C++ SIMD qui offre une excellente prise en charge des plateformes x86, x64 et Windows RT à l’aide d’instructions intrinsèques largement prises en charge (SSE2 et ARM-néon).
 
 Dans certains cas, toutefois, lorsque des instructions spécifiques à la plateforme peuvent s’avérer bénéfiques. En raison de la façon dont DirectXMath est implémenté, dans de nombreux cas, il est facile d’utiliser des types DirectXMath directement dans les instructions d’intrinsèques standard prises en charge par le compilateur, et d’utiliser DirectXMath comme chemin de secours pour les plateformes qui ne prennent pas en charge l’instruction étendue.
 

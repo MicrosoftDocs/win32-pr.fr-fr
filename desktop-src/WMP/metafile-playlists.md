@@ -3,10 +3,10 @@ title: Sélections de métafichiers
 description: Sélections de métafichiers
 ms.assetid: a3370f90-fb83-4062-abf4-f2c32a1b559c
 keywords:
-- Sélections de métafichiers Windows Media, à propos de
+- Windows Playlists de métafichier multimédia, à propos de
 - sélections, à propos de
 - sélections de métafichiers, à propos de
-- Sélections de métafichiers Windows Media, avantages
+- Windows Sélections de métafichiers multimédias, avantages
 - sélections, avantages
 - sélections de métafichiers, avantages
 ms.topic: article
@@ -16,24 +16,24 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3646b35909e3058833455d6a08d253fab22355f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd5f4023209ac5728baf7fc84c16675302f4161fba73cc4203572d9ccb9fb63d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134982"
 ---
 # <a name="metafile-playlists"></a>Sélections de métafichiers
 
-Les sélections de métafichiers Windows Media permettent d’organiser le contenu et la présentation du flux. Une sélection peut simplement rediriger le lecteur Windows Media vers le contenu à diffuser en continu, mais plus généralement, il fournit une liste des fichiers à lire de façon séquentielle. Une sélection plus complexe peut contenir des répétitions, des insertions commerciales et des informations sur les éléments de la liste.
+Windows Les sélections de métafichier multimédia sont utilisées pour organiser le contenu et la présentation du flux. une sélection peut simplement rediriger Lecteur Windows Media vers le contenu à diffuser en continu, mais plus généralement, elle fournit une liste des fichiers à lire séquentiellement. Une sélection plus complexe peut contenir des répétitions, des insertions commerciales et des informations sur les éléments de la liste.
 
-Un autre avantage des sélections est qu’au lieu de lire un flux, d’arrêter, de démarrer le flux suivant, puis d’attendre qu’il termine la mise en mémoire tampon, Windows Media Services et le lecteur Windows Media fonctionnent ensemble pour lire les clips l’un après l’autre, avec un temps de mise en mémoire tampon minimal ou une interruption.
+un autre avantage des sélections est qu’au lieu de lire un flux, d’arrêter, de démarrer le flux suivant, puis d’attendre qu’il termine la mise en mémoire tampon, Services Windows Media et Lecteur Windows Media collaborer pour lire les clips l’un après l’autre, avec un temps de mise en mémoire tampon minimal ou une interruption.
 
 Les sections suivantes fournissent plus d’informations sur les sélections de métafichiers :
 
 -   [Contrôle des sélections](control-of-playlists.md)
--   [Graphiques personnalisés dans le lecteur Windows Media](custom-graphics-in-windows-media-player.md)
--   [Affichage des pages Web dans le lecteur Windows Media](displaying-web-pages-in-windows-media-player.md)
+-   [graphiques personnalisés dans Lecteur Windows Media](custom-graphics-in-windows-media-player.md)
+-   [affichage des Pages Web dans les Lecteur Windows Media](displaying-web-pages-in-windows-media-player.md)
 -   [Journalisation des données de flux](logging-stream-data.md)
 -   [Récupération de métadonnées](retrieving-metadata.md)
 
@@ -41,12 +41,12 @@ Les sections suivantes fournissent plus d’informations sur les sélections de 
 
 <dl> <dt>
 
-[**Guide des métafichiers Windows Media**](windows-media-metafile-guide.md)
+[**Windows Guide du métafichier multimédia**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

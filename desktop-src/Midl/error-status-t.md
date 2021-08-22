@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0d017b4eaf460b5d5b7ecb8a0bd79201ac8bdee
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b02e404992e8fca98eba41f5ea85571160582827816a945d7ab8db505b28ba0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067269"
 ---
 # <a name="error_status_t-attribute"></a>attribut d’état d’erreur \_ \_ t
 
@@ -44,7 +44,7 @@ Spécifie zéro, un ou plusieurs attributs de fonction ACF, tels que l' **\[** [
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction tel qu’il est défini dans le fichier IDL.
@@ -65,7 +65,7 @@ Spécifie le paramètre pour la fonction tel qu’il est défini dans le fichier
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type d' **État d’erreur \_ \_ t** est utilisé dans le cadre de l’architecture de gestion des exceptions dans IDL. Ce type est mappé à un entier [**long**](long.md) [**non signé**](unsigned.md) . Les applications qui interceptent des situations d’erreur ont un **\[** [](out-idl.md) **\]** paramètre de sortie ou un type de retour d’une procédure spécifié en tant qu' **État d’erreur \_ \_ t**, et qualifient l' **État d’erreur \_ \_ t** avec les attributs état de la **\[** [**communication \_**](comm-status.md) **\]** ou **\[** [**\_ État**](fault-status.md) **\]** de l’erreur dans le CCP. Si le paramètre ou le type de retour n’est pas qualifié avec les attributs d’état de **\[ communication \_ \]** ou d' **\[ \_ état \] d’erreur** , le paramètre fonctionne comme s’il s’agissait d’un entier long non signé.
 
@@ -98,9 +98,9 @@ Le type d' **État d’erreur \_ \_ t** est l’un des types prédéfinis du lan
 [**non signé**](unsigned.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

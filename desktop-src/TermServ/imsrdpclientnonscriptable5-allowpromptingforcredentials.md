@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 propriété AllowPromptingForCredentials
-description: Spécifie si le contrôle ActiveX Bureau à distance peut inviter l’utilisateur à fournir des informations d’identification.
+description: spécifie si le contrôle de ActiveX Bureau à distance peut inviter l’utilisateur à fournir des informations d’identification.
 ms.assetid: 9a780886-39ee-4d3b-9a54-fa209708d9f8
 ms.tgt_platform: multiple
 keywords:
@@ -19,16 +19,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c326a83a46b41d3578c958e24fd901beb7c7b321
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eea0fb854b5bb12533032cd6608228d81584cd8d9f4e99bccd8a5ba76b624f77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138752"
 ---
 # <a name="imsrdpclientnonscriptable5allowpromptingforcredentials-property"></a>IMsRdpClientNonScriptable5 :: AllowPromptingForCredentials, propriété
 
-Spécifie si le contrôle ActiveX Bureau à distance peut inviter l’utilisateur à fournir des informations d’identification. Si cette propriété contient **la \_ valeur true**, l’utilisateur peut être invité à entrer des informations d’identification. Si cette propriété contient **la \_ valeur false**, l’utilisateur ne peut pas être invité à entrer ses informations d’identification.
+spécifie si le contrôle de ActiveX Bureau à distance peut inviter l’utilisateur à fournir des informations d’identification. Si cette propriété contient **la \_ valeur true**, l’utilisateur peut être invité à entrer des informations d’identification. Si cette propriété contient **la \_ valeur false**, l’utilisateur ne peut pas être invité à entrer ses informations d’identification.
 
 Cette propriété est en lecture/écriture.
 

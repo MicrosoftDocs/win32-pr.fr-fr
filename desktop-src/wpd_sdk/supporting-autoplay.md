@@ -4,20 +4,20 @@ ms.assetid: e91334d9-9041-4cb8-a6d0-0e2371800064
 title: Prise en charge de l’exécution automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 467a4f6289492177beab0469a181297b13accfce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83091191d8468b7ea3d34146e4a4c02e8cf5bf80cb3e49c72dc43bb092d10f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083393"
 ---
 # <a name="supporting-autoplay"></a>Prise en charge de l’exécution automatique
 
 La lecture automatique est une fonctionnalité de l’interpréteur de commandes qui lance des applications associées à des appareils particuliers. En fonction des paramètres de lecture automatique actuels, cette fonctionnalité effectue l’une des actions suivantes, telles que la présentation d’une liste d’applications de gestionnaire disponibles, l’affichage d’une vue de dossier standard de fichiers, et ainsi de suite.
 
-Dans Windows Vista, la fonctionnalité d’exécution automatique a été étendue afin qu’un appareil WPD puisse fournir une liste de types de contenu pris en charge. De même, les applications WPD peuvent enregistrer les types de contenu qu’ils prennent en charge. Par exemple, un Assistant acquisition de photos peut s’inscrire en tant que gestionnaire pour tout appareil WPD fournissant des images, et une application multimédia peut s’inscrire en tant que gestionnaire pour tous les appareils qui stockent des fichiers audio ou vidéo.
+dans Windows Vista, la fonctionnalité d’exécution automatique a été étendue afin qu’un appareil WPD puisse fournir une liste de types de contenu pris en charge. De même, les applications WPD peuvent enregistrer les types de contenu qu’ils prennent en charge. Par exemple, un Assistant acquisition de photos peut s’inscrire en tant que gestionnaire pour tout appareil WPD fournissant des images, et une application multimédia peut s’inscrire en tant que gestionnaire pour tous les appareils qui stockent des fichiers audio ou vidéo.
 
-Les applications enregistrent des informations spécifiques au gestionnaire en écrivant des entrées dans la clé de **\_ \_ \\ \\ \\ \\ \\ \\ \\ gestionnaires AutoplayHandlers de l’Explorateur Microsoft Windows CurrentVersion de l’ordinateur local** . En guise d’exemple d’utilisation d’un gestionnaire d’application WPD (nommé MyWpdApplication.exe), l’application peut insérer les valeurs suivantes sous la clé **\\ \\ MyWpdApplicationHandler des gestionnaires** .
+les Applications enregistrent des informations spécifiques au gestionnaire en écrivant des entrées dans la clé de **\_ \_ \\ \\ \\ \\ \\ \\ \\ gestionnaires AutoplayHandlers CurrentVersion Explorer de l’explorateur d’ordinateurs locaux Windows Microsoft** . En guise d’exemple d’utilisation d’un gestionnaire d’application WPD (nommé MyWpdApplication.exe), l’application peut insérer les valeurs suivantes sous la clé **\\ \\ MyWpdApplicationHandler des gestionnaires** .
 
 
 
@@ -34,11 +34,11 @@ Les applications enregistrent des informations spécifiques au gestionnaire en �
 
  
 
-Pour plus d’informations sur les clés de registre de lecture automatique et les valeurs qui se trouvent sous la clé **HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ AUTOPLAYHANDLERS \\ handlers** , consultez la documentation correspondante sur MSDN.
+pour plus d’informations sur les clés de registre de lecture automatique et les valeurs trouvées sous la clé **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ AutoplayHandlers \\ handlers** , consultez la documentation correspondante sur MSDN.
 
 ### <a name="the-wpd-autoplay-scheme"></a>Schéma d’exécution automatique WPD
 
-Le schéma d’exécution automatique WPD s’intègre à la fonctionnalité d’exécution automatique de Windows Vista. Pour ce faire, il prend en charge trois catégories d’exécution automatique, qui sont décrites dans le tableau suivant.
+le schéma d’exécution automatique WPD s’intègre à la fonctionnalité d’exécution automatique de Windows Vista. Pour ce faire, il prend en charge trois catégories d’exécution automatique, qui sont décrites dans le tableau suivant.
 
 
 
@@ -52,7 +52,7 @@ Le schéma d’exécution automatique WPD s’intègre à la fonctionnalité d�
 
  
 
-Les applications s’inscrivent pour la catégorie source, récepteur et/ou fonction appropriée en écrivant des entrées dans la section d’exécution automatique du Registre système. Ces entrées s’affichent sous la clé de la clé wpd de l' **\_ \_ \\ \\ \\ \\ Explorateur Windows CurrentVersion \\ Explorer \\ AutoplayHandlers \\ EventHandlers \\ de l’ordinateur local** . Sous la clé WPD se trouvent la **fonction**, le **récepteur** et les clés **sources** . Sous chacune de ces clés se trouve un GUID qui correspond à une catégorie fonctionnelle ou à un type de contenu WPD.
+Les applications s’inscrivent pour la catégorie source, récepteur et/ou fonction appropriée en écrivant des entrées dans la section d’exécution automatique du Registre système. ces entrées s’affichent sous la clé de la clé WPD de l' **\_ explorateur d' \_ ordinateurs locaux \\ \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ AutoplayHandlers \\ eventhandlers \\** . Sous la clé WPD se trouvent la **fonction**, le **récepteur** et les clés **sources** . Sous chacune de ces clés se trouve un GUID qui correspond à une catégorie fonctionnelle ou à un type de contenu WPD.
 
 Le tableau suivant répertorie les GUID trouvés sous la clé de **fonction** dans le registre et identifie la catégorie fonctionnelle qui correspond à chaque GUID.
 

@@ -4,12 +4,12 @@ ms.assetid: e53ca7ab-6ca5-4774-8a52-825b10c1a2ce
 title: Interfaces de ressource (graphiques Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f677130d99ede09cec86cf0d45bc0ec0bc5f9093
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b94eb7a0f2ce0b6792ccb98b95605f00504fbf239ee0cecf0846814d84566de9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119282819"
 ---
 # <a name="resource-interfaces-direct3d-10-graphics"></a>Interfaces de ressource (graphiques Direct3D 10)
 

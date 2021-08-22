@@ -44,7 +44,7 @@ Le niveau d’avertissement indique la gravité de l’avertissement. Les niveau
 
 
 
-| Niveau d’avertissement | Description                                             |  Exemple                                                                   |
+| Niveau d’avertissement | Description                                             | Exemple                                                                   |
 |---------------|---------------------------------------------------------|---------------------------------------------------------------------------|
 | 0             | Aucun avertissement.                                            |                                                                           |
 | 1             | Avertissements sérieux qui peuvent provoquer des erreurs d’application.      | Aucun handle de liaison spécifié, pointeurs non attributés, commutateurs en conflit. |

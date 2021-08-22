@@ -3,7 +3,7 @@ title: THÈME. openDialog
 description: La méthode openDialog ouvre une boîte de dialogue de fichier.
 ms.assetid: d7f4549c-a5c3-4902-b13b-51f3d4444ea9
 keywords:
-- THEMe. openDialog Windows Media Player
+- thème. openDialog Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 79b9478b6b970b1d8d18b6f40975479e4755fa6d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d57218105aa081ddebcb98fadbdb40b4bbd42511de9df94e204320ce78cf03c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134552"
 ---
 # <a name="themeopendialog"></a>THÈME. openDialog
 
@@ -50,7 +50,7 @@ La méthode **openDialog** ouvre une boîte de dialogue de fichier.
 
 Cette méthode retourne une **chaîne** contenant l’URL du fichier sélectionné ou «» (chaîne vide) si l’utilisateur clique sur Annuler.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être utilisée pour les fichiers sur les disques durs locaux ou sur les lecteurs réseau.
 

@@ -4,12 +4,12 @@ ms.assetid: eb3d8422-2352-47cf-9825-cba9916791a9
 title: Publication de votre schéma d’événement pour un fournisseur Classic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f51cfd30d0c9d73841ca906fb81e9d544dec88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6607e2e9b940df5afd6e8070e9235fe40566ef2b6d2b31b3c14656756835bab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069819"
 ---
 # <a name="publishing-your-event-schema-for-a-classic-provider"></a>Publication de votre schéma d’événement pour un fournisseur Classic
 
@@ -97,7 +97,7 @@ class MyCategory_MyEvent : MyCategory
 
 Notez que les noms de classe de fournisseur, d’événement et de type d’événement MOF doivent être uniques dans l’ensemble de l’espace de noms. Pour éviter les conflits de noms, vous devez utiliser un nom unique et descriptif pour tous les noms de classe. Les propriétés de classe doivent également être descriptives et uniques au sein de sa hiérarchie de classes : une classe enfant qui contient le même nom de propriété qu’une classe parente remplace la propriété de la classe parente.
 
-Après avoir défini vos classes MOF, utilisez le compilateur MOF pour générer votre schéma d’événement et l’ajouter au référentiel CIM. Les consommateurs peuvent alors lire le schéma à partir du référentiel et lire par programmation les données d’événement. Pour obtenir une description complète de la syntaxe MOF et l’utilisation du compilateur MOF (Mofcomp.exe) pour ajouter vos classes MOF au référentiel CIM, consultez [format MOF](../wmisdk/managed-object-format--mof-.md). Pour plus d’informations sur l’utilisation de Wbemtest.exe pour accéder au référentiel CIM, consultez [Windows Management Instrumentation](../wmisdk/wmi-start-page.md) (WMI).
+Après avoir défini vos classes MOF, utilisez le compilateur MOF pour générer votre schéma d’événement et l’ajouter au référentiel CIM. Les consommateurs peuvent alors lire le schéma à partir du référentiel et lire par programmation les données d’événement. Pour obtenir une description complète de la syntaxe MOF et l’utilisation du compilateur MOF (Mofcomp.exe) pour ajouter vos classes MOF au référentiel CIM, consultez [format MOF](../wmisdk/managed-object-format--mof-.md). pour plus d’informations sur l’utilisation de Wbemtest.exe pour accéder au référentiel CIM, consultez [Windows Management Instrumentation](../wmisdk/wmi-start-page.md) (WMI).
 
 ## <a name="versioning-mof-class"></a>Classe MOF de contrôle de version
 

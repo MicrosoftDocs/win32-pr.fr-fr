@@ -4,12 +4,12 @@ ms.assetid: 3b17b28a-cac8-4753-8c4e-3e57f372d8e5
 title: Contrôle d’un caméscope DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68d1c84edcd4738745bdd695fe41cf735d6df1a5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 33636d073ec86fb6a6eb03afd211a1b170e4668c32b6ba3b3b5e78dfb54ec036
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106536942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119214059"
 ---
 # <a name="controlling-a-dv-camcorder"></a>Contrôle d’un caméscope DV
 
@@ -29,7 +29,7 @@ Cet article explique comment contrôler un caméscope vidéo numérique (DV) à 
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
  

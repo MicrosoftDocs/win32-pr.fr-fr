@@ -1,17 +1,17 @@
 ---
-description: Cet article répertorie les rubriques de sécurité pour le système de propriétés Windows, notamment AllowedEnterpriseDataProtectionIdentities et EncryptionOwners.
+description: cet article répertorie les rubriques de sécurité pour Windows système de propriétés, y compris AllowedEnterpriseDataProtectionIdentities et EncryptionOwners.
 ms.assetid: 3754BBDB-3CBE-4C79-897D-15359B90AC82
-title: Sécurité (système de propriétés Windows)
+title: sécurité (Windows système de propriétés)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51f9aa9a536bb42fb3d08d6a3efb0ef092af29aa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1a3fe03196ebba9360d27f84304f7b61b536e4b82049ccf1439dbe09c4af80b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033157"
 ---
-# <a name="security-windows-property-system"></a>Sécurité (système de propriétés Windows)
+# <a name="security-windows-property-system"></a>sécurité (Windows système de propriétés)
 
 \[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 

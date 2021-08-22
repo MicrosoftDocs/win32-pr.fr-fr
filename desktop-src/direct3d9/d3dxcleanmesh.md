@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5565978dc1ad0e80c33718275ea65080930ce7cf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: adc5d60b66dc9eaa06314e18ead26412b8572e9dbc649070c37891a62fb9ecbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495909"
 ---
 # <a name="d3dxcleanmesh-function"></a>D3DXCleanMesh fonction)
 
@@ -105,7 +105,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction nettoie un maillage à l’aide de la méthode de nettoyage et des options spécifiées dans le paramètre CleanType. Pour obtenir une description des options disponibles, consultez l’énumération [**D3DXCLEANTYPE**](./d3dxcleantype.md) .
 

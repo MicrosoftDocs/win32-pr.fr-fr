@@ -8,12 +8,12 @@ keywords:
 - Jeux de commandes MCI, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32c34c431f5782100ff82f332158ff36684b5ae4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: caba64fcc0981f00092b41c350c69e17d8482869b6f2be263413e2cd79e96b35
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497251"
 ---
 # <a name="device-specific-command-sets"></a>Jeux de commandes Device-Specific
 
@@ -27,9 +27,9 @@ Les rubriques suivantes répertorient les commandes prises en charge par chaque 
 -   [Jeu de commandes de superposition vidéo](video-overlay-command-set.md)
 -   [Jeu de commandes Wave-Audio](waveform-audio-command-set.md)
 
- 
+ 
 
- 
+ 
 
 
 

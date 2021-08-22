@@ -4,12 +4,12 @@ ms.assetid: 1faee1d5-6e39-43ea-bf92-a0b3986a13a1
 title: Tableau des fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efa91df750c4994a2d8a2308705213e48c864518
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65dcf9177c44f407876cbe339925ca4524034a1335393161bb40310d60c158ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119251759"
 ---
 # <a name="feature-table"></a>Tableau des fonctionnalités
 
@@ -21,10 +21,10 @@ La table des fonctionnalités définit la structure de l’arborescence logique 
 |-----------------|------------------------------|-----|----------|
 | Fonctionnalité         | [Identificateur](identifier.md) | O   | N        |
 | Parent de la fonctionnalité \_ | [Identificateur](identifier.md) | N   | O        |
-| Intitulé           | [Text](text.md)             | N   | O        |
+| Titre           | [Text](text.md)             | N   | O        |
 | Description     | [Text](text.md)             | N   | O        |
-| Afficher         | [Integer](integer.md)       | N   | O        |
-| Level           | [Integer](integer.md)       | N   | N        |
+| Affichage         | [Integer](integer.md)       | N   | O        |
+| Niveau           | [Integer](integer.md)       | N   | N        |
 | Répertoire\_     | [Identificateur](identifier.md) | N   | O        |
 | Attributs      | [Integer](integer.md)       | N   | N        |
 
@@ -136,7 +136,7 @@ Ajoutez les bits indiqués à la valeur totale de cette colonne pour inclure une
 | msidbFeatureAttributesFavorAdvertise         | 4       | 0x0004      | Définissez cet attribut et l’état de la fonctionnalité est publier. Si la fonctionnalité est indiquée par la [**propriété AddDefault**](adddefault.md) , ce bit est ignoré et l’état de la fonctionnalité est déterminé en fonction de MsidbFeatureAttributesFavorLocal et msidbFeatureAttributesFavorSource. Omettez cet attribut et l’état de la fonctionnalité est déterminé en fonction des msidbFeatureAttributesDisallowAdvertise et msidbFeatureAttributesFavorLocal et msidbFeatureAttributesFavorSource.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | msidbFeatureAttributesDisallowAdvertise      | 8       | 0x0008      | Notez que ce bit fonctionne uniquement avec les fonctionnalités répertoriées par la [**propriété publier**](advertise.md). Définissez cet attribut pour empêcher la publication de la fonctionnalité.<br/> Définissez cet attribut et si la fonctionnalité indiquée n’est pas un parent ou un enfant, la fonctionnalité est installée conformément à msidbFeatureAttributesFavorLocal et msidbFeatureAttributesFavorSource.<br/> Définissez cet attribut pour le parent d’une fonctionnalité de liste et le parent est installé.<br/> Définissez cet attribut pour l’enfant d’une fonctionnalité indiquée et l’état de l’enfant est absent.<br/> Omettez cet attribut et si la fonctionnalité indiquée n’est pas un parent ou un enfant, l’état de la fonctionnalité est publier.<br/> Omettez cet attribut et si la fonctionnalité indiquée est un parent ou un enfant, l’état des deux fonctionnalités est publier.<br/>                                                                                                                                                                                                                                                                                                                                                                                          |
 | msidbFeatureAttributesUIDisallowAbsent       | 16      | 0x0010      | Définissez cet attribut et l’interface utilisateur n’affiche pas d’option permettant de changer l’état de la fonctionnalité en absent. La définition de cet attribut force la fonctionnalité à l’état d’installation, que la fonctionnalité soit visible ou non dans l’interface utilisateur. Omettez cet attribut et l’interface utilisateur affiche une option permettant de changer l’état de la fonctionnalité en absent.<br/> Définissez msidbFeatureAttributesFollowParent et msidbFeatureAttributesUIDisallowAbsent pour vous assurer qu’une fonctionnalité enfant suit l’état de la fonctionnalité parente.<br/> La définition de cet attribut affecte non seulement l’interface utilisateur, mais force également la fonctionnalité à l’état d’installation si la fonctionnalité est visible dans l’interface utilisateur ou non.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| msidbFeatureAttributesNoUnsupportedAdvertise | 32      | 0x0020      | Définissez cet attribut et la publication est désactivée pour la fonctionnalité si le shell du système d’exploitation ne prend pas en charge les descripteurs de Windows Installer. Omettez cet attribut et la publication n’est pas désactivée.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| msidbFeatureAttributesNoUnsupportedAdvertise | 32      | 0x0020      | définissez cet attribut et la publication est désactivée pour la fonctionnalité si le shell du système d’exploitation ne prend pas en charge les descripteurs de Windows Installer. Omettez cet attribut et la publication n’est pas désactivée.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 
 
@@ -153,11 +153,11 @@ Certains attributs sont exclusifs les uns des autres. Si vous tentez de définir
 
 Notez que si une fonctionnalité enfant est installée, sa fonctionnalité parente est également installée. Si une fonctionnalité parente est installée, sa fonctionnalité enfant n’est pas nécessairement installée, sauf si ses attributs msidbFeatureAttributesFollowParent et msidbFeatureAttributesUIDisallowAbsent sont définis. Cette relation hiérarchique de l’installation des fonctionnalités parent et enfant est également utilisée pour les installations et installations de l’interface utilisateur qui utilisent des propriétés de ligne de commande.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Plusieurs colonnes temporaires supplémentaires sont ajoutées à cette table lorsqu’elle est chargée en mémoire pour les calculs utilisés par la sélection de l’interface utilisateur et de l’évaluation des coûts.
 
-Un composant peut être partagé entre deux ou plusieurs fonctionnalités ou applications. Si deux fonctionnalités ou plus font référence au même composant, alors ce composant est sélectionné pour l’installation si l’une des fonctionnalités associées est sélectionnée. Cela peut également être la raison pour laquelle les fonctionnalités enfants ne sont pas désinstallées lorsqu’une fonctionnalité parente est supprimée. Si la fonctionnalité enfant est constituée de composants requis par d’autres fonctionnalités ou applications, le Windows Installer ne supprime pas la fonctionnalité enfant.
+Un composant peut être partagé entre deux ou plusieurs fonctionnalités ou applications. Si deux fonctionnalités ou plus font référence au même composant, alors ce composant est sélectionné pour l’installation si l’une des fonctionnalités associées est sélectionnée. Cela peut également être la raison pour laquelle les fonctionnalités enfants ne sont pas désinstallées lorsqu’une fonctionnalité parente est supprimée. si la fonctionnalité enfant est constituée de composants requis par d’autres fonctionnalités ou applications, le Windows Installer ne supprime pas la fonctionnalité enfant.
 
 Pour plus d’informations, consultez contrôle de la [sélection des fonctionnalités États](controlling-feature-selection-states.md).
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: fe5358630a7ac5eb48751135d39c2fd998196bf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 429e973d83e1f213b011998c75dfbfabd81fb7bb4921f0f8b9f61bcedd6080c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051097"
 ---
 # <a name="__cachecontrol-class"></a>\_\_CacheControl, classe
 
@@ -40,7 +40,7 @@ class __CacheControl : __SystemClass
 
 La classe **\_ \_ CacheControl** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ CacheControl** est dérivée de [**\_ \_ SystemClass**](--systemclass.md).
 

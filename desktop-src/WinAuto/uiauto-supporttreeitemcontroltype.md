@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, TreeItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c837428a0aeef900779cfccf0a28b46aa276369
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0075b4559ed79815f3fc9b46c850fd8dcbc455c8fb30bfed5dbeda1f6f1763f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106527138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413339"
 ---
 # <a name="treeitem-control-type"></a>TreeItem (type de contrôle)
 
@@ -85,7 +85,7 @@ Le tableau suivant représente un contrôle classique et une vue de contenu de l
 
 
 
- 
+ 
 
 Les contrôles d’élément d’arborescence peuvent avoir zéro ou plusieurs enfants d’élément d’arborescence dans l’affichage de contenu de l’arborescence UI Automation. Si le contrôle d’élément d’arborescence a des fonctionnalités au-delà de ce qui est exposé dans les modèles de contrôle répertoriés ci-dessous, le contrôle doit être basé sur le type de contrôle [DataItem](uiauto-supportdataitemcontroltype.md) .
 
@@ -101,7 +101,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur        | Notes                                                                                                                                                                                         |
+| Propriété UI Automation                                                                                              | Valeur        | Remarques                                                                                                                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.   | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                  |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.   | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                      |
@@ -119,7 +119,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -127,7 +127,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
-| Modèle de contrôle/Propriété de modèle                                                  | Prise en charge/valeur                     | Notes                                                                                                                                                                                             |
+| Modèle de contrôle/Propriété de modèle                                                  | Prise en charge/valeur                     | Remarques                                                                                                                                                                                             |
 |-----------------------------------------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IExpandCollapseProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider)                 | Obligatoire                          | Tous les éléments d’arborescence doivent prendre en charge le modèle de contrôle [ExpandCollapse](uiauto-implementingexpandcollapse.md) , car tous les éléments peuvent être développés ou réduits.                                           |
 | [**ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate) | Nœud développé, réduit ou terminal | Les éléments d’arborescence sont des nœuds terminaux quand ils ne sont pas développés ou réduits.                                                                                                                                |
@@ -138,7 +138,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -146,7 +146,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                                                | Notes                                                                                                                          |
+| Événement UI Automation                                                                                                                                                | Remarques                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                                |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                              |                                                                                                                                |
@@ -166,9 +166,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un élément d’arborescence contient des sous-éléments autres que des nœuds de plan enfants, le fournisseur doit gérer les informations sur les objets enfants avec soin et clairement. Dans UI Automation, l’arborescence est gérée par la hiérarchie d’arborescence elle-même. En ayant un ou plusieurs enfants non-nœud-plan, les différences entre eux et les nœuds de contour enfants réels deviennent gravement ambiguës.
 
@@ -185,9 +185,9 @@ Si un élément d’arborescence contient des sous-éléments autres que des nœ
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

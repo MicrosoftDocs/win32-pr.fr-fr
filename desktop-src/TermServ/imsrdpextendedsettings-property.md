@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eadc8ce59e5a2bd50a4e61ad75b5124b24c21b8
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 7deeb0e4d6d0f393bae09bacc9ff6709defe51bf6ca6128cbeb64e2f4f6e35cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "103745349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138502"
 ---
 # <a name="imsrdpextendedsettingsproperty-property"></a>IMsRdpExtendedSettings ::P propriété opriétés
 
@@ -61,7 +61,7 @@ Valeur de la propriété nommée.
 | EnableHardwareMode | **VT \_ bool**  | Écriture seule | Non | Si la **valeur est true**, l’assistance matérielle au décodage graphique est tentée. |
 | IgnoreCursors | **VT \_ bool** | Écriture seule | Non | Si la **valeur est true**, les curseurs envoyés par le serveur distant sont ignorés. |
 | ManualClipboardSyncEnabled | **VT \_ bool** | Lecture/écriture | Oui | Si cette propriété a la **valeur true** , cela signifie que les presse-papiers locaux et distants ne seront pas synchronisés automatiquement. Au lieu de cela, l’interface [**IMsRdpClipboard**](imsrdpclipboard.md) doit être utilisée pour synchroniser les formats du presse-papiers du presse-papiers local vers le presse-papiers distant et le presse-papiers distant vers le presse-papiers local. |
-| ZoomLevel | **_VT \_ UI4_* | Lecture/écriture | Oui | Implémente la fonctionnalité de zoom à l’aide du contrôle ActiveX RDP. La fonctionnalité de zoom est disponible dans le menu **système** de RDP. La propriété **zoomLevel** n’a aucun effet en mode RemoteApp et en mode plein écran. [**IMsRdpClientAdvancedSettings :: SmartSizing**](imsrdpclientadvancedsettings-smartsizing.md) et **zoomLevel** s’excluent mutuellement. |
+| ZoomLevel | ***VT \_ UI4** | Lecture/écriture | Oui | implémente la fonctionnalité de Zoom à l’aide du contrôle de ActiveX RDP. La fonctionnalité de zoom est disponible dans le menu **système** de RDP. La propriété **zoomLevel** n’a aucun effet en mode RemoteApp et en mode plein écran. [**IMsRdpClientAdvancedSettings :: SmartSizing**](imsrdpclientadvancedsettings-smartsizing.md) et **zoomLevel** s’excluent mutuellement. |
 
 ## <a name="requirements"></a>Configuration requise
 

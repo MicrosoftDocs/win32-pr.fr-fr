@@ -1,17 +1,17 @@
 ---
-title: Protocole de téléchargement BITS
+title: protocole BITS Télécharger
 description: Cette section décrit le protocole réseau pour les types de tâches chargement BITS et chargement-réponse.
 ms.assetid: d0706ab1-1bf4-4b17-9321-ec3e00dd25e2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 642426decd0bc37390fa9fdd9b1ad2be11a0aa84
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a01fea1ff4703dba9a0429c0b37e9c34ebe0d0099016af788c972dd8ee9fddef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021236"
 ---
-# <a name="bits-upload-protocol"></a>Protocole de téléchargement BITS
+# <a name="bits-upload-protocol"></a>protocole BITS Télécharger
 
 Cette section décrit le protocole réseau pour les types de tâches chargement BITS et chargement-réponse. Le protocole de téléchargement BITS est superposé sur HTTP 1,1 et utilise un grand nombre d’en-têtes HTTP existants et définit de nouveaux en-têtes. Le protocole de téléchargement BITS prend en charge un seul fichier de téléchargement par session.
 
@@ -23,9 +23,9 @@ Utilisez le protocole de téléchargement pour remplacer le logiciel client ou s
 
 Le client détermine comment il répond aux erreurs ou aux paquets inattendus du serveur BITS. Si le serveur reçoit un paquet qui ne s’attend pas, le serveur doit envoyer un paquet ACK avec un code de retour 400 (demande incorrecte).
 
- 
+ 
 
- 
+ 
 
 
 

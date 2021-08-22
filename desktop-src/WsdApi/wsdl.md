@@ -4,12 +4,12 @@ ms.assetid: d8f630cd-0541-431b-86a8-792846a85ea0
 title: élément wsdl
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ef4bc7b76ce22184e4c2f1ceaa2131ef163a26d
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 158141fb8afdc216c47639f6bbb50c1d399e25f202ebbdd2f0a2c045859bffb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049517"
 ---
 # <a name="wsdl-element"></a>élément wsdl
 
@@ -67,7 +67,7 @@ Tout élément [**importHint**](importhint.md) ou [**excludeImport**](excludeimp
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

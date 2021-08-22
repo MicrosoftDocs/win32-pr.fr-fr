@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: caa255ccdbe76c3959d9c730bcaa52ec07428742
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 31e52661e04a036cf7a49791be96af002b801af0e0ed1c4b6ad3ddebf971c2c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119226119"
 ---
 # <a name="menuex_template_header-structure"></a>\_Structure d' \_ en-tête de modèle menuex
 
@@ -74,7 +74,7 @@ Identificateur d’aide de la barre de menus.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un modèle de menu étendu se compose d’une structure d' **\_ \_ en-tête de modèle menuex** suivie d’une ou de plusieurs structures d' [**\_ \_ élément de modèle menuex**](menuex-template-item.md) contiguës. Les structures d' **\_ \_ élément de modèle menuex** , qui sont de longueur variable, sont alignées sur les limites **DWORD** . Pour créer un menu à partir d’un modèle de menu étendu en mémoire, utilisez la fonction [**LoadMenuIndirect**](/windows/desktop/api/Winuser/nf-winuser-loadmenuindirecta) .
 

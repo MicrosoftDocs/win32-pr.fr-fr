@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 28ce4d60a6bba10e857afae7cc93d2e94c69b29f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e1231279446d5117793f19ba59e7bd3683615b6610768809067962de59622b45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021057"
 ---
 # <a name="cim_memorymappedio-class"></a>\_Classe CIM MemoryMappedIO
 
@@ -337,7 +337,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ MemoryMappedIO** est dérivée de [**CIM \_ SystemResource**](cim-systemresource.md).
 

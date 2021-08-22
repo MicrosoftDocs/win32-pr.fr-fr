@@ -3,7 +3,7 @@ title: Message LVM_SETSELECTIONMARK (commctrl. h)
 description: Définit la marque de sélection dans un contrôle de vue de liste. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro ListView SetSelectionMark.
 ms.assetid: 3218f1b3-b934-4083-aaaa-e10ef1dbb6bd
 keywords:
-- LVM_SETSELECTIONMARK les contrôles de message Windows
+- LVM_SETSELECTIONMARK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3efc01068f22585061cae5a6f2c5c0c841810f52
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2c80f1392b5bb8b8ae49eaefb639a60213b5d4a7deaf153b99262bf608a770e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119217359"
 ---
 # <a name="lvm_setselectionmark-message"></a>\_Message SETSELECTIONMARK LVM
 
@@ -43,7 +43,7 @@ Index de base zéro de la nouvelle marque de sélection. Si la valeur est-1, la 
 
 Retourne la marque de sélection précédente, ou-1 s’il n’y a aucune marque de sélection précédente.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La *marque de sélection* est l’index d’élément à partir duquel commence une sélection multiple. Ce message n’affecte pas l’état de sélection de l’élément.
 
@@ -53,8 +53,8 @@ La *marque de sélection* est l’index d’élément à partir duquel commence 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

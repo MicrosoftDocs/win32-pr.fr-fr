@@ -4,12 +4,12 @@ ms.assetid: 7aed8c42-ffa8-43ea-b36e-d894c2ed6bf9
 title: Protection initiale de l’objet de données privé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4324a0e147eaa36d2bf42b90b2597a91852183f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf1c3db244251b6e75988f46a8f416e24dca89d667e9a0fdbcc3d61a2b475ea0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005037"
 ---
 # <a name="private-data-object-initial-protection"></a>Protection initiale de l’objet de données privé
 

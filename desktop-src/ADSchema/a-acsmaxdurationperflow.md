@@ -1,10 +1,10 @@
 ---
-title: Attribut ACS-durée maximale-par-circuit
+title: ACS-attribut Max-Duration-Per-Flow
 description: Durée maximale, en secondes, d’un seul Workflow.
 ms.assetid: 070d3ffe-1d54-4f78-b5a7-3c8ef39d9346
 ms.tgt_platform: multiple
 keywords:
-- AD ACS-attribut Max-Duration-per-Flow-schéma AD
+- ACS-attribut Max-Duration-Per-Flow schéma AD
 - Schéma AD de l’attribut aCSMaxDurationPerFlow
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db53a2116087cadb1e58af234a1741e144fbf916
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a8e65c08ba9176ece0a470008ca8a543905a1320af80c1fd5ea5fc6832f0700c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106512846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082093"
 ---
-# <a name="acs-max-duration-per-flow-attribute"></a>Attribut ACS-durée maximale-par-circuit
+# <a name="acs-max-duration-per-flow-attribute"></a>ACS-attribut Max-Duration-Per-Flow
 
 Durée maximale, en secondes, d’un seul Workflow.
 
@@ -29,14 +29,14 @@ Durée maximale, en secondes, d’un seul Workflow.
 
 | Entrée | Valeur |
 |-------------------|--------------------------------------|
-| CN                | ACS-Max-Duration par Flow            |
+| CN                | ACS-Max-Duration-per-Flow            |
 | LDAP-Display-Name | aCSMaxDurationPerFlow                |
 | Taille              | 4 octets                              |
 | Mettre à jour le privilège  | \-                                   |
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.761               |
 | System-ID-GUID    | 7f56127e-5301-11d1-a9c5-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Durée maximale, en secondes, d’un seul Workflow.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

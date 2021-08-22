@@ -4,12 +4,12 @@ ms.assetid: 481fdc45-82db-4128-93de-388562f636e9
 title: Classement des numéros séquentiels dans un fichier CAB, table de fichiers et table Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07f9cd530d90fb0ef4d805b8ff2c96398cd97e55
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 87f64558a570c7184da36feba8aeea6d2a7dc32c0d8add4c6963dece131c4849
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106531256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119327865"
 ---
 # <a name="ordering-file-sequence-numbers-in-a-cabinet-file-table-and-media-table"></a>Classement des numéros séquentiels dans un fichier CAB, table de fichiers et table Media
 
@@ -17,7 +17,7 @@ La [table file](file-table.md) contient la liste complète de tous les fichiers 
 
 Supposons, par exemple, qu’un fichier a un numéro de séquence de 92 entré dans la colonne séquence de la table file. Pour déterminer sur quel disque source ce fichier réside, le programme d’installation vérifie l’enregistrement de la table des médias pour l’entrée avec la plus petite valeur LastSequence supérieure à 92. La colonne dipatinage est la clé primaire de la table multimédia et ce champ identifie de manière unique le disque dans la table.
 
-La limite maximale du nombre de fichiers pouvant être listés dans la table de fichiers d’un package de Windows Installer est de 32767 fichiers. Pour créer un package Windows Installer contenant d’autres fichiers, consultez [création d’un package volumineux](authoring-a-large-package.md).
+la limite maximale du nombre de fichiers pouvant être listés dans la table de fichiers d’un package de Windows Installer est de 32767 fichiers. pour créer un package Windows Installer contenant d’autres fichiers, consultez [création d’un package volumineux](authoring-a-large-package.md).
 
 Les auteurs de package peuvent réduire la taille des packages d’installation en compressant les fichiers sources et en les incluant dans des fichiers CAB. L’image du fichier source peut être compressée, décompressée ou une combinaison des deux types. Pour plus d’informations sur les sources compressées et non compressées, consultez sources compressées [et non compressées](compressed-and-uncompressed-sources.md). Les fichiers sources compressés doivent être stockés dans un fichier CAB. Les fichiers compressés dans un fichier CAB ont leurs propres numéros de séquence interne. Les valeurs de ces numéros de séquence internes n’ont pas besoin de correspondre à la valeur des numéros de séquence dans la table de fichiers. Toutefois, la séquence des fichiers spécifiée dans la table de fichiers doit être identique à la séquence réelle des fichiers dans les armoires. Les numéros de séquence des fichiers non compressés n’ont pas besoin d’être uniques. Par exemple, si tous les fichiers sont décompressés et se trouvent sur un disque, tous les fichiers peuvent avoir le même numéro de séquence dans la table de fichiers.
 

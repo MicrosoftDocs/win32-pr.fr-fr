@@ -4,21 +4,21 @@ ms.assetid: 4C86618D-4E79-486E-997F-9E2509FBF6B6
 title: Détails du suivi de modification du catalogue Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6258ca87d5d1fba2de9364e5524110bb43c76513
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae8d949caf94d3b7bbbef32945c97cb3f1db258f798b84280570712ef5299cd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051337"
 ---
 # <a name="winsock-catalog-change-tracing-details"></a>Détails du suivi de modification du catalogue Winsock
 
 > [!Note]  
-> Les fournisseurs de services en couche sont déconseillés. À compter de Windows 8 et de Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
+> Les fournisseurs de services en couche sont déconseillés. à partir de Windows 8 et Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
 
  
 
-Le suivi des événements de modification du catalogue Winsock pour les fournisseurs de services en couche (LSP) est lié à l’installation du LSP, à la suppression du LSP, à la désactivation LSP et aux opérations de réinitialisation du catalogue Winsock. Tous les événements suivants sont écrits sur le canal *opérationnel Microsoft-Windows-Winsock-ws2help/Operational* , qui est différent de l’autre suivi d’événements réseau Winsock enregistré sur Windows Vista et versions ultérieures.
+Le suivi des événements de modification du catalogue Winsock pour les fournisseurs de services en couche (LSP) est lié à l’installation du LSP, à la suppression du LSP, à la désactivation LSP et aux opérations de réinitialisation du catalogue Winsock. tous les événements suivants sont écrits dans le canal *opérationnel Microsoft-Windows-Winsock-WS2HELP/* , qui est différent de l’autre suivi d’événements réseau winsock connecté Windows Vista et versions ultérieures.
 
 Les éléments suivants décrivent chacun des événements Winsock LSP qui peuvent être suivis et détaillent les paramètres et les informations qui sont journalisés.
 

@@ -4,12 +4,12 @@ description: Cette rubrique décrit la méthode correcte pour spécifier les nom
 ms.assetid: 5b8f23cb-9906-4cc4-83d4-73fdf96ed681
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4db3c4f1fc129aea9b793bac1935d678645b28fc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 98c047228159e011ffa9a0842f1748ee07e6af4a49ff296ae8ed65b494b8c53f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052763"
 ---
 # <a name="ensuring-that-ui-elements-are-correctly-named"></a>S’assurer que les éléments d’interface utilisateur sont correctement nommés
 
@@ -17,7 +17,7 @@ Cette rubrique décrit la méthode correcte pour spécifier les noms des éléme
 
 Les informations contenues dans cette section s’appliquent uniquement à Microsoft Active Accessibility. Elle ne s’applique pas aux applications qui utilisent Microsoft UI Automation ou à celles basées sur des langages de balisage tels que HTML, DHTML (Dynamic HTML) ou XML.
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Comment des noms incorrects provoquent des problèmes](#how-incorrect-naming-causes-problems)
 -   [Comment MSAA obtient la propriété Name](#how-msaa-gets-the-name-property)
 -   [Comment rechercher et corriger les problèmes de nom](#how-to-find-and-correct-naming-problems)
@@ -114,7 +114,7 @@ BEGIN
 END
 ```
 
-Pour apporter des corrections à un fichier de ressources, vous pouvez modifier directement le fichier ou utiliser l’outil d’ordre de tabulation dans Microsoft Visual Studio. Vous pouvez accéder à l’outil d’ordre de tabulation dans Visual Studio en appuyant sur CTRL + D ou en sélectionnant **ordre de tabulation** dans le menu **format** .
+Pour apporter des corrections à un fichier de ressources, vous pouvez modifier directement le fichier ou utiliser l’outil d’ordre de tabulation dans Microsoft Visual Studio. vous pouvez accéder à l’outil d’ordre de tabulation dans Visual Studio soit en appuyant sur CTRL + D, soit en sélectionnant **ordre de tabulation** dans le menu **Format** .
 
 Après avoir corrigé et reconstruit l’application, l’interface utilisateur du formulaire de saisie des noms est identique à celle qui était auparavant utilisée. Toutefois, Microsoft Active Accessibility fournira à présent les propriétés de nom correctes aux applications clientes et définira le focus correctement quand l’utilisateur appuie sur les raccourcis clavier ALT + F ou ALT + L. En outre, l' [inspection](inspect-objects.md) affiche la hiérarchie d’objets correcte, comme le montre la capture d’écran suivante.
 
@@ -149,11 +149,11 @@ END
 
 Il n’est pas toujours possible ou souhaitable d’avoir une étiquette visible pour chaque contrôle. Par exemple, l’ajout d’étiquettes peut parfois entraîner des modifications indésirables dans l’apparence de l’interface utilisateur. Dans ce cas, vous pouvez utiliser des étiquettes invisibles. Microsoft Active Accessibility récupère toujours le texte associé à une étiquette invisible, mais l’étiquette n’apparaît pas dans l’interface utilisateur visuel ou en interfère avec celle-ci.
 
-Comme avec les étiquettes visibles, une étiquette invisible doit immédiatement précéder le contrôle dans l’ordre de tabulation. Pour rendre une étiquette invisible dans un fichier de ressources (. RC), ajoutez `NOT WS_VISIBLE` ou `|~WS_VISIBLE` à la partie de style du contrôle de texte statique. Si vous utilisez l’éditeur de ressources dans Visual Studio, vous pouvez définir la propriété visible sur false.
+Comme avec les étiquettes visibles, une étiquette invisible doit immédiatement précéder le contrôle dans l’ordre de tabulation. Pour rendre une étiquette invisible dans un fichier de ressources (. RC), ajoutez `NOT WS_VISIBLE` ou `|~WS_VISIBLE` à la partie de style du contrôle de texte statique. si vous utilisez l’éditeur de ressources dans Visual Studio, vous pouvez définir la propriété Visible sur false.
 
 ## <a name="how-to-use-direct-annotation-to-specify-the-name-property"></a>Comment utiliser l’annotation directe pour spécifier la propriété Name
 
-Les proxys par défaut inclus dans le composant d’exécution Microsoft Active Accessibility, Oleacc.dll fournissent automatiquement un objet [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) pour tous les contrôles Windows standard. Si vous personnalisez un contrôle Windows standard, les proxies par défaut font de leur mieux pour fournir avec précision toutes les propriétés **IAccessible** pour votre contrôle personnalisé. Vous devez tester minutieusement un contrôle personnalisé pour vous assurer que les proxies par défaut fournissent des valeurs de propriété précises et complètes. Si le test révèle des valeurs de propriété inexactes ou incomplètes, vous pourrez peut-être utiliser la technique d’annotation dynamique appelée annotation directe pour fournir des valeurs de propriété correctes et ajouter celles qui sont manquantes.
+les proxys par défaut inclus dans le composant d’exécution Microsoft Active Accessibility, Oleacc.dll fournissent automatiquement un objet [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) pour tous les contrôles de Windows standard. si vous personnalisez un contrôle de Windows standard, les proxies par défaut font de leur mieux pour fournir avec précision toutes les propriétés **IAccessible** pour votre contrôle personnalisé. Vous devez tester minutieusement un contrôle personnalisé pour vous assurer que les proxies par défaut fournissent des valeurs de propriété précises et complètes. Si le test révèle des valeurs de propriété inexactes ou incomplètes, vous pourrez peut-être utiliser la technique d’annotation dynamique appelée annotation directe pour fournir des valeurs de propriété correctes et ajouter celles qui sont manquantes.
 
 Notez que l’annotation dynamique n’est pas seulement pour les contrôles pris en charge par les proxies Microsoft Active Accessibility. Vous pouvez également l’utiliser pour modifier ou fournir des propriétés pour tout contrôle qui fournit sa propre implémentation [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) .
 
@@ -170,7 +170,7 @@ L’utilisation de l’annotation directe pour modifier la [propriété Name](na
     > [!Note]  
     > Pour définir des GUID, vous devez inclure Initguid. h avant oleacc. h dans le même fichier.
 
-     
+     
 
 2.  Initialisez la bibliothèque COM (Component Object Model) en appelant la fonction [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) , en général pendant le processus d’initialisation de l’application.
 3.  Peu après la création du contrôle cible (en général, pendant le message [WM \_ INITDIALOG](../dlgbox/wm-initdialog.md) ), créez une instance du gestionnaire d’annotations et obtenez un pointeur vers son pointeur [**IAccPropServices**](/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices) .
@@ -272,6 +272,6 @@ HRESULT RemoveAnnotatedNameFromControl(HWND hDlg, HWND hwndCtl)
 [Outils de test](testing-tools.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

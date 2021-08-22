@@ -4,12 +4,12 @@ description: Les rubriques de cette section fournissent les spécifications de r
 ms.assetid: B3FAE463-3B1D-412C-9698-8366D6A63806
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 165121acceb974bbfcf46e81a0d11135022df8f4
-ms.sourcegitcommit: f2fe9d9bd65333b74f2af8e30eddbb1643b40c8f
+ms.openlocfilehash: f1de34d28ab2d25ea0875a1c1eac2a5c7d558ff415889fda254403d69909a820
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "104381389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119231389"
 ---
 # <a name="pointer-input-message-reference"></a>Référence de message d’entrée de pointeur
 
