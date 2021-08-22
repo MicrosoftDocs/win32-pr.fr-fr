@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9f885bb110b51264bc6108ca8c0f881cc48f7710
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6ead7fb1c96b05d6945bb67937b215fd6d5d2422041250bee18e4be26edb2f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118899017"
 ---
 # <a name="signeddatasign-method"></a>SignedData. Sign, méthode
 
@@ -82,7 +82,7 @@ Cette méthode retourne une chaîne qui contient les données signées et encod�
 
 Si cette méthode échoue, une erreur est levée. L’objet **Err** contient des informations supplémentaires sur l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!IMPORTANT]
 > Lorsque cette méthode est appelée à partir d’un script Web, le script doit utiliser votre clé privée pour créer une signature numérique. Autoriser les sites Web non approuvés à utiliser votre clé privée est un risque pour la sécurité. Une boîte de dialogue qui vous demande si le site Web peut utiliser votre clé privée s’affiche lorsque cette méthode est appelée pour la première fois. Si vous autorisez le script à utiliser votre clé privée pour créer une signature numérique et que vous sélectionnez ne plus afficher cette boîte de dialogue, la boîte de dialogue n’apparaît plus pour les scripts de ce domaine qui utilisent votre clé privée pour créer une signature numérique. Toutefois, les scripts en dehors de ce domaine qui tentent d’utiliser votre clé privée pour créer une signature numérique entraînent toujours l’affichage de cette boîte de dialogue. Si vous n’autorisez pas le script à utiliser votre clé privée et que vous sélectionnez ne plus afficher cette boîte de dialogue, les scripts de ce domaine se verront automatiquement refuser la possibilité d’utiliser votre clé privée pour créer des signatures numériques.
@@ -95,8 +95,8 @@ Les résultats suivants s’appliquent à la valeur du paramètre de *signataire
 
 -   Si le paramètre de *signataire* n’a pas la **valeur null**, cette méthode utilise la clé privée désignée par le certificat associé pour chiffrer la signature. Si la clé privée vers laquelle pointe le certificat n’est pas disponible, la méthode échoue.
 -   Si le paramètre de *signataire* a la **valeur null** et qu’il y a exactement un certificat dans l' \_ utilisateur actuel mon magasin qui a accès à une clé privée, ce certificat est utilisé pour créer la signature.
--   Si le paramètre du *signataire* a la valeur **null**, la valeur de la propriété [**Settings. EnablePromptForCertificateUI**](settings-enablepromptforcertificateui.md) est true et qu’il y a plusieurs certificats dans le magasin de l' \_ utilisateur actuel mon magasin avec une clé privée disponible, une boîte de dialogue s’affiche et permet à l’utilisateur de sélectionner le certificat à utiliser.
--   Si le paramètre de *signataire* a la **valeur null** et que la propriété [**Settings. EnablePromptForCertificateUI**](settings-enablepromptforcertificateui.md) a la valeur false, la méthode échoue.
+-   si le paramètre de *signataire* a la **valeur NULL**, le [**Paramètres.**](settings-enablepromptforcertificateui.md)La valeur de la propriété EnablePromptForCertificateUI est true et il existe plusieurs certificats dans le magasin de l' \_ utilisateur actuel avec une clé privée disponible, une boîte de dialogue s’affiche et permet à l’utilisateur de sélectionner le certificat à utiliser.
+-   si le paramètre de *signataire* a la **valeur NULL** et que le [**Paramètres.**](settings-enablepromptforcertificateui.md)La propriété EnablePromptForCertificateUI a la valeur false, la méthode échoue.
 -   Si le paramètre de *signataire* a la **valeur null** et qu’il n’existe aucun certificat dans le magasin de l' \_ utilisateur actuel avec une clé privée disponible, la méthode échoue.
 
 ## <a name="requirements"></a>Configuration requise
@@ -105,7 +105,7 @@ Les résultats suivants s’appliquent à la valeur du paramètre de *signataire
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

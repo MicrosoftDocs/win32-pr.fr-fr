@@ -9,12 +9,12 @@ keywords:
 - ADSI Provider ADSI, exemples de gestion des utilisateurs, l’utilisateur doit changer de mot de passe à la prochaine ouverture de session
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 787be5f5f4e1534574a68c179bb699ac68c61e3e
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: be50e5cdccb4969e59a5b32516a35278b867062e8cced2e80d96b26c56c6173b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106545879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023037"
 ---
 # <a name="user-must-change-password-at-next-logon-winnt-provider"></a>L’utilisateur doit changer de mot de passe à la prochaine ouverture de session (fournisseur WinNT)
 
@@ -22,7 +22,7 @@ Pour activer cette option, affectez la valeur 1 à l’attribut **PasswordExpire
 
 ## <a name="example-1"></a>Exemple 1
 
-L’exemple de code suivant montre comment définir l’option modifier le mot de passe lors de la prochaine ouverture de session à l’aide de Visual Basic avec ADSI.
+l’exemple de code suivant montre comment définir l’option modifier le mot de passe lors de la prochaine ouverture de session à l’aide de Visual Basic avec ADSI.
 
 
 ```VB

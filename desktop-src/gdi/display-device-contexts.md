@@ -4,12 +4,12 @@ ms.assetid: 8f952d68-ee52-4e63-9f09-80a14c755d31
 title: Afficher les contextes de périphérique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41d0eeb3055209ad99a6a50fd129f9f9c064bf52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e2e2bbd847d1a473ff08de7db52da7513b91377e8a891b2c6fdde04a82bf1d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761324"
 ---
 # <a name="display-device-contexts"></a>Afficher les contextes de périphérique
 
@@ -19,7 +19,7 @@ Il existe cinq types de contrôleurs de contrôleur pour les affichages vidéo 
 
 -   Classe
 -   Courant
--   Privées
+-   Privé
 -   Fenêtre
 -   Parent
 

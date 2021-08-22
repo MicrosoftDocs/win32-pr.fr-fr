@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 57b2a9d29b72db6c04673f30f41f26c44701c69c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 240754024135b5bd5aa48529d49080afbdb04e170987102346cdda2c59b12427
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955928"
 ---
 # <a name="installcatalog-function"></a>InstallCatalog fonction)
 
@@ -68,7 +68,7 @@ Pointeur vers une chaîne qui représente le chemin d’accès complet du catalo
 
 Cette fonction n’étant pas implémentée actuellement, elle ne retourne pas de valeur réelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

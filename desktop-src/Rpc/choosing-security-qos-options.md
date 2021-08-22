@@ -4,12 +4,12 @@ description: Les options QOS de sécurité sont transmises dans le cadre du para
 ms.assetid: 43befe3d-079a-4389-a1ff-6bda90935769
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c286b516438eae78117ef8d73939c3b4bed396d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 44c943fd9e2b4104de87a24c6078499fa38acdf1b6d1ea2122bf9d3063cd80f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932195"
 ---
 # <a name="choosing-security-qos-options"></a>Choix des options de QOS de sécurité
 
@@ -23,7 +23,7 @@ Par exemple, si le logiciel client doit appeler uniquement un serveur s’exécu
 
 Si le logiciel client doit appeler un service s’exécutant uniquement sous le compte de Jean, rédigez directement le nom principal du serveur de Joe et effectuez l’appel. Si le serveur n’est pas Joe, l’appel échoue tout simplement.
 
-De nombreuses fois, les services s’exécutent en tant que services système Windows, ce qui signifie qu’ils s’exécutent sous le compte de l’ordinateur. L’authentification mutuelle et la création d’un nom principal de serveur sont toujours recommandées.
+bien souvent, les services s’exécutent en tant que Windows les services système, ce qui signifie qu’ils s’exécutent sous le compte de l’ordinateur. L’authentification mutuelle et la création d’un nom principal de serveur sont toujours recommandées.
 
 ## <a name="use-the-lowest-impersonationtype-that-allows-the-call-to-go-through"></a>Utiliser le ImpersonationType le plus bas qui autorise l’appel à passer
 
@@ -31,6 +31,6 @@ Cette meilleure pratique est assez explicite. Même si l’authentification mutu
 
 Enfin, certains fournisseurs de sécurité ou transports peuvent enbosser de manière transparente ImpersonationType à un niveau supérieur à celui spécifié. Lors du développement d’un programme, assurez-vous d’effectuer des appels avec le ImpersonationType prévu et vérifiez si vous obtenez une ImpersonationType supérieure sur le serveur.
 
- 
+ 
 
- 
+ 

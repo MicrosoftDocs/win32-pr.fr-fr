@@ -1,7 +1,7 @@
 - name: Service de transfert intelligent en arrière-plan (BITS)
   href: background-intelligent-transfer-service-portal.md
   items:
-    - name: What's New
+    - name: Nouveautés
       href: what-s-new.md
     - name: À propos du service BITS
       href: about-bits.md
@@ -91,9 +91,9 @@
               href: preventing-multiple-uploads.md
             - name: Nettoyage de répertoire virtuel
               href: virtual-directory-cleanup.md
-            - name: Télécharger les meilleures pratiques
+            - name: Télécharger Meilleures pratiques
               href: upload-best-practices.md
-            - name: Limites de téléchargement
+            - name: Télécharger Limite
               href: upload-limits.md
         - name: Utilisation d’en-têtes de demande/réponse de notification BITS
           href: using-bits-notification-request-response-headers.md
@@ -103,7 +103,7 @@
           href: using-windows-powershell-to-create-bits-transfer-jobs.md
         - name: Utilisation des applets de commande Windows PowerShell WinRM pour gérer les tâches de transfert BITS
           href: using-winrm-windows-powershell-cmdlets-to-manage-bits-transfer-jobs.md
-        - name: Utilisation des applets de commande WMI Windows PowerShell pour gérer BITS Compact Server
+        - name: utilisation des applets de commande WMI Windows PowerShell pour gérer BITS Compact Server
           href: using-wmi-windows-powershell-cmdlets-to-manage-the-bits-compact-server.md
     - name: Informations de référence sur BITS
       href: bits-reference.md
@@ -526,7 +526,7 @@
                   href: example-adding-a-helper-token-to-a-bits-transfer-job-.md
             - name: Outil BITSAdmin
               href: bitsadmin-tool.md
-        - name: Paramètres du serveur BITS pour les travaux de chargement
+        - name: Paramètres du serveur BITS pour les travaux Télécharger
           href: bits-server-settings-for-upload-jobs.md
           items:
             - name: Propriétés des extensions IIS BITS
@@ -577,7 +577,7 @@
               href: /windows/win32/api/Bits5_0/ns-bits5_0-bits_file_property_value
             - name: BITS_JOB_PROPERTY_VALUE
               href: /windows/win32/api/Bits5_0/ns-bits5_0-bits_job_property_value
-        - name: Protocole de téléchargement BITS
+        - name: protocole BITS Télécharger
           href: bits-upload-protocol.md
           items:
             - name: Paquets de demande BITS

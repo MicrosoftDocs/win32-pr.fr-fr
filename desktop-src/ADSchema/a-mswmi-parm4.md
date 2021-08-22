@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e31759842b681e020d7600d7fbe5b45f3de384e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0dec28d4fd0f3ee506761765e85f7483e1af921cec00bbbfe8dc9679821a2484
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022547"
 ---
 # <a name="ms-wmi-parm4-attribute"></a>attribut ms-WMI-Parm4
 
@@ -44,7 +44,7 @@ L’attribut **MS-WMI-Parm4** est réservé à un usage interne.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

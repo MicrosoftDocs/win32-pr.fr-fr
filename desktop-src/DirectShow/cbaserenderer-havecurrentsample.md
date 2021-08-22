@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fc7a594ce23f2e015a9c74864308e2e42528e145
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea807ffc68fc27a3c276de1fabcd7eb3591311a3896acfd5b0d4f91cb7f1ed7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954948"
 ---
 # <a name="cbaserendererhavecurrentsample-method"></a>Méthode CBaseRenderer. HaveCurrentSample
 
@@ -50,7 +50,7 @@ Retourne la **valeur true** si le filtre a un exemple, ou **false** dans le cas 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

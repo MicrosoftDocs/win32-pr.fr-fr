@@ -5,12 +5,12 @@ ms.assetid: 58BB16D4-7ADD-4752-B092-D3C77B26953A
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 432ccdcde09bfd66dd20ba6050c18a6231ffc816
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 92e93c035c7493fa0ea1a13f30bf6c9bff866da20fabf29e0626a4efb1ac994e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823316"
 ---
 # <a name="resourcelocator-properties"></a>Propriétés ResourceLocator
 
@@ -24,9 +24,9 @@ L’objet [**ResourceLocator**](resourcelocator.md) expose les propriétés suiv
 -   [**Propriété MustUnderstandOptions**](resourcelocator-mustunderstandoptions.md)
 -   [**Propriété ResourceURI**](resourcelocator-resourceuri.md)
 
- 
+ 
 
- 
+ 
 
 
 

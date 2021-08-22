@@ -3,7 +3,7 @@ title: TVN_SETDISPINFO le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle Tree-View qu’elle doit mettre à jour les informations qu’elle gère à propos d’un élément. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 40fa61bc-c043-4001-ada9-b627d68bd737
 keywords:
-- Contrôles Windows de code de notification TVN_SETDISPINFO
+- TVN_SETDISPINFO les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b03e60ba7d8e6d7851c62fac030bd252cf957d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e88a9b5fed4260fa88f5f40431113456950d99985ad2f2e0e97c2e951dce96bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957768"
 ---
 # <a name="tvn_setdispinfo-notification-code"></a>\_Code de notification TVN SETDISPINFO
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-co
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le membre **pszText** de la structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) de l’élément est la \_ valeur de TEXTCALLBACK LPSTR, le contrôle envoie cette notification pour définir le texte de l’élément. Dans ce cas, l’indicateur de texte TVIF est défini pour le membre de **masque** de *lParam* \_ .
 
@@ -63,8 +63,8 @@ Si le membre **IImage** ou **iSelectedImage** de la structure [**TVITEM**](/wind
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TVN \_ SETDISPINFOW** (Unicode) et **TVN \_ SETDISPINFOA** (ANSI)<br/>           |
 

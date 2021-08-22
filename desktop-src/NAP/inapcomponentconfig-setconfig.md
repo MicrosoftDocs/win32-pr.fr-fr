@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1f3d557517ec27f9537a7cbcd46be9e2cd107e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d7b3ecf455c591985a5e8778e49495351bd1b4aba83e9d29fe2b25d7d406a507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940197"
 ---
 # <a name="inapcomponentconfigsetconfig-method"></a>INapComponentConfig :: SetConfig, méthode
 
@@ -83,7 +83,7 @@ Retourne l’un des codes d’erreur suivants en fonction du résultat de cette 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les informations de contrôle de version des composants doivent être incluses dans l’objet blob de configuration de *données* . Les informations de contrôle de version peuvent être utilisées lors de la migration d’une version de SHV vers une autre.
 
@@ -94,7 +94,7 @@ Les informations de contrôle de version des composants doivent être incluses d
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>NapCommon. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapCommon. idl</dt> </dl> |
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7c46fbfc103c0ba40294e4c149d5fd427296765
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 844c9f39529e1a66437c83672acc8b2d3ad2a3e3ff3a1ad31c4d9bd97248d010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118877271"
 ---
 # <a name="isoftkbdshowkeysforkeyscanmode-method"></a>ISoftKbd :: ShowKeysForKeyScanMode, méthode
 
@@ -88,7 +88,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                             |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                   |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                        |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Softkbdc. h</dt> </dl>  |
 | MIDL<br/>                      | <dl> <dt>Softkbd. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |

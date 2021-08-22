@@ -7,12 +7,12 @@ keywords:
 - attributs ADSI, syntaxe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b23d58b48b27fa88077f388b47535afd1dbd0a4f
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 310a678c48051909e4a3e7555b9d8ff0a508c339cfcd41ed6c66286529cadde1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023927"
 ---
 # <a name="adsi-attribute-syntax"></a>Syntaxe d’attribut ADSI
 
@@ -31,7 +31,7 @@ Le nom unique est utile pour lier deux objets ensemble. Par exemple, il peut cr�
 
 Le nom unique doit contenir un objet de nom unique valide. Si le nom unique ne correspond pas à un objet existant valide, la plupart des serveurs rejettent la demande et renvoient une erreur de violation de contrainte.
 
-Exemples :
+Exemples :
 
 
 ```VB
@@ -60,7 +60,7 @@ La chaîne de casse exacte est une chaîne respectant la casse alors que la cha�
 > [!Note]  
 > Le répertoire peut ou non être stocké en tant que chaîne Unicode. Toutefois, ADSI accepte et retourne des chaînes Unicode.
 
- 
+ 
 
 Exemple :
 
@@ -113,7 +113,7 @@ Cette syntaxe stocke la date et l’heure dans une chaîne unique. Le format de 
 > [!Note]  
 > Les deux premiers chiffres de l’année ne sont pas stockés dans cette chaîne.
 
- 
+ 
 
 Voici quelques exemples de valeurs valides : « 9101311455Z », « 910131145503Z », « 9101314455-0500 », « 910131145503 + 0130 ». Cette chaîne est stockée en tant que caractères ASCII codés sur un octet, et aucun numéro de page de codes n’est stocké avec celle-ci.
 
@@ -149,7 +149,7 @@ Syntax Type: ADSTYPE_BOOLEAN
 
 Active Directory accepte uniquement une valeur signée 32 bits pour cette syntaxe. Elle gère zéro comme **false** et toutes les valeurs autres que zéro comme **true**.
 
-## <a name="integer"></a>Integer
+## <a name="integer"></a>Entier
 
 
 ```VB
@@ -257,6 +257,6 @@ Set sacl = sd.SystemAcl
 [Comment spécifier des valeurs de comparaison](/windows/desktop/AD/how-to-specify-comparison-values)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

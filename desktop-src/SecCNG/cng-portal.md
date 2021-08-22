@@ -4,12 +4,12 @@ ms.assetid: eaad88a1-4e1d-4246-9560-8eef60f8b70f
 title: 'API de chiffrement : nouvelle génération'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d485f8371905961c63fbab66b29d0db544e3271
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfb5be604ea1dc8bdfc38ba37f0f202d1b95f334109e592a087e4da57b678cfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908230"
 ---
 # <a name="cryptography-api-next-generation"></a>API de chiffrement : nouvelle génération
 
@@ -19,7 +19,7 @@ API de chiffrement : Next Generation (CNG) est le remplacement à long terme de
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-CNG est destiné aux développeurs d’applications qui permettent aux utilisateurs de créer et d’échanger des documents et d’autres données dans un environnement sécurisé, en particulier sur des médias non sécurisés tels qu’Internet. Les développeurs doivent être familiarisés avec les langages de programmation C et C++ et dans l’environnement de programmation Windows. Bien que cela ne soit pas obligatoire, il est recommandé de bien comprendre le chiffrement ou les sujets liés à la sécurité.
+CNG est destiné aux développeurs d’applications qui permettent aux utilisateurs de créer et d’échanger des documents et d’autres données dans un environnement sécurisé, en particulier sur des médias non sécurisés tels qu’Internet. les développeurs doivent être familiarisés avec les langages de programmation C et C++ et l’environnement de programmation basé sur les Windows. Bien que cela ne soit pas obligatoire, il est recommandé de bien comprendre le chiffrement ou les sujets liés à la sécurité.
 
 Si vous développez un fournisseur d’algorithme de chiffrement CNG ou un fournisseur de stockage de clés, vous devez télécharger le [Kit de développement du fournisseur de services de chiffrement](https://www.microsoft.com/download/details.aspx?id=30688) auprès de Microsoft.
 

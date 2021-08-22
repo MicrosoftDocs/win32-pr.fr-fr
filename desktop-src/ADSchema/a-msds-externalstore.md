@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d127c2a9f4aa91c3866803a749d225b5403e68fb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 62689f358a5880c6d176782d4caf341a5c916d35e9ab97952789604c1a0a7399
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960788"
 ---
 # <a name="ms-ds-external-store-attribute"></a>attribut ms-DS-External-Store
 
@@ -44,7 +44,7 @@ Chaîne qui identifie l’emplacement d’un magasin externe, tel qu’une base 
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 452b0166da367bb6b1530f5669e55b7ca909e13e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6a54de2865df805af51b054c22d455d52914a5b00514767d432ceda28c16a39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907096"
 ---
 # <a name="sslcreateephemeralkey-function"></a>SslCreateEphemeralKey fonction)
 
@@ -128,7 +128,7 @@ Si la fonction échoue, elle retourne une valeur d’erreur différente de zéro
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de l’utilisation d’une suite de chiffrement DHE, l’implémentation SSL interne transmet les paramètres Server *p* et *g* à la fonction **SslCreateEphemeralKey** dans les paramètres *pbParams* et *cbParams* .
 
@@ -140,8 +140,8 @@ Le format des données dans la mémoire tampon *pbParams* est le même que celui
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Sslprovider. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

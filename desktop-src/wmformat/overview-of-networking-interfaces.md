@@ -11,12 +11,12 @@ keywords:
 - ASF (format de systèmes avancés), liste d’interfaces pour les fonctionnalités de mise en réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebd1c235e7e8b36964993bb24ce30977446d9af8
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 0b87da220f5ac61b7b722e79939a1fd617af46ab6608d4d92e8905f466bb98e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103724130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118700261"
 ---
 # <a name="overview-of-networking-interfaces"></a>Vue d’ensemble des interfaces réseau
 
@@ -39,7 +39,7 @@ Les fonctionnalités de mise en réseau de ce kit de développement logiciel (SD
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -48,9 +48,9 @@ Les fonctionnalités de mise en réseau de ce kit de développement logiciel (SD
 [**Implémentation des fonctionnalités réseau**](implementing-network-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

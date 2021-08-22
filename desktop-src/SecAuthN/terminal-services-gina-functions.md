@@ -1,22 +1,22 @@
 ---
-description: Lorsque les services Terminal Server sont activés, GINA doit appeler les fonctions de prise en charge de Winlogon pour terminer l’installation de chaque utilisateur, pour interroger les informations d’identification d’une session cliente des services Terminal Server et pour se déconnecter d’une session réseau des services Terminal Server. Notez que les DLL GINA sont ignorées dans Windows Vista.
+description: Lorsque les services Terminal Server sont activés, GINA doit appeler les fonctions de prise en charge de Winlogon pour terminer l’installation de chaque utilisateur, pour interroger les informations d’identification d’une session cliente des services Terminal Server et pour se déconnecter d’une session réseau des services Terminal Server. notez que les dll GINA sont ignorées dans Windows Vista.
 ms.assetid: 70b55b99-b350-4638-84ba-e5580d9d992f
 title: Fonctions GINA des services Terminal Server
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19452fb73f00ef4ace0dd85083578334b6fb1038
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0bdd81d66d88ae280c14d71d7d65385c0d5580b3e28cef9d0f26ed1963bded1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916391"
 ---
 # <a name="terminal-services-gina-functions"></a>Fonctions GINA des services Terminal Server
 
 Lorsque les services Terminal Server sont activés, [*Gina*](../secgloss/g-gly.md) doit appeler les fonctions de prise en charge de [*Winlogon*](../secgloss/w-gly.md) pour terminer l’installation de chaque utilisateur, pour interroger les [*informations d’identification*](../secgloss/c-gly.md) d’une session cliente des services Terminal Server et pour se déconnecter d’une session réseau des services Terminal Server.
 
 > [!Note]  
-> Les DLL GINA sont ignorées dans Windows Vista.
+> les dll GINA sont ignorées dans Windows Vista.
 
  
 

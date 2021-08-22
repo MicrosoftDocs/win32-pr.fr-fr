@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102880
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 90fea334927006afe77371c14e0ffc148ea8a316
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abfb627a852aab3ac24f58bd8b6b091e4e9e6d60fcb17074ec7aa739ec4f78fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104559249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118770379"
 ---
 # <a name="esentspavailextcacheoutofsyncexception-members"></a>Membres EsentSPAvailExtCacheOutOfSyncException
 
@@ -73,7 +73,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

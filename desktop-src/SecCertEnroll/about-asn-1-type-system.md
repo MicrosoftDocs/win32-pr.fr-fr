@@ -4,12 +4,12 @@ ms.assetid: 85e88e0b-057b-42c7-a3c8-017a30195d1e
 title: Système de type ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abbf60bf61e32c5fca882f2e40c946c043ef93e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e0b5b9780057229d301bbabcdf2484c66bf06b4313587b0e70a68070885a179
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905074"
 ---
 # <a name="asn1-type-system"></a>Système de type ASN. 1
 
@@ -76,7 +76,7 @@ AttributeSetValue ::= SET OF ANY
 
 La structure de requête de haut niveau, **CertificationRequestInfo**, est un type qui est constitué d’une séquence d’autres types. Lorsqu’un type est ou contient uniquement des types de base, des types de chaînes ou **un de ces** types, il ne peut pas être décomposé. Par exemple, le champ **version** est un type **CertificationRequestInfoVersion** qui est, à son tour, un type **entier** , un type ASN. 1 de base qui n’est pas composé d’autres types.
 
-Un système de type permet à la syntaxe d’une demande d’être présentée visuellement de manière compréhensible par les développeurs, et elle permet à la requête d’être encodée de manière cohérente pour la transmission sur un réseau. Pour plus d’informations sur l’encodage, consultez [Distinguished Encoding Rules](distinguished-encoding-rules.md). Pour plus d’informations sur les types ASN. 1, consultez les rubriques suivantes.
+Un système de type permet à la syntaxe d’une demande d’être présentée visuellement de manière compréhensible par les développeurs, et elle permet à la requête d’être encodée de manière cohérente pour la transmission sur un réseau. pour plus d’informations sur l’encodage, consultez [Distinguished Encoding Rules](distinguished-encoding-rules.md). Pour plus d’informations sur les types ASN. 1, consultez les rubriques suivantes.
 
 [Types de base](about-basic-types.md)
 

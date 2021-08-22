@@ -4,12 +4,12 @@ description: Constantes de liste d’images
 ms.assetid: ED9009D7-4DC5-4800-A4D1-7D9C12FDEDE2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e03632e89d64bc4fa8c69c73625600e6bc014f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e0984d15d343c2fe1c95343d9b03cd019c9489292a3a87a15aa2af83477141b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958678"
 ---
 # <a name="image-list-constants"></a>Constantes de liste d’images
 
@@ -17,9 +17,9 @@ ms.locfileid: "104028782"
 
 -   [**Indicateurs de création de la liste d’images**](ilc-constants.md)
 
- 
+ 
 
- 
+ 
 
 
 

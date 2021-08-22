@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 962000aad2c9aad80147c742a4c811321bd31d42
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dd0159fec89eb2898311338c0ffebd5de25c37a788fd4540101ae603ae5f7881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022617"
 ---
 # <a name="ms-dns-maintain-trust-anchor-attribute"></a>attribut d’ancre d’approbation MS-DNS-maintain
 
@@ -36,7 +36,7 @@ Attribut utilisé pour définir le type d’ancre d’approbation à publier aut
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2133              |
 | System-ID-GUID    | 0dc063c1-52d9-4456-9e15-9c2434aafd94 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

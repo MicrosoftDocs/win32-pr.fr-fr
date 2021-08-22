@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 10dffa12a379754006ca65d1239be96632a68b93
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ce7d891eb446372b749c7085a37e80241c52f1cf862a61b3fc9edeb544776b2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044895"
 ---
 # <a name="d3dxmatrixidentity-function"></a>D3DXMatrixIdentity fonction)
 
@@ -55,7 +55,7 @@ Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) qui est la matrice d’identité.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La matrice d’identité est une matrice dans laquelle tous les coefficients sont 0, à l’exception des \[ coefficients 1, 1, 2 \] \[ \] \[ 3, 3 \] \[ 4, 4 \] , qui sont définis sur 1. La matrice d’identité est spéciale dans le cas où elle est appliquée aux sommets, mais elle n’est pas modifiée. La matrice d’identité est utilisée comme point de départ pour les matrices qui modifient les valeurs de vertex pour créer des rotations, des translations et d’autres transformations qui peuvent être représentées par une matrice 4 X4.
 

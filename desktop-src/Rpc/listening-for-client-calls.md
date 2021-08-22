@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, écoute des appels client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f375a4620e301f59d168bf5f7a4dbeedc0fb89f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 62f94453a3250cfc1adae72aa0af96297a741beb501839f7f7831e3f88a8c218
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928604"
 ---
 # <a name="listening-for-client-calls"></a>Écoute des appels clients
 
@@ -36,9 +36,9 @@ Le deuxième paramètre de [**RpcServerListen**](/windows/desktop/api/Rpcdce/nf-
 
 La spécification DCE exige que [**RpcServerListen**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverlisten) continue à s’exécuter jusqu’à ce qu’elle reçoive un signal d’arrêt. Une extension Microsoft de cette fonction est de lui permettre de commencer à écouter et à retourner immédiatement. Si vous souhaitez que votre application utilise le comportement DCE par défaut, définissez le troisième paramètre sur zéro. Pour plus d’informations, consultez [**RpcServerListen**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverlisten), [**RpcMgmtStopServerListening**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtstopserverlistening)et [**RpcMgmtWaitServerListen**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten) .
 
- 
+ 
 
- 
+ 
 
 
 

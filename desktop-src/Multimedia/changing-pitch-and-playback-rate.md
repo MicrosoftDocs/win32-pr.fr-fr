@@ -15,12 +15,12 @@ keywords:
 - modification du ton de la forme d’onde-audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99eec4e29ec1c38cddb5a5f92f27643e2c9c3e6c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 006788c286476434a7ca2a3d5b79dbd6c4d8af431d74ffb4a00e03a7357777f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941277"
 ---
 # <a name="changing-pitch-and-playback-rate"></a>Modification du pas et de la vitesse de lecture
 
@@ -44,10 +44,10 @@ Windows fournit les fonctions suivantes pour interroger et définir le taux de l
 
 
 
- 
+ 
 
 Les taux de pas et de lecture sont modifiés par un facteur spécifié avec un nombre à virgule fixe compacté dans une valeur de mot double. Les 16 bits supérieurs spécifient la partie entière du nombre ; les 16 bits de poids faible spécifient la partie fractionnaire. Par exemple, la valeur 1,5 est représentée sous la forme 0x00018000L. La valeur 0,75 est représentée sous la forme 0x0000C000L. Une valeur de 1,0 (0x00010000) signifie que le pas à pas ou la vitesse de lecture est inchangée.
 
- 
+ 
 
- 
+ 

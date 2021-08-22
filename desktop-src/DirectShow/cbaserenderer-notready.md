@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ff07303f9aa8f68ae702ed09bc3a2fd544373f6c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 52fddcbd92544a109340697e5865f87e6c5f74a14b01543e768495b7717d8f4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954828"
 ---
 # <a name="cbaserenderernotready-method"></a>Méthode CBaseRenderer. nochapy
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode force la méthode [**CBaseRenderer :: GetState**](cbaserenderer-getstate.md) à retourner le niveau intermédiaire de l' \_ État VFW S, ce \_ \_ qui indique que le filtre passe toujours à son état actuel. Le filtre appelle cette méthode chaque fois qu’une transition d’État est en attente. (Cela se produit lorsque le filtre est suspendu, jusqu’à ce qu’il reçoive un exemple.)
 
@@ -54,7 +54,7 @@ Cette méthode force la méthode [**CBaseRenderer :: GetState**](cbaserenderer-
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

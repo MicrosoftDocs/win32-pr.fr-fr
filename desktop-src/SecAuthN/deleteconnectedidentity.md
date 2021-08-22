@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Indentitystore.h
-ms.openlocfilehash: 8079985f916e996a56b4203ad6ad065c1b7664e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e59beeb17f7d6d0cced96daaceef7440523c3ce603d759f18cc69a93c0ab05c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008467"
 ---
 # <a name="deleteconnectedidentity-function"></a>DeleteConnectedIdentity fonction)
 
@@ -94,8 +94,8 @@ Si la fonction échoue, la fonction peut retourner l’un des codes d’erreur s
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Indentitystore. h</dt> </dl> |
 
 

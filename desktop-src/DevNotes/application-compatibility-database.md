@@ -4,12 +4,12 @@ ms.assetid: 3b35b758-18ca-40dd-8882-35d9b458264c
 title: Base de données de compatibilité des applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ba33ab3a8de702f2e620b7607f4d2b6904e6165
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5787e8dbc9aa07bc8d466dae766c3fed406692dbd32e128123c4b37d9a7a5618
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103747965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956158"
 ---
 # <a name="application-compatibility-database"></a>Base de données de compatibilité des applications
 
@@ -17,7 +17,7 @@ L’infrastructure de compatibilité utilise une base de données pour identifie
 
 Les problèmes de compatibilité peuvent être traités application par application au moment de l’exécution. Chaque application spécifiée dans la base de données contient un ou plusieurs composants qui ont besoin d’une solution. Les composants sont des fichiers exécutables qui sont généralement décrits à l’aide de leurs attributs de fichier (par exemple, checksum).
 
-Le processus de recherche de base de données et de détermination des solutions pour chaque application est appelé *correspondance*. Les attributs de fichier et la présence de fichiers associés dans le dossier ou sous-dossier contenant le fichier. exe peuvent être utilisés pour créer une correspondance unique. Les fichiers associés sont appelés *fichiers correspondants*.
+Le processus de recherche de base de données et de détermination des solutions pour chaque application est appelé *correspondance*. Les attributs de fichier et la présence de fichiers associés dans le dossier ou sous-dossier contenant le fichier .exe peuvent être utilisés pour créer une correspondance unique. Les fichiers associés sont appelés *fichiers correspondants*.
 
 Une *balise* est un identificateur unique pour les entrées et les attributs de la base de données. Le *type de balise* indique le format des données associées à la [**balise**](tag.md). Par exemple, **le \_ nom de la balise** est de type **tag \_ \_ STRINGREF**; les données pour **tag \_ Name** sont une chaîne de nom. Un *TagId* est un pointeur vers une entrée dans une base de données particulière. Un *TAGREF* est un pointeur vers une entrée qui peut être utilisée sur plusieurs bases de données.
 

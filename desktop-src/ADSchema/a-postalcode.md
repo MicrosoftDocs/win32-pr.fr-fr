@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 284295797c3ca5449fad72a834bd46c460b51cb7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e8bb8340e2a87ef399bf5bdac8d3c0f9f867db570c5b4db06b8c457da1b40747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022411"
 ---
 # <a name="postal-code-attribute"></a>Attribut Postal-Code
 
@@ -46,7 +46,7 @@ Code postal ou postal pour la remise du courrier.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -3,11 +3,11 @@ title: Obtention d’informations à partir de licences dans le magasin de licen
 description: Obtention d’informations à partir de licences dans le magasin de licences local
 ms.assetid: dd1abd5e-6536-4d8f-9607-b800c5a16d04
 keywords:
-- SDK Windows Media format, API étendues du client DRM
+- Windows Kit de développement logiciel (SDK) Media format, API étendues clientes DRM
 - Windows Media Format SDK, API étendues du client
 - Windows Media Format SDK, API étendues
 - Windows Media Format SDK, API
-- Kit de développement logiciel (SDK) Windows Media format, gestion des droits numériques (DRM)
+- Windows Media Format SDK, gestion des droits numériques (DRM)
 - Windows Media Format SDK, magasin de licences local
 - Windows Media Format SDK, licences
 - gestion des droits numériques (DRM), API étendues du client
@@ -24,16 +24,16 @@ keywords:
 - API étendues du client, magasin de licences local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 479c7b9351535ba15c75da8a2ee3ddad1b273805
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 25db69bcad3bc6fcc56109d2abb05f58f4c2f675aa2999a3806791e92dff39a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703123"
 ---
 # <a name="getting-information-from-licenses-in-the-local-license-store"></a>Obtention d’informations à partir de licences dans le magasin de licences local
 
-Les API étendues du client Windows Media DRM offrent plusieurs moyens d’obtenir des informations sur les droits accordés par les licences dans le magasin de licences local. Les rubriques suivantes décrivent comment récupérer ces différents types d’informations.
+les api étendues du Client Windows Media DRM offrent plusieurs moyens d’obtenir des informations sur les droits accordés par les licences dans le magasin de licences local. Les rubriques suivantes décrivent comment récupérer ces différents types d’informations.
 
 
 
@@ -45,7 +45,7 @@ Les API étendues du client Windows Media DRM offrent plusieurs moyens d’obten
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -54,9 +54,9 @@ Les API étendues du client Windows Media DRM offrent plusieurs moyens d’obten
 [**Guide de programmation**](drm-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: TVN_ITEMCHANGING le code de notification (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle Tree-View que les attributs d’élément sont sur le point de changer. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: c997871c-8eca-46c0-999d-2f6d7e3e6c96
 keywords:
-- Contrôles Windows de code de notification TVN_ITEMCHANGING
+- TVN_ITEMCHANGING les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d258b7bf9f03b0e721e61c5da56bc915518069b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85416e22562720455da3e3c03c95b3cee25b5f0f7420a31250b244f47dab0caa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957868"
 ---
 # <a name="tvn_itemchanging-notification-code"></a>\_Code de notification TVN ITEMCHANGING
 
@@ -57,8 +57,8 @@ Retourne **false** pour accepter la modification, ou **true** pour empêcher la 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TVN \_ ITEMCHANGINGW** (Unicode) et **TVN \_ ITEMCHANGINGA** (ANSI)<br/>         |
 

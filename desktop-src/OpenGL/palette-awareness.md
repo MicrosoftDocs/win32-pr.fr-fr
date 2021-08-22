@@ -7,12 +7,12 @@ keywords:
 - reconnaissance de la palette OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67ceab4c27f63c12977d072f84e789d1800b6557
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5172d3b0a353141900bd873d8f97d6a25ce570e54d180ce1c8b1ca949e51d8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936295"
 ---
 # <a name="palette-awareness"></a>Reconnaissance de la palette
 
@@ -20,6 +20,6 @@ Votre application doit répondre aux messages [WM \_ PALETTECHANGED](/windows/de
 
 Pour plus d’informations sur les palettes et la reconnaissance des palettes, consultez les articles « reconnaissance des palettes » et « gestionnaire de palette : comment et pourquoi » sur le CD-ROM de la bibliothèque de développement Microsoft Developer Network.
 
- 
+ 
 
- 
+ 

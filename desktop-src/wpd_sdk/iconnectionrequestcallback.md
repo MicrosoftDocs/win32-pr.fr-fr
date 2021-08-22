@@ -14,16 +14,16 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: aca827de068ce221f013f03b35f88fd76a030dd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53e1549767c8577507b3126b3a293dfe4e523612809c144ff24c04dce4ab1ff4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697417"
 ---
 # <a name="iconnectionrequestcallback-interface"></a>Interface IConnectionRequestCallback
 
-L’interface **IConnectionRequestCallback** définit une méthode de rappel unique. Une application Windows Mobile Devices (WPD) implémente cette interface COM (Component Object Model) facultative pour recevoir des notifications sur les demandes terminées et pour annuler les demandes en attente. Les demandes sont envoyées à l’aide des méthodes [**IPortableDeviceConnector :: Connect**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect) et [**IPortableDeviceConnector ::D éconnecter**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect) .
+L’interface **IConnectionRequestCallback** définit une méthode de rappel unique. une application Windows mobile devices (WPD) implémente cette interface COM (component Object Model) facultative pour recevoir des notifications sur les demandes terminées et pour annuler les demandes en attente. les demandes sont envoyées à l’aide des méthodes [**IPortableDeviceConnector :: Connecter**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect) et [**IPortableDeviceConnector ::D éconnecter**](/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect) .
 
 ## <a name="members"></a>Membres
 
@@ -51,7 +51,7 @@ L’interface **IConnectionRequestCallback** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                                                                             |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                                                                             |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                                                              |
 | En-tête<br/>                   | <dl> <dt>Devpkey. h ; </dt> <dt>PortableDeviceConnectApi. h</dt> </dl> |
 | MIDL<br/>                      | <dl> <dt>PortableDeviceConnectApi. idl</dt> </dl>                                                                |

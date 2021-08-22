@@ -8,12 +8,12 @@ keywords:
 - Partitions de l’annuaire d’applications Active Directory, énumération des réplicas
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1415c147fe4320e5f8169487a656db4f365f03a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b52ff0ea5c2b4737079f4a44997f39dd027299f50c8acd96fe0456b0e5b60d03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694886"
 ---
 # <a name="enumerating-replicas-of-an-application-directory-partition"></a>Énumération des réplicas d’une partition d’annuaire d’applications
 
@@ -28,6 +28,6 @@ Lorsqu’un réplica d’une partition d’annuaire d’applications est ajouté
 
 En raison de la latence de réplication et des retards planifiés de l’exécution du KCC, il est possible que les réplicas actifs réels pour une partition d’annuaire d’applications ne correspondent pas à la liste des contrôleurs de domaine indiquée par l’attribut [**msDS-NC-Replica-Locations**](/windows/desktop/ADSchema/a-msds-nc-replica-locations) de l’objet [**crossRef**](/windows/desktop/ADSchema/c-crossref) . Une façon plus précise, mais moins efficace de déterminer les réplicas actifs réels d’une partition d’annuaire d’applications consiste à rechercher tous les objets [**nTDSDSA**](/windows/desktop/ADSchema/c-ntdsdsa) de la forêt qui ont un attribut [**MSDS-hasMasterNCs**](/windows/desktop/ADSchema/a-msds-hasmasterncs) qui contient le nom unique de la partition de l’annuaire d’applications. L’attribut **MSDS-hasMasterNCs** contient les noms uniques de toutes les partitions d’annuaires accessibles en écriture que le contrôleur de domaine héberge, y compris les partitions d’annuaire d’applications.
 
- 
+ 
 
- 
+ 

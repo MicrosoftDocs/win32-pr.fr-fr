@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: ac707a774b667b96a4d612e9eaf7da2c779c0327
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9f40e339b450496ec4b0aff1f3e951c4d7468fa22f7b2ff3dd2f84de6b92354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012267"
 ---
 # <a name="expertindicatestatus-function"></a>ExpertIndicateStatus fonction)
 
@@ -103,7 +103,7 @@ Si la fonction réussit, la valeur de retour est NMERR \_ Success.
 
 Si la fonction échoue, la valeur de retour est NMERR \_ expert \_ Terminate ; l’expert doit immédiatement nettoyer et retourner sans terminer la capture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **ExpertIndicateStatus** peut uniquement être appelée par des experts qui implémentent la fonction [exécuter](run.md) ou [configurer](configure.md) l’exportation.
 

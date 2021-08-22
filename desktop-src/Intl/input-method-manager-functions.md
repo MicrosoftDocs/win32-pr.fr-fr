@@ -4,12 +4,12 @@ ms.assetid: 833c07eb-0ecf-41e2-9e01-8d83e51ffcef
 title: Fonctions du gestionnaire de méthode d’entrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 516a83e207434f5d8c2e073e770c878198bc98e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2c0f03c2e6d29b262bd97729b92f9eea5fbf99d09f52ea3fe2b3579646a6fa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948726"
 ---
 # <a name="input-method-manager-functions"></a>Fonctions du gestionnaire de méthode d’entrée
 
@@ -30,7 +30,7 @@ Cette section décrit les fonctions IMM.
 | [**ImmCreateContext**](/windows/desktop/api/Imm/nf-imm-immcreatecontext)                       | Crée un nouveau contexte d’entrée, en allouant de la mémoire pour le contexte et en l’initialisant.                                        |
 | [**ImmDestroyContext**](/windows/desktop/api/Imm/nf-imm-immdestroycontext)                     | Libère le contexte d’entrée et libère la mémoire associée.                                                                    |
 | [**ImmDisableIME**](/windows/desktop/api/Imm/nf-imm-immdisableime)                             | Désactive l’IME pour un thread ou pour tous les threads d’un processus.                                                             |
-| [**ImmDisableLegacyIME**](/windows/desktop/api/Imm/nf-imm-immdisablelegacyime)                 | Indique que ce thread est un thread d’interface utilisateur d’application du Windows Store.                                                               |
+| [**ImmDisableLegacyIME**](/windows/desktop/api/Imm/nf-imm-immdisablelegacyime)                 | indique que ce thread est un thread d’interface utilisateur de l’application du windows Store Windows.                                                               |
 | [**ImmDisableTextFrameService**](/windows/desktop/api/Imm/nf-imm-immdisabletextframeservice)   | Action déconseillée. Désactive le service de texte pour le thread spécifié.                                                            |
 | [**ImmEnumInputContext**](/windows/desktop/api/Imm/nf-imm-immenuminputcontext)                 | Récupère le contexte d’entrée pour le thread spécifié.                                                                      |
 | [**ImmEnumRegisterWord**](/windows/desktop/api/Imm/nf-imm-immenumregisterworda)                 | Énumère les chaînes de Registre ayant la chaîne de lecture, le style et la chaîne de Registre spécifiés.                           |

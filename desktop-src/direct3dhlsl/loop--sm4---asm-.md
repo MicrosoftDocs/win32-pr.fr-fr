@@ -4,12 +4,12 @@ description: Spécifie une boucle qui itère jusqu’à ce qu’une instruction 
 ms.assetid: 0BEFADF4-036E-4FDA-9681-10965D6BA9FC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 243bdf3b370d3505d787451162c22340acef3a45
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 8dfc3090e71c1101e2c2748924de24f5443363ede76b86130cf63c3a319c76ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043767"
 ---
 # <a name="loop-sm4---asm"></a>boucle (SM4-ASM)
 
@@ -22,13 +22,13 @@ Spécifie une boucle qui itère jusqu’à ce qu’une instruction Break soit re
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Loop** peut itérer indéfiniment, bien que l’exécution globale du nuanceur puisse être forcée à se terminer après l’exécution d’un certain nombre d’instructions.
 
-Les blocs de contrôle de Flow peuvent imbriquer jusqu’à 64 de profondeur par sous-routine et main. Le compilateur HLSL ne génère pas de sous-routines qui dépassent cette limite. Le comportement des instructions de workflow de contrôle au-delà de 64 niveaux de profondeur par sous-routine n’est pas défini.
+les blocs de contrôle Flow peuvent s’imbriquer jusqu’à 64 de profondeur par sous-routine et main. Le compilateur HLSL ne génère pas de sous-routines qui dépassent cette limite. Le comportement des instructions de workflow de contrôle au-delà de 64 niveaux de profondeur par sous-routine n’est pas défini.
 
 Le format de jeton contient le décalage de l’instruction [ENDLOOP](endloop--sm4---asm-.md) correspondante dans le nuanceur pour des raisons pratiques.
 
@@ -54,7 +54,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
 
@@ -62,18 +62,18 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -82,9 +82,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 [Assembly modèle 4 du nuanceur (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66da0ad5ade7f3e01f58ef29bbd1094634c01b37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d910e479cc0a957ea5f1332d7fead0f93badd797bfe2d90b26f9914f0c3d863a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882604"
 ---
 # <a name="systemmonitorenabledigitgrouping-property"></a>SystemMonitor. EnableDigitGrouping, propriété
 
@@ -40,7 +40,7 @@ Property EnableDigitGrouping As Boolean
 
 Si la valeur est true, SYSMON groupe les chiffres lors de l’affichage des valeurs numériques, par exemple 1 214. Si la valeur est false, les valeurs numériques ne sont pas regroupées, par exemple, 1214. La valeur par défaut est true.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le symbole de regroupement digits est localisé.
 
@@ -50,8 +50,8 @@ Le symbole de regroupement digits est localisé.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon. ocx</dt> </dl> |
 
 

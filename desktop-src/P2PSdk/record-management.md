@@ -4,12 +4,12 @@ ms.assetid: d38ea2d3-5cfb-4c4a-a63f-b274aa0dfe71
 title: Gestion des enregistrements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c762689263e4a012bbdfad726b13e3ee8c79397e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a747ae16e1773fe5944f2e9afdde8377d5e100a9a91316f70bcd1be8db6cff9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011517"
 ---
 # <a name="record-management"></a>Gestion des enregistrements
 

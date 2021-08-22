@@ -1,17 +1,17 @@
 ---
 description: Après l’établissement d’un contexte de sécurité, l’application peut utiliser les fonctions de prise en charge des messages pour transmettre des messages résistants aux falsifications.
 ms.assetid: 43d7b940-1816-429f-be6e-40978efed278
-title: Garantir l’intégrité des communications pendant l’échange de messages
+title: Garantir l’intégrité des communications pendant la Exchange des messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70545abf11a933cd3bb6d0c32f3312637fcccbe2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 394f78fcc1e5becf4bdfc7c67db52e1af177a7f3aa427d1c6182a080f0ae87bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008257"
 ---
-# <a name="ensuring-communication-integrity-during-message-exchange"></a>Garantir l’intégrité des communications pendant l’échange de messages
+# <a name="ensuring-communication-integrity-during-message-exchange"></a>Garantir l’intégrité des communications pendant la Exchange des messages
 
 Après l’établissement d’un [*contexte de sécurité*](/windows/desktop/SecGloss/s-gly) , l’application peut utiliser les fonctions de [prise en charge des messages](authentication-functions.md) pour transmettre des messages résistants aux falsifications.
 

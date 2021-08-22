@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bacc6973b1a105e128533a1116abdeb4c6cfafa4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 920c65f623d71656331a72ea0ab42d507c3498f585d93e903fa677866d92a1e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042607"
 ---
 # <a name="apijetgetcurrentindex-method"></a>API. JetGetCurrentIndex, méthode
 

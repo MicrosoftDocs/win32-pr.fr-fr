@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 632379e42fa6c64e44018173b9d40340add4ee61
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7fd8745c5983eca67a02506b6cdeeabaca0a61a4c3f8b2a6993a73359d87adba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028157"
 ---
 # <a name="averagelevel"></a>AverageLevel
 
@@ -31,11 +31,11 @@ L’attribut **AverageLevel** contient une valeur d’amplitude de 16 bits dési
 
 **\_valeur DWORD de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet attribut est défini par l’objet writer en fonction des informations du codec. Seuls les flux compressés avec l’un des codecs Windows Media Audio ont une valeur définie automatiquement.
+Cet attribut est défini par l’objet writer en fonction des informations du codec. seuls les flux compressés avec l’un des codecs Windows Media Audio ont une valeur définie automatiquement.
 
-**AverageLevel** n’est pas en lecture seule. Toutefois, si le fichier est lu par le lecteur Windows Media, vous ne devez pas modifier cette valeur. Le lecteur Windows Media l’utilise pour normaliser les niveaux de fichiers dans une sélection.
+**AverageLevel** n’est pas en lecture seule. toutefois, si le fichier est lu par le Lecteur Windows Media, vous ne devez pas modifier cette valeur. le Lecteur Windows Media l’utilise pour normaliser les niveaux de fichiers dans une sélection.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -44,9 +44,9 @@ Cet attribut est défini par l’objet writer en fonction des informations du co
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, appels asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa06f60b43a7dff3a29223ff1d8e9ad726c0e938
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 93d8399071cae6ea39aaac3f966e7e799b2c93b32a152048a7d18282b465f929
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928375"
 ---
 # <a name="making-the-asynchronous-call"></a>Exécution de l’appel asynchrone
 
@@ -28,7 +28,7 @@ Lorsqu’il appelle une procédure distante asynchrone, le client doit sélectio
     Si le champ **hThread** du descripteur asynchrone a la valeur 0, les APC sont mis en file d’attente sur le thread qui a effectué l’appel asynchrone. Si la valeur est différente de zéro, les APC sont mis en file d’attente sur le thread spécifié par m.
 
 -   IOC. Le port de terminaison d’e/s est notifié avec les paramètres spécifiés dans le handle asynchrone. Pour plus d’informations, consultez [**CreateIoCompletionPort**](/windows/desktop/FileIO/createiocompletionport).
--   Handle Windows. Un message est publié dans le handle de fenêtre (HWND) spécifié.
+-   handle de Windows. Un message est publié dans le handle de fenêtre (HWND) spécifié.
 
 Le fragment de code suivant montre les étapes essentielles requises pour initialiser un handle asynchrone et l’utiliser pour effectuer un appel de procédure distante asynchrone.
 
@@ -93,8 +93,8 @@ Comme le montre cet exemple, votre programme client peut exécuter des appels de
 > [!Note]  
 > La notification d’achèvement ne sera pas retournée à partir d’une routine RPC asynchrone si une exception RPC est levée lors d’un appel asynchrone.
 
- 
+ 
 
- 
+ 
 
- 
+ 

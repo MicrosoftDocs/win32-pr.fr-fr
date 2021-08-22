@@ -4,12 +4,12 @@ ms.assetid: bd6647a8-ad38-4bd9-842d-6592440099a4
 title: propriétés de la partition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 893738955c6f137a910ab68446576318c51e641c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 60c1a1501a1144aec9c0b1355efe9553d32a72b9324c90c533f55c296218aeb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047317"
 ---
 # <a name="partition-properties"></a>propriétés de la partition
 

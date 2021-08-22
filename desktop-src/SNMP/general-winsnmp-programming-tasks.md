@@ -7,12 +7,12 @@ keywords:
 - Tâches de programmation WinSNMP SNMP, général
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87bedb7922e94481a23d1a424a2fdfdeca39d909
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5d5389e7828aaa8c9bbbe87b68ed9e4c95b7cdffad6a24aa5f024dfeca0ae6d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009517"
 ---
 # <a name="general-winsnmp-programming-tasks"></a>Tâches générales de programmation WinSNMP
 
@@ -31,11 +31,11 @@ Le tableau suivant répertorie les rubriques qui traitent des concepts de progra
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

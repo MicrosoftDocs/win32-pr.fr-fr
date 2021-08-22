@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f4b562acf05219684b754381d3e1d4747f6011e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8a544bea1277c174b5c46b5ce0e45ecee9382ce66b6c073a8ab611515a4ffa65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960948"
 ---
 # <a name="ms-dfsr-disablepacketprivacy-attribute"></a>attribut ms-DFSR-DisablePacketPrivacy
 
@@ -42,7 +42,7 @@ Désactivez la confidentialité des paquets sur une connexion.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: 7e083cb5-cf0a-4284-8b54-dac856910c44
 title: Noms d'ordinateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf076f42e3353aa03db951e9dec428766cf4895
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8687d6d510247a2bbb2850e6a668a63f0108b2bc344ed161cb73e28d2b47eeaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885789"
 ---
 # <a name="computer-names"></a>Noms d'ordinateur
 

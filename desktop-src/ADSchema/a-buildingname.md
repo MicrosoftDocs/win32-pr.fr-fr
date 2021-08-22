@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0745997a562360301cceef7d04b5fb862b048a9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 91a667566292f7a698db98aa683e9470f63f30687a96a30b6062cb0999858ee6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022677"
 ---
 # <a name="buildingname-attribute"></a>attribut buildingName
 
@@ -43,7 +43,7 @@ Nom du bâtiment sur lequel est basée une organisation ou une unité d’organi
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

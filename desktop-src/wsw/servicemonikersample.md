@@ -3,7 +3,7 @@ title: ServiceMonikerSample
 description: Cet exemple illustre un client qui peut être utilisé avec l’exemple TCP MetadataExchange. Il utilise le moniker de service WCF.
 ms.assetid: cfcff5ee-c0e1-4694-831e-fed0bd0e9855
 keywords:
-- API des services Web Windows ServiceMonikerSample
+- API des Services Web Windows ServiceMonikerSample
 - WWSAPI
 - WWS
 ms.topic: article
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3188b41df830f55e77e151c5be9413a986a5dcf5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dffac8b7eb4c9bdb92d4622452c15d56f53a514ba94fa908d38e1232dfec95f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026167"
 ---
 # <a name="servicemonikersample"></a>ServiceMonikerSample
 
@@ -41,9 +41,9 @@ Next
 
 
 
- 
+ 
 
- 
+ 
 
 
 
