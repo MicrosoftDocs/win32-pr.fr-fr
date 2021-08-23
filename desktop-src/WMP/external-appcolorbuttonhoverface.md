@@ -3,7 +3,7 @@ title: External. appColorButtonHoverFace
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. appColorButtonHoverFace
 ms.assetid: bf3a0898-b2fb-48bf-84b2-11e9aada4bf3
 keywords:
-- External. appColorButtonHoverFace Windows Media Player
+- External. appColorButtonHoverFace Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40ef3a654ee5468595d48ca5cd56144c4bf1f5de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bcebb6f48d82f0d91e3431052e6a10ddcbe2c1566e2337aa7160ab34077c6b1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649939"
 ---
 # <a name="externalappcolorbuttonhoverface"></a>External. appColorButtonHoverFace
 
@@ -28,7 +28,7 @@ ms.locfileid: "106535874"
 
  
 
-La propriété **appColorButtonHoverFace** récupère la couleur de pointage du bouton actuelle pour l’interface utilisateur du lecteur Windows Media. Cette couleur s’affiche lorsque l’utilisateur déplace le pointeur de la souris sur un bouton.
+la propriété **appColorButtonHoverFace** récupère la couleur de pointage du bouton actuelle pour l’interface utilisateur Lecteur Windows Media. Cette couleur s’affiche lorsque l’utilisateur déplace le pointeur de la souris sur un bouton.
 
 ``` syntax
 window.external.appColorButtonHoverFace
@@ -39,9 +39,9 @@ window.external.appColorButtonHoverFace
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

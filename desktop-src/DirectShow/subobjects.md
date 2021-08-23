@@ -4,12 +4,12 @@ ms.assetid: 03cbd590-b573-4a98-9ab7-fe548800cfcb
 title: Sous-objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad8b427a315231577f1608a168629bc8b77d2cc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaf828d0049816c0cbf932b96344b0270c4c9dbfb835a0750736551ff67b319b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633479"
 ---
 # <a name="subobjects"></a>Sous-objets
 
@@ -19,8 +19,8 @@ Les sources, les effets et les transitions ont des pointeurs internes vers d’a
 
 Le type de sous-objet dépend du type d’objet :
 
--   Source : tout filtre de filtre ou d’analyseur source DirectShow qui prend en charge la recherche et produit un format pris en charge par. Il peut s’agir d’un format compressé si des filtres DirectShow existent pour le décoder.
--   Effet : pour la vidéo, n’importe quel objet de transformation Microsoft® DirectX® à un seul entré. Pour l’audio, tout filtre d’effet audio DirectShow.
+-   source : tout DirectShow filtre de source ou filtre de l’analyseur qui prend en charge la recherche et produit un format pris en charge par. il peut s’agir d’un format compressé si DirectShow filtres existent pour le décoder.
+-   Effet : pour la vidéo, n’importe quel objet de transformation Microsoft® DirectX® à un seul entré. pour l’audio, tout DirectShow filtre d’effet audio.
 -   Transition : pour la vidéo, tout objet de transformation DirectX à deux entrées 2D. L’audio ne prend pas en charge les transitions.
 
 Les groupes, les compositions et les suivis n’ont pas de sous-objets.

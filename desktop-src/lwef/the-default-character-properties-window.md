@@ -4,12 +4,12 @@ description: La fenêtre Propriétés des caractères par défaut
 ms.assetid: a775738e-c3f8-443e-b519-1df0a5d3e95d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acfa4345b9c95af40ce933ef072b576b987cdb9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3e66a2b101cfae80e9dfc7d97c2430355343a6c231986eea216975791ef03e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555752"
 ---
 # <a name="the-default-character-properties-window"></a>La fenêtre Propriétés des caractères par défaut
 
@@ -21,9 +21,9 @@ En plus de permettre aux applications de charger un caractère spécifique, les 
 
 La fenêtre Propriétés de caractères par défaut ne peut pas être utilisée pour fournir une sélection de caractères autre que pour le caractère par défaut.
 
- 
+ 
 
- 
+ 
 
 
 

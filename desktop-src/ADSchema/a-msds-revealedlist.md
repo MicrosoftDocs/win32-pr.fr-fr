@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf8c5dc2e308b69ce142c7345957d25510168ab
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b4f3316a57658d0dfb5f674f432aeb1a9d5bcd0f5490bccb9aee69ec8fc58689
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544889"
 ---
 # <a name="ms-ds-revealed-list-attribute"></a>attribut ms-DS-Revealed-List
 
@@ -42,7 +42,7 @@ Identifie les principaux de sécurité dont les mots de passe de compte d’ordi
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

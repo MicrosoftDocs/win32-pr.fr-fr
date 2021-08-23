@@ -3,8 +3,8 @@ title: Structure MPTHREAT_INFOEX_UNUSED (MpClient. h)
 description: Structure factice pour les menaces de type modification de non-comportement.
 ms.assetid: 3C5305CD-D533-47B5-ADD3-BD8DA05F2046
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_INFOEX_UNUSED
-- PMPTHREAT_INFOEX_UNUSED des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_INFOEX_UNUSED
+- PMPTHREAT_INFOEX_UNUSED des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fed78d904bd03fee17676dced7c828aaea8d319d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8def13a6f6aff010b9854055abd4636d19f77ef1f0e9867ec5e4d7562baff4f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601099"
 ---
 # <a name="mpthreat_infoex_unused-structure"></a>MPTHREAT \_ INFOEX, \_ structure inutilisée
 
@@ -54,8 +54,8 @@ Type : **DWORD**
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

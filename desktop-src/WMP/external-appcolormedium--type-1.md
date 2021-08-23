@@ -3,7 +3,7 @@ title: External. appColorMedium (type 1)
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. appColorMedium (type 1)
 ms.assetid: 03938128-a767-4988-8d64-6d6632e0ab16
 keywords:
-- External. appColorMedium (type 1) lecteur Windows Media
+- External. appColorMedium (Type 1) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f6774166eb836e4d43975cc305ecb1f522e21d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa8fd04dbd2ef49147df2c48e73e989eb761a858fec998af2769835fe178dae1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649589"
 ---
 # <a name="externalappcolormedium-type-1"></a>External. appColorMedium (type 1)
 
@@ -28,7 +28,7 @@ ms.locfileid: "106532665"
 
  
 
-La propriété **appColorMedium** récupère la couleur moyenne grisée de l’interface utilisateur du lecteur Windows Media.
+la propriété **appColorMedium** récupère la couleur de dégradé moyenne actuelle de l’interface utilisateur Lecteur Windows Media.
 
 ``` syntax
 window.external.appColorMedium
@@ -39,9 +39,9 @@ window.external.appColorMedium
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -3,7 +3,7 @@ title: Event. y
 description: L’attribut y récupère la coordonnée y du pointeur de la souris par rapport à la fenêtre d’application.
 ms.assetid: b141bcc9-26aa-4743-8660-b0981d949c0e
 keywords:
-- Lecteur Windows Media Event. y
+- Lecteur Windows Media event. y
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29362adbcef240f51f4aeb9417153c8a7630bcc3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9658cfb9737399852699209cb5afdea875c263a2bef83e5879358381ab7c0c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650319"
 ---
 # <a name="eventy"></a>Event. y
 

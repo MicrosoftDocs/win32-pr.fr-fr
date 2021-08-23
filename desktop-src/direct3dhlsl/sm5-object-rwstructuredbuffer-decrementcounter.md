@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a56641054bb4e9ed4b1865d00c662b0de2afa1a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8302f31cd07b81f4f78abe6a0a1fbcb2e6a1028f6153da69e55e0fb34977b585
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671389"
 ---
 # <a name="decrementcounter-function"></a>DecrementCounter fonction)
 
@@ -41,7 +41,7 @@ Type : **uint**
 
 Valeur de compteur après décrémentation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La vue d’accès non ordonnée liée doit avoir un compteur de l' [**\_ \_ \_ \_ indicateur UAV de tampon d3d11**](/windows/desktop/api/d3d11/ne-d3d11-d3d11_buffer_uav_flag) défini au cours de creationfor cette méthode pour fonctionner.
 
@@ -49,7 +49,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
@@ -57,7 +57,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

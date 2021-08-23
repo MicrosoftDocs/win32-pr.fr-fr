@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c733f1a6f6803b10f04d6b0f9e367a9933cd9330
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c98d7d8e48c1579b0a226cad848fd2b94b5f8cd9dba63d6f0cb3609bbd85f053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705429"
 ---
 # <a name="min-pwd-age-attribute"></a>Attribut min-pwd-Age
 
@@ -36,7 +36,7 @@ Durée minimale, en intervalles de 100 nanosecondes, qu’un mot de passe est va
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.78                |
 | System-ID-GUID    | bf9679c2-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ Durée minimale, en intervalles de 100 nanosecondes, qu’un mot de passe est va
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

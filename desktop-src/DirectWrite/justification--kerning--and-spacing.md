@@ -1,19 +1,19 @@
 ---
 title: Justification, crénage et espacement
-description: À compter de Windows 8, DirectWrite fournit un certain nombre de fonctionnalités qui vous permettent de contrôler les fonctionnalités typographiques de base, de mise en page et d’espacement, telles que l’espacement des caractères, le crénage des paires et la justification.
+description: à partir de Windows 8, DirectWrite fournit un certain nombre de fonctionnalités qui vous permettent de contrôler les fonctionnalités typographiques de base, de mise en page et d’espacement, telles que l’espacement des caractères, le crénage des paires et la justification.
 ms.assetid: A5397132-0806-4842-8B82-E17925FBBBA9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17cc915922d0dbadb45bf47f223df83a25414daf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9fdd82e201429adb62e687021f003d7d5d6bedcd228c3102f448b04d1f079f71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632631"
 ---
 # <a name="justification-kerning-and-spacing"></a>Justification, crénage et espacement
 
-À compter de Windows 8, [DirectWrite](direct-write-portal.md) fournit un certain nombre de fonctionnalités qui vous permettent de contrôler les fonctionnalités typographiques de base, de mise en page et d’espacement, telles que l’espacement des caractères, le crénage des paires et la justification.
+à partir de Windows 8, [DirectWrite](direct-write-portal.md) fournit un certain nombre de fonctionnalités qui vous permettent de contrôler les fonctionnalités typographiques de base, de mise en page et d’espacement, telles que l’espacement des caractères, le crénage des paires et la justification.
 
 ## <a name="character-spacing"></a>Espacement des caractères
 
@@ -23,15 +23,15 @@ Voici un exemple de suivi. La première ligne ne s’applique à aucun suivi du 
 
 ![trois exemples du même texte sans suivi, plus d’espacement et moins d’espacement.](images/spacing.png)
 
-À compter de Windows 8, [DirectWrite](direct-write-portal.md) ajoute ces méthodes ici pour contrôler l’espacement des caractères dans votre texte.
+à partir de Windows 8, [DirectWrite](direct-write-portal.md) ajoute ces méthodes ici pour contrôler l’espacement des caractères dans votre texte.
 
-Si vous utilisez la disposition [DirectWrite](direct-write-portal.md) , vous pouvez utiliser les méthodes [**IDWriteTextLayout1 :: GetCharacterSpacing**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getcharacterspacing) et [**IDWriteTextLayout1 :: SetCharacterSpacing**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setcharacterspacing) à cet effet.
+si vous utilisez la disposition [DirectWrite](direct-write-portal.md) , vous pouvez utiliser les méthodes [**IDWriteTextLayout1 :: GetCharacterSpacing**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getcharacterspacing) et [**IDWriteTextLayout1 :: SetCharacterSpacing**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setcharacterspacing) à cet effet.
 
 Utilisez la méthode [**GetCharacterSpacing**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getcharacterspacing) pour déterminer l’espacement actuel des caractères et retourne le caractère actuel, l’espacement avant et après le caractère, la largeur d’avance minimale et une structure de [**\_ \_ plage de texte DWRITE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) qui contient des informations sur la position de départ et la longueur du texte restant.
 
 Utilisez [**SetCharacterSpacing**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setcharacterspacing) sur une interface [**DWriteTextLayout1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1) pour appliquer votre propre espace de caractères au texte de la disposition. La méthode **SetCharacterSpacing** prend la quantité d’espace que vous souhaitez avant et après le caractère, l’avance minimale autorisée et une [**\_ \_ plage de texte DWRITE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) qui définit la plage d’application de l’espacement.
 
-Si vous utilisez une disposition personnalisée, [DirectWrite](direct-write-portal.md) prend en charge la définition de l’espacement des caractères avec [**IDWriteTextAnalyzer1 :: ApplyCharacterSpacing**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-applycharacterspacing). Utilisez cette méthode si vous avez besoin d’une disposition de texte personnalisée afin d’avoir un contrôle avancé sur votre disposition. Cette méthode vous permet de fournir des **ApplyCharacterSpacing** avec les espaces de début et de fin, la largeur d’avance minimale, la longueur de la carte de cluster, le nombre de glyphes, le mappage entre les plages de caractères et les glyphes, et la largeur d’avance de chaque glyphe si vous utilisez une disposition personnalisée. La méthode retourne les avances de glyphe modifiées et une énumération de [**\_ \_ décalage de glyphe DWRITE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_offset) avec les nouveaux décalages par rapport à l’origine de chaque glyphe.
+si vous utilisez une disposition personnalisée, [DirectWrite](direct-write-portal.md) prend en charge la définition de l’espacement des caractères avec [**IDWriteTextAnalyzer1 :: ApplyCharacterSpacing**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-applycharacterspacing). Utilisez cette méthode si vous avez besoin d’une disposition de texte personnalisée afin d’avoir un contrôle avancé sur votre disposition. Cette méthode vous permet de fournir des **ApplyCharacterSpacing** avec les espaces de début et de fin, la largeur d’avance minimale, la longueur de la carte de cluster, le nombre de glyphes, le mappage entre les plages de caractères et les glyphes, et la largeur d’avance de chaque glyphe si vous utilisez une disposition personnalisée. La méthode retourne les avances de glyphe modifiées et une énumération de [**\_ \_ décalage de glyphe DWRITE**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_offset) avec les nouveaux décalages par rapport à l’origine de chaque glyphe.
 
 ## <a name="kerning"></a>Le crénage
 
@@ -41,13 +41,13 @@ L’image elle est un exemple de crénage. Le mot AVATAR sur la ligne supérieur
 
 ![exemple de mot identique avec et sans crénage appliqué.](images/kerning.png)
 
-Le caractère avance entre les paires de caractères que le crénage de police est stocké dans la table de crénage et [DirectWrite](direct-write-portal.md) analyse cette table et vous renvoie les informations via les API de crénage.
+le caractère avance entre les paires de caractères que le crénage de police est stocké dans la table de crénage et [DirectWrite](direct-write-portal.md) analyse cette table et vous renvoie les informations via les api de crénage.
 
 Si vous souhaitez savoir si une police prend en charge le crénage de paires, vous pouvez utiliser la méthode [**IDWriteFontFace1 :: HasKerningPairs**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-haskerningpairs) . Cette méthode retourne une valeur booléenne de 1 si la police prend en charge les paires de crénage.
 
 Le [**IDWriteFontFace1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1) dispose également d’une méthode qui vous permet d’accéder aux réglages de la paire de crénage pour les index de glyphes. [**GetKerningPairAdjustments**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefontface1-getkerningpairadjustments) vous permet d’entrer un tableau d’index de glyphes et [DirectWrite](direct-write-portal.md) retourne un tableau d’ajustements de glyphes avancés. Si une police ne prend pas en charge la table de crénage, la méthode retourne des zéros pour les réglages avancés du glyphe.
 
-Si vous utilisez la disposition [DirectWrite](direct-write-portal.md) , il existe deux méthodes sur l’interface [**IDWriteTextLayout1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1) qui vous permettent de définir le crénage des paires et d’en savoir plus sur le crénage de paires dans la disposition. La méthode [**SetPairKerning**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setpairkerning) prend une représentation booléenne indiquant si vous souhaitez activer le crénage des paires et une plage de [**\_ texte DWRITE \_**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) qui définit la plage de texte à laquelle l’appliquer. Si vous souhaitez savoir si le crénage est activé ou non sur une plage de texte, vous pouvez utiliser la méthode [**GetPairKerning**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getpairkerning) , qui prend la position actuelle et retourne une valeur booléenne qui correspond à l’activation ou non du crénage des paires, ainsi qu’à la plage de texte à laquelle s’applique le paramètre de crénage.
+si vous utilisez la disposition [DirectWrite](direct-write-portal.md) , il existe deux méthodes sur l’interface [**IDWriteTextLayout1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1) qui vous permettent de définir le crénage des paires et d’en savoir plus sur le crénage de paires dans la disposition. La méthode [**SetPairKerning**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-setpairkerning) prend une représentation booléenne indiquant si vous souhaitez activer le crénage des paires et une plage de [**\_ texte DWRITE \_**](/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range) qui définit la plage de texte à laquelle l’appliquer. Si vous souhaitez savoir si le crénage est activé ou non sur une plage de texte, vous pouvez utiliser la méthode [**GetPairKerning**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextlayout1-getpairkerning) , qui prend la position actuelle et retourne une valeur booléenne qui correspond à l’activation ou non du crénage des paires, ainsi qu’à la plage de texte à laquelle s’applique le paramètre de crénage.
 
 ## <a name="justification"></a>Justification
 
@@ -55,9 +55,9 @@ La justification est le processus qui consiste à aligner le texte afin qu’il 
 
 ![un exemple de script arabe et latin est justifié et non justifié.](images/justification.png)
 
-À compter de Windows 8, [DirectWrite](direct-write-portal.md) dispose d’un certain nombre de méthodes qui vous permettent de justifier du texte dans vos applications.
+à partir de Windows 8, [DirectWrite](direct-write-portal.md) a plusieurs méthodes qui vous permettent de justifier du texte dans vos applications.
 
-Il existe une valeur supplémentaire dans l’énumération de l' [**\_ \_ alignement du texte DWRITE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_text_alignment) . Vous pouvez utiliser la méthode [**SetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment) et transmettre la constante **\_ \_ \_ justifiée d’alignement de texte DWRITE** et [DirectWrite](direct-write-portal.md) justifie le texte et insère le caractère de justification approprié pour le script.
+Il existe une valeur supplémentaire dans l’énumération de l' [**\_ \_ alignement du texte DWRITE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_text_alignment) . vous pouvez utiliser la méthode [**SetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment) et passer la constante **\_ \_ \_ justifiée d’alignement de texte DWRITE** et [DirectWrite](direct-write-portal.md) justifie le texte et insère le caractère de justification approprié pour le script.
 
 Si vous utilisez une disposition personnalisée, plusieurs méthodes sont disponibles pour vous permettre de tirer parti de la justification. [DirectWrite](direct-write-portal.md) a trois méthodes sur l’interface [**IDWriteTextAnalyzer1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1) que vous pouvez utiliser pour ajouter la justification à une disposition personnalisée.
 
@@ -67,6 +67,6 @@ La deuxième fonction est [**JustifyGlyphAdvances**](/windows/win32/api/dwrite_1
 
 La troisième fonction est [**GetJustifiedGlyphs**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustifiedglyphs), qui remplit les nouveaux glyphes pour les scripts complexes où la justification a augmenté les avances pour les glyphes. **GetJustifiedGlyphs** doit uniquement être appelé si le script comporte un caractère de justification spécifique tel qu’il est retourné par [**GetScriptProperties**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getscriptproperties). Cette méthode prend des informations sur la police, la longueur du texte, la taille de la police em des glyphes, le script du texte, le nombre de glyphes, le mappage de cluster, les avances/décalages de glyphes d’origine, les avancements de glyphes justifiés/les décalages et les propriétés de glyphe. La méthode retourne le nombre réel de glyphes, le mappage mis à jour, les index de glyphes mis à jour avec des glyphes de justification insérés, les décalages de glyphe mis à jour et les avances de glyphes mis à jour.
 
- 
+ 
 
- 
+ 

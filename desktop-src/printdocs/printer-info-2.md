@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: b299cb1bbdd3ac2475b7a9f2b600bcd9652246d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f7a2b871cc0181fbceab56e4ac14170bf46fa1b31081f4b4365ad7296ec2e85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600609"
 ---
 # <a name="printer_info_2-structure"></a>\_Structure info 2 de l’imprimante \_
 
@@ -175,7 +175,7 @@ Attributs de l’imprimante. Ce membre peut être une combinaison raisonnable de
 
  
 
-Dans Windows XP et les versions ultérieures de Windows, la valeur suivante peut également être utilisée.
+dans Windows XP et les versions ultérieures de Windows, la valeur suivante peut également être utilisée.
 
 | Valeur                   | Signification                                                                                                                                                                                           |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -185,7 +185,7 @@ Dans Windows XP et les versions ultérieures de Windows, la valeur suivante peut
 
  
 
-Dans Windows Vista et les versions ultérieures de Windows, les valeurs suivantes peuvent également être utilisées.
+dans Windows Vista et les versions ultérieures de Windows, les valeurs suivantes peuvent également être utilisées.
 
 | Valeur                               | Signification                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------|
@@ -198,7 +198,7 @@ Dans Windows Vista et les versions ultérieures de Windows, les valeurs suivante
 
  
 
-Dans Windows Server 2003, la valeur suivante peut également être utilisée.
+dans Windows Server 2003, la valeur suivante peut également être utilisée.
 
 | Valeur                  | Signification                                                                 |
 |------------------------|-------------------------------------------------------------------------|

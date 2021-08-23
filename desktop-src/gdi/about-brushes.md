@@ -4,12 +4,12 @@ ms.assetid: 2e15376d-6b4c-41c5-aef8-0dbb91b81505
 title: À propos des pinceaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c825892748b317807377bff12675ea04d2d2535
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c94ea9dac021a013ccc4ef624f9b00a3234102ac905999cb7c085148be91b58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602789"
 ---
 # <a name="about-brushes"></a>À propos des pinceaux
 
@@ -22,7 +22,7 @@ Les rubriques suivantes décrivent les pinceaux :
 -   [Origine du pinceau](brush-origin.md)
 -   [Types Brush logiques](logical-brush-types.md)
 -   [Transfert de bloc de modèle](pattern-block-transfer.md)
--   [Fonctions de brosse compatibles ICM](icm-enabled-brush-functions.md)
+-   [fonctions de pinceau compatibles ICM](icm-enabled-brush-functions.md)
 
  
 

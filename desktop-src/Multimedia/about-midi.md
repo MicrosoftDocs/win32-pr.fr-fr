@@ -3,7 +3,7 @@ title: À propos de MIDI
 description: À propos de MIDI
 ms.assetid: 32030c98-e513-4ee3-bbd0-ba41fceadd57
 keywords:
-- Multimédia Windows, MIDI (Musical Instrument Digital Interface)
+- Windows multimédia, MIDI (Musical Instrument Digital Interface)
 - multimédia, MIDI (Musical Instrument Digital Interface)
 - audio multimédia, MIDI (Musical Instrument Digital Interface)
 - audio, MIDI (Musical Instrument Digital Interface)
@@ -21,12 +21,12 @@ keywords:
 - Services MIDI, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43c476807f750f9e90788377588f6c9af96561aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ad1ce20164c42342c52defd27e7f3ccdfb0a44ec9a4e0a6679c1b190270fc62e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526689"
 ---
 # <a name="about-midi"></a>À propos de MIDI
 
@@ -47,9 +47,9 @@ Les rubriques suivantes décrivent chacune de ces méthodes et fournissent une v
 -   [Traitement des données MIDI à partir de deux sources MIDI](processing-midi-data-from-two-midi-sources.md)
 -   [Création de fichiers MIDI](creating-midi-files.md)
 
- 
+ 
 
- 
+ 
 
 
 

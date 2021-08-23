@@ -4,12 +4,12 @@ ms.assetid: 13F877A3-7600-400F-9071-FE1B83027355
 title: Attribut MFSampleExtension_VideoDSPMode (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 309d4b5b68455e78ba63074b9d8ec5e4cbde4fb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95776fd7b8e130b9538e98843ca72d69980978b6f954747fadca939b8d3c5922
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554929"
 ---
 # <a name="mfsampleextension_videodspmode-attribute"></a>\_Attribut MFSampleExtension VideoDSPMode
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La [**stabilisation vidéo MFT**](video-stabilization-mft.md) définit cet attribut sur les exemples de sortie qu’il produit. La valeur de l’attribut est une valeur d’énumération [**MFVideoDSPMode**](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-mfvideodspmode) . Si la valeur est **MFVideoDSPMode \_ stabilisation**, cela signifie que la table MFT a appliqué la stabilisation de l’image au frame.
 
@@ -39,8 +39,8 @@ La [**stabilisation vidéo MFT**](video-stabilization-mft.md) définit cet attri
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

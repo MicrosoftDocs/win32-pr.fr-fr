@@ -1,20 +1,20 @@
 ---
-title: Gestion des ressources de Fence-Based
-description: Montre comment gérer l’étendue de la durée de vie des données de ressources en effectuant le suivi de la progression du GPU via des délimiteurs. La mémoire peut être réutilisée efficacement avec les délimiteurs pour gérer avec soin la disponibilité de l’espace libre en mémoire, par exemple dans une implémentation de mémoire tampon en anneau pour un tas de chargement.
+title: Gestion des ressources en fonction des limites
+description: Montre comment gérer l’étendue de la durée de vie des données de ressources en effectuant le suivi de la progression du GPU via des délimiteurs. la mémoire peut être réutilisée efficacement avec les délimiteurs pour gérer avec soin la disponibilité de l’espace libre en mémoire, par exemple dans une implémentation de mémoire tampon en anneau pour un segment de Télécharger.
 ms.assetid: A7AB6569-EC6B-4B1B-9266-D05B6DB3A27B
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aba8afd66f8a50a54b699c6a314ba148ebcef023
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0cbfd9231e3013099c8382072049f1ae1478e28f00830e89fb4ecef1b835ce58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728865"
 ---
-# <a name="fence-based-resource-management"></a>Gestion des ressources de Fence-Based
+# <a name="fence-based-resource-management"></a>Gestion des ressources en fonction des limites
 
-Montre comment gérer l’étendue de la durée de vie des données de ressources en effectuant le suivi de la progression du GPU via des délimiteurs. La mémoire peut être réutilisée efficacement avec les délimiteurs pour gérer avec soin la disponibilité de l’espace libre en mémoire, par exemple dans une implémentation de mémoire tampon en anneau pour un tas de chargement.
+Montre comment gérer l’étendue de la durée de vie des données de ressources en effectuant le suivi de la progression du GPU via des délimiteurs. la mémoire peut être réutilisée efficacement avec les délimiteurs pour gérer avec soin la disponibilité de l’espace libre en mémoire, par exemple dans une implémentation de mémoire tampon en anneau pour un segment de Télécharger.
 
 -   [Scénario de mémoire tampon en anneau](#ring-buffer-scenario)
 -   [Exemple de mémoire tampon en anneau](#ring-buffer-sample)
@@ -149,12 +149,12 @@ void FreeUpMemoryUntilFrame(UINT lastCompletedFrame)
 [**ID3D12Fence**](/windows/desktop/api/d3d12/nn-d3d12-id3d12fence)
 </dt> <dt>
 
-[Sous-allocation dans des mémoires tampons](large-buffers.md)
+[Sous-allocation au sein des tampons](large-buffers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

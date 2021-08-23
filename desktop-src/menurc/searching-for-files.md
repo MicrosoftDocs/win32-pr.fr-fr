@@ -4,12 +4,12 @@ description: Par défaut, RC recherche d’abord les fichiers d’en-tête et le
 ms.assetid: 6c8c905d-b0f6-4665-9a93-62617ff30137
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 078a04a4cf2f3461d03c7026e0f1d73d8fd38665
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c4fecaa3c20c9bedf498c30462d5e139da83f11d45a47c6d5e7554adb8ed325b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601559"
 ---
 # <a name="searching-for-files"></a>Recherche de fichiers
 
@@ -39,9 +39,9 @@ La commande suivante compile le fichier de script MyApp. RC :
 
 Lors de la compilation du script MyApp. RC, RC recherche d’abord les fichiers d’en-tête et les fichiers de ressources dans le répertoire actif, puis dans C : \\ source \\ . Elle ne recherche pas dans les répertoires spécifiés par la variable d’environnement INCLUDe.
 
- 
+ 
 
- 
+ 
 
 
 

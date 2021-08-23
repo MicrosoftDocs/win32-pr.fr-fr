@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cdcc236c0c65aa365400894dd6ccfb845af04b55
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 12e6eb52e59ebb2c7a840235bf7a2529b567c4909f0338670738901fea91f183
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645499"
 ---
 # <a name="structural-object-class-attribute"></a>Structural-Object-Class (attribut)
 
@@ -45,7 +45,7 @@ Cet attribut construit stocke une liste de classes contenues dans une hiérarchi
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -10,12 +10,12 @@ keywords:
 - DrawDibEnd fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a7ae2c85d62e93e4149518221aa520eabe13ee2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2ac063cb2e9697b3b95045b95c9cc759a562197b56f10ff86a076ddcfa9a72cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106513714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688790"
 ---
 # <a name="sequences-of-images"></a>Séquences d’images
 
@@ -24,7 +24,7 @@ Vous pouvez afficher une séquence de bitmaps avec les mêmes dimensions et form
 > [!Note]  
 > Si votre application n’utilise pas [**DrawDibBegin**](/windows/desktop/api/Vfw/nf-vfw-drawdibbegin), [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) l’exécute implicitement avant le dessin. Si votre application utilise **DrawDibBegin** avant **DrawDibDraw**, **DrawDibDraw** n’a pas besoin de traiter la fonction et d’attendre qu’elle se termine.
 
- 
+ 
 
 La fonction [**DrawDibBegin**](/windows/desktop/api/Vfw/nf-vfw-drawdibbegin) fournit [**DRAWDIBDRAW**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) avec le DC drawdib, le handle DC, l’adresse de la structure [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) et les dimensions du rectangle source et de destination. Lorsque vous affichez une séquence de bitmaps, **DrawDibDraw** vérifie les valeurs de ces éléments pour chaque image de la séquence. Si **DrawDibDraw** détecte des modifications apportées à l’un de ces éléments, il appelle de nouveau **DrawDibBegin** de manière implicite pour ajuster les paramètres du contrôleur de service DrawDib.
 
@@ -37,7 +37,7 @@ Vous pouvez augmenter l’efficacité de [**DrawDibDraw**](/windows/desktop/api/
 > [!Note]  
 > Vous devez spécifier la largeur et la hauteur des rectangles sources et de destination dans votre application. Toutefois, vous n’avez pas besoin de spécifier les origines des rectangles. Votre application peut redéfinir les origines dans [**DrawDibDraw**](/windows/desktop/api/Vfw/nf-vfw-drawdibdraw) pour utiliser différentes parties de l’image ou pour mettre à jour différentes parties de l’affichage.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -46,6 +46,6 @@ Vous pouvez augmenter l’efficacité de [**DrawDibDraw**](/windows/desktop/api/
 [Rendu d’image](image-rendering.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,18 +4,18 @@ ms.assetid: cac93c31-d90d-4116-b846-0cf593d1d56e
 title: Présentation du schéma de description de propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51d9e7c2b6fb4b599f977c0c49ad1cb2514fe8d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85dbb0f20c5c4a206069e80aa308a26908bf90ee0d00cf80712a342e834411e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554559"
 ---
 # <a name="understanding-the-property-description-schema"></a>Présentation du schéma de description de propriété
 
 Cette rubrique présente le schéma de description de propriété utilisé par le système de propriétés de Shell.
 
-L’introduction de nouvelles fonctionnalités pour Windows Vista et versions ultérieures nécessitait l’extension du système de propriétés de Shell existant pour :
+l’introduction de nouvelles fonctionnalités pour Windows Vista et versions ultérieures nécessitait l’extension du système de propriétés de Shell existant pour :
 
 -   Prendre en charge un système de description de propriété riche et extensible qui fournit des informations sur les propriétés, y compris les noms d’affichage, le type, le type d’affichage, le comportement de tri et de groupe et d’autres attributs nécessaires pour présenter et utiliser les propriétés.
 -   Prenez en charge une liste de types de propriété (associée à l’interface utilisateur qui peut modifier ces types dans différents affichages, tels que ListView, volet de visualisation, boîtes de dialogue de propriétés, etc.) qui peuvent être associées à différentes propriétés.
@@ -28,7 +28,7 @@ Ces fonctionnalités sont obtenues sur une architecture qui fournit un accès ab
 -   [Qu’est-ce que le schéma de description de propriété ?](#what-is-the-property-description-schema)
 -   [Pourquoi utiliser un schéma ?](#why-use-a-schema)
 -   [Quelles sont les principales parties du schéma ?](#what-are-the-major-schema-parts)
--   [Modifications pour Windows 7](#changes-for-windows-7)
+-   [modifications pour Windows 7](#changes-for-windows-7)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="what-is-the-property-description-schema"></a>Qu’est-ce que le schéma de description de propriété ?
@@ -48,7 +48,7 @@ Le sous-système de schéma se compose des éléments suivants :
 
 ## <a name="why-use-a-schema"></a>Pourquoi utiliser un schéma ?
 
-Les propriétés, par elles-mêmes, ne sont pas de type sécurisé. Un composant peut assigner une valeur numérique à la propriété System. Author, ou un horodatage [**fileTime**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) à la propriété System. Music. AlbumTitle, et, sans aucune autre mise en application ou aide, les magasins de propriétés l’autorisent. Nous avons donc besoin d’une notion de « schematize » des propriétés, qui nous amène au sous-système de schéma.
+Les propriétés, par elles-mêmes, ne sont pas de type sécurisé. Un composant peut affecter une valeur numérique à la propriété System. Author ou à un horodatage [**fileTime**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) sur le système. Musique. La propriété AlbumTitle et, sans aucune autre contrainte ou aide, les magasins de propriétés l’autorisent. Nous avons donc besoin d’une notion de « schematize » des propriétés, qui nous amène au sous-système de schéma.
 
 ## <a name="what-are-the-major-schema-parts"></a>Quelles sont les principales parties du schéma ?
 
@@ -112,11 +112,11 @@ Il doit y avoir un élément [PropertyDescription](./propdesc-schema-propertydes
 
 
 
-## <a name="changes-for-windows-7"></a>Modifications pour Windows 7
+## <a name="changes-for-windows-7"></a>modifications pour Windows 7
 
-Le schéma de description de la propriété a été modifié pour Windows 7. Il s’agit de modifications sans rupture. Si un élément ou un attribut de propriété n’est plus pris en charge dans Windows 7, le système d’exploitation Windows 7 ignore l’élément ou les attributs Windows Vista. De même, Windows Vista ignore également les nouveaux attributs ou éléments de propriété de Windows 7.
+le schéma de description de la propriété a été modifié pour Windows 7. Il s’agit de modifications sans rupture. si un élément ou un attribut de propriété n’est plus pris en charge dans Windows 7, le système d’exploitation Windows 7 ignore l’élément ou les attributs Windows Vista. de même, Windows Vista ignore également les nouveaux attributs ou éléments de propriété de Windows 7.
 
-Toutefois, il est recommandé de mettre à jour les propriétés personnalisées de Windows 7 pour une expérience utilisateur optimale et plus cohérente.
+toutefois, il est recommandé de mettre à jour les propriétés personnalisées de Windows 7 pour une expérience utilisateur optimale et plus cohérente.
 
 Les nouveaux éléments et attributs sont les suivants :
 

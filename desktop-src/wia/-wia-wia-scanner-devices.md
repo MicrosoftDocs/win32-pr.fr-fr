@@ -1,24 +1,24 @@
 ---
-description: Le périphérique du scanneur d’acquisition d’images Windows (WIA) est implémenté sous la forme d’une arborescence hiérarchique d’objets IWiaItem.
+description: l’appareil de scanneur d’images Windows (WIA) est implémenté sous la forme d’une arborescence hiérarchique d’objets IWiaItem.
 ms.assetid: d716faec-9ace-422d-b6eb-ad4d86c1b0fd
 title: Appareils de scanneur WIA dans WIA 1,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 443277b0b580a481b523739cd5bc21642d827252
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd22cc9fe330a3acf231034b61c72178f3b282cb9e66a1f455d4b6939a1c3cde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592667"
 ---
 # <a name="wia-scanner-devices-in-wia-10"></a>Appareils de scanneur WIA dans WIA 1,0
 
 > [!Note]  
-> Cette rubrique décrit l’arborescence des appareils du scanneur pour les applications qui utilisent le service WIA (Windows Image Acquisition) 1,0 (qui est pris en charge sur Windows XP ou version antérieure). Pour plus d’informations sur l’arborescence d’appareils des éléments WIA (Windows Image Acquisition) 2,0 (qui sont pris en charge sur Windows Vista ou version ultérieure), consultez [à propos de l’arborescence des éléments IWiaItem2](-wia-about-item-tree.md).
+> cette rubrique décrit l’arborescence des appareils du scanneur pour les applications qui utilisent le service WIA (Windows Image Acquisition) 1,0 (prise en charge sur Windows XP ou version antérieure). pour plus d’informations sur l’arborescence d’appareils des éléments WIA (Windows Image Acquisition) 2,0 (qui sont pris en charge sur Windows Vista ou version ultérieure), consultez [à propos de l’arborescence des éléments IWiaItem2](-wia-about-item-tree.md).
 
  
 
-Le périphérique du scanneur d’acquisition d’images Windows (WIA) est implémenté sous la forme d’une arborescence hiérarchique d’objets [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) . À partir de l’élément racine, une application peut :
+l’appareil de scanneur d’images Windows (WIA) est implémenté sous la forme d’une arborescence hiérarchique d’objets [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) . À partir de l’élément racine, une application peut :
 
 -   Fonctionnalités de l’analyseur de requêtes
 -   Définir les propriétés d’un périphérique de scanneur

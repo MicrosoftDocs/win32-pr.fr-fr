@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db4232d57b38e87386b340810f5edea47f2e409c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c9e8fbb11ae06efe9adb6b530670d88cc7c7e466922d3d8cbc6162cc6701ed3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648689"
 ---
 # <a name="netboot-initialization-attribute"></a>Attribut Netboot-Initialization
 
@@ -45,7 +45,7 @@ Chemin de démarrage par défaut pour le démarrage sans disque.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

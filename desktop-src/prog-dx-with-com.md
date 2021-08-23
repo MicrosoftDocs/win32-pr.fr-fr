@@ -3,12 +3,12 @@ description: Programmation de DirectX avec COM.
 title: Programmation de DirectX avec COM
 ms.topic: article
 ms.date: 01/29/2019
-ms.openlocfilehash: 67fc7a35f42439e1a9eeef1b2895d88dc0dbf5d4
-ms.sourcegitcommit: f712e5fed19d6afe2762a77ffcdf8b5977f85901
+ms.openlocfilehash: 660f030e56d0b84325f7b90a9e2cc8e3864587660dd452611f41c78241220f54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "103953285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600199"
 ---
 # <a name="programming-directx-with-com"></a>Programmation de DirectX avec COM
 
@@ -31,7 +31,7 @@ Dans la pratique, cela ressemble à l’appel de méthodes sur un objet C++ norm
 - Un objet COM n’est pas créé de la même façon qu’un objet C++. Il existe plusieurs façons de créer un objet COM, mais elles impliquent toutes des techniques spécifiques à COM. L’API DirectX comprend une variété de fonctions et de méthodes d’assistance qui simplifient la création de la plupart des objets COM DirectX.
 - Vous devez utiliser des techniques spécifiques à COM pour contrôler la durée de vie d’un objet COM.
 - Le serveur COM (généralement une DLL) n’a pas besoin d’être chargé explicitement. Vous n’êtes pas non plus lié à une bibliothèque statique pour pouvoir utiliser un composant COM. Chaque composant COM possède un identificateur unique inscrit (identificateur global unique, ou GUID), que votre application utilise pour identifier l’objet COM. Votre application identifie le composant, et le runtime COM charge automatiquement la DLL de serveur COM correcte.
-- COM est une spécification binaire. Les objets COM peuvent être écrits et accessibles à partir d’un large éventail de langages. Vous n’avez rien à savoir sur le code source de l’objet. Par exemple, Visual Basic applications utilisent régulièrement des objets COM qui ont été écrits en C++.
+- COM est une spécification binaire. Les objets COM peuvent être écrits et accessibles à partir d’un large éventail de langages. Vous n’avez rien à savoir sur le code source de l’objet. par exemple, Visual Basic applications utilisent régulièrement des objets COM qui ont été écrits en C++.
 
 ## <a name="component-object-and-interface"></a>Composant, objet et interface
 
@@ -287,7 +287,7 @@ Le code jusqu’à présent a explicitement appelé ``Release`` et ``AddRef`` à
 
 * **WinRT :: com_ptr** est un pointeur intelligent fourni par les [projections de langage C++/WinRT](/uwp/cpp-ref-for-winrt/com-ptr). Il s’agit du pointeur intelligent COM recommandé à utiliser pour les applications UWP. Notez que C++/WinRT requiert C++ 17.
 
-* **Microsoft :: WRL :: ComPtr** est un pointeur intelligent fourni par le [Windows Runtime C++ Template Library (WRL)](/cpp/cppcx/wrl/comptr-class). Cette bibliothèque est « pure » C++ et peut donc être utilisée pour les applications Windows Runtime (via C++/CX ou C++/WinRT), ainsi que pour les applications de bureau Win32 classiques. Ce pointeur intelligent fonctionne également sur les versions antérieures de Windows qui ne prennent pas en charge les API Windows Runtime. Pour les applications de bureau Win32, vous pouvez utiliser ``#include <wrl/client.h>`` pour inclure uniquement cette classe et éventuellement définir également le symbole de préprocesseur ``__WRL_CLASSIC_COM_STRICT__`` . Pour plus d’informations, consultez [pointeurs intelligents com revisités](/archive/msdn-magazine/2015/february/windows-with-c-com-smart-pointers-revisited).
+* **Microsoft :: WRL :: ComPtr** est un pointeur intelligent fourni par le [Windows Runtime C++ Template Library (WRL)](/cpp/cppcx/wrl/comptr-class). cette bibliothèque est « pure » C++ et peut donc être utilisée pour les applications Windows Runtime (via c++/CX ou c++/WinRT), ainsi que pour les applications de bureau Win32 classiques. ce pointeur intelligent fonctionne également sur les versions antérieures de Windows qui ne prennent pas en charge les api Windows Runtime. Pour les applications de bureau Win32, vous pouvez utiliser ``#include <wrl/client.h>`` pour inclure uniquement cette classe et éventuellement définir également le symbole de préprocesseur ``__WRL_CLASSIC_COM_STRICT__`` . Pour plus d’informations, consultez [pointeurs intelligents com revisités](/archive/msdn-magazine/2015/february/windows-with-c-com-smart-pointers-revisited).
 
 * **CComPtr** est un pointeur intelligent fourni par le [Active Template Library (ATL)](/cpp/atl/reference/ccomptr-class). **Microsoft :: WRL :: ComPtr** est une version plus récente de cette implémentation qui résout plusieurs problèmes d’utilisation subtils. l’utilisation de ce pointeur intelligent n’est donc pas recommandée pour les nouveaux projets. Pour plus d’informations, consultez [How to Create and use CComPtr and CComQIPtr](/cpp/cpp/how-to-create-and-use-ccomptr-and-ccomqiptr-instances).
 

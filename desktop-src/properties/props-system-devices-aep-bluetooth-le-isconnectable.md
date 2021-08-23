@@ -1,19 +1,19 @@
 ---
-description: Si l’appareil Bluetooth le publie actuellement une publication connectable.
+description: si le Bluetooth le périphérique publie actuellement une publication connectable.
 ms.assetid: 52e587c1-4925-4184-9a3e-f29795b72883
-title: System. Devices. AEP. Bluetooth. le. IsConnectable
+title: System. Devices. AEP. Bluetooth. Le IsConnectable
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e4da2a6b2116d1913c9631466b603e5dba1570e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64bad00b8d2c7cd4b1e37aae1c5a36c8f0a53ed248549bd9314e5a49be315431
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599039"
 ---
-# <a name="systemdevicesaepbluetoothleisconnectable"></a>System. Devices. AEP. Bluetooth. le. IsConnectable
+# <a name="systemdevicesaepbluetoothleisconnectable"></a>System. Devices. AEP. Bluetooth. Le IsConnectable
 
-Si l’appareil Bluetooth le publie actuellement une publication connectable.
+si le Bluetooth le périphérique publie actuellement une publication connectable.
 
 ## <a name="windows-10-version-1703"></a>Windows 10 version 1703
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 1087b1ca-00d0-4eaf-9aab-33be6194928d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3076b0a17459611273117d44a209bcccf51dbff8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 48715ed5384d10b2b2712d6f683493fa602aeda5a81ff85886ca726bcd47dac7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601729"
 ---
 # <a name="r-menus-and-other-resources"></a>R (menus et autres ressources)
 

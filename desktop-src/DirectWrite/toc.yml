@@ -24,7 +24,7 @@
           href: text-metrics.md
         - name: Polices de couleur
           href: color-fonts.md
-        - name: Rendu de DirectWrite
+        - name: DirectWrite de rendu
           href: rendering-directwrite.md
           items:
             - name: Rendu à l’aide de Direct2D
@@ -64,9 +64,9 @@
           href: appendix--win32-migration.md
         - name: Interopérabilité avec GDI
           href: interoperating-with-gdi.md
-        - name: Glossaire DirectWrite
+        - name: DirectWrite Glossaire
           href: directwrite-glossary.md
-    - name: Référence API
+    - name: Informations de référence sur les API
       href: reference.md
       items:
         - name: Fonctions
@@ -76,7 +76,7 @@
               href: /windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory
             - name: DWriteCoreCreateFactory (DWriteCore)
               href: /windows/windows-app-sdk/api/win32/dwrite_core/nf-dwrite_core-dwritecorecreatefactory
-        - name: Énumérations DirectWrite
+        - name: énumérations de DirectWrite
           href: enumerations.md
           items:
             - name: DWRITE_AUTOMATIC_FONT_AXES
@@ -1386,14 +1386,14 @@
                   href: /windows/win32/api/dwrite/nf-dwrite-idwritetypography-getfontfeature
                 - name: GetFontFeatureCount
                   href: /windows/win32/api/dwrite/nf-dwrite-idwritetypography-getfontfeaturecount
-        - name: Macros DirectWrite
+        - name: macros DirectWrite
           href: macros.md
           items:
             - name: DWRITE_MAKE_FONT_AXIS_TAG
               href: /windows/win32/api/dwrite_3/nf-dwrite_3-dwrite_make_font_axis_tag
             - name: DWRITE_MAKE_OPENTYPE_TAG
               href: /windows/win32/api/dwrite/nf-dwrite-dwrite_make_opentype_tag
-        - name: Structures DirectWrite
+        - name: structures de DirectWrite
           href: structures.md
           items:
             - name: DWRITE_BITMAP_DATA_BGRA32 (DWriteCore)

@@ -9,12 +9,12 @@ keywords:
 - Types de données d’entrée MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8f0738827cce4cfd8cb4a237dcd2031c2fe71a7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4f3cb45c321cdac95c09274f25293f4635d5a715638367c8f9e06cf5c45777af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106510064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525219"
 ---
 # <a name="midi-input-data-types"></a>Types de données d’entrée MIDI
 
@@ -30,7 +30,7 @@ Windows définit les types de données suivants pour les fonctions d’entrée M
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -39,6 +39,6 @@ Windows définit les types de données suivants pour les fonctions d’entrée M
 [Enregistrement d’un fichier audio MIDI](recording-midi-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

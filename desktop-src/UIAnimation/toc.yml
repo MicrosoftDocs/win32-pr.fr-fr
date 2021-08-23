@@ -1,14 +1,14 @@
-- name: Gestionnaire d’animations Windows
+- name: Windows Gestionnaire d’animations
   href: '-main-portal.md'
   items:
-    - name: Guide de développement d’animation Windows
+    - name: Windows Guide de développement d’animation
       href: windows-animation-developer-guide.md
       items:
-        - name: Vue d’ensemble des animations Windows
+        - name: Windows Vue d’ensemble de l’animation
           href: scenic-animation-api-overview.md
         - name: Vue d’ensemble du storyboard
           href: storyboard-construction.md
-        - name: Tâches d’animation Windows
+        - name: Windows Tâches d’animation
           href: using-windows-animation.md
           items:
             - name: Créer les objets d’animation principaux
@@ -23,7 +23,7 @@
               href: updating---timer-driven-animation.md
             - name: Planifier une table de montage séquentiel
               href: scheduling-a-storyboard.md
-    - name: Informations de référence sur les animations Windows
+    - name: Windows Référence d’animation
       href: windows-animation-reference.md
       items:
         - name: Constantes
@@ -614,9 +614,9 @@
               href: /previous-versions/windows/desktop/legacy/dd317028(v=vs.85)
             - name: UIAnimationTransitionLibrary2
               href: /previous-versions/windows/desktop/legacy/hh448668(v=vs.85)
-        - name: Codes d’erreur de l’animation Windows
+        - name: Windows Codes d’erreur d’animation
           href: uianimation-error-codes.md
-    - name: Exemples d’animation Windows
+    - name: Windows Exemples d’animation
       href: windows-animation-samples.md
       items:
         - name: Exemple d’animation Application-Driven
@@ -629,5 +629,5 @@
           href: grid-layout-sample.md
         - name: Exemple de comparaison de priorité
           href: priority-comparison-sample.md
-    - name: Glossaire Windows animation
+    - name: Windows Glossaire d’animation
       href: '-ui-animation-glossary.md'

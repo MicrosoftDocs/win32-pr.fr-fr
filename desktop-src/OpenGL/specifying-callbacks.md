@@ -7,12 +7,12 @@ keywords:
 - GLU (utilitaire OpenGL), spécification de fonctions de rappel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6086448cf6f4a71ea6a49359d5656f12f613d760
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9e57a5f961a980f20451f594fa59885eda99d1e2de94a55fbfd2abd4b8301b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553779"
 ---
 # <a name="specifying-callbacks"></a>Spécifier des rappels
 
@@ -24,15 +24,15 @@ La fonction **gluTessCallback** associe la fonction de rappel *FN* à l’objet 
 
 | Fonction de rappel   | Prototype                                    |
 |---------------------|----------------------------------------------|
-| **début de GLU \_**      | **void** **Begin**(**GLenum * * * type* );       |
-| **\_indicateur de bord Glu \_** | **void** **EdgeFlag**(**GLboolean * * * indicateur* ); |
+| **début de GLU \_**      | **void** **Begin**(_type_ GLenum);       |
+| **\_indicateur de bord Glu \_** | **void** **edgeFlag**(_indicateur_ GLboolean); |
 | **GLU \_ vertex**     | **void** **vertex**(**void \* * * * Data* );     |
 | **fin de GLU \_**        | **void** **end**( *void* );                  |
-| **\_erreur Glu**      |  **erreur** void (**GLenum ** * * errno);      |
+| **\_erreur Glu**      | **void** **Error**(**GLenum**_errno_ );      |
 
 
 
- 
+ 
 
 Pour modifier une fonction de rappel, appelez [*gluTessCallback*](glutess.md) avec la nouvelle fonction. Pour éliminer une fonction de rappel sans la remplacer par une nouvelle, transmettez **gluTessCallback** un pointeur null pour la fonction appropriée.
 
@@ -50,9 +50,9 @@ Après l’appel de la fonction de rappel **Glu \_ Begin** , et avant l’appel 
 
 En cas d’erreur pendant le pavage, la fonction de rappel d’erreur est appelée. La fonction de rappel d’erreur reçoit un numéro d’erreur GLU. Vous pouvez obtenir une chaîne de caractères décrivant l’erreur avec la fonction [**gluErrorString**](gluerrorstring.md) .
 
- 
+ 
 
- 
+ 
 
 
 

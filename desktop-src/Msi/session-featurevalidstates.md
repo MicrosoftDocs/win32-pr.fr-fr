@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b76080bb7854c75cbfbb06697de9fc7d7a1af0c2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c6b7e2683ea9c3e82684f77057319fb359429036cd43192fa9793ff7490386e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629209"
 ---
 # <a name="sessionfeaturevalidstates-property"></a>Session. FeatureValidStates, propriété
 
@@ -39,7 +39,7 @@ propVal = Session.FeatureValidStates
 
 Nom de chaîne requis de l’élément de fonctionnalité dont les États d’installation valides doivent être récupérés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de retour est composée d’indicateurs binaires, comme suit. Bit 0 : s’il est défini, local est un état valide. Bit 1 : s’il est défini, la source est un état valide.
 

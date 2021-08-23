@@ -1,19 +1,19 @@
 ---
-description: L’Windows Installer stocke toutes les chaînes de base de données dans un seul pool de chaînes partagé pour réduire la taille de la base de données et améliorer les performances.
+description: l’Windows Installer stocke toutes les chaînes de base de données dans un seul pool de chaînes partagé pour réduire la taille de la base de données et améliorer les performances.
 ms.assetid: b627f3da-3545-4c1a-85b0-d8845fdac621
 title: Validation de la String-Pool
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb544b5c76026846f7e8b8f6f331195426ab55c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1e895a9e9032cb0cf5d94b5a8c3c9070c46fe79041dee41e4ea10366043b4af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627359"
 ---
 # <a name="string-pool-validation"></a>Validation de la String-Pool
 
-L’Windows Installer stocke toutes les chaînes de base de données dans un seul pool de chaînes partagé pour réduire la taille de la base de données et améliorer les performances. Le seul moyen de valider le pool de chaînes consiste à utiliser l’outil MsiInfo disponible dans le kit de développement logiciel (SDK) Windows Installer.
+l’Windows Installer stocke toutes les chaînes de base de données dans un seul pool de chaînes partagé pour réduire la taille de la base de données et améliorer les performances. le seul moyen de valider le pool de chaînes consiste à utiliser l’outil MsiInfo disponible dans le kit de développement logiciel (SDK) Windows Installer.
 
 La vérification du pool de chaînes se compose de deux vérifications principales :
 
@@ -34,7 +34,7 @@ Pour vérifier le nombre de références de toutes les chaînes, chaque table es
 
 En cas de problème de nombre de références de chaîne, l’utilisateur doit immédiatement exporter chaque table de la base de données à l’aide de [**MsiDatabaseExport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseexporta), créer une nouvelle base de données et importer les tables dans la nouvelle base de données à l’aide de [**MsiDatabaseImport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta). La nouvelle base de données a ensuite le même contenu que l’ancienne, mais les nombres de références de chaîne sont corrects. L’ajout ou la suppression de données d’une base de données avec un pool de chaînes endommagé peut augmenter la corruption de la base de données et la perte de données. par conséquent, il est important de suivre ces étapes rapidement pour éviter toute perte de données.
 
-Lorsque vous reconstruisez des bases de données, n’oubliez pas d’incorporer les stockages et les flux nécessaires dans la nouvelle base de données (consultez table [ \_ Streams](-streams-table.md) and [ \_ Storage table](-storages-table.md)) et tenez compte des problèmes de page de code. N’oubliez pas également de définir chacune des propriétés de [flux d’informations de résumé](summary-information-stream.md) nécessaires.
+lorsque vous reconstruisez des bases de données, n’oubliez pas d’incorporer les stockages et les flux nécessaires dans la nouvelle base de données (consultez tableau de [ \_ Flux table](-streams-table.md) et [ \_ stockage](-storages-table.md)) et tenez compte des problèmes de page de codes. N’oubliez pas également de définir chacune des propriétés de [flux d’informations de résumé](summary-information-stream.md) nécessaires.
 
  
 

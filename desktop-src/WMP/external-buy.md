@@ -3,9 +3,9 @@ title: External. Buy, méthode
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. La méthode Buy lance l’achat d’un ensemble d’éléments multimédias.
 ms.assetid: 78496de6-214e-4712-8fbc-11e002adce88
 keywords:
-- méthode Buy lecteur Windows Media
-- méthode Buy lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode Buy
+- Lecteur Windows Media de la méthode buy
+- méthode buy Lecteur Windows Media, classe externe
+- classe externe Lecteur Windows Media, méthode buy
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5ffee188372e33ed4ceadf1bb1ee2ea0f986207
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 16acc578d18c2a93118e1d7aa55b0fdcbe474a8698a0982ef8c2df7edb3802ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649519"
 ---
 # <a name="externalbuy-method"></a>External. Buy, méthode
 

@@ -4,12 +4,12 @@ ms.assetid: a5dd014f-21af-41f9-be75-1b139946179d
 title: Jeu de propriétés du flux d’informations de synthèse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3929e4180a85a8f154c0a0352ddd1f9a052769ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d41439e15a59ca1942fcbb49c06067251060935b165d6a34972df868fa7feac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627049"
 ---
 # <a name="summary-information-stream-property-set"></a>Jeu de propriétés du flux d’informations de synthèse
 
@@ -20,10 +20,10 @@ Le tableau suivant montre le jeu de propriétés de flux d’informations de syn
 | Nom de la propriété                                                | ID de propriété        | PID | Type         |
 |--------------------------------------------------------------|--------------------|-----|--------------|
 | [**Courante**](codepage-summary.md)                         | \_page de codes PID      | 1   | VT \_ I2       |
-| [**Intitulé**](title-summary.md)                               | \_titre PID         | 2   | VT- \_ LPSTR    |
+| [**Titre**](title-summary.md)                               | \_titre PID         | 2   | VT- \_ LPSTR    |
 | [**Objet**](subject-summary.md)                           | \_objet PID       | 3   | VT- \_ LPSTR    |
 | [**Auteur**](author-summary.md)                             | \_auteur PID        | 4   | VT- \_ LPSTR    |
-| [**Mots clés**](keywords-summary.md)                         | \_Mots clés PID      | 5   | VT- \_ LPSTR    |
+| [**Mot**](keywords-summary.md)                         | \_Mots clés PID      | 5   | VT- \_ LPSTR    |
 | [**Commentaires**](comments-summary.md)                         | \_Commentaires PID      | 6   | VT- \_ LPSTR    |
 | [**Modèle**](template-summary.md)                         | \_modèle PID      | 7   | VT- \_ LPSTR    |
 | [**Dernier enregistrement par**](last-saved-by-summary.md)               | PID \_ LASTAUTHOR    | 8   | VT- \_ LPSTR    |

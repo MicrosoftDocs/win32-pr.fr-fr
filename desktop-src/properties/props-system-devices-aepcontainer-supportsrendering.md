@@ -4,12 +4,12 @@ ms.assetid: 240065af-b0bc-4c2f-b483-724e0cb1f358
 title: System. Devices. AepContainer. SupportsRendering
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd144e5e93db68991517fa93af38a577231c8e58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60d470d29609b2b375ae961653570105ae2ebe8c48c7bd7e21d34b9ccf7c8ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598679"
 ---
 # <a name="systemdevicesaepcontainersupportsrendering"></a>System. Devices. AepContainer. SupportsRendering
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cc57847d6a977c740bbf50bae220a89b0ed6fab1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c192196869f86e8d78da2f6b38a661373e115753d99e554f4b7a868eb0b484fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688219"
 ---
 # <a name="coutputqueueisspecialsample-method"></a>Méthode COutputQueue. IsSpecialSample
 
@@ -53,7 +53,7 @@ Pointeur vers un élément de la file d’attente.
 
 Retourne la **valeur true** si *pSample* est un message de contrôle, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**COutputQueue :: QueueSample**](coutputqueue-queuesample.md) peut recevoir des messages de contrôle en plus des exemples de supports. Un message de contrôle est une constante définie (castée en un \_ type PTR long) qui indique au thread d’effectuer une action. Les messages de contrôle ne contiennent pas de données multimédias. Pour plus d’informations, consultez **COutputQueue :: QueueSample**.
 
@@ -63,7 +63,7 @@ La méthode [**COutputQueue :: QueueSample**](coutputqueue-queuesample.md) peut
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Outputq. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Outputq. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

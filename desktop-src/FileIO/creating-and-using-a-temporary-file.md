@@ -4,12 +4,12 @@ ms.assetid: 6254c67d-5d34-499d-b1a4-8cac526dd294
 title: Création et utilisation d’un fichier temporaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ca18b7b72aab7c53bea95c38147af66f2b7fef9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f242b9b021744c42e7e1b8745c7eec2b6388249246872192ecfd6308bdab55af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650419"
 ---
 # <a name="creating-and-using-a-temporary-file"></a>Création et utilisation d’un fichier temporaire
 

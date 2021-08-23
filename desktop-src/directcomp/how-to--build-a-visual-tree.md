@@ -4,23 +4,23 @@ description: Cette rubrique montre comment créer une arborescence d’élément
 ms.assetid: 86006C3C-67A8-4931-BE76-D0CA9DB19505
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 621e3f48f76b76be92dc464678dce23b08ebdbd6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0e27a3af12976f08a1f878779506ac1a42076adecebda02550149e5cb1653d31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104381977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670873"
 ---
 # <a name="how-to-build-a-simple-visual-tree"></a>Comment créer une arborescence d’éléments visuels simple
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique montre comment créer une arborescence d’éléments visuels Microsoft DirectComposition simple. L’exemple de cette rubrique génère et compose une arborescence d’éléments visuels qui se compose d’un visuel racine et de trois visuels enfants. Le contenu du visuel racine est un bitmap bleu clair qui sert d’arrière-plan pour les visuels enfants. Cette illustration montre la composition créée par l’exemple de code dans cette rubrique.
 
 ![une composition composée d’une bitmap racine et de trois bitmaps enfants](images/buildvisualtree.png)
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -83,7 +83,7 @@ for (int i = 0; i < NUM_VISUALS; i++)
 }
 ``` 
 
-La fonction définie par l’application suivante montre comment créer la surface Microsoft DirectComposition et afficher une image bitmap Windows Graphics Device Interface (GDI) sur l’aire de conception.
+la fonction définie par l’application suivante montre comment créer la surface Microsoft DirectComposition et afficher une bitmap Windows Graphics Device Interface (GDI) sur l’aire de conception.
 
 ```cpp
 // MyCreateGDIRenderedDCompSurface - Creates a DirectComposition surface and 

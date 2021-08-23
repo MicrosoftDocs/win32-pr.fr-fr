@@ -3,7 +3,7 @@ title: External. OnColorChange, événement
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. OnColorChange, événement
 ms.assetid: f2cd44b1-c813-479b-b847-96ddb9572697
 keywords:
-- Événement External. OnColorChange lecteur Windows Media
+- Lecteur Windows Media d’événements External. OnColorChange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 029c8bb860443ed026737c7413be2bed8862c6d2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eae4ca15d4d7035fc342fa20263220560570d902e28b9245a6458ac59c40a4f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648749"
 ---
 # <a name="externaloncolorchange-event"></a>External. OnColorChange, événement
 
@@ -28,7 +28,7 @@ ms.locfileid: "106542398"
 
  
 
-L’événement **OnColorChange** se produit lorsque la couleur de l’interface utilisateur du lecteur Windows Media change.
+l’événement **OnColorChange** se produit lorsque la couleur de l’interface utilisateur Lecteur Windows Media change.
 
 ``` syntax
 window.external.OnColorChange = FunctionName
@@ -36,15 +36,15 @@ window.external.OnColorChange = FunctionName
 
 ## <a name="possible-values"></a>Valeurs possibles
 
-Il s’agit d’une propriété en écriture seule qui spécifie le nom de la fonction dans le script que le lecteur Windows Media appelle lorsque l’événement se produit.
+il s’agit d’une propriété en écriture seule qui spécifie le nom de la fonction dans le script que Lecteur Windows Media appelle lorsque l’événement se produit.
 
 ## <a name="parameters"></a>Paramètres
 
 La fonction qui gère cet événement n’accepte aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cet événement pour personnaliser l’apparence de votre page Web hébergée en fonction du lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cet événement pour personnaliser l’apparence de votre page Web hébergée en fonction du lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

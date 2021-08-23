@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4115d013a19e7dc8f100f35b57ee3658855e3b6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 08f5a6f7a885f161a60a1e184a691deb163e6a8a3198c36e776d3b793d109615
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646639"
 ---
 # <a name="rid-set-references-attribute"></a>RID-Set-Reference (attribut)
 
@@ -45,7 +45,7 @@ Liste de références aux objets RID-Set qui gèrent l’allocation d’identifi
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

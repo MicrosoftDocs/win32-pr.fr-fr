@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit les interfaces du système de propriétés Windows.
+description: cette section décrit les interfaces du système de propriétés Windows.
 ms.assetid: d81fe8df-9fd6-4ace-a47f-214cbba6f30c
 title: Interfaces (système de propriétés Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5003458683fb9b2443df0301676b601901817d54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d608e1b994541667847d755e95966b6ea2770c2d0c73ce86ef8fbd79b8c9dc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600119"
 ---
 # <a name="interfaces-windows-property-system"></a>Interfaces (système de propriétés Windows)
 
-Cette section décrit les interfaces du système de propriétés Windows.
+cette section décrit les interfaces du système de propriétés Windows.
 
 
 
@@ -26,7 +26,7 @@ Cette section décrit les interfaces du système de propriétés Windows.
 | [**IPropertyDescriptionAliasInfo**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionaliasinfo)                     | Expose des méthodes pour obtenir les propriétés « Trier par » des colonnes pour un élément. Cette interface est utilisée par les objets d’interface utilisateur qui souhaitent récupérer les colonnes de tri principales ou secondaires pour une propriété donnée.                                                                                                                                                                                                |
 | [**IPropertyDescriptionList**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionlist)                               | Expose des méthodes qui extraient des informations d’une collection de descriptions de propriétés présentées sous forme de liste.                                                                                                                                                                                                                                                                                   |
 | [**IPropertyDescriptionRelatedPropertyInfo**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionrelatedpropertyinfo) | Fournit une méthode qui récupère une interface [**IPropertyDescription**](/windows/win32/api/propsys/nn-propsys-ipropertydescription) .                                                                                                                                                                                                                                                                                       |
-| [**IPropertyDescriptionSearchInfo**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionsearchinfo)                   | Expose des informations relatives à la recherche pour une propriété. Les informations fournies par cette interface proviennent de l’élément [PropertyDescription](./propdesc-schema-propertydescription.md) Schema, [searchInfo](./propdesc-schema-searchinfo.md) pour une propriété donnée. Ces informations sont utilisées par l’indexeur de recherche Windows. La plupart des applications appelantes n’ont pas besoin d’appeler cette interface. |
+| [**IPropertyDescriptionSearchInfo**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionsearchinfo)                   | Expose des informations relatives à la recherche pour une propriété. Les informations fournies par cette interface proviennent de l’élément [PropertyDescription](./propdesc-schema-propertydescription.md) Schema, [searchInfo](./propdesc-schema-searchinfo.md) pour une propriété donnée. ces informations sont utilisées par l’indexeur de recherche Windows. La plupart des applications appelantes n’ont pas besoin d’appeler cette interface. |
 | [**IPropertyEnumType**](/windows/win32/api/propsys/nn-propsys-ipropertyenumtype)                                             | Expose des méthodes qui extraient des données à partir d’informations d’énumération. [**IPropertyEnumType**](/windows/win32/api/propsys/nn-propsys-ipropertyenumtype) donne accès aux éléments [enum](./propdesc-schema-enum.md) et [enumRange](./propdesc-schema-enumrange.md) du schéma de [propriété](./propdesc-schema-entry.md) par programmation au moment de l’exécution.                                                                 |
 | [**IPropertyEnumType2**](/windows/win32/api/propsys/nn-propsys-ipropertyenumtype2)                                           | Expose des méthodes qui extraient des données à partir d’informations d’énumération. [**IPropertyEnumType2**](/windows/win32/api/propsys/nn-propsys-ipropertyenumtype2) étend [**IPropertyEnumType**](/windows/win32/api/propsys/nn-propsys-ipropertyenumtype).                                                                                                                                                                                                               |
 | [**IPropertyEnumTypeList**](/windows/win32/api/propsys/nn-propsys-ipropertyenumtypelist)                                     | Expose des méthodes qui énumèrent les valeurs possibles d’une propriété.                                                                                                                                                                                                                                                                                                                         |

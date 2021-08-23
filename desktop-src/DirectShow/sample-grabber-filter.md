@@ -13,17 +13,17 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: f0b0ddffe2bc769b7c2371ef93091d8c1daf379c
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 286348ec102a93697aa413ecfd1886879e7361b54eca48276b5e868be78eee03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633509"
 ---
 # <a name="sample-grabber-filter"></a>Exemple de filtre d’accrochage
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -78,7 +78,7 @@ Par conséquent, la accroche d’échantillon ne se connecte pas au convertisseu
 
 <dl> <dt>
 
-[Objets des services de modification DirectShow](directshow-editing-services-objects.md)
+[DirectShow Modification des objets de services](directshow-editing-services-objects.md)
 </dt> <dt>
 
 [Utilisation de l’exemple d’accrochage](using-the-sample-grabber.md)

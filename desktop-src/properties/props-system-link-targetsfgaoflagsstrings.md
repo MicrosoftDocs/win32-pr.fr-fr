@@ -4,12 +4,12 @@ ms.assetid: 1a8f220c-0d2a-4f1f-b7f0-ee6381d0c6a9
 title: System. Link. TargetSFGAOFlagsStrings
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcfaf06c349af8e7cc9f6daa7bf4355e4b242e07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a274cd310953c7f13d1dae2ca293f103ce7ea6148b48d66de09ec3f4d5dead38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597709"
 ---
 # <a name="systemlinktargetsfgaoflagsstrings"></a>System. Link. TargetSFGAOFlagsStrings
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

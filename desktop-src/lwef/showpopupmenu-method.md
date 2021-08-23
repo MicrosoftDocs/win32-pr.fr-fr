@@ -4,12 +4,12 @@ description: Méthode ShowPopupMenu
 ms.assetid: 7f964d53-2594-41b1-9450-1ba7e9f85882
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0325a552cc3c1f91a64c1240964f1d0c329292c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0cfd080adcf0158a628f019b4d48be5cd10b9c5b47d7a4b71ccd2393ad83ce6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106533298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600989"
 ---
 # <a name="showpopupmenu-method"></a>Méthode ShowPopupMenu
 
@@ -27,7 +27,7 @@ Affiche le menu contextuel du caractère à l’emplacement spécifié.
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent. ***Caractères («*** CharacterID ***»). ShowPopupMenu*** x, y*
+*agents. ***caractères («**_CharacterID_*_»). ShowPopupMenu_ * _x, y_
 
 
 
@@ -38,11 +38,11 @@ Affiche le menu contextuel du caractère à l’emplacement spécifié.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Agent affiche automatiquement le menu contextuel du caractère lorsque l’utilisateur clique avec le bouton droit sur le caractère. Si vous affectez à [**AutoPopupMenu**](autopopupmenu-property.md) la **valeur false**, vous pouvez utiliser cette méthode pour afficher le menu.
 
@@ -68,9 +68,9 @@ Cette méthode doit être appelée uniquement lorsque votre application cliente 
 [**Propriété AutoPopupMenu**](autopopupmenu-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

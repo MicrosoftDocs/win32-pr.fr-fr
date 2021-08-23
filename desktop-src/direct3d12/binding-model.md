@@ -1,18 +1,18 @@
 ---
-title: Différences dans le modèle de liaison de Direct3D 11
+title: Différences dans le modèle de liaison de Direct3D 11
 description: L’une des principales décisions de conception derrière la liaison DirectX12 est de la séparer des autres tâches de gestion. Cela impose des exigences sur l’application pour gérer certains dangers potentiels.
 ms.assetid: 3EE7E9AE-203D-40D4-9F12-4313ED179035
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b2785da6497fd4e775d9f88847928e7c4c08e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a625bd1b79766990658feba9bf18ddf7f46c3788ca20aea1de0b4ab80ae0a71f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632520"
 ---
-# <a name="differences-in-the-binding-model-from-direct3d-11"></a>Différences dans le modèle de liaison de Direct3D 11
+# <a name="differences-in-the-binding-model-from-direct3d-11"></a>Différences dans le modèle de liaison de Direct3D 11
 
 L’une des principales décisions de conception derrière la liaison DirectX12 est de la séparer des autres tâches de gestion. Cela impose des exigences sur l’application pour gérer certains dangers potentiels.
 
@@ -55,9 +55,9 @@ Le système n’inspecte plus les liaisons de ressources pour comprendre si le r
 [Liaison de ressource](resource-binding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

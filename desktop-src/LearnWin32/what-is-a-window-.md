@@ -4,12 +4,12 @@ description: Qu’est-ce qu’une fenêtre ?
 ms.assetid: eef5e139-91f9-4d8b-9153-e178d7416d7e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8494738e3985f78930549f313cb2868b79b34f3b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0af5d845d1a7eac6474dec9da08dcfde8df9f9fd67bf16d6f59cad94c5af0fe2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631415"
 ---
 # <a name="what-is-a-window"></a>Qu’est-ce qu’une fenêtre ?
 
@@ -25,7 +25,7 @@ Voici un autre type de fenêtre :
 
 ![capture d’écran d’une fenêtre de contrôle](images/window02.png)
 
-Si vous débutez avec la programmation Windows, il se peut que vous vous étonnez que les contrôles d’interface utilisateur, tels que les boutons et les zones d’édition, soient eux-mêmes Windows. La principale différence entre un contrôle d’interface utilisateur et une fenêtre d’application est qu’un contrôle n’existe pas de lui-même. Au lieu de cela, le contrôle est positionné par rapport à la fenêtre d’application. Lorsque vous faites glisser la fenêtre d’application, le contrôle se déplace avec elle, comme vous le feriez. En outre, le contrôle et la fenêtre d’application peuvent communiquer entre eux. (Par exemple, la fenêtre d’application reçoit des notifications de clic à partir d’un bouton.)
+si vous êtes un nouvel utilisateur de la programmation de Windows, il se peut que vous vous étonnez que les contrôles d’interface utilisateur, tels que les boutons et les zones d’édition, soient eux-mêmes Windows. La principale différence entre un contrôle d’interface utilisateur et une fenêtre d’application est qu’un contrôle n’existe pas de lui-même. Au lieu de cela, le contrôle est positionné par rapport à la fenêtre d’application. Lorsque vous faites glisser la fenêtre d’application, le contrôle se déplace avec elle, comme vous le feriez. En outre, le contrôle et la fenêtre d’application peuvent communiquer entre eux. (Par exemple, la fenêtre d’application reçoit des notifications de clic à partir d’un bouton.)
 
 Par conséquent, lorsque vous pensez à la *fenêtre*, ne pensez pas simplement à la *fenêtre d’application*. Au lieu de cela, Imaginez une fenêtre comme une construction de programmation qui :
 
@@ -34,7 +34,7 @@ Par conséquent, lorsque vous pensez à la *fenêtre*, ne pensez pas simplement 
 -   Sait comment se dessiner lui-même.
 -   Répond aux événements de l’utilisateur ou du système d’exploitation.
 
-## <a name="parent-windows-and-owner-windows"></a>Fenêtres parentes et fenêtres propriétaires
+## <a name="parent-windows-and-owner-windows"></a>Windows Parent et propriétaire Windows
 
 Dans le cas d’un contrôle d’interface utilisateur, la fenêtre de contrôle est dite *enfant* de la fenêtre d’application. La fenêtre d’application est le *parent* de la fenêtre de contrôle. La fenêtre parente fournit le système de coordonnées utilisé pour positionner une fenêtre enfant. Avoir une fenêtre parente affecte les aspects de l’apparence d’une fenêtre ; par exemple, une fenêtre enfant est découpée afin qu’aucune partie de la fenêtre enfant ne puisse apparaître en dehors des bordures de sa fenêtre parente.
 
@@ -50,7 +50,7 @@ La fenêtre d’application est propriétaire de la fenêtre de boîte de dialog
 
 ## <a name="window-handles"></a>Handles de fenêtre
 
-Windows sont des objets : ils ont à la fois du code et des données, mais ce ne sont pas des classes C++. Au lieu de cela, un programme fait référence à une fenêtre à l’aide d’une valeur appelée *descripteur*. Un handle est un type opaque. En gros, il s’agit simplement d’un nombre que le système d’exploitation utilise pour identifier un objet. Vous pouvez utiliser des fenêtres d’image comme un grand tableau de toutes les fenêtres qui ont été créées. Elle utilise cette table pour rechercher des fenêtres par leurs handles. (Que c’est exactement la manière dont il fonctionne en interne n’est pas important.) Le type de données pour les handles de fenêtre est **HWND**, qui est généralement prononcé « AITCH ». Les handles de fenêtre sont retournés par les fonctions qui créent des fenêtres : [**CreateWindow**](/windows/desktop/DirectShow/cbasewindow-docreatewindow) et [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa).
+Windows sont des objets : ils ont à la fois du code et des données, mais ce ne sont pas des classes C++. Au lieu de cela, un programme fait référence à une fenêtre à l’aide d’une valeur appelée *descripteur*. Un handle est un type opaque. En gros, il s’agit simplement d’un nombre que le système d’exploitation utilise pour identifier un objet. vous pouvez créer une image Windows comme contenant un grand tableau de toutes les fenêtres qui ont été créées. Elle utilise cette table pour rechercher des fenêtres par leurs handles. (Que c’est exactement la manière dont il fonctionne en interne n’est pas important.) Le type de données pour les handles de fenêtre est **HWND**, qui est généralement prononcé « AITCH ». Les handles de fenêtre sont retournés par les fonctions qui créent des fenêtres : [**CreateWindow**](/windows/desktop/DirectShow/cbasewindow-docreatewindow) et [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa).
 
 Pour effectuer une opération sur une fenêtre, vous devez généralement appeler une fonction qui prend une valeur **HWND** comme paramètre. Par exemple, pour repositionner une fenêtre à l’écran, appelez la fonction [**MoveWindow**](/windows/desktop/api/winuser/nf-winuser-movewindow) :
 

@@ -4,12 +4,12 @@ ms.assetid: 86b5b51e-e5f4-4f42-84f9-1faa29ea7a84
 title: Tableau de raccourcis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b56482f1d2d5521bede54c781c91d2de2bc39e79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e47a5c5843b4ad1986d968329c9df9b6d9df5e291cd4adf06bccfcfa37adb66a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628419"
 ---
 # <a name="shortcut-table"></a>Tableau de raccourcis
 
@@ -24,12 +24,12 @@ Le tableau de raccourcis contient les colonnes suivantes.
 | Raccourci               | [Identificateur](identifier.md) | O   | N        |
 | Répertoire\_            | [Identificateur](identifier.md) | N   | N        |
 | Nom                   | [Nom du fichier](filename.md)     | N   | N        |
-| -\_            | [Identificateur](identifier.md) | N   | N        |
+| Composant\_            | [Identificateur](identifier.md) | N   | N        |
 | Cible                 | [Raccourci](shortcut.md)     | N   | N        |
 | Arguments              | [Correct](formatted.md)   | N   | O        |
 | Description            | [Text](text.md)             | N   | O        |
 | Touche d’accès rapide                 | [Integer](integer.md)       | N   | O        |
-| Icône\_                 | [Identificateur](identifier.md) | N   | O        |
+| Située\_                 | [Identificateur](identifier.md) | N   | O        |
 | IndexIcône              | [Integer](integer.md)       | N   | O        |
 | ShowCmd                | [Integer](integer.md)       | N   | O        |
 | WkDir                  | [Identificateur](identifier.md) | N   | O        |
@@ -127,7 +127,7 @@ Index d’icône pour le raccourci. Il doit s’agir d’un nombre non négatif.
 
 Commande Show pour la fenêtre d’application.
 
-Les valeurs suivantes peuvent être utilisées. Les valeurs sont définies pour la fonction d’API Windows ShowWindow.
+Les valeurs suivantes peuvent être utilisées. les valeurs sont définies pour la fonction d’API Windows ShowWindow.
 
 
 
@@ -146,7 +146,7 @@ Les valeurs suivantes peuvent être utilisées. Les valeurs sont définies pour 
 <span id="WkDir"></span><span id="wkdir"></span><span id="WKDIR"></span>WkDir
 </dt> <dd>
 
-Nom de la propriété qui contient le chemin d’accès du répertoire de travail du raccourci. La valeur peut utiliser le format Windows pour référencer des variables d’environnement, par exemple% USERPROFILE%. Les références sont résolues en chemin d’accès réel lorsque le programme d’installation résout le répertoire de travail pour créer le raccourci.
+Nom de la propriété qui contient le chemin d’accès du répertoire de travail du raccourci. la valeur peut utiliser le format Windows pour référencer des variables d’environnement, par exemple% USERPROFILE%. Les références sont résolues en chemin d’accès réel lorsque le programme d’installation résout le répertoire de travail pour créer le raccourci.
 
 </dd> </dl>
 
@@ -157,7 +157,7 @@ Nom de la propriété qui contient le chemin d’accès du répertoire de travai
 
 Ce champ contient une valeur de chaîne [mise en forme](formatted.md) pour le chemin d’accès complet au fichier exécutable portable indépendant du langage (fichier LN) qui contient les données de configuration de ressource (RC config). La chaîne mise en forme peut utiliser la \[ \# \] Convention filekey. Si ce champ contient une valeur, la colonne de nom est ignorée. Si ce champ est vide, le programme d’installation utilise la valeur dans la colonne nom. Lorsque ce champ contient une valeur, le champ **DisplayResourceId** doit également contenir une valeur, sinon l’installation échoue.
 
-Cette colonne du tableau de raccourcis est utilisée uniquement lors de l’exécution sur Windows Vista ou Windows Server 2008 et elle est ignorée. Cette colonne est disponible avec les versions antérieures à Windows Installer 4,0.
+cette colonne du tableau de raccourcis est utilisée uniquement lors de l’exécution sur Windows Vista ou Windows Server 2008 et elle est ignorée. cette colonne est disponible avec les versions antérieures à Windows Installer 4,0.
 
 Pour plus d’informations sur l’ajout de raccourcis à une table de raccourcis pour une utilisation avec des ressources MUI, consultez [un exemple de raccourci MUI](a-mui-shortcut-example.md).
 
@@ -168,7 +168,7 @@ Pour plus d’informations sur l’ajout de raccourcis à une table de raccourci
 
 Index du nom complet du raccourci. Il doit s’agir d’un nombre non négatif. Lorsque ce champ contient une valeur, le champ **DisplayResourceDLL** doit également contenir une valeur, sinon l’installation échoue.
 
-Cette colonne du tableau de raccourcis est utilisée uniquement lors de l’exécution sur Windows Vista ou Windows Server 2008 et elle est ignorée. Cette colonne est disponible avec les versions antérieures à Windows Installer 4,0.
+cette colonne du tableau de raccourcis est utilisée uniquement lors de l’exécution sur Windows Vista ou Windows Server 2008 et elle est ignorée. cette colonne est disponible avec les versions antérieures à Windows Installer 4,0.
 
 </dd> <dt>
 
@@ -177,7 +177,7 @@ Cette colonne du tableau de raccourcis est utilisée uniquement lors de l’exé
 
 Ce champ contient une valeur de chaîne [mise en forme](formatted.md) pour le chemin d’accès complet au fichier exécutable portable indépendant du langage (fichier LN) qui contient les données de configuration de ressource (RC config). La chaîne mise en forme peut utiliser la \[ \# \] Convention filekey. Si ce champ contient une valeur, la colonne de nom est ignorée. Si ce champ est vide, le programme d’installation utilise la valeur dans la colonne Description. Lorsque ce champ contient une valeur, le champ **DescriptionResourceId** doit également contenir une valeur, sinon l’installation échoue.
 
-Cette colonne du tableau de raccourcis est utilisée uniquement lors de l’exécution sur Windows Vista ou Windows Server 2008 et elle est ignorée. Cette colonne est disponible avec les versions antérieures à Windows Installer 4,0.
+cette colonne du tableau de raccourcis est utilisée uniquement lors de l’exécution sur Windows Vista ou Windows Server 2008 et elle est ignorée. cette colonne est disponible avec les versions antérieures à Windows Installer 4,0.
 
 Pour plus d’informations sur l’ajout de raccourcis à une table de raccourcis pour une utilisation avec des ressources MUI, consultez [un exemple de raccourci MUI](a-mui-shortcut-example.md).
 
@@ -188,13 +188,13 @@ Pour plus d’informations sur l’ajout de raccourcis à une table de raccourci
 
 Index du nom de description pour le raccourci. Il doit s’agir d’un nombre non négatif. Lorsque ce champ contient une valeur, le champ **DescriptionResourceDLL** doit également contenir une valeur, sinon l’installation échoue.
 
-Cette colonne du tableau de raccourcis est utilisée uniquement lors de l’exécution sur Windows Vista ou Windows Server 2008 et elle est ignorée. Cette colonne est disponible avec les versions antérieures à Windows Installer 4,0.
+cette colonne du tableau de raccourcis est utilisée uniquement lors de l’exécution sur Windows Vista ou Windows Server 2008 et elle est ignorée. cette colonne est disponible avec les versions antérieures à Windows Installer 4,0.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’activation d’une fonctionnalité crée un raccourci publié uniquement si l’interface IShellLink du système prend en charge la résolution du descripteur du programme d’installation. Cela est pris en charge par Microsoft Windows 2000 et les systèmes exécutant Microsoft Internet Explorer 4,01. S’il n’est pas pris en charge, le programme d’installation crée un raccourci non publié lors de l’installation du composant de la fonctionnalité, localement ou exécuté à partir de la source.
+L’activation d’une fonctionnalité crée un raccourci publié uniquement si l’interface IShellLink du système prend en charge la résolution du descripteur du programme d’installation. cela est pris en charge par microsoft Windows 2000 et les systèmes exécutant microsoft Internet Explorer 4,01. S’il n’est pas pris en charge, le programme d’installation crée un raccourci non publié lors de l’installation du composant de la fonctionnalité, localement ou exécuté à partir de la source.
 
 Notez que les raccourcis publiés pointent toujours vers une application particulière, identifiés par un [**ProductCode**](productcode.md), et ne doivent pas être partagés entre les applications. Les raccourcis publiés ne fonctionnent que pour l’application la plus récemment installée, et sont supprimés lors de la suppression de cette dernière.
 

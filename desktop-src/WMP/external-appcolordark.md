@@ -3,7 +3,7 @@ title: External. appColorDark
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. appColorDark
 ms.assetid: 9cfd9ca9-3a9f-47c5-a1a4-879f0b8d1626
 keywords:
-- External. appColorDark Windows Media Player
+- External. appColorDark Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2155e7ca133840cf5d6159ed30051c83cf71bed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 543692bf2b4bc41dd02e62f7d82ff3d0c2f9d4e8c6d0ebab50fcba7146dfab68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649749"
 ---
 # <a name="externalappcolordark"></a>External. appColorDark
 
@@ -28,7 +28,7 @@ ms.locfileid: "106523497"
 
  
 
-La propriété **appColorDark** récupère la couleur ombrée foncée actuelle de l’interface utilisateur du lecteur Windows Media.
+la propriété **appColorDark** récupère la couleur ombrée foncée actuelle de l’interface utilisateur Lecteur Windows Media.
 
 ``` syntax
 window.external.appColorDark
@@ -39,9 +39,9 @@ window.external.appColorDark
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

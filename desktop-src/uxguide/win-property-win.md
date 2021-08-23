@@ -1,20 +1,20 @@
 ---
-title: Fenêtres de propriétés
+title: Windows de propriété
 description: La fenêtre Propriétés est le nom collectif des types suivants de feuille de propriétés d’interfaces utilisateur (IU) utilisés pour afficher et modifier les propriétés d’un objet ou d’une collection d’objets dans une boîte de dialogue. Inspecteur de propriété utilisé pour afficher et modifier les propriétés d’un objet ou d’une collection d’objets dans un volet. Options de la boîte de dialogue permettant d’afficher et de modifier les options d’une application.
 ms.assetid: 18fc04da-9f84-4a44-9f3d-a9e29b121e7c
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: c255d638f236b4bc4a4f1a6c923eac24421cfe9d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 73260459c1dc22ee488233f3c7edebe25203a811a430870fdd4e68e1c2e153ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103761215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594320"
 ---
-# <a name="property-windows"></a>Fenêtres de propriétés
+# <a name="property-windows"></a>Windows de propriété
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 La fenêtre Propriétés est le nom collectif pour les types d’interfaces utilisateur (IU) suivants :
 
@@ -111,7 +111,7 @@ Tous les modèles de fenêtre de propriétés sauf les inspecteurs de propriét�
 
     ![capture d’écran de la feuille de propriétés propriétés du pare-feu ](images/win-property-win-image2.png)
 
-    Dans cet exemple, l’objectif du pare-feu Microsoft Windows est expliqué en haut de la page général.
+    dans cet exemple, l’objectif du pare-feu Microsoft Windows est expliqué en haut de la page général.
 
 -   **Faites en sorte qu’un contenu similaire soit cohérent entre les pages en utilisant des noms et des emplacements de contrôle cohérents.** Par exemple, si plusieurs pages ont des zones de nom, essayez de les placer dans le même emplacement sur la page et d’utiliser des étiquettes cohérentes. Le contenu similaire ne doit pas rebondir d’une page à l’autre.
 -   **Placez la même propriété sur la même page dans votre application.** Par exemple, ne placez pas de propriété expiration dans l’onglet général pour un type d’objet, et sous l’onglet avancé pour un autre type.
@@ -174,7 +174,7 @@ Tous les modèles de fenêtre de propriétés sauf les inspecteurs de propriét�
 ### <a name="tabs"></a>Tabulations
 
 -   **Utilisez des étiquettes d’onglet concises.** Utilisez un ou deux mots qui décrivent clairement le contenu de la page. Des étiquettes plus longues entraînent une utilisation inefficace de l’espace à l’écran, en particulier lorsque les étiquettes sont localisées.
--   **Utilisez des étiquettes d’onglet explicites et explicites.** Évitez les étiquettes d’onglet génériques qui peuvent s’appliquer à n’importe quel onglet, tel que général, avancé ou paramètres.
+-   **Utilisez des étiquettes d’onglet explicites et explicites.** évitez les étiquettes d’onglet génériques qui peuvent s’appliquer à n’importe quel onglet, tel que général, avancé ou Paramètres.
 -   **Utilisez des tabulations horizontales si :**
     -   La fenêtre Propriétés a sept onglets ou moins (y compris les extensions tierces).
     -   **Tous les onglets s’ajustent sur une ligne, même lorsque l’interface utilisateur est localisée.**
@@ -196,7 +196,7 @@ Tous les modèles de fenêtre de propriétés sauf les inspecteurs de propriét�
 
     ![capture d’écran de l’onglet emplacements de fichiers estompés ](images/win-property-win-image8.png)
 
-    Dans cet exemple, l’onglet emplacements des fichiers est désactivé de manière incorrecte lorsque Microsoft Word 2003 est utilisé comme éditeur de messagerie électronique. La page doit être supprimée, car les utilisateurs ne s’attendent pas à afficher ou à modifier les emplacements des fichiers dans ce contexte.
+    dans cet exemple, l’onglet emplacements des fichiers est incorrectement désactivé quand Microsoft Word 2003 est utilisé comme éditeur de messagerie électronique. La page doit être supprimée, car les utilisateurs ne s’attendent pas à afficher ou à modifier les emplacements des fichiers dans ce contexte.
 
 -   **Si un onglet ne s’applique pas au contexte actuel et que les utilisateurs peuvent s’attendre à ce que :**
 
@@ -295,7 +295,7 @@ Tous les modèles de fenêtre de propriétés sauf les inspecteurs de propriét�
 
     ![capture d’écran de l’onglet avec le bouton restaurer les paramètres par défaut ](images/win-property-win-image13.png)
 
-    Dans cet exemple, les paramètres du pare-feu Windows sont complexes et peuvent entraîner des ruptures de fonctionnalité. En cas de problème, il est souvent plus facile pour les utilisateurs de recommencer en cliquant sur restaurer les valeurs par défaut.
+    dans cet exemple, les paramètres du pare-feu Windows sont complexes et peuvent entraîner des ruptures de fonctionnalité. En cas de problème, il est souvent plus facile pour les utilisateurs de recommencer en cliquant sur restaurer les valeurs par défaut.
 
 -   Confirmez la commande restaurer les valeurs par défaut si son effet n’est pas évident ou si les paramètres sont complexes. Indiquez la confirmation en utilisant des [ellipses](ctrl-command-buttons.md).
 -   **Le cas échéant, affichez un aperçu des résultats d’un paramètre.**
@@ -321,7 +321,7 @@ Pour plus d’informations et d’exemples, consultez [l’aide](winenv-help.md)
 
 ### <a name="standard-users-and-protected-administrators"></a>Utilisateurs standard et administrateurs protégés
 
-**De nombreux paramètres requièrent des privilèges d’administrateur pour changer.** Si un processus requiert des privilèges d’administrateur, Windows et les versions ultérieures requièrent des [utilisateurs standard](glossary.md) et des [administrateurs protégés](glossary.md) pour élever leurs privilèges de manière explicite. Cela permet d’empêcher le code malveillant de s’exécuter avec des privilèges d’administrateur.
+**De nombreux paramètres requièrent des privilèges d’administrateur pour changer.** si un processus requiert des privilèges d’administrateur, Windows et versions ultérieures requièrent des [utilisateurs Standard](glossary.md) et des [administrateurs protégés](glossary.md) pour élever leurs privilèges de manière explicite. Cela permet d’empêcher le code malveillant de s’exécuter avec des privilèges d’administrateur.
 
 Pour plus d’informations et d’exemples, consultez [contrôle de compte d’utilisateur](winenv-uac.md).
 
@@ -338,7 +338,7 @@ Pour plus d’informations et d’exemples, consultez [contrôle de compte d’u
 -   Pour afficher les options du programme, utilisez « options ».
 -   Pour afficher la fenêtre des propriétés d’un objet, utilisez « Properties ».
 -   Pour afficher un résumé des paramètres de personnalisation de programme couramment utilisés, utilisez «[personnaliser](glossary.md)».
--   N’utilisez pas « paramètres » ou « préférences ».
+-   n’utilisez pas « Paramètres » ou « preferences ».
 -   N’utilisez pas de [ellipses](ctrl-command-buttons.md) pour ces commandes.
 
 ### <a name="property-sheet-titles"></a>Titres de la feuille de propriétés
@@ -367,7 +367,7 @@ Pour plus d’informations et d’exemples, consultez [contrôle de compte d’u
 ### <a name="property-page-tab-names"></a>Noms des onglets de page de propriétés
 
 -   **Utilisez des étiquettes d’onglet concises.** Utilisez un ou deux mots qui décrivent clairement le contenu de la page. L’utilisation de noms d’onglets plus longs entraîne une utilisation inefficace de l’espace à l’écran, en particulier lorsque les noms des onglets sont localisés.
--   **Utilisez des étiquettes d’onglet explicites et explicites.** Évitez les étiquettes d’onglet génériques qui peuvent s’appliquer à n’importe quel onglet, tel que général, avancé ou paramètres.
+-   **Utilisez des étiquettes d’onglet explicites et explicites.** évitez les étiquettes d’onglet génériques qui peuvent s’appliquer à n’importe quel onglet, tel que général, avancé ou Paramètres.
 -   Écrivez l’étiquette en tant qu’expression à un ou deux mots et n’utilisez pas de ponctuation finale.
 -   Utilisez la mise [en majuscules de style phrase](glossary.md).
 -   N’attribuez pas une [clé d’accès](glossary.md)unique.

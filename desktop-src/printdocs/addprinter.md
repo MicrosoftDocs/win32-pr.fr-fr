@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 51416ed59bc1c6df1d2c69de87d61bdecab522f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6034c330da19f5982e9bbacbf75cc16f0a7d10dd65f9c8bded2efa5cbda70835
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601139"
 ---
 # <a name="addprinter-function"></a>AddPrinter fonction)
 
@@ -70,7 +70,7 @@ Si la fonction est réussie, la valeur de retour est un handle (pas thread-safe)
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 N’appelez pas cette méthode dans [**DllMain**](/windows/desktop/Dlls/dllmain).
 
@@ -108,7 +108,7 @@ Si **pSecurityDescriptor** a la **valeur null**, le système affecte un descript
 
 | Valeur                          | Description                                                                                                                                                                                                                                                                                                                                            |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Administrateurs et utilisateurs avec pouvoir | Contrôle total sur la file d’attente à l’impression. Cela signifie que les membres de ces groupes peuvent imprimer, gérer la file d’attente (peut supprimer la file d’attente, modifier les paramètres de la file d’attente, y compris le descripteur de sécurité) et gérer les travaux d’impression de tous les utilisateurs (supprimer, suspendre, reprendre, redémarrer les travaux). Notez que les utilisateurs avec pouvoir n’existent pas avant Windows XP professionnel.<br/> |
+| Administrateurs et utilisateurs avec pouvoir | Contrôle total sur la file d’attente à l’impression. Cela signifie que les membres de ces groupes peuvent imprimer, gérer la file d’attente (peut supprimer la file d’attente, modifier les paramètres de la file d’attente, y compris le descripteur de sécurité) et gérer les travaux d’impression de tous les utilisateurs (supprimer, suspendre, reprendre, redémarrer les travaux). notez que les utilisateurs avec pouvoir n’existent pas avant Windows XP Professional.<br/> |
 | Propriétaire créateur                  | Peut gérer ses propres travaux. Cela signifie que les utilisateurs qui envoient des travaux peuvent gérer (supprimer, suspendre, reprendre, redémarrer) leurs propres travaux.                                                                                                                                                                                                                                  |
 | Tout le monde                       | Exécution et contrôle de lecture standard. Cela signifie que les membres du groupe tout le monde peuvent imprimer et lire les propriétés de la file d’attente à l’impression.                                                                                                                                                                                                                     |
 
@@ -124,7 +124,7 @@ Utilisez la fonction [**EnumPrintProcessors**](enumprintprocessors.md) pour énu
 
 L’appelant de la fonction **AddPrinter** doit disposer d’un accès serveur \_ \_ administrer l’accès au serveur sur lequel l’imprimante doit être créée. Le descripteur retourné par la fonction disposera de l' \_ autorisation d’accès imprimante All \_ et pourra être utilisé pour effectuer des opérations administratives sur l’imprimante.
 
-Si la fonction **DrvPrinterEvent** est passée à l' \_ indicateur \_ d’événement d’imprimante \_ no \_ UI, le pilote ne doit pas utiliser d’appel d’interface utilisateur pendant **DrvPrinterEvent**. Pour effectuer des tâches liées à l’interface utilisateur, le programme d’installation doit utiliser l’entrée **VendorSetup** dans le fichier. inf de l’imprimante ou, pour plug-and-Play appareils, le programme d’installation peut utiliser un co-programme d’installation spécifique à l’appareil. Pour plus d’informations sur **VendorSetup**, consultez le kit de développement de pilotes (DDK) Microsoft Windows.
+Si la fonction **DrvPrinterEvent** est passée à l' \_ indicateur \_ d’événement d’imprimante \_ no \_ UI, le pilote ne doit pas utiliser d’appel d’interface utilisateur pendant **DrvPrinterEvent**. Pour effectuer des tâches liées à l’interface utilisateur, le programme d’installation doit utiliser l’entrée **VendorSetup** dans le fichier. inf de l’imprimante ou, pour plug-and-Play appareils, le programme d’installation peut utiliser un co-programme d’installation spécifique à l’appareil. pour plus d’informations sur **VendorSetup**, consultez le kit de développement de pilotes (DDK) Microsoft Windows.
 
 Le pare-feu de connexion Internet (ICF) bloque les ports d’imprimante par défaut, mais une exception pour le partage de fichiers et d’imprimantes est activée lorsque vous exécutez **AddPrinter**.
 

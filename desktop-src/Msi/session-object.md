@@ -1,7 +1,7 @@
 ---
 description: L’objet session contrôle le processus d’installation.
 ms.assetid: 013959d9-900c-45f7-b742-17b0365d6107
-title: Objet session (Windows Installer)
+title: objet Session (Windows Installer)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,14 +13,14 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: c391249d5ccc58fe9a947c9db761a77521c9776d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b02d1f617f7e558acd9c0423dd785c84e0175f195ee0085b2fdc79d66054683
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628919"
 ---
-# <a name="session-object-windows-installer"></a>Objet session (Windows Installer)
+# <a name="session-object-windows-installer"></a>objet Session (Windows Installer)
 
 L’objet **session** contrôle le processus d’installation. Il ouvre la base de données du programme d’installation, qui contient les tables et les données d’installation. Cet objet est associé à un ensemble standard de fonctions d’action, chacune effectuant des opérations particulières sur des données à partir d’une ou plusieurs tables. Des actions personnalisées supplémentaires peuvent être ajoutées pour des installations de produits spécifiques. La fonction de moteur de base est un séquenceur qui extrait les enregistrements séquentiels d’une table de séquences désignée, évalue toute expression de condition spécifiée et exécute l’action désignée. Les actions non reconnues par le moteur sont différées à l’objet gestionnaire d’interface utilisateur pour le traitement, généralement des séquences de boîte de dialogue.
 
@@ -98,7 +98,7 @@ L’objet **session** possède ces propriétés.
 
 <dl> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

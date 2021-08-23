@@ -4,12 +4,12 @@ ms.assetid: 9316c8dd-c9b7-49e2-a987-5949a87b0cfc
 title: Positionnement des objets sur plusieurs moniteurs d’affichage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77149291737482fa0f3e7fe19ee4f350ee6521d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6eb6581fbed64b6a8ac83e29410e9758c6dea7b2d145958c57fa187abf34985c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602729"
 ---
 # <a name="positioning-objects-on-multiple-display-monitors"></a>Positionnement des objets sur plusieurs moniteurs d’affichage
 
@@ -53,7 +53,7 @@ L’utilisation \_ de SM CXSCREEN et SM \_ CYSCREEN pour déterminer l’emplace
 
 La taille d’une fenêtre plein écran doit changer à mesure qu’elle se déplace entre les moniteurs avec des résolutions différentes. Pour ce faire, l’application doit vérifier la fenêtre dans laquelle elle se trouve, à l’aide de [**MonitorFromWindow**](/windows/desktop/api/Winuser/nf-winuser-monitorfromwindow) ou de [**MonitorFromPoint**](/windows/desktop/api/Winuser/nf-winuser-monitorfrompoint) , puis utiliser [**GetMonitorInfo**](/windows/desktop/api/Winuser/nf-winuser-getmonitorinfoa) pour connaître la taille de l’analyse. Vous pouvez également utiliser **HMONITOR** à partir de la fonction DirectX **DirectDrawEnumerateEx** . Utilisez ensuite [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos) pour positionner et dimensionner la fenêtre pour couvrir l’analyse.
 
-Une fenêtre agrandie ne couvre pas une barre des tâches qui a la propriété « Always on Top ». Toutefois, une fenêtre plein écran couvre la barre des tâches, par exemple dans les diaporamas et les jeux Microsoft PowerPoint.
+Une fenêtre agrandie ne couvre pas une barre des tâches qui a la propriété « Always on Top ». toutefois, une fenêtre plein écran couvre la barre des tâches, par exemple, dans les diaporamas et les jeux Microsoft PowerPoint.
 
 Pour enregistrer et restaurer ultérieurement la position d’une fenêtre lorsqu’une application se ferme, utilisez les fonctions [**GetWindowPlacement**](/windows/win32/api/winuser/nf-winuser-getwindowplacement) et [**SetWindowPlacement**](/windows/win32/api/winuser/nf-winuser-setwindowplacement) . Toutefois, vérifiez que la position est toujours valide avant de l’utiliser, car l’analyse a pu être déplacée ou supprimée du système. L’application affiche la fenêtre sur l’écran principal si le **HMONITOR** d’une fenêtre n’est pas valide.
 
