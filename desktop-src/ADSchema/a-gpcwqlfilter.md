@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c9a6b8d3715c1692e93579d3c94cdfa44f4192e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6da17b1edd25952668e838bd06ed4ce30bd667e24161d84c5d953c4433f75b7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961338"
 ---
 # <a name="gpc-wql-filter-attribute"></a>GPC-WQL-Filter (attribut)
 
@@ -44,7 +44,7 @@ Utilisé pour stocker une chaîne qui contient un GUID pour le filtre et un chem
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

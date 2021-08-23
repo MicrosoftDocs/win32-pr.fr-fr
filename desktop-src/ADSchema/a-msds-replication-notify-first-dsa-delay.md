@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a981ff257562e701b12e3855b279b7995721e39
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 39d7d2fbdd857ced9ecb6a22bb4134eb09aa337d160333683c34c288b31f9f21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960558"
 ---
 # <a name="ms-ds-replication-notify-first-dsa-delay-attribute"></a>attribut ms-DS-Replication-Notify-First-DSA-Delay
 
@@ -36,7 +36,7 @@ Cet attribut contrôle le délai entre les modifications du DS et la notificatio
 | Fréquence des mises à jour  | \-                                       |
 | Attribute-Id      | 1.2.840.113556.1.4.1663                  |
 | System-ID-GUID    | 85abd4f4-0a89-4e49-bdec-6f35bb2562ba     |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)     |
+| Syntaxe            | [**Énumération**](s-enumeration.md)     |
 
 
 
@@ -45,7 +45,7 @@ Cet attribut contrôle le délai entre les modifications du DS et la notificatio
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

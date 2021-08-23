@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, onglet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 769a03617830c33fce4a8f64c594010b2120785b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9270936c50b04cb843aa96f71f3d8c8b4a14d74d034cc27e5ccbb7f1262352fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118824868"
 ---
 # <a name="tab-control-type"></a>Tab (type de contrôle)
 
@@ -85,9 +85,9 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
- 
+ 
 
-Les contrôles onglet possèdent des éléments UI Automation enfants basés sur le type de contrôle [TabItem](uiauto-supporttabitemcontroltype.md) . Lorsque les éléments d’onglet sont groupés (par exemple, comme dans Microsoft Office Applications), le type de contrôle **Tab** peut également héberger des types de contrôle de **groupes** pour les éléments d’onglet groupés, comme le montre l’arborescence suivante.
+Les contrôles onglet possèdent des éléments UI Automation enfants basés sur le type de contrôle [TabItem](uiauto-supporttabitemcontroltype.md) . lorsque les éléments d’onglet sont groupés (par exemple, comme dans Microsoft Office applications), le type de contrôle **tab** peut également héberger des types de contrôle de **groupes** pour les éléments d’onglet groupés, comme le montre l’arborescence suivante.
 
 
 
@@ -134,7 +134,7 @@ Les contrôles onglet possèdent des éléments UI Automation enfants basés sur
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>Propriétés pertinentes
 
@@ -142,7 +142,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur      | Notes                                                                                                                                                                                                                                                                                                                                                                         |
+| Propriété UI Automation                                                                                              | Valeur      | Remarques                                                                                                                                                                                                                                                                                                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques. | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                                                                                                                                                                                                  |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques. | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                                                                                                                                                                                                      |
@@ -158,7 +158,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -166,7 +166,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
-| Modèle de contrôle/Propriété de modèle                                             | Prise en charge/valeur | Notes                                                                                                                                                                  |
+| Modèle de contrôle/Propriété de modèle                                             | Prise en charge/valeur | Remarques                                                                                                                                                                  |
 |------------------------------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider)                      | Obligatoire      | Tous les contrôles Tab doivent prendre en charge le modèle de contrôle [Selection](uiauto-implementingselection.md) .                                                                       |
 | [**IsSelectionRequired**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired) | TRUE          | Les contrôles tab requièrent toujours qu’une sélection soit effectuée.                                                                                                                  |
@@ -175,7 +175,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -183,7 +183,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                                        | Notes                                                                                                                      |
+| Événement UI Automation                                                                                                                                        | Remarques                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                           |                                                                                                                            |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                      |                                                                                                                            |
@@ -199,7 +199,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -214,9 +214,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

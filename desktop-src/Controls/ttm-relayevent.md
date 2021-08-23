@@ -3,7 +3,7 @@ title: Message TTM_RELAYEVENT (commctrl. h)
 description: Transmet un message de souris à un contrôle ToolTip pour traitement.
 ms.assetid: 76d6d0ed-f357-479e-83d8-03d2e988cbd3
 keywords:
-- TTM_RELAYEVENT les contrôles de message Windows
+- TTM_RELAYEVENT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8648303a318f1f71eb16e8070235910ecfb8760
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 051a0b7ab8ecd93b15ceb9187eefd6f566b55d653b751889cd29acec58366716
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166362"
 ---
 # <a name="ttm_relayevent-message"></a>\_Message atténuation RELAYEVENT
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [**MSG**](/windows/win32/api/winuser/ns-winuser-msg)
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un contrôle ToolTip traite uniquement les messages suivants qui lui sont passés par le message **atténuation \_ RELAYEVENT** :
 
@@ -68,8 +68,8 @@ Tous les autres messages sont ignorés.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

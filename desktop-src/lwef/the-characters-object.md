@@ -4,12 +4,12 @@ description: Objet Characters
 ms.assetid: e98f1003-e438-48f0-ace0-e5d015043137
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f22755c7c9e9e920ed89a8568558b0fadf8e68bb
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 203e154880f77524c821de05721e7c7699ef409b043e59aab18ed79c5c39886c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104199195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975669"
 ---
 # <a name="the-characters-object"></a>Objet Characters
 
@@ -21,6 +21,6 @@ Votre application cliente peut prendre en charge un ou plusieurs caractères. En
 -   [Characters, méthodes d’objet](character-object-methods.md)
 -   [Propriétés de l’objet Characters](character-object-properties.md)
 
- 
+ 
 
- 
+ 

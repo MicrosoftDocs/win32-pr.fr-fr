@@ -1,19 +1,19 @@
 ---
-title: Vue d’ensemble de l’API Windows Automation
-description: Cette section fournit une vue d’ensemble de l’API Microsoft Windows Automation 3,0, qui inclut le Active Accessibility Microsoft hérité, et l’implémentation Windows de la spécification Microsoft UI Automation.
+title: Windows Vue d’ensemble de l’API Automation
+description: cette section fournit une vue d’ensemble de haut niveau de l’API d’automatisation de microsoft Windows 3,0, qui inclut le Active Accessibility microsoft hérité et l’implémentation Windows de la spécification microsoft UI automation.
 ms.assetid: 11c99444-eb5a-4656-ae9d-e4d4bdbcabfc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67282c8b0287fa02f89e0ad1b46045a8bbdaa865
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 45f39c1a9169d7d7a9358eaf0b947c885159adc0103eb8f6a76b39b029649cee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823396"
 ---
-# <a name="windows-automation-api-overview"></a>Vue d’ensemble de l’API Windows Automation
+# <a name="windows-automation-api-overview"></a>Windows Vue d’ensemble de l’API Automation
 
-Cette section fournit une vue d’ensemble de l’API Microsoft Windows Automation 3,0, qui inclut le Active Accessibility Microsoft hérité, et l’implémentation Windows de la spécification Microsoft UI Automation. La vue d’ensemble met en évidence les similitudes et les différences entre Microsoft Active Accessibility et UI Automation, décrit les composants et les fonctionnalités qui permettent aux deux technologies de travailler ensemble, et fournit des instructions pour le choix de la technologie à implémenter.
+cette section fournit une vue d’ensemble de haut niveau de l’API d’automatisation de microsoft Windows 3,0, qui inclut le Active Accessibility microsoft hérité et l’implémentation Windows de la spécification microsoft UI automation. La vue d’ensemble met en évidence les similitudes et les différences entre Microsoft Active Accessibility et UI Automation, décrit les composants et les fonctionnalités qui permettent aux deux technologies de travailler ensemble, et fournit des instructions pour le choix de la technologie à implémenter.
 
 Cette section comprend les rubriques suivantes :
 
@@ -30,9 +30,9 @@ Cette section comprend les rubriques suivantes :
 [Spécification UI Automation](./ui-automation-specification.md)
 </dt> <dt>
 
-[Promesse de la communauté UI Automation](./uiauto-specandcommunitypromise.md)
+[promesse Community UI Automation](./uiauto-specandcommunitypromise.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

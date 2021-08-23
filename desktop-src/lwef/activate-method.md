@@ -4,12 +4,12 @@ description: Activate, méthode
 ms.assetid: 8111139d-1453-416e-8f08-38c06669ff4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21df1965abaeed35e9e440a0f559f5e12d68d6fe
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5032c7c7f2faf7ec53028a0cc0ce55847fe300864bb531968fc8190b4e00d164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118753158"
 ---
 # <a name="activate-method"></a>Activate, méthode
 
@@ -27,13 +27,13 @@ Définit le client ou le caractère actif.
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »). Activer* l' *  \[ *État*\]
+*agent ***. Caractères («**_CharacterID_*_»). Activer_ l' *  \[ *État*\]
 
 
 
 | Partie    | Description                                                                                                                                                                           |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *State* | Optionnel. Vous pouvez spécifier les valeurs suivantes pour ce paramètre : 0 n’est pas le client actif.<br/> 1 le client actif. <br/> 2 (valeur par défaut) le caractère le plus haut.<br/> |
+| *State* | Facultatif. Vous pouvez spécifier les valeurs suivantes pour ce paramètre : 0 n’est pas le client actif.<br/> 1 le client actif. <br/> 2 (valeur par défaut) le caractère le plus haut.<br/> |
 
 
 
@@ -41,7 +41,7 @@ Définit le client ou le caractère actif.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque plusieurs caractères sont visibles, un seul des caractères reçoit les entrées vocales à la fois. De même, lorsque plusieurs applications clientes partagent le même caractère, un seul des clients reçoit l’entrée de la souris (par exemple, les événements Click ou Drag du contrôle Microsoft Agent). Le jeu de caractères pour recevoir l’entrée de la souris et de la parole est le caractère le plus élevé et le client qui reçoit l’entrée est le client actif de ce caractère. (La fenêtre du caractère supérieur s’affiche également en haut de l’ordre de plan de la fenêtre de caractères.) En règle générale, l’utilisateur détermine le caractère supérieur en sélectionnant explicitement le caractère. Toutefois, l’activation de niveau supérieur change également lorsqu’un caractère est affiché ou masqué (le caractère devient ou n’est plus le premier niveau, respectivement).
 

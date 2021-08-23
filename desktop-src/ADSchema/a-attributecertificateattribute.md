@@ -55,10 +55,10 @@ Une identité signée numériquement ou un ensemble d’attributs. Utilisé pour
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | False                                 |
-| Est de valeur unique       | False                                 |
-| Est indexé             | False                                 |
-| Dans le catalogue global      | False                                 |
+| System-Only            | Faux                                 |
+| Est de valeur unique       | Faux                                 |
+| Est indexé             | Faux                                 |
+| Dans le catalogue global      | Faux                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -76,10 +76,10 @@ Une identité signée numériquement ou un ensemble d’attributs. Utilisé pour
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | False                                 |
-| Est de valeur unique       | False                                 |
-| Est indexé             | False                                 |
-| Dans le catalogue global      | False                                 |
+| System-Only            | Faux                                 |
+| Est de valeur unique       | Faux                                 |
+| Est indexé             | Faux                                 |
+| Dans le catalogue global      | Faux                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -97,10 +97,10 @@ Une identité signée numériquement ou un ensemble d’attributs. Utilisé pour
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | False                                 |
-| Est de valeur unique       | False                                 |
-| Est indexé             | False                                 |
-| Dans le catalogue global      | False                                 |
+| System-Only            | Faux                                 |
+| Est de valeur unique       | Faux                                 |
+| Est indexé             | Faux                                 |
+| Dans le catalogue global      | Faux                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -118,10 +118,10 @@ Une identité signée numériquement ou un ensemble d’attributs. Utilisé pour
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | False                                 |
-| Est de valeur unique       | False                                 |
-| Est indexé             | False                                 |
-| Dans le catalogue global      | False                                 |
+| System-Only            | Faux                                 |
+| Est de valeur unique       | Faux                                 |
+| Est indexé             | Faux                                 |
+| Dans le catalogue global      | Faux                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |
@@ -139,10 +139,10 @@ Une identité signée numériquement ou un ensemble d’attributs. Utilisé pour
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | False                                 |
-| Est de valeur unique       | False                                 |
-| Est indexé             | False                                 |
-| Dans le catalogue global      | False                                 |
+| System-Only            | Faux                                 |
+| Est de valeur unique       | Faux                                 |
+| Est indexé             | Faux                                 |
+| Dans le catalogue global      | Faux                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | \-                                    |
 | Range-Upper            | \-                                    |

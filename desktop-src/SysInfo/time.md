@@ -4,12 +4,12 @@ ms.assetid: ffa71fb2-e343-455b-a853-324cc66a40c6
 title: Temps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 061447a5d703fe6575fa0e3a54194116cc8aa4ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34633b0ff087760b99cd9fb000775145a98423766264dad10f050eadf5da4178
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884500"
 ---
 # <a name="time"></a>Temps
 

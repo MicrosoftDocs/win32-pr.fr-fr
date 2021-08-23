@@ -4,12 +4,12 @@ description: Objet de collection Commands
 ms.assetid: 8726ce04-77d3-4ae3-bd46-e75f42b36d6f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2367035d86f92d57dc459564943b9e7797ecb04
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d30f7933bd973ae500b75abb51c47899fa60322444d49fe0835f6bfa3efab97f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975659"
 ---
 # <a name="the-commands-collection-object"></a>Objet de collection Commands
 
@@ -32,6 +32,6 @@ Lorsque le menu contextuel d’un caractère s’affiche, les modifications appo
 -   [Méthodes de l’objet Commands](commands-object-methods.md)
 -   [Propriétés de l’objet Commands](commands-object-properties.md)
 
- 
+ 
 
- 
+ 

@@ -3,9 +3,9 @@ title: IResultProperty IndexColumn, propriété (WdsSharedIDL. h)
 description: Nom de la colonne des propriétés dans l’index.
 ms.assetid: a043be43-49ef-46e0-bfb6-01104288e9ef
 keywords:
-- Propriétés IndexColumn héritées fonctionnalités de l’environnement Windows
-- Propriété IndexColumn fonctionnalités de l’environnement Windows héritées, interface IResultProperty
-- Interface IResultProperty fonctionnalités d’environnement Windows héritées, propriété IndexColumn
+- propriété IndexColumn Windows héritée fonctionnalités d’environnement
+- propriété IndexColumn héritée Windows fonctionnalités d’environnement, interface IResultProperty
+- fonctionnalités d’environnement Windows héritées de l’interface IResultProperty, propriété IndexColumn
 topic_type:
 - apiref
 api_name:
@@ -17,17 +17,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a4749f9ba1200f1af8ba202056e48f0123e8402
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3a78d91b9e823dbf8d3c7a2273247706f9ae2bb04c6f64d08f5555eb875023c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118754772"
 ---
 # <a name="iresultpropertyindexcolumn-property"></a>IResultProperty :: IndexColumn, propriété
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez plutôt l' [API Windows Search](../search/-search-reference-entry-page.md) . 
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez plutôt l' [API de recherche Windows](../search/-search-reference-entry-page.md) . 
 
 Nom de la colonne des propriétés dans l’index.
 
@@ -55,7 +55,7 @@ retourne un pointeur vers le nom de colonne dans l’index.
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                             |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | En-tête<br/>                   | <dl> <dt>WdsSharedIDL. h</dt> </dl> |
 

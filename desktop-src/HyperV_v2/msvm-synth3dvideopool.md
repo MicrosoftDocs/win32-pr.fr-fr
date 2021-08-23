@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1afad0f1b2e80a747bb518cb3eafc75d494de62a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3038984180dbd0888fe4131ffa7bad972ef341a4e4312b55308769a00479e2f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950038"
 ---
 # <a name="msvm_synth3dvideopool-class"></a>MSVM \_ Synth3dVideoPool, classe
 
@@ -110,7 +110,7 @@ La classe **MSVM \_ Synth3dVideoPool** possède ces méthodes.
 
 | Méthode                                                                                             | Description                                                                               |
 |:---------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
-| [**CalculateVideoMemoryRequirements**](msvm-synth3dvideopool-calculatevideomemoryrequirements.md) | Calcule la quantité de mémoire vidéo requise pour une machine virtuelle RemoteFX.<br/> |
+| [**CalculateVideoMemoryRequirements**](msvm-synth3dvideopool-calculatevideomemoryrequirements.md) | calcule la quantité de mémoire vidéo requise pour un ordinateur virtuel RemoteFX.<br/> |
 
 
 
@@ -358,7 +358,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Spécifie si la vidéo 3D est prise en charge par le système hôte. Contient une valeur différente de zéro si la vidéo 3D est prise en charge, ou zéro dans le cas contraire. Pour prendre en charge la vidéo 3D, l’hôte RemoteFX doit posséder des fonctionnalités de traduction d’adresses de second niveau (SLAT) et disposer d’au moins un GPU physique qui prend en charge RemoteFX.
+Spécifie si la vidéo 3D est prise en charge par le système hôte. Contient une valeur différente de zéro si la vidéo 3D est prise en charge, ou zéro dans le cas contraire. pour prendre en charge la vidéo 3d, l’hôte RemoteFX doit disposer de fonctionnalités de traduction d’adresses de second niveau (SLAT) et disposer d’au moins un GPU physique qui prend en charge RemoteFX.
 
 </dd> <dt>
 
@@ -371,7 +371,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Spécifie si l’hôte possède des GPU qui prennent en charge RemoteFX et si leurs versions DirectX satisfont à la configuration minimale requise.
+spécifie si l’hôte possède des gpu qui prennent en charge RemoteFX et si leurs versions DirectX satisfont à la configuration minimale requise.
 
 </dd> <dt>
 
@@ -390,7 +390,7 @@ Qualificateurs : [**déconseillé**](/windows/desktop/WmiSdk/standard-wmi-quali
 Spécifie si l’hôte dispose d’un processeur compatible avec la traduction d’adresses de second niveau (SLAT).
 
 > [!Note]  
-> Déconseillé dans Windows 10, version 1703 et Windows Server 2016.
+> déconseillé dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -669,8 +669,8 @@ Chaînes qui décrivent les différentes valeurs de tableau [**OperationalStatus
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

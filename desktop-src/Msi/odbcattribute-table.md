@@ -4,12 +4,12 @@ ms.assetid: 82fd83d4-22dd-4641-807b-d2b263918e4c
 title: Table ODBCAttribute
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7e76a52dd63bdc8eb969324f7891e7359be7caf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e31e67cde1625812d1c5b8af7dc3bd24347891d3a769e24deeb02db7cc44396
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943177"
 ---
 # <a name="odbcattribute-table"></a>Table ODBCAttribute
 
@@ -54,7 +54,7 @@ Valeur de chaîne localisable pour l’attribut.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les actions [InstallODBC](installodbc-action.md) et [RemoveODBC](removeodbc-action.md) dans les [*tables de séquence*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

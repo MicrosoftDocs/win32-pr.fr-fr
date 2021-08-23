@@ -11,12 +11,12 @@ api_name:
 - providerType
 api_type:
 - Schema
-ms.openlocfilehash: 1520425cf6ec1bc246f26f2db2d75f79f45a3dae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb62fbb55f83d004f70093fbde974f8ab08e6367742f34dbf166d1c25a63b28c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106545789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975058"
 ---
 # <a name="providertype-complex-type"></a>Type complexe providerType
 
@@ -52,7 +52,7 @@ Le type complexe **ProviderType** spécifie des informations sur un réseau cell
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

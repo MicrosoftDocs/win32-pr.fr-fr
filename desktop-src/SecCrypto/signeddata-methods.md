@@ -4,12 +4,12 @@ ms.assetid: B0209941-7479-4FB3-BAB1-56A3EEE20B65
 title: Méthodes SignedData
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16f7319516b58c630238d837245dd84cbbd9bf62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67f25b5cfc91fe136416b21cfa3aa889aaebb3a8e1a1d62dca0d5c58ea2c5378
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118899189"
 ---
 # <a name="signeddata-methods"></a>Méthodes SignedData
 

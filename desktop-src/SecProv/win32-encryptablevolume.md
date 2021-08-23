@@ -1,5 +1,5 @@
 ---
-description: Pour le chiffrement de lecteur ou pour créer un logiciel de sécurité de chiffrement, vous pouvez utiliser le logiciel de chiffrement Windows, Chiffrement de lecteur BitLocker, une API de chiffrement que vous pouvez utiliser à l’aide de la \_ classe de fournisseur WMI Win32 EncryptableVolume.
+description: pour le chiffrement de lecteur ou pour créer un logiciel de sécurité de chiffrement, vous pouvez utiliser le logiciel de chiffrement Windows, Chiffrement de lecteur BitLocker, une API de chiffrement que vous pouvez utiliser à l’aide de la \_ classe de fournisseur WMI Win32 EncryptableVolume.
 ms.assetid: 464fa664-4330-43fa-a5e0-144d1e73cf58
 title: Classe Win32_EncryptableVolume
 ms.topic: reference
@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: b202a536f3c20126c05f072c029fe316f90ce4fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3beb3498cf9e3d2873ea7dcfe3a108618eeddb513bc8207d1e819cce2fe976d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891002"
 ---
 # <a name="win32_encryptablevolume-class"></a>\_Classe EncryptableVolume Win32
 
@@ -80,14 +80,14 @@ La classe **Win32 \_ EncryptableVolume** possède ces méthodes.
 | [**ChangePassphrase**](changepassphrase-win32-encryptablevolume.md)                                                     | Utilise la nouvelle phrase secrète pour obtenir une nouvelle clé dérivée.<br/>                                                                                                                                                                                                                       |
 | [**ChangePIN**](changepin-win32-encryptablevolume.md)                                                                   | Modifie un code confidentiel associé à un volume chiffré.<br/>                                                                                                                                                                                                                         |
 | [**ClearAllAutoUnlockKeys**](clearallautounlockkeys-win32-encryptablevolume.md)                                         | Supprime toutes les clés externes et les informations associées enregistrées sur le volume du système d’exploitation en cours d’exécution et utilisées pour déverrouiller automatiquement les volumes de données.<br/>                                                                                                             |
-| [**Déchiffrer**](decrypt-win32-encryptablevolume.md)                                                                       | Commence le déchiffrement d’un volume entièrement chiffré ou reprend le déchiffrement d’un volume partiellement chiffré.<br/>                                                                                                                                                                       |
+| [**Crypté**](decrypt-win32-encryptablevolume.md)                                                                       | Commence le déchiffrement d’un volume entièrement chiffré ou reprend le déchiffrement d’un volume partiellement chiffré.<br/>                                                                                                                                                                       |
 | [**DeleteKeyProtector**](deletekeyprotector-win32-encryptablevolume.md)                                                 | Supprime un protecteur de clé donné pour le volume.<br/>                                                                                                                                                                                                                              |
 | [**DeleteKeyProtectors**](deletekeyprotectors-win32-encryptablevolume.md)                                               | Supprime tous les protecteurs de clé du volume.<br/>                                                                                                                                                                                                                                 |
 | [**DisableAutoUnlock**](disableautounlock-win32-encryptablevolume.md)                                                   | Supprime la clé externe enregistrée sur le volume du système d’exploitation en cours d’exécution, de sorte que le volume n’est pas automatiquement déverrouillé lorsqu’il est monté.<br/>                                                                                                                       |
 | [**DisableKeyProtectors**](disablekeyprotectors-win32-encryptablevolume.md)                                             | Désactive tous les protecteurs de clé associés à ce volume.<br/>                                                                                                                                                                                                                   |
 | [**EnableAutoUnlock**](enableautounlock-win32-encryptablevolume.md)                                                     | Permet de déverrouiller automatiquement un volume de données lorsque le volume est monté.<br/>                                                                                                                                                                                              |
 | [**EnableKeyProtectors**](enablekeyprotectors-win32-encryptablevolume.md)                                               | Active tous les protecteurs de clé désactivés.<br/>                                                                                                                                                                                                                                       |
-| [**Encrypt (Chiffrer)**](encrypt-win32-encryptablevolume.md)                                                                       | Commence le chiffrement d’un volume entièrement déchiffré ou reprend le chiffrement d’un volume partiellement chiffré.<br/>                                                                                                                                                                       |
+| [**Encrypt**](encrypt-win32-encryptablevolume.md)                                                                       | Commence le chiffrement d’un volume entièrement déchiffré ou reprend le chiffrement d’un volume partiellement chiffré.<br/>                                                                                                                                                                       |
 | [**EncryptAfterHardwareTest**](encryptafterhardwaretest-win32-encryptablevolume.md)                                     | Commence le chiffrement d’un volume entièrement déchiffré après un test matériel.<br/>                                                                                                                                                                                                       |
 | [**FindValidCertificates**](findvalidcertificates-win32-encryptablevolume.md)                                           | Énumère tous les certificats sur le système qui correspondent aux critères indiqués et retourne une liste d’empreintes numériques.<br/>                                                                                                                                                             |
 | [**GetConversionStatus**](getconversionstatus-win32-encryptablevolume.md)                                               | Indique l’état du chiffrement ou du déchiffrement sur le volume.<br/>                                                                                                                                                                                                        |
@@ -111,7 +111,7 @@ La classe **Win32 \_ EncryptableVolume** possède ces méthodes.
 | [**IsAutoUnlockKeyStored**](isautounlockkeystored-win32-encryptablevolume.md)                                           | Indique s’il existe dans le volume du système d’exploitation en cours d’exécution toutes les clés externes et les informations associées qui peuvent être utilisées pour déverrouiller automatiquement des volumes de données.<br/>                                                                                           |
 | [**IsKeyProtectorAvailable**](iskeyprotectoravailable-win32-encryptablevolume.md)                                       | Indique si les protecteurs sont disponibles pour le volume.<br/>                                                                                                                                                                                                                 |
 | [**IsNumericalPasswordValid**](isnumericalpasswordvalid-win32-encryptablevolume.md)                                     | Indique si le mot de passe numérique répond aux exigences de format spéciales.<br/>                                                                                                                                                                                            |
-| [**Lock**](lock-win32-encryptablevolume.md)                                                                             | Démonte le volume et supprime la clé de chiffrement du volume de la mémoire système.<br/>                                                                                                                                                                                           |
+| [**Verrou**](lock-win32-encryptablevolume.md)                                                                             | Démonte le volume et supprime la clé de chiffrement du volume de la mémoire système.<br/>                                                                                                                                                                                           |
 | [**PauseConversion**](pauseconversion-win32-encryptablevolume.md)                                                       | Suspend le chiffrement ou le déchiffrement d’un volume.<br/>                                                                                                                                                                                                                           |
 | [**PrepareVolume**](preparevolume-win32-encryptablevolume.md)                                                           | Crée un volume BitLocker avec le type de système de fichiers spécifié du volume de détection.<br/>                                                                                                                                                                                    |
 | [**ProtectKeyWithCertificateFile**](protectkeywithcertificatefile-win32-encryptablevolume.md)                           | Valide l’identificateur d’objet (OID) d’utilisation améliorée de la clé (EKU) du fichier de certificat fourni.<br/>                                                                                                                                                                           |
@@ -131,7 +131,7 @@ La classe **Win32 \_ EncryptableVolume** possède ces méthodes.
 | [**UnlockWithExternalKey**](unlockwithexternalkey-win32-encryptablevolume.md)                                           | Utilise une clé externe fournie pour accéder au contenu d’un volume de données.<br/>                                                                                                                                                                                                      |
 | [**UnlockWithNumericalPassword**](unlockwithnumericalpassword-win32-encryptablevolume.md)                               | Utilise un mot de passe numérique fourni pour accéder au contenu d’un volume de données.<br/>                                                                                                                                                                                                |
 | [**UnlockWithPassphrase**](unlockwithpassphrase-win32-encryptablevolume.md)                                             | Utilise la phrase secrète pour obtenir la clé dérivée. Une fois la clé dérivée calculée, la clé dérivée est utilisée pour déverrouiller la clé principale du volume chiffré.<br/>                                                                                                                   |
-| [**UpgradeVolume**](upgradevolume-win32-encryptablevolume.md)                                                           | Met à niveau un volume du format Windows Vista vers le format Windows 7.<br/>                                                                                                                                                                                                   |
+| [**UpgradeVolume**](upgradevolume-win32-encryptablevolume.md)                                                           | met à niveau un volume du format Windows Vista au format Windows 7.<br/>                                                                                                                                                                                                   |
 
 
 
@@ -229,9 +229,9 @@ Pour activer les connexions à distance, le trafic WMI distant doit être autori
 
 Le paramètre de sécurité espace de noms par défaut comprend une entrée pour permettre la modification par défaut. Pour plus d’informations sur l’audit de l’espace de noms WMI, consultez [accès aux espaces de noms WMI](../wmisdk/access-to-wmi-namespaces.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -239,8 +239,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista entreprise, les applications de bureau Windows Vista Édition intégrale \[ uniquement\]<br/>                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows vista Enterprise, Windows les applications de bureau vista Ultimate \[ uniquement\]<br/>                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

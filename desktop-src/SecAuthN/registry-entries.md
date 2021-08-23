@@ -4,12 +4,12 @@ ms.assetid: dbebe23f-84ff-4a3e-8b8c-fa3bda10fa57
 title: Entrées de Registre (authentification)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d50b413d99d2bc31a7af4e8e101ab27e51a8892
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 388cbe42d085543d5e7d4df1c9705504864b370cf94eb32f4025eaba12b89ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919445"
 ---
 # <a name="registry-entries-authentication"></a>Entrées de Registre (authentification)
 
@@ -17,7 +17,7 @@ Pour que votre package puisse recevoir des notifications d’événements de [*W
 
 Vous devez créer la clé de Registre du package de notification en tant que sous-clé de
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Winlogon** \\ **Notify**
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Winlogon** \\ **Notify**
 
 Le nom de la clé est généralement identique au nom de la DLL. Toutefois, ce n’est pas obligatoire. Le nom choisi pour votre package ne doit pas être en conflit avec les noms des autres packages de notification installés.
 

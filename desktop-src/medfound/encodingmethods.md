@@ -4,24 +4,24 @@ ms.assetid: 17ab5ecc-0173-4c5c-9d65-40e506ab7e07
 title: Méthodes d’encodage (Microsoft Media Foundation)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4366f11ea9d120d638c5600f84fc16f6c5320f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fa11e9545aa38358e5e1c0fdb4dfc4b7a2c3ee13f24b0fa38fe76b9e8bddcc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974528"
 ---
 # <a name="encoding-methods-microsoft-media-foundation"></a>Méthodes d’encodage (Microsoft Media Foundation)
 
-La plupart des codecs Windows Media Audio et vidéo prennent en charge plusieurs méthodes d’encodage. Savoir quand et comment utiliser chaque méthode peut vous aider à créer du contenu compressé de haute qualité.
+la plupart des codecs Windows Media Audio et vidéo prennent en charge plusieurs méthodes d’encodage. Savoir quand et comment utiliser chaque méthode peut vous aider à créer du contenu compressé de haute qualité.
 
 Les méthodes d’encodage se concentrent sur la mémoire tampon utilisée par le décodeur pour gérer les données d’entrée compressées. Cette mémoire tampon est définie par la vitesse de transmission du flux, en bits par seconde, et la fenêtre de mémoire tampon, en millisecondes. Lors de l’encodage, le codec respecte les contraintes de la mémoire tampon. Pour plus d’informations sur la mémoire tampon, consultez [le modèle de tampon de compartiment avec fuite](the-leaky-bucket-buffer-model.md).
 
 ## <a name="constant-bit-rate-encoding"></a>Encodage à vitesse binaire constante
 
-La vitesse de transmission de tout flux encodé par l’un des codecs Windows Media Audio et vidéo n’est pas constante. L’encodage CBR (constant bit rate) est, par conséquent, un terme trompeur. La fonctionnalité distinctive d’un flux encodé CBR est une petite fenêtre de mémoire tampon qui limite la variation de la taille des échantillons. L’encodage CBR est principalement utilisé pour le contenu diffusé en continu sur un réseau jusqu’à sa destination. Dans ce type de scénario, il est important de pouvoir s’appuyer sur une utilisation cohérente de la bande passante.
+la vitesse de transmission de tout flux encodé par l’un des codecs Windows Media Audio et vidéo n’est pas constante. L’encodage CBR (constant bit rate) est, par conséquent, un terme trompeur. La fonctionnalité distinctive d’un flux encodé CBR est une petite fenêtre de mémoire tampon qui limite la variation de la taille des échantillons. L’encodage CBR est principalement utilisé pour le contenu diffusé en continu sur un réseau jusqu’à sa destination. Dans ce type de scénario, il est important de pouvoir s’appuyer sur une utilisation cohérente de la bande passante.
 
-Du point de vue de la configuration, l’encodage CBR diffère des autres modes en ce sens qu’avant de commencer à encoder, vous définissez la vitesse de transmission moyenne du contenu de sortie et la fenêtre de mémoire tampon qui s’applique à cette vitesse de transmission. Dans d’autres modes, une de ces valeurs, ou les deux, est inconnue lorsque vous configurez l’encodeur, et est calculée par le codec lors de son codage. CBR est le mode d’encodage standard utilisé par l’encodeur Windows Media DMOs.
+Du point de vue de la configuration, l’encodage CBR diffère des autres modes en ce sens qu’avant de commencer à encoder, vous définissez la vitesse de transmission moyenne du contenu de sortie et la fenêtre de mémoire tampon qui s’applique à cette vitesse de transmission. Dans d’autres modes, une de ces valeurs, ou les deux, est inconnue lorsque vous configurez l’encodeur, et est calculée par le codec lors de son codage. CBR est le mode d’encodage standard utilisé par l’encodeur multimédia Windows DMOs.
 
 ## <a name="two-pass-constant-bit-rate-encoding"></a>Encodage à vitesse binaire constante Two-Pass
 
@@ -29,7 +29,7 @@ Le CBR standard utilise une seule passe d’encodage. Vous fournissez votre cont
 
 L’encodage CBR à deux passes présente de nombreux avantages. Elle génère souvent des gains de qualité significatifs par rapport à l’encodage CBR standard sans modifier les exigences de mise en mémoire tampon. Ce mode d’encodage est donc idéal pour le contenu diffusé en continu sur un réseau. La seule situation où le CBR à deux passes n’est pas faisable est lorsque vous encodez du contenu à partir d’une source active et que vous ne pouvez pas utiliser une deuxième passe.
 
-Le type de média de sortie d’un flux CBR à deux passes est identique à celui d’un flux CBR standard. vous pouvez toujours spécifier la vitesse de transmission et la fenêtre de mémoire tampon à utiliser. Lors de la configuration de l’DMO, vous devez le configurer pour qu’il effectue deux passes. Et vous devez notifier la réinitialisation à DMO lorsque vous avez terminé d’envoyer des exemples pour la première passe.
+Le type de média de sortie d’un flux CBR à deux passes est identique à celui d’un flux CBR standard. vous pouvez toujours spécifier la vitesse de transmission et la fenêtre de mémoire tampon à utiliser. lors de la configuration de l’DMO, vous devez le configurer pour qu’il effectue deux passes. et vous devez notifier le DMO lorsque vous avez terminé d’envoyer des exemples pour la première passe.
 
 ## <a name="quality-based-variable-bit-rate-encoding"></a>Encodage à vitesse de transmission variable Quality-Based
 

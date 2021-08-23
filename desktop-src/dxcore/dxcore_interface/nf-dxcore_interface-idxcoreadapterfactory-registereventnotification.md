@@ -4,12 +4,12 @@ description: S’inscrit pour recevoir des notifications de conditions spécifiq
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 3643fbb01fc955049c297a577f18d4d276e73f46
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b97b51f7c4359526317647b62241e37063243a56f45014c28ba2f2cd897706ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042897"
 ---
 # <a name="idxcoreadapterfactoryregistereventnotification-method"></a>IDXCoreAdapterFactory :: RegisterEventNotification, méthode
 
@@ -72,7 +72,7 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 |E_INVALIDARG|`nullptr` a été fourni pour *dxCoreObject* ou si une combinaison *NotificationType* et *dxCoreObject* non valide a été fournie.|
 |E_POINTER|`nullptr` a été fourni pour *callbackFunction* ou *eventCookie*.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous utilisez **RegisterEventNotification** pour vous inscrire aux événements déclenchés par les interfaces [IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md) et [IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md) . Ces types de notifications sont pris en charge.
 

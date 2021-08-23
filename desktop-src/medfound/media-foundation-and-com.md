@@ -4,12 +4,12 @@ ms.assetid: d58ca46f-8f3a-4a12-b948-1ea7ab568788
 title: Media Foundation et COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdb7d05bac6a3f4deef2c004c6980ef1351c3823
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: bb43fa29063da453a17275fca0b5c441e89f75aab8016a1abcf1702f5433fd71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106529535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974210"
 ---
 # <a name="media-foundation-and-com"></a>Media Foundation et COM
 

@@ -4,12 +4,12 @@ ms.assetid: 7cd5c491-6c85-410f-845b-c2f7b4f2a560
 title: Récupération des regroupements sur le catalogue COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27cbf81bfedd4ba37b74b36e5ad9a8ad320e9c39
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cf70f6fe6a7ab25ebed0338e56db1abfc0b869134725d52108b83473b9182d5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118812583"
 ---
 # <a name="retrieving-collections-on-the-com-catalog"></a>Récupération des regroupements sur le catalogue COM+
 

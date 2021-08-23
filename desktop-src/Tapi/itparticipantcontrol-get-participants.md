@@ -4,16 +4,16 @@ ms.assetid: 643acc3f-3df1-4f3a-a8fe-5d46864f8cf7
 title: 'ITParticipantControl :: get_Participants, méthode (Confpriv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e4a99e0efe7702a3358684b00af5e8faa96461c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4d61d12de18e30bd86d42fd1aa75aed2048c42e487e019eabe3da6d65e70a9f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118864710"
 ---
 # <a name="itparticipantcontrolget_participants-method"></a>ITParticipantControl :: obtient la \_ méthode des participants
 
-\[en **savoir \_ plus Les participants** ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[en **savoir \_ plus les Participants** ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir des \_ participants** crée une collection de participants associés à la Conférence en cours. Cette méthode est fournie pour les applications clientes Automation, telles que celles écrites en Visual Basic. Les applications C et C++ doivent utiliser la méthode [**EnumerateParticipants**](itparticipantcontrol-enumerateparticipants.md) .
 
@@ -55,11 +55,11 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**ITParticipant**](itparticipant.md) retournée par **ITParticipantControl :: obtient \_ participants**. L’application doit appeler **Release** sur l’interface **ITParticipant** pour libérer les ressources qui lui sont associées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

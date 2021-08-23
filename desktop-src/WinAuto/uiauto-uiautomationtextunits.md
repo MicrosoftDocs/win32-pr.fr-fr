@@ -8,12 +8,12 @@ keywords:
 - UI Automation, liste d’unités de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ff4257c70b34cea01a149b30dff2bf2fbe691a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cc5c40604f3c524c1e9f3bcdb36458e099563eb7279fa61133dcfa7ea3fde90b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118824162"
 ---
 # <a name="ui-automation-text-units"></a>Unités de texte UI Automation
 
@@ -102,7 +102,7 @@ Contrairement aux autres unités de texte, notamment les unités de texte qui so
 
 Quand [**TextUnit \_ Word**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) est utilisé pour définir la limite d’une plage de texte, la plage de texte résultante doit inclure tous les caractères de saut de mot présents à la fin du mot, mais avant le début du mot suivant.
 
-### <a name="line"></a>Lignes
+### <a name="line"></a>Ligne
 
 [**TextUnit \_ Line**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) est une unité de texte qui représente une seule ligne de texte telle qu’elle est présentée dans la fenêtre d’affichage du contrôle. Quand vous utilisez la **\_ ligne TextUnit** pour définir la limite d’une plage de texte, un fournisseur doit définir la limite immédiatement après le point où un caractère de contrôle brise la ligne, ou lorsque la fenêtre d’affichage du contrôle encapsule le texte sur une nouvelle ligne. La limite doit être définie au début d’une nouvelle ligne.
 

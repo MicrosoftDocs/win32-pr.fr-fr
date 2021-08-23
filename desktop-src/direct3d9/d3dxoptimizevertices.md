@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 734c2224ae29e7ab166010d59859d00355e5400e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a60d7d47e78cd197a7bfcf6285509c9187e32e074347f63f8e76ef9ef866adfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044797"
 ---
 # <a name="d3dxoptimizevertices-function"></a>D3DXOptimizeVertices fonction)
 
@@ -95,7 +95,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, un maillage utilise des index 16 bits lorsqu’il est créé, à moins que l’application spécifie dans le cas contraire. Pour vérifier si un maillage existant utilise des index 16 bits ou 32 bits, appelez [**ID3DXBaseMesh :: GetOptions**](id3dxbasemesh--getoptions.md) et recherchez l' \_ indicateur 32 bits D3DXMESH.
 

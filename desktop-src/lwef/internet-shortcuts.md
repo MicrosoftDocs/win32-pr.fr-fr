@@ -8,12 +8,12 @@ keywords:
 - IPropertySetStorage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f14bc2ed58f75522e59b9008ded7b0f1416a21fe
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2aba53c320ed740fe7d91a2425b4d47d66e28d78aa35e4ce893efeed12380c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749407"
 ---
 # <a name="internet-shortcuts"></a>Raccourcis Internet
 
@@ -24,7 +24,7 @@ Les rubriques suivantes sont présentées.
 -   [Création de raccourcis Internet](#creating-internet-shortcuts)
     -   [Création d’un raccourci Internet à partir d’un contrôle WebBrowser](#creating-an-internet-shortcut-from-a-webbrowser-control)
     -   [Création d’un raccourci Internet à partir d’une URL](#creating-an-internet-shortcut-from-a-url)
--   [Accès au stockage des propriétés](#accessing-property-storage)
+-   [accès à la propriété Stockage](#accessing-property-storage)
 -   [Interfaces](#interfaces)
     -   [interfaces OLE](#ole-interfaces)
     -   [Interfaces Shell](#shell-interfaces)
@@ -53,7 +53,7 @@ Vous pouvez également créer un raccourci Internet si vous avez l’URL de la p
 2.  Utilisez la méthode [IUniformResourceLocator :: setURL](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dd565676(v=vs.85)) pour définir l’URL dans le raccourci.
 3.  Utilisez la méthode [IPersistFile :: Save](/windows/win32/api/objidl/nf-objidl-ipersistfile-save) pour enregistrer le fichier de raccourci à l’emplacement souhaité.
 
-## <a name="accessing-property-storage"></a>Accès au stockage des propriétés
+## <a name="accessing-property-storage"></a>accès à la propriété Stockage
 
 L’objet raccourci Internet contient plusieurs propriétés auxquelles vous pouvez accéder par le biais de l’interface [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) de l’objet à l’aide de la procédure suivante.
 
@@ -84,7 +84,7 @@ Les ID de propriété suivants peuvent être demandés pour FMTID \_ Intshcut.
 
 
 
- 
+ 
 
 Les ID de propriété suivants peuvent être demandés pour FMTID \_ InternetSite.
 
@@ -106,7 +106,7 @@ Les ID de propriété suivants peuvent être demandés pour FMTID \_ InternetSit
 | PID \_ INTSITE \_ Watch        | N/A          | Non prise en charge pour le moment                           |
 | PID \_ INTSITE \_ subscription | \_UI8 VT      | Valeur SUBSCRIPTIONCOOKIE pour le gestionnaire d’abonnements |
 | \_URL INTSITE \_ PID          | \_LPWStr VT   | URL vers laquelle le raccourci dirige                   |
-| \_titre INTSITE \_ PID        | \_LPWStr VT   | Intitulé                                             |
+| \_titre INTSITE \_ PID        | \_LPWStr VT   | Titre                                             |
 | \_page de \_ codes PID INTSITE     | VT \_ UI4      | Page de codes du document                          |
 | \_ \_ suivi des INTSITE PID     | N/A          | Non prise en charge pour le moment                           |
 | PID \_ INTSITE \_ IndexIcône    | VT \_       | Index de l’icône                                 |
@@ -115,7 +115,7 @@ Les ID de propriété suivants peuvent être demandés pour FMTID \_ InternetSit
 
 
 
- 
+ 
 
 Les indicateurs de site Internet sont les suivants.
 
@@ -130,7 +130,7 @@ Les indicateurs de site Internet sont les suivants.
 
 
 
- 
+ 
 
 Les valeurs suivantes sont utilisées pour l’historique d’itinérance Internet.
 
@@ -145,7 +145,7 @@ Les valeurs suivantes sont utilisées pour l’historique d’itinérance Intern
 
 
 
- 
+ 
 
 ## <a name="interfaces"></a>Interfaces
 
@@ -181,6 +181,6 @@ Il existe plusieurs fonctions utilitaires qui peuvent être utilisées avec l’
 -   [**TranslateURL**](/windows/desktop/api/intshcut/nf-intshcut-translateurla)
 -   [**URLAssociationDialog**](/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga)
 
- 
+ 
 
- 
+ 

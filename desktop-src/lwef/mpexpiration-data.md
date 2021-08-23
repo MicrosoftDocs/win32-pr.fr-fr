@@ -3,8 +3,8 @@ title: Structure MPEXPIRATION_DATA (MpClient. h)
 description: Notification d’état d’expiration du produit.
 ms.assetid: BF464FFD-16AE-4F46-83CD-E0355478180C
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPEXPIRATION_DATA
-- PMPEXPIRATION_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPEXPIRATION_DATA
+- PMPEXPIRATION_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df5e417b1ce6b1d1f4c15d646b44b0ea6c1fade2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a5f270b7d433e6de7cd1eb3e7a3cfc88c9cb85c6087c20371ac804ec61d949d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976029"
 ---
 # <a name="mpexpiration_data-structure"></a>\_Structure de données MPEXPIRATION
 
@@ -95,8 +95,8 @@ Type : **\_ \_ \_ rapport d’état d’expiration** du point de gestion
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

@@ -1,19 +1,19 @@
 ---
-description: Vous pouvez stocker la transformation de personnalisation dans un stockage du package Windows Installer pour garantir que la transformation est toujours disponible lorsque le package d’installation est disponible.
+description: vous pouvez stocker la transformation de personnalisation dans un stockage du package Windows Installer pour garantir que la transformation est toujours disponible lorsque le package d’installation est disponible.
 ms.assetid: d4c022d2-a8c4-4b4e-8a6c-b14e1bc6effe
 title: Incorporation de transformations de personnalisation en tant que sous-stockage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfd275d36b37b2e29ae166a2a464a62495d2ca9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 175c2bd1e52a58d6c73e1e46f8b95501b016bc0e4e1069b86c9c53f47859f20c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947000"
 ---
 # <a name="embedding-customization-transforms-as-substorage"></a>Incorporation de transformations de personnalisation en tant que sous-stockage
 
-Vous pouvez stocker la transformation de personnalisation dans un stockage du package Windows Installer pour garantir que la transformation est toujours disponible lorsque le package d’installation est disponible. Consultez [transformations incorporées](embedded-transforms.md). Un exemple est fourni dans le kit de développement logiciel (SDK) Windows Installer, car l’utilitaire WiSubStg.vbs. L’extrait de code suivant, Emb.vbs, illustre également l’utilisation de la [table storages](-storages-table.md) pour ajouter une transformation incorporée et est destinée à être utilisée avec Windows Script Host.
+vous pouvez stocker la transformation de personnalisation dans un stockage du package Windows Installer pour garantir que la transformation est toujours disponible lorsque le package d’installation est disponible. Consultez [transformations incorporées](embedded-transforms.md). un exemple est fourni dans le kit de développement logiciel (SDK) Windows Installer, car l’utilitaire WiSubStg.vbs. l’extrait de code suivant, Emb.vbs, illustre également l’utilisation de la [table storages](-storages-table.md) pour ajouter une transformation incorporée et est destinée à être utilisée avec Windows Script Host.
 
 
 ```VB

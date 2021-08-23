@@ -4,7 +4,7 @@ description: Notifications de rappel possibles.
 ms.assetid: CCD0CD89-2C6E-453F-9437-E6ED87AD9F29
 keywords:
 - MPNOTIFY, énumération des fonctionnalités d’environnement Windows héritées
-- Pointeur d’énumération PMPNOTIFY fonctionnalités d’environnement Windows héritées
+- PMPNOTIFY, pointeur d’énumération de l’héritage Windows fonctionnalités d’environnement
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afa0eeb6cb1d610f28cc82f578617f7bd71cf886
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed62a9f868aa39cbc0cfc7702afc99849005a22106892696eca857ffb20673af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747787"
 ---
 # <a name="mpnotify-enumeration"></a>Énumération MPNOTIFY
 
@@ -642,8 +642,8 @@ Le service AM a rencontré un programme malveillant qui a peut-être provoqué u
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

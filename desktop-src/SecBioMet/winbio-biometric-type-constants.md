@@ -1,6 +1,6 @@
 ---
 title: Constantes WINBIO_BIOMETRIC_TYPE ( \_ types WINBIO. h)
-description: Types biométriques standard définis par le National Institute of Standards and Technology Information (NISTIR) 6529-A, également connu sous le nom de CBEFF (Common Biometric Exchange formates).
+description: types biométriques Standard définis par le National Institute of Standards and Technology Information (NISTIR) 6529-A, également connu sous le nom de CBEFF (Common biometric Exchange Formats).
 ms.assetid: DCBDB5F9-FF81-44C1-B439-2B8C02483212
 topic_type:
 - apiref
@@ -36,16 +36,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2d2ab5c41a3c2af26312c97a67d1179b50fd759
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c1b6475433d2c0d1432e7501e6cbda46436c5a54fd13d5f254f79b678b3f7bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911068"
 ---
 # <a name="winbio_biometric_type-constants"></a>\_Constantes de type de biométrie WINBIO \_
 
-Les constantes suivantes représentent les types biométriques standard définis par le National Institute of Standards and Technology Information (NISTIR) 6529-A, également connu sous le nom de CBEFF (Common BIOMETRIQUE Exchange formats Framework). Seule **une \_ \_ empreinte digitale de type WINBIO** est actuellement prise en charge.
+les constantes suivantes représentent les types biométriques standard définis par le National Institute of Standards and Technology Information (NISTIR) 6529-A, également connu sous le nom de CBEFF (Common biometric Exchange formates). Seule **une \_ \_ empreinte digitale de type WINBIO** est actuellement prise en charge.
 
 
 
@@ -62,7 +62,7 @@ Les constantes suivantes représentent les types biométriques standard définis
 | <span id="WINBIO_TYPE_HAND_GEOMETRY"></span><span id="winbio_type_hand_geometry"></span><dl> <dt>**WINBIO \_ géométrie de type \_ main \_**</dt> </dl>                 | La forme d’une main d’un individu est utilisée pour déterminer l’identité d’un individu.<br/>                                      |
 | <span id="WINBIO_TYPE_SIGNATURE_DYNAMICS"></span><span id="winbio_type_signature_dynamics"></span><dl> <dt>**WINBIO de \_ type de \_ signature \_ Dynamics**</dt> </dl>  | Les modèles de force que l’individu utilise lorsqu’ils signent leur nom sont utilisés pour déterminer l’identité d’un individu.<br/> |
 | <span id="WINBIO_TYPE_KEYSTROKE_DYNAMICS"></span><span id="winbio_type_keystroke_dynamics"></span><dl> <dt>**WINBIO \_ de \_ frappe de frappe de type \_**</dt> </dl>  | Les modèles de vitesse et d’erreur utilisés pour la saisie par un individu permettent de déterminer l’identité d’un individu.<br/>                  |
-| <span id="WINBIO_TYPE_LIP_MOVEMENT"></span><span id="winbio_type_lip_movement"></span><dl> <dt>**mouvement de la \_ lèvre du type WINBIO \_ \_**</dt> </dl>                    | Les modifications apportées aux lèvres d’une personne qui se produisent quand elles parlent sont utilisées pour déterminer l’identité d’un individu.<br/>      |
+| <span id="WINBIO_TYPE_LIP_MOVEMENT"></span><span id="winbio_type_lip_movement"></span><dl> <dt>**WINBIO \_ TYPE \_ de \_ mouvement LIP**</dt> </dl>                    | Les modifications apportées aux lèvres d’une personne qui se produisent quand elles parlent sont utilisées pour déterminer l’identité d’un individu.<br/>      |
 | <span id="WINBIO_TYPE_THERMAL_FACE_IMAGE"></span><span id="winbio_type_thermal_face_image"></span><dl> <dt>**\_image de \_ \_ face thermique de type \_ WINBIO**</dt> </dl> | Les modèles de température en face d’un individu sont utilisés pour déterminer l’identité d’un individu.<br/>                    |
 | <span id="WINBIO_TYPE_THERMAL_HAND_IMAGE"></span><span id="winbio_type_thermal_hand_image"></span><dl> <dt>**\_image de \_ la \_ main \_ thermique de type WINBIO**</dt> </dl> | Les modèles de température de la part d’un individu sont utilisés pour déterminer l’identité d’un individu.<br/>                    |
 | <span id="WINBIO_TYPE_GAIT"></span><span id="winbio_type_gait"></span><dl> <dt>**TYPE de WINBIO \_ \_**</dt> </dl>                                             | Les modèles de mouvement qui se produisent lorsque les parcours individuels sont utilisés pour déterminer l’identité d’un individu.<br/>            |
@@ -85,8 +85,8 @@ Les constantes suivantes représentent les types biométriques standard définis
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                                                                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                                                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                                                                                  |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (inclure WinBio. h pour les applications clientes ou les \_ cartes WinBio. h pour les adaptateurs)</dt> </dl> |
 
 

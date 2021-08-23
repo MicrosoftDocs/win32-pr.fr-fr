@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5bd1d329cd861fa45c99851707177322d0b9d12f
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: b0b7e7b1d1e79e64fb1eb83f17f3aa2d118a9eb53b23c19cbdfd624e2c501a84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103870221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992779"
 ---
 # <a name="monitoring-and-responding-to-events-with-standard-consumers"></a>Surveillance et réponse aux événements avec des consommateurs standard
 
@@ -23,7 +23,7 @@ Vous pouvez utiliser les [classes de consommateur standard](standard-consumer-cl
 
 WMI compile les consommateurs standard dans des espaces de noms par défaut qui dépendent du système d’exploitation, par exemple :
 
--   Dans Windows Server 2003, tous les consommateurs standard sont compilés par défaut dans l’espace de \\ noms « abonnement racine ».
+-   dans Windows Server 2003, tous les consommateurs standard sont compilés par défaut dans l’espace de \\ noms « abonnement racine ».
 
 > [!Note]  
 > Pour les espaces de noms et les systèmes d’exploitation par défaut spécifiques à chaque classe WMI, consultez les sections remarques et exigences de chaque classe.
@@ -155,9 +155,9 @@ La procédure suivante décrit comment surveiller les événements et y répondr
 
     Pour plus d’informations, consultez [liaison d’un filtre d’événements à un consommateur logique](binding-an-event-filter-with-a-logical-consumer.md).
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
-L’exemple suivant montre le fichier MOF pour une instance de [**NTEventLogEventConsumer**](nteventlogeventconsumer.md). Une fois que vous avez compilé ce fichier MOF, toute tentative de création, de suppression ou de modification d’une valeur dans le chemin d’accès au Registre **HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Run** enregistre une entrée dans le journal des événements de l’application, sous la source « WSH ».
+L’exemple suivant montre le fichier MOF pour une instance de [**NTEventLogEventConsumer**](nteventlogeventconsumer.md). une fois que vous avez compilé ce fichier MOF, toute tentative de création, de suppression ou de modification d’une valeur dans le chemin d’accès au registre **HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Run** enregistre une entrée dans le journal des événements de l’Application, sous la source « WSH ».
 
 
 ```mof

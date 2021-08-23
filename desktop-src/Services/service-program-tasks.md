@@ -4,12 +4,12 @@ ms.assetid: 10f86c49-5256-445a-991b-cc22b1088f85
 title: Tâches du programme de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac7b31acdf5318af4803dad8e6eae063dfd5f6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 972b670728ffc912c4c637d13ebe4d25e2905cca87f7d640d89b4f9ec597a921
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888924"
 ---
 # <a name="service-program-tasks"></a>Tâches du programme de service
 

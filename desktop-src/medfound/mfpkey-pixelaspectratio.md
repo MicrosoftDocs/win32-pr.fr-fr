@@ -4,12 +4,12 @@ ms.assetid: cc259ab4-6371-4309-99a3-51bb1aa3d63a
 title: MFPKEY_PIXELASPECTRATIO, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1a8220cf58e2e67ab41f9213bab8d5db75bb00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f269273d00ec33a977a39b51eb78f5b817ca650724cd0f099c0f734a5ac45e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973558"
 ---
 # <a name="mfpkey_pixelaspectratio-property"></a>MFPKEY \_ propriété PIXELASPECTRATIO
 
@@ -27,7 +27,7 @@ Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/pro
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Stocke le numérateur dans les 4 octets supérieurs et le dénominateur dans les 4 octets inférieurs.
 
@@ -37,8 +37,8 @@ Stocke le numérateur dans les 4 octets supérieurs et le dénominateur dans les
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

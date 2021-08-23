@@ -4,12 +4,12 @@ description: L’API du serveur HTTP définit des macros spécifiques pour compa
 ms.assetid: 9c5fb0a4-fda8-4489-8a1e-c232079bd501
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c027455eb1eaa2672685a2c2ef2458589b71c211
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e9eeee26516049e307bd07e35e542281245e715a67c45f881068783ecbc93d12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950778"
 ---
 # <a name="http-server-api-version-10-macros"></a>Macros de la version 1,0 de l’API du serveur HTTP
 
@@ -27,9 +27,9 @@ L’API du serveur HTTP définit les macros suivantes pour comparer les versions
 -   [**\_version http non \_ égale \_**](/windows/desktop/api/Http/nf-http-http_not_equal_version)
 -   [**\_version du jeu http \_**](/windows/desktop/api/Http/nf-http-http_set_version)
 
- 
+ 
 
- 
+ 
 
 
 

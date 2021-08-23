@@ -4,12 +4,12 @@ ms.assetid: 274d7658-3d33-4c3a-987c-878cbd5bf821
 title: Propriété OLEAdvtSupport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72c9bd8f5ecaaa2690654211a2dd7ecdc5e9ef2f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f7bbf3b69ee5d8af8bda841bbdcbd55c02c83df0c40605a9d9e7930986ddaee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942880"
 ---
 # <a name="oleadvtsupport-property"></a>Propriété OLEAdvtSupport
 
@@ -21,7 +21,7 @@ Le programme d’installation définit la propriété **OLEAdvtSupport** sur tru
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

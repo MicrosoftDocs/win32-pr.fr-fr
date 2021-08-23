@@ -4,12 +4,12 @@ ms.assetid: 44c63152-507d-4769-9c0c-d275d2b0deac
 title: DecryptMessage (NTLM) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 707f1bcd9ae697de0c3e23529fe2857f58d0e5e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acf1334f0276f13332703410c5c8c5a58ca0d9f458a45d2b50bb119310e96cd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008497"
 ---
 # <a name="decryptmessage-ntlm-function"></a>DecryptMessage (NTLM) (fonction)
 
@@ -63,7 +63,7 @@ Si la fonction ne parvient pas à déchiffrer le message, elle retourne l’un d
 | **s \_ E \_ message incomplet \_** | Les données de la mémoire tampon d’entrée sont incomplètes. L’application doit lire plus de données à partir du serveur et appeler [**DecryptMessage (NTLM)**](decryptmessage--ntlm.md) . |
 | **SEC \_ E \_ hors \_ \_ séquence**   | Le message n’a pas été reçu dans l’ordre correct.                                                                                                                    |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Parfois, une application lit les données du tiers distant, tente de les déchiffrer à l’aide de **DecryptMessage (NTLM)** et découvre que **DecryptMessage (NTLM)** a réussi, mais les tampons de sortie sont vides. Il s’agit d’un comportement normal, et les applications doivent être en mesure de les gérer.
 
@@ -73,8 +73,8 @@ Parfois, une application lit les données du tiers distant, tente de les déchif
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]          |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]          |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\] |
 | En-tête                   | SSPI. h (include Security. h)               |
 | Bibliothèque                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |

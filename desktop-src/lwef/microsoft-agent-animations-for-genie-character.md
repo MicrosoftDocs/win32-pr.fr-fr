@@ -4,12 +4,12 @@ description: Animations Microsoft Agent pour le caractère génie
 ms.assetid: 56c42d7a-32af-47cb-8578-0a89507a41ed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4f583fc6540b5fe13cc157542d69352a8ea5b31
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 204da244b74e96e239d540662dabf73af82001748b395da8e660f53fe4cf85e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976099"
 ---
 # <a name="microsoft-agent-animations-for-genie-character"></a>Animations Microsoft Agent pour le caractère génie
 
@@ -84,13 +84,13 @@ Le fichier de caractères comprend des effets sonores pour certaines animations,
 | **Heureux**               | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Sourires et conserve les mains                                |
 | **Processus**               | Non                       | Non                | **Non**        | Aucun                                         | Tourne dans un Cloud                                             |
 | **Traitement**            | Oui, utilisation des branches de sortie | Non                | **Non**        | Aucun                                         | Tourne dans un Cloud ( \* animation de boucle)                       |
-| **Lire**                  | **ReadReturn**           | Oui               | **Oui**       | Aucun                                         | Révèle le défilement, les lectures et les recherches                             |
+| **Lecture**                  | **ReadReturn**           | Oui               | **Oui**       | Aucun                                         | Révèle le défilement, les lectures et les recherches                             |
 | **ReadContinued**         | **ReadReturn**           | Oui               | **Non**        | Aucun                                         | Lectures et recherches                                             |
 | **ReadReturn**            | Aucun                     | Non                | **Non**        | Aucun                                         | Retourne à la position neutre                                    |
 | **Lecture**               | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Afficher le défilement et les lectures ( \* animation de bouclage)                  |
 | **RestPose**              | Aucun                     | Oui               | **Non**        | **Parlez**                                 | Position neutre                                               |
 | **Fer**                   | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Expression Sad                                                 |
-| **Recherche**                | Non                       | Non                | **Non**        | Aucun                                         | Révèle les jumelles et les tours                                   |
+| **action**                | Non                       | Non                | **Non**        | Aucun                                         | Révèle les jumelles et les tours                                   |
 | **Dans**             | Oui, utilisation des branches de sortie | Non                | **Non**        | Aucun                                         | Affiche des jumelles et des virages ( \* animation de boucle)             |
 | **Afficher**                  | Aucun                     | Non                | **Oui**       | **Affichage**                                  | Semble manquer de fumée                                           |
 | **StartListening**        | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Place à l’oreille                                               |
@@ -101,7 +101,7 @@ Le fichier de caractères comprend des effets sonores pour certaines animations,
 | **Opération en cours**              | Non                       | Non                | **Non**        | Aucun                                         | Recherche avec la main sur le menton ( \* animation de bouclage)               |
 | **Connaître**             | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Déplace d’une main vers un menton, autre vers Hip, et déclenche un sourcil approprié |
 | **Wave**                  | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Fréquences                                                          |
-| **Écrire**                 | **WriteReturn**          | Oui               | **Oui**       | Aucun                                         | Révèle le défilement, les écritures et les recherches                            |
+| **Écriture**                 | **WriteReturn**          | Oui               | **Oui**       | Aucun                                         | Révèle le défilement, les écritures et les recherches                            |
 | **WriteContinued**        | **WriteReturn**          | Oui               | **Oui**       | Aucun                                         | Écritures et recherches                                            |
 | **WriteReturn**           | Aucun                     | Non                | **Non**        | Aucun                                         | Retourne à la position neutre                                    |
 | **Écriture**               | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Révèle le défilement, les écritures ( \* animation de bouclage)                   |

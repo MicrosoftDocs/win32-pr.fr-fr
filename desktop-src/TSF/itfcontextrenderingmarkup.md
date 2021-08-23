@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1b71e977665a4b3a6e817ef782ee558064e0986a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 80abb7e68e017ec4cd048a7b7df1799578a4d41568b2fcc062ec3845fcf49c2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118877027"
 ---
 # <a name="itfcontextrenderingmarkup-interface"></a>Interface ITfContextRenderingMarkup
 
@@ -34,19 +34,19 @@ L’interface **ITfContextRenderingMarkup** est implémentée par le gestionnair
 
 
 
- 
+ 
 
 ## <a name="members"></a>Membres
 
 L’interface **ITfContextRenderingMarkup** hérite de l’interface [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) , mais n’a pas de membres supplémentaires.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Cette interface n’est pas actuellement dans les fichiers d’en-tête publics. Pour utiliser cette API, vous devez effectuer une compilation MIDL du [prototype](prototypes.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 

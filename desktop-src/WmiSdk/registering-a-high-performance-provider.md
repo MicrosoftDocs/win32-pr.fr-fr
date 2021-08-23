@@ -1,20 +1,20 @@
 ---
-description: Comme les autres fournisseurs d’instances, vous inscrivez un fournisseur de haute performance auprès de Microsoft Windows&\# 160 ; Management Instrumentation (WMI) en créant une instance des \_ \_ classes Win32Provider et \_ \_ InstanceProviderRegistration.
+description: comme les autres fournisseurs d’instances, vous inscrivez un fournisseur de haute performance auprès de Microsoft Windows&\# 160 ; Management Instrumentation (WMI) en créant une instance des \_ \_ classes Win32Provider et \_ \_ InstanceProviderRegistration.
 ms.assetid: 6ff3f8c6-71ca-4589-bca7-b864e24a473d
 ms.tgt_platform: multiple
 title: Inscription d’un fournisseur de High-Performance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e38653be78747bbfe68ce01d610e9b65b4c981d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2ee52db95290810a046d23781dbccf666cd63a19b01bf9414b2e224b8137f8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992569"
 ---
 # <a name="registering-a-high-performance-provider"></a>Inscription d’un fournisseur de High-Performance
 
-Comme les autres fournisseurs d’instances, vous inscrivez un fournisseur de haute performance auprès de Microsoft Windows Management Instrumentation (WMI) en créant une instance des classes [**\_ \_ Win32Provider**](--win32provider.md) et [**\_ \_ InstanceProviderRegistration**](--instanceproviderregistration.md) . L’instance **\_ \_ Win32Provider** définit l’implémentation physique du fournisseur et l’instance **\_ \_ InstanceProviderRegistration** définit l’ensemble de fonctionnalités du fournisseur. Pour plus d’informations, consultez [inscription d’un fournisseur](registering-a-provider.md).
+comme les autres fournisseurs d’instances, vous inscrivez un fournisseur de haute performance auprès de Microsoft Windows Management Instrumentation (WMI) en créant une instance des classes [**\_ \_ Win32Provider**](--win32provider.md) et [**\_ \_ InstanceProviderRegistration**](--instanceproviderregistration.md) . L’instance **\_ \_ Win32Provider** définit l’implémentation physique du fournisseur et l’instance **\_ \_ InstanceProviderRegistration** définit l’ensemble de fonctionnalités du fournisseur. Pour plus d’informations, consultez [inscription d’un fournisseur](registering-a-provider.md).
 
 La procédure suivante décrit comment inscrire un fournisseur d’instances à hautes performances.
 

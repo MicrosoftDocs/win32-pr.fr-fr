@@ -7,12 +7,12 @@ keywords:
 - ADSI fournisseur LDAP, objet utilisateur, création d’utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 843bb5bc9d0696c3af7c5f06ce8c76123ae93c3a
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: d32d076805b9480ed0344712f7b023efab4ef0a025f367cc9c5ebb0bb7dfc0e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104043072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023067"
 ---
 # <a name="user-creation-with-the-adsi-ldap-provider"></a>Création de l’utilisateur avec le fournisseur LDAP ADSI
 

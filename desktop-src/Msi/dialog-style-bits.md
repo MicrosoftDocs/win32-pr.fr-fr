@@ -4,12 +4,12 @@ ms.assetid: aad719e8-86b3-4b2b-b417-db55013f8d3a
 title: Bits de style de boîte de dialogue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f22392ef9a88c547bd8fde5bc7df2f4839d66ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43742c61c8dfe0827d0d51c7f9c8a2de60116500b6fdca3e404a08e120ac4348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947441"
 ---
 # <a name="dialog-style-bits"></a>Bits de style de boîte de dialogue
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3ad6ae5b120c2b38d7b6170951ef30b3b19f5295
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cb8a3733d6aaf5679c47d0cf61ca05b2154b57edfd64e5152c0da1f8c822dd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118815958"
 ---
 # <a name="swbemdatetimeyearspecified-property"></a>SWbemDateTime. YearSpecified, propriété
 

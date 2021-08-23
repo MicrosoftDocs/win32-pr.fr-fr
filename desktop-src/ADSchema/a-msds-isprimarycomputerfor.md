@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 690b7dd2481175985dcff95c7ae0d194332bea03
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ece3dec8229b1863ebe355ca0b0185c3dd5397f673bf3104945f8cfa1af00dd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960767"
 ---
 # <a name="ms-ds-is-primary-computer-for-attribute"></a>attribut ms-DS-is-Primary-Computer-for
 

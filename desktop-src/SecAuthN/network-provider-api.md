@@ -1,21 +1,21 @@
 ---
-description: Un fournisseur réseau est une DLL qui permet au système d’exploitation Windows d’interagir avec d’autres types de réseaux, tels que Novell. Il s’agit d’un client du pilote Windows WNet.
+description: un fournisseur réseau est une DLL qui permet au système d’exploitation Windows d’interagir avec d’autres types de réseaux, tels que Novell. il s’agit d’un client du pilote Windows WNet.
 ms.assetid: d316f159-4fe3-4b78-9efc-177906875918
 title: API du fournisseur réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc68184f60639a603614cbaf71631a2521012cf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 359104da668ee3dbe63efa538b58f224f93f52575ed20992fced0e10517fe5f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921325"
 ---
 # <a name="network-provider-api"></a>API du fournisseur réseau
 
-Un fournisseur réseau est une DLL qui permet au système d’exploitation Windows d’interagir avec d’autres types de réseaux, tels que Novell. Il s’agit d’un client du pilote Windows WNet. Un fournisseur de réseau implémente des actions spécifiques au réseau, telles que l’établissement d’une connexion, et expose une interface commune à Windows. Cette interface est appelée API du fournisseur réseau et est constituée de fonctions implémentées par le fournisseur réseau. Vous pouvez créer une DLL de fournisseur réseau pour prendre en charge de nouveaux protocoles réseau.
+un fournisseur réseau est une DLL qui permet au système d’exploitation Windows d’interagir avec d’autres types de réseaux, tels que Novell. il s’agit d’un client du pilote Windows WNet. Un fournisseur de réseau implémente des actions spécifiques au réseau, telles que l’établissement d’une connexion, et expose une interface commune à Windows. Cette interface est appelée API du fournisseur réseau et est constituée de fonctions implémentées par le fournisseur réseau. Vous pouvez créer une DLL de fournisseur réseau pour prendre en charge de nouveaux protocoles réseau.
 
-Étant donné que chaque réseau expose une interface commune par le biais de son fournisseur, Windows peut interagir avec plusieurs types de réseaux sans connaître les détails de l’implémentation propre au réseau.
+étant donné que chaque réseau expose une interface commune par le biais de son fournisseur, Windows peut interagir avec plusieurs types de réseaux sans connaître les détails de l’implémentation propre au réseau.
 
 Le [*routeur de fournisseur multiple*](../secgloss/m-gly.md) (MPR) gère la communication avec tous les différents fournisseurs de réseau sur le système et présente un réseau intégré à l’utilisateur.
 

@@ -7,12 +7,12 @@ keywords:
 - Téléchargements de BITS, évitant les coûts
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: 6326838f08f1879929d9a6be67ef94c4aa035e00
-ms.sourcegitcommit: 00e0a8e56d28c4c720b97f0cf424c29f547460d7
+ms.openlocfilehash: 7cb09dbd277d9ec74ce4988db210bf80c22d97ccaa3054a170fc1c9913282cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "103841753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959488"
 ---
 # <a name="control-a-bits-download-over-an-expensive-connection"></a>Contrôler un téléchargement BITS sur une connexion coûteuse
 
@@ -117,7 +117,7 @@ if(SUCCEEDED(hr))
 
 
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 L’exemple de code suivant montre comment définir la stratégie de transfert d’un travail BITS afin que le traitement du travail ne se produise pas lorsque certaines conditions sont remplies, par exemple lorsque l’utilisateur est en itinérance ou a dépassé sa limite de transfert de données mensuelle.
 
@@ -240,9 +240,9 @@ cancel:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f8bcd2bbd7e57ba9dc692f34404a5610cdc517f3
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5c32ee8e6b1560bfcebf6a914a45be2c74b19e94568c9d4e9b24084bf56c3f01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104507719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043047"
 ---
 # <a name="texreg2rgb---ps"></a>texreg2rgb-PS
 
@@ -29,14 +29,14 @@ Interprète les composants de couleur rouge, vert et bleu (RVB) du Registre sour
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction est utile pour les opérations de remappage de l’espace colorimétrique. Il prend en charge les coordonnées à deux dimensions (2D) et à trois dimensions (3D). Il peut être utilisé comme [texreg2ar-PS](texreg2ar---ps.md) ou [texreg2gb-PS](texreg2gb---ps.md) pour remapper les données 2D. Toutefois, cette instruction prend également en charge les données 3D afin qu’elles puissent être utilisées avec les textures de cube et de volume 3D.
 
@@ -76,9 +76,9 @@ t (m)<sub>RVBA</sub> = TextureSample (stage m)<sub>RVBA</sub> utilisant t (n)<su
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: La \_ structure http \_ avec plusieurs \_ en-têtes connus permet a
 ms.assetid: d517fd61-9547-4e1c-b0fd-1eb3d0098db2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8afbce3c2a41ea143003723acebc7eb83dc463d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fbb8fd2071626d8a12f046ac0c3b6c50fcffc794462d5109a89a974f441879bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950928"
 ---
 # <a name="authentication-with-multiple-known-headers"></a>Authentification avec plusieurs en-têtes connus
 
@@ -42,9 +42,9 @@ Si le schéma dans le membre **pRawValue** de [**l' \_ \_ en-tête connu http**]
 
 Lorsque l’application envoie plusieurs défis d’authentification au client dans des en-têtes de demande inconnus, l’API du serveur HTTP les envoie au client sans intervention. Toutefois, cette utilisation n’est pas recommandée.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Les compteurs de performances mesurent les quantités d’informati
 ms.assetid: 1b264144-7600-402e-86f8-674a2d02f9f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de90607cbda0542ee385b83f44bec878927d509f
-ms.sourcegitcommit: fc3f2a28a55e590ac38846048f10b64ba527a98d
+ms.openlocfilehash: f92afacf959c72735adea25c3ace60c8ae032da66394dda6731fdab913407e21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "106513753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950718"
 ---
 # <a name="scenario-3-performance-counters"></a>Scénario 3 : compteurs de performances
 
@@ -17,7 +17,7 @@ Les compteurs de performances mesurent les quantités d’informations ou de don
 
 ## <a name="performance-counters-for-httpsys"></a>Compteurs de performances pour HTTP.sys
 
-À compter de Windows Vista et de Windows Server 2008, HTTP.sys dispose des compteurs de métriques de performances suivants pour vous aider dans la surveillance, le diagnostic et la planification de la capacité des serveurs Web : le composant de l’API du serveur HTTP dispose des compteurs de performances suivants pour vous aider à surveiller, diagnostiquer et planifier la capacité des serveurs Web :
+à compter de Windows Vista et Windows Server 2008, HTTP.sys dispose des compteurs de métriques de performances suivants pour vous aider à surveiller, diagnostiquer et planifier la capacité des serveurs web : le composant de l’API du serveur HTTP contient les compteurs de performances suivants pour vous aider à surveiller, diagnostiquer et planifier la capacité des serveurs web :
 
 - Compteurs de service HTTP :
   - Nombre d’URI dans le cache, ajoutés depuis le démarrage, supprimé depuis le démarrage et nombre de vidages du cache
