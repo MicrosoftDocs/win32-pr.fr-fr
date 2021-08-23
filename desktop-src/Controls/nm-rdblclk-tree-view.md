@@ -3,7 +3,7 @@ title: Code de notification NM_RDBLCLK (arborescence) (commctrl. h)
 description: Avertit le parent d’un contrôle Tree-View que l’utilisateur a double-cliqué sur le bouton droit de la souris dans le contrôle. Cette notification est envoyée sous la forme d’un \_ message WM Notify.
 ms.assetid: eb1ae167-32cb-45d6-92e6-7bf5f7e46c2a
 keywords:
-- Contrôles Windows de code de notification NM_RDBLCLK (arborescence)
+- NM_RDBLCLK (arborescence) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ef5b4f1dbaf1031c995028028cc0b44e544f5f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4da45d7ac3363a5dc362ef6d34255531f71ce780075e8106fb9579126298a1e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826069"
 ---
 # <a name="nm_rdblclk-tree-view-notification-code"></a>\_Code de notification RDBLCLK nm (arborescence)
 
@@ -55,8 +55,8 @@ Retourne une valeur différente de zéro pour empêcher le traitement par défau
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

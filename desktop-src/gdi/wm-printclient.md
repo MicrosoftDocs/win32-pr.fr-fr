@@ -4,12 +4,12 @@ ms.assetid: 8703ee74-812a-4ca2-8ee3-a3b8779739e7
 title: Message WM_PRINTCLIENT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52aca68695964a35ab9a2c4e309cd71c2e9f7eca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 807c12ca4d0a5fe5f1e2a12aecd3b3148d936119f72771e811fe85d5b0af3abf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717659"
 ---
 # <a name="wm_printclient-message"></a>\_Message WM PRINTCLIENT
 
@@ -62,15 +62,15 @@ Options de dessin. Ce paramètre peut être une ou plusieurs des valeurs suivant
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fenêtre peut traiter ce message à peu près de la même façon que la [**\_ peinture WM**](./wm-paint.md), sauf que [**BeginPaint**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) et [**EndPaint**](/windows/desktop/api/Winuser/nf-winuser-endpaint) ne doivent pas être appelés (un contexte de périphérique est fourni) et que la fenêtre doit dessiner la totalité de la zone client au lieu de simplement la région non valide.
 
-Les fenêtres qui peuvent être utilisées n’importe où dans le système, telles que les contrôles, doivent traiter ce message. Il est probablement utile pour d’autres fenêtres de traiter ce message, car il est relativement facile à implémenter.
+les Windows qui peuvent être utilisées n’importe où dans le système, tels que les contrôles, doivent traiter ce message. Il est probablement utile pour d’autres fenêtres de traiter ce message, car il est relativement facile à implémenter.
 
 La fonction [AnimateWindow](/windows/desktop/api/winuser/nf-winuser-animatewindow) nécessite que la fenêtre animée implémente le message **WM \_ PRINTCLIENT** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -9,12 +9,12 @@ keywords:
 - commandes OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba52cad8436fbe97c83a6d0e214b6c7ba500d195
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0729b71e9c25abf22045884910fcec3780d50aff2fe94dbe485f83f640cdeced
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888059"
 ---
 # <a name="primitives-and-commands"></a>Primitives et commandes
 
@@ -24,9 +24,9 @@ Les primitives sont définies par un groupe d’un ou de plusieurs *vertex*. Un 
 
 Les commandes sont toujours traitées dans l’ordre dans lequel elles sont reçues, bien qu’il puisse y avoir un délai indéterminé avant que la commande prenne effet. Cela signifie que chaque primitive est entièrement dessinée avant que toute commande suivante prenne effet. Cela signifie également que les commandes d’interrogation d’État renvoient des données cohérentes avec l’exécution complète de toutes les commandes OpenGL précédemment émises.
 
- 
+ 
 
- 
+ 
 
 
 

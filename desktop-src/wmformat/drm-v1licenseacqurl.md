@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5caa3ee399dacb4a1b5bdd4c593dd342fa51d940
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8d68f1d190aab15a33214361ccbf88999e3f4b2b6b54c69e5019c73de809dfba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930789"
 ---
 # <a name="drm_v1licenseacqurl"></a>\_V1LICENSEACQURL DRM
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ V1LicenseAcqURL
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut peut être défini à l’aide de [**IWMDRMWriter :: SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute) et il peut être récupéré avec [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
@@ -42,9 +42,9 @@ Cet attribut peut être défini à l’aide de [**IWMDRMWriter :: SetDRMAttribu
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

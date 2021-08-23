@@ -4,12 +4,12 @@ ms.assetid: 62098944-E1B2-46e8-AC87-314C55F96B62
 title: Élément libraryDescription (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 125cb01ce1bd38418c10f5b14ff7b28f64efba87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a454321649746dc9408110e2fb96a616934977022ac80a4c0325494d354bfb46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942059"
 ---
 # <a name="librarydescription-element-library-schema"></a>Élément libraryDescription (schéma de bibliothèque)
 
@@ -69,21 +69,21 @@ L' <libraryDescription> élément est le conteneur de niveau supérieur pour la 
 | Élément parent | Éléments enfants                                                                                                          |
 |----------------|-------------------------------------------------------------------------------------------------------------------------|
 |                | [élément Name (schéma de bibliothèque)](schema-library-name.md). Obligatoire.                                                     |
-|                | [élément ownerSID (schéma de bibliothèque)](schema-library-ownersid.md). facultatif.                                             |
-|                | [version, élément (schéma de bibliothèque)](schema-library-version.md). facultatif.                                               |
-|                | [élément isLibraryPinned (schéma de bibliothèque)](schema-library-islibrarypinned.md). facultatif.                               |
-|                | [élément iconReference (schéma de bibliothèque)](schema-library-iconreference.md). facultatif.                                   |
-|                | [élément propertyStore (schéma de bibliothèque)](schema-library-propertystore.md). facultatif.                                   |
-|                | [élément templateInfo (schéma de bibliothèque)](schema-library-templateinfo.md). facultatif.                                     |
+|                | [élément ownerSID (schéma de bibliothèque)](schema-library-ownersid.md). Facultatif.                                             |
+|                | [version, élément (schéma de bibliothèque)](schema-library-version.md). Facultatif.                                               |
+|                | [élément isLibraryPinned (schéma de bibliothèque)](schema-library-islibrarypinned.md). Facultatif.                               |
+|                | [élément iconReference (schéma de bibliothèque)](schema-library-iconreference.md). Facultatif.                                   |
+|                | [élément propertyStore (schéma de bibliothèque)](schema-library-propertystore.md). Facultatif.                                   |
+|                | [élément templateInfo (schéma de bibliothèque)](schema-library-templateinfo.md). Facultatif.                                     |
 |                | [élément searchConnectorDescriptionList (schéma de bibliothèque)](schema-library-searchconnectordescriptionlist.md). Obligatoire. |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Chaque bibliothèque peut contenir un ou plusieurs emplacements qui peuvent être explorés ou recherchés par un utilisateur à l’aide de l’Explorateur Windows. Les emplacements sont définis par des connecteurs de recherche utilisant [<searchConnectorDescription>](schema-library-searchconnectordescription.md) des éléments dans un [<searchConnectorDescriptionList>](schema-library-searchconnectordescriptionlist.md) élément conteneur.
+chaque bibliothèque peut contenir un ou plusieurs emplacements qui peuvent être explorés ou recherchés par un utilisateur à l’aide de Windows Explorer. Les emplacements sont définis par des connecteurs de recherche utilisant [<searchConnectorDescription>](schema-library-searchconnectordescription.md) des éléments dans un [<searchConnectorDescriptionList>](schema-library-searchconnectordescriptionlist.md) élément conteneur.
 
 Une bibliothèque peut avoir un ensemble unique de propriétés, et les emplacements de la bibliothèque peuvent également avoir des ensembles de propriétés uniques. Ces propriétés sont définies dans les [<property>](schema-library-property.md) éléments d’un [<propertyStore>](schema-library-propertystore.md) élément conteneur.
 

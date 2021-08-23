@@ -4,12 +4,12 @@ ms.assetid: d9c14cf8-5bc9-4a6c-9421-c16c3f41b10d
 title: 'Étape 3 : réutilisation des composants'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f44446ee20baa6dc8c947ef0650f4478847a1c
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 9cf500746e7c9052a421691299903437e129108405b49c7753a841e8ca505518
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104554576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895806"
 ---
 # <a name="step-3-reusing-components"></a>Étape 3 : réutilisation des composants
 
@@ -22,7 +22,7 @@ Au cours de cette étape, vous allez découvrir les éléments suivants :
 
 ## <a name="description"></a>Description
 
-Deux parties précédentes de cette version d’origine des services COM+, [étape 1 : création d’un composant transactionnel](step-1--creating-a-transactional-component.md) et [étape 2 : extension d’une transaction sur plusieurs composants](step-2--extending-a-transaction-across-multiple-components.md) , expliquent comment écrire un composant qui appelle un deuxième composant pour faciliter le travail, en mettant à jour les informations sur l’auteur dans la base de données pubs Microsoft SQL Server ; tout le travail est protégé par une seule transaction. Les exemples de composants se concentrent sur le travail de mise à jour des données d’un auteur et de vérification de l’adresse de l’auteur, et le traitement des transactions, [l’activation JIT](com--just-in-time-activation.md)et la [protection d’accès concurrentiel](com--synchronization.md)fournies par com+.
+deux parties précédentes de cette version d’origine des services COM+, [étape 1 : création d’un composant transactionnel](step-1--creating-a-transactional-component.md) et [étape 2 : extension d’une Transaction sur plusieurs composants](step-2--extending-a-transaction-across-multiple-components.md) , expliquent comment écrire un composant qui appelle un deuxième composant pour faciliter le travail, en mettant à jour les informations sur l’auteur dans la base de données Pubs Microsoft SQL Server ; tout le travail est protégé par une seule transaction. Les exemples de composants se concentrent sur le travail de mise à jour des données d’un auteur et de vérification de l’adresse de l’auteur, et le traitement des transactions, [l’activation JIT](com--just-in-time-activation.md)et la [protection d’accès concurrentiel](com--synchronization.md)fournies par com+.
 
 Cette étape montre comment réutiliser les composants créés aux étapes 1 et 2 et examine ce que cela signifie pour la conception de ces composants. Comme indiqué dans l’illustration suivante, cela implique la création d’un nouveau composant, `AddNewAuthor` , qui ajoute de nouveaux auteurs à la base de données en appelant `UpdateAuthorAddress` .
 

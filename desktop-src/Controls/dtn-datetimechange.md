@@ -3,7 +3,7 @@ title: DTN_DATETIMECHANGE le code de notification (commctrl. h)
 description: Envoyé par un contrôle de sélecteur de date et heure (PAO) chaque fois qu’une modification se produit. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 65cdd8fb-1f07-4447-b503-d40fdfa37202
 keywords:
-- Contrôles Windows de code de notification DTN_DATETIMECHANGE
+- DTN_DATETIMECHANGE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a40072a54732a0a3575e3153ddb901ca1df291b2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be916859a8c963c81d1f68410e9e821c430832610aa85378a6ae6162e0488bf1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877699"
 ---
 # <a name="dtn_datetimechange-notification-code"></a>\_Code de notification DTN DATETIMECHANGE
 
@@ -55,8 +55,8 @@ Le propriétaire du contrôle doit retourner zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

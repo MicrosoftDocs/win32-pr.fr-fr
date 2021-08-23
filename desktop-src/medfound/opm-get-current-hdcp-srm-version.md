@@ -4,12 +4,12 @@ ms.assetid: 65d4b98b-369f-4863-a28c-f9e3b4c2b55d
 title: OPM_GET_CURRENT_HDCP_SRM_VERSION (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e05ad53ae58e2141c63179c84a90f90cea86fb4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee36516510d04fec067bbc692387e2e36b9da083db1a6daae0f51948a992cc83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887489"
 ---
 # <a name="opm_get_current_hdcp_srm_version"></a>Procurez-vous la \_ \_ \_ version actuelle HDCP \_ SRM \_
 
@@ -27,7 +27,7 @@ Retourne le numéro de version du message de renouvellement du système (SRM) ac
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette requête est réussie, le membre **ulInformation** de la structure d' [**\_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) contient le numéro de version de SRM, au format Little endian.
 
@@ -52,8 +52,8 @@ Cette requête peut provoquer la méthode [**IOPMVideoOutput :: GetInformation*
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 

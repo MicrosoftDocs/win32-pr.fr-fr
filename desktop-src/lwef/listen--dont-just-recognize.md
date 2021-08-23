@@ -4,12 +4,12 @@ description: Écouter, ne pas reconnaître simplement
 ms.assetid: 74bb2122-98c1-4a51-b894-93e1481aa46b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e972a8c98460e58d0f7080d7de7641fb856c8317
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b226b9172b10c70e4e699a98df49acc002dcd5add95986c9efbdf9e8f057648d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888089"
 ---
 # <a name="listen-dont-just-recognize"></a>Écouter, ne pas reconnaître simplement
 
@@ -23,9 +23,9 @@ Microsoft Agent fournit des interfaces qui vous permettent d’accéder à la me
 
 La nature d’une conversation ou d’une boîte de dialogue implique qu’il doit y avoir une réponse à une entrée parlée. Par conséquent, l’entrée d’un utilisateur doit toujours répondre à une rétroaction orale ou visuel qui indique qu’une action a été effectuée ou qu’un problème a été rencontré, ou fournit une réponse appropriée.
 
- 
+ 
 
- 
+ 
 
 
 

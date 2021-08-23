@@ -194,7 +194,7 @@
                       href: roles.md
                     - name: Règles d'entreprise
                       href: business-rules.md
-                    - name: Regroupements
+                    - name: Collections
                       href: collections.md
         - name: AppContainer pour les applications héritées
           href: appcontainer-for-legacy-applications-.md

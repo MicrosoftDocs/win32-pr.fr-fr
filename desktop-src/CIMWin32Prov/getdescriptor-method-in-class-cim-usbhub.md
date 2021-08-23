@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7d68374b4a9267dbc50fbb5b2cd8f1f46018e7f3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5253f0eae0acf8844e844f5bfb48fcd73b2b186c6537dfcfcb0da5fb8f46582f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879049"
 ---
 # <a name="getdescriptor-method-of-the-cim_usbhub-class"></a>Méthode GetDescriptor de la \_ classe Usbhub CIM
 
@@ -92,7 +92,7 @@ La mémoire tampon retourne les informations de descripteur demandées. Si le de
 
 Retourne la valeur 0 (zéro) si le descripteur USB est retourné avec succès, 1 (un) si la demande n’est pas prise en charge, et tout autre nombre pour indiquer une erreur. Dans une sous-classe, l’ensemble de codes de retour possibles peut être spécifié à l’aide d’un qualificateur **ValueMap** sur la méthode. Les chaînes dans lesquelles le contenu **mofqualifier** est traduit peuvent également être spécifiées dans la sous-classe en tant que qualificateur de tableau de **valeurs** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

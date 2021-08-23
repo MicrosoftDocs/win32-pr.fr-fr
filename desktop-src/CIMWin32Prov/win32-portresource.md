@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e3c08424dd1aee555068c78a9308afe732634c61
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 732bd1255bf216abe3654d80abcde14b1e8b1180a69d0509663a6a83a2801895
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878579"
 ---
 # <a name="win32_portresource-class"></a>\_Classe PortResource Win32
 
@@ -358,7 +358,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PortResource** est dérivée de [**Win32 \_ SystemMemoryResource**](win32-systemmemoryresource.md).
 

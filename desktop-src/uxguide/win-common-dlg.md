@@ -1,22 +1,22 @@
 ---
 title: Boîtes de dialogue courantes
-description: Les boîtes de dialogue communes à Microsoft Windows se composent des boîtes de dialogue Ouvrir un fichier, enregistrer un fichier, ouvrir le dossier, Rechercher et remplacer, imprimer, mise en page, police et couleur.
+description: les boîtes de dialogue courantes de Microsoft Windows consistent en des boîtes de dialogue ouvrir le fichier, enregistrer le fichier, ouvrir le dossier, rechercher et remplacer, imprimer, mise en Page, police et couleur.
 ms.assetid: 3f9fb0c9-bc1a-48c4-b021-99f155f8ea9e
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 9d64dee640037fe70b88c10294ed04bfbc74fac4
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 9ddd0bf5af0a609c07550ec91e7482ce35270c85b81d553d4a5e262db6ed3683
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935604"
 ---
 # <a name="common-dialogs"></a>Boîtes de dialogue courantes
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
-Les boîtes de dialogue communes à Microsoft Windows se composent des boîtes de dialogue Ouvrir un fichier, enregistrer un fichier, ouvrir le dossier, Rechercher et remplacer, imprimer, mise en page, police et couleur.
+les boîtes de dialogue courantes de Microsoft Windows consistent en des boîtes de dialogue ouvrir le fichier, enregistrer le fichier, ouvrir le dossier, rechercher et remplacer, imprimer, mise en Page, police et couleur.
 
 ## <a name="open-file"></a>Ouvrir un fichier
 
@@ -42,7 +42,7 @@ Ouvrir le dossier est spécifiquement destiné à choisir des dossiers.
 
 Find permet aux utilisateurs de rechercher des chaînes de texte, tandis que la version de remplacement permet éventuellement aux utilisateurs de remplacer des correspondances par une autre chaîne.
 
-## <a name="print"></a>Impression
+## <a name="print"></a>Imprimer
 
 ![capture d’écran de la boîte de dialogue Imprimer ](images/win-common-dlg-image5.png)
 
@@ -89,11 +89,11 @@ Donnez aux utilisateurs une expérience efficace et agréable en sélectionnant 
 
 **Oui! Utilisez les boîtes de dialogue courantes pour une expérience utilisateur cohérente. Ne créez pas les vôtres.** Il est particulièrement difficile de créer des interfaces utilisateur personnalisées qui parcourent l’espace de noms correctement et en toute sécurité. Notez que vous pouvez personnaliser les boîtes de dialogue courantes si nécessaire.
 
-Pour Windows Vista, le fichier ouvert et le fichier d’enregistrement ont une nouvelle architecture extensible pour faciliter l’exposition de fonctionnalités supplémentaires. Ce mécanisme est suffisamment flexible pour répondre aux exigences minimales des principaux éditeurs de logiciels indépendants (ISV), mais ne peut pas être interrompu par les futures versions de Windows.
+pour Windows Vista, le fichier ouvert et le fichier d’enregistrement ont une nouvelle architecture extensible pour faciliter l’exposition de fonctionnalités supplémentaires. Ce mécanisme est suffisamment flexible pour répondre aux exigences minimales des principaux éditeurs de logiciels indépendants (ISV, Independent Software Vendor), mais ne peut pas être rompu par les futures versions de Windows.
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   Le cas échéant, fournissez des alternatives plus directes ou [non](glossary.md) . Autoriser les utilisateurs à :
     -   Ouvrez les fichiers en les déposant sur votre programme.
@@ -112,7 +112,7 @@ Pour Windows Vista, le fichier ouvert et le fichier d’enregistrement ont une n
 | Enregistrer le fichier<br/>         | Enregistrer sous...<br/>                         |
 | Ouvrir un dossier<br/>       | Ouvrir le dossier... ou choisissez un dossier...<br/> |
 | Rechercher et remplacer<br/>  | Rechercher... ou remplacer...<br/>              |
-| Impression<br/>             | Imprimer...<br/>                           |
+| Imprimer<br/>             | Imprimer...<br/>                           |
 | Mise en page<br/>        | Mise en page...<br/>                      |
 | Police<br/>              | Police... ou choisir la police...<br/>          |
 | Couleur<br/>             | Couleur... ou choisir une couleur...<br/>        |
@@ -126,13 +126,13 @@ Pour Windows Vista, le fichier ouvert et le fichier d’enregistrement ont une n
 
 ### <a name="open-file"></a>Ouvrir un fichier
 
--   Pour le dossier par défaut initial, utilisez un dossier spécialisé (images, musique, vidéos), le cas échéant, utilisez des documents.
+-   pour le dossier par défaut initial, utilisez un dossier spécialisé (images, Musique, vidéos), le cas échéant, utilisez des Documents.
 -   Pour les dossiers par défaut suivants, utilisez le dernier dossier ouvert par l’utilisateur à l’aide du programme.
--   Lors de l’ouverture de fichiers photo, supprimer les noms de fichiers par défaut. Les photos sont généralement identifiées par leurs miniatures et leurs noms ne sont généralement pas significatifs.
+-   Lors de l’ouverture de fichiers photo, supprimer les noms de fichiers par défaut. les Photos sont généralement identifiées par leurs miniatures et leurs noms ne sont généralement pas significatifs.
 
 ### <a name="save-file"></a>Enregistrer le fichier
 
--   Pour le dossier par défaut initial (si un nouveau fichier est enregistré pour la première fois), utilisez le dossier spécialisé (images, musique, vidéos), le cas échéant, utilisez des documents.
+-   pour le dossier par défaut initial (si un nouveau fichier est enregistré pour la première fois), utilisez le dossier spécialisé (images, Musique, vidéos), le cas échéant, utilisez des Documents.
 -   Pour les fichiers temporaires, utilisez le dossier temporaire de l’utilisateur actuel. Choisissez des noms de fichiers simples, mais uniques. Exemple : utilisez File0001. tmp au lieu de ~ DF1A92. tmp.
     -   **Développeurs :** Vous pouvez récupérer le dossier temporaire de l’utilisateur actuel à l’aide de la fonction d’API GetTempPath.
 -   Pour le nom de fichier par défaut initial, utilisez un nom par défaut unique basé sur :
@@ -158,7 +158,7 @@ Pour Windows Vista, le fichier ouvert et le fichier d’enregistrement ont une n
 
 ### <a name="open-folder"></a>Ouvrir un dossier
 
--   **Pour les nouveaux programmes, utilisez la boîte de dialogue Ouvrir des fichiers dans le mode « choisir des dossiers ».** Si vous avez besoin de Windows Vista ou d’une version ultérieure, utilisez la boîte de dialogue Ouvrir un dossier pour les programmes qui s’exécutent dans les versions antérieures de Windows.
+-   **Pour les nouveaux programmes, utilisez la boîte de dialogue Ouvrir des fichiers dans le mode « choisir des dossiers ».** si vous avez besoin de Windows Vista ou version ultérieure, utilisez la boîte de dialogue ouvrir un dossier pour les programmes qui s’exécutent dans les versions antérieures de Windows.
     -   **Développeurs :** Vous pouvez utiliser la boîte de dialogue Ouvrir des fichiers dans le mode « sélectionner des dossiers » à l’aide de l' \_ indicateur Fos PICKFOLDERS.
 
 ### <a name="font"></a>Police

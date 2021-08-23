@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a08e468d0acff16aa1df4a45fcacafeb676b00
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8a0b30a7bc905645523a81287eea2dfcdc408b8a4d172cc84282e0f1538e12cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895989"
 ---
 # <a name="oldtlb-switch"></a>commutateur/oldtlb
 
@@ -31,9 +31,9 @@ midl /oldtlb
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le commutateur **/oldtlb** remplace la valeur par défaut et indique au compilateur MIDL de générer des bibliothèques de types anciennes, même sur les versions actuelles de Windows, à l’aide de [CreateTypeLib](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib) au lieu de [CreateTypeLib2](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib2).
+le commutateur **/oldtlb** remplace la valeur par défaut et indique au compilateur MIDL de générer des bibliothèques de types anciennes, même sur les versions actuelles de Windows à l’aide de [CreateTypeLib](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib) au lieu de [CreateTypeLib2](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib2).
 
 ## <a name="examples"></a>Exemples
 
@@ -51,6 +51,6 @@ Le commutateur **/oldtlb** remplace la valeur par défaut et indique au compilat
 [**/newtlb**](-newtlb.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-description: Classe Bluetooth des informations de service de l’appareil.
+description: Bluetooth classe des informations de service de l’appareil.
 ms.assetid: db47f362-82e1-4fce-b0aa-4fc6cd3db102
-title: System. Devices. AEP. Bluetooth. cod. services. information
+title: System. Devices. AEP. Bluetooth. Cod. Services. Information
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8904a6fa70aa9f7417b9f5538564481550946bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c15db2a294da1fbb9b4e57441ad01f2b58fe2dc564f5d3fe782a031ec77cc50f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946199"
 ---
-# <a name="systemdevicesaepbluetoothcodservicesinformation"></a>System. Devices. AEP. Bluetooth. cod. services. information
+# <a name="systemdevicesaepbluetoothcodservicesinformation"></a>System. Devices. AEP. Bluetooth. Cod. Services. Information
 
-Classe Bluetooth des informations de service de l’appareil
+classe Bluetooth des informations sur le service de l’appareil
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

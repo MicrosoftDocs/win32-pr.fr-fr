@@ -4,12 +4,12 @@ ms.assetid: 747ae5ee-adc1-4aa7-8239-2379f76bfd0f
 title: ICEM09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee4b4d2d52c35d6dd3670daff5150a785e19d0b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e4d2af38903d2e704d49b48f932818d8dfaeeb1e12588c007d4af05c297642c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894489"
 ---
 # <a name="icem09"></a>ICEM09
 
@@ -17,7 +17,7 @@ ICEM09 vérifie que le module de fusion gère les répertoires prédéfinis en t
 
 L’échec de la résolution d’un avertissement ou d’une erreur signalée par ICEM09 peut provoquer des problèmes pour les clients de votre module de fusion. Les lignes de la table de répertoires avec des clés primaires telles que ProgramFilesFolder existent souvent dans une base de données ; par conséquent, si les composants de votre module s’installent directement dans des répertoires prédéfinis tels que ProgramFilesFolder, les entrées de répertoire dans le module peuvent entrer en conflit avec des lignes déjà existantes. Cette condition oblige l’utilisateur de votre module à fractionner les fichiers sources de votre module afin qu’il corresponde au répertoire source existant.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICEM09 signale une erreur ou un avertissement lorsqu’un composant de module installe un répertoire dans un répertoire système prédéfini, provoquant ainsi un conflit de noms avec la structure de répertoires existante.
 
@@ -31,7 +31,7 @@ directory 'ProgramFilesFolder'. It is recommended that merge modules alias
 all such directories to unique names.
 ```
 
-Renommez le répertoire du module de fusion afin qu’il ne corresponde pas à une propriété Windows Installer et qu’il soit unique. Affectez ensuite à une propriété du même nom la valeur de l’Windows Installer Directory. Lorsque la résolution de répertoire a lieu, le répertoire a une propriété du même nom, donc l’emplacement d’installation du répertoire est la valeur de la propriété. Les fichiers sont déplacés de l’emplacement source distinct vers le même emplacement cible. Ce processus doit supprimer complètement les conflits de fusion.
+renommez le répertoire du module de fusion afin qu’il ne corresponde pas à une propriété Windows Installer et qu’il soit unique. affectez ensuite à une propriété du même nom la valeur de l’Windows Installer directory. Lorsque la résolution de répertoire a lieu, le répertoire a une propriété du même nom, donc l’emplacement d’installation du répertoire est la valeur de la propriété. Les fichiers sont déplacés de l’emplacement source distinct vers le même emplacement cible. Ce processus doit supprimer complètement les conflits de fusion.
 
 ``` syntax
 Warning: The 'ModuleInstallExecuteSequence' table contains a type 51 action 
@@ -59,7 +59,7 @@ Pour résoudre cet avertissement, nommez l’action de la même façon que le r�
 
 | Répertoire          | Répertoire \_ parent | DefaultDir |
 |--------------------|-------------------|------------|
-| ProgramFilesFolder | Répertoire1        | Un          |
+| ProgramFilesFolder | Répertoire1        | A          |
 | StartMenuFolder    | Directory2        | B:C        |
 | AppDataFolder      | Directory3        | D          |
 | MyPicturesFolder   | Directory4        | E          |
@@ -100,7 +100,7 @@ Pour résoudre cet avertissement, nommez l’action de la même façon que le r�
 
 
 
-| Action                       | Séquence | BaseAction | After | Condition |
+| Action                       | Séquence | BaseAction | Après | Condition |
 |------------------------------|----------|------------|-------|-----------|
 | StartMenuFolder.<GUID> | 100      |            |       |           |
 

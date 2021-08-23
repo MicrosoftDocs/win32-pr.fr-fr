@@ -34,18 +34,18 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 911bb0b2a544197ca6db761e05adac79e97c3f69
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: f2d8eaab0f17647a6f548a0243199073baef074c88dad6a3f7100cfbca1a02be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "104990876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941329"
 ---
 # <a name="shischildorself-function"></a>SHIsChildOrSelf fonction)
 
 ## <a name="description"></a>Description
 
-\[Cette fonction est disponible via Windows XP et Windows Server 2003.
+\[cette fonction est disponible par le biais de Windows XP et Windows Server 2003.
 Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
 Compare si une fenêtre est égale à, un enfant ou un descendant de, une deuxième fenêtre.
@@ -79,7 +79,7 @@ Retourne **S_OK** si la fenêtre spécifiée par *HWND* est égale à, un enfant
 Retourne **S_FALSE** si la fenêtre spécifiée par HWND n’est pas égale à, pas un enfant de, et pas un descendant de la fenêtre spécifiée par *hwndParent*.
 La valeur de retour n’est pas définie si l’un des handles de fenêtre n’est pas valide.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="see-also"></a>Voir aussi
 

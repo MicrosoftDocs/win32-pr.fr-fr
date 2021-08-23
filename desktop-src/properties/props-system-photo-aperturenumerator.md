@@ -4,12 +4,12 @@ ms.assetid: dad7787f-417d-409c-bc7d-c7d5298bdfb0
 title: System. photo. ApertureNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 401219846ab19f23bd2d632362de2eb069454122
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 838b53294f69eaef2579b068381f02f66cac2f2741c4f417beadb7f517f1b4ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716479"
 ---
 # <a name="systemphotoaperturenumerator"></a>System. photo. ApertureNumerator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

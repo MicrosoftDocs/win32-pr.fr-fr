@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e670c6784ded96a1e81d98f5f1c9bfb859efaa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7c5ff31db81cbdbc1767c05cb2f4c7d366ad685c39cd873f15d2a113eb5b2dbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106544511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924689"
 ---
 # <a name="last-update-sequence-attribute"></a>Dernier attribut de séquence de mise à jour
 
@@ -45,7 +45,7 @@ Cet attribut contient le numéro de séquence de mise à jour du dernier éléme
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

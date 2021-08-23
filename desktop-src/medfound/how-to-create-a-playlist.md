@@ -4,12 +4,12 @@ ms.assetid: 5a760492-bd52-40b8-a652-8a62646db6ae
 title: Comment créer une sélection
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2e6e19766c3fa569a701fea9bed0f05d11a4324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57d2a36735d29510e0622882a399fff199fd2289261453a51f281414b5076826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828169"
 ---
 # <a name="how-to-create-a-playlist"></a>Comment créer une sélection
 
@@ -27,7 +27,7 @@ Pour plus d’informations sur la façon dont la source Sequencer gère les topo
 
 Cette procédure pas à pas contient les étapes suivantes :
 
-1.  [Conditions préalables](#prerequisites)
+1.  [Composants requis](#prerequisites)
 2.  [Initialisation de Media Foundation](#initializing-media-foundation)
 3.  [Création d’objets Media Foundation](#creating-media-foundation-objects)
 4.  [Création de la source du média](#creating-the-media-source)

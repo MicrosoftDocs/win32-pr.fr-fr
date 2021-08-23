@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 1847ffa1912a8638476ce80dfbdb71c40fc376d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3425f9477b153721980e3bb44b919b0baea37aa645caea6a3ee328a9ff923eb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824730"
 ---
 # <a name="printprocessor_caps_2-structure"></a>\_Structure PRINTPROCESSOR Cap \_ 2
 
@@ -127,9 +127,9 @@ Peut uniquement être PPCAPS de mise à l’échelle \_ carrée \_ , ce qui indi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les valeurs de tous les membres de structure sont fournies par la fonction **GetPrintProcessorCapabilities** , qui est documentée dans le kit de pilotes Windows.
+les valeurs de tous les membres de structure sont fournies par la fonction **GetPrintProcessorCapabilities** , qui est documentée dans le Kit de pilotes Windows.
 
 Quand une application appelle [**GetPrinterData**](getprinterdata.md), le spouleur appelle la fonction **GetPrintProcessorCapabilities** d’un processeur d’impression et spécifie un nom de valeur qui a un format _de type de_ données **PrintProcCaps \_**, où *DataType* est le nom d’un type de données d’entrée.
 
@@ -139,8 +139,8 @@ Quand une application appelle [**GetPrinterData**](getprinterdata.md), le spoule
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 
 

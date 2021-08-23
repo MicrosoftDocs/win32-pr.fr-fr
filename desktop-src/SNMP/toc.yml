@@ -27,7 +27,7 @@
             - name: Configuration du service SNMP
               href: configuring-the-snmp-service.md
               items:
-                - name: Noms de communautés
+                - name: Community Noms
                   href: community-names.md
                 - name: Noms d’hôtes et adresses IP
                   href: host-names-and-ip-addresses.md

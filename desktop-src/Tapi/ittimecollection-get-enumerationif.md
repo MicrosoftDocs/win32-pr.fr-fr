@@ -4,16 +4,16 @@ ms.assetid: 31f6fa94-d047-4c53-96ae-8dd7e66a4e33
 title: 'ITTimeCollection :: get_EnumerationIf, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a698fca73e923597b2dff5b82e3258dd79306f05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fb6afa99d1170180d0174bfd9b4d3f92f3733b1bee716ddd1e80b957e0c9bf33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905904"
 ---
 # <a name="ittimecollectionget_enumerationif-method"></a>ITTimeCollection :: \_ EnumerationIf, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode d' **extraction \_ EnumerationIf** retourne l’interface d’énumération [**IEnumTime**](ienumtime.md) qui énumère [**ITTime**](ittime.md).
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est interchangeable avec l’opération d’extraction de la valeur [**\_ \_ NewEnum**](ittimecollection-get--newenum.md) , sauf qu’elle retourne [**IEnumTime**](ienumtime.md) au lieu de **IUnknown**.
 

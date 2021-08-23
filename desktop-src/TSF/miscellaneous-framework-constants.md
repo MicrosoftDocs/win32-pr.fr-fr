@@ -23,12 +23,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9eab083f6763d4244d0720b04c2a22744febc3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f9bcd6ad253e71d662cbc713398e65c6a250863e18a9fe2d461a2d93717fb7b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906009"
 ---
 # <a name="miscellaneous-framework-constants"></a>Constantes d’infrastructure diverses
 
@@ -61,7 +61,7 @@ Les constantes d’infrastructure diverses indiquent des paramètres pour les cl
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                 |
-| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 professionnel<br/>                                      |
+| Composant redistribuable<br/>          | TSF 1,0 sur Windows 2000 Professional<br/>                                      |
 | En-tête<br/>                   | <dl> <dt>Msctf. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Msctf. idl</dt> </dl> |
 

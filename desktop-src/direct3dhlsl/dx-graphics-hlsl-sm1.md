@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4ebbc28c1c10ef112bf7be3b500be7f4ecaa6481
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
-ms.translationtype: HT
+ms.openlocfilehash: 9b850c72681cc7fa6c4b1f786940f5efa9116bfc8c8777c5c94fcae4ee1ae5e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104032009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950259"
 ---
 # <a name="shader-model-1"></a>Modèle de nuanceur 1
 
@@ -58,7 +58,7 @@ Le modèle de nuanceur 1 était le premier modèle de nuanceur créé dans Direc
 
 
 
- 
+ 
 
 Pour plus d’informations sur le Shader Model 1, consultez :
 
@@ -71,6 +71,6 @@ Pour plus d’informations sur le Shader Model 1, consultez :
 [Modèles de nuanceur et profils Shader](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

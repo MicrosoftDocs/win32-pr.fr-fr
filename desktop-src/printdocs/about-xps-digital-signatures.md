@@ -4,16 +4,16 @@ ms.assetid: 895974df-d5e8-4974-b057-ec7e5e59d805
 title: À propos de l’API de signature numérique XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ba2bad4ef10d8800e9a4cb59289fccb75cc2d89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcfbd6000df56d96afbc86a3cd0111c02a128c3c23c0d0de59717da5f4e9ac6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950939"
 ---
 # <a name="about-xps-digital-signature-api"></a>À propos de l’API de signature numérique XPS
 
-Les documents XPS peuvent avoir des signatures numériques pour permettre aux utilisateurs de signer un document, vérifier l’identité du signataire et indiquer si un document XPS a été modifié depuis sa signature. Une application Windows Native peut utiliser les interfaces de l’API de signature numérique XPS pour effectuer des opérations de signature numérique sur un document XPS. Cette section fournit une vue d’ensemble de l’API de signature numérique XPS.
+Les documents XPS peuvent avoir des signatures numériques pour permettre aux utilisateurs de signer un document, vérifier l’identité du signataire et indiquer si un document XPS a été modifié depuis sa signature. une application Windows native peut utiliser les interfaces de l’API de signature numérique xps pour effectuer des opérations de signature numérique sur un document XPS. Cette section fournit une vue d’ensemble de l’API de signature numérique XPS.
 
 L’interface [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager) gère les opérations de signature numérique sur un document XPS. Pour qu’une application puisse accéder aux signatures numériques d’un document XPS, l’application doit appeler [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer un **IXpsSignatureManager** , puis appeler [**IXpsSignatureManager :: LoadPackageFile**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagefile) ou [**IXpsSignatureManager :: LoadPackageStream**](/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssignaturemanager-loadpackagestream) pour charger le document XPS. Pour plus d’informations sur ce processus d’initialisation, consultez [initialiser le gestionnaire de signatures](initialize-the-signature-manager.md).
 
@@ -39,7 +39,7 @@ Pour obtenir des exemples d’accès aux signatures numériques d’un document 
 [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> <dt>
 
-[Standard ECMA-376, formats de fichier Office Open XML](https://www.ecma-international.org/publications/standards/Ecma-376.htm)
+[normes ECMA-376 Standard, Office Formats de fichier Open XML](https://www.ecma-international.org/publications/standards/Ecma-376.htm)
 </dt> </dl>
 
  

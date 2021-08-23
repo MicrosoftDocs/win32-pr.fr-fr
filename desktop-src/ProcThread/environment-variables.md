@@ -4,12 +4,12 @@ ms.assetid: 6732b12f-ced1-4769-b947-79da8fd2237a
 title: Variables d'environnement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f50226d12286d01c77025d1cc38e33e2778392a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 647c685aac8ed6df36c0312d7eef49793fd4b2bbfca5576e0377e59da31dd777
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910319"
 ---
 # <a name="environment-variables"></a>Variables d'environnement
 
@@ -34,7 +34,7 @@ L’appel de [**SetEnvironmentVariable ne contient**](/windows/desktop/api/WinBa
 
 La taille maximale d’une variable d’environnement définie par l’utilisateur est de 32 767 caractères. Il n’existe aucune limitation technique quant à la taille du bloc d’environnement. Toutefois, il existe des limites pratiques en fonction du mécanisme utilisé pour accéder au bloc. Par exemple, un fichier de commandes ne peut pas définir une variable dont la longueur est supérieure à la longueur maximale de la ligne de commande.
 
-**Windows Server 2003 et Windows XP :** La taille maximale du bloc d’environnement pour le processus est de 32 767 caractères. À compter de Windows Vista et de Windows Server 2008, il n’existe aucune limitation technique quant à la taille du bloc d’environnement.
+**Windows Server 2003 et Windows XP :** La taille maximale du bloc d’environnement pour le processus est de 32 767 caractères. à partir de Windows Vista et Windows Server 2008, il n’existe aucune limitation technique quant à la taille du bloc d’environnement.
 
 La fonction [**GetEnvironmentVariable**](/windows/desktop/api/WinBase/nf-winbase-getenvironmentvariable) détermine si une variable spécifiée est définie dans l’environnement du processus appelant et, le cas échéant, quelle est sa valeur.
 

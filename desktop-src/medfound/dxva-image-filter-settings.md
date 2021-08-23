@@ -1,17 +1,17 @@
 ---
 description: Les indicateurs suivants définissent les paramètres de filtre d’accélération vidéo DirectX (DXVA).
 ms.assetid: 6514992e-8188-4d28-879c-547e9b340b28
-title: Paramètres de filtre d’image DXVA (Dxva2api. h)
+title: Paramètres de filtre d’Image DXVA (Dxva2api. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dca1f6c2518401c89bddc4fbdbd8dbf7960d64c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2532644d1799db99921bf213840debeb498fe08cc1028f0fe653cb1fb0cf7af6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942590"
 ---
-# <a name="dxva-image-filter-settings"></a>Paramètres de filtre d’image DXVA
+# <a name="dxva-image-filter-settings"></a>Paramètres de filtre d’Image DXVA
 
 Les indicateurs suivants définissent les paramètres de filtre d’accélération vidéo DirectX (DXVA).
 
@@ -40,8 +40,8 @@ Les indicateurs suivants définissent les paramètres de filtre d’accélérati
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Dxva2api. h</dt> </dl> |
 
 

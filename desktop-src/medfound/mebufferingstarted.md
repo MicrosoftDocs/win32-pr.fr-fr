@@ -4,12 +4,12 @@ ms.assetid: 8637dfcd-2e0c-4cf4-a216-4089c201bfc6
 title: Événement MEBufferingStarted (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eb3baf8e66d44eb67ee4c1bbc54ae2e197db081
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e55a691b723fc2e09487752ee8f5226e32504d60a6d68a4652bbb2b5b3e5aa7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724269"
 ---
 # <a name="mebufferingstarted-event"></a>Événement MEBufferingStarted
 
@@ -31,7 +31,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si une source de média envoie l’événement MEBufferingStarted, elle doit envoyer l’événement [MEBufferingStopped](mebufferingstopped.md) lorsqu’elle arrête la mise en mémoire tampon des données. La source du média doit envoyer un événement MEBufferingStopped correspondant pour chaque événement MEBufferingStarted. La source du média ne doit pas transférer ces événements avant l’appel de la méthode [**IMFMediaSource :: Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start) de la source, ou après l’appel de la méthode [**IMFMediaSource :: Stop**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-stop) de la source.
 
@@ -81,8 +81,8 @@ HRESULT GetBufferProgress(IMFMediaSession *pSession, DWORD *pProgress)
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 25c455fe5ec6ddf9157e991b70b468ace653daa9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c522755fe898717f0c06af9698be07ab2ebca491666982d6ff62756ef48ae08f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907419"
 ---
 # <a name="ctransforminputpinnewsegment-method"></a>Méthode CTransformInputPin. NewSegment
 
@@ -69,7 +69,7 @@ Taux du segment.
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode remplace la méthode [**CBasePin :: NewSegment**](cbasepin-newsegment.md) . Elle appelle la méthode [**CTransformFilter :: NewSegment**](ctransformfilter-newsegment.md) du filtre pour remettre l’appel en aval.
 
@@ -79,7 +79,7 @@ Cette méthode remplace la méthode [**CBasePin :: NewSegment**](cbasepin-newse
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

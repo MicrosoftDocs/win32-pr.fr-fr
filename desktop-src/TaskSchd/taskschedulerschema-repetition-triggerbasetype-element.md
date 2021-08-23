@@ -55,7 +55,7 @@ L’élément à **répétition** est défini par le type complexe [**triggerBas
 | Élément                                                                                   | Type     | Description                                                                                                         |
 |-------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------|
 | [**Macauley**](taskschedulerschema-duration-repetitiontype-element.md)                   | duration | Spécifie la durée de répétition du modèle.<br/>                                                              |
-| [**Défini**](taskschedulerschema-interval-repetitiontype-element.md)                   | duration | Spécifie la durée entre chaque redémarrage de la tâche.<br/>                                           |
+| [**Intervalle**](taskschedulerschema-interval-repetitiontype-element.md)                   | duration | Spécifie la durée entre chaque redémarrage de la tâche.<br/>                                           |
 | [**StopAtDurationEnd**](taskschedulerschema-stopatdurationend-repetitiontype-element.md) | boolean  | Spécifie qu’une instance en cours d’exécution de la tâche est arrêtée à la fin de la durée du modèle de répétition.<br/> |
 
 

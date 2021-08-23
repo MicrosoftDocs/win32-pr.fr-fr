@@ -4,12 +4,12 @@ ms.assetid: 39D432A7-54F8-4135-B98C-7290F95B054A
 title: GUID des paramètres d’alimentation (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b67dfd619d93f4318dbcfe2b44b5f8ba24460bd3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b05909509e0c3ed581582ebe90b10e5df4e91a31b7ab050b3fd1ef6679b1a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887029"
 ---
 # <a name="power-setting-guids"></a>GUID des paramètres d’alimentation
 
@@ -65,7 +65,7 @@ La capacité restante de la batterie a changé. La granularité varie d’un sys
 
 L’état d’affichage de l’analyseur actuel a changé.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette notification est disponible à partir de Windows 8 et de Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette notification est disponible à partir de Windows 8 et Windows Server 2012.
 
 Le membre de **données** est une **valeur DWORD** avec l’une des valeurs suivantes.
 
@@ -94,7 +94,7 @@ L’état de l’utilisateur associé à n’importe quelle session a changé. C
 
 Cette notification est envoyée uniquement aux services et autres programmes s’exécutant dans la session 0. Les applications en mode utilisateur doivent s’inscrire à la présence d’un **\_ utilisateur de session \_ \_ GUID** à la place.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette notification est disponible à partir de Windows 8 et de Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette notification est disponible à partir de Windows 8 et Windows Server 2012.
 
 Le membre de **données** est une **valeur DWORD** avec l’une des valeurs suivantes.
 
@@ -220,7 +220,7 @@ Automatique-le schéma est conçu pour équilibrer automatiquement les performan
 
 L’affichage associé à la session de l’application a été activé ou désactivé.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette notification est disponible à partir de Windows 8 et de Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette notification est disponible à partir de Windows 8 et Windows Server 2012.
 
 Cette notification est envoyée uniquement aux applications en mode utilisateur. Les services et autres programmes s’exécutant dans la session 0 ne reçoivent pas cette notification. Le membre de **données** est une **valeur DWORD** avec l’une des valeurs suivantes.
 
@@ -247,7 +247,7 @@ Cette notification est envoyée uniquement aux applications en mode utilisateur.
 
 L’état de l’utilisateur associé à la session de l’application a changé.
 
-**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** Cette notification est disponible à partir de Windows 8 et de Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista et Windows server 2008 :** cette notification est disponible à partir de Windows 8 et Windows Server 2012.
 
 Cette notification est envoyée uniquement aux applications en mode utilisateur qui s’exécutent dans une session interactive. Les services et autres programmes en cours d’exécution dans la session 0 doivent s’inscrire à la **\_ \_ \_ présence globale de l’utilisateur GUID**. Le membre de **données** est une **valeur DWORD** avec l’une des valeurs suivantes.
 

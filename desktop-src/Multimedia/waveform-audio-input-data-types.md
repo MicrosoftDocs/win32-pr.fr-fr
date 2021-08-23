@@ -12,12 +12,12 @@ keywords:
 - WAVEINCAPS, structure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39a8d37869224fe2ce677e2b8b952030ca6e021f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a6e131e55c404fe658a0c8f60a8f816ff231f9eb9492bcf8641a4e38781bfa78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892089"
 ---
 # <a name="waveform-audio-input-data-types"></a>Types de données d’entrée Waveform-Audio
 
@@ -34,7 +34,7 @@ Les types de données suivants sont définis pour les fonctions d’entrée Wave
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -43,6 +43,6 @@ Les types de données suivants sont définis pour les fonctions d’entrée Wave
 [Enregistrement de la forme d’onde](recording-waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-description: Heure de la dernière connexion de l’appareil Bluetooth.
+description: Bluetooth heure de la dernière connexion de l’appareil.
 ms.assetid: b741f3a2-f4e5-4c29-b7b9-b6798e262a7c
 title: System. DeviceInterface. Bluetooth. LastConnectedTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed1743b11bcc35c5b5273f635ab7d381ceb69c88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ca52afccb138c9d3f71acf77dd9ad5cc082a5afbc16bd479519c5a9ce475e6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946499"
 ---
 # <a name="systemdeviceinterfacebluetoothlastconnectedtime"></a>System. DeviceInterface. Bluetooth. LastConnectedTime
 
-Heure de la dernière connexion de l’appareil Bluetooth.
+Bluetooth heure de la dernière connexion de l’appareil.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

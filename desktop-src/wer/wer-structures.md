@@ -3,19 +3,19 @@ title: Structures WER
 ms.assetid: 59b4d44a-2681-4ec1-9f43-7ceaec98c55e
 description: 'En savoir plus sur : structures WER'
 keywords:
-- Rapport d’erreurs Windows de rapport d’erreurs Windows, structures
+- Windows Rapport d’erreurs Windows de rapport d’erreurs, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78cc6228e7f5775306dd5f45f8d335b66e0d1785
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f27770d998965c238dbd8d6fac825fa4accdcdf270395ebd9e46a77b8ba0fad8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772889"
 ---
 # <a name="wer-structures"></a>Structures WER
 
-Les structures suivantes sont utilisées dans Rapport d’erreurs Windows :
+les structures suivantes sont utilisées dans Rapport d’erreurs Windows :
 
 <dl>
 

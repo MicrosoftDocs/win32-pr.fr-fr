@@ -1,6 +1,6 @@
 ---
 title: WMDRMShutdown, fonction (wmdrmsdk. h)
-description: La fonction WMDRMShutdown libère les ressources utilisées par les API étendues du client Windows Media DRM.
+description: la fonction WMDRMShutdown libère les ressources utilisées par les api étendues du Client Media DRM Windows.
 ms.assetid: fa99a07a-2f07-464b-b7a2-e8f3110389b5
 keywords:
 - WMDRMShutdown fonction Windows Media format
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eb49049a593699a4071eefea9c5cf7c61571fc3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f80f0f7264cd0962cb642f0877ccd044e777c3e9f269f87fcffc0037dcc0836d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930364"
 ---
 # <a name="wmdrmshutdown-function"></a>WMDRMShutdown fonction)
 
-La fonction **WMDRMShutdown** libère les ressources utilisées par les API étendues du client Windows Media DRM.
+la fonction **WMDRMShutdown** libère les ressources utilisées par les api étendues du Client Media DRM Windows.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -40,7 +40,7 @@ Cette fonction n’a pas de paramètres.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -52,7 +52,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour éviter les fuites de mémoire, vous devez appeler cette fonction pour chaque appel de la fonction [**WMDRMStartup**](wmdrmstartup.md) .
 

@@ -3,19 +3,19 @@ title: Utilisation du processus de mappage des couleurs avec WCS
 description: Le mappage des couleurs WCS est basé sur les profils d’appareil.
 ms.assetid: df4d390e-0c9e-40dc-864a-2177934895db
 keywords:
-- Windows Color System (WCS), mappage des couleurs
-- WCS (système de couleurs Windows), mappage des couleurs
+- Windows Système de couleurs (WCS), mappage des couleurs
+- WCS (Windows color System), mappage des couleurs
 - gestion des couleurs des images, mappage des couleurs
 - gestion des couleurs, mappage des couleurs
 - couleurs, mappage des couleurs
 - mappage des couleurs
-- Windows Color System (WCS), profils d’appareil
-- WCS (système de couleurs Windows), profils d’appareil
+- Windows Système de couleurs (WCS), profils d’appareil
+- WCS (Windows Color System), profils d’appareil
 - gestion des couleurs des images, profils d’appareil
 - gestion des couleurs, profils d’appareil
 - couleurs, profils d’appareil
-- Système de couleurs Windows (WCS), profils
-- WCS (système de couleurs Windows), profils
+- Windows Système de couleurs (WCS), profils
+- WCS (Windows Color System), profils
 - gestion des couleurs des images, profils
 - gestion des couleurs, profils
 - couleurs, profils
@@ -23,12 +23,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 428b09749f3781def44e56ff6cea0539259d0464
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: fe785af9fa4160c2aa1e54c6765857edc9c7aacb1a8fa40a0ad04e634b4ab602
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106522862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934259"
 ---
 # <a name="using-the-color-mapping-process-with-wcs"></a>Utilisation du processus de mappage des couleurs avec WCS
 
@@ -36,7 +36,7 @@ Le mappage des couleurs WCS est basé sur les [profils d’appareil](d.md). Ils 
 
 Un profil d’appareil peut être incorporé dans l’image elle-même. Le profil d’appareil est donc parcouru avec l’image, même sur Internet. Un utilisateur n’a pas besoin de l’appareil source pour obtenir un mappage de couleurs précis. Si une image n’a pas de profil d’appareil, l’espace sRVB est utilisé comme valeur par défaut. Pour plus d’informations, consultez [utilisation de la gestion des couleurs sur Internet](using-color-management-on-the-internet.md).
 
-Notez que les applications qui utilisent WCS ne doivent jamais incorporer le profil sRVB dans une image. L’espace colorimétrique sRVB fournit un espace de couleurs standardisé qui est portable sur tous les appareils. Elle est automatiquement disponible pour les utilisateurs de Windows 98 et versions ultérieures, ainsi que Windows 2000 et versions ultérieures. Par conséquent, il n’est pas nécessaire de voyager avec l’image.
+Notez que les applications qui utilisent WCS ne doivent jamais incorporer le profil sRVB dans une image. L’espace colorimétrique sRVB fournit un espace de couleurs standardisé qui est portable sur tous les appareils. elle est automatiquement disponible pour les utilisateurs de Windows 98 et versions ultérieures, ainsi que Windows 2000 et versions ultérieures. Par conséquent, il n’est pas nécessaire de voyager avec l’image.
 
 Une fois que les couleurs de l’image se trouvent dans les [PC](p.md), WCS accède au profil d’appareil de l’appareil de destination. Il obtient le CMM pour convertir les couleurs d’image des PC en gamme de l’appareil de destination.
 

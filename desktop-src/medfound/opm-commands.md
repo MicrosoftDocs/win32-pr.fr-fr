@@ -4,12 +4,12 @@ ms.assetid: 52165e1b-a178-4483-bf76-4197281f856d
 title: Commandes OPM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b00240925c28322b911ab55a0e4f026f051d6ec
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 8f6d21119f86ab8f51392df248498681f8fe5dc1aa8218a0232b9f3bd1c7cb02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722239"
 ---
 # <a name="opm-commands"></a>Commandes OPM
 
@@ -19,7 +19,7 @@ Pour envoyer une commande OPM, appelez [**IOPMVideoOutput :: configure**](/wind
 
 
 
-| Value             | Description                                                                                                                                                            |
+| Valeur             | Description                                                                                                                                                            |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GUID de la commande | Identifie la commande. Définissez la valeur du membre **guidSetting** de la structure des [**\_ \_ paramètres de configuration OPM**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters) comme égale à cette valeur. |
 | Données d’entrée   | Spécifie comment interpréter le tableau **abParameters** dans la structure des [**\_ \_ paramètres de configuration de OPM**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters) .                      |

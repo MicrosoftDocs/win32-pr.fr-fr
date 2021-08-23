@@ -4,12 +4,12 @@ ms.assetid: db79fd4b-6a15-4bf9-a0d9-5f6415f6c75f
 title: À propos des classes de fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b683176c3fd7904cf3f89b385ce0fa393b89e9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fcb46d862bf5b9249bb4f13b111ac10c441c3e687dd3fb1784f355c40d14b72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932329"
 ---
 # <a name="about-window-classes"></a>À propos des classes de fenêtre
 
@@ -51,9 +51,9 @@ Ces types diffèrent dans l’étendue et dans le moment et la façon dont ils s
 
 Une classe système est une classe de fenêtre inscrite par le système. De nombreuses classes système sont disponibles pour tous les processus à utiliser, tandis que d’autres sont utilisées uniquement en interne par le système. Étant donné que le système enregistre ces classes, un processus ne peut pas les détruire.
 
-Le système inscrit les classes système pour un processus la première fois que l’un de ses threads appelle un utilisateur ou une fonction Windows Graphics Device Interface (GDI).
+le système inscrit les classes système pour un processus la première fois que l’un de ses threads appelle un utilisateur ou une fonction Windows Graphics Device Interface (GDI).
 
-Chaque application reçoit sa propre copie des classes système. Toutes les applications Windows 16 bits dans le même VDM partagent les mêmes classes système que sur Windows 16 bits.
+Chaque application reçoit sa propre copie des classes système. toutes les applications de type Windows 16 bits dans le même VDM partagent les mêmes classes système, tout comme elles le font sur des Windows 16 bits.
 
 Le tableau suivant décrit les classes système qui peuvent être utilisées par tous les processus.
 
@@ -80,7 +80,7 @@ Le tableau suivant décrit les classes système qui sont disponibles uniquement 
 | Classe      | Description                                                            |
 |------------|------------------------------------------------------------------------|
 | ComboLBox  | Classe de la zone de liste contenue dans une zone de liste déroulante.                   |
-| DDEMLEvent | Classe pour les événements de la bibliothèque de gestion des échange dynamique de données (DDEML). |
+| DDEMLEvent | classe pour les événements de la bibliothèque de gestion des échange dynamique de données (DDEML). |
 | Message    | Classe pour une fenêtre de message uniquement.                                   |
 | \#32768    | Classe d’un menu.                                                  |
 | \#32769    | Classe de la fenêtre du bureau.                                      |
@@ -94,19 +94,19 @@ Le tableau suivant décrit les classes système qui sont disponibles uniquement 
 
 ### <a name="application-global-classes"></a>Classes globales d’application
 
-Une [classe globale d’application](#application-global-classes) est une classe de fenêtre inscrite par un exécutable ou une dll qui est disponible pour tous les autres modules du processus. Par exemple, votre dll peut appeler la fonction [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexa) pour inscrire une classe de fenêtre qui définit un contrôle personnalisé en tant que classe globale d’application afin qu’un processus qui charge le fichier. dll puisse créer des instances du contrôle personnalisé.
+Une [classe globale d’application](#application-global-classes) est une classe de fenêtre inscrite par un exécutable ou une dll qui est disponible pour tous les autres modules du processus. Par exemple, votre .dll pouvez appeler la fonction [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexa) pour inscrire une classe de fenêtre qui définit un contrôle personnalisé en tant que classe globale d’application afin qu’un processus qui charge le .dll puisse créer des instances du contrôle personnalisé.
 
-Pour créer une classe qui peut être utilisée dans chaque processus, créez la classe de fenêtre dans un fichier. dll et chargez le fichier. dll dans chaque processus. Pour charger le fichier. dll dans chaque processus, ajoutez son nom à la valeur des **\_ DLL AppInit** dans la clé de Registre suivante :
+Pour créer une classe qui peut être utilisée dans chaque processus, créez la classe de fenêtre dans un .dll et chargez le .dll dans chaque processus. Pour charger les .dll dans chaque processus, ajoutez son nom à la **valeur \_ DLL AppInit** dans la clé de Registre suivante :
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Windows**
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Windows**
 
-Chaque fois qu’un processus démarre, le système charge le fichier. dll spécifié dans le contexte du processus qui vient d’être démarré avant d’appeler sa fonction de point d’entrée. Le fichier. dll doit inscrire la classe pendant sa procédure d’initialisation et doit spécifier le style **cs \_ GLOBALCLASS** . Pour plus d’informations, consultez [styles de classe](#class-styles).
+Chaque fois qu’un processus démarre, le système charge le .dll spécifié dans le contexte du processus qui vient d’être démarré avant d’appeler sa fonction de point d’entrée. Le .dll doit inscrire la classe pendant sa procédure d’initialisation et doit spécifier le style **cs \_ GLOBALCLASS** . Pour plus d’informations, consultez [styles de classe](#class-styles).
 
 Pour supprimer une classe globale d’application et libérer le stockage qui lui est associé, utilisez la fonction [**UnregisterClass**](/windows/win32/api/winuser/nf-winuser-unregisterclassa) .
 
 ### <a name="application-local-classes"></a>Classes de l’application locale
 
-Une [classe d’application locale](#application-local-classes) est une classe de fenêtre qu’un exécutable ou. dll inscrit pour son usage exclusif. Bien que vous puissiez inscrire n’importe quel nombre de classes locales, il est généralement possible de n’en inscrire qu’une seule. Cette classe de fenêtre prend en charge la procédure de fenêtre de la fenêtre principale de l’application.
+Une [classe d’application locale](#application-local-classes) est une classe de fenêtre qu’un exécutable ou .dll inscrit pour son usage exclusif. Bien que vous puissiez inscrire n’importe quel nombre de classes locales, il est généralement possible de n’en inscrire qu’une seule. Cette classe de fenêtre prend en charge la procédure de fenêtre de la fenêtre principale de l’application.
 
 Le système détruit une classe locale lorsque le module qui l’a inscrit se ferme. Une application peut également utiliser la fonction [**UnregisterClass**](/windows/win32/api/winuser/nf-winuser-unregisterclassa) pour supprimer une classe locale et libérer le stockage qui lui est associé.
 
@@ -128,9 +128,9 @@ Pour inscrire une classe globale d’application, spécifiez le \_ style cs GLOB
 
 Si vous inscrivez la classe de fenêtre à l’aide de la version ANSI de [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexa), **RegisterClassExA**, l’application demande que le système passe les paramètres de texte des messages aux fenêtres de la classe créée à l’aide du jeu de caractères ANSI. Si vous inscrivez la classe à l’aide de la version Unicode de **RegisterClassEx**, **RegisterClassExW**, l’application demande que le système passe les paramètres de texte des messages aux fenêtres de la classe créée à l’aide du jeu de caractères Unicode. La fonction [**IsWindowUnicode**](/windows/win32/api/winuser/nf-winuser-iswindowunicode) permet aux applications d’interroger la nature de chaque fenêtre. Pour plus d’informations sur les fonctions ANSI et Unicode, consultez [conventions pour les prototypes de fonction](/windows/desktop/Intl/conventions-for-function-prototypes).
 
-L’exécutable ou la DLL qui a inscrit la classe est le propriétaire de la classe. Le système détermine la propriété de la classe à partir du membre **HINSTANCE** de la structure [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) transmise à la fonction [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexa) lorsque la classe est inscrite. Pour les dll, le membre **HINSTANCE** doit être le descripteur de l’instance. dll.
+L’exécutable ou la DLL qui a inscrit la classe est le propriétaire de la classe. Le système détermine la propriété de la classe à partir du membre **HINSTANCE** de la structure [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) transmise à la fonction [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexa) lorsque la classe est inscrite. Pour les dll, le membre **HINSTANCE** doit être le descripteur de l’instance .dll.
 
-La classe n’est pas détruite quand le fichier. dll qui le possède est déchargé. Par conséquent, si le système appelle la procédure de fenêtre pour une fenêtre de cette classe, cela entraîne une violation d’accès, car le fichier. dll contenant la procédure de fenêtre n’est plus en mémoire. Le processus doit détruire toutes les fenêtres à l’aide de la classe avant que le fichier. dll soit déchargé et appeler la fonction [**UnregisterClass**](/windows/win32/api/winuser/nf-winuser-unregisterclassa) .
+La classe n’est pas détruite lorsque l' .dll qui le possède est déchargée. Par conséquent, si le système appelle la procédure de fenêtre pour une fenêtre de cette classe, cela entraîne une violation d’accès, car le .dll contenant la procédure de fenêtre n’est plus en mémoire. Le processus doit détruire toutes les fenêtres à l’aide de la classe avant que le .dll soit déchargé et appeler la fonction [**UnregisterClass**](/windows/win32/api/winuser/nf-winuser-unregisterclassa) .
 
 ## <a name="elements-of-a-window-class"></a>Éléments d’une classe de fenêtre
 
@@ -144,7 +144,7 @@ Bien qu’une classe de fenêtre complète soit composée de nombreux éléments
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Nom de la classe](#class-name)                             | Distingue la classe des autres classes inscrites.                                                                                                                                                                                        |
 | [Adresse de la procédure de fenêtre](#window-procedure-address) | Pointeur vers la fonction qui traite tous les messages envoyés à Windows dans la classe et définit le comportement de la fenêtre.                                                                                                                      |
-| [Handle d’instance](#instance-handle)                   | Identifie l’application ou le fichier. dll qui a inscrit la classe.                                                                                                                                                                                 |
+| [Handle d’instance](#instance-handle)                   | Identifie l’application ou .dll qui a inscrit la classe.                                                                                                                                                                                 |
 | [Curseur de classe](#class-cursor)                         | Définit le curseur de la souris que le système affiche pour une fenêtre de la classe.                                                                                                                                                                  |
 | [Icônes de classe](#class-icons)                           | Définit la grande icône et la petite icône.                                                                                                                                                                                                    |
 | [Pinceau d’arrière-plan de classe](#class-background-brush)     | Définit la couleur et le motif qui remplissent la zone cliente lorsque la fenêtre est ouverte ou peinte.                                                                                                                                                 |
@@ -169,9 +169,9 @@ Chaque classe a besoin d’une adresse de procédure de fenêtre pour définir l
 
 ### <a name="instance-handle"></a>Handle d’instance
 
-Chaque classe de fenêtre requiert un handle d’instance pour identifier l’application ou le fichier. dll qui a inscrit la classe. Le système requiert des handles d’instance pour effectuer le suivi de tous les modules. Le système affecte un handle à chaque copie d’un exécutable ou d’un fichier. dll en cours d’exécution.
+Chaque classe de fenêtre requiert un handle d’instance pour identifier l’application ou .dll qui a inscrit la classe. Le système requiert des handles d’instance pour effectuer le suivi de tous les modules. Le système affecte un handle à chaque copie d’un exécutable en cours d’exécution ou .dll.
 
-Le système passe un handle d’instance à la fonction de point d’entrée de chaque exécutable (consultez [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain)) et. dll (consultez [**DllMain**](/windows/desktop/Dlls/dllmain)). Le fichier exécutable ou. dll assigne ce handle d’instance à la classe en le copiant dans le membre **HINSTANCE** de la structure [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) .
+Le système passe un handle d’instance à la fonction de point d’entrée de chaque exécutable (consultez [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain)) et .dll (consultez [**DllMain**](/windows/desktop/Dlls/dllmain)). L’exécutable ou .dll affecte ce handle d’instance à la classe en le copiant dans le membre **HINSTANCE** de la structure [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) .
 
 ### <a name="class-cursor"></a>Curseur de classe
 
