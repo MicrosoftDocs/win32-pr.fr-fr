@@ -5,12 +5,12 @@ ms.assetid: BB0CA29C-65CB-48B1-8351-EE13CC470B54
 ms.date: 05/31/2018
 ms.localizationpriority: high
 ms.topic: article
-ms.openlocfilehash: 79dad6914cff07726c2d40ed2ee27cccb6a0cf1e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 044c02b87591f7ad53212ce37d7549ade68308a648092a260a67c97395959c98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632589"
 ---
 # <a name="advanced-use-of-descriptor-tables"></a>Utilisation avancée des tables de descripteurs
 
@@ -39,11 +39,11 @@ La possibilité de lier plusieurs tables de descripteurs à la signature racine 
 
 ## <a name="out-of-bounds-indexing"></a>Indexation hors limites
 
-En dehors des limites, l’indexation d’une table de descripteur à partir du nuanceur entraîne un accès à la mémoire largement non défini, y compris la possibilité de lire une mémoire arbitraire dans le processus comme s’il s’agissait d’un descripteur d’état matériel et de vivre avec la conséquence de ce que le matériel utilise. Cela peut entraîner la réinitialisation de l’appareil, mais ne bloquera pas Windows.
+En dehors des limites, l’indexation d’une table de descripteur à partir du nuanceur entraîne un accès à la mémoire largement non défini, y compris la possibilité de lire une mémoire arbitraire dans le processus comme s’il s’agissait d’un descripteur d’état matériel et de vivre avec la conséquence de ce que le matériel utilise. Cela peut entraîner la réinitialisation de l’appareil, mais ne se bloquera pas Windows.
 
 ## <a name="shader-derivatives-and-divergent-indexing"></a>Dérivés du nuanceur et indexation divergente
 
-Si les appels de nuanceur de pixels qui s’exécutent dans un tampon 2x2 (pour prendre en charge les calculs dérivés), choisissez différents index de texture à échantillonner à partir d’une table de descripteur. et si la configuration et la texture de l’échantillonneur sélectionné pour un pixel donné nécessitent un calcul LOD à partir de dérivées de coordonnées de texture, le processus de calcul LOD et d’échantillonnage de texture est effectué par le matériel indépendamment pour chaque recherche de texture dans le tampon 2x2. , ce qui aura un impact sur les performances.
+Si les appels de nuanceur de pixels qui s’exécutent dans un tampon 2x2 (pour prendre en charge les calculs dérivés), choisissez différents index de texture à échantillonner à partir d’une table de descripteur. et si la configuration et la texture de l’échantillonneur sélectionné pour un pixel donné nécessitent un calcul de LOD à partir de dérivés de coordonnées de texture, le processus de calcul LOD et d’échantillonnage de texture est effectué par le matériel indépendamment pour chaque recherche de texture dans le tampon 2x2.  ce qui aura un impact sur les performances.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -52,9 +52,9 @@ Si les appels de nuanceur de pixels qui s’exécutent dans un tampon 2x2 (pour 
 [Tables de descripteurs](descriptor-tables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

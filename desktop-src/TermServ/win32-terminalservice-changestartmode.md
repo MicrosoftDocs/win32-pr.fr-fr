@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a46c6b72fbb070dac32b2b6990a217068c77da9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf7189d687c8cdc58122da4e20750c6158396587cf07b08f6fc53cecee625ebd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514389"
 ---
 # <a name="changestartmode-method-of-the-win32_service-class-remote-desktop-services"></a>Méthode ChangeStartMode de la classe Win32_Service (Services Bureau à distance)
 
@@ -48,7 +48,7 @@ uint32 ChangeStartMode(
 *StartMode* \[ dans\]
 </dt> <dd>
 
-Mode de démarrage du service de base Windows.
+mode de démarrage du service de base Windows.
 
 <dt>
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e78b5735411c011015bf66674fe297a46e78d22
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 990cd0842a24e4911cc16f0d907ce87159b1ee9ae8de8de3ae7ac4e6a3c440e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104100984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584429"
 ---
 # <a name="wmmediaislive"></a>WM/MediaIsLive
 
@@ -31,7 +31,7 @@ L’attribut **WM/MediaIsLive** indique si le contenu est une diffusion en direc
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utilisé pour la télévision de diffusion.
 
@@ -42,9 +42,9 @@ Cet attribut est utilisé pour la télévision de diffusion.
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

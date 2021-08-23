@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 066191af07aab606731f98a16369b2500d24cda6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa166efdba39c3d8d877768cec8e2163664e6811bfbb3831824e27fc9a2003db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604459"
 ---
 # <a name="esenttoomanyopentablesexception-class"></a>EsentTooManyOpenTablesException, classe
 

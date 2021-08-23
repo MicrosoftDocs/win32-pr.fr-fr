@@ -18,12 +18,12 @@ api_location:
 - MinKernelBase.dll
 - API-MS-Win-Core-io-l1-1-1.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: 3de44762ad9a230a9d8cc410c4ba3ae7c2d9964e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3726bf221073f33d87481d7a6bb6f2f4fd459812616975fba38d9a9a8f0334ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582609"
 ---
 # <a name="cancelioex-function"></a>CancelIoEx fonction)
 
@@ -71,7 +71,7 @@ Si la fonction échoue, la valeur de retour est 0 (zéro). Pour afficher les inf
 
 Si cette fonction ne peut pas trouver de demande d’annulation, la valeur de retour est 0 (zéro), et [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne l' **erreur \_ \_ introuvable**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **CancelIoEx** vous permet d’annuler des requêtes dans des threads autres que le thread appelant. La fonction [**CancelIo**](cancelio.md) annule uniquement les demandes dans le thread qui a appelé la fonction **CancelIo** . **CancelIoEx** annule uniquement les e/s en suspens sur le handle, mais ne modifie pas l’état du descripteur. Cela signifie que vous ne pouvez pas compter sur l’état du handle, car vous ne pouvez pas savoir si l’opération a été effectuée avec succès ou a été annulée.
 
@@ -85,7 +85,7 @@ L’opération qui est annulée se termine avec l’un des trois États suivants
 -   L'opération a été annulée. La fonction [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne une erreur indiquant que l’opération a été **\_ \_ abandonnée**.
 -   L’opération a échoué avec une autre erreur. La fonction [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne le code d’erreur approprié.
 
-Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
+dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
 
 
 
@@ -107,9 +107,9 @@ Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par le
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                                                                                                                                                                                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                                                                                                                                                                                                             |
-| En-tête<br/>                   | <dl> <dt>IoAPI. h (inclure Windows. h); </dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista (inclure Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                                                                                                                                                                                                                   |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                                                                                                                                                                                                             |
+| En-tête<br/>                   | <dl> <dt>IoAPI. h (include Windows. h);</dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista (include Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                 |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                 |
 

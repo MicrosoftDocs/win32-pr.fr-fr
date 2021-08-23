@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 09c6d0f9400a04cc6e5a8ed4bd49ec7075b3c190
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 12d12928196a7c9389f1ee2417977d2e74bdf2753e4a4d87c93e3d796d8fa295
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547469"
 ---
 # <a name="copy-method-of-the-cim_devicefile-class"></a>Méthode Copy de la \_ classe CIM DeviceFile
 
@@ -56,7 +56,7 @@ Exemple : « c : \\ temp \\ newDirectory »
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -153,7 +153,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

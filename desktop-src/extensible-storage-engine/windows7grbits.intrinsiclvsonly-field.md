@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f6899f3f56f6a66080b3fa5bdb672c7107dea52e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd4787d5868aaf9383f2d54b7c6e9a3f3423a4bafe5a6fa231fb0363eebb9061
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603459"
 ---
 # <a name="windows7grbitsintrinsiclvsonly-field"></a>Champ Windows7Grbits. IntrinsicLVsOnly
 

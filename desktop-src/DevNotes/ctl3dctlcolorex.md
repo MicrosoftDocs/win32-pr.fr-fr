@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 57df7ed5e439d75b2edbf71e743cac069f0ed75b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 46fe35fd507f20e41e0a9b563ded5c9cf46e9c557893bc9287d65cbdf651b24f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691639"
 ---
 # <a name="ctl3dctlcolorex-function"></a>Ctl3dCtlColorEx fonction)
 
@@ -66,7 +66,7 @@ Handle d’une fenêtre enfant (contrôle).
 
 Retourne un handle au pinceau approprié si la fonction est réussie ; dans le cas contraire, elle retourne `(HBRUSH)(0)` indiquant qu’une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

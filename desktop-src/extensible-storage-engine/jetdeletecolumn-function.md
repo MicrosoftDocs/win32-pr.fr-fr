@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d7d577447942e36cd49763727473d3f6ddc659b4
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: e46d4440846c09b8c735369f4a7b8b21c169eb28bcb9ed096f478b4e273c615a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103954025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119667399"
 ---
 # <a name="jetdeletecolumn-function"></a>JetDeleteColumn fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetdeletecolumn-function"></a>JetDeleteColumn fonction)
 
@@ -60,7 +60,7 @@ Nom de la colonne à supprimer.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -106,7 +106,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </table>
 
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 L’appel de **JetDeleteColumn** est identique à l’appel de [JetDeleteColumn2](./jetdeletecolumn2-function.md) avec *Grbit* défini sur zéro (0).
 
@@ -120,11 +120,11 @@ L’appel de **JetDeleteColumn** est identique à l’appel de [JetDeleteColumn2
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

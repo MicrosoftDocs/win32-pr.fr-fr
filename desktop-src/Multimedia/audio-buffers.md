@@ -9,12 +9,12 @@ keywords:
 - capCaptureSetSetup macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1a67f120dc2d2ff956148e5dd4e3992a960641d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7993e3dc89abda520c0f1c5bda90f3eb209aca31e36071a304af01fb420d821e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692099"
 ---
 # <a name="audio-buffers"></a>Mémoires tampons audio
 
@@ -28,9 +28,9 @@ Vous pouvez récupérer les paramètres des mémoires tampons audio à l’aide 
 
 Par défaut, l’audio est inclus dans l’opération de capture et les quatre mémoires tampons audio sont allouées. La valeur par défaut de **fCaptureAudio** est **true**. La taille de la mémoire tampon par défaut (la valeur de **dwAudioBufferSize**) peut contenir 0,5 secondes de données audio ou 10 Ko, la valeur la plus élevée étant retenue.
 
- 
+ 
 
- 
+ 
 
 
 

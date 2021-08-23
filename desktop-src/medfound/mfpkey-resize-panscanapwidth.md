@@ -4,12 +4,12 @@ ms.assetid: c0dcf305-ec81-45df-891c-8aaacd95f620
 title: MFPKEY_RESIZE_PANSCANAPWIDTH, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65040307901bf01fee6c095f32dd4e579b6caad3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f912541eb0ce5f0dab304c83bb90e7f7b0eef36f7d62685801ac5d11be01cf73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603753"
 ---
 # <a name="mfpkey_resize_panscanapwidth-property"></a>MFPKEY \_ REdimensionner la \_ propriété PANSCANAPWIDTH
 
@@ -33,8 +33,8 @@ VT \_
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

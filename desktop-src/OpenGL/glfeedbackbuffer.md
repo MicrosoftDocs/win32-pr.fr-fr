@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e64b232db640d41ca9a1e1f75d6ab766597d6511
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 76e51a08dac2bbf55509d4964218fc4b844581c797220294464b84c05de5e05b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580199"
 ---
 # <a name="glfeedbackbuffer-function"></a>glFeedbackBuffer fonction)
 
@@ -73,7 +73,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                                                                                                                |
+| Name                                                                                                  | Signification                                                                                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *type* n’est pas une valeur acceptée.<br/>                                                                                                                                                                           |
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | la *taille* était négative.<br/>                                                                                                                                                                                        |
@@ -82,7 +82,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glFeedbackBuffer** contrôle les commentaires. Les commentaires, comme la sélection, sont un mode OpenGL. Le mode est sélectionné en appelant [**glRenderMode**](glrendermode.md) avec les commentaires sur le GL \_ . Lorsque OpenGL est en mode commentaires, aucun Pixel n’est généré par pixellisation. Au lieu de cela, les informations sur les primitives qui auraient été pixellisées sont renvoyées à l’application à l’aide de OpenGL.
 
@@ -150,9 +150,9 @@ Le tableau suivant donne la correspondance entre le *type* et le nombre de valeu
 |------------------------|--------------------|-------|---------|------------------------|
 | COMPTABILITÉ \_ 2D                 | *x*, *y*           |       |         | 2                      |
 | \_3D GL                 | *x*, *y*, *z*      |       |         | 3                      |
-| \_Couleur 3D \_ GL          | *x*, *y*, *z*      | *k*   |         | 3 + *k*                |
-| \_Texture de \_ couleur \_ 3D GL | *x*, *y*, *z*,     | *k*   | 4       | 7 + *k*                |
-| TEXTURE GL de \_ \_ couleur 4D \_ | *x*, *y*, *z*, *w* | *k*   | 4       | 8 + *k*                |
+| \_Couleur 3D \_ GL          | *x*, *y*, *z*      | *DK*   |         | 3 + *k*                |
+| \_Texture de \_ couleur \_ 3D GL | *x*, *y*, *z*,     | *DK*   | 4       | 7 + *k*                |
+| TEXTURE GL de \_ \_ couleur 4D \_ | *x*, *y*, *z*, *w* | *DK*   | 4       | 8 + *k*                |
 
 
 

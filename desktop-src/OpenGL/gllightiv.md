@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c70e991cf96ed5d3565e1b6c9522693786cca80
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b1b497c6cbac510b57814303f07ee060398e255b02dd1c8f9d7cd129f386d776
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493249"
 ---
 # <a name="gllightiv-function"></a>glLightiv fonction)
 
@@ -98,7 +98,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glLightiv** définit la valeur ou les valeurs des paramètres de la source lumineuse individuelle. Le paramètre *Light* nomme la lumière et est un nom symbolique de la forme GL \_ Light *i*, où 0 = *i* < \_ lumières Max GL \_ .
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2a7f7ea0f80095cd63f9708f12a42146260f2f8f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8be126441ccbc672b54a8a9df7c296ef5f74b5a711f75617e962e5d85b11c3b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584879"
 ---
 # <a name="ctransformfilterstop-method"></a>CTransformFilter. Stop, méthode
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois que cette méthode a désvalidé les deux allocateurs, elle appelle la méthode [**StopStreaming**](ctransformfilter-stopstreaming.md) . La méthode **StopStreaming** n’a aucun effet dans la classe de base, mais la classe dérivée peut la substituer.
 
@@ -54,7 +54,7 @@ Une fois que cette méthode a désvalidé les deux allocateurs, elle appelle la 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

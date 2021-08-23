@@ -10,12 +10,12 @@ keywords:
 - IWMProfileManager, enregistrement des profils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 276b002f0b7f98de2e84f2c27a4f52bde25726bb
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 6befb09d7e0d628462bdd22e1e905c351be58dc077959089883ce3707dc493d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547039"
 ---
 # <a name="saving-profiles"></a>Enregistrement des profils
 
@@ -24,7 +24,7 @@ Vous pouvez utiliser la méthode [**IWMProfileManager :: saveprofile**](/previo
 > [!Note]  
 > Vous ne devez jamais modifier la chaîne de profil écrite dans un fichier. Toutes les modifications que vous souhaitez apporter à un profil doivent être effectuées par programme. La modification de valeurs dans un fichier. prx peut entraîner des résultats imprévisibles.
 
- 
+ 
 
 L’exemple suivant est une fonction permettant d’enregistrer un profil dans un fichier à l’aide d’e/s de fichier de style C standard. Pour compiler une application qui utilise cet exemple, vous devez inclure stdio. h dans votre projet.
 
@@ -94,9 +94,9 @@ HRESULT ProfileToFile(IWMProfileManager* pProfileMgr,
 [**Utilisation des profils**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

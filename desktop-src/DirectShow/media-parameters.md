@@ -4,18 +4,18 @@ ms.assetid: 48b2bc2e-897d-4aa9-8a50-c2855a17dca5
 title: Paramètres de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9276a3d38b9176458299bfd1a47057cac6236e
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 37cf7229cac3deb5b31a6c6879fd3b5896e5f4098a4cce64ac42d19970f5c569
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103869473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584339"
 ---
 # <a name="media-parameters"></a>Paramètres de média
 
 Les paramètres de média permettent à une application de configurer les propriétés d’un objet afin qu’elles évoluent dans le temps d’une manière mathématique déterministe.
 
-Par exemple, supposons qu’un ingénieur de son mélange une bande maître numérique et souhaite appliquer un léger délai à une section de voix pour remplir le son. L’effet sera transférerez si le retard se découpe brusquement. Au lieu de cela, l’effet doit commencer à 100 pour cent (sans délai) et la combinaison humide/sèche doit augmenter graduellement jusqu’à atteindre le niveau souhaité. En outre, cette transition doit suivre une courbe lisse ou une progression linéaire. Pour prendre en charge ce scénario, un DMO peut exposer les interfaces suivantes :
+Par exemple, supposons qu’un ingénieur de son mélange une bande maître numérique et souhaite appliquer un léger délai à une section de voix pour remplir le son. L’effet sera transférerez si le retard se découpe brusquement. Au lieu de cela, l’effet doit commencer à 100 pour cent (sans délai) et la combinaison humide/sèche doit augmenter graduellement jusqu’à atteindre le niveau souhaité. En outre, cette transition doit suivre une courbe lisse ou une progression linéaire. pour prendre en charge ce scénario, un DMO peut exposer les interfaces suivantes :
 
 -   [**IMediaParamInfo**](/previous-versions/windows/desktop/api/Medparam/nn-medparam-imediaparaminfo) contient des méthodes permettant de découvrir des informations sur les propriétés prises en charge. En règle générale, le client appellera ces méthodes avant de commencer à diffuser des données en continu.
 -   [**IMediaParams**](/previous-versions/windows/desktop/api/Medparam/nn-medparam-imediaparams) contient des méthodes permettant de définir les courbes qu’un paramètre suivra pendant la diffusion en continu.

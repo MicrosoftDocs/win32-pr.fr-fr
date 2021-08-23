@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dxof.lib
 - d3dxof.dll
-ms.openlocfilehash: f9220f6e0a406cb4143798787276d7aa6cb5f5d1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 448751cf7160dd9f5bd44f8f7460f30acc731ddf783c840654c3634e80f66540
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491749"
 ---
 # <a name="idirectxfileenumobject-interface"></a>Interface IDirectXFileEnumObject
 
@@ -47,7 +47,7 @@ L’interface **IDirectXFileEnumObject** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le GUID de l’interface IDirectXFileEnumObject est IID \_ IDirectXFileEnumObject.
 

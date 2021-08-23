@@ -3,7 +3,7 @@ title: External. appColorButtonShadow (type 1)
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. appColorButtonShadow (type 1)
 ms.assetid: 82eb6814-9b63-465a-ad40-95760f0ca762
 keywords:
-- External. appColorButtonShadow (type 1) lecteur Windows Media
+- External. appColorButtonShadow (Type 1) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e623e9594f1289c6eb69059c2a273a488e03313
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd497c5d016d9069c02fa5da9dd3874620e4d1cc245976e4fff0b8cb3640f361
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649899"
 ---
 # <a name="externalappcolorbuttonshadow-type-1"></a>External. appColorButtonShadow (type 1)
 
@@ -28,7 +28,7 @@ ms.locfileid: "106540345"
 
  
 
-La propriété **appColorButtonShadow** récupère la couleur d’ombre du bouton actuelle pour l’interface utilisateur du lecteur Windows Media.
+la propriété **appColorButtonShadow** récupère la couleur d’ombre du bouton actuelle pour l’interface utilisateur Lecteur Windows Media.
 
 ``` syntax
 window.external.appColorButtonShadow
@@ -39,9 +39,9 @@ window.external.appColorButtonShadow
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les utilisateurs peuvent modifier la couleur de l’interface utilisateur du lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
+les utilisateurs peuvent modifier la couleur de l’interface utilisateur Lecteur Windows Media. Vous pouvez utiliser cette propriété pour personnaliser l’apparence de votre page Web hébergée de façon à ce qu’elle corresponde au lecteur.
 
 ## <a name="requirements"></a>Configuration requise
 

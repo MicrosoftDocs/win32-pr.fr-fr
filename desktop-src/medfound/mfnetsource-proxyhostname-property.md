@@ -4,12 +4,12 @@ ms.assetid: e53c86e9-c326-41c9-aa86-c80a750b9ce3
 title: MFNETSOURCE_PROXYHOSTNAME, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc59d5b827276eb5063febf7a8cb7647002ca72a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f82746763c937bdca388782cb0882b536c0b9e93b660e0f8e0a04426e5b48a61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663669"
 ---
 # <a name="mfnetsource_proxyhostname-property"></a>MFNETSOURCE \_ propriété PROXYHOSTNAME
 
@@ -31,7 +31,7 @@ Chaîne de caractères larges (**WCHAR** \* )
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante **MFNETSOURCE \_ PROXYHOSTNAME** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
@@ -43,8 +43,8 @@ Les applications peuvent utiliser cette propriété pour configurer le localisat
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

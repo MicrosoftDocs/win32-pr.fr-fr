@@ -4,12 +4,12 @@ ms.assetid: 4115c587-fcb4-4170-9948-fe33bcb8742a
 title: WM_USER (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1efd6f2e79180b7dc627281829539d20f5fa74d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1cb14e8ef69ae35cedd4e246f253aa7b3c16451623eb7043774d1f0940cb64f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705729"
 ---
 # <a name="wm_user"></a>\_utilisateur WM
 
@@ -19,7 +19,7 @@ Utilisé pour définir des messages privés pour une utilisation par les classes
 #define WM_USER                         0x0400
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici les plages de numéros de message.
 

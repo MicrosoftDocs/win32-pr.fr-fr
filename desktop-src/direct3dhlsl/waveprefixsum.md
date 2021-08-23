@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b133aa37b522156df73914eef66c4d3695a70ed7
-ms.sourcegitcommit: 41c742c88f7d9ce05e107008f186b6e872ff9288
+ms.openlocfilehash: bbb9ced3fbf7e150cbe3b9bca7eb176e61cf6c8881def22a977ae37a2dbf4b1f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/31/2021
-ms.locfileid: "104973863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671089"
 ---
 # <a name="waveprefixsum-function"></a>Fonction WavePrefixSum
 
@@ -42,7 +42,7 @@ Valeur à additionner.
 
 Somme des valeurs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’ordre des opérations sur cette routine ne peut pas être garanti. Ainsi, en fait, \[ l' \] indicateur précis est ignoré dans celui-ci.
 

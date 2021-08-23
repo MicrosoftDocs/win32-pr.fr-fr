@@ -4,12 +4,12 @@ ms.assetid: 667882e2-2b7d-42b6-8546-10b89af9d1ee
 title: À propos des contrôles parentaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a241d23e7b578af866004ab44cb031b2a5b9f62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 136ad87b0a22e06ea36395e8a261dfd6ac8c8ff0b48271eb23c729d8adabbec4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601359"
 ---
 # <a name="about-parental-controls"></a>À propos des contrôles parentaux
 
@@ -22,7 +22,7 @@ La fonctionnalité de contrôle parental comprend les éléments suivants :
 Pour plus d'informations, voir les rubriques suivantes :
 
 -   [Déclaration de problème de contrôle parental](parental-controls-problem-statement.md)
--   [Solution de sécurité des familles Windows](windows-family-safety-solution.md)
+-   [Windows Solution de sécurité des familles](windows-family-safety-solution.md)
 -   [Décisions de conception des clés de contrôle parental](parental-controls-key-design-decisions.md)
 -   [Robustesse des contrôles parentaux](parental-controls-robustness.md)
 -   [Ensemble de fonctionnalités de contrôle parental](parental-controls-feature-set.md)

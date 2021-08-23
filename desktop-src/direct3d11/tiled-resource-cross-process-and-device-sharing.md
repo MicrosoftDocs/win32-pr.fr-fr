@@ -4,12 +4,12 @@ description: Les pools de mosaïques peuvent être partagés avec d’autres pro
 ms.assetid: CADE009E-A71E-4ACA-A549-EFCE81F8EAD1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f69c88ec7e56a0ad3f67ca7d219352261af9d60
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d1a0526561569d924c656b3a879e87fb6a99472e56823c177a50e09f19454457
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631969"
 ---
 # <a name="tiled-resource-cross-process-and-device-sharing"></a>Partage de ressources en mosaïque et partage d’appareils
 

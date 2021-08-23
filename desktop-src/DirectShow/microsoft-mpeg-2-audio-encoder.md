@@ -4,12 +4,12 @@ ms.assetid: a36e838b-8b11-4851-9dd2-efd9fe070770
 title: Encodeur audio Microsoft MPEG-2 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43d055acd379d9e966f43eac284e38a10c05a86c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 030821905862a9698ee24c3227f2846cd8c892e20c501d2776cdf2f9bb88f3e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106538626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584119"
 ---
 # <a name="microsoft-mpeg-2-audio-encoder"></a>Encodeur audio Microsoft MPEG-2
 
@@ -66,7 +66,7 @@ msmpeg2enc.dll
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’encodeur audio MPEG-2 peut générer les types de sortie suivants :
 
@@ -140,7 +140,7 @@ Définissez les propriétés restantes dans n’importe quel ordre.
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista Édition familiale Premium, Windows Vista Édition intégrale, Windows 7 Édition familiale Premium, Windows 7 professionnel, Windows 7 entreprise, applications de bureau Windows 7 édition intégrale \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows vista familial Premium, Windows vista Ultimate, Windows 7 Édition Familiale Premium, Windows 7 Professionnel, Windows 7 Entreprise, Windows 7 Édition Intégrale les \[ applications de bureau uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl>                                                                                       |
 
@@ -150,7 +150,7 @@ Définissez les propriétés restantes dans n’importe quel ordre.
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [**Types de média du démultiplexeur MPEG-2**](mpeg-2-demultiplexer-media-types.md)

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52225c4db8eaa31c17d12a25590b918cf94b4c3b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94ec260f0e4e5475cc834c786bc1ba7249b30fabd087030caf3426273adc3012
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493309"
 ---
 # <a name="gllighti-function"></a>glLighti fonction)
 
@@ -85,7 +85,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                                                                                                                   |
+| Name                                                                                                  | Signification                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *Light* ou *pname* n’était pas une valeur acceptée.<br/>                                                                                                                                                                  |
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | Une valeur d’exposant de point a été spécifiée en dehors de la plage \[ 0, 128 \] ou la coupure de place a été spécifiée en dehors de la plage \[ 0, 90 \] (à l’exception de la valeur spéciale 180) ou un facteur d’atténuation négatif a été spécifié.<br/> |
@@ -93,7 +93,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glLighti** définit la valeur ou les valeurs des paramètres de la source lumineuse individuelle. Le paramètre *Light* nomme la lumière et est un nom symbolique de la forme GL \_ Light *i*, où 0 = *i* < \_ lumières Max GL \_ .
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86f615464aa0aed69dd9590f668e37ec8c789c88
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 83de0ed819cecb08e5c176aaaec4c200b69413649e85d1c1ab2d743944210e06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106530819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646309"
 ---
 # <a name="search-flags-attribute"></a>Attribut Search-Flags
 
@@ -36,7 +36,7 @@ Contient un ensemble d’indicateurs qui spécifient des informations de recherc
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.2.334               |
 | System-ID-GUID    | bf967a2d-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ Contient un ensemble d’indicateurs qui spécifient des informations de recherc
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -197,7 +197,7 @@ Contient un ensemble d’indicateurs qui spécifient des informations de recherc
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut peut avoir la valeur zéro ou une combinaison d’une ou plusieurs des valeurs suivantes.
 
@@ -213,7 +213,7 @@ Cet attribut peut avoir la valeur zéro ou une combinaison d’une ou plusieurs 
 | 32 (0x00000020)  | Créez un index de tuple pour l’attribut. Cela permet d’améliorer les recherches où le caractère générique apparaît au début de la chaîne de recherche. Par exemple, (SN = \* mith).                                                                                                                                                                                                                |
 | 64 (0x00000040)   | Prise en charge à partir d’ADAM. Crée un index pour aider de manière considérable les performances VLV sur les attributs arbitraires.                                                                                                                                                                                                                                                                  |
 | 128 (0x00000080) | Marquez l’attribut comme confidentiel. Ignoré pour les attributs de schéma de base (systemFlags = 0x10).                                                                                                                                                                                                                                                                                    |
-| 64 (0x00000040)  | Prise en charge à partir de Windows Server 2008. Créez un index pour améliorer les performances de recherche VLV sur cet attribut.                                                                                                                                                                                                                                                        |
+| 64 (0x00000040)  | pris en charge à partir de Windows Server 2008. Créez un index pour améliorer les performances de recherche VLV sur cet attribut.                                                                                                                                                                                                                                                        |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 0218F6F6-6832-445C-B733-6A99E4EA2A3B
 title: Attribut MFSampleExtension_FrameCorruption (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0d3618e5d847833b539cdfa7f6f99ae784e96c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00d61056e22e9600d3ef2b1270c9d72b46c4b241c3de3f1ba0e74748c3bcb0e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603119"
 ---
 # <a name="mfsampleextension_framecorruption-attribute"></a>\_Attribut MFSampleExtension FrameCorruption
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un décodeur vidéo peut définir cet attribut sur ses échantillons de sortie. Si la valeur est 1, le décodeur a détecté une altération des données dans le frame. Si la valeur est 0, il n’y a aucune altération des données, ou aucune n’a été détectée.
 
@@ -39,8 +39,8 @@ Un décodeur vidéo peut définir cet attribut sur ses échantillons de sortie. 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

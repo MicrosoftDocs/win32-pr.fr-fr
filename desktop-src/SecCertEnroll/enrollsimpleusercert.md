@@ -4,12 +4,12 @@ ms.assetid: ee290c78-dbfa-4414-8489-aa886360652b
 title: enrollSimpleUserCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0956455afa814af54cc86661f2d7733a6d16dd8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4763e3ae68404e47207dccdb75c759fc30394e849bee07a71f2c54c649347a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119669909"
 ---
 # <a name="enrollsimpleusercert"></a>enrollSimpleUserCert
 
@@ -17,7 +17,7 @@ L’exemple enrollSimpleUserCert inscrit un utilisateur final auprès d’une au
 
 ## <a name="location"></a>Emplacement
 
-Lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows, une version C++ de l’exemple est installée, par défaut, dans le dossier *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security \\ x509 Certificate \\ \\ enrollSimpleUserCert VC. Une version C# est installée dans le dossier *% ProgramFiles%* \\ Microsoft kits de développement logiciel (SDK) \\ exemple d’inscription de \\ \\ \\ certificat x509 \\ \\ EnrollSimpleUserCert.
+lorsque vous installez le kit de développement logiciel (SDK) microsoft Windows, une version C++ de l’exemple est installée, par défaut, dans le dossier *% ProgramFiles%* \\ microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate \\ \\ enrollSimpleUserCert VC. une version C# est installée dans le dossier *% ProgramFiles%* \\ Microsoft kits de développement logiciel (Windows sdk) \\ \\ EnrollSimpleUserCert v 7.0 \\ samples de l’inscription de \\ certificats X509 \\ CSharp \\ .
 
 ## <a name="discussion"></a>Discussions
 

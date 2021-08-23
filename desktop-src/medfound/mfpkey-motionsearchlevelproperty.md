@@ -4,12 +4,12 @@ ms.assetid: a625b103-0a55-4268-a01a-6a464a56fec2
 title: MFPKEY_MOTIONSEARCHLEVEL, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 231c2c0ae70466d41f4bf348ec47ee0a74cb135b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b53c6bf8f94b2b9817249d96cffbfa0da251dbbcb0545c141230de90f80485af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555409"
 ---
 # <a name="mfpkey_motionsearchlevel-property"></a>MFPKEY \_ propriété MOTIONSEARCHLEVEL
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété peut être définie sur l’une des valeurs suivantes.
 
@@ -53,8 +53,8 @@ Par défaut, le codec effectue une recherche de mouvement uniquement dans le can
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

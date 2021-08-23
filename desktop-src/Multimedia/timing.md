@@ -1,5 +1,5 @@
 ---
-title: Minutage (Windows Multimedia)
+title: minutage (Windows multimédia)
 description: Minutage
 ms.assetid: 9ab284c7-eebc-4b44-b9e1-cc95efde22c1
 keywords:
@@ -9,14 +9,14 @@ keywords:
 - débogage DrawDib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adddd43ff5067d08334a40f2e52e79109c8a8bb7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1bc4324de5336a00b246ad644794ce8d0b3491bb644f34e8fc22dc8a7e460ba1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688079"
 ---
-# <a name="timing-windows-multimedia"></a>Minutage (Windows Multimedia)
+# <a name="timing-windows-multimedia"></a>minutage (Windows multimédia)
 
 Dans le cadre du débogage d’une application, vous pouvez obtenir des informations sur la durée nécessaire pour effectuer des opérations DrawDib répétitives. La fonction [**DrawDibTime**](/windows/desktop/api/Vfw/nf-vfw-drawdibtime) retourne des informations de temporisation pour les opérations suivantes :
 

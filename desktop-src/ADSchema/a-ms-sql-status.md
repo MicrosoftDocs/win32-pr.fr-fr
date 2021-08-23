@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-attribut d’État
-description: État du serveur SQL Server. L’État a la valeur TRUE si le serveur est en cours d’exécution.
+title: attribut d’état MS-SQL
+description: état du serveur de SQL. L’État a la valeur TRUE si le serveur est en cours d’exécution.
 ms.assetid: a090cefc-ab60-43e3-9b31-f023d808820c
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut d’État MS-SQL
-- Schéma AD de l’attribut d’État mS-SQL
+- schéma AD de l’attribut d’état MS-SQL
+- schéma AD de l’attribut d’état mS-SQL
 topic_type:
 - apiref
 api_name:
@@ -14,29 +14,29 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0047e953881e0d01a14caae2bdfaadb735a96946
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5b51034b1797a40c1c940f1756d2450b6c25fa74a4c44c89551e9af192e6100b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583362"
 ---
-# <a name="ms-sql-status-attribute"></a>MS-SQL-attribut d’État
+# <a name="ms-sql-status-attribute"></a>attribut d’état MS-SQL
 
-État du serveur SQL Server. L’État a la **valeur true** si le serveur est en cours d’exécution.
+état du serveur de SQL. L’État a la **valeur true** si le serveur est en cours d’exécution.
 
 
 
 | Entrée | Valeur |
 |-------------------|--------------------------------------|
-| CN                | MS-SQL-État                        |
-| LDAP-Display-Name | mS-SQL-État                        |
+| CN                | MS-SQL-état                        |
+| LDAP-Display-Name | mS-SQL-état                        |
 | Taille              | 8 octets                              |
 | Mettre à jour le privilège  | Cette valeur est définie par le système.     |
 | Fréquence des mises à jour  | Au démarrage du système.                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1380              |
 | System-ID-GUID    | 9a7d4770-ccee-11d2-9993-0000f87a57d4 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "106516512"
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d24c305b28641fcee366b4e906b87008decac014
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d199a406fa1934fb63625cd258baee8d69c20c17992a7d1d3bbd2c83956a1f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633892"
 ---
 # <a name="ctransformfilter-class"></a>CTransformFilter, classe
 
@@ -47,7 +47,7 @@ La broche d’entrée de ce filtre ne propose aucun type de média ; Il s’app
 
 Tant que la broche d’entrée n’est pas connectée, la broche de sortie refuse toutes les connexions et ne retourne aucun type de média préféré. Une fois que la broche d’entrée est connectée, la broche de sortie retourne une liste de types préférés en appelant la méthode [**GetMediaType**](ctransformfilter-getmediatype.md) du filtre. Il vérifie les types de sortie pour la connexion via la méthode [**CheckTransform**](ctransformfilter-checktransform.md) du filtre. (Les deux méthodes sont virtuelles pures.) En règle générale, le type d’entrée détermine en partie les types de sortie acceptables.
 
-Selon le filtre, vous souhaiterez peut-être inscrire certains des types de média pris en charge par le filtre, afin que l’objet [Mappeur de filtre](filter-mapper.md) puisse localiser votre filtre. Pour plus d’informations, consultez [comment inscrire des filtres DirectShow](how-to-register-directshow-filters.md).
+Selon le filtre, vous souhaiterez peut-être inscrire certains des types de média pris en charge par le filtre, afin que l’objet [Mappeur de filtre](filter-mapper.md) puisse localiser votre filtre. pour plus d’informations, consultez [comment inscrire des filtres de DirectShow](how-to-register-directshow-filters.md).
 
 ## <a name="streaming"></a>Diffusion en continu
 
@@ -106,7 +106,7 @@ Pour plus d’informations sur l’utilisation de cette classe, consultez [écri
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -1,19 +1,19 @@
 ---
-description: Type d’adresse d’appareil Bluetooth LE.
+description: Bluetooth Type d’adresse du périphérique LE.
 ms.assetid: c227d438-72ec-4499-8828-2b86c4ddc64a
-title: System. Devices. AEP. Bluetooth. le. AddressType
+title: System. Devices. AEP. Bluetooth. Le. AddressType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24f6f1707d2303d7d6046a4a39ed90b90678d4bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a0652642496e8dd578c626f8f5da7d73082961a1688afe19aab88093dfbf488
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599089"
 ---
-# <a name="systemdevicesaepbluetoothleaddresstype"></a>System. Devices. AEP. Bluetooth. le. AddressType
+# <a name="systemdevicesaepbluetoothleaddresstype"></a>System. Devices. AEP. Bluetooth. Le. AddressType
 
-Type d’adresse d’appareil Bluetooth LE.
+Bluetooth Type d’adresse du périphérique LE.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607"></a>Windows 10, version 1703, Windows 10, version 1607
 
@@ -59,7 +59,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 944e2e4229f0d36f0009ce337fd3806020322dbf
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f378ec3ff735ed916567ea91e211a1d8a1685580b1f1ea80d448b92203b39a3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492609"
 ---
 # <a name="glpushclientattrib-function"></a>glPushClientAttrib fonction)
 
@@ -69,13 +69,13 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-| Nom                                                                                               | Signification                                                                       |
+| Name                                                                                               | Signification                                                                       |
 |----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | <dl> <dt>**dépassement de capacité de la \_ pile GL \_**</dt> </dl> | La fonction a été appelée alors que la pile client-attribut était pleine.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glPushClientAttrib** utilise son paramètre mask pour déterminer les groupes de variables d’état client qui sont enregistrés sur la pile client-Attribute. Vous pouvez utiliser l’opérateur de bits or pour joindre des constantes symboliques acceptées afin de définir des bits et de construire un masque.
 

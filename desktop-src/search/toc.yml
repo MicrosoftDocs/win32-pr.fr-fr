@@ -1,4 +1,4 @@
-- name: Recherche Windows
+- name: Windows Search
   href: windows-search.md
   items:
     - name: Vue d'ensemble technique
@@ -9,25 +9,25 @@
           href: '-search-3x-wds-development-ovr.md'
         - name: Ce qui est inclus dans l’index
           href: '-search-3x-wds-included-in-index.md'
-        - name: Processus d’indexation dans la recherche Windows
+        - name: processus d’indexation dans Windows Search
           href: '-search-indexing-process-overview.md'
-        - name: Interrogation du processus dans la recherche Windows
+        - name: interrogation du processus dans Windows la recherche
           href: querying-process--windows-search-.md
-        - name: Processus de notification dans Windows Search
+        - name: processus de notifications dans Windows Search
           href: '-search-3x-wds-support.md'
         - name: Configuration requise pour la mise en forme des URL
           href: url-formatting-requirements.md
-        - name: Nouvelle recherche pour Windows 7
+        - name: nouveautés pour la recherche de Windows 7
           href: new-for-windows-7-search.md
-        - name: Indexation des événements d’ensemble de priorités et d’ensembles de lignes dans Windows 7
+        - name: indexation de la hiérarchisation et des événements d’ensemble de lignes dans Windows 7
           href: indexing-prioritization-and-rowset-events.md
-        - name: Bibliothèques de l’interpréteur de commandes Windows
+        - name: Windows Bibliothèques de Shell
           href: '-search-win7-development-scenarios.md'
-        - name: Langues prises en charge par Windows Search
+        - name: langues prises en charge par la recherche de Windows
           href: '-search-3x-wds-language-support.md'
         - name: Utilisation de code managé avec Shell Data et Windows Search
           href: '-search-3x-wds-managed-code.md'
-    - name: Guide du développeur Windows Search
+    - name: Windows Rechercher dans le Guide du développeur
       href: '-search-developers-guide-entry-page.md'
       items:
         - name: Gestion de l’index
@@ -49,7 +49,7 @@
         - name: Interrogation de l’index programmatiquement
           href: '-search-3x-wds-qryidx-overview.md'
           items:
-            - name: Utilisation des approches SQL et AQS pour interroger l’index
+            - name: utilisation d’approches SQL et AQS pour interroger l’Index
               href: using-sql-and-aqs-to-query-the-index.md
             - name: Interrogation de l’index avec ISearchQueryHelper
               href: '-search-3x-wds-qryidx-searchqueryhelper.md'
@@ -68,17 +68,17 @@
                   href: '-search-3x-wds-qryidx-stackedby.md'
                 - name: Argument de sous-requête
                   href: '-search-3x-wds-qryidx-subquery.md'
-            - name: Interrogation de l’index avec la syntaxe SQL de Windows Search
+            - name: interrogation de l’Index avec Windows syntaxe de SQL de recherche
               href: '-search-sql-windowssearch-entry.md'
               items:
-                - name: Vue d’ensemble de la syntaxe SQL de Windows Search
+                - name: vue d’ensemble de la syntaxe de SQL de recherche Windows
                   href: '-search-sql-ovwofsearchquery.md'
                 - name: Informations générales sur le langage de requête
                   href: '-search-sql-generalqueryinfo.md'
                   items:
-                    - name: Extensions SQL dans Microsoft Windows Search
+                    - name: SQL Extensions dans Microsoft Windows Search
                       href: '-search-sql-extensions-sps.md'
-                    - name: Fonctionnalités SQL non disponibles dans Microsoft Windows Search
+                    - name: SQL fonctionnalités non disponibles dans Microsoft Windows Search
                       href: '-search-sql-featuresunavailableinspssearch.md'
                     - name: Identificateurs
                       href: '-search-sql-identifiers.md'
@@ -90,14 +90,14 @@
                       href: '-search-sql-accentinsensitivitysearches.md'
                     - name: Conversion du type de données d’une colonne
                       href: '-search-sql-castingdatacolumntype.md'
-                    - name: Mappages de types de données
+                    - name: Mappages de type de données
                       href: '-search-sql-datatypemappings.md'
                     - name: Compréhension des valeurs de pertinence
                       href: '-search-sql-understandingrelevancevalues.md'
                     - name: Utilisation de recherches localisées
                       href: '-search-sql-usinglocsearches.md'
                       items:
-                        - name: Paramètres des paramètres régionaux du document et du système
+                        - name: Paramètres des paramètres régionaux du Document et du système
                           href: '-search-sql-docandlocalesystemsettings.md'
                         - name: Spécification des langues
                           href: '-search-sql-specifyinglanguages.md'
@@ -165,29 +165,29 @@
         - name: Extension de l’index
           href: '-search-3x-wds-extidx-overview.md'
           items:
-            - name: Développement de gestionnaires de filtres pour Windows Search
+            - name: développement de gestionnaires de filtres pour la recherche de Windows
               href: '-search-ifilter-conceptual.md'
               items:
-                - name: Fonctionnement des gestionnaires de filtres dans la recherche Windows
+                - name: fonctionnement des gestionnaires de filtres dans la recherche Windows
                   href: '-search-ifilter-about.md'
-                - name: Meilleures pratiques pour la création de gestionnaires de filtres dans Windows Search
+                - name: meilleures pratiques pour la création de gestionnaires de filtres dans Windows Search
                   href: '-search-3x-wds-extidx-filters.md'
                 - name: Retour des propriétés d’un gestionnaire de filtres
                   href: '-search-ifilter-property-filtering.md'
                 - name: Gestionnaires de filtres fournis avec Windows
                   href: '-search-ifilter-implementations.md'
-                - name: Implémentation de gestionnaires de filtres dans Windows Search
+                - name: implémentation de gestionnaires de filtres dans Windows Search
                   href: '-search-ifilter-constructing-filters.md'
                 - name: Inscription des gestionnaires de filtres
                   href: '-search-ifilter-registering-filters.md'
                 - name: Test des gestionnaires de filtres
                   href: '-search-ifilter-testing-filters.md'
-            - name: Développement de gestionnaires de propriétés pour Windows Search
+            - name: développement de gestionnaires de propriétés pour la recherche de Windows
               href: '-search-3x-wds-extidx-propertyhandlers.md'
               items:
                 - name: Propriétés de System-Defined pour les formats de fichiers personnalisés
                   href: '-shell-systemdefinedpropertiesforfileformats.md'
-            - name: Développement de gestionnaires de protocole pour Windows Search
+            - name: développement de gestionnaires de protocole pour la recherche de Windows
               href: '-search-3x-wds-phaddins.md'
               items:
                 - name: Fonctionnement des gestionnaires de protocole
@@ -220,10 +220,10 @@
                   href: miscellaneous-linguistic-and-unicode-considerations.md
             - name: Ressources et meilleures pratiques pour la résolution des problèmes
               href: troubleshooting-language-resources.md
-    - name: Référence de recherche Windows
+    - name: Windows Référence de recherche
       href: '-search-reference-entry-page.md'
       items:
-        - name: Interfaces de recherche Windows
+        - name: Windows Interfaces de recherche
           href: '-search-interfaces-entry-page.md'
           items:
             - name: Interfaces des gestionnaires de protocole
@@ -424,7 +424,7 @@
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-getrelationship
                     - name: MetaData
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-metadata
-                    - name: Nom
+                    - name: Name
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-name
                     - name: NamedEntities
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-namedentities
@@ -511,7 +511,7 @@
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-isreal
                     - name: MetaData
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-metadata
-                    - name: Nom
+                    - name: Name
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-name
                 - name: IRichChunk
                   href: /windows/desktop/api/Structuredquerycondition/nn-structuredquerycondition-irichchunk
@@ -1013,7 +1013,7 @@
                   items:
                     - name: Changement
                       href: /windows/desktop/api/searchapi/nf-searchapi-isearchviewchangedsink-onchange
-        - name: Structures de recherche Windows
+        - name: Windows Rechercher dans les structures
           href: '-search-structures-entry-page.md'
           items:
             - name: AUTHENTICATION_INFO
@@ -1052,7 +1052,7 @@
               href: /windows/win32/api/Indexsrv/ns-indexsrv-text_source
             - name: TIMEOUT_INFO
               href: /windows/win32/api/Searchapi/ns-searchapi-timeout_info
-        - name: Constantes et énumérations Windows Search
+        - name: Windows Rechercher des constantes et des énumérations
           href: '-search-constants-and-enumerations-entry-page.md'
           items:
             - name: Rechercher les messages d’erreur du gestionnaire de protocole
@@ -1129,7 +1129,7 @@
           href: '-search-3x-wds-propertymappings.md'
         - name: Format de fichier de recherche enregistré
           href: '-search-savedsearchfileformat.md'
-    - name: Exemples de code Windows Search
+    - name: Windows Rechercher des exemples de code
       href: '-search-samples-ovw.md'
       items:
         - name: CrawlScopeCommandLine
@@ -1159,15 +1159,15 @@
       items:
         - name: Prise en main avec la recherche fédérée dans Windows
           href: getting-started-with-federated-search-in-windows.md
-        - name: Connexion de votre service Web dans la recherche fédérée Windows
+        - name: connexion de votre Service Web dans Windows recherche fédérée
           href: '-search-federated-search-web-service.md'
-        - name: Activation de votre magasin de données dans la recherche fédérée Windows
+        - name: activation de votre magasin de données dans Windows recherche fédérée
           href: '-search-federated-search-data-store.md'
-        - name: Création d’un fichier de description OpenSearch dans Windows Federated Search
+        - name: création d’un fichier de Description OpenSearch dans Windows recherche fédérée
           href: '-search-federated-search-osdx-file.md'
-        - name: Meilleures pratiques suivantes dans Windows Federated Search
+        - name: suivre les meilleures pratiques en matière de Windows la recherche fédérée
           href: '-search-fedsearch-best.md'
-        - name: Déploiement de connecteurs de recherche dans la recherche fédérée Windows
+        - name: déploiement de connecteurs de recherche dans Windows recherche fédérée
           href: '-search-federated-search-deploying.md'
         - name: Schéma de la description du connecteur de recherche
           href: search-sconn-desc-schema-entry.md
@@ -1230,5 +1230,5 @@
               href: search-schema-sconn-isindexed.md
     - name: Technologies de recherche associées
       href: '-search-3x-wds-sampleentry.md'
-    - name: Glossaire Windows Search
+    - name: Windows Rechercher dans le Glossaire
       href: search-glossary.md

@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 04588d6a057c25c0d39e42997a67a611fdfd92d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cff7faa9b5523a25f9adb83f2d58797d0630dd529777a089faf36b77f9bce385
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119668379"
 ---
 # <a name="jet_coltyp"></a>JET_COLTYP
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_coltyp"></a>JET_COLTYP
 
@@ -100,7 +100,7 @@ Le **JET_COLTYP** groupe de constantes décrit tous les types de colonne possibl
 <td><p>Colonne de texte de longueur fixe ou variable qui peut contenir jusqu’à 255 caractères ASCII ou 127 caractères Unicode.</p>
 <p>Toutes les chaînes sont stockées sous la forme d’un nombre de caractères compté. Les chaînes n’ont pas besoin d’être terminées par null. En outre, il n’est pas nécessaire que le nombre inclue une marque de fin null. Enfin, les caractères null incorporés peuvent être stockés.</p>
 <p>Les chaînes ASCII sont toujours traitées comme non sensibles à la casse à des fins de tri et de recherche. En outre, seuls les caractères qui précèdent le premier caractère null (le cas échéant) sont pris en compte pour le tri et la recherche.</p>
-<p>Les chaînes Unicode utilisent l’API Win32 <a href="/windows/win32/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> pour créer des clés de tri qui sont ensuite utilisées pour le tri et la recherche de ces données. Par défaut, les chaînes Unicode sont considérées comme étant dans les paramètres régionaux anglais (États-Unis) et sont triées et recherchées à l’aide des indicateurs de normalisation suivants : NORM_IGNORECASE, NORM_IGNOREKANATYPE et NORM_IGNOREWIDTH. Dans Windows 2000, il est possible de personnaliser ces indicateurs par index pour inclure également NORM_IGNORENONSPACE. Dans Windows XP et versions ultérieures, il est possible de demander n’importe quelle combinaison des indicateurs de normalisation suivants par index : LCMAP_SORTKEY, LCMAP_BYTEREV, NORM_IGNORECASE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREKANATYPE, NORM_IGNOREWIDTH et SORT_STRINGSORT.</p>
+<p>Les chaînes Unicode utilisent l’API Win32 <a href="/windows/win32/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> pour créer des clés de tri qui sont ensuite utilisées pour le tri et la recherche de ces données. Par défaut, les chaînes Unicode sont considérées comme étant dans les paramètres régionaux anglais (États-Unis) et sont triées et recherchées à l’aide des indicateurs de normalisation suivants : NORM_IGNORECASE, NORM_IGNOREKANATYPE et NORM_IGNOREWIDTH. dans Windows 2000, il est possible de personnaliser ces indicateurs par index pour inclure également NORM_IGNORENONSPACE. dans Windows XP et versions ultérieures, il est possible de demander n’importe quelle combinaison des indicateurs de normalisation suivants par index : LCMAP_SORTKEY, LCMAP_BYTEREV, NORM_IGNORECASE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREKANATYPE, NORM_IGNOREWIDTH et SORT_STRINGSORT.</p>
 <p>Dans toutes les versions, il est possible de personnaliser les paramètres régionaux par index. Les paramètres régionaux peuvent être utilisés tant que le module linguistique approprié a été installé sur l’ordinateur. Enfin, tous les caractères null rencontrés dans une chaîne Unicode sont complètement ignorés.</p></td>
 </tr>
 <tr class="even">
@@ -122,31 +122,31 @@ Le **JET_COLTYP** groupe de constantes décrit tous les types de colonne possibl
 <td><p>JET_coltypUnsignedLong<br />
 14</p></td>
 <td><p>Entier non signé sur 4 octets qui peut prendre des valeurs comprises entre 0 (zéro) et 4294967295.</p>
-<p><strong>Windows Vista et Windows Server 2008 :</strong>  Ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
+<p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_coltypLongLong<br />
 15</p></td>
 <td><p>Entier signé de 8 octets qui peut prendre des valeurs comprises entre-9223372036854775808 et 9223372036854775807. Les valeurs négatives sont triées avant les valeurs positives.</p>
-<p><strong>Windows Vista et Windows Server 2008 :</strong>  Ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
+<p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_coltypGUID<br />
 16</p></td>
 <td><p>Colonne binaire de 16 octets de longueur fixe qui représente en mode natif le type de données GUID. Les valeurs de colonne GUID sont triées de la même façon que les valeurs qui sont triées en tant que chaînes dans un format standard (par exemple, {4999b5c0-7657-42d9-bdc1-4b779784e013}).</p>
-<p><strong>Windows Vista et Windows Server 2008 :</strong>  Ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
+<p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_coltypUnsignedShort<br />
 17</p></td>
 <td><p>Entier non signé sur 2 octets qui peut prendre des valeurs comprises entre 0 et 65535.</p>
-<p><strong>Windows Vista et Windows Server 2008 :</strong>  Ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
+<p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_coltypMax<br />
 18</p></td>
 <td><p>Constante décrivant le maximum (autrement dit, un au-delà du type de colonne valide le plus grand) pris en charge par le moteur.</p>
-<p>Cette valeur doit être utilisée avec précaution, car elle changera à mesure que de nouveaux types de colonne seront pris en charge. Par exemple, il a une valeur littérale différente sur Windows 2000 que sur Windows XP et versions ultérieures.</p></td>
+<p>Cette valeur doit être utilisée avec précaution, car elle changera à mesure que de nouveaux types de colonne seront pris en charge. par exemple, elle a une valeur littérale différente sur Windows 2000 que sur Windows XP et versions ultérieures.</p></td>
 </tr>
 </tbody>
 </table>
@@ -162,11 +162,11 @@ Le **JET_COLTYP** groupe de constantes décrit tous les types de colonne possibl
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

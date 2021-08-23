@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8267bf1dc256ec95a456978643226ab5c01af93f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2003f8e2840a2684f91a7a01b0341e2e8dcdf0ca88b6bf31fcf58b3a3c6f79bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692399"
 ---
 # <a name="modify-method-of-the-microsoftdns_rttype-class"></a>Modifier la méthode de la \_ classe RTType MicrosoftDNS
 
@@ -77,7 +77,7 @@ Référence au nouvel objet.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout paramètre non spécifié reste inchangé dans l’enregistrement modifié.
 

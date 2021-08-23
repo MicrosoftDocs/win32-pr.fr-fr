@@ -4,12 +4,12 @@ ms.assetid: 97fd968a-6843-4695-aece-02f9acd618fd
 title: Attribut MF_TRANSCODE_CONTAINERTYPE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f86b8d5890a771200feda265c3878b6eb7030b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c56b0332c43f10fa61b34f47191e3946a4813b3670249a8d858317067c38d52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604689"
 ---
 # <a name="mf_transcode_containertype-attribute"></a>\_Attribut CONTAINERTYPE de transcodage MF \_
 
@@ -33,8 +33,8 @@ Les valeurs possibles pour les types de conteneurs fournis par Media Foundation 
 | <span id="MFTranscodeContainerType_ADTS"></span><span id="mftranscodecontainertype_adts"></span><span id="MFTRANSCODECONTAINERTYPE_ADTS"></span><dl> <dt>**MFTranscodeContainerType \_ ADTS**</dt> </dl>         | Conteneur de fichiers ADTS. <br/>                                                   |
 | <span id="MFTranscodeContainerType_MPEG2"></span><span id="mftranscodecontainertype_mpeg2"></span><span id="MFTRANSCODECONTAINERTYPE_MPEG2"></span><dl> <dt>**MFTranscodeContainerType \_ MPEG2**</dt> </dl>     | Conteneur de fichiers MPEG2. <br/>                                                  |
 | <span id="MFTranscodeContainerType_FMPEG4"></span><span id="mftranscodecontainertype_fmpeg4"></span><span id="MFTRANSCODECONTAINERTYPE_FMPEG4"></span><dl> <dt>**MFTranscodeContainerType \_ FMPEG4**</dt> </dl> | Conteneur de fichiers FMPEG4. <br/>                                                 |
-| <span id="MFTranscodeContainerType_WAVE"></span><span id="mftranscodecontainertype_wave"></span><span id="MFTRANSCODECONTAINERTYPE_WAVE"></span><dl> <dt>**MFTranscodeContainerType \_ Wave**</dt> </dl>         | Conteneur de fichiers WAVE.<br/> Pris en charge dans Windows 8.1 et et versions ultérieures.<br/> |
-| <span id="MFTranscodeContainerType_AVI"></span><span id="mftranscodecontainertype_avi"></span><span id="MFTRANSCODECONTAINERTYPE_AVI"></span><dl> <dt>**\_AVI MFTranscodeContainerType**</dt> </dl>             | Conteneur de fichiers AVI.<br/> Pris en charge dans Windows 8.1 et et versions ultérieures.<br/>  |
+| <span id="MFTranscodeContainerType_WAVE"></span><span id="mftranscodecontainertype_wave"></span><span id="MFTRANSCODECONTAINERTYPE_WAVE"></span><dl> <dt>**MFTranscodeContainerType \_ Wave**</dt> </dl>         | Conteneur de fichiers WAVE.<br/> pris en charge dans Windows 8.1 et et versions ultérieures.<br/> |
+| <span id="MFTranscodeContainerType_AVI"></span><span id="mftranscodecontainertype_avi"></span><span id="MFTRANSCODECONTAINERTYPE_AVI"></span><dl> <dt>**\_AVI MFTranscodeContainerType**</dt> </dl>             | Conteneur de fichiers AVI.<br/> pris en charge dans Windows 8.1 et et versions ultérieures.<br/>  |
 | <span id="MFTranscodeContainerType_AMR"></span><span id="mftranscodecontainertype_amr"></span><span id="MFTRANSCODECONTAINERTYPE_AMR"></span><dl> <dt>**MFTranscodeContainerType \_ Amr**</dt> </dl>             | Conteneur de fichiers AMR. <br/>                                                    |
 
 
@@ -47,7 +47,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetGuid**](/windows/
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetGUID**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utilisé avec la fonctionnalité de transcodage rapide et l’objet enregistreur récepteur.
 
@@ -70,8 +70,8 @@ Cet attribut peut être utilisé pour configurer le type de conteneur de fichier
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

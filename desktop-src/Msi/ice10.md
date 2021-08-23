@@ -4,12 +4,12 @@ ms.assetid: b0e0d837-245e-4c38-a7c4-06dda0eea25c
 title: ICE10
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac8f1304f4444a0f087d747328cdea4b3d714ab0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80071bdb7f219904c03d7c6b5b947a1bd818af2c3ebc270b0bfb17f2cf185280
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581209"
 ---
 # <a name="ice10"></a>ICE10
 
@@ -26,11 +26,11 @@ Cette combinaison n’est pas valide, car elle désactive le parent chaque fois 
 
 L’action personnalisée ICE10 détermine l’état des fonctionnalités parent et enfant à partir de la colonne attributs du tableau des [fonctionnalités](feature-table.md) . Notez qu’il est possible d’affecter la valeur 0 à l’état d’une fonctionnalité et de faire en sorte que son parent ou enfant soit configuré pour privilégier ou interdire la publication.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE10 publie une erreur si la colonne attributs du tableau des [fonctionnalités](feature-table.md) contient une incompatibilité dans l’état de publication.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 ICE10 publie le message d’erreur suivant pour l’exemple indiqué.
 
@@ -39,13 +39,13 @@ Conflicting states, one favors, one disallows. Child: Word differs in advertise 
 from Parent: Office.
 ```
 
-Remarque pour cet exemple, Microsoft Excel et Microsoft Word sont des fonctionnalités enfants de Microsoft Office.
+remarque : dans cet exemple, les Microsoft Excel et Microsoft Word sont des fonctionnalités enfants de Microsoft Office.
 
 Table des [fonctionnalités](feature-table.md) (partielle)
 
 
 
-| Fonctionnalité | Parent de la fonctionnalité \_ | Attributs |
+| Caractéristique | Parent de la fonctionnalité \_ | Attributs |
 |---------|-----------------|------------|
 | Office  | Null            | 4          |
 | Excel   | Office          | 4          |
@@ -55,7 +55,7 @@ Table des [fonctionnalités](feature-table.md) (partielle)
 
  
 
-Dans l’exemple, Word est configuré pour ne pas autoriser la publication, ce qui est en conflit avec l’état d’autorisation de publication de son parent, Office.
+Dans l’exemple, Word est configuré pour interdire la publication, ce qui est en conflit avec l’état d’autorisation de publication de son parent Office.
 
 Dans certains cas, ICE10 publie l’erreur suivante :
 

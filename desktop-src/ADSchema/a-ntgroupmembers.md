@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f212da06992c367a4221cc49eb7217a309886745
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 11a2b4f3e7927b07bcee4a17116da41aea9e3db0d7114e71bb1c3774b692819d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648259"
 ---
 # <a name="nt-group-members-attribute"></a>Attribut NT-Group-members
 
@@ -47,7 +47,7 @@ L’attribut de [**membre**](a-member.md) est utilisé pour contenir les membres
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

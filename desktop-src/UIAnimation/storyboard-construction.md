@@ -1,25 +1,25 @@
 ---
 title: Vue d’ensemble du storyboard
-description: Cette présentation se concentre sur la façon dont les transitions et les storyboards sont utilisés dans les animations Windows.
+description: cette présentation se concentre sur le mode d’utilisation des transitions et des storyboards dans Windows Animation.
 ms.assetid: d37718ac-0256-4a24-a26c-d29173593be0
 keywords:
-- Animation Windows Animation Windows, vue d’ensemble du storyboard
-- Animation des storyboards Windows, Description
-- transitions Windows animation, Description
-- transitions Windows animation, personnalisé
-- interpolateurs Windows animation, Description
+- Windows animation Windows animation, vue d’ensemble du storyboard
+- storyboards Windows Animation, description
+- transitions Windows Animation, description
+- transitions Windows Animation, personnalisée
+- interpolateurs Windows Animation, description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58210ae98f6d3a96c554276466ad72b3364d72a1
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: ca78e4638ad7c3930be25b9ff826e5fa533d2af62cc4907b7a17d4c5b636f239
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514091"
 ---
 # <a name="storyboard-overview"></a>Vue d’ensemble du storyboard
 
-Cette présentation se concentre sur la façon dont les transitions et les storyboards sont utilisés dans les animations Windows. Pour obtenir une vue d’ensemble des composants de Windows animation, consultez [vue d’ensemble des animations Windows](scenic-animation-api-overview.md).
+cette présentation se concentre sur le mode d’utilisation des transitions et des storyboards dans Windows Animation. pour obtenir une vue d’ensemble des composants de Windows animation, consultez [vue d’ensemble de l’animation Windows](scenic-animation-api-overview.md).
 
 Cette rubrique contient les sections suivantes :
 
@@ -37,7 +37,7 @@ Cette rubrique contient les sections suivantes :
 
 ## <a name="transitions"></a>Transitions
 
-Une transition définit la manière dont une variable d’animation unique change sur un intervalle de temps particulier. Windows animation comprend une bibliothèque de transitions courantes que les développeurs peuvent appliquer à une ou plusieurs variables d’animation. Différents genres de transitions ont des jeux de paramètres différents, qui peuvent inclure la valeur de la variable lorsque la transition se termine, la durée de la transition ou des quantités uniques à la fonction mathématique sous-jacente, telles que l’accélération ou la plage d’oscillation.
+Une transition définit la manière dont une variable d’animation unique change sur un intervalle de temps particulier. Windows L’animation comprend une bibliothèque de transitions courantes que les développeurs peuvent appliquer à une ou plusieurs variables d’animation. Différents genres de transitions ont des jeux de paramètres différents, qui peuvent inclure la valeur de la variable lorsque la transition se termine, la durée de la transition ou des quantités uniques à la fonction mathématique sous-jacente, telles que l’accélération ou la plage d’oscillation.
 
 Toutes les transitions partagent deux paramètres implicites : la valeur initiale et la vélocité initiale (pente) de la fonction mathématique. Elles peuvent être spécifiées explicitement par l’application, mais elles sont généralement définies par le gestionnaire d’animations sur la valeur et la rapidité de la variable d’animation au début de la transition.
 
@@ -173,7 +173,7 @@ L’illustration suivante montre le plan d’une table de montage séquentiel av
 
 ![Illustration montrant une table de montage séquentiel avec cinq transitions animant trois variables](images/storyboardwithoutline.png)
 
-L’une des pierres angulaires de la plateforme d’animation Windows est sa prise en charge pour permettre à une animation de se terminer avant qu’une autre ne commence, le cas échéant. Bien que cela élimine de nombreux problèmes logiques, elle introduit également une latence arbitraire dans l’interface utilisateur. Pour résoudre ce cas, les applications peuvent spécifier le délai le plus *long acceptable* pour le démarrage d’une table de montage séquentiel, à l’aide de la méthode [**IUIAnimationStoryboard :: SetLongestAcceptableDelay**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-setlongestacceptabledelay) , et le gestionnaire d’animations utilise ces informations pour planifier le Storyboard avant l’expiration de la période de latence spécifiée. Lorsqu’une table de montage séquentiel est planifiée, le gestionnaire d’animations détermine si d’autres storyboards doivent d’abord être annulés, supprimés, conclus et/ou compressés.
+l’une des pierres angulaires de la plateforme d’Animation Windows est sa prise en charge pour permettre à une animation de se terminer avant que l’autre ne commence, le cas échéant. Bien que cela élimine de nombreux problèmes logiques, elle introduit également une latence arbitraire dans l’interface utilisateur. Pour résoudre ce cas, les applications peuvent spécifier le délai le plus *long acceptable* pour le démarrage d’une table de montage séquentiel, à l’aide de la méthode [**IUIAnimationStoryboard :: SetLongestAcceptableDelay**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-setlongestacceptabledelay) , et le gestionnaire d’animations utilise ces informations pour planifier le Storyboard avant l’expiration de la période de latence spécifiée. Lorsqu’une table de montage séquentiel est planifiée, le gestionnaire d’animations détermine si d’autres storyboards doivent d’abord être annulés, supprimés, conclus et/ou compressés.
 
 Une application peut inscrire un gestionnaire qui sera appelé quand l’état d’une table de montage séquentiel change. Cela permet à l’application de répondre lorsque la création de la table de montage séquentiel démarre, s’exécute jusqu’à son achèvement, est entièrement supprimée de la planification ou ne peut pas se terminer en raison d’une interruption par un Storyboard de priorité plus élevée. Pour identifier les storyboards passés aux gestionnaires d’événements de Storyboard (ou comparaisons de priorité), une application peut utiliser la méthode [**IUIAnimationStoryboard :: SetTag**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-settag) pour appliquer des balises aux storyboards, similaires à celles qui peuvent être utilisées pour identifier des variables. Comme pour la réutilisation des storyboards, les développeurs doivent faire preuve de prudence lors de l’utilisation de balises pour identifier les storyboards, et vous assurer que les ambiguïtés ne se produisent pas lorsque des actions de l’utilisateur entraînent la mise en file d’attente de plusieurs storyboards.
 

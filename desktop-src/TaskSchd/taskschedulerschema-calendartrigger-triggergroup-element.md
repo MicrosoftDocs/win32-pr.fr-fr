@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 02c061d8821dffa82eca8756ab26acadc6bb9281
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d02b14fa056940a8139e87d9b471f6eaef84c311eb095073f274a9b4adf3c6dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119516969"
 ---
 # <a name="calendartrigger-triggergroup-element"></a>Élément CalendarTrigger (triggerGroup)
 
@@ -67,11 +67,11 @@ L’élément **CalendarTrigger** est défini par le type complexe [**calendarTr
 
 | Nom | Type | Description                               |
 |------|------|-------------------------------------------|
-| Id   | id   | Identificateur du déclencheur.<br/> |
+| Id   | ID   | Identificateur du déclencheur.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément [**StartBoundary**](taskschedulerschema-startboundary-triggerbasetype-element.md) est un élément requis pour les déclencheurs de temps et de calendrier ([**timetrigger**](taskschedulerschema-timetrigger-triggergroup-element.md) et **CalendarTrigger**).
 
@@ -101,8 +101,8 @@ Pour obtenir un exemple complet du code XML d’une tâche qui spécifie un déc
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a805f997f9dc87de1748718fe7099c42b03f56a7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 86ff03bff6cf61ae9d2737b4c8332337d1db3cc2255e6d7bb1ad34370d0a68c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706289"
 ---
 # <a name="dns-allow-dynamic-attribute"></a>Attribut DNS-autoriser-Dynamic
 
@@ -45,7 +45,7 @@ L’attribut **DNS-allow-Dynamic** n’est pas utilisé actuellement.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

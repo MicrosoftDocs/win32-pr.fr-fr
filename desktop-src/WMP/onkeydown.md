@@ -3,7 +3,7 @@ title: OnKeyDown
 description: Le gestionnaire d’événements OnKeyDown gère un événement qui se produit lorsqu’une touche est enfoncée.
 ms.assetid: a93b1394-461a-447c-a712-0bf736a98865
 keywords:
-- OnKeyDown lecteur Windows Media
+- onkeydown Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 418c89d92fbec4fd7df04e23cc18c09679362134
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4b658bd3b2abf9e2a8319e2edee33abe461fd7e701c2918952e86bc49ff84a6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647099"
 ---
 # <a name="onkeydown"></a>OnKeyDown
 
@@ -28,7 +28,7 @@ Le gestionnaire d’événements **OnKeyDown** gère un événement qui se produ
 onkeydown
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce gestionnaire d’événements n’est pas applicable à l’élément **playlist** , à l’élément **Effects** ou à l’élément **Video** when *Video*. **sans fenêtre** a la valeur false.
 

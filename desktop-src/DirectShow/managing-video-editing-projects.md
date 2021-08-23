@@ -4,18 +4,18 @@ ms.assetid: f8d74807-562f-429b-93a1-e65d0f15163b
 title: Gestion des projets de montage vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 491cfcb9a6e94874d2cae43567b61666bbd43cd3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe226f4fdc43889daac8e978086c67bd81c5d8d822902e7c041bf500f2836fb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584449"
 ---
 # <a name="managing-video-editing-projects"></a>Gestion des projets de montage vidéo
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-Les conseils suivants vous aideront à gérer les projets dans les [services de modification DirectShow](directshow-editing-services.md).
+les conseils suivants vous aideront à gérer les projets dans [DirectShow Services d’édition](directshow-editing-services.md).
 
 Modifications apportées à la chronologie
 
@@ -42,7 +42,7 @@ Modifications apportées à la chronologie
 
 <dl> <dt>
 
-[Utilisation des services de modification DirectShow](using-directshow-editing-services.md)
+[utilisation des Services de modification DirectShow](using-directshow-editing-services.md)
 </dt> </dl>
 
  

@@ -9,23 +9,23 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: fc7d8c78f77854a9adbedad7c0870721b3b037ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf98c11b285d4c7aa4705095af99f35c129e27311dbe19ff42e4b0d288c45efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451219"
 ---
 # <a name="connecting-to-a-device"></a>Connexion à un appareil
 
 > [!Note]  
-> Ce système de script a été remplacé par la couche d’automatisation de l’acquisition d’images Windows (WIA). Voir [couche d’automatisation de l’acquisition d’image Windows](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
+> ce système de script a été remplacé par la couche d’automatisation d’acquisition d’images Windows (WIA). consultez [Windows couche automatisation](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)de l’Acquisition d’images.
 
  
 
-La première étape d’une application ou d’un script qui utilise le modèle de script WIA (Windows Image Acquisition) consiste à créer l’objet [**WIA**](-wia-wia.md) . Cet objet fournit des méthodes pour obtenir une collection d’objets [**DeviceInfo**](-wia-deviceinfo.md) et connecter ces objets aux appareils. Il offre également la possibilité d’écouter les événements matériels WIA.
+la première étape d’une application ou d’un script qui utilise le modèle de script d’acquisition d’images Windows (wia) crée l’objet [**WIA**](-wia-wia.md) . Cet objet fournit des méthodes pour obtenir une collection d’objets [**DeviceInfo**](-wia-deviceinfo.md) et connecter ces objets aux appareils. Il offre également la possibilité d’écouter les événements matériels WIA.
 
-La ligne de code Microsoft Visual Basic Scripting Edition (VBScript) suivante crée l’objet [**WIA**](-wia-wia.md) :
+la ligne de code VBScript (Microsoft Visual Basic scripting Edition) suivante crée l’objet [**Wia**](-wia-wia.md) :
 
 
 ```

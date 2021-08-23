@@ -1,17 +1,17 @@
 ---
 description: Le système modifie la taille d’une fenêtre lorsque l’utilisateur choisit des commandes de menu fenêtre, telles que taille et agrandissement, ou lorsque l’application appelle des fonctions, telles que la fonction SetWindowPos.
 ms.assetid: 6f997cba-e4c9-4e27-8309-42b9892ec620
-title: Fenêtres redimensionnées
+title: Windows redimensionné
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f740191f8b85038f17a687ebc547305f882383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9efd6f71d1657c0d01b3df9101fc15fa35f54ecfc01b1588b696cd9110dad317
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602719"
 ---
-# <a name="resized-windows"></a>Fenêtres redimensionnées
+# <a name="resized-windows"></a>Windows redimensionné
 
 Le système modifie la taille d’une fenêtre lorsque l’utilisateur choisit des commandes de menu fenêtre, telles que taille et agrandissement, ou lorsque l’application appelle des fonctions, telles que la fonction [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos) . Quand une fenêtre change de taille, le système suppose que le contenu de la partie exposée précédemment dans la fenêtre n’est pas affecté et n’a pas besoin d’être redessiné. Le système invalide uniquement la partie récemment exposée de la fenêtre, ce qui permet de gagner du temps lorsque le message de [**\_ peinture WM**](wm-paint.md) éventuel est traité par l’application. Dans ce cas, **la \_ peinture WM** n’est pas générée lorsque la taille de la fenêtre est réduite.
 

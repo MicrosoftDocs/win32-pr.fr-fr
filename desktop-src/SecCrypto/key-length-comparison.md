@@ -4,12 +4,12 @@ ms.assetid: cd16705c-c617-4843-a303-52d1019a60bb
 title: Comparaison de la longueur de clé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a82bd4ffe942a58bba4c246f92e83fa1e1ef03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c65615f6ffb9679b922600c4617e401067d565ac7dd62a258ae07a757d2cec7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622344"
 ---
 # <a name="key-length-comparison"></a>Comparaison de la longueur de clé
 
@@ -21,7 +21,7 @@ Le tableau suivant répertorie les [*longueurs de clé*](../secgloss/k-gly.md) p
 
 | Algorithm                                                                                | Fournisseur de base | Fournisseurs forts et améliorés |
 |------------------------------------------------------------------------------------------|---------------|-------------------------------|
-| Échange de clés RSA                                                                         | 512 bits       | 1 024 bits                     |
+| Exchange de clé RSA                                                                         | 512 bits       | 1 024 bits                     |
 | Signature RSA                                                                            | 512 bits       | 1 024 bits                     |
 | RC2                                                                                      | 40 bits        | 128 bits                       |
 | RC4                                                                                      | 40 bits        | 128 bits                       |

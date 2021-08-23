@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 86ef0e22143ffd424ee3acee616504e45d8125bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 751e5f3256da82d2b7cae2da17a8b9dfb54bc5331ebf2679e745bc67c0b4d3b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524541"
 ---
 # <a name="msvm_ethernetswitchhardwareoffloadsettingdata-class"></a>MSVM \_ EthernetSwitchHardwareOffloadSettingData, classe
 
@@ -124,7 +124,7 @@ Qualificateurs : **WmiDataId** (6), **InterfaceVersion** (2), **InterfaceRevisi
 Indique si l’UC de l’unité centrale principale est exclue de la table d’indirection VRSS/VMMQ.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -145,7 +145,7 @@ Qualificateurs : **WmiDataId** (7), **InterfaceVersion** (2), **InterfaceRevisi
 Indique s’il faut toujours effectuer la répartition VRSS pour la file d’attente par défaut, quel que soit l’État RSS du vPort externe.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -166,7 +166,7 @@ Qualificateurs : **WmiDataId** (4), **InterfaceVersion** (2), **InterfaceRevisi
 Indique le nombre minimal de files d’attente utilisées pour VRSS/VMMQ.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -187,7 +187,7 @@ Qualificateurs : **WmiDataId** (5), **InterfaceVersion** (2), **InterfaceRevisi
 Indique comment les files d’attente VRSS/VMMQ sont directrices sur différents processeurs hôtes.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -199,7 +199,7 @@ Indique comment les files d’attente VRSS/VMMQ sont directrices sur différents
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: 5f622e09c2b82bc8de986dafcc83247617caec75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e860aafbef633e226933281aaaa0be5c6429387542e7c3ae2d65d3026fd7fe37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597599"
 ---
 # <a name="iwordsinkputword-method"></a>IWordSink ::P méthode utWord
 
@@ -85,7 +85,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Nous recommandons que la méthode **IWordSink ::P utword** contienne toujours le mot d’origine tel qu’il figure dans *pTextSource*. Les autres formes du mot sont passées à WordSink à l’aide de [**IWordSink ::P utaltword**](iwordsink-putaltword.md). Nous vous recommandons également de faire en sorte que les mots de *pwcInBuf* correspondent le mieux possible au texte source. Par exemple, conservez les majuscules et les accents lorsque cela est possible.
 

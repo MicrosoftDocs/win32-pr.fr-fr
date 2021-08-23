@@ -4,12 +4,12 @@ ms.assetid: 11d4fe8b-ec5f-4576-95e5-c86344f0195c
 title: Boîte de dialogue d’erreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a153f5e6ee38235f830937d794a9ca9b81314583
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff8582996ad4380d8adc62f684f638092857b45d464e7e8ef150c1fed141027f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692499"
 ---
 # <a name="error-dialog"></a>Boîte de dialogue d’erreur
 
@@ -30,13 +30,13 @@ Ces boutons doivent être placés à peu près à la même position dans la boî
 
 Pour une boîte de dialogue d’erreur, les \_ champs Control default et Control \_ Cancel de la [table Dialog](dialog-table.md) sont ignorés. Le \_ premier champ contrôle d’une boîte de dialogue d’erreur doit spécifier le contrôle ErrorText.
 
-Si un [contrôle Icon](icon-control.md) nommé ErrorIcon est inclus dans cette boîte de dialogue, les icônes Windows standard suivantes s’affichent :
+si un [contrôle Icon](icon-control.md) nommé ErrorIcon est inclus dans cette boîte de dialogue, les icônes de Windows standard suivantes s’affichent :
 
 -   \_Erreur IDI en réponse aux messages imtFatalExit.
 -   IDI \_ avertissement en réponse aux messages imtWarning et.
 -   IDI \_ les informations en réponse aux messages imtOutOfDiskSpace.
 
-Le contrôle ErrorIcon doit être créé avec l' [attribut de contrôle FixedSize](fixedsize-control-attribute.md) défini pour éviter le dimensionnement incorrect des icônes Windows standard.
+le contrôle ErrorIcon doit être créé avec l' [attribut de contrôle FixedSize](fixedsize-control-attribute.md) défini pour éviter le dimensionnement incorrect des icônes de Windows standard.
 
  
 

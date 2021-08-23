@@ -4,12 +4,12 @@ ms.assetid: c85f5994-8005-48c9-8a05-0316f48f4142
 title: Attribut MF_SOURCE_READER_DISCONNECT_MEDIASOURCE_ON_SHUTDOWN (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a9474e7fb19bb6531baf31a97238bbe6b10e46
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 323340a0b95fd6f52d4ac7e8db2e9ff53bf70edb30442369f1ffd8f2f2c55fa1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663889"
 ---
 # <a name="mf_source_reader_disconnect_mediasource_on_shutdown-attribute"></a>\_Lecteur source \_ MF \_ Disconnect \_ MEDIASOURCE \_ sur l' \_ attribut Shutdown
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique uniquement lorsque l’application crée le lecteur source à partir d’un objet source multimédia existant, en appelant [**MFCreateSourceReaderFromMediaSource**](/windows/desktop/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrommediasource) ou en appelant [**IMFReadWriteClassFactory :: CreateInstanceFromObject**](/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfreadwriteclassfactory-createinstancefromobject).
 
@@ -41,8 +41,8 @@ Si l’application crée le lecteur source à partir d’une URL ou d’un flux 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Mfreadwrite. h</dt> </dl> |
 
 

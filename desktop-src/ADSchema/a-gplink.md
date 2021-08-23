@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 487feeadcf1db97dc28695ba9dfcd497c2656a9a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9bdf975322ee1391abd4825326a2db05016ea0276a16c50cce92a4c53a4ccf6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705989"
 ---
 # <a name="gp-link-attribute"></a>Attribut GP-Link
 
@@ -45,7 +45,7 @@ Liste triée des options de stratégie de groupe. Chaque option est une **valeur
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -87,7 +87,7 @@ Liste triée des options de stratégie de groupe. Chaque option est une **valeur
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ Liste triée des options de stratégie de groupe. Chaque option est une **valeur
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ Liste triée des options de stratégie de groupe. Chaque option est une **valeur
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ Liste triée des options de stratégie de groupe. Chaque option est une **valeur
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ Liste triée des options de stratégie de groupe. Chaque option est une **valeur
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 

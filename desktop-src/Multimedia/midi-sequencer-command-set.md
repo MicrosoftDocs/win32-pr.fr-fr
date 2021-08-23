@@ -4,12 +4,12 @@ description: Jeu de commandes MIDI Sequencer
 ms.assetid: 8f5af706-0674-4ed1-855f-22f8d74361fd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bac1f9ca26a8e7e7e636c19ffa92d05281e16bd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a389c363d2efc58edf27f3174fa81d71e0aa5fac00b6efe70ef3c7fe8c1ceb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525079"
 ---
 # <a name="midi-sequencer-command-set"></a>Jeu de commandes MIDI Sequencer
 
@@ -23,7 +23,7 @@ Le séquenceur MIDI prend en charge l’ensemble de commandes suivant.
 | [**Faculté**](capability.md) | [**\_GETDEVCAPS MCI**](mci-getdevcaps.md) |
 | [**plus**](close.md)           | [**\_fermeture MCI**](mci-close.md)           |
 | [**méta**](info.md)             | [**\_infos MCI**](mci-info.md)             |
-| [**afficher**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
+| [**ouvert**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
 | [**suspen**](pause.md)           | [**\_Pause MCI**](mci-pause.md)           |
 | [**répétition**](play.md)             | [**\_lecture MCI**](mci-play.md)             |
 | [**enregistrement**](record.md)         | [**\_enregistrement MCI**](mci-record.md)         |
@@ -37,11 +37,11 @@ Le séquenceur MIDI prend en charge l’ensemble de commandes suivant.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

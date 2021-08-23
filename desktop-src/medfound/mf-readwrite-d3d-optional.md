@@ -4,12 +4,12 @@ ms.assetid: 3844ED7B-E1E5-4CD7-B080-FE7EC7B28AC5
 title: Attribut MF_READWRITE_D3D_OPTIONAL (Mfreadwrite. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b8c78295dd12e5d187c9be380305dc225d7e8e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cebc24991e5c2bfb90b7153f3a90a2e7447c2daef987b2956680e89f162223ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664109"
 ---
 # <a name="mf_readwrite_d3d_optional-attribute"></a>MF \_ ReadWrite de l' \_ \_ attribut facultatif D3D
 
@@ -19,7 +19,7 @@ Spécifie si l’application nécessite la prise en charge de Microsoft Direct3D
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique uniquement si l’application active la prise en charge Direct3D à l’aide de l’attribut du gestionnaire [ \_ \_ D3D du lecteur \_ \_ source MF](mf-source-reader-d3d-manager.md) ou du gestionnaire D3D du [récepteur du \_ récepteur \_ \_ \_ MF](mf-sink-writer-d3d-manager.md) .
 
@@ -35,8 +35,8 @@ Cet attribut est facultatif. La valeur par défaut est **FALSE**. Définissez l�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Mfreadwrite. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: a4ad7ca2-bab0-42f7-a098-a5ff6853b109
 title: Propriété AVEncInputVideoSystem (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8012b814a50f7c543b2b72682871fe29545d4b80
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 28970a5f4312503fa6a2c5f1e81d29ef7028ea3e7c214ffe08bb9e6729af4fcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689789"
 ---
 # <a name="avencinputvideosystem-property"></a>Propriété AVEncInputVideoSystem
 
@@ -35,8 +35,8 @@ La valeur de cette propriété est un membre de l’énumération [**eAVEncInput
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

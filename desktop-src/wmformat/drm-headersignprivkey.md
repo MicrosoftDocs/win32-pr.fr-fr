@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af73ea90acca6c20817f35a035f8f297aa56e90b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ab7f8cc90e509294d9de9d3577ad5a2d56b61eb3a471f9b493e555c0f1ecf824
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547609"
 ---
 # <a name="drm_headersignprivkey"></a>\_HEADERSIGNPRIVKEY DRM
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ HeaderSignPrivKey
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est générée à l’aide de [**IWMDRMWriter :: GenerateSigningKeyPair**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatesigningkeypair). Conservez ce secret clé et partagez la clé publique uniquement avec le service de licence. Une fois que vous avez défini cette clé, le composant DRM l’utilise pour signer l’en-tête de fichier ASF (pas l’en-tête DRM qui est signé avec les valeurs d’objet de signature numérique comme DRM \_ LASignaturePrivKey). Évidemment, **DRM \_ HeaderSignPrivKey** n’est pas inclus dans l’en-tête de fichier.
 
@@ -44,9 +44,9 @@ Cette propriété n’est pas accessible à partir de l’objet lecteur. Il peut
 [**Propriétés DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

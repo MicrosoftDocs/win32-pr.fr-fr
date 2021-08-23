@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 700baa4453d0ce88c2c6a316cef88244c6a96687
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 28a9440f2ef5dbb6ed4c1899b8439a442767ab1692acda2c38d280d56eb62be0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442339"
 ---
 # <a name="oem-information-attribute"></a>Attribut OEM-Information
 
@@ -45,7 +45,7 @@ Pour conserver les informations OEM. N'est plus utilisé. Ici pour la compatibil
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

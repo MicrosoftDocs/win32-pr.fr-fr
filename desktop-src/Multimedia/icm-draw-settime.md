@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_SETTIME (VFW. h)
-description: La \_ commande ICM Draw \_ setTime fournit des informations de synchronisation à un pilote de rendu qui gère le minutage des frames de dessin.
+description: le ICM \_ DRAW \_ SETTIME fournit des informations de synchronisation à un pilote de rendu qui gère le minutage des frames de dessin.
 ms.assetid: 211e8ecc-ef36-4598-aa1d-cb0a06e64f14
 keywords:
-- Message ICM_DRAW_SETTIME Windows Multimedia
+- message ICM_DRAW_SETTIME Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ce1e37709477ba6080219e5225b3fde02dfed75
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 62c291b736b0138386c235703c29fffdae470d011f55284e8aaac4c4cfd604a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691139"
 ---
-# <a name="icm_draw_settime-message"></a>\_Message de dessin de ICM ICM \_
+# <a name="icm_draw_settime-message"></a>ICM \_ DESSINER un \_ message setTime
 
-La commande **ICM \_ Draw \_ setTime** fournit des informations de synchronisation à un pilote de rendu qui gère le minutage des frames de dessin. Les informations de synchronisation sont le numéro d’exemple du cadre à dessiner. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawSetTime**](/windows/desktop/api/Vfw/nf-vfw-icdrawsettime) .
+le **ICM \_ DRAW \_ SETTIME** fournit des informations de synchronisation à un pilote de rendu qui gère le minutage des frames de dessin. Les informations de synchronisation sont le numéro d’exemple du cadre à dessiner. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawSetTime**](/windows/desktop/api/Vfw/nf-vfw-icdrawsettime) .
 
 
 ```C++
@@ -49,7 +49,7 @@ Exemple de numéro de l’image à afficher.
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En général, le pilote compare la valeur spécifiée avec le numéro de frame associé à l’heure de son horloge interne et tente de synchroniser les deux si la différence est importante.
 

@@ -17,12 +17,12 @@ keywords:
 - IWMDRMEditor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a8541444ad7704ecc340476929f1205f11ccd61
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 129f20457f2e359584e6c37eee499b902988f95c0993cf5cd31a85b81d60d162
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584819"
 ---
 # <a name="viewing-drm-attributes-in-the-metadata-editor"></a>Affichage des attributs DRM dans l’éditeur de métadonnées
 
@@ -31,7 +31,7 @@ L’éditeur de métadonnées expose l’interface IWMDRMEditor, qui permet aux 
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -43,9 +43,9 @@ L’éditeur de métadonnées expose l’interface IWMDRMEditor, qui permet aux 
 [**Interface IWMDRMEditor**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmeditor)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

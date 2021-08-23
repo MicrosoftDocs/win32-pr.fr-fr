@@ -4,12 +4,12 @@ ms.assetid: 2c5ab425-6959-418a-8d9a-c8155257fc7e
 title: Format de requête de recherche d’enregistrements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02b475c8a449e3bcd360df5757fef508b1a744d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23457cfde6955927b3efdcce5ae2dff94480c7cf56849b418547fe2503a36830
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119517959"
 ---
 # <a name="record-search-query-format"></a>Format de requête de recherche d’enregistrements
 
@@ -195,7 +195,7 @@ Certains caractères peuvent être utilisés pour exprimer des modèles correspo
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \*                | Caractère générique. Lorsque ce caractère est rencontré dans une valeur de clause, il correspond à 0-n caractères de n’importe quelle valeur, y compris les espaces blancs et les caractères non alphanumériques. Par exemple :<br/> «<clause attrib="peercreatorid" type="string" compare="equal">James P \* </clause>»<br/> Cette clause met en correspondance toutes les valeurs **peercreatorid** avec le prénom « James » et le nom de famille commençant par « P ».<br/> |
 | \\\*              | Astérisque placé dans une séquence d’échappement. Cette séquence correspond à un astérisque.                                                                                                                                                                                                                                                                                                                                                                       |
-| ?                 | Caractère générique à un seul caractère. Lorsque ce caractère est rencontré dans une valeur de clause, il correspond à n’importe quel caractère unique, y compris les espaces blancs et les caractères non alphanumériques. Par exemple :<br/> «<clause attrib="filename" type="string" compare="equal">données-0 ?. XML</clause>»<br/> Cette clause correspond aux valeurs de **nom de fichier** telles que « data-01.xml » et « data-0B.xml ».<br/>                              |
+| ?                 | Caractère générique à un seul caractère. Lorsque ce caractère est rencontré dans une valeur de clause, il correspond à n’importe quel caractère unique, y compris les espaces blancs et les caractères non alphanumériques. Par exemple :<br/> «<clause attrib="filename" type="string" compare="equal">Data-0 ? .xml</clause>»<br/> Cette clause correspond aux valeurs de **nom de fichier** telles que « data-01.xml » et « data-0B.xml ».<br/>                              |
 | \\?               | Point d’interrogation placé dans une séquence d’échappement. Cette séquence correspond à un caractère point d’interrogation.                                                                                                                                                                                                                                                                                                                                                              |
 | \\\\              | Barre oblique inverse placée dans une séquence d’échappement. Cette séquence correspond à une barre oblique inverse unique.                                                                                                                                                                                                                                                                                                                                                               |
 

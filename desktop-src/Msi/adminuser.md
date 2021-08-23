@@ -4,12 +4,12 @@ ms.assetid: 2e7fd269-bd5f-40b7-b123-36b9c783a917
 title: Propriété AdminUser
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11651f0d7103edabbcf7b40087db91f999b1a5b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f1b765aa4ece1bc19b5ed59e97a98ca4579042d52d65c0024ae018c794f9aaa3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581909"
 ---
 # <a name="adminuser-property"></a>Propriété AdminUser
 
@@ -17,7 +17,7 @@ Le programme d’installation définit cette propriété si l’utilisateur disp
 
 **Windows Server 2008 et Windows Vista :** La propriété **adminuser** est la même que la propriété [**Privileged**](privileged.md) . Les auteurs doivent utiliser la propriété **Privileged** . Le programme d’installation définit ces propriétés si l’utilisateur dispose de privilèges d’administrateur, si l’application a été affectée par un administrateur système, ou si les stratégies d’utilisateur et d’ordinateur AlwaysInstallElevated a sont définies sur true.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les différences entre ces propriétés peuvent avoir été utilisées dans certains packages hérités. Par exemple, **adminuser** peut avoir été utilisé à la place de [**Privileged**](privileged.md) dans des instructions conditionnelles, car le programme d’installation définit uniquement la propriété **adminuser** si l’utilisateur est un administrateur. Le programme d’installation définit la propriété **Privileged** si l’utilisateur est un administrateur ou si la stratégie permet à l’utilisateur d’installer avec des privilèges élevés.
 
@@ -31,7 +31,7 @@ Pour plus d’informations, consultez [installation d’un package avec des priv
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Vista ou Windows Server 2008. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Vista ou Windows Server 2008. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

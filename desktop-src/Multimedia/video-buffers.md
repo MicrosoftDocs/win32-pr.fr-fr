@@ -9,12 +9,12 @@ keywords:
 - capCaptureSetSetup macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71e2f3e5b56f995e6a09792260ac2fd6e1ba5cd7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 46a6493d22a495a56084e89d2b067c1cf9a874752b44b81f636b5a184b895199
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687689"
 ---
 # <a name="video-buffers"></a>Mémoires tampons vidéo
 
@@ -22,9 +22,9 @@ Les mémoires tampons utilisées avec la capture vidéo résident dans le segmen
 
 Vous pouvez récupérer la valeur actuelle des tampons vidéo demandés à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-get-sequence-setup.md) de la séquence de l’aide de WM (ou de la macro [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ). Le nombre demandé actuel de mémoires tampons vidéo est stocké dans le membre **wNumVideoRequested** de la structure **CAPTUREPARMS** . Vous pouvez demander le placement et le nombre de mémoires tampons en mettant à jour ce membre, puis en envoyant la structure **CAPTUREPARMS** mise à jour à la fenêtre de capture à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-set-sequence-setup.md) de la séquence de la définition de l’embout WM (ou de la macro [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ).
 
- 
+ 
 
- 
+ 
 
 
 

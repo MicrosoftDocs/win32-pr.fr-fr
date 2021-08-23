@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 289537abf29601caf2921b670428defbc494c9f5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c82aa5eb16aff76fbae8030e8995b6a7d5592777b11d11602eac3030f3aac84c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705959"
 ---
 # <a name="gp-options-attribute"></a>Attribut GP-Options
 
@@ -36,7 +36,7 @@ Options qui affectent toutes les stratégies de groupe associées à l’objet q
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.892               |
 | System-ID-GUID    | f30e3bbf-9ff0-11d1-b603-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Options qui affectent toutes les stratégies de groupe associées à l’objet q
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -87,7 +87,7 @@ Options qui affectent toutes les stratégies de groupe associées à l’objet q
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ Options qui affectent toutes les stratégies de groupe associées à l’objet q
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ Options qui affectent toutes les stratégies de groupe associées à l’objet q
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ Options qui affectent toutes les stratégies de groupe associées à l’objet q
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ Options qui affectent toutes les stratégies de groupe associées à l’objet q
 | Range-Upper            | \-                                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                                        |
-| Classes utilisées dans        | [**Configuré**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Configuration**](c-configuration.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> [**Sam-domaine**](c-samdomain.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d1a529c1c6ca4d7f81bf4d41fcdb4a7c7179874b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: df6e7c46f444fc99026e09fe39aa66271afba0565f268ed1c86b67e29f74c3bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631049"
 ---
 # <a name="d3dxquaternionln-function-d3dx9mathh"></a>D3DXQuaternionLn, fonction (D3dx9math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure [**D3DXQUATERNION**](d3dxquaternion.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXQUATERNION**](d3dxquaternion.md)\***
 
 Pointeur vers une structure [**D3DXQUATERNION**](d3dxquaternion.md) qui est le logarithme népérien.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La fonction **D3DXQuaternionLn** fonctionne uniquement pour les quaternions d’unité.
 

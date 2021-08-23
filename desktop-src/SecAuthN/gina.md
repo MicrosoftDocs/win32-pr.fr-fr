@@ -4,19 +4,19 @@ ms.assetid: 035e9c8b-2490-438d-8f02-7e0f039f960f
 title: GINA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 084a65ad42bdbe030e697481501a4dc60e54baef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dad8917a24100fbf5c6c36eab3bbfc5b67baf62b378f9207626378fe864b672
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623139"
 ---
 # <a name="gina"></a>GINA
 
 La bibliothèque [*Gina*](/windows/desktop/SecGloss/g-gly) fonctionne dans le [*contexte*](/windows/desktop/SecGloss/c-gly) du processus [*Winlogon*](/windows/desktop/SecGloss/w-gly) et, par conséquent, la DLL GINA est chargée très tôt dans le processus de démarrage. La DLL GINA doit suivre les règles afin que l’intégrité du système soit maintenue, en particulier en ce qui concerne l’interaction avec l’utilisateur.
 
 > [!Note]  
-> Les DLL GINA sont ignorées dans Windows Vista.
+> les dll GINA sont ignorées dans Windows Vista.
 
  
 
