@@ -41,7 +41,7 @@ Vous pouvez naviguer à partir de cette collection vers l’un des regroupements
 
 Vous pouvez accéder à cette collection à partir des regroupements suivants :
 
--   [**Composants**](components.md)
+-   [**Components**](components.md)
 
 ## <a name="properties"></a>Propriétés
 
@@ -144,7 +144,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
  
 
-### <a name="id"></a>ID
+### <a name="id"></a>id
 
 
 

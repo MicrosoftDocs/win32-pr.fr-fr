@@ -4,18 +4,18 @@ ms.assetid: 7b267f0b-b3f7-4729-bab4-de3bdd0a35a2
 title: WLAN_REASON_CODE (wlanapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba0ae705244541063564431809cffa953a0f3fd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f24b0ab902610408eb7b80b4a962fcc81d4598244714b8f30f0ebf350a7e628
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064559"
 ---
 # <a name="wlan_reason_code"></a>\_Code de raison WLAN \_
 
 Le type de **\_ \_ Code motif WLAN** indique la raison de l’échec d’une opération de réseau local sans fil.
 
-Vous pouvez utiliser la fonction [**WlanReasonCodeToString**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanreasoncodetostring) pour mapper un code de raison numérique (par exemple, 0x00050007) à sa signification textuelle. Vous pouvez également utiliser la table de recherche pour faciliter l’interprétation de la valeur numérique du code de raison. Pour afficher la table de recherche, consultez l’annexe E : mappage des codes motif aux messages d’événement dans le document [résolution des problèmes de connexion sans fil Windows Vista 802,11](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10)).
+Vous pouvez utiliser la fonction [**WlanReasonCodeToString**](/windows/desktop/api/wlanapi/nf-wlanapi-wlanreasoncodetostring) pour mapper un code de raison numérique (par exemple, 0x00050007) à sa signification textuelle. Vous pouvez également utiliser la table de recherche pour faciliter l’interprétation de la valeur numérique du code de raison. pour afficher la table de recherche, consultez l’annexe E : mappage des codes de raison aux messages d’événement dans le document [résolution des problèmes Windows les connexions sans fil Vista 802,11](/previous-versions/windows/it-pro/windows-vista/cc766215(v=ws.10)).
 
 
 ```C++
@@ -273,15 +273,15 @@ Le tableau suivant répertorie les codes de raison 802.1 X. Les éléments de sc
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Un ensemble limité de codes de raison est pris en charge sur Windows XP avec Service Pack 3 (SP3) et sur l’API de réseau local sans fil pour Windows XP avec Service Pack 2 (SP2). Les codes d’erreur de validation de profil pris en charge sur Windows XP avec SP3 et sur l’API de réseau local sans fil pour Windows XP avec SP2 sont les suivants :
+un ensemble limité de codes de raison est pris en charge sur Windows xp avec service pack 3 (SP3) et sur l’API de réseau local sans fil pour Windows XP avec service pack 2 (SP2). les codes d’erreur de validation de profil pris en charge sur Windows xp avec SP3 et sur l’API de réseau local sans fil pour Windows XP avec SP2 sont les suivants :
 
 -   \_Code motif WLAN- \_ \_ schéma de profil non valide \_ \_
 -   \_Profil du motif WLAN \_ \_ \_ manquant
 -   \_SSID du profil de motif WLAN \_ \_ \_ \_ non valide
 
-Les codes d’erreur de sécurité MSM pris en charge sur Windows XP avec SP3 et sur l’API de réseau local sans fil pour Windows XP avec SP2 sont les suivants :
+les codes d’erreur de sécurité MSM pris en charge sur Windows xp avec SP3 et sur l’API de réseau local sans fil pour Windows XP avec SP2 sont les suivants :
 
 -   \_Code motif \_ WLAN \_ MSMSEC \_ \_ index de \_ clé non valide \_
 -   \_Code motif \_ WLAN \_ \_ longueur de clé de profil MSMSEC \_ \_
@@ -294,7 +294,7 @@ Les codes d’erreur de sécurité MSM pris en charge sur Windows XP avec SP3 et
 -   \_Code motif \_ WLAN \_ MSMSEC du \_ profil \_ \_
 -   \_Code motif \_ WLAN \_ MSMSEC profil de motif \_ \_ incorrect \_
 
-Les codes d’erreur 802.1 x pris en charge sur Windows XP avec SP3 et sur l’API de réseau local sans fil pour Windows XP avec SP2 sont les suivants :
+les codes d’erreur 802.1 x pris en charge sur Windows xp avec SP3 et sur l’API de réseau local sans fil pour Windows XP avec SP2 sont les suivants :
 
 -   \_longueur du profil Onex \_ non valide \_
 -   \_ \_ \_ \_ type \_ ou \_ indicateur EAP non valide pour le profil Onex
@@ -308,7 +308,7 @@ Les codes d’erreur 802.1 x pris en charge sur Windows XP avec SP3 et sur l’A
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/>                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                 |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Wlanapi. h</dt> </dl> |
 

@@ -1,15 +1,15 @@
 ---
-description: Les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée type 23 quand les actions standard sont insuffisantes pour exécuter l’installation.
+description: les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée type 23 quand les actions standard sont insuffisantes pour exécuter l’installation.
 ms.assetid: 8219f157-585d-4733-8e10-c05813b398ba
 title: Type d’action personnalisé 23
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05576c44ab634dc117501a89e6b86594f5483458
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0eeeb7e1056b9644baecdc8a4e5da959ad7320c960ea1de2ad38f9868f6e4c4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637872"
 ---
 # <a name="custom-action-type-23"></a>Type d’action personnalisé 23
 
@@ -53,7 +53,7 @@ Non utilisé.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-L’état de retour de la sortie de l’utilisateur, de l’échec, de l’interruption ou de la réussite d’une installation simultanée est traité de la même façon que toute autre action. Notez toutefois que Windows Installer traduit les valeurs de retour de toutes les actions quand il écrit la valeur de retour dans le fichier journal. Par exemple, si la valeur de retour de l’action apparaît comme 1 dans le fichier journal, cela signifie que l’action a retourné une erreur de \_ réussite. Pour plus d’informations, consultez [journalisation des valeurs de retour d’action](logging-of-action-return-values.md).
+L’état de retour de la sortie de l’utilisateur, de l’échec, de l’interruption ou de la réussite d’une installation simultanée est traité de la même façon que toute autre action. notez toutefois que Windows Installer traduit les valeurs de retour de toutes les actions quand il écrit la valeur de retour dans le fichier journal. Par exemple, si la valeur de retour de l’action apparaît comme 1 dans le fichier journal, cela signifie que l’action a retourné une erreur de \_ réussite. Pour plus d’informations, consultez [journalisation des valeurs de retour d’action](logging-of-action-return-values.md).
 
 Notez que, si une installation simultanée a une **msidbCustomActionTypeContinue** définie, un retour de l’erreur d’installation de USEREXIT, une erreur d’installation de \_ \_ \_ \_ redémarrage, une erreur d' \_ installation de \_ redémarrage \_ maintenant ou une erreur de \_ redémarrage de la réussite \_ \_ requise est traitée comme une erreur de \_ réussite. Cela signifie que si vous définissez **msidbCustomActionTypeContinue** et que votre installation simultanée requiert un redémarrage, la nécessité du redémarrage sera ignorée. En outre, le code d’erreur de l’action personnalisée d’installation simultanée est ignoré.
 
@@ -71,7 +71,7 @@ Si **msidbCustomActionTypeContinue** n’est pas défini, les codes de retour su
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une expression conditionnelle est requise pour activer l’installation simultanée au niveau de l’installation ou de la suppression du composant ou de la fonctionnalité associé.
 

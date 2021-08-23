@@ -1,9 +1,9 @@
 ---
-title: Emplacement, attribut (kit de développement logiciel Windows Media Player)
+title: emplacement, attribut (Lecteur Windows Media SDK)
 description: L’attribut emplacement est l’emplacement géographique de la station radio ou \ 0034 ; net uniquement \ 0034 ;.
 ms.assetid: fdc0b68b-56a5-4027-a618-6811e7536766
 keywords:
-- Emplacement, attribut lecteur Windows Media
+- Lecteur Windows Media d’attribut d’emplacement
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bc502bc147c160dd8dd65cc1eb3c26bba0b1e1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b5955a0f638f9d71557736c5c834978710e36f046ff9b66a9f38d4ddd6e2d171
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135222"
 ---
 # <a name="location-attribute"></a>Emplacement (attribut)
 
@@ -27,7 +27,7 @@ L’attribut **emplacement** est l’emplacement géographique de la station rad
 
 -   [Éléments radio](radio-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
@@ -39,7 +39,7 @@ Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la 
 
 | Condition requise | Valeur |
 |--------------------|-----------------------------------------------|
-| Version<br/> | Windows Media Player 9 Series uniquement<br/> |
+| Version<br/> | série Lecteur Windows Media 9 uniquement<br/> |
 
 
 

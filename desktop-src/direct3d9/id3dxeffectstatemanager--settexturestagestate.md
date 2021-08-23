@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 937fd3f2b89dc093d9dceb9441f53d6be2cb06b5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5a74642d97532020679749d54924f4ab4052100d638d2bbd902b7b721fc75610
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520984"
 ---
 # <a name="id3dxeffectstatemanagersettexturestagestate-method"></a>ID3DXEffectStateManager :: SetTextureStageState, méthode
 
@@ -42,7 +42,7 @@ HRESULT SetTextureStageState(
 
 <dl> <dt>
 
-*Stage* \[in\]
+*Étape* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**

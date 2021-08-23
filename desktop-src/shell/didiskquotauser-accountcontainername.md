@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 5b9b0355-ea69-4c34-b0be-fc8e5855ec73
-ms.openlocfilehash: 1cb709ccc4fa0afcb56314bd097b1b0120b8b59a
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a7a439fe36262e7f73fd7b839fd60af5b1b0a9b05f77769ab1d6a8c5ee9d06fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119094230"
 ---
 # <a name="didiskquotauseraccountcontainername-property"></a>DIDiskQuotaUser. AccountContainerName, propriété
 
@@ -39,11 +39,11 @@ AccountContainerName = DIDiskQuotaUser.AccountContainerName
 
 Valeur de chaîne qui est définie sur le nom du conteneur de compte de l’utilisateur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour les comptes sans informations sur les services d’annuaire, cette propriété contient le nom de domaine. Pour les comptes avec les informations des services d’annuaire, cette propriété contient un nom canonique avec le nom de l’objet de fin supprimé.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

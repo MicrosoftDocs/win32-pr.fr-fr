@@ -3,7 +3,7 @@ title: Message TBM_SETBUDDY (commctrl. h)
 description: Assigne une fenêtre comme fenêtre associée pour un contrôle TrackBar. Les fenêtres de l’ami TrackBar s’affichent automatiquement à un emplacement relatif à l’orientation du contrôle (horizontale ou verticale).
 ms.assetid: ab35911f-bf81-47f3-98aa-0901aa877dea
 keywords:
-- TBM_SETBUDDY les contrôles de message Windows
+- TBM_SETBUDDY les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab33e53117933390d7a34ec75a49724003255108
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4f2586c84740cb2d5e8b1f1aadfb910cd241270d3e18363accf1f166c3c35ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167185"
 ---
 # <a name="tbm_setbuddy-message"></a>\_Message TBM SETBUDDY
 
@@ -58,7 +58,7 @@ Handle de la fenêtre qui sera définie en tant que Buddy du contrôle TrackBar.
 
 Retourne le handle de la fenêtre précédemment assignée au contrôle à cet emplacement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Les contrôles TrackBar prennent en charge jusqu’à deux fenêtres d’amis. Cela peut être utile lorsque vous devez afficher du texte ou des images à chaque extrémité du contrôle.
@@ -71,8 +71,8 @@ Retourne le handle de la fenêtre précédemment assignée au contrôle à cet e
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

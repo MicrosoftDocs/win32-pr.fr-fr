@@ -3,9 +3,9 @@ title: Méthode Media. getItemInfoByType
 description: La méthode getItemInfoByType récupère la valeur de l’attribut correspondant au nom, à la langue et à l’index spécifiés de l’attribut.
 ms.assetid: 9d3377c2-7ae8-48ce-a42e-9c965f6b79f9
 keywords:
-- méthode getItemInfoByType lecteur Windows Media
-- méthode getItemInfoByType lecteur Windows Media, classe multimédia
-- Classe multimédia lecteur Windows Media, méthode getItemInfoByType
+- Lecteur Windows Media de la méthode getItemInfoByType
+- méthode getItemInfoByType Lecteur Windows Media, classe multimédia
+- Lecteur Windows Media de classe de média, méthode getItemInfoByType
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2aff2bee7641075bbac1dd04526ee751ea077a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa180834d70c8dd078beafc360400c931e7058994f1cc46d4e9abb011987d158
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135122"
 ---
 # <a name="mediagetiteminfobytype-method"></a>Méthode Media. getItemInfoByType
 
@@ -47,7 +47,7 @@ retVal = Media.getItemInfoByType(
 *nom* \[ dans\]
 </dt> <dd>
 
-**Chaîne** contenant le nom de l’attribut. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+**Chaîne** contenant le nom de l’attribut. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ Cette méthode retourne un **nombre**, une **chaîne**, un objet **MetadataPictu
 
 Pour les attributs dont la valeur sous-jacente est **booléenne**, cette méthode retourne la chaîne « true » ou « false ».
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode récupère les métadonnées pour un élément multimédia numérique individuel ou un élément multimédia qui fait partie d’une sélection.
 
@@ -97,7 +97,7 @@ La méthode **getAttributeCountByType** retourne le nombre d’attributs qui cor
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Cette méthode peut provoquer des erreurs. Vous devez inclure le code de gestion des erreurs lorsque vous appelez cette méthode. Par exemple, dans JScript, vous pouvez implémenter la gestion des erreurs à l’aide du **bloc try... catch... finally** , structure.
+Cette méthode peut provoquer des erreurs. Vous devez inclure le code de gestion des erreurs lorsque vous appelez cette méthode. par exemple, dans JScript vous pouvez implémenter la gestion des erreurs à l’aide du **bloc try... catch... finally** , structure.
 
 **Lecteur Windows Media 10 Mobile :** Cette méthode n’est pas prise en charge.
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 2ec207b60eca8cc20f6f24e2bb08bb1e3b191fcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef50f3bfd83a0c2dd49eb0a15cdae31f25588106926e606887292c705602dd44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731420"
 ---
 # <a name="printer_info_5-structure"></a>\_Structure des infos sur l’imprimante \_ 5
 
@@ -82,7 +82,7 @@ Attributs de l’imprimante. Ce membre peut être une combinaison raisonnable de
 
  
 
-Dans Windows XP et les versions ultérieures de Windows, la valeur suivante peut également être utilisée.
+dans Windows XP et les versions ultérieures de Windows, la valeur suivante peut également être utilisée.
 
 | Valeur                   | Signification                                                                                                                                                                                           |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -92,7 +92,7 @@ Dans Windows XP et les versions ultérieures de Windows, la valeur suivante peut
 
  
 
-Dans Windows Vista et les versions ultérieures de Windows, les valeurs suivantes peuvent également être utilisées.
+dans Windows Vista et les versions ultérieures de Windows, les valeurs suivantes peuvent également être utilisées.
 
 | Valeur                               | Signification                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------|

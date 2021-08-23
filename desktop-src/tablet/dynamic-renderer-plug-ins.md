@@ -4,12 +4,12 @@ ms.assetid: ac6d15f3-0917-4cc1-8c83-e34d3d063289
 title: Plug-ins Dynamic-Renderer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11c3f1a33c3cd7faef2e899bcb198ea64aa5bd76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6426dfc9f1dae8561802d2cf6c5613fb786600504cc8600046c4df781239abf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104567766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092679"
 ---
 # <a name="dynamic-renderer-plug-ins"></a>Plug-ins Dynamic-Renderer
 
@@ -20,7 +20,7 @@ Un plug-in de rendu dynamique est un objet qui affiche les données du stylet en
 L’objet [**RealTimeStylus**](realtimestylus-class.md) implémente l’interface [**IStylusSyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylussyncplugin) . L’objet [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)) restitue l’encre en temps réel, lors de son dessin. Quand la méthode [**Refresh**](/windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-refresh) est appelée alors que l’objet **DynamicRenderer** est activé, l’objet **DynamicRenderer** redessine le trait en cours de collecte. La propriété [**Enabled**](/windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_enabled) de l’objet **DynamicRenderer** est initialement définie sur **false**.
 
 > [!Note]  
-> Lors de l’appel de la méthode [**Refresh**](/previous-versions/ms826370(v=msdn.10)) de l’objet [**DynamicRenderer**](/previous-versions/ms826345(v=msdn.10)) à partir d’un gestionnaire d’événements [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) dans du code managé, définissez la propriété [**ClipRectangle**](/previous-versions/ms826346(v=msdn.10)) de l’objet **DynamicRenderer** sur la propriété [ClipRectangle](/dotnet/api/system.windows.forms.painteventargs.cliprectangle?view=netcore-3.1) de l’objet [PaintEventArgs](/dotnet/api/system.windows.forms.painteventargs?view=netcore-3.1) .
+> lors de l’appel de la méthode [**Refresh**](/previous-versions/ms826370(v=msdn.10)) de l’objet [**dynamicrenderer**](/previous-versions/ms826345(v=msdn.10)) à partir d’un gestionnaire d’événements [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) dans du code managé, définissez la propriété [**cliprectangle**](/previous-versions/ms826346(v=msdn.10)) de l’objet **dynamicrenderer** sur la propriété [cliprectangle](/dotnet/api/system.windows.forms.painteventargs.cliprectangle?view=netcore-3.1) de l’objet [PaintEventArgs](/dotnet/api/system.windows.forms.painteventargs?view=netcore-3.1) .
 
  
 

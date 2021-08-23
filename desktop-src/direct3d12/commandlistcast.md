@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81a740258f74975fecac3e1a4df2412f1fae92f3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 977c7f70a3a69f228627bacb7429e6d1d0b5977242ccc2474c94393d028c573d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118807654"
 ---
 # <a name="commandlistcast-function"></a>CommandListCast fonction)
 
@@ -60,7 +60,7 @@ Type : **ID3D12CommandList \* const \***
 
 Liste de commandes fortement typées, réinterprétée comme un [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 CommandListCast effectue un **\_ cast de réinterprétation**. Le cast est valide tant que le caractère const de la liste de commandes est respecté.
 
@@ -78,7 +78,7 @@ inline ID3D12CommandList * const * CommandListCast(t_CommandListType * const * p
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

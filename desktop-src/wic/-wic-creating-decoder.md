@@ -1,19 +1,19 @@
 ---
-description: La rubrique présente le décodeur bitmap, un principal composant codec WIC (Windows Imaging Component) utilisé pour décoder les fichiers image d’un flux.
+description: la rubrique présente le décodeur bitmap, un principal composant codec WIC (Windows Imaging component) utilisé pour décoder les fichiers image d’un flux.
 ms.assetid: 9dc8d2ec-5cc5-45fa-8a4d-5bdc3072c90c
 title: Décodage, vue d’ensemble
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a15e6a9c914cfa220e1aad5bff4badeb8fc8cc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d14300c9857702ceff5f07fcc127a4ef4182f9e77ad46f0598edc12abf91f240
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711401"
 ---
 # <a name="decoding-overview"></a>Décodage, vue d’ensemble
 
-La rubrique présente le décodeur bitmap, un principal composant codec WIC (Windows Imaging Component) utilisé pour décoder les fichiers image d’un flux.
+la rubrique présente le décodeur bitmap, un principal composant codec WIC (Windows Imaging component) utilisé pour décoder les fichiers image d’un flux.
 
 Cette rubrique contient les sections suivantes.
 
@@ -95,7 +95,7 @@ L’une des principales fonctionnalités de WIC est un Framework d’extensibili
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Vue d’ensemble de l’encodage](-wic-creating-encoder.md)

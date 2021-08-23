@@ -3,7 +3,7 @@ title: TBN_HOTITEMCHANGE le code de notification (commctrl. h)
 description: Envoyé par un contrôle de barre d’outils lorsque l’élément réactif (en surbrillance) change. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 49e68e2a-d9c0-463d-954d-34c9adfad62b
 keywords:
-- Contrôles Windows de code de notification TBN_HOTITEMCHANGE
+- TBN_HOTITEMCHANGE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d314a7250128a0f3e6b3fed54e5765487619d8e2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b51765a3c0590b4584b817772cec73df626363dfce6a5ef472ceec6c3ea023f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167037"
 ---
 # <a name="tbn_hotitemchange-notification-code"></a>\_Code de notification TBN HOTITEMCHANGE
 
@@ -55,8 +55,8 @@ Retourne zéro pour permettre à l’élément d’être mis en surbrillance, ou
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: MetadataText. Text
 description: La propriété Text récupère le texte des métadonnées.
 ms.assetid: e6963df8-6c83-40c5-a442-5307850d15cf
 keywords:
-- MetadataText. Text lecteur Windows Media
+- MetadataText. text Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60aebaf8df3328d9263e7416f6fa2dfaae6e7826
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e88c6b32742b55e0e4d6988f603130100cedbb2992ce5d2b7600fc29fbbe0a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134992"
 ---
 # <a name="metadatatexttext"></a>MetadataText. Text
 
@@ -33,7 +33,7 @@ La propriété **Text** récupère le texte des métadonnées.
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

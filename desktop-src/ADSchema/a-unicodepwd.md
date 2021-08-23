@@ -58,10 +58,10 @@ Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Win
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
+| System-Only            | Faux                             |
 | Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -79,10 +79,10 @@ Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Win
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
+| System-Only            | Faux                             |
 | Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -100,10 +100,10 @@ Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Win
 |------------------------|-------------------------------------------------------------------|
 | ID de lien                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | False                                                             |
+| System-Only            | Faux                                                             |
 | Est de valeur unique       | True                                                              |
-| Est indexé             | False                                                             |
-| Dans le catalogue global      | False                                                             |
+| Est indexé             | Faux                                                             |
+| Dans le catalogue global      | Faux                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |
@@ -121,10 +121,10 @@ Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Win
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
+| System-Only            | Faux                             |
 | Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -142,10 +142,10 @@ Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Win
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
+| System-Only            | Faux                             |
 | Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -163,10 +163,10 @@ Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Win
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
+| System-Only            | Faux                             |
 | Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -184,10 +184,10 @@ Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Win
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | False                             |
+| System-Only            | Faux                             |
 | Est de valeur unique       | True                              |
-| Est indexé             | False                             |
-| Dans le catalogue global      | False                             |
+| Est indexé             | Faux                             |
+| Dans le catalogue global      | Faux                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |

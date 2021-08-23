@@ -1,6 +1,6 @@
 - name: Fonctionnalités d’accessibilité Windows
   href: about-windows-accessibility-features.md
-- name: Informations de référence sur les fonctionnalités d’accessibilité Windows
+- name: Windows Informations de référence sur les fonctionnalités d’accessibilité
   items:
     - name: Paramètres d’accessibilité
       items:
@@ -56,9 +56,9 @@
       href: checking-the-state-of-an-accessibility-parameter.md
     - name: Activation d’une fonctionnalité d’accessibilité intégrée
       href: enabling-a-built-in-accessibility-feature.md
-- name: Informations de référence sur l’API d’accessibilité Windows
+- name: Windows Informations de référence sur l’API d’accessibilité
   items:
-    - name: Vue d’ensemble de l’API d’accessibilité Windows
+    - name: Windows Vue d’ensemble de l’API d’accessibilité
       href: windows-automation-api-portal.md
     - name: Comparaison entre Microsoft Active Accessibility et UI Automation
       href: microsoft-active-accessibility-and-ui-automation-compared.md
@@ -108,7 +108,7 @@
                   href: uiauto-uiautomationtextunits.md
             - name: Prise en charge d’UI Automation pour le glisser-déplacer
               href: ui-automation-support-for-drag-and-drop.md
-            - name: Meilleures pratiques pour l’utilisation de groupes sécurisés
+            - name: meilleures pratiques pour l’utilisation de Coffre des tableaux
               href: uiauto-workingwithsafearrays.md
             - name: Spécification UI Automation et promesse de la communauté
               href: uiauto-specandcommunitypromise.md
@@ -2699,7 +2699,7 @@
                       href: checking-iaccessible-return-values.md
                     - name: Réception d’erreurs pour les pointeurs d’interface IAccessible
                       href: receiving-errors-for-iaccessible-interface-pointers.md
-                    - name: Mise à l’échelle de l’écran Active Accessibility et Windows Vista
+                    - name: mise à l’échelle de l’écran Active Accessibility et Windows Vista
                       href: active-accessibility-and-windows-vista-screen-scaling.md
                 - name: Guide du développeur pour les serveurs Active Accessibility
                   href: developer-s-guide-for-active-accessibility-servers.md
@@ -3106,14 +3106,14 @@
               href: appendix-b--standard-dialog-manager-support.md
             - name: "Annexe C\_: DISPID de IAccessible"
               href: appendix-c--iaccessible-dispids.md
-            - name: "Annexe D\_: notes pour les développeurs Visual Basic"
+            - name: "annexe D\_: Notes pour les développeurs Visual Basic"
               href: appendix-d--notes-for-visual-basic-developers.md
               items:
-                - name: "Remarques sur la méthode Visual Basic\_: accName"
+                - name: "Visual Basic Remarques sur la méthode\_: accName"
                   href: visual-basic-method-notes--accname.md
-                - name: "Remarques sur la méthode Visual Basic\_: accValue"
+                - name: "Visual Basic Remarques sur la méthode\_: accValue"
                   href: visual-basic-method-notes--accvalue.md
-                - name: Exemples de programmes Visual Basic
+                - name: Visual Basic Exemples de programmes
                   href: visual-basic-sample-programs.md
             - name: "Annexe E\_: attributs de texte pour Active Accessibility dictionnaire des services de texte"
               href: appendix-e--text-attributes-for-active-accessibility-text-services-dictionary.md
@@ -3170,16 +3170,16 @@
               href: implementing-iaccessibleex-for-providers.md
             - name: Utilisation de IAccessibleEx à partir d’un client
               href: using-iaccessibleex-from-a-client.md
-        - name: Accessibilité des contrôles ActiveX sans fenêtre
+        - name: accessibilité des contrôles ActiveX sans fenêtre
           href: windowless-activex-control-accessibility.md
           items:
-            - name: Comment utiliser UI Automation pour rendre un contrôle ActiveX sans fenêtre accessible
+            - name: comment utiliser UI Automation pour rendre un contrôle de ActiveX sans fenêtre Accessible
               href: use-ui-automation-to-make-an-windowless-activex-control-accessible.md
-            - name: Utiliser MSAA pour rendre un contrôle ActiveX sans fenêtre accessible
+            - name: utiliser MSAA pour rendre un contrôle de ActiveX sans fenêtre accessible
               href: use-msaa-to-make-an-windowless-activex-control-accessible.md
-            - name: Héberger un contrôle ActiveX UI Automation sans fenêtre
+            - name: héberger un contrôle de ActiveX sans fenêtre UI Automation
               href: host-a-ui-automation-windowless-activex-control.md
-            - name: Comment héberger un contrôle ActiveX sans fenêtre MSAA
+            - name: comment héberger un contrôle de ActiveX sans fenêtre MSAA
               href: host-an-msaa-windowless-activex-control.md
 - name: Meilleures pratiques d’accessibilité
   href: accessibility-best-practices.md

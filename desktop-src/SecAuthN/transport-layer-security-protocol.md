@@ -4,16 +4,16 @@ ms.assetid: af541a51-fabc-4abd-ae67-268bd984ab92
 title: Protocole TLS (Transport Layer Security)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf35fbfb59fee80617e6eccab66d7cec538e61ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bed6bc76b6a491105607c3110cda32723bbba75fdf55abe97f7667f397060209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915591"
 ---
 # <a name="transport-layer-security-protocol"></a>Protocole TLS (Transport Layer Security)
 
-Schannel prend en charge les versions 1,0, 1,1 et 1,2 du [*protocole TLS (Transport Layer Security)*](../secgloss/t-gly.md). Ce protocole est une norme de l’industrie conçue pour protéger la confidentialité des informations communiquées sur Internet. TLS suppose qu’un transport orienté connexion, généralement TCP, est en cours d’utilisation. Le protocole TLS permet aux applications client/serveur de détecter les risques de sécurité suivants :
+Schannel prend en charge les versions 1,0, 1,1 et 1,2 du [*protocole TLS (Transport Layer Security)*](../secgloss/t-gly.md). Ce protocole est un standard du secteur conçu pour protéger la confidentialité des informations communiquées sur Internet. TLS suppose qu’un transport orienté connexion, généralement TCP, est en cours d’utilisation. Le protocole TLS permet aux applications client/serveur de détecter les risques de sécurité suivants :
 
 -   Falsification des messages
 -   Interception des messages

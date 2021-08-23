@@ -4,12 +4,12 @@ description: Pour récupérer le nom de l’utilisateur associé soit avec un ap
 ms.assetid: aed410af-d5f0-4389-882b-5b4338b5f900
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d0aeb8df11187828be0865d6b73e08325f2e0e7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 98aeafc849e1a66b373fcb81af46ec47b49644c4b9c753fad480876180a5592a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566477"
 ---
 # <a name="retrieving-the-user-name"></a>Récupération du nom d’utilisateur
 
@@ -45,6 +45,6 @@ else
 
 Pour plus d’informations sur l’utilisation d’un gestionnaire d’erreurs défini par l’application, consultez [récupération des erreurs réseau](retrieving-network-errors.md).
 
- 
+ 
 
- 
+ 

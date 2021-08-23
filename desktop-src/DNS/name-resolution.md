@@ -4,20 +4,20 @@ description: L’objectif de DNS est de fournir la résolution de noms au proces
 ms.assetid: c15aa01c-6a4e-4685-ab26-605b58f829de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3fc310534c97a23b4b0dfb3231656b76bace31d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9d0dbdb297e97f8dd3040c1fd6c7a3915de004b5fcfed75a3e84c83e02a07aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162751"
 ---
 # <a name="name-resolution"></a>Résolution de noms
 
 L’objectif de DNS est de fournir la résolution de noms : le processus de comparaison d’un nom d’hôte (tel qu’un nom d’ordinateur) à une liste de RR et d’identifier l’adresse IP correspondante. La résolution de noms inversée est le processus qui consiste à comparer une adresse IP à une liste de RR et à identifier le nom d’hôte correspondant. Ces processus de résolution sont initiés lorsqu’un serveur DNS reçoit une requête.
 
- 
+ 
 
- 
+ 
 
 
 

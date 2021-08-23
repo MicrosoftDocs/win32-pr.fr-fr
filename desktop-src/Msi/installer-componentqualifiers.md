@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 0e6f58850974eaa2021578f0d56015ea0ef6d9e1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff11302b87c144d59129b7041ab75129477e7925b3dd98ce7c740f0c4eda62e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632603"
 ---
 # <a name="installercomponentqualifiers-property"></a>Installer. ComponentQualifiers, propriété
 
@@ -39,7 +39,7 @@ propVal = Installer.ComponentQualifiers
 
 GUID de chaîne qui représente la catégorie du [composant](publishcomponent-table.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour énumérer les qualificateurs, l’application itère au sein de l’objet [**StringList**](stringlist-object.md) à l’aide d’une construction for each. Étant donné que les qualificateurs ne sont pas triés, tout nouveau qualificateur a un index arbitraire, ce qui signifie que la fonction peut retourner des qualificateurs dans n’importe quel ordre.
 

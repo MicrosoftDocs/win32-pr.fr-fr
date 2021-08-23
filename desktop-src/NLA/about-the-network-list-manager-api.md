@@ -4,16 +4,16 @@ description: À propos de l’API du gestionnaire de listes de réseaux
 ms.assetid: 675cf7ed-9f57-4d62-8091-1f4e8812f2ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6230251e627671b7fd33adbf50b3904703bc9847
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 704bedb3a1029c2be3c123c65a896b1765f191b886af9b354d747abd5e1698e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065171"
 ---
 # <a name="about-the-network-list-manager-api"></a>À propos de l’API du gestionnaire de listes de réseaux
 
-L’environnement réseau Microsoft Windows permet aux ordinateurs multirésidents de se connecter simultanément à plusieurs réseaux. Il peut y avoir plusieurs réseaux sans fil disponibles, ainsi que des connexions de réseau local et d’accès à distance. Le gestionnaire de listes de réseaux identifie les réseaux disponibles et retourne les données d’attribut réseau à l’application.
+l’environnement réseau Microsoft Windows permet aux ordinateurs multirésidents de se connecter simultanément à plusieurs réseaux. Il peut y avoir plusieurs réseaux sans fil disponibles, ainsi que des connexions de réseau local et d’accès à distance. Le gestionnaire de listes de réseaux identifie les réseaux disponibles et retourne les données d’attribut réseau à l’application.
 
 L’API du gestionnaire de listes de réseaux interagit avec le service Network List Manager pour identifier et récupérer les propriétés de chaque réseau auquel le PC se connecte. Chaque réseau est identifié de manière unique par une signature réseau basée sur les propriétés identifiables de manière unique de ce réseau. Lorsqu’une application s’inscrit pour les notifications du gestionnaire de liste de réseaux, l’application reçoit des notifications sur la disponibilité de nouvelles connexions réseau ou des modifications apportées aux connexions réseau existantes. Les applications peuvent ajuster leur logique en fonction du réseau auquel elles sont connectées ; la connexion réseau à laquelle ils sont connectés ; ou les propriétés du réseau. Avec ces informations, les applications peuvent affiner leurs actions en fonction des conditions actuelles du réseau.
 
@@ -43,9 +43,9 @@ void main()
 
 
 
- 
+ 
 
- 
+ 
 
 
 

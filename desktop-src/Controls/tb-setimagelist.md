@@ -3,7 +3,7 @@ title: Message TB_SETIMAGELIST (commctrl. h)
 description: Définit la liste d’images utilisée par la barre d’outils pour afficher les boutons dont l’État par défaut est.
 ms.assetid: 432ffdfc-bb63-4405-90da-9392910fdbb6
 keywords:
-- TB_SETIMAGELIST les contrôles de message Windows
+- TB_SETIMAGELIST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb0b7ad631e8b56824ae65a2b262c5478611e75f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6a7110084f2abe39cbae51815d1e59972cb016ea267275f0481d21e1f8b908a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167459"
 ---
 # <a name="tb_setimagelist-message"></a>TO \_ SETIMAGELIST message
 
@@ -47,7 +47,7 @@ Handle de la liste d’images à définir. Si ce paramètre a la **valeur null**
 
 Retourne le handle de la liste d’images utilisée précédemment pour afficher les boutons dans leur état par défaut, ou **null** si aucune liste d’images n’a été définie précédemment.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Votre application est chargée de libérer la liste d’images après la destruction de la barre d’outils.
@@ -107,8 +107,8 @@ Enfin, les boutons sont ajoutés au contrôle Toolbar avec un message [**\_ ADDB
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

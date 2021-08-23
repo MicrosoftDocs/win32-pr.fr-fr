@@ -4,12 +4,12 @@ ms.assetid: fbd7bdf0-63b4-48d1-be91-eabbbb3f1618
 title: Objets sInk et tInk
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ef7ed1c06d256fe8eda9fad4bf15afa19fcb833
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8e25e1f258ac789382475666878c986f5053323a1b19bf8f4b6110c096f2fd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091298"
 ---
 # <a name="sink-and-tink-objects"></a>Objets sInk et tInk
 
@@ -22,7 +22,7 @@ Ces objets peuvent être utilisés pour l’interopérabilité entre les applica
 
 Vous pouvez utiliser les objets tInk et sInk des manières suivantes :
 
--   Les objets tInk et sInk sont pris en charge dans Microsoft Word 2002. Les utilisateurs peuvent insérer de l’encre dans un document Word à l’aide des panneaux de saisie de texte d’écriture et de dessin fournis dans Word 2002. Cette encre est incorporée dans le fichier Word en tant qu’objet OLE avec le CLSID de l’objet récepteur ou tInk.
+-   les objets tInk et sInk sont pris en charge dans Microsoft Word 2002. Les utilisateurs peuvent insérer de l’encre dans un document Word à l’aide des panneaux de saisie de texte d’écriture et de dessin fournis dans Word 2002. Cette encre est incorporée dans le fichier Word en tant qu’objet OLE avec le CLSID de l’objet récepteur ou tInk.
 -   Le contrôle de Tablet PC [InkEdit](/previous-versions/ms552265(v=vs.100)) utilise l’objet Tink. Le contrôle InkEdit est une sous-classe du contrôle [RichTextBox](/dotnet/api/system.windows.forms.richtextbox?view=netcore-3.1) standard. L’entrée manuscrite est insérée dans le flux RTF du contrôle InkEdit en tant qu’objet tInk.
 -   Lorsqu’une application déplace un objet [Ink](/previous-versions/aa515768(v=msdn.10)) sélectionné dans le presse-papiers, l’emplacement OLE Object Clipboard contient un objet OLE TInk ou sInk.
 

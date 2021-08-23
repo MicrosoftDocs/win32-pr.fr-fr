@@ -4,12 +4,12 @@ ms.assetid: af59e1b8-0699-4031-895f-415752611e21
 title: Nom de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fc049fa0808efc180afbd715e311a124bfdada9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19d125a1151520fb4d3b885bd815b0a5bf58d2b00ec61581fc7773f1da1bd29e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636203"
 ---
 # <a name="filename"></a>Nom de fichier
 
@@ -20,7 +20,7 @@ Pour inclure un nom de fichier long avec le nom de fichier Short, séparez-le du
 Par exemple, les deux chaînes suivantes sont valides :
 
 -   status.txt
--   Project ~1.txt\| Status.txt de projet
+-   project ~1.txt\| Project Status.txt
 
 Les noms de fichiers courts et longs ne doivent pas contenir les caractères suivants :
 

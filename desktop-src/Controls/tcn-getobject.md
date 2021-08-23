@@ -3,7 +3,7 @@ title: TCN_GETOBJECT le code de notification (commctrl. h)
 description: Envoyé par un contrôle onglet lorsqu’il a le \_ \_ style étendu TCS ex REGISTERDROP et qu’un objet est glissé sur un élément d’onglet dans le contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 0beddabe-0e97-4fe7-bcf7-adaba0d72dfe
 keywords:
-- Contrôles Windows de code de notification TCN_GETOBJECT
+- TCN_GETOBJECT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e442a122397db717b25e71b17487866227476ad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0bf5ec3a314a7380ccff5f8613145c890f8f304d73289ad5354b8668a09070b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166902"
 ---
 # <a name="tcn_getobject-notification-code"></a>\_Code de notification TCN GETOBJECT
 
@@ -55,8 +55,8 @@ L’application traitant ce code de notification doit retourner zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

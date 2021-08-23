@@ -29,11 +29,11 @@ Contient les données binaires encodées en base64 de l’objet Ink d’un [**In
 
 ## <a name="child-elements"></a>Éléments enfants
 
-Aucune.
+Aucun.
 
 ## <a name="attributes"></a>Attributs
 
-Aucune.
+Aucun.
 
 ## <a name="element-information"></a>Informations sur les éléments
 

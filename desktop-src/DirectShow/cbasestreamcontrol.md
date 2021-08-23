@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c20a4f08040bdb2c71bdd8f09aa657719228efa5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb1d8d747d88a416792d59af79af41c047cb51aa61688aef9d6b105790bbae8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157199"
 ---
 # <a name="cbasestreamcontrol-class"></a>CBaseStreamControl, classe
 
@@ -55,12 +55,12 @@ Veillez à remplacer **NonDelegatingQueryInteface** pour exposer **IAMStreamCont
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe requiert le code confidentiel et le filtre propriétaire pour notifier la classe lorsque divers événements se produisent, tels que le filtre qui rejoint le graphique ou la réception d’une nouvelle horloge de référence. Vous devez appeler les méthodes de classe suivantes :
 
 -   Dans la méthode [**IMediaFilter :: SetSyncSource**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-setsyncsource) du filtre, appelez la méthode [**CBaseStreamControl :: SetSyncSource**](cbasestreamcontrol-setsyncsource.md) . Cette méthode notifie la classe de l’horloge de référence actuelle.
--   Dans la méthode [**CBaseFilter :: JoinFilterGraph**](cbasefilter-joinfiltergraph.md) du filtre, appelez la méthode [**CBaseStreamControl :: SetFilterGraph**](cbasestreamcontrol-setfiltergraph.md) . Cette méthode donne à la classe un pointeur vers le gestionnaire de graphes de filtres, afin que la classe puisse envoyer les événements de contrôle de flux appropriés.
+-   Dans la méthode [**CBaseFilter :: JoinFilterGraph**](cbasefilter-joinfiltergraph.md) du filtre, appelez la méthode [**CBaseStreamControl :: SetFilterGraph**](cbasestreamcontrol-setfiltergraph.md) . cette méthode donne à la classe un pointeur vers le gestionnaire de Graph de filtre, afin que la classe puisse envoyer les événements de contrôle de flux appropriés.
 -   Chaque fois que le filtre change d’État (en en cours d’exécution, suspendu ou arrêté), appelez la méthode [**CBaseStreamControl :: NotifyFilterState**](cbasestreamcontrol-notifyfilterstate.md) .
 -   Dans les méthodes [**IPIN :: BeginFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-beginflush) et [**IPIN :: EndFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) du pin, appelez la méthode [**CBaseStreamControl :: Flush**](cbasestreamcontrol-flushing.md) .
 
@@ -72,7 +72,7 @@ La `CBaseStreamControl` classe utilise l’horloge de référence du graphique d
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Strmctl. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Strmctl. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

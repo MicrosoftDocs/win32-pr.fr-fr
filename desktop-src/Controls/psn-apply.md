@@ -3,7 +3,7 @@ title: PSN_APPLY le code de notification (Prsht. h)
 description: Envoyé à chaque page de la feuille de propriétés pour indiquer que l’utilisateur a cliqué sur le bouton OK, fermer ou appliquer et souhaite que toutes les modifications soient prises en compte. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 18da6bdb-9409-49b6-8116-580fedd99a02
 keywords:
-- Contrôles Windows de code de notification PSN_APPLY
+- PSN_APPLY les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13d8206b4e423fb01be3277a9dd0ca3a49b59129
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 522d4a0ea52f4cee495e689e8f0cdc91d7362ec3a1ee37ab81a911bc980d3209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118410035"
 ---
 # <a name="psn_apply-notification-code"></a>PSN \_ appliquer le code de notification
 
@@ -54,7 +54,7 @@ Définissez PSNRET \_ NOERROR pour indiquer que les modifications apportées à 
 
 Pour définir la valeur de retour, la procédure de la boîte de dialogue de la page doit appeler la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec la \_ valeur de MSGRESULT DWL, et la procédure de boîte de dialogue doit retourner **true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand l’utilisateur clique sur le bouton OK, appliquer ou fermer, la feuille de propriétés envoie une notification [PSN \_ KILLACTIVE](psn-killactive.md) à la page active, ce qui lui donne la possibilité de valider les modifications de l’utilisateur. Si les modifications sont valides, la feuille de propriétés envoie un \_ Code de notification d’application PSN à chaque page, en la dirigeant pour appliquer les nouvelles propriétés à l’élément correspondant.
 
@@ -84,8 +84,8 @@ Pour recevoir ce code de notification, une page doit définir la \_ valeur DWL M
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 
