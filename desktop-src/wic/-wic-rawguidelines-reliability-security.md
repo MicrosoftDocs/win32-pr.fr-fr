@@ -4,18 +4,18 @@ ms.assetid: 1cbfabce-3d56-4e23-b9a7-02369c67e392
 title: Fiabilité et sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0f0e4a244de2c1463cdadb76162c18b041812b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a4704b84d09698fd6fabcf2d190050063ec3b3190904aa669fa78799c5d0158
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441729"
 ---
 # <a name="reliability-and-security"></a>Fiabilité et sécurité
 
-Étant donné que les codecs du composant Windows Imaging Component (WIC) sont appelés à partir de l’interpréteur de commandes Windows et de la Galerie de photos, les auteurs de codec doivent faire tout leur possible pour garantir un haut niveau de fiabilité et de sécurité dans leurs codecs WIC.
+étant donné que les codecs du composant de création d’images (WIC) de Windows sont appelés à partir de l’interpréteur de commandes Windows et de la galerie de photos, les auteurs de codec doivent faire tout leur possible pour garantir un haut niveau de fiabilité et de sécurité dans leurs codecs WIC.
 
-L’écriture de code fiable dépend en grande partie des bonnes pratiques de codage, des revues de code efficaces et des tests d’unités rigoureux et des tests de scénario. En outre, les instructions suivantes permettent de s’assurer que le codec est conforme aux stratégies Windows Vista en matière de fiabilité.
+L’écriture de code fiable dépend en grande partie des bonnes pratiques de codage, des revues de code efficaces et des tests d’unités rigoureux et des tests de scénario. en outre, les instructions suivantes permettent de s’assurer que le codec est conforme aux stratégies Windows Vista en matière de fiabilité.
 
 -   Activez l’annulation d’e/s.
 
@@ -23,7 +23,7 @@ L’écriture de code fiable dépend en grande partie des bonnes pratiques de co
 
 -   Assurez-vous que le code s’exécute dans la plus petite portée requise pour exécuter sa fonction.
 
-    Les auteurs de codec doivent s’assurer que le codec ne consomme pas plus de ressources que nécessaire, ou avoir une étendue supérieure à celle requise. La portée d’un codec dans WIC est un fichier image unique. le codec est créé lors du chargement d’un fichier image et le codec est libéré lorsque l’image est fermée. Étant donné que WIC est une plateforme extensible basée sur des composants, les codecs WIC comportent des chargements et des déchargements qui se chevauchent, et démarrent et s’arrêtent, le tout dans le même processus. Si l’infrastructure sous-jacente d’un codec nécessite des opérations de démarrage et d’arrêt dans une étendue supérieure à une seule image, la fiabilité sera affectée. Les codecs compatibles WIC seront utilisés par l’Explorateur Windows, ainsi que par d’autres applications. Par conséquent, si un codec reste chargé pendant la durée de vie du processus, la mémoire n’est pas libérée efficacement et une défaillance du codec peut bloquer l’Explorateur Windows et éventuellement nécessiter le redémarrage de l’ordinateur. (Tenez compte du fait que le codec est appelé chaque fois qu’une image est miniature pour la première fois dans l’Explorateur Windows : il est essentiel qu’il s’agit d’une opération légère.)
+    Les auteurs de codec doivent s’assurer que le codec ne consomme pas plus de ressources que nécessaire, ou avoir une étendue supérieure à celle requise. La portée d’un codec dans WIC est un fichier image unique. le codec est créé lors du chargement d’un fichier image et le codec est libéré lorsque l’image est fermée. Étant donné que WIC est une plateforme extensible basée sur des composants, les codecs WIC comportent des chargements et des déchargements qui se chevauchent, et démarrent et s’arrêtent, le tout dans le même processus. Si l’infrastructure sous-jacente d’un codec nécessite des opérations de démarrage et d’arrêt dans une étendue supérieure à une seule image, la fiabilité sera affectée. les codecs compatibles WIC seront utilisés par l’explorateur de Windows, ainsi que par d’autres applications. par conséquent, si un codec reste chargé pendant la durée de vie du processus, la mémoire n’est pas libérée de manière efficace et une défaillance du codec peut se bloquer Windows explorateur et éventuellement exiger le redémarrage de l’ordinateur. (considérez que le codec est appelé chaque fois qu’une image est miniature pour la première fois dans l’explorateur de Windows : il est essentiel qu’il s’agit d’une opération légère).
 
 -   Utilisez les outils d’analyse du code statiques et dynamiques.
 
@@ -57,7 +57,7 @@ L’écriture de code fiable dépend en grande partie des bonnes pratiques de co
 
 -   Sécurité des threads.
 
-    À compter de Windows 7, WIC exige que les CODECs BRUTs soient de type cloisonnement COM « both ». Cela signifie que vous devez effectuer le verrouillage approprié pour gérer les appelants inter-cloisonnement et les appelants dans les scénarios multithread. Les objets d’un cloisonnement multithread (MTA) peuvent être appelés simultanément par un nombre quelconque de threads dans le MTA, ce qui permet de meilleures performances sur les systèmes à plusieurs cœurs et certains scénarios de serveur. En outre, les CODECs WIC qui résident dans un MTA peuvent appeler d’autres objets qui résident dans le MTA sans le coût de marshaling associé à l’appel entre les threads qui résident dans différents Apartments STA. Dans Windows 7, tous les CODECs WIC intégrés ont été mis à jour pour prendre en charge les MTA, y compris JPEG, TIFF, PNG, GIF, ICO et BMP. les CODECs tiers qui ne prennent pas en charge les MTA entraînent des coûts de performances significatifs dans les applications multithread en raison du marshaling. L’activation de la prise en charge de MTA nécessite une synchronisation appropriée à implémenter dans le CODEC tiers. L’implémentation exacte de ces techniques de synchronisation dépasse le cadre de ce document. Vous trouverez ci-dessous une référence générale pour la synchronisation des objets COM.
+    à partir de Windows 7, WIC exige que les codecs bruts soient de type cloisonnement COM « Both ». Cela signifie que vous devez effectuer le verrouillage approprié pour gérer les appelants inter-cloisonnement et les appelants dans les scénarios multithread. Les objets d’un cloisonnement multithread (MTA) peuvent être appelés simultanément par un nombre quelconque de threads dans le MTA, ce qui permet de meilleures performances sur les systèmes à plusieurs cœurs et certains scénarios de serveur. En outre, les CODECs WIC qui résident dans un MTA peuvent appeler d’autres objets qui résident dans le MTA sans le coût de marshaling associé à l’appel entre les threads qui résident dans différents Apartments STA. dans Windows 7, tous les codecs WIC intégrés ont été mis à jour pour prendre en charge les mta, y compris JPEG, TIFF, PNG, GIF, ICO et BMP. les CODECs tiers qui ne prennent pas en charge les MTA entraînent des coûts de performances significatifs dans les applications multithread en raison du marshaling. L’activation de la prise en charge de MTA nécessite une synchronisation appropriée à implémenter dans le CODEC tiers. L’implémentation exacte de ces techniques de synchronisation dépasse le cadre de ce document. Vous trouverez ci-dessous une référence générale pour la synchronisation des objets COM.
 
     https://msdn.microsoft.com/library/ms809971.aspx
 
@@ -68,7 +68,7 @@ L’écriture de code fiable dépend en grande partie des bonnes pratiques de co
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Recommandations de WIC pour les formats d’image RAW Camera](-wic-rawguidelines.md)

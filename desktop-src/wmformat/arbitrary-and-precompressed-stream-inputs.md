@@ -17,16 +17,16 @@ keywords:
 - flux, entrées de flux précompressées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe1c95fe992c7638ac923ac07ce159fb5dc4126
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: eb0129362e8dc01b7ccf3faabbf10e22ffd4eccc082782796059b3cf4578c33a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "106513514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119448269"
 ---
 # <a name="arbitrary-and-precompressed-stream-inputs"></a>Entrées de flux arbitraires et précompressés
 
-Seules les entrées qui doivent être compressées par l’un des codecs Windows Media ont plusieurs entrées possibles. Les autres types d’entrées possibles sont les entrées arbitraires et les entrées précompressées. La configuration requise pour les formats d’entrée pour ces types est décrite dans cette section.
+seules les entrées qui doivent être compressées par l’un des codecs de média Windows ont plusieurs entrées possibles. Les autres types d’entrées possibles sont les entrées arbitraires et les entrées précompressées. La configuration requise pour les formats d’entrée pour ces types est décrite dans cette section.
 
 ## <a name="arbitrary-stream-inputs"></a>Entrées de flux arbitraires
 
@@ -45,9 +45,9 @@ Lorsque vous utilisez des flux précompressés, vous devez copier manuellement l
 [**Utilisation des entrées**](working-with-inputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,11 +3,11 @@ title: Référence sur l’audio Waveform
 description: Cette section répertorie les fonctions, structures et messages associés à la forme d’onde audio, qui sont documentées sous référence multimédia. Ces éléments sont regroupés comme suit.
 ms.assetid: 723953f7-b38e-4f24-8d54-9849e013011d
 keywords:
-- Windows Multimedia, référence audio Waveform
+- Windows multimédia, référence audio de forme d’onde
 - multimédia, référence audio de forme d’onde
 - audio multimédia, référence de forme d’onde
 - audio, référence de forme d’onde
-- Multimédia Windows, Waveform Audio
+- Windows multimédia, audio waveform
 - multimédia, audio Waveform
 - audio multimédia, forme d’onde
 - audio, forme d’onde
@@ -36,12 +36,12 @@ keywords:
 - informations de référence sur l’audio wavefore, enregistrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c74b37984b2d3fab5dad1ea0df4f1f62dfa1855e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4fd83f843de130d247749acfc87a67c60948871bb8cd878f9aa180fcd385fb13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687419"
 ---
 # <a name="waveform-audio-reference"></a>Référence sur l’audio Waveform
 
@@ -61,7 +61,7 @@ Cette section répertorie les fonctions, structures et messages associés à la 
 -   [**PlaySound**](/previous-versions//dd743680(v=vs.85))
 -   [**sndPlaySound**](/previous-versions//dd798676(v=vs.85))
 
-## <a name="errors"></a>Erreurs
+## <a name="errors"></a>Errors
 
 -   [**waveInGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-waveingeterrortext)
 -   [**waveOutGetErrorText**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgeterrortext)
@@ -161,6 +161,6 @@ Cette section répertorie les fonctions, structures et messages associés à la 
 [Sons Waveform](waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

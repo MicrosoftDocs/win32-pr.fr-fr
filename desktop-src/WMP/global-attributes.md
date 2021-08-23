@@ -1,27 +1,27 @@
 ---
-title: Attributs globaux (Windows Media Player SDK)
+title: attributs globaux (kit de développement logiciel Lecteur Windows Media)
 description: Attributs globaux
 ms.assetid: 2ed09506-990e-4da2-89d6-6ff77dc43eb2
 keywords:
-- Apparences du lecteur Windows Media, attributs globaux
+- apparences de Lecteur Windows Media, attributs globaux
 - apparences, attributs globaux
 - informations de référence sur les apparences, les attributs globaux
 - attributs globaux
 - attributs, globaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19c3f7a605b5c277b3207cefbbeaaa641f81f026
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 69c2d52b6489a28eff20e3a7e5c7180fc9e2db9309c0fe42880bfc779a23f563
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104381109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648079"
 ---
 # <a name="global-attributes"></a>Attributs globaux
 
 Les attributs globaux sont des attributs qui permettent d’accéder facilement à certains éléments ou objets de joueur depuis n’importe quel emplacement d’une apparence.
 
-L’attribut global **Player** est une référence à l’objet [Player](player-object.md) et est utilisé pour accéder aux fonctionnalités principales du lecteur Windows Media. L’exemple suivant utilise **Player** pour commencer la lecture des médias numériques.
+l’attribut global **player** est une référence à l’objet [player](player-object.md) et est utilisé pour accéder aux fonctionnalités principales de Lecteur Windows Media. L’exemple suivant utilise **Player** pour commencer la lecture des médias numériques.
 
 
 ```C++
@@ -92,9 +92,9 @@ Pour plus d’informations, consultez [attributs d’événement ambiant](ambien
 [**Divers**](miscellaneous.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

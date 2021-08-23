@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e87c73e5ef7adafd9caab00bf257fe8a7afc3c33
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f58aabc0bd222b22ee74cb0b431ce8051ed6bad546d963160c922bd86dee2383
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629149"
 ---
 # <a name="sessionformatrecord-method"></a>Session. FormatRecord, méthode
 
@@ -50,7 +50,7 @@ Objet **Record** requis contenant un modèle et des données à mettre en forme.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **FormatRecord** utilise le processus de format suivant.
 

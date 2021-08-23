@@ -4,12 +4,12 @@ description: Création et optimisations de GUID
 ms.assetid: 698322f2-db89-4553-90c6-4278e96716dc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdc113675bae329d862c0b504851d4732243a84c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 82dc1b0cc52312768759daca35824f8e7e515629131ac2c301a17d7ae99d6455
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731429"
 ---
 # <a name="guid-creation-and-optimizations"></a>Création et optimisations de GUID
 
@@ -54,9 +54,9 @@ Outre l’amélioration des performances du système, la génération de blocs d
 [Responsabilités du serveur COM](com-server-responsibilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

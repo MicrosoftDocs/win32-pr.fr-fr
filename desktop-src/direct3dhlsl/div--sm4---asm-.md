@@ -4,12 +4,12 @@ description: Division au niveau du composant.
 ms.assetid: B086F069-8F43-4746-A6A5-8F4462212648
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d406c5e61b4615990b445abe169619227d22124c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 0a1df4e40032a2eaa2c4ef89ca5d1e227b4ebc35bbc8b13d7868eda5ea7a5b07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625769"
 ---
 # <a name="div-sm4---asm"></a>div (SM4-ASM)
 

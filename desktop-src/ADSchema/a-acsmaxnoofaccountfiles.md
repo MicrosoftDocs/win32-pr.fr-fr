@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 344e85d9818681382b639fbc866b8afbaf100cde
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 421ec88ff1bea38251a581fe98cb4a2bd81323f19595d69dd4a3958ce25afe2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545309"
 ---
 # <a name="acs-max-no-of-account-files-attribute"></a>Attribut ACS-Max-no-of-Account-Files
 
@@ -36,7 +36,7 @@ Nombre maximal de fichiers de compte RSVP.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.901               |
 | System-ID-GUID    | f0722310-aef5-11d1-bdcf-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Nombre maximal de fichiers de compte RSVP.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

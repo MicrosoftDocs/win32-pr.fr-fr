@@ -3,7 +3,7 @@ title: Message HDM_SETIMAGELIST (commctrl. h)
 description: Affecte une liste d’images à un contrôle d’en-tête existant. Vous pouvez envoyer ce message explicitement ou utiliser la macro d’en-tête \_ SetImageList ou d’en-tête \_ SetStateImageList.
 ms.assetid: 1d7f07fa-f6f4-422a-949c-97d0388343e3
 keywords:
-- HDM_SETIMAGELIST les contrôles de message Windows
+- HDM_SETIMAGELIST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17fe21d64b141cf27d32e00fac0ce78228421518
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2034a6880721914961b3bd75907df2e7b4e53360ccb3b10162f238068d85031d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435809"
 ---
 # <a name="hdm_setimagelist-message"></a>\_Message HDM SETIMAGELIST
 
@@ -57,8 +57,8 @@ Retourne le handle de la liste d’images précédemment associée au contrôle.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

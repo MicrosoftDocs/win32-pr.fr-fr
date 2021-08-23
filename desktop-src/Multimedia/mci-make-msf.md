@@ -3,7 +3,7 @@ title: Macro MCI_MAKE_MSF (Mciapi. h)
 description: La \_ macro MCI make \_ crée une valeur d’heure en minutes compactées/secondes/images (MSF) à partir des valeurs de minutes, de secondes et de frames données.
 ms.assetid: 8c981d84-b049-4448-a820-bff30896065e
 keywords:
-- MCI_MAKE_MSF macro multimédia Windows
+- MCI_MAKE_MSF macro Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae7e8566986337d6b9b5161c85bcc62cecc52be0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e16f5cfa2b99f7bdbd7eb3029b3f0186904d8b8e94f455614464fadc98cdd20a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690129"
 ---
 # <a name="mci_make_msf-macro"></a>\_Créer une \_ macro pour MCI
 
@@ -67,7 +67,7 @@ Nombre de frames.
 
 Retourne l’heure au format MSF compressé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’heure au format MSF est exprimée sous la forme d’une valeur **DWORD** avec l’octet le moins significatif contenant les minutes, le prochain octet le moins significatif contenant les secondes et le prochain octet le moins significatif contenant les frames. L’octet le plus significatif n’est pas utilisé.
 

@@ -1,15 +1,15 @@
 ---
-description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre C, tels que fichier CAB et somme de contrôle.
+description: en savoir plus sur les concepts de Windows Installer qui commencent par la lettre C, tels que fichier cab et somme de contrôle.
 ms.assetid: f98d19c5-5187-4718-b241-3ec69454c2d6
 title: C (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47e7af99ad32d8dff7f4e8509976b0004045477b
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 2fb0e9a1f14a3b2a7f47722d8db3e3d9cb8356df500e54dbf581bd919afb5765
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581779"
 ---
 # <a name="c-windows-installer"></a>C (Windows Installer)
 
@@ -62,7 +62,7 @@ Méthode utilisée par le programme d’installation pour déterminer l’espace
 <span id="_msi_.cub_file_gly"></span><span id="_MSI_.CUB_FILE_GLY"></span>**fichier. CUB**
 </dt> <dd>
 
-Module de validation qui stocke et fournit l’accès aux actions personnalisées ICE. Pour plus d’informations, consultez [exemple de fichier. CUB](sample--cub-file.md). Pour plus d’informations, consultez également [Windows Installer extensions de fichier](windows-installer-file-extensions.md).
+Module de validation qui stocke et fournit l’accès aux actions personnalisées ICE. Pour plus d’informations, consultez [exemple de fichier. CUB](sample--cub-file.md). pour plus d’informations, consultez également [Windows Installer Extensions de fichier](windows-installer-file-extensions.md).
 
 </dd> <dt>
 

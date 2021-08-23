@@ -20,16 +20,16 @@ keywords:
 - redémarrage de la lecture Waveform-Audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d6a4756a08317923056114259588a95bc62e97f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b04491a676a104e288d274da7dd70eb759e363adc6476805b261a9651444bf1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688489"
 ---
 # <a name="stopping-pausing-and-restarting-playback"></a>Arrêt, suspension et redémarrage de la lecture
 
-Vous pouvez arrêter ou suspendre la lecture pendant la lecture de l’audio Wave. Une fois la lecture suspendue, vous pouvez la redémarrer. Windows fournit les fonctions suivantes pour contrôler la lecture des signaux Wave-audio.
+Vous pouvez arrêter ou suspendre la lecture pendant la lecture de l’audio Wave. Une fois la lecture suspendue, vous pouvez la redémarrer. Windows fournit les fonctions suivantes pour contrôler la lecture des signaux wave-audio.
 
 
 
@@ -41,7 +41,7 @@ Vous pouvez arrêter ou suspendre la lecture pendant la lecture de l’audio Wav
 
 
 
- 
+ 
 
 La suspension d’un périphérique Wave-audio à l’aide de [**waveOutPause**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutpause) peut ne pas être instantanée. le pilote peut terminer la lecture du bloc actuel avant la suspension de la lecture.
 
@@ -49,6 +49,6 @@ En général, dès que le premier bloc de données Waveform Audio est envoyé à
 
 Vous ne pouvez pas utiliser **waveOutRestart** pour redémarrer un appareil qui a été arrêté avec [**waveOutReset**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutreset); vous devez utiliser **waveOutWrite** pour envoyer le premier bloc de données afin de reprendre la lecture sur l’appareil.
 
- 
+ 
 
- 
+ 

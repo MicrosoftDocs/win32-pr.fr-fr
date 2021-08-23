@@ -4,17 +4,17 @@ ms.assetid: 48b80a66-91c1-973f-069b-6f63422d7154
 title: 'Procédure : diffuser un son en continu à partir du disque'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0c5598e8913514d6b0bf81b55bab5b481dbc43b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15ee06866427a8efcdd3e132740d595ec547f55a592182ebfbdced0feefca793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707099"
 ---
 # <a name="how-to-stream-a-sound-from-disk"></a>Procédure : diffuser un son en continu à partir du disque
 
 > [!Note]  
-> Ce contenu s’applique uniquement aux applications de bureau et nécessite une révision pour fonctionner dans une application Windows Store. Reportez-vous à la documentation de **CreateFile2**, [CreateEventEx](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [WaitForSingleObjectEx](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [SetFilePointerEx](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)et **GetOverlappedResultEx**. Consultez l’exemple StreamEffect Windows 8 dans la [Galerie d’exemples SDK Windows](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20stream%20effect%20sample%20(Windows%208)).
+> ce contenu s’applique uniquement aux applications de bureau et nécessite une révision pour fonctionner dans une application Windows Store. Reportez-vous à la documentation de **CreateFile2**, [CreateEventEx](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [WaitForSingleObjectEx](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [SetFilePointerEx](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)et **GetOverlappedResultEx**. consultez l’exemple de Windows 8 StreamEffect dans la [galerie d’exemples SDK Windows](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20stream%20effect%20sample%20(Windows%208)).
 
  
 

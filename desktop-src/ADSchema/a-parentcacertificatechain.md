@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62f27bacb77fb7ab3f1ae712920dace7cb525efc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0e70d168bc9a16bffe1a0675c04d335c27ffeff89f53937b1507b01ce41486f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647819"
 ---
 # <a name="parent-ca-certificate-chain-attribute"></a>Attribut parent-CA-Certificate-chaine
 
@@ -45,7 +45,7 @@ Certificat X. 509v3 encodé DER pour l’autorité de certification parente.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

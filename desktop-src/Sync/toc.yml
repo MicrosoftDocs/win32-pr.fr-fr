@@ -1,4 +1,4 @@
-- name: Synchronization
+- name: Synchronisation
   href: synchronization.md
   items:
     - name: Nouveautés de la synchronisation

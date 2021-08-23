@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1269a2ceb83c51ac7050cedf8426621ddb21de6c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f71a62504035341648deac5df48955ec54c87af717b718f8273f4de8182ae58d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508709"
 ---
 # <a name="ms-spp-confirmation-id-attribute"></a>attribut ms-SPP-confirmation-ID
 

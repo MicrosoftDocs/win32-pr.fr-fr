@@ -1,19 +1,19 @@
 ---
 title: Constantes, énumérations et indicateurs de WIC
-description: Cette section contient des informations sur les constantes, énumérations et indicateurs de la WIC (Windows Imaging Component).
+description: cette section contient des informations sur les constantes, les énumérations et les constantes du composant Windows Imaging Component (WIC).
 ms.assetid: a3f44919-bd55-48cf-9dc6-37de0059a639
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d16386f1ba21ed138ad746f3fa9725d91bb68d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee9718641dd0e0e9159a6da9998e0109e4ec97fa366b1e9cba35f9d5f1065ac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549629"
 ---
 # <a name="wic-constants-enumerations-and-flags"></a>Constantes, énumérations et indicateurs de WIC
 
-Cette section contient des informations sur les constantes, énumérations et indicateurs de la WIC (Windows Imaging Component).
+cette section contient des informations sur les constantes, les énumérations et les constantes du composant Windows Imaging Component (WIC).
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -78,7 +78,7 @@ Cette section contient des informations sur les constantes, énumérations et in
 | [**WICRawParameterSet**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawparameterset)<br/>                                             | Spécifie le jeu de paramètres utilisé par un codec brut.<br/>                                                                                                     |
 | [**WICRawRenderMode**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawrendermode)<br/>                                                 | Spécifie l’intention de rendu de l’appel [**CopyPixels**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-copypixels) suivant. <br/>                                          |
 | [**WICRawRotationCapabilities**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawrotationcapabilities)<br/>                             | Spécifie les fonctionnalités de rotation du codec.<br/>                                                                                                    |
-| [**WICSectionAccessLevel**](/windows/desktop/api/Wincodec/ne-wincodec-wicsectionaccesslevel)<br/>                                       | Spécifie le niveau d’accès d’une section Windows Graphics Device Interface (GDI).<br/>                                                                     |
+| [**WICSectionAccessLevel**](/windows/desktop/api/Wincodec/ne-wincodec-wicsectionaccesslevel)<br/>                                       | spécifie le niveau d’accès d’une section Windows Graphics Device Interface (GDI).<br/>                                                                     |
 | [**WICTiffCompressionOption**](/windows/desktop/api/Wincodec/ne-wincodec-wictiffcompressionoption)<br/>                                 | Spécifie les options de compression TIFF (Tagged Image File Format).<br/>                                                                                   |
 
 

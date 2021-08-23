@@ -4,12 +4,12 @@ ms.assetid: e5509be1-5294-4696-ab5b-fa2217ae0956
 title: PNRP et WSANSPIoctl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c36dc53fb3d00eeaa2b74be643a7ea62af436e93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2cc07415fb483e75af8d836274d45a2c53f205e3aae15f893f909d2363c0d15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553309"
 ---
 # <a name="pnrp-and-wsanspioctl"></a>PNRP et WSANSPIoctl
 
@@ -18,7 +18,7 @@ PNRP utilise la fonction [**WSANSPIoctl**](winsock-nsp-reference-links.md) pour 
 -   Liste de clouds réseau
 -   Disponibilité des résultats d’une demande de résolution de noms
 
-Le premier appel à [**WSALookupServiceBegin**](winsock-nsp-reference-links.md) définit le type d’informations sur lequel un client est averti. Un client peut être notifié à l’aide d’un message Windows, d’une routine de saisie semi-automatique, d’un handle vers un objet WSAEVENT ou d’un port. Pour plus d’informations sur les options et la définition du paramètre *lpCompletion* , consultez **WSANSPIoctl**.
+Le premier appel à [**WSALookupServiceBegin**](winsock-nsp-reference-links.md) définit le type d’informations sur lequel un client est averti. un client peut être averti avec un message Windows, une routine de saisie semi-automatique, un handle vers un objet WSAEVENT ou un port. Pour plus d’informations sur les options et la définition du paramètre *lpCompletion* , consultez **WSANSPIoctl**.
 
 Pour continuer à recevoir des notifications après un appel à [**WSALookupServiceNext**](winsock-nsp-reference-links.md), une application doit à nouveau appeler **WSANSPIoctl** .
 

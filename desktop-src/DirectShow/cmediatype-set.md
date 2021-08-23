@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f9bf14132660045afbd171173a38d3ea320ba1aa
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 0a317b23b4870ad6e68032ed23f846a81019be358974ebbe75e2a5859db71303
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106539931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585879"
 ---
 # <a name="cmediatypeset-method-mtypeh---cmtype-ref-parameter"></a>CMediaType. Set, méthode (mtype. h)-cmtype [ref], paramètre
 
@@ -53,7 +53,7 @@ Référence à un objet [**CMediaType**](cmediatype.md) .
 
 Retourne S \_ OK ou E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode copie l’intégralité du type de média à partir de *cmtype*.
 
@@ -61,7 +61,7 @@ Cette méthode copie l’intégralité du type de média à partir de *cmtype*.
 
 | Condition requise                   | Valeur                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête  | Mtype. h (include streams. h)                                                                                     |
+| En-tête  | Mtype. h (include Flux. h)                                                                                     |
 | Bibliothèque | Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

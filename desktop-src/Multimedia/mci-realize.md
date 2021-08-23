@@ -3,7 +3,7 @@ title: Commande MCI_REALIZE (mmsystem. h)
 description: La \_ commande MCI réalise fait en sorte qu’un appareil graphique réalise sa palette dans un contexte de périphérique (DC). Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: cbc9e6ef-a372-4ddb-b7f3-ea99ac14ec95
 keywords:
-- Commande MCI_REALIZE Windows multimédia
+- commande MCI_REALIZE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35f2e59bfe9bbe1443f55ae0fbcf8819b932bb1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e81204fe679d543438a0d0dcc7ec333462cb6a3d0c30212706969dc22a143df1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689829"
 ---
 # <a name="mci_realize-command"></a>\_Commande MCI réalise
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez utiliser cette commande lorsque votre application reçoit le message [**WM \_ QUERYNEWPALETTE**](/windows/desktop/gdi/wm-querynewpalette) .
 
@@ -100,7 +100,7 @@ Pour les périphériques vidéo numériques, le paramètre *lpRealize* pointe ve
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

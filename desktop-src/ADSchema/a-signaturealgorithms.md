@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6487155ed8d13735a8201a41c9d1d5b087bb3711
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1d95ca49ca53a40fcad6270e882e27c091b2b06e22199ebdb9e76af83fac1c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104200619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645749"
 ---
 # <a name="signature-algorithms-attribute"></a>Attribut Signature-Algorithms
 
@@ -45,7 +45,7 @@ Cet attribut indique le type d’algorithme qui doit être utilisé pour décode
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

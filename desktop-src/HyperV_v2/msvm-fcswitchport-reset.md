@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f37de79ab639c8b78a440c5993d951eb79e5deb4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 763d7bff520566bc3117ce22ad83df04f430a470e599c55af1ac5eb6a6cf9052
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523349"
 ---
 # <a name="reset-method-of-the-msvm_fcswitchport-class"></a>Méthode Reset de la \_ classe MSVM FcSwitchPort
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

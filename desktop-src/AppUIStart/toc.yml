@@ -1,4 +1,4 @@
-- name: Prise en main développement d’interfaces utilisateur pour les applications Windows
+- name: Prise en main développement d’Interfaces utilisateur pour les Applications Windows
   href: getting-started-developing-user-interfaces-portal.md
   items:
     - name: Vue d’ensemble du processus de développement de l’interface utilisateur
@@ -23,7 +23,7 @@
           href: user-interface-technologies-for-windows-applications.md
     - name: Test d’une interface utilisateur
       href: testing-a-user-interface.md
-    - name: "Considérations relatives à la sécurité\_: interface utilisateur Windows"
+    - name: "considérations relatives à la sécurité\_: Windows Interface utilisateur"
       href: sec-ui.md
     - name: Autres ressources
       href: other-resources.md

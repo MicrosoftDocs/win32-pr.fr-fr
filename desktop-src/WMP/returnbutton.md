@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 75a1ddad5e3844c32e2b46d03badc4b00af4c773
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e54cb405e9bed39bb893ca4bdba2b3da45060cf84e7cbb61a2e634c645ef7daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646809"
 ---
 # <a name="returnbutton"></a>RETURNBUTTON
 
@@ -29,7 +29,7 @@ onclick="jscript:view.returnToMediaCenter();"
 upToolTip="Return to Full Mode"
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cela crée un contrôle **Button** qui retourne le lecteur au Media Center. Les info-bulles sont localisées. Toutes les propriétés de ce **bouton** peuvent être remplacées en les spécifiant explicitement.
 

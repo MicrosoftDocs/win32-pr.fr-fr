@@ -4,12 +4,12 @@ ms.assetid: 2f469332-6b3e-475a-9ec6-782e1e445672
 title: Spécification du protocole d’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e9bb2ec20df1ec398f32f3a1ee17334c10d9735
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 86c4688894543a45f49c4af470658da97e30a159c47025398ac7c7ae5e0620e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610509"
 ---
 # <a name="specifying-the-authentication-protocol"></a>Spécification du protocole d’authentification
 

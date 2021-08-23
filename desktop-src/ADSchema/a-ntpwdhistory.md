@@ -1,6 +1,6 @@
 ---
 title: Attribut NT-pwd-History
-description: Historique du mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). Windows 2000 utilise Windows NT OWF.
+description: Historique des mots de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Windows 2000 utilise le Windows NT OWF.
 ms.assetid: 7c6a0fe2-561e-43a2-af46-7505e7e13288
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f41ed3196109d13d4fb6cfae7e23be7ffdfb8c7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2f247358e95b804330f245cf86ba2390c54da17e015060a0ea65a80566383558
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648179"
 ---
 # <a name="nt-pwd-history-attribute"></a>Attribut NT-pwd-History
 
-Historique du mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). Windows 2000 utilise Windows NT OWF.
+Historique des mots de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Windows 2000 utilise le Windows NT OWF.
 
 
 
@@ -46,7 +46,7 @@ Historique du mot de passe de l’utilisateur dans le format à sens unique Wind
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

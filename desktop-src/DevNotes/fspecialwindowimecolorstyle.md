@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 6fb667186789361a106a23f8daa82088b9bcb2ff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c42a8f4cf61b2b61d228dc243d06e902d825040570f4baa6502f2feba0322ae2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691339"
 ---
 # <a name="fspecialwindowimecolorstyle-function"></a>FSpecialWindowIMEColorStyle fonction)
 
@@ -50,7 +50,7 @@ Une structure **IMECOLORSTY** retournée à partir d’une fonction [**PColorSty
 
 Retourne la **valeur true** lorsque la couleur est une couleur de fenêtre spéciale (une couleur spéciale).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

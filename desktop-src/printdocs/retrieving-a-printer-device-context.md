@@ -4,12 +4,12 @@ ms.assetid: b3eb9c48-f4c4-42f1-b189-1fa42670008e
 title: 'Comment : récupérer un contexte de périphérique d’impression'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39fde55450273e42f3429f173150296fdd67a1c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f723ece0e00d58ed684029e0eb3202d637443bd7f0e9d8878024346b9d79ba9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600559"
 ---
 # <a name="how-to-retrieve-a-printer-device-context"></a>Comment : récupérer un contexte de périphérique d’impression
 
@@ -112,7 +112,7 @@ Pour obtenir un exemple de code illustrant l’utilisation de [**PrintDlgEx**](/
 
 ### <a name="using-the-printdlg-function"></a>Utilisation de la fonction PrintDlg
 
-Si votre application doit s’exécuter sur un système qui ne prend pas en charge la fonction [**PrintDlgEx**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) , par exemple sur un système qui exécute une version de Windows antérieure à Windows 2000, ou qui n’a pas besoin des fonctionnalités supplémentaires fournies par la fonction **PrintDlgEx** , utilisez la fonction [**PrintDlg**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) . Les étapes suivantes décrivent comment afficher la boîte de dialogue d' **impression** commune de style plus ancien.
+si votre application doit s’exécuter sur un système qui ne prend pas en charge la fonction [**PrintDlgEx**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) , par exemple sur un système qui exécute une version de Windows antérieure à Windows 2000, ou qui n’a pas besoin des fonctionnalités supplémentaires fournies par la fonction **PrintDlgEx** , utilisez la fonction [**PrintDlg**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) . Les étapes suivantes décrivent comment afficher la boîte de dialogue d' **impression** commune de style plus ancien.
 
 1.  Initialisez la structure de données [**PRINTDLG**](/windows/win32/api/commdlg/ns-commdlg-printdlga) .
 2.  Appelez [**PrintDlg**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) pour afficher la boîte de dialogue d' **impression** commune à l’utilisateur.

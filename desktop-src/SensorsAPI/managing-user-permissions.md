@@ -4,28 +4,28 @@ ms.assetid: c755edcf-18c1-43d5-9dfe-c073e1f96b5f
 title: Gestion des autorisations utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb65fa5a9962be4850aa4711cafa03fb7658212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f02fac57959b493683d0fe0a007602e5a7af3f78dc959d0e7eca2811595c23dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576249"
 ---
 # <a name="managing-user-permissions"></a>Gestion des autorisations utilisateur
 
 L’API de capteur fournit une méthode que vous pouvez utiliser pour inviter l’utilisateur à entrer des autorisations d’utilisation d’un capteur ou d’une collection de capteurs.
 
-Étant donné que les capteurs peuvent révéler des informations sensibles, Windows requiert que les utilisateurs activent les capteurs avant que votre programme puisse accéder aux données.
+étant donné que les capteurs peuvent révéler des informations sensibles, Windows exige que les utilisateurs activent les capteurs avant que votre programme puisse accéder aux données.
 
 Vous souhaiterez peut-être demander une autorisation lorsque vous souhaitez utiliser des capteurs pour lesquels l’accès à l’état du capteur [**SensorState**](/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate) en cours est \_ \_ \_ refusé.
 
-Pour demander des autorisations, appelez la méthode [**ISensorManager :: RequestPermissions**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions) . Lorsque vous appelez cette méthode, Windows ouvre la boîte de dialogue **activer les capteurs** pour inviter l’utilisateur à activer les capteurs que vous avez demandés. Cette boîte de dialogue fournit à l’utilisateur les noms des capteurs que vous avez demandés. L’utilisateur peut choisir l’une des options suivantes :
+Pour demander des autorisations, appelez la méthode [**ISensorManager :: RequestPermissions**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions) . lorsque vous appelez cette méthode, Windows ouvre la boîte de dialogue **activer les capteurs** pour inviter l’utilisateur à activer les capteurs que vous avez demandés. Cette boîte de dialogue fournit à l’utilisateur les noms des capteurs que vous avez demandés. L’utilisateur peut choisir l’une des options suivantes :
 
 -   **Activez ces capteurs**.
 -   **N’activez pas ces capteurs**.
 -   **Ouvrez le panneau de configuration pour plus d’options**.
 
-Si un utilisateur choisit **ne pas activer ces capteurs**, Windows n’affichera pas à nouveau la boîte de dialogue **activer les capteurs** pour ces capteurs, même si votre programme appelle [**RequestPermissions**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions). Si l’utilisateur choisit une autre option, Windows autorisera l’affichage de la boîte de dialogue lorsqu’elle sera demandée. Si votre appel à **RequestPermissions** contient des capteurs que l’utilisateur a précédemment choisi de conserver désactivé, l’API de capteur supprime ces capteurs de la liste des capteurs que l’utilisateur voit.
+si un utilisateur choisit **ne pas activer ces capteurs**, Windows n’affiche pas à nouveau la boîte de dialogue **activer les capteurs** pour ces capteurs, même si votre programme appelle [**RequestPermissions**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions). si l’utilisateur choisit une autre option, Windows autorise l’affichage de la boîte de dialogue lorsqu’elle est demandée. Si votre appel à **RequestPermissions** contient des capteurs que l’utilisateur a précédemment choisi de conserver désactivé, l’API de capteur supprime ces capteurs de la liste des capteurs que l’utilisateur voit.
 
 ### <a name="modal-or-modeless-behavior"></a>Comportement modal ou non modal
 

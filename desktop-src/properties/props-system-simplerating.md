@@ -4,12 +4,12 @@ ms.assetid: 50353ba9-86dd-4172-91b4-1898c8fc5522
 title: System. SimpleRating
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4741edd076b6027bc5f8dfbe3b2ff2a31374a7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74e13d7f65fb335aea6362509c20845bd1324b6e99d48f14cd9746f0237661f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598139"
 ---
 # <a name="systemsimplerating"></a>System. SimpleRating
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
-Pour la compatibilité avec le système d’évaluation des shells Windows Vista, votre gestionnaire de propriétés doit également remplir la propriété [System. Rating](./props-system-rating.md) avec le mappage décrit pour cette propriété.
+pour la compatibilité avec le système d’évaluation des shells Windows Vista, votre gestionnaire de propriétés doit également remplir la propriété [system. rating](./props-system-rating.md) avec le mappage décrit pour cette propriété.
 
 Utilisez le tableau suivant pour convertir [System. Rating](./props-system-rating.md) en [System. SimpleRating]().
 

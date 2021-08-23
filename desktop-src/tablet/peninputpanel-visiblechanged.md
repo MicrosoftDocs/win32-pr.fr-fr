@@ -4,12 +4,12 @@ ms.assetid: bf4651f4-2cf4-4952-a93e-3c6ba4846722
 title: Événement PenInputPanel. VisibleChanged (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c739f3517ad9739f1d1ba95af9e5001dfbe659a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cc917f34c09ef0d4f079fd55e476bbbc4cea266e1b1c436a62b20d6c08ed1b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596608"
 ---
 # <a name="peninputpanelvisiblechanged-event"></a>Événement PenInputPanel. VisibleChanged
 
@@ -43,7 +43,7 @@ HRESULT VisibleChanged(
 
 Si cet événement a la valeur, il retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’événement **VisibleChanged** s’applique à la cible de pointage du panneau de saisie Tablet PC. Toutefois, il n’est pas déclenché lorsque la cible de survol se développe pour afficher le panneau de saisie complet du Tablet PC.
 
@@ -53,7 +53,7 @@ L’événement **VisibleChanged** s’applique à la cible de pointage du panne
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

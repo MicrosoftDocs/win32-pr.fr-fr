@@ -102,7 +102,7 @@
                   href: msdn-online-vml-flip-attribute.md
                 - name: ForceDash
                   href: msdn-online-vml-forcedash-attribute.md
-                - name: Hauteur
+                - name: Height
                   href: msdn-online-vml-height-attribute.md
                 - name: HR
                   href: msdn-online-vml-hr-attribute.md
@@ -120,7 +120,7 @@
                   href: msdn-online-vml-hrstd-attribute.md
                 - name: HRWidth
                   href: msdn-online-vml-hrwidth-attribute.md
-                - name: id
+                - name: ID
                   href: id-attribute--vml.md
                 - name: Gauche
                   href: msdn-online-vml-left-attribute.md
@@ -158,13 +158,13 @@
                   href: msdn-online-vml-oleicon-attribute.md
                 - name: OnEd
                   href: msdn-online-vml-oned-attribute.md
-                - name: Chemin d’accès
+                - name: Chemin
                   href: msdn-online-vml-path-attribute.md
                 - name: Position
                   href: position-attribute--shape--vml.md
                 - name: PreferRelative
                   href: msdn-online-vml-preferrelative-attribute.md
-                - name: Impression
+                - name: Imprimer
                   href: msdn-online-vml-print-attribute.md
                 - name: ReGroupID
                   href: msdn-online-vml-regroupid-attribute.md
@@ -202,7 +202,7 @@
                   href: msdn-online-vml-userhidden-attribute.md
                 - name: Visibilité
                   href: msdn-online-vml-visibility-attribute.md
-                - name: Largeur
+                - name: Width
                   href: msdn-online-vml-width-attribute.md
                 - name: WrapCoords
                   href: msdn-online-vml-wrapcoords-attribute.md
@@ -601,7 +601,7 @@
                   href: msdn-online-vml-mso-fit-shape-to-text-attribute.md
                 - name: Attribut ajusté texte-à-forme
                   href: msdn-online-vml-mso-fit-text-to-shape-attribute.md
-                - name: MSO-disposition-Flow-Alt (attribut)
+                - name: MSO-Layout-Flow-Alt (attribut)
                   href: msdn-online-vml-mso-layout-flow-alt-attribute.md
                 - name: MSO-Next-attribut TextBox
                   href: msdn-online-vml-mso-next-textbox-attribute.md

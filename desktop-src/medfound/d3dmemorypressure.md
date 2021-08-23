@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 7400c4822b61a84ab288f0424cfa84e825e69dc9
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: ec6fdf0d27edb5e1cafa575664b07dfe0807c8d124e1b066161734e75247709f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106525696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449419"
 ---
 # <a name="d3dmemorypressure-structure-d3d9typesh-for-microsoft-media-foundation"></a>D3DMEMORYPRESSURE, structure (D3d9types. h) pour Microsoft Media Foundation
 
@@ -68,8 +68,8 @@ Efficacité globale des allocations de mémoire qui ont été placées dans une 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 7 uniquement\]                                                              |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2008 R2 \[ uniquement\]                                                 |
+| Client minimal pris en charge | applications de \[ bureau Windows 7 uniquement\]                                                              |
+| Serveur minimal pris en charge | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]                                                 |
 | En-tête                  | D3d9types. h (inclure d3d9. h) |
 
 

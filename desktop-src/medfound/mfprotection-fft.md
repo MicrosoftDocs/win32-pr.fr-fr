@@ -4,12 +4,12 @@ ms.assetid: 0CFD2A1B-BAE0-4755-9B26-A3D8C3053ABD
 title: Attribut MFPROTECTION_FFT (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8a2ac17f5b64db7ef70ef9b9d652177f6111831
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b82e4ac67cded51efa4d091c5a6f6dfcb7457c583d2e105c7a34cadf7d00aff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603269"
 ---
 # <a name="mfprotection_fft-attribute"></a>\_Attribut FFT MFPROTECTION
 
@@ -25,8 +25,8 @@ Spécifie la protection de la FFT.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

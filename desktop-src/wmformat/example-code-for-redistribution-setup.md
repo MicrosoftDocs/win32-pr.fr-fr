@@ -15,12 +15,12 @@ keywords:
 - redistribution, exemples de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d9990b617ed9c3492c0565b794798412f8e8373
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a845f6c4ec66f2858756071a3e0260cb812c665a2b5b4effa063369bc894abc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586069"
 ---
 # <a name="example-code-for-redistribution-setup"></a>Exemple de code pour la configuration de la redistribution
 
@@ -214,9 +214,9 @@ BOOL SystemNeedsReboot( void )
 [**Redistribution de logiciels**](software-redistribution.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

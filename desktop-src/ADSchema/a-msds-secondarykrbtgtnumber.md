@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0d68faa9b9ed887b16645c7cc6b16cd73405705
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c31b105c16a474e0beaf24c28371c52aeb93a5cbfc7e2fabcb5268339fa65a02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544799"
 ---
 # <a name="ms-ds-secondary-krbtgt-number-attribute"></a>attribut ms-DS-Secondary-KrbTgt-Number
 
@@ -36,13 +36,13 @@ Identifie le numéro d’identification de protocole associé au domaine seconda
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1929              |
 | System-ID-GUID    | aa156612-2396-467e-ad6a-28d23fdb1865 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

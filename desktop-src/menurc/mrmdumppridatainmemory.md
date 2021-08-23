@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 072309dcf9ebda1ba4a5669034019582b99105f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dbeec26f0741ebb77b742ff647e91cb5fd18afe633a1519228b887b4b438bb72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601779"
 ---
 # <a name="mrmdumppridatainmemory-function"></a>MrmDumpPriDataInMemory fonction)
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Vide les informations PRI (en tant qu’objet BLOB en mémoire, créées par un appel précédent à [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md)) dans son équivalent XML (en tant que données en mémoire), afin de le rendre plus facile à lire. La fonction alloue de la mémoire et retourne un pointeur vers cette mémoire dans *outputXmlData*. Appelez [**MrmFreeMemory**](mrmfreememory.md) avec le même pointeur pour libérer de la mémoire. Pour plus d’informations et pour obtenir des procédures pas à pas sur l’utilisation de ces API, consultez [API PRI (package Resource Indexing) et systèmes de génération personnalisés](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
@@ -51,9 +51,9 @@ HRESULT HRESULT MrmDumpPriDataInMemory(
 *inputPriData* \[ dans\]
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
-Pointeur vers les données PRI créées par un appel précédent à [_ *MrmCreateResourceFileInMemory* *](mrmcreateresourcefileinmemory.md).
+Pointeur vers les données PRI créées par un appel précédent à [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md).
 
 </dd> <dt>
 
@@ -69,9 +69,9 @@ Taille des données vers lesquelles pointe *inputPriData*.
 *schemaPriData* \[ dans, facultatif\]
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
-Pointeur facultatif vers les informations PRI (en tant qu’objet BLOB en mémoire) représentant les données de schéma créées par un appel précédent à [_ *MrmCreateResourceFileInMemory* *](mrmcreateresourcefileinmemory.md). Ne libérez pas *schemaPriData* tant que vous n’avez pas fini d’utiliser l’indexeur de ressources. Consultez également la section Notes.
+Pointeur facultatif vers les informations PRI (en tant qu’objet BLOB en mémoire) représentant les données de schéma créées par un appel précédent à [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). Ne libérez pas *schemaPriData* tant que vous n’avez pas fini d’utiliser l’indexeur de ressources. Consultez également la section Notes.
 
 </dd> <dt>
 
@@ -105,9 +105,9 @@ Adresse d’un pointeur vers l’octet. La fonction alloue de la mémoire et ret
 *outputXmlSize* \[ à\]
 </dt> <dd>
 
-Type : **ULong \** _
+Type : **ULong \***
 
-Adresse d’un ULONG. Dans _outputXmlSize *, la fonction retourne la taille de la mémoire allouée appelée par *outputXmlData*.
+Adresse d’un ULONG. Dans *outputXmlSize*, la fonction retourne la taille de la mémoire allouée pointée par *outputXmlData*.
 
 </dd> </dl>
 
@@ -117,7 +117,7 @@ Type : **HRESULT**
 
 \_OK si la fonction a réussi, sinon une autre valeur. Utilisez les macros SUCCEEDED () ou FAILed () (définies dans Winerror. h) pour déterminer la réussite ou l’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un pack de ressources sans schéma est un pack créé avec l’argument [**MrmPackagingOptionsOmitSchemaFromResourcePacks**](mrmpackagingoptions.md) passé à [**MrmCreateResourceFile**](mrmcreateresourcefile.md) ou [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md) (ou avec le commutateur *omitSchemaFromResourcePacks* dans le fichier de configuration PRI). Pour vider un pack de ressources sans schéma, transmettez le chemin d’accès à vos données PRI de package principal en tant qu’argument pour le paramètre *schemaPriData* .
 
@@ -127,8 +127,8 @@ Un pack de ressources sans schéma est un pack créé avec l’argument [**MrmPa
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1803 \[ uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de \[ Bureau Windows Server uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1803 \[ uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows \[Applications de bureau serveur uniquement\]<br/>                                                 |
 | En-tête<br/>                   | <dl> <dt>MrmResourceIndexer. h</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Mrmsupport. lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

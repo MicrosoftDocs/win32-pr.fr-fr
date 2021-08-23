@@ -3,16 +3,16 @@ title: Messages de capture vidéo
 description: Messages de capture vidéo
 ms.assetid: ec5c2c4b-d0a2-4982-aedc-24f814a5ab74
 keywords:
-- Video for Windows (VFW), messages de capture vidéo
+- vidéo pour Windows (VFW), messages de capture vidéo
 - VFW (vidéo pour Windows), messages de capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e6d775decf7a7514772e9291665f3fdf10233d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f45832d0712ef73ed4e66694f2a89abeb1431d14a540ecec910f3cd2cf75ae7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687639"
 ---
 # <a name="video-capture-messages"></a>Messages de capture vidéo
 
@@ -79,9 +79,9 @@ Les messages suivants sont utilisés avec la capture vidéo.
 [Référence de capture vidéo](video-capture-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f298d1d26985561863767b1db568a7bc29c4e556
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 81dedbd352c2d441ee08ffa0cffd54628ba2031c2d84263081d2d3ea8eeea61e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104211434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553069"
 ---
 # <a name="ms-dns-nsec3-current-salt-attribute"></a>MS-DNS-NSEC3-attribut actuel-Salt
 

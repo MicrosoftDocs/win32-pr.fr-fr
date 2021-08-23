@@ -4,12 +4,12 @@ ms.assetid: 713fd6de-16af-49d2-8940-763c4a6e414b
 title: Éviter les dépassements de mémoire tampon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c8a3456384e799380fa0041172fb2b2ea09c0c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae85d66d32b1efc29e75e187bb1afa67653084a3b9c729cd56728078f5e0c1ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622949"
 ---
 # <a name="avoiding-buffer-overruns"></a>Éviter les dépassements de mémoire tampon
 
@@ -50,7 +50,7 @@ La prévention des dépassements de mémoire tampon consiste principalement à �
 
  
 
-La gestion sécurisée des chaînes est un problème à long terme qui continue à être résolu à la fois en suivant les bonnes pratiques de programmation et souvent en utilisant et en réservant les systèmes existants avec des fonctions de gestion de chaînes sécurisées. Un exemple d’un tel ensemble de fonctions pour le shell Windows commence par [**StringCbCat**](/windows/win32/api/strsafe/nf-strsafe-stringcbcata).
+Coffre la gestion des chaînes est un problème à long terme qui continue à être résolu à la fois en suivant les bonnes pratiques de programmation et souvent en utilisant et en réservant les systèmes existants avec des fonctions de gestion de chaînes sécurisées. un exemple d’un tel ensemble de fonctions pour l’interpréteur de commandes Windows démarre avec [**StringCbCat**](/windows/win32/api/strsafe/nf-strsafe-stringcbcata).
 
  
 

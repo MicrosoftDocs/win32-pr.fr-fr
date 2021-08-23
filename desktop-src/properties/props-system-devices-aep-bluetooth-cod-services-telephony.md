@@ -1,19 +1,19 @@
 ---
-description: Classe Bluetooth de téléphonie de service d’appareil.
+description: Bluetooth classe de téléphonie de service d’appareil.
 ms.assetid: be9c4050-b429-4e95-8145-0926356b5464
-title: System. Devices. AEP. Bluetooth. cod. services. Telephony
+title: System. Devices. AEP. Bluetooth. COD. services. téléphonie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cafdbf31dd17d28d47f98187ec82b97ebf45f24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11a7635b1a05f9815822c18e6a1aa9461233a49d8799079c3ee95076fd7034ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599139"
 ---
-# <a name="systemdevicesaepbluetoothcodservicestelephony"></a>System. Devices. AEP. Bluetooth. cod. services. Telephony
+# <a name="systemdevicesaepbluetoothcodservicestelephony"></a>System. Devices. AEP. Bluetooth. COD. services. téléphonie
 
-Classe Bluetooth de téléphonie de service d’appareil.
+Bluetooth classe de téléphonie de service d’appareil.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,5 +1,5 @@
 ---
-description: 'Méthode IShellDispatch. ShutdownWindows : affiche la boîte de dialogue arrêt de Windows. Cela revient à cliquer sur le menu Démarrer et à sélectionner arrêter.'
+description: 'méthode IShellDispatch. ShutdownWindows : affiche la boîte de dialogue arrêter le Windows. cela revient à cliquer sur le menu Démarrer et à sélectionner arrêter.'
 ms.assetid: 3C4F6579-6398-4af4-8911-FE22555B0ABC
 title: Méthode IShellDispatch. ShutdownWindows (shldisp. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5146e17d17ba0f082ad2d80f91ae05c176cf44ed
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2ba63602dd2603ea2bf4ff2b14346d640800a74082cd89e154ee98a0a0431bd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108100467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661209"
 ---
 # <a name="ishelldispatchshutdownwindows-method"></a>Méthode IShellDispatch. ShutdownWindows
 
-Affiche la boîte de dialogue **arrêter Windows** . Cela revient à cliquer sur le menu **Démarrer** et à sélectionner **arrêter**.
+affiche la boîte de dialogue **arrêter le Windows** . Cela revient à cliquer sur le menu **Démarrer** et à sélectionner **arrêter**.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -45,7 +45,7 @@ IShellDispatch.ShutdownWindows()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -55,15 +55,15 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ShutdownWindows**](shell-shutdownwindows.md) .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation de **ShutdownWindows** dans JScript, VBScript et Visual Basic.
+l’exemple suivant illustre l’utilisation de **ShutdownWindows** dans JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -119,7 +119,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

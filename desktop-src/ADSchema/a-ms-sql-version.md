@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-attribut version
+title: MS-SQL-attribut Version
 description: Version de l’instance actuelle de SQL Server.
 ms.assetid: 0003892c-906d-429b-bc98-bbc441b2d58b
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-version
-- Schéma AD de l’attribut mS-SQL-version
+- schéma AD de l’attribut MS-SQL-Version
+- schéma AD de l’attribut mS-SQL-Version
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 446a436a30311f5696d8ed63334b0cf796eb2767
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b5c79b760ab72feffc455fc2c40de807b38a15ed3a0a709fcfcb8d0ce79c20c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583229"
 ---
-# <a name="ms-sql-version-attribute"></a>MS-SQL-attribut version
+# <a name="ms-sql-version-attribute"></a>MS-SQL-attribut Version
 
 Version de l’instance actuelle de SQL Server.
 
@@ -29,8 +29,8 @@ Version de l’instance actuelle de SQL Server.
 
 | Entrée | Valeur |
 |-------------------|---------------------------------------------|
-| CN                | MS-SQL-version                              |
-| LDAP-Display-Name | mS-SQL-version                              |
+| CN                | MS-SQL-Version                              |
+| LDAP-Display-Name | mS-SQL-Version                              |
 | Taille              | \-                                          |
 | Mettre à jour le privilège  | Cette valeur est définie par le système.            |
 | Fréquence des mises à jour  | Dans le programme d’installation du système.                            |
@@ -45,7 +45,7 @@ Version de l’instance actuelle de SQL Server.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

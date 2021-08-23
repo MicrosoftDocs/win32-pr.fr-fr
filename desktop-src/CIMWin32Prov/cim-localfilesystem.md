@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6a4a45541a651c92b45baba70828ba99c911d59a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 64e876fb69e4ff0fd696c5d64a4a89be2805b50bbd1db6c2419e6dcfdf4d6035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438439"
 ---
 # <a name="cim_localfilesystem-class"></a>\_Classe CIM LocalFileSystem
 
@@ -238,7 +238,7 @@ Cette propriété est héritée [**du \_ système de fichiers CIM**](cim-filesys
 
 <span id="Extended_UNIX_Code"></span><span id="extended_unix_code"></span><span id="EXTENDED_UNIX_CODE"></span>
 
-**Code UNIX étendu** (6)
+**Code de UNIX étendu** (6)
 
 
 </dt> <dd></dd> <dt>
@@ -582,7 +582,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ LocalFileSystem** est dérivée du [**système de \_ fichiers CIM**](cim-filesystem.md).
 

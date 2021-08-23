@@ -6,12 +6,12 @@ keywords:
 - InkDraw
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41973d3f8560f25a81ac1deb782bada51b015239
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6e146093d23fd16d122da1ea81d1c99bdf06ed926d5cb4dba2f1d77b747b2058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662759"
 ---
 # <a name="inkdraw-method"></a>Méthode InkDraw
 
@@ -48,9 +48,9 @@ Cette méthode ne fait rien si m \_ bInking a la **valeur false**. Il s’agit d
 
 InkDraw a clairement une responsabilité double. Les appels MoveToEx et LineTo Win32 sont effectués pour dessiner des images de ligne sur l’écran GUI (à l’aide du handle de contexte de périphérique conservé dans m \_ HDC). Les données d’entrée manuscrite sont également transmises à l’objet du colivre pour l’enregistrement à l’aide de la méthode InkDraw de l’interface [IPaper](ipaper-methods.md) . Quand m \_ bInkSaving a la **valeur false**, InkDraw peint l’image de ligne, mais ne stocke pas les données dans le codocument. Cette condition est utilisée lors du redessin.
 
- 
+ 
 
- 
+ 
 
 
 
