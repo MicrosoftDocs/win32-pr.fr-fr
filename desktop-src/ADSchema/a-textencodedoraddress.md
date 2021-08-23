@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc5123f75c4ca628671816e7e5a27c56ee2c6c8a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fdf85fab73cd70d79e07dba5c15a1d414df519a629346058408ad3c97140b9f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106539022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022047"
 ---
 # <a name="text-encoded-or-address-attribute"></a>Attribut d’encodage texte ou d’adresse
 
@@ -45,7 +45,7 @@ Cet attribut est utilisé pour prendre en charge les adresses X. 400 dans un for
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

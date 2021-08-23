@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 509df80023427a20125e1b5603e85424851a640e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e1ab148eee572e5c0f2ad2965b91c869ce490f5b35d8a78644090165b33ac19a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991049"
 ---
 # <a name="d3dxquaternionrotationaxis-function-d3dx10mathh"></a>D3DXQuaternionRotationAxis, fonction (D3DX10Math. h)
 
@@ -69,13 +69,13 @@ Angle de rotation, en radians. Les angles sont mesurés dans le sens des aiguill
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointeur vers une structure D3DXQUATERNION pivotée autour de l’axe spécifié.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXQuaternionRotationAxis peut être utilisée comme paramètre pour une autre fonction.
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 45fcc3383e40fffa01b0c74971375d869c6eb038
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2c76bc3338e854e42e54eddd7d52b446a82bf9fae4f63af9ace7007d759c0e03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079953"
 ---
 # <a name="setpowerstate-method-of-the-cim_alarmdevice-class"></a>Méthode SetPowerState de la \_ classe CIM AlarmDevice
 
@@ -102,17 +102,17 @@ Spécifie quand l’état d’alimentation doit être défini comme une valeur d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

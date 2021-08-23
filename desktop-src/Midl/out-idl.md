@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b590cadeb12a77cff859991efb6356393072823
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 32bdbd18c6412f943a124a62badb9c154fa9aeb64573919970ffc1dc4af17798
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066799"
 ---
 # <a name="out-attribute"></a>out (attribut)
 
@@ -55,7 +55,7 @@ Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de point
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la procédure distante.
@@ -76,7 +76,7 @@ Spécifie les déclarateurs standard, tels que les identificateurs, les déclara
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' \[ attribut **out** \] indique qu’un paramètre qui agit comme un pointeur et ses données associées en mémoire doit être repassé de la procédure appelée à la procédure d’appel.
 
@@ -120,7 +120,7 @@ HRESULT MyFunction([out] short * pcount);
 [**tenir**](ignore.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [**la dernière \_ est**](last-is.md)
@@ -129,7 +129,7 @@ HRESULT MyFunction([out] short * pcount);
 [**la longueur \_ est**](length-is.md)
 </dt> <dt>
 
-[**localisé**](local.md)
+[**local**](local.md)
 </dt> <dt>
 
 [**le nombre maximal \_ est**](max-is.md)
@@ -153,12 +153,12 @@ HRESULT MyFunction([out] short * pcount);
 [**type de commutateur \_**](switch-type.md)
 </dt> <dt>
 
-[**UE**](union.md)
+[**union**](union.md)
 </dt> <dt>
 
 [**unique**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: En plus de fournir des propriétés et des méthodes, un contrôle 
 ms.assetid: e7085bc0-c087-4cc8-9c69-ba05b0923b74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1833e1396847e09366d1e06193196cfcf981d330
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 82b987202cb4e4e635a947ed60e9f947cc428f0aaaacb3d27c27d60ad536b636
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119243629"
 ---
 # <a name="control-events-com"></a>Événements de contrôle (COM)
 
@@ -34,7 +34,7 @@ La méthode [**IOleControl :: FreezeEvents**](/windows/desktop/api/OCIdl/nf-oci
 
 <dl> <dt>
 
-[Contrôles ActiveX](activex-controls.md)
+[ActiveX Commandes](activex-controls.md)
 </dt> </dl>
 
  

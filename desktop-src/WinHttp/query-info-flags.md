@@ -4,12 +4,12 @@ ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
 title: Indicateurs d’informations de requête (Winhttp.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3d8a7f95f0e093f175901e4bed30f4055a04b8
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: c66fd75ad1258123c3047dee4cafa4e57cb4dadd6675eb02deaa307085acbd55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051957"
 ---
 # <a name="query-info-flags-winhttph"></a>Indicateurs d’informations de requête (Winhttp.h)
 
@@ -821,12 +821,12 @@ Par défaut, [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-win
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]      |
-| Serveur minimal pris en charge | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]   |
+| Client minimal pris en charge | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]      |
+| Serveur minimal pris en charge | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]   |
 | En-tête                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi

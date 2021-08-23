@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 784fc9143a811f71feb2e0ba87b8414569d0db1b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d408da8006de454c846e86983922698601e8d9b1dd0e1fc386af121875cedf0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081903"
 ---
 # <a name="msmq-csp-name-attribute"></a>Attribut MSMQ-CSP-Name
 
@@ -45,7 +45,7 @@ Type de fournisseur de services de chiffrement utilisé par MSMQ.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -66,7 +66,7 @@ Type de fournisseur de services de chiffrement utilisé par MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ Type de fournisseur de services de chiffrement utilisé par MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ Type de fournisseur de services de chiffrement utilisé par MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ Type de fournisseur de services de chiffrement utilisé par MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ Type de fournisseur de services de chiffrement utilisé par MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ Type de fournisseur de services de chiffrement utilisé par MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 

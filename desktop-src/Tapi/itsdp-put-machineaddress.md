@@ -4,16 +4,16 @@ ms.assetid: f4af55b1-e20b-4fe8-a15e-a1a68d22f1b9
 title: ITSdp ::p ut_MachineAddress, méthode (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec09d41cb7735383f08ce8c8983331165c54fa8a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 974286e846268686423d0ebdbbd083d07e9946401cb0192713b200b2354b89c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060797"
 ---
 # <a name="itsdpput_machineaddress-method"></a>ITSdp ::p ut \_ MachineAddress, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **put \_ MachineAddress** définit l’adresse de l’ordinateur hôte d’origine.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) pour allouer de la mémoire pour le paramètre *PMachineAddress* et utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire lorsque la variable n’est plus nécessaire.
 

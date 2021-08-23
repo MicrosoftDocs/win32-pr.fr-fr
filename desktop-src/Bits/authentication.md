@@ -4,12 +4,12 @@ description: BITS prend en charge l’authentification de base, l’authentifica
 ms.assetid: cfd4aec3-79d0-4971-93f8-df797e5c0f75
 ms.topic: article
 ms.date: 10/09/2018
-ms.openlocfilehash: 5d970956676a3348dd4b8c4b420e044bd4714775
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9cb3d50f6689ed28889c68388969c1cb7d06ea912bc5d5ed4384f45a4e740f79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021287"
 ---
 # <a name="authentication-bits"></a>Authentification (BITS)
 
@@ -37,7 +37,7 @@ BITS utilisera des informations d’identification implicites pour l’authentif
 
 Notez que la modification de la valeur de Registre **LmCompatibilityLevel** peut affecter les autres applications et services exécutés sur l’ordinateur. Pour plus d’informations sur l’utilisation de la valeur de Registre **LmCompatibilityLevel** , consultez [KB147706](https://support.microsoft.com/kb/147706).
 
-Si la définition de la valeur de Registre **LmCompatibilityLevel** est un problème, vous pouvez créer la valeur de Registre **UseLMCompat** sous **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **bits**. La valeur de Registre est un DWORD. Le tableau suivant répertorie les valeurs possibles pour **UseLMCompat**:
+si la définition de la valeur de registre **LMCompatibilityLevel** est un problème, vous pouvez créer la valeur de registre **UseLMCompat** sous **HKEY \_ LOCAL \_ MACHINE** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **BITS**. La valeur de Registre est un DWORD. Le tableau suivant répertorie les valeurs possibles pour **UseLMCompat**:
 
 |Valeur|Description|
 |-|-|
@@ -59,12 +59,12 @@ Si vous utilisez BITS dans un environnement qui requiert l’authentification du
 
 La logique de détection de proxy utilisée dans le service BITS effectue les opérations suivantes lorsqu’un jeton d’assistance réseau ( \_ réseau de jetons BG \_ ) est défini :
 
--   Si [**méthode ibackgroundcopyjob :: setproxysettings n'**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) a été appelé avec la **\_ \_ \_ \_ préconfiguration de l’utilisation du proxy de tâche BG**, lisez les paramètres du proxy IE local à l’aide de l’emprunt d’identité du contexte de jeton de propriétaire de tâche via [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser). À partir de Windows 10, version 1809 (10,0 ; Build 17763), l’identité du jeton d’assistance est utilisée pour cette étape.
+-   Si [**méthode ibackgroundcopyjob :: setproxysettings n'**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) a été appelé avec la **\_ \_ \_ \_ préconfiguration de l’utilisation du proxy de tâche BG**, lisez les paramètres du proxy IE local à l’aide de l’emprunt d’identité du contexte de jeton de propriétaire de tâche via [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser). à partir de Windows 10, version 1809 (10,0 ; Build 17763), l’identité du jeton d’assistance est utilisée pour cette étape.
 -   Si [**méthode ibackgroundcopyjob :: setproxysettings n'**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) a été appelé avec la détection automatique de l' **\_ utilisation du proxy \_ \_ BG** ou si les paramètres IE de la **tâche BG configuration de l’utilisation du proxy de la \_ tâche \_ \_ \_ BG** spécifient la détection automatique ou une URL de configuration automatique, effectuent la détection automatique de proxy ou le protocole WPAD (Web proxy AutoDiscovery Protocol) à [**l’aide de**](/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl)l’emprunt d’identité du jeton d’assistance via
 
 Après cela, l’emprunt d’identité du jeton d’assistance est utilisé pour l’authentification du proxy ou du serveur dans.
 
-À partir de Windows 10, version 1809 (10,0 ; Build 17763), le scénario de proxy authentifié avec des informations d’identification spécifiques à l’utilisateur est simplifié.
+à partir de Windows 10, version 1809 (10,0 ; Build 17763), le scénario de proxy authentifié avec des informations d’identification spécifiques à l’utilisateur est simplifié.
 
 1.  Appelez la méthode [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) de la tâche bits avec le **schéma d' \_ authentification BG \_ \_ Negotiate**, le *nom d’utilisateur* ayant la valeur **null**, le *mot de passe* défini sur **null** et la *cible* sur le **\_ \_ \_ proxy de cible d’authentification BG**. Cela entraîne l’utilisation des informations d’identification implicites du compte d’utilisateur pour l’authentification NTLM et Kerberos avec le proxy et le serveur.
 2.  Appelez [**méthode ibackgroundcopyjob :: setproxysettings n'**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-setproxysettings) avec **la \_ \_ \_ \_ préconfiguration de l’utilisation du proxy de tâche BG**.
@@ -76,7 +76,7 @@ Après cela, l’emprunt d’identité du jeton d’assistance est utilisé pour
 8. Poursuivez la configuration de la tâche.
 9. Appelez [**Resume**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume) sur le travail.
 
-Avant Windows 10, version 1809 (10,0 ; Build 17763), l’identité de l’utilisateur correcte (identité du jeton d’assistance) est utilisée pour la détection du proxy basé sur le réseau (WPAD) et pour l’authentification du proxy, mais la détection réelle des paramètres du proxy local (IE) est toujours effectuée à l’aide du jeton du propriétaire du travail, même lorsqu’un jeton d’assistance est configuré. Pour contourner ce manque, vous pouvez suivre ces étapes.
+avant le Windows 10, version 1809 (10,0 ; Build 17763), l’identité de l’utilisateur correcte (identité du jeton d’assistance) est utilisée pour la détection du proxy basé sur le réseau (WPAD) et pour l’authentification du proxy, mais la détection réelle des paramètres du proxy local (IE) est toujours effectuée à l’aide du jeton du propriétaire du travail, même lorsqu’un jeton d’assistance est configuré. Pour contourner ce manque, vous pouvez suivre ces étapes.
 
 1.  Emprunter l’identité du compte d’utilisateur que vous utilisez pour les informations d’identification NTLM/Kerberos.
 2.  Récupérez les paramètres du proxy IE du compte d’utilisateur en appelant [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser).

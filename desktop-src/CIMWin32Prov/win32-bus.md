@@ -1,5 +1,5 @@
 ---
-description: La \_ classe WMI de bus Win32 représente un bus physique tel qu’il est vu par un ordinateur exécutant un système d’exploitation Windows. Toute instance d’un bus Windows est un descendant (ou membre) de cette classe.
+description: la \_ classe WMI de bus Win32 représente un bus physique tel qu’il est vu par un ordinateur exécutant un système d’exploitation Windows. toute instance d’un bus Windows est un descendant (ou membre) de cette classe.
 ms.assetid: 76ba15f4-8c7b-4713-b5a2-e444fbab064a
 ms.tgt_platform: multiple
 title: Classe Win32_Bus
@@ -37,16 +37,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ac31a2187ee7e4974e1ddedbf084efd482748753
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 343b2a359af4aac7eabc86864063829ef229ebaa7fd6d069734ffc5ad5eb969e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020317"
 ---
 # <a name="win32_bus-class"></a>\_Classe de bus Win32
 
-La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) de **\_ bus Win32** représente un bus physique tel qu’il est vu par un ordinateur exécutant un système d’exploitation Windows. Toute instance d’un bus Windows est un descendant (ou membre) de cette classe.
+la [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) de **\_ bus Win32** représente un bus physique tel qu’il est vu par un ordinateur exécutant un système d’exploitation Windows. toute instance d’un bus Windows est un descendant (ou membre) de cette classe.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées.
 
@@ -562,12 +562,12 @@ L’appareil ne fonctionne pas correctement. L’un de ses pilotes ou le Registr
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd>
 
-Le pilote de l’appareil requiert une ressource que Windows ne peut pas gérer.
+le pilote de l’appareil requiert une ressource qui ne peut pas être gérée par Windows.
 
 </dd> <dt>
 
@@ -646,12 +646,12 @@ L’appareil ne peut pas trouver suffisamment de ressources libres à utiliser.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd>
 
-Windows ne peut pas vérifier les ressources de l’appareil.
+Windows ne pouvez pas vérifier les ressources de l’appareil.
 
 </dd> <dt>
 
@@ -774,7 +774,7 @@ L’appareil n’est pas présent, ne fonctionne pas correctement ou n’a pas t
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd>
@@ -785,7 +785,7 @@ Windows est toujours en cours de configuration de l’appareil.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd>
@@ -840,7 +840,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
 
 
 </dt> <dd>
@@ -1016,7 +1016,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Identificateur d’appareil Windows Plug-and-Play de l’unité logique.
+Windows Identificateur d’appareil Plug-and-Play de l’unité logique.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -1331,7 +1331,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ bus Win32** est dérivée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 

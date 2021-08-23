@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 810f1d3bcf878d33756930f6bd3b6799c3513dc8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: afd3f4e5a2399c1887a1924519b7520c2b5c1f74df841a0ddc44682c74d4e175
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020597"
 ---
 # <a name="copyex-method-of-the-win32_pagefile-class"></a>Méthode CopyEx de la \_ classe du fichier d’échange Win32
 

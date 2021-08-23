@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 00d8e41a0173b7b26083f38beb82417365ef7067
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6a51a0606ae45be79c26d062c64ab5710a658436371ca146f81c2183c34ca85b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991149"
 ---
 # <a name="d3dxquaternionbarycentric-function-d3dx10mathh"></a>D3DXQuaternionBaryCentric, fonction (D3DX10Math. h)
 
@@ -99,13 +99,13 @@ Facteur de pondération. Consultez la section Notes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointeur vers une structure D3DXQUATERNION dans les coordonnées Barycentric.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour calculer les coordonnées Barycentric, la fonction D3DXQuaternionBaryCentric implémente la série d’opérations d’interpolation linéaire sphérique suivantes :
 

@@ -1,25 +1,25 @@
 ---
-title: Utilisation de COM dans votre application Windows
+title: utilisation de COM dans votre application Windows
 description: Le module 1 de cette série a montré comment créer une fenêtre et répondre aux messages de fenêtre tels que WM \_ Paint et WM \_ Close. Le module 2 présente le modèle COM (Component Object Model).
 ms.assetid: 6e867618-4d02-4c17-b7ea-dc7290507689
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8c03f16937846c4479a70e16141f1b50bde3efc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2180d47bd0dd12c0184a2f9241ec5656c7fe711150e1d5163ca2fec9e0b28fd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068029"
 ---
 # <a name="module-2-using-com-in-your-windows-based-program"></a>Module 2. Utilisation de COM dans votre programme Windows-Based
 
 Le [module 1](your-first-windows-program.md) de cette série a montré comment créer une fenêtre et répondre aux messages de fenêtre tels que [**WM \_ Paint**](/windows/desktop/gdi/wm-paint) et [**WM \_ Close**](/windows/desktop/winmsg/wm-close). Le module 2 présente le modèle COM (Component Object Model).
 
-COM est une spécification permettant de créer des composants logiciels réutilisables. La plupart des fonctionnalités que vous allez utiliser dans un programme Windows moderne s’appuient sur COM, comme suit :
+COM est une spécification permettant de créer des composants logiciels réutilisables. la plupart des fonctionnalités que vous allez utiliser dans un programme Windows moderne reposent sur COM, telles que les suivantes :
 
 -   Graphiques (Direct2D)
 -   Texte (DirectWrite)
--   Le shell Windows
+-   Shell Windows
 -   Contrôle de ruban
 -   Animation de l’interface utilisateur
 
@@ -57,6 +57,6 @@ COM est une *norme binaire*, et non une norme de langage : elle définit l’in
 [Apprendre à programmer pour Windows en C++](learn-to-program-for-windows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

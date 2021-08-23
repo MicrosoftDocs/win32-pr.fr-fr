@@ -3,7 +3,7 @@ title: Message EM_GETCTFMODEBIAS (RichEdit. h)
 description: Obtient les valeurs de décalage du mode Text Services Framework pour un contrôle RichEdit Microsoft.
 ms.assetid: 2421d37d-169d-480f-a5f7-4c6033ca6c1a
 keywords:
-- EM_GETCTFMODEBIAS les contrôles de message Windows
+- EM_GETCTFMODEBIAS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 109d5eabbddca1c13fefae99c29d8c550fbd274e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 60d6e030e3080ec9bf3d801583b9ade182483ba8560b3eccb2fb9813be7d39cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019747"
 ---
 # <a name="em_getctfmodebias-message"></a>\_Message GETCTFMODEBIAS em
 
@@ -47,7 +47,7 @@ Non utilisé ; doit être égal à zéro.
 
 Valeur de décalage en mode Text Services Framework actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour connaître le décalage du mode IME, appelez [**em \_ GETIMEMODEBIAS**](em-getimemodebias.md).
 
@@ -58,7 +58,7 @@ Pour connaître le décalage du mode IME, appelez [**em \_ GETIMEMODEBIAS**](em-
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

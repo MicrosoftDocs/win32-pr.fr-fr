@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e4f9799513111ff53bb97c14feaf70c922dfb085
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 715e7bbe0b6346ff6e00cc9812e9a154debe10ac8315ab74f67471ff4c1658e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080093"
 ---
 # <a name="deleteex-method-of-the-cim_logicalfile-class"></a>Méthode DeleteEx de la \_ classe CIM LogicalFile
 
@@ -122,7 +122,7 @@ Le système de fichiers n’est pas NTFS.
 
 </dd> <dt>
 
-**Plateforme non NT/Windows 2000**
+**plateforme non NT/Windows 2000**
 </dt> <dd>
 
 12
@@ -185,7 +185,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

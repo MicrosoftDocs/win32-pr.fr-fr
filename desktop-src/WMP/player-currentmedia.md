@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea90b7be72bcb10a8ec0d3c49116f3effceb9a93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7df5e8cd2032d772cbd781d0b45794e86cc19eff7c730a6a963778d54a6f283d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054397"
 ---
 # <a name="playercurrentmedia"></a>Player. currentMedia
 
@@ -33,15 +33,15 @@ La propriété **currentMedia** spécifie ou récupère l’objet multimédia ac
 
 Cette propriété est un objet multimédia en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si les *paramètres*. la propriété **AutoStart** a la valeur true, la lecture commence automatiquement chaque fois que vous définissez **currentMedia**.
+si le *Paramètres*. la propriété **AutoStart** a la valeur true, la lecture commence automatiquement chaque fois que vous définissez **currentMedia**.
 
 Cette propriété prend un objet multimédia, qui peut être acquis à l’aide de la *sélection*. **élément**. Pour charger un élément **multimédia** à l’aide d’un nom de fichier, définissez la propriété URL ou utilisez **newMedia**.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant récupère le premier élément multimédia de la bibliothèque. Il utilise ensuite **currentMedia** pour transformer l’élément multimédia récupéré en élément multimédia actuel, puis pour afficher le nom de l’élément multimédia en cours. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant récupère le premier élément multimédia de la bibliothèque. Il utilise ensuite **currentMedia** pour transformer l’élément multimédia récupéré en élément multimédia actuel, puis pour afficher le nom de l’élément multimédia en cours. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a9a5f8d6db36c3e3b86945fa529572df38ff6df
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e939b3741dbcb3e7ff91f566142609c3bc9c09eda392c103823b558713a9c018
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081693"
 ---
 # <a name="ms-pki-certificate-name-flag-attribute"></a>attribut ms-PKI-Certificate-Name-Flag
 
@@ -36,7 +36,7 @@ Contient les indicateurs associés à la construction du nom du sujet dans un ce
 | Fréquence des mises à jour  | Lorsque l’objet modèle de certificat (MS-PKI-Certificate-template) est modifié, créé ou cloné. |
 | Attribute-Id      | 1.2.840.113556.1.4.1432                                                                           |
 | System-ID-GUID    | ea1dddc4-60ff-416e-8cc0-17cee534bce7                                                              |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                                                              |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                                                              |
 
 
 
@@ -44,7 +44,7 @@ Contient les indicateurs associés à la construction du nom du sujet dans un ce
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

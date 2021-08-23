@@ -4,12 +4,12 @@ description: Indicateur vol
 ms.assetid: a6444eb2-79c2-4c86-8474-846d908479df
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7979278b2eb89c352b9e53f6141cb585fb0ed134
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 097d03b7bb536ada8dc783e1506ba4bedfd54c6b5698e1aa68dfe55fd1f939d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035977"
 ---
 # <a name="vol-tag"></a>Indicateur vol
 
@@ -27,7 +27,7 @@ Définit le volume de base de la sortie vocale.
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-**\\Vol =***nombre***\\**
+**\\ Vol =**_nombre_*_\\_*
 
 
 
@@ -37,17 +37,17 @@ Définit le volume de base de la sortie vocale.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Le paramètre de volume affecte les canaux gauche et droit. Vous ne pouvez pas définir le volume de chaque canal séparément. Cette balise est prise en charge uniquement pour la sortie générée par TTS.
 
- 
+ 
 
- 
+ 
 
 
 

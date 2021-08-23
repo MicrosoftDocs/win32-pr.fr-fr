@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4630bc4d7d513a0fedad2191c63ca71571ce655a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6c78a101ec9854b8820b7c9170ea43f06258528de9fdc9d4b02bb41945ba3a7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119248099"
 ---
 # <a name="hexint32type-simple-type-eventmanifest-schema"></a>Type simple HexInt32Type (schéma EventManifest)
 
@@ -50,8 +50,8 @@ Le type simple **HexInt32Type** est une **chaîne** qui est limitée par le mod�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

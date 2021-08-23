@@ -4,12 +4,12 @@ ms.assetid: c18868a9-6912-46fd-93f5-d8021937b049
 title: Images de format de jour, de mois, d’année et d’ère
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c83439cc33c1caf067b5c6f41234a6f1ddc4dcc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63ae1adf82a202ebb08f199bb252e59c0f35aab8ad35b60ac57a8ebbe102711c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068269"
 ---
 # <a name="day-month-year-and-era-format-pictures"></a>Images de format de jour, de mois, d’année et d’ère
 
@@ -32,7 +32,7 @@ Le tableau suivant définit les types de format utilisés pour représenter les 
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | d           | Jour du mois en chiffres sans zéros non significatifs pour les jours à un chiffre.                                                                                                                                                                                                                                                                                                   |
 | jj          | Jour du mois en chiffres avec des zéros non significatifs pour les jours à un chiffre.                                                                                                                                                                                                                                                                                                      |
-| ddd         | Jour de la semaine, tel que spécifié par une valeur [ \_ \* SABBREVDAYNAME locale](locale-sabbrev-constants.md) , par exemple, « mon » en anglais (États-Unis).**Windows Vista et versions ultérieures :** si une version abrégée du jour de la semaine est requise, votre application doit utiliser les constantes [ \_ \* SSHORTESTDAYNAME des paramètres régionaux](locale-sshortestdayname-constants.md) .<br/> |
+| ddd         | Jour de la semaine, tel que spécifié par une valeur [ \_ \* SABBREVDAYNAME locale](locale-sabbrev-constants.md) , par exemple, « mon » en anglais (États-Unis).**Windows Vista et versions ultérieures :** si une version abrégée du jour de la semaine est requise, votre application doit utiliser les constantes [ \_ SSHORTESTDAYNAME \* des paramètres régionaux](locale-sshortestdayname-constants.md) .<br/> |
 | dddd        | Jour de la semaine spécifié par une valeur de [ \_ SDAYNAME \* de paramètres régionaux](locale-sdayname-constants.md) .                                                                                                                                                                                                                                                                              |
 
 

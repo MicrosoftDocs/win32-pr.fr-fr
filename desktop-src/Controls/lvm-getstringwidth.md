@@ -3,7 +3,7 @@ title: Message LVM_GETSTRINGWIDTH (commctrl. h)
 description: Détermine la largeur d’une chaîne spécifiée à l’aide de la police actuelle du contrôle List-View spécifié. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView GetStringWidth.
 ms.assetid: ffe97640-d4b6-45ae-be5d-71fed69c2026
 keywords:
-- LVM_GETSTRINGWIDTH les contrôles de message Windows
+- LVM_GETSTRINGWIDTH les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71e27512eb7a2a260976356ed2a128b48975f9f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9024cab94f59e543351e06d49ec058435ae369b6b746b1dc3fb2cd0472e3d57e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019307"
 ---
 # <a name="lvm_getstringwidth-message"></a>\_Message GETSTRINGWIDTH LVM
 
@@ -45,7 +45,7 @@ Pointeur vers une chaîne se terminant par null.
 
 Retourne la largeur de la chaîne en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le \_ message GETSTRINGWIDTH LVM retourne la largeur exacte, en pixels, de la chaîne spécifiée. Si vous utilisez la largeur de chaîne retournée comme largeur de colonne dans le message [**\_ SETCOLUMNWIDTH LVM**](lvm-setcolumnwidth.md) , la chaîne sera tronquée. Pour récupérer la largeur de colonne qui peut contenir la chaîne sans la tronquer, vous devez ajouter un remplissage à la largeur de chaîne retournée.
 
@@ -55,8 +55,8 @@ Le \_ message GETSTRINGWIDTH LVM retourne la largeur exacte, en pixels, de la ch
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVM \_ GETSTRINGWIDTHW** (Unicode) et **LVM \_ GETSTRINGWIDTHA** (ANSI)<br/>     |
 

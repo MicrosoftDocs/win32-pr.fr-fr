@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 349bcffb521402b4f915937e205504ece541eee4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0cb153a74fb07e82f528cdbd21dddadd528e88cb2ea49cd422bff3fd69ab623b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081793"
 ---
 # <a name="msmq-privacy-level-attribute"></a>MSMQ-attribut de niveau de confidentialité
 
@@ -36,7 +36,7 @@ Niveau de confidentialité requis par la file d’attente.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.924               |
 | System-ID-GUID    | 9a0dc327-c100-11d1-bbc5-0080c76670c0 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Niveau de confidentialité requis par la file d’attente.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

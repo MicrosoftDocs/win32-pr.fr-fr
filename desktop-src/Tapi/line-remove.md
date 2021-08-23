@@ -4,12 +4,12 @@ ms.assetid: 21b912d6-34aa-4ac0-b019-be3c851cc96d
 title: Message LINE_REMOVE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 567ead3ad2941845dd22405f0d8706eca74bfbd8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f13f36123cb8cb77bd2d4b78c3e69a2da1c027aef4dad1fc9dfd7f3c6a00399
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335919"
 ---
 # <a name="line_remove-message"></a>Message de suppression de ligne \_
 
@@ -65,7 +65,7 @@ Réservé. Définit la valeur zéro.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications prenant en charge TAPI version 2,0 ou ultérieure reçoivent un message de **\_ Suppression de ligne** . Cela les informe que l’appareil a été supprimé du système. Le message de **\_ Suppression de ligne** est précédé d’un message de [**\_ fermeture de ligne**](line-close.md) sur chaque handle de ligne, si la ligne est ouverte dans l’application. Ce message est envoyé à toutes les applications prenant en charge TAPI version 2,0 ou ultérieure, appelées [**lineInitializeEx**](/windows/desktop/api/Tapi/nf-tapi-lineinitializeexa), y compris celles qui n’ont pas d’appareils de ligne ouverts à ce moment-là.
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 363f2f9120d3b0a202335d0e8e450464cbc1f118
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a1b5b443807dfe7fa737cdfc5eb4da678845e53b555ffe6eebf1529583fdb35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005227"
 ---
 # <a name="iscrdenrcspname-property"></a>ISCrdEnr :: CSPName, propriété
 
@@ -54,7 +54,7 @@ Si la méthode est réussie, la méthode retourne S \_ OK.
 
 Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’erreur. Pour obtenir la liste des codes d’erreur courants, consultez [valeurs HRESULT communes](common-hresult-values.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Définissez cette propriété pour spécifier le nom du fournisseur de services de chiffrement à utiliser avec le contrôle d’inscription de carte à puce. Obtient cette propriété pour récupérer le nom du fournisseur de services de chiffrement spécifié. Si vous ne spécifiez pas de valeur pour cette propriété, la propriété **CSPName** est définie par défaut sur le prénom dans la liste des fournisseurs de services de chiffrement disponibles.
 
@@ -65,7 +65,7 @@ Définissez cette propriété pour spécifier le nom du fournisseur de services 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr est défini en tant que 753988a1-1357-436D-9cf5-f089bdd67d64<br/>             |
 

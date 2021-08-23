@@ -1,19 +1,19 @@
 ---
 title: Gestion des objets
-description: Cette section décrit l’utilisation correcte des types d’objets de l’API WFP (Windows Filtering Platform).
+description: cette section décrit l’utilisation correcte des types d’objets de l’API de la plateforme de filtrage Windows (WFP).
 ms.assetid: 2625ef9a-0e62-4e21-ba93-047965d0d782
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc41560bb85a7e79c0262d77c0b34fe6c1d9bfd6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c5cb51d4e78049d7911a4a5ed265091e05bc1cbb00ce470e332d59dd23c6026d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068849"
 ---
 # <a name="object-management"></a>Gestion des objets
 
-Cette section décrit l’utilisation correcte des types d’objets de l’API WFP (Windows Filtering Platform).
+cette section décrit l’utilisation correcte des types d’objets de l’API de la plateforme de filtrage Windows (WFP).
 
 ## <a name="sessions"></a>Sessions
 
@@ -50,7 +50,7 @@ Les objets peuvent avoir l’une des quatre durées de vie possibles :
 
 Les filtres des couches en mode noyau peuvent être marqués comme filtres au moment du démarrage en passant l’indicateur approprié à [**FwpmFilterAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmfilteradd0). Les filtres au moment du démarrage sont ajoutés au système lorsque le pilote TCP/IP démarre et supprimés lors de la fin de l’initialisation de BFE. Les objets persistants sont ajoutés au démarrage de BFE.
 
-Dans de nombreux cas, il est possible qu’un fournisseur de stratégie ne souhaite pas que sa stratégie persistante soit appliquée si le fournisseur a été désactivé. Lorsque vous ajoutez un fournisseur, l’appelant peut spécifier un nom de service Windows facultatif. Lors de l’ajout d’objets persistants, l’appelant peut éventuellement spécifier le fournisseur qui « possède » cet objet. Au démarrage du service, BFE ajoute uniquement des objets persistants au système s’ils ne sont pas associés à un fournisseur, ou si le fournisseur associé ne possède pas de nom de service Windows, ou si le service Windows associé est configuré pour démarrer automatiquement.
+Dans de nombreux cas, il est possible qu’un fournisseur de stratégie ne souhaite pas que sa stratégie persistante soit appliquée si le fournisseur a été désactivé. lorsque vous ajoutez un fournisseur, l’appelant peut spécifier un nom de service Windows facultatif. Lors de l’ajout d’objets persistants, l’appelant peut éventuellement spécifier le fournisseur qui « possède » cet objet. au démarrage du service, BFE ajoute uniquement les objets persistants au système s’ils ne sont pas associés à un fournisseur, ou si le fournisseur associé n’a pas de nom de service Windows, ou si le service de Windows associé est configuré pour démarrer automatiquement.
 
 ## <a name="object-associations"></a>Associations d’objets
 
@@ -64,6 +64,6 @@ Tous les objets API WFP en mode utilisateur (FWPM) sont identifiés par un ident
 
 Tous les objets API WFP en mode noyau (FWPS) sont identifiés par un identificateur unique local (**LUID**) et référencent d’autres objets par leur LUID. Le passage du **GUID** au **LUID** permet à WFP de conserver les pools non paginés et d’optimiser le traitement au moment de l’exécution. La largeur du **LUID** dépend du type d’objet et des plages d’un **UINT16** à un **UINT64**. Les **LUID** s sont toujours attribuées par BFE.
 
- 
+ 
 
- 
+ 

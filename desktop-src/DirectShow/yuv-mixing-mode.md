@@ -4,18 +4,18 @@ ms.assetid: 296b1d96-1824-4000-8bec-158925555177
 title: Mode de mixage YUV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faf4ca6b1ba5317145c410d6e5b899c7cf264f82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 957c5345eb80576ad0371558bb60d0b6651221bd98d7830cb968f39c16330fb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290749"
 ---
 # <a name="yuv-mixing-mode"></a>Mode de mixage YUV
 
-Cette rubrique s’applique à Windows XP Service Pack 2 ou version ultérieure.
+cette rubrique s’applique à Windows XP Service Pack 2 ou version ultérieure.
 
-À compter de Windows XP Service Pack 2, VMR prend en charge un mode de mixage appelé mode de mixage YUV. Ce mode est particulièrement utile pour les applications TV ou DVD avancées. Il intègre une partie de la puissance de VMR mixer pour améliorer les performances sur le matériel graphique de bas niveau qui utilise une conception d’architecture de mémoire unifiée. Le mode de mixage YUV est pris en charge sur VMR-7 et VMR-9.
+à compter de Windows XP Service Pack 2, VMR prend en charge un mode de mixage appelé mode de mixage YUV. Ce mode est particulièrement utile pour les applications TV ou DVD avancées. Il intègre une partie de la puissance de VMR mixer pour améliorer les performances sur le matériel graphique de bas niveau qui utilise une conception d’architecture de mémoire unifiée. Le mode de mixage YUV est pris en charge sur VMR-7 et VMR-9.
 
 **Avantages**
 

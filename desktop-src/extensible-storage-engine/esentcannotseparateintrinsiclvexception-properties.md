@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101279
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e3ac229091226ae99f8b537d20aeba0fdb673c4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1153b75110b72937c1bea78eeacc5ccab0f9474f34200d78587706346e9c00c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117000"
 ---
 # <a name="esentcannotseparateintrinsiclvexception-properties"></a>Propriétés EsentCannotSeparateIntrinsicLVException
 
@@ -49,7 +49,7 @@ Le type [EsentCannotSeparateIntrinsicLVException](./esentcannotseparateintrinsic
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

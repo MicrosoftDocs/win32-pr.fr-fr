@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101309
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5195719e36e0358f0344933269dabeaed6b7b3a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51b4fd49545cbfe2791999bd965b3cb74ff3e1bde63da431b44de02650808ea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116819"
 ---
 # <a name="esentcolumnduplicateexception-properties"></a>Propriétés EsentColumnDuplicateException
 
@@ -49,7 +49,7 @@ Le type [EsentColumnDuplicateException](./esentcolumnduplicateexception-class.md
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

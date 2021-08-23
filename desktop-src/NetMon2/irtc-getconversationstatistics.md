@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 4d2476f4eb33d7e74d0de8363fa88d5e688a2e73
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0a4560cf2626f2b7cfc03eed1d8650e2073e1861fd72b4a2797b02749911e085
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063889"
 ---
 # <a name="irtcgetconversationstatistics-method"></a>IRTC :: GetConversationStatistics, méthode
 
@@ -79,7 +79,7 @@ Indicateur utilisé pour indiquer à Moniteur réseau d’effacer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -89,22 +89,22 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
 | Code de retour                                                                                                   | Description                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>          | Le NPP n’est pas connecté au réseau. Appelez [IRTC :: Connect](irtc-connect.md) pour connecter le NPP au réseau.<br/>                                                                                                      |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>          | Le NPP n’est pas connecté au réseau. appelez [IRTC :: Connecter](irtc-connect.md) pour connecter le NPP au réseau.<br/>                                                                                                      |
 | <dl> <dt>**NMERR \_ pas de \_ capture**</dt> </dl>          | Le NPP ne capture pas de données. Appelez [IRTC :: Start](irtc-start.md) pour démarrer la capture.<br/>                                                                                                                                 |
-| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>           | Le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connect](irtc-connect.md) .<br/>                                                                                                                          |
+| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>           | le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connecter](irtc-connect.md) .<br/>                                                                                                                          |
 | <dl> <dt>**NMERR \_ aucune \_ statistique de conversation \_**</dt> </dl> | La configuration de cette connexion est définie de façon à ne pas enregistrer les statistiques de conversation. Pour enregistrer les statistiques de conversation, arrêtez la capture, définissez NoConversationStats = YES dans l’objet BLOB de configuration, puis redémarrez la capture.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut uniquement être appelée pendant que vous capturez des données ; Si vous appelez cette méthode alors que la capture en cours est suspendue, la méthode échoue. Pour démarrer une capture, appelez la méthode [IRTC :: Start](irtc-start.md) .
 
 Pour récupérer d’autres types de statistiques, appelez la méthode [IRTC :: GetTotalStatistics](irtc-gettotalstatistics.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
@@ -124,7 +124,7 @@ Pour récupérer d’autres types de statistiques, appelez la méthode [IRTC ::
 [IRTC](irtc.md)
 </dt> <dt>
 
-[IRTC :: Connect](irtc-connect.md)
+[IRTC :: Connecter](irtc-connect.md)
 </dt> <dt>
 
 [IRTC::GetTotalStatistics](irtc-gettotalstatistics.md)

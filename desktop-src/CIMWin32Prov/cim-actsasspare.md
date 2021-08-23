@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 975c6317a78789938ea9d34e062d84fe3435498a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6b76b9dbd4a5a3302d1aae328bcd096dee5cd03e1615d3c7e30c58f3344ea67f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080953"
 ---
 # <a name="cim_actsasspare-class"></a>\_Classe CIM ActsAsSpare
 
@@ -98,7 +98,7 @@ Référence à un élément système géré agissant comme un Spare et participa
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 
