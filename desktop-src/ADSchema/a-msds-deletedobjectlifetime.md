@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a59b2a6c635df3c150e7673abb41f135937bc8c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c6850c6dbc68ad30c6a26b6522d438fc1334d8c16f44afed96fa296b5dea4263
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552679"
 ---
 # <a name="ms-ds-deleted-object-lifetime-attribute"></a>attribut ms-DS-Deleted-Object-Lifetime
 
@@ -36,7 +36,7 @@ Durée de vie d’un objet supprimé.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2068              |
 | System-ID-GUID    | a9b38cb6-189a-4def-8a70-0fcfa158148e |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

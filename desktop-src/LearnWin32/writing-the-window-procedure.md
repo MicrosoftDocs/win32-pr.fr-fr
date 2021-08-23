@@ -4,12 +4,12 @@ description: Écriture de la procédure de fenêtre
 ms.assetid: f022bb88-6e4c-4ec4-9eef-f125ad92167e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 832aba88211a7decf20c233f5d9ab4fbeb1b1c27
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 853f5effe693e10ad0c5515e9d2ea87d200a1e7dd9b0c79da46228909e53deef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520459"
 ---
 # <a name="writing-the-window-procedure"></a>Écriture de la procédure de fenêtre
 

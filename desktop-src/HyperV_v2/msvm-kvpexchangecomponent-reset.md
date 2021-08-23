@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7cf5707c5fe04bba62edd3dec79573d6f6c8ad45
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d4ddd61b3ca8332e413c8b2c04006ffb600a27c4bc9fb7568f9f6433ed214a21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522159"
 ---
 # <a name="reset-method-of-the-msvm_kvpexchangecomponent-class"></a>Méthode Reset de la \_ classe MSVM KvpExchangeComponent
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

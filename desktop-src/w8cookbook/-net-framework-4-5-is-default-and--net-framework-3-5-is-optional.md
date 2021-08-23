@@ -4,33 +4,33 @@ description: .NET Framework 4,5 est la valeur par défaut et .NET Framework 3,5 
 ms.assetid: 19B53C82-812A-49AC-87C6-C08E7C199208
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab1f91acc8739b2c660bfb1ba1392ea192511d1c
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: e875f7508bc0940689afde5eb9b3f00407dd2c7dd70e35de52fe580717c8ad53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "106510504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549789"
 ---
 # <a name="net-framework-45-is-default-and-net-framework-35-is-optional"></a>.NET Framework 4,5 est la valeur par défaut et .NET Framework 3,5 est facultatif
 
 ## <a name="platforms"></a>Plateformes
 
-**Clients**   Windows 8  
-**Serveurs**   Windows Server 2012  
+**Clients** Windows 8     
+**serveurs** Windows Server 2012     
 
 ## <a name="description"></a>Description
 
-.NET Framework 4,5 est activé par défaut dans Windows 8. Windows 8 n’inclut pas .NET 3,5 par défaut, mais les fichiers pour .NET 3,5 sont disponibles sur le support d’installation de Windows 8 en tant que fonctionnalité facultative.
+.NET Framework 4,5 est activé par défaut dans Windows 8. Windows 8 n’inclut pas .net 3,5 par défaut, mais les fichiers pour .net 3,5 sont disponibles sur le support d’installation Windows 8 en tant que fonctionnalité facultative.
 
-Si l’utilisateur met à niveau Windows 7 vers Windows 8, .NET Framework 3,5 est entièrement activé pour s’assurer que toutes les applications sur l’ordinateur continuent de fonctionner correctement.
+si l’utilisateur met à niveau Windows 7 vers Windows 8, .NET Framework 3,5 est entièrement activé pour s’assurer que toutes les applications sur l’ordinateur continuent de fonctionner correctement.
 
 ## <a name="manifestation"></a>Manifestation
 
-Si l’utilisateur effectue une nouvelle installation de Windows 8, puis installe les applications qui requièrent .NET Framework 3,5 (ou 2,0), il déclenche une demande pour les fichiers .NET 3,5 nécessaires. Normalement, les fichiers manquants seront téléchargés à partir de Windows Update (après avoir demandé l’autorisation à l’utilisateur), mais si l’accès à Windows Update n’est pas possible, l’activation de .NET Framework 3,5 échouera, sauf si une autre source pour les fichiers manquants a été spécifiée.
+si l’utilisateur effectue une nouvelle installation de Windows 8, puis installe les applications qui requièrent .NET Framework 3,5 (ou 2,0), il déclenchera une demande pour les fichiers .net 3,5 nécessaires. normalement, les fichiers manquants seront téléchargés à partir de Windows Update (après avoir demandé l’autorisation à l’utilisateur), mais si l’accès à Windows Update n’est pas possible, l’activation de .NET Framework 3,5 échouera, sauf si une autre source pour les fichiers manquants a été spécifiée.
 
 ## <a name="mitigation"></a>Limitation des risques
 
-Pour activer .NET Framework 3,5 sur les ordinateurs de test uniquement avec des installations propres de Windows 8 :
+pour activer .NET Framework 3,5 sur les ordinateurs de test uniquement avec des installations propres de Windows 8 :
 
 1.  Copiez \\ \\ les sources côte \\ à côte de l’image ISO de la build du système d’exploitation monté vers dotnet35 ou un dossier similaire. Par exemple :
     ```
@@ -56,7 +56,7 @@ Pour activer .NET Framework 3,5 sur les ordinateurs de test uniquement avec des 
 
 **Pour les consommateurs :**
 
-Windows 8 comprend un mécanisme qui active automatiquement .NET Framework 3,5 quand vous tentez d’installer le package redistribuable ou lorsqu’un programme d’installation d’application nécessitant .NET 3,5 appelle le package redistribuable.
+Windows 8 comprend un mécanisme qui active automatiquement .NET Framework 3,5 lors de la tentative d’installation du package redistribuable ou lorsqu’un programme d’installation d’application nécessitant .net 3,5 appelle le package redistribuable.
 
 **Pour les développeurs d’applications (et les administrateurs informatiques) :**
 
@@ -76,7 +76,7 @@ Les administrateurs informatiques peuvent configurer les applications .NET 3,5 p
 
 **Pour les OEM d’entreprise :**
 
-Pour activer .NET Framework 3,5 pour les builds EEAP et pour les applications qui n’ont pas accès à Windows Update :
+pour activer .NET Framework 3,5 pour les builds EEAP et pour les applications qui n’ont pas accès à Windows Update :
 
 1.  Copiez les \\ sources \\ côte \\ à côte de l’image ISO de build de système d’exploitation montée dans le dossier dotnet35 ou similaire. Par exemple :
     ```
@@ -95,7 +95,7 @@ Pour activer .NET Framework 3,5 pour les builds EEAP et pour les applications qu
 
 **Pour les entreprises :**
 
-Pour les ordinateurs configurés pour utiliser WSUS pour la maintenance, vous pouvez définir une entrée de Registre pour permettre à l’ordinateur d’utiliser Windows Update pour l’activation de .NET 3,5 au lieu de WSUS (la maintenance sera toujours effectuée à partir de WSUS si vous le faites).
+pour les ordinateurs configurés pour utiliser WSUS pour la maintenance, vous pouvez définir une entrée de registre pour permettre à l’ordinateur d’utiliser Windows Update pour l’activation de .net 3,5 au lieu de wsus (la maintenance sera toujours effectuée à partir de wsus si vous le faites).
 
 -   Définissez la valeur de la RegKey :
     ```
@@ -106,11 +106,11 @@ Pour les ordinateurs configurés pour utiliser WSUS pour la maintenance, vous po
 
 Cette entrée de Registre peut également être définie via stratégie de groupe (stratégie de l’ordinateur local-> configuration de l’ordinateur-> système Modèles d’administration->. Sélectionnez le paramètre spécifier les paramètres pour l’installation des composants facultatifs et la réparation des composants.
 
-Si vous sélectionnez contacter Windows Update directement pour télécharger le contenu de réparation au lieu de Windows Server Update Services (WSUS), toute tentative d’ajouter des fonctionnalités Windows (par exemple, .NET Framework 3,5) ou des fonctionnalités de réparation déclenchera des téléchargements de fichiers à partir de Windows Update. Les ordinateurs cibles requièrent un accès Internet et WU pour cette option. Les opérations de maintenance normales continuent à utiliser WSUS si elle a été configurée en tant que source.
+si vous sélectionnez contacter Windows Update directement pour télécharger le contenu de réparation au lieu de Windows Server Update Services (WSUS), toute tentative d’ajouter des fonctionnalités de Windows (par exemple, .NET Framework 3,5) ou des fonctionnalités de réparation déclenchera des téléchargements de fichiers à partir de Windows Update. Les ordinateurs cibles requièrent un accès Internet et WU pour cette option. Les opérations de maintenance normales continuent à utiliser WSUS si elle a été configurée en tant que source.
 
 **Note relative à la définition de l’emplacement source local via des entrées de Registre**
 
-Les administrateurs informatiques peuvent définir des emplacements sources locaux pour les fichiers .NET 3,5 à l’aide d’une entrée de Registre, afin que les utilisateurs puissent utiliser la boîte de dialogue Ajouter/supprimer des fonctionnalités Windows pour activer des fonctionnalités avec une charge utile manquante sans avoir à spécifier un emplacement source. La valeur de l’entrée de Registre peut être contrôlée via la stratégie de groupe.
+les administrateurs informatiques peuvent définir des emplacements sources locaux pour les fichiers .net 3,5 à l’aide d’une entrée de registre, afin que les utilisateurs puissent utiliser la boîte de dialogue ajouter/supprimer des composants Windows pour activer des fonctionnalités avec une charge utile manquante sans avoir à spécifier un emplacement source. La valeur de l’entrée de Registre peut être contrôlée via la stratégie de groupe.
 
 Cette entrée de Registre est prise en charge :
 

@@ -4,12 +4,12 @@ ms.assetid: 06b0e2d7-9539-41ad-a631-7e8da556feeb
 title: Définition et récupération de la position
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 776a32eb6193ef456d693b5a133c87d800a0b64e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe7951ce12fe498a4f230ab3d1ac84796621e04ed025010678f1c43a39d88eb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683689"
 ---
 # <a name="setting-and-retrieving-the-position"></a>Définition et récupération de la position
 
@@ -37,7 +37,7 @@ hr = pSeek->SetPositions(
 
 
 > [!Note]  
-> Une seconde est 10 millions unités de temps de référence. Pour plus de commodité, l’exemple définit cette valeur comme une \_ seconde. Si vous utilisez la bibliothèque de classes de base DirectShow, les unités constantes ont la même valeur.
+> Une seconde est 10 millions unités de temps de référence. Pour plus de commodité, l’exemple définit cette valeur comme une \_ seconde. si vous utilisez la bibliothèque de classes de base DirectShow, les unités constantes ont la même valeur.
 
  
 

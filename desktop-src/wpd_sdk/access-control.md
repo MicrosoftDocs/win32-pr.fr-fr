@@ -4,16 +4,16 @@ ms.assetid: d17137f9-b206-4ced-82e5-96a7d927c89b
 title: Access Control (API WPD)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7820f38a41cbf9ff0199e5fde8de8ed3609063
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83caa01b08409afd196ea0507cb47986928a1d947b6ff7907640e4f9bd5b390f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657909"
 ---
 # <a name="access-control-wpd-api"></a>Access Control (API WPD)
 
-Le Windows Driver Model (WDM) prend en charge la restriction de l’accès des appareils via les listes de Access Control (ACL) sur les nœuds de l’appareil Plug-and-Play (PnP). Cela signifie que les fournisseurs et les administrateurs réseau peuvent restreindre l’accès à n’importe quel type d’appareil. Lorsqu’une application ouvre un handle à un pilote en appelant [**IPortableDevice :: Open**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open), le gestionnaire d’e/s du pilote vérifie si l’utilisateur donné dispose de l’accès requis, et effectue de la même manière des contrôles d’accès lorsque les IOCTL sont envoyées au pilote à partir de ce handle.
+le Windows Driver Model (WDM) prend en charge la restriction de l’accès des appareils via les listes de Access Control (acl) sur les nœuds de l’appareil Plug-and-Play (PnP). Cela signifie que les fournisseurs et les administrateurs réseau peuvent restreindre l’accès à n’importe quel type d’appareil. Lorsqu’une application ouvre un handle à un pilote en appelant [**IPortableDevice :: Open**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open), le gestionnaire d’e/s du pilote vérifie si l’utilisateur donné dispose de l’accès requis, et effectue de la même manière des contrôles d’accès lorsque les IOCTL sont envoyées au pilote à partir de ce handle.
 
 Par exemple, un administrateur réseau peut restreindre les utilisateurs invités à l’accès en lecture seule pour les périphériques portables, alors qu’ils peuvent accorder aux utilisateurs authentifiés un accès en lecture/écriture. Dans ce cas, cela implique que si un invité a émis une commande WPD nécessitant un accès en lecture/écriture (par exemple, supprimer un objet); elle échoue avec l’accès refusé, tandis que si un utilisateur authentifié a émis la même commande, elle réussit.
 

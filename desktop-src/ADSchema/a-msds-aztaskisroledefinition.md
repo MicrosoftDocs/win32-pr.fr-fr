@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b09b64e5c812348b270540a5f791779df9774d8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8001d156553fa712b34d3e5d6a5991137bb76a7f1f321db61f20e300e8fc16ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106519158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552739"
 ---
 # <a name="ms-ds-az-task-is-role-definition-attribute"></a>attribut ms-DS-AZ-Task-is-Role-Definition
 
@@ -44,7 +44,7 @@ Champ booléen qui indique si AzTask est une tâche classique ou une définition
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

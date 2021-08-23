@@ -1,30 +1,30 @@
 - name: Entrée tactile
   href: windows-touch-portal.md
   items:
-    - name: À propos de Windows Touch
+    - name: à propos de Windows Touch
       href: about-the-multi-touch-sdk.md
     - name: Guide de programmation
       href: programming-guide.md
       items:
         - name: Présentation de l’architecture
           href: architectural-overview.md
-        - name: Choix de la bonne approche pour Windows Touch
+        - name: choix de la bonne approche pour Windows Touch
           href: choosing-the-right-approach-to-windows-touch.md
         - name: Dépannage des applications
           href: troubleshooting-applications.md
-        - name: Entrée tactile Windows
+        - name: Windows Entrée tactile
           href: guide-multi-touch-input.md
           items:
-            - name: Prise en main avec des messages tactiles Windows
+            - name: Prise en main avec des Messages tactiles Windows
               href: getting-started-with-multi-touch-messages.md
             - name: Détection et suivi de plusieurs points tactiles
               href: detecting-and-tracking-multiple-touch-points.md
-        - name: Gestes tactiles Windows
+        - name: Windows Gestes tactiles
           href: guide-multi-touch-gestures.md
           items:
-            - name: Vue d’ensemble des gestes tactiles Windows
+            - name: Windows Vue d’ensemble des gestes tactiles
               href: windows-touch-gestures-overview.md
-            - name: Prise en main avec les gestes tactiles Windows
+            - name: Prise en main avec des gestes tactiles Windows
               href: getting-started-with-multi-touch-gestures.md
             - name: Prise en charge héritée pour le panoramique avec les barres de défilement
               href: legacy-support-for-panning-with-scrollbars.md
@@ -58,26 +58,26 @@
                   href: inertia-mechanics.md
                 - name: Gestion de l’inertie dans du code non managé
                   href: handling-inertia-in-unmanaged-code.md
-    - name: Exemples de fonctions tactiles Windows
+    - name: Windows Exemples tactiles
       href: windows-touch-samples.md
       items:
         - name: Exemple de manipulation et d’inertie
           href: manipulation-and-inertia-sample.md
-        - name: Exemple de mouvement tactile Windows (MTGestures)
+        - name: Windows Exemple de mouvement tactile (MTGestures)
           href: windows-touch-gesture-sample--mtgestures-.md
-        - name: Exemples de saisie tactile Windows en C# (MTGesturesCS)
+        - name: Windows Gestes tactiles dans l’exemple C# (MTGesturesCS)
           href: windows-touch-gestures-in-c--sample--mtgesturescs-.md
-        - name: Exemple de manipulation tactile Windows (MTManipulation)
+        - name: Windows Exemple de manipulation tactile (MTManipulation)
           href: windows-touch-manipulation-sample--mtmanipulation-.md
-        - name: Exemple de bloc-notes Windows Touch (C++)
+        - name: 'Windows Touch bloc-notes, exemple (C++)'
           href: windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md
-        - name: Exemple de bloc-notes Windows Touch (C#)
+        - name: 'Windows Touch bloc-notes, exemple (C#)'
           href: windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md
-        - name: Bloc-notes Windows Touch utilisant l’exemple de stylet en temps réel (C++)
+        - name: Windows Touch bloc-notes utilisant l’exemple de stylet en temps réel (C++)
           href: windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md
-        - name: Bloc-notes Windows Touch utilisant l’exemple Real-Time Stylus (C#)
+        - name: Windows Touch bloc-notes utilisant l’exemple Real-Time Stylus (C#)
           href: windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md
-    - name: Informations de référence sur la programmation tactile Windows
+    - name: Windows Référence de programmation tactile
       href: windows-touch-programming-reference.md
       items:
         - name: Commentaires sur les limites
@@ -221,13 +221,13 @@
               items:
                 - name: MANIPULATION_PROCESSOR_MANIPULATIONS
                   href: /windows/desktop/api/manipulations/ne-manipulations-manipulation_processor_manipulations
-        - name: Gestes tactiles Windows
+        - name: Windows Gestes tactiles
           href: multi-touch-gestures.md
           items:
             - name: Constantes
               href: constants.md
               items:
-                - name: Gestes tactiles Windows
+                - name: Windows Gestes tactiles
                   href: windows-touch-gestures-constants.md
             - name: Fonctions
               href: mtgfunctions.md
@@ -265,7 +265,7 @@
                   href: /windows/win32/api/winuser/ns-winuser-gestureinfo
                 - name: GESTURENOTIFYSTRUCT
                   href: /windows/win32/api/winuser/ns-winuser-gesturenotifystruct
-        - name: Entrée tactile Windows
+        - name: Windows Entrée tactile
           href: multi-touch-input.md
           items:
             - name: Macros
@@ -298,5 +298,5 @@
               items:
                 - name: TOUCHINPUT
                   href: /windows/win32/api/winuser/ns-winuser-touchinput
-    - name: Glossaire Windows Touch
+    - name: Windows Glossaire tactile
       href: glossary.md

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0bc15b85ddca3bdbe5f6774b5368c6f0cde8dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 252859065ddae0439441acb6afd797d26bbed44a246b628b4f0350d7f3b1e2d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519989"
 ---
 # <a name="glpushattrib-function"></a>glPushAttrib fonction)
 
@@ -427,14 +427,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**dépassement de capacité de la \_ pile GL \_**</dt> </dl>    | La fonction a été appelée alors que la pile d’attributs était pleine.<br/>                                                                |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glPushAttrib** prend un argument, un masque qui indique les groupes de variables d’État à enregistrer sur la pile d’attributs. Les constantes symboliques sont utilisées pour définir des bits dans le masque. Le paramètre Mask est généralement construit en appliquant l’opération **or** logique à plusieurs de ces constantes. Vous pouvez utiliser le masque spécial GL \_ tous \_ les \_ bits d’attrib pour enregistrer tous les États empilables.
 

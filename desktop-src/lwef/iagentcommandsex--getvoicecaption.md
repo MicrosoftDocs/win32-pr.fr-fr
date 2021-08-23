@@ -4,12 +4,12 @@ description: IAgentCommandsEx GetVoiceCaption
 ms.assetid: 0e505295-386a-421f-a43c-6da03c8a2b6a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3a757e1c841afd62b9b6ae13f1ef34178f133ca
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6ec2a6d5138b9b7074d1c9a2002f45a0076fe5d957ae5e47d865c693f73e8b37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106543047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609431"
 ---
 # <a name="iagentcommandsexgetvoicecaption"></a>IAgentCommandsEx::GetVoiceCaption
 
@@ -43,6 +43,6 @@ Cette propriété s’applique uniquement à l’utilisation du caractère par v
 [**IAgentCommandsEx::SetVoiceCaption**](iagentcommandsex--setvoicecaption.md)
 
 
- 
+ 
 
- 
+ 

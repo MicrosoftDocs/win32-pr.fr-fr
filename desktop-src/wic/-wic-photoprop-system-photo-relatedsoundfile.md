@@ -4,12 +4,12 @@ ms.assetid: 3b212d90-7ae2-4b7c-b77a-2017490aca40
 title: Stratégie de métadonnées de photo System. photo. RelatedSoundFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07a29adb71f572868f21b1b8427e71b09616b24c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0aae80ad39b8d3dab271aacf4815836e8b386c150ec80be63a83a4ab5937635e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549429"
 ---
 # <a name="systemphotorelatedsoundfile-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. RelatedSoundFile
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Rela
 
 \_Photo \_ RelatedSoundFile
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 40964} | ascii       |
 | 2     | /xmp/exif:RelatedSoundFile    | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 40964} | ascii       |
 | 2     | /xmp/exif:RelatedSoundFile    | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 40964} |
 | 2     | /xmp/exif:RelatedSoundFile    |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                           | Format de disque |
+| Commande | Chemin                           | Format de disque |
 |-------|--------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 40964}       | ascii       |
 | 2     | /ifd/xmp/exif:RelatedSoundFile | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                           | Format de disque |
+| Commande | Chemin                           | Format de disque |
 |-------|--------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 40964}       | ascii       |
 | 2     | /ifd/xmp/exif:RelatedSoundFile | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                           |
+| Commande | Chemin                           |
 |-------|--------------------------------|
 | 1     | /IFD/EXIF/{UShort = 40964}       |
 | 2     | /ifd/xmp/exif:RelatedSoundFile |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -3,17 +3,17 @@ title: Message (services web Windows)
 description: Un message est un objet qui encapsule des données transmises ou reçues.
 ms.assetid: edc810d9-7d78-4b79-8cbb-e87401f6ae41
 keywords:
-- Services Web de message pour Windows
+- Message Web services pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 704df318e10521bd56e62632af16e683b7baccfc
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: f1722cbe4a956ef16a1b7195158b695f551419ad600c64f552e92700d3e4ee57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104569550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657093"
 ---
 # <a name="message-windows-web-services"></a>Message (services web Windows)
 

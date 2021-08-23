@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9f1acae94ea29d2d57b2952c0b0adc267ad3066c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a7788c894646b3ebb07fc9d3d98aeeda54b9172b5dde01e7eb65975bb2d95d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547409"
 ---
 # <a name="create-method-of-the-win32_scheduledjob-class"></a>Créer une méthode de la \_ classe ScheduledJob Win32
 
@@ -567,9 +567,9 @@ Le compte sous lequel ce service s’exécute n’est pas valide ou ne dispose p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si votre tâche planifiée démarre un programme interactif tel que le bloc-notes, la propriété **InteractWithDeskto** doit avoir la valeur **true** ou l’écran du programme n’est pas visible. Le processus apparaît toujours dans le **Gestionnaire des tâches** , même s’il n’apparaît pas à l’écran.
+si votre tâche planifiée démarre un programme interactif comme Bloc-notes, la propriété **InteractWithDeskto** doit avoir la valeur **True** ou l’écran du programme n’est pas visible. Le processus apparaît toujours dans le **Gestionnaire des tâches** , même s’il n’apparaît pas à l’écran.
 
 ## <a name="requirements"></a>Configuration requise
 

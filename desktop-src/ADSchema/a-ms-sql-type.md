@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-attribut de type
-description: Type de réplication utilisé par ce serveur SQL Server.
+title: attribut de Type MS-SQL
+description: type de réplication utilisé par ce serveur de SQL.
 ms.assetid: 8e7fa9ab-9a25-4ee3-9134-68af698a5fb8
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD d’attribut de type MS-SQL
-- Schéma AD d’attribut de type mS-SQL
+- schéma AD d’attribut de Type MS-SQL
+- schéma AD d’attribut de Type mS-SQL
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 057b85b0c522a891cc31cde699fd062897c54818
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 15850884b8071fc103abf2c8d3f12ad68d4f5ed946ef2b491b4907b87b1cb524
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583289"
 ---
-# <a name="ms-sql-type-attribute"></a>MS-SQL-attribut de type
+# <a name="ms-sql-type-attribute"></a>attribut de Type MS-SQL
 
-Type de réplication utilisé par ce serveur SQL Server. Les valeurs suivantes sont les valeurs possibles pour cet attribut.
+type de réplication utilisé par ce serveur de SQL. Les valeurs suivantes sont les valeurs possibles pour cet attribut.
 
 
 
@@ -57,7 +57,7 @@ Type de réplication utilisé par ce serveur SQL Server. Les valeurs suivantes s
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

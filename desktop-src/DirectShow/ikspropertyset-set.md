@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: b233cea7e131919d94b00afeb5a6e2ea3703c738
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f3669acb7f2d3049b909a4dc2c24363bf478c9b44ad0a91528e1e8ea466399fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639189"
 ---
 # <a name="ikspropertysetset-method"></a>IKsPropertySet :: Set, méthode
 
@@ -95,7 +95,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                              | Description                                                                 |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                     | Opération réussie.<br/>                                                         |
+| <dl> <dt>**\_OK**</dt> </dl>                     | Réussite.<br/>                                                         |
 | <dl> <dt>**jeu d’E \_ props \_ \_ non pris en charge**</dt> </dl> | Le jeu de propriétés n’est pas pris en charge.<br/>                               |
 | <dl> <dt>**\_ID prop \_ \_ non pris en charge**</dt> </dl>  | L’ID de propriété n’est pas pris en charge pour le jeu de propriétés spécifié.<br/> |
 
@@ -103,10 +103,10 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
-> Une autre interface portant ce nom existe dans le fichier d’en-tête dsound. h. Les deux interfaces ne sont pas compatibles. L’interface **IKsControl** , documentée dans le DDK DirectShow, est désormais l’interface recommandée pour passer des jeux de propriétés entre les pilotes WDM et les composants en mode utilisateur.
+> Une autre interface portant ce nom existe dans le fichier d’en-tête dsound. h. Les deux interfaces ne sont pas compatibles. l’interface **IKsControl** , documentée dans le DirectShow DDK, est désormais l’interface recommandée pour passer des jeux de propriétés entre les pilotes WDM et les composants en mode utilisateur.
 
  
 

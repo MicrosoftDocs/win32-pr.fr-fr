@@ -4,12 +4,12 @@ ms.assetid: a4f4dac5-76fd-4e9e-a71e-665684840d74
 title: Obtention d’un handle de volume pour les opérations de journal des modifications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8036fc642de52aa2d7f9bab66dd2e380dcc070c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3a7e8090e419df2034d1e1e1726dd74cf2b2915f6976a042a47c73544fa6b38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683479"
 ---
 # <a name="obtaining-a-volume-handle-for-change-journal-operations"></a>Obtention d’un handle de volume pour les opérations de journal des modifications
 

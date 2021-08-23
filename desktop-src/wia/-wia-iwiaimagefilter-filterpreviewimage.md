@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 882aaf0d131ae6fe062c00c0181e2f913a0e1bc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96b1d8ce92a847dcd4ffcebca6b45df2b652ad74c1216fc60b8aac72bb6a12ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659719"
 ---
 # <a name="iwiaimagefilterfilterpreviewimage-method"></a>IWiaImageFilter :: FilterPreviewImage, méthode
 
@@ -54,13 +54,13 @@ Non utilisé. Définit la valeur 0.
 *pWiaChildItem2* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+Type : **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
 Élément traité.
 
 </dd> <dt>
 
-_InputImageExtents * \[ dans\]
+*InputImageExtents* \[ dans\]
 </dt> <dd>
 
 Type : **Rect**
@@ -72,7 +72,7 @@ Coordonnées (sur la zone d’acquisition physique) de l’image que le composan
 *pInputStream* \[ dans\]
 </dt> <dd>
 
-Type : **[IStream](/windows/win32/api/objidl/nn-objidl-istream) \** _
+Type : **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
 Pointeur vers l’interface [IStream](/windows/win32/api/objidl/nn-objidl-istream) pour les données d’image mises en cache qui sont filtrées.
 
@@ -80,11 +80,11 @@ Pointeur vers l’interface [IStream](/windows/win32/api/objidl/nn-objidl-istrea
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 N’appelez pas cette méthode directement à partir de votre application.
 
@@ -100,8 +100,8 @@ Une application doit s’assurer que *pWiaChildItem2* a le même format d’imag
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

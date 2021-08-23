@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67e98a93f31fc45aca37e173ac6490bd1ca95840
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1e28c24e01d0d37259c624bc6a1fda13f65e4ade4c2166cec2ae6adfce53dca2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582089"
 ---
 # <a name="ms-rras-attribute-attribute"></a>attribut ms-RRAS-Attribute
 
@@ -45,7 +45,7 @@ Chaîne qui contient le ID de type ID installé sur un routeur. Le ID de fournis
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

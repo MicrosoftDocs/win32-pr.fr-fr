@@ -3,9 +3,9 @@ title: WebViewFolderContents.Folder, propriété (Shldisp.h)
 description: WebViewFolderContents. Folder, propriété-obtient un objet Folder qui représente la vue.
 ms.assetid: 1d81c27a-1e48-4c0a-b74d-c63af43a909d
 keywords:
-- Propriétés du dossier fonctionnalités d’environnement Windows héritées
-- Propriété de dossier fonctionnalités de l’environnement Windows héritées, objet WebViewFolderContents
-- Objets WebViewFolderContents hérités fonctionnalités de l’environnement Windows, propriété de dossier
+- propriétés de dossier héritage Windows fonctionnalités d’environnement
+- propriété de dossier héritage Windows fonctionnalités d’environnement, objet WebViewFolderContents
+- objet WebViewFolderContents héritage Windows fonctionnalités d’environnement, propriété de dossier
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e88fd7a54971fa088bdddbc78d3d8df4af610875
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: af475d55351d9278ca954a9ebb896ef03928538b9984a2f87478ed3358a1741e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607839"
 ---
 # <a name="webviewfoldercontentsfolder-property"></a>WebViewFolderContents. Folder, propriété
 
@@ -44,7 +44,7 @@ Objet qui reçoit l’objet [**Folder**](../shell/folder.md) .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette propriété dans JScript Embedded en HTML.
+l’exemple suivant illustre l’utilisation appropriée de cette propriété dans JScript incorporée en HTML.
 
 
 ```HTML
@@ -84,7 +84,7 @@ L’exemple suivant illustre l’utilisation correcte de cette propriété dans 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

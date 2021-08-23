@@ -4,12 +4,12 @@ ms.assetid: 1cfba455-9a15-45f3-8d56-74b8348e080e
 title: Message LINE_MONITORMEDIA (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7b6e3d0d2928ab3256b844a27727657978dbe0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9fec42f0e8aa630b518f989a9237762edc71281767b281f7af78eb54210138d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519019"
 ---
 # <a name="line_monitormedia-message"></a>\_Message MONITORMEDIA de ligne
 
@@ -57,7 +57,7 @@ Inutilisé.
 *dwParam3* 
 </dt> <dd>
 
-« Nombre de cycles » (nombre de millisecondes écoulées depuis le démarrage de Windows) à partir duquel le média spécifié a été détecté. Pour les versions TAPI antérieures à 2,0, ce paramètre n’est pas utilisé.
+« nombre de cycles » (nombre de millisecondes depuis Windows démarré) auquel le média spécifié a été détecté. Pour les versions TAPI antérieures à 2,0, ce paramètre n’est pas utilisé.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ Inutilisé.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message de **ligne \_ MONITORMEDIA** est envoyé à l’application qui a activé la surveillance du média pour le type de média détecté.
 

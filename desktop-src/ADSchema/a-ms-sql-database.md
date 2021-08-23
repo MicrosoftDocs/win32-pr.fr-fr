@@ -1,11 +1,11 @@
 ---
 title: MS-SQL-attribut de base de données
-description: Nom de la base de données SQL Server impliquée dans la réplication.
+description: nom de la base de données SQL Server impliquée dans la réplication.
 ms.assetid: 624705d9-df3f-458e-98f4-fb8da073efd6
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-Database
-- Schéma AD de l’attribut mS-SQL-Database
+- schéma AD d’attribut de base de données MS-SQL
+- schéma AD d’attribut de base de données mS-SQL
 topic_type:
 - apiref
 api_name:
@@ -14,23 +14,23 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae6c448213bee18fede3cc8a77cabf607c3b2ee3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e7820e9ea165922fa2b77606ee160469a8866870346208ed199350df7a5e238b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583399"
 ---
 # <a name="ms-sql-database-attribute"></a>MS-SQL-attribut de base de données
 
-Nom de la base de données SQL Server impliquée dans la réplication.
+nom de la base de données SQL Server impliquée dans la réplication.
 
 
 
 | Entrée | Valeur |
 |-------------------|---------------------------------------------|
-| CN                | Base de données MS-SQL                             |
-| LDAP-Display-Name | Base de données mS-SQL                             |
+| CN                | MS-SQL-base de données                             |
+| LDAP-Display-Name | mS-SQL-base de données                             |
 | Taille              | \-                                          |
 | Mettre à jour le privilège  | Administrateur de domaine                        |
 | Fréquence des mises à jour  | Lorsque la réplication est configurée.                  |
@@ -45,7 +45,7 @@ Nom de la base de données SQL Server impliquée dans la réplication.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

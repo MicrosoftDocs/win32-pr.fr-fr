@@ -4,17 +4,17 @@ ms.assetid: 70368351-c7b9-4640-a4f7-7d972b8e4628
 title: Méthode SelectParentalCountry
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2216d2b2ed72436aca003b42cbf811c8a01bd8fa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d148145f2c38cdb01da209e02f6400301da851e1d2b41e5adaf84b2338ad21c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684059"
 ---
 # <a name="selectparentalcountry-method"></a>Méthode SelectParentalCountry
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -53,7 +53,7 @@ Spécifie la chaîne de mot de passe de l’application.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le pays/région parental détermine la façon dont les niveaux de contrôle parental sont interprétés.
 

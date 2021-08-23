@@ -6,12 +6,12 @@ keywords:
 - SNB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69d6860204d9f232c2ffafa4f1f16a1187fee8de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e49a7868912b9d7d1e3d9f3b1f82805e6e285d815eacbc559c887febd23e9e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682779"
 ---
 # <a name="snb"></a>SNB
 
@@ -33,7 +33,7 @@ typedef OLESTR** SNB;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le **SNB** doit être créé en allouant un bloc de mémoire contigu dans lequel les pointeurs vers les chaînes sont suivis d’un pointeur **null** , qui est ensuite suivi des chaînes réelles.
 
@@ -45,8 +45,8 @@ Le marshaling d’un **SNB** est basé sur l’hypothèse que le **SNB** qui a �
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Objidl. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Objidl. idl</dt> </dl> |
 

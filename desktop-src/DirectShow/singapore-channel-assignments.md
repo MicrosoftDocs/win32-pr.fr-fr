@@ -4,12 +4,12 @@ ms.assetid: 77d4f4fc-76ec-4996-8f25-05ad8840d49f
 title: Affectations de canaux de Singapour
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccf7ae41242244ace47cc457950eedd0c82a0f5a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe915305fd5aaaace3599cafae6281774f4bf35c501bb587fe82e8d9752fd556
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683589"
 ---
 # <a name="singapore-channel-assignments"></a>Affectations de canaux de Singapour
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 -   [Affectations de diffusion](#broadcast-assignments)
 -   [Attributions de câble](#cable-assignments)

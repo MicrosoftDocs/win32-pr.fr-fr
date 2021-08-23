@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b64762b824cea7d3b064636e7f7f87777e053daf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c729690bb2c8f59610fd1610e9123dfddf267152d1b428be308b5bd3ec23fe2f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524544"
 ---
 # <a name="msvm_ethernetswitchhardwareoffloaddata-class"></a>MSVM \_ EthernetSwitchHardwareOffloadData, classe
 
@@ -139,7 +139,7 @@ Qualificateurs : **WmiDataId** (11), **InterfaceVersion** (3), **InterfaceRevis
 Paramètre VMMQ actuel pour la file d’attente par défaut
 
 > [!Note]  
-> Propriété ajoutée dans Windows 10, version 1703.
+> propriété ajoutée dans Windows 10, version 1703.
 
  
 
@@ -160,7 +160,7 @@ Qualificateurs : **WmiDataId** (12), **InterfaceVersion** (3), **InterfaceRevis
 Nombre actuel de files d’attente allouées à la file d’attente par défaut
 
 > [!Note]  
-> Propriété ajoutée dans Windows 10, version 1703.
+> propriété ajoutée dans Windows 10, version 1703.
 
  
 
@@ -181,7 +181,7 @@ Qualificateurs : **WmiDataId** (10), **InterfaceVersion** (3), **InterfaceRevis
 Paramètre VRss actuel pour la file d’attente par défaut
 
 > [!Note]  
-> Propriété ajoutée dans Windows 10, version 1703.
+> propriété ajoutée dans Windows 10, version 1703.
 
  
 
@@ -202,7 +202,7 @@ Qualificateurs : **WmiDataId** (15), **InterfaceVersion** (4), **InterfaceRevis
 Indique si l’UC de l’unité centrale principale est exclue de la table d’indirection VRSS/VMMQ.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -223,7 +223,7 @@ Qualificateurs : **WmiDataId** (16), **InterfaceVersion** (4), **InterfaceRevis
 Indique s’il faut toujours effectuer la répartition VRSS pour la file d’attente par défaut, quel que soit l’État RSS du vPort externe.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -244,7 +244,7 @@ Qualificateurs : **WmiDataId** (13), **InterfaceVersion** (4), **InterfaceRevis
 Indique le nombre minimal de files d’attente utilisées pour VRSS/VMMQ.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -265,7 +265,7 @@ Qualificateurs : **WmiDataId** (14), **InterfaceVersion** (4), **InterfaceRevis
 Indique comment les files d’attente VRSS/VMMQ sont directrices sur différents processeurs hôtes.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -516,8 +516,8 @@ Nombre actuel de déchargements de files d’attente d’ordinateurs virtuels ut
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété Name de l’objet Characters. Mic
 ms.assetid: vs|msagent|~\pacontrol_2bxm.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7365550d5d4d4071cf4292e505f16e7047628cf1
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: e08509d5d2a349c56548259db4846203da6f632ff76c86309db87e6aa90583a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608649"
 ---
 # <a name="name-property-characters-object"></a>Propriété Name (objet Characters)
 

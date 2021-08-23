@@ -4,12 +4,12 @@ ms.assetid: a58b7e9e-696e-4421-9b31-1ba8afe6e03b
 title: Constantes LINECALLPRIVILEGE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac2569ec255d2da3ad384292eb87afaa285f54b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c00dd43442345c545bb5e0b1718131b6815fd236f9c7d770c0f3b47b10b47a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660049"
 ---
 # <a name="linecallprivilege_-constants"></a>\_Constantes LINECALLPRIVILEGE
 
@@ -47,7 +47,7 @@ L’application dispose des privilèges de propriétaire pour l’appel. Ces pri
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

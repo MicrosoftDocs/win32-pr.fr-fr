@@ -4,12 +4,12 @@ ms.assetid: ae8319ad-8136-4201-9fcf-ea58ce05f88b
 title: Table MsiPatchSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e63252b98156a5eac1ebdc5ed5d94c7a42ec93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc529c0f7d1a4cdd1bab568f64507922d6e28f539636600f88dea603c4fe1a52
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519799"
 ---
 # <a name="msipatchsequence-table"></a>Table MsiPatchSequence
 
@@ -39,7 +39,7 @@ La **table MsiPatchSequence** contient les colonnes suivantes.
 
 Spécifie que le correctif est membre de la famille de correctifs nommée dans ce champ. Les correctifs de la même famille de correctifs qui ciblent la même version du produit sont triés selon les valeurs de la colonne séquence. Les correctifs au sein de la famille de correctifs sont appliqués au produit cible dans l’ordre de la plus grande séquence. Le PatchFamily est également utilisé pour déterminer les correctifs à remplacer. Un correctif peut figurer dans plusieurs lignes et appartenir à plusieurs familles de correctifs s’il s’applique à plusieurs produits ou comprend plusieurs correctifs.
 
-La Windows Installer n’interprète pas la valeur PatchFamily de quelque manière que ce soit par comparaison avec d’autres valeurs PatchFamily. Une valeur PatchFamily doit être unique dans le ProductCode ciblé par l’ensemble de correctifs. Dans les scénarios complexes de mise à jour corrective, l’identificateur PatchFamily peut avoir besoin d’être globalement unique.
+la Windows Installer n’interprète pas la valeur PatchFamily de quelque manière que ce soit par comparaison avec d’autres valeurs PatchFamily. Une valeur PatchFamily doit être unique dans le ProductCode ciblé par l’ensemble de correctifs. Dans les scénarios complexes de mise à jour corrective, l’identificateur PatchFamily peut avoir besoin d’être globalement unique.
 
 </dd> <dt>
 
@@ -66,7 +66,7 @@ La présence de l’attribut **msidbPatchSequenceSupersedeEarlier** dans une lig
 
 Un correctif de [petite mise à jour](small-updates.md) ne peut pas remplacer une [mise à niveau mineure](minor-upgrades.md) ou une [mise à niveau majeure](major-upgrades.md) en tout cas, même si **msidbPatchSequenceSupersedeEarlier** est défini. 
 
-| Nom                                   | Valeur | Signification                                                           |
+| Name                                   | Valeur | Signification                                                           |
 |----------------------------------------|-------|-------------------------------------------------------------------|
 |                                        | 0x00  | Indique une valeur de séquencement simple.                              |
 | **msidbPatchSequenceSupersedeEarlier** | 0x01  | Indique un correctif qui remplace les correctifs antérieurs dans cette famille. |
@@ -89,7 +89,7 @@ Un correctif de [petite mise à jour](small-updates.md) ne peut pas remplacer un
 
 <dl> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

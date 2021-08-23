@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ee7fa33f142e47b9493e53aa5bc4779623d6ef40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed353e0d9c4d3049e120b00a11bc3d1bf85e3a0b42e52deb4ed277b9bde9b96b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523292"
 ---
 # <a name="msvm_guestclusterinformation-class"></a>MSVM \_ GuestClusterInformation, classe
 
@@ -167,7 +167,7 @@ Type d'accès : Lecture seule
 Nombre de battements d’horloge lors du dernier déplacement de l’une des ressources de disque partagé.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
+> cette propriété a été ajoutée dans Windows 10, version 1703 et Windows Server 2016.
 
  
 
@@ -211,7 +211,7 @@ Tableau de données de paramètre d’allocation de ressources (RASD) représent
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

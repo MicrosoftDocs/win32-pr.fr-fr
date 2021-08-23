@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10a05f040dbe4f32df824d8f6596b515c3e1f792
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c25e11ee7b18f02dc8df79124d217f2acfea21f538f8caacb378d11b948e1fe8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582239"
 ---
 # <a name="ms-pki-enrollment-servers-attribute"></a>MS-PKI-inscription-attribut serveurs
 

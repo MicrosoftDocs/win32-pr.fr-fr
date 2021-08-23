@@ -4,12 +4,12 @@ description: Quand utiliser la table d’interface globale
 ms.assetid: def8f7f8-9d0d-49a4-9d5c-40233903eea5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f89bbd7437b65c85abe89e8d647cbd73555c2d6a
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 37457e0e1b35c0c1acb2c8f84750f3d0f08c1344eaf27e0361c442aea3be23ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639229"
 ---
 # <a name="when-to-use-the-global-interface-table"></a>Quand utiliser la table d’interface globale
 
@@ -18,7 +18,7 @@ Si vous démarshalez plusieurs fois un pointeur d’interface entre des cloisonn
 > [!Note]  
 > Si le pointeur d’interface n’est démarshalé qu’une seule fois, vous souhaiterez peut-être utiliser la fonction [**CoMarshalInterThreadInterfaceInStream**](/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream) . Elle peut également être utilisée pour passer un pointeur d’interface d’un thread à un autre dans le même processus.
 
- 
+ 
 
 L’interface [**IGlobalInterfaceTable**](/windows/desktop/api/ObjIdl/nn-objidl-iglobalinterfacetable) complique également un autre problème précédemment difficile pour le programmeur. Ce problème se produit lorsque les conditions suivantes s’appliquent :
 
@@ -36,6 +36,6 @@ Pour résoudre ce problème, l’objet externe qui agrège le marshaleur libre d
 [Création de la table d’interface globale](creating-the-global-interface-table.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

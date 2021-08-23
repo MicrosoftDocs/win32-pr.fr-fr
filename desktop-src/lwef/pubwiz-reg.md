@@ -1,6 +1,6 @@
 ---
 title: Inscription d’un service
-description: Pour ajouter votre service à la liste des fournisseurs dans l’Assistant Publication de sites Web ou l’Assistant commande d’impression en ligne, vous devez ajouter la clé appropriée et ses valeurs au registre Windows.
+description: pour ajouter votre service à la liste des fournisseurs dans l’assistant publication de sites Web ou l’assistant commande d’impression en ligne, vous devez ajouter la clé appropriée et ses valeurs au registre Windows.
 ms.assetid: 4a6f6df8-f850-4a80-9cf9-e62f3350915f
 keywords:
 - inscription, services
@@ -10,16 +10,16 @@ keywords:
 - inscrire, Assistant commande d’impression en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 497133d7f0a769fce987745a2341a2e501fe7a2a
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: f9f5e3f43fe981558fcbf8573eb8768646f112f4816486159cc7c16d71e40e5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104211655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608639"
 ---
 # <a name="registering-a-service"></a>Inscription d’un service
 
-Pour ajouter votre service à la liste des fournisseurs dans l’Assistant Publication de sites Web ou l’Assistant commande d’impression en ligne, vous devez ajouter la clé appropriée et ses valeurs au registre Windows.
+pour ajouter votre service à la liste des fournisseurs dans l’assistant publication de sites Web ou l’assistant commande d’impression en ligne, vous devez ajouter la clé appropriée et ses valeurs au registre Windows.
 
 ## <a name="required-keys-and-values"></a>Clés et valeurs requises
 
@@ -71,7 +71,7 @@ Chacune des valeurs est une chaîne de type REG \_ sz. Fournissez ses données c
 | DisplayName    | Nom affiché pour votre service dans la liste des fournisseurs de l’Assistant.                                                                                                                                                                                                                                                                                                                                                             |
 | Description    | Brève description de votre service. Cette description s’affiche également dans la liste des fournisseurs de l’Assistant, directement sous le nom de votre service.                                                                                                                                                                                                                                                                                    |
 | HREF           | URL de la première page de votre service.                                                                                                                                                                                                                                                                                                                                                                                      |
-| SupportedTypes | Types de fichiers pris en charge par votre service. Par exemple, *\* . jpg*. En spécifiant uniquement certains types de fichiers, votre service s’affiche uniquement lorsque ces types de fichiers ont été sélectionnés. Si plusieurs types de fichier ont été sélectionnés, votre service s’affiche si l’un de ces types de fichiers est pris en charge par votre service. Si vous souhaitez spécifier plusieurs types de fichiers, séparez-les par des points-virgules dans la liste. Par exemple, *\* . jpg ; \* . BMP*. |
+| SupportedTypes | Types de fichiers pris en charge par votre service. Par exemple, *\*.jpg*. En spécifiant uniquement certains types de fichiers, votre service s’affiche uniquement lorsque ces types de fichiers ont été sélectionnés. Si plusieurs types de fichier ont été sélectionnés, votre service s’affiche si l’un de ces types de fichiers est pris en charge par votre service. Si vous souhaitez spécifier plusieurs types de fichiers, séparez-les par des points-virgules dans la liste. Par exemple, *\*.jpg ; \*.bmp*. |
 
 
 

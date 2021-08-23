@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a2d3744a01834cde181f5cfcf3804a0c765415
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5e568d0ce3ef2a043c6fcfb655a11aa453a7ff704f39e26c088e8cfc40e06c3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582589"
 ---
 # <a name="msmq-authenticate-attribute"></a>Attribut MSMQ-Authenticate
 
@@ -45,7 +45,7 @@ Indique si la file d’attente accepte uniquement les messages authentifiés.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

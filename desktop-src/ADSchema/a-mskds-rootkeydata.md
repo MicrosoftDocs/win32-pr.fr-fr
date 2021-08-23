@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13b097a948d6e31709a270da836a6aa525fcc0ca
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dd40220dd5fbeb3af73737f0192de60ec84a13d8d19c201ef2f09ebdf5ef85b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582849"
 ---
 # <a name="ms-kds-rootkeydata-attribute"></a>attribut ms-KDS-RootKeyData
 

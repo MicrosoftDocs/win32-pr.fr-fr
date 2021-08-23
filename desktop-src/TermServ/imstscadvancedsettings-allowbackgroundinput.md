@@ -59,12 +59,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 938725ea1aa3d774d5993be695ac8568963897fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b79df16c3bcd1120344bc6189ace324e434ad4cbd7a831757e455e26f6d10902
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657429"
 ---
 # <a name="imstscadvancedsettingsallowbackgroundinput-property"></a>IMsTscAdvancedSettings :: allowBackgroundInput, propriété
 
@@ -95,7 +95,7 @@ Affectez à ce paramètre la valeur 0 pour désactiver le mode de saisie en arri
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ee6202c7029e2c27684e15d96dd6c38680cb0678
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e70fd50d4b08787326f93cddf7ec55a0eaacb25fa815cc2b4c8246c1934494a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119551829"
 ---
 # <a name="ishelldispatchbrowseforfolder-method"></a>Méthode IShellDispatch. BrowseForFolder
 
@@ -87,11 +87,11 @@ Valeur **entière** qui contient les options de la méthode. Il peut s’agir de
 
 Type : **variante**
 
-Dossier racine à utiliser dans la boîte de dialogue. L’utilisateur ne peut pas parcourir plus haut dans l’arborescence que ce dossier. Si cette valeur n’est pas spécifiée, le dossier racine utilisé dans la boîte de dialogue est le bureau. Cette valeur peut être une chaîne qui spécifie le chemin d’accès du dossier ou l’une des valeurs [**ShellSpecialFolderConstants**](/windows/desktop/api/Shldisp/ne-shldisp-shellspecialfolderconstants) . Notez que les noms de constantes trouvés dans **ShellSpecialFolderConstants** sont disponibles dans Visual Basic, mais pas dans VBScript ou JScript. Dans ce cas, les valeurs numériques doivent être utilisées à leur place.
+Dossier racine à utiliser dans la boîte de dialogue. L’utilisateur ne peut pas parcourir plus haut dans l’arborescence que ce dossier. Si cette valeur n’est pas spécifiée, le dossier racine utilisé dans la boîte de dialogue est le bureau. Cette valeur peut être une chaîne qui spécifie le chemin d’accès du dossier ou l’une des valeurs [**ShellSpecialFolderConstants**](/windows/desktop/api/Shldisp/ne-shldisp-shellspecialfolderconstants) . notez que les noms de constantes trouvés dans **ShellSpecialFolderConstants** sont disponibles dans Visual Basic, mais pas dans VBScript ou JScript. Dans ce cas, les valeurs numériques doivent être utilisées à leur place.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -105,15 +105,15 @@ Type : **dossier \* \***
 
 Référence d’objet à l’objet [**dossier**](folder.md) du dossier sélectionné.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. BrowseForFolder**](shell-browseforfolder.md) .
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants utilisent **BrowseForFolder** pour afficher une fenêtre de navigation intitulée « example » enracinée dans le dossier Windows. L’utilisation est indiquée pour JScript, VBScript et Visual Basic.
+les exemples suivants utilisent **BrowseForFolder** pour afficher une fenêtre de navigation intitulée « Example » enracinée dans le dossier Windows. l’utilisation est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -187,7 +187,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

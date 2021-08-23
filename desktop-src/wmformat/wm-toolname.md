@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68d6acb6cd56156096913c19c0efbdfd8df78f8c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8ba1e56109034280a65348e39da9b2c1cfcd3c40e854dbab707e71a2e322186f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106512478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584389"
 ---
 # <a name="wmtoolname"></a>WM/ToolName
 
@@ -38,9 +38,9 @@ L’attribut **WM/ToolName** contient le nom de l’application utilisée pour c
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

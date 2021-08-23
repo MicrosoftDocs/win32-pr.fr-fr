@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8720d5b401a1a1cec5240920bfb4a3811012420
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 1a11731fbe212c8b87cd52300da1885206230c7329491a6512ab3c261923c74e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104198737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658219"
 ---
 # <a name="use_advanced_drm"></a>Utiliser \_ \_ DRM avancé
 
@@ -31,7 +31,7 @@ g \_ wszWMUse \_ - \_ DRM avancé
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une propriété en lecture-écriture qui est récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty) et définie à l’aide de [**IWMDRMWriter :: SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute). Cette propriété n’est pas accessible à partir de l’objet lecteur.
 
@@ -42,9 +42,9 @@ Il s’agit d’une propriété en lecture-écriture qui est récupérée à l�
 [**Propriétés DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

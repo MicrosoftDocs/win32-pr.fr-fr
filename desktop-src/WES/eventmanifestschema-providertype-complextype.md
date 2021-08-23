@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c258b3ff48cdd2f00f632fdce770b58182a531c7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e48edd19d6ff9a547ce1698f81c89f780ffaa48f6312a656ef18664b39e78410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511269"
 ---
 # <a name="providertype-complex-type"></a>Type complexe ProviderType
 
@@ -134,14 +134,14 @@ Définit un fournisseur et les métadonnées qu’il utilise pour définir ses �
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**couche**](eventmanifestschema-channels-providertype-element.md)         | [**ChannelListType**](eventmanifestschema-channellisttype-complextype.md)   | Définit une liste de canaux auxquels les fournisseurs peuvent enregistrer des événements.<br/>                                                                                                                                                                                      |
 | [**événements**](eventmanifestschema-events-providertype-element.md)             | [**DefinitionType**](eventmanifestschema-definitiontype-complextype.md)     | Définit une liste de définitions d’événements des événements que le fournisseur peut journaliser.<br/>                                                                                                                                                                       |
-| **filtres**                                                                   | [**FilterListType**](eventmanifestschema-filterlisttype-complextype.md)     | Définit une liste de filtres que votre fournisseur prend en charge. Vous pouvez utiliser les filtres, comme vous le feriez pour le niveau et les mots clés, pour déterminer si vous souhaitez écrire un événement. <br/> **Windows Server 2008 et Windows Vista :** Non pris en charge jusqu’à Windows 7.<br/> |
-| [**mot**](eventmanifestschema-keywords-providertype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md)   | Définit une liste de mots clés qui classent les événements.<br/>                                                                                                                                                                                                 |
+| **filtres**                                                                   | [**FilterListType**](eventmanifestschema-filterlisttype-complextype.md)     | Définit une liste de filtres que votre fournisseur prend en charge. Vous pouvez utiliser les filtres, comme vous le feriez pour le niveau et les mots clés, pour déterminer si vous souhaitez écrire un événement. <br/> **Windows Server 2008 et Windows Vista :** non pris en charge jusqu’au Windows 7.<br/> |
+| [**mots clés**](eventmanifestschema-keywords-providertype-element.md)         | [**KeywordListType**](eventmanifestschema-keywordlisttype-complextype.md)   | Définit une liste de mots clés qui classent les événements.<br/>                                                                                                                                                                                                 |
 | [**Balance**](eventmanifestschema-levels-providertype-element.md)             | [**LevelListType**](eventmanifestschema-levellisttype-complextype.md)       | Définit une liste de niveaux qui spécifient la gravité d’un événement.<br/>                                                                                                                                                                                    |
 | [**Mount**](eventmanifestschema-maps-providertype-element.md)                 | [**MapType**](eventmanifestschema-maptype-complextype.md)                   | Définit une liste de paires nom/valeur que vous pouvez référencer dans la section de modèle du manifeste.<br/>                                                                                                                                                 |
 | [**namedQueries**](eventmanifestschema-namedqueries-providertype-element.md) | [**NamedQueryType**](eventmanifestschema-namedquerytype-complextype.md)     | Non utilisé. Définit une liste de requêtes nommées qui interrogent la chaîne de message d’événement pour obtenir une valeur et effectuent une action spécifiée si elle est trouvée.<br/>                                                                                                                 |
 | [**OpCodes**](eventmanifestschema-opcodes-providertype-element.md)           | [**OpcodeListType**](eventmanifestschema-opcodelisttype-complextype.md)     | Définit une liste d’OpCodes que vous pouvez utiliser pour regrouper des événements au sein d’une tâche.<br/>                                                                                                                                                                          |
 | [**décrites**](eventmanifestschema-tasks-providertype-element.md)               | [**TaskListType**](eventmanifestschema-tasklisttype-complextype.md)         | Définit une liste de tâches qu’un fournisseur peut utiliser pour regrouper des événements. En général, vous utilisez des tâches pour regrouper des événements pour une fonctionnalité ou un composant du fournisseur.<br/>                                                                                              |
-| [**ceux**](eventmanifestschema-templates-providertype-element.md)       | [**TemplateListType**](eventmanifestschema-templatelisttype-complextype.md) | Définit une liste de modèles qui spécifient les données à inclure avec les événements.<br/>                                                                                                                                                                      |
+| [**templates**](eventmanifestschema-templates-providertype-element.md)       | [**TemplateListType**](eventmanifestschema-templatelisttype-complextype.md) | Définit une liste de modèles qui spécifient les données à inclure avec les événements.<br/>                                                                                                                                                                      |
 
 
 
@@ -164,9 +164,9 @@ Définit un fournisseur et les métadonnées qu’il utilise pour définir ses �
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le observateur d’événements Windows (Eventvwr.exe) utilise la chaîne de message localisée si elle est disponible ; dans le cas contraire, elle utilise la chaîne de l’attribut Name.
+le observateur d’événements Windows (Eventvwr.exe) utilise la chaîne de message localisée si elle est disponible ; dans le cas contraire, elle utilise la chaîne de l’attribut Name.
 
 Les chemins d’accès pour resourceFileName, messageFileName et parameterFileName peuvent contenir des variables d’environnement. Si vous définissez une nouvelle variable d’environnement à utiliser dans le chemin d’accès, vous devez redémarrer l’ordinateur afin que le service journal des événements puisse sélectionner la nouvelle variable. dans le cas contraire, le service ne pourra pas trouver les ressources de votre fournisseur.
 
@@ -178,8 +178,8 @@ La chaîne de message d’un événement peut contenir des chaînes d’insertio
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

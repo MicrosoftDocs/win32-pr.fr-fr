@@ -6,12 +6,12 @@ keywords:
 - MIDL et RPC MIDL, interfaces, fichier d’en-tête
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61331d8bb72d322987c13d02b04632c95424e755
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3cd107bbf741f3259ac474d03a3ec1eba5c4ab8217df3ff6afa5ef45e7b4945a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582129"
 ---
 # <a name="the-header-file"></a>Fichier d’en-tête
 
@@ -19,9 +19,9 @@ Le fichier d’en-tête contient les définitions de tous les types de données 
 
 Le compilateur MIDL bascule [**/header**](-header.md) et [**/out**](-out.md) sur le fichier d’en-tête.
 
- 
+ 
 
- 
+ 
 
 
 

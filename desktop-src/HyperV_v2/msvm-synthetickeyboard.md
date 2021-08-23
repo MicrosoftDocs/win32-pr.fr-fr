@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 64ac153a2c20815891d8a39fd10f58562ed8d81b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86ee3a7835349ab47082627f98020f84084b4b86e9c6b4ce4a37ba2f455497cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582219"
 ---
 # <a name="msvm_synthetickeyboard-class"></a>MSVM \_ SyntheticKeyboard, classe
 
@@ -50,7 +50,7 @@ La classe **MSVM \_ SyntheticKeyboard** possède ces méthodes.
 | Méthode                                                                  | Description                         |
 |:------------------------------------------------------------------------|:------------------------------------|
 | [**RequestStateChange**](msvm-synthetickeyboard-requeststatechange.md) | Demande un changement d’État.<br/> |
-| [**Réinitialiser**](msvm-synthetickeyboard-reset.md)                           | réinitialise l’appareil.<br/>       |
+| [**Initialisation**](msvm-synthetickeyboard-reset.md)                           | réinitialise l’appareil.<br/>       |
 
 
 
@@ -62,7 +62,7 @@ La classe **MSVM \_ SyntheticKeyboard** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

@@ -1,17 +1,17 @@
 ---
-description: Aperçu d’un projet
+description: Aperçu d’un Project
 ms.assetid: 2efa3f25-a93f-4362-b461-b67475e5d78c
-title: Aperçu d’un projet
+title: Aperçu d’un Project
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cd9d299a99a0a7315cec986fbc044d427385647
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 159303c175c459b4d5d93ba4c7b4b2622caddac2a35d3474a3059ac703d62645
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583558"
 ---
-# <a name="previewing-a-project"></a>Aperçu d’un projet
+# <a name="previewing-a-project"></a>Aperçu d’un Project
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
@@ -38,7 +38,7 @@ hr = pRender->RenderOutputPins();
 
 
 
-Exécutez maintenant le graphique de filtre. Tout d’abord, appelez la méthode [**IRenderEngine :: GetFilterGraph**](irenderengine-getfiltergraph.md) pour récupérer un pointeur vers l’interface [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) du gestionnaire de graphique de filtre. Interrogez ensuite le gestionnaire de graphe de filtre pour l’interface [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) et appelez [**IMediaControl :: Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run), comme indiqué dans le code suivant :
+Exécutez maintenant le graphique de filtre. tout d’abord, appelez la méthode [**IRenderEngine :: GetFilterGraph**](irenderengine-getfiltergraph.md) pour récupérer un pointeur vers l’interface [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) du gestionnaire de Graph. interrogez ensuite le gestionnaire de Graph de filtre pour l’interface [**imediacontrol**](/windows/desktop/api/Control/nn-control-imediacontrol) et appelez [**imediacontrol :: Run**](/windows/desktop/api/Control/nf-control-imediacontrol-run), comme indiqué dans le code suivant :
 
 
 ```C++
@@ -51,7 +51,7 @@ hr = pControl->Run();
 
 
 
-Utilisez l’interface [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) du gestionnaire de graphique de filtre pour attendre la fin de l’aperçu. Vous pouvez également rechercher le graphique à l’aide de l’interface [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) du gestionnaire de graphique de filtre, comme vous le feriez avec un graphique de lecture de fichier.
+utilisez l’interface [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) du gestionnaire de Graph pour attendre la fin de la préversion. vous pouvez également rechercher le graphique à l’aide de l’interface [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) du gestionnaire de Graph, comme vous le feriez avec un graphique de lecture de fichier.
 
 Pour réafficher un aperçu du projet, recherchez à nouveau le graphique sur l’heure zéro et rappelez l' **exécution** . Si vous modifiez le contenu de la chronologie, procédez comme suit :
 
@@ -77,7 +77,7 @@ hr = pControl->Run();
 
 
 
-Pour obtenir un exemple complet qui charge et affiche un aperçu d’un fichier projet, consultez [chargement et affichage de l’aperçu d’un projet](loading-and-previewing-a-project.md).
+Pour obtenir un exemple complet qui charge et affiche un aperçu d’un fichier projet, consultez [chargement et aperçu d’un Project](loading-and-previewing-a-project.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -86,7 +86,7 @@ Pour obtenir un exemple complet qui charge et affiche un aperçu d’un fichier 
 [Gestion des projets de montage vidéo](managing-video-editing-projects.md)
 </dt> <dt>
 
-[Rendu d’un projet](rendering-a-project.md)
+[Rendu d’un Project](rendering-a-project.md)
 </dt> </dl>
 
  

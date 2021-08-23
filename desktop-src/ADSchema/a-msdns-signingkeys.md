@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e80d81ed984e0ac96aba1793458b5577173c7e7c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0d84112f3bd5efe86de609eb55fd163d68b471aeb78bc9670f8a07112f35f644
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552849"
 ---
 # <a name="ms-dns-signing-keys-attribute"></a>attribut ms-DNS-Signing-Keys
 
