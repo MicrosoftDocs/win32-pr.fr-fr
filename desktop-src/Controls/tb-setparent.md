@@ -3,7 +3,7 @@ title: Message TB_SETPARENT (commctrl. h)
 description: Définit la fenêtre à laquelle le contrôle de barre d’outils envoie des messages de notification.
 ms.assetid: 4863bd9f-021b-4295-9483-459fc19325d9
 keywords:
-- TB_SETPARENT les contrôles de message Windows
+- TB_SETPARENT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8137406c8e6854f86ed81d8d6b96293074ae67b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd97cdab230317feea65f2bffce74a7dec34ee336d69bb46ec4c6963ca9b3eff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078143"
 ---
 # <a name="tb_setparent-message"></a>TO \_ SetParent, message
 
@@ -43,7 +43,7 @@ Handle de la fenêtre pour recevoir des messages de notification.
 
 La valeur de retour est un handle vers la fenêtre de notification précédente, ou **null** s’il n’existe aucune fenêtre de notification précédente.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message **to \_ SetParent,** ne modifie pas la fenêtre parente qui a été spécifiée lors de la création du contrôle. L’appel de la fonction [**GetParent**](/windows/desktop/api/winuser/nf-winuser-getparent) pour un contrôle ToolBar retourne la fenêtre parente réelle, et non la fenêtre spécifiée dans **to \_ SetParent,**. Pour modifier la fenêtre parente du contrôle, appelez la fonction [**SetParent,**](/windows/desktop/api/winuser/nf-winuser-setparent) .
 
@@ -53,8 +53,8 @@ Le message **to \_ SetParent,** ne modifie pas la fenêtre parente qui a été s
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

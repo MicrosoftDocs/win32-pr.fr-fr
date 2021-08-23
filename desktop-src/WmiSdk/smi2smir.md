@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: smi2smir
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a34e1d757293b5ee128f2ce1bc2bd5ec8479d9b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3909ef1df4047ba0b797fe4a01088c62e60b287969445d311214180e4fa441a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050167"
 ---
 # <a name="smi2smir"></a>smi2smir
 
@@ -292,7 +292,7 @@ Affiche de l’aide sur la syntaxe du compilateur SNMP.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les modules d’informations SNMP sont écrits dans un sous-ensemble de la notation de syntaxe abstraite One (ASN. 1). le compilateur exécute les fonctions suivantes :
 

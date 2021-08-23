@@ -4,12 +4,12 @@ description: Déclarez le domaine du paveur dans une section de déclaration de 
 ms.assetid: 11A1D9D0-D848-4750-875B-7060CE1CF42A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8724ee9564239ffaca6f5c34a39fb1b4ef967e51
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 52a027e9fab091cf31e8577266015e974ec78033fe19a9542f0aa3c6ca4651db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986709"
 ---
 # <a name="dcl_tessellator_domain-sm5---asm"></a>\_domaine du paveur DCL \_ (SM5-ASM)
 
@@ -34,7 +34,7 @@ Déclarez le domaine du paveur dans une section de déclaration de nuanceur de c
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le comportement n’est pas défini si le nuanceur de coque et le nuanceur de domaine fournissent des domaines incompatibles ou tout autre decalarations en conflit.
 
@@ -42,7 +42,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme                 | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme                 | Domaine | Géométrie | Pixel | Calcul |
 |--------|----------------------|--------|----------|-------|---------|
 |        | Section déclarations | X      |          |       |         |
 
@@ -56,9 +56,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

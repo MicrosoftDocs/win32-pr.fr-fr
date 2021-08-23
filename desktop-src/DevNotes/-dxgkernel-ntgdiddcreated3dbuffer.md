@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 2d402a70822fba094d22c82b8767ee3298b86374
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55e28e50f10ced5380685cbdb5016363a77adc7e61d2df201565d18f4794fcf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956698"
 ---
 # <a name="ntgdiddcreated3dbuffer-function"></a>NtGdiDdCreateD3DBuffer fonction)
 

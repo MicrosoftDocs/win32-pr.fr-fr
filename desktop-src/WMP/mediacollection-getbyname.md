@@ -3,9 +3,9 @@ title: Méthode MediaCollection. getByName
 description: La méthode getByName récupère une sélection des éléments multimédias portant le nom spécifié.
 ms.assetid: f9395a4f-06d6-438b-b7c5-7a063abdf59f
 keywords:
-- méthode getByName lecteur Windows Media
-- méthode getByName lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode getByName
+- Lecteur Windows Media de la méthode getByName
+- méthode getByName Lecteur Windows Media, classe MediaCollection
+- Lecteur Windows Media de la classe MediaCollection, méthode getByName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01a3fc6e34b508fa094f79d2fbbd1d44ab712789
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15063a9d544f6ebe55e66513b79aeead7c94e8aeffed7571ccb2ac574e1cb876
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996289"
 ---
 # <a name="mediacollectiongetbyname-method"></a>Méthode MediaCollection. getByName
 
@@ -53,13 +53,13 @@ retVal = MediaCollection.getByName(
 
 Cette méthode retourne un objet **playlist** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *MediaCollection*. **GetByName** pour récupérer trois éléments de la bibliothèque. Chaque élément est ensuite ajouté à la sélection actuelle. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *MediaCollection*. **GetByName** pour récupérer trois éléments de la bibliothèque. Chaque élément est ensuite ajouté à la sélection actuelle. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

@@ -4,12 +4,12 @@ ms.assetid: aba78d50-f884-416a-b022-bb03416aad11
 title: élément faultInfo
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3788af9aeb31d1ed84522bc6b177143ec0607b2
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 921a7dedfffbe7bfb3e402775258636ed9ccd3e74c72d65a5c76cea40d7ed4b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049677"
 ---
 # <a name="faultinfo-element"></a>élément faultInfo
 
@@ -50,7 +50,7 @@ Les valeurs possibles sont 1 (paramètres d’erreur inclus) et 0 (paramètres d
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

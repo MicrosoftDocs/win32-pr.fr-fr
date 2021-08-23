@@ -4,12 +4,12 @@ description: TooManyChildren
 ms.assetid: BF667CDC-C1F9-44B2-B64C-CD7F085CA364
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1e0eee0c29d0d5ee4cdfe66ee5b61aef4b31b32
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3d7888f3bbdfe32facfa93997c6c57f754cc3aa3742419f66fd595f086aefce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993989"
 ---
 # <a name="toomanychildren"></a>TooManyChildren
 
@@ -39,9 +39,9 @@ Ce problème peut entraîner des problèmes de navigation pour les outils automa
 [**IAccessible :: accNavigate**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accnavigate)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

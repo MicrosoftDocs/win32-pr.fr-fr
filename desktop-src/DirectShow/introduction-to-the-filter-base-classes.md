@@ -4,16 +4,16 @@ ms.assetid: db6324d7-1914-44a8-a202-dff752b61c1a
 title: Présentation des classes de base de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f44c104d8fe155a7c9f0edba72770a508c8ec43d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9f52c0682a5ba9f6a051506911cf143474d9958f1caa926464d9a4c236366e99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952558"
 ---
 # <a name="introduction-to-the-filter-base-classes"></a>Présentation des classes de base de filtre
 
-Cet article décrit la bibliothèque de classes de base Microsoft DirectShow. Cette bibliothèque est destinée aux développeurs de filtres, mais les créateurs d’applications peuvent trouver des classes d’assistance et des utilitaires de débogage utiles. Toutefois, la bibliothèque de classes de base n’est pas requise pour la programmation DirectShow.
+cet article décrit la bibliothèque de classes de base Microsoft DirectShow. Cette bibliothèque est destinée aux développeurs de filtres, mais les créateurs d’applications peuvent trouver des classes d’assistance et des utilitaires de débogage utiles. toutefois, la bibliothèque de classes de base n’est pas requise pour la programmation de DirectShow.
 
 Les sections suivantes résument les classes de base les plus importantes dans la bibliothèque.
 
@@ -32,13 +32,13 @@ Les classes suivantes prennent en charge la création d’objets COM :
 
  
 
-La plupart des classes DirectShow dérivent de **CBaseObject**. Cette classe fournit une assistance de débogage en conservant le décompte de tous les objets actifs dans la DLL au moment de l’exécution. Dans les versions Debug, la DLL déclare si elle est déchargée alors que le nombre d’objets est supérieur à zéro. Cela facilite le suivi des fuites provoquées par des problèmes de comptage des références.
+la plupart des classes DirectShow dérivent de **CBaseObject**. Cette classe fournit une assistance de débogage en conservant le décompte de tous les objets actifs dans la DLL au moment de l’exécution. Dans les versions Debug, la DLL déclare si elle est déchargée alors que le nombre d’objets est supérieur à zéro. Cela facilite le suivi des fuites provoquées par des problèmes de comptage des références.
 
 Toutes les classes de base qui prennent en charge les interfaces COM dérivent de **CUnknown**, qui hérite de **CBaseObject**. La classe **CUnknown** prend en charge le décompte de références, **QueryInterface** et agrégation. Pour plus d’informations, consultez [comment implémenter IUnknown](how-to-implement-iunknown.md).
 
 **Filtrer et épingler des classes**
 
-Les classes suivantes prennent en charge la création d’objets de filtre et d’épingle DirectShow :
+les classes suivantes prennent en charge la création de DirectShow filtrer et épingler des objets :
 
 
 

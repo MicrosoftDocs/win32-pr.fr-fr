@@ -8,12 +8,12 @@ keywords:
 - ADSI, création et suppression d’objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4730c4cc6a95ad37bfd3953474d3d488fcf05abb
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 36bf2e351fb9bae919e8c40b0682b456b793f2e4419a66c64242791fad1d6cae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023647"
 ---
 # <a name="creating-and-deleting-objects"></a>Création et suppression d’objets
 
@@ -45,6 +45,6 @@ Pour supprimer un objet, utilisez la méthode [**IADsContainer ::D supprim**](/
 
 Ce qui arrive à un objet supprimé dépend du service d’annuaire sous-jacent. Pour plus d’informations sur la suppression d’objets Active Directory, consultez [création et suppression](/windows/desktop/AD/creating-and-deleting-objects-in-active-directory-domain-services)d’objets Active Directory.
 
- 
+ 
 
- 
+ 

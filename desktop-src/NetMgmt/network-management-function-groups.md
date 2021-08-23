@@ -4,12 +4,12 @@ description: Les fonctions de gestion de réseau peuvent être réparties dans l
 ms.assetid: 4b5d3554-f81a-4ecf-bf31-ee4753509f38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bce5c0fb3dd70facb0ebbbb2479b968d428c49e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3e49a8c45c59031a12653f5cb863fef320a33c93bc60cabdd4cd6fb4aece9dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012507"
 ---
 # <a name="network-management-function-groups"></a>Groupes de fonctions de gestion de réseau
 
@@ -43,6 +43,6 @@ Le système fournit également un ensemble de fonctions réseau indépendantes d
 -   Les fonctions WNet sont indépendantes du réseau, tandis que les fonctions de gestion de réseau fonctionnent uniquement sur les réseaux Microsoft.
 -   Certaines fonctions peuvent ne pas être prises en charge dans les futures versions des systèmes d’exploitation Microsoft si elles ont été remplacées. Microsoft ne prévoit pas de supprimer des fonctions spécifiques, sauf si des fonctionnalités équivalentes ou supérieures sont disponibles.
 
- 
+ 
 
- 
+ 

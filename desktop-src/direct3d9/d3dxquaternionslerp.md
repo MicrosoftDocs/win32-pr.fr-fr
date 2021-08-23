@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fb9110da7fae4ebbf4609d361124dbbcdedfe59b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 842ccd74ef7236af7a943a43c0c2701140eb897dff535023a78311dd049f06b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044677"
 ---
 # <a name="d3dxquaternionslerp-function-d3dx9mathh"></a>D3DXQuaternionSlerp, fonction (D3dx9math. h)
 
@@ -79,13 +79,13 @@ Paramètre qui indique la distance à interpoler entre les quaternions.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXQUATERNION**](d3dxquaternion.md)\***
 
 Pointeur vers une structure [**D3DXQUATERNION**](d3dxquaternion.md) qui est le résultat de l’interpolation.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXQuaternionSlerp** peut être utilisée comme paramètre pour une autre fonction.
 

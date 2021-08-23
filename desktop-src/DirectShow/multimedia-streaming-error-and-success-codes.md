@@ -4,12 +4,12 @@ ms.assetid: 3b7a11d2-55b9-4505-8eb2-46be423c662b
 title: Codes d’erreur et de réussite du streaming multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c54a185b46134f4603c7adea0f1b4467da3a2cf
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 19d1a943ed4d41acd712ad19680e896df33b3afe2ed733bad86a129e2993e6ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952198"
 ---
 # <a name="multimedia-streaming-error-and-success-codes"></a>Codes d’erreur et de réussite du streaming multimédia
 
@@ -18,7 +18,7 @@ ms.locfileid: "104321654"
 
  
 
-La liste suivante contient des messages d’erreur et des notifications de réussite pour les applications qui utilisent les interfaces de diffusion multimédia en continu. Cette liste ne contient pas toutes les erreurs possibles. les erreurs indiquées s’appliquent spécifiquement à l’implémentation de Microsoft® DirectShow® des interfaces de diffusion multimédia en continu.
+La liste suivante contient des messages d’erreur et des notifications de réussite pour les applications qui utilisent les interfaces de diffusion multimédia en continu. Cette liste ne contient pas toutes les erreurs possibles. les erreurs indiquées s’appliquent spécifiquement à l’implémentation Microsoft® DirectShow® des interfaces de diffusion multimédia en continu.
 
 
 

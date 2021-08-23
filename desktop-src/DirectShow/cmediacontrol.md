@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ae3a528263af4bd2fe5e4eccbe28793799c373a0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 119ffb93cb307db1da3bc8c7562851d63c5f9eeb8e0e3b80be62c8110181c32b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103869594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074076"
 ---
 # <a name="cmediacontrol-class"></a>CMediaControl, classe
 
@@ -37,7 +37,7 @@ Les méthodes [**IMediaControl**](/windows/desktop/api/Control/nn-control-imedia
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CMediaControl**](cmediacontrol-cmediacontrol.md)       | Construit un objet **CMediaControl** .                                                                                                                                                                                                  |
 | Méthodes IDispatch                                          | Description                                                                                                                                                                                                                             |
-| [**GetIDsOfNames**](cmediacontrol-getidsofnames.md)       | Mappe un membre unique et un ensemble facultatif de paramètres à un jeu correspondant d’identificateurs de dispatch entier (DISPID), qui peuvent être utilisés lors des appels suivants à la méthode [**CMediaControl :: Invoke**](cmediacontrol-invoke.md) . |
+| [**GetIDsOfNames**](cmediacontrol-getidsofnames.md)       | Cartes un membre unique et un ensemble facultatif de paramètres à un jeu correspondant d’identificateurs de dispatch entier (dispid), qui peuvent être utilisés lors des appels suivants à la méthode [**CMediaControl :: Invoke**](cmediacontrol-invoke.md) . |
 | [**GetTypeInfo**](cmediacontrol-gettypeinfo.md)           | Récupère un objet d’informations de type, qui peut récupérer les informations de type pour une interface.                                                                                                                                          |
 | [**GetTypeInfoCount**](cmediacontrol-gettypeinfocount.md) | Récupère le nombre d’interfaces d’informations de type fournies par un objet.                                                                                                                                                              |
 | [**Appeler**](cmediacontrol-invoke.md)                     | Fournit l'accès aux propriétés et aux méthodes exposées par un objet.                                                                                                                                                                         |

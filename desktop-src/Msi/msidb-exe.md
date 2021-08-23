@@ -4,12 +4,12 @@ ms.assetid: 2eee535f-e7f6-4e1a-9667-df4b8067b132
 title: Msidb.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86f2e1fa6a1cf1a9dc8a01b9f9d6542607dd9275
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71bff646ae3e933be5dbe37a774b72c10a0183fe9c793305292c9a11c4f417be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012928"
 ---
 # <a name="msidbexe"></a>Msidb.exe
 
@@ -54,13 +54,13 @@ Msidb.exe utilise les options de ligne de commande suivantes qui ne respectent p
 
  
 
-Cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
+cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Outils de développement Windows Installer](windows-installer-development-tools.md)
+[Windows Outils de développement du programme d’installation](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Versions, outils et redistribuables publiés](released-versions-tools-and-redistributables.md)

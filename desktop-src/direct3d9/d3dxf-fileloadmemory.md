@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9xof.h
-ms.openlocfilehash: a7ad988d9906101db57af6f8f5042766c3e32ccc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b3709e6eeb99026b76d066edfccbae578b5c851d6e73936ffe06d10fbf69dcb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045057"
 ---
 # <a name="d3dxf_fileloadmemory-structure"></a>D3DXF \_ FILELOADMEMORY, structure
 
@@ -62,7 +62,7 @@ Taille du bloc de mémoire à charger, en octets.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure identifie les données à charger à partir de la mémoire lorsqu’une application utilise la méthode [**CreateEnumObject**](id3dxfile--createenumobject.md) et spécifie l' \_ \_ indicateur FROMMEMORY FILELOAD D3DXF.
 

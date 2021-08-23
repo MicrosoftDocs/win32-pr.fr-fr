@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fff3687d42160df331bfe52660be232fe3b41d5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f19d0bb4ab599e2f7a11ac66202c805066c1744b80ed72223d20be423340d26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978569"
 ---
 # <a name="server2003apijetupdate2-method"></a>Méthode Server2003Api. JetUpdate2
 
@@ -114,7 +114,7 @@ public static void JetUpdate2(
     
     Options de mise à jour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 JetUpdate est la dernière étape de l’exécution d’une instruction INSERT ou Update. La mise à jour commence par appeler [JetPrepareUpdate (JET_SESID, JET_TABLEID, JET_prep)](./api.jetprepareupdate-method.md) , puis en appelant [JetSetColumn (JET_SESID, JET_TABLEID, JET_COLUMNID, \[ \] , Int32, SetColumnGrbit, JET_SETINFO)](./api.jetsetcolumn-method-jet-sesid-jet-tableid-jet-columnid-byte-int32-setcolumngrbit-jet-setinfo-.md) une ou plusieurs fois pour définir l’état de l’enregistrement. Enfin, JetUpdate2 (JET_SESID, JET_TABLEID, \[ \] , Int32, Int32, UpdateGrbit) est appelé pour terminer l’opération de mise à jour. Les index sont mis à jour uniquement par JetUpdate ou et non pendant JetSetColumn.
 

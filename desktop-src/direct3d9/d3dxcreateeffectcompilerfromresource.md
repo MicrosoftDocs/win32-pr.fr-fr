@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1a3dabe0a2690c84e125af6d321397cbe3765f83
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8f781137e6da118392f8b4e17addd92123b75ecd994191a86ab74d46f3dde6f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045167"
 ---
 # <a name="d3dxcreateeffectcompilerfromresource-function"></a>D3DXCreateEffectCompilerFromResource fonction)
 
@@ -82,7 +82,7 @@ Pointeur d’interface facultatif, [**ID3DXInclude**](id3dxinclude.md), à utili
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -115,7 +115,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si les paramètres du compilateur requièrent Unicode, le type de données LPCTSTR est résolu en LPCWSTR. Dans le cas contraire, le type de données LPCTSTR est résolu en LPCSTR.
 

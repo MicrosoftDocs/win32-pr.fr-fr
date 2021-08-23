@@ -7,12 +7,12 @@ keywords:
 - Énumération d’objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c26b78f084f95ac59c909b326be10d42c4a6696a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d8e4bcead2d3fc8f98daeada89cdd10b3ad30bed855563efd89b3eebce8995f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961948"
 ---
 # <a name="enumerating-objects"></a>Énumération d’objets
 
@@ -71,9 +71,9 @@ Pour plus d’informations, consultez [énumération des objets ADSI](enumeratin
 [Recherche d’objets](searching-for-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

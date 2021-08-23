@@ -4,12 +4,12 @@ description: L’appel de certaines fonctions de gestion de réseau ne nécessit
 ms.assetid: 846a5b81-d5bf-4275-a898-38e6ba308b8f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b5b0987509294f03b8737aae5e721abf5dbdd90
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1930fda5e9a4eaf21876415d1a9ee75d1bb3dc63d031716bc462e5b26790a6fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012407"
 ---
 # <a name="network-management-function-security-requirements"></a>Exigences de sécurité pour la fonction de gestion de réseau
 
@@ -26,6 +26,6 @@ Pour plus d’informations sur le contrôle de l’accès aux objets sécurisabl
 
 Pour plus d’informations sur les descripteurs de sécurité spécifiques utilisés pendant les contrôles d’accès, consultez la page de référence des fonctions individuelles. Pour plus d’informations sur l’appel de fonctions qui requièrent des privilèges d’administrateur, consultez [exécution avec des privilèges spéciaux](/windows/desktop/SecBP/running-with-special-privileges).
 
- 
+ 
 
- 
+ 

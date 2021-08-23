@@ -6,12 +6,12 @@ keywords:
 - Restart Manager restart Mgr, référence, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33187bff8522bfa347dc852f2cac157c2c3966a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c27d628fcd5c1f6488d69152340dd76ae59ac27ea93b2ca157179a052883a26e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010197"
 ---
 # <a name="restart-manager-functions"></a>Fonctions du gestionnaire de redémarrage
 
@@ -35,11 +35,11 @@ L’API du gestionnaire de redémarrage utilise les fonctions identifiées dans 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

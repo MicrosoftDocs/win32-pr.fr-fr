@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed2c46ad729e02fd63eb9b8088d31f05515c2ef8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb89786a0c27c66177bc29861fdcf53a9341f73e498b5627e1cb826e83f61cc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048667"
 ---
 # <a name="authorization-constants"></a>Constantes d’autorisation
 
@@ -37,7 +37,7 @@ Définit ce que le serveur autorise.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces constantes sont utilisées par les méthodes de l’interface [**IClientSecurity**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) . Ils sont utilisés dans la structure du [**\_ \_ service d’authentification unique**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_service) , qui est récupérée par la fonction [**CoQueryAuthenticationServices**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices) . Ils sont également utilisés dans la structure des [**\_ \_ informations d’authentification unique**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_info) , qui est, à son tour, membre de la structure de la [**\_ \_ liste d’authentification unique**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_list) . Cette structure, qui est une liste de services d’authentification, les services d’autorisation qu’elles exécutent et les informations d’authentification de chaque service, est passée à la fonction [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) et à la méthode [**IClientSecurity :: SetBlanket**](/windows/win32/api/objidl/nf-objidl-iclientsecurity-setblanket) .
 

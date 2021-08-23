@@ -4,12 +4,12 @@ description: Transmettre \_ en tant que et représenter \_ comme partage la mêm
 ms.assetid: 70fbb4bf-0892-4c26-9790-9fc21ff8c0dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69267741536314c3e30e2270e7be61edfdb5caff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6ada873ee6e928a08dfe1d9a93928e3b00835c9f2394bde3a5194b56cce58911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011217"
 ---
 # <a name="transmit_as-and-represent_as"></a>Transmettre \_ en tant que et représenter \_ comme
 
@@ -48,6 +48,6 @@ La taille de la \_ mémoire tampon de type transmis \_ \_<2> est égale à zéro
 
 Le \_ décalage de type transmis \_<2> est le décalage de type relatif habituel par rapport à la chaîne de format de type transmis.
 
- 
+ 
 
- 
+ 

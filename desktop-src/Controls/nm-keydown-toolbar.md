@@ -3,7 +3,7 @@ title: Code de notification NM_KEYDOWN (barre d’outils) (commctrl. h)
 description: 'Code de notification NM_KEYDOWN (barre d’outils) : envoyé par un contrôle lorsque le contrôle a le focus clavier et que l’utilisateur appuie sur une touche. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.'
 ms.assetid: bdfcf9da-118b-4fe6-9a0a-6329eb9196ef
 keywords:
-- Contrôles Windows de code de notification NM_KEYDOWN (barre d’outils)
+- NM_KEYDOWN (barre d’outils) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d53818cf417e1efac686e94d3b4ef5919f819ed
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 73a937969b325de881caa97cd2a67d7c11056aa5542d0cd92c751d1ff42a569b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958128"
 ---
 # <a name="nm_keydown-toolbar-notification-code"></a>\_Code de notification (barre d’outils) de la touche nm
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMKEY**](/windows/win32/api/commctrl/ns-commctrl-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne une valeur différente de zéro pour empêcher le contrôle de traiter la clé, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Actuellement, seul le contrôle ToolBar envoie ce code de notification.
 
@@ -59,8 +59,8 @@ Actuellement, seul le contrôle ToolBar envoie ce code de notification.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

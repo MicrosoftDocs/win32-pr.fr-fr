@@ -4,12 +4,12 @@ ms.assetid: ea6cfa5a-2abf-4b7f-b3f4-99655266f030
 title: Fonctions d’accès direct aux cartes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad360974210114a1069db3226ee814d08008cc98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d72b606cd766ea9a8930599bd2a44e117dea0bffdef6474c038b39294c08acf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008457"
 ---
 # <a name="direct-card-access-functions"></a>Fonctions d’accès direct aux cartes
 

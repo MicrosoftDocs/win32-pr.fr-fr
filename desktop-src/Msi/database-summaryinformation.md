@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 524c4fa2fe5014436f122f0a5460aced820e30ff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf181b35457b8f4be5737bfa31cf284d86ed21f48800dcab6044cef444a5b640
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947576"
 ---
 # <a name="databasesummaryinformation-property"></a>Propriété Database. SummaryInformation
 
@@ -39,7 +39,7 @@ propVal = Database.SummaryInformation
 
 Nombre maximal de propriétés à ajouter ou à modifier. Ce paramètre est obligatoire et utilisé pour allouer une quantité de mémoire de travail suffisante pendant la génération du flux. Il n’est pas nécessaire de stocker ce nombre de propriétés. La valeur zéro doit être utilisée si la base de données est ouverte en lecture seule pour empêcher la mise à jour du flux.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si une valeur de *maxProperties* supérieure à 0 est utilisée pour ouvrir un flux d’informations de résumé existant, la méthode [**Persist**](summaryinfo-persist.md) doit être appelée avant la fermeture de l’objet. Si vous ne le faites pas, les informations de flux existantes seront perdues.
 

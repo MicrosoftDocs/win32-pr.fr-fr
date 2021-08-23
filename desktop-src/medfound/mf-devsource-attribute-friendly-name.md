@@ -4,12 +4,12 @@ ms.assetid: 3f6c7faf-2ecd-4510-adc2-252c3619d70f
 title: Attribut MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ab0d2bb3c0e75d547e1249a83261b7c804743ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e90e019b37b251ad8ec00efbd3bd0395659b96c6dd2e3a1cad247ea17ace3ece
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973828"
 ---
 # <a name="mf_devsource_attribute_friendly_name-attribute"></a>\_Attribut de \_ \_ nom convivial \_ de l’attribut DEVSOURCE MF
 
@@ -17,15 +17,15 @@ Spécifie le nom complet d’un appareil. Le *nom d’affichage* est une chaîne
 
 ## <a name="data-type"></a>Type de données
 
-**WCHAR \** _
+**WCHAR\***
 
 ## <a name="getset"></a>Obtenir/définir
 
-Pour récupérer cet attribut, appelez [_ *IMFAttributes :: GetString* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring).
+Pour récupérer cet attribut, appelez [**IMFAttributes :: GetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring).
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est défini sur les objets d’activation retournés par les fonctions suivantes :
 
@@ -40,8 +40,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

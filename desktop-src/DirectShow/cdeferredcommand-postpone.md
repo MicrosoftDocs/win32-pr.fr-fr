@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c9ce19c5391541336f52dd872b44bb9f3a447c27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 079b9f1a852ff0b9eb6e1c38cea6e24e3ee00107ac46ca15e738e1ef9e0eb8b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074363"
 ---
 # <a name="cdeferredcommandpostpone-method"></a>CDeferredCommand. ajourne, méthode
 
@@ -53,7 +53,7 @@ Heure de la nouvelle présentation.
 
 Retourne l' \_ heure de VFW E \_ \_ déjà \_ passée si *Newtime* est déjà passé. Sinon, retourne un **HRESULT** résultant d’un appel à [**CCmdQueue :: Remove**](ccmdqueue-remove.md) (lors de l’extraction de la liste) ou [**CCmdQueue :: Insert**](ccmdqueue-insert.md) (lors de la réinsertion avec l’heure modifiée).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre implémente la méthode [**IDeferredCommand ::P ostpone**](/windows/desktop/api/Control/nf-control-ideferredcommand-postpone) .
 
@@ -63,7 +63,7 @@ Cette fonction membre implémente la méthode [**IDeferredCommand ::P ostpone**
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

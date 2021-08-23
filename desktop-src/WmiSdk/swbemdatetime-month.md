@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 73769d73cffc5b9731cfd55785e2fa087182b33b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aafa76b463852ada94ea7f40bd605ec893c196a6b27e2ba2e479a763fdac9c67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992179"
 ---
 # <a name="swbemdatetimemonth-property"></a>SWbemDateTime. month (propriété)
 

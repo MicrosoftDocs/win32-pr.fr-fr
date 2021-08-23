@@ -5,12 +5,12 @@ ms.assetid: 917f8e65-df2c-457e-bfd8-3f1ce0d0fbae
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ff18046841b5603be235266e33a7252049f93c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: d2d35d29b4e10d27b1369c0f064e17a0ed4430cbe2d6cc59329380724cd444e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104030984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025017"
 ---
 # <a name="schema-implementation"></a>Implémentation du schéma
 
@@ -38,6 +38,6 @@ Lorsque vous réfléchissez au schéma, n’oubliez pas :
 -   Les ajouts de schéma ne sont pas réversibles. Lorsqu’une nouvelle classe ou un nouvel attribut est ajouté au schéma, il ne peut pas être supprimé. Un attribut ou une classe existant peut être désactivé, mais pas supprimé. Pour plus d’informations, consultez [désactivation des classes et attributs existants](disabling-existing-classes-and-attributes.md).
 -   La désactivation d’une classe ou d’un attribut n’affecte pas les instances existantes de la classe ou de l’attribut, mais empêche la création de nouvelles instances. Vous ne pouvez pas désactiver un attribut s’il est inclus dans une classe qui n’est pas désactivée.
 
- 
+ 
 
- 
+ 

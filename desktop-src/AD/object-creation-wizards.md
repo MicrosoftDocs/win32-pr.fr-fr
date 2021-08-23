@@ -7,12 +7,12 @@ keywords:
 - objets Active Directory, assistants de création
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bc3dbacaf6eee5670fdacd9a587a497397c4d1b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b97c5c8f1b521d28c926d53830135dbb1b1fc907758e7047bc91c68856eedc70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104101441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025586"
 ---
 # <a name="object-creation-wizards"></a>Assistants de création d’objets
 
@@ -34,8 +34,8 @@ Les extensions de création d’objets primaires et secondaires sont des serveur
 **Pour créer et installer une extension de création d’objet**
 
 1.  Créez la DLL d’extension de création d’objet. Une extension de création d’objet est un serveur COM in-proc qui, au minimum, implémente l’interface [**IDsAdminNewObjExt**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobjext) . Pour plus d’informations, consultez [implémentation de l’objet com d’extension de création d’objet](implementing-the-object-creation-extension-com-object.md).
-2.  Installez l’extension de création sur les ordinateurs où l’extension de création doit être utilisée. Pour ce faire, créez un package de Microsoft Windows Installer pour la DLL d’extension de création et déployez le package de manière appropriée à l’aide de la stratégie de groupe. Pour plus d’informations, consultez distribution des composants de l' [interface utilisateur](distributing-user-interface-components.md).
-3.  Enregistrez l’extension de création dans le Registre Windows et avec Active Directory Domain Services. Pour plus d’informations, consultez [inscription de l’extension de création d’objet](registering-the-object-creation-extension.md).
+2.  Installez l’extension de création sur les ordinateurs où l’extension de création doit être utilisée. pour ce faire, créez un package de Microsoft Windows Installer pour la DLL d’extension de création et déployez le package de manière appropriée à l’aide de la stratégie de groupe. Pour plus d’informations, consultez distribution des composants de l' [interface utilisateur](distributing-user-interface-components.md).
+3.  enregistrez l’extension de création dans le registre Windows et avec Active Directory Domain Services. Pour plus d’informations, consultez [inscription de l’extension de création d’objet](registering-the-object-creation-extension.md).
 
 ## <a name="using-an-object-creation-wizard"></a>Utilisation d’un assistant de création d’objet
 
@@ -43,6 +43,6 @@ Un assistant de création d’objet peut également être appelé à partir d’
 
 Si un assistant de création n’est pas inscrit pour une classe d’objet, les composants logiciels enfichables d’administration fournissent un Assistant Création générique. L’Assistant Création générique est généré au moment de l’exécution à partir de la liste des propriétés obligatoires de la classe de l’objet créé. Pour chaque propriété obligatoire, une page est ajoutée à l’interface utilisateur. L’Assistant de création générique n’est pas extensible. Si l’extensibilité est requise, elle doit être remplacée par une extension de création d’objet primaire.
 
- 
+ 
 
- 
+ 

@@ -1,6 +1,6 @@
 ---
 title: Player. playerApplication
-description: La propriété playerApplication récupère l’objet PlayerApplication lorsqu’un contrôle du lecteur Windows Media distant est en cours d’exécution.
+description: la propriété playerApplication récupère l’objet playerApplication lorsqu’un contrôle Lecteur Windows Media distant est en cours d’exécution.
 ms.assetid: 09a8a63f-455f-4f81-8fdb-7de337139dea
 keywords:
 - Lecteur Windows Media Player. playerApplication
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 401ebaae52efb746e7119419774d87d72c642fc4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c47400fcba1cb1cd1679e747d4fdd49b155df921ec33a721f74df2ec25259600
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995849"
 ---
 # <a name="playerplayerapplication"></a>Player. playerApplication
 
-La propriété **playerApplication** récupère l’objet **playerApplication** lorsqu’un contrôle du lecteur Windows Media distant est en cours d’exécution.
+la propriété **playerApplication** récupère l’objet **playerApplication** lorsqu’un contrôle Lecteur Windows Media distant est en cours d’exécution.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -33,9 +33,9 @@ La propriété **playerApplication** récupère l’objet **playerApplication** 
 
 Cette propriété est un objet **PlayerApplication** en lecture seule ou la valeur null.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée uniquement lors de la communication à distance de Windows Media playercontrol. Si la valeur est null, le playercontrol Windows Media n’est pas incorporé en mode distant.
+cette propriété est utilisée uniquement lors de la communication à distance du Windows multimédia Playercontrol. si la valeur est null, le Windows multimédia Playercontrol n’est pas incorporé en mode distant.
 
 Cette propriété est accessible uniquement dans le code C++ ou dans le code de script des habillages via la variable globale playerApplication.
 

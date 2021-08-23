@@ -4,18 +4,18 @@ ms.assetid: f6eaea8a-0cc2-4fb6-bec5-7fb12b20c075
 title: Récupération et modification des attributs de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c980ddd6390f016b2057392f42f6bf645859307
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d2609030d1657b78c266ed6b10841159e0df4d40a2e3b07b0fce42e98b45d54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015137"
 ---
 # <a name="retrieving-and-changing-file-attributes"></a>Récupération et modification des attributs de fichier
 
 Une application peut récupérer les attributs du fichier à l’aide de la fonction [**GetFileAttributes**](/windows/desktop/api/FileAPI/nf-fileapi-getfileattributesa) ou [**GetFileAttributesEx**](/windows/desktop/api/FileAPI/nf-fileapi-getfileattributesexa) . Les fonctions [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) et [**SetFileAttributes**](/windows/desktop/api/FileAPI/nf-fileapi-setfileattributesa) peuvent définir un grand nombre d’attributs. Toutefois, les applications ne peuvent pas définir tous les attributs.
 
-L’exemple de code de cette rubrique utilise la fonction [**CopyFile**](/windows/desktop/api/WinBase/nf-winbase-copyfile) pour copier tous les fichiers texte (. txt) du répertoire actif dans un nouveau répertoire de fichiers en lecture seule. Le cas échéant, les fichiers du nouveau répertoire sont modifiés en lecture seule.
+L’exemple de code de cette rubrique utilise la fonction [**CopyFile**](/windows/desktop/api/WinBase/nf-winbase-copyfile) pour copier tous les fichiers texte (.txt) du répertoire actif dans un nouveau répertoire de fichiers en lecture seule. Le cas échéant, les fichiers du nouveau répertoire sont modifiés en lecture seule.
 
 L’application crée le répertoire spécifié en tant que paramètre à l’aide de la fonction [**CreateDirectory**](/windows/desktop/api/FileAPI/nf-fileapi-createdirectorya) . Le répertoire ne doit pas déjà exister.
 

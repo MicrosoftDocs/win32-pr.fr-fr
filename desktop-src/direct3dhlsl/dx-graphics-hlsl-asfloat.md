@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9a5701d959fb59519318dd7f2e91b6790f4c0b6e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d85f6010a8c82f8ae66d5fa56a979a9e946316a5e2737fe2c7257570499055d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043847"
 ---
 # <a name="asfloat"></a>asfloat
 
@@ -53,7 +53,7 @@ Entrée interprétée comme un nombre à virgule flottante.
 
 
 
-| Nom  | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Taille                           |
+| Name  | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md)                                                         | Taille                           |
 |-------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | *x*   | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md), **vecteur** ou **matrice** | [**float**](/windows/desktop/WinProg/windows-data-types), [**int**](/windows/desktop/WinProg/windows-data-types), [**uint**](/windows/desktop/WinProg/windows-data-types) | n'importe laquelle                            |
 | *Av* | identique à l’entrée *x*                                                                                              | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                                                                                | la ou les mêmes dimensions comme entrée *x* |
@@ -75,9 +75,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                        | Prise en charge |
+| Modèle de nuanceur                                                        | Pris en charge |
 |---------------------------------------------------------------------|-----------|
-| [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)           | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md)           | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)           | non        |
@@ -86,7 +86,7 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les compilateurs plus anciens ne `asfloat(bool)` sont pas correctement autorisés, mais notez que les entrées bool ne sont pas prises en charge.
 

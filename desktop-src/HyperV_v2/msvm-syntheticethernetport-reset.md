@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 75ea464e5c62e47939e79f081f6a25f8adb3de51
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 29cfd22e1d30aa875dee451b88adbe52856a681bdc60e328acda9c492a8ef02b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949858"
 ---
 # <a name="reset-method-of-the-msvm_syntheticethernetport-class"></a>Méthode Reset de la \_ classe MSVM SyntheticEthernetPort
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

@@ -3,7 +3,7 @@ title: Slider. backgroundHoverImage
 description: L’attribut backgroundHoverImage spécifie ou récupère l’image d’arrière-plan du curseur qui s’affiche lorsque vous pointez dessus avec la souris.
 ms.assetid: 292af0c4-d720-4f29-9778-6ae83539da70
 keywords:
-- Slider. backgroundHoverImage lecteur Windows Media
+- slider. backgroundHoverImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2f557051ada177275a3d2103b2e9de3ebe00143
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee008583d465f31d4efcd43e6c6970730b4c1c7d7c79b3c4e3db4c79f4f54980
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995219"
 ---
 # <a name="sliderbackgroundhoverimage"></a>Slider. backgroundHoverImage
 
@@ -31,7 +31,7 @@ L’attribut **backgroundHoverImage** spécifie ou récupère l’image d’arri
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est facultatif. S’il n’est pas spécifié, l' **BackgroundImage** est utilisé.
 

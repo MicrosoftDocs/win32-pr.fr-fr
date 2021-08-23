@@ -3,7 +3,7 @@ title: NM_RCLICK (onglet) Code de notification (commctrl. h)
 description: Notifie la fenêtre parente d’un contrôle onglet sur lequel l’utilisateur a cliqué avec le bouton droit de la souris dans le contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: ef2270c0-eef3-4867-8aa3-b6ff7e1a5f0f
 keywords:
-- Contrôles Windows de code de notification NM_RCLICK (onglet)
+- NM_RCLICK (onglet) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c74249e2c2984dd11dab7c4eab8147cb572f291
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5f873074cb5827af4c974ec8d0a064552279b5f48625b725b09c426d8d63fd79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958228"
 ---
 # <a name="nm_rclick-tab-notification-code"></a>\_Code de notification RCLICK nm (onglet)
 
@@ -55,8 +55,8 @@ Retourne une valeur différente de zéro pour ne pas autoriser le traitement par
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

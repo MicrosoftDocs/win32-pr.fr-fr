@@ -4,40 +4,40 @@ description: Gestion des sélections de synchronisation
 ms.assetid: 5891ada0-37a6-4256-9885-8aa9dbe98b7c
 keywords:
 - Lecteur Windows Media, appareils mobiles
-- Modèle objet du lecteur Windows Media, appareils mobiles
+- modèle objet Lecteur Windows Media, appareils mobiles
 - modèle objet, appareils mobiles
-- Contrôle ActiveX du lecteur Windows Media, appareils mobiles
-- Contrôle ActiveX, appareils mobiles
-- Windows Media Player Mobile contrôle ActiveX, appareils mobiles
-- Windows Media Player Mobile, appareils mobiles
+- contrôle de ActiveX Lecteur Windows Media, appareils mobiles
+- contrôle de ActiveX, appareils mobiles
+- Lecteur Windows Media contrôle Mobile ActiveX, appareils mobiles
+- Lecteur Windows Media Mobile, appareils mobiles
 - périphériques portables, gestion des sélections de synchronisation
 - synchronisation des appareils, sélections
 - synchronisation des appareils, des sélections
 - Lecteur Windows Media, sélections de synchronisation
-- Modèle objet du lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media modèle objet, sélections de synchronisation
 - modèle objet, sélections de synchronisation
 - Lecteur Windows Media Mobile, sélections de synchronisation
-- Contrôle ActiveX du lecteur Windows Media, sélections de synchronisation
-- Contrôle ActiveX Windows Media Player Mobile, sélections de synchronisation
-- Contrôle ActiveX, sélections de synchronisation
+- contrôle de ActiveX Lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections de synchronisation
+- contrôle de ActiveX, sélections de synchronisation
 - sélections, synchronisation
 - sélections de métafichiers, synchronisation
-- Sélections de métafichiers Windows Media, synchronisation
+- Windows Sélections de métafichiers multimédia, synchronisation
 - sélections de synchronisation, gestion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be0fe084918c0b69b827dbb941388246cbd177ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 10253d7f08c618d62079ccc1767fdaf85560861eae68d39cd897e7959eaffcad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996369"
 ---
 # <a name="managing-synchronization-playlists"></a>Gestion des sélections de synchronisation
 
-Le lecteur Windows Media 10 ou version ultérieure utilise des sélections pour synchroniser les fichiers multimédias numériques avec les périphériques portables. Cette section explique comment utiliser les sélections de synchronisation.
+Lecteur Windows Media 10 ou version ultérieure utilise des sélections pour synchroniser des fichiers multimédias numériques avec des appareils portables. Cette section explique comment utiliser les sélections de synchronisation.
 
-L’exemple de code dans cette section utilise deux contrôles ListView pour afficher des informations. Le premier contrôle ListView (IDC \_ PLVIEW) affiche toutes les sélections dans la bibliothèque du lecteur Windows Media, les sélections de synchronisation apparaissant en premier. Les sélections de synchronisation pour l’appareil actuellement sélectionné sont signalées par une coche et sont triées dans l’ordre de priorité de synchronisation. Toutes les autres sélections sont décochées. Le contrôle ListView a été configuré pour une sélection unique. L’ordre des sélections dans le contrôle ListView détermine leur priorité de synchronisation. L’état activé d’une sélection individuelle détermine s’il s’agit d’une sélection de synchronisation pour l’appareil actuellement sélectionné.
+L’exemple de code dans cette section utilise deux contrôles ListView pour afficher des informations. le premier contrôle ListView (IDC \_ PLVIEW) affiche toutes les sélections dans la bibliothèque Lecteur Windows Media, les sélections de synchronisation apparaissant en premier. Les sélections de synchronisation pour l’appareil actuellement sélectionné sont signalées par une coche et sont triées dans l’ordre de priorité de synchronisation. Toutes les autres sélections sont décochées. Le contrôle ListView a été configuré pour une sélection unique. L’ordre des sélections dans le contrôle ListView détermine leur priorité de synchronisation. L’état activé d’une sélection individuelle détermine s’il s’agit d’une sélection de synchronisation pour l’appareil actuellement sélectionné.
 
 Le deuxième contrôle ListView (IDC \_ MEDIAVIEW) affiche les éléments multimédias dans la sélection sélectionnée. Deux colonnes supplémentaires affichent du texte indiquant si le fichier multimédia numérique a été copié sur l’appareil et, en cas de défaillance, si la copie a échoué parce que le fichier multimédia numérique n’est pas adapté.
 
@@ -128,7 +128,7 @@ static const TCHAR *g_szSyncAttributeNames[17] = {
 
 
 
-La variable membre suivante contient une sélection contenant toutes les sélections de la bibliothèque du lecteur Windows Media. Chaque sélection est représentée comme un élément multimédia.
+la variable membre suivante contient une sélection contenant toutes les sélections de la bibliothèque de Lecteur Windows Media. Chaque sélection est représentée comme un élément multimédia.
 
 
 ```C++
@@ -152,9 +152,9 @@ Les sections suivantes fournissent un exemple de code :
 [**Utilisation d’appareils mobiles**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

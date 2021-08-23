@@ -4,12 +4,12 @@ ms.assetid: 0c8424c7-ab9b-4a09-aaa8-6a3f44c2789f
 title: Propriété MSIENFORCEUPGRADECOMPONENTRULES
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85d5946ba3a0001c988ddfe76eeaf95c008205b7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 11535beb45ac521e59ec31c5e5231b23549394b75e5df2372ba4295471ea8008
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945043"
 ---
 # <a name="msienforceupgradecomponentrules-property"></a>Propriété MSIENFORCEUPGRADECOMPONENTRULES
 
@@ -27,7 +27,7 @@ Lorsque la propriété ou la stratégie a la valeur 1, les [mises](small-updates
 
     Cela peut également se produire si vous modifiez le GUID d’un composant. Le composant identifié par le GUID d’origine semble être supprimé et le composant identifié par le nouveau GUID apparaît en tant que nouveau composant.
 
-    **Windows Installer 4,5 et versions ultérieures :** Le composant peut être supprimé correctement à l’aide de Windows Installer 4,5 et versions ultérieures, en définissant l’attribut **msidbComponentAttributesUninstallOnSupersedence** dans la [table des composants](component-table.md) ou en définissant la propriété [**MSIUNINSTALLSUPERSEDEDCOMPONENTS**](msiuninstallsupersededcomponents.md) .
+    **Windows Installer 4,5 et versions ultérieures :** le composant peut être supprimé correctement à l’aide de Windows Installer 4,5 et versions ultérieures, en définissant l’attribut **msidbComponentAttributesUninstallOnSupersedence** dans la [Table des composants](component-table.md) ou en définissant la propriété [**MSIUNINSTALLSUPERSEDEDCOMPONENTS**](msiuninstallsupersededcomponents.md) .
 
     La valeur [**ProductCode**](productcode.md) du produit peut également être modifiée et la mise à jour peut être traitée comme une [mise à niveau majeure](major-upgrades.md).
 
@@ -37,7 +37,7 @@ Lorsque la propriété ou la stratégie a la valeur 1, les [mises](small-updates
 
 | Condition requise | Valeur |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer 3,0 ou version ultérieure sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer 3,0 ou version ultérieure sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -48,7 +48,7 @@ Lorsque la propriété ou la stratégie a la valeur 1, les [mises](small-updates
 [Propriétés](properties.md)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

@@ -4,29 +4,29 @@ description: L’échec d’un déploiement d’application peut être dû à l�
 ms.assetid: CE868296-87F6-4BD5-8AC5-914E429EDEBC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b6f50dc5ff428e74f4928fc20775b13de7c3be9
-ms.sourcegitcommit: 784b5954a1646e2406cd4ee27a9e4f50e28ee9b7
+ms.openlocfilehash: bdec41d2d058a48153d6126fea534c1efaf16e16ccabef5d5e940daa73e839a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106534957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048947"
 ---
 # <a name="how-to-troubleshoot-app-package-signature-errors"></a>Comment résoudre les erreurs de signature de package d’application
 
 L’échec d’un déploiement d’application peut être dû à l’impossibilité de valider la signature numérique du package d’application. Découvrez comment reconnaître ces échecs et comment les utiliser.
 
-Lorsque vous déployez une application Windows empaquetée, Windows tente toujours de valider la signature numérique sur le package d’application. Échecs lors du déploiement du bloc de validation de signature du package. Mais la raison pour laquelle le package n’a pas été validé peut ne pas être évidente. En particulier, si vous signez vos packages avec des certificats privés pour des tests locaux, vous devez souvent gérer l’approbation de ces certificats. Une configuration d’approbation de certificat incorrecte peut entraîner des échecs de validation de signature.
+lorsque vous déployez une application Windows empaquetée, Windows tente toujours de valider la signature numérique sur le package d’application. Échecs lors du déploiement du bloc de validation de signature du package. Mais la raison pour laquelle le package n’a pas été validé peut ne pas être évidente. En particulier, si vous signez vos packages avec des certificats privés pour des tests locaux, vous devez souvent gérer l’approbation de ces certificats. Une configuration d’approbation de certificat incorrecte peut entraîner des échecs de validation de signature.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Empaquetage, déploiement et interrogation d’applications Windows](appx-portal.md)
+-   [empaquetage, déploiement et interrogation d’applications Windows](appx-portal.md)
 -   [Vérification de l’approbation du certificat](/windows/desktop/SecCrypto/certificate-trust-verification)
 
 ### <a name="prerequisites"></a>Prérequis
 
--   [Journal des événements Windows](/windows/desktop/WES/windows-event-log) pour diagnostiquer les échecs d’installation.
+-   [Windows journal des événements](/windows/desktop/WES/windows-event-log) pour diagnostiquer les échecs d’installation.
 -   [Tâches certutil pour la gestion des certificats](/previous-versions/orphan-topics/ws.10/cc772898(v=ws.10)) pour la manipulation du magasin de certificats pendant le dépannage
 
 ## <a name="instructions"></a>Instructions
@@ -38,20 +38,20 @@ Selon la manière dont vous avez essayé de déployer votre application, vous n�
 **Pour récupérer le code d’erreur à partir des journaux des événements**
 
 1.  Exécutez **eventvwr. msc**.
-2.  Accédez à **Observateur d’événements (local)**  >  **journaux des applications et des services**  >  **Microsoft**  >  **Windows**.
-3.  Le premier journal à vérifier est **AppxPackagingOM**  >  **Microsoft-Windows-AppxPackaging/Operational**.
-4.  Les erreurs liées au déploiement sont enregistrées dans **AppXDeployment-Server**  >  **Microsoft-Windows-AppXDeploymentServer/Operational**.
+2.  accédez à **observateur d’événements (Local)**  >  **journaux des Applications et des Services**  >  **Microsoft**  >  **Windows**.
+3.  le premier journal à vérifier est **AppxPackagingOM**  >  **Microsoft-Windows-AppxPackaging/operational**.
+4.  les erreurs liées au déploiement sont enregistrées dans **AppXDeployment-Server**  >  **Microsoft-Windows-AppXDeploymentServer/operational**.
 
     Pour les erreurs de déploiement, recherchez l’événement d’erreur le plus récent 404. Cet événement d’erreur vous fournit le code d’erreur et une description de la raison de l’échec du déploiement. Si un événement d’erreur 465 a précédé l’événement 404, un problème s’est produit lors de l’ouverture du package.
 
-Si l’erreur 465 ne s’est pas produite, consultez la page [résolution des problèmes généraux, déploiement et interrogation des applications Windows](troubleshooting.md). Sinon, reportez-vous à cette table pour obtenir des codes d’erreur courants qui peuvent s’afficher dans la chaîne d’erreur pour l’événement d’erreur 465 :
+si l’erreur 465 ne s’est pas produite, consultez la page [résolution des problèmes généraux, déploiement et interrogation des applications Windows](troubleshooting.md). Sinon, reportez-vous à cette table pour obtenir des codes d’erreur courants qui peuvent s’afficher dans la chaîne d’erreur pour l’événement d’erreur 465 :
 
-| Code d'erreur | Error                                 | Description                                                                                                          | Suggestion                                                                                                                                                                                                 |
+| Code d'erreur | Erreur                                 | Description                                                                                                          | Suggestion                                                                                                                                                                                                 |
 |------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0x80073CF0 | ERREUR d’installation de l' \_ \_ ouverture du \_ package \_ | Impossible d’ouvrir le package d’application.                                                                                 | Cette erreur indique généralement un problème avec le package. Vous devez générer et signer à nouveau le package. Pour plus d’informations, consultez [utilisation d’App Packager](make-appx-package--makeappx-exe-.md). |
 | 0x80080205 | APPX \_ E \_ BLOCKMAP non valide \_            | Le package d’application a été falsifié ou a un mappage de bloc non valide.                                                  | Le package est endommagé. Vous devez générer et signer à nouveau le package. Pour plus d’informations, consultez [utilisation d’App Packager](make-appx-package--makeappx-exe-.md).                                  |
 | 0x800B0004 | APPROUVER \_ E \_ Subject \_ non \_ approuvé       | Le package d’application a été falsifié.                                                                              | Le contenu du package ne correspond plus à sa signature numérique. Vous devez signer à nouveau le package. Pour plus d’informations, consultez [Comment signer un package d’application à l’aide de SignTool](how-to-sign-a-package-using-signtool.md).  |
-| 0x800B0100 | APPROUVER \_ E \_ NoSignature                 | Le package d’application n’est pas signé.                                                                                         | Seuls les packages d’application Windows signés peuvent être déployés. Pour plus d’informations sur la signature d’un package d’application, consultez [Comment signer un package d’application à l’aide de SignTool](how-to-sign-a-package-using-signtool.md).                  |
+| 0x800B0100 | APPROUVER \_ E \_ NoSignature                 | Le package d’application n’est pas signé.                                                                                         | seuls les packages d’application Windows signés peuvent être déployés. Pour plus d’informations sur la signature d’un package d’application, consultez [Comment signer un package d’application à l’aide de SignTool](how-to-sign-a-package-using-signtool.md).                  |
 | 0x800B0109 | CERTIFICAT \_ E \_ racine non approuvée \_              | La chaîne de certificats utilisée pour signer le package d’application se termine par un certificat racine qui n’est pas approuvé.           | Passez à l’étape 2 pour dépanner la confiance du certificat.                                                                                                                                                  |
 | 0x800B010A | chaînage du certificat \_ E \_                     | Aucune chaîne de certificats n’a pu être créée à une autorité racine approuvée à partir du certificat qui a été utilisé pour signer le package d’application. | Passez à l’étape 2 pour dépanner la confiance du certificat.                                                                                                                                                  |
 
@@ -100,7 +100,7 @@ Si vous ne spécifiez pas le numéro de série du certificat, [certutil](/previo
 
 L’installation du package peut échouer en raison d’erreurs de chaînage de certificats, même si le certificat de signature n’est pas auto-signé et que le certificat racine se trouve dans le magasin racine de l’ordinateur local. Dans ce cas, il peut y avoir un problème de confiance pour les autorités de certification intermédiaires. Pour plus d’informations sur ce problème, consultez [utilisation des certificats](/previous-versions/dotnet/netframework-3.0/ms731899(v=vs.85)).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous avez déterminé que le package n’a pas pu être déployé parce que le certificat de signature n’est pas approuvé, n’installez pas le package, sauf si vous connaissez son origine et que vous l’approuvez.
 
