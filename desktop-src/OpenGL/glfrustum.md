@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce67879ca20819713e61a9392bf77be2f15211d5
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: da1ca2375206165576405c96528d0590596f4d4d870121f0a30884c8e448ca93
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104566459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625251"
 ---
 # <a name="glfrustum-function"></a>glFrustum fonction)
 
@@ -104,7 +104,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glFrustum** décrit une matrice de perspective qui produit une projection de perspective. Les paramètres (*gauche*, *bas*, *zNear*) et (*Right*, *Top*, *zNear*) spécifient les points sur le plan de découpage proche qui sont mappés aux angles inférieur gauche et supérieur droit de la fenêtre, respectivement, en supposant que l’œil se trouve à (0, 0,0). Le paramètre *zFar* spécifie l’emplacement du plan de découpage Far. *ZNear* et *zFar* doivent être positifs. La matrice correspondante est présentée dans l’image suivante.
 

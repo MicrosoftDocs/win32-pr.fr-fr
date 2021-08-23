@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 205dc1ac05f5dca44297f8d80653ad51b7518d38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7958df7d153db0abafd8e463f22a181f2e5a639afa5c21cb7529a9cd5c005c5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511693"
 ---
 # <a name="islspreventupgradegpenabled-method-of-the-win32_tslicenseserver-class"></a>Méthode IsLSPreventUpgradeGPEnabled de la \_ classe Win32 TSLicenseServer
 
@@ -54,7 +54,7 @@ Valeur booléenne qui indique si le paramètre de stratégie « empêcher la mi
 
 Si la méthode est réussie, elle retourne zéro. Si la méthode échoue, elle retourne une valeur différente de zéro. Pour obtenir la liste des codes d’erreur, consultez [services Bureau à distance codes d’erreur du fournisseur WMI](terminal-services-wmi-provider-error-codes.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez être membre du groupe administrateurs pour appeler cette méthode.
 
@@ -62,9 +62,9 @@ Si le paramètre de stratégie « empêcher la mise à niveau de licence » es
 
 Le paramètre de stratégie se trouve dans le nœud suivant de l’éditeur d’une stratégie de groupe locale :
 
-Configuration de l’ordinateur \\ modèles d’administration \\ composants Windows \\ Gestionnaire de \\ licences TS TS
+Configuration de l’ordinateur \\ Modèles d’administration \\ composants Windows \\ gestionnaire de licences TS Services terminal server \\
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

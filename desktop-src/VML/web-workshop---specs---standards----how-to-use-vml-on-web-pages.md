@@ -18,21 +18,21 @@ keywords:
 - graphismes vectoriels, World Wide Web Consortium (W3C)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 189353fd5a6c50ffbdcf3fe2ad3efe7e82b8e219
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6e81b740bba53c46cb92129ca53d0fa41c48f2179065e268335787c90b9ef117
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512559"
 ---
 # <a name="how-to-use-vml-on-webpages"></a>Comment utiliser VML sur des pages Web
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Ce document vient compléter la [spécification langage VML (VML)](https://www.w3.org/TR/NOTE-datetime.html) qui a été envoyée au World Wide Web Consortium (W3C). Avec ce document et la spécification VML complète, vous devez être en mesure d’utiliser VML pour concevoir des pages Web. Nous partons du principe que vous avez déjà une connaissance du HTML.
 
@@ -63,8 +63,8 @@ Ce document vient compléter la [spécification langage VML (VML)](https://www.w
 > [!Note]  
 > Les exemples fournis dans cette référence sont conçus pour Internet Explorer. Nous avons également fourni des illustrations dans la mesure du possible.
 
- 
+ 
 
- 
+ 
 
- 
+ 

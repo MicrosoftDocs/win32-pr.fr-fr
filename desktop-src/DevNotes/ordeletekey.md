@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: a122be2e738bb16730eee31772fc2c1c0671eddb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f3be934eca97d88f4dfeb1b1576d9fcd06f5681351a2e85d8ae7f6ba31e8860
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571929"
 ---
 # <a name="ordeletekey-function"></a>ORDeleteKey fonction)
 
@@ -70,7 +70,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur différent de
 -   Si la sous-clé spécifiée est la clé racine de la ruche du Registre, la fonction retourne un paramètre d’erreur \_ non valide \_ .
 -   Si la sous-clé spécifiée a des sous-clés, la fonction retourne la clé d’erreur \_ \_ a des \_ enfants.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la clé de Registre spécifiée existe, elle est marquée comme supprimée. Une clé supprimée n’est pas supprimée tant que le dernier descripteur n’est pas fermé.
 
@@ -84,7 +84,7 @@ Seule la fonction [**ORCloseKey**](orclosekey.md) peut être appelée sur une cl
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

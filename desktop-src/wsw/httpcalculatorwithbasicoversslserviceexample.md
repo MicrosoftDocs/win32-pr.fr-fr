@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithBasicOverSslServiceExample
-description: Consultez un exemple C++ de l’API des services Web Windows (WWSAPI) d’une calculatrice HTTP avec un service de base sur SSL.
+description: passez en revue une Windows exemple C++ de l’API des Services Web (WWSAPI) d’une calculatrice HTTP avec un service de base sur SSL.
 ms.assetid: ff56afec-da8c-4a2c-b26e-a065f9b73db1
 keywords:
 - HttpCalculatorWithBasicOverSslServiceExample-services Web natifs
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0490c8409ea8a08c990bad49472303dd4ae58c93
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 2217cbe700ec5844b824d81cc6cdc939b187e08e36ba761d690970bbc7f7edea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546009"
 ---
 # <a name="httpcalculatorwithbasicoversslserviceexample"></a>HttpCalculatorWithBasicOverSslServiceExample
 

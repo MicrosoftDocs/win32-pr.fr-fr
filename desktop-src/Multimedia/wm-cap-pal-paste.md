@@ -3,7 +3,7 @@ title: Message WM_CAP_PAL_PASTE (VFW. h)
 description: Le \_ message WM Cap \_ PAL \_ Paste copie la palette à partir du presse-papiers et la transmet à un pilote de capture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capPalettePaste.
 ms.assetid: d49c7fd9-be40-4a07-8339-b85f7c4c331e
 keywords:
-- Message WM_CAP_PAL_PASTE Windows Multimedia
+- message WM_CAP_PAL_PASTE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3daf88c69edbb8bad6257456b95a86c8a68df328
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7bedb760a444abe9b0667592855d701dc24a02b8ee57ea15ab30912a5e216d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686829"
 ---
 # <a name="wm_cap_pal_paste-message"></a>\_Coller le message WM capuchon \_ PAL \_
 
@@ -40,7 +40,7 @@ Retourne la **valeur true** en cas de réussite ou **false** dans le cas contrai
 
 Si une erreur se produit et qu’une fonction de rappel d’erreur est définie à l’aide du message d' [**\_ erreur WM Cap \_ Set \_ callback \_**](wm-cap-set-callback-error.md) , la fonction de rappel d’erreur est appelée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un pilote de capture utilise une palette lorsqu’il est requis par le format vidéo numérisé spécifié.
 

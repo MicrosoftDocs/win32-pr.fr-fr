@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8154e8ccdc6ac18824e2d56597ac8e0f186f3912
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad85168813abb9a5c92e77275d854050ad35256963d75b7f52792776be9a6e74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573911"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_mxtype-class"></a>Méthode CreateInstanceFromPropertyData de la \_ classe MicrosoftDNS MXType
 

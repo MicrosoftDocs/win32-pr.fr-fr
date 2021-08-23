@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bc2d13233afec956c798805295c44c96df45d04
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d4ef13323f72efd516a0c5321cb410885904ac5245b5198b21ea9e4a4b29f3c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106538963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625629"
 ---
 # <a name="glenable-function"></a>glEnable fonction)
 
@@ -66,7 +66,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions **glEnable** et **glDisable** activent et désactivent différentes fonctionnalités graphiques OpenGL. Utilisez [**glIsEnabled**](glisenabled.md) ou [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) pour déterminer la valeur actuelle de toutes les fonctionnalités.
 

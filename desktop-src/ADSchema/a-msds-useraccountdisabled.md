@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30a01c0b83599a8d6309f6639b94f5d0321180df
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c9f0744cd835fab641de4f4d3386304a342fe3902fcf1a67b3367dc15b7ee68f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544139"
 ---
 # <a name="ms-ds-user-account-disabled-attribute"></a>attribut ms-DS-User-Account-Disabled
 
@@ -65,7 +65,7 @@ Indique si un compte est activé ou désactivé. True si le compte est désactiv
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans ADAM, cet attribut remplace l' [**indicateur \_ \_ ACCOUNTDISABLE de publicités UF**](/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) de l’attribut [**UserAccountControl**](a-useraccountcontrol.md) .
 

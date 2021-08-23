@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46b881587a1358a6e7a3a814efb80af122ac5669
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2d39d1237aa52aa99d725ca4a056f914f59d4eee370acfb7be7f6d8e01e028b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646000"
 ---
 # <a name="service-dns-name-attribute"></a>Attribut de nom de service-DNS
 
@@ -45,7 +45,7 @@ Nom DNS à rechercher pour trouver un serveur exécutant ce service.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

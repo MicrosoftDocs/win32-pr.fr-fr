@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b2116dfb8d2ad21d8a52854b1eb98ef156eb46a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 091e5dd2a921983bfadfa0c9067351cd9dfa4e595e58b42d732ea7b91fccc0e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645259"
 ---
 # <a name="system-poss-superiors-attribute"></a>Attribut System-Poss-Superior
 
@@ -46,7 +46,7 @@ Liste des classes qui peuvent contenir cette classe. Cette liste ne peut être m
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

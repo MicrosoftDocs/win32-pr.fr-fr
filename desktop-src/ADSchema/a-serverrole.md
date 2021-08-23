@@ -1,6 +1,6 @@
 ---
 title: Attribut Server-Role
-description: Pour la compatibilité avec les serveurs de serveurs antérieurs à Windows 2000. Un ordinateur exécutant Windows NT Server peut être un serveur autonome, un contrôleur de domaine principal (PDC) ou un contrôleur de domaine secondaire (BDC).
+description: pour la compatibilité avec les serveurs de serveur 2000 pré-Windows. Un ordinateur exécutant Windows NT Server peut être un serveur autonome, un contrôleur de domaine principal (PDC) ou un contrôleur de domaine secondaire (BDC).
 ms.assetid: 0c2e5b18-14ad-4f77-a62c-eeb95aabbb99
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58a127a94cd1ecc2bfce3701c11ee2a5e0c2376c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4e46345362e78590cd50e75e2ea592f55f3bda2db96c4c412c85afccc5eb6f2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646119"
 ---
 # <a name="server-role-attribute"></a>Attribut Server-Role
 
-Pour la compatibilité avec les serveurs de serveurs antérieurs à Windows 2000. Un ordinateur exécutant Windows NT Server peut être un serveur autonome, un contrôleur de domaine principal (PDC) ou un contrôleur de domaine secondaire (BDC).
+pour la compatibilité avec les serveurs de serveur 2000 pré-Windows. Un ordinateur exécutant Windows NT Server peut être un serveur autonome, un contrôleur de domaine principal (PDC) ou un contrôleur de domaine secondaire (BDC).
 
 
 
@@ -36,7 +36,7 @@ Pour la compatibilité avec les serveurs de serveurs antérieurs à Windows 2000
 | Fréquence des mises à jour  | 4 octets                              |
 | Attribute-Id      | 1.2.840.113556.1.4.157               |
 | System-ID-GUID    | bf967a33-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Pour la compatibilité avec les serveurs de serveurs antérieurs à Windows 2000
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

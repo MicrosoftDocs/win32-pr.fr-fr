@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90ab6327fccf804b21a9ba7de6881f98ea4f97be
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 35fabcb2cf64111b1c0e4a879ef8764293ec9956221db8d9381736b58cab0c82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646739"
 ---
 # <a name="rid-attribute"></a>RID (attribut)
 
@@ -36,7 +36,7 @@ Identificateur relatif d’un objet.
 | Fréquence des mises à jour  | Lorsqu’un objet qui a besoin d’un RID est créé. |
 | Attribute-Id      | 1.2.840.113556.1.4.153                      |
 | System-ID-GUID    | bf967a22-0de6-11d0-a285-00aa003049e2        |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)        |
+| Syntaxe            | [**Énumération**](s-enumeration.md)        |
 
 
 
@@ -45,7 +45,7 @@ Identificateur relatif d’un objet.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

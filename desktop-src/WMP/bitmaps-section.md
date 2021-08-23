@@ -3,7 +3,7 @@ title: Section bitmaps
 description: Section bitmaps
 ms.assetid: db2801e5-c55a-4681-9fe9-6027f28653e0
 keywords:
-- Apparences mobiles du lecteur Windows Media, bitmaps
+- Lecteur Windows Media Skins mobiles, bitmaps
 - habillages, images bitmap
 - création d’habillages, section bitmaps
 - écriture de code pour les habillages, section bitmaps
@@ -11,12 +11,12 @@ keywords:
 - fichiers de définition d’apparence, section bitmaps
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf4a5e41e8e2b095b199a072e31abde3c1cbaa29
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3062a8679e916fc8eaa733ab82c3df51845969873fcf83534be5f9ec6e4c6f14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573459"
 ---
 # <a name="bitmaps-section"></a>Section bitmaps
 
@@ -41,9 +41,9 @@ Ensuite, vous devez disposer d’une section qui définit chacun de vos fichiers
 La section bitmaps doit commencer par le mot bitmaps entre crochets, puis une ligne pour chaque type de bitmap que vous souhaitez définir. Dans cet exemple, cinq types de bitmaps ont été définis. Pour plus d’informations sur la section bitmaps, consultez [bitmaps](bitmaps.md) dans la référence d’apparence.
 
 > [!Note]  
-> La région et les super bitmaps sont déconseillées dans les habillages Windows Media Player 10 mobile ou ultérieur.
+> la région et les Super bitmaps sont dépréciées dans Lecteur Windows Media 10 apparences Mobile ou ultérieures.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -52,9 +52,9 @@ La section bitmaps doit commencer par le mot bitmaps entre crochets, puis une li
 [**Écriture du code**](writing-the-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

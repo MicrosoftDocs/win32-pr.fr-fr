@@ -4,12 +4,12 @@ ms.assetid: 111d1281-ad83-49bc-868c-1106a0e25a2a
 title: Arrêt des services pour la restauration par les demandeurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 548af25a4b4550d35a8e6fa4d4c0e791897b6e0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaa8051fc20c5ba1bd930da8c7da5c40829c07772572c2b1fb795250d34b8c92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511619"
 ---
 # <a name="stopping-services-for-restore-by-requesters"></a>Arrêt des services pour la restauration par les demandeurs
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83fed3b44feeaccb87cb1f55435bbac915c1c262
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 31807e558fa7d548ad678e423c652e852768fe5ce5d53a2c8518f503a19a2216
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646209"
 ---
 # <a name="server-reference-attribute"></a>Attribut Server-Reference
 
@@ -46,7 +46,7 @@ Trouvé dans un objet ordinateur de site. Contient le nom unique du contrôleur 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 6985a299-8547-4db4-99f9-d46dafe4789b
-ms.openlocfilehash: 43d76c6a27b301a61474b8028af16e5e540cf2ce
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 5f443f3abd4a5cf2c1d0fc473c9267660d05c183a02c7f7705c1fabcbc9a8918
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596569"
 ---
 # <a name="ishellfoldersearchableinvalidatesearch-method"></a>IShellFolderSearchable :: InvalidateSearch, méthode
 
@@ -58,17 +58,17 @@ Aucun indicateur n’est actuellement défini. Affectez la valeur **null**.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un dossier de recherche est invalidé, il peut effectuer le nettoyage des ressources qu’il a utilisées. La méthode **IShellFolderSearchable :: InvalidateSearch** peut provoquer l’annulation d’une recherche asynchrone et provoquera la libération finale de l’objet d’interface [**IShellFolderSearchableCallback**](ishellfoldersearchablecallback.md) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

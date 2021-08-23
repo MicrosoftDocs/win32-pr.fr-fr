@@ -3,9 +3,9 @@ title: Méthode MediaCollection. setDeleted
 description: La méthode setDeleted déplace l’élément multimédia spécifié vers le dossier éléments supprimés. | Méthode MediaCollection. setDeleted
 ms.assetid: 3e3c9a16-37e1-41b4-8593-58aaf4541eb9
 keywords:
-- méthode setDeleted lecteur Windows Media
-- méthode setDeleted lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode setDeleted
+- Lecteur Windows Media de la méthode setDeleted
+- méthode setDeleted Lecteur Windows Media, classe MediaCollection
+- Lecteur Windows Media de la classe MediaCollection, méthode setDeleted
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f545953899883933286f3c38def62d9f254dfdc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63dcb4c0062acbd5f457cd09b9c1370ff9c4f7683fd8758a4a64ce5f510a6948
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647839"
 ---
 # <a name="mediacollectionsetdeleted-method"></a>Méthode MediaCollection. setDeleted
 
@@ -61,7 +61,7 @@ Spécifiez toujours cette valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne supprime pas les fichiers de l’ordinateur de l’utilisateur.
 
@@ -71,7 +71,7 @@ Pour utiliser cette méthode, l’accès complet à la bibliothèque est requis.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *MediaCollection*. **setDeleted** pour déplacer un élément multimédia particulier, stocké dans la variable nommée mediaObject, vers le dossier éléments supprimés. *MediaCollection*. méthode **IsDeleted** teste d’abord si l’élément a déjà été supprimé. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *MediaCollection*. **setDeleted** pour déplacer un élément multimédia particulier, stocké dans la variable nommée mediaObject, vers le dossier éléments supprimés. *MediaCollection*. méthode **IsDeleted** teste d’abord si l’élément a déjà été supprimé. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript
@@ -100,7 +100,7 @@ else
 
 | Condition requise | Valeur |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Lecteur Windows Media version 7,0, lecteur Windows Media version 7,1 ou lecteur Windows Media pour Windows XP. Cette méthode n’est pas prise en charge pour le lecteur Windows Media série 9 ou version ultérieure.<br/> |
+| Version<br/> | Lecteur Windows Media version 7,0, Lecteur Windows Media version 7,1 ou Lecteur Windows Media pour Windows XP. cette méthode n’est pas prise en charge pour Lecteur Windows Media série 9 ou version ultérieure.<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                                                                                              |
 
 

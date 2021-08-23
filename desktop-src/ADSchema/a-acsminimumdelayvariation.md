@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d4f360e87bd2d9c36da1651800e5765a0a6f924
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7cc0c3165d44a607ee52c388626d8193cb1317b6912b49d78643711ac2d6ca92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545259"
 ---
 # <a name="acs-minimum-delay-variation-attribute"></a>ACS-attribut minimum-Delay-variation
 
@@ -36,7 +36,7 @@ L’attribut **ACS-minimum-Delay-variation** est destiné à un usage interne un
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1317              |
 | System-ID-GUID    | 9c65329b-3b90-11d2-90cc-00c04fd91ab1 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ L’attribut **ACS-minimum-Delay-variation** est destiné à un usage interne un
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -59,19 +59,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7442ce16e2ff30ca2d9b3bd529d37382d1df41
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 975581aaca4aad2511396e8ec426a7bf2a4720ff54202d42fbe932c0c2e9464d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513119"
 ---
 # <a name="imstscadvancedsettingscontainerhandledfullscreen-property"></a>IMsTscAdvancedSettings :: ContainerHandledFullScreen, propriété
 
 Spécifie si le mode plein écran géré par le conteneur est activé.
 
 > [!Note]  
-> La valeur de la propriété **ContainerHandledFullScreen** n’a aucun effet lorsque le contrôle ActiveX Bureau à distance est sécurisé pour l’écriture de scripts, et renvoie la valeur **\_ false** en cas de tentative de modification de la valeur.
+> la valeur de la propriété **ContainerHandledFullScreen** n’a aucun effet lorsque l’Bureau à distance ActiveX contrôle est sécurisé pour l’écriture de scripts, et renvoie la valeur **\_ false** en cas de tentative de modification de la valeur.
 
  
 
@@ -100,7 +100,7 @@ Définissez ce paramètre sur **true** pour activer le mode ou une autre valeur 
 
 Retourne **S \_ OK** en cas de réussite. Retourne **S \_ false** s’il n’est pas pris en charge.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand ce mode est activé, le conteneur actuel traite le commutateur dans et hors du mode plein écran. Cette méthode doit être utilisée uniquement si le conteneur actuel a besoin d’un contrôle étendu sur le comportement du mode plein écran. Quand cette propriété est définie, le contrôle n’entre pas en mode plein écran en réponse à la combinaison de touches de raccourci du mode plein écran (CTRL + ALT + ATTN); au lieu de cela, les événements [**IMsTscAxEvents :: OnRequestGoFullScreen**](imstscaxevents-onrequestgofullscreen.md) et [**IMsTscAxEvents :: OnRequestLeaveFullScreen**](imstscaxevents-onrequestleavefullscreen.md) sont appelés. Pour plus d’informations sur ces événements, consultez [**IMsTscAxEvents**](imstscaxevents-interface.md) .
 

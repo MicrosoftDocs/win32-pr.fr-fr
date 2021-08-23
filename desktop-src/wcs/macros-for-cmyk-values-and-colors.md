@@ -3,8 +3,8 @@ title: Macros pour les valeurs et couleurs CMJN
 description: Les macros suivantes sont utiles pour manipuler des valeurs CMJN.
 ms.assetid: e5d107fb-e010-400b-9ec5-90c2c0381dbe
 keywords:
-- Windows Color System (WCS), macros CMJN
-- WCS (Windows Color System), macros CMJN
+- Windows Système de couleurs (WCS), macros CMJN
+- WCS (Windows Color System), macros cmjn
 - gestion des couleurs des images, macros CMJN
 - gestion des couleurs, macros CMJN
 - couleurs, macros CMJN
@@ -16,12 +16,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a0efcbb6b0dc25f8f93f420113cc8c0797cba46
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 591c479686db45f1b0d6fc6097d5134de481307b144200604a15b360bcf2c146
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106538414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593359"
 ---
 # <a name="macros-for-cmyk-values-and-colors"></a>Macros pour les valeurs et couleurs CMJN
 

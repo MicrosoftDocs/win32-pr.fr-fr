@@ -4,12 +4,12 @@ ms.assetid: 4a33f411-d71e-41d3-b5fd-018a92dceeac
 title: Élément isDefaultSaveLocation (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75b664e4cd6f7c88f1dfbeb44ba23faee5d24a43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e94cfe2f620dd7c4ccac2bed27dd87511e9174861aeb74dce9ac5737263e9275
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597479"
 ---
 # <a name="isdefaultsavelocation-element-search-connector-schema"></a>Élément isDefaultSaveLocation (schéma du connecteur de recherche)
 
@@ -45,9 +45,9 @@ L’élément booléen facultatif <isDefaultSaveLocation> spécifie si l’empla
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Quand un utilisateur choisit d’enregistrer un élément, l’Explorateur Windows l’enregistre à l’emplacement spécifié dans l' <simpleLocation> élément. Les utilisateurs peuvent modifier ce paramètre à l’aide de la boîte de dialogue Propriétés du connecteur de recherche.
+quand un utilisateur choisit d’enregistrer un élément, Windows Explorer l’enregistre à l’emplacement spécifié dans l' <simpleLocation> élément. Les utilisateurs peuvent modifier ce paramètre à l’aide de la boîte de dialogue Propriétés du connecteur de recherche.
 
 ## <a name="example"></a>Exemple
 

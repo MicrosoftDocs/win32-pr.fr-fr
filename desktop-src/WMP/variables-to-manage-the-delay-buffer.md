@@ -3,7 +3,7 @@ title: Variables pour gérer la mémoire tampon de délai
 description: Variables pour gérer la mémoire tampon de délai
 ms.assetid: 2c5963a1-04e2-4421-8f56-14c1e059de4e
 keywords:
-- Plug-ins du lecteur Windows Media, exemples de ressources de streaming d’écho
+- plug-ins Lecteur Windows Media, ressources de streaming d’exemples Echo
 - plug-ins, exemples de ressources de streaming
 - plug-ins de traitement de signal numérique, exemples de ressources de streaming d’écho
 - Plug-ins DSP, exemples de ressources de streaming
@@ -13,12 +13,12 @@ keywords:
 - mémoires tampons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09d7f9657d16d0805ff2fc85d2238635fbfa6e5e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5be71bc7f2ded34dcd5f29bc10ce01796b6498d36a9a194a48b0bfdec0e14662
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571739"
 ---
 # <a name="variables-to-manage-the-delay-buffer"></a>Variables pour gérer la mémoire tampon de délai
 
@@ -53,9 +53,9 @@ m_cbDelayBuffer = 0;
 [**Utilisation des ressources de streaming**](working-with-streaming-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

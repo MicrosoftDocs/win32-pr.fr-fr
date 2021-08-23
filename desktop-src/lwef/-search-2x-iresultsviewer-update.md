@@ -3,9 +3,9 @@ title: Méthode de mise à jour IResultsViewer (WdsView. h)
 description: Applique les modifications de requête et parcourt la vue jusqu’au nouvel ensemble de résultats.
 ms.assetid: 3bcb4ac0-4a78-4051-bd2b-701d19c83602
 keywords:
-- Méthode de mise à jour fonctionnalités d’environnement Windows héritées
-- Méthode de mise à jour fonctionnalités d’environnement Windows héritées, interface IResultsViewer
-- Interface IResultsViewer fonctionnalités d’environnement Windows héritées, méthode Update
+- méthode de mise à jour des fonctionnalités d’environnement Windows héritées
+- méthode de mise à jour héritage Windows fonctionnalités d’environnement, interface IResultsViewer
+- interface IResultsViewer Windows héritée fonctionnalités d’environnement, méthode Update
 topic_type:
 - apiref
 api_name:
@@ -16,17 +16,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9c1bcd97ae2137ea66d215d3c17a314194d9e99
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aba3598912ad548677da789b7bbdc730396e5881e0ac0670819c9db59136fa95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665789"
 ---
 # <a name="iresultsviewerupdate-method"></a>IResultsViewer :: Update, méthode
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez plutôt l' [API Windows Search](../search/-search-reference-entry-page.md) . 
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez plutôt l' [API de recherche Windows](../search/-search-reference-entry-page.md) . 
 
 Applique les modifications de requête et parcourt la vue jusqu’au nouvel ensemble de résultats.
 

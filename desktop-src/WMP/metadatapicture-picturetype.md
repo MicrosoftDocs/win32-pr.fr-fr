@@ -3,7 +3,7 @@ title: MetadataPicture. pictureType
 description: La propriété pictureType récupère le type d’image de l’image de métadonnées.
 ms.assetid: af685e99-4577-42df-86cf-c8c922d70920
 keywords:
-- Lecteur Windows Media MetadataPicture. pictureType
+- MetadataPicture. pictureType Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f08ddd3278e0ed95fc36a5e0887f5aceda5cad6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7beda3d18bde6c2d0ab15427e6deb3ecc56ed54e4a752003e1a957eac51628df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647689"
 ---
 # <a name="metadatapicturepicturetype"></a>MetadataPicture. pictureType
 
@@ -33,7 +33,7 @@ La propriété **pictureType** récupère le type d’image de l’image de mét
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

@@ -4,12 +4,12 @@ description: Propriété ListeningTip
 ms.assetid: 02a678bb-5eb6-495f-b339-35170a44b15e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 402fd970bf902f034fd6ffb713029e3a27095c8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d6a743eb26d1e2b57d106e72d77c3774938ffe7e56ca4ba4147001d74bb99f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106543040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665439"
 ---
 # <a name="listeningtip-property"></a>Propriété ListeningTip
 
@@ -38,11 +38,11 @@ Retourne une valeur booléenne indiquant le paramètre de l’utilisateur actuel
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **ListeningTip** indique si l’option Afficher l’info-bulle d’écoute dans la feuille de propriétés de l’agent Microsoft (options de caractères avancés) est activée. Quand **ListeningTip** retourne la **valeur true** et que l’entrée vocale est activée, le serveur affiche la fenêtre d’info-bulle lorsque l’utilisateur appuie sur la touche d’écoute.
 
@@ -51,9 +51,9 @@ La propriété **ListeningTip** indique si l’option Afficher l’info-bulle d�
 [**Événement AgentPropertyChange**](agentpropertychange-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

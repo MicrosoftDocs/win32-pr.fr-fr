@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msoe.dll
-ms.openlocfilehash: 42f8033c943e402d434c973f8c768ed5a951811d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38469490db92278c82e7935e1078181010757dd22be220203361d2d4c18ef380
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593079"
 ---
 # <a name="iidentitychangenotifyqueryswitchidentities-method"></a>IIdentityChangeNotify :: QuerySwitchIdentities, méthode
 
@@ -45,11 +45,11 @@ Type : **HRESULT**
 
 Résultat de la requête de commutateur. Si le commutateur doit se poursuivre, renvoyez \_ OK. Dans le cas contraire, retournez \_ \_ le commutateur E processus annulé \_ pour indiquer que le changement d’identité de l’utilisateur doit être abandonné.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez implémenter cette méthode pour fournir un comportement personnalisé pour votre application lorsqu’un utilisateur demande que les identités soient basculées. Vous pouvez arrêter le commutateur d’identité en attente en retournant la valeur du \_ commutateur E process \_ Cancelled \_ .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

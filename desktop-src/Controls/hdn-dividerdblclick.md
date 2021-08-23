@@ -3,7 +3,7 @@ title: HDN_DIVIDERDBLCLICK le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle header que l’utilisateur a double-cliqué sur la zone de séparation du contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: b722196a-23ae-49c3-b0a2-8fe0d1e33b26
 keywords:
-- Contrôles Windows de code de notification HDN_DIVIDERDBLCLICK
+- HDN_DIVIDERDBLCLICK les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0129096139a4d698f25de543a2628b473bfd66e2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b9ba7e974ce9e3adac2b48815bfb9bba5273db8298bc9948164be5904dca8a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544673"
 ---
 # <a name="hdn_dividerdblclick-notification-code"></a>\_Code de notification HDN DIVIDERDBLCLICK
 
@@ -57,8 +57,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **HDN \_ DIVIDERDBLCLICKW** (Unicode) et **HDN \_ DIVIDERDBLCLICKA** (ANSI)<br/>   |
 

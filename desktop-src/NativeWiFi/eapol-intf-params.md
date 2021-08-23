@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - wzcsapi.h
-ms.openlocfilehash: dd9e0664fe41b471162beccd31bf2c22fbfa1640
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3359454196735b8100ea40a9b4add2e8e0398c336bf254eb507b0a4e63a86e1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685239"
 ---
 # <a name="eapol_intf_params-structure"></a>Structure de \_ paramètres EAPOL INTF \_
 
-\[**EAPOL \_ Les \_ paramètres INTF** ne sont plus pris en charge à partir de Windows Vista et windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
+\[**EAPOL \_ les \_ paramètres INTF** ne sont plus pris en charge à partir de Windows Vista et Windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
 
 Contient les paramètres de configuration EAPOL.
 
@@ -88,9 +88,9 @@ Identificateur réseau.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le fichier d’en-tête wzcsapi. h n’est pas disponible dans le SDK Windows.
+le fichier d’en-tête wzcsapi. h n’est pas disponible dans le SDK Windows.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -99,7 +99,7 @@ Le fichier d’en-tête wzcsapi. h n’est pas disponible dans le SDK Windows.
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | Fin de la prise en charge des clients<br/>    | Windows XP avec SP3<br/>                                                       |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>Wzcsapi. h</dt> </dl> |

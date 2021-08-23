@@ -3,7 +3,7 @@ title: Slider. foregroundProgress
 description: L’attribut foregroundProgress spécifie ou récupère la position actuelle de la barre de progression en premier plan sous la forme d’un pourcentage de la zone de curseur.
 ms.assetid: 1218ca5a-445c-441b-aa62-74a184a25c2d
 keywords:
-- Slider. foregroundProgress lecteur Windows Media
+- slider. foregroundProgress Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4597630453444564411d0bcfad8dc6b39914d13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6e48819a2b3245fc8a72d29e9a30135cc37702417ca498c88b8be01578b74988
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646339"
 ---
 # <a name="sliderforegroundprogress"></a>Slider. foregroundProgress
 
@@ -31,7 +31,7 @@ L’attribut **foregroundProgress** spécifie ou récupère la position actuelle
 
 Cet attribut est un **nombre** en lecture/écriture (**float**) compris entre 0 et 100.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utilisé principalement pour suivre la progression du téléchargement d’un fichier multimédia tout en effectuant un suivi simultané de la position de lecture actuelle du fichier à l’aide de l’attribut **value** . La position du curseur de défilement est restreinte à la zone de la progression du premier plan. Cela permet d’effectuer une recherche interactive uniquement dans la partie disponible d’un fichier de téléchargement.
 

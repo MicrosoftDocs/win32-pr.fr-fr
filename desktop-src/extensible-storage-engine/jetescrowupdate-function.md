@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 61fb49d50ee7c529174fe4c5546efd7de1727892
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d244bf16ab02d0bfd6f975f63c2ece32ed40119b30c178e4674037d36f519508
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119667419"
 ---
 # <a name="jetescrowupdate-function"></a>Fonction JetEscrowUpdate
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetescrowupdate-function"></a>Fonction JetEscrowUpdate
 
@@ -108,7 +108,7 @@ Groupe de bits spécifiant zéro ou plusieurs des options suivantes.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -136,7 +136,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="even">
 <td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
+<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidBufferSize</p></td>
@@ -168,7 +168,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </tr>
 <tr class="even">
 <td><p>JET_errSessionSharingViolation</p></td>
-<td><p>La même session ne peut pas être utilisée à partir de plusieurs threads en même temps. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
+<td><p>La même session ne peut pas être utilisée à partir de plusieurs threads en même temps. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>
@@ -186,7 +186,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </table>
 
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Normalement, si deux sessions tentent de mettre à jour un enregistrement simultanément, la deuxième session reçoit une erreur JET_errWriteConflict, sauf si les sessions sont complètement sérialisées. Pour sérialiser deux sessions qui mettent à jour le même enregistrement, la deuxième session doit démarrer sa transaction une fois que la première transaction a validé sa transaction. Pour plus d’informations, consultez [JetBeginTransaction](./jetbegintransaction-function.md) .
 
@@ -251,7 +251,7 @@ Les opérations de dépôt sont gérées par version et sont annulées à l’ai
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>session</p></th>
+<th><p>Session</p></th>
 <th><p>Opération</p></th>
 <th><p>Valeur stockée</p></th>
 <th><p>Valeur renvoyée</p></th>
@@ -259,25 +259,25 @@ Les opérations de dépôt sont gérées par version et sont annulées à l’ai
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Un</p></td>
+<td><p>A</p></td>
 <td><p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Un</p></td>
+<td><p>A</p></td>
 <td><p><a href="gg294083(v=exchg.10).md">JetBeginTransation</a></p></td>
 <td><p></p></td>
 <td><p>0</p></td>
 </tr>
 <tr class="odd">
-<td><p>Un</p></td>
+<td><p>A</p></td>
 <td><p><strong>JetEscrowUpdate</strong> (4)</p></td>
 <td><p>4</p></td>
 <td><p>0</p></td>
 </tr>
 <tr class="even">
-<td><p>Un</p></td>
+<td><p>A</p></td>
 <td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
 <td><p></p></td>
 <td><p>4</p></td>
@@ -307,13 +307,13 @@ Les opérations de dépôt sont gérées par version et sont annulées à l’ai
 <td><p>3</p></td>
 </tr>
 <tr class="odd">
-<td><p>Un</p></td>
+<td><p>A</p></td>
 <td><p><strong>JetEscrowUpdate</strong> (2)</p></td>
 <td><p>9</p></td>
 <td><p>7</p></td>
 </tr>
 <tr class="even">
-<td><p>Un</p></td>
+<td><p>A</p></td>
 <td><p><strong>JetEscrowUpdate</strong> (-7)</p></td>
 <td><p>2</p></td>
 <td><p>9</p></td>
@@ -325,7 +325,7 @@ Les opérations de dépôt sont gérées par version et sont annulées à l’ai
 <td><p>3</p></td>
 </tr>
 <tr class="even">
-<td><p>Un</p></td>
+<td><p>A</p></td>
 <td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
 <td><p></p></td>
 <td><p>-1</p></td>
@@ -337,7 +337,7 @@ Les opérations de dépôt sont gérées par version et sont annulées à l’ai
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Un</p></td>
+<td><p>A</p></td>
 <td><p><a href="gg269198(v=exchg.10).md">JetRetrieveColumn</a></p></td>
 <td><p></p></td>
 <td><p>-1</p></td>
@@ -360,11 +360,11 @@ Quand une colonne pouvant être mise à jour par dépôt a une valeur égale à 
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

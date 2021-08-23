@@ -4,12 +4,12 @@ ms.assetid: d838c05c-51e4-49a8-b773-af4924bff7e2
 title: Ouverture et fermeture d’un fichier INF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 893b72d000f433fb4da7ecfee0db4d856f878814
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e05500b473a904a3834fa507cff0d22c466153f4e08d95f75d0c076c66d86675
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665549"
 ---
 # <a name="opening-and-closing-an-inf-file"></a>Ouverture et fermeture d’un fichier INF
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 9539d29704797b1c7b001d426250762d2ed27b3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 667d8f11270865f1caa4549377db2cccb278053ea9848b71aa38f0d5f7528689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686209"
 ---
 # <a name="ec_dvd_title_change"></a>\_modification du \_ titre du DVD EC \_
 
@@ -42,7 +42,7 @@ Zéro.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les numéros de titres vont de 1 à 99. Ce nombre indique le TTN, qui est le numéro de titre par rapport à l’ensemble du disque, et non le \_ ttn STM qui est le numéro de titre par rapport à un STM en cours.
 
@@ -68,7 +68,7 @@ Cet événement est déclenché dans le domaine de titre.
 [Codes de notification des événements DVD](dvd-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

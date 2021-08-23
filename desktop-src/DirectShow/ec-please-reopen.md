@@ -4,12 +4,12 @@ ms.assetid: f99df68f-d7e8-4dbf-b958-84fe3f0821f0
 title: EC_PLEASE_REOPEN (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1c02b1a945a773717f1dd1f1cfe237b764faa09
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: efafbcd441dc62b48612e325a3520f9b3cfbdeb9b3b4d5b11144e12f9f22acd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686179"
 ---
 # <a name="ec_please_reopen"></a>réouverture de la communauté \_ \_
 
@@ -39,7 +39,7 @@ Aucun.
 
 ## <a name="remarks"></a>Notes
 
-Le filtre de [source Windows Media](windows-media-source-filter.md) hérité envoie cet événement. Les nouveaux filtres ne doivent pas envoyer cet événement.
+le filtre de [Source du média Windows](windows-media-source-filter.md) hérité envoie cet événement. Les nouveaux filtres ne doivent pas envoyer cet événement.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -58,7 +58,7 @@ Le filtre de [source Windows Media](windows-media-source-filter.md) hérité env
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

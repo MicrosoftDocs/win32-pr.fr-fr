@@ -4,16 +4,16 @@ ms.assetid: 2332e3cc-087c-49cf-bde9-7f86f65158e7
 title: Récupération des fonctionnalités de rendu prises en charge par un appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 523f1f9bbcaefe1c502c7c74252582fddcadad4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5b5e4fd09417585954ae205fc28fc8cf0e78ab02fdd3add616859b35b4237ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546229"
 ---
 # <a name="retrieving-the-rendering-capabilities-supported-by-a-device"></a>Récupération des fonctionnalités de rendu prises en charge par un appareil
 
-Les appareils mobiles Windows qui prennent en charge la catégorie fonctionnelle informations de rendu ( \_ informations de rendu de catégorie fonctionnelle wpd \_ \_ \_ ) renvoient des informations de rendu lorsqu’elles sont interrogées. Les informations de rendu décrivent les exigences et les restrictions imposées aux applications qui tentent d’écrire du contenu sur un appareil.
+Windows Les appareils mobiles qui prennent en charge la catégorie fonctionnelle informations de rendu ( \_ informations de rendu de catégorie fonctionnelle wpd \_ \_ \_ ) renvoient des informations de rendu lors de la requête. Les informations de rendu décrivent les exigences et les restrictions imposées aux applications qui tentent d’écrire du contenu sur un appareil.
 
 La fonction ListRenderingCapabilityInformation, la fonction d’assistance SupportsFunctionalCategory et la fonction d’assistance ReadProfileInformationProperties dans le module DeviceCapabilities. cpp illustrent la récupération des fonctionnalités de rendu pour un appareil sélectionné.
 

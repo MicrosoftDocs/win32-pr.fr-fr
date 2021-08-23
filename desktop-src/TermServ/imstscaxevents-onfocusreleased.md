@@ -17,18 +17,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eff03f95d4ebbb068bccbfd9f68a930c00f0b00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 673916c3a538f21ceea5b0b7578bb9e8f225ec2a349e38015eab0b50d73935aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512339"
 ---
 # <a name="imstscaxeventsonfocusreleased-method"></a>IMsTscAxEvents :: OnFocusReleased, méthode
 
 Appelé lorsque la combinaison de touches de focus de mise en sortie est enfoncée. Par exemple, cet événement est appelé quand l’utilisateur appuie sur la touche CTRL + ALT + gauche ou sur la combinaison de touches CTRL + ALT + flèche droite.
 
-Cet événement permet au conteneur de contrôles ActiveX de retirer le contrôle du contrôle ActiveX. Par exemple, cela est utile dans un scénario où vous n’avez pas de souris, et les combinaisons de touches spéciales, telles que ALT + TAB, sont redirigées vers le serveur. Dans ce cas, vous n’avez pas de moyen de ramener le focus clavier sur le bureau local. Toutefois, avec la combinaison de touches CTRL + ALT + gauche ou CTRL + ALT + flèche droite, le conteneur ActiveX peut écouter cet événement et y répondre en désoccupant le focus du contrôle ActiveX.
+cet événement permet au conteneur de contrôle ActiveX de retirer le contrôle du contrôle ActiveX. Par exemple, cela est utile dans un scénario où vous n’avez pas de souris, et les combinaisons de touches spéciales, telles que ALT + TAB, sont redirigées vers le serveur. Dans ce cas, vous n’avez pas de moyen de ramener le focus clavier sur le bureau local. toutefois, avec la combinaison de touches ctrl + alt + gauche ou ctrl + alt + flèche droite, le conteneur ActiveX peut écouter cet événement et répondre en désoccupant le focus du contrôle ActiveX.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -56,7 +56,7 @@ Paramètre de direction de 1 (CTRL + ALT + flèche droite) ou 1 (CTRL + ALT + fl
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est disponible lorsque Connexion Bureau à distance 6,0 est utilisé sur le client.
 

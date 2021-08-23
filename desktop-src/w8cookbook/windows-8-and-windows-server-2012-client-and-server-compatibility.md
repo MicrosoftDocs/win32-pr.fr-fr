@@ -1,17 +1,17 @@
 ---
-title: Compatibilité du client et du serveur-Windows 8
-description: Compatibilité entre le client et le serveur Windows 8 et Windows Server 2012
+title: Compatibilité des clients et des serveurs-Windows 8
+description: Windows 8 et Windows Server 2012 la compatibilité du client et du serveur
 ms.assetid: 5067219A-EBA2-4FAF-8C17-7AB22C5EADD0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca5b685ae10b97a7b8197737944ea7231d226514
-ms.sourcegitcommit: 477b1efe7d9c2f91d5f2ac588a20edf348b1c734
+ms.openlocfilehash: 5bbe52486339906d260fe623533cfbb871e97c07f914798990a5d16c51e5bbf3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104313969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593809"
 ---
-# <a name="windows-8-and-windows-server-2012-client-and-server-compatibility"></a>Compatibilité entre le client et le serveur Windows 8 et Windows Server 2012
+# <a name="windows-8-and-windows-server-2012-client-and-server-compatibility"></a>Windows 8 et Windows Server 2012 la compatibilité du client et du serveur
 
 Cette section décrit les modifications apportées au système d’exploitation dont vous devez prêter une attention particulière en raison des impacts potentiels sur les applications existantes et de la façon dont les nouvelles applications doivent être conçues sur les clients, sur les serveurs, ou sur les clients et les serveurs. Voici la liste des rubriques traitées dans cette section, regroupées par domaine de fonctionnalité :
 
@@ -35,11 +35,11 @@ Cette section décrit les modifications apportées au système d’exploitation 
 
 -   Mise à jour de compatibilité des disques au format avancé (4K)
 -   Allocation dynamique d’unités logiques
--   Le stockage étendu est désormais facultatif pour environnement de préinstallation Windows (WinPE) (WinPE) et référence de serveur
--   Le service de disque virtuel passe à l’API de gestion du stockage Windows basé sur le Windows Management Instrumentation (WMI)
+-   le stockage étendu est désormais facultatif pour environnement de préinstallation Windows (WinPE) (WinPE) et référence de serveur
+-   le Service de disque virtuel est en train de passer à l’API de gestion des Stockage Windows basée sur Windows Management Instrumentation (WMI)
 -   Interface utilisateur des versions précédentes supprimées pour les volumes locaux
 -   StorAHCI remplace MSAHCI
--   Sauvegarde et restauration de Windows 7 déconseillées
+-   sauvegarde et restauration de Windows 7 déconseillées
 -   Transferts de données déchargées
 
 **Autres**
@@ -47,9 +47,9 @@ Cette section décrit les modifications apportées au système d’exploitation 
 -   Gestionnaire de fenêtrage est toujours activé
 -   Direct2D ne prend pas en charge le rendu des sous-fichiers « enrichis » dans Internet Explorer 9
 -   Modifications apportées à la prise en charge matérielle héritée virtuel DX9
--   MSAA n’est pas disponible pour les applications du Windows Store
+-   MSAA n’est pas disponible pour les applications de Windows store
 -   Le port 3 est déconseillé pour les pilotes NDIS 6,30
 
- 
+ 
 
- 
+ 

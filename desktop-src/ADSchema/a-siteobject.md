@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac43fb4ee0718aec855de4b7eb251a5d67c1a5fd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 31bb6f97e3018ec91f308aa2a894422b79beca8e94d9659c178968c69a96aed9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645639"
 ---
 # <a name="site-object-attribute"></a>Attribut Site-Object
 
@@ -46,7 +46,7 @@ Nom unique du site auquel appartient ce sous-réseau.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Nom unique du site auquel appartient ce sous-réseau.
 | Range-Upper            | \-                                    |
 | Search-Flags           | 0x00000000                            |
 | System-Flags           | 0x00000010                            |
-| Classes utilisées dans        | [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Nom unique du site auquel appartient ce sous-réseau.
 | Range-Upper            | \-                                    |
 | Search-Flags           | 0x00000000                            |
 | System-Flags           | 0x00000010                            |
-| Classes utilisées dans        | [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ Nom unique du site auquel appartient ce sous-réseau.
 | Range-Upper            | \-                                    |
 | Search-Flags           | 0x00000000                            |
 | System-Flags           | 0x00000010                            |
-| Classes utilisées dans        | [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Nom unique du site auquel appartient ce sous-réseau.
 | Range-Upper            | \-                                    |
 | Search-Flags           | 0x00000000                            |
 | System-Flags           | 0x00000010                            |
-| Classes utilisées dans        | [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Nom unique du site auquel appartient ce sous-réseau.
 | Range-Upper            | \-                                    |
 | Search-Flags           | 0x00000000                            |
 | System-Flags           | 0x00000010                            |
-| Classes utilisées dans        | [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Nom unique du site auquel appartient ce sous-réseau.
 | Range-Upper            | \-                                    |
 | Search-Flags           | 0x00000000                            |
 | System-Flags           | 0x00000010                            |
-| Classes utilisées dans        | [**Subnet**](c-subnet.md)<br/> |
+| Classes utilisées dans        | [**Sous-réseau**](c-subnet.md)<br/> |
 
 
 

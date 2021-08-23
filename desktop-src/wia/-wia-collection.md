@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: cf9c5fc6b01574b930b7b8b74186243d00fa5202
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63f2d1be37ae244eee5960feb8d5eae22ce379a8567bd782c3b0c3e43eabb53b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593339"
 ---
 # <a name="collection-object"></a>Collection (objet)
 
@@ -38,14 +38,14 @@ L’objet **collection** possède ces propriétés.
 
 | Propriété                                           | Type d’accès          | Description                                                |
 |:---------------------------------------------------|:---------------------|:-----------------------------------------------------------|
-| [**Saut**](-wia-icollection-count.md)<br/> | Lecture seule<br/> | Retourne le nombre de membres de la collection<br/> |
+| [**Count**](-wia-icollection-count.md)<br/> | Lecture seule<br/> | Retourne le nombre de membres de la collection<br/> |
 | [**Élément**](-wia-icollection-item.md)<br/>   | Lecture seule<br/> | Retourne l’élément spécifié dans la collection<br/>    |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="creationaccess-functions"></a>Fonctions d’accès de création \\
 
@@ -69,8 +69,8 @@ Utilisez l’une des méthodes suivantes pour récupérer une référence à l�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

@@ -3,9 +3,9 @@ title: Méthode Network. getProxyName
 description: La méthode getProxyName récupère le nom du serveur proxy utilisé.
 ms.assetid: 273b1f7d-84b7-4e50-9f80-9fd1978e7528
 keywords:
-- méthode getProxyName lecteur Windows Media
-- méthode getProxyName lecteur Windows Media, classe réseau
-- Classe réseau lecteur Windows Media, méthode getProxyName
+- Lecteur Windows Media de la méthode getProxyName
+- Lecteur Windows Media de la méthode getProxyName, classe de réseau
+- Lecteur Windows Media de classe réseau, méthode getProxyName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a97e51508e9df9aeac85dbc01116e80e710dcb45
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43f40eb7eb695376768cd8168e1eb1d1916c8e84e6ede8ef93251df6097a15d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647449"
 ---
 # <a name="networkgetproxyname-method"></a>Méthode Network. getProxyName
 
@@ -53,7 +53,7 @@ strRetVal = Network.getProxyName(
 
 Cette méthode retourne une **chaîne** contenant le nom du serveur proxy utilisé. La valeur retournée est significative uniquement lorsque **getProxySettings** retourne la valeur 2 (utiliser des paramètres manuels).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
@@ -61,7 +61,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **getProxyName** pour afficher les noms des serveurs proxy du lecteur Windows Media pour les protocoles HTTP et MMS. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **getProxyName** pour afficher les noms des serveurs proxy Lecteur Windows Media pour les protocoles HTTP et MMS. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

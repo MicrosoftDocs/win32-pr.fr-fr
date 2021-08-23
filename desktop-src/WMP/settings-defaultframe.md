@@ -3,7 +3,7 @@ title: Paramètres. defaultFrame
 description: La propriété defaultFrame spécifie ou récupère le nom du frame utilisé pour afficher une URL reçue dans un événement commande.
 ms.assetid: c2edb253-a545-4820-85aa-8fb7badf4d81
 keywords:
-- Settings. defaultFrame Windows Media Player
+- Paramètres. defaultFrame Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6182a635e4bd73a946c3cf85efb7d39966c0007
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0240864cd19c1a4d84c30abfc6e6b8ecb08457d26c3c660d19fc18d228b19615
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571809"
 ---
 # <a name="settingsdefaultframe"></a>Paramètres. defaultFrame
 
@@ -33,13 +33,13 @@ Player. Settings. defaultFrame
 
 Cette propriété est une **chaîne** en lecture/écriture qui correspond à la valeur de l’attribut **Name** de l’élément Frame cible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un frame cible est spécifié dans l’événement **commande** lui-même, cette propriété est ignorée.
 
-Cette propriété est ignorée lors de l’utilisation de l’applet Java de Netscape Navigator. Dans le navigateur, chaque commande de script d’URL reçue affiche l’URL dans une nouvelle fenêtre de navigateur, quelle que soit la valeur des *paramètres*. **defaultFrame**.
+Cette propriété est ignorée lors de l’utilisation de l’applet Java de Netscape Navigator. dans le navigateur, chaque commande de script d’URL reçue affiche l’url dans une nouvelle fenêtre de navigateur, quelle que soit la valeur de *Paramètres*. **defaultFrame**.
 
-**Windows Media Player 10 Mobile**: cette propriété est en lecture seule et retourne toujours une chaîne vide.
+**Lecteur Windows Media 10 Mobile**: cette propriété est en lecture seule et retourne toujours une chaîne vide.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -59,7 +59,7 @@ Cette propriété est ignorée lors de l’utilisation de l’applet Java de Net
 [**Événement Player. commande**](player-player-scriptcommand.md)
 </dt> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> <dt>
 
 [**Utilisation de Windows Media Player avec Netscape 7.1**](using-windows-media-player-with-netscape-7-1.md)

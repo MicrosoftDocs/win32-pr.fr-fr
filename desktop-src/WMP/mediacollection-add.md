@@ -3,9 +3,9 @@ title: MediaCollection. Add, méthode
 description: La méthode Add ajoute un nouvel élément multimédia ou une nouvelle sélection à la bibliothèque. | MediaCollection. Add, méthode
 ms.assetid: 8adf93d1-368b-4916-937f-342901a1592b
 keywords:
-- Ajouter une méthode lecteur Windows Media
-- Add, méthode lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode Add
+- ajouter une méthode Lecteur Windows Media
+- add, méthode Lecteur Windows Media, MediaCollection, classe
+- Lecteur Windows Media de la classe MediaCollection, méthode add
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7731a42c8e1317355b129acb6921676c0a33f4a3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b26d21f67496f345324efdca93dbf85e59947f1616e0c5620faead2807a6ed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647909"
 ---
 # <a name="mediacollectionadd-method"></a>MediaCollection. Add, méthode
 
@@ -53,7 +53,7 @@ retVal = MediaCollection.add(
 
 Cette méthode retourne un objet **multimédia** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode charge un élément multimédia existant ou une sélection dans la bibliothèque, en fonction d’un chemin d’accès à un fichier. Cette méthode ne déplace pas ou ne modifie pas le fichier. Cette méthode échoue si le chemin d’accès local n’est pas valide, mais que la validité des fichiers multimédias numériques n’est pas vérifiée avant leur ajout à la bibliothèque.
 
@@ -63,7 +63,7 @@ Pour utiliser cette méthode, l’accès complet à la bibliothèque est requis.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple Microsoft JScript suivant ajoute trois objets multimédias à la collection de supports du lecteur Windows Media. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript Microsoft suivant ajoute trois objets multimédias à la collection de supports Lecteur Windows Media. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

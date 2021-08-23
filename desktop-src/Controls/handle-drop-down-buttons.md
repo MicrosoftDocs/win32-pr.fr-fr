@@ -4,12 +4,12 @@ description: Un bouton déroulant peut présenter aux utilisateurs une liste d�
 ms.assetid: 2D908D4B-AA8B-4DEF-B656-C37B673ABB4D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35d6f59bfa888d346e196e13ce030d1473a07f0f
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: b74443b0d29b3ab39255d7417fd13677769f6a762ebe176e8301a76029db0c37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103724271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544946"
 ---
 # <a name="how-to-handle-drop-down-buttons"></a>Comment gérer les boutons déroulants
 
@@ -25,16 +25,16 @@ L’illustration suivante montre la même barre d’outils, cette fois sans le s
 
 Quand les utilisateurs cliquent sur un bouton de barre d’outils qui utilise le style de [**\_ liste déroulante BTNS**](toolbar-control-and-button-styles.md) , le contrôle ToolBar envoie à la fenêtre parente un code de notification de [ \_ liste déroulante TBN](tbn-dropdown.md) .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -104,12 +104,12 @@ BOOL DoNotify(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 [Utilisation des contrôles ToolBar](using-toolbar-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

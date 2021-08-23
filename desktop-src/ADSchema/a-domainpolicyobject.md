@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bfd3a7f35b91edb167f58a207eb4d162a34898d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 92c50a2bc131360bc318a36bee7e5715f53198a89878d1906ded480de2117084
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544929"
 ---
 # <a name="domain-policy-object-attribute"></a>Attribut d’objet de stratégie de domaine
 
@@ -45,7 +45,7 @@ Référence à l’objet de stratégie qui définit la stratégie de l’autorit
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

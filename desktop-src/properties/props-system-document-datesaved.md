@@ -4,12 +4,12 @@ ms.assetid: 4cbd5ebe-7987-40eb-a770-0ab217562b70
 title: System.Document. DateSaved
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e48b177e14c1a5abeb5f981098c2e0be4caf36b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e9c936981121736fc11102f2525246cc1b5a9494462aa661582704512fdbcb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598189"
 ---
 # <a name="systemdocumentdatesaved"></a>System.Document. DateSaved
 
@@ -46,7 +46,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

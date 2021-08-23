@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 739abe3dbf67e5e8d154ef1424db81476f153858
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 27e576294a66dd896ec17ad3d0c9894c53824824ed89fff043d44093245850cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646948"
 ---
 # <a name="query-policy-bl-attribute"></a>Attribut de stratégie de requête-BL
 
@@ -46,7 +46,7 @@ Liste de tous les objets contenant des références à une stratégie de requêt
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

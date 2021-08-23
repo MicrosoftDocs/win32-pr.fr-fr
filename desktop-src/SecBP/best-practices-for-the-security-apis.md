@@ -4,12 +4,12 @@ ms.assetid: bb0ddae2-f559-4785-97c7-182fc204fa60
 title: Meilleures pratiques pour les API de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa821cfbaa9874d17559ad0e81f636fbaddd14f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 934bf52d99456d599f91ec23c6e5472bb4e130565cf1acb56763f29f6396c0b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622879"
 ---
 # <a name="best-practices-for-the-security-apis"></a>Meilleures pratiques pour les API de sécurité
 
@@ -31,7 +31,7 @@ La réalisation d’une analyse du modèle des menaces peut vous aider à décou
 
 ## <a name="service-packs-and-security-updates"></a>Service Packs et mises à jour de sécurité
 
-Les environnements de génération et de test doivent refléter les mêmes niveaux de service packs et les mises à jour de sécurité de la base d’utilisateurs ciblée. Nous vous recommandons d’installer les service packs et les mises à jour de sécurité les plus récents pour toute plateforme ou application Microsoft qui fait partie de votre environnement de création et de test et encourager les utilisateurs à faire de même pour l’environnement d’application final. Pour plus d’informations sur les service packs et les mises à jour de sécurité, consultez [microsoft Windows Update](https://www.update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=en-us) et [sécurité Microsoft](https://www.microsoft.com/security).
+Les environnements de génération et de test doivent refléter les mêmes niveaux de service packs et les mises à jour de sécurité de la base d’utilisateurs ciblée. Nous vous recommandons d’installer les service packs et les mises à jour de sécurité les plus récents pour toute plateforme ou application Microsoft qui fait partie de votre environnement de création et de test et encourager les utilisateurs à faire de même pour l’environnement d’application final. pour plus d’informations sur les service packs et les mises à jour de sécurité, consultez [microsoft Windows Update](https://www.update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=en-us) et [sécurité microsoft](https://www.microsoft.com/security).
 
 ## <a name="authorization"></a>Autorisation
 

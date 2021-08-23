@@ -3,7 +3,7 @@ title: Message EM_GETIMEPROPERTY (RichEdit. h)
 description: Récupère la propriété et les fonctionnalités de l’éditeur de méthode d’entrée (IME) associé aux paramètres régionaux d’entrée actuels.
 ms.assetid: 0cbe52d4-c3e7-40bd-a6f6-da0a11056976
 keywords:
-- EM_GETIMEPROPERTY les contrôles de message Windows
+- EM_GETIMEPROPERTY les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94c081aa99c99f4cd0995c0f9d2f5256e2958dc6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b96ad255d9d68cc76869b6f9163aedf549da19ff0c3ddba756f8da42267135c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541109"
 ---
 # <a name="em_getimeproperty-message"></a>\_Message GETIMEPROPERTY em
 
@@ -63,7 +63,7 @@ Non utilisé ; doit être égal à zéro.
 
 Retourne la valeur de la propriété ou de la fonctionnalité, selon la valeur du paramètre *lParam* . Pour plus d'informations, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si *wParam* est \_ la propriété IGP, elle retourne une ou plusieurs des valeurs suivantes.
 
@@ -129,8 +129,8 @@ Si *wParam* est IGP \_ GETIMEVERSION, il retourne une ou plusieurs des valeurs s
 
 | Condition requise | Valeur |
 |--------------|---------------------------------------------|
-| JAMAIS \_ 0310 | L’IME a été créé pour Windows 3,1.        |
-| JAMAIS \_ 0400 | L’IME a été créé pour Windows 95 ou version ultérieure |
+| JAMAIS \_ 0310 | l’IME a été créé pour Windows 3,1.        |
+| JAMAIS \_ 0400 | l’IME a été créé pour Windows 95 ou version ultérieure |
 
 
 
@@ -144,8 +144,8 @@ Ce message est semblable à [**ImmGetProperty**](/windows/desktop/api/imm/nf-imm
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

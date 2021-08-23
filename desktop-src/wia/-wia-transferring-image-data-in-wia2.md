@@ -1,24 +1,24 @@
 ---
-description: Étant donné que le transfert de données d’image est basé sur la diffusion en continu dans WIA (Windows Image Acquisition) 2,0, vous n’avez pas besoin de spécifier un type de destination (par exemple,
+description: étant donné que le transfert de données d’image est basé sur la diffusion en continu dans Windows acquisition d’images (WIA) 2,0, vous n’avez pas besoin de spécifier un type de destination (par exemple,
 ms.assetid: ebb9fce5-9450-4ffe-b480-b21670b60f90
 title: Transfert de données d’image dans WIA 2,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85ded5c6cd8fb94b1beccd86c3cd8aef3018aed0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66aca2179c477f49bc76197795ddf9d59792ca242da8729c169c39aa69553161
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592959"
 ---
 # <a name="transferring-image-data-in-wia-20"></a>Transfert de données d’image dans WIA 2,0
 
 > [!Note]  
-> Ce didacticiel montre comment transférer des données d’image dans des applications qui s’exécutent sur Windows Vista ou version ultérieure. Pour plus d’informations sur le transfert de données d’image dans les applications qui s’exécutent sur Windows XP ou version antérieure, consultez [transfert de données d’image dans WIA 1,0](-wia-transferring-image-data.md) .
+> ce didacticiel montre comment transférer des données d’image dans des applications qui s’exécutent sur Windows Vista ou version ultérieure. pour plus d’informations sur le transfert de données d’image dans les applications qui s’exécutent sur Windows XP ou version antérieure, consultez [transfert de données d’image dans WIA 1,0](-wia-transferring-image-data.md) .
 
  
 
-Étant donné que le transfert de données d’image est basé sur la diffusion en continu dans WIA (Windows Image Acquisition) 2,0, vous n’avez pas besoin de spécifier un type de destination (par exemple, mémoire ou fichier). L’application donne simplement à WIA 2,0 le flux à utiliser et le pilote lit ou écrit dans le flux. Le flux peut être un flux de fichier, un flux de mémoire ou tout autre type de flux, et est transparent pour le pilote. L’utilisation de flux offre également une intégration facile avec le filtre de traitement d’image.
+étant donné que le transfert de données d’image est basé sur la diffusion en continu dans Windows acquisition d’images (WIA) 2,0, vous n’avez pas besoin de spécifier un type de destination (par exemple, mémoire ou fichier). L’application donne simplement à WIA 2,0 le flux à utiliser et le pilote lit ou écrit dans le flux. Le flux peut être un flux de fichier, un flux de mémoire ou tout autre type de flux, et est transparent pour le pilote. L’utilisation de flux offre également une intégration facile avec le filtre de traitement d’image.
 
 Utilisez les méthodes de l’interface [**IWiaTransfer**](-wia-iwiatransfer.md) pour transférer des données d’un appareil WIA 2,0 vers une application. Cette interface est disponible via l’interface [**IWiaItem2**](-wia-iwiaitem2.md) . L’interface **IWiaTransfer** a des méthodes pour demander le chargement ou le téléchargement de données vers et à partir d’un appareil. Ces méthodes prennent un rappel fourni par l’application et utilisent un [IStream](/windows/win32/api/objidl/nn-objidl-istream) fourni par l’application pour la destination réelle du transfert de données.
 

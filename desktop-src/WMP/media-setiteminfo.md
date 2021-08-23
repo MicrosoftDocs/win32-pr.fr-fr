@@ -3,9 +3,9 @@ title: Méthode Media. setItemInfo
 description: La méthode setItemInfo définit la valeur de l’attribut spécifié pour l’élément multimédia actuel.
 ms.assetid: 8c4ce954-45cb-4a67-9660-1a013ecd64c3
 keywords:
-- méthode setItemInfo lecteur Windows Media
-- méthode setItemInfo lecteur Windows Media, classe multimédia
-- Classe multimédia lecteur Windows Media, méthode setItemInfo
+- Lecteur Windows Media de la méthode setItemInfo
+- méthode setItemInfo Lecteur Windows Media, classe multimédia
+- Lecteur Windows Media de classe de média, méthode setItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b918e6a388cab750cc379611f5f55c6a1b1d256c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b1639b86ce1e0643f3d6ce255e5ca492bc4fae0c1301e1a568a0c5609ceda2a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647969"
 ---
 # <a name="mediasetiteminfo-method"></a>Méthode Media. setItemInfo
 
@@ -46,7 +46,7 @@ Media.setItemInfo(
 *attribut* \[ dans\]
 </dt> <dd>
 
-**Chaîne** contenant le nom de l’attribut. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+**Chaîne** contenant le nom de l’attribut. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ Media.setItemInfo(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **attributeCount** contient le nombre d’attributs disponibles pour un objet **multimédia** donné. Les numéros d’index peuvent ensuite être utilisés avec la méthode **getAttributeName** pour déterminer les noms des attributs intégrés qui peuvent être utilisés avec cette méthode.
 
@@ -71,13 +71,13 @@ Pour utiliser cette méthode, l’accès complet à la bibliothèque est requis.
 
 **Remarque**
 
-Si vous incorporez le contrôle du lecteur Windows Media dans votre application, les attributs de fichier que vous modifiez ne seront pas écrits dans le fichier multimédia numérique tant que l’utilisateur n’aura pas exécuté le lecteur Windows Media. Si vous utilisez le contrôle dans une application distante écrite en C++, les attributs de fichier que vous modifiez seront écrits dans le fichier multimédia numérique peu après que vous avez apporté les modifications. Dans les deux cas, les modifications sont immédiatement disponibles pour votre code via la bibliothèque.
+si vous incorporez le contrôle Lecteur Windows Media dans votre application, les attributs de fichier que vous modifiez ne seront pas écrits dans le fichier multimédia numérique tant que l’utilisateur n’aura pas exécuté Lecteur Windows Media. Si vous utilisez le contrôle dans une application distante écrite en C++, les attributs de fichier que vous modifiez seront écrits dans le fichier multimédia numérique peu après que vous avez apporté les modifications. Dans les deux cas, les modifications sont immédiatement disponibles pour votre code via la bibliothèque.
 
 **Lecteur Windows Media 10 Mobile :** Cette méthode n’est pas implémentée.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise un *média*. **setItemInfo** pour modifier la valeur de l’attribut genre pour l’élément multimédia actuel. Un élément d’entrée de texte HTML nommé genText permet à l’utilisateur d’entrer une chaîne de texte, qui est ensuite utilisée pour modifier les informations d’attribut. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise un *média*. **setItemInfo** pour modifier la valeur de l’attribut genre pour l’élément multimédia actuel. Un élément d’entrée de texte HTML nommé genText permet à l’utilisateur d’entrer une chaîne de texte, qui est ensuite utilisée pour modifier les informations d’attribut. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

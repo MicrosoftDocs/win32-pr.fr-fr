@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3611ad8b590bb823abccdecf9d3d138c70441a07
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9a522dd2b10e7ced60b65c84621bb1817be4b8abbca8656ba23f49e95fe3892
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687399"
 ---
 # <a name="csourcestreamfillbuffer-method"></a>Méthode CSourceStream. FillBuffer
 
@@ -64,11 +64,11 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe dérivée doit implémenter cette méthode.
 
-L’exemple de support fourni à cette méthode n’a pas de datage. La classe dérivée doit appeler la méthode [**IMediaSample :: setTime**](/windows/desktop/api/Strmif/nf-strmif-imediasample-settime) pour définir les horodatages. Si cela est approprié pour le type de média, la classe dérivée doit également définir les heures de média, en appelant la méthode [**IMediaSample :: SetMediaTime**](/windows/desktop/api/Strmif/nf-strmif-imediasample-setmediatime) . Pour plus d’informations, consultez [heure et horloges dans DirectShow](time-and-clocks-in-directshow.md).
+L’exemple de support fourni à cette méthode n’a pas de datage. La classe dérivée doit appeler la méthode [**IMediaSample :: setTime**](/windows/desktop/api/Strmif/nf-strmif-imediasample-settime) pour définir les horodatages. Si cela est approprié pour le type de média, la classe dérivée doit également définir les heures de média, en appelant la méthode [**IMediaSample :: SetMediaTime**](/windows/desktop/api/Strmif/nf-strmif-imediasample-setmediatime) . Pour plus d’informations, consultez [temps et horloges dans DirectShow](time-and-clocks-in-directshow.md).
 
 Retourne S \_ false à la fin du flux. Cela amène la classe **CSourceStream** à envoyer la notification de fin de flux et à arrêter la boucle de traitement de la mémoire tampon. Pour plus d’informations, consultez [**CSourceStream ::D obufferprocessingloop**](csourcestream-dobufferprocessingloop.md) .
 
@@ -78,7 +78,7 @@ Retourne S \_ false à la fin du flux. Cela amène la classe **CSourceStream** �
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Source. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Source. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f8a9bbe3459109946b7a4789d9b9f0fb7473ff05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8636f42026fe44131e149b0e378089b70c7d4f49b9e23b5d48ebe50aa5721d79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594809"
 ---
 # <a name="isearchprotocoluigetsearchitemforurl-method"></a>ISearchProtocolUI :: GetSearchItemForUrl, méthode
 
@@ -52,9 +52,9 @@ Pointeur vers une chaîne Unicode terminée par des données NULL contenant l’
 *pPropertyBag* \[ dans\]
 </dt> <dd>
 
-Tapez : **IItemPropertyBag \** _
+Type : **IItemPropertyBag \***
 
-Pointeur vers un objet [_ *IItemPropertyBag* *](iitempropertybag.md) qui contient des informations sur l’élément de recherche, y compris les propriétés de l’élément.
+Pointeur vers un objet [**IItemPropertyBag**](iitempropertybag.md) qui contient des informations sur l’élément de recherche, y compris les propriétés de l’élément.
 
 </dd> <dt>
 
@@ -73,11 +73,11 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La méthode **ISearchProtocolUI :: GetSearchItemForUrl** est prise en charge uniquement sur Windows XP et windows Server 2003 et ne doit plus être utilisée.
+la méthode **ISearchProtocolUI :: GetSearchItemForUrl** est prise en charge uniquement sur Windows XP et Windows Server 2003 et ne doit plus être utilisée.
 
-Pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole tiers sur les ordinateurs exécutant Windows XP ou Windows Server 2003, il peut être nécessaire d’utiliser l’interface [**ISearchProtocolUI**](-search-isearchprotocolui.md) et les API suivantes : les interfaces [**IItemPreviewerExt**](-search-iitempreviewerext.md), [**IItemPropertyBag**](iitempropertybag.md) et [**ISearchItem**](-search-isearchitem.md) , la structure [**LINKINFO**](-search-linkinfo.md) et l’énumération [**LinkType**](-search-linktype.md) .
+pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole tiers sur les ordinateurs exécutant Windows XP ou Windows Server 2003, il peut être nécessaire d’utiliser l’interface [**ISearchProtocolUI**](-search-isearchprotocolui.md) et les api suivantes : les interfaces [**IItemPreviewerExt**](-search-iitempreviewerext.md), [**IItemPropertyBag**](iitempropertybag.md) et [**ISearchItem**](-search-isearchitem.md) , la structure [**LINKINFO**](-search-linkinfo.md) et l’énumération [**LINKTYPE**](-search-linktype.md) .
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -86,7 +86,7 @@ Pour afficher un aperçu des pièces jointes avec un gestionnaire de protocole t
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 3,0<br/>          |
 
 

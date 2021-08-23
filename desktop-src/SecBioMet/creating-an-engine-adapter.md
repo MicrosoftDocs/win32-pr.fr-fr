@@ -4,12 +4,12 @@ description: Structure de base d’un plug-in d’adaptateur de moteur implémen
 ms.assetid: d443ee2d-6b45-44ac-9d79-f71033d8b7f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16b111af0840fcdafa7fea7482f5ab65532de5d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 142cdbbec089a27cecb55b69b78bc5e9849cb1641060d1e044c42edd3c7c7f0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622709"
 ---
 # <a name="creating-an-engine-adapter"></a>Création d’un adaptateur de moteur
 
@@ -845,9 +845,9 @@ EngineAdapterControlUnitPrivileged(
 [Création de plug-ins d’adaptateur](creating-adapter-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

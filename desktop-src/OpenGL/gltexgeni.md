@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20bb1121a8f125f06bf8e6e18f56c96fbeeb692d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: efaca73e4d9c7f4637f00f74e9cf58b8291fc3d266ef93d288acfe989f8a45c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104558863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519769"
 ---
 # <a name="gltexgeni-function"></a>glTexGeni fonction)
 
@@ -73,7 +73,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                                                |
+| Name                                                                                                  | Signification                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *Coord* ou *pname* n’était pas une valeur définie acceptée, ou l' *pname* était le \_ \_ mode de la génération de texture GL \_ et les *paramètres* n’étaient pas une valeur définie acceptée.<br/> |
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *pname* était le \_ \_ mode de représentation GL de la texture GL \_ , *params* était plan de la \_ sphère GL \_ et *Coord* était GL \_ R ou GL \_ Q<br/>                                     |
@@ -81,7 +81,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glTexGen** sélectionne une fonction de génération de coordonnée de texture ou fournit des coefficients pour l’une des fonctions. Le paramètre *Coord* nomme une des coordonnées de la texture (s, t, r, q) et doit être l’un des symboles suivants : GL \_ s, GL \_ t, GL \_ r ou GL \_ q. Le paramètre *pname* doit être l’une des trois constantes symboliques suivantes : \_ mode de la génération de texture GL \_ \_ , plan d' \_ objet GL \_ ou \_ plan oculaire GL \_ . Si *pname* est \_ le mode de la génération de textures du GL \_ \_ , alors *param* spécifie un mode, l’un des \_ \_ mappages d’objets linéaires de GL, d' \_ oculaire \_ linéaire ou de la \_ sphère GL \_ . Si *pname* est un plan \_ d’objet GL \_ ou un \_ plan oculaire GL \_ , *param* contient des coefficients pour la fonction de génération de texture correspondante.
 

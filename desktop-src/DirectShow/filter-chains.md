@@ -4,12 +4,12 @@ ms.assetid: c17b3b58-65ab-4e83-91f2-54a995f22ddf
 title: Chaînes de filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d22ee33f7bc24495bc5099d0abeca7b8c70bc6d4
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: f4650c49dd796ff3aa7ddecbd21076a4e217def9bfb6504149fdb740c2810b48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685477"
 ---
 # <a name="filter-chains"></a>Chaînes de filtre
 
@@ -37,7 +37,7 @@ L’interface [**IFilterChain**](/windows/desktop/api/Strmif/nn-strmif-ifilterch
 
  
 
-Il n’existe aucune méthode spécifique pour ajouter une chaîne. Pour ajouter une chaîne, insérez les nouveaux filtres à l’aide de la méthode [**IFilterGraph :: AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) . Ensuite, connectez les filtres en appelant [**IGraphBuilder :: Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect), [**IGraphBuilder :: Render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render)ou des méthodes similaires.
+Il n’existe aucune méthode spécifique pour ajouter une chaîne. Pour ajouter une chaîne, insérez les nouveaux filtres à l’aide de la méthode [**IFilterGraph :: AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) . ensuite, connectez les filtres en appelant [**IGraphBuilder :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect), [**IGraphBuilder :: Render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render)ou des méthodes similaires.
 
 Lorsque le graphique est en cours d’exécution, une chaîne de filtres peut basculer entre l’exécution et l’arrêt. Lorsque le graphique est suspendu, il peut passer de l’état suspendu à l’état arrêté. Il s’agit des seules transitions d’État possibles avec les chaînes de filtre.
 
@@ -62,7 +62,7 @@ Par exemple, dans le diagramme précédent, le filtre B doit effectuer tous les 
 
 <dl> <dt>
 
-[Génération de graphiques dynamiques](dynamic-graph-building.md)
+[génération de Graph dynamique](dynamic-graph-building.md)
 </dt> </dl>
 
  

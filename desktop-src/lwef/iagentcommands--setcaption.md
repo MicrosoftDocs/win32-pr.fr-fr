@@ -4,12 +4,12 @@ description: IAgentCommands SetCaption
 ms.assetid: 042f7366-0071-40a5-a47c-81c02cdbe3a9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a8c472bfbfd82235e21c28e24e7e0ce03223ff8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b38138d218804461afc782efc14ff3685f55d2f737db6fdb21c39021efbcb36e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665469"
 ---
 # <a name="iagentcommandssetcaption"></a>IAgentCommands::SetCaption
 
@@ -43,6 +43,6 @@ Si vous définissez des commandes pour une collection de [**commandes**](/window
 [**IAgentCommands :: GetCaption**](iagentcommands--getcaption.md), [**IAgentCommands :: setVisible**](iagentcommands--setvisible.md), [**IAgentCommands :: SetVoice**](iagentcommands--setvoice.md)
 
 
- 
+ 
 
- 
+ 

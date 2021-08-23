@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPMedia (VB et C) (WMP. h)
+title: interface IWMPMedia (VB et C) (Wmp. h)
 description: Fournit un moyen de définir et de récupérer les propriétés d’un élément multimédia. L’interface IWMPMedia expose les propriétés suivantes.
 ms.assetid: 4f67336e-d1d3-4f18-b063-086edf9d9094
 keywords:
-- IWMPMedia (VB et C) interface Windows Media Player
-- Interface IWMPMedia (VB et C), le lecteur Windows Media, décrit
+- interface IWMPMedia (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPMedia (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c60a3396710ea4c426bd41c96db34e1e59cc690
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8d36fc2a7c4f65856b68c00147e32f9b3af4cc3e649a9717e7734583d4516b44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572459"
 ---
-# <a name="iwmpmedia-vb-and-c-interface"></a>Interface IWMPMedia (VB et C#)
+# <a name="iwmpmedia-vb-and-c-interface"></a>interface IWMPMedia (VB et C#)
 
 Fournit un moyen de définir et de récupérer les propriétés d’un élément multimédia.
 
@@ -30,14 +30,14 @@ L’interface **IWMPMedia** expose les propriétés suivantes.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPMedia (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPMedia (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPMedia (VB et C#)** possède ces méthodes.
+l’interface **IWMPMedia (VB et C#)** possède ces méthodes.
 
 
 
@@ -58,7 +58,7 @@ L’interface **IWMPMedia (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPMedia (VB et C#)** a ces propriétés.
+l’interface **IWMPMedia (VB et C#)** a ces propriétés.
 
 
 
@@ -106,7 +106,7 @@ Procurez-vous une interface **IWMPMedia** en utilisant les propriétés ou méth
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPMedia2 (VB et C#)**](iwmpmedia2--vb-and-c.md)

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Rkeysvcc.h
-ms.openlocfilehash: 5424fa103b2bbbadd735dbda0bb92f9dea21787b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac1e82ab481b9844e8a21940112c6014a19f111cab53db2974c488dff0982027
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622329"
 ---
 # <a name="keysvc_unicode_string-structure"></a>KEYSVC \_ \_ structure de chaîne Unicode
 
@@ -69,7 +69,7 @@ Pointeur vers un **UShort** qui représente la chaîne Unicode.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Rkeysvcc. h</dt> </dl> |
 
 
