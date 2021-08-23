@@ -1,19 +1,19 @@
 ---
-description: L’API XAPO permet la création d’objets de traitement audio multiplateforme (XAPO) pour une utilisation dans XAudio2 sur Windows et sur Xbox 360.
+description: l’API XAPO permet la création d’objets de traitement audio multiplateforme (XAPO) pour une utilisation dans XAudio2 à la fois sur Windows et sur Xbox 360.
 ms.assetid: 4fe88a0f-0234-462f-b575-e592f2c8401e
 title: Présentation de XAPO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31e2372790e26b7fcd3d15019797185ba180d668
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ee9ee64e865c8e3ef3cdac026274b922db438a54979dcb30d855a92b96e4e0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589909"
 ---
 # <a name="xapo-overview"></a>Présentation de XAPO
 
-L’API XAPO permet la création d’objets de traitement audio multiplateforme (XAPO) pour une utilisation dans XAudio2 sur Windows et sur Xbox 360. Un XAPO est un objet qui utilise des données audio entrantes et effectue une opération sur les données avant de les transmettre. Vous pouvez utiliser un XAPO pour effectuer diverses tâches, notamment ajouter un verbe à un flux audio et surveiller les niveaux de volume des pics.
+l’API XAPO permet la création d’objets de traitement audio multiplateforme (XAPO) pour une utilisation dans XAudio2 à la fois sur Windows et sur Xbox 360. Un XAPO est un objet qui utilise des données audio entrantes et effectue une opération sur les données avant de les transmettre. Vous pouvez utiliser un XAPO pour effectuer diverses tâches, notamment ajouter un verbe à un flux audio et surveiller les niveaux de volume des pics.
 
 ## <a name="creating-new-xapos"></a>Création de XAPOs
 

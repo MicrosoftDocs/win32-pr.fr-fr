@@ -4,12 +4,12 @@ description: Pour aider les auteurs d’effet à écrire des nuanceurs de pixels
 ms.assetid: 5D0BB99E-7C77-4D45-82E6-F038E4B752A4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec8f43447c16d93ef9e1839ac319c761b975222a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 608ae4b47b96616f8818cd45b466c02a7b09b2171383fbe82ecbe055ed0915b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569559"
 ---
 # <a name="hlsl-helpers"></a>Applications auxiliaires HLSL
 
@@ -68,9 +68,9 @@ Fonctions d’assistance :
 [Liaison de nuanceurs d’effet](effect-shader-linking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

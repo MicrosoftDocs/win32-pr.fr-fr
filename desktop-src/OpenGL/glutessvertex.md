@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 546bbad2be1205f62c7889fbb18f23d5b0e38b8a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 51b3b1dd666fd965e7b6536a20a794481c534ed3e42594017093ee161a067e15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488419"
 ---
 # <a name="glutessvertex-function"></a>gluTessVertex fonction)
 
@@ -67,7 +67,7 @@ Pointeur retourné au programme avec le rappel de vertex (comme spécifié par [
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluTessVertex** décrit un vertex sur un polygone que l’utilisateur définit. Les appels **gluTessVertex** successifs décrivent un contour fermé. Par exemple, pour décrire un quadrangulaires, appelez **gluTessVertex** quatre fois. Vous pouvez uniquement appeler **gluTessVertex** entre [**gluTessBeginContour**](glutessbegincontour.md) et [**gluTessEndContour**](glutessendcontour.md).
 

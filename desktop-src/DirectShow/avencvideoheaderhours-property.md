@@ -4,12 +4,12 @@ ms.assetid: 94830520-910a-4254-933c-6d95a3f0b6a4
 title: Propriété AVEncVideoHeaderHours (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f5e3e423943a918fe73773c887942ad03a4e26
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bc53495ba0b09a6081f781505309d44e3f795c61e596d8591eec1b405d09e25f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342439"
 ---
 # <a name="avencvideoheaderhours-property"></a>Propriété AVEncVideoHeaderHours
 
@@ -35,8 +35,8 @@ La plage valide de cette propriété est comprise entre 0 et 23 inclus.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

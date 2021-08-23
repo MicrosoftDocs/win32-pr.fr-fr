@@ -4,16 +4,16 @@ ms.assetid: FF8BE790-19D9-473F-B184-C54FB392D61A
 title: Ensembles d’UC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 801474591751f04a5bffe570d6b8caff4974203f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 092559fbf5646a0938696c953f4136f1fe1a9567e56e02a04c6c36510d03d729
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143122"
 ---
 # <a name="cpu-sets"></a>Ensembles d’UC
 
-Les ensembles d’UC fournissent des API pour déclarer l’affinité de l’application selon un mode « soft » qui est compatible avec la gestion de l’alimentation du système d’exploitation. En outre, l’API fournit aux applications la possibilité de reaffinitize tous les threads d’arrière-plan du processus à un sous-ensemble de processeurs à l’aide du mécanisme de **processus par défaut** afin d’éviter les interférences entre les threads du système d’exploitation au sein du processus. Certaines versions de Windows prennent en charge les stratégies de réservation principales, dans lesquelles un sous-ensemble des ensembles d’UC du système peut être consacré à l’utilisation exclusive des applications et charges de travail individuelles.
+Les ensembles d’UC fournissent des API pour déclarer l’affinité de l’application selon un mode « soft » qui est compatible avec la gestion de l’alimentation du système d’exploitation. En outre, l’API fournit aux applications la possibilité de reaffinitize tous les threads d’arrière-plan du processus à un sous-ensemble de processeurs à l’aide du mécanisme de **processus par défaut** afin d’éviter les interférences entre les threads du système d’exploitation au sein du processus. certaines versions de Windows prennent en charge les stratégies de réservation principales, dans lesquelles un sous-ensemble des ensembles d’uc du système peut être consacré à l’utilisation exclusive des applications et charges de travail individuelles.
 
 L’API d’ensemble d’UC fonctionne avec des ID de jeu de PROCESSEURs, qui sont associés à des affinités de processeur virtuel. Sur la plupart des systèmes, et dans la plupart des cas, chaque ID de jeu d’UC est mappé directement à un seul processeur logique d' **hébergement** . Un thread affinité à un ensemble d’UC donné s’exécute généralement sur l’un des processeurs de sa liste d’ID de jeux d’UC sélectionnés.
 

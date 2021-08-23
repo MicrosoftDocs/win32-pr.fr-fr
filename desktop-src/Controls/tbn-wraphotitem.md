@@ -3,7 +3,7 @@ title: TBN_WRAPHOTITEM le code de notification (commctrl. h)
 description: Avertit une application avec au moins deux barres d’outils que l’élément réactif est sur le point de changer. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 169309ec-68dd-4cbb-8963-f842cf75b4fc
 keywords:
-- Contrôles Windows de code de notification TBN_WRAPHOTITEM
+- TBN_WRAPHOTITEM les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58eb513780da464ead40f8a4fb1264f6268d4370
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 33c6bd1f2e750a2fd71dc053d31ca452fa581891037db73d356e5405476b28de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119293360"
 ---
 # <a name="tbn_wraphotitem-notification-code"></a>\_Code de notification TBN WRAPHOTITEM
 
@@ -49,7 +49,7 @@ Pointeur vers une structure qui contient l’ancien élément réactif (**iStart
 
 **True** si l’application gère la modification de l’élément réactif lui-même ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure **NMTBWRAPHOTITEM** doit être définie par l’application comme suit :
 
@@ -68,8 +68,8 @@ typedef struct tagNMTBWRAPHOTITEM {
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

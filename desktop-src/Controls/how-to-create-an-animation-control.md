@@ -4,27 +4,27 @@ description: Cette rubrique montre comment créer un contrôle d’animation.
 ms.assetid: 5852B636-F3D0-47A4-82F6-8BE570013E1B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d4ff190617996e42e6580b82311fb51f4248000
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8117d7c9393a828786532bd3d3fbfcf4f4eaaf6bb1bfdccdc5a2f97fa1c5cb38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435819"
 ---
 # <a name="how-to-create-an-animation-control"></a>Comment créer un contrôle d’animation
 
 Cette rubrique montre comment créer un contrôle d’animation. L’exemple de code C++ qui l’accompagne crée un contrôle d’animation dans une boîte de dialogue. Il positionne le contrôle d’animation sous un contrôle spécifié et définit les dimensions du contrôle d’animation en fonction des dimensions d’un cadre dans le clip Audio-Video entrelacé (AVI).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 -   Fichiers AVI
 
 ## <a name="instructions"></a>Instructions
@@ -163,9 +163,9 @@ HWND CreateAnimationCtrl(HWND hwndDlg, int nIDCtl)
 [Animation](animation-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

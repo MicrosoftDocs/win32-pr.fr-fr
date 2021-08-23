@@ -4,17 +4,17 @@ description: Les menus sont des listes hiérarchiques de commandes ou d’option
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 7d5c52e56c88f4066e8f1dc068ac89070c7d4974
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: e9b2c3559163ff77e8e3f08354b017c1b7cb53c95fd51802ae2565efdf71abcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119350172"
 ---
 # <a name="menus-design-basics"></a>Menus (concepts de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Les menus sont des listes hiérarchiques de commandes ou d’options disponibles pour les utilisateurs dans le contexte actuel.
 
@@ -39,12 +39,12 @@ Les menus ont plusieurs modèles d’utilisation :
 
 | Usage                                                                                                                                                |    Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Barres de menus**<br/> une barre de menus affiche les commandes et les options dans les menus déroulants. <br/>                                               | les barres de menus sont très courantes et faciles à trouver, ainsi qu’une utilisation efficace de l’espace. <br/> ![capture d’écran de la barre de menus avec le menu déroulant ](images/cmd-menus-image2.png)<br/> Barre de menus de Windows Mail.<br/>                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Menus de la barre d’outils**<br/> barre de menus implémentée en tant que barre d’outils. <br/>                                                                   | les menus de la barre d’outils sont des barres d’outils constituées principalement de commandes dans les [boutons de menu](ctrl-command-buttons.md) et les boutons partagés, avec seulement quelques commandes directes, le cas échéant. <br/> ![capture d’écran du menu déroulant de la barre d’outils ](images/cmd-menus-image3.png)<br/> Menu de barre d’outils dans la Galerie de photos Windows.<br/> Pour obtenir des instructions sur ce modèle, consultez [barres d’outils](cmd-toolbars.md).<br/>                                                                                                                                                                                                             |
-| **Menus d’onglets**<br/> boutons dans les onglets qui affichent un petit ensemble de commandes et d’options relatives à un onglet dans un menu déroulant. <br/> | les onglets avec des menus ressemblent à des onglets ordinaires, à l’exception de leur partie inférieure, avec un bouton avec flèche déroulante. le fait de cliquer sur le bouton affiche un menu déroulant au lieu de sélectionner l’onglet. <br/> ![capture d’écran du menu d’onglets avec le menu déroulant ](images/cmd-menus-image4.png)<br/> Les menus d’onglets sont utilisés dans le lecteur Windows Media.<br/>                                                                                                                                                                                                                                                                                           |
+| **Barres de menus**<br/> une barre de menus affiche les commandes et les options dans les menus déroulants. <br/>                                               | les barres de menus sont très courantes et faciles à trouver, ainsi qu’une utilisation efficace de l’espace. <br/> ![capture d’écran de la barre de menus avec le menu déroulant ](images/cmd-menus-image2.png)<br/> barre de menus de Windows courrier électronique.<br/>                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Menus de la barre d’outils**<br/> barre de menus implémentée en tant que barre d’outils. <br/>                                                                   | les menus de la barre d’outils sont des barres d’outils constituées principalement de commandes dans les [boutons de menu](ctrl-command-buttons.md) et les boutons partagés, avec seulement quelques commandes directes, le cas échéant. <br/> ![capture d’écran du menu déroulant de la barre d’outils ](images/cmd-menus-image3.png)<br/> menu de la barre d’outils de Windows galerie de photos.<br/> Pour obtenir des instructions sur ce modèle, consultez [barres d’outils](cmd-toolbars.md).<br/>                                                                                                                                                                                                             |
+| **Menus d’onglets**<br/> boutons dans les onglets qui affichent un petit ensemble de commandes et d’options relatives à un onglet dans un menu déroulant. <br/> | les onglets avec des menus ressemblent à des onglets ordinaires, à l’exception de leur partie inférieure, avec un bouton avec flèche déroulante. le fait de cliquer sur le bouton affiche un menu déroulant au lieu de sélectionner l’onglet. <br/> ![capture d’écran du menu d’onglets avec le menu déroulant ](images/cmd-menus-image4.png)<br/> les menus d’onglets sont utilisés dans Lecteur Windows Media.<br/>                                                                                                                                                                                                                                                                                           |
 | **Boutons de menu**<br/> boutons de commande qui affichent un petit ensemble de commandes associées dans un menu déroulant. <br/>                       | les [boutons de menu](ctrl-command-buttons.md) se présentent comme des boutons de commande ordinaires, sauf s’ils contiennent une flèche déroulante. le fait de cliquer sur le bouton affiche un menu déroulant au lieu d’exécuter une commande.<br/> les [boutons partagés](ctrl-command-buttons.md) sont similaires aux boutons de menu, à ceci près qu’ils sont des variantes d’une commande et qu’un clic sur la partie gauche du bouton effectue l’action directement sur l’étiquette.<br/> ![capture d’écran du bouton de menu avec des commandes déroulantes ](images/cmd-menus-image5.png)<br/> Bouton de menu avec un petit ensemble de commandes associées.<br/> |
 | **Menu contextuels**<br/> menus déroulants qui affichent un petit ensemble de commandes et d’options liées au contexte actuel. <br/>       | liste déroulante des menus contextuels quand les utilisateurs cliquent avec le bouton droit sur un objet ou une zone de fenêtre qui prend en charge un menu contextuel. <br/> ![capture d’écran du menu contextuel affichant les commandes ](images/cmd-menus-image6.png)<br/> menu contextuel à partir de l’Explorateur Windows.<br/> Si les menus contextuels sont le meilleur choix de menu, mais que vous avez besoin d’une solution adaptée à tous les utilisateurs, vous pouvez utiliser un bouton de liste déroulante de menu. <br/> ![capture d’écran de la photo avec le bouton de menu déroulant ](images/cmd-menus-image7.png)<br/> Menu contextuel rendu visible avec un bouton déroulant de menu.<br/>                                                   |
-| **Menus du volet des tâches**<br/> petit ensemble de commandes liées à l’objet ou au mode de programme sélectionné. <br/>                              | Contrairement aux menus contextuels, ils s’affichent automatiquement dans un volet de fenêtre, plutôt que sur demande. <br/> ![capture d’écran de la photo avec le menu du volet Office à droite ](images/cmd-menus-image8.png)<br/> Menu du volet des tâches de la visionneuse de la Galerie de photos Windows.<br/>                                                                                                                                                                                                                                                                                                                                                         |
+| **Menus du volet des tâches**<br/> petit ensemble de commandes liées à l’objet ou au mode de programme sélectionné. <br/>                              | Contrairement aux menus contextuels, ils s’affichent automatiquement dans un volet de fenêtre, plutôt que sur demande. <br/> ![capture d’écran de la photo avec le menu du volet Office à droite ](images/cmd-menus-image8.png)<br/> menu du volet des tâches de la visionneuse de la galerie de photos Windows.<br/>                                                                                                                                                                                                                                                                                                                                                         |
 
 
 
@@ -127,7 +127,7 @@ Choisissez une présentation de commande qui correspond à votre type de program
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Tous les modèles de menu, à l’exception des barres de menus, ont besoin d’une flèche déroulante pour indiquer la présence d’un menu déroulant.** La présence de menus est sans dire dans une barre de menus, mais pas dans les autres modèles.
 -   **Ne modifiez pas les noms des éléments de menu de manière dynamique.** Cela est confus et inattendu. Par exemple, ne modifiez pas l’option mode portrait en mode paysage lors de la sélection. Pour les modes, utilisez à la place des [puces et des coches](#bullets-and-checkmarks) .
@@ -141,7 +141,7 @@ Choisissez une présentation de commande qui correspond à votre type de program
 
 ![capture d’écran de la liste d’options avec la barre de menus sélectionnée ](images/cmd-menus-image9.png)
 
-Dans cet exemple, Windows Internet Explorer fournit une option de barre de menus.
+dans cet exemple, Windows Internet Explorer propose une option de barre de menus.
 
 Pour plus d’informations, consultez [masquage des barres de menus](#hiding-menu-bars).
 
@@ -163,7 +163,7 @@ En règle générale, les barres d’outils fonctionnent bien avec les barres de
 
 ![capture d’écran de la barre de menus avec RIP, Burn et Sync ](images/cmd-menus-image10.png)
 
-Dans cet exemple, le lecteur Windows Media utilise des catégories de menu orientées tâche.
+dans cet exemple, Lecteur Windows Media utilise des catégories de menu orientées tâche.
 
 -   **Évitez les catégories de menu avec un ou deux éléments de menu.** Si cela est raisonnable, consolidez-vous avec d’autres catégories de menus, éventuellement à l’aide d’un sous-menu.
 -   **Envisagez de placer le même élément de menu dans plusieurs catégories uniquement si :**
@@ -175,7 +175,7 @@ Dans cet exemple, le lecteur Windows Media utilise des catégories de menu orien
 
 ![capture d’écran des menus d’onglets avec des éléments de menu répétés ](images/cmd-menus-image11.png)
 
-Dans cet exemple, le lecteur Windows Media possède des options et des éléments de menu aide dans chaque menu d’onglets.
+dans cet exemple, Lecteur Windows Media contient des Options et des éléments de menu aide dans chaque menu d’onglets.
 
 ### <a name="menu-item-organization-and-order"></a>Organisation et ordre des éléments de menu
 
@@ -284,7 +284,7 @@ Pour plus d’informations et d’exemples, consultez [icônes](vis-icons.md).
 
 ![capture d’écran des éléments de menu avec des touches d’accès numérique ](images/cmd-menus-image14.png)
 
-Dans cet exemple, le programme Paint dans Windows attribue des clés d’accès numériques aux fichiers récemment utilisés.
+dans cet exemple, le programme Paint dans Windows affecte des clés d’accès numériques aux fichiers récemment utilisés.
 
 -   **Assigner des clés d’accès uniques au sein d’un niveau de menu.** Vous pouvez réutiliser des clés d’accès dans différents niveaux de menu.
 -   **Rendez les clés d’accès faciles à trouver :**
@@ -304,7 +304,7 @@ Pour obtenir des instructions et des exemples supplémentaires, consultez [clavi
 -   **Assignez des touches de raccourci aux éléments de menu les plus fréquemment utilisés.** Les éléments de menu rarement utilisés n’ont pas besoin de touches de raccourci, car les utilisateurs peuvent utiliser des clés d’accès à la place.
 -   **Ne définissez pas une touche de raccourci comme seule façon d’effectuer une tâche.** Les utilisateurs doivent également être en mesure d’utiliser la souris ou le clavier avec la touche de tabulation, la flèche et les touches d’accès.
 -   **Pour les touches de raccourci connues, utilisez les affectations standard.**
--   **N’affectez pas des significations différentes à des touches de raccourci connues.** Étant donné qu’elles sont mémorisées, les significations incohérentes des raccourcis bien connus sont frustrantes et sujettes aux erreurs. Consultez touches de raccourci clavier Windows pour connaître les touches de raccourci connues utilisées par les programmes Windows.
+-   **N’affectez pas des significations différentes à des touches de raccourci connues.** Étant donné qu’elles sont mémorisées, les significations incohérentes des raccourcis bien connus sont frustrantes et sujettes aux erreurs. consultez Windows touches de raccourci clavier pour connaître les touches de raccourci connues utilisées par les programmes Windows.
 -   **N’essayez pas d’affecter des touches de raccourci de programme à l’ensemble du système.** Les touches de raccourci de votre programme ne seront effectives que si votre programme a le focus d’entrée.
 -   **Documentez toutes les touches de raccourci.** Cela permet aux utilisateurs d’apprendre les affectations de touches de raccourci.
     -   **Exception :** N’affiche pas les affectations de touches de raccourci dans les menus contextuels. Les menus contextuels n’affichent pas les affectations de touches de raccourci car ils sont optimisés pour des raisons d’efficacité.
@@ -316,7 +316,7 @@ Pour obtenir des instructions et des exemples supplémentaires, consultez [clavi
     -   **Utilisez les combinaisons de touches Ctrl pour les commandes qui ont un effet à grande échelle,** telles que les commandes qui s’appliquent à un document entier. Par exemple, CTRL + S enregistre le document actif.
     -   **Utilisez les combinaisons de touches Maj pour les commandes qui étendent ou complètent les actions de la touche de raccourci standard.** Par exemple, la touche de raccourci Alt + Tab parcourt les fenêtres primaires ouvertes, tandis que les touches Alt + Maj + Tab sont placées dans l’ordre inverse. De même, la touche F1 affiche l’aide, tandis que MAJ + F1 affiche l’aide contextuelle.
     -   **N’utilisez pas les caractères suivants pour les touches de raccourci :** @ $ {} \[ \] \\  ~  \| ^ '  < >. Ces caractères nécessitent des combinaisons de touches différentes entre les langages ou sont spécifiques aux paramètres régionaux.
-    -   **N’utilisez pas de combinaisons CTRL + ALT,** car Windows interprète cette combinaison dans certaines versions de langage comme une clé AltGR, qui génère des caractères alphanumériques.
+    -   **n’utilisez pas de combinaisons Ctrl + Alt,** car Windows interprète cette combinaison dans certaines versions de langage comme une clé AltGR, qui génère des caractères alphanumériques.
 -   **Si votre programme affecte de nombreuses touches de raccourci, offre la possibilité de personnaliser les attributions.** Cela permet aux utilisateurs de réassigner les touches de raccourci conflictuelles et de migrer à partir d’autres produits. La plupart des programmes n’attribuent pas suffisamment de touches de raccourci pour avoir besoin de cette fonctionnalité.
 
 Pour obtenir des instructions supplémentaires et des affectations de touches de raccourci standard, consultez [clavier](inter-keyboard.md).
@@ -416,7 +416,7 @@ Dans cet exemple, la page... commande affiche une boîte de dialogue Imprimer po
 
 **L’utilisation correcte des ellipses est importante pour indiquer que les utilisateurs peuvent effectuer des choix supplémentaires avant d’effectuer l’action, ou même annuler complètement l’action.** Le signal visuel fourni par des points de suspension permet aux utilisateurs d’explorer vos logiciels sans crainte.
 
-**Cela ne signifie pas que vous devez utiliser des points de suspension chaque fois qu’une action affiche une autre fenêtre** uniquement lorsque des informations supplémentaires sont requises pour effectuer l’action. Par exemple, les commandes sur, avancé, aide, options, propriétés et paramètres doivent afficher une autre fenêtre lorsque vous cliquez dessus, mais ne nécessitent pas d’informations supplémentaires de la part de l’utilisateur. Par conséquent, ils n’ont pas besoin de ellipses.
+**Cela ne signifie pas que vous devez utiliser des points de suspension chaque fois qu’une action affiche une autre fenêtre** uniquement lorsque des informations supplémentaires sont requises pour effectuer l’action. par exemple, les commandes sur, avancé, aide, Options, propriétés et Paramètres doivent afficher une autre fenêtre lorsque vous cliquez dessus, mais ne nécessitent pas d’informations supplémentaires de la part de l’utilisateur. Par conséquent, ils n’ont pas besoin de ellipses.
 
 **En cas d’ambiguïté (par exemple, l’étiquette de commande n’a pas de verbe), choisissez en fonction de l’action utilisateur la plus probable.** Si la simple consultation de la fenêtre est une action courante, n’utilisez pas de points de suspension.
 

@@ -34,7 +34,7 @@
                       href: address-ovr.md
                     - name: Canal
                       href: channel-ovr.md
-                    - name: Courbes
+                    - name: Ligne
                       href: line-ovr.md
                     - name: Réseau
                       href: network-ovr.md
@@ -73,7 +73,7 @@
                       href: answer-ovr.md
                     - name: Terminer une session
                       href: complete-a-session-ovr.md
-                    - name: Salles
+                    - name: Conférence
                       href: conference-ovr.md
                     - name: Composer
                       href: dial-ovr.md
@@ -142,7 +142,7 @@
                       href: quality-of-service-ovr.md
                     - name: Tarif
                       href: rate-ovr.md
-                    - name: Motif
+                    - name: Raison
                       href: reason-ovr.md
                     - name: Identification_ovr de redirection
                       href: redirect-identification-ovr.md
@@ -291,29 +291,29 @@
                   href: media-event-timers.md
                 - name: Résumés des éléments de programmation du centre d’appels
                   href: summaries-of-call-center-programming-elements.md
-            - name: Appareils téléphoniques
+            - name: Téléphone Appareil
               href: phone-devices.md
               items:
-                - name: Éléments de l’appareil téléphonique
+                - name: Téléphone Éléments d’appareil
                   href: phone-device-elements.md
                 - name: Initialisation et arrêt
                   href: initialization-and-shutdown.md
-                - name: Ouverture et fermeture des appareils téléphoniques
+                - name: ouverture et fermeture des appareils Téléphone
                   href: opening-and-closing-phone-devices.md
                   items:
                     - name: Modes de fonctionnement et privilèges
                       href: operating-modes-and-privileges.md
                     - name: ID des appareils
                       href: device-ids.md
-                    - name: Fermeture de l’appareil téléphonique
+                    - name: fermeture de l’appareil Téléphone
                       href: closing-the-phone-device.md
                 - name: Appareils hookswitch
                   href: hookswitch-devices.md
-                - name: Afficher
+                - name: Affichage
                   href: display.md
                 - name: Anneau
                   href: ring.md
-                - name: Boutons de téléphone
+                - name: Téléphone Boutons
                   href: phone-buttons.md
                 - name: Lampes
                   href: lamps.md
@@ -321,7 +321,7 @@
                   href: data-areas.md
                 - name: Statut
                   href: status.md
-                - name: Fonctions téléphoniques étendues de téléphonie
+                - name: fonctions de Téléphone de téléphonie étendues
                   href: extended-telephony-phone-functions.md
                   items:
                     - name: Constantes de données scalaires
@@ -343,7 +343,7 @@
                   items:
                     - name: Fonctions de service en ligne supplémentaires
                       href: supplementary-line-service-functions.md
-                    - name: Fonctions de service téléphonique supplémentaires
+                    - name: fonctions de Service de Téléphone supplémentaires
                       href: supplementary-phone-service-functions.md
                 - name: Référence des services de téléphonie étendus
                   href: extended-telephony-services-reference.md
@@ -596,7 +596,7 @@
                       href: /windows/desktop/api/Tapi/nf-tapi-lineunhold
                     - name: lineUnpark
                       href: /windows/desktop/api/Tapi/nf-tapi-lineunpark
-                - name: Fonctions des appareils téléphoniques
+                - name: Téléphone Fonctions de l’appareil
                   href: phone-device-functions.md
                   items:
                     - name: phoneCallback
@@ -776,7 +776,7 @@
                       href: /windows/win32/api/Tapi/ns-tapi-linetranslatecaps
                     - name: LINETRANSLATEOUTPUT
                       href: /windows/win32/api/Tapi/ns-tapi-linetranslateoutput
-                - name: Structures de l’appareil téléphonique
+                - name: Téléphone Structures d’appareils
                   href: phone-device-structures.md
                   items:
                     - name: PHONEBUTTONINFO
@@ -868,7 +868,7 @@
                       href: line-reply.md
                     - name: LINE_REQUEST
                       href: line-request.md
-                - name: Messages de l’appareil téléphonique
+                - name: Téléphone Messages de l’appareil
                   href: phone-device-messages.md
                   items:
                     - name: PHONE_BUTTON
@@ -1026,7 +1026,7 @@
                       href: linetranslateresult--constants.md
                     - name: Constantes LINETSPIOPTION_
                       href: linetspioption--constants.md
-                - name: Constantes de l’appareil téléphonique
+                - name: Téléphone Constantes d’appareil
                   href: phone-device-constants.md
                   items:
                     - name: Constantes PHONEBUTTONFUNCTION_
@@ -1096,7 +1096,7 @@
           items:
             - name: 'Configuration requise pour TAPI 3,1'
               href: 3-1-requirements.md
-            - name: What's New
+            - name: Nouveautés
               href: what-s-new.md
         - name: Contrôles d’appel et de média
           href: call-and-media-controls.md
@@ -1131,7 +1131,7 @@
                       href: pluggable-terminals.md
                 - name: Objet d’appel
                   href: call-object.md
-                - name: Contrôle de téléphone et objet de téléphone
+                - name: Téléphone contrôle et objet Téléphone
                   href: phone-control-and-the-phone-object.md
                 - name: Objet CallHub
                   href: callhub-object.md
@@ -1150,7 +1150,7 @@
               items:
                 - name: Bibliothèques requises
                   href: libraries-required.md
-                - name: Conseils et astuces
+                - name: indicateurs et Astuces
                   href: hints-and-tips.md
                 - name: Utilisation des terminaux de fichiers
                   href: using-file-terminals.md
@@ -1176,7 +1176,7 @@
                       href: unregister-a-pluggable-terminal.md
                     - name: Inscription pour les événements de terminal enfichables
                       href: registering-for-pluggable-terminal-events.md
-                - name: Événements spécifiques au téléphone et à l’appareil
+                - name: Téléphone et résoudre les événements spécifiques aux appareils
                   href: phone-and-address-device-specific-events.md
                 - name: Exemples de code
                   href: code-snippets.md
@@ -1211,7 +1211,7 @@
                       href: terminal-object-interfaces.md
                     - name: Appeler des interfaces d’objet
                       href: call-object-interfaces.md
-                    - name: Interfaces d’objet téléphonique
+                    - name: Téléphone Interfaces d’objet
                       href: phone-object-interfaces.md
                     - name: Interfaces MSP IPConf
                       href: ipconf-msp-interfaces.md
@@ -1781,7 +1781,7 @@
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-blindtransfer
                         - name: Méthode de conférence
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-conference
-                        - name: Méthode Connect
+                        - name: Connecter Méthode
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect
                         - name: Méthode de numérotation
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-dial
@@ -3170,7 +3170,7 @@
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-put_defaultobjectttl
                         - name: Méthode EnableAutoRefresh
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-enableautorefresh
-                        - name: Méthode Connect
+                        - name: Connecter Méthode
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-connect
                         - name: 'Bind, méthode'
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-bind
@@ -3445,7 +3445,7 @@
                   items:
                     - name: Configurations de ligne
                       href: line-configurations.md
-                    - name: Définition d’un terminal pour les conversations sur téléphone
+                    - name: définition d’un Terminal pour les Conversations Téléphone
                       href: setting-a-terminal-for-phone-conversations.md
                     - name: Services de ligne étendus
                       href: extended-line-services.md
@@ -3463,7 +3463,7 @@
                           href: async-replies-versus-events-on-new-call-handles.md
                         - name: Appeler une manipulation de handle
                           href: call-handle-manipulation.md
-                    - name: Numéros de téléphone générés de manière externe
+                    - name: numéros de Téléphone générés de manière externe
                       href: externally-generated-phone-numbers.md
                     - name: Support CallHub
                       href: callhub-support.md
@@ -3488,22 +3488,22 @@
                           href: generating-inband-digits-and-tones.md
                     - name: Communication du fournisseur de services de média
                       href: media-service-provider-communication.md
-                - name: Appareils téléphoniques
+                - name: Téléphone Appareil
                   href: phone-devices.md
                   items:
-                    - name: Services téléphoniques de base
+                    - name: Services de base Téléphone
                       href: basic-phone-services.md
                       items:
-                        - name: Initialisation du SPI de téléphone
+                        - name: Téléphone Initialisation SPI
                           href: phone-spi-initialization.md
-                        - name: Ouverture et fermeture des appareils téléphoniques
+                        - name: ouverture et fermeture des appareils Téléphone
                           href: opening-and-closing-phone-devices.md
-                    - name: Services téléphone supplémentaires
+                    - name: Services Téléphone supplémentaires
                       href: supplementary-phone-services.md
                       items:
                         - name: Appareils hookswitch
                           href: hookswitch-devices.md
-                        - name: Afficher
+                        - name: Affichage
                           href: display.md
                         - name: Anneau
                           href: ring.md
@@ -3515,7 +3515,7 @@
                           href: data-areas.md
                         - name: Statut
                           href: status.md
-                    - name: Services téléphoniques étendus
+                    - name: Services de Téléphone étendus
                       href: extended-phone-services.md
                       items:
                         - name: Constantes de données scalaires
@@ -3524,14 +3524,14 @@
                           href: bit-flag-data-constants.md
                         - name: Fonctions et messages
                           href: functions-and-messages.md
-                    - name: Opérations de téléphone asynchrones
+                    - name: opérations de Téléphone asynchrones
                       href: asynchronous-phone-operations.md
                 - name: Interface DLL de l’interface utilisateur du fournisseur de services de téléphonie
                   href: the-telephony-service-provider-ui-dll-interface.md
                   items:
                     - name: Architecture
                       href: architecture.md
-                    - name: Utilisation
+                    - name: Usage
                       href: usage.md
                       items:
                         - name: Fonctions conçues pour générer l’interface utilisateur
@@ -3722,7 +3722,7 @@
                           href: /windows/desktop/api/tspi/nf-tspi-tspi_lineunhold
                         - name: TSPI_lineUnpark
                           href: /windows/desktop/api/tspi/nf-tspi-tspi_lineunpark
-                    - name: Fonctions de l’appareil TSPI Phone
+                    - name: TSPI Téléphone fonctions de l’appareil
                       href: tspi-phone-device-functions.md
                       items:
                         - name: TSPI_phoneClose
@@ -3821,7 +3821,7 @@
                           href: /windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog
                         - name: TUISPI_lineConfigDialogEdit
                           href: /windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit
-                    - name: Fonctions de l’appareil TUISPI Phone
+                    - name: TUISPI Téléphone fonctions de l’appareil
                       href: tuispi-phone-device-functions.md
                       items:
                         - name: TUISPI_phoneConfigDialog
@@ -3909,7 +3909,7 @@
                           href: line-sendmspdata.md
                         - name: LINE_QOSINFO
                           href: line-qosinfo.md
-                    - name: Messages de l’appareil TSPI Phone
+                    - name: TSPI Téléphone les Messages de l’appareil
                       href: tspi-phone-device-messages.md
                       items:
                         - name: PHONE_BUTTON
@@ -4386,7 +4386,7 @@
     - name: Glossaire
       href: glossary-tapgloss.md
       items:
-        - name: Un
+        - name: A
           href: a-tapgloss.md
         - name: B
           href: b-tapgloss.md

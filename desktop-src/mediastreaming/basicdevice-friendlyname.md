@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 79406e67b6152c9240c5967b223f6b54fb2cd86d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f9842265039c9565b33ef1eb73c6aecb14cbc61f6b9cd0c95324da83ed40066c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462119"
 ---
 # <a name="basicdevicefriendlyname-property"></a>BasicDevice. FriendlyName, propriété
 
@@ -33,7 +33,7 @@ Cette propriété est en lecture seule.
 
 ```C++
 HRESULT get_FriendlyName(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -50,6 +50,6 @@ Pointeur vers le nom convivial de l’appareil.
 [**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

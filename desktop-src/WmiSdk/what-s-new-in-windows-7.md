@@ -1,22 +1,22 @@
 ---
-description: Nouveautés de Windows 7
+description: nouveautés de Windows 7
 ms.assetid: C3FE15EF-CBF0-4A5D-ADCC-108795F8CE7A
 ms.tgt_platform: multiple
-title: Nouveautés de Windows 7
+title: nouveautés de Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 682e4f125fcc11a1b6679af7df78fddba5a766ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 000a3460366855df65096333a8b847a6d2c0c0a48a89c91f6791db3286d634fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502859"
 ---
-# <a name="whats-new-in-windows-7"></a>Nouveautés de Windows 7
+# <a name="whats-new-in-windows-7"></a>nouveautés de Windows 7
 
-## <a name="new-security-feature-in-windows-7"></a>Nouvelle fonctionnalité de sécurité dans Windows 7
+## <a name="new-security-feature-in-windows-7"></a>nouvelle fonctionnalité de sécurité dans Windows 7
 
-La liste suivante répertorie la nouvelle fonctionnalité de sécurité de l’Windows Management Instrumentation (WMI) qui est disponible dans Windows 7.
+la liste suivante répertorie la nouvelle fonctionnalité de sécurité de l’Windows Management Instrumentation (WMI) qui est disponible dans Windows 7.
 
 <dl> <dt>
 
@@ -27,16 +27,16 @@ Modifications pour améliorer la sécurité du processus hôte du fournisseur pa
 
 </dd> </dl>
 
-## <a name="other-new-or-updated-features-in-windows-7"></a>Autres fonctionnalités nouvelles ou mises à jour dans Windows 7
+## <a name="other-new-or-updated-features-in-windows-7"></a>autres fonctionnalités nouvelles ou mises à jour dans Windows 7
 
-La liste suivante répertorie les nouvelles fonctionnalités WMI disponibles dans Windows 7.
+la liste suivante répertorie les nouvelles fonctionnalités WMI disponibles dans Windows 7.
 
 <dl> <dt>
 
 <span id="CIM_schema_compatibility"></span><span id="cim_schema_compatibility"></span><span id="CIM_SCHEMA_COMPATIBILITY"></span>Compatibilité du schéma CIM
 </dt> <dd>
 
-À compter de Windows 7, WMI est compatible avec la version de schéma Common Information Model (CIM) 2.17.1. Pour plus d’informations, consultez [compatibilité du schéma CIM](cim-schema-compatibility.md).
+à partir de Windows 7, WMI est compatible avec la version de schéma Common Information Model (CIM) 2.17.1. Pour plus d’informations, consultez [compatibilité du schéma CIM](cim-schema-compatibility.md).
 
 </dd> <dt>
 
@@ -57,7 +57,7 @@ Informations sur l’écriture et l’inscription d’un fournisseur d’associa
 <span id="Optional_feature_status"></span><span id="optional_feature_status"></span><span id="OPTIONAL_FEATURE_STATUS"></span>État des fonctionnalités facultatives
 </dt> <dd>
 
-WMI a implémenté la classe [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) . Cette classe interroge et retourne l’état des fonctionnalités facultatives présentes sur un ordinateur. Pour obtenir des exemples de requêtes utilisant Windows PowerShell, consultez [interrogation de l’état des fonctionnalités facultatives](querying-the-status-of-optional-features.md).
+WMI a implémenté la classe [**Win32 \_ OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) . Cette classe interroge et retourne l’état des fonctionnalités facultatives présentes sur un ordinateur. pour obtenir des exemples de requêtes utilisant des Windows PowerShell, consultez [interrogation de l’état des fonctionnalités facultatives](querying-the-status-of-optional-features.md).
 
 </dd> <dt>
 
@@ -68,10 +68,10 @@ WMI dispose d’une nouvelle clé de Registre pour activer ou désactiver la fon
 
 </dd> <dt>
 
-<span id="New__PowerShell_command_classes"></span><span id="new__powershell_command_classes"></span><span id="NEW__POWERSHELL_COMMAND_CLASSES"></span>Nouvelles classes de commandes Windows PowerShell
+<span id="New__PowerShell_command_classes"></span><span id="new__powershell_command_classes"></span><span id="NEW__POWERSHELL_COMMAND_CLASSES"></span>nouvelles classes de commande Windows PowerShell
 </dt> <dd>
 
-Les applets de commande Windows PowerShell permettent aux utilisateurs d’effectuer les tâches de bout en bout nécessaires à la gestion des ordinateurs locaux et distants. Pour plus d’informations, consultez [référence managée pour les classes de commande PowerShell WMI](managed-reference-for-wmi-powershell-command-classes.md).
+les applets de commande Windows PowerShell permettent aux utilisateurs d’effectuer les tâches de bout en bout nécessaires à la gestion des ordinateurs locaux et distants. Pour plus d’informations, consultez [référence managée pour les classes de commande PowerShell WMI](managed-reference-for-wmi-powershell-command-classes.md).
 
 </dd> <dt>
 
@@ -110,7 +110,7 @@ La propriété **ID** de l' [**\_ ServerFeature Win32**](win32-serverfeature.md)
 
 </dd> </dl>
 
-Pour plus d’informations sur les nouvelles fonctionnalités des versions précédentes du système d’exploitation, consultez [Nouveautés de Windows Vista](what-s-new-in-windows-vista.md).
+pour plus d’informations sur les nouvelles fonctionnalités des versions précédentes du système d’exploitation, consultez [nouveautés de Windows Vista](what-s-new-in-windows-vista.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

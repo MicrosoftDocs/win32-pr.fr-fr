@@ -4,16 +4,16 @@ ms.assetid: 674c08df-7e91-4f19-9d65-4bc6e7af117b
 title: 'ITSdp :: SetPhoneNumbers, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30ec2820d8d033ac2eed9d9287c3ca52c9deb316
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 733dfbe4752281abf4063f308a05aec73203d361e3c9c5dcebf413eb4ba2af72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140212"
 ---
 # <a name="itsdpsetphonenumbers-method"></a>ITSdp :: SetPhoneNumbers, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **SetPhoneNumbers** définit un tableau de numéros de téléphone associés à un objet blob de conférence.
 
@@ -65,7 +65,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les listes dont les *nombres* et les *noms* pointent sont de la même longueur.
 

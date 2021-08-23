@@ -4,12 +4,12 @@ ms.assetid: 5720c69f-af87-432b-857c-dbd66ba74e80
 title: Élément propertyStore (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11f8cda6457de764b00519a81a1134e7eecc8638
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0de5a9e801163bd85635b82c1915394f24c39d3dfdafcb64c81fcff0bf84a219
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351849"
 ---
 # <a name="propertystore-element-search-connector-schema"></a>Élément propertyStore (schéma du connecteur de recherche)
 

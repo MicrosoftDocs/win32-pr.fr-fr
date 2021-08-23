@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd45f876a8ae3c740d81a28f3ee7ad7983a69b38
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 466516f28676aeeb3795fd3d6fe021f32c52db61ec86305d0929f24c2799b026
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544479"
 ---
 # <a name="ms-ds-sitename-attribute"></a>attribut ms-DS-SiteName
 
@@ -42,7 +42,7 @@ Répertorie le nom du site qui correspond au contrôleur de site.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

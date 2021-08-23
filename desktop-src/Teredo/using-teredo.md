@@ -4,16 +4,16 @@ description: Lors du développement d’une application qui utilise Teredo, l’
 ms.assetid: 043bc826-1387-4994-96b1-115df2f6ea2e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ca1807e6c342a2f344c8ccbda322ae86794224d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ddee98d9ea873b3949dbc45daee7b1d53062a83a4f1454953d0ad75ae786655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139152"
 ---
 # <a name="using-teredo"></a>Utilisation de Teredo
 
-Lors du développement d’une application qui utilise [Teredo](about-teredo.md), l’objectif est d’obtenir une connectivité IPv6 et de ne pas se concentrer sur l’utilisation de Teredo. Par exemple, l’espace de collaboration Windows et l’assistance à distance sont deux applications qui tirent parti de la connectivité de bout en bout fournie par IPv6. Ces applications peuvent obtenir une connectivité à l’aide d’adresses IPv6 natives, 6to4 ou Teredo. Pour ces applications et d’autres qui peuvent être développées pour IPv6, Teredo est géré comme tout autre protocole qui active la connectivité.
+Lors du développement d’une application qui utilise [Teredo](about-teredo.md), l’objectif est d’obtenir une connectivité IPv6 et de ne pas se concentrer sur l’utilisation de Teredo. par exemple, Windows l’espace de réunion et l’Assistance à distance sont deux applications qui tirent parti de la connectivité de bout en bout fournie par IPv6. Ces applications peuvent obtenir une connectivité à l’aide d’adresses IPv6 natives, 6to4 ou Teredo. Pour ces applications et d’autres qui peuvent être développées pour IPv6, Teredo est géré comme tout autre protocole qui active la connectivité.
 
 Les rubriques suivantes présentent les scénarios d’utilisation standard qui se produisent lors de l’utilisation de l’interface Teredo :
 
@@ -22,11 +22,11 @@ Les rubriques suivantes présentent les scénarios d’utilisation standard qui 
 -   [Réception du trafic sollicité sur Teredo](receiving-solicited-traffic-over-teredo.md)
 -   [Réception de trafic non sollicité sur Teredo](receiving-unsolicited-traffic-over-teredo.md)
 -   [Utilisation de Teredo avec l’assistance IP](using-teredo-with-ip-helper.md)
--   [Utilisation de Teredo dans Windows XP](using-teredo-in-windows-xp.md)
+-   [utilisation de Teredo dans Windows XP](using-teredo-in-windows-xp.md)
 
- 
+ 
 
- 
+ 
 
 
 

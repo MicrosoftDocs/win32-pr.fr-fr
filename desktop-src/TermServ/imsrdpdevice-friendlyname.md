@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bf7963cf49945b886d72a622b517438e24d148f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38d2b9ec817cdfa2a384e2f601da82a7e182b458574a5bb4b29fe639d8e11216
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119334619"
 ---
 # <a name="imsrdpdevicefriendlyname-property"></a>IMsRdpDevice :: FriendlyName, propriété
 

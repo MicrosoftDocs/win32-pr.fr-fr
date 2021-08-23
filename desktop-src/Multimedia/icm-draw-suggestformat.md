@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_SUGGESTFORMAT (VFW. h)
-description: Le \_ message SUGGESTFORMAT de dessin ICM \_ interroge un pilote de rendu pour suggérer un format décompressé qu’il peut dessiner.
+description: la ICM \_ message de dessin \_ SUGGESTFORMAT interroge un pilote de rendu pour suggérer un format décompressé qu’il peut dessiner.
 ms.assetid: e3e97790-dbd1-4436-9830-5218ae1f949b
 keywords:
-- Message ICM_DRAW_SUGGESTFORMAT Windows Multimedia
+- message ICM_DRAW_SUGGESTFORMAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c97c8782b16336427b3832f36b5a06987399df1b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 843dd2d398f5be6476a148922f3244113e94ab3fe3c10bac9ee08caefb8c4828
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495948"
 ---
-# <a name="icm_draw_suggestformat-message"></a>\_Message SUGGESTFORMAT de dessin ICM \_
+# <a name="icm_draw_suggestformat-message"></a>ICM \_ DESSINER le \_ message SUGGESTFORMAT
 
-Le **message \_ \_ SUGGESTFORMAT de dessin ICM** interroge un pilote de rendu pour suggérer un format décompressé qu’il peut dessiner.
+la **ICM message de \_ dessin \_ SUGGESTFORMAT** interroge un pilote de rendu pour suggérer un format décompressé qu’il peut dessiner.
 
 
 ```C++
@@ -56,7 +56,7 @@ Taille, en octets, de [**ICDRAWSUGGEST**](/windows/desktop/api/Vfw/ns-vfw-icdraw
 
 Retourne ICERR \_ OK en cas de réussite. Si le membre **lpbiSuggest** de la structure [**ICDRAWSUGGEST**](/windows/desktop/api/Vfw/ns-vfw-icdrawsuggest) est **null**, ce message retourne la quantité de mémoire nécessaire pour contenir le format suggéré.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le pilote doit examiner le format spécifié dans le membre **lpbiIn** de la structure [**ICDRAWSUGGEST**](/windows/desktop/api/Vfw/ns-vfw-icdrawsuggest) et utiliser le membre **lpbiSuggest** pour retourner un format qu’il peut dessiner. Le format de sortie doit conserver autant de données que possible à partir du format d’entrée.
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93d61803cab6cb80932402e429e77228a1611fd9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e222cbf24e6333c7105e8564a5ad255693340749aeea32d98bd013bcb40995d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586299"
 ---
 # <a name="drm_http_status-enumeration-drmexternalsh"></a>Énumération DRM_HTTP_STATUS (Drmexternals. h)
 
@@ -80,7 +80,7 @@ Les opérations HTTP sont terminées.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée par la structure d' [**\_ \_ État**](wm-individualize-status.md) de l’énumération WM.
 
@@ -92,7 +92,7 @@ Cette énumération est utilisée par la structure d' [**\_ \_ État**](wm-indiv
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                      |
-| Version<br/>                  | SDK Windows Media Format 7 ou versions ultérieures du kit de développement logiciel (SDK)<br/>                       |
+| Version<br/>                  | Windows Media Format 7 SDK ou les versions ultérieures du kit de développement logiciel (SDK)<br/>                       |
 | En-tête<br/>                   | <dl> <dt>Drmexternals. h</dt> </dl> |
 
 

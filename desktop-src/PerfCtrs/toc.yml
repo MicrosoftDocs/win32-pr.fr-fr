@@ -1,7 +1,7 @@
 - name: Compteurs de performances
   href: performance-counters-portal.md
   items:
-    - name: What's New
+    - name: Nouveautés
       href: performance-counters-what-s-new.md
     - name: À propos des compteurs de performance
       href: about-performance-counters.md
@@ -281,7 +281,7 @@
           href: performance-counters-types.md
         - name: Codes d’erreur de l’application d’assistance pour les données de performances
           href: pdh-error-codes.md
-        - name: Schéma du fichier journal SQL
+        - name: SQL Schéma de fichier journal
           href: sql-log-file-schema.md
           items:
             - name: CounterData

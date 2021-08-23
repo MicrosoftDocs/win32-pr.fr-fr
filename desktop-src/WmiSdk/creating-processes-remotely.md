@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: Création de processus à distance à l’aide de WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e7b97f8f4fdddd608f6ee8c3368bde6ad6e854
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 152afa1dba2e745665526ca1628f2a80b8fc8a527d16abebc4b9082d4c5c4341
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568849"
 ---
 # <a name="creating-processes-remotely-using-wmi"></a>Création de processus à distance à l’aide de WMI
 
 Vous pouvez utiliser [**Win32 \_ Process. Create**](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process) pour exécuter un script ou une application sur un ordinateur distant. Toutefois, pour des raisons de sécurité, le processus ne peut pas être interactif. Lorsque **le \_ processus Win32. Create** est appelé sur l’ordinateur local, le processus peut être interactif.
 
 > [!WARNING]
-> Cette rubrique décrit la procédure générale à respecter pour créer un processus distant avec WMI. Si vous cherchez simplement à exécuter un script sur un système distant, consultez [connexion à WMI à distance à partir de Windows Vista](connecting-to-wmi-remotely-starting-with-vista.md)ou [connexion à WMI sur un ordinateur distant à l’aide de Windows PowerShell](connecting-to-wmi-on-a-remote-computer-by-using-powershell.md). Pour plus d’informations générales sur la communication à distance avec PowerShell, consultez [exécution de commandes distantes](https://technet.microsoft.com/library/dd819505.aspx).
+> Cette rubrique décrit la procédure générale à respecter pour créer un processus distant avec WMI. si vous cherchez simplement à exécuter un script sur un système distant, consultez [connexion à wmi à distance à partir de Windows Vista](connecting-to-wmi-remotely-starting-with-vista.md)ou [connexion à wmi sur un ordinateur distant à l’aide de Windows PowerShell](connecting-to-wmi-on-a-remote-computer-by-using-powershell.md). Pour plus d’informations générales sur la communication à distance avec PowerShell, consultez [exécution de commandes distantes](https://technet.microsoft.com/library/dd819505.aspx).
 
  
 

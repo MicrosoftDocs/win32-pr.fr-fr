@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f8360b9f6c720fe3ed86fd8da583441a185544b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b104e072b375b57de8f9ef18fd972c8b01f603a775fb98669f187d1f7ad45ffa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119327109"
 ---
 # <a name="com-unique-libid-attribute"></a>Attribut COM-unique-LIBID
 
@@ -45,7 +45,7 @@ LIBID GUID de chaîne à valeur unique pour une bibliothèque de types.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

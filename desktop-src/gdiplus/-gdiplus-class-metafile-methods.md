@@ -4,18 +4,18 @@ ms.assetid: 80a57b90-fa62-4cce-a658-f12dcbfd9d24
 title: Méthodes de métafichier
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f6607f1fe1af698abd802e56fa3f362753237fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ce3af0b3c854378a93ddcd0a755eb79cbaa019e76c3a4e90cb2e78d6eab1a80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557439"
 ---
 # <a name="metafile-methods"></a>Méthodes de métafichier
 
 Cette rubrique répertorie les méthodes de la classe [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) . Pour obtenir une liste complète des classes, consultez **Metafile, classe**.
 
--   [**Clone**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone)
+-   [**Répliqué**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-clone)
 -   [**ConvertToEmfPlus**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-converttoemfplus(inconstgraphics_inoutint_inemftype_inconstwchar))
 -   [**ConvertToEmfPlus**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-converttoemfplus(inconstgraphics_inistream_inoutint_inemftype_inconstwchar))
 -   [**ConvertToEmfPlus**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-converttoemfplus(inconstgraphics_inconstwchar_inoutint_inemftype_inconstwchar))

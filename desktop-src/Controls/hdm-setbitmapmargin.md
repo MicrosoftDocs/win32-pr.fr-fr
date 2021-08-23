@@ -3,7 +3,7 @@ title: Message HDM_SETBITMAPMARGIN (commctrl. h)
 description: Définit la largeur de la marge, spécifiée en pixels, d’une image bitmap dans un contrôle d’en-tête existant. Vous pouvez envoyer ce message explicitement ou utiliser la macro d’en-tête \_ SetBitmapMargin.
 ms.assetid: 5ac04701-18c8-42d4-9850-fe6eb813672c
 keywords:
-- HDM_SETBITMAPMARGIN les contrôles de message Windows
+- HDM_SETBITMAPMARGIN les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2a5384151a63918a5828608b0aa8e829df61cad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aa2e7c24ea52edc0001cea9f4d7184957c2cfbf50f15769df964351df91e5813
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435949"
 ---
 # <a name="hdm_setbitmapmargin-message"></a>\_Message HDM SETBITMAPMARGIN
 
@@ -49,8 +49,8 @@ Retourne la largeur de la marge de la bitmap, en pixels. Si la marge de bitmap n
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

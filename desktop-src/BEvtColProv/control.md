@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - BEvtCol.exe
-ms.openlocfilehash: 2681af7425fd5cacf88375e11e4658e5d4b1a2c3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5eeccd31f3d9ab1f0b0ec05ebf80ea9f880a73fed21b21fe67fe63257af28871
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104522911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589019"
 ---
 # <a name="control-class"></a>Control (classe)
 
@@ -50,7 +50,7 @@ La classe **Control** possède ces méthodes.
 
 | Méthode                                                         | Description                                                                                                                                                                                                                                                                                                                                                               |
 |:---------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Contrôler**](control-checkpoint.md)                       | Si la configuration actuelle est un résultat de l’opération d’annulation/de rétablissement/restauration, le marque comme s’il avait été défini explicitement, afin que l’historique conserve l’heure à laquelle il a été défini, et un fichier de sauvegarde sera créé pour celui-ci lors de la prochaine modification de configuration. Si la configuration actuelle a déjà été définie explicitement, n’a aucun effet. Retourne 1 en cas de réussite, 0 en cas d’erreur.<br/> |
+| [**Point de contrôle**](control-checkpoint.md)                       | Si la configuration actuelle est un résultat de l’opération d’annulation/de rétablissement/restauration, le marque comme s’il avait été défini explicitement, afin que l’historique conserve l’heure à laquelle il a été défini, et un fichier de sauvegarde sera créé pour celui-ci lors de la prochaine modification de configuration. Si la configuration actuelle a déjà été définie explicitement, n’a aucun effet. Retourne 1 en cas de réussite, 0 en cas d’erreur.<br/> |
 | [**DumpDiagnostics**](control-dumpdiagnostics.md)             | Videz les informations de diagnostic dans le journal.<br/>                                                                                                                                                                                                                                                                                                                  |
 | [**FastShutdown**](control-fastshutdown.md)                   | Arrêtez rapidement le collecteur, en ignorant toutes les données mises en file d’attente.<br/>                                                                                                                                                                                                                                                                                                    |
 | [**Purge**](control-flush.md)                                 | Videz les mémoires tampons du redirecteur.<br/>                                                                                                                                                                                                                                                                                                                                   |
@@ -75,9 +75,9 @@ La classe **Control** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                          |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                       |
-| Espace de noms<br/>                | Racine \\ Microsoft \\ Windows \\ BootEventCollector<br/>                                              |
+| Espace de noms<br/>                | racine \\ Microsoft \\ Windows \\ BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
 

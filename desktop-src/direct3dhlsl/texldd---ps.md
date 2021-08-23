@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 72f3c4aaf9ac7e6beaad1343c024aa28bd2a85ab
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 45bd755cdc0d183a6b06e42cbd9fb3934a5dc26a729e9982bc54fb9d2a2b01fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104381982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561969"
 ---
 # <a name="texldd---ps"></a>texldd-PS
 
@@ -29,7 +29,7 @@ ms.locfileid: "104381982"
 
 
 
- 
+ 
 
 Où :
 
@@ -39,7 +39,7 @@ Où :
 -   src2 est un registre de source d’entrée qui spécifie le dégradé x.
 -   src3 est un registre de source d’entrée qui spécifie le dégradé y.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -49,7 +49,7 @@ Où :
 
 
 
- 
+ 
 
 \* Cette instruction est uniquement prise en charge par PS \_ 2 \_ a. Elle n’est pas prise en charge par PS \_ 2 \_ b. Pour plus d’informations sur les profils, consultez [**D3DXGetPixelShaderProfile**](/windows/desktop/direct3d9/d3dxgetpixelshaderprofile).
 
@@ -66,6 +66,6 @@ Tous les masques d’écriture sont valides sur la destination.
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,23 +1,23 @@
 ---
 title: API WinSNMP
-description: L’interface de programmation d’applications SNMP de Microsoft Windows (l’API WinSNMP) versions 1.1 a et 2,0 vous permettent de développer des applications de gestion de réseau basées sur SNMP qui s’exécutent dans l’environnement Windows.
+description: l’Interface de programmation d’applications snmp de Microsoft Windows (l’API WinSNMP) versions 1.1 a et 2,0 vous permettent de développer des applications de gestion de réseau basées sur SNMP qui s’exécutent dans l’environnement Windows.
 ms.assetid: 54d9b61a-815a-41c3-9365-ec4478acc3f2
 keywords:
 - API WinSNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12d502060daa2931ca67c4476448347602159c98
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c38f6205b8d5ad2315be877f62f0f81f17b5737e557d5db2683163ff26edf62c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142982"
 ---
 # <a name="winsnmp-api"></a>API WinSNMP
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
-L’interface de programmation d’applications SNMP de Microsoft Windows (l’API WinSNMP) versions 1.1 a et 2,0 vous permettent de développer des applications de gestion de réseau basées sur SNMP qui s’exécutent dans l’environnement Windows. Le protocole SNMP (simple Network Management Protocol) est un protocole de requête-réponse qui transfère les informations de gestion entre les entités de protocole.
+l’Interface de programmation d’applications snmp de Microsoft Windows (l’API WinSNMP) versions 1.1 a et 2,0 vous permettent de développer des applications de gestion de réseau basées sur SNMP qui s’exécutent dans l’environnement Windows. Le protocole SNMP (simple Network Management Protocol) est un protocole de requête-réponse qui transfère les informations de gestion entre les entités de protocole.
 
 WinSNMP a été développé conjointement avec la collaboration, l’entrée et la prise en charge de plusieurs sociétés, associations et individus.
 
@@ -39,8 +39,8 @@ La deuxième section traite des fonctions WinSNMP et des tâches de programmatio
 -   [Écriture d’applications WinSNMP avec plusieurs threads](writing-winsnmp-applications-with-multiple-threads.md)
 -   [Inscription d’une application d’agent SNMP](registering-an-snmp-agent-application.md)
 
-Avant de lire cette vue d’ensemble, vous devez être familiarisé avec les concepts de base de la programmation SNMP et Windows. Pour plus d’informations sur SNMP, voir [protocole de gestion de réseau simple](simple-network-management-protocol-snmp-.md) et les RFC (Request for Comments) pertinents publiés par l’IETF (Internet Engineering Task Force).
+vous devez être familiarisé avec les concepts de base de SNMP et de Windows la programmation avant de lire cette vue d’ensemble. Pour plus d’informations sur SNMP, voir [protocole de gestion de réseau simple](simple-network-management-protocol-snmp-.md) et les RFC (Request for Comments) pertinents publiés par l’IETF (Internet Engineering Task Force).
 
- 
+ 
 
- 
+ 

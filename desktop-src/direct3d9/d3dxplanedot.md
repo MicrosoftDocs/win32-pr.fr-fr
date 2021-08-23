@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b6f33e591df364151a7090e5b4a9dd0773f5788a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4895a94ad50171682a8bd5247694c3b35a56d174b5477f5bbb2a621c1e74fa96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564629"
 ---
 # <a name="d3dxplanedot-function"></a>D3DXPlaneDot fonction)
 
@@ -65,7 +65,7 @@ Type : **[ **float**](../winprog/windows-data-types.md)**
 
 Produit scalaire des vecteurs de plan et 4D.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avec un plan (a, b, c, d) et un vecteur 4D (x, y, z, w), la valeur de retour de cette fonction est un \* x + b \* y + c \* z + d \* w. La fonction **D3DXPlaneDot** est utile pour déterminer la relation du plan avec une coordonnée homogène. Par exemple, cette fonction peut être utilisée pour déterminer si une coordonnée particulière est sur un plan particulier, ou sur le côté d’un plan particulier qui se trouve une coordonnée particulière.
 

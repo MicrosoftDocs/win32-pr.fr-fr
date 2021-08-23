@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe49bd525d0fa3f4ed95874f2020d9d2a5eb9554
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1255494d757b6bd0b43535d3389a16cd2d86f1809742733a5c594512bf8efbac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119326169"
 ---
 # <a name="rdn-attribute"></a>Attribut RDN
 
@@ -46,7 +46,7 @@ Nom unique relatif (RDN) d’un objet. Un RDN est la partie relative d’un nom 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

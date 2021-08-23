@@ -4,12 +4,12 @@ ms.assetid: 56ec2372-0fd3-4220-a283-5d9691fe2e69
 title: LinearGradientBrush. GetRectangle, méthodes (Gdiplusheaders. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1d22dfbe8c32c4f8ccb7e902455ae68d7018590c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 1e7344b2406bf3d9da9d015a09f586cb2ba9c5bddda4e03cdb7ce6b823bff659
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467589"
 ---
 # <a name="lineargradientbrushgetrectangle-methods"></a>LinearGradientBrush. GetRectangle, méthodes
 
@@ -26,13 +26,13 @@ Cette rubrique répertorie les méthodes GetRectangle de la classe [**LinearGrad
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, applications de bureau Windows 2000 professionnel \[ uniquement\]<br/>                                          |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional \[ applications de bureau uniquement\]<br/>                                          |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                            |
 | Produit<br/>                  | GDI+ 1,0<br/>                                                                                             |
 | En-tête<br/>                   | <dl> <dt>Gdiplusheaders. h (inclure Gdiplus. h)</dt> </dl> |

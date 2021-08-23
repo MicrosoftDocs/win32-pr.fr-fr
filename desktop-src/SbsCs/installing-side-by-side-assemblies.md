@@ -4,12 +4,12 @@ ms.assetid: 36f271ff-be0c-4162-8e1c-86088ebddbcc
 title: Installation d’assemblys côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be68580c7f0e3890c2e53b148daec92fbad18ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2124b490d64427e80b5beee53d1221cba4d5e59a23dc2d72c2da6833e14a98cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142132"
 ---
 # <a name="installing-side-by-side-assemblies"></a>Installation d’assemblys côte à côte
 
@@ -17,8 +17,8 @@ Vous pouvez installer des assemblys côte à côte en tant qu’assemblys [parta
 
 Notez les points suivants :
 
--   Les assemblys installés dans le Global Assembly Cache par une installation à l’aide du [contexte d’installation](/windows/desktop/Msi/installation-context) par utilisateur ne sont pas protégés par la protection des fichiers Windows.
--   Les assemblys installés dans le Global Assembly Cache par une installation à l’aide du contexte d' [installation](/windows/desktop/Msi/installation-context) par ordinateur sont protégés par la protection des fichiers Windows.
+-   les assemblys installés dans le Global Assembly Cache par une installation à l’aide du [contexte d’installation](/windows/desktop/Msi/installation-context) par utilisateur ne sont pas protégés par Windows Protection des fichiers.
+-   les assemblys installés dans le Global Assembly Cache par une installation à l’aide du contexte d' [installation](/windows/desktop/Msi/installation-context) par ordinateur sont protégés par Windows Protection des fichiers.
 
  
 

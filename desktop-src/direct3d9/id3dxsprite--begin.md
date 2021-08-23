@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7670c3c516627283a466b3adbb369dc76bbe0d45
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 94d3ee659937508f52e38513006701494a01ed4ff95fe6c75c56bd9638137160
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106541254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119277829"
 ---
 # <a name="id3dxspritebegin-method"></a>ID3DXSprite :: Begin, méthode
 
@@ -40,7 +40,7 @@ HRESULT Begin(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -66,7 +66,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DERR \_ OUTOFVIDEOMEMORY, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode doit être appelée à partir d’un [**IDirect3DDevice9 :: BeginScene**](/windows/desktop/api) . . . Séquence [**IDirect3DDevice9 :: EndScene**](/windows/desktop/api) . **ID3DXSprite :: Begin** ne peut pas être utilisé comme substitut pour **IDirect3DDevice9 :: BeginScene** ou [**ID3DXRenderToSurface :: BeginScene**](id3dxrendertosurface--beginscene.md).
 

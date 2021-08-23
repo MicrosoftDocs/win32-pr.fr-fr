@@ -3,7 +3,7 @@ title: Code de notification EN_DRAGDROPDONE (RichEdit. h)
 description: Avertit une fenêtre parente d’un contrôle RichEdit que l’opération de glisser-déplacer est terminée. Un contrôle RichEdit envoie ce code de notification sous la forme d’un \_ message WM Notify.
 ms.assetid: 3c8b95cc-86ef-4aec-b551-11dca50ea5c5
 keywords:
-- Contrôles Windows de code de notification EN_DRAGDROPDONE
+- EN_DRAGDROPDONE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a10b6718122791bcc862866fbaf17ed43e8bfd0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb498361de04184823ab0d0652cc32adc9cbb1978bd6f303b7b215417f99f552
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436869"
 ---
 # <a name="en_dragdropdone-notification-code"></a>\_Code de notification en DRAGDROPDONE
 
@@ -49,7 +49,7 @@ Structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) .
 
 Ce code de notification ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour recevoir un \_ Code de notification en DRAGDROPDONE, spécifiez l’indicateur [**ENM \_ DRAGDROPDONE**](rich-edit-control-event-mask-flags.md) dans le masque envoyé avec le message de [**em \_ SETEVENTMASK**](em-seteventmask.md) .
 
@@ -59,8 +59,8 @@ Pour recevoir un \_ Code de notification en DRAGDROPDONE, spécifiez l’indicat
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

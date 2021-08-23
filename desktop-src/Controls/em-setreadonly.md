@@ -3,7 +3,7 @@ title: Message EM_SETREADONLY (winuser. h)
 description: Définit ou supprime le style en lecture seule (ES \_ ReadOnly) d’un contrôle d’édition. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: a10b3f57-0e67-4a0f-89f3-9c8ebd1514f8
 keywords:
-- EM_SETREADONLY les contrôles de message Windows
+- EM_SETREADONLY les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0b224e11212077703ab62ab6a180875672c879e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d46726c1247f7ef93c00e495ca77ad3d337253705bd3018a0480fc9588c22f8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437509"
 ---
 # <a name="em_setreadonly-message"></a>\_Message SETREADONLY em
 
@@ -49,7 +49,7 @@ Si l’opération a échoué, la valeur de retour est différente de zéro.
 
 Si l’opération échoue, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un contrôle d’édition a le style [**es \_ ReadOnly**](edit-control-styles.md) , l’utilisateur ne peut pas modifier le texte dans le contrôle d’édition.
 
@@ -63,8 +63,8 @@ Pour déterminer si un contrôle d’édition a le style [**es \_ ReadOnly**](ed
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

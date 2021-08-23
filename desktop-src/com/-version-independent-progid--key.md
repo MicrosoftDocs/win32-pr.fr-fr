@@ -4,12 +4,12 @@ description: Associe un ProgID à un CLSID. Cette clé est utilisée pour déter
 ms.assetid: fb43c8d0-d923-487f-afdf-14fc29a71e0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0a0bf379a06a6a05bb69a232ef91bb9fe81dc2f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 88dec371f87ff3aba98bd642537e4de893df20682cc9bd84eda8829f24d241b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567969"
 ---
 # <a name="version-independent-progid-key"></a>Clé ProgID indépendante de la version
 
@@ -23,7 +23,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes
       CurVer = ProgID
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La clé de classes de logiciels de l' **\_ \_ ordinateur \\ \\ local HKEY** correspond à la clé **\_ \_ racine HKEY classes** , qui a été conservée pour la compatibilité avec les versions antérieures de com.
 
@@ -31,7 +31,7 @@ Le format pour <*ProgID indépendant* de la version> est <*programme*>. <*compos
 
 *ProgID* est le ProgID de la dernière version installée de la classe.
 
-Les applications doivent inscrire un identificateur de programmation indépendant de la version sous la clé *ProgID indépendante* de la version. Le ProgID indépendant de la version fait référence à la classe de l’application et ne passe pas de la version à la version, mais reste constante dans tous les versionsâ, par exemple, document Microsoft Word. Il est utilisé avec les langages de macro et fait référence à la version actuellement installée de la classe de l’application. Le ProgID indépendant de la version doit correspondre au nom de la version la plus récente de l’application objet.
+Les applications doivent inscrire un identificateur de programmation indépendant de la version sous la clé *ProgID indépendante* de la version. le ProgID indépendant de la version fait référence à la classe de l’application et ne passe pas de la version à la version, et non à la constante restante dans tous les versionsâ, par exemple, Microsoft Word Document. Il est utilisé avec les langages de macro et fait référence à la version actuellement installée de la classe de l’application. Le ProgID indépendant de la version doit correspondre au nom de la version la plus récente de l’application objet.
 
 Par exemple, le ProgID indépendant de la version est utilisé lorsqu’une application conteneur crée un graphique ou une table avec un bouton de barre d’outils. Dans ce cas, l’application peut utiliser le ProgID indépendant de la version pour déterminer la version la plus récente de l’application objet nécessaire.
 

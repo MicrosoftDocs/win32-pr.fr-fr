@@ -4,12 +4,12 @@ ms.assetid: 146e7e4a-4281-4f5c-8346-d6c0d5f5442f
 title: Listes de révocation de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b51ddee9f77b147d69b8895b3335d41e041da7f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 703bb8813e95ebfe07783fa07284b2ae7dad0df2ff8a9205234ee9a4514192d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537302"
 ---
 # <a name="certificate-revocation-lists"></a>Listes de révocation de certificat
 
@@ -17,15 +17,15 @@ Cette rubrique explique comment examiner la liste de révocation de certificats 
 
 La liste de révocation de certificats contient des résumés de certificats révoqués et peut être fournie et signée uniquement par Microsoft. La liste de révocation des certificats est distribuée via des licences DRM (Digital Rights Management). La liste de révocation de certificats peut révoquer n’importe quel certificat dans la chaîne de certificats du pilote. Si un certificat de la chaîne est révoqué, ce certificat et tous les certificats situés au-dessous de lui dans la chaîne sont également révoqués.
 
-Pour récupérer la liste de révocation de certificats, l’application doit utiliser le kit de développement logiciel (SDK) Windows Media format, version 9 ou ultérieure, et effectuer les étapes suivantes :
+pour récupérer la liste de révocation de certificats, l’application doit utiliser le kit de développement logiciel (SDK) Windows Media Format, version 9 ou ultérieure, et effectuer les étapes suivantes :
 
-1.  Appelez **WMCreateReader** pour créer l’objet lecteur du kit de développement logiciel (SDK) du format Windows Media.
+1.  appelez **WMCreateReader** pour créer Windows l’objet Media Format SDK reader.
 2.  Interrogez l’objet lecteur de l’interface **IWMDRMReader** .
 3.  Appelez **IWMDRMReader :: GetDRMProperty** avec la valeur g \_ wszWMDRMNet \_ Revocation pour obtenir la liste de révocation de certificats. Vous devez appeler cette méthode deux fois : une fois pour récupérer la taille de la mémoire tampon à allouer, et une fois pour remplir la mémoire tampon. Le deuxième appel retourne une chaîne qui contient la liste de révocation de certificats. La chaîne entière est encodée en base-64.
 4.  Décodez la chaîne codée en base 64. Pour ce faire, vous pouvez utiliser la fonction **CryptStringToBinary** . Cette fonction fait partie de CryptoAPI.
 
 > [!Note]  
-> Pour utiliser l’interface **IWMDRMReader** , vous devez obtenir une bibliothèque DRM statique auprès de Microsoft et lier votre application à ce fichier de bibliothèque. Pour plus d’informations, consultez la rubrique « obtention de la bibliothèque DRM requise » dans la documentation du kit de développement logiciel (SDK) Windows Media format.
+> Pour utiliser l’interface **IWMDRMReader** , vous devez obtenir une bibliothèque DRM statique auprès de Microsoft et lier votre application à ce fichier de bibliothèque. pour plus d’informations, consultez la rubrique « obtention de la bibliothèque DRM requise » dans la documentation du kit de développement logiciel (SDK) Windows Media Format.
 
  
 

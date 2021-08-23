@@ -1,28 +1,28 @@
 ---
-title: Vue d’ensemble des gestes tactiles Windows
-description: Cette section décrit les différents mouvements pris en charge par Windows Touch.
+title: Windows Vue d’ensemble des gestes tactiles
+description: cette section décrit les différents mouvements pris en charge par Windows Touch.
 ms.assetid: b2fa11a7-9abb-4149-96e3-e8c663c29d4a
 keywords:
-- Tactile Windows, gestes
+- Windows Toucher, mouvements
 - mouvements, à propos de
-- Tactile Windows, support hérité
+- Windows Toucher, prise en charge héritée
 - gestes, prise en charge héritée
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 2290477aa8b26e937fe6d5f300ed1fea32872f5d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f2a0f6229afe4ad0d894a1cc2d40489f5d8371de3d7c42cefdccde619119df75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587252"
 ---
-# <a name="windows-touch-gestures-overview"></a>Vue d’ensemble des gestes tactiles Windows
+# <a name="windows-touch-gestures-overview"></a>Windows Vue d’ensemble des gestes tactiles
 
-Cette section décrit les différents mouvements pris en charge par Windows Touch.
+cette section décrit les différents mouvements pris en charge par Windows Touch.
 
 ## <a name="gestures-overview"></a>Vue d’ensemble des mouvements
 
-La fonction tactile Windows active plusieurs mouvements qui prennent en charge des contacts uniques et multiples. L’illustration suivante montre les différents mouvements pris en charge dans Windows 7.
+Windows Touch active plusieurs mouvements qui prennent en charge des contacts uniques et multiples. l’illustration suivante montre les différents mouvements pris en charge dans Windows 7.
 
 ![Illustration montrant les gestes pris en charge par Windows Touch dans Windows 7](images/gestures.png)
 
@@ -31,7 +31,7 @@ La fonction tactile Windows active plusieurs mouvements qui prennent en charge d
 
 ## <a name="legacy-support"></a>Prise en charge héritée
 
-Pour la prise en charge héritée, le gestionnaire de mouvements par défaut mappe certains mouvements aux messages Windows utilisés dans les versions précédentes de Windows. Le tableau suivant décrit la façon dont les gestes sont mappés aux messages hérités.
+pour la prise en charge héritée, le gestionnaire de mouvements par défaut mappe certains mouvements à Windows messages utilisés dans les versions précédentes de Windows. Le tableau suivant décrit la façon dont les gestes sont mappés aux messages hérités.
 
 | Mouvement        | Description  | Message (s) généré (s)              |
 |----------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
@@ -39,9 +39,9 @@ Pour la prise en charge héritée, le gestionnaire de mouvements par défaut map
 | Appuyer et maintenir enfoncé | Le mouvement appuyer et maintenir est mappé à un clic droit sur la souris.     | **WM_RBUTTONDOWN**<br/> **WM_RBUTTONUP**<br/> |
 | Zoom           | Le mouvement de zoom déclenche des messages similaires au maintien de la touche CTRL et en faisant tourner la roulette de la souris. | **WM_MOUSEWHEEL** avec **MK_CONTROL** défini dans *lParam* |
 
-## <a name="interpreting-windows-touch-gestures"></a>Interprétation des gestes tactiles Windows
+## <a name="interpreting-windows-touch-gestures"></a>interprétation Windows des gestes tactiles
 
-Les gestes tactiles Windows peuvent être interprétés par les développeurs d’applications en gérant le message [**WM_GESTURE**](wm-gesture.md) à partir de la fonction WndProc d’une application. Après avoir géré ce message, vous pouvez récupérer une structure [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) qui décrit le mouvement. La structure **GESTUREINFO** aura des informations assorties qui dépendent du type de mouvement.
+Windows Les gestes tactiles peuvent être interprétés par les développeurs d’applications en gérant le message [**WM_GESTURE**](wm-gesture.md) à partir de la fonction WndProc d’une application. Après avoir géré ce message, vous pouvez récupérer une structure [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) qui décrit le mouvement. La structure **GESTUREINFO** aura des informations assorties qui dépendent du type de mouvement.
 
 La structure [**GESTUREINFO**](/windows/win32/api/winuser/ns-winuser-gestureinfo) est récupérée en passant le descripteur à la structure d’informations de mouvement à la fonction [**GetGestureInfo**](/windows/desktop/api/winuser/nf-winuser-getgestureinfo) .
 
@@ -83,4 +83,4 @@ Les membres de la structure [**GESTUREINFO**](/windows/win32/api/winuser/ns-winu
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Gestes tactiles Windows](guide-multi-touch-gestures.md)
+[Windows Gestes tactiles](guide-multi-touch-gestures.md)

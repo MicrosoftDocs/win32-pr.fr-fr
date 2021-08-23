@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes système WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34cdee69b641fdbfdc006bdcef6d066687308ed9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a576c3e1a02a20da9b8fb0ca7d57d8deb3dcd198e591e6f7e00dc8fef2ae68f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502699"
 ---
 # <a name="wmi-system-classes"></a>Classes système WMI
 
@@ -62,7 +62,7 @@ Le tableau suivant répertorie les différentes classes système.
 | [**\_\_InstanceModificationEvent**](--instancemodificationevent.md)                 | Signale un événement de modification d’instance, qui est un type d' [événement intrinsèque](determining-the-type-of-event-to-receive.md) généré lorsqu’une instance change dans l’espace de noms.                      |
 | [**\_\_InstanceOperationEvent**](--instanceoperationevent.md)                       | Sert de classe de base pour tous les événements intrinsèques liés à une instance.                                                                                                                          |
 | [**\_\_InstanceProviderRegistration**](--instanceproviderregistration.md)           | Inscrit des fournisseurs d’instances dans WMI.                                                                                                                                                                 |
-| [**\_\_IntervalTimerInstruction**](--intervaltimerinstruction.md)                   | Génère des événements à intervalles réguliers, comme un message [**\_ du minuteur WM**](/windows/desktop/winmsg/wm-timer) dans la programmation Windows.                                                                                         |
+| [**\_\_IntervalTimerInstruction**](--intervaltimerinstruction.md)                   | génère des événements à intervalles réguliers, comme un message de [**\_ minuteur WM**](/windows/desktop/winmsg/wm-timer) dans Windows programmation.                                                                                         |
 | [**\_\_MethodInvocationEvent**](--methodinvocationevent.md)                         | Cette classe n’est pas implémentée.                                                                                                                                                                       |
 | [**\_\_MethodProviderRegistration**](--methodproviderregistration.md)               | Inscrit les fournisseurs de méthode avec WMI.                                                                                                                                                                 |
 | [**\_\_Espace de noms**](--namespace.md)                                                 | Représente un espace de noms WMI.                                                                                                                                                                          |
@@ -71,7 +71,7 @@ Le tableau suivant répertorie les différentes classes système.
 | [**\_\_NamespaceModificationEvent**](--namespacemodificationevent.md)               | Signale un événement de modification d’espace de noms, qui est un type d' [événement intrinsèque](determining-the-type-of-event-to-receive.md) qui est généré lors de la modification d’un espace de noms.                           |
 | [**\_\_NamespaceOperationEvent**](--namespaceoperationevent.md)                     | Classe de base pour tous les événements intrinsèques liés à un espace de noms.                                                                                                                                    |
 | [**\_\_NotifyStatus**](--notifystatus.md)                                           | Sert de classe parente pour les classes d’erreur définies par le fournisseur.                                                                                                                                       |
-| [**\_\_NTLMUser9X**](--ntlmuser9x.md)                                               | Contrôle l’accès à distance à un ordinateur exécutant des versions de Windows non prises en charge.                                                                                                                        |
+| [**\_\_NTLMUser9X**](--ntlmuser9x.md)                                               | Contrôle l’accès à distance à un ordinateur qui exécute des versions non prises en charge de Windows.                                                                                                                        |
 | [**\_\_ObjectProviderCacheControl**](--objectprovidercachecontrol.md)               | Contrôle quand une classe ou un fournisseur d’instance est déchargé.                                                                                                                                              |
 | [**\_\_ObjectProviderRegistration**](--objectproviderregistration.md)               | Sert de parent pour les classes utilisées pour inscrire des fournisseurs de classes et d’instances dans WMI.                                                                                                      |
 | [**\_\_PARAMÈTRES**](--parameters.md)                                               | Définit les paramètres d’entrée et de sortie des méthodes.                                                                                                                                                 |

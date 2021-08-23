@@ -3,7 +3,7 @@ title: Message DRV_POWER (mmsystem. h)
 description: Informe le pilote que l’alimentation de l’appareil est activée ou désactivée.
 ms.assetid: b3bbd16a-5b90-4127-a1dd-f2ddfd918f0a
 keywords:
-- Message DRV_POWER Windows Multimedia
+- message DRV_POWER Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8113b7fe544bf36a35b6e516c7a98ae71082577d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1a6b9f3ddb2c0184337d2f53d73cdda8451a8d8df19229e505b08fedf685f40d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496449"
 ---
 # <a name="drv_power-message"></a>\_Message d’alimentation du DRV
 
@@ -47,7 +47,7 @@ Handle de l’instance du pilote installable.
 
 Retourne une valeur différente de zéro en cas de réussite ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les paramètres *lParam1* et *lParam2* ne sont pas utilisés.
 
@@ -59,7 +59,7 @@ Les paramètres *lParam1* et *lParam2* ne sont pas utilisés.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

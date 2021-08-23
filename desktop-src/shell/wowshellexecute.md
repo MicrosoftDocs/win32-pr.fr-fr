@@ -13,18 +13,18 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ae50ad570211303cdfb7aa8e86908593ab48537d
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 4389c348a06b7c54dc899da8114eee09e740681f043084bb0c32ab9f7163772e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106533529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119591829"
 ---
 # <a name="wowshellexecute-function"></a>WOWShellExecute fonction)
 
-\[Cette fonction est disponible via Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
+\[cette fonction est disponible par le biais de Windows XP avec Service Pack 2 (SP2) et Windows Server 2003. Il peut être modifié ou non disponible dans les versions ultérieures de Windows.\]
 
-Effectue une opération sur un fichier spécifié. **WOWShellExecute** existe uniquement pour une utilisation avec la machine DOS virtuelle Microsoft Windows NT (Ntvdm.exe), qui permet d’exécuter le système d’exploitation sur disque (dos) et le logiciel 16 bits sur un système Windows, et ne doit pas être utilisé par une autre personne. Utilisez à la place [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) .
+Effectue une opération sur un fichier spécifié. **WOWShellExecute** existe uniquement pour une utilisation avec la Machine DOS virtuelle Microsoft Windows NT (Ntvdm.exe), qui permet l’exécution du système d’exploitation sur disque (DOS) et du logiciel 16 bits sur un système Windows, et ne doit pas être utilisée par une autre personne. Utilisez à la place [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -127,9 +127,9 @@ Imprime le fichier de document spécifié par *lpFile*. Si *lpFile* n’est pas 
 
 </dt> <dd>
 
-Pour les systèmes antérieurs à Windows 2000, le verbe par défaut est utilisé s’il est valide et disponible dans le registre. Si ce n’est pas le cas, le verbe « Open » est utilisé.
+pour les systèmes antérieurs à Windows 2000, le verbe par défaut est utilisé s’il est valide et disponible dans le registre. Si ce n’est pas le cas, le verbe « Open » est utilisé.
 
-Pour les systèmes Windows 2000 et versions ultérieures, le verbe par défaut est utilisé s’il est disponible. Si ce n’est pas le cas, le verbe « Open » est utilisé. Si aucun verbe n’est disponible, le système utilise le premier verbe listé dans le registre.
+pour les systèmes Windows 2000 et versions ultérieures, le verbe par défaut est utilisé s’il est disponible. Si ce n’est pas le cas, le verbe « Open » est utilisé. Si aucun verbe n’est disponible, le système utilise le premier verbe listé dans le registre.
 
 </dd> </dl> </dd> <dt>
 
@@ -182,33 +182,33 @@ Fonction de rappel utilisée pour appeler [**CreateProcess**](/windows/win32/api
 
 Type : **HINSTANCE**
 
-Retourne une valeur supérieure à 32 en cas de réussite, ou une valeur d’erreur inférieure ou égale à 32 dans le cas contraire. Le tableau suivant répertorie les valeurs d’erreur. La valeur de retour est castée en tant que HINSTANCE pour la compatibilité descendante avec les applications Windows 16 bits. Toutefois, ce n’est pas un véritable HINSTANCE. La seule chose qui peut être effectuée avec le HINSTANCE retourné est de le convertir en **int** et de le comparer à la valeur 32 ou à l’un des codes d’erreur ci-dessous.
+Retourne une valeur supérieure à 32 en cas de réussite, ou une valeur d’erreur inférieure ou égale à 32 dans le cas contraire. Le tableau suivant répertorie les valeurs d’erreur. la valeur de retour est convertie en un HINSTANCE pour assurer la compatibilité descendante avec les applications Windows 16 bits. Toutefois, ce n’est pas un véritable HINSTANCE. La seule chose qui peut être effectuée avec le HINSTANCE retourné est de le convertir en **int** et de le comparer à la valeur 32 ou à l’un des codes d’erreur ci-dessous.
 
 
 
 | Code de retour                                                                                             | Description                                                                                                                                                              |
 |---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**0**</dt> </dl>                        | Le système d’exploitation ne dispose pas de suffisamment de mémoire ou de ressources.<br/>                                                                                                           |
+| <dl> <dt>**entre**</dt> </dl>                        | Le système d’exploitation ne dispose pas de suffisamment de mémoire ou de ressources.<br/>                                                                                                           |
 | <dl> <dt>**\_fichier d' \_ erreur \_ introuvable**</dt> </dl>  | Le fichier spécifié est introuvable.<br/>                                                                                                                             |
 | <dl> <dt>**\_chemin d' \_ erreur \_ introuvable**</dt> </dl>  | Le chemin spécifié est introuvable.<br/>                                                                                                                             |
-| <dl> <dt>**\_format incorrect de l’erreur \_**</dt> </dl>       | Le fichier. exe n’est pas valide (non Win32. exe ou erreur dans l’image. exe).<br/>                                                                                             |
-| <dl> <dt>**SE \_ ACCESSDENIED d’erreur \_**</dt> </dl>    | Le système d’exploitation a refusé l’accès au fichier spécifié.<br/>                                                                                                     |
-| <dl> <dt>**SE \_ ASSOCINCOMPLETE d’erreur \_**</dt> </dl> | L’Association du nom de fichier est incomplète ou non valide.<br/>                                                                                                           |
-| <dl> <dt>**SE \_ DDEBUSY d’erreur \_**</dt> </dl>         | La transaction DDE n’a pas pu être effectuée, car d’autres transactions DDE étaient en cours de traitement.<br/>                                                               |
-| <dl> <dt>**SE \_ DDEFAIL d’erreur \_**</dt> </dl>         | Échec de la transaction DDE.<br/>                                                                                                                                   |
-| <dl> <dt>**SE \_ DDETIMEOUT d’erreur \_**</dt> </dl>      | La transaction DDE n’a pas pu aboutir car la demande a expiré.<br/>                                                                                     |
-| <dl> <dt>**SE \_ DLLNOTFOUND d’erreur \_**</dt> </dl>     | La DLL spécifiée est introuvable.<br/>                                                                                                                              |
-| <dl> <dt>**erreur SE- \_ \_ FNF**</dt> </dl>             | Le fichier spécifié est introuvable.<br/>                                                                                                                             |
-| <dl> <dt>**SE \_ Err \_ noassoc**</dt> </dl>         | Aucune application n’est associée à l’extension de nom de fichier donnée. Cette erreur est également retournée si vous tentez d’imprimer un fichier qui n’est pas imprimable.<br/> |
-| <dl> <dt>**SE \_ insuffisance d’erreur \_**</dt> </dl>             | La mémoire est insuffisante pour terminer l’opération.<br/>                                                                                                        |
-| <dl> <dt>**SE \_ Err. \_ PNF**</dt> </dl>             | Le chemin spécifié est introuvable.<br/>                                                                                                                             |
-| <dl> <dt>**\_partage d’Err. se \_**</dt> </dl>           | Une violation de partage s’est produite.<br/>                                                                                                                                 |
+| <dl> <dt>**\_format incorrect de l’erreur \_**</dt> </dl>       | Le fichier .exe n’est pas valide (.exe non Win32 ou erreur dans .exe image).<br/>                                                                                             |
+| <dl> <dt>**SE \_ ERREUR \_ ACCESSDENIED**</dt> </dl>    | Le système d’exploitation a refusé l’accès au fichier spécifié.<br/>                                                                                                     |
+| <dl> <dt>**SE \_ ERREUR \_ ASSOCINCOMPLETE**</dt> </dl> | L’Association du nom de fichier est incomplète ou non valide.<br/>                                                                                                           |
+| <dl> <dt>**SE \_ ERREUR \_ DDEBUSY**</dt> </dl>         | La transaction DDE n’a pas pu être effectuée, car d’autres transactions DDE étaient en cours de traitement.<br/>                                                               |
+| <dl> <dt>**SE \_ ERREUR \_ DDEFAIL**</dt> </dl>         | Échec de la transaction DDE.<br/>                                                                                                                                   |
+| <dl> <dt>**SE \_ ERREUR \_ DDETIMEOUT**</dt> </dl>      | La transaction DDE n’a pas pu aboutir car la demande a expiré.<br/>                                                                                     |
+| <dl> <dt>**SE \_ ERREUR \_ DLLNOTFOUND**</dt> </dl>     | La DLL spécifiée est introuvable.<br/>                                                                                                                              |
+| <dl> <dt>**SE \_ ERREUR \_ FNF**</dt> </dl>             | Le fichier spécifié est introuvable.<br/>                                                                                                                             |
+| <dl> <dt>**SE \_ ERREUR \_ NOassoc**</dt> </dl>         | Aucune application n’est associée à l’extension de nom de fichier donnée. Cette erreur est également retournée si vous tentez d’imprimer un fichier qui n’est pas imprimable.<br/> |
+| <dl> <dt>**SE \_ ERREUR \_ insuffisance**</dt> </dl>             | La mémoire est insuffisante pour terminer l’opération.<br/>                                                                                                        |
+| <dl> <dt>**SE \_ ERREUR \_ PNF**</dt> </dl>             | Le chemin spécifié est introuvable.<br/>                                                                                                                             |
+| <dl> <dt>**SE \_ partage d’erreur \_**</dt> </dl>           | Une violation de partage s’est produite.<br/>                                                                                                                                 |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **WOWShellExecute** n’est pas inclus dans un en-tête ou un fichier. lib. Elle est exportée à partir de Shell32.dll par son nom.
 

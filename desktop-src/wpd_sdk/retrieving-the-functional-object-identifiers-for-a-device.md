@@ -4,16 +4,16 @@ ms.assetid: 9a13071a-95a1-4330-92d5-11fa72a8f211
 title: Récupération des identificateurs d’objets fonctionnels pour un appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6a753324e24a6b78625a78b4128380288b6672f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93d0cc686a6997c10e26e3d83190503bba09fe15afc7f4e0cf75e297f0d905f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119262999"
 ---
 # <a name="retrieving-the-functional-object-identifiers-for-a-device"></a>Récupération des identificateurs d’objets fonctionnels pour un appareil
 
-Comme indiqué dans la rubrique [récupération des catégories fonctionnelles prises en charge par un appareil](retrieving-the-functional-categories-supported-by-a-device.md) , les périphériques mobiles Windows peuvent prendre en charge une ou plusieurs catégories fonctionnelles. Toute catégorie fonctionnelle donnée peut prendre en charge un ou plusieurs objets fonctionnels. Par exemple, la catégorie de stockage peut prendre en charge trois objets de stockage fonctionnels, chacun étant identifié par une chaîne d’identificateur unique. Le premier objet de stockage peut ensuite être identifié par la chaîne « Storage1 », le deuxième par la chaîne « Storage2 » et le troisième par la chaîne « Storage3 ».
+comme indiqué dans la rubrique [récupération des catégories fonctionnelles prises en charge par un périphérique](retrieving-the-functional-categories-supported-by-a-device.md) , Windows appareils mobiles peuvent prendre en charge une ou plusieurs catégories fonctionnelles. Toute catégorie fonctionnelle donnée peut prendre en charge un ou plusieurs objets fonctionnels. Par exemple, la catégorie de stockage peut prendre en charge trois objets de stockage fonctionnels, chacun étant identifié par une chaîne d’identificateur unique. Le premier objet de stockage peut ensuite être identifié par la chaîne « Storage1 », le deuxième par la chaîne « Storage2 » et le troisième par la chaîne « Storage3 ».
 
 La fonction ListFunctionalObjects dans le module DeviceCapabilities. cpp illustre la récupération des types de contenu pour les catégories fonctionnelles prises en charge par un périphérique sélectionné.
 

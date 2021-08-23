@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d5b52c3890b70ecb931211af1788afe2b8e6ad4
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 12975095aa78d143aaaf096e8b0141f37d45a56286e7d607a9253e59e27ba5bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103869389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489842"
 ---
 # <a name="gltranslatef-function"></a>glTranslatef fonction)
 
@@ -56,7 +56,7 @@ Coordonnée *y* d’un vecteur de translation.
 
 </dd> <dt>
 
-*z* 
+*Lettre* 
 </dt> <dd>
 
 Coordonnée *z* d’un vecteur de translation.
@@ -67,7 +67,7 @@ Coordonnée *z* d’un vecteur de translation.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glTranslatef** produit la traduction spécifiée par (*x*, *y*, *z*). Le vecteur de translation est utilisé pour calculer une matrice de traduction 4x4 :
 

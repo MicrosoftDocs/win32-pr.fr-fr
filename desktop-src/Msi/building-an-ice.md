@@ -4,12 +4,12 @@ ms.assetid: d9ff43ee-8e7a-4132-ac2f-232dc24606d8
 title: Génération d’une glace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f2de8dab0284a612723461d11b420ed1f22b244
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b4b79ab8e17d53ccfb60484c0d307f668c44a7a0e530cf776b10e73a697541c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500762"
 ---
 # <a name="building-an-ice"></a>Génération d’une glace
 
@@ -31,7 +31,7 @@ Les actions personnalisées ICE sont limitées aux types d’actions personnalis
 | [Type d’action personnalisé 2](custom-action-type-2.md)   | EXE dans un flux binaire      |
 | [Type d’action personnalisé 5](custom-action-type-5.md)   | JScript dans un flux binaire  |
 | [Type d’action personnalisé 6](custom-action-type-6.md)   | VBScript dans un flux binaire |
-| [Type d’action personnalisé 37](custom-action-type-37.md) | Code JScript sous forme de chaîne    |
+| [Type d’action personnalisé 37](custom-action-type-37.md) | JScript le code en tant que chaîne    |
 | [Type d’action personnalisé 38](custom-action-type-38.md) | Code VBScript sous forme de chaîne   |
 
 

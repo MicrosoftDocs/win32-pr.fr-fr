@@ -6,12 +6,12 @@ keywords:
 - effet de transfert discret
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c05ef08f9ddf053eaa686cb0f88d4183194d9e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8c977e6d2b03a3496bfa9be84209a32f57094c8514f6760746f9ec967c2ff8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104564742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431399"
 ---
 # <a name="discrete-transfer-effect"></a>Effet de transfert discret
 
@@ -21,7 +21,7 @@ Le CLSID de cet effet est CLSID \_ D2D1DiscreteTransfer.
 
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -33,7 +33,7 @@ L’image ci-dessous montre l’entrée et la sortie de l’effet de transfert d
 | Avant                                                            |
 |-------------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)        |
-| After                                                             |
+| Après                                                             |
 | ![image après la transformation.](images/12-discretetransfer.png) |
 
 
@@ -106,8 +106,8 @@ Voici à quoi ressemble le graphique de la fonction de transfert discret si les 
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

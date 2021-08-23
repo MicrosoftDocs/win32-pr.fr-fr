@@ -10,12 +10,12 @@ keywords:
 - fonctions de dessin, Portage à partir de IRIS GL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2adeeeb244f746f6f75491905f06115aef00418d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 36ee312814b645a5f5a5ea2bc97504de66071005afbb88b47a7cc0528bbe3d2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485589"
 ---
 # <a name="porting-drawing-functions"></a>Portage des fonctions de dessin
 
@@ -31,9 +31,9 @@ Les sections suivantes expliquent comment porter les primitives de dessin de l�
 -   [Portage des arcs et des cercles](porting-arcs-and-circles.md)
 -   [Portage des sphères](porting-spheres.md)
 
- 
+ 
 
- 
+ 
 
 
 

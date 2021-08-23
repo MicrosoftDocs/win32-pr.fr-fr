@@ -4,12 +4,12 @@ ms.assetid: d198197e-d146-4f1b-99df-944822e83357
 title: Operation, élément
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c0e4562241f5f437554d0af28dc8bca482512ea
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2ab38721d1eb0d32c2ed7209dde872a83b29a523942ac7b91ca76f479ce5d51d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502189"
 ---
 # <a name="operation-element"></a>Operation, élément
 
@@ -81,7 +81,7 @@ Cela génère des déclarations de fonction idl pour toutes les méthodes associ
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

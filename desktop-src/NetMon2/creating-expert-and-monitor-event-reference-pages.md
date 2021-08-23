@@ -4,12 +4,12 @@ ms.assetid: 78d6e8cf-785e-4d5f-a78d-9ef9da9bc3e0
 title: Création d’un expert et surveillance des pages de référence des événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33c84610c7a1088e994fc852c64a7893f73f7909
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5826ab0aaa71461f6b4e56b9330e00c5af6aae26952d84af88c380da6dfe41fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144232"
 ---
 # <a name="creating-expert-and-monitor-event-reference-pages"></a>Création d’un expert et surveillance des pages de référence des événements
 
@@ -30,7 +30,7 @@ Pour développer un nouvel ERP, la première étape consiste à déterminer les 
 Une fois que vous avez établi une liste de vos solutions ERP uniques, procédez comme suit pour créer chaque ERP.
 
 -   [Écrivez le document source HTML](writing-an-event-reference-page.md).
--   [Enregistrez et nommez](naming-an-event-reference-page.md) le fichier source HTML en tant que fichier. htm.
+-   [Enregistrez et nommez](naming-an-event-reference-page.md) le fichier source HTML sous la forme d’un fichier de .htm.
 -   [Testez l’ERP](testing-an-event-reference-page.md) avec l’expert ou l’analyse terminé.
 
  

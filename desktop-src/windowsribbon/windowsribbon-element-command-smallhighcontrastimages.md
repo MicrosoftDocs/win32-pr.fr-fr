@@ -3,7 +3,7 @@ title: Command. SmallHighContrastImages, propriété
 description: Représente un conteneur d’images ; dans ce cas, il s’agit de petites images à utiliser avec les paramètres système à contraste élevé.
 ms.assetid: d1c441eb-885a-4dc1-b98d-5a36cab2f837
 keywords:
-- Ruban Windows de la propriété Command. SmallHighContrastImages
+- propriété Command. SmallHighContrastImages Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56291ad4e56e5f941fe4cb2790ac6afab27ad67b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ddee0ccadc966b89d381e02cca5ac1ae336c98671c82a3e4f39f8ebdd6cbeb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329289"
 ---
 # <a name="commandsmallhighcontrastimages-property"></a>Command. SmallHighContrastImages, propriété
 
 Représente un conteneur d’images ; dans ce cas, il s’agit de petites images à utiliser avec les paramètres système à contraste élevé.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Command.SmallHighContrastImages>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**commande**](windowsribbon-element-command.md).
 
@@ -117,8 +117,8 @@ Cette section de code montre les déclarations de commande [**SplitButton**](win
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

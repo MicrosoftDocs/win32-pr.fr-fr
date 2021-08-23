@@ -99,12 +99,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0c99ca6f12836c620ed7c952e0ceb1844aee3b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 289dff131b29bad45a66b1a1e1b1c4e64b464b3e0476b9ece82e1c7f2479cb14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106516104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570179"
 ---
 # <a name="option-flags-winineth"></a>Indicateurs d’option (Wininet. h)
 
@@ -267,7 +267,7 @@ Par défaut, la partie hôte ou autorité de l’URL Unicode est encodée en fon
 
 
 
-Par défaut, la partie chemin d’accès de l’URL est encodée en UTF8. L’API WinINet exécute un caractère d’échappement (%) encodage sur les caractères étendus. La définition de cette option sur la demande, ou le descripteur de connexion, désactive l’encodage UTF8 et définit une page de codes spécifique. Le paramètre *lpBuffer* dans l’appel à [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) contient la page de codes DBCS souhaitée pour le chemin d’accès. Si aucune page de codes n’est spécifiée dans *lpBuffer*, Wininet utilise la valeur par défaut de CP \_ UTF8.
+Par défaut, la partie chemin d’accès de l’URL est encodée en UTF8. L’API WinINet effectue un encodage de caractère d’échappement (%) sur les caractères étendus. La définition de cette option sur la demande, ou le descripteur de connexion, désactive l’encodage UTF8 et définit une page de codes spécifique. Le paramètre *lpBuffer* dans l’appel à [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) contient la page de codes DBCS souhaitée pour le chemin d’accès. Si aucune page de codes n’est spécifiée dans *lpBuffer*, Wininet utilise la valeur par défaut de CP \_ UTF8.
 
 **Windows XP avec SP2 et Windows Server 2003 avec SP1 :** Cet indicateur n’est pas pris en charge.
 
@@ -284,7 +284,7 @@ Par défaut, la partie chemin d’accès de l’URL est encodée en UTF8. L’AP
 
 
 
-Par défaut, la partie chemin d’accès de l’URL est la page de codes système par défaut (CP \_ ACP). Caractère d’échappement (%) les conversions ne sont pas effectuées sur la partie supplémentaire. La définition de cette option sur la demande ou sur le descripteur de connexion désactive le \_ codage ACP ACP. Le paramètre *lpBuffer* dans l’appel à [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) contient la page de codes DBCS souhaitée pour la partie supplémentaire de l’URL. Si aucune page de codes n’est spécifiée dans *lpBuffer*, Wininet utilise la page de codes système par défaut (CP \_ ACP).
+Par défaut, la partie chemin d’accès de l’URL est la page de codes système par défaut (CP \_ ACP). Les conversions de caractère d’échappement (%) ne sont pas effectuées sur la partie supplémentaire. La définition de cette option sur la demande ou sur le descripteur de connexion désactive le \_ codage ACP ACP. Le paramètre *lpBuffer* dans l’appel à [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) contient la page de codes DBCS souhaitée pour la partie supplémentaire de l’URL. Si aucune page de codes n’est spécifiée dans *lpBuffer*, Wininet utilise la page de codes système par défaut (CP \_ ACP).
 
 **Windows XP avec SP2 et Windows Server 2003 avec SP1 :** Cet indicateur n’est pas pris en charge.
 
@@ -301,7 +301,7 @@ Par défaut, la partie chemin d’accès de l’URL est la page de codes systèm
 
 
 
-Pour une demande dans laquelle WinInet décompresse l’encodage de contenu fourni par le serveur, récupère la longueur de contenu signalée par le serveur du corps de la réponse en tant que ULONGLONG. Pris en charge dans Windows 10, version 1507 et versions ultérieures.
+Pour une demande dans laquelle WinInet décompresse l’encodage de contenu fourni par le serveur, récupère la longueur de contenu signalée par le serveur du corps de la réponse en tant que ULONGLONG. pris en charge dans Windows 10, version 1507 et versions ultérieures.
 
 
 </dt> </dl> </dd> <dt>
@@ -532,9 +532,9 @@ Non implémenté.
 
 Définit un masque de réinitialisation DWORD des versions HTTP avancées acceptables. Peut être défini sur n’importe quel type de handle. Les valeurs possibles sont les suivantes :
 
--   \_ \_ Indicateur de protocole http \_ http2 (0X2). Pris en charge sur Windows 10, version 1507 et versions ultérieures.
+-   \_ \_ Indicateur de protocole http \_ http2 (0X2). pris en charge sur Windows 10, la version 1507 et les versions ultérieures.
 
-Les versions héritées de HTTP (1,1 et versions antérieures) ne peuvent pas être désactivées à l’aide de cette option. La valeur par défaut est 0x0. Pris en charge dans Windows 10, version 1507 et versions ultérieures.
+Les versions héritées de HTTP (1,1 et versions antérieures) ne peuvent pas être désactivées à l’aide de cette option. La valeur par défaut est 0x0. pris en charge dans Windows 10, version 1507 et versions ultérieures.
 
 
 </dt> </dl> </dd> <dt>
@@ -547,7 +547,7 @@ Les versions héritées de HTTP (1,1 et versions antérieures) ne peuvent pas ê
 
 
 
-Sur un handle de demande, définit un booléen qui contrôle si les redirections sont retournées à partir du cache WinInet pour une demande donnée. La valeur par défaut est FALSE. Pris en charge dans Windows 8 et versions ultérieures.
+Sur un handle de demande, définit un booléen qui contrôle si les redirections sont retournées à partir du cache WinInet pour une demande donnée. La valeur par défaut est FALSE. pris en charge dans Windows 8 et versions ultérieures.
 
 
 </dt> </dl> </dd> <dt>
@@ -560,7 +560,7 @@ Sur un handle de demande, définit un booléen qui contrôle si les redirections
 
 
 
-Obtient/définit une valeur BOOLÉENNE indiquant si les caractères non-ASCII de la chaîne de requête doivent être encodés en pourcentage. La valeur par défaut est FALSE. Pris en charge dans Windows 8.1 et versions ultérieures.
+Obtient/définit une valeur BOOLÉENNE indiquant si les caractères non-ASCII de la chaîne de requête doivent être encodés en pourcentage. La valeur par défaut est FALSE. pris en charge dans Windows 8.1 et versions ultérieures.
 
 
 </dt> </dl> </dd> <dt>
@@ -641,7 +641,7 @@ Non implémenté.
 
 
 
-Définit un PWSTR contenant l’ID d’entreprise (voir https://msdn.microsoft.com/library/windows/desktop/mt759320(v=vs.85).aspx) qui s’applique à la demande. Pris en charge dans Windows 10, version 1507 et versions ultérieures.
+définit un PWSTR contenant l’ID de Enterprise (consultez https://msdn.microsoft.com/library/windows/desktop/mt759320(v=vs.85).aspx) qui s’applique à la demande. pris en charge dans Windows 10, version 1507 et versions ultérieures.
 
 
 </dt> </dl> </dd> <dt>
@@ -792,7 +792,7 @@ Récupère une valeur d’entier long non signé qui contient le type des handle
 
 
 
-Obtient/définit une valeur BOOLÉENNE qui indique si WinInet doit suivre les directives HSTS (HTTP strict transport Security) des serveurs. Si cette option est activée, les demandes de https://mises en cache pour les domaines qui ont une stratégie HSTS mise en cache par WinInet sont redirigées vers les URL https://correspondantes. La valeur par défaut est FALSE. Pris en charge dans Windows 8.1 et versions ultérieures.
+Obtient/définit une valeur BOOLÉENNE qui indique si WinInet doit suivre les directives HSTS (HTTP strict transport Security) des serveurs. Si cette option est activée, les demandes de https://mises en cache pour les domaines qui ont une stratégie HSTS mise en cache par WinInet sont redirigées vers les URL https://correspondantes. La valeur par défaut est FALSE. pris en charge dans Windows 8.1 et versions ultérieures.
 
 
 </dt> </dl> </dd> <dt>
@@ -820,9 +820,9 @@ Permet à WinINet d’effectuer le décodage pour les schémas d’encodage gzip
 
 Obtient une valeur DWORD qui indique quelle version HTTP avancée a été utilisée sur une demande donnée. Les valeurs possibles sont les suivantes :
 
--   \_ \_ Indicateur de protocole http \_ http2 (0X2). Pris en charge sur Windows 10, version 1507 et versions ultérieures.
+-   \_ \_ Indicateur de protocole http \_ http2 (0X2). pris en charge sur Windows 10, la version 1507 et les versions ultérieures.
 
-0x0 indique HTTP/1.1 ou une version antérieure ; consultez \_ la version http de l’option Internet \_ si une \_ plus grande précision est nécessaire pour déterminer quelle version héritée a été utilisée. Pris en charge sur Windows 10, version 1507 et versions ultérieures.
+0x0 indique HTTP/1.1 ou une version antérieure ; consultez \_ la version http de l’option Internet \_ si une \_ plus grande précision est nécessaire pour déterminer quelle version héritée a été utilisée. pris en charge sur Windows 10, la version 1507 et les versions ultérieures.
 
 
 </dt> </dl> </dd> <dt>
@@ -837,7 +837,7 @@ Obtient une valeur DWORD qui indique quelle version HTTP avancée a été utilis
 
 Définit ou récupère une structure [**d' \_ \_ informations de version http**](/windows/desktop/api/Wininet/ns-wininet-http_version_info) qui contient la version http prise en charge. Elle doit être utilisée sur un handle **null** . Utilisé par [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) et [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona).
 
-Sur Windows 7, Windows Server 2008 R2 et versions ultérieures, la valeur du membre **dwMinorVersion** dans la structure info de la [**\_ version \_ http**](/windows/desktop/api/Wininet/ns-wininet-http_version_info) est remplacée par les paramètres d’Internet Explorer. **EnableHttp1 \_ 1** est une valeur de Registre sous **HKLM \\ Software \\ Microsoft \\ InternetExplorer \\ AdvacnedOptions \\ http \\ GENABLE** contrôlé par les options Internet définies dans Internet Explorer pour le système. La valeur **EnableHttp1 \_ 1** est définie par défaut sur 1. La structure des **\_ \_ informations de version http** est ignorée pour toute VERSION http inférieure à 1,1 si **EnableHttp1 \_ 1** est défini sur 1.
+sur Windows 7, Windows Server 2008 R2 et versions ultérieures, la valeur du membre **dwMinorVersion** dans la structure INFO de la [**\_ VERSION \_ HTTP**](/windows/desktop/api/Wininet/ns-wininet-http_version_info) est remplacée par les paramètres d’Internet Explorer. **EnableHttp1 \_ 1** est une valeur de Registre sous **HKLM \\ Software \\ Microsoft \\ InternetExplorer \\ AdvacnedOptions \\ http \\ GENABLE** contrôlé par les options Internet définies dans Internet Explorer pour le système. La valeur **EnableHttp1 \_ 1** est définie par défaut sur 1. La structure des **\_ \_ informations de version http** est ignorée pour toute VERSION http inférieure à 1,1 si **EnableHttp1 \_ 1** est défini sur 1.
 
 
 </dt> </dl> </dd> <dt>
@@ -1785,10 +1785,10 @@ Définit ou récupère une valeur d’entier long non signé qui contient la tai
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

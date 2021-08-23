@@ -1,15 +1,15 @@
 ---
-description: Windows Installer les développeurs peuvent créer des outils qui permettent aux utilisateurs finaux d’utiliser des modules de fusion configurables.
+description: Windows Les développeurs de programme d’installation peuvent créer des outils qui permettent aux utilisateurs finaux d’utiliser des modules de fusion configurables.
 ms.assetid: 5857b788-f1dd-41d0-b0ee-0872494e3c2c
 title: Ajout de la fonctionnalité de configuration de module à un outil de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba04d297ad93cffc553670c648577f650cd21407
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb20645d4a66b09ffa95e34f04e9057bd0a8c57e645be652d8ea8cd595ddd6cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119252099"
 ---
 # <a name="adding-module-configuration-capability-to-a-merge-tool"></a>Ajout de la fonctionnalité de configuration de module à un outil de fusion
 

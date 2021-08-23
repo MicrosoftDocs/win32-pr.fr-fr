@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61a69abf69bd0fcf69767b3bb4590c2b995d5aa4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 432ffc8d2f1bd04c0faf2b3e6767c9e87e8e0d9d7e7b8f10f249a3ead5df5e68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119294469"
 ---
 # <a name="ms-ds-phonetic-department-attribute"></a>attribut ms-DS-Phonetic-Department
 
@@ -42,7 +42,7 @@ Contient le nom du service phonétique dans lequel la personne travaille.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

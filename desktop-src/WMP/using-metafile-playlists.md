@@ -3,7 +3,7 @@ title: Utilisation des sélections de métafichiers
 description: Utilisation des sélections de métafichiers
 ms.assetid: f5711a7f-7674-4b92-8262-cee8bac4aa77
 keywords:
-- Sélections de métafichiers Windows Media, à propos de
+- Windows Playlists de métafichier multimédia, à propos de
 - sélections, à propos de
 - sélections de métafichiers, à propos de
 ms.topic: article
@@ -13,16 +13,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 71f245d1fc1610174f842347a15dfcfaa13286e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec4cd47584aaba961d9faa3ba2058ab45145839787f702755ccb7a00fffbe827
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465859"
 ---
 # <a name="using-metafile-playlists"></a>Utilisation des sélections de métafichiers
 
-Les sélections spécifient la façon dont les fichiers multimédias ou multimédia de diffusion en continu sont lus et les métadonnées affichées par le lecteur Windows Media.
+les sélections spécifient la façon dont les fichiers multimédias ou multimédia de diffusion en continu sont lus et les métadonnées Lecteur Windows Media s’affichent.
 
 Cette section décrit plusieurs façons d’utiliser des sélections. La section est composée des rubriques suivantes.
 
@@ -31,7 +31,7 @@ Cette section décrit plusieurs façons d’utiliser des sélections. La section
 | Rubrique                                                                                              | Description                                                                                                                                                    |
 |----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Modification de l’affichage](modifying-the-display.md)                                                 | Ajouter du texte, des liens et des images.                                                                                                                                |
-| [Redirection](redirection.md)                                                                     | Utilisation des sélections pour rediriger le navigateur vers le lecteur Windows Media et spécifier l’URL d’un flux ou d’un fichier multimédia à lire.                                      |
+| [Redirection](redirection.md)                                                                     | utilisation des sélections pour rediriger le navigateur vers Lecteur Windows Media et spécification de l’URL d’un flux ou d’un fichier multimédia à lire.                                      |
 | [Accès au média](accessing-media.md)                                                             | Utilisation d’éléments de métafichier et de leurs éléments enfants pour spécifier le contenu auquel accéder, ainsi que l’ordre et la durée de leur lecture.                               |
 | [Utilisation du basculement de flux d’événements en temps réel](using-live-event-stream-switching.md)                         | Utilisation de l’élément **Event** pour spécifier un flux multimédia auquel accéder, puis reprendre la diffusion du flux d’origine. Utilisé pour l’insertion d’AD.                            |
 | [Utilisation de safiles pour basculer en continu](using-metafiles-for-seamless-stream-switching.md) | Utilisation de l’élément **Event** pour précharger le flux multimédia suivant afin d’éviter les écarts dans la présentation.                                                      |
@@ -42,7 +42,7 @@ Cette section décrit plusieurs façons d’utiliser des sélections. La section
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -51,15 +51,15 @@ Cette section décrit plusieurs façons d’utiliser des sélections. La section
 [**Sélections de métafichiers**](metafile-playlists.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Guide des métafichiers Windows Media**](windows-media-metafile-guide.md)
+[**Windows Guide du métafichier multimédia**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84972d95d381a630bf6caf7f0099ce740a4f2741
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 324f6c896c225453bfc8bf2ebb4b8619707c498c75e1309ea24fc6557cdd3deb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488808"
 ---
 # <a name="gluproject-function"></a>gluProject fonction)
 
@@ -117,7 +117,7 @@ Si la fonction est réussie, la valeur de retour est GL \_ true.
 
 Si la fonction échoue, la valeur de retour est GL \_ false.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluProject** transforme les coordonnées d’objet spécifiées en coordonnées de fenêtre à l’aide de *modelMatrix*, *projMatrix* et *Viewport*. Le résultat est stocké dans *Winx*, *winy* et *WINZ*.
 

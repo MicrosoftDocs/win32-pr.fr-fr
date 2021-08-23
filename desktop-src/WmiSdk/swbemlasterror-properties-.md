@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3e5c61f900e35c5dd40930eb33079a873b004d81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff9b2d81ad6217e74ffcd1e2196bec7da96337b22342980f4610837a6d2c5db2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119463939"
 ---
 # <a name="swbemlasterrorproperties_-property"></a>Propriété SWbemLastError. Properties \_
 

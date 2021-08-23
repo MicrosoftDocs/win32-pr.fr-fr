@@ -4,17 +4,17 @@ ms.assetid: 1aa92665-ab3b-4f04-9e6b-905942c197ef
 title: verrouiller l’attribut
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c7716f047e0df47ffb5e84cb2de0e9fe345836b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8fdd1718c25aab136219af436543df064bd8f68bb53ea15b00e09e6a18188c5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502319"
 ---
 # <a name="lock-attribute"></a>verrouiller l’attribut
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

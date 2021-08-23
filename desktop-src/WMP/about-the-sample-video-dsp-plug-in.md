@@ -3,11 +3,11 @@ title: À propos de l’exemple de plug-in de vidéo DSP
 description: À propos de l’exemple de plug-in de vidéo DSP
 ms.assetid: f2ba8e9d-a0e4-4679-99dc-2bfe9e451ffd
 keywords:
-- Plug-ins du lecteur Windows Media, exemples
+- plug-ins Lecteur Windows Media, exemples
 - plug-ins, exemples
 - plug-ins de traitement de signal numérique, exemples
 - Plug-ins DSP, exemples
-- Plug-ins du lecteur Windows Media, DSP vidéo
+- plug-ins Lecteur Windows Media, DSP de vidéo
 - plug-ins, DSP vidéo
 - plug-ins de traitement de signal numérique, exemples vidéo
 - Plug-ins DSP, exemples vidéo
@@ -15,12 +15,12 @@ keywords:
 - plug-ins vidéo DSP, exemples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ede2eda82c834cefad0e31009805f24941cd4a6e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dbb771bb87ffb53cf46022fc17ee2588e7cdac0b6b2c821f98fe6cf86799434c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470249"
 ---
 # <a name="about-the-sample-video-dsp-plug-in"></a>À propos de l’exemple de plug-in de vidéo DSP
 
@@ -44,9 +44,9 @@ L’exemple de plug-in Video DSP fonctionne avec les formats vidéo suivants :
 [**Génération d’un plug-in DSP**](building-a-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
