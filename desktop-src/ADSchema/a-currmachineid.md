@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d32b9a9f1e633e5041c3524fe79df5e4b4b26950
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 61c7820ab81f3c5f65fc70738d663bb69d2116e250c854c4a51582898c377d1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706639"
 ---
 # <a name="curr-machine-id-attribute"></a>Attribut-machine-ID
 
@@ -45,7 +45,7 @@ ID de l’ordinateur où se trouve un objet lien-Track-vol-entrée.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

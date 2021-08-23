@@ -4,12 +4,12 @@ ms.assetid: 2d67864a-fd2f-400d-8a1e-e71dc1920593
 title: Attribut MF_MT_FIXED_SIZE_SAMPLES (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d1bb5bdd4e1330e4744902ed1b37cc55b7a67a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3662532d1e10857945a828ec3f46beef991fb438dfea0f33dc7d73832aeca7e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605629"
 ---
 # <a name="mf_mt_fixed_size_samples-attribute"></a>\_Attribut d' \_ \_ échantillons de taille fixe \_ pour MF MT
 
@@ -21,7 +21,7 @@ Spécifie pour un type de média si les échantillons ont une taille fixe.
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet attribut a la **valeur true**, chaque échantillon dans le flux a la même taille (en octets). Dans le cas contraire, les échantillons peuvent varier en taille.
 
@@ -33,8 +33,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

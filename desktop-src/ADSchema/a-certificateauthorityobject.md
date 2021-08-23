@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65ffceb810cd6a4ef3033834dbf0f3c489f1506e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e6196e7d40f18ff60bab78ee8580a609bbbd96fe00ed69b4b07d82ca9c695b56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706869"
 ---
 # <a name="certificate-authority-object-attribute"></a>Certificate-Authority-Object (attribut)
 
@@ -45,7 +45,7 @@ Référence à l’autorité de certification associée à un point de distribut
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

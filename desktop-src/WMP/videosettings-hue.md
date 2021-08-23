@@ -3,7 +3,7 @@ title: VIDEOSETTINGS. Hue
 description: L’attribut Hue spécifie ou récupère le paramètre teinte de la vidéo.
 ms.assetid: b965b05c-6ffc-44bd-8761-366350ff14e3
 keywords:
-- Lecteur Windows Media VIDEOSETTINGS. Hue
+- VIDEOSETTINGS. hue Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df6e379183693bc072a7b7fccad0954fd6bcb75
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5ca3a5613ff348b6ef725a772f54a527997c7db8b772202ad2085687799ca8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615499"
 ---
 # <a name="videosettingshue"></a>VIDEOSETTINGS. Hue
 
@@ -37,7 +37,7 @@ Cet attribut est un **nombre** en lecture/écriture (**long**) dont la valeur es
 
 | Condition requise | Valeur |
 |--------------------|-----------------------------------------------------------------|
-| Version<br/> | Version du lecteur Windows Media pour Windows XP ou version ultérieure<br/> |
+| Version<br/> | version de Lecteur Windows Media pour Windows XP ou version ultérieure<br/> |
 
 
 

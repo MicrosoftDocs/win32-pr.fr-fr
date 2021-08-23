@@ -8,16 +8,16 @@ keywords:
 - ASF (format des systèmes avancés), fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cab464c3384a65776b993c2423f174debd7a89d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 560756451ee2f5b49d26b5611b38a40a45cac7643b101fdbe8ae492386901689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708259"
 ---
 # <a name="windows-media-format-sdk-functions"></a>Fonctions du SDK du format Windows Media
 
-Le kit de développement logiciel (SDK) du format Windows Media comprend des fonctions permettant de créer des objets, ainsi que des fonctions d’assistance pour simplifier certaines procédures.
+le kit de développement logiciel (SDK) Windows Media Format comprend des fonctions permettant de créer des objets, ainsi que des fonctions d’assistance pour simplifier certaines procédures.
 
 Ce kit de développement logiciel (SDK) prend en charge les fonctions suivantes pour la création initiale d’objets. Si un objet n’est pas listé ci-dessous, vous devez le créer à l’aide d’une interface à partir d’un autre objet. Pour plus d'informations, consultez [Objets](objects.md).
 
@@ -47,7 +47,7 @@ Ce kit de développement logiciel (SDK) prend en charge les fonctions suivantes 
 | [**WMCreateWriterPushSink**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink)                             | Crée un objet récepteur push de l’enregistreur.                                                                                                                      |
 | [**WMIsAvailableOffline**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline)                                 | Vérifie qu’un fichier ASF peut être lu à partir d’une copie mise en cache.                                                                                             |
 | [**WMIsContentProtected**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected)                                 | Vérifie un fichier pour le contenu DRM protégé.                                                                                                                |
-| [**WMValidateData**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)                                             | Vérifie que les données à partir du début d’un fichier sont cohérentes avec la section d’en-tête d’un type de fichier pris en charge par le kit de développement logiciel (SDK) du format Windows Media. |
+| [**WMValidateData**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)                                             | vérifie que les données à partir du début d’un fichier sont cohérentes avec la section d’en-tête d’un type de fichier pris en charge par le kit de développement logiciel (SDK) du Format multimédia Windows. |
 
 
 
@@ -59,11 +59,11 @@ Les fonctions suivantes fournissent des raccourcis pratiques pour l’analyse de
 
 | Fonction                                             | Description                                                                                                                                  |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WMCheckURLExtension**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension)   | Tente de déterminer si un fichier est lisible par les objets du kit de développement logiciel (SDK) du format Windows Media, en fonction de l’extension de nom de fichier.              |
-| [**WMCheckURLScheme**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme)         | Détermine si un protocole réseau est pris en charge par les objets du kit de développement logiciel (SDK) du format Windows Media.                                           |
+| [**WMCheckURLExtension**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension)   | tente de déterminer si un fichier est lisible par les objets du kit de développement logiciel (SDK) du Format multimédia Windows, en fonction de l’extension de nom de fichier.              |
+| [**WMCheckURLScheme**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme)         | détermine si un protocole réseau est pris en charge par les objets du kit de développement logiciel (SDK) du Format multimédia Windows.                                           |
 | [**WMIsAvailableOffline**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline) | Détermine si un fichier est disponible pour la lecture hors connexion.                                                                                 |
 | [**WMIsContentProtected**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected) | Vérifie un fichier pour le contenu DRM protégé.                                                                                                     |
-| [**WMValidateData**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)             | Tente de déterminer si un fichier est lisible par les objets du kit de développement logiciel (SDK) du format Windows Media en analysant les données au début du fichier. |
+| [**WMValidateData**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)             | tente de déterminer si un fichier peut être lu par les objets du kit de développement logiciel (SDK) de Format multimédia Windows en analysant les données au début du fichier. |
 
 
 

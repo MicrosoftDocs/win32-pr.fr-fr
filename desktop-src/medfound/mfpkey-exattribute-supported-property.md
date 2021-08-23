@@ -4,12 +4,12 @@ ms.assetid: 039ecb35-9aa9-4e8a-bbbc-042b9c4c874c
 title: MFPKEY_EXATTRIBUTE_SUPPORTED, propriété (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33017111eba95f54e88671cbcf026b3f40812a08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 248609828df3ef977112058ffe0d169104e68c181fa455ef27f2adcea0220aaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663508"
 ---
 # <a name="mfpkey_exattribute_supported-property"></a>\_Propriété MFPKEY EXattribute \_ prise en charge
 
@@ -31,7 +31,7 @@ VT \_ bool
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut peut avoir les valeurs suivantes.
 
@@ -95,8 +95,8 @@ BOOL TransformCopiesSampleAttributes(IMFTransform *pMFT)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

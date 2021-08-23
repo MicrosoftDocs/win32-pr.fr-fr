@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 0369e44d96a4f1dcacf33dbf1b1da6ad6d37eed2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7e9c2c424ea84436292158753de29294bbce3a5516b5ab0a9149892640963ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119667169"
 ---
 # <a name="protectkeywithtpm-method-of-the-win32_encryptablevolume-class"></a>Méthode ProtectKeyWithTPM de la \_ classe Win32 EncryptableVolume
 
@@ -65,7 +65,7 @@ Un profil de validation de plateforme se compose d’un ensemble d’index de re
 
 Si ce paramètre est spécifié alors que le paramètre de stratégie de groupe correspondant a été activé, il doit correspondre au paramètre stratégie de groupe.
 
-Si ce paramètre n’est pas spécifié, la valeur par défaut 0, 2, 4, 5, 8, 9, 10 et 11 est utilisée. Le profil de validation de plateforme par défaut protège la clé de chiffrement contre les modifications apportées à la racine principale de l’approbation de mesure (CRTM). le BIOS et les extensions de plateforme (PCR 0), le code d’option ROM (PCR 2), le code d’enregistrement de démarrage principal (PCR 4), la table de partition MBR (Master Boot Record) (PCR 5), le secteur de démarrage NTFS (PCR 8), le code de démarrage NTFS (PCR 9), le gestionnaire de démarrage (PCR 10) et le Chiffrement de lecteur BitLocker Access Control (PCR 11). Pour la sécurité de votre ordinateur, nous vous recommandons le profil par défaut. Les ordinateurs basés sur Unified Extensible Firmware Interface (UEFI) n’utilisent pas la PCR 5 par défaut. Pour bénéficier d’une protection supplémentaire contre les changements de configuration de démarrage précoces, utilisez un profil de PCR 0, 1, 2, 3, 4, 5, 8, 9, 10, 11.
+Si ce paramètre n’est pas spécifié, la valeur par défaut 0, 2, 4, 5, 8, 9, 10 et 11 est utilisée. Le profil de validation de plateforme par défaut protège la clé de chiffrement contre les modifications apportées à la racine principale de l’approbation de mesure (CRTM). le BIOS et les extensions de plateforme (PCR 0), le code d’option ROM (PCR 2), le code d’enregistrement de démarrage principal (PCR 4), la table de partition MBR (Master Boot Record) (PCR 5), le secteur de démarrage NTFS (PCR 8), le code de démarrage NTFS (PCR 9),  le gestionnaire de démarrage (PCR 10) et le Chiffrement de lecteur BitLocker Access Control (PCR 11). Pour la sécurité de votre ordinateur, nous vous recommandons le profil par défaut. Les ordinateurs basés sur Unified Extensible Firmware Interface (UEFI) n’utilisent pas la PCR 5 par défaut. Pour bénéficier d’une protection supplémentaire contre les changements de configuration de démarrage précoces, utilisez un profil de PCR 0, 1, 2, 3, 4, 5, 8, 9, 10, 11.
 
 La modification du profil par défaut affecte la sécurité et la facilité de gestion de votre ordinateur. La sensibilité de BitLocker aux modifications de la plateforme (malveillantes ou autorisées) est augmentée ou réduite en fonction de l’inclusion ou de l’exclusion, respectivement, du PCR. Pour que la protection BitLocker soit activée, le profil de validation de plateforme doit inclure PCR 11.
 
@@ -142,7 +142,7 @@ Pour la sécurité de votre ordinateur, nous vous recommandons le profil par dé
 
 La modification du profil par défaut affecte la sécurité ou l’utilisation de votre ordinateur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Au plus un protecteur de clé de type « TPM » peut exister pour un volume à tout moment. Si vous souhaitez modifier le nom complet ou le profil de validation de plateforme utilisé par un protecteur de clé « TPM » existant, vous devez d’abord supprimer le protecteur de clé existant, puis appeler **ProtectKeyWithTPM** pour en créer un nouveau.
 
@@ -150,7 +150,7 @@ Pour les index PCR de 0 à 5, les mesures actuelles dans les registres sont util
 
 Des protecteurs de clé supplémentaires doivent être spécifiés pour déverrouiller le volume dans les scénarios de récupération où l’accès à la clé de chiffrement du volume ne peut pas être obtenu. par exemple, lorsque le module de plateforme sécurisée ne peut pas être validé avec le profil de validation de plateforme. Utilisez [**ProtectKeyWithExternalKey**](protectkeywithexternalkey-win32-encryptablevolume.md) ou [**ProtectKeyWithNumericalPassword**](protectkeywithnumericalpassword-win32-encryptablevolume.md) pour créer un ou plusieurs protecteurs de clé pour la récupération d’un volume autrement verrouillé.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -158,8 +158,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista entreprise, les applications de bureau Windows Vista Édition intégrale \[ uniquement\]<br/>                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows vista Enterprise, Windows les applications de bureau vista Ultimate \[ uniquement\]<br/>                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |
 

@@ -3,9 +3,9 @@ title: External. showPopup, méthode
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. showPopup, méthode
 ms.assetid: 17958543-dbed-45a5-9b02-4800a07cb820
 keywords:
-- méthode showPopup lecteur Windows Media
-- méthode showPopup lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode showPopup
+- méthode showPopup Lecteur Windows Media
+- méthode showPopup Lecteur Windows Media, classe externe
+- External, classe Lecteur Windows Media, méthode showPopup
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acaecb559e7df60067e89ec754ec9432233500f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a651add93e32c1c2eb82827a4089a338341f2506ba26d9fbb06061aa6d185d75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648339"
 ---
 # <a name="externalshowpopup-method"></a>External. showPopup, méthode
 
@@ -30,7 +30,7 @@ ms.locfileid: "106520841"
 
  
 
-La méthode **ShowPopup** demande au lecteur Windows Media d’afficher une page contextuelle. autrement dit, une page Web qui s’affiche dans une fenêtre distincte.
+la méthode **showPopup** demande à Lecteur Windows Media d’afficher une page web contextuelle ; autrement dit, une page Web qui s’affiche dans une fenêtre distincte.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -58,7 +58,7 @@ External.showPopup(
 *Paramètres* \[ dans\]
 </dt> <dd>
 
-**Chaîne** que le lecteur Windows Media ajoute à l’URL de la page Web.
+**chaîne** qui Lecteur Windows Media ajoute à l’URL de la page web.
 
 </dd> </dl>
 
@@ -66,17 +66,17 @@ External.showPopup(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’index contextuel n’est pas interprété par le lecteur Windows Media. Les index qui identifient les pages Web contextuelles sont créés par le magasin en ligne et ont une signification uniquement pour le magasin en ligne.
+l’index contextuel n’est pas interprété par Lecteur Windows Media. Les index qui identifient les pages Web contextuelles sont créés par le magasin en ligne et ont une signification uniquement pour le magasin en ligne.
 
-Les étapes suivantes montrent comment le lecteur Windows Media utilise les paramètres de la méthode **ShowPopup** pour créer une URL pour la fenêtre contextuelle.
+les étapes suivantes montrent comment Lecteur Windows Media utilise les paramètres de la méthode **showPopup** pour créer une URL pour la fenêtre contextuelle.
 
 1.  Un script sur une page de découverte appelle **ShowPopup**, en passant un entier dans *PopupIndex* et une chaîne dans les *paramètres*.
 
-2.  Le lecteur Windows Media transmet l’index à [IWMPContentPartner :: GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) pour récupérer l’URL de la page Web à afficher.
+2.  Lecteur Windows Media passe l’index à [IWMPContentPartner :: GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) pour récupérer l’URL de la page web à afficher.
 
-3.  Le lecteur Windows Media ajoute des *paramètres* à l’URL sous la forme d’une chaîne de requête. Par exemple, si **GetItemInfo** retourne « https://www.Proseware.com/Pages/Popup1.htm » et que les *paramètres* sont égaux à « DlgX = 800&DlgY = 400&Greeting = Hi », le lecteur Windows Media crée l’URL suivante :
+3.  Lecteur Windows Media ajoute des *paramètres* à l’URL sous la forme d’une chaîne de requête. par exemple, si **GetItemInfo** retourne « https://www.Proseware.com/Pages/Popup1.htm » et que les *paramètres* sont égaux à « DlgX = 800&DlgY = 400&Greeting = Hi », Lecteur Windows Media crée l’URL suivante :
 
     https://www.Proseware.com/Pages/Popup1.htm?DlgX=800&DlgY=400&Greeting=Hi
 

@@ -4,12 +4,12 @@ description: IAgentCharacter SetIdleOn
 ms.assetid: 397d223a-0970-4535-ad46-2923df6b9975
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98db30c9c440ed0564b98977d33e15e390cf57d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fde86da6dda12744aedcd780b93d92c45fe2906dd16073bf0e3555848718e747
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665679"
 ---
 # <a name="iagentcharactersetidleon"></a>IAgentCharacter::SetIdleOn
 
@@ -41,9 +41,9 @@ Le serveur définit automatiquement un délai d’attente après la dernière an
 [**IAgentCharacter::GetIdleOn**](iagentcharacter--getidleon.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

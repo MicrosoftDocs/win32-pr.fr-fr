@@ -4,12 +4,12 @@ description: Échantillonne des données à partir de l’élément/texture spé
 ms.assetid: D285F63E-1026-45F1-9959-6F5AB2A27C95
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5acd83d81e4648cc9eae5f8e0166013dcca512a8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: dbd65be095476cdac16ee95009994041af0b1812101b1d0d0b9a33a315ed58d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671809"
 ---
 # <a name="sample_l-sm4---asm"></a>exemple \_ l (SM4-ASM)
 
@@ -38,7 +38,7 @@ ms.locfileid: "104322321"
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction est identique à [Sample](sample--sm4---asm-.md), sauf que LOD est fourni directement par l’application en tant que valeur scalaire, ce qui ne représente pas de anisotrope. Cette instruction est disponible dans toutes les étapes de nuanceur prodisponibles.
 
@@ -70,11 +70,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

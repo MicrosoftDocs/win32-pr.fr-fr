@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 8a5f77cbefb200bad973c0f2cf28fea5d3efe1da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d65c01ba3618bad563ee2b8c8a9c4fee3479a12c796b2f2f570832fac1d826c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709029"
 ---
 # <a name="iinkanalyzersetstroketype-method"></a>IInkAnalyzer :: SetStrokeType, méthode
 
@@ -58,7 +58,7 @@ Valeur [**StrokeType**](stroketype.md) à assigner au trait.
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le type du trait est la [](stroketype.md) valeur StrokeType **StrokeType non \_ classifiée**, le [**IInkAnalyzer**](iinkanalyzer.md) classe le trait pendant l’analyse de l’encre. Dans le cas contraire, le **IInkAnalyzer** utilise le type défini sur le trait.
 
@@ -80,7 +80,7 @@ Si le trait spécifié n’est pas associé à [**IInkAnalyzer**](iinkanalyzer.m
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

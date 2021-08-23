@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ad2438685087021438bc04361bb3df7697c478b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1f220893fae83399b5e7b1f38a282b48af977b807ec71223d5d52538c1fffeaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753449"
 ---
 # <a name="ntds-service-class"></a>Classe NTDS-Service
 
-Cette classe est utilisée pour un objet des services NTDS, qui contient des informations sur la configuration de la forêt du service d’annuaire. Cet objet est conservé dans le dossier CN = service d’annuaire, CN = Windows NT, CN = Services, CN = Configuration,... conteneur.
+Cette classe est utilisée pour un objet des services NTDS, qui contient des informations sur la configuration de la forêt du service d’annuaire. Cet objet est conservé dans le dossier CN = Directory Service, CN = Windows NT, CN = Services, CN = Configuration,... conteneur.
 
 
 
@@ -43,7 +43,7 @@ Cette classe est utilisée pour un objet des services NTDS, qui contient des inf
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam-attributes)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -70,9 +70,9 @@ Cette classe est utilisée pour un objet des services NTDS, qui contient des inf
 
 
 
-## <a name="windows-2000-server-attributes"></a>Attributs du serveur Windows 2000
+## <a name="windows-2000-server-attributes"></a>attributs de serveur Windows 2000
 
-Cette classe contient les attributs suivants pour le serveur Windows 2000 :
+cette classe contient les attributs suivants pour Windows serveur 2000 :
 
 
 
@@ -95,7 +95,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-heuristiques**](a-dsheuristics.md)                                   | Faux     | **NTDS-service**                |
 | [**Nom de l’extension**](a-extensionname.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)             | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -182,9 +182,9 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 
 
 
-## <a name="windows-server-2003-attributes"></a>Attributs Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Attributs du serveur 2003
 
-Cette classe contient les attributs suivants pour Windows Server 2003 :
+cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
@@ -207,7 +207,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-heuristiques**](a-dsheuristics.md)                                     | Faux     | **NTDS-service**                |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -236,7 +236,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**ms-DS-objet-référence-BL**](a-msds-objectreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Role-BL**](a-msds-operationsforazrolebl.md)     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-Other-Settings**](a-msds-other-settings.md)                       | Faux     | **NTDS-service**                |
+| [**ms-DS-Other-Paramètres**](a-msds-other-settings.md)                       | Faux     | **NTDS-service**                |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -355,7 +355,7 @@ Cette classe contient les attributs suivants pour ADAM :
 | [**ms-DS-NC REPL-curseurs**](a-msds-ncreplcursors.md)                       | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-CN-REPL-trafic entrant-voisins**](a-msds-ncreplinboundneighbors.md)    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-CN-REPL-sortant-voisins**](a-msds-ncreploutboundneighbors.md)  | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-Other-Settings**](a-msds-other-settings.md)                       | Faux     | **NTDS-service**                |
+| [**ms-DS-Other-Paramètres**](a-msds-other-settings.md)                       | Faux     | **NTDS-service**                |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-service-account-BL**](a-msds-serviceaccountbl.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -426,9 +426,9 @@ Cette classe contient les attributs suivants pour ADAM :
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Attributs Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Attributs du serveur 2003 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
+cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
@@ -451,7 +451,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-heuristiques**](a-dsheuristics.md)                                     | Faux     | **NTDS-service**                |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -482,7 +482,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**ms-DS-objet-référence-BL**](a-msds-objectreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Role-BL**](a-msds-operationsforazrolebl.md)     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)     | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-Other-Settings**](a-msds-other-settings.md)                       | Faux     | **NTDS-service**                |
+| [**ms-DS-Other-Paramètres**](a-msds-other-settings.md)                       | Faux     | **NTDS-service**                |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -560,9 +560,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
-## <a name="windows-server-2008-attributes"></a>Attributs Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Attributs du serveur 2008
 
-Cette classe contient les attributs suivants pour Windows Server 2008 :
+cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
@@ -585,7 +585,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-heuristiques**](a-dsheuristics.md)                                        | Faux     | **NTDS-service**                |
 | [**Nom de l’extension**](a-extensionname.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -623,7 +623,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**ms-DS-objet-référence-BL**](a-msds-objectreferencebl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Role-BL**](a-msds-operationsforazrolebl.md)        | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-Other-Settings**](a-msds-other-settings.md)                          | Faux     | **NTDS-service**                |
+| [**ms-DS-Other-Paramètres**](a-msds-other-settings.md)                          | Faux     | **NTDS-service**                |
 | [**ms-DS-principal-name**](a-msds-principalname.md)                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-PSO-appliqué**](a-msds-psoapplied.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)         | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -705,9 +705,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Attributs Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Attributs du serveur 2008 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
+cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
@@ -730,7 +730,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-heuristiques**](a-dsheuristics.md)                                          | Faux     | **NTDS-service**                |
 | [**Nom de l’extension**](a-extensionname.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -776,7 +776,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**ms-DS-OIDToGroup-Link-BL**](a-msds-oidtogrouplinkbl.md)                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Role-BL**](a-msds-operationsforazrolebl.md)          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)          | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-Other-Settings**](a-msds-other-settings.md)                            | Faux     | **NTDS-service**                |
+| [**ms-DS-Other-Paramètres**](a-msds-other-settings.md)                            | Faux     | **NTDS-service**                |
 | [**ms-DS-principal-name**](a-msds-principalname.md)                             | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-PSO-appliqué**](a-msds-psoapplied.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)           | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -858,7 +858,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -883,7 +883,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-heuristiques**](a-dsheuristics.md)                                                      | Faux     | **NTDS-service**                |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -932,7 +932,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-OIDToGroup-Link-BL**](a-msds-oidtogrouplinkbl.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Role-BL**](a-msds-operationsforazrolebl.md)                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)                      | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-Other-Settings**](a-msds-other-settings.md)                                        | Faux     | **NTDS-service**                |
+| [**ms-DS-Other-Paramètres**](a-msds-other-settings.md)                                        | Faux     | **NTDS-service**                |
 | [**ms-DS-principal-name**](a-msds-principalname.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-PSO-appliqué**](a-msds-psoapplied.md)                                               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)                       | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -941,7 +941,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |

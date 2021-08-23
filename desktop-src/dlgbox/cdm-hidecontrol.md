@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f1a5a7a1830ceeb2c3671b0dfb538ad89e0a58
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 0a69bbbf284631e83b607b6709dfec052e80ca0250e058fa68ca2d2c2a2dc0ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606359"
 ---
 # <a name="cdm_hidecontrol-message"></a>\_Message CDM HIDECONTROL
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[à partir de Windows Vista, les boîtes de dialogue **ouvrir** et **enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Masque le contrôle spécifié dans une boîte de dialogue **ouvrir** ou **Enregistrer sous** de style Explorateur. La boîte de dialogue doit avoir été créée avec l’indicateur **OFN \_ Explorer** ; sinon, le message échoue.
 
@@ -54,7 +54,7 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Ce message n’a pas de valeur de retour.
 
@@ -66,7 +66,7 @@ La macro correspondante est la suivante :
 void CommDlg_OpenSave_HideControl(hwnd, wparam);
 ```
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -82,7 +82,7 @@ void CommDlg_OpenSave_HideControl(hwnd, wparam);
 
 <dl> <dt>
 
-**Informations de référence**
+**Référence**
 </dt> <dt>
 
 [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)

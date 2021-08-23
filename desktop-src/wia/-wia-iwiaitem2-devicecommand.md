@@ -1,5 +1,5 @@
 ---
-description: Envoie une commande à un périphérique matériel WIA (Windows Image Acquisition) 2,0.
+description: envoie une commande à un périphérique matériel WIA (Windows Image Acquisition) 2,0.
 ms.assetid: a077448f-2029-4fd3-8bce-c0291afd0b79
 title: IWiaItem2 ::D méthode eviceCommand (WIA. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2961a3c0e0d1b75a487b9bf112e76bee8c937a72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f70fd7b4a987dac3a079651f2cbc04dc50817ba8a43f8da1449a3f605683ba65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106541185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706309"
 ---
 # <a name="iwiaitem2devicecommand-method"></a>IWiaItem2 ::D méthode eviceCommand
 
-Envoie une commande à un périphérique matériel WIA (Windows Image Acquisition) 2,0.
+envoie une commande à un périphérique matériel WIA (Windows Image Acquisition) 2,0.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -53,9 +53,9 @@ Actuellement inutilisé. Doit être défini sur zéro (0).
 *pCmdGUID* \[ dans\]
 </dt> <dd>
 
-Type : * #*const \* GUID* _
+Type : **const GUID \***
 
-Spécifie la commande à envoyer à l’appareil WIA 2,0. Consultez [les *commandes* * de l’appareil _ WIA](-wia-wia-device-commands.md).
+Spécifie la commande à envoyer à l’appareil WIA 2,0. Consultez [**commandes de l’appareil WIA**](-wia-wia-device-commands.md).
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ En plus des codes d’erreur COM standard, la méthode peut retourner la valeur 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le comportement de cette méthode est différent selon la catégorie du nœud sur lequel la méthode est appelée.
 
@@ -98,8 +98,8 @@ Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

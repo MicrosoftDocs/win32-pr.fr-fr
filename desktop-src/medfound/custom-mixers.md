@@ -4,16 +4,16 @@ ms.assetid: a0af318d-9ac2-43f9-8934-f28c472256a6
 title: Mélangeurs personnalisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac7e56c578a7081de7c71ae3abaf9fc45d085827
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 587206f7bc34d1fad4a64a12aeff9ab8ad21e18a84c92c8f2302776fdc126a68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605989"
 ---
 # <a name="custom-mixers"></a>Mélangeurs personnalisés
 
-Cette rubrique explique comment écrire un mélangeur personnalisé pour le convertisseur vidéo amélioré (EVR). Vous pouvez utiliser un mélangeur personnalisé avec le Media Foundation récepteur de média EVR ou le filtre EVR DirectShow. Pour plus d’informations sur les mélangeurs et les présentateurs, consultez [amélioration du rendu vidéo](enhanced-video-renderer.md).
+Cette rubrique explique comment écrire un mélangeur personnalisé pour le convertisseur vidéo amélioré (EVR). vous pouvez utiliser un mélangeur personnalisé avec le Media Foundation récepteur de média EVR ou le filtre DirectShow EVR. Pour plus d’informations sur les mélangeurs et les présentateurs, consultez [amélioration du rendu vidéo](enhanced-video-renderer.md).
 
 Le mélangeur est une transformation de Media Foundation (MFT) avec une ou plusieurs entrées (le flux de référence et les sous-flux) et une sortie. Le flux d’entrée reçoit des exemples de en amont. Le flux de sortie remet des exemples au présentateur. Le EVR est chargé d’appeler [**IMFTransform ::P rocessinput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput) sur le mélangeur, et le présenteur est chargé d’appeler [**IMFTransform ::P rocessoutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput).
 
@@ -42,7 +42,7 @@ Au minimum, un mélangeur EVR doit implémenter les interfaces suivantes :
 | [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)                   | Expose des interfaces telles que [**IMFVideoMixerBitmap**](/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap) et [**IMFVideoProcessor**](/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor) à l’application. |
 | [**IMFQualityAdvise**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)             | Permet au gestionnaire de qualité d’ajuster la qualité vidéo.                                                                                             |
 | [**IMFVideoMixerBitmap**](/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap)       | Permet à l’application de mélanger une image bitmap statique sur la vidéo.                                                                                       |
-| [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | Mappe les coordonnées sur l’image vidéo de sortie à des coordonnées sur l’image vidéo d’entrée.                                                                  |
+| [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | Cartes coordonnées sur l’image vidéo de sortie en coordonnées sur l’image vidéo d’entrée.                                                                  |
 | [**IMFVideoProcessor**](/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor)           | Expose certaines fonctionnalités de traitement vidéo DXVA à l’application.                                                                                      |
 
 
@@ -61,7 +61,7 @@ Si le type de média sur le flux de référence change, les autres types de supp
 
 Quand un flux d’entrée atteint la fin du flux, EVR appelle [**IMFTransform ::P rocessmessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage) sur le mixer avec la [**\_ \_ fin de la notification de message MFT \_ de la fin \_ du \_ flux**](mft-message-notify-end-of-stream.md).
 
-Le mélangeur envoie les événements suivants au EVR à l’aide de l’interface [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) du EVR. Cette interface est documentée dans la documentation du kit de développement logiciel (SDK) DirectShow.
+Le mélangeur envoie les événements suivants au EVR à l’aide de l’interface [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) du EVR. cette interface est documentée dans la documentation du kit de développement logiciel (SDK) DirectShow.
 
 
 
@@ -91,7 +91,7 @@ Au minimum, le mélangeur doit interroger l’interface suivante :
 
 Quand EVR appelle [**IMFTopologyServiceLookupClient :: ReleaseServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers), le mixer doit libérer tous les pointeurs obtenus à partir de l’appel à [**InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers).
 
-## <a name="mixer-attributes"></a>Attributs du mélangeur
+## <a name="mixer-attributes"></a>Mixer Attributs
 
 Un mélangeur doit prendre en charge les attributs suivants.
 
@@ -106,9 +106,9 @@ Un mélangeur doit prendre en charge les attributs suivants.
 
  
 
-## <a name="setting-the-mixer-on-the-evr"></a>Définition du mélangeur sur le EVR
+## <a name="setting-the-mixer-on-the-evr"></a>définition de la Mixer sur EVR
 
-Pour définir une fonction de mixage personnalisé sur le EVR, appelez [**IMFVideoRenderer :: InitializeRenderer**](/windows/desktop/api/evr/nf-evr-imfvideorenderer-initializerenderer). Le filtre DirectShow EVR et le récepteur multimédia EVR implémentent cette méthode.
+Pour définir une fonction de mixage personnalisé sur le EVR, appelez [**IMFVideoRenderer :: InitializeRenderer**](/windows/desktop/api/evr/nf-evr-imfvideorenderer-initializerenderer). DirectShow le filtre EVR et le récepteur multimédia EVR implémentent cette méthode.
 
 **Objet d’activation EVR**. Si vous utilisez l’objet d’activation EVR, vous pouvez fournir un mélangeur personnalisé en définissant l’un des attributs suivants sur l’objet d’activation EVR :
 

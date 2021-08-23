@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 5d77c78a78a6cecae0368e8d9192a0dc0efc10e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58e153da2695990f74d1268aa3e861bb9011b108ebdd1ea2d5128ff6f8e40a20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708209"
 ---
 # <a name="system_event_data-structure"></a>Structure des données d' \_ événement système \_
 
@@ -85,7 +85,7 @@ Type de curseur qui a provoqué l’événement. Pour plus d’informations, con
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les événements système suivants sont définis pour être utilisés dans le membre **bModifier** .
 
@@ -93,9 +93,9 @@ Les événements système suivants sont définis pour être utilisés dans le me
 
 | Valeur               | Description                  |
 |---------------------|------------------------------|
-| \_modificateur de se \_ CTRL  | La touche de contrôle a été enfoncée. |
-| \_modificateur de se \_ ALT   | La touche Alt a été enfoncée.     |
-| \_changement de modificateur de se \_ | La touche Maj a été enfoncée.   |
+| SE \_ MODIFICATeur \_ CTRL  | La touche de contrôle a été enfoncée. |
+| SE \_ MODIFICATeur \_ ALT   | La touche Alt a été enfoncée.     |
+| SE \_ MODIFIER le \_ décalage | La touche Maj a été enfoncée.   |
 
 
 
@@ -107,8 +107,8 @@ Les événements système suivants sont définis pour être utilisés dans le me
 
 | Valeur              | Description               |
 |--------------------|---------------------------|
-| \_curseur normal \_ se | Indique l’info-bulle du stylet.    |
-| curseur de la \_ gomme se \_ | Indique la gomme du stylet. |
+| SE \_ \_curseur normal | Indique l’info-bulle du stylet.    |
+| SE \_ curseur de gomme \_ | Indique la gomme du stylet. |
 
 
 
@@ -120,7 +120,7 @@ Les événements système suivants sont définis pour être utilisés dans le me
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 72193e89f415aabebfea4288fcdb986ccf8d73bd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afc3bcc1044d3d14b7ebf77ce12027fb3b772185f62b917fce7b74fbb3fa7e87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689329"
 ---
 # <a name="cameventoperator-handle-method"></a>CAMEvent. Operator, méthode de HANDLE
 
@@ -50,7 +50,7 @@ Retourne la variable de membre [**CAMEvent :: m \_ hEvent**](camevent-m-hevent.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

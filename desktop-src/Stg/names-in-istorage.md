@@ -4,12 +4,12 @@ description: Un jeu de propriétés est identifié par un identificateur de form
 ms.assetid: 5f8eba37-c589-413e-9971-7ecb01dc6734
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cef9417f2f5fad7fd17dcc3d431f1d3565a3843
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e17b1125f642d3f24e24fa6040bc5e55ca3d48b2384aac551680b84c1496900f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662379"
 ---
 # <a name="names-in-istorage"></a>Noms dans IStorage
 
@@ -22,14 +22,14 @@ Lors de la conversion d’un FMTID en nom de chaîne Unicode correspondant, vér
 | FMTID                                                                                | Nom de la chaîne                       | Équivalent                                                         |
 |--------------------------------------------------------------------------------------|-----------------------------------|------------------------------------------------------------------|
 | F29F85E0-4FF9-1068-AB91-08002B27B3D9                                                 | « \\ 005SummaryInformation »         | Informations résumées sur le COM2                                         |
-| D5CDD502-2E9C-101B-9397-08002B2CF9AE D5CDD505-2E9C-101B-9397-08002B2CF9AE<br/> | « \\ 005DocumentSummaryInformation » | Informations récapitulatives sur les documents Office et propriétés définies par l’utilisateur. |
+| D5CDD502-2E9C-101B-9397-08002B2CF9AE D5CDD505-2E9C-101B-9397-08002B2CF9AE<br/> | « \\ 005DocumentSummaryInformation » | Office des informations récapitulatives sur le document et les propriétés définies par l’utilisateur. |
 
 
 
  
 
 > [!Note]  
-> La propriété **DocumentSummaryInformation** et **UserDefined** définie est unique, car elle contient deux sections. Plusieurs sections ne sont pas autorisées dans un autre jeu de propriétés. Pour plus d’informations, consultez [format du jeu de propriétés sérialisées de stockage structuré](structured-storage-serialized-property-set-format.md), ainsi que [les jeux de propriétés DocumentSummaryInformation et UserDefined](the-documentsummaryinformation-and-userdefined-property-sets.md). La première section a été définie dans le cadre de COM ; la seconde a été définie par Microsoft Office.
+> La propriété **DocumentSummaryInformation** et **UserDefined** définie est unique, car elle contient deux sections. Plusieurs sections ne sont pas autorisées dans un autre jeu de propriétés. pour plus d’informations, consultez [Format du jeu de propriétés sérialisées Stockage sérialisées](structured-storage-serialized-property-set-format.md), ainsi que [les jeux de propriétés DocumentSummaryInformation et UserDefined](the-documentsummaryinformation-and-userdefined-property-sets.md). La première section a été définie dans le cadre de COM ; la seconde a été définie par Microsoft Office.
 
  
 

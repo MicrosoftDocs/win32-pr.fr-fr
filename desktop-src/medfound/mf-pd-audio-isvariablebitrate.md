@@ -4,12 +4,12 @@ ms.assetid: 2bd7eee1-5a93-4bde-8b58-80b6395a094e
 title: Attribut MF_PD_AUDIO_ISVARIABLEBITRATE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a34d3dd64f9100050dc9aae37e811d00c9d58af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb5c8c15c12bcd867342fb11f5e753c196f9954aea0393b2a461e1804f411339
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664189"
 ---
 # <a name="mf_pd_audio_isvariablebitrate-attribute"></a>\_Attribut ISVARIABLEBITRATE de l’audio MF PD \_ \_
 
@@ -17,7 +17,7 @@ Spécifie si les flux audio d’une présentation ont une vitesse de transmissio
 
 ## <a name="data-type"></a>Type de données
 
-**UINT32**
+**uint32**
 
 ## <a name="getset"></a>Obtenir/définir
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFPresentationDescriptor**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’un attribut facultatif pour les descripteurs de présentation. Si l’attribut a la **valeur true** (différente de zéro), la présentation contient au moins un flux audio VBR (variable-bit-rate). Si l’attribut a la **valeur false**, tous les flux audio ont une vitesse de transmission constante.
 
@@ -41,8 +41,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                     |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ ms.assetid: 7BFA846B-E614-4117-A196-298E065CB7F8
 title: Attribut MF_MT_DEPTH_MEASUREMENT (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8be6c06ea09f4017ae65935081eaa81d1ad00cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a292e5a96cec7490917ef0bb897a9a7a67dd303d29692bf6db5ff58e1d4388c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605796"
 ---
 # <a name="mf_mt_depth_measurement-attribute"></a>\_Attribut de \_ mesure de profondeur du Mt MF \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Valeur qui définit le système de mesure pour une valeur de profondeur dans une image vidéo.
 
@@ -21,7 +21,7 @@ Valeur qui définit le système de mesure pour une valeur de profondeur dans une
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur est un membre de l’énumération [**\_ MFDepthMeasurement**](/windows/win32/api/mfapi/ne-mfapi-mfdepthmeasurement)
 
@@ -45,8 +45,8 @@ Certaines caméras de profondeur attachent des métadonnées de masque de bits p
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                      |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                      |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 15E8FF6F-AD8C-436F-B3C0-5062B1F86E32
 title: CODECAPI_AVLowLatencyMode, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be7e23a29e9dd5f88f7a96e6c32fd42b68a7204
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 2d1466f7874fe743dbc865df251f077440885103853e3784af19624c4733a1e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606269"
 ---
 # <a name="codecapi_avlowlatencymode-property"></a>CODECAPI \_ propriété AVLowLatencyMode
 
@@ -38,14 +38,14 @@ L’encodeur est supposé ne pas ajouter de délai d’échantillonnage en raiso
 > [!WARNING] 
 > Dans l’implémentation actuelle, le Media Foundation décodeur H. 264 utilise le type **VT_UI4** pour cette propriété. Toutes les autres implémentations, y compris l’encodeur H. 264, utilisent le type **VT_BOOL**.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

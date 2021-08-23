@@ -4,12 +4,12 @@ ms.assetid: 7e92dd8f-d3a1-4e53-885c-ebc9626fd5dc
 title: Inscription d’une instance de service avec NLA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ae2e73e638e4bf0152c2c6c5a4f5ab87dda7312
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a623f28d30d02cd3a1266e173dbe28270f377a55c3f59f8ff095cf3d023a80eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106545809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641679"
 ---
 # <a name="registering-a-service-instance-with-nla"></a>Inscription d’une instance de service avec NLA
 
@@ -67,7 +67,7 @@ Lorsqu’elle est utilisée avec RNRSERVICE \_ Register, l’entrée est stocké
 
 NLA prend en charge les codes d’erreur suivants pour les appels de fonction [**WSASetService**](/windows/desktop/api/Winsock2/nf-winsock2-wsasetservicea) :
 
-| Error             | Signification                                                                                                                                                                    |
+| Erreur             | Signification                                                                                                                                                                    |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WSANOTINITIALISED | Un appel réussi à la fonction [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) pour initialiser NLA n’a pas été effectué.                                                                  |
 | WSAEACCESS        | \_ \_ Le réseau NLA AllUsers a été spécifié dans *dwControlFlags* alors qu’il n’est pas dans le contexte de sécurité d’un administrateur système local.                                                |

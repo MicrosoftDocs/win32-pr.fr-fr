@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42cd118f38de78546b7b792bca3c8c9ef6d229cb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ae6e4608a7f164a22cbf9ba3f0bbb93aed01026b8270c6b1145ee110b4221af1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706379"
 ---
 # <a name="obj-dist-name-attribute"></a>Obj-Dist-Name (attribut)
 
@@ -46,7 +46,7 @@ Identique au nom unique d’un objet. Utilisé par Exchange.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

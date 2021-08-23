@@ -9,18 +9,18 @@ keywords:
 - objets, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87d73672891395d6491009e1c62fac1f9eb81dfe
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7ccd206a548093602f609a11ed11a8d98b910bc35eefb6ba55b985427ac1d212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707449"
 ---
 # <a name="objects-windows-media-format-11-sdk"></a>Objets (SDK du format Windows Media 11)
 
-Le kit de développement logiciel (SDK) du format Windows Media utilise plusieurs objets pour lire, écrire, modifier et indexer des fichiers ASF, ainsi que pour créer et modifier des profils. Chaque objet prend en charge un certain nombre d’interfaces. Certaines interfaces sont prises en charge dans plusieurs objets. Dans ce cas, toutes les différences d’implémentation sont présentées dans la section de référence de l’interface.
+le kit de développement logiciel (SDK) Windows Media Format utilise plusieurs objets pour lire, écrire, modifier et indexer des fichiers ASF, ainsi que pour créer et modifier des profils. Chaque objet prend en charge un certain nombre d’interfaces. Certaines interfaces sont prises en charge dans plusieurs objets. Dans ce cas, toutes les différences d’implémentation sont présentées dans la section de référence de l’interface.
 
-Les objets du kit de développement logiciel (SDK) de format Windows Media sont conformes à COM. Pour faciliter le développement, chaque objet est associé à une fonction ou à une méthode de création. Vous devez créer des objets à l’aide de la fonction ou de la méthode de création plutôt que manuellement à l’aide de la fonction COM **CoCreateInstance**.
+les objets du kit de développement logiciel (SDK) Windows Media Format sont conformes à COM. Pour faciliter le développement, chaque objet est associé à une fonction ou à une méthode de création. Vous devez créer des objets à l’aide de la fonction ou de la méthode de création plutôt que manuellement à l’aide de la fonction COM **CoCreateInstance**.
 
 Certaines interfaces ont un nombre ajouté à leur nom, tel que **IWMProfile2** et **IWMWriter3**. Dans chaque cas, les versions numérotées héritent de toutes les méthodes des versions antérieures et ajoutent de nouvelles fonctionnalités.
 
@@ -34,7 +34,7 @@ Le tableau suivant répertorie les objets pris en charge par ce kit de développ
 |-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | [Restauration de sauvegarde](backup-restorer-object.md)                   | Sauvegarde les licences, généralement sur des supports amovibles, puis restaure ces licences sur un autre ordinateur.                                           | [**WMCreateBackupRestorer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer)                 |
 | [Inscription de l’appareil](device-registration-object.md)           | Gère la base de données d’inscription des appareils, qui contient des entrées pour les périphériques de lecture multimédia disponibles via une connexion réseau.             | [**WMCreateDeviceRegistration**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedeviceregistration)         |
-| [Transcrypteur DRM](drm-transcryptor-object.md)                 | Convertit les données multimédias protégées par DRM dans un flux de données qui peut être envoyé aux appareils qui utilisent le protocole Windows Media DRM 10 pour les périphériques réseau. | [**WMCreateDRMTranscryptor**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedrmtranscryptor)               |
+| [Transcrypteur DRM](drm-transcryptor-object.md)                 | convertit les données multimédias protégées par drm dans un flux de données qui peut être envoyé aux appareils qui utilisent le protocole Windows media DRM 10 pour les périphériques réseau. | [**WMCreateDRMTranscryptor**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatedrmtranscryptor)               |
 | [Indexeur](indexer-object.md)                                   | Crée un index pour les fichiers ASF pour permettre la recherche dans des fichiers avec des flux vidéo.                                                                            | [**WMCreateIndexer**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateindexer)                               |
 | [Agent de révocation des licences](license-revocation-agent-object.md) | Gère la révocation de licence.                                                                                                                              | [**WMCreateLicenseRevocationAgent**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreatelicenserevocationagent) |
 | [Metadata Editor](metadata-editor-object.md)                   | Modifie les métadonnées dans un en-tête de fichier ASF.                                                                                                                    | [**WMCreateEditor**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmcreateeditor)                                 |

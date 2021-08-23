@@ -1,21 +1,21 @@
 ---
 title: Implémentation de fichiers IPropertyStorage-Compound
-description: L’implémentation COM de l’architecture de stockage structurée est appelée fichiers composés.
+description: l’implémentation COM de l’architecture Stockage structurée est appelée fichiers composés.
 ms.assetid: c4b4f313-de58-44f2-8ce1-a07cc187d8ca
 keywords:
 - IPropertyStorage Strctd STG, implémentations, fichier composé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03d927b0145077f12e5ba508ca65554ca33633a3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fa3c4fffe98c4bfb896f346f25ce988f75bacf1fbb194b9ec27f50e22095c8cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662609"
 ---
 # <a name="ipropertystorage-compound-file-implementation"></a>Implémentation de fichiers IPropertyStorage-Compound
 
-L’implémentation COM de l’architecture de stockage structurée est appelée [fichiers composés](istorage-compound-file-implementation.md). Les objets de stockage tels qu’ils sont implémentés dans les fichiers composés incluent une implémentation de [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage), l’interface qui gère un jeu de propriétés persistantes unique et [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage), l’interface qui gère les groupes de jeux de propriétés persistantes. Pour plus d’informations sur l’interface **IPropertyStorage** , consultez [considérations relatives au stockage des propriétés](property-storage-considerations.md)et **IPropertyStorage** .
+l’implémentation COM de l’architecture Stockage structurée est appelée [fichiers composés](istorage-compound-file-implementation.md). les objets Stockage tels qu’ils sont implémentés dans les fichiers composés incluent une implémentation de [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage), l’interface qui gère un jeu de propriétés persistantes unique et [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage), l’interface qui gère les groupes de jeux de propriétés persistantes. pour plus d’informations sur l’interface **IPropertyStorage** , consultez [considérations relatives](property-storage-considerations.md)à la Stockage de propriétés et de **IPropertyStorage** .
 
 Pour obtenir un pointeur vers l’implémentation de fichier composé de [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage), appelez [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) pour créer un objet de fichier composé ou [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) pour ouvrir un objet de fichier composé créé précédemment. Dans le cas de **StgCreateStorageEx**, le paramètre *stgfmt* doit être défini sur \_ stockage stgfmt. Dans le cas de **StgOpenStorageEx**, le paramètre *stgfmt* doit être défini sur \_ stockage stgfmt ou stgfmt \_ Any. Dans les deux cas, le paramètre *riid* doit avoir la valeur IID \_ IPropertySetStorage. Les deux fonctions fournissent un pointeur vers l’interface de l’objet [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) . En appelant la méthode [**Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) ou [**Open**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open) de cette interface, vous obtiendrez un pointeur vers l’interface **IPropertyStorage** , que vous pouvez utiliser pour appeler l’une de ses méthodes.
 
@@ -28,7 +28,7 @@ Utilisez [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropert
 > [!Note]  
 > Si vous obtenez un pointeur vers [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) en appelant [**StgCreateDocFile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile), [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex), [**StgOpenStorage**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage) ou [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) sur un stockage de jeu de propriétés en mode simple, les méthodes **IPropertyStorage** adhèrent aux règles des flux en mode simple. Le stockage de jeu de propriétés est un mode simple s’il a été obtenu pour un fichier qui a été créé ou ouvert avec l' \_ indicateur simple STGM. Dans ce cas, il n’est pas toujours possible de rendre le flux sous-jacent plus grand et il n’est pas possible de remplacer des propriétés existantes par des propriétés plus grandes. Pour plus d’informations, consultez [IPropertySetStorage-composed file Implementation](ipropertysetstorage-compound-file-implementation.md).
 
- 
+ 
 
 ## <a name="ipropertystorage-and-caching"></a>IPropertyStorage et mise en cache
 
@@ -36,13 +36,13 @@ L’implémentation de fichier composé de [**IPropertyStorage**](/windows/deskt
 
 ## <a name="simple-mode-property-sets"></a>Jeux de propriétés en mode simple
 
-Un objet de stockage de propriétés est en mode simple s’il est créé à partir d’un objet de stockage de jeu de propriétés de mode simple. Par exemple, un objet de stockage de jeu de propriétés serait en mode simple s’il a été obtenu à partir de la fonction [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) , avec l' \_ indicateur simple STGM défini dans le paramètre *grfMode* . Notez que « mode simple » n’est pas lié aux « jeux de propriétés simples ». Un jeu de propriétés est simple s’il est créé en appelant [**IPropertySetStorage :: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) avec l’indicateur PROPSETFLAG non \_ simple défini dans le paramètre *grfFlags* . Pour plus d’informations sur les jeux de propriétés simples et simples, consultez [stockage et objets de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md).
+Un objet de stockage de propriétés est en mode simple s’il est créé à partir d’un objet de stockage de jeu de propriétés de mode simple. Par exemple, un objet de stockage de jeu de propriétés serait en mode simple s’il a été obtenu à partir de la fonction [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) , avec l' \_ indicateur simple STGM défini dans le paramètre *grfMode* . Notez que « mode simple » n’est pas lié aux « jeux de propriétés simples ». Un jeu de propriétés est simple s’il est créé en appelant [**IPropertySetStorage :: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) avec l’indicateur PROPSETFLAG non \_ simple défini dans le paramètre *grfFlags* . pour plus d’informations sur les jeux de propriétés simples et simples, consultez [Stockage et objets de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md).
 
 Lorsqu’un objet de stockage de propriété en mode simple est créé, il n’y a aucune restriction sur son utilisation. Lorsqu’un objet de stockage de propriétés en mode simple existant est ouvert, l’objet de flux sous-jacent qui stocke le jeu de propriétés ne peut pas être augmenté. Par conséquent, il n’est pas toujours possible de modifier un tel objet de stockage de propriétés si la modification requiert un flux de plus grande taille.
 
 ## <a name="property-set-formats"></a>Formats de jeu de propriétés
 
-L’implémentation de fichier composé de [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) prend en charge les formats de sérialisation des jeux de propriétés version 0 et version 1. Le format version 1 est pris en charge sur les ordinateurs qui exécutent Windows 2000. Pour plus d’informations, consultez [sérialisation du jeu de propriétés](version-0-vs--version-1-property-set-serialization.md). Les jeux de propriétés sont créés au format version 0 et restent dans ce format, sauf si de nouvelles fonctionnalités sont demandées. Lorsque cela se produit, le format est mis à jour vers la version 1.
+L’implémentation de fichier composé de [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) prend en charge les formats de sérialisation des jeux de propriétés version 0 et version 1. le format version 1 est pris en charge sur les ordinateurs qui s’exécutent sur Windows 2000. Pour plus d’informations, consultez [sérialisation du jeu de propriétés](version-0-vs--version-1-property-set-serialization.md). Les jeux de propriétés sont créés au format version 0 et restent dans ce format, sauf si de nouvelles fonctionnalités sont demandées. Lorsque cela se produit, le format est mis à jour vers la version 1.
 
 Par exemple, si un jeu de propriétés est créé avec l' \_ indicateur par défaut PROPSETFLAG, son format est version 0. Tant que les types de propriété conformes au format de version 0 sont écrits et lus à partir de ce jeu de propriétés, le jeu de propriétés reste au format de la version 0. Si un type de propriété de la version 1 est écrit dans le jeu de propriétés, le jeu de propriétés est automatiquement mis à jour vers la version 1. Par la suite, ce jeu de propriétés ne peut plus être lu par les implémentations qui reconnaissent uniquement la version 0.
 
@@ -90,11 +90,11 @@ VT \_ bool
 
 \_variante VT
 
- 
+ 
 
 
 
- 
+ 
 
 Lorsque VT \_ Variant est combiné avec \_ un tableau VT, le SAFEARRAY lui-même contient des structures [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) . Toutefois, les types de ces éléments doivent être extraits de la liste précédente, ne peuvent pas être des \_ variantes VT et ne peuvent pas inclure les \_ indicateurs de vecteur VT, de \_ matrice VT ou VT \_ .
 
@@ -167,7 +167,7 @@ Pour les jeux de propriétés simples et simples, vide l’image mémoire du jeu
 <span id="IPropertyStorage__Revert"></span><span id="ipropertystorage__revert"></span><span id="IPROPERTYSTORAGE__REVERT"></span>[**IPropertyStorage :: Revert**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-revert)
 </dt> <dd>
 
-Pour les jeux de propriétés qui ne sont pas simples, appelle la méthode [**Revert**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-revert) du stockage sous-jacent et ouvre à nouveau le flux de contenu. Pour les jeux de propriétés simples, cette interface retourne toujours S \_ OK. Les jeux de propriétés insimples sont ceux qui ont été créés à l’aide de l' \_ indicateur PROPSETFLAG unsimple dans la méthode [**IPropertySetStorage :: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) . Pour plus d’informations, consultez [stockage et objets de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md) .
+Pour les jeux de propriétés qui ne sont pas simples, appelle la méthode [**Revert**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-revert) du stockage sous-jacent et ouvre à nouveau le flux de contenu. Pour les jeux de propriétés simples, cette interface retourne toujours S \_ OK. Les jeux de propriétés insimples sont ceux qui ont été créés à l’aide de l' \_ indicateur PROPSETFLAG unsimple dans la méthode [**IPropertySetStorage :: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) . pour plus d’informations, consultez [Stockage et objets de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md) .
 
 </dd> <dt>
 
@@ -202,6 +202,6 @@ Pour les jeux de propriétés qui ne sont pas simples, définit les heures prise
 [**IStorage :: SetElementTimes**](/windows/desktop/api/Objidl/nf-objidl-istorage-setelementtimes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

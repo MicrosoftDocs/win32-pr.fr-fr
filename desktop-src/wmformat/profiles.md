@@ -9,21 +9,21 @@ keywords:
 - Windows Media Format SDK, fichiers. prx
 - Fichiers ASF (Advanced Systems Format), fichiers. prx
 - ASF (format des systèmes avancés), fichiers. prx
-- Windows Media Format SDK, éditeur de profils
+- Windows Media Format SDK, éditeur de profil
 - ASF (Advanced Systems Format), éditeur de profil
 - ASF (format des systèmes avancés), éditeur de profil
 - fichiers. prx
 - fichiers PRX
 - Éditeur de profil
-- Encodeur Windows Media
+- Windows Encodeur multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de244445a7c1301c7a14ef273b81ac9fd9cbfb62
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 64a89c06f031c9cf8214888efb35f2986135f88207fc94a631e1e111c94ce16d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106509022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707412"
 ---
 # <a name="profiles"></a>Profils
 
@@ -33,11 +33,11 @@ Les informations de flux dans un profil contiennent la vitesse de transmission, 
 
 Un profil contient également des informations sur les différentes fonctionnalités de fichier ASF qui seront utilisées dans les fichiers créés avec. Cela inclut l' [exclusion mutuelle](mutual-exclusion.md), la [hiérarchisation des flux](stream-prioritization.md), le [partage de bande passante](bandwidth-sharing.md)et les extensions d’unité de [données](data-unit-extensions.md).
 
-Les versions précédentes du kit de développement logiciel (SDK) du format Windows Media fournissaient des profils système préconfigurés, qui pouvaient être utilisés pour créer des types de fichiers courants ou modifiés légèrement pour répondre aux besoins de votre application. Les profils système ne sont pas pris en charge pour les codecs Windows Media 9 Series. Cela est dû au fait que le nombre de types de fichiers « communs » a augmenté de façon exponentielle avec l’ajout de nouvelles fonctionnalités. Il est prévu que presque tous les créateurs de contenu aient besoin d’aller au-delà des solutions simples fournies par les profils système. Vous pouvez toujours utiliser les anciens profils système comme point de départ. Pour plus d’informations, consultez [utilisation des profils système](using-system-profiles.md).
+les versions précédentes du kit de développement logiciel (SDK) de Format multimédia Windows offraient des profils système préconfigurés, qui pouvaient être utilisés pour créer des types de fichiers courants ou modifiés légèrement pour répondre aux besoins de votre application. les profils système ne sont pas pris en charge pour les codecs de la série Media 9 Windows. Cela est dû au fait que le nombre de types de fichiers « communs » a augmenté de façon exponentielle avec l’ajout de nouvelles fonctionnalités. Il est prévu que presque tous les créateurs de contenu aient besoin d’aller au-delà des solutions simples fournies par les profils système. Vous pouvez toujours utiliser les anciens profils système comme point de départ. Pour plus d’informations, consultez [utilisation des profils système](using-system-profiles.md).
 
 Vous devez fournir l’enregistreur avec un profil pour chaque fichier que vous écrivez. Vous pouvez spécifier un profil à utiliser avec le writer en appelant [**IWMWriter :: SetProfile**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile).
 
-Les données de profil existent sous différentes formes qui peuvent être utilisées par le kit de développement logiciel (SDK) du format Windows Media. Vous pouvez également accéder aux informations de profil de plusieurs façons. Cela peut entraîner une confusion en ce qui concerne un profil et comment il est utilisé.
+les données de profil existent dans différentes formes qui peuvent être utilisées par le kit de développement logiciel (SDK) de Format multimédia Windows. Vous pouvez également accéder aux informations de profil de plusieurs façons. Cela peut entraîner une confusion en ce qui concerne un profil et comment il est utilisé.
 
 Le diagramme suivant montre comment les données de profil sont utilisées dans le kit de développement logiciel (SDK).
 
@@ -53,7 +53,7 @@ La plupart des données de profil doivent être ajoutées et manipulées par le 
 
 ## <a name="data-in-an-xml-file"></a>Données dans un fichier XML
 
-Les données de profil sont stockées sur disque sous la forme d’un fichier XML avec l’extension de nom de fichier. prx. Le kit de développement logiciel (SDK) du format Windows Media est un ensemble de profils appelés profils système qui couvrent les types les plus courants de fichiers ASF. Les profils système sont stockés dans un fichier nommé WMSysPr9. prx. (Notez que ce fichier ne contient en fait pas de profils système pour Windows Media 9 Series, car le concept de profils système n’est plus utilisé.) Lorsque vous enregistrez vos profils personnalisés, vous devez les enregistrer dans vos propres fichiers.
+Les données de profil sont stockées sur disque sous la forme d’un fichier XML avec l’extension de nom de fichier. prx. le kit de développement logiciel (SDK) Windows Media Format est un ensemble de profils appelés profils système qui couvrent les types les plus courants de fichiers ASF. Les profils système sont stockés dans un fichier nommé WMSysPr9. prx. (notez que ce fichier ne contient en fait pas de profils système pour Windows série Media 9, car le concept de profils système n’est plus utilisé.) Lorsque vous enregistrez vos profils personnalisés, vous devez les enregistrer dans vos propres fichiers.
 
 Vous pouvez utiliser l’objet gestionnaire de profils pour enregistrer les données d’un objet de profil dans une chaîne de texte XML. Vous pouvez ensuite utiliser les fonctions d’e/s de fichier de votre choix pour enregistrer la chaîne dans un fichier sur le disque.
 
@@ -65,9 +65,9 @@ Lorsque vous accédez aux données de profil à l’aide du lecteur (ou d’un l
 
 ## <a name="using-profile-editor"></a>Utilisation de l’éditeur de profil
 
-Au lieu de créer des profils à l’aide du kit de développement logiciel (SDK) Windows Media format, vous pouvez utiliser l’éditeur de profil, un utilitaire inclus avec Windows Media Encoder. Dans votre application d’encodage, utilisez la méthode **IWMProfileManager :: LoadProfileByData** pour charger le profil enregistré. Dans certains scénarios, par exemple, si vous utilisez un nombre limité de profils qui ne sont jamais modifiés de manière dynamique, il peut être plus pratique d’utiliser l’éditeur de profil pour créer vos profils.
+plutôt que de créer des profils à l’aide du kit de développement logiciel (SDK) de Format de média Windows, vous pouvez utiliser l’éditeur de profil, un utilitaire inclus avec Windows media encoder. Dans votre application d’encodage, utilisez la méthode **IWMProfileManager :: LoadProfileByData** pour charger le profil enregistré. Dans certains scénarios, par exemple, si vous utilisez un nombre limité de profils qui ne sont jamais modifiés de manière dynamique, il peut être plus pratique d’utiliser l’éditeur de profil pour créer vos profils.
 
-Toutefois, si vous utilisez l’éditeur de profil, il est recommandé de ne pas utiliser le paramètre « Taille vidéo : identique à l’entrée vidéo ». Lorsque cette case à cocher est activée, l’éditeur de profil crée un profil dont la hauteur et la largeur de sortie vidéo sont égales à zéro. Lorsque l’encodeur Windows Media rencontre ces profils, il définit les valeurs correctes pour qu’elles correspondent à l’entrée vidéo. Toutefois, l’enregistreur dans le kit de développement logiciel (SDK) du format Windows Media ne le fait pas automatiquement. vous devez donc vous assurer que votre application définit la taille de l’image vidéo dans les cas où le profil n’a aucun.
+Toutefois, si vous utilisez l’éditeur de profil, il est recommandé de ne pas utiliser le paramètre « Taille vidéo : identique à l’entrée vidéo ». Lorsque cette case à cocher est activée, l’éditeur de profil crée un profil dont la hauteur et la largeur de sortie vidéo sont égales à zéro. lorsque Windows encodeur multimédia rencontre ces profils, il définit les valeurs correctes pour qu’elles correspondent à l’entrée vidéo. toutefois, l’enregistreur dans le kit de développement logiciel (SDK) du Format de média Windows ne le fait pas automatiquement. vous devez donc vous assurer que votre application définit la taille de l’image vidéo dans les cas où le profil n’en a aucun.
 
 **Remarque** Certains éléments de configuration de flux ne sont pas stockés dans le profil. Les données du profil décrivent le format du fichier ASF terminé. Les propriétés de média d’entrée et d’autres données de configuration utilisées par l’objet enregistreur pour configurer les codecs ne sont pas enregistrées dans le profil. Cela comprend toutes les propriétés définies à l’aide de la méthode [**IWMPropertyVault :: SetProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty) .
 
@@ -102,9 +102,9 @@ Toutefois, si vous utilisez l’éditeur de profil, il est recommandé de ne pas
 [**Utilisation des profils**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

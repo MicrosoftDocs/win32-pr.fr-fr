@@ -3,9 +3,9 @@ title: Méthode Network. setProxyExceptionList
 description: La méthode setProxyExceptionList spécifie la liste des exceptions du proxy. | Méthode Network. setProxyExceptionList
 ms.assetid: c9eeb058-5ffb-4405-9bf2-776f120e2db4
 keywords:
-- méthode setProxyExceptionList lecteur Windows Media
-- méthode setProxyExceptionList lecteur Windows Media, classe réseau
-- Classe réseau lecteur Windows Media, méthode setProxyExceptionList
+- Lecteur Windows Media de la méthode setProxyExceptionList
+- Lecteur Windows Media de la méthode setProxyExceptionList, classe de réseau
+- Lecteur Windows Media de classe réseau, méthode setProxyExceptionList
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d1e48aa91ec4857181de5c607a586da42d6f2cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf72d9c35778e965021ec31671e4e345ec2d8e281d18f9fcb16c8f2ff04d4722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647299"
 ---
 # <a name="networksetproxyexceptionlist-method"></a>Méthode Network. setProxyExceptionList
 
@@ -61,7 +61,7 @@ Network.setProxyExceptionList(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une liste d’ordinateurs, de domaines et/ou d’adresses qui contournent le serveur proxy lorsque la partie hôte de l’URL cible correspond à une entrée de la liste.
 
@@ -75,7 +75,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **setProxyExceptionList** pour spécifier une liste d’hôtes pour lesquels le serveur proxy est contourné lors de l’utilisation du protocole MMS. La nouvelle liste est récupérée à partir d’un élément de texte HTML avec ID = "XLIST". L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **setProxyExceptionList** pour spécifier une liste d’hôtes pour lesquels le serveur proxy est contourné lors de l’utilisation du protocole MMS. La nouvelle liste est récupérée à partir d’un élément de texte HTML avec ID = "XLIST". L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

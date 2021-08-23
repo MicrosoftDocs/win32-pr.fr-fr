@@ -3,9 +3,9 @@ title: External. attemptLogin, méthode
 description: La méthode attemptLogin affiche une boîte de dialogue qui permet à l’utilisateur d’essayer de se connecter au magasin en ligne.
 ms.assetid: 04fe476f-6d0e-4faa-9e4a-f87bed782205
 keywords:
-- méthode attemptLogin lecteur Windows Media
-- méthode attemptLogin lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode attemptLogin
+- Lecteur Windows Media de la méthode attemptLogin
+- méthode attemptLogin Lecteur Windows Media, classe externe
+- Lecteur Windows Media de classe externe, méthode attemptLogin
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86958c241f2399efbe342371b8cd4cfd376ff628
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7f967e812ff76dd11dfd9b4ff07a542d2575548519c3a52816fadf6302a719d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649539"
 ---
 # <a name="externalattemptlogin-method"></a>External. attemptLogin, méthode
 
@@ -44,9 +44,9 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si la tentative de connexion entraîne une modification de l’état de la connexion, le lecteur Windows Media déclenche l’événement [OnLoginChange](external-onloginchange-event.md) .
+si la tentative de connexion entraîne une modification de l’état de la connexion, Lecteur Windows Media déclenche l’événement [OnLoginChange](external-onloginchange-event.md) .
 
 ## <a name="requirements"></a>Configuration requise
 

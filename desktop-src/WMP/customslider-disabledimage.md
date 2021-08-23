@@ -3,7 +3,7 @@ title: CUSTOMSLIDER.disabledImage
 description: L’attribut disabledImage spécifie ou récupère l’image du curseur utilisé lorsque le curseur est désactivé.
 ms.assetid: 91b1c2e3-6c92-4baa-b1f3-e44707157f4b
 keywords:
-- Lecteur Windows Media CUSTOMSLIDER. disabledImage
+- CUSTOMSLIDER. disabledImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 169057d952170fb92c4e3a98617c7db22f5456b0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9b5d75e26204fc362dfa714bc8720d6db87e511bbfda03096d60f58f91c3335
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651559"
 ---
 # <a name="customsliderdisabledimage"></a>CUSTOMSLIDER.disabledImage
 
@@ -31,7 +31,7 @@ L’attribut **disabledImage** spécifie ou récupère l’image du curseur util
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est facultatif. S’il n’est pas spécifié, le fichier spécifié dans l’attribut **image** sera utilisé.
 

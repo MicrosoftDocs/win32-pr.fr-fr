@@ -9,23 +9,23 @@ keywords:
 - Windows Media Format SDK, modèles de conformité des périphériques vidéo
 - ASF (Advanced Systems Format), modèles de conformité des périphériques vidéo
 - ASF (format des systèmes avancés), modèles de conformité des périphériques vidéo
-- Codec Windows Media Video 9, modèles de conformité des périphériques vidéo
+- Windows Codec vidéo Media 9, modèles de conformité des périphériques vidéo
 - codecs, codec Windows Media Video 9
 - modèles de conformité des appareils, vidéo
 - modèles de conformité des périphériques vidéo
 - modèles, modèles de conformité des périphériques vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc6735d029bc2339296fa2a0af8a48ace3303ae3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: df63d40152e814f879498f0f99e386c9b21ef1e32746cf0c405aa46ab9d2fa48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584839"
 ---
 # <a name="video-device-conformance-templates"></a>Modèles de conformité des périphériques vidéo
 
-Les tableaux suivants répertorient les modèles de conformité des appareils et les paramètres associés pour le codec Windows Media Video 9.
+les tableaux suivants répertorient les modèles de conformité des appareils et les paramètres associés pour le codec Windows Media Video 9.
 
 ## <a name="simple-profile-low-level"></a>Profil simple, niveau bas
 
@@ -92,7 +92,7 @@ Un flux conforme aux limitations algorithmiques du profil simple, mais qui ne ti
 | Paramètre                                | Valeur                                                                                                                  |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Chaîne de modèle                          | "MP@ML"                                                                                                                |
-| Appareils appropriés                      | Définir les ordinateurs boxesSlower les plus à l’aide de DirectX Video Acceleration<br/> Lecteurs DVD compatibles Windows Media<br/> |
+| Appareils appropriés                      | Définir les ordinateurs boxesSlower les plus à l’aide de DirectX Video Acceleration<br/> Windows Lecteurs DVD compatibles avec le média<br/> |
 | Résolution maximale                       | 720 x 576                                                                                                              |
 | Fréquence d’images maximale                       | 30 i/s @ 720 x 48025 fps @ 720 x 576<br/>                                                                        |
 | Vitesse de transmission maximale                         | 10 Mbits/s                                                                                                                |
@@ -110,7 +110,7 @@ Un flux conforme aux limitations algorithmiques du profil simple, mais qui ne ti
 | Paramètre                                | Valeur                                                                                                                                                                 |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Chaîne de modèle                          | "MP@HL"                                                                                                                                                               |
-| Appareils appropriés                      | Ordinateurs utilisant DirectX Video AccelerationHigh-Definition lecteurs DVD compatibles Windows Media<br/> Cinéma numérique<br/> streaming haute définition<br/> |
+| Appareils appropriés                      | ordinateurs utilisant DirectX Video AccelerationHigh-Definition Windows les lecteurs DVD compatibles avec les médias<br/> Cinéma numérique<br/> streaming haute définition<br/> |
 | Résolution maximale                       | 1920 x 1080                                                                                                                                                           |
 | Fréquence d’images maximale                       | 30 i/s @ 1920 x 108060 fps @ 1280 x 720<br/>                                                                                                                    |
 | Vitesse de transmission maximale                         | 20 Mbits/s                                                                                                                                                               |
@@ -132,13 +132,13 @@ Un flux conforme aux limitations algorithmiques du profil principal, mais qui ne
 | Paramètre       | Valeur                                                                                                                                  |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Chaîne de modèle | CP                                                                                                                                   |
-| Notes         | Le profil complexe n’a pas de limitations explicites. Il est utilisé pour activer tous les algorithmes de codec, généralement à des fins de démonstration. |
+| Remarques         | Le profil complexe n’a pas de limitations explicites. Il est utilisé pour activer tous les algorithmes de codec, généralement à des fins de démonstration. |
 
 
 
  
 
-Les tableaux suivants répertorient les paramètres des modèles de conformité des appareils pour le codec d’image Windows Media Video 9.
+les tableaux suivants répertorient les paramètres des modèles de conformité des appareils pour le codec d’Image Windows Media Video 9.
 
 ## <a name="video-image-level-1"></a>Image vidéo-niveau 1
 

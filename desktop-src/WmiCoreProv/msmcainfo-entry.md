@@ -1,5 +1,5 @@
 ---
-description: Indique une entrée MCA, corrigée de la vérification de l’ordinateur (CMC) ou erreur de plateforme corrigée (CPE). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Indique une entrée MCA, corrigée de la vérification de l’ordinateur (CMC) ou erreur de plateforme corrigée (CPE). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: 4edbca20-2525-4e35-ab79-8cf421343144
 title: Classe MSMCAInfo_Entry
 ms.topic: reference
@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: cda6abba06dc4d4f3fec3a4763391eee1fa81274
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f6146d629678c1ee209738095fea901f0edb865bccb9aff2d4eeab02d18e773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640900"
 ---
 # <a name="msmcainfo_entry-class"></a>\_Classe d’entrée MSMCAInfo
 
-La classe d' **\_ entrée MSMCAInfo** indique une entrée MCA, corrigée de la vérification de l’ordinateur (CMC) ou une erreur de plateforme corrigée (CPE). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe d' **\_ entrée MSMCAInfo** indique une entrée MCA, corrigée de la vérification de l’ordinateur (CMC) ou une erreur de plateforme corrigée (CPE). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -76,7 +76,7 @@ Nombre d’octets dans l’enregistrement d’erreur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe d' **\_ entrée MSMCAInfo** est dérivée de [**MSMCAInfo**](msmcainfo.md).
 

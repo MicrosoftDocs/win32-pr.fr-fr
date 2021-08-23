@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08542c7460b2fadf381f85dc271167258e31fb46
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 63915f2fa05950ad96bc621b9887b1c4fe23149e22ba408767d111f7b74d6927
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119729219"
 ---
 # <a name="cd3dx12_resource_allocation_info-structure"></a>\_Structure d' \_ informations d’allocation de ressources CD3DX12 \_
 

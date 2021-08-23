@@ -3,19 +3,19 @@ title: Élément CUSTOMSLIDER
 description: Élément CUSTOMSLIDER
 ms.assetid: 9cba9bdd-ea5b-4a4a-a61e-e6aff29fc3e0
 keywords:
-- Apparences du lecteur Windows Media, élément CUSTOMSLIDER
+- habillages Lecteur Windows Media, élément CUSTOMSLIDER
 - habillages, élément CUSTOMSLIDER
 - Élément CUSTOMSLIDER
 - informations de référence sur les habillages, élément CUSTOMSLIDER
 - éléments, CUSTOMSLIDER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8f49fc6260df295e3266ae9ddf7b5b3eceee43d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8b47a64b57cd785da318bbf1af15667c8d930d06367a93fcfeab5a608cc99d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651429"
 ---
 # <a name="customslider-element"></a>Élément CUSTOMSLIDER
 
@@ -41,7 +41,7 @@ L’élément **CUSTOMSLIDER** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **CUSTOMSLIDER** peut implémenter les gestionnaires d’événements suivants.
 
@@ -55,7 +55,7 @@ L’élément **CUSTOMSLIDER** peut implémenter les gestionnaires d’événeme
 
 
 
- 
+ 
 
 L’élément **CUSTOMSLIDER** prend en charge les attributs ambiants et peut implémenter les gestionnaires d’événements ambiants. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md) et [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
@@ -66,9 +66,9 @@ L’élément **CUSTOMSLIDER** prend en charge les attributs ambiants et peut im
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

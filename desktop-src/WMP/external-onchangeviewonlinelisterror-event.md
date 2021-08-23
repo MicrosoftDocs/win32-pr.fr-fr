@@ -3,7 +3,7 @@ title: External. OnChangeViewOnlineListError, événement
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. OnChangeViewOnlineListError, événement
 ms.assetid: f53dfc80-a7d7-42b1-b390-e90aa108145f
 keywords:
-- Événement External. OnChangeViewOnlineListError lecteur Windows Media
+- Lecteur Windows Media d’événements External. OnChangeViewOnlineListError
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09e9ff854893268a00cb7b5f2fb35409be2e70e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ed6191de129bffea0e11abb24f1e271fc0b2873d2b306430a4e7eafe39b214d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648799"
 ---
 # <a name="externalonchangeviewonlinelisterror-event"></a>External. OnChangeViewOnlineListError, événement
 
@@ -36,7 +36,7 @@ window.external.OnChangeViewOnlineListError = functionname
 
 ## <a name="possible-values"></a>Valeurs possibles
 
-Il s’agit d’une propriété en écriture seule qui spécifie le nom de la fonction dans le script que le lecteur Windows Media appelle lorsque l’événement se produit.
+il s’agit d’une propriété en écriture seule qui spécifie le nom de la fonction dans le script que Lecteur Windows Media appelle lorsque l’événement se produit.
 
 ## <a name="parameters"></a>Paramètres
 

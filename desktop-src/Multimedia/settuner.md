@@ -3,7 +3,7 @@ title: commande settuner
 description: La commande settuner modifie le tuner actuel ou le paramètre de canal du tuner actuel. Les périphériques VCR reconnaissent cette commande.
 ms.assetid: 76d05210-3c2a-4d00-b3eb-c912c1deabf7
 keywords:
-- commande settuner multimédia Windows
+- commande settuner Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51150043a68f3cd34525eb74a64237fc4dc150e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7075de6ed50c49773a502ba77e093d84e85b079a6b17c462ea8ee65ad1330aa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688797"
 ---
 # <a name="settuner-command"></a>commande settuner
 

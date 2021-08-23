@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2259bdd4dfee24bbccfeafa6d5bb06490c24c25c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 242e794db2fd9ae35c785cca0c3268981c7330373462aaec22f82653121cba2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106519153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647829"
 ---
 # <a name="pek-key-change-interval-attribute"></a>Pek attribut-Key-Change-Interval
 
@@ -36,7 +36,7 @@ Intervalle de modification de clé de chiffrement de mot de passe.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.866               |
 | System-ID-GUID    | 07383084-91df-11d1-aebc-0000f80367c1 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ Intervalle de modification de clé de chiffrement de mot de passe.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

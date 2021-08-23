@@ -67,7 +67,7 @@
         - name: Graphiques audio
           href: audio-graphs.md
           items:
-            - name: Graphique audio XAudio2
+            - name: Graph audio XAudio2
               href: xaudio2-audio-graph.md
             - name: "Procédure\_: créer un graphique de traitement audio de base"
               href: how-to--build-a-basic-audio-processing-graph.md

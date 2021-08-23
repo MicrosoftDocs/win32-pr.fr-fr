@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: f277e291a4296253d7c0b1b11c694952ddc17ddf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 825fbdc18537fa73561f8a662ecc0388ab18be0b9bf26ca2cbfeadd7bfb9b469
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732289"
 ---
 # <a name="swbemprivilegesetremove-method"></a>SWbemPrivilegeSet. Remove, méthode
 
@@ -47,7 +47,7 @@ SWbemPrivilegeSet.Remove( _
 *iPrivilege* 
 </dt> <dd>
 
-Obligatoire. Il s’agit de l’une des constantes WMI du groupe [**WbemPrivilegeEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum) . Ces constantes sont essentiellement des entiers qui représentent des privilèges spécifiques. Par exemple, pour supprimer le privilège qui vous permet d’arrêter un système Windows, utilisez la constante **wbemPrivilegeShutdown** ou l’équivalent numérique de 0x17.
+Obligatoire. Il s’agit de l’une des constantes WMI du groupe [**WbemPrivilegeEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemprivilegeenum) . Ces constantes sont essentiellement des entiers qui représentent des privilèges spécifiques. par exemple, pour supprimer le privilège qui vous permet d’arrêter un système Windows, utilisez la constante **wbemPrivilegeShutdown** ou l’équivalent numérique de 0x17.
 
 </dd> </dl>
 

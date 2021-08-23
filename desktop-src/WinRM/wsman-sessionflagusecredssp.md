@@ -5,8 +5,8 @@ ms.assetid: bb167445-91d6-4e06-a976-bf869320784a
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagUseCredSsp
-- Méthode SessionFlagUseCredSsp Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagUseCredSsp
+- méthode SessionFlagUseCredSsp Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagUseCredSsp
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed5dfbaba3e705f100cdd373e194174f4654a7d8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 27eb96f1de72bbcceafd40c0ccbcfdd3b990ed2134739195bd29e130dbac5a64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642229"
 ---
 # <a name="wsmansessionflagusecredssp-method"></a>Méthode WSMan. SessionFlagUseCredSsp
 
@@ -64,7 +64,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 7<br/>                                                                                                        |
 | Serveur minimal pris en charge<br/> | Windows Server 2008 R2<br/>                                                                                           |
-| Composant redistribuable<br/>          | Windows Management Framework sur Windows Server 2008 avec SP2, Windows Vista avec SP1 et Windows Vista avec SP2<br/> |
+| Composant redistribuable<br/>          | Windows Management Framework sur Windows Server 2008 avec sp2, Windows vista avec SP1 et Windows vista avec sp2<br/> |
 | En-tête<br/>                   | <dl> <dt>WSManDisp. h</dt> </dl>                                      |
 | MIDL<br/>                      | <dl> <dt>WSManDisp. idl</dt> </dl>                                    |
 | Bibliothèque<br/>                  | <dl> <dt>WSManDisp. tlb</dt> </dl>                                    |
@@ -79,7 +79,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 [**WSMan**](wsman.md)
 </dt> <dt>
 
-[**session**](session.md)
+[**Session**](session.md)
 </dt> </dl>
 
  

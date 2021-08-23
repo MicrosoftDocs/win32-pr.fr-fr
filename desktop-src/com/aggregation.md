@@ -4,12 +4,12 @@ description: L’agrégation est le mécanisme de réutilisation d’objets dans
 ms.assetid: 6845b114-8f43-47ad-acdf-b63d6008d221
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a4f11f69f5d7b14047a8138cba93bd503b645a3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4855b1fa3a614d190b8f192aeee2e7cf3d3d53bbdce589a1363e0398f70430c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731719"
 ---
 # <a name="aggregation"></a>Agrégation
 
@@ -137,7 +137,7 @@ Lors du développement d’un objet aggregable, les règles suivantes s’appliq
 
 -   Lors de la création de l’objet interne, l’objet externe doit demander explicitement son [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown).
 -   L’objet externe doit protéger son implémentation de [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) de la réentrance avec un décompte de références artificielles autour de son code de destruction.
--   L’objet externe doit appeler sa méthode de  [**mise à jour**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) **IUnknown** de contrôle s’il interroge un pointeur vers l’une des interfaces de l’objet interne. Pour libérer ce pointeur, l’objet externe appelle sa méthode de contrôle **IUnknown** [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) , suivie de **Release** sur le pointeur de l’objet interne.
+-   L’objet externe doit appeler sa méthode de [**mise à jour**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) **IUnknown** de contrôle s’il interroge un pointeur vers l’une des interfaces de l’objet interne. Pour libérer ce pointeur, l’objet externe appelle sa méthode de contrôle **IUnknown** [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) , suivie de **Release** sur le pointeur de l’objet interne.
     ```C++
     // Obtaining inner object interface pointer 
     pUnkInner->QueryInterface(IID_ISomeInterface, &pISomeInterface); 
@@ -160,6 +160,6 @@ Lors du développement d’un objet aggregable, les règles suivantes s’appliq
 [Imbrication/délégation](containment-delegation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

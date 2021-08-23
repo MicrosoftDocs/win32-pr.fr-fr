@@ -3,7 +3,7 @@ title: Message EM_SETBIDIOPTIONS (RichEdit. h)
 description: Le \_ message em SETBIDIOPTIONS définit l’état actuel des options bidirectionnelles dans le contrôle Rich Edit.
 ms.assetid: b518e423-317a-4654-9d9f-c501028e2a0a
 keywords:
-- EM_SETBIDIOPTIONS les contrôles de message Windows
+- EM_SETBIDIOPTIONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84dc4b92f7a989ab5ef283b36708094a143475de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f22d03e1738fc688d34f55a6823f7ae95c2dfc41724e827cd31a184ac7cbdfce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545019"
 ---
 # <a name="em_setbidioptions-message"></a>\_Message SETBIDIOPTIONS em
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [**BIDIOPTIONS**](/windows/desktop/api/Richedit/ns-r
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle RichEdit doit être en mode texte brut ou **em \_ SETBIDIOPTIONS** ne fera rien.
 
@@ -61,8 +61,8 @@ Dans les contrôles de texte brut, **em \_ SETBIDIOPTIONS** détermine automatiq
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | Composant redistribuable<br/>          | Édition enrichie 3,0<br/>                                                              |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 

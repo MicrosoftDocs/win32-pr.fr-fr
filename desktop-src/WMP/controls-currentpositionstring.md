@@ -3,7 +3,7 @@ title: Controls. currentPositionString
 description: La propriété currentPositionString récupère la position actuelle dans l’élément multimédia sous la forme d’une chaîne au format HH MM SS (heures, minutes et secondes).
 ms.assetid: 2b360cdb-3cf8-4d3c-82c2-7eb621f82f4c
 keywords:
-- Controls. currentPositionString Windows Media Player
+- controls. currentPositionString Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbf3472d71afc543c596485d10f0d7e59dde90a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 640f0f97e3fa4c4054df17ea92304ad7721c770d9cb9b56436dcf810b9c083ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651989"
 ---
 # <a name="controlscurrentpositionstring"></a>Controls. currentPositionString
 
@@ -34,7 +34,7 @@ player.controls.currentPositionString
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément multimédia a une valeur inférieure à une heure, la partie HH : n’est pas incluse.
 
@@ -45,7 +45,7 @@ Si l’élément multimédia a une valeur inférieure à une heure, la partie HH
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant démarre une minuterie HTML qui affiche la position actuelle du fichier multimédia à intervalles d’une seconde. Un élément de texte HTML nommé MyText a été créé pour afficher la position actuelle. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant démarre une minuterie HTML qui affiche la position actuelle du fichier multimédia à intervalles d’une seconde. Un élément de texte HTML nommé MyText a été créé pour afficher la position actuelle. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

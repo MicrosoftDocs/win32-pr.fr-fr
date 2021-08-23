@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6efff2363f844e6940b489dd2dda48cbdc0c6b75
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4885a94041201eed790768cd6b75d07f8bd5ccd24b9d37ce56df734adced15ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672159"
 ---
 # <a name="rwbyteaddressbufferloadint-function"></a>RWByteAddressBuffer :: Load (int), fonction
 
@@ -54,13 +54,13 @@ Type : **uint**
 
 Une valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 

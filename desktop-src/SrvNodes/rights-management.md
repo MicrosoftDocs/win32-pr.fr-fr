@@ -1,19 +1,19 @@
 ---
-description: 'Trois générations de Rights Management Kit de développement logiciel (SDK) sont désormais disponibles : Rights Management SDK 4,2, Microsoft Rights Management SDK 2,1 et services AD RMS (Active Directory Rights Management Services) SDK, ainsi qu’une API de script, services AD RMS (Active Directory Rights Management Services) API de script, qui permet l’administration personnalisée d’un serveur RMS.'
+description: 'trois générations de Rights Management kit de développement logiciel (sdk) sont désormais disponibles : Rights Management sdk 4,2, Microsoft Rights Management sdk 2,1 et services AD RMS (Active Directory Rights Management Services) sdk, ainsi qu’une api de script, services AD RMS (Active Directory Rights Management Services) api de script, qui permet l’administration personnalisée d’un serveur RMS.'
 ms.assetid: 7776559E-3950-4184-B3C0-BD12EE593510
 title: Kits de développement logiciel (SDK) Microsoft Rights Management
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fce8f6e588fbff8f719e31da1696e0df4f1c92b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b579e01043145ffc0713827be00ae9f56e165f2cee68939c17d6d2c55b8ac7d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663929"
 ---
 # <a name="microsoft-rights-management-sdks"></a>Kits de développement logiciel (SDK) Microsoft Rights Management
 
-Trois générations de Rights Management Kit de développement logiciel (SDK) sont désormais disponibles : [Rights Management sdk 4,2](/previous-versions/windows/desktop/msipcthin2/active-directory-rights-management-services-multi-platform-thin-client-sdk-portal), [Microsoft Rights Management sdk 2,1](/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal) et [services AD RMS (Active Directory Rights Management Services) SDK](/previous-versions/windows/desktop/adrms_sdk/active-directory-rights-management-services-sdk-portal), ainsi qu’une API de script, [services AD RMS (Active Directory Rights Management Services) API de script](/previous-versions/windows/desktop/adrms_script/adrms-script-portal), qui permet l’administration personnalisée d’un serveur RMS.
+trois générations de Rights Management kit de développement logiciel (sdk) sont désormais disponibles : [Rights Management sdk 4,2](/previous-versions/windows/desktop/msipcthin2/active-directory-rights-management-services-multi-platform-thin-client-sdk-portal), [Microsoft Rights Management sdk 2,1](/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal) et [services AD RMS (Active Directory Rights Management Services) sdk](/previous-versions/windows/desktop/adrms_sdk/active-directory-rights-management-services-sdk-portal), ainsi qu’une api de script, [services AD RMS (Active Directory Rights Management Services) api de script](/previous-versions/windows/desktop/adrms_script/adrms-script-portal), qui permet l’administration personnalisée d’un serveur RMS.
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -30,7 +30,7 @@ Kit de développement logiciel (SDK) RMS 4,2 est un ensemble d’outils de nouve
 
 </dd> <dd>
 
-Kit de développement logiciel (SDK) RMS 2,1 est une offre de kit de développement logiciel (SDK) puissante pour les développeurs d’applications de bureau Windows et les fournisseurs de solutions serveur pour activer leurs produits avec Rights Management.
+kit de développement logiciel (SDK) RMS 2,1 est une offre de kit de développement logiciel (SDK) performante permettant aux développeurs d’applications de bureau Windows et aux fournisseurs de solutions serveur d’activer leurs produits avec rights management.
 
 </dd> <dt>
 
@@ -38,7 +38,7 @@ Kit de développement logiciel (SDK) RMS 2,1 est une offre de kit de développem
 </dt> <dd>
 
 > [!Note]  
-> AD RMS Kit de développement logiciel (SDK) tirant parti des fonctionnalités exposées par le client dans Msdrm.dll peut être utilisé dans Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 et Windows Vista. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, utilisez le [Kit de développement logiciel (SDK) Microsoft Rights Management Services 2,1](/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal), qui tire parti des fonctionnalités exposées par le client dans Msipc.dll.
+> AD RMS kit de développement logiciel (SDK) tirant parti des fonctionnalités exposées par le client dans Msdrm.dll peut être utilisé dans Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, utilisez le [Kit de développement logiciel (SDK) Microsoft Rights Management Services 2,1](/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal), qui tire parti des fonctionnalités exposées par le client dans Msipc.dll.
 
  
 
@@ -47,7 +47,7 @@ Kit de développement logiciel (SDK) RMS 2,1 est une offre de kit de développem
 [API de script Active Directory Rights Management Services](/previous-versions/windows/desktop/adrms_script/adrms-script-portal)
 </dt> <dd>
 
-L’API de script Windows services AD RMS (Active Directory Rights Management Services) (AD RMS) peut être utilisée pour créer des scripts afin d’administrer une installation AD RMS.
+l’API de script Windows services AD RMS (Active Directory Rights Management Services) (AD RMS) peut être utilisée pour créer des scripts afin d’administrer une installation de AD RMS.
 
 </dd> </dl>
 

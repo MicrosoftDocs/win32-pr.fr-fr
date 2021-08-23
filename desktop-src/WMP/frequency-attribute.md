@@ -3,7 +3,7 @@ title: Attribut Frequency
 description: L’attribut Frequency est la fréquence de la station radio ou de \ 0034 ; net only \ 0034 ;.
 ms.assetid: af9d348a-35f5-4cd6-ac1e-523e310860dd
 keywords:
-- Attribut Frequency lecteur Windows Media
+- Lecteur Windows Media de l’attribut Frequency
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bbc3ca8dde29c5729446c54e36b3d10b9c9825f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81d75a542963a8587ad25ead39090ec77fb7d10f72119804c3c43280fd588a54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648209"
 ---
 # <a name="frequency-attribute"></a>Attribut Frequency
 
@@ -27,7 +27,7 @@ L’attribut **Frequency** est la fréquence de la station radio ou « net only
 
 -   [Éléments radio](radio-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 
@@ -39,7 +39,7 @@ Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la 
 
 | Condition requise | Valeur |
 |--------------------|-----------------------------------------------|
-| Version<br/> | Windows Media Player 9 Series uniquement<br/> |
+| Version<br/> | série Lecteur Windows Media 9 uniquement<br/> |
 
 
 

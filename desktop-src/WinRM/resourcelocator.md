@@ -4,8 +4,8 @@ description: Fournit le chemin d’accès à une ressource. Vous pouvez utiliser
 ms.assetid: 0904b7eb-d4ce-46a7-bf58-452e7c0d41e9
 ms.tgt_platform: multiple
 keywords:
-- Objet ResourceLocator Windows Remote Management
-- Windows Remote Management d’objets ResourceLocator, Description
+- objet ResourceLocator Windows Remote Management
+- Windows Remote Management d’objets ResourceLocator, description
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd110b94d3174134e6410428843de76e809d5e22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26d3287c02949326b672f550271ba3472e6cb16abb6748efb4a80de425c40e57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642869"
 ---
 # <a name="resourcelocator-object"></a>Objet ResourceLocator
 
@@ -76,7 +76,7 @@ L’objet **ResourceLocator** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet **ResourceLocator** correspond à l’interface **IWSManResourceLocator** .
 

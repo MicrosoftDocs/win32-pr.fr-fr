@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 49fa689262d8f9b584c93a4b0485bbeaaacbf9a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e21ab1275aba05331055b7a38631f8c98ae65476aacf8f17073ed1dc45c90bf4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640309"
 ---
 # <a name="cbasefilternotifyevent-method"></a>Méthode CBaseFilter. NotifyEvent
 
@@ -74,14 +74,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 | Code de retour                                                                               | Description                                                                                            |
 |-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>   | Le gestionnaire de graphique de filtre n’accepte pas les notifications d’événements.<br/>                              |
-| <dl> <dt>**\_OK**</dt> </dl>      | Opération réussie.<br/>                                                                                    |
+| <dl> <dt>**\_OK**</dt> </dl>      | Réussite.<br/>                                                                                    |
 | <dl> <dt>**\_NOTIMPL E**</dt> </dl> | Le filtre n’a pas de pointeur vers l’interface [**IMediaEventSink**](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink) .<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir la liste des codes de notification et des valeurs de paramètres, consultez [codes de notification d’événement](event-notification-codes.md).
 
@@ -93,7 +93,7 @@ Dans la classe de base, si le code d’événement est EC \_ Complete, la métho
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

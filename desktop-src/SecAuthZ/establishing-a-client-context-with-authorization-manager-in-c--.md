@@ -4,12 +4,12 @@ ms.assetid: 765cd702-a1a8-4ff6-bea5-54de9fb62c0b
 title: Établissement d’un contexte client avec le gestionnaire d’autorisations en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79afa31db547b28d129c5b8e90dcf3e4ba1e91c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef1b74cab7d6c113f5120a682250f85dca772e1764acf432317049da27ec091d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672119"
 ---
 # <a name="establishing-a-client-context-with-authorization-manager-in-c"></a>Établissement d’un contexte client avec le gestionnaire d’autorisations en C++
 

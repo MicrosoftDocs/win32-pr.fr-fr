@@ -4,12 +4,12 @@ description: Le fournisseur qui implémente le protocole d’authentification pe
 ms.assetid: 773c9fdb-c810-4cea-afed-df6484a9c9c9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9519da9d66937fd25245fe78f12ef34c3c0ad8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 46245b22a5538fc347ba735620270b7bbc1071574852305adc6b3881202ae317
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605819"
 ---
 # <a name="obtaining-identity-information"></a>Obtention des informations d’identité
 
@@ -36,6 +36,6 @@ Les informations obtenues par [**RasEapGetIdentity**](/previous-versions/windows
 
 Après l’appel à [**RasEapBegin**](/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)), le service d’authentification appelle [**RasEapFreeMemory**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory) pour libérer la mémoire occupée par ces données. Par conséquent, le protocole d’authentification doit copier les informations dans une mémoire tampon de mémoire privée pendant l’appel à **RasEapBegin**.
 
- 
+ 
 
- 
+ 

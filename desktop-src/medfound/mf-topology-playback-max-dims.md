@@ -4,12 +4,12 @@ ms.assetid: 46af4c11-042c-4580-ba9d-3aee6172de56
 title: Attribut MF_TOPOLOGY_PLAYBACK_MAX_DIMS (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1fc6a57c5e031bc6f35f36e688bd44986f541b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e98575a32b1d68414cb4d94a547273aa4986e03dc707023d5c40f9860b77b5a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604779"
 ---
 # <a name="mf_topology_playback_max_dims-attribute"></a>\_ \_ \_ Attribut Dim Max playback de lecture de la topologie MF \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**MFSetAttributeSize**](/windows/desktop/ap
 
 [**IMFTopology**](/windows/desktop/api/mfidl/nn-mfidl-imftopology)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le chargeur de topologie utilise cet attribut pour optimiser le pipeline avant le démarrage de la lecture. Si vous définissez cet attribut, affectez également à l’attribut [ \_ \_ \_ \_ optimisations de la lecture statique de la topologie MF](mf-topology-static-playback-optimizations.md) la **valeur true**.
 
@@ -43,8 +43,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

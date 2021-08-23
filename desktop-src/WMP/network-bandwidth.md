@@ -3,7 +3,7 @@ title: Réseau. bande passante
 description: La propriété bandWidth récupère la bande passante actuelle du clip.
 ms.assetid: 2ef86f2a-98e9-4544-a740-c2237f06c135
 keywords:
-- Réseau. bande passante Windows Media Player
+- réseau. bande passante Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4783d86160070fc61202f97b4cf3882f2cebcfb2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 40bd97ae2efe7513bc69d308a29356cfc7b141ecc84b816bdc7fad68d79aa785
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616876"
 ---
 # <a name="networkbandwidth"></a>Réseau. bande passante
 
@@ -33,13 +33,13 @@ La propriété **Bandwidth** récupère la bande passante actuelle du clip.
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété retourne zéro si le *joueur*. La propriété **URL** n’est pas définie. Cette propriété n’est valide que pour la diffusion multimédia en continu.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple Microsoft JScript suivant utilise le *réseau*. **bande passante** pour afficher la bande passante du support actuel. Les informations s’affichent dans une balise DIV HTML créée avec ID = « BW ». L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript Microsoft suivant utilise le *réseau*. **bande passante** pour afficher la bande passante du support actuel. Les informations s’affichent dans une balise DIV HTML créée avec ID = « BW ». L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

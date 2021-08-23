@@ -4,12 +4,12 @@ description: Si vous souhaitez définir la sécurité pour un processus entier, 
 ms.assetid: 87f0a64f-f3ec-4ee2-8d65-4f82e8971f0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d303f184229cb20aef1cbf71733956a3b6ce6618
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: bc8ad3a549a78a10b15e965ba2e2a47b9e5e84f1e8790ccfbf90af622051714e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730909"
 ---
 # <a name="setting-process-wide-security-through-the-registry"></a>Définition de la sécurité Process-Wide dans le registre
 
@@ -43,6 +43,6 @@ Les valeurs **AuthenticationLevel** et **AccessPermission** sont définies indé
 [Définition de la sécurité Process-Wide](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

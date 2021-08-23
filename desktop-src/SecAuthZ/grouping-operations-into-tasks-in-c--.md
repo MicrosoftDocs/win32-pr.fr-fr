@@ -4,12 +4,12 @@ ms.assetid: a9a0202e-44c9-4192-8ff8-e22bddf26cfe
 title: Regroupement d’opérations en tâches en C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c869db5dc5acbd4a7e7f9401ebbf97dea481c40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: adfcfee2368a04fcd1b97faa6c27184371e047d0753080894c87d93c69957c5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672079"
 ---
 # <a name="grouping-operations-into-tasks-in-c"></a>Regroupement d’opérations en tâches en C++
 

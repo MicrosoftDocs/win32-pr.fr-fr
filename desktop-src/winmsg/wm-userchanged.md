@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 14458bdafa0bbf4421c67db8102491db4e1fe6b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bb466e80070fe1be5cd7af7889fc5727c81f8caad89ad60c48c7a105b688fb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705699"
 ---
 # <a name="wm_userchanged-message"></a>\_Message WM USERCHANGED
 
@@ -27,7 +27,7 @@ Envoyé à toutes les fenêtres une fois que l’utilisateur s’est connecté o
 Une fenêtre reçoit ce message par le biais de sa fonction [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) .
 
 > [!Note]  
-> Ce message n’est pas pris en charge par Windows Vista.
+> ce message n’est pas pris en charge à partir de Windows Vista.
 
  
 
@@ -68,7 +68,7 @@ Une application doit retourner zéro si elle traite ce message.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
@@ -78,7 +78,7 @@ Une application doit retourner zéro si elle traite ce message.
 
 <dl> <dt>
 
-[Vue d’ensemble de Windows](windows.md)
+[Windows Vue](windows.md)
 </dt> </dl>
 
  

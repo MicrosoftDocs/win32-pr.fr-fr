@@ -3,12 +3,12 @@ title: Public et exemple de code
 description: Cette rubrique décrit les groupes de développeurs pour lesquels l’interface d’analyse anti-programme malveillant est conçue.
 ms.topic: article
 ms.date: 03/20/2019
-ms.openlocfilehash: 22cf1156a8fa0aedc212b2ab70e34b984d13470f
-ms.sourcegitcommit: 272ba17a215d0d27bb7918fee1192d4954ccc576
+ms.openlocfilehash: 4ac11c75d5714d0706bed28264f9fa1bf03432af82107826178007e2c42243c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "104030727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579909"
 ---
 # <a name="developer-audience-and-sample-code"></a>Public et exemple de code
 
@@ -19,7 +19,7 @@ L’interface d’analyse anti-programme malveillant est conçue pour être util
 
 ## <a name="application-developers"></a>Développeurs d’applications
 
-AMSI est conçu en particulier pour combattre les « programmes malveillants en fichier ». Les types d’applications qui peuvent tirer le meilleur parti de la technologie AMSI incluent les moteurs de script, les applications qui ont besoin de mémoires tampons pour être analysés avant de les utiliser, et les applications qui traitent des fichiers pouvant contenir du code exécutable non PE (par exemple, des macros Microsoft Word et Excel ou des documents PDF). Toutefois, l’utilité de la technologie AMSI n’est pas limitée à ces exemples.
+AMSI est conçu en particulier pour combattre les « programmes malveillants en fichier ». les types d’applications qui peuvent tirer le meilleur parti de la technologie AMSI incluent les moteurs de script, les applications qui ont besoin de mémoires tampons pour être analysés avant de les utiliser, et les applications qui traitent les fichiers qui peuvent contenir du code exécutable non PE (par exemple, les macros Microsoft Word et Excel ou les documents PDF). Toutefois, l’utilité de la technologie AMSI n’est pas limitée à ces exemples.
 
 Il existe deux façons d’interagir avec AMSI dans votre application.
 
@@ -32,13 +32,13 @@ Pour obtenir un exemple de code illustrant l’utilisation de AMSI dans votre ap
 
 En tant que créateur de produits anti-programme malveillant, vous pouvez choisir de créer et d’inscrire votre propre serveur COM in-process (une DLL) pour qu’il fonctionne en tant que fournisseur AMSI. Ce fournisseur AMSI doit implémenter l' [interface **IAntimalwareProvider**](/windows/desktop/api/amsi/nn-amsi-iantimalwareprovider)et doit s’exécuter in-process.
 
-Notez que, après Windows 10, version 1709 (la mise à jour d’automne 2017 Creators), votre DLL de fournisseur AMSI peut ne pas fonctionner si cela dépend d’autres dll dans son chemin d’accès à charger en même temps. Pour empêcher le détournement de DLL, nous recommandons que votre DLL de fournisseur charge explicitement ses dépendances (avec un chemin d’accès complet) à l’aide d’appels [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw) sécurisés, ou d’un équivalent. Nous vous recommandons de le faire au lieu de vous appuyer sur le comportement de recherche **LoadLibrary** .
+notez que, après Windows 10, la version 1709 (la mise à jour automne 2017 Creators), votre DLL de fournisseur AMSI peut ne pas fonctionner si cela dépend d’autres dll dans son chemin d’accès à charger en même temps. Pour empêcher le détournement de DLL, nous recommandons que votre DLL de fournisseur charge explicitement ses dépendances (avec un chemin d’accès complet) à l’aide d’appels [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw) sécurisés, ou d’un équivalent. Nous vous recommandons de le faire au lieu de vous appuyer sur le comportement de recherche **LoadLibrary** .
 
 La section ci-dessous montre comment inscrire votre fournisseur AMSI. Pour obtenir un exemple de code complet illustrant comment créer votre propre DLL de fournisseur AMSI, consultez l' [exemple d’application IAntimalwareProvider interface](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/AmsiProvider).
 
 ### <a name="register-your-provider-dll-with-amsi"></a>Inscrire votre DLL de fournisseur auprès de AMSI
 
-Pour commencer, vous devez vous assurer que ces clés de Registre Windows existent.
+pour commencer, vous devez vous assurer que ces clés de registre Windows existent.
 
 - HKLM\SOFTWARE\Microsoft\AMSI\Providers
 - HKLM\SOFTWARE\Classes\CLSID
@@ -100,7 +100,7 @@ STDAPI DllRegisterServer()
 }
 ```
 
-Si votre DLL implémente la [fonction DllRegisterServer](/windows/desktop/api/olectl/nf-olectl-dllregisterserver), comme l’illustre l’exemple ci-dessus, vous pouvez l’inscrire à l’aide de l’exécutable fourni par Windows `regsvr32.exe` . À partir d’une invite de commandes avec élévation de privilèges, émettez une commande de ce formulaire.
+si votre DLL implémente la [fonction DllRegisterServer](/windows/desktop/api/olectl/nf-olectl-dllregisterserver), comme l’illustre l’exemple ci-dessus, vous pouvez l’inscrire à l’aide de l’exécutable fourni par le Windows `regsvr32.exe` . À partir d’une invite de commandes avec élévation de privilèges, émettez une commande de ce formulaire.
 
 ```cmd
 C:>C:\Windows\System32\regsvr32.exe SampleAmsiProvider.dll
@@ -110,12 +110,12 @@ Dans cet exemple, la commande crée les entrées suivantes.
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\\ {2E5D8A62-77F9-4F7B-A90C-2744820139B2}**
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Valeurs    REG_SZ exemple d’implémentation de fournisseur AMSI**
+&nbsp;&nbsp;&nbsp;&nbsp;**Valeurs    REG_SZ exemple d’implémentation de fournisseur AMSI**
 
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\\ {2E5D8A62-77F9-4F7B-A90C-2744820139B2} \InprocServer32**
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Valeurs    REG_EXPAND_SZ% ProgramFiles% \TestProvider\SampleAmsiProvider.dll**
+&nbsp;&nbsp;&nbsp;&nbsp;**Valeurs    REG_EXPAND_SZ% ProgramFiles% \TestProvider\SampleAmsiProvider.dll**
 
 &nbsp;&nbsp;&nbsp;&nbsp;**ThreadingModel REG_SZ les deux**
 

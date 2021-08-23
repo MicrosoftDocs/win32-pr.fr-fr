@@ -4,12 +4,12 @@ ms.assetid: a000a2d4-afcf-4b88-9bbc-f42758744de2
 title: Propriété AVEncCommonLowLatency (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a13dd59b7aa09f6b0f2aa6a4c31031d090d41c85
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6b53c4b0122e595c930828f400600fc22b5a03977a781adab0e3a2f42b1048ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690229"
 ---
 # <a name="avenccommonlowlatency-property"></a>Propriété AVEncCommonLowLatency
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncCommonLowLatency**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La latence du décodage est définie comme la quantité de données que le décodeur doit mettre en mémoire tampon. Par exemple, la définition de cette propriété sur la **\_ valeur variant true** sur un encodeur vidéo MPEG limite les types de structures GOP que l’encodeur peut utiliser.
 
@@ -35,8 +35,8 @@ La latence du décodage est définie comme la quantité de données que le déco
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

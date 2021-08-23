@@ -4,12 +4,12 @@ description: . | Transactions DDEML
 ms.assetid: 14e93d6b-166c-42e0-8b4d-4446a8672d48
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aec7c435073587e420c1c810fffa7cdbe735c50
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4fbc844d4e975a9c9cdbe7e7b0431dd94a673afb90a7869ead51a7b79e849308
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106542136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730619"
 ---
 # <a name="ddeml-transactions"></a>Transactions DDEML
 

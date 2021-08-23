@@ -13,12 +13,12 @@ keywords:
 - capPaletteManual macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f09cbbe3ffc8ea21d1ecf8545f036f5ba6dfb927
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f51f9399520b5a3cefc046959c0d59d7abe9d0f1b6ab19662f750720afd16447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686709"
 ---
 # <a name="working-with-palettes"></a>Utilisation des palettes
 
@@ -36,9 +36,9 @@ Pour enregistrer une nouvelle palette, utilisez le message [**WM \_ Cap \_ PAL \
 
 Vous pouvez coller une palette du presse-papiers dans la fenêtre de capture à l’aide du message [**WM \_ Cap \_ PAL \_ Paste**](wm-cap-pal-paste.md) . La fenêtre de capture transmet la palette au pilote de capture. D’autres applications peuvent copier des palettes dans le presse-papiers. Vous pouvez également copier une palette dans le presse-papiers à l’aide du message [**WM \_ Cap \_ Edit \_ Copy**](wm-cap-edit-copy.md) (ou de la macro [**capEditCopy**](/windows/desktop/api/Vfw/nf-vfw-capeditcopy) ). Ce message copie la mémoire tampon de l’image vidéo, y compris la palette, dans le presse-papiers.
 
- 
+ 
 
- 
+ 
 
 
 
