@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 69267b86a45cc1b95160e1400440b868426b7cae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0d357eda1098bd20e4ebc68f5b959b7ac5ffd4fb46788ffac99d1f18678d6a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857219"
 ---
 # <a name="swbemobjectsetitem-method"></a>SWbemObjectSet. Item, méthode
 
@@ -89,7 +89,7 @@ L’élément demandé est introuvable.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **Item** peut nécessiter beaucoup de temps processeur, car une énumération complète par le fournisseur des éléments de l’ensemble est nécessaire pour retourner le résultat.
 

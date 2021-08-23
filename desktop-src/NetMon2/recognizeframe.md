@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: e2660629cecfa279377794749714102077fb6979
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9f8fcbfccdb306038b7b654e947ff1a11654267012c7527799d8633ed8a9410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889699"
 ---
 # <a name="recognizeframe-callback-function"></a>RecognizeFrame fonction de rappel
 
@@ -151,7 +151,7 @@ Si la fonction réussit, la valeur de retour est un pointeur vers le premier oct
 
 Si la fonction échoue, la valeur de retour est un pointeur initial que le paramètre *lpProtocol* passe.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **RecognizeFrame** détermine si l’analyseur reconnaît les données brutes en commençant au pointeur *lpProtocol* .
 

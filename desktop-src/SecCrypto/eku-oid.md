@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 77a519051d2bd1cb3c948bf0e2271cced7d80a20
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49a35cb223c338573ba0a52288a1e5528820dcbd4c7589548ce31f9df46dc1e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875249"
 ---
 # <a name="iekuoid-property"></a>IEKU :: OID, propriété
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509EnhancedKeyUsageExtension**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509EnhancedKeyUsageExtension**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
 
 La propriété **OID** définit ou récupère une chaîne qui contient une valeur de chaîne d’OID EKU telle que définie dans wincrypt. h.
 
@@ -44,7 +44,7 @@ EKU.OID As String
 
 Chaîne qui contient la valeur de chaîne OID de l’EKU telle que définie dans wincrypt. h.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété n’utilise pas l’objet [**OID**](oid.md) introduit dans CAPICOM 2,0.
 
@@ -56,7 +56,7 @@ Cette propriété n’utilise pas l’objet [**OID**](oid.md) introduit dans CAP
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Fin de la prise en charge des clients<br/> | Windows Vista<br/>                                                               |
 | Fin de la prise en charge des serveurs<br/> | Windows Server 2008<br/>                                                         |
-| Composant redistribuable<br/>       | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/>       | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

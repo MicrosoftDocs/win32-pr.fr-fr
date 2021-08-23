@@ -4,16 +4,16 @@ ms.assetid: d31882f6-b747-47c7-83cb-a9a03fe11cb8
 title: Adresses IPv6 locales et de site local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb80b8e201adf382b10dd31fe5607de903d6c588
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22220adb2c1b0338462f7ed87b3937a97c3d0b8a8b0aa2d9858d5c5efc8b4f54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794779"
 ---
 # <a name="ipv6-link-local-and-site-local-addresses"></a>Adresses IPv6 locales et de site local
 
-Les adresses IPv6 locales et de site local sont appelées adresses étendues. L’API Windows Sockets (Winsock) prend en charge le membre d' **\_ \_ ID d’étendue Sin6** dans la structure [**sockaddr \_ in6**](sockaddr-2.md) pour une utilisation avec des adresses délimitées. Pour les adresses IPv6 lien-local (FE80 ::/10 préfixe), le membre de l' **\_ \_ ID d’étendue Sin6** dans la structure **sockaddr \_ in6** est le numéro d’interface. Pour les adresses locales de site IPv6 (préfixe FEC0 ::/10), le membre de l' **\_ \_ ID d’étendue Sin6** dans la structure **\_ in6 sockaddr** est un identificateur de site.
+Les adresses IPv6 locales et de site local sont appelées adresses étendues. l’API Windows sockets (Winsock) prend en charge le membre d' **\_ \_ id d’étendue sin6** dans la structure [**sockaddr \_ in6**](sockaddr-2.md) pour une utilisation avec des adresses délimitées. Pour les adresses IPv6 lien-local (FE80 ::/10 préfixe), le membre de l' **\_ \_ ID d’étendue Sin6** dans la structure **sockaddr \_ in6** est le numéro d’interface. Pour les adresses locales de site IPv6 (préfixe FEC0 ::/10), le membre de l' **\_ \_ ID d’étendue Sin6** dans la structure **\_ in6 sockaddr** est un identificateur de site.
 
 Voici un exemple d’adresse IPv6 de liaison locale sur \# l’interface 5 :
 
@@ -21,23 +21,23 @@ Voici un exemple d’adresse IPv6 de liaison locale sur \# l’interface 5 :
 fe80::208:74ff:feda:625c%5
 ```
 
-La commande suivante est disponible sur Windows XP avec Service Pack 1 (SP1) et versions ultérieures pour interroger et configurer IPv6 sur un ordinateur local :
+la commande suivante est disponible sur Windows XP avec Service pack 1 (SP1) et versions ultérieures pour interroger et configurer IPv6 sur un ordinateur local :
 
 -   [Netsh.exe](netsh-exe.md)
 
 Les modifications de configuration effectuées à l’aide des commandes Netsh.exe sont permanentes et ne sont pas perdues lors du redémarrage de l’ordinateur ou du protocole IPv6.
 
-Avant Windows XP avec Service Pack 1 (SP1), la configuration et la gestion IPv6 utilisaient plusieurs anciens outils en ligne de commande (Net.exe, Ipv6.exe et Ipsec6.exe) pour configurer et gérer IPv6. À l’aide de ces outils plus anciens, les modifications IPv6 ne sont pas permanentes et sont perdues lorsque l’ordinateur ou le protocole IPv6 a été redémarré. Ces anciens outils en ligne de commande sont uniquement pris en charge sur Windows XP.
+avant Windows XP avec Service Pack 1 (SP1), la configuration et la gestion IPv6 utilisaient plusieurs anciens outils en ligne de commande (Net.exe, Ipv6.exe et Ipsec6.exe) pour configurer et gérer IPv6. À l’aide de ces outils plus anciens, les modifications IPv6 ne sont pas permanentes et sont perdues lorsque l’ordinateur ou le protocole IPv6 a été redémarré. ces anciens outils en ligne de commande sont uniquement pris en charge sur Windows XP.
 
-Sur Windows XP avec SP1, la commande suivante affiche la liste des interfaces IPv6 sur un ordinateur local, y compris l’index d’interface, le nom de l’interface et diverses autres propriétés de l’interface.
+sur Windows XP avec SP1, la commande suivante affiche la liste des interfaces IPv6 sur un ordinateur local, y compris l’index d’interface, le nom de l’interface et diverses autres propriétés d’interface.
 
 **netsh interface ipv6 show interface**
 
-Sur Windows XP avec SP1, la commande suivante permet de modifier l’identificateur de site associé à un index d’interface.
+sur Windows XP avec SP1, la commande suivante permet de modifier l’identificateur de site associé à un index d’interface.
 
 **netsh interface ipv6 set interface <InterfaceIndex or Name> siteid = valeur**
 
-Sur Windows XP, la commande antérieure suivante remplacera également l’identificateur de site associé à une adresse de site local par 3.
+sur Windows XP, la commande précédente suivante remplacera également l’identificateur de site associé à une adresse de site local par 3.
 
 **FEC0 RTU IPv6 ::/10 3**
 
@@ -72,7 +72,7 @@ Si vous n’avez pas spécifié le membre de l' **\_ \_ ID de l’étendue Sin6*
 
 Si l’adresse lien-local de destination est résolue, cette interface est utilisée pour envoyer le paquet actuel. Cette interface est également utilisée pour tous les paquets de portée ambiguë suivants qui sont envoyés à la même adresse de destination lien-local.
 
-Si la découverte de voisins ne parvient pas à résoudre l’adresse lien-local de destination sur toutes les interfaces, le système tente alors d’envoyer le paquet sur l’interface la plus préférée (la première interface essayée). La pile réseau continue de tenter de résoudre l’adresse lien-local de destination sur l’interface la plus préférée. Après un certain laps de temps après l’échec de la découverte de voisins sur toutes les interfaces, la pile réseau redémarre le processus et tente de résoudre l’adresse lien-local de destination sur toutes les interfaces. Actuellement, cet intervalle de temps pendant lequel la découverte du voisin est de nouveau effectuée sur toutes les interfaces est de 60 secondes. Toutefois, cet intervalle de temps peut changer sur les versions de Windows et ne doit pas être utilisé par une application.
+Si la découverte de voisins ne parvient pas à résoudre l’adresse lien-local de destination sur toutes les interfaces, le système tente alors d’envoyer le paquet sur l’interface la plus préférée (la première interface essayée). La pile réseau continue de tenter de résoudre l’adresse lien-local de destination sur l’interface la plus préférée. Après un certain laps de temps après l’échec de la découverte de voisins sur toutes les interfaces, la pile réseau redémarre le processus et tente de résoudre l’adresse lien-local de destination sur toutes les interfaces. Actuellement, cet intervalle de temps pendant lequel la découverte du voisin est de nouveau effectuée sur toutes les interfaces est de 60 secondes. toutefois, cet intervalle de temps peut changer sur les versions de Windows et ne doit pas être utilisé par une application.
 
 > [!Note]  
 > Si une application lie la même adresse lien-local à une autre interface après que la découverte du voisin a résolu l’adresse lien-local, cela ne remplace pas l’interface par l’adresse de destination lien-local renvoyée par la découverte de voisins.

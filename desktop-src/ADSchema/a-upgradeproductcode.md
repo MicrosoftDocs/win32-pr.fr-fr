@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33734ec62665d301568f5f4152b39c5fbf4f94a6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 842aa4aa12f1e4b312f05f3700844bf7a742a6a299ff489482fbc1f4d17bfa7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106544516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835399"
 ---
 # <a name="upgrade-product-code-attribute"></a>Upgrade-Product-Code (attribut)
 
@@ -45,7 +45,7 @@ Cet attribut contient le code de produit d’autres packages, tels que les appli
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

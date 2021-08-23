@@ -17,12 +17,12 @@ keywords:
 - DRM (gestion des droits numériques), WMStubDRM. lib
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160a14d96da924bdb2a307bc804514a1ec3de083
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a5be729f04f67e1a2e4319bcc8d267c798942293c2df2ee97dcc6a559af612aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809469"
 ---
 # <a name="creating-protected-files"></a>Création de fichiers protégés
 
@@ -36,7 +36,7 @@ Les rubriques suivantes décrivent en détail comment protéger des fichiers.
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -60,9 +60,9 @@ Les rubriques suivantes décrivent en détail comment protéger des fichiers.
 [**Lecture des fichiers protégés**](reading-protected-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

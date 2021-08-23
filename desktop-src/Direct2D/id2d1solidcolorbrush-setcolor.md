@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 580778135e840a69342ff34ffd8e415883317517
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb281265a9567db5da6252944fa1da1a6beb1bd4a0fb2a6a4d80ef1177455fc8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873949"
 ---
 # <a name="id2d1solidcolorbrushsetcolor-methods"></a>ID2D1SolidColorBrush :: SetColor, méthodes
 
@@ -35,7 +35,7 @@ Spécifie la couleur de ce pinceau de couleur unie.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour vous aider à créer des couleurs, Direct2D fournit la classe [**ColorF**](/windows/win32/api/d2d1helper/nl-d2d1helper-colorf) . Il offre plusieurs méthodes d’assistance pour la création de couleurs et fournit un jeu ou des couleurs prédéfinies.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4ed77556681e2ad43302b8608dc213b3ad0f0209
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8548863f7c35ff3d56fd83287cf1c3628bb1a9ff89d8ad34346530063c494c99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857299"
 ---
 # <a name="d3dxcreatecubetexturefromresourceex-function"></a>D3DXCreateCubeTextureFromResourceEx fonction)
 
@@ -185,11 +185,11 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DERR \_ NOTAVAILABLE, D3DERR \_ OUTOFVIDEOMEMORY, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en **D3DXCreateCubeTextureFromResourceExW**. Dans le cas contraire, l’appel de fonction est résolu en **D3DXCreateCubeTextureFromResourceExA** , car les chaînes ANSI sont utilisées.
 
-Cette fonction prend en charge les formats de fichier suivants :. bmp,. DDS,. dib,. HDR,. jpg,. PFM,. png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
+Cette fonction prend en charge les formats de fichier suivants : .bmp,. DDS,. dib,. HDR, .jpg,. PFM, .png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
 
 Les textures de cube diffèrent des autres surfaces dans le fait qu’il s’agit de collections de surfaces. Pour appeler [**SetRenderTarget**](/windows/desktop/api) avec une texture de cube, vous devez sélectionner un visage individuel à l’aide de [**GetCubeMapSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-getcubemapsurface) et passer la surface résultante à **SetRenderTarget**.
 

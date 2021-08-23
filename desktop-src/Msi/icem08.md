@@ -19,7 +19,7 @@ ICEM08 garantit qu’un module n’exclut pas un autre module dont il dépend.
 
 ICEM08 publie une erreur lorsqu’un module exclut un autre module dont il dépend.
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemples
 
 ICEM08 publie le message d’erreur suivant pour un module contenant les entrées de base de données indiquées dans l’exemple.
 

@@ -4,17 +4,17 @@ description: Avec une zone de recherche, les utilisateurs peuvent localiser rapi
 ms.assetid: e2d77b36-e001-403c-9b66-2d136c394a24
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: e9d1fca8fdb96b17098cee79fd5b62ecd7ab7531
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 71e0ce45e2fd0b84b0abda9462f2cb42c945790e93ea06e7dfc6ece0f65ffd65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103953326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842936"
 ---
 # <a name="search-boxes"></a>Zones de recherche
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec une zone de recherche, les utilisateurs peuvent localiser rapidement des objets ou du texte spécifiques dans un grand ensemble de données en filtrant ou en mettant en surbrillance les correspondances. Il n’existe pas de contrôle de recherche standard, mais vous devez vous efforcer de faire en sorte que les fonctionnalités de recherche de votre programme soient cohérentes avec celles de Windows.
 
@@ -55,25 +55,25 @@ Zones de recherche dans Windows :
 -   Avoir une apparence et un comportement cohérents.
 -   Sont efficaces et rapides, ce qui donne des résultats instantanés en mode de recherche instantanée.
 
-Une zone de recherche est utilisée dans les fenêtres à ces emplacements :
+une zone de recherche est utilisée dans Windows aux emplacements suivants :
 
 -   Explorateurs
--   Expériences (Microsoft Windows Media Player, Galerie de photos Windows, Windows Internet Explorer)
--   Menu Démarrer (pour rechercher des programmes et des fichiers récents)
+-   expériences (Microsoft Lecteur Windows Media, Windows la galerie de photos, Windows Internet Explorer)
+-   menu Démarrer (pour rechercher des programmes et des fichiers récents)
 -   Page d’emplacement du panneau de configuration (pour rechercher des éléments et des tâches dans le panneau de configuration)
 -   Aide (pour rechercher des rubriques d’aide pertinentes)
 
 ### <a name="look-and-feel"></a>Apparence
 
-La recherche dans Windows a été considérablement améliorée en prenant en charge la recherche instantanée. Le fait d’avoir des résultats instantanés rend Windows plus puissant et direct.
+l’aspect de la recherche dans Windows est considérablement amélioré grâce à la prise en charge de la recherche instantanée. le fait d’avoir des résultats instantanés rend Windows être plus puissant et plus direct.
 
-Dans l’Explorateur Windows et les fenêtres d’application, la recherche se trouve dans l’angle supérieur droit s’il s’agit d’un point d’entrée supplémentaire. Dans ce cas, les utilisateurs recherchent un mécanisme de recherche lorsqu’ils ne trouvent pas ce qu’ils recherchent dans la fenêtre. Toutefois, si Search est le point d’entrée principal, il est centré en haut de la fenêtre.
+dans Windows explorateur et les fenêtres d’application, la recherche se trouve dans l’angle supérieur droit s’il s’agit d’un point d’entrée supplémentaire. Dans ce cas, les utilisateurs recherchent un mécanisme de recherche lorsqu’ils ne trouvent pas ce qu’ils recherchent dans la fenêtre. Toutefois, si Search est le point d’entrée principal, il est centré en haut de la fenêtre.
 
 Le bouton de recherche est connecté visuellement à une zone de recherche. Pour réduire l’espace, une [invite](ctrl-text-boxes.md) facultative est utilisée dans une zone de recherche au lieu d’une étiquette. L’invite peut être une instruction (par exemple, taper pour rechercher) ou indiquer l’étendue de la recherche (par exemple, Rechercher des images).
 
 ![capture d’écran d’une zone de recherche instantanée ](images/ctrl-search-boxes-image3.png)
 
-Sans étiquettes et boutons séparés, la recherche instantanée dans Windows a une apparence légère.
+sans étiquettes et boutons séparés, la recherche instantanée dans Windows a une apparence légère.
 
 L’exécution d’une recherche réussie crée une page virtuelle des résultats de la recherche et l’ajoute à la pile de retour et à la barre d’adresses. Les utilisateurs disposent de plusieurs façons de restaurer la page d’origine et d’effacer une zone de recherche, notamment en cliquant sur précédent, en cliquant sur la page d’origine dans la barre d’adresses, en appuyant sur Échap ou en désactivant la zone de recherche.
 

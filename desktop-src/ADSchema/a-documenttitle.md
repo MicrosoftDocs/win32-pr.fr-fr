@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20b9574cd973b07f44cbed41af04fda0308ae440
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e945599d40450cc3130d717881098773bb331d46c163aa4d25d874b2247d5075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804869"
 ---
 # <a name="documenttitle-attribute"></a>attribut documentTitle
 
@@ -43,7 +43,7 @@ Le type d’attribut documentTitle spécifie le titre d’un document.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

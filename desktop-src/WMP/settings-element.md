@@ -3,23 +3,23 @@ title: Élément SETTINGs
 description: Élément SETTINGs
 ms.assetid: 27d39e69-64f0-4b9c-abc1-23d8eace8dcd
 keywords:
-- Apparences du lecteur Windows Media, élément paramètres
+- apparences Lecteur Windows Media, élément settings
 - Skins, élément SETTINGs
 - Élément SETTINGs
 - référence pour les apparences, élément SETTINGs
 - éléments, paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 927e1f9bca078910237f19ef8534bda7503a1aa1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab3e227f700963bab6765b7facc97e52b0a3919e790fff54ed16f9d465af4dc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763589"
 ---
 # <a name="settings-element"></a>Élément SETTINGs
 
-L’élément **Settings** permet de spécifier les attributs suivants de l’objet de **paramètres** dans une apparence.
+l’élément **settings** permet de spécifier les attributs suivants de l’objet **Paramètres** dans une apparence.
 
 
 
@@ -38,21 +38,21 @@ L’élément **Settings** permet de spécifier les attributs suivants de l’ob
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> <dt>
 
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

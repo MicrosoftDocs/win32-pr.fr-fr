@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 14bf40538eafb3c8e78b68b7a435d0d37d401960
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c50945b8de53b6d058556e3b5c995d3ec17bfdc8f8d55ec3dc2e6e56089b2a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800759"
 ---
 # <a name="maxstart-onex-element"></a>Élément maxStart (OneX)
 
@@ -25,7 +25,7 @@ L’élément maxStart (OneX) spécifie le nombre maximal de messages EAPOL-Star
 
 Cet élément est facultatif. Quand maxStart n’est pas spécifié dans un profil, une valeur de 3 messages est utilisée.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément sera ignoré s’il est présent dans un profil.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément sera ignoré s’il est présent dans un profil.
 
 ``` syntax
 <xs:element name="maxStart">
@@ -52,8 +52,8 @@ L’élément **Maxstart** est défini par l’élément [**Onex**](onexschema-o
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

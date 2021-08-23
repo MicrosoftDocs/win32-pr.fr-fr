@@ -12,12 +12,12 @@ keywords:
 - mémoires tampons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5081fa4d1742f2c8dad0a6ef7ef3368135bf0d23
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8f6af70bd0094ff83224dd437f78c0364f4a58a2de292e165ef694855af24de1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868819"
 ---
 # <a name="b-opengl"></a>B (OpenGL)
 

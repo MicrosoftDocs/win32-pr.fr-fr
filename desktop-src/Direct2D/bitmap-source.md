@@ -55,7 +55,7 @@ L’effet est interpolé à l’aide de ce mode lorsqu’il met à l’échelle 
 
 
 
-| Nom                                                       | Description                                                                                                                                                                                                                          |
+| Name                                                       | Description                                                                                                                                                                                                                          |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Mode d' \_ interpolation BITMAPSOURCE \_ d2d1 \_ le plus proche \_ voisin | Échantillonne le point unique le plus proche et l’utilise. Ne génère pas de mipmap.                                                                                                                                                           |
 | \_Mode d' \_ interpolation d2d1 BITMAPSOURCE \_ \_ linéaire            | Utilise un échantillon à quatre points et une interpolation linéaire. Ne génère pas de mipmap.                                                                                                                                                        |
@@ -73,7 +73,7 @@ La propriété orientation peut être utilisée pour appliquer un indicateur d�
 
 
 
-| Nom                                                                    | Description                                                        |
+| Name                                                                    | Description                                                        |
 |-------------------------------------------------------------------------|--------------------------------------------------------------------|
 | D2D1 de l' \_ \_ orientation BITMAPSOURCE \_ par défaut                                | Par défaut. L’effet ne change pas l’orientation de l’entrée.   |
 | D2D1 l’orientation de BITMAPSOURCE de l' \_ \_ \_ \_ horizontale                       | Retourne l’image horizontalement.                                      |
@@ -127,7 +127,7 @@ D2D1_BITMAPSOURCE_ORIENTATION GetBitmapSourceOrientation(unsigned short PhotoOri
 
 
 
-| Nom                                           | Description                                            |
+| Name                                           | Description                                            |
 |------------------------------------------------|--------------------------------------------------------|
 | D2D1 \_ \_ mode Alpha \_ BITMAPSOURCE \_ prémultiplié | La sortie d’effet utilise une alpha prémultipliée.<br/> |
 | \_ \_ Mode Alpha BITMAPSOURCE \_ d2d1 \_ simple      | La sortie d’effet utilise l’alpha simple.<br/>      |

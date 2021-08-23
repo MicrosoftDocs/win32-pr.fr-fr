@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: e3b00721229890f82b00e7e7a41ccb8796a81b98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 873872b17684aac3874b82f0570dfac93988356743055088c1916ef3cb41f4a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867899"
 ---
 # <a name="iscrdenrresetuser-method"></a>ISCrdEnr :: resetUser, méthode
 
@@ -38,7 +38,7 @@ HRESULT resetUser();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode efface du nom d’utilisateur existant et du certificat précédemment inscrit de la mémoire. Toutefois, le certificat précédemment inscrit n’est pas supprimé de la carte à puce.
 
@@ -49,7 +49,7 @@ Cette méthode efface du nom d’utilisateur existant et du certificat précéde
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr est défini en tant que 753988a1-1357-436D-9cf5-f089bdd67d64<br/>             |
 

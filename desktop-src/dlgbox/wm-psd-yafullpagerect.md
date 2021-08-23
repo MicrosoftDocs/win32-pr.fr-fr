@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb325a8d408724cd865f5f9b70cfe7369fe6ffe6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 62cfbd187cb3db5a27579b428c352be1da1a4bdf91f3336ed41511fe59d75d23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787359"
 ---
 # <a name="wm_psd_yafullpagerect-message"></a>\_ \_ Message YAFULLPAGERECT WM
 
@@ -59,7 +59,7 @@ Si la procédure de raccordement retourne la **valeur false**, la boîte de dial
 
 Si le type de papier n’est pas une enveloppe, la valeur de retour n’a aucun effet.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La boîte de dialogue **mise en page** comprend une image d’un exemple de page qui montre comment les sélections de l’utilisateur affectent l’apparence de la sortie imprimée. Quand vous appelez la fonction [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) , vous pouvez fournir une procédure de hook [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) pour personnaliser l’apparence de la page d’exemple. Chaque fois que la boîte de dialogue est sur le paragraphe pour dessiner le contenu de la page d’exemple, la boîte de dialogue envoie une séquence de messages à la procédure de raccordement.
 

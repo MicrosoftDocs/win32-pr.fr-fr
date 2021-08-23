@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 52e3ce42948d5c40bbde3329b37ee3fa506c47ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57efc6b624e10cf06d024418e3bd29104b8d50c986c2e74401dc66c4cab64ae2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760179"
 ---
 # <a name="setarpuseethersnap-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetArpUseEtherSNAP de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, la pile transmet les paquets au format Digital, Intel, Xerox (DIX) Ethernet. Elle reçoit toujours les deux formats.
 

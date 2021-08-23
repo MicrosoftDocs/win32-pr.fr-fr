@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4d6d45c642ec9045d5eb8593492e385245bc635
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f72ca21992256df6b2fbe92b34400b9e2b6e368101fc158ea513381ed0445acf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804889"
 ---
 # <a name="dns-secure-secondaries-attribute"></a>Attribut DNS-Secure-secondaires
 
@@ -36,7 +36,7 @@ L’attribut **DNS-Secure-secondaires** n’est pas utilisé actuellement.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.380               |
 | System-ID-GUID    | e0fa1e67-9b45-11d0-afdd-00c04fd930c9 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ L’attribut **DNS-Secure-secondaires** n’est pas utilisé actuellement.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wisptis.exe
 - Wisptis.exe.dll
-ms.openlocfilehash: 81e8c653dd12600ae02fe7e6038de6e6a38786e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8ce5d4dde7f3fd678e4ac748a0f148750344a1e5e8da9f6481ad25eafa016a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712229"
 ---
 # <a name="itabletcontextpusenamedsharedmemorycommunications-method"></a>ITabletContextP :: UseNamedSharedMemoryCommunications, méthode
 
@@ -99,7 +99,7 @@ Entier qui identifie la mémoire partagée.
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **UseNamedSharedMemoryCommunications** fait partie du protocole de mémoire partagée du Tablet PC. Un client sans privilèges élevés passe dans un identificateur de sécurité (SID) et un identificateur de sécurité de niveau d’intégrité (IL-SID) afin que le service tablette puisse utiliser des listes de contrôle d’accès (ACL) pour accéder aux objets de mémoire partagée. Si le client dispose de privilèges élevés, il doit utiliser UseSharedMemoryCommunications, qui est l’API appelée si le service a déjà un privilège élevé.
 
@@ -138,7 +138,7 @@ Dans chaque définition, la section% d est remplacée par l’ID de processus, e
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Bibliothèque<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

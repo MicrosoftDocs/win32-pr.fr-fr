@@ -12,12 +12,12 @@ keywords:
 - mmioSetInfo fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c89b2376f1bae68d55c76d7731b6ee78f6bf7d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9e4ab9533f0f121d42f859961b60d405477856faacee8d8cf36a0dfb975e2587
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808639"
 ---
 # <a name="accessing-a-file-io-buffer"></a>Accès à un tampon d’e/s de fichier
 
@@ -75,6 +75,6 @@ mmioClose(hmmio, 0);
 
 Lorsque vous avez terminé d’accéder à une mémoire tampon d’e/s de fichier, appelez la fonction [**mmioSetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetinfo) , en passant une adresse de la structure [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) remplie par la fonction [**mmioGetInfo**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiogetinfo) . Si vous avez écrit dans la mémoire tampon, définissez l' \_ indicateur de modification MMIO dans le membre **dwFlags** de la structure **MMIOINFO** avant d’appeler **mmioSetInfo**. Dans le cas contraire, la mémoire tampon n’est pas vidée sur le disque.
 
- 
+ 
 
- 
+ 

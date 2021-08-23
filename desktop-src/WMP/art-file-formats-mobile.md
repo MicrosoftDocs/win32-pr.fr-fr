@@ -3,21 +3,21 @@ title: Formats de fichier art (mobile)
 description: Découvrez les formats de fichiers artistiques reconnus par mobile pour les habillages. Il peut s’agir de bitmap, GIF, JPEG et PNG.
 ms.assetid: c20a8eeb-6a13-4631-bb20-df03c4a4a1d2
 keywords:
-- Windows Media Player Mobile Skins, fichiers art
+- Lecteur Windows Media Skins mobiles, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les apparences, les formats de fichier
-- Windows Media Player Mobile Skins, formats de fichiers pour l’art
+- Lecteur Windows Media Skins mobiles, formats de fichiers pour l’art
 - apparences, formats de fichiers pour l’art
 - formats de fichiers pour l’art de l’apparence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b36f1a6679772e45aae71dc66509176121995d0
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 5fc9e769d5a37acdb8797cbe412bdf8c034770a8ec0d5befab7235a42c52063e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765419"
 ---
 # <a name="art-file-formats-mobile"></a>Formats de fichier art (mobile)
 
@@ -25,7 +25,7 @@ Les fichiers art pour les apparences peuvent être des images bitmap (.bmp) ou G
 
 Si vous synchronisez des fichiers sur un appareil mobile, assurez-vous que la synchronisation ne modifie pas l’extension de nom de fichier ou convertissez les fichiers image dans un autre format.
 
-De nombreux programmes de dessin peuvent être utilisés pour créer des bitmaps et des fichiers GIF, ou pour convertir des illustrations dans d’autres formats en bitmaps ou fichiers GIF. Par exemple, vous pouvez utiliser Microsoft Paint, qui est fourni avec Microsoft Windows, pour des dessins simples.
+De nombreux programmes de dessin peuvent être utilisés pour créer des bitmaps et des fichiers GIF, ou pour convertir des illustrations dans d’autres formats en bitmaps ou fichiers GIF. par exemple, vous pouvez utiliser Microsoft Paint, qui est fourni avec Microsoft Windows, pour des dessins simples.
 
 Vous pouvez découper les zones vides de vos images autour des bords pour réduire la taille des fichiers. Vous pouvez utiliser les décalages de la section bitmaps pour compenser la suppression des espaces vides sur les côtés gauche et supérieur. Vous pouvez également supprimer les bords vides et inférieurs des images, car ils ne sont pas nécessaires pour les mesures. Les seuls fichiers que vous ne devez pas découper sont les images en arrière-plan, SeekThumb et VolumeThumb.
 

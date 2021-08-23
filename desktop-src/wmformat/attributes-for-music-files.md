@@ -1,6 +1,6 @@
 ---
-title: Attributs pour les fichiers musicaux
-description: Attributs pour les fichiers musicaux
+title: attributs pour les fichiers Musique
+description: attributs pour les fichiers Musique
 ms.assetid: 098d9241-c8b0-4b0c-b9c1-668497f91e8c
 keywords:
 - Windows Media Format SDK, attributs
@@ -10,14 +10,14 @@ keywords:
 - attributs, fichiers musicaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e5956296da5ef43ed3a8d35ecc2d7e6d0a4c97e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d9a08b895c283eb48b3de3d8266659d280470ad20233ca4ba459f30a844206df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840309"
 ---
-# <a name="attributes-for-music-files"></a>Attributs pour les fichiers musicaux
+# <a name="attributes-for-music-files"></a>attributs pour les fichiers Musique
 
 Cette section répertorie les attributs couramment utilisés pour les fichiers audio contenant de la musique. Nous vous recommandons de définir des attributs pour les fichiers en fonction de ces listes pour vous assurer que vos fichiers sont entièrement compatibles avec une grande variété d’applications de lecture. Les attributs de cette section sont répertoriés en trois catégories : principal, secondaire et tertiaire.
 
@@ -27,10 +27,10 @@ Les attributs secondaires contiennent des métadonnées communes qui sont import
 
 Les attributs tertiaires doivent être inclus en fonction des besoins, mais ils ne sont pas essentiels à la description du fichier.
 
-## <a name="primary-attributes-for-music"></a>Attributs principaux pour la musique
+## <a name="primary-attributes-for-music"></a>attributs principaux pour Musique
 
 -   [**Auteur**](author.md)
--   [**Intitulé**](title.md)
+-   [**Titre**](title.md)
 -   [**WM/AlbumArtist**](wm-albumartist.md)
 -   [**WM/ContentDistributor**](wm-contentdistributor.md)
 -   [**WM/genre**](wm-genre.md)
@@ -40,10 +40,10 @@ Les attributs tertiaires doivent être inclus en fonction des besoins, mais ils 
 -   [**WM/Provider**](wm-provider.md)
 -   [**WM/TrackNumber**](wm-tracknumber.md)
 
-## <a name="secondary-attributes-for-music"></a>Attributs secondaires pour la musique
+## <a name="secondary-attributes-for-music"></a>attributs secondaires pour Musique
 
 -   [**copyright**](copyright.md)
--   [**WM/composer**](wm-composer.md)
+-   [**WM/Composer**](wm-composer.md)
 -   [**WM/EncodingTime**](wm-encodingtime.md)
 -   [**WM/langage**](wm-language.md)
 -   [**WM/ParentalRating**](wm-parentalrating.md)
@@ -55,7 +55,7 @@ Les attributs tertiaires doivent être inclus en fonction des besoins, mais ils 
 -   [**WM/WMContentID**](wm-wmcontentid.md)
 -   [**WM/Writer**](wm-writer.md)
 
-## <a name="tertiary-attributes-for-music"></a>Attributs tertiaires pour la musique
+## <a name="tertiary-attributes-for-music"></a>attributs tertiaires pour Musique
 
 -   [**Description**](description.md)
 -   [**WM/AuthorURL**](wm-authorurl.md)
@@ -72,7 +72,7 @@ Les attributs tertiaires doivent être inclus en fonction des besoins, mais ils 
 -   [**WM/period**](wm-period.md)
 -   [**WM/image**](wmpicture.md)
 -   [**WM/PromotionURL**](wm-promotionurl.md)
--   [**WM/serveur de publication**](wm-publisher.md)
+-   [**WM/Publisher**](wm-publisher.md)
 -   [**WM/sous-titre**](wm-subtitle.md)
 -   [**WM/UniqueFileIdentifier**](wm-uniquefileidentifier.md)
 -   [**WM/UserWebURL**](wm-userweburl.md)
@@ -87,9 +87,9 @@ Les attributs tertiaires doivent être inclus en fonction des besoins, mais ils 
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

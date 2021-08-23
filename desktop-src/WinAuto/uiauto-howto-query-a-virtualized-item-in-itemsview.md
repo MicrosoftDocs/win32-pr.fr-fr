@@ -68,7 +68,7 @@ Un client peut utiliser l’élément ItemsView pour obtenir le nombre total d�
 
 La propriété ItemStatus est une chaîne qui spécifie le nombre total d’éléments et le nombre d’éléments sélectionnés, séparés par une virgule. Par exemple : « 3 éléments, 1 élément sélectionné ». Cette chaîne est localisée et peut être communiquée directement à l’utilisateur.
 
-Les propriétés personnalisées de l’élément ItemsView incluent une propriété pour le nombre d’éléments, et une autre pour le nombre de sélections. Ils comprennent :
+Les propriétés personnalisées de l’élément ItemsView incluent une propriété pour le nombre d’éléments, et une autre pour le nombre de sélections. Notamment :
 
 -   ItemCount \_ Property \_ GUID (ABBF5C45-5CCC-47B7-BB4E-87CB87BBD162) : nombre de tous les éléments uniques dans la vue. S’ils sont regroupés par une propriété à valeurs multiples (MVP) afin qu’un seul élément puisse apparaître plusieurs fois, chaque élément n’est compté qu’une seule fois.
 

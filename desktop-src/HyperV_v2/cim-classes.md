@@ -4,12 +4,12 @@ ms.assetid: 16EF4297-A64E-4273-9D6E-0B81C954265E
 title: Classes CIM (gestion Hyper-V)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d8ae1c0d9eec142c28467c09b021cb4eb19c67a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e61e72a3711d8963aba426fb9658ad3a742bde15dab02aabe9b7e6d62541a65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790569"
 ---
 # <a name="cim-classes-hyper-v-management"></a>Classes CIM (gestion Hyper-V)
 
@@ -80,7 +80,7 @@ Les classes CIM suivantes se trouvent dans l’espace de noms de la \\ virtualis
 | [**\_LANENDPOINT CIM**](cim-lanendpoint.md)<br/>                                                     | Point de terminaison de communication qui peut se connecter à un réseau local pour envoyer et recevoir des trames de données. Les points de terminaison LAN incluent les interfaces Ethernet, Token Ring et FDDI.<br/>                                                                                                                                                                                                                                       |
 | [**\_LASTAPPLIEDSNAPSHOT CIM**](cim-lastappliedsnapshot.md)<br/>                                     | Représente une association entre un système informatique et sa capture instantanée de système virtuel la plus récemment appliquée.<br/>                                                                                                                                                                                                                                                                                 |
 | [**\_LOGICALDEVICE CIM**](cim-logicaldevice.md)<br/>                                                 | Abstraction ou émulation d’une entité matérielle qui peut ou ne peut pas être basée sur du matériel physique.<br/>                                                                                                                                                                                                                                                                                        |
-| [**\_Disque logique CIM**](cim-logicaldisk.md)<br/>                                                     | Représente une plage contiguë de blocs logiques qui est identifiable par un système de fichiers par le biais du champ **DeviceID** (Key) du disque. Par exemple, dans un environnement Windows, le champ **DeviceID** contient une lettre de lecteur. dans un environnement UNIX, elle contient le chemin d’accès ; dans un environnement NetWare, il contient le nom du volume.<br/>                                                   |
+| [**\_Disque logique CIM**](cim-logicaldisk.md)<br/>                                                     | Représente une plage contiguë de blocs logiques qui est identifiable par un système de fichiers par le biais du champ **DeviceID** (Key) du disque. par exemple, dans un environnement Windows, le champ **DeviceID** contient une lettre de lecteur. dans un environnement de UNIX, il contient le chemin d’accès ; dans un environnement NetWare, il contient le nom du volume.<br/>                                                   |
 | [**\_LOGICALELEMENT CIM**](cim-logicalelement.md)<br/>                                               | **CIM \_ LogicalElement** est une classe de base pour tous les composants d’un système qui représentent des composants système abstraits, tels que des fichiers, des processus et des périphériques logiques. <br/>                                                                                                                                                                                                                          |
 | [**\_LOGICALIDENTITY CIM**](cim-logicalidentity.md)<br/>                                             | Représente une association générique entre deux éléments managés qui représentent différents aspects de la même entité sous-jacente.<br/>                                                                                                                                                                                                                                                              |
 | [**\_LOGICALPORT CIM**](cim-logicalport.md)<br/>                                                     | Abstraction d’un port ou d’un point de connexion d’un appareil.<br/>                                                                                                                                                                                                                                                                                                                                 |

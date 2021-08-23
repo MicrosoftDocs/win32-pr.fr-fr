@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 757e227907eab73848f43b2b8e2f40f9b4b1071b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a3aaa8f9332a80e35ffde43d145be1ed885caeaca6d61e4eb9190baba09b73ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747759"
 ---
 # <a name="id3dxprtenginecomputevolumesamplesdirectsh-method"></a>ID3DXPRTEngine :: ComputeVolumeSamplesDirectSH, méthode
 
@@ -95,7 +95,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode calcule la lumière d’une source distante arrivant à chaque point dans l’espace spécifié par pSampleLocs. Les coefficients SH représentent le mappage, à chaque point de pSampleLocs, du luminance source au luminance de l’incident transféré.
 

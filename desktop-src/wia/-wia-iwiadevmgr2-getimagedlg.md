@@ -1,5 +1,5 @@
 ---
-description: 'La méthode IWiaDevMgr2 :: GetImageDlg affiche une ou plusieurs boîtes de dialogue qui permettent à un utilisateur d’acquérir une image à partir d’un appareil WIA (Windows Image Acquisition) 2,0 et d’écrire l’image dans un fichier spécifié.'
+description: 'la méthode IWiaDevMgr2 :: GetImageDlg affiche une ou plusieurs boîtes de dialogue qui permettent à un utilisateur d’acquérir une image à partir d’un appareil WIA (Windows image Acquisition) 2,0 et d’écrire l’image dans un fichier spécifié.'
 ms.assetid: 30a63426-150e-44cf-a03e-7b6da14450f7
 title: 'IWiaDevMgr2 :: GetImageDlg, méthode (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 6777b839beeb809383e524960e8882392be4bd24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b03356e40f1c708c852917c890e4c1bf96b98cd18ccf82b75ebcaaccaa69597
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814039"
 ---
 # <a name="iwiadevmgr2getimagedlg-method"></a>IWiaDevMgr2 :: GetImageDlg, méthode
 
-La méthode **IWiaDevMgr2 :: GetImageDlg** affiche une ou plusieurs boîtes de dialogue qui permettent à un utilisateur d’acquérir une image à partir d’un appareil WIA (Windows Image Acquisition) 2,0 et d’écrire l’image dans un fichier spécifié. Cette méthode étend les fonctionnalités de [**IWiaDevMgr2 :: SelectDeviceDlg**](-wia-iwiadevmgr2-selectdevicedlg.md) pour encapsuler l’acquisition d’images dans un seul appel d’API.
+la méthode **IWiaDevMgr2 :: GetImageDlg** affiche une ou plusieurs boîtes de dialogue qui permettent à un utilisateur d’acquérir une image à partir d’un appareil WIA (Windows image Acquisition) 2,0 et d’écrire l’image dans un fichier spécifié. Cette méthode étend les fonctionnalités de [**IWiaDevMgr2 :: SelectDeviceDlg**](-wia-iwiadevmgr2-selectdevicedlg.md) pour encapsuler l’acquisition d’images dans un seul appel d’API.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -105,13 +105,13 @@ Spécifie le nom du fichier dans lequel écrire les données de l’image.
 *plNumFiles* \[ dans\]
 </dt> <dd>
 
-Type : **long \** _
+Type : **long \***
 
 Pointeur vers le nombre de fichiers à analyser.
 
 </dd> <dt>
 
-_ppbstrFilePaths * \[ dans\]
+*ppbstrFilePaths* \[ dans\]
 </dt> <dd>
 
 Type : **BSTR \* \***
@@ -140,7 +140,7 @@ Type : **HRESULT**
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’application transmet **null** pour la valeur du paramètre *bstrDeviceID* , **IWiaDevMgr2 :: GetImageDlg** affiche la boîte de dialogue **Sélectionner un appareil** afin que l’utilisateur puisse sélectionner l’appareil d’entrée WIA 2,0.
 
@@ -156,8 +156,8 @@ La boîte de dialogue doit avoir des droits suffisants sur *bstrFolderName* pour
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                             |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl> |
 
 

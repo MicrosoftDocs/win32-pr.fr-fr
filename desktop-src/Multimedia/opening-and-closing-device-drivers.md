@@ -13,12 +13,12 @@ keywords:
 - fermeture des appareils MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d7035455baa067b81af7da980a4ae043500c7b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e935ab3d0d420e735bed6e01d08c80962e134338ea9e88eaa4899e0e81cb71f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806289"
 ---
 # <a name="opening-and-closing-device-drivers"></a>Ouverture et fermeture de pilotes de périphérique
 
@@ -35,7 +35,7 @@ Vous devez ouvrir un appareil MIDI avant de l’utiliser, et vous devez fermer l
 
 
 
- 
+ 
 
 Chaque fonction qui ouvre un appareil MIDI prend comme paramètres un identificateur d’appareil, l’adresse d’un emplacement de mémoire et certains paramètres propres aux périphériques MIDI. L’emplacement de la mémoire est rempli avec un handle d’appareil, qui est utilisé pour identifier le périphérique audio ouvert dans les appels à d’autres fonctions audio.
 
@@ -44,7 +44,7 @@ De nombreuses fonctions MIDI peuvent accepter un handle d’appareil ou un ident
 > [!Note]  
 > Les périphériques MIDI ne sont pas nécessairement partageables. un appareil particulier peut donc ne pas être disponible lorsqu’un utilisateur le demande. Dans ce cas, l’application doit avertir l’utilisateur et permettre à l’utilisateur d’essayer d’ouvrir à nouveau l’appareil.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -53,6 +53,6 @@ De nombreuses fonctions MIDI peuvent accepter un handle d’appareil ou un ident
 [Services MIDI](midi-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,21 +1,21 @@
 ---
-description: L’objet Phone est l’entité qui représente l’appareil téléphonique réel et tous ses contrôles.
+description: l’objet Téléphone est l’entité qui représente l’appareil téléphonique réel et tous ses contrôles.
 ms.assetid: 5bc2f595-8e2b-4938-b813-1574a9390084
-title: Interfaces d’objet téléphonique
+title: Téléphone Interfaces d’objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f39b163e895a512e7adc7be5c2fb848c5849361
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e146910b8184f35057843f20ad663e2be21d2c4844852e7cca3939e1e979d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873269"
 ---
-# <a name="phone-object-interfaces"></a>Interfaces d’objet téléphonique
+# <a name="phone-object-interfaces"></a>Téléphone Interfaces d’objet
 
-L’objet Phone est l’entité qui représente l’appareil téléphonique réel et tous ses contrôles.
+l’objet Téléphone est l’entité qui représente l’appareil téléphonique réel et tous ses contrôles.
 
-Les interfaces [**ITPhoneEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent) et [**IEnumPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone) ne sont pas directement exposées sur l’objet Phone, mais sont étroitement liées à celle-ci et sont répertoriées ici pour des raisons de commodité de référence.
+les interfaces [**ITPhoneEvent**](/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent) et [**IEnumPhone**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone) ne sont pas directement exposées sur l’objet Téléphone, mais sont étroitement liées et sont répertoriées ici pour des raisons de commodité de référence.
 
 
 

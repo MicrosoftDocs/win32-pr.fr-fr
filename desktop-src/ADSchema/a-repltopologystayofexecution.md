@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a51c74c477cce926dd18ea17b8df2b1adcf99df1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 05cb589fdf6ab99654b688df5710117a3fea4926de9fa7a96460c9644ff1ea5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837459"
 ---
 # <a name="repl-topology-stay-of-execution-attribute"></a>Attribut REPL-Topology-Rest-of-Execution
 
@@ -36,7 +36,7 @@ Délai entre la suppression d’un objet serveur et sa suppression définitive d
 | Fréquence des mises à jour  | Chaque fois qu’un objet serveur est supprimé. |
 | Attribute-Id      | 1.2.840.113556.1.4.677               |
 | System-ID-GUID    | 7bfdcb83-4807-11d1-a9c3-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ Délai entre la suppression d’un objet serveur et sa suppression définitive d
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,7 +54,7 @@ Délai entre la suppression d’un objet serveur et sa suppression définitive d
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|--------------------------------------------------|
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -75,7 +75,7 @@ Délai entre la suppression d’un objet serveur et sa suppression définitive d
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|--------------------------------------------------|
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -159,7 +159,7 @@ Délai entre la suppression d’un objet serveur et sa suppression définitive d
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|--------------------------------------------------|
 | ID de lien                | \-                                               |
 | MAPI-Id                | \-                                               |

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 442cac28c094e60c978099c2337076fd8f2df980
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac0cd1ded976ed4ba28ca89715d9ba72ea6c324b6eaaadc71eff8a38ca8f827e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816679"
 ---
 # <a name="reset-method-of-the-cim_alarmdevice-class"></a>Méthode Reset de la \_ classe CIM AlarmDevice
 
@@ -47,7 +47,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
@@ -57,7 +57,7 @@ Cette documentation est dérivée des descriptions de classe CIM publiées par l
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                |
 | Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |

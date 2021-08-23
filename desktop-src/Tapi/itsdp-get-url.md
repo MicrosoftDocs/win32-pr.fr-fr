@@ -4,16 +4,16 @@ ms.assetid: 9ea2ddf6-b8c7-4bfa-aab3-ff2d2056837f
 title: 'ITSdp :: get_Url, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a207c158d405ac0931e42aa19995d1d4b3078fd0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 48c024a176c4acadebad7973df01a8448cdbf83ed50b1b404f01baef00e8c8b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873679"
 ---
 # <a name="itsdpget_url-method"></a>ITSdp :: obtient l' \_ URL, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode d' **extraction d' \_ URL** obtient l’URL.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire allouée pour le paramètre *ppUrl* .
 

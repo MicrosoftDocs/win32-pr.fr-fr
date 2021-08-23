@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5dd005cedcd650aa0604a85e78a46d10f1e01b0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 23785fd626debe61981185561b3b1ea243d93ff870fc2e025777488e1d898c16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762749"
 ---
 # <a name="msmq-secured-source-attribute"></a>MSMQ-Secured-attribut source
 
@@ -44,7 +44,7 @@ Dans le cadre d’un objet MSMQ, il est défini en appelant l’API MQCreateQueu
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

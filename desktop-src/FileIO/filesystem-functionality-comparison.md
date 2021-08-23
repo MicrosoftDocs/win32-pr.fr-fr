@@ -29,7 +29,7 @@ les tableaux suivants répertorient les fonctionnalités et les fonctionnalités
 
 
 
-| Fonctionnalité                             | NTFS                           | exFAT          | Fonctions définies par l'utilisateur                           | FAT32                      |
+| Caractéristique                             | NTFS                           | exFAT          | Fonctions définies par l'utilisateur                           | FAT32                      |
 |-------------------------------------|--------------------------------|----------------|-------------------------------|----------------------------|
 | Horodatages de création<br/>     | Oui<br/>                 | Oui<br/> | Oui<br/>                | Oui<br/>             |
 | Horodatages du dernier accès<br/>  | Non (voir remarque ci-dessous)<br/> | Oui<br/> | Oui<br/>                | Oui (date uniquement)<br/> |
@@ -56,7 +56,7 @@ les tableaux suivants répertorient les fonctionnalités et les fonctionnalités
 
 
 
-| Fonctionnalité                             | NTFS                                                                                      | exFAT                                                                                     | Fonctions définies par l'utilisateur                                                                                       | FAT32                                                                                     |
+| Caractéristique                             | NTFS                                                                                      | exFAT                                                                                     | Fonctions définies par l'utilisateur                                                                                       | FAT32                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | Longueur maximale des noms de fichier<br/> | 255 caractères Unicode<br/>                                                         | 255 caractères Unicode<br/>                                                         | 127 Unicode ou 254 caractères ASCII<br/>                                            | 255 caractères Unicode<br/>                                                         |
 | Longueur maximale des chemins<br/> | 32 760 caractères Unicode avec chaque composant de chemin d’accès ne dépassant pas 255 caractères<br/> | 32 760 caractères Unicode avec chaque composant de chemin d’accès ne dépassant pas 255 caractères<br/> | 32 760 caractères Unicode avec chaque composant de chemin d’accès ne dépassant pas 255 caractères<br/> | 32 760 caractères Unicode avec chaque composant de chemin d’accès ne dépassant pas 255 caractères<br/> |
@@ -71,7 +71,7 @@ les tableaux suivants répertorient les fonctionnalités et les fonctionnalités
 
 
 
-| Fonctionnalité                             | NTFS           | exFAT         | Fonctions définies par l'utilisateur           | FAT32         |
+| Caractéristique                             | NTFS           | exFAT         | Fonctions définies par l'utilisateur           | FAT32         |
 |-------------------------------------|----------------|---------------|---------------|---------------|
 | Journalisation des métadonnées uniquement<br/> | Oui<br/> | Non<br/> | Non<br/> | Non<br/> |
 | Journal des modifications de fichier<br/>          | Oui<br/> | Non<br/> | Non<br/> | Non<br/> |
@@ -84,7 +84,7 @@ les tableaux suivants répertorient les fonctionnalités et les fonctionnalités
 
 
 
-| Fonctionnalité                        | NTFS                                                                        | exFAT         | Fonctions définies par l'utilisateur            | FAT32         |
+| Caractéristique                        | NTFS                                                                        | exFAT         | Fonctions définies par l'utilisateur            | FAT32         |
 |--------------------------------|-----------------------------------------------------------------------------|---------------|----------------|---------------|
 | Compression fin<br/>        | Oui (les petits fichiers sont mis en résident dans le descripteur de flux MFT)<br/> | Non<br/> | Non<br/>  | Non<br/> |
 | Étendues<br/>             | Oui<br/>                                                              | Non<br/> | Oui<br/> | Non<br/> |
@@ -114,7 +114,7 @@ les tableaux suivants répertorient les fonctionnalités et les fonctionnalités
 
 
 
-| Fonctionnalité                         | NTFS           | exFAT         | Fonctions définies par l'utilisateur           | FAT32         |
+| Caractéristique                         | NTFS           | exFAT         | Fonctions définies par l'utilisateur           | FAT32         |
 |---------------------------------|----------------|---------------|---------------|---------------|
 | Compression intégrée<br/> | Oui<br/> | Non<br/> | Non<br/> | Non<br/> |
 
@@ -126,7 +126,7 @@ les tableaux suivants répertorient les fonctionnalités et les fonctionnalités
 
 
 
-| Fonctionnalité                               | NTFS                           | exFAT         | Fonctions définies par l'utilisateur           | FAT32         |
+| Caractéristique                               | NTFS                           | exFAT         | Fonctions définies par l'utilisateur           | FAT32         |
 |---------------------------------------|--------------------------------|---------------|---------------|---------------|
 | Espace disque au niveau de l’utilisateur<br/>      | Oui<br/>                 | Non<br/> | Non<br/> | Non<br/> |
 | Espace disque au niveau du répertoire<br/> | Non (voir remarque ci-dessous)<br/> | Non<br/> | Non<br/> | Non<br/> |
@@ -141,7 +141,7 @@ les tableaux suivants répertorient les fonctionnalités et les fonctionnalités
 
 
 
-| Fonctionnalité               | NTFS                           | exFAT         | Fonctions définies par l'utilisateur           | FAT32         |
+| Caractéristique               | NTFS                           | exFAT         | Fonctions définies par l'utilisateur           | FAT32         |
 |-----------------------|--------------------------------|---------------|---------------|---------------|
 | Niveau de fichier<br/> | Non (voir remarque ci-dessous)<br/> | Non<br/> | Non<br/> | Non<br/> |
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dc947f4bb484ec5392204747e583fbf80bbf88cf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 084b8bf9b1ca175f723fe7e15beaf6b79e315b318982c1a0bd505b82b58fbd2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821029"
 ---
 # <a name="cim_monitorsetting-class"></a>\_Classe CIM MonitorSetting
 
@@ -89,7 +89,7 @@ Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**remplace
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

@@ -9,16 +9,16 @@ keywords:
 - Pilote VISCA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77d884c38d224182db7eef8db0f0cd80b14e3a08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0397e56c589c357edc9e0be1999b51d358f8caced60117af5c20c7954a1edb49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804519"
 ---
 # <a name="vcr-services"></a>Services VCR
 
-Windows fournit des services VCR par le biais d’un pilote de périphérique basé sur la commande MCI définie pour les magnétoscopes. Cette section décrit le pilote VISCA Video System Control architecture (VISCA) MCI et explique comment l’utiliser pour contrôler un magnétoscope.
+Windows fournit des services VCR via un pilote de périphérique basé sur la commande MCI définie pour les magnétoscopes. Cette section décrit le pilote VISCA Video System Control architecture (VISCA) MCI et explique comment l’utiliser pour contrôler un magnétoscope.
 
 Le type d’appareil *VCR* contrôle les magnétoscopes. Pour obtenir la liste des commandes MCI reconnues par les périphériques VCR, consultez [jeu de commandes VCR](vcr-command-set.md).
 
@@ -100,7 +100,7 @@ Le magnétoscope se prépare à l’enregistrement ou à la diffusion en recherc
 > [!Note]  
 > Lorsque vous enregistrez à l’aide de positions « from » et « to », la position « from » est incluse dans la modification et la position « to » n’est pas.
 
- 
+ 
 
 Pour plus d’informations sur l’enregistrement, consultez [enregistrement](recording.md).
 
@@ -116,9 +116,9 @@ Lorsque vous émettez une commande [**Play**](play.md) ([**\_ lecture MCI**](mci
 
 Pour vous assurer que la période d’attente est suffisamment longue, placez la commande d' **enregistrement** en dernier dans votre application et vérifiez l’heure immédiatement avant celle-ci. Si l’intervalle est trop faible, redémarrez la commande de **lecture** . Vous pouvez également vérifier l’heure juste après la dernière commande du script afin de vérifier qu’il y a suffisamment de temps pour envoyer et terminer toutes les commandes.
 
- 
+ 
 
- 
+ 
 
 
 

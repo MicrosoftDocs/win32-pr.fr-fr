@@ -3,7 +3,7 @@ title: Command. LargeHighContrastImages, propriété
 description: Représente un conteneur d’images ; dans ce cas, les grandes images à utiliser avec les paramètres système à contraste élevé.
 ms.assetid: e25f207f-ac3f-4a5f-8104-c928b38a52a8
 keywords:
-- Ruban Windows de la propriété Command. LargeHighContrastImages
+- propriété Command. LargeHighContrastImages Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e94fc31e2113990a1862fab7288ffeefef787cff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d59c1e760565443c286969cc92b3b0c4a6b83a2513587f424ebcda366b1b8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710509"
 ---
 # <a name="commandlargehighcontrastimages-property"></a>Command. LargeHighContrastImages, propriété
 
 Représente un conteneur d’images ; dans ce cas, les grandes images à utiliser avec les paramètres système à contraste élevé.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Command.LargeHighContrastImages>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**commande**](windowsribbon-element-command.md).
 
@@ -117,8 +117,8 @@ Cette section de code montre les déclarations de commande [**SplitButton**](win
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

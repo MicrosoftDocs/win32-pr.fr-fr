@@ -36,7 +36,7 @@ L’attribut **DHCP-Flags** n’est pas utilisé actuellement.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.700               |
 | System-ID-GUID    | 963d2741-48be-11d1-a9c3-0000f80367c1 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 

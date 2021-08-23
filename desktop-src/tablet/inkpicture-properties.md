@@ -4,12 +4,12 @@ ms.assetid: d724c177-af57-4c99-94f2-c70904910b49
 title: Propriétés de InkPicture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0ae8149098b34a70af5e088814e2a5258b0fa0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 359626adecfa9ea7eb7c60ae58754f2e544b6ca8db3bf362ddfb83af49cd5ff3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712509"
 ---
 # <a name="inkpicture-properties"></a>Propriétés de InkPicture
 
@@ -70,7 +70,7 @@ Cette section contient les propriétés du contrôle InkPicture.
 <td>Obtient ou définit une valeur qui spécifie si le contrôle <a href="inkpicture-control-reference.md">InkPicture</a> est en mode Ink, en mode de suppression ou en mode de sélection/modification.<br/></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled"><strong>Enabled</strong></a></td>
+<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled"><strong>Activé</strong></a></td>
 <td>Obtient ou définit une valeur qui détermine si le contrôle <a href="inkpicture-control-reference.md">InkPicture</a> peut répondre aux événements générés par l’utilisateur.<br/>
 <blockquote>
 [!Note]<br />

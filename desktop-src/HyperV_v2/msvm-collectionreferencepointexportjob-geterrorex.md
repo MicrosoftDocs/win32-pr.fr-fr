@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3b84c41776c081c302078773d9402145b0fe41e6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 56eec72d70acbaa55374b54ba0e1eda161ba0b6e608069cc86a07518d8b735da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681959"
 ---
 # <a name="geterrorex-method-of-the-msvm_collectionreferencepointexportjob-class"></a>Méthode GetErrorEx de la \_ classe CollectionReferencePointExportJob MSVM
 
@@ -46,7 +46,7 @@ Si l’état opérationnel du travail n’est pas « OK », ce paramètre reto
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 En cas de réussite, retourne 0 ; Sinon, retourne l’une des valeurs d’erreur suivantes :
 
@@ -94,7 +94,7 @@ Le **système n’est pas disponible** (32777)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

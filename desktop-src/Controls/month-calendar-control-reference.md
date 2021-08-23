@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: vs|controls|~\controls\monthcal\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60ba999b48e99e75c7137064a1e8cd563235ac54
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4a23ebdd2d1fba5a03449e7b9aab85e89a638469424b117ef0e5c9315b8068f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799089"
 ---
 # <a name="month-calendar-control"></a>Month Calendar (contrôle)
 

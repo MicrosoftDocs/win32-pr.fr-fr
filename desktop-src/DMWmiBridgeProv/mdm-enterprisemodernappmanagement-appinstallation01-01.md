@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_EnterpriseModernAppManagement_AppInstallation01_01
-description: La \_ classe MDM EnterpriseModernAppManagement \_ AppInstallation01 \_ 01 est utilisée pour installer des applications à partir du Windows Store ou d’un emplacement hébergé.
+description: la \_ classe MDM EnterpriseModernAppManagement \_ AppInstallation01 \_ 01 est utilisée pour installer des applications à partir du magasin de Windows ou d’un emplacement hébergé.
 ms.assetid: fc4c4c82-6f43-41fc-863b-940c0517f28b
 keywords:
 - Classe MDM_EnterpriseModernAppManagement_AppInstallation01_01
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f6cd3fc5478e73df5276fdc9d6a1d66c9649dd6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d29cde4408cac13471e98d0c42b36779f8b23c0101f6ba22f383d97e181893e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875339"
 ---
 # <a name="mdm_enterprisemodernappmanagement_appinstallation01_01-class"></a>\_Classe EnterpriseModernAppManagement \_ APPINSTALLATION01 \_ 01 MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La classe **MDM \_ EnterpriseModernAppManagement \_ AppInstallation01 \_ 01** est utilisée pour installer des applications à partir du Windows Store ou d’un emplacement hébergé.
+la classe **MDM \_ EnterpriseModernAppManagement \_ AppInstallation01 \_ 01** est utilisée pour installer des applications à partir du magasin de Windows ou d’un emplacement hébergé.
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -63,7 +63,7 @@ La classe **MDM \_ EnterpriseModernAppManagement \_ AppInstallation01 \_ 01** po
 | Méthode                                                                                                    | Description                                                                                                                                |
 |:----------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | [**HostedInstallMethod**](mdm-enterprisemodernappmanagement-appinstallation01-01-hostedinstallmethod.md) | Méthode permettant d’effectuer l’installation d’un package d’application à partir d’un emplacement hébergé (il peut s’agir d’un lecteur local, d’une source de données UNC ou https).<br/> |
-| [**StoreInstallMethod**](mdm-enterprisemodernappmanagement-appinstallation01-01-storeinstallmethod.md)   | Méthode permettant d’effectuer l’installation d’une application et d’une licence à partir du Windows Store.<br/>                                                    |
+| [**StoreInstallMethod**](mdm-enterprisemodernappmanagement-appinstallation01-01-storeinstallmethod.md)   | méthode permettant d’effectuer l’installation d’une application et d’une licence à partir du magasin de Windows.<br/>                                                    |
 
 
 
@@ -157,7 +157,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

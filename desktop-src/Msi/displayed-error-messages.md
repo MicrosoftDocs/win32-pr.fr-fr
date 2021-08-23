@@ -4,12 +4,12 @@ ms.assetid: 0153a21f-9b26-4088-b12b-96c9e6918cc3
 title: Messages d’erreur affichés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d85417da7e2f8a01be5492560e83cd97bbc0ff7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb4e339a67f054134b4e2462593682cbdeac8d6eb7be63fefd93fd32d504f5e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745379"
 ---
 # <a name="displayed-error-messages"></a>Messages d’erreur affichés
 
@@ -19,7 +19,7 @@ Les fonctions du programme d’installation affichent uniquement les messages d�
 
 
 
-| Code d'erreur               | Error                        |
+| Code d'erreur               | Erreur                        |
 |--------------------------|------------------------------|
 | ERREUR d' \_ installation d' \_ interruption  | L’installation a été suspendue.   |
 | ERREUR lors de l' \_ installation de \_ USEREXIT | L’utilisateur a quitté l’installation. |

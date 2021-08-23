@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: 9582c54c42e2416d5d7a98e85eba3151fd6769a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eae5e616e8583e2a1da8f8aa0882ea25160faad3f064734620466a0353736efe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793859"
 ---
 # <a name="iupdateendpointauthtokentokenreferenceattached-method"></a>IUpdateEndpointAuthToken :: TokenReferenceAttached, méthode
 
@@ -48,9 +48,9 @@ Pointeur vers la référence du jeton attaché.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Retourne **S \_ OK** en cas de réussite. Sinon, retourne un code d’erreur COM ou Windows.
+Retourne **S \_ OK** en cas de réussite. sinon, retourne un code d’erreur COM ou Windows.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une référence jointe fait référence à un referece (tel que le signature qui utilise le jeton) qui se trouve dans le même message que celui où se trouve le jeton.
 
@@ -60,8 +60,8 @@ Une référence jointe fait référence à un referece (tel que le signature qui
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>                   |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>                |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>                   |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>                |
 | En-tête<br/>                   | <dl> <dt>UpdateEndpointAuth. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>UpdateEndpointAuth. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>UpdateEndpointAuth. lib</dt> </dl> |

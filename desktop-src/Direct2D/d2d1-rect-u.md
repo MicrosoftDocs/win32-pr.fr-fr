@@ -6,12 +6,12 @@ keywords:
 - D2D1_RECT_U
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 005e7d8bba3c4316e4132783b62ba226bd1cc92d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c34127aceea16f4efa86f26e341cebec9099e9f81dd9c0c1d746f6eb6c474127
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106535776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768739"
 ---
 # <a name="d2d1_rect_u"></a>D2D1 \_ rect \_ U
 
@@ -24,7 +24,7 @@ typedef D2D_RECT_U D2D1_RECT_U;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **D2d1 \_ RECT \_ u** est un nouveau nom pour la structure. [**\_ \_ Rect. D2D D2D**](/windows/desktop/api/dcommon/ns-dcommon-d2d_rect_u) déjà définie.
 
@@ -34,8 +34,8 @@ typedef D2D_RECT_U D2D1_RECT_U;
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7, Windows Vista avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Vista, applications \[ \| UWP\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Windows Server 2008 R2, Windows Server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 pour applications \[ \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | Windows 7, Windows vista avec SP2 et la mise à jour de la plateforme pour les applications de bureau Windows vista \[ desktop apps \|\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows server 2008 R2, Windows server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 \[ desktop apps \|\]<br/> |
 | Téléphone minimal pris en charge<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 et applications Windows Runtime\]<br/>                                                  |
 | En-tête<br/>                   | <dl> <dt>D2DBaseTypes. h (inclure D2d1. h)</dt> </dl>                               |
 

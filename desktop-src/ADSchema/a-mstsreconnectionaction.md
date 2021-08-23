@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15e09931ec652f2fdd1e9ae6c6cec71e7a896a9f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 68e75a6e1f205cbd2037ea40cbb02d5e8c37115fc2f1082c2977c35cf2801428
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760949"
 ---
 # <a name="ms-ts-reconnection-action-attribute"></a>attribut d’action MS-TS-reconnection
 
@@ -42,7 +42,7 @@ Action de reconnexion de session des services Terminal Server spécifie s’il f
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

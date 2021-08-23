@@ -4,12 +4,12 @@ ms.assetid: 26efc9d0-3e62-4a6b-b99d-f5441e25d175
 title: Structures d’objets BLOB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72e276d7fffe4d145098328b9de5a2cb503b46eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9588e4af7e81c3fba52aa46800fcb35676d486317511b124ea50087764344792
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744729"
 ---
 # <a name="blob-structures"></a>Structures d’objets BLOB
 
