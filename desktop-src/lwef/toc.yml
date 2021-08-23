@@ -1243,7 +1243,7 @@
                   href: '-search-2x-ipropertyfiltercollection-additem.md'
                 - name: clear
                   href: '-search-2x-ipropertyfiltercollection-clear.md'
-                - name: Nombre
+                - name: Count
                   href: '-search-2x-ipropertyfiltercollection-count.md'
                 - name: GetITem
                   href: '-search-2x-ipropertyfiltercollection-getitem.md'
@@ -1327,13 +1327,13 @@
                   href: '-search-2x-iresultverb-displayname.md'
                 - name: DoIt
                   href: '-search-2x-iresultverb-doit.md'
-                - name: Activé
+                - name: activé
                   href: '-search-2x-iresultverb-enabled.md'
                 - name: HelpText
                   href: '-search-2x-iresultverb-helptext.md'
                 - name: Icône
                   href: '-search-2x-iresultverb-icon.md'
-                - name: Nom
+                - name: Name
                   href: '-search-2x-iresultverb-name.md'
             - name: ISearchResult
               href: '-search-2x-isearchresult.md'

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c47bfeade378d1a9c603303db054cf353c148206
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bec746be8a909942c83dc3db23f8a3b5e7650576efff592a547d362d230b9307
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582889"
 ---
 # <a name="ms-kds-privatekey-length-attribute"></a>MS-KDS-PrivateKey-attribut de longueur
 
@@ -36,7 +36,7 @@ Longueur de la clé privée de l’accord secret.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2174              |
 | System-ID-GUID    | 615f42a1-37e7-1148-a0dd-3007e09cfc81 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

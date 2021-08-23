@@ -1,17 +1,17 @@
 ---
 description: Cette section répertorie les types de médias utilisés pour les données MPEG-1.
 ms.assetid: 4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8
-title: Types de média MPEG-1
+title: Types de médias MPEG-1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e44db1f4423365efb7814d61b35c1985142aa14
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 64f6486b455fc2045ceb0256f6b6344f06a8923ef767c397068022acec052627
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684929"
 ---
-# <a name="mpeg-1-media-types"></a>Types de média MPEG-1
+# <a name="mpeg-1-media-types"></a>Types de médias MPEG-1
 
 Cette section répertorie les types de médias utilisés pour les données MPEG-1.
 
@@ -145,11 +145,11 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
 ## <a name="remarks"></a>Remarques
 
-Les filtres MPEG-1 DirectShow prennent en charge ces types comme suit.
+les filtres MPEG-1 DirectShow prennent en charge ces types comme suit.
 
 
 
-| Filtrer               | Direction | Types de média pris en charge                                                                                             |
+| Filtrer               | Sens | Types de média pris en charge                                                                                             |
 |----------------------|-----------|-------------------------------------------------------------------------------------------------------------------|
 | Séparateur MPEG-1      | Entrée     | MPEG-1 système streamMPEG-1 flux système à partir du CD vidéo<br/>                                                 |
 | Séparateur MPEG-1      | Sortie    | Charge utile MPEG-1 audio packetMPEG-1 audio<br/> Paquet vidéo MPEG-1<br/> Charge utile vidéo MPEG-1<br/> |

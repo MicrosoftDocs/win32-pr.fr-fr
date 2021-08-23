@@ -8,18 +8,18 @@ keywords:
 - dialectes ADSI, dialecte LDAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15f7d1f65a41655596d0a14cf6e2a3595916c2cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c231d3c4d619775cca2ed9542733bff51219d92ff31d922f6d38ea7b1bcd2e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509979"
 ---
 # <a name="ldap-dialect"></a>Dialecte LDAP
 
 Le dialecte LDAP est un format pour les instructions de requête qui utilisent la [syntaxe de filtre de recherche LDAP](search-filter-syntax.md). Utilisez une instruction de requête LDAP avec les interfaces de recherche ADSI suivantes :
 
--   Interfaces [ADO (ActiveX Data Object)](searching-with-activex-data-objects-ado.md) , qui sont des interfaces Automation qui utilisent OLE DB.
+-   interfaces d' [objets de données ActiveX (ADO)](searching-with-activex-data-objects-ado.md) , qui sont des interfaces Automation qui utilisent des OLE DB.
 -   [OLE DB](searching-with-ole-db.md), qui est un ensemble d’interfaces C/C++ pour interroger des bases de données.
 -   [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch), qui est l’interface C/C++ pour Active Directory.
 
@@ -115,21 +115,21 @@ Pour plus d’informations sur la syntaxe de requête, consultez [syntaxe de fil
 [Syntaxe de filtre de recherche](search-filter-syntax.md)
 </dt> <dt>
 
-[Dialecte SQL](sql-dialect.md)
+[dialecte SQL](sql-dialect.md)
 </dt> <dt>
 
 [Recherche avec l’interface IDirectorySearch](searching-with-idirectorysearch.md)
 </dt> <dt>
 
-[Recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
+[recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
 </dt> <dt>
 
 [Recherche avec OLE DB](searching-with-ole-db.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 45c2bfa2886774ad637e66385a057c9d4e21efe0
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 35b2f08b6df25f57d77f5c3677a4c6499370d9472202b6808073c5a75d1e2c34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106539831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599799"
 ---
 # <a name="ibasicdeviceremove_connectionstatuschanged-method"></a>IBasicDevice :: Remove \_ ConnectionStatusChanged, méthode
 
@@ -50,7 +50,7 @@ Référence à un jeton obtenu à partir de la méthode [**Add \_ ConnectionStat
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

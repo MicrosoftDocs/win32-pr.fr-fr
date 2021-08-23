@@ -4,12 +4,12 @@ ms.assetid: facf35c2-d6a2-4373-bce5-171fd9325116
 title: EC_WINDOW_DESTROYED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd3e641c7fb911a8da10a4c89682fa266e862de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d7b26224fee4e18d92d16d8f3bfe277c70cf2b260a19c9c7d6438477266c3e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686029"
 ---
 # <a name="ec_window_destroyed"></a>\_fenêtre EC \_ détruite
 
@@ -37,7 +37,7 @@ Zéro.
 
 Le gestionnaire de graphes de filtre libère cette fenêtre comme le focus, via l’interface [**IResourceManager**](/windows/desktop/api/Strmif/nn-strmif-iresourcemanager) . Elle n’envoie pas la notification d’événement à l’application.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le convertisseur vidéo envoie cet événement lorsqu’il quitte le graphique de filtre, dans sa méthode [**IBaseFilter :: JoinFilterGraph**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-joinfiltergraph) . (L’envoi de l’événement lorsque le filtre est détruit peut être trop tard, car, à ce stade, le gestionnaire de graphique de filtre peut également être détruit.)
 
@@ -60,7 +60,7 @@ Cet événement permet à d’autres filtres d’acquérir des ressources qui d�
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

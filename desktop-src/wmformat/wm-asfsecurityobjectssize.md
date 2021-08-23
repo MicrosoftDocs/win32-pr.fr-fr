@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de28f2169e5ac854163854ac95959d941100aaae
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 309261b7c8ad0c91a50fa1e0f292c6785d18cdd222c5e463eb62ae3728b39b93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584589"
 ---
 # <a name="wmasfsecurityobjectssize"></a>WM/ASFSecurityObjectsSize
 
@@ -31,7 +31,7 @@ L’attribut **WM/ASFSecurityObjectsSize** contient la taille, en octets, des ob
 
 **\_type WMT \_ QWord**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est en lecture seule et s’applique à l’ensemble du fichier (flux 0).
 
@@ -44,9 +44,9 @@ Vous pouvez uniquement récupérer cet attribut à l’aide des méthodes de l�
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

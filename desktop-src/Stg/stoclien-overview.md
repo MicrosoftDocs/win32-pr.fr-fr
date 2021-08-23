@@ -6,12 +6,12 @@ keywords:
 - Présentation de StoClien
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee37f6f84cf981bda637abbd96ff8e8f0314d8ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a28c8d0f4740b5a1d5f93934fb055d16e2ed9d843bcb11b210e6cde9589d53b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106535443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661849"
 ---
 # <a name="stoclien-overview"></a>Présentation de StoClien
 
@@ -43,25 +43,25 @@ Dans l’exemple suivant, Drawing. PAP est un fichier composé contenant le stoc
 
 ## <a name="support-information"></a>Informations de support
 
-Pour plus d’informations, des descriptions fonctionnelles et un didacticiel de code pour [StoClien](structured-storage-client-sample--stoclien-.md), consultez la section relative à la visite guidée du code dans Stoclien.htm. Pour plus d’informations sur l’opération utilisateur externe de StoClien, consultez les sections utilisation et opération dans Stoclien.htm. Pour lire Stoclient.htm, exécutez Tutorial.exe dans le répertoire principal du didacticiel, puis cliquez sur la leçon StoClien dans le tableau des leçons. Vous pouvez également cliquer sur Stoclien.htm après avoir localisé le répertoire principal du didacticiel dans l’Explorateur Windows. Pour plus d’informations sur le fonctionnement de [**StoServe**](structured-storage-server-sample--stoserve-.md) et sur l’exposition de ses services à StoClien, consultez Stoserve.htm dans le répertoire principal du didacticiel. N’oubliez pas que vous devez générer le Stoserve.dll avant de générer StoClien. Le makefile pour [**StoServe**](structured-storage-server-sample--stoserve-.md) inscrit ce serveur dans le registre système. vous devez donc générer [**StoServe**](structured-storage-server-sample--stoserve-.md) avant d’exécuter StoClien.
+Pour plus d’informations, des descriptions fonctionnelles et un didacticiel de code pour [StoClien](structured-storage-client-sample--stoclien-.md), consultez la section relative à la visite guidée du code dans Stoclien.htm. Pour plus d’informations sur l’opération utilisateur externe de StoClien, consultez les sections utilisation et opération dans Stoclien.htm. Pour lire Stoclient.htm, exécutez Tutorial.exe dans le répertoire principal du didacticiel, puis cliquez sur la leçon StoClien dans le tableau des leçons. vous pouvez également cliquer sur Stoclien.htm après avoir localisé le répertoire principal du didacticiel dans Windows Explorer. Pour plus d’informations sur le fonctionnement de [**StoServe**](structured-storage-server-sample--stoserve-.md) et sur l’exposition de ses services à StoClien, consultez Stoserve.htm dans le répertoire principal du didacticiel. N’oubliez pas que vous devez générer le Stoserve.dll avant de générer StoClien. Le makefile pour [**StoServe**](structured-storage-server-sample--stoserve-.md) inscrit ce serveur dans le registre système. vous devez donc générer [**StoServe**](structured-storage-server-sample--stoserve-.md) avant d’exécuter StoClien.
 
 Pour plus d’informations sur la configuration d’un système pour générer et tester les exemples de code de cette série de didacticiels COM, consultez [Comment générer des exemples](how-to-build-samples.md). Le Makefile fourni (MAKEFILE) est compatible avec Microsoft NMAKE. Pour créer une version Debug, émettez la commande NMAKE dans la fenêtre d’invite de commandes.
 
-Pour plus de commodité, un fichier projet est fourni pour chaque exemple pour une utilisation dans Microsoft Visual Studio. Pour charger le projet de l’exemple [StoClien](structured-storage-client-sample--stoclien-.md) , exécutez Visual Studio à partir de l’invite de commandes dans le répertoire de l’exemple comme suit :
+Pour plus de commodité, un fichier projet est fourni pour chaque exemple pour une utilisation dans Microsoft Visual Studio. pour charger le projet de l’exemple [StoClien](structured-storage-client-sample--stoclien-.md) , exécutez Visual Studio à l’invite de commandes dans le répertoire de l’exemple comme suit :
 
 MSDEV STOCLIEN. DSP
 
-Vous pouvez également double-cliquer sur le fichier Stoclient. DSP dans l’Explorateur Windows pour charger un exemple de projet dans Visual Studio. Dans Visual Studio, vous pouvez parcourir les classes C++ de l’exemple de source et effectuer généralement les autres opérations de modification-compilation-débogage. N’oubliez pas que, dans le cadre du kit de développement logiciel (SDK) du serveur, la compilation de ces exemples à partir de Visual Studio requiert le paramètre approprié des chemins d’accès aux répertoires dans Visual Studio. Pour plus d’informations, consultez [Comment générer des exemples](how-to-build-samples.md).
+vous pouvez également double-cliquer sur le fichier Stoclient. dsp dans Windows Explorer pour charger un exemple de projet dans Visual Studio. dans Visual Studio, vous pouvez parcourir les classes C++ de l’exemple de source et effectuer généralement les autres opérations de modification-compilation-débogage. n’oubliez pas que, dans le cadre du kit de développement logiciel (SDK) du serveur, la compilation de ces exemples à partir de Visual Studio requiert le paramètre approprié des chemins d’accès aux répertoires dans Visual Studio. Pour plus d’informations, consultez [Comment générer des exemples](how-to-build-samples.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’exemple de client et d’autres exemples associés doivent être compilés avant que vous puissiez exécuter le client. Pour plus d’informations sur la création des exemples, consultez [Comment générer des exemples](how-to-build-samples.md). Si vous avez généré les exemples appropriés, Stoclien.exe est l’exécutable client à exécuter pour cet exemple.
 
 L’application Stoclien.exe fournit l’interface utilisateur de ce didacticiel. Elle exerce le Stoserve.dll associé, mais indépendant, pour démontrer l’utilisation par le client et le serveur du stockage structuré COM dans des fichiers composés.
 
- 
+ 
 
- 
+ 
 
 
 

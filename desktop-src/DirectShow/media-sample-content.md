@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - bdatypes.h
-ms.openlocfilehash: 9065f2af948ff28d181b24842673b086882837bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1dead22b2c8ea3cf7da665e01a4b36554b8282922a1d2b2a12d59f429f2acac4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684989"
 ---
 # <a name="media_sample_content-enumeration"></a>Énumération du contenu de l’exemple de média \_ \_
 
@@ -84,7 +84,7 @@ Spécifie les charges utiles des paquets TS collectés, tels que les paquets PES
 
 <dl> <dt>
 
-[Types énumérés DirectShow](directshow-enumerated-types.md)
+[DirectShow Types énumérés](directshow-enumerated-types.md)
 </dt> </dl>
 
  

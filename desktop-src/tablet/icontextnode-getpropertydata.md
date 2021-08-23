@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 381d137dd73056a2a6f4c2e9cd3746f9f16c5b2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89e7ab9fb5213b41d53695b516b95b47193e8d803b207efd09216c743085927e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660719"
 ---
 # <a name="icontextnodegetpropertydata-method"></a>IContextNode :: GetPropertyData, méthode
 
@@ -66,7 +66,7 @@ Pointeur vers un tableau d’entiers non signés 8 bits qui contient les donnée
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, utilisez [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree) pour libérer la mémoire à partir de \* *ppbPropertyData* lorsque vous n’avez plus besoin des informations.
@@ -92,9 +92,9 @@ Les propriétés de type booléen sont les suivantes :
 -   GUID \_ AHP \_ COERCETOFACTOID
 -   GUID \_ AHP \_ WORDMODE
 
-La valeur de retour est de **type Variant \_ booléen**. Si vous effectuez un cast du \* paramètre *ppbPropertyData* en **Variant \_ \* bool* _, sa longueur retournée est `sizeof(VARIANT_BOOL)` .
+La valeur de retour est de **type Variant \_ booléen**. Si vous effectuez un cast du \* paramètre *PpbPropertyData* en **Variant \_ \* bool** , sa longueur retournée est `sizeof(VARIANT_BOOL)` .
 
-GUID \_ AHP \_ Guide est une propriété de type guide. La valeur de retour _*est \* InkAnalysisRecognitionGuide*_. Si vous effectuez un cast du \_ paramètre *ppbPropertyData* en **\* InkAnalysisRecognitionGuide* _ sa longueur retournée est `sizeof(InkAnalysisRecognitionGuide)` .
+GUID \_ AHP \_ Guide est une propriété de type guide. La valeur de retour est ** \* InkAnalysisRecognitionGuide* _. Si vous effectuez un cast du \_ paramètre *PpbPropertyData* en **\* InkAnalysisRecognitionGuide** , sa longueur retournée est `sizeof(InkAnalysisRecognitionGuide)` .
 
 Les propriétés de type entier sont les suivantes :
 
@@ -106,7 +106,7 @@ Les propriétés de type entier sont les suivantes :
 -   \_ \_ segmentation GUID CNP
 -   GUID \_ CNP \_ ALIGNMENTLEVEL
 
-La valeur de retour _*est \* longue*_. Si vous effectuez un cast du \_ paramètre *ppbPropertyData* en **\* long* _, sa longueur retournée est `sizeof(LONG)` .
+La valeur de retour est ** \* long* _. Si vous effectuez un cast du \_ paramètre *PpbPropertyData* vers **\* long** , sa longueur retournée est `sizeof(LONG)` .
 
 Métriques de ligne : les propriétés de type sont les suivantes :
 
@@ -115,11 +115,11 @@ Métriques de ligne : les propriétés de type sont les suivantes :
 -   \_ligne de \_ base GUID CNP
 -   GUID \_ CNP- \_ média
 
-La valeur de retour _*est \* longue*_. Si vous effectuez un cast du \_ paramètre *ppbPropertyData* en **\* long* _ sa longueur retournée est `sizeof(LONG)_4` , ce qui signifie que les valeurs (x, y) des points de départ sont suivies des valeurs (x, y) des points de fin.
+La valeur de retour est ** \* long*_. Si vous effectuez un cast du \_ paramètre *ppbPropertyData* en **\* long*_ sa longueur retournée, cela signifie que `sizeof(LONG)_4` les valeurs (x, y) des points de départ sont suivies des valeurs (x, y) des points de fin.
 
-GUID \_ CNP \_ TEXTRECOGNIZERID est une propriété **GUID** . La valeur de retour est ** \* GUID*_. Si vous effectuez un cast du \_ paramètre *ppbPropertyData* en **\* GUID*_ , sa longueur retournée est `sizeof(GUID)` .
+GUID \_ CNP \_ TEXTRECOGNIZERID est une propriété **GUID** . La valeur de retour est ** \* GUID* _. Si vous effectuez un cast du \_ paramètre *PpbPropertyData* en **\* GUID** , sa longueur retournée est `sizeof(GUID)` .
 
-GUID \_ CNP \_ ROTATEDBOUNDINGBOX est une propriété de cadre englobant pivotée. La valeur de retour _*est \* longue*_. Si vous effectuez un cast du \_ paramètre *ppbPropertyData* en **\* long* _ sa longueur retournée est `sizeof(LONG)_8` , ce qui signifie les valeurs (x, y) des quatre coins de la zone.
+GUID \_ CNP \_ ROTATEDBOUNDINGBOX est une propriété de cadre englobant pivotée. La valeur de retour est ** \* long*_. Si vous effectuez un cast du \_ paramètre *ppbPropertyData* en **\* long*_ sa longueur retournée, cela signifie que `sizeof(LONG)_8` les valeurs (x, y) des quatre coins de la zone sont retournées.
 
 GUID \_ CNP \_ HOTPOINT est une propriété de point réactif. La valeur de retour est ** \* long*_. Si vous effectuez un cast du \_ paramètre *ppbPropertyData* en **long \**_ sa longueur retournée est `sizeof(LONG)_2` , ce qui signifie les valeurs (x, y) pour le point.
 
@@ -171,7 +171,7 @@ HRESULT CMyClass::ExploreParagraphNode(
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

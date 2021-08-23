@@ -9,12 +9,12 @@ keywords:
 - métadonnées, modifier les attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a52990e5366da178e9ed5021af93a9f6403b80c4
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b973b787b37bbf9333a0adb218ab5db0e6f677521f1bfc9a0cdc1d5c37200e83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586059"
 ---
 # <a name="editing-metadata-attributes"></a>Modification des attributs de métadonnées
 
@@ -29,9 +29,9 @@ Vous pouvez utiliser le nombre de flux 0xFFFF pour spécifier un attribut à mod
 [**Utilisation des métadonnées**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: fb990830583f6684502438f132c1c98f5741a0ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7b70d3e33f67c8c0a457f85df91e83e374a3ef4d0f0b1a0af1c5c41ea81c2ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611129"
 ---
 # <a name="nddeisvalidapptopiclist-function"></a>NDdeIsValidAppTopicList fonction)
 
@@ -56,7 +56,7 @@ Si la syntaxe du paramètre *targetTopic* est valide, la valeur de retour est di
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est également appelée par [**NDdeShareAdd**](nddeshareadd.md) lors de la création du partage DDE.
 
@@ -79,7 +79,7 @@ Cette fonction est également appelée par [**NDdeShareAdd**](nddeshareadd.md) l
 
 <dl> <dt>
 
-[Présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
+[présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Fonctions DDE réseau](network-dde-functions.md)

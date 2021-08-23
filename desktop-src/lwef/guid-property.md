@@ -4,12 +4,12 @@ description: GUID (propriété)
 ms.assetid: d57e1d7c-df65-40ff-9068-64b3506835c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bdf36ce888b9526b6bbe2c11d8567d292dcdbc6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f4502cb1806dd8e1923201cecd8350438532099da939d745c79ca88b268f3ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610159"
 ---
 # <a name="guid-property"></a>GUID (propriété)
 
@@ -27,17 +27,17 @@ Retourne l’identificateur unique du caractère.
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent. ***Caractères («*** CharacterID * * * »). UNIQUES**
+*agents. ***caractères («**_CharacterID_*_»). GUID_*
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété retourne une chaîne représentant l’identificateur interne que le serveur utilise pour faire référence au caractère unique. Un identificateur de caractère est défini lorsqu’il est compilé avec l’éditeur de caractères Microsoft Agent. la propriété est en lecture seule.
 
- 
+ 
 
- 
+ 
 
 
 

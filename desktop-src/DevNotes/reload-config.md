@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Imejpknl.dll
 - Imejp98k.dll
-ms.openlocfilehash: bc9d0d026359036d8847ebaa2542f778de4d5767
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 343003156c2f93788ac87004657a21d3e9b31a47ff4585374836488642de3240
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571619"
 ---
 # <a name="reload_config-function"></a>recharger la \_ fonction de configuration
 
@@ -42,7 +42,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction retourne **true** si elle est réussie ; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si aucune valeur de Registre n’est présente dans HKCU, la fonction de **\_ configuration de rechargement** écrit les données initiales dans le registre.
 

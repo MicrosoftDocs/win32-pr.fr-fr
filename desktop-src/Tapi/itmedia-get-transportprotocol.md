@@ -4,16 +4,16 @@ ms.assetid: d270d6f4-bdcf-4cf4-970b-65f0be706171
 title: 'ITMedia :: get_TransportProtocol, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf2bc66a98e181674bbf6f7956579bbaa0b5a72
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a7927469ff00caab36ab45af12939c6f2f6518a415d4a764c3d04f9c715db75e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682769"
 ---
 # <a name="itmediaget_transportprotocol-method"></a>ITMedia :: \_ TransportProtocol, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ TransportProtocol** obtient le protocole de transport. Cela est spécifié en plus du format de média, de sorte que le même format de média standard peut être utilisé sur différents protocoles de transport, même lorsque le protocole réseau est le même, par exemple avec les signaux audio de TVA PCM et audio PCM RTP.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire allouée pour le paramètre *ppProtocol* .
 

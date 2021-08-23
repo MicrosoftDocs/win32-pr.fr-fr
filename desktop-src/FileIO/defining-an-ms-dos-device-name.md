@@ -4,12 +4,12 @@ ms.assetid: 7d802e9f-dc09-4e3d-b064-e9b57af396e2
 title: Définition d’un nom de périphérique MS-DOS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ed89e1d9938e320ecce3ff0b35b8ae0792fe219
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77331c1d3b3cc7566f118fa19fbb13c84e82af634f1098193bdf3dcb6270ef7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638929"
 ---
 # <a name="defining-an-ms-dos-device-name"></a>Définition d’un nom de périphérique MS-DOS
 
@@ -17,7 +17,7 @@ Un nom de périphérique MS-DOS est une jonction qui pointe vers le chemin d’a
 
 Une fois qu’un nom de périphérique MS-DOS est défini, il reste visible pour tous les processus.
 
--   Tous les périphériques MS-DOS sont identifiés par Windows via un ID d’authentification. Un ID d’authentification est le LUID (identificateur unique local) associé à chaque session de connexion au moment de sa création.
+-   tous les périphériques MS-DOS sont identifiés par Windows via un ID d’authentification. Un ID d’authentification est le LUID (identificateur unique local) associé à chaque session de connexion au moment de sa création.
 -   La visibilité d’un nom de périphérique MS-DOS est classée comme globale ou locale, et est définie comme telle par son inclusion dans les espaces de noms de périphérique MS-DOS global et de périphérique MS-DOS local. Le contenu des périphériques MS-DOS de l’espace de noms global est accessible par tous les utilisateurs, et le contenu des périphériques MS-DOS de l’espace de noms local est accessible uniquement par l’utilisateur dont le jeton d’accès contient le AuthenticationID associé à cet espace de noms d’appareil MS-DOS local.
 
 Plusieurs espaces de noms d’appareils MS-DOS locaux et un seul espace de noms de périphérique MS-DOS global peuvent exister simultanément et sur un ordinateur.

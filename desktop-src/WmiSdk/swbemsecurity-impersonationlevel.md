@@ -15,16 +15,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3b996d5920aba91fddf880ee9ddf6bf8081fb39f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cde6bca09198d6e05f1ae0143ee07d1aedd465df68258303f1d6ca2b4b7699f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639579"
 ---
 # <a name="swbemsecurityimpersonationlevel-property"></a>SWbemSecurity. ImpersonationLevel, propriété
 
-La propriété **ImpersonationLevel** est un entier qui définit le niveau d’emprunt d’identité com affecté à cet objet. Ce paramètre détermine si les processus appartenant à Windows Management Instrumentation (WMI) peuvent détecter ou utiliser vos informations d’identification de sécurité lorsque vous effectuez des appels à d’autres processus. Pour plus d’informations sur les niveaux d’emprunt d’identité, consultez Définition de la [ \_ sécurité des \_ processus de l’application cliente](setting-client-application-process-security.md).
+La propriété **ImpersonationLevel** est un entier qui définit le niveau d’emprunt d’identité com affecté à cet objet. ce paramètre détermine si les processus appartenant à Windows Management Instrumentation (WMI) peuvent détecter ou utiliser vos informations d’identification de sécurité lorsque vous effectuez des appels à d’autres processus. Pour plus d’informations sur les niveaux d’emprunt d’identité, consultez Définition de la [ \_ sécurité des \_ processus de l’application cliente](setting-client-application-process-security.md).
 
 Si vous ne définissez pas spécifiquement le niveau d’emprunt d’identité dans un moniker, ou en définissant la propriété **SWBemSecurity. ImpersonationLevel** sur un objet sécurisable, WMI définit le niveau d’emprunt d’identité par défaut sur la valeur spécifiée dans la [clé de Registre niveau d’emprunt d’identité par défaut](setting-the-default-process-security-level-using-vbscript.md). Si ce paramètre n’est pas suffisant, le fournisseur ne prend pas en service votre demande et l’appel à l’API WMI peut échouer avec un code d’erreur **wbemErrAccessDenied** (2147749891/0x80041003).
 
@@ -43,7 +43,7 @@ SWbemSecurity.ImpersonationLevel As Integer
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En tant que niveau d’emprunt d’identité DCOM, cette propriété peut être définie sur l’une des valeurs suivantes :
 

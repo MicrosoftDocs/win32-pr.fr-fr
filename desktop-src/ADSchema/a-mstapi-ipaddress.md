@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 078afde8200468df7e996e096deeef4bfd1b7ec0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 633c941320c0e2a43e9328b409338c5d87e0086249f2ee18948bb6db7ad79c25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508509"
 ---
 # <a name="ms-tapi-ip-address-attribute"></a>attribut ms-TAPI-IP-address
 
@@ -44,7 +44,7 @@ Adresses IP d’un ordinateur client TAPI auquel un utilisateur est connecté. C
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

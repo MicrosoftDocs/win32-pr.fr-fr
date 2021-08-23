@@ -4,12 +4,12 @@ ms.assetid: 61c35478-859a-4bf3-9d40-77a3f4180f22
 title: Nouveautés de TSPI version 3,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc3c0e1805c1ef144a09618b640c122ab54ba6b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2160cd4ae7be818124f2f1cfe3526099df36c4ac6304352cb62c39fd3ba5d99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659789"
 ---
 # <a name="whats-new-for-tspi-version-30"></a>Nouveautés de TSPI version 3,0
 

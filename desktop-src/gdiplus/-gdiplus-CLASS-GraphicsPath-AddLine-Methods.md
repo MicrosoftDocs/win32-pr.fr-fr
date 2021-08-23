@@ -4,12 +4,12 @@ ms.assetid: ff80b2a7-47a9-49dd-b2ea-9bd0453fac0b
 title: Méthodes GraphicsPath. AddLine (Gdipluspath. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 915c7fef317cf53e226df0d296f1ac372f7b786a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2e16981ac5845cc6669441c51a1319b07ea8b40d21dbf7b77fe36e2d393e7de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104982951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727109"
 ---
 # <a name="graphicspathaddline-methods"></a>Méthodes GraphicsPath. AddLine
 
@@ -28,7 +28,7 @@ Cette rubrique répertorie les méthodes AddLine de la classe [**GraphicsPath**]
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

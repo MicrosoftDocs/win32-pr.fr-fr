@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b354209c0881d8f20a86e3a0effac2ed8c66b8fe
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e8d450411b1a38d187b6f58557985b8c26c7df7fd18bbd33f5388633ca1a9571
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726919"
 ---
 # <a name="shader-model-5-system-values"></a>Valeurs système du Shader Model 5
 
@@ -37,9 +37,9 @@ Le nuancier Model 5 implémente les [valeurs système](dx-graphics-hlsl-semantic
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

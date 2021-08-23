@@ -4,12 +4,12 @@ ms.assetid: a9df1ca1-2cd9-4176-8a02-a044f4953ba2
 title: System. photo. ExposureIndexDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6bd013becc408d017e84c97201c3fb3724ebe8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2f2ab7d343f87761339a0eed0b51691d375ebc48e43d6fd67c473daee1723f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596219"
 ---
 # <a name="systemphotoexposureindexdenominator"></a>System. photo. ExposureIndexDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

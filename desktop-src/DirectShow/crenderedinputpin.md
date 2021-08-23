@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3fc00b4aa0ce1fc6c8a93fb2fbda2118ad6bb40e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 139b0ebd887dc81efd19953d48f3caa8fd6377acde8723de23178ee7a0278c8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585293"
 ---
 # <a name="crenderedinputpin-class"></a>CRenderedInputPin, classe
 
@@ -44,11 +44,11 @@ Vous pouvez utiliser cette classe dans un convertisseur qui a plusieurs broches 
 | Variables membres protégées                                            | Description                                                                                                  |
 |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | [**m \_ bAtEndOfStream**](crenderedinputpin-m-batendofstream.md)       | Indique si la fin du flux a été atteinte.                                                         |
-| [**m \_ bCompleteNotified**](crenderedinputpin-m-bcompletenotified.md) | Indique si le code pin a envoyé un événement [**EC \_ complet**](ec-complete.md) au gestionnaire du graphique de filtres. |
+| [**m \_ bCompleteNotified**](crenderedinputpin-m-bcompletenotified.md) | indique si le code pin a envoyé un événement d' [**\_ achèvement ce**](ec-complete.md) à la Graph du gestionnaire de filtres. |
 | M&#233;thodes publiques                                                        | Description                                                                                                  |
 | [**Actif**](crenderedinputpin-active.md)                            | Notifie le code confidentiel que le filtre est maintenant actif.                                                              |
 | [**CRenderedInputPin**](crenderedinputpin-crenderedinputpin.md)      | Méthode de constructeur.                                                                                          |
-| [**Utilisez**](crenderedinputpin-run.md)                                  | Notifie le code confidentiel que le filtre est en cours d’exécution.                                                             |
+| [**Exécuter**](crenderedinputpin-run.md)                                  | Notifie le code confidentiel que le filtre est en cours d’exécution.                                                             |
 | Méthodes IPin                                                          | Description                                                                                                  |
 | [**EndFlush**](crenderedinputpin-endflush.md)                        | Termine une opération de vidage.                                                                                      |
 | [**EndOfStream**](crenderedinputpin-endofstream.md)                  | Indique au code confidentiel qu’aucune donnée supplémentaire n’est attendue tant que le filtre n’a pas reçu une nouvelle commande Run.            |
@@ -63,7 +63,7 @@ Vous pouvez utiliser cette classe dans un convertisseur qui a plusieurs broches 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amextra. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Amextra. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

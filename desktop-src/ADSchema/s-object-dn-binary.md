@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e96f640ad729f203362df906bcc6afe6b82e7e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 15172a8577cf8ccec71053c3d374b389d71d3264fcc1934b19440a3f9efc4904
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702569"
 ---
 # <a name="objectdn-binary-syntax"></a>Syntaxe Object (DN-Binary)
 
@@ -28,7 +28,7 @@ Chaîne d’octets qui contient une valeur binaire et un nom unique (DN).
 
 | Entrée | Valeur |
 |--------------|------------------------------------------------------------------------------------|
-| Nom         | Object(DN-Binary)                                                                  |
+| Name         | Object(DN-Binary)                                                                  |
 | ID de syntaxe    | 2.5.5.7                                                                            |
 | ID OM        | 127                                                                                |
 | Type MAPI    | TSTRING                                                                            |
@@ -38,7 +38,7 @@ Chaîne d’octets qui contient une valeur binaire et un nom unique (DN).
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une valeur avec cette syntaxe a le format suivant :
 

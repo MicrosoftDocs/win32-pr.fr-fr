@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0b36a12860ea2c2dc9085b784fdaf85cd95ab87f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e2b1cee8010a5eff143fc7ff073eeea5e83b3b46cb41177e5ddbde5e931e056
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119374829"
 ---
 # <a name="creating-and-updating-active-directory-objects"></a>Création et mise à jour d’objets Active Directory
 

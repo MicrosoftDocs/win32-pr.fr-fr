@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: d41ecd7d28b95534c8e6d88d1c57756c269cf790
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c733f932588c5c0d7ccfe3c906f28244d37fee0c649451c05fb8f72742edef4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106540891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611919"
 ---
 # <a name="swbemnamedvaluesetremove-method"></a>SWbemNamedValueSet. Remove, méthode
 

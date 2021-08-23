@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: f8664543a9ea5b0f3b290168129e589e9ccd68ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a2009ac8518d114353e3323b97c4ea57c54fc801447c375641b8f6bbd1b2bea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684849"
 ---
 # <a name="heldperiod-onex-element"></a>Élément heldPeriod (OneX)
 
@@ -25,7 +25,7 @@ L’élément heldPeriod (OneX) spécifie la durée, en secondes, pendant laquel
 
 Cet élément est facultatif. Quand heldPeriod n’est pas spécifié dans un profil, une valeur de 1 seconde est utilisée.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément sera ignoré s’il est présent dans un profil.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément sera ignoré s’il est présent dans un profil.
 
 ``` syntax
 <xs:element name="heldPeriod">
@@ -52,8 +52,8 @@ L’élément **heldPeriod** est défini par l’élément [**Onex**](onexschema
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -4,17 +4,17 @@ ms.assetid: ffd1e204-6ed2-4190-8635-9f3866d38099
 title: Méthode SelectParentalLevel
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb00172b8e61f353c45981af628eb396bca7a7df
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 95de7e8cbf1fb6fa284eddefa1ba07ebb9268825116fdac9c97fbd5d42bac84e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104521271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684039"
 ---
 # <a name="selectparentallevel-method"></a>Méthode SelectParentalLevel
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -53,7 +53,7 @@ Spécifie le mot de passe actuellement stocké dans le Registre sous forme de ch
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode définit le niveau d’accès dans l’objet MSWebDVD, qui détermine le contenu que l’utilisateur peut relire. Les niveaux plus élevés peuvent lire du contenu de niveau inférieur, mais les niveaux inférieurs ne peuvent pas lire du contenu de niveau supérieur. La signification exacte des huit niveaux de gestion parentale des DVD varie en fonction du pays ou de la région. Au États-Unis et au Canada, les niveaux sont mappés aux catégories d’évaluation MPAA (motion image Association of America). La gestion du contrôle parental dans le navigateur DVD est désactivée par défaut.
 

@@ -17,12 +17,12 @@ keywords:
 - ULONG_IMAPI2_NOT_NEGATIVE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7793bab123e2939bdc2f5a68bb705d7468da5666
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5f003c2e03ff3d21623111d3d43a83cddf43e31c64557cfce18b5a401cdcd5d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612009"
 ---
 # <a name="imapi-data-types"></a>Types de données IMAPi
 
@@ -71,8 +71,8 @@ typedef ULONG ULONG_IMAPI2_NOT_NEGATIVE;
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Imapi2. h</dt> </dl> |
 
 

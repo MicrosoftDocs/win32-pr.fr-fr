@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c55724aa0f9be6a41bf50b233a99bc7d748697c0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5f44c9d181f51824d253ccb0a837025add4f777b354f190c2131f3e8e9aa585a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322749"
 ---
 # <a name="ipprotocolnumber-attribute"></a>attribut ipProtocolNumber
 
@@ -35,14 +35,14 @@ Contient la section de la carte des protocoles qui stocke le numéro unique qui 
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.3.6.1.1.1.1.17                     |
 | System-ID-GUID    | ebf5c6eb-0e2d-4415-9670-1081993b4211 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

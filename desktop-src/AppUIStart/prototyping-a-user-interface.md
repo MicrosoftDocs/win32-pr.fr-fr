@@ -4,12 +4,12 @@ description: Cette rubrique décrit comment le prototypage d’une interface uti
 ms.assetid: 16e3fabb-9cd1-4517-8f19-b1d80c956ee0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 148c01d31c3bee34b555ab2ce10565229a7d1fb8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce42ad4240c3a06716f0db851e98b31e713b1ce0e23d1d485bc3e154375d9e50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507433"
 ---
 # <a name="prototyping-a-user-interface"></a>Prototypage d’une interface utilisateur
 
@@ -41,7 +41,7 @@ En cas d’examen des besoins d’un projet particulier, il est possible de trou
 
 Parfois, des prototypes sont créés pour une combinaison de ces raisons. Si une équipe planifie suffisamment bien, elle peut allouer du temps à un développeur et à un concepteur ou chef de projet de travailler ensemble sur un prototype. Dans ce cas, il est extrêmement important de définir clairement les objectifs et les contributions que chaque membre de l’équipe est censé effectuer. Tout le monde doit être clair sur ce que sont les objectifs, sur ce qui est en jeu et sur le résultat potentiel.
 
-## <a name="who-is-involved"></a>Qui est impliqué ?
+## <a name="who-is-involved"></a>Qui Est impliqué ?
 
 Le prototypage peut être effectué de manière informelle par n’importe qui, indépendamment de son arrière-plan ou de son rôle dans le projet. Il est facile de créer un prototype simple mais efficace en utilisant une image bitmap d’Adobe Photoshop, en la plaçant dans l’outil de création et de gestion de sites Web Microsoft FrontPage, et en ajoutant des boutons ou des liens actifs. Ces prototypes légers ne vont jusqu’à présent et peuvent devenir peu maniables pour les interactions complexes.
 
@@ -51,7 +51,7 @@ Pour les prototypes plus formels par des équipes de plus grande taille, un dév
 
 En fonction de l’étendue du prototype et du niveau de détail requis, les prototypes peuvent être générés à tout moment pendant le projet. La plupart du temps, ils sont créés tôt dans le projet, pendant la phase de planification et de spécification, avant que les développeurs écrivent du code de production. C’est à ce moment-là que le besoin d’exploration est le plus grand et que le temps d’investissement nécessaire est le plus viable. Si les développeurs, plutôt que les responsables de programme ou les concepteurs, sont des prototypes, le temps de planification devient encore plus important en raison de la nécessité de s’assurer que le travail investi dans le prototype est comptabilisé dans le calendrier de développement. La planification d’une version de l’interface utilisateur doit inclure un certain niveau de prototypage.
 
-Dans un projet, les prototypes plus petits peuvent aider à résoudre les problèmes techniques et de conception difficiles. Une maquette HTML rapide de la façon dont une boîte de dialogue ou une page Web doit se comporter peut aider à répondre à la question d’un développeur ou à d’autres coéquipiers comme l’expérience souhaitée. Dans certains cas, un responsable de programme ou un concepteur puissant peut implémenter le comportement dans le logiciel de développement Microsoft JScript et se rapprocher de la logique de programmation que les développeurs doivent réfléchir.
+Dans un projet, les prototypes plus petits peuvent aider à résoudre les problèmes techniques et de conception difficiles. Une maquette HTML rapide de la façon dont une boîte de dialogue ou une page Web doit se comporter peut aider à répondre à la question d’un développeur ou à d’autres coéquipiers comme l’expérience souhaitée. dans certains cas, un responsable de programme ou un concepteur puissant peut implémenter le comportement dans le logiciel de développement JScript Microsoft et se rapprocher d’une grande partie de la logique de programmation que les développeurs doivent réfléchir.
 
 Le temps nécessaire à la création d’un prototype peut varier considérablement, en fonction de l’étendue et de la précision de ce à quoi doit ressembler le résultat final. Un prototype informel peut signifier quelques heures de travail par une personne ; un effort plus organisé peut impliquer des semaines d’effort par une équipe entière.
 
@@ -107,23 +107,23 @@ Il existe plusieurs outils et technologies qui peuvent être utilisés pour cré
 
 -   Microsoft Visual Basic ou C#.
 
-    Il s’agit de la technologie la plus rapide pour créer des prototypes d’interface utilisateur de style Windows. L’objet de navigateur Web facilite l’intégration de HTMLUI à des composants de style Windows standard. Bien qu’il soit vrai qu’un développeur expérimenté avec Microsoft Visual Studio pourrait être en mesure de générer l’interface utilisateur plus rapidement en C/C++, cela crée la tentation de réutiliser le code du prototype d’interface utilisateur dans le code de production. Il est nécessaire de reconnaître que les objectifs d’un prototype d’interface utilisateur rapide et sale sont très divergents de l’ingénierie de haute qualité. Assurez-vous qu’il s’agit d’un type de code en cours d’écriture et que l’équipe ou le responsable comprend les éléments qui seront ignorés.
+    il s’agit de la technologie la plus rapide pour créer des prototypes d’interface utilisateur de style Windows. l’objet de navigateur Web facilite l’intégration de HTMLUI à des composants de style Windows standard. bien qu’il soit vrai qu’un développeur expérimenté avec Microsoft Visual Studio pourrait être en mesure de générer l’interface utilisateur plus rapidement en C/C++, cela crée la tentation de réutiliser le code du prototype d’interface utilisateur dans le code de production. Il est nécessaire de reconnaître que les objectifs d’un prototype d’interface utilisateur rapide et sale sont très divergents de l’ingénierie de haute qualité. Assurez-vous qu’il s’agit d’un type de code en cours d’écriture et que l’équipe ou le responsable comprend les éléments qui seront ignorés.
 
 -   Microsoft Expression Blend + SketchFlow.
 
-    SketchFlow est un outil visuel permettant de concevoir, de créer des prototypes et de créer des interfaces utilisateur sophistiquées pour les applications de bureau et Web de Windows Presentation Foundation (WPF) et Microsoft Silverlight. Les applications sont générées en dessinant des formes, en dessinant des contrôles tels que des boutons et des zones de liste, en faisant en sorte que les parties d’une application répondent aux clics de souris et à d’autres entrées utilisateur, et tout en apportant un style à l’apparence unique.
+    SketchFlow est un outil visuel permettant de concevoir, de créer des prototypes et de créer des interfaces utilisateur sophistiquées pour les applications de bureau et web de Windows Presentation Foundation (WPF) et Microsoft Silverlight. Les applications sont générées en dessinant des formes, en dessinant des contrôles tels que des boutons et des zones de liste, en faisant en sorte que les parties d’une application répondent aux clics de souris et à d’autres entrées utilisateur, et tout en apportant un style à l’apparence unique.
 
 -   Adobe Director ou Adobe Flash.
 
-    Director est un outil de prototypage d’interface utilisateur populaire parmi les concepteurs. Elle est particulièrement utile pour les conceptions d’interface utilisateur multimédia ou non standard, ou pour les prototypes qui nécessitent une animation importante. C’est une grande flexibilité qui complique l’interface utilisateur de type interface utilisateur par rapport à Visual Basic. Toutefois, un utilisateur compétent peut générer de l’interface utilisateur Windows ou Web sans difficulté.
+    Director est un outil de prototypage d’interface utilisateur populaire parmi les concepteurs. Elle est particulièrement utile pour les conceptions d’interface utilisateur multimédia ou non standard, ou pour les prototypes qui nécessitent une animation importante. C’est une grande flexibilité qui complique l’interface utilisateur de type interface utilisateur par rapport à Visual Basic. toutefois, un utilisateur compétent peut générer Windows ou une interface utilisateur Web sans difficulté.
 
 -   HTML.
 
-    FrontPage et d’autres éditeurs HTML permettent de créer rapidement des prototypes simples. Pour exprimer une idée, il est souvent possible de créer des bitmaps qui illustrent une séquence d’interaction utilisateur et de les placer dans FrontPage. Ces images peuvent être utilisées pour simuler l’interaction avec la conception. JScript et DHTML prennent des mesures à un autre niveau, ce qui permet une logique et une interaction très sophistiquées. Si vous utilisez du code HTML pour prototyper un site Web, l’avertissement qui vient d’être décrit pour C/C++ s’applique ici également, ne rentre pas dans l’interruption du code de prototype rapide confus avec l’ingénierie de qualité de production.
+    FrontPage et d’autres éditeurs HTML permettent de créer rapidement des prototypes simples. Pour exprimer une idée, il est souvent possible de créer des bitmaps qui illustrent une séquence d’interaction utilisateur et de les placer dans FrontPage. Ces images peuvent être utilisées pour simuler l’interaction avec la conception. JScript et DHTML prennent des mesures à un autre niveau, en permettant une logique et une interaction très sophistiquées. Si vous utilisez du code HTML pour prototyper un site Web, l’avertissement qui vient d’être décrit pour C/C++ s’applique ici également, ne rentre pas dans l’interruption du code de prototype rapide confus avec l’ingénierie de qualité de production.
 
- 
+ 
 
- 
+ 
 
 
 

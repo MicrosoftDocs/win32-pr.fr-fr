@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3053c5933a0388e3c8522b0d7201b491aaa4fa2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 30b1398d843711e868a6b5b96cf6a66893bf74fef1e50bfdd61fa36f81f05c13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611319"
 ---
 # <a name="wm_syskeydown-message"></a>\_Message WM SYSKEYDOWN
 
@@ -68,7 +68,7 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) examine la clé spécifiée et génère un message [**WM \_ SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) si la clé est de type Tab ou entrée.
 

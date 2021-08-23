@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Qualificateurs de WMI-Specific
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13848f8ca9a5e889c73890439e2cdcd33381c539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b90a32d5bd13f9dbda9125a6752891752505215e156d65e999ca7cf372a109d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639509"
 ---
 # <a name="wmi-specific-qualifiers"></a>Qualificateurs de WMI-Specific
 

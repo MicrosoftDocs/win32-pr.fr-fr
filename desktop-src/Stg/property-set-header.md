@@ -6,12 +6,12 @@ keywords:
 - Stockage structuré d’en-tête de jeu de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f8d66eeec6525414ba3c6f0a0bb4f4fa34431c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 506249ae917c6fbf00853a2547188a08ce14ebb29bc24d7e6daaa1aaa830cb3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662219"
 ---
 # <a name="property-set-header"></a>En-tête de jeu de propriétés
 
@@ -31,9 +31,9 @@ typedef struct tagPROPERTYSETHEADER
 } PROPERTYSETHEADER;
 ```
 
- 
+ 
 
- 
+ 
 
 
 

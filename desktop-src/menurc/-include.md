@@ -4,12 +4,12 @@ description: La directive \ include force le compilateur de ressources à traite
 ms.assetid: 9a3505c6-c19f-4c4f-85a4-94fbcfc0f9c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a8d36f1d0ae24f3dc21d67eec57056872aabdbd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e8bf5d6fa40e45073ca7ccb5f97dd3ddb0d13dfdfced965d5c83332183da421e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599718"
 ---
 # <a name="-include"></a>inclusion
 
@@ -28,7 +28,7 @@ Nom du fichier à inclure. Si le fichier se trouve dans le répertoire actif, la
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez l’instruction suivante dans votre fichier d’en-tête pour entourer les instructions qui peuvent être compilées par un compilateur C, mais pas RC :
 
@@ -38,9 +38,9 @@ Utilisez l’instruction suivante dans votre fichier d’en-tête pour entourer 
 
 De cette façon, vous pouvez utiliser les mêmes fichiers include dans vos fichiers. c et. rc.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
-Cet exemple traite les fichiers d’en-tête Windows. h et MyDefs. h lors de la compilation du fichier de définition de ressource :
+cet exemple traite les fichiers d’en-tête Windows. h et MyDefs. h lors de la compilation du fichier de définition de ressource :
 
 ``` syntax
 #include <windows.h>

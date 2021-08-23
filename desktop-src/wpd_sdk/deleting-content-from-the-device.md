@@ -4,12 +4,12 @@ ms.assetid: 195f68d5-f139-456e-b000-86c91732a292
 title: Suppression du contenu de l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1c7b8d266517933caaf770236e96110a3ef334c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d22400c5812c4996fe38836c1f05e264c9bff66ada5124969139c0f8f037b6b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657929"
 ---
 # <a name="deleting-content-from-the-device"></a>Suppression du contenu de l’appareil
 

@@ -4,12 +4,12 @@ ms.assetid: 4bf7a67e-0434-4177-96c7-dcaad14c6545
 title: Affectations de canaux Inde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ced8fdba140fba2a7274fa9dbd8dcae84ffce13
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4cef59d270165a75dd42b05f1a9934bb413bdc0d9d53dd11eed987d6cee8aa9b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584549"
 ---
 # <a name="india-channel-assignments"></a>Affectations de canaux Inde
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 ## <a name="cable-assignments"></a>Attributions de câble
 

@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 0e5b3f0a5b1aed634ab8929b0501d2e23ba40352
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 441ddac74e1640b2f836686c171d6fc896cbccee2dd6325c31041903ba610b39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661059"
 ---
 # <a name="sfvm_addobject-message"></a>\_Message SFVM ADDOBJECT
 
@@ -46,7 +46,7 @@ SFVM_ADDOBJECT
 
 Retourne le nouvel ID d’élément ListView de l’objet ajouté si le processus a réussi ; Sinon, retourne-1.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

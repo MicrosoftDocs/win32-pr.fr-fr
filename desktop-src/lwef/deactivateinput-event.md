@@ -4,12 +4,12 @@ description: Événement DeactivateInput
 ms.assetid: 59747932-82be-45d5-8465-73798904e8a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b2fe1ff13b599fe5fbcf2dac22e548a0432f415
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 98fe94d7d4e737d83dfb734bcc5b35c60bddf96dcf8b07c43df3b89817da21b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610529"
 ---
 # <a name="deactivateinput-event"></a>Événement DeactivateInput
 
@@ -37,11 +37,11 @@ Se produit lorsqu’un client devient non-actif.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Un client de non-entrée-actif ne reçoit plus d’événements de souris ou de parole du serveur (à moins qu’il ne soit de nouveau en entrée active). Le serveur envoie cet événement uniquement au client qui devient non-actif.
 
@@ -52,9 +52,9 @@ Cet événement se produit lorsque votre application cliente est en entrée-acti
 [**Événement ActivateInput**](activateinput-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

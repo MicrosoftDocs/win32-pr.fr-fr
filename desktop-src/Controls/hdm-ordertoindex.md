@@ -3,7 +3,7 @@ title: Message HDM_ORDERTOINDEX (commctrl. h)
 description: Récupère une valeur d’index pour un élément en fonction de son ordre dans le contrôle d’en-tête. Vous pouvez envoyer ce message explicitement ou utiliser la macro d’en-tête \_ OrderToIndex.
 ms.assetid: vs|controls|~\controls\header\messages\hdm_ordertoindex.htm
 keywords:
-- HDM_ORDERTOINDEX les contrôles de message Windows
+- HDM_ORDERTOINDEX les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b65d10fb27c9a07639ebbd5770a53d72cbf0aba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7afd006c90684137ffc484dac62ab40c04d90c0cdbc87f51102d8e9119e8b14d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576258"
 ---
 # <a name="hdm_ordertoindex-message"></a>\_Message HDM ORDERTOINDEX
 
@@ -49,8 +49,8 @@ Retourne INT qui indique l’index de l’élément. Si *wParam* n’est pas val
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

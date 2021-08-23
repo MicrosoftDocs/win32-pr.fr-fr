@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 01d1ee815140b86acefd6d8fee10ca7827eba9ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 06ee66668fc22ef8888c3be3bdccfff404b9c8bf0a2eb0498919de6c934a005c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519399"
 ---
 # <a name="recordlistcount-property"></a>RecordList. Count (propriété)
 
@@ -37,7 +37,7 @@ propVal = RecordList.Count
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le client doit vérifier que l’objet [**RecordList**](recordlist-object.md) existe et n’est pas vide avant de référencer la propriété Count.
 

@@ -3,7 +3,7 @@ title: Message LVM_INSERTITEM (commctrl. h)
 description: Insère un nouvel élément dans un contrôle List-View. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView InsertItem.
 ms.assetid: ac283e81-5b9f-4a90-acdb-fd7813c9cb84
 keywords:
-- LVM_INSERTITEM les contrôles de message Windows
+- LVM_INSERTITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 467c6b595e307dc16f87e40da858ff8b120fb3f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9408a8d09adca2a097281b13e56241c66a68521dcef0892502d7f8d0e14d25e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575709"
 ---
 # <a name="lvm_insertitem-message"></a>\_Message INSERTITEM LVM
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 Retourne l’index du nouvel élément en cas de réussite, ou-1 dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous ne pouvez pas utiliser [**ListView \_ InsertItem**](/windows/desktop/api/Commctrl/nf-commctrl-listview_insertitem) ou **LVM \_ InsertItem** pour insérer des sous-éléments. Le membre **iSubItem** de la structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) doit être égal à zéro. Pour plus d’informations sur la définition des sous-éléments, consultez [**\_ SETITEM LVM**](lvm-setitem.md) .
 
@@ -67,8 +67,8 @@ Si la structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) ne
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVM \_ INSERTITEMW** (Unicode) et **LVM \_ INSERTITEMA** (ANSI)<br/>             |
 

@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 829e5e1b3658771728aab9ef30634d90a8bc6450
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c0a9e863bd22cebc6609e32521b85de4bca29ae048d9673e3b09cfff2b95408f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504529"
 ---
 # <a name="win32_winsat-class"></a>\_Classe Win32 WinSAT
 
@@ -88,7 +88,7 @@ Type de données : **real32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Après Windows 8.1, WinSAT n’évalue plus les fonctionnalités graphiques à trois dimensions (jeux) de l’ordinateur et la capacité du pilote Graphics à afficher des objets et à exécuter des nuanceurs à l’aide de cette évaluation. Pour la compatibilité, les valeurs Sentinel des rapports WinSAT pour les métriques et les scores, toutefois, ne sont pas calculées en temps réel.
+après Windows 8.1, winsat n’évalue plus les fonctionnalités graphiques à trois dimensions (jeux) de l’ordinateur et la capacité du pilote graphics à afficher des objets et à exécuter des nuanceurs à l’aide de cette évaluation. Pour la compatibilité, les valeurs Sentinel des rapports WinSAT pour les métriques et les scores, toutefois, ne sont pas calculées en temps réel.
 
 </dd> <dt>
 
@@ -190,7 +190,7 @@ Score de base pour l’ordinateur. Pour plus d’informations sur la valeur du s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur les scores des sous-composants, tels que **MemoryScore**, consultez la propriété [**IProvideWinSATAssessmentInfo :: score**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_score) .
 
@@ -204,7 +204,7 @@ Pour obtenir un exemple qui montre comment utiliser WMI pour récupérer des don
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
 | Espace de noms<br/>                | Racine\\CIMv2<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WinSAT. mof</dt> </dl>    |

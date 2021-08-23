@@ -1,6 +1,6 @@
 ---
 title: Initials (attribut)
-description: Contient les initiales des parties du nom complet de l’utilisateur. Cela peut être utilisé comme initiale du deuxième prénom dans le carnet d’adresses Windows.
+description: Contient les initiales des parties du nom complet de l’utilisateur. cela peut être utilisé comme initiale du deuxième prénom dans le carnet d’adresses Windows.
 ms.assetid: 220b4448-5276-4c3f-8a1b-217cec06135a
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 946f6c9633c1126a30ae4898274096a54db9a402
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4c9aa6020dc5f442547582c71be475c7dc8e6e3efcd3e1588095c536f22e2347
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106509969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322909"
 ---
 # <a name="initials-attribute"></a>Initials (attribut)
 
-Contient les initiales des parties du nom complet de l’utilisateur. Cela peut être utilisé comme initiale du deuxième prénom dans le carnet d’adresses Windows.
+Contient les initiales des parties du nom complet de l’utilisateur. cela peut être utilisé comme initiale du deuxième prénom dans le carnet d’adresses Windows.
 
 
 
@@ -45,7 +45,7 @@ Contient les initiales des parties du nom complet de l’utilisateur. Cela peut 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

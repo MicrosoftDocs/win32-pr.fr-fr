@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c2fca1b6f4670fd340170ed5cfd1f0160d61945
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 446a63d63751105500986c27c7a851d60146a72281ee8415bc01c5ec8c5dfa3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548829"
 ---
 # <a name="allowed-to-authenticate-extended-right"></a>Autorisé à authentifier à droite étendu
 
@@ -38,7 +38,7 @@ Les contrôles de droits d’accès du contrôle qui peuvent s’authentifier au
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

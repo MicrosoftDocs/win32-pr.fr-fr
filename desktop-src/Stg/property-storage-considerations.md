@@ -1,17 +1,17 @@
 ---
-title: Considérations sur le stockage des propriétés
+title: considérations relatives à la Stockage de propriétés
 description: IPropertyStorage ReadMultiple lit autant de propriétés spécifiées dans le tableau rgpspec que dans le jeu de propriétés.
 ms.assetid: 7540966f-a3b2-46c9-9e04-b15133a517eb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2aad6aabf8b22a7c01f91a090136e6cc8156c791
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 128c5da70ae08c62660e0177187036fddee6ff27ed1d9971b6f95dea7052ecdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662159"
 ---
-# <a name="property-storage-considerations"></a>Considérations sur le stockage des propriétés
+# <a name="property-storage-considerations"></a>considérations relatives à la Stockage de propriétés
 
 [**IPropertyStorage :: ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple) lit autant de propriétés spécifiées dans le tableau *rgpspec* que dans le jeu de propriétés. Tant que l’une des propriétés demandées est lue, une demande de récupération d’une propriété qui n’existe pas n’est pas une erreur. Au lieu de cela, elle doit entraîner \_ l’écriture de VT vide pour cette propriété dans le tableau *rgvar* \[ \] lors du retour. Si aucune des propriétés demandées n’existe, la méthode doit retourner S \_ false et définir VT \_ vide dans chaque [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant). Si une autre erreur est retournée, aucune valeur de propriété n’est récupérée et l’appelant n’a pas besoin de se préoccuper de la libération.
 
@@ -35,9 +35,9 @@ Un autre problème est que plusieurs s’ouvrent en mode traité. Le résultat d
 
 Si l’appel permettant d’ouvrir le jeu de propriétés spécifie l’accès en lecture-écriture, les propriétés [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) et [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream)sont toujours ouvertes avec un accès en lecture-écriture. Les données peuvent ensuite être écrites à l’aide de ces interfaces, en modifiant la valeur de la propriété, qui est la méthode la plus efficace pour mettre à jour ces propriétés. La valeur de propriété elle-même n’a pas de niveau supplémentaire d’imbrication de transactions, de sorte que les modifications sont délimitées sous la transaction (le cas échéant) sur l’objet de stockage de propriété.
 
-## <a name="storage-and-stream-properties"></a>Propriétés de stockage et de flux
+## <a name="storage-and-stream-properties"></a>propriétés de Stockage et de flux
 
-Pour écrire un flux ou un objet de stockage dans un jeu de propriétés, le jeu de propriétés doit avoir été créé comme étant insimple. Pour plus d’informations sur les jeux de propriétés simples et simples, consultez la section intitulée [stockage et objets de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md). Les types de propriétés suivants, tels qu’ils sont spécifiés dans le champ *VT* des éléments du tableau *rgvar* , sont les types de flux ou de stockage : VT \_ Stream, VT \_ Storage, VT \_ streamingd \_ Object, VT \_ stocked \_ Object.
+Pour écrire un flux ou un objet de stockage dans un jeu de propriétés, le jeu de propriétés doit avoir été créé comme étant insimple. pour plus d’informations sur les jeux de propriétés simple et not simple, consultez la section intitulée [Stockage et les objets de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md). Les types de propriétés suivants, tels qu’ils sont spécifiés dans le champ *VT* des éléments du tableau *rgvar* , sont les types de flux ou de stockage : VT \_ Stream, VT \_ Storage, VT \_ streamingd \_ Object, VT \_ stocked \_ Object.
 
 Pour écrire un flux ou un objet de stockage en tant que propriété dans un jeu de propriétés non-simple, appelez [**IPropertyStorage :: WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple). Bien que vous appeliez également cette méthode pour mettre à jour des propriétés simples, il ne s’agit pas d’un moyen efficace de mettre à jour les objets de flux et de stockage dans un jeu de propriétés. Cela est dû au fait que la mise à jour de l’une de ces propriétés via un appel à **WriteMultiple** crée dans l’objet de stockage des propriétés une copie des données transmises, et les pointeurs [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) ou [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) ne sont pas conservés au-delà de la durée de cet appel. Il est généralement plus efficace de mettre à jour les objets de flux ou de stockage directement en appelant d’abord [**IPropertyStorage :: ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple) pour obtenir le pointeur d’interface vers le flux ou le stockage, puis en écrivant des données via les méthodes **IStream** ou **IStorage** .
 
@@ -76,6 +76,6 @@ Lors de l’allocation d’un identificateur de propriété, l’implémentation
 [IPropertyStorage-implémentation autonome](ipropertystorage-stand-alone-implementation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

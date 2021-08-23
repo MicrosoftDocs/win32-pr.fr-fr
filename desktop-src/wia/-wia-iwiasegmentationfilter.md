@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: b9c0bcdee5b40c37fb38b390f5085fe275f0f660
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 304b5be43aad8afc1730d2a23c170f11f11d319ffc4ae3eb13781efe09da2d41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659699"
 ---
 # <a name="iwiasegmentationfilter-interface"></a>Interface IWiaSegmentationFilter
 
@@ -44,7 +44,7 @@ L’interface **IWiaSegmentationFilter** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit utiliser [**IWiaItem2 :: GetExtension**](-wia-iwiaitem2-getextension.md) pour créer une nouvelle instance du filtre de segmentation. Une application appelle généralement cette fonction avant d’afficher sa fenêtre d’aperçu.
 
@@ -74,8 +74,8 @@ L’interface **IWiaSegmentationFilter** , comme toutes les interfaces COM (Comp
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

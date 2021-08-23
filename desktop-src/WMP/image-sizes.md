@@ -3,21 +3,21 @@ title: Tailles d’image
 description: Tailles d’image
 ms.assetid: f639ac34-f173-4b84-95ac-360d7fc40d1b
 keywords:
-- Windows Media Player Mobile Skins, fichiers art
+- Lecteur Windows Media Skins mobiles, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les apparences, les tailles d’image
-- Windows Media Player Mobile Skins, tailles d’image
+- Lecteur Windows Media Habillages mobiles, tailles d’images
 - apparences, tailles d’image
 - tailles d’image dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d672532be9830c58a580d37161b3d9a0adf04ae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a0e2fbed1e1343369d5b01d883ff57073ad6e4a4864e97005e82c6083593f32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509269"
 ---
 # <a name="image-sizes"></a>Tailles d’image
 
@@ -38,12 +38,12 @@ Vous devez prendre en compte la taille de la zone d’affichage lors de la créa
 
 
 
- 
+ 
 
 > [!Note]  
-> Les versions antérieures à Windows Media Player 9 Series pour Windows Mobile 2003 prennent uniquement en charge les habillages en mode Portrait de 96 ppp. Le lecteur Windows Media 10 mobile ou version ultérieure prend en charge les habillages en mode portrait 131 PPP sur les périphériques Smartphone, et cette prise en charge est prévue dans les prochaines versions de Windows Media Player Mobile.
+> les Versions antérieures à Lecteur Windows Media série 9 pour Windows Mobile 2003 prennent uniquement en charge les habillages en mode portrait 96 ppp. Lecteur Windows Media 10 mobile ou version ultérieure prend en charge les habillages en mode portrait 131 DPI sur les périphériques Smartphone, et cette prise en charge est prévue pour continuer dans les futures versions de Lecteur Windows Media Mobile.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -52,9 +52,9 @@ Vous devez prendre en compte la taille de la zone d’affichage lors de la créa
 [**Fichiers art**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

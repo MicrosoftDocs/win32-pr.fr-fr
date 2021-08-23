@@ -4,12 +4,12 @@ ms.assetid: 234dd206-7306-4598-bfbb-b0cd9d726ace
 title: Éléments v1 du schéma de profil haut débit mobile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4b92e9b1fd9daf3cf843e769a0782f5f1ce1848
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8bc9d5f7972608215cb1394b0bbecf44424868240d7c1bad365f003ebdad756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607109"
 ---
 # <a name="mobile-broadband-profile-schema-v1-elements"></a>Éléments v1 du schéma de profil haut débit mobile
 
