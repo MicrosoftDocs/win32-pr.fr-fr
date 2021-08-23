@@ -4,17 +4,17 @@ description: Une boîte de dialogue est une fenêtre secondaire qui permet aux u
 ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: b0e0deb28a706436e4d33ece35a40c26bd7499e0
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2fe9b7545961f7e06b1edf1656531779d5122b339d0cf16294e5ef5c4be9a69f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119031162"
 ---
 # <a name="dialog-boxes-design-basics"></a>Boîtes de dialogue (notions de base sur la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Une boîte de dialogue est une fenêtre secondaire qui permet aux utilisateurs d’exécuter une commande, demande aux utilisateurs une question, ou fournit aux utilisateurs des informations ou des commentaires sur la progression.
 
@@ -41,7 +41,7 @@ Les boîtes de dialogue ont deux types fondamentaux :
 
 Boîte de dialogue de tâche standard.
 
-**Les boîtes de dialogue de tâches sont recommandées chaque fois que cela est approprié, car elles sont faciles à créer et donnent une apparence cohérente.** Les boîtes de dialogue de tâches requièrent Windows Vista ou une version ultérieure, donc elles ne conviennent pas aux versions antérieures de Microsoft Windows.
+**Les boîtes de dialogue de tâches sont recommandées chaque fois que cela est approprié, car elles sont faciles à créer et donnent une apparence cohérente.** les boîtes de dialogue de tâches requièrent Windows Vista ou version ultérieure. elles ne conviennent donc pas aux versions antérieures de Microsoft Windows.
 
 Un volet de tâches est semblable à une boîte de dialogue, à la différence qu’il est présenté dans un volet de fenêtre et non dans une fenêtre distincte. Par conséquent, les volets des tâches ont une apparence plus directe et contextuelle que les boîtes de dialogue. Même si techniquement, ils ne sont pas les mêmes, les **volets des tâches sont similaires aux boîtes de dialogue que leurs instructions sont présentées dans cet article**.
 
@@ -126,7 +126,7 @@ Les boîtes de dialogue ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **N’utilisez pas de boîtes de dialogue déroulantes.** N’utilisez pas les boîtes de dialogue qui requièrent l’utilisation d’une barre de défilement pour s’afficher complètement pendant une utilisation normale. Reconcevez plutôt la boîte de dialogue. Envisagez d’utiliser la [Divulgation progressive](ctrl-progressive-disclosure-controls.md) ou les [onglets](ctrl-tabs.md).
 -   **N’avez pas de barre de menus ou de barre d’État.** Au lieu de cela, vous pouvez fournir un accès aux commandes et à l’État directement dans la boîte de dialogue elle-même, ou en utilisant des menus contextuels sur les contrôles appropriés.
@@ -146,7 +146,7 @@ Les boîtes de dialogue ont plusieurs modèles d’utilisation :
 
 -   **À utiliser pour les tâches critiques ou peu fréquentes qui requièrent l’achèvement avant de continuer.**
 -   Utilisez un [modèle de validation différée](glossary.md) pour que les modifications ne prennent pas effet tant qu’elles ne sont pas explicitement validées.
--   **Implémentez à l’aide d’une boîte de dialogue de tâches chaque fois que nécessaire pour obtenir une apparence cohérente.** Les boîtes de dialogue de tâches requièrent Windows Vista ou une version ultérieure, donc elles ne conviennent pas aux versions antérieures de Windows.
+-   **Implémentez à l’aide d’une boîte de dialogue de tâches chaque fois que nécessaire pour obtenir une apparence cohérente.** les boîtes de dialogue de tâches requièrent Windows Vista ou version ultérieure. elles ne conviennent donc pas aux versions antérieures de Windows.
 
 ### <a name="modeless-dialog-boxes"></a>Boîtes de dialogue non modales
 
@@ -157,7 +157,7 @@ Les boîtes de dialogue ont plusieurs modèles d’utilisation :
 
 ![capture d’écran d’une boîte de dialogue non modale et Ancrable ](images/win-dialog-box-image7.png)
 
-Certaines boîtes de dialogue non modales utilisées dans Microsoft Office sont ancrables.
+certaines boîtes de dialogue non modales utilisées dans Microsoft Office sont ancrables.
 
 ### <a name="multiple-dialog-boxes"></a>Plusieurs boîtes de dialogue
 
@@ -177,7 +177,7 @@ La page d’entrée est facultative, car la tâche a peut-être été lancée ai
 
 ![capture d’écran du message « aucun problème détecté » ](images/win-dialog-box-image9.png)
 
-Dans cet exemple, les diagnostics réseau Windows sont constitués de pages de progression et de résultats.
+dans cet exemple, Windows les diagnostics réseau sont constitués de pages de progression et de résultats.
 
 -   **N’utilisez pas de boîte de dialogue à plusieurs pages si la page d’entrée est une boîte de dialogue standard.** Dans ce cas, la cohérence de l’utilisation d’une boîte de dialogue standard est plus importante.
 -   **N’utilisez pas les boutons suivant ou précédent et ne disposez pas de plus de trois pages.** Les boîtes de dialogue à plusieurs pages sont destinées aux tâches à étape unique avec des commentaires. Ce ne sont pas des [assistants](win-wizards.md), qui sont utilisés pour les tâches en plusieurs étapes. Les assistants ont une sensation importante et indirecte par rapport aux boîtes de dialogue à plusieurs pages.
@@ -209,7 +209,7 @@ Les propriétés d’un objet s’affichent à côté de l’objet.
 
 ![capture d’écran des boutons du lecteur multimédia centré ](images/win-dialog-box-image12.png)
 
-Dans cet exemple, le lecteur Windows Media modifie son format lorsque la fenêtre devient trop petite pour le format standard.
+dans cet exemple, Lecteur Windows Media modifie son format lorsque la fenêtre devient trop petite pour le format standard.
 
 -   **N’utilisez pas l’attribut Always on.**
     -   **Exception :** À utiliser uniquement lorsqu’une boîte de dialogue implémente une opération essentiellement modale, mais qu’elle doit être interrompue brièvement pour accéder à la fenêtre propriétaire. Par exemple, lorsque vous vérifiez l’orthographe d’un document, les utilisateurs peuvent occasionnellement conserver la boîte de dialogue vérification de l’orthographe et accéder au document pour corriger les erreurs.
@@ -297,7 +297,7 @@ Dans cet exemple, l’arrêt du diagnostic du problème n’a aucun effet second
 
 ![capture d’écran de la boîte de dialogue avec le bouton Réessayer ](images/win-dialog-box-image16.png)
 
-Dans cet exemple, l’Explorateur Windows permet aux utilisateurs de poursuivre la tâche après une erreur récupérable.
+dans cet exemple, Windows Explorer permet aux utilisateurs de poursuivre la tâche après une erreur récupérable.
 
 -   **Signalez les problèmes en mettant la barre de progression en rouge.**
 
@@ -413,7 +413,7 @@ Dans cet exemple, une icône d’avertissement est utilisée de manière incorre
 
 ![capture d’écran de la boîte de dialogue favoris avec l’icône d’étoile ](images/win-dialog-box-image20.png)
 
-Dans cet exemple, l’icône d’étoile jaune représente les favoris. L’icône est facilement identifiable et est utilisée de manière cohérente dans Windows pour représenter les favoris.
+Dans cet exemple, l’icône d’étoile jaune représente les favoris. l’icône est facilement identifiable et est utilisée de manière cohérente tout au long Windows pour représenter les favoris.
 
 -   **Utilisez des icônes pour aider les utilisateurs à reconnaître l’objet en question.**
 
@@ -663,19 +663,19 @@ Pour plus d’informations et d’exemples, consultez [icônes](vis-icons.md).
 
     ![capture d’écran de la boîte de dialogue avec enregistrer/ne pas enregistrer ](images/win-dialog-box-image38.png)
 
-    Dans cet exemple, cette boîte de dialogue est affichée par Windows Paint à la suite d’une commande New ou EXIT lorsque le graphique n’a pas été enregistré. Ne pas enregistrer ferme la boîte de dialogue sans enregistrer, tandis que Cancel annule la commande New ou Exit.
+    dans cet exemple, cette boîte de dialogue est affichée en Windows Paint à la suite d’une commande New ou Exit lorsque le graphique n’a pas été enregistré. Ne pas enregistrer ferme la boîte de dialogue sans enregistrer, tandis que Cancel annule la commande New ou Exit.
 
     **Incorrect :**
 
     ![capture d’écran de la boîte de dialogue avec les boutons Oui/non ](images/win-dialog-box-image39.png)
 
-    Dans cet exemple, il n’existe aucun moyen d’annuler la tâche (en fermant la barre de raccourcis Office) qui a conduit à afficher cette boîte de dialogue. Cette boîte de dialogue a besoin d’un bouton Annuler.
+    dans cet exemple, il n’existe aucun moyen d’annuler la tâche (en fermant Office barre de raccourcis) qui a conduit à afficher cette boîte de dialogue. Cette boîte de dialogue a besoin d’un bouton Annuler.
 
 -   **Si les utilisateurs doivent simplement annuler la boîte de dialogue, mais pas la tâche, utilisez un bouton avec une réponse négative spécifique à l’instruction principale** et n’avez pas de bouton Annuler.
 
     ![capture d’écran de la boîte de dialogue avec exécuter/ne pas exécuter ](images/win-dialog-box-image24.png)
 
-    Dans cet exemple, cette boîte de dialogue s’affiche indirectement à la suite de la navigation vers une page Web qui installe un contrôle ActiveX. L’utilisation de Cancel serait ambiguë ici. donc, n’utilisez pas.
+    dans cet exemple, cette boîte de dialogue s’affiche indirectement à la suite de la navigation vers une page Web qui installe un contrôle de ActiveX. L’utilisation de Cancel serait ambiguë ici. donc, n’utilisez pas.
 
 Pour plus d’informations et d’exemples, consultez [boutons de commande](ctrl-command-buttons.md).
 
@@ -843,15 +843,15 @@ Dans cet exemple, il est très probable que les utilisateurs choisissent les mê
 
 ## <a name="recommended-sizing-and-spacing"></a>Dimensionnement et espacement recommandés
 
--   **Prendre en charge la résolution d’écran Windows Vista minimale de 800 x 600 pixels.** Les dispositions peuvent être optimisées pour les fenêtres redimensionnables à l’aide d’une résolution d’écran de 1024 x 768 pixels.
--   **Utilisez des fenêtres redimensionnables quand cela est possible pour éviter les barres de défilement et les données tronquées.** Windows avec du contenu dynamique et des listes tirent le meilleur parti des fenêtres redimensionnables.
+-   **prendre en charge la résolution d’écran minimale Windows Vista de 800 x 600 pixels.** Les dispositions peuvent être optimisées pour les fenêtres redimensionnables à l’aide d’une résolution d’écran de 1024 x 768 pixels.
+-   **Utilisez des fenêtres redimensionnables quand cela est possible pour éviter les barres de défilement et les données tronquées.** Windows avec du contenu dynamique et des listes qui tirent le meilleur parti des fenêtres redimensionnables.
 -   **Les fenêtres à taille fixe doivent être entièrement visibles et dimensionnées pour s’ajuster à la zone de travail.**
 -   **Les fenêtres redimensionnables peuvent être optimisées pour des résolutions plus élevées, mais en fonction des besoins au moment de l’affichage de la résolution réelle de l’écran.**
 -   **Choisissez une taille de fenêtre par défaut adaptée à son contenu.** N’hésitez pas à utiliser des tailles de fenêtre initiales supérieures si vous pouvez utiliser l’espace de manière efficace.
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Supprimez le texte redondant.** Recherchez du texte redondant dans les titres, des instructions principales, des instructions supplémentaires, des zones de contenu, des liens de commande et des boutons de validation. En règle générale, laissez le texte intégral dans les instructions et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
 -   **Utilisez une formulation positive.** Une formulation positive est plus facile à comprendre pour les utilisateurs.
@@ -952,5 +952,5 @@ Quand vous faites référence à des boîtes de dialogue :
 -   Utilisez le titre exact ou le texte d’instruction principal, y compris la mise en majuscules.
 -   Dans la mesure du possible, mettez en forme le titre en gras. Sinon, placez le titre entre guillemets uniquement si nécessaire pour éviter toute confusion.
 
-Exemple : dans la **sécurité Windows**, cliquez sur **autres options**.
+exemple : dans **Sécurité Windows**, cliquez sur **autres Options**.
 

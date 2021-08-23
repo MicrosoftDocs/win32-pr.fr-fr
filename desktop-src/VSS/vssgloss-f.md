@@ -5,12 +5,12 @@ ms.assetid: 9d59b2f6-c3d9-40d4-be89-ae7283794eb3
 title: F (Service VSS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01f60a456ce6ea795dc8376c0f707d028523cec3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56eef69a16a77fce7f557ae0ff02ff0e5d84d0225d082fd486af629b9804aeb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056197"
 ---
 # <a name="f-volume-shadow-copy-service"></a>F (Service VSS)
 
@@ -30,7 +30,7 @@ Groupe de fichiers autres que ceux utilisés comme base de données et définis 
 
 Combinaison d’un chemin d’accès, d’une spécification de fichier et d’un indicateur récursif décrivant un fichier ou un groupe de fichiers. Par exemple, les fichiers sont ajoutés aux composants dans les jeux de fichiers.
 
-Sauf indication contraire, les chemins d’accès d’un jeu de fichiers sont des chemins d’accès Windows standard et peuvent contenir des variables d’environnement (par exemple,% SystemRoot%) mais ne peut pas contenir de caractères génériques. Il n’est pas nécessaire que le chemin d’accès se termine par une barre oblique inverse (« \\ »). Il s’agit des applications qui récupèrent ces informations pour les vérifier.
+sauf indication contraire, les chemins d’accès d’un jeu de fichiers sont des chemins d’accès de Windows standard et peuvent contenir des variables d’environnement (par exemple,% SystemRoot%), mais ne peuvent pas contenir de caractères génériques. Il n’est pas nécessaire que le chemin d’accès se termine par une barre oblique inverse (« \\ »). Il s’agit des applications qui récupèrent ces informations pour les vérifier.
 
 La spécification de fichier contenue dans un jeu de fichiers indique le nom du ou des fichiers qu’il contient. Cette spécification de fichier ne peut pas contenir de spécifications de répertoire (par exemple, aucune barre oblique inverse), mais peut contenir le ? et les \* caractères génériques.
 

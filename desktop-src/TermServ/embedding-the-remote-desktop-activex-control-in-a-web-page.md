@@ -1,20 +1,20 @@
 ---
-title: Incorporation du contrôle Bureau à distance ActiveX dans une page Web
+title: incorporation du contrôle Bureau à distance ActiveX dans une page web
 description: Exemple illustrant l’utilisation des interfaces scriptables.
 ms.assetid: fad0f81f-bb04-4900-aeb8-0be503efa591
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d180c6ed95bc0f75f2f10305f00dc1d63be25e80
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: c8cb5fffe6bed04d99fcfac7d48f28300c3714affa3ea1df25bda27334988752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103723851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001567"
 ---
-# <a name="embedding-the-remote-desktop-activex-control-in-a-webpage"></a>Incorporation du contrôle Bureau à distance ActiveX dans une page Web
+# <a name="embedding-the-remote-desktop-activex-control-in-a-webpage"></a>incorporation du contrôle Bureau à distance ActiveX dans une page web
 
-Vous pouvez incorporer le contrôle ActiveX Bureau à distance dans une page Web à l’aide d’un code similaire à ce qui suit.
+vous pouvez incorporer le contrôle ActiveX Bureau à distance dans une page web à l’aide d’un code similaire à ce qui suit.
 
 
 ```HTML
@@ -466,18 +466,18 @@ end sub
 
 
 
-Le CLSID est pour le contrôle ActiveX hébergé par Connexion Bureau à distance (RDP) 6,0. Ce contrôle ActiveX implémente [**IMsRdpClient**](imsrdpclient-interface.md).
+le CLSID est pour le contrôle ActiveX hébergé par Connexion Bureau à distance (RDP) 6,0. ce contrôle de ActiveX implémente [**IMsRdpClient**](imsrdpclient-interface.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Utilisation du contrôle ActiveX Bureau à distance](using-remote-desktop-web-connection.md)
+[utilisation du contrôle de ActiveX Bureau à distance](using-remote-desktop-web-connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

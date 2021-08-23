@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b403db94a30ee8641420af97137a1f3b5bc67949
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fdf08743a19c5689971cf8e461f8d252737e1d24ccc98549ab9091b4043d74e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028537"
 ---
 # <a name="ui_collection_invalidindex"></a>\_INVALIDINDEX de collection d’interface utilisateur \_
 
@@ -29,8 +29,8 @@ Spécifie une constante qui identifie un index non valide dans une collection.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7, Windows Vista avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Vista \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Windows Server 2008 R2, Windows Server 2008 avec SP2 et mise à jour de plateforme pour les applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 7, Windows Vista avec SP2 et la mise à jour de la plateforme pour les applications de bureau Windows vista \[ uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows server 2008 R2, Windows server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 \[\]<br/> |
 | En-tête<br/>                   | <dl> <dt>UIRibbon. h</dt> </dl>                                             |
 | MIDL<br/>                      | <dl> <dt>UIRibbon. idl</dt> </dl>                                           |
 

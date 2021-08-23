@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 7ce336c84d086c4e4be369278a77e40e59474bc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38caa5ef5ded6ed40708314c6063fba13a74cbbe506465aed55e8504898a9307
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032787"
 ---
 # <a name="didiskquotauserquotathreshold-property"></a>DIDiskQuotaUser. QuotaThreshold, propriété
 
@@ -40,7 +40,7 @@ DIDiskQuotaUser.QuotaThreshold = iQuotaThreshold
 
 Valeur **entière** qui spécifie ou reçoit le seuil d’avertissement de l’utilisateur. Si l’utilisation du disque d’un utilisateur dépasse cette valeur et que la propriété [**LogQuotaThreshold**](diskquotacontrol-logquotathreshold.md) est définie sur **true**, le système génère une entrée de journal des événements.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

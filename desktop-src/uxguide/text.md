@@ -4,17 +4,17 @@ description: Le texte comprend tout texte que les utilisateurs peuvent voir dans
 ms.assetid: C0C72078-E951-4DC1-BA55-62AF13E1BA37
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 52738845b93edee9af99f9ea9c110b1542cef42f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: bd37be6cff5a9e95f6bbdc254f9a0df67a5ffbd298135b1d9ab4d238c3796329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106542078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119029597"
 ---
 # <a name="text-design-basics"></a>Texte (notions de base sur la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Le texte comprend tout texte que les utilisateurs peuvent voir dans votre application. Passez en revue ces instructions sur l’utilisation du texte, du style et du ton de l’interface utilisateur pour vos applications.
 
@@ -31,7 +31,7 @@ Le texte comprend tout texte que les utilisateurs peuvent voir dans votre applic
 
  
 
-Vous pouvez également trouver des instructions de texte spécifiques dans les sections texte ou étiquettes pour les [contrôles](controls.md) et les [fenêtres](windows.md).
+Vous pouvez également trouver des instructions de texte spécifiques dans les sections Text ou labels pour les [contrôles](controls.md) et les [Windows](windows.md).
 
  
 

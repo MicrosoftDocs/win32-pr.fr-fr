@@ -5,16 +5,16 @@ ms.assetid: 448a7f9b-bf12-48eb-a3e7-4512ec288d95
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f1358a4360889bc013beefcee4e029f3572c9c0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 668bf4902ffb133c403e5ea2f74bbc165cf99bca500c95eed5d5dac3cb48a710
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999889"
 ---
 # <a name="remote-desktop-services-permissions"></a>Autorisations de Services Bureau à distance
 
-Vous pouvez utiliser les autorisations fournies pour Services Bureau à distance pour contrôler la façon dont les utilisateurs et les groupes accèdent au serveur. Pour obtenir une description des types d’autorisation par défaut et des informations plus détaillées sur les autorisations de Services Bureau à distance en général, consultez la documentation qui accompagne l’outil d’administration de la configuration Services Bureau à distance. Pour plus d’informations sur la configuration de ces autorisations pour Windows Server 2008, consultez [configurer des autorisations pour des connexions services Bureau à distance](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753032(v=ws.11)).
+Vous pouvez utiliser les autorisations fournies pour Services Bureau à distance pour contrôler la façon dont les utilisateurs et les groupes accèdent au serveur. Pour obtenir une description des types d’autorisation par défaut et des informations plus détaillées sur les autorisations de Services Bureau à distance en général, consultez la documentation qui accompagne l’outil d’administration de la configuration Services Bureau à distance. pour plus d’informations sur la configuration de ces autorisations pour Windows Server 2008, consultez [configurer des autorisations pour les connexions Services Bureau à distance](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753032(v=ws.11)).
 
 Voici une liste des autorisations que vous pouvez définir et des tâches que les autorisations autorisent.
 
@@ -28,7 +28,7 @@ Voici une liste des autorisations que vous pouvez définir et des tâches que le
 | Ouverture de session<br/>             | Connectez-vous à une session sur le serveur.<br/>                                                                                                                         |
 | Fermer la session<br/>            | Déconnecte un utilisateur d’une session. Sachez que la déconnexion d’un utilisateur sans avertissement peut entraîner la perte de données au niveau du client.<br/>                                  |
 | Message<br/>           | Envoyer un message aux sessions d’un autre utilisateur.<br/>                                                                                                                 |
-| Se connecter<br/>           | Connectez-vous à une autre session.<br/>                                                                                                                                |
+| Se connecter<br/>           | Connecter à une autre session.<br/>                                                                                                                                |
 | Déconnecter<br/>        | Déconnecter une session.<br/>                                                                                                                                      |
 | Canaux virtuels<br/>  | Utiliser des canaux virtuels. Sachez que la désactivation des canaux virtuels désactive certaines fonctionnalités Services Bureau à distance telles que le presse-papiers et la redirection d’imprimante.<br/> |
 | Réinitialiser<br/>             | Mettre fin à une session. N’oubliez pas que la fin d’une session sans avertissement peut entraîner la perte de données au niveau du client.<br/>                                                    |

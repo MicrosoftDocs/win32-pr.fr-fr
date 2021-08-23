@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPErrorItem2 (VB et C) (WMP. h)
+title: interface IWMPErrorItem2 (VB et C) (Wmp. h)
 description: Fournit une propriété pour obtenir un code de condition d’erreur.
 ms.assetid: 0393cebd-88c0-4bfd-8890-4c456ec19b57
 keywords:
-- IWMPErrorItem2 (VB et C) interface Windows Media Player
-- Interface IWMPErrorItem2 (VB et C), le lecteur Windows Media, décrit
+- interface IWMPErrorItem2 (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPErrorItem2 (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b103e8eee1cce9fe9265a73bb1e8d590d52db2d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a223d3d1ed2f5551e69b20a927681e9e4c08bbdf23d6fcc876e03d6ef2d49e92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054837"
 ---
-# <a name="iwmperroritem2-vb-and-c-interface"></a>Interface IWMPErrorItem2 (VB et C#)
+# <a name="iwmperroritem2-vb-and-c-interface"></a>interface IWMPErrorItem2 (VB et C#)
 
 Fournit une propriété pour obtenir un code de condition d’erreur.
 
@@ -42,7 +42,7 @@ Obtient une interface **IWMPErrorItem2** en effectuant un cast de la valeur reto
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPErrorItem2 (VB et C#)** ne définit aucun membre.
+l’interface **IWMPErrorItem2 (VB et C#)** ne définit aucun membre.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -61,7 +61,7 @@ L’interface **IWMPErrorItem2 (VB et C#)** ne définit aucun membre.
 [**IWMPErrorItem**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmperroritem)
 </dt> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPErrorItem (VB et C#)**](iwmperroritem--vb-and-c.md)

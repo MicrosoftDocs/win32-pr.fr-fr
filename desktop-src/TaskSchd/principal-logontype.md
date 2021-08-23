@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4455fd273144b2d6abd81c78be31a1b037cd889
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7db85573072c54a613009c3afec4873a38db4ff7336e487553437967b4c6e1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060077"
 ---
 # <a name="principallogontype-property"></a>Propriété principal. LogonType
 
@@ -56,7 +56,7 @@ Définissez l’une des constantes d’énumération de [**\_ type d’ouverture
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est valide uniquement lorsqu’un identificateur d’utilisateur est spécifié par la propriété [**userid**](principal-userid.md) .
 
@@ -70,8 +70,8 @@ Pour une tâche, qui contient une action de MessageBox, la boîte de message s�
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -84,7 +84,7 @@ Pour une tâche, qui contient une action de MessageBox, la boîte de message s�
 [Planificateur de tâches](task-scheduler-start-page.md)
 </dt> <dt>
 
-[**Directeur**](principal.md)
+[**Principal**](principal.md)
 </dt> </dl>
 
  

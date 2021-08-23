@@ -3,8 +3,8 @@ title: Espaces de couleurs indépendants de l’appareil
 description: Reconnaissant la nécessité de mesures de couleur standard, indépendantes des appareils, la Commission internationale de l’Eclairage (Commission internationale sur l’éclairage) ou CIE, a créé un espace de couleurs basé sur \ 0034 ; imaginaire-0034 ; couleurs principales.
 ms.assetid: 8597dad3-1eb8-49f9-9843-1f9068a65925
 keywords:
-- Système de couleurs Windows (WCS), espaces de couleurs indépendants du périphérique
-- WCS (système de couleurs Windows), espaces de couleurs indépendants du périphérique
+- Windows Système de couleurs (WCS), espaces de couleurs indépendants du périphérique
+- WCS (Windows color System), espaces de couleurs indépendants du périphérique
 - gestion des couleurs des images, espaces de couleurs indépendants du périphérique
 - gestion des couleurs, espaces de couleurs indépendants du périphérique
 - couleurs, espaces de couleurs indépendants du périphérique
@@ -23,12 +23,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d044379f8f04467f7be94f09d1eb1fa41816d3e
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: e8c350ca4aa4b046d35926cd7568c4fbdfe030b7d7c13b085b9f3837c5dd8418
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106539363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028787"
 ---
 # <a name="device-independent-color-spaces"></a>Espaces de couleurs indépendants de l’appareil
 
@@ -42,7 +42,7 @@ Par conséquent, Hewlett-Packard et Microsoft ont proposé l’adoption d’un e
 
 Une version de fichier d’aide d’un livre blanc traitant des problèmes techniques liés à sRVB, sRVB. HLP, est disponible dans le \\ dossier d’aide du Guide de référence du programmeur WCS 1,0 dans le kit de développement logiciel (SDK) de la plateforme.
 
-Différents formats de fichiers peuvent utiliser ou ajouter un indicateur pour spécifier que l’image se trouve dans l’espace de couleurs sRVB. Dans le format DIB (Device-Independent Bitmap) Windows, la définition du membre **bV5CSType** de la structure [BITMAPV5HEADER](using-structures-in-wcs-1-0.md) sur LCS \_ sRVB spécifie que les couleurs DIB se trouvent dans l’espace de couleurs sRVB.
+Différents formats de fichiers peuvent utiliser ou ajouter un indicateur pour spécifier que l’image se trouve dans l’espace de couleurs sRVB. dans le format Windows DIB (device-independent bitmap), la définition du membre **bV5CSType** de la structure [BITMAPV5HEADER](using-structures-in-wcs-1-0.md) sur LCS \_ srvb spécifie que les couleurs DIB se trouvent dans l’espace de couleurs srvb.
 
  
 

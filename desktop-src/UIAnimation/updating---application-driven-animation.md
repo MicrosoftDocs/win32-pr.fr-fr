@@ -6,12 +6,12 @@ keywords:
 - variables d’animation Windows animation, lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16187547bb3efd99a2f45a8fcc0668a6b6603efe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fb2cc164091be9ecca292e26ab1247ba18c61d89f11dad8fc2530a3e45ca7629
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058166"
 ---
 # <a name="read-the-animation-variable-values"></a>Lire les valeurs de la variable d’animation
 
@@ -25,7 +25,7 @@ Au lieu de lire les valeurs de toutes les variables pour chaque frame, une appli
 
 ## <a name="example-code"></a>Exemple de code
 
-L’exemple de code suivant est extrait de thumbnail. cpp dans l’exemple de [Présentation](/windows/desktop/UIAnimation/grid-layout-sample)de la grille Windows animation ; consultez la méthode CMainWindow :: Render. Elle utilise la méthode [**GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue) pour lire les valeurs en tant que valeurs à virgule flottante.
+l’exemple de code suivant provient de Thumbnail. cpp dans l’exemple de présentation de la [grille](/windows/desktop/UIAnimation/grid-layout-sample)Windows Animation ; consultez la méthode CMainWindow :: Render. Elle utilise la méthode [**GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue) pour lire les valeurs en tant que valeurs à virgule flottante.
 
 
 ```C++
@@ -49,7 +49,7 @@ if (SUCCEEDED(hr))
 
 
 
-L’exemple de code suivant est extrait de MainWindow. cpp dans l’exemple d' [animation pilotée par une](timer-driven-animation-sample.md)Animation Windows. consultez la méthode CMainWindow ::D rawBackground. Elle utilise la méthode [**GetIntegerValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue) pour lire les valeurs sous la forme de valeurs entières.
+l’exemple de code suivant est extrait de MainWindow. cpp dans l’exemple d' [animation pilotée par un](timer-driven-animation-sample.md)exemple d’animation Windows. consultez la méthode CMainWindow ::D rawBackground. Elle utilise la méthode [**GetIntegerValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue) pour lire les valeurs sous la forme de valeurs entières.
 
 
 ```C++
@@ -109,9 +109,9 @@ Avant de commencer cette étape, vous devez avoir terminé cette étape : [mett
 [**IUIAnimationVariable :: GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue)
 </dt> <dt>
 
-[Vue d’ensemble des animations Windows](scenic-animation-api-overview.md)
+[Windows Vue d’ensemble de l’animation](scenic-animation-api-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

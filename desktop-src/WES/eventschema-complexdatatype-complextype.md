@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 598f2cc02f1e3675ff0c8fd6eae7f9a5e02b9407
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f86b15defc32469dd1a4abd0f6366e1a93d4b83441b1e1518ff7ac999f30bd59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055807"
 ---
 # <a name="complexdatatype-complex-type"></a>Type complexe ComplexDataType
 
@@ -46,7 +46,7 @@ Définit une structure qui contient un ou plusieurs éléments de données.
 
 | Élément                                                  | Type                                                      | Description                                                                                                             |
 |----------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**Métadonnée**](eventschema-data-complexdatatype-element.md) | [**DataType**](eventschema-datafieldtype-complextype.md) | Liste des éléments de données de la structure. La liste des éléments se trouve dans le même ordre que celui défini dans le modèle.<br/> |
+| [**Métadonnée**](eventschema-data-complexdatatype-element.md) | [**Décimal**](eventschema-datafieldtype-complextype.md) | Liste des éléments de données de la structure. La liste des éléments se trouve dans le même ordre que celui défini dans le modèle.<br/> |
 
 
 
@@ -60,7 +60,7 @@ Définit une structure qui contient un ou plusieurs éléments de données.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**EvtRender**](/windows/desktop/api/WinEvt/nf-winevt-evtrender) restitue le contenu d’une structure sous la forme d’un objet blob binaire ; la fonction ne rend pas les éléments de données individuels de la structure.
 
@@ -70,8 +70,8 @@ La fonction [**EvtRender**](/windows/desktop/api/WinEvt/nf-winevt-evtrender) res
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

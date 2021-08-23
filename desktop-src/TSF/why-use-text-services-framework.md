@@ -9,12 +9,12 @@ keywords:
 - Applications compatibles TSF, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6647981b890bd1fcdf488b18bffad587f49ed9b5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 908f8d61b7eba32fbcad2ada6cce62a65c0721a47a894b0aa399f4e4aa7bdf69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106537747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118873159"
 ---
 # <a name="why-use-text-services-framework"></a>Pourquoi utiliser Text Services Framework ?
 
@@ -26,9 +26,9 @@ TSF permet aux services de texte de fournir une conversion de texte exacte et co
 
 TSF est indépendant des appareils et active les services de texte pour plusieurs périphériques d’entrée, y compris le clavier, le stylet et le microphone.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: AmbientAttributes. Enabled
 description: L’attribut enabled spécifie ou récupère une valeur indiquant si le contrôle est activé ou désactivé.
 ms.assetid: cf96ab7c-8acd-42b6-b7ca-d084a89c97e2
 keywords:
-- Lecteur Windows Media activé pour AmbientAttributes.
+- AmbientAttributes. enabled Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c34d24e86118a1cca0939d535b6da6e86c2df34
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e9d8e000d64ef92212cd7c6cf37c7fd79036107e1d3be0d7669d73b40c759de3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055177"
 ---
 # <a name="ambientattributesenabled"></a>AmbientAttributes. Enabled
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le contrôle est activé, il peut avoir un taquet de tabulation et recevra tous les événements ambiants. Quand elle est désactivée, le contrôle n’a pas de taquet de tabulation et ne reçoit aucun événement de souris ou de clavier ambiant déclenché. (Toutefois, il continuera à recevoir tous les autres événements ambiants qui lui sont déclenchés.)
 
