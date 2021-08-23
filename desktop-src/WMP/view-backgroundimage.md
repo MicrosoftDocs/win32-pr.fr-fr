@@ -3,7 +3,7 @@ title: VIEW. backgroundImage
 description: L’attribut backgroundImage spécifie ou récupère l’image d’arrière-plan de la vue ou de la sous-vue.
 ms.assetid: 60ffb257-2f43-4ae3-869d-3eb981ef4ae7
 keywords:
-- AFFICHER. backgroundImage lecteur Windows Media
+- VIEW. backgroundImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e96f4a93882e02589d7f15b74ba5cb225f506d69
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1de8bcbd0eb47f03aaff46b4292a8afe226ca8a221ec570537351af8e509801
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761739"
 ---
 # <a name="viewbackgroundimage"></a>VIEW. backgroundImage
 
@@ -31,11 +31,11 @@ L’attribut **BackgroundImage** spécifie ou récupère l’image d’arrière-
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les formats pris en charge sont BMP, JPG, GIF et PNG. Si l’image est un fichier BMP 8 bits, ses valeurs de teinte et de saturation peuvent être modifiées de manière dynamique à l’aide des attributs **backgroundImageHueShift** et **backgroundImageSaturation** .
 
-Dans un package de téléchargement Windows Media, si vous spécifiez l’attribut **BackgroundImage** pour un élément **View** , vous devez également spécifier l’attribut **backgroundColor** pour cet élément.
+dans un package Windows Media Download, si vous spécifiez l’attribut **backgroundImage** pour un élément **VIEW** , vous devez également spécifier l’attribut **backgroundColor** pour cet élément.
 
 ## <a name="requirements"></a>Configuration requise
 

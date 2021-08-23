@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c56db29261be81cae388a089d0768840bb15e28
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5071b78069fd210a4141a27195aaf248f262cf2034d1c97ffe141a8aceaf2fdb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762129"
 ---
 # <a name="msmq-queue-type-attribute"></a>Attribut MSMQ-queue-type
 
@@ -45,7 +45,7 @@ GUID qui décrit le type de service fourni par la file d’attente.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

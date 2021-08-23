@@ -4,12 +4,12 @@ ms.assetid: D5D4544B-CD8D-4C94-B050-7BA1944800CC
 title: Événement MEEncodingParameters (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e193044b25eb1d333182a2593fcf2248fba2366
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2230640adf1f92111569a39558f2959271a23ea2b5dbe5d0d915b6a2b989d371
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723829"
 ---
 # <a name="meencodingparameters-event"></a>Événement MEEncodingParameters
 
@@ -39,7 +39,7 @@ Les attributs suivants sont définis pour cet événement.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La charge utile d’événement est un magasin d’attributs (pointeur IMFAttributes) qui contient les nouveaux paramètres basés sur ICodecAPI///que l’encodeur doit appliquer aux exemples entrants suivants.
 
@@ -50,7 +50,7 @@ La charge utile d’événement est un magasin d’attributs (pointeur IMFAttrib
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                  |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

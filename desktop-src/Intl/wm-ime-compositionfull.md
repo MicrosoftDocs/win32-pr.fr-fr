@@ -4,12 +4,12 @@ ms.assetid: d81d6438-c470-4ae5-8016-8d816bcba9b8
 title: Message WM_IME_COMPOSITIONFULL (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f33051ac3e4e893eb803d4b13d7bfbf53751258b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 954a5f91283ca5c4944c274d422508ef0b91b55b8acc34f790cf446f93a598ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811489"
 ---
 # <a name="wm_ime_compositionfull-message"></a>\_ \_ Message COMPOSITIONFULL de l’IME WM
 
@@ -37,7 +37,7 @@ Ce message n’a pas de paramètres.
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser la commande [IMC \_ SETCOMPOSITIONWINDOW](imc-setcompositionwindow.md) pour spécifier la façon dont la fenêtre doit être affichée.
 

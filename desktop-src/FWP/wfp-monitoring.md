@@ -1,19 +1,19 @@
 ---
 title: Surveillance de WFP
-description: Cette section fournit des informations sur le système de surveillance de la plateforme de filtrage Windows (WFP).
+description: cette section fournit des informations sur le système de surveillance de la plateforme de filtrage des Windows (WFP).
 ms.assetid: 807f95d3-1e0f-4f65-88b7-2503a25b2f04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e281a3c009265a0eb88d8aa530fbdea31076d74a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae5c3b2c4d032c5b4d03c561f9178e46bcc62cc329b353c2b4ebf5d0e286e85b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766689"
 ---
 # <a name="wfp-monitoring"></a>Surveillance de WFP
 
-Cette section fournit des informations sur le système de surveillance de la plateforme de filtrage Windows (WFP).
+cette section fournit des informations sur le système de surveillance de la plateforme de filtrage des Windows (WFP).
 
 <dl>
 
@@ -22,9 +22,9 @@ Cette section fournit des informations sur le système de surveillance de la pla
 [Notifications de modifications](change-notifications.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,18 +3,18 @@ title: Propriétés (IManipulationProcessor)
 description: Cette section contient les propriétés de l’interface IManipulationProcessor.
 ms.assetid: 0f8a3e27-a92f-4086-9573-6c7bbe7efd20
 keywords:
-- Tactile Windows, interface IManipulationProcessor
-- Tactile Windows, propriétés de l’interface
+- Windows Interface tactile, IManipulationProcessor
+- Windows Tactile, propriétés d’interface
 - manipulations, interface IManipulationProcessor
 - IManipulationProcessor, interface, propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b43ab3753753c05d67db3c6351387531be3fb4d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a0f8e43c5b74ea52d36586f7d6f0bb2ed10e76a579d5f3795c1c53f19fa501e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709539"
 ---
 # <a name="properties-imanipulationprocessor"></a>Propriétés (IManipulationProcessor)
 

@@ -1,27 +1,27 @@
 ---
-description: 'En savoir plus sur : Erreurs du moteur de stockage extensible'
-title: Erreurs du moteur de stockage extensible
+description: en savoir plus sur les erreurs du moteur de Stockage Extensible
+title: erreurs du moteur de Stockage Extensible
 TOCTitle: Extensible Storage Engine Errors
 ms:assetid: 0c071ed6-0ea2-448b-9f9f-e606c5abf3db
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269184(v=EXCHG.10)
 ms:contentKeyID: 32765487
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 55c86d51f44414688897d6450adf214a0478f7d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c0ee0a4423d5b37913bd7922af07a7b2196a30176b2a1adca37240e03a28594
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721459"
 ---
-# <a name="extensible-storage-engine-errors"></a>Erreurs du moteur de stockage extensible
+# <a name="extensible-storage-engine-errors"></a>erreurs du moteur de Stockage Extensible
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-## <a name="extensible-storage-engine-errors"></a>Erreurs du moteur de stockage extensible
+## <a name="extensible-storage-engine-errors"></a>erreurs du moteur de Stockage Extensible
 
-Toutes les erreurs possibles retournées par l’API ESE (Extensible Storage Engine) sont définies par le type de données [JET_ERR](./jet-err.md) . Pour obtenir la liste des indicateurs d’erreur définis pour cette API, consultez [codes d’erreur du moteur de stockage extensible](./extensible-storage-engine-error-codes.md).
+toutes les erreurs possibles retournées par l’API ese (Extensible Stockage Engine) sont définies par le type de données [JET_ERR](./jet-err.md) . pour obtenir la liste des indicateurs d’erreur définis pour cette API, consultez [Codes d’erreur du moteur d’Stockage Extensible](./extensible-storage-engine-error-codes.md).
 
 Dans la documentation de l’API ESE, seules les erreurs les plus importantes sont documentées. Ces erreurs représentent généralement des erreurs d’utilisation de l’API ou des conditions d’erreur très importantes. N’oubliez pas que ces API ESE peuvent également retourner d’autres erreurs qui ne sont pas documentées pour chaque API. Dans ce cas, l’appelant doit simplement gérer l’erreur, comme pour toute autre erreur retournée par l’API. La valeur d’erreur spécifique peut ensuite être utilisée à des fins de diagnostic telles que le suivi.
 
@@ -70,6 +70,6 @@ Pour plus d’informations sur la configuration des paramètres système pour la
 
 [Paramètres de gestion des erreurs](./error-handling-parameters.md)
 
-[Codes d’erreur du moteur de stockage extensible](./extensible-storage-engine-error-codes.md)
+[Codes d’erreur du moteur de Stockage Extensible](./extensible-storage-engine-error-codes.md)
 
 [JET_ERR](./jet-err.md)

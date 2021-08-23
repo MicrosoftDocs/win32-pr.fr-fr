@@ -6,24 +6,24 @@ keywords:
 - Windows Media Format SDK, partage de bande passante
 - ASF (Advanced Systems Format), partage de bande passante
 - ASF (format de systèmes avancés), partage de bande passante
-- Windows Media Format SDK, flux
+- Windows Media Format SDK, Streams
 - ASF (Advanced Systems Format), flux
 - ASF (format de systèmes avancés), flux
 - partage de bande passante, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2221d2fbc44654af7f12acf6e45fb85ca32b7d2b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 0b01ff94e82f2ce3609a93278fef30c68e1a59445eea22f68f4b0a5d92371a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709409"
 ---
 # <a name="bandwidth-sharing"></a>Partage de bande passante
 
 Vous pouvez spécifier des flux dans un fichier qui, lorsqu’ils sont utilisés ensemble, utilisent moins de bande passante que la somme des vitesses de transmission indiquées. En spécifiant le partage de bande passante dans le profil, vous précisez que vous devez lire les applications dont la bande passante disponible pour diffuser le fichier n’est pas celle qui pourrait autrement paraître.
 
-Aucun des objets du kit de développement logiciel (SDK) de format Windows Media ne modifie leur comportement en réponse aux informations de partage de bande passante, qui sont fournies uniquement afin que la lecture des applications puisse prendre en compte lorsque vous déterminez si un fichier peut être lu avec une remise de bande passante limitée.
+aucun des objets du kit de développement logiciel (SDK) de Format multimédia Windows modifie leur comportement en réponse aux informations de partage de bande passante, qui sont fournies uniquement afin que la lecture des applications puisse prendre en compte pour déterminer si un fichier peut être lu avec une remise de bande passante limitée.
 
 Le partage de bande passante est configuré avec un objet de partage de bande passante et est ajouté à un profil avant de commencer à écrire un fichier.
 
@@ -46,9 +46,9 @@ Le partage de bande passante est configuré avec un objet de partage de bande pa
 [**Utilisation du partage de bande passante**](using-bandwidth-sharing.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

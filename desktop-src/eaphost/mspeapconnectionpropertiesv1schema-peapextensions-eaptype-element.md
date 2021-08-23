@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4f3d0b6fb0d10056df3a9e3d3e62d08aee1ec885
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c498a187d5cced65d400a90352f6344d9bfc0ac79b63afb241a8c346c1f6cb28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106532383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738879"
 ---
 # <a name="peapextensions-eaptype-element-connection-property"></a>Élément PeapExtensions (EapType) (propriété de connexion)
 
@@ -33,7 +33,7 @@ L’élément **PeapExtensions (EapType)** permet de futures améliorations du s
 
 L’élément **PeapExtensions** est défini par l’élément [**EapType**](mspeapconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **PeapExtensions** est facultatif.
 
@@ -43,8 +43,8 @@ L’élément **PeapExtensions** est facultatif.
 
 | Role | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

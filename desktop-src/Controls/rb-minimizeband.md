@@ -3,7 +3,7 @@ title: Message RB_MINIMIZEBAND (commctrl. h)
 description: Redimensionne une bande dans un contrôle rebar à sa plus petite taille.
 ms.assetid: 4962d90a-2a69-4490-9063-cc2be995df13
 keywords:
-- RB_MINIMIZEBAND les contrôles de message Windows
+- RB_MINIMIZEBAND les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 598f5fc30a9063befff384a8f081027b69fb9512
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 46ef08d33903f002e3aaa8975580a770b941cf4330e8d8e2260dc9a0a4947713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119798559"
 ---
 # <a name="rb_minimizeband-message"></a>\_Message MINIMIZEBAND RB
 
@@ -49,8 +49,8 @@ La valeur de retour n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

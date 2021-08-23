@@ -3,7 +3,7 @@ title: Structure de MCI_VCR_STATUS_PARMS (VCR. h)
 description: La \_ structure d’état des magnétoscopes MCI contient des \_ \_ paramètres pour la \_ commande d’État MCI pour les enregistreurs vidéo-cassettes.
 ms.assetid: 5d7cbb64-a81d-4bdd-8f07-8c20dd7b9ef5
 keywords:
-- Structure de MCI_VCR_STATUS_PARMS Windows multimédia
+- structure MCI_VCR_STATUS_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0b197acfa0e170a9ab199cd6d6c51a64e14c320
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8569a278f697ed816085c4fc8f313502d2994215519fb2452f82e63ce31a80cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783919"
 ---
 # <a name="mci_vcr_status_parms-structure"></a>Structure de l' \_ État des magnétoscopes MCI \_ \_
 
@@ -79,7 +79,7 @@ Tuner logique auquel le canal actuel est associé. Ce membre est utilisé pour r
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

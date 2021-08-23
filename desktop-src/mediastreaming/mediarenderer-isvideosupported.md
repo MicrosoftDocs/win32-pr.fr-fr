@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 150ebe5c2514760cbdbda2c751a191c61a7f6641
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 0f08387534d512cc684a2dbceddac7da0b38e5454978c271183906b8a4f6d637
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104380993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712689"
 ---
 # <a name="mediarendererisvideosupported-property"></a>MediaRenderer. IsVideoSupported, propriété
 
@@ -33,7 +33,7 @@ Cette propriété est en lecture seule.
 
 ```C++
 HRESULT get_IsVideoSupported(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -50,9 +50,9 @@ Valeur booléenne qui est **true** si DMR est capable de visionner du contenu vi
 [**MediaRenderer**](mediarenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

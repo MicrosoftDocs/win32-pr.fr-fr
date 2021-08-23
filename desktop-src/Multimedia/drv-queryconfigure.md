@@ -3,7 +3,7 @@ title: Message DRV_QUERYCONFIGURE (mmsystem. h)
 description: Indique au pilote de spécifier s’il prend en charge la configuration personnalisée.
 ms.assetid: fb2e36a7-8d6b-4b08-b2d7-e128ca7082dc
 keywords:
-- Message DRV_QUERYCONFIGURE Windows Multimedia
+- message DRV_QUERYCONFIGURE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66780106fdd42364d247db534a838842f25dc16a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22c49ec54d1822bbc9ddc4d2606f8905a21c5193322a12df335549074dacdea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104200576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691569"
 ---
 # <a name="drv_queryconfigure-message"></a>\_Message QUERYCONFIGURE
 
@@ -47,7 +47,7 @@ Handle de l’instance du pilote installable.
 
 Retourne une valeur différente de zéro si le pilote peut afficher une boîte de dialogue de configuration ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les paramètres *lParam1* et *lParam2* ne sont pas utilisés.
 
@@ -59,7 +59,7 @@ Les paramètres *lParam1* et *lParam2* ne sont pas utilisés.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

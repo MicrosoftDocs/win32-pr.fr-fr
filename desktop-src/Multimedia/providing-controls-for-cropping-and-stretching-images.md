@@ -9,12 +9,12 @@ keywords:
 - MCIWndPutDest macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cd0889b40204e7c99ec782e454dba2cdeebfe79
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 712dddf0d022b63bccb3c64157df796585569b72604dc82746417d725c4135dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103724812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805749"
 ---
 # <a name="providing-controls-for-cropping-and-stretching-images"></a>Fournir des contrôles pour rogner et étirer des images
 
@@ -37,8 +37,8 @@ Si la taille du rectangle de destination devient supérieure à celle de la zone
 > [!Note]  
 > La macro [**MCIWndPutDest**](/windows/desktop/api/Vfw/nf-vfw-mciwndputdest) ne modifie pas la taille de la zone de lecture. Pour étirer la fenêtre MCIWnd en même temps que le rectangle de destination, vous devez connaître la taille actuelle de la fenêtre MCIWnd et émettre de nouvelles dimensions de fenêtre en fonction du rectangle de destination. Vous pouvez récupérer les dimensions de la fenêtre MCIWnd à l’aide de la fonction [GetWindowRect](/windows/win32/api/winuser/nf-winuser-getwindowrect) et redimensionner la fenêtre MCIWnd à l’aide de la fonction [SetWindowPos](/windows/win32/api/winuser/nf-winuser-setwindowpos) .
 
- 
+ 
 
- 
+ 
 
- 
+ 

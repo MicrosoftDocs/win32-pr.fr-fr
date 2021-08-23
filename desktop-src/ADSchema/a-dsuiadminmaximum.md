@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de3a8c4b0c25c0da0e248f07743adee836d0f80
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1a7df2f7e3955a39a80792e0a35331a2eb41f8f34ec1cc25efb59a4a69a0b678
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804719"
 ---
 # <a name="ds-ui-admin-maximum-attribute"></a>DS-UI-admin-attribut maximal
 
@@ -36,7 +36,7 @@ Il s’agit du nombre maximal par défaut d’objets à afficher dans un contene
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1344              |
 | System-ID-GUID    | ee8d0ae0-6f91-11d2-9905-0000f87a57d4 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Il s’agit du nombre maximal par défaut d’objets à afficher dans un contene
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -66,7 +66,7 @@ Il s’agit du nombre maximal par défaut d’objets à afficher dans un contene
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ Il s’agit du nombre maximal par défaut d’objets à afficher dans un contene
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ Il s’agit du nombre maximal par défaut d’objets à afficher dans un contene
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ Il s’agit du nombre maximal par défaut d’objets à afficher dans un contene
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ Il s’agit du nombre maximal par défaut d’objets à afficher dans un contene
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ Il s’agit du nombre maximal par défaut d’objets à afficher dans un contene
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 

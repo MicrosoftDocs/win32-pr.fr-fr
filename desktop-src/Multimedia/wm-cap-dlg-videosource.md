@@ -3,7 +3,7 @@ title: Message WM_CAP_DLG_VIDEOSOURCE (VFW. h)
 description: Le \_ message WM Cap \_ DLG \_ VIDEOSOURCE affiche une boîte de dialogue dans laquelle l’utilisateur peut contrôler la source vidéo.
 ms.assetid: 8dc2f271-1f48-4e63-badf-9f3322063018
 keywords:
-- Message WM_CAP_DLG_VIDEOSOURCE Windows Multimedia
+- message WM_CAP_DLG_VIDEOSOURCE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e8ae7e3d619964a547fbe0db4517fd1e7d277f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a1f05d7e3dc421759229adffa4ecc4b78affc26f1b4244887b017614c2ab4d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803879"
 ---
 # <a name="wm_cap_dlg_videosource-message"></a>\_Message WM Cap \_ DLG \_ VIDEOSOURCE
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La boîte de dialogue source vidéo est unique pour chaque pilote de capture. Certains pilotes de capture peuvent ne pas prendre en charge une boîte de dialogue source vidéo. Les applications peuvent déterminer si le pilote de capture prend en charge ce message en vérifiant le membre **fHasDlgVideoSource** de la structure [**CAPDRIVERCAPS**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) .
 

@@ -8,12 +8,12 @@ keywords:
 - Pilote MCIAVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be2e69cf2b0fd9ee71650c56b0d7d9efb50a46e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d4a7a6bc8da314cc5cb891846e46289396fefb6be60d92ddd38f17ab1aff0ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783428"
 ---
 # <a name="mciavi"></a>MCIAVI
 
@@ -27,9 +27,9 @@ L’audio est synchronisé avec la vidéo dans un trentième de seconde. Toutefo
 
 Votre application peut utiliser les services de la classe de fenêtre MCIWnd au lieu de l’interface de commande MCI pour contrôler tout pilote MCI. Cette classe de fenêtre gère la plupart des détails de la gestion de la fenêtre qui prend en charge le périphérique MCI et simplifie la programmation requise pour envoyer les commandes MCI. Votre application peut utiliser directement les services de bibliothèque MCIWnd pour contrôler l’appareil MCI, ou elle peut avoir des MCIWnd afficher une barre d’outils, une barre de défilement et des menus qui permettent à l’utilisateur de contrôler l’appareil. Pour plus d’informations sur la classe de fenêtre MCIWnd, consultez [classe de fenêtre MCIWnd](mciwnd-window-class.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,27 +4,27 @@ description: Attribut Margin-Left VML
 ms.assetid: 65488c47-06c2-4a8f-8d29-4837865465f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f98900e862f22f31ad444bc6fb6f372627eca1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d4f403c19e617f8131886d3f4a862ff1ac0b878edbd2acf2fd0e27cb17b3406c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680819"
 ---
 # <a name="vml-margin-left-attribute"></a>Attribut Margin-Left VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Spécifie le bord gauche du rectangle conteneur de la forme par rapport au point d’ancrage de la forme. En lecture/écriture. **Chaîne**.
 
 **S’applique à**
 
-[Graphique à base de formes](shape-element--vml.md)
+[Forme](shape-element--vml.md)
 
 **Syntaxe de balise**
 
@@ -42,7 +42,7 @@ L’attribut **margin-left** est semblable à l’attribut de **marge HTML stand
 
 Notez que la procédure **MarginLeft** est utilisée à la place de la **marge gauche** pour les scripts. Notez également que si la **position** est **absolue**, la marge n’apparaîtra pas pour changer.
 
-Cette propriété est utilisée au lieu de **gauche** pour les formes dans Microsoft Word et Microsoft Excel qui flottent dans une position relative à un point d’ancrage.
+cette propriété est utilisée à la place de **Left** pour les formes dans Microsoft Word et Microsoft Excel qui flottent dans une position par rapport à un point d’ancrage.
 
 Ces valeurs comprennent :
 
@@ -56,7 +56,7 @@ Ces valeurs comprennent :
 
 
 
- 
+ 
 
 *Attribut standard VML*
 
@@ -79,6 +79,6 @@ La marge de gauche est définie à 25 pixels.
 
 [Exemple d’attribut margin-left](/previous-versions/visualstudio/design-tools/expression-studio-3/ee371308(v=expression.40)#examples). (Nécessite Microsoft Internet Explorer 5 ou version ultérieure.)
 
- 
+ 
 
- 
+ 

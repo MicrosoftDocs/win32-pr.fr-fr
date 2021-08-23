@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ee4d4f602303ca1943e47c04ba30ab8f6e75e72
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7dbe764d477c5f176fcaebc0825bbbcd02495ec70ee669a02c59258173cfbdd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802709"
 ---
 # <a name="inapsystemhealthagentbindinginitialize-method"></a>INapSystemHealthAgentBinding :: Initialize, méthode
 
@@ -81,7 +81,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 NapAgent ne déclenche pas d’échange SoH en raison de l’initialisation. Un agent d’intégrité système doit appeler [**NotifySoHChange**](inapsystemhealthagentbinding-notifysohchange-method.md) pour demander un échange de paquets SOH après l’initialisation avec NapAgent.
 
@@ -91,8 +91,8 @@ NapAgent ne déclenche pas d’échange SoH en raison de l’initialisation. Un 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                |
 | En-tête<br/>                   | <dl> <dt>NapSystemHealthAgent. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapSystemHealthAgent. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

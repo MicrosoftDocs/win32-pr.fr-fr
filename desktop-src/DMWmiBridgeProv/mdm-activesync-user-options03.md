@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c459e20b519801c622a091060fd6a87ced2807c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45a938677d7d08e6af259a559d2ddad915150b7c20797277e14f21ab9c69a2f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834072"
 ---
 # <a name="mdm_activesync_user_options03-class"></a>\_ \_ Classe OPTIONS03 utilisateur MDM ActiveSync \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La classe Options03 de l' **\_ \_ utilisateur \_ MDM ActiveSync** définit les options qui sont définies pour chaque compte ActiveSync.
 
@@ -141,7 +141,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

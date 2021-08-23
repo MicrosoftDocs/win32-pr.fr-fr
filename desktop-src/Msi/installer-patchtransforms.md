@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: f3a0b851e87478c950c9b117d65223ea5bcb3ab5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3129047a183bc677a4dc19afaf18c5ba6a99ea8ba52abad2de4bed9b16725a09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763669"
 ---
 # <a name="installerpatchtransforms-property"></a>Installer. PatchTransforms, propriété
 

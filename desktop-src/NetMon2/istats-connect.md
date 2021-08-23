@@ -1,7 +1,7 @@
 ---
-description: 'Méthode IStats :: Connect : la méthode Connect connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.'
+description: 'IStats :: Connecter méthode-la méthode Connecter connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.'
 ms.assetid: 29a12df7-9c81-40ff-ac12-33ce1de833b1
-title: 'IStats :: Connect, méthode (NetMon. h)'
+title: 'IStats :: Connecter, méthode (Netmon. h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 0719b6ff56aaa8c0be02f86d62ac23d4003aa3d6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8ef8ec57f485f49155ed470ccfc6bf1286acd183080e2e20664fe52f1df97d75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778799"
 ---
-# <a name="istatsconnect-method"></a>IStats :: Connect, méthode
+# <a name="istatsconnect-method"></a>IStats :: Connecter, méthode
 
-La méthode **Connect** connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.
+la méthode **Connecter** connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -71,7 +71,7 @@ Handle vers un objet BLOB d’erreur qui contient des informations supplémentai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -101,7 +101,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </dl></td>
-<td>L’objet BLOB d’entrée spécifié par le paramètre <em>hInputBlob</em> n’a pas d’entrée nécessaire pour effectuer cette opération. Cette erreur peut être générée par l’appel de <strong>IStats :: Connect</strong> ou <strong>IStats :: configure</strong> . Examinez l’objet BLOB d’erreur retourné par <em>hErrorBlob</em> pour déterminer quelle entrée est introuvable.<br/></td>
+<td>L’objet BLOB d’entrée spécifié par le paramètre <em>hInputBlob</em> n’a pas d’entrée nécessaire pour effectuer cette opération. cette erreur peut être générée par l’appel de <strong>IStats :: Connecter</strong> ou <strong>IStats :: configure</strong> . Examinez l’objet BLOB d’erreur retourné par <em>hErrorBlob</em> pour déterminer quelle entrée est introuvable.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </dl></td>
@@ -143,9 +143,9 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
-Lorsque la méthode **Connect** est appelée, moniteur réseau appelle automatiquement la méthode **IStats :: configure** à l’aide de l’objet BLOB fourni par le paramètre *hInputBlob* . Notez que les codes d’erreur retournés par l’appel à **IStats :: configure** sont passés en retour et retournés par l’appel de **IStats :: Connect** .
+lorsque la méthode **Connecter** est appelée, Moniteur réseau appelle automatiquement la méthode **IStats :: configure** à l’aide de l’objet BLOB fourni par le paramètre *hInputBlob* . notez que les codes d’erreur retournés par l’appel à **IStats :: configure** sont passés en retour et retournés par l’appel de **IStats :: Connecter** .
 
 Cette méthode doit être appelée avant que vous ne puissiez commencer à capturer des frames. Notez que lorsque vous vous connectez au réseau à l’aide de cette méthode, vous devez continuer à utiliser l’interface **IStats** pour capturer des frames.
 

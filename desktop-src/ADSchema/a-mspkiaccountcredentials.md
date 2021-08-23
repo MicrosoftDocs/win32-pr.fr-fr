@@ -1,6 +1,6 @@
 ---
 title: attribut ms-PKI-AccountCredentials
-description: Stockage des objets BLOB de jeton d’informations d’identification utilisateur chiffrés pour l’itinérance. | attribut ms-PKI-AccountCredentials
+description: Stockage d’objets blob de jeton d’informations d’identification utilisateur chiffrés pour l’itinérance. | attribut ms-PKI-AccountCredentials
 ms.assetid: 08df5c7d-3aae-4cff-97df-25da6995c72e
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76fb96e598b156ba5940bfb75bbfdb628f777353
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: dbba37bf220cb35bfc1aa26d4a59948539ccaec117240387ca6481bbd6388818
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802875"
 ---
 # <a name="ms-pki-accountcredentials-attribute"></a>attribut ms-PKI-AccountCredentials
 
-Stockage des objets BLOB de jeton d’informations d’identification utilisateur chiffrés pour l’itinérance.
+Stockage d’objets blob de jeton d’informations d’identification utilisateur chiffrés pour l’itinérance.
 
 
 
@@ -42,7 +42,7 @@ Stockage des objets BLOB de jeton d’informations d’identification utilisateu
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

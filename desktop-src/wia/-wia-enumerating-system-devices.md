@@ -1,19 +1,19 @@
 ---
-description: 'Utilisez la méthode IWiaDevMgr :: EnumDeviceInfo (ou IWiaDevMgr2 :: EnumDeviceInfo) pour énumérer les périphériques WIA (Windows Image Acquisition) installés sur un système.'
+description: 'utilisez la méthode IWiaDevMgr :: EnumDeviceInfo (ou IWiaDevMgr2 :: EnumDeviceInfo) pour énumérer les périphériques d’Acquisition d’images Windows (WIA) installés sur un système.'
 ms.assetid: 6465a33e-1b3b-4142-a58f-b27e9c95cd3e
 title: Énumération des périphériques système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d2d65879cd1fc8466f4ada638281ef496636b19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60b6587d88b2836e057f0b6d7e31bd7f22d79c6220c51b407b621370d8524b89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103952072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814259"
 ---
 # <a name="enumerating-system-devices"></a>Énumération des périphériques système
 
-Utilisez la méthode [**IWiaDevMgr :: EnumDeviceInfo**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo) (ou [**IWiaDevMgr2 :: EnumDeviceInfo**](-wia-iwiadevmgr2-enumdeviceinfo.md)) pour énumérer les périphériques WIA (Windows Image Acquisition) installés sur un système. Cette méthode crée un objet d’énumération pour les propriétés des appareils et retourne un pointeur vers l’interface [**IEnumWIA \_ dev \_ info**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) que l’objet d’énumération prend en charge.
+utilisez la méthode [**IWiaDevMgr :: EnumDeviceInfo**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo) (ou [**IWiaDevMgr2 :: EnumDeviceInfo**](-wia-iwiadevmgr2-enumdeviceinfo.md)) pour énumérer les périphériques d’Acquisition d’images Windows (WIA) installés sur un système. Cette méthode crée un objet d’énumération pour les propriétés des appareils et retourne un pointeur vers l’interface [**IEnumWIA \_ dev \_ info**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) que l’objet d’énumération prend en charge.
 
 Vous pouvez ensuite utiliser les méthodes de l’interface [**IEnumWIA \_ dev \_ info**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) pour obtenir un pointeur d’interface [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) pour chaque périphérique installé sur le système.
 

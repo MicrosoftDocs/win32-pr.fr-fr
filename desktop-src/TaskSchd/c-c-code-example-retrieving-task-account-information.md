@@ -7,12 +7,12 @@ keywords:
 - récupération des propriétés de l’élément de travail Planificateur de tâches, informations de compte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1102ce0c2a2a98e66c1ac943eeab0593fe75e189
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce068589ee1284f4c0b655994c9ea13b6fd63affca8146330e93aef12157cb2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738859"
 ---
 # <a name="cc-code-example-retrieving-task-account-information"></a>Exemple de code C/C++ : récupération des informations de compte de tâche
 
@@ -127,9 +127,9 @@ int main(int argc, char **argv)
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

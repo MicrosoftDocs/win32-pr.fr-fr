@@ -3,7 +3,7 @@ title: Structure de MCI_VCR_STEP_PARMS (VCR. h)
 description: La structure de l' \_ \_ étape de magnétoscope MCI contient des \_ paramètres pour la \_ commande d’étape MCI pour les enregistreurs vidéo-cassettes.
 ms.assetid: 57751de6-d174-418f-8167-402d3ead4e24
 keywords:
-- Structure de MCI_VCR_STEP_PARMS Windows multimédia
+- structure MCI_VCR_STEP_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a616b31500a2c814edb3dd443586131ed0ffae7d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f25e79903a694b6537e88d1c58994d1f39ccf958ea95f40f571a267239a055e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783827"
 ---
 # <a name="mci_vcr_step_parms-structure"></a>\_Étape de \_ \_ gestion des magnétoscopes MCI
 
@@ -55,7 +55,7 @@ Nombre de frames à sauter (longueur d’une seule étape) à mesure que la comm
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

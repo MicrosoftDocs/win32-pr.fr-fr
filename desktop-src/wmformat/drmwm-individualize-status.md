@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ef7617fe6dcddf3397ab1a123132e843f0b1461
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c139631fe737e07d011e43920ab63c7394f03c3319abb2f7936153ae06c596ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708299"
 ---
 # <a name="wm_individualize_status-structure-wmdrmsdkh"></a>Structure WM_INDIVIDUALIZE_STATUS (wmdrmsdk. h)
 
@@ -95,7 +95,7 @@ Nombre total d’octets à télécharger. Vous pouvez utiliser cette valeur et *
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est reçue lorsque vous appelez la méthode [**IWMDRMIndividualizationStatus :: GetStatus**](iwmdrmindividualizationstatus-getstatus.md) . Elle contient l’état du processus d’individualisation en attente au moment de l’appel.
 

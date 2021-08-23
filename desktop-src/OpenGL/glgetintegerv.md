@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff54bea162f853338fbd396a823e50164987aa8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7541a6bd759424658726cf7d01b28b30121061d156fcb00d1f1e57443a4cd486
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106543429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741979"
 ---
 # <a name="glgetintegerv-function"></a>glGetIntegerv fonction)
 
@@ -305,7 +305,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction retourne des valeurs pour les variables d’État simples dans OpenGL. Le paramètre *pname* est une constante symbolique indiquant la variable d’État à retourner, et *params* est un pointeur vers un tableau du type indiqué dans lequel placer les données retournées.
 

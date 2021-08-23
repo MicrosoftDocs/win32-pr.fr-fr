@@ -3,13 +3,13 @@ title: Compilation d’une mise à jour de catalogue à partir de catalogues com
 description: Compilation d’une mise à jour de catalogue à partir de catalogues complets
 ms.assetid: 046c0a01-0ad7-41b6-bad5-dcab953a3980
 keywords:
-- Windows Media Player Online stores, compilation des catalogues
+- Lecteur Windows Media des magasins en ligne, compilation de catalogues
 - magasins en ligne, compilation de catalogues
 - types 1 magasins en ligne, compilation des catalogues
-- Windows Media Player Online stores, mises à jour de catalogue
+- Lecteur Windows Media des magasins en ligne, mises à jour de catalogue
 - magasins en ligne, mises à jour de catalogue
 - types 1 magasins en ligne, mises à jour de catalogue
-- Windows Media Player Online stores, catalogues complets
+- Lecteur Windows Media des magasins en ligne, des catalogues complets
 - magasins en ligne, catalogues complets
 - tapez 1 magasins en ligne, catalogues complets
 - compilation des catalogues
@@ -17,12 +17,12 @@ keywords:
 - catalogues complets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abaa6d1bc0d3dbc4fefaffe1498be03259716a5e
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 306412d98f315a6a63aa40974b03a51a388b6db5c9e09c8d5b8907ef2cc15704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763949"
 ---
 # <a name="compiling-a-catalog-update-from-full-catalogs"></a>Compilation d’une mise à jour de catalogue à partir de catalogues complets
 
@@ -60,17 +60,17 @@ Si la compilation réussit, catcomp.exe crée les fichiers de sortie listés ci-
 | Nom de fichier             | Description                                                                                                                                                                                      |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Catalog. diff          | Fichier de différences compilées non compressées.                                                                                                                                                           |
-| Catalog. diff. LZ       | Version compressée du fichier de mise à jour du catalogue. Votre plug-in peut fournir l’emplacement de ce fichier au lecteur Windows Media dans [IWMPContentPartner :: GetCatalogURL](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl). |
-| Catalog. WMDB. Delta    | Fichier de sortie intermédiaire. Non utilisé par le lecteur Windows Media                                                                                                                                       |
-| Catalog. WMDB. modified | Fichier de sortie intermédiaire. Non utilisé par le lecteur Windows Media                                                                                                                                       |
+| Catalog. diff. LZ       | Version compressée du fichier de mise à jour du catalogue. votre plug-in peut fournir l’emplacement de ce fichier à Lecteur Windows Media dans [IWMPContentPartner :: GetCatalogURL](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl). |
+| Catalog. WMDB. Delta    | Fichier de sortie intermédiaire. non utilisé par Lecteur Windows Media                                                                                                                                       |
+| Catalog. WMDB. modified | Fichier de sortie intermédiaire. non utilisé par Lecteur Windows Media                                                                                                                                       |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Nouvelles fonctionnalités et améliorations
 ms.assetid: 79E21170-BC2D-4631-AFAC-12A9F40ECC5D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8163cfb02845dcb0bc3b47b06b0cba505058c655
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 0fa140bd9e9c3d60fc1fa3dfa27dd6a770242f04d3a62057dfae736051d379fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104101056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815069"
 ---
 # <a name="new-features-and-enhancements"></a>Nouvelles fonctionnalités et améliorations
 
@@ -46,9 +46,9 @@ Cette section du document décrit les améliorations et les nouvelles fonctionna
 
 -   Prise en charge de la norme USB 3,0
 
- 
+ 
 
- 
+ 
 
 
 

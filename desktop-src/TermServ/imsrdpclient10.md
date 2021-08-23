@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5992803a04a771aed716251bd25ca2eceb9f94d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 561541f170fbe6dc5342b359e5deae69d0c92469ad2d692ee4ea3b9d59904885
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737239"
 ---
 # <a name="imsrdpclient10-interface"></a>Interface IMsRdpClient10
 
@@ -48,9 +48,9 @@ L’interface **IMsRdpClient10** possède ces méthodes.
 | [**GetStatusText**](imsrdpclient7-getstatustext.md)                               | Récupère le texte d’État pour le code d’état spécifié.<br/>                 |
 | [**GetVirtualChannelOptions**](imsrdpclient-getvirtualchanneloptions.md)          | Récupère les options définies pour un canal virtuel.<br/>                         |
 | [**Reconnexion**](imsrdpclient8-reconnect.md)                                       | Se reconnecte à la session à distance avec la largeur et la hauteur du nouveau bureau.<br/>  |
-| [**RequestClose**](imsrdpclient-requestclose.md)                                  | Demande un arrêt approprié du contrôle ActiveX Bureau à distance.<br/>      |
+| [**RequestClose**](imsrdpclient-requestclose.md)                                  | demande un arrêt approprié du contrôle de Bureau à distance ActiveX.<br/>      |
 | [**SendRemoteAction**](imsrdpclient8-sendremoteaction.md)                         | Entraîne l’exécution d’une action dans la session à distance.<br/>                  |
-| [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)          | Définit les options de canal virtuel pour le contrôle ActiveX Bureau à distance.<br/> |
+| [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)          | définit les options de canal virtuel pour le contrôle de ActiveX Bureau à distance.<br/> |
 | [**SyncSessionDisplaySettings**](imsrdpclient9-syncsessiondisplaysettings.md)     | Synchronise les paramètres d’affichage de la session.<br/>                                   |
 | [**UpdateSessionDisplaySettings**](/previous-versions/windows/desktop/legacy/mt703457(v=vs.85)) | Met à jour les paramètres d’affichage de la session.<br/>                                        |
 
@@ -77,7 +77,7 @@ L’interface **IMsRdpClient10** possède les propriétés suivantes.
 | [**La**](imsrdpclient-colordepth.md)<br/>                             | Lecture/écriture<br/> | Profondeur de couleur (en bits par pixel) de la connexion du contrôle.<br/>                                                                                                                               |
 | [**ConnectedStatusText**](imsrdpclient2-connectedstatustext.md)<br/>          | Lecture/écriture<br/> | Contient le texte affiché dans la zone cliente du contrôle pendant que le contrôle est dans l’état connecté.<br/>                                                                              |
 | [**ExtendedDisconnectReason**](imsrdpclient-extendeddisconnectreason.md)<br/> | Lecture seule<br/>  | Contient des informations étendues sur la raison de la déconnexion du contrôle.<br/>                                                                                                                     |
-| [**FullScreen**](imsrdpclient-fullscreen.md)<br/>                             | Lecture/écriture<br/> | Détermine si le contrôle client est en mode plein écran.<br/>                                                                                                                                   |
+| [**Large**](imsrdpclient-fullscreen.md)<br/>                             | Lecture/écriture<br/> | Détermine si le contrôle client est en mode plein écran.<br/>                                                                                                                                   |
 | [**MsRdpClientShell**](imsrdpclient5-msrdpclientshell.md)<br/>                | Lecture seule<br/>  | Récupère l’interface de paramètre client scriptable [**IMsRdpClientShell**](imsrdpclientshell.md).<br/>                                                                                               |
 | [**RemoteProgram**](imsrdpclient5-remoteprogram.md)<br/>                      | Lecture seule<br/>  | Récupère un objet qui prend en charge l’interface [**ITSRemoteProgram**](itsremoteprogram.md) .<br/>                                                                                                   |
 | [**RemoteProgram2**](imsrdpclient7-remoteprogram2.md)<br/>                    | Lecture seule<br/>  | Récupère un objet qui prend en charge l’interface [**ITSRemoteProgram2**](itsremoteprogram2.md) .<br/>                                                                                                 |
@@ -93,7 +93,7 @@ L’interface **IMsRdpClient10** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
@@ -103,7 +103,7 @@ Pour plus d’informations sur la Connexion Bureau à distance par le Web, consu
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                                                                                                              |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                                                                                                              |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                                                                                                           |
 | Bibliothèque de types<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                   |

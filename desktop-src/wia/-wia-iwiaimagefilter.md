@@ -1,5 +1,5 @@
 ---
-description: L’interface IWiaImageFilter est une interface d’extension implémentée par les développeurs de filtre de traitement d’image et appelée par WIA (Windows Image Acquisition) 2,0.
+description: l’interface IWiaImageFilter est une interface d’extension implémentée par les développeurs de filtre de traitement d’image et appelée par Windows acquisition d’images (WIA) 2,0.
 ms.assetid: 2abe913b-bb2b-486d-a3f4-d5932433fc82
 title: Interface IWiaImageFilter (WIA. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 8d859b79d15db627bb09cb60f758791a8b5860f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7c85a25d7478e0ad51a1d427e74b69a743bc4203ed57b8929a3e4ec856d94b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813979"
 ---
 # <a name="iwiaimagefilter-interface"></a>Interface IWiaImageFilter
 
-L’interface **IWiaImageFilter** est une interface d’extension implémentée par les développeurs de filtre de traitement d’image et appelée par WIA (Windows Image Acquisition) 2,0.
+l’interface **IWiaImageFilter** est une interface d’extension implémentée par les développeurs de filtre de traitement d’image et appelée par Windows acquisition d’images (WIA) 2,0.
 
 ## <a name="members"></a>Membres
 
@@ -47,7 +47,7 @@ L’interface **IWiaImageFilter** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les développeurs de filtres de traitement d’images doivent implémenter cette interface et l’interface [**IWiaTransferCallback**](-wia-iwiatransfercallback.md) .
 
@@ -95,8 +95,8 @@ L’interface **IWiaImageFilter** , comme toutes les interfaces COM (Component O
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

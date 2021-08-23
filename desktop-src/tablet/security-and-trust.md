@@ -4,12 +4,12 @@ ms.assetid: 37fa870a-6f38-44ae-943e-27697f6b9fba
 title: Sécurité et confiance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4e3039f8aa93c2ae563a918177462cd09a217af
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 99806fa3256dfd08d8f4a14c70620c767331fb3cb95b83a7ecd6940b04c155cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106524762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708199"
 ---
 # <a name="security-and-trust"></a>Sécurité et confiance
 
@@ -61,7 +61,7 @@ Le tableau suivant répertorie les classes et les membres qui requièrent des au
  
 
 > [!Note]  
-> Les propriétés [InkCollector. handle](/previous-versions/ms836504(v=msdn.10)) et [InkOverlay. handle](/previous-versions/ms833109(v=msdn.10)) n’ont pas besoin de l’autorisation [SecurityPermissionFlag. UnmanagedCode](/previous-versions/windows/) si le handle est destiné à un contrôle Windows Forms, mais pour d’autres fenêtres.
+> les propriétés [InkCollector. handle](/previous-versions/ms836504(v=msdn.10)) et [InkOverlay. handle](/previous-versions/ms833109(v=msdn.10)) n’ont pas besoin de l’autorisation [SecurityPermissionFlag. UnmanagedCode](/previous-versions/windows/) si le handle est destiné à un contrôle Windows Forms, mais pour d’autres fenêtres.
 
  
 
@@ -75,7 +75,7 @@ Le tableau suivant répertorie les classes et les membres qui requièrent des au
 D’autres considérations de sécurité connues sont les suivantes :
 
 -   Microsoft Internet Explorer 6 ou version ultérieure est requis pour que les contrôles Web fonctionnent correctement. Avec Internet Explorer 5,5, seuls les contrôles managés initiaux sont chargés. vous ne pouvez pas charger dynamiquement des contrôles supplémentaires au moment de l’exécution.
--   Si vous utilisez Windows XP Service Pack 2 (SP2) et CLR 1.0, les contrôles Web dans Internet Explorer nécessitent l’ajout du site en tant que site de confiance, même s’ils se trouvent dans la zone intranet. Toutefois, dans ce cas, ils ne s’exécuteront plus dans la zone de sites de confiance, bien qu’ils soient exécutés dans la zone intranet. Ce problème est résolu avec CLR 1.1.
+-   si vous utilisez Windows XP Service Pack 2 (SP2) et clr 1.0, les contrôles Web dans Internet Explorer nécessitent l’ajout du site en tant que site de confiance, même s’ils se trouvent dans la zone Intranet. Toutefois, dans ce cas, ils ne s’exécuteront plus dans la zone de sites de confiance, bien qu’ils soient exécutés dans la zone intranet. Ce problème est résolu avec CLR 1.1.
 
  
 

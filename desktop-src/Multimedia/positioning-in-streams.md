@@ -1,6 +1,6 @@
 ---
-title: Positionner dans les flux
-description: Positionner dans les flux
+title: Positionner dans Flux
+description: Positionner dans Flux
 ms.assetid: 97ab491d-1a58-4b4b-a13a-215be24dac1c
 keywords:
 - AVIStreamStart fonction)
@@ -8,14 +8,14 @@ keywords:
 - AVIStreamSampleToTime fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5252aa938d32c323da9fcf7ae106d11db0ff2fb4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0528fea9ea10e28a418d253bd1abe6c599a952fe95a8c8f6c86807abe0e41159
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805859"
 ---
-# <a name="positioning-in-streams"></a>Positionner dans les flux
+# <a name="positioning-in-streams"></a>Positionner dans Flux
 
 AVIFile offre plusieurs moyens de rechercher et de déplacer vers une position dans un flux de données. Les fonctions et les macros de cette section permettent à votre application de rechercher la position de départ, la longueur et les images clés (contenant une image complète dans l’exemple) dans un flux. Les fonctions et les macros associent également le temps à des positions dans un flux en calculant le temps écoulé nécessaire pour lire un flux de son début à n’importe quel point dans un flux.
 
@@ -32,7 +32,7 @@ Dans un flux audio, chaque exemple correspond à un bloc de données de données
 > [!Note]  
 > Positions valides dans une plage de flux depuis le début jusqu’à la fin du flux, qui est la somme du point de départ du flux et de sa longueur. La position représentée par la somme de la position de départ et de la longueur correspond à une heure après le rendu des dernières données ; il ne contient aucune donnée. Vous pouvez récupérer l’exemple de numéro qui représente la fin du flux à l’aide de la macro [**AVIStreamEnd**](/windows/desktop/api/Vfw/nf-vfw-avistreamend) . Vous pouvez récupérer la valeur de temps en millisecondes qui représente la fin du flux à l’aide de la macro [**AVIStreamEndTime**](/windows/desktop/api/Vfw/nf-vfw-avistreamendtime) .
 
- 
+ 
 
 ## <a name="finding-sample-and-key-frames"></a>Recherche d’exemples et d’images clés
 
@@ -61,7 +61,7 @@ Plusieurs macros qui utilisent des fonctions AVIFile complètent les fonctionnal
 
 
 
- 
+ 
 
 ## <a name="switching-between-samples-and-time"></a>Basculement entre les exemples et l’heure
 
@@ -71,9 +71,9 @@ Vous pouvez déterminer le temps écoulé entre le début d’un flux et un exem
 
 Étant donné que **AVIStreamSampleToTime** retourne l’heure de début de la lecture d’une image, la relation entre **AVIStreamSampleToTime** et **AVIStreamTimeToSample** n’est pas véritablement inverse. Elles déterminent la position dans un fichier plus acurately qu’elles ne déterminent l’heure. Par exemple, deux échantillons audio consécutifs peuvent être lus dans la même milliseconde. L’utilisation de **AVIStreamSampleToTime** pour convertir les exemples de nombres donne des valeurs de temps identiques. Si vous reconvertissez la valeur d’heure en un nombre d’échantillons à l’aide de **AVIStreamTimeToSample**, un seul échantillon est référencé.
 
- 
+ 
 
- 
+ 
 
 
 

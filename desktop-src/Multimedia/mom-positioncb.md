@@ -3,7 +3,7 @@ title: Message MOM_POSITIONCB (mmsystem. h)
 description: Le \_ message de position MOM est envoyé lorsqu’un \_ \_ événement de rappel MEVT F est atteint dans le flux de sortie MIDI.
 ms.assetid: 0464d74d-7d1f-4aab-a9e7-03397872f3c0
 keywords:
-- Message MOM_POSITIONCB Windows Multimedia
+- message MOM_POSITIONCB Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e5c9528e8f91778c53ed4761c98bb67d405ec14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d403d9d913628f6b00a7b36dba96d0f4d491f486ef9c3edf7a5c3d5a30c345f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806999"
 ---
 # <a name="mom_positioncb-message"></a>\_Message MOM POSITIONCB
 
@@ -47,7 +47,7 @@ Non utilisé.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La lecture de la mémoire tampon de flux continue même pendant l’exécution de la fonction de rappel. Les événements qui se trouvent après l’événement de **\_ \_ rappel MEVT F** dans la mémoire tampon sont planifiés et envoyés à temps, quel que soit le temps passé dans la fonction de rappel.
 
@@ -61,7 +61,7 @@ Si les rappels de position sont générés plus rapidement que votre application
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

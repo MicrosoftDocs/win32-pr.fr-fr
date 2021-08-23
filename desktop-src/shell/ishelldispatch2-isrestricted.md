@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: b4f482407fadd16d7ecfe9deeafd91b032a9a24f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 73bbaaefbe12e178a8ef5818665f97d29cc105e45c20c010a6c02254ab897b11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710379"
 ---
 # <a name="ishelldispatch2isrestricted-method"></a>Méthode IShellDispatch2. IsRestricted
 
@@ -69,7 +69,7 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -83,7 +83,7 @@ Type : **entier \***
 
 Valeur de la restriction. Si la restriction spécifiée est introuvable, la valeur de retour est 0.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. IsRestricted**](./shell-isrestricted.md) .
 
@@ -104,9 +104,9 @@ Cette méthode n’est pas disponible actuellement dans Microsoft Visual Basic.
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation de **IsRestricted** pour récupérer la valeur de données de la restriction **undockwithoutlogon** à partir de la sous-clé **système** . L’utilisation est indiquée pour JScript et VBScript.
+Les exemples suivants illustrent l’utilisation de **IsRestricted** pour récupérer la valeur de données de la restriction **undockwithoutlogon** à partir de la sous-clé **système** . l’utilisation est indiquée pour JScript et VBScript.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -151,8 +151,8 @@ VBScript
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

@@ -3,9 +3,9 @@ title: Méthode ClosedCaption. getSAMILangID
 description: La méthode getSAMILangID récupère l’identificateur de paramètres régionaux (LCID) d’une langue prise en charge par le fichier SAMI actuel.
 ms.assetid: 35f8379a-a2f5-4b22-b1ad-3c5cc5bc5e3d
 keywords:
-- méthode getSAMILangID lecteur Windows Media
-- méthode getSAMILangID lecteur Windows Media, classe ClosedCaption
-- Classe ClosedCaption lecteur Windows Media, méthode getSAMILangID
+- Lecteur Windows Media de la méthode getSAMILangID
+- méthode getSAMILangID Lecteur Windows Media, classe ClosedCaption
+- Lecteur Windows Media de la classe ClosedCaption, méthode getSAMILangID
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cd543c9cb9d884022d78a875a2f8de078c479b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7317bff13b0dcf29157e4a31c1b854fff781d93460633b64485670fab64e6f1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764039"
 ---
 # <a name="closedcaptiongetsamilangid-method"></a>Méthode ClosedCaption. getSAMILangID
 
@@ -53,7 +53,7 @@ retVal = ClosedCaption.getSAMILangID(
 
 Cette méthode retourne un **nombre** (**long**) contenant le LCID de la langue avec l’index spécifié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les langues d’un fichier SAMI sont indexées dans l’ordre indiqué dans le fichier, à partir de zéro.
 

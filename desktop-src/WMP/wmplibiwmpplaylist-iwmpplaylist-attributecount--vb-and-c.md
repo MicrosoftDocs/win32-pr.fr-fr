@@ -3,9 +3,9 @@ title: IWMPPlaylist propriété attributeCount
 description: La propriété attributeCount obtient le nombre d’attributs associés à une sélection.
 ms.assetid: 0713ec4e-7e06-4ad2-8f7c-17ed5a92d5ee
 keywords:
-- propriété attributeCount lecteur Windows Media
-- propriété attributeCount lecteur Windows Media, interface IWMPPlaylist
-- Interface IWMPPlaylist lecteur Windows Media, propriété attributeCount
+- Lecteur Windows Media de la propriété attributeCount
+- Lecteur Windows Media de la propriété attributeCount, interface IWMPPlaylist
+- Lecteur Windows Media de l’interface IWMPPlaylist, propriété attributeCount
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4107eb1ad302415715b573b55d2dee1d7155128d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6b51c621f5a484c23a2f7d0677fe20d1b62bfb4d2ec94228e003adc2ebc841cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760769"
 ---
 # <a name="iwmpplaylistattributecount-property"></a>IWMPPlaylist :: attributeCount, propriété
 
@@ -48,13 +48,13 @@ Public ReadOnly Property attributeCount As System.Int32
 
 **System. Int32** qui correspond au nombre d’attributs associés à la sélection.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Étant donné que les sélections peuvent provenir de nombreuses sources différentes, elles peuvent avoir plusieurs ensembles différents d’attributs. Cette propriété obtient le nombre total d’attributs associés à une sélection particulière afin que d’autres membres de l’interface **IWMPPlaylist** puissent y accéder.
 
 Avant d’utiliser cette propriété, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence des attributs](attribute-reference.md).
+pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
 
 ## <a name="examples"></a>Exemples
 

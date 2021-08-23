@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 4d11a0efac2086884e984edae986720ef704cf81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e6c4abe859cd4c307d8ade586b9371b69b5c171681006cf4aa1634ef815d794
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106530828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743899"
 ---
 # <a name="getframemacheaderlength-function"></a>GetFrameMacHeaderLength fonction)
 
@@ -52,7 +52,7 @@ Si la fonction réussit, la valeur de retour est la longueur en octets de l’en
 
 Si la fonction échoue, ou si un type MAC inconnu est rencontré, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **GetFrameMacHeaderLength** .
 

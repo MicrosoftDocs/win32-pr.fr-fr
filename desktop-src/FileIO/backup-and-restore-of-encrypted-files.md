@@ -4,12 +4,12 @@ ms.assetid: 00f9b00e-305d-4554-8b43-7061228c92c3
 title: Sauvegarde et restauration de fichiers chiffrés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fbc5d1babbbbb92cef9e78f9a0dade702fd63d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34308dbfc0f67a1fcf9a70f1f7a5878434018494fa1450d308fa493af78226ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766179"
 ---
 # <a name="backup-and-restore-of-encrypted-files"></a>Sauvegarde et restauration de fichiers chiffrés
 

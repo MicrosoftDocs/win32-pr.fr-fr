@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faf90cb9567822ef578bdf01805648a2dabd02db
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5d642b0d253abca4ea7c5f224353f5544b5307df5237e958c32e37b98ff2e01f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103869785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741995"
 ---
 # <a name="glgetlightfv-function"></a>glGetLightfv fonction)
 
@@ -86,7 +86,7 @@ Retourne les données demandées.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGetLight** retourne dans *params* la ou les valeurs d’un paramètre de source lumineuse. Le paramètre *Light* nomme la lumière et est un nom symbolique de la forme GL \_ Light *i* pour 0 = *i* < \_ lumières Max GL \_ , où les \_ lumières Max GL \_ sont une constante dépendante de l’implémentation supérieure ou égale à huit. Le paramètre *pname* spécifie l’un des dix paramètres de la source lumineuse, à nouveau par le nom symbolique.
 

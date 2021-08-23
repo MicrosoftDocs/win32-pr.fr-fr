@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1731afc6d58cede5da055da8cacaf11c8712d3c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18fcbdb3acd6dab33ab6adbaa6a4f94030e394252f30ebed171e4f37d7fbd2ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796339"
 ---
 # <a name="imsrdpclientadvancedsettingsperformanceflags-property"></a>IMsRdpClientAdvancedSettings ::P propriété erformanceFlags
 
@@ -224,7 +224,7 @@ Réservé et utilisé en interne par le client.
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

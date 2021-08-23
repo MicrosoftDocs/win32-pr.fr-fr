@@ -1,5 +1,5 @@
 ---
-description: Représente un service sur un système informatique exécutant Windows.
+description: Représente un service sur un système d’ordinateur exécutant Windows.
 ms.assetid: 713402d3-ee73-4a6c-afb9-ad8033a4c580
 ms.tgt_platform: multiple
 title: Classe Win32_Service
@@ -40,12 +40,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b342282bfa3b49fe72e62cf79377a0ead11276eb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a33265b3dfc3b114d55b381a229b717e291bbd258716e8305d9995282d29b3f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759259"
 ---
 # <a name="win32_service-class"></a>\_Classe de service Win32
 
@@ -103,10 +103,10 @@ La classe de **\_ service Win32** possède ces méthodes.
 
 | Méthode                                                                               | Description                                                                                          |
 |:-------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
-| [**Modifiés**](change-method-in-class-win32-service.md)                               | Modifie un service.<br/>                                                                       |
+| [**Modifier**](change-method-in-class-win32-service.md)                               | Modifie un service.<br/>                                                                       |
 | [**ChangeStartMode**](changestartmode-method-in-class-win32-service.md)             | Modifie le mode de démarrage d’un service.<br/>                                                     |
-| [**Créés**](create-method-in-class-win32-service.md)                               | Crée un nouveau service.<br/>                                                                    |
-| [**Supprimer**](delete-method-in-class-win32-service.md)                               | Supprime un service existant.<br/>                                                              |
+| [**Créer**](create-method-in-class-win32-service.md)                               | Crée un nouveau service.<br/>                                                                    |
+| [**DELETE**](delete-method-in-class-win32-service.md)                               | Supprime un service existant.<br/>                                                              |
 | [**GetSecurityDescriptor**](getsecuritydescriptor-method-in-class-win32-service.md) | Retourne le descripteur de sécurité qui contrôle l’accès au service.<br/>                      |
 | [**InterrogateService**](interrogateservice-method-in-class-win32-service.md)       | Demande qu’un service met à jour son état dans Service Manager.<br/>                          |
 | [**PauseService**](pauseservice-method-in-class-win32-service.md)                   | Tente de placer un service dans l’état suspendu.<br/>                                          |
@@ -228,7 +228,7 @@ Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« wi
 
 Si la **valeur est true**, le service est démarré après le démarrage d’autres services à démarrage automatique, plus un bref délai.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
 
 </dd> <dt>
 
@@ -377,7 +377,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| service structures \| [**\_ Status service**](/windows/win32/api/winsvc/ns-winsvc-service_status) \| dwWin32ExitCode"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("code de sortie")
 </dt> </dl>
 
-Code d’erreur Windows qui définit les erreurs rencontrées lors du démarrage ou de l’arrêt du service. Cette propriété est définie sur **erreur \_ spécifique au service \_ \_** (1066) lorsque l’erreur est unique pour le service représenté par cette classe, et les informations sur l’erreur sont disponibles dans la propriété **ServiceSpecificExitCode** . Le service définit cette valeur sur **aucune \_ erreur** lors de l’exécution, et à nouveau sur fin normale.
+Windows code d’erreur qui définit les erreurs rencontrées lors du démarrage ou de l’arrêt du service. Cette propriété est définie sur **erreur \_ spécifique au service \_ \_** (1066) lorsque l’erreur est unique pour le service représenté par cette classe, et les informations sur l’erreur sont disponibles dans la propriété **ServiceSpecificExitCode** . Le service définit cette valeur sur **aucune \_ erreur** lors de l’exécution, et à nouveau sur fin normale.
 
 Cette propriété est héritée de [**Win32 \_ BaseService**](win32-baseservice.md).
 
@@ -546,7 +546,7 @@ Cette propriété est héritée de [**Win32 \_ BaseService**](win32-baseservice.
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -576,7 +576,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**DisplayName**](../wmisdk/standard-qualifiers.md) (« mode de démarrage »)
 </dt> </dl>
 
-Mode de démarrage du service de base Windows.
+mode de démarrage du service de base Windows.
 
 <dt>
 
@@ -733,7 +733,7 @@ Les valeurs sont :
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2008 et Windows Vista :** Cette propriété est en lecture seule avant Windows 7 et Windows Server 2008 R2.
+**Windows Server 2008 et Windows Vista :** cette propriété est en lecture seule avant Windows 7 et Windows Server 2008 R2.
 
 Cette propriété est héritée de [**Win32 \_ BaseService**](win32-baseservice.md).
 
@@ -919,17 +919,17 @@ Durée estimée, en millisecondes, pour une opération de démarrage, d’arrêt
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ service Win32** est dérivée de [**Win32 \_ BaseService**](win32-baseservice.md).
 
 La façon dont vous gérez un ordinateur spécifique dépend beaucoup du rôle joué par l’ordinateur. Par exemple, vous surveillez généralement les différents aspects d’un serveur DNS par rapport à un serveur DHCP. Bien qu’aucune propriété unique ne vous indique si un ordinateur particulier est un serveur de base de données, un serveur de messagerie ou un serveur multimédia, vous pouvez souvent identifier le rôle joué par un ordinateur en identifiant les services installés sur celui-ci.
 
-Dans les grandes organisations, un seul des principaux services (tels que le courrier électronique) est susceptible d’être installé sur un seul ordinateur. Il serait rare qu’un serveur de messagerie s’exécute également en tant que serveur pour Microsoft® les fichiers du lecteur Windows Media® Technologies. Pour cette raison, l’identification d’un service installé sur un ordinateur peut aider à identifier le rôle de l’ordinateur sur le réseau. Si le service Microsoft® Exchange Server est installé et en cours d’exécution sur un ordinateur, il est généralement possible de supposer que cet ordinateur fonctionne comme un serveur de messagerie.
+Dans les grandes organisations, un seul des principaux services (tels que le courrier électronique) est susceptible d’être installé sur un seul ordinateur. il serait rare pour un serveur de messagerie de s’exécuter également en tant que serveur pour les fichiers du lecteur Microsoft® Windows media® technologies. Pour cette raison, l’identification d’un service installé sur un ordinateur peut aider à identifier le rôle de l’ordinateur sur le réseau. si le service Microsoft® Exchange Server est installé et en cours d’exécution sur un ordinateur, il est généralement possible de supposer que cet ordinateur fonctionne comme un serveur de messagerie.
 
 Vous pouvez utiliser la classe WMI **Win32 \_ service** pour énumérer les services installés sur un ordinateur. En outre, vous pouvez utiliser cette classe pour déterminer si ces services sont en cours d’exécution et pour retourner toutes les autres informations requises sur ce service et la manière dont il a été configuré.
 
-Une application de service est conforme aux règles d’interface du gestionnaire de contrôle des services (SCM) et peut être démarrée automatiquement par un utilisateur au démarrage du système via l’utilitaire du panneau de configuration des services ou par une application qui utilise les fonctions de service incluses dans l’API Windows. Les services peuvent démarrer quand aucun utilisateur n’est connecté à l’ordinateur.
+une application de service est conforme aux règles d’interface du gestionnaire de contrôle des services (SCM) et peut être démarrée automatiquement par un utilisateur au démarrage du système via l’utilitaire du panneau de configuration des Services ou par une application qui utilise les fonctions de service incluses dans l’API Windows. Les services peuvent démarrer quand aucun utilisateur n’est connecté à l’ordinateur.
 
 Un utilisateur qui se connecte à partir d’un ordinateur distant doit disposer du privilège de **\_ \_ connexion SC Manager** pour pouvoir énumérer cette classe. Pour plus d’informations, consultez [sécurité des services et droits d’accès](../services/service-security-and-access-rights.md).
 

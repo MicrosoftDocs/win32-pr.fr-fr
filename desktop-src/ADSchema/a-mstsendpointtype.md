@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9797016cb3bb74b16511c2e73f72d6224f88e276
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fb4e90e8bacb71a5a82b64dcc3d66a3cfb50746be3d45ad7480724aaa325c199
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802699"
 ---
 # <a name="ms-ts-endpoint-type-attribute"></a>attribut ms-TS-Endpoint-type
 
@@ -36,7 +36,7 @@ Cet attribut définit si l’ordinateur est un ordinateur physique ou une machin
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2071              |
 | System-ID-GUID    | 377ade80-e2d8-46c5-9bcd-6d9dec93b35e |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

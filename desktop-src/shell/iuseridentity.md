@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 068d806086aff44db172a4a7b09f55b600204478
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: f7e721f60198791e530300d5181abaa84e96c1a04f285972314ab866dd86215f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713779"
 ---
 # <a name="iuseridentity-interface"></a>Interface IUserIdentity
 
@@ -49,11 +49,11 @@ L’interface **IUserIdentity** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface fournit des informations qui correspondent à une identité d’utilisateur spécifique présente sur le système. Vous pouvez accéder au dossier d’identité de l’identité de cet utilisateur, à sa clé de Registre et à son cookie d’identification, ainsi qu’à récupérer le nom associé à l’identité de l’utilisateur.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

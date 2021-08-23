@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: 9bfa8e87736412822c1a70f75b129aeec30af20e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 040bcc6bcc5e4e8a7126c5ef7d0a72dbb688a6e5605512ff67527c21bfaa3026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813859"
 ---
 # <a name="iwiauiextensiongetdeviceicon-method"></a>IWiaUIExtension :: GetDeviceIcon, méthode
 
@@ -68,7 +68,7 @@ Spécifie la taille d’icône souhaitée, en pixels. L’icône est supposée �
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **HRESULT**
 
@@ -80,8 +80,8 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Wiadevd. h</dt> </dl> |
 
 

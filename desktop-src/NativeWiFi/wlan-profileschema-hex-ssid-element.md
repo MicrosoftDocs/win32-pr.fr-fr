@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 6bc214f50788fdc6965a1ce429c5c2919846cf72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 666562f7a476505dbb0ff23d5354e0f073505d9dd5195bcae17543294cc5f176
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106540822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799889"
 ---
 # <a name="hex-ssid-element"></a>Élément hex (SSID)
 
@@ -44,7 +44,7 @@ L’élément hex (SSID) contient le SSID d’un réseau local sans fil au forma
 
 L’élément est défini par l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que les éléments **Hex** et [**Name**](wlan-profileschema-name-ssid-element.md) soient facultatifs, au moins un élément **Hex** ou [**Name**](wlan-profileschema-name-ssid-element.md) doit apparaître en tant qu’enfant de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) .
 
@@ -63,7 +63,7 @@ Pour afficher un exemple de profil qui utilise l’élément **Hex** , consultez
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

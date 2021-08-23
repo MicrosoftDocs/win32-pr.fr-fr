@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e104857725849dfeb899b449ea055bc3cdb046bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f25a79fbf3ec508526f8107b55ad70c37b860ca99115945f9ee9f77b84ab138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755389"
 ---
 # <a name="ibackgroundcopyjobgetnotifyflags-method"></a>Méthode ibackgroundcopyjob :: GetNotifyFlags, méthode
 
@@ -83,8 +83,8 @@ Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

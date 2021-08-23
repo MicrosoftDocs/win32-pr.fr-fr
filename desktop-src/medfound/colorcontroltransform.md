@@ -4,12 +4,12 @@ ms.assetid: 738c1f0c-8417-4b12-a7f1-9bbf3c7e9dd3
 title: Transformation de contrôle de couleur DSP (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b94c8314bfd2be85a3bbc392bfa0e83767ff0b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c51321a8ffd725306f570619b9bcbe70fe7160e784358ce265157145b40347e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606209"
 ---
 # <a name="color-control-transform-dsp"></a>Transformation de contrôle de couleur DSP
 
@@ -43,7 +43,7 @@ CLSID \_ CColorControlDmo
 -   [\_teinte de couleur MFPKEY \_](mfpkey-color-hue.md)
 -   [SATURATION de la \_ couleur MFPKEY \_](mfpkey-color-saturation.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce DSP modifie le contenu du flux vidéo. Pour la lecture, vous pourrez peut-être obtenir des effets similaires plus efficacement à l’aide de l’interface **IMFVideoProcessor** , qui contrôle le traitement vidéo dans la carte graphique.
 
@@ -53,8 +53,8 @@ Ce DSP modifie le contenu du flux vidéo. Pour la lecture, vous pourrez peut-êt
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mfvdsp.dll</dt> </dl>   |
 

@@ -1,24 +1,24 @@
 ---
-description: Utilisez les méthodes de l’interface IWiaDataTransfer pour transférer des données d’un appareil WIA (Windows Image Acquisition) 1,0 vers une application.
+description: utilisez les méthodes de l’interface IWiaDataTransfer pour transférer des données à partir d’un appareil WIA (Windows Image Acquisition) 1,0 vers une application.
 ms.assetid: 67fbf3d9-6965-4464-b04c-10989b2fd55d
 title: Transfert de données d’image dans WIA 1,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00fc7ff76576b6c140358f9af3a0f9d17d4b180e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5e2c1dfce551f105b0df1627f11e9b4ccb7ee8a420e395f3fd0cc1ba932f136
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813669"
 ---
 # <a name="transferring-image-data-in-wia-10"></a>Transfert de données d’image dans WIA 1,0
 
 > [!Note]  
-> Ce didacticiel concerne le transfert de données d’image dans des applications qui exécutent Windows XP ou une version antérieure. Pour plus d’informations sur le transfert de données d’image dans les applications qui s’exécuteront sur Windows Vista ou version ultérieure, consultez [transfert de données d’image dans WIA 2,0](-wia-transferring-image-data-in-wia2.md) .
+> ce didacticiel concerne le transfert de données d’image dans des applications qui s’exécutent Windows XP ou une version antérieure. consultez [transfert de données d’image dans WIA 2,0](-wia-transferring-image-data-in-wia2.md) pour plus d’informations sur le transfert de données d’image dans des applications qui s’exécuteront sur Windows Vista ou version ultérieure.
 
  
 
-Utilisez les méthodes de l’interface [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) pour transférer des données d’un appareil WIA (Windows Image Acquisition) 1,0 vers une application. Cette interface prend en charge une fenêtre de mémoire partagée pour transférer des données de l’objet appareil à l’application et éliminer les copies de données inutiles pendant le marshaling.
+utilisez les méthodes de l’interface [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) pour transférer des données à partir d’un appareil WIA (Windows Image Acquisition) 1,0 vers une application. Cette interface prend en charge une fenêtre de mémoire partagée pour transférer des données de l’objet appareil à l’application et éliminer les copies de données inutiles pendant le marshaling.
 
 Les applications doivent interroger un élément image pour obtenir un pointeur vers son interface [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) , comme dans l’exemple de code suivant :
 

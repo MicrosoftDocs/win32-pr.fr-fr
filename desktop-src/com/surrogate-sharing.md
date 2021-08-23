@@ -4,12 +4,12 @@ description: Les serveurs DLL partagent un substitut s’ils ont des identités 
 ms.assetid: 88544be1-4716-47b6-9c08-2b5b2b178e1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f6a934f03d42113cf73df4f059ac108801d21ea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34e159fff59144773633cfbe35bb1486e9eeb1014d02e23e0c9b95bcd817bb53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678409"
 ---
 # <a name="surrogate-sharing"></a>Partage de substitution
 
@@ -52,9 +52,9 @@ Les deux CLSID des composants DLL comp1.dll et comp2.dll ont été configurés p
 [Inscription du serveur DLL pour l’activation du remplacement](registering-the-dll-server-for-surrogate-activation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

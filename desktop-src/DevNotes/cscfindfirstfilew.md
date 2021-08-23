@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cscmig.dll
-ms.openlocfilehash: f8cad9caf78b44f40a4126307db6deb0f71dfd1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7289fb19a0062ce66212927bbe3e77c9e90c54ceb1980f83265000cc228e27ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833409"
 ---
 # <a name="cscfindfirstfilew-function"></a>CSCFindFirstFileW fonction)
 
@@ -107,7 +107,7 @@ Si la fonction est réussie, la valeur de retour est un handle de recherche util
 
 Si la fonction échoue, la valeur de retour est **INVALID\_HANDLE\_VALUE**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

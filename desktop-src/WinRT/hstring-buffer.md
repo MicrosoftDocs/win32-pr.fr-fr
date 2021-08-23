@@ -4,12 +4,12 @@ ms.assetid: D173CE70-ABF3-4703-A229-0753F2AF6F70
 title: HSTRING_BUFFER (hstring. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d70b961d442739e084e3b17d5666653c103cc35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f115ca18b4bf5b81bbd7004259aa525517c05a3adc0f6376f7d16df3e3ce679
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733819"
 ---
 # <a name="hstring_buffer"></a>\_mémoire tampon HSTRING
 
@@ -22,7 +22,7 @@ typedef HANDLE HSTRING_BUFFER;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **HSTRING \_ BUFFER** représente une mémoire tampon de chaîne que vous pouvez modifier avant de la convertir en [**HSTRING**](hstring.md)immuable.
 

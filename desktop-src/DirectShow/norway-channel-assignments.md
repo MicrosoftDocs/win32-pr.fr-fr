@@ -4,12 +4,12 @@ ms.assetid: 5c274035-79aa-4967-9c1a-79f888fed71e
 title: Affectations de canal en Norvège
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1911f4212b49784354f36377832af58bf4c46121
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bc95f6531e02bf1c4eec3e736c78d81f0aafabdada32256ab3e22c50072a9619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684579"
 ---
 # <a name="norway-channel-assignments"></a>Affectations de canal en Norvège
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 ## <a name="cable-assignments"></a>Attributions de câble
 

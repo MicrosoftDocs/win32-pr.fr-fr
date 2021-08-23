@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f878cb0e616cb710a33d350df866160fc0eebb83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c784fc9fac067c0cde07ad3e8911f9e09cd81b5cd3d7c76c16b1dd2407536838
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694958"
 ---
 # <a name="cim_metricservicecapabilities-class"></a>\_Classe CIM MetricServiceCapabilities
 
@@ -67,7 +67,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ MetricServiceCapabilities**.**ManagedElementControlTypes**")
 </dt> </dl>
 
-Tableau qui contient les identificateurs des instances [**CIM \_ propriété ManagedElement**](cim-managedelement.md) contrôlées par le service de métrique. Les identificateurs doivent être mis en forme comme des URI WBEM (Web-Based Enterprise Management). Pour pouvoir utiliser cette propriété, le service de métriques doit prendre en charge l’activation ou la désactivation d’au moins une métrique définie pour l’instance **CIM \_ propriété ManagedElement** .
+Tableau qui contient les identificateurs des instances [**CIM \_ propriété ManagedElement**](cim-managedelement.md) contrôlées par le service de métrique. les identificateurs doivent être mis en forme en tant qu’uri Web-Based Enterprise Management (WBEM). Pour pouvoir utiliser cette propriété, le service de métriques doit prendre en charge l’activation ou la désactivation d’au moins une métrique définie pour l’instance **CIM \_ propriété ManagedElement** .
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ MetricServiceCapabilities**.**MetricControlTypes**")
 </dt> </dl>
 
-Tableau qui contient les identificateurs de l' [**\_ BaseMetricDefinition CIM**](cim-basemetricdefinition.md) qui définit les métriques gérées par le service de métrique. Les identificateurs doivent être mis en forme comme des URI WBEM (Web-Based Enterprise Management).
+Tableau qui contient les identificateurs de l' [**\_ BaseMetricDefinition CIM**](cim-basemetricdefinition.md) qui définit les métriques gérées par le service de métrique. les identificateurs doivent être mis en forme en tant qu’uri Web-Based Enterprise Management (WBEM).
 
 Pour pouvoir utiliser cette propriété, une instance [**CIM \_ BaseMetricDefinition**](cim-basemetricdefinition.md) doit être associée à une instance [**\_ MetricService**](cim-metricservice.md) CIM par le biais de la classe [**CIM \_ ServiceAffectsElement**](cim-serviceaffectselement.md) . En outre, le service de métriques doit prendre en charge l’activation ou la désactivation d’au moins une métrique définie par l’instance **CIM \_ BaseMetricDefinition** .
 
