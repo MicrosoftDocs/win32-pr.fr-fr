@@ -4,18 +4,18 @@ ms.assetid: c041d094-8165-446f-bf77-0d53b728fe7a
 title: Disposition des clés de Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5783a9f083f639912188f418238f46a5d45ed922
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4473027b2612d16b3c6daee4f8e708d90b993397b133db111aa55c58e9c4ceb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502289"
 ---
 # <a name="layout-of-the-registry-keys"></a>Disposition des clés de Registre
 
-Les filtres DirectShow sont enregistrés à deux emplacements :
+les filtres de DirectShow sont enregistrés à deux emplacements :
 
--   La DLL qui contient le filtre est inscrite en tant que serveur COM du filtre. Quand une application appelle **CoCreateInstance** pour créer le filtre, la bibliothèque COM Microsoft Windows utilise cette entrée de Registre pour localiser la dll.
+-   La DLL qui contient le filtre est inscrite en tant que serveur COM du filtre. quand une application appelle **CoCreateInstance** pour créer le filtre, la bibliothèque COM Microsoft Windows utilise cette entrée de registre pour localiser la DLL.
 -   Des informations supplémentaires sur le filtre peuvent être inscrites dans une catégorie de filtre. Ces informations permettent à l' [énumérateur de périphérique système](system-device-enumerator.md) et au [Mappeur de filtre](filter-mapper.md) de localiser le filtre.
 
 Les filtres ne sont pas requis pour enregistrer les informations de filtre supplémentaires. Tant que la DLL est inscrite en tant que serveur COM, une application peut créer le filtre et l’ajouter à un graphique de filtre. Toutefois, si vous souhaitez que votre filtre soit détectable par l’énumérateur du périphérique système ou le mappeur de filtre, vous devez enregistrer les informations supplémentaires.

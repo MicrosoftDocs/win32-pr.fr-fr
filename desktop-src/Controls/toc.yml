@@ -11,9 +11,9 @@
         - name: Prise en charge Unicode pour les contrôles communs
           href: unicode-support.md
         - name: Prise en charge de la localisation des contrôles communs
-          href: cc-faq-localization.yml
+          href: cc-faq-localization.md
         - name: FAQ sur les contrôles communs
-          href: cc-faq.yml
+          href: cc-faq.md
     - name: Messages de contrôle
       href: control-messages.md
     - name: Contrôles personnalisés
@@ -4218,7 +4218,7 @@
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-copy
                             - name: Couper
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-cut
-                            - name: DELETE
+                            - name: Supprimer
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-delete
                             - name: EndOf
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-endof
@@ -4284,7 +4284,7 @@
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-paste
                             - name: ScrollIntoView
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-scrollintoview
-                            - name: Sélectionner
+                            - name: Sélectionnez
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-select
                             - name: SetChar
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-setchar
@@ -5391,9 +5391,9 @@
                     - name: Comment utiliser le suivi à chaud avec les barres d’outils
                       href: use-hot-tracking-with-toolbars.md
                     - name: Comment créer une barre d’outils de style Internet Explorer
-                      href: cc-faq-ietoolbar.yml
+                      href: cc-faq-ietoolbar.md
                     - name: Comment créer une barre de menus de style Internet Explorer
-                      href: cc-faq-iemenubar.yml
+                      href: cc-faq-iemenubar.md
             - name: Référence du contrôle ToolBar
               href: bumper-toolbar-toolbar-control-reference.md
               items:

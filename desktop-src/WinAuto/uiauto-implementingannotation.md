@@ -15,12 +15,12 @@ keywords:
 - interfaces, IAnnotationProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c1a0441816e548faaa9076b3a9717c0aa76f08a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2cdc5c37c61878513b5d01812ab73c086f87d182d4b2c955efaf8706d52e4bcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505253"
 ---
 # <a name="annotation-control-pattern"></a>Annotation (modèle de contrôle)
 
@@ -67,15 +67,15 @@ Les propriétés suivantes sont requises pour implémenter l’interface [**IAnn
 
 | Membres nécessaires                                                                | Type de membre | Notes |
 |---------------------------------------------------------------------------------|-------------|-------|
-| [**AnnotationTypeId**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypeid)     | Propriété    | Aucun |
-| [**AnnotationTypeName**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypename) | Propriété    | Aucun |
-| [**Auteur**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_author)                         | Propriété    | Aucun |
-| [**DateTime**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_datetime)                     | Propriété    | Aucun |
-| [**Indicatif**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_target)                         | Propriété    | Aucun |
+| [**AnnotationTypeId**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypeid)     | Propriété    | Aucun. |
+| [**AnnotationTypeName**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_annotationtypename) | Propriété    | Aucun. |
+| [**Auteur**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_author)                         | Propriété    | Aucun. |
+| [**Date/heure**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_datetime)                     | Propriété    | Aucun. |
+| [**Cible**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iannotationprovider-get_target)                         | Propriété    | Aucun. |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -92,6 +92,6 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 262f726e8b2201b809a9416a67c2af860acee65e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1dd9a16490d3dbacf0b325539fec1f01fd11c9d919cc0dc438ee67fd69d85765
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542269"
 ---
 # <a name="idulimestyle-function"></a>IdUlIMEStyle fonction)
 
@@ -82,11 +82,11 @@ Cette fonction peut retourner l’une des valeurs suivantes.
 **IMESTY \_ UL \_ Max** (2014)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

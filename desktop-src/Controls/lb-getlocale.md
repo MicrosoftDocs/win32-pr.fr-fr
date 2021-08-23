@@ -3,7 +3,7 @@ title: Message LB_GETLOCALE (winuser. h)
 description: Obtient les paramètres régionaux actuels de la zone de liste. Vous pouvez utiliser les paramètres régionaux pour déterminer l’ordre de tri correct du texte affiché (pour les zones de liste avec le \_ style de tri lbs) et du texte ajouté par le \_ message lb ADDSTRING.
 ms.assetid: ec814b03-5ce2-4b81-a36c-ab4c115f88be
 keywords:
-- LB_GETLOCALE les contrôles de message Windows
+- LB_GETLOCALE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57620b62011dba234710caf1b5d1c429da37ace9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 732bfac72502c38265f7c1651667dc235c440293c8435f16088eaee775a874f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544519"
 ---
 # <a name="lb_getlocale-message"></a>\_Message GETLOCALE lb
 
@@ -47,7 +47,7 @@ Non utilisé ; doit être égal à zéro.
 
 La valeur de retour spécifie les paramètres régionaux actuels de la zone de liste. Le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contient le code de pays/région et le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contient l’identificateur de langue.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’identificateur de langue se compose d’un identificateur de sous-langue et d’un identificateur de langue primaire. Utilisez la macro [**PRIMARYLANGID**](/windows/desktop/api/winnt/nf-winnt-primarylangid) pour extraire l’identificateur de langue primaire de la [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) de la valeur de retour, et la macro [**SUBLANGID**](/windows/desktop/api/winnt/nf-winnt-sublangid) pour extraire l’identificateur de sous-langue.
 
@@ -57,8 +57,8 @@ L’identificateur de langue se compose d’un identificateur de sous-langue et 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

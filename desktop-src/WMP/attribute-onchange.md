@@ -3,7 +3,7 @@ title: attribute_onchange
 description: Lorsqu’un attribut d’apparence change de valeur, un événement qui peut être géré par un gestionnaire d’événements se produit. Le nom du gestionnaire d’événements est le nom de l’attribut suivi d’un trait de soulignement et de \ 0034 ; OnChange \ 0034 ;, par exemple, \ 0034 ; valeur \_ OnChange \ 0034 ;.
 ms.assetid: 783b686c-d56c-4036-9af4-97b9b246ef7e
 keywords:
-- attribute_onchange le lecteur Windows Media
+- attribute_onchange Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 45c4955193507e258d055a3399fc565c569fd291
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c707b04587b6e975f81c8a0d0918b14c8e193d303f82c61b5220796bb6975b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573759"
 ---
 # <a name="attribute_onchange"></a>OnChange d’attribut \_
 

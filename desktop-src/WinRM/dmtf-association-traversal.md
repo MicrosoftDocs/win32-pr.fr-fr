@@ -1,24 +1,24 @@
 ---
 title: Découverte de profil DMTF par traversée d’association
-description: Un composant clé de l’infrastructure Windows Management Instrumentation (WMI) est un modèle orienté objet des entités gérables dans un système.
+description: un composant clé de l’infrastructure Windows Management Instrumentation (WMI) est un modèle orienté objet des entités gérables dans un système.
 ms.assetid: 21e03d78-bce1-471e-a826-e676d32990ba
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 776b3f5883075ddf549330c422efec558195c8fa
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: a8f49d1433d8263dff2c1d50007f9aa0daf1573c09ebc8d7a513eda658c51997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643149"
 ---
 # <a name="dmtf-profile-discovery-through-association-traversal"></a>Découverte de profil DMTF par traversée d’association
 
-Un composant clé de l’infrastructure Windows Management Instrumentation (WMI) est un modèle orienté objet des entités gérables dans un système. Le modèle est conforme à un standard géré par la[DMTF](https://www.dmtf.org/standards/wsman)(Desktop Management Task Force) et est connu comme le Common Information Model (CIM). Certaines classes du modèle, telles que le [ \_ fichier de fichier CIM](../cimwin32prov/cim-datafile.md) ou le [ \_ processus Win32](../cimwin32prov/win32-process.md), correspondent directement aux entités gérables. D’autres classes du modèle, telles que [Win32 \_ SystemServices](../cimwin32prov/win32-systemservices.md), représentent les relations entre les entités gérables. Ces classes de modélisation des relations sont appelées des classes d’association.
+un composant clé de l’infrastructure Windows Management Instrumentation (WMI) est un modèle orienté objet des entités gérables dans un système. Le modèle est conforme à un standard géré par la[DMTF](https://www.dmtf.org/standards/wsman)(Desktop Management Task Force) et est connu comme le Common Information Model (CIM). Certaines classes du modèle, telles que le [ \_ fichier de fichier CIM](../cimwin32prov/cim-datafile.md) ou le [ \_ processus Win32](../cimwin32prov/win32-process.md), correspondent directement aux entités gérables. D’autres classes du modèle, telles que [Win32 \_ SystemServices](../cimwin32prov/win32-systemservices.md), représentent les relations entre les entités gérables. Ces classes de modélisation des relations sont appelées des classes d’association.
 
-À l’aide du langage de requête spécifique à WMI, WQL, vous pouvez récupérer des instances de classes qui représentent des entités gérables ou des instances de classes d’association. Toutefois, WQL est spécifique à l’implémentation. Il fonctionne uniquement avec l’implémentation Windows de la norme DMTF (WMI). En outre, la syntaxe WQL pour la récupération des classes d’association est plutôt compliquée.
+À l’aide du langage de requête spécifique à WMI, WQL, vous pouvez récupérer des instances de classes qui représentent des entités gérables ou des instances de classes d’association. Toutefois, WQL est spécifique à l’implémentation. il fonctionne uniquement avec l’implémentation Windows de la norme DMTF (WMI). En outre, la syntaxe WQL pour la récupération des classes d’association est plutôt compliquée.
 
-L’infrastructure Windows Remote Management (WinRM) offre un excellent moyen de tirer parti des fonctionnalités de WMI. Les premières versions de WinRM devaient utiliser WQL pour extraire des instances de classes d’association. WinRM 2,0 intègre une nouvelle fonctionnalité appelée détection de profil DMTF par traversée d’association. La traversée d’association permet à un utilisateur de WinRM de récupérer des instances de classes d’association à l’aide d’un mécanisme de filtrage standard, le dialecte AssociationFilter, défini dans la spécification de liaison CIM DMTF. Pour plus d’informations sur le parcours d’association, consultez la spécification de liaison CIM WS-Management ( [https://www.dmtf.org/standards/wsman]( https://www.dmtf.org/standards/ws-man) ).
+l’infrastructure Windows Remote Management (WinRM) offre un excellent moyen de tirer parti des fonctionnalités de WMI. Les premières versions de WinRM devaient utiliser WQL pour extraire des instances de classes d’association. WinRM 2,0 intègre une nouvelle fonctionnalité appelée détection de profil DMTF par traversée d’association. La traversée d’association permet à un utilisateur de WinRM de récupérer des instances de classes d’association à l’aide d’un mécanisme de filtrage standard, le dialecte AssociationFilter, défini dans la spécification de liaison CIM DMTF. Pour plus d’informations sur le parcours d’association, consultez la spécification de liaison CIM WS-Management ( [https://www.dmtf.org/standards/wsman]( https://www.dmtf.org/standards/ws-man) ).
 
 L’utilitaire WinRM fournit un mécanisme simple pour parcourir l’Association appropriée et récupérer un profil d’appareil.
 
@@ -34,7 +34,7 @@ L’utilitaire WinRM prend désormais en charge un dialecte pour la demande d’
 
 
 
- 
+ 
 
 ## <a name="retrieving-instances-of-an-association-class-by-using-the-associationfilter-dialect"></a>Récupération des instances d’une classe d’association à l’aide du dialecte AssociationFilter
 
@@ -112,6 +112,6 @@ Win32_Service
     WaitHint = 0
 ```
 
- 
+ 
 
- 
+ 

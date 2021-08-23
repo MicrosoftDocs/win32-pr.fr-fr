@@ -3,7 +3,7 @@ title: OnMouseUp
 description: Le gestionnaire d’événements OnMouseUp gère un événement qui se produit lorsque l’utilisateur relâche un bouton de la souris alors que le pointeur se trouve sur l’élément.
 ms.assetid: d6c9c028-cb12-4767-a5de-b2312681ea13
 keywords:
-- OnMouseUp Windows Media Player
+- onmouseup Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: baa1713b828fc2d2c3dea885ec9a642c53710260
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08059a66646834aac55c03c65ad9c80f6e1a60309a15c1867ef616c48036036d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572199"
 ---
 # <a name="onmouseup"></a>OnMouseUp
 
@@ -28,7 +28,7 @@ Le gestionnaire d’événements **onmouseup** gère un événement qui se produ
 onmouseup
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce gestionnaire d’événements n’est pas applicable à l’élément **playlist** .
 

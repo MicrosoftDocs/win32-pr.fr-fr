@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60d357fa368818a9b216fe18a394b806e390b46b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4f141e690f859ad40e61ead0e6f9b6fb503733f837257b2bd06c96045ac3a6dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644939"
 ---
 # <a name="treat-as-leaf-attribute"></a>Attribut Treat-As-feuille
 
@@ -45,7 +45,7 @@ Les spécificateurs d’affichage avec cet indicateur défini sur **true** force
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

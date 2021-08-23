@@ -17,12 +17,12 @@ keywords:
 - Exemples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d9a89df1b9d2afc401e07b6cd77d1307d912f11
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4a0e8dd4cb2d810ad8423c1fa4f75020a9489ceb72acbe1483cb439e943b5676
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505299"
 ---
 # <a name="subscribing-to-ui-automation-events"></a>Abonnement à des événements UI Automation
 
@@ -31,16 +31,16 @@ Microsoft UI Automation permet aux clients de s’abonner à des événements in
 L’efficacité est également améliorée par la possibilité d’écouter des événements uniquement dans une portée définie. Par exemple, un client peut écouter les modifications de sélection d’un élément dans une liste, dans la liste elle-même ou dans une boîte de dialogue entière.
 
 > [!Note]  
-> Ne partez pas du principe que tous les événements possibles sont déclenchés par un fournisseur UI Automation. Par exemple, toutes les modifications de propriété n’entraînent pas le déclenchement d’événements par les fournisseurs de proxy standard pour Windows Forms et les contrôles Microsoft Win32.
+> Ne partez pas du principe que tous les événements possibles sont déclenchés par un fournisseur UI Automation. par exemple, toutes les modifications de propriété n’entraînent pas le déclenchement d’événements par les fournisseurs de proxy standard pour Windows Forms et les contrôles Microsoft Win32.
 
- 
+ 
 
 Pour obtenir une vue plus large des événements UI Automation, consultez [UI Automation Events Overview](uiauto-eventsoverview.md).
 
 > [!Note]  
 > Avant d’implémenter un gestionnaire d’événements, vous devez vous familiariser avec les problèmes de Threading décrits dans la rubrique [compréhension des problèmes de Threading](uiauto-threading.md).
 
- 
+ 
 
 Cette rubrique contient les sections suivantes.
 
@@ -64,7 +64,7 @@ Les applications clientes s’abonnent à des événements d’un genre particul
 
 
 
- 
+ 
 
 Lorsqu’un client ajoute un gestionnaire d’événements pour tous les descendants ([**TreeScope \_ descendants**](/windows/desktop/api/UIAutomationClient/ne-uiautomationclient-treescope)), UI Automation ajoute un seul gestionnaire pour la racine de la sous-arborescence, et le gestionnaire écoute tous les descendants. UI Automation n’ajoute pas de gestionnaires d’événements de manière récursive.
 
@@ -77,7 +77,7 @@ Lors de l’arrêt, ou lorsque les événements UI Automation ne sont plus inté
 > [!Note]  
 > Un client UI Automation ne doit pas utiliser plusieurs threads pour ajouter ou supprimer des gestionnaires d’événements. Un comportement inattendu peut se produire si un gestionnaire d’événements est ajouté ou supprimé alors qu’un autre est ajouté ou supprimé dans le même processus client.
 
- 
+ 
 
 
 
@@ -92,7 +92,7 @@ Lors de l’arrêt, ou lorsque les événements UI Automation ne sont plus inté
 
 
 
- 
+ 
 
 Il est possible qu’un événement soit remis à un gestionnaire d’événements après l’annulation de l’abonnement au gestionnaire, si l’événement est reçu simultanément avec la demande d’annulation de l’abonnement à l’événement. La meilleure pratique consiste à suivre la norme COM (Component Object Model) et à éviter de détruire l’objet de gestionnaire d’événements jusqu’à ce que son décompte de références ait atteint zéro. La destruction d’un gestionnaire d’événements immédiatement après l’annulation de l’abonnement à des événements peut entraîner une violation d’accès si un événement est remis en retard.
 
@@ -113,9 +113,9 @@ Pour obtenir des exemples de code qui montrent comment gérer des événements U
 [Compréhension des problèmes liés aux threads](uiauto-threading.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

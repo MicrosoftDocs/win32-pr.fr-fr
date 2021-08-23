@@ -1,5 +1,5 @@
 ---
-description: L' <isLibraryPinned> élément spécifie si cette bibliothèque est épinglée au volet de navigation dans l’Explorateur Windows. Cet élément est facultatif et n’a pas d’éléments enfants ni d’attributs.
+description: l' <isLibraryPinned> élément spécifie si cette bibliothèque est épinglée au volet de navigation dans Windows Explorer. Cet élément est facultatif et n’a pas d’éléments enfants ni d’attributs.
 title: Élément isLibraryPinned (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 743ddc6df6b4a1a0df44e19bf063e417fc052e2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b5fe37b2a9b31708c1b6a49bd22745b37af8fa8ec21b0b424b7c6da3baaae53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592859"
 ---
 # <a name="islibrarypinned-element-library-schema"></a>Élément isLibraryPinned (schéma de bibliothèque)
 
-L' <isLibraryPinned> élément spécifie si cette bibliothèque est épinglée au volet de navigation dans l’Explorateur Windows. Cet élément est facultatif et n’a pas d’éléments enfants ni d’attributs.
+l' <isLibraryPinned> élément spécifie si cette bibliothèque est épinglée au volet de navigation dans Windows Explorer. Cet élément est facultatif et n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,9 +42,9 @@ L' <isLibraryPinned> élément spécifie si cette bibliothèque est épinglée a
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si la valeur est true, la bibliothèque est épinglée dans le volet de navigation de l’Explorateur Windows.
+si la valeur est true, la bibliothèque est épinglée au volet de navigation de l’explorateur de Windows.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

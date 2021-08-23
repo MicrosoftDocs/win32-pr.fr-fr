@@ -4,12 +4,12 @@ description: Si un élément d’interface utilisateur prend en charge un modèl
 ms.assetid: 430abeaf-e5ca-48c4-aa35-8d52a8cee2f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e52543908e89a1cea57c981d60bf7cb2b9fbd1fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 701ed721e8259aa3b707fa1d7a6f2e80b9da13a3760b9850edef22b169d772e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644919"
 ---
 # <a name="exposing-a-native-object-model-interface"></a>Exposition d’une interface de modèle objet natif
 
@@ -17,9 +17,9 @@ Si un élément d’interface utilisateur prend en charge un modèle d’objet n
 
 Un client peut récupérer une interface à partir d’un élément d’interface utilisateur qui prend en charge un modèle objet natif en appelant la fonction [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow) et en spécifiant [**objID \_ NATIVEOM**](object-identifiers.md) comme deuxième paramètre.
 
- 
+ 
 
- 
+ 
 
 
 

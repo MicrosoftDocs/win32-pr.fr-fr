@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ebde2e210c570a9be214e4952d6410e281761e8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 030820dc017eb82644d524ed1044d71773a34b91dc9fcb923b9af62b7cd7adb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508278"
 ---
 # <a name="ms-ts-home-drive-attribute"></a>attribut ms-TS-orig-Drive
 
@@ -42,7 +42,7 @@ Le lecteur de démarrage des services Terminal Server spécifie un lecteur de d�
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce03d0f674560646943dd590c8d2990ca0a51b78
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 372e4a9f9a6edb2765b43b843a05a79bcce2cb2fa08e06fdb9db916f140c83ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644879"
 ---
 # <a name="uidnumber-attribute"></a>attribut uidNumber
 
@@ -35,14 +35,14 @@ Contient un entier qui identifie de façon unique un utilisateur dans un domaine
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.3.6.1.1.1.1.0                      |
 | System-ID-GUID    | 850fcc8f-9c6b-47e1-b671-7c654be4d5b3 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
