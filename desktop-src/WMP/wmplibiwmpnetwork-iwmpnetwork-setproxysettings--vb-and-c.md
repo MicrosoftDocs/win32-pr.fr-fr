@@ -3,9 +3,9 @@ title: Méthode IWMPNetwork Setproxysettings n'
 description: La méthode Setproxysettings n’spécifie les paramètres de proxy pour un protocole.
 ms.assetid: 6e410812-a06c-4911-8291-1d654fcd281a
 keywords:
-- méthode Setproxysettings n’lecteur Windows Media
-- méthode Setproxysettings n’lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, méthode Setproxysettings n'
+- Lecteur Windows Media de la méthode setproxysettings n'
+- méthode setproxysettings n’Lecteur Windows Media, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, méthode setproxysettings n'
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7fc36c12335cf97ad7bff34924850155f2fd747
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 258c25fb962acdac2f682ba20b3280b8baa489496046c79d7edd03b519a67b1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053467"
 ---
 # <a name="iwmpnetworksetproxysettings-method"></a>IWMPNetwork :: Setproxysettings n', méthode
 
@@ -86,13 +86,13 @@ Implements IWMPNetwork.setProxySettings
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code suivant utilise une zone de liste pour permettre à l’utilisateur de définir le paramètre de proxy du lecteur Windows Media pour le protocole HTTP. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
+l’exemple de code suivant utilise une zone de liste pour permettre à l’utilisateur de définir le paramètre de proxy Lecteur Windows Media pour le protocole HTTP. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
 
 
 ```CSharp

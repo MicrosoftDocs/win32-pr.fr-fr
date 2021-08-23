@@ -4,12 +4,12 @@ description: Crée une fabrique d’adaptateur DXCore, que vous pouvez utiliser 
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 3f5164578da87af8f4d92c3bedcecb6f3dbaa95e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90567d732f6febc5d95b460b2ff88929dd12b2f22275de9db0d6bc5f88ef99ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985179"
 ---
 # <a name="dxcorecreateadapterfactory-function"></a>DXCoreCreateAdapterFactory fonction)
 
@@ -42,7 +42,7 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 |E_NOINTERFACE|Une valeur non valide a été fournie pour *riid*.|
 |E_POINTER|`nullptr` a été fourni pour *ppvFactory*.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour la durée pendant laquelle une référence existe sur une interface [IDXCoreAdapterFactory](../dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory.md) , une interface [IDXCoreAdapterList](../dxcore_interface/nn-dxcore_interface-idxcoreadapterlist.md) ou une interface [IDXCoreAdapter](../dxcore_interface/nn-dxcore_interface-idxcoreadapter.md) , les appels supplémentaires à **DXCoreCreateAdapterFactory**, [IDXCoreAdapterList :: GetFactory](../dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getfactory.md)ou [IDXCoreAdapter :: GetFactory](../dxcore_interface/nf-dxcore_interface-idxcoreadapter-getfactory.md) retournent des pointeurs vers le même objet, ce qui permet d’accroître le nombre de références de l’interface **IDXCoreAdapterFactory** .
 

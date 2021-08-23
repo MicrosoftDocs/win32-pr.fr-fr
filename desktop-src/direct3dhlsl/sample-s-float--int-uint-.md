@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9b378cb4031acecb8e0018053c7547e1948cc3e6
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: 648897a4e2250e0b91544676a3469b2d29402c757bcc77b2285d0181ca2fa5f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "103735220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986209"
 ---
 # <a name="samplesfloatintfloatuint-function-hlsl-reference"></a>Sample (S, float, int, float, uint), fonction (référence HLSL)
 
@@ -102,7 +102,7 @@ Valeur facultative pour fixer l’exemple de valeurs LOD à. Par exemple, si vou
 *État* \[ à\]
 </dt> <dd>
 
-L’état de l’opération. Vous ne pouvez pas accéder directement à l’État. au lieu de cela, transmettez l’État à la fonction intrinsèque [**CheckAccessFullyMapped**](checkaccessfullymapped.md) . **CheckAccessFullyMapped** retourne la **valeur true** si toutes les valeurs de l' **exemple**, de **regroupement** ou d’opération de **chargement** correspondant ont accédé à des vignettes mappées dans une [ressource en mosaïque](/windows/desktop/direct3d11/direct3d-11-2-features). Si des valeurs ont été extraites d’une vignette non mappée, **CheckAccessFullyMapped** retourne **false**.
+État de l'opération. Vous ne pouvez pas accéder directement à l’État. au lieu de cela, transmettez l’État à la fonction intrinsèque [**CheckAccessFullyMapped**](checkaccessfullymapped.md) . **CheckAccessFullyMapped** retourne la **valeur true** si toutes les valeurs de l' **exemple**, de **regroupement** ou d’opération de **chargement** correspondant ont accédé à des vignettes mappées dans une [ressource en mosaïque](/windows/desktop/direct3d11/direct3d-11-2-features). Si des valeurs ont été extraites d’une vignette non mappée, **CheckAccessFullyMapped** retourne **false**.
 
 </dd> </dl>
 
@@ -110,7 +110,7 @@ L’état de l’opération. Vous ne pouvez pas accéder directement à l’Éta
 
 Le format de texture, qui est l’une des valeurs typées énumérées dans le [**\_ format dxgi**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’échantillonnage de texture utilise la position Texel pour rechercher une valeur Texel. Un décalage peut être appliqué à la position avant la recherche. L’état de l’échantillonneur contient les options d’échantillonnage et de filtrage. Cette méthode peut être appelée dans un nuanceur de pixels, mais elle n’est pas prise en charge dans un nuanceur de sommets ou un nuanceur Geometry.
 

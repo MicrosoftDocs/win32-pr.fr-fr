@@ -4,16 +4,16 @@ ms.assetid: 864fc5ad-5aeb-4dc7-bdd2-2ad2bfb57741
 title: Filtres de pilote de classe WDM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 338e4ec4d2aaa58bdac737b58571497cad708876
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecd93db09c638ed7a8a217bec28a565086dcbfcae2b5702c9e1d07778c338646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119071893"
 ---
 # <a name="wdm-class-driver-filters"></a>Filtres de pilote de classe WDM
 
-Si un périphérique de capture utilise un pilote Windows Driver Model (WDM), le graphique peut nécessiter certains filtres en amont du filtre de capture. Ces filtres sont appelés filtres de pilote de classe de flux ou filtres WDM. Ils prennent en charge des fonctionnalités supplémentaires fournies par le matériel. Par exemple, une carte tuner TV possède des fonctions permettant de définir le canal. Le filtre correspondant est le filtre [Tuner TV](tv-tuner-filter.md) , qui expose l’interface [**IAMTVTuner**](/windows/desktop/api/Strmif/nn-strmif-iamtvtuner) . Pour rendre cette fonctionnalité accessible à l’application, vous devez connecter le filtre Tuner TV au filtre de capture.
+si un périphérique de capture utilise un pilote Windows Driver Model (WDM), le graphique peut nécessiter certains filtres en amont du filtre de capture. Ces filtres sont appelés filtres de pilote de classe de flux ou filtres WDM. Ils prennent en charge des fonctionnalités supplémentaires fournies par le matériel. Par exemple, une carte tuner TV possède des fonctions permettant de définir le canal. Le filtre correspondant est le filtre [Tuner TV](tv-tuner-filter.md) , qui expose l’interface [**IAMTVTuner**](/windows/desktop/api/Strmif/nn-strmif-iamtvtuner) . Pour rendre cette fonctionnalité accessible à l’application, vous devez connecter le filtre Tuner TV au filtre de capture.
 
 L’interface [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) fournit le moyen le plus simple d’ajouter des filtres WDM au graphique. À un moment donné, lors de la génération du graphique, appelez [**FindInterface**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-findinterface) ou [**RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream). L’une de ces méthodes localise automatiquement les filtres WDM nécessaires et les connecte au filtre de capture. Le reste de cette section décrit comment ajouter des filtres WDM manuellement. Toutefois, n’oubliez pas que l’approche recommandée consiste simplement à appeler l’une de ces méthodes **ICaptureGraphBuilder2** .
 

@@ -4,12 +4,12 @@ ms.assetid: 20110ffc-5eff-4279-abea-53115803b6ee
 title: Énumération des périphériques audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 707b9a88181c83344757c711af1c0199c19ebc16
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bd5d21ec2de2b08ca3c6f26884bd210b2f149caaa9e3b6a4402b69dde9fb7540
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018377"
 ---
 # <a name="enumerating-audio-devices"></a>Énumération des périphériques audio
 
@@ -17,7 +17,7 @@ La première tâche d’une application audio client consiste à trouver un pér
 
 Une carte audio peut contenir plusieurs appareils, par exemple, un périphérique de rendu d’onde et un périphérique de capture d’onde. Il s’agit des périphériques d’adaptateur plutôt que des appareils de point de terminaison. Comme mentionné précédemment, les périphériques d’adaptateur sont inscrits par le gestionnaire de Plug-and-Play, contrairement aux appareils de point de terminaison qui sont inscrits par le gestionnaire des points de terminaison. Chaque périphérique d’adaptateur prend généralement en charge un ou plusieurs périphériques de point de terminaison. Un périphérique de point de terminaison de rendu (par exemple, un casque) peut recevoir un flux de données audio à partir d’une application cliente, et un périphérique de point de terminaison de capture (par exemple, un microphone) peut envoyer un flux audio à une application cliente.
 
-Avant d’énumérer les appareils de point de terminaison dans le système, le client doit d’abord appeler la fonction [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) Windows pour créer un énumérateur d’appareil. Un énumérateur d’appareil est un objet avec une interface [**IMMDeviceEnumerator**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) . Pour plus d’informations sur **CoCreateInstance**, consultez la documentation SDK Windows.
+avant d’énumérer les appareils de point de terminaison dans le système, le client doit d’abord appeler la fonction Windows [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer un énumérateur d’appareil. Un énumérateur d’appareil est un objet avec une interface [**IMMDeviceEnumerator**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) . pour plus d’informations sur **CoCreateInstance**, consultez la documentation SDK Windows.
 
 Le client appelle la méthode [**IMMDeviceEnumerator :: EnumAudioEndpoints**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints) pour créer une collection d’objets de point de terminaison. Chaque objet de point de terminaison représente un périphérique de point de terminaison audio dans le système. Dans cet appel, le client spécifie si la collection doit contenir tous les périphériques de rendu du système, tous les périphériques de capture, ou les deux.
 

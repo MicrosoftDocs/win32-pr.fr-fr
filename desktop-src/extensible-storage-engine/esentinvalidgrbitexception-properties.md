@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101936
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 589f3f1fe1f7f0f01392f187aad97936108e44ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e692f887d636dbc0dc9c8603f10e9abc6458270b2ccdd77c3dae27b1b787e266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041147"
 ---
 # <a name="esentinvalidgrbitexception-properties"></a>Propriétés EsentInvalidGrbitException
 
@@ -49,7 +49,7 @@ Le type [EsentInvalidGrbitException](./esentinvalidgrbitexception-class.md) expo
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

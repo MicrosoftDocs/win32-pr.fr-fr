@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 67b07d9de51e16148905768d7a6f268038bb1afa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2aa0a42ca2f295cdcccad05931ba651d4018ba377d8d10f09f85b82dcaaea8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119031837"
 ---
 # <a name="linelayoutstyletype-simple-type"></a>Type simple LineLayoutStyleType
 
@@ -41,7 +41,7 @@ Le type simple **LineLayoutStyleType** est une chaîne qui est limitée par le m
 
 -   `None|Solid|Dash|Dot|DashDot|DashDotDot|Double`
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs valides pour l’attribut **style** de l' [élément LineLayout](linelayout-element.md) sont les suivantes :
 
@@ -59,7 +59,7 @@ Les valeurs valides pour l’attribut **style** de l' [élément LineLayout](lin
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

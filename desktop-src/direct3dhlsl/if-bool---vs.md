@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 261ff572cbaf519cc0099f3ab68d1a0becca706f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b113c806342d786d258713128bc2cadcbb000235c2639f49e5b57ce3fa3bd2e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986529"
 ---
 # <a name="if-bool---vs"></a>Si bool-vs
 
@@ -29,11 +29,11 @@ Démarre une si... [sinon](else---vs.md)... [endif-bloc vs](endif---vs.md) .
 
 
 
- 
+ 
 
 où bool est un numéro de Registre bool. Consultez [Registre booléen constant](dx9-graphics-reference-asm-vs-registers-constant-boolean.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -43,7 +43,7 @@ où bool est un numéro de Registre bool. Consultez [Registre booléen constant]
 
 
 
- 
+ 
 
 Si le registre booléen source dans l’instruction if a la valeur true, le code inclus dans l’instruction if et le signe else correspondant est exécuté. Sinon, le code délimité par [else](else---vs.md)... [endif-les instructions vs](endif---vs.md) sont exécutées. Cette instruction consomme un emplacement d’instruction.
 
@@ -85,9 +85,9 @@ endif
 [endif-vs](endif---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

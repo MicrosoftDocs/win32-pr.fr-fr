@@ -4,12 +4,12 @@ ms.assetid: c89da4ac-57dd-4d95-ac86-3eb137dee0bc
 title: Événements de l’appareil (IoEvent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce58ba5dd21cdd505e945687603ddb54e77b2440
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a44e6160ef3a59821e5d2b2a3d4e42ee1d14d5c2fb7deda689fb1c9c3186b428
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076253"
 ---
 # <a name="device-events-ioeventh"></a>Événements de l’appareil (IoEvent. h)
 
@@ -298,7 +298,7 @@ af39da42-6622-41f5-970b-139d092fa3d9
 
 L’identificateur unique du volume a été modifié. Pour plus d’informations sur l’identificateur unique, consultez [**IOCTL \_ MOUNTDEV \_ query \_ unique \_ ID**](/windows-hardware/drivers/ddi/content/mountdev/ni-mountdev-ioctl_mountdev_query_unique_id).
 
-**Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Cette valeur n’est pas prise en charge avant Windows Server 2008 R2 et Windows 7.
+**Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** cette valeur n’est pas prise en charge jusqu’à Windows Server 2008 R2 et Windows 7.
 
 
 </dt> </dl> </dd> <dt>
@@ -331,7 +331,7 @@ Le média est à l’usage. Cet événement est envoyé lorsqu’un système de 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les événements du **\_ \_ \_ démontage** du volume d’e/s du GUID et du **\_ \_ \_ démontage \_** du volume d’e/s GUID sont liés, de même que le GUID du **\_ \_ \_ verrou d’e/** s du volume et l' **\_ \_ \_ \_ échec du verrouillage du volume** . Les événements de verrouillage du **\_ volume d’e/ \_ \_** s du volume et d' **\_ e/s \_ \_** GUID indiquent qu’une opération est tentée. Vous devez agir sur la notification d’événement et enregistrer l’action effectuée. Le **\_ démontage du volume d’e/s GUID \_ \_ \_ a échoué** et les événements du **verrou d' \_ e/s du \_ volume en \_ \_ échec** indiquent que l’opération tentée a échoué. Vous pouvez ensuite utiliser votre enregistrement pour annuler les actions que vous avez effectuées en réponse à l’opération.
 

@@ -4,12 +4,12 @@ description: Calcule le taux de modification des composants. | deriv_rtx_coarse 
 ms.assetid: 57743BB2-251C-4EA7-BDA9-70B2ECEE3B3F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2355b6db6aef9e85959d6359053fea76b48af0a5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 50066fe58c3d0a0cdd903de9fbb479a8fbab2c3a20c622ebca138c0937aaf0dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104991921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986639"
 ---
 # <a name="deriv_rtx_coarse-sm5---asm"></a>Deriv \_ RTX \_ grossiste (SM5-ASM)
 
@@ -35,7 +35,7 @@ Calcule le taux de modification des composants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction calcule le taux de modification du contenu de chaque composant float32 de *src0* (Swizzle), en ce qui concerne la direction renderTarget x (RTX) ou renderTarget y (voir [Deriv \_ propriété \_ grossiste](deriv-rty-coarse--sm5---asm-.md)). Une seule paire dérivée x, y est calculée pour chaque tampon 2x2 de pixels.
 
@@ -47,7 +47,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     |         |
 
@@ -61,9 +61,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

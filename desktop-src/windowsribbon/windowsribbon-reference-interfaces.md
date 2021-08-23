@@ -1,19 +1,19 @@
 ---
 title: Interfaces (infrastructure du ruban)
-description: Documentation de référence pour les interfaces de l’infrastructure du ruban Windows.
+description: documentation de référence pour les interfaces de l’infrastructure de ruban Windows.
 ms.assetid: d5fd6e4f-ca10-4010-aab4-d2728b0ac53c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5c168a342b7f362d2d679d578a88011c9d14977
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e159d66b8eac8501f231e847555823da431e7d1be3417e0fb803f0929be679bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028667"
 ---
 # <a name="interfaces-ribbon-framework"></a>Interfaces (infrastructure du ruban)
 
-Documentation de référence pour les interfaces de l’infrastructure du ruban Windows.
+documentation de référence pour les interfaces de l’infrastructure de ruban Windows.
 
 ### <a name="interfaces"></a>Interfaces
 
@@ -40,7 +40,7 @@ Documentation de référence pour les interfaces de l’infrastructure du ruban 
 
 <dl> <dt>
 
-[Informations de référence sur l’infrastructure du ruban Windows](windowsribbon-reference-entry.md)
+[Windows Informations de référence sur l’infrastructure du ruban](windowsribbon-reference-entry.md)
 </dt> </dl>
 
  

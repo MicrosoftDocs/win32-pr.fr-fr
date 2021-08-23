@@ -4,16 +4,16 @@ ms.assetid: 84c2de05-6c8f-45f1-b789-04a24cfa3ea1
 title: Format de fichier GraphEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a75421ff75c9bb26901eddf423448bbd9e4f478
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dbce90247e710772b75ad31593ce72a1fd4c8f9bd9fabf1be786b1e7bdc5e74d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015597"
 ---
 # <a name="graphedit-file-format"></a>Format de fichier GraphEdit
 
-Lorsque l’utilitaire GraphEdit enregistre un graphique de filtre DirectShow, il crée des fichiers de stockage avec une extension. GRF. Le fichier de stockage contient un seul flux appelé ActiveMovieGraph. Ce flux contient des informations sur tous les filtres, les noms de filtres, les noms de fichiers, les connexions, etc.
+lorsque l’utilitaire GraphEdit enregistre un graphique de filtre DirectShow, il crée des fichiers de stockage avec une extension. grf. Le fichier de stockage contient un seul flux appelé ActiveMovieGraph. Ce flux contient des informations sur tous les filtres, les noms de filtres, les noms de fichiers, les connexions, etc.
 
 La grammaire suivante décrit la syntaxe du graphique dans le flux, à l’aide d’une syntaxe BNF (Backus-Naur Form) modifiée :
 
@@ -122,7 +122,7 @@ END
 
 <dl> <dt>
 
-[Simulation de la génération de graphiques avec GraphEdit](simulating-graph-building-with-graphedit.md)
+[simulation d’Graph génération avec GraphEdit](simulating-graph-building-with-graphedit.md)
 </dt> </dl>
 
  

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 131be3dd1890967f7107bea64c3dc2634833653d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: cdd83776939e9746103b2f12598a53832d767cebb93767142649a09b804339a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106513502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014067"
 ---
 # <a name="sstub-switch"></a>commutateur/sstub
 
@@ -38,7 +38,7 @@ Spécifie un nom de fichier qui remplace le nom du fichier stub du serveur par d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom de fichier spécifié remplace le nom de fichier par défaut. Par défaut, le nom de fichier est obtenu en ajoutant \_ S. C au nom du fichier IDL. Ce commutateur n’affecte pas les interfaces OLE.
 
@@ -68,9 +68,9 @@ Le commutateur **/Server** None est prioritaire par rapport au commutateur **/ss
 [**/out**](-out.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

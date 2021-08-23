@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2bfc3c2c1d5bb0bbbb3c364b47f22f0790f8d102
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b6241bbd8c447889a4718369feabf8f26dacc73c58b8e6826c1797d0639422fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987829"
 ---
 # <a name="id3dxanimationcontrollergettime-method"></a>ID3DXAnimationController :: GetTime, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **double**](../winprog/windows-data-types.md)**
 
 Retourne l’heure globale de l’animation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les animations sont conçues à l’aide d’une heure d’animation locale et sont mélangées dans l’heure globale avec [**AdvanceTime**](id3dxanimationcontroller--advancetime.md).
 

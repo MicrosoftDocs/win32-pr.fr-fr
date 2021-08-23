@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 9e2c56a2-0572-48b6-a2ef-650f1cf1b62e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c12f3c021988f0349d9eaf6a2bdbd9505ca8a6
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9a0c4c1aa78c81484666311dfcdd6bae8b4e6daaa45581af98f50171f48b4b58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106510098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048507"
 ---
 # <a name="com-glossary"></a>Glossaire COM
 
@@ -236,7 +236,7 @@ Document qui comprend des objets liés ou incorporés, ainsi que ses propres don
 <span id="com.compound_file_gloss"></span><span id="COM.COMPOUND_FILE_GLOSS"></span>**fichier composé**
 </dt> <dd>
 
-Implémentation de stockage structuré fournie par OLE.
+implémentation de Stockage structurée fournie par OLE.
 
 </dd> <dt>
 
@@ -637,7 +637,7 @@ L’état d’un objet après que ses structures de données ont été chargées
 <span id="com.local_server_gloss"></span><span id="COM.LOCAL_SERVER_GLOSS"></span>**serveur local**
 </dt> <dd>
 
-Un serveur hors processus implémenté en tant que. Application EXE s’exécutant sur le même ordinateur que son application cliente.
+Un serveur hors processus implémenté en tant qu’application .EXE s’exécutant sur le même ordinateur que son application cliente.
 
 </dd> <dt>
 
@@ -707,7 +707,7 @@ Application qui rend les monikers disponibles qui identifient les objets qu’il
 <span id="com.namespace_extension_gloss"></span><span id="COM.NAMESPACE_EXTENSION_GLOSS"></span>**extension de l’espace de noms**
 </dt> <dd>
 
-Objet COM in-process qui implémente [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder), [**IPersistFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipersistfolder)et [**IShellView**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellview), qui sont parfois appelés interfaces d’extension d’espace de noms. Une extension d’espace de noms est utilisée pour étendre l’espace de noms de l’interpréteur de commandes ou pour créer un espace de noms distinct. Les utilisateurs principaux sont l’Explorateur Windows et les boîtes de dialogue de fichier courantes.
+Objet COM in-process qui implémente [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder), [**IPersistFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipersistfolder)et [**IShellView**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellview), qui sont parfois appelés interfaces d’extension d’espace de noms. Une extension d’espace de noms est utilisée pour étendre l’espace de noms de l’interpréteur de commandes ou pour créer un espace de noms distinct. les utilisateurs principaux sont l’explorateur de Windows et les boîtes de dialogue de fichier courantes.
 
 </dd> <dt>
 
@@ -749,7 +749,7 @@ Technologie basée sur les objets de Microsoft permettant de partager des inform
 <span id="com.out_of_process_server_gloss"></span><span id="COM.OUT_OF_PROCESS_SERVER_GLOSS"></span>**serveur hors processus**
 </dt> <dd>
 
-Un serveur, implémenté en tant que. EXE, qui s’exécute en dehors du processus de son client, soit sur le même ordinateur, soit sur un ordinateur distant.
+Un serveur, implémenté en tant qu’application .EXE, qui s’exécute en dehors du processus de son client, soit sur le même ordinateur, soit sur un ordinateur distant.
 
 </dd> <dt>
 
@@ -1012,7 +1012,7 @@ Appel de fonction qui n’autorise pas l’exécution des instructions suppléme
 <span id="com.system_registry_gloss"></span><span id="COM.SYSTEM_REGISTRY_GLOSS"></span>**Registre système**
 </dt> <dd>
 
-Référentiel à l’ensemble du système d’informations pris en charge par Windows, qui contient des informations sur le système et ses applications, y compris les clients et les serveurs OLE.
+référentiel à l’ensemble du système d’informations pris en charge par Windows, qui contient des informations sur le système et ses applications, y compris les clients et les serveurs OLE.
 
 </dd> <dt>
 
@@ -1058,6 +1058,6 @@ Moniker basé sur une URL (Universal Resource Locator). Un client peut utiliser 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

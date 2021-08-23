@@ -4,12 +4,12 @@ ms.assetid: dc52313b-38e7-43cc-abfd-86966c836fce
 title: Gestion des pages de codes des tables importées et exportées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b090bead1fa35b451ed12e0e0da0143b98b8918
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f9a64617ccfda25380076d62e6dd4ad8c18c55f68afd0236b3258638c899f29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065999"
 ---
 # <a name="code-page-handling-of-imported-and-exported-tables"></a>Gestion des pages de codes des tables importées et exportées
 
@@ -54,7 +54,7 @@ Pour plus d’informations, consultez la [page détermination d’une page de co
 
 Les [fichiers d’archive de texte](text-archive-files.md) qui sont exportés par [**MsiDatabaseExport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseexporta) peuvent être utilisés avec les systèmes de gestion de version. Utilisez les [fonctions de base de données](database-functions.md) ou un éditeur de table de base de données pour modifier la base de données.
 
-Vous pouvez ajouter des informations de localisation à une base de données d’installation à l’aide d’un éditeur de table de base de données ou de l’API Windows Installer. Pour plus d’informations, consultez [gestion des pages de codes des chaînes de paramètres](code-page-handling-of-parameter-strings.md).
+vous pouvez ajouter des informations de localisation à une base de données d’installation à l’aide d’un éditeur de table de base de données ou de l’API Windows Installer. Pour plus d’informations, consultez [gestion des pages de codes des chaînes de paramètres](code-page-handling-of-parameter-strings.md).
 
  
 

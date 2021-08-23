@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f218b62ac5464da27b8596992c34ce7ae5efde46
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 851f46d14f949a49c9422256f9b2bda1ba314e5789773121387e89c011f7a424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016457"
 ---
 # <a name="cbasewindowpossiblyeatmessage-method"></a>Méthode CBaseWindow. PossiblyEatMessage
 
@@ -69,7 +69,7 @@ Deuxième paramètre de message.
 
 Retourne la **valeur true** si le message a été transféré, ou **false** dans le cas contraire. La classe de base retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant que la méthode [**CBaseWindow :: OnReceiveMessage**](cbasewindow-onreceivemessage.md) gère un message, elle appelle `PossiblyEatMessage` . Si `PossiblyEatMessage` retourne **true**, **OnReceiveMessage** ignore le message. Une classe dérivée peut être substituée `PossiblyEatMessage` afin de transférer des messages à une fenêtre propriétaire. Par exemple, la classe [**CBaseControlWindow**](cbasecontrolwindow.md) , qui dérive de **CBaseWindow**, transfère les messages de clavier et de souris.
 
@@ -79,7 +79,7 @@ Avant que la méthode [**CBaseWindow :: OnReceiveMessage**](cbasewindow-onrecei
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

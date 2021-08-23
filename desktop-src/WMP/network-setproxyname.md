@@ -3,9 +3,9 @@ title: Méthode Network. setProxyName
 description: La méthode setProxyName spécifie le nom du serveur proxy à utiliser. | Méthode Network. setProxyName
 ms.assetid: dbcb2a00-4387-42af-8055-61d78d021ec7
 keywords:
-- méthode setProxyName lecteur Windows Media
-- méthode setProxyName lecteur Windows Media, classe réseau
-- Classe réseau lecteur Windows Media, méthode setProxyName
+- Lecteur Windows Media de la méthode setProxyName
+- Lecteur Windows Media de la méthode setProxyName, classe de réseau
+- Lecteur Windows Media de classe réseau, méthode setProxyName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a34546a395d48e939c71a806d8125150fca0ff4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9831b25e37fd6e19b70c1ee2589736394560c97f841b5d18c3a128a82997cc6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134922"
 ---
 # <a name="networksetproxyname-method"></a>Méthode Network. setProxyName
 
@@ -61,7 +61,7 @@ Network.setProxyName(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode n’a aucun effet, à moins que **getProxySettings** retourne la valeur 2 (utiliser des paramètres manuels).
 
@@ -71,7 +71,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **setProxyName** pour spécifier le nom du serveur proxy du lecteur Windows Media pour le protocole MMS. Le nouveau nom est récupéré à partir d’un élément de texte HTML avec ID = "NAME". L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **setProxyName** pour spécifier le nom du serveur proxy Lecteur Windows Media pour le protocole MMS. Le nouveau nom est récupéré à partir d’un élément de texte HTML avec ID = "NAME". L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

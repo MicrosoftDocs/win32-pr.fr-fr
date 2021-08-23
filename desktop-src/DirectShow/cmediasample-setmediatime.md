@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0240ef40f4c37f6c5528c979b2e89b43b03b3451
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3709a5f487855148b8ad4042f61b74fbe6029ef64e00b751672bf478f1da866e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016367"
 ---
 # <a name="cmediasamplesetmediatime-method"></a>Méthode CMediaSample. SetMediaTime
 
@@ -61,7 +61,7 @@ Pointeur désignant l’heure d’arrêt du support, ou **null**.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’heure d’arrêt du support doit être supérieure à l’heure de début du support. Utilisez **null** pour invalider les temps de support.
 
@@ -75,7 +75,7 @@ Pour plus d’informations sur les temps de support, consultez [heure et horloge
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

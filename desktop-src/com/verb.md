@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre Verb COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ef025ee0807ca3e75577f26f81951db22dfb0ac
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 05ef70e4a3f748b1f00a364f25755d60a3adfd9091cd2df3032e347f53f55519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106530798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047717"
 ---
 # <a name="verb"></a>Verbe
 
@@ -21,14 +21,14 @@ Spécifie les verbes à inscrire pour une application.
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      Verb
-         1 = verb1
-         2 = verb2
-         3 = ...
+   {CLSID}
+      Verb
+         1 = verb1
+         2 = verb2
+         3 = ...
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque verbe est une **valeur \_ reg SZ** au format «*nom*, *\_ indicateur de menu*, *\_ indicateur de verbe*». Les verbes doivent être numérotés de manière consécutive.
 
@@ -53,6 +53,6 @@ Pour plus d’informations, consultez [**OLEVERB**](/windows/win32/api/oleidl/ns
 [**OLEVERBATTRIB**](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 23ed6de0-25ff-4841-91f6-94b487dee613
 title: Obtention d’informations sur la reconnaissance du système de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18cafa9f1c7cf6cbbe11d434aff3db424a1cd0a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c10b538f9e98ecab3f8f8f72784ef658c068f780388dc7b600be68b76380757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148504"
 ---
 # <a name="obtaining-file-system-recognition-information"></a>Obtention d’informations sur la reconnaissance du système de fichiers
 

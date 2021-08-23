@@ -4,12 +4,12 @@ description: Planificateur de tâches 1,0 utilise plusieurs structures pour déf
 ms.assetid: dd2ae4f6-fb2d-41f8-9400-7426b7ca4546
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a03f28f85782d87ee3349582929babe6f907e8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a70688597f7684a6b6a0bedba90cb23d34135cd732aaed37cd74970867b3b02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002055"
 ---
 # <a name="trigger-structures-for-task-scheduler-10"></a>Structures de déclencheur pour Planificateur de tâches 1,0
 
@@ -18,7 +18,7 @@ Planificateur de tâches 1,0 utilise plusieurs structures pour définir les crit
 > [!Note]  
 > Pour plus d’informations sur les déclencheurs Planificateur de tâches 2,0, consultez [interfaces de déclencheur](trigger-interfaces.md).
 
- 
+ 
 
 ## <a name="task-scheduler-10-structures"></a>Structures Planificateur de tâches 1,0
 
@@ -47,9 +47,9 @@ En outre, le paramètre du membre de **type** indique quel membre de la structur
 [Interfaces de déclencheur](trigger-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

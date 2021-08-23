@@ -4,12 +4,12 @@ description: Cette section décrit les étapes de configuration de la mémoire t
 ms.assetid: e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bf48b0ba9a782be25568ac3fc0569314dae76e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e994c5a11215d245d8101edff410a91ffb788583b07f651fdfbd1f2771d7deab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990189"
 ---
 # <a name="configuring-depth-stencil-functionality"></a>Configuration de la fonctionnalité Depth-Stencil
 
@@ -212,6 +212,6 @@ Dans la deuxième étape de rendu, la fonction [**ID3D11DeviceContext :: OMSetR
 [Étapes de pipeline (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

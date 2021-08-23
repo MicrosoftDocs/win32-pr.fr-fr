@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f558a5fee10d0403eeaacab9dc29ff3ea52b427c
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 28392f7bb9c2f59bd766e42ec21fb87a854b08bedd8336ebb6f7249b7eccb940
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104030632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119573"
 ---
 # <a name="predicate-register-hlsl-vs-reference"></a>Registre de prédicats (référence HLSL VS)
 
@@ -30,7 +30,7 @@ Un registre de prédicat est pris en charge par les versions suivantes.
 
 
 
- 
+ 
 
 Voici les propriétés du Registre.
 
@@ -42,7 +42,7 @@ Voici les propriétés du Registre.
 
 
 
- 
+ 
 
 Le registre de prédicat peut être modifié avec [setp \_ COMP-vs](setp-comp---vs.md). Il n’y a aucune valeur par défaut pour ce registre, une application doit définir le registre avant de l’utiliser.
 
@@ -53,9 +53,9 @@ Le registre de prédicat peut être modifié avec [setp \_ COMP-vs](setp-comp---
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

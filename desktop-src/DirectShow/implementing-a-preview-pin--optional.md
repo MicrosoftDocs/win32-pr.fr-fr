@@ -1,23 +1,23 @@
 ---
-description: Cette rubrique décrit comment implémenter un pin d’aperçu sur un filtre de capture DirectShow.
+description: cette rubrique décrit comment implémenter un pin d’aperçu sur un filtre de capture DirectShow.
 ms.assetid: 60306702-97d4-4627-8fbe-e7c8750f3902
 title: Implémentation d’un pin d’aperçu (facultatif)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d1e09d070be2aa154428cb8684ff1c405fac959
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7de47b86df70500c83c794fe1074dc927622d571e78ef6175b944702277da492
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015557"
 ---
 # <a name="implementing-a-preview-pin-optional"></a>Implémentation d’un pin d’aperçu (facultatif)
 
-Cette rubrique décrit comment implémenter un pin d’aperçu sur un filtre de capture DirectShow.
+cette rubrique décrit comment implémenter un pin d’aperçu sur un filtre de capture DirectShow.
 
 Si votre filtre a une broche d’aperçu, le code confidentiel de l’aperçu doit envoyer une copie des données fournies par le code confidentiel de capture. L’envoi de données uniquement à partir du code pin d’aperçu n’entraîne pas la suppression des frames par le code confidentiel de capture. Le code PIN de capture a toujours priorité sur la pin de la préversion.
 
-Le code confidentiel de capture et le code PIN de la préversion doivent envoyer des données avec le même format. Par conséquent, ils doivent se connecter à l’aide de types de média identiques. Si la broche de capture se connecte en premier, le code confidentiel de l’aperçu doit offrir le même type de média et rejeter tous les autres types. Si la broche de préversion se connecte en premier et que la broche de capture se connecte avec un autre type de média, le code confidentiel de l’aperçu doit se reconnecter à l’aide du nouveau type de média. Si le filtre en aval de la broche d’aperçu rejette le nouveau type, le code PIN de capture doit également rejeter le type. Utilisez la méthode [**IPIN :: QueryAccept**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryaccept) pour interroger le filtre en aval de la broche d’aperçu et utilisez la méthode [**IFilterGraph :: reconnect**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-reconnect) pour reconnecter le code confidentiel. Ces règles s’appliquent également si le gestionnaire de graphique de filtre reconnecte le code confidentiel de capture.
+Le code confidentiel de capture et le code PIN de la préversion doivent envoyer des données avec le même format. Par conséquent, ils doivent se connecter à l’aide de types de média identiques. Si la broche de capture se connecte en premier, le code confidentiel de l’aperçu doit offrir le même type de média et rejeter tous les autres types. Si la broche de préversion se connecte en premier et que la broche de capture se connecte avec un autre type de média, le code confidentiel de l’aperçu doit se reconnecter à l’aide du nouveau type de média. Si le filtre en aval de la broche d’aperçu rejette le nouveau type, le code PIN de capture doit également rejeter le type. Utilisez la méthode [**IPIN :: QueryAccept**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryaccept) pour interroger le filtre en aval de la broche d’aperçu et utilisez la méthode [**IFilterGraph :: reconnect**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-reconnect) pour reconnecter le code confidentiel. ces règles s’appliquent également si le gestionnaire de Graph de filtre reconnecte le code confidentiel de capture.
 
 L’exemple suivant illustre un plan de ce processus :
 
@@ -88,7 +88,7 @@ CPreviewPin::CheckMediaType(CMediaType *pmt)
 
 <dl> <dt>
 
-[Connexion des filtres](how-filters-connect.md)
+[Connecter des filtres](how-filters-connect.md)
 </dt> <dt>
 
 [Écriture de filtres de capture](writing-capture-filters.md)

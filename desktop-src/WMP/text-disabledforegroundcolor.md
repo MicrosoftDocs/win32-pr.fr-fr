@@ -3,7 +3,7 @@ title: TEXT. disabledForegroundColor
 description: L’attribut disabledForegroundColor spécifie ou récupère la couleur de texte utilisée pour le contrôle Text lorsqu’il est désactivé.
 ms.assetid: 0ac2dc0c-817f-4902-b03b-072dbda45c3d
 keywords:
-- TEXT. disabledForegroundColor Windows Media Player
+- TEXT. disabledForegroundColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1af45ae7338ee9084e5345a480006a861a7cc4c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c5ffca8060c496526c3b5cc9f9229310489bdd5bbfef9467c3e2bb91992ded4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134612"
 ---
 # <a name="textdisabledforegroundcolor"></a>TEXT. disabledForegroundColor
 
@@ -31,7 +31,7 @@ L’attribut **disabledForegroundColor** spécifie ou récupère la couleur de t
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si **disabledForegroundColor** n’est pas spécifié, **foregroundColor** est utilisé.
 

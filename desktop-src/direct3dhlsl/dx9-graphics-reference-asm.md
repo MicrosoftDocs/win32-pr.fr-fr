@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2941f4c32d03187ce08266bf1382cd1d94301ce0
-ms.sourcegitcommit: 477b1efe7d9c2f91d5f2ac588a20edf348b1c734
+ms.openlocfilehash: 9dbeb680b7131581b3891e59bb6bd2db0d6e5c19eb6279c47b83d22f01b5000e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104971643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119543"
 ---
 # <a name="asm-shader-reference"></a>Référence du nuanceur asm
 
@@ -150,9 +150,9 @@ Consultez [référence HLSL](dx-graphics-hlsl-reference.md) pour découvrir un l
 [Référence pour le langage HLSL](dx-graphics-hlsl-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

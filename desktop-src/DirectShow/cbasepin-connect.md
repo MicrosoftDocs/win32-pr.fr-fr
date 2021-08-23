@@ -1,7 +1,7 @@
 ---
-description: 'La méthode Connect connecte le pin à un autre code PIN. Cette méthode implémente la méthode IPin :: Connect.'
+description: 'la méthode Connecter connecte le pin à un autre code confidentiel. cette méthode implémente la méthode IPin :: Connecter.'
 ms.assetid: 8ea99d2f-09da-4b15-a3b0-04ceb7888bc1
-title: CBasePin. Connect, méthode (Amfilter. h)
+title: CBasePin. méthode Connecter (Amfilter. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ed8bcdab7e0909e59e7d9ec00645786f8ce48c02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a134b87e9c7c4d0f665ae37df7ec9cd0ecb3a37c0d0548f27835ead7b8ecca21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074793"
 ---
-# <a name="cbasepinconnect-method"></a>CBasePin. Connect, méthode
+# <a name="cbasepinconnect-method"></a>CBasePin. méthode Connecter
 
-La `Connect` méthode connecte le pin à un autre code confidentiel. Cette méthode implémente la méthode [**IPIN :: Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) .
+La `Connect` méthode connecte le pin à un autre code confidentiel. cette méthode implémente la méthode [**IPin :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                                  | Description                                                                        |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                         | Opération réussie.<br/>                                                                |
+| <dl> <dt>**\_OK**</dt> </dl>                         | Réussite.<br/>                                                                |
 | <dl> <dt>**VFW \_ E \_ déjà \_ connecté**</dt> </dl>    | Le pin est déjà connecté.<br/>                                           |
 | <dl> <dt>**VFW \_ E \_ aucun \_ \_ type acceptable**</dt> </dl> | Impossible de trouver un type de média acceptable.<br/>                                |
 | <dl> <dt>**VFW \_ E \_ non \_ arrêté**</dt> </dl>          | Le filtre est actif et le code confidentiel ne prend pas en charge la reconnexion dynamique.<br/> |
@@ -75,7 +75,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre *VPM* peut avoir la **valeur null**. Il peut également spécifier un type de média partiel, avec la valeur GUID \_ null pour le type, le sous-type ou le format principal.
 
@@ -87,7 +87,7 @@ Dans la classe de base, cette méthode teste si le pin est déjà connecté et s
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

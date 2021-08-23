@@ -1,21 +1,21 @@
 ---
-title: Valeurs de registre de la méthode d’authentificateur EAP
-description: En savoir plus sur les valeurs de registre de la méthode d’authentificateur EAP. Ces valeurs de Registre spécifiques sont requises pour les méthodes d’authentificateur EAP.
+title: valeurs de registre de la méthode Authenticator EAP
+description: en savoir plus sur les valeurs de registre de la méthode EAP Authenticator. Ces valeurs de Registre spécifiques sont requises pour les méthodes d’authentificateur EAP.
 ms.assetid: 9374f9f7-b088-4e3a-ac96-8ccbeda87bb7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a710ca6f09914c8d111c42a8323a9c39c51f898
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c1db88a910a40519533ffddae40c1e1cc04d36b62f3d3ad6543ddd4a2999373e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984309"
 ---
-# <a name="eap-authenticator-method-registry-values"></a>Valeurs de registre de la méthode d’authentificateur EAP
+# <a name="eap-authenticator-method-registry-values"></a>valeurs de registre de la méthode Authenticator EAP
 
 Des valeurs de Registre spécifiques sont requises pour les méthodes d’authentificateur EAP.
 
-## <a name="eap-authenticator-method-dll-paths"></a>Chemins DLL de la méthode d’authentificateur EAP
+## <a name="eap-authenticator-method-dll-paths"></a>chemins d’accès de la DLL de méthode Authenticator EAP
 
 Le chemin d’accès suivant spécifie l’emplacement du Registre pour les dll de méthode d’authentificateur EAP standard.
 
@@ -36,7 +36,7 @@ Par exemple, un chemin d’accès d’installation d’une méthode d’authenti
 > [!Note]  
 > Pour plus d’informations sur l’allocation des types de méthode EAP, consultez la section 6,2 de la [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016).
 
- 
+ 
 
 ## <a name="registry-values"></a>Valeurs de Registre
 
@@ -61,11 +61,11 @@ Les valeurs de registre de la méthode d’authentificateur restante sont facult
 | Valeur constante | AuthenticatorDllPath                                                                                          |
 |----------------|---------------------------------------------------------------------------------------------------------------|
 | Type           | REG \_ développer \_ SZ                                                                                               |
-| Description    | Chemin d’accès à la DLL de méthode de l’authentificateur EAP. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de \_ dll &gt; . dll. |
+| Description    | Chemin d’accès à la DLL de méthode de l’authentificateur EAP. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de la \_ dll &gt;.dll. |
 
 
 
- 
+ 
 
 ## <a name="authenticatorfriendlyname"></a>AuthenticatorFriendlyName
 
@@ -78,7 +78,7 @@ Les valeurs de registre de la méthode d’authentificateur restante sont facult
 
 
 
- 
+ 
 
 ## <a name="configclsid"></a>ConfigCLSID
 
@@ -91,7 +91,7 @@ Les valeurs de registre de la méthode d’authentificateur restante sont facult
 
 
 
- 
+ 
 
 ## <a name="properties"></a>Propriétés
 
@@ -104,7 +104,7 @@ Les valeurs de registre de la méthode d’authentificateur restante sont facult
 
 
 
- 
+ 
 
 ## <a name="standalonesupported"></a>StandaloneSupported
 
@@ -117,7 +117,7 @@ Les valeurs de registre de la méthode d’authentificateur restante sont facult
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -135,9 +135,9 @@ Les valeurs de registre de la méthode d’authentificateur restante sont facult
 [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

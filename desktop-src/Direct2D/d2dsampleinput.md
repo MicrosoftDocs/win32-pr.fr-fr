@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5929e9c113e5fa9a7c8a72003357b280a810e49e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c887221ade413b63456ecb3c4a91c7a5b480858b04e1f34e89506fdcf071dfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075273"
 ---
 # <a name="d2dsampleinput-function"></a>D2DSampleInput fonction)
 
@@ -56,7 +56,7 @@ Position UV.
 
 La fonction retourne un **float4**, au format TEXCOORDN.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’exemple suivant illustre la fonction utilisée pour calculer les normales des surfaces.
 

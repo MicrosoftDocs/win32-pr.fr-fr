@@ -4,18 +4,18 @@ ms.assetid: 1545b4f1-3ccf-4745-90d8-15f1f79d8455
 title: Ajout d’une table CustomUserAccounts personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d58366c725ecc135b9583c926a16383a5ad5a01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ede08ad733e2870e970416da3de345bfc89b7e63147bc848f3d36ffe66721585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106525023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066459"
 ---
 # <a name="adding-a-custom-customuseraccounts-table"></a>Ajout d’une table CustomUserAccounts personnalisée
 
 Une spécification de l’exemple est que les informations de compte d’utilisateur sont lues à partir d’une table personnalisée dans la base de données d’installation et ne sont pas codées en dur dans l’action personnalisée.
 
-Ajoutez une table personnalisée à l’exemple de base de données d’installation nommée CustomUserAccounts pour contenir les informations du compte d’utilisateur. Pour obtenir un exemple d’ajout d’une table personnalisée [, consultez Exemples de requêtes de base de données avec SQL et script](examples-of-database-queries-using-sql-and-script.md) . Utilisez le schéma suivant pour la table CustomUserAccounts. Pour obtenir une explication des types de colonnes, consultez [format de définition de colonne](column-definition-format.md) .
+Ajoutez une table personnalisée à l’exemple de base de données d’installation nommée CustomUserAccounts pour contenir les informations du compte d’utilisateur. pour obtenir un exemple d’ajout d’une table personnalisée [, consultez exemples de requêtes de base de données à l’aide de SQL et](examples-of-database-queries-using-sql-and-script.md) d’un Script. Utilisez le schéma suivant pour la table CustomUserAccounts. Pour obtenir une explication des types de colonnes, consultez [format de définition de colonne](column-definition-format.md) .
 
 
 
@@ -29,7 +29,7 @@ Ajoutez une table personnalisée à l’exemple de base de données d’installa
 
  
 
-Une fois la table CustomUserAccounts ajoutée à la base de données, vous pouvez modifier cette table à l’aide d’Orca, un éditeur de tables fourni avec le kit de développement logiciel (SDK) Windows Installer, ou un autre éditeur. Entrez l’enregistrement suivant dans la table CustomUserAccounts pour créer un compte d’utilisateur sécurisé par mot de passe pour un utilisateur nommé TestUser. Notez que 512 est la valeur numérique du \_ compte normal UF \_ .
+une fois la table CustomUserAccounts ajoutée à la base de données, vous pouvez modifier cette table à l’aide d’Orca, un éditeur de tables fourni avec le kit de développement logiciel (SDK) Windows Installer, ou un autre éditeur. Entrez l’enregistrement suivant dans la table CustomUserAccounts pour créer un compte d’utilisateur sécurisé par mot de passe pour un utilisateur nommé TestUser. Notez que 512 est la valeur numérique du \_ compte normal UF \_ .
 
 Table CustomUserAccounts
 

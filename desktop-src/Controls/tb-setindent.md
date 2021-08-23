@@ -3,7 +3,7 @@ title: Message TB_SETINDENT (commctrl. h)
 description: Définit la mise en retrait du premier bouton dans un contrôle de barre d’outils.
 ms.assetid: 2d57cd1f-2bfa-4c6e-9581-9e8ab4b8196d
 keywords:
-- TB_SETINDENT les contrôles de message Windows
+- TB_SETINDENT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05dfaf8a87737e4087b11f5c5acb8e822ed7f802
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d3e800e9c61af3a22f8622fa7dc6d0ae3286f22e7403ebfc387b6a773d4d4c88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078213"
 ---
 # <a name="tb_setindent-message"></a>TO \_ SETINDENT message
 
@@ -49,8 +49,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 27fbf603fd670cac2a39831114a7f141b17ffd2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 818a7682fed504028ebee1c3a5ff5d35a268e1daad8756b110bcfcb2ca8d9f80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016867"
 ---
 # <a name="cbaserenderershoulddrawsamplenow-method"></a>Méthode CBaseRenderer. ShouldDrawSampleNow
 
@@ -81,7 +81,7 @@ Retourne S \_ false. Si la classe dérivée se substitue à cette méthode, reto
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**CBaseRenderer :: GetSampleTimes**](cbaserenderer-getsampletimes.md) appelle cette méthode. Par défaut, les exemples sont toujours planifiés pour le rendu en fonction de leur horodatage. La classe dérivée peut substituer cette méthode. par exemple, pour implémenter le contrôle de qualité.
 
@@ -91,7 +91,7 @@ La méthode [**CBaseRenderer :: GetSampleTimes**](cbaserenderer-getsampletimes.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

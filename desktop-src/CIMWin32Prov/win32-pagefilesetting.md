@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b3ec2fa36e31cf9075f218f31d3063e3a298b8ec
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b860e5b9677b4d4774e0a3a01fb1cc27b336e7c1a02ebcfc40351f5eda21eb8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020187"
 ---
 # <a name="win32_pagefilesetting-class"></a>\_Classe PageFileSetting Win32
 
@@ -167,7 +167,7 @@ Cette propriété est héritée [**du \_ paramètre CIM**](cim-setting.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PageFileSetting** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 

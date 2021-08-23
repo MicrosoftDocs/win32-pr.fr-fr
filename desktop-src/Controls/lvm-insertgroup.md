@@ -3,7 +3,7 @@ title: Message LVM_INSERTGROUP (commctrl. h)
 description: Insère un groupe dans un contrôle List-View.
 ms.assetid: d43e21bc-e212-42dd-af88-48813d40cd50
 keywords:
-- LVM_INSERTGROUP les contrôles de message Windows
+- LVM_INSERTGROUP les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94dbae780f7de26a5c791477e1a7321794054056
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f31504226663b0df91e0297ed29abf784ff239dfcee5f323e8617f73dff65acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019247"
 ---
 # <a name="lvm_insertgroup-message"></a>\_Message INSERTGROUP LVM
 
@@ -39,7 +39,7 @@ Insère un groupe dans un contrôle List-View.
 
 Retourne l’index de l’élément auquel le groupe a été ajouté, ou-1 si l’opération a échoué.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour activer le mode groupe, appelez [**LVM \_ ENABLEGROUPVIEW**](lvm-enablegroupview.md) ou [**ListView \_ ENABLEGROUPVIEW**](/windows/desktop/api/Commctrl/nf-commctrl-listview_enablegroupview).
 
@@ -58,8 +58,8 @@ Veillez à définir le **iGroupId** dans le ou les éléments auxquels le groupe
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

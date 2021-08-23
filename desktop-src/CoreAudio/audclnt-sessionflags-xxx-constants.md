@@ -4,12 +4,12 @@ ms.assetid: 5745d5bc-71e8-4b33-8227-c1c84226b6ee
 title: Constantes AUDCLNT_SESSIONFLAGS_XXX (Audiosessiontypes. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e2152c33103ca3366399995b7d11bb072f2bdd2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 15423d24d48a98b69c4ab1651941fba639885c03e27cf9df8b1834aab830bb6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018497"
 ---
 # <a name="audclnt_sessionflags_xxx-constants"></a>AUDCLNT \_ SESSIONFLAGS \_ xxx, constantes
 
@@ -31,8 +31,8 @@ Les \_ \_ constantes AUDCLNT SESSIONFLAGS xxx indiquent les caractéristiques d�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Audiosessiontypes. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Cette section contient la liste des manuels et des ressources recom
 ms.assetid: a7a5aee9-e31f-42d1-bf90-2fa91365ef2f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5916c128ce7bedc7993804d7cfecf711684140ae
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 426ab7734abdf8f7b07bb123c09b557fdfed78ba098930a2b5053e062e9647a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104032015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021387"
 ---
 # <a name="other-resources"></a>Autres ressources
 
@@ -23,7 +23,7 @@ Cette section contient la liste des manuels et des ressources recommandés en ra
 
 <dl> <dt>
 
-<span id="_Windows_Interface_Guidelines_for_Software_Design"></span><span id="_windows_interface_guidelines_for_software_design"></span><span id="_WINDOWS_INTERFACE_GUIDELINES_FOR_SOFTWARE_DESIGN"></span>*Instructions relatives à l’interface Windows pour la conception de logiciels*
+<span id="_Windows_Interface_Guidelines_for_Software_Design"></span><span id="_windows_interface_guidelines_for_software_design"></span><span id="_WINDOWS_INTERFACE_GUIDELINES_FOR_SOFTWARE_DESIGN"></span>*instructions relatives à l’Interface Windows pour la conception de logiciels*
 </dt> <dd>
 
 (Microsoft Press, 1995 ; ISBN 1-55615-679-0)
@@ -35,7 +35,7 @@ Ce livre décrit toutes les règles d’interface utilisateur clés à suivre, a
 <span id="Usability_Engineering_by_Jakob_Nielsen_"></span><span id="usability_engineering_by_jakob_nielsen_"></span><span id="USABILITY_ENGINEERING_BY_JAKOB_NIELSEN_"></span>*Ingénierie conviviale* par Jakob Nielsen 
 </dt> <dd>
 
-(AP professionnel, 1994 ; ISBN 0125184069)
+(AP Professional, 1994 ; ISBN 0125184069)
 
 Ce livre est axé sur les techniques permettant de mesurer efficacement l’utilisation d’une interface. Il décrit de nombreuses techniques de test différentes pour comparer différentes idées de conception, y compris des suggestions pour réduire les coûts de test de la convivialité. Ce livre couvre les techniques d’analyse qui peuvent être appliquées aux sites Web, aux pages Web ou à tout type de logiciel. C’est parfait pour les phases initiales de l’apprentissage sur les utilisateurs et les phases intermédiaires de test d’itération et d’utilisation.
 
@@ -68,7 +68,7 @@ Ce livre reste un résumé des différentes approches de la conception de l’in
 
 </dd> <dt>
 
-<span id="Microsoft_Windows_User_Experience"></span><span id="microsoft_windows_user_experience"></span><span id="MICROSOFT_WINDOWS_USER_EXPERIENCE"></span>*Expérience utilisateur Microsoft Windows*
+<span id="Microsoft_Windows_User_Experience"></span><span id="microsoft_windows_user_experience"></span><span id="MICROSOFT_WINDOWS_USER_EXPERIENCE"></span>*expérience utilisateur Microsoft Windows*
 </dt> <dd>
 
 (Microsoft Press, 1999 ; ISBN 0735605661)
@@ -164,9 +164,9 @@ Recherchez plus de 58 000 publications sur Human-Computer interaction.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

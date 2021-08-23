@@ -4,18 +4,18 @@ ms.assetid: 69de5232-e2f9-4aed-935d-5fbcd7998cc9
 title: Préparation à l’utilisation de CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6fc1ad0dbfe3d4f8c4dae3286eb3ffa5e1ae03d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83a6b76c293395fd0979cf5c304b27bae75622996279bd891b8c0c1301dca82e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006628"
 ---
 # <a name="getting-ready-to-use-capicom"></a>Préparation à l’utilisation de CAPICOM
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
-Les applications qui utilisent des objets CAPICOM doivent être créées à l’aide de CAPICOM.dll. CAPICOM.dll doit également être présente et inscrite au moment de l’exécution pour utiliser les objets CAPICOM. CAPICOM.dll doit être ajouté aux références de projets Visual Basic pour utiliser les objets CAPICOM.
+Les applications qui utilisent des objets CAPICOM doivent être créées à l’aide de CAPICOM.dll. CAPICOM.dll doit également être présente et inscrite au moment de l’exécution pour utiliser les objets CAPICOM. CAPICOM.dll doit être ajouté aux références de projets Visual Basic pour utiliser les objets capicom.
 
 CAPICOM est disponible sous la forme d’un fichier redistribuable qui peut être téléchargé à partir de [Platform SDK Redistributable : CAPICOM](https://www.microsoft.com/download/details.aspx?id=25281). Pour plus d’informations sur les versions de CAPICOM, consultez [CAPICOM versions](capicom-versions.md).
 
@@ -37,7 +37,7 @@ Certains exemples des sections suivantes effectuent des opérations qui nécessi
 
 **Pour créer un certificat auto-signé**
 
-1.  Installez les outils de signature. Celles-ci sont installées dans le cadre du kit de développement logiciel (SDK) de Microsoft Windows, du kit de développement logiciel (SDK) de la plateforme ou du kit de développement logiciel (SDK) .NET Framework.
+1.  Installez les outils de signature. ils sont installés dans le cadre du kit de développement logiciel (sdk) de Microsoft Windows, du kit de développement logiciel (sdk) de la plateforme ou du kit de développement logiciel (sdk) .NET Framework.
 2.  Après avoir téléchargé Makecert.exe, exécutez la commande suivante à partir d’une invite de commandes, en remplaçant le nom d’utilisateur par un nom *d'* utilisateur, le nom de l’organisation par *Nom_organisation* et le nom de société *CompanyName*:
 
     **Makecert-r-n "CN =**_username_*_, ou =_*_Nom_organisation_*_, o =_*_CompanyName_*_"-SS My_*

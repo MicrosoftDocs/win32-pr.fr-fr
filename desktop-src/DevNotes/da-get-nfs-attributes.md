@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4427dd48190bd12f7837c4841a98e15f7ddaff5f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e3e2b974d58888c35c24e18f16e1e75da46a180bb8123e9745170e074cd448de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956108"
 ---
 # <a name="da_get_nfs_attributes-control-code"></a>\_Code de \_ contrôle des attributs NFS d’extraction de da \_
 
@@ -214,7 +214,7 @@ Type de fichier NFS du partage.
 | <span id="NFS_TYPE_BLK"></span><span id="nfs_type_blk"></span>\_BLK de type NFS \_<br/>    | Fichier spécial de bloc.<br/>     |
 | <span id="NFS_TYPE_CHR"></span><span id="nfs_type_chr"></span>TYPE de NFS \_ \_ Chr<br/>    | Fichier spécial de caractères.<br/> |
 | <span id="NFS_TYPE_LNK"></span><span id="nfs_type_lnk"></span>\_type NFS \_ lnk<br/>    | Lien symbolique.<br/>          |
-| <span id="NFS_TYPE_SOCK"></span><span id="nfs_type_sock"></span>\_chaussette de type NFS \_<br/> | Socket Windows.<br/>         |
+| <span id="NFS_TYPE_SOCK"></span><span id="nfs_type_sock"></span>\_chaussette de type NFS \_<br/> | socket Windows.<br/>         |
 | <span id="NFS_TYPE_FIFO"></span><span id="nfs_type_fifo"></span>\_type NFS \_ FIFO<br/> | Fichier FIFO.<br/>              |
 
 
@@ -240,14 +240,14 @@ Nombre de liens vers le partage.
 <span id="Uid"></span><span id="uid"></span><span id="UID"></span>**Codé**
 </dt> <dd>
 
-Identificateur d’utilisateur (UID) UNIX.
+identificateur d’utilisateur (UID) UNIX.
 
 </dd> <dt>
 
 <span id="Gid"></span><span id="gid"></span><span id="GID"></span>**ID**
 </dt> <dd>
 
-Identificateur du groupe UNIX (GID).
+identificateur du groupe de UNIX (GID).
 
 </dd> <dt>
 

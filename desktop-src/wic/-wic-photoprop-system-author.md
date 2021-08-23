@@ -4,12 +4,12 @@ ms.assetid: 2de9c452-93be-40a4-a72b-5da590534dfd
 title: Stratégie de métadonnées de photos System. Author
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb90345257ef1623f7cda1ce4318af7a9f472df5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b898f450fe1d370f94a9be2922eb650db47ac8c2e414c27d9eede23f0dada276
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088001"
 ---
 # <a name="systemauthor-photo-metadata-policy"></a>Stratégie de métadonnées de photos System. Author
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. Author](../
 
 Auteur de la définition de l’écriture \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                             | Format de disque    |
+| Commande | Chemin                             | Format de disque    |
 |-------|----------------------------------|----------------|
 | 1     | /App1/IFD/{UShort = 315}           | ascii          |
 | 2     | /app13/irb/8bimiptc/iptc/by-line |                |
@@ -62,7 +62,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                             | Format de disque    |
+| Commande | Chemin                             | Format de disque    |
 |-------|----------------------------------|----------------|
 | 1     | /XMP/ <xmpseq> DC : Creator    | unicode        |
 | 2     | /XMP/TIFF : artiste                 | unicode        |
@@ -78,7 +78,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                             |
+| Commande | Chemin                             |
 |-------|----------------------------------|
 | 1     | /XMP/DC : Creator                  |
 | 2     | /XMP/TIFF : artiste                 |
@@ -96,7 +96,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                              | Format de disque    |
+| Commande | Chemin                              | Format de disque    |
 |-------|-----------------------------------|----------------|
 | 1     | /IFD/{UShort = 315}                 | ascii          |
 | 2     | /ifd/iptc/by-line                 |                |
@@ -114,7 +114,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                              | Format de disque    |
+| Commande | Chemin                              | Format de disque    |
 |-------|-----------------------------------|----------------|
 | 1     | /IFD/XMP/ <xmpseq> DC : Creator | unicode        |
 | 2     | /IFD/XMP/TIFF : artiste              | unicode        |
@@ -131,7 +131,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                           |
+| Commande | Chemin                           |
 |-------|--------------------------------|
 | 1     | /IFD/XMP/DC : Creator            |
 | 2     | /IFD/XMP/TIFF : artiste           |
@@ -144,7 +144,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

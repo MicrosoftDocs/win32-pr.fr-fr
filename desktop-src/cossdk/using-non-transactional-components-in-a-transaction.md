@@ -4,12 +4,12 @@ ms.assetid: b83b4bab-1851-48dc-b35a-6467a6dff741
 title: Utilisation de composants non transactionnels dans une transaction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a75cd8ebc756971a56413e371cf23de2144e5816
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 365cf6f8e5c20f328f4308366e9a98916d9277363bba815fdbc00b5e2d8203d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991349"
 ---
 # <a name="using-non-transactional-components-in-a-transaction"></a>Utilisation de composants non transactionnels dans une transaction
 
@@ -19,7 +19,7 @@ L' *objet de contexte de transaction* est un objet générique qui permet aux cl
 
 Par défaut, la valeur d’attribut de transaction de l’objet de contexte de transaction est définie sur obligatoire. COM+ abandonne la transaction si le client libère l’objet de contexte de transaction sans émettre explicitement un appel de validation ou d’abandon.
 
-L’exemple de Visual Basic suivant montre comment un client non transactionnel peut composer le travail effectué par plusieurs objets en une seule transaction :
+l’exemple de Visual Basic suivant montre comment un client non transactionnel peut composer le travail effectué par plusieurs objets en une seule transaction :
 
 
 ```VB

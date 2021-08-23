@@ -4,27 +4,27 @@ description: Éléments PARAM dans un élément OBJECT
 ms.assetid: f9229d92-3a7e-4ba4-a84c-20e60f2482dc
 keywords:
 - Lecteur Windows Media, éléments PARAM dans l’élément OBJECT
-- Windows Media Player Object Model, PARAM, éléments dans l’élément OBJECT
+- Lecteur Windows Media modèle objet, éléments PARAM dans l’élément object
 - modèle objet, éléments PARAM dans l’élément OBJECT
-- Windows Media Player Mobile, éléments PARAM dans l’élément OBJECT
-- Windows Media Player ActiveX Control, PARAM, éléments dans l’élément OBJECT
-- Windows Media Player Mobile contrôle ActiveX, éléments PARAM dans l’élément OBJECT
-- Contrôle ActiveX, éléments PARAM dans l’élément OBJECT
+- Lecteur Windows Media Mobile, éléments PARAM dans l’élément OBJECT
+- Lecteur Windows Media ActiveX contrôle, éléments PARAM dans l’élément OBJECT
+- Lecteur Windows Media contrôle Mobile ActiveX, éléments PARAM dans l’élément OBJECT
+- contrôle ActiveX, éléments PARAM dans l’élément OBJECT
 - incorporation, pages Web
 - Incorporation de pages Web, éléments PARAM dans l’élément OBJECT
 - PARAM, éléments dans l’élément OBJECT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0fc5b9f64fa462386ec037eba34ed4e0659bb1
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: 7da684a39739703038793abb2f4fdd32b924f35cdffc0c0f9d796fb7dbb5532b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "103840930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054427"
 ---
 # <a name="param-elements-in-an-object-element"></a>Éléments PARAM dans un élément OBJECT
 
-Le lecteur Windows Media utilise l’élément PARAM pour définir des conditions de démarrage spécifiques pour le contrôle. L’élément PARAM est incorporé à l’intérieur de l’élément OBJECT.
+Lecteur Windows Media utilise l’élément PARAM pour définir des conditions de démarrage spécifiques pour le contrôle. L’élément PARAM est incorporé à l’intérieur de l’élément OBJECT.
 
 Par exemple, si vous souhaitez définir si la propriété **AutoStart** a la valeur true, vous devez incorporer l’élément param à l’intérieur de l’élément Object.
 
@@ -46,39 +46,39 @@ Les attributs PARAM pris en charge varient légèrement entre les navigateurs et
 
 | Nom du paramètre                                            | Internet Explorer | Firefox avec type MIME application/x-ms-WMP | Firefox avec tout autre type MIME |
 |-------------------------------------------------------|-------------------|---------------------------------------------|----------------------------------|
-| [Démarrage automatique](settings-autostart.md)                   | Oui               | Oui                                         | Oui                              |
-| [équilibrée](settings-balance.md)                       | Oui               | Oui                                         | Oui                              |
-| [baseURL](settings-baseurl.md)                       | Oui               | Oui                                         | Oui                              |
-| [captioningID](closedcaption-captioningid.md)        | Oui               | Oui                                         | Oui                              |
-| [currentMarker](controls-currentmarker.md)           | Oui               | Oui                                         | Oui                              |
-| [currentPosition](controls-currentposition.md)       | Oui               | Oui                                         | Oui                              |
-| [defaultFrame](settings-defaultframe.md)             | Oui               | non                                          | non                               |
-| [enableContextMenu](player-enablecontextmenu.md)     | Oui               | Oui                                         | Oui                              |
-| [activé](player-enabled.md)                         | Oui               | Oui                                         | Oui                              |
-| [enableErrorDialogs](settings-enableerrordialogs.md) | Oui               | Oui                                         | non                               |
-| **fileName**                                          | non                | Oui                                         | Oui                              |
-| [Large](player-fullscreen.md)                   | Oui               | non                                          | non                               |
-| [invokeURLs](settings-invokeurls.md)                 | Oui               | non                                          | non                               |
-| [muette](settings-mute.md)                             | Oui               | Oui                                         | Oui                              |
-| [playCount](settings-playcount.md)                   | Oui               | Oui                                         | non                               |
-| [évaluation](settings-rate.md)                             | Oui               | Oui                                         | Oui                              |
-| [SAMIFileName](closedcaption-samifilename.md)        | Oui               | Oui                                         | Oui                              |
-| [SAMILang](closedcaption-samilang.md)                | Oui               | Oui                                         | Oui                              |
-| [SAMIStyle](closedcaption-samistyle.md)              | Oui               | Oui                                         | Oui                              |
-| **SOURCES**                                               | non                | Oui                                         | Oui                              |
-| [stretchToFit](player-stretchtofit.md)               | Oui               | Oui                                         | non                               |
-| [URL](player-url.md)                                 | Oui               | Oui                                         | Oui                              |
-| [volume](settings-volume.md)                         | Oui               | Oui                                         | Oui                              |
-| [windowlessVideo](player-windowlessvideo.md)         | Oui               | Oui                                         | Oui                              |
+| [Démarrage automatique](settings-autostart.md)                   | oui               | oui                                         | oui                              |
+| [équilibrée](settings-balance.md)                       | oui               | oui                                         | oui                              |
+| [baseURL](settings-baseurl.md)                       | oui               | oui                                         | oui                              |
+| [captioningID](closedcaption-captioningid.md)        | oui               | oui                                         | oui                              |
+| [currentMarker](controls-currentmarker.md)           | oui               | oui                                         | oui                              |
+| [currentPosition](controls-currentposition.md)       | oui               | oui                                         | oui                              |
+| [defaultFrame](settings-defaultframe.md)             | oui               | non                                          | non                               |
+| [enableContextMenu](player-enablecontextmenu.md)     | oui               | oui                                         | oui                              |
+| [activé](player-enabled.md)                         | oui               | oui                                         | oui                              |
+| [enableErrorDialogs](settings-enableerrordialogs.md) | oui               | oui                                         | non                               |
+| **fileName**                                          | non                | oui                                         | oui                              |
+| [Large](player-fullscreen.md)                   | oui               | non                                          | non                               |
+| [invokeURLs](settings-invokeurls.md)                 | oui               | non                                          | non                               |
+| [muette](settings-mute.md)                             | oui               | oui                                         | oui                              |
+| [playCount](settings-playcount.md)                   | oui               | oui                                         | non                               |
+| [évaluation](settings-rate.md)                             | oui               | oui                                         | oui                              |
+| [SAMIFileName](closedcaption-samifilename.md)        | oui               | oui                                         | oui                              |
+| [SAMILang](closedcaption-samilang.md)                | oui               | oui                                         | oui                              |
+| [SAMIStyle](closedcaption-samistyle.md)              | oui               | oui                                         | oui                              |
+| **SOURCES**                                               | non                | oui                                         | oui                              |
+| [stretchToFit](player-stretchtofit.md)               | oui               | oui                                         | non                               |
+| [URL](player-url.md)                                 | oui               | oui                                         | oui                              |
+| [volume](settings-volume.md)                         | oui               | oui                                         | oui                              |
+| [windowlessVideo](player-windowlessvideo.md)         | oui               | oui                                         | oui                              |
 
 
 
- 
+ 
 
 > [!Note]  
 > Les éléments **filename** et **src** param sont pris en charge par le plug-in Firefox, mais pas par Internet Explorer. Elles exécutent toutes les deux la même fonction que l’élément **URL** param.
 
- 
+ 
 
 Pour plus d’informations sur les valeurs de chaque attribut de nom, consultez [Référence du modèle objet pour l’écriture de scripts](object-model-reference-for-scripting.md) .
 
@@ -86,12 +86,12 @@ Pour plus d’informations sur les valeurs de chaque attribut de nom, consultez 
 
 <dl> <dt>
 
-[**Utilisation du contrôle du lecteur Windows Media dans une page Web**](using-the-windows-media-player-control-in-a-web-page.md)
+[**utilisation du contrôle Lecteur Windows Media dans une Page Web**](using-the-windows-media-player-control-in-a-web-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

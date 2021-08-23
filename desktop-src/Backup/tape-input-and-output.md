@@ -6,12 +6,12 @@ keywords:
 - Sauvegarde d’entrée et de sortie sur bande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5946659f1ad0246e37981201e4e08611b45b70b1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e281eb6104cb71fbd5e7f0b3d9072cefe562ac7b9cc54e05ede53bece8755178
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021268"
 ---
 # <a name="tape-input-and-output"></a>Entrée et sortie sur bande
 
@@ -38,6 +38,6 @@ Si une application doit accéder uniquement aux données du fichier, elle doit u
 
 Une application de sauvegarde sur bande doit utiliser [**BackupRead**](/windows/desktop/api/Winbase/nf-winbase-backupread) et [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) pour copier toutes les informations relatives à un fichier. Toutefois, ces fonctions ne lisent ni n’écrivent les caractéristiques des fichiers, telles que les attributs, l’heure de création de fichier, etc. Les applications doivent utiliser les fonctions d’entrée et de sortie de fichier, telles que [**GetFileAttributes**](/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa) et [**SetFileAttributes**](/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa), pour récupérer et définir ces valeurs.
 
- 
+ 
 
- 
+ 

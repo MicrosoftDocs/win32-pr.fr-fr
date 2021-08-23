@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101923
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 46c029db5bb28e8a875cb8f5cdfcab732c42a26c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18202017fe9b0eb305a91251d63335ccb574d37f58b3e10511f6e50cd5a6ae95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104211037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041312"
 ---
 # <a name="esentinvalidcodepageexception-properties"></a>Propriétés EsentInvalidCodePageException
 
@@ -49,7 +49,7 @@ Le type [EsentInvalidCodePageException](./esentinvalidcodepageexception-class.md
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

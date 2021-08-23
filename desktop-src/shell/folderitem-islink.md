@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: bd4357485dce3f3d236f31797d8b2df7028f3d65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb12c2273bb22af2df9f76c6606cad69223fa04292e0d556a65d4898bc968c75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093123"
 ---
 # <a name="folderitemislink-property"></a>FolderItem. IsLink, propriété
 
@@ -41,9 +41,9 @@ Valeur **booléenne** qui reçoit la **valeur true** si l’élément est un rac
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **IsLink** pour déterminer si un objet particulier est un lien. Dans ce cas, l’objet est un raccourci vers Internet Explorer et doit donc retourner la **valeur true**. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant utilise **IsLink** pour déterminer si un objet particulier est un lien. Dans ce cas, l’objet est un raccourci vers Internet Explorer et doit donc retourner la **valeur true**. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -142,13 +142,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

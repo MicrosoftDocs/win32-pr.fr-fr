@@ -4,12 +4,12 @@ ms.assetid: ecf92ef7-1c6e-49e7-9f2a-eddd6d493abe
 title: System. GPS. DestDistanceDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6b2b8516a531fa088f142d96c909ef583d7aceb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87f151ef0cda6c4f00a42e43ae6ae61453cb8581d964aabb95c05870a79ba2e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033547"
 ---
 # <a name="systemgpsdestdistancedenominator"></a>System. GPS. DestDistanceDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ description: Cet article est destiné à répondre à certaines questions couran
 ms.assetid: 2ab439be-8d99-bcf8-89af-d4274e044c88
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9c0faf346bd8793e61a89128ce573e29b7a8267
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bcd694243adad852d68e5db5fc342f9259ace7ebbc71923bf56a60bbc1b511b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070539"
 ---
 # <a name="directx-installation-for-game-developers"></a>Installation de DirectX pour les développeurs de jeux
 
@@ -29,7 +29,7 @@ Cet article est destiné à répondre à certaines questions courantes sur le ru
 
 Le composant d’exécution DirectX se compose de composants de base et de composants facultatifs.
 
-Les composants de base, tels que Direct3D et DirectInput, sont considérés comme faisant partie du système d’exploitation. Les composants principaux de DirectX 9.0 c n’ont pas changé depuis la mise à jour 2004 du kit de développement logiciel (SDK) DirectX, et ils correspondent à ce qui a été publié avec Microsoft Windows XP SP2, Windows XP Professionnel Édition x64 et Windows Server 2003 SP1. Windows Vista comprend DirectX 10, qui prend en charge le modèle WDDM (Windows Display Driver Model) et Direct3D 10. x. Windows 7 et Windows Vista (voir [KB971644](https://support.microsoft.com/kb/971644)) prennent en charge DirectX 11, qui prend en charge Direct3D 11, Direct2D, DirectWrite, le périphérique de rendu logiciel WARP10 et les niveaux de fonctionnalité 10level9. Pour plus d’informations, consultez [API graphiques dans Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista) .
+Les composants de base, tels que Direct3D et DirectInput, sont considérés comme faisant partie du système d’exploitation. les composants principaux de directx 9.0 c n’ont pas changé depuis la mise à jour 2004 du kit de développement logiciel (SDK) directx, et ils correspondent à ce qui a été publié avec Microsoft Windows xp SP2, Windows XP Pro édition x64 et Windows Server 2003 SP1. Windows Vista comprend DirectX 10, qui prend en charge le modèle WDDM (Windows Display Driver Model) et Direct3D 10. x. Windows 7 et Windows Vista (voir [KB971644](https://support.microsoft.com/kb/971644)) prennent en charge DirectX 11, qui prend en charge Direct3D 11, Direct2D, DirectWrite, le périphérique de rendu logiciel WARP10 et les niveaux de fonctionnalité 10level9. pour plus d’informations, consultez [api graphics dans Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista) .
 
 Les composants facultatifs sont publiés dans les mises à jour du kit de développement logiciel (SDK) DirectX et incluent D3DX, XACT, XAudio2, XINPUT, Managed DirectX et d’autres composants de ce type. La plupart des composants facultatifs sont régulièrement mis à jour pour intégrer les commentaires des clients et exposer les nouvelles fonctionnalités.
 
@@ -48,7 +48,7 @@ Dans le passé, les composants facultatifs du kit de développement logiciel (SD
 Bien que l’installation des dll sur un système ne soit pas aussi simple que la liaison à des bibliothèques statiques, certaines modifications ont été apportées au kit de développement logiciel (SDK) DirectX pour résoudre les problèmes du modèle de DLL :
 
 -   Le package redistribuable DirectX peut être configuré pour contenir uniquement les composants dont votre application a besoin pour réduire la distribution et la taille des médias.
--   Le dossier redistribuable Program Files \\ SDK du kit de développement logiciel \\ (SDK) DirectX \\ contient maintenant un fichier cabinet (. cab) pour chaque composant facultatif possible. vous n’avez donc pas besoin d’explorer un ancien SDK pour les trouver.
+-   Le dossier redistribuable Program Files \\ du SDK DirectX \\ Redist \\ , contient maintenant un fichier CAB (.cab) pour chaque composant facultatif possible. vous n’avez donc pas besoin d’explorer un ancien SDK pour les trouver.
 -   L’installation du kit de développement logiciel (SDK) lui-même installe tous les composants facultatifs possibles.
 -   Un package redistribuable DirectX qui contient tous les composants facultatifs est disponible à la fois en tant que programme d’installation Web et en tant que package téléchargeable. Pour plus d’informations, consultez le centre de développement DirectX ([DirectX](/previous-versions/windows/apps/hh452744(v=win.10))).
 
@@ -81,7 +81,7 @@ Voici les meilleures pratiques pour l’ajout de l’installation de DirectX dan
 </tr>
 <tr class="even">
 <td><span id="Let_the_DirectX_installer_check_for_optional_components.__"></span><span id="let_the_directx_installer_check_for_optional_components.__"></span><span id="LET_THE_DIRECTX_INSTALLER_CHECK_FOR_OPTIONAL_COMPONENTS.__"></span>Laissez le programme d’installation DirectX vérifier les composants facultatifs. <br/></td>
-<td>Ne partez pas du principe que les derniers composants facultatifs sont déjà installés sur un système, car les Windows Update et les service packs ne fournissent aucun des composants facultatifs de DirectX. Vous devez installer le runtime DirectX en exécutant dxsetup.exe directement ou en appelant DirectSetup. <br/></td>
+<td>ne partez pas du principe que les derniers composants facultatifs sont déjà installés sur un système, car les Windows Update et les Service packs ne fournissent aucun des composants facultatifs de DirectX. Vous devez installer le runtime DirectX en exécutant dxsetup.exe directement ou en appelant DirectSetup. <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="Set_up_silently.__"></span><span id="set_up_silently.__"></span><span id="SET_UP_SILENTLY.__"></span>Configurer en mode silencieux. <br/></td>
@@ -108,7 +108,7 @@ ou en appelant DirectSetup et sans aucune interface utilisateur. <br/></td>
 
 Vous pouvez créer des packages d’installation plus petits pour DirectX en éliminant le contenu du dossier redistribuable DirectX jusqu’à l’ensemble minimal de fichiers requis pour que le programme d’installation fonctionne et en conservant les composants supplémentaires que votre jeu utilise.
 
-Selon vos spécifications minimales, vous pouvez même ne pas avoir à inclure les fichiers CAB DirectX 9.0 c de base dans le dossier redistribuable de votre support d’installation. Une grande majorité des installations de Windows XP comportent le Service Pack 2, qui comprend les composants de base de DirectX 9.0 c. l’opération d’installation de DirectX sera donc très rapide et ne nécessitera pas de redémarrage. Le plus petit package qui peut être créé est d’environ 3 Mo et peut être compressé à environ la moitié de cette taille. Un package comme celui-ci contient une version de la DLL D3DX et requiert que DirectX 9.0 c soit déjà présent.
+Selon vos spécifications minimales, vous pouvez même ne pas avoir à inclure les fichiers CAB DirectX 9.0 c de base dans le dossier redistribuable de votre support d’installation. une grande majorité des installations Windows XP comportent le Service Pack 2, qui comprend les composants de base de directx 9.0 c. par conséquent, l’opération d’installation de directx sera très rapide et ne nécessitera pas de redémarrage. Le plus petit package qui peut être créé est d’environ 3 Mo et peut être compressé à environ la moitié de cette taille. Un package comme celui-ci contient une version de la DLL D3DX et requiert que DirectX 9.0 c soit déjà présent.
 
 L’ensemble minimal de fichiers requis pour générer un package redistribuable est le fichier suivant, situé dans le dossier du kit de développement logiciel (SDK) DirectX (Program Files \\ DirectX SDK redistribut \\ \) :
 
@@ -117,10 +117,10 @@ L’ensemble minimal de fichiers requis pour générer un package redistribuable
 -   dsetup.dll
 -   dxupdate.cab
 
-Ajoutez à ces fichiers CAB les composants que vous souhaitez installer. Si vous avez besoin que les utilisateurs de votre application disposent déjà de DirectX 9.0 c, vous n’avez pas besoin d’inclure des DirectX.cab ou des dxnt.cab, qui constituent la plupart des besoins en espace. DirectX.cab est nécessaire uniquement pour Windows 98 et Windows ME. dxnt.cab est nécessaire uniquement pour Windows 2000, Windows XP et Windows XP SP1 ; et dxdllreg \_x86.cab sont uniquement requis pour windows 2000, Windows XP RTM, Windows XP SP1 et Windows Server 2003 RTM. En outre, si vous n’utilisez pas DirectShow ou si vous supposez qu’il est déjà installé, vous pouvez omettre BDA.cab, BDANT.cab et BDAXP.cab.
+Ajoutez à ces fichiers CAB les composants que vous souhaitez installer. Si vous avez besoin que les utilisateurs de votre application disposent déjà de DirectX 9.0 c, vous n’avez pas besoin d’inclure des DirectX.cab ou des dxnt.cab, qui constituent la plupart des besoins en espace. DirectX.cab n’est nécessaire que pour les Windows 98 et Windows. dxnt.cab n’est nécessaire que pour les Windows 2000, Windows xp et Windows xp SP1 ; et dxdllreg \_x86.cab sont uniquement requis pour les Windows 2000, Windows xp rtm, Windows xp SP1 et Windows Server 2003 rtm. en outre, si vous n’utilisez pas DirectShow ou si vous supposez qu’il est déjà installé, vous pouvez omettre BDA.cab, BDANT.cab et BDAXP.cab.
 
 > [!Note]  
-> Vous pouvez supposer que les utilisateurs de votre application disposent déjà de DirectX 9.0 c s’ils ont été installés par une version antérieure de votre application, que vous forcez les utilisateurs à effectuer une mise à jour manuelle via le programme d’installation Web ou que vous supposez qu’ils disposent de Windows XP SP2 ou d’une version ultérieure.
+> vous pouvez supposer que les utilisateurs de votre application disposent déjà de DirectX 9.0 c s’ils ont été installés par une version antérieure de votre application, que vous forcez les utilisateurs à effectuer une mise à jour manuelle via le programme d’installation Web ou que vous supposez qu’ils disposent de Windows XP SP2 ou version ultérieure.
 
  
 
@@ -132,10 +132,10 @@ Vous pouvez ensuite distribuer ce package de fichiers et lancer DirectSetup en m
 
 ## <a name="internal-deployment-of-the-debug-directx-runtime"></a>Déploiement interne du runtime DirectX de débogage
 
-Les runtimes de débogage des composants DirectX sont installés lors de l’installation du kit de développement logiciel (SDK) DirectX, mais l’installation du kit de développement logiciel (SDK) sur chaque ordinateur de test peut être pénible. Vous devez concevoir votre processus d’installation pour copier les dll du runtime de débogage de Program Files \\ Microsoft DirectX SDK \\ Developer \\ architecture \\ vers Windows \\ system32 \\ ou vers le dossier du jeu.
+Les runtimes de débogage des composants DirectX sont installés lors de l’installation du kit de développement logiciel (SDK) DirectX, mais l’installation du kit de développement logiciel (SDK) sur chaque ordinateur de test peut être pénible. vous devez concevoir votre processus d’installation pour copier les dll du runtime de débogage de Program Files \\ Microsoft DirectX SDK \\ developer \\ architecture \\ vers Windows \\ system32 \\ ou vers le dossier du jeu.
 
 Toutefois, nous vous recommandons vivement de ne pas simplement copier les dll d’exécution publiées, car il est facile d’oublier de les supprimer du produit final. Au lieu de cela, placez les fichiers d’installation de DirectX dans un dossier partagé et exécutez le programme d’installation en mode silencieux à partir du dossier partagé.
 
-## <a name="desktop-bridge-applications"></a>Applications Desktop Bridge 
+## <a name="desktop-bridge-applications"></a>applications Pont du bureau 
 
-Les applications de pont de bureau qui utilisent D3DX9, D3DX10, D3DX11, XAudio 2,7, XInput 1,3 ou XACT doivent télécharger l’infrastructure [Microsoft. DirectX. x86](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x86.appx) ou [Microsoft. DirectX. x64](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x64.appx) pour déployer ces composants côte à côte DirectX SDK existants. Vous pouvez également supprimer toutes les dépendances de ce type &mdash; (consultez le [Guide du développeur pour la version redistribuable de xaudio 2,9](../xaudio2/xaudio2-redistributable.md)et les billets de blog [vivant sans D3DX](https://walbourn.github.io/living-without-d3dx/) et [XInput et Windows 8](https://walbourn.github.io/xinput-and-windows-8/)).
+Pont du bureau les applications qui utilisent D3DX9, D3DX10, D3DX11, XAudio 2,7, XInput 1,3 ou XACT doivent télécharger l’infrastructure [microsoft. directx. x86](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x86.appx) ou [microsoft. directx. x64](https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x64.appx) pour déployer ces composants existants côte à côte DirectX SDK. Vous pouvez également supprimer toutes les dépendances de ce type &mdash; (consultez le [Guide du développeur pour la version redistribuable de xaudio 2,9](../xaudio2/xaudio2-redistributable.md)et les billets de blog [vivant sans D3DX](https://walbourn.github.io/living-without-d3dx/) et [XInput et Windows 8](https://walbourn.github.io/xinput-and-windows-8/)).

@@ -4,16 +4,16 @@ ms.assetid: e83ed9d7-0a53-4555-ae44-737ab3dfb749
 title: 'ITCallQualityControl :: Set, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0c0a83702ba0dd4d04eb129eeed95c46d2a79a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5506e4c318440c2b611a2404590bdf638d34a7da2353a5598d09aecf2990668
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003387"
 ---
 # <a name="itcallqualitycontrolset-method"></a>ITCallQualityControl :: Set, méthode
 
-\[ Cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **Set** définit la valeur d’une [propriété de contrôle de qualité d’appel](callqualityproperty.md)donnée.
 

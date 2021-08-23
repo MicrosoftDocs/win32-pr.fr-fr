@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a339a1549b76f61499b7192a48edc7c1b86a6c67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c918065515322696a33114d2d9b09b7b72d12eb6b74e120a7963835a23321fe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002477"
 ---
 # <a name="emailaction-object"></a>EmailAction, objet
 
@@ -44,7 +44,7 @@ L’objet **EmailAction** a ces propriétés.
 |:------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------|
 | [**Pièces jointes**](emailaction-attachments.md)<br/>   | Lecture/écriture<br/> | Obtient ou définit un tableau des pièces jointes qui sont envoyées avec le message électronique.<br/>                      |
 | [**Cci**](emailaction-bcc.md)<br/>                   | Lecture/écriture<br/> | Obtient ou définit l’adresse ou les adresses de messagerie que vous souhaitez CCI dans le message électronique.<br/>         |
-| [**body**](emailaction-body.md)<br/>                 | Lecture/écriture<br/> | Obtient ou définit le corps de l’e-mail qui contient le message électronique.<br/>                            |
+| [**Organismes**](emailaction-body.md)<br/>                 | Lecture/écriture<br/> | Obtient ou définit le corps de l’e-mail qui contient le message électronique.<br/>                            |
 | [**CC**](emailaction-cc.md)<br/>                     | Lecture/écriture<br/> | Obtient ou définit l’adresse ou les adresses de messagerie que vous souhaitez envoyer en copie dans le message électronique.<br/>          |
 | [**De**](emailaction-from.md)<br/>                 | Lecture/écriture<br/> | Obtient ou définit l’adresse de messagerie à partir de laquelle vous souhaitez envoyer le message électronique.<br/>                           |
 | [**HeaderFields**](emailaction-headerfields.md)<br/> | Lecture/écriture<br/> | Obtient ou définit les informations d’en-tête dans le message électronique que vous souhaitez envoyer.<br/>                        |
@@ -52,14 +52,14 @@ L’objet **EmailAction** a ces propriétés.
 | [**ReplyTo**](emailaction-replyto.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit l’adresse de messagerie à laquelle vous souhaitez répondre.<br/>                                      |
 | [**Serveur**](emailaction-server.md)<br/>             | Lecture/écriture<br/> | Obtient ou définit le nom du serveur que vous utilisez pour envoyer des messages électroniques.<br/>                           |
 | [**Objet**](emailaction-subject.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit l’objet du message électronique.<br/>                                                 |
-| [**Pour**](emailaction-to.md)<br/>                     | Lecture/écriture<br/> | Obtient ou définit l’adresse e-mail à laquelle vous souhaitez envoyer le message électronique.<br/>                |
-| [**Entrer**](/windows/win32/api/taskschd/nf-taskschd-iaction-get_type)<br/>                     | Lecture seule<br/>  | Hérité de l’objet d' [**action**](action.md) . Obtient le type d'action.<br/>                   |
+| [**À**](emailaction-to.md)<br/>                     | Lecture/écriture<br/> | Obtient ou définit l’adresse e-mail à laquelle vous souhaitez envoyer le message électronique.<br/>                |
+| [**Type**](/windows/win32/api/taskschd/nf-taskschd-iaction-get_type)<br/>                     | Lecture seule<br/>  | Hérité de l’objet d' [**action**](action.md) . Obtient le type d'action.<br/>                   |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’action de messagerie doit avoir une valeur valide pour les propriétés [**Server**](emailaction-server.md), [**from**](emailaction-from.md)et [**to**](emailaction-to.md) ou [**CC**](emailaction-cc.md) pour que la tâche s’inscrive et s’exécute correctement.
 
@@ -75,8 +75,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                    |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |

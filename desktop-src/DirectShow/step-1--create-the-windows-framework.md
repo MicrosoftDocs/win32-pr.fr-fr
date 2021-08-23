@@ -1,21 +1,21 @@
 ---
-description: 'Étape 1 : créer le Framework Windows'
+description: 'étape 1 : créer le Framework Windows'
 ms.assetid: 678c6261-cbd0-4865-a1dd-03de55eca996
-title: 'Étape 1 : créer le Framework Windows'
+title: 'étape 1 : créer le Framework Windows'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ff1712f631db520ff30065e8943d13b280f3d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: feba710c8df948e34c0da0ca9e7a1de85622bfae462290cbce3f36777854cb6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072513"
 ---
-# <a name="step-1-create-the-windows-framework"></a>Étape 1 : créer le Framework Windows
+# <a name="step-1-create-the-windows-framework"></a>étape 1 : créer le Framework Windows
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-Commencez par créer la structure de base d’une application Windows, y compris WinMain et une procédure de fenêtre. La fonction WinMain n’est pas illustrée ici ; Appelez [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) avant la boucle de message pour initialiser la bibliothèque com et [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) après la sortie de la boucle de message. Démarrez avec la procédure de fenêtre minimale suivante :
+commencez par créer la structure de base d’une application Windows, y compris WinMain et une procédure de fenêtre. La fonction WinMain n’est pas illustrée ici ; Appelez [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) avant la boucle de message pour initialiser la bibliothèque com et [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) après la sortie de la boucle de message. Démarrez avec la procédure de fenêtre minimale suivante :
 
 
 ```C++

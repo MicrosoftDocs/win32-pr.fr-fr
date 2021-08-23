@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fe791ba4706689fd23dea8886f5b8f54f135841
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b1ae1318a99e690b13f4f0cad03624fb351c359efbcb1be9e105076ce53ceba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021197"
 ---
 # <a name="close-session"></a>Close-Session
 
@@ -56,7 +56,7 @@ GUID de chaîne qui identifie la session sur le serveur. Remplacez {GUID} par l�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le serveur BITS libère toutes les ressources et supprime tous les fichiers temporaires lorsqu’il reçoit ce paquet.
 
@@ -77,9 +77,9 @@ Si vous envoyez ce paquet avant de télécharger tous les fragments, le fichier 
 [**Créer une session**](create-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
