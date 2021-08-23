@@ -4,16 +4,16 @@ ms.assetid: 5177f120-4b93-40bc-9481-aedf65a8dee9
 title: 'ITSdp :: get_SessionId, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ad593b61f4c935a220e59383ae170569f04af54
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 67f7e8ea9bef17e5cb34ca23443b1f16f815c964c3cf76b9b122878e8662d051
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621539"
 ---
 # <a name="itsdpget_sessionid-method"></a>ITSdp :: obtient \_ SessionID, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ SessionID** obtient la valeur du protocole NTP (Network Time Protocol) 32 bits qui sert d’identificateur de session. Elle est générée automatiquement lors de la création de la session.
 
@@ -58,9 +58,9 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La valeur de retour de cette méthode peut être **ULong**, mais Visual Basic ne prend pas en charge le type **ULong** . Un **double** est le plus petit type suivant qui englobe la plage entière de valeurs requises.
+la valeur de retour de cette méthode peut être **ULONG**, mais Visual Basic ne prend pas en charge le type **ulong** . Un **double** est le plus petit type suivant qui englobe la plage entière de valeurs requises.
 
 ## <a name="requirements"></a>Configuration requise
 

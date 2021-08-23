@@ -5,12 +5,12 @@ ms.assetid: 1F37FD3A-385C-4DD5-B04C-980F078D90D0
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fdea9b519e2a0adac9dc346d6bee455af0018da
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae0fc076657d8a9096d1206adc9c61b6dc16fc95792dc0c0da2fcd636377b7ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74103627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497199"
 ---
 # <a name="d3d12-code-walk-throughs"></a>Walk-Throughs de code D3D12
 
@@ -38,7 +38,7 @@ Pour obtenir le composant le plus basique, reportez-vous à la section [créatio
 
 <dl> <dt>
 
-[Guide de programmation Direct3D 12](directx-12-programming-guide.md)
+[Guide de programmation de Direct3D 12](directx-12-programming-guide.md)
 </dt> <dt>
 
 [Didacticiels vidéo sur DirectX Advanced Learning](https://www.youtube.com/channel/UCiaX2B8XiXR70jaN7NK-FpA)

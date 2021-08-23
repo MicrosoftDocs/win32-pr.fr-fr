@@ -4,12 +4,12 @@ ms.assetid: 1b624702-de25-4b1a-9dac-21f359ee97f7
 title: Table des correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 061b2082f88a8c7c3967652900bb6bf6e1c29802
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9e5f41f206557589bf0b90d9ffb125a80d05d39ce809dc01a8e687a21045475
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119558459"
 ---
 # <a name="patch-table"></a>Table des correctifs
 
@@ -46,7 +46,7 @@ Le correctif est appliqué au fichier spécifié par l’identificateur dans cet
 <span id="Sequence"></span><span id="sequence"></span><span id="SEQUENCE"></span>Séquence
 </dt> <dd>
 
-Il s’agit de la position du fichier correctif dans l’ordre séquentiel des fichiers sur les images de média. L’ordre des séquences doit correspondre à l’ordre des fichiers dans le fichier CAB du package correctif. Il s’agit d’une clé primaire pour cette table. La limite maximale est de 32767 fichiers. pour créer un package de Windows Installer avec d’autres fichiers, consultez [création d’un package volumineux](authoring-a-large-package.md).
+Il s’agit de la position du fichier correctif dans l’ordre séquentiel des fichiers sur les images de média. L’ordre des séquences doit correspondre à l’ordre des fichiers dans le fichier CAB du package correctif. Il s’agit d’une clé primaire pour cette table. la limite maximale est de 32767 fichiers. pour créer un package de Windows Installer avec d’autres fichiers, consultez [création d’un package volumineux](authoring-a-large-package.md).
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ Entier contenant des indicateurs binaires représentant des attributs de correct
 <span id="Header"></span><span id="header"></span><span id="HEADER"></span>Titre
 </dt> <dd>
 
-Cette colonne est l’en-tête de correctif de flux binaire utilisé pour la validation des correctifs. Cette colonne doit avoir la valeur null si la \_ colonne StreamRef n’a pas la valeur null. Dans ce cas, le flux d’en-tête de correctif est stocké dans la [table MsiPatchHeaders](msipatchheaders-table.md) pour surmonter la limitation de nom de flux décrite dans [restrictions OLE sur les flux](ole-limitations-on-streams.md).
+Cette colonne est l’en-tête de correctif de flux binaire utilisé pour la validation des correctifs. Cette colonne doit avoir la valeur null si la \_ colonne StreamRef n’a pas la valeur null. Dans ce cas, le flux d’en-tête de correctif est stocké dans la [table MsiPatchHeaders](msipatchheaders-table.md) pour surmonter la limitation de nom de flux décrite dans [restrictions OLE sur flux](ole-limitations-on-streams.md).
 
 </dd> <dt>
 
@@ -89,7 +89,7 @@ Clé externe dans la table MsiPatchHeaders spécifiant la ligne qui contient le 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table est traitée par l' [action PatchFiles](patchfiles-action.md). Il est généralement ajouté au package d’installation par une transformation à partir d’un package de correctifs. En général, il n’est pas directement créé dans un package d’installation.
 

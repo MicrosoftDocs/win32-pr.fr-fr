@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39514663
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 819fcb878a114cd1d64dd5c82573882127cacf99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48c532fcaa2a8a42c84985f1f5def53240fdadb742b72774d6b139c3bc873e7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616309"
 ---
 # <a name="jet_signature-methods"></a>Méthodes JET_SIGNATURE
 

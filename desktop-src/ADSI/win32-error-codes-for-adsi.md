@@ -7,12 +7,12 @@ keywords:
 - Codes d’erreur Win32 pour ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a47151a3a1619a7f224dc0b9b7f0871813a346a3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b18539e93504991f244bbba8b41b13e524ff236918145deda73788169cef368
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589739"
 ---
 # <a name="win32-error-codes-for-adsi"></a>Codes d’erreur Win32 pour ADSI
 
@@ -24,20 +24,20 @@ La plupart des codes d’erreur Win32 pour ADSI sont définis dans Winerror. h o
 
 **Pour convertir la valeur **HRESULT** d’un code d’erreur ADSI en la valeur **DWORD** Win32 Error correspondante**
 
-1.  Convertit la valeur **HRESULT** en nombre hexadécimal si vous commencez par une valeur décimale, comme vous pouvez l’obtenir à partir d’une application de Visual Basic.
+1.  convertit la valeur **HRESULT** en nombre hexadécimal si vous commencez par une valeur décimale, comme vous pouvez l’obtenir à partir d’une application de Visual Basic.
 2.  Déposez la partie 0x8007 pour produire le reste.
 3.  Convertit le reste en nombre décimal.
 4.  Recherchez le reste de la valeur décimale dans Winerror. h.
 5.  S’il est introuvable dans Winerror. h, soustraire 2100 du reste décimal et recherchez le résultat dans Lmerr. h.
 
-ADSI 2,0 mappe les codes d’erreur LDAP à un ensemble de codes d’erreur Win32 qui est différent de celui utilisé dans ADSI pour Windows 2000 et le client DS. Les différences sont répertoriées dans :
+adsi 2,0 mappe les codes d’erreur LDAP à un ensemble de codes d’erreur Win32 qui est différent de celui utilisé dans ADSI pour les Windows 2000 et DS Client. Les différences sont répertoriées dans :
 
 -   [Codes d’erreur Win32](win32-error-codes.md)
 -   [Codes d’erreur Win32 pour ADSI 2,0](win32-error-codes-for-adsi-2-0.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Message EM_GETRECT (winuser. h)
 description: Obtient le rectangle de mise en forme d’un contrôle d’édition.
 ms.assetid: eef0150d-9b7a-4247-acbf-6fea2efd1dc3
 keywords:
-- EM_GETRECT les contrôles de message Windows
+- EM_GETRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8192fd4c3aa7fbe953a36217f6b1408f055d8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1d4ad7dbab40a8d294d814e3524b54c5b11206c91608e9293bdf88df2a63f23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541039"
 ---
 # <a name="em_getrect-message"></a>\_Message GETRECT em
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 La valeur de retour n’est pas significative.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez modifier le rectangle de mise en forme d’un contrôle d’édition multiligne à l’aide des messages [**em \_ SETRECT**](em-setrect.md) et [**em \_ SETRECTNP**](em-setrectnp.md) .
 
@@ -61,8 +61,8 @@ Dans certaines conditions, **em \_ GETRECT** peut ne pas retourner les valeurs e
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

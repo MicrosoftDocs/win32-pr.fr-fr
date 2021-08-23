@@ -4,12 +4,12 @@ ms.assetid: 67f7b6f0-9dd5-49de-b29c-e2a7343aaf73
 title: Affectations de canaux suisses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 103a43c8e2ddf0e084f31dbfac1bb126988317ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5005d1194e835882abe82d2024d28b60f134f2061bd8210b15362274dffe4c6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072343"
 ---
 # <a name="switzerland-channel-assignments"></a>Affectations de canaux suisses
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 ## <a name="cable-assignments"></a>Attributions de câble
 

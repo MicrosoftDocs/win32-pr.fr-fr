@@ -4,12 +4,12 @@ ms.assetid: 424751cd-65d2-4cab-9f7b-cad50c09c767
 title: Propriété AVEncMPVGOPOpen (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd971a6cc9926245b97794868f58758af814803
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c6be085bde5588fecd5a2274d442f38d4198702475f3ed13c7bb3a5569687375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540899"
 ---
 # <a name="avencmpvgopopen-property"></a>Propriété AVEncMPVGOPOpen
 
@@ -38,7 +38,7 @@ Cette propriété est en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un groupe d’images ouvert contient des frames Delta qui référencent des frames du groupe d’images précédent. Un groupe d’images fermé ne contient pas de frame Delta qui référencent le groupe d’images précédent.
 
@@ -48,8 +48,8 @@ Un groupe d’images ouvert contient des frames Delta qui référencent des fram
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

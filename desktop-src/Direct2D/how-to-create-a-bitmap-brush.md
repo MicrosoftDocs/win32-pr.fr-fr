@@ -4,21 +4,21 @@ description: Montre comment créer un pinceau bitmap à l’aide de Direct2D.
 ms.assetid: 8f78b30a-7507-4dd8-b6f4-12d88e3c9a1d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd8f28735368916d1abd0c1c9aa091dec4fd93f4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d274d359b8ad8298a4e45d01014a6e9b19aa58c4b81725c5d8c41ac931e24eec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569293"
 ---
 # <a name="how-to-create-a-bitmap-brush"></a>Comment créer un pinceau bitmap
 
 Pour créer un pinceau bitmap, utilisez la méthode [**ID2D1RenderTarget :: CreateBitmapBrush**](id2d1rendertarget-createbitmapbrush.md) et spécifiez les propriétés du pinceau bitmap. Certaines surcharges vous permettent de spécifier les propriétés de pinceau. Le code suivant montre comment créer un pinceau bitmap pour remplir un carré et un pinceau noir Uni pour dessiner le contour du carré. Le code génère la sortie illustrée dans la capture d’écran suivante.
 
 > [!Note]  
-> À compter de Windows 8, vous pouvez utiliser la méthode [**CreateBitmapBrush**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapbrush(id2d1bitmap_constd2d1_bitmap_brush_properties1_constd2d1_brush_properties_id2d1bitmapbrush1)) sur l’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) pour créer un [**ID2D1BitmapBrush1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1bitmapbrush1) à la place d’un **ID2D1BitmapBrush**. **ID2D1BitmapBrush1** ajoute des modes de mise à l’échelle de haute qualité au pinceau bitmap.
+> à partir de Windows 8, vous pouvez utiliser la méthode [**CreateBitmapBrush**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapbrush(id2d1bitmap_constd2d1_bitmap_brush_properties1_constd2d1_brush_properties_id2d1bitmapbrush1)) sur l’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) pour créer un [**ID2D1BitmapBrush1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1bitmapbrush1) à la place d’un **ID2D1BitmapBrush**. **ID2D1BitmapBrush1** ajoute des modes de mise à l’échelle de haute qualité au pinceau bitmap.
 
- 
+ 
 
 ![capture d’écran d’un carré rempli d’une image bitmap de plante](images/brushes-ovw-bitmap.png)
 
@@ -62,6 +62,6 @@ Pour créer un pinceau bitmap, utilisez la méthode [**ID2D1RenderTarget :: Cre
 [Référence Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

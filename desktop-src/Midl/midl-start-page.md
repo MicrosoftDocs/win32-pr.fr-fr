@@ -9,12 +9,12 @@ keywords:
 - Microsoft Interface Definition Language MIDL, page de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e274d66ae234205f5db1f41b2d191ea409561bd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9062d5b2af18f7c3aa5ad57a4cb8f606cccc43333e4eff17d3518f72b7a064a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119534969"
 ---
 # <a name="microsoft-interface-definition-language"></a>Microsoft Interface Definition Language
 
@@ -32,7 +32,7 @@ Lors de l’utilisation de MIDL avec RPC, vous devez vous familiariser avec la p
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Les bibliothèques Runtime appropriées pour l’utilisation de MIDL sont fournies avec Windows. Le compilateur MIDL et les composants de l’environnement de développement RPC sont installés lorsque vous installez le SDK Windows. Pour plus d’informations, consultez [utilisation du compilateur MIDL](using-the-midl-compiler-2.md) et [installation de l’environnement de programmation RPC](/windows/desktop/Rpc/installing-the-rpc-programming-environment).
+Les bibliothèques Runtime appropriées pour l’utilisation de MIDL sont fournies avec Windows. le compilateur MIDL et les composants de l’environnement de développement RPC sont installés lorsque vous installez le SDK Windows. Pour plus d’informations, consultez [utilisation du compilateur MIDL](using-the-midl-compiler-2.md) et [installation de l’environnement de programmation RPC](/windows/desktop/Rpc/installing-the-rpc-programming-environment).
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

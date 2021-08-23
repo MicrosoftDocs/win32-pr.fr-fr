@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 4bd267c3d8ad36459a04b835cb2f130c3e98420a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1563e5d35c77974c056518bd602d1db7e2181e29dfa9d83301ff919635d1d24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568399"
 ---
 # <a name="swbemobjectpathissingleton-property"></a>SWbemObjectPath. IsSingleton, propriété
 

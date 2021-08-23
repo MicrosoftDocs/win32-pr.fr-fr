@@ -4,12 +4,12 @@ ms.assetid: efeed3a6-de5e-4698-9dc3-d0acb3d13dee
 title: Titre, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef687f809aae5c3722cdad84ee63d79c7bfcfb21
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: 52648e3f5783e706c91cf42a041e3a2e01952427ea4f66381405789827aa2eee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589319"
 ---
 # <a name="title-element"></a>Titre, élément
 

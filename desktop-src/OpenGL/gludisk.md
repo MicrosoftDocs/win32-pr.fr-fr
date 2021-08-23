@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9a9e8b547790049c93360f060e944aafcea4511
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83abb24f665cbcbf978a6423868751794371606cf412f609876a8f17d42c115a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489529"
 ---
 # <a name="gludisk-function"></a>gluDisk fonction)
 
@@ -83,7 +83,7 @@ Nombre de sonneries concentriques sur l’origine dans laquelle le disque est su
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluDisk** restitue un disque sur le plan *z* = 0. Le disque a un rayon de *outerRadius* et contient un trou circulaire concentrique avec un rayon de *innerRadius*. Si *innerRadius* a la valeur 0, aucun trou n’est généré. Le disque est divisé autour de l’axe z en tranches (comme les tranches de pizzas), ainsi que sur l’axe z dans les anneaux (comme spécifié par les *tranches* et les *boucles*, respectivement).
 

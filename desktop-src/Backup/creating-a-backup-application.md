@@ -8,12 +8,12 @@ keywords:
 - sauvegarde de sauvegarde, création d’applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77409a0c74ee61e333b92dad8b22d9c68ed92eba
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3086e51bce928b682d3e61518de29118abdc48461a77f79e48a4a4cb4b0f2c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529479"
 ---
 # <a name="creating-a-backup-application"></a>Création d’une application de sauvegarde
 
@@ -42,6 +42,6 @@ Lors de la restauration de fichiers à partir d’une bande sur un disque, une a
 
 Si l’un des flux de la mémoire tampon [**BackupWrite**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) a un identificateur de flux de **\_ lien de sauvegarde** , l’application doit établir un lien physique. Si les données nécessaires pour établir le lien n’existent pas, **BackupWrite** échoue. L’application peut utiliser un catalogue préexistant pour rechercher et restaurer les données d’origine, ou elle peut informer l’utilisateur que les données de fichier à restaurer se trouvent dans un emplacement différent.
 
- 
+ 
 
- 
+ 

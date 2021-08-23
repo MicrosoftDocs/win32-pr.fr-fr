@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f9522b91f007eab8821f6d7f24bbcca3014d8b76
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 8fa0b76edadba7592000019057cc7d51751c3156e2996916f7b870206fc5b43b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561859"
 ---
 # <a name="eapconnectionpropertiesv1-schema"></a>Schéma eapconnectionpropertiesv1
 
@@ -29,9 +29,9 @@ Le schéma eapconnectionpropertiesv1 définit des éléments de schéma de confi
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

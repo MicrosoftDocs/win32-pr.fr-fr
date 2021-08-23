@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78197c0f79c6bbe21ae4eb883620b95e6f0bd4c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d3e9575995d80a4c61b5e91be7c5cfc1c802abed892af8cfa653f62c66e602b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430969"
 ---
 # <a name="n-switch"></a>commutateur/n
 
@@ -38,7 +38,7 @@ Spécifie la profondeur de l’espace de noms à composer en un seul fichier de 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici les formats de valeurs possibles que vous pouvez spécifier avec le commutateur **/n** .
 
@@ -58,9 +58,9 @@ Voici les formats de valeurs possibles que vous pouvez spécifier avec le commut
 Le tableau suivant présente les résultats de différentes combinaisons du commutateur **/n** qui fonctionnent sur ces espaces de noms.
 
 -   Windows. Foundation. Collections. interface iiterable
--   Windows. UI. DirectUI. Controls. Button
--   Windows. UI. DirectUI. Controls. ListView
--   Windows. UI. immersif. application. point. Target
+-   Windows. L'. DirectUI. Controls. Button
+-   Windows. L'. DirectUI. Controls. ListView
+-   Windows. L'. Immersif. application. point. Target
 -   Windows. Web. Syndication. RSS
 
 
@@ -68,8 +68,8 @@ Le tableau suivant présente les résultats de différentes combinaisons du comm
 | Commutateurs                         | Résultats                                                                                                                                                                                                                                                       | Explication                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **/n :-1**  / **n :1**               | Windows.winmd                                                                                                                                                                                                                                                | Le dernier commutateur/n remplace tous les commutateurs-n précédents.                                                                                                                                                                                                                                                                           |
-| **/n :-1/n : Windows. UI : 2**         | <dl> Windows. <dt>Foundation. winmd</dt> <dt>Windows. UI. Winmd</dt> <dt>Windows. Web. Syndication. winmd</dt> </dl> | <dl> <dt>**Windows. Foundation** est toujours composé à – n :2.</dt> <dt>Les types **Windows. UI** sont regroupés.</dt> <dt>**Windows. Web. Syndication** est composé dans n :-1.</dt> </dl>       |
-| **/n : 1/n : Windows. UI. DirectUI : 3** | <dl> Windows. <dt>Foundation. winmd</dt> <dt>Windows. UI. directui. winmd</dt> <dt>Windows. winmd</dt> </dl>       | <dl> <dt>**Windows. Foundation** est toujours composé à – n :2.</dt> <dt>**Windows. UI. directui** est composé au niveau 3.</dt> <dt>Tous les autres types sont composés au niveau 1.</dt> </dl> |
+| **/n :-1/n : Windows. INTERFACE UTILISATEUR : 2**         | <dl> <dt>Windows. Foundation. winmd</dt> <dt>Windows. UI. winmd</dt> <dt>Windows. Web. Syndication. winmd</dt> </dl> | <dl> <dt>**Windows. Foundation** est toujours composé à – n :2.</dt> <dt>**Windows.** Les types d’interface utilisateur sont regroupés.</dt> <dt>**Windows. Web. Syndication** est composé dans n :-1.</dt> </dl>       |
+| **/n : 1/n : Windows. L'. DirectUI : 3** | <dl> <dt>Windows. Foundation. winmd</dt> <dt>Windows. L'. DirectUI. winmd</dt> <dt>Windows. winmd</dt> </dl>       | <dl> <dt>**Windows. Foundation** est toujours composé à – n :2.</dt> <dt>**Windows. L'. DirectUI** est composé au niveau 3.</dt> <dt>Tous les autres types sont composés au niveau 1.</dt> </dl> |
 
 
 
@@ -83,7 +83,7 @@ Voici les règles de gestion de plusieurs instances du commutateur **/n** .
 
 ## <a name="examples"></a>Exemples
 
-**mdmerge.exe-Metadata \_ dir $ ( \_ chemin des métadonnées du SDK \_ )-i $ ( \_ chemin des métadonnées du kit de développement logiciel (SDK \_ ) interne \_ )-o $ (obj \_ Path) \\ $O \\ SystemMetadata-v-n :-1-n :Windows.Foundation : 2**
+**mdmerge.exe-Metadata \_ dir $ ( \_ chemin des métadonnées du SDK \_ )-i $ ( \_ chemin des métadonnées du kit de développement logiciel (SDK \_ ) interne \_ )-o $ (obj \_ Path) \\ $O \\ SystemMetadata-v-n :-1-n : Windows. Base : 2**
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b3b9ac561d502e63ed2628c5c4a86c43c852a61
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4ae083bc3741825dcd6739c17f8f308b529bd867d338213f46e73a681e1b0538
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531649"
 ---
 # <a name="ms-ts-gatewayaccess-property-set"></a>Jeu de propriétés MS-TS-GatewayAccess
 
@@ -34,7 +34,7 @@ ms.locfileid: "104033350"
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

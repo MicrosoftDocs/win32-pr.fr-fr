@@ -4,12 +4,12 @@ ms.assetid: 98272df5-08c0-4392-a74b-2919bbdcb022
 title: Utilisation des données de capteur de lumière
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ccf1c032b4100174afd6073d8c43db27bce3892
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae4f7047301c7d31d18014bb09512d1f3944c418a34c153a87c001f95fb63a8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425127"
 ---
 # <a name="using-light-sensor-data"></a>Utilisation des données de capteur de lumière
 

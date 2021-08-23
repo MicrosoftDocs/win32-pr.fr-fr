@@ -4,12 +4,12 @@ ms.assetid: e67d4941-ce0f-48b9-8099-b62659ad33e0
 title: Informations de référence sur l’interface MSPI (Media Service Provider Interface)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a30b961fff4d8a9e50fb35573633cc2dc06e370c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b94ce02312a7c94a7bc2b805a6c73c263546d9cb3f21bbe795d92a91b1010a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106522883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404749"
 ---
 # <a name="media-service-provider-interface-mspi-reference"></a>Informations de référence sur l’interface MSPI (Media Service Provider Interface)
 

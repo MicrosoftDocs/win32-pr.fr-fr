@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes du système d’exploitation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f47df8a949e3ac07bf2099ea708d496bed87298
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cc5cbb168b2a322b5ceae8a2bd73985d14a74b4f1df227fd3e6cce384c554742
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106540808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588289"
 ---
 # <a name="operating-system-classes"></a>Classes du système d’exploitation
 
@@ -35,10 +35,10 @@ La catégorie système d’exploitation est regroupée dans les sous-catégories
 -   [Sécurité](#security)
 -   [Services](#services)
 -   [Partages](#shares)
--   [Menu Démarrer](#start-menu)
+-   [menu Démarrer](#start-menu)
 -   [Stockage](#storage)
 -   [Utilisateurs](#users)
--   [Activation de produit Windows](#windows-product-activation)
+-   [activation du produit Windows](#windows-product-activation)
 
 ## <a name="com"></a>COM
 
@@ -113,12 +113,12 @@ La sous-catégorie du système de fichiers regroupe des classes qui représenten
 | [**\_Répertoire Win32**](win32-directory.md)                                         | Classe d’instance<br/> Représente une entrée de répertoire sur un système informatique exécutant Windows.<br/>                                                                              |
 | [**\_DirectorySpecification Win32**](/previous-versions/windows/desktop/msiprov/win32-directoryspecification)               | Classe d’instance<br/> Représente la disposition de répertoire pour le produit.<br/>                                                                                                |
 | [**\_DiskDriveToDiskPartition Win32**](win32-diskdrivetodiskpartition.md)           | Classe d’association<br/> Met en relation un lecteur de disque et une partition existante.<br/>                                                                                         |
-| [**\_DiskPartition Win32**](win32-diskpartition.md)                                 | Classe d’instance<br/> Représente les capacités et la capacité de gestion d’une zone partitionnée d’un disque physique sur un système informatique exécutant Windows.<br/>              |
+| [**\_DiskPartition Win32**](win32-diskpartition.md)                                 | Classe d’instance<br/> Représente les capacités et la capacité de gestion d’une zone partitionnée d’un disque physique sur un système d’ordinateur exécutant Windows.<br/>              |
 | [**\_Diskquota Win32**](/previous-versions/windows/desktop/wmipdskq/win32-diskquota)                                    | Classe d’association<br/> Effectue le suivi de l’utilisation de l’espace disque pour les volumes de système de fichiers NTFS.<br/>                                                                                        |
-| [**\_Disque logique Win32**](win32-logicaldisk.md)                                     | Représente une source de données qui correspond à un périphérique de stockage local réel sur un système informatique exécutant Windows.<br/>                                                            |
+| [**\_Disque logique Win32**](win32-logicaldisk.md)                                     | Représente une source de données qui correspond à un périphérique de stockage local réel sur un système d’ordinateur exécutant Windows.<br/>                                                            |
 | [**\_LogicalDiskRootDirectory Win32**](win32-logicaldiskrootdirectory.md)           | Classe d’association<br/> Établit une relation entre un disque logique et sa structure de répertoire.<br/>                                                                                          |
 | [**\_LogicalDiskToPartition Win32**](win32-logicaldisktopartition.md)               | Classe d’association<br/> Met en relation un lecteur de disque logique et la partition de disque sur laquelle il se trouve.<br/>                                                                           |
-| [**\_MappedLogicalDisk Win32**](win32-mappedlogicaldisk.md)                         | Représente les périphériques de stockage réseau mappés en tant que disques logiques sur le système d’ordinateur exécutant Windows.<br/>                                                               |
+| [**\_MappedLogicalDisk Win32**](win32-mappedlogicaldisk.md)                         | Représente les périphériques de stockage réseau mappés en tant que disques logiques sur le système de l’ordinateur exécutant Windows.<br/>                                                               |
 | [**\_OperatingSystemAutochkSetting Win32**](/previous-versions//aa394240(v=vs.85)) | Classe d’association<br/> Représente l’association entre une instance de l' [**\_ ManagedSystemElement CIM**](cim-managedsystemelement.md) et les paramètres définis pour celle-ci.<br/> |
 | [**\_QuotaSetting Win32**](/previous-versions/windows/desktop/wmipdskq/win32-quotasetting)                              | Classe d’instance<br/> Contient des informations de paramètres pour les quotas de disque sur un volume.<br/>                                                                                       |
 | [**\_ShortcutFile Win32**](win32-shortcutfile.md)                                   | Classe d’instance<br/> Représente des fichiers qui sont des raccourcis vers d’autres fichiers, répertoires et commandes.<br/>                                                                  |
@@ -168,10 +168,10 @@ Les classes de sous-catégorie fichiers de mémoire et de page représentent les
 
 | Classe                                                                 | Description                                                                                                                                   |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_Fichier d’échange Win32**](win32-pagefile.md)                             | Classe d’instance<br/> Représente le fichier utilisé pour gérer l’échange de fichiers de mémoire virtuelle sur un système Windows.<br/>                  |
+| [**\_Fichier d’échange Win32**](win32-pagefile.md)                             | Classe d’instance<br/> représente le fichier utilisé pour gérer l’échange de fichiers de mémoire virtuelle sur un système de Windows.<br/>                  |
 | [**\_PageFileElementSetting Win32**](win32-pagefileelementsetting.md) | Classe d’association<br/> Met en relation les paramètres initiaux d’un fichier d’échange et l’état de ces paramètres lors d’une utilisation normale.<br/>        |
 | [**\_PageFileSetting Win32**](win32-pagefilesetting.md)               | Classe d’instance<br/> Représente les paramètres d’un fichier d’échange.<br/>                                                                  |
-| [**\_PageFileUsage Win32**](win32-pagefileusage.md)                   | Classe d’instance<br/> Représente le fichier utilisé pour gérer l’échange de fichiers de mémoire virtuelle sur un système informatique exécutant Windows.<br/> |
+| [**\_PageFileUsage Win32**](win32-pagefileusage.md)                   | Classe d’instance<br/> Représente le fichier utilisé pour gérer l’échange de fichiers de mémoire virtuelle sur un système d’ordinateur exécutant Windows.<br/> |
 
 
 
@@ -204,7 +204,7 @@ La sous-catégorie mise en réseau regroupe les classes qui représentent les co
 | [**\_IP4RouteTable Win32**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetable)                   | Classe d’instance<br/> Représente des informations qui gouvernent le routage de paquets de données réseau.<br/>                    |
 | [**\_IP4RouteTableEvent Win32**](/previous-versions/windows/desktop/wmiiprouteprov/win32-ip4routetableevent)         | Classe d'événements<br/> Représente les événements de changement d’itinéraire IP.<br/>                                                             |
 | [**\_Networkclient Win32**](win32-networkclient.md)                              | Classe d’instance<br/> Représente un client réseau sur un système d’ordinateur exécutant Windows.<br/>                           |
-| [**\_NetworkConnection Win32**](win32-networkconnection.md)                      | Classe d’instance<br/> Représente une connexion réseau active dans un environnement Windows.<br/>                           |
+| [**\_NetworkConnection Win32**](win32-networkconnection.md)                      | Classe d’instance<br/> représente une connexion réseau active dans un environnement de Windows.<br/>                           |
 | [**\_NetworkProtocol Win32**](win32-networkprotocol.md)                          | Classe d’instance<br/> Représente un protocole et ses caractéristiques réseau sur un système informatique exécutant Windows.<br/> |
 | [**\_NTDomain Win32**](/previous-versions/windows/desktop/cimwin32a/win32-ntdomain)                                        | Classe d’instance<br/> Représente un domaine Windows NT.<br/>                                                             |
 | [**\_PingStatus Win32**](/previous-versions/windows/desktop/wmipicmp/win32-pingstatus)                               | Classe d’instance<br/> Représente les valeurs retournées par la commande **ping** standard.<br/>                            |
@@ -243,14 +243,14 @@ La sous-catégorie événements du système d’exploitation regroupe des classe
 
 ## <a name="operating-system-settings"></a>Paramètres du système d'exploitation
 
-La sous-catégorie paramètres du système d’exploitation regroupe des classes qui représentent le système d’exploitation et ses paramètres.
+les classes du système d’exploitation Paramètres les groupes de sous-catégories qui représentent le système d’exploitation et ses paramètres.
 
 
 
 | Classe                                                                                       | Description                                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_BootConfiguration Win32**](win32-bootconfiguration.md)                                 | Classe d’instance<br/> Représente la configuration de démarrage d’un système informatique exécutant Windows.<br/>                                                                       |
-| [**\_ComputerSystem Win32**](win32-computersystem.md)                                       | Classe d’instance<br/> Représente un système informatique fonctionnant dans un environnement Windows.<br/>                                                                              |
+| [**\_ComputerSystem Win32**](win32-computersystem.md)                                       | Classe d’instance<br/> représente un système informatique fonctionnant dans un environnement de Windows.<br/>                                                                              |
 | [**\_ComputerSystemProcessor Win32**](win32-computersystemprocessor.md)                     | Classe d’association<br/> Établit une relation entre un système informatique et un processeur s’exécutant sur ce système.<br/>                                                                          |
 | [**\_ComputerSystemProduct Win32**](win32-computersystemproduct.md)                         | Classe d’instance<br/> Représente un produit.<br/>                                                                                                                         |
 | [**\_DependentService Win32**](win32-dependentservice.md)                                   | Classe d’association<br/> Met en relation deux services de base interdépendants.<br/>                                                                                                  |
@@ -299,13 +299,13 @@ La sous-catégorie processus regroupe les classes qui représentent les processu
 
 ## <a name="registry"></a>Registre
 
-La classe de la sous-catégorie Registre représente le contenu du Registre Windows.
+la classe de la sous-catégorie registry représente le contenu du registre Windows.
 
 
 
 | Classe                                     | Description                                                                                               |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [**\_Registre Win32**](win32-registry.md) | Classe d’instance<br/> Représente le registre système sur un système informatique exécutant Windows.<br/> |
+| [**\_Registre Win32**](win32-registry.md) | Classe d’instance<br/> Représente le registre système sur un système d’ordinateur exécutant Windows.<br/> |
 
 
 
@@ -320,7 +320,7 @@ Les classes de sous-catégorie travaux du planificateur qui représentent les pa
 | Classe                                                | Description                                                                                                                                                                                                                                                           |
 |------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_CurrentTime Win32**](/previous-versions/windows/desktop/wmitimepprov/win32-currenttime) | Classe abstraite<br/> Représente une instance dans le temps en tant que secondes du composant, minutes, jour de la semaine, et ainsi de suite.<br/>                                                                                                                                        |
-| [**\_ScheduledJob Win32**](win32-scheduledjob.md)    | Classe d’instance<br/> Représente un travail planifié à l’aide du service de planification Windows.<br/>                                                                                                                                                                   |
+| [**\_ScheduledJob Win32**](win32-scheduledjob.md)    | Classe d’instance<br/> représente un travail planifié à l’aide du service de planification Windows.<br/>                                                                                                                                                                   |
 | [**\_Localtime Win32**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime)     | Classe d’instance<br/> Représente un point dans le temps retourné en tant qu’objets [**\_ localtime Win32**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime) qui résultent d’une requête. La propriété **Hour** est retournée comme heure locale au format 24 heures.<br/>                                |
 | [**\_UTCTime Win32**](/previous-versions/windows/desktop/wmitimepprov/win32-utctime)         | Classe d’instance<br/> Représente un point dans le temps qui est retourné en tant qu’objets [**Win32 \_ UTCTime**](/previous-versions/windows/desktop/wmitimepprov/win32-utctime) qui résultent d’une requête. La propriété **Hour** est retournée en temps UTC (Coordinated Universal Time) dans une horloge de 24 heures.<br/> |
 
@@ -372,7 +372,7 @@ La sous-catégorie services regroupe les classes qui représentent les services 
 | Classe                                           | Description                                                                                                                                             |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_BaseService Win32**](win32-baseservice.md) | Classe d’instance<br/> Représente les objets exécutables qui sont installés dans une base de données de Registre gérée par le gestionnaire de contrôle des services.<br/> |
-| [**\_Service Win32**](win32-service.md)         | Classe d’instance<br/> Représente un service sur un système informatique exécutant Windows.<br/>                                                         |
+| [**\_Service Win32**](win32-service.md)         | Classe d’instance<br/> Représente un service sur un système d’ordinateur exécutant Windows.<br/>                                                         |
 
 
 
@@ -411,9 +411,9 @@ La sous-catégorie menu Démarrer regroupe des classes qui représentent des gro
 | Classe                                                                                   | Description                                                                                                                                                              |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_LogicalProgramGroup Win32**](win32-logicalprogramgroup.md)                         | Classe d’instance<br/> Représente un groupe de programmes sur un système informatique exécutant Windows.<br/>                                                                    |
-| [**\_LogicalProgramGroupDirectory Win32**](win32-logicalprogramgroupdirectory.md)       | Classe d’association<br/> Met en relation les groupes de programmes logiques (regroupements dans le menu Démarrer) et les répertoires de fichiers dans lesquels ils sont stockés.<br/>                 |
+| [**\_LogicalProgramGroupDirectory Win32**](win32-logicalprogramgroupdirectory.md)       | Classe d’association<br/> met en relation les groupes de programmes logiques (regroupements dans le menu Démarrer) et les répertoires de fichiers dans lesquels ils sont stockés.<br/>                 |
 | [**\_LogicalProgramGroupItem Win32**](win32-logicalprogramgroupitem.md)                 | Classe d’instance<br/> Représente un élément contenu dans une instance de **\_ ProgramGroup Win32** , qui n’est pas elle-même une autre instance **\_ ProgramGroup Win32** .<br/> |
-| [**\_LogicalProgramGroupItemDataFile Win32**](win32-logicalprogramgroupitemdatafile.md) | Classe d’association<br/> Met en relation les éléments de groupe de programmes du menu Démarrer et les fichiers dans lesquels ils sont stockés.<br/>                                       |
+| [**\_LogicalProgramGroupItemDataFile Win32**](win32-logicalprogramgroupitemdatafile.md) | Classe d’association<br/> met en relation les éléments de groupe de programmes de la menu Démarrer et les fichiers dans lesquels ils sont stockés.<br/>                                       |
 | [**\_ProgramGroupContents Win32**](win32-programgroupcontents.md)                       | Classe d’association<br/> Établit une relation entre une commande de groupe de programmes et un groupe de programmes ou un élément individuel qu’elle contient.<br/>                                           |
 | [**\_ProgramGroupOrItem Win32**](win32-programgrouporitem.md)                           | Classe d’instance<br/> Représente un regroupement logique de programmes dans le menu démarrer les  \| **programmes** de l’utilisateur.<br/>                                               |
 
@@ -459,7 +459,7 @@ La sous-catégorie utilisateurs regroupe les classes qui représentent des infor
 | [**\_GroupUser Win32**](win32-groupuser.md)                           | Classe d’association<br/> Met en relation un groupe et un compte qui est membre de ce groupe.<br/>                                           |
 | [**\_LogonSession Win32**](win32-logonsession.md)                     | Classe d’instance<br/> Décrit la session de connexion ou les sessions associées à un utilisateur connecté à Windows.<br/>                        |
 | [**\_LogonSessionMappedDisk Win32**](/windows/desktop/CIMWin32Prov/win32-logonsessionmappeddisk) | Classe d’instance<br/> Représente les disques logiques mappés associés à la session.<br/>                                            |
-| [**\_NetworkLoginProfile Win32**](win32-networkloginprofile.md)       | Classe d’instance<br/> Représente les informations de connexion réseau d’un utilisateur spécifique sur un système informatique exécutant Windows.<br/>           |
+| [**\_NetworkLoginProfile Win32**](win32-networkloginprofile.md)       | Classe d’instance<br/> Représente les informations de connexion réseau d’un utilisateur spécifique sur un système d’ordinateur exécutant Windows.<br/>           |
 | [**\_SystemAccount Win32**](win32-systemaccount.md)                   | Classe d’instance<br/> Représente un compte système.<br/>                                                                                |
 | [**\_UserAccount Win32**](win32-useraccount.md)                       | Classe d’instance<br/> Représente des informations sur un compte d’utilisateur sur un système informatique exécutant Windows.<br/>                           |
 | [**\_UserInDomain Win32**](/previous-versions/windows/desktop/cimwin32a/win32-userindomain)                     | Classe d’association<br/> Met en relation un compte d’utilisateur et un domaine Windows NT.<br/>                                                          |
@@ -470,14 +470,14 @@ La sous-catégorie utilisateurs regroupe les classes qui représentent des infor
 
 ## <a name="windows-event-log"></a>Journal des événements Windows
 
-La sous-catégorie du journal des événements Windows regroupe des classes qui représentent des événements, des entrées du journal des événements, des paramètres de configuration du journal des événements, etc.
+la Windows sous-catégorie du journal des événements regroupe des classes qui représentent des événements, des entrées du journal des événements, des paramètres de configuration du journal des événements, etc.
 
 
 
 | Classe                                                         | Description                                                                                                                                                                   |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NTEventlogFile Win32**](/previous-versions/windows/desktop/legacy/aa394225(v=vs.85))         | Classe d’instance<br/> Représente les données stockées dans un fichier journal des événements Windows.<br/>                                                                                      |
-| [**\_NTLogEvent Win32**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent)                 | Classe d’instance<br/> Représente les événements Windows.<br/>                                                                                                               |
+| [**\_NTEventlogFile Win32**](/previous-versions/windows/desktop/legacy/aa394225(v=vs.85))         | Classe d’instance<br/> représente les données stockées dans un fichier journal des événements Windows.<br/>                                                                                      |
+| [**\_NTLogEvent Win32**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent)                 | Classe d’instance<br/> représente Windows événements.<br/>                                                                                                               |
 | [**\_NTLogEventComputer Win32**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogeventcomputer) | Classe d’association<br/> Met en relation les instances de [**Win32 \_ NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent) et [**Win32 \_ ComputerSystem**](win32-computersystem.md).<br/>         |
 | [**\_NTLogEventLog Win32**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogeventlog)           | Classe d’association<br/> Met en relation les instances des classes [**Win32 \_ NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent) et [**Win32 \_ NTEventlogFile**](/previous-versions/windows/desktop/legacy/aa394225(v=vs.85)) .<br/> |
 | [**\_NTLogEventUser Win32**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogeventuser)         | Classe d’association<br/> Met en relation les instances de [**Win32 \_ NTLogEvent**](/previous-versions/windows/desktop/eventlogprov/win32-ntlogevent) et [**Win32 \_ UserAccount**](win32-useraccount.md).<br/>               |
@@ -486,9 +486,9 @@ La sous-catégorie du journal des événements Windows regroupe des classes qui 
 
  
 
-## <a name="windows-product-activation"></a>Activation de produit Windows
+## <a name="windows-product-activation"></a>Windows Activation du produit
 
-L’activation de produit Windows (WPA) est une technologie anti-piratage qui réduit la copie occasionnelle des logiciels.
+Windows L’activation de produit (WPA) est une technologie anti-piratage qui réduit la copie occasionnelle des logiciels.
 
 
 

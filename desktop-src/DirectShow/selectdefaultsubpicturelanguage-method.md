@@ -4,17 +4,17 @@ ms.assetid: e83980d1-c7cd-4755-9a27-3b0c2548009e
 title: Méthode SelectDefaultSubpictureLanguage
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9d7dd4d66ae9d0580bf863ede9fff1e51d373e2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3aaa6b927d33626299258ac54136e1a67b0dedb40427a35d9c79465be3e9a15d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072583"
 ---
 # <a name="selectdefaultsubpicturelanguage-method"></a>Méthode SelectDefaultSubpictureLanguage
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -66,7 +66,7 @@ Spécifie l’extension de langage de sous-image sous la forme d’un entier.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’extension du langage de sous-image fournit des informations supplémentaires sur la sous-image.
 

@@ -4,12 +4,12 @@ ms.assetid: d45cdd1d-13cf-433a-9b19-193d5c0cba11
 title: 'ITParticipantSubStreamControl :: get_SubStreamFromParticipant, méthode (Confpriv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0eae68cd62c38348e1a576f114a9e93ac52f9cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae40487bbef7e678722a2710d99bce9ed1ebe2f5192705f0a7dc03f86e10e421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621529"
 ---
 # <a name="itparticipantsubstreamcontrolget_substreamfromparticipant-method"></a>ITParticipantSubStreamControl :: \_ SubStreamFromParticipant, méthode
 

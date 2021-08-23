@@ -4,12 +4,12 @@ description: Cette rubrique présente le concept d’utilisation et explique pou
 ms.assetid: 912b3224-e36d-44d6-98fa-a7f28e68a2d0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b302e63a475d060748e896440b28915816d910e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 482fd749a797c58656d987e1bde9e995ac58b8fdf98a6c056cd327e846665749
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589129"
 ---
 # <a name="usability-in-software-design"></a>Facilité d’utilisation dans la conception de logiciels
 
@@ -20,7 +20,7 @@ Cette rubrique présente le concept d’utilisation et explique pourquoi elle do
     -   [Facilité d’utilisation](#ease-of-use)
     -   [Utilisation et utilitaire](#usability-vs-utility)
     -   [Pour l’utiliser et l’utiliser](#liking-it-vs-using-it)
-    -   [Découverte et apprentissage et efficacité](#discovery-vs-learning-vs-efficiency)
+    -   [découverte et Learning et efficacité](#discovery-vs-learning-vs-efficiency)
     -   [Les slogans ne fonctionnent pas](#slogans-do-not-work)
 -   [Pourquoi la convivialité est-elle importante ?](#why-is-usability-important)
     -   [Pourquoi devez-vous vous en soucier ?](#why-should-you-care)
@@ -29,7 +29,7 @@ Cette rubrique présente le concept d’utilisation et explique pourquoi elle do
     -   [Pourquoi dois-je impliquer des utilisateurs ?](#why-should-i-involve-users)
     -   [Ne puis-je pas suivre les instructions ?](#cant-i-just-follow-guidelines)
     -   [Ai-je besoin de créer un laboratoire d’utilisation ?](#do-i-need-to-build-a-usability-lab)
-    -   [Comment commencer ?](#how-do-i-get-started)
+    -   [comment Prise en main ?](#how-do-i-get-started)
 
 ## <a name="introduction"></a>Introduction
 
@@ -41,7 +41,7 @@ L’aspect le plus visible de cette approche est le test d’utilisabilité, dan
 
 La section définit ce que signifie la convivialité dans le contexte du développement de logiciels et la façon dont il est associé à d’autres aspects du processus de développement.
 
-### <a name="ease-of-use"></a>Facilité d’utilisation
+### <a name="ease-of-use"></a>Simplicité d’utilisation
 
 La facilité d’utilisation est une mesure de la facilité d’utilisation d’un produit pour effectuer des tâches prescrites. Cela est différent des concepts connexes de l’utilitaire et de l’équivalent.
 
@@ -65,12 +65,12 @@ Les gens aiment souvent un produit, pour des raisons non liées à l’utilitair
 
 La facilité d’utilisation consiste à déterminer si une personne peut utiliser le produit pour effectuer les tâches qu’elle doit effectuer. Le test d’utilisabilité mesure principalement les performances, et non les préférences. Toutefois, les questionnaires standardisés peuvent être utilisés pour mesurer les préférences d’un produit à l’autre.
 
-### <a name="discovery-vs-learning-vs-efficiency"></a>Découverte et apprentissage et efficacité
+### <a name="discovery-vs-learning-vs-efficiency"></a>découverte et Learning et efficacité
 
 Il existe de nombreux aspects de l’utilisation, mais traditionnellement, le terme fait référence spécifiquement aux attributs de la découverte, de l’apprentissage et de l’efficacité.
 
 -   La découverte consiste à rechercher et à trouver la fonctionnalité d’un produit en réponse à un besoin particulier. Les tests d’utilisabilité peuvent déterminer combien de temps il faut à un utilisateur pour trouver une fonctionnalité et le nombre d’erreurs (choix incorrect sur l’emplacement) que l’utilisateur effectue en cours de route.
--   L’apprentissage fait référence au processus par lequel l’utilisateur sait comment utiliser une fonctionnalité découverte pour effectuer une tâche. Les tests d’utilisabilité peuvent déterminer la durée d’exécution de ce processus, ainsi que le nombre d’erreurs que l’utilisateur effectue pendant l’apprentissage de la fonctionnalité.
+-   Learning fait référence au processus par lequel l’utilisateur sait comment utiliser une fonctionnalité découverte pour effectuer une tâche. Les tests d’utilisabilité peuvent déterminer la durée d’exécution de ce processus, ainsi que le nombre d’erreurs que l’utilisateur effectue pendant l’apprentissage de la fonctionnalité.
 -   L’efficacité fait référence au point auquel l’utilisateur a « masterisé » la fonctionnalité et l’utilise sans nécessiter d’apprentissage supplémentaire. Les tests d’utilisabilité peuvent déterminer le temps nécessaire à l’utilisateur expérimenté pour exécuter les étapes nécessaires à l’utilisation de la fonctionnalité.
 
 Ces trois aspects essentiels de la convivialité sont fortement influencés par la nature de la tâche en cours et la fréquence à laquelle l’utilisateur l’exécute. Certaines fonctionnalités sont rarement utilisées ou sont tellement complexes que l’utilisateur les réapprend essentiellement à chaque fois. pour ces fonctionnalités, Microsoft développe souvent des assistants pour guider l’utilisateur tout au long du processus.
@@ -93,7 +93,7 @@ Pour les logiciels produits pour une utilisation interne, la meilleure raison de
 
 Le test d’utilisabilité permet d’améliorer l’acceptation de l’utilisateur. L’acceptation résulte d’un certain nombre de facteurs, notamment la convivialité, l’utilitaire et l’utilisation. Pour les produits vendus au détail, l’acceptation des utilisateurs se met souvent en corrélation avec les achats répétés ou la loyauté, ce qui signifie que l’utilisateur est susceptible de recommander le produit à d’autres utilisateurs. Pour les applications internes, l’acceptation des utilisateurs est corrélée à la volonté d’utiliser le logiciel pour effectuer les tâches pour lesquelles il a été conçu, ce qui permet d’accroître la productivité. L’augmentation de la convivialité est l’un des facteurs qui peuvent contribuer à augmenter l’acceptation de l’utilisateur.
 
-La convivialité peut vous aider à différencier vos produits de ceux de vos concurrents. Si deux produits sont sensiblement égaux dans l’utilitaire, le produit avec une meilleure convivialité sera probablement considéré comme supérieur. En outre, les recommandations en matière de programmation et d’apparence de Windows et d’accompagnement ont fait l’audit du champ de jeu de l’interface utilisateur de base, de sorte que de nombreux programmes qui traitent des fonctions similaires s’affichent et agissent de manière différente. Ces similarités signifient que les petites différences en matière de convivialité peuvent avoir un impact important sur la préférence de l’utilisateur.
+La convivialité peut vous aider à différencier vos produits de ceux de vos concurrents. Si deux produits sont sensiblement égaux dans l’utilitaire, le produit avec une meilleure convivialité sera probablement considéré comme supérieur. en outre, la Windows l’apparence et la convivialité et les instructions de programmation qui l’accompagnent ont défini le champ de jeu de l’interface utilisateur de base, de sorte que de nombreux programmes qui servent des fonctions similaires s’affichent et agissent de manière différente. Ces similarités signifient que les petites différences en matière de convivialité peuvent avoir un impact important sur la préférence de l’utilisateur.
 
 Enfin, chaque produit est testé en vue d’une utilisation finale. Les utilisateurs effectuent des tests d’utilisation sur le produit chaque fois qu’ils l’utilisent, et ils affichent leur verdict par le biais de leur utilisation continue ou de leur absence. Tester le produit avant de le publier sur le marché peut aider à garantir que les expériences des utilisateurs avec le produit sont positives.
 
@@ -139,7 +139,7 @@ Une meilleure conception offre une meilleure acceptation des utilisateurs. L’a
 
 ### <a name="cant-i-just-follow-guidelines"></a>Ne puis-je pas suivre les instructions ?
 
-Microsoft a développé un ensemble d’instructions d’interface pour la plateforme informatique Windows pour s’assurer que les programmes Windows ont une apparence cohérente. D’autres entreprises ont développé des directives similaires pour d’autres plateformes informatiques, et les experts de la convivialité tels que Jakob Nielsen ont largement écrit sur la conception de pages Web utilisables. Avec la richesse des informations disponibles sur ces sujets, les concepteurs pensent parfois que le respect rigoureux des directives et des normes est tout ce qui est nécessaire pour produire des produits utilisables.
+Microsoft a développé un ensemble d’instructions d’interface pour la plateforme de calcul Windows pour s’assurer que les programmes Windows ont une apparence et une convivialité cohérentes. D’autres entreprises ont développé des directives similaires pour d’autres plateformes informatiques, et les experts de la convivialité tels que Jakob Nielsen ont largement écrit sur la conception de pages Web utilisables. Avec la richesse des informations disponibles sur ces sujets, les concepteurs pensent parfois que le respect rigoureux des directives et des normes est tout ce qui est nécessaire pour produire des produits utilisables.
 
 Le problème de cette approche est que les recommandations sont fondamentalement générales. Les directives doivent s’appliquer à une grande variété de cas et, par conséquent, ne pas toujours prescrire la meilleure marche à suivre pour l’application en cours de développement. L’adhésion à un ensemble bien écrit d’instructions peut vous aider dans la conception d’une interface cohérente, mais elle ne peut pas garantir son usablility, sauf si elle est testée avec des utilisateurs réels. Lorsque vous utilisez des instructions, ne les utilisez pas comme un livre de recettes dans lequel les instructions pointent vers le meilleur de tous les résultats. Deux développeurs peuvent implémenter la même règle de deux manières différentes, et les deux implémentations peuvent ne pas être tout aussi appropriées pour la situation. Parfois, une adhésion rigoureuse aux instructions peut entraîner des résultats médiocres ou des conflits entre les instructions. Seule la conception centrée sur l’utilisateur peut aider à vider ces problèmes avant qu’ils ne deviennent des problèmes.
 
@@ -155,7 +155,7 @@ Une approche consiste simplement à avoir un testeur ? quelqu’un s’est enga
 
 En guise d’alternative, les tests peuvent être externalisés auprès des consultants en utilisation. La section suivante contient des conseils sur la recherche des consultants appropriés.
 
-### <a name="how-do-i-get-started"></a>Comment commencer ?
+### <a name="how-do-i-get-started"></a>comment Prise en main ?
 
 Une fois qu’il a été décidé d’incorporer des principes de conception centrés sur l’utilisateur dans le processus de développement, vous devez décider s’il faut embaucher des professionnels de la convivialité ou externaliser le test d’utilisabilité pour un fournisseur.
 
@@ -169,9 +169,9 @@ Quel que soit le routage utilisé, n’oubliez pas qu’il s’agit de services 
 
 Pour plus d’informations sur ces sociétés et organisations, et pour en savoir plus sur les tests d’utilisation et la conception centrée sur l’utilisateur, consultez [autres ressources](other-resources.md).
 
- 
+ 
 
- 
+ 
 
 
 

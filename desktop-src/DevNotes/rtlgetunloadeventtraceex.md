@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 05b9e076041d0cd2298799970670478e9d358d32
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 35c4001851cc12701152f983c51a800d8f1846e015f5cf4d967c6371d9807578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571359"
 ---
 # <a name="rtlgetunloadeventtraceex-function"></a>RtlGetUnloadEventTraceEx fonction)
 
@@ -66,7 +66,7 @@ Pointeur vers un tableau de structures **de \_ \_ \_ trace d’événements de d
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le chargeur stocke les informations sur les événements déchargés dans des emplacements pouvant être lus entre les processus en tirant parti du fait que Ntdll.dll est chargé à la même adresse de base dans tous les processus. Lorsqu’un débogueur doit interroger des informations de module déchargées, il appelle cette fonction pour déterminer l’adresse à laquelle les variables résident, puis interroge la mémoire virtuelle dans le processus cible à ces adresses pour lire les valeurs réelles.
 
@@ -83,7 +83,7 @@ typedef struct _RTL_UNLOAD_EVENT_TRACE {
 } RTL_UNLOAD_EVENT_TRACE, *PRTL_UNLOAD_EVENT_TRACE;
 ```
 
-Cette fonction n’a aucun fichier d’en-tête associé. La bibliothèque d’importation associée, ntdll. lib, est disponible dans le kit WDK (Windows Driver Kit). Vous pouvez également appeler cette fonction à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
+Cette fonction n’a aucun fichier d’en-tête associé. la bibliothèque d’importation associée, Ntdll. lib, est disponible dans le Kit de pilotes Windows (WDK). Vous pouvez également appeler cette fonction à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
 ## <a name="requirements"></a>Configuration requise
 

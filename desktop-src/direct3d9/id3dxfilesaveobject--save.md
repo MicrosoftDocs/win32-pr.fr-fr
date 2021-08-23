@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: c97c2ccf6c509aec1d217e3179c927fe2bb5a797
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a49c4776f9ce590d287869436b329ddf9a378e73f04f0127246fc890944ffee3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119563959"
 ---
 # <a name="id3dxfilesaveobjectsave-method"></a>ID3DXFileSaveObject :: Save, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être la suivante : D3DXFERR \_ BADOBJECT.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fois cette méthode réussie, [**ID3DXFileSaveObject :: AddDataObject**](id3dxfilesaveobject--adddataobject.md), [**ID3DXFileSaveData :: AddDataObject**](id3dxfilesavedata--adddataobject.md) et [**ID3DXFileSaveData :: AddDataReference**](id3dxfilesavedata--adddatareference.md) ne peuvent plus être appelés jusqu’à la création d’un nouvel objet [**ID3DXFile**](id3dxfile.md) .
 

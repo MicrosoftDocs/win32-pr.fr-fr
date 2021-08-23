@@ -4,36 +4,36 @@ description: Accès à la bibliothèque par programmation
 ms.assetid: f48fbb49-5b79-4a78-af72-8509c460a149
 keywords:
 - Lecteur Windows Media, bibliothèque
-- Modèle objet du lecteur Windows Media, bibliothèque
+- Lecteur Windows Media modèle objet, bibliothèque
 - modèle objet, bibliothèque
-- Contrôle ActiveX du lecteur Windows Media, bibliothèque pour le modèle objet
-- Contrôle ActiveX, bibliothèque pour le modèle objet
-- Windows Media Player Mobile contrôle ActiveX, bibliothèque pour le modèle objet
-- Windows Media Player Mobile, bibliothèque pour le modèle objet
-- Bibliothèque du lecteur Windows Media, accès par programmation
+- Lecteur Windows Media ActiveX contrôle, bibliothèque pour le modèle objet
+- contrôle ActiveX, bibliothèque pour le modèle objet
+- Lecteur Windows Media contrôle Mobile ActiveX, bibliothèque pour le modèle objet
+- Lecteur Windows Media Mobile, bibliothèque pour le modèle objet
+- bibliothèque Lecteur Windows Media, accès par programmation
 - bibliothèque, accès
-- accès à la bibliothèque du lecteur Windows Media par programmation
-- Bibliothèque du lecteur Windows Media, ajout d’éléments multimédias
+- accès à Lecteur Windows Media bibliothèque par programmation
+- bibliothèque de Lecteur Windows Media, ajout d’éléments multimédias
 - bibliothèque, ajout d’éléments multimédias
-- Bibliothèque du lecteur Windows Media, récupération d’éléments multimédias
+- bibliothèque de Lecteur Windows Media, récupération d’éléments multimédias
 - bibliothèque, récupération d’éléments multimédias
-- Bibliothèque du lecteur Windows Media, suppression d’éléments multimédias
+- bibliothèque de Lecteur Windows Media, suppression d’éléments multimédias
 - bibliothèque, suppression d’éléments multimédias
-- Ajout d’éléments multimédias à la bibliothèque du lecteur Windows Media
-- récupération d’éléments multimédias à partir de la bibliothèque du lecteur Windows Media
-- suppression d’éléments multimédias de la bibliothèque du lecteur Windows Media
+- ajout d’éléments multimédias à Lecteur Windows Media bibliothèque
+- récupération d’éléments multimédias à partir d’Lecteur Windows Media bibliothèque
+- suppression d’éléments multimédias de la bibliothèque de Lecteur Windows Media
 - récupération de métadonnées
-- Bibliothèque du lecteur Windows Media, récupération des métadonnées à partir des éléments multimédias
+- bibliothèque de Lecteur Windows Media, récupération de métadonnées à partir d’éléments multimédias
 - bibliothèque, récupération de métadonnées à partir d’éléments multimédias
 - métadonnées, récupération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d40e03e91b2a67a24cb49b0ac1810ceb7b9544c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6b575d1ed265d5c8e65beab9cc8e937b3639d8547867dacf473b2db21fe99198
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619429"
 ---
 # <a name="accessing-the-library-programmatically"></a>Accès à la bibliothèque par programmation
 
@@ -47,7 +47,7 @@ L’ajout de contenu multimédia numérique à la bibliothèque est simple. Appe
 
 ## <a name="retrieving-media-items-from-the-library"></a>Récupération d’éléments multimédias à partir de la bibliothèque
 
-Lorsque vous récupérez des éléments multimédias à partir de la bibliothèque, ce que vous récupérez vraiment est une sélection. Même si vous envisagez de récupérer un seul élément multimédia, vous obtiendrez un objet de **sélection** contenant un seul élément, qui sera associé à l’index zéro. Par exemple, si vous souhaitez récupérer un objet **multimédia** qui représente la chanson nommée « Jeanne », vous pouvez utiliser le code JScript suivant :
+Lorsque vous récupérez des éléments multimédias à partir de la bibliothèque, ce que vous récupérez vraiment est une sélection. Même si vous envisagez de récupérer un seul élément multimédia, vous obtiendrez un objet de **sélection** contenant un seul élément, qui sera associé à l’index zéro. par exemple, si vous souhaitez récupérer un objet **multimédia** qui représente la chanson nommée « Jeanne », vous pouvez utiliser le code JScript suivant :
 
 
 ```C++
@@ -73,7 +73,7 @@ Pour plus d’informations sur la récupération d’éléments multimédias à 
 
 ## <a name="retrieving-metadata-from-a-media-item"></a>Récupération de métadonnées d’un élément multimédia
 
-Après avoir récupéré un objet **multimédia** , vous pouvez lire les valeurs d’attribut associées au contenu. Dans le cas le plus simple, vous souhaiterez simplement connaître une seule valeur, telle que le nom de l’artiste qui a effectué une piste musicale. L’exemple JScript suivant montre comment utiliser la méthode [Media. getItemInfo](media-getiteminfo.md) pour récupérer le nom de l’artiste à partir du média récupéré dans l’exemple précédent :
+Après avoir récupéré un objet **multimédia** , vous pouvez lire les valeurs d’attribut associées au contenu. Dans le cas le plus simple, vous souhaiterez simplement connaître une seule valeur, telle que le nom de l’artiste qui a effectué une piste musicale. l’exemple de JScript suivant montre comment utiliser la méthode [Media. getItemInfo](media-getiteminfo.md) pour récupérer le nom de l’artiste à partir du média récupéré dans l’exemple précédent :
 
 
 ```C++
@@ -88,7 +88,7 @@ Un élément multimédia peut avoir de nombreux attributs différents et l’uti
 
 ## <a name="removing-media-items-from-the-library"></a>Suppression d’éléments multimédias de la bibliothèque
 
-La suppression du contenu multimédia numérique de la bibliothèque est également simple. Appelez simplement **MediaCollection. Remove**, en fournissant l’objet **multimédia** qui représente l’élément comme premier argument et la valeur **true** comme deuxième argument. L’exemple JScript suivant supprime le fichier nommé Jeanne (récupéré dans l’exemple précédent) de la bibliothèque :
+La suppression du contenu multimédia numérique de la bibliothèque est également simple. Appelez simplement **MediaCollection. Remove**, en fournissant l’objet **multimédia** qui représente l’élément comme premier argument et la valeur **true** comme deuxième argument. l’exemple de JScript suivant supprime le fichier nommé Jeanne (récupéré dans l’exemple précédent) de la bibliothèque :
 
 
 ```C++
@@ -115,9 +115,9 @@ playst.mediaCollection.remove(media, true);
 [**Utilisation de la bibliothèque**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

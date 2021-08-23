@@ -4,12 +4,12 @@ ms.assetid: 40354d8f-1e8b-48aa-888a-81a421568f23
 title: Plusieurs restrictions de fournisseur sur SELECT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2556d98aea60e6fa822f9e3df57cc142c33491d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ec5c89c6dd2db809a356f5b53212fd019e32fd9e348c298bcab7f567ee2d0fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569629"
 ---
 # <a name="multiple-provider-restrictions-on-select"></a>Plusieurs restrictions de fournisseur sur SELECT
 
@@ -20,7 +20,7 @@ Windows Sockets 2 permet à une application d’utiliser plusieurs fournisseurs 
 Il existe deux façons de déterminer l’état d’un ensemble de sockets qui s’étend sur plusieurs fournisseurs de services :
 
 -   Utilisation des fonctions [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) ou [**WSAEventSelect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaeventselect) lorsque la sémantique de blocage est utilisée.
--   Utilisation de la fonction [**WSAAsyncSelect**](/windows/desktop/api/winsock/nf-winsock-wsaasyncselect) lorsque des opérations de non-blocage sont utilisées et que l’application utilise déjà une pompe de messages Windows.
+-   utilisation de la fonction [**WSAAsyncSelect**](/windows/desktop/api/winsock/nf-winsock-wsaasyncselect) lorsque des opérations de non-blocage sont utilisées et que l’application utilise déjà une Windows pompe de messages.
 
 Quand une application doit utiliser la sémantique de blocage sur un ensemble de sockets qui s’étend sur plusieurs fournisseurs, [**WSAWaitForMultipleEvents**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) est recommandé. L’application peut également utiliser la fonction [**WSAEventSelect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaeventselect) , qui permet aux \_ événements réseau FD xxx (voir [**WSAEventSelect**](/windows/desktop/api/Winsock2/nf-winsock2-wsaeventselect)) de s’associer à un objet d’événement et de les gérer à partir du paradigme de l’objet d’événement (décrit dans [e/s et objets d’événement avec chevauchement](overlapped-i-o-and-event-objects-2.md)).
 

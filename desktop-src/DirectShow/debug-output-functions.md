@@ -4,16 +4,16 @@ ms.assetid: dfe44c8c-43ec-461f-952f-b87256b82ee6
 title: Fonctions de sortie de débogage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87470b44717bb76c1a029bd885bb9149a4636b5d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 252e1020ca99bd5b4f2f46d7f2169fa6835dea83a25d599dba142f370bb794f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106544562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537739"
 ---
 # <a name="debug-output-functions"></a>Fonctions de sortie de débogage
 
-Les [classes de base DirectShow](directshow-base-classes.md) fournissent plusieurs macros pour l’affichage des informations de débogage.
+les [Classes de Base DirectShow](directshow-base-classes.md) fournissent plusieurs macros pour l’affichage des informations de débogage.
 
 
 
@@ -39,19 +39,19 @@ Les [classes de base DirectShow](directshow-base-classes.md) fournissent plusieu
 
 **Clés de Registre**
 
-La fonction de sortie de débogage dans DirectShow utilise un ensemble de clés de registre. L’emplacement de ces clés de Registre dépend de la version de Windows.
+la fonction de sortie de débogage dans DirectShow utiliser un jeu de clés de registre. L’emplacement de ces clés de Registre dépend de la version de Windows.
 
-*Avant Windows Vista*, les clés de débogage se trouvent sous le chemin d’accès suivant :
+*avant Windows Vista*, les clés de débogage se trouvent sous le chemin d’accès suivant :
 
 **HKEY \_ \_** Débogage \\ **logiciel** \\  de l’ordinateur local
 
-Dans Windows Vista ou version ultérieure, ils se trouvent sous le chemin d’accès suivant :
+dans Windows Vista ou version ultérieure, ils se trouvent sous le chemin d’accès suivant :
 
-**HKEY \_ \_** Débogage \\  \\ **Microsoft** \\ **DirectShow** \\  du logiciel de l’ordinateur local
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **DirectShow** \\ **Debug**
 
-Pour les filtres tiers, l’emplacement dépend de la version des classes de [base DirectShow](directshow-base-classes.md) qui a été utilisée pour générer le filtre. La version incluse dans le SDK Windows pour Windows Vista utilise le chemin d’accès le plus récent. Les versions précédentes utilisaient l’ancien chemin d’accès.
+pour les filtres tiers, l’emplacement dépend de la version du [DirectShow Classes de Base](directshow-base-classes.md) qui a été utilisée pour générer le filtre. la version incluse dans le SDK Windows pour Windows Vista utilise le chemin d’accès le plus récent. Les versions précédentes utilisaient l’ancien chemin d’accès.
 
-Dans les notes qui suivent, l’étiquette *<DebugRoot>* est utilisée pour indiquer ces deux chemins d’accès. Remplacez le chemin d’accès correct, selon la version de Windows ou la version des classes de base.
+Dans les notes qui suivent, l’étiquette *<DebugRoot>* est utilisée pour indiquer ces deux chemins d’accès. remplacez le chemin d’accès correct, selon la version de Windows ou la version des classes de base.
 
 **Journalisation du débogage**
 
@@ -72,7 +72,7 @@ DirectShow définit plusieurs types de messages, comme indiqué dans le tableau 
 
  
 
-Chacune des fonctions de journalisation de débogage DirectShow spécifie un type de message et un niveau de journal. Le message de débogage s’affiche uniquement lorsque le niveau de débogage actuel de ce type de message est supérieur ou égal au niveau spécifié dans la fonction de journalisation. Dans le cas contraire, le message est ignoré.
+chaque fonction de journalisation de débogage DirectShow spécifie un type de message et un niveau de journal. Le message de débogage s’affiche uniquement lorsque le niveau de débogage actuel de ce type de message est supérieur ou égal au niveau spécifié dans la fonction de journalisation. Dans le cas contraire, le message est ignoré.
 
 Par exemple, le code suivant génère la chaîne « This is a Debug message » si le niveau de trace du journal \_ est supérieur ou égal à 3 :
 
@@ -107,7 +107,7 @@ L’emplacement de sortie de débogage est déterminé par une autre clé de Reg
 
 Si la valeur de cette clé est `Console` , la sortie est envoyée à la fenêtre de console. Si la valeur est `Deb` , `Debug` , `Debugger` ou une chaîne vide, la sortie est envoyée à la fenêtre du débogueur. Dans le cas contraire, la sortie est écrite dans un fichier spécifié par la clé de registre.
 
-Avant qu’un fichier exécutable n’utilise la bibliothèque de débogage DirectShow, il doit appeler la fonction [**DbgInitialise**](dbginitialise.md) . Ensuite, il doit appeler la fonction [**DbgTerminate**](dbgterminate.md) . Les dll n’ont pas besoin d’appeler ces fonctions, car le point d’entrée de la DLL (défini dans la bibliothèque de classes de base) les appelle automatiquement.
+avant qu’un exécutable n’utilise la bibliothèque de débogage DirectShow, il doit appeler la fonction [**DbgInitialise**](dbginitialise.md) . Ensuite, il doit appeler la fonction [**DbgTerminate**](dbgterminate.md) . Les dll n’ont pas besoin d’appeler ces fonctions, car le point d’entrée de la DLL (défini dans la bibliothèque de classes de base) les appelle automatiquement.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

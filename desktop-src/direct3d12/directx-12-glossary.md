@@ -6,12 +6,12 @@ ms.assetid: 46B0F055-7E4F-4F8D-9915-3D195FD695B7
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a84b4b2e5a993b33b4c322b91682c8f9b5499bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c4a7ad8d9c925d4bd3b82a3c7dd177a58afd7f50fb82836bed56fac6a20c8f6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496879"
 ---
 # <a name="direct3d-12-glossary"></a>Glossaire Direct3D 12
 
@@ -211,7 +211,7 @@ La liaison de ressources est le processus qui consiste à lier des ressources (t
 <span id="direct3d12.directx_12_glossary_resource_heaps"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_RESOURCE_HEAPS"></span>**tas de ressources**
 </dt> <dd>
 
-Les tas de ressources sont un terme générique pour les segments de mémoire tampon qui sont mis de côté pour contenir des ressources lors de leur transfert vers et depuis le GPU. Un transfert vers le GPU requiert un tas de chargement, du GPU au processeur requiert un segment de mémoire readback, et un segment de mémoire persistant pour le GPU à gérer sur plusieurs frames de rendu est appelé un tas par défaut.
+Les tas de ressources sont un terme générique pour les segments de mémoire tampon qui sont mis de côté pour contenir des ressources lors de leur transfert vers et depuis le GPU. un transfert vers le gpu requiert un segment de mémoire Télécharger, du gpu au processeur requiert un segment de mémoire Readback, et un segment de mémoire persistant pour le gpu à gérer sur plusieurs frames de rendu est appelé un tas par défaut.
 
 </dd> <dt>
 
@@ -295,7 +295,7 @@ Segment de mémoire en mode utilisateur qui se concentre sur le transfert de don
 <span id="direct3d12.directx_12_glossary_user_mode_heap"></span><span id="DIRECT3D12.DIRECTX_12_GLOSSARY_USER_MODE_HEAP"></span>**segment de mémoire en mode utilisateur**
 </dt> <dd>
 
-Collection d’allocations de mémoire volumineuses et contiguës qui sont recyclées sans conscience du composant de noyau : les méthodes d’allocation et de destruction n’appellent pas les méthodes d’allocation et de destruction du noyau dans un état stable. Les tas upload, readback et default sont des variantes de tas en mode utilisateur.
+Collection d’allocations de mémoire volumineuses et contiguës qui sont recyclées sans conscience du composant de noyau : les méthodes d’allocation et de destruction n’appellent pas les méthodes d’allocation et de destruction du noyau dans un état stable. les tas Télécharger, Readback et Default sont des variantes de tas en mode utilisateur.
 
 </dd> <dt>
 
@@ -306,6 +306,6 @@ Collection d’allocations de mémoire volumineuses et contiguës qui sont recyc
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

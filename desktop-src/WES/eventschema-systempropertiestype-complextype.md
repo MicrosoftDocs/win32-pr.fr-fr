@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ce78a804c52ed492bd4b2a42332f8eda36b4c3be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f7391362938502f0c307faab4d7b9166633647b093e5154b3aa56512c6ee4e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620239"
 ---
 # <a name="systempropertiestype-complex-type"></a>Type complexe SystemPropertiesType
 
@@ -201,9 +201,9 @@ Définit les informations qui identifient le fournisseur et comment il a été a
 | [**1001**](eventschema-eventid-systempropertiestype-element.md)             |                                                             | Identificateur que le fournisseur a utilisé pour identifier l’événement.<br/>                                                                                                                                                                                                                                                                      |
 | [**EventRecordID**](eventschema-eventrecordid-systempropertiestype-element.md) |                                                             | Numéro d’enregistrement affecté à l’événement lorsqu’il a été enregistré.<br/>                                                                                                                                                                                                                                                                       |
 | [**Exécution**](eventschema-execution-systempropertiestype-element.md)         |                                                             | Contient des informations sur le processus et le thread qui a consigné l’événement.<br/>                                                                                                                                                                                                                                                          |
-| [**Mots clés**](eventschema-keywords-systempropertiestype-element.md)           | [**HexInt64Type**](eventschema-hexint64type-simpletype.md) | Masque de masque des mots clés définis dans l’événement. Les mots clés sont utilisés pour classer les types d’événements (par exemple, les événements associés à la lecture de données).<br/>                                                                                                                                                                                 |
-| [**Level**](eventschema-level-systempropertiestype-element.md)                 | unsignedByte                                                | Niveau de gravité défini dans l’événement.<br/>                                                                                                                                                                                                                                                                                          |
-| [**Opcode**](eventschema-opcode-systempropertiestype-element.md)               | unsignedByte                                                | Opcode défini dans l’événement. Task et opcode sont des typcially utilisés pour identifier l’emplacement dans l’application à partir duquel l’événement a été enregistré.<br/>                                                                                                                                                                                  |
+| [**Mot**](eventschema-keywords-systempropertiestype-element.md)           | [**HexInt64Type**](eventschema-hexint64type-simpletype.md) | Masque de masque des mots clés définis dans l’événement. Les mots clés sont utilisés pour classer les types d’événements (par exemple, les événements associés à la lecture de données).<br/>                                                                                                                                                                                 |
+| [**Niveau**](eventschema-level-systempropertiestype-element.md)                 | unsignedByte                                                | Niveau de gravité défini dans l’événement.<br/>                                                                                                                                                                                                                                                                                          |
+| [**OpCode**](eventschema-opcode-systempropertiestype-element.md)               | unsignedByte                                                | Opcode défini dans l’événement. Task et opcode sont des typcially utilisés pour identifier l’emplacement dans l’application à partir duquel l’événement a été enregistré.<br/>                                                                                                                                                                                  |
 | [**Fournisseur**](eventschema-provider-systempropertiestype-element.md)           |                                                             | Identifie le fournisseur qui a consigné l’événement. Les attributs **Name** et **GUID** sont inclus si le fournisseur a utilisé un manifeste d’instrumentation pour définir ses événements. dans le cas contraire, l’attribut **EventSourceName** est inclus si un fournisseur d’événements hérité (à l’aide de l’API de [journalisation des événements](/windows/desktop/EventLog/event-logging) ) a enregistré l’événement.<br/> |
 | [**Sécurité**](eventschema-security-systempropertiestype-element.md)           |                                                             | Identifie l’utilisateur qui a enregistré l’événement.<br/>                                                                                                                                                                                                                                                                                        |
 | [**Tâche**](eventschema-task-systempropertiestype-element.md)                   | unsignedShort                                               | Tâche définie dans l’événement. La tâche et l’opcode sont généralement utilisés pour identifier l’emplacement dans l’application à partir duquel l’événement a été enregistré.<br/>                                                                                                                                                                                    |
@@ -237,7 +237,7 @@ Définit les informations qui identifient le fournisseur et comment il a été a
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, l’événement contient le nom de domaine complet (FQDN) d’un ordinateur. Pour utiliser le nom NETBIOS plutôt que le nom de domaine complet (FQDN), vous devez créer une valeur de Registre DWORD nommée CompatFlags sous la clé de Registre suivante et définir la valeur de CompatFlags sur 0X2.
 
@@ -256,8 +256,8 @@ HKEY_LOCAL_MACHINE
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

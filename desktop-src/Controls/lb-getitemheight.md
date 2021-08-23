@@ -3,7 +3,7 @@ title: Message LB_GETITEMHEIGHT (winuser. h)
 description: Obtient la hauteur des éléments dans une zone de liste.
 ms.assetid: ee96fce6-babd-4581-ac0e-2eb955fe543b
 keywords:
-- LB_GETITEMHEIGHT les contrôles de message Windows
+- LB_GETITEMHEIGHT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f44aa9e9b6d52c082a5f33a10280837a33372245
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29c232c172f14774db9dd7c783e18a10f0888190708432b9336208570f0d5031
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434329"
 ---
 # <a name="lb_getitemheight-message"></a>\_Message GETITEMHEIGHT lb
 
@@ -34,7 +34,7 @@ Obtient la hauteur des éléments dans une zone de liste.
 
 Index de base zéro de l’élément de zone de liste. Cet index est utilisé uniquement si la zone de liste présente le style [**\_ OWNERDRAWVARIABLE**](list-box-styles.md) . sinon, elle doit être égale à zéro.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
+Windows 95/Windows 98/Windows Millennium edition (Windows) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
 
 </dd> <dt>
 
@@ -55,8 +55,8 @@ La valeur de retour correspond à la hauteur, en pixels, de chaque élément de 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

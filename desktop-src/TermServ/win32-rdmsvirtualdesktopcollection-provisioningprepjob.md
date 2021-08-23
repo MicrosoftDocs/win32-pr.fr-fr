@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9727dec0e31dd199f324ed01a4510041ba3558f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b2dab9dcbd606dd32857f0d2dc4b2de3d8516e2b2da10e804fa36254679c1d2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422839"
 ---
 # <a name="provisioningprepjob-method-of-the-win32_rdmsvirtualdesktopcollection-class"></a>Méthode ProvisioningPrepJob de la \_ classe Win32 RDMSVirtualDesktopCollection
 
