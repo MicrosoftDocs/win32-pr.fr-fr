@@ -4,12 +4,12 @@ ms.assetid: d78a8c4d-377e-45eb-9cf6-2d61b34e82d6
 title: Attribut MF_MT_AUDIO_BITS_PER_SAMPLE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 896e77c937269b63208cb4bff73482a8df8596aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b9697ff5ce97bc7dd9066b57f94e41ff02a599fcf14d1ea8f51c9dea69efc7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104555"
 ---
 # <a name="mf_mt_audio_bits_per_sample-attribute"></a>\_Bits de \_ sortie audio MF \_ \_ par exemple d' \_ attribut
 
@@ -19,7 +19,7 @@ Nombre de bits par échantillon audio dans un type de média audio.
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut correspond au membre **wBitsPerSample** de la structure [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) .
 
@@ -35,8 +35,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

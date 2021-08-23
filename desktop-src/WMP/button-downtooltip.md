@@ -3,7 +3,7 @@ title: BUTTON. downToolTip
 description: L’attribut downToolTip spécifie ou récupère le texte info-bulle qui apparaît lorsque la souris se trouve sur le bouton et que le bouton est à l’état inactif.
 ms.assetid: 53a13aaf-34c8-4730-98b7-c9c3a4b64721
 keywords:
-- BUTTON. downToolTip Windows Media Player
+- BUTTON. downToolTip Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f487c470f612a30919d2dae006f2ccbe64f26c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c32ad6138f0442fdcb4c76b0f50bb75158410cd2980cc32d4b6774a2cec18320
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119417269"
 ---
 # <a name="buttondowntooltip"></a>BUTTON. downToolTip
 
@@ -31,7 +31,7 @@ L’attribut **downToolTip** spécifie ou récupère le texte info-bulle qui app
 
 Cet attribut est une **chaîne** en lecture/écriture dont la valeur par défaut est «» (chaîne vide) et une longueur maximale de 1024 caractères.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque cet attribut a la valeur "" (chaîne vide), aucune info-bulle n’est affichée.
 

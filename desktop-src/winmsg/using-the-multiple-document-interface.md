@@ -4,19 +4,19 @@ ms.assetid: 024744d3-362f-4162-8d0a-d4dac61de808
 title: Utilisation de l’interface multidocument
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e24aed7abc3640b441345520203c8a02e025e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09453e6f4a9301c8cdfc9d675ae1efd7853594fc472a446a021e3bd3e075fc50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028327"
 ---
 # <a name="using-the-multiple-document-interface"></a>Utilisation de l’interface multidocument
 
 Cette section explique comment effectuer les tâches suivantes :
 
 -   [Inscription des classes de fenêtre frame et enfant](#registering-child-and-frame-window-classes)
--   [Création de fenêtres Frame et enfants](#creating-frame-and-child-windows)
+-   [Création du frame et des Windows enfants](#creating-frame-and-child-windows)
 -   [Écriture de la boucle de message principale](#writing-the-main-message-loop)
 -   [Écriture de la procédure de fenêtre frame](#writing-the-frame-window-procedure)
 -   [Écriture de la procédure de fenêtre enfant](#writing-the-child-window-procedure)
@@ -75,7 +75,7 @@ BOOL WINAPI InitializeApplication()
 
 
 
-## <a name="creating-frame-and-child-windows"></a>Création de fenêtres Frame et enfants
+## <a name="creating-frame-and-child-windows"></a>Création du frame et des Windows enfants
 
 Après avoir inscrit ses classes de fenêtre, une application MDI peut créer ses fenêtres. Tout d’abord, elle crée sa fenêtre frame à l’aide de la fonction [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) ou [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Après avoir créé sa fenêtre frame, l’application crée à nouveau sa fenêtre cliente à l’aide de **CreateWindow** ou de **CreateWindowEx**. L’application doit spécifier MDICLIENT comme nom de classe de la fenêtre cliente ; **MdiClient** est une classe de fenêtre préinscrite définie par le système. Le paramètre *lpvParam* de **CreateWindow** ou **CreateWindowEx** doit pointer vers une structure [**CLIENTCREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-clientcreatestruct) . Cette structure contient les membres décrits dans le tableau suivant :
 
@@ -162,7 +162,7 @@ La procédure de fenêtre pour une fenêtre frame MDI est semblable à celle d�
 
 
 
-| Message                                  | response                                                                                                                                                                                                                                                            |
+| Message                                  | Réponse                                                                                                                                                                                                                                                            |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WM, \_ commande**](../menurc/wm-command.md)     | Active la fenêtre enfant MDI choisie par l’utilisateur. Ce message est envoyé lorsque l’utilisateur choisit une fenêtre enfant MDI dans le menu fenêtre de la fenêtre frame MDI. L’identificateur de fenêtre accompagnant ce message identifie la fenêtre enfant MDI à activer. |
 | [**\_MENUCHAR WM**](../menurc/wm-menuchar.md)   | Ouvre le menu fenêtre de la fenêtre enfant MDI active quand l’utilisateur appuie sur la combinaison de touches ALT + – (moins).                                                                                                                                                      |
@@ -181,7 +181,7 @@ La procédure de fenêtre frame dans MULTIPAD est appelée MPFrameWndProc. La ge
 
 
 
-| Message                                       | response                                                                                                                                                                                                                                                  |
+| Message                                       | Réponse                                                                                                                                                                                                                                                  |
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_CHILDACTIVATE WM**](wm-childactivate.md) | Effectue le traitement de l’activation lorsque les fenêtres enfants MDI sont dimensionnées, déplacées ou affichées. Ce message doit être transmis.                                                                                                                                        |
 | [**\_GETMINMAXINFO WM**](wm-getminmaxinfo.md) | Calcule la taille d’une fenêtre enfant MDI agrandie, en fonction de la taille actuelle de la fenêtre du client MDI.                                                                                                                                                  |

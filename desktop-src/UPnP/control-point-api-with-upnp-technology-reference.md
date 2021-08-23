@@ -1,19 +1,19 @@
 ---
 title: Informations de référence sur l’API point de contrôle
-description: Les interfaces suivantes font partie de l’API de point de contrôle avec la technologie UPnP. L’API du point de contrôle prend en charge Microsoft Visual Basic Scripting Edition (VBScript), Microsoft Visual Basic et C++.
+description: Les interfaces suivantes font partie de l’API de point de contrôle avec la technologie UPnP. l’API du Point de contrôle prend en charge microsoft Visual Basic scripting Edition (VBScript), microsoft Visual Basic et C++.
 ms.assetid: 6f73bf8c-0423-430f-a654-58d076712aae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 691a0d764f612d957ac11b3b052859f081bc7285
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24b3dab16874ebeb7b43ef1e8cf28def13d3ef1d7169a5aae4836b39da66636b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058117"
 ---
 # <a name="control-point-api-reference"></a>Informations de référence sur l’API point de contrôle
 
-Les interfaces suivantes font partie de l’API de point de contrôle avec la technologie UPnP. L’API du point de contrôle prend en charge Microsoft Visual Basic Scripting Edition (VBScript), Microsoft Visual Basic et C++.
+Les interfaces suivantes font partie de l’API de point de contrôle avec la technologie UPnP. l’API du Point de contrôle prend en charge microsoft Visual Basic scripting Edition (VBScript), microsoft Visual Basic et C++.
 
 
 
@@ -37,11 +37,11 @@ Les interfaces suivantes font partie de l’API de point de contrôle avec la te
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

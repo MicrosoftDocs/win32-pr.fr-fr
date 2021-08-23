@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da4db5d760845fa6c05923c76459900dafcbdbfc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 31bbc81da47f9dc0ac17e003d3c27b8882855dc487200c4791e33e21bad4fb62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012137"
 ---
 # <a name="glindexsv-function"></a>glIndexsv fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers un tableau d’un élément qui contient la nouvelle valeur pour l
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glIndexsv** met à jour l’index de couleurs actuel (à valeur unique). Il accepte un argument : la nouvelle valeur pour l’index de couleur actuel.
 

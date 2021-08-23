@@ -4,27 +4,27 @@ description: Attribut VML Path
 ms.assetid: ecb64a2f-65f7-4eb9-8d67-d7909bf52d9c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e43e453e982327549475de4643cc0ad21bc0b4db
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f314956452db5a88011a147fd05302483e50cbce3724cf8188068770ec492db6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136962"
 ---
 # <a name="vml-path-attribute"></a>Attribut VML Path
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Spécifie la ligne qui compose les bords d’une forme. En lecture/écriture. **Chaîne**.
 
 **S’applique à**
 
-[Graphique à base de formes](shape-element--vml.md)
+[Forme](shape-element--vml.md)
 
 **Syntaxe de balise**
 
@@ -60,6 +60,6 @@ Un chemin d’accès carré fermé est défini dans la chaîne de l’attribut p
 
 [Exemple d’attribut path](/previous-versions/bb264089(v=vs.85)). (Nécessite Microsoft Internet Explorer 5 ou version ultérieure.)
 
- 
+ 
 
- 
+ 

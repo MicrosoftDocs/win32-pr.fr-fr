@@ -1,23 +1,23 @@
 ---
 title: Exemple de déclencheur de temps (C++)
-description: Cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes à un moment donné.
+description: cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter Bloc-notes à une heure spécifiée.
 ms.assetid: e45b18b0-5a7f-4283-b42f-15e9ffcfaff7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39f7f8d3c8bd1f179b0def9be069d710a2e126a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 227d6fe24aa63b430376a7ce50d23b4b8ecd282f807315384b42175b9903d1b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059648"
 ---
 # <a name="time-trigger-example-c"></a>Exemple de déclencheur de temps (C++)
 
-Cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes à un moment donné. La tâche contient un déclencheur basé sur l’heure qui spécifie une limite de début et une limite de fin pour la tâche. La tâche contient également une action qui spécifie la tâche d’exécution du bloc-notes. La tâche est inscrite à l’aide d’un type d’ouverture de session interactive, ce qui signifie que la tâche s’exécute dans le contexte de sécurité de l’utilisateur qui exécute l’application. La tâche contient également des paramètres inactifs, qui spécifient comment Planificateur de tâches effectue des tâches lorsque l’ordinateur est en état d’inactivité.
+cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter Bloc-notes à une heure spécifiée. La tâche contient un déclencheur basé sur l’heure qui spécifie une limite de début et une limite de fin pour la tâche. la tâche contient également une action qui spécifie la tâche à exécuter Bloc-notes. La tâche est inscrite à l’aide d’un type d’ouverture de session interactive, ce qui signifie que la tâche s’exécute dans le contexte de sécurité de l’utilisateur qui exécute l’application. La tâche contient également des paramètres inactifs, qui spécifient comment Planificateur de tâches effectue des tâches lorsque l’ordinateur est en état d’inactivité.
 
 La procédure suivante décrit comment planifier une tâche pour démarrer un exécutable à un moment donné.
 
-**Pour planifier le démarrage du bloc-notes à un moment donné**
+**pour planifier le démarrage de Bloc-notes à une heure spécifique**
 
 1.  Initialiser COM et définir la sécurité générale de COM.
 2.  Créez l’objet [**la**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) .
@@ -42,7 +42,7 @@ La procédure suivante décrit comment planifier une tâche pour démarrer un ex
 
 7.  Inscrivez la tâche à l’aide de la méthode [**ITaskFolder :: RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition) .
 
-L’exemple C++ suivant montre comment planifier une tâche pour exécuter le bloc-notes une minute après l’inscription de la tâche.
+l’exemple C++ suivant montre comment planifier l’exécution d’une tâche Bloc-notes une minute après l’enregistrement de la tâche.
 
 
 ```C++
@@ -418,9 +418,9 @@ int __cdecl wmain()
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

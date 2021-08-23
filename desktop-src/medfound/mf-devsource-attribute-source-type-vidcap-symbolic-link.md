@@ -4,12 +4,12 @@ ms.assetid: 3d256dec-ec8c-4c62-883b-e2c292fd90eb
 title: Attribut MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48e1c854ee070713462676482cc04690c2bdde2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1dd3b69899eb9df1973cb13611a822139ffda0e744c84137ff9d6094ed4a962d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104945"
 ---
 # <a name="mf_devsource_attribute_source_type_vidcap_symbolic_link-attribute"></a>Attribut \_ de \_ \_ \_ \_ \_ lien symbolique VIDCAP du type de source \_ de l’attribut MF DEVSOURCE
 
@@ -17,15 +17,15 @@ Contient le lien symbolique pour un pilote de capture vidéo.
 
 ## <a name="data-type"></a>Type de données
 
-**WCHAR \** _
+**WCHAR\***
 
 ## <a name="getset"></a>Obtenir/définir
 
-Pour récupérer cet attribut, appelez [_ *IMFAttributes :: GetString* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring).
+Pour récupérer cet attribut, appelez [**IMFAttributes :: GetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring).
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cet attribut comme entrée de la fonction [**MFCreateDeviceSourceActivate**](/windows/desktop/api/mfidl/nf-mfidl-mfcreatedevicesourceactivate) .
 
@@ -46,8 +46,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

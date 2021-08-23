@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a1c43ce76cb56e89831f3d6108bfef6d3b403a1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: af2621c363bacc2cf864e4b39999e760cfd615358d664ffb4c8197336eca32e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081533"
 ---
 # <a name="netboot-current-client-count-attribute"></a>attribut netboot-Current-client-Count
 
@@ -36,7 +36,7 @@ L’attribut **netboot-Current-client-Count** est réservé à un usage interne.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.852               |
 | System-ID-GUID    | 07383079-91df-11d1-aebc-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ L’attribut **netboot-Current-client-Count** est réservé à un usage interne.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

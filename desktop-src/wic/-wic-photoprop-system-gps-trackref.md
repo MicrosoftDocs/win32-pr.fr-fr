@@ -4,12 +4,12 @@ ms.assetid: e6912177-8add-4520-b396-c28060b359c7
 title: Stratégie de métadonnées de photo System. GPS. TrackRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95fc63de6eaffd697798c08ff74a46c3d15c7818
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34a523f801b8e82fc4191b54bf0bb5fee659ab4f5b09c326d5d1adf14c713f13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087177"
 ---
 # <a name="systemgpstrackref-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. TrackRef
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. TrackR
 
 \_TrackRef GPS \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 14} | ascii       |
 | 2     | /xmp/exif:GPSTrackRef     | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 14} | ascii       |
 | 2     | /xmp/exif:GPSTrackRef     | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 14} |
 | 2     | /xmp/exif:gpstrackref     |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 14}      | ascii       |
 | 2     | /ifd/xmp/exif:GPSTrackRef | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 14}      | ascii       |
 | 2     | /ifd/xmp/exif:GPSTrackRef | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /IFD/GPS/{UShort = 14}      |
 | 2     | /ifd/xmp/exif:gpstrackref |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

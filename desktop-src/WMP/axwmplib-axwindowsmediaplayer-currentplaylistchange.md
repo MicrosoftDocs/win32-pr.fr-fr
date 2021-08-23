@@ -3,7 +3,7 @@ title: Événement CurrentPlaylistChange de l’objet AxWindowsMediaPlayer
 description: L’événement CurrentPlaylistChange se produit en cas de modification de la sélection actuelle. | Événement CurrentPlaylistChange de l’objet AxWindowsMediaPlayer
 ms.assetid: 1f9c99a4-7d10-48bf-b5ff-b1c1d6753b20
 keywords:
-- Événement CurrentPlaylistChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement CurrentPlaylistChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f99f34f0e02d03352a61bbfca6767295d63d59a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 07ff3c076f9b670e3cd234a53b93f3ea9c0963d2dea1f12a3963f12300e9532e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136142"
 ---
 # <a name="currentplaylistchange-event-of-the-axwindowsmediaplayer-object"></a>Événement CurrentPlaylistChange de l’objet AxWindowsMediaPlayer
 
@@ -53,7 +53,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement ne se produit pas lorsqu’une sélection différente devient la sélection actuelle. Cela se produit uniquement lorsqu’une modification se produit dans la sélection actuelle, par exemple un élément multimédia ajouté à la sélection.
 
@@ -154,13 +154,13 @@ End Sub
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**AxWindowsMediaPlayer. currentPlaylist (VB et C#)**](axwmplib-axwindowsmediaplayer-currentplaylist--vb-and-c.md)
 </dt> <dt>
 
-[**Événement AxWindowsMediaPlayer. PlaylistChange (VB et C#)**](axwmplib-axwindowsmediaplayer-playlistchange.md)
+[**événement AxWindowsMediaPlayer. PlaylistChange (VB et C#)**](axwmplib-axwindowsmediaplayer-playlistchange.md)
 </dt> <dt>
 
 [**WMPPlaylistChangeEventType**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaylistchangeeventtype)

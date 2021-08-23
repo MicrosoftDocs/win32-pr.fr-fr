@@ -4,12 +4,12 @@ ms.assetid: A1C05857-26F8-4d4a-977B-4782E8AFA317
 title: Fonctionnement des associations de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf307e40bb6165da4a2547fb8dafc1791a11ee6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: bbd12386ec7e850d160a6377ddff9b807e6dccfe101ad45285bdc9d7f2661a0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032727"
 ---
 # <a name="how-file-associations-work"></a>Fonctionnement des associations de fichiers
 
@@ -29,7 +29,7 @@ Les associations de fichiers contrôlent les fonctionnalités suivantes :
 
 -   L’application qui démarre lorsqu’un utilisateur double-clique sur un fichier.
 -   L’icône qui s’affiche pour un fichier par défaut.
--   Mode d’affichage du type de fichier dans l’Explorateur Windows.
+-   mode d’affichage du type de fichier dans Windows Explorer.
 -   Les commandes qui s’affichent dans le menu contextuel d’un fichier.
 -   Autres fonctionnalités de l’interface utilisateur, telles que les info-bulles, les informations de vignette et le volet d’informations.
 
@@ -37,7 +37,7 @@ Les développeurs d’applications peuvent utiliser des associations de fichiers
 
 Les utilisateurs peuvent contrôler certains aspects des associations de fichiers pour personnaliser la façon dont l’interpréteur de commandes traite un type de fichier à l’aide de l’interface utilisateur **ouverte** ou de la modification du Registre.
 
-Dans la fenêtre de l’Explorateur Windows présentée dans la capture d’écran ci-dessous, l’interpréteur de commandes affiche différentes icônes pour chaque fichier, en fonction de l’icône associée au type de fichier. Si l’utilisateur double-clique sur l' **image bitmap** de l’exemple de fichier, l’interpréteur de commandes lance Paint et l’utilise pour ouvrir le fichier, car sur ce système, Paint est associé aux fichiers. bmp. Les utilisateurs peuvent contrôler ces actions à l’aide d’associations de fichiers.
+dans la fenêtre de l’explorateur de Windows présentée dans la capture d’écran ci-dessous, l’interpréteur de commandes affiche différentes icônes pour chaque fichier, en fonction de l’icône associée au type de fichier. si l’utilisateur double-clique sur l' **image Bitmap** de l’exemple de fichier, le Shell lance Paint et l’utilise pour ouvrir le fichier, car sur ce système, Paint est associé à .bmp fichiers. Les utilisateurs peuvent contrôler ces actions à l’aide d’associations de fichiers.
 
 ![illustration du fonctionnement des associations de fichiers dans la pratique](images/file-assoc/fileassoc-icons.png)
 

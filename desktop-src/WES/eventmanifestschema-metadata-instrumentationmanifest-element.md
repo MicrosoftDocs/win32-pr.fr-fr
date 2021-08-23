@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c14dc8772dee66fcce9ff07e9918c11b463aa414
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eaa22cc13c611b90ace42a2a71517fe0771d6e9ed03d6d964f11a4e4c93cda43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136322"
 ---
 # <a name="metadata-instrumentationmanifest-element"></a>Élément Metadata (instrumentationManifest)
 
-Contient des valeurs globales que vous pouvez référencer dans d’autres manifestes. Pour obtenir un exemple, consultez le fichier Winmeta.xml inclus dans le \\ dossier include du SDK Windows.
+Contient des valeurs globales que vous pouvez référencer dans d’autres manifestes. pour obtenir un exemple, consultez le fichier Winmeta.xml inclus dans le \\ dossier include du SDK Windows.
 
 ``` syntax
 <xs:element name="metadata"
@@ -32,7 +32,7 @@ Contient des valeurs globales que vous pouvez référencer dans d’autres manif
 
 L’élément **Metadata** est défini par l’élément [**instrumentationManifest**](eventmanifestschema-instrumentationmanifest-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que vous puissiez créer un manifeste qui contient une section de métadonnées, le service ne l’utilise pas. les seules métadonnées reconnues par le service sont les métadonnées trouvées dans le fichier Winmeta.xml.
 
@@ -42,8 +42,8 @@ Bien que vous puissiez créer un manifeste qui contient une section de métadonn
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

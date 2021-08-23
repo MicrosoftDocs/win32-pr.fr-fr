@@ -4,12 +4,12 @@ ms.assetid: d76d655e-23f3-407c-97a1-be015b0de37d
 title: 'Media Foundation : notions essentielles'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0298a20518df91dab4439770e0f1193802969ae8
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 825e84b3c7ad3060cae0a2530bc9a7af3155fd9113c490ce2c42f69771c1f9b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104393843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119357258"
 ---
 # <a name="media-foundation-essential-concepts"></a>Media Foundation : notions essentielles
 
@@ -34,7 +34,7 @@ La *compression* fait référence à tout processus qui réduit la taille d’un
 -   Compression *sans perte* . À l’aide d’un algorithme sans perte, les données reconstruites sont identiques à celles d’origine.
 -   Compression avec *perte* . À l’aide d’un algorithme de perte, les données reconstruites sont une approximation de l’original, mais n’est pas une correspondance exacte.
 
-Dans la plupart des autres domaines, la compression avec perte n’est pas acceptable. (Imaginez la récupération d’une « approximation » d’une feuille de calcul !) Toutefois, les schémas de compression avec perte sont bien adaptés à l’audio et à la vidéo, pour plusieurs raisons.
+Dans la plupart des autres domaines, la compression avec perte n’est pas acceptable. (Imagine la récupération d’une « approximation » d’une feuille de calcul !) Toutefois, les schémas de compression avec perte sont bien adaptés à l’audio et à la vidéo, pour plusieurs raisons.
 
 La première raison est liée à la physique de perception humaine. Lorsque nous écoutons un son complexe, comme un enregistrement musical, certaines des informations contenues dans ce son ne sont pas perceptibles à l’oreille. Avec l’aide de la théorie du traitement des signaux, il est possible d’analyser et de séparer les fréquences qui ne peuvent pas être perçues. Ces fréquences peuvent être supprimées sans effet de perception. Bien que le son reconstruit ne corresponde pas exactement à l’original, il *est le même* que celui de l’écouteur. Des principes similaires s’appliquent à la vidéo.
 
@@ -55,7 +55,7 @@ Il est rare de stocker un flux audio ou vidéo brut en tant que fichier d’ordi
 
 Cette documentation utilise le terme *conteneur* pour décrire l’ensemble du package de flux, d’en-têtes, d’index, de métadonnées et ainsi de suite. La raison de l’utilisation du terme *conteneur* plutôt que de *fichier* est que certains formats de conteneur sont conçus pour la diffusion en direct. Une application peut générer le conteneur en temps réel, ne jamais le stocker dans un fichier.
 
-Le format de fichier AVI est un exemple précoce d’un conteneur de médias. Voici d’autres exemples : MP4 et ASF (Advanced Systems Format). Les conteneurs peuvent être identifiés par une extension de nom de fichier (par exemple,. MP4) ou par un type MIME.
+Le format de fichier AVI est un exemple précoce d’un conteneur de médias. Voici d’autres exemples : MP4 et ASF (Advanced Systems Format). Les conteneurs peuvent être identifiés par une extension de nom de fichier (par exemple, .mp4) ou par type MIME.
 
 Le diagramme suivant montre une structure type pour un conteneur multimédia. Le diagramme ne représente pas un format spécifique. les détails de chaque format varient considérablement.
 
@@ -74,7 +74,7 @@ Toutefois, la distinction est importante, car la lecture d’un fichier multimé
 1.  Tout d’abord, le conteneur doit être analysé. Dans la plupart des cas, le nombre de flux et le format de chaque flux ne peuvent pas être connus tant que cette étape n’est pas terminée.
 2.  Ensuite, si les flux sont compressés, ils doivent être décodés à l’aide des décodeurs appropriés.
 
-Ce fait est très naturellement une conception logicielle dans laquelle des composants distincts sont utilisés pour analyser les conteneurs et décoder les flux. En outre, cette approche se prête à un modèle de plug-in, de sorte que les tiers peuvent fournir leurs propres analyseurs et codecs. Sur Windows, le modèle COM (Component Object Model) fournit un moyen standard de séparer une API de son implémentation, ce qui est une condition requise pour tout modèle de plug-in. Pour cette raison (entre autres), Media Foundation utilise des interfaces COM.
+Ce fait est très naturellement une conception logicielle dans laquelle des composants distincts sont utilisés pour analyser les conteneurs et décoder les flux. En outre, cette approche se prête à un modèle de plug-in, de sorte que les tiers peuvent fournir leurs propres analyseurs et codecs. sur Windows, le modèle COM (component Object Model) fournit un moyen standard de séparer une API de son implémentation, qui est une exigence pour tout modèle de plug-in. Pour cette raison (entre autres), Media Foundation utilise des interfaces COM.
 
 Le diagramme suivant montre les composants utilisés pour lire un fichier multimédia :
 

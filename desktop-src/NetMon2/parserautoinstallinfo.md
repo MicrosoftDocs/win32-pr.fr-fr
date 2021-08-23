@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 7702ae8aad5ae24acf3835451b7b8eff3a26ceb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c6c69b66f3ff92905333a28c5dadfd79290033f0abb68cb2a790f07c6e34412
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063749"
 ---
 # <a name="parserautoinstallinfo-callback-function"></a>ParserAutoInstallInfo fonction de rappel
 
@@ -43,7 +43,7 @@ Si la fonction réussit, la valeur de retour est une structure [ \_ PARSERDLLINF
 
 Si la fonction échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque Moniteur réseau se charge pour la première fois, il appelle **ParserAutoInstallInfo** (s’il existe) pour installer automatiquement chaque analyseur, puis énumère toutes les dll de l’analyseur dans le sous-répertoire de l’analyseur.
 

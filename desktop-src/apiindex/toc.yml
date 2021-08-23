@@ -1,9 +1,9 @@
 - name: Index des API
   href: api-index-portal.md
   items:
-    - name: Liste des API Windows
+    - name: Windows Liste des API
       href: windows-api-list.md
-    - name: Ensembles d’API Windows
+    - name: Windows Ensembles d’API
       items:
         - name: Vue d’ensemble
           href: windows-apisets.md

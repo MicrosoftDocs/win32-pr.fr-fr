@@ -1,24 +1,24 @@
 ---
-description: L’interface de programmation d’applications (API) de Windows vous permet de développer des applications de bureau et serveur qui s’exécutent correctement sur toutes les versions de Windows tout en tirant parti des fonctionnalités et fonctionnalités propres à chaque version.
+description: l’interface de programmation d’applications (API) Windows vous permet de développer des applications de bureau et serveur qui s’exécutent correctement sur toutes les versions de Windows tout en tirant parti des fonctionnalités et fonctionnalités propres à chaque version.
 ms.assetid: 00b345ad-4c53-4fa5-8b7a-d3b3377cb30a
 title: Index d’API
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 0c72c14bffa43150357d6bfe0d025d515fef9f2f
-ms.sourcegitcommit: 133954d5dbcd5b2b3b50c8efd16cd101278fc1db
+ms.openlocfilehash: a227e8b8b2f897024ca459d415a07ad33b1db0f09c56c8ae210954658e42dcee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049077"
 ---
-# <a name="api-index-for-desktop-windows-applications"></a>Index d’API pour les applications de bureau Windows
+# <a name="api-index-for-desktop-windows-applications"></a>Index d’API pour les applications de Windows de bureau
 
-Cet article fournit des liens vers la documentation de référence sur les API qui peuvent être utilisées dans les applications Windows Desktop.
+cet article fournit des liens vers la documentation de référence sur les api qui peuvent être utilisées dans les applications de Windows de bureau.
 
 ## <a name="win32-windows-api"></a>Win32 (API Windows)
 
-L’API Win32 (également appelée API Windows) est la plateforme native pour les applications Windows. Cette API est idéale pour les applications de bureau qui requièrent un accès direct aux fonctionnalités et au matériel du système. L’API Windows peut être utilisée dans toutes les applications de bureau, et les mêmes fonctions sont généralement prises en charge sur Windows 32 bits et 64 bits.
+l’api Win32 (également appelée api Windows) est la plateforme native pour les applications Windows. Cette API est idéale pour les applications de bureau qui requièrent un accès direct aux fonctionnalités et au matériel du système. l’API Windows peut être utilisée dans toutes les applications de bureau, et les mêmes fonctions sont généralement prises en charge sur les Windows 32 bits et 64 bits.
 
 * [Informations de référence sur l’API Win32 par fonctionnalité](windows-api-list.md)
 * [Informations de référence sur l’API Win32 par en-tête](/windows/win32/api/)
@@ -35,6 +35,6 @@ WinRT est la plateforme de pointe pour les applications et les jeux Windows 10, 
 
 ## <a name="net"></a>.NET
 
-Les bibliothèques de classes .NET fournissent un accès aux fonctionnalités système et d’interface utilisateur de Windows pour les applications de bureau managées, y compris les applications WPF et Windows Forms.
+les bibliothèques de classes .net fournissent un accès aux fonctionnalités de Windows système et de l’interface utilisateur pour les applications de bureau managées, y compris les applications WPF et Windows Forms.
 
 * [API .NET](/dotnet/api/index)

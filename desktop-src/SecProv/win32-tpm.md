@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: d8d6eac9fba875484ba2f08e149608c9994a1087
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53fbe055e469dc4327ae747ab3e20873724923980f1e765d266a5f8143b545c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004017"
 ---
 # <a name="win32_tpm-class"></a>\_Classe TPM Win32
 
@@ -65,10 +65,10 @@ La **classe \_ TPM Win32** possède ces méthodes.
 |:-----------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddBlockedCommand**](addblockedcommand-win32-tpm.md)                                 | Ajoute une commande TPM à la liste locale des commandes bloquées sur Windows.<br/>                                                                                                             |
 | [**ChangeOwnerAuth**](changeownerauth-win32-tpm.md)                                     | Modifie la valeur d’autorisation du propriétaire du module de plateforme sécurisée.<br/>                                                                                                                                       |
-| [**Effacé**](clear-win32-tpm.md)                                                         | Réinitialise le module de plateforme sécurisée à son état d’usine par défaut.<br/>                                                                                                                                     |
+| [**Effacer**](clear-win32-tpm.md)                                                         | Réinitialise le module de plateforme sécurisée à son état d’usine par défaut.<br/>                                                                                                                                     |
 | [**ConvertToOwnerAuth**](converttoownerauth-win32-tpm.md)                               | Convertit une phrase secrète fournie par l’utilisateur en une valeur d’autorisation de propriétaire de 20 octets qui peut être utilisée pour interagir avec le module de plateforme sécurisée.<br/>                                                            |
 | [**CreateEndorsementKeyPair**](createendorsementkeypair-win32-tpm.md)                   | Crée une paire de clés de type EK 2048 bits sur le module de plateforme sécurisée.<br/>                                                                                                                              |
-| [**Désactiver**](disable-win32-tpm.md)                                                     | Autorise le propriétaire du module de plateforme sécurisée à désactiver le module de plateforme sécurisée.<br/>                                                                                                                                         |
+| [**Désactive**](disable-win32-tpm.md)                                                     | Autorise le propriétaire du module de plateforme sécurisée à désactiver le module de plateforme sécurisée.<br/>                                                                                                                                         |
 | [**Activer**](enable-win32-tpm.md)                                                       | Autorise le propriétaire du module de plateforme sécurisée à activer le module de plateforme sécurisée.<br/>                                                                                                                                          |
 | [**GetPhysicalPresenceRequest**](getphysicalpresencerequest-win32-tpm.md)               | Obtient et retourne l’opération de présence physique TPM en attente. Utilisez la méthode [**SetPhysicalPresenceRequest**](setphysicalpresencerequest-win32-tpm.md) pour demander une opération.<br/> |
 | [**GetPhysicalPresenceResponse**](getphysicalpresenceresponse-win32-tpm.md)             | Obtient et retourne les résultats d’une opération de présence physique TPM effectuée.<br/>                                                                                          |
@@ -83,10 +83,10 @@ La **classe \_ TPM Win32** possède ces méthodes.
 | [**IsOwnershipAllowed**](isownershipallowed-win32-tpm.md)                               | Indique si un propriétaire de module de plateforme sécurisée peut être installé.<br/>                                                                                                                                  |
 | [**IsPhysicalClearDisabled**](isphysicalcleardisabled-win32-tpm.md)                     | Indique si une opération de présence physique TPM peut effacer le module de plateforme sécurisée.<br/>                                                                                                           |
 | [**IsPhysicalPresenceHardwareEnabled**](isphysicalpresencehardwareenabled-win32-tpm.md) | Indique si cet ordinateur prend en charge un chemin d’accès matériel dédié pour signaler la présence physique.<br/>                                                                                  |
-| [**IsSrkAuthCompatible**](issrkauthcompatible-win32-tpm.md)                             | Indique si l’autorisation de clé racine de stockage (SRK) est compatible avec Windows.<br/>                                                                                           |
+| [**IsSrkAuthCompatible**](issrkauthcompatible-win32-tpm.md)                             | indique si l’autorisation de clé racine Stockage est compatible avec Windows.<br/>                                                                                           |
 | [**RemoveBlockedCommand**](removeblockedcommand-win32-tpm.md)                           | Supprime une commande TPM de la liste locale des commandes bloquées par Windows.<br/>                                                                                                        |
 | [**ResetAuthLockOut**](resetauthlockout-win32-tpm.md)                                   | Réinitialise le délai d’attente ou tout autre mécanisme que les fabricants de module de plateforme sécurisée implémentent pour se protéger contre les attaques par dictionnaire sur le module de plateforme sécurisée.<br/>                                                 |
-| [**ResetSrkAuth**](resetsrkauth-win32-tpm.md)                                           | Réinitialise la valeur d’autorisation de la clé de racine de stockage (SRK) pour qu’elle soit compatible avec Windows.<br/>                                                                                             |
+| [**ResetSrkAuth**](resetsrkauth-win32-tpm.md)                                           | réinitialise la valeur d’autorisation de la clé racine de Stockage (SRK) pour qu’elle soit compatible avec Windows.<br/>                                                                                             |
 | [**SelfTest**](selftest-win32-tpm.md)                                                   | Effectue un test automatique du module de plateforme sécurisée et retourne le résultat.<br/>                                                                                                                          |
 | [**SetPhysicalPresenceRequest**](setphysicalpresencerequest-win32-tpm.md)               | Demande l’exécution d’une opération de présence physique TPM.<br/>                                                                                                                               |
 | [**TakeOwnership**](takeownership-win32-tpm.md)                                         | Installe un propriétaire pour le module de plateforme sécurisée.<br/>                                                                                                                                                   |
@@ -237,9 +237,9 @@ Lorsque les données ne sont pas disponibles, « non pris en charge » est ret
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre de la SDK Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -247,8 +247,8 @@ Les fichiers format MOF (MOF) contiennent les définitions des classes Windows M
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                      |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>\_TPM. mof Win32</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>\_tpm.dllWin32</dt> </dl> |

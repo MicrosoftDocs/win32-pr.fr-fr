@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: f93ec4784fc8d0f92f68fdff3914e230ffd3cdce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fd7452a4db6318df0d4c23ea405d2cd4afcf6575c7abac34749a66bc88c2084
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063729"
 ---
 # <a name="pf_followentry-structure"></a>PF \_ FOLLOWENTRY, structure
 
@@ -46,7 +46,7 @@ Nom du protocole.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La [structure \_ FOLLOWSET de PF](pf-followset.md) utilise un tableau de structures **\_ FOLLOWENTRY PF** .
 

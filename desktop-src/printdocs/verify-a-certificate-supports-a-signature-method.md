@@ -4,12 +4,12 @@ ms.assetid: c7a23ace-4e9c-4de2-994e-2aa9c70a30b6
 title: Vérifier qu’un certificat prend en charge une méthode de signature
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27da9ae31c3cf0c4e453a5507d93d1505606e859
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 177859dd78d30ee9f9147cee7ca01311ed95c0733115cd939dde8aa6ec70f5b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098711"
 ---
 # <a name="verify-that-a-certificate-supports-a-signature-method"></a>Vérifier qu’un certificat prend en charge une méthode de signature
 

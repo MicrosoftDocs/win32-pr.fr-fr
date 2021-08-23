@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 315eea9fa207a92c3aa1add6fe021127dc3949d5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: efaf4d0d9312e929fa79d689490bd9e5b6a3e164dfdecafaf7cd9fe87b16990d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080813"
 ---
 # <a name="cim_controlledby-class-cimwin32-wmi-providers"></a>CIM_ControlledBy, classe (fournisseurs WMI CIMWin32)
 
@@ -199,7 +199,7 @@ Nombre de réinitialisations logicielles émises par le contrôleur. Une réinit
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ ControlledBy** est dérivée de [**CIM \_ DeviceConnection**](cim-deviceconnection.md).
 

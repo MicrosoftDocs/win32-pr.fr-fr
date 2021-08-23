@@ -4,12 +4,12 @@ ms.assetid: 80b028f5-7756-4bb8-b5e3-ebc8343e168c
 title: Attribut MF_AUDIO_RENDERER_ATTRIBUTE_SESSION_ID (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4952a60d4438e610677b494290e9738e469770d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5830a3deeb32ca6a3f766bad1858a803948b7e2c07a36f1f1e3222d00ba6199a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104995"
 ---
 # <a name="mf_audio_renderer_attribute_session_id-attribute"></a>Attribut d’ID de session de l' \_ attribut de convertisseur audio MF \_ \_ \_ \_
 
@@ -19,7 +19,7 @@ Spécifie la classe de stratégie audio pour le convertisseur audio.
 
 **GUID**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut associe le convertisseur audio à une classe de stratégie audio. Chaque classe de stratégie dispose de son propre contrôle de volume et de stratégie. Si cet attribut n’est pas défini, le nouveau SAR rejoint la session audio par défaut de l’application. Pour plus d’informations, consultez [**IAudioClient :: Initialize**](/windows/win32/api/audioclient/nf-audioclient-iaudioclient-initialize) dans la documentation de l’API audio principale.
 
@@ -36,8 +36,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

@@ -1,32 +1,32 @@
 ---
-description: Améliorations de la lecture de DVD dans Windows Vista
+description: améliorations de la lecture de DVD dans Windows Vista
 ms.assetid: b3cf043f-c974-4240-8291-5c717bd8afaa
-title: Améliorations de la lecture de DVD dans Windows Vista
+title: améliorations de la lecture de DVD dans Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 159056d2c7acaec18a73a30b21f79bcd6267ca33
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6d5757f5dd73dc547ae123490fd8de84b0606d1ade8490c9600486df0b846541
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106517377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148712"
 ---
-# <a name="dvd-playback-enhancements-in-windows-vista"></a>Améliorations de la lecture de DVD dans Windows Vista
+# <a name="dvd-playback-enhancements-in-windows-vista"></a>améliorations de la lecture de DVD dans Windows Vista
 
-Cette section décrit les améliorations apportées à la lecture et à la navigation sur DVD dans Windows Vista.
+cette section décrit les améliorations apportées à la lecture et à la navigation sur DVD dans Windows Vista.
 
 **Spécification d’un décodeur**
 
-Dans les versions antérieures de DirectShow, il était difficile de spécifier un décodeur MPEG-2 particulier lors de la création d’un graphique de lecture DVD. À compter de Windows Vista, une application peut spécifier le décodeur comme suit :
+dans les versions antérieures de DirectShow, il était difficile de spécifier un décodeur MPEG-2 particulier lors de la création d’un graphique de lecture DVD. à partir de Windows Vista, une application peut spécifier le décodeur comme suit :
 
 1.  Ajoutez le décodeur au graphique avant d’appeler [**IDvdGraphBuilder :: RenderDvdVideoVolume**](/windows/desktop/api/Strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume).
 2.  Appelez **RenderDvdVideoVolume** et définissez l' \_ \_ indicateur do DVD do \_ not \_ Clear. Le navigateur DVD donne la préférence au décodeur que vous avez ajouté.
 
 **Prise en charge du convertisseur vidéo amélioré**
 
-Il est recommandé que les applications écrites pour Windows Vista ou version ultérieure utilisent le [**convertisseur vidéo amélioré**](enhanced-video-renderer-filter.md) (EVR) pour la lecture vidéo. Pour utiliser EVR dans une application de lecture de DVD, définissez l' \_ indicateur AM DVD \_ EVR \_ only quand vous appelez **RenderDvdVideoVolume**.
+il est recommandé que les applications écrites pour Windows Vista ou versions ultérieures utilisent le [**convertisseur vidéo amélioré**](enhanced-video-renderer-filter.md) (EVR) pour la lecture vidéo. Pour utiliser EVR dans une application de lecture de DVD, définissez l' \_ indicateur AM DVD \_ EVR \_ only quand vous appelez **RenderDvdVideoVolume**.
 
-Pour configurer EVR avant de générer le graphique, appelez [**IDvdGraphBuilder :: GetDvdInterface**](/windows/desktop/api/Strmif/nf-strmif-idvdgraphbuilder-getdvdinterface) et recherchez l’interface **IEVRFilterConfig** ou **IMFVideoRenderer** . (Ces interfaces sont documentées dans la documentation du kit de développement logiciel (SDK) Media Foundation.) Pour plus d’informations sur la configuration du convertisseur vidéo dans un graphique de lecture DVD, consultez [création du graphique de filtre DVD](building-the-dvd-filter-graph.md).
+Pour configurer EVR avant de générer le graphique, appelez [**IDvdGraphBuilder :: GetDvdInterface**](/windows/desktop/api/Strmif/nf-strmif-idvdgraphbuilder-getdvdinterface) et recherchez l’interface **IEVRFilterConfig** ou **IMFVideoRenderer** . (Ces interfaces sont documentées dans la documentation du kit de développement logiciel (SDK) Media Foundation.) Pour plus d’informations sur la configuration du convertisseur vidéo dans un graphique de lecture DVD, consultez [génération du filtre de dvd Graph](building-the-dvd-filter-graph.md).
 
 Le navigateur DVD n’utilise pas le EVR, sauf si la méthode [**IAMDecoderCaps :: GetDecoderCaps**](/windows/desktop/api/Strmif/nf-strmif-iamdecodercaps-getdecodercaps) du décodeur retourne \_ l' \_ indicateur \_ de \_ prise en charge de la requête am GETDECODERCAP EVR. Cet indicateur est défini pour s’assurer que les applications sont compatibles avec les décodeurs existants. Si **RenderDvdVideoVolume** échoue en utilisant l' \_ indicateur AM DVD \_ EVR \_ only, revenez à un autre convertisseur vidéo en appelant la méthode à nouveau sans l’indicateur.
 
@@ -63,16 +63,16 @@ Le navigateur DVD horodate toujours les échantillons pour la lecture à une vit
 
 **Gestion de l’alimentation**
 
-Dans Windows Vista, le navigateur DVD offre les améliorations suivantes à la gestion de l’alimentation :
+dans Windows Vista, le navigateur DVD offre les améliorations suivantes à la gestion de l’alimentation :
 
 -   Résolution de l’horloge supérieure
 -   Plus grand cache de données
 
 **Résolution du minuteur**: les applications peuvent demander une résolution minimale de la minuterie en appelant la fonction **timeBeginPeriod** . Une résolution supérieure (période plus petite) augmente la réactivité du système aux événements périodiques, tels que les délais d’attente, mais peut également augmenter la fréquence des changements de contexte de thread.
 
-Par défaut, l’horloge de référence dans DirectShow définit la résolution de la minuterie sur 1 milliseconde. À cette résolution, le processeur n’entrera pas en mode d’économie d’énergie. À compter de Windows Vista, le navigateur DVD remplace le comportement par défaut de l’horloge de référence en appelant [**IReferenceClockTimerControl :: SetDefaultTimerResolution**](/windows/desktop/api/Strmif/nf-strmif-ireferenceclocktimercontrol-setdefaulttimerresolution) sur l’horloge de référence. Cela supprime la demande de l’horloge pour une résolution de minuteur de 1 milliseconde. Cela peut permettre au processeur de passer en mode d’économie d’énergie.
+par défaut, l’horloge de référence dans DirectShow définit la résolution de la minuterie sur 1 milliseconde. À cette résolution, le processeur n’entrera pas en mode d’économie d’énergie. à partir de Windows Vista, le navigateur DVD remplace le comportement par défaut de l’horloge de référence en appelant [**IReferenceClockTimerControl :: SetDefaultTimerResolution**](/windows/desktop/api/Strmif/nf-strmif-ireferenceclocktimercontrol-setdefaulttimerresolution) sur l’horloge de référence. Cela supprime la demande de l’horloge pour une résolution de minuteur de 1 milliseconde. Cela peut permettre au processeur de passer en mode d’économie d’énergie.
 
-La résolution de la minuterie est un paramètre global ; Windows choisit la valeur la plus faible demandée. Les filtres de convertisseur de mixage vidéo (VMR-7 et VMR-9) définissent la résolution de la minuterie sur 1 milliseconde. Le EVR définit généralement la résolution sur une valeur comprise entre 4 et 8 millisecondes, en fonction de la façon dont la composition du Bureau est activée et si le EVR est en mode plein écran. D’autres applications peuvent également définir la résolution.
+La résolution de la minuterie est un paramètre global ; Windows sélectionne la valeur la plus faible demandée. Les filtres de convertisseur de mixage vidéo (VMR-7 et VMR-9) définissent la résolution de la minuterie sur 1 milliseconde. Le EVR définit généralement la résolution sur une valeur comprise entre 4 et 8 millisecondes, en fonction de la façon dont la composition du Bureau est activée et si le EVR est en mode plein écran. D’autres applications peuvent également définir la résolution.
 
 **Taille du cache**: les applications peuvent spécifier la quantité de données que le navigateur DVD met en cache en définissant l' \_ option CacheSizeInMB DVD dans la méthode [**IDvdControl2 :: SetOption**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) . Si l’application définit cet indicateur sur une valeur élevée (> 50 Mo), le lecteur de DVD peut s’arrêter après la pré-extraction initiale, en fonction du matériel, ce qui peut réduire la consommation d’énergie.
 

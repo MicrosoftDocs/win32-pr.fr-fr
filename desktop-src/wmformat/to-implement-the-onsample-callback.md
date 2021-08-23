@@ -13,12 +13,12 @@ keywords:
 - OnStatus, méthode de rappel, implémentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2f19e81df5ee4769e1353c299a14626cb1a9aed
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: dc00523ae28ec14feefb8249ff86a2b1600629c84cb245eb627b59b619a28a17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104314515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027287"
 ---
 # <a name="to-implement-the-onsample-callback"></a>Pour implémenter le rappel OnSample
 
@@ -48,9 +48,9 @@ Les applications qui fournissent des échantillons compressés à partir de fich
 [**Utilisation des méthodes de rappel**](using-the-callback-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

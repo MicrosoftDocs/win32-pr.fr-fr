@@ -4,12 +4,12 @@ ms.assetid: 257ad7ea-636b-45f2-b514-4a213939d107
 title: À propos des tables de routage distribuées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dfca9f81cc609d97584ef5a11f999722c696858
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc8e82b25fee0bb6733bb21db82193d14e6cc8d621148b6d5c671fb04a3b2d85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011837"
 ---
 # <a name="about-distributed-routing-tables"></a>À propos des tables de routage distribuées
 
@@ -19,9 +19,9 @@ Nœud qui publie une génération de clé et gère une table de routage locale d
 
 Les clés DRT sont des entiers non signés 256 bits. Les différences entre les clés sont définies par la différence numérique entre elles. L’espace de mémoire DRT est considéré comme circulaire. Par exemple, la première valeur de clé possible et la dernière valeur de clé possible sont considérées comme des voisins.
 
-Dans un DRT sécurisé, les nœuds sont requis pour authentifier les clés qu’ils publient. Le mécanisme par lequel les nœuds authentifient les clés doit être défini à l’aide de l’API DRT lorsque DRT est initialisé. Pour ce faire, choisissez un fournisseur de sécurité pour DRT. Un fournisseur de sécurité est un module qui peut produire des jetons utilisés pour authentifier les clés et vérifier les jetons produits par d’autres nœuds. Il doit implémenter l’interface du fournisseur de sécurité qui est définie dans cette documentation. Le DRT de Windows 7 est fourni avec deux fournisseurs de sécurité entièrement implémentés qui peuvent être utilisés pour créer des applications Windows.
+Dans un DRT sécurisé, les nœuds sont requis pour authentifier les clés qu’ils publient. Le mécanisme par lequel les nœuds authentifient les clés doit être défini à l’aide de l’API DRT lorsque DRT est initialisé. Pour ce faire, choisissez un fournisseur de sécurité pour DRT. Un fournisseur de sécurité est un module qui peut produire des jetons utilisés pour authentifier les clés et vérifier les jetons produits par d’autres nœuds. Il doit implémenter l’interface du fournisseur de sécurité qui est définie dans cette documentation. le Windows 7 DRT est fourni avec deux fournisseurs de sécurité entièrement implémentés qui peuvent être utilisés pour créer des applications Windows.
 
-Pendant l’initialisation, une application doit également fournir à DRT un fournisseur de démarrage. Le fournisseur bootstrap est un module qui peut récupérer les points de terminaison réseau des nœuds déjà présents dans la maille DRT, et est appelé par le DRT lorsqu’un nouveau nœud est établi. À l’instar du module fournisseur de sécurité, le fournisseur bootstrap doit implémenter une interface bien définie. Le DRT de Windows 7 est fourni avec deux fournisseurs de démarrage entièrement implémentés.
+Pendant l’initialisation, une application doit également fournir à DRT un fournisseur de démarrage. Le fournisseur bootstrap est un module qui peut récupérer les points de terminaison réseau des nœuds déjà présents dans la maille DRT, et est appelé par le DRT lorsqu’un nouveau nœud est établi. À l’instar du module fournisseur de sécurité, le fournisseur bootstrap doit implémenter une interface bien définie. le Windows 7 DRT est fourni avec deux fournisseurs de bootstrap entièrement implémentés.
 
 Le DRT prend en compte les voisins immédiats d’une clé spéciale. Les cinq clés les plus proches numériquement plus petites et les cinq clés les plus proches numériquement supérieures à une clé publiée sont appelées un ensemble feuille. Le DRT signale les modifications apportées à l’ensemble feuille d’une clé par le biais de l’API DRT.
 

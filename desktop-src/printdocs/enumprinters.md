@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 6d82e8e6ff4f56a3c67fa29c48e982ebe0fd4599
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb88cef081010f1319fb194904933ba2366d6593f0d2517c696bb6d6490ace20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119353839"
 ---
 # <a name="enumprinters-function"></a>EnumPrinters fonction)
 
@@ -47,7 +47,7 @@ BOOL EnumPrinters(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Types d’objets d’impression que la fonction doit énumérer. Cette valeur peut être une ou plusieurs des valeurs suivantes.
@@ -144,7 +144,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 N’appelez pas cette méthode dans [**DllMain**](/windows/desktop/Dlls/dllmain).
 
@@ -169,7 +169,7 @@ Dans la colonne paramètre de *nom* de la table, vous devez remplacer un nom app
 
 
 
-| Paramètre *Flags*                                  | Paramètre *Name*                            | Résultats                                                                                            |
+| Paramètre *Flags*                                  | Paramètre *Name*                            | Résultat                                                                                            |
 |----------------------------------------------------|---------------------------------------------|---------------------------------------------------------------------------------------------------|
 | PRINTER \_ \_ local enum local (et non pas le nom enum de l’imprimante \_ \_ ) | Le paramètre *Name* est ignoré.<br/> | Toutes les imprimantes locales.<br/>                                                                    |
 | nom de l’enum de l’imprimante \_ \_                                | « Fournisseur d’impression »<br/>                 | Tous les noms de domaine<br/>                                                                       |

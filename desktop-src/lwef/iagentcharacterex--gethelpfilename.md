@@ -4,12 +4,12 @@ description: IAgentCharacterEx GetHelpFileName
 ms.assetid: 52d5a874-ad3e-4833-9e3e-ff485414c54c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d692de5704f88d14e32231a7d63fc80150f1481a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2ba5acdcfef90d1918f5c4697127b4449e96f2667b20a2de0230fcdf2cd6dd43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105527"
 ---
 # <a name="iagentcharacterexgethelpfilename"></a>IAgentCharacterEx::GetHelpFileName
 
@@ -34,23 +34,23 @@ Adresse d’une variable qui reçoit le nom de fichier d’aide pour le caractè
 
 </dd> </dl>
 
-Si vous avez créé un fichier d’aide Windows pour votre application et défini la propriété [**HelpFile**](helpfile-property.md) du caractère, Microsoft agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **true** et que l’utilisateur clique sur le caractère ou sélectionne une commande dans son menu contextuel. S’il existe un numéro de contexte dans la propriété [**HelpContextID**](helpcontextid-property.md) de la commande sélectionnée, help affiche une rubrique correspondant au contexte d’aide actuel. Sinon, elle affiche « aucune rubrique d’aide associée à cet élément ».
+si vous avez créé un fichier d’aide Windows pour votre application et défini la propriété [**HelpFile**](helpfile-property.md) du caractère, Microsoft Agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **True** et que l’utilisateur clique sur le caractère ou sélectionne une commande dans son menu contextuel. S’il existe un numéro de contexte dans la propriété [**HelpContextID**](helpcontextid-property.md) de la commande sélectionnée, help affiche une rubrique correspondant au contexte d’aide actuel. Sinon, elle affiche « aucune rubrique d’aide associée à cet élément ».
 
 Cette propriété s’applique uniquement à l’utilisation du caractère par votre application cliente ; le paramètre n’affecte pas les autres clients du caractère ou d’autres caractères de votre application cliente.
 
 > [!Note]  
-> La génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
+> la génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentCommandsEx :: SetHelpContextID**](iagentcommandsex--sethelpcontextid.md), [**IAgentCharacterEx :: SetHelpModeOn**](iagentcharacterex--sethelpmodeon.md), [**IAgentCharacterEx :: SetHelpFileName**](iagentcharacterex--sethelpfilename.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

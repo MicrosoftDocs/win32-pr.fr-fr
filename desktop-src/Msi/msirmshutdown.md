@@ -4,12 +4,12 @@ ms.assetid: 6763a490-8d1a-42d2-a8cb-0743b7ba6866
 title: Propriété MSIRMSHUTDOWN
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4011e4fad980913271012dd86de44eec8c514f7a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac31a924727217ac86937f4f7ac553717138461e0668a7e79916ffab796f8bd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012877"
 ---
 # <a name="msirmshutdown-property"></a>Propriété MSIRMSHUTDOWN
 
@@ -29,7 +29,7 @@ La propriété **MSIRMSHUTDOWN** détermine la manière dont les applications ou
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **MSIRMSHUTDOWN** est ignorée si le [Gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md) n’est pas disponible ou est désactivé.
 
@@ -39,7 +39,7 @@ La propriété **MSIRMSHUTDOWN** est ignorée si le [Gestionnaire de redémarrag
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Pour plus d’informations sur la Service Pack minimale requise par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. pour plus d’informations sur la Service Pack minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -50,7 +50,7 @@ La propriété **MSIRMSHUTDOWN** est ignorée si le [Gestionnaire de redémarrag
 [Propriétés](properties.md)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 3,1 et versions antérieures](not-supported-in-windows-installer-version-3-1.md)
+[non pris en charge dans Windows Installer 3,1 et versions antérieures](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

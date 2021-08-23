@@ -5,12 +5,12 @@ ms.assetid: BC9894F7-D496-46F2-A5C3-C7CA31FD4BA8
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dad04055a5acdeeeaead3a56f0bd04e64aa90fe0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7797b933a759afd0ccfb959672e5c595cefa21712f3488e61b4f99b8a57b0893
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123801"
 ---
 # <a name="memory-management-strategies"></a>Stratégies de gestion de la mémoire
 
@@ -82,7 +82,7 @@ Les composants de l’intergiciel (middleware), les contrôles utilisateur et la
 [**CreateReservedResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource)
 </dt> <dt>
 
-[Guide de programmation Direct3D 12](directx-12-programming-guide.md)
+[Guide de programmation de Direct3D 12](directx-12-programming-guide.md)
 </dt> <dt>
 
 [Gestion de la mémoire](memory-management.md)

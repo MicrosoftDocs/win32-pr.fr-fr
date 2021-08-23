@@ -4,12 +4,12 @@ ms.assetid: cce31a6a-c187-4ec4-976c-5f9984211ccb
 title: À propos de la taille des paquets multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39f97e36a81b90b72d4d1148e9461f58ae2147ba
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 03be30402dc94b22315292b281565572f04cbc89803eeed79f67d55a77ceeef6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412189"
 ---
 # <a name="about-media-packet-size"></a>À propos de la taille des paquets multimédias
 

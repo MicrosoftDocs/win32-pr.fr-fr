@@ -16,16 +16,16 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
-ms.openlocfilehash: 32b93fcbbe44aaae0916e6d8f3f403eb960e26eb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 526d25e8331fc949eb470c0813a083774afddc94312ed6751aaab9672e557d3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124107"
 ---
 # <a name="id3d12devicedownlevelqueryvideomemoryinfo-method"></a>ID3D12DeviceDownlevel :: QueryVideoMemoryInfo, méthode
 
-Fournit des statistiques de mémoire sur Windows 7. Cette méthode est équivalente à [IDXGIAdapter3 :: QueryVideoMemoryInfo](/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo), qui n’est pas disponible sur Windows 7.
+fournit des statistiques de mémoire sur Windows 7. cette méthode est équivalente à [IDXGIAdapter3 :: QueryVideoMemoryInfo](/windows/win32/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo), qui n’est pas disponible sur Windows 7.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -71,5 +71,5 @@ Retourne **S_OK** en cas de réussite, ou un HRESULT qui a échoué.
 ## <a name="see-also"></a>Voir aussi
 * [ID3D12DeviceDownlevel](id3d12devicedownlevel.md)
 * [Interfaces Direct3D 12 sur Windows 7](direct3d-12on7-interfaces.md)
-* [Informations de référence sur Direct3D 12 sur Windows 7 (d3d12downlevel. h)](direct3d-12on7-reference.md)
+* [informations de référence sur Direct3D 12 sur Windows 7 (d3d12downlevel. h)](direct3d-12on7-reference.md)
 * [Direct3D 12 sur Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/)

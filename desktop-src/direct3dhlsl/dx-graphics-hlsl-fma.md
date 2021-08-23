@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 287f07881a00ca53a3f1fe702cf4d95b64bf14c7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d2b9a6932a1b0f0f8f1f7bc674920162def49e556c8d5b757547d4837caa60b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120203"
 ---
 # <a name="fma"></a>fma
 
@@ -63,7 +63,7 @@ Retourne l’addition fusionnée double précision d’un \* b + c.
 
 Addition fusionnée double précision des paramètres *a* \* *b*  +  *c*. La valeur retournée doit être précise à 0,5 unités de précision minimale (ULP).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’intrinsèque **FMA** doit prendre en charge les valeurs NaN, les fichiers INF et les dénormes.
 
@@ -90,22 +90,22 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                | Prise en charge |
+| Modèle de nuanceur                                                | Pris en charge |
 |-------------------------------------------------------------|-----------|
-| [Shader Model 5 ou version ultérieure](d3d11-graphics-reference-sm5.md) | Oui       |
+| [Shader Model 5 ou version ultérieure](d3d11-graphics-reference-sm5.md) | oui       |
 
 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Corecrt \_ Math. h</dt> </dl> |
 
 

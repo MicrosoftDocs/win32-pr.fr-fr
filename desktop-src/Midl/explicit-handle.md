@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4fa677f1bb5a3414e6cf6dc761b83414c2d68b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 13b50aa69c43e27b4797f6619b4efa14b90f16dd2b4bee45df2db6b708e58f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106509226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013917"
 ---
 # <a name="explicit_handle-attribute"></a>\_attribut handle explicite
 
@@ -44,7 +44,7 @@ Spécifie le nom de l’interface.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous utilisez l’attribut **\[ \_ handle \] explicite** , chaque procédure a un handle primitif comme premier paramètre, même si le fichier IDL ne contient pas ce handle dans sa liste de paramètres. Les prototypes émis dans le fichier d’en-tête et les routines stub contiennent le paramètre supplémentaire, et ce paramètre est utilisé comme handle pour diriger l’appel distant.
 
@@ -83,9 +83,9 @@ interface iface
 [**/osf**](-osf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Les instantanés sont au cœur des fonctions d’aide de l’outil.
 ms.assetid: a8122960-f078-4efb-8e01-bf6fb69ee0dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab6f9a45ad2e12eda53d3143e43c9234c20aae3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 30dde3a4383bf56bdef46c59c55611ffe9b22a7a201abb4f0f11af85594c4f0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137412"
 ---
 # <a name="snapshots-of-the-system"></a>Captures instantanées du système
 
@@ -35,7 +35,7 @@ Lorsque votre processus se termine à l’aide d’un instantané, détruisez-le
 > [!Note]  
 > Le descripteur d’instantané agit comme un descripteur de fichier et est soumis aux mêmes règles concernant les processus et les threads dans lesquels il peut être utilisé. Pour spécifier que le handle peut être hérité, créez l’instantané à l’aide de la valeur **\_ inherit TH32CS** .
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -44,6 +44,6 @@ Lorsque votre processus se termine à l’aide d’un instantané, détruisez-le
 [Réalisation d’un instantané et affichage des processus](taking-a-snapshot-and-viewing-processes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,19 +13,19 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: bb897ff72cd927390362f076114fc8757baa6c5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9266433abd100e20673d74decf33644654c6d22899becf46dd0b39b1a5a80a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014357"
 ---
 # <a name="removereplicationrelationship-method-of-the-msvm_replicationservice-class"></a>Méthode RemoveReplicationRelationship de la \_ classe ReplicationService MSVM
 
 Supprime une relation de réplication d’ordinateur virtuel et agit sur la relation de réplication principale de la machine virtuelle.
 
 > [!Note]  
-> À partir de Windows 8.1, nous vous recommandons de ne pas utiliser **RemoveReplicationRelationship** plus pour supprimer une relation de réplication de machine virtuelle. Utilisez plutôt [**RemoveReplicationRelationshipEx**](removereplicationrelationshipex-msvm-replicationservice.md).
+> à partir de Windows 8.1, nous vous recommandons de ne pas utiliser **RemoveReplicationRelationship** plus pour supprimer une relation de réplication de machine virtuelle. Utilisez plutôt [**RemoveReplicationRelationshipEx**](removereplicationrelationshipex-msvm-replicationservice.md).
 
  
 
@@ -113,8 +113,8 @@ Le **système n’est pas disponible** (32777)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

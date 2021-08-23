@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: de3d15bf250685e0b0cad935cd5e8094b2f2ceee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f81f8b0a530e7c6c85f2ad1749e0a7373f68b0bf902b71a86889b92184806ffc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034277"
 ---
 # <a name="iconresdir-structure"></a>ICONRESDIR, structure
 
@@ -75,7 +75,7 @@ Nombre de couleurs dans l’icône. Les valeurs acceptables sont 2, 8 et 16.
 
 </dd> <dt>
 
-**réservé**
+**reserved**
 </dt> <dd>
 
 Type : **Byte**
@@ -86,7 +86,7 @@ Réservé doit être défini sur la même valeur que celle du champ réservé da
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure **ICONRESDIR** est transmise dans la structure [**RESDIR**](resdir.md) si la structure **RESDIR** décrit une icône.
 

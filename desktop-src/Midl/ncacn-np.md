@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84634e6bb5d2b634439be767ad44749291cffe11
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a7acf294241c1d38b2067ba54e315fc3240e5bb6eca81a6b12012f8dec457a8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103726733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013757"
 ---
 # <a name="ncacn_np-attribute"></a>\_attribut ncacn NP
 
@@ -34,7 +34,7 @@ endpoint("ncacn_np:server-name[\\pipe\\pipe-name]")
 *nom du serveur* 
 </dt> <dd>
 
-Optionnel. Spécifie le nom du serveur. Les barres obliques inverses sont facultatives.
+Facultatif. Spécifie le nom du serveur. Les barres obliques inverses sont facultatives.
 
 </dd> <dt>
 
@@ -45,7 +45,7 @@ Spécifie un nom de canal valide. Un nom de canal valide est une chaîne contena
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un serveur crée une instance d’un canal nommé qui est ensuite disponible pour n’importe quel client. Lorsqu’un client tente de se connecter, l’instance existante est associée à ce client. Avant qu’un autre client puisse se connecter, le serveur doit créer une autre instance du canal nommé. Si un client tente d’établir une liaison avec le serveur avant la création de la nouvelle instance, l’appel de liaison, [**RpcBindingFromStringBinding**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding), peut échouer avec le message d’erreur le \_ serveur RPC S est \_ \_ trop \_ occupé. Par conséquent, vous devez vous assurer que votre application cliente gère le cas où le serveur est trop occupé pour accepter une connexion. Le client doit réessayer automatiquement, demander à l’utilisateur un cours d’action ou échouer correctement.
 
@@ -121,6 +121,6 @@ interface iface2
 [**liaison de chaîne**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

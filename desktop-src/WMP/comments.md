@@ -3,7 +3,7 @@ title: Commentaires (msfeeds. h)
 description: Ajoutez des commentaires aux fichiers de données en suivant la syntaxe Extensible Markup Language (XML). Les commentaires commencent par \ 0034 ; --\ 0034 ; et se terminent par \ 0034 ;--\ 0034 ;.
 ms.assetid: 3d8dbf13-bd48-4405-804f-57e0f5eff642
 keywords:
-- Commentaires sur le lecteur Windows Media
+- commentaires Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 701f456cae9f1432ed42235a3a6e13af555b2b8d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0fe5aaf9dde3d804bb91a1e2551636c86aa54ff2bec599bf06100ee2622b592a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135782"
 ---
 # <a name="comments-msfeedsh"></a>Commentaires (msfeeds. h)
 
@@ -30,7 +30,7 @@ Ajoutez des commentaires aux fichiers de données en suivant la syntaxe Extensib
 <!--Enter your comment text here.-->
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les commentaires peuvent apparaître n’importe où, à l’exception du contenu de l’élément (entre les balises d’ouverture et de fermeture d’élément,  < >). Elles ne font pas partie des données caractères du document et sont ignorées lorsque le métafichier est analysé.
 
@@ -70,7 +70,7 @@ Les commentaires peuvent apparaître n’importe où, à l’exception du conten
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> </dl>
 
  

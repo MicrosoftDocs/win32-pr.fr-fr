@@ -5,19 +5,19 @@ ms.assetid: 6bf9c421-f0f6-4c75-bb4d-dbe91dcb8d01
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b727fee91a1ca3431fb6ced3c7640fb4ead12b40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8aa794bea36a704de71cc65f81a9cec2186134f21d4b8b6cde2d9f92e8ffe844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063549"
 ---
 # <a name="nps-extensions-enumerations"></a>Énumérations des extensions NPS
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS.
 
- 
+ 
 
 Utilisez les types énumérés suivants lors du développement de DLL d’extension NPS.
 
@@ -29,6 +29,6 @@ Utilisez les types énumérés suivants lors du développement de DLL d’extens
 -   [**\_point d’extension RADIUS \_**](/windows/desktop/api/authif/ne-authif-radius_extension_point)
 -   [**\_Code de \_ motif de rejet RADIUS \_**](/windows/desktop/api/authif/ne-authif-radius_reject_reason_code)
 
- 
+ 
 
- 
+ 

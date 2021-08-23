@@ -4,12 +4,12 @@ ms.assetid: fb8ce5d3-3215-4e05-a916-4d4a803464d2
 title: Formats de presse-papiers de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674ccc33db3a35a1a60abb549f5e1ab5b5c96760
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fccd73f5b364c247454d874f5b9bb7586e3187150ebce28620cc6dc01f8298d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351389"
 ---
 # <a name="shell-clipboard-formats"></a>Formats de presse-papiers de Shell
 
@@ -78,7 +78,7 @@ c:\temp1.txt'\0'c:\temp2.txt'\0''\0'
 
 Si l’objet a été copié dans le presse-papiers dans le cadre d’une opération de glisser-déplacer, le membre **PT** de la structure [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles) contient les coordonnées du point où l’objet a été supprimé. Vous pouvez utiliser [**DragQueryPoint**](/windows/desktop/api/Shellapi/nf-shellapi-dragquerypoint) pour extraire les coordonnées du curseur.
 
-Si ce format est présent dans un objet de données, une boucle OLE Drag simule [**WM_DROPFILES**](wm-dropfiles.md) fonctionnalité avec des cibles de dépôt non-OLE. Cela est important si votre application est la source d’une opération de glisser-déplacer sur un système Windows 3,1.
+Si ce format est présent dans un objet de données, une boucle OLE Drag simule [**WM_DROPFILES**](wm-dropfiles.md) fonctionnalité avec des cibles de dépôt non-OLE. cela est important si votre application est la source d’une opération de glisser-déplacer sur un système Windows 3,1.
 
 ### <a name="cfstr_filecontents"></a>CFSTR_FILECONTENTS
 
@@ -94,7 +94,7 @@ Le format CFSTR_FILEDESCRIPTOR est couramment utilisé pour transférer des donn
 
 ### <a name="cfstr_filename"></a>CFSTR_FILENAME
 
-Cet identificateur de format est utilisé pour transférer un fichier unique. Les données se composent d’une structure [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) qui contient un objet mémoire global. Le membre **hGlobal** de la structure pointe vers une chaîne unique se terminant par un caractère **null** qui contient le chemin d’accès complet au fichier. Ce format a été remplacé par [CF_HDROP](#cf_hdrop), mais il est pris en charge pour la compatibilité descendante avec les applications Windows 3,1.
+Cet identificateur de format est utilisé pour transférer un fichier unique. Les données se composent d’une structure [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) qui contient un objet mémoire global. Le membre **hGlobal** de la structure pointe vers une chaîne unique se terminant par un caractère **null** qui contient le chemin d’accès complet au fichier. ce format a été remplacé par [CF_HDROP](#cf_hdrop), mais il est pris en charge pour la compatibilité descendante avec les applications Windows 3,1.
 
 ### <a name="cfstr_filenamemap"></a>CFSTR_FILENAMEMAP
 
@@ -104,9 +104,9 @@ Cet identificateur de format est utilisé lorsqu’un groupe de fichiers au form
 
 Cet identificateur de format est utilisé pour transférer un chemin sur un volume monté. Elle est similaire à [CF_HDROP](#cf_hdrop), mais elle ne contient qu’un seul chemin d’accès et peut gérer les chaînes de chemin d’accès plus longues qui peuvent être nécessaires pour représenter un chemin d’accès lorsque le volume est monté sur un dossier. Les données se composent d’une structure [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) qui contient un objet mémoire global. Le membre **hGlobal** de la structure pointe vers une chaîne unique se terminant par un caractère **null** qui contient le chemin d’accès complet au fichier. La chaîne de chemin d’accès doit se terminer par un \\ caractère «», suivi de la **valeur null** de fin.
 
-Avant Windows 2000, les volumes pouvaient être montés uniquement sur des lettres de lecteur. Pour les systèmes Windows 2000 et versions ultérieures avec un lecteur au format NTFS, vous pouvez également monter des volumes sur des dossiers vides. Cette fonctionnalité permet de monter un volume sans prendre de lettre de lecteur. Le volume monté peut utiliser n’importe quel format actuellement pris en charge, y compris FAT, FAT32, NTFS et CDFS.
+avant le Windows 2000, les volumes pouvaient être montés uniquement sur des lettres de lecteur. pour les systèmes Windows 2000 et versions ultérieures avec un lecteur au format NTFS, vous pouvez également monter des volumes sur des dossiers vides. Cette fonctionnalité permet de monter un volume sans prendre de lettre de lecteur. Le volume monté peut utiliser n’importe quel format actuellement pris en charge, y compris FAT, FAT32, NTFS et CDFS.
 
-Vous pouvez ajouter des pages à une feuille de propriétés de propriétés de lecteur en implémentant un [Gestionnaire de feuille de propriétés](propsheet-handlers.md). Si le volume est monté sur une lettre de lecteur, l’interpréteur de commandes transmet les informations de chemin d’accès au gestionnaire avec le format [CF_HDROP](#cf_hdrop) . Avec les systèmes Windows 2000 et versions ultérieures, le format de CF_HDROP est utilisé lorsqu’un volume est monté sur une lettre de lecteur, tout comme avec les systèmes précédents. Toutefois, si un volume est monté sur un dossier, le [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume) identificateur de format est utilisé à la place de CF_HDROP.
+Vous pouvez ajouter des pages à une feuille de propriétés de propriétés de lecteur en implémentant un [Gestionnaire de feuille de propriétés](propsheet-handlers.md). Si le volume est monté sur une lettre de lecteur, l’interpréteur de commandes transmet les informations de chemin d’accès au gestionnaire avec le format [CF_HDROP](#cf_hdrop) . avec les systèmes Windows 2000 et versions ultérieures, le format de CF_HDROP est utilisé lorsqu’un volume est monté sur une lettre de lecteur, exactement comme avec les systèmes précédents. Toutefois, si un volume est monté sur un dossier, le [CFSTR_MOUNTEDVOLUME](#cfstr_mountedvolume) identificateur de format est utilisé à la place de CF_HDROP.
 
 Si seules les lettres de lecteur sont utilisées pour monter des volumes, seules les [CF_HDROP](#cf_hdrop) sont utilisées, et les gestionnaires de feuille de propriétés existants fonctionnent comme pour les systèmes antérieurs. Toutefois, si vous souhaitez que votre gestionnaire affiche une page pour les volumes montés sur des dossiers, ainsi que des lettres de lecteur, le gestionnaire doit être en mesure de comprendre les formats CSFTR_MOUNTEDVOLUME et CF_HDROP.
 
@@ -145,7 +145,7 @@ Le format de CFSTR_SHELLIDLIST peut être utilisé pour transférer à la fois l
 
 ### <a name="cfstr_netresources"></a>CFSTR_NETRESOURCES
 
-Cet identificateur de format est utilisé lors du transfert des ressources réseau, telles qu’un domaine ou un serveur. Les données sont une structure [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) qui contient un objet mémoire global. Le membre **hGlobal** de la structure pointe vers une structure [**NRESARRAY**](/windows/desktop/api/shlobj_core/ns-shlobj_core-nresarray) . Le membre **Nr** de cette structure indique une structure [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) dont le membre **lpRemoteName** contient une chaîne terminée par le caractère **null** qui identifie la ressource réseau. La cible de déplacement peut ensuite utiliser les données avec l’une des fonctions d’API de [mise en réseau Windows (WNET)](../wnet/windows-networking-wnet-.md) , telles que [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona), pour effectuer des opérations réseau sur l’objet.
+Cet identificateur de format est utilisé lors du transfert des ressources réseau, telles qu’un domaine ou un serveur. Les données sont une structure [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) qui contient un objet mémoire global. Le membre **hGlobal** de la structure pointe vers une structure [**NRESARRAY**](/windows/desktop/api/shlobj_core/ns-shlobj_core-nresarray) . Le membre **Nr** de cette structure indique une structure [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) dont le membre **lpRemoteName** contient une chaîne terminée par le caractère **null** qui identifie la ressource réseau. la cible de déplacement peut ensuite utiliser les données avec l’une des fonctions d’API de [mise en réseau Windows (WNet)](../wnet/windows-networking-wnet-.md) , telles que [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona), pour effectuer des opérations réseau sur l’objet.
 
 ### <a name="cfstr_printergroup"></a>CFSTR_PRINTERGROUP
 
@@ -217,7 +217,7 @@ Ce format est principalement utilisé pour permettre la suppression d’objets e
 
 ### <a name="cfstr_untrusteddragdrop"></a>CFSTR_UNTRUSTEDDRAGDROP
 
-Cet identificateur de format est utilisé par Windows Internet Explorer et le shell Windows pour fournir un mécanisme permettant de bloquer ou de demander des opérations de glisser-déplacer provenant d’Internet Explorer conjointement avec l’indicateur [**URLACTION_SHELL_ENHANCED_DRAGDROP_SECURITY**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537178(v=vs.85)) .
+cet identificateur de format est utilisé par Windows Internet explorer et le Shell Windows pour fournir un mécanisme permettant de bloquer ou de demander des opérations de glisser-déplacer provenant d’Internet Explorer conjointement avec l’indicateur de [**URLACTION_SHELL_ENHANCED_DRAGDROP_SECURITY**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537178(v=vs.85)) .
 
 **CFSTR_UNTRUSTEDDRAGDROP** est ajouté par la source d’une opération de glisser-déplacer pour spécifier que l’objet de données peut contenir des données non fiables. Les données sont représentées par une structure [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) qui contient un objet mémoire global. Le membre **hGlobal** de la structure pointe vers un **DWORD** défini sur un indicateur d' [**action d’URL**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537178(v=vs.85)) approprié pour déclencher une vérification de stratégie par le biais de la méthode [**IInternetSecurityManager ::P rocessurlaction**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537136(v=vs.85)) , à l’aide de l’indicateur [**PUAF_ENFORCERESTRICTED**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537171(v=vs.85)) .
 
@@ -225,7 +225,7 @@ Cet identificateur de format est utilisé par Windows Internet Explorer et le sh
 
 Ce format est utilisé dans une opération de glisser-déplacer pour identifier l’image de glissement d’un objet (fenêtre) afin que ses informations visuelles puissent être mises à jour dynamiquement. Lorsqu’un objet est glissé sur une cible de dépôt, une application met à jour sa structure [**DROPDESCRIPTION**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription) en réponse à la méthode [**IDropTarget ::D ragover**](/windows/win32/api/oleidl/nf-oleidl-idroptarget-dragover) ou [**IDropSource :: GiveFeedback**](/windows/win32/api/oleidl/nf-oleidl-idropsource-givefeedback) . Le **DROPDESCRIPTION** est mis à jour avec une nouvelle valeur [**DROPIMAGETYPE**](/windows/desktop/api/shlobj_core/ne-shlobj_core-dropimagetype) qui indique la décoration à appliquer au visuel de la fenêtre de glissement. par exemple, une indication que le fichier est copié plutôt que déplacé ou que l’objet ne peut pas être supprimé à cet emplacement. Toutefois, tant que l’objet n’a pas reçu de [**DDWM_UPDATEWINDOW**](ddwm-updatewindow.md) message, les éléments visuels ne sont pas mis à jour. Ce format fournit le **HWND** de la fenêtre de glissement du destinataire à l’expéditeur du message de **DDWM_UPDATEWINDOW** .
 
-Les données du presse-papiers sont de type [**TYMED_HGLOBAL**](/windows/win32/api/objidl/ne-objidl-tymed). Il s’agit d’une représentation **DWORD** d’un **HWND**. Les données peuvent être passées à la fonction **ULongToHandle** , définie dans Basetsd. h, pour fournir un **HWND** 64 bits pour une utilisation sur Windows 64 bits.
+Les données du presse-papiers sont de type [**TYMED_HGLOBAL**](/windows/win32/api/objidl/ne-objidl-tymed). Il s’agit d’une représentation **DWORD** d’un **HWND**. Les données peuvent être passées à la fonction **ULongToHandle** , définie dans Basetsd. h, pour fournir un **HWND** 64 bits pour une utilisation sur 64 bits Windows.
 
 Ce format ne nécessite pas l’inclusion de shlobj. h.
 

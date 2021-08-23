@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d85566083dc9ead93a1a9e73fb06051b62178114
-ms.sourcegitcommit: 004d7881dc9ff92ea394cd2331774e13b1e7f13c
+ms.openlocfilehash: 49b10f6383344821c7659ac40b367a77e0421d33be68a374c59920a62d37697c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "103724365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120083"
 ---
 # <a name="packing-rules-for-constant-variables"></a>Règles de compression pour les variables constantes
 
 Les règles de compression déterminent la façon dont les données peuvent être réorganisées lors de leur stockage. Le langage HLSL implémente des règles de compression pour les données de sortie VS, les données d’entrée et de sortie GS, ainsi que les données d’entrée et de sortie PS. (Les données ne sont pas compressées pour les entrées VS, car l’étape IA ne peut pas décompresser les données.)
 
-Les règles de compression HLSL sont similaires à l’exécution d’un **\# pragma Pack 4** avec Visual Studio, qui compresse les données dans des limites de 4 octets. En outre, le langage HLSL compresse les données afin qu’elles ne traversent pas une limite de 16 octets. Les variables sont compressées dans un vecteur à quatre composants donné jusqu’à ce que la variable chevauche une limite de 4 vecteurs. les variables suivantes sont retournés au vecteur suivant de quatre composants.
+les règles de compression HLSL sont similaires à l’exécution d’un **\# pragma pack 4** avec Visual Studio, qui compresse les données en limites de 4 octets. En outre, le langage HLSL compresse les données afin qu’elles ne traversent pas une limite de 16 octets. Les variables sont compressées dans un vecteur à quatre composants donné jusqu’à ce que la variable chevauche une limite de 4 vecteurs. les variables suivantes sont retournés au vecteur suivant de quatre composants.
 
 Chaque structure force la variable suivante à démarrer sur le vecteur à quatre composants suivant. Cela génère parfois un remplissage pour les tableaux de structures. La taille résultante d’une structure est toujours divisible par **sizeof**(*vecteur à quatre composants*).
 
@@ -159,9 +159,9 @@ L’empaquetage plus étroit est un compromis par rapport au besoin d’instruct
 [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

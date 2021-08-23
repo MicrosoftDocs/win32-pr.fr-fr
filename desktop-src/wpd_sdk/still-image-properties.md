@@ -1,5 +1,5 @@
 ---
-description: Appareils mobiles Windows prend en charge les propriétés d’image continue suivantes.
+description: Windows Les appareils mobiles prennent en charge les propriétés d’image continue suivantes.
 ms.assetid: 0b5a126c-5064-48e5-a635-00c3e9ab6a2c
 title: Propriétés de l’image continue (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 3bc06428dc153dc8ff205e283b1000ef0a171b6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2076c03b479b5b720b1c09d5c443b1332f1ea00ecf74ea381efb224b56b72bec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083443"
 ---
 # <a name="still-image-properties"></a>Propriétés de l’image continue
 
-Appareils mobiles Windows prend en charge les propriétés d’image continue suivantes.
+Windows Les appareils mobiles prennent en charge les propriétés d’image continue suivantes.
 
 
 
@@ -32,7 +32,7 @@ Appareils mobiles Windows prend en charge les propriétés d’image continue su
 | <span id="wpd_still_image_burst_interval"></span><span id="WPD_STILL_IMAGE_BURST_INTERVAL"></span>**\_intervalle de \_ \_ rafales d’images fixes pour wpd \_**                       | **VT \_ UI4**    | Dans une capture d’image en mode rafale, délai entre les captures d’images, en millisecondes.                                                                                                                                                                                                                                       |
 | <span id="wpd_still_image_burst_number"></span><span id="WPD_STILL_IMAGE_BURST_NUMBER"></span>**\_nombre de \_ \_ rafales d’images fixes wpd \_**                             | **VT \_ UI4**    | Dans une capture d’image en mode rafale, nombre d’images à capturer.                                                                                                                                                                                                                                                              |
 | **\_ \_ retardement de capture d’image wpd \_ \_**                                                                                                                          | **VT \_ UI4**    | Spécifie l’intervalle de temps entre la commande pour capturer une image et la capture réelle, en millisecondes.                                                                                                                                                                                                                    |
-| **\_format de \_ capture d’images wpd toujours \_ \_**                                                                                                                         | **\_CLSID VT**  | Format à utiliser pour capturer l’image. Il s’agit de l’une des [valeurs de GUID de format](object-format-guids.md) définies par les appareils mobiles Windows.                                                                                                                                                                        |
+| **\_format de \_ capture d’images wpd toujours \_ \_**                                                                                                                         | **\_CLSID VT**  | Format à utiliser pour capturer l’image. il s’agit de l’une des [valeurs de GUID de format](object-format-guids.md) définies par Windows appareils mobiles.                                                                                                                                                                        |
 | <span id="wpd_still_image_capture_mode"></span><span id="WPD_STILL_IMAGE_CAPTURE_MODE"></span>**\_mode de \_ capture d’image toujours \_ wpd \_**                             | **VT \_ UI4**    | Énumérateur [**de \_ \_ modes de capture wpd**](wpd-capture-modes.md) qui spécifie le mode de capture à utiliser pour capturer une image.                                                                                                                                                                                                    |
 | **\_résolution de \_ capture d’images wpd toujours \_ \_**                                                                                                                     | **\_LPWStr VT** | Chaîne qui spécifie la taille de l’image à capturer. La taille de l’image est spécifiée en pixels, au format «*largeur* x *hauteur*». Par exemple : « 800x600 ».                                                                                                                                                                          |
 | **\_paramètre de \_ compression d’image wpd Still \_ \_**                                                                                                                    | **\_UI8 VT**    | Décrit les paramètres de compression d’image qui sont utilisés lors de la capture d’une image. Ceci est spécifique à l’appareil.                                                                                                                                                                                                                     |

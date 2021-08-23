@@ -4,12 +4,12 @@ description: Les services système critiques ne peuvent pas être arrêtés et r
 ms.assetid: 8db7c91c-2f96-4d0c-a5b8-59c41a7e4845
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14a8fcc921d065dda0670e27e240c93515bc8cb9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb8a50eca43a62d24e0ab6363844bef7457aaf05b34251f5d804dacabaead5e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010227"
 ---
 # <a name="critical-system-services"></a>Services système critiques
 
@@ -23,9 +23,9 @@ Les services système critiques ne peuvent pas être arrêtés et redémarrés p
 
 Les services système critiques incluent smss.exe, csrss.exe, wininit.exe, logonui.exe, lsass.exe, services.exe, winlogon.exe, System, svchost.exe avec RPCSS et svchost.exe avec DCOM/PnP.
 
- 
+ 
 
- 
+ 
 
 
 

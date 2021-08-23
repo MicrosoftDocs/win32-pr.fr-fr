@@ -1,38 +1,38 @@
 ---
 title: Prise en charge héritée du panorama avec les barres de défilement
-description: Cette section décrit la prise en charge du panoramique à l’aide des barres de défilement dans les applications Windows.
+description: cette section décrit la prise en charge du panoramique à l’aide des barres de défilement dans les applications basées sur Windows.
 ms.assetid: a8906b48-b804-4f3a-bb9b-dc94b632e2f7
 keywords:
-- Tactile Windows, support hérité
+- Windows Toucher, prise en charge héritée
 - panoramique avec barres de défilement
-- Tactile Windows, panoramique avec barres de défilement
-- Tactile Windows, barres de défilement
+- Windows Toucher, panoramique avec barres de défilement
+- Windows Toucher, barres de défilement
 - barres de défilement, panoramique
 - barres de défilement, prise en charge héritée
-- Tactile Windows, gestes
+- Windows Toucher, mouvements
 - mouvements, panoramique avec barres de défilement
-- Tactile Windows, raccourcis
+- Windows Toucher, raccourcis
 - raccourcis, panoramique avec barres de défilement
 - raccourcis, désactivation
-- Touches tactiles Windows, messages de roulette de la souris
+- Windows Messages tactiles, roulette de la souris
 - messages de roulette de la souris
-- Tactile Windows, personnalisation de la panoramisation
+- Windows Toucher, personnaliser la panoramisation
 - panoramique, barres de défilement
 - panoramique, prise en charge héritée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57f6b9dd47821205a6aa5b6f07e5053e31597358
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 97190d637cae5cc6936ecd78dca31e1e6c0f9ef1037b292b6080f973fc4e8701
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104561822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086305"
 ---
 # <a name="legacy-support-for-panning-with-scroll-bars"></a>Prise en charge héritée du panorama avec les barres de défilement
 
-Cette section décrit la prise en charge du panoramique à l’aide des barres de défilement dans les applications Windows.
+cette section décrit la prise en charge du panoramique à l’aide des barres de défilement dans les applications basées sur Windows.
 
-Dans Windows 7, les gestes panoramiques génèrent \_ \* des messages de défilement WM pour activer la prise en charge héritée pour le panoramique. Étant donné que vos applications peuvent ne pas prendre en charge tous les \_ \* messages de défilement WM, le panoramique peut ne pas fonctionner correctement. Cette rubrique décrit les étapes que vous devez suivre pour vous assurer que l’expérience de panoramique héritée dans les applications fonctionne comme prévu par les utilisateurs.
+dans Windows 7, les gestes panoramiques génèrent \_ \* des messages de défilement WM pour activer la prise en charge héritée pour le panoramique. Étant donné que vos applications peuvent ne pas prendre en charge tous les \_ \* messages de défilement WM, le panoramique peut ne pas fonctionner correctement. Cette rubrique décrit les étapes que vous devez suivre pour vous assurer que l’expérience de panoramique héritée dans les applications fonctionne comme prévu par les utilisateurs.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -44,7 +44,7 @@ Les sections suivantes expliquent comment activer l’expérience de panoramique
 
 ## <a name="create-an-application-with-scroll-bars"></a>Créer une application avec des barres de défilement
 
-Démarrez un nouveau projet Win32 à l’aide de l’Assistant Microsoft Visual Studio. Assurez-vous que le type d’application est défini sur l’application Windows. Vous n’avez pas besoin d’activer la prise en charge des Active Template Library (ATL). L’illustration suivante montre à quoi ressemblera votre projet une fois que vous l’avez démarré.
+démarrez un nouveau projet Win32 à l’aide de l’assistant Microsoft Visual Studio. assurez-vous que le type d’application est défini sur l’application Windows. Vous n’avez pas besoin d’activer la prise en charge des Active Template Library (ATL). L’illustration suivante montre à quoi ressemblera votre projet une fois que vous l’avez démarré.
 
 ![capture d’écran montrant une fenêtre sans barres de défilement](images/gpd-1.png)
 
@@ -308,7 +308,7 @@ Pour améliorer l’expérience de panorama dans votre application, vous devez d
 > [!Note]  
 > Cela est utile pour les applications qui requièrent un retour immédiat sur une pression tactile ou un événement de stylet au lieu de tester un seuil d’heure ou de distance.
 
- 
+ 
 
 
 ```C++
@@ -342,15 +342,15 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow){
 
 ## <a name="customize-the-panning-experience"></a>Personnaliser l’expérience de panoramique
 
-Vous souhaiterez peut-être disposer d’une expérience de panoramique différente de celle proposée par défaut par Windows 7. Pour améliorer l’expérience de panoramique, vous devez ajouter le gestionnaire pour le message de [**\_ mouvement WM**](wm-gesture.md) . Pour plus d’informations, consultez [amélioration de l’expérience de panoramique Single-Finger](improving-the-single-finger-panning-experience.md).
+par défaut, vous souhaiterez peut-être utiliser une expérience de panoramique différente de celle offerte par Windows 7. Pour améliorer l’expérience de panoramique, vous devez ajouter le gestionnaire pour le message de [**\_ mouvement WM**](wm-gesture.md) . Pour plus d’informations, consultez [amélioration de l’expérience de panoramique Single-Finger](improving-the-single-finger-panning-experience.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Gestes tactiles Windows](guide-multi-touch-gestures.md)
+[Windows Gestes tactiles](guide-multi-touch-gestures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
