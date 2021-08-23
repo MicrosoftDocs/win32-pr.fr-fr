@@ -4,12 +4,12 @@ ms.assetid: C68EC437-7600-43A8-8DEA-5A6AEE75D5AA
 title: Améliorations de DXGI 1,6
 ms.topic: article
 ms.date: 12/04/2019
-ms.openlocfilehash: 03961b4f9af50675ee157c4840b9ed744c54f423
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 748878cc041b0987a013608556cd9ec30aaf638e0fcac1ef9386a4675f57ef0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727579"
 ---
 # <a name="dxgi-16-improvements"></a>Améliorations de DXGI 1,6
 
@@ -17,20 +17,20 @@ Cette rubrique décrit les nouveautés de Microsoft DirectX Graphics infrastruct
 
 ## <a name="windows-10-october-2018-update"></a>Windows 10 avec la mise à jour d’octobre 2018
 
-Ces API ont été ajoutées pour Windows 10, version 1809 (10,0 ; Build 17763) &mdash; également connu sous le nom de Windows 10 octobre 2018 Update.
+ces api ont été ajoutées pour Windows 10, version 1809 (10,0 ; Build 17763) &mdash; également connu sous le nom de Mise à jour d’octobre 2018 de Windows 10.
 
 - Interface [**IDXGIFactory7**](/windows/win32/api/dxgi1_6/nn-dxgi1_6-idxgifactory7) et ses méthodes.
 
 ## <a name="windows-10-april-2018-update"></a>Mise à jour d’avril 2018 de Windows 10
 
-Ces API ont été ajoutées pour Windows 10, version 1803 (10,0 ; Build 17134) &mdash; également connu sous le nom de Windows 10 avril 2018 Update.
+ces api ont été ajoutées pour Windows 10, version 1803 (10,0 ; Build 17134) &mdash; également connue sous le nom de Windows 10 mise à jour d’avril 2018.
 
 - Énumération [**DXGI_GPU_PREFERENCE**](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_gpu_preference) .
 - Interface [**IDXGIFactory6**](/windows/win32/api/dxgi1_6/nn-dxgi1_6-idxgifactory6) et ses méthodes.
 
 ## <a name="windows-10-fall-creators-update"></a>Windows 10 Fall Creators Update
 
-Pour Windows 10, version 1709 (10,0 ; Build 16299) &mdash; également connu sous le nom de Windows 10 automne Creators Update &mdash; ces constantes ont été ajoutées à l’énumération [**DXGI_ADAPTER_FLAG3**](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_adapter_flag3) . 
+pour Windows 10, version 1709 (10,0 ; la Build 16299) &mdash; est également connue sous le nom de Windows 10 Fall Creators Update &mdash; ces constantes ont été ajoutées à l’énumération [**DXGI_ADAPTER_FLAG3**](/windows/win32/api/dxgi1_6/ne-dxgi1_6-dxgi_adapter_flag3) . 
 
 - **DXGI_ADAPTER_FLAG3_SUPPORT_MONITORED_FENCES**
 - **DXGI_ADAPTER_FLAG3_SUPPORT_NON_MONITORED_FENCES**
@@ -38,7 +38,7 @@ Pour Windows 10, version 1709 (10,0 ; Build 16299) &mdash; également connu sou
 
 ## <a name="windows-10-creators-update"></a>Windows 10 Creators Update
 
-Pour Windows 10, version 1703 (10,0 ; Build 15063) &mdash; également connu sous le nom de Windows 10 Creators Update, &mdash; les fonctionnalités suivantes ont été ajoutées à Microsoft DirectX Graphics infrastructure (DXGI) 1,6 afin de détecter les affichages HDR.
+pour Windows 10, version 1703 (10,0 ; Build 15063) &mdash; également connu sous le nom de Windows 10 Creators Update &mdash; les fonctionnalités suivantes ont été ajoutées à Microsoft DirectX graphics Infrastructure (DXGI) 1,6 afin de détecter les affichages HDR.
 
 ### <a name="high-dynamic-range-hdr-detection"></a>Détection HDR (High dynamique Range)
 

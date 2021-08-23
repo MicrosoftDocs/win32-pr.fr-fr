@@ -4,12 +4,12 @@ ms.assetid: F2C13FEC-5537-4B0D-BFDB-E17A42A289CB
 title: Concevoir des mises à jour qui ont un impact sur la compatibilité entre les navigateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a306a64cb03bce8b466f6367339302522109619a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b7b47f7f8a83d7e03dcefec083cbbe962dcd3c12b250d224c2ef1762f749495b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795899"
 ---
 # <a name="design-updates-that-impact-compatibility-between-browsers"></a>Concevoir des mises à jour qui ont un impact sur la compatibilité entre les navigateurs
 

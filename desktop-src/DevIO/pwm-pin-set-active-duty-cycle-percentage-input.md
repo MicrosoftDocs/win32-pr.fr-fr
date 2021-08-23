@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Pwm.h
-ms.openlocfilehash: 98811ace7ce8fce760e10757b8bf012cc2b9b27d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ca6b2ee6aa4d4d2da3f94aa7cc471de12c1f8040b597edf568bf061c8e392aa1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104392935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758849"
 ---
 # <a name="pwm_pin_set_active_duty_cycle_percentage_input-structure"></a>\_ \_ \_ \_ \_ \_ Structure d’entrée en pourcentage du cycle de vie \_ de l’épinglage activé
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Contient un pourcentage de cycle de responsabilité souhaité pour un pin ou un canal dans un contrôleur de modulation d’impulsions en largeur (PWM).
 
@@ -54,8 +54,8 @@ Cycle de vie de signal PWM souhaité, en tant que \_ pourcentage PWM, qui est un
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                             |
 | Version KMDF minimale<br/>     | 1,19<br/>                                                                                  |
 | Version UMDF minimale<br/>     | 2.19<br/>                                                                                  |
 | En-tête<br/>                   | <dl> <dt>PWM. h (include PWM. h)</dt> </dl> |

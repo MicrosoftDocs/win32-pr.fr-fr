@@ -4,12 +4,12 @@ description: 'Un nuanceur de coque se compose de trois phases : phase de point 
 ms.assetid: 82F689EF-D3F4-40B5-9A2C-1F97F4CE6501
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aca1377c7ca6b56434c361ba06b01cf659319f6
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 3891130b4a952cb991615dbcc386e245d5eb8abedc2d8cec0b441eb6b3c2fbae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854029"
 ---
 # <a name="registers---hs_5_0"></a>Registres-HS \_ 5 \_ 0
 

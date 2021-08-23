@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6991bead4bfc42451c26fe5476b4c114626eb7e8
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: a606ad9081f1ca1fdc4261d862ea6edfef4460989bb6d51d839d85f5797c1466
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104991049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854639"
 ---
 # <a name="samplecmp-directx-hlsl-texture-object"></a>SampleCmp (objet texture HLSL DirectX)
 
@@ -95,7 +95,7 @@ Retourne une valeur à virgule flottante dans la plage \[ 0.. 1 \] .
 
 Pour chaque élément Texel récupéré (en fonction de la configuration de l’échantillonneur du mode filtre), **SampleCmp** effectue une comparaison de la valeur z (le troisième composant de l’entrée) du nuanceur à la valeur Texel (1 si la comparaison réussit ; sinon, 0). **SampleCmp** fusionne ensuite ces résultats 0 et 1 pour chaque Texel ensemble comme dans le filtrage de texture normal (et non en moyenne) et retourne la \[ valeur 0.. 1 obtenue \] au nuanceur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtrage de comparaison fournit une opération de filtrage de base qui est utile pour le filtrage en pourcentage plus profond.
 

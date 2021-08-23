@@ -3,9 +3,9 @@ title: Méthode IWMPControls playItem
 description: La méthode playItem lit l’élément multimédia spécifié. | Méthode IWMPControls playItem
 ms.assetid: ddd4e4f7-475c-4964-a623-9123ed66be8e
 keywords:
-- méthode playItem lecteur Windows Media
-- méthode playItem lecteur Windows Media, interface IWMPControls
-- Interface IWMPControls lecteur Windows Media, méthode playItem
+- Lecteur Windows Media de la méthode playItem
+- méthode playItem Lecteur Windows Media, interface IWMPControls
+- Lecteur Windows Media de l’interface IWMPControls, méthode playItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b2ac11f93409128eccc88c1d916144615d77476
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1fabab78fe60120110f72176885e3b5825699b83782272dfbef0b48c165d1d02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761029"
 ---
 # <a name="iwmpcontrolsplayitem-method"></a>IWMPControls ::p méthode layItem
 
@@ -64,11 +64,11 @@ Interface **wmplib. IWMPMedia** pour l’élément multimédia.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément multimédia est chargé et lu automatiquement, quelle que soit la valeur de la propriété **IWMPSettings. AutoStart** . Pour charger un élément sans le lire automatiquement, définissez **IWMPSettings. AutoStart** sur **false** et affectez une valeur à **AxWindowsMediaPlayer. URL**, après quoi **IWMPControls. Play** peut être appelé pour démarrer la lecture de l’élément.
 
-Remarque
+Notes
 
 **playItem** fonctionne uniquement avec les éléments dans **AxWindowsMediaPlayer. currentPlaylist**. L’appel de **playItem** avec une référence à un élément multimédia enregistré n’est pas pris en charge.
 
@@ -132,13 +132,13 @@ player.Ctlcontrols.playItem(Media)
 [**Interface IWMPControls (VB et C#)**](iwmpcontrols--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls. Play (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
+[**IWMPControls. play (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylist. Item (VB et C#)**](iwmpplaylist-item--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings. AutoStart (VB et C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
+[**IWMPSettings. autostart (VB et C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> </dl>
 
  

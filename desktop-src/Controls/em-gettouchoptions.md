@@ -3,7 +3,7 @@ title: Message EM_GETTOUCHOPTIONS (RichEdit. h)
 description: Récupère les options tactiles associées à un contrôle RichEdit.
 ms.assetid: 1D367818-5625-4A5A-A7A1-330FED516990
 keywords:
-- EM_GETTOUCHOPTIONS les contrôles de message Windows
+- EM_GETTOUCHOPTIONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812d37de1972c6da205944d9913dc3fa046c205d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f4771cd11fd8aaf16925c97a3242918ba8f7b56e4e580a6f3cd70672a134399b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799989"
 ---
 # <a name="em_gettouchoptions-message"></a>\_Message GETTOUCHOPTIONS em
 
@@ -71,8 +71,8 @@ Retourne la valeur de l’option spécifiée par le paramètre *wParam* . Il est
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

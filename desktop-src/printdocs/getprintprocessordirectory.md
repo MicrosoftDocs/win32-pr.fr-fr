@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: a105025ba22c7e188b8dd20df67f5e8ad28fce01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27e79305295d078912169a2a12a99aa516372486f9b5dcd1997161a030103dee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719249"
 ---
 # <a name="getprintprocessordirectory-function"></a>GetPrintProcessorDirectory fonction)
 
@@ -56,7 +56,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 *pEnvironment* \[ dans\]
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement (par exemple, Windows x86, Windows IA64 ou Windows x64). Si ce paramètre a la **valeur null**, l’environnement actuel de l’application appelante et de l’ordinateur client (pas du serveur d’impression et de l’application de destination) est utilisé.
+pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement (par exemple, Windows x86, Windows IA64 ou Windows x64). Si ce paramètre a la **valeur null**, l’environnement actuel de l’application appelante et de l’ordinateur client (pas du serveur d’impression et de l’application de destination) est utilisé.
 
 </dd> <dt>
 
@@ -70,7 +70,7 @@ Niveau de la structure. Cette valeur doit être 1.
 *pPrintProcessorInfo* \[ à\]
 </dt> <dd>
 
-Pointeur vers une mémoire tampon qui reçoit le chemin d’accès. Notez que, pour les systèmes d’exploitation antérieurs à Windows Server 2003 SP 1, le chemin d’accès est au format local pour le serveur, et non dans le format à distance réel. Par exemple, le chemin d’accès est spécifié sous la forme « % windir% \\ system32 \\ spool \\ prtprocs \\ % environnement% » au lieu de « \\ \\ nom_serveur \\ Print $ \\ prtprocs \\ % environnement% », même lorsqu’il est appelé pour un serveur distant. Pour les systèmes d’exploitation Windows Server 2003 SP 1 et versions ultérieures, le chemin d’accès distant réel est retourné.
+Pointeur vers une mémoire tampon qui reçoit le chemin d’accès. notez que, pour les systèmes d’exploitation antérieurs à Windows Server 2003 SP 1, le chemin d’accès est au format local pour le serveur, et non dans le format à distance réel. Par exemple, le chemin d’accès est spécifié sous la forme « % windir% \\ system32 \\ spool \\ prtprocs \\ % environnement% » au lieu de « \\ \\ nom_serveur \\ Print $ \\ prtprocs \\ % environnement% », même lorsqu’il est appelé pour un serveur distant. pour les systèmes d’exploitation Windows Server 2003 SP 1 et versions ultérieures, le chemin d’accès distant réel est retourné.
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.

@@ -4,12 +4,12 @@ description: Jeu de commandes Digital-Video
 ms.assetid: 408587b1-3ead-4720-a063-5fb749273043
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a37e093b1363fdf8485f63be803a2fce1627706
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3b17c57bf6aa6c00fcf075492a1be9691925ddf569f54c456d0259175faecd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678869"
 ---
 # <a name="digital-video-command-set"></a>Jeu de commandes Digital-Video
 
@@ -30,10 +30,10 @@ Les périphériques vidéo numériques (par exemple, le pilote MCIAVI) prennent 
 | [**supprimer**](delete.md)         | [**suppression de MCI \_**](mci-delete.md)         |
 | [**antigel**](freeze.md)         | [**\_blocage MCI**](mci-freeze.md)         |
 | [**méta**](info.md)             | [**\_infos MCI**](mci-info.md)             |
-| [**tarifs**](list.md)             | [**\_liste MCI**](mci-list.md)             |
+| [**list**](list.md)             | [**\_liste MCI**](mci-list.md)             |
 | [**chargera**](load.md)             | [**\_chargement MCI**](mci-load.md)             |
 | [**socle**](monitor.md)       | [**\_moniteur MCI**](mci-monitor.md)       |
-| [**afficher**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
+| [**ouvert**](open.md)             | [**MCI \_ ouvert**](mci-open.md)             |
 | [**coller**](paste.md)           | [**\_Collage MCI**](mci-paste.md)           |
 | [**suspen**](pause.md)           | [**\_Pause MCI**](mci-pause.md)           |
 | [**répétition**](play.md)             | [**\_lecture MCI**](mci-play.md)             |
@@ -49,7 +49,7 @@ Les périphériques vidéo numériques (par exemple, le pilote MCIAVI) prennent 
 | [**définie**](set.md)               | [**jeu de MCI \_**](mci-set.md)               |
 | [**setaudio**](setaudio.md)     | [**\_SETAUDIO MCI**](mci-setaudio.md)     |
 | [**setvideo**](setvideo.md)     | [**\_SETVIDEO MCI**](mci-setvideo.md)     |
-| [**témoin**](signal.md)         | [**\_signal MCI**](mci-signal.md)         |
+| [**signal**](signal.md)         | [**\_signal MCI**](mci-signal.md)         |
 | [**status**](status.md)         | [**\_État MCI**](mci-status.md)         |
 | [**première**](step.md)             | [**\_étape MCI**](mci-step.md)             |
 | [**erreur**](stop.md)             | [**\_arrêt MCI**](mci-stop.md)             |
@@ -62,11 +62,11 @@ Les périphériques vidéo numériques (par exemple, le pilote MCIAVI) prennent 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

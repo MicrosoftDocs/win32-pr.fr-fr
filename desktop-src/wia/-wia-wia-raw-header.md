@@ -1,5 +1,5 @@
 ---
-description: La \_ \_ structure d’en-tête brut WIA définit une image au format de données brutes d’un appareil et permet aux applications d’utiliser le format RAW dans les transferts WIA (Windows Image Acquisition).
+description: la \_ \_ structure d’en-tête brut WIA définit une image au format de données brutes d’un appareil et permet aux applications d’utiliser le format brut dans les transferts WIA (Windows image Acquisition).
 ms.assetid: c7b50816-d596-4c62-a00e-cd8d6e303e42
 title: Structure WIA_RAW_HEADER (Wiadef. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadef.h
-ms.openlocfilehash: 8da33f0b257168712f1b16fb7f940df5db862d3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b4e89f47737788fa9ebf238f06f6420eafbc31d7b27ab7933372d0716fb6588
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812949"
 ---
 # <a name="wia_raw_header-structure"></a>\_Structure d' \_ en-tête brut WIA
 
-La structure d' **\_ \_ en-tête brut WIA** définit une image au format de données brutes d’un appareil et permet aux applications d’utiliser le format RAW dans les transferts WIA (Windows Image Acquisition).
+la structure d' **\_ \_ en-tête brut WIA** définit une image au format de données brutes d’un appareil et permet aux applications d’utiliser le format brut dans les transferts WIA (Windows image Acquisition).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -266,7 +266,7 @@ Taille, en octets, de la table de palettes. (Il s’agit de 0, s’il n’y a au
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Étant donné qu’il ne s’agit pas d’un format de fichier, utilisez une chaîne vide pour la propriété d’extension de fichier WIA de la \_ Loi \_ \_ .
 
@@ -282,8 +282,8 @@ La palette et les données peuvent être dans l’ordre.
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Wiadef. h</dt> </dl> |
 
 

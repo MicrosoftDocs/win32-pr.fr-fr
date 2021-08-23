@@ -3,7 +3,7 @@ title: Message EM_GETLANGOPTIONS (RichEdit. h)
 description: Obtient les paramètres d’option d’un contrôle RichEdit pour l’éditeur de méthode d’entrée (IME) et la prise en charge des langues asiatiques.
 ms.assetid: 9fd9d27c-7713-454e-b49f-8ecdba848d2e
 keywords:
-- EM_GETLANGOPTIONS les contrôles de message Windows
+- EM_GETLANGOPTIONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a27254ccb10093059eb9161410f4e25efdc59306
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6e3fa3602259ff0b754c79c69d91048c68c60b2703d4cd06a7da4630fcdf646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800199"
 ---
 # <a name="em_getlangoptions-message"></a>\_Message GETLANGOPTIONS em
 
@@ -59,17 +59,17 @@ Retourne les paramètres de langue IME et asiatiques, qui peuvent correspondre �
 | <dl> <dt>**\_IMEALWAYSSENDNOTIFY IMF**</dt> </dl>         | Cet indicateur contrôle la manière dont le contrôle RichEdit notifie le client lors de la composition de l’IME : <br/> 0 : aucun en- [ \_ changement](en-change.md) ou notifications en [ \_ selChange](en-selchange.md) lors d’un état indéterminé. Envoyer une notification lorsque la dernière chaîne est entrée. Il s’agit de la valeur par défaut.<br/> 1 : envoyer les événements en [ \_ modification](en-change.md) et en [ \_ selChange](en-selchange.md) lors de l’état indéterminé.<br/> |
 | <dl> <dt>**\_IMECANCELCOMPLETE IMF**</dt> </dl>           | Cet indicateur détermine la façon dont le contrôle utilise la chaîne de composition d’un IME si l’utilisateur l’annule. Si cet indicateur est défini, le contrôle ignore la chaîne de composition. Si cet indicateur n'est pas défini, le contrôle utilise la chaîne de composition comme chaîne de résultat. Cette option est désactivée par défaut (0).<br/>                                                                                                              |
 | <dl> <dt>**\_NOIMPLICITLANG IMF**</dt> </dl>              | **Windows 8**: si cet indicateur est défini, désactivez l’enregistrement de l’entrée au clavier à l’aide de la langue du clavier et en veillant à ce que les IDss de langue non orientale soient compatibles avec le répertoire de caractères. Cette option est désactivée par défaut (0). <br/>                                                                                                                                                                             |
-| <dl> <dt>**\_NOKBDLIDFIXUP IMF**</dt> </dl>               | **Windows 8**: si cet indicateur est défini, le contrôle RichEdit désactive le marquage de la langue du clavier sur un contrôle vide. Cette option est désactivée par défaut (0).<br/>                                                                                                                                                                                                                                                       |
-| <dl> <dt>**\_vérification orthographique d’IMF**</dt> </dl>               | **Windows 8**: si cet indicateur est défini, le contrôle RichEdit active la vérification orthographique. Cette option est désactivée par défaut (0). <br/>                                                                                                                                                                                                                                                                                      |
+| <dl> <dt>**\_NOKBDLIDFIXUP IMF**</dt> </dl>               | **Windows 8**: si cet indicateur est défini, le contrôle richedit désactive le marquage de la langue du clavier sur un contrôle vide. Cette option est désactivée par défaut (0).<br/>                                                                                                                                                                                                                                                       |
+| <dl> <dt>**\_vérification orthographique d’IMF**</dt> </dl>               | **Windows 8**: si cet indicateur est défini, le contrôle richedit active la vérification orthographique. Cette option est désactivée par défaut (0). <br/>                                                                                                                                                                                                                                                                                      |
 | <dl> <dt>**\_TKBAUTOCORRECTION IMF**</dt> </dl>           | **Windows 8**: si cet indicateur est défini, activez la correction automatique du clavier tactile. Cette option est désactivée par défaut (0). <br/>                                                                                                                                                                                                                                                                                                  |
-| <dl> <dt>**\_TKBPREDICTION IMF**</dt> </dl>               | **Windows 10**: ignoré.<br/> **Windows 8**: si cet indicateur est défini, le contrôle RichEdit active la prédiction de clavier tactile. Cette option est désactivée par défaut (0). <br/>                                                                                                                                                                                                                                        |
+| <dl> <dt>**\_TKBPREDICTION IMF**</dt> </dl>               | **Windows 10**: ignoré.<br/> **Windows 8**: si cet indicateur est défini, le contrôle richedit active la prédiction de clavier tactile. Cette option est désactivée par défaut (0). <br/>                                                                                                                                                                                                                                        |
 | <dl> <dt>**\_UIFONTS IMF**</dt> </dl>                     | Utilisez les polices par défaut de l’interface utilisateur. Cette option est désactivée par défaut (0).<br/>                                                                                                                                                                                                                                                                                                                                        |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’indicateur de **\_ police de caractères IMF** est défini par défaut. Les **indicateurs \_ autokeyboard** et **IMF \_ IMECANCELCOMPLETE** de IMF sont effacés par défaut.
 
@@ -79,8 +79,8 @@ L’indicateur de **\_ police de caractères IMF** est défini par défaut. Les 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

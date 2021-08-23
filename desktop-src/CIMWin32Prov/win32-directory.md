@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6185b9c0d427b7410d36f3fddfaf70c0ed8d364b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1247a965f5d447ab2e6e86737feff96b205a6a74e3cab5e3e94cade9a2f8394c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699849"
 ---
 # <a name="win32_directory-class"></a>\_Classe de répertoire Win32
 
@@ -119,7 +119,7 @@ La classe de **\_ répertoire win32** possède ces méthodes.
 | [**CompressEx**](compressex-method-in-class-win32-directory.md)                                   | Méthode de classe qui compresse le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                   |
 | [**Copier**](copy-method-in-class-win32-directory.md)                                               | Méthode de classe qui copie le fichier logique ou le répertoire spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre d’entrée.<br/>                                                                                        |
 | [**CopyEx**](copyex-method-in-class-win32-directory.md)                                           | Méthode de classe qui copie le fichier logique ou le répertoire spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre *filename* .<br/>                                                                                   |
-| [**Supprimer**](delete-method-in-class-win32-directory.md)                                           | Méthode de classe qui supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                      |
+| [**DELETE**](delete-method-in-class-win32-directory.md)                                           | Méthode de classe qui supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                      |
 | [**DeleteEx**](deleteex-method-in-class-win32-directory.md)                                       | Méthode de classe qui supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                      |
 | [**GetEffectivePermission**](geteffectivepermission-method-in-class-win32-directory.md)           | Méthode de classe qui détermine si l’appelant a les autorisations agrégées spécifiées par l’argument d' *autorisation* non seulement sur l’objet de fichier, mais sur le partage sur lequel le fichier ou le répertoire réside (s’il se trouve sur un partage).<br/> |
 | [**Renommer**](rename-method-in-class-win32-directory.md)                                           | Méthode de classe qui renomme le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.<br/>                                                                                                                                      |
@@ -376,7 +376,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**schéma**](/windows/desktop/WmiSdk/standard-qualifiers) (« Win32 »), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) (« compressé »)
 </dt> </dl>
 
-Indique si le dossier a été compressé ou non. WMI reconnaît les dossiers compressés à l’aide de WMI lui-même ou à l’aide de l’interface utilisateur graphique ; Toutefois, elle ne reconnaît pas. Fichiers ZIP en cours de compression. Si la **valeur est true**, le fichier est compressé.
+Indique si le dossier a été compressé ou non. WMI reconnaît les dossiers compressés à l’aide de WMI lui-même ou à l’aide de l’interface utilisateur graphique ; Toutefois, il ne reconnaît pas .ZIP fichiers comme étant compressés. Si la **valeur est true**, le fichier est compressé.
 
 Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.md).
 
@@ -786,7 +786,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-La propriété Name est une chaîne représentant le nom hérité qui sert de clé à une instance de fichier logique dans un système de fichiers. Les noms de chemin d’accès complets doivent être fournis. Exemple : C : \\ \\ système Windows \\win.ini
+La propriété Name est une chaîne représentant le nom hérité qui sert de clé à une instance de fichier logique dans un système de fichiers. Les noms de chemin d’accès complets doivent être fournis. exemple : C : \\ Windows \\ système \\win.ini
 
 Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.md).
 
@@ -972,11 +972,11 @@ Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ répertoire win32** est dérivée du [**\_ répertoire CIM**](cim-directory.md).
 
-**Vue d’ensemble**
+**Vue d'ensemble**
 
 Les dossiers sont des objets de système de fichiers conçus pour contenir d’autres objets de système de fichiers. Toutefois, cela ne signifie pas que tous les dossiers sont similaires. Au lieu de cela, les dossiers peuvent varier considérablement. Certains dossiers sont des dossiers du système d’exploitation, qui ne doivent généralement pas être modifiés par un script. Certains dossiers sont en lecture seule, ce qui signifie que les utilisateurs peuvent accéder au contenu de ce dossier, mais qu’ils ne peuvent pas ajouter, supprimer ou modifier ces contenus. Certains dossiers sont compressés pour un stockage optimal, tandis que d’autres sont masqués et invisibles pour les utilisateurs.
 
@@ -984,7 +984,7 @@ WMI utilise la classe de **\_ répertoire win32** pour gérer les dossiers. De m
 
 La classe d’association de [**\_ sous-répertoire win32**](win32-subdirectory.md) est également utilisée pour gérer des fichiers et des dossiers. La classe de **\_ sous-répertoire win32** lie un dossier et ses sous-dossiers immédiats. Par exemple, dans la structure de dossiers C : \\ scripts \\ journaux, logs est un sous-dossier de scripts et scripts est un sous-dossier du dossier racine C : \\ . Toutefois, les journaux ne sont pas considérés comme un sous-dossier de C : \\ .
 
-Vous pouvez récupérer les propriétés de n’importe quel dossier dans le système de fichiers à l’aide de la classe de **\_ répertoire win32** . Les propriétés disponibles à l’aide de cette classe sont indiquées dans le tableau 11,1. Pour récupérer les propriétés d’un seul dossier, construisez une requête WQL (Windows Query Language) pour la classe de **\_ répertoire win32** , en veillant à inclure le nom du dossier. Par exemple, cette requête est liée au dossier D : \\ Archive :
+Vous pouvez récupérer les propriétés de n’importe quel dossier dans le système de fichiers à l’aide de la classe de **\_ répertoire win32** . Les propriétés disponibles à l’aide de cette classe sont indiquées dans le tableau 11,1. pour récupérer les propriétés d’un seul dossier, construisez une requête WQL (Windows query Language) pour la classe de **\_ répertoire Win32** , en veillant à inclure le nom du dossier. Par exemple, cette requête est liée au dossier D : \\ Archive :
 
 `        Copy     "SELECT * FROM Win32_Directory WHERE Name = 'D:\\Archive'"`
 

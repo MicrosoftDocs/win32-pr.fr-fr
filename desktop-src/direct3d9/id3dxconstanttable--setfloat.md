@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6589d56e0b9dcf8debe14a7c81f86a4972a73405
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 179ad0000af976441037fc6cc8f7eee14d933ad5037694d2ebacfc19744cbeaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675539"
 ---
 # <a name="id3dxconstanttablesetfloat-method"></a>ID3DXConstantTable :: SetFloat, méthode
 
@@ -69,7 +69,7 @@ Nombre à virgule flottante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -1,19 +1,19 @@
 ---
-description: En savoir plus sur l’obtention d’un pointeur vers l’objet lecteur du kit de développement logiciel (SDK) Windows Media format à l’aide de l’interface IWMReaderAdvanced2 dans DirectShow.
+description: en savoir plus sur l’obtention d’un pointeur vers l’objet lecteur de Windows Media Format SDK à l’aide de l’interface IWMReaderAdvanced2 dans DirectShow.
 ms.assetid: d1292e2f-bd0e-4961-a6fa-8cdaeb28b692
 title: Obtention d’un pointeur vers l’objet lecteur (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e131b9e111aa5e779d1208b68e04c9979e3b1d7f
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 5c1395a9d1c2cb764e8994600845362816ac2c158ca9ab7d8fdf630a1a51ed00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633619"
 ---
 # <a name="obtaining-a-pointer-to-the-reader-object-directshow"></a>Obtention d’un pointeur vers l’objet lecteur (DirectShow)
 
-Dans certains cas, par exemple, lorsque vous déterminez quelles extensions d’unité de données sont définies sur un flux donné, vous devrez peut-être accéder directement à l’objet lecteur du kit de développement logiciel (SDK) du format Windows Media. La fonction suivante montre comment obtenir l’interface [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) sur l’objet lecteur lui-même :
+dans certains cas, par exemple, lorsque vous déterminez quelles extensions d’unité de données sont définies sur un flux donné, vous devrez peut-être accéder directement à l’objet lecteur du kit de développement logiciel (SDK) de Format multimédia Windows. La fonction suivante montre comment obtenir l’interface [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) sur l’objet lecteur lui-même :
 
 
 ```C++
@@ -75,7 +75,7 @@ HRESULT GetReaderAdvanced(IGraphBuilder *pGraph, IWMReaderAdvanced2** pReaderAdv
 
 <dl> <dt>
 
-[Lecture de fichiers ASF dans DirectShow](reading-asf-files-in-directshow.md)
+[Lecture des fichiers ASF dans DirectShow](reading-asf-files-in-directshow.md)
 </dt> </dl>
 
  

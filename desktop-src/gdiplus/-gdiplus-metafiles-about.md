@@ -1,29 +1,29 @@
 ---
 description: Windows GDI+ fournit la classe Metafile pour vous permettre d’enregistrer et d’afficher des métafichiers.
 ms.assetid: a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077
-title: Fichiers de fichier (GDI+)
+title: Sous-fichiers (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae75c2185670563f9a9e624d868da5b0e299cbec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 190d03edd8857da3e840c2b3fde04314fa1fb1ddb01c8e69c684bccecf3e708d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778679"
 ---
-# <a name="metafiles-gdi"></a>Fichiers de fichier (GDI+)
+# <a name="metafiles-gdi"></a>Sous-fichiers (GDI+)
 
 Windows GDI+ fournit la classe [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) pour vous permettre d’enregistrer et d’afficher des métafichiers. Un métafichier, également appelé image vectorielle, est une image qui est stockée sous la forme d’une séquence de commandes et de paramètres de dessin. Les commandes et les paramètres enregistrés dans un objet **Metafile** peuvent être stockés dans la mémoire ou enregistrés dans un fichier ou un flux.
 
-GDI+ peut afficher les sous-fichiers qui ont été stockés dans les formats suivants :
+GDI+ pouvez afficher les sous-fichiers qui ont été stockés dans les formats suivants :
 
--   Windows Metafile Format (WMF)
+-   Windows Format de métafichier (WMF)
 -   métafichier amélioré (EMF)
 -   EMF +
 
-GDI+ peut enregistrer les fichiers de métafichier dans les formats EMF et EMF +, mais pas au format WMF.
+GDI+ pouvez enregistrer des sous-fichiers aux formats emf et emf +, mais pas au format WMF.
 
-EMF + est une extension du EMF qui permet le stockage des enregistrements GDI+. Il existe deux variantes du format EMF + : EMF + uniquement et EMF + double. Les fichiers EMF + only contiennent uniquement des enregistrements GDI+. Ces sous-fichiers peuvent être affichés par GDI+ mais pas par Windows Graphics Device Interface (GDI). Les métafichiers EMF + double contiennent des enregistrements GDI+ et GDI. Chaque enregistrement GDI+ dans un métafichier EMF + double est associé à un autre enregistrement GDI. Ces sous-fichiers peuvent être affichés par GDI+ ou GDI.
+emf + est une extension du emf qui permet le stockage des enregistrements de GDI+. Il existe deux variantes du format EMF + : EMF + uniquement et EMF + double. les fichiers EMF + only contiennent uniquement des enregistrements GDI+. ces sous-fichiers peuvent être affichés par GDI+ mais pas par Windows Graphics Device Interface (GDI). les métafichiers EMF + double contiennent des GDI+ et des enregistrements GDI. chaque enregistrement de GDI+ dans un métafichier EMF + double est associé à un autre enregistrement GDI. ces sous-fichiers peuvent être affichés par GDI+ ou par GDI.
 
 L’exemple suivant enregistre un paramètre et une commande de dessin dans un fichier disque. Notez que l’exemple crée un objet [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et que le constructeur de l’objet **Graphics** reçoit l’adresse d’un objet [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) comme argument.
 

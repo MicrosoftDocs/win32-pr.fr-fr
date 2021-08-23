@@ -4,12 +4,12 @@ ms.assetid: ae8ab98f-dc3b-414d-85c9-6bf204c2f776
 title: Gestion de la langue de l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 852fe20d3edb9795c2c2a9d3ec45c1e8ffe053ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5aaf20ca6183109f81572eeb706673812fc988eca87ea2522f437eafd22774b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631839"
 ---
 # <a name="user-interface-language-management"></a>Gestion de la langue de l’interface utilisateur
 
@@ -21,7 +21,7 @@ MUI permet à vos applications de gérer les langues d’interface utilisateur d
 
 La langue de l’interface utilisateur par défaut du système est la langue de la version localisée utilisée pour configurer Windows. Tous les menus, les boîtes de dialogue, les messages d’erreur et les fichiers d’aide sont représentés dans cette langue, sauf lorsque l’utilisateur sélectionne une autre langue.
 
-Sur Windows Vista et versions ultérieures, la langue de l’interface utilisateur par défaut du système est appelée « langue d’installation » et joue un rôle plus limité. Dans la plupart des cas, il est remplacé par les langues d’interface utilisateur préférées du système. Toutefois, dans certains contextes, il est utile de disposer d’une seule langue d’installation, toujours connue pour être entièrement prise en charge.
+sur Windows Vista et versions ultérieures, la langue de l’interface utilisateur par défaut du système est appelée « langue d’installation » et joue un rôle plus limité. Dans la plupart des cas, il est remplacé par les langues d’interface utilisateur préférées du système. Toutefois, dans certains contextes, il est utile de disposer d’une seule langue d’installation, toujours connue pour être entièrement prise en charge.
 
 Aucune fonction MUI n’est disponible pour définir la langue de l’interface utilisateur par défaut du système. Pour récupérer cette langue, l’application peut appeler [**GetSystemDefaultUILanguage**](/windows/desktop/api/Winnls/nf-winnls-getsystemdefaultuilanguage).
 
@@ -34,15 +34,15 @@ Le système d’exploitation définit la langue de l’interface utilisateur du 
 
  
 
-Aucune fonction MUI n’est disponible pour définir la langue de l’interface utilisateur système. Pour récupérer cette valeur, une application ciblée sur Windows Vista et versions ultérieures peut appeler [**GetSystemPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages) et obtenir la première langue dans la liste des langues d’interface utilisateur préférées du système. Les applications ciblées sur les systèmes d’exploitation antérieurs à Windows Vista ne peuvent pas utiliser [**GetSystemPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages) et doivent reposer sur l’hypothèse que la langue de l’interface utilisateur système est toujours la même que la langue de l’interface utilisateur par défaut du système.
+Aucune fonction MUI n’est disponible pour définir la langue de l’interface utilisateur système. pour récupérer cette valeur, une application ciblée sur Windows Vista et versions ultérieures peut appeler [**GetSystemPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages) et obtenir la première langue dans la liste des langues d’interface utilisateur préférées du système. les Applications ciblées sur les systèmes d’exploitation antérieurs à Windows Vista ne peuvent pas utiliser [**GetSystemPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getsystempreferreduilanguages) et doivent reposer sur l’hypothèse que la langue de l’interface utilisateur système est toujours la même que la langue de l’interface utilisateur par défaut du système.
 
 ### <a name="user-ui-language"></a>Langue de l’interface utilisateur
 
-La langue de l’interface utilisateur de l’utilisateur détermine la langue de l’interface utilisateur utilisée pour les menus, les boîtes de dialogue, les fichiers d’aide, etc. Il peut être défini par l’utilisateur actuel dans l’onglet **langue** de la section Options régionales et linguistiques du panneau de configuration. Cette langue ne peut être modifiée que si plusieurs langues de l’interface utilisateur sont installées sur l’ordinateur. Notez que l’utilisateur doit se déconnecter puis se reconnecter pour voir l’effet. Par exemple, une entreprise multinationale souhaite déployer des fenêtres dans toutes ses filiales. La société crée une tâche d’installation globale, qui installe la version en langue anglaise de Windows sur tous les clients, quel que soit l’emplacement. En même temps, il installe des modules linguistiques spécifiques en fonction de l’unité d’organisation dont un ordinateur est membre. Lorsque l’utilisateur ouvre une session pour la première fois sur un système d’exploitation nouvellement installé, Windows apparaît sous la forme d’une version localisée.
+La langue de l’interface utilisateur de l’utilisateur détermine la langue de l’interface utilisateur utilisée pour les menus, les boîtes de dialogue, les fichiers d’aide, etc. Il peut être défini par l’utilisateur actuel dans l’onglet **langue** de la section Options régionales et linguistiques du panneau de configuration. Cette langue ne peut être modifiée que si plusieurs langues de l’interface utilisateur sont installées sur l’ordinateur. Notez que l’utilisateur doit se déconnecter puis se reconnecter pour voir l’effet. par exemple, une entreprise multinationale souhaite déployer des Windows dans toutes ses filiales. la société crée une tâche d’installation globale, qui installe la version en langue anglaise de Windows sur tous les clients, quel que soit l’emplacement. En même temps, il installe des modules linguistiques spécifiques en fonction de l’unité d’organisation dont un ordinateur est membre. lorsque l’utilisateur ouvre une session pour la première fois sur un système d’exploitation nouvellement installé, Windows s’affiche sous la forme d’une version localisée.
 
-Sur Windows Vista et versions ultérieures, la langue de l’interface utilisateur de l’utilisateur est la première langue de la liste langues d’interface utilisateur préférées de l’utilisateur. Notez que les langues de secours peuvent être utilisées si des ressources particulières ne sont pas disponibles dans cette langue.
+sur Windows Vista et versions ultérieures, la langue de l’interface utilisateur de l’utilisateur est la première langue de la liste langues d’interface utilisateur préférées de l’utilisateur. Notez que les langues de secours peuvent être utilisées si des ressources particulières ne sont pas disponibles dans cette langue.
 
-Sur les systèmes d’exploitation antérieurs à Windows Vista, la langue de l’interface utilisateur de l’utilisateur est généralement identique à la langue de l’interface utilisateur par défaut du système. Toutefois, pour Windows MUI, les deux langues peuvent être différentes.
+sur les systèmes d’exploitation antérieurs à Windows Vista, la langue de l’interface utilisateur de l’utilisateur est généralement identique à la langue de l’interface utilisateur par défaut du système. toutefois, pour Windows MUI, les deux langages peuvent être différents.
 
 Pour récupérer la langue de l’interface utilisateur, une application peut appeler [**GetUserDefaultUILanguage**](/windows/desktop/api/Winnls/nf-winnls-getuserdefaultuilanguage) ou [**GetUserPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getuserpreferreduilanguages). L’application ne peut pas modifier la langue de l’interface utilisateur de l’utilisateur, car il n’existe aucune fonction pour la définir.
 
@@ -58,11 +58,11 @@ Le chargeur de ressources utilise une liste de langues de l’interface utilisat
 
 ### <a name="process-preferred-ui-languages-list"></a>Traiter la liste des langues d’interface utilisateur préférées
 
-Sur Windows Vista et versions ultérieures, le chargeur de ressources gère une liste de langues d’interface utilisateur par défaut qui comprend jusqu’à cinq langues valides définies par un processus en cours d’exécution pour une application MUI. Les langages peuvent être définis par l’application avec un appel à [**SetProcessPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setprocesspreferreduilanguages). L’application peut récupérer les langues en appelant [**GetProcessPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getprocesspreferreduilanguages).
+sur Windows Vista et versions ultérieures, le chargeur de ressources gère une liste de langues d’interface utilisateur par défaut qui comprend jusqu’à cinq langues valides définies par un processus en cours d’exécution pour une application MUI. Les langages peuvent être définis par l’application avec un appel à [**SetProcessPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setprocesspreferreduilanguages). L’application peut récupérer les langues en appelant [**GetProcessPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getprocesspreferreduilanguages).
 
 ### <a name="thread-preferred-ui-languages-list"></a>Liste des langues de l’interface utilisateur préférée du thread
 
-Sur Windows Vista et versions ultérieures, le chargeur de ressources utilise une liste de langues de l’interface utilisateur préférée du thread qui se compose de cinq langues valides au maximum définies par un thread dans un processus en cours d’exécution pour une application MUI. Ces langues sont utilisées pour personnaliser les langues de l’interface utilisateur de l’application et les rendre différentes de la langue du système d’exploitation. La liste des langues de l’interface utilisateur préférée du thread est basée sur les langues d’interface utilisateur préférées de l’utilisateur, les langues d’interface utilisateur préférées du système et la langue de l’interface utilisateur par défaut du système.
+sur Windows Vista et versions ultérieures, le chargeur de ressources utilise une liste de langues de l’interface utilisateur préférée du thread qui se compose de cinq langues valides au maximum définies par un thread dans un processus en cours d’exécution pour une application MUI. Ces langues sont utilisées pour personnaliser les langues de l’interface utilisateur de l’application et les rendre différentes de la langue du système d’exploitation. La liste des langues de l’interface utilisateur préférée du thread est basée sur les langues d’interface utilisateur préférées de l’utilisateur, les langues d’interface utilisateur préférées du système et la langue de l’interface utilisateur par défaut du système.
 
 Pour définir les langues d’interface utilisateur préférées du thread, l’application doit appeler [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages). Pour récupérer ces langues, l’application appelle [**GetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-getthreadpreferreduilanguages).
 
@@ -101,7 +101,7 @@ Si le chargeur de ressources ne trouve aucun fichier dont il a besoin, il doit u
 
 <dl> <dt>
 
-[À propos de l’interface utilisateur multilingue](about-multilingual-user-interface.md)
+[à propos de interface utilisateur multilingue](about-multilingual-user-interface.md)
 </dt> <dt>
 
 [Paramètres régionaux et langues](locales-and-languages.md)

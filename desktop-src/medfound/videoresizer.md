@@ -4,12 +4,12 @@ ms.assetid: 4acd6366-1abf-43f3-b6c9-4ea17a335cec
 title: Dimensionnement vidéo DSP (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7826f21cadc6d30bc2b8b04bbcc741c2bf31bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58d26dcc53baf38336656d870acc5583066e0816a0bf963217db1da54513ee18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721319"
 ---
 # <a name="video-resizer-dsp"></a>Dimensionnement vidéo DSP
 
@@ -29,7 +29,7 @@ CLSID \_ CResizerDMO
 
 ## <a name="formats"></a>Formats
 
-Le redimensionnement vidéo DSP prend en charge les sous-types de médias d’entrée/sortie suivants lorsqu’il agit comme un objet de média DirectX (DMO).
+Le redimensionnement vidéo DSP prend en charge les sous-types de médias d’entrée/sortie suivants lorsqu’il joue le rôle d’un objet de média DirectX (DMO).
 
 -   MEDIASUBTYPE \_ IYUV
 -   MEDIASUBTYPE \_ YUY2
@@ -85,11 +85,11 @@ Le redimensionnement vidéo DSP prend en charge les sous-types de médias d’en
 -   [MFPKEY \_ REdimensionner \_ PANSCANAPHEIGHT](mfpkey-resize-panscanapheight.md)
 -   [MFPKEY \_ PIXELASPECTRATIO](mfpkey-pixelaspectratio.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le rôle d’application vidéo redimensionnement DSP est implémenté en tant qu’objet COM pouvant agir comme DMO ou MFT. L’objet a un identificateur de classe unique (CLSID), qu’il agisse comme DMO ou MFT. Pour plus d’informations sur le moment où un DSP agit comme DMO ou MFT, consultez [processeurs de signal numérique](windowsmediadigitalsignalprocessors.md).
+le rôle d’application vidéo redimensionnement DSP est implémenté en tant qu’objet COM pouvant agir en tant que DMO ou MFT. l’objet a un identificateur de classe unique (CLSID), qu’il agisse en tant que DMO ou MFT. pour plus d’informations sur le moment où un DSP agit en tant que DMO ou MFT, consultez [processeurs de Signal numérique](windowsmediadigitalsignalprocessors.md).
 
-Les identificateurs globaux uniques (GUID) pour les sous-types de média RVB diffèrent selon qu’un DSP fait office de modèle DMO ou MFT. Les GUID pour les sous-types de média non RVB sont les mêmes, qu’un DSP agisse comme DMO ou MFT. Pour plus d’informations sur les GUID qui représentent des sous-types de médias, consultez [GUID de sous-type de vidéo](video-subtype-guids.md).
+les identificateurs globaux uniques (guid) pour les sous-types de média rvb diffèrent selon qu’un DSP joue le rôle d’un DMO ou d’une table MFT. les guid pour les sous-types de média non rvb sont les mêmes, qu’un DSP agisse en tant que DMO ou MFT. Pour plus d’informations sur les GUID qui représentent des sous-types de médias, consultez [GUID de sous-type de vidéo](video-subtype-guids.md).
 
 Ce DSP peut effectuer des opérations de rognage et de mise à l’échelle sur l’image vidéo. Le format du type de sortie doit correspondre au format du type d’entrée. Le DSP n’effectue pas de conversions de l’espace colorimétrique.
 
@@ -115,7 +115,7 @@ Le DSP copie la partie de l’image source définie par le rectangle source et l
 
 L’ouverture géométrique, la zone d’affichage minimale et la région de panoramique/numérisation n’affectent pas la manière dont le DSP redimensionne la vidéo. Toutefois, ils peuvent affecter la façon dont le composant en aval interprète la trame vidéo. En particulier, le convertisseur vidéo amélioré (EVR) utilise ces valeurs lorsqu’il calcule les proportions de l’image et la zone d’affichage.
 
-Si vous utilisez Media Foundation types de média, vous pouvez définir l’ouverture géométrique, l’ouverture minimale d’affichage et les régions Pan/Scan directement dans le type de média de sortie. Dans le cas contraire, si vous utilisez des types de média DMO, définissez-les à l’aide des propriétés.
+Si vous utilisez Media Foundation types de média, vous pouvez définir l’ouverture géométrique, l’ouverture minimale d’affichage et les régions Pan/Scan directement dans le type de média de sortie. dans le cas contraire, si vous utilisez DMO types de média, définissez-les à l’aide des propriétés.
 
 Pour plus d'informations, voir les rubriques suivantes :
 
@@ -129,8 +129,8 @@ Pour plus d'informations, voir les rubriques suivantes :
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vidreszr.dll</dt> </dl> |
 

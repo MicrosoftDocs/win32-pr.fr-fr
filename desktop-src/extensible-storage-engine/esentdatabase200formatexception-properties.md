@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101394
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2f7a9ec36a9605ffd3048b0ab087960bec2e5d77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 475999f83244bdad507e0010f6186509b209d20c9895953b8b4157cd69d52f20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736304"
 ---
 # <a name="esentdatabase200formatexception-properties"></a>Propriétés EsentDatabase200FormatException
 
@@ -49,7 +49,7 @@ Le type [EsentDatabase200FormatException](./esentdatabase200formatexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -22,16 +22,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bef8cb8029c62957446ee5d7aefcf67fe5d7acb8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 888da618a0c51fbbb81923e8ff5885d815c3327ab99f8bfa4f76571602059d9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119817809"
 ---
 # <a name="cim_storageredundancygroup-class"></a>\_Classe CIM StorageRedundancyGroup
 
-La classe **CIM \_ StorageRedundancyGroup** représente des informations de redondance relatives au stockage de masse. Les groupes de redondance de stockage sont utilisés pour protéger les données utilisateur. Ils sont constitués d’une ou de plusieurs extensions physiques, ou d’une ou de plusieurs extensions physiques agrégées. Les groupes de redondance de stockage peuvent se chevaucher ; Toutefois, les étendues sous-jacentes dans le chevauchement ne doivent pas contenir de données de vérification.
+La classe **CIM \_ StorageRedundancyGroup** représente des informations de redondance relatives au stockage de masse. les groupes de redondance Stockage sont utilisés pour protéger les données utilisateur. Ils sont constitués d’une ou de plusieurs extensions physiques, ou d’une ou de plusieurs extensions physiques agrégées. Stockage groupes de redondance peuvent se chevaucher ; Toutefois, les étendues sous-jacentes dans le chevauchement ne doivent pas contenir de données de vérification.
 
 > [!IMPORTANT]
 > Les classes de la DMTF (Distributed Management Task Force) CIM (Common Information Model) sont les classes parentes sur lesquelles les classes WMI sont générées. WMI ne prend actuellement en charge que les [schémas de version CIM 2. x](https://dmtf.org/standards/cim/schemas).
@@ -413,7 +413,7 @@ Algorithme utilisé pour la redondance et la reconstruction des données. La val
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ StorageRedundancyGroup** est dérivée de [**CIM \_ RedundancyGroup**](cim-redundancygroup.md).
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f922a97f69f4dae03d4e61a54bd99c52d69a984a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 215b71d731227641df02716dd2b760f7e023bbec0c50bc66ac6d390ed87d002e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757609"
 ---
 # <a name="cbasecontrolwindowgetrestoreposition-method"></a>Méthode CBaseControlWindow. GetRestorePosition
 
@@ -77,7 +77,7 @@ Pointeur vers la valeur de la hauteur de la fenêtre.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit des mêmes valeurs que celles retournées par la fonction [**CBaseControlWindow :: GetWindowPosition**](cbasecontrolwindow-getwindowposition.md) lorsque la fenêtre n’est ni agrandie, ni réduite.
 
@@ -87,7 +87,7 @@ Il s’agit des mêmes valeurs que celles retournées par la fonction [**CBaseCo
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

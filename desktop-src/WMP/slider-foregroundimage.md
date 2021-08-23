@@ -3,7 +3,7 @@ title: Slider. foregroundImage
 description: L’attribut foregroundImage spécifie ou récupère l’image de premier plan du curseur.
 ms.assetid: f713fba8-e965-4fed-b323-8a513d1f13e6
 keywords:
-- Slider. foregroundImage lecteur Windows Media
+- slider. foregroundImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a286d3b73a2647160a0bd23357703f4fcb88d267
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f7fad50a6e33ca4de5890dfca340e36aa2fdc0af0c0b938793eac4edc1dfb71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735709"
 ---
 # <a name="sliderforegroundimage"></a>Slider. foregroundImage
 
@@ -31,7 +31,7 @@ L’attribut **foregroundImage** spécifie ou récupère l’image de premier pl
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est facultatif. Lorsque vous utilisez des images pour construire un contrôle Slider, l' **BackgroundImage** est utilisé pour l’image de curseur principale. Le **thumbImage** représente le curseur réel et peut être déplacé à l’aide de la souris. Au niveau du curseur **thumbImage** se trouve une ligne invisible dans laquelle l’image d’arrière-plan est affichée d’un côté de la ligne, et l’image de premier plan s’affiche de l’autre côté.
 

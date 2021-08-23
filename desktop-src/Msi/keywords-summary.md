@@ -4,12 +4,12 @@ ms.assetid: e19dc495-e4d4-465f-8464-c60af8985334
 title: Propriété Résumé des mots clés
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3828146fef861cd993331045d6a1380d84c2bbc4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a572161e440b440010d43f598e2baa453dbca514d71aa6f0f672deb7c726fa2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680309"
 ---
 # <a name="keywords-summary-property"></a>Propriété Résumé des mots clés
 

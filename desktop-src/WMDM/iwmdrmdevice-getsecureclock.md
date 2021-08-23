@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa92c3bc2ee82facf2f2e1043e71467a0c55bd8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa9494a594a396550028f083cc2b646f2093f6369ab27ae5494bf70c13628d4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619779"
 ---
 # <a name="iwmdrmdevicegetsecureclock-method"></a>IWMDRMDevice :: GetSecureClock, méthode
 
@@ -68,7 +68,7 @@ Indicateurs d’état de l’appareil. Cette valeur doit être l’un des indica
 
 | Indicateur                     | Description                            |
 |--------------------------|----------------------------------------|
-| \_ISWMDRM d’appareil WMDRM \_   | L’appareil prend en charge Windows Media DRM. |
+| \_ISWMDRM d’appareil WMDRM \_   | l’appareil prend en charge Windows DRM Media. |
 | \_NEEDCLOCK d’appareil WMDRM \_ | L’appareil a besoin d’une horloge.                |
 | \_appareil WMDRM \_ révoqué   | L’appareil a été révoqué.           |
 
@@ -80,7 +80,7 @@ Indicateurs d’état de l’appareil. Cette valeur doit être l’un des indica
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

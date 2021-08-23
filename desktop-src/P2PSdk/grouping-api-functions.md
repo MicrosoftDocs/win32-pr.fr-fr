@@ -4,12 +4,12 @@ ms.assetid: 56ea2880-b468-4816-b6c9-5780c807b3f1
 title: Fonctions d’API de regroupement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17d2970ca68d69b16a32cf7a6d546a5852b07dd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 888a64096f66a9adf048d91c2d577d71203a03da6d1b698f2ea305396c4be0db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776169"
 ---
 # <a name="grouping-api-functions"></a>Fonctions d’API de regroupement
 
@@ -83,7 +83,7 @@ L’API de regroupement utilise les fonctions suivantes :
 
  
 
-## <a name="group-database-importexport-functions"></a>Fonctions d’importation/exportation de base de données de groupe
+## <a name="group-database-importexport-functions"></a>fonctions de Import/Export de base de données de groupe
 
 
 

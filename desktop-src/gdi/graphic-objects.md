@@ -4,12 +4,12 @@ ms.assetid: 95c82efa-257e-4718-9853-7ef10cdfd76c
 title: Objets graphiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b80aadcb0988e7bd64910d04ecfbf6ec608845d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4cf256cd8eafd6ee346c12f6658a7c3dd388c94fb4107b010528e47c126fce2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831959"
 ---
 # <a name="graphic-objects"></a>Objets graphiques
 
@@ -23,7 +23,7 @@ Le stylet, le pinceau, la bitmap, la palette, la région et le chemin d’accès
 | Brush          | Style, couleur, motif et origine.                                                  |
 | Palette        | Couleurs et taille (ou nombre de couleurs).                                              |
 | Police           | Nom de la police, largeur, hauteur, poids, jeu de caractères, etc.                     |
-| Path           | Automatiques.                                                                              |
+| Chemin           | Automatiques.                                                                              |
 | Stylet            | Style, largeur et couleur.                                                            |
 | Région         | Emplacement et dimensions.                                                            |
 

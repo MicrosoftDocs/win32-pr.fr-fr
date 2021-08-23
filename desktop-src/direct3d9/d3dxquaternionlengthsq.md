@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0771d571b15ef690b115f12e5fa1d8ff6fea4dad
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 062339144a182d0ceeec27d34dd0d572d470ef10fcc1722375f89156b6b55874
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631079"
 ---
 # <a name="d3dxquaternionlengthsq-function"></a>D3DXQuaternionLengthSq fonction)
 
@@ -55,7 +55,7 @@ Type : **[ **float**](../winprog/windows-data-types.md)**
 
 Longueur au carré du Quaternion.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) pour toute entrée de Quaternion qui n’est pas déjà normalisée.
 

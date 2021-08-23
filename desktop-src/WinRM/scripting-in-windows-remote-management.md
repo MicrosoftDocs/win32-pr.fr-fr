@@ -1,11 +1,11 @@
 ---
-title: Scripts dans Windows Remote Management
+title: scripts dans Windows Remote Management
 description: L’API de script dans WinRM et l’API COM associée pour C++ sont conçues pour refléter fidèlement les opérations du protocole WS-Management.
 ms.assetid: fda2042a-8fca-4cd8-bb55-fd1c3591921e
 ms.tgt_platform: multiple
 keywords:
-- Scripts dans Windows Remote Management
-- Windows Remote Management, écriture de scripts dans
+- scripts dans Windows Remote Management
+- Windows Gestion à distance, scripts dans
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -13,30 +13,30 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 75af10fea03853de99c884eda0a74ce340683b49
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3c10d36420b2826162a6ed5e3fb6bf69408a74032faafac75c84c25a754cf534
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795429"
 ---
-# <a name="scripting-in-windows-remote-management"></a>Scripts dans Windows Remote Management
+# <a name="scripting-in-windows-remote-management"></a>scripts dans Windows Remote Management
 
 L' [API de script dans WinRM](winrm-scripting-api.md) et l’API COM associée pour C++ sont conçues pour refléter fidèlement les opérations du protocole WS-Management.
 
-L’API de script WinRM dans Windows Remote Management prend en charge toutes les opérations de protocole WS-Management sauf une. Elle n’autorise pas les abonnements aux événements. Pour vous abonner à des événements à partir du journal des événements système BMC, vous devez utiliser les outils en ligne de commande wecutil ou wevtutil. Pour plus d’informations, consultez [Événements](events.md).
+l’API de script WinRM dans Windows Remote Management prend en charge toutes les opérations de protocole WS-Management sauf une. Elle n’autorise pas les abonnements aux événements. Pour vous abonner à des événements à partir du journal des événements système BMC, vous devez utiliser les outils en ligne de commande wecutil ou wevtutil. Pour plus d’informations, consultez [Événements](events.md).
 
-L’API de script WinRM est appelée par Winrm.vbs, un outil en ligne de commande, qui est écrit en Visual Basic Scripting Edition (VBScript). Winrm.vbs fournit des exemples d’utilisation de l' [API de script WinRM](winrm-scripting-api.md).
+l’API de script WinRM est appelée par Winrm.vbs, un outil en ligne de commande, qui est écrit dans Visual Basic scripting Edition (VBScript). Winrm.vbs fournit des exemples d’utilisation de l' [API de script WinRM](winrm-scripting-api.md).
 
 ## <a name="using-wsman-compared-to-using-wmi-scripting"></a>Utilisation de WSman par rapport à l’utilisation de scripts WMI
 
 WMI se connecte à des ordinateurs distants via DCOM, ce qui nécessite la configuration décrite dans [connexion à WMI sur un ordinateur distant](/windows/desktop/WmiSdk/connecting-to-wmi-on-a-remote-computer). WinRM n’utilise pas DCOM pour se connecter à un ordinateur distant. Au lieu de cela, le protocole WS-Management envoie des messages SOAP et le service utilise un port unique pour HTTP et un port pour le transport HTTPs.
 
-Contrairement à l’outil de ligne de commande **WinRM** , les scripts doivent fournir le XML requis pour passer aux messages du protocole WS-Management. Ils doivent également fournir des URI. Pour plus d’informations, consultez [URI de ressource](resource-uris.md) et [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
+Contrairement à l’outil de ligne de commande **WinRM** , les scripts doivent fournir le XML requis pour passer aux messages du protocole WS-Management. Ils doivent également fournir des URI. pour plus d’informations, consultez [uri de ressource](resource-uris.md) et [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
 
 L’API de script WMI fonctionne avec des objets, tels que des instances de [**\_ disque logique Win32**](/windows/desktop/CIMWin32Prov/win32-logicaldisk), qui représentent des ressources sur un ordinateur. Cette classe WMI est définie dans les fichiers [*format MOF (MOF)*](/windows/desktop/WmiSdk/gloss-m) , qui sont stockés au format binaire dans le référentiel WMI. Dans WMI, une opération d’extraction pour une seule ressource ou une requête pour plusieurs instances retourne des objets WMI.
 
-Un script WinRM ne retourne pas d’objets, mais plutôt des flux de texte XML. Pour plus d’informations, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
+Un script WinRM ne retourne pas d’objets, mais plutôt des flux de texte XML. pour plus d’informations, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
 
 ## <a name="displaying-xml-output-from-winrm-scripts"></a>Affichage de la sortie XML des scripts WinRM
 
@@ -156,10 +156,10 @@ La sortie d’un script WinRM est encodée au format Unicode. Si vous créez un 
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
-[Utilisation de Windows Remote Management](using-windows-remote-management.md)
+[utilisation de Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
 [MSXSL](/previous-versions/windows/desktop/ms763742(v=vs.85))
@@ -168,6 +168,6 @@ La sortie d’un script WinRM est encodée au format Unicode. Si vous créez un 
 [Référence DOM](/previous-versions/windows/desktop/ms764730(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: 0b358c57e6410827177e76e3da30b2f5f9896ee2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f3ee6dea032475eb94a723229751d9523c12d118f7319da8f0296cc8c8c42a2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634949"
 ---
 # <a name="d3dx10_font_desc-structure"></a>Structure de la \_ police d3dx10 \_
 
@@ -103,7 +103,7 @@ Affectez la valeur **true** à une police en italique.
 
 </dd> <dt>
 
-**CharSet**
+**Caractères**
 </dt> <dd>
 
 Type : **[ **Byte**](../winprog/windows-data-types.md)**
@@ -158,7 +158,7 @@ Chaîne terminée par le caractère NULL qui spécifie le nom de la police de la
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine également le type de structure. Si Unicode est défini, le \_ type de \_ structure Description de la police d3dx10 correspond à un \_ DESCW de police d3dx10 ; dans \_ le cas contraire, le type de structure est résolu en une \_ police d3dx10 \_ DESCA.
 

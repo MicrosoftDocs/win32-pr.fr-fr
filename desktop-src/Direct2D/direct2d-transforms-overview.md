@@ -1,6 +1,6 @@
 ---
 title: Vue d'ensemble des transformations
-description: Présente l’API de transformation Microsoft Direct2D pour Windows 7. Direct2D permet aux développeurs Win32 d’effectuer des transformations graphiques 2D.
+description: présente l’API de transformation Microsoft Direct2D pour Windows 7. Direct2D permet aux développeurs Win32 d’effectuer des transformations graphiques 2D.
 ms.assetid: eea8177d-c19e-4972-a9a6-ad5d541b090f
 keywords:
 - Direct2D, vue d’ensemble des transformations
@@ -14,12 +14,12 @@ keywords:
 - cibles de rendu, transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b924c51d73e71f206fbb250f4a7dd50ca71db2a
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 80f2fad970af1d231adab691ad9345377c585b839053625ad49b3d8f7a9e203a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833104"
 ---
 # <a name="transforms-overview"></a>Vue d'ensemble des transformations
 
@@ -114,7 +114,7 @@ Vous pouvez ajuster la transformation sur le pinceau en appelant [**setTransform
 
 Lorsque la transformation du pinceau est la transformation d’identité, les pinceaux apparaissent dans le même espace de coordonnées que la cible de rendu dans laquelle elles sont dessinées. La transformation de pinceau permet à un appelant de modifier la façon dont les coordonnées du pinceau sont mappées à cet espace.
 
-L’espace de pinceau est spécifié différemment dans Direct2D que dans Windows Presentation Foundation (WPF). Dans Direct2D, l’espace de pinceau n’est pas relatif à l’objet qui est dessiné, mais plutôt au système de coordonnées actuel de la cible de rendu, transformé par la transformation de pinceau, le cas échéant. Pour que le pinceau remplisse un objet tel qu’il a été effectué dans WPF, vous devez convertir l’origine de l’espace du pinceau en angle supérieur gauche du cadre englobant de l’objet, puis mettre à l’échelle l’espace du pinceau afin que la vignette de base remplisse le cadre englobant de l’objet.
+l’espace de pinceau est spécifié différemment dans Direct2D que dans Windows Presentation Foundation (WPF). Dans Direct2D, l’espace de pinceau n’est pas relatif à l’objet qui est dessiné, mais plutôt au système de coordonnées actuel de la cible de rendu, transformé par la transformation de pinceau, le cas échéant. Pour que le pinceau remplisse un objet tel qu’il a été effectué dans WPF, vous devez convertir l’origine de l’espace du pinceau en angle supérieur gauche du cadre englobant de l’objet, puis mettre à l’échelle l’espace du pinceau afin que la vignette de base remplisse le cadre englobant de l’objet.
 
 Pour plus d’informations sur les transformations de pinceau, consultez [vue d’ensemble des pinceaux Direct2D](direct2d-brushes-overview.md).
 
@@ -123,7 +123,7 @@ Pour plus d’informations sur les transformations de pinceau, consultez [vue d�
 Lorsque vous mettez à l’échelle, déplacez, Traduisez ou inclinez des géométries, vous pouvez appliquer directement une transformation à une géométrie spécifique, et non à une transformation de cible de rendu qui affecterait la totalité de l’écran. Une transformation de cible de rendu affecte généralement le trait et le remplissage d’une géométrie. En revanche, une transformation Geometry affecte uniquement le remplissage d’une géométrie, car la transformation est appliquée à une géométrie avant d’être rayée.
 
 > [!Note]  
-> À compter de Windows 8, la transformation universelle n’a aucune incidence sur le trait si vous définissez le type de trait sur [**d2d1 \_ Stroke \_ transformation \_ type \_ fixed**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type) ou [**d2d1 \_ Stroke \_ \_ type transformation \_ fine**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type).
+> à partir de Windows 8, la transformation universelle n’a pas d’incidence sur le trait si vous définissez le type de trait sur [**D2D1 \_ stroke \_ transformation \_ type \_ FIXED**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type) ou [**D2D1 \_ stroke \_ \_ type transformation \_ fine**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type).
 
  
 

@@ -1,20 +1,20 @@
 ---
-title: Onglets
+title: Tabulations
 description: Les onglets permettent de présenter des informations connexes sur des pages étiquetées distinctes.
 ms.assetid: d90228ce-aa95-4359-be8e-ea2014d71ae6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: d6922865abcaa060cc2e4b13e4768d57bcd17aa8
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 167b74bab228398eb0334452a5eacd359578d5bfc01efecb52ccafbcd90d376d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119818978"
 ---
-# <a name="tabs"></a>Onglets
+# <a name="tabs"></a>Tabulations
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Les onglets permettent de présenter des informations connexes sur des pages étiquetées distinctes.
 
@@ -66,7 +66,7 @@ Assurez-vous que les informations figurant dans les onglets sont liées, mais qu
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Utilisez des tabulations horizontales si :**
     -   La fenêtre a sept onglets ou moins.
@@ -135,14 +135,14 @@ Assurez-vous que les informations figurant dans les onglets sont liées, mais qu
 
 -   **N’utilisez pas de barres de défilement sur les pages d’onglets.** Les tabulations fonctionnent de la même façon que les barres de défilement pour augmenter la zone effective d’une fenêtre. Un mécanisme doit suffire.
 -   **Utilisez des étiquettes d’onglet concises.** Utilisez un ou deux mots qui décrivent clairement le contenu de la page. Les étiquettes plus longues consomment de l’espace à l’écran, en particulier lorsque les étiquettes sont localisées.
--   **Utilisez des étiquettes d’onglet explicites et explicites.** Évitez les étiquettes d’onglet génériques qui peuvent s’appliquer à n’importe quel onglet, tel que général, avancé ou paramètres.
+-   **Utilisez des étiquettes d’onglet explicites et explicites.** évitez les étiquettes d’onglet génériques qui peuvent s’appliquer à n’importe quel onglet, tel que général, avancé ou Paramètres.
 -   **Si un onglet ne s’applique pas au contexte actuel et que les utilisateurs ne l’attendent pas, supprimez-le.** Cela simplifie l’interface utilisateur et les utilisateurs ne le manquent pas.
 
     **Incorrect :**
 
     ![capture d’écran de la fenêtre options avec le nom de l’onglet grisé ](images/ctrl-tabs-image12.png)
 
-    Dans cet exemple, l’onglet emplacements des fichiers est désactivé de manière incorrecte lorsque Microsoft Word est utilisé comme éditeur de courrier électronique. Au lieu de désactiver cet onglet, vous devez le supprimer, car les utilisateurs ne s’attendent pas à afficher ou à modifier les emplacements des fichiers dans ce contexte.
+    dans cet exemple, l’onglet emplacements des fichiers est désactivé de manière incorrecte lorsque Microsoft Word est utilisé comme éditeur de messagerie électronique. Au lieu de désactiver cet onglet, vous devez le supprimer, car les utilisateurs ne s’attendent pas à afficher ou à modifier les emplacements des fichiers dans ce contexte.
 
 -   **Si un onglet ne s’applique pas au contexte actuel et que les utilisateurs peuvent s’attendre à ce que :**
 

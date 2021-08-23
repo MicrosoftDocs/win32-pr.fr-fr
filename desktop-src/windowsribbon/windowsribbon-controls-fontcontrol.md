@@ -1,19 +1,19 @@
 ---
 title: Contrôle de police
-description: Pour simplifier l’intégration et la configuration de la prise en charge des polices dans les applications qui requièrent des fonctionnalités de traitement de texte et d’édition de texte, l’infrastructure de ruban Windows fournit un contrôle de police spécialisé qui expose un large éventail de propriétés de police, telles que le nom de type de caractères, le style, la taille des points et les effets.
+description: pour simplifier l’intégration et la configuration de la prise en charge des polices dans les applications qui requièrent des fonctionnalités de traitement de texte et d’édition de texte, l’infrastructure du ruban Windows fournit un contrôle de police spécialisé qui expose une large gamme de propriétés de police, telles que le nom, le style, la taille des points et les effets.
 ms.assetid: 6052f2e3-2c9e-432e-9ed6-c1e3a50843d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e179296ae03163bf03e08d2fbf7287264792e6e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e2c80ce84e17573925b8bf64637df1330c7447b6bebe501de1f20ebc4b1ac79d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710659"
 ---
 # <a name="font-control"></a>Contrôle de police
 
-Pour simplifier l’intégration et la configuration de la prise en charge des polices dans les applications qui requièrent des fonctionnalités de traitement de texte et d’édition de texte, l’infrastructure de ruban Windows fournit un contrôle de police spécialisé qui expose un large éventail de propriétés de police, telles que le nom de type de caractères, le style, la taille des points et les effets.
+pour simplifier l’intégration et la configuration de la prise en charge des polices dans les applications qui requièrent des fonctionnalités de traitement de texte et d’édition de texte, l’infrastructure du ruban Windows fournit un contrôle de police spécialisé qui expose une large gamme de propriétés de police, telles que le nom, le style, la taille des points et les effets.
 
 -   [Introduction](#introduction)
 -   [Une expérience cohérente](#a-consistent-experience)
@@ -29,7 +29,7 @@ Pour simplifier l’intégration et la configuration de la prise en charge des p
 
 Le contrôle de police est un contrôle composite qui se compose de boutons, de boutons bascule, de zones de liste déroulante et de zones de liste déroulante, qui sont toutes utilisées pour spécifier une propriété de police ou une option de mise en forme particulière.
 
-La capture d’écran suivante montre le contrôle de police du ruban dans WordPad pour Windows 7.
+la capture d’écran suivante montre le contrôle de police du ruban dans WordPad pour Windows 7.
 
 ![capture d’écran de l’élément fontcontrol avec l’attribut richfont défini sur true.](images/controls/fontcontrol.png)
 
@@ -41,9 +41,9 @@ Cette expérience cohérente comprend
 
 -   Mise en forme standardisée et sélection des polices dans les applications du ruban.
 -   Représentation de police standardisée dans les applications de ruban.
--   Automatique, dans Windows 7, activation de la police basée sur le paramètre **Afficher** ou **Masquer** pour chaque police dans le panneau de configuration **polices** . Le contrôle de police affiche uniquement les polices qui sont définies pour s' **Afficher**.
+-   automatique, dans Windows 7, activation de la police basée sur le paramètre **afficher** ou **masquer** pour chaque police dans le panneau de configuration **polices** . Le contrôle de police affiche uniquement les polices qui sont définies pour s' **Afficher**.
     > [!Note]  
-    > Dans Windows Vista, le panneau de configuration des **polices** n’offre pas la fonctionnalité d' **affichage** ou de **masquage** , donc toutes les polices sont activées.
+    > dans Windows Vista, le panneau de configuration des **polices** n’offre pas la fonctionnalité d' **affichage** ou de **masquage** , donc toutes les polices sont activées.
 
      
 
@@ -59,7 +59,7 @@ Cette expérience cohérente comprend
     -   Listes de polices basées sur le périphérique d’entrée.
 
     > [!Note]  
-    > La prise en charge de cette fonctionnalité n’est pas disponible sur les plateformes antérieures à Windows 7.
+    > la prise en charge de cette fonctionnalité n’est pas disponible sur les plateformes antérieures à Windows 7.
 
      
 
@@ -77,11 +77,11 @@ Ce gestionnaire de commandes unique permet au contrôle de police de gérer les 
 Les autres fonctionnalités du contrôle de police incluent
 
 -   La génération automatique, compatible DPI, d’une représentation de type WYSIWYG (ce que vous obtenez) de l’image bitmap pour chaque police du menu **famille de polices** .
--   Intégration [de Windows Graphics Device Interface (GDI)](../gdi/windows-gdi.md) .
+-   intégration [de Windows Graphics Device Interface (GDI)](../gdi/windows-gdi.md) .
 -   Bitmaps et info-bulles de la famille de polices localisées.
 -   Énumération des polices, regroupement et métadonnées pour la gestion et la présentation des polices.
     > [!Note]  
-    > La prise en charge de cette fonctionnalité n’est pas disponible sur les plateformes antérieures à Windows 7.
+    > la prise en charge de cette fonctionnalité n’est pas disponible sur les plateformes antérieures à Windows 7.
 
      
 
@@ -90,9 +90,9 @@ Les autres fonctionnalités du contrôle de police incluent
 
 ## <a name="alignment-with-common-gdi-text-structures"></a>Alignement avec les structures de texte GDI courantes
 
-Les composants de pile de texte [Windows Graphics Device Interface (GDI)](../gdi/windows-gdi.md) sont utilisés pour exposer les fonctionnalités de sélection et de mise en forme des polices par le biais du contrôle de police du ruban. Les différentes fonctionnalités de police prises en charge par la structure [LOGFONT](/windows/win32/api/wingdi/ns-wingdi-logfonta), la [structure CHOOSEFONT](/windows/win32/api/commdlg/ns-commdlg-choosefonta)et la [structure CHARFORMAT2](/windows/win32/api/richedit/ns-richedit-charformat2a) sont exposées par le biais des sous-contrôles inclus dans le contrôle font.
+les composants de la pile de texte [Windows Graphics Device Interface (GDI)](../gdi/windows-gdi.md) sont utilisés pour exposer les fonctionnalités de sélection et de mise en forme des polices par le biais du contrôle de police du ruban. Les différentes fonctionnalités de police prises en charge par la structure [LOGFONT](/windows/win32/api/wingdi/ns-wingdi-logfonta), la [structure CHOOSEFONT](/windows/win32/api/commdlg/ns-commdlg-choosefonta)et la [structure CHARFORMAT2](/windows/win32/api/richedit/ns-richedit-charformat2a) sont exposées par le biais des sous-contrôles inclus dans le contrôle font.
 
-Les sous-contrôles affichés dans le contrôle font dépendent du modèle *FontType* déclaré dans le balisage du ruban. Les modèles *FontType* (décrits plus en détail dans la section suivante) sont conçus pour s’aligner sur les structures de texte [Windows Graphics Device Interface (GDI)](../gdi/windows-gdi.md) courantes.
+Les sous-contrôles affichés dans le contrôle font dépendent du modèle *FontType* déclaré dans le balisage du ruban. les modèles *FontType* (décrits plus en détail dans la section suivante) sont conçus pour s’aligner sur les structures de texte common [Windows Graphics Device Interface (GDI)](../gdi/windows-gdi.md) .
 
 ## <a name="add-a-fontcontrol"></a>Ajouter un FontControl
 
@@ -134,7 +134,7 @@ Le tableau suivant répertorie les contrôles qui sont associés à chaque modè
 
 
 
-Commandes
+Contrôles
 
 Modèles
 
@@ -480,7 +480,7 @@ Si l’attribut <em>KeyTip</em> n’est pas déclaré dans le balisage, la touch
 </tr>
 <tr class="odd">
 <td>Indice</td>
-<td>Un</td>
+<td>A</td>
 </tr>
 <tr class="even">
 <td>Couleur de police</td>
@@ -497,7 +497,7 @@ Si l’attribut <em>KeyTip</em> n’est pas déclaré dans le balisage, la touch
 
  
 
-Le préfixe recommandé pour un ruban en-US de l’interface utilisateur multilingue (MUI) est « F », comme le montre l’exemple suivant.
+le préfixe recommandé pour un ruban en-US interface utilisateur multilingue (MUI) est « F », comme le montre l’exemple suivant.
 
 
 ```C++
@@ -562,7 +562,7 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
 
 
-| Clé de propriété                                                                                                                  | Notes                                                                                                                                                                                                                                                                                                                                                                                          |
+| Clé de propriété                                                                                                                  | Remarques                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [IU \_ \_ FontProperties](windowsribbon-reference-properties-uipkey-fontproperties.md)                                      | Expose, dans l’agrégat comme un objet [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) , toutes les propriétés de sous-contrôle de contrôle de police.<br/> L’infrastructure interroge cette propriété lorsque `UI_INVALIDATIONS_VALUE` est passé comme valeur des *indicateurs* dans l’appel à [**IUIFramework :: InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand).<br/> |
 | [IU \_ \_ FontProperties \_ ChangedProperties](windowsribbon-reference-properties-uipkey-fontproperties-changedproperties.md) | Expose, dans l’agrégat comme un objet [**IUISimplePropertySet**](/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) , uniquement les propriétés de sous-contrôle de police qui ont changé.<br/>                                                                                                                                                                                                        |
@@ -575,13 +575,13 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
 Outre les propriétés prises en charge par le contrôle de police lui-même, l’infrastructure du ruban définit également une [clé de propriété](windowsribbon-reference-properties.md) pour chaque sous-contrôle de contrôle de police. Ces clés de propriété et leurs valeurs sont exposées par l’infrastructure par le biais d’une implémentation d’interface [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) qui définit les méthodes de gestion d’une collection, également appelées « conteneurs de propriétés », de paires nom/valeur.
 
-L’application convertit les structures de police en propriétés accessibles par le biais des méthodes de l’interface [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) . Ce modèle met en évidence la distinction entre le contrôle de police et les composants de pile de texte Windows Graphics Device Interface (GDI) ([structure LogFont](/windows/win32/api/wingdi/ns-wingdi-logfonta), [structure CHOOSEFONT](/windows/win32/api/commdlg/ns-commdlg-choosefonta)et [structure CHARFORMAT2](/windows/win32/api/richedit/ns-richedit-charformat2a)) qui sont pris en charge par l’infrastructure.
+L’application convertit les structures de police en propriétés accessibles par le biais des méthodes de l’interface [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) . ce modèle met en évidence la distinction entre le contrôle de police et les composants de pile de texte Windows Graphics Device Interface (GDI) ([structure LOGFONT](/windows/win32/api/wingdi/ns-wingdi-logfonta), [structure CHOOSEFONT](/windows/win32/api/commdlg/ns-commdlg-choosefonta)et [structure CHARFORMAT2](/windows/win32/api/richedit/ns-richedit-charformat2a)) qui sont pris en charge par l’infrastructure.
 
 Le tableau suivant répertorie les contrôles individuels et leurs clés de propriété associées.
 
 
 
-| Commandes                 | Clé de propriété                                                                                                                                                                                                                                                           | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Contrôles                 | Clé de propriété                                                                                                                                                                                                                                                           | Remarques                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Taille de la police**            | [\_Taille de \_ FontProperties de l’interface utilisateur \_](windowsribbon-reference-properties-uipkey-fontproperties-size.md)                                                                                                                                                                    | Lorsqu’une exécution de texte de taille hétérogène est mise en surbrillance, l’infrastructure du ruban définit le contrôle de la **taille** de la police sur vide et la valeur de l' [interface utilisateur \_ \_ FontProperties \_ taille](windowsribbon-reference-properties-uipkey-fontproperties-size.md) sur 0. Lorsque l’utilisateur clique sur le bouton **agrandir la police** ou **réduire la police** , tout le texte mis en surbrillance est redimensionné, mais la différence relative dans les tailles de texte est conservée.                                                                                                                                                    |
 | **Famille de polices**          | [\_Famille de \_ FontProperties de l’interface utilisateur \_](windowsribbon-reference-properties-uipkey-fontproperties-family.md)                                                                                                                                                                | Les noms des familles de polices GDI varient selon les paramètres régionaux système. Par conséquent, si la valeur de [la \_ \_ \_ famille FontProperties de l’interface utilisateur](windowsribbon-reference-properties-uipkey-fontproperties-family.md) est conservée entre les sessions d’application, cette valeur doit être récupérée sur chaque nouvelle session.                                                                                                                                                                                                                                                                            |
@@ -791,7 +791,7 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Élément FontControl**](windowsribbon-element-fontcontrol.md)

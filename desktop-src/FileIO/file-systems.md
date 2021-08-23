@@ -3,12 +3,12 @@ description: Gérer les répertoires avec la table d’entrée de répertoire, l
 title: Systèmes de fichiers locaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92f624ef1999b81adb63ba1d5b7e349259cabd53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77aa77c1029ce4dc19529b148dde1798084acf91afcf6e4435adf8fb2ab266f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696229"
 ---
 # <a name="local-file-systems"></a>Systèmes de fichiers locaux
 
@@ -16,7 +16,7 @@ Un *système de fichiers* permet aux applications de stocker et de récupérer d
 
 Chaque système de fichiers se compose d’un ou de plusieurs pilotes et bibliothèques de liens dynamiques qui définissent les formats de données et les fonctionnalités du système de fichiers. Les systèmes de fichiers peuvent exister sur différents types de périphériques de stockage, y compris les disques durs, les juke-boxes, les disques optiques amovibles, les unités de sauvegarde sur bande et les cartes mémoire.
 
-Tous les systèmes de fichiers pris en charge par Windows disposent des composants de stockage suivants :
+tous les systèmes de fichiers pris en charge par Windows disposent des composants de stockage suivants :
 
 -   Volumes. Un *volume* est un ensemble de répertoires et de fichiers.
 -   Répertoires. Un *répertoire* est une collection hiérarchique de répertoires et de fichiers.

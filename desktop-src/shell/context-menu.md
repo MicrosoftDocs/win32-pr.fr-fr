@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 286dd9c860ae79e5124439439da97f206b4aa436
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c091588ff3fefb94d7cd06656c4d7206156b03932c4876f20ad0f26aa03b8b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715729"
 ---
 # <a name="shortcut-context-menus-and-shortcut-menu-handlers"></a>Menus contextuels (menu contextuel) et gestionnaires de menus contextuels
 

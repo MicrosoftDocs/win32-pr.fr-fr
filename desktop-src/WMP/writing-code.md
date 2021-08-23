@@ -3,26 +3,26 @@ title: Écriture de code
 description: Écriture de code
 ms.assetid: 0cd9604a-fa8b-466d-94bb-b76ee8f853b4
 keywords:
-- Lecteur Windows Media, habillages
-- Apparences du lecteur Windows Media, écriture de code
+- Lecteur Windows Media, apparences
+- apparences de Lecteur Windows Media, écriture de code
 - apparences, écrire du code
-- Apparences du lecteur Windows Media, événements
+- apparences de Lecteur Windows Media, événements
 - apparences, événements
 - événements, apparences
 - événements, écriture de code
 - écriture de code pour les habillages, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71c29dafe19f7975d3935c0d5eb4e4e6d96b1de8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 354e9f18f90d51b025c2a9f9a3a1f08ad6d1a6c99c58b3ba35885aaa742bf94b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760579"
 ---
 # <a name="writing-code"></a>Écriture de code
 
-La puissance réelle des habillages vient d’être en mesure de répondre aux événements. Vous souhaitez que votre apparence puisse faire une action lorsque l’utilisateur clique sur un bouton, et que vous souhaitez également répondre aux modifications apportées au lecteur Windows Media, telles que la progression du fichier multimédia numérique ou du flux en cours de lecture.
+La puissance réelle des habillages vient d’être en mesure de répondre aux événements. vous souhaitez que votre apparence puisse faire une action lorsque l’utilisateur clique sur un bouton, et que vous souhaitez également répondre aux modifications apportées à Lecteur Windows Media, telles que la progression du fichier multimédia numérique ou du flux de travail en cours de diffusion.
 
 Les sections suivantes traitent de l’écriture de code pour les habillages :
 
@@ -35,7 +35,7 @@ Les sections suivantes traitent de l’écriture de code pour les habillages :
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -44,9 +44,9 @@ Les sections suivantes traitent de l’écriture de code pour les habillages :
 [**À propos des apparences**](about-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

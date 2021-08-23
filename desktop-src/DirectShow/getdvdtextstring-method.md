@@ -4,17 +4,17 @@ ms.assetid: 2b8cea1e-b0b7-4ef7-90a5-aef2978e8098
 title: Méthode GetDVDTextString
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00622519bb549768d60aba6649e926c2c155fab1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ef5fccf7278bac9d060af9e3492af7b056ac178aede625791056cca51cb09709
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812538"
 ---
 # <a name="getdvdtextstring-method"></a>Méthode GetDVDTextString
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

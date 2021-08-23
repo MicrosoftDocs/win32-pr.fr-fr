@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f59aa7e0f2874d38255ac61d8ea64e591850224d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2640a191fe1337d70573c80458114823bd57e705dfda9d75c2337b11c82f059a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104393927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760979"
 ---
 # <a name="ms-ts-property01-attribute"></a>Attribut MS-TS-Property01
 
@@ -42,7 +42,7 @@ Réservé pour un usage futur.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

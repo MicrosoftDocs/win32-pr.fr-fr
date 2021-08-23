@@ -4,12 +4,12 @@ description: Calcule le taux de modification des composants. | deriv_rty_coarse 
 ms.assetid: 1EBCC0B9-BD3E-46DD-AC17-F7167F892195
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df7fd539adf8587118a6bdfdcb5959925e6a97f8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 33e3c5fe51444db9f5e10f482ee352d7ef665b3051aac1dba63dee88b2138445
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673889"
 ---
 # <a name="deriv_rty_coarse-sm5---asm"></a>Deriv \_ propriété \_ grossiste (SM5-ASM)
 
@@ -35,7 +35,7 @@ Calcule le taux de modification des composants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez [Deriv \_ RTX \_ grossiste.](deriv-rtx-coarse--sm5---asm-.md)
 
@@ -43,7 +43,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     |         |
 
@@ -57,9 +57,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

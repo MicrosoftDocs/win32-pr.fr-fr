@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 2da9df454b8741f2203072fd25856118407ef5c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ff54325859acef6da136c4bce20286bc7c746d8880d8994ca834213adf57b58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776549"
 ---
 # <a name="mxdc_s0page_data_t-structure"></a>\_Structure MXDC S0PAGE \_ Data \_ T
 
@@ -54,7 +54,7 @@ Page de document XPS.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est ajoutée à une structure [**\_ t d' \_ en \_ -tête d’échappement MXDC**](mxdcescapeheader.md) (dont le **opcode** a la valeur MXDCOP \_ Set \_ S0PAGE) pour créer une structure [**MXDC \_ S0PAGE passthrough d' \_ \_ échappement \_**](mxdcs0pagepassthroughescape.md) . Cette structure est ensuite transmise au paramètre *lpszInData* de la fonction [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) quand elle est appelée avec [**MXDC \_ Escape**](mxdc-escape.md) comme caractère d’échappement. Le résultat est que le MXDC transmet la page à la sortie sans la traiter.
 
@@ -70,8 +70,8 @@ La consommation de streaming est plus efficace si vous appelez [**ExtEscape**](/
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mxdc. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 5ad431e936265be96831778f9949ae67ef737beb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faf98490424754d6ae2223ca063e0e3a4eec69c113b1a220e9657b7db5edbb8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778669"
 ---
 # <a name="pf_handoffentry-structure"></a>PF \_ HANDOFFENTRY, structure
 
@@ -90,7 +90,7 @@ Base numérique de la valeur de protocole spécifiée dans **dwHandOffValue**. L
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un tableau des structures **\_ HANDOFFENTRY PF** est utilisé dans la structure [ \_ HANDOFFSET de PF](pf-handoffset.md) .
 
