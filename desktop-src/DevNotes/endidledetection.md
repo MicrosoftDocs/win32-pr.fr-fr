@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msidle.dll
-ms.openlocfilehash: e50679c53123ad140324f7d159ef938367c02af0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2ba6732b9221d4d4d43e670d0d42d39363d50dffc0d2d4b0daf378b10dd292e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691409"
 ---
 # <a name="endidledetection-function"></a>EndIdleDetection fonction)
 
@@ -52,7 +52,7 @@ Ce paramètre doit avoir la valeur zéro.
 
 Retourne la **valeur true** si la fonction est réussie ; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) . Cette fonction n’est pas exportée par nom ; Spécifiez l’ordinal 4 lors de l’appel de **GetProcAddress**.
 

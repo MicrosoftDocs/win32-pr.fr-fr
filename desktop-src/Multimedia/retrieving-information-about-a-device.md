@@ -8,12 +8,12 @@ keywords:
 - Commande MCI_INFO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10acb53fa1a961fe7a70042350f8d889d9fdf572
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 412ccfb8819ac1c76cd3f0114fa114c877280de959f605535fd4bb83d224a91e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689089"
 ---
 # <a name="retrieving-information-about-a-device"></a>Récupération d’informations sur un appareil
 
@@ -30,9 +30,9 @@ mciSendString(
 
 Les indicateurs indiqués pour les commandes obligatoires et de base fournissent une quantité minimale d’informations sur un appareil. De nombreux appareils complètent les commandes requises et de base avec des indicateurs étendus pour fournir des informations supplémentaires sur l’appareil.
 
- 
+ 
 
- 
+ 
 
 
 

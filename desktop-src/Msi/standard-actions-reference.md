@@ -1,19 +1,19 @@
 ---
-description: Le Windows Installer a les actions standard suivantes.
+description: le Windows Installer a les actions standard suivantes.
 ms.assetid: 219b5eb6-501f-4e30-b398-4ed5e0cdf2ab
 title: Informations de référence sur les actions standard
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5104c39639ff2bc7b504996467cf707eb52bb014
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80e88b4b60e3dd13dc4830a1ea4ba2d16a439546d1ced3dc2a8b7552780548d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627629"
 ---
 # <a name="standard-actions-reference"></a>Informations de référence sur les actions standard
 
-Le Windows Installer a les actions standard suivantes.
+le Windows Installer a les actions standard suivantes.
 
 
 
@@ -42,7 +42,7 @@ Le Windows Installer a les actions standard suivantes.
 | [InstallFiles](installfiles-action.md)                         | Copie les fichiers de la source vers le répertoire de destination.                                                                                                                    |
 | [InstallFinalize](installfinalize-action.md)                   | Exécute un script contenant toutes les opérations de la séquence d’action depuis le début de l’installation ou de la dernière action InstallFinalize. Marque la fin d'une transaction. |
 | [InstallInitialize](installinitialize-action.md)               | Marque le début d’une transaction.                                                                                                                                         |
-| [InstallSFPCatalogFile](installsfpcatalogfile-action.md)       | L’action InstallSFPCatalogFile installe les catalogues utilisés par Windows me pour la protection des fichiers Windows.                                                                        |
+| [InstallSFPCatalogFile](installsfpcatalogfile-action.md)       | l’action InstallSFPCatalogFile installe les catalogues utilisés par Windows Me pour la Protection des fichiers Windows.                                                                        |
 | [InstallValidate](installvalidate-action.md)                   | Vérifie que tous les volumes avec des coûts attribués disposent de suffisamment d’espace pour l’installation.                                                                                   |
 | [IsolateComponents](isolatecomponents-action.md)               | Traite la [table IsolatedComponent](isolatedcomponent-table.md)                                                                                                          |
 | [LaunchConditions](launchconditions-action.md)                 | Évalue un ensemble d’instructions conditionnelles contenues dans la table LaunchCondition qui doivent toutes avoir la valeur true pour que l’installation puisse se poursuivre.                          |
@@ -72,7 +72,7 @@ Le Windows Installer a les actions standard suivantes.
 | [RemoveExistingProducts](removeexistingproducts-action.md)     | Supprime les versions installées d’un produit.                                                                                                                                      |
 | [RemoveFiles](removefiles-action.md)                           | Supprime les fichiers précédemment installés par l’action InstallFiles.                                                                                                                |
 | [RemoveFolders](removefolders-action.md)                       | Supprime les dossiers vides liés à l’ensemble de composants à supprimer.                                                                                                                 |
-| [RemoveIniValues](removeinivalues-action.md)                   | Supprime les informations de fichier. ini associées à un composant spécifié dans la table IniFile.                                                                                     |
+| [RemoveIniValues](removeinivalues-action.md)                   | Supprime .ini informations de fichier associées à un composant spécifié dans la table IniFile.                                                                                     |
 | [RemoveODBC](removeodbc-action.md)                             | Supprime les sources de données, les traducteurs et les pilotes ODBC.                                                                                                                          |
 | [RemoveRegistryValues](removeregistryvalues-action.md)         | Supprime les clés de registre d’une application qui ont été créées à partir de la table du Registre.                                                                                            |
 | [RemoveShortcuts](removeshortcuts-action.md)                   | Gère la suppression d’un raccourci publié dont la fonctionnalité est sélectionnée pour la désinstallation.                                                                                   |
@@ -81,7 +81,7 @@ Le Windows Installer a les actions standard suivantes.
 | [ScheduleReboot](schedulereboot-action.md)                     | Invite l’utilisateur à redémarrer le système à la fin de l’installation.                                                                                                         |
 | [SelfRegModules](selfregmodules-action.md)                     | Traite les modules de la table SelfReg et les enregistre s’ils sont installés.                                                                                              |
 | [SelfUnregModules](selfunregmodules-action.md)                 | Annule l’enregistrement des modules de la table SelfReg qui sont configurés pour être désinstallés.                                                                                                  |
-| [SEQUENCE](sequence-action.md)                                 | Exécute les actions dans une table spécifiée par la propriété [**Sequence**](sequence.md) .                                                                                           |
+| [SÉQUENCE](sequence-action.md)                                 | Exécute les actions dans une table spécifiée par la propriété [**Sequence**](sequence.md) .                                                                                           |
 | [Action SetODBCFolders](setodbcfolders-action.md)              | Recherche dans le système les pilotes ODBC existants et définit le répertoire cible pour les nouveaux pilotes ODBC.                                                                                   |
 | [StartServices](startservices-action.md)                       | Démarre les services système.                                                                                                                                                       |
 | [StopServices](stopservices-action.md)                         | Arrête les services système.                                                                                                                                                        |
@@ -96,7 +96,7 @@ Le Windows Installer a les actions standard suivantes.
 | [UnregisterTypeLibraries](unregistertypelibraries-action.md)   | Annule l’inscription des bibliothèques de types avec le système.                                                                                                                                   |
 | [ValidateProductID](validateproductid-action.md)               | Définit la propriété [**ProductID**](productid.md) sur l’identificateur complet du produit.                                                                                                  |
 | [WriteEnvironmentStrings](writeenvironmentstrings-action.md)   | Modifie les valeurs des variables d’environnement.                                                                                                                                 |
-| [WriteIniValues](writeinivalues-action.md)                     | Écrit les informations du fichier. ini.                                                                                                                                                 |
+| [WriteIniValues](writeinivalues-action.md)                     | Écrit .ini informations sur le fichier.                                                                                                                                                 |
 | [WriteRegistryValues](writeregistryvalues-action.md)           | Définit les informations du Registre.                                                                                                                                                 |
 
 

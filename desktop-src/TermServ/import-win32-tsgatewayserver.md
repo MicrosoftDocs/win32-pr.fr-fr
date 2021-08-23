@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b35395342be7c13f2a96f73f914eda103e1ef4c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2629e8e44acd0f617e86a846cc127ab77250673c8612f2d2f53ab8c0238d9f0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574569"
 ---
 # <a name="import-method-of-the-win32_tsgatewayserver-class"></a>Méthode Import de la \_ classe TSGatewayServer Win32
 
@@ -110,7 +110,7 @@ Importez une liste de tous les serveurs d’équilibrage de charge.
 
 <span id="Import_all_Server_Settings"></span><span id="import_all_server_settings"></span><span id="IMPORT_ALL_SERVER_SETTINGS"></span>
 
-<span id="Import_all_Server_Settings"></span><span id="import_all_server_settings"></span><span id="IMPORT_ALL_SERVER_SETTINGS"></span>**Importer tous les paramètres du serveur** (32)
+<span id="Import_all_Server_Settings"></span><span id="import_all_server_settings"></span><span id="IMPORT_ALL_SERVER_SETTINGS"></span>**importer tous les Paramètres de serveur** (32)
 
 
 </dt> <dd>
@@ -128,7 +128,7 @@ Importez tous les paramètres de serveur liés à la passerelle Bureau à distan
 
 Importez toutes les stratégies de contrôle d’intégrité.
 
-* * Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 et Windows Server 2008 : * *
+* * Windows Server 2012 r2, Windows Server 2012, Windows server 2008 r2 et Windows server 2008 : * *
 
 Cette valeur n’est pas prise en charge avant Windows Server 2016.
 
@@ -160,11 +160,11 @@ Informations de journal générées pendant l’opération d’importation.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez être membre du groupe administrateurs pour appeler cette méthode.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

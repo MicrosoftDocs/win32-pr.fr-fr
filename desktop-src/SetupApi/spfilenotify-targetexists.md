@@ -4,12 +4,12 @@ ms.assetid: 5c6e0c59-0340-4aa6-94db-8d9a5d202758
 title: Message d’SPFILENOTIFY_TARGETEXISTS (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1d0c1a1ffba520789113b0dc78246657a4fe324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c51f845d7ccb41b330f6365eff269645d08e58597e7e6dd3e9acc7a7f0300c80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104393715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664739"
 ---
 # <a name="spfilenotify_targetexists-message"></a>\_Message SPFILENOTIFY TARGETEXISTS
 
@@ -64,8 +64,8 @@ La routine de rappel doit retourner l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -74,7 +74,7 @@ La routine de rappel doit retourner l’une des valeurs suivantes.
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

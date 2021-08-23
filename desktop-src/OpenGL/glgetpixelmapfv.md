@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17f73fb817c347832dfc6a09636173641e5c869b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: aacb74cb4cc08b283b500306d3a3456807cea8b0416a3ddb4fac85bfaa6ed5a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103869782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554259"
 ---
 # <a name="glgetpixelmapfv-function"></a>glGetPixelMapfv fonction)
 
@@ -65,14 +65,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *mappage* n’est pas une valeur acceptée.<br/>                                                                                           |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Consultez [**glPixelMap**](glpixelmap.md) pour obtenir une description des valeurs acceptables pour le paramètre *Map* . La fonction **glGetPixelMap** retourne dans les *valeurs* le contenu de la carte de pixels spécifiée dans *Map*. Utilisez des mappages de pixels pendant l’exécution de [**glReadPixels**](glreadpixels.md), [**glDrawPixels**](gldrawpixels.md), [**glCopyPixels**](glcopypixels.md), [**glTexImage1D**](glteximage1d.md)et [**glTexImage2D**](glteximage2d.md) pour mapper les index de couleurs, les index de stencil, les composants de couleur et les composants de profondeur à d’autres valeurs.
 

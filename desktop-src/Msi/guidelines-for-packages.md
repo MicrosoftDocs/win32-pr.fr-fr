@@ -1,21 +1,21 @@
 ---
-description: Étant donné que le contrôle de compte d’utilisateur (UAC) dans Windows Vista limite les privilèges au cours d’une installation, les développeurs de packages de Windows Installer ne doivent pas supposer que leur installation a toujours accès à toutes les parties du système.
+description: étant donné que le contrôle de compte d’utilisateur (UAC) dans Windows Vista limite les privilèges au cours d’une installation, les développeurs de Windows Installer packages ne doivent pas supposer que leur installation a toujours accès à toutes les parties du système.
 ms.assetid: 8e3b4ad8-b978-4e27-b060-1d023846718f
 title: Instructions pour les packages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db228c2dff443d421ddc089074f0fcce6ae93e2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 930cb97cd2bb01a2bd69c5950a7e054c73d355e534ab67c812bcde44b7495b7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649319"
 ---
 # <a name="guidelines-for-packages"></a>Instructions pour les packages
 
-Étant donné que [*le contrôle de compte d’utilisateur*](u-gly.md) (UAC) dans Windows Vista limite les privilèges au cours d’une installation, les développeurs de packages de Windows Installer ne doivent pas supposer que leur installation a toujours accès à toutes les parties du système.
+étant donné que [*le contrôle de compte d’utilisateur*](u-gly.md) (UAC) dans Windows Vista limite les privilèges au cours d’une installation, les développeurs de Windows Installer packages ne doivent pas supposer que leur installation a toujours accès à toutes les parties du système.
 
-Dans la plupart des cas, un package d’installation qui peut être déployé pour les utilisateurs standard via [stratégie de groupe](/previous-versions/windows/desktop/Policy/group-policy-start-page) doit également fonctionner avec le contrôle de compte d’utilisateur dans Windows Vista. Des exceptions peuvent se produire si la [table InstallUISequence](installuisequence-table.md) contient l' [action LaunchConditions](launchconditions-action.md) ou si la [table LaunchCondition](launchcondition-table.md) contient une condition basée sur la [propriété Privileged](privileged.md). Windows Installer les développeurs de packages doivent donc respecter les consignes suivantes pour s’assurer que leur package fonctionne avec le contrôle de compte d’utilisateur et Windows Vista.
+dans la plupart des cas, un package d’installation qui peut être déployé pour les utilisateurs standard via [stratégie de groupe](/previous-versions/windows/desktop/Policy/group-policy-start-page) doit également fonctionner avec le contrôle de compte d’utilisateur dans Windows Vista. Des exceptions peuvent se produire si la [table InstallUISequence](installuisequence-table.md) contient l' [action LaunchConditions](launchconditions-action.md) ou si la [table LaunchCondition](launchcondition-table.md) contient une condition basée sur la [propriété Privileged](privileged.md). Windows les développeurs de packages d’installation doivent donc respecter les consignes suivantes pour s’assurer que leur package fonctionne avec le contrôle de compte d’utilisateur et Windows Vista.
 
 -   Quand vous incluez une condition de [*contexte d’installation*](i-gly.md) avec une action dans la [table InstallUISequence](installuisequence-table.md), utilisez une instruction conditionnelle basée sur la [propriété Privileged](privileged.md). N’utilisez pas de condition basée sur la propriété [**adminuser**](adminuser.md) .
 -   Lorsque vous incluez le contexte d’installation avec les conditions de lancement de l’installation, utilisez une [action personnalisée de type 19](custom-action-type-19.md) dans la [table InstallExecuteSequence](installexecutesequence-table.md) et faites en sorte que l’action personnalisée soit subordonnée à la [propriété Privileged](privileged.md). N’utilisez pas d’action dans la [table LaunchCondition](launchcondition-table.md) avec une condition basée sur la [propriété adminuser](adminuser.md) ou la propriété Privileged.
@@ -24,10 +24,10 @@ Dans la plupart des cas, un package d’installation qui peut être déployé po
 -   Omettez le bit 3 de la valeur de la propriété Résumé du [**nombre de mots**](word-count-summary.md) pour indiquer que le package peut être nécessaire pour être élevé. N’incluez pas ce bit, sauf si des privilèges élevés ne sont pas nécessaires pour installer ce package.
 -   Incluez un manifeste avec le niveau d’exécution demandé de l’application.
 -   Incluez un certificat dans la table [MsiPatchCertificate](msipatchcertificate-table.md) du package d’origine et signez tous les correctifs avec le même certificat.
--   Si des privilèges élevés sont requis pour installer un package Windows Installer, l’auteur du package doit inclure l’attribut [ElevationShield](elevationshield-attribute.md) pour le [contrôle PUSHBUTTON](pushbutton-control.md) utilisé pour démarrer l’installation. Cela permet d’avertir l’utilisateur que cliquer sur le bouton affiche la boîte de dialogue UAC demandant l’autorisation de l’administrateur pour poursuivre l’installation.
--   Affectez à la propriété [**MSIDEPLOYMENTCOMPLIANT**](msideploymentcompliant.md) la valeur 1 pour indiquer à la Windows Installer que le package a été créé et testé pour se conformer au contrôle de compte d’utilisateur dans Windows Vista. Si cette propriété n’est pas définie, le programme d’installation détermine si le package est conforme au contrôle de compte d’utilisateur.
+-   si des privilèges élevés sont requis pour installer un package Windows Installer, l’auteur du package doit inclure l’attribut [ElevationShield](elevationshield-attribute.md) pour le [contrôle PushButton](pushbutton-control.md) utilisé pour démarrer l’installation. Cela permet d’avertir l’utilisateur que cliquer sur le bouton affiche la boîte de dialogue UAC demandant l’autorisation de l’administrateur pour poursuivre l’installation.
+-   affectez à la propriété [**MSIDEPLOYMENTCOMPLIANT**](msideploymentcompliant.md) la valeur 1 pour indiquer au Windows Installer que le package a été créé et testé pour se conformer au contrôle de compte d’utilisateur dans Windows Vista. Si cette propriété n’est pas définie, le programme d’installation détermine si le package est conforme au contrôle de compte d’utilisateur.
 
-En dehors de [stratégie de groupe](/previous-versions/windows/desktop/Policy/group-policy-start-page), la vérification suivante de la conformité UAC peut être utilisée sur Windows XP.
+en dehors de [stratégie de groupe](/previous-versions/windows/desktop/Policy/group-policy-start-page), la vérification suivante de la conformité UAC peut être utilisée sur Windows XP.
 
 **Pour vérifier la conformité du contrôle de compte d’utilisateur en dehors de stratégie de groupe**
 
@@ -44,7 +44,7 @@ En dehors de [stratégie de groupe](/previous-versions/windows/desktop/Policy/gr
 
 6.  Dans la plupart des cas, si l’installation réussit, le package est conforme au contrôle de compte d’utilisateur.
 7.  Affectez la valeur 1 à la propriété [**MSIDEPLOYMENTCOMPLIANT**](msideploymentcompliant.md) dans le package.
-8.  Testez l’installation correcte du package à l’aide de Windows Vista.
+8.  testez l’installation correcte du package à l’aide de Windows Vista.
 
  
 

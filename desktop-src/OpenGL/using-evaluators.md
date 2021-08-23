@@ -7,12 +7,12 @@ keywords:
 - évaluateurs OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1aef70a7a854e16cf4992d9dd44c4931ad4d044
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8a4bb6808ad1898b0c98906a543291c700ee61257a35befa8886789f3f8b7e31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553489"
 ---
 # <a name="using-evaluators"></a>Utilisation des évaluateurs
 
@@ -30,9 +30,9 @@ La première étape de l’utilisation des évaluateurs consiste à définir le 
 [Référence des évaluateurs](evaluators-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

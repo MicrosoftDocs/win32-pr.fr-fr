@@ -1,9 +1,9 @@
 ---
 title: Message ICM_GETDEFAULTQUALITY (VFW. h)
-description: Le \_ message GETDEFAULTQUALITY ICM interroge un pilote de compression vidéo pour fournir son paramètre de qualité par défaut. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICGetDefaultQuality.
+description: le \_ message ICM GETDEFAULTQUALITY interroge un pilote de compression vidéo pour fournir son paramètre de qualité par défaut. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICGetDefaultQuality.
 ms.assetid: bba7f451-52c2-4684-a7c9-e4b05cb946c5
 keywords:
-- Message ICM_GETDEFAULTQUALITY Windows Multimedia
+- message ICM_GETDEFAULTQUALITY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4350539851ca720e3538d297f955a56fedfc4a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df9c27527cea53c4b4eca6cf75babef3a41f80732d8ecf7a18528c07d6d9311b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525909"
 ---
-# <a name="icm_getdefaultquality-message"></a>\_Message GETDEFAULTQUALITY ICM
+# <a name="icm_getdefaultquality-message"></a>ICM \_ Message GETDEFAULTQUALITY
 
-Le **message \_ GETDEFAULTQUALITY ICM** interroge un pilote de compression vidéo pour fournir son paramètre de qualité par défaut. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICGetDefaultQuality**](/windows/desktop/api/Vfw/nf-vfw-icgetdefaultquality) .
+le message **ICM \_ GETDEFAULTQUALITY** interroge un pilote de compression vidéo pour fournir son paramètre de qualité par défaut. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICGetDefaultQuality**](/windows/desktop/api/Vfw/nf-vfw-icgetdefaultquality) .
 
 
 ```C++

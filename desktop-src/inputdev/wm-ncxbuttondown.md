@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd615b1e30e013f23097cdc7a8ca7c22c338684a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17097748b064fe125bac20240f14684dfe01b560485c926e36e868da223e7d7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666259"
 ---
 # <a name="wm_ncxbuttondown-message"></a>\_Message WM NCXBUTTONDOWN
 
@@ -67,7 +67,7 @@ Pointeur vers une structure de [**points**](/previous-versions//dd162808(v=vs.85
 
 Si une application traite ce message, elle doit retourner la **valeur true**. Pour plus d’informations sur le traitement de la valeur de retour, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le code suivant pour récupérer les informations dans le paramètre *wParam* .
 
@@ -96,7 +96,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 Par défaut, la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) teste le point spécifié pour atteindre la position du curseur et effectue l’action appropriée. Le cas échéant, il envoie le message [**WM \_ SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) à la fenêtre.
 
-Contrairement aux [**messages \_ WM NCLBUTTONDOWN**](wm-nclbuttondown.md), [**WM \_ NCMBUTTONDOWN**](wm-ncmbuttondown.md)et [**WM \_ NCRBUTTONDOWN**](wm-ncrbuttondown.md) , une application doit retourner la **valeur true** à partir de ce message si elle le traite. Cela permettra aux logiciels qui simulent ce message sur les systèmes Windows antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
+Contrairement aux [**messages \_ WM NCLBUTTONDOWN**](wm-nclbuttondown.md), [**WM \_ NCMBUTTONDOWN**](wm-ncmbuttondown.md)et [**WM \_ NCRBUTTONDOWN**](wm-ncrbuttondown.md) , une application doit retourner la **valeur true** à partir de ce message si elle le traite. cela permettra aux logiciels qui simulent ce message sur Windows systèmes antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
 
 ## <a name="requirements"></a>Configuration requise
 

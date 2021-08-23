@@ -3,9 +3,9 @@ title: External. addToBasket, méthode
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. addToBasket, méthode
 ms.assetid: c0dc8cd7-b924-47b8-b36c-caff8f1f892f
 keywords:
-- méthode addToBasket lecteur Windows Media
-- méthode addToBasket lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode addToBasket
+- Lecteur Windows Media de la méthode addToBasket
+- méthode addToBasket Lecteur Windows Media, classe externe
+- Lecteur Windows Media de classe externe, méthode addToBasket
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e2fab549dec9e24b0c5bbe61f5511e375c4c04
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 17f51cfc3df641b02a5aa3a0869e810f318357dd70ba67acb3ec2310f8a5a355
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650009"
 ---
 # <a name="externaladdtobasket-method"></a>External. addToBasket, méthode
 
@@ -30,7 +30,7 @@ ms.locfileid: "106540551"
 
  
 
-La méthode **addToBasket** ajoute des éléments multimédias au volet Liste (également appelé panier) dans le lecteur Windows Media.
+la méthode **addToBasket** ajoute des éléments multimédias au volet liste (également appelé panier) dans Lecteur Windows Media.
 
 ## <a name="syntax"></a>Syntaxe
 

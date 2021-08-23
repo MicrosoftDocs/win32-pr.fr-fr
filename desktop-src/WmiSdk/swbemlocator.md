@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 964b040fa5046aa619dc08df92838dca343ba9b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e93e9bd0bfb33c495b30afbde47bcb9b007acb4cd00dece42e1a8c3b88e99d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732790"
 ---
 # <a name="swbemlocator-object"></a>Objet SWbemLocator
 
@@ -61,12 +61,12 @@ L’objet **SWbemLocator** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En haut du modèle d’objet de la bibliothèque de scripts WMI se trouve l’objet SWbemLocator. SWbemLocator est utilisé pour établir une connexion authentifiée à un espace de noms WMI, de la même façon que la fonction GetObject de VBScript et le moniker WMI « winmgmts : » sont utilisés pour établir une connexion authentifiée à WMI. Toutefois, SWbemLocator est conçu pour traiter deux scénarios de script spécifiques qui ne peuvent pas être exécutés à l’aide de GetObject et du moniker WMI. Vous devez utiliser SWbemLocator si vous avez besoin de :
 
 -   Fournissez les informations d’identification de l’utilisateur et du mot de passe pour se connecter à WMI sur un ordinateur distant. Le moniker WMI utilisé avec la fonction GetObject n’inclut pas de mécanisme permettant de spécifier les informations d’identification. La plupart des activités WMI (y compris toutes celles effectuées sur des ordinateurs distants) requièrent des droits d’administrateur. Si vous vous connectez généralement à l’aide d’un compte d’utilisateur standard au lieu d’un compte d’administrateur, vous ne pourrez pas effectuer la plupart des tâches WMI, sauf si vous exécutez le script sous autres informations d’identification.
--   Connectez-vous à WMI si vous exécutez un script WMI à partir d’une page Web. Vous ne pouvez pas utiliser la fonction GetObject lors de l’exécution de scripts incorporés dans une page HTML, car Internet Explorer interdit l’utilisation de GetObject pour des raisons de sécurité.
+-   Connecter à WMI si vous exécutez un script wmi à partir d’une page Web. Vous ne pouvez pas utiliser la fonction GetObject lors de l’exécution de scripts incorporés dans une page HTML, car Internet Explorer interdit l’utilisation de GetObject pour des raisons de sécurité.
 
 En outre, vous souhaiterez peut-être utiliser SWbemLocator pour vous connecter à WMI si vous trouvez la chaîne de connexion WMI utilisée avec la fonction GetObject déroutante ou difficile.
 

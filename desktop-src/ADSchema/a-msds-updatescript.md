@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7809bf6fdbaabb38976068d1998cacfb12bdaf3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 636f3deff820b4c78898413654d4fcbae98ec3fedf9e2e0a9c9f764399c4c19e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119551899"
 ---
 # <a name="ms-ds-updatescript-attribute"></a>attribut ms-DS-UpdateScript
 
@@ -45,7 +45,7 @@ Il est utilisé pour contenir le script avec les instructions de restructuration
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETPOSITION (VFW. h)
 description: Le \_ message GETPOSITION MCIWNDM récupère la valeur numérique de la position actuelle dans le contenu de l’appareil MCI.
 ms.assetid: 6dc5d3bd-8515-4514-a2a5-c1bee07f7acf
 keywords:
-- Message MCIWNDM_GETPOSITION Windows Multimedia
+- message MCIWNDM_GETPOSITION Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e7468b0e3698a72d3dce82bbd1591d59940d9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83cf16f5945bfccbfd2f745ba22fac750f0536696aa2c4c06c2872bd318b263e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525429"
 ---
 # <a name="mciwndm_getposition-message"></a>\_Message MCIWNDM GETPOSITION
 

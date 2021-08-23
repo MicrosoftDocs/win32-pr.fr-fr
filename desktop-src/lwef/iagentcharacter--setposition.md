@@ -4,12 +4,12 @@ description: IAgentCharacter SetPosition
 ms.assetid: cc47b537-8154-4dfb-93e1-5ac3c3b50788
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0aee48ea26c714c570f7ae11b9b2dbc0fe92ef6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e973ec08cdab89c2d8c2501bd9ea1778866f5f7fa1757fe746e44495e41c275a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665639"
 ---
 # <a name="iagentcharactersetposition"></a>IAgentCharacter :: SetPosition
 
@@ -47,16 +47,16 @@ Le paramètre de cette propriété s’applique à tous les clients du caractèr
 > [!Note]  
 > Contrairement à la méthode [**MoveTo**](https://www.bing.com/search?q=**MoveTo**) , cette fonction n’est pas mise en file d’attente.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentCharacter :: GetPosition**](iagentcharacter--getposition.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

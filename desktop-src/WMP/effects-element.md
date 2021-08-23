@@ -3,19 +3,19 @@ title: Élément EFFECTs
 description: Élément EFFECTs
 ms.assetid: ada3c452-1bc6-4700-8048-1a4b2ee00aeb
 keywords:
-- Apparences du lecteur Windows Media, élément EFFECTs
+- apparences de Lecteur Windows Media, élément effects
 - Skins, élément EFFECTs
 - Élément EFFECTs
 - informations de référence sur les apparences, élément EFFECTs
 - éléments, effets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4b6fdcde74288b0dd4215732d1e5b6a281154f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a859414ffae934cafaa0c35b6b364eb42a5795bbeeef637857a0d81f47623379
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651139"
 ---
 # <a name="effects-element"></a>Élément EFFECTs
 
@@ -42,7 +42,7 @@ L’élément **Effects** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **Effects** prend en charge les méthodes suivantes.
 
@@ -62,7 +62,7 @@ L’élément **Effects** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’élément **Effects** prend en charge les attributs ambiants et peut implémenter les gestionnaires d’événements ambiants. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md) et [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
@@ -76,7 +76,7 @@ Les effets prédéfinis sont des éléments d' **effet** normal avec différents
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -85,9 +85,9 @@ Les effets prédéfinis sont des éléments d' **effet** normal avec différents
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

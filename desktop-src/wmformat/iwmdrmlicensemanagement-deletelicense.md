@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d5b52f6277459f147285f46fc791669e56061a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 977f7eaef1d6c8a505ce55d7d1683d7c9f4dabff5e59df7d8845773eefdff696
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707939"
 ---
 # <a name="iwmdrmlicensemanagementdeletelicense-method"></a>IWMDRMLicenseManagement ::D méthode eleteLicense
 
@@ -71,7 +71,7 @@ Indicateurs d’option de suppression de licence. Définissez l’une des valeur
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -84,7 +84,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour supprimer des licences du magasin de licences local permanent, vous devez utiliser la révocation de licence.
 

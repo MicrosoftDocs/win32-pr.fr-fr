@@ -4,12 +4,12 @@ description: IAgentCommand
 ms.assetid: 70873093-df71-4377-9c39-c7528400052f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53c4ba90f7d355a0baa088a78aa05b7a91e14112
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 42e2288a7b913becc54e2c0baa43eb14903e65fb7eddf6620d5cefbd78968026
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106513522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665479"
 ---
 # <a name="iagentcommand"></a>IAgentCommand
 
@@ -48,7 +48,7 @@ Le tableau suivant résume la façon dont les propriétés d’une commande affe
 
 
 
- 
+ 
 
 ¹ si le paramètre de la propriété est null. Dans certains langages de programmation, une chaîne vide ne peut pas être interprétée comme une chaîne NULL.
 
@@ -80,8 +80,8 @@ Lorsque le serveur reçoit une entrée qui correspond à l’un des objets de [*
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

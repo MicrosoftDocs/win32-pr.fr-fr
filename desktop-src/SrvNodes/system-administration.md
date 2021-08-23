@@ -4,17 +4,17 @@ ms.assetid: 51a48716-53ef-493e-8974-c429bde9b6ff
 title: Administration de système
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a70263458403a621975de383f689f842ade8bc69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e86eb0beafd46abed99d14a5fb99a7f37166a150a92ad1194153e2cd96947eee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663919"
 ---
 # <a name="system-administration"></a>Administration de système
 
 > [!Note]  
-> Ces rubriques concernent les développeurs de logiciels. Pour les problèmes de support technique, consultez [support-Windows Help](https://windows.microsoft.com/windows/support#1TC=windows-10).
+> Ces rubriques concernent les développeurs de logiciels. pour plus d’informations sur les problèmes de support technique, consultez [support-aide Windows](https://windows.microsoft.com/windows/support#1TC=windows-10).
 
  
 
@@ -25,7 +25,7 @@ ms.locfileid: "106519970"
 [Fournisseur WMI Données de configuration de démarrage (BCD)](/previous-versions/windows/desktop/bcd/boot-configuration-data-portal)
 </dt> <dd>
 
-Le fournisseur Données de configuration de démarrage (BCD) (BCD) Windows Management Instrumentation (WMI) fournit un accès par programme aux magasins BCD, qui décrivent les applications de démarrage et les paramètres d’application de démarrage.
+le fournisseur Données de configuration de démarrage (BCD) (BCD) Windows Management Instrumentation (WMI) fournit un accès par programme aux magasins BCD, qui décrivent les applications de démarrage et les paramètres d’application de démarrage.
 
 </dd> <dt>
 
@@ -57,10 +57,10 @@ L’inscription MDM inscrit des appareils dans un service MDM.
 
 </dd> <dt>
 
-[Fournisseur de paramètres de gestion des appareils mobiles](/previous-versions/windows/desktop/mdmsettingsprov/mobile-device-management-settings-provider-portal)
+[fournisseur de Paramètres de gestion des périphériques mobiles](/previous-versions/windows/desktop/mdmsettingsprov/mobile-device-management-settings-provider-portal)
 </dt> <dd>
 
-Le fournisseur de paramètres MDM permet de gérer les paramètres sur les appareils abonnés à un service MDM.
+le fournisseur de Paramètres mdm permet de gérer les paramètres sur les appareils abonnés à un service MDM.
 
 </dd> <dt>
 
@@ -71,24 +71,24 @@ NetShell est un outil en ligne de commande qui permet aux administrateurs d’ad
 
 </dd> <dt>
 
-[Infrastructure de gestion des paramètres](/previous-versions/windows/desktop/smi/settings-management-infrastructure--smi-)
+[Paramètres Infrastructure de gestion](/previous-versions/windows/desktop/smi/settings-management-infrastructure--smi-)
 </dt> <dd>
 
-L’infrastructure de gestion des paramètres (SMI) fournit une infrastructure standardisée permettant d’accéder aux paramètres modifiables par les utilisateurs et les applications et de les manipuler.
+Paramètres L’infrastructure de gestion (SMI) fournit une infrastructure standardisée permettant d’accéder aux paramètres modifiables par les utilisateurs et les applications et de les manipuler.
 
 </dd> <dt>
 
 [Journalisation de l’inventaire logiciel](/previous-versions/windows/desktop/sil/software-inventory-logging-portal)
 </dt> <dd>
 
-La journalisation de l’inventaire logiciel recueille les données de licence relatives aux logiciels installés sur un serveur Windows et fournit un accès à distance aux données afin de pouvoir les agréger facilement par un centre de données.
+la journalisation de l’inventaire logiciel recueille les données de licence relatives aux logiciels installés sur un serveur Windows et fournit un accès à distance aux données afin qu’elles puissent être agrégées facilement par un centre de données.
 
 </dd> <dt>
 
 [API de gestion de licences des logiciels](/previous-versions/windows/desktop/secslapi/software-licensing-api-portal)
 </dt> <dd>
 
-L’API de gestion des licences des logiciels peut être utilisée pour déterminer une installation authentique de Microsoft Windows, installer et enregistrer une licence de gestion des ressources et récupérer des informations sur la stratégie de licence d’un composant logiciel.
+l’API de gestion des licences des logiciels peut être utilisée pour déterminer une installation authentique de Microsoft Windows, installer et enregistrer une licence de gestion des ressources et récupérer des informations sur la stratégie de licence d’un composant logiciel.
 
 </dd> <dt>
 
@@ -116,35 +116,35 @@ Le Planificateur de tâches vous permet d’effectuer automatiquement des tâche
 [Journalisation des accès utilisateur](/previous-versions/windows/desktop/ual/user-access-logging)
 </dt> <dd>
 
-La journalisation des accès utilisateur est un Framework commun pour les rôles Windows Server afin de signaler leurs mesures de consommation respectives. Ce Framework de base est un composant fondamental et essentiel de la solution de gestion des licences plus étendue.
+la journalisation des accès utilisateur est un framework commun pour les rôles de serveur Windows pour signaler leurs mesures de consommation respectives. Ce Framework de base est un composant fondamental et essentiel de la solution de gestion des licences plus étendue.
 
 </dd> <dt>
 
-[Services de déploiement Windows](/windows/desktop/Wds/windows-deployment-services-portal)
+[Windows Services de déploiement](/windows/desktop/Wds/windows-deployment-services-portal)
 </dt> <dd>
 
-Les services de déploiement Windows (WDS) sont la version révisée des services d’installation à distance (RIS). WDS permet le déploiement de systèmes d’exploitation Windows. Vous pouvez utiliser WDS pour configurer de nouveaux clients avec une installation réseau sans obliger les administrateurs à visiter chaque ordinateur ou à installer directement à partir d’un CD ou d’un DVD.
+Windows Les services de déploiement (WDS) sont la version révisée des services d’installation à distance (RIS). WDS permet le déploiement de systèmes d’exploitation Windows. Vous pouvez utiliser WDS pour configurer de nouveaux clients avec une installation réseau sans obliger les administrateurs à visiter chaque ordinateur ou à installer directement à partir d’un CD ou d’un DVD.
 
 </dd> <dt>
 
-[API Windows Genuine Advantage](/previous-versions/windows/desktop/wingen/windows-genuine-advantage-api-portal)
+[Windows API Genuine Advantage](/previous-versions/windows/desktop/wingen/windows-genuine-advantage-api-portal)
 </dt> <dd>
 
-L’API Windows Genuine Advantage est utilisée pour déterminer si le système d’exploitation Windows qui s’exécute sur le système actuel est une copie authentique.
+l’API Windows Genuine advantage est utilisée pour déterminer si le système d’exploitation Windows qui s’exécute sur le système actuel est une copie authentique.
 
 </dd> <dt>
 
 [Windows Management Instrumentation](/windows/desktop/WmiSdk/wmi-start-page)
 </dt> <dd>
 
-Windows Management Instrumentation (WMI) est l’infrastructure de données et d’opérations de gestion sur les systèmes d’exploitation Windows. Vous pouvez écrire des scripts ou des applications WMI pour automatiser des tâches administratives sur des ordinateurs distants.
+Windows wmi (management instrumentation) est l’infrastructure de données et d’opérations de gestion sur les systèmes d’exploitation basés sur Windows. Vous pouvez écrire des scripts ou des applications WMI pour automatiser des tâches administratives sur des ordinateurs distants.
 
 </dd> <dt>
 
 [API WMIv2 Windows Defender](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 </dt> <dd>
 
-Les API Windows Defender WMI peuvent être utilisées pour gérer la protection contre les programmes malveillants par le biais de scripts ou d’applications.
+Windows Defender Les API WMI peuvent être utilisées pour gérer la protection contre les programmes malveillants par le biais de scripts ou d’applications.
 
 </dd> <dt>
 
@@ -158,27 +158,27 @@ Windows PowerShell est un interpréteur de ligne de commande basé sur des tâch
 [Gestion à distance de Windows](/windows/desktop/WinRM/portal)
 </dt> <dd>
 
-Le Windows Remote Management (WinRM) est l’implémentation Microsoft du protocole WS-Management, un protocole SOAP (Simple Object Access Protocol) standard, compatible avec un pare-feu qui permet l’interopérabilité du matériel et des systèmes d’exploitation de différents fournisseurs. La spécification de protocole WS-Management permet aux systèmes d’accéder et d’échanger des informations de gestion à travers une infrastructure informatique.
+le Windows Remote Management (WinRM) est l’implémentation Microsoft du protocole WS-Management, un protocole SOAP (Simple Object Access protocol) standard, compatible avec un pare-feu qui permet l’interopérabilité du matériel et des systèmes d’exploitation de différents fournisseurs. La spécification de protocole WS-Management permet aux systèmes d’accéder et d’échanger des informations de gestion à travers une infrastructure informatique.
 
 </dd> <dt>
 
-[Protection des ressources Windows](/windows/desktop/Wfp/windows-resource-protection-portal)
+[Windows Protection des ressources](/windows/desktop/Wfp/windows-resource-protection-portal)
 </dt> <dd>
 
-Protection des ressources Windows (WRP) empêche le remplacement des fichiers système essentiels, des dossiers et des clés de Registre installés dans le cadre du système d’exploitation.
+Windows La protection des ressources (WRP) empêche le remplacement des fichiers système essentiels, des dossiers et des clés de Registre installés dans le cadre du système d’exploitation.
 
 </dd> <dt>
 
 [Windows Server Update Services](windows-server-update-services.md)
 </dt> <dd>
 
-Les administrateurs système peuvent utiliser l’API Windows Server Update Services (WSUS) pour déterminer les mises à jour qui s’appliquent à un ordinateur ou à un groupe d’ordinateurs, télécharger ces mises à jour et les installer avec peu ou pas d’intervention de l’utilisateur.
+les administrateurs système peuvent utiliser l’API Windows Server Update Services (WSUS) pour déterminer les mises à jour qui s’appliquent à un ordinateur ou à un groupe d’ordinateurs, télécharger ces mises à jour et les installer avec peu ou pas d’intervention de l’utilisateur.
 
 Les éditeurs de logiciels indépendants et les développeurs d’utilisateurs finaux peuvent intégrer les fonctionnalités WSUS dans le logiciel de gestion d’ordinateur ou de gestion des mises à jour pour fournir un environnement d’exploitation transparent.
 
 </dd> <dt>
 
-[Outil d’évaluation système Windows](/windows/desktop/WinSAT/windows-system-assessment-tool-portal)
+[Windows Outil d’évaluation du système](/windows/desktop/WinSAT/windows-system-assessment-tool-portal)
 </dt> <dd>
 
 Comment utiliser WinSAT pour évaluer les caractéristiques et les fonctionnalités de performances d’un ordinateur.

@@ -3,29 +3,29 @@ title: Vue d’ensemble des développeurs de plug-ins DSP
 description: Vue d’ensemble des développeurs de plug-ins DSP
 ms.assetid: ac3e1d7e-1f96-4f96-bddc-e72edaae31dc
 keywords:
-- Plug-ins du lecteur Windows Media, DSP (Digital Signal Processing)
+- plug-ins Lecteur Windows Media, traitement des signaux numériques (DSP)
 - plug-ins, traitement des signaux numériques (DSP)
-- Plug-ins du lecteur Windows Media, vue d’ensemble du développeur
+- plug-ins Lecteur Windows Media, vue d’ensemble du développeur
 - plug-ins, vue d’ensemble du développeur
 - plug-ins de traitement de signal numérique, vue d’ensemble du développeur
 - Plug-ins DSP, vue d’ensemble du développeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41fd85702f484ae39b1969bfde2dce2f57cac057
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78d9bb3e5bf64f899bb24ae6f9f71cb0cdb406a119506bfc38430a5d42987f1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651179"
 ---
 # <a name="dsp-plug-in-developer-overview"></a>Vue d’ensemble des développeurs de plug-ins DSP
 
-Du point de vue du développeur, les plug-ins DSP sont des logiciels qui reçoivent des données audio ou vidéo fournies par le lecteur Windows Media juste avant l’étape de rendu, puis traitent ces données et retournent les données au lecteur Windows Media pour le rendu.
+du point de vue du développeur, les plug-ins DSP sont des logiciels qui reçoivent des données audio ou vidéo fournies par Lecteur Windows Media juste avant l’étape de rendu, puis traitent ces données et retournent les données à Lecteur Windows Media à des fins de rendu.
 
-Les sections suivantes fournissent des informations générales sur les plug-ins du lecteur Windows Media DSP :
+les sections suivantes fournissent des informations générales sur les plug-ins Lecteur Windows Media DSP :
 
 -   [Empaquetage du plug-in DSP](dsp-plug-in-packaging.md)
--   [Connexion au lecteur Windows Media](connecting-to-windows-media-player.md)
+-   [connexion à Lecteur Windows Media](connecting-to-windows-media-player.md)
 -   [Entrée et sortie de données](data-input-and-output.md)
 -   [Négociation de format](format-negotiation.md)
 -   [Fournir une interface utilisateur](providing-a-user-interface.md)
@@ -41,9 +41,9 @@ Les sections suivantes fournissent des informations générales sur les plug-ins
 [**À propos des plug-ins DSP**](about-dsp-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

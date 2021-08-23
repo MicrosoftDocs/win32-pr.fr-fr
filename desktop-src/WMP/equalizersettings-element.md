@@ -3,23 +3,23 @@ title: Élément EQUALIZERSETTINGS
 description: Élément EQUALIZERSETTINGS
 ms.assetid: 521f1c95-7904-4085-a8bc-5399d667dfb1
 keywords:
-- Apparences du lecteur Windows Media, élément EQUALIZERSETTINGS
+- habillages Lecteur Windows Media, élément EQUALIZERSETTINGS
 - habillages, élément EQUALIZERSETTINGS
 - Élément EQUALIZERSETTINGS
 - informations de référence sur les habillages, élément EQUALIZERSETTINGS
 - éléments, EQUALIZERSETTINGS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae20500dfba656450c3102ee80b4a06e089fe8ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: facd5d9630536947614166bc8444ad38e33020920ce679180824ef9a3b007bc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650949"
 ---
 # <a name="equalizersettings-element"></a>Élément EQUALIZERSETTINGS
 
-L’élément **EQUALIZERSETTINGS** fournit un moyen de manipuler l’égaliseur graphique et d’autres paramètres audio du lecteur Windows Media à l’aide des attributs et de la méthode répertoriés ici.
+l’élément **EQUALIZERSETTINGS** fournit un moyen de manipuler l’égaliseur graphique et d’autres paramètres audio de Lecteur Windows Media à l’aide des attributs et de la méthode répertoriés ici.
 
 L’élément **EQUALIZERSETTINGS** prend en charge les attributs suivants.
 
@@ -58,7 +58,7 @@ L’élément **EQUALIZERSETTINGS** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **EQUALIZERSETTINGS** prend en charge les méthodes suivantes.
 
@@ -73,7 +73,7 @@ L’élément **EQUALIZERSETTINGS** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’élément **EQUALIZERSETTINGS** peut implémenter les gestionnaires d’événements [ \_ OnChange d’attribut](attribute-onchange.md) .
 
@@ -84,9 +84,9 @@ L’élément **EQUALIZERSETTINGS** peut implémenter les gestionnaires d’év�
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

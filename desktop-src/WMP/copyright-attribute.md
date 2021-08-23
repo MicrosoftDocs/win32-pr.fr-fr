@@ -3,7 +3,7 @@ title: Attribut de Copyright (msfeeds. h)
 description: L’attribut Copyright est le message de copyright de l’élément.
 ms.assetid: 617272cb-883f-46d6-b0a9-29ac32c63148
 keywords:
-- Attribut de Copyright Windows Media Player
+- Lecteur Windows Media d’attribut de Copyright
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c77a0db25663afde4f11199b23732c0cebe6226
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b42e68e0d3485824f502dea991048121e788dfbe574b8fa4921e93a3b7afb61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651959"
 ---
 # <a name="copyright-attribute"></a>Attribut Copyright
 
@@ -30,15 +30,15 @@ L’attribut **Copyright** est le message de copyright de l’élément.
 -   [Éléments audio](audio-item-attributes.md)
 -   [Sélections de CD](cd-playlist-attributes.md)
 -   [Pistes de CD](cd-track-attributes.md)
--   [Fichiers Windows Media couramment utilisés](commonly-used-windows-media-file-attributes.md)
+-   [fichiers multimédias Windows couramment utilisés](commonly-used-windows-media-file-attributes.md)
 -   [DVD](dvd-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké à la fois dans la bibliothèque (ou le cache) et dans le fichier multimédia numérique.
 
-La constante du kit de développement logiciel (SDK) du format Windows Media pour cet attribut est g \_ wszWMCopyright.
+la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMCopyright.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 
