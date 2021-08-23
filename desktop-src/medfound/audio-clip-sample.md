@@ -4,12 +4,12 @@ ms.assetid: 29822e6b-8598-4133-b181-7fb0854553b7
 title: Exemple de clip audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c0e4a3e515d08e2cafd2ab2ba451a528f3d5677
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f180dfb7c4b0e456f45169d36fdfb1f77701b0e82250690706208a715fdd3ce5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035487"
 ---
 # <a name="audio-clip-sample"></a>Exemple de clip audio
 
@@ -23,7 +23,7 @@ Cet exemple illustre les interfaces de Media Foundation suivantes :
 
 -   [**IMFSourceReader**](/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader)
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 Cet exemple est une application en ligne de commande. Elle utilise les arguments de ligne de commande suivants :
 
@@ -48,7 +48,7 @@ audioclip.exe inputfile outputfile.wav
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

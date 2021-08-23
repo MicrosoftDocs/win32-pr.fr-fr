@@ -4,17 +4,17 @@ ms.assetid: 0fa4de60-5da5-42dd-b841-0cb9e3ba2c8f
 title: Attribut de valeur
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40372c67a4907680053f7d1eaad7e54b4a7a760d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0b1a5ae5f6cff1ad291af5c88f1f503bc7c68e77ad1e1db642a3a8aa51434d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072098"
 ---
 # <a name="value-attribute"></a>Attribut de valeur
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

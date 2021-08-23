@@ -4,12 +4,12 @@ description: Il n’est pas nécessaire que les pointeurs aient une description 
 ms.assetid: b90619c3-70b4-44f0-ba37-293595281031
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c565fe8019567fd1fe319d7b34287d9729bbe1d3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3020f17af6e24778c0fa5090009650f3c0832df528ba148e0a6a91928dd1dc14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930976"
 ---
 # <a name="default-pointer-types"></a>Types de pointeurs par défaut
 
@@ -63,12 +63,12 @@ interface MyInterface2
 }
 ```
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Pour garantir un comportement d’attribut pointeur non ambigu, utilisez toujours des attributs de pointeur explicites lors de la définition d’un pointeur.
 
 Il est recommandé d' **\[** **\]** utiliser PTR uniquement lorsque des alias de pointeur sont requis.
 
- 
+ 
 
- 
+ 

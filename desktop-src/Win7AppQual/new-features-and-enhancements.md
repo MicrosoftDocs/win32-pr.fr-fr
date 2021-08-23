@@ -1,17 +1,17 @@
 ---
 description: Windows 7 et Windows Server 2008 R2 incluent de nombreuses améliorations pour améliorer l’expérience des utilisateurs et des développeurs.
 ms.assetid: 6f168d39-5c1e-4bbd-9e99-59318eb58074
-title: Nouvelles fonctionnalités-compatibilité avec Windows 7
+title: nouvelles fonctionnalités-compatibilité Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2beb97a4cfc834e927a974c330a22e81a74af2ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7b190f7026d5efcf89f931af3baabe50454c6ac2b9aae65428d5a2fdb020ee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053027"
 ---
-# <a name="new-features-and-enhancements-in-windows-7"></a>Nouvelles fonctionnalités et améliorations dans Windows 7
+# <a name="new-features-and-enhancements-in-windows-7"></a>nouvelles fonctionnalités et améliorations dans Windows 7
 
 Windows 7 et Windows Server 2008 R2 incluent de nombreuses améliorations pour améliorer l’expérience des utilisateurs et des développeurs. Certaines d’entre elles ont un impact sur le fait que les développeurs doivent connaître les produits existants et nouveaux. Les nouvelles fonctionnalités et améliorations sont répertoriées ci-dessous :
 
@@ -24,7 +24,7 @@ Windows 7 et Windows Server 2008 R2 incluent de nombreuses améliorations pour a
 -   [ChooseFont () boîte de dialogue commune Win32](choosefont-win32-common-dialog.md)
 -   [Manifeste d’application](compatibility---application-manifest.md)
 -   [Serveur Hyper-V](server-hyper-v.md)
--   [Activer la prise en charge de Windows 7 pour Intel AVX](enable-windows-7-support-for-intel-avx.md)
+-   [activer la prise en charge de Windows 7 pour Intel AVX](enable-windows-7-support-for-intel-avx.md)
 -   [Microsoft Message Queuing (MSMQ)-amélioration de la gestion des files d’attente](microsoft-message-queuing--msmq----improved-queue-handling.md)
 -   [Services Bureau à distance](terminal-services.md)
 

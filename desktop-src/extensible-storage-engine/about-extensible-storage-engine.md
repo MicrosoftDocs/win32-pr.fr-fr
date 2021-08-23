@@ -1,25 +1,25 @@
 ---
-description: 'En savoir plus sur : à propos du moteur de stockage extensible'
-title: À propos du moteur de stockage extensible
+description: 'en savoir plus sur : à propos du moteur de Stockage Extensible'
+title: à propos du moteur de Stockage Extensible
 TOCTitle: About Extensible Storage Engine
 ms:assetid: 06d1526e-169d-4677-b409-2ed415287de6
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269181(v=EXCHG.10)
 ms:contentKeyID: 32765484
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 17e2277deaef54c04bf6a53a8464479fd67295a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26a1d4d28f1d5957432202545ff94c4f18c37e5a521e0deadfdabfb72751adec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983869"
 ---
-# <a name="about-extensible-storage-engine"></a>À propos du moteur de stockage extensible
+# <a name="about-extensible-storage-engine"></a>à propos du moteur de Stockage Extensible
 
 
-_**S’applique à :** Exchange Server 2013 | Windows | Serveur Windows_
+_**s’applique à :** Exchange Server 2013 | Windows | Windows Serveurs_
 
-## <a name="about-extensible-storage-engine"></a>À propos du moteur de stockage extensible
+## <a name="about-extensible-storage-engine"></a>à propos du moteur de Stockage Extensible
 
 Le moteur ESE (Extensible Storage Engine) est un moteur de base de données qui stocke les informations dans une séquence logique. Les informations peuvent être récupérées de manière séquentielle ou en accédant à des index définis. Les mises à jour de la base de données sont implémentées avec une transaction afin de garantir des opérations sécurisées. Le moteur ESE permet un accès simultané à plusieurs bases de données, notamment des bases de données de fichiers journaux de transactions qui peuvent être utilisées pour la récupération du système. ESE est évolutif pour des applications volumineuses ou de petite taille. Les fonctionnalités suivantes sont disponibles avec l’interface de programmation d’applications (API) ESE :
 

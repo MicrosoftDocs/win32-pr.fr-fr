@@ -4,20 +4,20 @@ ms.assetid: 131e927d-d32a-44f6-8aae-28839cfa9e7d
 title: Provider (objet)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb36517f0091776b9429911212610134f31077a2
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 0bb64d879b8213970edd5887c2d7a217c434ec38a113d2c9f36cd9e1d73e564d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104555845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999463"
 ---
 # <a name="provider-object"></a>Provider (objet)
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 L’objet fournisseur modélise le programme qui est responsable de la gestion du stockage. Cet objet permet d’accéder aux fonctionnalités du fournisseur de logiciels et du fournisseur de matériel. Les programmes de fournisseur exécutent des opérations sur des appareils logiciels (volumes et disques) et des périphériques matériels (sous-systèmes de stockage et groupes de lecteurs derrière les contrôleurs RAID).
 
-VDS inscrit un objet fournisseur en tant qu’objet COM dans le Registre Windows et utilise des interfaces contenues (et non une agrégation) pour implémenter les objets restants, en encapsulant toutes les interfaces et méthodes et en ajoutant des fonctionnalités de manière conditionnelle. Les objets et les interfaces encapsulés par l’objet fournisseur varient en fonction du type de fournisseur.
+VDS inscrit un objet fournisseur en tant qu’objet COM dans le registre Windows et utilise des interfaces contenues (et non une agrégation) pour implémenter les objets restants, en encapsulant toutes les interfaces et méthodes et en ajoutant des fonctionnalités de manière conditionnelle. Les objets et les interfaces encapsulés par l’objet fournisseur varient en fonction du type de fournisseur.
 
 Vous ne pouvez pas instancier un objet de fournisseur directement à partir de votre application. Au lieu de cela, vous devez démarrer VDS, obtenir un pointeur vers un objet de service et utiliser l’objet service pour interroger les fournisseurs connus de l’hôte. Pour obtenir des instructions sur le chargement de VDS, consultez [démarrage et objets de service](startup-and-service-objects.md).
 
@@ -35,12 +35,12 @@ Le tableau suivant répertorie les interfaces, énumérations et structures asso
 | Interfaces toujours exposées par les fournisseurs de logiciels uniquement                                | [**IVdsSwProvider**](/windows/desktop/api/Vds/nn-vds-ivdsswprovider)                                                                                                                                                                                                                                                       |
 | Interfaces toujours exposées par les fournisseurs de matériel uniquement                                | [**IVdsHwProvider**](/windows/desktop/api/Vds/nn-vds-ivdshwprovider)                                                                                                                                                                                                                                                       |
 | Interfaces qui peuvent être exposées par cet objet                                                | [**IVdsProviderSupport**](/windows/desktop/api/Vds/nn-vds-ivdsprovidersupport)                                                                                                                                                                                                                                             |
-| Interfaces qui peuvent être exposées par des fournisseurs de matériel uniquement                                    | [**IVdsHwProviderType**](/windows/desktop/api/Vds/nn-vds-ivdshwprovidertype), [**IVdsHwProviderStoragePools**](/windows/desktop/api/Vds/nn-vds-ivdshwproviderstoragepools)**Windows Server 2008, windows Vista et Windows Server 2003 :** l’interface [**IVdsHwProviderStoragePools**](/windows/desktop/api/Vds/nn-vds-ivdshwproviderstoragepools) n’est pas prise en charge.<br/> |
+| Interfaces qui peuvent être exposées par des fournisseurs de matériel uniquement                                    | [**IVdsHwProviderType**](/windows/desktop/api/Vds/nn-vds-ivdshwprovidertype), [**IVdsHwProviderStoragePools**](/windows/desktop/api/Vds/nn-vds-ivdshwproviderstoragepools)**Windows server 2008, Windows Vista et Windows Server 2003 :** l’interface [**IVdsHwProviderStoragePools**](/windows/desktop/api/Vds/nn-vds-ivdshwproviderstoragepools) n’est pas prise en charge.<br/> |
 | Interfaces qui sont toujours implémentées mais ne sont pas exposées aux applications                       | [**IVdsProviderPrivate**](/windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdsproviderprivate)                                                                                                                                                                                                                                             |
 | Interfaces toujours implémentées par les fournisseurs de matériel mais non exposées aux applications | [**IVdsHwProviderPrivate**](/windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdshwproviderprivate)                                                                                                                                                                                                                                         |
 | Interfaces pouvant être implémentées par les fournisseurs de matériel mais non exposées aux applications     | [**IVdsHwProviderPrivateMpio**](/windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdshwproviderprivatempio)                                                                                                                                                                                                                                 |
 | Énumérations associées                                                                      | [**VDS \_ \_Indicateur de fournisseur**](/windows/desktop/api/Vds/ne-vds-vds_provider_flag), [**\_ \_ \_ indicateur de fournisseur de requêtes VDS**](/windows/desktop/api/Vds/ne-vds-vds_query_provider_flag)et [**\_ \_ type de fournisseur VDS**](/windows/desktop/api/Vds/ne-vds-vds_provider_type).                                                                                                                         |
-| Structures associées                                                                        | Aucun                                                                                                                                                                                                                                                                                          |
+| Structures associées                                                                        | Aucun.                                                                                                                                                                                                                                                                                          |
 
 
 

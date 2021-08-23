@@ -4,12 +4,12 @@ ms.assetid: a4fe3958-c4b9-4989-b3b9-395464ba1cc2
 title: Proxy System. image. ResolutionUnit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c05a0c965503806144564e6e822b3f2d9b48724
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2495a8c2ae759fbdce7bf5f534c0b2aa81c79b7879fb36c3cd6670ca4c1afb80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964858"
 ---
 # <a name="systemimageresolutionunit-proxy"></a>Proxy System. image. ResolutionUnit
 
@@ -19,7 +19,7 @@ Proxy de propriété pour la stratégie de métadonnées de photo System. image.
 
 Le proxy de propriété retourne une paire rationnelle a par le biais du membre [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal.
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 

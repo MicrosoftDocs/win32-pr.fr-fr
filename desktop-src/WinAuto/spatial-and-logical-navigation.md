@@ -4,12 +4,12 @@ description: Les clients récupèrent des informations sur un objet qui est à p
 ms.assetid: a1ebb50e-76cf-472d-bb0f-3f5bf5ed30d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b9e49772a267e49d723a04005dcbc8a369510b3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d762352c41f2adc764ac40c052632922a25ca995b9f2ec2f5008c668d0332bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052500"
 ---
 # <a name="spatial-and-logical-navigation"></a>Navigation spatiale et logique
 
@@ -46,6 +46,6 @@ L’ordre de navigation logique doit être l’ordre de navigation au clavier pa
 
 Pour les objets qui n’ont pas d’emplacements d’écran définis, l’ordre logique est déterminé par les développeurs de serveurs et les développeurs de clients ne doivent pas faire d’hypothèses. Par exemple, il est acceptable pour les objets non visibles, tels que les objets qui sont temporairement masqués, d’être mêlés à des objets visibles.
 
- 
+ 
 
- 
+ 

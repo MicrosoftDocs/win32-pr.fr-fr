@@ -6,20 +6,20 @@ keywords:
 - DCE_C_ERROR_STRING_LEN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4087117fb36983f41e59a248b256184e8a3373c5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: abb7fbfec5a7931a6ed46f1ba6a6c8f4b941e101e4292325c093a00bdfbe20a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931138"
 ---
 # <a name="dce_c_error_string_len"></a>longueur de la chaîne d’erreur DCE \_ C \_ \_ \_
 
 La valeur de la longueur de la **\_ chaîne d' \_ erreur \_ \_ DCE C** constante définit le nombre maximal de caractères qu’une chaîne de message d’erreur contient.
 
- 
+ 
 
- 
+ 
 
 
 

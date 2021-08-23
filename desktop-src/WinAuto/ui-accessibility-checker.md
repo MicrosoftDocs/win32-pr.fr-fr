@@ -19,12 +19,12 @@ keywords:
 - Outils de test Microsoft Active Accessibility
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d2b85436735bfa08f8fc73cf4e465b11d71630
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 452ff74140b50f1f6ea6d5357187e42ecff2d83cc85076d11ff22e191da7f3ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "106510871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052407"
 ---
 # <a name="accessibility-tools---accchecker-ui-accessibility-checker"></a>Outils d’accessibilité-AccChecker (vérificateur d’accessibilité de l’interface utilisateur)
 
@@ -32,7 +32,7 @@ ms.locfileid: "106510871"
 
 **AccChecker** fournit les niveaux de fonctionnalité suivants :
 
-- Application GUI Windows qui prend en charge les tests manuels, la journalisation des messages et la génération de suppressions.
+- Windows application GUI qui prend en charge les tests manuels, la journalisation des messages et la génération de suppressions.
 - API à utiliser dans les infrastructures de tests automatisés.
 - Application console qui prend en charge les automations de test non managées pour les scénarios où l’API managée **AccChecker** ne peut pas être utilisée.
 
@@ -41,15 +41,15 @@ Tous les niveaux de fonctionnalités **AccChecker** fournissent des routines pou
 **AccChecker** est installé avec le kit de développement logiciel (SDK) Windows. Il se trouve dans le \\ dossier bin \\ < *version* > \\ < *Platform* > \\ AccChecker du chemin d’installation du kit de développement logiciel (SDK).
 
 > [!NOTE]
-> **AccChecker** est un outil hérité. Nous vous recommandons d’utiliser à la place [Accessibility Insights](https://accessibilityinsights.io/) .
+> **AccChecker** est un outil hérité. nous vous recommandons d’utiliser à la place l' [accessibilité Informations](https://accessibilityinsights.io/) .
 
 ## <a name="requirements"></a>Configuration requise
 
-Requiert .NET Framework 2,0 ou une version ultérieure.
+requiert .NET Framework 2,0 ou une version ultérieure.
 
 **AccChecker** peut être utilisé pour examiner les données d’accessibilité sur les systèmes qui n’ont pas Microsoft UI Automation, mais qui peuvent uniquement examiner les propriétés de Microsoft Active Accessibility. Pour examiner l’Automation d’interface utilisateur, UI Automation doit être présent sur le système. Pour plus d’informations, consultez la section « Configuration requise » d' [UI Automation](entry-uiauto-win32.md).
 
-**AccChecker** est installé dans le cadre du jeu d’outils global dans le kit de développement logiciel (SDK) le, il n’est pas distribué en tant que téléchargement de fichier exécutable distinct. Le SDK Windows comprend tous les outils liés à l’accessibilité documentés dans cette section. [Obtient le SDK Windows.](https://developer.microsoft.com/) (Il existe également un kit de développement logiciel (SDK) à partir de cette page, si vous avez besoin d’une version précédente.)
+**AccChecker** est installé dans le cadre du jeu d’outils global dans le kit de développement logiciel (SDK) le, il n’est pas distribué en tant que téléchargement de fichier exécutable distinct. le SDK Windows comprend tous les outils liés à l’accessibilité documentés dans cette section. [obtient le SDK Windows.](https://developer.microsoft.com/) (Il existe également un kit de développement logiciel (SDK) à partir de cette page, si vous avez besoin d’une version précédente.)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

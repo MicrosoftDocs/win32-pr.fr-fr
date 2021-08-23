@@ -4,16 +4,16 @@ ms.assetid: db6eabaa-1b84-4613-ab2a-8d5904305e08
 title: LUN, objet Plex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1b51657ccbfc0f1bd3d73e54128cac3f0b507c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df52b60bcbd23269d766435749b40b8c636361390359182a38a695ab6252a27f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999440"
 ---
 # <a name="lun-plex-object"></a>LUN, objet Plex
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet de plex LUN modélise un plex LUN qui est contenu dans un numéro d’unité logique. Seul un numéro d’unité logique en miroir peut avoir plusieurs Plex ; tous les autres types de LUN ont un Plex. Chaque Plex contient une copie des données sur le numéro d’unité logique. De nouveaux Plex peuvent être ajoutés à un numéro d’unité logique (LUN) et, à l’exception du Plex d’origine, les plex existants peuvent être supprimés. VDS prend en charge quatre types de plex LUN : simple, fractionné, agrégé par bandes et avec parité. Pour obtenir une description de chacun de ces types de LUN, consultez l' [objet lun](lun-object.md).
 

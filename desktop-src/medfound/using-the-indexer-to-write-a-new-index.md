@@ -4,12 +4,12 @@ ms.assetid: a14e3bef-0232-4259-930a-d860ed9230fd
 title: Utilisation de l’indexeur pour écrire un nouvel index
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d37922b693c83a8417dea4006fc38397b805fb71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9fbc604a9493f7feea61e34500e0f620a051b05b1431ec2d4917df9f8ed15b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034527"
 ---
 # <a name="using-the-indexer-to-write-a-new-index"></a>Utilisation de l’indexeur pour écrire un nouvel index
 

@@ -1,19 +1,19 @@
 ---
-description: Certains serveurs et proxys HTTP requièrent une authentification avant d’autoriser l’accès aux ressources sur Internet. Les fonctions des services HTTP Microsoft Windows (WinHTTP) prennent en charge l’authentification du serveur et du proxy pour les sessions HTTP.
+description: Certains serveurs et proxys HTTP requièrent une authentification avant d’autoriser l’accès aux ressources sur Internet. les fonctions WinHTTP (Microsoft Windows HTTP Services) prennent en charge l’authentification du serveur et du proxy pour les sessions HTTP.
 ms.assetid: 077d6275-8600-4091-b78e-419a41a2101a
 title: Authentification dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a75c6703e9d28902c5705f0b8ab8433193c4d085
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 810fadf470861b23ed2291bfa5665e1e429e86b7be77675f332267ee1d1c4de4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052117"
 ---
 # <a name="authentication-in-winhttp"></a>Authentification dans WinHTTP
 
-Certains serveurs et proxys HTTP requièrent une authentification avant d’autoriser l’accès aux ressources sur Internet. Les fonctions des services HTTP Microsoft Windows (WinHTTP) prennent en charge l’authentification du serveur et du proxy pour les sessions HTTP.
+Certains serveurs et proxys HTTP requièrent une authentification avant d’autoriser l’accès aux ressources sur Internet. les fonctions WinHTTP (Microsoft Windows HTTP Services) prennent en charge l’authentification du serveur et du proxy pour les sessions HTTP.
 
 ## <a name="about-http-authentication"></a>À propos de l’authentification HTTP
 
@@ -48,7 +48,7 @@ Le tableau suivant répertorie les schémas d’authentification pris en charge 
 | Digest            | Stimulation-réponse | Défis liés à l’utilisation d’une valeur à usage unique (chaîne de données spécifiée par le serveur). Une réponse valide contient une somme de contrôle du nom d’utilisateur, du mot de passe, de la valeur de nonce donnée, du [*verbe http*](glossary.md)et de l’Uniform Resource Identifier (Uri) demandé.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | NTLM              | Stimulation-réponse | Requiert la transformation des [*données d’authentification*](glossary.md) avec les informations d’identification de l’utilisateur pour prouver l’identité. Pour que l’authentification NTLM fonctionne correctement, plusieurs échanges doivent avoir lieu sur la même connexion. Par conséquent, l’authentification NTLM ne peut pas être utilisée si un proxy intermédiaire ne prend pas en charge les connexions persistantes. L’authentification NTLM échoue également si [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) est utilisé avec l’indicateur [**\_ Disable \_ Keep \_ Alive WinHTTP**](option-flags.md) qui désactive la sémantique Keep-Alive.                                                                                                                                                                                                                                       |
 | Passport          | Stimulation-réponse | Utilise [Microsoft Passport 1,4](passport-authentication-in-winhttp.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Negotiate         | Stimulation-réponse | Si le serveur et le client utilisent tous deux Windows 2000 ou une version ultérieure, l’authentification Kerberos est utilisée. Sinon, l’authentification NTLM est utilisée. Kerberos est disponible dans les systèmes d’exploitation Windows 2000 et versions ultérieures et est considéré comme plus sécurisé que l’authentification NTLM. Pour que l’authentification par négociation fonctionne correctement, plusieurs échanges doivent avoir lieu sur la même connexion. Par conséquent, l’authentification Negotiate ne peut pas être utilisée si un proxy intermédiaire ne prend pas en charge les connexions persistantes. L’authentification par négociation échoue également si [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) est utilisé avec l’indicateur de [**désactivation de la fonction de \_ \_ maintien \_**](option-flags.md) de l’activité WinHTTP qui désactive la sémantique Keep-Alive. Le schéma d’authentification Negotiate est parfois appelé authentification Windows intégrée. |
+| Negotiate         | Stimulation-réponse | si le serveur et le client utilisent tous deux Windows 2000 ou une version ultérieure, l’authentification Kerberos est utilisée. Sinon, l’authentification NTLM est utilisée. Kerberos est disponible dans les systèmes d’exploitation Windows 2000 et versions ultérieures et est considéré comme plus sécurisé que l’authentification NTLM. Pour que l’authentification par négociation fonctionne correctement, plusieurs échanges doivent avoir lieu sur la même connexion. Par conséquent, l’authentification Negotiate ne peut pas être utilisée si un proxy intermédiaire ne prend pas en charge les connexions persistantes. L’authentification par négociation échoue également si [**WinHttpSetOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpsetoption) est utilisé avec l’indicateur de [**désactivation de la fonction de \_ \_ maintien \_**](option-flags.md) de l’activité WinHTTP qui désactive la sémantique Keep-Alive. le schéma d’authentification Negotiate est parfois appelé authentification Windows intégrée. |
 
 
 
@@ -331,7 +331,7 @@ La stratégie d’ouverture de session automatique peut être définie à l’ai
 
 ## <a name="stored-user-names-and-passwords"></a>Noms d’utilisateur et mots de passe stockés
 
-Windows XP a introduit le concept de noms d’utilisateurs et de mots de passe stockés. Si les informations d’identification Passport d’un utilisateur sont enregistrées via l' **Assistant Inscription Passport** ou la **boîte de dialogue informations d’identification** standard, elles sont enregistrées dans les noms d’utilisateur et mots de passe stockés. Quand vous utilisez WinHTTP sur Windows XP ou version ultérieure, WinHTTP utilise automatiquement les informations d’identification dans les noms d’utilisateurs et les mots de passe stockés si les informations d’identification ne sont pas définies explicitement. Cela est similaire à la prise en charge des informations d’identification d’ouverture de session par défaut pour NTLM/Kerberos. Toutefois, l’utilisation des informations d’identification Passport par défaut n’est pas soumise aux paramètres de stratégie d’ouverture de session automatique.
+Windows XP a introduit le concept de noms d’utilisateurs et de mots de passe stockés. Si les informations d’identification Passport d’un utilisateur sont enregistrées via l' **Assistant Inscription Passport** ou la **boîte de dialogue informations d’identification** standard, elles sont enregistrées dans les noms d’utilisateur et mots de passe stockés. quand vous utilisez winhttp sur Windows XP ou version ultérieure, winhttp utilise automatiquement les informations d’identification dans les noms d’utilisateurs et les mots de passe stockés si les informations d’identification ne sont pas définies explicitement. Cela est similaire à la prise en charge des informations d’identification d’ouverture de session par défaut pour NTLM/Kerberos. Toutefois, l’utilisation des informations d’identification Passport par défaut n’est pas soumise aux paramètres de stratégie d’ouverture de session automatique.
 
  
 

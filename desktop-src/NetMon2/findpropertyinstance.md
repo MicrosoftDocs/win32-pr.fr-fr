@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 21f94a3e4a1eb9619b39cff534a778235980a278
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac8b7d34b33bb76bfffc26b3ae6fc455857fafb65a9a2aef7e91fd0c2763adc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938580"
 ---
 # <a name="findpropertyinstance-function"></a>FindPropertyInstance fonction)
 
@@ -60,7 +60,7 @@ Si la fonction réussit (autrement dit, si la propriété est trouvée), la vale
 
 Si la fonction échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer l’instance suivante de la propriété, appelez [FindPropertyInstanceRestart](findpropertyinstancerestart.md).
 

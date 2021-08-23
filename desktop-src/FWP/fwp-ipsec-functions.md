@@ -3,19 +3,19 @@ title: Fonctions IPsec
 description: Fonctions IPsec
 ms.assetid: db656c58-7776-44c4-a7ce-c38e59b37c74
 keywords:
-- Fonctions IPsec de l’API de la plateforme de filtrage Windows
+- Windows Filtrage des fonctions IPsec de l’API de plateforme
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 261e767888b4581587ee550bf240c929f6db4531
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 70ccd557011547a06ce0ad232fa84341f56a1b7f7ebdf4281e04bcf715f19922
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069219"
 ---
 # <a name="ipsec-functions"></a>Fonctions IPsec
 
-Les fonctions de la plateforme de filtrage Windows (WFP) qui interagissent avec la sécurité du protocole Internet (IPsec) sont les suivantes.
+les fonctions de plateforme de filtrage Windows (WFP) qui interagissent avec la sécurité du protocole Internet (IPsec) sont les suivantes.
 
 -   FwpmIPsecTunnelAdd:
     -   [**FwpmIPsecTunnelAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmipsectunneladd0) (Windows Vista)
@@ -75,6 +75,6 @@ Les fonctions de la plateforme de filtrage Windows (WFP) qui interagissent avec 
     -   [**IPsecSaEnum0**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsaenum0) (Windows Vista)
     -   [**IPsecSaEnum1**](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsaenum1) (Windows 7 et versions ultérieures)
 
- 
+ 
 
- 
+ 

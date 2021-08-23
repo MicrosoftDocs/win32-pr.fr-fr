@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: c3f1251e7ec1b98d43e616c1ff6f2b3b2aacd8b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2200452fe586a4755a4560f0f68094e5f107e9e7d69a823bafac4d33bc1c6ce8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965558"
 ---
 # <a name="iwiapreviewgetnewpreview-method"></a>IWiaPreview :: GetNewPreview, méthode
 
@@ -44,9 +44,9 @@ HRESULT GetNewPreview(
 *pWiaItem2* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+Type : **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
-Spécifie un pointeur vers l’élément [_ *IWiaItem2* *](-wia-iwiaitem2.md) pour l’image.
+Spécifie un pointeur vers l’élément [**IWiaItem2**](-wia-iwiaitem2.md) pour l’image.
 
 </dd> <dt>
 
@@ -62,9 +62,9 @@ Actuellement inutilisé. Doit être défini sur zéro (0).
 *pWiaTransferCallback* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWiaTransferCallback**](-wia-iwiatransfercallback.md) \** _
+Type : **[ **IWiaTransferCallback**](-wia-iwiatransfercallback.md)\***
 
-Spécifie un pointeur vers l’interface [_ *IWiaTransferCallback* *](-wia-iwiatransfercallback.md) de l’application appelante.
+Spécifie un pointeur vers l’interface [**IWiaTransferCallback**](-wia-iwiatransfercallback.md) de l’application appelante.
 
 </dd> </dl>
 
@@ -74,13 +74,13 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit appeler **IWiaPreview :: GetNewPreview** avant d’appeler [**IWiaPreview ::D etectregions**](-wia-iwiapreview-detectregions.md).
 
 **IWiaPreview :: GetNewPreview** définit la [**propriété \_ \_ preview DPS WIA**](-wia-wiaitempropscannerdevice.md) (et la réinitialise avant qu’elle ne soit retournée, sauf si elle a été définie auparavant). Cela permet au pilote et au matériel, ainsi qu’au filtre de traitement d’image, de savoir que l’élément est une analyse de préversion.
 
-En interne, le composant Windows Image Acquisition (WIA) 2,0 Preview crée une instance du filtre de traitement d’image du pilote en appelant [**GetExtension**](-wia-iwiaitem2-getextension.md) sur *pWiaItem2*. Le composant WIA 2,0 Preview effectue cette création lorsque l’application appelle **IWiaPreview :: GetNewPreview**. Le composant WIA 2,0 Preview initialise également le filtre dans **IWiaPreview :: GetNewPreview**. La même instance de filtre est utilisée par le composant WIA 2,0 Preview lors d’un appel à [**IWiaPreview :: UpdatePreview**](-wia-iwiapreview-updatepreview.md).
+en interne, le composant d’aperçu de Windows l’acquisition d’images (WIA) 2,0 crée une instance du filtre de traitement d’image du pilote en appelant [**GetExtension**](-wia-iwiaitem2-getextension.md) sur *pWiaItem2*. Le composant WIA 2,0 Preview effectue cette création lorsque l’application appelle **IWiaPreview :: GetNewPreview**. Le composant WIA 2,0 Preview initialise également le filtre dans **IWiaPreview :: GetNewPreview**. La même instance de filtre est utilisée par le composant WIA 2,0 Preview lors d’un appel à [**IWiaPreview :: UpdatePreview**](-wia-iwiapreview-updatepreview.md).
 
 Avant d’appeler le composant WIA 2,0 Preview, une application doit appeler [**CheckExtension**](-wia-iwiaitem2-checkextension.md) pour s’assurer que le pilote est fourni avec un filtre de traitement d’image. Elle doit appeler **CheckExtension** sur l’élément qu’elle transmettra à **IWiaPreview :: GetNewPreview**. Il est inutile de fournir des aperçus dynamiques sans filtre de traitement d’image. Si une application appelle **IWiaPreview :: GetNewPreview** pour un pilote sans filtre de traitement d’image, l’appel échoue.
 
@@ -220,8 +220,8 @@ DownloadPreviewImage(
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

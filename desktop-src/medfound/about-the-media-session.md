@@ -4,12 +4,12 @@ ms.assetid: 09f50b11-0e0a-42b6-a7bf-bb0135343351
 title: À propos de la session multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc490e63f623fb3c2d5efde5a80f1988566f9345
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 68816f4c9b9468de2e687a7d00087c5232cc5d24509c9166c5f04c7c0370f6f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035637"
 ---
 # <a name="about-the-media-session"></a>À propos de la session multimédia
 

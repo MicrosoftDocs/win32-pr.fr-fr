@@ -4,12 +4,12 @@ ms.assetid: 7FC65C6F-3798-404c-B359-2BC75D3F54E7
 title: Personnalisation d’un menu contextuel à l’aide de verbes dynamiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9b24f035e84f0bde6dccde09f1ed94fefce421b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b33361be5a89480e05bb42bd760b63517bf0b06c9828cae36a36ecddce1e9cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968308"
 ---
 # <a name="customizing-a-shortcut-menu-using-dynamic-verbs"></a>Personnalisation d’un menu contextuel à l’aide de verbes dynamiques
 
@@ -29,12 +29,12 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="about-static-and-dynamic-verbs"></a>À propos des verbes statiques et dynamiques
 
-Nous vous encourageons vivement à implémenter un menu contextuel à l’aide d’une des méthodes de verbe statiques. Nous vous recommandons de suivre les instructions fournies dans la section « personnalisation d’un menu contextuel à l’aide de verbes statiques » de [création de gestionnaires de menu contextuel](context-menu-handlers.md). Pour obtenir le comportement dynamique pour les verbes statiques dans Windows 7 et versions ultérieures, consultez « obtention du comportement dynamique pour les verbes statiques » dans [création de gestionnaires de menus contextuels](context-menu-handlers.md). Pour plus d’informations sur l’implémentation d’un verbe statique et sur les verbes dynamiques à éviter, consultez [choix d’un verbe statique ou dynamique pour votre menu contextuel](shortcut-choose-method.md).
+Nous vous encourageons vivement à implémenter un menu contextuel à l’aide d’une des méthodes de verbe statiques. Nous vous recommandons de suivre les instructions fournies dans la section « personnalisation d’un menu contextuel à l’aide de verbes statiques » de [création de gestionnaires de menu contextuel](context-menu-handlers.md). pour obtenir le comportement dynamique pour les verbes statiques dans Windows 7 et versions ultérieures, consultez « obtention du comportement dynamique pour les verbes statiques » dans [création de gestionnaires de menus contextuels](context-menu-handlers.md). Pour plus d’informations sur l’implémentation d’un verbe statique et sur les verbes dynamiques à éviter, consultez [choix d’un verbe statique ou dynamique pour votre menu contextuel](shortcut-choose-method.md).
 
 Si vous devez étendre le menu contextuel d’un type de fichier en inscrivant un verbe dynamique pour le type de fichier, suivez les instructions fournies plus loin dans cette rubrique.
 
 > [!Note]  
-> Des considérations spéciales sont à prendre en compte pour Windows 64 bits lors de l’enregistrement de gestionnaires qui fonctionnent dans le contexte d’applications 32 bits : quand les verbes de Shell sont appelés dans le contexte d’une application 32 bits, le sous-système WOW64 redirige l’accès au système de fichiers vers certains chemins d’accès. Si votre gestionnaire. exe est stocké dans l’un de ces chemins d’accès, il n’est pas accessible dans ce contexte. Par conséquent, pour une solution de contournement, stockez votre fichier. exe dans un chemin d’accès qui n’est pas redirigé, ou stockez une version stub de votre fichier. exe qui lance la version réelle.
+> des considérations particulières sont à prendre en compte pour l’Windows de 64 bits lors de l’enregistrement de gestionnaires qui fonctionnent dans le contexte d’applications 32 bits : quand les verbes de Shell sont appelés dans le contexte d’une application 32 bits, le sous-système WOW64 redirige l’accès du système de fichiers vers certains chemins d’accès. Si votre gestionnaire de .exe est stocké dans l’un de ces chemins d’accès, il n’est pas accessible dans ce contexte. Par conséquent, pour une solution de contournement, stockez votre .exe dans un chemin d’accès qui n’est pas redirigé, ou stockez une version stub de votre .exe qui lance la version réelle.
 
  
 
@@ -129,13 +129,13 @@ HKEY_CLASSES_ROOT
 
 ### <a name="icontextmenugetcommandstring-method"></a>IContextMenu :: GetCommandString, méthode
 
-La méthode [**IContextMenu :: GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) du gestionnaire est utilisée pour retourner le nom canonique d’un verbe. Cette méthode est facultative. Dans Windows XP et les versions antérieures de Windows, lorsque l’Explorateur Windows a une barre d’État, cette méthode est utilisée pour récupérer le texte d’aide qui s’affiche dans la barre d’État pour un élément de menu.
+La méthode [**IContextMenu :: GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) du gestionnaire est utilisée pour retourner le nom canonique d’un verbe. Cette méthode est facultative. dans Windows XP et les versions antérieures de Windows, lorsque Windows Explorer possède une barre d’état, cette méthode est utilisée pour récupérer le texte d’aide qui s’affiche dans la barre d’état pour un élément de menu.
 
 Le paramètre *idCmd* contient le décalage de l’identificateur de la commande qui a été définie lors de l’appel de [**IContextMenu :: QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) . Si une chaîne d’aide est demandée, *uFlags* est défini sur **GC \_ HELPTEXTW**. Copiez la chaîne d’aide dans la mémoire tampon *pszName* , en la convertissant en **PWSTR**. La chaîne de verbe est demandée en affectant à *uFlags* la valeur **GC \_ VERBW**. Copiez la chaîne appropriée dans *pszName*, tout comme avec la chaîne d’aide. Les indicateurs **GC \_ Validate** et **GC \_ VALIDATEW** ne sont pas utilisés par les gestionnaires de menu contextuel.
 
 L’exemple suivant illustre une implémentation simple de [**IContextMenu :: GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) qui correspond à l’exemple [**IContextMenu :: QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) donné dans la section [IContextMenu :: QueryContextMenu](#icontextmenuquerycontextmenu-method) de cette rubrique. Étant donné que le gestionnaire ajoute un seul élément de menu, il n’existe qu’un seul jeu de chaînes qui peut être retourné. La méthode teste si *idCmd* est valide et, si c’est le cas, retourne la chaîne demandée.
 
-La fonction [**StringCchCopy**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya) est utilisée pour copier la chaîne demandée dans *pszName* afin de garantir que la chaîne copiée ne dépasse pas la taille de la mémoire tampon spécifiée par *cchName*. Cet exemple implémente uniquement la prise en charge des valeurs Unicode de *uFlags*, car seules celles-ci ont été utilisées dans l’Explorateur Windows depuis Windows 2000.
+La fonction [**StringCchCopy**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya) est utilisée pour copier la chaîne demandée dans *pszName* afin de garantir que la chaîne copiée ne dépasse pas la taille de la mémoire tampon spécifiée par *cchName*. cet exemple implémente uniquement la prise en charge des valeurs Unicode de *uFlags*, car seules celles-ci ont été utilisées dans l’explorateur de Windows depuis Windows 2000.
 
 
 ```C++

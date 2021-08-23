@@ -4,12 +4,12 @@ description: La connexion sécurisée EAP est initialisée entre le client et le
 ms.assetid: 1cd5bfc9-2ba3-477c-9bbb-73578a5623c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 856bd173ef617fb272460f874fa1d2087322c8b4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e5d53643718f747e1f39aaf68393f92a0577455041ec765ca19bea710f2c3aca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984459"
 ---
 # <a name="authentication-protocol-initialization"></a>Initialisation du protocole d’authentification
 
@@ -33,6 +33,6 @@ De même, sur le serveur, le pointeur **pUserAttributes** dans l' [**\_ \_ entr�
 
 Si l’appel [**RasEapBegin**](/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)) retourne une valeur autre qu' **aucune \_ erreur**, la session est déconnectée. L’erreur renvoyée est enregistrée (sur le serveur) ou affichée à l’utilisateur (sur le client).
 
- 
+ 
 
- 
+ 

@@ -4,17 +4,17 @@ ms.assetid: 2b8d95ec-2c6c-4bd8-83e9-7f72770449b5
 title: Attribut swapinputs
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27e2f02c642283e90b994bcd1bfa9e05076a7bae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b74d16d9b195f504188f4684cf234a5b0c7627274c6e74d57e6824df20a0c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951708"
 ---
 # <a name="swapinputs-attribute"></a>Attribut swapinputs
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -28,7 +28,7 @@ Les valeurs suivantes sont définies sur TRUE : y, Y, t, T, 1. Les valeurs suiv
 
 [**passe**](transition-element.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, une transition se poursuit à partir du composite de toutes les couches de faible priorité vers la couche sur laquelle la transition réside. Si l' `swapinputs` attribut est 1, cette direction est inversée. Pour plus d’informations sur le modèle de structuration en couches utilisé par DES, consultez [le modèle de chronologie](the-timeline-model.md).
 

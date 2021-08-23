@@ -3,9 +3,9 @@ title: Méthode Network. getProxyBypassForLocal
 description: La méthode getProxyBypassForLocal récupère une valeur qui indique si le serveur proxy est contourné si le serveur d’origine se trouve sur un réseau local.
 ms.assetid: e5217d56-da22-4424-94b0-400369410b47
 keywords:
-- méthode getProxyBypassForLocal lecteur Windows Media
-- méthode getProxyBypassForLocal lecteur Windows Media, classe réseau
-- Classe réseau lecteur Windows Media, méthode getProxyBypassForLocal
+- Lecteur Windows Media de la méthode getProxyBypassForLocal
+- Lecteur Windows Media de la méthode getProxyBypassForLocal, classe de réseau
+- Lecteur Windows Media de classe réseau, méthode getProxyBypassForLocal
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c60b9248cd5a893496c2de88c5a5370dfb7bf82
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51f22eb6187938318d95b9dd7a473b58e216315210d4af41c29b352b2654cbf3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054557"
 ---
 # <a name="networkgetproxybypassforlocal-method"></a>Méthode Network. getProxyBypassForLocal
 
@@ -53,7 +53,7 @@ bRetVal = Network.getProxyBypassForLocal(
 
 Cette méthode retourne une **valeur booléenne** indiquant si le serveur proxy est contourné. La valeur retournée est significative uniquement lorsque **getProxySettings** retourne une valeur de deux (utilisez des paramètres manuels).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode échoue sauf si l’application appelante est en cours d’exécution sur l’ordinateur local ou sur l’intranet.
 
@@ -61,7 +61,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **getProxyBypassForLocal** pour afficher si le lecteur Windows Media est configuré pour ignorer le serveur proxy pour les adresses locales. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **getProxyBypassForLocal** pour afficher si Lecteur Windows Media est défini pour ignorer le serveur proxy pour les adresses locales. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

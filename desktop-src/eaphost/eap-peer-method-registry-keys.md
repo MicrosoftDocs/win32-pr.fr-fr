@@ -4,12 +4,12 @@ description: En savoir plus sur les valeurs de Registre spécifiques requises po
 ms.assetid: 16bdd6bf-9eab-40a8-a2d3-8942d2f5f37a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 796260a25f824ffe52ada7cdfadfb7a25f05d491
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b2a1092b743ae0568093a563e318c3a3d24761bb634fdcfb2780c6c681fe7322
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984249"
 ---
 # <a name="eap-peer-method-registry-values"></a>Valeurs de registre de la méthode d’homologue EAP
 
@@ -28,9 +28,9 @@ Par exemple, un chemin d' **accès d’installation** d’une méthode EAP donn�
 Le chemin d’accès suivant spécifie l’emplacement du Registre pour les dll de méthode EAP étendue.
 
 > [!Note]  
-> Les dll de méthodes EAP étendues sont prises en charge dans Windows Vista avec Service Pack 1 (SP1) ou version ultérieure.
+> les dll de méthodes EAP étendues sont prises en charge dans Windows Vista avec Service pack 1 (SP1) ou version ultérieure.
 
- 
+ 
 
 **HKLM \\ System \\ CCS \\ services \\ EAPHost \\ Methods ID d' \\ *&lt; auteur &gt;* \\ 254 \\ *&lt; ID &gt;* de service \\ * &lt; EapTypeId&gt;***
 
@@ -41,7 +41,7 @@ Par exemple, un chemin d’accès d’installation d’une méthode EAP donné u
 > [!Note]  
 > Pour plus d’informations sur l’allocation des types de méthode EAP, consultez la section 6,2 de la [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016).
 
- 
+ 
 
 ## <a name="registry-values"></a>Valeurs de Registre
 
@@ -70,11 +70,11 @@ Les valeurs de registre de la méthode d’homologue AP suivantes sont facultati
 | Valeur constante | PeerConfigUIPath                                                                                                                                       |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type           | REG \_ développer \_ SZ                                                                                                                                        |
-| Description    | Chemin d’accès à la DLL qui contient l’implémentation de la boîte de dialogue de configuration utilisateur. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de \_ dll &gt; . dll. |
+| Description    | Chemin d’accès à la DLL qui contient l’implémentation de la boîte de dialogue de configuration utilisateur. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de la \_ dll &gt;.dll. |
 
 
 
- 
+ 
 
 ### <a name="peerdllpath"></a>PeerDllPath
 
@@ -83,11 +83,11 @@ Les valeurs de registre de la méthode d’homologue AP suivantes sont facultati
 | Valeur constante | PeerDllPath                                                                                     |
 |----------------|-------------------------------------------------------------------------------------------------|
 | Type           | REG \_ développer \_ SZ                                                                                 |
-| Description    | Chemin d’accès à la DLL de méthode EAP. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de \_ dll &gt; . dll. |
+| Description    | Chemin d’accès à la DLL de méthode EAP. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de la \_ dll &gt;.dll. |
 
 
 
- 
+ 
 
 ### <a name="peerfriendlyname"></a>PeerFriendlyName
 
@@ -100,7 +100,7 @@ Les valeurs de registre de la méthode d’homologue AP suivantes sont facultati
 
 
 
- 
+ 
 
 ### <a name="peeridentitypath"></a>PeerIdentityPath
 
@@ -109,11 +109,11 @@ Les valeurs de registre de la méthode d’homologue AP suivantes sont facultati
 | Valeur constante | PeerIdentityPath                                                                                                                                     |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type           | REG \_ développer \_ SZ                                                                                                                                      |
-| Description    | Chemin d’accès à la DLL qui contient l’implémentation des fonctions d’identité de l’utilisateur. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de \_ dll &gt; . dll. |
+| Description    | Chemin d’accès à la DLL qui contient l’implémentation des fonctions d’identité de l’utilisateur. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de la \_ dll &gt;.dll. |
 
 
 
- 
+ 
 
 ### <a name="peerinteractiveuipath"></a>PeerInteractiveUIPath
 
@@ -122,11 +122,11 @@ Les valeurs de registre de la méthode d’homologue AP suivantes sont facultati
 | Valeur constante | PeerInteractiveUIPath                                                                                                                                                                                                      |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type           | REG \_ développer \_ SZ                                                                                                                                                                                                            |
-| Description    | Chemin d’accès à la DLL qui contient l’implémentation de l’interface utilisateur interactive utilisée pour obtenir les informations utilisateur lors de l’exécution de la méthode EAP. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de \_ dll &gt; . dll. |
+| Description    | Chemin d’accès à la DLL qui contient l’implémentation de l’interface utilisateur interactive utilisée pour obtenir les informations utilisateur lors de l’exécution de la méthode EAP. Par exemple,% SystemRoot% \\ system32 \\ &lt; nom \_ de la \_ dll &gt;.dll. |
 
 
 
- 
+ 
 
 ### <a name="peerinvokepassworddialog"></a>PeerInvokePasswordDialog
 
@@ -139,7 +139,7 @@ Les valeurs de registre de la méthode d’homologue AP suivantes sont facultati
 
 
 
- 
+ 
 
 ### <a name="peerinvokeusernamedialog"></a>PeerInvokeUsernameDialog
 
@@ -174,7 +174,7 @@ Si la boîte de dialogue générique est utilisée, les informations d’identif
 
 
 
- 
+ 
 
 ### <a name="peerrequireconfigui"></a>PeerRequireConfigUI
 
@@ -187,7 +187,7 @@ Si la boîte de dialogue générique est utilisée, les informations d’identif
 
 
 
- 
+ 
 
 ### <a name="properties"></a>Propriétés
 
@@ -200,13 +200,13 @@ Si la boîte de dialogue générique est utilisée, les informations d’identif
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Clés de registre de la méthode d’authentificateur EAP](eap-authenticator-method-registry-keys.md)
+[clés de registre de la méthode Authenticator EAP](eap-authenticator-method-registry-keys.md)
 </dt> <dt>
 
 [Configuration du Registre pour les types EAP étendus](registry-keys-for-eap-methods.md)
@@ -218,6 +218,6 @@ Si la boîte de dialogue générique est utilisée, les informations d’identif
 [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

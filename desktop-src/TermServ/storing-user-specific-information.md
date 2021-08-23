@@ -5,12 +5,12 @@ ms.assetid: 32bd1d24-1d2e-4c0a-acdb-0cc67f275e6e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40c6236b7ba11a8b3149533e920b9b9413085d93
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 95aa8e60ec89c3f9d161941d01e1aa241f0bb0245d0f5b57b1cc362dd836bdb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000429"
 ---
 # <a name="storing-user-specific-information"></a>Stockage des informations spécifiques à l’utilisateur
 
@@ -22,10 +22,10 @@ En revanche, tous les utilisateurs partagent la ruche de l' **\_ \_ ordinateur l
 
 Stockez les fichiers de préférences utilisateur ou d’autres fichiers spécifiques à l’utilisateur dans le répertoire racine de l’utilisateur ou dans un répertoire spécifié par l’utilisateur. Cette considération s’applique aux fichiers temporaires utilisés pour stocker des informations intermédiaires (telles que les données mises en cache) ou à transmettre des données à une autre application. Les fichiers temporaires spécifiques à l’utilisateur doivent également être stockés par utilisateur.
 
-Vous pouvez utiliser la fonction [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation) avec l' \_ indicateur personnel de CSIDL pour connaître l’emplacement du répertoire des fichiers personnels de l’utilisateur. Vous pouvez également utiliser la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès du répertoire Windows. Dans un environnement de Services Bureau à distance, il est garanti que le répertoire Windows est privé pour chaque utilisateur. Ne stockez pas les fichiers spécifiques à l’utilisateur dans le répertoire système, tel que WINDOWS ou le répertoire de programme, tel que Program Files.
+Vous pouvez utiliser la fonction [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation) avec l' \_ indicateur personnel de CSIDL pour connaître l’emplacement du répertoire des fichiers personnels de l’utilisateur. vous pouvez également utiliser la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès du répertoire de Windows. dans un environnement Services Bureau à distance, le répertoire Windows est garanti comme privé pour chaque utilisateur. Ne stockez pas les fichiers spécifiques à l’utilisateur dans le répertoire système, tel que WINDOWS ou le répertoire de programme, tel que Program Files.
 
 Pour éviter les conflits entre les informations et les préférences des utilisateurs, les applications doivent stocker des informations temporaires par utilisateur dans des fichiers temporaires spécifiques à l’utilisateur. Les fichiers temporaires spécifiques à l’utilisateur empêchent également les échecs d’application causés par des conflits de verrouillage de fichiers. Pour spécifier le chemin d’accès pour le stockage des informations temporaires, utilisez la fonction [**GetTempPath**](/windows/desktop/api/fileapi/nf-fileapi-gettemppatha) .
 
- 
+ 
 
- 
+ 

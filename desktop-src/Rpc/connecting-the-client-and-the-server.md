@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, connexion du client et du serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98a22ea7a9a6dd30f2b9495b6d2ee868aac217f0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f477802ffb4b72f33ce951bf811b1cb9b770a8272f646507dfaa450934569f32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931226"
 ---
 # <a name="connecting-the-client-and-the-server"></a>Connexion du client et du serveur
 
@@ -27,9 +27,9 @@ La discussion présentée dans cette section est composée des rubriques suivant
 
 Notez que la discussion suppose des handles de liaison explicites. Toutefois, si votre application utilise d’autres types de descripteurs de liaison, vous devrez peut-être modifier les étapes présentées dans cette section. Pour plus d’informations, consultez [liaison et Handles](binding-and-handles.md).
 
- 
+ 
 
- 
+ 
 
 
 

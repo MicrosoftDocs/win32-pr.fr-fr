@@ -4,12 +4,12 @@ description: Recherche de systèmes hôtes de serveur à l’aide de liaisons de
 ms.assetid: 4aadda88-2109-481f-aa4b-b1983d81dec5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2357fcafa35d4f64cfb4f6841c0b56e1e94b7aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 180e2e43c0350f55defb74762d6ab1b6b656dafbc1468bcc7f077ed9780a2e98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929988"
 ---
 # <a name="finding-server-host-systems"></a>Recherche de systèmes hôtes serveur
 
@@ -154,9 +154,9 @@ Une fois que la fonction [**RpcNsBindingImportNext**](/windows/desktop/api/Rpcns
 
 Une fois que votre application cliente a un handle de liaison acceptable, elle doit vérifier que l’application serveur est en cours d’exécution. Votre client peut utiliser deux méthodes pour effectuer cette vérification. La première consiste à appeler une fonction dans l’interface du client. Si le programme serveur est en cours d’exécution, l’appel se termine. Si ce n’est pas le cas, l’appel échoue. Une meilleure façon de vérifier que le serveur est en cours d’exécution consiste à appeler [**RpcEpResolveBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcepresolvebinding), suivi d’un appel à [**RpcMgmtIsServerListening**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtisserverlistening). Pour plus d’informations sur la base de données du service de noms, consultez [la base de données du service de noms RPC](the-rpc-name-service-database.md).
 
- 
+ 
 
- 
+ 
 
 
 

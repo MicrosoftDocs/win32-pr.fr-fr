@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f4d2d4232b64857ca209e6b43cd7081a42495fee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a6049ad4526d8776b25e81fe4d75b727196f8fa1251a1959662cca71b161fbc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073973"
 ---
 # <a name="cmediatypematchespartial-method"></a>Méthode CMediaType. MatchesPartial
 
@@ -53,7 +53,7 @@ Pointeur vers le type de média à faire correspondre.
 
 Retourne la **valeur true** si les types de média correspondent. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type de média spécifié par *ppartial* peut avoir la valeur Guid \_ null pour le type principal, le sous-type ou le type de format. Les membres avec des \_ valeurs GUID NULL ne sont pas testés. (En fait, GUID \_ NULL agit comme un caractère générique.) Les membres avec des valeurs autres que le GUID \_ null doivent correspondre pour que le type de média corresponde.
 
@@ -63,7 +63,7 @@ Le type de média spécifié par *ppartial* peut avoir la valeur Guid \_ null po
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Mtype. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Mtype. h (include Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

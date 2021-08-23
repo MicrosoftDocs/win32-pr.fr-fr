@@ -8,12 +8,12 @@ keywords:
 - fonctions de chaîne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ff9fa6c9d93ba2f5c089b52b56816cad74bb61c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d50f47205ec021bffaa4cb6e24aa4825177a3fc0d8546f3a14b1d4b0e0ca4271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106536273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034387"
 ---
 # <a name="about-strings"></a>À propos des chaînes
 
@@ -24,15 +24,15 @@ Les fonctions de chaîne offrent aux applications la possibilité de copier, de 
 Cette section décrit les rubriques suivantes.
 
 -   [Comparaison avec les fonctions de chaîne de Run-Time C](#comparison-with-c-run-time-string-functions)
--   [Ressources de type chaîne](#string-resources)
+-   [Ressources de chaînes](#string-resources)
 
 ## <a name="comparison-with-c-run-time-string-functions"></a>Comparaison avec les fonctions de chaîne de Run-Time C
 
-De nombreuses fonctions de chaîne dupliquent ou améliorent les fonctions de chaîne familières de la bibliothèque Runtime C (CRT) standard. La plupart des améliorations permettent aux fonctions de chaîne de fonctionner avec des jeux de caractères Unicode ou étendus. Le tableau suivant répertorie les fonctions CRT, les fonctions Windows (qui prennent en charge Unicode, contrairement aux fonctions CRT) et les fonctions StrSafe.
+De nombreuses fonctions de chaîne dupliquent ou améliorent les fonctions de chaîne familières de la bibliothèque Runtime C (CRT) standard. La plupart des améliorations permettent aux fonctions de chaîne de fonctionner avec des jeux de caractères Unicode ou étendus. le tableau suivant présente les fonctions crt, les fonctions Windows (qui prennent en charge Unicode, contrairement aux fonctions crt) et les fonctions StrSafe.
 
 
 
-| Fonction de chaîne CRT                                       | Fonction de chaîne Windows    | Fonction StrSafe                                                                                                                                                                                                                                                                                                                                                                                          |
+| Fonction de chaîne CRT                                       | Windows String, fonction    | Fonction StrSafe                                                                                                                                                                                                                                                                                                                                                                                          |
 |-----------------------------------------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [strcat](/cpp/c-runtime-library/reference/strcat-wcscat-mbscat?view=vs-2019) | [**lstrcat**](/windows/desktop/api/Winbase/nf-winbase-lstrcata) | <dl> <dt>[**StringCchCat**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchcata)</dt> <dt>[**StringCchCatEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchcatexa)</dt> <dt>[**StringCbCat**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcata)</dt> <dt>[**StringCbCatEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcatexa)</dt> </dl>         |
 | [strcmp](/cpp/c-runtime-library/reference/strcmp-wcscmp-mbscmp?view=vs-2019) | [**lstrcmp**](/windows/desktop/api/Winbase/nf-winbase-lstrcmpa) | (aucune fonction équivalente)                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -41,7 +41,7 @@ De nombreuses fonctions de chaîne dupliquent ou améliorent les fonctions de ch
 
 
 
- 
+ 
 
 La fonction **strlen** , par exemple, retourne toujours le nombre d’octets dans une chaîne, mais la fonction [**lstrlen**](/windows/desktop/api/Winbase/nf-winbase-lstrlena) retourne le nombre de valeurs **TCHAR** , qui fait référence aux octets des versions ANSI de la fonction ou des valeurs **WCHAR** pour les versions Unicode.
 
@@ -60,7 +60,7 @@ Les fonctions de chaîne suivantes diffèrent des fonctions C standard telles qu
 
 
 
- 
+ 
 
 Les fonctions de chaîne suivantes permettent de déterminer un caractère en fonction de la sémantique de la langue sélectionnée par l’utilisateur. Ces fonctions sont activées pour Unicode.
 
@@ -75,7 +75,7 @@ Les fonctions de chaîne suivantes permettent de déterminer un caractère en fo
 
 
 
- 
+ 
 
 Le tableau suivant présente les extensions Unicode pour les fonctions runtime C (CRT) standard. Comme mentionné précédemment, les fonctions StrSafe permettent une gestion plus sûre des chaînes et sont recommandées pour une meilleure sécurité pour votre application.
 
@@ -88,9 +88,9 @@ Le tableau suivant présente les extensions Unicode pour les fonctions runtime C
 
 
 
- 
+ 
 
-## <a name="string-resources"></a>Ressources de type chaîne
+## <a name="string-resources"></a>Ressources de chaînes
 
 Une application qui gère des chaînes de caractères dans les ressources peut être traduite dans de nouveaux langages avec un minimum d’effort. Au lieu de rechercher des chaînes dans les modules sources, vous pouvez simplement traduire les chaînes dans le fichier de ressources et relier l’application. En outre, l’utilisation de ressources de type chaîne simplifie la création de versions Unicode et non-Unicode de l’application à partir des mêmes fichiers sources.
 
@@ -100,6 +100,6 @@ Les ressources sous forme binaire sont stockées au format Unicode. Lors du char
 
 Pour les ressources de type chaîne 16 bits, 255 caractères correspond à la longueur maximale. Pour les ressources de type chaîne 32 bits, 65535 caractères correspond à la longueur maximale.
 
- 
+ 
 
- 
+ 

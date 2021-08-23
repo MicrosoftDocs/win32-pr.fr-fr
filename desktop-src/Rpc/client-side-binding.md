@@ -4,12 +4,12 @@ description: Les handles de liaison sont composés d’une séquence de protocol
 ms.assetid: 0a3bed37-95c7-4f4a-9ed3-9d57f69db523
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f42ed5d2af21eff1091e0ba48718426bf17501e3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc566d408b27884cacefe07a181f26971352e1f29f9f47dfd41b3d56a8276515
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931722"
 ---
 # <a name="client-side-binding"></a>Liaison côté client
 
@@ -53,7 +53,7 @@ void main(int argc, char **argv)
 
 Comme vous pouvez le voir dans l’exemple précédent, l’application cliente n’a pas besoin d’effectuer d’appels explicites aux fonctions de la bibliothèque Runtime RPC. Le stub client les gère.
 
-Si votre application utilise des handles de liaison implicites ou explicites, le client doit obtenir les informations de liaison et appeler les fonctions RPC pour créer les handles. L’emplacement à partir duquel le client obtient les informations de liaison dépend des exigences de votre application. Le programme d’installation qui installe votre application cliente peut stocker les informations de liaison dans les variables d’environnement qu’elle crée. Il peut également enregistrer les informations de liaison dans un fichier de configuration spécifique à l’application. Étant donné que les informations de liaison dans les variables d’environnement ou les fichiers de configuration sont généralement stockées sous forme de chaînes, votre application cliente doit convertir la chaîne en une liaison. Dans les environnements Windows XP/2000, les informations de liaison peuvent être récupérées à partir de Active Directory. Pour plus d’informations, consultez [utilisation des liaisons de chaînes](finding-server-host-systems.md).
+Si votre application utilise des handles de liaison implicites ou explicites, le client doit obtenir les informations de liaison et appeler les fonctions RPC pour créer les handles. L’emplacement à partir duquel le client obtient les informations de liaison dépend des exigences de votre application. Le programme d’installation qui installe votre application cliente peut stocker les informations de liaison dans les variables d’environnement qu’elle crée. Il peut également enregistrer les informations de liaison dans un fichier de configuration spécifique à l’application. Étant donné que les informations de liaison dans les variables d’environnement ou les fichiers de configuration sont généralement stockées sous forme de chaînes, votre application cliente doit convertir la chaîne en une liaison. dans les environnements Windows XP/2000, les informations de liaison peuvent être récupérées à partir de Active Directory. Pour plus d’informations, consultez [utilisation des liaisons de chaînes](finding-server-host-systems.md).
 
 La plupart des réseaux ont un service de noms. Les programmes serveur peuvent se publier eux-mêmes dans la base de données de service de noms. Lorsqu’un client commence l’exécution, il peut obtenir ses informations de liaison à partir de la base de données du service de noms. Pour plus d’informations, consultez [importation à partir des bases de données de nom de service](finding-server-host-systems.md).
 
@@ -65,9 +65,9 @@ Les étapes requises pour la liaison avec des handles implicites et explicites s
 
 Pour obtenir une présentation succincte de ces rubriques, consultez [connexion du client et du serveur](connecting-the-client-and-the-server.md).
 
- 
+ 
 
- 
+ 
 
 
 

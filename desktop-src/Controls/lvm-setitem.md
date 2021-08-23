@@ -3,7 +3,7 @@ title: Message LVM_SETITEM (commctrl. h)
 description: Définit tout ou partie des attributs d’un élément d’affichage de liste. Vous pouvez également envoyer \_ des SETITEM LVM pour définir le texte d’un sous-élément. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView SetItem.
 ms.assetid: f1189b5d-bce7-4569-b4b9-bd750d7ef505
 keywords:
-- LVM_SETITEM les contrôles de message Windows
+- LVM_SETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 623339c3d1ecc7a74cf20b5e52fb621666391bd5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83ccc47c27ff05e75ba2633e18363c3e26e844c359b54d009101512fc837b668
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019157"
 ---
 # <a name="lvm_setitem-message"></a>\_Message SETITEM LVM
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir les attributs d’un élément de vue de liste, définissez le membre **iItem** de la structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) sur l’index de l’élément et définissez le membre **iSubItem** sur zéro. Pour un élément, vous pouvez définir les membres **State**, **pszText**, **IImage** et **lParam** de la structure **LVITEM** .
 
@@ -57,8 +57,8 @@ Pour définir le texte d’un sous-élément, définissez les membres **iItem** 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVM \_ SETITEMW** (Unicode) et **LVM \_ SETITEMA** (ANSI)<br/>                   |
 

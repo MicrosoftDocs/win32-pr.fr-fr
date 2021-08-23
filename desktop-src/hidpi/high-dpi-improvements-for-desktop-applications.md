@@ -4,18 +4,18 @@ description: Mixed-Mode de la mise à l’échelle PPP et des API compatibles PP
 ms.assetid: 44AC0B29-3283-4801-90F5-3E78CCD87B9F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6f5b16e4c438cfe1f0d04e61524899e213b25ea
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: fb32de01390f2794b5714bdca5465a5997121c270ded9c170e0b0171fd972542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036220"
 ---
 # <a name="mixed-mode-dpi-scaling-and-dpi-aware-apis"></a>Mixed-Mode de la mise à l’échelle PPP et des API compatibles PPP
 
 ## <a name="sub-process-dpi-awareness-support"></a>Prise en charge de la prise en charge de Sub-Process DPI
 
-[**SetThreadDpiAwarenessContext**](/windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext) permet l’utilisation de différents modes de mise à l’échelle dpi au sein d’un même processus. Avant la mise à jour anniversaire de Windows 10, la prise en charge de la résolution des PPP de Windows était liée au mode de prise en charge DPI à l’échelle du processus (prise en charge de dpi non compatible, compatible avec la résolution système ou Per-Monitor DPI). Mais maintenant, avec **SetThreadDpiAwarenessContext**, les fenêtres de niveau supérieur peuvent avoir un mode de reconnaissance dpi différent de celui du mode de reconnaissance dpi à l’échelle du processus. Cela affecte également les fenêtres enfants, car elles auront toujours le même mode de reconnaissance PPP que leur fenêtre parente.
+[**SetThreadDpiAwarenessContext**](/windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext) permet l’utilisation de différents modes de mise à l’échelle dpi au sein d’un même processus. avant la Windows 10 mise à jour anniversaire, une prise en charge de windows s dpi était liée au mode de prise en charge dpi à l’échelle du processus (prise en charge de dpi non compatible, compatible avec la résolution système ou Per-Monitor dpi). Mais maintenant, avec **SetThreadDpiAwarenessContext**, les fenêtres de niveau supérieur peuvent avoir un mode de reconnaissance dpi différent de celui du mode de reconnaissance dpi à l’échelle du processus. Cela affecte également les fenêtres enfants, car elles auront toujours le même mode de reconnaissance PPP que leur fenêtre parente.
 
 L’utilisation de **SetThreadDpiAwarenessContext** permet aux développeurs de décider où ils veulent concentrer leurs efforts de développement lorsqu’ils définissent le comportement spécifique aux dpi pour les applications de bureau. Par exemple, la fenêtre de niveau supérieur principale d’une application peut être mise à l’échelle en fonction de l’écran, tandis que les fenêtres de niveau supérieur secondaires peuvent être mises à l’échelle via le système d’exploitation à l’aide d’une mise à l’échelle bitmap.
 

@@ -5,12 +5,12 @@ ms.assetid: 9b069e50-1c1d-45d9-81f5-6e9735ff4ae7
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55f39096c2cc3f4620b0df81582172bcb035742b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 01b6735e891ee918ecc74036306b47651f301d009a95848c8807b3260f9ac821
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000009"
 ---
 # <a name="remote-desktop-license-server-classes"></a>Bureau à distance les classes de serveur de licences
 
@@ -83,9 +83,9 @@ Fournit des méthodes et des propriétés permettant d’afficher et de configur
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -17,16 +17,16 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: e13828f6d5e844147fc0b041617c8452c503ceef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41b49c293d5661d523138b01c093fce627e5bedf3d1e783dccb8248edf88546c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051137"
 ---
 # <a name="wmimonitorlistedfrequencyranges-class"></a>WmiMonitorListedFrequencyRanges, classe
 
-La classe WMI **WmiMonitorListedFrequencyRanges** répertorie les plages de fréquences prises en charge par l’analyse. Ces plages se trouvent dans la définition d’entrée vidéo du bloc de données d’identification étendues (E-EDID) Enhanced Display standard Association (VESA) ou dans le fichier INF de Windows qui contient les données des pilotes de périphérique.
+La classe WMI **WmiMonitorListedFrequencyRanges** répertorie les plages de fréquences prises en charge par l’analyse. ces plages se trouvent dans la définition d’entrée vidéo du bloc de données d’Identification étendues (E-EDID) enhanced Display Standard Association (VESA) ou dans le fichier INF Windows qui contient les données des pilotes de périphérique.
 
 ## <a name="syntax"></a>Syntaxe
 

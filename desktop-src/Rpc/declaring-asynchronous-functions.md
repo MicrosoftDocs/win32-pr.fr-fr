@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, déclaration de fonctions asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fafc1208d53763835d72f527723d00816f38db9
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 1fc0978156fe91291b91937082690258550b7f02f1d7b6e5334dd0741a9f0211
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103941439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931047"
 ---
 # <a name="declaring-asynchronous-functions"></a>Déclaration de fonctions asynchrones
 
@@ -51,6 +51,6 @@ interface AsyncRPC
 
 Quand vous appliquez l’attribut **\[ Async \]** dans le fichier ACF, le compilateur MIDL génère automatiquement un paramètre de handle asynchrone supplémentaire dans le code stub.
 
- 
+ 
 
- 
+ 
