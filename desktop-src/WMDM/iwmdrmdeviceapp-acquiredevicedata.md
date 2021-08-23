@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 268572e5dad3dffd0fe15956a0ff145f277fb6db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9280a358c7124a3f16e3d303026f36506610b6dc6fe0453fdf3e7b2432682719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055641"
 ---
 # <a name="iwmdrmdeviceappacquiredevicedata-method"></a>IWMDRMDeviceApp :: AcquireDeviceData, méthode
 
@@ -85,7 +85,7 @@ Une des valeurs **DWORD** suivantes spécifiant l’état retourné par l’appa
 
 
 
-| Statut | Description                                                     |
+| État | Description                                                     |
 |--------|-----------------------------------------------------------------|
 | 0      | L’action n’est pas prise en charge.                                    |
 | 1      | L’horloge sécurisée de l’appareil n’a pas pu être acquise auprès du service. |
@@ -100,7 +100,7 @@ Une des valeurs **DWORD** suivantes spécifiant l’état retourné par l’appa
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -108,7 +108,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_OK**</dt> </dl>                                                    | S_OK<br/>                                                                                                    |
 | <dl> <dt>**DRM \_ E \_ INVALIDARG**</dt> </dl>                                       | Un ou plusieurs arguments ne sont pas valides.<br/>                                                                                     |
-| <dl> <dt>**appareil \_ NS \_ E \_ non \_ WMDRM \_**</dt> </dl>                        | L’appareil spécifié n’est pas un périphérique compatible DRM Windows Media.<br/>                                                       |
+| <dl> <dt>**appareil \_ NS \_ E \_ non \_ WMDRM \_**</dt> </dl>                        | l’appareil spécifié n’est pas un appareil compatible avec DRM Windows Media.<br/>                                                       |
 | <dl> <dt>**la \_ \_ protection d’accès du service d’E/DRM \_ ne peut pas \_ obtenir un \_ \_ \_ réveil sécurisé**</dt> </dl>               | Impossible de récupérer le challenge d’horloge sécurisée à partir de l’appareil ou de récupérer l’URL d’horloge sécurisée à partir de la demande.<br/> |
 | <dl> <dt>**NS \_ E \_ DRM \_ ne peut pas \_ \_ obtenir une \_ horloge sécurisée \_ \_ à partir du \_ serveur**</dt> </dl> | Échec de la récupération de la réponse d’horloge sécurisée à partir du serveur d’horloge sécurisé.<br/>                                               |
 | <dl> <dt>**NS \_ E \_ DRM \_ ne peut pas \_ \_ définir l' \_ horloge sécurisée \_**</dt> </dl>               | Impossible d’envoyer le challenge d’horloge sécurisée à l’appareil, ou l’appareil n’a pas pu définir l’horloge.<br/>                          |
@@ -117,7 +117,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une méthode asynchrone ; l’appareil doit attendre le rappel [**IWMDMProgress :: end**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-end) pour cette opération avant de tenter de lire un contenu sous licence.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 56a2648f65c3747f8a98fc0cdbd3ed06cea560b9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9013a67c2d4e0e9760167bc979ac05edd4879c5414ce5c9b9c55528baf3f6a18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987543"
 ---
 # <a name="id3dxeffectbeginpass-method"></a>ID3DXEffect :: BeginPass, méthode
 
@@ -55,7 +55,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application définit une passe active (au sein d’une technique active) dans le système d’effet en appelant **ID3DXEffect :: BeginPass**. Une application signale la fin de la passe active en appelant [**ID3DXEffect :: EndPass**](id3dxeffect--endpass.md). **ID3DXEffect :: BeginPass** et **ID3DXEffect :: EndPass** doivent se produire dans une paire correspondante, dans une paire correspondante d' [**ID3DXEffect :: Begin**](id3dxeffect--begin.md) et [**ID3DXEffect :: end**](id3dxeffect--end.md) .
 

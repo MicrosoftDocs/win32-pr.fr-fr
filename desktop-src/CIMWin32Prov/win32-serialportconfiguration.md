@@ -1,5 +1,5 @@
 ---
-description: La \_ classe WMI Win32 SerialPortConfiguration représente les paramètres de transmission de données sur un port série Windows. Cela comprend les configurations permettant d’établir une connexion et une vérification des erreurs.
+description: la \_ classe WMI Win32 SerialPortConfiguration représente les paramètres de transmission de données sur un port série basé sur Windows. Cela comprend les configurations permettant d’établir une connexion et une vérification des erreurs.
 ms.assetid: 688cdcce-8325-4b4d-93ab-5a602e9e3f8e
 ms.tgt_platform: multiple
 title: Classe Win32_SerialPortConfiguration
@@ -43,16 +43,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 065d069b261472e3347a115cfbbff652812b6622
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 07052c0366b32904ef6bf6f52b15f3ea98022ba8385120ec60cdefe5714e2c4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079693"
 ---
 # <a name="win32_serialportconfiguration-class"></a>\_Classe SerialPortConfiguration Win32
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) **Win32 \_ SerialPortConfiguration** représente les paramètres de transmission de données sur un port série Windows. Cela comprend les configurations permettant d’établir une connexion et une vérification des erreurs.
+la [classe WMI](../wmisdk/retrieving-a-class.md) **Win32 \_ SerialPortConfiguration** représente les paramètres de transmission de données sur un port série basé sur Windows. Cela comprend les configurations permettant d’établir une connexion et une vérification des erreurs.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -152,7 +152,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| , structures de communication \| [**DCB**](/windows/win32/api/winbase/ns-winbase-dcb) \| fBinary")
 </dt> </dl>
 
-Si la **valeur est true**, les transferts de données en mode binaire sont activés pour le port série. Les systèmes informatiques qui exécutent Windows autorisent uniquement les transferts binaires via les ports série. cette valeur est donc toujours **true**.
+Si la **valeur est true**, les transferts de données en mode binaire sont activés pour le port série. les systèmes informatiques qui exécutent Windows autorisent uniquement les transferts binaires via les ports série. cette valeur est donc toujours **TRUE**.
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| , structures de communication \| [**DCB**](/windows/win32/api/winbase/ns-winbase-dcb) \| , octets)
 </dt> </dl>
 
-Nombre de bits transmis et reçus pour chaque octet de données pour le port série Windows. Le nombre peut varier selon les bits de contrôle et de correction d’erreur, tels que les bits de parité.
+nombre de bits transmis et reçus pour chaque octet de données du port série Windows. Le nombre peut varier selon les bits de contrôle et de correction d’erreur, tels que les bits de parité.
 
 Exemple : 8
 
@@ -424,7 +424,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (256), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Hardware \\ \\ DeviceMap \\ \\ SerialComm")
 </dt> </dl>
 
-Nom du port série Windows.
+nom du port série Windows.
 
 Exemple : « COM1 »
 
@@ -755,7 +755,7 @@ Le **XOnXOffOutFlowControl** spécifie si le contrôle de Flow Xon ou XOFF est u
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SerialPortConfiguration** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 

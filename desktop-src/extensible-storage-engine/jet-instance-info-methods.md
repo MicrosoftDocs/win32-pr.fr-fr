@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103695
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7c8271ef019995b655c058e7b21c85133385c67f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ca2a1d45ee95a9447d9d89b4c0ab852dd32af22fa03cc1d12cf8150b26e916b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980079"
 ---
 # <a name="jet_instance_info-methods"></a>Méthodes JET_INSTANCE_INFO
 

@@ -7,12 +7,12 @@ keywords:
 - Active Directory exemples Active Directory, à l’aide de IADs pour obtenir un descripteur de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef6fa2a4137f39bc31251f3b327b9dfc29a91318
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 24ecf0d8921e797a4d226d472f34b3172a01d9fb67d96ca61e9f0b491a7f7851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024517"
 ---
 # <a name="using-iads-to-get-a-security-descriptor"></a>Utilisation de IADs pour obtenir un descripteur de sécurité
 
@@ -90,6 +90,6 @@ HRESULT GetSDFromIADs(
 
 
 
- 
+ 
 
- 
+ 

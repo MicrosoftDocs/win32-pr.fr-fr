@@ -9,12 +9,12 @@ keywords:
 - Active Directory, utiliser, récupérer des objets supprimés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62b2062c747e38bc0b3a9b1b793a102006c11512
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5b033a992599fecfc372bf578c1bade54867fd8332c3e114103a69264f736b48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025087"
 ---
 # <a name="retrieving-deleted-objects"></a>Récupération des objets supprimés
 
@@ -22,7 +22,7 @@ Les objets supprimés sont stockés dans le conteneur objets supprimés. Le cont
 
 Le conteneur objets supprimés peut être obtenu en liant le **\_ \_ \_ conteneur d’objets supprimés GUID** connu défini dans ntdsapi. h. Pour plus d’informations sur la liaison à des GUID connus, consultez [liaison à des objets Well-Known à l’aide de WKGUID](binding-to-well-known-objects-using-wkguid.md).
 
-Spécifiez l’option de **\_ \_ liaison rapide ADS** lors de la liaison au conteneur objets supprimés. Cela signifie que les interfaces ADSI utilisées pour travailler avec un objet dans Active Directory Domain Services, telles que [**IADs**](/windows/desktop/api/iads/nn-iads-iads) et [**IADsPropertyList**](/windows/desktop/api/iads/nn-iads-iadspropertylist), ne peuvent pas être utilisées sur le conteneur objets supprimés. Pour plus d’informations et pour obtenir un exemple de code qui montre comment effectuer une liaison au conteneur objets supprimés, consultez l’exemple de fonction GetDeletedObjectsContainer ci-dessous.
+spécifiez l’option de **\_ \_ liaison de FAST ADS** lors de la liaison au conteneur objets supprimés. Cela signifie que les interfaces ADSI utilisées pour travailler avec un objet dans Active Directory Domain Services, telles que [**IADs**](/windows/desktop/api/iads/nn-iads-iads) et [**IADsPropertyList**](/windows/desktop/api/iads/nn-iads-iadspropertylist), ne peuvent pas être utilisées sur le conteneur objets supprimés. Pour plus d’informations et pour obtenir un exemple de code qui montre comment effectuer une liaison au conteneur objets supprimés, consultez l’exemple de fonction GetDeletedObjectsContainer ci-dessous.
 
 -   [Énumération des objets supprimés](#enumerating-deleted-objects)
 -   [Recherche d’un objet supprimé spécifique](#finding-a-specific-deleted-object)
@@ -46,7 +46,7 @@ Pour obtenir un exemple de code qui montre comment énumérer les objets supprim
 
 Vous pouvez affiner la recherche en ajoutant au filtre de recherche, comme indiqué dans [dialecte LDAP](/windows/desktop/ADSI/ldap-dialect). Par exemple, pour rechercher tous les objets supprimés dont le nom commence par « Jeff », le filtre de recherche est défini sur « (& (isDeleted =**true**) (CN = Jeff \* )) ».
 
-Comme les objets supprimés ont la plupart de leurs attributs supprimés lorsqu’ils sont supprimés, il n’est pas possible de lier directement à un objet supprimé. L’option de **\_ \_ liaison rapide ADS** doit être spécifiée lors de la liaison à un objet supprimé. Cela signifie que les interfaces ADSI utilisées pour travailler avec un objet Active Directory Domain Services, comme [**IADs**](/windows/desktop/api/iads/nn-iads-iads) et [**IADsPropertyList**](/windows/desktop/api/iads/nn-iads-iadspropertylist), ne peuvent pas être utilisées sur un conteneur d’objets supprimé.
+Comme les objets supprimés ont la plupart de leurs attributs supprimés lorsqu’ils sont supprimés, il n’est pas possible de lier directement à un objet supprimé. l’option de **\_ \_ liaison de FAST ADS** doit être spécifiée lors de la liaison à un objet supprimé. Cela signifie que les interfaces ADSI utilisées pour travailler avec un objet Active Directory Domain Services, comme [**IADs**](/windows/desktop/api/iads/nn-iads-iads) et [**IADsPropertyList**](/windows/desktop/api/iads/nn-iads-iadspropertylist), ne peuvent pas être utilisées sur un conteneur d’objets supprimé.
 
 ## <a name="finding-a-specific-deleted-object"></a>Recherche d’un objet supprimé spécifique
 
@@ -435,6 +435,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

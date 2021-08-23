@@ -4,49 +4,49 @@ description: Modèle objet de lecteur pour les langages de script
 ms.assetid: 785c1a3a-902a-4f30-8419-bbfb11b584a3
 keywords:
 - Lecteur Windows Media, modèle objet
-- Windows Media Player Object Model, à propos de
+- Lecteur Windows Media modèle objet, à propos de
 - modèle objet, à propos de
-- Contrôle ActiveX du lecteur Windows Media, modèle objet
-- Contrôle ActiveX, modèle objet
-- Windows Media Player Mobile contrôle ActiveX, modèle objet
-- Windows Media Player Mobile, modèle objet
-- Kit de développement logiciel (SDK), modèle objet de contrôle ActiveX du lecteur Windows Media
-- SDK (kit de développement logiciel), modèle objet de contrôle ActiveX du lecteur Windows Media
-- documentation, modèle objet de contrôle ActiveX du lecteur Windows Media
-- Windows Media Player, langages de script
-- Windows Media Player Object Model, langages de script
+- contrôle ActiveX Lecteur Windows Media, modèle objet
+- contrôle ActiveX, modèle objet
+- Lecteur Windows Media contrôle Mobile ActiveX, modèle objet
+- Lecteur Windows Media Mobile, modèle objet
+- kit de développement logiciel (SDK), Lecteur Windows Media ActiveX modèle objet de contrôle
+- SDK (kit de développement logiciel), Lecteur Windows Media ActiveX modèle objet de contrôle
+- documentation, Lecteur Windows Media ActiveX modèle objet de contrôle
+- Lecteur Windows Media, langages de script
+- Lecteur Windows Media modèle objet, langages de script
 - modèle objet, langages de script
-- Contrôle ActiveX du lecteur Windows Media, langages de script
-- Contrôle ActiveX, langages de script
-- Windows Media Player Mobile contrôle ActiveX, langages de script
-- Windows Media Player Mobile, langages de script
+- contrôle de ActiveX Lecteur Windows Media, langages de script
+- contrôle de ActiveX, langages de script
+- Lecteur Windows Media contrôle de ActiveX Mobile, langages de script
+- Lecteur Windows Media Mobile, langages de script
 - langages de script
 - Lecteur Windows Media, objet Player
-- Modèle objet du lecteur Windows Media, objet Player
+- Lecteur Windows Media modèle objet, objet Player
 - modèle objet, objet Player
-- Contrôle ActiveX du lecteur Windows Media, objet Player
-- Contrôle ActiveX, objet Player
-- Windows Media Player Mobile contrôle ActiveX, objet Player
-- Windows Media Player Mobile, objet Player
+- contrôle ActiveX Lecteur Windows Media, objet Player
+- contrôle ActiveX, objet Player
+- Lecteur Windows Media contrôle Mobile ActiveX, objet Player
+- Lecteur Windows Media Mobile, objet Player
 - Objet Player
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 670bff03075fd98812dbee269115e297a137e92d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bffe34bfc227dfe250a9c9d7ebb60977a9ab079c4a062067c65e83e62f0e5976
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104571074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996023"
 ---
 # <a name="player-object-model-for-scripting-languages"></a>Modèle objet de lecteur pour les langages de script
 
-ActiveX utilise le concept d’objets pour contenir des fonctionnalités de programmation. Le lecteur Windows Media utilise plusieurs objets pour diviser les fonctionnalités fournies par le contrôle. L’objet racine est l’objet **Player** , et les autres objets sont attachés à l’objet **Player** par le biais de propriétés spécifiques.
+ActiveX utilise le concept d’objets pour contenir des fonctionnalités de programmation. Lecteur Windows Media utilise plusieurs objets pour diviser les fonctionnalités fournies par le contrôle. L’objet racine est l’objet **Player** , et les autres objets sont attachés à l’objet **Player** par le biais de propriétés spécifiques.
 
-Le diagramme suivant montre comment le modèle objet de contrôle ActiveX du lecteur Windows Media 11 fonctionne pour les langages de script.
+le diagramme suivant montre comment le modèle objet de contrôle Lecteur Windows Media 11 ActiveX fonctionne pour les langages de script.
 
 ![diagramme du modèle objet du lecteur Windows Media 11](images/playeromdiag.png)
 
-En C++ et parfois dans les langages .NET, les objets sont représentés par des interfaces COM. Dans le modèle objet du lecteur Windows Media, les noms d’interface COM sont identiques au nom de l’objet, mais ils portent le préfixe « IWMP ». Par exemple, l’objet **réseau** est exposé via l’interface **IWMPNetwork** .
+En C++ et parfois dans les langages .NET, les objets sont représentés par des interfaces COM. dans le modèle objet Lecteur Windows Media, les noms d’interface COM sont identiques au nom de l’objet, mais ils portent le préfixe « IWMP ». Par exemple, l’objet **réseau** est exposé via l’interface **IWMPNetwork** .
 
 Les sections suivantes fournissent des vues d’ensemble conceptuelles pour chaque objet :
 
@@ -63,10 +63,10 @@ Les sections suivantes fournissent des vues d’ensemble conceptuelles pour chaq
 -   [À propos de l’objet PlayerApplication](about-the-playerapplication-object.md)
 -   [À propos des objets playlist, PlaylistCollection et PlaylistArray](about-the-playlist--playlistcollection--and-playlistarray-objects.md)
 -   [À propos de l’objet de requête](about-the-query-object.md)
--   [À propos de l’objet Settings](about-the-settings-object.md)
+-   [à propos de l’objet Paramètres](about-the-settings-object.md)
 -   [À propos de l’objet StringCollection](about-the-stringcollection-object.md)
 
-Des fonctionnalités supplémentaires sont disponibles par le biais de certaines interfaces COM. La possibilité d’accéder à ces interfaces peut dépendre du langage que vous utilisez pour la programmation et d’autres facteurs, tels que le mode utilisé pour créer l’instance du contrôle du lecteur Windows Media. Pour obtenir la liste complète des interfaces COM exposées par le contrôle du lecteur Windows Media, consultez la [Référence du modèle objet pour C++](object-model-reference-for-c.md).
+Des fonctionnalités supplémentaires sont disponibles par le biais de certaines interfaces COM. la possibilité d’accéder à ces interfaces peut dépendre du langage que vous utilisez pour la programmation et d’autres facteurs, tels que le mode utilisé pour créer l’instance du contrôle Lecteur Windows Media. pour obtenir la liste complète des interfaces COM exposées par le contrôle Lecteur Windows Media, consultez la [référence du modèle objet pour C++](object-model-reference-for-c.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -75,12 +75,12 @@ Des fonctionnalités supplémentaires sont disponibles par le biais de certaines
 [**À propos du modèle objet Player**](about-the-player-object-model.md)
 </dt> <dt>
 
-[**Utilisation du contrôle du lecteur Windows Media dans une solution .NET Framework**](using-the-windows-media-player-control-in-a--net-framework-solution.md)
+[**utilisation du contrôle Lecteur Windows Media dans une Solution .NET Framework**](using-the-windows-media-player-control-in-a--net-framework-solution.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

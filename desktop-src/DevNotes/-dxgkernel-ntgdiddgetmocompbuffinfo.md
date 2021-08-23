@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 03d471e62edd061ce167e0baf2051836e9634fae
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e2d324cf1b0b986845a7fab95c24abb9f44eb4c6024bbba9be101d25e1318a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956328"
 ---
 # <a name="ntgdiddgetmocompbuffinfo-function"></a>NtGdiDdGetMoCompBuffInfo fonction)
 
@@ -74,7 +74,7 @@ Pointeur vers une [**structure \_ GETMOCOMPCOMPBUFFDATA DD**](/windows/win32/api
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez Microsoft DirectX Video Acceleration Driver Development Kit (DDK).
 

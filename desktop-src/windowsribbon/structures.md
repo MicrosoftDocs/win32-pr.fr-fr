@@ -1,19 +1,19 @@
 ---
 title: Structures (infrastructure du ruban)
-description: Les rubriques de cette section fournissent les spécifications de référence pour les structures de l’infrastructure du ruban Windows.
+description: les rubriques de cette section fournissent les spécifications de référence pour Windows structures d’infrastructure du ruban.
 ms.assetid: 8A109C67-BF05-4BA4-8F12-473F2C773B90
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 928b1c0dcf404c054072dc57c1064dca3b39b096
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: adae6c190acb59ca0916d958266eff0d678fe75554a94aa5bdab14f2724afb14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964398"
 ---
 # <a name="structures-ribbon-framework"></a>Structures (infrastructure du ruban)
 
-Les rubriques de cette section fournissent les spécifications de référence pour les structures de l' [infrastructure du ruban Windows](-uiplat-windowsribbon-entry.md) .
+les rubriques de cette section fournissent les spécifications de référence pour Windows structures d' [infrastructure du ruban](-uiplat-windowsribbon-entry.md) .
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -32,7 +32,7 @@ Les rubriques de cette section fournissent les spécifications de référence po
 
 <dl> <dt>
 
-[Informations de référence sur l’infrastructure du ruban Windows](windowsribbon-reference-entry.md)
+[Windows Informations de référence sur l’infrastructure du ruban](windowsribbon-reference-entry.md)
 </dt> </dl>
 
  

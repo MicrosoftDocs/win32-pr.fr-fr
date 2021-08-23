@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b1f5e5f0f30714ed001438235e124341b8ce4d35
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c6441e000422c113521803924d7c1fc746cd2c96591463d33677425a49f7edfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988689"
 ---
 # <a name="d3dxcompileshader-function"></a>D3DXCompileShader fonction)
 
@@ -108,7 +108,7 @@ Pointeur vers un profil de nuanceur qui détermine le jeu d’instructions du nu
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -144,7 +144,7 @@ Retourne une interface [**ID3DXConstantTable**](id3dxconstanttable.md) , qui peu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

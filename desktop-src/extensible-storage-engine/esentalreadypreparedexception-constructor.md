@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0a96448ccd3abdaed7b789b463f08c5d5c8e6f67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9927a8f75868c40f93aab84f79e1f03e86ca1b88f1a1a4c6d99d8ed174199c5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117388"
 ---
 # <a name="esentalreadypreparedexception-constructor"></a>Constructeur EsentAlreadyPreparedException
 

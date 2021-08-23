@@ -3,7 +3,7 @@ title: Message EM_SETELLIPSISMODE (RichEdit. h)
 description: Ce message définit le mode de sélection en cours.
 ms.assetid: C77263E8-424B-4EDE-ACBF-BA85248FC31F
 keywords:
-- EM_SETELLIPSISMODE les contrôles de message Windows
+- EM_SETELLIPSISMODE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81ae3b51dc80ed11d71f4af9c292657b2cf16728
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3445172ea0a4ed4ef49e9a131db8d4357faaa5f7fef553169b7a8e1e795fd01c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019477"
 ---
 # <a name="em_setellipsismode-message"></a>\_Message SETELLIPSISMODE em
 
@@ -74,8 +74,8 @@ Si wParam est 0 et lParam est l’une des valeurs du tableau ci-dessus, la valeu
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e9d6f98c5861a57fa4916ebca1b421c538d752d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b2ffe6ff2a4b6af3234c9f5d85d577bae91a748ebb9224fef5a9d0d96864502
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039317"
 ---
 # <a name="jet_columnidlessthanorequal-operator"></a>JET_COLUMNID. Opérateur LessThanOrEqual
 

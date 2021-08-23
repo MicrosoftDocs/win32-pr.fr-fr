@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c06cd8769dee6e56006b0225a75572b642e35d93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 653aec23752d992059def6698b1d1eabadbdfc52d8988c047720648b844ebf70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979208"
 ---
 # <a name="jet_tablecreatecontentequals-method"></a>JET_TABLECREATE. Méthode ContentEquals
 
@@ -61,7 +61,7 @@ public bool ContentEquals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - Autres  
     Type : [Microsoft.ISAM.esent.Interop.JET_TABLECREATE](./jet-tablecreate-class.md)  
     
     Instance de à comparer à cette instance.

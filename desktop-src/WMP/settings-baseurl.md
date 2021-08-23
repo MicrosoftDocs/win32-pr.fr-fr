@@ -3,7 +3,7 @@ title: Paramètres. baseURL
 description: La propriété baseURL spécifie ou récupère l’URL de base utilisée pour la résolution de chemin d’accès relative avec les commandes de script d’URL incorporées dans les éléments multimédias.
 ms.assetid: bb2db144-6d1e-4ed6-baed-dc5dbff44aa0
 keywords:
-- Windows Media Player Settings. baseURL
+- Paramètres. baseURL Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed77d90c8ffadc4dd8da0951f7e6a477db3f9de3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69e06275a3028df6b90d25665e11aab3c2a0961dfa6c525cde0636434f06986b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995379"
 ---
 # <a name="settingsbaseurl"></a>Paramètres. baseURL
 
@@ -33,7 +33,7 @@ Player. Settings. baseURL
 
 Cette propriété est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété spécifie l’URL HTTP de base qui est transmise en tant que paramètre de commande par l’événement **commande** . L’URL de base est concaténée avec l’URL relative, comme suit :
 
@@ -46,7 +46,7 @@ Cette propriété spécifie l’URL HTTP de base qui est transmise en tant que p
 
 Le contrôle de lecteur ne prend pas en charge l’utilisation de deux points (..) dans l’URL relative pour indiquer le parent de l’emplacement actuel.
 
-**Windows Media Player 10 Mobile**: cette propriété est en lecture seule et retourne toujours une chaîne vide.
+**Lecteur Windows Media 10 Mobile**: cette propriété est en lecture seule et retourne toujours une chaîne vide.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -66,7 +66,7 @@ Le contrôle de lecteur ne prend pas en charge l’utilisation de deux points (.
 [**Événement Player. commande**](player-player-scriptcommand.md)
 </dt> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> </dl>
 
  

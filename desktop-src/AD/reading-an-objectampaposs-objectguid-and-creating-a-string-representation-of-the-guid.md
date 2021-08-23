@@ -5,12 +5,12 @@ ms.assetid: 4f7f0e9d-3e06-47c9-83ce-cabed8692c15
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77bf9c346585e8604968c3f708dfdc62ee8d248f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9872f16ddeee2e7a01e05be0d3c98aed5e66a9e6bce310565c001f831bd46e02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025327"
 ---
 # <a name="reading-an-objects-objectguid-and-creating-a-string-representation-of-the-guid"></a>Lecture de l’objectGUID d’un objet et création d’une représentation sous forme de chaîne du GUID
 
@@ -18,10 +18,10 @@ La propriété **objectGUID** de chaque objet dans Active Directory Domain Servi
 
 Les exemples de code suivants illustrent une fonction qui lit l’attribut **objectGUID** et retourne une représentation sous forme de chaîne du GUID utilisé pour la liaison à l’objet.
 
--   [Exemple de Visual Basic](#visual-basic-example)
+-   [Visual Basic Tels](#visual-basic-example)
 -   [Exemple C++](#c-example)
 
-## <a name="visual-basic-example"></a>Exemple de Visual Basic
+## <a name="visual-basic-example"></a>Visual Basic Tels
 
 
 ```VB
@@ -178,6 +178,6 @@ void wmain(int argc, wchar_t *argv[])
 
 
 
- 
+ 
 
- 
+ 

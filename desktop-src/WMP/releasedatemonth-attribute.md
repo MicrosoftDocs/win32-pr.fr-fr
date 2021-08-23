@@ -3,7 +3,7 @@ title: Attribut ReleaseDateMonth
 description: L’attribut ReleaseDateMonth est la partie mois de la date de la version d’origine de l’élément.
 ms.assetid: e2ec439e-9d0e-4f9a-aba8-5fbd0e959d84
 keywords:
-- Attribut ReleaseDateMonth lecteur Windows Media
+- Lecteur Windows Media de l’attribut ReleaseDateMonth
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2c1e4e1ac12651857b6b62fabd4a05a81f9742c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb3fae9bb43478c808728b153a591fd2f7890a2585641a146c490d6a0d39ede3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995579"
 ---
 # <a name="releasedatemonth-attribute"></a>Attribut ReleaseDateMonth
 
@@ -29,7 +29,7 @@ L’attribut **ReleaseDateMonth** est la partie mois de la date de la version d�
 -   [Pistes de CD](cd-track-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la base de données de bibliothèque (ou dans le cache).
 

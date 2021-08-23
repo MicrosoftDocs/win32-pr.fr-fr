@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 791fdaca4a93b0a44099306b8ae14ae4d5cb11cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 58fb2c2830f016080ac27c48b188bbd1948406a6cb7516b3279c411c87d9c155
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955718"
 ---
 # <a name="pcolorstyletextfromimestyle-function"></a>PColorStyleTextFromIMEStyle fonction)
 
@@ -50,7 +50,7 @@ Une structure **IMESTYLE** retournée par la fonction [**PIMEStyleFromAttr**](pi
 
 Pointeur vers une structure **IMECOLORSTY** qui représente le style de couleur de texte.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

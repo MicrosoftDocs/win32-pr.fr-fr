@@ -1,6 +1,6 @@
 ---
-description: 'En savoir plus sur : constantes de moteur de stockage extensible'
-title: Constantes du moteur de stockage extensible
+description: en savoir plus sur les constantes Extensible Stockage Engine
+title: constantes de moteur d’Stockage Extensible
 TOCTitle: Extensible Storage Engine Constants
 ms:assetid: 9a361b83-491d-442d-971d-6696f88ad42e
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269351(v=EXCHG.10)
@@ -15,21 +15,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ab478b7972206f462cd0bd0031f74865d850dbee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 563efe09c011830ef17001c13a6f3d4564b26567940245aee3fcb272f562aa69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980809"
 ---
-# <a name="extensible-storage-engine-constants"></a>Constantes du moteur de stockage extensible
+# <a name="extensible-storage-engine-constants"></a>constantes de moteur d’Stockage Extensible
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-## <a name="extensible-storage-engine-constants"></a>Constantes du moteur de stockage extensible
+## <a name="extensible-storage-engine-constants"></a>constantes de moteur d’Stockage Extensible
 
-La section des constantes du moteur de stockage extensible contient les sections suivantes :
+la section des constantes Extensible Stockage Engine contient les sections suivantes :
 
   - [JET_CBTYP](./jet-cbtyp.md)
 
@@ -45,10 +45,10 @@ La section des constantes du moteur de stockage extensible contient les sections
 
   - [Constantes de journalisation des événements](./event-logging-constants.md)
 
-  - [Paramètres système du moteur de stockage extensible](./extensible-storage-engine-system-parameters.md)
+  - [paramètres système du moteur de Stockage Extensible](./extensible-storage-engine-system-parameters.md)
 
   - [Constantes de handle non valides](./invalid-handle-constants.md)
 
-  - [Nombre maximal de constantes de paramètres](./maximum-settings-constants.md)
+  - [nombre maximal de constantes de Paramètres](./maximum-settings-constants.md)
 
   - [Constantes obsolètes](./obsolete-constants.md)

@@ -4,12 +4,12 @@ description: Le package de sécurité Secure Channel (SChannel), dont l’identi
 ms.assetid: 03a5f987-f668-4f19-9b58-d62711f58734
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eccc9f82a05d1542e7585426128f10cdf452d31d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 01ab40ed9d87013f646137e23ccc755dfdf9ab6b8f2ded367940b4ae630d7b4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047847"
 ---
 # <a name="schannel"></a>Schannel
 
@@ -31,7 +31,7 @@ Les rubriques suivantes décrivent brièvement le protocole TLS et son fonctionn
 > [!Note]  
 > Toutes les informations sur le protocole TLS dans ces sections s’appliquent également aux protocoles SSL et PCT.
 
- 
+ 
 
 ## <a name="when-to-use-tls"></a>Quand utiliser TLS
 
@@ -226,6 +226,6 @@ void ClientChangesSecurity ()
 [Packages COM et de sécurité](com-and-security-packages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

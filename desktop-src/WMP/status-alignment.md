@@ -3,18 +3,18 @@ title: Alignement de l’État
 description: Alignement de l’État
 ms.assetid: 8d23fa32-2a5f-4306-affd-76b50e717a6c
 keywords:
-- Apparences mobiles du lecteur Windows Media, affichage de l’État
+- Lecteur Windows Media Apparences mobiles, affichage de l’État
 - apparences, affichage de l’État
 - référence pour les apparences, affichage de l’État
 - affichage de l’État dans les apparences, alignement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f50b1a9824db4454ae549a38428a10f2e4f3e0c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9dbb9bb825329aa3f4ddbe98e8b8e3cfe6d26dd7a396c27394665ac6f7e54431
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995049"
 ---
 # <a name="status-alignment"></a>Alignement de l’État
 
@@ -30,18 +30,18 @@ Vous devez définir l’alignement de l’affichage d’État que vous souhaitez
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Statu**](status.md)
+[**Statut**](status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

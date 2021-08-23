@@ -5,12 +5,12 @@ ms.assetid: e99de576-ed73-4b91-a58c-4fae739d6709
 title: H (Service VSS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b285e503b8105481cbafa49ef25d8085f72250d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 235776eed621d744054be5cee9dc31b34af59a563def4f5eb2481b04a0c3ebf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056171"
 ---
 # <a name="h-volume-shadow-copy-service"></a>H (Service VSS)
 
@@ -28,7 +28,7 @@ Fournisseur qui gère les clichés instantanés au niveau du matériel en travai
 <span id="base.vssgloss_hidden_shadow_copy"></span><span id="BASE.VSSGLOSS_HIDDEN_SHADOW_COPY"></span>**clichés instantanés masqués**
 </dt> <dd>
 
-Un volume masqué, qui est un volume qui n’est pas monté et qui n’est pas exposé dans l’espace de noms Windows comme une lettre de lecteur ou un dossier monté.
+un volume masqué, qui est un volume qui n’est pas monté et qui n’est pas exposé dans le Windows espace de noms comme une lettre de lecteur ou un dossier monté.
 
 </dd> </dl>
 

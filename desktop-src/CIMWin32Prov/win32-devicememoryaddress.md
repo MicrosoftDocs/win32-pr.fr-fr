@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4aa7472e3c20808ff52f6f45b0dca57fd19f9dd6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 31d49baca4e11ce1908ba1d057819f216153f49353415c8b5465e70e3a607e00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020247"
 ---
 # <a name="win32_devicememoryaddress-class"></a>\_Classe DeviceMemoryAddress Win32
 
@@ -444,7 +444,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ DeviceMemoryAddress** est dérivée de [**Win32 \_ SystemMemoryResource**](win32-systemmemoryresource.md).
 

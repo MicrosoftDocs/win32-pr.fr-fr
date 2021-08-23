@@ -504,7 +504,7 @@
                   href: taskdefinition-principal.md
                 - name: TaskDefinition. RegistrationInfo
                   href: taskdefinition-registrationinfo.md
-                - name: TaskDefinition. Settings
+                - name: TaskDefinition. Paramètres
                   href: taskdefinition-settings.md
                 - name: TaskDefinition. déclencheurs
                   href: taskdefinition-triggers.md
@@ -569,7 +569,7 @@
             - name: TaskService
               href: taskservice.md
               items:
-                - name: TaskService. Connect
+                - name: TaskService. Connecter
                   href: taskservice-connect.md
                 - name: TaskService. Connected
                   href: taskservice-connected.md
@@ -1132,7 +1132,7 @@
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal
                     - name: Propriété RegistrationInfo de ITaskDefinition
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_registrationinfo
-                    - name: Propriété Settings de ITaskDefinition
+                    - name: Paramètres Propriété de ITaskDefinition
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings
                     - name: Déclenche la propriété de ITaskDefinition
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_triggers
@@ -1229,7 +1229,7 @@
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_highestversion
                     - name: Propriété TargetServer de la
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver
-                    - name: "La\_:: Connect"
+                    - name: "La\_:: Connecter"
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect
                     - name: "La\_:: GetFolder"
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-getfolder
@@ -1625,7 +1625,7 @@
                   href: taskschedulerschema-server-sendemailtype-element.md
                 - name: Élément SessionStateChangeTrigger (triggerGroup)
                   href: taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md
-                - name: Élément Settings (taskType)
+                - name: élément Paramètres (taskType)
                   href: taskschedulerschema-settings-tasktype-element.md
                 - name: Élément ShowMessage (actionGroup)
                   href: taskschedulerschema-showmessage-actiongroup-element.md

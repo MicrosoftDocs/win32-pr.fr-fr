@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_VPNv2_NativeProfile02
-description: La \_ \_ classe NativeProfile2 MDM VPNv2 définit les informations de profil lors de l’utilisation d’un protocole VPN de boîte aux lettres Windows (IKEV2, PPTP, L2TP).
+description: la \_ \_ classe NativeProfile2 MDM VPNv2 définit les informations de profil lors de l’utilisation d’un protocole VPN Windows boîte de réception (IKEv2, PPTP, L2TP).
 ms.assetid: 50c4adc6-baef-437c-8223-9aeaaec813af
 keywords:
 - Classe MDM_VPNv2_NativeProfile02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8573975c488df6e5c759e719d5c687f6a71c505
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b09152d705e7746aded2487d06c5668c766e37940a620a19ff15733ac6522459
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076953"
 ---
 # <a name="mdm_vpnv2_nativeprofile02-class"></a>\_ \_ Classe NATIVEPROFILE02 VPNv2 MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La **classe \_ \_ NativeProfile2 MDM VPNv2** définit les informations de profil lors de l’utilisation d’un protocole VPN de boîte aux lettres Windows (IKEV2, PPTP, L2TP).
+la **classe \_ \_ NativeProfile2 MDM VPNv2** définit les informations de profil lors de l’utilisation d’un protocole VPN Windows boîte de réception (IKEv2, PPTP, L2TP).
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées.
 
@@ -141,7 +141,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

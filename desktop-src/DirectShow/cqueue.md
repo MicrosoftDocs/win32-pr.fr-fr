@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4ceef0d29e0f6f06c30355a47e3274495f17dceb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf6c6225a393f8f6ff1848acc66c68b6d260b0c839f2cc9f1e24d06a11e88219
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953978"
 ---
 # <a name="cqueue-class"></a>CQueue, classe
 
@@ -40,7 +40,7 @@ Le modèle de classe **CQueue** implémente une file d’attente de taille stati
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le constructeur de classe spécifie la taille de la file d’attente. Utilisez [**CQueue ::P utqueueobject**](cqueue-putqueueobject.md) pour placer un élément dans la file d’attente, et la méthode [**CQueue :: GetQueueObject**](cqueue-getqueueobject.md) pour replacer un élément dans la file d’attente. Si la file d’attente est pleine, la méthode **PutQueueObject** se bloque jusqu’à ce qu’un élément soit déplacé dans la file d’attente. Si la file d’attente est vide, **GetQueueObject** se bloque jusqu’à ce qu’un élément soit mis en file d’attente. Le paramètre de modèle spécifie le type d’élément. Par exemple :
 
@@ -60,7 +60,7 @@ La classe utilise deux sémaphores pour contrôler les opérations de mise en fi
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

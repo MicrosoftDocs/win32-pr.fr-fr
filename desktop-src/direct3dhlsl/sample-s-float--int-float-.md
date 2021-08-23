@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e5c151c3d93f5e2fe374f0f60fd06798cf1ce52a
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: d22cf5fa8a8fe03a62b554def7caf28b4c4e8ab9065446bab9281e4e791e5d3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104102585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986219"
 ---
 # <a name="samplesfloatintfloat-function-hlsl-reference"></a>Fonction Sample (S, float, int, float) (référence HLSL)
 
@@ -102,7 +102,7 @@ Valeur facultative pour fixer l’exemple de valeurs LOD à. Par exemple, si vou
 
 Le format de texture, qui est l’une des valeurs typées énumérées dans le [**\_ format dxgi**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’échantillonnage de texture utilise la position Texel pour rechercher une valeur Texel. Un décalage peut être appliqué à la position avant la recherche. L’état de l’échantillonneur contient les options d’échantillonnage et de filtrage. Cette méthode peut être appelée dans un nuanceur de pixels, mais elle n’est pas prise en charge dans un nuanceur de sommets ou un nuanceur Geometry.
 

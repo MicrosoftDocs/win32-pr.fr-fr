@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - WmiPerfInst.dll
-ms.openlocfilehash: c28d0366c80e8838b36e17cd0fa1074b6ad33629
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55a765102d5fcc40caff41a7fa68184afea114838152dd84157d506a62c15da5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020137"
 ---
 # <a name="win32_perfformatteddata-class"></a>\_Classe PerfFormattedData Win32
 
-Classe de base abstraite pour les classes de données calculées préinstallées. Un exemple d’une telle classe est [**le \_ \_ \_ disque logique Win32 PerfFormattedData Perfdisk**](../wmisdk/retrieving-raw-and-formatted-performance-data.md). Ces classes contiennent des valeurs calculées fournies par le Fournisseur de données de performances haute performance [mis en forme](../wmisdk/formatted-performance-data-provider.md).
+Classe de base abstraite pour les classes de données calculées préinstallées. Un exemple d’une telle classe est [**le \_ \_ \_ disque logique Win32 PerfFormattedData Perfdisk**](../wmisdk/retrieving-raw-and-formatted-performance-data.md). ces classes contiennent des valeurs calculées fournies par le Fournisseur de données de performances haute performance [mis en forme](../wmisdk/formatted-performance-data-provider.md).
 
 La syntaxe suivante est simplifiée à partir du code MOF et montre toutes les propriétés héritées.
 
@@ -125,7 +125,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Fréquence en graduations par seconde de la propriété **Frequency \_ PerfTime** . Une valeur peut être obtenue en appelant la fonction Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
+Fréquence en graduations par seconde de la propriété **Frequency \_ PerfTime** . une valeur peut être obtenue en appelant la fonction Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
 
 Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les scripts, consultez [scripts dans WMI](/previous-versions//aa393262(v=vs.85)).
 
@@ -194,7 +194,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Horodateur du compteur de performances élevé. Une valeur peut être obtenue en appelant la fonction Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
+Horodateur du compteur de performances élevé. une valeur peut être obtenue en appelant la fonction Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
 
 Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les scripts, consultez [scripts dans WMI](/previous-versions//aa393262(v=vs.85)).
 
@@ -219,7 +219,7 @@ Cette propriété est héritée de la [**\_ performance Win32**](win32-perf.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PerfFormattedData** est dérivée de la [**\_ performance Win32**](win32-perf.md), qui est dérivée de [**CIM \_ StatisticalInformation**](cim-statisticalinformation.md). La classe se trouve dans l’espace de noms **\\ cimv2 racine** .
 
