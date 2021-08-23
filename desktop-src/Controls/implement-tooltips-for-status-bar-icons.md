@@ -4,27 +4,27 @@ description: Une méthode non intrusive pour afficher un message explicatif pour
 ms.assetid: AA7F17F2-63A4-4954-9DAB-788B73984628
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 277fb8d15654ae51565c1a461a9a8414d3e9213c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0a2bd100dc6edb2aac7b4c8c5df3781e76391ae2d9d0ad456533384ed8701f14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958578"
 ---
 # <a name="how-to-implement-tooltips-for-status-bar-icons"></a>Comment implémenter des info-bulles pour les icônes de barre d’État
 
 Une méthode non intrusive pour afficher un message explicatif pour une icône de barre d’état consiste à implémenter une info-bulle. L’info-bulle disparaît lorsque vous cliquez dessus, mais vous pouvez également spécifier une valeur de délai d’attente.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -58,7 +58,7 @@ Shell_NotifyIcon(NIM_MODIFY, &IconData);
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir une présentation détaillée de la barre d’État, consultez [la barre des tâches](/windows/desktop/shell/taskbar).
 
@@ -71,6 +71,6 @@ Pour afficher une info-bulle, vous devez définir l' \_ indicateur d’informati
 [Utilisation des contrôles ToolTip](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

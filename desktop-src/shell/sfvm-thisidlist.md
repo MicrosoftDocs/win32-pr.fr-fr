@@ -4,12 +4,12 @@ ms.assetid: 488f696d-aa71-4727-bbd2-c99e7d245d85
 title: Message SFVM_THISIDLIST (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e86e24199e5adbb895c8d1d5fc36bfff0c109bc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd00f1cfc2b6661dac2414f0327cab03d4c0586eb62b992b5e33f81e64565246
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968628"
 ---
 # <a name="sfvm_thisidlist-message"></a>\_Message SFVM THISIDLIST
 
@@ -37,14 +37,14 @@ Adresse du PIDL de la vue.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                |
 | Fin de la prise en charge des clients<br/>    | Windows XP SP2<br/>                                                      |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Shlobj. h</dt> </dl> |

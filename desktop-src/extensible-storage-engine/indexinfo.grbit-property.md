@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 55e16e08b82191f48bcab8813772d03dd243fd2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3767ee86d757901e396e3e54ce632dc2375e4ecc2aae3ba7ef32cbca64754294
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980699"
 ---
 # <a name="indexinfogrbit-property"></a>IndexInfo. Grbit, propriété
 

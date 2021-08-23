@@ -6,12 +6,12 @@ keywords:
 - WS_SERVICE_HOST
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b846fe1b57b1d77756503d4dc041970795466cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ae60e8096ea7c3cfec1e1391c7e30838f2b241cfacc9b79f8ffb776cc135750
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962768"
 ---
 # <a name="ws_service_host"></a>\_hôte de service WS \_
 
@@ -24,7 +24,7 @@ typedef struct _WS_SERVICE_HOST WS_SERVICE_HOST;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet est thread-safe. Pour plus d’informations, consultez [sécurité des threads](thread-safety.md).
 
@@ -34,8 +34,8 @@ Cet objet est thread-safe. Pour plus d’informations, consultez [sécurité des
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WebServices. h</dt> </dl> |
 
 

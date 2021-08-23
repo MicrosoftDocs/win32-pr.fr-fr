@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bde2db8adf2bb713df665e06eb2cc5f8d2a9a00f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea87239628f001feaa82f84ca8c50941b56d3eb99f486934b551e832d1f588c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955528"
 ---
 # <a name="camevent-class"></a>CAMEvent, classe
 
@@ -39,9 +39,9 @@ Cette classe offre un moyen pratique de gérer les événements, plutôt que d�
 | M&#233;thodes publiques                                      | Description                                                     |
 | [**CAMEvent**](camevent-camevent.md)               | Méthode de constructeur.                                             |
 | [**~ CAMEvent**](camevent--camevent.md)             | Méthode de destructeur.                                              |
-| [**Vérification**](camevent-check.md)                     | Vérifie si l’événement est défini, sans blocage.              |
-| [**Réinitialiser**](camevent-reset.md)                     | Définit l’état de l’événement comme étant non signalé.                     |
-| [**Définissez**](camevent-set.md)                         | Signale l’événement.                                              |
+| [**Chèque**](camevent-check.md)                     | Vérifie si l’événement est défini, sans blocage.              |
+| [**Initialisation**](camevent-reset.md)                     | Définit l’état de l’événement comme étant non signalé.                     |
+| [**Définie**](camevent-set.md)                         | Signale l’événement.                                              |
 | [**Wait**](camevent-wait.md)                       | Bloque jusqu’à ce que l’événement soit signalé, ou jusqu’à ce qu’un délai d’attente se produise. |
 | Opérateurs                                           | Description                                                     |
 | [**HANDLE d’opérateur**](camevent-operator-handle.md) | Récupère le handle d’événement.                                     |
@@ -56,7 +56,7 @@ Cette classe offre un moyen pratique de gérer les événements, plutôt que d�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

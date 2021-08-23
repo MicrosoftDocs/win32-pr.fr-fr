@@ -8,12 +8,12 @@ keywords:
 - pavage d’objets OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 590ab571e656fcd346da265bfa921cb965fdf540
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: efc2ca11fd037f79a88fed1568c97a24692060d723327cde0c8e8842ed21d084
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011897"
 ---
 # <a name="using-tessellation-objects"></a>Utilisation d’objets pavage
 
@@ -23,9 +23,9 @@ Si vous n’avez plus besoin d’un objet polygonalisation, vous pouvez le suppr
 
 Vous pouvez réutiliser un seul objet pavage pour tous vos pavages. Cet objet est requis uniquement parce que les fonctions de bibliothèque peuvent avoir besoin d’effectuer leurs propres pavages, et qu’ils doivent pouvoir le faire sans interférer avec les facettes que votre programme exécute. Plusieurs objets de pavage sont également utiles si vous souhaitez utiliser différents jeux de rappels pour différents pavages. En général, toutefois, vous allouez un seul objet pavage et l’utilisez pour tous les pavages. Il n’y a pas vraiment besoin de le libérer, car il utilise une petite quantité de mémoire. En revanche, si vous écrivez une fonction de bibliothèque qui utilise le pavage GLU, veillez à libérer tous les objets de pavage que vous créez.
 
- 
+ 
 
- 
+ 
 
 
 

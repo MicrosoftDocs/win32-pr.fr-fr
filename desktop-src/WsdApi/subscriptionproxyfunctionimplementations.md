@@ -4,12 +4,12 @@ ms.assetid: aa26a3f1-df1e-4caa-9ada-6f4a6627b6b8
 title: élément subscriptionProxyFunctionImplementations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9a3cba202c05d3f8b43b31c292dad8d601dc4e4
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: bf0abc98e0e9bebd4ff2185d669402c0dae025c07bc4af84be3116dda97b6657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991569"
 ---
 # <a name="subscriptionproxyfunctionimplementations-element"></a>élément subscriptionProxyFunctionImplementations
 
@@ -41,7 +41,7 @@ Génère des implémentations pour les fonctions proxy d’abonnement/annulation
 | Élément                                                           | Description                                                                                            |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [**notificationInterface**](notificationinterface.md)<br/> | Spécifie le nom de l’interface de notification utilisée avec les abonnements aux événements.<br/> <br/> |
-| [**opération**](operation.md)<br/>                         | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                       |
+| [**operation**](operation.md)<br/>                         | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                       |
 | [**portType**](porttype.md)<br/>                           | Spécifie le type de port pour lequel le code doit être généré.<br/> <br/>                      |
 | [**proxyClass**](proxyclass.md)<br/>                       | Spécifie le nom de la classe de proxy côté client.<br/> <br/>                              |
 
@@ -72,7 +72,7 @@ Génère des implémentations pour les fonctions proxy d’abonnement/annulation
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

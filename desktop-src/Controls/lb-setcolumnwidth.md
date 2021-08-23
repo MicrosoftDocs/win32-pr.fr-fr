@@ -3,7 +3,7 @@ title: Message LB_SETCOLUMNWIDTH (winuser. h)
 description: Définit la largeur, en pixels, de toutes les colonnes dans une zone de liste à plusieurs colonnes.
 ms.assetid: 227baae1-98f1-450e-97d4-4c7e9142614e
 keywords:
-- LB_SETCOLUMNWIDTH les contrôles de message Windows
+- LB_SETCOLUMNWIDTH les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a63e508098823cd81646755ff5ad375d3c1436dc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c623748d22c90ca4f190c330aeee5c687c9339e7726d716aa67620ad291a54b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958587"
 ---
 # <a name="lb_setcolumnwidth-message"></a>\_Message SETCOLUMNWIDTH lb
 
@@ -53,8 +53,8 @@ Ce message ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

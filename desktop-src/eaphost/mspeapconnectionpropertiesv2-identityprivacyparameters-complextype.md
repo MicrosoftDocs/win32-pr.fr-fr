@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8360065e2ce124531bec63637e2b6560cfc32f54
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 18bef3eb69ab2799f7139fe2886d89e996fb8fb47d178997694c568450fb8340
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104101137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983899"
 ---
 # <a name="identityprivacyparameters-complex-type"></a>Type complexe IdentityPrivacyParameters
 
@@ -47,9 +47,9 @@ Le type complexe **IdentityPrivacyParameters** contient des informations sur l�
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément IdentityPrivacyParameters est facultatif.
 
@@ -66,9 +66,9 @@ L’élément IdentityPrivacyParameters est facultatif.
 [Types complexes mspeapconnectionpropertiesv2](mspeapconnectionpropertiesv2schema-complex-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

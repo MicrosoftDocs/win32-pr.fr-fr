@@ -4,12 +4,12 @@ description: Les normes TCP/IP sont définies dans les RFC (Request for Comments
 ms.assetid: d02edf40-d5e0-4f58-a440-a13c160d6735
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6820e43a924824877b50f528cfad7e109407450
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c9ee622c3ef261e6d0e400d23dc4244ffffecf6617964548b2fcb266d3735764
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009107"
 ---
 # <a name="rfcs-relevant-to-winsnmp"></a>RFC relatives à WinSNMP
 
@@ -17,12 +17,12 @@ Les normes TCP/IP sont définies dans les RFC (Request for Comments), qui sont p
 
 
 
-| Numéro RFC | Intitulé                                                                                                  |
+| Numéro RFC | Titre                                                                                                  |
 |------------|--------------------------------------------------------------------------------------------------------|
 | 1155       | « Structure et identification des informations de gestion pour les Internet TCP/IP »                    |
 | 1157       | « Un protocole SNMP (simple Network Management Protocol) »                                                          |
 | 1213       | « Base d’informations de gestion pour la gestion de réseau des réseaux Internet TCP/IP : MIB-II »                 |
-| 1901       | « Présentation de SNMPv2 basé sur la communauté »                                                               |
+| 1901       | « présentation de la base de Community SNMPv2 »                                                               |
 | 1902       | « Structure des informations de gestion pour la version 2 du protocole SNMP (simple Network Management Protocol) » |
 | 1903       | « Conventions textuelles pour la version 2 du protocole SNMP (simple Network Management Protocol) »                 |
 | 1904       | « Instructions de conformité pour la version 2 du protocole SNMP (simple Network Management Protocol) »              |
@@ -34,11 +34,11 @@ Les normes TCP/IP sont définies dans les RFC (Request for Comments), qui sont p
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

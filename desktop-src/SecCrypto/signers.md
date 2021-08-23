@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 75eba0ecb2592bf7efc27ecdd63288179e306651
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 62c5f59fc90d0d34226b4442b8fa443ad734d474e8077bf210df8bfdf752b1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898332"
 ---
 # <a name="signers-object"></a>Objet des signataires
 
@@ -48,25 +48,25 @@ L’objet des **signataires** possède ces propriétés.
 
 | Propriété                                        | Type d’accès          | Description                                                                                                                                                                                                                     |
 |:------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](signers-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. Cette propriété est masquée dans Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Saut**](signers-count.md)<br/>       | Lecture seule<br/> | Nombre d’objets [**signataires**](signer.md) dans la collection.<br/>                                                                                                                                                        |
+| [**\_NewEnum**](signers-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. cette propriété est masquée dans Visual Basic scripting Edition (VBScript).<br/> |
+| [**Count**](signers-count.md)<br/>       | Lecture seule<br/> | Nombre d’objets [**signataires**](signer.md) dans la collection.<br/>                                                                                                                                                        |
 | [**Élément**](signers-item.md)<br/>         | Lecture seule<br/> | Récupère l’objet [**signataire**](signer.md) qui représente le signataire indexé. Il s’agit de la propriété par défaut.<br/>                                                                                                      |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Impossible de créer l’objet des **signataires** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

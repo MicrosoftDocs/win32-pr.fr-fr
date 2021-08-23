@@ -7,12 +7,12 @@ keywords:
 - Assemblage des chaînes de requête ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e56dec34f63a4a3e12385a36ad5fe5339a0f3d9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 610ba78d6536d9cfe12f296fcbfa46d04cd572ae05cdb7d3bb8b0e1e7b5d32a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962194"
 ---
 # <a name="assembling-query-strings"></a>Assemblage des chaînes de requête
 
@@ -22,9 +22,9 @@ Dans Active Directory, l’utilisation de critères de filtrage spécifiques per
 
 Lorsque cela est possible, recherchez des attributs indexés. Les attributs indexés sont stockés sur tous les contrôleurs de domaine, de sorte que la requête sera plus rapide que la recherche d’un attribut non indexé.
 
- 
+ 
 
- 
+ 
 
 
 

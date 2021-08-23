@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dcf9d192c999333ee8b4e341e7722cd6bd59ff5
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 8c0f55c5ea3828c72456989f7053e2ff008e524e41552b281b88839653229863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103940717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962898"
 ---
 # <a name="schema-support"></a>Prise en charge des schémas
 
@@ -670,9 +670,9 @@ HRESULT CALLBACK SimpleMethod (
 
 Consultez la section sécurité dans l' [outil compilateur Wsutil](wsutil-compiler-tool.md) et [sérialisation](serialization.md)
 
- 
+ 
 
- 
+ 
 
 
 

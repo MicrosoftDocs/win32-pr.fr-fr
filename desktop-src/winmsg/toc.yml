@@ -1,4 +1,4 @@
-- name: Fenêtres et messages
+- name: Windows et Messages
   href: windowing.md
   items:
     - name: Windows

@@ -4,12 +4,12 @@ ms.assetid: 6f9817f2-c965-4205-b6fd-45dbf1bffab9
 title: Catégories d’objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a969d2f53643d2ce8cdece663920bc33b76608fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5bbf3dbc5a0136ea03b6e0bd3f895bca4cd333d05a55f9d576aad0c7e36364c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885374"
 ---
 # <a name="object-categories"></a>Catégories d’objets
 
@@ -22,7 +22,7 @@ Le système fournit trois catégories d’objets : utilisateur, interface GDI (
 | Table d’accélérateurs | [Raccourcis clavier](../menurc/keyboard-accelerators.md)                                       |
 | Signe insertion             | [Signes](../menurc/carets.md)                                                                     |
 | Curseur            | [Curseurs](../menurc/cursors.md)                                                                   |
-| Conversation DDE  | [Bibliothèque de gestion des échange dynamique de données](../dataxchg/dynamic-data-exchange-management-library.md) |
+| Conversation DDE  | [bibliothèque de gestion des échange dynamique de données](../dataxchg/dynamic-data-exchange-management-library.md) |
 | Hook              | [Hooks](../winmsg/hooks.md)                                                                       |
 | Icône              | [Icônes](../menurc/icons.md)                                                                       |
 | Menu              | [Menus](../menurc/menus.md)                                                                       |
@@ -58,7 +58,7 @@ Le système fournit trois catégories d’objets : utilisateur, interface GDI (
 
 | Objet de noyau         | Vue d’ensemble                                                                        |
 |-----------------------|---------------------------------------------------------------------------------|
-| Access token (Jeton d’accès)          | [Contrôle d’accès](/windows/desktop/SecAuthZ/access-control)                                       |
+| Access token (Jeton d’accès)          | [Access Control](/windows/desktop/SecAuthZ/access-control)                                       |
 | Notification de modification   | [Notifications de modification de répertoire](/windows/desktop/FileIO/obtaining-directory-change-notifications) |
 | Appareil de communication | [Communications](/windows/desktop/DevIO/communications-resources)                                 |
 | Entrée de la console         | [Applications en mode caractère](/windows/console/character-mode-applications)                 |
@@ -78,7 +78,7 @@ Le système fournit trois catégories d’objets : utilisateur, interface GDI (
 | Semaphore             | [Synchronisation](/windows/desktop/Sync/synchronization)                                         |
 | Prise                | [Windows Sockets 2](/windows/desktop/WinSock/windows-sockets-start-page-2)                       |
 | Thread                | [Processus et threads](/windows/desktop/ProcThread/processes-and-threads)                             |
-| Minuteur                 | [Synchronisation](/windows/desktop/Sync/synchronization)                                         |
+| Minuterie                 | [Synchronisation](/windows/desktop/Sync/synchronization)                                         |
 | File d’attente du minuteur           | [Synchronisation](/windows/desktop/Sync/synchronization)                                         |
 | Minuteur-minuteur de file d’attente     | [Synchronisation](/windows/desktop/Sync/synchronization)                                         |
 | Mettre à jour une ressource       | [Ressources](../menurc/resources.md)                                               |

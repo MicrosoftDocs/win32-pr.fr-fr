@@ -4,12 +4,12 @@ ms.assetid: bbb777fe-b97e-4777-b797-ec8525065610
 title: Création d’une DLL d’extension de performance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d397f1581454aca1b25c447b35f250eefd215f57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1ef4509af77bcc1a4016e494a2834d40162305a837349e32a573cbf36d994d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011317"
 ---
 # <a name="creating-a-performance-extension-dll"></a>Création d’une DLL d’extension de performance
 
@@ -18,7 +18,7 @@ ms.locfileid: "103865125"
 
 Un [fournisseur v1](providing-counter-data.md) utilise une dll de performance qui fournit des données de compteur aux consommateurs. La DLL de performance doit exporter les fonctions [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)), [**CollectPerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_collect_proc)et [**ClosePerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_close_proc) . En général, vous utilisez un fichier de définition de module (. def) pour exporter les fonctions à partir de la DLL. Le système appelle ces fonctions lorsqu’un consommateur interroge des données de performances.
 
-La première fois qu’un consommateur appelle [**RegQueryValueEx**](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa), ou si le consommateur utilise la fonction [**RegOpenKey**](/windows/desktop/api/winreg/nf-winreg-regopenkeya) ou [**RegConnectRegistry**](/windows/desktop/api/winreg/nf-winreg-regconnectregistrya) pour ouvrir `HKEY_PERFORMANCE_DATA` , le système appelle la fonction [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)) pour chaque fournisseur [inscrit](adding-performance-counters.md) sur l’ordinateur. L’exception est si le fournisseur spécifie la liste d’objets qu’il prend en charge dans la `[objects]` section de. Fichier INI. Dans ce cas, le système appelle le fournisseur uniquement si l’un des objets interrogés correspond à un objet de la liste.
+La première fois qu’un consommateur appelle [**RegQueryValueEx**](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa), ou si le consommateur utilise la fonction [**RegOpenKey**](/windows/desktop/api/winreg/nf-winreg-regopenkeya) ou [**RegConnectRegistry**](/windows/desktop/api/winreg/nf-winreg-regconnectregistrya) pour ouvrir `HKEY_PERFORMANCE_DATA` , le système appelle la fonction [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)) pour chaque fournisseur [inscrit](adding-performance-counters.md) sur l’ordinateur. L’exception est si le fournisseur spécifie la liste des objets qu’il prend en charge dans la `[objects]` section du fichier .INI. Dans ce cas, le système appelle le fournisseur uniquement si l’un des objets interrogés correspond à un objet de la liste.
 
 La fonction [**OpenPerformanceData**](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)) donne à chaque fournisseur la possibilité d’initialiser ses structures de données de performances. Ensuite, si la fonction **OpenPerformanceData** retourne avec succès, le système appelle la fonction [**CollectPerformanceData**](/windows/win32/api/winperf/nc-winperf-pm_collect_proc) du fournisseur. Les appels suivants à [**RegQueryValueEx**](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) provoquent l’appel de la fonction **CollectPerformanceData** par le système.
 

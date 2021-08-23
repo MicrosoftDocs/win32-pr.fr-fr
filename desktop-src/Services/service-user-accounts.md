@@ -4,12 +4,12 @@ ms.assetid: a0e48918-6957-4288-a188-d65198b38c16
 title: Comptes d’utilisateur de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54c72f332b8eddbc5b5929718b6688f75e226e59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6053a4f870b2a49923d802f7cb5f2a45b786d63314d1010773c3e8f58627bec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888546"
 ---
 # <a name="service-user-accounts"></a>Comptes d’utilisateur de service
 

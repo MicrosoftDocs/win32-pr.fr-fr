@@ -3,19 +3,19 @@ title: Élément COLUMN
 description: Élément COLUMN
 ms.assetid: 2ea8f730-91e2-47a6-acdf-e402fdd11f87
 keywords:
-- Apparences du lecteur Windows Media, élément COLUMN
+- apparences de Lecteur Windows Media, élément COLUMN
 - Skins, élément COLUMN
 - COLUMN (élément)
 - référence pour les apparences, élément COLUMN
 - éléments, colonne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd0c69472c53cd6ab5101694343ed7513a9941e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91502ce75c9fd7ad9505f4f44b874ec23077b7ed98988f3174cd373198a17a1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997649"
 ---
 # <a name="column-element"></a>Élément COLUMN
 
@@ -34,7 +34,7 @@ L’élément **Column** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -43,9 +43,9 @@ L’élément **Column** prend en charge les attributs suivants.
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

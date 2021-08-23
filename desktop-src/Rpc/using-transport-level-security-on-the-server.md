@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, à l’aide de la sécurité au niveau du transport sur le serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39af5b8fb43a57683804eb7b91067ca9faad4390
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6abd1f072f249336f4804aed56fb1122556596c43286383b763839d988a2406b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010587"
 ---
 # <a name="using-transport-level-security-on-the-server"></a>Utilisation de la sécurité au niveau du transport sur le serveur
 
@@ -27,6 +27,6 @@ Pour garantir que l’application serveur est accessible à tous les clients, l�
 
 Pour plus d’informations sur ces fonctions et les fonctions [**RpcImpersonateClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) et [**RpcRevertToSelf**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcreverttoself).
 
- 
+ 
 
- 
+ 

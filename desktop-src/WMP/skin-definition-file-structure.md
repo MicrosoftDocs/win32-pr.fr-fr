@@ -3,18 +3,18 @@ title: Structure du fichier de définition d’apparence
 description: Structure du fichier de définition d’apparence
 ms.assetid: 6b9ea288-ec64-473b-b796-ab637517099a
 keywords:
-- Apparences du lecteur Windows Media, fichiers de définition d’apparence
+- apparences de Lecteur Windows Media, fichiers de définition d’apparence
 - apparences, fichiers de définition d’apparence
 - fichiers pour les apparences, définition d’apparence
 - fichiers de définition d’apparence, structure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a64226fb918bcbf93c95ece52075e2c8e7ed13e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6c708e46f93e2d00820015a04b0f467da2deafe59e4dbafb0b9e4f3fb8660271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995279"
 ---
 # <a name="skin-definition-file-structure"></a>Structure du fichier de définition d’apparence
 
@@ -44,9 +44,9 @@ Si vous créez plusieurs vues, vous devez vous assurer que chaque vue a une vale
 
 Chaque élément de **vue** peut également avoir un ou plusieurs éléments de sous- **affichage** . Un élément de sous- **affichage** est semblable à une **vue** et peut être utilisé pour des parties de l’apparence que vous souhaitez déplacer, masquer ou afficher. Par exemple, un élément de sous- **affichage** peut être utilisé pour créer une barre coulissante qui s’affiche en dehors de votre apparence pour afficher un égaliseur graphique. Les éléments de sous- **affichage** peuvent être alignés avec la **vue** et avoir d’autres relations spéciales avec la **vue**.
 
-## <a name="initializing-windows-media-player"></a>Initialisation du lecteur Windows Media
+## <a name="initializing-windows-media-player"></a>initialisation de Lecteur Windows Media
 
-Vous pouvez définir certaines propriétés initiales du lecteur Windows Media à l’aide des éléments **Player**, **Settings** et **Controls** . Par exemple, vous pouvez définir le volume sur un niveau initial ou attribuer une valeur par défaut à un nom de fichier.
+vous pouvez définir certaines propriétés initiales de Lecteur Windows Media à l’aide des éléments **Player**, **settings** et **controls** . Par exemple, vous pouvez définir le volume sur un niveau initial ou attribuer une valeur par défaut à un nom de fichier.
 
 Le code suivant montre comment définir la valeur de l' **URL** dans une apparence :
 
@@ -128,15 +128,15 @@ Si un élément peut être vu par l’utilisateur, il est appelé contrôle. Les
 -   Fenêtres de sélection
 -   Sous-affichage Windows
 
-En outre, plusieurs éléments peuvent être utilisés pour définir plus précisément les actions du lecteur Windows Media, mais ils requièrent des éléments visuels tels que des boutons ou des curseurs :
+en outre, plusieurs éléments peuvent être utilisés pour définir plus précisément Lecteur Windows Media actions, mais ils requièrent des éléments visuels tels que des boutons ou des curseurs :
 
 -   Paramètres vidéo
--   Paramètres de l’égaliseur
+-   Paramètres égaliseur
 -   Paramètres de visualisation
 
 ## <a name="buttons"></a>Boutons
 
-Les boutons sont la partie la plus courante d’une apparence. Vous pouvez utiliser des boutons pour déclencher des actions telles que lire, arrêter, quitter, réduire et basculer vers un affichage différent. Le lecteur Windows Media fournit au créateur d’apparences deux types d’éléments Button : l’élément **Button** et l’élément **BUTTONGROUP** . En outre, il existe plusieurs types prédéfinis de boutons.
+Les boutons sont la partie la plus courante d’une apparence. Vous pouvez utiliser des boutons pour déclencher des actions telles que lire, arrêter, quitter, réduire et basculer vers un affichage différent. Lecteur Windows Media fournit au créateur d’apparences deux types d’éléments button : l’élément **button** et l’élément **BUTTONGROUP** . En outre, il existe plusieurs types prédéfinis de boutons.
 
 -   **Élément BUTTON.** L’élément **Button** est utilisé pour les boutons individuels. Si vous utilisez l’élément **Button** , vous devez fournir une image pour chaque bouton et définir l’emplacement exact où vous souhaitez que le bouton apparaisse par rapport à l’image d’arrière-plan. L’un des avantages de l’élément **Button** est que vous pouvez modifier l’image de bouton de manière dynamique.
 -   **Élément BUTTONGROUP.** L’élément **BUTTONGROUP** est utilisé pour les groupes de boutons. En fait, vous devez placer chaque élément **BUTTONGROUP** avec une paire de balises **BUTTONGROUP** . L’utilisation de groupes de boutons est plus simple que l’utilisation de boutons individuels, car vous n’avez pas besoin de spécifier l’emplacement exact de chaque bouton. Au lieu de cela, vous fournissez une carte d’images distincte qui définit les actions qui se produisent lorsque la souris pointe sur une zone de votre arrière-plan ou clique dessus. L’utilisation de cartes d’images est simple, car vous pouvez prendre l’image que vous avez créée pour votre arrière-plan et la copier dans une couche de mappage dans votre programme d’édition de graphiques. L’utilisation de votre programme d’édition graphique est plus rapide et plus précise que la tentative de définition exacte de l’emplacement d’un bouton individuel sur l’arrière-plan.
@@ -160,15 +160,15 @@ Vous pouvez afficher une vidéo dans votre apparence. L’élément **Video** vo
 
 Vous pouvez également autoriser l’utilisateur à modifier les paramètres vidéo avec l’élément **VIDEOSETTINGS** . Par exemple, vous pouvez créer des contrôles pour ajuster la luminosité de la vidéo.
 
-Si vous ne fournissez pas d’élément vidéo et que le contenu contient une vidéo, le lecteur Windows Media revient en mode complet et votre apparence ne s’affiche pas.
+si vous ne fournissez pas d’élément vidéo et que le contenu contient de la vidéo, Lecteur Windows Media repasse en mode complet et votre apparence ne s’affiche pas.
 
-## <a name="equalizer-settings"></a>Paramètres de l’égaliseur
+## <a name="equalizer-settings"></a>Paramètres égaliseur
 
 Vous pouvez définir le filtrage pour des bandes de fréquence audio spécifiques à l’aide de l’élément **EQUALIZERSETTINGS** . Vous pouvez amplifier les basses, ajuster les aigus et configurer vos sons pour qu’ils correspondent à vos oreilles ou à votre salon.
 
 ## <a name="visualizations"></a>Visualisations
 
-Vous pouvez afficher des visualisations dans votre apparence. Les visualisations sont des effets visuels qui changent au fil du temps à mesure que le son est lu par le biais du lecteur Windows Media. L’élément **Effects** détermine l’emplacement de lecture des visualisations, la taille de la fenêtre et les visualisations qui seront jouées.
+Vous pouvez afficher des visualisations dans votre apparence. les visualisations sont des effets visuels qui changent au fil du temps à mesure que l’audio est lu par Lecteur Windows Media. L’élément **Effects** détermine l’emplacement de lecture des visualisations, la taille de la fenêtre et les visualisations qui seront jouées.
 
 ## <a name="playlists"></a>Sélections
 
@@ -185,9 +185,9 @@ Vous pouvez utiliser l’élément de sous- **affichage** pour afficher des jeux
 [**Fichiers d’apparence**](skin-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

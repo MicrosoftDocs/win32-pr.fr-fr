@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f796b30d2676df76803ec407423e34e8cd96ecb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 994719462ae47396e5765cde7ed24faf19f486c8052d089888e5751687b5619d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106524810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960759"
 ---
 # <a name="ms-ds-hab-seniority-index-attribute"></a>ms-DS-HAB-attribut d’ancienneté-index
 
@@ -36,13 +36,13 @@ Contient l’index d’ancienneté tel qu’il est appliqué par l’organisatio
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1997              |
 | System-ID-GUID    | def449f1-fd3b-4045-98cf-d9658da788b5 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0a261d63ad47dcf12728b8bcd0025ec578ede0b4
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3c33242ec23070a78e8adee159d35c19121dcc7c3dfe2c013c3d00adceb16477
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043777"
 ---
 # <a name="logp---vs"></a>logP-vs
 
@@ -29,14 +29,14 @@ Précision partielle logP ₂ (x).
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source. Le registre source nécessite l’utilisation explicite de Swizzle répliqués, c’est-à-dire qu’exactement l’un des composants. x,. y,. z,. w Swizzle (ou. r,. g,. b,. a équivalents) doit être spécifié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Le fragment de code suivant montre les opérations effectuées.
 
@@ -70,9 +70,9 @@ Cette instruction fournit un logarithme de base 2 de précision partielle, jusqu
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

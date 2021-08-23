@@ -3,28 +3,28 @@ title: Référence d’attribut alphabétique
 description: Référence d’attribut alphabétique
 ms.assetid: 12fdeba6-14db-4689-a3cb-cb36dbc9204f
 keywords:
-- Lecteur Windows Media, attributs des éléments multimédias
-- Windows Media Player Mobile, attributs pour les éléments multimédias
-- Modèle objet du lecteur Windows Media, référence
+- Lecteur Windows Media, attributs pour les éléments multimédias
+- Lecteur Windows Media Mobile, attributs pour les éléments multimédias
+- Lecteur Windows Media modèle objet, référence
 - modèle objet, référence
-- Contrôle ActiveX, référence
-- Contrôle ActiveX du lecteur Windows Media, référence
-- Windows Media Player Mobile contrôle ActiveX, référence
+- contrôle ActiveX, référence
+- Lecteur Windows Media ActiveX contrôle, référence
+- Lecteur Windows Media contrôle Mobile ActiveX, référence
 - référence pour le modèle objet, les attributs
-- Modèle objet du lecteur Windows Media, attributs des éléments multimédias
+- Lecteur Windows Media modèle objet, attributs pour les éléments multimédias
 - modèle objet, attributs pour les éléments multimédias
-- Contrôle ActiveX du lecteur Windows Media, attributs des éléments multimédias
-- Contrôle ActiveX Windows Media Player Mobile, attributs des éléments multimédias
-- Contrôle ActiveX, attributs pour les éléments multimédias
+- Lecteur Windows Media ActiveX contrôle, attributs pour les éléments multimédias
+- Lecteur Windows Media contrôle de ActiveX Mobile, attributs pour les éléments multimédias
+- contrôle ActiveX, attributs pour les éléments multimédias
 - attributs, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eed878b474098e68701ad8bdde0e3d207c4b8596
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 41fae63365e9670119d89d11a2faf2d2d9979e7c21aeac2fc5975f072a07f086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055317"
 ---
 # <a name="alphabetical-attribute-reference"></a>Référence d’attribut alphabétique
 
@@ -156,7 +156,7 @@ Cette section fournit une liste alphabétique des attributs prédéfinis utilis�
 -   [**Attribut WM/AlbumArtist**](wm-albumartist-attribute.md)
 -   [**Attribut WM/AlbumTitle**](wm-albumtitle-attribute.md)
 -   [**Attribut WM/Category**](wm-category-attribute.md)
--   [**Attribut WM/composer**](wm-composer-attribute.md)
+-   [**attribut WM/Composer**](wm-composer-attribute.md)
 -   [**Attribut WM/conducteur**](wm-conductor-attribute.md)
 -   [**Attribut WM/ContentDistributor**](wm-contentdistributor-attribute.md)
 -   [**Attribut WM/ContentDistributorType**](wm-contentdistributortype-attribute.md)
@@ -186,7 +186,7 @@ Cette section fournit une liste alphabétique des attributs prédéfinis utilis�
 -   [**Attribut WM/Provider**](wm-provider-attribute.md)
 -   [**Attribut WM/ProviderRating**](wm-providerrating-attribute.md)
 -   [**Attribut WM/ProviderStyle**](wm-providerstyle-attribute.md)
--   [**Attribut WM/Publisher**](wm-publisher-attribute.md)
+-   [**attribut WM/Publisher**](wm-publisher-attribute.md)
 -   [**Attribut WM/SubscriptionContentID**](wm-subscriptioncontentid-attribute.md)
 -   [**Attribut WM/subsous-titre**](wm-subtitle-attribute.md)
 -   [**Attribut WM/SubTitleDescription**](wm-subtitledescription-attribute.md)
@@ -210,9 +210,9 @@ Cette section fournit une liste alphabétique des attributs prédéfinis utilis�
 [**Référence d’attribut**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

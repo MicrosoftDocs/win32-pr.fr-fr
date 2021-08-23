@@ -4,20 +4,20 @@ description: Media Foundation et DirectShow fournissent la base de la prise en c
 ms.assetid: 020f009c-7432-432b-a39b-9295dd784d2e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f756112384451ac3f5b4055d73a60a170b2e29
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d0a4db7d84745f64f3fe80faed267e58d1f5ddbce4ab82ed75b38453f82b0e3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964578"
 ---
 # <a name="media-platform"></a>Plateforme multimédia
 
-[Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) et [DirectShow](/windows/desktop/DirectShow/directshow) fournissent la base de la prise en charge des médias dans Windows. Media Foundation a été introduit dans Windows Vista comme remplacement de DirectShow. Dans Windows 7, Media Foundation a été amélioré pour fournir une meilleure prise en charge du format, notamment *MPEG-4*, ainsi que la prise en charge des périphériques de capture vidéo et des codecs matériels.
+[Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) et [DirectShow](/windows/desktop/DirectShow/directshow) fournissent la base de la prise en charge des médias dans Windows. Media Foundation a été introduite dans Windows Vista comme remplacement de DirectShow. dans Windows 7, Media Foundation a été amélioré pour fournir une meilleure prise en charge du format, notamment *MPEG-4*, ainsi que la prise en charge des périphériques de capture vidéo et des codecs matériels.
 
 ## <a name="format-support"></a>Prise en charge du format
 
-Dans Windows 7, [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) fournit une prise en charge complète du format qui inclut les codecs pour les vidéos *H. 264* , *MJPEG* et *mp3*. nouvelles sources pour *MP4*, *3GP*, audio *AAC* et *AVI*; et nouveaux récepteurs de fichiers pour *MP4*, *3GP* et *mp3*. (Consultez [formats multimédias pris en charge dans Media Foundation](../medfound/supported-media-formats-in-media-foundation.md).)
+dans Windows 7, [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) offre une prise en charge complète du format qui inclut les codecs pour les vidéos *H. 264* , *MJPEG* et *MP3*. nouvelles sources pour *MP4*, *3GP*, audio *AAC* et *AVI*; et nouveaux récepteurs de fichiers pour *MP4*, *3GP* et *mp3*. (Consultez [formats multimédias pris en charge dans Media Foundation](../medfound/supported-media-formats-in-media-foundation.md).)
 
 ## <a name="hardware-devices"></a>Périphériques matériels
 
@@ -28,13 +28,13 @@ Dans Windows 7, [Media Foundation](/windows/desktop/medfound/microsoft-media-fou
 -   Encodeurs et décodeurs matériels
 -   Processeurs vidéo matériels, tels que les convertisseurs d’espace colorimétrique
 
-Les codecs matériels peuvent effectuer un transcodage vidéo très rapide. Supposons, par exemple, que vous souhaitiez transférer un fichier *Windows Media Video (WMV)* sur un téléphone portable qui prend uniquement en charge les fichiers *3GP* . Avec un encodeur matériel, le fichier peut être transcodé « en fonction des besoins » immédiatement avant d’être transféré vers l’appareil.
+Les codecs matériels peuvent effectuer un transcodage vidéo très rapide. supposons, par exemple, que vous souhaitiez transférer un fichier *Windows Media Video (WMV)* sur un téléphone portable qui prend uniquement en charge les fichiers *3gp* . Avec un encodeur matériel, le fichier peut être transcodé « en fonction des besoins » immédiatement avant d’être transféré vers l’appareil.
 
 Les périphériques matériels sont représentés en [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) par un objet proxy et sont utilisés dans le pipeline, comme les composants logiciels. (Voir [Nouveautés de Media Foundation](../medfound/whats-new-for-media-foundation.md).)
 
 ## <a name="simplified-programming-model"></a>Modèle de programmation simplifié
 
-Dans Windows Vista, [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) exposé un ensemble relativement bas d’API. Ces API sont flexibles, mais elles peuvent ne pas convenir à l’exécution de tâches. Windows 7 ajoute de nouvelles API de haut niveau qui simplifient l’écriture d’applications multimédias en *C++*. Ces nouvelles API de haut niveau sont les suivantes :
+dans Windows Vista, [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) exposé un ensemble relativement bas d’api. Ces API sont flexibles, mais elles peuvent ne pas convenir à l’exécution de tâches. Windows 7 ajoute de nouvelles api de haut niveau qui simplifient l’écriture d’applications multimédias en *C++*. Ces nouvelles API de haut niveau sont les suivantes :
 
 -   **MFPlay**. Ces API sont conçues pour la lecture audio et vidéo. Ils prennent en charge les opérations de lecture classiques (arrêter, suspendre, lire, Rechercher, contrôle de débit, volume audio, etc.), tout en masquant les détails des API de bas niveau (couches de session et de topologie).
 -   **Lecteur source**. Vous pouvez utiliser ces API pour extraire des données brutes ou décodées d’un fichier multimédia, sans connaître le format sous-jacent. Par exemple, vous pouvez obtenir une image bitmap à partir d’un fichier vidéo ou obtenir des images vidéo en direct à partir d’une webcam.
@@ -43,7 +43,7 @@ Dans Windows Vista, [Media Foundation](/windows/desktop/medfound/microsoft-media
 
 ## <a name="platform-improvements"></a>Améliorations de la plateforme
 
-Windows 7 comprend de nombreuses améliorations des API de plateforme de [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) sous-jacentes. Les applications avancées peuvent utiliser ces API directement. les autres applications bénéficieront des avantages indirects. Les avantages sont les suivants :
+Windows 7 comprend de nombreuses améliorations apportées aux api de plateforme [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) sous-jacentes. Les applications avancées peuvent utiliser ces API directement. les autres applications bénéficieront des avantages indirects. Les avantages sont les suivants :
 
 -   Améliorations du pipeline vidéo pour réduire la consommation d’énergie et l’utilisation de la mémoire vidéo.
 -   Les nouvelles API de traitement vidéo *DVXA* , qui utilisent un modèle de composition plus souple et sont mieux adaptées aux formats vidéo *HD* .
@@ -56,6 +56,6 @@ Windows 7 comprend de nombreuses améliorations des API de plateforme de [Media 
 [Nouveautés de Media Foundation](../medfound/whats-new-for-media-foundation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

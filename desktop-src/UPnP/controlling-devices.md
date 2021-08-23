@@ -4,12 +4,12 @@ description: Les périphériques basés sur UPnP sont contrôlés par les servic
 ms.assetid: 4edca439-f767-41e6-97bb-ead751930714
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3a72a4ffdf91bca358124dbb0a0d95ff9a61e30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 410818552f1f6563b28fcb963fcfca5c9b3067973e325adfd66ede5bffaedb75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999629"
 ---
 # <a name="controlling-devices"></a>Contrôle des appareils
 
@@ -28,9 +28,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 -   [Interrogation des variables d’État](querying-state-variables.md)
 -   [Appel d’actions](invoking-actions.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: IAgentBalloonEx SetNumCharsPerLine
 ms.assetid: 44025b6b-ed42-4476-b841-c244accf0f83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32a44abe14de6bb1cef631a51b4516d083657016
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 098a89500606482914bfb31303a2cd79cac88f6d96d17abec58c75759f7abedc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976459"
 ---
 # <a name="iagentballoonexsetnumcharsperline"></a>IAgentBalloonEx::SetNumCharsPerLine
 
@@ -44,9 +44,9 @@ Le paramètre par défaut est basé sur les paramètres lorsque le caractère es
 [**IAgentBalloon::GetNumCharsPerLine**](iagentballoon--getnumcharsperline.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

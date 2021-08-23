@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e336034e7d5037b8037c6fd0ef549fe5f87da312
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c49389700494c646976ee7df5e67782b110fc085f4328cb139b9604523c8622
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968428"
 ---
 # <a name="shellfolderviewviewoptions-property"></a>ShellFolderView. ViewOptions, propriété
 
@@ -118,13 +118,13 @@ L’option **Active Desktop – afficher en tant que page Web** est activée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [**FocusedItem**](shellfolderview-focuseditem.md) peut uniquement être appelé sur le système local. Elle ne fonctionnera pas lorsqu’elle sera exécutée sur une page Web via HTTP ou UNC.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte de cette méthode dans JScript incorporé en HTML.
+l’exemple suivant illustre l’utilisation appropriée de cette méthode dans JScript incorporée en HTML.
 
 
 ```JScript
@@ -172,13 +172,13 @@ L’exemple suivant illustre l’utilisation correcte de cette méthode dans JSc
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

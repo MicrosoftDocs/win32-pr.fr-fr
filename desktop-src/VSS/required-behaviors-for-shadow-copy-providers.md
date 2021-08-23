@@ -4,12 +4,12 @@ ms.assetid: 49baeb89-1dc9-45c2-a532-071085a8e52f
 title: Comportements requis pour les fournisseurs de clichés instantanés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f451dea7154a313cd64a3a46fbcc3b5fe663ec12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97153d3780701fce6edcde4a4a7740ae1d296b58b2bb44ea38c51f3ab1204499
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056387"
 ---
 # <a name="required-behaviors-for-shadow-copy-providers"></a>Comportements requis pour les fournisseurs de clichés instantanés
 
@@ -29,15 +29,15 @@ VSS définit les indicateurs sur chaque numéro d’unité logique affecté de t
 
 VSS prend en charge les clichés instantanés matériels uniquement lorsque le numéro d’unité logique sous-jacent est mappé en lecture/écriture. Cette opération doit être effectuée avant la création du cliché instantané. elle ne peut pas être effectuée après le fait. Les fournisseurs de matériel ne doivent pas modifier ces indicateurs. Pour plus d’informations sur la façon dont VSS utilise ces indicateurs, consultez [le processus de création](the-shadow-copy-creation-process.md)de clichés instantanés.
 
-## <a name="auto-import-hardware-shadow-copies-are-not-supported-on-windows-cluster-service"></a>Les clichés instantanés matériels à importation automatique ne sont pas pris en charge sur le service de cluster Windows
+## <a name="auto-import-hardware-shadow-copies-are-not-supported-on-windows-cluster-service"></a>les clichés instantanés matériels à importation automatique ne sont pas pris en charge sur Windows Service de Cluster
 
-Windows service de cluster ne peut pas prendre en charge les numéros d’unité logique avec des signatures et une disposition de partition dupliquées Les numéros d’unités logiques des clichés instantanés doivent être transportés vers un ordinateur hôte situé en dehors du cluster. Pour plus d’informations, consultez [récupération rapide à l’aide de volumes de clichés instantanés transportables](fast-recovery-using-transportable-shadow-copied-volumes.md).
+Windows Service de cluster ne peut pas prendre en charge les numéros d’unité logique avec des signatures et une disposition de partition dupliquées Les numéros d’unités logiques des clichés instantanés doivent être transportés vers un ordinateur hôte situé en dehors du cluster. Pour plus d’informations, consultez [récupération rapide à l’aide de volumes de clichés instantanés transportables](fast-recovery-using-transportable-shadow-copied-volumes.md).
 
 ## <a name="shadow-copies-that-contain-dynamic-disks-must-be-transported-to-a-different-host"></a>Les clichés instantanés qui contiennent des disques dynamiques doivent être transportés vers un autre hôte
 
-**Avant Windows Server 2008 :** La prise en charge native des disques dynamiques ne peut pas prendre en charge les numéros d’unités logiques avec des signatures et des contenus de base de données Les numéros d’unités logiques des clichés instantanés doivent être acheminés vers un autre hôte. VSS applique cela en n’autorisant pas l’importation automatique des clichés instantanés de disques dynamiques. Un demandeur ne doit pas importer un cliché instantané transportable sur le même hôte.
+**avant Windows Server 2008 :** La prise en charge native des disques dynamiques ne peut pas prendre en charge les numéros d’unités logiques avec des signatures et des contenus de base de données Les numéros d’unités logiques des clichés instantanés doivent être acheminés vers un autre hôte. VSS applique cela en n’autorisant pas l’importation automatique des clichés instantanés de disques dynamiques. Un demandeur ne doit pas importer un cliché instantané transportable sur le même hôte.
 
-**À partir de Windows Server 2008 :** Cette limitation est supprimée.
+**à partir de Windows Server 2008 :** Cette limitation est supprimée.
 
 ## <a name="providers-are-out-of-process"></a>Les fournisseurs sont hors processus
 

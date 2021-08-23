@@ -4,17 +4,17 @@ ms.assetid: f32706eb-7f97-433d-854a-17d57cc60190
 title: Propriété KaraokeAudioPresentationMode
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 429f15c99d58136d4c423c4f66b19d12c93802a9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: af634a3beaade7e497cdc6d158ccf1121ebb09542bdec92ceaae823b1b91ccdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952378"
 ---
 # <a name="karaokeaudiopresentationmode-property"></a>Propriété KaraokeAudioPresentationMode
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -28,7 +28,7 @@ La `KaraokeAudioPresentationMode` propriété définit ou récupère la combinai
 
 Retourne une valeur entière contenant un jeu d’indicateurs binaires indiquant comment les canaux karaoké auxiliaires sont downmixeds aux haut-parleurs gauche et droit.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est en lecture/écriture avec une valeur par défaut de zéro.
 

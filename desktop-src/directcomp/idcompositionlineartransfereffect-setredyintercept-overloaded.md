@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: c8e2d29aa795e0e407d62e151a24da82db2ff8d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e243099c0e436aa269a2cb55f1f0967813d8ac3a986ac5d3abd1ca943cb3a71e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043247"
 ---
 # <a name="idcompositionlineartransfereffectsetredyintercept-methods"></a>IDCompositionLinearTransferEffect :: setredyintercept, méthodes
 

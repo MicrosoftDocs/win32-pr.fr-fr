@@ -50,12 +50,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d2c94dcf7d454c5f0ea11fcee0bd46655099dfd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2bd26a3dac291d78b101aa56f186d9b31f7a927b1eca3e29febc7773e3c0939
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042457"
 ---
 # <a name="columndefgrbit-enumeration"></a>Énumération ColumndefGrbit
 
@@ -94,7 +94,7 @@ public enum ColumndefGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 <tr class="even">
@@ -110,7 +110,7 @@ public enum ColumndefGrbit
 <tr class="even">
 <td></td>
 <td>ColumnNotNULL</td>
-<td>La colonne ne doit jamais être définie sur une valeur NULL. Sur Windows XP, cela ne peut s’appliquer qu’aux colonnes fixes (bit, Byte, Integer, etc.).</td>
+<td>La colonne ne doit jamais être définie sur une valeur NULL. sur Windows XP, cela ne peut s’appliquer qu’aux colonnes fixes (bit, byte, integer, etc.).</td>
 </tr>
 <tr class="odd">
 <td></td>

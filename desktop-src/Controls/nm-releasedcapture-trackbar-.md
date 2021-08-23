@@ -3,7 +3,7 @@ title: Code de notification NM_RELEASEDCAPTURE (TrackBar) (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle TrackBar que le contrôle libère la capture de la souris. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 1e3e4f67-672d-4e3e-84f4-b3fa6221d118
 keywords:
-- Contrôles Windows du code de notification NM_RELEASEDCAPTURE (TrackBar)
+- NM_RELEASEDCAPTURE (trackbar) code de notification Windows contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 684f58fb5328cfe0d25fc73ce7c1a2d9a189d86f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f987ba9aec66a2a637736cb1b675196538ec46c7401b9a6317e5458a0bba7c48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957948"
 ---
 # <a name="nm_releasedcapture-trackbar-notification-code"></a>\_Code de notification RELEASEDCAPTURE nm (TrackBar)
 
@@ -55,8 +55,8 @@ Le contrôle ignore la valeur de retour de ce code de notification.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

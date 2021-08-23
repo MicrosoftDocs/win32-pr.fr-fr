@@ -3,7 +3,7 @@ title: Message LVM_GETGROUPSTATE (commctrl. h)
 description: Obtient l’état d’un groupe spécifié. Envoyez ce message explicitement ou à l’aide de la \_ macro ListView GetGroupState.
 ms.assetid: f087d17f-9066-44fb-b21b-ac7ceb56eb45
 keywords:
-- LVM_GETGROUPSTATE les contrôles de message Windows
+- LVM_GETGROUPSTATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17b5bb25fd517816afd04bb700211222e6985f5d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66272dd259e80f239804ffadbd706370f948a2505173cc03aaa40057b273a629
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958428"
 ---
 # <a name="lvm_getgroupstate-message"></a>\_Message GETGROUPSTATE LVM
 
@@ -53,8 +53,8 @@ Retourne la combinaison des valeurs d’état définies. Par exemple, si *lParam
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

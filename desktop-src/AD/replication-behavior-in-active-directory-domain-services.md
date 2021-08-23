@@ -7,12 +7,12 @@ keywords:
 - Active Directory Domain Services Active Directory, réplication
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41009a733f99366e499a25baca989f4f28794aea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e7548ecf146f1d23b97b9db6a0307b21a6c39d359576c2de02285331d165fad4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025137"
 ---
 # <a name="replication-behavior-in-active-directory-domain-services"></a>Comportement de réplication dans Active Directory Domain Services
 
@@ -24,9 +24,9 @@ La situation n’est pas aussi complexe au moment où elle peut apparaître. Une
 -   Mise à jour partielle : certaines des modifications appliquées à un réplica source donné ont été propagées à un réplica de destination donné. Une application qui lit le réplica source voit les nouvelles informations, tandis qu’une application qui lit la destination voit une combinaison d’anciennes et de nouvelles informations (ou seulement certaines des nouvelles informations si les nouvelles informations ont été ajoutées pour la première fois). La mise à jour partielle s’applique aux consommateurs de service d’annuaire qui utilisent deux objets connexes ou plus pour stocker leurs informations.
 -   État de la réplication complète : toutes les modifications appliquées à un réplica source donné ont été propagées à un réplica de destination donné. Les applications sur les réplicas de source et de destination voient les mêmes informations.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: L’objet de recherche d’appareils active les recherches synchron
 ms.assetid: fa22cd53-6468-4958-b4e3-b1a41b3cb2f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1890829dfe8386cd79627dde039264dc81e473c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f852957bed4bb73d9b31d0e26e099eb545b804953718d8cfd4e3cb44ea5f6c62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106538787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999499"
 ---
 # <a name="synchronous-searching"></a>Recherche synchrone
 
@@ -18,7 +18,7 @@ L’objet de recherche d’appareils active les recherches synchrones et asynchr
 > [!Note]  
 > Les recherches synchrones prennent au moins neuf secondes pour être retournées. Le délai est dû au fait que le message de recherche UDP initial doit être envoyé plusieurs fois. Cette duplication tient compte de l’infiabilité du protocole réseau sous-jacent. Les recherches synchrones sont idéales pour les interfaces de ligne de commande. Elles ne sont pas recommandées pour les interfaces utilisateur graphiques.
 
- 
+ 
 
 La méthode [**IUPnPDeviceFinder :: FindByType**](/windows/desktop/api/Upnp/nf-upnp-iupnpdevicefinder-findbytype) effectue une recherche par type d’appareil ou de service. Cette méthode prend un URI de type comme paramètre d’entrée et retourne une collection d’objets périphériques. Un objet appareil représente un appareil individuel.
 
@@ -95,9 +95,9 @@ IUPnPDevices *FindMediaPlayerDevices(IUPnPDeviceFinder *pDeviceFinder)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

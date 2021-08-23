@@ -1,10 +1,10 @@
 ---
-title: attribut ms-TS-Connect-client-Drives
-description: Les lecteurs du client de connexion aux services Terminal Server spécifient s’il faut se reconnecter aux lecteurs clients mappés à l’ouverture de session.
+title: attribut ms-TS-Connecter-clients-drives
+description: la session des Services Terminal server Connecter les lecteurs clients spécifie s’il faut se reconnecter aux lecteurs clients mappés à l’ouverture de session.
 ms.assetid: 647d41d1-8b4e-4521-bcef-34b7df8d012e
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut ms-TS-Connect-client-Drives
+- schéma AD des attributs ms-TS-Connecter-clients-drives
 - Schéma AD de l’attribut msTSConnectClientDrives
 topic_type:
 - apiref
@@ -14,22 +14,22 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c74890b77ba0d3077d04b975344fb950ca61c9bc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8679dee80eadb5dbd6b793991cf1e70cf3335662effc55a1164f1b9c5fa53005
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960258"
 ---
-# <a name="ms-ts-connect-client-drives-attribute"></a>attribut ms-TS-Connect-client-Drives
+# <a name="ms-ts-connect-client-drives-attribute"></a>attribut ms-TS-Connecter-clients-drives
 
-Les lecteurs du client de connexion aux services Terminal Server spécifient s’il faut se reconnecter aux lecteurs clients mappés à l’ouverture de session.
+la session des Services Terminal server Connecter les lecteurs clients spécifie s’il faut se reconnecter aux lecteurs clients mappés à l’ouverture de session.
 
 
 
 | Entrée | Valeur |
 |-------------------|--------------------------------------|
-| CN                | MS-TS-Connect-client-lecteurs          |
+| CN                | ms-TS-Connecter-clients-lecteurs          |
 | LDAP-Display-Name | msTSConnectClientDrives              |
 | Taille              | \-                                   |
 | Mettre à jour le privilège  | \-                                   |
@@ -42,7 +42,7 @@ Les lecteurs du client de connexion aux services Terminal Server spécifient s�
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

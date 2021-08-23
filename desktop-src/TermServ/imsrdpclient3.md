@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6911f839a26aae67fbc1e57494e5a75291721663
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 444f022c2f4db57c1c62f1405b30625bf7fed291674255ed6287026c9451e825
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059007"
 ---
 # <a name="imsrdpclient3-interface"></a>Interface IMsRdpClient3
 
@@ -47,7 +47,7 @@ L’interface **IMsRdpClient3** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **IMsRdpClient3** a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 

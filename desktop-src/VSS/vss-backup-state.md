@@ -4,12 +4,12 @@ ms.assetid: 43dcdac7-ed8e-4150-83eb-585e0e92f13c
 title: État de sauvegarde VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9aa9250139aee9f48f9880fd4a657fa7c6c4991
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35701e1b576d9ea2e5464516589ae419dc73b74898768af06e974da05afffa8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056217"
 ---
 # <a name="vss-backup-state"></a>État de sauvegarde VSS
 
@@ -56,7 +56,7 @@ Par conséquent, les demandeurs indiquent si une sauvegarde doit inclure un Éta
 
 Même si l’état du système de démarrage n’est pas sélectionné, les clichés instantanés des fichiers système sont créés et les fichiers peuvent être sauvegardés.
 
-Toutefois, il est important de veiller à la restauration des fichiers système si la sauvegarde n’a pas enregistré l’état du système de démarrage (voir [sauvegarde et restauration de l’état du système dans Windows server 2003 R2 et Windows server 2003 SP1](backing-up-and-restoring-system-state-under-vss.md)).
+toutefois, il est important de veiller à la restauration des fichiers système si la sauvegarde n’a pas enregistré l’état du système de démarrage (voir [sauvegarde et restauration de l’état du système dans Windows server 2003 R2 et Windows server 2003 SP1](backing-up-and-restoring-system-state-under-vss.md)).
 
 Il n’est pas possible de récupérer ces informations à partir d’un document de composants de sauvegarde récupérés, afin que les auteurs de demandeurs doivent stocker si le système a été sauvegardé avec un état système de démarrage.
 

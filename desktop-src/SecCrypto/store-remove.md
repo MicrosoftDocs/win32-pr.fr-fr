@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 188553d6091314e1a872145219ea321d581b35c3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f3700c8f61861987bc5311a637722955c62a1c6ad1572c7628d9ab9e0f5c76c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897684"
 ---
 # <a name="storeremove-method"></a>Store. Remove (méthode)
 
@@ -52,7 +52,7 @@ Expression qui correspond à une instance d’un objet de [**certificat**](certi
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!IMPORTANT]
 > Lorsque cette méthode est appelée à partir d’un script Web, le script doit supprimer des certificats numériques de l’ordinateur local. Autoriser les sites Web non approuvés à supprimer des certificats numériques est un risque pour la sécurité. Une boîte de dialogue qui vous demande si le site Web peut supprimer des certificats apparaît lorsque cette méthode est appelée pour la première fois. Si vous autorisez l’application à supprimer des certificats et que vous sélectionnez ne plus afficher cette boîte de dialogue, la boîte de dialogue n’apparaît plus pour les scripts qui suppriment les certificats dans ce domaine. Toutefois, les scripts en dehors de ce domaine qui tentent de supprimer des certificats entraînent l’affichage de cette boîte de dialogue. Si vous n’autorisez pas le script à supprimer des certificats et que vous sélectionnez ne plus afficher cette boîte de dialogue, les scripts de ce domaine ne seront pas autorisés à supprimer des certificats.
@@ -69,7 +69,7 @@ Si le magasin n’est pas ouvert avec l’autorisation de lecture/écriture, cet
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

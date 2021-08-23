@@ -5,12 +5,12 @@ ms.assetid: b44fc694-b94a-4fc5-95d1-72afb016ad72
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ab030e3f85b1abc0e763c30dfa4208023b2e654
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 67f67e888ba62b225603cd47293936b7010ce9f730238119d2b5d36ca9ed6dbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997919"
 ---
 # <a name="listing-event-collector-subscriptions"></a>Liste des abonnements du collecteur d’événements
 
@@ -22,7 +22,7 @@ Vous pouvez récupérer la liste des noms des abonnements du collecteur d’év�
 >
 > **wecutil es**
 
- 
+ 
 
 L’exemple de code C++ suivant montre comment répertorier les abonnements du collecteur d’événements.
 
@@ -122,12 +122,12 @@ void __cdecl wmain()
 
 <dl> <dt>
 
-[Informations de référence sur le collecteur d’événements Windows](windows-event-collector-reference.md)
+[Windows Référence du collecteur d’événements](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

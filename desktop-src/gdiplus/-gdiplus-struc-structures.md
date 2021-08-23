@@ -1,17 +1,17 @@
 ---
-title: Structures GDI+
+title: structures de GDI+
 description: 'Windows GDI+ définit les structures suivantes :'
 ms.assetid: fc18b5a3-b9c8-4726-b331-dfc2b8b9ff3d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee02d20b049bd35054a17abbf0f5204946000e0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 8cb6dee67b74da53ba991ed0660b153a67957cf5f66006127a92d8cc73050c76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977359"
 ---
-# <a name="gdi-structures"></a>Structures GDI+
+# <a name="gdi-structures"></a>structures de GDI+
 
 Windows GDI+ définit les structures suivantes :
 

@@ -4,12 +4,12 @@ description: IAgentCommandsEx
 ms.assetid: 6c354677-4cdb-4a74-9c41-2d0bf6f8dd55
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d16616ccb86bf109dad85a8ee2ac5d2bd009827
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3ff4ff8e6dc87eb1a5fa5c3e79fe26b00d8bd3c8eb18a5fc6ca7cac22d3dfd07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106513718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976259"
 ---
 # <a name="iagentcommandsex"></a>IAgentCommandsEx
 
@@ -40,8 +40,8 @@ ms.locfileid: "106513718"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

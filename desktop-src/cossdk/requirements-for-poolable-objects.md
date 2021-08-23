@@ -4,12 +4,12 @@ ms.assetid: 2cd4211e-be12-4197-8b43-5cb9f2321016
 title: Conditions requises pour les objets regroupables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78d6834210f180ad8b514b51b6926b5cd30714fd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1af3e3b67f7d796c199649b64f711ec32a75374bff60ebf900b34871ed4bc310
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047287"
 ---
 # <a name="requirements-for-poolable-objects"></a>Conditions requises pour les objets regroupables
 
@@ -24,7 +24,7 @@ Pour assurer la sécurité, la cohérence et l’isolation, les objets regroupab
 Les objets regroupables ne peuvent pas être liés à un thread particulier ; dans le cas contraire, les performances peuvent être désastreuses. Pour cette raison, les objets regroupables ne peuvent pas être marqués pour s’exécuter dans le modèle cloisonné ; ils doivent s’exécuter dans le cloisonnement multithread ou le cloisonnement neutre. En outre, les objets regroupables ne doivent pas utiliser le stockage local des threads et ne doivent pas agréger le marshaleur libre de threads. Pour plus d’informations sur les threads dans COM+, consultez [modèles de thread com+](com--threading-models.md).
 
 > [!Note]  
-> Les environnements de développement Microsoft Visual Basic 6,0 et versions antérieures peuvent créer uniquement des composants de modèle cloisonné. Toutefois, dans Visual Basic .NET, les composants peuvent être regroupés.
+> les environnements de développement Microsoft Visual Basic 6,0 et versions antérieures peuvent créer uniquement des composants de modèle cloisonné. toutefois, dans Visual Basic .net, les composants peuvent être regroupés.
 
  
 
@@ -42,7 +42,7 @@ Les objets regroupables doivent implémenter [**IObjectControl**](/windows/deskt
 
 ## <a name="language-restrictions"></a>Restrictions de langue
 
-Les composants développés à l’aide de Microsoft Visual Basic 6,0 et versions antérieures ne peuvent pas être mis en pool, car ces composants sont des threads cloisonnés. Toutefois, dans Visual Basic .NET, les composants peuvent être regroupés.
+les composants développés à l’aide de Microsoft Visual Basic 6,0 et versions antérieures ne peuvent pas être mis en pool, car ces composants sont des threads cloisonnés. toutefois, dans Visual Basic .net, les composants peuvent être regroupés.
 
 ## <a name="legacy-components"></a>Composants hérités
 

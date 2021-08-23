@@ -7,16 +7,16 @@ keywords:
 - Constantes SNMP, SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e060c3979f2176120d285b60438bb89e51d208
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: aafd752c2f2ef115d669544359c9470fc87edf046fc282055e0a2755dea8a6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009017"
 ---
 # <a name="snmp-constants"></a>Constantes SNMP
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
 L’API SNMP définit des constantes à utiliser dans un certain nombre de zones fonctionnelles. Le tableau suivant répertorie et décrit ces zones fonctionnelles.
 
@@ -33,8 +33,8 @@ L’API SNMP définit des constantes à utiliser dans un certain nombre de zones
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8e0f4fad5ff9026ce70fc21712506eb4796d76b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b169412104a5e22ae973542457d08bead328ea4ded5a34691499ea8dbfd8b7b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055640"
 ---
 # <a name="iwmdrmdeviceappquerydevicestatus-method"></a>IWMDRMDeviceApp :: QueryDeviceStatus, méthode
 
@@ -58,9 +58,9 @@ Zéro, une ou plusieurs des valeurs **DWORD** suivantes décrivant les aspects D
 
 
 
-| Statut                      | Description                                  |
+| État                      | Description                                  |
 |-----------------------------|----------------------------------------------|
-| \_ISWMDRM d’appareil WMDRM \_      | L’appareil prend en charge Windows Media DRM.       |
+| \_ISWMDRM d’appareil WMDRM \_      | l’appareil prend en charge Windows DRM Media.       |
 | \_NEEDCLOCK d’appareil WMDRM \_    | L’appareil n’a pas d’horloge sécurisée.     |
 | \_appareil WMDRM \_ révoqué      | L’appareil a été révoqué.                 |
 | \_NEEDINDIV du client WMDRM \_    | La sécurité DRM doit être individualisée. |
@@ -74,7 +74,7 @@ Zéro, une ou plusieurs des valeurs **DWORD** suivantes décrivant les aspects D
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -89,13 +89,13 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode doit être appelée avant d’effectuer des actions restreintes sur du contenu DRM, telles que le transfert de contenu DRM sur l’appareil ou l’obtention d’informations de contrôle. Si les valeurs récupérées par *pdwStatus* indiquent qu’une action doit être effectuée (par exemple, une individualisation pour le bureau ou l’acquisition d’une horloge pour l’appareil), l’application doit appeler [**AcquireDeviceData**](iwmdrmdeviceapp-acquiredevicedata.md) et transmettre la valeur *pdwStatus* Récupérée de cette fonction au paramètre *dwFlags* dans **AcquireDeviceData**. Si la valeur zéro est retournée, l’appareil ne prend pas en charge Windows Media DRM 10 pour les appareils mobiles et aucune action n’est nécessaire. Pour plus d’informations, consultez [gestion du contenu protégé dans l’application](handling-protected-content-in-the-application.md) .
+Cette méthode doit être appelée avant d’effectuer des actions restreintes sur du contenu DRM, telles que le transfert de contenu DRM sur l’appareil ou l’obtention d’informations de contrôle. Si les valeurs récupérées par *pdwStatus* indiquent qu’une action doit être effectuée (par exemple, une individualisation pour le bureau ou l’acquisition d’une horloge pour l’appareil), l’application doit appeler [**AcquireDeviceData**](iwmdrmdeviceapp-acquiredevicedata.md) et transmettre la valeur *pdwStatus* Récupérée de cette fonction au paramètre *dwFlags* dans **AcquireDeviceData**. si la valeur zéro est retournée, l’appareil ne prend pas en charge Windows Media DRM 10 pour les appareils mobiles et aucune action n’est nécessaire. Pour plus d’informations, consultez [gestion du contenu protégé dans l’application](handling-protected-content-in-the-application.md) .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code C++ suivant crée un objet **WMDRMDeviceApp** , vérifie que l’appareil est un appareil Windows Media DRM 10, que son horloge est exacte, puis demande les données de contrôle.
+l’exemple de code C++ suivant crée un objet **WMDRMDeviceApp** , vérifie que l’appareil est un appareil Media DRM 10 Windows, que son horloge est précise, puis demande les données de contrôle.
 
 
 ```C++

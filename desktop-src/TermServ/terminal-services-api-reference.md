@@ -7,12 +7,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, informations de référence sur les API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f47f9555cd09a15a771ec00c7f70d95c1204920
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ef4c5240baf494a47dfdefe71e2a26a2a7a1a00b711bfa6dff906f209656195
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000189"
 ---
 # <a name="remote-desktop-services-api-reference"></a>Informations de référence sur l’API Services Bureau à distance
 
@@ -37,9 +37,9 @@ Les éléments suivants sont utilisés avec l’API Services Bureau à distance.
 [Utilisation de l’API Services Bureau à distance](using-the-terminal-services-api.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

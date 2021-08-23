@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf30fc7dc4c6ba5a56efd3def6a5a7178f81ed49
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 973040fc9d9f23e6cfba5e30ceea89a1c13cfbaab0071cc7905080cfcdf60f12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061587"
 ---
 # <a name="gluperspective-function"></a>gluPerspective fonction)
 
@@ -75,7 +75,7 @@ Distance entre la visionneuse et le plan de découpage Far (toujours positive).
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluPerspective** spécifie un frustum d’affichage dans le système de coordonnées universel. En général, les proportions dans **gluPerspective** doivent correspondre aux proportions de la fenêtre d’affichage associée. Par exemple, l' *aspect* = 2,0 signifie que l’angle de vue de la visionneuse est deux fois plus large dans *x* que dans *y*. Si la fenêtre d’affichage est deux fois plus larges que sa hauteur, elle affiche l’image sans distorsion.
 
