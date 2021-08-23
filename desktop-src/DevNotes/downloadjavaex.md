@@ -1,5 +1,5 @@
 ---
-description: Télécharge la signature du fichier. cab, vérifie les autorisations associées aux packages et les exécute en fonction de l’authentification.
+description: Télécharge la signature de fichier .cab, vérifie les autorisations associées aux packages et les exécute en fonction de l’authentification.
 ms.assetid: b86a8f39-73a1-4e17-ac83-9ed095de4922
 title: DownloadJavaEX fonction)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Javacypt.dll
-ms.openlocfilehash: 31371e91599d604db591ee3e921b42bc809aae21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 628fdb1b8b0ec9979d844c8f48fb02fbf8f6a642a96c925f427c868160dd6b27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795259"
 ---
 # <a name="downloadjavaex-function"></a>DownloadJavaEX fonction)
 
-Télécharge la signature du fichier. cab, vérifie les autorisations associées aux packages et les exécute en fonction de l’authentification.
+Télécharge la signature de fichier .cab, vérifie les autorisations associées aux packages et les exécute en fonction de l’authentification.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -90,7 +90,7 @@ Structure [**d' \_ approbation Java**](/windows/desktop/api/Capi/ns-capi-java_tr
 
 Si la fonction est réussie, la valeur de retour est **S \_ OK**. Dans le cas contraire, la valeur de retour est un code d’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

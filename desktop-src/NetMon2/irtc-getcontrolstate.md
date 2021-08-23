@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d2e41ad3e4119fffbada26fe3ebebdfe3bf82043
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bf3f4b70f1b06f5f985d459af361dc27f320d84465f5ef86f2d956339bf90ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778789"
 ---
 # <a name="irtcgetcontrolstate-method"></a>IRTC :: GetControlState, méthode
 
@@ -55,7 +55,7 @@ Indicateur signalant que la capture en cours est suspendue.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -65,14 +65,14 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
 | Code de retour                                                                                          | Description                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl> | Le NPP n’est pas connecté au réseau. Appelez [IRTC :: Connect](irtc-connect.md) pour connecter le NPP au réseau.<br/> |
-| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>  | Le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connect](irtc-connect.md) .<br/>                     |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl> | Le NPP n’est pas connecté au réseau. appelez [IRTC :: Connecter](irtc-connect.md) pour connecter le NPP au réseau.<br/> |
+| <dl> <dt>**NMERR \_ pas de \_ temps réel**</dt> </dl>  | le NPP est connecté au réseau, mais pas avec la méthode [IRTC :: Connecter](irtc-connect.md) .<br/>                     |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être appelée chaque fois que le NPP est connecté au réseau. Vous pouvez utiliser cette méthode pour déterminer si une capture est en cours d’exécution, si la capture est suspendue ou si la capture a été arrêtée alors que le NPP est toujours connecté.
 
@@ -96,7 +96,7 @@ Cette méthode peut être appelée chaque fois que le NPP est connecté au rése
 [IRTC](irtc.md)
 </dt> <dt>
 
-[IRTC :: Connect](irtc-connect.md)
+[IRTC :: Connecter](irtc-connect.md)
 </dt> <dt>
 
 [IRTC ::P ause](irtc-pause.md)

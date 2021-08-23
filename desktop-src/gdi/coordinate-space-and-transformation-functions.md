@@ -4,12 +4,12 @@ ms.assetid: 3ebcabf2-9718-47b2-aba0-7cc28fa42e5a
 title: Fonctions d’espace de coordonnées et de transformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e561f5cc9784439f5bef4f696e98d5919cb052
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe24e78002393d7a840e99d33840dfa4ba0d9e2ac89d941f998261955683e13f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718079"
 ---
 # <a name="coordinate-space-and-transformation-functions"></a>Fonctions d’espace de coordonnées et de transformation
 

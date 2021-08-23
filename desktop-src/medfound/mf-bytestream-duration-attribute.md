@@ -4,12 +4,12 @@ ms.assetid: afa4930c-544b-4d66-94fe-9795bb526e0a
 title: Attribut MF_BYTESTREAM_DURATION (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df264416b8a805e6d239cfcc457f4a6db2a8e4dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46ba32b394fa776b5b70a5a649292ffa205132645b15c24a57591483c734b238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826729"
 ---
 # <a name="mf_bytestream_duration-attribute"></a>\_Attribut de \_ durée BYTESTREAM MF
 
@@ -21,7 +21,7 @@ Spécifie la durée d’un flux d’octets, en unités de 100 nanosecondes.
 
 Traiter en tant que valeur **LongLong** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est facultatif. Si l’objet qui crée le flux d’octets peut déterminer la durée, il peut définir cet attribut. (Par exemple, dans un flux de réseau, la durée peut faire partie de la description de session.)
 
@@ -37,8 +37,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                                              |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                                                    |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                                              |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

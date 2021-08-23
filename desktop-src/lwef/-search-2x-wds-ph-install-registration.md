@@ -1,20 +1,20 @@
 ---
-title: Installation et inscription de gestionnaires de protocole (fonctionnalités d’environnement Windows héritées)
+title: installation et inscription de gestionnaires de protocole (fonctionnalités d’environnement de Windows héritées)
 description: L’installation de gestionnaires de protocole implique la copie de la ou des DLL vers un emplacement approprié dans le répertoire Program Files et leur inscription.
 ms.assetid: 3da32de1-2dc4-46d3-80d0-cc45a36f12f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec07f96a92b04fb489aeeb76b705efb81b5754f0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 49f6cce4337c8b2c3faf47411f76165b11ed13ff00dfebd66ac5307d6ca6a68c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716559"
 ---
-# <a name="installing-and-registering-protocol-handlers-legacy-windows-environment-features"></a>Installation et inscription de gestionnaires de protocole (fonctionnalités d’environnement Windows héritées)
+# <a name="installing-and-registering-protocol-handlers-legacy-windows-environment-features"></a>installation et inscription de gestionnaires de protocole (fonctionnalités d’environnement de Windows héritées)
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
 L’installation de **gestionnaires de protocole** implique la copie de la ou des dll vers un emplacement approprié dans le répertoire Program Files et leur inscription.
 
@@ -105,7 +105,7 @@ Vous devez faire quatorze entrées dans le registre pour inscrire le composant d
        (Default) = <Ver_Ind_ProgID>"
     ```
 
-4.  Inscrire le gestionnaire de protocole auprès de Windows Desktop Search :
+4.  inscrire le gestionnaire de protocole avec Windows Desktop Search :
 
     ```
     HKEY_LOCAL_MACHINE\Software\Microsoft\RSSearch\ProtocolHandlers

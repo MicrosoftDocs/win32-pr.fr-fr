@@ -42,12 +42,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3eccbd9dabe853f01c54c78ca651d590afc49f17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbd8cd77a96301187e9b5c9f8544a23b616bf9db78af6560296660b0a3995bed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681239"
 ---
 # <a name="msvm_virtualethernetswitchsettingdata-class"></a>MSVM \_ VirtualEthernetSwitchSettingData, classe
 
@@ -235,7 +235,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Brève description de l’objet. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres du commutateur Ethernet virtuel ».
+Brève description de l’objet. cette propriété est héritée de la [**\_ propriété managedelement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « commutateur Ethernet virtuel Paramètres ».
 
 </dd> <dt>
 
@@ -381,7 +381,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Spécifie le nombre maximal d’adresses MAC uniques qui peuvent être appris par le commutateur pour prendre en charge l’apprentissage des adresses MAC, comme défini dans la norme IEEE 802,1. Cette propriété est héritée de la **\_ VirtualEthernetSwitchSettingData CIM**.
+spécifie le nombre maximal d’adresses mac uniques qui peuvent être appris par le commutateur pour prendre en charge l’adresse mac Learning, comme défini dans la norme IEEE 802,1. Cette propriété est héritée de la **\_ VirtualEthernetSwitchSettingData CIM**.
 
 </dd> <dt>
 
@@ -410,7 +410,7 @@ Type d’accès : lecture/écriture
 Spécifie si le PacketDirect doit être utilisé, le cas échéant. La valeur par défaut est **false**.
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10 et Windows Server 2016.
+> cette propriété a été ajoutée dans Windows 10 et Windows Server 2016.
 
  
 
@@ -531,8 +531,8 @@ Liste d’identificateurs de réseau local virtuel auxquels ce commutateur peut 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

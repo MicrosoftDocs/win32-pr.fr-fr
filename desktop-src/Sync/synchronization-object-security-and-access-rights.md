@@ -1,19 +1,19 @@
 ---
-description: Le modèle de sécurité Windows vous permet de contrôler l’accès aux objets Event, mutex, Semaphore et Timer waitable. Les files d’attente du minuteur, les variables interbloquées et les objets de section critique ne sont pas sécurisables. Pour plus d’informations, consultez Access-Control modèle.
+description: le modèle de sécurité Windows vous permet de contrôler l’accès aux objets event, mutex, semaphore et timer waitable. Les files d’attente du minuteur, les variables interbloquées et les objets de section critique ne sont pas sécurisables. Pour plus d’informations, consultez Access-Control modèle.
 ms.assetid: 92478298-617c-4672-a1cc-9a8e9af40327
 title: Sécurité de l’objet de synchronisation et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1c4bfdb17a6e1c4d99a3e9722e67a3b48a3c788
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f85ca76002a92e305983ab97d46dfde2f36f9ae49a779e091a072d3090ceb976
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739289"
 ---
 # <a name="synchronization-object-security-and-access-rights"></a>Sécurité de l’objet de synchronisation et droits d’accès
 
-Le modèle de sécurité Windows vous permet de contrôler l’accès aux objets Event, mutex, Semaphore et Timer waitable. Les files d’attente du minuteur, les variables interbloquées et les objets de section critique ne sont pas sécurisables. Pour plus d’informations, consultez [modèle de contrôle d’accès](../secauthz/access-control-model.md).
+le modèle de sécurité Windows vous permet de contrôler l’accès aux objets event, mutex, semaphore et timer waitable. Les files d’attente du minuteur, les variables interbloquées et les objets de section critique ne sont pas sécurisables. Pour plus d’informations, consultez [modèle de contrôle d’accès](../secauthz/access-control-model.md).
 
 Vous pouvez spécifier un [descripteur de sécurité](../secauthz/security-descriptors.md) pour un objet de synchronisation interprocessus lorsque vous appelez la fonction [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa), [**CreateMutex**](/windows/win32/api/synchapi/nf-synchapi-createmutexa), [**CreateSemaphore,**](/windows/desktop/api/WinBase/nf-winbase-createsemaphorea)ou [**CreateWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw) . Si vous spécifiez **null**, l’objet obtient un descripteur de sécurité par défaut. Les [listes de contrôle d’accès (ACL)](../secauthz/access-control-lists.md) dans le descripteur de sécurité par défaut pour un objet de synchronisation proviennent du jeton principal ou d’emprunt d’identité du créateur.
 

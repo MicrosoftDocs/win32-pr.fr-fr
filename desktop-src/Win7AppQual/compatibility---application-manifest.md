@@ -4,19 +4,19 @@ ms.assetid: f022374d-ea3f-477f-9b59-3188b775ed64
 title: Manifeste d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80c52b8eb2af87c271151be3d7989f50b2903084
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f9ea81440458bb5ac106fd891cc370ebb2b2fcc1db2a70022bf746bd81dd1acd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680209"
 ---
 # <a name="application-manifest"></a>Manifeste d’application
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
 **Clients** -Windows 7  
-**Serveurs** -Windows Server 2008 R2  
+**serveurs** -Windows Server 2008 R2  
 
 
 
@@ -37,38 +37,38 @@ ms.locfileid: "108088587"
 
 ## <a name="description"></a>Description
 
-Windows 7 introduit une nouvelle section dans le manifeste de l’application appelée « compatibilité ». Cette section aide Windows à déterminer les versions de Windows qu’une application a été conçue pour cibler, et permet à Windows de fournir le comportement attendu par l’application en fonction de la version de Windows ciblée par l’application.
+Windows 7 introduit une nouvelle section dans le manifeste de l’application appelée « compatibilité ». cette section vous aide à Windows déterminer les versions de Windows qu’une application a été conçue pour cibler, et permet à Windows de fournir le comportement attendu par l’application en fonction de la version de Windows ciblée par l’application.
 
-La section compatibilité permet à Windows de fournir un nouveau comportement aux nouveaux logiciels créés par des développeurs tout en conservant la compatibilité des logiciels existants. Cette section aide également Windows à offrir une meilleure compatibilité dans les futures versions de Windows. Par exemple, une application qui déclare uniquement la prise en charge de Windows 7 dans la section compatibilité continuera à recevoir le comportement de Windows 7 dans la prochaine version de Windows.
+la section compatibilité permet à Windows de fournir un nouveau comportement aux nouveaux logiciels créés par des développeurs tout en conservant la compatibilité des logiciels existants. cette section vous aide également à Windows offrir une meilleure compatibilité dans les futures versions de Windows. par exemple, une application qui déclare uniquement la prise en charge de Windows 7 dans la section compatibilité continuera à recevoir le comportement Windows 7 dans la prochaine version de Windows.
 
 ## <a name="manifestation-of-change"></a>Manifeste de modification
 
-Les applications sans section de compatibilité dans leur manifeste recevront le comportement de Windows Vista par défaut sur Windows 7 et les versions ultérieures de Windows. Notez que Windows XP et Windows Vista ignorent cette section du manifeste et qu’il n’a aucun impact sur ces derniers.
+les Applications sans section de compatibilité dans leur manifeste recevront Windows comportement de Vista par défaut sur Windows 7 et versions ultérieures Windows. notez que Windows XP et Windows Vista ignorent cette section du manifeste et qu’il n’a aucun impact sur ceux-ci.
 
-Les composants Windows suivants fournissent un comportement divergent basé sur la section compatibilité dans Windows 7 :
+les composants de Windows suivants fournissent un comportement divergent en fonction de la section compatibilité dans Windows 7 :
 
 **Pool de threads par défaut RPC**
 
--   **Windows 7 :** Pour améliorer l’évolutivité et réduire le nombre de threads, RPC bascule vers le pool de threads NT (pool par défaut). Pour Windows Vista, RPC utilisait un pool de threads privés.
+-   **Windows 7 :** Pour améliorer l’évolutivité et réduire le nombre de threads, RPC bascule vers le pool de threads NT (pool par défaut). pour Windows Vista, RPC utilisait un pool de threads privés.
     -   Pour les fichiers binaires compilés pour Win7, le pool par défaut est utilisé
     -   Si I \_ RpcMgmtEnableDedicatedThreadPool est appelé avant l’appel d’une API RPC, le pool de threads privés est utilisé (comportement Vista)
     -   Si j' \_ RpcMgmtEnableDedicatedThreadPool est appelé après un appel RPC, le pool par défaut est utilisé, je \_ RpcMgmtEnableDedicatedThreadPool renvoie l’erreur 1764 et l’opération demandée n’est pas prise en charge
--   **Windows Vista (par défaut) :** Pour les fichiers binaires compilés pour Windows Vista et les versions antérieures, le pool privé est utilisé.
+-   **Windows Vista (par défaut) :** pour les fichiers binaires compilés pour Windows Vista et versions antérieures, le pool privé est utilisé.
 
 **Verrouillage DirectDraw**
 
--   **Windows 7 :** Les applications manifestées pour Windows 7 ne peuvent pas appeler l’API Lock dans DDRAW pour verrouiller la mémoire tampon de la vidéo de bureau principale. Cela génère une erreur et le renvoi du pointeur **null** pour le réplica principal est retourné. Ce comportement est appliqué même si Gestionnaire de fenêtrage composition n’est pas activée. Les applications compatibles Windows 7 ne doivent pas verrouiller la mémoire tampon vidéo principale pour effectuer le rendu.
+-   **Windows 7 :** les Applications manifestées pour Windows 7 ne peuvent pas appeler l’API lock dans DDRAW pour verrouiller la mémoire tampon de la vidéo principale du bureau. Cela génère une erreur et le renvoi du pointeur **null** pour le réplica principal est retourné. Ce comportement est appliqué même si Gestionnaire de fenêtrage composition n’est pas activée. les applications compatibles Windows 7 ne doivent pas verrouiller la mémoire tampon vidéo principale à restituer.
 -   **Windows Vista (par défaut) :** Les applications seront en mesure d’acquérir un verrou sur la mémoire tampon vidéo principale, car les applications héritées dépendent de ce comportement. L’exécution de l’application désactive Gestionnaire de fenêtrage.
 
 **Transfert de bloc binaire (BLT) DirectDraw vers le réplica principal sans fenêtre de détourage**
 
--   **Windows 7 :** Les applications manifestes pour Windows 7 ne sont pas en mesure d’effectuer des BLT sur la mémoire tampon vidéo principale du bureau sans fenêtre de détourage. Cela génère une erreur et la zone BLT ne s’affiche pas. Windows applique ce comportement même si vous n’activez pas la composition Gestionnaire de fenêtrage. Les applications compatibles Windows 7 doivent être BLT dans une fenêtre de détourage.
+-   **Windows 7 :** les Applications manifestées pour Windows 7 ne sont pas en mesure d’exécuter des Blt sur la mémoire tampon vidéo principale du bureau sans fenêtre de détourage. Cela génère une erreur et la zone BLT ne s’affiche pas. Windows applique ce comportement même si vous n’activez pas la Composition Gestionnaire de fenêtrage. les applications compatibles Windows 7 doivent être Blt dans une fenêtre de détourage.
 -   **Windows Vista (par défaut) :** Les applications doivent pouvoir accéder au BLT sur le réplica principal sans fenêtre de découpage, car les applications héritées dépendent de ce comportement. L’exécution de cette application désactive l’Gestionnaire de fenêtrage.
 
 **API GetOverlappedResult**
 
 -   **Windows 7 :** Résout une condition de concurrence où une application multithread utilisant GetOverlappedResult peut retourner sans réinitialiser l’événement dans la structure OVERLAPPED, provoquant le retour prématuré de l’appel suivant à cette fonction.
--   **Windows Vista (par défaut) :** Fournit le comportement avec la condition de concurrence sur laquelle les applications peuvent avoir une dépendance. Les applications qui souhaitent éviter cette course avant le comportement de Windows 7 doivent attendre l’événement Overlapped et, lorsqu’elles sont signalées, appeler GetOverlappedResult avec bWait = = **false**.
+-   **Windows Vista (par défaut) :** Fournit le comportement avec la condition de concurrence sur laquelle les applications peuvent avoir une dépendance. les Applications qui souhaitent éviter cette concurrence avant le comportement Windows 7 doivent attendre l’événement overlapped et, lorsqu’elles sont signalées, appeler GetOverlappedResult avec bWait = = **false**.
 
 **Assistant Compatibilité des programmes (PCA)**
 
@@ -85,11 +85,11 @@ Mettez à jour le manifeste d’application avec les dernières informations de 
 
 -   **Pris en charge :** GUID du système d’exploitation pris en charge : les GUID mappés aux systèmes d’exploitation pris en charge sont les suivants :
 
-    -   {e2011457-1546-43C5-a5fe-008deee3d3f0} pour Windows Vista : il s’agit de la valeur par défaut pour le contexte Switchback.
-    -   {35138b9a-5d96-4fbd-8e2d-a2440225f93a} pour Windows 7 : les applications qui définissent cette valeur dans le manifeste de l’application obtiennent le comportement de Windows 7.
+    -   {e2011457-1546-43c5-a5fe-008deee3d3f0} pour Windows Vista : il s’agit de la valeur par défaut pour le contexte switchback.
+    -   {35138b9a-5d96-4fbd-8e2d-a2440225f93a} pour Windows 7 : les Applications qui définissent cette valeur dans le manifeste de l’application obtiennent le comportement Windows 7.
 
     > [!Note]  
-    > Microsoft génère et publie des GUID pour les futures versions de Windows, si nécessaire.
+    > Microsoft génère et publie des guid pour les futures versions de Windows en fonction des besoins.
 
      
 
@@ -121,24 +121,24 @@ La valeur de l’ajout de GUID pour les deux systèmes d’exploitation dans l�
 
 ## <a name="compatibility-performance-reliability-and-usability-testing"></a>Compatibilité, performances, fiabilité et test d’utilisabilité
 
-1.  Testez l’application avec la nouvelle section de compatibilité et `SupportedOS ID ={35138b9a-5d96-4fbd-8e2d-a2440225f93a}` Assurez-vous que l’application fonctionne correctement à l’aide du comportement Windows 7 le plus récent
-2.  Testez l’application avec la nouvelle section de compatibilité et `SupportedOS ID ={e2011457-1546-43c5-a5fe-008deee3d3f0}` (ou sans cette section entièrement) pour vous assurer que l’application fonctionne correctement à l’aide des comportements Windows Vista sur Windows 7
+1.  testez l’application avec la nouvelle section de compatibilité et `SupportedOS ID ={35138b9a-5d96-4fbd-8e2d-a2440225f93a}` assurez-vous que l’application fonctionne correctement à l’aide du dernier comportement de Windows 7
+2.  testez l’application avec la nouvelle section de compatibilité et `SupportedOS ID ={e2011457-1546-43c5-a5fe-008deee3d3f0}` (ou sans cette section) pour vous assurer que l’application fonctionne correctement à l’aide des comportements Windows Vista sur Windows 7
 
 ## <a name="known-issues"></a>Problèmes connus
 
-**Incompatibilité de contexte** Une application s’exécute dans un contexte Windows Vista plutôt que dans un contexte Windows 7 sur un ordinateur qui exécute une édition x64 de Windows 7 ou Windows Server 2008 R2.
+**Incompatibilité de contexte** une application s’exécute dans un contexte Windows Vista au lieu d’un contexte Windows 7 sur un ordinateur qui exécute une édition x64 de Windows 7 ou Windows Server 2008 R2.
 
-**Solution** Des mises à jour sont disponibles pour corriger cette erreur pour toutes les versions x64 prises en charge de Windows 7 et Windows Server 2008 R2, ainsi que pour toutes les versions Itanium prises en charge de Windows Server 2008 R2. Accédez à la page de Support Microsoft pour [KB 978637 : une application s’exécute dans un contexte Windows Vista plutôt que dans un contexte Windows 7 sur un ordinateur qui exécute une édition x64 de Windows 7 ou de Windows Server 2008 R2](https://support.microsoft.com/kb/978637) pour obtenir des détails supplémentaires et télécharger la version appropriée pour votre système.
+**Solution** des mises à jour sont disponibles pour corriger cette erreur pour toutes les versions x64 prises en charge de Windows 7 et Windows server 2008 r2, ainsi que pour toutes les versions Itanium prises en charge de Windows Server 2008 r2. accédez à la page de Support Microsoft pour [KB 978637 : une application s’exécute dans un contexte Windows Vista plutôt que dans un contexte Windows 7 sur un ordinateur qui exécute une édition x64 de Windows 7 ou Windows Server 2008 R2](https://support.microsoft.com/kb/978637) pour obtenir des détails supplémentaires et télécharger la version appropriée pour votre système.
 
 **Diagnostic de vidage sur incident bloqué**
 
-**Solution** Accédez à la page de Support Microsoft de la [base de connaissances KB 976038 : les exceptions levées à partir d’une application qui s’exécute dans une version 64 bits de Windows sont ignorées](https://support.microsoft.com/kb/976038) pour obtenir des détails supplémentaires.
+**Solution** accédez à la page de Support Microsoft pour [KB 976038 : les Exceptions levées à partir d’une application qui s’exécute dans une version 64 bits de Windows sont ignorées](https://support.microsoft.com/kb/976038) pour obtenir des détails supplémentaires.
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
 -   [**QueryActCtxW fonction)**](/windows/win32/api/winbase/nf-winbase-queryactctxw)
 -   [Manifeste de contrôle de compte d’utilisateur](/previous-versions/bb756929(v=msdn.10))
--   [Manifestes d’application pour les applications Windows](../sbscs/application-manifests.md)
+-   [manifestes d’Application pour les applications Windows](../sbscs/application-manifests.md)
 -   [Gestionnaire de fenêtrage (DWM)](../dwm/dwm-overview.md)
 -   [Mise à jour des incompatibilités de contexte](https://support.microsoft.com/kb/978637)
 

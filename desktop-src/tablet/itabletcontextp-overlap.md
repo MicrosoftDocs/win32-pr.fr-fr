@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wisptis.exe
 - Wisptis.exe.dll
-ms.openlocfilehash: b009bc08dddb15bc7aa5b12c8846ea66c4a52e56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec8b462f2d06e1613c32b795af1793776cafddd6a3531ac6a0b5385f3d3e5128
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712239"
 ---
 # <a name="itabletcontextpoverlap-method"></a>ITabletContextP :: superposition, méthode
 
@@ -63,7 +63,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Code de retour                                                                            | Description                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                       |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Une erreur non spécifiée s'est produite.<br/> |
 
 
@@ -76,7 +76,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Bibliothèque<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

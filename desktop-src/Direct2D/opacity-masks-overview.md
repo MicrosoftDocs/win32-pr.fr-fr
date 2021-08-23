@@ -4,18 +4,18 @@ description: Cette rubrique explique comment utiliser des bitmaps et des pinceau
 ms.assetid: 869821b0-6ebe-46c2-aab6-93177d8a92c5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49a4757a30247da465e0ae5226bd923219e3e665
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 51626fb2c76b82adeb3b12324db4652a62167db344f41e861c7b0f1d116059ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104550062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636308"
 ---
 # <a name="opacity-masks-overview"></a>Vue d'ensemble des masques d'opacité
 
 Cette rubrique explique comment utiliser des bitmaps et des pinceaux pour définir des masques d’opacité. Elle contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Qu’est-ce qu’un masque d’opacité ?](#what-is-an-opacity-mask)
 -   [Utiliser une image bitmap comme masque d’opacité avec la méthode FillOpacityMask](#use-a-bitmap-as-an-opacity-mask-with-the-fillopacitymask-method)
 -   [Utiliser un pinceau comme masque d’opacité avec la méthode FillGeometry](#use-a-brush-as-an-opacity-mask-with-the-fillgeometry-method)
@@ -101,7 +101,7 @@ L’exemple suivant définit le pinceau, *m \_ pFernBitmapBrush*, auquel le masq
 Maintenant que le masque d’opacité et le pinceau sont définis, vous pouvez utiliser la méthode [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) dans la méthode de rendu de votre application. Quand vous appelez la méthode **FillOpacityMask** , vous devez spécifier le type de masque d’opacité que vous utilisez : les **graphiques de contenu de masque d’opacité d2d1, les \_ \_ \_ \_ graphiques** de contenu de masque d’opacité **d2d1 de \_ \_ \_ \_ texte \_ naturel** et le **texte du contenu de masque d' \_ opacité d2d1 \_ \_ \_ \_ \_ compatible GDI**. Pour connaître la signification de ces trois types, consultez [**\_ contenu du \_ masque \_ d’opacité d2d1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content).
 
 > [!Note]  
-> À compter de Windows 8, [**le \_ \_ \_ contenu du masque d’opacité d2d1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content) n’est pas obligatoire. Consultez la méthode [**ID2D1DeviceContext :: FillOpacityMask**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f_constd2d1_rect_f)) , qui n’a aucun paramètre de **contenu de \_ \_ masque \_ d’opacité d2d1** .
+> à partir de Windows 8, [**le \_ \_ \_ contenu du masque d’opacité D2D1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content) n’est pas requis. Consultez la méthode [**ID2D1DeviceContext :: FillOpacityMask**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f_constd2d1_rect_f)) , qui n’a aucun paramètre de **contenu de \_ \_ masque \_ d’opacité d2d1** .
 
  
 

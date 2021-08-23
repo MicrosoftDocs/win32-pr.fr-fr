@@ -3,8 +3,8 @@ title: Boîte de dialogue Mise en page
 description: Affiche une boîte de dialogue modale qui permet à l’utilisateur de choisir des paramètres qui incluent le type de papier, la source de papier, l’orientation de page et la largeur des marges de page.
 ms.assetid: debde0a0-07d4-46ed-a936-e517eab1852d
 keywords:
-- Interface utilisateur Windows, entrée utilisateur
-- Interface utilisateur Windows, bibliothèque de boîtes de dialogue communes
+- Windows Interface utilisateur, entrée utilisateur
+- Windows Interface utilisateur, bibliothèque de boîtes de dialogue communes
 - entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - capture de l’entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - Bibliothèque de boîtes de dialogue communes
@@ -16,12 +16,12 @@ keywords:
 - boîtes de dialogue, mise en page
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4b9a8f7f30a8313017dc3a124cdccb7d00c872b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1af64357be8bd39217c6527dc81f7ac426f5e06e183de92b3bb479f4633c75d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741652"
 ---
 # <a name="page-setup-dialog-box"></a>Boîte de dialogue Mise en page
 
@@ -67,7 +67,7 @@ Pour empêcher les utilisateurs de sélectionner certaines options, définissez 
 
 
 
- 
+ 
 
 ## <a name="customizing-the-page-setup-dialog-box"></a>Personnalisation de la boîte de dialogue mise en page
 
@@ -119,7 +119,7 @@ Chaque fois que la boîte de dialogue est sur le le contenu de la page d’exemp
 
 
 
- 
+ 
 
 Si la procédure de raccordement retourne la **valeur true** pour l’un des trois premiers messages d’une séquence de dessin ([**WM \_ PSD \_ PAGESETUPDLG**](wm-psd-pagesetupdlg.md), [**WM \_ PSD \_ FULLPAGERECT**](wm-psd-fullpagerect.md)ou [**WM \_ PSD \_ MINMARGINRECT**](wm-psd-minmarginrect.md)), la boîte de dialogue n’envoie plus de messages et ne dessine pas dans la page d’exemple tant que le système n’a pas besoin de redessiner la page d’exemple. Si la procédure de hook retourne la **valeur false** pour les trois messages, la boîte de dialogue envoie les messages restants de la séquence de dessin.
 
@@ -127,6 +127,6 @@ Si la procédure de raccordement retourne la **valeur true** pour l’un des mes
 
 Pour empêcher la boîte de dialogue de dessiner le contenu de la page d’exemple, vous pouvez définir l’indicateur **PSD \_ DISABLEPAGEPAINTING** . Cet indicateur n’affecte pas votre procédure de hook [**PagePaintHook**](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) , qui reçoit toujours tous **\_ les messages \_ \* WM** et peut dessiner le contenu de la page d’exemple.
 
- 
+ 
 
- 
+ 

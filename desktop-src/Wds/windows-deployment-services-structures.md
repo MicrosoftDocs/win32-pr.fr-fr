@@ -1,27 +1,27 @@
 ---
-title: Structures des services de déploiement Windows
-description: Les structures suivantes sont utilisées avec les services de déploiement Windows.
+title: Windows Structures des services de déploiement
+description: les structures suivantes sont utilisées avec les Services de déploiement Windows.
 ms.assetid: 2e52a6ae-cecb-45de-b777-108836ed5264
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c20f5b369a2bbb5d68bd77dce1751e09fed2e6b6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4315ccd3d9540334b00f43fda6522e3eae28be2d038cfdd56fcd129e9e0aed7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760249"
 ---
-# <a name="windows-deployment-services-structures"></a>Structures des services de déploiement Windows
+# <a name="windows-deployment-services-structures"></a>Windows Structures des services de déploiement
 
-Les structures suivantes sont utilisées avec les services de déploiement Windows.
+les structures suivantes sont utilisées avec les Services de déploiement Windows.
 
 
 
 | Structure                                                                         | Description                                                                                                        |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | [**\_adresse PXE**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_address)                                               | Spécifie l’adresse réseau d’un paquet.                                                                        |
-| [**\_message PXE DHCP \_**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcp_message)                                    | Cette structure est utilisée avec l’API du serveur PXE Windows Deployment Services.                                        |
-| [**PXE \_ DHCP \_ (option)**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcp_option)                                      | Cette structure est utilisée avec l’API du serveur PXE Windows Deployment Services.                                        |
+| [**\_message PXE DHCP \_**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcp_message)                                    | cette structure est utilisée avec l’API du serveur PXE Windows Deployment Services.                                        |
+| [**PXE \_ DHCP \_ (option)**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcp_option)                                      | cette structure est utilisée avec l’API du serveur PXE Windows Deployment Services.                                        |
 | [**\_fournisseur PXE**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_provider)                                             | Décrit un fournisseur.                                                                                              |
 | [**\_cred CLI de WDS \_**](/windows/win32/api/wdsclientapi/ns-wdsclientapi-wds_cli_cred)                                            | Contient les informations d’identification utilisées pour autoriser une session cliente.                                                           |
 | [**\_requête TRANSPORTCLIENT \_ WDS**](/windows/desktop/api/Wdstci/ns-wdstci-wds_transportclient_request)              | Utilisé par la fonction [**WdsTransportClientStartSession**](/windows/desktop/api/Wdstci/nf-wdstci-wdstransportclientstartsession) .                     |
@@ -31,22 +31,22 @@ Les structures suivantes sont utilisées avec les services de déploiement Windo
 
 
 
- 
+ 
 
-Les éléments suivants sont disponibles à partir de Windows 8 et de Windows Server 2012.
+les éléments suivants sont disponibles à partir de Windows 8 et Windows Server 2012.
 
 | Structure                                          | Description                                               |
 |----------------------------------------------------|-----------------------------------------------------------|
-| [**PXE \_ DHCPv6 \_ (option)**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcpv6_option)   | Utilisé avec l’API du serveur PXE Windows Deployment Services. |
+| [**PXE \_ DHCPv6 \_ (option)**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcpv6_option)   | utilisé avec l’API du serveur PXE Windows Deployment Services. |
 | [**\_Message DHCPv6 \_ PXE**](/windows/win32/api/wdspxe/ns-wdspxe-pxe_dhcpv6_message) | Message DHCPV6.                                         |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

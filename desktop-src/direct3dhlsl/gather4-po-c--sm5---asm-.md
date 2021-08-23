@@ -4,12 +4,12 @@ description: Se comporte comme gather4 \_ po, sauf que effectue une comparaison 
 ms.assetid: B128EEF3-3440-4F00-9792-20FB1AE075E9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36b07dcad08b4d117a453a3c97e461e6b9b4cab6
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 83342aed97663c027b0915f612b13b288192d937d29d364257004cfc8966aec9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743869"
 ---
 # <a name="gather4_po_c-sm5---asm"></a>gather4 \_ po \_ c (SM5-ASM)
 
@@ -39,7 +39,7 @@ Se comporte comme [**gather4 \_ po**](gather4-po--sm5---asm-.md), sauf que effec
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Consultez l' [**exemple \_ c**](sample-c--sm4---asm-.md) pour plus d’informations sur la façon dont *srcReferenceValue* est comparé à chaque Texel extrait. Contrairement à l' **exemple \_ c**, *gather4 \_ po \_ c* retourne chaque résultat de comparaison, plutôt que de les filtrer.
 
@@ -57,7 +57,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -71,9 +71,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

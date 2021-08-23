@@ -1,20 +1,20 @@
 ---
 title: Infrastructure pour la gestion des services hébergés
-description: Windows Remote Management 2,0 (WinRM) introduit une infrastructure d’hébergement. Pour utiliser le Framework, les plug-ins WinRM sont écrits et exposent les données de gestion d’une application au sein de l’infrastructure WinRM.
+description: Windows La gestion à distance 2,0 (WinRM) introduit un Framework d’hébergement. Pour utiliser le Framework, les plug-ins WinRM sont écrits et exposent les données de gestion d’une application au sein de l’infrastructure WinRM.
 ms.assetid: 924dcc70-9a29-45a6-99a2-5681235e4574
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8439aca1f36d2d0c2cebb6ed3111aeaa2e4fcee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa41f7952867a121b8a4bd4847cb90ca42dafac346398954afbd5e4dc8bdf43e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795269"
 ---
 # <a name="infrastructure-for-managing-hosted-services"></a>Infrastructure pour la gestion des services hébergés
 
-Windows Remote Management 2,0 (WinRM) introduit une infrastructure d’hébergement. Pour utiliser le Framework, les plug-ins WinRM sont écrits et exposent les données de gestion d’une application au sein de l’infrastructure WinRM. Deux modèles d’hébergement sont pris en charge. L’un est Internet Information Services (IIS) â € « based et l’autre est WinRMâ ». Le modèle WinRM utilise HTTP.sys et ne dépend pas d’IIS.
+Windows La gestion à distance 2,0 (WinRM) introduit un Framework d’hébergement. Pour utiliser le Framework, les plug-ins WinRM sont écrits et exposent les données de gestion d’une application au sein de l’infrastructure WinRM. Deux modèles d’hébergement sont pris en charge. l’un est Internet Information Services (IIS) â € « based et l’autre est WinRMâ ». Le modèle WinRM utilise HTTP.sys et ne dépend pas d’IIS.
 
 Les sections suivantes décrivent les modèles d’hébergement :
 
@@ -55,9 +55,9 @@ WinRM 2,0 peut gérer la redirection HTTP. Il est recommandé que toutes les red
 
 Le modèle de service WinRM s’exécute par-dessus HTTP.sys. Le service WinRM est un service réseau qui gère les demandes des clients WinRM. Le service détermine si la requête est routée vers un plug-in qui s’exécute dans le service principal ou est routé via un hôte où le plug-in tiers est exécuté. Ce modèle est destiné aux scénarios où la charge sur le nœud géré est faible. En outre, ce modèle est destiné aux scénarios dans lesquels l’hébergement IIS n’est pas une option. Pour plus d’informations, consultez [configuration du plug-in du service WinRM](wsman-service-plug-in-configuration.md).
 
- 
+ 
 
- 
+ 
 
 
 

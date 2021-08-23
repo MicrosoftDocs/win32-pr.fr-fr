@@ -4,12 +4,12 @@ description: Convertit les données JPEG d’échantillonnages planaires et de c
 ms.assetid: E4492996-54DA-4C5F-B44C-8FBE97C8DD7D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c581effbadecc19c39161d2a2ec4af051d4195d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d5302300cc539571fabb1c3d786686ffc514636133391e706fc5963002656764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636089"
 ---
 # <a name="ycbcr-effect"></a>Effet YCbCr
 
@@ -21,7 +21,7 @@ Le CLSID de cet effet est CLSID \_ D2D1YCbCr.
 -   [Modes de sous-échantillonnage](#subsampling-modes)
 -   [Modes d’interpolation](#interpolation-modes)
 -   [Bitmap de sortie](#output-bitmap)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="effect-properties"></a>Propriétés d’effet
@@ -83,8 +83,8 @@ L’effet exécute l’opération de transformation, puis applique un cadre engl
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ bureau Windows 8.1 \| applications du Windows Store\]            |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2012 R2 applications du \[ \| Windows Store\] |
+| Client minimal pris en charge | applications de \[ bureau Windows 8.1 \| Windows applications du windows Store\]            |
+| Serveur minimal pris en charge | Windows Server 2012 applications de \[ bureau R2 \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 1. h                                              |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                          |
 

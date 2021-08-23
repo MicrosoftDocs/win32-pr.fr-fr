@@ -29,16 +29,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cd02487fe166cd7ce55482eaca1339c8701f2b62
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f70f77fb34379a9503bc2ac0988bd855254da4d6a30042b6a8fddd41561f6f53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699499"
 ---
 # <a name="win32_irqresource-class"></a>\_Classe IRQResource Win32
 
-La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ IRQResource** WMI représente un numéro d’interruption (IRQ) sur un système informatique exécutant Windows.   Une requête d’interruption est un signal envoyé au processeur par un appareil ou un programme pour les événements critiques de temps. L’IRQ peut être basée sur le matériel ou sur le logiciel.
+La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ IRQResource** WMI représente un numéro d’interruption (IRQ) sur un système d’ordinateur exécutant Windows.   Une requête d’interruption est un signal envoyé au processeur par un appareil ou un programme pour les événements critiques de temps. L’IRQ peut être basée sur le matériel ou sur le logiciel.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -103,7 +103,7 @@ Cette propriété est héritée de l' [**\_ IRQ CIM**](cim-irq.md).
 
 </dt> <dd>
 
-Autres
+Autre
 
 </dd> <dt>
 
@@ -556,11 +556,11 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api de \| structures système \| cm niveau d’interruption de [**\_ \_ \_ descripteur de ressource partielle**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_partial_resource_descriptor) \| \| ")
 </dt> </dl>
 
-Vecteur de la ressource IRQ Windows. Un vecteur contient l’adresse mémoire de la fonction qui s’exécute une fois que la demande d’interruption est acceptée par le processeur.
+vecteur du Windows ressource IRQ. Un vecteur contient l’adresse mémoire de la fonction qui s’exécute une fois que la demande d’interruption est acceptée par le processeur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ IRQResource** est dérivée de l' [**\_ IRQ CIM**](cim-irq.md).
 

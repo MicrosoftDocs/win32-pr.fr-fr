@@ -4,17 +4,17 @@ ms.assetid: feaa1db8-2d33-4c32-8491-f3aa5555e3d3
 title: Méthode GetDVDTextLanguageLCID
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f66d21b9870982b605d9deeb1e22882a525c5616
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 50c60abedc3a986bfec766cc14c2251d9bed83650ee737762a4e870af9d283a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748719"
 ---
 # <a name="getdvdtextlanguagelcid-method"></a>Méthode GetDVDTextLanguageLCID
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -39,7 +39,7 @@ Spécifie le bloc de langage de texte sur le disque sous la forme d’un entier.
 
 Retourne une valeur LCID qui contient des informations spécifiant le langage dans lequel les chaînes sont écrites.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les chaînes de texte supplémentaires sont stockées dans des blocs contigus sur le disque. Chaque langage possède un bloc de chaînes. Une application spécifie ces blocs par un index, qui doit être inférieur à la valeur retournée par [**GetDVDTextNumberOfLanguages**](getdvdtextnumberoflanguages-method.md).
 

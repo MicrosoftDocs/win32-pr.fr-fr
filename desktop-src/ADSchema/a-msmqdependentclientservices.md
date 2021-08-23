@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1ea2ccae62904fd4fc25e9ffaa5f93f2de0ab9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b48a36fab430a7f3d150ff38cff3f1f40d2cbe3696a1d3a4e0eabc74d4f697dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762659"
 ---
 # <a name="msmq-dependent-client-services-attribute"></a>Attribut MSMQ-dependent-client-services
 
@@ -45,7 +45,7 @@ Indique si le MSMQ installé sur cet ordinateur fournit des services clients MSM
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

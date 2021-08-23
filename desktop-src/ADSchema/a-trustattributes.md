@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d81dc06f73fbda5dab7ce8d2a07bfc90323d2b29
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2d09104d0f32c770ba1fe3fbdde6cf56d56989a801856ba970284b2d06c96a5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704039"
 ---
 # <a name="trust-attributes-attribute"></a>Attribut Trust-Attributes
 
@@ -41,7 +41,7 @@ Cet attribut stocke les attributs d’approbation pour un domaine approuvé. Les
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.470               |
 | System-ID-GUID    | 80a67e5a-9f22-11d0-afdd-00c04fd930c9 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -50,7 +50,7 @@ Cet attribut stocke les attributs d’approbation pour un domaine approuvé. Les
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

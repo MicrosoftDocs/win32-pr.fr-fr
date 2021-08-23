@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: e9a0ba2ade1095f291d5cb325a0902e6caeac3f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9776ca62cbb61b6708f00d5e1d6d85eeab245b32798683b5afde546d835633c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779189"
 ---
 # <a name="imonitordoconfigure-method"></a>IMonitor ::D méthode oConfigure
 
@@ -68,7 +68,7 @@ Si la méthode réussit, la valeur de retour est \_ OK (ce qui correspond à la 
 
 Si la méthode échoue, la valeur de retour est un code d’erreur. Une valeur de retour de \_ la configuration de l’analyseur de NMERR \_ \_ a échoué, mais lorsque cette erreur est retournée, le moniteur ne peut pas démarrer tant qu’un appel de **configuration** ultérieure n’a pas réussi. Toute autre erreur empêche l’activation de l’instance du moniteur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le MCSVC appelle cette méthode une fois qu’il s’est connecté au réseau et avant l’appel de la méthode [IRTC :: configure](irtc-configure.md) .
 

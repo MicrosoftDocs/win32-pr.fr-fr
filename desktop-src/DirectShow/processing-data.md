@@ -4,12 +4,12 @@ ms.assetid: 823615df-ce50-4e20-957a-f83d3be66658
 title: Traitement des données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bbece449df36c2de88414f313d477b8a16ba896
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5ff417b3e37c3be43c42fd0cf8545bce6bfb00caa361d34d8044d690169f7c97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748169"
 ---
 # <a name="processing-data"></a>Traitement des données
 

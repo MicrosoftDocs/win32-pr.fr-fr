@@ -1,5 +1,5 @@
 ---
-description: Les appareils mobiles Windows définissent les valeurs d’événement suivantes.
+description: Windows Les appareils mobiles définissent les valeurs d’événement suivantes.
 ms.assetid: d73788a1-d0fe-4a69-b472-edf438a28f90
 title: Constantes d’événement (PortableDevice. h)
 ms.topic: reference
@@ -21,16 +21,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: e60c44cda2585655a86ca1cdb4653ad002a0225d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5ae8a0a519af32a68bd65241f847cadcaa3d623be932a747e21a3b86338d680d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704789"
 ---
 # <a name="event-constants-portabledeviceh"></a>Constantes d’événement (PortableDevice. h)
 
-Les appareils mobiles Windows définissent les valeurs d’événement suivantes.
+Windows Les appareils mobiles définissent les valeurs d’événement suivantes.
 
 
 

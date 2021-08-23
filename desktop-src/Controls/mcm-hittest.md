@@ -3,7 +3,7 @@ title: Message MCM_HITTEST (commctrl. h)
 description: Détermine la partie d’un contrôle calendrier du mois qui se trouve à un point donné sur l’écran. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro calendrier monthcal HitTest.
 ms.assetid: 51e74b07-4ed7-488d-ad5d-116f046577fc
 keywords:
-- MCM_HITTEST les contrôles de message Windows
+- MCM_HITTEST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3670ac8ab663ceda1786f7136a50c4da255a76c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ab43ae76a2e747ff019a5bafa32870a208851a143ad94dd0679e894366c3592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697189"
 ---
 # <a name="mcm_hittest-message"></a>\_Message MCM HITTEST
 
@@ -75,8 +75,8 @@ Définit des valeurs dans les membres du
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

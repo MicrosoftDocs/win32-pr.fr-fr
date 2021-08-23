@@ -4,17 +4,17 @@ description: Une info-bulle est une petite fenêtre contextuelle qui informe les
 ms.assetid: 67092831-e573-4ad6-b1fc-baa1836031cb
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 792974ebaaa946a3e1a4f05d52c8fd9ac32fc87a
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: ea95eee6e745dc85dbe7cd354df0906b5df4a7870198fc662effd326c6fbaae9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119818635"
 ---
 # <a name="balloons"></a>Bulles
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Une info-bulle est une petite fenêtre contextuelle qui informe les utilisateurs d’un problème non critique ou d’une condition spéciale dans un contrôle.
 
@@ -66,7 +66,7 @@ Contrairement aux messages sur place :
 -   Les bulles ne nécessitent pas d’espace d’écran disponible ou la disposition dynamique requise pour afficher des messages sur place.
 -   Les bulles se suppriment automatiquement après un délai d’expiration.
 
-**Modèles d’utilisation**
+**Modèles d’usage**
 
 Les bulles ont les modèles d’utilisation suivants :
 
@@ -152,7 +152,7 @@ Dans cet exemple, une bulle indique que l’utilisateur a tenté de dépasser la
 
     |  Modèle |  Icône                                                                                                                                                       |
     ------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Problème d’entrée | Pas d'icône. L’absence d’une [icône d’erreur](vis-std-icons.md) ici est cohérente avec les directives de [tonalité Windows](text-style-tone.md) . |
+    | Problème d’entrée | Pas d'icône. l’absence d’une [icône d’erreur](vis-std-icons.md) ici est conforme aux recommandations en matière de tonalité de [Windows](text-style-tone.md) . |
     | Condition spéciale | [Icône d’avertissement](vis-std-icons.md)standard de 16x16 pixels.                                                                                  |
 
 **Accessibilité**

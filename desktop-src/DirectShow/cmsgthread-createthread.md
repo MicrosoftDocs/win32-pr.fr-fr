@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8951995de18158fe4d1e5f84b1d98da701067ab6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3681716af79d0c47ae08371caa2d03d236b9748d98b08098d7a6834a93ed9b2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831869"
 ---
 # <a name="cmsgthreadcreatethread-method"></a>CMsgThread. CreateThread, méthode
 
@@ -55,7 +55,7 @@ Retourne l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le thread se bloque jusqu’à ce qu’une demande soit mise en file d’attente (via la fonction membre [**CMsgThread ::P utthreadmsg**](cmsgthread-putthreadmsg.md) ), puis appelle la fonction membre [**CMsgThread :: ThreadMessageProc**](cmsgthread-threadmessageproc.md) avec chaque message.
 
@@ -65,7 +65,7 @@ Le thread se bloque jusqu’à ce qu’une demande soit mise en file d’attente
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Msgthrd. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Msgthrd. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: a636bc95fd3d25de20c2df413576a504c4fa1b96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f2c6f8a5707780bae6c8a135e3ca940fb4a77408c3df835b321b5b190644fcc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703719"
 ---
 # <a name="wpd_video_scan_types-enumeration"></a>\_ \_ Énumération des types d’analyses vidéo wpd \_
 
@@ -102,7 +102,7 @@ Fichier vidéo avec un mélange de modes entrelacés et progressifs.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée par la propriété de [ \_ \_ \_ type d’analyse vidéo wpd](properties-and-attributes.md) .
 

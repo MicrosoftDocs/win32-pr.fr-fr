@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b970c979bb34ef0854755e042b6d36457c999be0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dd960081a21f51916f91d76c8235967b733848624cf36e02e20af792242b2a4e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762039"
 ---
 # <a name="msmq-site-gates-attribute"></a>Attribut MSMQ-site-Gates
 
@@ -45,7 +45,7 @@ Liste de DNs pour les serveurs de routage MSMQ, à travers laquelle tout le traf
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

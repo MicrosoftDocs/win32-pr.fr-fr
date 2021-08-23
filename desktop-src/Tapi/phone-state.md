@@ -4,12 +4,12 @@ ms.assetid: 74e74b62-8387-4056-83e6-2350b3da4077
 title: Message PHONE_STATE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5db52f16d6c377087fd6ccadc5e70b5bb2865da2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90003eaa67cb3384b123c62827fcf52bae524b1e20f9f14c2391c46dc89a367c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796759"
 ---
 # <a name="phone_state-message"></a>Message d’état de téléphone \_
 
@@ -50,7 +50,7 @@ Instance de rappel de l’application fournie lors de l’ouverture du périphé
 *dwParam2* 
 </dt> <dd>
 
-Les informations dépendantes de l’état du téléphone détaillent le changement d’État. Ce paramètre n’est pas utilisé si plusieurs indicateurs sont définis dans *dwParam1*, car plusieurs éléments d’État ont été modifiés. L’application doit appeler [**phoneGetStatus**](/windows/desktop/api/Tapi/nf-tapi-phonegetstatus) pour obtenir un ensemble complet d’informations.
+Téléphone des informations dépendantes de l’état détaillant le changement d’état. Ce paramètre n’est pas utilisé si plusieurs indicateurs sont définis dans *dwParam1*, car plusieurs éléments d’État ont été modifiés. L’application doit appeler [**phoneGetStatus**](/windows/desktop/api/Tapi/nf-tapi-phonegetstatus) pour obtenir un ensemble complet d’informations.
 
 Si *dwParam1* est PHONESTATE \_ Owner, *dwParam2* contient le nouveau nombre de propriétaires.
 
@@ -75,7 +75,7 @@ Inutilisé.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’envoi du message d' **\_ État téléphonique** à l’application peut être contrôlé et interrogé à l’aide de [**phoneSetStatusMessages**](/windows/desktop/api/Tapi/nf-tapi-phonesetstatusmessages) et [**phoneGetStatusMessages**](/windows/desktop/api/Tapi/nf-tapi-phonegetstatusmessages). Par défaut, ce message est désactivé pour toutes les modifications d’État, à l’exception de PHONESTATE \_ reinit, qui ne peut pas être désactivé. Ce message est envoyé à toutes les applications qui ont un handle vers le téléphone, y compris celles qui ont appelé [**phoneOpen**](/windows/desktop/api/Tapi/nf-tapi-phoneopen) avec le paramètre *DWPRIVILEGES* défini sur PHONEPRIVILEGE \_ owner ou PHONEPRIVILEGE \_ Monitor.
 

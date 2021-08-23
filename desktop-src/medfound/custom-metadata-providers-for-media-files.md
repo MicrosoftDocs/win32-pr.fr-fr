@@ -4,12 +4,12 @@ ms.assetid: f8cf70ff-8324-4308-8adf-a145aa351ca9
 title: Fournisseurs de métadonnées personnalisés pour les fichiers multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2ded77492d03f7b802f6b2f9c25e1009ef97f50
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 1951fd90265299cb53369d521193740b7d4d05e0f1650583965eb670ab375cc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106535744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777599"
 ---
 # <a name="custom-metadata-providers-for-media-files"></a>Fournisseurs de métadonnées personnalisés pour les fichiers multimédias
 
@@ -42,7 +42,7 @@ Pour créer un gestionnaire de propriétés personnalisées, procédez comme sui
 -   Pour mettre le gestionnaire de propriétés à la disposition du système de propriétés de l’interpréteur de commandes, inscrivez la DLL du gestionnaire de propriétés comme décrit dans la rubrique [inscription et distribution de gestionnaires de propriétés](../properties/prophand-reg-dist.md).
 -   La source du média est inscrite séparément, comme décrit dans [gestionnaires de modèles et gestionnaires de Byte-Stream](scheme-handlers-and-byte-stream-handlers.md).
 
-### <a name="implementation-tips"></a>Conseils d’implémentation
+### <a name="implementation-tips"></a>Astuces d’implémentation
 
 Pour obtenir la liste des clés de propriété de métadonnées, consultez [Propriétés de métadonnées pour les fichiers multimédias](metadata-properties-for-media-files.md).
 

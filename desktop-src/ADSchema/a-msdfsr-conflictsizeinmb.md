@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e22b5f2a3ced9d50c9f930228d1e5611039741b4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ef7744e99d5a793bb11adb2baefee397d3264a7b0fb9969e01663bfdbef2acf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704989"
 ---
 # <a name="ms-dfsr-conflictsizeinmb-attribute"></a>attribut ms-DFSR-ConflictSizeInMb
 
@@ -43,7 +43,7 @@ Contient la taille, en mégaoctets, du répertoire de conflit.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -131,7 +131,7 @@ Contient la taille, en mégaoctets, du répertoire de conflit.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut [**MS-DFSR-DirectoryFilter**](a-msdfsr-directoryfilter.md) fait partie de la prise en charge du service de réplication système de fichiers DFS (DFS).
 

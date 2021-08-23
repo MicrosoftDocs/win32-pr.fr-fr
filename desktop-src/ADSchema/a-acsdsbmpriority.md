@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd32c9e9cca95dbd5f52569de0b61e886033d13
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c2e7a80c9c866b5c91f83f884ecaafe60e4596af4ca8d625791ed9264679c356
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637489"
 ---
 # <a name="acs-dsbm-priority-attribute"></a>ACS-DSBM-Priority (attribut)
 
@@ -36,7 +36,7 @@ Cet attribut contient la priorité de ce gestionnaire de bande passante de rése
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.776               |
 | System-ID-GUID    | 1cb3559e-56d0-11d1-a9c6-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Cet attribut contient la priorité de ce gestionnaire de bande passante de rése
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

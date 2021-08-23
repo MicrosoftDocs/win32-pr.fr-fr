@@ -4,12 +4,12 @@ ms.assetid: a9101c51-2288-4055-9381-4c68564361f8
 title: Constantes LINEAGENTSESSIONSTATUS_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 535981b61260c10e9386e413e9af4f7a0b1d469a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75cbcfb6c590df20248f3eb0135a52f5eda47e9c4a4de8c9de7afc6b9927eeb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682169"
 ---
 # <a name="lineagentsessionstatus_-constants"></a>\_Constantes LINEAGENTSESSIONSTATUS
 

@@ -3,7 +3,7 @@ title: Message WM_CAP_PAL_MANUALCREATE (VFW. h)
 description: Le \_ message WM Cap \_ PAL \_ MANUALCREATE demande que le pilote de capture échantillonne manuellement les images vidéo et crée une nouvelle palette. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capPaletteManual.
 ms.assetid: 96b6b2d6-084a-411e-8495-ea27e0c4f04f
 keywords:
-- Message WM_CAP_PAL_MANUALCREATE Windows Multimedia
+- message WM_CAP_PAL_MANUALCREATE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dfd5b6588381ede0faaae539d3d8418b041f458
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8cc313cb6eae8e757d0777642bbc0ab72fe07fcfbf5b530a6479675c8ab3c07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781290"
 ---
 # <a name="wm_cap_pal_manualcreate-message"></a>\_Message WM Cap \_ PAL \_ MANUALCREATE
 

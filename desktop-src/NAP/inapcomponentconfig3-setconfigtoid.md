@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3158a216ba4fd4f82f3e4fc21fc1e0043b16a46a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 010fdc6cbb236a113e4f1804d3a4780c0e6a72f89b1f03bf90f1d99a92dc2bdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781079"
 ---
 # <a name="inapcomponentconfig3setconfigtoid-method"></a>INapComponentConfig3 :: SetConfigToID, méthode
 
@@ -85,7 +85,7 @@ Retourne l’un des codes d’erreur suivants en fonction du résultat de cette 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**newconfig**](inapcomponentconfig3-newconfig.md) doit être utilisée pour allouer des données de configuration pour *configId* avant que cette méthode puisse être appelée.
 
@@ -96,7 +96,7 @@ La méthode [**newconfig**](inapcomponentconfig3-newconfig.md) doit être utilis
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>NapCommon. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapCommon. idl</dt> </dl> |
 

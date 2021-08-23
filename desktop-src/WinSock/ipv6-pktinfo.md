@@ -4,12 +4,12 @@ ms.assetid: 7BF17538-BE92-44FE-BA3C-6B44F61D478A
 title: Option de socket IPV6_PKTINFO (Ws2ipdef. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5afd5b19cbaba7f6a66f5ba6fbd85d74eb2f2e3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1bee015e7a73b803d78ae914e71a863dec83e4f40fc1aea9f631a54b37c586a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733769"
 ---
 # <a name="ipv6_pktinfo-socket-option"></a>\_Option de socket PKTINFO IPv6
 
@@ -103,8 +103,8 @@ Si l’opération échoue, une valeur d’erreur de SOCKET \_ est renvoyée et u
 | <dl> <dt>**[WSANOTINITIALISED](windows-sockets-error-codes-2.md)**</dt> </dl> | Un appel [**WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) réussi doit se produire avant l’utilisation de cette fonction.<br/>                                                                                                                                                     |
 | <dl> <dt>**[WSAENETDOWN](windows-sockets-error-codes-2.md)**</dt> </dl>             | Le sous-système réseau a échoué.<br/>                                                                                                                                                                                                               |
 | <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md)**</dt> </dl>                 | L’un des paramètres *optval* ou *optlen* pointent vers la mémoire qui n’est pas dans une partie valide de l’espace d’adressage de l’utilisateur. Cette erreur est également retournée si la valeur vers laquelle pointe le paramètre *optlen* est inférieure à la taille d’une valeur **DWORD** .<br/> |
-| <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md)**</dt> </dl>       | Un appel de blocage de Windows Sockets 1,1 est en cours, ou le fournisseur de services traite toujours une fonction de rappel.<br/>                                                                                                                            |
-| <dl> <dt>**[WSAEINVAL](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Argument non valide fourni. Cette erreur est retournée si le paramètre de *niveau* est inconnu ou non valide. Sur Windows Vista et versions ultérieures, cette erreur est également retournée si le socket était dans un état de transition.<br/>                                     |
+| <dl> <dt>**[WSAEINPROGRESS](windows-sockets-error-codes-2.md)**</dt> </dl>       | un appel de blocage Windows sockets 1,1 est en cours, ou le fournisseur de services traite toujours une fonction de rappel.<br/>                                                                                                                            |
+| <dl> <dt>**[WSAEINVAL](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Argument non valide fourni. Cette erreur est retournée si le paramètre de *niveau* est inconnu ou non valide. sur Windows Vista et versions ultérieures, cette erreur est également retournée si le socket est dans un état de transition.<br/>                                     |
 | <dl> <dt>**[WSAENOPROTOOPT](windows-sockets-error-codes-2.md)**</dt> </dl>       | L’option est inconnue ou non prise en charge par la famille de protocoles indiquée. Cette erreur est retournée si le paramètre de *type* pour le descripteur de socket passé dans le paramètre *s* n’était pas **chaussette \_ DGRAM** ou **chaussette \_ RAW**. <br/>                          |
 | <dl> <dt>**[WSAENOTSOCK](windows-sockets-error-codes-2.md)**</dt> </dl>             | Le descripteur n’est pas un Socket.<br/>                                                                                                                                                                                                                 |
 
@@ -112,7 +112,7 @@ Si l’opération échoue, une valeur d’erreur de SOCKET \_ est renvoyée et u
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) appelée avec l' \_ option de socket IPv6 PKTINFO permet à une application de déterminer si les informations de paquet doivent être retournées par la fonction [**LPFN_WSARECVMSG (WSARECVMSG)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)pour un socket IPv6.
 
@@ -132,8 +132,8 @@ Notez que le fichier d’en-tête *Ws2ipdef. h* est automatiquement inclus dans 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>Ws2ipdef. h (inclure Ws2tcpip. h)</dt> </dl> |
 
 

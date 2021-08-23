@@ -4,12 +4,12 @@ description: Codes dans ITF d’usine \_
 ms.assetid: 1f9f7b2c-a4e4-41c0-9ba5-b8bbf722e077
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fc4375b5956502dbaee97057d347aff1da77e3a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ba2a16d051c352c353376865265c0451014f6110fbcde326914c3cc244a36223
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793789"
 ---
 # <a name="codes-in-facility_itf"></a>Codes dans ITF d’usine \_
 
@@ -31,9 +31,9 @@ Il est également recommandé que les développeurs définissent de nouvelles fo
 [Gestion des erreurs dans COM](error-handling-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

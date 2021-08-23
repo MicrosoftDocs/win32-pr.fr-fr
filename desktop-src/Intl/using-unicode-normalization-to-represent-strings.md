@@ -4,12 +4,12 @@ ms.assetid: 027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35
 title: Utilisation de la normalisation Unicode pour représenter des chaînes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad452db3bc20518320afcf77e5f6483e010cd144
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62c6d091548d924919a18fe05fb9d98d2b82b13792df2facfe96489be2d7ff2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822489"
 ---
 # <a name="using-unicode-normalization-to-represent-strings"></a>Utilisation de la normalisation Unicode pour représenter des chaînes
 
@@ -55,7 +55,7 @@ Les formulaires KC et KD sont similaires aux formulaires C et D, respectivement,
 
 Le formulaire KC est un formulaire composé et le formulaire KD est un formulaire décomposé. L’application peut basculer entre les formulaires KC et KD, mais il n’existe pas de méthode cohérente pour revenir de la forme KC ou KD à la chaîne d’origine, même si la chaîne d’origine est au format C ou D.
 
-Windows, les applications Microsoft et le .NET Framework génèrent généralement des caractères au format C à l’aide de méthodes d’entrée normales. Pour la plupart des cas sur Windows, le formulaire C est le formulaire par défaut. Par exemple, les caractères du formulaire C sont générés par l’entrée clavier Windows. Toutefois, les caractères importés à partir du Web et d’autres plateformes peuvent introduire d’autres formulaires de normalisation dans le flux de données.
+Windows, les applications Microsoft et le .NET Framework génèrent généralement des caractères dans le formulaire C à l’aide de méthodes d’entrée normales. dans la plupart des cas sur Windows, le formulaire C est le formulaire par défaut. par exemple, les caractères du formulaire C sont produits par Windows entrée au clavier. Toutefois, les caractères importés à partir du Web et d’autres plateformes peuvent introduire d’autres formulaires de normalisation dans le flux de données.
 
 Les exemples suivants sont tirés de UAX \# 15 et illustrent les différences entre les quatre formulaires de normalisation.
 
@@ -67,7 +67,7 @@ Les exemples suivants sont tirés de UAX \# 15 et illustrent les différences en
 <th>Original</th>
 <th>Formulaire D</th>
 <th>Formulaire C</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
@@ -149,7 +149,7 @@ Les exemples suivants sont tirés de UAX \# 15 et illustrent les différences en
 <th>Original</th>
 <th>Forme KD</th>
 <th>Forme KC</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>

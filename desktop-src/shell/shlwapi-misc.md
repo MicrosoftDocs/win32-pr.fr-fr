@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les fonctions de l’interpréteur de commandes Windows exportées par Shlwapi.dll et définies dans Shlwapi. h et Shlwapi. lib qui ne relèvent pas de l’une des autres catégories de fonctions utilitaires.
+description: cette section décrit ces fonctions de Shell Windows exportées par Shlwapi.dll et définies dans shlwapi. h et shlwapi. lib qui ne se trouvent pas dans l’une des autres catégories de fonctions utilitaires.
 title: Fonctions utilitaires diverses de l’interpréteur de commandes
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d60a0efbe9bffda671fb3be87d60357766d645e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87c4d7c585ce9a6cbae1702d4c49da3dcea5a0a465d32d8a6221d6c5783114ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709399"
 ---
 # <a name="shell-miscellaneous-utility-functions"></a>Fonctions utilitaires diverses de l’interpréteur de commandes
 
-Cette section décrit les fonctions de l’interpréteur de commandes Windows exportées par Shlwapi.dll et définies dans Shlwapi. h et Shlwapi. lib qui ne relèvent pas de l’une des autres catégories de fonctions utilitaires.
+cette section décrit ces fonctions de Shell Windows exportées par Shlwapi.dll et définies dans shlwapi. h et shlwapi. lib qui ne se trouvent pas dans l’une des autres catégories de fonctions utilitaires.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -29,7 +29,7 @@ Cette section décrit les fonctions de l’interpréteur de commandes Windows ex
 | [**DllInstall**](/windows/desktop/api/Shlwapi/nf-shlwapi-dllinstall)<br/>                             | Gère l’installation et la configuration d’une DLL.<br/>                                                                                                                                                                                                                             |
 | [**GetProcessReference**](/windows/desktop/api/Shlwapi/nf-shlwapi-getprocessreference)<br/>           | Récupère l’objet spécifique au processus fourni par [**SetProcessReference**](/windows/desktop/api/Shlwapi/nf-shlwapi-setprocessreference), en incrémentant le nombre de références pour maintenir le processus actif.<br/>                                                                                                     |
 | [**HashData**](/windows/desktop/api/Shlwapi/nf-shlwapi-hashdata)<br/>                                 | Hache un tableau de données.<br/>                                                                                                                                                                                                                                              |
-| [**IsInternetESCEnabled**](/windows/desktop/api/Shlwapi/nf-shlwapi-isinternetescenabled)<br/>         | Détermine si Windows Internet Explorer est dans la configuration de sécurité renforcée.<br/>                                                                                                                                                                               |
+| [**IsInternetESCEnabled**](/windows/desktop/api/Shlwapi/nf-shlwapi-isinternetescenabled)<br/>         | détermine si Windows Internet Explorer est dans la Configuration de sécurité renforcée.<br/>                                                                                                                                                                               |
 | [**Fichiers ISO**](/windows/desktop/api/Shlwapi/nf-shlwapi-isos)<br/>                                         | Vérifie les systèmes d’exploitation et les fonctionnalités du système d’exploitation spécifiés.<br/>                                                                                                                                                                                                 |
 | [**\_Copie IStream**](/windows/desktop/api/Shlwapi/nf-shlwapi-istream_copy)<br/>                        | Copie un flux vers un autre flux.<br/>                                                                                                                                                                                                                                    |
 | [**\_Lecture IStream**](/windows/desktop/api/Shlwapi/nf-shlwapi-istream_read)<br/>                        | Lit les octets d’un flux spécifié et retourne une valeur qui indique si tous les octets ont été correctement lus.<br/>                                                                                                                                                      |
@@ -48,7 +48,7 @@ Cette section décrit les fonctions de l’interpréteur de commandes Windows ex
 | [**\_SetSite de IUnknown**](/windows/desktop/api/Shlwapi/nf-shlwapi-iunknown_setsite)<br/>                | Définit le site de l’objet spécifié en appelant sa méthode [**IObjectWithSite :: SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) .<br/>                                                                                                                                                   |
 | [**ParseURL**](/windows/desktop/api/Shlwapi/nf-shlwapi-parseurla)<br/>                                 | Effectue une analyse rudimentaire d’une URL.<br/>                                                                                                                                                                                                                                |
 | [**QISearch**](/windows/desktop/api/Shlwapi/nf-shlwapi-qisearch)<br/>                                 | Implémentation pilotée par les tables de la méthode [**IUnknown :: QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) .<br/>                                                                                                                                                              |
-| [**SetProcessReference**](/windows/desktop/api/Shlwapi/nf-shlwapi-setprocessreference)<br/>           | Fournit un objet COM qui permet aux extensions de Shell hébergées et à d’autres composants d’empêcher leur processus hôte de se fermer prématurément. Le processus hôte est généralement l’Explorateur Windows ou Internet Explorer, mais cette fonction peut également être utilisée par d’autres applications.<br/> |
+| [**SetProcessReference**](/windows/desktop/api/Shlwapi/nf-shlwapi-setprocessreference)<br/>           | Fournit un objet COM qui permet aux extensions de Shell hébergées et à d’autres composants d’empêcher leur processus hôte de se fermer prématurément. le processus hôte est généralement Windows explorer ou Internet explorer, mais cette fonction peut également être utilisée par d’autres applications.<br/> |
 | [**SHAutoComplete**](/windows/win32/api/shlwapi/nf-shlwapi-shautocomplete)<br/>                   | Indique aux contrôles d’édition système d’utiliser la saisie semi-automatique pour compléter les URL ou les chemins d’accès de système de fichiers.<br/>                                                                                                                                                                        |
 | [**SHCreateMemStream**](/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatememstream)<br/>               | Crée un flux de mémoire à l’aide d’un processus similaire à [**CreateStreamOnHGlobal**](/windows/win32/api/combaseapi/nf-combaseapi-createstreamonhglobal).<br/>                                                                                                                                                            |
 | [**SHCreateStreamOnFileEx**](/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatestreamonfileex)<br/>     | Ouvre ou crée un fichier et récupère un flux de lecture ou d’écriture dans ce fichier.<br/>                                                                                                                                                                                         |
@@ -61,7 +61,7 @@ Cette section décrit les fonctions de l’interpréteur de commandes Windows ex
 | [**SHGlobalCounterIncrement**](/windows/desktop/api/Shlwapi/nf-shlwapi-shglobalcounterincrement)<br/> | Incrémente un compteur global.<br/>                                                                                                                                                                                                                                          |
 | [**SHIsLowMemoryMachine**](/windows/desktop/api/shlwapi/nf-shlwapi-shislowmemorymachine)<br/>         |                                                                                                                                                                                                                                                                                  |
 | [**SHReleaseThreadRef**](/windows/desktop/api/Shlwapi/nf-shlwapi-shreleasethreadref)<br/>             | Libère une référence de thread avant le retour de la procédure de thread.<br/>                                                                                                                                                                                                      |
-| [**SHSetThreadRef**](/windows/desktop/api/Shlwapi/nf-shlwapi-shsetthreadref)<br/>                     | Stocke une référence par thread à un objet COM. Cela permet à l’appelant de contrôler la durée de vie du thread afin qu’il puisse s’assurer que Windows n’arrête pas le thread avant que l’appelant soit prêt.<br/>                                                                      |
+| [**SHSetThreadRef**](/windows/desktop/api/Shlwapi/nf-shlwapi-shsetthreadref)<br/>                     | Stocke une référence par thread à un objet COM. cela permet à l’appelant de contrôler la durée de vie du thread afin qu’il puisse s’assurer que Windows n’arrête pas le thread avant que l’appelant soit prêt.<br/>                                                                      |
 
 
 

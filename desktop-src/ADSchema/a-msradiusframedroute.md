@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f90dceef3ec14f045119ed06bb756016e3c885ec
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bf1109779b8556f9e4ce04e1de400c73f061b9e507e07013e3c516c446c41d22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761509"
 ---
 # <a name="msradiusframedroute-attribute"></a>attribut msRADIUSFramedRoute
 
@@ -44,7 +44,7 @@ L’attribut **msRADIUSFramedRoute** est utilisé en interne. Ne modifiez pas ce
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -10,12 +10,12 @@ keywords:
 - Exemple de visualisation lumineuse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d553334e2cc145f291c61bf8dd79c430601947e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7551caabcb5b4cf9f52353156609857a66ccde004513f8beaf05079b6b0a3f92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762779"
 ---
 # <a name="the-glow-sample"></a>L’exemple lueur
 
@@ -35,9 +35,9 @@ Les sections suivantes vous guideront :
 [**Guide de programmation de visualisation personnalisée**](custom-visualization-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

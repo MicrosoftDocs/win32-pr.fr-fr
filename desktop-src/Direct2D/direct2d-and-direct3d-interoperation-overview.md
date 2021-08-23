@@ -14,12 +14,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: cf7cfa41c3decc964492258dad9c6a3a497f504b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1aca1eac7218528e897a2a519543d80ab4ae2be3fa5d11a4107b02f1b23f2061
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698189"
 ---
 # <a name="direct2d-and-direct3d-interoperability-overview"></a>Vue d’ensemble de l’interopérabilité entre Direct2D et Direct3D
 
@@ -29,7 +29,7 @@ Cette rubrique décrit comment intégrer des graphiques 2D et 3D à l’aide de 
 
 Elle contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Versions Direct3D prises en charge](#supported-direct3d-versions)
 -   [Interopérabilité via DXGI](#interoperability-through-dxgi)
 -   [Écriture sur une surface Direct3D avec une cible de rendu de surface DXGI](#writing-to-a-direct3d-surface-with-a-dxgi-surface-render-target)
@@ -76,7 +76,7 @@ Quelle que soit la façon dont vous créez la surface DXGI, la surface doit util
 
 En outre, le [**ID3D10Device1**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1) associé à la surface DXGI doit prendre en charge les formats dxgi BGRA pour que la surface fonctionne avec Direct2D. Pour garantir cette prise en charge, utilisez l’indicateur de [**\_ \_ \_ \_ prise en charge D3D10 créer un appareil BGRA**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) lorsque vous appelez la méthode [**D3D10CreateDevice1**](/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1) pour créer l’appareil.
 
-Le code suivant définit une méthode qui crée un [**ID3D10Device1**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1). Il sélectionne le meilleur niveau de fonctionnalité disponible et revient à la [plateforme de rastérisation avancée Windows (Warp)](./installing-the-direct2d-debug-layer.md) lorsque le rendu matériel n’est pas disponible.
+Le code suivant définit une méthode qui crée un [**ID3D10Device1**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1). il sélectionne le meilleur niveau de fonctionnalité disponible et repasse à [Windows plateforme de rastérisation avancée (WARP)](./installing-the-direct2d-debug-layer.md) lorsque le rendu matériel n’est pas disponible.
 
 
 ```C++
@@ -392,7 +392,7 @@ Pour prendre en charge cette approche, votre méthode Resize doit tester pour d�
 [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))
 </dt> <dt>
 
-[Graphiques Windows DirectX](../graphics-and-multimedia.md)
+[Windows Graphiques DirectX](../graphics-and-multimedia.md)
 </dt> </dl>
 
  

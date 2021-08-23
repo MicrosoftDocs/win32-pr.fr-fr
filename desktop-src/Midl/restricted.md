@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eca610c0dcf29ebc3a767005b4c22e3231947e88
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cc68bbea9e1834fd1b1953f8dbf16a79e5356f49bf6058615904d78c244668a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822089"
 ---
 # <a name="restricted-attribute"></a>restricted (attribut)
 
@@ -66,7 +66,7 @@ Identificateur par lequel le logiciel fait référence à cette instruction.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut vous permet de contrôler l’accès aux éléments des interfaces, bibliothèques, modules et dispinterfaces. Par exemple, il peut empêcher l’utilisation d’un élément de données par un programmeur de macro. Vous pouvez appliquer cet attribut à un membre d’une [**coclasse**](coclass.md), indépendamment du fait que le membre est une dispinterface ou une interface, et indépendamment du fait que le membre soit un récepteur (entrant) ou une source (sortante). Un membre d’une **coclasse** ne peut pas avoir à la fois les attributs **\[ Restricted \]** et **\[ default \]** .
 
@@ -118,6 +118,6 @@ library MyLibrary
 [Génération d’une bibliothèque de types avec MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -7,12 +7,12 @@ keywords:
 - curseurs, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9014befcc41161d7491af97186b33088f508dd8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0d7be5b8e213dd1911d2227a3dce4b61078ab1a22711d4e765525c7fbd5bd08d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712609"
 ---
 # <a name="cursors"></a>Curseurs
 
@@ -24,7 +24,7 @@ Lorsque l’utilisateur déplace la souris, le système déplace le curseur en c
 
 
 
-| Nom                                     | Description                                                   |
+| Name                                     | Description                                                   |
 |------------------------------------------|---------------------------------------------------------------|
 | [À propos des curseurs](about-cursors.md)       | Décrit les curseurs standard.<br/>                    |
 | [Utilisation de curseurs](using-cursors.md)       | Explique comment effectuer des tâches liées aux curseurs.<br/> |
@@ -38,7 +38,7 @@ Lorsque l’utilisateur déplace la souris, le système déplace le curseur en c
 
 
 
-| Nom                                                 | Description                                                                                                                                                                                                                                                                                            |
+| Name                                                 | Description                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor)                     | Permet d’affiner le curseur sur une zone rectangulaire de l’écran. Si une position de curseur suivante (définie par la fonction [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos) ou la souris) se trouve en dehors du rectangle, le système ajuste automatiquement la position pour maintenir le curseur à l’intérieur de la zone rectangulaire. <br/> |
 | [**CopyCursor**](/windows/desktop/api/Winuser/nf-winuser-copycursor)                     | Copie le curseur spécifié. <br/>                                                                                                                                                                                                                                                               |
@@ -49,7 +49,7 @@ Lorsque l’utilisateur déplace la souris, le système déplace le curseur en c
 | [**GetCursorInfo**](/windows/desktop/api/Winuser/nf-winuser-getcursorinfo)               | Récupère des informations sur le curseur global.<br/>                                                                                                                                                                                                                                              |
 | [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos)                 | Récupère la position du curseur, en coordonnées d’écran.<br/>                                                                                                                                                                                                                                     |
 | [**GetPhysicalCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getphysicalcursorpos) | Récupère la position du curseur en coordonnées physiques.<br/>                                                                                                                                                                                                                               |
-| [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)                     | Charge la ressource de curseur spécifiée à partir de l’exécutable (. EXE) associé à une instance d’application.<br/>                                                                                                                                                                                |
+| [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)                     | Charge la ressource de curseur spécifiée à partir du fichier exécutable (.EXE) associé à une instance d’application.<br/>                                                                                                                                                                                |
 | [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea)     | Crée un curseur en fonction des données contenues dans un fichier. <br/>                                                                                                                                                                                                                                        |
 | [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor)                       | Définit la forme du curseur. <br/>                                                                                                                                                                                                                                                                     |
 | [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos)                 | Déplace le curseur vers les coordonnées d’écran spécifiées. Si les nouvelles coordonnées ne se trouvent pas dans le rectangle d’écran défini par l’appel de fonction [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) le plus récent, le système ajuste automatiquement les coordonnées afin que le curseur reste dans le rectangle. <br/>    |
@@ -65,7 +65,7 @@ Lorsque l’utilisateur déplace la souris, le système déplace le curseur en c
 
 
 
-| Nom                                  | Description                                                                                                          |
+| Name                                  | Description                                                                                                          |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [**\_SETCURSOR WM**](wm-setcursor.md) | Envoyé à une fenêtre si la souris provoque le déplacement du curseur dans une fenêtre et que l’entrée de la souris n’est pas capturée. <br/> |
 
@@ -77,7 +77,7 @@ Lorsque l’utilisateur déplace la souris, le système déplace le curseur en c
 
 
 
-| Nom                             | Description                                    |
+| Name                             | Description                                    |
 |----------------------------------|------------------------------------------------|
 | [**CURSORINFO**](/windows/win32/api/winuser/ns-winuser-cursorinfo) | Contient des informations de curseur globales.<br/> |
 

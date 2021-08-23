@@ -3,23 +3,23 @@ title: Informations complémentaires
 description: Informations complémentaires
 ms.assetid: 6e2ac851-3dba-4bbb-b766-82800b1cc5f1
 keywords:
-- Windows Color System (WCS), ressources
-- WCS (système de couleurs Windows), ressources
+- Windows Système de couleurs (WCS), ressources
+- WCS (Windows Color System), ressources
 - gestion des couleurs des images, ressources
 - gestion des couleurs, ressources
-- Système de couleurs Windows (WCS), informations supplémentaires
+- Windows Système de couleurs (WCS), informations supplémentaires
 - WCS (Windows Color System), informations supplémentaires
 - gestion des couleurs des images, informations supplémentaires
 - gestion des couleurs, informations supplémentaires
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b16e42439a4bce88141a9179390225e4eba3b096
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 747abd166382a36067a2c3f1568f839384e2183929dc7d423c2c4bf887f8636a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106531237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814589"
 ---
 # <a name="further-information"></a>Informations complémentaires
 

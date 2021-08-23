@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2ce6a1491fd9e414f503d0165216794c67db0e97
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5ca52cbc68c834d5216920334763d4de5c982702b8cc562db88ceed7b6de0f12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759769"
 ---
 # <a name="setkeepaliveinterval-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetKeepAliveInterval de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après la réception d’une réponse, le délai jusqu’à ce que la transmission Keep Alive suivante soit de nouveau contrôlé par la valeur de la propriété [**keepAliveTime**](win32-networkadapterconfiguration.md) . La connexion est terminée une fois que le nombre de retransmissions spécifié par la propriété **TcpMaxDataRetransmissions** n’a pas répondu.
 

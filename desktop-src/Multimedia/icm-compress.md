@@ -1,9 +1,9 @@
 ---
 title: Message ICM_COMPRESS (VFW. h)
-description: Le message de compression ICM \_ indique à un pilote de compression vidéo de compresser une trame de données dans une mémoire tampon définie par l’application.
+description: le \_ message ICM compresser indique à un pilote de compression vidéo de compresser une trame de données dans une mémoire tampon définie par l’application.
 ms.assetid: d95b943f-458d-4a5e-bab1-e3648d323395
 keywords:
-- Message ICM_COMPRESS Windows Multimedia
+- message ICM_COMPRESS Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8021a4c18ab47c9b5b848dd1cb097358f2714bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1230f429eb49596dd8a450b8a384e0a69856b69c51141834458c09fa41ca54d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678469"
 ---
-# <a name="icm_compress-message"></a>\_Message de compression ICM
+# <a name="icm_compress-message"></a>ICM \_ Compresser le message
 
-Le **message \_ de compression ICM** indique à un pilote de compression vidéo de compresser une trame de données dans une mémoire tampon définie par l’application.
+le message **ICM \_ compresser** indique à un pilote de compression vidéo de compresser une trame de données dans une mémoire tampon définie par l’application.
 
 
 ```C++

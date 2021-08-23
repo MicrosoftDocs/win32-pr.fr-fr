@@ -1,19 +1,19 @@
 ---
-description: Le fournisseur WDM (Windows Driver Model) accorde l’accès aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au modèle WDM.
+description: le fournisseur wdm (Windows Driver Model) accorde l’accès aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au modèle WDM.
 ms.assetid: 2f9749ff-b318-4228-80fd-e3846dde21d2
 title: Fournisseur WDM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d96ce356214f2788d3608b2ba85943e607394cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54ba187680ec371f331aa6394c5a2408c23080259e6b275e74cee496dd5125cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794619"
 ---
 # <a name="wdm-provider"></a>Fournisseur WDM
 
-Le fournisseur WDM (Windows Driver Model) accorde l’accès aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au modèle WDM. Les classes pour les pilotes de matériel résident dans l' \\ espace de noms WMI racine.
+le fournisseur wdm (Windows Driver Model) accorde l’accès aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au modèle WDM. Les classes pour les pilotes de matériel résident dans l' \\ espace de noms WMI racine.
 
 Les classes WDM sont définies principalement dans WMI. mof.
 

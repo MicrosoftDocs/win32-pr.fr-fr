@@ -4,17 +4,17 @@ description: La disposition est le dimensionnement, l’espacement et le positio
 ms.assetid: 39cd896f-d3cc-4768-a20c-a7f598da7136
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 8577843f3e54744cabe970e3b9132df1d9fb45df
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2bd705346f979a44cc2a8c7917f81b9e918ce5277893b5a377ab1ede4b945bb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816901"
 ---
 # <a name="layout"></a>Layout
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 La disposition est le dimensionnement, l’espacement et le positionnement du contenu dans une fenêtre ou une page. Une disposition efficace est essentielle pour aider les utilisateurs à trouver rapidement ce qu’ils recherchent, et pour rendre l’apparence visuellement attrayante. Une mise en page efficace peut faire la différence entre les conceptions que les utilisateurs comprennent immédiatement et celles qui laissent les utilisateurs se sentir submergés.
 
@@ -29,7 +29,7 @@ Une fenêtre ou une page a une hiérarchie visuelle claire quand son apparence i
 La hiérarchie visuelle est obtenue par skillfully en associant les attributs suivants :
 
 -   **Spécialisés.** La disposition indique l’emplacement des utilisateurs.
--   **Organigramme.** L’œil passe en douceur et naturellement par un chemin clair sur la surface, en recherchant des éléments d’interface utilisateur dans l’ordre approprié pour leur utilisation.
+-   **Flow.** L’œil passe en douceur et naturellement par un chemin clair sur la surface, en recherchant des éléments d’interface utilisateur dans l’ordre approprié pour leur utilisation.
 -   **Regroupement.** Les éléments d’interface utilisateur liés de manière logique ont une relation visuelle claire. Les éléments associés sont regroupés. les éléments non liés sont distincts.
 -   **Privilégié.** Les éléments d’interface utilisateur sont mis en évidence en fonction de leur importance relative.
 -   **Repère.** Les éléments d’interface utilisateur ont un positionnement coordonné. ils sont donc faciles à analyser et à s’afficher de manière ordonnée.
@@ -46,7 +46,7 @@ En outre, la disposition effective possède les attributs suivants :
 
 Si le dimensionnement, l’espacement et le placement sont des concepts simples, le défi avec la disposition est de parvenir à un mélange correct de ces attributs.
 
-Dans Windows, la disposition est communiquée à l’aide de mesures indépendantes des appareils, telles que les unités de boîte de dialogue (DLU) et les pixels relatifs.
+dans Windows, la disposition est communiquée à l’aide de métriques indépendantes des appareils, telles que les unités de boîte de dialogue (dlu) et les pixels relatifs.
 
 ### <a name="a-design-model-for-reading"></a>Modèle de conception pour la lecture
 
@@ -181,7 +181,7 @@ Bien que l’interface utilisateur critique doive tenir dans la [résolution eff
 
 Vous savez qu’une disposition utilise efficacement l’espace à l’écran dans les cas suivants :
 
--   Les fenêtres, les volets de fenêtre et les contrôles n’ont pas besoin d’être redimensionnés pour être utilisables. Si la première chose que les utilisateurs effectuent est le redimensionnement d’une fenêtre, d’un volet ou d’un contrôle, sa taille est incorrecte.
+-   Windows, les volets de fenêtre et les contrôles n’ont pas besoin d’être redimensionnés pour être utilisables. Si la première chose que les utilisateurs effectuent est le redimensionnement d’une fenêtre, d’un volet ou d’un contrôle, sa taille est incorrecte.
 -   Les données ne sont pas tronquées. La plupart des données dans les vues de liste et les arborescences n’ont pas de ellipses, et les données d’autres contrôles ne sont pas découpées, sauf si la longueur des données est anormalement élevée. Les données qui doivent être lues pour effectuer une tâche ne doivent pas être tronquées.
 -   Les fenêtres et les contrôles sont dimensionnés de manière appropriée pour éliminer les défilements inutiles. Il y a peu de barres de défilement horizontales et aucune barre de défilement verticale inutile.
 -   Les contrôles utilisent principalement leurs tailles standard. Efforcez-vous de réduire le nombre de tailles de contrôle, par exemple, en n’utilisant qu’une ou deux largeurs de bouton de commande sur une surface.
@@ -193,13 +193,13 @@ Choisissez des tailles de fenêtre qui sont juste assez grandes pour atteindre l
 
 En général, la première étape de l’utilisation de l’espace à l’écran consiste à déterminer la taille appropriée pour les différents éléments de l’interface utilisateur. Reportez-vous au [tableau de dimensionnement de contrôle](#recommended-sizing-and-spacing) , ainsi qu’au dimensionnement recommandé dans les Articles de la directive de contrôle spécifique.
 
-La Loi de Fitts indique que la plus petite cible est, plus il faut de temps pour l’acquérir avec la souris. En outre, pour les ordinateurs qui utilisent la technologie Windows tablette et Touch, la « souris » peut en fait être un stylet ou le doigt de l’utilisateur. vous devez donc envisager d’autres périphériques d’entrée lorsque vous déterminez les tailles des petits contrôles. **Une taille de contrôle de pixels relatifs de 16x16 est une bonne taille minimale pour tout périphérique d’entrée.** En revanche, les boutons standard de contrôle spin des pixels relatifs 15x9 sont trop petits pour être utilisés efficacement par les stylets.
+La Loi de Fitts indique que la plus petite cible est, plus il faut de temps pour l’acquérir avec la souris. en outre, pour les ordinateurs qui utilisent technologie Windows Tablet and Touch, la « souris » peut être en fait un stylet ou le doigt de l’utilisateur. vous devez donc prendre en compte d’autres périphériques d’entrée lorsque vous déterminez les tailles des petits contrôles. **Une taille de contrôle de pixels relatifs de 16x16 est une bonne taille minimale pour tout périphérique d’entrée.** En revanche, les boutons standard de contrôle spin des pixels relatifs 15x9 sont trop petits pour être utilisés efficacement par les stylets.
 
 ### <a name="spacing"></a>Espacement
 
 Le fait de fournir un espace important (mais pas excessif) rend la disposition plus confortable et plus facile à analyser. L’espace effectif n’est pas inutilisé. il joue un rôle important dans l’amélioration de la capacité des utilisateurs à effectuer des analyses, et ajoute également à l’attrait visuel de votre conception. Pour obtenir des instructions, reportez-vous à la [table Spacing](#recommended-sizing-and-spacing).
 
-Pour les ordinateurs qui utilisent la technologie Windows tablette et Touch, la « souris » peut en fait être un stylet ou le doigt de l’utilisateur. Le ciblage est plus difficile lorsque vous utilisez un stylet ou un doigt comme périphérique de pointage, ce qui a pour conséquence que les utilisateurs appuient à l’extérieur de la cible prévue. Lorsque les contrôles interactifs sont placés très proches les uns des autres, mais ne se touchent pas réellement, les utilisateurs peuvent cliquer sur l’espace inactif entre les contrôles. Étant donné que le fait de cliquer sur l’espace inactif n’a pas de résultat ou de rétroaction visuelle, les utilisateurs sont souvent incertains mal. Si les petits contrôles sont trop espacés, l’utilisateur doit appuyer avec précision pour éviter de cliquer sur l’objet incorrect. **Pour résoudre ces problèmes, les régions cibles des contrôles interactifs doivent être en contact ou avoir au moins 3 dlu (5 pixels relatifs) d’espace entre eux.**
+pour les ordinateurs qui utilisent technologie Windows Tablet and Touch, la « souris » peut être en fait un stylet ou le doigt de l’utilisateur. Le ciblage est plus difficile lorsque vous utilisez un stylet ou un doigt comme périphérique de pointage, ce qui a pour conséquence que les utilisateurs appuient à l’extérieur de la cible prévue. Lorsque les contrôles interactifs sont placés très proches les uns des autres, mais ne se touchent pas réellement, les utilisateurs peuvent cliquer sur l’espace inactif entre les contrôles. Étant donné que le fait de cliquer sur l’espace inactif n’a pas de résultat ou de rétroaction visuelle, les utilisateurs sont souvent incertains mal. Si les petits contrôles sont trop espacés, l’utilisateur doit appuyer avec précision pour éviter de cliquer sur l’objet incorrect. **Pour résoudre ces problèmes, les régions cibles des contrôles interactifs doivent être en contact ou avoir au moins 3 dlu (5 pixels relatifs) d’espace entre eux.**
 
 Vous savez qu’une disposition présente un espace correct lorsque :
 
@@ -210,7 +210,7 @@ Vous savez qu’une disposition présente un espace correct lorsque :
 
 ### <a name="resizable-windows"></a>Fenêtres redimensionnables
 
-Les fenêtres redimensionnables sont également un facteur d’utilisation efficace de l’espace à l’écran. Certaines fenêtres se composent d’un contenu fixe et ne peuvent pas être redimensionnées, mais Windows avec du contenu redimensionnable doit être redimensionnable. Bien entendu, la raison pour laquelle les utilisateurs redimensionnent une fenêtre est d’utiliser l’espace d’écran supplémentaire, afin que le contenu soit développé en conséquence en donnant plus d’espace aux éléments de l’interface utilisateur qui en ont besoin. Les fenêtres avec du contenu dynamique, des documents, des images, des listes et des arborescences tirent le meilleur parti des fenêtres redimensionnables.
+Les fenêtres redimensionnables sont également un facteur d’utilisation efficace de l’espace à l’écran. Certaines fenêtres se composent d’un contenu fixe et ne peuvent pas être redimensionnées, mais Windows avec du contenu redimensionnable doit être redimensionnable. Bien entendu, la raison pour laquelle les utilisateurs redimensionnent une fenêtre est d’utiliser l’espace d’écran supplémentaire, afin que le contenu soit développé en conséquence en donnant plus d’espace aux éléments de l’interface utilisateur qui en ont besoin. Windows avec du contenu dynamique, des documents, des images, des listes et des arborescences tirent le meilleur parti des fenêtres redimensionnables.
 
 ![capture d’écran de l’obtention de la barre de défilement du contrôle redimensionné ](images/vis-layout-image12.png)
 
@@ -238,7 +238,7 @@ Certains programmes tirent parti de l’utilisation d’une présentation totale
 
 ![capture d’écran des boutons du lecteur multimédia centré ](images/vis-layout-image16.png)
 
-Dans cet exemple, le lecteur Windows Media modifie son format lorsque la fenêtre devient trop petite pour le format standard.
+dans cet exemple, Lecteur Windows Media modifie son format lorsque la fenêtre devient trop petite pour le format standard.
 
 ### <a name="focus"></a>Priorité
 
@@ -254,7 +254,7 @@ Pour qu’un élément d’interface utilisateur soit le point focal, vous pouve
 -   Attribution de la sélection par défaut aux contrôles et du focus d’entrée initial.
 -   Placement des contrôles dans un arrière-plan de couleur différent.
 
-Envisagez la recherche Windows. Le point focal de la recherche Windows doit être la zone de recherche, car il s’agit du point de départ de la tâche. Toutefois, il se trouve dans le coin supérieur droit pour être cohérent avec le positionnement de la zone de recherche standard. La zone de recherche a le focus d’entrée, mais étant donné son emplacement dans le chemin d’analyse, cette indication seule n’est pas suffisante.
+envisagez de Windows la recherche. le point focal de la recherche de Windows doit être la zone de recherche, car il s’agit du point de départ de la tâche. Toutefois, il se trouve dans le coin supérieur droit pour être cohérent avec le positionnement de la zone de recherche standard. La zone de recherche a le focus d’entrée, mais étant donné son emplacement dans le chemin d’analyse, cette indication seule n’est pas suffisante.
 
 Pour résoudre ce problème, il y a une instruction visible dans la partie supérieure centrale de la fenêtre pour diriger les utilisateurs vers l’emplacement approprié.
 
@@ -272,7 +272,7 @@ Sans les instructions, la fenêtre n’aurait pas de point focal évident.
 
 Cet exemple n’a pas de point focal évident. Les utilisateurs ne savent pas où chercher.
 
-Si vous donnez un élément visuel à l’élément d’interface utilisateur, assurez-vous que cette attention est justifiée. Dans l’exemple de recherche Windows incorrect précédent, le bouton tous mis en surbrillance se trouve dans l’angle supérieur gauche et a l’accent le plus visuel, mais ce n’est pas le point focal prévu. Les utilisateurs peuvent être amenés à regarder ce bouton en tentant de déterminer la marche à suivre.
+Si vous donnez un élément visuel à l’élément d’interface utilisateur, assurez-vous que cette attention est justifiée. dans le précédent exemple de recherche de Windows incorrect, le bouton tout en surbrillance se trouve dans le coin supérieur gauche et est l’accentant le plus visuel, mais ce n’est pas le point focal prévu. Les utilisateurs peuvent être amenés à regarder ce bouton en tentant de déterminer la marche à suivre.
 
 **Incorrect :**
 
@@ -556,7 +556,7 @@ Les quadrillages inutiles créent une complexité visuelle.
 
 Vous savez qu’une disposition utilise des grilles de manière efficace dans les cas suivants :
 
--   Les fenêtres ou les pages avec un contenu ou une fonction similaire ont une mise en page similaire.
+-   Windows ou des pages avec un contenu ou une fonction similaire ont une disposition similaire.
 -   Les éléments de conception répétés apparaissent dans des emplacements similaires sur les fenêtres et les pages.
 -   Il n’y a pas de quadrillage d’alignement vertical et horizontal inutile.
 
@@ -583,7 +583,7 @@ En règle générale, si un élément de disposition peut être éliminé sans n
 
 ### <a name="screen-resolution-and-dpi"></a>Résolution d’écran et PPP
 
--   **Prendre en charge la résolution effective Windows minimale de 800x600 pixels.** Pour les interfaces utilisateur critiques qui doivent fonctionner en mode sans échec, prennent en charge une résolution efficace de 640 x 480 pixels. Veillez à tenir compte de l’espace utilisé par la barre des tâches en réservant 48 [pixels relatifs](glossary.md) verticaux pour les fenêtres affichées avec la barre des tâches.
+-   **prendre en charge la résolution minimale Windows de 800 x 600 pixels.** Pour les interfaces utilisateur critiques qui doivent fonctionner en mode sans échec, prennent en charge une résolution efficace de 640 x 480 pixels. Veillez à tenir compte de l’espace utilisé par la barre des tâches en réservant 48 [pixels relatifs](glossary.md) verticaux pour les fenêtres affichées avec la barre des tâches.
 -   **Optimisez les dispositions de fenêtres redimensionnables pour une résolution efficace de 1024 x 768 pixels.** Redimensionnez automatiquement ces fenêtres pour réduire la résolution de l’écran d’une manière qui reste fonctionnelle.
 -   **Veillez à tester votre Windows en mode 96 points par pouce (dpi) (à 800x600 pixels), 120 ppp (à 1024 x 768 pixels) et 144 dpi (en 1200x900 pixels).** Vérifiez les problèmes de disposition, tels que le découpage des contrôles, du texte et des fenêtres, et l’étirement des icônes et des bitmaps.
 -   **Pour les programmes qui utilisent des scénarios tactiles et mobiles, optimisez pour 120 ppp.** Les écrans haute résolution sont actuellement répandus sur les PC tactiles et les ordinateurs portables.
@@ -592,7 +592,7 @@ En règle générale, si un élément de disposition peut être éliminé sans n
 
 -   **Choisissez une taille de fenêtre par défaut adaptée à son contenu.** N’hésitez pas à utiliser des tailles de fenêtre initiales supérieures si vous pouvez utiliser l’espace de manière efficace.
 -   **Utilisez une hauteur équilibrée pour les proportions de largeur.** Les proportions entre 3:5 et 5:3 sont préférées, bien que les proportions de 1:3 puissent être utilisées pour les boîtes de dialogue de message (telles que les erreurs et les avertissements).
--   **Utilisez des fenêtres redimensionnables quand cela est possible pour éviter les barres de défilement et les données tronquées.** Les fenêtres avec du contenu dynamique, des documents, des images, des listes et des arborescences tirent le meilleur parti des fenêtres redimensionnables.
+-   **Utilisez des fenêtres redimensionnables quand cela est possible pour éviter les barres de défilement et les données tronquées.** Windows avec du contenu dynamique, des documents, des images, des listes et des arborescences tirent le meilleur parti des fenêtres redimensionnables.
 -   **Pour les documents texte, envisagez une longueur de ligne maximale de 80 caractères** pour faciliter la lecture du texte. (Les caractères incluent des lettres, des signes de ponctuation et des espaces.)
 -   Fenêtres à taille fixe :
     -   **Les fenêtres à taille fixe doivent être entièrement visibles et dimensionnées pour s’ajuster à la zone de travail.**
@@ -606,11 +606,11 @@ En règle générale, si un élément de disposition peut être éliminé sans n
 
         ![capture d’écran des contrôles du lecteur multimédia ](images/vis-layout-image16.png)
 
-        Dans cet exemple, le lecteur Windows Media modifie son format lorsque la fenêtre devient trop petite pour le format standard.
+        dans cet exemple, Lecteur Windows Media modifie son format lorsque la fenêtre devient trop petite pour le format standard.
 
 ### <a name="control-size"></a>Taille du contrôle
 
--   **Rendez tous les contrôles interactifs au moins de 16x16 pixels relatifs.** Cela fonctionne bien pour tous les périphériques d’entrée, y compris la technologie Windows tablette et Touch.
+-   **Rendez tous les contrôles interactifs au moins de 16x16 pixels relatifs.** cela fonctionne bien pour tous les périphériques d’entrée, y compris technologie Windows Tablet and Touch.
 -   **Dimensionnez les contrôles pour éviter les données tronquées.** Ne tronquez pas les données qui doivent être lues pour effectuer une tâche. Taille des colonnes d’affichage de liste pour éviter les données tronquées.
 -   **Dimensionnez les contrôles pour éliminer les défilements inutiles.** Augmentez légèrement les contrôles si vous supprimez une barre de défilement. Il doit y avoir peu de barres de défilement verticales et pas de barres de défilement horizontales inutiles.
 

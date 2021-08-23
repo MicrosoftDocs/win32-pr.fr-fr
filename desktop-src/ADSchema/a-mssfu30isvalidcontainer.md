@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22155223beca6167f3f380be6ea71ac0f3e5ef31
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b6c131d06be86cc71ebe40e63237df9bdea6caca13e9d24a69cfc80fe25b325a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761329"
 ---
 # <a name="mssfu-30-is-valid-container-attribute"></a>attribut msSFU-30-is-valide-Container
 
@@ -36,14 +36,14 @@ Contient des données internes utilisées par le serveur pour NIS, qui stocke si
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.18.1.350          |
 | System-ID-GUID    | 0dea42f5-278d-4157-b4a7-49b59664915b |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b950ddfe261de5d46980e51b236da0f775fcb01b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: af6cd8e2483e7a5e73fbc68dd123a358f098a729a2f2a0159ccd4e8b3e03d894
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106511991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702859"
 ---
 # <a name="usn-created-attribute"></a>Attribut USN-Created
 
@@ -36,7 +36,7 @@ Numéro de séquence de mise à jour (USN) affecté lors de la création de l’
 | Fréquence des mises à jour  | Lorsque l’objet est créé.          |
 | Attribute-Id      | 1.2.840.113556.1.2.19                |
 | System-ID-GUID    | bf967a70-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -46,7 +46,7 @@ Numéro de séquence de mise à jour (USN) affecté lors de la création de l’
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
