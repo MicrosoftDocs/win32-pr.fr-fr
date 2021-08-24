@@ -1,19 +1,19 @@
 ---
-description: Nouveauté de Windows 7. Identifie une propriété qui est associée à la propriété définie dans le fichier de description de la propriété.
+description: nouveauté de Windows 7. Identifie une propriété qui est associée à la propriété définie dans le fichier de description de la propriété.
 ms.assetid: 30167942-141A-4f37-B019-0811BA654124
 title: relatedProperty
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cabde093a47a25834598659d3ad38e0847c1351d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4285c0f8b0731ba790cd57105f907cd4df85b6faa41c3f649588aca7ef457418
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938679"
 ---
 # <a name="relatedproperty"></a>relatedProperty
 
-Nouveauté de Windows 7. Identifie une propriété qui est associée à la propriété définie dans le fichier de description de la propriété. Au besoin, il peut y avoir autant d’éléments [relatedProperty]() dans un [relatedPropertyInfo](./propdesc-schema-relatedpropertyinfo.md) .
+nouveauté de Windows 7. Identifie une propriété qui est associée à la propriété définie dans le fichier de description de la propriété. Au besoin, il peut y avoir autant d’éléments [relatedProperty]() dans un [relatedPropertyInfo](./propdesc-schema-relatedpropertyinfo.md) .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -55,7 +55,7 @@ Nouveauté de Windows 7. Identifie une propriété qui est associée à la propr
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet élément vous permet de mapper une propriété à une autre. Par exemple, vous pouvez mapper le texte de votre propriété personnalisée, fabrikam. StorageCapacity, à System. Capacity :
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 34e27e80c3cfaea352ee97ad29aed0b7ca358546
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a9e1d63e112ae33f33309e05e1b100f4c25101d158a2f3275d35110af74a20df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918439"
 ---
 # <a name="deleteex-method-of-the-win32_pagefile-class"></a>Méthode DeleteEx de la \_ classe du fichier d’échange Win32
 
@@ -57,7 +57,7 @@ Nomme le fichier ou le répertoire enfant à utiliser comme point de départ pou
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la valeur 0 (zéro) si le fichier a été supprimé avec succès, et tout autre nombre pour indiquer une erreur.
 

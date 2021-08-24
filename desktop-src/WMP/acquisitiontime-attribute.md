@@ -3,7 +3,7 @@ title: Attribut AcquisitionTime
 description: L’attribut AcquisitionTime est la date et l’heure auxquelles l’élément a été ajouté à la bibliothèque.
 ms.assetid: 5184aa35-ef07-47ec-97b3-2d602bd00568
 keywords:
-- Attribut AcquisitionTime lecteur Windows Media
+- Lecteur Windows Media de l’attribut AcquisitionTime
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82de862b1bea58c27a245c2fdfe415fb137bf4f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac78dd663addd35657b2aa1b76096b00a26cf3c91770ec0da16fa0f0b9861a03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004369"
 ---
 # <a name="acquisitiontime-attribute"></a>Attribut AcquisitionTime
 
@@ -32,7 +32,7 @@ L’attribut **AcquisitionTime** est la date et l’heure auxquelles l’éléme
 -   [Éléments radio](radio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

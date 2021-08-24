@@ -4,12 +4,12 @@ ms.assetid: CF38F6E8-A43D-4A97-8055-6B17E323524C
 title: Classes de stockage
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0c17ad2530a86e7f404fe19eaeb3ef5a1cd7895
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90c46efc17b3df5e1a509cec3565c6aaa7b65ff06d189951b100ac06d93a957e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829669"
 ---
 # <a name="storage-classes"></a>Classes de stockage
 
@@ -41,7 +41,7 @@ Les classes WMI de virtualisation associées au stockage sont les suivantes. La 
 | [**MSVM \_ SCSIProtocolController**](msvm-scsiprotocolcontroller.md)<br/>             | Représente un contrôleur SCSI synthétique.<br/>                                                                                                                                                                |
 | [**MSVM \_ StorageAlert**](msvm-storagealert.md)<br/>                                 | Représente un événement déclenché chaque fois que la propriété **OperationalStatus** de la classe [**MSVM \_ ResourcePool**](msvm-resourcepool.md) ou [**MSVM \_ LogicalDisk**](msvm-logicaldisk.md) change.<br/> |
 | [**MSVM \_ StorageAllocationSettingData**](msvm-storageallocationsettingdata.md)<br/> | Représente des paramètres spécifiquement liés à l’allocation de stockage virtuel.<br/>                                                                                                                         |
-| [**MSVM \_ StorageJob**](msvm-storagejob.md)<br/>                                     | Représente un travail d’opération de stockage créé par le service de gestion d’images Microsoft Hyper-V.<br/>                                                                                                          |
+| [**MSVM \_ StorageJob**](msvm-storagejob.md)<br/>                                     | représente un travail d’opération de stockage créé par le Service de gestion d’images Microsoft Hyper-V.<br/>                                                                                                          |
 | [**MSVM \_ VirtualHardDiskSettingData**](msvm-virtualharddisksettingdata.md)<br/>     | Fournit des données de définition pour un disque dur virtuel.<br/>                                                                                                                                                         |
 | [**MSVM \_ VirtualHardDiskState**](msvm-virtualharddiskstate.md)<br/>                 | Fournit des informations d’État pour une image de disque dur virtuel existante.<br/>                                                                                                                                    |
 

@@ -1,5 +1,5 @@
 ---
-description: Spécifie si la couleur spécifiée est une couleur Windows.
+description: spécifie si la couleur spécifiée est une couleur de Windows.
 ms.assetid: 0d2b2039-938c-4f9d-8ddc-9eb711f55009
 title: FWinIMEColorStyle fonction)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 28731672f5f1aff385f9051ba8b641b7cdcdf83c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 723c74ca5017d7908423a9934c002b67ffbc755623da175cc7f1e361f40b42e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002309"
 ---
 # <a name="fwinimecolorstyle-function"></a>FWinIMEColorStyle fonction)
 
-Spécifie si la couleur spécifiée est une couleur Windows.
+spécifie si la couleur spécifiée est une couleur de Windows.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -48,9 +48,9 @@ Une structure **IMECOLORSTY** retournée à partir d’une fonction [**PColorSty
 
 ## <a name="return-value"></a>Valeur retournée
 
-Retourne la **valeur true** lorsque la couleur est une couleur Windows.
+retourne la **valeur TRUE** lorsque la couleur est une couleur de Windows.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

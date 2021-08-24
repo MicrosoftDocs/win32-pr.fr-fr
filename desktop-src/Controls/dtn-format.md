@@ -3,7 +3,7 @@ title: DTN_FORMAT le code de notification (commctrl. h)
 description: Envoyé par un contrôle de sélecteur de date et heure (PAO) pour demander du texte à afficher dans un champ de rappel. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: ce0ee230-638e-425f-9f34-c379342cea93
 keywords:
-- Contrôles Windows de code de notification DTN_FORMAT
+- DTN_FORMAT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fadd11b090777d2226eeed85f32d2062e8340e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75fb4279f6ec6b95ded673083a024d32785dd5156588852663e6c307f8351dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916269"
 ---
 # <a name="dtn_format-notification-code"></a>\_Code de notification au format DTN
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMDATETIMEFORMAT**](/windows/win32/api/commctrl/n
 
 Le propriétaire du contrôle doit retourner zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La gestion de ce code de notification permet au propriétaire du contrôle de fournir une chaîne personnalisée que le contrôle affichera. (Pour plus d’informations sur les champs de rappel, consultez [champs de rappel](date-and-time-picker-controls.md).)
 
@@ -61,8 +61,8 @@ La gestion de ce code de notification permet au propriétaire du contrôle de fo
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **DTN \_ FORMATW** (Unicode) et **DTN \_ Formata** (ANSI)<br/>                     |
 

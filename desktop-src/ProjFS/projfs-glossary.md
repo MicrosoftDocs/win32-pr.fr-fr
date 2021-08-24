@@ -1,18 +1,18 @@
 ---
-title: Glossaire du système de fichiers projeté de Windows
+title: Windows Glossaire du système de fichiers projeté
 description: Termes spéciaux utilisés dans ProjFS.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: c6eac8faa83e2c898e4b1a3ada5c24ef81151b22
-ms.sourcegitcommit: a48b68a75323edfb902eb04fbe6d0ecba6988c21
+ms.openlocfilehash: 12b6e90d98fce3882aa5dc8d552f88e9cd9f389d24673fdc5caf175e180082f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "106512490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030981"
 ---
-# <a name="windows-projected-file-system-glossary"></a>Glossaire du système de fichiers projeté de Windows
+# <a name="windows-projected-file-system-glossary"></a>Windows Glossaire du système de fichiers projeté
 
 Termes spéciaux utilisés dans ProjFS.
 

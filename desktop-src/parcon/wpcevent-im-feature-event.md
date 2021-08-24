@@ -4,12 +4,12 @@ ms.assetid: 45e80314-90b1-4fcf-9c8f-c9840ae1775b
 title: Événement WPCEVENT_IM_FEATURE (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee28f004560ed287bc3cb94cbee1bda876355834
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8046e755540a2282e84ea25c5278cf0c0b113264e78a3db31b6bd8a42de599cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951440"
 ---
 # <a name="wpcevent_im_feature-event"></a>\_Événement de fonctionnalité de messagerie instantanée WPCEVENT \_
 
@@ -109,7 +109,7 @@ Description des données dans la fonctionnalité.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wpcevent. h</dt> </dl> |
 

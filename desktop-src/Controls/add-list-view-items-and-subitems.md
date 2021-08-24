@@ -4,27 +4,27 @@ description: Cette rubrique montre comment ajouter des éléments et des sous-é
 ms.assetid: B7E204DC-FD08-4639-985D-1459A1AC0ED6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2b3d20008edc10fda810261427507c77e9cfe34
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 6365e077c65da33424c5dadd32a0ab98ed6ab7c82eb83e1ecb5a3a007b0f27f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104102565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922039"
 ---
 # <a name="how-to-add-list-view-items-and-subitems"></a>Comment ajouter des éléments de List-View et des sous-éléments
 
 Cette rubrique montre comment ajouter des éléments et des sous-éléments à un contrôle List-View.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

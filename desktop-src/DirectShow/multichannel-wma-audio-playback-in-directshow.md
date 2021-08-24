@@ -4,16 +4,16 @@ ms.assetid: 99c69290-545a-4368-8f51-74e547c9466d
 title: Lecture audio WMA Multichannel dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 400ee9f0cede6c7268bcd3632365db1b423d114e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c3e7f7841677a7b7bc4087b2644632bbf6ec9cd48bccc15274506c6c57f96f89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830979"
 ---
 # <a name="multichannel-wma-audio-playback-in-directshow"></a>Lecture audio WMA Multichannel dans DirectShow
 
-Pour lire un fichier de Windows Media Audio multicanal dans DirectShow, vous devez définir la propriété **MFPKEY \_ WMADEC \_ HIRESOUTPUT** directement sur le décodeur une fois qu’il a été connecté au lecteur ASF WM. Cette propriété est définie dans le fichier d’en-tête wmcodecdsp. h, qui est disponible dans le SDK Windows.
+pour lire un fichier de Windows Media Audio multicanal dans DirectShow, vous devez définir la **propriété \_ \_ HIRESOUTPUT MFPKEY WMADEC** directement sur le décodeur une fois qu’il a été connecté au lecteur ASF WM. cette propriété est définie dans le fichier d’en-tête wmcodecdsp. h, qui est disponible dans le SDK Windows.
 
 > [!Note]  
 > Cette procédure de configuration est prise en charge uniquement pour les fichiers qui ne sont pas protégés par le Rights Management numérique.
@@ -23,13 +23,13 @@ Pour lire un fichier de Windows Media Audio multicanal dans DirectShow, vous dev
 Les étapes de base pour activer la sortie multicanal sont les suivantes :
 
 1.  Appelez **RenderFile** pour créer le graphique de filtre.
-2.  Obtenez un pointeur vers le filtre de wrappers DMO.
-3.  Déconnectez le wrapper DMO du convertisseur audio.
+2.  obtenez un pointeur vers le filtre de Wrapper DMO.
+3.  déconnectez le Wrapper de DMO du convertisseur Audio.
 4.  Utilisez l’interface **IPropertyBag** pour définir la **propriété \_ \_ HIRESOUTPUT WMADEC MFPKEY** sur le décodeur. Le nom de la propriété est défini par la constante globale **g \_ wszWMACHiResOutput**.
-5.  Reconnectez le wrapper DMO et le convertisseur audio.
+5.  reconnectez le Wrapper DMO et le convertisseur Audio.
 6.  Exécutez le graphique.
 
-Les extraits de code suivants illustrent ces étapes. Ce code suppose que le fichier source contient un flux audio et aucun flux vidéo. Le codec vidéo DMO ne prend pas en charge la propriété **MFPKEY \_ WMADEC \_ HIRESOUTPUT** .
+Les extraits de code suivants illustrent ces étapes. Ce code suppose que le fichier source contient un flux audio et aucun flux vidéo. le codec vidéo DMO ne prend pas en charge la propriété **MFPKEY \_ WMADEC \_ HIRESOUTPUT** .
 
 
 ```C++
@@ -207,7 +207,7 @@ HRESULT DisconnectPin(IGraphBuilder *pGraph, IPin *pPin, IPin **ppConnected)
 
 <dl> <dt>
 
-[Lecture de fichiers ASF dans DirectShow](reading-asf-files-in-directshow.md)
+[Lecture des fichiers ASF dans DirectShow](reading-asf-files-in-directshow.md)
 </dt> </dl>
 
  

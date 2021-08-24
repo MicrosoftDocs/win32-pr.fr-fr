@@ -1,7 +1,7 @@
-- name: Protection des ressources Windows
+- name: Windows Protection des ressources
   href: windows-resource-protection-portal.md
   items:
-    - name: À propos de Protection des ressources Windows
+    - name: à propos de Protection des ressources Windows
       href: about-windows-file-protection.md
       items:
         - name: Liste des ressources protégées
@@ -14,7 +14,7 @@
           href: system-file-checker.md
         - name: Considérations relatives à l’administration à distance WFP
           href: remote-administration-considerations.md
-    - name: Référence Protection des ressources Windows
+    - name: Windows Référence sur la protection des ressources
       href: windows-file-protection-reference.md
       items:
         - name: Fonctions WRP

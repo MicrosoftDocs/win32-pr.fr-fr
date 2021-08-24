@@ -3,9 +3,9 @@ title: Méthode d’élément IWMPCdromCollection
 description: La méthode Item retourne une interface IWMPCdrom à l’index donné.
 ms.assetid: 66e51aa9-39c8-4b79-9cc7-d7125516e87e
 keywords:
-- Méthode Item lecteur Windows Media
-- Méthode Item lecteur Windows Media, interface IWMPCdromCollection
-- Interface IWMPCdromCollection lecteur Windows Media, méthode d’élément
+- méthode Item Lecteur Windows Media
+- méthode Item Lecteur Windows Media, interface IWMPCdromCollection
+- Lecteur Windows Media de l’interface IWMPCdromCollection, méthode Item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf0c4a0c79a17b1e6956ba640daec74f0cbb2825
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 80ab1ced32918e615230b3267d15dfbe5b2ba28377f6bbf265b735ea666153a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900109"
 ---
 # <a name="iwmpcdromcollectionitem-method"></a>IWMPCdromCollection :: Item, méthode
 
@@ -64,13 +64,13 @@ Implements IWMPCdromCollection.Item
 
 Interface **wmplib. IWMPCdrom** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **Item** pour afficher le spécificateur de lecteur et le nom de la sélection à partir de chaque CD disponible sur l’ordinateur dans une zone de liste. Si le lecteur contient réellement du contenu DVD, Windows XP ou version ultérieure est requis. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
+L’exemple suivant utilise **Item** pour afficher le spécificateur de lecteur et le nom de la sélection à partir de chaque CD disponible sur l’ordinateur dans une zone de liste. si le lecteur contient réellement du contenu DVD, Windows XP ou version ultérieure est requis. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
 
 
 ```CSharp
@@ -134,7 +134,7 @@ Next i
 [**Interface IWMPCdromCollection (VB et C#)**](iwmpcdromcollection--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPCdromCollection. Count (VB et C#)**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)
+[**IWMPCdromCollection. count (VB et C#)**](wmplibiwmpcdromcollection-iwmpcdromcollection-count--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPCdromCollection. getByDriveSpecifier (VB et C#)**](wmplibiwmpcdromcollection-iwmpcdromcollection-getbydrivespecifier--vb-and-c.md)

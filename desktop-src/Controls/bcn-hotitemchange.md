@@ -3,7 +3,7 @@ title: BCN_HOTITEMCHANGE le code de notification (commctrl. h)
 description: Notifie le propriétaire du contrôle de bouton que la souris entre dans la zone cliente du contrôle bouton. Le contrôle Button envoie ce code de notification sous la forme d’un \_ message WM Notify.
 ms.assetid: 92882e21-b69d-4326-94e9-ae69a0d00a83
 keywords:
-- Contrôles Windows de code de notification BCN_HOTITEMCHANGE
+- BCN_HOTITEMCHANGE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67ba6a7e64e95b45d0883b5adf34b384bccac8c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6966978dc1d1eee1d84a9e5caa51116ccb96e098d2c196ea143051663abbf4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921369"
 ---
 # <a name="bcn_hotitemchange-notification-code"></a>\_Code de notification BCN HOTITEMCHANGE
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMBCHOTITEM**](/windows/win32/api/commctrl/ns-com
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Pour utiliser ce code de notification, vous devez fournir un manifeste spécifiant Comclt32.dll version 6,0. Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
@@ -62,8 +62,8 @@ Ce message ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

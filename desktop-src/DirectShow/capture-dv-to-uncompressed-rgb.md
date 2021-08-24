@@ -4,12 +4,12 @@ ms.assetid: 02b54070-09c8-45ab-8a08-1493008a5e1f
 title: Capturer le DV avec la couleur RVB non compressée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b471bb8be6bc560fda6d3466cebaef8c490cfb8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eb721dba2912774dd7cad18871484a9d578458161d78ea402261858cac03aa65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966763"
 ---
 # <a name="capture-dv-to-uncompressed-rgb"></a>Capturer le DV avec la couleur RVB non compressée
 
@@ -17,7 +17,7 @@ Cet exemple montre comment capturer du DV à partir du caméscope et l’enregis
 
 ![capture de RGB non compressé dans un fichier](images/dv-rgb-cap.png)
 
-Le filtre de séparateur DV divise le fichier audio/vidéo entrelacé en flux vidéo et audio distincts. la vidéo encodée en DV passe au filtre de [décodeur vidéo DV](dv-video-decoder-filter.md) , qui génère une vidéo RVB non compressée. La vidéo RVB est routée via le filtre tee intelligent vers le filtre multiplex Mux (pour la capture) et le convertisseur vidéo (pour la version préliminaire). Pendant ce temps, le flux audio du séparateur DV passe par le filtre tee de code confidentiel infini à AVI MUX et au convertisseur audio. Le gestionnaire de graphes de filtre conserve tous ces flux synchronisés, en utilisant les horodatages sur les échantillons et l’horloge de référence du graphique.
+Le filtre de séparateur DV divise le fichier audio/vidéo entrelacé en flux vidéo et audio distincts. la vidéo encodée en DV passe au filtre de [décodeur vidéo DV](dv-video-decoder-filter.md) , qui génère une vidéo RVB non compressée. La vidéo RVB est routée via le filtre tee intelligent vers le filtre multiplex Mux (pour la capture) et le convertisseur vidéo (pour la version préliminaire). Pendant ce temps, le flux audio du séparateur DV passe par le filtre tee de code confidentiel infini à AVI MUX et au convertisseur audio. le gestionnaire de Graph de filtre conserve tous ces flux synchronisés, en utilisant les horodatages sur les échantillons et l’horloge de référence du graphique.
 
 Ce graphique peut paraître inutilement compliqué, mais il garantit que le flux vidéo encodé au format DV est décodé une seule fois, ce qui réduit les besoins en processeur. Notez également que la vidéo passe par le filtre tee intelligent pendant que l’audio passe par le filtre tee du pin infini. Le tee intelligent peut supprimer des images d’aperçu pour améliorer les performances de capture, ce qui est souhaitable pour la vidéo, mais pas pour l’audio, où les échantillons supprimés sont très perceptibles. En outre, étant donné que l’audio nécessite beaucoup plus de bande passante que la vidéo, il y a relativement peu de chance de déposer de l’audio dans le fichier.
 
@@ -65,7 +65,7 @@ Vous devez créer le séparateur DV, le décodeur vidéo DV, le tee intelligent 
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
  

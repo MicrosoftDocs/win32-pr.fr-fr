@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 39b45ee7859fea9f1068123041a87309cf40c2d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e4a80954117f96e09f760b6d99343746479bb35d373d06eaa3ac89ac5980a1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922629"
 ---
 # <a name="win32_userdesktop-class"></a>\_Classe UserDesktop Win32
 
@@ -64,7 +64,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**override**](../wmisdk/standard-qualifiers.md) ("element"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI \| Win32 \_ UserAccount")
 </dt> </dl>
 
-Référence à l’instance de qui représente le compte d’utilisateur dont le Bureau peut être personnalisé par la propriété de **paramètres** de cette classe.
+référence à l’instance de qui représente le compte d’utilisateur dont le bureau peut être personnalisé par la propriété **Paramètres** de cette classe.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ Référence à l’instance représentant les paramètres de bureau qui servent 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ UserDesktop** est dérivée de [**CIM \_ ElementSetting**](cim-elementsetting.md).
 

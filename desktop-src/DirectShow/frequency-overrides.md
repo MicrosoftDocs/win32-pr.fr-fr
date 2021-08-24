@@ -4,12 +4,12 @@ ms.assetid: 0e45d0a6-3c3e-462c-a8dc-c4f25b614b85
 title: Remplacements de fréquence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57177e4990cb40be271fc551718964faf1696d2d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 79a2c7663e70aa0e975cee52dc630453bea1ad4121a8c91d03564fe7d7a2cb4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997838"
 ---
 # <a name="frequency-overrides"></a>Remplacements de fréquence
 
@@ -18,7 +18,7 @@ Un effort considérable a été passé pour s’assurer que les fréquences de d
 **HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **TV System services** \\ **TVAutoTune** \\ **TS0-1**
 
 > [!Note]  
-> À compter de Windows 7, la clé de Registre redirigée suivante est utilisée pour les applications x86 s’exécutant sur les versions x64 de Windows :
+> à partir de Windows 7, la clé de registre redirigée suivante est utilisée pour les applications x86 s’exécutant sur les versions x64 de Windows :
 
  
 

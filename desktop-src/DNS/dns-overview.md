@@ -4,16 +4,16 @@ description: DNS est un service standard utilisé pour localiser des ordinateurs
 ms.assetid: 98ecf24b-8bd5-4a75-a487-8af3080e8987
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 470807a5775b022834a3ca2f0ee3f91db8bdd5de
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: d5a47874606491c1baf5c52ca7934d7e0c3156a6ab99f9726e6c000d9eb3cb65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104211661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967469"
 ---
 # <a name="dns-overview"></a>Vue d’ensemble de DNS
 
-DNS est un service standard utilisé pour localiser des ordinateurs sur un réseau IP (Internet Protocol). Les réseaux IP, tels que les réseaux Internet et Windows 2000, s’appuient sur des adresses basées sur des nombres, telles que composées, pour les informations de ferry sur le réseau. Les utilisateurs du réseau s’appuient sur des noms basés sur des caractères, tels que `www.microsoft.com` . Par conséquent, il est nécessaire de traduire des adresses de type caractère ou convivial ( `www.microsoft.com` ) en adresses basées sur un nombre (composées) que le réseau peut reconnaître. DNS est le service de choix de Windows 2000 pour localiser les ressources et les traduire en adresses IP correspondantes.
+DNS est un service standard utilisé pour localiser des ordinateurs sur un réseau IP (Internet Protocol). les réseaux IP, tels que les réseaux Internet et Windows 2000, s’appuient sur des adresses basées sur des nombres, telles que composées, pour les informations de ferry sur le réseau. Les utilisateurs du réseau s’appuient sur des noms basés sur des caractères, tels que `www.microsoft.com` . Par conséquent, il est nécessaire de traduire des adresses de type caractère ou convivial ( `www.microsoft.com` ) en adresses basées sur un nombre (composées) que le réseau peut reconnaître. DNS est le service de choix dans Windows 2000 pour localiser les ressources et les traduire en adresses IP correspondantes.
 
 DNS utilise une base de données spécialisée d’enregistrements de ressources, communément appelée RR, pour répondre aux requêtes de résolution de noms de client. Avant DNS, la résolution de noms sur Internet a été obtenue avec le [*fichier hosts*](h-gly.md), qui sont des fichiers créés manuellement qui associent des noms d’hôtes à des adresses IP.
 

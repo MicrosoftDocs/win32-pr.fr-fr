@@ -1,23 +1,23 @@
 ---
-description: Windows Installer version 2,0 commence à rechercher une source en vérifiant l’emplacement source utilisé le plus récemment dans la liste source, puis la liste des sources réseau, les sources multimédias et enfin les sources d’URL.
+description: Windows La version 2,0 du programme d’installation commence à rechercher une source en vérifiant l’emplacement source utilisé le plus récemment dans la liste source, puis la liste des sources réseau, les sources de média et enfin les sources d’URL.
 ms.assetid: 21b1a31e-efe3-4d45-b1c5-fe6ed9b19fed
 title: Stratégie de résilience source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 605c420198234405c23cb9672ca25c621b76390e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4951c1183da8998986863fe5dae744fc58c23387306c91153b50ab63e38e0a3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039709"
 ---
 # <a name="source-resiliency-policy"></a>Stratégie de résilience source
 
 Le programme d’installation commence à rechercher une source en vérifiant l’emplacement source utilisé le plus récemment dans la liste source, puis la liste des sources réseau, les sources multimédias et enfin les sources d’URL. Pour plus d’informations, consultez [résilience source](source-resiliency.md). Si la recherche échoue, le programme d’installation peut présenter une [boîte de dialogue Parcourir](browse-dialog.md) permettant à l’utilisateur de rechercher la source manuellement. La boîte de dialogue Parcourir ne peut pas être affichée si les niveaux de l' [interface utilisateur](user-interface-levels.md) sont définis sur aucun. Un administrateur contrôle l’affichage de la boîte de dialogue Parcourir pour les utilisateurs en définissant la stratégie système.
 
-Avec Windows Installer, les non-administrateurs ne peuvent pas utiliser par défaut la boîte de dialogue Parcourir pour localiser les sources d’applications gérées sur le média et ne peuvent pas installer les applications managées. Un administrateur permet à un non-administrateur de parcourir ou d’installer des applications gérées à partir d’un média à l’aide des stratégies [AllowLockdownBrowse](allowlockdownbrowse.md) et [AllowLockdownMedia](allowlockdownmedia.md) . Un administrateur désactive la possibilité de parcourir ou d’installer des applications à partir d’un média à l’aide des stratégies [DisAbleBrowse](disablebrowse.md) et [DisAbleMedia](disablemedia.md) .
+avec Windows Installer, les non-administrateurs ne peuvent pas utiliser par défaut la boîte de dialogue parcourir pour localiser les sources d’applications gérées sur le média et ne peuvent pas installer les applications managées. Un administrateur permet à un non-administrateur de parcourir ou d’installer des applications gérées à partir d’un média à l’aide des stratégies [AllowLockdownBrowse](allowlockdownbrowse.md) et [AllowLockdownMedia](allowlockdownmedia.md) . Un administrateur désactive la possibilité de parcourir ou d’installer des applications à partir d’un média à l’aide des stratégies [DisAbleBrowse](disablebrowse.md) et [DisAbleMedia](disablemedia.md) .
 
-Le tableau suivant résume l’utilisation de ces stratégies système dans Windows Installer.
+le tableau suivant résume l’utilisation de ces stratégies système dans Windows Installer.
 
 
 

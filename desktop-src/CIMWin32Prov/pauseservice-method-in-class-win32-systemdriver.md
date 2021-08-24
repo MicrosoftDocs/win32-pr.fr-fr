@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a85c49a8ea81cc9af9a99f238bdafb473ca85050
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 087ffcda8aaa64588485015ed211713b0248cee73107a4c3726c278d61aba8e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003089"
 ---
 # <a name="pauseservice-method-of-the-win32_systemdriver-class"></a>Méthode PauseService de la \_ classe Win32 SystemDriver
 

@@ -1,6 +1,6 @@
 ---
-description: 'En savoir plus sur : fonctions du moteur de stockage extensible'
-title: Fonctions du moteur de stockage extensible
+description: en savoir plus sur les fonctions du moteur de Stockage Extensible
+title: fonctions du moteur de Stockage Extensible
 TOCTitle: Extensible Storage Engine Functions
 ms:assetid: c105fa69-e558-4e11-995c-dcf1e5cfbe7e
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294078(v=EXCHG.10)
@@ -14,21 +14,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ae151bacca3c542f0d1632f077c73f537a071bc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 690167c88ce092aac078da53b559c6f72b41abd4658dba196c1e54124a2e7eed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969039"
 ---
-# <a name="extensible-storage-engine-functions"></a>Fonctions du moteur de stockage extensible
+# <a name="extensible-storage-engine-functions"></a>fonctions du moteur de Stockage Extensible
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-## <a name="extensible-storage-engine-functions"></a>Fonctions du moteur de stockage extensible
+## <a name="extensible-storage-engine-functions"></a>fonctions du moteur de Stockage Extensible
 
-L’API du moteur de stockage extensible offre les fonctions suivantes :
+l’API du moteur d’Stockage Extensible offre les fonctions suivantes :
 
   - [JetAddColumn](./jetaddcolumn-function.md)
 

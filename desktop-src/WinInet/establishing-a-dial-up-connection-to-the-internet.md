@@ -4,12 +4,12 @@ description: Les fonctions suivantes sont utilisées pour gérer les connexions 
 ms.assetid: dd33ed4b-eb7c-449c-b309-8f5c290a5a93
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ce03ecc67e27c67bb9807f473aac5210b03f755
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d05ac81096d657453d1ebaa0182f39d31af0fe96c01e73122a2de6e0ba9a765e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955589"
 ---
 # <a name="establishing-a-dial-up-connection-to-the-internet"></a>Établissement d’une connexion d’accès à distance à Internet
 
@@ -26,18 +26,18 @@ Les fonctions suivantes sont utilisées pour gérer les connexions de modem.
 > [!Note]  
 > Les fonctions d’accès distant WinINet ne prennent pas en charge les connexions à double numérotation, l’authentification par carte à puce ou les connexions nécessitant une certification basée sur le registre.
 
- 
+ 
 
 > [!Note]  
-> À compter de Windows Vista et de Windows Server 2008, les fonctions d’accès distant WinINet utilisent les [fonctions RAS](/windows/desktop/RRAS/remote-access-service-functions) pour établir une connexion d’accès à distance. WinINet prend en charge les fonctionnalités documentées dans la fonction [**RasDialDlg**](/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga) .
+> à compter de Windows Vista et Windows Server 2008, les fonctions d’accès distant WinINet utilisent les [fonctions RAS](/windows/desktop/RRAS/remote-access-service-functions) pour établir une connexion d’accès à distance. WinINet prend en charge les fonctionnalités documentées dans la fonction [**RasDialDlg**](/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga) .
 
- 
+ 
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 816a0ec4e307390edcb16d8e7096a7a4ef20c412
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3efdc009f40f0bce67559d185afb4cba1289c00fc1d7771a43d392601220dbae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039589"
 ---
 # <a name="summaryinfo-object"></a>Objet SummaryInfo
 
@@ -82,7 +82,7 @@ L’objet **SummaryInfo** a ces propriétés.
 [**Propriété SummaryInformation (objet installer)**](installer-summaryinformation.md)
 </dt> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

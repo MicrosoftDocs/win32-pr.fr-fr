@@ -4,12 +4,12 @@ description: Cette rubrique décrit les classes, les parties et les États pris 
 ms.assetid: 6ec340a8-8ad1-406e-9fe1-9da9710ee27e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a484e11d04c7e935083ee85fadd9466b8f57dd4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 437ef4a4b032e4f1b5824d94f0ba924ca82745d0b7ea413044b87267ea1f891b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921919"
 ---
 # <a name="aero-style-classes-parts-and-states"></a>Classes, parties et États de style Aero
 
@@ -72,7 +72,7 @@ Cette rubrique décrit les classes, les parties et les États pris en charge par
 | Menu           | MENU \_ BARBACKGROUND         |                                                                                            |
 |                | MENU \_ POPUPBACKGROUND       |                                                                                            |
 |                | MENU \_ POPUPGUTTER           |                                                                                            |
-| Progress       | \_remplissage pp                    | \_erreur PBFS, PBFS \_ partial, PBFS \_ suspendu                                                   |
+| Avancement       | \_remplissage pp                    | \_erreur PBFS, PBFS \_ partial, PBFS \_ suspendu                                                   |
 |                | PP \_ TRANSPARENTBAR          | PBBS \_ normal, PBBs \_ partiel                                                                |
 | Rebar          | \_Chevron RP                 |                                                                                            |
 |                | pince de RP \_                 |                                                                                            |
@@ -136,11 +136,11 @@ Cette rubrique décrit les classes, les parties et les États pris en charge par
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

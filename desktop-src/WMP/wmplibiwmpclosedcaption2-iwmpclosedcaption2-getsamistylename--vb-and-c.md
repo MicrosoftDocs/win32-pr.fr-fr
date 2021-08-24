@@ -3,9 +3,9 @@ title: Méthode IWMPClosedCaption2 getSAMIStyleName
 description: La méthode getSAMIStyleName retourne le nom d’un style pris en charge par le fichier SAMI actuel.
 ms.assetid: e7678ca6-f52f-45f4-bd1c-7fbcdf1cc47c
 keywords:
-- méthode getSAMIStyleName lecteur Windows Media
-- méthode getSAMIStyleName lecteur Windows Media, interface IWMPClosedCaption2
-- Interface IWMPClosedCaption2 lecteur Windows Media, méthode getSAMIStyleName
+- Lecteur Windows Media de la méthode getSAMIStyleName
+- méthode getSAMIStyleName Lecteur Windows Media, interface IWMPClosedCaption2
+- Lecteur Windows Media de l’interface IWMPClosedCaption2, méthode getSAMIStyleName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ceb3f598ae603d478af5cad9c78333952530a2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd599370afb9029a481fbae33264796232e4f129c1a5da0d2658452b785a870c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031349"
 ---
 # <a name="iwmpclosedcaption2getsamistylename-method"></a>IWMPClosedCaption2 :: getSAMIStyleName, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPClosedCaption2.getSAMIStyleName
 
 **System. String** qui est le nom du style tel que spécifié dans le fichier sami.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les styles d’un fichier SAMI sont indexés dans l’ordre indiqué dans le fichier, à partir de zéro.
 

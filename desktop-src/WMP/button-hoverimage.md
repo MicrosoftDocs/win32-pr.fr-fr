@@ -3,7 +3,7 @@ title: BUTTON. hoverImage
 description: L’attribut hoverImage spécifie ou récupère l’image affichée lorsque le bouton est à l’État haut et que l’utilisateur place le pointeur de la souris sur celui-ci.
 ms.assetid: 6704e63d-1def-4e8e-808f-131c3cc1c0de
 keywords:
-- BUTTON. hoverImage Windows Media Player
+- BUTTON. hoverImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80b17a461ffde4b9f6777f3ce360c6b3f1747235
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8488fb599a958a96ef7b5aaa5afbf4c219110f0da5be7016a8190efe2004475d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003719"
 ---
 # <a name="buttonhoverimage"></a>BUTTON. hoverImage
 
@@ -31,7 +31,7 @@ L’attribut **hoverImage** spécifie ou récupère l’image affichée lorsque 
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom du fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF.
 

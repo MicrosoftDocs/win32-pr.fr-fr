@@ -1,23 +1,23 @@
 ---
 title: Access Control (plateforme de filtrage Windows)
-description: Dans la plateforme de filtrage Windows (WFP), le service de moteur de filtrage de base (BFE) implémente le modèle de contrôle d’accès Windows standard basé sur les jetons d’accès et les descripteurs de sécurité.
+description: dans Windows plate-forme de filtrage (WFP), le service de moteur de filtrage de Base (BFE) implémente le modèle de contrôle d’accès Windows standard basé sur les jetons d’accès et les descripteurs de sécurité.
 ms.assetid: 936ad5f0-d5cd-47ed-b9e5-a7d82a4da603
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0df63b6fe92b18614a7ccf205ccf826927664ee
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 1ad8d1cc292358b156a8853a8a141426fda638d64474d1413747e2ebdb59d7a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104321370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901093"
 ---
 # <a name="access-control-windows-filtering-platform"></a>Access Control (plateforme de filtrage Windows)
 
-Dans la plateforme de filtrage Windows (WFP), le service de moteur de filtrage de base (BFE) implémente le [modèle de contrôle d’accès Windows](/windows/desktop/SecAuthZ/access-control-model) standard basé sur les jetons d’accès et les descripteurs de sécurité.
+dans Windows plate-forme de filtrage (WFP), le service de moteur de filtrage de Base (BFE) implémente le [modèle de contrôle d’accès Windows](/windows/desktop/SecAuthZ/access-control-model) standard basé sur les jetons d’accès et les descripteurs de sécurité.
 
 ## <a name="access-control-model"></a>Modèle de Access Control
 
-Des descripteurs de sécurité peuvent être spécifiés lors de l’ajout de nouveaux objets WFP, tels que des filtres et des sous-couches. Les descripteurs de sécurité sont gérés à l’aide des fonctions de gestion WFP **Fwpm \* GetSecurityInfo0** et **Fwpm \* SetSecurityInfo0**, où * *\** _ correspond au nom de l’objet WFP. Ces fonctions sont sémantiquement identiques aux fonctions Windows [_ *GetSecurityInfo* *](/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo) et [**SetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo) .
+Des descripteurs de sécurité peuvent être spécifiés lors de l’ajout de nouveaux objets WFP, tels que des filtres et des sous-couches. Les descripteurs de sécurité sont gérés à l’aide des fonctions de gestion WFP **Fwpm \* GetSecurityInfo0** et **Fwpm \* SetSecurityInfo0**, où * *\** _ correspond au nom de l’objet WFP. ces fonctions sont sémantiquement identiques aux fonctions Windows [_ _ *GetSecurityInfo* *](/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo) et [**SetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo) .
 
 > [!Note]  
 > Les fonctions **Fwpm \* SetSecurityInfo0** ne peuvent pas être appelées à partir d’une transaction explicite.
@@ -33,7 +33,7 @@ Le descripteur de sécurité par défaut pour le moteur de filtre (l’objet mot
 
 -   Accordez des droits d’accès **génériques \_ tous** (GA) au groupe Administrateurs intégré.
 -   Octroie des droits d’accès génériques **\_ en** **\_ écriture** générique ( **EG \_** ) aux opérateurs de configuration de réseau.
--   Accordez des droits d’accès **GRGWGX** aux identificateurs de sécurité de service (SSID) suivants : mpssvc (pare-feu Windows), NapAgent (agent de protection d’accès réseau), policyagent (agent de stratégie IPSec), RPCSS (appel de procédure distante) et WdiServiceHost (hôte de service de diagnostic).
+-   accordez des droits d’accès **GRGWGX** aux identificateurs de sécurité de service (ssid) suivants : MpsSvc (Windows pare-feu), NapAgent (agent de Protection d’accès réseau), PolicyAgent (agent de stratégie IPsec), RpcSs (appel de procédure distante) et WdiServiceHost (hôte de service de Diagnostic).
 -   Accordez la classification **FWPM \_ ACTRL \_ Open** et **FWPM \_ ACTRL \_** à tout le monde. (Il s’agit de droits d’accès spécifiques à WFP, décrits dans le tableau ci-dessous.)
 
 Les descripteurs de sécurité par défaut restants sont dérivés de l’héritage.
@@ -70,9 +70,9 @@ BFE ignore toutes les vérifications d’accès pour les appelants en mode noyau
 
 Pour empêcher les administrateurs de se verrouiller eux-mêmes, les membres du groupe Administrateurs intégré bénéficient toujours de l’autorisation **FWPM \_ ACTRL \_ Open** sur l’objet moteur. Ainsi, un administrateur peut récupérer l’accès en suivant les étapes ci-dessous.
 
--   Activez le privilège **se \_ prendre possession du \_ \_ nom** .
+-   activez le privilège **SE \_ prendre le \_ \_ nom de propriétaire** .
 -   Appelez [**FwpmEngineOpen0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmengineopen0). L’appel a lieu car l’appelant est membre des administrateurs intégrés.
--   Prendre possession de l’objet moteur. Cela est dû au fait que l’appelant a le privilège **se \_ prendre \_ possession du \_ nom** .
+-   Prendre possession de l’objet moteur. cela est dû au fait que l’appelant a le privilège **SE \_ prendre \_ possession du \_ nom** .
 -   Mettez à jour la liste DACL. Cela est dû au fait que le propriétaire a toujours un accès en écriture à la **\_ DAC**
 
 Dans la mesure où BFE prend en charge son propre audit personnalisé, il ne génère pas d’audits d’accès aux objets génériques. Par conséquent, la liste SACL est ignorée.
@@ -230,10 +230,10 @@ Aucune vérification d’accès supplémentaire au-delà de celles pour les filt
 [**Droits d’accès standard**](/windows/desktop/SecAuthZ/standard-access-rights)
 </dt> <dt>
 
-[Modèle de contrôle d’accès Windows](/windows/desktop/SecAuthZ/access-control-model)
+[modèle de contrôle d’accès Windows](/windows/desktop/SecAuthZ/access-control-model)
 </dt> <dt>
 
-[**Identificateurs des droits d’accès à la plateforme de filtrage Windows**](access-right-identifiers.md)
+[**Windows Filtrage des identificateurs de droits d’accès de la plateforme**](access-right-identifiers.md)
 </dt> </dl>
 
  

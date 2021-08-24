@@ -35,18 +35,18 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 02f659f77ab2bace129c9b9d9011b4c93e59b2f4
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: bcc8565401e09e8a4a3e0dfb221f240255b00bd0e91b9c2611b21db3ee1c0201
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "106543615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002259"
 ---
 # <a name="guardchecklongjumptarget-function"></a>GuardCheckLongJumpTarget fonction)
 
 ## <a name="description"></a>Description
 
-Tente de vérifier si la cible d’un [longjmp](/cpp/c-runtime-library/reference/longjmp) est valide pour un processus pour lequel la [protection du workflow de contrôle (cfg)](../secbp/control-flow-guard.md) est activée.
+tente de vérifier si la cible d’un [longjmp](/cpp/c-runtime-library/reference/longjmp) est valide pour un processus pour lequel le [contrôle Flow Guard (CFG)](../secbp/control-flow-guard.md) est activé.
 
 Si l’adresse cible correspond à un mappage d’image, les cibles valides sont extraites pour le binaire.
 La fonction utilise ces cibles pour valider la cible.
@@ -69,6 +69,6 @@ Si vous spécifiez **GUARD_CHECK_LONGJUMP_NON_FATAL** (0x1), cette fonction ne m
 
 **True** si la cible est valide ; sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="see-also"></a>Voir aussi

@@ -3,7 +3,7 @@ title: Message EM_DISPLAYBAND (RichEdit. h)
 description: Affiche une partie du contenu d’un contrôle RichEdit, tel qu’il a été précédemment mis en forme pour un appareil à l’aide du \_ message em FormatRange.
 ms.assetid: 845513d0-f32b-418c-8255-a5caf2d56215
 keywords:
-- EM_DISPLAYBAND les contrôles de message Windows
+- EM_DISPLAYBAND les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f51896a9ba5603e799609ab52989681ecf7bcac4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e67fc951940d76dced2851a01b7049b053f3e3c2b45f6eee95eb27bef633f59c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915939"
 ---
 # <a name="em_displayband-message"></a>\_Message DISPLAYBAND em
 
@@ -49,7 +49,7 @@ Si l’opération a échoué, la valeur de retour est **true**.
 
 Si l’opération échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les objets de texte et de modèle COM (Component Object Model) sont découpés par le rectangle. L’application n’a pas besoin de définir la zone de découpage.
 
@@ -61,8 +61,8 @@ La bande est le processus par lequel une seule page de sortie est générée à 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

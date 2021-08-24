@@ -3,7 +3,7 @@ title: BUTTON. hoverDownImage
 description: L’attribut hoverDownImage spécifie ou récupère l’image affichée lorsque le bouton est à l’état inactif et que l’utilisateur pointe dessus avec le pointeur de la souris.
 ms.assetid: 06645307-50f1-400d-aa73-c48d0fba3ee1
 keywords:
-- BUTTON. hoverDownImage Windows Media Player
+- BUTTON. hoverDownImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bc8221875656c38a35eb6539dce25f58133984f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bcdb23f9806e36cebd2f5da6a46a8307c268861d73f68361e07f56e9ce09dcc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902399"
 ---
 # <a name="buttonhoverdownimage"></a>BUTTON. hoverDownImage
 
@@ -31,7 +31,7 @@ L’attribut **hoverDownImage** spécifie ou récupère l’image affichée lors
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom du fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF.
 

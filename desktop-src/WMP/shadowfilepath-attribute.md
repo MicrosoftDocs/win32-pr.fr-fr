@@ -3,7 +3,7 @@ title: Attribut ShadowFilePath
 description: L’attribut ShadowFilePath est le chemin d’accès complet à un fichier caché.
 ms.assetid: dd00d53c-8a95-450c-a65b-1763e9112941
 keywords:
-- Attribut ShadowFilePath lecteur Windows Media
+- Lecteur Windows Media de l’attribut ShadowFilePath
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef79271995e9817315fb918049fc22491e232a5f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4cf1e8f2eb5cb810004ea219aac62973377111902071beb78eca051df19877f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002149"
 ---
 # <a name="shadowfilepath-attribute"></a>Attribut ShadowFilePath
 
@@ -27,7 +27,7 @@ L’attribut **ShadowFilePath** est le chemin d’accès complet à un fichier c
 
 -   [Éléments audio](audio-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un *fichier caché* est créé dans le cadre d’une conversion de format de fichier. Il s’agit de la copie d’un fichier que le lecteur utilise lorsque l’utilisateur synchronise le contenu de l’ordinateur sur un appareil qui requiert que le contenu soit au format de fichier d’origine. Cet attribut est défini pour que le fichier converti pointe vers l’emplacement du fichier caché.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b5baedb0ea30d51cbd659e597cb000a434ec1632
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 07a6eee85c515c4b8e923aa9973eddc648ef95cbc152c27951154a7c41fbcf3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026819"
 ---
 # <a name="id3dxanimationcontrollergetnumanimationsets-method"></a>ID3DXAnimationController :: GetNumAnimationSets, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **uint**](../winprog/windows-data-types.md)**
 
 Nombre d’ensembles d’animations.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôleur contient un nombre quelconque d’animations et de jeux d’animations. Les jeux d’animations peuvent être enregistrés avec [**RegisterAnimationOutput**](id3dxanimationcontroller--registeranimationoutput.md). Un contrôleur d’animation créé par un appel à [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarchyfromx.md) inscrit automatiquement les jeux d’animations chargés.
 

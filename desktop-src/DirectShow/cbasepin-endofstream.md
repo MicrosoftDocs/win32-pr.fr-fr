@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2324bae8ec1266dce2471049f8ba2f06b0c9e6e1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9e1549000be728da0118323303a60a23a5930ad68d3c7d2d2b6c9c92d54c3d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916429"
 ---
 # <a name="cbasepinendofstream-method"></a>Méthode CBasePin. EndOfStream
 
@@ -44,9 +44,9 @@ Cette méthode n’a aucun paramètre.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le filtre doit passer des notifications de fin de flux en aval, aux broches d’entrée des filtres connectés. Si le filtre est un convertisseur, il doit envoyer une notification d’événements [**EC \_ complet**](ec-complete.md) au gestionnaire de graphes de filtre. Pour plus d’informations, consultez [Data Flow dans le graphique de filtre](data-flow-in-the-filter-graph.md).
+Le filtre doit passer des notifications de fin de flux en aval, aux broches d’entrée des filtres connectés. Si le filtre est un convertisseur, il doit envoyer une notification d’événements [**EC \_ complet**](ec-complete.md) au gestionnaire de graphes de filtre. pour plus d’informations, consultez [Flow de données dans le Graph de filtre](data-flow-in-the-filter-graph.md).
 
 Dans la classe de base, cette méthode n’a aucun effet. Les classes dérivées doivent remplacer cette méthode.
 
@@ -56,7 +56,7 @@ Dans la classe de base, cette méthode n’a aucun effet. Les classes dérivées
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
