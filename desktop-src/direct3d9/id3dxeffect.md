@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 275376234739964940d70381a34331ff5b89f2dc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c9f5bdcf90b3e0d317290a569984d1b72d248079de5b3b281325e66af6e443c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119494019"
 ---
 # <a name="id3dxeffect-interface"></a>Interface ID3DXEffect
 
@@ -46,7 +46,7 @@ L’interface **ID3DXEffect** possède ces méthodes.
 | [**CloneEffect**](id3dxeffect--cloneeffect.md)                       | Crée une copie d’un effet.<br/>                                                                                                                                                          |
 | [**CommitChanges**](id3dxeffect--commitchanges.md)                   | Propage les modifications d’État qui se produisent à l’intérieur d’une passe active à l’appareil avant le rendu.<br/>                                                                                           |
 | [**DeleteParameterBlock**](id3dxeffect--deleteparameterblock.md)     | Supprimer un bloc de paramètres.<br/>                                                                                                                                                             |
-| [**Effet**](id3dxeffect--end.md)                                       | Met fin à une technique active.<br/>                                                                                                                                                             |
+| [**End**](id3dxeffect--end.md)                                       | Met fin à une technique active.<br/>                                                                                                                                                             |
 | [**EndParameterBlock**](id3dxeffect--endparameterblock.md)           | Arrêter la capture des modifications d’état des paramètres d’effet.<br/>                                                                                                                                        |
 | [**EndPass**](id3dxeffect--endpass.md)                               | Terminer une passe active.<br/>                                                                                                                                                                   |
 | [**FindNextValidTechnique**](id3dxeffect--findnextvalidtechnique.md) | Recherche la technique suivante valide, en commençant par la technique qui suit la technique spécifiée.<br/>                                                                                       |
@@ -66,7 +66,7 @@ L’interface **ID3DXEffect** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface ID3DXEffect est obtenue en appelant [**D3DXCreateEffect**](d3dxcreateeffect.md), [**D3DXCreateEffectFromFile**](d3dxcreateeffectfromfile.md)ou [**D3DXCreateEffectFromResource**](d3dxcreateeffectfromresource.md).
 

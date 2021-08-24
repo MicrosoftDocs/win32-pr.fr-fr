@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c0bd65799bada2df8a3c9e0b113db3c911a53536
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aab65a36a63ce68264be97ad20061a1ee84efe4dd52d712dfa3c260dc9c11525
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631479"
 ---
 # <a name="d3dxcreatecubetexturefromresource-function"></a>D3DXCreateCubeTextureFromResource fonction)
 
@@ -85,13 +85,13 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL, D3DERR \_ NOTAVAILABLE, D3DERR \_ OUTOFVIDEOMEMORY, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en **D3DXCreateCubeTextureFromResourceW**. Dans le cas contraire, l’appel de fonction est résolu en **D3DXCreateCubeTextureFromResourceA** , car les chaînes ANSI sont utilisées.
 
 La fonction est équivalente à D3DXCreateCubeTextureFromResourceEx (pDevice, hSrcModule, pSrcResource, D3DX \_ default, D3DX \_ default, 0, D3DFMT \_ Unknown, D3DPOOL \_ Managed, D3DX \_ default, D3dx \_ default, 0, **null**, **null**, ppCubeTexture).
 
-Cette fonction prend en charge les formats de fichier suivants :. bmp,. DDS,. dib,. HDR,. jpg,. PFM,. png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
+Cette fonction prend en charge les formats de fichier suivants : .bmp,. DDS,. dib,. HDR, .jpg,. PFM, .png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
 
 Notez qu’une ressource créée avec cette fonction quand elle est appelée à partir d’un objet IDirect3DDevice9 est placée dans la classe de mémoire indiquée par D3DPOOL \_ gérée. Lorsque cette méthode est appelée à partir d’un objet IDirect3DDevice9Ex, la ressource est placée dans la classe de mémoire indiquée par la \_ valeur par défaut de D3DPOOL.
 

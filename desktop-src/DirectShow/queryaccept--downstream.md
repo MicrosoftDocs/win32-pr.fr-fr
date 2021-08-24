@@ -4,12 +4,12 @@ ms.assetid: 3ca30f62-c320-40ea-9bf5-022abad912c4
 title: QueryAccept (en aval)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9015e0a246abb9fb996c0771e4bc935cccda054d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 87ec5c26209839f0dcd8351cc9a7ca84227faa2289d44d46c2c321fce0429e3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104568049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747732"
 ---
 # <a name="queryaccept-downstream"></a>QueryAccept (en aval)
 
@@ -28,9 +28,9 @@ Dans la plupart des cas, ce mécanisme n’autorise pas les modifications radica
 
 **Note d’implémentation**
 
-Dans les classes de base DirectShow, [**CBasePin :: QueryAccept**](cbasepin-queryaccept.md) appelle la méthode **CheckMediaType** , qui est également appelée pendant la connexion de code PIN initiale. Dans le cas d’un filtre de transformation, la méthode **CheckMediaType** du code confidentiel d’entrée doit toujours vérifier si la broche de sortie est connectée, et si tel est le cas, si le type de média d’entrée est compatible avec le type de média de sortie. Par conséquent, cette implémentation sera probablement valide pour `QueryAccept` . Si ce n’est pas le cas, vous devez remplacer afin `QueryAccept` d’effectuer les vérifications supplémentaires nécessaires. Notez également que la classe [**CTransformFilter**](ctransformfilter.md) encapsule cette logique dans les méthodes **CheckInputType** et **CheckTransform** . En revanche, la classe [**CTransInPlaceFilter**](ctransinplacefilter.md) appelle toujours `QueryAccept` sur le filtre en amont ou en aval suivant.
+dans les classes de base DirectShow, [**CBasePin :: QueryAccept**](cbasepin-queryaccept.md) appelle la méthode **CheckMediaType** , qui est également appelée pendant la connexion du pin initial. Dans le cas d’un filtre de transformation, la méthode **CheckMediaType** du code confidentiel d’entrée doit toujours vérifier si la broche de sortie est connectée, et si tel est le cas, si le type de média d’entrée est compatible avec le type de média de sortie. Par conséquent, cette implémentation sera probablement valide pour `QueryAccept` . Si ce n’est pas le cas, vous devez remplacer afin `QueryAccept` d’effectuer les vérifications supplémentaires nécessaires. Notez également que la classe [**CTransformFilter**](ctransformfilter.md) encapsule cette logique dans les méthodes **CheckInputType** et **CheckTransform** . En revanche, la classe [**CTransInPlaceFilter**](ctransinplacefilter.md) appelle toujours `QueryAccept` sur le filtre en amont ou en aval suivant.
 
-La méthode [**CBaseInputPin :: Receive**](cbaseinputpin-receive.md) vérifie la présence d’un type de média sur l’exemple entrant et, le cas échéant, appelle **CheckMediaType**. Toutefois, il ne met pas à jour le membre **m \_ MT** du pin, qui contient le type de média actuel. Lorsque votre filtre traite l’exemple, vous devez vérifier l’exemple pour un type de média. S’il existe un nouveau type, vous devrez probablement le stocker en appelant **SetMediaType** sur votre code confidentiel ou en définissant la valeur de **m \_ MT** directement. En revanche, la classe [**CVideoTransformFilter**](cvideotransformfilter.md) , conçue pour les filtres de transformation vidéo, stocke le type de média lorsqu’il change. Pour plus d’informations, consultez le code source de [**CVideoTransformFilter :: Receive**](cvideotransformfilter-receive.md) dans la bibliothèque de classes de base DirectShow.
+La méthode [**CBaseInputPin :: Receive**](cbaseinputpin-receive.md) vérifie la présence d’un type de média sur l’exemple entrant et, le cas échéant, appelle **CheckMediaType**. Toutefois, il ne met pas à jour le membre **m \_ MT** du pin, qui contient le type de média actuel. Lorsque votre filtre traite l’exemple, vous devez vérifier l’exemple pour un type de média. S’il existe un nouveau type, vous devrez probablement le stocker en appelant **SetMediaType** sur votre code confidentiel ou en définissant la valeur de **m \_ MT** directement. En revanche, la classe [**CVideoTransformFilter**](cvideotransformfilter.md) , conçue pour les filtres de transformation vidéo, stocke le type de média lorsqu’il change. pour plus d’informations, consultez le code source de [**CVideoTransformFilter :: Receive**](cvideotransformfilter-receive.md) dans la bibliothèque de classes de base DirectShow.
 
 Dans certains cas, vous pouvez simplement passer l' `QueryAccept` appel en aval, puis attacher le type de média à l’exemple de sortie et laisser le filtre en aval gérer le changement de format.
 

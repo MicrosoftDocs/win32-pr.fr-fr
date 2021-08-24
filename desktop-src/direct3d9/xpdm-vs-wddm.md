@@ -1,19 +1,19 @@
 ---
-description: L’API Direct3D 9 fonctionne sur Windows XP Display Driver Model (XPDM) ou Windows Vista Display Driver Model (WDDM), selon le système d’exploitation installé.
+description: l’API Direct3D 9 fonctionne sur le modèle de pilote d’affichage (XPDM) Windows XP ou le modèle WDDM (Windows Vista display driver model), selon le système d’exploitation installé.
 ms.assetid: b552c822-aa01-4f1d-a0a6-1411ab006e7b
 title: XPDM et WDDM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e12c7d811850c953eb53c346b628363a2642dda9
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: c0332198cd7c9425a3b5a107259dda1b1e974a04a2379244cdf939384260a89f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746049"
 ---
 # <a name="xpdm-vs-wddm"></a>XPDM et WDDM
 
-L’API Direct3D 9 fonctionne sur Windows XP Display Driver Model (XPDM) ou Windows Vista Display Driver Model (WDDM), selon le système d’exploitation installé. Il existe des différences dans la façon dont l’API Direct3D se comporte sur les deux modèles de pilote.
+l’API Direct3D 9 fonctionne sur le modèle de pilote d’affichage (XPDM) Windows XP ou le modèle WDDM (Windows Vista display driver model), selon le système d’exploitation installé. Il existe des différences dans la façon dont l’API Direct3D se comporte sur les deux modèles de pilote.
 
 -   [Bureau sécurisé](#secure-desktop)
 -   [Bureau à distance](#remote-desktop)
@@ -22,7 +22,7 @@ L’API Direct3D 9 fonctionne sur Windows XP Display Driver Model (XPDM) ou Wind
 
 ## <a name="secure-desktop"></a>Bureau sécurisé
 
-Le Bureau sécurisé est actif quand l’un des éléments suivants se produit : l’utilisateur verrouille son bureau (Windows + L), l’économiseur d’écran est activé (quand aucun utilisateur n’est connecté) ou par défaut lorsque le contrôle de compte d’utilisateur affiche une invite. Lorsque le Bureau sécurisé est actif, le périphérique HAL n’est pas accessible.
+le bureau sécurisé est actif lorsque l’un des éléments suivants se produit : l’utilisateur verrouille son bureau (Windows + L), l’économiseur d’écran s’active (quand aucun utilisateur n’est connecté) ou par défaut lorsque le contrôle de compte d’utilisateur affiche une invite. Lorsque le Bureau sécurisé est actif, le périphérique HAL n’est pas accessible.
 
 Différences entre XPDM et WDDM :
 
@@ -50,18 +50,18 @@ Différences entre XPDM et WDDM :
 
 ## <a name="windows-service"></a>Service Windows
 
-Un service Windows est un processus qui s’exécute en arrière-plan, contrôlé par le gestionnaire de contrôle des services (SCM). Un service s’exécute indépendamment du bureau actif et dispose donc d’une capacité d’interaction limitée avec les utilisateurs.
+un service Windows est un processus qui s’exécute en arrière-plan, contrôlé par le gestionnaire de contrôle des services (SCM). Un service s’exécute indépendamment du bureau actif et dispose donc d’une capacité d’interaction limitée avec les utilisateurs.
 
 Différences entre XPDM et WDDM :
 
-- Sur WDDM, l’isolation de la session 0 garantit qu’un service n’a pas accès aux postes de travail des utilisateurs comme mesure de sécurité. par conséquent, un appareil HAL de Direct3D 9 n’est jamais disponible à partir d’un service Windows.
+- sur WDDM, l’Isolation de la Session 0 garantit qu’un service n’a pas accès aux postes de travail des utilisateurs comme mesure de sécurité. par conséquent, un appareil HAL de Direct3D 9 n’est jamais disponible à partir d’un service de Windows.
 
 
 
  
 
 > [!Note]  
-> Vous ne pouvez pas utiliser Direct3D 9 dans un service Windows. Pour plus d’informations, consultez [l’article du support technique Microsoft 978635](https://support.microsoft.com/kb/978635).
+> vous ne pouvez pas utiliser Direct3D 9 dans un service de Windows. Pour plus d’informations, consultez [l’article du support technique Microsoft 978635](https://support.microsoft.com/kb/978635).
 
  
 
@@ -89,7 +89,7 @@ Le tableau suivant récapitule les différences répertoriées ici.
 
  
 
-Pour plus d’informations sur XPDM, WDDM, Direct3D9Ex et Direct3D 10, consultez [API graphiques dans Windows](../direct3darticles/graphics-apis-in-windows-vista.md).
+Pour plus d’informations sur XPDM, WDDM, Direct3D9Ex et Direct3D 10, consultez [API Graphics dans Windows](../direct3darticles/graphics-apis-in-windows-vista.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

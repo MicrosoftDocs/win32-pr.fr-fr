@@ -1,27 +1,27 @@
 ---
 title: Jointure de données hétérogènes
-description: Les organisations classiques stockent les données dans plusieurs bases de données hétérogènes. Les données des ressources humaines peuvent être stockées dans SQL Server, tandis que les données de gestion des comptes sont stockées dans l’annuaire. D’autres données peuvent être stockées dans des formats propriétaires.
+description: Les organisations classiques stockent les données dans plusieurs bases de données hétérogènes. les données des ressources humaines peuvent être stockées dans SQL Server, tandis que les données de gestion des comptes sont stockées dans l’annuaire. D’autres données peuvent être stockées dans des formats propriétaires.
 ms.assetid: 45281b42-5cb2-42f9-9c7c-f3e3174b0f9d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e1099028bc85dc6492eade0315b7308b4c6aaa9
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 409ac4e82d735f5099bb8846a59683075007c3fbdf56600bc5ae01e6863ffa2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656999"
 ---
 # <a name="joining-heterogeneous-data"></a>Jointure de données hétérogènes
 
-Les organisations classiques stockent les données dans plusieurs bases de données hétérogènes. Les données des ressources humaines peuvent être stockées dans SQL Server, tandis que les données de gestion des comptes sont stockées dans l’annuaire. D’autres données peuvent être stockées dans des formats propriétaires.
+Les organisations classiques stockent les données dans plusieurs bases de données hétérogènes. les données des ressources humaines peuvent être stockées dans SQL Server, tandis que les données de gestion des comptes sont stockées dans l’annuaire. D’autres données peuvent être stockées dans des formats propriétaires.
 
-Avec, SQL Server 7,0, ADSI et le fournisseur OLE DB, il est possible de joindre des données de Active Directory à des données dans SQL Server et de créer une vue des données jointes.
+avec, SQL Server 7,0, ADSI et le fournisseur OLE DB, il est possible de joindre des données de Active Directory à des données dans SQL Server et de créer une vue des données jointes.
 
-**Pour joindre des données Active Directory à des données SQL Server**
+**pour joindre des données Active Directory à des données SQL Server**
 
-1.  Exécuter l' **Analyseur de requêtes SQL** ( \| programmes de démarrage \| Microsoft SQL Server 7,0)
-2.  Connectez-vous à l’ordinateur SQL Server.
+1.  exécuter l' **analyseur de requêtes SQL** (démarrer les \| programmes \| Microsoft SQL Server 7,0)
+2.  connectez-vous à l’ordinateur SQL Server.
 3.  Exécutez la ligne suivante (en la mettant en surbrillance et en appuyant sur CTRL + E) :
 
     ```sql

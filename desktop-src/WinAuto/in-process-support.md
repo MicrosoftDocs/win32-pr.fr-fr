@@ -4,12 +4,12 @@ description: L’implémentation actuelle de l’annotation dynamique est entiè
 ms.assetid: 3d32c444-47fb-49fe-be18-0330fea77926
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4cf9ed1c17d84ddc824ce5ac6d412f1ee12b8e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5d82deaa2edd9a5df9fd36bed745d1c07a5542e12837cd3fc97c3ac0bdeab098
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614739"
 ---
 # <a name="in-process-support"></a>Support In-Process
 
@@ -17,9 +17,9 @@ L’implémentation actuelle de l’annotation dynamique est entièrement in-pro
 
 Notez que cela affecte uniquement l’acte de définition d’une annotation. Il n’interfère pas avec la capacité des clients à accéder aux propriétés (annotées ou autres) des éléments d’interface utilisateur dans d’autres processus.
 
- 
+ 
 
- 
+ 
 
 
 

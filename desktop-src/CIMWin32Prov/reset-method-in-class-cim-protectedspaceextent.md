@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a89d234fc4a134d81485f0e507873fc3cc111305
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 99a8c502b45998e9f1c0b544c944c1d2c8c9137eda5dfcc6661d0bb4a97c2e8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701179"
 ---
 # <a name="reset-method-of-the-cim_protectedspaceextent-class"></a>Méthode Reset de la \_ classe CIM ProtectedSpaceExtent
 
@@ -47,7 +47,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

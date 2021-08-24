@@ -5,18 +5,18 @@ ms.assetid: 38a290be-b915-4317-b9b1-0e49e40dc8ec
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 0189c46f50e2ccc9ecc4523a4bb6f34006e59139
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 5fb177cbbd82ef56a03ef2c8a6faa7ef6c11f7889423ce79102d11eb42090231
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104551472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636143"
 ---
 # <a name="path-geometries-overview"></a>Vue d’ensemble des géométries de tracés
 
 Cette rubrique explique comment utiliser des géométries de tracés Direct2D pour créer des dessins complexes. Elle contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Géométries de tracés dans Direct2D](#path-geometries-in-direct2d)
 -   [Utilisation d’un ID2D1GeometrySink pour remplir une géométrie de tracé](#using-an-id2d1geometrysink-to-populate-a-path-geometry)
 -   [Exemple : créer un dessin complexe](#example-create-a-complex-drawing)

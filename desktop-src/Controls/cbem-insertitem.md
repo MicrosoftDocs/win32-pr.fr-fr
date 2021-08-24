@@ -3,7 +3,7 @@ title: Message CBEM_INSERTITEM (commctrl. h)
 description: Insère un nouvel élément dans un contrôle ComboBoxEx.
 ms.assetid: c99db676-204d-44c9-aaa3-81b70fe2cf44
 keywords:
-- CBEM_INSERTITEM les contrôles de message Windows
+- CBEM_INSERTITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23e6cb26a575472e53703d65e407a94a024dcfac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f4d9627efef4796554dfdbe1d7263747cc6b1c32b2cc00d5619a7cb7953024cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106516297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699304"
 ---
 # <a name="cbem_insertitem-message"></a>\_Message CBEM INSERTITEM
 
@@ -51,8 +51,8 @@ Retourne l’index auquel le nouvel élément a été inséré en cas de réussi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **CBEM \_ INSERTITEMW** (Unicode) et **CBEM \_ INSERTITEMA** (ANSI)<br/>           |
 

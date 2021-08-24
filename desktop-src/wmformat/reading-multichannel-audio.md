@@ -12,18 +12,18 @@ keywords:
 - audio multicanal, lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59da950eb4218ad87995ed80e22de4de302f8e42
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 93ba314c6f2579bb18cd73593a775089c4b04b1c4a8ecd34868af911da29a67a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658529"
 ---
 # <a name="reading-multichannel-audio"></a>Lecture de l’audio multicanal
 
-Le codec Windows Media Audio 9 Professional peut encoder l’audio multicanal (plus de deux canaux). Lors de la lecture d’un fichier à l’aide de l’audio multicanal, vous devez configurer la sortie correctement ou l’audio sera remis à une qualité inférieure et en stéréo. Pour définir une sortie pour la remise audio multicanal, vous devez définir deux paramètres de sortie : g \_ wszEnableDiscreteOutput et g \_ wszSpeakerConfig.
+le codec Windows Media Audio 9 Professional peut encoder l’Audio multicanal (plus de deux canaux). Lors de la lecture d’un fichier à l’aide de l’audio multicanal, vous devez configurer la sortie correctement ou l’audio sera remis à une qualité inférieure et en stéréo. Pour définir une sortie pour la remise audio multicanal, vous devez définir deux paramètres de sortie : g \_ wszEnableDiscreteOutput et g \_ wszSpeakerConfig.
 
-Le paramètre g \_ wszEnableDiscreteOutput sur **true** définit le codec pour fournir une sortie audio haute définition. Le son haute définition est encodé par le codec Windows Media Audio 9 avec des échantillons de 24 bits en stéréo ou plusieurs canaux. Si ce paramètre a la **valeur false**, seule une sortie stéréo de 16 bits sera remise.
+Le paramètre g \_ wszEnableDiscreteOutput sur **true** définit le codec pour fournir une sortie audio haute définition. le son haute définition est encodé par le codec Windows Media Audio 9 avec des échantillons de 24 bits en stéréo ou plusieurs canaux. Si ce paramètre a la **valeur false**, seule une sortie stéréo de 16 bits sera remise.
 
 Le nombre de haut-parleurs sur l’ordinateur de jeu est défini avec g \_ wszSpeakerConfig. Ce paramètre est une valeur **DWORD** définie sur l’une des constantes de haut-parleur DirectSound indiquées dans le tableau suivant. Pour résoudre ces noms de constantes pour votre compilateur, vous devez inclure dsound. h.
 
@@ -42,7 +42,7 @@ Le nombre de haut-parleurs sur l’ordinateur de jeu est défini avec g \_ wszSp
 
 
 
- 
+ 
 
 Pour définir ces paramètres, utilisez [**IWMReaderAdvanced2 :: SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting).
 
@@ -56,15 +56,15 @@ Enfin, pour que les canaux s’affichent discrètement, sans pli vers le stéré
 Une fois que vous avez défini une sortie discrète et la configuration de l’orateur, les formats de sortie énumérés par le lecteur doivent inclure des formats multicanaux qui utilisent la structure [**WAVEFORMATEXTENSIBLE**](/previous-versions/windows/desktop/legacy/dd757721(v=vs.85)) . Si vous énumérez les formats de sortie avant de définir les propriétés, seuls les formats avec 1 ou 2 canaux et un maximum de 16 bits par canal seront inclus. Comme pour les autres formats audio, vous devez utiliser uniquement les formats énumérés par le lecteur. ne configurez pas votre propre.
 
 > [!Note]  
-> Vous pouvez générer l’audio multicanal uniquement si votre application s’exécute sur Microsoft Windows XP ou une version ultérieure de Microsoft Windows.
+> vous pouvez générer l’audio multicanal uniquement si votre application s’exécute sur microsoft Windows XP ou une version ultérieure de microsoft Windows.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Entrées, flux et sorties**](inputs-streams-and-outputs.md)
+[**entrées, Flux et sorties**](inputs-streams-and-outputs.md)
 </dt> <dt>
 
 [**Lecture des fichiers ASF**](reading-asf-files.md)
@@ -76,6 +76,6 @@ Une fois que vous avez défini une sortie discrète et la configuration de l’o
 [**Utilisation d' High-Resolution audio PCM**](working-with-high-resolution-pcm-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

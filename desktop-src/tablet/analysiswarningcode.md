@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - IACom.h
-ms.openlocfilehash: 651408678daa64788952b2706980968ca315abf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48d03c0f4c479ddf6a3f1f9f371bc13b889641994f86df75b107b17ca081a97a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660869"
 ---
 # <a name="analysiswarningcode-enumeration"></a>Énumération AnalysisWarningCode
 
@@ -192,7 +192,7 @@ L’identificateur de langue défini sur un trait associé à un nœud de reconn
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **AnalysisWarningCode \_ BackgroundException** est la seule valeur de code d’avertissement qui exige que l’objet [**IInkAnalyzer**](iinkanalyzer.md) soit réinstancié avant d’être utilisé.
 
@@ -204,7 +204,7 @@ D’autres valeurs de code d’avertissements, telles que **AnalysisWarningCode 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 

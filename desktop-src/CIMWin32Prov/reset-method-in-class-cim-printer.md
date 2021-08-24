@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 42e4f4ff44eb1de7b0834239cf0d8af0ea88b42c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: feede16d7dc7ad06e0253c4869b17b46acaa8c5b8206b2170314ae3c60fedc14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701199"
 ---
 # <a name="reset-method-of-the-cim_printer-class"></a>Méthode de réinitialisation de la \_ classe d’imprimante CIM
 
@@ -47,7 +47,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 68845f713289c524afc844037ca305909e5b89b0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2182714588e5d408c6928a677433e68dac44f09abf5ec6bd4cb4d6df7e4acf02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629059"
 ---
 # <a name="id3dxprtenginesetminmaxintersection-method"></a>ID3DXPRTEngine :: SetMinMaxIntersection, méthode
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne peut pas être utilisée dans les simulations de transfert luminance (PRT) précalculées qui s’exécutent dans le GPU. Consultez [**ID3DXPRTEngine :: ComputeDirectLightingSHGPU**](id3dxprtengine--computedirectlightingshgpu.md).
 

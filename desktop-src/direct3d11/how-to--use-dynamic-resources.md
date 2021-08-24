@@ -4,12 +4,12 @@ description: Vous créez et utilisez des ressources dynamiques lorsque votre app
 ms.assetid: E73EA4B0-BD14-430C-89CA-4CFCF92C7548
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e41e00cda7236040679c7863454e4cc18d81106b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2d85933490d1e3bbbd09cc83720651c4fd634012f8e5aa70562396e87c096ebc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633099"
 ---
 # <a name="how-to-use-dynamic-resources"></a>Comment : utiliser des ressources dynamiques
 
@@ -21,7 +21,7 @@ ms.locfileid: "104190863"
 
 Vous créez et utilisez des ressources dynamiques lorsque votre application doit modifier des données dans ces ressources. Vous pouvez créer des textures et des mémoires tampons pour une utilisation dynamique.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -121,7 +121,7 @@ void TriangleRenderer::MapDoubleVertices()
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="using-dynamic-textures"></a>Utilisation de textures dynamiques
 
@@ -138,16 +138,16 @@ Pour bénéficier d’une amélioration des performances lorsque vous utilisez d
 > [!Note]  
 > Lorsque vous mappez une mémoire tampon avec l' [**écriture de d3d11 \_ Map \_ \_ ignorée**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map), le runtime ignore toujours l’intégralité de la mémoire tampon. Vous ne pouvez pas conserver les informations dans les zones non mappées de la mémoire tampon en spécifiant un champ d’offset différent de zéro ou une taille limitée.
 
- 
+ 
 
 Dans certains cas, la quantité de données dont l’application a besoin pour stocker par carte est petite, par exemple l’ajout de quatre sommets pour le rendu d’un sprite. [**D3d11 \_ MAPPER l' \_ écriture \_ sans \_**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map) remplacement indique que l’application ne remplacera pas les données déjà en cours d’utilisation dans la mémoire tampon dynamique. L’appel [**Map**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-map) retourne un pointeur vers les anciennes données, ce qui permet à l’application d’ajouter de nouvelles données dans les régions inutilisées du vertex ou de la mémoire tampon d’index. L’application ne doit pas modifier les vertex ou les index utilisés dans une opération de dessin, car ils peuvent toujours être utilisés par le GPU. Nous vous recommandons de faire en sorte que l’application utilise ensuite l' [**\_ écriture d3d11 map \_ \_ ignorée**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map) une fois que la mémoire tampon dynamique est pleine pour recevoir une nouvelle région de mémoire, qui ignore les anciennes données de vertex ou d’index une fois l’exécution du GPU terminée.
 
 Le mécanisme de requête asynchrone est utile pour déterminer si les vertex sont toujours utilisés par le GPU. Émettez une requête de [**type \_ \_ événement de requête d3d11**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_query) après le dernier appel de dessin qui utilise les vertex. Les vertex ne sont plus utilisés quand [**ID3D11DeviceContext :: GetData**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-getdata) retourne S \_ OK. Lorsque vous mappez une mémoire tampon avec [**d3d11 \_ carte d' \_ écriture \_ ignorée**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map) ou aucune valeur de mappage, vous avez toujours la garantie que les vertex sont correctement synchronisés avec le GPU. Toutefois, lorsque vous mappez sans valeurs cartographiques, vous subissez la pénalité de performance décrite précédemment.
 
 > [!Note]  
-> Le runtime Direct3D 11,1, qui est disponible à partir de Windows 8, permet de mapper des mémoires tampons constantes dynamiques et des vues des ressources de nuanceur (SRVs) de mémoires tampons dynamiques avec la [**carte de d3d11 \_ \_ écriture \_ sans \_ remplacement**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map). Les runtimes Direct3D 11 et versions antérieures limitent le mappage de mise à jour partielle non-remplacement aux mémoires tampons de vertex ou d’index. Pour déterminer si un périphérique Direct3D prend en charge ces fonctionnalités, appelez [**ID3D11Device :: CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) avec les [**options de d3d11 de fonctionnalités de d3d11 \_ \_ \_**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature). **CheckFeatureSupport** remplit les membres d’une structure d' [**\_ \_ \_ \_ options d3d11 des données de la fonctionnalité d3d11**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) avec les fonctionnalités de l’appareil. Les membres pertinents ici sont **MapNoOverwriteOnDynamicConstantBuffer** et **MapNoOverwriteOnDynamicBufferSRV**.
+> le runtime Direct3D 11,1, disponible à partir de Windows 8, permet de mapper des mémoires tampons constantes dynamiques et des vues des ressources de nuanceur (SRVs) de mémoires tampons dynamiques avec la [**carte de D3D11 \_ \_ sans remplacer l’écriture \_ \_**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_map). Les runtimes Direct3D 11 et versions antérieures limitent le mappage de mise à jour partielle non-remplacement aux mémoires tampons de vertex ou d’index. Pour déterminer si un périphérique Direct3D prend en charge ces fonctionnalités, appelez [**ID3D11Device :: CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) avec les [**options de d3d11 de fonctionnalités de d3d11 \_ \_ \_**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature). **CheckFeatureSupport** remplit les membres d’une structure d' [**\_ \_ \_ \_ options d3d11 des données de la fonctionnalité d3d11**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) avec les fonctionnalités de l’appareil. Les membres pertinents ici sont **MapNoOverwriteOnDynamicConstantBuffer** et **MapNoOverwriteOnDynamicBufferSRV**.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -156,9 +156,9 @@ Le mécanisme de requête asynchrone est utile pour déterminer si les vertex so
 [Comment utiliser Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

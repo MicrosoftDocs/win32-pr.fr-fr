@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Création d’une classe WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2274252715ce44b9d2b79e398c945ca723fe3f7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec2db62f1f0d14035f7bcc3fd74f8bbbfbacf08cb0dbf139b06c9870b7039e19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612559"
 ---
 # <a name="creating-a-wmi-class"></a>Création d’une classe WMI
 
@@ -25,7 +25,7 @@ Dans WMI, une classe est un objet qui décrit certains aspects d’une entrepris
 
 Une classe de base représente un concept général. Par exemple, la classe [**CIM \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/cim-cdromdrive) représente tous les types de lecteurs de CD-ROM dans WMI et contient des propriétés générales qui décrivent tous les types de lecteurs de CD-ROM. Pour plus d’informations, consultez [création d’une classe de base](creating-a-base-class.md).
 
-Une classe dérivée hérite des propriétés et des méthodes d’une autre classe. Une classe dérivée représente généralement un cas spécifique d’une classe de base. Par exemple, la classe [**Win32 \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/win32-cdromdrive) représente un lecteur de CD-ROM sur un système Windows. La classe **Win32 \_ CDROMDrive** est basée sur et hérite de nombreuses propriétés de [**CIM \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/cim-cdromdrive). Toutefois, **les \_ CDROMDrive Win32**, comme d’autres classes dérivées, peuvent avoir des propriétés supplémentaires qui rendent la classe dérivée unique. Pour plus d’informations, consultez [création d’une classe dérivée](creating-a-derived-class.md).
+Une classe dérivée hérite des propriétés et des méthodes d’une autre classe. Une classe dérivée représente généralement un cas spécifique d’une classe de base. par exemple, la classe [**Win32 \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/win32-cdromdrive) représente un lecteur de CD-rom sur un système Windows. La classe **Win32 \_ CDROMDrive** est basée sur et hérite de nombreuses propriétés de [**CIM \_ CDROMDrive**](/windows/desktop/CIMWin32Prov/cim-cdromdrive). Toutefois, **les \_ CDROMDrive Win32**, comme d’autres classes dérivées, peuvent avoir des propriétés supplémentaires qui rendent la classe dérivée unique. Pour plus d’informations, consultez [création d’une classe dérivée](creating-a-derived-class.md).
 
 ## <a name="properties-and-methods"></a>Propriétés et méthodes
 

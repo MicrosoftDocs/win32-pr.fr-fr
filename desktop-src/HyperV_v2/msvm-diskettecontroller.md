@@ -61,12 +61,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f1e4e731464e25dc8e871ebd17cdcddd4e262673
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78e2800724954c5acdb396c88d8c042159cb9ce20c3d540d520d6197ddae81d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525339"
 ---
 # <a name="msvm_diskettecontroller-class"></a>MSVM \_ DisketteController, classe
 
@@ -144,7 +144,7 @@ La classe **MSVM \_ DisketteController** possède ces méthodes.
 | **OnlineDevice**                                                         | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                        | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-diskettecontroller-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-diskettecontroller-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
+| [**Initialisation**](msvm-diskettecontroller-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
 | **RestoreProperties**                                                    | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                       | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                        | Cette méthode n'est pas prise en charge.<br/> |
@@ -856,7 +856,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ DisketteController** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -866,8 +866,8 @@ L’accès à la classe **MSVM \_ DisketteController** peut être limité par le
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -884,7 +884,7 @@ L’accès à la classe **MSVM \_ DisketteController** peut être limité par le
 [**\_Contrôleur CIM**](/windows/desktop/CIMWin32Prov/cim-controller)
 </dt> <dt>
 
-[Classes de stockage](storage-classes.md)
+[Stockage Catégories](storage-classes.md)
 </dt> </dl>
 
  

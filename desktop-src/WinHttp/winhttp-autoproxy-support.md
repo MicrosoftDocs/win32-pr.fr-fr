@@ -4,12 +4,12 @@ ms.assetid: f766f37b-a1aa-420f-ac3b-d03485630d88
 title: Prise en charge d’AutoProxy WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26584bd0b1809f3866ed42adc7198275f40f991c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0f6a07645fd7d8bcd401bf399d2a9f525499c4d3a725e49b9d170c067092f70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614079"
 ---
 # <a name="winhttp-autoproxy-support"></a>Prise en charge d’AutoProxy WinHTTP
 
@@ -19,7 +19,7 @@ Pour faciliter la configuration des paramètres de proxy, WinHTTP 5,1 implément
 
 Les applications et les composants qui utilisent WinHTTP pour envoyer des requêtes HTTP doivent s’assurer que la configuration du proxy est correctement définie. À moins que le client dispose d’une connexion Internet directe, une requête HTTP doit normalement être envoyée via un serveur proxy Web qui connecte le réseau local du client à Internet (par exemple, c’est souvent le cas pour les clients Web sur un réseau local d’entreprise). Pour les applications basées sur un serveur, la configuration du proxy est normalement gérée par l’administrateur du serveur à l’aide de l’utilitaire de ProxyCfg.exe WinHTTP. L’administrateur du serveur connaît le nom du serveur proxy à l’avance et utilise ProxyCfg.exe pour enregistrer ce paramètre dans le registre où WinHTTP peut le Rechercher. Toutefois, le fait de demander aux utilisateurs finaux du bureau client de configurer manuellement les paramètres de proxy WinHTTP pose problème. L’utilisateur final peut ne pas connaître le nom du serveur proxy ; demander à l’utilisateur final d’exécuter l’utilitaire de ProxyCfg.exe peut être une charge de support pour une organisation. Pour prendre en charge une expérience utilisateur optimale, une application cliente Web doit déterminer la configuration du proxy sans intervention de l’utilisateur.
 
-Pour faciliter la configuration des paramètres de proxy pour les applications basées sur WinHTTP, WinHTTP implémente désormais le [protocole WPAD (Web Proxy Auto-Discovery)](https://tools.ietf.org/html/draft-ietf-wrec-wpad-01), souvent appelé « *proxy* automatique ». Il s’agit du même protocole que celui que les navigateurs Web implémentent pour découvrir automatiquement la configuration du proxy sans obliger l’utilisateur final à spécifier un serveur proxy manuellement. Cette fonctionnalité est disponible à partir de la version 5,1 de WinHTTP dans Windows 2000 Service Pack 3, Windows XP Service Pack 1 et Windows Server 2003. Notez que, bien que Microsoft Internet Explorer et Microsoft WinHTTP prennent en charge WPAD, la spécification n’a jamais progressé au-delà de la phase « Internet-Draft » et a expiré le 2001 mai.
+Pour faciliter la configuration des paramètres de proxy pour les applications basées sur WinHTTP, WinHTTP implémente désormais le [protocole WPAD (Web Proxy Auto-Discovery)](https://tools.ietf.org/html/draft-ietf-wrec-wpad-01), souvent appelé « *proxy* automatique ». Il s’agit du même protocole que celui que les navigateurs Web implémentent pour découvrir automatiquement la configuration du proxy sans obliger l’utilisateur final à spécifier un serveur proxy manuellement. cette fonctionnalité est disponible à partir de la version 5,1 de WinHTTP dans Windows 2000 service pack 3, Windows XP service pack 1 et Windows Server 2003. Notez que, bien que Microsoft Internet Explorer et Microsoft WinHTTP prennent en charge WPAD, la spécification n’a jamais progressé au-delà de la phase « Internet-Draft » et a expiré le 2001 mai.
 
 Le protocole WPAD fonctionne comme suit :
 

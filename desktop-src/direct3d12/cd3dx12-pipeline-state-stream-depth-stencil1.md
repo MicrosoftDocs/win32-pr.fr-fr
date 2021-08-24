@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee95e9e37ad1dfced119848c76f071564aaa9435
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f04064a7ab4a7ca100e48da2446501d4415b693ce6abdf213f121952cc8f198
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632526"
 ---
 # <a name="cd3dx12_pipeline_state_stream_depth_stencil1-structure"></a>\_ \_ \_ \_ Structure STENCIL1 de profondeur du flux d’État du pipeline CD3DX12 \_
 
@@ -72,7 +72,7 @@ Conversion implicite en [**structure \_ \_ \_ DESC1 du stencil de profondeur CD3
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_ \_ \_ \_ La profondeur du flux d’État du pipeline CD3DX12 \_ STENCIL1 est une spécialisation typedef du modèle de sous- [**objet de flux d' \_ \_ état \_ \_ du pipeline CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) et est définie comme suit :
 

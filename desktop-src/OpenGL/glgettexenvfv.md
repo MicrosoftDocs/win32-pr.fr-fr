@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36d542461b05a824c78bbad82d843735289f2fb4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 14b9b294879711662c67f9ab581e89eaadfa620363e1d19e93f7ea686ba7453a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493869"
 ---
 # <a name="glgettexenvfv-function"></a>glGetTexEnvfv fonction)
 
@@ -84,14 +84,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *target* ou *pname* n’est pas une valeur acceptée.<br/>                                                                             |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGetTexEnv** retourne dans *params* les valeurs sélectionnées d’un environnement de texture qui a été spécifié avec [**glTexEnv**](gltexenv-functions.md). Le paramètre *target* spécifie un environnement de texture. Actuellement, un seul environnement de texture est défini et pris en charge : la \_ texture GL \_ env.
 

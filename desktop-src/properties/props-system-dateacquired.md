@@ -4,16 +4,16 @@ ms.assetid: 7c673d21-5243-4e41-91df-c5d84aaf620a
 title: System. DateAcquired
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a85f36df252202c319e90460807e16fefa3d559a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1a78ae9ccfe938551ab6c4a265972e48c3aad1c1791f02cfa933c583c6d4b0d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599179"
 ---
 # <a name="systemdateacquired"></a>System. DateAcquired
 
-Date d’acquisition du fichier ou du support. Cette propriété est liée à un utilisateur ou à un groupe d’utilisateurs particulier. Par exemple, ces données sont utilisées comme axe de tri principal pour le dossier virtuel **New Music**, ce qui permet aux utilisateurs de parcourir les derniers ajouts à leur collection.
+Date d’acquisition du fichier ou du support. Cette propriété est liée à un utilisateur ou à un groupe d’utilisateurs particulier. par exemple, ces données sont utilisées comme axe de tri principal pour le dossier virtuel **New Musique**, ce qui permet aux utilisateurs de parcourir les derniers ajouts à leur collection.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -44,7 +44,7 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

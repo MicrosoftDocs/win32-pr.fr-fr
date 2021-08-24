@@ -4,12 +4,12 @@ ms.assetid: b4a8defc-876f-4a23-a12e-e7423a1e8f89
 title: Mappage d’environnement sphérique (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9b0e7aaa123478ecc7cc327dca0b13a8aae3d0c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6be4347b71a041aaa8d7057ac2bb7523bfa235fe59f84fe1ba54c54283cd2159
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106529094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746385"
 ---
 # <a name="spherical-environment-mapping-direct3d-9"></a>Mappage d’environnement sphérique (Direct3D 9)
 
@@ -17,7 +17,7 @@ Les cartes d’environnement sphériques, ou cartes de sphère, sont des texture
 
 ![illustration d’une carte de sphère de l’intérieur d’une construction](images/spheremap.png)
 
-## <a name="texture-coordinates-for-spherical-environment-maps"></a>Coordonnées de texture pour les cartes d’environnement sphériques
+## <a name="texture-coordinates-for-spherical-environment-maps"></a>coordonnées de Texture pour l’environnement sphérique Cartes
 
 Les coordonnées de texture que vous spécifiez pour chaque vertex recevant un mappage d’environnement doivent traiter la texture comme une fonction de la distorsion réfléchissante créée par la courbure de la surface. Les applications doivent calculer ces coordonnées de texture pour chaque vertex pour obtenir l’effet souhaité. Une façon simple et efficace de générer des coordonnées de texture utilise le vertex normal comme entrée. Bien que plusieurs méthodes existent, l’équation suivante est courante parmi les applications qui effectuent le mappage d’environnement avec les cartes de sphère.
 
@@ -27,7 +27,7 @@ Dans ces formules, vous et v sont les coordonnées de texture calculées, et N<s
 
 Si les points normaux se trouvent directement à l’appareil photo, les coordonnées résultantes ne doivent pas recevoir de distorsions. Le décalage + 0,5 vers les deux coordonnées place le point de distorsion zéro au centre de la carte de sphère, et la normale au sommet de (0, 0, z) résout ce point. Cette formule n’est pas prise en compte pour le composant z de la normale, mais les applications qui utilisent la formule peuvent optimiser les calculs en ignorant les vertex avec un normal qui a un élément z positif. Cela fonctionne pour les objets à ombrage constant, car, dans l’espace de l’appareil photo, si les points normaux s’éloignent de l’appareil photo (z positif), le sommet est éliminé lors du rendu de l’objet. Pour les objets ombrés Gouraud, un normal peut pointer à distance de l’appareil photo (x positif) et le triangle contenant le sommet peut encore être visible. Si vous ne Calculez pas et v pour ce vertex, la face peut encore être utilisée, ce qui entraîne un comportement inattendu.
 
-## <a name="applying-spherical-environment-maps"></a>Application de cartes d’environnement sphériques
+## <a name="applying-spherical-environment-maps"></a>application d’un Cartes d’environnement sphérique
 
 Vous appliquez un mappage d’environnement aux objets de la même façon que pour toute autre texture, en affectant à la texture l’étape de texture appropriée à l’aide de la méthode [**IDirect3DDevice9 :: SetTexture**](/windows/desktop/api) . Définissez le premier paramètre sur l’index de l’étape de texture souhaitée, puis définissez le deuxième paramètre sur l’adresse de l’interface [**IDirect3DDevice9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3ddevice9) retournée lorsque vous avez créé la texture de la carte d’environnement. Vous pouvez définir les opérations et les arguments de fusion alpha et de couleur si nécessaire pour obtenir les effets de fusion de texture souhaités.
 

@@ -18,16 +18,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af9487750b67fc133f4b15f15050a74638f3d0f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e0ba8d56ad09f7c8263e41b17d2e107a0a441408d22ffb604e95055c57fb21d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472099"
 ---
 # <a name="ivmharddiskparent-property"></a>IVMHardDisk ::P propriété rente
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère et définit le parent du disque dur virtuel de différenciation.
 
@@ -70,7 +70,7 @@ Définit l’objet [**IVMHardDisk**](ivmharddisk.md) associé à l’image de di
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est valide uniquement avec les images de disque dur de différenciation.
 
@@ -80,7 +80,7 @@ Cette propriété est valide uniquement avec les images de disque dur de différ
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

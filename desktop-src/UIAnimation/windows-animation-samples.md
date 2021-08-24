@@ -1,21 +1,21 @@
 ---
-title: Exemples d’animation Windows
-description: Les rubriques contenues dans cette section fournissent des détails sur les exemples de code qui prennent en charge la documentation du gestionnaire d’animations Windows.
+title: Windows Exemples d’animation
+description: les rubriques contenues dans cette section fournissent des détails sur les exemples de code qui prennent en charge la documentation du gestionnaire d’animations Windows.
 ms.assetid: 33b1770a-5acb-4ab5-999c-9663f4c075f0
 keywords:
-- Animation Windows Animation Windows, exemples
+- Windows animation Windows animation, exemples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2fe31e7fa12feab010bec3da710d4b2b80dd1d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c9119ab7333f1f5d74b9be9998ad26b36139f9a92d88fec856d3f4572d12f431
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656149"
 ---
-# <a name="windows-animation-samples"></a>Exemples d’animation Windows
+# <a name="windows-animation-samples"></a>Windows Exemples d’animation
 
-Les rubriques contenues dans cette section fournissent des détails sur les exemples de code qui prennent en charge la documentation du gestionnaire d’animations Windows.
+les rubriques contenues dans cette section fournissent des détails sur les exemples de code qui prennent en charge la documentation du gestionnaire d’animations Windows.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -25,9 +25,9 @@ Les rubriques contenues dans cette section fournissent des détails sur les exem
 |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [Exemple d’animation pilotée par les applications](application-driven-animation-sample.md)<br/> |                                                                                                                     |
 | [Exemple d’animation pilotée par minuterie](timer-driven-animation-sample.md)<br/>             |                                                                                                                     |
-| [Exemple d’interpolateur personnalisé](custom-interpolator-sample.md)<br/>                   | Montre comment utiliser l’animation Windows avec votre propre interpolateur personnalisé, avec Direct2D utilisé pour le rendu. <br/> |
-| [Exemple de disposition en grille](grid-layout-sample.md)<br/>                                   | Montre comment utiliser l’animation Windows, à l’aide de Direct2D pour animer une grille d’images. <br/>                         |
-| [Exemple de comparaison de priorité](priority-comparison-sample.md)<br/>                   | Montre comment utiliser l’animation Windows avec votre propre comparaison de priorité, à l’aide de Direct2D pour le rendu.<br/>      |
+| [Exemple d’interpolateur personnalisé](custom-interpolator-sample.md)<br/>                   | montre comment utiliser Windows Animation avec votre propre interpolateur personnalisé, avec Direct2D utilisé pour le rendu. <br/> |
+| [Exemple de disposition en grille](grid-layout-sample.md)<br/>                                   | montre comment utiliser Windows Animation, à l’aide de Direct2D pour animer une grille d’images. <br/>                         |
+| [Exemple de comparaison de priorité](priority-comparison-sample.md)<br/>                   | montre comment utiliser Windows Animation avec votre propre comparaison de priorité, à l’aide de Direct2D pour le rendu.<br/>      |
 
 
 
@@ -92,10 +92,10 @@ Crée des variables d’animation et restitue des miniatures.
 
 <dl> <dt>
 
-[Guide de développement d’animation Windows](windows-animation-developer-guide.md)
+[Windows Guide de développement d’animation](windows-animation-developer-guide.md)
 </dt> <dt>
 
-[Informations de référence sur les animations Windows](windows-animation-reference.md)
+[Windows Référence d’animation](windows-animation-reference.md)
 </dt> </dl>
 
  

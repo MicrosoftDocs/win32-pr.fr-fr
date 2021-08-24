@@ -4,16 +4,16 @@ ms.assetid: 5597284a-9cc6-422b-a064-cda25aa5964b
 title: 'ITConnection :: get_NetworkType, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31189ec0e3b42e3ed249cd0c62365b1f8c793908
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d323d7465563d0a0d400c930585c2c0df002cedfae252d205d53aea8040f337
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660329"
 ---
 # <a name="itconnectionget_networktype-method"></a>ITConnection :: \_ NetworkType, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ NetworkType** obtient le type de réseau.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire allouée pour le paramètre *ppNetworkType* .
 

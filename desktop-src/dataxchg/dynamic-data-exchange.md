@@ -1,29 +1,29 @@
 ---
 title: échange dynamique de données
-description: Cette section fournit des instructions pour l’implémentation de l’échange dynamique de données pour les applications qui ne peuvent pas utiliser la bibliothèque de gestion des échange dynamique de données (DDEML).
+description: cette section fournit des instructions pour l’implémentation de l’échange dynamique de données pour les applications qui ne peuvent pas utiliser la bibliothèque de gestion des échange dynamique de données (DDEML).
 ms.assetid: vs|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange.htm
 keywords:
-- Échange dynamique de données (DDE), à propos de
+- échange dynamique de données (DDE), à propos de
 - DDE (échange dynamique de données), à propos de
 - échange de données, échange dynamique de données (DDE)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91d5fa52078c2fa1d2e67a74d019535c801c4c96
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4db58f1027f0dfaacf28c4b2ec8d4208747929b0d40ca55d7d377831777f78a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678039"
 ---
 # <a name="dynamic-data-exchange"></a>échange dynamique de données
 
-Cette section fournit des instructions pour l’implémentation de l’échange dynamique de données pour les applications qui ne peuvent pas utiliser la bibliothèque de gestion des échange dynamique de données (DDEML). Pour plus d’informations sur DDEML, consultez [bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md).
+cette section fournit des instructions pour l’implémentation de l’échange dynamique de données pour les applications qui ne peuvent pas utiliser la bibliothèque de gestion des échange dynamique de données (DDEML). pour plus d’informations sur DDEML, consultez [bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md).
 
 ### <a name="overviews"></a>Vues d'ensemble
 
 
 
-| Nom                                                           | Description                                                        |
+| Name                                                           | Description                                                        |
 |----------------------------------------------------------------|--------------------------------------------------------------------|
 | [À propos de échange dynamique de données](about-dynamic-data-exchange.md) | Décrit le transfert de données entre les applications.<br/>       |
 | [Utilisation de échange dynamique de données](using-dynamic-data-exchange.md) | Fournit des exemples de code relatifs à l’échange dynamique de données.<br/> |
@@ -37,9 +37,9 @@ Cette section fournit des instructions pour l’implémentation de l’échange 
 
 
 
-| Nom                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Name                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice)         | Spécifie la qualité de service (QOS) qu’une application de échange dynamique de données brute désire pour les futures conversations DDE qu’elle initialise. La qualité de service spécifiée s’applique à toutes les conversations démarrées pendant que ces paramètres sont en place. La qualité de service d’une conversation DDE dure pour la durée de la conversation ; les appels à la fonction [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice) pendant une conversation n’affectent pas la qualité de service de cette conversation. <br/> |
+| [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice)         | spécifie la qualité de service (QOS) qu’une application de échange dynamique de données brute désire pour les futures conversations DDE qu’elle initialise. La qualité de service spécifiée s’applique à toutes les conversations démarrées pendant que ces paramètres sont en place. La qualité de service d’une conversation DDE dure pour la durée de la conversation ; les appels à la fonction [**DdeSetQualityOfService**](/windows/desktop/api/Dde/nf-dde-ddesetqualityofservice) pendant une conversation n’affectent pas la qualité de service de cette conversation. <br/> |
 | [**FreeDDElParam**](/windows/desktop/api/Dde/nf-dde-freeddelparam)                           | Libère la mémoire spécifiée par le paramètre *lParam* d’un message DDE publié. Une application recevant un message DDE publié doit appeler cette fonction après avoir utilisé la fonction [**UnpackDDElParam**](/windows/desktop/api/Dde/nf-dde-unpackddelparam) pour décompresser la valeur *lParam* . <br/>                                                                                                                                                                                                     |
 | [**ImpersonateDdeClientWindow**](/windows/desktop/api/Dde/nf-dde-impersonateddeclientwindow) | Permet à une application de serveur DDE d’emprunter l’identité du contexte de sécurité d’une application cliente DDE. Cela protège les données du serveur sécurisé contre les clients DDE non autorisés. <br/>                                                                                                                                                                                                                                                                                                      |
 | [**PackDDElParam**](/windows/desktop/api/Dde/nf-dde-packddelparam)                           | Compresse une valeur *lParam* DDE dans une structure interne utilisée pour partager des données DDE entre des processus.<br/>                                                                                                                                                                                                                                                                                                                                                                 |
@@ -54,7 +54,7 @@ Cette section fournit des instructions pour l’implémentation de l’échange 
 
 
 
-| Nom                                         | Description                                                                                                                                                                                                                                                                                      |
+| Name                                         | Description                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_lancement de DDE de WM \_**](wm-dde-initiate.md) | Lance une conversation avec une application serveur qui répond aux noms d’application et de rubrique spécifiés. Lors de la réception de ce message, toutes les applications serveur avec des noms qui correspondent à l’application spécifiée et qui prennent en charge la rubrique spécifiée sont censées la reconnaître.<br/> |
 
@@ -66,7 +66,7 @@ Cette section fournit des instructions pour l’implémentation de l’échange 
 
 
 
-| Nom                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Name                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_ACK DDE \_ ACK**](wm-dde-ack.md)             | Nnotifies une application DDE de la réception et du traitement des messages suivants : [**WM \_ DDE \_**](wm-dde-poke.md)en cours [**d' \_ \_ exécution, Execute DDE Execute**](wm-dde-execute.md), [**WM DDE \_ \_ Data**](wm-dde-data.md), [**WM \_ DDE \_ readvit**](wm-dde-advise.md), [**WM \_ DDE \_ unadvi**](wm-dde-unadvise.md), [**WM \_ DDE \_ initiate**](wm-dde-initiate.md)ou [**WM DDE \_ \_ Request**](wm-dde-request.md) (dans certains cas). <br/> |
 | [**\_avis DDE \_ WM**](wm-dde-advise.md)       | Une application cliente DDE publie le message de [**\_ \_ notification**](wm-dde-advise.md) de l’échange de données (DDE) WM dans une application de serveur DDE pour demander au serveur de fournir une mise à jour pour un élément de données à chaque modification de l’élément. <br/>                                                                                                                                                                                                              |
@@ -85,7 +85,7 @@ Cette section fournit des instructions pour l’implémentation de l’échange 
 
 
 
-| Nom                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Name                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DDEACK**](/windows/desktop/api/Dde/ns-dde-ddeack)       | Contient des indicateurs d’État qu’une application DDE transmet à son partenaire dans le cadre du message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE de WM. Les indicateurs fournissent des détails sur la réponse de l’application aux messages [**WM \_ DDE \_ Data**](wm-dde-data.md), [**WM \_ DDE \_**](wm-dde-poke.md)en action, [**WM DDE \_ \_ EXECUTe**](wm-dde-execute.md), [**WM \_ DDE \_ readvi**](wm-dde-advise.md), [**WM \_ DDE \_ Unadvise**](wm-dde-unadvise.md)et une [**\_ \_ demande DDE**](wm-dde-request.md)WM. <br/> |
 | [**DDEADVISE**](/windows/desktop/api/Dde/ns-dde-ddeadvise) | Contient des indicateurs qui spécifient comment une application de serveur DDE doit envoyer des données à une application cliente pendant une boucle de notification. Un client transmet un handle à une structure [**DDEADVISE**](/windows/desktop/api/Dde/ns-dde-ddeadvise) à un serveur dans le cadre d’un message de [**\_ \_ notification**](wm-dde-advise.md) de l’échange de messages. <br/>                                                                                                                                                                                               |

@@ -3,7 +3,7 @@ title: AmbientAttributes.resizeImages
 description: L’attribut resizeImages spécifie ou récupère une valeur indiquant si les images contenues dans le contrôle sont redimensionnées automatiquement lorsque la taille du contrôle change.
 ms.assetid: b5dab857-ad13-4be4-9fc2-c3534f2d9a84
 keywords:
-- Lecteur Windows Media AmbientAttributes. resizeImages
+- AmbientAttributes. resizeImages Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3a12ef91cced8051e867389abcd750b5cbb8ecb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 070d075ef51059c05b7aa6f962a21f47632704c7ce217c370a92a5ec49568f33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119469929"
 ---
 # <a name="ambientattributesresizeimages"></a>AmbientAttributes.resizeImages
 

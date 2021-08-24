@@ -4,12 +4,12 @@ description: Les ressources en mosaïque sont nécessaires afin que la mémoire 
 ms.assetid: E2179D65-56D3-481F-A5F3-B9C45A11A179
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d42ccccf66a73d224d8bab9a9d10c87cc330be43
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 502c2da8602cb0b2026ea8360c88388c18d37598d5672f547659cc6ea93e78e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631939"
 ---
 # <a name="why-are-tiled-resources-needed"></a>Pourquoi les ressources en mosaïque sont-elles nécessaires ?
 
@@ -40,6 +40,6 @@ Un autre scénario pouvant être fourni par des ressources en mosaïque permet �
 [Ressources en mosaïque](tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

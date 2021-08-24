@@ -1,27 +1,27 @@
 ---
 title: Exemple de redirection du Registre sur WOW64
-description: L’exemple de code suivant illustre les vues distinctes du Registre fournies par le redirecteur du Registre sur Windows 64 bits.
+description: L’exemple de code suivant illustre les vues distinctes du Registre fournies par le redirecteur de Registre sur l’Windows 64 bits.
 ms.assetid: b3ca2a47-402d-4e91-88bc-ddda6c776468
 keywords:
-- exemples de programmation Windows de 64 bits
-- Guide de programmation Windows 64 bits exemples de programmation Windows 64 bits
-- Guide de programmation Windows 64 bits exemples de programmation Windows 64 bits, redirection de Registre sur WOW64
-- exemple de redirection de Registre, programmation Windows 64 bits
-- Guide de programmation Windows 64 bits, programmation Windows 64 bits, exemples voir Guide de programmation Windows 64 bits exemples
+- exemples de programmation de Windows bits 64
+- guide de programmation Windows de 64 bits exemples de programmation 64 bits Windows
+- guide de programmation Windows de 64 bits exemples 64-bit Windows programmation, redirection de registre sur WOW64
+- exemple de redirection du registre 64-bit Windows programmation
+- 64-bit Windows guide de programmation 64 bits Windows programmation, exemples consultez 64-bit guide de programmation Windows exemples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff37b077137e9802e6716319623fe8e372941500
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: 83428edb31e53bdd1c70825c7fa5a4d799a36536fa9c17f9ce1c4587ab096048
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "104383148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680228"
 ---
 # <a name="example-of-registry-redirection-on-wow64"></a>Exemple de redirection du Registre sur WOW64
 
-L’exemple de code suivant illustre les vues distinctes du Registre fournies par le redirecteur du Registre sur Windows 64 bits. Il montre également comment les valeurs des clés sont définies selon qu’une clé est partagée ou redirigée. Pour plus d’informations, consultez [clés de Registre affectées par WOW64](shared-registry-keys.md).
+L’exemple de code suivant illustre les vues distinctes du Registre fournies par le redirecteur de Registre sur l’Windows 64 bits. Il montre également comment les valeurs des clés sont définies selon qu’une clé est partagée ou redirigée. Pour plus d’informations, consultez [clés de Registre affectées par WOW64](shared-registry-keys.md).
 
-Compilez le code suivant séparément pour les fenêtres 32 bits et 64 bits. Exécutez chaque fichier exécutable résultant sur Windows 64 bits et comparez la sortie. L’exemple de sortie pour les deux versions est indiqué sous le code source.
+Compilez le code suivant séparément pour les Windows 32 bits et 64 bits. exécutez chaque fichier exécutable résultant sur l’Windows 64 bits et comparez la sortie. L’exemple de sortie pour les deux versions est indiqué sous le code source.
 
 
 ```C++
@@ -250,7 +250,7 @@ main()
 
 Quand la version 64 bits de l’exemple est exécutée, elle génère la sortie suivante. Les valeurs des vues par défaut et secondaires de **HKCR \\ Hello** sont les mêmes, car cette clé est partagée. Les valeurs des autres clés diffèrent, car elles sont redirigées.
 
-**Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Lorsque cet exemple est exécuté sur ces systèmes d’exploitation, les vues par défaut et secondaires de la clé LocalServer32 ont la même valeur. Cela est dû au fait que la clé LocalServer32 est redirigée et *réfléchie*, ce qui entraîne la synchronisation de sa valeur entre les vues 64 bits et 32 bits du Registre dès que le handle de la clé est fermé. La réflexion du registre a été supprimée à partir de Windows 7. Pour plus d’informations, consultez [Registry Reflection](registry-reflection.md).
+**Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Lorsque cet exemple est exécuté sur ces systèmes d’exploitation, les vues par défaut et secondaires de la clé LocalServer32 ont la même valeur. Cela est dû au fait que la clé LocalServer32 est redirigée et *réfléchie*, ce qui entraîne la synchronisation de sa valeur entre les vues 64 bits et 32 bits du Registre dès que le handle de la clé est fermé. la réflexion du registre a été supprimée à partir de Windows 7. Pour plus d’informations, consultez [Registry Reflection](registry-reflection.md).
 
 ``` syntax
 Application string: Hello! 64-bit World
@@ -315,9 +315,9 @@ Pour examiner l’effet de l’exécution de cet exemple avec regedit, examinez 
 [Réflexion du Registre](registry-reflection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

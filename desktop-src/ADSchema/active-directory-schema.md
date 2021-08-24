@@ -7,12 +7,12 @@ keywords:
 - Schéma Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b4c3393a6da1b8d1bd2c2418084c8f7fc657732
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3259bf94049c877bb57cd575061cc1b447b8acb352613291e392b074deca6d39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702399"
 ---
 # <a name="active-directory-schema-ad-schema"></a>Schéma de Active Directory (schéma Active Directory)
 
@@ -38,7 +38,7 @@ Dans chacune des rubriques de référence, il existe une section pour chaque sys
 
  
 
-Si un système d’exploitation n’est pas listé dans la rubrique, la rubrique n’est pas prise en charge sur ce système d’exploitation. Par exemple, si une rubrique ne répertorie que Windows Server 2003 et ADAM, la rubrique ne s’applique pas à Windows Server 2003 R2.
+Si un système d’exploitation n’est pas listé dans la rubrique, la rubrique n’est pas prise en charge sur ce système d’exploitation. par exemple, si une rubrique répertorie uniquement Windows serveur 2003 et ADAM, la rubrique ne s’applique pas à Windows server 2003 R2.
 
 Les sections suivantes contiennent des informations détaillées sur les éléments de schéma Active Directory.
 

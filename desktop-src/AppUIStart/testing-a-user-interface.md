@@ -1,22 +1,22 @@
 ---
 title: Test d’une interface utilisateur
-description: Cette section décrit en détail certaines des tâches associées au test d’une interface utilisateur pour une application Windows.
+description: cette section décrit en détail certaines des tâches associées au test d’une interface utilisateur pour une application Windows.
 ms.assetid: d628e530-7a0b-4a8d-9a9f-253aec275fa9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2e86282c03502642541c0ea1318b8ccaf6d16b2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 17f3d6686cdcd892aa5608944cf8c1a20df0d44106a0fdac01b2bbbd855fe523
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507432"
 ---
 # <a name="testing-a-user-interface"></a>Test d’une interface utilisateur
 
-Cette section décrit en détail certaines des tâches associées au test d’une interface utilisateur pour une application Windows.
+cette section décrit en détail certaines des tâches associées au test d’une interface utilisateur pour une application Windows.
 
 -   [Introduction](#introduction)
--   [Tests de la facilité d'utilisation](#usability-testing)
+-   [Test d’utilisabilité](#usability-testing)
 -   [Test d’accessibilité](#accessibility-testing)
 
 ## <a name="introduction"></a>Introduction
@@ -53,8 +53,8 @@ S’assurer qu’une application est accessible aux utilisateurs avec handicap i
 
 Le test de ces aspects d’une application peut être effectué via un audit d’accessibilité, ce qui implique une révision manuelle de l’application par un expert en accessibilité et une étude d’utilisabilité ciblée des utilisateurs désactivés et des appareils de technologie d’assistance.
 
-Bien qu’apparemment sans rapport, il existe une corrélation étroite entre les exigences d’accès par programmation des infrastructures de test automatisées et celles des appareils de technologie d’assistance. La prise en charge d’une offre l’avantage supplémentaire de l’activation de l’autre. Pour plus d’informations sur l’accessibilité et l’automatisation des tests dans les applications Windows, consultez [accessibilité](/windows/desktop/accessibility), [outils de test](/windows/desktop/WinAuto/testing-tools)et [API d’automatisation Windows](/windows/desktop/WinAuto/windows-automation-api-portal).
+Bien qu’apparemment sans rapport, il existe une corrélation étroite entre les exigences d’accès par programmation des infrastructures de test automatisées et celles des appareils de technologie d’assistance. La prise en charge d’une offre l’avantage supplémentaire de l’activation de l’autre. pour plus d’informations sur l’accessibilité et l’automatisation des tests dans les applications Windows, consultez [accessibilité](/windows/desktop/accessibility), [outils de test](/windows/desktop/WinAuto/testing-tools)et [API automation Windows](/windows/desktop/WinAuto/windows-automation-api-portal).
 
- 
+ 
 
- 
+ 

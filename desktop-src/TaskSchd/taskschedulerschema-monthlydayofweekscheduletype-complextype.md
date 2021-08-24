@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 782715aed5cbf59a98e996bfa18fdd7c1022227a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0e15a697c07de4df59f7762e4b6dc0d167b1fff8ab7477f77f5e59d6b654f7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106543057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575199"
 ---
 # <a name="monthlydayofweekscheduletype-complex-type"></a>Type complexe monthlyDayOfWeekScheduleType
 
@@ -60,8 +60,8 @@ Définit les éléments enfants et les informations de séquencement pour l’é
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

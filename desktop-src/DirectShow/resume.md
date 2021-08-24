@@ -4,17 +4,17 @@ ms.assetid: 283f5956-9e44-4474-afb9-bbd1453ec419
 title: Reprendre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eca28e0e487de4ee3ec6cc6ad307770146a801d6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8ea6799a6252c087f6bf29eabefe69c20edb31a9598175f2190ad1e4668cb996
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106530823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747089"
 ---
 # <a name="resume"></a>Reprendre
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

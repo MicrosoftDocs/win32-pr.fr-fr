@@ -4,12 +4,12 @@ description: Avant d’utiliser les fonctions WinINet, l’application doit tent
 ms.assetid: 80747c0d-5a09-4ffa-a0ca-b051b82acbf8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb44fadaf0726b81618dde19105da7517673a00
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 303567942bc94754c1f2a7735851501a4f53036dbd8059420a059a6b632576d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570199"
 ---
 # <a name="enabling-internet-functionality"></a>Activation des fonctionnalités Internet
 
@@ -37,7 +37,7 @@ L’application appelante doit fournir une chaîne qui contient le nom de l’ap
 -   Utilisez \_ \_ le proxy de type Internet Open \_ si le système sur lequel l’application s’exécute utilise un ou plusieurs serveurs proxy pour accéder à Internet. [**InternetOpen**](/windows/desktop/api/Wininet/nf-wininet-internetopena) utilise les serveurs proxy indiqués par *lpszProxyName* et contourne le proxy pour tous les noms d’hôte ou adresses IP spécifiés par *lpszProxyBypass*.
 -   Utilisez \_ \_ \_ la préconfiguration du type ouvert sur Internet pour indiquer à votre application d’extraire la configuration du Registre. C’est généralement le meilleur choix, car la plupart des applications, y compris les navigateurs Web, utilisent cette option.
 
-\_ \_ La préconfiguration de type ouvert Internet \_ examine les valeurs de Registre **ProxyEnable**, **ProxyServer** et **ProxyOverride**. Ces valeurs se trouvent sous « HKEY \_ Current \_ User \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet Settings ».
+\_ \_ La préconfiguration de type ouvert Internet \_ examine les valeurs de Registre **ProxyEnable**, **ProxyServer** et **ProxyOverride**. ces valeurs se trouvent sous « HKEY \_ CURRENT \_ USER \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet Paramètres ».
 
 Si **ProxyEnable** est égal à zéro, l’application utilise le \_ type Open Internet \_ \_ direct. Dans le cas contraire, l’application utilise \_ \_ le proxy de type ouvert Internet \_ et utilise les informations **ProxyServer** et **ProxyOverride** .
 
@@ -182,7 +182,7 @@ Pour toutes les opérations synchrones, la valeur de *dwContext* doit être déf
 Pour les sessions FTP, [**internetconnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) tente d’établir une connexion au serveur sur Internet. Pour les sessions HTTP, [**internetconnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) n’établit pas de connexion tant qu’une autre fonction n’a pas tenté d’obtenir des informations à partir du serveur.
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

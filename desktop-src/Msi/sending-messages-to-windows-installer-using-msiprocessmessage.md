@@ -1,19 +1,19 @@
 ---
 description: Les messages envoyés à l’aide de MsiProcessMessage sont les mêmes que ceux reçus par la \_ fonction de rappel du gestionnaire INSTALLUI si MsiSetExternalUI a été appelé.
 ms.assetid: ca73bd0a-6f4e-453c-9e38-14cfd602d42c
-title: Envoyer des messages à Windows Installer à l’aide de MsiProcessMessage
+title: envoyer des Messages à Windows Installer à l’aide de MsiProcessMessage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bcd8c8a704c1f4dd24763f7f47ff0d8898a95c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d1c639e45b22c2406f446ab31072ceb02ab9b3e906f5973b1436356d96f3782
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629949"
 ---
-# <a name="sending-messages-to-windows-installer-using-msiprocessmessage"></a>Envoi de messages à Windows Installer à l’aide de MsiProcessMessage
+# <a name="sending-messages-to-windows-installer-using-msiprocessmessage"></a>envoi de Messages à Windows Installer à l’aide de MsiProcessMessage
 
-Les messages envoyés à l’aide de [**MsiProcessMessage**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage) sont les mêmes que ceux reçus par la fonction de rappel du [**\_ Gestionnaire INSTALLUI**](/windows/desktop/api/Msi/nc-msi-installui_handlera) si [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) a été appelé. Dans le cas contraire, Windows Installer gère les messages. Pour plus d’informations, consultez [analyse des messages de Windows Installer](parsing-windows-installer-messages.md).
+Les messages envoyés à l’aide de [**MsiProcessMessage**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage) sont les mêmes que ceux reçus par la fonction de rappel du [**\_ Gestionnaire INSTALLUI**](/windows/desktop/api/Msi/nc-msi-installui_handlera) si [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) a été appelé. dans le cas contraire, Windows Installer gère les messages. pour plus d’informations, consultez [analyse des Messages de Windows Installer](parsing-windows-installer-messages.md).
 
 Par exemple, pour envoyer un \_ message d’erreur INSTALLMESSAGE avec l' \_ icône Mo ICONWARNING et les \_ boutons MB ABORTRETRYCANCEL :
 
@@ -30,7 +30,7 @@ Où *hInstall* est le descripteur de l’installation, fourni à une action pers
 
 Par défaut, si une \_ erreur INSTALLMESSAGE ou un \_ message INSTALLMESSAGE FATALEXIT est envoyé sans spécifier le type de bouton ou les types d’icône, MB \_ OK, aucune icône et Mo \_ DEFBUTTON1 sont utilisés.
 
-Windows Installer n’étiquette pas le bouton **abandonner** avec la chaîne « Abort » lors de l’affichage d’une MessageBox avec la \_ spécification du bouton ABORTRETRYIGNORE Mo, il étiquette plutôt le bouton avec la chaîne « Cancel ». Tous les messages d’erreur s’abstiennent d’utiliser le mot « Abort » et utilisent plutôt le mot « Cancel ».
+Windows Le programme d’installation n’étiquette pas le bouton **abandonner** avec la chaîne « Abort » lors de l’affichage d’une MessageBox avec la \_ spécification du bouton ABORTRETRYIGNORE Mo, mais il étiquette le bouton avec la chaîne « Cancel ». Tous les messages d’erreur s’abstiennent d’utiliser le mot « Abort » et utilisent plutôt le mot « Cancel ».
 
 Le paramètre *hRecord* de la fonction [**MsiProcessMessage**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage) dépend du type de message envoyé au [**MsiProcessMessage**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage). La liste suivante détaille les spécifications de l’enregistrement par rapport au type de message :
 
@@ -218,7 +218,7 @@ L’enregistrement FILESINUSE est un enregistrement de longueur variable.
 
  
 
-Par exemple, pour envoyer un message FilesInUse indiquant que deux fichiers sont en cours d’utilisation, red.exe et blue.exe, l’enregistrement contient quatre champs plus le champ 0. Le format de l’enregistrement est comme indiqué dans le tableau suivant. Cet exemple requiert Windows Installer version 4,0.
+Par exemple, pour envoyer un message FilesInUse indiquant que deux fichiers sont en cours d’utilisation, red.exe et blue.exe, l’enregistrement contient quatre champs plus le champ 0. Le format de l’enregistrement est comme indiqué dans le tableau suivant. cet exemple requiert Windows Installer version 4,0.
 
 **Windows Installer la version 3,1 et les versions antérieures :** Dans l’exemple suivant, les champs 2 et 4 doivent contenir les PID des processus contenant red.exe et blue.exe en cours d’utilisation.
 
@@ -237,7 +237,7 @@ Par exemple, pour envoyer un message FilesInUse indiquant que deux fichiers sont
  
 
 > [!Note]  
-> Sur Windows Installer version 4,0, si le PID passé à partir du service n’a pas de titre de fenêtre, tel qu’une application de barre d’état système, le fichier ne s’affiche pas et le journal détaillé contient les messages suivants.
+> sur Windows Installer version 4,0, si le PID passé à partir du service n’a pas de titre de fenêtre, tel qu’une application de barre d’état système, le fichier ne s’affiche pas et le journal détaillé contient les messages suivants.
 
  
 
@@ -248,7 +248,7 @@ No window with title could be found for FilesInUse
 
 INSTALLMESSAGE \_ RESOLVESOURCE
 
-L' \_ enregistrement INSTALLMESSAGE RESOLVESOURCE contient sept champs. Pour \_ que INSTALLMESSAGE RESOLVESOURCE fonctionne correctement, un gestionnaire d’interface utilisateur externe peut ne pas gérer le \_ message INSTALLMESSAGE RESOLVESOURCE. Windows Installer devez gérer le \_ message INSTALLMESSAGE RESOLVESOURCE. Autrement dit, le gestionnaire d’interface utilisateur externe retourne 0 pour indiquer « aucune action effectuée » lors du filtrage du \_ message INSTALLMESSAGE RESOLVESOURCE. La meilleure pratique consiste à éviter d’envoyer un message RESOLVESOURCE.
+L' \_ enregistrement INSTALLMESSAGE RESOLVESOURCE contient sept champs. Pour \_ que INSTALLMESSAGE RESOLVESOURCE fonctionne correctement, un gestionnaire d’interface utilisateur externe peut ne pas gérer le \_ message INSTALLMESSAGE RESOLVESOURCE. Windows Le programme d’installation doit gérer le \_ message INSTALLMESSAGE RESOLVESOURCE. Autrement dit, le gestionnaire d’interface utilisateur externe retourne 0 pour indiquer « aucune action effectuée » lors du filtrage du \_ message INSTALLMESSAGE RESOLVESOURCE. La meilleure pratique consiste à éviter d’envoyer un message RESOLVESOURCE.
 
 
 

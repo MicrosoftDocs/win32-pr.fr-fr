@@ -6,12 +6,12 @@ keywords:
 - effet de rotation de la teinte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 525dbe8fc94377080fbae34b80252c84c05073ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 531ab9b1649db96bc5ee100df98ed10b4021b506e3ad71bb426778655348b2df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104554878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569126"
 ---
 # <a name="hue-rotatation-effect"></a>Effet de rotation de la teinte
 
@@ -22,7 +22,7 @@ Le CLSID de cet effet est CLSID \_ D2D1HueRotation.
 -   [Exemple d’image](#example-image)
 -   [Propriétés d’effet](#effect-properties)
 -   [Bitmap de sortie](#output-bitmap)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -34,7 +34,7 @@ L’exemple ci-dessous montre les images d’entrée et de sortie de l’effet d
 | Avant                                                       |
 |--------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)   |
-| After                                                        |
+| Après                                                        |
 | ![image après la transformation.](images/17-huerotation.png) |
 
 
@@ -84,8 +84,8 @@ La taille de la bitmap de sortie est la même que la taille de la bitmap d’ent
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

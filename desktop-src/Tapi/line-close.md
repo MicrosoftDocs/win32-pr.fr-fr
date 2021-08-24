@@ -4,12 +4,12 @@ ms.assetid: f254e331-d574-4fa7-8447-6e4535d3d773
 title: Message LINE_CLOSE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7f4fde53d1017b2dcd9fe4ea833803055d9f2dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 68fec993987bfc3ca36099d90eed2beadde9a749f965a36ebb6c513c210f387b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682399"
 ---
 # <a name="line_close-message"></a>Message de fermeture de ligne \_
 
@@ -65,7 +65,7 @@ Inutilisé.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message de **\_ fermeture de ligne** est envoyé à toute application uniquement après que le fournisseur de services TAPI (TSP) a fermé de force une ligne ouverte. Si la ligne peut ou non être rouverte immédiatement après une fermeture forcée, elle est spécifique à l’appareil.
 

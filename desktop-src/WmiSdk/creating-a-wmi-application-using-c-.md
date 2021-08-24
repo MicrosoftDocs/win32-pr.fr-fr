@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Création d’une application WMI à l’aide de C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baaa4f7e79828b2cb6cb496254d906182ff611ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fc68bfb9b7c17967de3142c3e431b51fc340a32acfb94484030e8fe744bf067
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612399"
 ---
 # <a name="creating-a-wmi-application-using-c"></a>Création d’une application WMI à l’aide de C++
 
-Pour créer une application pour WMI à l’aide de C++ : vous devez initialiser COM, accéder aux protocoles WMI et les définir, et effectuer un nettoyage manuel. Toutefois, C++ présente l’avantage de la flexibilité et de la puissance. Par conséquent, bien que vous soyez mieux servi à utiliser Visual Basic Scripting Edition (VBScript) ou Windows PowerShell pour des processus simples, C++ fonctionne mieux pour des applications plus sophistiquées et est nécessaire pour écrire des [fournisseurs](providing-data-to-wmi.md).
+Pour créer une application pour WMI à l’aide de C++ : vous devez initialiser COM, accéder aux protocoles WMI et les définir, et effectuer un nettoyage manuel. Toutefois, C++ présente l’avantage de la flexibilité et de la puissance. par conséquent, bien que vous soyez mieux servi à utiliser Visual Basic scripting Edition (VBScript) ou Windows PowerShell pour des processus simples, C++ fonctionne mieux pour des applications plus sophistiquées et est nécessaire pour écrire des [fournisseurs](providing-data-to-wmi.md).
 
 La procédure suivante décrit comment créer une application WMI.
 

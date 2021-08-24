@@ -4,12 +4,12 @@ ms.assetid: 4ec63917-03c0-434e-892e-3d9d4c47740e
 title: Importation de volumes de clichés instantanés transportables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d259fbc047d088ee1f7064804a3ee98fe48da1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73cee5d491cde59767a321094f0a7de2f34da97b29c6ed02e5cc490643b4dcd5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119510259"
 ---
 # <a name="importing-transportable-shadow-copied-volumes"></a>Importation de volumes de clichés instantanés transportables
 
@@ -23,7 +23,7 @@ Pour garantir le bon cliché instantané, en coopérant avec les enregistreurs s
 
 Par conséquent, *systemOne* doit créer un [*cliché instantané transportable*](vssgloss-t.md), que *systemTwo* va importer ensuite.
 
-**Windows server 2003, Standard Edition, Windows server 2003, Web Edition et Windows XP :** Les jeux de clichés instantanés transportables ne sont pas pris en charge. Toutes les éditions de Windows Server 2003 avec Service Pack 1 (SP1) prennent en charge les jeux de clichés instantanés transportables.
+**Windows server 2003, Édition Standard, Windows server 2003, Web Edition et Windows XP :** Les jeux de clichés instantanés transportables ne sont pas pris en charge. toutes les éditions de Windows Server 2003 avec Service Pack 1 (SP1) prennent en charge les jeux de clichés instantanés transportables.
 
 Un exemple classique d’importation d’un cliché instantané transportable peut se poursuivre de la façon suivante :
 

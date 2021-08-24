@@ -6,12 +6,12 @@ keywords:
 - définition des propriétés de la tâche Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fcb05031961e38314cbc7cd12c20c1d863f54af
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: deac57ac28a16108eb886cc56cf697cd768ca7d2e351c4517728c2972be8582f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106518022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681629"
 ---
 # <a name="setting-task-property-examples"></a>Définition des exemples de propriétés de tâche
 
@@ -22,7 +22,7 @@ Les exemples de code répertoriés en bas de la page montrent comment définir l
 > [!Note]  
 > Dans l’exemple de code suivant, toutes les interfaces sont libérées après qu’elles ne sont plus nécessaires.
 
- 
+ 
 
 Dans les exemples suivants, l’objet de tâche modifié est toujours enregistré sur le disque par un appel à [**IPersistFile :: Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save). (L’interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) est une interface COM standard héritée par l’objet Task.)
 
@@ -47,7 +47,7 @@ La procédure suivante décrit comment définir une propriété de tâche.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -56,6 +56,6 @@ La procédure suivante décrit comment définir une propriété de tâche.
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

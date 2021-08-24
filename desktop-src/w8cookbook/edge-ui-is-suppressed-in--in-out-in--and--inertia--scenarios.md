@@ -4,12 +4,12 @@ description: L’interface utilisateur Edge est supprimée dans les scénarios �
 ms.assetid: 005B6D03-52A6-4780-8D3E-4A5CDA5EED8C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef08eab653349beab0710d59d45bedc2874ced44
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec032fa97f54fc1b1325055c9b02bdebe9e817b0f85971c2e2a7062e93c284c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593959"
 ---
 # <a name="edge-ui-is-suppressed-in-in-out-in-and-inertia-scenarios"></a>L’interface utilisateur Edge est supprimée dans les scénarios « in-out-in » et « inertie »
 
@@ -40,9 +40,9 @@ Les utilisateurs qui défilent rapidement par rapport à la périphérie lors de
 
 Les développeurs doivent garder à l’esprit ces atténuations et doivent être en mesure d’utiliser le plein écran sans craindre que les utilisateurs déclenchent accidentellement l’interface utilisateur Edge tout en interagissant avec l’application le long du bord.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 271abd022bdedd3b27e0434e7364542fa51c8987
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7994b6853195ba164c766ca6ee275e4535ab1249c0c78907ab996b9dc644013a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720649"
 ---
 # <a name="stringtable-resource"></a>Ressource STRINGTABLE
 
@@ -59,7 +59,7 @@ Ce paramètre peut être égal à zéro ou plusieurs des instructions suivantes.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -94,7 +94,7 @@ Le compilateur de ressources prend également en charge les continuations de lig
 
 Certains attributs sont également pris en charge pour la compatibilité descendante. Pour plus d’informations, consultez [attributs de ressource communs](common-resource-attributes.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 RC alloue 16 chaînes par section et utilise la valeur d’identificateur pour déterminer la section qui doit contenir la chaîne. Les chaînes dont les identificateurs diffèrent uniquement dans les 4 bits inférieurs sont placées dans la même section. Pour plus d’informations, consultez [Q196774](https://support.microsoft.com/kb/196774).
 
@@ -170,9 +170,9 @@ END
 [**RCDATA**](rcdata-resource.md)
 </dt> <dt>
 
-[**Version**](version-statement.md)
+[**VERSION**](version-statement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

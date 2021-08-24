@@ -4,12 +4,12 @@ ms.assetid: 649f763f-45aa-4086-9e7f-b8934b5bd22c
 title: Toutes les opérations de bits and au niveau du bit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 709db4829f5b620bcb14e0b4261fac7e7d9a6f95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac133e04eae78fe9b943c1e354d9e4dcf451640ad60be1883eecc938ec1d418a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594719"
 ---
 # <a name="all-bitwise-and-some-bitwise"></a>Toutes les opérations de bits and au niveau du bit
 
@@ -74,7 +74,7 @@ La table de vérité suivante utilise des exemples de valeurs binaires et hexad�
 
  
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 Voici un exemple de prédicat All au **niveau du bit** .
 

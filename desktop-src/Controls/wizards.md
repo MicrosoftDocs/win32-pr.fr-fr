@@ -4,12 +4,12 @@ description: Un Assistant est un type de feuille de propriétés qui offre un mo
 ms.assetid: f8def159-0a68-4d7f-9840-c7b6b906ed08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fedd35bd0454e0d78ddbe74d832543e58d0a8fc7
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 4254b448c719e3e1397fceadfcdc28475eaeae588f6f1eb0f0168cea07327d3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106529645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655820"
 ---
 # <a name="how-to-create-wizards"></a>Comment créer des assistants
 
@@ -19,7 +19,7 @@ Les assistants sont l’une des clés permettant de simplifier l’expérience u
 
 Un Assistant est en fait un type de feuille de propriétés. Une feuille de propriétés est essentiellement un conteneur pour une collection de *pages*, où chaque page est une boîte de dialogue distincte. Tandis que les feuilles de propriétés standard permettent à l’utilisateur d’accéder à n’importe quelle page à tout moment, les assistants présentent des pages en séquence. Au lieu de tabulations, les boutons permettent de naviguer vers l’avant et vers l’arrière. L’ordre dans lequel les pages sont affichées est contrôlé par l’application et peut être modifié en fonction de l’entrée de l’utilisateur.
 
-Il existe deux principaux styles d’Assistant : l’ancien style Wizard97 et le style Aero introduit dans Windows Vista. Pour obtenir des illustrations, consultez [à propos des feuilles de propriétés](property-sheets.md). (Un troisième style, utilisant uniquement PSH \_ L’Assistant ou \_ l' \_ indicateur Lite de l’Assistant PSH présente une séquence simple de feuilles de propriétés sans en-tête ni filigrane.)
+il existe deux principaux styles d’assistant : l’ancien style Wizard97 et le style Aero introduit dans Windows Vista. Pour obtenir des illustrations, consultez [à propos des feuilles de propriétés](property-sheets.md). (Un troisième style, utilisant uniquement PSH \_ L’Assistant ou \_ l' \_ indicateur Lite de l’Assistant PSH présente une séquence simple de feuilles de propriétés sans en-tête ni filigrane.)
 
 > [!Note]  
 > Un « filigrane » dans le contexte des assistants est une image bitmap qui apparaît dans la marge de gauche de certaines pages.
@@ -28,16 +28,16 @@ Il existe deux principaux styles d’Assistant : l’ancien style Wizard97 et l
 
 La description de la majeure partie de ce document suppose que vous implémentiez un Assistant pour un système avec la [version 5,80](common-control-versions.md) ou ultérieure des contrôles communs. Si vous tentez d’utiliser le style Wizard97 avec des versions antérieures des contrôles communs, votre application peut se compiler, mais elle ne s’affichera pas correctement. Pour plus d’informations sur la création d’un Assistant compatible Wizard97 sur des systèmes antérieurs, consultez la section assistants à compatibilité descendante, plus loin dans cette rubrique.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -65,7 +65,7 @@ La procédure de base pour l’implémentation d’un Assistant est la suivante�
 3.  Transmettez la structure [**PROPSHEETPAGE**](pss-propsheetpage.md) créée à l’étape précédente à la fonction [**CreatePropertySheetPage**](/windows/desktop/api/Prsht/nf-prsht-createpropertysheetpagea) pour créer le descripteur HPROPSHEETPAGE de la page.
 4.  Définissez l’Assistant en créant une structure [**PROPSHEETHEADER**](pss-propsheetheader.md) pour celui-ci.
 5.  Transmettez la structure [**PROPSHEETHEADER**](pss-propsheetheader.md) à la fonction [**feuille**](/windows/desktop/api/Prsht/nf-prsht-propertysheeta) pour afficher l’Assistant.
-6.  Implémentez des procédures de boîte de dialogue pour chaque page pour gérer les messages de notification à partir des contrôles de la page et des boutons de l’Assistant et pour traiter d’autres messages Windows.
+6.  implémentez des procédures de boîte de dialogue pour chaque page pour gérer les messages de notification à partir des contrôles de la page et des boutons de l’assistant et pour traiter d’autres messages de Windows.
 
 ### <a name="create-the-dialog-box-templates"></a>Créer les modèles de boîte de dialogue
 
@@ -197,7 +197,7 @@ PropertySheet(&psh);
 
 ### <a name="the-dialog-box-procedure"></a>La procédure de la boîte de dialogue
 
-Chaque page de l’Assistant a besoin d’une procédure de boîte de dialogue pour traiter les messages Windows, en particulier les notifications de ses contrôles et de l’Assistant. Les trois messages que presque tous les assistants doivent pouvoir gérer sont [**WM \_ INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog), [**WM \_ Destroy**](/windows/desktop/winmsg/wm-destroy)et [**WM \_ Notify**](wm-notify.md).
+chaque page de l’assistant a besoin d’une procédure de boîte de dialogue pour traiter Windows messages, en particulier les notifications de ses contrôles et de l’assistant. Les trois messages que presque tous les assistants doivent pouvoir gérer sont [**WM \_ INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog), [**WM \_ Destroy**](/windows/desktop/winmsg/wm-destroy)et [**WM \_ Notify**](wm-notify.md).
 
 Le message [**WM \_ Notify**](wm-notify.md) est reçu avant l’affichage de la page et l’utilisateur clique sur l’un des boutons de l’Assistant. Le paramètre *lParam* du message est un pointeur vers une structure d’en-tête [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) . L’ID de la notification est contenu dans le membre de **code** de la structure. Les quatre notifications que la plupart des assistants doivent gérer sont les suivantes.
 
@@ -328,9 +328,9 @@ Si vous écrivez un Assistant pour des systèmes avec des versions antérieures 
 
 Pour plus d’informations sur les assistants à compatibilité descendante, consultez Assistant à compatibilité [descendante 97](/previous-versions//ms737910(v=vs.85)).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour une présentation complète des problèmes de conception pour Wizard97, consultez la [spécification Wizard97](/previous-versions//ms738248(v=vs.85)), ailleurs dans le SDK Windows. Ce document contient des instructions pour des éléments tels que les dimensions des boîtes de dialogue, les dimensions et les couleurs de la bitmap et le positionnement des contrôles.
+pour une présentation complète des problèmes de conception pour Wizard97, consultez la [spécification Wizard97](/previous-versions//ms738248(v=vs.85)), ailleurs dans le SDK Windows. Ce document contient des instructions pour des éléments tels que les dimensions des boîtes de dialogue, les dimensions et les couleurs de la bitmap et le positionnement des contrôles.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -339,7 +339,7 @@ Pour une présentation complète des problèmes de conception pour Wizard97, con
 [Utilisation des feuilles de propriétés](using-property-sheets.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
  

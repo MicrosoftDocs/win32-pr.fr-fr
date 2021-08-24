@@ -3,52 +3,52 @@ title: Utilisation d’un script pour contrôler le basculement d’URL
 description: Utilisation d’un script pour contrôler le basculement d’URL
 ms.assetid: ec504ecf-10ef-4b90-bee6-8d149c251ee5
 keywords:
-- Windows Media Player, présentations basées sur le Web
-- Modèle objet du lecteur Windows Media, présentations basées sur le Web
+- Lecteur Windows Media, présentations basées sur le Web
+- modèle objet Lecteur Windows Media, présentations basées sur le Web
 - modèle objet, présentations basées sur le Web
-- Windows Media Player Mobile, présentations basées sur le Web
-- Contrôle ActiveX du lecteur Windows Media, présentations basées sur le Web
-- Windows Media Player Mobile contrôle ActiveX, présentations basées sur le Web
-- Contrôle ActiveX, présentations basées sur le Web
-- Lecteur Windows Media, basculement d’URL
-- Windows Media Player Object Model, retournement d’URL
+- Lecteur Windows Media Présentations mobiles, basées sur le Web
+- contrôle de ActiveX Lecteur Windows Media, présentations basées sur le Web
+- Lecteur Windows Media contrôle Mobile ActiveX, présentations basées sur le Web
+- contrôle de ActiveX, présentations basées sur le Web
+- Lecteur Windows Media, retournement d’URL
+- Lecteur Windows Media modèle objet, retournement d’URL
 - modèle objet, basculement d’URL
-- Windows Media Player Mobile, basculement d’URL
-- Contrôle ActiveX du lecteur Windows Media, retournement d’URL
-- Windows Media Player Mobile Control, basculement d’URL
-- Contrôle ActiveX, basculement d’URL
+- Lecteur Windows Media Mobile, basculement d’URL
+- contrôle de ActiveX Lecteur Windows Media, retournement d’URL
+- Lecteur Windows Media contrôle de ActiveX Mobile, basculement d’URL
+- contrôle ActiveX, retournement d’URL
 - Présentations basées sur le Web, retournement d’URL
 - création de présentations basées sur le Web, retournement d’URL
 - Retournement d’URL
 - Lecteur Windows Media, diffusion multimédia riche
-- Modèle objet du lecteur Windows Media, diffusion multimédia riche
+- Lecteur Windows Media modèle objet, diffusion multimédia riche
 - modèle objet, diffusion multimédia riche
-- Windows Media Player Mobile, diffusion multimédia riche
-- Contrôle ActiveX du lecteur Windows Media, diffusion multimédia riche
-- Windows Media Player Mobile contrôle ActiveX, diffusion multimédia riche
-- Contrôle ActiveX, diffusion multimédia riche
+- Lecteur Windows Media Mobile, diffusion multimédia riche
+- contrôle de ActiveX Lecteur Windows Media, diffusion multimédia riche
+- Lecteur Windows Media contrôle de ActiveX Mobile, diffusion multimédia riche
+- contrôle de ActiveX, diffusion multimédia riche
 - Présentations basées sur le Web, diffusion multimédia riche
 - création de présentations basées sur le Web, diffusion multimédia riche
 - diffusion multimédia enrichie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4815562bba92d67bb4b02ea0317d6c29accd9262
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: 9470bf2b812d36bceb6159ab089e3b08c49bc84515320872b125ed6519568141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "104380473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507129"
 ---
 # <a name="using-script-to-control-url-flipping"></a>Utilisation d’un script pour contrôler le basculement d’URL
 
-Lorsqu’un utilisateur se connecte à un flux multimédia riche alors que le flux est déjà en cours, il est possible que la page Web en continu s’affiche avant que tous les éléments soient arrivés et mis en cache si le lecteur Windows Media appelle automatiquement l’URL. Dans ce cas, l’utilisateur voit une page Web vide ou incomplète jusqu’à ce que le jeu de données suivant arrive dans le cache.
+lorsqu’un utilisateur se connecte à un flux multimédia riche alors que le flux est déjà en cours, il est possible que la page web en continu s’affiche avant que tous les éléments soient arrivés et mis en cache si Lecteur Windows Media appelle automatiquement l’URL. Dans ce cas, l’utilisateur voit une page Web vide ou incomplète jusqu’à ce que le jeu de données suivant arrive dans le cache.
 
-Vous pouvez éviter d’afficher une page Web vide ou incomplète en appelant l’URL à l’aide d’un script au lieu de laisser le lecteur Windows Media le faire automatiquement. De cette façon, vous pouvez ignorer la première inversion de l’URL, puis appeler les URL suivantes à l’aide du code de script.
+vous pouvez éviter d’afficher une page web vide ou incomplète en appelant l’URL à l’aide d’un script au lieu de laisser Lecteur Windows Media le faire automatiquement. De cette façon, vous pouvez ignorer la première inversion de l’URL, puis appeler les URL suivantes à l’aide du code de script.
 
 > [!Note]  
-> Cette section part du principe que vous diffusez en continu du code HTML à l’aide du kit de développement logiciel (SDK) Windows Media Encoder 9 et que vous avez défini le flux HTML sur REPEAT.
+> cette section part du principe que vous diffusez en continu du code html à l’aide du kit de développement logiciel (SDK) de la série Windows Media encoder 9 et que vous avez défini le flux html sur repeat.
 
- 
+ 
 
 Tout d’abord, vous devez créer une page Web de jeu de frames pour contenir le frame avec le lecteur incorporé et le frame qui affiche le HTML de diffusion en continu. Chacun de ces deux frames affiche une page Web distincte. vous allez donc créer un total de trois pages Web. L’exemple de code suivant illustre la page Web du jeu de cadres :
 
@@ -140,7 +140,7 @@ Loading...
 
 Lorsque la page du jeu de cadres est chargée dans le navigateur, le frame de gauche montre le lecteur incorporé et le cadre de droite affiche le texte « chargement en cours... ». pour informer l’utilisateur que des données supplémentaires sont à venir. Lorsque la première commande de script d’URL arrive à partir du flux HTML, le gestionnaire d’événements modifie simplement la valeur de l’indicateur **booléen** . Lorsque chaque commande de script d’URL suivante arrive à partir du flux HTML, le script du gestionnaire d’événements charge la nouvelle URL dans le frame nommé « content » et la page Web complète s’affiche dans le frame situé dans la moitié droite de la fenêtre du navigateur.
 
-Pour plus d’informations sur la diffusion en continu HTML à l’aide de Windows Media, consultez le kit de développement logiciel Windows Media Encoder.
+pour plus d’informations sur la diffusion en continu de code HTML à l’aide de Windows media, consultez le kit de développement logiciel Windows media encoder
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -152,9 +152,9 @@ Pour plus d’informations sur la diffusion en continu HTML à l’aide de Windo
 [**Retournement d’URL**](url-flipping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

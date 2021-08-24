@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 7e7b0d4480fde480ea24a6c2c0dd8a7a849fbc75
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c9c3032bb7105a27b995c236e01ce5fc5c304de4108f6c996a5cbb5799be496d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654599"
 ---
 # <a name="ctl3dcolorchange-function"></a>Ctl3dColorChange fonction)
 
@@ -41,7 +41,7 @@ Cette fonction n’a pas de paramètres.
 
 Retourne la **valeur true** si la fonction est réussie ; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

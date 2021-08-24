@@ -3,18 +3,18 @@ title: Police d’État
 description: Police d’État
 ms.assetid: eba697e8-8be5-4692-b7b2-a52c5642022a
 keywords:
-- Apparences mobiles du lecteur Windows Media, affichage de l’État
+- Lecteur Windows Media Apparences mobiles, affichage de l’État
 - apparences, affichage de l’État
 - référence pour les apparences, affichage de l’État
 - affichage de l’État dans les apparences, les polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a773f3baaeda0eaa90dfe0702957b5b7888271
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a1dea59b7d8afb40fab628a774f348c787c05ba5d0c08eb65846aa8d9482a617
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507659"
 ---
 # <a name="status-font"></a>Police d’État
 
@@ -22,7 +22,7 @@ Vous devez définir la police utilisée par l’affichage de l’état que vous 
 
 **Valeurs de police**
 
-Vous pouvez utiliser n’importe quel nom de police s’il est susceptible d’être installé sur l’ordinateur de l’utilisateur. Si une police est introuvable sur l’ordinateur, une alternative est sélectionnée par le système d’exploitation. Le tableau suivant présente les polices qui se trouvent généralement sur les périphériques Windows Mobile 2003.
+Vous pouvez utiliser n’importe quel nom de police s’il est susceptible d’être installé sur l’ordinateur de l’utilisateur. Si une police est introuvable sur l’ordinateur, une alternative est sélectionnée par le système d’exploitation. le tableau suivant montre les polices qui se trouvent généralement sur Windows appareils mobiles 2003.
 
 
 
@@ -33,7 +33,7 @@ Vous pouvez utiliser n’importe quel nom de police s’il est susceptible d’�
 
 
 
- 
+ 
 
 **Valeurs de taille**
 
@@ -52,18 +52,18 @@ Les seules valeurs autorisées sont indiquées dans le tableau suivant.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Statu**](status.md)
+[**Statut**](status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

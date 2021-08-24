@@ -7,12 +7,12 @@ keywords:
 - DXGI_FORMAT_BC6H
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92ea15e0275bc478c0708ce08f531d8888a3c84d
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 27422e177e98ecdc53b4152ba0514866f5ad75216e9ef789145d1af882a645d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633819"
 ---
 # <a name="bc6h-format"></a>Format BC6H
 

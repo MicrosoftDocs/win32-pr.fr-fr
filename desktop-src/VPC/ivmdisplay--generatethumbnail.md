@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4084549de96330761bca4f4ec6da65ca150c96e5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5decd1b3c55ab6513408a81eb37d422fac495334fb545c4cad4806050a8af7b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106539834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654369"
 ---
 # <a name="ivmdisplay_generatethumbnail-method"></a>IVMDisplay :: \_ GenerateThumbnail, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère un tableau de pixels représentant une image miniature de l’écran de l’ordinateur virtuel.
 
@@ -67,7 +67,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface retourne plus efficacement la miniature que la propriété [**thumbnail**](ivmdisplay-thumbnail.md) , mais elle n’est pas utilisable à partir de scripts de clients. La miniature est toujours de 64 pixels de large de 48 pixels de haut. Chaque pixel est 32 bits, où les 8 bits de poids fort représentent la valeur bleue du pixel, les 8 bits suivants représentent la valeur verte du pixel, et les 8 bits suivants représentent la valeur rouge du pixel. Les 64 premiers éléments du tableau sont la première ligne de la miniature, les 64 suivants sont la deuxième ligne, et ainsi de suite. Cette méthode retourne un tableau statique de pixels, qui est plus efficace que le retour d’un **SAFEARRAY** de valeurs **Variant** , mais n’est pas compatible avec les clients de script.
 
@@ -77,7 +77,7 @@ Cette interface retourne plus efficacement la miniature que la propriété [**th
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

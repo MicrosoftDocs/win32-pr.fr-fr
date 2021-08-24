@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection setDeleted
 description: La méthode setDeleted déplace l’élément multimédia spécifié vers le dossier éléments supprimés. | Méthode IWMPMediaCollection setDeleted
 ms.assetid: 3fa7989e-8b98-44e1-93ca-8136aba358ea
 keywords:
-- méthode setDeleted lecteur Windows Media
-- méthode setDeleted lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode setDeleted
+- Lecteur Windows Media de la méthode setDeleted
+- méthode setDeleted Lecteur Windows Media, interface IWMPMediaCollection
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode setDeleted
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57ccf8cf2d36ab7e4aaf76fdbe5c28582650fcda
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7516d6aab26659fa2bba57bd961671b4dca0f92d367d5d9bb1f048e8fd19eb2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505949"
 ---
 # <a name="iwmpmediacollectionsetdeleted-method"></a>IWMPMediaCollection :: setDeleted, méthode
 
@@ -73,7 +73,7 @@ Valeur **System. Boolean** qui spécifie si l’élément doit être déplacé v
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne supprime pas les fichiers de l’ordinateur de l’utilisateur, mais les déplace simplement dans le dossier éléments supprimés.
 

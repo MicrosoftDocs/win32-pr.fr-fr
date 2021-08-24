@@ -7,22 +7,22 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4644170cfca3b4bacdd6db647e35549d56844e9b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 680ccae3d8944c92d64da526831142d662ac5dc38157c741cf8f5426768fc745
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106522627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681459"
 ---
 # <a name="about-remote-desktop-services"></a>À propos de Services Bureau à distance
 
 Services Bureau à distance (anciennement services Terminal Server) offre des fonctionnalités similaires à celles d’un environnement de type terminal, d’un ordinateur hôte centralisé ou d’un macroordinateur dans lequel plusieurs terminaux se connectent à un ordinateur hôte. Chaque terminal fournit un canal d’entrée et de sortie entre un utilisateur et l’ordinateur hôte. Un utilisateur peut ouvrir une session sur un terminal, puis exécuter des applications sur l’ordinateur hôte, accéder à des fichiers, des bases de données, des ressources réseau, etc. Chaque session de terminal est indépendante, avec le système d’exploitation hôte qui gère les conflits entre plusieurs utilisateurs qui ont des ressources partagées.
 
-La principale différence entre les Services Bureau à distance et l’environnement de macroordinateur traditionnel est que les terminaux passifs dans un environnement de macroordinateur fournissent uniquement une entrée et une sortie basées sur des caractères. Un client ou un émulateur Connexion Bureau à distance (RDC) fournit une interface utilisateur graphique complète comprenant un bureau du système d’exploitation Windows et la prise en charge d’un large éventail de périphériques d’entrée, tels qu’un clavier et une souris.
+La principale différence entre les Services Bureau à distance et l’environnement de macroordinateur traditionnel est que les terminaux passifs dans un environnement de macroordinateur fournissent uniquement une entrée et une sortie basées sur des caractères. un client ou un émulateur Connexion Bureau à distance (RDC) fournit une interface utilisateur graphique complète incluant un bureau de système d’exploitation Windows et la prise en charge d’un large éventail de périphériques d’entrée, tels qu’un clavier et une souris.
 
 Dans l’environnement de Services Bureau à distance, une application s’exécute entièrement sur le serveur hôte de session Bureau à distance (hôte de session Bureau à distance) (anciennement appelé Terminal Server). Le client RDC n’effectue aucun traitement local des logiciels d’application. Le serveur transmet l’interface utilisateur graphique au client. Le client transmet à nouveau l’entrée de l’utilisateur au serveur.
 
-Pour plus d'informations, consultez les rubriques ci-dessous.
+Pour plus d’informations, voir les rubriques suivantes :
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -38,7 +38,7 @@ Pour plus d'informations, consultez les rubriques ci-dessous.
 [Protocole RDP (Remote Desktop Protocol)](remote-desktop-protocol.md)
 </dt> <dd>
 
-Le protocole RDP (Bureau à distance Microsoft Protocol) fournit des fonctionnalités d’affichage et d’entrée à distance sur les connexions réseau pour les applications Windows exécutées sur un serveur.
+le protocole RDP (Bureau à distance Microsoft Protocol) fournit des fonctionnalités d’entrée et d’entrée à distance sur les connexions réseau pour les applications basées sur Windows qui s’exécutent sur un serveur.
 
 </dd> <dt>
 
@@ -95,12 +95,12 @@ Rubriques qui décrivent les modifications apportées à chaque version de l’A
 
 <dl> <dt>
 
-[Se connecter à un autre ordinateur à l’aide de Connexion Bureau à distance](https://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7)
+[Connecter à un autre ordinateur à l’aide de Connexion Bureau à distance](https://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

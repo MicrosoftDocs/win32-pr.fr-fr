@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: eb787bed64d16f7593fba1f97c96ceeaa217b4e0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 47c563a7a786dd78fab0ab7ee24e8b5fd535a6ea13b161b303bb1fda14693aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634669"
 ---
 # <a name="d3dx10createshaderresourceviewfromfile-function"></a>D3DX10CreateShaderResourceViewFromFile fonction)
 
@@ -68,7 +68,7 @@ Nom du fichier qui contient l’affichage des ressources du nuanceur. Si les par
 
 Type : **[ **\_ \_ \_ informations sur le chargement de l’image d3dx10**](d3dx10-image-load-info.md)\***
 
-Optionnel. Identifie les caractéristiques d’une texture (voir informations sur le chargement de l' [**\_ image \_ \_ d3dx10**](d3dx10-image-load-info.md)) lorsque le processeur de données est créé ; affectez la valeur **null** pour lire les caractéristiques d’une texture lorsque la texture est chargée.
+Facultatif. Identifie les caractéristiques d’une texture (voir informations sur le chargement de l' [**\_ image \_ \_ d3dx10**](d3dx10-image-load-info.md)) lorsque le processeur de données est créé ; affectez la valeur **null** pour lire les caractéristiques d’une texture lorsque la texture est chargée.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir la liste des formats d’image pris en charge, consultez [**\_ \_ \_ format de fichier image d3dx10**](d3dx10-image-file-format.md).
 

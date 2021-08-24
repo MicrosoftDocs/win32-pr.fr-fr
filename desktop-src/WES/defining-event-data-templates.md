@@ -4,12 +4,12 @@ description: Les fournisseurs utilisent des modèles de données pour définir l
 ms.assetid: 064227a2-7ce8-461a-9dc0-7519652e6628
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 067230472c8de5ce29145e221c109b3f390f0a6c
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: d5480ca158916801665943bd33b886bfcd5d73015e8730c1dd108123dadc1995
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "103841981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652609"
 ---
 # <a name="defining-event-data-templates"></a>Définition de modèles de données d’événement
 
@@ -31,7 +31,7 @@ Si vous incluez des structures dans le modèle, vous devez écrire les membres d
 
 Vous devez examiner attentivement les informations que vous incluez dans les événements, en particulier lorsque les événements sont écrits dans les canaux globaux. En règle générale, vous ne devez pas inclure d’informations privées dans les événements. Cela comprend les mots de passe en texte clair et les informations utilisateur personnelles. En outre, les programmes exécutés par l’utilisateur, les URL visitées par l’utilisateur et d’autres informations relatives aux activités de l’utilisateur sur l’ordinateur doivent être considérés comme privés.
 
-Si vous devez enregistrer les URL et les noms d’utilisateur dans les événements, ne les écrivez pas sur les canaux Windows (système et application), car ces canaux sont lisibles par tous les utilisateurs authentifiés. Au lieu de cela, écrivez-les sur vos propres canaux opérationnels ou analytiques. Définissez les autorisations d’accès sur ces canaux pour permettre uniquement aux administrateurs de lire les événements. Vous devrez peut-être fournir une information appropriée pour informer les utilisateurs du fait que des informations privées sont mises à la disposition des administrateurs.
+si vous devez enregistrer les url et les noms d’utilisateur dans les événements, ne les écrivez pas dans les canaux de Windows (système et Application), car ces canaux sont lisibles par tous les utilisateurs authentifiés. Au lieu de cela, écrivez-les sur vos propres canaux opérationnels ou analytiques. Définissez les autorisations d’accès sur ces canaux pour permettre uniquement aux administrateurs de lire les événements. Vous devrez peut-être fournir une information appropriée pour informer les utilisateurs du fait que des informations privées sont mises à la disposition des administrateurs.
 
 L’exemple suivant montre comment définir un modèle. Vous devez spécifier l’attribut **TID** du modèle que vous référencez dans la définition d’événement ou la définition de filtre.
 

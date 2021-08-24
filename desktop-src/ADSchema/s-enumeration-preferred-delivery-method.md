@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd60f18ad796e086326058dbe7908d31d3e54bc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dab46225dc625b887d984ae959ecfddaade7949fd808b02d45887b55d198dbe6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702579"
 ---
 # <a name="enumerationpreferred-delivery-method-syntax"></a>Syntaxe d’énumération (préférée-Delivery-Method)
 
@@ -28,7 +28,7 @@ Syntaxe d’énumération (préférée-Delivery-Method).
 
 | Entrée | Valeur |
 |--------------|---------------------------------------------------------------------------|
-| Nom         | Énumération (par défaut-Delivery-Method)                                    |
+| Name         | Énumération (par défaut-Delivery-Method)                                    |
 | ID de syntaxe    | 2.5.5.9                                                                   |
 | ID OM        | 10                                                                        |
 | Type MAPI    | LONG                                                                      |
@@ -38,7 +38,7 @@ Syntaxe d’énumération (préférée-Delivery-Method).
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Défini par l’ITU. Active Directory traite cela comme un entier.
 

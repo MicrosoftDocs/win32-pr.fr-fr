@@ -1,23 +1,23 @@
 ---
-title: Structures (gestes tactiles Windows)
-description: Cette section contient des structures pour les gestes tactiles Windows.
+title: Structures (Windows les gestes tactiles)
+description: cette section contient des structures pour Windows les gestes tactiles.
 ms.assetid: 3735cfa1-095b-416c-a863-84fd7de4ba03
 keywords:
-- Windows tactile, structures
-- Tactile Windows, gestes
+- Windows Toucher, structures
+- Windows Toucher, mouvements
 - mouvements, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 820bb4a4dc2471dbb6c7742246dfe126ee97eff4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a6fea3ca0808ac18733204f8d70a1dae21d8c96c510532fc572083993ab28331
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592119"
 ---
-# <a name="structures-windows-touch-gestures"></a>Structures (gestes tactiles Windows)
+# <a name="structures-windows-touch-gestures"></a>Structures (Windows les gestes tactiles)
 
-Cette section contient des structures pour les gestes tactiles Windows.
+cette section contient des structures pour Windows les gestes tactiles.
 
 Les structures suivantes sont spécifiées dans cette section.
 
@@ -37,7 +37,7 @@ Les structures suivantes sont spécifiées dans cette section.
 
 <dl> <dt>
 
-[Gestes tactiles Windows](multi-touch-gestures.md)
+[Windows Gestes tactiles](multi-touch-gestures.md)
 </dt> <dt>
 
 [Guide de programmation pour les gestes](guide-multi-touch-gestures.md)

@@ -4,12 +4,12 @@ ms.assetid: 7104b2da-2ece-46ce-b4ca-6c24dc4d6677
 title: Considérations linguistiques et Unicode diverses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8433fb212917f29acbc2347c3324668a77533dee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24372194fb17498e1e0ce19be1bbbac3f1dccb27a63d840cedf95de38f735026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594479"
 ---
 # <a name="miscellaneous-linguistic-and-unicode-considerations"></a>Considérations linguistiques et Unicode diverses
 
@@ -32,7 +32,7 @@ Cette rubrique est organisée comme suit :
 
 Les expressions sont un mot ou un groupe de mots qui sont modifiés par un ou plusieurs autres. Les expressions sont difficiles à identifier de manière cohérente, car le même modificateur peut être utilisé dans plusieurs expressions avec le même nom. Par exemple, « nouvelle maison », « maison du Parlement », « nouveau bâtiment du Parlement ».
 
-Windows Search utilise les expressions le plus souvent au moment de la requête. Les expressions contenues dans le texte de la requête reçoivent un poids supérieur à celui des mots individuels. Dans l’exemple précédent, un document contenant « House of Parlement » est classé plus haut qu’un document contenant « House » et « Parlement » à des points différents dans le document. Nous recommandons que les analyseurs lexicaux génèrent une expression au moment de la requête si l’expression est susceptible de correspondre à au moins un document.
+Windows La recherche utilise les expressions le plus souvent au moment de la requête. Les expressions contenues dans le texte de la requête reçoivent un poids supérieur à celui des mots individuels. Dans l’exemple précédent, un document contenant « House of Parlement » est classé plus haut qu’un document contenant « House » et « Parlement » à des points différents dans le document. Nous recommandons que les analyseurs lexicaux génèrent une expression au moment de la requête si l’expression est susceptible de correspondre à au moins un document.
 
 ## <a name="agglutinative-languages"></a>Langues agglutinantes
 
@@ -63,13 +63,13 @@ Les générateurs de formes dérivées pour les langages agglutinantes doivent p
 
 Les analyseurs lexicaux doivent utiliser un format commun pour représenter des nombres, des heures et des dates pour faciliter les requêtes cohérentes.
 
-Lorsque vous créez un analyseur lexical, nous vous recommandons d’utiliser l’analyseur lexical pour normaliser les nombres dans une représentation canonique à l’aide du modèle « NN *DD* D *CC*», où nn est la séquence littérale « NN », *DD* est la partie entière du nombre, d est le littéral « d », et *CC* est la partie fractionnaire du nombre. Les analyseurs lexicaux ne limitent pas le nombre de chiffres pour l’entier ou la partie fractionnaire du nombre. Nous recommandons que les analyseurs lexicaux reconnaissent les modèles numériques délimités par les points (.) et les virgules (,). Par exemple, Windows Search représente à la fois « 1 000,2 » et « 1.000, 2 » en tant que « NN1000D2 ».
+Lorsque vous créez un analyseur lexical, nous vous recommandons d’utiliser l’analyseur lexical pour normaliser les nombres dans une représentation canonique à l’aide du modèle « NN *DD* D *CC*», où nn est la séquence littérale « NN », *DD* est la partie entière du nombre, d est le littéral « d », et *CC* est la partie fractionnaire du nombre. Les analyseurs lexicaux ne limitent pas le nombre de chiffres pour l’entier ou la partie fractionnaire du nombre. Nous recommandons que les analyseurs lexicaux reconnaissent les modèles numériques délimités par les points (.) et les virgules (,). par exemple, Windows recherche représente à la fois « 1 000,2 » et « 1.000, 2 » comme « NN1000D2 ».
 
 Choisissez un format pour les analyseurs lexicaux et les générateurs de formes dérivées. Les chiffres arabes sur un octet sont normalisés de telle sorte qu’une requête contenant l’une de ces formes corresponde à des documents avec les autres formulaires.
 
-Lorsque vous créez un analyseur lexical, nous vous recommandons d’utiliser l’analyseur lexical toutes les occurrences sous la forme d’une représentation de 24 heures à l’aide du modèle « TT *HHMMSS*», où TT est le préfixe LITTÉRAL « TT », *hh* est heures, *mm* est le nombre de minutes et *SS* est le nombre de secondes. Windows Search ne correspond pas aux unités de temps supplémentaires, telles que les millisecondes. Analyse du matin et P.M Patterns est facultatif.
+Lorsque vous créez un analyseur lexical, nous vous recommandons d’utiliser l’analyseur lexical toutes les occurrences sous la forme d’une représentation de 24 heures à l’aide du modèle « TT *HHMMSS*», où TT est le préfixe LITTÉRAL « TT », *hh* est heures, *mm* est le nombre de minutes et *SS* est le nombre de secondes. Windows La recherche ne correspond pas aux unités de temps supplémentaires, telles que les millisecondes. Analyse du matin et P.M Patterns est facultatif.
 
-Lorsque vous créez un analyseur lexical, nous recommandons que l’analyseur lexical génère des dates au format canonique « JJ *AAAAMMJJ*», où JJ est le LITTÉRAL « JJ », *yyyy* les années, *mm* les mois et *JJ* les jours. Nous recommandons également que les analyseurs lexicaux stockent des années à deux chiffres dans les formats du vingtième siècle et du vingt-et-un-siècle. Par exemple, les analyseurs lexicaux représentent « 2.2.99 » en tant que « DD19990202 » et « DD20990202 ». Au moment de la requête, Windows Search dérive la date en utilisant les interfaces de programmation d’applications (API) de Windows pour déterminer la date de découpe du serveur afin d’afficher le format correct, 19 *XX* ou 20 *XX*.
+Lorsque vous créez un analyseur lexical, nous recommandons que l’analyseur lexical génère des dates au format canonique « JJ *AAAAMMJJ*», où JJ est le LITTÉRAL « JJ », *yyyy* les années, *mm* les mois et *JJ* les jours. Nous recommandons également que les analyseurs lexicaux stockent des années à deux chiffres dans les formats du vingtième siècle et du vingt-et-un-siècle. Par exemple, les analyseurs lexicaux représentent « 2.2.99 » en tant que « DD19990202 » et « DD20990202 ». au moment de la requête, Windows recherche dérive la date en utilisant Windows les interfaces de programmation d’applications (api) pour déterminer la date de recoupement du serveur afin d’afficher le format correct, 19 *xx* ou 20 *xx*.
 
 ## <a name="compound-words"></a>Mots composés
 
@@ -91,11 +91,11 @@ Nous recommandons que les analyseurs lexicaux reconnaissent les mots spéciaux, 
 
 ## <a name="acronyms-and-abbreviations"></a>Acronymes et abréviations
 
-Les acronymes et les abréviations doivent être pris en compte lors de l’implémentation d’un analyseur lexical. Dans de nombreux langages, les lettres d’acronymes individuelles sont séparées par des points. Parfois, les mots qui ne sont pas des acronymes ou des abréviations reconnus sont abrégés. Par exemple, « États-Unis de l’Amérique » peut être abrégé en « USA » ou « États-Unis » Les analyseurs lexicaux inclus avec Windows Search identifient généralement les mots à lettres uniques comme des mots parasites et traitent ces mots comme des espaces réservés au moment de la requête. Pendant la durée de la requête, un analyseur lexical qui ne tient pas compte des acronymes courants ou qui ne reconnaît pas les abréviations, convertit l’abréviation « U.S.A. ». en « U », « S » et « A ». Cette décomposition ne fournit pas suffisamment d’informations pour faire correspondre les mots de l’index de recherche en texte intégral, car tous les termes de la requête sont des mots parasites. Lorsque vous créez un analyseur lexical, nous recommandons que l’analyseur lexical supprime les points qui séparent les lettres d’acronymes. Dans l’exemple, « États-Unis » est stocké sous la forme « USA » et un terme de requête contenant « États-Unis » Interrogez en fait les « USA ». Si un analyseur lexical traite une abréviation, le point de cette abréviation n’est pas traité comme une rupture EOS. Pour cette raison, un analyseur lexical peut ne pas identifier correctement une rupture EOS si l’abréviation se trouve à la fin de la phrase.
+Les acronymes et les abréviations doivent être pris en compte lors de l’implémentation d’un analyseur lexical. Dans de nombreux langages, les lettres d’acronymes individuelles sont séparées par des points. Parfois, les mots qui ne sont pas des acronymes ou des abréviations reconnus sont abrégés. Par exemple, « États-Unis de l’Amérique » peut être abrégé en « USA » ou « États-Unis » les analyseurs lexicaux inclus avec Windows recherche identifient généralement les mots à lettres uniques comme des mots parasites et traitent ces mots comme des espaces réservés au moment de la requête. Pendant la durée de la requête, un analyseur lexical qui ne tient pas compte des acronymes courants ou qui ne reconnaît pas les abréviations, convertit l’abréviation « U.S.A. ». en « U », « S » et « A ». Cette décomposition ne fournit pas suffisamment d’informations pour faire correspondre les mots de l’index de recherche en texte intégral, car tous les termes de la requête sont des mots parasites. Lorsque vous créez un analyseur lexical, nous recommandons que l’analyseur lexical supprime les points qui séparent les lettres d’acronymes. Dans l’exemple, « États-Unis » est stocké sous la forme « USA » et un terme de requête contenant « États-Unis » Interrogez en fait les « USA ». Si un analyseur lexical traite une abréviation, le point de cette abréviation n’est pas traité comme une rupture EOS. Pour cette raison, un analyseur lexical peut ne pas identifier correctement une rupture EOS si l’abréviation se trouve à la fin de la phrase.
 
 ## <a name="capitalization"></a>Mise en majuscules
 
-Windows Search ne préserve pas actuellement la casse lorsqu’il enregistre des mots dans l’index de recherche en texte intégral. Les analyseurs lexicaux et les générateurs de formes dérivées ne doivent pas modifier la casse des mots.
+Windows La recherche ne préserve pas actuellement les majuscules lorsqu’elle enregistre des mots dans l’index de recherche en texte intégral. Les analyseurs lexicaux et les générateurs de formes dérivées ne doivent pas modifier la casse des mots.
 
 ## <a name="nonbreaking-spaces"></a>Espaces insécables
 

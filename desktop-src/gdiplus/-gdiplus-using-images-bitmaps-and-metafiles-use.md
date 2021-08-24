@@ -1,19 +1,19 @@
 ---
-description: En savoir plus sur l’utilisation d’images, de bitmaps et de fichiers de fichiers. Windows GDI+ fournit la classe image permettant d’utiliser des images raster (bitmaps) et des images vectorielles (sous-fichiers).
+description: En savoir plus sur l’utilisation d’images, de bitmaps et de fichiers de fichiers. Windows GDI+ fournit la classe Image permettant d’utiliser des images raster (bitmaps) et des images vectorielles (les sous-fichiers).
 ms.assetid: 57e3bf33-5490-4f4a-addf-356ef8f1aeed
 title: Utilisation d’images, de bitmaps et de reformateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d0603c8a428c45feac8cdeb47a46b61dc5e3bd
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 8bcb0a4d4bad09a931e62da8fe33e27638fede528ad8b29ec3b49417c7bd6e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119466409"
 ---
 # <a name="using-images-bitmaps-and-metafiles"></a>Utilisation d’images, de bitmaps et de reformateurs
 
-Windows GDI+ fournit la classe [**image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) permettant d’utiliser des images raster (bitmaps) et des images vectorielles (sous-fichiers). La classe [**bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap) et la classe [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) héritent toutes deux de la classe **image** . La classe **bitmap** développe les fonctionnalités de la classe **image** en fournissant des méthodes supplémentaires pour le chargement, l’enregistrement et la manipulation d’images raster. La classe **Metafile** développe les fonctionnalités de la classe **image** en fournissant des méthodes supplémentaires pour l’enregistrement et l’examen d’images vectorielles.
+Windows GDI+ fournit la classe [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) permettant d’utiliser des images raster (bitmaps) et des images vectorielles (les sous-fichiers). La classe [**bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap) et la classe [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) héritent toutes deux de la classe **image** . La classe **bitmap** développe les fonctionnalités de la classe **image** en fournissant des méthodes supplémentaires pour le chargement, l’enregistrement et la manipulation d’images raster. La classe **Metafile** développe les fonctionnalités de la classe **image** en fournissant des méthodes supplémentaires pour l’enregistrement et l’examen d’images vectorielles.
 
 Les rubriques suivantes couvrent plus en détail les classes [**image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image), [**bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap)et [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) :
 

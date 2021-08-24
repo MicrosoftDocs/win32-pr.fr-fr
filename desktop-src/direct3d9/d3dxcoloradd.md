@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f326c9bec4802a9a94accc76b825cd1c6ea28fd5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bb96d811f94975d8c7be3225349fd4412a0d1168167066001888084a4ef59136
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631609"
 ---
 # <a name="d3dxcoloradd-function"></a>D3DXColorAdd fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **D3DXCOLOR**](d3dxcolor.md)\***
 
 Cette fonction retourne un pointeur vers une structure [**D3DXCOLOR**](d3dxcolor.md) qui est la somme de deux valeurs de couleur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans moue. De cette façon, la fonction **D3DXColorAdd** peut être utilisée comme paramètre pour une autre fonction.
 

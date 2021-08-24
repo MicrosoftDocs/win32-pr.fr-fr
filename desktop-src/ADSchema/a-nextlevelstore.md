@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad723aeddbe2223fcde0fa5231a456ade1b99719
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1af9d6476ff4f34625fcea2c2e494e001b99524569b0263284e6d11e90c08b08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106536928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703199"
 ---
 # <a name="next-level-store-attribute"></a>Attribut de stockage de niveau suivant
 
@@ -45,7 +45,7 @@ Cet attribut indique le magasin de classes suivant dans lequel effectuer la rech
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
