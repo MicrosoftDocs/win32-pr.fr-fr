@@ -4,12 +4,12 @@ ms.assetid: 15838467-D253-4ECE-B9E7-AFD3A21B3AF2
 title: Attribut MF_STREAM_SINK_SUPPORTS_HW_CONNECTION (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a95bfecba4cf53b6ef7c8863ec0456e310d8bcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a9f663c492e5ae15590cc9240762e90298122790fa350fae51d09dd1199f6d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714373"
 ---
 # <a name="mf_stream_sink_supports_hw_connection-attribute"></a>Le \_ récepteur de flux MF \_ \_ prend en charge l' \_ attribut de \_ connexion matérielle
 
@@ -19,7 +19,7 @@ Indique si un récepteur multimédia prend en charge le workflow de données mat
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utilisé lorsqu’un récepteur multimédia transmet un périphérique matériel et est en mesure de recevoir des données sur un bus matériel. Par exemple, un décodeur audio matériel peut envoyer des données audio directement au matériel de rendu audio.
 
@@ -41,8 +41,8 @@ La connexion entre la table MFT et le récepteur multimédia est négociée comm
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

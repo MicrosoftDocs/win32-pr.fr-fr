@@ -6,12 +6,12 @@ keywords:
 - Espace de noms D2D1, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e94f20d2fcf5d954cacc62e24948ad2a29aa25cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d2dc903ea53080794d6c249dcc18d76ab7207eabfbb024e78a6f0b14e5299676
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757899"
 ---
 # <a name="direct2d-helper-functions"></a>Fonctions d’assistance Direct2D
 
@@ -36,7 +36,7 @@ L’espace de noms D2D1 définit les fonctions suivantes.
 | [**DrawingStateDescription**](/windows/desktop/api/d2d1helper/nf-d2d1helper-drawingstatedescription)<br/>                                                 | Crée une structure de [**\_ Description d' \_ état \_ de dessin d2d1**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_drawing_state_description) .<br/>                                                                                                                                    |
 | [**DrawingStateDescription1**](/windows/desktop/api/d2d1_1helper/nf-d2d1_1helper-drawingstatedescription1)<br/>                                               | Crée une \_ structure de DESCRIPTION1 d’état de dessin d2d1 \_ \_ .<br/>                                                                                                                                                                             |
 | [**EffectInputDescription**](/windows/desktop/api/D2d1_1helper/nf-d2d1_1helper-effectinputdescription)<br/>                                                   | Crée une structure de [**\_ \_ \_ Description d’entrée d’effet d2d1**](/windows/desktop/api/D2D1_1/ns-d2d1_1-d2d1_effect_input_description) .<br/>                                                                                                                                      |
-| [**Ellipse**](/windows/desktop/api/d2d1helper/nf-d2d1helper-ellipse)<br/>                                                                                 | Crée une structure d' [**\_ ellipse d2d1**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse) .<br/>                                                                                                                                                                          |
+| [**Es**](/windows/desktop/api/d2d1helper/nf-d2d1helper-ellipse)<br/>                                                                                 | Crée une structure d' [**\_ ellipse d2d1**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_ellipse) .<br/>                                                                                                                                                                          |
 | [**FloatMax**](/windows/desktop/api/d2d1helper/nf-d2d1helper-floatmax)<br/>                                                                               | Retourne la valeur à virgule flottante maximale.<br/>                                                                                                                                                                                           |
 | [**GradientMeshPatch**](/windows/desktop/api/d2d1_3helper/nf-d2d1_3helper-gradientmeshpatch)<br/>                                                             | Crée une structure de [**\_ patch de \_ maillage \_ de dégradé d2d1**](/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_gradient_mesh_patch) qui contient les points de contrôle, les couleurs et les indicateurs de limite donnés. <br/>                                                                            |
 | [**GradientMeshPatchFromCoonsPatch**](/windows/desktop/api/d2d1_3helper/nf-d2d1_3helper-gradientmeshpatchfromcoonspatch)<br/>                                 | Crée un [**\_ patch de \_ maillage \_ de gradient d2d1**](/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_gradient_mesh_patch) à partir d’une description de correctif Coons donnée. <br/>                                                                                                                    |

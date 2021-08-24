@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f35cdca92cb15e1c6fff215ff1363844e0d47012
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 23b2ee879752365e3100866a4ea82a33b01a2236f4f3266539e79b3ee37b94e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701159"
 ---
 # <a name="cim_associatedprocessormemory-class"></a>\_Classe CIM AssociatedProcessorMemory
 
@@ -106,7 +106,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) (�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ AssociatedProcessorMemory** est dérivée de [**CIM \_ AssociatedMemory**](cim-associatedmemory.md).
 

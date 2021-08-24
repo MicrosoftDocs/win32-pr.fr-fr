@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 12c328f30e56db348b018b73b02aa4320bf99505
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7f994c858b9a2817ac89a5d5c6db794e054652fb2a57c69404030074ad14cd45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800749"
 ---
 # <a name="takeownership-method-of-the-cim_directory-class"></a>Méthode TakeOwnerShip de la \_ classe de répertoire CIM
 
@@ -45,7 +45,7 @@ uint32 TakeOwnerShip();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -142,7 +142,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
@@ -150,7 +150,7 @@ Cette documentation est dérivée des descriptions de classe CIM publiées par l
 
 ## <a name="examples"></a>Exemples
 
-L’Visual Basic Code de script suivant appelle la méthode **TakeOwnership** pour prendre possession du dossier C : \\ temp.
+l’Visual Basic code de Script suivant appelle la méthode **TakeOwnerShip** pour prendre possession du dossier C : \\ temp.
 
 
 ```VB

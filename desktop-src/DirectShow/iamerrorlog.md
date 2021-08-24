@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMErrorLog fournit une méthode de rappel pour la journalisation des erreurs dans les services de modification DirectShow (DES). DES n’implémente pas cette interface.
+description: l’interface IAMErrorLog fournit une méthode de rappel pour la journalisation des erreurs dans DirectShow Services d’édition (DES). DES n’implémente pas cette interface.
 ms.assetid: d5366072-2de7-437c-b198-cbc4d8623c45
 title: Interface IAMErrorLog (qedit. h)
 ms.topic: reference
@@ -14,25 +14,25 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 48a1515ebf3e7c829a3e23772f1f84ee76c36ae0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2edd1d315cc7ae35bbc200209667d49d53392ce86a10b40a067182cd0621124
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756459"
 ---
 # <a name="iamerrorlog-interface"></a>Interface IAMErrorLog
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMErrorLog` interface fournit une méthode de rappel pour la journalisation des erreurs dans les [services de modification DirectShow](directshow-editing-services.md) (des).
+l' `IAMErrorLog` interface fournit une méthode de rappel pour la journalisation des erreurs dans [DirectShow Services d’édition](directshow-editing-services.md) (DES).
 
 DES n’implémente pas cette interface. Pour effectuer la journalisation des erreurs, implémentez cette interface dans votre application et appelez [**IAMSetErrorLog ::p ut \_ ErrorLog**](iamseterrorlog-put-errorlog.md) sur la chronologie. Si une erreur se produit lors du rendu du projet, les appellent la méthode [**IAMErrorLog :: LogError**](iamerrorlog-logerror.md) implémentée par votre application.
 
-DES enregistre les erreurs uniquement lorsque vous affichez un projet à l’aide de l’interface [**IRenderEngine**](irenderengine.md) . Par exemple, si vous enregistrez un projet sous la forme d’un graphique de filtre DirectShow (format. GRF) et que vous lisez le fichier de graphique, il n’y a pas de journalisation des erreurs. Pour plus d’informations sur l’utilisation de cette interface, consultez [journalisation des erreurs](logging-errors.md).
+DES enregistre les erreurs uniquement lorsque vous affichez un projet à l’aide de l’interface [**IRenderEngine**](irenderengine.md) . par exemple, si vous enregistrez un projet sous la forme d’un graphique de filtre de DirectShow (format. grf) et que vous lisez le fichier de graphique, il n’y a pas de journalisation des erreurs. Pour plus d’informations sur l’utilisation de cette interface, consultez [journalisation des erreurs](logging-errors.md).
 
 ## <a name="members"></a>Membres
 
@@ -54,7 +54,7 @@ L’interface **IAMErrorLog** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -62,7 +62,7 @@ L’interface **IAMErrorLog** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

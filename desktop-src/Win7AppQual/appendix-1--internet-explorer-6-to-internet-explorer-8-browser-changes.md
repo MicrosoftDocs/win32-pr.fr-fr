@@ -1,19 +1,19 @@
 ---
-description: Le tableau suivant décrit les modifications apportées entre Microsoft Internet Explorer 6 et Windows Internet Explorer 8.
+description: le tableau suivant décrit les modifications apportées entre Microsoft internet explorer 6 et Windows internet explorer 8.
 ms.assetid: 5A7DDFC4-69A4-4B5A-9C0A-6172E2142494
 title: Modifications du navigateur IE 8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7abf978d2211a03b59a78847a66efc21f3213c41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c775448d8eca55097b0121592c28ece0b2c347f4492e7a48b2d51d9ab688fa89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680288"
 ---
 # <a name="appendix-1-internet-explorer-6-to-internet-explorer-8-browser-changes"></a>Annexe 1 : modifications apportées à Internet Explorer 6 et au navigateur Internet Explorer 8
 
-Le tableau suivant décrit les modifications apportées entre Microsoft Internet Explorer 6 et Windows Internet Explorer 8.
+le tableau suivant décrit les modifications apportées entre Microsoft internet explorer 6 et Windows internet explorer 8.
 
 
 
@@ -23,7 +23,7 @@ Modifications de conception d’Internet Explorer 7 vers Internet Explorer 8
 
 $ {ROWSPAN2} $Internet Explorateur de versions $ {REMOVE} $  
 
-Recherchez du code qui n’a pas été correctement détecté dans les cas d’Internet Explorer 6, Windows Internet Explorer 7 ou Internet Explorer 8 par le biais de la [détection de chaînes de l’agent utilisateur, des vecteurs de version ou des commentaires conditionnels](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85)).
+recherchez du code qui ne présente pas des cas particuliers dans internet explorer 6, Windows internet explorer 7 ou internet explorer 8 par le biais de la [détection de chaînes de l’agent utilisateur, des vecteurs de versions ou des commentaires conditionnels](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85)).
 
 -   Lorsqu’une chaîne d’agent utilisateur long rencontre un serveur qui accepte uniquement des chaînes UA plus courtes, les utilisateurs voient [une page d’erreur](https://www.enhanceie.com/ua.aspx).
 
@@ -57,14 +57,14 @@ S'applique au mode standard d'Internet Explorer 8 et versions ultérieures :
 -   Les [éléments P](https://msdn.microsoft.com/library/Cc843977(v=VS.85).aspx) non fermés sont fermés automatiquement lorsqu’ils sont suivis par des éléments [**table**](https://msdn.microsoft.com/library/ms535901(v=VS.85).aspx), [**Form**](https://msdn.microsoft.com/library/ms535249(v=VS.85).aspx), [**noframe**](https://msdn.microsoft.com/library/ms535857(v=VS.85).aspx)ou [**NoScript**](https://msdn.microsoft.com/library/ms535858(v=VS.85).aspx) .
 -   Le [code HTML incorrect](/archive/blogs/ie/site-compatibility-and-ie8) n’est pas pris en charge, en faveur du balisage valide bien formé.
 -   La syntaxe d' [attribut « ClassName »](/archive/blogs/ie/site-compatibility-and-ie8) n’est pas prise en charge, en faveur de la syntaxe « Class ».
--   [La collection d’attributs](/archive/blogs/ie/site-compatibility-and-ie8) ne contient pas tous les attributs possibles reconnus par Windows Internet Explorer.
+-   [la collection d’attributs](/archive/blogs/ie/site-compatibility-and-ie8) ne contient pas tous les attributs possibles que Windows Internet Explorer reconnaît.
 -   L’ordre des attributs [a changé](/archive/blogs/ie/site-compatibility-and-ie8), ce qui affecte la collection d’attributs, InnerHtml et OuterHtml.
 -   [GetElementById](/archive/blogs/ie/site-compatibility-and-ie8) respecte la casse et ne recherche pas les attributs de nom.
 -   Les [sélecteurs de préfixe CSS génériques](/archive/blogs/ie/site-compatibility-and-ie8) (c’est-à-dire la \\ syntaxe v :) ne \* sont pas pris en charge, en faveur des noms de balises explicites.
 -   Les [expressions CSS](/archive/blogs/ie/site-compatibility-and-ie8) ne sont pas prises en charge, en faveur d’une prise en charge CSS améliorée ou d’une logique DHTML.
 -   Le code destiné aux méthodes d’objet JSON personnalisées peut être en conflit avec le [nouvel objet JSON natif](/archive/blogs/ie/site-compatibility-and-ie8) dans Internet Explorer 8.
 -   Les [propriétés initiales non définies](/archive/blogs/ie/site-compatibility-and-ie8) sur l’objet currentStyle retournent retournent leur valeur initiale.
--   Les [valeurs de propriétés non spécifiées](/archive/blogs/ie/site-compatibility-and-ie8) sur l’objet de style objet currentStyle retournent retournent une chaîne vide (par exemple, consultez le [menu ASP.net et](/archive/blogs/giorgio/) le billet de blog sur les problèmes d’affichage IE8).
+-   les [valeurs des propriétés non spécifiées](/archive/blogs/ie/site-compatibility-and-ie8) sur l’objet de style de l’objet currentstyle retournent retournent une chaîne vide (par exemple, consultez le [Menu ASP.NET et](/archive/blogs/giorgio/) le billet de blog sur les problèmes d’affichage IE8).
 
 <!-- -->
 
@@ -79,7 +79,7 @@ Améliorations de sécurité
 <!-- -->
 
 -   Le contournement de [Window. opener](/previous-versions/aa740486(v=msdn.10)) à l’invite window. Close n’est pas autorisé.
--   [La protection de la mise en cache d’objets](/previous-versions/windows/internet-explorer/ie-developer/) est activée par défaut, ce qui bloque l’accès aux références d’objets quand les utilisateurs accèdent à un nouveau domaine (s’applique à Internet Explorer 6 et versions ultérieures sur Windows XP avec Service Pack 2 (SP2) et versions ultérieures).
+-   [la protection de la mise en cache d’objets](/previous-versions/windows/internet-explorer/ie-developer/) est activée par défaut, ce qui bloque l’accès aux références d’objets quand les utilisateurs accèdent à un nouveau domaine (s’applique à Internet Explorer 6 et versions ultérieures sur Windows XP avec Service Pack 2 (SP2) et versions ultérieures).
 -   Les [scriptlets DHTML](/previous-versions/windows/internet-explorer/ie-developer/) sont désactivés par défaut.
 -   [Les scripts qui écrivent dans la barre d’État](/previous-versions/windows/internet-explorer/ie-developer/) sont bloqués.
 -   La [création d’URL peut échouer](/previous-versions/windows/internet-explorer/ie-developer/) si les URL ne respectent pas les instructions RFC.
@@ -98,9 +98,9 @@ Améliorations de sécurité
 -   Le [contrôle de téléchargement de fichier](/archive/blogs/ie/) envoie uniquement le chemin d’accès du fichier, et non le chemin d’accès complet au serveur.
 -   L’exécution du code HTML ou du script fourni avec un [ \* type MIME « image/ »](/archive/blogs/ie/) est bloquée.
 -   La navigation dans un [cadre de niveau supérieur](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565638(v=vs.85)) vers un site dans un contexte de sécurité différent ouvre une nouvelle fenêtre ou un nouvel onglet au lieu de naviguer dans le frame existant.
--   Le [script encodé UTF-7](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565635(v=vs.85)) est forcé dans l’encodage Windows-1252, ce qui peut provoquer un rendu de texte brut.
+-   le [script encodé UTF-7](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565635(v=vs.85)) est forcé dans l’encodage Windows-1252, ce qui peut provoquer un rendu de texte brut.
 -   Les [pages http/https « mode mixte »](/archive/blogs/askie/mixed-content-and-internet-explorer-8-0) affichent une boîte de dialogue qui affiche par défaut les éléments sécurisés uniquement (par opposition à la valeur par défaut non sécurisée précédente). Les utilisateurs peuvent [choisir par erreur de bloquer les éléments http](/archive/blogs/askie/mixed-content-and-internet-explorer-8-0), comme les images clés.
--   [DEP/NX est activé par défaut](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#depnx), ce qui bloque certains modules complémentaires (c’est-à-dire les contrôles ActiveX et les objets com) qui sont générés à l’aide de versions antérieures d’ATL pour exécuter du code marqué comme « non exécutable » en mémoire.
+-   [DEP/NX est activé par défaut](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#depnx), ce qui bloque certains modules complémentaires (autrement dit, les contrôles ActiveX et les objets COM) qui sont générés à l’aide de versions antérieures d’ATL pour exécuter du code marqué comme « non exécutable » en mémoire.
 -   [Le contenu renvoyé par un proxy Web](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565641(v=vs.85)) est bloqué si aucun tunnel SSL n’est établi en réponse à une demande de connexion au serveur d’origine.
 
 Modifications architecturales
@@ -109,12 +109,12 @@ Modifications architecturales
 
 <!-- -->
 
--   Le [mode protégé](/previous-versions/windows/internet-explorer/ie-developer/) est activé par défaut pour les [zones Internet, intranet et sites sensibles](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537187(v=vs.85)). Ce mode [bloque les extensions de navigateur qui peuvent poser un risque de sécurité](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565645(v=vs.85)) à partir de l’exécution et des [applications à privilèges faibles de l’accès à des processus de privilège plus élevés](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565646(v=vs.85)), tels que le menu Démarrer, le panneau de configuration et le Registre Microsoft Windows (s’applique à Internet Explorer 7 et versions ultérieures sur Windows Vista et versions ultérieures).
+-   Le [mode protégé](/previous-versions/windows/internet-explorer/ie-developer/) est activé par défaut pour les [zones Internet, intranet et sites sensibles](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537187(v=vs.85)). ce mode [bloque les extensions de navigateur qui peuvent poser un risque de sécurité](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565645(v=vs.85)) à partir de l’exécution et des [applications à privilèges faibles de l’accès à des processus de privilège plus élevés](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565646(v=vs.85)), comme les menu Démarrer, le panneau de configuration et le registre de Windows Microsoft (s’applique à Internet Explorer 7 et versions ultérieures sur Windows Vista et versions ultérieures).
 
 <!-- -->
 
 -   [Mise à jour du mode protégé](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565648(v=vs.85)): l’intranet s’exécute par défaut au niveau d’intégrité moyen (au lieu d’être faible).
--   [Internet Explorer faiblement couplé](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#lcie) peut bloquer des modules complémentaires (c’est-à-dire des contrôles ActiveX et des objets com) qui effectuent l’une des opérations suivantes :
+-   [Internet Explorer faiblement couplé](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#lcie) peut bloquer des modules complémentaires (c’est-à-dire des contrôles de ActiveX et des objets COM) qui effectuent l’une des opérations suivantes :
     -   Utilisez les techniques de hiérarchie Windows pour localiser les fenêtres Frame et onglet de l’interface utilisateur (qui s’exécutent désormais dans des processus distincts à des niveaux d’intégrité différents).
     -   Créez une sous-classe du frame de l’interface utilisateur (maintenant au niveau d’intégrité moyenne) à partir d’un processus d’onglets de faible intégrité.
     -   Utilisez des techniques de messagerie non prises en charge entre les onglets et la trame de l’interface utilisateur.

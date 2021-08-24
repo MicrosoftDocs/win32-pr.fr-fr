@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 57c83bc3e9535550086c9732b33a71a357e4da42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69dae4ca2a7f7a9e3b2f77047475c5dd35f54a3394b4481c2f452a46e983c35e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744269"
 ---
 # <a name="expertmemorysize-function"></a>ExpertMemorySize fonction)
 
@@ -58,7 +58,7 @@ Pointeur vers l’adresse mémoire de l’expert alloué par [ExpertAllocMemory]
 
 La fonction retourne la quantité de mémoire allouée en octets.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur le type de données **size \_ T** renvoyé par **ExpertMemorySize** , consultez types de données.
 

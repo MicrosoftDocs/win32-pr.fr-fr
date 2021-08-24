@@ -5,24 +5,24 @@ ms.tgt_platform: multiple
 title: Connexion à WMI à distance avec PowerShell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a2bb1ad982a20a10dbadd89856d118f1be9bd82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35d499c59ee6774b1e972e192dfc2c0d1228469196c66e8f3feb80d1c9d6339c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679869"
 ---
 # <a name="connecting-to-wmi-remotely-with-powershell"></a>Connexion à WMI à distance avec PowerShell
 
-Windows PowerShell fournit un mécanisme simple pour se connecter à Windows Management Instrumentation (WMI) sur un ordinateur distant. Les connexions à distance dans WMI sont affectées par le [pare-feu Windows](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11)), les paramètres DCOM et le [contrôle de compte d’utilisateur (UAC)](/previous-versions/aa905108(v=msdn.10)). Pour plus d’informations sur la configuration des connexions à distance, consultez [connexion à WMI à distance à partir de Windows Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+Windows PowerShell fournit un mécanisme simple pour se connecter à Windows Management Instrumentation (WMI) sur un ordinateur distant. les connexions distantes dans WMI sont affectées par le [pare-feu Windows](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754274(v=ws.11)), les paramètres DCOM et le [contrôle de compte d’utilisateur (UAC)](/previous-versions/aa905108(v=msdn.10)). pour plus d’informations sur la configuration des connexions à distance, consultez [connexion à WMI à distance à partir de Windows Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
 Les exemples de cette rubrique sont basés sur les VBScripts de la [connexion à WMI sur un ordinateur distant](connecting-to-wmi-on-a-remote-computer.md). Tous les exemples de cette rubrique utilisent l’applet de commande [« obtient-WmiObject »](/previous-versions//dd315295(v=technet.10)) . Pour plus d’informations, consultez la rubrique [obtenir-WmiObject](/previous-versions//dd315295(v=technet.10)).
 
-## <a name="windows-powershell-examples"></a>Exemples Windows PowerShell
+## <a name="windows-powershell-examples"></a>exemples de Windows PowerShell
 
 Lors de la création d’une connexion à un ordinateur distant, un utilisateur peut spécifier les informations de connexion, telles que le nom de l’ordinateur distant, les informations d’identification et le niveau d’authentification de la connexion. Les exemples suivants montrent comment se connecter à un ordinateur distant à l’aide de différents jeux d’informations d’identification et comment accéder aux informations WMI.
 
-L’exemple Windows PowerShell suivant illustre la définition du niveau d’emprunt d’identité :
+l’exemple de Windows PowerShell suivant illustre la définition du niveau d’emprunt d’identité :
 
 
 ```PowerShell
@@ -41,7 +41,7 @@ L’exemple répertorie toutes les instances de la classe de [**\_ processus Win
 
  
 
-L’exemple Windows PowerShell suivant montre comment se connecter à un ordinateur distant avec des informations d’identification différentes et définir le niveau d’emprunt d’identité à 3, ce qui correspond à l’emprunt d’identité :
+l’exemple de Windows PowerShell suivant montre comment se connecter à un ordinateur distant avec des informations d’identification différentes et définir le niveau d’emprunt d’identité sur 3, ce qui correspond à l’emprunt d’identité :
 
 
 ```PowerShell
@@ -61,7 +61,7 @@ Dans l’exemple précédent, le nom de l’ordinateur a été affecté à la va
 
  
 
-L’exemple Windows PowerShell suivant se connecte à un groupe d’ordinateurs distants dans le même domaine en créant un tableau de noms d’ordinateurs distants, puis en affichant les noms des appareils Plug-and-Play (instances de [**Win32 \_ PnPEntity**](/windows/desktop/CIMWin32Prov/win32-pnpentity)) sur chaque ordinateur :
+l’exemple de Windows PowerShell suivant se connecte à un groupe d’ordinateurs distants dans le même domaine en créant un tableau de noms d’ordinateurs distants, puis en affichant les noms des appareils Plug-and-Play (instances de [**\_ PnPEntity Win32**](/windows/desktop/CIMWin32Prov/win32-pnpentity)) sur chaque ordinateur :
 
 
 ```PowerShell
@@ -85,7 +85,7 @@ $ColItems[0..47] | Format-List Name, Status
 
 
 > [!Note]  
-> Pour exécuter le script Windows PowerShell précédent, vous devez être administrateur sur les ordinateurs distants. En outre, en rapport avec l’exemple précédent, notez les points suivants :
+> pour exécuter le script de Windows PowerShell précédent, vous devez être administrateur sur les ordinateurs distants. En outre, en rapport avec l’exemple précédent, notez les points suivants :
 
  
 
@@ -94,7 +94,7 @@ $ColItems[0..47] | Format-List Name, Status
 -   L’opérateur \[ \] de plage limite la liste des appareils Plug-and-Play à 48 instances. Pour plus d’informations, consultez [à propos des \_ opérateurs](/previous-versions//dd347588(v=technet.10)).
 -   « \| » Est le caractère de pipeline. L’objet retourné par ColItems est envoyé à l’applet de commande [format-list]( /previous-versions//dd347700(v=technet.10)) .
 
-L’exemple Windows PowerShell suivant vous permet de vous connecter à un ordinateur distant situé sur un autre domaine. Cet exemple affiche également les noms des processus pour les instances de [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) sur l’ordinateur distant.
+l’exemple de Windows PowerShell suivant vous permet de vous connecter à un ordinateur distant situé sur un autre domaine. Cet exemple affiche également les noms des processus pour les instances de [**\_ processus Win32**](/windows/desktop/CIMWin32Prov/win32-process) sur l’ordinateur distant.
 
 
 ```PowerShell
@@ -113,7 +113,7 @@ write-host "Process Name:" $ObjItem.name
 
 
 > [!Note]  
-> Pour exécuter le script Windows PowerShell précédent, vous devez être administrateur sur l’ordinateur distant.
+> pour exécuter le script de Windows PowerShell précédent, vous devez être administrateur sur l’ordinateur distant.
 
  
 

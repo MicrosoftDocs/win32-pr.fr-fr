@@ -18,12 +18,12 @@ api_location:
 - MinKernelBase.dll
 - API-MS-Win-Core-io-l1-1-1.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: d45471cc066e6de7cb388036e06e727fe828a532
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f81bc0c997e3637fa941cb5a23f6394ba1f585566c8d633cadb00c9fd75ac805
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696119"
 ---
 # <a name="getqueuedcompletionstatusex-function"></a>GetQueuedCompletionStatusEx fonction)
 
@@ -123,7 +123,7 @@ Les applications serveur peuvent avoir plusieurs threads appelant la fonction **
 
 Pour plus d’informations sur la théorie, l’utilisation et les fonctions associées du port de terminaison d’e/s, consultez [ports de terminaison d’e/s](i-o-completion-ports.md).
 
-Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
+dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
 
 
 
@@ -145,9 +145,9 @@ Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par le
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                                                                                                                                                                                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                                                                                                                                                                                                             |
-| En-tête<br/>                   | <dl> <dt>IoAPI. h (inclure Windows. h); </dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista (inclure Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                                                                                                                                                                                                                   |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                                                                                                                                                                                                             |
+| En-tête<br/>                   | <dl> <dt>IoAPI. h (include Windows. h);</dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista (include Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                 |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                 |
 
@@ -166,7 +166,7 @@ Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par le
 [Ports de terminaison d’e/s](i-o-completion-ports.md)
 </dt> <dt>
 
-[Utilisation des en-têtes Windows](/windows/desktop/WinProg/using-the-windows-headers)
+[utilisation des en-têtes de Windows](/windows/desktop/WinProg/using-the-windows-headers)
 </dt> <dt>
 
 **Fonctions**

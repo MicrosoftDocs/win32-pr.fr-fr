@@ -4,12 +4,12 @@ ms.assetid: 3f53c555-02a9-4249-9f1a-98cd655fc79f
 title: Action MigrateFeatureStates
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e76edb5fa13506291cc85ebcf8c8824e4ee28e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbac96a3b2babf5f92ae8078ecc703875c09a0e2f61155fd565985919b5a6393
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745169"
 ---
 # <a name="migratefeaturestates-action"></a>Action MigrateFeatureStates
 
@@ -27,7 +27,7 @@ L’action MigrateFeatureStates doit se trouver immédiatement après l' [action
 
 MigrateFeatureSettings envoie un message de données d’action pour chaque produit.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si plusieurs produits installés partagent une fonctionnalité, l’état d’installation de cette fonctionnalité peut varier d’un produit à l’autre. L’action MigrateFeatureState utilise l’ordre de priorité suivant lors de la migration des États d’installation des fonctionnalités : exécution locale, exécution à partir de la source, publiée et désinstallée. Par exemple, le produit installé A peut avoir la fonctionnalité Y en tant que INSTALLSTATE \_ local et le produit B installé peut avoir la fonctionnalité y en tant que InstallState \_ absente. Si une mise à niveau installe le produit C et migre l’état d’installation de la fonctionnalité Y, MigrateFeatureState définit l’état d’installation de la fonctionnalité Y du produit C sur INSTALLSTATE \_ local.
 

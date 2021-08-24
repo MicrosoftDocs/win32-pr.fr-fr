@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre DCOMSCMRemoteCallFlags COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fda58975e40ac6ac1633db8aa78f2c7636f9103
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 81d658b80d347e684aa42aebad936a863b9bca2138b3118508849a730e11878d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678828"
 ---
 # <a name="dcomscmremotecallflags"></a>DCOMSCMRemoteCallFlags
 
@@ -21,10 +21,10 @@ Contrôle le comportement des appels du gestionnaire de contrôle des services D
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   DCOMSCMRemoteCallFlags = value
+   DCOMSCMRemoteCallFlags = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **Registre \_ DWORD** .
 
@@ -40,7 +40,7 @@ Il s’agit d’une valeur de **Registre \_ DWORD** .
 
 
 
- 
+ 
 
 ## <a name="dcomscm_activation_use_all_authnservices-description"></a>DCOMSCM \_ Activation \_ utiliser \_ toutes les \_ AUTHNSERVICES Description
 
@@ -48,7 +48,7 @@ Lorsque le client émet une demande d’activation qui utilise les paramètres d
 
 **Windows Server 2003 et Windows XP/2000 :** Si l’appel RPC d’activation qui utilise le service Negotiate Authentication échoue, le DCOMSCM local effectue l’appel RPC d’activation à l’aide de Kerberos, NTLM ou d’autres fournisseurs de sécurité configurés. Si aucun fournisseur de sécurité ne fonctionne, le DCOMSCM local effectue l’appel RPC d’activation en l’absence de sécurité.
 
-En définissant cet indicateur, les DCOMSCM locaux sur Windows Vista ou version ultérieure peuvent être configurés pour se comporter comme des systèmes antérieurs à Vista. Il n’est pas recommandé de définir cet indicateur, sauf s’il est requis pour des raisons de compatibilité.
+en définissant cet indicateur, les DCOMSCM locaux sur Windows Vista ou version ultérieure peuvent être configurés pour se comporter comme des systèmes antérieurs à vista. Il n’est pas recommandé de définir cet indicateur, sauf s’il est requis pour des raisons de compatibilité.
 
 ## <a name="dcomscm_activation_disallow_unsecure_call-description"></a>DCOMSCM \_ Activation \_ interdire la description de l' \_ appel non sécurisé \_
 
@@ -62,7 +62,7 @@ Lorsque le client démarshale une référence d’objet, le DCOMSCM local utilis
 
 **Windows Server 2003 et Windows XP/2000 :** Si l’appel RPC de résolution OXID à l’aide du service d’authentification Negotiate échoue, le DCOMSCM local effectue l’appel RPC de résolution OXID à l’aide de Kerberos, NTLM ou d’autres fournisseurs de sécurité configurés. Si aucun fournisseur de sécurité ne fonctionne, le DCOMSCM local effectue l’appel RPC de résolution OXID à l’aide d’aucune sécurité.
 
-En définissant cet indicateur, les DCOMSCM locaux sur Windows Vista ou version ultérieure peuvent être configurés pour se comporter comme des systèmes antérieurs à Vista. Il n’est pas recommandé de définir cet indicateur, sauf s’il est requis pour des raisons de compatibilité.
+en définissant cet indicateur, les DCOMSCM locaux sur Windows Vista ou version ultérieure peuvent être configurés pour se comporter comme des systèmes antérieurs à vista. Il n’est pas recommandé de définir cet indicateur, sauf s’il est requis pour des raisons de compatibilité.
 
 ## <a name="dcomscm_resolve_disallow_unsecure_call-description"></a>DCOMSCM \_ résoudre \_ interdire la description de l' \_ appel non sécurisé \_
 
@@ -74,7 +74,7 @@ Le DCOMSCM local utilise le service d’authentification Negotiate lors du test 
 
 **Windows Server 2003 et Windows XP/2000 :** En cas d’échec de l’appel RPC ping de garbage collection à l’aide du service Negotiate Authentication, le DCOMSCM local effectue l’appel RPC ping garbage collection à l’aide de Kerberos, NTLM et d’autres fournisseurs de sécurité configurés. Si aucun fournisseur de sécurité ne fonctionne, le DCOMSCM local effectue l’appel RPC ping garbage collection à l’aide d’aucune sécurité.
 
-En définissant cet indicateur, les DCOMSCM locaux sur Windows Vista ou version ultérieure peuvent être configurés pour se comporter comme des systèmes antérieurs à Vista. Il n’est pas recommandé de définir l’indicateur **\_ ping DCOMSCM \_ use \_ Mid \_ AUTHNSERVICE** , sauf s’il est requis pour des raisons de compatibilité.
+en définissant cet indicateur, le DCOMSCM local sur Windows Vista ou version ultérieure peut être configuré pour se comporter comme des systèmes antérieurs à vista. Il n’est pas recommandé de définir l’indicateur **\_ ping DCOMSCM \_ use \_ Mid \_ AUTHNSERVICE** , sauf s’il est requis pour des raisons de compatibilité.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -92,6 +92,6 @@ En définissant cet indicateur, les DCOMSCM locaux sur Windows Vista ou version 
 [Sécurité dans COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

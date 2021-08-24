@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af07d2492d70f9c0a3a764d767b52b2f71204939
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93eb3c7e2d7f4a6d261632e0f010cf0e1c7a2410a5a8364a6cf1fd65f36ada99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777929"
 ---
 # <a name="glrendermode-function"></a>glRenderMode fonction)
 
@@ -65,7 +65,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                                     |
+| Name                                                                                                  | Signification                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *mode* ne faisait pas partie des trois valeurs acceptées.<br/>                                                                                     |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée avec l’argument GL \_ Select avant que [**glSelectBuffer**](glselectbuffer.md) ne soit appelé au moins une fois.<br/>       |
@@ -74,7 +74,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glRenderMode** prend un argument, *mode*, qui peut prendre l’une des trois valeurs prédéfinies ci-dessus.
 

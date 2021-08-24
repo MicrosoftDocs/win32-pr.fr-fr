@@ -4,17 +4,17 @@ description: Les utilisateurs ne bénéficient pas de l’installation de logici
 ms.assetid: ed0265a6-4c39-4a1f-9493-e316a6519df7
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 4e5de6f15dd797dd1d1362d1b515122b78c770f4
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 905411c5ae08d2112943088d514ab300abb19ec2b8081158ebdfd896fc2c61ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104558082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119818272"
 ---
 # <a name="setup"></a>Installation
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Les utilisateurs ne bénéficient pas de l’installation de logiciels, donc les expériences d’installation modernes doivent être simples, efficaces et sans problème.
 
@@ -32,7 +32,7 @@ L’expérience d’installation associée à la première utilisation du progra
 
 ## <a name="is-this-the-right-user-interface"></a>S’agit-il de l’interface utilisateur appropriée ?
 
-Bien que tous les programmes Microsoft Windows nécessitent une sorte de programme d’installation, vous avez le choix entre l’emplacement des paramètres du programme :
+alors que tous les programmes Microsoft Windows ont besoin d’un programme d’installation, vous avez le choix entre l’emplacement des paramètres du programme :
 
 -   Installation
 -   Première utilisation du programme
@@ -97,9 +97,9 @@ Même s’il peut être nécessaire d’offrir différentes branches de configur
 
 Une autre raison pour simplifier l’installation est que les utilisateurs inexpérimentés surveillent parfois les options, en craignant qu’un mauvais choix soit irréversible ou destructif. Le fait de forcer les utilisateurs à prendre des décisions sur les choses qu’ils ne comprennent pas ou ne se soucie pas peut les faire ressentir de manière soucieuse, non compétente et même frustré. Ce n’est pas une bonne impression. Il est préférable de les faire passer rapidement, de vous sentir à l’aise et de vous assurer qu’ils explorent les fonctionnalités de votre programme et de prendre de meilleures décisions concernant les options de fonctionnalités à ce moment-là. Pour plus d’instructions, consultez rationalisation de l' [installation](#streamlining-setup) plus loin dans cet article.
 
-Efforcez-vous de rendre l’expérience d’installation aussi [simple que possible, mais pas plus simple](/previous-versions//dn742474(v=vs.85)). Les programmes destinés aux utilisateurs hautement techniques peuvent nécessiter une configuration complexe. Par exemple, l’équipe de Microsoft SQL Server a découvert que les administrateurs de base de données préfèrent conserver le contrôle de nombreuses options d’installation, telles que les emplacements de fichiers. En outre, SQL Server est une application métier de grande taille, avec un certain nombre de composants qui diffèrent largement et en fonction des fonctionnalités. Donc, bien que nous souhaitons simplifier les choses, le programme d’installation doit refléter la complexité du produit et les attentes et les besoins de ses utilisateurs.
+Efforcez-vous de rendre l’expérience d’installation aussi [simple que possible, mais pas plus simple](/previous-versions//dn742474(v=vs.85)). Les programmes destinés aux utilisateurs hautement techniques peuvent nécessiter une configuration complexe. par exemple, l’équipe de Microsoft SQL Server a découvert que les administrateurs de base de données préfèrent conserver le contrôle de nombreuses options d’installation, telles que les emplacements de fichiers. en outre, SQL Server est une application métier de grande taille, avec un certain nombre de composants qui diffèrent largement et en fonction des fonctionnalités. Donc, bien que nous souhaitons simplifier les choses, le programme d’installation doit refléter la complexité du produit et les attentes et les besoins de ses utilisateurs.
 
-Toutefois, ces programmes d’installation complexes doivent être l’exception, et non la règle. La plupart des programmes Windows doivent s’efforcer de démarrer le processus d’installation en une seule étape.
+Toutefois, ces programmes d’installation complexes doivent être l’exception, et non la règle. la plupart des programmes Windows doivent s’efforcer de démarrer le processus d’installation en une seule étape.
 
 ### <a name="setup-phases"></a>Phases de configuration
 
@@ -176,11 +176,11 @@ Conservez l’expérience utilisateur simple, ne l’encombrez pas avec des info
 -   **Autorisez les utilisateurs à redémarrer le programme d’installation là où ils se sont arrêtés s’ils ont besoin d’une grande quantité d’entrées utilisateur ou qu’ils mettent beaucoup de temps à se terminer.** Si les utilisateurs redémarrent le programme après l’avoir fermé avant l’achèvement, restaurez l’entrée d’utilisateur précédente et redémarrez l’emplacement d’arrêt de l’installation.
 -   **N’affiche pas les fenêtres d’installation optimisées.** L’affichage d’une fenêtre d’installation agrandie suppose que les utilisateurs feront une attention non divisée, ce qui est peu probable. Au lieu de cela, choisissez une taille appropriée au contenu pour conserver une apparence simple.
 
-### <a name="windows-integration"></a>Intégration de Windows
+### <a name="windows-integration"></a>intégration de Windows
 
--   **Nommez le fichier d’installation « Setup.exe ».** « Install.exe » est une alternative acceptable. Cela permet à Windows (et aux utilisateurs) de reconnaître le fichier en tant que programme d’installation.
+-   **Nommez le fichier d’installation « Setup.exe ».** « Install.exe » est une alternative acceptable. cela permet à Windows (et aux utilisateurs) de reconnaître le fichier en tant que programme d’installation.
     -   **Exception :** Pour les programmes téléchargés à partir d’Internet, aidez les utilisateurs à gérer et à organiser leur dossier téléchargements en incluant le nom du programme dans le nom du fichier d’installation. Par exemple, SetupVisualStudioExpress2008.exe.
--   **Copiez les fichiers programme vers les emplacements de système de fichiers appropriés.** Cela permet aux utilisateurs et à Windows de trouver et d’organiser les fichiers mieux. Pour plus d’informations, consultez les instructions d’utilisation de l' [espace de noms du système de fichiers Windows](../fileio/naming-a-file.md#namespaces).
+-   **Copiez les fichiers programme vers les emplacements de système de fichiers appropriés.** cela permet aux utilisateurs et aux Windows de rechercher et d’organiser les fichiers mieux. pour plus d’informations, consultez les instructions d’utilisation de l' [espace de noms du système de fichiers Windows](../fileio/naming-a-file.md#namespaces).
 
 ### <a name="user-account-control"></a>Contrôle de compte d'utilisateur
 
@@ -198,7 +198,7 @@ Pour plus d’instructions, consultez [contrôle de compte d’utilisateur](wine
 -   **Évitez de redémarrer Windows.** La plupart des programmes doivent s’installer sans redémarrer Windows. La raison principale pour laquelle les installations ou les mises à jour du programme nécessitent un redémarrage du système est que certains des fichiers impliqués sont actuellement utilisés par un programme en cours d’exécution. Dans ce cas, une meilleure solution consiste à rendre les utilisateurs informés de la situation, à autoriser les utilisateurs à fermer ces programmes et à réessayer l’action. Pour plus d’informations sur l’évitement des redémarrages, consultez [restart Manager](../rstmgr/restart-manager-portal.md).
 -   **Si votre programme d’installation doit redémarrer Windows :**
     -   **Utilisez un redémarrage unique.** Retardez le redémarrage requis par les conditions préalables jusqu’à ce que le programme et ses mises à jour soient entièrement installés.
-    -   **Permet aux utilisateurs de déterminer quand ils se produisent.** Ne redémarrez pas Windows automatiquement, car les utilisateurs risquent de perdre leur travail. Assurez-vous qu’il est clair pour les utilisateurs qu’ils ont le choix.
+    -   **Permet aux utilisateurs de déterminer quand ils se produisent.** ne redémarrez pas Windows automatiquement, car les utilisateurs risquent de perdre leur travail. Assurez-vous qu’il est clair pour les utilisateurs qu’ils ont le choix.
 
         **Incorrect :**
 
@@ -206,7 +206,7 @@ Pour plus d’instructions, consultez [contrôle de compte d’utilisateur](wine
 
         Dans cet exemple, les utilisateurs n’ont pas la possibilité de redémarrer Windows.
 
-    -   **Si l’utilisateur choisit de ne pas redémarrer immédiatement Windows, présentez tous les commentaires finaux en cas de réussite, et non pas un échec.** Bien que l’installation ne soit pas terminée tant que le redémarrage n’est pas effectué, le point de vue de l’utilisateur a été correctement effectué.
+    -   **si l’utilisateur choisit de ne pas redémarrer Windows immédiatement, présentez tous les commentaires finaux en cas de réussite, et non pas un échec.** Bien que l’installation ne soit pas terminée tant que le redémarrage n’est pas effectué, le point de vue de l’utilisateur a été correctement effectué.
 
 ### <a name="streamlining-setup"></a>Rationalisation de la configuration
 
@@ -219,10 +219,10 @@ Pour plus d’instructions, consultez [contrôle de compte d’utilisateur](wine
 
         ![capture d’écran de l’option paramètres personnalisés ](images/exper-setup-image7.png)
 
-        Dans cet exemple, le lecteur Windows Media présente des options de confidentialité par utilisateur lors de la première utilisation du programme.
+        dans cet exemple, Lecteur Windows Media présente des options de confidentialité par utilisateur lors de la première utilisation du programme.
 
     -   Ne posez pas des questions aux utilisateurs sur l’état du système. Détectez ces informations automatiquement à la place et demandez aux utilisateurs de vérifier uniquement s’il existe une raison de modification.
-    -   Ne posez pas de questions sur les détails non importants. Par exemple, pour les programmes Windows standard, il est possible de supposer que vous devez copier les fichiers programme dans le dossier Program Files.
+    -   Ne posez pas de questions sur les détails non importants. par exemple, pour les programmes de Windows standard, il est possible de supposer que vous devez copier les fichiers programme dans le dossier program files.
 
         **Incorrect :**
 
@@ -239,7 +239,7 @@ Pour plus d’instructions, consultez [contrôle de compte d’utilisateur](wine
 -   **Éliminez les pages inutiles.** Si la plupart des utilisateurs cliquent toujours sur la page suivante, pensez à vous débarrasser de la page. Pour obtenir des instructions sur l’élimination de certains types de pages, consultez [types de page](#page-types).
 -   **Éliminez le texte inutile.**
     -   Supprimez le texte redondant des instructions et des étiquettes.
-    -   N’Expliquez pas les concepts de base de l’utilisation de Windows, tels que :
+    -   n’expliquez pas les concepts de base de l’utilisation de Windows, tels que :
         -   Comment interagir avec les contrôles (exemples : pour commencer, cliquez sur suivant ; Pour plus d’options, cliquez sur options. Pour plus d’informations, cliquez sur aide).
         -   Fonctionnement des assistants (exemple : Si vous souhaitez vérifier ou modifier des paramètres, cliquez sur précédent).
         -   Fonctionnement du programme d’installation (exemple : ce programme copie les fichiers programme sur votre disque dur...).
@@ -375,7 +375,7 @@ Pour plus d’instructions, consultez [contrôle de compte d’utilisateur](wine
 
 -   **Lorsque vous installez un seul programme de manière interactive, démarrez le programme (et fermez l’Assistant Installation) pour indiquer la réussite de l’installation, au lieu d’afficher une page de fin. Exceptions**
     -   Les configurations exécutées à partir de la ligne de commande ne doivent pas démarrer de programmes.
-    -   Les mises à jour automatiques (par exemple, Windows Update) ne doivent pas démarrer de programmes.
+    -   les mises à jour automatiques (par exemple, Windows Update) ne doivent pas démarrer de programmes.
     -   L’installation de la stratégie de groupe ne doit pas démarrer les programmes.
     -   Tous les scénarios d’installation professionnels de l’informatique (parce qu’ils n’installent pas pour leur propre usage).
 -   **Si le programme d’installation a effectué des étapes de suivi après l’installation, répertoriez-les sur une page d’achèvement.** Toutefois, pour justifier une page d’achèvement, assurez-vous que les utilisateurs sont susceptibles d’effectuer les étapes et que les étapes doivent être formulées de manière réelle (c’est-à-dire qu’elles ne sont pas évidentes).
@@ -384,7 +384,7 @@ Pour plus d’instructions, consultez [contrôle de compte d’utilisateur](wine
 
     ![capture d’écran de la page montrant que l’installation est terminée ](images/exper-setup-image19.png)
 
-    Dans cet exemple, une page de saisie semi-automatique inutile indique la évidente. Windows Update s’exécute automatiquement, il n’y a aucune raison pour que les utilisateurs l’exécutent manuellement.
+    Dans cet exemple, une page de saisie semi-automatique inutile indique la évidente. Windows La mise à jour s’exécute automatiquement, de sorte que les utilisateurs n’ont aucune raison de l’exécuter manuellement.
 
 -   **Lors de l’installation d’une suite de programmes, affichez une page de fin pour indiquer la réussite et les étapes de suivi qui peuvent être nécessaires.**
 
@@ -395,7 +395,7 @@ Pour plus d’instructions, consultez [contrôle de compte d’utilisateur](wine
 ### <a name="leaving-users-in-control"></a>Laisser les utilisateurs dans le contrôle
 
 -   **Ne collectez pas d’informations personnelles, telles que celles utilisées à des fins de marketing.** Le programme d’installation ne permet pas de pousser votre propre agenda, de vendre plusieurs autres offres de programmes ou d’effectuer des recherches sur le marché. vous pouvez endommager la relation d’approbation avec vos utilisateurs de cette façon.
--   **Ne forcez pas les utilisateurs à refuser l’installation des fonctionnalités facultatives.** Autorisez- [le à la place.](glossary.md) Par exemple, les utilisateurs doivent choisir explicitement d’installer un gadget de bureau Windows.
+-   **Ne forcez pas les utilisateurs à refuser l’installation des fonctionnalités facultatives.** Autorisez- [le à la place.](glossary.md) par exemple, les utilisateurs doivent choisir explicitement d’installer un Gadget Windows Desktop.
 -   **Autorisez les utilisateurs à ajouter ou supprimer des fonctionnalités facultatives à l’aide du programme d’installation après l’installation initiale.** Les utilisateurs peuvent effectuer cette tâche à l’aide de l’élément **désinstaller ou modifier un programme** du panneau de configuration.
 -   **Pour les initiatives d’amélioration de l’expérience utilisateur, expliquez quelles sont les données transmises, comment elles sont utilisées et combien de temps elles sont conservées.** Utilisez un lien vers une rubrique d’aide relative à la déclaration de confidentialité à cet effet.
 -   **Évitez d’utiliser le son,** car de nombreux scénarios d’installation sont sans assistance et, car le son peut être inutilement gênant, même pendant les installations avec assistance.
@@ -412,9 +412,9 @@ Pour plus d’instructions, consultez [contrôle de compte d’utilisateur](wine
 
 -   **La désinstallation doit supprimer toutes les traces d’un programme, y compris les éléments suivants :**
     -   Fichiers programme, y compris le programme d’installation.
-    -   Entrées du menu Démarrer.
+    -   entrées de menu Démarrer.
     -   Icônes de bureau et icônes de lancement rapide (le cas échéant).
-    -   Paramètres du Registre.
+    -   Paramètres de registre.
     -   Associations de fichiers.
 -   **La désinstallation doit être laissée derrière les éléments suivants :**
     -   Les fichiers créés par l’utilisateur, tels que les fichiers de document.

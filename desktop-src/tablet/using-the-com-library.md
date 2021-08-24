@@ -1,19 +1,19 @@
 ---
-description: Vue d’ensemble de la bibliothèque COM et notes sur l’utilisation des sections de la technologie Tablet PC du kit de développement logiciel (SDK) Windows Vista.
+description: vue d’ensemble de la bibliothèque COM et notes sur l’utilisation des sections de la technologie Tablet PC du kit de développement logiciel (SDK) Windows Vista.
 ms.assetid: fa43fad9-804c-42d9-9717-6686d5f98ed8
 title: Utilisation de la bibliothèque COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d82671b198114cf45b334e8c4e07146a91964e4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdbf986d79011301abe6a9f279a83278fda5dd9e33e3a79335d7d94e6081fb11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819139"
 ---
 # <a name="using-the-com-library"></a>Utilisation de la bibliothèque COM
 
-La référence de la bibliothèque managée Tablet PC est désormais disponible dans la section Référence de la bibliothèque de classes du kit de développement logiciel (SDK) Windows Vista standard. Il fournit un modèle objet pour Microsoft Visual C++. La majorité des objets de la bibliothèque COM sont identiques à ceux qui se trouvent dans l’API gérée Tablet PC.
+la référence de la bibliothèque managée Tablet PC est désormais disponible dans la section référence de la bibliothèque de classes du kit de développement logiciel (SDK) standard Windows Vista. Il fournit un modèle objet pour Microsoft Visual C++. La majorité des objets de la bibliothèque COM sont identiques à ceux qui se trouvent dans l’API gérée Tablet PC.
 
 Toutefois, l’API COM contient certains membres en plus de ceux de l’API managée en raison de différences entre l’environnement Microsoft Win32 standard et l’environnement du kit de développement (SDK) Microsoft .NET Frameworksoftware. Par exemple, les objets InkRectangle et InkTransform sont utilisés dans COM, mais le FrameworkSDK fournit une implémentation native pour la [**classe InkRectangle**](inkrectangle-class.md) et la [**classe InkTransform**](inktransform-class.md) qui élimine le besoin de ces objets dans l’API managée de la plateforme Tablet PC.
 

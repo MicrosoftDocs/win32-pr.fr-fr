@@ -4,12 +4,12 @@ ms.assetid: afd1e646-9bb6-4265-a225-6aaaf1a7bb2a
 title: Création de topologies
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a9ec738c82ea2b85bcae7d4c05627b81ad939db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4048200055066a601f9044ff109f173cb00fc4449a71ea1331b29c8be1a59b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777619"
 ---
 # <a name="creating-topologies"></a>Création de topologies
 
@@ -33,7 +33,7 @@ Les étapes générales de la création d’une topologie sont les suivantes :
 
 4.  Ajoutez chaque nœud à la topologie en appelant [**IMFTopology :: AddNode**](/windows/desktop/api/mfidl/nf-mfidl-imftopology-addnode).
 
-5.  Connectez les nœuds. Pour connecter un nœud, appelez [**IMFTopologyNode :: ConnectOutput**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput) sur le nœud amont, puis transmettez un pointeur vers le nœud en aval.
+5.  Connecter les nœuds. Pour connecter un nœud, appelez [**IMFTopologyNode :: ConnectOutput**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput) sur le nœud amont, puis transmettez un pointeur vers le nœud en aval.
 
 Les rubriques suivantes fournissent les étapes spécifiques pour chaque type de nœud.
 

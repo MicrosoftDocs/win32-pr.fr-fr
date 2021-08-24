@@ -4,12 +4,12 @@ ms.assetid: 51806a4c-4ae5-42e9-9d58-8032108164cb
 title: DisableBrowse
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 014d71993f05d52783aafbd1cfc73a986ade62e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e565cca833d8d771b5bc28dea4483049868995a06acc9a42116611a1df6ce098
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745569"
 ---
 # <a name="disablebrowse"></a>DisableBrowse
 
@@ -19,13 +19,13 @@ DisableBrowse remplace AllowLockdownBrowse et empêche la navigation même si Al
 
 ## <a name="registry-key"></a>Clé de Registre
 
-**HKEY \_ \_** \\ **Stratégies logicielles** de l’ordinateur local \\  \\ **Microsoft** \\ **Windows** \\ **installer**
+**HKEY \_ \_** \\ **stratégies logicielles** de l’ordinateur LOCAL \\  \\ **Microsoft** \\ **Windows** \\ **Installer**
 
 ## <a name="data-type"></a>Type de données
 
 **\_valeur DWORD reg**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans certains cas, avec DisableBrowse défini, un utilisateur non administratif peut toujours être en charge d’installer des applications gérées à partir de sources sur un support correctement étiqueté. La définition de la stratégie DisableBrowse désactive uniquement la possibilité d’accéder aux sources. Il peut être utilisé pour empêcher un utilisateur non administratif d’accéder à une nouvelle source lors d’une installation, d’une réinstallation ou d’une réparation à la demande. Si [AllowLockdownMedia](allowlockdownmedia.md) est défini, l’utilisateur non administratif peut toujours installer une application gérée à partir d’un média correctement étiqueté.
 

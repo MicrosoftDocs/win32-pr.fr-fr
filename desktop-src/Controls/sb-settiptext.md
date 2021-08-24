@@ -3,7 +3,7 @@ title: Message SB_SETTIPTEXT (commctrl. h)
 description: Définit le texte d’info-bulle pour un composant dans une barre d’État. La barre d’État doit avoir été créée avec le \_ style info-bulles SBT pour activer les info-bulles.
 ms.assetid: 8fc3cc00-9742-4861-b2c2-b8aa30f75aaa
 keywords:
-- SB_SETTIPTEXT les contrôles de message Windows
+- SB_SETTIPTEXT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52d5ddb3f4fdfe18525e2b444438295f8a926180
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 864ba53066b000f9f7ae65365341238a701b4e70bc4ce8cc70adba923d57a5f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637019"
 ---
 # <a name="sb_settiptext-message"></a>\_Message SB SETTIPTEXT
 
@@ -49,7 +49,7 @@ Pointeur vers une mémoire tampon de caractères qui contient le nouveau texte d
 
 La valeur de retour n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce texte d’info-bulle s’affiche dans deux situations :
 
@@ -62,8 +62,8 @@ Ce texte d’info-bulle s’affiche dans deux situations :
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **SB \_ SETTIPTEXTW** (Unicode) et **SB \_ SETTIPTEXTA** (ANSI)<br/>               |
 

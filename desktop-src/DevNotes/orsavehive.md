@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 59df5b191a9bc0cfe98e1681665c5814935aa2c3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0b4dde44b6cc6d2c5cfd80f4041cd6370f680eb6ca867e9e8f2bbce5f0702e27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758509"
 ---
 # <a name="orsavehive-function"></a>ORSaveHive fonction)
 
@@ -65,8 +65,8 @@ Numéro de version principale du système d’exploitation. Ce membre peut être
 
 | Valeur                                                                        | Signification                                                                                                                                                                                                                        |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>5</dt> </dl> | Si *dwOsMinorVersion* est 1, le système d’exploitation est Windows XP.<br/> Si *dwOsMinorVersion* est 2, le système d’exploitation est windows Server 2003 R2, windows Server 2003 ou Windows XP Professionnel Édition x64.<br/> |
-| <dl> <dt>6</dt> </dl> | Si *dwOsMinorVersion* est égal à 0, le système d’exploitation est windows Server 2008 ou Windows Vista.<br/> Si *dwOsMinorVersion* est 1, le système d’exploitation est windows Server 2008 R2 ou Windows 7.<br/>                       |
+| <dl> <dt>5</dt> </dl> | si *dwOsMinorVersion* est 1, le système d’exploitation est Windows XP.<br/> si *dwOsMinorVersion* est 2, le système d’exploitation est Windows server 2003 R2, Windows server 2003 ou Windows XP Professional édition x64.<br/> |
+| <dl> <dt>6</dt> </dl> | si *dwOsMinorVersion* est égal à 0, le système d’exploitation est Windows Server 2008 ou Windows Vista.<br/> si *dwOsMinorVersion* est 1, le système d’exploitation est Windows Server 2008 R2 ou Windows 7.<br/>                       |
 
 
 
@@ -83,9 +83,9 @@ Numéro de la version mineure du système d’exploitation. Ce membre peut être
 
 | Valeur                                                                        | Signification                                                                                                                                                                                                                                       |
 |------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>0</dt> </dl> | Si *dwOsMajorVersion* est 6, le système d’exploitation est windows Server 2008 ou Windows Vista.<br/>                                                                                                                                          |
-| <dl> <dt>1</dt> </dl> | Si *dwOsMajorVersion* est 5, le système d’exploitation est Windows XP.<br/> Si *dwOsMajorVersion* est 6, le système d’exploitation est windows Server 2008 R2 ou Windows 7.<br/>                                                                |
-| <dl> <dt>2</dt> </dl> | Si *dwOsMajorVersion* est 5, le système d’exploitation est windows Server 2003 R2, windows Server 2003 ou Windows XP Professionnel Édition x64. <br/> Si *dwOsMajorVersion* a la valeur 6, le paramètre *dwOsMinorVersion* doit avoir la valeur 0 ou 1. <br/> |
+| <dl> <dt>0</dt> </dl> | si *dwOsMajorVersion* est 6, le système d’exploitation est Windows Server 2008 ou Windows Vista.<br/>                                                                                                                                          |
+| <dl> <dt>1</dt> </dl> | si *dwOsMajorVersion* est 5, le système d’exploitation est Windows XP.<br/> si *dwOsMajorVersion* est 6, le système d’exploitation est Windows Server 2008 R2 ou Windows 7.<br/>                                                                |
+| <dl> <dt>2</dt> </dl> | si *dwOsMajorVersion* est 5, le système d’exploitation est Windows server 2003 R2, Windows server 2003 ou Windows XP Professional édition x64. <br/> Si *dwOsMajorVersion* a la valeur 6, le paramètre *dwOsMinorVersion* doit avoir la valeur 0 ou 1. <br/> |
 
 
 
@@ -102,7 +102,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur différent de
 -   Si l’appelant ne dispose pas des droits d’accès nécessaires pour écrire le fichier, la fonction retourne l’erreur \_ accès \_ refusé.
 -   Si le fichier spécifié existe déjà, la fonction retourne l’erreur \_ déjà \_ existante.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **ORSaveHive** doit être utilisée pour enregistrer les modifications apportées à une ruche de Registre hors connexion. Les modifications ne sont pas conservées tant que **ORSaveHive** n’est pas appelé pour enregistrer la ruche dans un fichier.
 
@@ -137,7 +137,7 @@ La fonction **ORSaveHive** peut être utilisée pour enregistrer une partie de l
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

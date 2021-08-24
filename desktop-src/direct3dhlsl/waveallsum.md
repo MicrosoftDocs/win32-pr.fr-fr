@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b98ecf2521841b9da73e1b917d44f1d91b7876d2
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 403768b875ed9462b79fb5d0abeee9539189597591f3a3b20f5a3b9662995542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742259"
 ---
 # <a name="waveactivesum-function"></a>WaveActiveSum fonction)
 
@@ -47,7 +47,7 @@ Expression à évaluer.
 
 Valeur de la somme.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’ordre des opérations n’est pas défini.
 

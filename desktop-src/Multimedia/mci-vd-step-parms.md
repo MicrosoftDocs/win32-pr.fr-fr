@@ -3,7 +3,7 @@ title: Structure MCI_VD_STEP_PARMS (Mciapi. h)
 description: La structure des étapes de l’étape MCI MCI \_ \_ contient des \_ informations pour la \_ commande d’étape MCI pour les appareils videodisc.
 ms.assetid: 5345468c-b195-485a-8101-4a076410f26a
 keywords:
-- Structure de MCI_VD_STEP_PARMS Windows multimédia
+- structure MCI_VD_STEP_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b8b368046375f87a897d002c362624fed3ea105
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f494c821a1df68b98548c95a10af47b817e00b8bc0ffbd52ee7836bb4d97441f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783854"
 ---
 # <a name="mci_vd_step_parms-structure"></a>La \_ \_ structure des étapes \_ de MCI VD
 
@@ -55,7 +55,7 @@ Nombre de frames à exécuter à l’étape.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

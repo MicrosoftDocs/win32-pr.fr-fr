@@ -9,12 +9,12 @@ keywords:
 - Utilitaire OpenGL (GLU), fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fae3ece873f4e1e015861f597c0d51ebfc3436de
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2e4483b364d2d67daff0bbc04b9a30cd7cdb3059f3977f763b247f77be74d62f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777699"
 ---
 # <a name="glu-functions"></a>GLU, fonctions
 
@@ -53,7 +53,7 @@ Cette section comprend des pages de référence, classées par ordre alphabétiq
 | [**gluPartialDisk**](glupartialdisk.md)                                                           | Dessine un arc de disque.                                                                                  |
 | [**gluPerspective**](gluperspective.md)                                                           | Configure une matrice de projection de perspective.                                                                 |
 | [**gluPickMatrix**](glupickmatrix.md)                                                             | Définit une région de prélèvement.                                                                                |
-| [**gluProject**](gluproject.md)                                                                   | Mappe les coordonnées d’objet aux coordonnées de la fenêtre.                                                           |
+| [**gluProject**](gluproject.md)                                                                   | Cartes les coordonnées de l’objet aux coordonnées de la fenêtre.                                                           |
 | [**gluPwlCurve**](glupwlcurve.md)                                                                 | Décrit une courbe de rognage de NURBS linéaire par morceaux.                                                       |
 | [*gluQuadricCallback*](gluquadric.md)                                                             | Définit un rappel pour un objet quadric.                                                                 |
 | [**gluQuadricDrawStyle**](gluquadricdrawstyle.md)                                                 | Spécifie le style de dessin souhaité pour Quadrics.                                                           |
@@ -68,15 +68,15 @@ Cette section comprend des pages de référence, classées par ordre alphabétiq
 | [**gluTessNormal**](glutessnormal.md)                                                             | Spécifie un normal pour un polygone.                                                                        |
 | [**gluTessProperty**](glutessproperty.md)                                                         | Définit la propriété d’un objet de pavage.                                                              |
 | [**gluTessVertex**](glutessvertex.md)                                                             | Spécifie un sommet sur un polygone.                                                                         |
-| [**gluUnProject**](gluunproject.md)                                                               | Mappe les coordonnées de la fenêtre aux coordonnées de l’objet.                                                           |
+| [**gluUnProject**](gluunproject.md)                                                               | Cartes les coordonnées de la fenêtre aux coordonnées de l’objet.                                                           |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

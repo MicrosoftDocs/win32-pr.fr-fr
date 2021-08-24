@@ -4,12 +4,12 @@ ms.assetid: d400f222-c50c-4c7b-8f8a-0c3ed3bba3b9
 title: Utilisation de SymSrv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bbaf68e80555629db8bc9a2a21394b95fe6fb85
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 197a627e50c6be3a3e8636378890025a6dde091948954e2709935c7dc84fa30c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655029"
 ---
 # <a name="using-symsrv"></a>Utilisation de SymSrv
 
@@ -53,7 +53,7 @@ Le tableau suivant présente des exemples des types de magasins de symboles pris
 | \\\\partage de serveur \\          | Chemin UNC complet d’un partage sur un serveur distant.                                                                                                                                                                                                                                                                                                 |
 | c : \\ localCache             | Chemin d’accès à un répertoire sur l’ordinateur client.                                                                                                                                                                                                                                                                                                             |
 | https://InternetSite        | URL d’un site Web hébergeant les symboles. Doit être le magasin le plus à droite dans la liste et ne doit pas être le seul magasin de la liste.                                                                                                                                                                                                                          |
-| https://SecureInternetSite | URL d’un site Web sécurisé hébergeant les symboles. Cela peut prendre en charge les mots de passe, les informations d’identification de connexion Windows, les certificats et les cartes à puce. Doit être le magasin le plus à droite dans la liste et ne doit pas être le seul magasin de la liste.                                                                                                                              |
+| https://SecureInternetSite | URL d’un site Web sécurisé hébergeant les symboles. cela peut prendre en charge les mots de passe, les Windows les informations d’identification de connexion, les certificats et les cartes à puce. Doit être le magasin le plus à droite dans la liste et ne doit pas être le seul magasin de la liste.                                                                                                                              |
 | <blank>              | S’il n’y a pas de texte entre deux astérisques, cela indique le *magasin en aval par défaut*. L’emplacement est défini en appelant [**SymSetHomeDirectory**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsethomedirectory). La valeur par défaut est un répertoire nommé « sym » situé juste en dessous du répertoire du programme de l’application appelante. C’est ce que l’on appelle parfois le *cache local par défaut*. |
 
 
@@ -88,7 +88,7 @@ Ce dernier exemple montre comment la conception judicieuse d’un chemin d’acc
 
 Microsoft fournit un accès à un serveur de symboles Internet qui contient des fichiers de symboles pour les nombreuses versions du système d’exploitation Windows. Il n’est pas garanti que ce catalogue de symboles soit complet, mais il est complet. D’autres produits Microsoft sont également représentés.
 
-Le serveur de symboles Internet est rempli avec divers symboles Windows pour les systèmes d’exploitation Microsoft Windows, y compris les correctifs logiciels, les service packs, les packages de correctifs cumulatifs de sécurité et les versions commerciales. Les symboles sont également disponibles sur le serveur pour les versions bêta et versions finales actuelles des produits Windows, ainsi que divers autres produits Microsoft, tels que Microsoft Internet Explorer.
+le serveur de symboles Internet est rempli avec divers symboles de Windows pour les systèmes d’exploitation Microsoft Windows, y compris les correctifs logiciels, les Service packs, les Packages de correctifs cumulatifs de sécurité et les versions commerciales. des symboles sont également disponibles sur le serveur pour les versions bêta et Release candidates actuelles pour les produits Windows, ainsi que divers autres produits microsoft, tels que microsoft Internet Explorer.
 
 Si vous avez accès à Internet pendant le débogage, vous pouvez configurer le débogueur pour télécharger des symboles selon les besoins au cours d’une session de débogage, plutôt que de télécharger des fichiers de symboles séparément avant une session de débogage. Les symboles sont téléchargés vers un emplacement de répertoire que vous spécifiez, puis le débogueur les charge à partir de là.
 
@@ -100,7 +100,7 @@ srv*c:\DownstreamStore*https://msdl.microsoft.com/download/symbols
 
 ## <a name="compressed-files"></a>Fichiers compressés
 
-SymSrv est compatible avec les magasins de symboles qui contiennent des fichiers compressés, à condition que cette compression ait été préformée avec l’outil compress.exe qui a été distribué avec le kit de ressources Windows Server 2003. Les fichiers compressés doivent avoir un trait de soulignement comme dernier caractère dans leurs extensions de fichier (par exemple, Module1. PD \_ ou Module2. db \_ ). Pour plus d’informations, consultez [utilisation de SymStore](using-symstore.md).
+SymSrv est compatible avec les magasins de symboles qui contiennent des fichiers compressés, à condition que cette compression ait été préformée avec l’outil compress.exe qui a été distribué avec le Kit de ressources Windows Server 2003. Les fichiers compressés doivent avoir un trait de soulignement comme dernier caractère dans leurs extensions de fichier (par exemple, Module1. PD \_ ou Module2. db \_ ). Pour plus d’informations, consultez [utilisation de SymStore](using-symstore.md).
 
 Lors de la cascade, les fichiers ne sont pas décompressés, sauf si le magasin cible est le magasin le plus à gauche dans le chemin d’accès. S’il n’existe qu’un seul magasin dans le chemin d’accès et qu’il contient un fichier compressé, SymSrv copie le fichier dans le magasin en aval par défaut et l’ouvre à partir de là, même si le magasin en aval par défaut n’est pas indiqué dans le chemin d’accès des symboles.
 
@@ -110,9 +110,9 @@ Lors de la cascade, les fichiers ne sont pas décompressés, sauf si le magasin 
 
 Si vous utilisez un magasin en aval en tant que cache, vous pouvez supprimer ce répertoire à tout moment pour économiser de l’espace disque.
 
-Il est possible d’avoir un grand magasin de symboles qui comprend des fichiers de symboles pour de nombreux programmes ou versions de Windows. Si vous mettez à niveau la version de Windows utilisée sur votre ordinateur cible, les fichiers de symboles mis en cache seront tous identiques à la version antérieure. Ces fichiers mis en cache ne seront plus utilisés et, par conséquent, cela peut être un bon moment pour supprimer le cache.
+il est possible d’avoir un grand magasin de symboles qui comprend des fichiers de symboles pour de nombreux programmes ou versions de Windows. si vous mettez à niveau la version de Windows utilisée sur votre ordinateur cible, les fichiers de symboles mis en cache seront tous identiques à la version antérieure. Ces fichiers mis en cache ne seront plus utilisés et, par conséquent, cela peut être un bon moment pour supprimer le cache.
 
-Les outils de débogage pour Windows sont fournis avec un utilitaire appelé agestore.exe qui suppriment de manière sélective les fichiers d’une arborescence de répertoires, en laissant les fichiers utilisés le plus récemment. Cet outil est conçu pour nettoyer les fichiers inutilisés des magasins de serveurs de symboles. Elle vous permet de contrôler de nombreuses options, notamment les algorithmes de date et d’ingestion de la taille de répertoire.
+les outils de débogage pour Windows sont fournis avec un utilitaire appelé agestore.exe qui supprime de manière sélective les fichiers d’une arborescence de répertoires, en laissant les fichiers utilisés le plus récemment. Cet outil est conçu pour nettoyer les fichiers inutilisés des magasins de serveurs de symboles. Elle vous permet de contrôler de nombreuses options, notamment les algorithmes de date et d’ingestion de la taille de répertoire.
 
 ## <a name="flat-cache-directory"></a>Répertoire de cache plat
 
@@ -139,7 +139,7 @@ Vous pouvez également stocker les fichiers à exclure dans le registre. Créez 
 
 ## <a name="installation"></a>Installation
 
-Le serveur de symboles SymSrv (symsrv.dll) est inclus dans le package outils de débogage pour Windows. Il doit être installé dans le même répertoire que la copie de dbghelp.dll que vous chargez. Pour plus d’informations, consultez [appel de la bibliothèque dbghelp](calling-the-dbghelp-library.md).
+le serveur de symboles SymSrv (symsrv.dll) est inclus dans le package outils de débogage pour Windows. Il doit être installé dans le même répertoire que la copie de dbghelp.dll que vous chargez. Pour plus d’informations, consultez [appel de la bibliothèque dbghelp](calling-the-dbghelp-library.md).
 
  
 

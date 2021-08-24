@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d497589770412f6cef90384c24353899f390bc0f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3a4cd3206c24b4ad4959829788ddbf4f531c5d734defbf24cacb9361a69ffc8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761399"
 ---
 # <a name="msrassavedcallbacknumber-attribute"></a>attribut msRASSavedCallbackNumber
 
@@ -44,7 +44,7 @@ L’attribut [**msRASSavedCallbackNumber**](a-msradiusservicetype.md) est utilis
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

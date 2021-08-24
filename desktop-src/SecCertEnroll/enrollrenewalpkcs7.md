@@ -4,12 +4,12 @@ ms.assetid: 12a3f1b4-b31e-470e-8ce6-87f497841240
 title: enrollRenewalPKCS7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8795758a2744dcee07a100f87eb1db0a1af49eac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3da14719cc2a9e6bdf4c16cad57d24b9ee4ec0c2ee955cc8b7c20643b2b6f9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740429"
 ---
 # <a name="enrollrenewalpkcs7"></a>enrollRenewalPKCS7
 
@@ -17,7 +17,7 @@ L’exemple enrollRenewalPKCS7 crée un \# objet de demande PKCS 7 pour renouvel
 
 ## <a name="location"></a>Emplacement
 
-Lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security \\ x509 Certificate \\ \\ enrollRenewalPKCS7 VC.
+lorsque vous installez le kit de développement logiciel (SDK) de microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate \\ \\ enrollRenewalPKCS7 VC.
 
 ## <a name="discussion"></a>Discussions
 

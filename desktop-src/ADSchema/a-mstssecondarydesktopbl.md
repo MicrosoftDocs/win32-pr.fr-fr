@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9486aed4897566886722d9f06253cc111be0a4f8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 630c7c4f917dc5b9bef36b6da72aae7d41e4a918dcf60427edd5e9b36eb69fc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106537207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760899"
 ---
 # <a name="ms-ts-secondary-desktop-bl-attribute"></a>attribut ms-TS-Secondary-Desktop-BL
 

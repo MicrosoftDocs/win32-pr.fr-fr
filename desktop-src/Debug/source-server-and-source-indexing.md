@@ -4,12 +4,12 @@ ms.assetid: c7bf51ce-7fb4-49aa-ad33-e551b2c8362b
 title: Serveur source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3d8d76c70b67c176126d8e424bd5b55b616697
-ms.sourcegitcommit: bfb5d94f754d017307b4cc9d914a2716701331d1
+ms.openlocfilehash: 1938a617cd6c8f613df2a1113288a27f6593336f819cde2f5380a8420c329d45
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815509"
 ---
 # <a name="source-server"></a>Serveur source
 
@@ -40,7 +40,7 @@ Le tableau suivant répertorie les outils du serveur source.
 | Outil        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Srcsrv.ini  | Ce fichier est la liste principale de tous les serveurs de contrôle de code source. Chaque entrée a le format suivant :*MyServer* = *du*<br/> Lors de l’utilisation de Perforce, les informations sur le serveur se composent du chemin d’accès réseau complet au serveur, suivi d’un signe deux-points, suivi du numéro de port qu’il utilise. Par exemple :<br/> MYSERVER = machine. Corp. Company. com : 1666<br/> Ce fichier peut être installé sur l’ordinateur qui exécute le débogueur. Lorsque le serveur source démarre, il recherche des valeurs dans Srcsrv.ini ; ces valeurs remplacent les informations contenues dans le fichier PDB. Cela permet aux utilisateurs de configurer un débogueur pour qu’il utilise un autre serveur de contrôle de code source au moment du débogage.<br/> Pour plus d’informations, consultez l’exemple Srcsrv.ini installé avec les outils du serveur source.<br/> |
-| SSINDEX. cmd | Ce script génère la liste des fichiers archivés dans le contrôle de code source, ainsi que les informations de version de chaque fichier. Il stocke un sous-ensemble de ces informations dans les fichiers. pdb générés au moment de la génération de l’application. Le script utilise l’un des modules perl suivants pour l’interface avec le contrôle de code source : P4.pm (Perforce) ou Vss.pm (Visual Source Safe). Pour plus d’informations, exécutez le script avec le- ? ou- ?? (aide détaillée) ou examinez le script.<br/>                                                                                                                                                                                                                                                                                                             |
+| SSINDEX. cmd | Ce script génère la liste des fichiers archivés dans le contrôle de code source, ainsi que les informations de version de chaque fichier. Il stocke un sous-ensemble de ces informations dans les fichiers. pdb générés au moment de la génération de l’application. le script utilise l’un des modules Perl suivants pour l’interface avec le contrôle de code source : P4.pm (Perforce) ou Vss.pm (Visual source Coffre). Pour plus d’informations, exécutez le script avec le- ? ou- ?? (aide détaillée) ou examinez le script.<br/>                                                                                                                                                                                                                                                                                                             |
 | Srctool.exe | Cet utilitaire répertorie tous les fichiers indexés dans un fichier. pdb. Pour chaque fichier, il répertorie le chemin d’accès complet, le serveur de contrôle de code source et le numéro de version du fichier. Vous pouvez utiliser ces informations pour récupérer des fichiers sans utiliser le serveur source. Pour plus d’informations, exécutez l’utilitaire avec le/ ? option.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Pdbstr.exe  | Cet utilitaire est utilisé par les scripts d’indexation pour insérer les informations de contrôle de version dans le flux alternatif « SRCSRV » du fichier. pdb cible. Il peut également lire n’importe quel flux à partir d’un fichier. pdb. Vous pouvez utiliser ces informations pour vérifier que les scripts d’indexation fonctionnent correctement. Pour plus d’informations, exécutez l’utilitaire avec le/ ? option.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
@@ -54,13 +54,13 @@ L’API DbgHelp fournit un accès aux fonctionnalités du serveur source via la 
 
 ## <a name="using-source-server-with-a-debugger"></a>Utilisation du serveur source avec un débogueur
 
-Pour utiliser le serveur source avec WinDbg, KD, NTSD ou CDB, vérifiez que vous avez installé une version récente du package outils de débogage pour Windows (version 6,3 ou ultérieure). Ensuite, incluez SRV \* dans la commande. srcpath comme suit :
+pour utiliser le serveur source avec WinDbg, KD, NTSD ou CDB, vérifiez que vous avez installé une version récente du package outils de débogage pour Windows (version 6,3 ou ultérieure). Ensuite, incluez SRV \* dans la commande. srcpath comme suit :
 
 **\. srcpath SRV \* ;** _c : \\ MySource_
 
 Notez que cet exemple comprend également un chemin d’accès source traditionnel. Si le débogueur ne peut pas récupérer le fichier à partir du serveur source, il recherche le chemin d’accès spécifié.
 
-Si un fichier source est récupéré par le serveur source, il est conservé sur votre disque dur une fois la session de débogage terminée. Les fichiers sources sont stockés localement dans le sous-répertoire SRC du répertoire d’installation des outils de débogage pour Windows.
+Si un fichier source est récupéré par le serveur source, il est conservé sur votre disque dur une fois la session de débogage terminée. les fichiers sources sont stockés en local dans le sous-répertoire src du répertoire d’installation des outils de débogage pour Windows.
 
 ## <a name="source-server-data-blocks"></a>Blocs de données du serveur source
 
@@ -121,7 +121,7 @@ La section ini contient des variables qui décrivent les exigences. Le script d�
 
 <dl> <dt>
 
-<span id="VERSION"></span><span id="version"></span>Version
+<span id="VERSION"></span><span id="version"></span>VERSION
 </dt> <dd>
 
 Version de la spécification de langage. Cette variable est requise.
@@ -190,7 +190,7 @@ LABEL=BUILD47
 
 Ensuite, en supposant que le système de contrôle de code source utilise l’arobase (@) pour indiquer une étiquette, vous pouvez modifier la variable SRCSRVCMD comme suit :
 
-**sd.exe-p% fnvar%(% Var2%) imprimer-o% srcsrvtrg%-q% Depot%/%var3% @% label%**
+**sd.exe-p% fnvar%(% Var2%) print-o% srcsrvtrg%-q% Depot%/%var3% @% label%**
 
 ## <a name="how-source-server-works"></a>Fonctionnement du serveur source
 
@@ -205,7 +205,7 @@ La première version du serveur source fonctionne comme suit. Ce comportement pe
 
 ## <a name="creating-a-source-control-provider-module"></a>Création d’un module fournisseur de contrôle de code source
 
-Le serveur source comprend des modules de fournisseur pour Perforce (p4.pm) et Visual Source Safe (vss.pm). Pour créer votre propre module de fournisseur, vous devez implémenter l’ensemble d’interfaces suivant.
+le serveur source comprend des modules de fournisseur pour Perforce (p4.pm) et Visual source Coffre (vss.pm). Pour créer votre propre module de fournisseur, vous devez implémenter l’ensemble d’interfaces suivant.
 
 <dl> <dt>
 

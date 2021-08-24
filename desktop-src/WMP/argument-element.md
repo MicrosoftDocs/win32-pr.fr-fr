@@ -3,7 +3,7 @@ title: argument, élément
 description: L’élément argument contient une partie d’une chaîne de condition.
 ms.assetid: 7e4744ce-e9e2-4a70-a2cc-d33ae1ad2f99
 keywords:
-- Élément argument Windows Media Player
+- argument, élément Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1c4adc0b853054d448bc9955f3bd8c64115ac2ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c7250118ec207911af4b772ef2ff1f3d1b5a26f85d2a824dc41744964696e4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737179"
 ---
 # <a name="argument-element"></a>argument, élément
 
@@ -46,13 +46,13 @@ Nom d’une partie de la chaîne de condition.
 | Hierarchy | Éléments                         |
 |-----------|----------------------------------|
 | Parent    | [échantillon](fragment-element.md) |
-| Enfant     | Aucune                             |
+| Enfant     | None                             |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque l’attribut **Name** d’un élément **fragment** est une caractéristique d’élément multimédia telle que l’artiste de l’album ou le genre, l’élément **fragment** doit contenir deux éléments **argument** : un qui spécifie une condition et un autre qui spécifie une valeur. Le tableau suivant présente deux valeurs possibles pour l’attribut **Name** et la façon dont les éléments **argument** sont utilisés pour spécifier des conditions et des valeurs.
 
@@ -110,7 +110,7 @@ Lorsque l’attribut **Name** d’un élément **fragment** est « limiter la t
 <td>Lorsque l’attribut <strong>Name</strong> de l' <strong>élément fragment</strong> est &quot; limiter la taille totale à &quot; , le contenu de l’élément <strong>argument</strong> doit être l’un des suivants : kilo-octets, mégaoctets ou gigaoctets. lorsque l’attribut <strong>Name</strong> de l’élément <strong>fragment</strong> est limiter la &quot; durée totale à &quot; , le contenu de l’élément <strong>argument</strong> doit être l’un des suivants : secondes, minutes, heures ou jours.<br/></td>
 </tr>
 <tr class="even">
-<td>Number</td>
+<td>Nombre</td>
 <td>Le contenu de l’élément <strong>argument</strong> est un nombre qui limite la taille ou la durée de la sélection. Illustre<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Total Size To&quot;>
   <argument name = &quot;Format&quot;>Megabytes</argument>
@@ -146,7 +146,7 @@ Lorsque l’attribut **Name** d’un élément **fragment** est « Limit Number
 </thead>
 <tbody>
 <tr class="odd">
-<td>Number</td>
+<td>Nombre</td>
 <td>Le contenu de l’élément <strong>argument</strong> est un nombre qui limite le nombre d’éléments dans une sélection. Tels<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Number of Items&quot;>
   <argument name = &quot;Number&quot;>15</argument>
@@ -176,7 +176,7 @@ Lorsque l’attribut **Name** d’un élément **fragment** est « Limit Number
 [**fragment, élément**](fragment-element.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

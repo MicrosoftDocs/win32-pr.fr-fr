@@ -3,7 +3,7 @@ title: Message LVM_SETITEMCOUNT (commctrl. h)
 description: Force le contrôle List-View à allouer de la mémoire pour le nombre spécifié d’éléments ou définit le nombre virtuel d’éléments dans un contrôle List-View virtuel.
 ms.assetid: 5e794c12-ddcb-44fc-b0d2-677352602503
 keywords:
-- LVM_SETITEMCOUNT les contrôles de message Windows
+- LVM_SETITEMCOUNT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e390e7ae5913053f91f7f2f8d197af1cf4b7a40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be6b35b38c65663d9811a27341cf10d668a9e045641a8ff0871f6b49fe8bcdbe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656279"
 ---
 # <a name="lvm_setitemcount-message"></a>\_Message SETITEMCOUNT LVM
 
@@ -58,7 +58,7 @@ Nombre d’éléments que le contrôle List-View doit finalement contenir.
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La façon dont la mémoire est allouée dépend de la façon dont le contrôle List-View a été créé. Vous pouvez envoyer ce message explicitement ou utiliser les macros [**ListView \_ SetItemCount**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcount) ou [**ListView \_ SetItemCountEx**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcountex) . Pour plus d’informations, consultez [Virtual List-View style](/windows/desktop/Controls/list-view-controls-overview).
 
@@ -76,8 +76,8 @@ Lorsque l’affichage de liste de contrôle commun est une vue de liste virtuali
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

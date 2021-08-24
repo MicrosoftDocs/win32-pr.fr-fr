@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 4a5c172117081777b2a89b875401ec0645dd643e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f56517fd0caf4762be2848ac9a6f3094ed5e3194b2eb84123bf2fcc2bf67bcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742669"
 ---
 # <a name="loadipaddresses-function"></a>LoadIPAddresses fonction)
 
@@ -76,7 +76,7 @@ Si la fonction réussit (le nom de la variable a été trouvé et avait une cha�
 
 Si la fonction échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les adresses IP doivent être au format x. x. x (par exemple, 127.0.0.1).
 
