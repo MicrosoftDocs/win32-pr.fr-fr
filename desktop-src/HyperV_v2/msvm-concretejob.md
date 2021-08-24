@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2cff9594bfd39cf365020a1da8ae2f1ec0aea562
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9542d53ad56c736d8dc2fc3950e6e95c92f923b8179f03d52639c0c7ad898c60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531729"
 ---
 # <a name="msvm_concretejob-class"></a>MSVM \_ ConcreteJob, classe
 
@@ -441,7 +441,7 @@ Indique le type de travail faisant l’objet d’un suivi par cet objet.
 
 <span id="Modify_Management_Service_Settings"></span><span id="modify_management_service_settings"></span><span id="MODIFY_MANAGEMENT_SERVICE_SETTINGS"></span>
 
-<span id="Modify_Management_Service_Settings"></span><span id="modify_management_service_settings"></span><span id="MODIFY_MANAGEMENT_SERVICE_SETTINGS"></span>**Modifier les paramètres du service de gestion** (4)
+<span id="Modify_Management_Service_Settings"></span><span id="modify_management_service_settings"></span><span id="MODIFY_MANAGEMENT_SERVICE_SETTINGS"></span>**modifier le Paramètres du Service de gestion** (4)
 
 
 </dt> <dd></dd> <dt>
@@ -658,7 +658,7 @@ Indique le type de travail faisant l’objet d’un suivi par cet objet.
 
 <span id="Modify_Replication_Server_Settings"></span><span id="modify_replication_server_settings"></span><span id="MODIFY_REPLICATION_SERVER_SETTINGS"></span>
 
-<span id="Modify_Replication_Server_Settings"></span><span id="modify_replication_server_settings"></span><span id="MODIFY_REPLICATION_SERVER_SETTINGS"></span>**Modifier les paramètres du serveur de réplication** (90)
+<span id="Modify_Replication_Server_Settings"></span><span id="modify_replication_server_settings"></span><span id="MODIFY_REPLICATION_SERVER_SETTINGS"></span>**modifier les Paramètres du serveur de réplication** (90)
 
 
 </dt> <dd></dd> <dt>
@@ -672,7 +672,7 @@ Indique le type de travail faisant l’objet d’un suivi par cet objet.
 
 <span id="Modify_Replication_Relationship_Settings"></span><span id="modify_replication_relationship_settings"></span><span id="MODIFY_REPLICATION_RELATIONSHIP_SETTINGS"></span>
 
-<span id="Modify_Replication_Relationship_Settings"></span><span id="modify_replication_relationship_settings"></span><span id="MODIFY_REPLICATION_RELATIONSHIP_SETTINGS"></span>**Modifier les paramètres de relation de réplication** (92)
+<span id="Modify_Replication_Relationship_Settings"></span><span id="modify_replication_relationship_settings"></span><span id="MODIFY_REPLICATION_RELATIONSHIP_SETTINGS"></span>**modifier la relation de réplication Paramètres** (92)
 
 
 </dt> <dd></dd> <dt>
@@ -924,7 +924,7 @@ Indique le type de travail faisant l’objet d’un suivi par cet objet.
 
 <span id="Modify_Ethernet_Switch_Settings"></span><span id="modify_ethernet_switch_settings"></span><span id="MODIFY_ETHERNET_SWITCH_SETTINGS"></span>
 
-<span id="Modify_Ethernet_Switch_Settings"></span><span id="modify_ethernet_switch_settings"></span><span id="MODIFY_ETHERNET_SWITCH_SETTINGS"></span>**Modifier les paramètres du commutateur Ethernet** (131)
+<span id="Modify_Ethernet_Switch_Settings"></span><span id="modify_ethernet_switch_settings"></span><span id="MODIFY_ETHERNET_SWITCH_SETTINGS"></span>**modifier la Paramètres de commutateur Ethernet** (131)
 
 
 </dt> <dd></dd> <dt>
@@ -987,7 +987,7 @@ Indique le type de travail faisant l’objet d’un suivi par cet objet.
 
 <span id="Changing_the_Non-alloction_Settings_of_a_Resource_Pool"></span><span id="changing_the_non-alloction_settings_of_a_resource_pool"></span><span id="CHANGING_THE_NON-ALLOCTION_SETTINGS_OF_A_RESOURCE_POOL"></span>
 
-<span id="Changing_the_Non-alloction_Settings_of_a_Resource_Pool"></span><span id="changing_the_non-alloction_settings_of_a_resource_pool"></span><span id="CHANGING_THE_NON-ALLOCTION_SETTINGS_OF_A_RESOURCE_POOL"></span>**Modification des paramètres non Alloction d’un pool de ressources** (152)
+<span id="Changing_the_Non-alloction_Settings_of_a_Resource_Pool"></span><span id="changing_the_non-alloction_settings_of_a_resource_pool"></span><span id="CHANGING_THE_NON-ALLOCTION_SETTINGS_OF_A_RESOURCE_POOL"></span>**modification de la Paramètres Non alloction d’un Pool de ressources** (152)
 
 
 </dt> <dd></dd> <dt>
@@ -1015,7 +1015,7 @@ Indique le type de travail faisant l’objet d’un suivi par cet objet.
 
 <span id="Modify_3D_Service_Settings"></span><span id="modify_3d_service_settings"></span><span id="MODIFY_3D_SERVICE_SETTINGS"></span>
 
-<span id="Modify_3D_Service_Settings"></span><span id="modify_3d_service_settings"></span><span id="MODIFY_3D_SERVICE_SETTINGS"></span>**Modifier les paramètres du service 3D** (162)
+<span id="Modify_3D_Service_Settings"></span><span id="modify_3d_service_settings"></span><span id="MODIFY_3D_SERVICE_SETTINGS"></span>**modifier le Paramètres de Service 3d** (162)
 
 
 </dt> <dd>
@@ -1322,7 +1322,7 @@ Indique le type de travail faisant l’objet d’un suivi par cet objet.
 </dt> <dd>
 
 > [!Note]  
-> Valeur ajoutée dans Windows 10 en tant que **point de référence de nettoyage**.
+> valeur ajoutée dans Windows 10 en tant que **Point de référence de nettoyage**.
 
  
 
@@ -1773,7 +1773,7 @@ Heure à laquelle le travail n’est pas valide ou doit être arrêté. Cette pr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ ConcreteJob** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1783,8 +1783,8 @@ L’accès à la classe **MSVM \_ ConcreteJob** peut être limité par le filtra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

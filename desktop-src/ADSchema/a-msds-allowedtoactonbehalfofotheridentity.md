@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45dacd532b1d8a55b3656dc1d65fc1ebd940476c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: cad3ea9795dd89777d390235193ff2663e5b514125cdf539c34dfc85ad1664bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552839"
 ---
 # <a name="ms-ds-allowed-to-act-on-behalf-of-other-identity-attribute"></a>ms-DS-allowed-to-Act-on-nom-autre-Identity (attribut)
 

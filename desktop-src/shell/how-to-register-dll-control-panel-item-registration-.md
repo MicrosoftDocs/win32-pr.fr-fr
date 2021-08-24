@@ -1,25 +1,25 @@
 ---
-description: Les éléments du panneau de configuration qui sont implémentés dans une DLL qui exporte la fonction CPlApplet ont des exigences d’inscription différentes des fichiers. exe.
+description: Les éléments du panneau de configuration qui sont implémentés dans une DLL qui exporte la fonction CPlApplet ont des exigences d’inscription différentes de .exe fichiers.
 title: Comment inscrire les éléments du panneau de configuration de la DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b82225dcb40487c60210752b2c15af23f95bd1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b25fffb3b06f93640c5ca8623fb24ffb53c6fd3ecae0b9e23cabafacdceba8f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593189"
 ---
 # <a name="how-to-register-dll-control-panel-items"></a>Comment inscrire les éléments du panneau de configuration de la DLL
 
 > [!Note]  
-> Les instructions d’implémentation actuelles stipulent que les nouveaux éléments du panneau de configuration doivent être implémentés en tant que fichiers. exe plutôt qu’en tant que fichiers. cpl. Les informations suivantes sont incluses principalement pour des raisons d’héritage.
+> Les instructions d’implémentation actuelles stipulent que les nouveaux éléments du panneau de configuration doivent être implémentés en tant que fichiers .exe plutôt qu’en tant que fichiers .cpl. Les informations suivantes sont incluses principalement pour des raisons d’héritage.
 
  
 
-Les éléments du panneau de configuration qui sont implémentés dans une DLL qui exporte la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) ont des exigences d’inscription différentes des fichiers. exe. À compter de Windows XP, les nouvelles dll des éléments du panneau de configuration doivent être installées dans le dossier de l’application associée sous le dossier Program Files. Les éléments stockés dans le répertoire system32 avec une extension. cpl n’ont pas besoin d’être inscrits ; ils s’affichent automatiquement dans le panneau de configuration. Tous les autres éléments du panneau de configuration qui utilisent **CPlApplet** doivent être inscrits de l’une des deux manières suivantes :
+Les éléments du panneau de configuration qui sont implémentés dans une DLL qui exporte la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) ont des exigences d’inscription différentes de .exe fichiers. à partir de Windows XP, les dll des éléments du panneau de configuration doivent être installées dans le dossier de l’application associée sous le dossier Program Files. Les éléments stockés dans le répertoire system32 avec une extension de .cpl n’ont pas besoin d’être inscrits ; ils s’affichent automatiquement dans le panneau de configuration. Tous les autres éléments du panneau de configuration qui utilisent **CPlApplet** doivent être inscrits de l’une des deux manières suivantes :
 
--   Si l’élément du panneau de configuration doit être mis à la disposition de tous les utilisateurs, enregistrez le chemin d’accès en fonction de l’ordinateur en ajoutant une valeur de **reg \_ expand \_ SZ** à la sous-clé **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Control Panel** \\  , définie sur le chemin d’accès de la dll.
+-   si l’élément du panneau de configuration doit être mis à la disposition de tous les utilisateurs, enregistrez le chemin d’accès en fonction de l’ordinateur en ajoutant une valeur de **REG \_ EXPAND \_ SZ** à la clé **HKEY \_ LOCAL \_ MACHINE** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Control Panel** de la \\ sous-clé **Cpls** , définie sur le chemin d’accès de la DLL.
 -   Si l’élément du panneau de configuration doit être disponible pour chaque utilisateur, utilisez **HKEY \_ Current \_ User** comme clé racine au lieu de **HKEY \_ local \_ machine**.
 
 Les deux exemples suivants inscrivent l’élément du panneau de configuration *MyCplApp* . La DLL est nommée MyCpl.cpl et se trouve dans le répertoire de l’application *champ MyCorp \\ MonApp* . Ce premier exemple illustre l’inscription par ordinateur.
@@ -28,7 +28,7 @@ Les deux exemples suivants inscrivent l’élément du panneau de configuration 
 
 ### <a name="step-1"></a>Étape 1 :
 
-Ajoutez ces informations au registre pour enregistrer l’existence du fichier. cpl.
+Ajoutez ces informations au registre pour enregistrer l’existence du fichier .cpl.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -75,7 +75,7 @@ HKEY_LOCAL_MACHINE
                         %ProgramFiles%\MyCorp\MyApp\MyCpl.cpl = [REG_SZ] MyCorporation.MyCpl
 ```
 
-En ajoutant un nom canonique, les utilisateurs peuvent lancer l’élément du panneau de configuration à partir d’une ligne de commande en entrant `control.exe /name MyCorporation.MyCpl` . Cela permet également de modifier ultérieurement une implémentation d’un fichier. cpl en un fichier. exe, sans exiger que les programmes d’appel apportent des modifications, car ils peuvent continuer à ouvrir l’élément via son nom canonique. Pour plus d’informations sur les noms canoniques, consultez [exécution des éléments du panneau de configuration](executing-control-panel-items.md).
+En ajoutant un nom canonique, les utilisateurs peuvent lancer l’élément du panneau de configuration à partir d’une ligne de commande en entrant `control.exe /name MyCorporation.MyCpl` . Cela permet également de modifier ultérieurement une implémentation d’un fichier .cpl dans un fichier .exe, sans exiger que les programmes d’appel apportent des modifications, car ils peuvent continuer à ouvrir l’élément via son nom canonique. Pour plus d’informations sur les noms canoniques, consultez [exécution des éléments du panneau de configuration](executing-control-panel-items.md).
 
 ### <a name="step-4"></a>Étape 4 :
 
@@ -107,7 +107,7 @@ HKEY_LOCAL_MACHINE
                         %ProgramFiles%\MyCorp\MyApp\MyCpl.cpl = [REG_DWORD] 3
 ```
 
-Cet exemple affecte l’élément à la catégorie 3, qui correspond à réseau et Internet. Pour ajouter un élément à plusieurs catégories, fournissez la liste sous la forme d’une valeur de REG \_ SZ séparée par des virgules, par exemple « 3, 8 ». Les valeurs peuvent être fournies sous la forme d’une valeur décimale ou hexadécimale. Notez que la possibilité d’ajouter un élément à plusieurs catégories est possible uniquement dans Windows XP Service Pack 2 (SP2) et versions ultérieures. Consultez [assignation de catégories du panneau de configuration](assigning-control-panel-categories.md) pour toutes les valeurs possibles.
+Cet exemple affecte l’élément à la catégorie 3, qui correspond à réseau et Internet. Pour ajouter un élément à plusieurs catégories, fournissez la liste sous la forme d’une valeur de REG \_ SZ séparée par des virgules, par exemple « 3, 8 ». Les valeurs peuvent être fournies sous la forme d’une valeur décimale ou hexadécimale. notez que la possibilité d’ajouter un élément à plusieurs catégories n’est possible que dans Windows XP Service Pack 2 (SP2) et versions ultérieures. Consultez [assignation de catégories du panneau de configuration](assigning-control-panel-categories.md) pour toutes les valeurs possibles.
 
 ### <a name="step-5"></a>Étape 5 :
 

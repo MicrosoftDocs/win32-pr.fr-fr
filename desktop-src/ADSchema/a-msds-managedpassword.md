@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a440f1849e01ae4930b72441f75b17ce51a0566b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dfdd5c8b86c07d86bf93aa1ce2c3c9887454dfbaa2be93a514bcb9c40f1f47e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552329"
 ---
 # <a name="ms-ds-managedpassword-attribute"></a>attribut ms-DS-ManagedPassword
 

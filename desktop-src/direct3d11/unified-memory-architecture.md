@@ -4,12 +4,12 @@ description: L’interrogation de la prise en charge de l’architecture mémoir
 ms.assetid: E43892F9-E7CD-4D18-BDDE-3C4F03F8F4EA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99baeab51838b9b3382884a681ec9b579fa700a0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 09648c69f312f16d1301b6c9b5cad21d544bd456f244950486cf9d6871079c96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119375669"
 ---
 # <a name="unified-memory-architecture"></a>Architecture de la mémoire unifiée
 
@@ -26,9 +26,9 @@ Les applications qui s’exécutent sur une UMA peuvent souhaiter avoir plus de 
 [Fonctionnalités Direct3D 11,3](direct3d-11-3-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

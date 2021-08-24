@@ -3,7 +3,7 @@ title: External. OnChangeViewError, événement
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. OnChangeViewError, événement
 ms.assetid: d6370629-5f50-434d-8eb5-5b43d1b2f7fe
 keywords:
-- Événement External. OnChangeViewError lecteur Windows Media
+- Lecteur Windows Media d’événements External. OnChangeViewError
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91bcbb71e1c5324a9907d735492364561be49a60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aaa1152c753501b2e2385de8c56af614d62cfb367fcca8468aaa032e9536e8d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648829"
 ---
 # <a name="externalonchangeviewerror-event"></a>External. OnChangeViewError, événement
 
@@ -36,7 +36,7 @@ window.external.OnChangeViewError = FunctionName
 
 ## <a name="possible-values"></a>Valeurs possibles
 
-Il s’agit d’une propriété en écriture seule qui spécifie le nom de la fonction dans le script que le lecteur Windows Media appelle lorsque l’événement se produit.
+il s’agit d’une propriété en écriture seule qui spécifie le nom de la fonction dans le script que Lecteur Windows Media appelle lorsque l’événement se produit.
 
 ## <a name="parameters"></a>Paramètres
 

@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection getByName
 description: La méthode getByName retourne une interface IWMPPlaylist qui fournit l’accès aux éléments multimédias avec le nom spécifié.
 ms.assetid: 137e938c-eb9f-4a87-8962-880e71a11ca2
 keywords:
-- méthode getByName lecteur Windows Media
-- méthode getByName lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode getByName
+- Lecteur Windows Media de la méthode getByName
+- méthode getByName Lecteur Windows Media, interface IWMPMediaCollection
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode getByName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64c68e2a5359eadf9c6212571ed948c103c01bdf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8c2e9eba2f4aa55e650a7e69572cc884fa237eb72869a0bbd882a42b546634c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053587"
 ---
 # <a name="iwmpmediacollectiongetbyname-method"></a>IWMPMediaCollection :: getByName, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPMediaCollection.getByName
 
 Interface **wmplib. IWMPPlaylist** pour les éléments multimédias récupérés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

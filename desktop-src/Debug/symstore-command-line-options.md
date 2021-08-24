@@ -4,12 +4,12 @@ ms.assetid: d6d10adb-cb17-4ce3-b0e5-493b313ebdba
 title: Options de Command-Line SymStore
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76b69cdca9ee74cf01041375f26b2e151dc3ec5d
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: bc166ab82fc40ad11eb9b014a003dc793f3bb7cc1d70792370bd175c68802417
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572979"
 ---
 # <a name="symstore-command-line-options"></a>Options de Command-Line SymStore
 

@@ -1,19 +1,19 @@
 ---
-description: Lors du développement d’une application qui utilise les services HTTP Microsoft Windows (WinHTTP), il est important de comprendre les concepts et la terminologie suivants relatifs à la mise en réseau en général et au protocole HTTP en particulier.
+description: lors du développement d’une application qui utilise les Services HTTP Microsoft Windows (WinHTTP), il est important de comprendre les concepts et la terminologie suivants relatifs à la mise en réseau en général et au protocole HTTP en particulier.
 ms.assetid: 6ea0c16f-1233-4580-97bb-14e224646857
 title: Terminologie réseau (WinHTTP)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8173b921957a95ebde7f00034c31b2f016b78ab5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bec92d5dd99247fab3ade48760db343983cd7092ea96ac8bd059ed892c9aa42a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643799"
 ---
 # <a name="network-terminology-winhttp"></a>Terminologie réseau (WinHTTP)
 
-Lors du développement d’une application qui utilise les services HTTP Microsoft Windows (WinHTTP), il est important de comprendre les concepts et la terminologie suivants relatifs à la mise en réseau en général et au protocole HTTP en particulier.
+lors du développement d’une application qui utilise les Services HTTP Microsoft Windows (WinHTTP), il est important de comprendre les concepts et la terminologie suivants relatifs à la mise en réseau en général et au protocole HTTP en particulier.
 
 -   [Transactions HTTP](#http-transactions)
 -   [Serveurs proxy](#proxy-servers)
@@ -62,7 +62,7 @@ Un modèle asynchrone, en revanche, permet à une application d’effectuer d’
 
 L’authentification est le processus par lequel un proxy HTTP ou un serveur HTTP valide les informations de connexion d’un utilisateur avant d’autoriser l’accès aux ressources. Divers schémas d’authentification sont utilisés sur Internet. En général, le nom et le mot de passe d’un utilisateur sont comparés à une liste autorisée, et si le système détecte une correspondance, l’accès est accordé à l’étendue spécifiée dans la liste d’autorisations de l’utilisateur.
 
-Les fonctions WinHTTP prennent en charge l’authentification serveur et proxy pour les sessions HTTP. WinHTTP prend en charge les schémas d’authentification suivants : de base, Digest (voir [RFC 2617](https://www.ietf.org/rfc/rfc2617.txt)), [authentification NTLM](../com/ntlmssp.md), Negotiate/ [Kerberos](../com/kerberos-v5-protocol.md)et Microsoft Passport 1,4. Pour plus d’informations sur l’authentification, ainsi qu’un exemple d’utilisation de l’authentification dans une application Microsoft Visual C++, consultez [authentification dans WinHTTP](authentication-in-winhttp.md).
+Les fonctions WinHTTP prennent en charge l’authentification serveur et proxy pour les sessions HTTP. WinHTTP prend en charge les schémas d’authentification suivants : de base, Digest (voir [RFC 2617](https://www.ietf.org/rfc/rfc2617.txt)), [authentification NTLM](../com/ntlmssp.md), Negotiate/ [Kerberos](../com/kerberos-v5-protocol.md)et Microsoft Passport 1,4. pour plus d’informations sur l’authentification, ainsi qu’un exemple d’utilisation de l’authentification dans une application Microsoft Visual C++, consultez [authentification dans WinHTTP](authentication-in-winhttp.md).
 
 Pour plus d’informations sur les considérations de sécurité relatives à l’authentification de base et Passport, consultez Considérations sur la [sécurité WinHTTP](winhttp-security-considerations.md).
 

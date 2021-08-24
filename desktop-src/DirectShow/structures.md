@@ -1,24 +1,24 @@
 ---
-description: Cet article contient des Articles de référence pour les structures DirectShow telles que DEXTER_PARAM, DEXTER_VALUE et SCompFmt0.
+description: cet article contient des articles de référence sur les structures de DirectShow telles que DEXTER_PARAM, DEXTER_VALUE et SCompFmt0.
 ms.assetid: 74f999c8-2602-42b0-97e4-2c626013fab3
-title: Structures DirectShow
+title: structures de DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60107b6c5a13e6db0d5f08f41d0e47a836d901f5
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 207e0e089f049bc1cac31ac146dbf61713e2d19f76b754206f689b8ff4eb0f16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072363"
 ---
-# <a name="directshow-structures"></a>Structures DirectShow
+# <a name="directshow-structures"></a>structures de DirectShow
 
 > [!Note]  
-> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-Les services d’édition DirectShow définissent les structures suivantes.
+DirectShow Les services d’édition définissent les structures suivantes.
 
 
 

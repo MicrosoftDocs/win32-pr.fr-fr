@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af3fea99075399dcea2afa7ace40f0dbae57b01f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 71967dec6415e08de6534be547cad039aa2ba8182d428f50346c6398f1583516
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104530639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119530689"
 ---
 # <a name="enumeration-syntax"></a>Syntaxe d’énumération
 
@@ -28,7 +28,7 @@ Syntaxe d’énumération (mécanisme de remise).
 
 | Entrée | Valeur |
 |--------------|---------------------------------------------------------------------------|
-| Nom         | Énumération                                                               |
+| Name         | Énumération                                                               |
 | ID de syntaxe    | 2.5.5.9                                                                   |
 | ID OM        | 10                                                                        |
 | Type MAPI    | LONG                                                                      |
@@ -38,7 +38,7 @@ Syntaxe d’énumération (mécanisme de remise).
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Défini par l’ITU. Active Directory traite cela comme un entier.
 

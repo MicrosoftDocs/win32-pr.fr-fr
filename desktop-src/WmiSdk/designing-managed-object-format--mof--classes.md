@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 201f8c45f7a247fbca5695baa6dd440fc5dc323f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78e761b5fe0b7eeee80dc3188ba952812fb1d7f0bad963452a23e9073bb34282
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119374669"
 ---
 # <a name="designing-managed-object-format-mof-classes"></a>Conception de classes format MOF (MOF)
 

@@ -4,12 +4,12 @@ ms.assetid: a3ffeecb-cdd6-43af-a3fe-48e3e843ec8b
 title: Options de planification de l’exécution des actions personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bfa5aee44f3ad357eefc6f9dd9c5ee5ae45797c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91adbee99684a5a9db0701c2371c8c517547b4d91881518d72fe7c25c0d189be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520099"
 ---
 # <a name="custom-action-execution-scheduling-options"></a>Options de planification de l’exécution des actions personnalisées
 
@@ -20,7 +20,7 @@ Notez que le programme d’installation :
 -   Exécute des actions dans une table de séquences immédiatement par défaut.
 -   N’exécute pas d’action si le champ expression conditionnelle de la table Sequence prend la valeur false.
 -   Traite la table de séquence d’interface utilisateur dans le processus client si le niveau d’interface de l’utilisateur interne est défini sur le mode d’interface utilisateur complet (consultez [**MsiSetInternalUI**](/windows/desktop/api/Msi/nf-msi-msisetinternalui) pour obtenir une description des niveaux de l’interface utilisateur).
--   Est un service inscrit par défaut lors de l’utilisation de Windows 2000 et, dans ce cas, la table d’exécution des séquences est traitée dans le service d’installation.
+-   est un service enregistré par défaut lors de l’utilisation de Windows 2000 et, dans ce cas, la table d’exécution des séquences est traitée dans le service d’installation.
 
 Vous pouvez utiliser les indicateurs d’option suivants pour contrôler plusieurs exécutions immédiates d’actions personnalisées. Pour définir une option, ajoutez la valeur de ce tableau à la valeur du champ type de la [table CustomAction](customaction-table.md). Aucun des indicateurs suivants ne doit être utilisé avec des [actions personnalisées d’exécution différée](deferred-execution-custom-actions.md).
 

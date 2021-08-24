@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3100d449d2f29b2080541c5968cad6abc5643b26
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bb77358ec579415439c2832b00255e7ffeb3c7eba0e387bfa0522a4a5109669
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073313"
 ---
 # <a name="csourcestreamcheckrequest-method"></a>Méthode CSourceStream. CheckRequest
 
@@ -53,7 +53,7 @@ Pointeur vers une variable qui reçoit la valeur passée dans le dernier appel �
 
 Retourne la **valeur true** s’il y a une demande en attente, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode remplace la méthode [**CAMThread :: CheckRequest**](camthread-checkrequest.md) pour effectuer la vérification de type. La classe **CSourceStream** définit le type énuméré suivant pour le paramètre *pCom* :
 
@@ -70,7 +70,7 @@ enum Command {CMD_INIT, CMD_PAUSE, CMD_RUN, CMD_STOP, CMD_EXIT};
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Source. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Source. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

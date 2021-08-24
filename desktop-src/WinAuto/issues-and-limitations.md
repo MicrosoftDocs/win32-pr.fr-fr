@@ -4,12 +4,12 @@ description: Cette section décrit les problèmes et limitations que vous devez 
 ms.assetid: 906054a1-3627-4cac-8baf-f3543226f2d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 494b5d6938847a6297a491c0b843fc41b559ae1f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f364f9635428125aa8a3c84f7e208d6270276dfa74f9e033802deda43972d061
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644609"
 ---
 # <a name="issues-and-limitations"></a>Problèmes et limitations
 
@@ -24,9 +24,9 @@ Cette section décrit les problèmes et limitations que vous devez prendre en co
 -   [Prise en charge de IAccessible Native](native-iaccessible-support.md)
 -   [Support in-process](in-process-support.md)
 
- 
+ 
 
- 
+ 
 
 
 

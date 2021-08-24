@@ -78,7 +78,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 [**WSMan**](wsman.md)
 </dt> <dt>
 
-[**session**](session.md)
+[**Session**](session.md)
 </dt> </dl>
 
  

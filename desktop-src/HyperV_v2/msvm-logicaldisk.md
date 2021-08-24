@@ -76,12 +76,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e5071f2a102a32364888c9c7de5121ede5249f47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8bcc9121a6c1f11b57cad8df096713a29edf7a58551de76b6f1cfa2d1f20ab2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521739"
 ---
 # <a name="msvm_logicaldisk-class"></a>\_Classe LogicalDisk MSVM
 
@@ -174,7 +174,7 @@ La **classe \_ LogicalDisk MSVM** possède ces méthodes.
 | **OnlineDevice**                                                  | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                 | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-logicaldisk-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-logicaldisk-reset.md)                           | Réinitialise le service.<br/>           |
+| [**Initialisation**](msvm-logicaldisk-reset.md)                           | Réinitialise le service.<br/>           |
 | **RestoreProperties**                                             | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                 | Cette méthode n'est pas prise en charge.<br/> |
@@ -669,7 +669,7 @@ Cette propriété est héritée de la [**\_ StorageExtent CIM**](/windows/deskto
 
 | Valeur                                                                         | Signification                                 |
 |-------------------------------------------------------------------------------|-----------------------------------------|
-| <dl> <dt>1</dt> </dl>  | Autres<br/>                        |
+| <dl> <dt>1</dt> </dl>  | Autre<br/>                        |
 | <dl> <dt>12</dt> </dl> | Nom du périphérique du système d’exploitation<br/> |
 
 
@@ -693,7 +693,7 @@ Cette propriété est héritée de la [**\_ StorageExtent CIM**](/windows/deskto
 
 | Valeur                                                                        | Signification                                      |
 |------------------------------------------------------------------------------|----------------------------------------------|
-| <dl> <dt>1</dt> </dl> | Autres<br/>                             |
+| <dl> <dt>1</dt> </dl> | Autre<br/>                             |
 | <dl> <dt>8</dt> </dl> | Espace de noms du périphérique du système d’exploitation<br/> |
 
 
@@ -1189,7 +1189,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ LogicalDisk** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1199,8 +1199,8 @@ L’accès à la classe **MSVM \_ LogicalDisk** peut être limité par le filtra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1220,7 +1220,7 @@ L’accès à la classe **MSVM \_ LogicalDisk** peut être limité par le filtra
 [**MSVM \_ StorageAlert**](msvm-storagealert.md)
 </dt> <dt>
 
-[Classes de stockage](storage-classes.md)
+[Stockage Catégories](storage-classes.md)
 </dt> </dl>
 
  

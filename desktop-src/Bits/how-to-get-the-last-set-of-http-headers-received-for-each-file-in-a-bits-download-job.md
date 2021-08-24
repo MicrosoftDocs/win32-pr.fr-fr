@@ -6,18 +6,18 @@ keywords:
 - Téléchargement de BITS, en-tête HTTP
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: 0b7858d5b2467f52681b325e2bfbe65b96889e0d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 92e9fe2c1671d26854da119938b426bc662324fe701d7f24d1885ff7b88e2df1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528528"
 ---
 # <a name="how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job"></a>Comment obtenir le dernier ensemble d’en-têtes HTTP reçus pour chaque fichier dans un travail de téléchargement BITS
 
-Cet exemple montre comment utiliser la méthode [**GetProperty**](/windows/desktop/api/Bits5_0/nf-bits5_0-ibackgroundcopyjob5-getproperty) de l’interface [**IBackgroundCopyJob5**](/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5) pour obtenir le dernier jeu d’en-têtes http reçu pour chaque fichier dans un travail de téléchargement service de transfert intelligent en arrière-plan (bits). Les informations contenues dans l’en-tête HTTP peuvent être utilisées, par exemple, pour déterminer le type de fichier ou le moment où il a été modifié pour la dernière fois sur le serveur. Avant Windows 8 et Windows Server 2012, le service BITS n’offrait pas de moyen permettant à l’application de récupérer et d’inspecter les en-têtes de réponse HTTP d’un téléchargement terminé. Cet exemple montre comment utiliser l’API BITS pour créer un travail BITS avec plusieurs URL à télécharger, répertorier les URL d’un travail et récupérer les en-têtes de réponse HTTP pour chaque URL.
+Cet exemple montre comment utiliser la méthode [**GetProperty**](/windows/desktop/api/Bits5_0/nf-bits5_0-ibackgroundcopyjob5-getproperty) de l’interface [**IBackgroundCopyJob5**](/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5) pour obtenir le dernier jeu d’en-têtes http reçu pour chaque fichier dans un travail de téléchargement service de transfert intelligent en arrière-plan (bits). Les informations contenues dans l’en-tête HTTP peuvent être utilisées, par exemple, pour déterminer le type de fichier ou le moment où il a été modifié pour la dernière fois sur le serveur. avant de Windows 8 et Windows Server 2012, BITS n’offrait pas de moyen permettant à l’application de récupérer et d’inspecter les en-têtes de réponse HTTP d’un téléchargement terminé. Cet exemple montre comment utiliser l’API BITS pour créer un travail BITS avec plusieurs URL à télécharger, répertorier les URL d’un travail et récupérer les en-têtes de réponse HTTP pour chaque URL.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -303,7 +303,7 @@ HRESULT DisplayFileHeaders(__in IBackgroundCopyJob *Job)
 
 
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 L’exemple de code suivant est une application console entièrement fonctionnelle qui montre comment utiliser l’API BITS pour créer un travail BITS avec plusieurs URL à télécharger, répertorier les URL d’un travail et récupérer les en-têtes de réponse HTTP pour chaque URL.
 
@@ -730,9 +730,9 @@ VOID DisplayError(__in IBackgroundCopyJob *Job)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

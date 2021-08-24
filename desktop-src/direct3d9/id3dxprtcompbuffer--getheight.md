@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5d418f039fdd48d02cd92c6605e159c381e5c43c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cdfda8d21dbaade2ba1a6fdc3691aa8a04b45733164e104723da4a9d0c314cf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492699"
 ---
 # <a name="id3dxprtcompbuffergetheight-method"></a>ID3DXPRTCompBuffer :: GetHeight, méthode
 
@@ -38,7 +38,7 @@ UINT GetHeight();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 

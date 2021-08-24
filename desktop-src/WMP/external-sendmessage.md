@@ -3,9 +3,9 @@ title: External. sendMessage, méthode
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. La méthode sendMessage envoie un message au plug-in du magasin en ligne.
 ms.assetid: 72d34dcc-3284-4446-804f-0fc93a7d8dab
 keywords:
-- méthode sendMessage lecteur Windows Media
-- méthode sendMessage lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, sendMessage, méthode
+- sendMessage, méthode Lecteur Windows Media
+- sendMessage, méthode Lecteur Windows Media, classe externe
+- External, classe Lecteur Windows Media, sendMessage, méthode
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4648f3cf433a2828d3c97604ebf9ee6e7223b7f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4985bae2f9170bdb0db1d6cdb995f2c14fe813bcb061485c179bc058539e84c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648359"
 ---
 # <a name="externalsendmessage-method"></a>External. sendMessage, méthode
 
@@ -66,7 +66,7 @@ External.sendMessage(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message est envoyé de manière asynchrone. Autrement dit, cette méthode retourne immédiatement au lieu d’attendre que le message soit traité. Lorsque le plug-in termine le traitement du message, il appelle la méthode [IWMPContentPartnerCallback :: SendMessageComplete](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete) , qui à son tour appelle le gestionnaire d’événements [OnSendMessageComplete](external-onsendmessagecomplete-event.md) du script.
 

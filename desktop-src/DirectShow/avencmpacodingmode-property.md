@@ -4,12 +4,12 @@ ms.assetid: c1a303fd-3625-4051-b6b8-4f83cceec945
 title: Propriété AVEncMPACodingMode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d5015edceb22dadbe8b6a426122b10fbd6a3903
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 80e210d634a8e9cbc7e6fc557f77828dd67501f5fbd70bcc40a4ba79b54b9fca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119586609"
 ---
 # <a name="avencmpacodingmode-property"></a>Propriété AVEncMPACodingMode
 
@@ -35,8 +35,8 @@ La valeur de cette propriété est un membre de l’énumération [**eAVEncMPACo
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

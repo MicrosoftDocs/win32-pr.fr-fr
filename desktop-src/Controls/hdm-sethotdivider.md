@@ -3,7 +3,7 @@ title: Message HDM_SETHOTDIVIDER (commctrl. h)
 description: Modifie la couleur d’un séparateur entre des éléments d’en-tête pour indiquer la destination d’une opération de glisser-déplacer externe. Vous pouvez envoyer ce message explicitement ou utiliser la macro d’en-tête \_ SetHotDivider.
 ms.assetid: 56f6e5c6-1df3-4b4d-9ad8-97fb168c5462
 keywords:
-- HDM_SETHOTDIVIDER les contrôles de message Windows
+- HDM_SETHOTDIVIDER les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: feb894100878e9b3ee85e8e8367a4b81a022a0a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eedfca7a6f0d10651984efb63c4db63116c4a53d2b9f9b85905c93fc12e6ca16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544749"
 ---
 # <a name="hdm_sethotdivider-message"></a>\_Message HDM SETHOTDIVIDER
 
@@ -62,7 +62,7 @@ Si *wParam* a la **valeur false**, *lParam* représente l’index entier du sép
 
 Retourne une valeur égale à l’index du séparateur mis en surbrillance par le contrôle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message crée un effet qu’un contrôle header génère automatiquement lorsqu’il a le style [**HDS \_ DRAGDROP**](header-control-styles.md) . Le message **HDM \_ SETHOTDIVIDER** est destiné à être utilisé lorsque le propriétaire du contrôle gère manuellement les opérations de glisser-déplacer.
 
@@ -72,8 +72,8 @@ Ce message crée un effet qu’un contrôle header génère automatiquement lors
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

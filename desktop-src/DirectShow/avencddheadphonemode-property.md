@@ -4,12 +4,12 @@ ms.assetid: f33259f4-bb96-4d6d-8d03-6975bc32e226
 title: Propriété AVEncDDHeadphoneMode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df75a6c726fc748e623ae9bded67ca6e1197b990
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b92b0c554bf7d6c1d6ef7c0fdd4ea1b51bf50d1beab444a8700777c3195487cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690179"
 ---
 # <a name="avencddheadphonemode-property"></a>Propriété AVEncDDHeadphoneMode
 
@@ -35,8 +35,8 @@ La valeur de cette propriété est un membre de l’énumération [**eAVEncDDHea
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

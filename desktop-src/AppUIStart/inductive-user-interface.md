@@ -4,16 +4,16 @@ description: Cette rubrique décrit le modèle d’interface utilisateur appelé
 ms.assetid: d99dc30a-68e5-4b7a-8cbd-0ac77a90a354
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 632e16191b7103cbf6be9fe209ada78781d4a53c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8a16282248e1942070f5dc3e1418016657de2e84f39e1f8473eaedcbc0eeccbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589365"
 ---
 # <a name="inductive-user-interface"></a>Interface utilisateur inductive
 
-Cette rubrique décrit le modèle d’interface utilisateur appelé interface utilisateur inductif (IUI). Également appelé navigation inductive, le modèle IUI suggère comment rendre les applications logicielles plus simples en cassant les fonctionnalités dans des écrans ou des pages faciles à expliquer et à comprendre. Ce modèle IUI est évident dans différents projets Microsoft, tels que Microsoft Money 2000, les applets du panneau de configuration Windows, différents écrans et boîtes de dialogue dans Microsoft Visual Studio 2010 et les volets des tâches de Microsoft Office.
+Cette rubrique décrit le modèle d’interface utilisateur appelé interface utilisateur inductif (IUI). Également appelé navigation inductive, le modèle IUI suggère comment rendre les applications logicielles plus simples en cassant les fonctionnalités dans des écrans ou des pages faciles à expliquer et à comprendre. ce modèle IUI est évident dans différents projets microsoft, tels que microsoft Money 2000, le Windows des applets du panneau de configuration, divers écrans et boîtes de dialogue dans Microsoft Visual Studio 2010 et les volets des tâches de Microsoft Office.
 
 -   [Introduction](#introduction)
 -   [IUI en action : résolution d’un problème de conception courant](#iui-in-action-solving-a-common-design-problem)
@@ -147,11 +147,11 @@ La tâche principale peut être spécifique ou ouverte. Par exemple, dans un pro
 
 La tâche principale doit avoir un sens pour l’utilisateur, plutôt qu’une réflexion d’un détail d’implémentation ou d’un autre concept abstrait. La tâche doit être quelque chose que les utilisateurs peuvent envisager d’effectuer, de préférence décrits dans leurs propres mots.
 
-### <a name="example"></a>Exemple
+### <a name="example"></a>Exemples
 
 Cette section compare deux versions différentes de Money. Les exemples présentent des fonctionnalités très similaires qui permettent aux utilisateurs d’afficher et de gérer des comptes financiers.
 
-Le modèle IUI a été développé lors de la création de Money 2000, une application de gestion des finances personnelles. Money 2000 est la huitième version majeure du produit. Money 2000 est un programme Windows de grande taille avec plus de 1 million lignes de code.
+Le modèle IUI a été développé lors de la création de Money 2000, une application de gestion des finances personnelles. Money 2000 est la huitième version majeure du produit. Money 2000 est un programme de Windows volumineux avec plus de 1 million lignes de code.
 
 Money 2000 est une application de type Web. Il ne s’agit pas d’un site Web, mais partage de nombreux attributs avec les sites Web. Son interface utilisateur se compose de pages plein écran affichées dans un frame partagé, avec des outils de déplacement vers l’avant et vers l’arrière via une pile de navigation. Sur cette base, Money 2000 ajoute un ensemble de nouvelles conventions d’interface utilisateur qui créent une expérience utilisateur plus structurée.
 
@@ -193,7 +193,7 @@ Le titre de l’écran ou de la page est très important. Que le produit utilise
 
 Les écrans qui effectuent de nombreuses tâches requièrent des titres abstraits ou complexes. Par exemple, l’écran Money 99 illustré à la figure 2 permettait à l’utilisateur d’accéder aux comptes et de configurer des comptes. Le titre abstrait « gestionnaire de compte » a été donné à cette page pour tenter de capturer ces deux rôles. Bien que les utilisateurs puissent avoir des idées sur ce qu’une page « Gestionnaire de comptes » peut faire, ils peuvent ne pas se rendre compte que la tâche la plus courante pour cet écran a simplement choisi un compte.
 
-Certains écrans ou commandes ont des objectifs abstraits qui ne suggèrent pas facilement des titres clairs. Pour ces écrans, les concepteurs peuvent choisir des noms qui sont délibérément imprécis, tels que « paramètres », des mots en monnaie, tels que « QuickStep » ou un jargon qui révèle les détails de l’implémentation (« compactage de base de données »). Ces types de noms sont souvent déroutants ou trompeurs pour les utilisateurs. En outre, ces noms sont généralement des noms qui n’expriment pas l’action que l’utilisateur souhaite accomplir, ce qui augmente la confusion.
+Certains écrans ou commandes ont des objectifs abstraits qui ne suggèrent pas facilement des titres clairs. pour ces écrans, les concepteurs peuvent choisir des noms qui sont délibérément imprécis, tels que « Paramètres ; » mots, comme « QuickStep », ou jargon qui révèle les détails de l’implémentation (« compactage de base de données »). Ces types de noms sont souvent déroutants ou trompeurs pour les utilisateurs. En outre, ces noms sont généralement des noms qui n’expriment pas l’action que l’utilisateur souhaite accomplir, ce qui augmente la confusion.
 
 Les titres d’écran et les autres noms sont souvent déterminés jusqu’à la fin du processus de conception. Les concepteurs demandent souvent aux rédacteurs de trouver un nom approprié pour un écran une fois qu’il a été conçu et codé. À ce stade, il n’y a pas de recours si un nom correct est introuvable et que l’équipe peut être obligée de régler les noms qui ne sont pas clairs. La solution à ce défaut est que les concepteurs considèrent la clarté des fonctions et des titres d’écran tôt dans le processus de conception.
 
@@ -312,7 +312,7 @@ Par exemple, la zone **taxes** financières contient les fonctionnalités liées
 
 ![capture d’écran de la page de l’espace fiscal Money 2000. ](images/iuiguidelines09.png)
 
-Une page d’activité peut également être beaucoup plus simple si moins d’options sont disponibles. La capture d’écran suivante montre comment une page d’activité peut être utilisée pour la gestion des comptes d’utilisateur Windows.
+Une page d’activité peut également être beaucoup plus simple si moins d’options sont disponibles. la capture d’écran suivante montre comment une page d’activité peut être utilisée pour la gestion des comptes d’utilisateur Windows.
 
 ![capture d’écran d’une page d’activité Money 2000 pour la gestion des comptes d’utilisateur Windows. ](images/iuiguidelines10.png)
 
@@ -472,7 +472,7 @@ Lors du développement de Money 2000, l’équipe a effectué plusieurs tests d�
 
 Au début du processus de développement du produit, les concepteurs ont créé un prototype pour explorer la manière dont les utilisateurs réagissent à IUI. Ce travail a été effectué très tôt dans le processus de développement afin de laisser le temps d’affiner les principes du modèle avant que les programmeurs ne commencent à se détourner vers le produit lui-même.
 
-L’équipe a créé un prototype dans Microsoft Visual Basic et HTML qui a simulé les activités de finance personnelles normalement effectuées dans Money. Dans le prototype, les utilisateurs pouvaient accéder à plus de 50 pages représentant les principales zones du produit. Dans ces domaines, ils peuvent configurer des comptes financiers, payer des factures, afficher des rapports et travailler avec leurs investissements.
+l’équipe a créé un prototype dans Microsoft Visual Basic et HTML qui a simulé les activités de finance personnelles normalement effectuées dans Money. Dans le prototype, les utilisateurs pouvaient accéder à plus de 50 pages représentant les principales zones du produit. Dans ces domaines, ils peuvent configurer des comptes financiers, payer des factures, afficher des rapports et travailler avec leurs investissements.
 
 Onze participants ont effectué le même ensemble de tâches dans Money 99 et le prototype IUI. Elles ont été affectées de façon aléatoire pour utiliser l’un des produits en premier. Quatre participants étaient des utilisateurs actuels de Money, quatre étaient des utilisateurs actuels d’un produit concurrent et trois n’avaient jamais utilisé un produit de finance personnel auparavant.
 

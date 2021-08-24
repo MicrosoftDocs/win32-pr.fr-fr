@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b85ff937b720a69ee2722cef2f02b25273ea58d
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: b23de0b23b0b87f559326c37ad61ecd09c38f697f0be48b45e92f5e7389b09fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104032064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588819"
 ---
 # <a name="ack-for-cancel-session"></a>ACK pour Cancel-Session
 
@@ -85,7 +85,7 @@ Remplacez erreur-Context par un nombre hexadécimal qui représente le contexte 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le client BITS renvoie le paquet d' [**annulation de session**](cancel-session.md) si le code de raison est compris entre 500 et 599, sauf si l’en-tête de code d’erreur bits est présent avec la valeur BG \_ E \_ session \_ \_ introuvable. Le client n’effectue pas de nouvelle tentative pour les codes de raison 100 à 499.
 
@@ -99,9 +99,9 @@ Le client BITS renvoie le paquet d' [**annulation de session**](cancel-session.m
 [**Annuler-session**](cancel-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

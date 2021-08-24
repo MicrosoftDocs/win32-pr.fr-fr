@@ -1,5 +1,5 @@
 ---
-description: La méthode AlignUp arrondit une valeur à une limite d’alignement spécifiée. Remarque supprimée dans Windows 7. .
+description: La méthode AlignUp arrondit une valeur à une limite d’alignement spécifiée. remarque supprimée dans Windows 7. .
 ms.assetid: fa2a6567-3eb1-4aa9-b966-2e88b15c67b1
 title: Méthode CPullPin. AlignUp (Pullpin. h)
 ms.topic: reference
@@ -16,19 +16,19 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a4f33ae2b7434d90d909315edda4d49e07d8adab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 34c45fe4a34e21647cd976adbf29dfe6723e4216d58166e7d1599d4c8d64d47e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687759"
 ---
 # <a name="cpullpinalignup-method"></a>Méthode CPullPin. AlignUp
 
 La méthode **AlignUp** arrondit une valeur à une limite d’alignement spécifiée.
 
 > [!Note]  
-> Supprimé dans Windows 7.
+> supprimé dans Windows 7.
 
  
 
@@ -48,7 +48,7 @@ LONGLONG AlignUp(
 
 <dl> <dt>
 
-*ll* 
+*UT* 
 </dt> <dd>
 
 Spécifie le nombre à aligner.
@@ -66,7 +66,7 @@ Spécifie la limite d’alignement.
 
 Retourne le résultat aligné.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Caution]  
 > Cette méthode peut provoquer un dépassement de capacité numérique si *ll* + (*lAlign* -1) déborde.

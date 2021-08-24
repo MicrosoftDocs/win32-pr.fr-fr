@@ -1,25 +1,25 @@
 ---
-description: ICE32 valide que les clés et les clés étrangères du fichier. msi sont des mêmes types de définition de taille et de colonne.
+description: ICE32 valide que les clés et les clés étrangères dans le fichier .msi sont des types de définition de taille et de colonne identiques.
 ms.assetid: cc488ec5-e17a-4829-9763-38ba3c33bfde
 title: ICE32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d6ff9e4de592ac073050b357aff0c63d984f0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12e9361cd091afea3444858e64e043b87b779c2313f0ba16bb0ec6cf58fad265
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528619"
 ---
 # <a name="ice32"></a>ICE32
 
-ICE32 valide que les clés et les clés étrangères du fichier. msi sont des mêmes types de définition de taille et de colonne. Cette action personnalisée ICE effectue la comparaison à l’aide de la [ \_ table de validation](-validation-table.md) et à l’aide des types de définition retournés par [**MsiViewGetColumnInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msiviewgetcolumninfo). Pour plus d’informations, consultez [format de définition de colonne](column-definition-format.md).
+ICE32 valide que les clés et les clés étrangères dans le fichier .msi sont des types de définition de taille et de colonne identiques. Cette action personnalisée ICE effectue la comparaison à l’aide de la [ \_ table de validation](-validation-table.md) et à l’aide des types de définition retournés par [**MsiViewGetColumnInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msiviewgetcolumninfo). Pour plus d’informations, consultez [format de définition de colonne](column-definition-format.md).
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
-ICE32 publie des erreurs si le fichier. msi contient des clés étrangères aux clés d’un type de données de longueur de colonne ou de colonne différent.
+ICE32 publie des erreurs si le fichier .msi contient des clés étrangères aux clés d’un type de données de longueur de colonne ou de colonne différent.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 ICE32 publie deux erreurs pour l’exemple ci-dessous :
 

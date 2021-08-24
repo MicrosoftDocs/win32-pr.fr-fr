@@ -4,12 +4,12 @@ ms.assetid: 396f9c9e-4d13-4e0d-9ec5-14a1c49f059e
 title: System. GPS. altitude
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 181c3c07c81f905d627169c0ca51700298860a7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30035cb0b99dd08ff600dbad46d1219394d3c7abcf1297c3f520c0c7b19d04df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033537"
 ---
 # <a name="systemgpsaltitude"></a>System. GPS. altitude
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
-La spécification d’une référence de chaîne indirecte spécifique pour l' `label` attribut de **labelInfo** a été ajoutée pour Windows Vista avec Service Pack 1 (SP1).
+la spécification d’une référence de chaîne indirecte spécifique pour l' `label` attribut de **labelInfo** a été ajoutée pour Windows Vista avec Service Pack 1 (SP1).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

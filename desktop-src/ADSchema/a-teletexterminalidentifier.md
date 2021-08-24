@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e78e3129c60273232c4673a3cf63053f46951f3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8e118aff76c12ddf812ab7516237f00c5321a947fe3f66f290be3ffaa6c50240
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645209"
 ---
 # <a name="teletex-terminal-identifier-attribute"></a>TELETEX-attribut d’identificateur de terminal
 
@@ -46,7 +46,7 @@ Spécifie l’identificateur du terminal TELETEX et, éventuellement, les param�
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

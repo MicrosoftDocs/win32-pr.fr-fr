@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 04665f96f4ec77501ee0b161d816c84943ca2c98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8ff905475863df11c6fb6529f030f73a4f1b785792be4c5fe8c7ce1142096c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068479"
 ---
 # <a name="msvm_replicationrelationship-class"></a>MSVM \_ ReplicationRelationship, classe
 
@@ -379,7 +379,7 @@ Type d'accès : Lecture seule
 </dt> <dd>
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -393,7 +393,7 @@ Type d'accès : Lecture seule
 </dt> <dd>
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -407,7 +407,7 @@ Type d'accès : Lecture seule
 </dt> <dd>
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -421,7 +421,7 @@ Type d'accès : Lecture seule
 </dt> <dd>
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -435,7 +435,7 @@ Type d'accès : Lecture seule
 </dt> <dd>
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -449,7 +449,7 @@ Type d'accès : Lecture seule
 </dt> <dd>
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -463,7 +463,7 @@ Type d'accès : Lecture seule
 </dt> <dd>
 
 > [!Note]  
-> Cette propriété a été ajoutée dans Windows 10, version 1703.
+> cette propriété a été ajoutée dans Windows 10, version 1703.
 
  
 
@@ -471,13 +471,13 @@ Type d'accès : Lecture seule
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="extended-replication"></a>Réplication étendue
 
-La fonctionnalité de réplication Hyper-V dans Windows 8 permet aux machines virtuelles qui s’exécutent sur un serveur Hyper-V du site principal d’être répliquées efficacement sur un autre serveur Hyper-V sur le site secondaire.
+la fonctionnalité de réplication Hyper-v dans Windows 8 permet aux ordinateurs virtuels qui s’exécutent sur un serveur hyper-v du site principal d’être répliqués efficacement sur un autre serveur hyper-v sur le site secondaire.
 
-La fonctionnalité de réplication Hyper-V dans Windows 8.1 permet à un utilisateur d’étendre la relation de réplication du site secondaire vers un troisième site. Le troisième site peut être un hôte Hyper-V préconfiguré en tant que serveur de récupération ou fournisseur de réplication externe.
+la fonctionnalité de réplication Hyper-V dans Windows 8.1 permet à un utilisateur d’étendre la relation de réplication du site secondaire vers un troisième site. Le troisième site peut être un hôte Hyper-V préconfiguré en tant que serveur de récupération ou fournisseur de réplication externe.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -486,7 +486,7 @@ La fonctionnalité de réplication Hyper-V dans Windows 8.1 permet à un utilisa
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

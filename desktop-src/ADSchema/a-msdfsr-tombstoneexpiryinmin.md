@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51832cb4ecb4e8b70ef8dc96aaab673f995b315d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: db2c525b29e78ba9f0d9ffe0c7e47e3b4147d62b4ecb44f3d7c20bf149ff22be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119298039"
 ---
 # <a name="ms-dfsr-tombstoneexpiryinmin-attribute"></a>attribut ms-DFSR-TombstoneExpiryInMin
 
@@ -36,14 +36,14 @@ Contient la durée de vie de l’enregistrement de désactivation, en minutes.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.13.3.11           |
 | System-ID-GUID    | 23e35d4c-e324-4861-a22f-e199140dae00 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,7 +56,7 @@ Contient la durée de vie de l’enregistrement de désactivation, en minutes.
 | ID de lien                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
 | System-Only            | Faux                                                                    |
-| Est de valeur unique       | Vrai                                                                     |
+| Est de valeur unique       | True                                                                     |
 | Est indexé             | Faux                                                                    |
 | Dans le catalogue global      | Faux                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                             |
@@ -77,7 +77,7 @@ Contient la durée de vie de l’enregistrement de désactivation, en minutes.
 | ID de lien                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
 | System-Only            | Faux                                                                    |
-| Est de valeur unique       | Vrai                                                                     |
+| Est de valeur unique       | True                                                                     |
 | Est indexé             | Faux                                                                    |
 | Dans le catalogue global      | Faux                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                             |
@@ -98,7 +98,7 @@ Contient la durée de vie de l’enregistrement de désactivation, en minutes.
 | ID de lien                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
 | System-Only            | Faux                                                                    |
-| Est de valeur unique       | Vrai                                                                     |
+| Est de valeur unique       | True                                                                     |
 | Est indexé             | Faux                                                                    |
 | Dans le catalogue global      | Faux                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                             |
@@ -119,7 +119,7 @@ Contient la durée de vie de l’enregistrement de désactivation, en minutes.
 | ID de lien                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
 | System-Only            | Faux                                                                    |
-| Est de valeur unique       | Vrai                                                                     |
+| Est de valeur unique       | True                                                                     |
 | Est indexé             | Faux                                                                    |
 | Dans le catalogue global      | Faux                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                             |
@@ -131,7 +131,7 @@ Contient la durée de vie de l’enregistrement de désactivation, en minutes.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **MS-DFSR-TombstoneExpiryInMin** fait partie de la prise en charge du service de réplication système de fichiers DFS (DFS).
 

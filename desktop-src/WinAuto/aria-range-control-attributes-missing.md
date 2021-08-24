@@ -6,12 +6,12 @@ keywords:
 - AriaRangeControlAttributesAbsentId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f8cd32a7a4807f06c26bd013ee3fd294d33cc57
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: b44e4e5c69ea6971846ed9ef5f3a6108bb488c6effb21a6cbc75953ed1bb780e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104032025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645118"
 ---
 # <a name="aria-range-control-attributes-missing"></a>Attributs de contrôle de plage ARIA manquants
 
@@ -21,7 +21,7 @@ L’élément a un rôle **ProgressBar** ou **Slider** , mais il n’expose pas 
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -31,7 +31,7 @@ Conformément à la spécification de l’initiative de l’accessibilité du We
 
 Pour corriger cette erreur, définissez les attributs [**Aria-ValueMax**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA), [**Aria-valuemin**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA)et [**Aria-valuenow**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) , et conservez dynamiquement la valeur **Aria-valuenow** pour vous assurer que la valeur actuelle est exposée. Vous devez également définir l’attribut [**Aria-ValueText**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) pour ajouter une plus grande signification à la valeur **Aria-valuenow** exposée.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 
 ```HTML
@@ -59,9 +59,9 @@ Pour corriger cette erreur, définissez les attributs [**Aria-ValueMax**](https:
 [Attributs de contrôle de plage ARIA incompatibles](aria-range-control-attribute-out-of-range.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

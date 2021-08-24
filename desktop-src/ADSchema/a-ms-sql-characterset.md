@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-CharacterSet
+title: attribut MS-SQL-CharacterSet
 description: Jeu de caractères pour l’instance actuelle de SQL Server.
 ms.assetid: 5c45058f-e883-455c-8e18-415ddae149f8
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-CharacterSet
-- Schéma AD de l’attribut mS-SQL-CharacterSet
+- schéma AD de l’attribut MS-SQL-CharacterSet
+- schéma AD de l’attribut mS-SQL-CharacterSet
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f2f3718c9e47393498e42c4091283ea768d5072
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 52754f476652e342c29f76763e2dd0788e1374e165957cadebecc100ed7030a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119299999"
 ---
-# <a name="ms-sql-characterset-attribute"></a>Attribut MS-SQL-CharacterSet
+# <a name="ms-sql-characterset-attribute"></a>attribut MS-SQL-CharacterSet
 
 Jeu de caractères pour l’instance actuelle de SQL Server.
 
@@ -36,7 +36,7 @@ Jeu de caractères pour l’instance actuelle de SQL Server.
 | Fréquence des mises à jour  | Au démarrage du système.                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1370              |
 | System-ID-GUID    | 696177a6-ccee-11d2-9993-0000f87a57d4 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Jeu de caractères pour l’instance actuelle de SQL Server.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,7 +58,7 @@ Jeu de caractères pour l’instance actuelle de SQL Server.
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
+| Est de valeur unique       | True                                                      |
 | Est indexé             | Faux                                                     |
 | Dans le catalogue global      | Faux                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
@@ -79,7 +79,7 @@ Jeu de caractères pour l’instance actuelle de SQL Server.
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
+| Est de valeur unique       | True                                                      |
 | Est indexé             | Faux                                                     |
 | Dans le catalogue global      | Faux                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
@@ -121,7 +121,7 @@ Jeu de caractères pour l’instance actuelle de SQL Server.
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
+| Est de valeur unique       | True                                                      |
 | Est indexé             | Faux                                                     |
 | Dans le catalogue global      | Faux                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
@@ -142,7 +142,7 @@ Jeu de caractères pour l’instance actuelle de SQL Server.
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
+| Est de valeur unique       | True                                                      |
 | Est indexé             | Faux                                                     |
 | Dans le catalogue global      | Faux                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
@@ -163,7 +163,7 @@ Jeu de caractères pour l’instance actuelle de SQL Server.
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
+| Est de valeur unique       | True                                                      |
 | Est indexé             | Faux                                                     |
 | Dans le catalogue global      | Faux                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |

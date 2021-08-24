@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9d5a7af10a2ade5ef4408c14c117678cd87a36b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7c46c98e3077d2284a3143bb569ae706b3d81fa37439b1bf19d815d75eaca152
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532429"
 ---
 # <a name="domain-other-parameters-property-set"></a>Propriété de domaine-autres paramètres définie
 
@@ -38,7 +38,7 @@ Jeu de propriétés autorisant le contrôle à une liste d’attributs de domain
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -3,19 +3,19 @@ title: Types TrackBar
 description: Types TrackBar
 ms.assetid: 560792e9-edaa-4488-9093-536300b6f8e6
 keywords:
-- Windows Media Player Mobile Skins, trackbars
-- Windows Media Player Mobile Skins, Seek trackbars
-- Windows Media Player Mobile Skins, volume trackbars
+- Lecteur Windows Media Skins mobiles, trackbars
+- Lecteur Windows Media Skins mobiles, Seek trackbars
+- Lecteur Windows Media Skins mobiles, volume trackbars
 - trackbars dans les apparences, types
 - habillages, trackbars
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70b21cc9773615386057c10a4fea94fc2a0f8316
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 77bd8e2f78e3e582083353ce29a54a2af914791af560e9bfcc0dd55f2c513d1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507369"
 ---
 # <a name="trackbar-types"></a>Types TrackBar
 
@@ -30,12 +30,12 @@ Pour plus d’informations sur les curseurs, consultez la section [Trackbars](tr
 
 <dl> <dt>
 
-[**Fonctionnalités mobile du lecteur Windows Media**](windows-media-player-mobile-functionality.md)
+[**Lecteur Windows Media Fonctionnalités mobiles**](windows-media-player-mobile-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

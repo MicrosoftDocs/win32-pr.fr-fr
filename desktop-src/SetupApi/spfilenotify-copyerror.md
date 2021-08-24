@@ -4,12 +4,12 @@ ms.assetid: d6096954-c6a5-44d4-a358-c1320c50730a
 title: Message d’SPFILENOTIFY_COPYERROR (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6cd44daabd6a4aed5e61a716bab3df44f35fc0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80160af9d8053a90c1848d397da6bbb9bf41f2793756e1d5491fb0d6f5e39abc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665149"
 ---
 # <a name="spfilenotify_copyerror-message"></a>\_Message SPFILENOTIFY COPYERROR
 
@@ -66,8 +66,8 @@ Le rappel doit retourner l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -76,7 +76,7 @@ Le rappel doit retourner l’une des valeurs suivantes.
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

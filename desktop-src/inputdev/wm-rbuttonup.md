@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85a1426b92e8f3aa05c25b551b42ce271b35c673
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74b5b101f01da1c5ac778a321dc2606aa498b986490d016a870162719b0b6ba0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106517323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557129"
 ---
 # <a name="wm_rbuttonup-message"></a>\_Message WM RBUTTONUP
 
@@ -73,7 +73,7 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le code suivant pour obtenir la position horizontale et verticale :
 

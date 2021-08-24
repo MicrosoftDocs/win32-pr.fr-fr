@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aafbce1e784e1f205f0d32e045785125c1fb5aaa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d77a7d7608e9facc1e0fc6973b19a3d9db36900fa8d550896cc3058389f367bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666379"
 ---
 # <a name="wm_dpichanged-message"></a>\_Message WM DPICHANGED
 
@@ -44,7 +44,7 @@ La valeur PPP actuelle d’une fenêtre est toujours égale à la dernière DPI 
 *wParam* 
 </dt> <dd>
 
-Le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) du *wParam* contient la valeur de l’axe Y de la nouvelle résolution PPP de la fenêtre. Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) du *wParam* contient la valeur de l’axe X de la nouvelle résolution PPP de la fenêtre. Par exemple, 96, 120, 144 ou 192. Les valeurs de l’axe des X et de l’axe des Y sont identiques pour les applications Windows.
+Le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) du *wParam* contient la valeur de l’axe Y de la nouvelle résolution PPP de la fenêtre. Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) du *wParam* contient la valeur de l’axe X de la nouvelle résolution PPP de la fenêtre. Par exemple, 96, 120, 144 ou 192. les valeurs de l’axe des X et de l’axe des Y sont identiques pour les applications Windows.
 
 </dd> <dt>
 
@@ -59,9 +59,9 @@ Pointeur vers une structure [**Rect**](/windows/desktop/api/windef/ns-windef-rec
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Ce message concerne uniquement les applications **\_ prenant en \_ \_ \_ charge la résolution par moniteur** ou la prise en charge **dpi par threads \_ \_ \_ \_ sensibles** à l’analyse. Il peut être reçu sur certaines modifications PPP si la fenêtre ou le processus de niveau supérieur s’exécute avec une prise en charge **dpi** ou si le système prend en **charge** les DPI, mais dans ce cas, il peut être ignoré en toute sécurité. Pour plus d’informations sur les différents types de reconnaissance, [**consultez \_ \_ prise**](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness) en la reconnaissance de la résolution des processus et [**\_ prise en dpi**](/windows/desktop/api/windef/ne-windef-dpi_awareness). Les versions antérieures de Windows nécessitaient une reconnaissance DPI pour être liées au niveau d’une application. Ces applications utilisent **la \_ \_ reconnaissance des PPP de processus**. Actuellement, la reconnaissance DPI est liée aux threads et aux fenêtres individuelles plutôt qu’à l’ensemble de l’application. Ces applications utilisent **la \_ reconnaissance dpi**.
+Ce message concerne uniquement les applications **\_ prenant en \_ \_ \_ charge la résolution par moniteur** ou la prise en charge **dpi par threads \_ \_ \_ \_ sensibles** à l’analyse. Il peut être reçu sur certaines modifications PPP si la fenêtre ou le processus de niveau supérieur s’exécute avec une prise en charge **dpi** ou si le système prend en **charge** les DPI, mais dans ce cas, il peut être ignoré en toute sécurité. Pour plus d’informations sur les différents types de reconnaissance, [**consultez \_ \_ prise**](/windows/desktop/api/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness) en la reconnaissance de la résolution des processus et [**\_ prise en dpi**](/windows/desktop/api/windef/ne-windef-dpi_awareness). les versions antérieures de Windows une prise en face des ppp nécessaire pour être liées au niveau d’une application. Ces applications utilisent **la \_ \_ reconnaissance des PPP de processus**. Actuellement, la reconnaissance DPI est liée aux threads et aux fenêtres individuelles plutôt qu’à l’ensemble de l’application. Ces applications utilisent **la \_ reconnaissance dpi**.
 
 Vous devez uniquement utiliser l’axe des X ou la valeur de l’axe des Y lors de la mise à l’échelle de votre application, car elles sont identiques.
 
@@ -133,7 +133,7 @@ Une autre façon de mettre à l’échelle une valeur consiste à convertir la v
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>WinUser. h</dt> </dl> |
 
 

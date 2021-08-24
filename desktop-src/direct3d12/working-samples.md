@@ -5,12 +5,12 @@ ms.assetid: 4C4475D4-534F-484F-8D60-9ACEA09AC109
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb1b61ec374e21c9173797121ee90ec72e789de8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d6f8bad1d20729f4caa78952feda22378ad37526b33b668e79260ef9658da53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631881"
 ---
 # <a name="working-samples"></a>Exemples fonctionnels
 
@@ -18,12 +18,12 @@ Des exemples fonctionnels sont disponibles au téléchargement, qui illustrent l
 
 ## <a name="working-samples"></a>Exemples fonctionnels
 
-Des exemples fonctionnels (sous la forme de projets Visual Studio 2015) peuvent être téléchargés à partir de [GitHub/Microsoft/DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples).
+des exemples fonctionnels (sous la forme de Visual Studio projets 2015) peuvent être téléchargés à partir de [GitHub/Microsoft/DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples).
 
 > [!Note]  
 > La liste exacte des exemples disponibles à cet emplacement variera en fonction de l’ajout et de la mise à jour des exemples.
 
- 
+ 
 
 
 
@@ -151,21 +151,21 @@ Montre comment appliquer une texture à un triangle à l’aide de Direct3D 12.<
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Guide de programmation Direct3D 12](directx-12-programming-guide.md)
+[Guide de programmation de Direct3D 12](directx-12-programming-guide.md)
 </dt> <dt>
 
-[Guide pas à pas du code D3D12](d3d12-code-walk-throughs.md)
+[Walk-Throughs de code D3D12](d3d12-code-walk-throughs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
