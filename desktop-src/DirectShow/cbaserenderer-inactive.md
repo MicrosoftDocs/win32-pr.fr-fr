@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9ac328c772b740a0d7ab05be4c6ea9f2a24f852e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e84afd1d4e4ffb013a2029f7d56a223f0aef2f019bc3beb11bd7bd6c202b88d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652399"
 ---
 # <a name="cbaserendererinactive-method"></a>CBaseRenderer. inactive, méthode
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La broche d’entrée appelle cette méthode à partir de sa propre méthode [**CRendererInputPin :: inactive**](crendererinputpin-inactive.md) . Le filtre appelle la méthode [**CBaseRenderer :: ClearPendingSample**](cbaserenderer-clearpendingsample.md) pour libérer l’exemple le plus récent.
 
@@ -54,7 +54,7 @@ La broche d’entrée appelle cette méthode à partir de sa propre méthode [**
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

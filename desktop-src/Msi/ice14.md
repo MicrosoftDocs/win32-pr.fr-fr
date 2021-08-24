@@ -4,12 +4,12 @@ ms.assetid: fb1970f8-1dba-4b06-aa03-5b33d213fc79
 title: ICE14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b2e64a6106ae359fe02c6ead271bbae267eeb18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85a0789b7844fcbee52654d29b700b167a073fa51778ef3882b1fcbe2864fbb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638169"
 ---
 # <a name="ice14"></a>ICE14
 
@@ -18,11 +18,11 @@ ICE14 valide les éléments suivants pour les fonctionnalités :
 -   Pour les fonctionnalités parentes racine, le bit msidbFeatureAttributesFollowParent n’est pas défini dans la colonne attributs du [tableau des fonctionnalités](feature-table.md). Une fonctionnalité racine n’a pas de parent.
 -   Cette fonctionnalité n’a pas la même entrée dans les colonnes parentes Feature et Feature \_ de la [table Feature](feature-table.md). Aucune fonctionnalité ne peut être son propre parent.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE14 publie un message d’erreur s’il trouve une fonctionnalité racine avec l’ensemble de bits msidbFeatureAttributesFollowParent ou une fonctionnalité avec des entrées identiques dans les \_ colonnes parentes de fonctionnalité et de fonctionnalité de la table des fonctionnalités.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 ICE14 retournerait les erreurs suivantes pour l’exemple suivant :
 
@@ -35,7 +35,7 @@ Dans l’arborescence des fonctionnalités de cet exemple, sport est la fonction
 
 
 
-| Fonctionnalité       | Attributs | Parent de la fonctionnalité \_ |
+| Caractéristique       | Attributs | Parent de la fonctionnalité \_ |
 |---------------|------------|-----------------|
 | Sport         | 4          | Sport           |
 | Nage      | 1          | Sport           |

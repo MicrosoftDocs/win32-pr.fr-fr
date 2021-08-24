@@ -1,19 +1,19 @@
 ---
-description: Nom d’un fichier. exe ou. dll tel qu’il est stocké dans une section de ressource dans ce fichier.
+description: Nom d’un fichier .exe ou .dll tel qu’il est stocké dans une section de ressource dans ce fichier.
 ms.assetid: a521f727-b024-44ef-98ae-98986254857f
 title: System. InternalName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07a1ed9063d19aa0bd2735c6c59626de483173c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75aa55edafe0f66faf6ed5474617738e6a02a01d00e434254514c44c8b7a352f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716779"
 ---
 # <a name="systeminternalname"></a>System. InternalName
 
-Nom d’un fichier. exe ou. dll tel qu’il est stocké dans une section de ressource dans ce fichier.
+Nom d’un fichier .exe ou .dll tel qu’il est stocké dans une section de ressource dans ce fichier.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
-Historiquement, ces informations étaient souvent affichées dans la page de la feuille de propriétés de la **version** de Windows XPÂ. Sous Windows Vista, les informations ont été déplacées vers l’onglet **Détails** . Toutefois, cette propriété particulière n’a pas été rendue publique dans Windows Vista jusqu’au Service Pack 1 (SP1).
+historiquement, ces informations étaient souvent affichées dans la page de la feuille de propriétés de la **Version** de Windows XPÂ. sous Windows Vista, les informations ont été déplacées vers l’onglet **détails** . toutefois, cette propriété particulière n’a pas été rendue publique dans Windows Vista jusqu’au Service Pack 1 (SP1).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

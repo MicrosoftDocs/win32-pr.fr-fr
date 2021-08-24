@@ -4,19 +4,19 @@ description: Les barres de défilement permettent à un utilisateur de choisir l
 ms.assetid: a4ec1708-d751-4526-bd69-9796c43872a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df381e0d532991f164f2c17d0a261dd3c5006619
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6acb609ee56d6e766a2f94cf75406211741ba0a711699f4e8c912790dc71cffe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734329"
 ---
 # <a name="scroll-bar-msaa-ui-element-reference"></a>Barre de défilement (référence des éléments d’interface utilisateur MSAA)
 
 > [!Note]  
 > Cette rubrique décrit les objets de **barre de défilement** à des fins de référence des éléments d’interface utilisateur MSAA. La création d’objets de **barre de défilement** dans différentes infrastructures d’interface utilisateur n’est pas décrite ici. Consultez la documentation de référence sur les API pour l’infrastructure d’interface utilisateur que vous utilisez.
 
- 
+ 
 
 Les barres de défilement permettent à un utilisateur de choisir la direction et la distance pour faire défiler les informations dans une fenêtre ou une zone de liste associée. Le nom de la classe de fenêtre d’une barre de défilement est « SCROLLBAR ».
 
@@ -48,7 +48,7 @@ Une barre de défilement prend en charge les méthodes [**IAccessible**](/window
 
     
 
-     
+     
 
     Pour les autres parties de la barre de défilement sur une barre de défilement horizontale, [**accDoDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-accdodefaultaction) appelle [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) avec le message [**WM \_ HSCROLL**](/windows/desktop/Controls/wm-hscroll) avec *wParam* défini sur les valeurs suivantes.
 
@@ -63,7 +63,7 @@ Une barre de défilement prend en charge les méthodes [**IAccessible**](/window
 
     
 
-     
+     
 
 -   [**accHitTest**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest)
 -   [**accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation)
@@ -92,7 +92,7 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 
     
 
-     
+     
 
     Les parties d’une barre de défilement horizontale ont les descriptions suivantes.
 
@@ -109,7 +109,7 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 
     
 
-     
+     
 
 -   [**Obtient \_ accHelp**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelp)
 -   [**Obtient \_ accHelpTopic**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acchelptopic)
@@ -117,7 +117,7 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 
     Les parties d’une barre de défilement verticale portent les noms suivants.
 
-    | Partie                | Nom        |
+    | Partie                | Name        |
     |---------------------|-------------|
     | Fenêtre barre de défilement   | Barr  |
     | Bouton de flèche haut    | « Aligner vers le haut »   |
@@ -128,13 +128,13 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 
     
 
-     
+     
 
     Les parties d’une barre de défilement horizontale portent les noms suivants.
 
     
 
-    | Partie               | Nom           |
+    | Partie               | Name           |
     |--------------------|----------------|
     | Fenêtre barre de défilement  | Horizontal   |
     | Bouton de direction gauche  | « Colonne à gauche »  |
@@ -145,7 +145,7 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 
     
 
-     
+     
 
 -   [**Obtient \_ accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)— la propriété **parente** des boutons fléchés, le curseur de défilement et la zone ombrée de chaque côté du curseur sont la fenêtre de la barre de défilement. La propriété **parent** de la fenêtre de la barre de défilement est une fenêtre ( \_ fenêtre système de rôle \_ ) qui entoure le contrôle et qui a les mêmes nom de propriété de **nom** et de classe de fenêtre.
 -   [**Obtient \_ accRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole): la propriété **role** dépend de la partie de la barre de défilement qui est interrogée. Les parties d’une barre de défilement ont les rôles suivants. 
@@ -159,11 +159,11 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 
     
 
-     
+     
 
 -   [**obtenir \_ accState**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate): la propriété **State** de chaque composant de barre de défilement comprend une combinaison des [valeurs](object-state-constants.md)suivantes.
 
-    | State                                                                                 | Valeur                                                                                                                                                                                                                       |
+    | État                                                                                 | Valeur                                                                                                                                                                                                                       |
     |---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | [**système d’état \_ \_ invisible**](object-state-constants.md)     | Pour la barre de défilement elle-même, cela indique que la barre de défilement verticale ou horizontale spécifiée n’existe pas. Pour les zones page précédente ou page suivante, cela indique que le curseur est positionné de telle sorte que la région n’existe pas. |
     | [**système d’état \_ \_ hors écran**](object-state-constants.md)     | Pour la barre de défilement elle-même, cela indique que la fenêtre est dimensionnée de telle sorte que la barre de défilement verticale ou horizontale spécifiée ne soit pas actuellement affichée.                                                                         |
@@ -172,7 +172,7 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 
     
 
-     
+     
 
 -   [**obtenir \_ accValue**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accvalue): la propriété **valeur** de la fenêtre barre de défilement indique la position de la barre de défilement et est une chaîne qui contient un entier compris entre « 0 » et « 100 ».
 
@@ -183,6 +183,6 @@ Une barre de défilement prend en charge les propriétés [**IAccessible**](/win
 [IAccessible, interface](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Message EM_SETCARETINDEX (CommCtrl. h)
 description: Définit la valeur d’index de base zéro de la position du signe insertion dans un contrôle d’édition.
 ms.assetid: 5cb7ff1e-18e8-49c8-8072-872cf32b18b0
 keywords:
-- EM_SETCARETINDEX les contrôles de message Windows
+- EM_SETCARETINDEX les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: ea0c49ebad91532e82dc7e96facb62f38b2abfa1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8b80202ed5294828441abcfa66a914514e31944902e52926de7fa3af92794b46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799959"
 ---
 # <a name="em_setcaretindex-message"></a>\_Message SETCARETINDEX em
 
@@ -43,7 +43,7 @@ Nouvelle valeur d’index de base zéro de la position du signe insertion.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’index est en dehors de la plage du texte d’un contrôle d’édition, l’index est ajusté pour s’ajuster à la plage du texte.
 
@@ -53,8 +53,8 @@ Si l’index est en dehors de la plage du texte d’un contrôle d’édition, l
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, 1809 \[ uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2019 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10, 1809 \[ applications de bureau uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2019 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>CommCtrl. h</dt> </dl> |
 
 

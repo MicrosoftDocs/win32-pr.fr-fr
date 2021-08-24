@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: a3798f32f7341722432441272eded7d7605cf8a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 273e6ba9e32337cc65b3dce979d2ff407b904595237b60025e42fc58e57d9823
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778279"
 ---
 # <a name="statistics-structure"></a>Structure des statistiques
 
@@ -198,7 +198,7 @@ Nombre de trames signalées par la carte réseau en raison d’erreurs matériel
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est utilisée pour récupérer des [*statistiques totales*](t.md)et pour suspendre ou arrêter la capture actuelle.
 

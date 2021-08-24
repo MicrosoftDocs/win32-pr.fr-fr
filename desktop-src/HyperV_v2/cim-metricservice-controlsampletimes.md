@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2e32d184199ff7ddc63be5d1fcfcd4ea376dad89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 833e828a7622dfcd76a7b061e3890fbe111de10a6b8c3c2d3faf0801429678f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695069"
 ---
 # <a name="controlsampletimes-method-of-the-cim_metricservice-class"></a>Méthode ControlSampleTimes de la \_ classe CIM MetricService
 

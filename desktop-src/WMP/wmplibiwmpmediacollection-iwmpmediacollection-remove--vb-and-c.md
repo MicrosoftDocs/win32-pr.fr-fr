@@ -3,9 +3,9 @@ title: IWMPMediaCollection méthode Remove
 description: La méthode Remove supprime un élément spécifié de la collection de supports.
 ms.assetid: 2ed45159-0a92-4353-8bf1-1d20de404bf7
 keywords:
-- Méthode Remove Windows Media Player
-- Remove, méthode lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode Remove
+- supprimer la méthode Lecteur Windows Media
+- remove, méthode Lecteur Windows Media, IWMPMediaCollection, interface
+- Lecteur Windows Media de l’interface IWMPMediaCollection, remove (méthode)
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d341f8974255dab5e3cdce356a9b221eddff193c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 771ae8be7a8a4586c132cb29b3af4d5d9180398d7db7d05e66c6e84b5a013b48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734999"
 ---
 # <a name="iwmpmediacollectionremove-method"></a>IWMPMediaCollection :: Remove, méthode
 
@@ -73,7 +73,7 @@ Valeur **System. Boolean** qui spécifie si la méthode doit supprimer l’élé
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode supprime un élément de la bibliothèque. Cette méthode ne supprime pas les fichiers de l’ordinateur de l’utilisateur.
 
@@ -165,7 +165,7 @@ End If
 [**Interface IWMPMediaCollection (VB et C#)**](iwmpmediacollection--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPMediaCollection. Add (VB et C#)**](wmplibiwmpmediacollection-iwmpmediacollection-add--vb-and-c.md)
+[**IWMPMediaCollection. add (VB et C#)**](wmplibiwmpmediacollection-iwmpmediacollection-add--vb-and-c.md)
 </dt> </dl>
 
  

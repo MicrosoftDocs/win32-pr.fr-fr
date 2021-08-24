@@ -5,12 +5,12 @@ ms.assetid: 26a72de1-24bc-41e6-8d41-61d45f581e51
 title: Glossaire COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b5a6cb30529cd8b97b8cf11316347d68003e32c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: eda1c62c8edee1e15df33b63a9d4894639dd9e5637ed3e87a747d724f9e9040e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638719"
 ---
 # <a name="com-glossary"></a>Glossaire COM+
 
@@ -362,7 +362,7 @@ Processus qui a un cloisonnement multithread et aucun cloisonnement à thread un
 <span id="cos.global_commit_coordinator_gloss"></span><span id="COS.GLOBAL_COMMIT_COORDINATOR_GLOSS"></span>**coordinateur de validation globale**
 </dt> <dd>
 
-Sur un système de transactions distribuées Microsoft Windows, le gestionnaire de transactions racine de l’arborescence de validation. Ce coordinateur prend la décision de valider ou d’abandonner une transaction donnée et n’est jamais incertaine.
+sur un système de transactions distribuées basé sur Microsoft Windows, le gestionnaire de transactions racine de l’arborescence de validation. Ce coordinateur prend la décision de valider ou d’abandonner une transaction donnée et n’est jamais incertaine.
 
 </dd> <dt>
 
@@ -499,10 +499,10 @@ Nom qui identifie de façon unique un objet COM. De la même façon qu’un chem
 
 </dd> <dt>
 
-<span id="cos.msi_file_gloss"></span><span id="COS.MSI_FILE_GLOSS"></span>**fichier. msi**
+<span id="cos.msi_file_gloss"></span><span id="COS.MSI_FILE_GLOSS"></span>**Fichier.msi**
 </dt> <dd>
 
-Fichier créé par l’outil d’administration Services de composants lorsque vous exportez une application COM+ ou un proxy d’application pour l’installation sur un autre ordinateur. Le fichier. msi peut être installé sur n’importe quel client Windows à l’aide de Windows Installer.
+Fichier créé par l’outil d’administration Services de composants lorsque vous exportez une application COM+ ou un proxy d’application pour l’installation sur un autre ordinateur. le fichier .msi peut être installé sur n’importe quel client Windows utilisant Windows Installer.
 
 </dd> <dt>
 
@@ -663,7 +663,7 @@ Objet de noyau utilisé pour arbitrer l’accès à une ressource partagée.
 <span id="cos.service_control_manager_gloss"></span><span id="COS.SERVICE_CONTROL_MANAGER_GLOSS"></span>**Gestionnaire de contrôle des services (SCM)**
 </dt> <dd>
 
-Processus Microsoft Windows Server qui gère tous les services dans le Registre Windows.
+un processus Microsoft Windows server qui gère tous les services du registre Windows.
 
 </dd> <dt>
 
@@ -691,7 +691,7 @@ Protocole simple basé sur XML permettant d’échanger des informations structu
 <span id="cos.split_registration_gloss"></span><span id="COS.SPLIT_REGISTRATION_GLOSS"></span>**fractionner l’inscription**
 </dt> <dd>
 
-Pour les composants qui sont déjà des composants COM existants et qui sont utilisés dans l’environnement des services COM+, la disposition d’inscription dans laquelle l’aspect COM de base de l’inscription est stocké dans le Registre Windows et les nouveaux services et attributs COM+ (par exemple, les composants en file d’attente) sont stockées dans la base de données d’inscription COM+. Chaque attribut de composant est stocké dans le Registre Windows ou dans la base de données d’inscription COM+. Les nouveaux composants COM sont inscrits exclusivement dans la base de données d’inscription COM+, avec une certaine duplication dans le Registre Windows afin que les outils existants puissent les utiliser.
+pour les composants qui sont déjà des composants com existants et qui sont utilisés dans l’environnement des services com+, la disposition d’inscription dans laquelle l’aspect COM de base de l’inscription est stocké dans le registre Windows et les nouveaux services et attributs com+ (par exemple, les composants en file d’attente) sont stockés dans la base de données d’inscription com+. chaque attribut de composant est stocké dans le registre Windows ou la base de données d’inscription COM+. les nouveaux composants COM sont inscrits exclusivement dans la base de données d’inscription COM+, avec une certaine duplication dans le registre Windows pour que les outils existants puissent les utiliser.
 
 </dd> <dt>
 

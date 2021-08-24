@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cdcfad0e2a943bf3a475317f32d37921878a8f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: beef90cfced2b33b612e15c1ef6918de81997520483acfb141f3a307ad64096d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777649"
 ---
 # <a name="gluerrorstring-function"></a>gluErrorString fonction)
 
@@ -47,7 +47,7 @@ Code d’erreur OpenGL ou GLU.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluErrorString** génère une chaîne d’erreur à partir d’un code d’erreur OpenGL ou Glu. La chaîne est au format ISO Latin 1. Par exemple, **gluErrorString**(GL \_ de mémoire insuffisante \_ \_ ) retourne la chaîne « mémoire insuffisante ».
 

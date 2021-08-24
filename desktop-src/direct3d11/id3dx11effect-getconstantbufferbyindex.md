@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfbc44b2d9ceea1bcfbf854a8d3c6998d03e3eec
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5d2ce34bb6bde85600e57182151e8c270885e60f919f22a723228b14dd17927a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632599"
 ---
 # <a name="id3dx11effectgetconstantbufferbyindex-method"></a>ID3DX11Effect :: GetConstantBufferByIndex, méthode
 
@@ -58,7 +58,7 @@ Type : **[ **ID3DX11EffectConstantBuffer**](id3dx11effectconstantbuffer.md)\***
 
 Pointeur vers un [**ID3DX11EffectConstantBuffer**](id3dx11effectconstantbuffer.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un effet qui contient une variable qui sera lue/écrite par une application nécessite au moins une mémoire tampon constante. Pour des performances optimales, un effet doit organiser des variables en une ou plusieurs mémoires tampons constantes en fonction de leur fréquence de mise à jour.
 
@@ -67,7 +67,7 @@ Un effet qui contient une variable qui sera lue/écrite par une application néc
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

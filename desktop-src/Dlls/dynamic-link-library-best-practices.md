@@ -4,12 +4,12 @@ ms.assetid: 44EFC4B5-7A2F-43A6-914E-D4EB7446AC35
 title: Meilleures pratiques pour la bibliothèque Dynamic-Link
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88aba0999f3d0825c6d2f4df3afe09d766a82232
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95d02314b15a13de7658c0b87ba7cd998f48a0a3d9f2f2682b36539bd9f5bde3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106540902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696577"
 ---
 # <a name="dynamic-link-library-best-practices"></a>Meilleures pratiques pour la bibliothèque Dynamic-Link
 
@@ -31,9 +31,9 @@ Une synchronisation incorrecte dans [**DllMain**](dllmain.md) peut provoquer le 
 
 ## <a name="general-best-practices"></a>Bonnes pratiques générales
 
-[**DllMain**](dllmain.md) est appelé alors que le verrouillage du chargeur est maintenu. Par conséquent, des restrictions significatives sont imposées sur les fonctions qui peuvent être appelées dans **DllMain**. Par conséquent, **DllMain** est conçu pour effectuer des tâches d’initialisation minimales, à l’aide d’un petit sous-ensemble de l’API Microsoft® Windows®. Vous ne pouvez pas appeler une fonction dans **DllMain** qui tente directement ou indirectement d’acquérir le verrou du chargeur. Dans le cas contraire, vous présenterez la possibilité que votre application se bloque ou tombe en panne. Une erreur dans une implémentation de **DllMain** peut compromettre l’ensemble du processus et de tous ses threads.
+[**DllMain**](dllmain.md) est appelé alors que le verrouillage du chargeur est maintenu. Par conséquent, des restrictions significatives sont imposées sur les fonctions qui peuvent être appelées dans **DllMain**. par conséquent, **DllMain** est conçu pour effectuer des tâches d’initialisation minimales, à l’aide d’un petit sous-ensemble de l’API Microsoft® Windows®. Vous ne pouvez pas appeler une fonction dans **DllMain** qui tente directement ou indirectement d’acquérir le verrou du chargeur. Dans le cas contraire, vous présenterez la possibilité que votre application se bloque ou tombe en panne. Une erreur dans une implémentation de **DllMain** peut compromettre l’ensemble du processus et de tous ses threads.
 
-La [**DllMain**](dllmain.md) idéale serait simplement un stub vide. Toutefois, étant donné la complexité de nombreuses applications, cela est généralement trop restrictif. Une bonne règle empirique pour **DllMain** consiste à différer le plus possible de l’initialisation. L’initialisation tardive augmente la robustesse de l’application, car cette initialisation n’est pas effectuée tant que le verrouillage du chargeur est maintenu. En outre, l’initialisation tardive vous permet d’utiliser en toute sécurité une plus grande partie de l’API Windows.
+La [**DllMain**](dllmain.md) idéale serait simplement un stub vide. Toutefois, étant donné la complexité de nombreuses applications, cela est généralement trop restrictif. Une bonne règle empirique pour **DllMain** consiste à différer le plus possible de l’initialisation. L’initialisation tardive augmente la robustesse de l’application, car cette initialisation n’est pas effectuée tant que le verrouillage du chargeur est maintenu. en outre, l’initialisation tardive vous permet d’utiliser en toute sécurité une plus grande partie de l’API Windows.
 
 Certaines tâches d’initialisation ne peuvent pas être reportées. Par exemple, une DLL qui dépend d’un fichier de configuration ne peut pas se charger si le fichier est incorrect ou contient des opérations garbage. Pour ce type d’initialisation, la DLL doit essayer l’action et échouer rapidement plutôt que gaspiller des ressources en effectuant d’autres tâches.
 
@@ -48,7 +48,7 @@ Vous ne devez jamais effectuer les tâches suivantes à partir de [**DllMain**](
 -   Appelez [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa). La création d’un processus peut charger une autre DLL.
 -   Appelez [**ExitThread**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread). La sortie d’un thread pendant le détachement de la DLL peut entraîner une nouvelle acquisition du verrou du chargeur, provoquant un blocage ou un incident.
 -   Appelez [**CreateThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread). La création d’un thread peut fonctionner si vous n’effectuez pas de synchronisation avec d’autres threads, mais cela est risqué.
--   Créez un canal nommé ou un autre objet nommé (Windows 2000 uniquement). Dans Windows 2000, les objets nommés sont fournis par la DLL des services Terminal Server. Si cette DLL n’est pas initialisée, les appels à la DLL peuvent entraîner le blocage du processus.
+-   créez un canal nommé ou un autre objet nommé (Windows 2000 uniquement). dans Windows 2000, les objets nommés sont fournis par la DLL des Services Terminal server. Si cette DLL n’est pas initialisée, les appels à la DLL peuvent entraîner le blocage du processus.
 -   Utilisez la fonction de gestion de la mémoire du Run-Time dynamique C (CRT). Si la DLL CRT n’est pas initialisée, les appels à ces fonctions peuvent provoquer le blocage du processus.
 -   Appeler des fonctions dans User32.dll ou Gdi32.dll. Certaines fonctions chargent une autre DLL, qui ne peut pas être initialisée.
 -   Utilisez du code managé.
@@ -61,7 +61,7 @@ Les tâches suivantes peuvent être effectuées en toute sécurité dans **DllMa
 -   Configurez le stockage local des threads (TLS).
 -   Ouvrir, lire et écrire dans des fichiers.
 -   Appeler des fonctions dans Kernel32.dll (à l’exception des fonctions répertoriées ci-dessus).
--   Affectez la valeur NULL aux pointeurs globaux, en déplaçant l’initialisation des membres dynamiques. Dans Microsoft Windows Vista™, vous pouvez utiliser les fonctions d’initialisation unique pour garantir qu’un bloc de code n’est exécuté qu’une seule fois dans un environnement multithread.
+-   Affectez la valeur NULL aux pointeurs globaux, en déplaçant l’initialisation des membres dynamiques. dans Microsoft Windows Vista™, vous pouvez utiliser les fonctions d’initialisation unique pour garantir qu’un bloc de code n’est exécuté qu’une seule fois dans un environnement multithread.
 
 ## <a name="deadlocks-caused-by-lock-order-inversion"></a>Interblocages dus à une inversion d’ordre de verrouillage
 

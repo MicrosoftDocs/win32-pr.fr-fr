@@ -4,12 +4,12 @@ ms.assetid: eae96a9e-ced2-4e13-b250-33c5acbbae48
 title: Fonctions de gestion de l’alimentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c9ad544c7483cdda6be015da2314c5463fd0eca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b83fb67cd5bbeabf066e7668a4235abd6d561f339cc7b3fc0c960c95b6fa2755
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674569"
 ---
 # <a name="power-management-functions"></a>Fonctions de gestion de l’alimentation
 
@@ -98,13 +98,13 @@ Les fonctions suivantes sont utilisées avec la gestion de l’alimentation.
 
  
 
-## <a name="power-management-functions-windows-server-2003-and-earlier"></a>Fonctions de gestion de l’alimentation : Windows Server 2003 et versions antérieures
+## <a name="power-management-functions-windows-server-2003-and-earlier"></a>fonctions de gestion de l’alimentation : Windows Server 2003 et versions antérieures
 
-Les fonctions suivantes sont prises en charge dans Windows Server 2008, Windows Vista et les versions ultérieures de Windows pour la compatibilité avec les versions antérieures de Windows. Les applications écrites pour Windows Server 2008, Windows Vista et versions ultérieures doivent utiliser les alternatives indiquées dans ce tableau.
+les fonctions suivantes sont prises en charge dans Windows Server 2008, Windows Vista et les versions ultérieures de Windows pour la compatibilité avec les versions antérieures de Windows. les Applications écrites pour Windows Server 2008, Windows Vista et versions ultérieures, doivent utiliser les alternatives indiquées dans ce tableau.
 
 
 
-| Windows Server 2003 et versions antérieures                            | Description                                                                           | Windows Server 2008 et Windows Vista                                                                                                                                           |
+| Windows Serveur 2003 et versions antérieures                            | Description                                                                           | Windows Server 2008 et Windows Vista                                                                                                                                           |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CanUserWritePwrScheme**](/windows/desktop/api/PowrProf/nf-powrprof-canuserwritepwrscheme)     | Détermine si l’utilisateur actuel dispose de privilèges suffisants pour écrire un mode de gestion de l’alimentation. | [**PowerSettingAccessCheck**](/windows/desktop/api/PowrProf/nf-powrprof-powersettingaccesscheck)                                                                                                                      |
 | [**DeletePwrScheme**](/windows/desktop/api/PowrProf/nf-powrprof-deletepwrscheme)                 | Supprime le mode de gestion de l’alimentation spécifié.                                                   | [**PowerDeleteScheme**](/windows/desktop/api/PowrProf/nf-powrprof-powerdeletescheme)                                                                                                                                  |
@@ -112,7 +112,7 @@ Les fonctions suivantes sont prises en charge dans Windows Server 2008, Windows 
 | [**GetActivePwrScheme**](/windows/desktop/api/PowrProf/nf-powrprof-getactivepwrscheme)           | Récupère l’index du schéma d’alimentation actif.                                       | [**PowerGetActiveScheme**](/windows/desktop/api/Powersetting/nf-powersetting-powergetactivescheme)                                                                                                                            |
 | [**GetPwrDiskSpindownRange**](/windows/desktop/api/PowrProf/nf-powrprof-getpwrdiskspindownrange) | Récupère la plage de rétention du disque.                                                    | Contrôlé via le \_ sous- \_ groupe paramètres d’alimentation du sous-groupe du disque GUID. Utilisez la fonction [**PowerEnumerate**](/windows/desktop/api/PowrProf/nf-powrprof-powerenumerate) pour énumérer des paramètres individuels.                |
 | [**IsPwrHibernateAllowed**](/windows/desktop/api/PowrProf/nf-powrprof-ispwrhibernateallowed)     | Détermine si l’ordinateur prend en charge la mise en veille prolongée.                                 | [**GetPwrCapabilities**](/windows/desktop/api/Powerbase/nf-powerbase-getpwrcapabilities)                                                                                                                                |
-| [**IsPwrShutdownAllowed**](/windows/desktop/api/PowrProf/nf-powrprof-ispwrshutdownallowed)       | Détermine si l’ordinateur prend en charge l’état d’alimentation hors tension.                    | Non applicable. À compter de Windows Vista, les ordinateurs doivent prendre en charge la désactivation logicielle.                                                                                                   |
+| [**IsPwrShutdownAllowed**](/windows/desktop/api/PowrProf/nf-powrprof-ispwrshutdownallowed)       | Détermine si l’ordinateur prend en charge l’état d’alimentation hors tension.                    | Non applicable. à partir de Windows Vista, les ordinateurs doivent prendre en charge la désactivation logicielle.                                                                                                   |
 | [**IsPwrSuspendAllowed**](/windows/desktop/api/PowrProf/nf-powrprof-ispwrsuspendallowed)         | Détermine si l’ordinateur prend en charge les États de veille.                            | [**GetPwrCapabilities**](/windows/desktop/api/Powerbase/nf-powerbase-getpwrcapabilities)                                                                                                                                |
 | [**ReadGlobalPwrPolicy**](/windows/desktop/api/PowrProf/nf-powrprof-readglobalpwrpolicy)         | Récupère les paramètres de stratégie d’alimentation globaux actuels.                                   | Fonctions Power Read                                                                                                                                                            |
 | [**ReadProcessorPwrScheme**](/windows/desktop/api/PowrProf/nf-powrprof-readprocessorpwrscheme)   | Récupère les paramètres de stratégie d’alimentation du processeur pour le mode de gestion de l’alimentation spécifié.         | Contrôlé via le \_ sous- \_ groupe paramètres d’alimentation du sous-groupe paramètres du processeur GUID \_ . Utilisez la fonction [**PowerEnumerate**](/windows/desktop/api/PowrProf/nf-powrprof-powerenumerate) pour énumérer des paramètres individuels. |

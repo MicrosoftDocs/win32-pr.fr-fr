@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 4de92c3e67567ef86bb3d46905e595bd9d54c194
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fab2942a2a5188527c57663af0c6000aa2cb628eaa2499eef054854df9187784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778769"
 ---
 # <a name="labeled_largeint-structure"></a>\_Structure LARGEINT libellée
 
@@ -54,7 +54,7 @@ Description textuelle ou étiquette qui s’affiche lorsque la valeur LARGEINT s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le membre **lpLabeledLargeIntTable** de la structure [Set](set.md) pointe vers un tableau de structures d' **ensemble** qui définissent un ou plusieurs membres **label** des paires valeur LARGEINT. Les paires sont utilisées lorsque vous souhaitez afficher une étiquette à la place d’une valeur LARGEINT spécifique trouvée dans un paquet de protocole.
 

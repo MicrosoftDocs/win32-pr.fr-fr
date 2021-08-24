@@ -4,12 +4,12 @@ ms.assetid: 1cca3539-a920-4938-93b9-ae41e1c0a287
 title: Types de médias principaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56553ac635f0e767e43e057b2a468027dcefb730
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: ec660dcb86cfd1da5a80bef106ee8ddd17cf1e89899fea6b824fba5ab9be04e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715299"
 ---
 # <a name="major-media-types"></a>Types de médias principaux
 
@@ -41,7 +41,7 @@ Les types principaux suivants sont définis.
 | **\_Image MFMediaType**        | Flux d’images fixes.                                                                                                                                        | [GUID et CLSID WIC](../wic/-wic-guids-clsids.md).       |
 | **\_Métadonnées MFMediaType**        | Flux de métadonnées.                                                                                                                                        | Aucun.       |
 | **MFMediaType \_ protégé**    | Média protégé.                                                                                                                                           | Le sous-type spécifie le schéma de protection de contenu. |
-| **MFMediaType \_ perception**   | Flux provenant d’un capteur d’appareil photo ou d’une unité de traitement qui justifie et comprend les données vidéo brutes et qui permet de comprendre l’environnement ou les êtres humains. | Aucun.                                                |
+| **MFMediaType \_ perception**   | Flux à partir d’un capteur d’appareil photo ou d’une unité de traitement qui a des raisons et comprennent des données vidéo brutes et qui permet de comprendre l’environnement ou les êtres humains. | Aucun.                                                |
 | **\_Sami MFMediaType**         | Les sous-titres SAMI (Synchronized Accessible Media Interchange).                                                                                                 | Aucun.                                                |
 | **\_Script MFMediaType**       | Flux de script.                                                                                                                                             | Aucun.                                                |
 | **\_Flux MFMediaType**       | Flux multiplexé ou flux élémentaire.                                                                                                                   | [GUID de sous-type de flux](stream-subtype-guids.md)     |

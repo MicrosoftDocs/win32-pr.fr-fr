@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DECOMPRESS_BEGIN (VFW. h)
-description: Le message de début de décompression ICM \_ \_ envoie une notification à un pilote de décompression vidéo pour préparer la décompression des données. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDecompressBegin.
+description: le \_ message ICM décompresser \_ BEGIN envoie une notification au pilote de décompression vidéo pour préparer la décompression des données. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDecompressBegin.
 ms.assetid: 24cd5220-d473-4968-8678-b00670eecf8f
 keywords:
-- Message ICM_DECOMPRESS_BEGIN Windows Multimedia
+- message ICM_DECOMPRESS_BEGIN Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59b8f55ebb5543c73e0d7a9c9ee800fabfc483d8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1d26a0ea99f089d558da639dfad99d4551237b180e595912973e0d22f634f5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678349"
 ---
-# <a name="icm_decompress_begin-message"></a>Message de début de la \_ décompression ICM \_
+# <a name="icm_decompress_begin-message"></a>ICM \_ Message de début de la décompression \_
 
-Le message de **\_ \_ début** de décompression ICM envoie une notification à un pilote de décompression vidéo pour préparer la décompression des données. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDecompressBegin**](/windows/desktop/api/Vfw/nf-vfw-icdecompressbegin) .
+le message **ICM \_ décompresser \_ BEGIN** envoie une notification au pilote de décompression vidéo pour préparer la décompression des données. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDecompressBegin**](/windows/desktop/api/Vfw/nf-vfw-icdecompressbegin) .
 
 
 ```C++
@@ -56,19 +56,19 @@ Pointeur vers une structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingd
 
 Retourne ICERR \_ OK si la décompression spécifiée est prise en charge ou ICERR BADFORMAT dans le \_ cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque le pilote reçoit ce message, il doit allouer des tampons et effectuer toutes les opérations qui prennent du temps afin qu’il puisse traiter les messages de [**\_ décompression ICM**](icm-decompress.md) de manière efficace.
+lorsque le pilote reçoit ce message, il doit allouer des tampons et effectuer des opérations qui prennent du temps pour qu’il puisse traiter [**ICM \_ décompresser**](icm-decompress.md) les messages efficacement.
 
-Si vous souhaitez que le pilote décompresse les données directement à l’écran, envoyez le message [**ICM \_ Draw**](icm-draw.md) .
+si vous souhaitez que le pilote décompresse les données directement à l’écran, envoyez le [**ICM \_ dessiner**](icm-draw.md) le message.
 
-Les messages de [**\_ \_ fin**](icm-decompress-end.md) de décompression **ICM \_ \_ Begin** et ICM ne sont pas imbriqués. Si le pilote reçoit la décompression ICM avant que la décompression ne soit arrêtée avec la **\_ \_ fin** de la décompression ICM, il doit redémarrer la décompression avec les nouveaux paramètres. **\_ \_**
+les messages de fin de **\_ décompression ICM de \_ début** et de [**\_ \_ fin de ICM**](icm-decompress-end.md) ne sont pas imbriqués. si votre pilote reçoit **ICM \_ décompresser \_ BEGIN** avant que la décompression ne s’arrête avec **ICM \_ \_ fin** de décompression, il doit redémarrer la décompression avec les nouveaux paramètres.
 
 ## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                       |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                             |

@@ -3,9 +3,9 @@ title: Méthode IWMPNetwork setProxyPort
 description: La méthode setProxyPort spécifie le port du proxy à utiliser. | Méthode IWMPNetwork setProxyPort
 ms.assetid: df4b33f6-52b5-437f-ade2-0d08ca2878a9
 keywords:
-- méthode setProxyPort lecteur Windows Media
-- méthode setProxyPort lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, méthode setProxyPort
+- Lecteur Windows Media de la méthode setProxyPort
+- méthode setProxyPort Lecteur Windows Media, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, méthode setProxyPort
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d171fa1afc129dd1d13c1d9d12d71c4370cba9a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7e79453ee2d69a0c6b227006416e49b4d4c24b99b3b02dd2bd00cd3bafafc5b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734839"
 ---
 # <a name="iwmpnetworksetproxyport-method"></a>IWMPNetwork :: setProxyPort, méthode
 
@@ -73,7 +73,7 @@ Implements IWMPNetwork.setProxyPort
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode n’a aucun effet, sauf si la valeur récupérée à partir de **IWMPNetwork. getProxySettings** est 2 (utiliser des paramètres manuels).
 
@@ -81,7 +81,7 @@ Cette méthode échoue sauf si l’application appelante est en cours d’exécu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code suivant utilise **setProxyPort** pour spécifier le numéro de port du proxy du lecteur Windows Media pour le protocole MMS. Le numéro de port est récupéré à partir d’une zone de texte lorsque l’utilisateur clique sur un bouton. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
+l’exemple de code suivant utilise **setProxyPort** pour spécifier le numéro de port du proxy Lecteur Windows Media pour le protocole MMS. Le numéro de port est récupéré à partir d’une zone de texte lorsque l’utilisateur clique sur un bouton. L’objet **AxWMPLib. AxWindowsMediaPlayer** est représenté par la variable Player.
 
 
 ```CSharp

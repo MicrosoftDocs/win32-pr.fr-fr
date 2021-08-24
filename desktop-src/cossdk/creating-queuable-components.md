@@ -4,12 +4,12 @@ ms.assetid: 8183f640-4bf3-4555-8837-90a26130c618
 title: Création de composants de mise en file d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03533168a24da1e1f7279a6f2108e25717054103
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9d8ca7b4717da44145121508ed3e8b208e8401a240f1a2ceb858be299bf2b32f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637839"
 ---
 # <a name="creating-queuable-components"></a>Création de composants de mise en file d’attente
 

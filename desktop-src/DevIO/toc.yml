@@ -6,7 +6,7 @@
       items:
         - name: Descripteurs de ressources de communication
           href: communications-resource-handles.md
-        - name: Modification des paramètres des ressources de communication
+        - name: Modification des Paramètres de ressources de communication
           href: modification-of-communications-resource-settings.md
         - name: Configuration des ressources de communication
           href: communications-resource-configuration.md

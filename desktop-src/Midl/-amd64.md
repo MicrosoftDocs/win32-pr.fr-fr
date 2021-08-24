@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa254e67a0d774c85160e4b6004d1f12c34e0072
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d5862c91af93a4ffce2602a7e49f06f74b458a4bbb3c15eec93837472862c6a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638329"
 ---
 # <a name="amd64-switch"></a>commutateur/amd64
 
@@ -27,12 +27,12 @@ Le commutateur **/amd64** indique au compilateur MIDL de générer des fichiers 
 midl /amd64
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le commutateur **/x64** décrit par l’aide de la ligne de commande MIDL.exe est déconseillé. **/amd64** doit être utilisé à la place.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -41,9 +41,9 @@ midl /amd64
 [**/ia64**](-ia64.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

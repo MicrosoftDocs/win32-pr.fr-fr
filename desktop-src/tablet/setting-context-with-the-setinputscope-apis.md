@@ -4,18 +4,18 @@ ms.assetid: 95b93804-8079-4b97-b1b0-dfc0138c94e8
 title: Définition du contexte avec les API SetInputScope
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74c1b507b1719bea8c04288dca9214ad5675f8a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0abe9992e4a4ee81190fdee022b11f443592e05d7c99f9a5e69d0a200f63ecbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708149"
 ---
 # <a name="setting-context-with-the-setinputscope-apis"></a>Définition du contexte avec les API SetInputScope
 
 La technique de programmation recommandée pour définir des contextes dans une application qui n’est pas compatible avec l’encre consiste à utiliser les fonctions [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope) pour associer le contexte aux champs de l’application.
 
-Le kit de développement Microsoft Windows XP Tablet PC Edition 1,7 était la première version de Microsoft Windows à offrir [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope). Windows Vista prend également en charge ces fonctions. Les définitions **SetInputScope** sont déclarées dans InputScope. idl et InputScope. h. Pour plus d’informations, consultez [Text Services Framework](../tsf/text-services-framework.md).
+le Kit de développement microsoft Windows XP Tablet PC Edition 1,7 était la première version de microsoft Windows à offrir [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope). Windows Vista prend également en charge ces fonctions. Les définitions **SetInputScope** sont déclarées dans InputScope. idl et InputScope. h. Pour plus d’informations, consultez [Text Services Framework](../tsf/text-services-framework.md).
 
 Les fonctions [**SetInputScope**](/windows/win32/api/inputscope/nf-inputscope-setinputscope) sont la méthode recommandée pour définir le contexte pour les contrôles et les applications qui ne sont pas activés par l’encre.
 

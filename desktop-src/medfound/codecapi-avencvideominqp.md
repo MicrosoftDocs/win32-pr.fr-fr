@@ -4,12 +4,12 @@ ms.assetid: C9004A40-ECC9-45C3-BBDE-0A179B838AFE
 title: CODECAPI_AVEncVideoMinQP, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 778371bf271a5efa1c3d302493b8e3f10254285e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7c54694552e41c45830e3f16b77d0d1b4d671c478409b651bdacaa396cd52ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606279"
 ---
 # <a name="codecapi_avencvideominqp-property"></a>CODECAPI \_ propriété AVEncVideoMinQP
 
@@ -33,8 +33,8 @@ La valeur correspond au nombre minimal de QP utilisé dans l’encodage de varia
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: a737aa5bede443b63f2074239eec17ea8a205cc8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb81042395de2a2381921cfd0b30c18af22df320b8ce8db228cf65743b1fe334
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778989"
 ---
 # <a name="imonitoronstop-method"></a>IMonitor :: OnStop, méthode
 
@@ -43,7 +43,7 @@ Si la méthode réussit, la valeur de retour est S \_ OK (ce qui est identique �
 
 Si la méthode échoue, la valeur de retour est un code d’erreur. Lorsqu’un code d’erreur est retourné, l’analyse ne peut pas être redémarrée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 MCSVC appelle cette méthode après l’appel de [IRTC :: Stop](irtc-stop.md) .
 

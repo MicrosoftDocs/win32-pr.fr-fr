@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection getByAttribute
 description: La méthode getByAttribute retourne une interface IWMPPlaylist qui correspond à l’attribut spécifié ayant la valeur spécifiée.
 ms.assetid: ece70a2c-38bc-4652-8319-efcde5f9720a
 keywords:
-- méthode getByAttribute lecteur Windows Media
-- méthode getByAttribute lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode getByAttribute
+- Lecteur Windows Media de la méthode getByAttribute
+- méthode getByAttribute Lecteur Windows Media, interface IWMPMediaCollection
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode getByAttribute
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd7adba98fbfa450cd938b56ec6d91598b918d0d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7fb8dab44cd1f26c080d438c15f545c882d2e4427af7fa04049b539ce8b3cf13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735019"
 ---
 # <a name="iwmpmediacollectiongetbyattribute-method"></a>IWMPMediaCollection :: getByAttribute, méthode
 
@@ -73,7 +73,7 @@ Implements IWMPMediaCollection.getByAttribute
 
 Interface **wmplib. IWMPPlaylist** pour les éléments multimédias récupérés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être utilisée pour créer une requête générique pour les éléments multimédias qui correspondent à une valeur pour un attribut de la bibliothèque. Cela est utile dans le cas des attributs définis par l’utilisateur. Si l’attribut n’existe pas, une erreur se produit.
 
@@ -83,11 +83,11 @@ Vous pouvez utiliser cette méthode pour récupérer tous les éléments multim�
 
 | Valeur    | Description                                               |
 |----------|-----------------------------------------------------------|
-| audio    | Musique et autres éléments audio uniquement                          |
-| autre    | D’autres éléments, tels qu’un fichier. ASF ou l’URL d’un flux. |
-| photos    | Éléments de photo. Requiert le lecteur Windows Media 10.            |
+| audio    | Musique et d’autres éléments audio uniquement                          |
+| Autres    | D’autres éléments, tels qu’un fichier. ASF ou l’URL d’un flux. |
+| photos    | Éléments de photo. requiert Lecteur Windows Media 10.            |
 | playlist | Sélections représentées en tant qu’éléments multimédias.                     |
-| radio    | Éléments de station de radio. Non utilisé par le lecteur Windows Media 10. |
+| radio    | Éléments de station de radio. non utilisé par Lecteur Windows Media 10. |
 | video    | Éléments vidéo.                                              |
 
 
@@ -96,7 +96,7 @@ Vous pouvez utiliser cette méthode pour récupérer tous les éléments multim�
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
+pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
 
 Il existe deux façons de récupérer une interface **IWMPMediaCollection** , et le comportement de la méthode **getByAttribute** dépend de ceux de ces deux méthodes. Si vous récupérez l’interface en appelant [AxWindowsMediaPlayer. mediaCollection](axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md), la méthode **getByAttribute** retourne tous les éléments multimédias de la bibliothèque. Toutefois, si vous récupérez l’interface en appelant [IWMPLibrary. mediaCollection](wmplibiwmplibrary-iwmplibrary-mediacollection--vb-and-c.md), la méthode **getByAttribute** retourne uniquement les éléments audio de la bibliothèque qui ont l’attribut et la valeur spécifiés.
 

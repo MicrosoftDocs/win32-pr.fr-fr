@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d1c7031d376fbd6b9d946fb9e41561ce4c4b1c7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fc037b746233bd9eb2f9bdd4afad942d07dc832b4dfd60cd9ca6ae9f273efca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679829"
 ---
 # <a name="creating-a-where-clause-for-the-registry-provider"></a>Création d’une clause WHERE pour le fournisseur Registry
 

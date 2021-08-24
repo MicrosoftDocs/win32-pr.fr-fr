@@ -4,12 +4,12 @@ ms.assetid: 955f4785-5657-4a89-9728-bce99a0a4234
 title: élément preferredPrefix
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98fa0310872a43811ceb626ae0684fa45a2f6666
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 934e82caf0558ff3ffc1079d3773453673bcbe916a518f6196670f37744fdf8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756869"
 ---
 # <a name="preferredprefix-element"></a>élément preferredPrefix
 
@@ -49,7 +49,7 @@ Par défaut, le code généré crée un préfixe préféré à partir de l’URI
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

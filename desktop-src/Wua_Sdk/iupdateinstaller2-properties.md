@@ -4,12 +4,12 @@ ms.assetid: 54aa215a-e457-44e9-bb73-b74a6ed56b26
 title: Propriétés IUpdateInstaller2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56d89d4382b5a84a5e2ffc4032440485e0ff12b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c29a8704a7d71005d07d5f14ab53d4d2a612a340b7ec1180000f982419236d13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679151"
 ---
 # <a name="iupdateinstaller2-properties"></a>Propriétés IUpdateInstaller2
 
@@ -19,7 +19,7 @@ L’interface [**IUpdateInstaller2**](/windows/desktop/api/Wuapi/nn-wuapi-iupdat
 
 | Propriété                                           | Description                                                                                                                       |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [**ForceQuiet**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller2-get_forcequiet) | Obtient et définit une valeur booléenne qui indique si Windows Installer est forcé d’installer les mises à jour sans intervention de l’utilisateur. |
+| [**ForceQuiet**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateinstaller2-get_forcequiet) | obtient et définit une valeur booléenne qui indique si Windows Installer est forcé d’installer les mises à jour sans intervention de l’utilisateur. |
 
 
 

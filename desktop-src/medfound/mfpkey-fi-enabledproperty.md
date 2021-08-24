@@ -4,12 +4,12 @@ ms.assetid: e7e2d585-73eb-420d-b1db-2386449dd8a8
 title: MFPKEY_FI_ENABLED, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7e310d55bc5c27d0c92086c2c7ddede56b50db1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b25f597d11359c823c12a2c8e72f97e515aa52ce2857bbb1135e21e18ff0061b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713939"
 ---
 # <a name="mfpkey_fi_enabled-property"></a>MFPKEY \_ fi \_ Enabled (propriété)
 

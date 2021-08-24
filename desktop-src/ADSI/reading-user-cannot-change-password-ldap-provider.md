@@ -9,12 +9,12 @@ keywords:
 - ADSI Provider ADSI, gestion des utilisateurs, exemples, l’utilisateur doit modifier le mot de passe à la prochaine ouverture de session, en lisant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b26818ee02d3876aa209dcd4990288ea1cfe96fc
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4ebbccc3147ffb1e29c0081d6e19ef1a615b7020cdc7e246fea294df7d2d38c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637579"
 ---
 # <a name="reading-user-cannot-change-password-ldap-provider"></a>La lecture de l’utilisateur ne peut pas changer le mot de passe (fournisseur LDAP)
 
@@ -417,7 +417,7 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszUserDN,
 L’exemple de code suivant montre comment déterminer si l’utilisateur ne peut pas modifier l’autorisation de mot de passe à l’aide du fournisseur LDAP.
 
 > [!Note]  
-> L’exemple de code suivant fonctionne uniquement pour les domaines dans lesquels la langue principale est l’anglais, car les chaînes « tout le monde » et « autorisations NT » \\ sont localisées en fonction de la langue du premier contrôleur de domaine dans le domaine. Il n’existe aucun moyen de Visual Basic pour obtenir les noms de compte d’une entité de sécurité connue sans appeler la fonction [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) . Si vous utilisez Visual Basic, il est recommandé d’utiliser le fournisseur WinNT pour déterminer si l’utilisateur ne peut pas modifier l’autorisation de mot de passe, comme indiqué dans lecture de l' [utilisateur ne peut pas changer de mot de passe (fournisseur WinNT)](reading-user-cannot-change-password-winnt-provider.md).
+> L’exemple de code suivant fonctionne uniquement pour les domaines dans lesquels la langue principale est l’anglais, car les chaînes « tout le monde » et « autorisations NT » \\ sont localisées en fonction de la langue du premier contrôleur de domaine dans le domaine. il n’existe aucun moyen de Visual Basic pour obtenir les noms de compte d’une entité de sécurité connue sans appeler la fonction [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) . si vous utilisez Visual Basic, il est recommandé d’utiliser le fournisseur winnt pour déterminer si l’utilisateur ne peut pas modifier l’autorisation de mot de passe, comme indiqué dans lecture de l' [utilisateur ne peut pas changer de mot de passe (fournisseur winnt)](reading-user-cannot-change-password-winnt-provider.md).
 
  
 

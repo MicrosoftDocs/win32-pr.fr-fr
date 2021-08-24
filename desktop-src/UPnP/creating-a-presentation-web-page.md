@@ -4,21 +4,21 @@ description: L’exemple de code de cette section utilise l’API de point de co
 ms.assetid: 7eae71eb-9ec9-4c0f-b231-5d659f12b9f5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31133a6e92b31fa7ddeef94174cc29a4c07a1d9f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3bfe5ffdb4781ed42f0bcab5d1a8c1bf172fe098906860bec5384311e403adb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655962"
 ---
 # <a name="creating-a-presentation-web-page"></a>Création d’une page Web de présentation
 
 L’exemple de code de cette section utilise l’API de point de contrôle avec la technologie UPnP pour créer une page Web simple afin de contrôler les périphériques de lecteur multimédia fictifs basés sur UPnP. La page Web est présentée dans l’illustration suivante.
 
 > [!Note]  
-> Cet exemple de code fonctionne uniquement pour les navigateurs qui s’exécutent sous Windows. il ne fonctionne pas dans les navigateurs qui s’exécutent sous d’autres systèmes d’exploitation.
+> Cet exemple de code fonctionne uniquement pour les navigateurs s’exécutant sous Windows ; il ne fonctionne pas dans les navigateurs qui s’exécutent sous d’autres systèmes d’exploitation.
 
- 
+ 
 
 ![exemple de présentation d’une page Web](images/new-samp-media-player.png)
 
@@ -200,9 +200,9 @@ end function
 </HTML>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

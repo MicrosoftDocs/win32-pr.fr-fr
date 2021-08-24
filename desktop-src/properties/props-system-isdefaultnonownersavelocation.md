@@ -4,12 +4,12 @@ ms.assetid: e6fe96de-4895-477e-a442-746fd34a7433
 title: System. IsDefaultNonOwnerSaveLocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c0922ab8667784ad4ab0394767786c9ecc555c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8e8ff6591f83364ec2c074cfd29d9ef5e1f76e9a039d988da51009735836c39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716609"
 ---
 # <a name="systemisdefaultnonownersavelocation"></a>System. IsDefaultNonOwnerSaveLocation
 
@@ -57,7 +57,7 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

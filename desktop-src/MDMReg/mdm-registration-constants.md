@@ -68,12 +68,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb62977a48400866e9fa8829696c884e58e54325
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 2ff5c73941b0235788772522f5551f73faea30d06e91e582dcdbe97433ca85c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638459"
 ---
 # <a name="mdm-registration-error-values"></a>Valeurs d’erreur d’inscription MDM
 
@@ -117,7 +117,7 @@ Schéma non valide, erreur de format de message du serveur.
 
 Schéma non valide, erreur de format de message du serveur.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -145,7 +145,7 @@ Le serveur n’a pas pu authentifier l’utilisateur.
 
 Le serveur n’a pas pu authentifier l’utilisateur.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -173,7 +173,7 @@ L’utilisateur n’est pas autorisé à s’inscrire.
 
 L’utilisateur n’est pas autorisé à s’inscrire.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -201,7 +201,7 @@ L’utilisateur n’a pas d’autorisation pour le modèle de certificat ou l’
 
 L’utilisateur n’a pas d’autorisation pour le modèle de certificat ou l’autorité de certification est inaccessible.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -229,7 +229,7 @@ Une défaillance s’est produite au niveau du serveur d’administration, par e
 
 Une défaillance s’est produite au niveau du serveur d’administration, par exemple une erreur d’accès à la base de données.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -257,7 +257,7 @@ Une exception non gérée s’est produite sur le serveur.
 
 Une exception non gérée s’est produite sur le serveur.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -285,7 +285,7 @@ Une exception non gérée s’est produite sur le serveur.
 
 Une exception non gérée s’est produite sur le serveur.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -313,7 +313,7 @@ Erreur de serveur inconnue.
 
 Erreur de serveur inconnue.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -341,7 +341,7 @@ Une autre opération d’inscription est en cours d’exécution.
 
 Une autre opération d’inscription est en cours d’exécution.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -356,7 +356,7 @@ Une autre opération d’inscription est en cours d’exécution.
 
 N'est plus utilisé.
 
-**Windows 8.1 :** L’appareil est déjà inscrit.
+**Windows 8.1 :** l’appareil est déjà inscrit.
 
 
 </dt> </dl> </dd> <dt>
@@ -371,7 +371,7 @@ N'est plus utilisé.
 
 L’appareil est déjà inscrit.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -386,7 +386,7 @@ L’appareil est déjà inscrit.
 
 N'est plus utilisé.
 
-**Windows 8.1 :** L’appareil n’est pas inscrit.
+**Windows 8.1 :** l’appareil n’est pas inscrit.
 
 
 </dt> </dl> </dd> <dt>
@@ -401,7 +401,7 @@ N'est plus utilisé.
 
 L’appareil n’est pas inscrit.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -416,7 +416,7 @@ L’appareil n’est pas inscrit.
 
 N'est plus utilisé.
 
-**Windows 8.1 :** La redirection est nécessaire.
+**Windows 8.1 :** la redirection est nécessaire.
 
 
 </dt> </dl> </dd> <dt>
@@ -431,7 +431,7 @@ N'est plus utilisé.
 
 N'est plus utilisé.
 
-**Windows 8.1 :** L’appareil n’est pas inscrit auprès de Active Directory.
+**Windows 8.1 :** l’appareil n’est pas inscrit auprès de Active Directory.
 
 
 </dt> </dl> </dd> <dt>
@@ -446,7 +446,7 @@ N'est plus utilisé.
 
 Pendant la découverte, la date de certificat sec n’est pas valide.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -461,7 +461,7 @@ Pendant la découverte, la date de certificat sec n’est pas valide.
 
 N'est plus utilisé.
 
-**Windows 8.1 :** Échec de la découverte. la redirection est nécessaire.
+**Windows 8.1 :** échec de la découverte ; la redirection est nécessaire.
 
 
 </dt> </dl> </dd> <dt>
@@ -476,7 +476,7 @@ N'est plus utilisé.
 
 Un mot de passe est nécessaire, mais n’a pas été fourni.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -491,7 +491,7 @@ Un mot de passe est nécessaire, mais n’a pas été fourni.
 
 Une erreur s’est produite lors de l’inscription WAB.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -506,7 +506,7 @@ Une erreur s’est produite lors de l’inscription WAB.
 
 Une erreur réseau s’est produite, telle que DNS ou un délai d’attente réseau.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -521,7 +521,7 @@ Une erreur réseau s’est produite, telle que DNS ou un délai d’attente rés
 
 L’inscription a été suspendue. N'est plus pris en charge.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -536,7 +536,7 @@ L’inscription a été suspendue. N'est plus pris en charge.
 
 Le certificat SSL n’est pas valide.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -551,7 +551,7 @@ Le certificat SSL n’est pas valide.
 
 L’utilisateur a déjà inscrit un trop grand nombre d’appareils. Supprimez ou annulez l’inscription des anciens pour résoudre cette erreur. Notez que l’utilisateur peut résoudre cette erreur sans assistance administrative.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -564,9 +564,9 @@ L’utilisateur a déjà inscrit un trop grand nombre d’appareils. Supprimez o
 
 
 
-Une plateforme spécifique (par exemple, Windows) ou une version n’est pas prise en charge. Le correctif général de cette erreur est la mise à niveau de l’appareil.
+une plateforme spécifique (par exemple, Windows) ou une version n’est pas prise en charge. Le correctif général de cette erreur est la mise à niveau de l’appareil.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -581,7 +581,7 @@ Une plateforme spécifique (par exemple, Windows) ou une version n’est pas pri
 
 La gestion des périphériques mobiles n’est généralement pas prise en charge pour cet appareil : l’utilisateur peut appeler l’administrateur, mais il sera peu probable de résoudre ce problème.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -596,7 +596,7 @@ La gestion des périphériques mobiles n’est généralement pas prise en charg
 
 L’appareil essaie de renouveler, mais le serveur a rejeté la demande. Vérifiez l’heure sur l’appareil. L’utilisateur peut être en mesure de résoudre cette erreur en réinscrivant.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -611,7 +611,7 @@ L’appareil essaie de renouveler, mais le serveur a rejeté la demande. Vérifi
 
 Le compte est en cours de maintenance ; réessayez plus tard. L’utilisateur peut réessayer ultérieurement. Toutefois, l’utilisateur peut choisir d’appeler l’administrateur pour déterminer la planification de la maintenance.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -626,7 +626,7 @@ Le compte est en cours de maintenance ; réessayez plus tard. L’utilisateur p
 
 La licence de l’utilisateur est dans une inscription de blocage d’État incorrecte ; l’utilisateur doit appeler l’administrateur.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -641,7 +641,7 @@ La licence de l’utilisateur est dans une inscription de blocage d’État inco
 
 Le serveur a rejeté les données d’inscription ; le serveur n’est peut-être pas configuré correctement.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -656,7 +656,7 @@ Le serveur a rejeté les données d’inscription ; le serveur n’est peut-êt
 
 Le serveur a demandé le protocole HTTP au lieu de HTTPs, mais il n’a pas été accepté.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -671,7 +671,7 @@ Le serveur a demandé le protocole HTTP au lieu de HTTPs, mais il n’a pas ét�
 
 Une opération non valide a été tentée, par exemple en tentant d’inscrire le même appareil deux fois ou d’annuler l’inscription d’un périphérique inconnu.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -684,9 +684,9 @@ Une opération non valide a été tentée, par exemple en tentant d’inscrire l
 
 
 
-La version de Windows installée sur le client ne prend pas en charge ce type d’inscription.
+la version de Windows installée sur le client ne prend pas en charge ce type d’inscription.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -701,7 +701,7 @@ La version de Windows installée sur le client ne prend pas en charge ce type d�
 
 Une erreur inconnue s’est produite sur le client.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -716,7 +716,7 @@ Une erreur inconnue s’est produite sur le client.
 
 Échec de l’approvisionnement dans le CSP du magasin de certificats.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -731,7 +731,7 @@ Une erreur inconnue s’est produite sur le client.
 
 Échec de l’approvisionnement dans un RPC W7/DMAcc.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -746,7 +746,7 @@ Une erreur inconnue s’est produite sur le client.
 
 Échec de l’approvisionnement dans un CSP client DM.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -761,7 +761,7 @@ Une erreur inconnue s’est produite sur le client.
 
 Échec de l’approvisionnement dans un CSP Passport for Work.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -776,7 +776,7 @@ Une erreur inconnue s’est produite sur le client.
 
 Échec de l’approvisionnement dans un CSP non listé ci-dessus.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -791,7 +791,7 @@ Une erreur inconnue s’est produite sur le client.
 
 Échec de l’approvisionnement, mais aucun CSP spécifique n’est indiqué.
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -806,7 +806,7 @@ Une erreur inconnue s’est produite sur le client.
 
 Lors de la tentative de liaison du certificat public/de la clé privée, le certificat public n’a pas été trouvé : lors de la tentative de liaison du certificat public/de la clé privée, ou lors de la recherche de la charge utile d’approvisionnement (peut-être en ciblant le mauvais magasin).
 
-**Windows 8.1 :** Cette constante n’est pas disponible avant Windows 10.
+**Windows 8.1 :** cette constante n’est pas disponible avant Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -822,7 +822,7 @@ Lors de la tentative de liaison du certificat public/de la clé privée, le cert
 Échec de l’approvisionnement dans le CSP EnterpriseAppManagement.
 
 > [!Note]  
-> Cette constante n’est pas disponible avant Windows 10, version 1709.
+> cette constante n’est pas disponible avant Windows 10, version 1709.
 
  
 
@@ -840,7 +840,7 @@ Lors de la tentative de liaison du certificat public/de la clé privée, le cert
 La gestion des appareils mobiles (MDM) a été bloquée, peut-être par stratégie de groupe ou la fonction [**SetManagedExternally**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-setmanagedexternally) .
 
 > [!Note]  
-> Cette constante n’est pas disponible avant Windows 10, version 1709.
+> cette constante n’est pas disponible avant Windows 10, version 1709.
 
  
 
@@ -858,7 +858,7 @@ La gestion des appareils mobiles (MDM) a été bloquée, peut-être par stratég
 Échec de la création de la clé privée.
 
 > [!Note]  
-> Cette constante n’est pas disponible avant Windows 10, version 1709.
+> cette constante n’est pas disponible avant Windows 10, version 1709.
 
  
 
@@ -876,7 +876,7 @@ La gestion des appareils mobiles (MDM) a été bloquée, peut-être par stratég
 L’authentification par certificat a été demandée, mais a échoué lors de la recherche d’un certificat à utiliser.
 
 > [!Note]  
-> Cette constante n’est pas disponible avant Windows 10, version 1709.
+> cette constante n’est pas disponible avant Windows 10, version 1709.
 
  
 
@@ -894,7 +894,7 @@ L’authentification par certificat a été demandée, mais a échoué lors de l
 Le serveur a répondu avec HTTP 200, mais le message était vide.
 
 > [!Note]  
-> Cette constante n’est pas disponible avant Windows 10, version 1709.
+> cette constante n’est pas disponible avant Windows 10, version 1709.
 
  
 
@@ -912,7 +912,7 @@ Le serveur a répondu avec HTTP 200, mais le message était vide.
 L’utilisateur a annulé l’opération.
 
 > [!Note]  
-> Cette constante n’est pas disponible avant Windows 10, version 1709.
+> cette constante n’est pas disponible avant Windows 10, version 1709.
 
  
 
@@ -930,14 +930,14 @@ L’utilisateur a annulé l’opération.
 La gestion des appareils mobiles (MDM) n’est pas configurée.
 
 > [!Note]  
-> Cette constante n’est pas disponible avant Windows 10, version 1709.
+> cette constante n’est pas disponible avant Windows 10, version 1709.
 
  
 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|

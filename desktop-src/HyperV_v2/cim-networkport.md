@@ -293,7 +293,7 @@ Numéro de port du port réseau. Les ports réseau sont souvent numérotés par 
 
 </dd> <dt>
 
-**Vitesse**
+**Temps**
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt64**

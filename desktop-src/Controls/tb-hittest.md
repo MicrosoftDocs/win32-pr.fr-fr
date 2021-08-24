@@ -3,7 +3,7 @@ title: Message TB_HITTEST (commctrl. h)
 description: Détermine où un point se trouve dans un contrôle de barre d’outils.
 ms.assetid: d08f3805-2042-470e-8f5a-8a6a681d1189
 keywords:
-- TB_HITTEST les contrôles de message Windows
+- TB_HITTEST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6264bc0191f091d3819081ddd67e428b64c84570
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d89cecf1d1df5c370ab9a00ae1251df9df7ef919f9959b998407a9fb5881178
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696159"
 ---
 # <a name="tb_hittest-message"></a>TO \_ message HITTEST
 
@@ -49,8 +49,8 @@ Retourne une valeur entière. Si la valeur de retour est zéro ou une valeur pos
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

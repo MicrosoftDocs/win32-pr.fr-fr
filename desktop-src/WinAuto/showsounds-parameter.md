@@ -4,12 +4,12 @@ description: Cette rubrique contient des informations sur un paramètre qui indi
 ms.assetid: 7b316892-76ff-48b3-bf67-34dea2e63936
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d01e3fda902c23c86279a9a4d75889ebfeff4d55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4dbf32dfacdf1dc0b8ed3bc51c986ae572e43300263565254ad6b3a48a981beb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106538596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734319"
 ---
 # <a name="show-sounds-and-audio-description-flag"></a>Afficher les sons (et l’indicateur de description audio)
 
@@ -34,6 +34,6 @@ L’utilisation redondante des alertes audibles et visuelles a été prouvée po
 
 Les applications utilisent les indicateurs **SPI \_ GETAUDIODESCRIPTION** et **SPI \_ SETAUDIODESCRIPTION** avec la fonction [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) pour activer ou désactiver les descriptions audio. Bien qu’il soit possible pour les utilisateurs malvoyants d’écouter l’audio dans du contenu vidéo, il y a beaucoup d’actions dans la vidéo qui n’ont pas de son correspondant. Une description audio spécifique de ce qui se passe dans une vidéo permet à ces utilisateurs de mieux comprendre le contenu. Cet indicateur vous permet d’activer ou de désactiver les descriptions audio dans les langues dans lesquelles ils sont fournis.
 
- 
+ 
 
- 
+ 

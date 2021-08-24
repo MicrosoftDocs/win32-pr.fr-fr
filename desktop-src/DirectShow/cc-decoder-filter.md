@@ -4,17 +4,17 @@ ms.assetid: 57ef75f6-411c-4b1f-b0dc-ac293ebc0b9c
 title: Filtre de décodeur CC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d93995207e4f1a397db28f743d1f972b871b0553
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a5feab764883754407030f2b4f72f794d049f5a394efb107ac149b10125da8d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757399"
 ---
 # <a name="cc-decoder-filter"></a>Filtre de décodeur CC
 
 > [!IMPORTANT]
-> Ce composant a été supprimé de Windows Vista et des systèmes d’exploitation ultérieurs. Il peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003.
+> ce composant a été supprimé de Windows Vista et des systèmes d’exploitation ultérieurs. il peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003.
 
  
 
@@ -32,7 +32,7 @@ Le filtre de décodeur CC apparaît dans la catégorie de filtre « codecs VBI 
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [Affichage des sous-titres](viewing-closed-captions.md)

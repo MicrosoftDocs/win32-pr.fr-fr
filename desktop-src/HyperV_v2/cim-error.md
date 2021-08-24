@@ -28,12 +28,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 59ae2527478235c14a8f856319178afe00c02a98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c7e7fba10cb507e1288344637c944bb56d62dc4c9eaaf909a980ceaf3250440
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695969"
 ---
 # <a name="cim_error-class"></a>\_Classe d’erreur CIM
 
@@ -689,7 +689,7 @@ Tableau qui contient le contenu dynamique du message.
 
 </dd> <dt>
 
-**ID**
+**MessageID**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -1236,7 +1236,7 @@ Description de la cause probable de l’erreur.
 
 <span id="Storage_Capacity_Problem"></span><span id="storage_capacity_problem"></span><span id="STORAGE_CAPACITY_PROBLEM"></span>
 
-**Problème de capacité de stockage** (50)
+**Stockage problème de capacité** (50)
 
 
 </dt> <dd></dd> <dt>

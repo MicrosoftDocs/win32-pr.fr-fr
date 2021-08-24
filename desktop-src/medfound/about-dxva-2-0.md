@@ -4,12 +4,12 @@ ms.assetid: 190ed399-a8a8-4087-8d18-b1a715690e4c
 title: À propos de DXVA 2,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 149f622c863f433be44bbce6460024ffb06bb1b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1d6ab595be1f167f777e50001c8d31658dc697866c8d11db3865e66e87508ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606819"
 ---
 # <a name="about-dxva-20"></a>À propos de DXVA 2,0
 
@@ -17,10 +17,10 @@ DirectX Video Acceleration (DXVA) est une API et une interface DDI correspondant
 
 Dans DXVA, certaines opérations de décodage sont implémentées par le pilote matériel Graphics. Cet ensemble de fonctionnalités est appelé l' *accélérateur*. D’autres opérations de décodage sont implémentées par le logiciel d’application en mode utilisateur, appelé *décodeur hôte* ou *décodeur logiciel*. (Les termes *décodeur hôte* et *décodeur logiciel* sont équivalents.) Le traitement effectué par l’accélérateur est appelé *traitement hors hôte*. En général, l’accélérateur utilise le GPU pour accélérer certaines opérations. Chaque fois que l’accélérateur effectue une opération de décodage, le décodeur hôte doit communiquer avec les mémoires tampons d’accélérateur contenant les informations nécessaires à l’exécution de l’opération
 
-L’API DXVA 2 nécessite Windows Vista ou une version ultérieure. L’API DXVA 1 est toujours prise en charge dans Windows Vista pour des raisons de compatibilité descendante. Une couche d’émulation est fournie, qui convertit entre les deux versions de l’API et la version opposée de la DDI :
+l’API DXVA 2 requiert Windows Vista ou version ultérieure. l’API DXVA 1 est toujours prise en charge dans Windows Vista pour la compatibilité descendante. Une couche d’émulation est fournie, qui convertit entre les deux versions de l’API et la version opposée de la DDI :
 
--   Si le pilote graphique est conforme au modèle WDDM (Windows Display Driver Model), les appels d’API DXVA 1 sont convertis en appels DDI DXVA 2.
--   Si les pilotes graphiques utilisent l’ancien modèle de pilote d’affichage (XPDM) de Windows XP, les appels de l’API DXVA 2 sont convertis en appels DDI DXVA 1.
+-   si le pilote graphique est conforme au modèle WDDM (Windows Display driver Model), les appels d’API dxva 1 sont convertis en appels DDI dxva 2.
+-   si les pilotes graphics utilisent l’ancien modèle de pilote d’affichage (XPDM) Windows XP, les appels de l’API dxva 2 sont convertis en appels DDI dxva 1.
 
 Le tableau suivant présente la configuration requise du système d’exploitation et les convertisseurs vidéo pris en charge pour chaque version de l’API DXVA.
 
@@ -28,7 +28,7 @@ Le tableau suivant présente la configuration requise du système d’exploitati
 
 | Version d'API | Configuration requise          | Prise en charge des convertisseurs vidéo                        |
 |-------------|-----------------------|-----------------------------------------------|
-| DXVA 1      | Windows 2000 ou version ultérieure | Mélangeur de superposition, VMR-7, VMR-9 (DirectShow uniquement) |
+| DXVA 1      | Windows 2000 ou version ultérieure | superposition Mixer, vmr-7, vmr-9 (DirectShow uniquement) |
 | DXVA 2      | Windows Vista         | EVR (DirectShow et Media Foundation)         |
 
 
@@ -50,7 +50,7 @@ Les spécifications suivantes définissent des extensions DXVA pour d’autres n
 -   [Spécification DXVA pour le codage vidéo MVC H. 264/MPEG-4 AVC (MVC), y compris le profil stéréo High](https://www.microsoft.com/download/details.aspx?id=25200)
 -   [Spécification DXVA pour le décodage vidéo MPEG-1 VLD et MPEG-1/MPEG-2 VLD](https://www.microsoft.com/download/details.aspx?id=9374).
 -   [Spécification DXVA pour Off-Host mode VLD pour le décodage vidéo MPEG-4 part 2](https://www.microsoft.com/download/details.aspx?id=21100)
--   [Spécification DXVA pour le décodage Windows Media Video® V8, v9 et vA (y compris SMPTE 421M "VC-1")](https://www.microsoft.com/downloads/details.aspx?FamilyID=8792dfdb-8459-4cb7-adb4-fef30b609b31&displaylang=en)
+-   [spécification DXVA pour le décodage Windows Media Video® v8, v9 et vA (y compris SMPTE 421M "VC-1")](https://www.microsoft.com/downloads/details.aspx?FamilyID=8792dfdb-8459-4cb7-adb4-fef30b609b31&displaylang=en)
 -   [Spécification DirectX Video Acceleration (DXVA) pour le décodage en mode VLD (SVC Off-Host) H. 264/MPEG-4](https://www.microsoft.com/downloads/details.aspx?FamilyID=a38538b6-f52c-470b-94be-0cf7c28d46cc&displaylang=en)
 -   [Spécification de l’accélération vidéo DirectX pour le codage vidéo VP8 et VP9](https://www.microsoft.com/download/details.aspx?id=49188)
 

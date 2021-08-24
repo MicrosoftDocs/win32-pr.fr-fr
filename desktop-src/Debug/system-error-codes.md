@@ -4,19 +4,19 @@ ms.assetid: 4a3a8feb-a05f-4614-8f04-1f507da7e5b7
 title: Codes d’erreur système
 ms.topic: article
 ms.date: 10/31/2019
-ms.openlocfilehash: 072e1eb4a43c787055bc2793b3f58d69cdf6dd12
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4c762b2098531ecb19ad84522f8c9c8272c004397bbc4b32f15a6f6e157c4332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691729"
 ---
 # <a name="system-error-codes"></a>Codes d’erreur système
 
 Cette section s’adresse aux développeurs qui déboguent des erreurs système. Si vous avez atteint cette page lors de la recherche d’autres erreurs, voici quelques liens qui peuvent vous aider :
 
-* [Erreurs de Windows Update](https://support.microsoft.com/help/10164/fix-windows-update-errors) : pour résoudre les problèmes liés à Windows Update.
-* [Erreurs d’activation Windows](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors) -pour vous aider à vérifier votre copie de Windows.
+* [erreurs de Windows Update](https://support.microsoft.com/help/10164/fix-windows-update-errors) : pour résoudre les problèmes liés à Windows Update.
+* [Windows des erreurs d’activation](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors) : pour vous aider à vérifier votre copie de Windows.
 * [Résolution des erreurs d’écran bleu](https://support.microsoft.com/help/14238/windows-10-troubleshoot-blue-screen-errors) -pour vous aider à découvrir ce qui a provoqué une erreur d’arrêt.
 * [Support Microsoft](https://support.microsoft.com) -pour la prise en charge d’un produit Microsoft.
 
@@ -25,8 +25,8 @@ Cette section s’adresse aux développeurs qui déboguent des erreurs système.
 Nous avons listé les codes d’erreur système de cette section, organisés par nombre. Si vous avez besoin de plus d’aide pour le suivi d’une erreur spécifique, voici quelques recommandations :
 
 * Utilisez l' [outil de recherche d’erreurs Microsoft](system-error-code-lookup-tool.md).
-*  Installez les outils de débogage pour Windows, chargez un fichier de vidage de la mémoire, puis exécutez la commande **\! Err \<code>** .
-* Recherchez du texte brut ou un code d’erreur dans le site des protocoles Microsoft. Pour plus d’informations, consultez [[MS-ERREF] : codes d’erreur Windows](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
+*  installez les outils de débogage pour Windows, chargez un fichier de vidage de la mémoire, puis exécutez la commande **\! err \<code>** .
+* Recherchez du texte brut ou un code d’erreur dans le site des protocoles Microsoft. pour plus d’informations, consultez [[MS-ERREF] : Windows Codes d’erreur](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
 
 ## <a name="third-party-error-codes"></a>Codes d’erreur tiers
 

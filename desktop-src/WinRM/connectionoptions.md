@@ -4,8 +4,8 @@ description: L’objet ConnectionOptions est passé à la méthode CreateSession
 ms.assetid: 7a87a5f7-78ed-452c-9b9f-ad48811a3339
 ms.tgt_platform: multiple
 keywords:
-- Objet ConnectionOptions Windows Remote Management
-- Windows Remote Management d’objets ConnectionOptions, Description
+- objet ConnectionOptions Windows Remote Management
+- Windows Remote Management d’objets ConnectionOptions, description
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 164eb886ce98266cab3109e773b731e002d1abac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8665dc3a5be91fddb4332be3512ec9eec5c483495a21b95b641ec26e4e9e111
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734089"
 ---
 # <a name="connectionoptions-object"></a>Objet ConnectionOptions
 
@@ -48,11 +48,11 @@ L’objet **ConnectionOptions** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet **ConnectionOptions** correspond à l’interface [**IWSManConnectionOptions**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanconnectionoptions) .
 
-Si une application cliente Windows Remote Management s’exécute avec l’emprunt d’identité, un échec se produit si vous définissez la propriété [**de mot de passe**](connectionoptions-password.md) . Une application cliente est un script ou tout autre programme qui envoie une demande à WinRM sur l’ordinateur local ou distant. L’application cliente peut s’exécuter sous emprunt d’identité, car elle a appelé une fonction telle que [**ImpersonateClient**](/previous-versions/windows/desktop/legacy/aa375494(v=vs.85)). Une page de Active Server (ASP) ou un service ne peut pas demander un nom d’utilisateur et un mot de passe si le processus ASP s’exécute sous un compte qui emprunte l’identité d’un client.
+si une application cliente Windows Remote Management s’exécute avec l’emprunt d’identité, un échec se produit si vous définissez la propriété [**de mot de passe**](connectionoptions-password.md) . Une application cliente est un script ou tout autre programme qui envoie une demande à WinRM sur l’ordinateur local ou distant. L’application cliente peut s’exécuter sous emprunt d’identité, car elle a appelé une fonction telle que [**ImpersonateClient**](/previous-versions/windows/desktop/legacy/aa375494(v=vs.85)). Une page de Active Server (ASP) ou un service ne peut pas demander un nom d’utilisateur et un mot de passe si le processus ASP s’exécute sous un compte qui emprunte l’identité d’un client.
 
 L’indicateur **WSManFlagCredUserNamePassword** doit être défini sur l’appel de [**WSman. CreateSession**](wsman-createsession.md) lors de l’utilisation du [**nom d’utilisateur**](connectionoptions-username.md) et du [**mot de passe**](connectionoptions-password.md) pour l’authentification.
 
@@ -101,13 +101,13 @@ strResource = objSession.Get("winrm/config")
 [API de script WinRM](winrm-scripting-api.md)
 </dt> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
-[Utilisation de Windows Remote Management](using-windows-remote-management.md)
+[utilisation de Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
-[Scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)
+[scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)
 </dt> <dt>
 
 [Obtention de données à partir de l’ordinateur local](obtaining-data-from-the-local-computer.md)

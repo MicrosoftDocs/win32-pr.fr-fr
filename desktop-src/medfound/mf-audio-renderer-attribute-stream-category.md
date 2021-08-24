@@ -4,12 +4,12 @@ ms.assetid: 88E79DE6-2062-4471-A939-D1D4DD2EC42D
 title: Attribut MF_AUDIO_RENDERER_ATTRIBUTE_STREAM_CATEGORY (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd96c219e43f85c516a5f862e2a978724328a69f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4acb6bd0f40d3c6fb3caa6b4dce8801f8fa60d31222265d5dca6ff5a132444e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106522678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714879"
 ---
 # <a name="mf_audio_renderer_attribute_stream_category-attribute"></a>\_Attribut de \_ catégorie de \_ flux d’attribut de convertisseur audio \_ MF \_
 
@@ -19,7 +19,7 @@ Spécifie la catégorie de flux audio pour le [convertisseur audio de streaming]
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser cet attribut pour configurer le convertisseur audio. L’utilisation dépend de la fonction que vous appelez pour créer le convertisseur audio.
 
@@ -42,8 +42,8 @@ La valeur de l’attribut est un membre de l’énumération de [**\_ \_ catégo
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

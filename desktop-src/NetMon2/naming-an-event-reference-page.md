@@ -4,12 +4,12 @@ ms.assetid: 0c668a8b-94a5-4996-8214-4629a24a8337
 title: Attribution d’un nom à une page de référence d’événement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f9c82b153ce2c7086af3883bcf3c4b34a0e68a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 569991c5e5ac24e18476fe27727f4fad1c310c8fd4e9439062fdf91bfb344005
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799689"
 ---
 # <a name="naming-an-event-reference-page"></a>Attribution d’un nom à une page de référence d’événement
 

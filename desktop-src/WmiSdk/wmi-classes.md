@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa764d39c1fb048e125898a1f7e6d5cadf7f127d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1da15af60f1d1a32d652c8776e20ef36d65c1ff158dc6ac7465886361c5862c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757509"
 ---
 # <a name="wmi-classes"></a>Classes WMI
 
@@ -20,7 +20,7 @@ Cette section fournit des informations sur la classe WMI et la page de référen
 
 | Section                                                    | Description                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Classes système WMI](wmi-system-classes.md)               | Classes prédéfinies incluses dans chaque espace de noms dans le noyau Windows Management Instrumentation (WMI). Vous pouvez reconnaître une classe système WMI, car le nom commence par un trait de soulignement double ( \_ \_ ). Ces classes fournissent une grande partie des fonctionnalités de base pour WMI. Les classes système WMI sont similaires aux tables système de SQL Server. |
+| [Classes système WMI](wmi-system-classes.md)               | classes prédéfinies incluses dans chaque espace de noms dans le noyau Windows Management Instrumentation (WMI). Vous pouvez reconnaître une classe système WMI, car le nom commence par un trait de soulignement double ( \_ \_ ). Ces classes fournissent une grande partie des fonctionnalités de base pour WMI. les classes système WMI sont similaires aux tables système de SQL server. |
 | [Classes MSFT](msft-classes.md)                           | Autres classes Microsoft qui offrent la possibilité de manipuler plusieurs fonctionnalités du système d’exploitation, telles que les événements à distance et les extensions de stratégie. Les classes de [résolution des problèmes WMI](wmi-troubleshooting.md) sont des classes msft qui fournissent des données sur les opérations WMI.                                                                                               |
 | [Classes CIM](cimclas.md)                                 | Classes [*de schéma Common Information Model (CIM)*](gloss-c.md) . Si vous souhaitez écrire vos propres classes WMI, vous pouvez hériter d’une ou de plusieurs de ces classes. Les [classes WMI Win32](/windows/desktop/CIMWin32Prov/win32-provider) héritent des classes CIM.                                                                          |
 | [Classes de consommateur standard](standard-consumer-classes.md) | Ensemble de consommateurs d’événements WMI qui déclenchent une action lors de la réception d’un événement arbitraire. Pour plus d’informations, consultez [surveillance des événements](monitoring-events.md).                                                                                                                                                                                               |
@@ -39,7 +39,7 @@ Les exemples de code du centre de script suivants affectent plusieurs classes WM
 |-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Explorateur WMI de l’interface graphique utilisateur et générateur d’aide de méthode WMI](https://Gallery.TechNet.Microsoft.Com/scriptcenter/89c759b7-20b4-49e8-98a8-3c8fbdb2dd69) | Exemple de script qui fournit un explorateur WMI GUI et un générateur d’aide de méthode WMI.                                                                                                                                                        |
 | [Rechercher dans l’Explorateur WMI espaces de noms WMI](https://Gallery.TechNet.Microsoft.Com/scriptcenter/WMI-Explorer-Search-WMI-cd87e309)                 | Permet aux utilisateurs de rechercher des classes dans tous les espaces de noms disponibles sur les ordinateurs spécifiés. Cet exemple est la présente de la ligne de commande de l’exemple de l’Explorateur WMI GUI et peut être considérée comme une extension de Get-WmiObject-List. |
-| [Outil d’administration système Arposh Windows](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Arposh-Windows-System-a1beb102)            | AWSA a été créé avec l’administrateur système à l’esprit. La résolution des problèmes liés à Windows requiert un large éventail d’outils et de connaissances. AWSA regroupe ces outils dans un emplacement central et ajoute des fonctionnalités supplémentaires.       |
+| [outil d’Administration de système Arposh Windows](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Arposh-Windows-System-a1beb102)            | AWSA a été créé avec l’administrateur système à l’esprit. la résolution des problèmes de Windows nécessite un large éventail d’outils et de connaissances. AWSA regroupe ces outils dans un emplacement central et ajoute des fonctionnalités supplémentaires.       |
 
 
 
@@ -49,7 +49,7 @@ Les exemples de code du centre de script suivants affectent plusieurs classes WM
 
 Les noms de propriété doivent être conformes à la syntaxe format MOF (MOF) définie par le DTMF (Distributed Management Task Force). Les caractères d’identificateur initiaux doivent provenir des lettres de a à z et du trait de soulignement ( \_ ). Tous les caractères supplémentaires doivent être compris entre les lettres de a à z, le caractère de soulignement et les chiffres de 0 à 9. Pour plus d’informations, consultez la section utilisation d’Unicode de la [spécification CIM Version 2,2](https://www.dmtf.org/standards/cim).
 
-Les mots réservés SQL ne doivent pas être utilisés dans les noms de classe et de propriété. Pour obtenir la liste complète des mots réservés SQL et pour plus d’informations, consultez la section Instructions de la [spécification CIM Version 2,2](https://www.dmtf.org/standards/cim).
+SQL les mots réservés ne doivent pas être utilisés dans les noms de classe et de propriété. pour obtenir la liste complète des mots réservés SQL et pour plus d’informations, consultez la section instructions de la [spécification CIM Version 2,2](https://www.dmtf.org/standards/cim).
 
 ## <a name="document-conventions-for-a-wmi-class-reference-page"></a>Conventions de document pour une page de référence de classe WMI
 
@@ -119,7 +119,7 @@ Description de la propriété.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Fournit plus d’informations sur la classe, le cas échéant. Fournit également des informations de dérivation, le cas échéant.
 

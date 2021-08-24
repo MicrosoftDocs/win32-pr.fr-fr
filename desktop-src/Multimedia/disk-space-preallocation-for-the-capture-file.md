@@ -7,12 +7,12 @@ keywords:
 - capFileAlloc macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7442b08170fb6f018555c043c59d96860701ed4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 687a14fa0f3a01a65ad2cb90062fcd4e237eb3e94ef99460d77883bd26df9213
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678760"
 ---
 # <a name="disk-space-preallocation-for-the-capture-file"></a>Préallocation d’espace disque pour le fichier de capture
 
@@ -26,9 +26,9 @@ Vous pouvez également améliorer les performances à l’aide d’un disque non
 
 Une application peut réserver un fichier de capture permanent pour éliminer le temps nécessaire à la préallocation et à la défragmentation d’un fichier chaque fois qu’il est démarré. Comme un fichier de capture peut nécessiter un espace disque considérable et que la préallocation d’un fichier de capture supprime toutes les données d’un fichier de capture existant, une application doit permettre à l’utilisateur de décider si le fichier est permanent ou temporaire.
 
- 
+ 
 
- 
+ 
 
 
 

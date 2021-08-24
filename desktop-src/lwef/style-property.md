@@ -4,12 +4,12 @@ description: Propriété style
 ms.assetid: f01d7d51-8a16-4265-b9b7-93b64f4984e3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 024d46dd7f7ce0e2fdc16b8b17f9074b1eef30c0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 37196aead474c5364c7a94780686707b74bab0f4c4831381cf4c40e47e350e17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715879"
 ---
 # <a name="style-property"></a>Propriété style
 
@@ -27,7 +27,7 @@ Retourne ou définit le style de sortie de la bulle de texte du caractère.
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent. ***Caractères («*** CharacterID * * * »). Style Balloon. style* *  \[  =  \]
+*agents. ***caractères («**_CharacterID_*_»). Style Balloon. style_ *  \[  =  \]
 
 
 
@@ -37,11 +37,11 @@ Retourne ou définit le style de sortie de la bulle de texte du caractère.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le bit de style Balloon est défini sur 1, la bulle de mot apparaît lorsqu’une méthode [**Speak**](https://www.bing.com/search?q=**Speak**) ou [**Song**](think-method.md) est utilisée, sauf si l’utilisateur remplace ce paramètre dans la feuille de propriétés de l’agent Microsoft. Si la valeur est 0, une bulle n’apparaît pas.
 
@@ -96,9 +96,9 @@ Cette propriété s’applique uniquement à l’utilisation du caractère par v
 
 Les valeurs par défaut de ces bits de style sont basées sur leurs paramètres lorsque le caractère est compilé avec l’éditeur de caractères Microsoft Agent.
 
- 
+ 
 
- 
+ 
 
 
 

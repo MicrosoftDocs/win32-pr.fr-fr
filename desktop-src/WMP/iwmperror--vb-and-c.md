@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPError (VB et C) (WMP. h)
+title: interface IWMPError (VB et C) (Wmp. h)
 description: Fournit des propriétés et des méthodes permettant d’accéder à une collection d’interfaces IWMPErrorItem pour la récupération des informations d’erreur. L’interface IWMPError expose les propriétés suivantes.
 ms.assetid: c7d9f834-43ed-40a2-95a3-b1633f025118
 keywords:
-- IWMPError (VB et C) interface Windows Media Player
-- Interface IWMPError (VB et C), le lecteur Windows Media, décrit
+- interface IWMPError (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPError (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 289a39093c38e7a4b0cc43cb8f318e321ae8ef53
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f3ff7635e423d70447e371d61fbbadf02aa14c2476e118be79cbb25d974348b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736179"
 ---
-# <a name="iwmperror-vb-and-c-interface"></a>Interface IWMPError (VB et C#)
+# <a name="iwmperror-vb-and-c-interface"></a>interface IWMPError (VB et C#)
 
 Fournit des propriétés et des méthodes permettant d’accéder à une collection d’interfaces **IWMPErrorItem** pour la récupération des informations d’erreur.
 
@@ -30,21 +30,21 @@ L’interface **IWMPError** expose les propriétés suivantes.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPError (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPError (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPError (VB et C#)** possède ces méthodes.
+l’interface **IWMPError (VB et C#)** possède ces méthodes.
 
 
 
 | Méthode                                                                         | Description                                                                                                                                   |
 |:-------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**clearErrorQueue**](wmplibiwmperror-iwmperror-clearerrorqueue--vb-and-c.md) | Efface les erreurs de la file d’attente des erreurs.<br/>                                                                                            |
-| [**aide à la**](wmplibiwmperror-iwmperror-webhelp--vb-and-c.md)                 | Ouvre la page d’aide Web du lecteur Microsoft Windows Media pour afficher des informations supplémentaires sur la première erreur de la file d’attente d’erreurs.<br/> |
+| [**aide à la**](wmplibiwmperror-iwmperror-webhelp--vb-and-c.md)                 | ouvre la page d’aide Web de Microsoft Lecteur Windows Media pour afficher des informations supplémentaires sur la première erreur de la file d’attente d’erreurs.<br/> |
 
 
 
@@ -52,7 +52,7 @@ L’interface **IWMPError (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPError (VB et C#)** a ces propriétés.
+l’interface **IWMPError (VB et C#)** a ces propriétés.
 
 
 
@@ -71,7 +71,7 @@ Procurez-vous une interface **IWMPError** à l’aide de la propriété suivante
 
 | Object                                                                   | Propriété                                                       |
 |--------------------------------------------------------------------------|----------------------------------------------------------------|
-| [Objet AxWindowsMediaPlayer](axwindowsmediaplayer-object--vb-and-c.md) | [**Error**](axwmplib-axwindowsmediaplayer-error--vb-and-c.md) |
+| [Objet AxWindowsMediaPlayer](axwindowsmediaplayer-object--vb-and-c.md) | [**Erreur**](axwmplib-axwindowsmediaplayer-error--vb-and-c.md) |
 
 
 
@@ -91,7 +91,7 @@ Procurez-vous une interface **IWMPError** à l’aide de la propriété suivante
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPErrorItem (VB et C#)**](iwmperroritem--vb-and-c.md)
