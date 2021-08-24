@@ -4,12 +4,12 @@ ms.assetid: CE1BC344-CA27-4744-ACD7-0623CC54E532
 title: Classes de gestion du système virtuel
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0105cd35bea2b12b3f371ff64bdb1eb07f25cc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2093590f10741f2dd67093d4d84b00f668f4f6d39b538ac9a4476354d0b73c19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290109"
 ---
 # <a name="virtual-system-management-classes"></a>Classes de gestion du système virtuel
 

@@ -7,19 +7,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 55104282
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2c5e4c89dcf37285634fd6fc5e53468bf98e4d07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ada48839d05f1eaeec5eae5fe541ea89c5e0b641bba35441b3f189bf2973ba0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119106837"
 ---
 # <a name="vistaapi-members"></a>Membres VistaApi
 
 Inclure les membres protégés  
 Inclure les membres hérités  
 
-Les API ESENT prises en charge dans Windows Vista.
+les api ESENT prises en charge pour la première fois dans Windows Vista.
 
 Le type [VistaApi](./vistaapi-class.md) expose les membres suivants.
 

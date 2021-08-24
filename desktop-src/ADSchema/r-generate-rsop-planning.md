@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f20b7d3a6431dcc19e83f95c594fd0332e35eb2b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e00e8365f032559484d9c4dc1790586493dc5bb1b897e96dafb118c2c77c23a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531869"
 ---
 # <a name="generate-rsop-planning-extended-right"></a>Générer un droit étendu de planification RSoP
 
@@ -38,7 +38,7 @@ L’utilisateur qui dispose des droits sur une unité d’organisation ou un dom
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

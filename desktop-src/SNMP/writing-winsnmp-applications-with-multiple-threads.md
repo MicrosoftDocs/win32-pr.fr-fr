@@ -4,12 +4,12 @@ description: L’implémentation de l’WinSNMP de Microsoft garantit que les op
 ms.assetid: faa98704-f55f-4450-9f6e-d2bbbc7a50b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb6b7991968c5c5efafa898758c3c60cad1abb2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d33ee400009204a1117eb54b8166ade2c10f3d1dd3317a8316d70fc8c2d606d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142732"
 ---
 # <a name="writing-winsnmp-applications-with-multiple-threads"></a>Écriture d’applications WinSNMP avec plusieurs threads
 
@@ -19,6 +19,6 @@ Une application WinSNMP avec plusieurs threads doit s’assurer que les opérati
 
 Pour plus d’informations, consultez [threads multiples](/windows/desktop/ProcThread/multiple-threads) et [sécurité des threads et droits d’accès](/windows/desktop/ProcThread/thread-security-and-access-rights).
 
- 
+ 
 
- 
+ 

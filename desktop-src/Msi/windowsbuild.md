@@ -4,12 +4,12 @@ ms.assetid: b5e8ac33-6f24-4e8b-8fc5-7c5933a07646
 title: Propriété WindowsBuild
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96857a6eecf3901660096bcb99ebc297f78d0869
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a5b6fff70216c3ec1ecad73dd65a80cc0a507947296afe02e0a6d4fffa0a489
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498439"
 ---
 # <a name="windowsbuild-property"></a>Propriété WindowsBuild
 
@@ -21,7 +21,7 @@ Le programme d’installation définit la propriété **WindowsBuild** sur le nu
 
 | Condition requise | Valeur |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP, consultez la [Configuration requise de la Windows Installer Run-Time](windows-installer-portal.md) pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer.<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows le programme d’installation sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Windows Service Pack minimale requise par une version Windows Installer, consultez la [configuration requise](windows-installer-portal.md) pour la Run-Time de Windows Installer.<br/> |
 
 
 

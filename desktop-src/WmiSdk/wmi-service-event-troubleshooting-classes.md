@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes de dépannage des événements du service WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e811ac5b276e5562f73b5b432d5f3255af5bab7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 99be30a6b2f0551cae4e0abe269da5341e34e1444eb1545ca96377a43b5415ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502799"
 ---
 # <a name="wmi-service-event-troubleshooting-classes"></a>Classes de dépannage des événements du service WMI
 
@@ -22,7 +22,7 @@ Vous pouvez vous abonner aux notifications [**\_ WmiEssEvent msft**](/previous-v
 
 |   Événement                                                                                        |   Description                                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [**\_WMIESSEVENT msft**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiessevent)                                   | Classe parente pour tous les auto-événements du sous-système d’événement (ESS) Windows Management Instrumentation (WMI). |
+| [**\_WMIESSEVENT msft**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiessevent)                                   | classe parente pour tous les auto-événements du sous-système d’événement (ESS) Windows Management Instrumentation (WMI). |
 | [**\_WMIREGISTERNOTIFICATIONEVENT msft**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiregisternotificationevent) | Représente la création d’un récepteur d’événements pour la notification pour une requête d’événement.                       |
 | [**\_WMICANCELNOTIFICATIONSINK msft**](/previous-versions/windows/desktop/wmisystemprov/msft-wmicancelnotificationsink)       | généré lorsqu’un récepteur d’événements est annulé.                                                           |
 | [**\_WMITHREADPOOLEVENT msft**](/previous-versions/windows/desktop/wmisystemprov/msft-wmithreadpoolevent)                     | fournit une notification des événements de thread dans le sous-système d’événements WMI (ESS).                           |

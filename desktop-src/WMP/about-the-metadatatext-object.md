@@ -4,21 +4,21 @@ description: À propos de l’objet MetadataText
 ms.assetid: 91d74b16-5a34-4ff3-9099-6590b12ed1cb
 keywords:
 - Lecteur Windows Media, objet MetadataText
-- Modèle objet du lecteur Windows Media, objet MetadataText
+- Lecteur Windows Media modèle objet, objet MetadataText
 - modèle objet, objet MetadataText
-- Contrôle ActiveX du lecteur Windows Media, objet MetadataText
-- Contrôle ActiveX, objet MetadataText
-- Contrôle ActiveX Windows Media Player Mobile, objet MetadataText
-- Windows Media Player Mobile, objet MetadataText
+- Lecteur Windows Media ActiveX contrôle, objet MetadataText
+- contrôle ActiveX, objet MetadataText
+- Lecteur Windows Media contrôle Mobile ActiveX, objet MetadataText
+- Lecteur Windows Media Mobile, objet MetadataText
 - Objet MetadataText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 193f8abe1a46830fda1ef4f55c3cb0f3fbceade9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f23e873d2fd86ad22cb7b37345562ab82a95d73810b06829b5d9510aa28c1790
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470389"
 ---
 # <a name="about-the-metadatatext-object"></a>À propos de l’objet MetadataText
 
@@ -34,9 +34,9 @@ Certains attributs de métadonnées, tels que **WM/paroles \_ synchronisés**, f
 [**Modèle objet de lecteur pour les langages de script**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

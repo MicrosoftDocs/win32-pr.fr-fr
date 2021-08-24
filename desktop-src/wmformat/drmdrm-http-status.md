@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 367c5a40af45fd573f7f5033b9be3b037079cb30
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 385a52811cc8deb7e1c221737bd97391122160de065ca28111132ee6c5e4a859
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447759"
 ---
 # <a name="drm_http_status-enumeration-wmdrmsdkh"></a>Énumération DRM_HTTP_STATUS (wmdrmsdk. h)
 
@@ -80,7 +80,7 @@ Les opérations HTTP sont terminées.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée par la structure d' [**\_ \_ État**](drmwm-individualize-status.md) de l’énumération WM.
 

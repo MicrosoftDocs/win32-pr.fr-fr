@@ -4,12 +4,12 @@ description: Pour localiser les enfants d’un objet ou pour déterminer la tail
 ms.assetid: ba08814f-87bc-4b47-8b61-179a48d5092f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c26d055246e038611e881bd353bcc865c5e77136
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34911b13a4c9bad2bfd79cb32d5654265878568ad00475ade08a87a23150b49f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118828270"
 ---
 # <a name="navigation-through-hit-testing-and-screen-location"></a>Navigation via le test de positionnement et l’emplacement à l’écran
 
@@ -37,11 +37,11 @@ L’illustration suivante montre la relation entre la région d’un objet non r
 > [!Note]  
 > [**IAccessible :: accHitTest**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest) est plus précis que [**IAccessible :: accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation) , car il permet aux clients de déterminer l’emplacement des objets sur une base pixel par pixel plutôt qu’avec des rectangles englobants. Cette précision est utile, par exemple, lorsqu’une application collecte des informations en effectuant le suivi de l’emplacement du pointeur de la souris.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

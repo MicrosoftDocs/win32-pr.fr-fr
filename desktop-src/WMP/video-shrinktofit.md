@@ -3,7 +3,7 @@ title: VIDÉO. shrinkToFit
 description: L’attribut shrinkToFit spécifie ou récupère une valeur indiquant si la vidéo sera réduite à la largeur et à la hauteur définies pour le contrôle Video.
 ms.assetid: 94ab33b0-b08c-4063-a3e6-1315bb527e1c
 keywords:
-- VIDEO. shrinkToFit lecteur Windows Media
+- VIDEO. shrinkToFit Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eb049ac8a307b243a7b4b82bdd0f2834f30b315
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 186c43ce664f4da5490168232310a9e4cd640651a035a16097c8875d74270b2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465659"
 ---
 # <a name="videoshrinktofit"></a>VIDÉO. shrinkToFit
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si aucune largeur ou hauteur n’est spécifiée, cet attribut est ignoré.
 

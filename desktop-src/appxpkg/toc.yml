@@ -1,4 +1,4 @@
-- name: 'Empaquetage, déploiement et interrogation d’applications Windows'
+- name: 'empaquetage, déploiement et interrogation d’applications Windows'
   href: appx-portal.md
   items:
     - name: Comment créer un package d’application
@@ -17,7 +17,7 @@
       href: how-to-extract-content-from-a-package.md
     - name: "Démarrage rapide\_: interroger les informations du manifeste du package d’application"
       href: how-to-query-package-identity-information.md
-    - name: Dépannage
+    - name: Résolution des problèmes
       href: troubleshooting.md
     - name: Informations de référence
       href: api-reference.md
@@ -696,7 +696,7 @@
               href: /windows/desktop/api/AppModel/ns-appmodel-package_version
         - name: Glossaire
           href: appx-packaging-glossary.md
-        - name: API COM du gestionnaire de package Windows
+        - name: Gestionnaire de package Windows API COM
           href: windows-package-manager-com-api.md
     - name: Outils et applets de commande PowerShell
       href: appx-packaging-tools.md

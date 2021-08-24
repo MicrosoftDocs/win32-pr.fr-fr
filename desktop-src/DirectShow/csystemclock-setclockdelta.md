@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cc1027081cc8713cffd2979e20627c037d0799f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c98ccf35e41886594a3aab8c3abec6737128d8d7e22f6dfb75d0ac88ac3b7a02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538659"
 ---
 # <a name="csystemclocksetclockdelta-method"></a>Méthode CSystemClock. SetClockDelta
 
@@ -53,7 +53,7 @@ Spécifie la quantité d’ajustement de l’horloge, en tant que valeur de [**\
 
 Retourne \_ un ou un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle simplement [**CBaseReferenceClock :: SetTimeDelta**](cbasereferenceclock-settimedelta.md).
 
@@ -66,7 +66,7 @@ Les valeurs d’heure retournées par [**IReferenceClock :: getTime**](/windows
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | CSystemClock, classe<br/>                                                                                                                                                              |
-| En-tête<br/>  | <dl> <dt>Sysclock. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Sysclock. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

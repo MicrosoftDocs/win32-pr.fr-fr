@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a7014687355524fbe10ff01869cac6c3fd35a894
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0773ad1b7c992211e8bc578ac2cf2bea7706313918581ef2da9df8e2887b536d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535769"
 ---
 # <a name="msvm_registeredprofile-class"></a>MSVM \_ RegisteredProfile, classe
 
@@ -215,7 +215,7 @@ Organisation qui définit ce profil. Cette propriété est héritée de la [**\_
 <span id="Consortium_for_Service_Innovation"></span><span id="consortium_for_service_innovation"></span><span id="CONSORTIUM_FOR_SERVICE_INNOVATION"></span>**Consortium pour l’innovation des services** (4)
 </dt> <dt>
 
-<span id="FAST"></span><span id="fast"></span>**Rapide** (5)
+<span id="FAST"></span><span id="fast"></span>**FAST** (5)
 </dt> <dt>
 
 <span id="GGF"></span><span id="ggf"></span>**GGF** (6)
@@ -297,7 +297,7 @@ Cette propriété est héritée de la [**\_ RegisteredProfile CIM**](/previous-v
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\Interop racine<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

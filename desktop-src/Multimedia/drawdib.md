@@ -3,9 +3,9 @@ title: DrawDib
 description: DrawDib
 ms.assetid: c5e7237d-3a52-45b0-b6c5-13a1a8c1d50d
 keywords:
-- Multimédia Windows, DrawDib
+- Windows multimédia, DrawDib
 - multimédia, DrawDib
-- Vidéo pour Windows (VFW), DrawDib
+- vidéo pour Windows (VFW), DrawDib
 - VFW (vidéo pour Windows), DrawDib
 - DrawDib, à propos de
 - DrawDib, mémoire vidéo
@@ -13,12 +13,12 @@ keywords:
 - DIB (bitmap indépendante du périphérique)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63cfe88ec93e539fec74539c09d2f8a8446984ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9b7de2fb3613ffd8211a654565b4d07ce386c0d8006fd98338337b5fd165b7f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496759"
 ---
 # <a name="drawdib"></a>DrawDib
 
@@ -30,9 +30,9 @@ Les fonctions DrawDib écrivent directement dans la mémoire vidéo. Ils ne repo
 -   [Utilisation de DrawDib](using-drawdib.md)
 -   [Référence DrawDib](drawdib-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

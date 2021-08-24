@@ -4,12 +4,12 @@ description: FirstChildLastChildMismatch
 ms.assetid: 98726C1A-DC43-4FC7-8ECA-628F63D0AFE3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37fedb7e23ce2ac2a7f9c51c9db9e06e59ead515
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ca3f168357cd67a7f22e81e985042a4983e7d8291bb6a0e2e343753959bcd6a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118828951"
 ---
 # <a name="firstchildlastchildmismatch"></a>FirstChildLastChildMismatch
 
@@ -19,7 +19,7 @@ Lors de la navigation en appelant {0} à partir du nœud testé, puis en appelan
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -41,9 +41,9 @@ Implémentation d’UI Automation incorrecte ou non valide.
 [**IUIAutomationTreeWalker**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

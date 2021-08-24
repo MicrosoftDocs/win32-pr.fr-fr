@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 8e043c8281d3ad049346ac7ce68991eb6bd08af6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 728ccd283f0f65caafd6f23781bd75f18e9c796ad2fb147f00ab6350c53bfd2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557039"
 ---
 # <a name="nddegeterrorstring-function"></a>NDdeGetErrorString fonction)
 
@@ -91,7 +91,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur différent de
 
 <dl> <dt>
 
-[Présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
+[présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Fonctions DDE réseau](network-dde-functions.md)

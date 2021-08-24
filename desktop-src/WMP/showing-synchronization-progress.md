@@ -4,23 +4,23 @@ description: Indication de la progression de la synchronisation
 ms.assetid: 5ca4d6ae-822e-4ddc-950d-cf7df6889108
 keywords:
 - Lecteur Windows Media, appareils mobiles
-- Modèle objet du lecteur Windows Media, appareils mobiles
+- modèle objet Lecteur Windows Media, appareils mobiles
 - modèle objet, appareils mobiles
-- Contrôle ActiveX du lecteur Windows Media, appareils mobiles
-- Contrôle ActiveX, appareils mobiles
-- Windows Media Player Mobile contrôle ActiveX, appareils mobiles
-- Windows Media Player Mobile, appareils mobiles
+- contrôle de ActiveX Lecteur Windows Media, appareils mobiles
+- contrôle de ActiveX, appareils mobiles
+- Lecteur Windows Media contrôle Mobile ActiveX, appareils mobiles
+- Lecteur Windows Media Mobile, appareils mobiles
 - périphériques portables, progression de la synchronisation
 - synchronisation de l’appareil, indication de la progression
 - synchronisation des appareils, indication de la progression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3f109f09d4efacef620a2c21691f50cc0ac2143
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 6126bff5f96aa9b18c1729d0da12b05a73da6eb43dd63d8135baf0544e19ada5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103841897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118833290"
 ---
 # <a name="showing-synchronization-progress"></a>Indication de la progression de la synchronisation
 
@@ -148,9 +148,9 @@ STDMETHODIMP CMainDlg::ShowProgress(long lIndex)
 [**Utilisation d’appareils mobiles**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

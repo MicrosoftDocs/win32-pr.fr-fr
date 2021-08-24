@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c137472d03f1088da061c20b52050ae1a1f6629e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f6fe16d6a134af51247ceebcb6b0c50785a81151055e6e0f0afaf29f5b70d45
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119453079"
 ---
 # <a name="temporary-database-parameters"></a>Paramètres de base de données temporaires
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="temporary-database-parameters"></a>Paramètres de base de données temporaires
 
@@ -44,7 +44,7 @@ Ce paramètre contrôle l’utilisation des transactions dans les tables tempora
 <tbody>
 <tr class="odd">
 <td><p>Valeur par défaut :</p></td>
-<td><p>Vrai</p></td>
+<td><p>True</p></td>
 </tr>
 <tr class="even">
 <td><p>Tapez :</p></td>
@@ -222,11 +222,11 @@ Ce paramètre indique le chemin d’accès relatif ou absolu du système de fich
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>
@@ -238,6 +238,6 @@ Ce paramètre indique le chemin d’accès relatif ou absolu du système de fich
 
 ### <a name="see-also"></a>Voir aussi
 
-[Fichiers ESE (Extensible Storage Engine)](./extensible-storage-engine-files.md)  
+[fichiers de moteur d’Stockage Extensible](./extensible-storage-engine-files.md)  
 [JetCreateInstance](./jetcreateinstance-function.md)  
 [JetInit](./jetinit-function.md)

@@ -4,12 +4,12 @@ ms.assetid: 76dffca8-bb84-4384-a9e8-120a4cf2acac
 title: Générateur de code des services Web sur les appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e3180166ee421d95a8dedd5b0f5f7034941396b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b214fd51468dd3cf46c2625ae0e493851ef90f38b7fea0f64a3973f068be5253
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119382269"
 ---
 # <a name="web-services-on-devices-code-generator"></a>Générateur de code des services Web sur les appareils
 
@@ -17,9 +17,9 @@ Le générateur de code des services Web sur les appareils, WsdCodeGen, est un u
 
 WsdCodeGen peut être utilisé pour générer du code pour un service, un client ou les deux. L’utilitaire génère du code stub pour les services, le code proxy pour les clients, et l’interface et le code de type pour les deux.
 
-Cet outil est disponible dans le kit de développement logiciel (SDK) Microsoft Windows et dans le kit WDK (Windows Driver Kit). Les outils du kit de développement logiciel se trouvent dans le répertoire suivant : <Windows SDK Install Folder> \\ bin.
+cet outil est disponible dans le kit de développement logiciel (SDK) de Microsoft Windows et dans le kit WDK (Windows Driver kit). Les outils du kit de développement logiciel se trouvent dans le répertoire suivant : <Windows SDK Install Folder> \\ bin.
 
-Le SDK Windows comprend un exemple de code généré par WsdCodeGen. Pour plus d’informations, consultez [exemples wsdapi](wsdapi-samples.md).
+le SDK Windows comprend un exemple de code généré par WsdCodeGen. Pour plus d’informations, consultez [exemples wsdapi](wsdapi-samples.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

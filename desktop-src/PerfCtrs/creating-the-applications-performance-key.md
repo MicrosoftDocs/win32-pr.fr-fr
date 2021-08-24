@@ -4,12 +4,12 @@ ms.assetid: b6cdf130-699f-49bd-97b6-a580818b3fab
 title: Création de la clé de performance des applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d39fb89f7f5feb4e34284b541775b5c093a6bfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c149e8142b892edeb43f5459fe68bc6ad4b7453118c64cb2e288bb334c054fff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144032"
 ---
 # <a name="creating-the-applications-performance-key"></a>Création de la clé de performance de l’application
 

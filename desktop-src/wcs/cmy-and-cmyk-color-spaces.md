@@ -3,15 +3,15 @@ title: Espaces de couleurs CMJ et CMJN
 description: Les espaces de couleurs CMJ et CMJN sont souvent utilisés dans l’impression couleur. Un espace de couleurs CMJ utilise le cyan, le magenta et le jaune (CMJ) comme couleurs primaires. Les couleurs secondaires rouge, vert et bleu.
 ms.assetid: e135b5ef-fa5c-49b7-8537-5dc31cde2418
 keywords:
-- Système de couleurs Windows (WCS), espaces de couleurs CMJ
-- WCS (système de couleurs Windows), CMJ d’espaces de couleurs
+- Windows Système de couleurs (WCS), espaces de couleurs CMJ
+- WCS (Windows color System), cmj espaces de couleurs
 - gestion des couleurs des images, espaces de couleurs CMJ
 - gestion des couleurs, espaces de couleurs CMJ
 - couleurs, espaces de couleurs CMJ
 - espaces de couleurs, CMJ
 - Espaces de couleurs CMJ
-- Windows Color System (WCS), espaces de couleurs CMJN
-- WCS (système de couleurs Windows), espaces de couleurs CMJN
+- Windows Système de couleurs (WCS), espaces de couleurs CMJN
+- WCS (Windows color System), espaces de couleurs cmjn
 - gestion des couleurs des images, espaces de couleurs CMJN
 - gestion des couleurs, espaces CMYKcolor
 - couleurs, espaces de couleurs CMJN
@@ -27,12 +27,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52622c929222eb9027b6272137a8b897210697b6
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 1fdcb1ea33bd32346dd541894342ec4af02274e4381eaf0c1925e2a4bc20e10c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106544333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119452096"
 ---
 # <a name="cmy-and-cmyk-color-spaces"></a>Espaces de couleurs CMJ et CMJN
 

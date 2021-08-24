@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 90c5adf31c01fbab1b62aafd0714d165092f4e23
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f9455f6f2b89d7b63ad663bcd17d31363ab2c97fd1ba923ba22ebec62e0b04d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119456349"
 ---
 # <a name="cpl_newinquire-message"></a>\_Message NEWINQUIRE cpl
 
@@ -42,11 +42,11 @@ Adresse d’une structure [**NEWCPLINFO**](/windows/win32/api/cpl/ns-cpl-newcpli
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) traite ce message avec succès, elle doit retourner zéro.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour de meilleures performances, la plupart des applications doivent ignorer **Cpl \_ NEWINQUIRE** et traiter le message de [**\_ recherche de cpl**](cpl-inquire.md) à la place.
 
@@ -64,7 +64,7 @@ Les seules applications qui doivent utiliser **Cpl \_ NEWINQUIRE** sont celles q
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                      |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>Cpl. h</dt> </dl> |
 

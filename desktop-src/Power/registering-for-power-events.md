@@ -4,12 +4,12 @@ ms.assetid: 840390ca-d32a-4cf3-9e75-66322c7cdee0
 title: Inscription pour les événements d’alimentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da084592414d1c58ab4ab43dd2b5c35f028552b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c360905800ad3fdce047e16a0244cd3dbf1ca312f18154f0be0c36b75e546d5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143322"
 ---
 # <a name="registering-for-power-events"></a>Inscription pour les événements d’alimentation
 

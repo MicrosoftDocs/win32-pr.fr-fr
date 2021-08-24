@@ -4,12 +4,12 @@ description: Un processus est une collection d’espaces de mémoire virtuelle, 
 ms.assetid: cb62412a-d079-40f9-89dc-cce0bf3889af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d598fc9d7dd39ab070b58aa7ba45a6e2fcae90db
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 320b09d76200739c77c7202af4d53a35089b2eca2e6fd282dd507f048aa7a10b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130031"
 ---
 # <a name="processes-threads-and-apartments"></a>Processus, threads et Apartments
 
@@ -30,7 +30,7 @@ Bien que COM prenne en charge le modèle à un seul thread par processus avant l
 > [!Note]  
 > L’utilisation de plusieurs threads n’est pas une garantie de meilleures performances. En fait, étant donné que la factorisation des threads est un problème difficile, l’utilisation de plusieurs threads entraîne souvent des problèmes de performances. La clé consiste à utiliser plusieurs threads uniquement si vous êtes très sûr de ce que vous faites.
 
- 
+ 
 
 En général, le moyen le plus simple d’afficher l’architecture du thread COM consiste à considérer tous les objets COM du processus comme divisés en groupes appelés *Apartments*. Un objet COM se trouve dans un seul cloisonnement, dans le sens où ses méthodes peuvent légalement être appelées directement uniquement par un thread qui appartient à ce cloisonnement. Tout autre thread qui souhaite appeler l’objet doit passer par un proxy.
 
@@ -42,7 +42,7 @@ Il existe deux types de cloisonnements : les cloisonnements [à thread unique](
 > [!Note]  
 > Pour obtenir une description de la communication entre les cloisonnements à thread unique et les cloisonnements multithread dans le même processus, consultez [communication monothread et](single-threaded-and-multithreaded-communication.md)multithread.
 
- 
+ 
 
 Un processus peut avoir zéro ou plusieurs cloisonnements à thread unique et zéro ou un cloisonnement multithread.
 
@@ -63,6 +63,6 @@ Pour plus d'informations, voir les rubriques suivantes :
 -   [Problèmes liés aux threads du serveur in-process](in-process-server-threading-issues.md)
 -   [Accès aux interfaces à travers les Apartments](accessing-interfaces-across-apartments.md)
 
- 
+ 
 
- 
+ 

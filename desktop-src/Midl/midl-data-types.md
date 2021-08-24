@@ -8,12 +8,12 @@ keywords:
 - types de données MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bf37703c56beec56dec67055272d4ba25d34e6f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 69f8e1e2b747069b9b07b9292932a8134d7f5c7c9c1456fdf63b725ea700a983
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067159"
 ---
 # <a name="midl-data-types"></a>Types de données MIDL
 
@@ -27,9 +27,9 @@ MIDL fournit une multitude de types de données et de constructions de langage p
 -   [Unions MIDL](midl-unions.md)
 -   [Handles de liaison MIDL](midl-binding-handles.md)
 
- 
+ 
 
- 
+ 
 
 
 

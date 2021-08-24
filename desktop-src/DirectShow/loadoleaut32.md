@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b23bad7e445eebc78ecf8a849ddde8fc23746131
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0ca5832246e90e1df207754dc33380547b8193829394d81e6b2b757fccf79a91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502309"
 ---
 # <a name="loadoleaut32-function"></a>LoadOLEAut32 fonction)
 
@@ -44,7 +44,7 @@ Cette fonction n’a pas de paramètres.
 
 Retourne un handle vers une instance de DLL Automation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le destructeur [**CBaseObject**](cbaseobject.md) détruit l’objet qui a chargé OleAut32.dll, il décharge la bibliothèque si elle est toujours chargée.
 
@@ -54,7 +54,7 @@ Lorsque le destructeur [**CBaseObject**](cbaseobject.md) détruit l’objet qui 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>ComBase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

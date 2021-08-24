@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ComAdmin.Idl
-ms.openlocfilehash: fa6e71d13f5a3d157bd3ce1035d0616dc1e5a519
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8be3f0f3f9aa59c2199c50b73b8a4d4488b0c9a65d3e0679b65350d6b8b07fd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128991"
 ---
 # <a name="comadmincatalog-class"></a>COMAdminCatalog, classe
 
@@ -52,13 +52,13 @@ Pour plus d’informations sur des regroupements spécifiques et leurs propriét
 
 Pour une introduction à l’administration par programme de COM+, consultez automatisation de l' [administration com+](automating-com--administration.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour créer cet objet, appelez [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
-Pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+. Un objet COMAdminCatalog peut être déclaré à l’aide de « comadmin. COMAdminCatalog » comme nom de classe.
+pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+. Un objet COMAdminCatalog peut être déclaré à l’aide de « comadmin. COMAdminCatalog » comme nom de classe.
 
-Dans COM+ 1,5, fourni avec Windows XP, la classe **COMAdminCatalog** implémente l’interface [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2) . Toutefois, dans COM+ 1,0, fourni avec Windows 2000, la classe **COMAdminCatalog** implémente uniquement l’interface [**ICOMAdminCatalog**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog) .
+dans COM+ 1,5, fourni avec Windows XP, la classe **COMAdminCatalog** implémente l’interface [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2) . toutefois, dans COM+ 1,0, fourni avec Windows 2000, la classe **COMAdminCatalog** implémente uniquement l’interface [**ICOMAdminCatalog**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog) .
 
 ## <a name="requirements"></a>Configuration requise
 

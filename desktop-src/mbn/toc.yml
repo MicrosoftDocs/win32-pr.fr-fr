@@ -85,7 +85,7 @@
             - name: IMbnConnection
               href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection
               items:
-                - name: Méthode Connect
+                - name: Connecter Méthode
                   href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-connect
                 - name: Méthode Disconnect
                   href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-disconnect

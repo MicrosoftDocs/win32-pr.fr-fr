@@ -26,16 +26,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8f2465de2df3d25293f5298d40700512b6a086d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae5a15f0e89dd01218690dd1654a24a883e1ef3b7f8d6f44edc359b72d0429e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112428"
 ---
 # <a name="instanceparameterscachedclosedtables-property"></a>InstanceParameters. CachedClosedTables, propriété
 
-Obtient ou définit une valeur donnant le nombre de ressources de l’arborescence B + mises en cache par l’instance après que les tables qu’elles représentent ont été fermées par l’application. Des valeurs élevées pour ce paramètre forcent le moteur de base de données à utiliser plus de mémoire, mais augmentent la vitesse avec laquelle un grand nombre de tables peut être ouvert de façon aléatoire par l’application. Cela est utile pour les applications qui ont un schéma avec un très grand nombre de tables. Pris en charge sur Windows Vista et les autres. Ignoré sur Windows XP et Windows Server 2003.
+Obtient ou définit une valeur donnant le nombre de ressources de l’arborescence B + mises en cache par l’instance après que les tables qu’elles représentent ont été fermées par l’application. Des valeurs élevées pour ce paramètre forcent le moteur de base de données à utiliser plus de mémoire, mais augmentent la vitesse avec laquelle un grand nombre de tables peut être ouvert de façon aléatoire par l’application. Cela est utile pour les applications qui ont un schéma avec un très grand nombre de tables. pris en charge sur Windows Vista et les autres. ignoré sur Windows XP et Windows Server 2003.
 
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)

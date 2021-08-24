@@ -4,12 +4,12 @@ ms.assetid: 068d49d2-0e14-4080-9fee-20d984f22545
 title: Effets des interfaces système (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b40b21d98bedaec65550343260e7c52e2df1c302
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d5d640b31d0d1db9ac9b58ed166b45acff762b30edc0e71f1d7138b5818b3e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128391"
 ---
 # <a name="effect-system-interfaces-direct3d-10"></a>Effets des interfaces système (Direct3D 10)
 

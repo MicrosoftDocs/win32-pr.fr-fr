@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2e8800ead0c8f0abaddd0f055f31962d4d55d14d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf884375f504bb801bcebcaad3f75b23c5f82956ce3a1d45dd5a50bfa5f8e53c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451139"
 ---
 # <a name="ienumwiaitem2next-method"></a>IEnumWiaItem2 :: Next, méthode
 
@@ -62,9 +62,9 @@ Reçoit l’adresse d’un tableau de pointeurs d’interface [**IWiaItem2**](-w
 *pcEltFetched* \[ in, out\]
 </dt> <dd>
 
-Type : **ULong \** _
+Type : **ULong \***
 
-Lors de la sortie, ce paramètre reçoit le nombre de pointeurs d’interface réellement stockés dans le tableau indiqué par le paramètre _ppIWiaItem2 *. Lorsque l’énumération est terminée, ce paramètre contient la valeur zéro.
+Lors de la sortie, ce paramètre reçoit le nombre de pointeurs d’interface réellement stockés dans le tableau indiqué par le paramètre *ppIWiaItem2* . Lorsque l’énumération est terminée, ce paramètre contient la valeur zéro.
 
 </dd> </dl>
 
@@ -74,9 +74,9 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le système d’exécution Windows Image Acquisition (WIA) 2,0 représente les périphériques matériels WIA 2,0 sous la forme d’une arborescence hiérarchique d’objets [**IWiaItem2**](-wia-iwiaitem2.md) . Les applications utilisent la méthode **IEnumWiaItem2 :: Next** pour obtenir un pointeur d’interface **IWiaItem2** pour chaque élément dans le dossier actif de l’arborescence d’objets **IWiaItem2** d’un périphérique matériel.
+le système d’exécution d’acquisition d’images Windows (WIA) 2,0 représente des périphériques matériels wia 2,0 sous la forme d’une arborescence hiérarchique d’objets [**IWiaItem2**](-wia-iwiaitem2.md) . Les applications utilisent la méthode **IEnumWiaItem2 :: Next** pour obtenir un pointeur d’interface **IWiaItem2** pour chaque élément dans le dossier actif de l’arborescence d’objets **IWiaItem2** d’un périphérique matériel.
 
 Pour obtenir la liste des pointeurs, l’application passe un tableau de pointeurs d’interface [**IWiaItem2**](-wia-iwiaitem2.md) qu’il alloue. Il passe également le nombre d’éléments de tableau dans le paramètre *cElt*. La méthode **IEnumWiaItem2 :: Next** remplit le tableau avec des pointeurs vers des interfaces **IWiaItem2** .
 
@@ -90,8 +90,8 @@ Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

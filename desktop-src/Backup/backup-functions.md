@@ -4,12 +4,12 @@ description: Les fonctions suivantes sont utilisées avec la sauvegarde sur band
 ms.assetid: 8c5f92f7-4918-475c-bc86-2b02291488d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 312c7477c28f83b7c1c64073234799219346f89a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2164958d7261c4c22caf1ac5124f524eca2f7ed355b082bede59d66a2e6fe697
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529609"
 ---
 # <a name="backup-functions"></a>Fonctions de sauvegarde
 
@@ -34,7 +34,7 @@ Les fonctions suivantes sont utilisées avec la [sauvegarde sur bande](tape-back
 
 
 
- 
+ 
 
 Les fonctions suivantes sont fournies pour l’utilisation du [stockage d’instance unique et de la sauvegarde SIS](single-instance-store-and-sis-backup.md).
 
@@ -53,7 +53,7 @@ Les fonctions suivantes sont fournies pour l’utilisation du [stockage d’inst
 
 
 
- 
+ 
 
 Les fonctions suivantes sont fournies pour l’utilisation de la [sauvegarde et de la restauration de fichiers chiffrés](/windows/desktop/FileIO/backup-and-restore-of-encrypted-files).
 
@@ -68,8 +68,8 @@ Les fonctions suivantes sont fournies pour l’utilisation de la [sauvegarde et 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

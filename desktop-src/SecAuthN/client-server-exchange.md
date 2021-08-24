@@ -1,17 +1,17 @@
 ---
-description: Échange client/serveur
+description: Exchange client/serveur
 ms.assetid: 2449c4b3-720d-4b84-b3cf-fcc4abd05d33
-title: Échange client/serveur
+title: Exchange client/serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6274705ef6719c846f0551f90fca8790ba89f2e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb2401d3cf2bb59586e608bc7566c13009869d2874a1532b659f70c6c4e09e4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141172"
 ---
-# <a name="clientserver-exchange"></a>Échange client/serveur
+# <a name="clientserver-exchange"></a>Exchange client/serveur
 
 Une fois qu’un utilisateur a un ticket vers un serveur, le client de station de travail peut établir une session de communication sécurisée avec ce serveur.
 

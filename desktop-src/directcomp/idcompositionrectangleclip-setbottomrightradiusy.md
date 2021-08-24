@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: ff582a507c82f945684bbe1732f38803a0de1744
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d1e3ef6b405b4db5439436ad41ce9eb4c419bc2b6c34fee3336b3eb599bccc7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562339"
 ---
 # <a name="idcompositionrectangleclipsetbottomrightradiusy-methods"></a>IDCompositionRectangleClip :: SetBottomRightRadiusY, méthodes
 
@@ -40,8 +40,8 @@ Modifie ou anime la valeur de la propriété BottomRightRadiusY de ce clip. La p
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 8 uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2012 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Dcomp. h</dt> </dl>   |
 | Bibliothèque<br/>                  | <dl> <dt>Dcomp. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |

@@ -3,7 +3,7 @@ title: Message TB_SETINSERTMARKCOLOR (commctrl. h)
 description: Définit la couleur utilisée pour dessiner la marque d’insertion pour la barre d’outils.
 ms.assetid: 09a04449-9a1f-4f9a-b09f-9f22f930d735
 keywords:
-- TB_SETINSERTMARKCOLOR les contrôles de message Windows
+- TB_SETINSERTMARKCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 954654d71a3e3b7bba9af287d3e92fb2362e8711
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 466c9bfe27462b11cc0c6cf3a183328ddedb1b422b4d0c07b4496c7a90f83890
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540039"
 ---
 # <a name="tb_setinsertmarkcolor-message"></a>TO \_ SETINSERTMARKCOLOR message
 
@@ -49,8 +49,8 @@ Retourne une valeur **COLORREF** qui contient la couleur de la marque d’insert
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

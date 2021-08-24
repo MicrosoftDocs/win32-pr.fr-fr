@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 9a1501008f0235ea303dd1457fc8756c28abc21c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ba6e372b495c47dd92e61e51ba6487e6d9c2c0aca924bf6ed3a092ba0816820
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119446989"
 ---
 # <a name="printer_info_4-structure"></a>Structure de l’imprimante \_ info \_ 4
 
@@ -77,13 +77,13 @@ Spécifie des informations sur les données retournées.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure **Printer \_ info \_ 4** offre un moyen simple et extrêmement rapide de récupérer les noms des imprimantes installées sur un ordinateur local, ainsi que les connexions distantes qu’un utilisateur a établies. Quand [**EnumPrinters**](enumprinters.md) est appelé avec une structure de données **Printer \_ info \_ 4** , cette fonction interroge le registre pour obtenir les informations spécifiées, puis retourne immédiatement. Cela diffère du comportement de **EnumPrinters** lorsqu’il est appelé avec d’autres niveaux de structures de données d' **informations d’imprimante \_ \_ xxx** . En particulier, quand **EnumPrinters** est appelé avec une structure de données de niveau 2 (**Printer \_ info \_ 2** ), il effectue un appel **OpenPrinter** sur chaque connexion à distance. Si une connexion distante est interrompue, si le serveur distant n’existe plus, ou si l’imprimante distante n’existe plus, la fonction doit attendre l’expiration du délai d’attente de RPC et, par conséquent, échouer l’appel **OpenPrinter** . Cette opération peut prendre du temps. Le passage d’une structure **Printer \_ info \_ 4** permet à une application de récupérer un minimum d’informations requises ; si des informations plus détaillées sont souhaitées, un appel **EnumPrinter** de niveau 2 suivant peut être effectué.
 
 Les **attributs** peuvent également contenir des valeurs définies dans le champ **attributs** de **Printer \_ info \_ 2**.
 
-Certaines configurations d’imprimante, telles que les connexions d’imprimante à certains serveurs d’impression non Windows, peuvent renvoyer à la fois l’attribut d' **imprimante \_ \_ local** et l' **\_ attribut Printer \_ réseau**.
+certaines configurations d’imprimante, telles que les connexions d’imprimante à certains serveurs d’impression non-Windows, peuvent renvoyer à la fois un attribut d' **imprimante \_ \_ LOCAL** et un **attribut d’imprimante \_ \_ réseau**.
 
 ## <a name="requirements"></a>Configuration requise
 

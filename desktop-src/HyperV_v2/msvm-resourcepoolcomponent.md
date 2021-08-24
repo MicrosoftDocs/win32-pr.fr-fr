@@ -1,5 +1,5 @@
 ---
-description: Représente un élément de pool de ressources de la plateforme Microsoft Windows Hyper-V.
+description: représente un élément de pool de ressources de la plateforme Microsoft Windows Hyper-V.
 ms.assetid: DF48E8A6-240F-44E9-9DA3-1E6694396F10
 title: Classe Msvm_ResourcePoolComponent
 ms.topic: reference
@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a0cf64a9e01d904aa4e6c6ec263fdeec92eb7c94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 470317d3afd961ad74eb788ebdb70e67617749446fa4a432f40f00f43214cd92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535609"
 ---
 # <a name="msvm_resourcepoolcomponent-class"></a>MSVM \_ ResourcePoolComponent, classe
 
-Représente un élément de pool de ressources de la plateforme Microsoft Windows Hyper-V.
+représente un élément de pool de ressources de la plateforme Microsoft Windows Hyper-V.
 
 La syntaxe suivante est simplifiée format MOF (MOF) et comprend toutes les propriétés héritées.
 
@@ -105,7 +105,7 @@ Contexte dans lequel l’objet nouvellement créé s’exécutera. Cette valeur 
 
 </dd> <dt>
 
-**Enabled**
+**Activé**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -199,7 +199,7 @@ Type d'accès : Lecture seule
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ ResourcePoolComponent** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -209,8 +209,8 @@ L’accès à la classe **MSVM \_ ResourcePoolComponent** peut être limité par
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Fin de la prise en charge des clients<br/>    | Windows 8.1<br/>                                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
