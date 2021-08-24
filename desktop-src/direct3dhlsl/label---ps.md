@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f3fb266b649642c82293e8310b6302c6763ddc27
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 921abbc0518182eaef17326082a395e5c5729d8ab550610fe71c8dfabe46dd4e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854199"
 ---
 # <a name="label---ps"></a>étiquette-PS
 
@@ -37,7 +37,7 @@ Pour PS \_ 2 \_ x, le numéro d’étiquette doit être compris entre 0 et 15.
 
 Pour les logiciels PS \_ 2 \_ , PS \_ 3 \_ 0 et PS \_ 3 \_ , le numéro d’étiquette doit être compris entre 0 et 2047.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 

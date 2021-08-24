@@ -7,12 +7,12 @@ keywords:
 - fonctions de requête OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14804b260451d4b51b0146b1cb2f796ba6b6778e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 39e3e883bdf8730dac7b1a8e07448b771109bef0ac5ec2246411703e8f841a53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776479"
 ---
 # <a name="using-the-query-functions"></a>Utilisation des fonctions de requête
 
@@ -26,13 +26,13 @@ Il existe quatre fonctions de requête pour obtenir des variables d’État simp
 
 Les prototypes des fonctions de requête sont les suivants :
 
-**void** **glGetBooleanv**(**GLenum** *pname* , **GLboolean \*** *params* );
+**void** **glGetBooleanv**(**GLenum** *pname* , **GLboolean \** _ _params *);
 
-**void** **glGetIntegerv**(**GLenum** *pname* , **glint \*** *params* );
+**void** **glGetIntegerv**(**GLenum** *pname* , **glint \** _ _params *);
 
-**void** **glGetFloatv**(**GLenum** *pname* , **GLfloat \*** *params* );
+**void** **glGetFloatv**(**GLenum** *pname* , **GLfloat \** _ _params *);
 
-**void** **glGetDoublev**(**GLenum** *pname* , **GLdouble \*** *params* );
+**void** **glGetDoublev**(**GLenum** *pname* , **GLdouble \** _ _params *);
 
 Respectivement, les fonctions de requête obtiennent des variables d’État booléennes, entières, à virgule flottante ou à double précision. Le paramètre *pname* est une constante symbolique indiquant la variable d’État à retourner, et *params* est un pointeur vers un tableau du type indiqué dans lequel placer les données retournées. Les valeurs possibles pour *pname* sont répertoriées dans les [variables d’État OpenGL](opengl-state-variables.md). Une conversion de type est effectuée si nécessaire pour retourner la variable souhaitée en tant que type de données demandé.
 
@@ -60,9 +60,9 @@ Les fonctions qui retournent des variables d’État spécifiques sont :
 -   [**glGetTexLevelParameter**](glgettexlevelparameter.md)
 -   [**glGetTexParameter**](glgettexparameter.md)
 
- 
+ 
 
- 
+ 
 
 
 

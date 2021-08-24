@@ -4,12 +4,12 @@ description: Détermine si cet objet adaptateur DXCore prend en charge l’attri
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 9824595326f9e81bfa21ab198a3f5b2e6eae74bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9dda05ca9dc1d3b7a7a84792c7ac122bb64144d5fdba3ad630be1a3f4d9ddf24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787079"
 ---
 # <a name="idxcoreadapterisattributesupported-method"></a>IDXCoreAdapter :: IsAttributeSupported, méthode
 
@@ -34,7 +34,7 @@ Référence à un GUID d’attribut d’adaptateur. Pour obtenir la liste des GU
 
 Type : **bool**
 
-Retourne  `true`   si cet objet adaptateur dxcore prend en charge l’attribut d’adaptateur spécifié. Sinon, retourne  `false` .
+Retourne `true` si cet objet adaptateur dxcore prend en charge l’attribut d’adaptateur spécifié. Sinon, retourne `false`.
 
 ## <a name="see-also"></a>Voir aussi
 

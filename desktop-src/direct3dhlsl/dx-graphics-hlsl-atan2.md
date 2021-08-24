@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52fbc6574d0fc0d53a165ae7da87c2627a295be4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2932f82cf6d9e8b2071446b63f84e60727aff2da2213461d3c1194b2811fe1a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854969"
 ---
 # <a name="atan2"></a>atan2
 
@@ -51,7 +51,7 @@ Retourne l’arc tangente de deux valeurs (x, y).
 
 Arctangente de (y, x).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les signes des paramètres *x* et *y* sont utilisés pour déterminer le quadrant des valeurs de retour dans la plage de-π à π. La fonction intrinsèque HLSL **atan2** est bien définie pour chaque point autre que l’origine, même si *y* est égal à 0 et que *x* n’est pas égal à 0.
 
@@ -75,16 +75,16 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge |
+| Modèle de nuanceur                                                                       | Pris en charge |
 |------------------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | Oui       |
+| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | oui       |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | vs \_ 1 \_ 1  |
 
 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 3b11e9cb9a8425989e4ee513e0cfc18d2619ec4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae677a5dff2bcb7189b17c7d1477c95df5a5ae32b0065104b92e426e364d775d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749639"
 ---
 # <a name="orsetvalue-function"></a>ORSetValue fonction)
 
@@ -92,7 +92,7 @@ Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur différent de zéro défini dans Winerror. h. Vous pouvez utiliser la fonction [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) avec le format \_ message \_ de l' \_ indicateur système pour obtenir une description générique de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les tailles de valeur sont limitées par la mémoire disponible. Les valeurs longues (plus de 2048 octets) doivent être stockées sous forme de fichiers avec les noms de fichiers stockés dans le registre. Cela permet au registre de fonctionner efficacement. Les éléments d’application, tels que les icônes, les bitmaps et les fichiers exécutables, doivent être stockés en tant que fichiers et ne peuvent pas être placés dans le registre.
 
@@ -102,7 +102,7 @@ Les tailles de valeur sont limitées par la mémoire disponible. Les valeurs lon
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

@@ -3,7 +3,7 @@ title: Message WM_TOUCH (winuser. h)
 description: Notifie la fenêtre lorsqu’un ou plusieurs points tactiles, tels qu’un doigt ou un stylet, touche une surface de digitaliseur tactile.
 ms.assetid: 5dee8bab-34fa-4dd9-a65b-35883757ec80
 keywords:
-- WM_TOUCH message Windows tactile
+- WM_TOUCH message Windows TOUCH
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b6242d43b661240d946d2883237640d1bc92b3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec1034a229dbb1f3895726fcb3c1551e2dd0f390be0fd7bc2eb81d8331e582eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810099"
 ---
 # <a name="wm_touch-message"></a>\_Message WM Touch
 
@@ -57,7 +57,7 @@ Si une application traite ce message, elle doit retourner la valeur zéro.
 
 Si l’application ne traite pas le message, elle doit appeler [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca). Si ce n’est pas le cas, l’application subit une fuite de mémoire, car le handle d’entrée tactile n’est pas fermé et la mémoire de processus associée n’est pas libérée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **WM \_ Les messages TACTILEs** ne respectent pas les régions **HTTRANSPARENT** des fenêtres. Si une fenêtre retourne **HTTRANSPARENT** en réponse à un message **WM \_ NCHITTEST** , les messages de la souris sont dirigés vers le parent et les messages **WM \_ Touch** sont directement dirigés vers la fenêtre.
 
@@ -103,8 +103,8 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                  |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 
@@ -119,7 +119,7 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 [Guide de programmation des manipulations et de l’inertie](manipulation-and-inertia.md)
 </dt> <dt>
 
-[Guide de programmation des entrées tactiles Windows](guide-multi-touch-input.md)
+[Windows Guide de programmation de l’entrée tactile](guide-multi-touch-input.md)
 </dt> </dl>
 
  

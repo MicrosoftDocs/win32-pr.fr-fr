@@ -4,12 +4,12 @@ description: Fonction de rappel (implémentée par votre application), qui est a
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 01d65f6907c60d6c68b612308b9105d18bbe037f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f86bef2d2183562b322cdc0b01ffb64d25b23bb64dd8967e09e2dd761f7654b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787099"
 ---
 # <a name="pfn_dxcore_notification_callback-callback"></a>Rappel de PFN_DXCORE_NOTIFICATION_CALLBACK
 

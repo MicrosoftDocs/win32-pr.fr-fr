@@ -6,12 +6,12 @@ keywords:
 - COM présentation technique com
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be5dc95ffae5166d86cd8110cab1a6b90e6ffa5c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 851a2147c1bbe31dd8c212f7f23089c522cf7998bc2d336e95120277fba84275
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854759"
 ---
 # <a name="com-technical-overview"></a>Vue d’ensemble technique COM
 
@@ -24,7 +24,7 @@ Cette rubrique fournit une vue d’ensemble du modèle COM (Component Object Mod
 -   [Modèle client/serveur](#the-clientserver-model)
 -   [Gestionnaire de contrôle des services](#service-control-manager)
 -   [Réutilisabilité](#reusability)
--   [Objets de stockage et de flux](#storage-and-stream-objects)
+-   [objets Stockage et Stream](#storage-and-stream-objects)
 -   [Transfert de données](#data-transfer)
 -   [Communication à distance](#remoting)
 -   [Sécurité](#security)
@@ -32,7 +32,7 @@ Cette rubrique fournit une vue d’ensemble du modèle COM (Component Object Mod
 
 ## <a name="introduction-to-com"></a>Introduction à COM
 
-Le modèle COM (Component Object Model) Microsoft définit une norme d’interopérabilité binaire pour créer des bibliothèques logicielles réutilisables qui interagissent au moment de l’exécution. Vous pouvez utiliser des bibliothèques COM sans avoir besoin de les compiler dans votre application. COM est la base d’un certain nombre de produits et de technologies Microsoft, tels que Windows Media Player et Windows Server.
+Le modèle COM (Component Object Model) Microsoft définit une norme d’interopérabilité binaire pour créer des bibliothèques logicielles réutilisables qui interagissent au moment de l’exécution. Vous pouvez utiliser des bibliothèques COM sans avoir besoin de les compiler dans votre application. COM est la base d’un certain nombre de produits et technologies Microsoft, tels que Lecteur Windows Media et Windows Server.
 
 COM définit une norme binaire qui s’applique à de nombreux systèmes d’exploitation et plates-formes matérielles. Pour l’informatique en réseau, COM définit un protocole et un format de câble standard pour l’interaction entre les objets qui s’exécutent sur différentes plateformes matérielles. COM est indépendant du langage d’implémentation, ce qui signifie que vous pouvez créer des bibliothèques COM à l’aide de différents langages de programmation, tels que C++ et ceux du .NET Framework.
 
@@ -75,9 +75,9 @@ Vous pouvez utiliser n’importe quel langage de programmation qui prend en char
 
 Lorsque vous implémentez une interface, votre classe doit fournir une implémentation pour chaque fonction dans l’interface. Si la classe n’a pas de travail à effectuer dans une fonction d’interface, l’implémentation peut être une instruction return unique.
 
-Une classe COM est identifiée à l’aide d’un ID de classe 128 bits unique (CLSID) qui associe une classe à un déploiement particulier dans le système de fichiers, qui pour Windows est une DLL ou un EXE. Un CLSID est un GUID, ce qui signifie qu’aucune autre classe n’a le même CLSID. L’utilisation d’identificateurs de classe uniques empêche les collisions de noms entre les classes. Par exemple, deux fournisseurs différents peuvent écrire une classe nommée CStack, mais les deux classes ont un CLSID unique, de sorte que toute possibilité de collision est évitée.
+une classe COM est identifiée à l’aide d’un ID de classe 128 bits unique (CLSID) qui associe une classe à un déploiement particulier dans le système de fichiers, qui pour Windows est une DLL ou un EXE. Un CLSID est un GUID, ce qui signifie qu’aucune autre classe n’a le même CLSID. L’utilisation d’identificateurs de classe uniques empêche les collisions de noms entre les classes. Par exemple, deux fournisseurs différents peuvent écrire une classe nommée CStack, mais les deux classes ont un CLSID unique, de sorte que toute possibilité de collision est évitée.
 
-Vous obtenez un nouveau CLSID à l’aide de la fonction [**CoCreateGuid**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateguid) ou à l’aide d’un outil de création com, tel que Visual Studio, qui appelle cette fonction en interne.
+vous obtenez un nouveau CLSID à l’aide de la fonction [**CoCreateGuid**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateguid) ou à l’aide d’un outil de création COM, tel que Visual Studio, qui appelle cette fonction en interne.
 
 ## <a name="the-iunknown-interface"></a>Interface IUnknown
 
@@ -89,7 +89,7 @@ La durée de vie d’une instance d’objet COM est contrôlée par son *décomp
 
 ## <a name="the-clientserver-model"></a>Modèle client/serveur
 
-Une classe COM implémente un certain nombre d’interfaces COM. L’implémentation se compose de fichiers binaires qui s’exécutent lorsqu’un appelant interagit avec une instance de la classe COM. COM permet l’utilisation d’une classe dans différentes applications, y compris les applications écrites sans connaissance d’une classe particulière. Sur une plate-forme Windows, les classes existent dans une bibliothèque de liens dynamiques (DLL) ou dans une autre application (EXE).
+Une classe COM implémente un certain nombre d’interfaces COM. L’implémentation se compose de fichiers binaires qui s’exécutent lorsqu’un appelant interagit avec une instance de la classe COM. COM permet l’utilisation d’une classe dans différentes applications, y compris les applications écrites sans connaissance d’une classe particulière. sur une plateforme Windows, les classes existent dans une bibliothèque de liens dynamiques (DLL) ou dans une autre application (EXE).
 
 Sur son système hôte, COM gère une base de données d’inscription de tous les CLSID pour les objets COM installés sur le système. La base de données d’inscription est un mappage entre chaque CLSID et l’emplacement de la DLL ou de l’EXE qui héberge la classe correspondante. COM interroge cette base de données chaque fois qu’un appelant souhaite créer une instance d’une classe COM. L’appelant doit connaître uniquement le CLSID pour demander une nouvelle instance de la classe.
 
@@ -108,7 +108,7 @@ Un serveur COM fournit une implémentation COM au système. Un serveur associe u
 
 Pour permettre la création d’un objet COM, un serveur COM doit fournir une implémentation de l’interface [**IClassFactory**](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) . Les clients peuvent appeler la méthode [**CreateInstance**](/windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance) pour demander une nouvelle instance d’un objet com, mais ces demandes sont généralement encapsulées dans la fonction [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) .
 
-Vous pouvez déployer un serveur COM en tant que bibliothèque partagée qui est chargée dans le processus du client au moment de l’exécution (DLL sur les plateformes Windows) ou en tant que module exécutable (EXE sur les plateformes Windows). Pour plus d’informations, consultez [inscription d’applications com](registering-com-applications.md).
+vous pouvez déployer un serveur COM en tant que bibliothèque partagée qui est chargée dans le processus du client au moment de l’exécution (DLL sur Windows plateformes) ou en tant que module exécutable (EXE sur les plateformes Windows). Pour plus d’informations, consultez [inscription d’applications com](registering-com-applications.md).
 
 ## <a name="service-control-manager"></a>Gestionnaire de contrôle des services
 
@@ -139,23 +139,23 @@ Dans l’agrégation, l’objet externe expose les interfaces de l’objet inter
 
 Pour plus d’informations, consultez [réutilisation des objets](reusing-objects.md).
 
-## <a name="storage-and-stream-objects"></a>Objets de stockage et de flux
+## <a name="storage-and-stream-objects"></a>objets Stockage et Stream
 
 Les objets COM enregistrent l’État dans un fichier à l’aide du *stockage structuré*, qui est une forme de stockage persistant qui permet la navigation dans le contenu d’un fichier à l’aide de la sémantique du système de fichiers. Le traitement du contenu d’un fichier de cette manière active des fonctionnalités telles que l’accès incrémentiel, les transactions et le partage entre les processus.
 
-La spécification de stockage persistant COM fournit deux types d’éléments de stockage : les objets de stockage et les objets de flux. Ces objets sont implémentés par la bibliothèque COM, et les applications utilisateur implémentent rarement ces éléments de stockage. Les objets de stockage implémentent l’interface [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) , et les objets de flux implémentent l’interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) .
+La spécification de stockage persistant COM fournit deux types d’éléments de stockage : les objets de stockage et les objets de flux. Ces objets sont implémentés par la bibliothèque COM, et les applications utilisateur implémentent rarement ces éléments de stockage. les objets Stockage implémentent l’interface [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) , et les objets de flux implémentent l’interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) .
 
 Un objet de flux contient des données et est conceptuellement similaire à un fichier unique dans un système de fichiers. Chaque flux dispose de droits d’accès et d’un seul pointeur de recherche. À l’aide de l’interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) , vous pouvez lire, écrire, Rechercher et exécuter d’autres opérations sur les données sous-jacentes du flux. Un flux est nommé à l’aide d’une chaîne de texte. Il peut contenir n’importe quelle structure interne, car il s’agit d’un flux plat d’octets. En outre, les fonctions de l’interface **IStream** sont similaires aux fonctions standard basées sur les handles de fichiers, telles que celles de la bibliothèque Runtime C ANSI.
 
 Un objet de stockage est conceptuellement similaire à un répertoire dans un système de fichiers. Chaque stockage peut contenir un nombre quelconque d’objets de sous-stockage et un nombre quelconque de flux. Chaque stockage dispose de ses propres droits d’accès. À l’aide de l’interface [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) , vous pouvez effectuer des opérations telles que l’énumération, le déplacement, la copie, le changement de nom, la création et la suppression d’éléments. Un objet de stockage ne stocke pas les données définies par l’application, mais stocke implicitement les noms des éléments (stockages et flux) qu’il contient.
 
-Les objets de stockage et de flux sont partageables entre les processus lorsqu’ils sont implémentés conformément à la spécification COM sur une plateforme hôte. Cela permet aux objets qui exécutent in-process ou out-of-process d’avoir un accès incrémentiel équivalent à leur stockage de fichiers. Étant donné que COM est chargé séparément dans chaque processus, il utilise des mécanismes de mémoire partagée pris en charge par le système d’exploitation pour communiquer l’état des éléments ouverts et leurs modes d’accès entre les processus.
+les objets Stockage et stream sont partageables entre les processus lorsqu’ils sont implémentés conformément à la spécification COM sur une plateforme hôte. Cela permet aux objets qui exécutent in-process ou out-of-process d’avoir un accès incrémentiel équivalent à leur stockage de fichiers. Étant donné que COM est chargé séparément dans chaque processus, il utilise des mécanismes de mémoire partagée pris en charge par le système d’exploitation pour communiquer l’état des éléments ouverts et leurs modes d’accès entre les processus.
 
-Chaque objet de stockage et de flux d’un fichier structuré a un nom pour l’identifier. Le nom est une chaîne qui suit une convention particulière. Pour plus d’informations, consultez [conventions d’affectation de noms](/windows/desktop/Stg/storage-object-naming-conventions)pour les objets de stockage. Le nom est passé aux fonctions [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) pour spécifier l’élément dans le stockage sur lequel opérer. Les noms des objets de stockage racine sont les mêmes que les noms de fichiers dans le système de fichiers sous-jacent, et ces noms doivent respecter les conventions et restrictions du système de fichiers. Chaînes passées aux fonctions liées au stockage, dont les fichiers de noms sont transmis au système de fichiers sans interprétation ou modification.
+Chaque objet de stockage et de flux d’un fichier structuré a un nom pour l’identifier. Le nom est une chaîne qui suit une convention particulière. pour plus d’informations, consultez [conventions d’affectation des noms d’objets Stockage](/windows/desktop/Stg/storage-object-naming-conventions). Le nom est passé aux fonctions [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) pour spécifier l’élément dans le stockage sur lequel opérer. Les noms des objets de stockage racine sont les mêmes que les noms de fichiers dans le système de fichiers sous-jacent, et ces noms doivent respecter les conventions et restrictions du système de fichiers. Chaînes passées aux fonctions liées au stockage, dont les fichiers de noms sont transmis au système de fichiers sans interprétation ou modification.
 
 Les noms des éléments contenus dans les objets de stockage sont gérés par l’implémentation de l’objet de stockage en question. Toutes les implémentations des objets de stockage doivent prendre en charge les noms d’éléments de 32 caractères, et certaines implémentations peuvent prendre en charge des noms plus longs. Les noms sont stockés avec la casse conservée, mais ils sont comparés comme ne respectant pas la casse. Les applications qui définissent les noms des éléments de stockage doivent choisir des noms qui fonctionnent dans les deux cas.
 
-Vous accédez à chaque élément d’un fichier de stockage structuré en utilisant des fonctions et des interfaces implémentées par COM. Cela signifie que d’autres applications peuvent parcourir le fichier en naviguant avec les fonctions d’interface [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) qui fournissent des services de type annuaire. En outre, d’autres applications peuvent utiliser les données du fichier, sans avoir à exécuter l’application qui a écrit le fichier. Lorsqu’une application COM accède aux fichiers de stockage structurés d’une autre application, les droits d’accès Windows standard s’appliquent et l’application doit disposer de privilèges suffisants.
+Vous accédez à chaque élément d’un fichier de stockage structuré en utilisant des fonctions et des interfaces implémentées par COM. Cela signifie que d’autres applications peuvent parcourir le fichier en naviguant avec les fonctions d’interface [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) qui fournissent des services de type annuaire. En outre, d’autres applications peuvent utiliser les données du fichier, sans avoir à exécuter l’application qui a écrit le fichier. lorsqu’une application COM accède aux fichiers de stockage structurés d’une autre application, les droits d’accès Windows standard s’appliquent et l’application doit disposer de privilèges suffisants.
 
 Un objet COM peut lire et écrire lui-même dans un stockage persistant. Un client interroge l’une des interfaces relatives à la persistance sur l’objet COM, en fonction du contexte de l’opération. Les objets COM peuvent implémenter n’importe quelle combinaison des interfaces suivantes :
 
@@ -165,7 +165,7 @@ Un objet COM peut lire et écrire lui-même dans un stockage persistant. Un clie
 
 ## <a name="data-transfer"></a>Transfert de données
 
-Le stockage structuré fournit la base pour l’échange de données entre les processus et les objets COM, qui est nommé *transfert de données uniforme*. Avant l’implémentation de COM dans OLE 2, le transfert de données sur Windows était spécifié par les *protocoles de transfert*, tels que le presse-papiers et les protocoles de glisser-déplacer. Chaque protocole de transfert avait son propre ensemble de fonctions qui délimitent le protocole à la requête, et du code spécifique était nécessaire pour gérer chaque protocole et procédure d’échange. Le transfert de données uniforme représente tous les transferts de données à l’aide de l’interface [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) , qui sépare les opérations courantes d’échange de données du protocole de transfert.
+Le stockage structuré fournit la base pour l’échange de données entre les processus et les objets COM, qui est nommé *transfert de données uniforme*. avant l’implémentation de COM dans OLE 2, le transfert de données sur Windows a été spécifié par des *protocoles de transfert*, tels que le presse-papiers et les protocoles de glisser-déplacer. Chaque protocole de transfert avait son propre ensemble de fonctions qui délimitent le protocole à la requête, et du code spécifique était nécessaire pour gérer chaque protocole et procédure d’échange. Le transfert de données uniforme représente tous les transferts de données à l’aide de l’interface [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) , qui sépare les opérations courantes d’échange de données du protocole de transfert.
 
 L’interface [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) encapsule les opérations d’extraction et de définition standard sur les données, les requêtes et les énumérations, et les notifications qui détectent le moment où les données sont modifiées dans un objet. Le transfert de données uniforme permet une description détaillée des formats de données, ainsi que l’utilisation de différents supports de stockage pour le transfert de données.
 

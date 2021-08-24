@@ -1,19 +1,19 @@
 ---
-description: 'Quand une application exécute une opération IPropertyStorage :: WriteMultiple sur une propriété WIA (Windows Image Acquisition) accessible en écriture, le pilote WIA effectue une validation sur la nouvelle valeur de propriété.'
+description: 'quand une application exécute une opération IPropertyStorage :: WriteMultiple sur une propriété wia (Image Acquisition d’images) accessible en Windows écriture, le pilote wia effectue une validation sur la nouvelle valeur de propriété.'
 ms.assetid: 61ab2b8b-4c0a-40f4-87f0-2dd3ceea70ab
 title: Validation de la propriété WIA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a60d9e64122e19249c19bc47564631162d783920
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e1aca5879dbcb789b7e94a780c8fc99e53b703f6aea74498ae455e8e2ec6b98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813049"
 ---
 # <a name="wia-property-validation"></a>Validation de la propriété WIA
 
-Quand une application exécute une opération [IPropertyStorage :: WriteMultiple](/windows/win32/api/propidlbase/nf-propidlbase-ipropertystorage-writemultiple) sur une propriété WIA (Windows Image Acquisition) accessible en écriture, le pilote WIA effectue une validation sur la nouvelle valeur de propriété. L’écriture d’une propriété peut avoir des effets secondaires qui modifient d’autres valeurs de propriété. Il revient à l’application de lire toutes les valeurs de propriété après une opération d’écriture pour déterminer que toutes les propriétés sont définies sur les valeurs souhaitées par l’application.
+quand une application exécute une opération [IPropertyStorage :: WriteMultiple](/windows/win32/api/propidlbase/nf-propidlbase-ipropertystorage-writemultiple) sur une propriété wia (Image Acquisition d’images) accessible en Windows écriture, le pilote wia effectue une validation sur la nouvelle valeur de propriété. L’écriture d’une propriété peut avoir des effets secondaires qui modifient d’autres valeurs de propriété. Il revient à l’application de lire toutes les valeurs de propriété après une opération d’écriture pour déterminer que toutes les propriétés sont définies sur les valeurs souhaitées par l’application.
 
 Plusieurs propriétés peuvent être écrites simultanément à l’aide de l’opération [IPropertyStorage :: WriteMultiple](/windows/win32/api/propidlbase/nf-propidlbase-ipropertystorage-writemultiple) . Il peut y avoir des cas où certaines assignations de propriété sont en conflit. Dans ce cas, la priorité utilisée pour résoudre les conflits est la suivante :
 

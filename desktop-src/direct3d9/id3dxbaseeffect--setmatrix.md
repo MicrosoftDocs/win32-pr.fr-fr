@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 7af7dc0daa3dcd29e7b15c4fe435b9626ea41746
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 77aad0573aed5e7dcb37ea82052b535badf8ee77d438393ad8d45e4963b79609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749009"
 ---
 # <a name="id3dxbaseeffectsetmatrix-method"></a>ID3DXBaseEffect :: SetMatrix, méthode
 
@@ -59,13 +59,13 @@ Pointeur vers une matrice nontransposed. Consultez [**D3DXMATRIX**](d3dxmatrix.m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Une matrice non transposée contient des données de lignes principales. En d’autres termes, chaque vecteur est contenu dans une ligne.
 

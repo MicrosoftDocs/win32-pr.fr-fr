@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0555733f53b4870a43dbcbf36c69061db19490a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6259e6ce00b0a2f93e0b71d6b44d1c6ed4aa65eaadca21ed0a78f1d16d98a42b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793279"
 ---
 # <a name="cbasefilterrun-method"></a>CBaseFilter. Run, méthode
 
@@ -53,7 +53,7 @@ Temps de référence correspondant au temps de flux 0.
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le filtre est arrêté, cette méthode suspend le filtre en appelant la méthode [**CBaseFilter ::P ause**](cbasefilter-pause.md) . Il appelle ensuite la méthode [**CBasePin :: Run**](cbasepin-run.md) sur chacune des broches connectées du filtre. Enfin, il définit la variable de membre d' [**\_ État CBaseFilter :: m**](cbasefilter-m-state.md) sur State \_ Running.
 
@@ -65,7 +65,7 @@ Le temps de flux est calculé comme le temps de référence actuel moins *tStart
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

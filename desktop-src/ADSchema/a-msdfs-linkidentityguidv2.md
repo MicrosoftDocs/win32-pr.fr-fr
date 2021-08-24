@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf747ceb742b6dcc84466e740e2b9268fd3f0b0d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9a59a561daec1a636299ad175ad8a03a68d67c02dde980f9c22941f41e98dc8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705099"
 ---
 # <a name="ms-dfs-link-identity-guid-v2-attribute"></a>attribut ms-DFS-Link-Identity-GUID-v2
 
@@ -42,7 +42,7 @@ ms.locfileid: "106516511"
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

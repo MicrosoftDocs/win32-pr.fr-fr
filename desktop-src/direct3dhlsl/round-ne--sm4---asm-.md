@@ -4,12 +4,12 @@ description: Arrondi à virgule flottante à l’entier float. | round_ne (SM4-A
 ms.assetid: 2D1A0786-F7DB-4D69-9F56-82ECD1EE7ABA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f0efb2ff10b75e50ec05847dd25aa8448c760c7
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 7fe7088d9a6b577366fdaf169e21075188597ad4b761bb6fd3c555c809e91c41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853659"
 ---
 # <a name="round_ne-sm4---asm"></a>arrondir ne \_ (SM4-ASM)
 

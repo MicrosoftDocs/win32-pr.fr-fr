@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 21e603e15f598c6d493e179a147391cb941a6c7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 99a1f3c60dcafdda219dc8a05f5523d7c2386249ff500bbb9abb463294ca7239
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767149"
 ---
 # <a name="irenderenginegetgroupoutputpin-method"></a>IRenderEngine :: GetGroupOutputPin, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -69,7 +69,7 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 | Code de retour                                                                                                  | Description                                                                |
 |--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>                      | Le groupe n’a pas de broche de sortie.<br/>                              |
-| <dl> <dt>**\_OK**</dt> </dl>                         | Opération réussie.<br/>                                                        |
+| <dl> <dt>**\_OK**</dt> </dl>                         | Réussite.<br/>                                                        |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>                 | Argument non valide.<br/>                                               |
 | <dl> <dt>**E \_ doit \_ initialiser le \_ convertisseur**</dt> </dl>       | Le moteur de rendu n’a pas pu s’initialiser.<br/>                             |
 | <dl> <dt>**\_pointeur E**</dt> </dl>                    | Pointeur non valide.<br/>                                                |
@@ -80,11 +80,11 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, appelez [**IRenderEngine :: ConnectFrontEnd**](irenderengine-connectfrontend.md) pour créer le composant frontal du graphique. Chaque groupe représente un flux de données multimédia unique et le serveur frontal a une broche de sortie correspondante.
 
-Vous pouvez utiliser cette méthode pour créer la partie de rendu d’un graphique d’écriture de fichiers. Connectez les broches de sortie aux filtres de multiplexeur et de writer de fichier. Pour plus d’informations, consultez [rendu d’un projet](rendering-a-project.md).
+Vous pouvez utiliser cette méthode pour créer la partie de rendu d’un graphique d’écriture de fichiers. Connecter les broches de sortie aux filtres de multiplexeur et aux filtres du writer de fichier. Pour plus d’informations, consultez [rendu d’un Project](rendering-a-project.md).
 
 Pour la version préliminaire, vous n’avez pas besoin d’appeler cette méthode. Appelez simplement **ConnectFrontEnd** suivi de [**IRenderEngine :: RenderOutputPins**](irenderengine-renderoutputpins.md).
 
@@ -96,7 +96,7 @@ Si la méthode retourne la valeur \_ OK, l’interface **IPIN** qu’elle retour
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 03c029d7689743150235d20b0658cd154ef64a4c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14681c381f8c8b9abbc5b28ec763b959854e2303b9a0b87af762238f4e5a8d27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104392967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752799"
 ---
 # <a name="addprinterdriver-method-of-the-win32_printerdriver-class"></a>Méthode AddPrinterDriver de la \_ classe Win32 PrinterDriver
 
@@ -58,7 +58,7 @@ Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autr
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ Le pilote d’imprimante est inconnu.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Lorsque vous utilisez la méthode **AddPrinterDriver** , vous devez utiliser **SeLoadDriverPrivilege** pour charger ou décharger un pilote de périphérique.

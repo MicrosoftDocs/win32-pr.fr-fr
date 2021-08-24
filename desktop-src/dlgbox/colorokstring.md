@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86229c71f1234efb4b561ac73bc8aa20f6258cdc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd55db4bb935880438290a83cd99c420ebcabf23ca8cb1bb238ea15f39e06247
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726279"
 ---
 # <a name="colorokstring-message"></a>Message COLOROKSTRING
 
@@ -58,7 +58,7 @@ Si la procédure de raccordement retourne la valeur zéro, la boîte de dialogue
 
 Si la procédure de raccordement retourne une valeur différente de zéro, la boîte de dialogue **couleur** rejette la couleur sélectionnée et reste ouverte.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La procédure de hook doit spécifier la constante **COLOROKSTRING** dans un appel à la fonction [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) pour obtenir l’identificateur du message envoyé par la boîte de dialogue.
 

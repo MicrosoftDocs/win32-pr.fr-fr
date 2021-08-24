@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: 15201bcbde2792bbd31cbf4dad7b87d7ddac5053
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7694aa0dcfcc256358993f29c9ed448c1648b35768e5844a959726a6737c2371
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106544401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753079"
 ---
 # <a name="d3dx10reflectshader-function"></a>D3DX10ReflectShader fonction)
 
@@ -74,7 +74,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Retourne l’un des [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md)suivants.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici un exemple de création d’un objet Shader-Reflection. L’exemple suppose que vous démarrez avec un nuanceur compilé (représenté sous la forme
 

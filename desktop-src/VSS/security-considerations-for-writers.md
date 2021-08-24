@@ -4,12 +4,12 @@ ms.assetid: 59bb7a86-e874-45ce-abd6-cafd18802c4d
 title: Considérations relatives à la sécurité pour les Writers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea6f88243adbd62d928170a86ed57b91cbebe134
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 601b981613636a571c204acdfac78ada778bb19b16a3d2677c4e56ff3ee099cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767679"
 ---
 # <a name="security-considerations-for-writers"></a>Considérations relatives à la sécurité pour les Writers
 
@@ -39,7 +39,7 @@ Les Writers peuvent explicitement effectuer les opérations suivantes :
 
 -   Autorisez l’accès de tous les processus à appeler le processus d’écriture.
 
-    Cette option peut être adaptée à de nombreux enregistreurs et est utilisée par d’autres serveurs COM. par exemple, tous les services Windows basés sur SVCHOST utilisent déjà cette option, comme tous les services COM+ par défaut.
+    cette option peut être adaptée à de nombreux enregistreurs et est utilisée par d’autres serveurs COM. par exemple, tous les services Windows basés sur SVCHOST utilisent déjà cette option, comme tous les services COM+ par défaut.
 
     Autoriser tous les processus à effectuer des appels COM entrants n’est pas nécessairement une faille de sécurité. Un enregistreur agissant comme un serveur COM, comme tous les autres serveurs COM, conserve toujours la possibilité d’autoriser ses clients sur chaque méthode COM implémentée dans son processus.
 

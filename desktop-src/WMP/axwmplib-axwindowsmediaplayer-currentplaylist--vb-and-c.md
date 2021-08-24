@@ -3,9 +3,9 @@ title: AxWindowsMediaPlayer. currentPlaylist, propriété
 description: La propriété currentPlaylist obtient ou définit l’interface IWMPPlaylist actuelle qui fournit un moyen simple d’organiser et de manipuler des éléments multimédias dans une liste.
 ms.assetid: d5a9f126-a628-499c-a012-8a47c6c987ef
 keywords:
-- propriété currentPlaylist lecteur Windows Media
-- propriété currentPlaylist lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété currentPlaylist
+- Lecteur Windows Media de la propriété currentPlaylist
+- Lecteur Windows Media de la propriété currentPlaylist, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété currentPlaylist
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a0f5b91a2e65b81fd1f13da0bad5f77c5ea1415
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f976084773a333e40c0a278878e9a35ed913e5911ec732c0dccfe6525e5f45a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765260"
 ---
 # <a name="axwindowsmediaplayercurrentplaylist-property"></a>AxWindowsMediaPlayer. currentPlaylist, propriété
 
@@ -48,7 +48,7 @@ Public Property currentPlaylist As IWMPPlaylist
 
 Interface WMPLib. IWMPPlaylist qui fournit l’accès à la sélection actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la propriété IWMPSettings. AutoStart (également accessible via AxWindowsMediaPlayer. Settings.**AutoStart**) a la valeur true, la lecture commence automatiquement chaque fois que vous définissez **currentPlaylist**.
 
@@ -103,13 +103,13 @@ currentPlaylistLabel.Text = (&quot;Found first playlist. Name = &quot; + player.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**AxWindowsMediaPlayer. newPlaylist (VB et C#)**](axwmplib-axwindowsmediaplayer-newplaylist.md)
 </dt> <dt>
 
-[**AxWindowsMediaPlayer. Settings (VB et C#)**](axwmplib-axwindowsmediaplayer-settings--vb-and-c.md)
+[**AxWindowsMediaPlayer. settings (VB et C#)**](axwmplib-axwindowsmediaplayer-settings--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPPlaylist (VB et C#)**](iwmpplaylist--vb-and-c.md)
@@ -121,7 +121,7 @@ currentPlaylistLabel.Text = (&quot;Found first playlist. Name = &quot; + player.
 [**IWMPPlaylistCollection. newPlaylist (VB et C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-newplaylist--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings. AutoStart (VB et C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
+[**IWMPSettings. autostart (VB et C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> </dl>
 
  

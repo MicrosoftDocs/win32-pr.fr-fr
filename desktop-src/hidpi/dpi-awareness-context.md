@@ -4,12 +4,12 @@ description: Identifie le contexte de sensibilisation pour une fenêtre.
 ms.assetid: BFD54A9F-642B-4A3A-BBB9-F3A80779251D
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: 1663fad828a2fb29aa0d65ef58ae79616f64edcd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 25e270f59af32b33fdb5ad3f511b693b3eebad71407d48b80a72aff5996edf14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727179"
 ---
 # <a name="dpi_awareness_context-handle"></a>Handle de contexte de \_ détection PPP \_
 
@@ -37,7 +37,7 @@ Identifie le contexte de sensibilisation pour une fenêtre.
 </dl>
 
 **\_Contexte de sensibilisation dpi \_ \_ par \_ analyse \_ \_ v2**<dl> Également appelé **par moniteur v2**. Progression sur le mode de prise en charge DPI par moniteur d’origine, qui permet aux applications d’accéder aux nouveaux comportements de mise à l’échelle en fonction de la DPI sur une base de fenêtre de niveau supérieur.  
-Par moniteur V2 a été mis à disposition dans le créateur mise à jour de Windows 10, et n’est pas disponible dans les versions antérieures du système d’exploitation.  
+par moniteur v2 a été mis à disposition dans la mise à jour des créateurs de Windows 10 et n’est pas disponible dans les versions antérieures du système d’exploitation.  
 Les comportements supplémentaires introduits sont les suivants :
 
 -   **Notifications de modification dpi de la fenêtre enfant** : dans les contextes de l’analyse, la totalité de l’arborescence de la fenêtre est notifiée des modifications PPP qui se produisent.
@@ -63,7 +63,7 @@ DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED a été introduite dans la mise à jour 
 
 | Condition requise | Valeur |
 |----|-----------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1607 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1607 \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge <br/>  |
 | En-tête<br/>                   | <dl> <dt>WINDEF. h</dt> </dl> |
 

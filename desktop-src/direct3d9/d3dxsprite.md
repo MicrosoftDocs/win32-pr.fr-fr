@@ -4,12 +4,12 @@ ms.assetid: 195ee969-30e8-4828-a0be-f0d2a82e247c
 title: D3DXSPRITE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23301f003eee54a7efbb933237576edd2946fcac
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 59e2247f414636039906277f882fb9dfc95f6b6b33aa29de2ac51a722c045901
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749759"
 ---
 # <a name="d3dxsprite"></a>D3DXSPRITE
 

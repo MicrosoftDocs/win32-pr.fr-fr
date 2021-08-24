@@ -4,12 +4,12 @@ description: Découvrez comment développer une application qui utilise un fichi
 ms.assetid: BCDB4B13-3644-44E4-9A70-04D8E90500EE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cf60364138a80317e6db8ac4c5d028c36ff540f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 4780e930d057c325038c94dc86fc375c70bdb1cc8dca34ac6169436bc0f0e323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106511676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855319"
 ---
 # <a name="how-to-develop-an-oem-app-that-uses-a-custom-file"></a>Comment développer une application OEM qui utilise un fichier personnalisé
 
@@ -19,7 +19,7 @@ Découvrez comment développer une application qui utilise un fichier personnali
 
 Pour les applications que vous créez pour le déploiement OEM, vous pouvez utiliser un fichier personnalisé pour transmettre les informations du fabricant OEM aux applications. Pour transmettre des informations OEM à une application, vous créez un fichier. Data personnalisé dans le dossier microsoft.sysTEM. Package. Metadata. Ce nom de fichier est spécial pour le système d’exploitation et est automatiquement transféré au cours des mises à jour du système d’exploitation. Les fabricants d’ordinateurs OEM peuvent utiliser ce fichier pour transmettre des identificateurs personnalisés, afin que les applications sachent quand les OEM les ont déployées. Vous ne pouvez avoir qu’un seul fichier. Data personnalisé par application. Les applications doivent être en mesure de rechercher et de lire ce fichier correctement. Les développeurs traitent le fichier comme des données non fiables.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -40,11 +40,11 @@ Vous pouvez spécifier n’importe quel type de fichier avec n’importe quel no
 > [!Note]  
 > Le fichier de données personnalisé ne peut pas être modifié par l’application. Il s’agit d’une ressource en lecture seule.
 
- 
+ 
 
 ### <a name="step-2-access-the-custom-data-file-for-an-app"></a>Étape 2 : accéder au fichier de données personnalisé pour une application
 
-Vous pouvez accéder au fichier. Data personnalisé d’une application à partir de votre code à l’aide des API Windows pour obtenir des informations sur le package actuel. Par exemple :
+vous pouvez accéder au fichier. data personnalisé d’une application à partir de votre code à l’aide d’api Windows pour obtenir des informations sur le package actuel. Par exemple :
 
 ``` syntax
 Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(
@@ -62,6 +62,6 @@ Pour plus d’informations sur l’accès au fichier. Data personnalisé via [**
 [Démarrage rapide : interroger les informations du manifeste du package d’application](how-to-query-package-identity-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

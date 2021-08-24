@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: 3d65e5ba5525b977ebae27da9964579614a1d653
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8855378544bcc2ea7357af220b5d80d32edde74a50c304e973c9821aa8e9a41c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792329"
 ---
 # <a name="ikspin-interface"></a>Interface IKsPin
 
-L' `IKsPin` interface fournit une méthode pour récupérer les supports pris en charge par un code confidentiel sur un filtre en mode noyau. `IKsPin` a des méthodes supplémentaires autres que celles indiquées ici, mais elles ne sont pas prises en charge pour DirectShow.
+L' `IKsPin` interface fournit une méthode pour récupérer les supports pris en charge par un code confidentiel sur un filtre en mode noyau. `IKsPin`a des méthodes supplémentaires en plus de celles présentées ici, mais elles ne sont pas prises en charge pour DirectShow.
 
 ## <a name="members"></a>Membres
 
@@ -45,7 +45,7 @@ L’interface **IKsPin** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez inclure KS. h avant ksproxy. h.
 

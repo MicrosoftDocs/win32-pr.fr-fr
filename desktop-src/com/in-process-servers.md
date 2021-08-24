@@ -4,12 +4,12 @@ description: Serveurs In-Process
 ms.assetid: cc0c4350-fa75-4321-834f-711158776cb2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4886932b9669aa2d3cdd49979324f9ccc6e03d44
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eccc4c65db19e4ed567a2fe6105fa4d81e9c52cc9165556d9f388d8af181eee3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854529"
 ---
 # <a name="in-process-servers"></a>Serveurs In-Process
 
@@ -29,9 +29,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Documents composés](compound-documents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

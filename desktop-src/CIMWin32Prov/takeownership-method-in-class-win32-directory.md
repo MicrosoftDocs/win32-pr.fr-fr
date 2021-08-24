@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 178f1bf523d939883a7fc18b5bdbd7142cc4f824
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 32644632e7abe15190837244116f04f647537f987d5d6f3286930d8e26d2e230
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751679"
 ---
 # <a name="takeownership-method-of-the-win32_directory-class"></a>Méthode TakeOwnerShip de la \_ classe Directory Win32
 
@@ -40,7 +40,7 @@ uint32 TakeOwnerShip();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’une des valeurs suivantes.
 
@@ -139,7 +139,7 @@ Un paramètre spécifié n’est pas valide.
 
 ## <a name="examples"></a>Exemples
 
-L’Visual Basic Code de script suivant appelle la méthode [**TakeOwnership**](takeownership-method-in-class-cim-directory.md) pour prendre possession du dossier C : \\ temp.
+l’Visual Basic code de Script suivant appelle la méthode [**TakeOwnerShip**](takeownership-method-in-class-cim-directory.md) pour prendre possession du dossier C : \\ temp.
 
 
 ```VB

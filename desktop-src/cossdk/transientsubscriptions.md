@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6421cff326f4c33f0c77ae47d00e17c79c971443
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5053a4fd488ed38a637b4296f94caf20887f3ed924ae6d11b8f6a242669eccad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853929"
 ---
 # <a name="transientsubscriptions-collection"></a>Collection TransientSubscriptions
 
@@ -48,7 +48,7 @@ Vous pouvez accéder à cette collection à partir des regroupements suivants :
 Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalogObject**](comadmincatalogobject.md) dans la collection :
 
 -   [Description](#description)
--   [Enabled](#enabled)
+-   [Activé](#enabled)
 -   [EventClassPartitionID](#eventclasspartitionid)
 -   [EventCLSID](#eventclsid)
 -   [FilterCriteria](#filtercriteria)
@@ -66,7 +66,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|-------------------------------------|
 | Description    | Description de l’abonnement. |
 | Accès         | Lecture/écriture                           |
@@ -82,12 +82,12 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|----------------------------------------------------------|
 | Description    | Indique si l’abonnement est actuellement activé. |
 | Accès         | Lecture/écriture                                                |
 | Type           | Bool                                                     |
-| Default        | Vrai                                                     |
+| Par défaut        | Vrai                                                     |
 | Système minimal | Windows 2000                                             |
 
 
@@ -98,7 +98,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Lors de l’abonnement à une classe d’événements, utilisé pour représenter le GUID de l’ID de partition contenant la classe d’événements. Quand vous vous abonnez à des classes d’événements, l’abonné a la possibilité de s’abonner à une classe d’événements dans la même partition ou dans une partition différente. |
 | Accès         | Lecture/écriture                                                                                                                                                                                                                                          |
@@ -114,7 +114,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|----------------------------------------------------------------------------------------------|
 | Description    | CLSID de la classe d’événements. Vous pouvez indiquer un EventCLSID ou un PublisherID, mais pas les deux. |
 | Accès         | WriteOnce                                                                                    |
@@ -130,7 +130,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
 | Description    | Chaîne qui indique les critères de filtre. Peut être un CLSID pour une classe [**PublisherFilter**](/windows/desktop/api/EventSys/nn-eventsys-ipublisherfilter) . |
 | Accès         | Lecture/écriture                                                                                                            |
@@ -142,11 +142,11 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
  
 
-### <a name="id"></a>id
+### <a name="id"></a>ID
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Identificateur de l’abonnement. Cette propriété est retournée lorsque la méthode de propriété de [**clé**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) est appelée sur un objet de cette collection. |
 | Accès         | WriteOnce                                                                                                                                                        |
@@ -162,7 +162,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|----------------------------------|
 | Description    | IID pour lequel l’interface est abonnée. |
 | Accès         | WriteOnce                        |
@@ -178,7 +178,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|----------------------------------------------|
 | Description    | Méthode sur l’interface à laquelle s’abonner. |
 | Accès         | Lecture/écriture                                    |
@@ -190,11 +190,11 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
  
 
-### <a name="name"></a>Nom
+### <a name="name"></a>Name
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom de l’abonnement. Les espaces supplémentaires au début et à la fin de la chaîne sont supprimés. Cette propriété est retournée lorsque la méthode de propriété [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
 | Accès         | Lecture/écriture                                                                                                                                                                                                                              |
@@ -210,7 +210,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|---------------------------------------------------------------------------------------------------------|
 | Description    | Indique si l’abonnement s’applique uniquement à un utilisateur donné, représenté par la propriété UserName. |
 | Accès         | Lecture/écriture                                                                                               |
@@ -226,7 +226,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|-------------------------------------------------------------------------------------|
 | Description    | ID du serveur de publication. Vous pouvez indiquer un EventCLSID ou un PublisherID, mais pas les deux. |
 | Accès         | WriteOnce                                                                           |
@@ -242,12 +242,12 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|------------------------------------------|
 | Description    | Pointeur vers l’interface de l’abonné. |
 | Accès         | Lecture/écriture                                |
 | Type           | Variante                                  |
-| Default        | N/A                                      |
+| Par défaut        | N/A                                      |
 | Système minimal | Windows 2000                             |
 
 
@@ -258,7 +258,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Lors de l’abonnement à une classe d’événements dans la même partition, utilisée pour représenter le GUID de l’ID de partition de l’abonné. Quand vous vous abonnez à des classes d’événements, l’abonné a la possibilité de s’abonner à une classe d’événements dans la même partition ou dans une partition différente. |
 | Accès         | WriteOnce                                                                                                                                                                                                                                                       |
@@ -274,7 +274,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |----------------|-------------------------------------------------------------------------|
 | Description    | Nom de l’utilisateur auquel s’applique l’abonnement lorsque PerUser a la valeur true. |
 | Accès         | Lecture/écriture                                                               |

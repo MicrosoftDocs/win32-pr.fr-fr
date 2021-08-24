@@ -4,16 +4,16 @@ ms.assetid: 4b8a917f-7a6c-4433-83f4-b83ef6d26115
 title: Jeux de propriétés (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcdc65efbc99eeed3a5f94ab33ce5ec982975852
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 63c26bef876e0bde559ac506963f86a485a302a9ce6faf6c2699c62dabac3f72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747949"
 ---
 # <a name="property-sets-directshow"></a>Jeux de propriétés (DirectShow)
 
-Microsoft DirectShow utilise des jeux de propriétés pour prendre en charge les services étendus offerts par le matériel et les pilotes et filtres associés. Les fournisseurs de matériel et de filtre peuvent définir de nouvelles fonctionnalités en tant que propriétés, les réorganiser dans les jeux de propriétés et publier la spécification pour ces jeux de propriétés. En tant que développeur d’applications, vous pouvez utiliser les méthodes de l’interface [**IKsPropertySet**](ikspropertyset.md) pour déterminer si un pilote ou un filtre prend en charge un ensemble de propriétés particulier, et récupérer ou définir ces propriétés.
+Microsoft DirectShow utilise des jeux de propriétés pour prendre en charge les services étendus proposés par le matériel et les pilotes et filtres associés. Les fournisseurs de matériel et de filtre peuvent définir de nouvelles fonctionnalités en tant que propriétés, les réorganiser dans les jeux de propriétés et publier la spécification pour ces jeux de propriétés. En tant que développeur d’applications, vous pouvez utiliser les méthodes de l’interface [**IKsPropertySet**](ikspropertyset.md) pour déterminer si un pilote ou un filtre prend en charge un ensemble de propriétés particulier, et récupérer ou définir ces propriétés.
 
 Toutes les méthodes exposées par **IKsPropertySet** requièrent un **GUID** qui identifie le jeu de propriétés (le paramètre *GuidPropSet* ) et une valeur **DWORD** qui identifie la propriété dans le jeu de propriétés (le paramètre *dwPropID* ). Le paramètre *dwPropID* est généralement un membre d’un type de données énuméré.
 

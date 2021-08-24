@@ -4,12 +4,12 @@ ms.assetid: 4ce30b40-2d5d-449b-9314-45eabad16cce
 title: Japon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4c22f880802c2242865633c4d23aaa0ae43598
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f058443498dba2d0ba2f796f2e687182d34d6255ddc6e88daa97d22b298512a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766979"
 ---
 # <a name="japan"></a>Japon
 
@@ -216,7 +216,7 @@ Les index de fréquence dans les tables du Japon conviennent pour une utilisatio
 
 ## <a name="revised-channel-assignments"></a>Attributions de canaux révisées
 
-Le tableau suivant répertorie les affectations de canaux de câble qui nécessitent Windows XP Media Center Edition 1,1 et versions ultérieures.
+le tableau suivant répertorie les affectations de canaux de câble qui nécessitent Windows XP Media Center Edition 1,1 et versions ultérieures.
 
 Les index de fréquence de cette table Japan conviennent pour une utilisation en tant que numéros de canaux.
 

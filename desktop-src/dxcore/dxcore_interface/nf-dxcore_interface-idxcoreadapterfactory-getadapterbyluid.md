@@ -4,12 +4,12 @@ description: Récupère l’objet d’adaptateur DXCore ([IDXCoreAdapter](./nn-d
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 30835948978e5c7f3f11f903322e4fa41f71d210
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d8f72aba23b9a1f57094b39e5afba3740f8749348c6a2da6a8753f72a7a0e6ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787050"
 ---
 # <a name="idxcoreadapterfactorygetadapterbyluid-method"></a>IDXCoreAdapterFactory :: GetAdapterByLuid, méthode
 
@@ -62,7 +62,7 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 |E_NOINTERFACE|Une valeur non valide a été fournie pour *riid*.|
 |E_POINTER|`nullptr` a été fourni pour *ppvAdapter*.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Plusieurs appels passant le même [LUID](/windows/win32/api/winnt/ns-winnt-luid) retournent des pointeurs d’interface identiques. Par conséquent, il est possible de comparer des pointeurs d’interface pour déterminer si plusieurs pointeurs font référence au même objet d’adaptateur.
 

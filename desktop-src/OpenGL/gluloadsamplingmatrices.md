@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 293b8bace0dff7d89bfcffa2af33738e0e59de7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e41b2f6b25e0cecf0d13d87760a941d5ea68baa1fdd85495c8a316e862c77aec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777529"
 ---
 # <a name="gluloadsamplingmatrices-function"></a>gluLoadSamplingMatrices fonction)
 
@@ -75,7 +75,7 @@ Une fenêtre d’affichage (à partir d’un appel [**glGetIntegerv**](glgetbool
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluLoadSamplingMatrices** utilise *modelMatrix*, *projMatrix* et *Viewport* pour recalculer les matrices d’échantillonnage et de Culling stockées dans *nobj*. La matrice d’échantillonnage détermine la précision avec laquelle une courbe ou surface NURBS doit être fractionnée pour satisfaire la tolérance d’échantillonnage (telle que déterminée par la \_ propriété tolérance d’échantillonnage Glu \_ ). La matrice de Culling est utilisée pour décider si une courbe ou une surface NURBS doit être éliminée avant le rendu (lorsque la \_ propriété Glu Culling est activée).
 

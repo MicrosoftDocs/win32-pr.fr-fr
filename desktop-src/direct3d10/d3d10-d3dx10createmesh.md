@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: cc744536336a4a102bafeaeae3ba87bbad58eb97
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a4f044d3337a2da05eb78b027492b870f450e4309c94faa8c72db935437511dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853479"
 ---
 # <a name="d3dx10createmesh-function"></a>D3DX10CreateMesh fonction)
 
@@ -119,7 +119,7 @@ Adresse d’un pointeur vers une [**interface ID3DX10Mesh**](id3dx10mesh.md)repr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

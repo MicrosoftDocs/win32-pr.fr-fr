@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété de l’objet de commande activé.
 ms.assetid: d9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dc0c65d5cfa0438fe9d61eac0c59e916731e057
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0a3d8b77833da20c4a0b4254d4ce3432ff20d2f9b18a1da877adc9664bbff6c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726059"
 ---
 # <a name="enabled-property-command-object"></a>Propriété Enabled (objet Command)
 
@@ -33,7 +33,7 @@ Retourne ou définit une valeur indiquant si la **commande** est activée dans l
 
 | Partie      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *boolean* | Expression booléenne spécifiant si la **commande** est activée.<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**True**</dt> <dd> La **commande** est activée.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**Fausses**</dt> <dd> La **commande** est désactivée.<br/> </dd> </dl> |
+| *boolean* | Expression booléenne spécifiant si la **commande** est activée.<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**Vrai**</dt> <dd> La **commande** est activée.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**Faux**</dt> <dd> La **commande** est désactivée.<br/> </dd> </dl> |
 
 
 

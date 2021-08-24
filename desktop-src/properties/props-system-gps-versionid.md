@@ -4,12 +4,12 @@ ms.assetid: 30d94f58-23e1-4d3a-8db9-88eecc9794bf
 title: System. GPS. VersionID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 443cc34c51a0534b23e41b3e03ccbf86e689eb1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4dfdf69d0b06fc59748fe8edd768fb1c7d49f44f809b77e4dac099ed2883e504
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775019"
 ---
 # <a name="systemgpsversionid"></a>System. GPS. VersionID
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Buffer
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ ms.assetid: 36fa4e77-0813-4f0e-a802-86be95caaf38
 title: Constantes de dimension Frame image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 058aa25af891e258e8dc49f4d37fa4befb4e27ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4385ffc5ce28e45192e2267d555dee563b76615d63e9fc63633cddc860a23a8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831089"
 ---
 # <a name="image-frame-dimension-constants"></a>Constantes de dimension Frame image
 

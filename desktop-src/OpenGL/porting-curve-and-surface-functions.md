@@ -15,12 +15,12 @@ keywords:
 - carreaux de surface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3caedc89697d1c83325a00b3dc1cb55c34612e64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2ed76109bb0067996c26acf48bff7a58773220ad1eb87e13d617bddedeb6d62a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777039"
 ---
 # <a name="porting-curve-and-surface-functions"></a>Portage des fonctions de courbe et de surface
 
@@ -37,9 +37,9 @@ Cette rubrique contient des informations sur les éléments suivants.
 -   [Portage des courbes de suppression](porting-trimming-curves.md)
 -   [Portage des surfaces NURBS](porting-nurbs-surfaces.md)
 
- 
+ 
 
- 
+ 
 
 
 

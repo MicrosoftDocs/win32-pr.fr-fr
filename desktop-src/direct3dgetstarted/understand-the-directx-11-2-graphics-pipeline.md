@@ -4,12 +4,12 @@ description: Précédemment, vous avez vu comment créer une fenêtre que vous p
 ms.assetid: 73cf62d0-7e4f-4e93-aa65-12741588d4fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e50f9a387b2d44fe750abcf5a8856f75e6d0110e
-ms.sourcegitcommit: 07b756a2f350efa5cfd5024a723ef392274ac3d9
+ms.openlocfilehash: 41a3e0fa7e3f7775c5cd51d49f9867864e7a204975fd982565491a63db829aa7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "106543548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727519"
 ---
 # <a name="understand-the-direct3d-11-rendering-pipeline"></a>Comprendre le pipeline de rendu Direct3D 11
 
@@ -97,7 +97,7 @@ void Renderer::CreateWindowSizeDependentResources()
 
 
 
-Chaque fois que vous chargez des ressources à partir d’un disque, des ressources telles que des fichiers ou des textures d’objets de nuanceur compilés (CSO ou. CSO), le fait de façon asynchrone. Cela vous permet de conserver le travail en cours d’exécution en même temps (comme d’autres tâches d’installation) et, comme la boucle principale n’est pas bloquée, vous pouvez continuer à afficher un fichier visuellement intéressant pour l’utilisateur (par exemple, une animation de chargement pour votre jeu). Cet exemple utilise l’API Concurrency :: Tasks disponible à partir de Windows 8 ; Notez la syntaxe lambda utilisée pour encapsuler les tâches de chargement asynchrones. Ces expressions lambda représentent les fonctions appelées hors thread, donc un pointeur vers l’objet de classe actuel (**This**) est capturé explicitement.
+Chaque fois que vous chargez des ressources à partir d’un disque, des ressources telles que des fichiers ou des textures d’objets de nuanceur compilés (CSO ou. CSO), le fait de façon asynchrone. Cela vous permet de conserver le travail en cours d’exécution en même temps (comme d’autres tâches d’installation) et, comme la boucle principale n’est pas bloquée, vous pouvez continuer à afficher un fichier visuellement intéressant pour l’utilisateur (par exemple, une animation de chargement pour votre jeu). Cet exemple utilise l’API Concurrency :: Tasks qui est disponible à partir de Windows 8 ; Notez la syntaxe lambda utilisée pour encapsuler les tâches de chargement asynchrones. Ces expressions lambda représentent les fonctions appelées hors thread, donc un pointeur vers l’objet de classe actuel (**This**) est capturé explicitement.
 
 Voici un exemple de la façon dont vous pouvez charger le bytecode du nuanceur :
 

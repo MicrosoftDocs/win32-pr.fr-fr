@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 785ba54b56c65fd298b6ef763ec2d7eca0d8f61a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1448e993a88f2f5ce800de041779fb66f383c8973143b90200622758511ef337
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752819"
 ---
 # <a name="pause-method-of-the-win32_printjob-class"></a>Méthode pause de la \_ classe PrintJob Win32
 

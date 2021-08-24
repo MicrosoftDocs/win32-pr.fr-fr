@@ -4,12 +4,12 @@ description: Passez en revue les informations de référence sur l’API Direct3
 ms.assetid: 893fff90-6fcb-4f70-8d3a-1d7621baeeb4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 885a2a5db684f969698fcabb7d1d4ff9f004c127
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: f100c30f57b0af613afd89469c6b1290da4264ead6fa560d266ffe1ebedb28ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792029"
 ---
 # <a name="direct3d-11-core-reference"></a>Référence principale de Direct3D 11
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e4b37362f77c150896c3781502d3af33df55df9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7b4dba9adbf42928f0a568b85ea5d70fe664d2f8b3f6c1c132b9cf42b958cffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705089"
 ---
 # <a name="ms-dfs-link-security-descriptor-v2-attribute"></a>attribut ms-DFS-Link-Security-Descriptor-v2
 
@@ -42,7 +42,7 @@ Descripteur de sécurité du point de ré-analyse des liens DFS sur le système 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

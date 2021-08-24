@@ -4,12 +4,12 @@ ms.assetid: 231f10c1-46b4-4b66-b0ce-06a191237dfb
 title: Énumération des codes confidentiels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 322f1764c46c146d1b899c869d1708eac1f0427d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d772903321c71ab2c6d66f7cc46b7ca61b11f96a4bc17b13b8b2f8931d8eac5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748709"
 ---
 # <a name="enumerating-pins"></a>Énumération des codes confidentiels
 
@@ -69,7 +69,7 @@ Cette fonction peut facilement être modifiée pour retourner le nième broche a
 
 <dl> <dt>
 
-[Énumération d’objets dans un graphique de filtre](enumerating-objects-in-a-filter-graph.md)
+[Énumération d’objets dans un filtre Graph](enumerating-objects-in-a-filter-graph.md)
 </dt> <dt>
 
 [Rechercher un code confidentiel non connecté sur un filtre](find-an-unconnected-pin-on-a-filter.md)

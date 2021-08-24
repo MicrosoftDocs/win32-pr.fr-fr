@@ -4,16 +4,16 @@ description: Fonctions strsafe
 ms.assetid: 3590dd8d-3a88-4dde-a5fe-f10e12354919
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 292e6f83175848338a6804c9787efb4660da9f88
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2eeaf03221e63df39114380a60e8b0449658c5ca37954b61ef07251b830c0ccb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776789"
 ---
 # <a name="strsafe-functions"></a>Fonctions strsafe
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 -   [**StringCbCat**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcata)
 -   [**StringCbCatEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbcatexa)

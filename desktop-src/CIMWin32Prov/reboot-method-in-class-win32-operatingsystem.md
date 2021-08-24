@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c4577f708d2f7ec7416ab3455da91b4e35fa079a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 700d497650e8950c72467bbad8e11cf450b2302f0b68ef762e8a11e3c6aaceee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752729"
 ---
 # <a name="reboot-method-of-the-win32_operatingsystem-class"></a>Méthode reboot de la \_ classe Win32 OperatingSystem
 
@@ -52,7 +52,7 @@ Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nomb
 **Autre** (1 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La possibilité de redémarrer un ordinateur par programme permet aux administrateurs d’effectuer de nombreuses tâches de gestion d’ordinateur à distance.
 

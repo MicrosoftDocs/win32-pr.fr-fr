@@ -1,19 +1,19 @@
 ---
-description: Cette référence de programmation décrit les API audio principales dans SDK Windows. Les API audio Core sont implémentées dans Mmdevapi.dll et Audioses.dll.
+description: cette référence de programmation décrit les api audio principales dans SDK Windows. Les API audio Core sont implémentées dans Mmdevapi.dll et Audioses.dll.
 ms.assetid: 80a0df34-5f67-4f61-b9c7-a586d1870765
 title: Référence de programmation audio de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c8c3f3d5ead190cf3151629f015095b404be778
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4cf2eae3d3a8d349c4a8b2f91963b699e66bedaa72ed0cfa5f4103ee69a6e7b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750679"
 ---
 # <a name="core-audio-programming-reference"></a>Référence de programmation audio de base
 
-Cette référence de programmation pour les API audio de base dans SDK Windows contient les sections suivantes :
+cette référence de programmation pour les api audio de base dans SDK Windows contient les sections suivantes :
 
 -   [Interfaces audio principales](core-audio-interfaces.md)
 -   [Structures audio principales](core-audio-structures.md)

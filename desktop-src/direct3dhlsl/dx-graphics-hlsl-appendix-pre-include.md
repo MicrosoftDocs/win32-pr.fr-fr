@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a844459234200ca99233eb3f64a2a1c30449cdcc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 66df429785a9fb90d2de8c89d23792c1754e2fde8eeb4770912e65a41a622c3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855039"
 ---
 # <a name="include-directive"></a>\#include (directive)
 
@@ -35,7 +35,7 @@ Directive de préprocesseur qui insère le contenu du fichier spécifié dans le
 |------|-------------|
 | *extension* | Nom du fichier à inclure, éventuellement précédé d’une spécification de répertoire. Le nom de fichier doit spécifier un fichier existant. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La \# directive include provoque le remplacement de la directive par le contenu entier du fichier spécifié. Le préprocesseur arrête de Rechercher dès qu’il trouve un fichier avec le nom spécifié ; Si vous spécifiez une spécification de chemin d’accès complète et non ambiguë pour le fichier, le préprocesseur recherche uniquement le chemin d’accès spécifié.
 

@@ -4,22 +4,22 @@ ms.assetid: 3b1adef5-40e9-4527-aa79-5a71f201fdfc
 title: Contrôles de volume Audio-Tapered
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cca0879d27d0eba3d49ca22b019442f882bf917
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9fb4856b4f25ad33ae61e9cb250a6b84f0e8799bb9d11d33c1770593bcf3714a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750786"
 ---
 # <a name="audio-tapered-volume-controls"></a>Contrôles de volume Audio-Tapered
 
-L’interface [**IAudioEndpointVolume**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume) gère les contrôles de volume dont l’audio est conique. Ces contrôles sont bien adaptés aux applications Windows qui affichent des curseurs de volume. Pour un curseur de volume qui est lié à un contrôle de volume à cônes audio, chaque modification de la position du curseur produit une modification de la valeur sonore perçue qui est proportionnelle à la distance parcourue par le curseur. Pour une distance de déplacement particulière, la quantité d’augmentation ou de diminution du volume perçu est approximativement la même, que le déplacement du curseur se produise ou non dans la partie inférieure, supérieure ou centrale de la plage de déplacement du curseur. Le bruit perçu varie approximativement de manière linéaire avec le logarithme de la puissance du signal audio.
+L’interface [**IAudioEndpointVolume**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume) gère les contrôles de volume dont l’audio est conique. ces contrôles sont bien adaptés à Windows applications qui affichent des curseurs de volume. Pour un curseur de volume qui est lié à un contrôle de volume à cônes audio, chaque modification de la position du curseur produit une modification de la valeur sonore perçue qui est proportionnelle à la distance parcourue par le curseur. Pour une distance de déplacement particulière, la quantité d’augmentation ou de diminution du volume perçu est approximativement la même, que le déplacement du curseur se produise ou non dans la partie inférieure, supérieure ou centrale de la plage de déplacement du curseur. Le bruit perçu varie approximativement de manière linéaire avec le logarithme de la puissance du signal audio.
 
 Le terme « *cône* » à l’origine faisait appel à la forme conique de l’élément résistif dans un potentiomètre utilisé comme contrôle du volume dans un appareil électronique audio. Un élément résistif à cônes audio est le plus large à la position du volume zéro et le plus étroit à la position du volume maximal. Le potentiomètre contrôle le niveau de tension du signal audio que l’appareil lit dans ses haut-parleurs. Le dépouillement est conçu pour produire une relation linéaire approximative entre la position de l’essuie-glace et le bruit perçu aux orateurs. La relation entre la position de l’essuie-glace et la tension aux haut-parleurs est non linéaire.
 
 En revanche, un élément résistif avec un cône linéaire a une largeur uniforme sur la plage de mouvement de l’essuie-glace du potentiomètre. Par conséquent, la tension aux haut-parleurs varie de manière linéaire avec la position de l’essuie-glace. La relation entre la position de l’essuie-glace et le bruit est non linéaire.
 
-De même, une application Windows qui affiche un curseur de volume définit une relation entre la position du curseur et le niveau du signal de sortie aux haut-parleurs. La relation peut, en fait, être linéaire ou conique.
+de même, une Windows application qui affiche un curseur de volume définit une relation entre la position du curseur et le niveau du signal de sortie aux haut-parleurs. La relation peut, en fait, être linéaire ou conique.
 
 Le diagramme suivant montre le mappage de la position du curseur sur la tension de sortie et le bruit perçu pour un contrôle de volume à cône linéaire.
 
@@ -57,7 +57,7 @@ En revanche, les paramètres de volume pour les méthodes suivantes dans l’int
 -   [**IAudioEndpointVolume::VolumeStepDown**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown)
 -   [**IAudioEndpointVolume::VolumeStepUp**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup)
 
-Dans Windows Vista, ces méthodes utilisent une courbe intermédiaire entre la courbe audio-conique indiquée dans le diagramme précédent et une courbe à cône linéaire. Notez que la forme de la courbe peut changer dans les versions futures de Windows. Les quatre premières méthodes de la liste précédente expriment les niveaux de volume comme valeurs normalisées dans la plage comprise entre 0,0 (volume minimum) et 1,0 (volume maximal). Pour les deux dernières méthodes de la liste, appelez la méthode [**IAudioEndpointVolume :: GetVolumeStepInfo**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumestepinfo) pour obtenir le nombre d’étapes dans la plage de volumes.
+dans Windows Vista, ces méthodes utilisent une courbe intermédiaire entre la courbe audio-conique indiquée dans le diagramme précédent et une courbe à cône linéaire. Notez que la forme de la courbe peut changer dans les versions ultérieures de Windows. Les quatre premières méthodes de la liste précédente expriment les niveaux de volume comme valeurs normalisées dans la plage comprise entre 0,0 (volume minimum) et 1,0 (volume maximal). Pour les deux dernières méthodes de la liste, appelez la méthode [**IAudioEndpointVolume :: GetVolumeStepInfo**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumestepinfo) pour obtenir le nombre d’étapes dans la plage de volumes.
 
 Les interfaces suivantes utilisent des courbes linéaires à cônes pour leurs paramètres de volume :
 
@@ -65,7 +65,7 @@ Les interfaces suivantes utilisent des courbes linéaires à cônes pour leurs p
 -   [**IChannelAudioVolume**](/windows/desktop/api/Audioclient/nn-audioclient-ichannelaudiovolume)
 -   [**IAudioStreamVolume**](/windows/desktop/api/Audioclient/nn-audioclient-iaudiostreamvolume)
 
-Pour plus d’informations sur ces interfaces, consultez [contrôles du volume de session](session-volume-controls.md). Pour plus d’informations sur les plages de volumes et les niveaux de volume par défaut dans les différentes versions de Windows, consultez [paramètres de volume audio par défaut](/windows-hardware/drivers/audio/default-audio-volume-settings).
+Pour plus d’informations sur ces interfaces, consultez [contrôles du volume de session](session-volume-controls.md). pour plus d’informations sur les plages de volumes et les niveaux de volume par défaut dans les différentes versions de Windows, consultez [Paramètres de volume Audio par défaut](/windows-hardware/drivers/audio/default-audio-volume-settings).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

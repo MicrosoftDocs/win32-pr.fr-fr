@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b78eadb9aa320d35d3a8078359a682536fd7e120
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d646a58cb2d8cd3330ca7f182f7b3213fe0f76479ecd94bd0a13e9d19794b163
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750409"
 ---
 # <a name="mdm_policy_user_result01_attachmentmanager02-class"></a>Classe d’utilisateur de la \_ stratégie MDM \_ \_ Result01 \_ AttachmentManager02
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La \_ \_ classe Result01 AttachmentManager02 utilisateur de la stratégie MDM \_ \_ représente les stratégies du gestionnaire de pièces jointes disponibles.
 
@@ -125,7 +125,7 @@ Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

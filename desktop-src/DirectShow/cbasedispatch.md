@@ -1,5 +1,5 @@
 ---
-description: La classe CBaseDispatch est une classe de base pour l’implémentation de l’interface IDispatch dans un filtre DirectShow.
+description: la classe CBaseDispatch est une classe de base pour l’implémentation de l’interface IDispatch dans un filtre DirectShow.
 ms.assetid: 33a989be-d059-4ad7-99f8-715c55a128a2
 title: CBaseDispatch, classe (Ctlutil. h)
 ms.topic: reference
@@ -16,20 +16,20 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d115412b2b668f640834d5a3fa3b134f7a8d9c01
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a094ad3b79dbeb8c4dfc2888de01a521738740fc19ad70b521172d3194fd9f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793313"
 ---
 # <a name="cbasedispatch-class"></a>CBaseDispatch, classe
 
 ![hiérarchie de la classe cbasedispatch](images/cutil01.png)
 
-La classe **CBaseDispatch** est une classe de base pour l’implémentation de l’interface **IDispatch** dans un filtre DirectShow.
+la classe **CBaseDispatch** est une classe de base pour l’implémentation de l’interface **IDispatch** dans un filtre DirectShow.
 
-Cette classe est limitée à la prise en charge des interfaces compatibles Automation exportées par la bibliothèque de types DirectShow, QuartzTypeLib. Par exemple, les classes [**CMediaControl**](cmediacontrol.md) et [**CMediaPosition**](cmediaposition.md) utilisent **CBaseDispatch** pour implémenter [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) et [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), respectivement. En raison de cette limitation, il n’y a probablement aucune raison d’utiliser **CBaseDispatch** directement dans vos propres filtres.
+cette classe est limitée à la prise en charge des interfaces compatibles Automation exportées par la bibliothèque de types DirectShow, QuartzTypeLib. Par exemple, les classes [**CMediaControl**](cmediacontrol.md) et [**CMediaPosition**](cmediaposition.md) utilisent **CBaseDispatch** pour implémenter [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) et [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), respectivement. En raison de cette limitation, il n’y a probablement aucune raison d’utiliser **CBaseDispatch** directement dans vos propres filtres.
 
 Pour utiliser cette classe, procédez comme suit :
 
@@ -46,7 +46,7 @@ Pour plus d’informations, reportez-vous au code source de l’un des exemples 
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [**CBaseDispatch**](cbasedispatch-cbasedispatch.md)       | Méthode de constructeur.                                                                                                 |
 | [**~ CBaseDispatch**](cbasedispatch--cbasedispatch.md)     | Méthode de destructeur.                                                                                                  |
-| [**GetIDsOfNames**](cbasedispatch-getidsofnames.md)       | Mappe un ensemble de noms à un ensemble correspondant de DISPID.                                                              |
+| [**GetIDsOfNames**](cbasedispatch-getidsofnames.md)       | Cartes un ensemble de noms à un ensemble correspondant de dispid.                                                              |
 | [**GetTypeInfo**](cbasedispatch-gettypeinfo.md)           | Récupère les informations de type de l’objet, qui peuvent ensuite être utilisées pour obtenir les informations de type d’une interface. |
 | [**GetTypeInfoCount**](cbasedispatch-gettypeinfocount.md) | Récupère le nombre d’interfaces d’informations de type fourni par l’objet.                                            |
 
@@ -60,7 +60,7 @@ Pour plus d’informations, reportez-vous au code source de l’un des exemples 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
@@ -69,7 +69,7 @@ Pour plus d’informations, reportez-vous au code source de l’un des exemples 
 
 <dl> <dt>
 
-[Classes de base DirectShow](directshow-base-classes.md)
+[DirectShow Classes de base](directshow-base-classes.md)
 </dt> </dl>
 
  

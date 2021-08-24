@@ -4,12 +4,12 @@ ms.assetid: e815d57f-25e5-4a71-8f40-e7abec0db236
 title: Exemple de filtre de l’analyseur PSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1099375d2dbabf9ee6c8e891b0a1780bebbb599d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: de960d36900a417212cdd34ac795b504d4ad073ccd61619ffad110d5fe125fad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104560034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747922"
 ---
 # <a name="psi-parser-filter-sample"></a>Exemple de filtre de l’analyseur PSI
 
@@ -19,16 +19,16 @@ Le filtre de l’analyseur PSI reçoit des informations spécifiques au programm
 
 Ce filtre est conçu pour les appareils MPEG-2, tels que les caméscopes IEEE 1394 MPEG-2 et les appareils D-VHS. Pour plus d’informations, consultez [pilote MSTape](mstape-driver.md) . Les sources de diffusion de télévision numérique doivent utiliser un filtre TIF pour obtenir des informations sur le programme.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 Vous pouvez tester le filtre de l’analyseur PSI dans GraphEdit comme suit :
 
 1.  Lancez GraphEdit.
 2.  Insérez une source de transport MPEG-2. Les caméscopes MPEG-2 et les appareils D-VHS apparaissent en tant que « périphérique de sous-unité de bande Microsoft AV/C » dans la catégorie sources de capture vidéo.
-3.  Connectez le filtre source au filtre de démultiplexage MPEG-2.
+3.  Connecter le filtre source au filtre de démultiplexage MPEG-2.
 4.  Utilisez la page de propriétés de demux pour créer une broche de sortie avec un type de média « PSI MPEG-2 PSI ». Ce code PIN propose les sections PAT et VPM.
 5.  Utilisez la page de propriétés demux pour mapper PID 0x00 à la broche de sortie. Définissez le type de contenu sur « sections PSI PSI ».
-6.  Connectez la broche de sortie demux à l’analyseur PSI, comme indiqué dans le diagramme suivant.
+6.  Connecter la broche de sortie demux à l’analyseur PSI, comme indiqué dans le diagramme suivant.
 
     ![graphique de filtre de l’analyseur psi](images/psi-parser.png)
 
@@ -125,15 +125,15 @@ Le démultiplexeur MPEG-2 peut créer des codes confidentiels et de nouveaux map
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Cet exemple est installé sous le chemin d’accès suivant : exemples *\[ racine \] du kit de développement logiciel (SDK)* \\ fichiers de \\ \\ \\ filtres DirectShow \\ PSIParser.
+cet exemple est installé sous le chemin d’accès suivant : exemples *\[ racine \] du kit de développement logiciel (SDK)* \\ \\ \\ \\ PSIParser filtres de DirectShow \\ .
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Exemples DirectShow](directshow-samples.md)
+[DirectShow Extraits](directshow-samples.md)
 </dt> <dt>
 
 [**Interface IMpeg2PsiParser**](impeg2psiparser.md)

@@ -3,7 +3,7 @@ title: TRBN_THUMBPOSCHANGING le code de notification (commctrl. h)
 description: Indique que la position du curseur sur un TrackBar est modifiée. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 0876e026-bc07-409d-b174-b97ed704fc11
 keywords:
-- Contrôles Windows de code de notification TRBN_THUMBPOSCHANGING
+- TRBN_THUMBPOSCHANGING les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f23722b68f28a5157948ac6277858193366242fe
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 48f05f67eb20c78f764957e73d2293d32e88f25a73d44d6b58f9a1c310b8d9d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751039"
 ---
 # <a name="trbn_thumbposchanging-notification-code"></a>\_Code de notification TRBN THUMBPOSCHANGING
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMTRBTHUMBPOSCHANGING**](/windows/win32/api/commc
 
 Retourne la **valeur true** pour empêcher le déplacement du curseur à la position spécifiée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Envoyez cette notification aux clients qui n’écoutent pas les messages [**WM \_ HSCROLL**](wm-hscroll.md) ou [**WM \_ VSCROLL**](wm-vscroll.md) .
 
@@ -59,8 +59,8 @@ Envoyez cette notification aux clients qui n’écoutent pas les messages [**WM 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9a067494d6236b824ef8fbbcb583ad50503297b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee7b5464ff2620dbc0247b006dc323232131de3936d2c5e56f2232b67c00ba5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832299"
 ---
 # <a name="cmediasamplegetmediatype-method"></a>Méthode CMediaSample. GetMediaType
 
@@ -58,14 +58,14 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                                   | Description                                                         |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>       | Le type de média n’a pas été modifié par rapport à l’exemple précédent.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                                                 |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                                                 |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante.<br/>                                     |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous avez terminé avec le type de média, libérez le bloc de mémoire en appelant la fonction de l’utilitaire [**DeleteMediaType**](deletemediatype.md) .
 
@@ -77,7 +77,7 @@ La variable membre [**CMediaSample :: m \_ pMediaType**](cmediasample-m-pmediat
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

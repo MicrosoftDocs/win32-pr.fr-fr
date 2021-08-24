@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 36364a55276842518480c3d3d37c57c3ae0a06ba
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 30e482f8c11c19abd7c9782e517b5b04a33139d5b8e2189512614317ea2123db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751469"
 ---
 # <a name="takeownership-method-of-the-win32_shortcutfile-class"></a>Méthode TakeOwnerShip de la \_ classe Win32 ShortcutFile
 
@@ -40,7 +40,7 @@ uint32 TakeOwnerShip();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’une des valeurs entières suivantes.
 

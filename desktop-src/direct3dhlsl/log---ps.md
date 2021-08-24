@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a8face264d5221cf4b39f99260bec476ee5742f0
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4be7061b6e2e0bfa4fd86ffaeef1651cd114996bb9252192582f4c447aac09ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854149"
 ---
 # <a name="log---ps"></a>Journal-PS
 
@@ -36,13 +36,13 @@ where
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source. Le registre source nécessite l’utilisation explicite de Swizzle répliqués ; autrement dit, exactement l’un des composants. x,. y,. z et. w Swizzle (ou. r,. g,. b,. a équivalents) doit être spécifié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
 | Versions de nuanceur de pixels | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 | 2 \_ 0 | 2 \_ x | 2 \_ logiciels | 3 \_ 0 | 3 \_ logiciels |
 |-----------------------|------|------|------|------|------|------|-------|------|-------|
-| journal                   |      |      |      |      | x    | x    | x     | x    | x     |
+| log                   |      |      |      |      | x    | x    | x     | x    | x     |
 
 
 

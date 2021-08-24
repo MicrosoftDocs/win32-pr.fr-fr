@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5874816d2a96809aaa27e547d6b1cb371b6ced7e
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: de2922805e43dd3d7c7e7c83336c8d33f8aafc87febbf690d5b54ee68a1ea250
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106545318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831829"
 ---
 # <a name="coareftimecoareftime-constructor-ctlutilh---no-parameters"></a>Constructeur COARefTime. COARefTime (Ctlutil. h)-aucun paramètre
 
@@ -40,7 +40,7 @@ COARefTime();
 
 Ce constructeur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur par défaut de l’heure de référence est zéro.
 
@@ -50,7 +50,7 @@ La valeur par défaut de l’heure de référence est zéro.
 
 | Condition requise                   | Valeur                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête  | Ctlutil. h (include streams. h)                                                                                   |
+| En-tête  | Ctlutil. h (inclure Flux. h)                                                                                   |
 | Bibliothèque | Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 

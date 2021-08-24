@@ -3,7 +3,7 @@ title: XTYP_CONNECT transaction (Ddeml. h)
 description: Un client utilise la \_ transaction XTYP Connect pour établir une conversation.
 ms.assetid: 74f43b10-f7ac-4370-9caa-7b9ddf3413ed
 keywords:
-- Échange de données de transaction XTYP_CONNECT
+- XTYP_CONNECT Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2268994f1be000373691d6c25dbb7220d3e109e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1ff7a7a79d8b61deef6b5f19b829e5c8dd8f4603c5f60c3b47d0a84b0603736
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793419"
 ---
 # <a name="xtyp_connect-transaction"></a>\_Transaction XTYP Connect
 
-Un client utilise la transaction **XTYP \_ Connect** pour établir une conversation. Une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie un nom de service que le serveur prend en charge (et un nom de rubrique qui n’a pas la **valeur null**) dans un appel à la fonction [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) .
+Un client utilise la transaction **XTYP \_ Connect** pour établir une conversation. une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie un nom de service que le serveur prend en charge (et un nom de rubrique qui n’a pas la **valeur NULL**) dans un appel à la fonction [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) .
 
 
 ```C++
@@ -98,7 +98,7 @@ Spécifie si le client est la même instance d’application que le serveur. Si 
 
 Une fonction de rappel de serveur doit retourner la **valeur true** pour permettre au client d’établir une conversation sur la paire de noms de services et de rubriques spécifiée, ou la fonction doit retourner **false** pour refuser la conversation. Si la fonction de rappel retourne la **valeur true** et qu’une conversation est correctement établie, le système transmet le descripteur de conversation au serveur en émettant une transaction [**\_ \_ Confirm XTYP Connect**](xtyp-connect-confirm.md) à la fonction de rappel du serveur (à moins que le serveur n’ait spécifié l’indicateur **CBF \_ Skip \_ Connect \_ Confirm** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) ).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette transaction est filtrée si l’application serveur a spécifié l’indicateur **CBF \_ Fail \_ connections** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
@@ -135,7 +135,7 @@ Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

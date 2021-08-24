@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre ActivationFailureLoggingLevel COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfdd834be35a59dd5d8e207cd679dae68043d70c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a51d0f92dbf1b54d572de44e750fba20ca39954ced57b6276ecdc4b8c4e07960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855099"
 ---
 # <a name="activationfailurelogginglevel"></a>ActivationFailureLoggingLevel
 
@@ -21,10 +21,10 @@ Définit le niveau de détail des entrées du journal des événements sur les d
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   ActivationFailureLoggingLevel = value
+   ActivationFailureLoggingLevel = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **Registre \_ DWORD** .
 
@@ -38,7 +38,7 @@ Il s’agit d’une valeur de **Registre \_ DWORD** .
 
 
 
- 
+ 
 
 Si vous avez besoin d’une application pour contrôler la journalisation des événements, il est recommandé de définir cette valeur sur 0 et d’écrire le code client pour la remplacer si nécessaire. Il est vivement recommandé de ne pas définir la valeur sur 2. Si la journalisation des événements est désactivée, il est plus difficile de diagnostiquer les problèmes. Pour les échecs d’autorisation de restrictions d’ordinateur, où COM n’a pas de CLSCTX bits, COM traite une valeur de 0 comme 1.
 
@@ -49,9 +49,9 @@ Si vous avez besoin d’une application pour contrôler la journalisation des é
 [Définition de la sécurité pour les applications COM](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

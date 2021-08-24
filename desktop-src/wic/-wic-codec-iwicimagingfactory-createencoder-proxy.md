@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 38e5dd19ddc07de42f8be9e8c887a4f412a853b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20e1a95253c0943383842b9667d93e4fc98c48ab2abf229bae7c0b3ad3f3fe63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812279"
 ---
 # <a name="iwicimagingfactory_createencoder_proxy-function"></a>IWICImagingFactory \_ \_ fonction proxy CreateEncoder
 
@@ -46,11 +46,11 @@ HRESULT IWICImagingFactory_CreateEncoder_Proxy(
 *pFactory* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) \** _
+Type : **[ **IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory)\***
 
 </dd> <dt>
 
-_guidContainerFormat * \[ dans\]
+*guidContainerFormat* \[ dans\]
 </dt> <dd>
 
 Type : **REFGUID**
@@ -62,13 +62,13 @@ GUID pour le format de conteneur souhaité.
 *pGuidVendor* \[ dans, facultatif\]
 </dt> <dd>
 
-Type : * #*const \* GUID* _
+Type : **const GUID \***
 
 GUID du fournisseur pour l’encodeur.
 
 </dd> <dt>
 
-_ppIEncoder * \[ out\]
+*ppIEncoder* \[ à\]
 </dt> <dd>
 
 Type : **[ **IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\*\***
@@ -91,8 +91,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

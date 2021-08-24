@@ -1,25 +1,25 @@
 ---
-title: API COM du gestionnaire de package Windows
-description: S’applique à Windows 10 et implémenté dans la famille d’appareils mobiles. Pour plus d’informations sur le gestionnaire de package Windows, contactez le représentant de votre équipe de compte Microsoft.
+title: Gestionnaire de package Windows API COM
+description: s’applique à Windows 10 et implémenté dans la famille d’appareils mobiles. pour plus d’informations sur Gestionnaire de package Windows, contactez le représentant de votre équipe de compte Microsoft.
 ms.assetid: 4863EC42-413D-46E3-AE61-E29006708E39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82de491b2ceb7da7029a8db7fdf3e436a92d50a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3dd0faf1d8432ec36a3ce569589fcb596bb57cb553be0e09d5adc004ff543821
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855219"
 ---
-# <a name="windows-package-manager-com-api"></a>API COM du gestionnaire de package Windows
+# <a name="windows-package-manager-com-api"></a>Gestionnaire de package Windows API COM
 
-S’applique à Windows 10 et implémenté dans la famille d’appareils mobiles. Pour plus d’informations sur le gestionnaire de package Windows, contactez le représentant de votre équipe de compte Microsoft.
+s’applique à Windows 10 et implémenté dans la famille d’appareils mobiles. pour plus d’informations sur Gestionnaire de package Windows, contactez le représentant de votre équipe de compte Microsoft.
 
 > [!Note]
 >
-> Cette API n’est pas disponible pour toutes les applications Windows. À moins que votre compte de développeur ne soit spécialement approvisionné par Microsoft, les appels à ces API échouent au moment de l’exécution.
+> cette API n’est pas disponible pour toutes les applications Windows. À moins que votre compte de développeur ne soit spécialement approvisionné par Microsoft, les appels à ces API échouent au moment de l’exécution.
 
- 
+ 
 
 L’API se compose de la coclasse suivante.
 
@@ -53,9 +53,9 @@ PMSvc implémente les interfaces suivantes.
 -   IPMBackgroundServiceAgentInfoEnumerator. IID : {18EB2072-AB56-43B3-87-2C---AF-B7-A6-B3-91}
 -   IPMBackgroundWorkerInfoEnumerator. IID : {87F479F8-90D8-4EC7-92-B9-72-78-7E-2F-63-6B}
 
- 
+ 
 
- 
+ 
 
 
 

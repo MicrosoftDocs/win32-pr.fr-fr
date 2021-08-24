@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9cba7b12c55e7ab9f5f939347a8b500ec4965f75
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d453a2e03538b7601b5f73033a4749430e8812ef317a90816cac220e61695279
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747369"
 ---
 # <a name="id3dxspritedraw-method"></a>ID3DXSprite ::D méthode brute
 
@@ -95,7 +95,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour mettre à l’échelle, faire pivoter ou traduire un sprite, appelez [**ID3DXSprite :: setTransform**](id3dxsprite--settransform.md) avec une matrice qui contient les valeurs d’échelle, de rotation et de translation (SRT), avant d’appeler ID3DXSprite ::D RAW. Pour plus d’informations sur la définition de valeurs SRT dans une matrice, consultez [transformations de matrice](transforms.md).
 

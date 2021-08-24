@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4f9d4805a1d516a5d8980fcd8209fd6733fe86c4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d5521da56804156485fcacb37b43cbf27d8d4b3659cbced918eaea2c12b308ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855369"
 ---
 # <a name="ddx_coarse-function"></a>\_fonction grossiste DDX
 
@@ -28,7 +28,7 @@ Calcule une dérivée partielle de faible précision par rapport à la coordonn�
 
 ``` syntax
 float ddx_coarse(
-  in float value
+  in float value
 );
 ```
 
@@ -51,7 +51,7 @@ Type : **float**
 
 Dérivée partiel de faible précision de la *valeur*.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les versions surchargées suivantes sont également disponibles :
 
@@ -67,25 +67,25 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
- 
+ 
 
 Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -97,9 +97,9 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

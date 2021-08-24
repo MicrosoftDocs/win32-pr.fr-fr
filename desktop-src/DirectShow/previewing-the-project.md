@@ -1,23 +1,23 @@
 ---
-description: Aperçu du projet
+description: Aperçu de l’Project
 ms.assetid: 00d72a39-f848-47ea-8460-8b826684eeea
-title: Aperçu du projet
+title: Aperçu de l’Project
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bdf38fe19e500cfe9bd9a8dfb77f7ff56528a2f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1d17d5fd0c87d98db2dac0a7ace97a72e2107eeb252561bbc535a5bd8b4a56d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748259"
 ---
-# <a name="previewing-the-project"></a>Aperçu du projet
+# <a name="previewing-the-project"></a>Aperçu de l’Project
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-Pour afficher un aperçu du projet, vous avez besoin d’un composant appelé « *moteur de rendu*», qui génère un graphique de filtre DirectShow à partir d’une chronologie. Le graphique de filtre est ce qui restitue réellement le projet. Vous pouvez utiliser le moteur de rendu pour afficher un aperçu d’un projet ou écrire le fichier de sortie final.
+pour afficher un aperçu du projet, vous avez besoin d’un composant appelé « *moteur de rendu*», qui génère un graphique de filtre DirectShow à partir d’une chronologie. Le graphique de filtre est ce qui restitue réellement le projet. Vous pouvez utiliser le moteur de rendu pour afficher un aperçu d’un projet ou écrire le fichier de sortie final.
 
-Cet article ne décrit pas en détail le moteur de rendu. Pour la version préliminaire, vous n’avez besoin que de quelques appels de méthode. Vous pouvez trouver une discussion plus approfondie, y compris comment écrire des fichiers de sortie, dans le [rendu d’un projet](rendering-a-project.md). L’exemple de code suivant montre comment construire un graphique d’aperçu.
+Cet article ne décrit pas en détail le moteur de rendu. Pour la version préliminaire, vous n’avez besoin que de quelques appels de méthode. Vous pouvez trouver une discussion plus approfondie, y compris comment écrire des fichiers de sortie, dans le [rendu d’un Project](rendering-a-project.md). L’exemple de code suivant montre comment construire un graphique d’aperçu.
 
 
 ```C++
@@ -38,7 +38,7 @@ Créez le moteur de rendu à l’aide de la fonction **CoCreateInstance** . Appe
 -   [**ConnectFrontEnd**](irenderengine-connectfrontend.md). Génère un graphique de filtre partiel, avec une broche de sortie pour chaque groupe dans la chronologie.
 -   [**RenderOutputPins**](irenderengine-renderoutputpins.md). Termine le graphique d’aperçu en connectant chaque broche de sortie à un convertisseur audio ou vidéo.
 
-Une fois le graphique créé, vous pouvez afficher un aperçu du projet en exécutant le graphique, comme vous le feriez avec n’importe quel graphique de filtre DirectShow. Tout d’abord, obtenez un pointeur vers le graphique de filtre en appelant la méthode [**IRenderEngine :: GetFilterGraph**](irenderengine-getfiltergraph.md) .
+une fois le graphique créé, vous pouvez afficher un aperçu du projet en exécutant le graphique, comme vous le feriez avec n’importe quel DirectShow graphique de filtre. Tout d’abord, obtenez un pointeur vers le graphique de filtre en appelant la méthode [**IRenderEngine :: GetFilterGraph**](irenderengine-getfiltergraph.md) .
 
 
 ```C++
@@ -79,7 +79,7 @@ pRender->ScrapIt();
 
 <dl> <dt>
 
-[Chargement et affichage de l’aperçu d’un projet](loading-and-previewing-a-project.md)
+[Chargement et prévisualisation d’un Project](loading-and-previewing-a-project.md)
 </dt> </dl>
 
  

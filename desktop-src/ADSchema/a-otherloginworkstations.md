@@ -1,6 +1,6 @@
 ---
 title: Autre attribut-login-stations de travail
-description: Non \ 8211 ; Stations de travail Windows NT ou LAN Manager à partir desquelles un utilisateur peut ouvrir une session.
+description: Non \ 8211 ; Windows Stations de travail NT ou LAN Manager à partir desquelles un utilisateur peut se connecter.
 ms.assetid: feaa1ade-f340-4bca-8787-5ae5aa10d51c
 ms.tgt_platform: multiple
 keywords:
@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b71032e96de9ac8d323da8a94e4c50c5cace27c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e0cad2ce47be17ff969b237cf48255d3a668bbfc4c64f6144ec9d630fc938593
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704469"
 ---
 # <a name="other-login-workstations-attribute"></a>Autre attribut-login-stations de travail
 
@@ -50,7 +50,7 @@ Stations de travail non Windows NT ou LAN Manager à partir desquelles un utilis
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

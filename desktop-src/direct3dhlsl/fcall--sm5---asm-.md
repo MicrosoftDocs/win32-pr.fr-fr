@@ -4,12 +4,12 @@ description: Appel de fonction d’interface.
 ms.assetid: C21784A0-D2F4-4DDE-9AC4-4F21351BCA6E
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c57ea40fec51cf4155b0932f6ce4a7b80d3180dd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e7781fc0a2fc7bbd715084d3c0e9682a433ddf16e4492724df8fdb2e31c84689
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854509"
 ---
 # <a name="fcall-sm5---asm"></a>FCALL (SM5-ASM)
 
@@ -36,7 +36,7 @@ Appel de fonction d’interface.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 *mode \# FP* \[  \] \[ arrayIndex \] correspond à une table de fonctions particulière, sélectionnée à partir de l’API en dehors du nuanceur, à partir des choix de la table de fonctions figurant dans la déclaration de *FP \#*.
 
@@ -55,7 +55,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -69,9 +69,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f3b6e8205eb60cbd2ca645cd484e41f8f242619d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd54255d87ee3f15f87d692e06b7a503e773634ab4ec30c3f388388233aab2b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793408"
 ---
 # <a name="ibackgroundcopyjobsetnotifyinterface-method"></a>Méthode ibackgroundcopyjob :: SetNotifyInterface, méthode
 
@@ -64,7 +64,7 @@ Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode uniquement si vous implémentez l’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) . Utilisez la méthode **SetNotifyInterface** conjointement avec la méthode [**SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md) pour spécifier le type de notification que vous souhaitez recevoir.
 
@@ -78,8 +78,8 @@ Seul le propriétaire/créateur du travail ou un administrateur peut s’inscrir
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

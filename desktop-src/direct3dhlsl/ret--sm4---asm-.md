@@ -4,12 +4,12 @@ description: Instruction return.
 ms.assetid: 1B690036-99C5-441D-9DD3-E09D43E48AFF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d834cd9f32d6e38f40666ab235f705c0fc80513f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f7482c2c7351944824e2590f5c87dac63bde8f639a5ad42dffdfc71e4134603b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853749"
 ---
 # <a name="ret-sm4---asm"></a>RET (SM4-ASM)
 
@@ -22,9 +22,9 @@ Instruction return.
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si, dans une sous-routine, retourne à l’instruction après l’appel. Dans le cas contraire à l’intérieur d’une sous-routine, terminez l’exécution du programme.
 
@@ -57,7 +57,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
 
@@ -65,18 +65,18 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -85,9 +85,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 [Assembly modèle 4 du nuanceur (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

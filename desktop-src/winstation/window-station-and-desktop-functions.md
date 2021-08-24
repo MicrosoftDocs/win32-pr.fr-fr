@@ -4,12 +4,12 @@ description: Les applications peuvent utiliser les fonctions suivantes avec des 
 ms.assetid: 6214c28f-1035-446c-8c79-5d1dd638af2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6665f52de1f7f57930105edb0063c4512e375ac3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ccda67841508081444f7025e457c9a778195b99d0ab67ebb585362d7a3b22cd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810399"
 ---
 # <a name="window-station-and-desktop-functions"></a>Station Windows et fonctions de bureau
 
@@ -32,7 +32,7 @@ Les applications peuvent utiliser les fonctions suivantes avec des objets de [st
 
 
 
- 
+ 
 
 Les applications peuvent utiliser les fonctions suivantes avec des objets de [Bureau](desktops.md) .
 
@@ -57,8 +57,8 @@ Les applications peuvent utiliser les fonctions suivantes avec des objets de [Bu
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

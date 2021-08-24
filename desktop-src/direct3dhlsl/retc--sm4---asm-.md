@@ -4,12 +4,12 @@ description: Retour conditionnel.
 ms.assetid: D936099D-4A75-4AE2-9FE3-70ED213DF4D9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e394bc6b947d91fafb09dbfdc075b0c60be2cf8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2d68d65cf64c3c1fb7945f93053f280be3eb3bd9d5fe76e34f30102316b1f1e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853739"
 ---
 # <a name="retc-sm4---asm"></a>RETC (SM4-ASM)
 
@@ -34,7 +34,7 @@ Retour conditionnel.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si, dans une sous-routine, cette instruction retourne de manière conditionnelle à l’instruction après l’appel. Si elle ne se trouve pas à l’intérieur d’une sous-routine, cette instruction termine l’exécution du programme.
 
@@ -77,11 +77,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

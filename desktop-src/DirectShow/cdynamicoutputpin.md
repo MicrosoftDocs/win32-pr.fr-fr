@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 54c6dab41c122456076299df22bf90d886c905cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6e0b8903f83c372aa85bd1c41fb12ce9065798d79dc4dbd940df926a395f8bc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871799"
 ---
 # <a name="cdynamicoutputpin-class"></a>CDynamicOutputPin, classe
 
@@ -31,9 +31,9 @@ Cette classe dérive de la classe [**CBaseOutputPin**](cbaseoutputpin.md) et imp
 
 -   Reconnexion dynamique : le code confidentiel peut se déconnecter et se reconnecter lorsque le filtre est toujours actif (en pause ou en cours d’exécution).
 -   Modification du format dynamique : le code confidentiel peut négocier un nouveau type de média alors que le filtre est toujours actif, sans se reconnecter.
--   Contrôle de flow : le filtre propriétaire (ou une application) peut bloquer le workflow de données à partir du code confidentiel sans arrêter le filtre.
+-   contrôle Flow : le filtre propriétaire (ou une application) peut bloquer le workflow de données à partir du code confidentiel sans arrêter le filtre.
 
-Pour plus d’informations, consultez [génération de graphiques dynamiques](dynamic-graph-building.md).
+pour plus d’informations, consultez [génération de Graph dynamique](dynamic-graph-building.md).
 
 Le code pin a trois États possibles : bloqué, débloqué et en attente. Dans l’état *en attente* , le code PIN attend qu’une opération se termine sur un autre thread, avant que le code confidentiel passe à l’État bloqué. Lorsque le code confidentiel est bloqué, le filtre ne peut pas fournir de données par le biais du code confidentiel ou modifier la connexion du pin.
 
@@ -85,8 +85,8 @@ Quand le filtre propriétaire rejoint ou leaveds le graphique de filtre (dans sa
 | [**SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md)                                        | Spécifie le pointeur [**IGraphConfig**](/windows/desktop/api/Strmif/nn-strmif-igraphconfig) et l’événement stop.                                                |
 | [**DeliverBeginFlush**](cdynamicoutputpin-deliverbeginflush.md)                                | Demande la broche d’entrée connectée pour commencer une opération de vidage.                                                                  |
 | [**DeliverEndFlush**](cdynamicoutputpin-deliverendflush.md)                                    | Demande la broche d’entrée connectée pour terminer une opération de vidage.                                                                    |
-| [**Inactif**](cdynamicoutputpin-inactive.md)                                                  | Notifie le code confidentiel que le filtre a arrêté.                                                                                 |
-| [**Proactive**](cdynamicoutputpin-active.md)                                                      | Notifie le code confidentiel que le filtre est maintenant actif.                                                                               |
+| [**Inactive**](cdynamicoutputpin-inactive.md)                                                  | Notifie le code confidentiel que le filtre a arrêté.                                                                                 |
+| [**Actif**](cdynamicoutputpin-active.md)                                                      | Notifie le code confidentiel que le filtre est maintenant actif.                                                                               |
 | [**CompleteConnect**](cdynamicoutputpin-completeconnect.md)                                    | Termine une connexion à une broche d’entrée. Virtuels.                                                                              |
 | [**StartUsingOutputPin**](cdynamicoutputpin-startusingoutputpin.md)                            | Obtient l’accès au code confidentiel pour une opération de diffusion en continu. Virtuels.                                                                 |
 | [**StopUsingOutputPin**](cdynamicoutputpin-stopusingoutputpin.md)                              | Libère l’accès au code PIN après une opération de diffusion en continu. Virtuels.                                                              |
@@ -109,7 +109,7 @@ Quand le filtre propriétaire rejoint ou leaveds le graphique de filtre (dans sa
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

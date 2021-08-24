@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3e14cab58a445fd645b9d59c1aea713bf6c40ac0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a7158e42589018364b9d55b578941bc3e6897576c6633b2a9fa0b0d09e4fede9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751339"
 ---
 # <a name="win32_systemdesktop-class"></a>\_Classe SystemDesktop Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance représentant la configuration existante sur le syst
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SystemDesktop** est dérivée de [**Win32 \_ SystemSetting**](win32-systemsetting.md).
 

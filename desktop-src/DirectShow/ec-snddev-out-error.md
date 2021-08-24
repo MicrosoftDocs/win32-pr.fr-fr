@@ -4,12 +4,12 @@ ms.assetid: 60e36476-f553-468d-a28d-351fdf4a02f1
 title: EC_SNDDEV_OUT_ERROR (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1182aaba7bb30ad27511b47ba8e4432d8fd33da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eefe6dbe57b26bf167a7fbc668010930bacffc321d42d2847ae6776696e009fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792409"
 ---
 # <a name="ec_snddev_out_error"></a>\_erreur de \_ sortie EC SNDDEV \_
 
@@ -35,7 +35,7 @@ Valeur DWORD indiquant l’erreur renvoyée par l’appel de périphérique audi
 
 ## <a name="default-action"></a>Action par défaut
 
-Aucun
+Aucun.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -54,7 +54,7 @@ Aucun
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: F7C4FEFC-FEE7-4614-BC90-4F9D5D878F49
 title: Attribut MFSampleExtension_VideoEncodeQP (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 721f5df00ff24b307daed2ccbcbf61a04b129db2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f86253b29dfa93b3699d5175b5c5ef198b4ab24e862901572caafcc55fd62d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777019"
 ---
 # <a name="mfsampleextension_videoencodeqp-attribute"></a>\_Attribut MFSampleExtension VideoEncodeQP
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT64**](/windows/d
 
 [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' [**encodeur vidéo H. 264**](h-264-video-encoder.md) définit cet attribut sur les exemples de sortie qu’il génère.
 
@@ -39,7 +39,7 @@ L' [**encodeur vidéo H. 264**](h-264-video-encoder.md) définit cet attribut su
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 

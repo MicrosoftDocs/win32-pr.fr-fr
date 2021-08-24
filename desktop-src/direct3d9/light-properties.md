@@ -4,12 +4,12 @@ ms.assetid: b39f1287-c67b-4cbb-b599-4a1b2f4981ac
 title: Propriétés de la lumière (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63239024109327e483ff93c2ee29fe42fc22c922
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 14c3e815401fe0b35c7409dec783515de5c3422ac92d6aed6fd4adebf09f8c18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746999"
 ---
 # <a name="light-properties-direct3d-9"></a>Propriétés de la lumière (Direct3D 9)
 
@@ -45,7 +45,7 @@ En général, les couleurs matérielles sont utilisées pour l’éclairage. Tou
 
 
 
-| Variable d’état de l’appareil         | Signification                                       | Type                   | Default          |
+| Variable d’état de l’appareil         | Signification                                       | Type                   | Par défaut          |
 |-------------------------------|-----------------------------------------------|------------------------|------------------|
 | D3DRS \_ AMBIENTMATERIALSOURCE  | Définit où se trouver la couleur du matériau ambiant.  | D3DMATERIALCOLORSOURCE | \_Matériau D3DMCS |
 | D3DRS \_ DIFFUSEMATERIALSOURCE  | Définit l’emplacement de la couleur du matériau diffus.  | D3DMATERIALCOLORSOURCE | D3DMCS \_ COLOR1   |

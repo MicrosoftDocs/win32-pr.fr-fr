@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dfd451c1c5d4819f1ec1d21f890b207a06d6fb82
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 24bc2871afa5916644a3bcdb3ddb4ad2f653e7aa1cd0522c52782ef17bb2352c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751389"
 ---
 # <a name="win32_classiccomapplicationclasses-class"></a>\_Classe ClassicCOMApplicationClasses Win32
 
@@ -84,7 +84,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ ClassicCOMApplicationClasses** est dérivée de [**Win32 \_ COMApplicationClasses**](win32-comapplicationclasses.md).
 

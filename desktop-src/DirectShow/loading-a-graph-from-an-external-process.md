@@ -1,27 +1,27 @@
 ---
-description: Chargement d’un graphique à partir d’un processus externe
+description: chargement d’un Graph à partir d’un processus externe
 ms.assetid: 1c657c7f-46d7-4feb-88a7-4a3227c9070b
-title: Chargement d’un graphique à partir d’un processus externe
+title: chargement d’un Graph à partir d’un processus externe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eac42db3a87b00b1cb8f3a9ae5297215ae9bd3fa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1e92fdaebb9ce3cb6615153daf66a8991477bf76e16ac3298e8e8b2fb59d74b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104550063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831053"
 ---
-# <a name="loading-a-graph-from-an-external-process"></a>Chargement d’un graphique à partir d’un processus externe
+# <a name="loading-a-graph-from-an-external-process"></a>chargement d’un Graph à partir d’un processus externe
 
 GraphEdit peut charger un graphique de filtre créé par un processus externe. Avec cette fonctionnalité, vous pouvez voir exactement quel graphique de filtre votre application génère, avec seulement une quantité minimale de code supplémentaire dans votre application.
 
 > [!Note]  
-> Cette fonctionnalité nécessite Windows 2000, Windows XP ou version ultérieure.
+> cette fonctionnalité requiert Windows 2000, Windows XP ou version ultérieure.
 
  
 
 > [!Note]  
-> À compter de Windows Vista, vous devez inscrire proppage.dll pour activer cette fonctionnalité. Proppage.dll est inclus dans le SDK Windows.
+> à partir de Windows Vista, vous devez inscrire proppage.dll pour activer cette fonctionnalité. Proppage.dll est inclus dans le SDK Windows.
 
  
 
@@ -34,7 +34,7 @@ L’application doit inscrire l’instance du graphique de filtre dans la table 
 
 
 
-où *X* est l’adresse hexadécimale du gestionnaire de graphique de filtre, et *Y* est l’ID de processus, également au format hexadécimal.
+où *X* est l’adresse hexadécimale du filtre Graph Manager, et *Y* est l’id de processus, également au format hexadécimal.
 
 Lorsque votre application crée d’abord le graphique de filtre, appelez la fonction suivante :
 
@@ -116,14 +116,14 @@ pGraph->Release();
 
 
 
-Pour afficher le graphique de filtre dans GraphEdit, exécutez votre application et GraphEdit en même temps. Dans le menu **fichier** GraphEdit, cliquez sur **se connecter au graphique distant...** Dans la boîte de dialogue **se connecter au graphique** , sélectionnez l’ID de processus (PID) de votre application, puis cliquez sur **OK**. GraphEdit charge le graphique de filtre et l’affiche. N’utilisez pas d’autres fonctionnalités GraphEdit sur ce graphique ; cela peut entraîner des résultats inattendus. Par exemple, n’ajoutez pas ou ne supprimez pas de filtres, ou arrêtez et démarrez le graphique. Fermez GraphEdit avant de quitter votre application.
+Pour afficher le graphique de filtre dans GraphEdit, exécutez votre application et GraphEdit en même temps. dans le menu **fichier** GraphEdit, cliquez sur **Connecter à distance Graph...** dans la boîte de dialogue **Connecter à Graph** , sélectionnez l’id de processus (pid) de votre application, puis cliquez sur **OK**. GraphEdit charge le graphique de filtre et l’affiche. N’utilisez pas d’autres fonctionnalités GraphEdit sur ce graphique ; cela peut entraîner des résultats inattendus. Par exemple, n’ajoutez pas ou ne supprimez pas de filtres, ou arrêtez et démarrez le graphique. Fermez GraphEdit avant de quitter votre application.
 
 > [!Note]  
 > Votre application peut atteindre plusieurs assertions lorsqu’elle se termine. Vous pouvez les ignorer.
 
  
 
-L’illustration suivante montre la boîte de dialogue **se connecter au graphique** .
+l’illustration suivante montre la boîte **de dialogue Connecter à Graph** .
 
 ![se connecter au graphique](images/gedit-spy.png)
 
@@ -131,7 +131,7 @@ Quand GraphEdit charge le graphique, il s’exécute dans le contexte de l’app
 
 Cette fonctionnalité doit être utilisée uniquement dans les versions Debug de votre application, et non dans les versions commerciales, car elle permet à d’autres applications d’afficher ou de contrôler le graphique de filtre.
 
-## <a name="connecting-to-a-remote-graph-from-the-command-line"></a>Connexion à un graphique distant à partir de la ligne de commande
+## <a name="connecting-to-a-remote-graph-from-the-command-line"></a>connexion à un Graph distant à partir de la ligne de commande
 
 GraphEdit prend en charge une option de ligne de commande pour charger automatiquement un graphique distant au démarrage. La syntaxe est :
 
@@ -148,7 +148,7 @@ où *moniker* est un moniker créé à l’aide de la fonction AddToRot, décrit
 
 <dl> <dt>
 
-[Simulation de la génération de graphiques avec GraphEdit](simulating-graph-building-with-graphedit.md)
+[simulation d’Graph génération avec GraphEdit](simulating-graph-building-with-graphedit.md)
 </dt> </dl>
 
  

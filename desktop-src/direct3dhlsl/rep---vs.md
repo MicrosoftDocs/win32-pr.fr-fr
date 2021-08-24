@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5441d5d134ee2d60e14db9f273ec374323f93902
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 6e800f2ef313cd5c9a4fc90d7205502db5532ae24f51ec0f1255d05cc9a589bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853789"
 ---
 # <a name="rep---vs"></a>REP-vs
 
@@ -29,11 +29,11 @@ Démarrer un REP... bloc [endrep](endrep---vs.md) .
 
 
 
- 
+ 
 
 où i \# est un registre d’entiers qui spécifie le nombre de répétitions dans le composant. x. Consultez [Registre d’entiers constant](dx9-graphics-reference-asm-vs-registers-constant-integer.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -43,11 +43,11 @@ où i \# est un registre d’entiers qui spécifie le nombre de répétitions da
 
 
 
- 
+ 
 
 -   i \# . x spécifie le nombre d’itérations. La plage autorisée est \[ 0, 255 \] . Notez que cette instruction n’incrémente pas ou ne décrémente pas la valeur de i \# . x.
 -   i \# . YZW ne sont pas utilisés par le bloc REPEAT.
--   Les blocs REPEAT peuvent être imbriqués. Consultez [limites d’imbrication des contrôles de Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
+-   Les blocs REPEAT peuvent être imbriqués. consultez [Flow limites d’imbrication des contrôles](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
 -   Les blocs de répétition sont autorisés à se trouver complètement à l’intérieur d’un bloc if ou à l' \* entourer complètement. Aucun chevauchement n’est autorisé.
 -   L’utilisation du même i \# pour des instructions de représentation différentes ou imbriquées est correcte. chaque boucle effectue une itération en fonction du nombre spécifié.
 
@@ -69,9 +69,9 @@ endrep
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
