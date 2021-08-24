@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5de27ca8ea04eee2346df63b82365e95f0730b03
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: cc18316eba31c6f0e109a0b756ca83139f4a240f7892bff159d43b68b75743ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322199"
 ---
 # <a name="locality-name-attribute"></a>Attribut Locality-Name
 
@@ -46,7 +46,7 @@ Représente le nom d’une localité, telle qu’une ville ou une ville.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

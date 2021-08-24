@@ -1,31 +1,31 @@
 ---
-description: L’encodeur vocal Windows Media Audio est optimisé pour l’encodage de la voix humaine à des taux de compression élevés. Il s’agit de l’encodeur par défaut pour les flux composés principalement de mots prononcés.
+description: l’encodeur vocal Windows Media Audio est optimisé pour l’encodage de la voix humaine à des taux de compression élevés. Il s’agit de l’encodeur par défaut pour les flux composés principalement de mots prononcés.
 ms.assetid: b3cfa845-4fe1-405f-88e5-4555398639ef
-title: Encodeur vocal Windows Media Audio (Wmcodecdsp. h)
+title: Windows Codeur Media Audio Voice (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bef79f2c3d0c48fee8ec33e08bfb9fdf21c3656b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3c107e4e09309ff0ed56e899d3ec2cd0c9d372261b48231b4530ed3222ee3a68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462424"
 ---
-# <a name="windows-media-audio-voice-encoder"></a>Encodeur vocal Windows Media Audio
+# <a name="windows-media-audio-voice-encoder"></a>Windows Codeur Media Audio Voice
 
-L’encodeur vocal Windows Media Audio est optimisé pour l’encodage de la voix humaine à des taux de compression élevés. Il s’agit de l’encodeur par défaut pour les flux composés principalement de mots prononcés.
+l’encodeur vocal Windows Media Audio est optimisé pour l’encodage de la voix humaine à des taux de compression élevés. Il s’agit de l’encodeur par défaut pour les flux composés principalement de mots prononcés.
 
 ## <a name="class-identifier"></a>Identificateur de classe
 
-L’identificateur de classe (CLSID) de l’encodeur vocal Windows Media Audio est représenté par la constante **CLSID \_ CWMSPEncMediaObject2**. Vous pouvez créer une instance de l’encodeur vocal en appelant **CoCreateInstance**.
+l’identificateur de classe (CLSID) de l’encodeur vocal Windows Media Audio est représenté par la constante **clsid \_ CWMSPEncMediaObject2**. Vous pouvez créer une instance de l’encodeur vocal en appelant **CoCreateInstance**.
 
 ## <a name="output-formats"></a>Formats de sortie
 
-Windows Media Audio contenu encodé en voix est identifié par la balise de format 0x00A.
+Windows Le contenu codé en voix sur le média audio est identifié par la balise de format 0x00A.
 
 ## <a name="encoder-properties"></a>Propriétés de l’encodeur
 
-L’encodeur vocal Windows Media Audio prend en charge les propriétés suivantes.
+l’encodeur vocal Windows Media Audio prend en charge les propriétés suivantes.
 
 
 
@@ -87,7 +87,7 @@ En lecture/écriture.<br />
 [Objets codec](codecobjects.md)
 </dt> <dt>
 
-[Utilisation du codec Windows Media Audio Voice](usingthewindowsmediaaudio9voicecodec.md)
+[utilisation du Codec Windows Media Audio Voice](usingthewindowsmediaaudio9voicecodec.md)
 </dt> </dl>
 
  

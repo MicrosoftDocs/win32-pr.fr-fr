@@ -3,7 +3,7 @@ title: Code de notification EN_MSGFILTER (RichEdit. h)
 description: Avertit une fenêtre parente d’un contrôle d’édition enrichi d’un événement de clavier ou de souris dans le contrôle. Un contrôle RichEdit envoie ce code de notification sous la forme d’un \_ message WM Notify.
 ms.assetid: 96cf0047-baae-46cd-82e8-ab6f3f353260
 keywords:
-- Contrôles Windows de code de notification EN_MSGFILTER
+- EN_MSGFILTER les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40ddb3e9b1d5314e2e981b00f0e0ef8e22974242
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87d2cbe47af3d74deb4795946d58871b4729118db0e839027e78e05976ebf855
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436709"
 ---
 # <a name="en_msgfilter-notification-code"></a>\_Code de notification en msgfilter
 
@@ -51,7 +51,7 @@ Retourne zéro si le contrôle doit traiter l’événement de clavier ou de sou
 
 Retourne une valeur différente de zéro si le contrôle doit ignorer l’événement du clavier ou de la souris.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour recevoir les \_ codes de notification en msgfilter pour les événements, spécifiez un ou plusieurs des indicateurs suivants dans le masque envoyé avec le message de [**em \_ SETEVENTMASK**](em-seteventmask.md) .
 
@@ -73,8 +73,8 @@ Pour recevoir les \_ codes de notification en msgfilter pour les événements, s
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

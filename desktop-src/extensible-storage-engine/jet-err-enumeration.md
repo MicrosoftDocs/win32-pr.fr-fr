@@ -832,12 +832,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eccc99baa6fe791f3817e7e88326e3cee9b451b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f726de52cc640c47bedc15f7204b421dabee5f0c91a9200f1f5490b224ae38d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475049"
 ---
 # <a name="jet_err-enumeration"></a>Énumération JET_err
 
@@ -1613,7 +1613,7 @@ public enum JET_err
 <tr class="odd">
 <td></td>
 <td>SQLLinkNotSupported</td>
-<td>Prise en charge des liens SQL non disponible</td>
+<td>SQL Prise en charge des liens non disponible</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -2483,7 +2483,7 @@ public enum JET_err
 <tr class="odd">
 <td></td>
 <td>LanguageNotSupported</td>
-<td>L’installation de Windows ne prend pas en charge la langue</td>
+<td>Windows installation ne prend pas en charge le langage</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -2848,17 +2848,17 @@ public enum JET_err
 <tr class="even">
 <td></td>
 <td>LSCallbackNotSpecified</td>
-<td>Tentative d’utilisation du stockage local sans qu’une fonction de rappel soit spécifiée</td>
+<td>tentative d’utilisation d’un Stockage Local sans qu’une fonction de rappel soit spécifiée</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td>LSAlreadySet</td>
-<td>Tentative de définition du stockage local pour un objet qui l’a déjà défini</td>
+<td>tentative de définition d’un Stockage Local pour un objet qui l’a déjà défini</td>
 </tr>
 <tr class="even">
 <td></td>
 <td>LSNotSet</td>
-<td>Tentative de récupération du stockage local à partir d’un objet pour lequel il n’a pas été défini</td>
+<td>tentative de récupération d’un Stockage Local à partir d’un objet pour lequel il n’a pas été défini</td>
 </tr>
 <tr class="odd">
 <td></td>

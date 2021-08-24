@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dc96022e94df7f518b21b1c9a46895fc9204b08
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c115ed30da9651167d72bb8c3af604a8444bc0ddcec991df3f76f7a0edee4517
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451449"
 ---
 # <a name="wm_mouseleave-message"></a>\_Message WM MOUSELEAVE
 
@@ -56,7 +56,7 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout le suivi demandé par [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) est annulé lorsque ce message est généré. L’application doit appeler **TrackMouseEvent** quand la souris entre à nouveau dans sa fenêtre si elle nécessite un suivi supplémentaire du comportement de pointage de la souris.
 

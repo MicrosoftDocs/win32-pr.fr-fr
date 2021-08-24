@@ -4,12 +4,12 @@ description: Certaines limitations existent pour la création de périphériques
 ms.assetid: 7e022e5d-daa3-48fa-b9fe-4b569220e55e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e12540b1fdb8f2bc00ef2a0e596904e0b717bed1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0483ed6d5fd7348df39a4f3064f377845d6bfae1fe46abc47be5acd99e191c29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608609"
 ---
 # <a name="limitations-creating-warp-and-reference-devices"></a>Limitations de la création d’appareils de déformation et de référence
 
@@ -17,7 +17,7 @@ Certaines limitations existent pour la création de périphériques de déformat
 
 Les types de pilote de référence de type de pilote D3D10 \_ \_ \_ Warp et D3D10 \_ \_ \_ ne sont pas pris en charge sur les \_ niveaux de fonctionnalité D3D10 Feature de \_ \_ 9 \_ 1 à D3D10 \_ Feature \_ Level \_ 9 \_ 3 dans Direct3D 10,1. En outre, le \_ \_ type de pilote de type Warp du pilote D3D \_ n’est pas pris en charge sur le \_ niveau de fonctionnalité D3D \_ \_ 11 \_ 0 dans Direct3D 11,0. Autrement dit, lorsque vous appelez [**D3D10CreateDevice1**](/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1) pour créer un périphérique Direct3D 10,1 ou lorsque vous appelez [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice) pour créer un appareil Direct3D 11,0, si vous spécifiez une combinaison de l’un de ces types de pilote avec l’un de ces niveaux de fonctionnalité dans l’appel, l’appel n’est pas valide. Seules les combinaisons suivantes de niveaux de fonctionnalité, runtimes et types de pilotes sont valides pour les périphériques de déviation et de référence :
 
--   \_ \_ Type de pilote D3D \_ Warp sur tous les niveaux de fonctionnalités dans Direct3D 11,1, inclus dans Windows 8
+-   \_TYPE de pilote D3D \_ \_ WARP sur tous les niveaux de fonctionnalités dans Direct3D 11,1, qui Windows 8 comprend
 
     \_ \_ \_ Référence du type de pilote D3D sur tous les niveaux de fonctionnalités dans Direct3D 11,1
 
@@ -61,6 +61,6 @@ Les types de pilote de référence de type de pilote D3D10 \_ \_ \_ Warp et D3D1
 [**\_Niveau de fonctionnalité D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

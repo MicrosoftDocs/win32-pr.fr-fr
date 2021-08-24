@@ -4,12 +4,12 @@ description: Propriété VisibilityCause
 ms.assetid: 106574ef-af5f-44cf-9efb-9e6da19ebc1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a6e21e2cda201f8d04837d2b10efc757b93f824
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4f1e90b77dfdfae364761254676d0867a43aebacf516d4f2adad2973700d7e83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119398789"
 ---
 # <a name="visibilitycause-property"></a>Propriété VisibilityCause
 
@@ -27,7 +27,7 @@ Retourne une valeur entière qui spécifie ce qui a provoqué l’état visible 
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent*. **Caractères («***CharacterID***»). VisibilityCause**
+*agent*. **Caractères («**_CharacterID_*_»). VisibilityCause_*
 
 
 
@@ -44,11 +44,11 @@ Retourne une valeur entière qui spécifie ce qui a provoqué l’état visible 
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser cette propriété pour déterminer ce qui a provoqué le déplacement du caractère lorsque plusieurs applications partagent le même caractère. Ces valeurs sont les mêmes que celles retournées par les événements d' [**affichage**](show-event.md) et de [**masquage**](hide-event.md) .
 
@@ -57,9 +57,9 @@ Vous pouvez utiliser cette propriété pour déterminer ce qui a provoqué le d�
 [**Masquer les événements**](hide-event.md), [**afficher les événements**](show-event.md), masquer la [**méthode**](hide-method.md), afficher la [**méthode**](show-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

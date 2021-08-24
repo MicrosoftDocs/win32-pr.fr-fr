@@ -4,12 +4,12 @@ description: Vue d’ensemble des effets Direct2D.
 ms.assetid: 1446BDA9-AD4C-472C-8F1D-82ABC1880E13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dd29a4b2968e91bd0d516a74ec01538f69821bb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe0a88ff64721fc32955416dcfe108b1c9e87f7565a67fc2e1d8192a1eaf369d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317985"
 ---
 # <a name="effects"></a>Effets
 
@@ -28,12 +28,12 @@ Il existe une plage d' [effets intégrés](built-in-effects.md) à partir de cat
 -   [Filtrage](built-in-effects.md)
 -   [Composition et fusion](built-in-effects.md)
 -   [Transparence](built-in-effects.md)
--   [Color](built-in-effects.md)
+-   [Couleur](built-in-effects.md)
 -   [Éclairage et stylisation](built-in-effects.md)
 -   [Transformation et mise à l’échelle](built-in-effects.md)
 -   [Sources](built-in-effects.md)
 
-Vous pouvez appliquer des effets à n’importe quelle bitmap, y compris : les images chargées par le [composant WIC (Windows Imaging Component)](/windows/desktop/wic/-wic-api), les primitives dessinées par [Direct2D](./direct2d-portal.md), le texte de [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal)ou les scènes rendues par [Direct3D](/windows/desktop/direct3d10/d3d10-graphics).
+vous pouvez appliquer des effets à n’importe quelle bitmap, y compris : les images chargées par le [composant WIC (Windows Imaging Component)](/windows/desktop/wic/-wic-api), les primitives dessinées par [Direct2D](./direct2d-portal.md), le texte de [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal)ou les scènes rendues par [Direct3D](/windows/desktop/direct3d10/d3d10-graphics).
 
 Avec les effets Direct2D, vous pouvez écrire vos propres effets que vous pouvez utiliser pour vos applications. Une infrastructure d’effet personnalisée vous permet d’utiliser des fonctionnalités GPU, telles que les nuanceurs de pixels, les nuanceurs de vertex et l’unité de fusion. Vous pouvez également inclure d’autres effets intégrés ou personnalisés dans votre effet personnalisé. L’infrastructure pour la création d’effets personnalisés est la même que celle utilisée pour créer les effets intégrés de [Direct2D](./direct2d-portal.md). L' [API d’effet Direct2D](custom-effects.md) fournit un ensemble d’interfaces pour créer et enregistrer des effets.
 
@@ -45,9 +45,9 @@ Le reste de cette rubrique explique les principes fondamentaux des effets Direct
 |--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Liaison de nuanceurs d’effet](effect-shader-linking.md)<br/>                                                            | Direct2D utilise une optimisation appelée liaison de nuanceur d’effet qui combine plusieurs passes de rendu de graphique d’effet dans une seule passe.<br/>                                               |
 | [Effets personnalisés](custom-effects.md)<br/>                                                                          | Montre comment écrire vos propres effets personnalisés à l’aide du langage HLSL standard.<br/>                                                                                                                |
-| [Comment charger une image dans des effets Direct2D à l’aide de FilePicker](load-a-id2d1image-using-the-filepicker.md)<br/> | Montre comment utiliser [**Windows :: Storage ::P ickers :: FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker) pour charger une image dans des effets Direct2D.<br/>                                      |
+| [Comment charger une image dans des effets Direct2D à l’aide de FilePicker](load-a-id2d1image-using-the-filepicker.md)<br/> | montre comment utiliser l' [**Windows :: Stockage ::P ickers :: FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker) pour charger une image dans des effets Direct2D.<br/>                                      |
 | [Guide pratique pour enregistrer le contenu Direct2D dans un fichier image](save-direct2d-content-to-an-image-file.md)<br/>                   | Cette rubrique montre comment utiliser [**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) pour enregistrer du contenu sous la forme d’un [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) dans un fichier image encodé comme JPEG.<br/> |
-| [Comment appliquer des effets aux primitives](how-to-apply-effects-to-primitives.md)<br/>                                  | Cette rubrique montre comment appliquer une série d’effets à des primitives [Direct2D](./direct2d-portal.md) et [DirectWrite](direct2d-and-directwrite.md) .<br/>                           |
+| [Comment appliquer des effets aux primitives](how-to-apply-effects-to-primitives.md)<br/>                                  | cette rubrique montre comment appliquer une série d’effets à [Direct2D](./direct2d-portal.md) et [DirectWrite](direct2d-and-directwrite.md) primitives.<br/>                           |
 | [Contrôle de la précision et du découpage numérique dans les graphiques d’effet](precision-and-clipping-in-effect-graphs.md)<br/>  | Les applications qui restituent des effets à l’aide de Direct2D doivent veiller à atteindre le niveau souhaité de qualité et de prévisibilité en ce qui concerne la précision numérique. <br/>                    |
 
 ## <a name="applying-an-effect-to-an-image"></a>Application d’un effet à une image
@@ -147,7 +147,7 @@ Cette utilisation de l’effet de transformation affine 2D fait pivoter légère
 | Avant                                                            |
 |-------------------------------------------------------------------|
 | ![effet affin 2D avant image.](images/default-before.jpg)      |
-| After                                                             |
+| Après                                                             |
 | ![effet affin 2D après l’image.](images/21-2daffinetransform.png) |
 
 
@@ -205,7 +205,7 @@ Ce code prend l’image et modifie la couleur comme indiqué dans les exemples d
 | Avant                                                          |
 |-----------------------------------------------------------------|
 | ![effet de matrice de couleurs avant l’image.](images/default-before.jpg) |
-| After                                                           |
+| Après                                                           |
 | ![effet de matrice de couleurs après l’image.](images/15-colormatrix.png)  |
 
 

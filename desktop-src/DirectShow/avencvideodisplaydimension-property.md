@@ -4,12 +4,12 @@ ms.assetid: db7b101a-5ff8-4a62-b9e2-d05fcdc44b3d
 title: Propriété AVEncVideoDisplayDimension (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57e5f611525e68f6f47c442c6e733c6c3e7de14d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe4c6f6fbcd3f4746b4ee3b807ebb098c1bfce728c9c01614943f05351f5bb18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540719"
 ---
 # <a name="avencvideodisplaydimension-property"></a>Propriété AVEncVideoDisplayDimension
 
@@ -35,8 +35,8 @@ Les 16 bits supérieurs de la valeur contiennent la largeur, en pixels. Les 16 b
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ ms.assetid: b9ce61d1-3fc5-4963-8d2f-586a4b6a159d
 title: Interface ITConferenceBlob (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c961b8fb006f1e172f82827216292cb9d12a158f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa130e4456f206b27e41d03ead47138c777f9dad9e41d5d834bb018b29fc5447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119379089"
 ---
 # <a name="itconferenceblob-interface"></a>Interface ITConferenceBlob
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’interface **ITConferenceBlob** manipule une description de conférence textuelle. L’interface est destinée à être indépendante du format et de la syntaxe de la description de la Conférence. Pour manipuler des aspects spécifiques de la description de la Conférence, l’application doit interroger une autre interface. Actuellement, seules les descriptions de conférence SDP sont prises en charge ; l’application doit utiliser **QueryInterface** pour [**ITSdp**](itsdp.md) pour accéder aux différents champs de la description de la Conférence SDP. L’interface **ITConferenceBlob** est créée en appelant **QueryInterface** sur [**ITDirectoryObject**](/windows/desktop/api/Rend/nn-rend-itdirectoryobject).
 

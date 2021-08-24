@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETSTART (VFW. h)
 description: Le \_ message MCIWNDM GETSTART récupère l’emplacement du début du contenu d’un périphérique ou d’un fichier MCI. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetStart.
 ms.assetid: 2350616c-2aac-4ff6-b074-bb785a97cdfb
 keywords:
-- Message MCIWNDM_GETSTART Windows Multimedia
+- message MCIWNDM_GETSTART Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63cbe88df006f1f98854e42259074d82bbd87dc1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0efb5689009fdd6928afd1d2f232bcb1bbeb2160aecf3d79ddb263ed6f315de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429229"
 ---
 # <a name="mciwndm_getstart-message"></a>\_Message MCIWNDM GETSTART
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Retourne l’emplacement au format d’heure actuel.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, la valeur de retour est zéro ; Toutefois, certains appareils utilisent un emplacement de départ différent de zéro. La recherche de cet emplacement définit l’appareil au début du support.
 

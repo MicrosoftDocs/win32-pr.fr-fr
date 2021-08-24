@@ -4,16 +4,16 @@ ms.assetid: f9ea97c9-9a97-4083-82d8-29ffb8be5a77
 title: Sécurité des canaux nommés et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11cada606d8197ac2f64943aa742bbfd614fa4ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 556987cf35845de249bf0e19f3a0b481aab18e891c3b6211f26eb51571704d7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451209"
 ---
 # <a name="named-pipe-security-and-access-rights"></a>Sécurité des canaux nommés et droits d’accès
 
-La sécurité Windows vous permet de contrôler l’accès aux canaux nommés. Pour plus d’informations sur la sécurité, consultez [modèle de contrôle d’accès](/windows/desktop/SecAuthZ/access-control-model).
+Windows security vous permet de contrôler l’accès aux canaux nommés. Pour plus d’informations sur la sécurité, consultez [modèle de contrôle d’accès](/windows/desktop/SecAuthZ/access-control-model).
 
 Vous pouvez spécifier un [descripteur de sécurité](/windows/desktop/SecAuthZ/security-descriptors) pour un canal nommé quand vous appelez la fonction [**CreateNamedPipe**](/windows/desktop/api/Winbase/nf-winbase-createnamedpipea) . Le descripteur de sécurité contrôle l’accès aux terminaisons client et serveur du canal nommé. Si vous spécifiez **null**, le canal nommé obtient un descripteur de sécurité par défaut. Les listes de contrôle d’accès dans le descripteur de sécurité par défaut pour un canal nommé accordent un contrôle total au compte LocalSystem, aux administrateurs et au propriétaire créateur. Ils accordent également un accès en lecture aux membres du groupe tout le monde et du compte anonyme.
 

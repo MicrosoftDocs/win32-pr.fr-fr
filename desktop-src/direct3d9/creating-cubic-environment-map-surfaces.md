@@ -4,12 +4,12 @@ ms.assetid: 3879d215-064b-4d7d-afae-2ed46569c8bf
 title: Création de surfaces de mappage d’environnement cubique (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36be3067c6a5f21c39cfed7cab731ca875b70799
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0b37321978a40170d47718318e4b3f6898ba04d5fa229e97ada47e08e589fdcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608019"
 ---
 # <a name="creating-cubic-environment-map-surfaces-direct3d-9"></a>Création de surfaces de mappage d’environnement cubique (Direct3D 9)
 
@@ -53,7 +53,7 @@ Le premier paramètre que [**GetCubeMapSurface**](/windows/win32/api/d3d9helper/
 
  
 
-## <a name="rendering-to-cubic-environment-maps"></a>Rendu des mappages d’environnement cubiques
+## <a name="rendering-to-cubic-environment-maps"></a>rendu dans l’environnement cubique Cartes
 
 Vous pouvez copier des images sur les faces individuelles du mappage de cube comme vous le feriez pour tout autre objet de texture ou de surface. La chose la plus importante à faire avant d’effectuer un rendu sur un visage est de définir les matrices de transformation afin que la caméra soit positionnée correctement et qu’elle pointe vers la bonne direction pour cette face : vers l’avant (+ z), vers la gauche (-x), vers la droite (+ x), vers le haut (+ y) ou vers le bas.
 

@@ -1,19 +1,19 @@
 ---
-description: Un nom de paramètres régionaux est basé sur les conventions de balisage de langue de RFC 4646 (Windows Vista et versions ultérieures) et est représenté par les paramètres régionaux \_ sName.
+description: un nom de paramètres régionaux est basé sur les conventions de balisage de langue de RFC 4646 (Windows Vista et versions ultérieures) et est représenté par les paramètres régionaux \_ SNAME.
 ms.assetid: 221aae7b-3a7c-4995-ae78-50d97de436d8
 title: Noms de paramètres régionaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9808db94615cba4416c12995b9c969eaaf5a3fee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fed4c09900544e96c0f05166d1f4054972e9d8ff89fc108c185695a7506859bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147401"
 ---
 # <a name="locale-names"></a>Noms de paramètres régionaux
 
-Un nom de [paramètres régionaux](locales-and-languages.md) est basé sur les conventions de balisage de langue de RFC 4646 (Windows Vista et versions ultérieures) et est représenté par les [paramètres régionaux \_ sName](locale-sname.md). En règle générale, le modèle `<language>-<REGION>` est utilisé. Ici, Language est un code de langue ISO 639 en minuscules. Les codes de la norme ISO 639-1 sont utilisés lorsqu’ils sont disponibles. Dans le cas contraire, les codes de ISO 639-2/T sont utilisés. REGION spécifie un identificateur de pays/région ISO 3166-1 en majuscules. Par exemple, le nom des paramètres régionaux pour l’anglais (États-Unis) est « en-US » et le nom des paramètres régionaux pour maldivien (Maldives) est « DV-MV ».
+un nom de [paramètres régionaux](locales-and-languages.md) est basé sur les conventions de balisage de langue de RFC 4646 (Windows Vista et versions ultérieures) et est représenté par les [paramètres régionaux \_ SNAME](locale-sname.md). En règle générale, le modèle `<language>-<REGION>` est utilisé. Ici, Language est un code de langue ISO 639 en minuscules. Les codes de la norme ISO 639-1 sont utilisés lorsqu’ils sont disponibles. Dans le cas contraire, les codes de ISO 639-2/T sont utilisés. REGION spécifie un identificateur de pays/région ISO 3166-1 en majuscules. Par exemple, le nom des paramètres régionaux pour l’anglais (États-Unis) est « en-US » et le nom des paramètres régionaux pour maldivien (Maldives) est « DV-MV ».
 
 > [!Note]  
 > La [longueur maximale du \_ nom \_ \_ de paramètres régionaux](locale-name-constants.md) donne la longueur maximale d’un nom de paramètres régionaux. Il comprend de l’espace pour un caractère null de fin.

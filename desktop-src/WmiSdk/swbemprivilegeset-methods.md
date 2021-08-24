@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes SWbemPrivilegeSet
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 888b599467aab9c104674ed2d4c70abb843a1a52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 193d9c271c3b6bbdcf1dadb979ff59425d08384b13b22e81aff647a69a3aaf4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611659"
 ---
 # <a name="swbemprivilegeset-methods"></a>Méthodes SWbemPrivilegeSet
 

@@ -1,5 +1,5 @@
 ---
-description: Obtient le composant WIA (Windows Image Acquisition) 2,0 Preview.
+description: obtient le composant de prévisualisation WIA (Windows Image Acquisition) 2,0.
 ms.assetid: 0b773c4c-f080-41fa-8902-4243a80fc67c
 title: 'IWiaItem2 :: GetPreviewComponent, méthode (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2e0881f68044c30731322c89d6cc2f19ce7277a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ac3705b4be60ce53fee411df1142fb64bbd1c393864b644e260829080be8f81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450429"
 ---
 # <a name="iwiaitem2getpreviewcomponent-method"></a>IWiaItem2 :: GetPreviewComponent, méthode
 
-Obtient le composant WIA (Windows Image Acquisition) 2,0 Preview.
+obtient le composant de prévisualisation WIA (Windows Image Acquisition) 2,0.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -64,7 +64,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette fonction pour retourner un pointeur vers l’adresse du composant WIA 2,0 Preview pour tout objet [**IWiaItem2**](-wia-iwiaitem2.md) dans l’arborescence d’objets d’un périphérique matériel WIA 2,0.
 
@@ -76,8 +76,8 @@ Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

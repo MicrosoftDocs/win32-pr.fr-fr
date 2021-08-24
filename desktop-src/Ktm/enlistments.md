@@ -4,12 +4,12 @@ ms.assetid: 9c201699-c00b-4efe-9f30-8d4e182de785
 title: Inscriptions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52820af2a7b280bc4740d0309fb627725e648685
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c19fea9c19da9bb16f81bd417e22c943876997ac224e3823020e5660218dfa5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146582"
 ---
 # <a name="enlistments"></a>Inscriptions
 

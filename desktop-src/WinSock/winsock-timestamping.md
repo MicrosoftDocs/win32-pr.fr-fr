@@ -3,12 +3,12 @@ title: Horodatage Winsock
 description: Les horodateurs de paquets sont une fonctionnalité essentielle pour de nombreuses applications de synchronisation d’horloges &mdash; , par exemple, le protocole de précision. Plus la génération d’horodatage est proche de la réception ou de l’envoi d’un paquet par le matériel de carte réseau, plus l’application de synchronisation peut être précise.
 ms.topic: article
 ms.date: 10/22/2020
-ms.openlocfilehash: eae0dce8c2c16bc187ef5522f323e7f36d7fc0b4
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 329c13d76fc0c4ce0d87550623e7419af14bfdd268bf359a8f50729e0b0596e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110559956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568989"
 ---
 # <a name="winsock-timestamping"></a>Horodatage Winsock
 

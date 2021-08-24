@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc99d9b38ab43327b4a435c4128378d49682935
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 69a8a22257aea0f30d2620d610a2ef3745c9c2a640f034bd1c30d1f582a6c9a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512299"
 ---
 # <a name="ivmguestossetparameter-method"></a>IVMGuestOS :: SetParameter, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Définit un paramètre nommé dans le système d’exploitation invité.
 
@@ -59,7 +59,7 @@ Valeur du paramètre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -81,7 +81,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 ## <a name="remarks"></a>Remarques
 
-La machine virtuelle doit être en cours d’exécution et les composants d’intégration doivent être installés lorsque cette méthode est appelée. Cette méthode est uniquement prise en charge pour les systèmes d’exploitation invités basés sur Windows.
+La machine virtuelle doit être en cours d’exécution et les composants d’intégration doivent être installés lorsque cette méthode est appelée. cette méthode est uniquement prise en charge pour les systèmes d’exploitation invités basés sur Windows.
 
 Avec les composants d’intégration installés, la clé suivante est automatiquement ajoutée au registre du système d’exploitation invité :
 
@@ -94,13 +94,13 @@ Lorsque le système d’exploitation invité démarre, les valeurs de chaîne de
 -   **PhysicalHostNameFullyQualified**
 -   **VirtualMachineName**
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

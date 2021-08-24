@@ -3,7 +3,7 @@ title: Message EM_SETTABLEPARMS (RichEdit. h)
 description: Modifie les paramètres des lignes d’une table.
 ms.assetid: 6CE9B8D1-68C9-4692-8454-24BC81E9038F
 keywords:
-- EM_SETTABLEPARMS les contrôles de message Windows
+- EM_SETTABLEPARMS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86fa77774bd7fcf461fc74b479a57304a5f8ee3c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bccb6258f03d76391bf2288331efb3d9ebde4fb903fe907eaa5e9d37e7497a74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576349"
 ---
 # <a name="em_settableparms-message"></a>\_Message SETTABLEPARMS em
 
@@ -59,7 +59,7 @@ Retourne S \_ OK en cas de réussite, ou l’un des codes d’erreur suivants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message modifie les paramètres du nombre de lignes spécifié par le membre **cRow** de la structure [**TABLEROWPARMS**](/windows/desktop/api/Richedit/ns-richedit-tablerowparms) , si la table contient ce nombre de lignes consécutives. Si **cRow** est inférieur à 0, le message itère jusqu’à la fin de la table. Si le nombre de cellules diffère du nombre de cellules actuel par + 1 ou 1, il insère ou supprime la cellule à l’index spécifié par le membre **iCell** de **TABLEROWPARMS**. La ligne de départ du tableau est identifiée par une position de caractère. Cette position est spécifiée par les membres **cpStartRow** dont les valeurs sont supérieures ou égales à zéro. La position doit se trouver à l’intérieur de la ligne de la table, mais pas à l’intérieur d’une table imbriquée, sauf si vous souhaitez modifier les paramètres de la table s. Si le membre **cpStartRow** est 1, la position du caractère est donnée par la sélection actuelle. Pour ce faire, placez la sélection n’importe où dans la ligne de la table ou sélectionnez la ligne contenant l’extrémité active de la sélection à la fin de la ligne du tableau.
 
@@ -69,8 +69,8 @@ Ce message modifie les paramètres du nombre de lignes spécifié par le membre 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

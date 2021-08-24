@@ -1,25 +1,25 @@
 ---
 title: Bluetooth et getpeername
-description: Utilisé pour récupérer l’adresse Bluetooth du périphérique Bluetooth homologue.
+description: utilisé pour récupérer l’adresse Bluetooth de l’homologue Bluetooth appareil.
 ms.assetid: e064214c-1899-4d17-a426-dd4230385b07
 keywords:
 - Bluetooth Bluetooth
-- Bluetooth getpeername
-- Bluetooth et Bluetooth getpeername
+- getpeername Bluetooth
+- Bluetooth et getpeername Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bac7eaba20902a72caa27427b99a72d8a4bc0134
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3f77d75c117be033576a1df72aa639ceecd3450be2a89675032bfad5caadd12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588439"
 ---
 # <a name="bluetooth-and-getpeername"></a>Bluetooth et getpeername
 
-La fonction [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername) est utilisée pour récupérer l’adresse Bluetooth du périphérique Bluetooth homologue. La fonction **getpeername** est uniquement valide pour les sockets Bluetooth connectés.
+la fonction [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername) est utilisée pour récupérer l’adresse Bluetooth de l’homologue Bluetooth appareil. la fonction **getpeername** est valide uniquement pour les sockets Bluetooth connectés.
 
-Pour plus d’informations, consultez [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).
+pour plus d’informations, consultez [Windows sockets](/windows/desktop/WinSock/windows-sockets-start-page-2).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -31,6 +31,6 @@ Pour plus d’informations, consultez [Windows Sockets](/windows/desktop/WinSock
 [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

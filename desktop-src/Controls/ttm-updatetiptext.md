@@ -3,7 +3,7 @@ title: Message TTM_UPDATETIPTEXT (commctrl. h)
 description: Définit le texte d’info-bulle d’un outil.
 ms.assetid: 2a7432dd-76f9-42b4-b639-178dce1d89ef
 keywords:
-- TTM_UPDATETIPTEXT les contrôles de message Windows
+- TTM_UPDATETIPTEXT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6c94b14ec83c190ce019ecba1413d2fa05f0103
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7c44b28d4913e4ae502db4d48268de945660610b374b7a1b98c0754fe99bafc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542848"
 ---
 # <a name="ttm_updatetiptext-message"></a>\_Message atténuation UPDATETIPTEXT
 
@@ -45,14 +45,14 @@ Pointeur vers une structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commct
 
 Pas de valeur de retour.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **Atténuation \_ UPDATETIPTEXTW** (Unicode) et **atténuation \_ UPDATETIPTEXTA** (ANSI)<br/>       |
 

@@ -8,12 +8,12 @@ keywords:
 - configuration de l’analyse, types énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8f62c966db509d48ebaed61259a7422f662aae9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0be4d1c4504c5a2961e74aabfc0bc2acd4ab527dd593e5984e778bc893c6bad4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146132"
 ---
 # <a name="monitor-configuration-enumeration-types"></a>Surveiller les types d’énumération de configuration
 
@@ -33,7 +33,7 @@ Les énumérations suivantes sont utilisées par les fonctions de configuration 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -42,9 +42,9 @@ Les énumérations suivantes sont utilisées par les fonctions de configuration 
 [Référence de configuration de l’analyse](monitor-configuration-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

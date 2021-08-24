@@ -8,12 +8,12 @@ keywords:
 - ADSI, recherche, IDirectorySearch, autres options de recherche, tri des résultats de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8433d24b06ac4d361d6520d8af3376ea12acac1f
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 7864a3878d2cdc44d58c6f6090f6b791b9fe29b3d2613e6e3d4aaf0b6289e100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119443869"
 ---
 # <a name="sorting-the-search-results-with-idirectorysearch"></a>Tri des résultats de la recherche avec IDirectorySearch
 
@@ -45,6 +45,6 @@ SearchPref.vValue.ProviderSpecific.lpValue = (LPBYTE)&SortKey;
 
 Active Directory ne prend pas en charge le tri sur les attributs construits, il n’est donc pas possible de spécifier un attribut construit pour le tri. L’attribut [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname) ne peut pas non plus être utilisé pour le tri. Active Directory ne permet pas non plus d’effectuer un tri sur plusieurs attributs, l’option SEARCHPREF de l’option Trier sur les publicités ne peut donc contenir qu’une [**seule structure \_**](/windows/desktop/api/Iads/ns-iads-ads_sortkey) **\_ \_ \_ de type de clé** .
 
- 
+ 
 
- 
+ 

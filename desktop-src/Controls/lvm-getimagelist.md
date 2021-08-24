@@ -3,7 +3,7 @@ title: Message LVM_GETIMAGELIST (commctrl. h)
 description: Récupère le handle d’une liste d’images utilisée pour dessiner des éléments de vue de liste. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView GetImageList.
 ms.assetid: dd48d8b5-6dbd-48ab-95c3-0fcf1e8c24f0
 keywords:
-- LVM_GETIMAGELIST les contrôles de message Windows
+- LVM_GETIMAGELIST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0abc68c5e5dd9a18c3ec203ad7fe3db97a542845
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 339de36c85b4a5d39476a93cde71cbc6db23d1bc08946d3ce2d1ab1b5a4cb926
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540809"
 ---
 # <a name="lvm_getimagelist-message"></a>\_Message GETIMAGELIST LVM
 
@@ -62,8 +62,8 @@ Retourne le handle de la liste d’images spécifiée en cas de réussite, ou **
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -6,12 +6,12 @@ keywords:
 - BITS du travail de transfert, progression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 085ddcdeea106be2998f828879bc92273f22b328
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 09da4791bffd075d1fb0dd5868f0b78c1b949a0384ff9203555bf18c10ff39cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323249"
 ---
 # <a name="determining-the-progress-of-a-job"></a>Détermination de la progression d’un travail
 
@@ -88,9 +88,9 @@ if (SUCCEEDED(hr))
 
 Les fichiers contiennent également des informations de progression. Pour récupérer les informations de progression, utilisez la méthode [**IBackgroundCopyFile :: GetProgress**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyfile-getprogress) . Pour plus d’informations sur la récupération des fichiers d’un travail, consultez [énumération de fichiers dans un travail](enumerating-files-in-a-job.md).
 
- 
+ 
 
- 
+ 
 
 
 

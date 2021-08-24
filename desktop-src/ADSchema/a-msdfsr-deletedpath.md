@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31d39c0140ef15de491fe84b1a314c9bf76b10ee
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f2fe3da5c51180c125b2d34b28cbdf860e8d26589e98b93edf30925812d887fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119298899"
 ---
 # <a name="ms-dfsr-deletedpath-attribute"></a>attribut ms-DFSR-DeletedPath
 
@@ -42,7 +42,7 @@ Chemin d’accès complet du répertoire supprimé.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -55,7 +55,7 @@ Chemin d’accès complet du répertoire supprimé.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
@@ -76,7 +76,7 @@ Chemin d’accès complet du répertoire supprimé.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
@@ -97,7 +97,7 @@ Chemin d’accès complet du répertoire supprimé.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |

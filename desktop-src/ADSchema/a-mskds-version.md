@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31f4187fd70023db097fb1a29001810bca8a445c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 810e1fe57bd762ee683158820363d91ed0fbbcfbdcbf5cb9e816c13147a2322d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582739"
 ---
 # <a name="ms-kds-version-attribute"></a>MS-KDS-version (attribut)
 
@@ -36,7 +36,7 @@ Numéro de version de cette clé racine.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2176              |
 | System-ID-GUID    | d5f07340-e6b0-1e4a-97be-0d3318bd9db1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

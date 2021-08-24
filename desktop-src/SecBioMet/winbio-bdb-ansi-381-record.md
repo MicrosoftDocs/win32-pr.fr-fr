@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f30af31d88349dbe02066f231cdff21293aebe90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15e30cd66348245aa3090fb21188d7d1cea347c1b28ee51243d2effd9b52609f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119480339"
 ---
 # <a name="winbio_bdb_ansi_381_record-structure"></a>\_Structure d’enregistrement WINBIO BDB \_ ANSI \_ 381 \_
 
@@ -111,9 +111,9 @@ Réservé. Doit être défini sur zéro (0).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le membre *position* spécifie la zone de la main ou le Palm utilisé pour créer l’échantillon biométrique. Le Windows Biometric Framework (WBF) prend actuellement en charge uniquement la capture d’empreintes digitales et utilise les constantes suivantes pour représenter les informations de position.
+Le membre *position* spécifie la zone de la main ou le Palm utilisé pour créer l’échantillon biométrique. le Windows Biometric Framework (WBF) prend actuellement en charge uniquement la capture d’empreintes digitales et utilise les constantes suivantes pour représenter les informations de position.
 
 -   WINBIO \_ ANSI \_ 381 \_ pos \_ inconnu
 -   WINBIO \_ ANSI \_ 381 \_ pos \_ RH \_
@@ -132,7 +132,7 @@ Le membre *position* spécifie la zone de la main ou le Palm utilisé pour crée
 
 > [!IMPORTANT]
 >
-> N’essayez pas de valider la valeur fournie pour la valeur de *position* . Le service de biométrie Windows validera la valeur fournie avant de la passer à votre implémentation. Si la valeur est **WINBIO \_ sous-type \_ aucune \_ information** ou **WINBIO sous- \_ type \_ any**, validez le cas échéant.
+> N’essayez pas de valider la valeur fournie pour la valeur de *position* . le Service de biométrie Windows validera la valeur fournie avant de la passer à votre implémentation. Si la valeur est **WINBIO \_ sous-type \_ aucune \_ information** ou **WINBIO sous- \_ type \_ any**, validez le cas échéant.
 
  
 
@@ -142,8 +142,8 @@ Le membre *position* spécifie la zone de la main ou le Palm utilisé pour crée
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa4cecafc9e5d8e0f55c6e9d0dbfe49924d54f14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cad5af24170f47125136e87e055413a576821bf75d3f5f87532d026d0bb2fd0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492969"
 ---
 # <a name="gllinewidth-function"></a>glLineWidth fonction)
 
@@ -57,14 +57,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | la *largeur* était inférieure ou égale à zéro.<br/>                                                                                    |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glLineWidth** spécifie la largeur pixellisée des lignes avec et sans alias. L’utilisation d’une largeur de ligne autre que 1,0 a des effets différents, selon que l’anticrénelage de ligne est activé ou non. L’anticrénelage de ligne est contrôlé en appelant [**glEnable**](glenable.md) et **glDisable** avec l’argument GL \_ line \_ Smooth.
 

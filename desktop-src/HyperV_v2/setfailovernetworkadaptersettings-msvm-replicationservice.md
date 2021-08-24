@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: da5bb8c820e1dbca5103c430a7b2ce2a525a8fca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 744c1b2e56fb50e5a0c16db7d03d7558b1ed69360de98f69a4aac795f9f7db63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147762"
 ---
 # <a name="setfailovernetworkadaptersettings-method-of-the-msvm_replicationservice-class"></a>Méthode SetFailoverNetworkAdapterSettings de la \_ classe ReplicationService MSVM
 
-Configure les paramètres IP de la carte réseau à appliquer à un ordinateur virtuel après un basculement. Ces paramètres de configuration sont appliqués après une opération de basculement, immédiatement après l’établissement de la communication avec le composant d’intégration KVP Exchange s’exécutant dans le système d’exploitation invité.
+Configure les paramètres IP de la carte réseau à appliquer à un ordinateur virtuel après un basculement. ces paramètres de configuration sont appliqués après une opération de basculement, immédiatement après l’établissement de la communication avec le composant d’intégration KVP Exchange s’exécutant dans le système d’exploitation invité.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -113,8 +113,8 @@ Le **système n’est pas disponible** (32777)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -4,17 +4,17 @@ ms.assetid: f16fdfa3-b080-47ee-a7dd-241fe2d24278
 title: Codes d’erreur système (8200-8999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 7500ae4c178999de8052b0858089604652dc5237
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e9fd65025c3d51575cb0ece83cba14e0c62980d11a60ec6cb351919b6c7714c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119572959"
 ---
 # <a name="system-error-codes-8200-8999"></a>Codes d’erreur système (8200-8999)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) pour les erreurs 8200 à 8999. Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
@@ -2199,7 +2199,7 @@ L’attribut de nom unique n’a pas pu être lu.
 
 
 
-Aucun renvoi supérieur n'a été configuré pour le service d'annuaire. Le service d'annuaire n'est donc pas en mesure d'émettre des renvois vers des objets situés en dehors de cette forêt.
+Aucun renvoi supérieur n'a été configuré pour le service d'annuaire. Le service d’annuaire n’est donc pas en mesure d’émettre des références aux objets en dehors de cette forêt.
 
 
 </dt> </dl> </dd> <dt>
@@ -3356,7 +3356,7 @@ Un en-tête de contexte d’appellation doit être l’enfant immédiat d’un a
 
 
 
-Le répertoire ne peut pas valider le nom de contexte de nommage proposé, car il ne contient pas de réplica du contexte d’appellation au-dessus du contexte d’appellation proposé. Vérifiez que le rôle de maître d’attribution de noms de domaine est détenu par un serveur configuré en tant que serveur de catalogue global et que le serveur est à jour avec ses partenaires de réplication. (S’applique uniquement aux maîtres d’attribution de noms de domaine Windows 2000.)
+Le répertoire ne peut pas valider le nom de contexte de nommage proposé, car il ne contient pas de réplica du contexte d’appellation au-dessus du contexte d’appellation proposé. Vérifiez que le rôle de maître d’attribution de noms de domaine est détenu par un serveur configuré en tant que serveur de catalogue global et que le serveur est à jour avec ses partenaires de réplication. (s’applique uniquement aux maîtres d’attribution de noms de domaine Windows 2000.)
 
 
 </dt> </dl> </dd> <dt>
@@ -3720,7 +3720,7 @@ Le chargement du cache de schéma n’a pas pu convertir le SD par défaut de la
 
 
 
-Seuls les serveurs DSA configurés comme serveurs de catalogue global doivent être autorisés à conserver le rôle FSMO du maître d’attribution de noms de domaine. (S’applique uniquement aux serveurs Windows 2000.)
+Seuls les serveurs DSA configurés comme serveurs de catalogue global doivent être autorisés à conserver le rôle FSMO du maître d’attribution de noms de domaine. (s’applique uniquement aux serveurs Windows 2000.)
 
 
 </dt> </dl> </dd> <dt>
@@ -3954,7 +3954,7 @@ L’objet source et l’objet de destination doivent être du même type.
 
 
 
-L’initialisation du gestionnaire des comptes de sécurité a échoué en raison de l’erreur suivante : %1. État d’erreur : 0x %2. Cliquez sur OK pour arrêter le système et redémarrez en mode sans échec. Pour plus d’informations, consultez le journal des événements.
+L’initialisation du gestionnaire des comptes de sécurité a échoué en raison de l’erreur suivante : %1. État d’erreur : 0x %2. cliquez sur OK pour arrêter le système et redémarrez en Mode Coffre. Pour plus d’informations, consultez le journal des événements.
 
 
 </dt> </dl> </dd> <dt>
@@ -5020,7 +5020,7 @@ L’objet serveur pour le contrôleur de domaine n’existe pas.
 
 
 
-L’objet Paramètres NTDS pour le contrôleur de domaine n’existe pas.
+l’objet Paramètres NTDS du contrôleur de domaine n’existe pas.
 
 
 </dt> </dl> </dd> <dt>
@@ -5331,8 +5331,8 @@ Le système ne fait pas autorité pour le compte spécifié et ne peut donc pas 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

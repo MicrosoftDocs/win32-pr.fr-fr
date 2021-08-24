@@ -4,12 +4,12 @@ description: Cette section décrit les trois phases de conception de l’interfa
 ms.assetid: ab544cb9-eed3-4575-a8dd-2f5d7b5c575f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b531fb07a1805c14441c81777bbdddad0739e7cb
-ms.sourcegitcommit: e5c43274e96cb8fd1b60fc187ef16723e9258367
+ms.openlocfilehash: a3c7c965c5c7bfd0250c2116ee23bd91b2125ae5ea6bf15bd714ed13d58e000d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "104030719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589139"
 ---
 # <a name="overview-of-the-user-interface-development-process"></a>Vue d’ensemble du processus de développement de l’interface utilisateur
 
@@ -49,9 +49,9 @@ L’exemple suivant présente les phases typiques du processus de Dvelopment de 
 -   Test d’utilisabilité : Testez l’application avec divers utilisateurs et scénarios.
 -   Test d’accessibilité : Testez l’application avec des technologies accessibles et des outils de test automatisés.
 
- 
+ 
 
- 
+ 
 
 
 

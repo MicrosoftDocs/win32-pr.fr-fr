@@ -1,41 +1,41 @@
 ---
-description: L’encodeur Windows Media Video 9 encode les flux vidéo.
+description: l’encodeur Windows Media Video 9 encode les flux vidéo.
 ms.assetid: 1d0a41bc-7f7c-4e25-860c-1108ab292951
-title: Encodeur Windows Media Video 9 (Wmcodecdsp. h)
+title: Windows Encodeur Media Video 9 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c36ee5823c585d60ee74e75f99e8ec9b4d91f5cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 852d3d3e7feb06cfbe9e9149fd9fd55d76ecf5abe2fbe0d6eea6ac961a0561ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119398239"
 ---
-# <a name="windows-media-video-9-encoder"></a>Encodeur Windows Media Video 9
+# <a name="windows-media-video-9-encoder"></a>Windows Encodeur Media Video 9
 
-L’encodeur Windows Media Video 9 encode les flux vidéo. L’encodeur prend en charge les quatre catégories de sortie encodées suivantes.
+l’encodeur Windows Media Video 9 encode les flux vidéo. L’encodeur prend en charge les quatre catégories de sortie encodées suivantes.
 
--   Profil simple Windows Media Video 9
--   Profil principal du Windows Media Video 9
--   Profil avancé Windows Media Video 9
--   Image Windows Media Video 9,1
+-   Windows Profil simple Media Video 9
+-   Windows Profil principal Media Video 9
+-   Windows Profil Media Video 9 Advanced
+-   Windows Image Media Video 9,1
 
 ## <a name="class-identifier"></a>Identificateur de classe
 
-L’identificateur de classe (CLSID) de l’encodeur de Windows Media Video est représenté par la constante **CLSID \_ CWMV9EncMediaObject**. Vous pouvez créer une instance de l’encodeur vidéo en appelant **CoCreateInstance**.
+l’identificateur de classe (CLSID) de l’encodeur de Windows Media Video est représenté par la constante **clsid \_ CWMV9EncMediaObject**. Vous pouvez créer une instance de l’encodeur vidéo en appelant **CoCreateInstance**.
 
 ## <a name="interfaces"></a>Interfaces
 
-Un objet encodeur vidéo expose l’interface [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) afin que l’objet puisse être utilisé en tant qu’objet de média DirectX (DMO) et expose l’interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) afin que l’objet puisse être utilisé en tant que transformation de Media Foundation (MFT).
+un objet encodeur vidéo expose l’interface [**IMediaObject**](/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject) afin que l’objet puisse être utilisé en tant qu’objet DirectX Media (DMO) et expose l’interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) afin que l’objet puisse être utilisé en tant que transformation de Media Foundation (MFT).
 
-Un encodeur vidéo se comporte comme un DMO ou une table MFT en fonction des interfaces que vous obtenez et de la version de Windows en cours d’exécution. Le tableau suivant présente les conditions dans lesquelles un encodeur vidéo se comporte comme un DMO ou une table MFT.
+un encodeur vidéo se comporte comme un DMO ou une table MFT selon les interfaces que vous obtenez et la version de Windows en cours d’exécution. le tableau suivant présente les conditions dans lesquelles un encodeur vidéo se comporte comme un DMO ou une table MFT.
 
 
 
 | Système d’exploitation            | Comportement de l’encodeur                                                                                                                                                      |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows XP                  | Un encodeur vidéo Windows Media se comporte toujours comme un DMO.                                                                                                                |
-| Windows Vista et Windows 7 | Par défaut, un encodeur vidéo Windows Media se comporte comme un DMO. Si vous obtenez une interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) sur un encodeur vidéo, elle se comporte comme une table MFT. |
+| Windows XP                  | un encodeur vidéo multimédia Windows se comporte toujours comme DMO.                                                                                                                |
+| Windows Vista et Windows 7 | par défaut, un Windows Media video encodeur se comporte comme un DMO. Si vous obtenez une interface [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) sur un encodeur vidéo, elle se comporte comme une table MFT. |
 
 
 
@@ -43,7 +43,7 @@ Un encodeur vidéo se comporte comme un DMO ou une table MFT en fonction des int
 
 ## <a name="input-formats"></a>Formats d’entrée
 
-L’encodeur Windows Media Video prend en charge les sous-types de médias d’entrée suivants lorsqu’il agit en tant que DMO.
+l’encodeur Windows Media Video prend en charge les sous-types de médias d’entrée suivants lorsqu’il agit en tant que DMO.
 
 -   MEDIASUBTYPE \_ IYUV
 -   MEDIASUBTYPE \_ I420
@@ -60,7 +60,7 @@ L’encodeur Windows Media Video prend en charge les sous-types de médias d’e
 -   MEDIASUBTYPE \_ RGB8
 -   photomotion MEDIASUBTYPE \_
 
-L’encodeur Windows Media Video prend en charge les sous-types de médias d’entrée suivants lorsqu’il joue le rôle de MFT.
+l’encodeur Windows Media Video prend en charge les sous-types de médias d’entrée suivants lorsqu’il joue le rôle de MFT.
 
 -   MFVideoFormat \_ IYUV
 -   MFVideoFormat \_ I420
@@ -85,10 +85,10 @@ Le tableau suivant présente les codes à quatre caractères (FOURCCs) qui corre
 
 | Category                               | FOURCC                                   |
 |----------------------------------------|------------------------------------------|
-| Profil simple Windows Media Video 9   | "WMV3"                                   |
-| Profil principal du Windows Media Video 9     | "WMV3"                                   |
-| Profil avancé Windows Media Video 9 | "WVC1"                                   |
-| Image Windows Media Video 9,1          | « WMVP » pour 9,1, « WVP2 » pour 9,1 version 2 |
+| Windows Profil simple Media Video 9   | "WMV3"                                   |
+| Windows Profil principal Media Video 9     | "WMV3"                                   |
+| Windows Profil Media Video 9 Advanced | "WVC1"                                   |
+| Windows Image Media Video 9,1          | « WMVP » pour 9,1, « WVP2 » pour 9,1 version 2 |
 
 
 
@@ -98,7 +98,7 @@ Pour faire la distinction entre profil simple et profil principal, définissez l
 
 ## <a name="properties"></a>Propriétés
 
-L’encodeur Windows Media Video 9 prend en charge les propriétés suivantes.
+l’encodeur Windows Media Video 9 prend en charge les propriétés suivantes.
 
 
 
@@ -186,7 +186,7 @@ En écriture seule.<br />
 </tr>
 <tr class="even">
 <td><a href="mfpkey-compressionoptimizationtypeproperty.md"><strong>MFPKEY_COMPRESSIONOPTIMIZATIONTYPE</strong></a></td>
-<td>Spécifie le type d’optimisation à utiliser pour le codec de profil avancé Windows Media Video 9.<br/> <dl> Windows XP et versions ultérieures.<br />
+<td>spécifie le type d’optimisation à utiliser pour le codec de profil avancé Windows Media Video 9.<br/> <dl> Windows XP et versions ultérieures.<br />
 Profil simple, profil principal, profil avancé.<br />
 Écriture.<br />
 </dl></td>

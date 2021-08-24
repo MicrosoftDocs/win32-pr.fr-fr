@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52dca97dc5d8f501588cebc04ceae090fd1ce69c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 99d6f26e28528f633e9dd0593e60d2e4d7b54780740feab35ca211a2494751ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106536303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552719"
 ---
 # <a name="ms-ds-bridgehead-servers-used-attribute"></a>ms-DS-tête de pont-serveurs-attribut utilisé
 
@@ -42,7 +42,7 @@ Liste des serveurs de tête de pont utilisés par le KCC lors de l’exécution 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

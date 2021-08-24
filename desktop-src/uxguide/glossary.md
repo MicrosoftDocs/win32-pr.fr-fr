@@ -1,20 +1,20 @@
 ---
 title: Glossaire (concepts de base de la conception)
-description: Glossaire des termes utilisés dans les instructions d’expérience utilisateur pour les applications de bureau Windows.
+description: glossaire des termes utilisés dans les instructions d’expérience utilisateur pour les applications de bureau Windows.
 ms.assetid: 9f35f9be-6165-4d98-a2e6-26fb4fc91eae
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 3009940612d0b42ae8ee225e8db59ebabdbf35fa
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 7b611d1982427ebea68b51cba2f597fa54e4a28f4cbf96b4debf45731ce68e3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106527268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119334449"
 ---
 # <a name="glossary-design-basics"></a>Glossaire (concepts de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 [A](#alink) \| [B](#b) \| [C](#c) \| [D](#d) \| [e](#e) \| [F](#f) \| [G](#g) \| [H](#h) \| [I](#i) \| [J](#j) \| [K](#k) \| [L](#l) \| [M](#m)\|
 
@@ -82,7 +82,7 @@ Zone de texte dans laquelle le focus d’entrée passe automatiquement à la zon
 
 **forfaitaire**
 
-Contrôle Windows commun qui informe les utilisateurs d’un problème non critique ou d’une condition spéciale.
+contrôle de Windows commun qui informe les utilisateurs d’un problème non critique ou d’une condition spéciale.
 
 **barre de navigation**
 
@@ -92,7 +92,7 @@ Contrôle Windows commun qui informe les utilisateurs d’un problème non criti
 
 **case à cocher**
 
-Contrôle Windows commun qui permet aux utilisateurs de choisir entre différents choix, tels que l’activation ou la désactivation d’une option.
+contrôle de Windows commun qui permet aux utilisateurs de choisir entre des choix manifestement différents, tels que l’activation ou la désactivation d’une option.
 
 **ouvrant**
 
@@ -108,7 +108,7 @@ Dans une case à cocher, indique que l’option n’est pas définie. Voir aussi
 
 **zone de liste déroulante**
 
-Contrôle Windows commun qui combine les caractéristiques d’une liste déroulante ou d’une zone de liste standard, et une zone de texte modifiable. Voir aussi : [zone de liste](#l), [liste déroulante](#d).
+contrôle de Windows commun qui combine les caractéristiques d’une liste déroulante ou d’une zone de liste standard, et une zone de texte modifiable. Voir aussi : [zone de liste](#l), [liste déroulante](#d).
 
 **zone de commande**
 
@@ -116,7 +116,7 @@ Zone dans une fenêtre où se trouvent les boutons de validation. En règle gén
 
 **bouton de commande**
 
-Contrôle Windows commun qui permet aux utilisateurs de lancer immédiatement une action.
+contrôle de Windows commun qui permet aux utilisateurs de lancer immédiatement une action.
 
 **lien de commande**
 
@@ -142,7 +142,7 @@ Page d’Assistant utilisée pour indiquer la fin d’un Assistant. Ces pages ne
 
 Boîte de dialogue utilisée par le contrôle de compte d’utilisateur (UAC) qui permet aux administrateurs protégés d’élever temporairement leurs privilèges.
 
-**contrainte**
+**restrictions**
 
 Dans les contrôles qui impliquent une entrée d’utilisateur, tels que des zones de texte, les contraintes d’entrée sont un moyen utile d’éviter les erreurs. Par exemple, si la seule entrée valide pour un contrôle particulier est numérique, le contrôle peut utiliser les contraintes de valeur appropriées pour appliquer cette exigence.
 
@@ -156,7 +156,7 @@ Onglet contenant une collection de commandes qui sont pertinentes uniquement lor
 
 **Panneau de configuration**
 
-Programme Windows qui recueille et affiche pour les utilisateurs les fonctionnalités au niveau du système de l’ordinateur, y compris l’installation et la configuration du matériel et des logiciels. Dans le panneau de configuration, les utilisateurs peuvent cliquer sur des éléments individuels pour configurer des fonctionnalités au niveau du système et effectuer des tâches associées. Voir aussi : élément du panneau de configuration.
+Windows programme qui collecte et affiche pour les utilisateurs les fonctionnalités au niveau du système de l’ordinateur, y compris l’installation et la configuration du matériel et des logiciels. Dans le panneau de configuration, les utilisateurs peuvent cliquer sur des éléments individuels pour configurer des fonctionnalités au niveau du système et effectuer des tâches associées. Voir aussi : élément du panneau de configuration.
 
 **élément du panneau de configuration**
 
@@ -172,7 +172,7 @@ Degré de gravité le plus élevé. Par exemple, dans les messages d’erreur et
 
 **icône personnalisée**
 
-Représentation graphique propre à un programme (par opposition à une icône système Windows).
+représentation graphique propre à un programme (par opposition à une icône de système Windows).
 
 **visuels personnalisés**
 
@@ -186,7 +186,7 @@ Le bouton de commande ou le lien qui est appelé quand les utilisateurs appuient
 
 **moniteur par défaut**
 
-Analyse avec le menu Démarrer, la barre des tâches et la zone de notification.
+analyse avec la menu Démarrer, la barre des tâches et la zone de notification.
 
 **modèle de validation différée**
 
@@ -194,7 +194,7 @@ Modèle de validation utilisé par les pages spoke de l’élément du panneau d
 
 **écran**
 
-Zone de travail à l’écran fournie par Windows, analogue à un bureau physique. Voir aussi : [zone de travail](#w).
+la zone de travail à l’écran fournie par Windows, analogue à un bureau physique. Voir aussi : [zone de travail](#w).
 
 **commande destructrice**
 
@@ -202,7 +202,7 @@ Action qui a un effet étendu et qui ne peut pas être annulée facilement, ou q
 
 **volet d’informations**
 
-Volet en bas d’une fenêtre de l’Explorateur Windows qui affiche des détails (le cas échéant) sur les éléments sélectionnés ; dans le cas contraire, il affiche des détails sur le dossier. Par exemple, la Galerie de photos Windows affiche le nom de l’image, le type de fichier, la date de prise, les balises, l’évaluation, les dimensions et la taille de fichier. Voir aussi : [volet de visualisation](#p).
+volet en bas d’une fenêtre de l’explorateur de Windows qui affiche des détails (le cas échéant) sur les éléments sélectionnés ; dans le cas contraire, il affiche des détails sur le dossier. par exemple, Windows galerie de photos affiche le nom de l’image, le type de fichier, la date de prise, les balises, l’évaluation, les dimensions et la taille du fichier. Voir aussi : [volet de visualisation](#p).
 
 **boîte de dialogue**
 
@@ -230,7 +230,7 @@ Flèche associée à des listes déroulantes, des zones de liste modifiable, des
 
 **liste déroulante**
 
-Contrôle Windows commun qui permet aux utilisateurs de sélectionner parmi une liste de valeurs s’excluant mutuellement. Contrairement à une zone de liste, cette liste de choix disponibles est normalement masquée.
+contrôle de Windows commun qui permet aux utilisateurs de sélectionner parmi une liste de valeurs s’excluant mutuellement. Contrairement à une zone de liste, cette liste de choix disponibles est normalement masquée.
 
 ## <a name="e"></a>E
 
@@ -274,7 +274,7 @@ Fenêtre qui peut apparaître n’importe où sur l’écran souhaité par l’u
 
 **volant**
 
-Fenêtre contextuelle qui affiche temporairement plus d’informations. Sur le bureau Windows, les lanceurs s’affichent en cliquant sur un gadget et sont ignorés en cliquant n’importe où en dehors du lanceur. Vous pouvez utiliser des lanceurs à la fois dans les États ancré et flottant.
+Fenêtre contextuelle qui affiche temporairement plus d’informations. sur le bureau Windows, les lanceurs s’affichent en cliquant sur un gadget et sont ignorés en cliquant n’importe où en dehors du lanceur. Vous pouvez utiliser des lanceurs à la fois dans les États ancré et flottant.
 
 **page de suivi**
 
@@ -316,7 +316,7 @@ Terme générique utilisé pour faire référence à n’importe quel graphique 
 
 **zone de groupe**
 
-Contrôle Windows commun qui affiche des relations entre un ensemble de contrôles connexes.
+contrôle de Windows commun qui affiche des relations entre un ensemble de contrôles connexes.
 
 ## <a name="h"></a>H
 
@@ -360,13 +360,13 @@ Une interface utilisateur qui divise une tâche complexe en une tâche simple et
 
 **info-bulle**
 
-Petite fenêtre contextuelle qui décrit de façon concise l’objet désigné, par exemple les descriptions des contrôles ToolBar, les icônes, les graphiques, les liens, les objets de l’Explorateur Windows, les éléments du menu Démarrer et les boutons de la barre des tâches. Les info-bulles sont une forme de divulgation progressive, ce qui évite d’avoir à utiliser du texte descriptif à l’écran à tout moment.
+petite fenêtre contextuelle qui décrit de façon concise l’objet désigné, par exemple les descriptions des contrôles toolbar, les icônes, les graphiques, les liens, les objets Windows Explorer, les éléments menu Démarrer et les boutons de la barre des tâches. Les info-bulles sont une forme de divulgation progressive, ce qui évite d’avoir à utiliser du texte descriptif à l’écran à tout moment.
 
 **trait**
 
 Sortie brute d’un stylet. Cette encre numérique peut être conservée comme écrite, ou elle peut être convertie en texte à l’aide du logiciel de reconnaissance de l’écriture manuscrite.
 
-**Inline**
+**inline**
 
 Emplacement des liens ou des messages directement dans le contexte de l’interface utilisateur associée. Par exemple, un lien Inline apparaît dans un autre texte et non séparément.
 
@@ -376,7 +376,7 @@ Emplacement dans lequel l’utilisateur dirige actuellement l’entrée. Notez q
 
 **instancié**
 
-Session de programme. Par exemple, Windows Internet Explorer permet aux utilisateurs d’exécuter plusieurs instances du programme, car plusieurs sessions indépendantes peuvent s’exécuter à la fois. Les paramètres peuvent être enregistrés entre les sessions de programme. Voir aussi : [persistance](#p).
+Session de programme. par exemple, Windows Internet Explorer permet aux utilisateurs d’exécuter plusieurs instances du programme, car plusieurs sessions indépendantes peuvent s’exécuter à la fois. les Paramètres peuvent être enregistrées entre les sessions de programme. Voir aussi : [persistance](#p).
 
 ## <a name="j"></a>J
 
@@ -398,11 +398,11 @@ Un compte d’utilisateur qui s’exécute normalement avec des privilèges mini
 
 **zone de liste**
 
-Contrôle Windows commun qui permet aux utilisateurs de sélectionner un ensemble de valeurs présentées dans une liste, qui, à la différence d’une liste déroulante, est toujours visible. Prend en charge les sélections uniques ou multiples.
+contrôle de Windows commun qui permet aux utilisateurs de sélectionner un ensemble de valeurs présentées dans une liste, qui, à la différence d’une liste déroulante, est toujours visible. Prend en charge les sélections uniques ou multiples.
 
 **mode liste**
 
-Contrôle Windows commun qui permet aux utilisateurs d’afficher et d’interagir avec une collection d’objets de données, à l’aide d’une sélection unique ou d’une sélection multiple.
+contrôle de Windows commun qui permet aux utilisateurs d’afficher et d’interagir avec une collection d’objets de données, à l’aide d’une sélection unique ou d’une sélection multiple.
 
 **aperçu instantané**
 
@@ -518,7 +518,7 @@ Collection de pages dans laquelle les utilisateurs effectuent une tâche. Voir a
 
 **contrôle de l’espace de page**
 
-Permet aux utilisateurs d’afficher et d’interagir avec une collection hiérarchique d’objets organisée. Les contrôles d’espace de page sont semblables aux contrôles d’arborescence, mais ils ont une apparence visuelle légèrement différente. Ils sont principalement utilisés par l’Explorateur Windows.
+Permet aux utilisateurs d’afficher et d’interagir avec une collection hiérarchique d’objets organisée. Les contrôles d’espace de page sont semblables aux contrôles d’arborescence, mais ils ont une apparence visuelle légèrement différente. ils sont principalement utilisés par Windows Explorer.
 
 **fenêtre de palette**
 
@@ -566,7 +566,7 @@ Option de présentation qui oriente un objet pour qu’il soit plus haut que gra
 
 **préférences**
 
-N’utilisez pas. Utilisez des [options](#o) ou des propriétés à la place.
+Ne pas utiliser. Utilisez des [options](#o) ou des propriétés à la place.
 
 **préversion**
 
@@ -594,7 +594,7 @@ Séquence d’instructions qui peuvent être exécutées par un ordinateur. Les 
 
 **barre de progression**
 
-Contrôle Windows commun qui affiche la progression d’une opération particulière sous la forme d’une barre graphique.
+contrôle de Windows commun qui affiche la progression d’une opération particulière sous la forme d’une barre graphique.
 
 **Divulgation progressive**
 
@@ -610,7 +610,7 @@ Séquence dans laquelle l’interface utilisateur utilisée pour informer les ut
 
 **properties**
 
-Paramètres d’un objet que les utilisateurs peuvent modifier, tels que le nom d’un fichier et l’État en lecture seule, ainsi que les attributs d’un objet que les utilisateurs ne peuvent pas modifier directement, tels que la date de création et la taille d’un fichier. En général, les propriétés définissent l’État, la valeur ou l’apparence d’un objet.
+Paramètres d’un objet que les utilisateurs peuvent modifier, telles que le nom d’un fichier et l’état en lecture seule, ainsi que les attributs d’un objet que les utilisateurs ne peuvent pas modifier directement, tels que la date de création et la taille d’un fichier. En général, les propriétés définissent l’État, la valeur ou l’apparence d’un objet.
 
 **administrateur protégé**
 
@@ -624,13 +624,13 @@ Une petite barre d’outils personnalisable qui affiche les commandes fréquemme
 
 **Barre lancement rapide**
 
-Point d’accès direct sur le bureau Windows, situé en regard du bouton Démarrer, renseigné avec des icônes pour les programmes choisis par l’utilisateur. Supprimé dans Windows 7.
+point d’accès direct sur le bureau Windows, situé en regard du bouton démarrer, renseigné avec des icônes pour les programmes choisis par l’utilisateur. supprimé dans Windows 7.
 
 ## <a name="r"></a>R
 
 **case d’option**
 
-Contrôle Windows commun qui permet aux utilisateurs de choisir parmi un ensemble de choix s’excluant mutuellement.
+contrôle de Windows commun qui permet aux utilisateurs de choisir parmi un ensemble de choix s’excluant mutuellement.
 
 **pixels relatifs**
 
@@ -703,7 +703,7 @@ Contrairement aux clés d’accès, qui sont conçues pour améliorer l’access
 
 **Encadré**
 
-Une région sur le côté du Bureau de l’utilisateur, utilisée pour afficher les gadgets dans Windows Vista. Voir aussi : [gadget](#g).
+une région sur le côté du bureau de l’utilisateur, utilisée pour afficher les gadgets dans Windows Vista. Voir aussi : [gadget](#g).
 
 **erreur de point unique**
 
@@ -711,7 +711,7 @@ Erreur d’entrée utilisateur liée à un contrôle unique. Par exemple, l’en
 
 **curseur**
 
-Contrôle Windows commun qui affiche et définit une valeur à partir d’une plage continue de valeurs possibles, telles que la luminosité ou le volume.
+contrôle de Windows commun qui affiche et définit une valeur à partir d’une plage continue de valeurs possibles, telles que la luminosité ou le volume.
 
 **expérience spéciale**
 
@@ -755,7 +755,7 @@ Collection de commandes conçue pour fonctionner conjointement avec une barre de
 
 **couleur système**
 
-Couleur définie par Windows dans un but spécifique, accessible à l’aide de l’interface de programmation d’applications (API) GetSysColor. Par exemple, \_ la fenêtre couleur définit la couleur et la couleur d’arrière-plan de la fenêtre \_ WINDOWTEXT définit la couleur du texte de la fenêtre. Les couleurs système ne sont pas aussi riches que les couleurs de thème. Voir aussi : [couleur de thème](#t).
+couleur définie par Windows à un usage spécifique, accessible à l’aide de l’interface de programmation d’applications (API) GetSysColor. Par exemple, \_ la fenêtre couleur définit la couleur et la couleur d’arrière-plan de la fenêtre \_ WINDOWTEXT définit la couleur du texte de la fenêtre. Les couleurs système ne sont pas aussi riches que les couleurs de thème. Voir aussi : [couleur de thème](#t).
 
 **menu système**
 
@@ -773,7 +773,7 @@ Unité d’activité utilisateur, souvent représentée par une seule surface d�
 
 **boîte de dialogue de tâches**
 
-Boîte de dialogue implémentée à l’aide de l’API de la boîte de dialogue de tâche. Nécessite Windows Vista ou une version ultérieure.
+Boîte de dialogue implémentée à l’aide de l’API de la boîte de dialogue de tâche. requiert Windows Vista ou version ultérieure.
 
 **déroulement des tâches**
 
@@ -797,7 +797,7 @@ Contrôle spécifiquement conçu pour l’entrée textuelle ; permet aux utilis
 
 **couleur du thème**
 
-Couleur définie par Windows pour un usage spécifique, accessible à l’aide de l’API GetThemeColor avec des parties, des États et des couleurs. Par exemple, la partie Windows définit un FillColor et un TextColor. Les couleurs de thème sont plus riches que les couleurs système, mais nécessitent l’exécution du service de thème. Voir aussi : [couleur système](#s).
+couleur définie par Windows à un usage spécifique, accessible à l’aide de l’API GetThemeColor avec des parties, des états et des couleurs. Par exemple, la partie Windows définit un FillColor et un TextColor. Les couleurs de thème sont plus riches que les couleurs système, mais nécessitent l’exécution du service de thème. Voir aussi : [couleur système](#s).
 
 **titre-style de casse**
 
@@ -832,7 +832,7 @@ Interaction directe avec un écran d’ordinateur à l’aide d’un doigt.
 
 Technique de recherche qui vous aide à améliorer votre expérience utilisateur en testant la conception de votre interface utilisateur et en recueillant des commentaires à partir d’utilisateurs cibles réels. Les études de convivialité peuvent aller des techniques formelles dans des paramètres tels que les laboratoires de convivialité aux techniques informelles dans des paramètres tels que le Bureau de l’utilisateur. Toutefois, les constantes de ces études sont les suivantes : capture d’informations auprès des participants ; l’évaluation de ces informations pour des tendances et des modèles significatifs ; Enfin, implémenter des modifications logiques qui résolvent les problèmes identifiés dans l’étude.
 
-**Contrôle de compte d’utilisateur**
+**Contrôle de compte d'utilisateur**
 
 Avec le contrôle de compte d’utilisateur (ou le contrôle de compte d’utilisateur, anciennement « compte d’utilisateur avec privilèges minimum » ou LUA) activé, les administrateurs interactifs s’exécutent normalement avec le moins de privilèges utilisateur, mais ils peuvent s’élever automatiquement pour effectuer des tâches d’administration en donnant un consentement explicite avec l’interface utilisateur de consentement. Ces tâches d’administration incluent l’installation de logiciels et de pilotes, la modification des paramètres au niveau du système, l’affichage ou la modification d’autres comptes d’utilisateur et l’exécution d’outils d’administration.
 
@@ -854,7 +854,7 @@ Description d’un objectif d’utilisateur, d’un problème ou d’une tâche 
 
 **warning**
 
-Message qui décrit une condition susceptible de provoquer un problème à l’avenir. Les avertissements ne sont pas des erreurs ou des questions. Dans Windows Vista et versions ultérieures, les messages d’avertissement s’affichent généralement dans les boîtes de dialogue de tâches, incluent une instruction principale claire et concise, et incluent généralement une icône d’avertissement standard pour le renforcement visuel du texte.
+Message qui décrit une condition susceptible de provoquer un problème à l’avenir. Les avertissements ne sont pas des erreurs ou des questions. dans Windows Vista et versions ultérieures, les messages d’avertissement s’affichent généralement dans les boîtes de dialogue de tâches, incluent une instruction principale claire et concise, et incluent généralement une icône d’avertissement standard pour le renforcement visuel du texte.
 
 **Page d’accueil**
 
@@ -866,7 +866,7 @@ Zone rectangulaire sur un écran d’ordinateur dans laquelle les programmes et 
 
 **Touche Windows**
 
-Touche de modification avec le logo Windows. Cette clé est utilisée pour un certain nombre de raccourcis Windows et est réservée à l’utilisation de Windows. Par exemple, si vous appuyez sur la touche Windows, vous affichez ou masquez le menu Démarrer de Windows.
+touche de modification avec le logo de Windows. cette clé est utilisée pour un certain nombre de Windows de raccourcis et est réservée à une utilisation Windows. par exemple, si vous appuyez sur la touche Windows logo, vous affichez ou masquez le menu Démarrer Windows.
 
 **des maquettes**
 

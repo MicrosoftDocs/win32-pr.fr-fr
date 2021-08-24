@@ -4,12 +4,12 @@ description: Propriétés de l’objet Character
 ms.assetid: 86748de2-f5c8-4057-bfa4-79d46cac1e62
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6212d6f0539b7fcb29faa883e6d88101952c12f5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3c80e16bdb35d3fdfd8687eb15f200d2005ab75027e4dcc786f883d21232af4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610689"
 ---
 # <a name="character-object-properties"></a>Propriétés de l’objet Character
 
@@ -17,7 +17,7 @@ ms.locfileid: "104381781"
 
 L’objet [**character**](/windows/desktop/lwef/the-characters-object) expose les propriétés suivantes :
 
--   [**Proactive**](active-property.md)
+-   [**Actif**](active-property.md)
 -   [**AutoPopupMenu**](autopopupmenu-property.md)
 -   [**Description**](description-property.md)
 -   [**ExtraData**](extradata-property.md)
@@ -31,12 +31,12 @@ L’objet [**character**](/windows/desktop/lwef/the-characters-object) expose le
 -   [**LanguageID**](languageid-property.md)
 -   [**Gauche**](left-property.md)
 -   [**MoveCause**](movecause-property.md)
--   [**Nom**](name-property.md)
+-   [**Name**](name-property.md)
 -   [**OriginalHeight**](originalheight-property.md)
 -   [**OriginalWidth**](originalwidth-property.md)
 -   [**Inclinaison**](pitch-property.md)
 -   [**SoundEffectsOn**](soundeffectson-property.md)
--   [**Vitesse**](speed-property.md)
+-   [**Temps**](speed-property.md)
 -   [**SRModeID**](srmodeid-property.md)
 -   [**SRStatus**](srstatus-property.md)
 -   [**Retour au début**](top-property.md)
@@ -81,6 +81,6 @@ Comme pour les méthodes d’objet [**character**](/windows/desktop/lwef/the-cha
 
 Étant donné que le serveur charge un caractère de manière asynchrone, assurez-vous que le caractère a été chargé avant d’interroger ses propriétés, par exemple à l’aide de l’événement [**RequestComplete**](requestcomplete-event.md) . Dans le cas contraire, les propriétés peuvent retourner des valeurs incorrectes.
 
- 
+ 
 
- 
+ 

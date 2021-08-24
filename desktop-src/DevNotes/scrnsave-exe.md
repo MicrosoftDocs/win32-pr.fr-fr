@@ -4,12 +4,12 @@ ms.assetid: e18ea3c8-ddac-4214-83be-106c28c3c327
 title: SCRNSAVE.EXE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77d6a5d50b002299fe38508b387926b0eed11141
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5e1ac7c0f2ee9d87911c0db195df89e2c27dcf1b19c0e9dac70d1517b0ad30ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571349"
 ---
 # <a name="scrnsaveexe"></a>SCRNSAVE.EXE
 
@@ -41,7 +41,7 @@ Les modifications apportées à cette entrée deviennent effectives lors du proc
 
 ## <a name="notes"></a>Notes
 
--   Les systèmes d’exploitation Windows ajoutent cette entrée au registre lorsque vous utilisez l’option **Afficher** du panneau de configuration pour sélectionner un économiseur d’écran. Si vous désactivez tous les économiseurs d’écran en choisissant **(aucun)** dans la liste écran de veille, le système d’exploitation supprime cette entrée du Registre et appelle la fonction [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) avec *uiaction* égal à SPI \_ SETSCREENSAVEACTIVE et *uiParam* égal à **false**.
+-   Windows systèmes d’exploitation ajoutez cette entrée au registre lorsque vous utilisez l’option **afficher** du panneau de configuration pour sélectionner un économiseur d’écran. Si vous désactivez tous les économiseurs d’écran en choisissant **(aucun)** dans la liste écran de veille, le système d’exploitation supprime cette entrée du Registre et appelle la fonction [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) avec *uiaction* égal à SPI \_ SETSCREENSAVEACTIVE et *uiParam* égal à **false**.
 -   Cette entrée peut être remplacée par un paramètre de stratégie de groupe sur les systèmes qui prennent en charge stratégie de groupe. Lorsque le paramètre stratégie de groupe du nom de l’exécutable de l' **économiseur d’écran** est activé, le système ignore cette entrée. La configuration de ce paramètre de stratégie est stockée dans l’entrée **SCRNSAVE.EXE** , qui se trouve dans la sous-clé **stratégies** .
 
  

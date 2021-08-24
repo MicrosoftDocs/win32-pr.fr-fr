@@ -4,12 +4,12 @@ ms.assetid: 9b480750-602e-421e-8dfd-0b7049ed8b8a
 title: Propriété de résumé de l’auteur
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a860b03baaf395892f0c155e1166af4ea42e0edb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69a050fdb64a8c931ad53c92229ca93994270a26829f72a15d025e4d513109d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581789"
 ---
 # <a name="author-summary-property"></a>Propriété de résumé de l’auteur
 

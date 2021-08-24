@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre InprocServer32 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0daae9d495ad588e0dc710b63fe7d7ae9f48c11d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9904aa636bbfb8dc0bc01cac85e041aedfcd34364bd62ac7b0e4e5a9f904750f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567819"
 ---
 # <a name="inprocserver32"></a>InprocServer32
 
@@ -21,13 +21,13 @@ Inscrit un serveur in-process 32 bits et spécifie le modèle de thread du clois
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      InprocServer32
-         (Default) = path
-         ThreadingModel = value
+   {CLSID}
+      InprocServer32
+         (Default) = path
+         ThreadingModel = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **ThreadingModel** est une valeur de **reg \_ SZ** qui spécifie le modèle de thread. Les valeurs possibles sont indiquées dans le tableau suivant.
 
@@ -42,7 +42,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 
 
- 
+ 
 
 Vous devez utiliser la même valeur pour chaque objet fourni par le serveur in-process.
 
@@ -61,7 +61,7 @@ Dans la mesure du possible, le serveur in-process est chargé dans le même cloi
 
 
 
- 
+ 
 
 Si le modèle de thread du serveur est cloisonné, le cloisonnement dans lequel le serveur est chargé dépend de l’appartement dans lequel le client s’exécute, comme indiqué dans le tableau suivant.
 
@@ -75,7 +75,7 @@ Si le modèle de thread du serveur est cloisonné, le cloisonnement dans lequel 
 
 
 
- 
+ 
 
 COM peut également créer un hôte multithread cloisonné (MTA). Si un client d’un cloisonnement à thread unique demande un serveur in-process dont le modèle de thread est libre en l’absence de MTA dans le processus, COM crée un MTA hôte et y charge le serveur.
 
@@ -90,9 +90,9 @@ Si un conteneur recherche un serveur in-process dans le registre, la version 16 
 [**InprocServer**](inprocserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

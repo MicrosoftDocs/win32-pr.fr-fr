@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102353
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 30893be64fe3aace916830873612c7f9b64276ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e19824b50d8212d2d3957eb12159cfce6413191a94c2e4ca6a330a3d17b554d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119478899"
 ---
 # <a name="esentnobackupdirectoryexception-properties"></a>Propriétés EsentNoBackupDirectoryException
 
@@ -49,7 +49,7 @@ Le type [EsentNoBackupDirectoryException](./esentnobackupdirectoryexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45262197c4432d9e3bb5c0884b3f76c986e4acfe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e8ed5ce8f0db5218bf9683dbca963e058efa9c700d6489f656b293cfd3f8810
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119543019"
 ---
 # <a name="toolbar-button-states"></a>États des boutons de barre d’outils
 
@@ -45,7 +45,7 @@ Cette section répertorie les États qu’un bouton de barre d’outils peut avo
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une barre d’outils peut avoir une combinaison d’États.
 
