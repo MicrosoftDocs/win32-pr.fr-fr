@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1ebafd53a2eb82ea1869b5522d0258ece67d110
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7edef64484161f6151b1d2ac14fd6916a7d2a082c0c787b983019305027f4949
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106543630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652969"
 ---
 # <a name="ivmvirtualmachinesetconfigurationvalue-method"></a>IVMVirtualMachine :: SetConfigurationValue, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Définit la valeur du paramètre de configuration spécifié pour cette machine virtuelle.
 
@@ -81,7 +81,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs suivantes sont prises en charge pour le paramètre *configurationKey* .
 
@@ -92,7 +92,7 @@ Les valeurs suivantes sont prises en charge pour le paramètre *configurationKey
 | « matériel/BIOS/ \_ synchronisation de l’heure \_ au \_ démarrage »<br/>              | « true » si l’horloge CMOS de la machine virtuelle doit être synchronisée avec l’horloge de l’hôte au démarrage ; « false » dans le cas contraire.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | expression<br/> | "true"<br/> |
 | « intégration/synchronisation de l’heure de l’hôte/de Microsoft/ \_ \_ activée »<br/> | « true » si la synchronisation de l’heure de l’hôte est activée dans les composants d’intégration ; « false » dans le cas contraire.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | expression<br/> | "true"<br/> |
 | « options d’interface utilisateur \_ /publication de l' \_ application automatique \_ »<br/>                  | « true » si la publication automatique des applications est activée dans les composants d’intégration ; « false » dans le cas contraire. Cela est également appelé applications virtuelles.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | expression<br/> | "true"<br/> |
-| « \_ options d’interface utilisateur/secondes \_ à \_ Enregistrer »<br/>                   | Nombre de secondes d’attente avant l’enregistrement de la machine virtuelle après la fermeture de toutes les applications. Toutefois, les valeurs inférieures à 20 et supérieures à 4 294 968 ont des significations particulières. Pour plus d’informations, consultez la liste suivante<br/> <dl> <dt><span id="0"></span>0</dt> <dd> N’enregistrez jamais la machine virtuelle.<br/> </dd> <dt><span id="120"></span>1 20</dt> <dd> Patientez 20 secondes avant d’enregistrer la machine virtuelle.<br/> </dd> <dt><span id="214_294_967"></span>21 4 294 967</dt> <dd> Patientez le nombre de secondes spécifié avant d’enregistrer la machine virtuelle.<br/> </dd> <dt><span id="4_294_9684_294_967_295"></span>4 294 968 4 294 967 295</dt> <dd> Attendez 4 294 968 secondes avant d’enregistrer la machine virtuelle.<br/> </dd> </dl> | entière<br/> | 300<br/>    |
+| « \_ options d’interface utilisateur/secondes \_ à \_ Enregistrer »<br/>                   | Nombre de secondes d’attente avant l’enregistrement de la machine virtuelle après la fermeture de toutes les applications. Toutefois, les valeurs inférieures à 20 et supérieures à 4 294 968 ont des significations particulières. Pour plus d’informations, consultez la liste suivante<br/> <dl> <dt><span id="0"></span>entre</dt> <dd> N’enregistrez jamais la machine virtuelle.<br/> </dd> <dt><span id="120"></span>1 20</dt> <dd> Patientez 20 secondes avant d’enregistrer la machine virtuelle.<br/> </dd> <dt><span id="214_294_967"></span>21 4 294 967</dt> <dd> Patientez le nombre de secondes spécifié avant d’enregistrer la machine virtuelle.<br/> </dd> <dt><span id="4_294_9684_294_967_295"></span>4 294 968 4 294 967 295</dt> <dd> Attendez 4 294 968 secondes avant d’enregistrer la machine virtuelle.<br/> </dd> </dl> | entière<br/> | 300<br/>    |
 
 
 
@@ -144,7 +144,7 @@ La chaîne de chemin d’accès *configurationKey* est spécifiée comme suit :
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

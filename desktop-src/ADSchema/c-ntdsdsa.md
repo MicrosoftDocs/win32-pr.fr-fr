@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f64606c07aa15aaf7d75e7bbcdb1caf06ed84ac
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 284b04027b97be0a8808f45ff61707d6b56b054786272e8d46d32f92d43c5448
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753439"
 ---
 # <a name="ntds-dsa-class"></a>Classe NTDS-DSA
 
@@ -43,7 +43,7 @@ Représente le Active Directory processus DSA sur le serveur.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam-attributes)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -62,7 +62,7 @@ Représente le Active Directory processus DSA sur le serveur.
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
 | Valeur de masquage par défaut        | 1                                                                                            |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                                                       |
-| Sous-classe de                 | [**Paramètres de l’application**](c-applicationsettings.md)<br/>                             |
+| Sous-classe de                 | [**Paramètres de l’Application**](c-applicationsettings.md)<br/>                             |
 | Supérieurs possibles          | [](c-server.md)[**Organisation** du serveur](c-organization.md)                             |
 | Classes auxiliaires           | \-                                                                                           |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                                                 |
@@ -71,9 +71,9 @@ Représente le Active Directory processus DSA sur le serveur.
 
 
 
-## <a name="windows-2000-server-attributes"></a>Attributs du serveur Windows 2000
+## <a name="windows-2000-server-attributes"></a>attributs de serveur Windows 2000
 
-Cette classe contient les attributs suivants pour le serveur Windows 2000 :
+cette classe contient les attributs suivants pour Windows serveur 2000 :
 
 
 
@@ -85,7 +85,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**Autorisé-attributs-effectif**](a-allowedattributeseffective.md)      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants**](a-allowedchildclasses.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants-effectif**](a-allowedchildclasseseffective.md) | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Nom de l’application**](a-applicationname.md)                             | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Nom de l’application**](a-applicationname.md)                             | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Tête de pont-serveur-liste-BL**](a-bridgeheadserverlistbl.md)             | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom canonique**](a-canonicalname.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom commun**](a-cn.md)                                               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -97,7 +97,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**DSA-signature**](a-dsasignature.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom de l’extension**](a-extensionname.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Père**](a-flags.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
+| [**Indicateurs**](a-flags.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Entrée de**](a-fromentry.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)             | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -122,7 +122,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Adresse réseau**](a-networkaddress.md)                               | Faux     | **NTDS-DSA**                                                     |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Notification-liste**](a-notificationlist.md)                           | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Notification-liste**](a-notificationlist.md)                           | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                  | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Obj-Dist-Name**](a-distinguishedname.md)                              | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Catégorie d’objet**](a-objectcategory.md)                               | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
@@ -169,9 +169,9 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 
 
 
-## <a name="windows-2000-server-extended-rights"></a>Droits étendus du serveur Windows 2000
+## <a name="windows-2000-server-extended-rights"></a>droits étendus du serveur Windows 2000
 
-Cette classe contient les droits étendus suivants pour le serveur Windows 2000 :
+cette classe contient les droits étendus suivants pour Windows serveur 2000 :
 
 
 
@@ -201,7 +201,7 @@ Cette classe contient les droits étendus suivants pour le serveur Windows 2000�
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
 | Valeur de masquage par défaut        | 1                                                                                            |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                                                       |
-| Sous-classe de                 | [**Paramètres de l’application**](c-applicationsettings.md)<br/>                             |
+| Sous-classe de                 | [**Paramètres de l’Application**](c-applicationsettings.md)<br/>                             |
 | Supérieurs possibles          | [](c-server.md)[**Organisation** du serveur](c-organization.md)                             |
 | Classes auxiliaires           | \-                                                                                           |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                                                 |
@@ -210,9 +210,9 @@ Cette classe contient les droits étendus suivants pour le serveur Windows 2000�
 
 
 
-## <a name="windows-server-2003-attributes"></a>Attributs Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Attributs du serveur 2003
 
-Cette classe contient les attributs suivants pour Windows Server 2003 :
+cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
@@ -224,7 +224,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**Autorisé-attributs-effectif**](a-allowedattributeseffective.md)        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants**](a-allowedchildclasses.md)                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants-effectif**](a-allowedchildclasseseffective.md)   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Nom de l’application**](a-applicationname.md)                               | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Nom de l’application**](a-applicationname.md)                               | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Tête de pont-serveur-liste-BL**](a-bridgeheadserverlistbl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom canonique**](a-canonicalname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom commun**](a-cn.md)                                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -236,7 +236,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -278,14 +278,14 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**ms-DS-ReplicationEpoch**](a-msds-replicationepoch.md)                   | Faux     | **NTDS-DSA**                                                     |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-retirée-REPL-NC-signatures**](a-msds-retiredreplncsignatures.md)  | Faux     | **NTDS-DSA**                                                     |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                   | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                   | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Adresse réseau**](a-networkaddress.md)                                 | Faux     | **NTDS-DSA**                                                     |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                     | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Notification-liste**](a-notificationlist.md)                             | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Notification-liste**](a-notificationlist.md)                             | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                    | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Obj-Dist-Name**](a-distinguishedname.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Catégorie d’objet**](a-objectcategory.md)                                 | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
@@ -333,9 +333,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
-## <a name="windows-server-2003-extended-rights"></a>Droits étendus Windows Server 2003
+## <a name="windows-server-2003-extended-rights"></a>Windows Droits étendus du serveur 2003
 
-Cette classe contient les droits étendus suivants pour Windows Server 2003 :
+cette classe contient les droits étendus suivants pour Windows Server 2003 :
 
 
 
@@ -365,7 +365,7 @@ Cette classe contient les droits étendus suivants pour Windows Server 2003 :
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                       |
 | Valeur de masquage par défaut        | 1                                                                |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                           |
-| Sous-classe de                 | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| Sous-classe de                 | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | Supérieurs possibles          | [](c-server.md)[**Organisation** du serveur](c-organization.md) |
 | Classes auxiliaires           | \-                                                               |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                     |
@@ -433,7 +433,7 @@ Cette classe contient les attributs suivants pour ADAM :
 | [**ms-DS-service-account**](a-msds-serviceaccount.md)                      | Faux     | **NTDS-DSA**                                                     |
 | [**ms-DS-service-account-BL**](a-msds-serviceaccountbl.md)                 | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-service-account-DNS-Domain**](a-msds-serviceaccountdnsdomain.md)  | Faux     | **NTDS-DSA**                                                     |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                   | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                   | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Adresse réseau**](a-networkaddress.md)                                 | Faux     | **NTDS-DSA**                                                     |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                    | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Obj-Dist-Name**](a-distinguishedname.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -509,7 +509,7 @@ Cette classe contient les droits étendus suivants pour ADAM :
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
 | Valeur de masquage par défaut        | 1                                                                                            |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                                                       |
-| Sous-classe de                 | [**Paramètres de l’application**](c-applicationsettings.md)<br/>                             |
+| Sous-classe de                 | [**Paramètres de l’Application**](c-applicationsettings.md)<br/>                             |
 | Supérieurs possibles          | [](c-server.md)[**Organisation** du serveur](c-organization.md)                             |
 | Classes auxiliaires           | \-                                                                                           |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                                                 |
@@ -518,9 +518,9 @@ Cette classe contient les droits étendus suivants pour ADAM :
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Attributs Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Attributs du serveur 2003 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
+cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
@@ -532,7 +532,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**Autorisé-attributs-effectif**](a-allowedattributeseffective.md)        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants**](a-allowedchildclasses.md)                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants-effectif**](a-allowedchildclasseseffective.md)   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Nom de l’application**](a-applicationname.md)                               | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Nom de l’application**](a-applicationname.md)                               | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Tête de pont-serveur-liste-BL**](a-bridgeheadserverlistbl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom canonique**](a-canonicalname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom commun**](a-cn.md)                                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -544,7 +544,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -588,7 +588,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**ms-DS-ReplicationEpoch**](a-msds-replicationepoch.md)                   | Faux     | **NTDS-DSA**                                                     |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-retirée-REPL-NC-signatures**](a-msds-retiredreplncsignatures.md)  | Faux     | **NTDS-DSA**                                                     |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                   | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                   | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -596,7 +596,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Adresse réseau**](a-networkaddress.md)                                 | Faux     | **NTDS-DSA**                                                     |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                     | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Notification-liste**](a-notificationlist.md)                             | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Notification-liste**](a-notificationlist.md)                             | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                    | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Obj-Dist-Name**](a-distinguishedname.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Catégorie d’objet**](a-objectcategory.md)                                 | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
@@ -644,9 +644,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
-## <a name="windows-server-2003-r2-extended-rights"></a>Droits étendus Windows Server 2003 R2
+## <a name="windows-server-2003-r2-extended-rights"></a>Windows Droits étendus du serveur 2003 R2
 
-Cette classe contient les droits étendus suivants pour Windows Server 2003 R2 :
+cette classe contient les droits étendus suivants pour Windows Server 2003 R2 :
 
 
 
@@ -676,7 +676,7 @@ Cette classe contient les droits étendus suivants pour Windows Server 2003 R2 
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
 | Valeur de masquage par défaut        | 1                                                                                            |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                                                       |
-| Sous-classe de                 | [**Paramètres de l’application**](c-applicationsettings.md)<br/>                             |
+| Sous-classe de                 | [**Paramètres de l’Application**](c-applicationsettings.md)<br/>                             |
 | Supérieurs possibles          | [](c-server.md)[**Organisation** du serveur](c-organization.md)                             |
 | Classes auxiliaires           | \-                                                                                           |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                                                 |
@@ -685,9 +685,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2003 R2 
 
 
 
-## <a name="windows-server-2008-attributes"></a>Attributs Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Attributs du serveur 2008
 
-Cette classe contient les attributs suivants pour Windows Server 2008 :
+cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
@@ -699,7 +699,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**Autorisé-attributs-effectif**](a-allowedattributeseffective.md)           | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants**](a-allowedchildclasses.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants-effectif**](a-allowedchildclasseseffective.md)      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Nom de l’application**](a-applicationname.md)                                  | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Nom de l’application**](a-applicationname.md)                                  | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Tête de pont-serveur-liste-BL**](a-bridgeheadserverlistbl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom canonique**](a-canonicalname.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom commun**](a-cn.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -711,7 +711,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**DSA-signature**](a-dsasignature.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom de l’extension**](a-extensionname.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Père**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
+| [**Indicateurs**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Entrée de**](a-fromentry.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -773,7 +773,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-dévoilé-utilisateurs**](a-msds-revealedusers.md)                           | Faux     | **NTDS-DSA**                                                     |
 | [**ms-DS-Reveal-OnDemand-Group**](a-msds-revealondemandgroup.md)              | Faux     | **NTDS-DSA**                                                     |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                      | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                      | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**ms-DS-SiteName**](a-msds-sitename.md)                                      | Faux     | **NTDS-DSA**                                                     |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -782,7 +782,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Adresse réseau**](a-networkaddress.md)                                    | Faux     | **NTDS-DSA**                                                     |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Notification-liste**](a-notificationlist.md)                                | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Notification-liste**](a-notificationlist.md)                                | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                       | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Obj-Dist-Name**](a-distinguishedname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Catégorie d’objet**](a-objectcategory.md)                                    | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
@@ -830,9 +830,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-extended-rights"></a>Droits étendus Windows Server 2008
+## <a name="windows-server-2008-extended-rights"></a>Windows Droits étendus du serveur 2008
 
-Cette classe contient les droits étendus suivants pour Windows Server 2008 :
+cette classe contient les droits étendus suivants pour Windows Server 2008 :
 
 
 
@@ -863,7 +863,7 @@ Cette classe contient les droits étendus suivants pour Windows Server 2008 :
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
 | Valeur de masquage par défaut        | 1                                                                                            |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                                                       |
-| Sous-classe de                 | [**Paramètres de l’application**](c-applicationsettings.md)<br/>                             |
+| Sous-classe de                 | [**Paramètres de l’Application**](c-applicationsettings.md)<br/>                             |
 | Supérieurs possibles          | [](c-server.md)[**Organisation** du serveur](c-organization.md)                             |
 | Classes auxiliaires           | \-                                                                                           |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                                                 |
@@ -872,9 +872,9 @@ Cette classe contient les droits étendus suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Attributs Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Attributs du serveur 2008 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
+cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
@@ -886,7 +886,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**Autorisé-attributs-effectif**](a-allowedattributeseffective.md)             | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants**](a-allowedchildclasses.md)                           | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants-effectif**](a-allowedchildclasseseffective.md)        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Nom de l’application**](a-applicationname.md)                                    | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Nom de l’application**](a-applicationname.md)                                    | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Tête de pont-serveur-liste-BL**](a-bridgeheadserverlistbl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom canonique**](a-canonicalname.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom commun**](a-cn.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -898,7 +898,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom de l’extension**](a-extensionname.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Père**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
+| [**Indicateurs**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Entrée de**](a-fromentry.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -968,7 +968,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                          | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-dévoilé-utilisateurs**](a-msds-revealedusers.md)                             | Faux     | **NTDS-DSA**                                                     |
 | [**ms-DS-Reveal-OnDemand-Group**](a-msds-revealondemandgroup.md)                | Faux     | **NTDS-DSA**                                                     |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                        | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                        | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**ms-DS-SiteName**](a-msds-sitename.md)                                        | Faux     | **NTDS-DSA**                                                     |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -977,7 +977,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Adresse réseau**](a-networkaddress.md)                                      | Faux     | **NTDS-DSA**                                                     |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                          | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Notification-liste**](a-notificationlist.md)                                  | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Notification-liste**](a-notificationlist.md)                                  | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                         | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Obj-Dist-Name**](a-distinguishedname.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Catégorie d’objet**](a-objectcategory.md)                                      | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
@@ -1025,9 +1025,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
-## <a name="windows-server-2008-r2-extended-rights"></a>Droits étendus Windows Server 2008 R2
+## <a name="windows-server-2008-r2-extended-rights"></a>Windows Droits étendus du serveur 2008 R2
 
-Cette classe contient les droits étendus suivants pour Windows Server 2008 R2 :
+cette classe contient les droits étendus suivants pour Windows Server 2008 R2 :
 
 
 
@@ -1059,7 +1059,7 @@ Cette classe contient les droits étendus suivants pour Windows Server 2008 R2 
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
 | Valeur de masquage par défaut        | 1                                                                                            |
 | RDN-att-ID                  | [**Nom commun**](a-cn.md)<br/>                                                       |
-| Sous-classe de                 | [**Paramètres de l’application**](c-applicationsettings.md)<br/>                             |
+| Sous-classe de                 | [**Paramètres de l’Application**](c-applicationsettings.md)<br/>                             |
 | Supérieurs possibles          | [](c-server.md)[**Organisation** du serveur](c-organization.md)                             |
 | Classes auxiliaires           | \-                                                                                           |
 | Descripteur de sécurité NT      | O :BAG : BAD : S :                                                                                 |
@@ -1068,7 +1068,7 @@ Cette classe contient les droits étendus suivants pour Windows Server 2008 R2 
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -1082,7 +1082,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**Autorisé-attributs-effectif**](a-allowedattributeseffective.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants**](a-allowedchildclasses.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Allowed-classes enfants-effectif**](a-allowedchildclasseseffective.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Nom de l’application**](a-applicationname.md)                                                | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Nom de l’application**](a-applicationname.md)                                                | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Tête de pont-serveur-liste-BL**](a-bridgeheadserverlistbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom canonique**](a-canonicalname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom commun**](a-cn.md)                                                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -1094,7 +1094,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -1167,11 +1167,11 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-dévoilé-utilisateurs**](a-msds-revealedusers.md)                                         | Faux     | **NTDS-DSA**                                                     |
 | [**ms-DS-Reveal-OnDemand-Group**](a-msds-revealondemandgroup.md)                            | Faux     | **NTDS-DSA**                                                     |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                                    | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                                    | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**ms-DS-SiteName**](a-msds-sitename.md)                                                    | Faux     | **NTDS-DSA**                                                     |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
@@ -1179,7 +1179,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Adresse réseau**](a-networkaddress.md)                                                  | Faux     | **NTDS-DSA**                                                     |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
-| [**Notification-liste**](a-notificationlist.md)                                              | Faux     | [**Paramètres de l’application**](c-applicationsettings.md)<br/> |
+| [**Notification-liste**](a-notificationlist.md)                                              | Faux     | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                                     | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Obj-Dist-Name**](a-distinguishedname.md)                                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                  |
 | [**Catégorie d’objet**](a-objectcategory.md)                                                  | Vrai      | [**Retour au début**](c-top.md)<br/>                                  |
@@ -1227,7 +1227,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 
 
 
-## <a name="windows-server-2012-extended-rights"></a>Droits étendus Windows Server 2012
+## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012 Droits étendus
 
 Cette classe contient les droits étendus suivants pour Windows Server 2012 :
 
@@ -1245,7 +1245,7 @@ Cette classe contient les droits étendus suivants pour Windows Server 2012 :
 
 
 
-## <a name="windows-server-2012-validated-writes"></a>Écritures validées de Windows Server 2012
+## <a name="windows-server-2012-validated-writes"></a>Windows Server 2012 Écritures validées
 
 Cette classe contient les écritures validées suivantes pour Windows Server 2012 :
 

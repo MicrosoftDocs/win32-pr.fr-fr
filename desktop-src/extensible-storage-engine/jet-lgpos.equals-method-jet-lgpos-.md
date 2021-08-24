@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 97ab5074d65aca3f2e2e5627fca26bb2ad716830
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a527fc6ea360e1b0674fc8332097d9bbb297dd1621b625d34a71fe56e6c5226e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119730989"
 ---
 # <a name="jet_lgposequals-method-jet_lgpos"></a>JET_LGPOS. Equals, méthode (JET_LGPOS)
 
@@ -57,7 +57,7 @@ public bool Equals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - Autres  
     Type : [Microsoft.ISAM.esent.Interop.JET_LGPOS](./jet-lgpos-structure2.md)  
     
     Instance de à comparer à cette instance.

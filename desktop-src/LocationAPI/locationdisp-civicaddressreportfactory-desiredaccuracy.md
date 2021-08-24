@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3a18a363c2f24e9b17e16064b7375a4f075a1a8e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ca2d4f4a7be4afa800cfe81b5df7396be579197e7f997019f4ece3a39598c975
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693129"
 ---
 # <a name="locationdispcivicaddressreportfactorydesiredaccuracy-property"></a>LocationDisp. CivicAddressReportFactory. DesiredAccuracy, propriété
 
@@ -52,7 +52,7 @@ Cette propriété est en lecture/écriture **ULong**.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette valeur est une demande au fournisseur de localisation. Le fournisseur de localisation n’est pas requis pour fournir la précision que vous demandez. Lisez la valeur de cette propriété pour découvrir le véritable paramètre de précision.
 

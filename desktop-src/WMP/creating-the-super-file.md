@@ -3,27 +3,27 @@ title: Création du fichier Super
 description: Création du fichier Super
 ms.assetid: 7c2ad3a6-e749-4cb5-9f72-17273fdcd00d
 keywords:
-- Windows Media Player Mobile Skins, Super Files
+- Lecteur Windows Media Skins mobiles, Super fichiers
 - apparences, Super fichiers
 - création d’apparences, Super fichiers
 - Super fichiers dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10b9b282036b1613dd2e59e225a3d8370b1651cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d300097c3ffd7cd83d540dadd01c89057258f55be639cdbe8c940783831b13d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651673"
 ---
 # <a name="creating-the-super-file"></a>Création du fichier Super
 
 Le fichier Super contient l’image désactivée pour trackbars.
 
 > [!Note]  
-> Les fichiers Super ne sont pas utilisés dans les habillages pour Windows Media Player 10 mobile ou version ultérieure, car les images désactivées pour Seek trackbars se trouvent dans le fichier seekthumb.
+> les Super fichiers ne sont pas utilisés dans les habillages pour Lecteur Windows Media 10 Mobile ou version ultérieure, car les images désactivées pour seek trackbars se trouvent dans le fichier seekthumb.
 
- 
+ 
 
 L’image suivante est le fichier super.
 
@@ -38,9 +38,9 @@ Il contient l’image d’un TrackBar de volume désactivé.
 [**Création de l’illustration**](creating-the-art.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

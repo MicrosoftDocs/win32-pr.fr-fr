@@ -4,18 +4,18 @@ ms.assetid: 4cbe5505-75e7-454f-9e6b-f38bdc60bf6d
 title: Sockets bruts TCP/IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25cc08d59d80089a4e655f363e4a899edac8d2b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34ef8600c7b1a6c1bc5b2f7b5b210ca2d56f90069b0afce88c83ca45e9cfad8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733389"
 ---
 # <a name="tcpip-raw-sockets"></a>Sockets bruts TCP/IP
 
 Un socket brut est un type de socket qui autorise l’accès au fournisseur de transport sous-jacent. Cette rubrique se concentre uniquement sur les sockets bruts et les protocoles IPv4 et IPv6. Cela est dû au fait que la plupart des autres protocoles, à l’exception de la technologie ATM, ne prennent pas en charge les sockets bruts. Pour utiliser des sockets bruts, une application doit avoir des informations détaillées sur le protocole sous-jacent utilisé.
 
-Les fournisseurs de services Winsock pour le protocole IP peuvent prendre en charge un *type* de socket **\_ brut**. Le fournisseur Windows Sockets 2 pour TCP/IP inclus sur Windows prend en charge ce type de socket **\_ brut de chaussette** .
+Les fournisseurs de services Winsock pour le protocole IP peuvent prendre en charge un *type* de socket **\_ brut**. le fournisseur Windows sockets 2 pour TCP/IP inclus sur Windows prend en charge ce type de socket **\_ brut de chaussette** .
 
 Il existe deux types de sockets bruts de base :
 
@@ -32,7 +32,7 @@ Le membre **iProtocol** de la structure [**WSAPROTOCOL \_ info**](/windows/win32
 
 Les autres membres de la structure [**WSAPROTOCOL \_ info**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) indiquent d’autres propriétés de la prise en charge de protocole pour les éléments **\_ bruts bruts** et indiquent comment un socket de **chaussette \_ brut** doit être traité. Ces autres membres de l' **WSAPROTOCOL \_ info** pour **chaussette \_ RAW** spécifient normalement que le protocole est sans connexion, orienté message, prend en charge la diffusion/multidiffusion (la \_ connexion XP1 sans connexion, le \_ message XP1 orienté, la diffusion de la \_ \_ prise en charge XP1 \_ et XP1 \_ prennent en charge les \_ bits multipoint sont définis dans le membre dwServiceFlags1) et peuvent avoir une taille de message maximale de 65 467 octets.
 
-Sur Windows XP et versions ultérieures, la commande *NetSh.exe* peut être utilisée pour déterminer si les sockets bruts sont pris en charge. La commande suivante, exécutée à partir d’une fenêtre CMD, affiche les données du catalogue Winsock sur la console :
+sur Windows XP et versions ultérieures, la commande *NetSh.exe* peut être utilisée pour déterminer si les sockets bruts sont pris en charge. La commande suivante, exécutée à partir d’une fenêtre CMD, affiche les données du catalogue Winsock sur la console :
 
 **netsh Winsock-afficher le catalogue**
 
@@ -47,7 +47,7 @@ Pour créer un socket de type **chaussette \_ RAW**, appelez la fonction [**Sock
 
  
 
-Les sockets bruts offrent la possibilité de manipuler le transport sous-jacent, de sorte qu’ils peuvent être utilisés à des fins malveillantes qui constituent une menace pour la sécurité. Par conséquent, seuls les membres du groupe administrateurs peuvent créer des sockets de type chaussette \_ RAW sur Windows 2000 et versions ultérieures.
+Les sockets bruts offrent la possibilité de manipuler le transport sous-jacent, de sorte qu’ils peuvent être utilisés à des fins malveillantes qui constituent une menace pour la sécurité. par conséquent, seuls les membres du groupe administrateurs peuvent créer des sockets de type chaussette \_ RAW sur Windows 2000 et versions ultérieures.
 
 ## <a name="send-and-receive-operations"></a>Opérations d’envoi et de réception
 
@@ -70,7 +70,7 @@ Les règles suivantes s’appliquent aux opérations sur les Sockets **\_ bruts 
 Il est important de comprendre que certains Sockets de type **chaussette \_ RAW** peuvent recevoir de nombreux datagrammes inattendus. Par exemple, un programme PING peut créer un socket de type **chaussette \_ RAW** pour envoyer des demandes d’écho ICMP et recevoir des réponses. Alors que l’application attend des réponses ICMP Echo, tous les autres messages ICMP (tels que \_ l’hôte ICMP inaccessible) peuvent également être remis à cette application. En outre, si plusieurs Sockets **\_ bruts de chaussette** sont ouverts sur un ordinateur en même temps, les mêmes datagrammes peuvent être remis à tous les sockets ouverts. Une application doit avoir un mécanisme pour reconnaître les datagrammes intéressants et ignorer toutes les autres. Pour un programme PING, un tel mécanisme peut inclure l’inspection de l’en-tête IP reçu pour identifier les identificateurs uniques dans l’en-tête ICMP (l’ID de processus de l’application, par exemple).
 
 > [!Note]  
-> L’utilisation d’un socket de type **chaussette \_ RAW** requiert des privilèges d’administrateur. Les utilisateurs qui exécutent des applications Winsock qui utilisent des sockets bruts doivent être membres du groupe Administrateurs sur l’ordinateur local, sinon les appels de socket brut échouent avec un code d’erreur [WSAEACCES](windows-sockets-error-codes-2.md). Sur Windows Vista et versions ultérieures, l’accès aux sockets bruts est appliqué au moment de la création du Socket. Dans les versions antérieures de Windows, l’accès aux sockets bruts est appliqué au cours d’autres opérations de Socket.
+> L’utilisation d’un socket de type **chaussette \_ RAW** requiert des privilèges d’administrateur. Les utilisateurs qui exécutent des applications Winsock qui utilisent des sockets bruts doivent être membres du groupe Administrateurs sur l’ordinateur local, sinon les appels de socket brut échouent avec un code d’erreur [WSAEACCES](windows-sockets-error-codes-2.md). sur Windows Vista et versions ultérieures, l’accès aux sockets bruts est appliqué au moment de la création du socket. dans les versions antérieures de Windows, l’accès pour les sockets bruts est appliqué au cours d’autres opérations de socket.
 
  
 
@@ -80,7 +80,7 @@ Une utilisation courante des sockets bruts consiste à dépanner les application
 
 ## <a name="limitations-on-raw-sockets"></a>Limitations sur les sockets bruts
 
-Sur Windows 7, Windows Vista, Windows XP avec Service Pack 2 (SP2) et Windows XP avec Service Pack 3 (SP3), la possibilité d’envoyer du trafic sur des sockets bruts a été restreinte de plusieurs façons :
+sur Windows 7, Windows Vista, Windows xp avec service pack 2 (SP2) et Windows XP avec service pack 3 (SP3), la possibilité d’envoyer du trafic sur des sockets bruts a été restreinte de plusieurs façons :
 
 -   Impossible d’envoyer les données TCP sur des sockets bruts.
 -   Les datagrammes UDP avec une adresse source non valide ne peuvent pas être envoyés sur des sockets bruts. L’adresse IP source de tout datagramme UDP sortant doit exister sur une interface réseau ou le datagramme est abandonné. Cette modification a été apportée pour limiter la capacité du code malveillant à créer des attaques par déni de service distribuées et limite la possibilité d’envoyer des paquets falsifiés (paquets TCP/IP avec une adresse IP source falsifiée).
@@ -90,14 +90,14 @@ Sur Windows 7, Windows Vista, Windows XP avec Service Pack 2 (SP2) et Windows XP
 
      
 
-Les restrictions ci-dessus ne s’appliquent pas à Windows Server 2008 R2, Windows Server 2008, Windows Server 2003 ou aux versions du système d’exploitation antérieures à Windows XP avec SP2.
+les restrictions ci-dessus ne s’appliquent pas à Windows server 2008 R2, Windows server 2008, Windows server 2003 ou aux versions du système d’exploitation antérieures à Windows XP avec SP2.
 
 > [!Note]  
-> L’implémentation Microsoft du protocole TCP/IP sur Windows est en charge de l’ouverture d’un socket UDP ou TCP brut basé sur les restrictions ci-dessus. D’autres fournisseurs Winsock peuvent ne pas prendre en charge l’utilisation de sockets bruts.
+> l’implémentation Microsoft de TCP/IP sur Windows est en charge d’ouvrir un socket UDP ou TCP brut en fonction des restrictions ci-dessus. D’autres fournisseurs Winsock peuvent ne pas prendre en charge l’utilisation de sockets bruts.
 
  
 
-Il existe des limitations supplémentaires pour les applications qui utilisent un socket de type **chaussette \_ RAW**. Par exemple, toutes les applications qui écoutent un protocole spécifique recevront tous les paquets reçus pour ce protocole. Ce n’est peut-être pas ce que vous souhaitez pour plusieurs applications utilisant un protocole. Elle n’est pas non plus adaptée aux applications hautes performances. Pour contourner ces problèmes, il peut être nécessaire d’écrire un pilote de protocole réseau Windows (pilote de périphérique) pour le protocole réseau spécifique. Sur Windows Vista et versions ultérieures, Winsock kernel (WSK), une nouvelle interface de programmation réseau indépendante du transport, peut être utilisé pour écrire un pilote de protocole réseau. Sur Windows Server 2003 et versions antérieures, un fournisseur interface TDI (TDI) et une DLL d’assistance Winsock peuvent être écrits pour prendre en charge le protocole réseau. Le protocole réseau est ensuite ajouté au catalogue Winsock en tant que protocole pris en charge. Cela permet à plusieurs applications d’ouvrir des sockets pour ce protocole spécifique et le pilote de périphérique peut assurer le suivi du socket qui reçoit des paquets et des erreurs spécifiques. Pour plus d’informations sur l’écriture d’un fournisseur de protocole réseau, consultez les sections sur WSK et TDI dans le kit WDK (Windows Driver Kit).
+Il existe des limitations supplémentaires pour les applications qui utilisent un socket de type **chaussette \_ RAW**. Par exemple, toutes les applications qui écoutent un protocole spécifique recevront tous les paquets reçus pour ce protocole. Ce n’est peut-être pas ce que vous souhaitez pour plusieurs applications utilisant un protocole. Elle n’est pas non plus adaptée aux applications hautes performances. pour contourner ces problèmes, il peut être nécessaire d’écrire un pilote de protocole réseau Windows (pilote de périphérique) pour le protocole réseau spécifique. sur Windows Vista et versions ultérieures, Winsock kernel (WSK), une nouvelle Interface de programmation réseau indépendante du transport, peut être utilisé pour écrire un pilote de protocole réseau. sur Windows Server 2003 et versions antérieures, un fournisseur d’interface TDI (TDI) et une DLL d’assistance Winsock peuvent être écrits pour prendre en charge le protocole réseau. Le protocole réseau est ensuite ajouté au catalogue Winsock en tant que protocole pris en charge. Cela permet à plusieurs applications d’ouvrir des sockets pour ce protocole spécifique et le pilote de périphérique peut assurer le suivi du socket qui reçoit des paquets et des erreurs spécifiques. pour plus d’informations sur l’écriture d’un fournisseur de protocole réseau, consultez les sections sur WSK et TDI dans le Kit de pilotes Windows (WDK).
 
 Les applications doivent également connaître l’impact que les paramètres de pare-feu peuvent avoir sur l’envoi et la réception de paquets à l’aide de sockets bruts.
 

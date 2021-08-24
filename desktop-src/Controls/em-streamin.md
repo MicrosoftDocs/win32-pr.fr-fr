@@ -3,7 +3,7 @@ title: Message EM_STREAMIN (RichEdit. h)
 description: Remplace le contenu d’un contrôle RichEdit par un flux de données fourni par une application définie \ 8211 ; Fonction de rappel EditStreamCallback.
 ms.assetid: b8d3a108-b415-4f5e-99e7-0e0e7a82a778
 keywords:
-- EM_STREAMIN les contrôles de message Windows
+- EM_STREAMIN les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40fdcf844cce09cf5c49085a9fcf08a38ad988ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 597d6483ef02f0c9f6f4e4459cd6780b91e04c39160c8057e88fc537fde3b173
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576339"
 ---
 # <a name="em_streamin-message"></a>\_Message de flux em
 
@@ -72,7 +72,7 @@ Pointeur vers une structure [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-ri
 
 Ce message retourne le nombre de caractères lus.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous envoyez un message de **\_ flux em** , le contrôle RichEdit effectue des appels répétés à la fonction [*EditStreamCallback*](/windows/desktop/api/Richedit/nc-richedit-editstreamcallback) spécifiée par le membre **pfnCallback** de la structure [**EDITSTREAM**](/windows/desktop/api/Richedit/ns-richedit-editstream) . Chaque fois que la fonction de rappel est appelée, elle remplit une mémoire tampon avec des données à lire dans le contrôle. Cela se poursuit jusqu’à ce que la fonction de rappel indique que l’opération de flux est terminée ou qu’une erreur se produit.
 
@@ -82,8 +82,8 @@ Lorsque vous envoyez un message de **\_ flux em** , le contrôle RichEdit effect
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

@@ -1,9 +1,9 @@
 ---
 title: Message WM_DDE_ADVISE (DDE. h)
-description: Une application cliente échange dynamique de données (DDE) publie le message de notification de l’échange de données (DDE) WM \_ \_ dans une application de serveur DDE pour demander au serveur de fournir une mise à jour pour un élément de données à chaque modification de l’élément.
+description: une application cliente échange dynamique de données (dde) publie le message de notification de l’échange de données (dde) WM \_ \_ dans une application de serveur dde pour demander au serveur de fournir une mise à jour pour un élément de données à chaque modification de l’élément.
 ms.assetid: b00db740-36a7-4487-abbf-d74b12f5212a
 keywords:
-- WM_DDE_ADVISE l’échange de données de message
+- WM_DDE_ADVISE des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 832c6991169b71955c0ab21b59d2b55b0b54fc9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c651144b4f09cf53f07c0f1860625cab8277e5c8a9532ee864b9ec1b1c927323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636219"
 ---
 # <a name="wm_dde_advise-message"></a>\_Message de \_ notification DDE WM
 
-Une application cliente échange dynamique de données (DDE) publie le message de **\_ \_ notification** de l’échange de données (DDE) WM dans une application de serveur DDE pour demander au serveur de fournir une mise à jour pour un élément de données à chaque modification de l’élément.
+une application cliente échange dynamique de données (dde) publie le message de **\_ \_ notification** de l’échange de données (dde) WM dans une application de serveur dde pour demander au serveur de fournir une mise à jour pour un élément de données à chaque modification de l’élément.
 
 Pour poster ce message, appelez la fonction [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) avec les paramètres suivants.
 
@@ -54,7 +54,7 @@ Le mot de poids fort contient un atome qui identifie l’élément de données d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si une application cliente prend en charge plusieurs formats de presse-papiers pour une seule rubrique et un seul élément, elle peut envoyer plusieurs messages de **\_ \_ notification** de l’échange de message pour la rubrique et l’élément, en spécifiant un format de presse-papiers différent pour chaque message. Notez qu’un serveur peut prendre en charge plusieurs formats uniquement pour les liaisons de données à chaud, et non pour les liaisons de données à chaud.
 
@@ -84,7 +84,7 @@ Le serveur doit créer ou réutiliser le paramètre [**WM \_ DDE \_ ACK**](wm-dd
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>DDE. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Dde. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: ad0faead-63db-4682-8db0-fa97b54217c6
 title: À propos de Uniscribe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ef0e69cd714174d811b1a4715532a5e74ec2851
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e516af2aac6999535e4d0b6453d8c2bed5fcfa1ae9e0eb4ce4377a4040209b10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754899"
 ---
 # <a name="about-uniscribe"></a>À propos de Uniscribe
 

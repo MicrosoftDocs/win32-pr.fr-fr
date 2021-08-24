@@ -13,20 +13,20 @@ keywords:
 - profils système localisés, liste de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aaeecdf1d1d62d78df18e0ac1c5bffbf39f9778
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: dbe3ca0abbe0e5b92645f6adaa1f6ebfdc44d52064d6fb8e1389420d19651b7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707709"
 ---
 # <a name="localized-system-profiles"></a>Profils système localisés
 
-Le tableau suivant répertorie les fichiers de profil système localisés fournis avec le kit de développement logiciel (SDK) Windows Media format et les langues associées à chacun d’eux. Ces fichiers sont installés dans le \[ \] \\ dossier SDKRoot WMSDK \\ WMFSDK9 \\ LocalizedProfiles Pour accéder à un fichier particulier avec les méthodes **IWMProfileManagerLanguage** , vous devez le déplacer dans le répertoire racine système avec les fichiers de profil système par défaut.
+le tableau suivant répertorie les fichiers de profil système localisés fournis avec le kit de développement logiciel (SDK) Windows Media Format et les langues associées à chacune d’entre elles. Ces fichiers sont installés dans le \[ \] \\ dossier SDKRoot WMSDK \\ WMFSDK9 \\ LocalizedProfiles Pour accéder à un fichier particulier avec les méthodes **IWMProfileManagerLanguage** , vous devez le déplacer dans le répertoire racine système avec les fichiers de profil système par défaut.
 
 
 
-| Language              | Nom de fichier    |
+| Langage              | Nom de fichier    |
 |-----------------------|--------------|
 | Arabe                | WMPrfAra. prx |
 | Chinois – simplifié  | WMPrfCHS. prx |
@@ -56,7 +56,7 @@ Le tableau suivant répertorie les fichiers de profil système localisés fourni
 
 
 
- 
+ 
 
 Vous pouvez définir la langue de l’objet gestionnaire de profils en appelant la méthode [**IWMProfileManagerLanguage :: SetUserLanguageID**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofilemanagerlanguage-setuserlanguageid) . Pour la plupart des langues, seul l’identificateur de langue primaire dans l’ID de langue est examiné. Les exceptions concernent les langues chinoises et portugaises, où l’identificateur de langue secondaire est également utilisé. Le tableau suivant montre comment créer un LANGID pour spécifier dans la méthode **SetUserLanguageID** .
 
@@ -71,7 +71,7 @@ Vous pouvez définir la langue de l’objet gestionnaire de profils en appelant 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -83,9 +83,9 @@ Vous pouvez définir la langue de l’objet gestionnaire de profils en appelant 
 [**Profils système**](system-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

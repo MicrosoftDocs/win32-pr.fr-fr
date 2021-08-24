@@ -4,12 +4,12 @@ ms.assetid: 2ae937f6-e0a6-4a02-9838-0a42575bae66
 title: Mappage de la résolution de noms entre les fonctions API et SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a031ea8af72bb2733fc647c817a850ab7f311b1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad02896ea15fb1b7c7e2aa2e01d9ec0727492da43d0446819dd1f2e04ad591d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733623"
 ---
 # <a name="name-resolution-mapping-between-api-and-spi-functions"></a>Mappage de la résolution de noms entre les fonctions API et SPI
 

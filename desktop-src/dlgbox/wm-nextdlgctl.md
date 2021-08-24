@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc6b70dbaf010b839a0069513f97de8fdab1c0a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1a14de889e614aaba28757716326bcd1cf843aed64fe2dc58ca86430d65db628
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606219"
 ---
 # <a name="wm_nextdlgctl-message"></a>\_Message WM NEXTDLGCTL
 
@@ -54,7 +54,7 @@ Le mot de poids faible indique comment le système utilise *wParam*. Si le mot d
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message effectue des opérations de gestion de boîte de dialogue supplémentaires au-delà de celles effectuées par la fonction [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) **WM \_ NEXTDLGCTL** met à jour la bordure du bouton de commande par défaut, définit l’identificateur de contrôle par défaut et sélectionne automatiquement le texte d’un contrôle d’édition (si la fenêtre cible est un contrôle d’édition).
 

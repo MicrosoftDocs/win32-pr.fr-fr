@@ -6,12 +6,12 @@ keywords:
 - énumérations, Direct3D 11 Core
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b012ae34367ef849bebf3fb25780310fcb924ba9
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 67454f6137dd9305cdab16b5136a01964d638ec8b5e4d4b0b9adb2f51d0f975f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104383216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633659"
 ---
 # <a name="direct3d-11-core-enumerations"></a>Principales énumérations Direct3D 11
 
@@ -71,7 +71,7 @@ Cette section contient des informations sur les énumérations principales.
 <td><a href="/windows/win32/api/D3D11_1/ne-d3d11_1-d3d11_copy_flags"><strong>D3D11_COPY_FLAGS</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Cette énumération est prise en charge par le runtime Direct3D 11,1, disponible sur les systèmes d’exploitation Windows 8 et versions ultérieures.
+cette énumération est prise en charge par le runtime Direct3D 11,1, disponible sur Windows 8 et les systèmes d’exploitation ultérieurs.
 </blockquote>
 <br/> Spécifie comment gérer le contenu existant d’une ressource pendant une opération de copie ou de mise à jour d’une région au sein de cette ressource.<br/></td>
 </tr>
@@ -143,7 +143,7 @@ Cette énumération est prise en charge par le runtime Direct3D 11,1, disponible
 <td><a href="/windows/win32/api/D3D11_1/ne-d3d11_1-d3d11_logic_op"><strong>D3D11_LOGIC_OP</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Cette énumération est prise en charge par le runtime Direct3D 11,1, disponible sur les systèmes d’exploitation Windows 8 et versions ultérieures.
+cette énumération est prise en charge par le runtime Direct3D 11,1, disponible sur Windows 8 et les systèmes d’exploitation ultérieurs.
 </blockquote>
 <br/> Spécifie les opérations logiques à configurer pour une cible de rendu.<br/></td>
 </tr>
@@ -175,7 +175,7 @@ Cette énumération est prise en charge par le runtime Direct3D 11,1, disponible
 <td><a href="/windows/win32/api/D3D11/ne-d3d11-d3d11_shader_min_precision_support"><strong>D3D11_SHADER_MIN_PRECISION_SUPPORT</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Cette énumération est prise en charge par le runtime Direct3D 11,1, disponible sur les systèmes d’exploitation Windows 8 et versions ultérieures.
+cette énumération est prise en charge par le runtime Direct3D 11,1, disponible sur Windows 8 et les systèmes d’exploitation ultérieurs.
 </blockquote>
 <br/> Valeurs qui spécifient des niveaux de précision minimum aux étapes du nuanceur.<br/></td>
 </tr>

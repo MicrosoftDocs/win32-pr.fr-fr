@@ -4,12 +4,12 @@ ms.assetid: 337bc798-e75d-4389-8fea-577eb82a0ed5
 title: Traitement de script complexe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33e4be6295bff949c8e29036ef3af496c673575e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15671aed99e0c596d83bd65a2f4a0925ff61293cf90ed37e2aed371f23f114fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754909"
 ---
 # <a name="complex-script-processing"></a>Traitement de script complexe
 
@@ -41,11 +41,11 @@ En général, la prise en charge du texte standard est transparente pour les app
 
 ## <a name="complex-script-processing-using-edit-controls"></a>Traitement de scripts complexes à l’aide de contrôles d’édition
 
-Les contrôles d’édition Windows standard ont été étendus pour prendre en charge le texte multilingue et les scripts complexes. La prise en charge étendue comprend l’entrée et l’affichage, ainsi que le déplacement du curseur sur les clusters de caractères, par exemple, dans les scripts thaï et DÉVANÂGARÎ. Pour plus d’informations, consultez [modifier des contrôles](../controls/edit-controls.md).
+les contrôles d’édition standard Windows ont été étendus pour prendre en charge le texte multilingue et les scripts complexes. La prise en charge étendue comprend l’entrée et l’affichage, ainsi que le déplacement du curseur sur les clusters de caractères, par exemple, dans les scripts thaï et DÉVANÂGARÎ. Pour plus d’informations, consultez [modifier des contrôles](../controls/edit-controls.md).
 
 ## <a name="complex-script-processing-using-rich-edit-controls"></a>Traitement de scripts complexes à l’aide de contrôles RichEdit
 
-La modification enrichie 3,0 est une collection d’interfaces de niveau supérieur qui tire parti de Uniscribe pour isoler les applications de disposition du texte de la complexité de certains scripts. L’édition enrichie est le moyen le plus simple pour les applications d’afficher des scripts complexes, même si leur objectif principal n’est pas nécessairement la disposition du texte. La modification enrichie fournit une édition rapide et polyvalente de texte enrichi Unicode et de texte brut simple. Il comprend une grande quantité de messages et d’interfaces COM, l’édition de texte, la mise en forme, le saut de ligne, la disposition de tableau simple, la disposition de texte verticale, la disposition de texte bidirectionnel, la prise en charge Indo-aryen et thaï, une interface utilisateur de modification similaire à Microsoft Word et les interfaces de modèle d’objet de texte.
+La modification enrichie 3,0 est une collection d’interfaces de niveau supérieur qui tire parti de Uniscribe pour isoler les applications de disposition du texte de la complexité de certains scripts. L’édition enrichie est le moyen le plus simple pour les applications d’afficher des scripts complexes, même si leur objectif principal n’est pas nécessairement la disposition du texte. La modification enrichie fournit une édition rapide et polyvalente de texte enrichi Unicode et de texte brut simple. il comprend une grande quantité de messages et d’interfaces COM, l’édition de texte, la mise en forme, le saut de ligne, la disposition de tableau simple, la disposition de texte verticale, la disposition de texte bidirectionnel, la prise en charge indo-aryen et thaï, une interface utilisateur de modification similaire à Microsoft Word et des interfaces de modèle d’objet de texte.
 
 Avec les interfaces RichEdit, les applications peuvent utiliser la fonction Rich Edit [**TextOut**](/windows/win32/api/wingdi/nf-wingdi-textouta) pour analyser, mettre en forme, positionner et rompre automatiquement les lignes. Pour plus d’informations, consultez [contrôles RichEdit](../controls/rich-edit-controls.md).
 

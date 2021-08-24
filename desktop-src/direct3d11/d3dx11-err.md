@@ -1,6 +1,6 @@
 ---
 title: Énumération D3DX11_ERR (D3DX11. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Les erreurs sont représentées par des valeurs négatives et ne peuvent pas être combinées.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Les erreurs sont représentées par des valeurs négatives et ne peuvent pas être combinées.'
 ms.assetid: d042621d-a20b-4945-b6aa-714a451aa88a
 keywords:
 - Énumération D3DX11_ERR Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0607bd495bad4bdeacf66ae593670dbe3ad0d2e2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d80b906b5b95693458eeea353f40fe446a22e8e33a6011b7851cf6d9663b3ed4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104996200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119729319"
 ---
 # <a name="d3dx11_err-enumeration"></a>D3DX11 \_ Err (énumération)
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -117,7 +117,7 @@ Impossible de supprimer le dernier élément.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le code \_ d’installation FACDD est utilisé pour générer des codes d’erreur, comme dans les macros suivantes.
 
@@ -134,7 +134,7 @@ enum _D3DXERR {
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: Message ICM_SET_STATUS_PROC (VFW. h)
-description: Le \_ \_ \_ message de procédure de traitement d’État ICM fournit une fonction de rappel d’État avec l’état d’une opération de longue durée.
+description: le ICM \_ définir \_ le \_ message de procédure d’état fournit une fonction de rappel d’état avec l’état d’une opération de longue durée.
 ms.assetid: a1bcd840-b94b-487e-91d6-67411a8a3a2d
 keywords:
-- Message ICM_SET_STATUS_PROC Windows Multimedia
+- message ICM_SET_STATUS_PROC Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53d7ad2745ab53c2e04a1588ddbf1b1e5d755202
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c02019bb6375aa18fd37ba34d2603839b37291d58822858b0b9cabc01e47d7b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678339"
 ---
-# <a name="icm_set_status_proc-message"></a>\_Message de \_ procédure d’état de l’ensemble ICM \_
+# <a name="icm_set_status_proc-message"></a>ICM \_ DÉFINIR \_ le \_ message de procédure d’État
 
-Le message de **\_ procédure de \_ \_ traitement d’État ICM** fournit une fonction de rappel d’État avec l’état d’une opération de longue durée.
+le **ICM définir le message de \_ \_ \_ procédure d’état** fournit une fonction de rappel d’état avec l’état d’une opération de longue durée.
 
 
 ```C++
@@ -56,7 +56,7 @@ Taille, en octets, de **ICSETSTATUSPROC**.
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La prise en charge de ce message est facultative, mais fortement recommandée si la compression ou la décompression prend plus d’un dixième de seconde environ.
 

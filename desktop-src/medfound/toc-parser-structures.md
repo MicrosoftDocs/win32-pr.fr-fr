@@ -4,12 +4,12 @@ ms.assetid: 7438b09e-e649-462d-9a36-fb19e0817d75
 title: Structures de l’analyseur de table des matières
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50c4b5129c0418970050886bf65d8f1da4f9cb76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e9346b52d7f3a4836473b2b2356cafd4fc9121f6a42dec90a17e9d90167ae0c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599849"
 ---
 # <a name="table-of-contents-parser-structures"></a>Structures de l’analyseur de table des matières
 

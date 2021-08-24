@@ -4,12 +4,12 @@ ms.assetid: 9e185435-a624-4380-adfd-be4f3645ee5d
 title: Message WM_GETTEXTLENGTH (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0efc058033f9c4939137414d305d0717b54bef54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bc01f6f7a2b74df41e97a84bb4d7e17d9c3e21966215fcbcca04222d1d5537f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710389"
 ---
 # <a name="wm_gettextlength-message"></a>\_Message WM GETTEXTLENGTH
 
@@ -46,7 +46,7 @@ Type : **LRESULT**
 
 La valeur de retour correspond à la longueur du texte en caractères, à l’exclusion du caractère null de fin.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour un contrôle d’édition, le texte à copier correspond au contenu du contrôle d’édition. Pour une zone de liste modifiable, le texte est le contenu de la partie contrôle d’édition (ou texte statique) de la zone de liste déroulante. Pour un bouton, le texte est le nom du bouton. Pour les autres fenêtres, le texte est le titre de la fenêtre. Pour déterminer la longueur d’un élément dans une zone de liste, une application peut utiliser le message [**lb \_ GETTEXTLEN**](../controls/lb-gettextlen.md) .
 

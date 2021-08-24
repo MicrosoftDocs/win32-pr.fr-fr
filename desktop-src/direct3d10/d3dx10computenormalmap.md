@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 173a8e0c1b3130a399152187eb52288a0306051c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b719e1b40c3e8cd04ca0750e69c68bbd4a0a59394c3334818f091900606311af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634779"
 ---
 # <a name="d3dx10computenormalmap-function"></a>D3DX10ComputeNormalMap fonction)
 
@@ -53,7 +53,7 @@ Pointeur vers une interface ID3D10Texture2D représentant la texture de la carte
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
@@ -89,13 +89,13 @@ Pointeur vers une interface ID3D10Texture2D représentant la texture de destinat
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être la valeur suivante : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode calcule le normal à l’aide de la différence centrale avec une taille de noyau de 3 x 3. Les canaux RVB dans la destination contiennent des composants (x, y, z) biaisés de la normale. Le dénominateur de différenciation central est codé en dur sur 2,0.
 

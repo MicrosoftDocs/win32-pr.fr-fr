@@ -1,9 +1,9 @@
 ---
 title: XTYP_XACT_COMPLETE transaction (Ddeml. h)
-description: Une fonction de rappel client échange dynamique de données (DDE), DdeCallback, reçoit la \_ transaction XTYP XACT \_ Complete lorsqu’une transaction asynchrone, initiée par un appel à la fonction DdeClientTransaction, est terminée.
+description: une fonction de rappel client échange dynamique de données (DDE), DdeCallback, reçoit la \_ transaction XTYP XACT \_ complete lorsqu’une transaction asynchrone, initiée par un appel à la fonction DdeClientTransaction, est terminée.
 ms.assetid: d34a6fab-0e3c-44fe-b25f-7011228fe261
 keywords:
-- Échange de données de transaction XTYP_XACT_COMPLETE
+- XTYP_XACT_COMPLETE Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03a81869270a771836c4dd5c1a6b300f148ea13d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d3833207371bbfab059f67ecb5bdb72b77334ef3ffc73618e013ce137835c6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678009"
 ---
 # <a name="xtyp_xact_complete-transaction"></a>\_Transaction XTYP XACT \_ complète
 
-Une fonction de rappel client échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction **XTYP \_ XACT \_ Complete** lorsqu’une transaction asynchrone, initiée par un appel à la fonction [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) , est terminée.
+une fonction de rappel client échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction **XTYP \_ XACT \_ complete** lorsqu’une transaction asynchrone, initiée par un appel à la fonction [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) , est terminée.
 
 
 ```C++
@@ -93,7 +93,7 @@ Tous les indicateurs d’état **DDE \_** applicables dans le mot de poids faibl
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application ne doit pas libérer le descripteur de données obtenu pendant cette transaction. Toutefois, une application doit copier les données associées au descripteur de données si l’application doit traiter les données après le retour de la fonction de rappel. Une application peut utiliser la fonction [**DdeGetData**](/windows/desktop/api/Ddeml/nf-ddeml-ddegetdata) pour copier les données.
 
@@ -125,7 +125,7 @@ Une application ne doit pas libérer le descripteur de données obtenu pendant c
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

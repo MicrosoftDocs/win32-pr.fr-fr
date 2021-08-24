@@ -4,12 +4,12 @@ ms.assetid: 71078d83-72f4-41f9-b80c-7ba0139206fb
 title: Élément imageLink (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d84b2e5cbbfc8bbd98557ebd0405a09cf998e6ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 007ad8c2500e2739210646c446d9f906d5a83571ea4ac9780ab9136b73805c83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711089"
 ---
 # <a name="imagelink-element-search-connector-schema"></a>Élément imageLink (schéma du connecteur de recherche)
 
@@ -51,9 +51,9 @@ L' <imageLink> élément facultatif spécifie une miniature pour ce connecteur d
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La valeur imageLink peut être un chemin d’accès au système de fichiers local ou une URL. Le fichier image peut être l’un des types d’images de base pris en charge par Windows 7 (PNG, BMP, JPG, GIF).
+La valeur imageLink peut être un chemin d’accès au système de fichiers local ou une URL. le fichier image peut être l’un des types d’images de base pris en charge par Windows 7 (PNG, BMP, JPG, GIF).
 
 ## <a name="example-of-an-imagelink-element"></a>Exemple d’élément imageLink
 

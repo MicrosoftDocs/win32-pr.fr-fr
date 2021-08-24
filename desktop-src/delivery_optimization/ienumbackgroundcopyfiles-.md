@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7e46e94139a0c82e6c5b45f9397d76de8b4fdb43
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6cf97975d583a99145e32482bc097ebd6ce3cc052e62560a34f7f78c1f88ae6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106527569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635679"
 ---
 # <a name="ienumbackgroundcopyfiles-interface"></a>Interface IEnumBackgroundCopyFiles
 
@@ -43,7 +43,7 @@ L’interface **IEnumBackgroundCopyFiles** possède ces méthodes.
 |:------------------------------------------------------|:------------------------------------------------------------------------------|
 | [**GetCount**](ienumbackgroundcopyfiles-getcount.md) | Récupère le nombre d’éléments dans l’énumération.<br/>                  |
 | [**Suivant**](ienumbackgroundcopyfiles-next.md)         | Récupère un nombre spécifié d’éléments dans la séquence d’énumération.<br/> |
-| [**Réinitialiser**](ienumbackgroundcopyfiles-reset.md)       | Réinitialise la séquence d'énumération au début.<br/>                  |
+| [**Initialisation**](ienumbackgroundcopyfiles-reset.md)       | Réinitialise la séquence d'énumération au début.<br/>                  |
 | [**Saut**](ienumbackgroundcopyfiles-skip.md)         | Ignore un nombre défini d'éléments dans la séquence d'énumération.<br/>     |
 
 
@@ -56,8 +56,8 @@ L’interface **IEnumBackgroundCopyFiles** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

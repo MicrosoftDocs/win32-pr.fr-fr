@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f9a41d29e46d29cff9023421a661cc90731d4c06
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 901531b3aaff882700a6a6196330cc7b0823b8b0069024101953f5f79a54e17d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634679"
 ---
 # <a name="cmediasamplegetmediatime-method"></a>Méthode CMediaSample. GetMediaTime
 
@@ -65,14 +65,14 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                                  | Description                                         |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                         | Opération réussie.<br/>                                 |
+| <dl> <dt>**\_OK**</dt> </dl>                         | Réussite.<br/>                                 |
 | <dl> <dt>**\_heure du média VFW E \_ \_ \_ non \_ définie**</dt> </dl> | Aucun temps de support n’a été défini pour cet exemple.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La variable de membre [**CMediaSample :: m \_ MediaEnd**](cmediasample-m-mediaend.md) spécifie un décalage à partir de [**CMediaSample :: m \_ MediaStart**](cmediasample-m-mediastart.md), mais la valeur reçue par le paramètre en *attente* est un temps de support absolu, calculé comme **m \_** MediaStart  +  **m \_ MediaEnd**.
 
@@ -84,7 +84,7 @@ Pour plus d’informations sur les temps de support, consultez [heure et horloge
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ ms.assetid: a42f6cdd-47e9-4f43-aeaf-37a5abb0fa36
 title: Consommation de données de compteur
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: c8c50b29d8f898f544b021f7fe3f3fd0d4a2094e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3abcc6dd5a385ebffdc887516613efb76b53359e5f8995bc28ba7f6239187b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775679"
 ---
 # <a name="consuming-counter-data"></a>Consommation de données de compteur
 
-Les programmes qui veulent lire et utiliser les données du compteur de performances Windows peuvent utiliser l’une des interfaces appropriées pour le scénario.
+les programmes qui veulent lire et utiliser des données de compteurs de Performance Windows peuvent utiliser l’une des interfaces appropriées pour le scénario.
 
 - Les scripts peuvent utiliser les [classes de compteur de performance WMI](/windows/desktop/WmiSdk/monitoring-performance-data) ou l’outil [typeperf](/windows-server/administration/windows-commands/typeperf) .
 - Les programmes .NET peuvent utiliser la [classe PerformanceCounter](/dotnet/api/system.diagnostics.performancecounter).

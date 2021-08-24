@@ -4,12 +4,12 @@ ms.assetid: cb4d99d5-3ae0-4bfc-b521-122dd9d4f1c2
 title: Famille IPX d’identificateurs de protocole
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7fc808a04f1cf10bb099cd7d923bf471e9bd8d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 549e1dbdb9d379e87ed8e22871188b0b7762e924a695721f1c860fce14f2a2e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733649"
 ---
 # <a name="ipx-family-of-protocol-identifiers"></a>Famille IPX d’identificateurs de protocole
 
@@ -17,7 +17,7 @@ Le paramètre *Protocol* dans [**Socket**](/windows/desktop/api/Winsock2/nf-wins
 
 
 
-| Nom         | Valeur       | Types de Sockets              | Description                                         |
+| Name         | Valeur       | Types de Sockets              | Description                                         |
 |--------------|-------------|---------------------------|-----------------------------------------------------|
 | Réservé     | 0-255       |                           | Réservé aux valeurs de protocole de PF \_ inet.              |
 | \_IPX NSPROTO | 1000-1255 | \_DGRAM chaussette \_ brute     | Service de datagramme pour IPX.                           |

@@ -4,12 +4,12 @@ ms.assetid: e320733e-a9ec-4ead-9601-c736e6288c7a
 title: Notes pour les développeurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e69ff7f7a23b8a0702be507cbd8fa50e8b367dd
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: b6d9640b770e0b2527dafe6a6f2bec2de00a870b29a255481d8402dcf91b27f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "103761576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654149"
 ---
 # <a name="developer-notes"></a>Notes pour les développeurs
 
@@ -36,7 +36,7 @@ Cet ensemble de documentation décrit des éléments qui peuvent présenter un i
 -   [Débogage jet](jet-debugging.md)
 -   [MSN](msn.md)
 -   [MSXML 1,0 (obsolète)](msxml-1-0.md)
--   [Mise en réseau](networking.md)
+-   [Réseau](networking.md)
 -   [NFS](nfs.md)
 -   [Fichiers hors connexion](offline-files.md)
 -   [Bibliothèque de Registre hors connexion](offline-registry-library-portal.md)
@@ -48,7 +48,7 @@ Cet ensemble de documentation décrit des éléments qui peuvent présenter un i
 -   [Mode d’installation Terminal Server](terminal-server-install-mode.md)
 -   [Interface utilisateur](user-interface.md)
 -   [Visual Studio](visual-studio.md)
--   [Stratégie du mode sécurisé Windows](windows-lockdown-policy.md)
+-   [Windows Stratégie de mode sécurisé](windows-lockdown-policy.md)
 -   [Analyseur lexical](word-breaker.md)
 
  

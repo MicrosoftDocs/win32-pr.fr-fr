@@ -1,5 +1,5 @@
 ---
-title: printf (fonction)
+title: printf, fonction
 description: Envoie un message de nuanceur personnalisé à la file d’attente d’informations.
 ms.assetid: 0c6c15fc-1da5-4a26-ade0-5a0489e4f564
 keywords:
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74492cc613e22f335eace684300f0380e5751a95
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 47131cacef436572f519b394a02b4aaa357a426dd80a192868712cb3d7779e24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672519"
 ---
-# <a name="printf-function"></a>printf (fonction)
+# <a name="printf-function"></a>printf, fonction
 
 Envoie un message de nuanceur personnalisé à la file d’attente d’informations.
 
@@ -28,8 +28,8 @@ Envoie un message de nuanceur personnalisé à la file d’attente d’informati
 
 ``` syntax
 void printf(
-   string format,
-    argument ...
+   string format,
+    argument ...
 );
 ```
 
@@ -55,7 +55,7 @@ Arguments facultatifs.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette opération ne fait rien sur les appareils qui ne la prennent pas en charge.
 
@@ -65,13 +65,13 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                        | Prise en charge |
+| Modèle de nuanceur                                                        | Pris en charge |
 |---------------------------------------------------------------------|-----------|
-| [Shader Model 4 (DirectX HLSL) ou version ultérieure.](dx-graphics-hlsl-sm3.md) | Oui       |
+| [Shader Model 4 (DirectX HLSL) ou version ultérieure.](dx-graphics-hlsl-sm3.md) | oui       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -80,9 +80,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 [Fonctions intrinsèques](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

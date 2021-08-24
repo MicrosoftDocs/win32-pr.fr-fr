@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 47353a3f312a2abbd6f4fe5ea1dcd1ed9495a9d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d658d2d14d149d5d83d673269f2a414d7feaa22f13f1b32f57c4b80500fb1398
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673099"
 ---
 # <a name="registers---vs_3_0"></a>Registres-vs \_ 3 \_ 0
 
@@ -24,21 +24,21 @@ Cette section contient des informations de référence pour les registres d’en
 
 
 
-| S’inscrire | Nom                                                                                      | Count      | R/W (Lecture/écriture) | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut     | DCL obligatoire |
+| S’inscrire | Name                                                                                      | Count      | R/W (Lecture/écriture) | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut     | DCL obligatoire |
 |----------|-------------------------------------------------------------------------------------------|------------|-----|---------------|-----------------|-----------|---------|--------------|--------------|
-| v\#      | [Registre d’entrée](dx9-graphics-reference-asm-vs-registers-input.md)                       | 16         | R   | 1             | Illimité       | 4         | a0/aL   | Voir la remarque 1   | Oui          |
-| r\#      | [Registre temporaire](dx9-graphics-reference-asm-vs-registers-temporary.md)               | 32         | R/W (Lecture/écriture) | 3             | Illimité       | 4         | Non      | None         | Non           |
-| c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-vs-registers-constant-float.md)     | Voir la remarque 2 | R   | 1             | Illimité       | 4         | a0/aL   | (0, 0, 0, 0) | Non           |
-| a0       | [Registre d’adresses](dx9-graphics-reference-asm-vs-registers-address.md)                   | 1          | R/W (Lecture/écriture) | 1             | Illimité       | 4         | Non      | None         | Non           |
-| p\#      | [Registre booléen constant](dx9-graphics-reference-asm-vs-registers-constant-boolean.md) | 16         | R   | 1             | 1               | 1         | Non      | FALSE        | Non           |
+| v\#      | [Registre d’entrée](dx9-graphics-reference-asm-vs-registers-input.md)                       | 16         | R   | 1             | illimitées       | 4         | a0/aL   | Voir la remarque 1   | Oui          |
+| r\#      | [Registre temporaire](dx9-graphics-reference-asm-vs-registers-temporary.md)               | 32         | R/W (Lecture/écriture) | 3             | illimitées       | 4         | Non      | Aucun         | Non           |
+| c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-vs-registers-constant-float.md)     | Voir la remarque 2 | R   | 1             | illimitées       | 4         | a0/aL   | (0, 0, 0, 0) | Non           |
+| a0       | [Registre d’adresses](dx9-graphics-reference-asm-vs-registers-address.md)                   | 1          | R/W (Lecture/écriture) | 1             | illimitées       | 4         | Non      | Aucun         | Non           |
+| b\#      | [Registre booléen constant](dx9-graphics-reference-asm-vs-registers-constant-boolean.md) | 16         | R   | 1             | 1               | 1         | Non      | FALSE        | Non           |
 | cliqu\#      | [Registre d’entiers constant](dx9-graphics-reference-asm-vs-registers-constant-integer.md) | 16         | R   | 1             | 1               | 4         | Non      | (0, 0, 0, 0) | Non           |
-| &       | [Registre de compteur de boucle](dx9-graphics-reference-asm-vs-registers-loop-counter.md)         | 1          | R   | 1             | Illimité       | 1         | Non      | None         | Non           |
-| P0       | [Registre de prédicat](dx9-graphics-reference-asm-vs-registers-predicate.md)               | 1          | R/W (Lecture/écriture) | 1             | 1               | 4         | non      | Aucun         | non           |
+| &       | [Registre de compteur de boucle](dx9-graphics-reference-asm-vs-registers-loop-counter.md)         | 1          | R   | 1             | illimitées       | 1         | Non      | Aucun         | Non           |
+| P0       | [Registre de prédicat](dx9-graphics-reference-asm-vs-registers-predicate.md)               | 1          | R/W (Lecture/écriture) | 1             | 1               | 4         | non      | aucun         | non           |
 | s\#      | [Échantillonneur (Direct3D 9 ASM-vs)](dx9-graphics-reference-asm-vs-registers-sampler.md)        | 4          | R   | 1             | 1               | 4         | Non      | Voir la remarque 3   | Oui          |
 
 
 
- 
+ 
 
 Remarques :
 
@@ -52,13 +52,13 @@ Les registres de sortie ont été réduits en \# registres de 12 o (sortie). Ell
 
 
 
-| S’inscrire | Nom            | Count | R/W (Lecture/écriture) | Dimension | RelAddr | Valeurs par défaut | DCL obligatoire |
+| S’inscrire | Name            | Count | R/W (Lecture/écriture) | Dimension | RelAddr | Valeurs par défaut | DCL obligatoire |
 |----------|-----------------|-------|-----|-----------|---------|----------|--------------|
 | sorties\#      | Registre de sortie | 12    | W   | 4         | &      | Aucun     | Oui          |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -67,9 +67,9 @@ Les registres de sortie ont été réduits en \# registres de 12 o (sortie). Ell
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

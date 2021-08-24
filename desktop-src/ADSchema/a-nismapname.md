@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf778d7abaf0f8f1a248bbc91633691ff2ad1fd2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b859c28f38e129b2a1048db5cddd2e8fe4081ebe67e56f35068f998bf6a3f68a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648348"
 ---
 # <a name="nismapname-attribute"></a>attribut nisMapName
 
@@ -42,7 +42,7 @@ Contient le nom de la carte à laquelle l’objet appartient.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

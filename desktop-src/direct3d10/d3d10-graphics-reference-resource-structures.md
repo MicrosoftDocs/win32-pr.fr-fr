@@ -4,12 +4,12 @@ ms.assetid: d8fe2ebe-349a-456e-9a5a-16f2d3419800
 title: Structures de ressources (graphiques Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4da964bf19c1ce5e1e5c4dfd0685df79b28ac5e3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5eb45ff5d77d7bb0417b54b88a4014e2a96f522d2e026c778efcd05d23f624bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635019"
 ---
 # <a name="resource-structures-direct3d-10-graphics"></a>Structures de ressources (graphiques Direct3D 10)
 

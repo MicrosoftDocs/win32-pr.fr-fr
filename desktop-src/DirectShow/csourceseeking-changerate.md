@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 02fab05d65929233b97f7d53e497bae6593c472a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee74c8eb39fbebab1e58442c3b12f8342610ed792f4eb80ee70e5f44c3cca236
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633939"
 ---
 # <a name="csourceseekingchangerate-method"></a>Méthode CSourceSeeking. ChangeRate
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**CSourceSeeking ::**](csourceseeking-setrate.md) se, appelle cette méthode, que la classe dérivée doit implémenter. La méthode sesente met à **jour la variable** membre [**CSourceSeeking :: m \_ dRateSeeking**](csourceseeking-m-drateseeking.md) , mais ne valide pas la nouvelle valeur. Un taux de zéro doit toujours être rejeté. Les taux inférieurs à zéro indiquent une lecture négative. La plupart des filtres ne prennent pas en charge les taux négatifs.
 
@@ -74,7 +74,7 @@ HRESULT CMyStream::ChangeRate( )
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

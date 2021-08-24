@@ -1,21 +1,21 @@
 ---
-description: Les propriétés de Windows Installer sont des variables globales que le programme d’installation utilise pendant une installation.
+description: Windows Les propriétés du programme d’installation sont des variables globales utilisées par le programme d’installation au cours d’une installation.
 ms.assetid: 1c59939b-de0f-4bf4-ab1f-4f1aa2488bfa
 title: Spécification des propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cd4294f35595e723491398172dc4c73337a1416
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f538bb354ef793a54f3eb60ddfe7b75b2aa96310abdd8a7331813d887433816
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627799"
 ---
 # <a name="specifying-properties"></a>Spécification des propriétés
 
-Les propriétés de Windows Installer sont des variables globales que le programme d’installation utilise pendant une installation. Consultez les sections sous [Propriétés](properties.md). Si, dans la section, vous avez [importé une base de données vide](importing-a-blank-database.md) que vous avez utilisée uisample.msi du kit de développement logiciel (SDK) Windows Installer, la [table des propriétés](property-table.md) de votre copie de MNP2000.msi contient déjà de nombreuses propriétés utilisées par l’interface utilisateur. Dans cette section, vous allez ajouter des informations supplémentaires au tableau de propriétés propre à l’installation de l’exemple Notepad. Voir aussi le [groupe tables d’informations sur les programmes](program-information-tables-group.md).
+Windows Les propriétés du programme d’installation sont des variables globales utilisées par le programme d’installation au cours d’une installation. Consultez les sections sous [Propriétés](properties.md). si, dans la section, vous avez [importé une base de données vide](importing-a-blank-database.md) que vous avez utilisée uisample.msi du kit de développement logiciel (SDK) Windows Installer, la [table des propriétés](property-table.md) de votre copie de MNP2000.msi contient déjà de nombreuses propriétés utilisées par l’interface utilisateur. dans cette section, vous allez ajouter des informations supplémentaires au tableau de propriétés spécifique à l’installation de l’exemple de Bloc-notes. Voir aussi le [groupe tables d’informations sur les programmes](program-information-tables-group.md).
 
-Cinq propriétés sont requises dans chaque package d’installation, et elles doivent être mises à jour pour l’exemple Notepad dans la [table des propriétés](property-table.md) de MNP2000.msi :
+cinq propriétés sont requises dans chaque package d’installation, et elles doivent être mises à jour pour l’exemple Bloc-notes dans la [table des propriétés](property-table.md) de MNP2000.msi :
 
 -   [**ProductCode**](productcode.md)
 -   [**ProductLanguage**](productlanguage.md)
@@ -72,7 +72,7 @@ Utilisez votre éditeur de base de données pour ouvrir MNP2000.msi et entrez le
 | [**ProductLanguage**](productlanguage.md)       | 1033                                      |
 | [**ProductName**](productname.md)               | MNP2000                                   |
 | [**ProductVersion**](productversion.md)         | 01.40.0000                                |
-| Progress1                                        | Installation                                |
+| Progress1                                        | En cours d'installation                                |
 | Progress2                                        | installs                                  |
 | [**PROMPTROLLBACKCOST**](promptrollbackcost.md) | P                                         |
 | RemoveIcon                                       | removico                                  |

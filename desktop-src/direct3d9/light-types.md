@@ -4,12 +4,12 @@ ms.assetid: 7718383a-6e49-4ad2-acc1-fc8fec0d4844
 title: Types de lumière (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39ae2c7fd5380b0f604181f36d784afe3f3fc3ff
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3cd451fcf45e67f1d789b7481fcc1884282d2018db98ab26d27481bec5277031
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104033364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674419"
 ---
 # <a name="light-types-direct3d-9"></a>Types de lumière (Direct3D 9)
 
@@ -25,7 +25,7 @@ Une ampoule est un bon exemple de lumière de point. Les lumières de point sont
 
 ## <a name="directional-light"></a>Clair directionnel
 
-Les lumières directionnelles ont uniquement des couleurs et des directions, et non des positions. Ils émettent une lumière parallèle. Cela signifie que toute la lumière générée par les lumières directionnelles se déplace dans une scène dans la même direction. Imaginez une lumière directionnelle comme source de lumière à une distance proche de l’infini, telle que le soleil. Les lumières directionnelles ne sont pas affectées par l’atténuation ou la plage. par conséquent, la direction et la couleur que vous spécifiez sont les seuls facteurs pris en compte lorsque Direct3D calcule les couleurs des sommets. En raison du petit nombre de facteurs d’éclairage, il s’agit du moins de lumières gourmandes en calculs à utiliser.
+Les lumières directionnelles ont uniquement des couleurs et des directions, et non des positions. Ils émettent une lumière parallèle. Cela signifie que toute la lumière générée par les lumières directionnelles se déplace dans une scène dans la même direction. Imagine une lumière directionnelle comme source de lumière à une distance proche de l’infini, telle que le soleil. Les lumières directionnelles ne sont pas affectées par l’atténuation ou la plage. par conséquent, la direction et la couleur que vous spécifiez sont les seuls facteurs pris en compte lorsque Direct3D calcule les couleurs des sommets. En raison du petit nombre de facteurs d’éclairage, il s’agit du moins de lumières gourmandes en calculs à utiliser.
 
 ## <a name="spotlight"></a>Vedette
 

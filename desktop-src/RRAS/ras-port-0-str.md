@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80d66725415d86aea44138f23fb3748e3187820f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67891ccd65aaa56fc41dd077ae46bd4bf61f816cdc02afeb65964886cbaf9562
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673129"
 ---
 # <a name="ras_port_0-structure"></a>\_Structure du port RAS \_ 0
 
-\[Cette version de la structure du **\_ port RAS \_ 0** n’est pas prise en charge à partir de Windows Vista. Utilisez à la place le [**\_ port RAS \_ 0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_port_0) plus récent défini dans mprapi. h.\]
+\[cette version de la structure du **\_ PORT RAS \_ 0** n’est pas prise en charge à partir de Windows Vista. Utilisez à la place le [**\_ port RAS \_ 0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_port_0) plus récent défini dans mprapi. h.\]
 
 La structure du **\_ port RAS \_ 0** contient des informations qui décrivent un port RAS.
 
@@ -81,7 +81,7 @@ Spécifie une chaîne Unicode terminée par le caractère null qui spécifie le 
 
 </dd> <dt>
 
-**réservé**
+**reserved**
 </dt> <dd>
 
 Réservé.
@@ -143,7 +143,7 @@ Spécifie une chaîne Unicode terminée par le caractère null qui spécifie le 
 **fAdvancedServer**
 </dt> <dd>
 
-Spécifie un indicateur différent de zéro si le serveur RAS associé à ce port est un serveur avancé tel que Windows 2000 Advanced Server. Utilisez ces informations pour déterminer le nom du serveur qui contient la base de données de comptes d’utilisateur. Si le serveur RAS est un serveur avancé, récupérez le nom du serveur de comptes d’utilisateur en concaténant le préfixe « \\ \\ » au nom renvoyé dans le membre **wszLogonDomain** . En effet, pour un serveur avancé, le nom de domaine d’ouverture de session locale est le même que le nom du serveur. Si le serveur RAS est une station de travail, utilisez la fonction [**RasAdminGetUserAccountServer**](rasadmingetuseraccountserver.md) pour obtenir le nom du serveur de compte d’utilisateur.
+spécifie un indicateur différent de zéro si le serveur RAS associé à ce port est un serveur avancé tel que Windows 2000 advanced server. Utilisez ces informations pour déterminer le nom du serveur qui contient la base de données de comptes d’utilisateur. Si le serveur RAS est un serveur avancé, récupérez le nom du serveur de comptes d’utilisateur en concaténant le préfixe « \\ \\ » au nom renvoyé dans le membre **wszLogonDomain** . En effet, pour un serveur avancé, le nom de domaine d’ouverture de session locale est le même que le nom du serveur. Si le serveur RAS est une station de travail, utilisez la fonction [**RasAdminGetUserAccountServer**](rasadmingetuseraccountserver.md) pour obtenir le nom du serveur de compte d’utilisateur.
 
 </dd> </dl>
 

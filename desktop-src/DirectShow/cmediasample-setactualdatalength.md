@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 825b02f43195424f9ceb5ecd23c4dcf26727ef8f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db090ad96f6c53f725aef7864e729b8083bfd1a02b30f0d699d30b5c6f8f71aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634374"
 ---
 # <a name="cmediasamplesetactualdatalength-method"></a>Méthode CMediaSample. SetActualDataLength
 
@@ -57,14 +57,14 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                             | Description                                                 |
 |---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                    | Opération réussie.<br/>                                         |
+| <dl> <dt>**\_OK**</dt> </dl>                    | Réussite.<br/>                                         |
 | <dl> <dt>**\_dépassement de \_ mémoire tampon VFW E \_**</dt> </dl> | *lLen* est plus grand que la taille de la mémoire tampon allouée.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode définit la variable de membre [**CMediaSample :: m \_ lActual**](cmediasample-m-lactual.md) .
 
@@ -74,7 +74,7 @@ Cette méthode définit la variable de membre [**CMediaSample :: m \_ lActual**
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

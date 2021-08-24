@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 587cde43ec2d9136bab5884691c99321d1492835
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b9461dafb6b8da66ffa2a84e0d9d61c119a67c33bd967ae5183252e875fb6192
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104996125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676949"
 ---
 # <a name="id3dx11effectgetdesc-method"></a>ID3DX11Effect :: GetDesc, méthode
 
@@ -58,7 +58,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Retourne l’un des [codes de retour Direct3D 11](d3d11-graphics-reference-returnvalues.md)suivants.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une description d’effet contient des informations de base sur un effet tel que les techniques qu’il contient et les ressources de mémoire tampon constantes dont il a besoin.
 
@@ -67,7 +67,7 @@ Une description d’effet contient des informations de base sur un effet tel que
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

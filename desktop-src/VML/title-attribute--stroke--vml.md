@@ -4,21 +4,21 @@ description: Attribut titre (trait) (VML)
 ms.assetid: 47cdec4a-9b35-47d7-a44d-e128c6c8a812
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a52a5f121ff93d2fe43320dad6587dab45185713
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a7aaae273b6b5348b7d89e0a4e660d94ce1fb68b2192f35e316d404f756de94c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654489"
 ---
 # <a name="title-attribute-strokevml"></a>Attribut titre (trait) (VML)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit le titre d’une image de trait. En lecture/écriture. **Chaîne**.
 
@@ -42,10 +42,10 @@ Si cet attribut a une valeur, l’image du trait est *incorporée*. La valeur r�
 
 Si la balise **href** est utilisée, le **titre** est ignoré.
 
-Cet attribut est utilisé par Microsoft Office mais n’est pas utilisé par Microsoft Internet Explorer.
+cet attribut est utilisé par Microsoft Office mais n’est pas utilisé par Microsoft Internet Explorer.
 
-**Attribut extensions Microsoft Office**
+**Microsoft Office Attribut extensions**
 
- 
+ 
 
- 
+ 

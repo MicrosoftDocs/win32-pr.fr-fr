@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3497a3eaedb872b7d2c9eb5d7782d01f8b35462
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de89389163a9eae66a0dcda14dd6b9699d3db9650140cceac6498b2ab77a4e44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707929"
 ---
 # <a name="iwmdrmnettransmittergetrootlicenseresponse-method"></a>IWMDRMNetTransmitter :: GetRootLicenseResponse, méthode
 
@@ -67,7 +67,7 @@ Adresse d’une variable qui reçoit la taille de la réponse de licence, en oct
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -80,7 +80,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La licence racine générée est créée à l’aide des informations des données de demande de licence, qui sont traitées pour l’interface en appelant [**SetLicenseChallenge**](iwmdrmnettransmitter-setlicensechallenge.md).
 

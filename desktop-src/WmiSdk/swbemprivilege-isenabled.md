@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: ec27b2344c42dca56ac629144f6edc402f81ea4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe9709e57a40d138151ca1e6e62897296d3e6169f401000425817e055f950f3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732299"
 ---
 # <a name="swbemprivilegeisenabled-property"></a>SWbemPrivilege. IsEnabled, propriété
 

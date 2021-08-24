@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 62f8b6c18613f5c187fc637febd08b74260a1e44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4cb900d4de448b59eadb4cfd4de28aebf3ac07845fff6a2769c003d37cac846a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633929"
 ---
 # <a name="csourcestreamcheckmediatype-method"></a>Méthode CSourceStream. CheckMediaType
 
@@ -64,7 +64,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, le code PIN prend en charge un seul type de média. Cette méthode récupère le type pris en charge en appelant la version à paramètre unique de la méthode [**CSourceStream :: GetMediaType**](csourcestream-getmediatype.md) et le compare au type proposé. Si votre code PIN prend en charge plusieurs types de média, substituez cette méthode.
 
@@ -74,7 +74,7 @@ Par défaut, le code PIN prend en charge un seul type de média. Cette méthode 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Source. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Source. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

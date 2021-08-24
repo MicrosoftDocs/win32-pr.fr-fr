@@ -25,12 +25,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: fdb12fac8b2b902f21258fd4c7cfe9846d0456eb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1bfa7b994bfe0950ccc7a97b19fbd705838950d7461712b114a16f62e7ad0aec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754759"
 ---
 # <a name="systemconfig_v0_phydisk-class"></a>\_Classe SystemConfig v0 \_ PhyDisk
 
@@ -136,7 +136,7 @@ Numéro d’index du disque contenant cette partition.
 
 </dd> <dt>
 
-**Fécule**
+**Fabricant**
 </dt> <dd> <dl> <dt>
 
 Type de données : tableau **char16**
@@ -287,7 +287,7 @@ True si le cache d’écriture est activé.
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

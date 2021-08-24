@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5866f3c06ef6969c95eeef4b23fff7a4e7852eb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9b21d0cb2fac6573ab2999eb96b2af8b1ecb670f4e51d1ffd2ad91ba001c9ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675299"
 ---
 # <a name="glulookat-function"></a>gluLookAt fonction)
 
@@ -115,7 +115,7 @@ Direction du vecteur up.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluLookAt** crée une matrice d’affichage dérivée d’un point oculaire, un point de référence indiquant le centre de la scène et un vecteur up. La matrice mappe le point de référence à l’axe z négatif et l’œil au point d’origine, de sorte que lorsque vous utilisez une matrice de projection classique, le centre de la scène est mappé au centre de la fenêtre d’affichage. De même, la direction décrite par le vecteur vers le haut projeté sur le plan d’affichage est mappée sur l’axe des y positif afin qu’il pointe vers le haut dans la fenêtre d’affichage. Le vecteur up ne doit pas être parallèle à la ligne de vue du point de vue du point de référence.
 
