@@ -6,12 +6,12 @@ keywords:
 - PATCHARRAY MIDIPATCHSIZE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e07af0e878fc0d2fc79d6d17aafd48fbd991fb39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d1d14696d7bb76827f902609cb1411f7890adeac53092e1b66b7eda16604320
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806069"
 ---
 # <a name="patcharray"></a>PATCHARRAY
 
@@ -42,7 +42,7 @@ Chaque élément du tableau correspond à un correctif avec chacun des 16 bits r
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
 | Version<br/>                  | MIDI (Musical Instrument Digital Interface), types MIDI<br/>                                        |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

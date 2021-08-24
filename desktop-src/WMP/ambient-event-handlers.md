@@ -3,19 +3,19 @@ title: Gestionnaires d’événements ambiants
 description: Gestionnaires d’événements ambiants
 ms.assetid: ec806b92-a66d-499d-9bb3-cea7e82676bb
 keywords:
-- Apparences du lecteur Windows Media, gestionnaires d’événements ambiants
+- habillages Lecteur Windows Media, gestionnaires d’événements ambiants
 - apparences, gestionnaires d’événements ambiants
 - informations de référence sur les apparences, les gestionnaires d’événements ambiants
 - gestionnaires d’événements ambiants
 - événements, ambiant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dc05cf90956464afbb030f3cd5dc4af194b0da2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ff72739ec1791b79d6113415f1219a1ddee578b4b5a690ffaaac62bf6b3dbcfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865089"
 ---
 # <a name="ambient-event-handlers"></a>Gestionnaires d’événements ambiants
 
@@ -44,7 +44,7 @@ Les gestionnaires d’événements suivants peuvent être implémentés pour la 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -56,9 +56,9 @@ Les gestionnaires d’événements suivants peuvent être implémentés pour la 
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

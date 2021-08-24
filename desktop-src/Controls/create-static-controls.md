@@ -4,27 +4,27 @@ description: L’exemple de cette section montre comment créer un contrôle sta
 ms.assetid: D2DA38CB-360C-49EC-90BC-9AFA88C4B751
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 217135a6590fcee60286d21f00233916c4eba967
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 3ef4bdb4cce808ab3f8f8133a731c7f4ef5638bb1fbf9fd45370e4304d0138d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104462802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826379"
 ---
 # <a name="how-to-create-static-controls"></a>Comment créer des contrôles statiques
 
 L’exemple de cette section montre comment créer un contrôle statique animé.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -98,7 +98,7 @@ INT_PTR CALLBACK StaticDlgProc(HWND hDlg, UINT message, WPARAM wParam,
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’identificateur du contrôle d’icône statique (IDI \_ icône statique \_ ) est défini dans un fichier d’en-tête global, et les icônes sont chargées à partir des ressources de l’application.
 
@@ -109,12 +109,12 @@ L’identificateur du contrôle d’icône statique (IDI \_ icône statique \_ )
 [Utilisation de contrôles statiques](using-static-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

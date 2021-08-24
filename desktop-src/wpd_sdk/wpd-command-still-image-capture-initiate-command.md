@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: c51c2b4a483588389e9986768a2c617e0fd0dd63
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c5490a5af583753f504decacaccf4b4373890fdb7f0e5b099389df29cdc0571
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806279"
 ---
 # <a name="wpd_command_still_image_capture_initiate-command"></a>\_Commande d' \_ \_ initialisation de capture d’image continue \_ de la commande wpd \_
 
@@ -48,10 +48,10 @@ Le pilote doit renvoyer les résultats suivants.
 
 
 
-| Résultats                                         | VarType   | Description                                                                                                                                                                                                                                                                                                                                                                            |
+| Résultat                                         | VarType   | Description                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **\_valeur courante de la propriété wpd \_ \_ HRESULT**             | \_erreur VT | Obligatoire. **HRESULT** qui indique la réussite ou l’échec de l’exécution de la commande. Si l’appelant effectue une demande non valide, le pilote doit retourner **HRESULT \_ à partir de \_ Win32 (erreur \_ non \_ prise en charge)** et n’est pas obligé de retourner d’autres valeurs de résultat. Les codes d’erreur incluent les codes d’erreur des [appareils mobiles Windows](error-constants.md) ou tout autre code d’erreur approprié. |
-| **\_code d' \_ \_ Erreur du pilote commun \_ \_ de la propriété wpd** | VT \_ UI4   | Optionnel. Code d’erreur spécifique au pilote. Cette valeur est généralement utilisée par les fournisseurs de périphériques pour améliorer le diagnostic des erreurs d’appareil lors de l’utilisation de leurs applications. Les applications à usage général l’ignorent et s’appuient uniquement sur la propriété WPD de \_ \_ HRESULT commun à la \_ place.                                                                                                                   |
+| **\_valeur courante de la propriété wpd \_ \_ HRESULT**             | \_erreur VT | Obligatoire. **HRESULT** qui indique la réussite ou l’échec de l’exécution de la commande. Si l’appelant effectue une demande non valide, le pilote doit retourner **HRESULT \_ à partir de \_ Win32 (erreur \_ non \_ prise en charge)** et n’est pas obligé de retourner d’autres valeurs de résultat. les codes d’erreur incluent Windows codes d’erreur des [appareils mobiles](error-constants.md) ou tout autre code d’erreur approprié. |
+| **\_code d' \_ \_ Erreur du pilote commun \_ \_ de la propriété wpd** | VT \_ UI4   | Facultatif. Code d’erreur spécifique au pilote. Cette valeur est généralement utilisée par les fournisseurs de périphériques pour améliorer le diagnostic des erreurs d’appareil lors de l’utilisation de leurs applications. Les applications à usage général l’ignorent et s’appuient uniquement sur la propriété WPD de \_ \_ HRESULT commun à la \_ place.                                                                                                                   |
 
 
 

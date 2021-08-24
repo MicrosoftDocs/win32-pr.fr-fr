@@ -4,18 +4,18 @@ ms.assetid: fe13477c-1a7b-4098-9d0f-c54783102bc9
 title: Négociation des allocateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2faa393ba9fcd8585d68947cec172d4cfca6decf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 710b8315bfd44371a82d995afa56483414623136a6ce5c510babd5ea07b4b8bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790939"
 ---
 # <a name="negotiating-allocators"></a>Négociation des allocateurs
 
-Lorsque deux codes confidentiels se connectent, ils ont besoin d’un mécanisme d’échange de données multimédias. Ce mécanisme est appelé le *transport*. En général, l’architecture DirectShow est neutre sur les transports. Deux filtres peuvent accepter de se connecter à l’aide des transports pris en charge par les deux.
+Lorsque deux codes confidentiels se connectent, ils ont besoin d’un mécanisme d’échange de données multimédias. Ce mécanisme est appelé le *transport*. en général, l’architecture DirectShow est neutre sur les transports. Deux filtres peuvent accepter de se connecter à l’aide des transports pris en charge par les deux.
 
-Le transport le plus courant est le transport de *mémoire local* , dans lequel les données multimédias résident dans la mémoire principale. Il existe deux versions de transport de mémoire locale, le *modèle push* et le *modèle pull*. Dans le modèle push, le filtre source transmet les données au filtre en aval, à l’aide de l’interface [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) sur la broche d’entrée du filtre en aval. Dans le modèle d’extraction, le filtre en aval demande des données à partir du filtre source, à l’aide de l’interface [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) sur la broche de sortie du filtre source. Pour plus d’informations sur ces deux modèles de transmission de données, consultez [Data Flow dans le graphique de filtre](data-flow-in-the-filter-graph.md).
+Le transport le plus courant est le transport de *mémoire local* , dans lequel les données multimédias résident dans la mémoire principale. Il existe deux versions de transport de mémoire locale, le *modèle push* et le *modèle pull*. Dans le modèle push, le filtre source transmet les données au filtre en aval, à l’aide de l’interface [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) sur la broche d’entrée du filtre en aval. Dans le modèle d’extraction, le filtre en aval demande des données à partir du filtre source, à l’aide de l’interface [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) sur la broche de sortie du filtre source. pour plus d’informations sur ces deux modèles de transmission de données, consultez [Flow de données dans le Graph de filtre](data-flow-in-the-filter-graph.md).
 
 Dans le transport de mémoire locale, l’objet chargé d’allouer des mémoires tampons est appelé *Allocator*. Un allocateur prend en charge l’interface [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) . Les deux broches partagent un seul allocateur. L’un ou l’autre des codes confidentiels peut fournir un allocateur, mais la broche de sortie sélectionne l’allocation à utiliser.
 

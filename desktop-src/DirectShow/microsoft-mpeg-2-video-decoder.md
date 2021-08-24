@@ -4,19 +4,19 @@ ms.assetid: d8195c3a-97ac-4ad1-a097-18878c8fda6f
 title: Décodeur vidéo Microsoft MPEG-2 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8460b5b554fffc8f0dd8679810e5ef3f42bcb004
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b7bcd49aeff922bced12fa8d236259d0775d0fb1c6f9f7d0a05df1204f77f6c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791429"
 ---
 # <a name="microsoft-mpeg-2-video-decoder"></a>Décodeur vidéo Microsoft MPEG-2
 
 Ce filtre décode la vidéo MPEG-1, MPEG-2, H. 264.
 
 > [!Note]  
-> Le décodage de la vidéo H. 264 requiert Windows 7.
+> le décodage de la vidéo H. 264 requiert Windows 7.
 
  
 
@@ -49,7 +49,7 @@ Broche d’entrée de la sous-image :<br/>
 
 -   \_ \_ Pack chiffré DVD de MediaType, sous- \_ \_ image de DVD MEDIASUBTYPE \_
 
-À compter de Windows 7, la broche d’entrée vidéo prend également en charge les types d’entrée suivants :<br/>
+à partir de Windows 7, la broche d’entrée vidéo prend également en charge les types d’entrée suivants :<br/>
 
 -   **MediaType \_ Vidéo**, **MEDIASUBTYPE \_ AVC1**
 -   **MediaType \_ Vidéo**, **MEDIASUBTYPE \_ H264 –**
@@ -112,7 +112,7 @@ msmpeg2vdec.dll
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce filtre a deux broches d’entrée et trois broches de sortie.
 
@@ -240,7 +240,7 @@ Le filtre prend en charge les propriétés suivantes par le biais de [**ICodecAP
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista Édition familiale Premium, Windows Vista Édition intégrale, Windows 7 Édition familiale Premium, Windows 7 professionnel, Windows 7 entreprise, applications de bureau Windows 7 édition intégrale \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows vista familial Premium, Windows vista Ultimate, Windows 7 Édition Familiale Premium, Windows 7 Professionnel, Windows 7 Entreprise, Windows 7 Édition Intégrale les \[ applications de bureau uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl>                                                                                       |
 
@@ -250,7 +250,7 @@ Le filtre prend en charge les propriétés suivantes par le biais de [**ICodecAP
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [**Types de supports DVD**](dvd-media-types.md)

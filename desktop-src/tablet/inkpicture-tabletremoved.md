@@ -4,12 +4,12 @@ ms.assetid: 9a4640a7-cbd9-4304-88c6-86036423628d
 title: InkPicture. TabletRemoved, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 929458c6b972143852b5921a8c8364a54a4b6f41
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2f4fbd0839cb11d2da3fda65259b343934e866fc6fba08fb7d755799093fd496
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844319"
 ---
 # <a name="inkpicturetabletremoved-event"></a>InkPicture. TabletRemoved, événement
 
@@ -37,11 +37,11 @@ Valeur de type long qui a été utilisée comme ID de l’objet [**IInkTablet**]
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkCollectorEvents**, **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ ICETabletRemoved.
 
@@ -51,7 +51,7 @@ Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkCol
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

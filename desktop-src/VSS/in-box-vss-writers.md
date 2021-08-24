@@ -4,26 +4,26 @@ ms.assetid: e20a303d-9440-42be-b383-85f6fad89157
 title: Enregistreurs VSS intégrés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddc256cfe72f3653d4af282148c87c2b45bcac51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e34591cb046a8cc702d32452c159e5b8877f2e66603cbd1b048a0841a04e3bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767798"
 ---
 # <a name="in-box-vss-writers"></a>Enregistreurs VSS intégrés
 
 Le système d’exploitation Windows comprend un ensemble d’enregistreurs VSS chargés d’énumérer les données nécessaires aux différentes fonctionnalités Windows. On parle alors d’enregistreurs « intégrés ».
 
 > [!Note]  
-> Le writer intégré MSDE n’est pas disponible dans Windows Vista, Windows Server 2008 et versions ultérieures. Au lieu de cela, le writer SQL doit être utilisé pour sauvegarder les bases de données SQL Server. Seuls les SQL Server 2005 SP2 et versions ultérieures sont pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.
+> le writer intégré MSDE n’est pas disponible dans Windows Vista, Windows Server 2008 et versions ultérieures. au lieu de cela, l’enregistreur de SQL doit être utilisé pour sauvegarder les bases de données SQL Server. seuls les SQL Server 2005 SP2 et versions ultérieures sont pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.
 
  
 
 -   [Enregistreur VSS Active Directory Domain Services (NTDS)](#active-directory-domain-services-ntds-vss-writer)
 -   [Rédacteur de services de fédération Active Directory (AD FS)](#active-directory-federation-services-writer)
 -   [Enregistreur VSS services AD LDS (Active Directory Lightweight Directory Services) (LDS)](#active-directory-lightweight-directory-services-lds-vss-writer)
--   [Enregistreur services AD RMS (Active Directory Rights Management Services) (AD RMS)](#active-directory-rights-management-services-ad-rms-writer)
+-   [enregistreur services AD RMS (Active Directory Rights Management Services) (AD RMS)](#active-directory-rights-management-services-ad-rms-writer)
 -   [Rédacteur de récupération automatique du système (ASR)](#automated-system-recovery-asr-writer)
 -   [Enregistreur Service de transfert intelligent en arrière-plan (BITS)](#background-intelligent-transfer-service-bits-writer)
 -   [Auteur de l’autorité de certification](#certificate-authority-writer)
@@ -50,9 +50,9 @@ Le système d’exploitation Windows comprend un ensemble d’enregistreurs VSS 
 -   [Enregistreur du système](#system-writer)
 -   [Rédacteur de Planificateur de tâches](#task-scheduler-writer)
 -   [Enregistreur du magasin de métadonnées VSS](#vss-metadata-store-writer)
--   [Enregistreur des services de déploiement Windows (WDS)](#windows-deployment-services-wds-writer)
--   [Enregistreur de base de données interne Windows (WID)](#windows-internal-database-wid-writer)
--   [Enregistreur WINS (Windows Internet Name Service)](#windows-internet-name-service-wins-writer)
+-   [Windows Enregistreur des services de déploiement (WDS)](#windows-deployment-services-wds-writer)
+-   [enregistreur Base de données interne Windows (WID)](#windows-internal-database-wid-writer)
+-   [Windows Enregistreur WINS (Internet Name Service)](#windows-internet-name-service-wins-writer)
 -   [Rédacteur WMI](#wmi-writer)
 
 ## <a name="active-directory-domain-services-ntds-vss-writer"></a>Enregistreur VSS Active Directory Domain Services (NTDS)
@@ -103,7 +103,7 @@ L’ID d’enregistreur pour ce writer est B2014C9E-8711-4C5C-A5A9-3CF384484757.
 
 Ce writer signale les fichiers de données services de fédération Active Directory (AD FS) (ADFS).
 
-**Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge.
+**Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Ce Writer n’est pas pris en charge.
 
 La chaîne du nom de l’enregistreur pour ce writer est « l’enregistreur VSS ADFS ».
 
@@ -146,11 +146,11 @@ La chaîne du nom de l’enregistreur pour ce writer est « ADAM (instance *N*)
 
 L’ID d’enregistreur pour ce writer est DD846AAA-A1B6-42A8-AAF8-03DCB6114BFD. Cet ID d’enregistreur est le même pour toutes les instances.
 
-## <a name="active-directory-rights-management-services-ad-rms-writer"></a>Enregistreur services AD RMS (Active Directory Rights Management Services) (AD RMS)
+## <a name="active-directory-rights-management-services-ad-rms-writer"></a>enregistreur services AD RMS (Active Directory Rights Management Services) (AD RMS)
 
 Ce writer signale les fichiers de données du service de Active Directory Rights Management (AD RMS).
 
-**Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge.
+**Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Ce Writer n’est pas pris en charge.
 
 La chaîne du nom de l’enregistreur pour ce writer est « AD RMS Writer ».
 
@@ -194,11 +194,11 @@ L’ID d’enregistreur du writer est 6F5B15B5-DA24-4D88-B737-63063E3A1F86.
 
 L’enregistreur VSS du service de cluster est documenté dans la documentation de l’API du [service de cluster](/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss) .
 
-**Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge avant Windows Vista avec Service Pack 1 (SP1) et Windows Server 2008.
+**Windows Vista, Windows Server 2003 et Windows XP :** ce writer n’est pas pris en charge tant que Windows Vista avec Service Pack 1 (SP1) et Windows Server 2008.
 
 ## <a name="cluster-shared-volume-csv-vss-writer"></a>Enregistreur VSS Volume partagé de cluster (CSV)
 
-Ce writer signale les fichiers de données Volume partagé de cluster (CSV). Ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie avec le client Windows.
+Ce writer signale les fichiers de données Volume partagé de cluster (CSV). ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie dans Windows Client.
 
 **Windows server 2008 R2, Windows server 2008 et Windows server 2003 :** Ce Writer n’est pas pris en charge.
 
@@ -222,7 +222,7 @@ L’ID d’enregistreur pour le writer de base de données d’inscription de cl
 
 ## <a name="data-deduplication-writer"></a>Enregistreur de déduplication des données
 
-L’enregistreur VSS de la déduplication des données est documenté dans la documentation de l’API de [déduplication des données](/previous-versions/windows/desktop/dedup/backup-and-restore-of-data-deduplication-enabled-volumes) . Ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie avec le client Windows.
+L’enregistreur VSS de la déduplication des données est documenté dans la documentation de l’API de [déduplication des données](/previous-versions/windows/desktop/dedup/backup-and-restore-of-data-deduplication-enabled-volumes) . ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie dans Windows Client.
 
 **Windows server 2008 R2, Windows server 2008 et Windows server 2003 :** Ce Writer n’est pas pris en charge.
 
@@ -230,11 +230,11 @@ L’enregistreur VSS de la déduplication des données est documenté dans la do
 
 Le composant suivant comprend un enregistreur VSS : [réplication de système de fichiers DFS (DFSR)](/previous-versions/windows/desktop/dfsr/dfsr-replicated-folders)
 
-**Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge jusqu’à Windows Vista avec SP1 et Windows Server 2008.
+**Windows Vista, Windows Server 2003 et Windows XP :** ce writer n’est pas pris en charge tant que Windows Vista avec SP1 et Windows Server 2008.
 
 ## <a name="dynamic-host-configuration-protocol-dhcp-writer"></a>Enregistreur DHCP (Dynamic Host Configuration Protocol)
 
-Ce writer est responsable de l’énumération des fichiers requis pour le rôle serveur DHCP. Ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie avec le client Windows.
+Ce writer est responsable de l’énumération des fichiers requis pour le rôle serveur DHCP. ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie dans Windows Client.
 
 La chaîne du nom de l’enregistreur pour ce writer est « Writer jet DHCP ».
 
@@ -244,13 +244,13 @@ L’ID d’enregistreur pour ce writer est BE9AC81E-3619-421F-920F-4C6FEA9E93AD.
 
 Le rédacteur du service de réplication de fichiers est documenté dans [sauvegarde et restauration d’un dossier SYSVOL FRS-Replicated](backing-up-and-restoring-an-frs-replicated-sysvol-folder.md).
 
-**Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge jusqu’à Windows Vista avec SP1 et Windows Server 2008.
+**Windows Vista, Windows Server 2003 et Windows XP :** ce writer n’est pas pris en charge tant que Windows Vista avec SP1 et Windows Server 2008.
 
 ## <a name="file-server-resource-manager-fsrm-writer"></a>Enregistreur de Gestionnaire des ressources du serveur de fichiers (FSRM)
 
-Ce writer énumère les fichiers de configuration FSRM utilisés pour la sauvegarde de l’état du système. Pendant les opérations de restauration, il empêche les modifications dans la configuration de FSRM et interrompt temporairement l’application des quotas et des filtres de fichiers. Une fois la restauration terminée, l’enregistreur actualise FSRM avec la configuration qui a été restaurée. Ce writer est présent uniquement lorsque FSRM (partie du rôle Services de fichiers) est installé et en cours d’exécution. Ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie avec le client Windows.
+Ce writer énumère les fichiers de configuration FSRM utilisés pour la sauvegarde de l’état du système. Pendant les opérations de restauration, il empêche les modifications dans la configuration de FSRM et interrompt temporairement l’application des quotas et des filtres de fichiers. Une fois la restauration terminée, l’enregistreur actualise FSRM avec la configuration qui a été restaurée. Ce writer est présent uniquement lorsque FSRM (partie du rôle Services de fichiers) est installé et en cours d’exécution. ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie dans Windows Client.
 
-**Windows Server 2003 :** Ce Writer n’est pas pris en charge avant Windows Server 2003 R2.
+**Windows Server 2003 :** ce writer n’est pas pris en charge jusqu’à Windows Server 2003 R2.
 
 La chaîne du nom de l’enregistreur pour ce writer est « scripteur FSRM ».
 
@@ -258,17 +258,17 @@ L’ID d’enregistreur pour ce writer est 12CE4370-5BB7-4C58-A76A-E5D5097E3674.
 
 ## <a name="hyper-v-writer"></a>Enregistreur Hyper-V
 
-L’enregistreur VSS Hyper-V est documenté dans la documentation de l’API [Hyper-v](/previous-versions/windows/desktop/virtual/backing-up-and-restoring-virtual-machines) . Ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie avec le client Windows.
+L’enregistreur VSS Hyper-V est documenté dans la documentation de l’API [Hyper-v](/previous-versions/windows/desktop/virtual/backing-up-and-restoring-virtual-machines) . ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie dans Windows Client.
 
-**Windows Server 2003 :** Ce Writer n’est pas pris en charge avant Windows Server 2008.
+**Windows Server 2003 :** ce writer n’est pas pris en charge jusqu’à Windows Server 2008.
 
 ## <a name="iis-configuration-writer"></a>Rédacteur de configuration IIS
 
 L’enregistreur de configuration IIS est chargé d’énumérer les fichiers de configuration IIS.
 
-**Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge jusqu’à Windows Vista avec SP1 et Windows Server 2008. Les demandeurs doivent sauvegarder les fichiers de configuration IIS, y compris le fichier de machine.config .NET FX ou le fichier de web.config racine ASP.NET.
+**Windows Vista, Windows Server 2003 et Windows XP :** ce writer n’est pas pris en charge tant que Windows Vista avec SP1 et Windows Server 2008. les demandeurs doivent sauvegarder les fichiers de configuration IIS, y compris le fichier machine.config .net FX ou le fichier web.config racine ASP.NET.
 
-Ce writer ne sauvegarde pas le fichier de machine.config .NET FX ou le fichier de web.config racine ASP.NET, car ces fichiers sont énumérés par l’enregistreur de système.
+ce writer ne sauvegarde pas le fichier de machine.config .net FX ou le fichier web.config racine ASP.NET, car ces fichiers sont énumérés par l’enregistreur de système.
 
 Ce writer sauvegarde tous les fichiers qui se trouvent dans les répertoires% windir% \\ system32 \\ inetsrv \\ config \\ et% windir% \\ system32 \\ inetsrv \\ config, à l’exception des fichiers qui sont énumérés par l’enregistreur de système.
 
@@ -278,7 +278,7 @@ L’ID d’enregistreur pour l’enregistreur de configuration IIS est 2A40FD15-
 
 L’enregistreur de métabase Internet Information Server (IIS) est chargé d’énumérer le fichier de la métabase IIS.
 
-**Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge jusqu’à Windows Vista avec SP1 et Windows Server 2008. Les demandeurs doivent sauvegarder le fichier de la métabase IIS.
+**Windows Vista, Windows Server 2003 et Windows XP :** ce writer n’est pas pris en charge tant que Windows Vista avec SP1 et Windows Server 2008. Les demandeurs doivent sauvegarder le fichier de la métabase IIS.
 
 L’ID d’enregistreur pour l’enregistreur de métabase IIS est 59B1f0CF-90EF-465F-9609-6CA8B2938366.
 
@@ -286,7 +286,7 @@ L’ID d’enregistreur pour l’enregistreur de métabase IIS est 59B1f0CF-90EF
 
 Ce writer signale les fichiers de données Microsoft Message Queuing (MSMQ).
 
-**Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge.
+**Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Ce Writer n’est pas pris en charge.
 
 La chaîne de nom de l’enregistreur pour ce writer est « MSMQ Writer (*SvcName*) », où *SvcName* est le nom du service MSMQ auquel le writer est associé. Pour l’installation par défaut, le nom du service est « MSMQ ». Pour les instances en cluster, le nom du service est MSMQ $*resourceName*, où *resourceName* est le nom de la ressource MSMQ en cluster.
 
@@ -298,7 +298,7 @@ Ce writer existe pour supprimer les fichiers d’index de recherche des clichés
 
 **Windows Server 2003 :** Ce Writer n’est pas pris en charge.
 
-Pour installer ce writer sur le serveur, vous devez installer le rôle Services de fichiers et activer le Search Service Windows.
+pour installer ce writer sur le serveur, vous devez installer le rôle Services de fichiers et activer le Search Service Windows.
 
 La chaîne du nom de l’enregistreur pour ce writer est « VSS service Writer ».
 
@@ -306,9 +306,9 @@ L’ID d’enregistreur pour l’enregistreur du service MSSearch est CD3F2362-8
 
 ## <a name="nps-vss-writer"></a>Enregistreur VSS NPS
 
-L’enregistreur NPS est chargé d’énumérer les fichiers de configuration du serveur NPS (Network Policy Server) pour les serveurs sur lesquels le rôle Services de stratégie et d’accès réseau est installé.
+l’enregistreur nps est chargé d’énumérer les fichiers de configuration du serveur nps (network policy Server) pour les serveurs sur lesquels la stratégie réseau et le rôle Access Services sont installés.
 
-**Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge jusqu’à Windows Vista avec SP1 et Windows Server 2008.
+**Windows Vista, Windows Server 2003 et Windows XP :** ce writer n’est pas pris en charge tant que Windows Vista avec SP1 et Windows Server 2008.
 
 La chaîne du nom de l’enregistreur pour ce writer est « l’enregistreur VSS NPS ».
 
@@ -326,9 +326,9 @@ L’ID d’enregistreur pour l’enregistreur des compteurs de performance est 0
 
 ## <a name="registry-writer"></a>Enregistreur du Registre
 
-Le rédacteur du registre fait état des fichiers du Registre Windows pour activer les sauvegardes et les restaurations sur place du Registre. Il ne signale pas les ruches utilisateur.
+l’enregistreur du registre est le Windows fichiers de registre pour activer les sauvegardes et les restaurations sur place du registre. Il ne signale pas les ruches utilisateur.
 
-**Windows Server 2003 :** Dans Windows Server 2003, ce writer utilise un fichier de référentiel intermédiaire (parfois appelé « fichier de fractionnement ») pour stocker les données de registre. (Voir [opérations de sauvegarde et de restauration du Registre sous VSS](registry-backup-and-restore-operations-under-vss.md).)
+**Windows Server 2003 :** dans Windows Server 2003, ce writer utilise un fichier de référentiel intermédiaire (parfois appelé « fichier de fractionnement ») pour stocker les données de registre. (Voir [opérations de sauvegarde et de restauration du Registre sous VSS](registry-backup-and-restore-operations-under-vss.md).)
 
 **Windows XP :** Ce Writer n’est pas pris en charge. (Voir [opérations de sauvegarde et de restauration du Registre sous VSS](registry-backup-and-restore-operations-under-vss.md).)
 
@@ -342,7 +342,7 @@ Ce writer est chargé d’énumérer les fichiers de passerelle Services Bureau 
 
 **Windows Server 2003 :** Ce Writer n’est pas pris en charge.
 
-Ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie avec le client Windows.
+ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie dans Windows Client.
 
 La passerelle Services Bureau à distance dépend de plusieurs clés de Registre sauvegardées et doit donc être sauvegardée et restaurée en même temps que le registre.
 
@@ -356,7 +356,7 @@ Ce writer est chargé d’énumérer les fichiers de licences des services Burea
 
 **Windows Server 2003 :** Ce Writer n’est pas pris en charge.
 
-Ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie avec le client Windows.
+ce writer est un enregistreur intégré pour les versions de système d’exploitation Windows Server ; elle n’est pas fournie dans Windows Client.
 
 Services Bureau à distance la gestion des licences dépend de plusieurs clés de Registre sauvegardées et doivent donc être sauvegardées et restaurées avec le registre.
 
@@ -376,7 +376,7 @@ L’ID d’enregistreur pour le writer d’optimisation du cliché instantané e
 
 ## <a name="sync-share-service-writer"></a>Rédacteur de service de partage de synchronisation
 
-**Windows Server 2012 R2 :** Ce writer est inclus dans Windows Server 2012 R2 et les versions ultérieures du serveur. Elle n’est pas compatible avec les versions de bureau.
+**Windows Server 2012 R2 :** ce writer est inclus dans Windows Server 2012 R2 et versions ultérieures du serveur. Elle n’est pas compatible avec les versions de bureau.
 
 Ce writer est chargé d’énumérer les partages de synchronisation sur les serveurs sur lesquels le service de partage de synchronisation est installé, et de garantir la cohérence des métadonnées et des données pendant la sauvegarde et la restauration.
 
@@ -396,8 +396,8 @@ Le rédacteur du système énumère tous les fichiers binaires du système d’e
 
 Ce writer s’exécute dans le cadre du service de services de chiffrement (CryptSvc). L’enregistreur de système génère une liste de fichiers qui contient les fichiers suivants :
 
--   Tous les fichiers statiques qui ont été installés. Un fichier statique est un fichier qui est listé dans le manifeste de composant avec l’attribut de fichier **writeableType** défini sur « static » ou «». Les fichiers statiques incluent tous les fichiers protégés par Protection des ressources Windows (WRP). Toutefois, tous les fichiers statiques ne sont pas des fichiers protégés par WRP. Par exemple, les fichiers de jeu sont statiques mais pas protégés par WRP pour permettre aux administrateurs de modifier les paramètres de contrôle parental.
--   Le contenu du répertoire côte à côte (WinSxS) de Windows, y compris tous les manifestes, les composants facultatifs et les fichiers Win32 tiers.
+-   Tous les fichiers statiques qui ont été installés. Un fichier statique est un fichier qui est listé dans le manifeste de composant avec l’attribut de fichier **writeableType** défini sur « static » ou «». les fichiers statiques incluent tous les fichiers protégés par Protection des ressources Windows (WRP). Toutefois, tous les fichiers statiques ne sont pas des fichiers protégés par WRP. Par exemple, les fichiers de jeu sont statiques mais pas protégés par WRP pour permettre aux administrateurs de modifier les paramètres de contrôle parental.
+-   contenu de la Windows répertoire côte à côte (WinSxS), y compris tous les manifestes, les composants facultatifs et les fichiers Win32 tiers.
     > [!Note]  
     > La plupart des fichiers du répertoire% windir% \\ system32 sont des liens physiques vers des fichiers dans le répertoire winsxs.
 
@@ -433,9 +433,9 @@ La chaîne du nom de l’enregistreur pour ce writer est « VSS Express Writer 
 
 L’ID d’enregistreur du writer est 75DFB225-E2E4-4D39-9AC9-FFAFF65DDF06.
 
-## <a name="windows-deployment-services-wds-writer"></a>Enregistreur des services de déploiement Windows (WDS)
+## <a name="windows-deployment-services-wds-writer"></a>Windows Enregistreur des services de déploiement (WDS)
 
-Ce writer signale les fichiers de données des services de déploiement Windows (WDS).
+ce writer signale les fichiers de données Windows Deployment Services (WDS).
 
 **Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Ce Writer n’est pas pris en charge.
 
@@ -443,17 +443,17 @@ La chaîne du nom de l’enregistreur pour ce writer est « enregistreur VSS WD
 
 L’ID d’enregistreur pour ce writer est 82CB5521-68DB-4626-83A4-7FC6F88853E9.
 
-## <a name="windows-internal-database-wid-writer"></a>Enregistreur de base de données interne Windows (WID)
+## <a name="windows-internal-database-wid-writer"></a>enregistreur Base de données interne Windows (WID)
 
-Ce writer signale les fichiers de données de la base de données interne Windows (WID).
+ce writer signale les fichiers de données Base de données interne Windows (WID).
 
-**Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP :** Ce Writer n’est pas pris en charge.
+**Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP :** Ce Writer n’est pas pris en charge.
 
 La chaîne du nom de l’enregistreur pour ce writer est « WIDWriter ».
 
 L’ID d’enregistreur pour ce writer est 8D5194E1-E455-434A-B2E5-51296CCE67DF.
 
-## <a name="windows-internet-name-service-wins-writer"></a>Enregistreur WINS (Windows Internet Name Service)
+## <a name="windows-internet-name-service-wins-writer"></a>Windows Enregistreur WINS (Internet Name Service)
 
 Ce writer est responsable de l’énumération des fichiers requis pour WINS.
 

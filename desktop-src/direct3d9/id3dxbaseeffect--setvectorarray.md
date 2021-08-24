@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 4c5deace65608ee547b8fdcc4fb236b11d38c810
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 79018873b512b54277f2b63da23a9360389e10b32672be59807e7ef47c9884f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790639"
 ---
 # <a name="id3dxbaseeffectsetvectorarray-method"></a>ID3DXBaseEffect :: SetVectorArray, méthode
 
@@ -75,7 +75,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si les vecteurs de destination sont plus petits que les vecteurs sources, les composants supplémentaires des vecteurs sources seront ignorés.
 

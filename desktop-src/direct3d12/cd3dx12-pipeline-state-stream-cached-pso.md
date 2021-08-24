@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78ddb223dfd2baa7bc6bee1b5a36950fc47d65d0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a11cb4e7a784b89a825f1e1b64083c50cc77731bbadf84d248106d69da9cf737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751919"
 ---
 # <a name="cd3dx12_pipeline_state_stream_cached_pso-structure"></a>CD3DX12 \_ - \_ \_ structure d' \_ PSO mise en cache de flux d’état de pipeline \_
 
@@ -72,7 +72,7 @@ Conversion implicite en structure d' [**\_ \_ \_ État de pipeline mise en cache
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_ \_ Flux d’état de pipeline CD3DX12 \_ \_ , PSO mis en cache \_ est une spécialisation typedef du modèle de sous- [**objet de flux d' \_ État de pipeline \_ \_ \_ CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est défini comme suit :
 

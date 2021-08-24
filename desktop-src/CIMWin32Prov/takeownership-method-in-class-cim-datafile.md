@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1ade501db9b6af21b3761b70f638faa20d699401
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: abf1965c82c810400921d9a6bb3e4e64551338bd40d7289e4863bab10abd189d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751869"
 ---
 # <a name="takeownership-method-of-the-cim_datafile-class"></a>Méthode TakeOwnerShip de la \_ classe de fichier de fichier CIM
 
@@ -54,7 +54,7 @@ Retourne la valeur 0 en cas de réussite, et tout autre nombre pour indiquer une
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **TakeOwnership** dans le [**fichier de \_ fichier CIM**](cim-datafile.md) est implémentée par WMI.
 

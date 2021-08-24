@@ -9,12 +9,12 @@ keywords:
 - DWM (Gestionnaire de fenêtrage), messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 399db1399cfc7cb60d29f0fa554a2233dc75a279
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 3715494dc514dea471e50321acf1f64c5745ffe52dacae69752c8f10fecf0e84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "106513701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726019"
 ---
 # <a name="dwm-messages"></a>Messages DWM
 
@@ -45,7 +45,7 @@ Cette section contient des informations sur les messages du Gestionnaire de fen�
 <td>Informe toutes les fenêtres de niveau supérieur que la composition DWM a été activée ou désactivée. <br/>
 <blockquote>
 [!Note]<br />
-À compter de Windows 8, la composition DWM est toujours activée, ce qui signifie que ce message n’est pas envoyé, quelles que soient les modifications du mode vidéo.
+à partir de Windows 8, la composition DWM est toujours activée. ce message n’est donc pas envoyé, quelles que soient les modifications du mode vidéo.
 </blockquote>
 <br/></td>
 </tr>

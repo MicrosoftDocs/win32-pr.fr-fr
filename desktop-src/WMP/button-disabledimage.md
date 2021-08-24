@@ -3,7 +3,7 @@ title: BUTTON. disabledImage
 description: L’attribut disabledImage spécifie ou récupère l’image qui s’affiche lorsque le bouton est désactivé.
 ms.assetid: b5654323-589a-45da-9534-6fa67c3a4c4b
 keywords:
-- BUTTON. disabledImage Windows Media Player
+- BUTTON. disabledImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eac407f6e7fbdd155f4bcabe98cecc0546f7d97
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 78c3768afd8b1356a1c0ca67a43f951e19143258dfc4f27a3a5e9d861fe9e930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864479"
 ---
 # <a name="buttondisabledimage"></a>BUTTON. disabledImage
 
@@ -31,7 +31,7 @@ L’attribut **disabledImage** spécifie ou récupère l’image qui s’affiche
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom du fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF.
 

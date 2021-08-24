@@ -1,11 +1,11 @@
 ---
 title: AxWindowsMediaPlayer. Status, propriété
-description: La propriété Status obtient une valeur indiquant l’état du lecteur Windows Media.
+description: la propriété status obtient une valeur indiquant l’état de Lecteur Windows Media.
 ms.assetid: fefed54d-1fae-4599-8efc-eb2efdbd8ebd
 keywords:
-- propriété d’État lecteur Windows Media
-- propriété d’État lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété Status
+- Lecteur Windows Media de la propriété status
+- Lecteur Windows Media de propriété status, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété status
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea7e8c36ad05e2f9a4573d8e2433d705f354239
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac46eeef411e1d728994d829d95727cdaf4020c2ef1b7511391b6ca0d2e31ff7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864559"
 ---
 # <a name="axwindowsmediaplayerstatus-property"></a>AxWindowsMediaPlayer. Status, propriété
 
-La propriété Status obtient une valeur indiquant l’état du lecteur Windows Media.
+la propriété status obtient une valeur indiquant l’état de Lecteur Windows Media.
 
 Cette propriété est en lecture seule.
 
@@ -50,7 +50,7 @@ Public ReadOnly Property status As System.String
 
 System. String qui est l’État.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs contenues dans cette propriété sont sujettes à modification à tout moment et doivent être utilisées à des fins d’affichage uniquement.
 
@@ -72,10 +72,10 @@ AxWindowsMediaPlayer. L’événement **statuschange** est déclenché à chaque
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
-[**Événement AxWindowsMediaPlayer. StatusChange (VB et C#)**](axwmplib-axwindowsmediaplayer-statuschange.md)
+[**événement AxWindowsMediaPlayer. StatusChange (VB et C#)**](axwmplib-axwindowsmediaplayer-statuschange.md)
 </dt> </dl>
 
  

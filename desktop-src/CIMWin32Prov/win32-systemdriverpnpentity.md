@@ -1,5 +1,5 @@
 ---
-description: La \_ classe WMI de l’Association Win32 SystemDriverPNPEntity associe un appareil plug-and-Play sur le système d’ordinateur exécutant Windows et le pilote qui prend en charge le périphérique Plug-and-Play.
+description: la \_ classe WMI de l’association Win32 SystemDriverPNPEntity associe un appareil Plug-and-Play sur le système d’ordinateur exécutant Windows et le pilote qui prend en charge le périphérique Plug-and-Play.
 ms.assetid: 2696c8e5-3bc3-42e3-807b-a387607c7c09
 ms.tgt_platform: multiple
 title: Classe Win32_SystemDriverPNPEntity
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8b5a7eedfbd7a545e37cb9cda38c19cf61308761
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e4b0de9559d223db4c398387ca846be39b17566b3267c76399bdf4381cdd14e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751109"
 ---
 # <a name="win32_systemdriverpnpentity-class"></a>\_Classe SystemDriverPNPEntity Win32
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) de l’Association **Win32 \_ SystemDriverPNPEntity** associe un appareil plug-and-Play sur le système d’ordinateur exécutant Windows et le pilote qui prend en charge le périphérique Plug-and-Play.
+la [classe WMI](../wmisdk/retrieving-a-class.md) de l’association **Win32 \_ SystemDriverPNPEntity** associe un appareil Plug-and-Play sur le système d’ordinateur exécutant Windows et le pilote qui prend en charge le périphérique Plug-and-Play.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -84,7 +84,7 @@ Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**remplacement**](../
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SystemDriverPNPEntity** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 

@@ -4,27 +4,27 @@ description: Lorsque le TrackBar est créé, sa plage et sa plage de sélection 
 ms.assetid: FA110B4A-D3D7-49D8-A3DC-368099F6DA1E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9468ff044b94837f54d04cda4a9105f15410692
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 71713e09167812786a5d5f57986242ef5fcf016931cdff40d5190cd6e0daafea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826549"
 ---
 # <a name="how-to-create-a-trackbar"></a>Comment créer un TrackBar
 
 Lorsque le TrackBar est créé, sa plage et sa plage de sélection sont initialisées. La taille de la page est également définie à ce stade.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -95,9 +95,9 @@ HWND WINAPI CreateTrackbar(
 [Utilisation des contrôles TrackBar](using-trackbar-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

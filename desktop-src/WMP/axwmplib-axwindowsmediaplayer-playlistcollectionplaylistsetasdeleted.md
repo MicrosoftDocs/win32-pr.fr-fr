@@ -3,7 +3,7 @@ title: Événement PlaylistCollectionPlaylistSetAsDeleted de l’objet AxWindows
 description: L’événement PlaylistCollectionPlaylistSetAsDeleted est réservé pour une utilisation ultérieure.
 ms.assetid: 6c0a4d2c-e965-4a88-acd4-2a2a12265e36
 keywords:
-- Événement PlaylistCollectionPlaylistSetAsDeleted de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement PlaylistCollectionPlaylistSetAsDeleted de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf432ede40298abed98cdf0c5b02b0a192f7b3a9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b11187ffaf6e16612ba7edb573e0b0bc71e9d2abf44ee509db2404026e3ed570
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864578"
 ---
 # <a name="playlistcollectionplaylistsetasdeleted-event-of-the-axwindowsmediaplayer-object"></a>Événement PlaylistCollectionPlaylistSetAsDeleted de l’objet AxWindowsMediaPlayer
 
@@ -54,7 +54,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est réservé à une utilisation ultérieure.
 
@@ -74,7 +74,7 @@ Cet événement est réservé à une utilisation ultérieure.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

@@ -1,7 +1,7 @@
 ---
 description: Le filtre de convertisseur MIDI effectue le rendu des données MIDI à partir du filtre de l’analyseur MIDI.
 ms.assetid: 2675a21d-41d0-4095-96c4-f12f52c00d5a
-title: Filtre de convertisseur MIDI (Windows. Devices. midi. h)
+title: filtre de convertisseur MIDI (Windows. devices. midi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.devices.midi.h
-ms.openlocfilehash: 5fa27ceda0c249f88f4684979382495167cb9238
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 3727fb322e03338723eb3c9da1ac86d4e6a7145424cb04b0c050b67f83aa141a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791449"
 ---
 # <a name="midi-renderer-filter"></a>Filtre de convertisseur MIDI
 
@@ -67,7 +67,7 @@ Les exemples du filtre de l’analyseur MIDI contiennent une seconde de données
 
 | Condition requise | Valeur |
 |-------------------|---------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>Windows. Devices. midi. h</dt> </dl> |
+| En-tête<br/> | <dl> <dt>Windows. devices. midi. h</dt> </dl> |
 
 
 
@@ -75,7 +75,7 @@ Les exemples du filtre de l’analyseur MIDI contiennent une seconde de données
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

@@ -3,9 +3,9 @@ title: AxWindowsMediaPlayer. DVD, propriété
 description: La propriété DVD obtient une interface IWMPDVD qui fournit des propriétés et des méthodes pour travailler avec des DVD.
 ms.assetid: a1cafa04-33b6-42ff-86db-3ffc7f056907
 keywords:
-- Propriétés du DVD lecteur Windows Media
-- propriété DVD lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété DVD
+- Lecteur Windows Media de propriétés de dvd
+- Lecteur Windows Media de propriétés de dvd, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété dvd
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 63671e8658ecaf81db9ade5ce6efdbcfcb3e1734
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65b956cdd96f20ee2981e53e4dd598ed20a2858aefadac2ade5a8b4f0cd7baeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864679"
 ---
 # <a name="axwindowsmediaplayerdvd-property"></a>AxWindowsMediaPlayer. DVD, propriété
 
@@ -66,7 +66,7 @@ Interface WMPLib. IWMPDVD.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPDVD (VB et C#)**](iwmpdvd--vb-and-c.md)

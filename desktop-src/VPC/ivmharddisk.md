@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24d6df46e7c698676e3873dd17a854fd0b7d7933
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 525762f66798b95562958fb204119beda1d76a8b94a60a11a7171b0d0b2951e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768159"
 ---
 # <a name="ivmharddisk-interface"></a>Interface IVMHardDisk
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Permet d’accéder à une image de disque dur. Elle est accessible par le biais de la méthode [**IVMHardDiskConnection :: dur**](ivmharddiskconnection-harddisk.md) ou de la méthode [**IVMVirtualPC :: GetHardDisk**](ivmvirtualpc-getharddisk.md) .
 
@@ -43,7 +43,7 @@ L’interface **IVMHardDisk** possède ces méthodes.
 
 | Méthode                                 | Description                                                                                                                                                 |
 |:---------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Compact**](ivmharddisk-compact.md) | Compacte une image de disque dur virtuel de taille dynamique.<br/>                                                                                        |
+| [**ROM**](ivmharddisk-compact.md) | Compacte une image de disque dur virtuel de taille dynamique.<br/>                                                                                        |
 | [**Convertir**](ivmharddisk-convert.md) | Convertit n’importe quel disque dur virtuel en disque dur virtuel de taille dynamique ou en disque dur virtuel de taille fixe.<br/>                            |
 | [**Fusion**](ivmharddisk-merge.md)     | Fusionne un disque dur virtuel de différenciation avec son image de disque parent.<br/>                                                                              |
 | [**MergeTo**](ivmharddisk-mergeto.md) | Fusionne un disque dur virtuel de différenciation avec tous ses parents (jusqu’à et y compris le disque dur virtuel parent racine) vers un nouveau fichier de disque dur.<br/> |
@@ -65,7 +65,7 @@ L’interface **IVMHardDisk** possède les propriétés suivantes.
 | [**Parent**](ivmharddisk-parent.md)<br/>                       | Lecture/écriture<br/> | Parent du disque dur virtuel de différenciation.<br/>                                   |
 | [**SizeInGuest**](ivmharddisk-sizeinguest.md)<br/>             | Lecture seule<br/>  | Taille du disque dur virtuel dans le système d’exploitation invité.<br/>                    |
 | [**SizeOnHost**](ivmharddisk-sizeonhost.md)<br/>               | Lecture seule<br/>  | Taille du fichier de disque dur virtuel sur l’ordinateur hôte.<br/>                        |
-| [**Entrer**](ivmharddisk-type.md)<br/>                           | Lecture seule<br/>  | Type du disque dur virtuel.<br/>                                                  |
+| [**Type**](ivmharddisk-type.md)<br/>                           | Lecture seule<br/>  | Type du disque dur virtuel.<br/>                                                  |
 
 
 
@@ -77,7 +77,7 @@ L’interface **IVMHardDisk** possède les propriétés suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

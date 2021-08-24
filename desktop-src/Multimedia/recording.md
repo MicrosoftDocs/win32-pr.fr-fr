@@ -6,12 +6,12 @@ keywords:
 - Commande MCI_RECORD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4248b2d4bbdd984ad23a772f0adca04581afca1d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 27033dde148a6f99a1168eea4d6c0a97aea82881638ccb6d6f5535632e897148
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805509"
 ---
 # <a name="recording"></a>Enregistrement
 
@@ -36,7 +36,7 @@ Une fois l’enregistrement terminé, utilisez la commande [**Save**](save.md) (
 > [!Note]  
 > Si vous fermez l’appareil sans enregistrer, les données enregistrées sont perdues.
 
- 
+ 
 
 ## <a name="checking-input-levels-pcm-only"></a>Vérification des niveaux d’entrée (PCM uniquement)
 
@@ -44,9 +44,9 @@ Pour obtenir le niveau du signal d’entrée avant l’enregistrement sur un app
 
 Le niveau d’entrée est représenté sous la forme d’une valeur non signée. Pour les exemples de 8 bits, cette valeur est comprise entre 0 et 127 (0x7F). Pour les exemples de 16 bits, elle est comprise entre 0 et 32 767 (0x7FFF).
 
- 
+ 
 
- 
+ 
 
 
 

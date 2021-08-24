@@ -4,12 +4,12 @@ ms.assetid: 308550d0-1399-4b64-8f8e-dc16d5044086
 title: Commande WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITHOUT_DATA_PHASE (WpdMtpExtensions. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b58648547c33206e1de19c14aea48427bc9db0be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2c4d1d5af4d1e4e712f3a39dd5cbb296133bb16f4de3b677da4a45fa7bbc204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806299"
 ---
 # <a name="wpd_command_mtp_ext_execute_command_without_data_phase-command"></a>Commande \_ wpd \_ MTP \_ ext \_ Execute \_ Command \_ sans \_ \_ commande Data phase
 
@@ -40,10 +40,10 @@ Le pilote retourne les résultats suivants.
 
 
 
-| Résultats                                        | VarType | Description                                                                                                                    |
+| Résultat                                        | VarType | Description                                                                                                                    |
 |-----------------------------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------|
 | **\_Code de \_ \_ réponse MTP \_ ext \_ de la propriété wpd**   | VT \_ UI4 | Obligatoire. Code de réponse au code d’opération du fournisseur.                                                                      |
-| **param, propriété WPD, \_ \_ \_ paramètres de \_ réponse ext \_** | VT \_ UI4 | Optionnel. **IPortableDevicePropVariantCollection** qui identifie les paramètres de réponse. Cette collection peut être vide. |
+| **param, propriété WPD, \_ \_ \_ paramètres de \_ réponse ext \_** | VT \_ UI4 | Facultatif. **IPortableDevicePropVariantCollection** qui identifie les paramètres de réponse. Cette collection peut être vide. |
 
 
 

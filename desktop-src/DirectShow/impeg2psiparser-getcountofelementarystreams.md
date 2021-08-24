@@ -1,5 +1,5 @@
 ---
-description: 'IMpeg2PsiParser :: GetCountOfElementaryStreams, méthode-l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.'
+description: 'IMpeg2PsiParser :: GetCountOfElementaryStreams, méthode-l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. il ne s’agit pas d’une API DirectShow prise en charge.'
 ms.assetid: 19ef96a8-3d5b-4da1-8cff-d6a271ad4915
 title: 'IMpeg2PsiParser :: GetCountOfElementaryStreams, méthode'
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: fc81c0a66751751a73a3895fd31fe8651aee8caf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e241697884a4b665c160dc9991e4cb7f02c76f1ba32bc7a0656515faf1117a58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767379"
 ---
 # <a name="impeg2psiparsergetcountofelementarystreams-method"></a>IMpeg2PsiParser :: GetCountOfElementaryStreams, méthode
 
-L’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.
+l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. il ne s’agit pas d’une API DirectShow prise en charge.
 
 La `GetCountOfElementaryStreams` méthode récupère le nombre de flux élémentaires dans un programme spécifié.
 
@@ -55,7 +55,7 @@ Pointeur vers une variable qui reçoit le nombre de flux élémentaires dans le 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s’y limiter, les valeurs indiquées dans le tableau suivant.
 
@@ -69,7 +69,7 @@ La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Utilisez la méthode **GetRecordProgramNumber** pour obtenir le numéro du programme.
 
