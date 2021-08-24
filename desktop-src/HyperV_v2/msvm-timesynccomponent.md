@@ -57,12 +57,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ea9a33d665a315861d9e6c51fd529f10f07b4aab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1508cff8d55f7fd761e14333fc70b0a4fafcfa1b2658130d7274f2d3193899ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811799"
 ---
 # <a name="msvm_timesynccomponent-class"></a>MSVM \_ TimeSyncComponent, classe
 
@@ -136,7 +136,7 @@ La classe **MSVM \_ TimeSyncComponent** possède ces méthodes.
 | **OnlineDevice**                                                        | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                       | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-timesynccomponent-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-timesynccomponent-reset.md)                           | Réinitialise le composant.<br/>         |
+| [**Initialisation**](msvm-timesynccomponent-reset.md)                           | Réinitialise le composant.<br/>         |
 | **RestoreProperties**                                                   | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                      | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                       | Cette méthode n'est pas prise en charge.<br/> |
@@ -854,7 +854,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ TimeSyncComponent** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -864,8 +864,8 @@ L’accès à la classe **MSVM \_ TimeSyncComponent** peut être limité par le 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

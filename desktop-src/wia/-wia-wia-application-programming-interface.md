@@ -1,19 +1,19 @@
 ---
-description: Cette section contient des informations de référence sur les éléments d’API fournis par WIA (Windows Image Acquisition).
+description: cette section contient des informations de référence sur les éléments d’API fournis par Windows Acquisition d’images (WIA).
 ms.assetid: c06aaff5-f603-4316-81ac-091203e96ad7
 title: Interface de programmation d’applications WIA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb4c6f27b357c1e78ad0d0f3aa4f03d4435f3875
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12bf7ccaa37afb39b9695b720be5a67ece5e81f701bd9a00dd311c594a3802d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813249"
 ---
 # <a name="wia-application-programming-interface"></a>Interface de programmation d’applications WIA
 
-Cette section contient des informations de référence sur les éléments d’API fournis par WIA (Windows Image Acquisition). Les documents de référence sont répartis dans les catégories suivantes :
+cette section contient des informations de référence sur les éléments d’API fournis par Windows Acquisition d’images (WIA). Les documents de référence sont répartis dans les catégories suivantes :
 
 -   [Interfaces](-wia-interfaces.md)
 -   [Fonctions](-wia-functions.md)

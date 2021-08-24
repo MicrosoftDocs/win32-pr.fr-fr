@@ -4,12 +4,12 @@ ms.assetid: 7d9fec63-0bb7-45f3-9d40-736a60d69185
 title: Création de files d’attente de composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc6f6731144a1744a7648d2d3d2bd5c3c4b217b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9c44f670cea15e1cb1a4549d5c1e847956eb41d400ae01d557803dbd1ce2b439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793459"
 ---
 # <a name="creating-component-queues"></a>Création de files d’attente de composants
 
@@ -49,7 +49,7 @@ Non applicable.
 
 Non applicable.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les files d’attente créées par la bibliothèque d’administration COM+ ou l’outil d’administration Services de composants sont marquées avec l’attribut transactionnel Message Queuing.
 

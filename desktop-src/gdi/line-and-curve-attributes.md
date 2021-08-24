@@ -4,12 +4,12 @@ ms.assetid: 9529b389-85f6-421f-8429-9b61cee56ef1
 title: Attributs de courbes et de courbes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6ec13ea49a72447045c45ea2837ba40e64e6741
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d5ab8758cf6e77b28568cacafd8c57312c052d9e9415211f034e3d1a70b6c09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831609"
 ---
 # <a name="line-and-curve-attributes"></a>Attributs de courbes et de courbes
 

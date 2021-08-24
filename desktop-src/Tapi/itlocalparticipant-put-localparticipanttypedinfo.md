@@ -4,12 +4,12 @@ ms.assetid: c4afd1d3-6fe4-4e5b-a9bf-81b7dffa9914
 title: ITLocalParticipant ::p ut_LocalParticipantTypedInfo, méthode (Confpriv. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77809a9a3858b6a098fa3ff6a93878cf38518f92
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: acca83d7ad68ed0974aaa2e7d4fb4755c11939d0711473c406cb09d78451ac41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774899"
 ---
 # <a name="itlocalparticipantput_localparticipanttypedinfo-method"></a>ITLocalParticipant ::p ut \_ LocalParticipantTypedInfo, méthode
 
@@ -49,7 +49,7 @@ HRESULT put_LocalParticipantTypedInfo(
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser [SysAllocString](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) pour allouer de la mémoire pour le paramètre *PpInfo* et utiliser [SysFreeString](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire lorsque la variable n’est plus nécessaire.
 

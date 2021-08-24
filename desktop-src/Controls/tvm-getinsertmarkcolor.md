@@ -3,7 +3,7 @@ title: Message TVM_GETINSERTMARKCOLOR (commctrl. h)
 description: Récupère la couleur utilisée pour dessiner la marque d’insertion pour l’arborescence. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro GetInsertMarkColor TreeView.
 ms.assetid: d1fba4bb-1bdb-44e0-8083-b564cdafc055
 keywords:
-- TVM_GETINSERTMARKCOLOR les contrôles de message Windows
+- TVM_GETINSERTMARKCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61416a428fed88ece8f50ca640dd9a05ec131614
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38c784f6b3c363d68472270f0f52cb97cea7c13b6eb709d1aba4975d3cd97bca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834149"
 ---
 # <a name="tvm_getinsertmarkcolor-message"></a>TVM \_ GETINSERTMARKCOLOR message
 
@@ -45,8 +45,8 @@ Retourne une valeur [**COLORREF**](/windows/desktop/gdi/colorref) qui contient l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

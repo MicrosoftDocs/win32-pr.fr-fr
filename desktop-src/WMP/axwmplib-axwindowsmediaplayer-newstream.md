@@ -3,7 +3,7 @@ title: Événement NewStream de l’objet AxWindowsMediaPlayer
 description: L’événement NewStream est réservé pour une utilisation ultérieure.
 ms.assetid: 265596c0-3e92-48e9-8245-0897bac824b4
 keywords:
-- Événement NewStream de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement NewStream de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d626551dfb81d55f90b89955ce680a00db6d8c60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e059aece551f8b3d2b4d5ad62521d3446c5c605cf0174e1257fe7652150dddcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764759"
 ---
 # <a name="newstream-event-of-the-axwindowsmediaplayer-object"></a>Événement NewStream de l’objet AxWindowsMediaPlayer
 
@@ -43,7 +43,7 @@ Private Sub player_NewStream(
 
 Cet événement ne contient pas de données.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est réservé à une utilisation ultérieure.
 
@@ -63,7 +63,7 @@ Cet événement est réservé à une utilisation ultérieure.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

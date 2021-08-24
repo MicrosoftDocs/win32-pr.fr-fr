@@ -4,12 +4,12 @@ ms.assetid: 3e50f668-6d08-405e-a5a4-f422041ef0b1
 title: Action UnpublishComponents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f58d9fff862295bcc06e61e1b35c05cdddb58daa
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: f1feaca4449ffa344eeda828334f879ebc12905406446dd14623e3b9c4474c6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104394039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810259"
 ---
 # <a name="unpublishcomponents-action"></a>Action UnpublishComponents
 

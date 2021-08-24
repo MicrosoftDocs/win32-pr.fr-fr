@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Constantes d’erreur WMI (WbemCli. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e95db7220bdc9669716dbe19f5bf2f4e139dfe5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 679fd0cb9714e2ee202b12195b10e72778564d7549ed4731d905603a11e073db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794309"
 ---
 # <a name="wmi-error-constants"></a>Constantes d’erreur WMI
 
@@ -22,7 +22,7 @@ Si une erreur se produit, WMI retourne un code d’erreur sous la forme d’une 
 >
 > Si WMI renvoie des messages d’erreur, sachez qu’ils ne peuvent pas indiquer des problèmes dans le service WMI ou les fournisseurs WMI. Les échecs peuvent provenir d’autres parties du système d’exploitation et émerger comme des erreurs via WMI. Dans tous les cas, ne supprimez pas le référentiel WMI en tant que première action, car la suppression du dépôt peut endommager le système ou les applications installées.
 >
-> Pour obtenir plus d’informations sur la source du problème, vous pouvez télécharger et exécuter l’outil en ligne de commande [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) diagnostic. Cet outil génère un rapport qui peut généralement isoler la source du problème et fournir des instructions sur la façon de le résoudre. Le rapport aide également les services de support technique Microsoft à vous aider. Vous pouvez télécharger les WMI Diagnosis Utility [ici](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d).
+> pour obtenir plus d’informations sur la source du problème, vous pouvez télécharger et exécuter l’outil en ligne de commande [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) diagnostic. Cet outil génère un rapport qui peut généralement isoler la source du problème et fournir des instructions sur la façon de le résoudre. Le rapport aide également les services de support technique Microsoft à vous aider. vous pouvez télécharger les WMI Diagnosis Utility [ici](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d).
 
  
 
@@ -65,7 +65,7 @@ Erreur provenant d’ADSI (Active Directory Service Interfaces) ou LDAP (Lightwe
 
 </dd> </dl>
 
-Certaines méthodes des classes WMI peuvent retourner des codes d’erreur système et réseau (64, par exemple). Vous pouvez vérifier la définition de ces types de codes d’erreur à l’aide de la commande **net helpmsg** dans la fenêtre d’invite de commandes. Par exemple, la commande **net helpmsg 64** retourne le message : le nom réseau spécifié n’est plus disponible. En C++, vous pouvez appeler [**FormatMessage**](/windows/desktop/api/winbase/nf-winbase-formatmessage) et spécifier le module de message **C : \\ Windows \\ system32 \\ WBEM \\wmiutils.dll** .
+Certaines méthodes des classes WMI peuvent retourner des codes d’erreur système et réseau (64, par exemple). Vous pouvez vérifier la définition de ces types de codes d’erreur à l’aide de la commande **net helpmsg** dans la fenêtre d’invite de commandes. Par exemple, la commande **net helpmsg 64** retourne le message : le nom réseau spécifié n’est plus disponible. en C++, vous pouvez appeler [**FormatMessage**](/windows/desktop/api/winbase/nf-winbase-formatmessage) et spécifier le module de message **C : \\ Windows \\ System32 \\ wbem \\wmiutils.dll** .
 
 <dl> <dt>
 
@@ -1458,7 +1458,7 @@ Le descripteur d’objet est obsolète.
 
 
 
-Échec de la connexion à la base de données SQL.
+échec de la connexion à la base de données SQL.
 
 
 </dt> </dl> </dd> <dt>
@@ -1536,7 +1536,7 @@ Le nom du qualificateur contient plus de 255 caractères.
 
 
 
-La commande SQL doit être réexécutée en raison d’un blocage dans SQL. Cela peut être retourné uniquement lorsque des données sont stockées dans une base de données SQL.
+la commande SQL doit être réexécutée en raison d’un blocage dans SQL. cela peut être retourné uniquement lorsque des données sont stockées dans une base de données SQL.
 
 
 </dt> </dl> </dd> <dt>
@@ -1757,7 +1757,7 @@ Une clause WITHIN n'est pas utilisée dans cette requête.
 
 
 
-Cet ordinateur ne dispose pas des autorisations de domaine nécessaires pour prendre en charge les fonctions de sécurité associées à l’instance d’abonnement créée. Contactez l’administrateur de domaine pour que cet ordinateur soit ajouté au groupe d’accès d’autorisation Windows.
+Cet ordinateur ne dispose pas des autorisations de domaine nécessaires pour prendre en charge les fonctions de sécurité associées à l’instance d’abonnement créée. contactez l’administrateur de domaine pour que cet ordinateur soit ajouté au groupe d’accès d’autorisation Windows.
 
 
 </dt> </dl> </dd> <dt>

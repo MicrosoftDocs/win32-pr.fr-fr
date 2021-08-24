@@ -4,12 +4,12 @@ description: Les registres d’entrée et de sortie suivants sont implémentés 
 ms.assetid: 475753C7-C055-4DB7-9DC3-6C734413A92B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb1dc211f5f3dd8819577c796849dcb86012cc0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 76f9c80125a4640e558872e29e435d48e7420bbd6c504577a5e0c84781f8a47d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853899"
 ---
 # <a name="registers---vs_5_0"></a>Registres-vs \_ 5 \_ 0
 
@@ -31,7 +31,7 @@ Les registres d’entrée et de sortie suivants sont implémentés dans le nuanc
 
 
 
- 
+ 
 
 ## <a name="output-registers"></a>Registres de sortie
 
@@ -44,7 +44,7 @@ Les registres d’entrée et de sortie suivants sont implémentés dans le nuanc
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -53,9 +53,9 @@ Les registres d’entrée et de sortie suivants sont implémentés dans le nuanc
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

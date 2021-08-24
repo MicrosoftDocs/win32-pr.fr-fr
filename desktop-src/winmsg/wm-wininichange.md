@@ -4,12 +4,12 @@ ms.assetid: 402f8d71-ad52-486d-be26-8b41a3f22045
 title: Message WM_WININICHANGE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79b8db6c4794a8c1a572f61028d32eaeaf578d0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81cfdfeff65c1580f0bd8373fdc5ef1eec409233a9624934ea67ba835ddf805e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810459"
 ---
 # <a name="wm_wininichange-message"></a>\_Message WM WININICHANGE
 
@@ -53,13 +53,13 @@ Type : **LRESULT**
 
 Si vous traitez ce message, retournez zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour envoyer le **message \_ WM WININICHANGE** à toutes les fenêtres de niveau supérieur, utilisez la fonction [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) avec le paramètre *HWND* défini **sur \_ Broadcast HWND**.
 
 Les appels aux fonctions qui modifient WIN.INI peuvent être mappés au registre à la place. Ce mappage se produit lorsque WIN.INI et que la section en cours de modification sont spécifiées dans le Registre sous la clé suivante :
 
-**HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ IniFileMapping**
+**HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ IniFileMapping**
 
 La modification de l’emplacement de stockage n’a aucun effet sur le comportement de ce message.
 

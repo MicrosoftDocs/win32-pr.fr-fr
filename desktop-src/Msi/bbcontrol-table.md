@@ -4,12 +4,12 @@ ms.assetid: 2ab31a32-6d33-46b7-a295-199560efa7fb
 title: Table BBControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfebbdbc474ef88cbf26f34555deb4874840d005
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70198167c866195204ec6cbcf644b92f3489a4ff44e14e719efbf5c6647e30c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754369"
 ---
 # <a name="bbcontrol-table"></a>Table BBControl
 
@@ -104,7 +104,7 @@ Cette colonne contient une chaîne localisable utilisée pour définir le texte 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs entières de x, y, Width et Height se trouvent dans les [unités d’installation](installer-units.md), et non dans les unités de boîte de dialogue. Une unité d’installation est égale à 1 douzième la hauteur de la taille de police MS sans serif à 10 points. Les coordonnées des contrôles sont relatives au contrôle de tableau blanc et non à la boîte de dialogue.
 

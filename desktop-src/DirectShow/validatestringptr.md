@@ -13,19 +13,19 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: 19bf0b9e43ecbbbdea0e11284cd1cb4a058e22cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6b04b83f3bd3b938f7cc6cc488a931e34bcca6207770b44cbd3c77c01dc9624
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755689"
 ---
 # <a name="validatestringptr-macro"></a>ValidateStringPtr macro)
 
 Vérifie que le processus appelant dispose d’un accès en lecture à une chaîne. Si ce n’est pas le cas, la macro appelle la macro [**DbgBreak**](dbgbreak.md) .
 
 > [!Note]  
-> Cette macro est déconseillée. Dans le SDK Windows pour Windows Vista (et versions ultérieures), cette macro ne fait rien.
+> Cette macro est déconseillée. dans le SDK Windows pour Windows Vista (et versions ultérieures), cette macro ne fait rien.
 
  
 
@@ -55,9 +55,9 @@ Pointeur vers une chaîne **TCHAR** terminée par le caractère null.
 
 Cette macro ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette macro est ignorée sauf si DEBUG, \_ Debug ou VFWROBUST est défini lorsque le fichier d’en-tête de classe de base DirectShow est inclus. Cette macro peut avoir un impact significatif sur les performances.
+cette macro est ignorée sauf si debug, \_ debug ou VFWROBUST est défini lorsque le DirectShow fichier d’en-tête de classe de base est inclus. Cette macro peut avoir un impact significatif sur les performances.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -65,7 +65,7 @@ Cette macro est ignorée sauf si DEBUG, \_ Debug ou VFWROBUST est défini lorsqu
 
 | Condition requise | Valeur |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>Wxdebug. h (include streams. h)</dt> </dl> |
+| En-tête<br/> | <dl> <dt>Wxdebug. h (inclure Flux. h)</dt> </dl> |
 
 
 

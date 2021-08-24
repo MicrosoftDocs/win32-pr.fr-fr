@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 26971c80ce6f7d0ffcdcef069d76aef5fdc15138
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bc001d87a95e54682f6b6b4ffdecd3c53d3288b58a6dcb5b6e9a8a4d2dc528e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682729"
 ---
 # <a name="modifyresourcesettings-method-of-the-cim_virtualsystemmanagementservice-class"></a>Méthode ModifyResourceSettings de la \_ classe CIM VirtualSystemManagementService
 
@@ -64,7 +64,7 @@ Si l’opération est exécutée à long terme, le cas échéant, une tâche est
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne 0 en cas de réussite ; Sinon, retourne une erreur.
 

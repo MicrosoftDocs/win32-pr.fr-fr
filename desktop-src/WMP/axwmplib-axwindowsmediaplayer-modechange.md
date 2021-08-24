@@ -1,9 +1,9 @@
 ---
 title: Événement ModeChange de l’objet AxWindowsMediaPlayer
-description: L’événement ModeChange se produit lorsqu’un mode du lecteur Windows Media est modifié. | Événement ModeChange de l’objet AxWindowsMediaPlayer
+description: l’événement ModeChange se produit lorsqu’un mode de Lecteur Windows Media est modifié. | Événement ModeChange de l’objet AxWindowsMediaPlayer
 ms.assetid: 56308425-dce5-4691-8970-c0807744abef
 keywords:
-- Événement ModeChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement ModeChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c06575fc986f4223056244964c2d070874c890b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa3b81ce7c48fd34f03131c7ed3f6cafed1029b103f218842a70ecaade08f1af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764839"
 ---
 # <a name="modechange-event-of-the-axwindowsmediaplayer-object"></a>Événement ModeChange de l’objet AxWindowsMediaPlayer
 
-L’événement ModeChange se produit lorsqu’un mode du lecteur Windows Media est modifié.
+l’événement ModeChange se produit lorsqu’un mode de Lecteur Windows Media est modifié.
 
 ``` syntax
 [C#]
@@ -54,7 +54,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant indique les valeurs possibles pour la propriété modeName.
 
@@ -85,7 +85,7 @@ Le tableau suivant indique les valeurs possibles pour la propriété modeName.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings. getMode (VB et C#)**](wmplibiwmpsettings-iwmpsettings-getmode--vb-and-c.md)

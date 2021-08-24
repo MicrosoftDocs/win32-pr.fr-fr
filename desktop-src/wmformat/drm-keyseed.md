@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 698db5fe5a1123af0a7b4623d304bf0569bbf253
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 46766dc5754bde33c00af250f03a54caf3c12c607ec14da858ac638a70f79baf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106510451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658969"
 ---
 # <a name="drm_keyseed"></a>Keyseed DRM \_
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ keyseed
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété peut être définie à l’aide de [**IWMDRMWriter :: SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute). Elle n’est pas accessible par l’objet lecteur.
 
@@ -48,9 +48,9 @@ Une nouvelle valeur initiale de clé peut être générée à l’aide de la mé
 [**Propriétés DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

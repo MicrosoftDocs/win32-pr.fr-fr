@@ -4,12 +4,12 @@ description: Demande d’un objet pour une interface
 ms.assetid: 04296372-4897-426e-9be3-e6862a530ac6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3fa740f0ef770e069ee03b644bbfcb9b2c5e0eb
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a173342c7dba59c09cdef05c6b20d9d4d37da9d6971e6a7c26c1787b708121bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680736"
 ---
 # <a name="asking-an-object-for-an-interface"></a>Demande d’un objet pour une interface
 
@@ -67,6 +67,6 @@ Comme toujours, vérifiez la valeur de retour **HRESULT** , en cas d’échec de
 
 [Allocation de mémoire dans COM](memory-allocation-in-com.md)
 
- 
+ 
 
- 
+ 

@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 762cd2445c3c6b720bba0f01ae48b787abc1fb38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 74f20840a5580d0188354ca6b65ab3ce5b7402d57ea7346462d2f990ecfe34cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658649"
 ---
 # <a name="taskservice-object"></a>Objet TaskService
 
 Pour les scripts, fournit l’accès au service Planificateur de tâches pour la gestion des tâches inscrites.
 
-La méthode [**TaskService. Connect**](taskservice-connect.md) doit être appelée avant d’appeler l’une des autres méthodes **TaskService** .
+la méthode [**TaskService. Connecter**](taskservice-connect.md) doit être appelée avant d’appeler l’une des autres méthodes **TaskService** .
 
 ## <a name="members"></a>Membres
 
@@ -81,8 +81,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

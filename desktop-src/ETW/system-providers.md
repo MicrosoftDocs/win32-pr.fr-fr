@@ -3,16 +3,16 @@ title: Fournisseurs système
 description: Activez les événements du fournisseur de trace système avec EnableTraceEx2.
 ms.topic: article
 ms.date: 06/02/2021
-ms.openlocfilehash: 48a93ab94b87a43e0eb8a292320536a04ef43477
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 46c141c6449594b8030ce24bb901b0afede33f3f6e2cefcaa36f4df4bf0dde0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812149"
 ---
 # <a name="system-providers"></a>Fournisseurs système
  
-À compter de la version 20348 du kit de développement logiciel (SDK) Windows 10, les événements du fournisseur de trace système peuvent être activés de la même façon que les autres fournisseurs ETW, avec [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2).  Les différents indicateurs et [masques de groupe](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) associés au fournisseur de trace système ont été mappés aux nouveaux fournisseurs de suivi, appelés fournisseurs système et Mots clés correspondants.  
+à compter de Windows 10 SDK build 20348, les événements du fournisseur de Trace système peuvent être activés de la même façon que les autres fournisseurs ETW, avec [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2).  Les différents indicateurs et [masques de groupe](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) associés au fournisseur de trace système ont été mappés aux nouveaux fournisseurs de suivi, appelés fournisseurs système et Mots clés correspondants.  
  
 Comme pour l’activation directe du fournisseur de trace système, les fournisseurs système peuvent uniquement être activés par une session avec la [EVENT_TRACE_SYSTEM_LOGGER_MODE](/windows/win32/etw/logging-mode-constants) définie.
 

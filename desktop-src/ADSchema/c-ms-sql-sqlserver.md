@@ -1,11 +1,11 @@
 ---
-title: Classe MS-SQL-SQLServer
-description: Conteneur pour le stockage des objets MS-SQL-SQLDatabase, MS-SQL-SQLPublication et MS-SQL-SQLRepository.
+title: classe MS-SQL-SQLServer
+description: conteneur pour le stockage des objets ms-SQL-SQLDatabase, ms-SQL-SQLPublication et ms-SQL-SQLRepository.
 ms.assetid: e83c93fa-b5d8-4941-af8c-b7a4c47c8e87
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de la classe MS-SQL-SQLServer
-- Schéma AD de la classe mS-SQL-SQLServer
+- schéma AD de la classe MS-SQL-SQLServer
+- schéma AD de la classe mS-SQL-SQLServer
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bcf21f99329aafa154923f8ca59951e5a40b53d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 07cd5e3e8745b2adecb138ee4f523a568b9d9c34d8018ebce21577102b8113dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834619"
 ---
-# <a name="ms-sql-sqlserver-class"></a>Classe MS-SQL-SQLServer
+# <a name="ms-sql-sqlserver-class"></a>classe MS-SQL-SQLServer
 
-Conteneur pour le stockage des objets [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md), [**MS-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)et [**MS-SQL-SQLRepository**](c-ms-sql-sqlrepository.md) .
+conteneur pour le stockage des objets [**ms-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md), [**ms-SQL-SQLPublication**](c-ms-sql-sqlpublication.md)et [**ms-SQL-SQLRepository**](c-ms-sql-sqlrepository.md) .
 
 
 
@@ -42,7 +42,7 @@ Conteneur pour le stockage des objets [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatab
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -69,9 +69,9 @@ Conteneur pour le stockage des objets [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatab
 
 
 
-## <a name="windows-2000-server-attributes"></a>Attributs du serveur Windows 2000
+## <a name="windows-2000-server-attributes"></a>attributs de serveur Windows 2000
 
-Cette classe contient les attributs suivants pour le serveur Windows 2000 :
+cette classe contient les attributs suivants pour Windows serveur 2000 :
 
 
 
@@ -93,7 +93,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**DSA-signature**](a-dsasignature.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Père**](a-flags.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
+| [**Indicateurs**](a-flags.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Entrée de**](a-fromentry.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)             | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -103,7 +103,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**Est supprimé**](a-isdeleted.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Is-Member-of-DL**](a-memberof.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Est-titulaire de privilège**](a-isprivilegeholder.md)                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Mots clés**](a-keywords.md)                                            | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**Mot**](a-keywords.md)                                            | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Dernier-parent connu**](a-lastknownparent.md)                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Géré par**](a-managedby.md)                                         | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Objets managés**](a-managedobjects.md)                               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -114,15 +114,15 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                            | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-Build**](a-ms-sql-build.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-CharacterSet**](a-ms-sql-characterset.md)                      | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Clustered**](a-ms-sql-clustered.md)                            | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-cluster**](a-ms-sql-clustered.md)                            | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                            | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                        | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                      | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                  | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Emplacement MS-SQL-**](a-ms-sql-location.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**emplacement MS-SQL**](a-ms-sql-location.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-mémoire**](a-ms-sql-memory.md)                                  | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-multiprotocole**](a-ms-sql-multiprotocol.md)                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                      | Faux     | **MS-SQL-SQLServer**                                                                     |
@@ -131,10 +131,10 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**MS-SQL-, compte**](a-ms-sql-serviceaccount.md)                  | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SortOrder**](a-ms-sql-sortorder.md)                            | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SPX**](a-ms-sql-spx.md)                                        | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                  | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                  | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)              | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Vines**](a-ms-sql-vines.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-vines**](a-ms-sql-vines.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                  | Vrai      | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -206,9 +206,9 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 
 
 
-## <a name="windows-server-2003-attributes"></a>Attributs Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Attributs du serveur 2003
 
-Cette classe contient les attributs suivants pour Windows Server 2003 :
+cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
@@ -231,7 +231,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -241,7 +241,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**Est supprimé**](a-isdeleted.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Is-Member-of-DL**](a-memberof.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Est-titulaire de privilège**](a-isprivilegeholder.md)                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Mots clés**](a-keywords.md)                                              | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**Mot**](a-keywords.md)                                              | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Dernier-parent connu**](a-lastknownparent.md)                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Géré par**](a-managedby.md)                                           | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Objets managés**](a-managedobjects.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -263,22 +263,22 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)      | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                   | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                   | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-Build**](a-ms-sql-build.md)                                      | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-CharacterSet**](a-ms-sql-characterset.md)                        | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Clustered**](a-ms-sql-clustered.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                  | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-cluster**](a-ms-sql-clustered.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                          | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                        | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                    | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                  | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Emplacement MS-SQL-**](a-ms-sql-location.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**emplacement MS-SQL**](a-ms-sql-location.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-mémoire**](a-ms-sql-memory.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-multiprotocole**](a-ms-sql-multiprotocol.md)                      | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                        | Faux     | **MS-SQL-SQLServer**                                                                     |
@@ -287,10 +287,10 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**MS-SQL-, compte**](a-ms-sql-serviceaccount.md)                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SortOrder**](a-ms-sql-sortorder.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SPX**](a-ms-sql-spx.md)                                          | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                      | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Vines**](a-ms-sql-vines.md)                                      | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-vines**](a-ms-sql-vines.md)                                      | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                    | Vrai      | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -367,9 +367,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Attributs Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Attributs du serveur 2003 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
+cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
@@ -392,7 +392,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -402,7 +402,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**Est supprimé**](a-isdeleted.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Is-Member-of-DL**](a-memberof.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Est-titulaire de privilège**](a-isprivilegeholder.md)                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Mots clés**](a-keywords.md)                                              | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**Mot**](a-keywords.md)                                              | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Dernier-parent connu**](a-lastknownparent.md)                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Géré par**](a-managedby.md)                                           | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Objets managés**](a-managedobjects.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -426,7 +426,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**ms-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-REPL-attribute-méta-données**](a-msds-replattributemetadata.md)      | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                   | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                   | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -434,15 +434,15 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-Build**](a-ms-sql-build.md)                                      | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-CharacterSet**](a-ms-sql-characterset.md)                        | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Clustered**](a-ms-sql-clustered.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                  | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-cluster**](a-ms-sql-clustered.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                          | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                        | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                    | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                  | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Emplacement MS-SQL-**](a-ms-sql-location.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**emplacement MS-SQL**](a-ms-sql-location.md)                                | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-mémoire**](a-ms-sql-memory.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-multiprotocole**](a-ms-sql-multiprotocol.md)                      | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                        | Faux     | **MS-SQL-SQLServer**                                                                     |
@@ -451,10 +451,10 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**MS-SQL-, compte**](a-ms-sql-serviceaccount.md)                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SortOrder**](a-ms-sql-sortorder.md)                              | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SPX**](a-ms-sql-spx.md)                                          | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                    | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                      | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Vines**](a-ms-sql-vines.md)                                      | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-vines**](a-ms-sql-vines.md)                                      | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                    | Vrai      | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -531,9 +531,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
-## <a name="windows-server-2008-attributes"></a>Attributs Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Attributs du serveur 2008
 
-Cette classe contient les attributs suivants pour Windows Server 2008 :
+cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
@@ -556,7 +556,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**DSA-signature**](a-dsasignature.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Père**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
+| [**Indicateurs**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Entrée de**](a-fromentry.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -566,7 +566,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**Est supprimé**](a-isdeleted.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Is-Member-of-DL**](a-memberof.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Est-titulaire de privilège**](a-isprivilegeholder.md)                             | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Mots clés**](a-keywords.md)                                                 | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**Mot**](a-keywords.md)                                                 | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Dernier-parent connu**](a-lastknownparent.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Géré par**](a-managedby.md)                                              | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Objets managés**](a-managedobjects.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -601,7 +601,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-dévoilé-DSA**](a-msds-revealeddsas.md)                             | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                      | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                      | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -609,15 +609,15 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-Build**](a-ms-sql-build.md)                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-CharacterSet**](a-ms-sql-characterset.md)                           | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Clustered**](a-ms-sql-clustered.md)                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-cluster**](a-ms-sql-clustered.md)                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                             | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                           | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                       | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                     | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Emplacement MS-SQL-**](a-ms-sql-location.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**emplacement MS-SQL**](a-ms-sql-location.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-mémoire**](a-ms-sql-memory.md)                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-multiprotocole**](a-ms-sql-multiprotocol.md)                         | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                           | Faux     | **MS-SQL-SQLServer**                                                                     |
@@ -626,10 +626,10 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**MS-SQL-, compte**](a-ms-sql-serviceaccount.md)                       | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SortOrder**](a-ms-sql-sortorder.md)                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SPX**](a-ms-sql-spx.md)                                             | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                   | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Vines**](a-ms-sql-vines.md)                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-vines**](a-ms-sql-vines.md)                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                       | Vrai      | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -706,9 +706,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Attributs Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Attributs du serveur 2008 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
+cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
@@ -731,7 +731,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Père**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
+| [**Indicateurs**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Entrée de**](a-fromentry.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -742,7 +742,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**Is-Member-of-DL**](a-memberof.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Est-titulaire de privilège**](a-isprivilegeholder.md)                               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Est-recyclé**](a-isrecycled.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Mots clés**](a-keywords.md)                                                   | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**Mot**](a-keywords.md)                                                   | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Dernier-parent connu**](a-lastknownparent.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Géré par**](a-managedby.md)                                                | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Objets managés**](a-managedobjects.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -783,7 +783,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                   | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-dévoilé-DSA**](a-msds-revealeddsas.md)                               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                        | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                        | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -791,15 +791,15 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-Build**](a-ms-sql-build.md)                                           | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-CharacterSet**](a-ms-sql-characterset.md)                             | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Clustered**](a-ms-sql-clustered.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-cluster**](a-ms-sql-clustered.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                               | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                             | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                         | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                       | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Emplacement MS-SQL-**](a-ms-sql-location.md)                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**emplacement MS-SQL**](a-ms-sql-location.md)                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-mémoire**](a-ms-sql-memory.md)                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-multiprotocole**](a-ms-sql-multiprotocol.md)                           | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                             | Faux     | **MS-SQL-SQLServer**                                                                     |
@@ -808,10 +808,10 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**MS-SQL-, compte**](a-ms-sql-serviceaccount.md)                         | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SortOrder**](a-ms-sql-sortorder.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SPX**](a-ms-sql-spx.md)                                               | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                           | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                     | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Vines**](a-ms-sql-vines.md)                                           | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-vines**](a-ms-sql-vines.md)                                           | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                         | Vrai      | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -888,7 +888,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -913,7 +913,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -924,7 +924,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**Is-Member-of-DL**](a-memberof.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Est-titulaire de privilège**](a-isprivilegeholder.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Est-recyclé**](a-isrecycled.md)                                                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**Mots clés**](a-keywords.md)                                                               | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**Mot**](a-keywords.md)                                                               | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Dernier-parent connu**](a-lastknownparent.md)                                               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Géré par**](a-managedby.md)                                                            | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**Objets managés**](a-managedobjects.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -968,10 +968,10 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                               | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-dévoilé-DSA**](a-msds-revealeddsas.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**ms-DS-paramètres**](a-msds-settings.md)                                                    | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Paramètres**](a-msds-settings.md)                                                    | Faux     | [**Point de connexion**](c-connectionpoint.md)<br/>                                 |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
@@ -979,15 +979,15 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**MS-SQL-AppleTalk**](a-ms-sql-appletalk.md)                                               | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-Build**](a-ms-sql-build.md)                                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-CharacterSet**](a-ms-sql-characterset.md)                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Clustered**](a-ms-sql-clustered.md)                                               | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Contact MS-SQL**](a-ms-sql-contact.md)                                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-cluster**](a-ms-sql-clustered.md)                                               | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSHeight**](a-ms-sql-gpsheight.md)                                               | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLatitude**](a-ms-sql-gpslatitude.md)                                           | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-GPSLongitude**](a-ms-sql-gpslongitude.md)                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-InformationURL**](a-ms-sql-informationurl.md)                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Mots clés**](a-ms-sql-keywords.md)                                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-mots clés**](a-ms-sql-keywords.md)                                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-LastUpdatedDate**](a-ms-sql-lastupdateddate.md)                                   | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**Emplacement MS-SQL-**](a-ms-sql-location.md)                                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**emplacement MS-SQL**](a-ms-sql-location.md)                                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-mémoire**](a-ms-sql-memory.md)                                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-multiprotocole**](a-ms-sql-multiprotocol.md)                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-nom**](a-ms-sql-name.md)                                                         | Faux     | **MS-SQL-SQLServer**                                                                     |
@@ -996,10 +996,10 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**MS-SQL-, compte**](a-ms-sql-serviceaccount.md)                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SortOrder**](a-ms-sql-sortorder.md)                                               | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-SPX**](a-ms-sql-spx.md)                                                           | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-État**](a-ms-sql-status.md)                                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-état**](a-ms-sql-status.md)                                                     | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-TCPIP**](a-ms-sql-tcpip.md)                                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**MS-SQL-UnicodeSortOrder**](a-ms-sql-unicodesortorder.md)                                 | Faux     | **MS-SQL-SQLServer**                                                                     |
-| [**MS-SQL-Vines**](a-ms-sql-vines.md)                                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
+| [**MS-SQL-vines**](a-ms-sql-vines.md)                                                       | Faux     | **MS-SQL-SQLServer**                                                                     |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/>                                                          |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                                     | Vrai      | [**Retour au début**](c-top.md)<br/>                                                          |

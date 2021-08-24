@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Inkrenderer.idl
-ms.openlocfilehash: 1649d52c2e9098513c115daaf295c4005e890b8e
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 51383770b8eb0c5dca5efbb5f1756bee81ece506c0e92337e9df9a60eb0a8aee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104211203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726729"
 ---
 # <a name="inkd2drenderer-class"></a>InkD2DRenderer, classe
 
 Implémente l’interface [**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) .
 
-Un objet [**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) permet le rendu des traits d’encre dans le contexte de périphérique Direct2D désigné d’une application Windows universelle, au lieu du contrôle [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) par défaut.
+un objet [**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) permet le rendu des traits d’encre dans le contexte de périphérique Direct2D désigné d’une application Windows universelle, au lieu du contrôle [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) par défaut.
 
 ## <a name="members"></a>Membres
 
@@ -90,7 +90,7 @@ void InkRenderer::Render(
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                  |
 | En-tête<br/>                   | <dl> <dt>Inkrenderer. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Inkrenderer. idl</dt> </dl> |

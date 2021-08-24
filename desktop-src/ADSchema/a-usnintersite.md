@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d101d854650a689679b95282734865ac19f6ced1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 280a8e1e801afd3b27589a1aa35f7d2006556781a6620cdaa9e3a3a2d3878703
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703959"
 ---
 # <a name="usn-intersite-attribute"></a>Attribut USN-Intersite
 
@@ -36,7 +36,7 @@ Numéro de séquence de mise à jour (USN) pour la réplication inter-sites.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.2.469               |
 | System-ID-GUID    | a8df7498-c5ea-11d1-bbcb-0080c76670c0 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ Numéro de séquence de mise à jour (USN) pour la réplication inter-sites.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

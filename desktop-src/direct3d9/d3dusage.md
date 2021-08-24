@@ -28,12 +28,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 6d028d4a84c796c35913ffefd431739e1659eca3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7f9a16fecc110a7bef8e6c065d8772ee72c46b77abf63857d23b734c555eba2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750589"
 ---
 # <a name="d3dusage"></a>D3DUSAGE
 
@@ -64,7 +64,7 @@ Le tableau suivant récapitule les options d’utilisation disponibles.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="usage-and-resource-combinations"></a>Combinaisons d’utilisation et de ressources
 
@@ -72,7 +72,7 @@ Les utilisations sont spécifiées lors de la création d’une ressource, ou sp
 
 
 
-| Utilisation                            | Création de la mémoire tampon de vertex | Création de la mémoire tampon d’index | Création de texture | Création de texture de cube | Création de texture de volume | Création de surface | Vérifier le format du périphérique |
+| Usage                            | Création de la mémoire tampon de vertex | Création de la mémoire tampon d’index | Création de texture | Création de texture de cube | Création de texture de volume | Création de surface | Vérifier le format du périphérique |
 |----------------------------------|----------------------|---------------------|----------------|---------------------|-----------------------|----------------|---------------------|
 | **D3DUSAGE \_ AUTOGENMIPMAP**      |                      |                     | x              | x                   |                       |                | x                   |
 | **D3DUSAGE \_ DEPTHSTENCIL**       |                      |                     | x              | x                   |                       | x              | x                   |

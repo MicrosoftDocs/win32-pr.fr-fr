@@ -4,12 +4,12 @@ ms.assetid: 3153e3a4-2227-4fdd-b2b0-218763013d2d
 title: QueryAccept (en amont)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7707c52d36c3d065c4a7277939f724aabdb73e46
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 65133e132a0e1c2e6880009eda8b56fde9bf77a8bc7d68a850a6f8963604aecd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747573"
 ---
 # <a name="queryaccept-upstream"></a>QueryAccept (en amont)
 
@@ -27,7 +27,7 @@ Si le filtre amont accepte le changement de format, il doit également être en 
 
 ![queryaccept (en amont)](images/dynformat4.png)
 
-Les exemples principaux de ce type de modification de format impliquent les convertisseurs vidéo DirectShow.
+les exemples principaux de ce type de modification de format impliquent les convertisseurs vidéo DirectShow.
 
 -   Le filtre de [convertisseur vidéo](video-renderer-filter.md) d’origine peut basculer entre les types RVB et YUV pendant la diffusion en continu. Lorsque le filtre se connecte, il requiert un format RVB qui correspond aux paramètres d’affichage actuels. Cela garantit qu’il peut revenir sur GDI si nécessaire. Après le début de la diffusion en continu, si DirectDraw est disponible, le convertisseur vidéo demande une modification de format à un type YUV. Plus tard, il peut revenir à RGB s’il perd la surface de DirectDraw pour une raison quelconque.
 -   Le filtre de convertisseur de mixage vidéo (VMR) le plus récent se connecte avec n’importe quel format pris en charge par le matériel graphique, y compris les types YUV. Toutefois, le matériel graphique peut modifier le Stride de la surface DirectDraw sous-jacente afin d’optimiser les performances. Le filtre VMR utilise `QueryAccept` pour signaler le nouveau Stride, qui est spécifié dans le membre de la **bichasse** de la structure **BITMAPINFOHEADER** . Les rectangles source et cible dans la structure **VIDEOINFOHEADER** ou **VIDEOINFOHEADER2** identifient la région dans laquelle la vidéo doit être décodée.
@@ -42,7 +42,7 @@ Un filtre de transformation de copie (autrement dit, un filtre de non-transfert)
 
 -   Transmettez les modifications de format en amont et stockez les nouvelles informations de mise en forme lorsqu’elles arrivent. Votre filtre doit utiliser un allocateur personnalisé pour pouvoir attacher le format à l’exemple en amont.
 -   Effectuez la conversion de format à l’intérieur du filtre. C’est probablement plus facile que de passer le format en amont. Toutefois, il peut être moins efficace que de laisser le filtre du décodeur décoder dans le format correct.
--   En dernier recours, il suffit de rejeter le changement de format. (Pour plus d’informations, reportez-vous au code source de la méthode [**CTransInPlaceOutputPin :: CheckMediaType**](ctransinplaceoutputpin-checkmediatype.md) dans la bibliothèque de classes de base DirectShow.) Le rejet d’une modification de format peut toutefois réduire les performances, car elle empêche le convertisseur vidéo d’utiliser le format le plus efficace.
+-   En dernier recours, il suffit de rejeter le changement de format. (pour plus d’informations, reportez-vous au code source de la méthode [**CTransInPlaceOutputPin :: CheckMediaType**](ctransinplaceoutputpin-checkmediatype.md) dans la bibliothèque de classes de base DirectShow.) Le rejet d’une modification de format peut toutefois réduire les performances, car elle empêche le convertisseur vidéo d’utiliser le format le plus efficace.
 
 Le pseudo-code suivant montre comment vous pouvez implémenter un filtre de transformation de copie (dérivé de **CTransformFilter**) qui peut basculer entre les types de sortie YUV et RGB. Cet exemple part du principe que le filtre effectue la conversion elle-même, au lieu de passer la modification de format en amont.
 

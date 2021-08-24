@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73ceda9ac9e8fd399604e9c55431b8fcd74646f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92749cc7eca569b57d239a36bb6559e59a6a7ebc31c63787a93d0720b334d1ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741749"
 ---
 # <a name="dm_setdefid-message"></a>\_Message SETDEFID DM
 
@@ -55,7 +55,7 @@ Ce paramètre n'est pas utilisé.
 
 La valeur de retour est toujours **true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est traité par la fonction [**DefDlgProc**](/windows/desktop/api/Winuser/nf-winuser-defdlgprocw) . Pour définir le bouton de commande par défaut, la fonction peut envoyer des messages [**WM \_ GETDLGCODE**](wm-getdlgcode.md) et [**BM \_ SETSTYLE**](../controls/bm-setstyle.md) au contrôle spécifié et au bouton de commande par défaut actuel.
 

@@ -4,12 +4,12 @@ ms.assetid: 2622e2b3-b952-4666-a440-85d73d11c5e0
 title: Utilisation de paramètres régionaux personnalisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab0e59446496ae2985860c0fd6b1bd5bddde084
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a969681e685a7044f9c583c907515a51559866d28d997cf43fa639127eee27f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680929"
 ---
 # <a name="working-with-custom-locales"></a>Utilisation de paramètres régionaux personnalisés
 
@@ -30,7 +30,7 @@ Tous les paramètres régionaux supplémentaires utilisent la constante [ \_ per
 
 ## <a name="handle-replacement-locales"></a>Gérer les paramètres régionaux de remplacement
 
-Pour préserver la fiabilité de Windows, n’oubliez pas qu’un paramètre régional de remplacement pris en charge par votre application ne peut pas modifier l’identificateur de paramètres régionaux des paramètres régionaux remplacés. Aucun des paramètres régionaux de remplacement ne peut modifier les propriétés de tri de Windows.
+pour préserver la fiabilité de Windows, n’oubliez pas qu’un paramètre régional de remplacement pris en charge par votre application ne peut pas modifier l’identificateur de paramètres régionaux des paramètres régionaux remplacés. Aucun des paramètres régionaux de remplacement ne peut modifier les propriétés de tri de Windows.
 
 Bien qu’un paramètre régional de remplacement puisse modifier le calendrier par défaut, il doit conserver la valeur par défaut d’origine dans la liste des calendriers disponibles. Par exemple, les paramètres régionaux thaï (Thaïlande) utilisent le calendrier thaï bouddhiste comme valeur par défaut. Un administrateur peut créer des paramètres régionaux de remplacement qui utilisent le calendrier grégorien localisé. Toutefois, la liste des calendriers disponibles continue à contenir une entrée pour le calendrier thaï bouddhiste.
 

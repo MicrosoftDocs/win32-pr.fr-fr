@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a0b80f1ac05f05691c03fa9d62bb29444dbac1a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bace8fd682a00b3d0f4f2252ad792e9c0cf1110975b1e90264c7842e3f1661cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704949"
 ---
 # <a name="ms-dfsr-priority-attribute"></a>MS-DFSR-Priority (attribut)
 
@@ -36,13 +36,13 @@ Niveau de priorité.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.13.3.25           |
 | System-ID-GUID    | eb20e7d6-32ad-42de-b141-16ad2631b01b |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

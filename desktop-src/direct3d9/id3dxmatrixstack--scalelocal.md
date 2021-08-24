@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5bd9f47b6c38b5ec72bcd25ecb5981859a87038b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 193026cee7e8b483afd0159da87cd356bd479987f776c5e82f7ea3543df77c0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748059"
 ---
 # <a name="id3dxmatrixstackscalelocal-method-d3dx9mathh"></a>ID3DXMATRIXStack :: ScaleLocal, méthode (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Composant de mise à l’échelle dans l’axe z.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode multiplie la matrice actuelle par la matrice de mise à l’échelle calculée. La transformation concerne l’origine locale de l’objet.
 

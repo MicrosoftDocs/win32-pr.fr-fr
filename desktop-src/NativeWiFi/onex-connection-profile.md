@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 21e02a1f09d3439c64fb8124cd0cfc8140732be9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 500e714b6f0728104987f53ff0a8c0e7083c1af5996679a78a986b5674d54514
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684889"
 ---
 # <a name="onex_connection_profile-structure"></a>Structure du profil de \_ connexion Onex \_
 
@@ -255,9 +255,9 @@ Durée, en secondes, d’attente de l’achèvement de l’authentification 802.
 
 Durée maximale, en secondes, d’attente d’une connexion au cas où une boîte de dialogue d’interface utilisateur nécessitant une entrée utilisateur s’affiche pendant l’authentification unique par ouverture de session.
 
-Sur Windows Vista avec SP1 et versions ultérieures, cette valeur est codée en dur à 10 minutes et n’est pas configurable. Sur Windows Vista en production, cette valeur est définie par défaut sur 60 secondes dans un profil 802.1 X et est contrôlée par l’élément **maxDelayWithAdditionalDialogs** dans le schéma.
+sur Windows Vista avec SP1 et versions ultérieures, cette valeur est codée en dur à 10 minutes et n’est pas configurable. sur Windows version Vista en fabrication, cette valeur est définie par défaut sur 60 secondes dans un profil 802.1 x et est contrôlée par l’élément **maxDelayWithAdditionalDialogs** dans le schéma.
 
-Sur Windows Vista avec SP1 et versions ultérieures, l’élément **maxDelayWithAdditionalDialogs** dans le schéma 802.1 x est ignoré et déconseillé.
+sur Windows Vista avec SP1 et versions ultérieures, l’élément **maxDelayWithAdditionalDialogs** dans le schéma 802.1 x est ignoré et déconseillé.
 
 </dd> <dt>
 
@@ -275,9 +275,9 @@ Valeur qui spécifie s’il faut autoriser l’affichage de boîtes de dialogue 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La structure du **\_ \_ profil de connexion Onex** est utilisée par le module 802.1 x, un nouveau composant de configuration sans fil pris en charge sur Windows Vista et versions ultérieures.
+la structure du **\_ \_ profil de connexion ONEX** est utilisée par le module 802.1 x, un nouveau composant de configuration sans fil pris en charge sur Windows Vista et versions ultérieures.
 
 Les [**\_ données de \_ mise \_ à jour du résultat Onex**](/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data) contiennent des informations sur un changement d’état de l’authentification 802.1 x. La structure de **\_ \_ \_ données de mise à jour du résultat Onex** est retournée lorsque le membre **NotificationSource** de la structure de [**\_ \_ données de notification WLAN**](/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)) est **\_ source de notification \_ \_ WLAN** et que le membre **NotificationCode** de la structure de **\_ \_ données de notification WLAN** pour la notification reçue est **OneXNotificationTypeResultUpdate**. Pour cette notification, le membre **pData** de la structure de **\_ \_ données de notification WLAN** pointe vers une structure de **\_ \_ \_ données de mise à jour de résultat Onex** qui contient des informations sur le changement d’état d’authentification 802.1 x.
 
@@ -291,8 +291,8 @@ La structure du **\_ \_ profil de connexion Onex** n’est pas définie dans un 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

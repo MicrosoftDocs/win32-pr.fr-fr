@@ -12,12 +12,12 @@ keywords:
 - codecs, nombres et formats de sortie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 633673053a2b34a2f7aed5ed3f6ae66457a7ee13
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 80672419a032b2fff779259ffc6dcebfbe9e9a569f9d4b7afbb75ae5a84fac2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "106511880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659369"
 ---
 # <a name="assigning-output-formats"></a>Assigner des formats de sortie
 
@@ -57,9 +57,9 @@ Pour examiner tous les formats disponibles pour une sortie, procédez comme suit
 [**Utilisation des sorties**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

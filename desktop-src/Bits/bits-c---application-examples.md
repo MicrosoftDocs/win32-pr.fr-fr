@@ -4,12 +4,12 @@ description: Les exemples d’applications Service de transfert intelligent en a
 ms.assetid: 6163c7fd-e187-4f75-bf25-e3a515e50db5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf577509dac58a655c2cbc8b602b75bd48aa03e4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5a20130fe7aceb25518b3584eb9e7ba32bd8c5c94ba5fc96a5be33aa00298631
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702069"
 ---
 # <a name="bits-c-application-examples"></a>Exemples d’applications C++ BITS
 
@@ -28,8 +28,8 @@ Le tableau suivant répertorie les exemples C++ de cette section.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

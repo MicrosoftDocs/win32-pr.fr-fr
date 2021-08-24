@@ -1,9 +1,9 @@
 ---
-title: Élément d’application
-description: Représente l’élément de niveau supérieur dans la spécification de balisage de l’infrastructure de ruban Windows.
+title: Application, élément
+description: représente l’élément de niveau supérieur dans la spécification du balisage de l’infrastructure du ruban Windows.
 ms.assetid: 05396d8b-fbd1-40bb-8d0f-8ac11506e7db
 keywords:
-- Ruban des fenêtres d’élément d’application
+- ruban Windows élément d’Application
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9b116879a918ca0437c7f2bdd201ef4ffd6d3c61
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 4055e271ecf3313596b73aa36a5cbea37250416d9b517fb4512b89fbc203293a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103734716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810809"
 ---
-# <a name="application-element"></a>Élément d’application
+# <a name="application-element"></a>Application, élément
 
-Représente l’élément de niveau supérieur dans la spécification de balisage de l’infrastructure de ruban Windows.
+représente l’élément de niveau supérieur dans la spécification du balisage de l’infrastructure du ruban Windows.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Application
@@ -58,7 +58,7 @@ Représente l’élément de niveau supérieur dans la spécification de balisag
 
 Il n’y a pas d’éléments parents.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 

@@ -3,9 +3,9 @@ title: IWMPNetwork propriété sourceProtocol
 description: La propriété sourceProtocol obtient le protocole source utilisé pour recevoir des données.
 ms.assetid: db1d7651-3f25-4ac9-a3e1-dc3a8ddf8c40
 keywords:
-- propriété sourceProtocol lecteur Windows Media
-- propriété sourceProtocol lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété sourceProtocol
+- Lecteur Windows Media de la propriété sourceProtocol
+- Lecteur Windows Media de la propriété sourceProtocol, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété sourceProtocol
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5017e1a053c124a1f7f50668c6f392eb541d57f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 737bc0a5a4417735c795fc1058a7b821ee52489cf838be9eb934546f0fabacc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760849"
 ---
 # <a name="iwmpnetworksourceprotocol-property"></a>IWMPNetwork :: sourceProtocol, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property sourceProtocol As System.String
 
 **System. String** qui est le nom du protocole source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété obtient une chaîne de longueur nulle ("") lors de la diffusion d’un CD ou d’un DVD.
 

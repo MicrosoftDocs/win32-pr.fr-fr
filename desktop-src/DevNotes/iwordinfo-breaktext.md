@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msir3jp.dll
-ms.openlocfilehash: f6f71e92137490d56c93d9443506c2d7ffa2688a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4cb4e4b27b52a4fb22a65f382a20c51a43ca5c77feb14828a7ea252e75c3b0f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749739"
 ---
 # <a name="iwordinfobreaktext-method"></a>IWordInfo :: BreakText, méthode
 
-\[Cette méthode est obsolète et n’est pas prise en charge sur Windows Vista.\]
+\[cette méthode est obsolète et n’est pas prise en charge sur Windows Vista.\]
 
 Analyse le texte pour identifier les mots et fournit les résultats à l’objet [WordSink](/previous-versions//ms691570(v=vs.85)) .
 
@@ -90,7 +90,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le membre **pfnFillTextBuffer** de la structure de la **\_ source de texte** pour réapprovisionner le texte source. Cette méthode doit gérer toutes les valeurs de retour de la fonction de rappel **pfnFillTextBuffer** . Si une erreur se produit, terminez le traitement du texte dans la mémoire tampon avant de gérer l’erreur.
 
@@ -100,8 +100,8 @@ Utilisez le membre **pfnFillTextBuffer** de la structure de la **\_ source de te
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                         |
 | DLL<br/>                      | <dl> <dt>Msir3jp.dll</dt> </dl> |

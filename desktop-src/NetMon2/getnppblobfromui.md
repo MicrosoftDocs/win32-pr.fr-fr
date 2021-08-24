@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 4ff3887f10d35ec3b66d8eaaf1443140c768ca55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3b88c369145d53d32d23773072f878d9834110e705cd8ff623a3726cbb98b88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743879"
 ---
 # <a name="getnppblobfromui-function"></a>GetNPPBlobFromUI fonction)
 
@@ -70,7 +70,7 @@ Si l’utilisateur ne sélectionne pas une carte réseau, la valeur de retour es
 
 Si la fonction échoue, la valeur de retour est une autre valeur NMERR.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand elle est appelée, Moniteur réseau affiche la boîte de dialogue **Sélectionner un réseau** , que vous pouvez utiliser pour sélectionner une carte réseau. L’objet BLOB NPP qui représente la carte réseau est renvoyé à l’application appelante.
 

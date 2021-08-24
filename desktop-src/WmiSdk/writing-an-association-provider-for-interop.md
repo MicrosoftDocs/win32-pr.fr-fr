@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Écriture d’un fournisseur d’association pour l’interopérabilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f38f09a5c5771fe7fd04909f8247834b646ad1
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: b2d45ceebf9f3465bf9485f4105d9ea2e4438a25c9d169193a8b68c19669b51b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106528585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794269"
 ---
 # <a name="writing-an-association-provider-for-interop"></a>Écriture d’un fournisseur d’association pour l’interopérabilité
 
@@ -18,7 +18,7 @@ Un fournisseur d’associations fournit un mécanisme permettant d’inscrire de
 
 Les fournisseurs d’associations sont utilisés pour exposer des profils standard, comme un profil d’alimentation. Pour ce faire, vous devez écrire un fournisseur d’association dans l’espace de noms racine/Interop qui expose des instances d’association en implémentant une classe dérivée de [**CIM \_ RegisteredProfile**](/previous-versions//ee309375(v=vs.85)). Le fournisseur doit être inscrit à la fois dans la racine/l’interopérabilité et dans la racine/l' <implemented> espace de noms pour prendre en charge la traversée d’espaces de noms croisés.
 
-Windows Management Instrumentation (WMI) charge le fournisseur d’associations chaque fois qu’une requête d’association est exécutée dans l’espace de noms racine/Interop.
+Windows WMI (Management Instrumentation) charge le fournisseur d’associations chaque fois qu’une requête d’association est exécutée dans l’espace de noms racine/Interop.
 
 **Pour implémenter un fournisseur d’association pour l’interopérabilité**
 
@@ -49,7 +49,7 @@ Windows Management Instrumentation (WMI) charge le fournisseur d’associations 
     ```
 
     > [!Note]  
-    > Pour les clients Windows, la propriété **RegisteredOrganization** doit avoir la valeur 1 et la propriété **OtherRegisteredOrganization** définie sur « Microsoft ».
+    > pour les clients Windows, la propriété **RegisteredOrganization** doit avoir la valeur 1 et la propriété **OtherRegisteredOrganization** définie sur « Microsoft ».
 
      
 
@@ -81,7 +81,7 @@ Windows Management Instrumentation (WMI) charge le fournisseur d’associations 
         };
         ```
 
-        Si le **qualificateur \_ targetNamespace de msft** n’est pas spécifié sur la propriété qui fait référence à l’espace de noms implémenté, le filtre **ResultClass** de l’instruction « associateurs de » ne fonctionnera pas. Par exemple, si le **qualificateur \_ targetNamespace msft** n’est pas spécifié, la ligne de commande Windows PowerShell suivante ne retourne pas d’objet : **obtenir-WmiObject-query "ASSOCIATORS of {ProcessProfile. InstanceId = 'Process'} WHERE ResultClass = 'Win32 \_ Process'**.
+        Si le **qualificateur \_ targetNamespace de msft** n’est pas spécifié sur la propriété qui fait référence à l’espace de noms implémenté, le filtre **ResultClass** de l’instruction « associateurs de » ne fonctionnera pas. par exemple, si le **qualificateur \_ TargetNamespace de MSFT** n’est pas spécifié, la ligne de commande Windows PowerShell suivante ne retourne pas d’objet : **obtenir-wmiobject-query "associators of {ProcessProfile. InstanceID = 'process'} where resultclass = 'Win32 \_ Process'**.
 
         Le **qualificateur \_ targetNamespace de msft** ne peut pas pointer vers un espace de noms sur un ordinateur distant. Par exemple, l’espace de noms suivant n’est pas pris en charge : msft \_ targetNamespace ( \\ \\ \\ \\ <RemoteMachine> \\ \\ \\ \\ Interop racine).
 
@@ -131,7 +131,7 @@ Windows Management Instrumentation (WMI) charge le fournisseur d’associations 
     };
     ```
 
-4.  Placez le schéma pour le [**\_ ElementConformsToProfile CIM**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) dans l’espace de noms implémenté. Pour les clients Windows, il s’agit du fichier Interop. MOF qui se trouve dans le dossier% SystemRoot% \\ system32 \\ WBEM.
+4.  Placez le schéma pour le [**\_ ElementConformsToProfile CIM**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) dans l’espace de noms implémenté. pour Windows clients, il s’agit du fichier interop. mof qui se trouve dans le dossier% systemroot% \\ system32 \\ wbem.
 5.  Implémentez l’interface [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) pour votre fournisseur.
 
     WMI utilise [**IWbemProviderInit**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) pour charger et initialiser un fournisseur. La méthode [**IWbemProviderInit.Initialize**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize) doit être implémentée d’une manière qui lui permet d’être appelée pour deux espaces de noms différents. Pour plus d’informations, consultez [initialisation d’un fournisseur](initializing-a-provider.md).

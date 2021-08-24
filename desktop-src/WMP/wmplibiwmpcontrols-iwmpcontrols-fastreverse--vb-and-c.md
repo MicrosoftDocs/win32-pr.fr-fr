@@ -3,9 +3,9 @@ title: Méthode IWMPControls fastReverse
 description: La méthode fastReverse démarre la lecture rapide de l’élément multimédia dans le sens inverse.
 ms.assetid: 5c872e8d-2ffc-425f-a4dd-938ddd1426e0
 keywords:
-- méthode fastReverse lecteur Windows Media
-- méthode fastReverse lecteur Windows Media, interface IWMPControls
-- Interface IWMPControls lecteur Windows Media, méthode fastReverse
+- Lecteur Windows Media de la méthode fastReverse
+- méthode fastReverse Lecteur Windows Media, interface IWMPControls
+- Lecteur Windows Media de l’interface IWMPControls, méthode fastReverse
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7061481aea13b0ed83c3a3d0eb47ca24b940358b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 88bbc1442ca223765b498560d078879c9a7033011117b7f663d4d40ff26bdd93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761079"
 ---
 # <a name="iwmpcontrolsfastreverse-method"></a>IWMPControls :: fastReverse, méthode
 
@@ -53,11 +53,11 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La méthode **fastReverse** analyse le clip en sens inverse à cinq fois la vitesse normale, en affichant uniquement les images clés s’il s’agit d’un fichier vidéo. L’appel de **fastReverse** équivaut à spécifier-5,0 pour le taux en définissant la propriété **IWMPSettings. rate** . Si la fréquence est modifiée par la suite, ou si **IWMPControls. Play** ou **IWMPControls. Stop** est appelé, le lecteur Windows Media arrête rapidement l’opération inverse.
+La méthode **fastReverse** analyse le clip en sens inverse à cinq fois la vitesse normale, en affichant uniquement les images clés s’il s’agit d’un fichier vidéo. L’appel de **fastReverse** équivaut à spécifier-5,0 pour le taux en définissant la propriété **IWMPSettings. rate** . si la fréquence est modifiée par la suite, ou si **IWMPControls. play** ou **IWMPControls. stop** est appelé, Lecteur Windows Media cessera de tourner rapidement.
 
-Si l’élément fait partie d’une sélection, **fastReverse** s’arrête au début de la piste actuelle. Par exemple, si Track 3 se trouve dans **fastReverse**, lorsque le début de la piste 3 est atteint, le lecteur Windows Media ne passe pas à Track 2. Le nombre de lecture n’est pas incrémenté lors de l’appel de **fastReverse**.
+Si l’élément fait partie d’une sélection, **fastReverse** s’arrête au début de la piste actuelle. par exemple, si la piste 3 se trouve dans **fastReverse**, lorsque le début de la piste 3 est atteint, Lecteur Windows Media n’accède pas à track 2. Le nombre de lecture n’est pas incrémenté lors de l’appel de **fastReverse**.
 
 Si vous appelez **IWMPControls. fastForward** alors que **fastReverse** est en cours d’exécution, **fastReverse** sera arrêté et **IWMPControls. fastForward** démarrera.
 
@@ -131,10 +131,10 @@ End Sub
 [**IWMPControls. isAvailable (VB et C#)**](iwmpcontrols-isavailable--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls. Play (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
+[**IWMPControls. play (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls. Stop (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
+[**IWMPControls. stop (VB et C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPSettings. rate (VB et C#)**](wmplibiwmpsettings-iwmpsettings-rate--vb-and-c.md)

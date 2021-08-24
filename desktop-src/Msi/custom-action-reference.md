@@ -4,12 +4,12 @@ ms.assetid: f4815190-4900-4129-83e2-8b05302a88ca
 title: Référence des actions personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0ceb6d3c12385800997ef293792355ae23e0aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b8f607c45b0b94a7e55ffc521cbd05b5a61ccc91da5ddce2fbee06ba615579a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745749"
 ---
 # <a name="custom-action-reference"></a>Référence des actions personnalisées
 
@@ -22,7 +22,7 @@ Les sections suivantes contiennent des informations sur les actions personnalis�
 -   [Option de désinstallation corrective de l’action personnalisée](custom-action-patch-uninstall-option.md)
 -   [Options de traitement des retours d’actions personnalisées](custom-action-return-processing-options.md)
 -   [Valeurs de retour de l’action personnalisée](custom-action-return-values.md)
--   [Valeurs de retour des actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md)
+-   [valeurs de retour des Actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

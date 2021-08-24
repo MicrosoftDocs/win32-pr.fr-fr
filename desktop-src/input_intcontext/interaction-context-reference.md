@@ -12,12 +12,12 @@ keywords:
 - stylet
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: b4c1be73e57549cb99b31a98f7bf132cfa3d667c
-ms.sourcegitcommit: 6b8d5058d02daacad4d2ed7830da63b63a509586
+ms.openlocfilehash: ce3d21b6f0ae5be8318361e8685d1ea918d5963a2ff82c2ae39f1d550f7f4e1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "104101209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717479"
 ---
 # <a name="interaction-context-reference"></a>Référence du contexte d’interaction
 

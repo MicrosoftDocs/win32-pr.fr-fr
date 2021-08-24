@@ -1,5 +1,5 @@
 ---
-description: Par le biais du modèle de script WIA, la fonctionnalité d’acquisition d’images Windows (WIA) est disponible dans des langages de script tels que Microsoft JScript Development Software et Microsoft Visual Basic Scripting Edition (VBScript), ainsi que des langages de haut niveau tels que Microsoft Visual Basic Development System.
+description: par le biais du modèle de script wia, les fonctionnalités wia (Windows Image Acquisition) sont disponibles dans des langages de script tels que microsoft JScript development software et microsoft Visual Basic scripting Edition (VBScript), ainsi que des langages de haut niveau tels que microsoft Visual Basic development system.
 ms.assetid: eec5dc91-7b32-4f38-bdfe-c11bddc17ba2
 title: Utilisation du modèle de script WIA
 ms.topic: article
@@ -9,19 +9,19 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: affa2c4368a83b2d67c1c6219b76040ba043a1f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a8b694b35f5b486d3a9d65dfc99f513bf14c8689d1d86fba03c019991e2fcc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813650"
 ---
 # <a name="using-the-wia-scripting-model"></a>Utilisation du modèle de script WIA
 
-Par le biais du [modèle de script WIA](-wia-wia-scripting-model.md), la fonctionnalité d’acquisition d’images Windows (WIA) est disponible dans des langages de script tels que Microsoft JScript Development Software et Microsoft Visual Basic Scripting Edition (VBScript), ainsi que des langages de haut niveau tels que Microsoft Visual Basic Development System.
+par le biais du [modèle de script wia](-wia-wia-scripting-model.md), les fonctionnalités wia (Windows Image Acquisition) sont disponibles dans des langages de script tels que microsoft JScript development software et microsoft Visual Basic scripting Edition (VBScript), ainsi que des langages de haut niveau tels que microsoft Visual Basic development system.
 
 > [!Note]  
-> Ce système de script a été remplacé par la couche d’automatisation de l’acquisition d’images Windows (WIA). Voir [couche d’automatisation de l’acquisition d’image Windows](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
+> ce système de script a été remplacé par la couche d’automatisation d’acquisition d’images Windows (WIA). consultez [Windows couche automatisation](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)de l’Acquisition d’images.
 
  
 

@@ -4,12 +4,12 @@ description: Cette section contient des rubriques de référence pour l’en-tê
 ms.assetid: 33120a4c-07ec-4d04-92a2-f2f7a4fe9960
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43245b080fdd0b337373298bacf7d32835dbab87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ea95a1e6ec93cf54bfffc87f7160bb3950038a8eb71f339d6ccbbbffd1be1efb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853839"
 ---
 # <a name="cfgh"></a>Cfg. h
 

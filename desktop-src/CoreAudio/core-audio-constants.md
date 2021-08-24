@@ -4,16 +4,16 @@ ms.assetid: 9dc9f182-3adf-4171-8829-35debae123da
 title: Constantes audio principales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95dee529997a668f3bbea1ad446ec88c33f3d431
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 09e0605a223b334b2f4545bc5e8065aed8f77544c7d9aa9eb48bc61ef2197f4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834119"
 ---
 # <a name="core-audio-constants"></a>Constantes audio principales
 
-Cette section décrit les constantes utilisées par les API audio de base dans Windows Vista et versions ultérieures.
+cette section décrit les constantes utilisées par les api Audio de base dans Windows Vista et versions ultérieures.
 
 | Constante                                                                            | Description                                                                         |
 |-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|

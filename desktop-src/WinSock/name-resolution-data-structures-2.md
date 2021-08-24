@@ -1,15 +1,15 @@
 ---
-description: Structures de données de résolution de noms dans Windows Sockets (Winsock).
+description: les structures de données de résolution de noms dans Windows sockets (Winsock).
 ms.assetid: 87c54141-41e2-4eaa-ae3b-84598e8281d9
 title: Structures de données de résolution de noms
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf1f76607ade81503a1057dc21890ac38d5ec265
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93e6f3b889d295241bb0cdb9c0182babf0c5b8115e7eff7e86c27b65c992c452
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794789"
 ---
 # <a name="name-resolution-data-structures"></a>Structures de données de résolution de noms
 

@@ -5,8 +5,8 @@ ms.assetid: dba2448a-4f72-4000-8687-4c1be812fc3b
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode SessionFlagUseDigest
-- Méthode SessionFlagUseDigest Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode SessionFlagUseDigest
+- méthode SessionFlagUseDigest Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode SessionFlagUseDigest
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4018428123443836c4f433f3e82f03a93ee9b766
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 888eec55e2c2ec4efc4613c9fa2bdda2713bcfd1761918f00d29816fb6bf43b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795109"
 ---
 # <a name="wsmansessionflagusedigest-method"></a>Méthode WSMan. SessionFlagUseDigest
 
@@ -78,7 +78,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 [**WSMan**](wsman.md)
 </dt> <dt>
 
-[**session**](session.md)
+[**Session**](session.md)
 </dt> </dl>
 
  
