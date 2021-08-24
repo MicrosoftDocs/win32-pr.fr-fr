@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: edfbf2ec9772fa710df5fc0d024abfcad6d826d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b2cbc70b6139d3b9fd12d1bedcf2400c3aa0c612844c04aa37959038a157b3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520759"
 ---
 # <a name="msvm_resourcetypedefinition-class"></a>MSVM \_ ResourceTypeDefinition, classe
 
@@ -177,7 +177,7 @@ Type de ressource représenté par ce paramètre d’allocation. Il existe une c
 <span id="Graphics_controller"></span><span id="graphics_controller"></span><span id="GRAPHICS_CONTROLLER"></span>**Contrôleur Graphics** (20)
 </dt> <dt>
 
-<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**Extension de stockage** (21)
+<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**étendue du Stockage** (21)
 </dt> <dt>
 
 <span id="Disk"></span><span id="disk"></span><span id="DISK"></span>**Disque** (22)
@@ -225,7 +225,7 @@ Nom de la classe dérivée de [**CIM \_ ResourceAllocationSettingData**](/previo
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ ResourceTypeDefinition** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -235,8 +235,8 @@ L’accès à la classe **MSVM \_ ResourceTypeDefinition** peut être limité pa
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Fin de la prise en charge des clients<br/>    | Windows 8.1<br/>                                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |

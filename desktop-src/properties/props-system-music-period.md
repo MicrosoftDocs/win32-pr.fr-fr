@@ -1,17 +1,17 @@
 ---
-description: System. Music. period
+description: Requise. Musique. Heures
 ms.assetid: 141ea422-d844-4e1c-9ef5-3b5ff27024f7
-title: System. Music. period
+title: Requise. Musique. Heures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c5a1a61e7f6477c97ce71f84bc1a470e726c84a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 948e9317b4c02ebcf23077118e47f2928d664964016d82e0aeaddf7f39cb3471
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553579"
 ---
-# <a name="systemmusicperiod"></a>System. Music. period
+# <a name="systemmusicperiod"></a>Requise. Musique. Heures
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

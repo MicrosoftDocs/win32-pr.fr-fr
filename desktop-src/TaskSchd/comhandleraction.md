@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d7e8371deda260c407682181fd31e29886b777
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7dd803d67d292df22e651e4393880038835c862e0e81dde19e0d0a7e15fccd32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659679"
 ---
 # <a name="comhandleraction-object"></a>Objet ComHandlerAction
 
@@ -44,13 +44,13 @@ L’objet **ComHandlerAction** a ces propriétés.
 | [**ClassId**](comhandleraction-classid.md)<br/> | Lecture/écriture<br/> | Obtient ou définit l’identificateur de la classe de gestionnaire.<br/>                                              |
 | [**Données**](comhandleraction-data.md)<br/>       | Lecture/écriture<br/> | Obtient ou définit les données supplémentaires associées au gestionnaire.<br/>                              |
 | [**Identifi**](action-id.md)<br/>                     | Lecture/écriture<br/> | Hérité de l’objet d' [**action**](action.md) . Obtient ou définit l’identificateur de l’action.<br/> |
-| [**Entrer**](action-type.md)<br/>                 | Lecture seule<br/>  | Hérité de l’objet d' [**action**](action.md) . Obtient le type d'action.<br/>               |
+| [**Type**](action-type.md)<br/>                 | Lecture seule<br/>  | Hérité de l’objet d' [**action**](action.md) . Obtient le type d'action.<br/>               |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les gestionnaires COM doivent implémenter l’interface [**ITaskHandler**](/windows/desktop/api/taskschd/nn-taskschd-itaskhandler) pour que le planificateur de tâches démarre et arrête le gestionnaire. En retour, le gestionnaire COM utilise les méthodes de l’objet [**TaskHandlerStatus**](/windows/desktop/api/taskschd/nn-taskschd-itaskhandlerstatus) pour communiquer l’état au planificateur de tâches.
 
@@ -62,8 +62,8 @@ Lors de la lecture ou [**de l’écriture**](taskschedulerschema-comhandler-acti
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

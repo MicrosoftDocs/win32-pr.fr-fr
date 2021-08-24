@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c57fbeee49ddf0c734212bc91926e5c848a9e8d1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 13251682e006f493fe0caa04aa5dab03bb602e62f2bea0774295c878beb6d549
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582709"
 ---
 # <a name="msmq-recipient-formatname-attribute"></a>Attribut MSMQ-Recipient-FormatName
 
@@ -44,7 +44,7 @@ Utilisé comme nom de format de destinataire dans la classe MSMQ-Custom-Recipien
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

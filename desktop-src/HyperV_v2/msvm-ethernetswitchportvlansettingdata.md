@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6fce6416696a99e5d928b774e2ba2a05b1dc21d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c4d9c3c3101cb7593f54e8624a2d7e316cb27378b0ad504cdf8364b03020efb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523769"
 ---
 # <a name="msvm_ethernetswitchportvlansettingdata-class"></a>MSVM \_ EthernetSwitchPortVlanSettingData, classe
 
@@ -98,7 +98,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Brève description de l’objet. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres du réseau local virtuel du port commuté ».
+Brève description de l’objet. cette propriété est héritée de [**CIM \_ propriété managedelement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « Ethernet Switch Port VLAN Paramètres ».
 
 </dd> <dt>
 
@@ -124,7 +124,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Nom complet de l’objet. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres du réseau local virtuel du port commuté ».
+Nom complet de l’objet. cette propriété est héritée de [**CIM \_ propriété managedelement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « Ethernet Switch Port VLAN Paramètres ».
 
 </dd> <dt>
 
@@ -256,7 +256,7 @@ Spécifie le mode de réseau local virtuel privé.
 
 <span id="Community"></span><span id="community"></span><span id="COMMUNITY"></span>
 
-**Communauté** (2)
+**Community** (2)
 
 
 </dt> <dd></dd> <dt>
@@ -324,8 +324,8 @@ Spécifie l’image bitmap de l’identificateur VLAN Trunk en mode Trunk.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

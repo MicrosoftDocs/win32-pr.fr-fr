@@ -4,12 +4,12 @@ ms.assetid: 089c0645-199b-4a90-9cbc-740f0cf3267d
 title: Message WM_DESTROY (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1db195c22c38759146fb76e98edf4ca7f605a1c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7acff03f01e9bf0c8021f8324411f646341a29a5b3b6dc1f9b3493ec89010c1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587449"
 ---
 # <a name="wm_destroy-message"></a>\_Message de destruction WM
 
@@ -50,7 +50,7 @@ Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la fenêtre en cours de destruction fait partie de la chaîne du presse-papiers (définie en appelant la fonction [**SetClipboardViewer**](/windows/win32/api/winuser/nf-winuser-setclipboardviewer) ), la fenêtre doit se supprimer de la chaîne en traitant la fonction [**ChangeClipboardChain**](/windows/win32/api/winuser/nf-winuser-changeclipboardchain) avant de retourner le message de **\_ destruction WM** .
 

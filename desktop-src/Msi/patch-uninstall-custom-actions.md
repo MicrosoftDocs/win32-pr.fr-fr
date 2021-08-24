@@ -4,12 +4,12 @@ ms.assetid: c741aa40-ba4c-459e-936a-19c002620c30
 title: Actions personnalisées de désinstallation des correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90cfffbdb37f1f2fab046b794010a790e9a5212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f69077337b80177984ff43f12038edb1daa48215f92c627f4ed22ea2f69c876b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145422"
 ---
 # <a name="patch-uninstall-custom-actions"></a>Actions personnalisées de désinstallation des correctifs
 
@@ -23,7 +23,7 @@ L' [option de désinstallation corrective de l’action personnalisée](custom-a
 
 Pour qu’une [action personnalisée](custom-actions.md) s’exécute lors de la désinstallation d’un correctif particulier, l’action personnalisée doit être présente dans l’application d’origine ou être dans un correctif pour le produit qui est toujours appliqué.
 
-Les développeurs peuvent utiliser la propriété [**MsiPatchRemovalList**](msipatchremovallist.md) pour créer un package Windows Installer ou un correctif qui effectue des [actions personnalisées](custom-actions.md) sur la suppression d’un correctif. L’action personnalisée peut être créée dans le package d’installation d’origine, un correctif qui a déjà été appliqué au package ou un correctif logiciel qui ne peut pas être [installé](uninstallable-patches.md). L’action personnalisée peut être conditionnée sur la propriété **MsiPatchRemovalList** dans les tables de séquence. Pour plus d’informations sur l’inconditionnel des actions, consultez [utilisation des propriétés dans les instructions conditionnelles](using-properties-in-conditional-statements.md) .
+les développeurs peuvent utiliser la propriété [**MsiPatchRemovalList**](msipatchremovallist.md) pour créer un package Windows Installer ou un correctif qui effectue des [actions personnalisées](custom-actions.md) sur la suppression d’un correctif. L’action personnalisée peut être créée dans le package d’installation d’origine, un correctif qui a déjà été appliqué au package ou un correctif logiciel qui ne peut pas être [installé](uninstallable-patches.md). L’action personnalisée peut être conditionnée sur la propriété **MsiPatchRemovalList** dans les tables de séquence. Pour plus d’informations sur l’inconditionnel des actions, consultez [utilisation des propriétés dans les instructions conditionnelles](using-properties-in-conditional-statements.md) .
 
 L’action personnalisée peut obtenir les GUID des correctifs qui sont supprimés de la valeur de la propriété [**MsiPatchRemovalList**](msipatchremovallist.md) . L’action personnalisée peut déterminer si l’état d’installation du correctif est appliqué, obsolète ou remplacé en appelant la propriété [**MsiGetPatchInfoEx**](/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa) ou [**PatchProperty**](patch-patchproperty.md) de l' [objet patch](patch-object.md).
 

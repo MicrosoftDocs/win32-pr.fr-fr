@@ -1,25 +1,25 @@
 ---
 description: Ce didacticiel montre comment prendre une application monolingue et la rendre prête pour le monde. Cette application se présente sous la forme d’une solution complète générée dans Microsoft Visual Studio.
 ms.assetid: 6d71aa90-8444-4f30-a2f8-f1a2aab015b0
-title: Ajout de la prise en charge de l’interface utilisateur multilingue à une application
+title: ajout de la prise en charge de interface utilisateur multilingue à une Application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 192d9053513a7fe915990c80deb32ffdb9114910
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f5ca1ddba2574610cde1f375f7fab2b07461008665f2092c9c8e88ae9b51f96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147692"
 ---
-# <a name="adding-multilingual-user-interface-support-to-an-application"></a>Ajout de la prise en charge de l’interface utilisateur multilingue à une application
+# <a name="adding-multilingual-user-interface-support-to-an-application"></a>ajout de la prise en charge de interface utilisateur multilingue à une Application
 
 Ce didacticiel montre comment prendre une application monolingue et la rendre prête pour le monde. Cette application se présente sous la forme d’une solution complète générée dans Microsoft Visual Studio.
 
--   [Vue d’ensemble](#splitting-the-various-language-resource-modules-an-overview)
+-   [Vue d'ensemble](#splitting-the-various-language-resource-modules-an-overview)
     -   [L’idée derrière le MUI Hello](#the-idea-behind-hello-mui)
 -   [Configuration de la solution Hello MUI](#setting-up-the-hello-mui-solution)
     -   [Configuration requise pour la plateforme](#platform-requirements)
-    -   [Conditions préalables](#prerequisites)
+    -   [Composants requis](#prerequisites)
 -   [Étape 0 : création de l’interface MUI Hello codée en dur](#step-0-creating-the-hard-coded-hello-mui)
 -   [Étape 1 : implémentation du module de ressources de base](#step-1-implementing-the-basic-resource-module)
 -   [Étape 2 : génération du module de ressources de base](#step-2-building-the-basic-resource-module)
@@ -31,17 +31,17 @@ Ce didacticiel montre comment prendre une application monolingue et la rendre pr
 -   [Considérations supplémentaires pour MUI](#additional-considerations-for-mui)
     -   [Prise en charge des applications console](#support-for-console-applications)
     -   [Détermination des langues à prendre en charge au moment de l’exécution](#determination-of-languages-to-support-at-run-time)
-    -   [Prise en charge des scripts complexes dans les versions antérieures à Windows Vista](#complex-script-support-in-versions-prior-to-windows-vista)
+    -   [prise en charge des scripts complexes dans les Versions antérieures à Windows Vista](#complex-script-support-in-versions-prior-to-windows-vista)
 -   [Résumé](#summary)
 
 ## <a name="overview"></a>Vue d’ensemble
 
-À partir de Windows Vista, le système d’exploitation Windows lui-même a été créé dès le départ pour être une plateforme multilingue, avec une prise en charge supplémentaire qui vous permet de créer des applications multilingues qui utilisent le modèle de ressource MUI Windows.
+à partir de Windows Vista, le système d’exploitation Windows lui-même a été créé dès le départ pour être une plateforme multilingue, avec une prise en charge supplémentaire qui vous permet de créer des applications multilingues qui utilisent le modèle de ressource MUI Windows.
 
 Ce didacticiel illustre cette nouvelle prise en charge des applications multilingues en couvrant les aspects suivants :
 
 -   Utilise la prise en charge améliorée de la plateforme MUI pour activer facilement les applications multilingues.
--   Étend les applications multilingues pour qu’elles s’exécutent sur des versions de Windows antérieures à Windows Vista.
+-   étend les applications multilingues pour qu’elles s’exécutent sur des versions de Windows antérieures à Windows Vista.
 -   Aborde les considérations supplémentaires impliquées dans le développement d’applications multilingues spécialisées, telles que les applications de console.
 
 Ces liens permettent d’actualiser rapidement les concepts relatifs à l’internationalisation et à l’interface MUI :
@@ -65,46 +65,46 @@ Ces étapes décrivent comment préparer la création de la solution de l’inte
 
 ### <a name="platform-requirements"></a>Conditions requises par la plateforme
 
-Vous devez compiler les exemples de code de ce didacticiel à l’aide du kit de développement logiciel (SDK) Windows pour Windows 7 et Visual Studio 2008. Le kit de développement logiciel (SDK) Windows 7 s’installe sur Windows XP, Windows Vista et Windows 7, et l’exemple de solution peut être basé sur n’importe laquelle de ces versions de système d’exploitation.
+vous devez compiler les exemples de code de ce didacticiel à l’aide du kit de développement logiciel (SDK) Windows pour Windows 7 et Visual Studio 2008. le kit de développement logiciel (SDK) Windows 7 s’installe sur Windows XP, Windows Vista et Windows 7, et l’exemple de solution peut être créé sur l’une de ces versions de système d’exploitation.
 
-Tous les exemples de code de ce didacticiel sont conçus pour être exécutés sur des versions x86 et x64 de Windows XP, Windows Vista et Windows 7. Les composants spécifiques qui ne fonctionnent pas sous Windows XP sont dénommés, le cas échéant.
+tous les exemples de code de ce didacticiel sont conçus pour être exécutés sur des versions x86 et x64 de Windows XP, Windows Vista et Windows 7. les composants spécifiques qui ne fonctionnent pas sur Windows XP sont dénommés, le cas échéant.
 
 ### <a name="prerequisites"></a>Prérequis
 
-1.  Installez Visual Studio 2008.
+1.  installez Visual Studio 2008.
 
-    Pour plus d’informations, consultez le [Centre de développement Visual Studio](https://msdn.microsoft.com/vstudio/default.aspx).
+    pour plus d’informations, consultez le [centre de développement Visual Studio](https://msdn.microsoft.com/vstudio/default.aspx).
 
-2.  Installez le SDK Windows pour Windows 7.
+2.  installez le SDK Windows pour Windows 7.
 
-    Vous pouvez l’installer à partir de la page SDK Windows du [Centre de développement Windows](https://msdn.microsoft.com/windowsserver/bb980924.aspx). Le kit de développement logiciel (SDK) comprend des utilitaires permettant de développer des applications pour les versions de système d’exploitation à partir de Windows XP via le plus récent.
+    vous pouvez l’installer à partir de la page SDK Windows du [centre de développement Windows](https://msdn.microsoft.com/windowsserver/bb980924.aspx). le kit de développement logiciel (SDK) comprend des utilitaires permettant de développer des applications pour les versions de système d’exploitation à partir de Windows XP jusqu’au plus récent.
 
     > [!Note]  
     > Si vous n’installez pas le package à l’emplacement par défaut, ou si vous n’effectuez pas l’installation sur le lecteur système, qui est généralement le lecteur C, notez le chemin d’installation.
 
      
 
-3.  Configurez les paramètres de ligne de commande de Visual Studio.
+3.  configurez les paramètres de ligne de commande Visual Studio.
 
-    1.  Ouvrez une fenêtre de commande Visual Studio.
+    1.  ouvrez une fenêtre de commande Visual Studio.
     2.  Tapez **set path**.
-    3.  Vérifiez que la variable PATH contient le chemin d’accès du dossier bin du kit de développement logiciel (SDK) Windows 7 :... \\ \\ Emplacement Windows v 7.0 des kits de développement logiciel Microsoft \\
+    3.  vérifiez que la variable path contient le chemin d’accès du dossier bin du kit de développement logiciel (SDK) Windows 7 :... emplacement des kits de développement logiciel (sdk) Microsoft \\ Windows \\ v 7.0 \\
 
 4.  Installez le package du module complémentaire API de niveau inférieur de Microsoft NLS.
     > [!Note]  
-    > Dans le cadre de ce didacticiel, ce package est nécessaire uniquement si vous souhaitez personnaliser l’application pour qu’elle s’exécute sur des versions de Windows antérieures à Windows Vista. Consultez [étape 5 : personnalisation de Hello MUI](#step-5-customizing-hello-mui).
+    > dans le cadre de ce didacticiel, ce package est nécessaire uniquement si vous souhaitez personnaliser l’application pour qu’elle s’exécute sur des versions de Windows antérieures à Windows Vista. Consultez [étape 5 : personnalisation de Hello MUI](#step-5-customizing-hello-mui).
 
      
 
     1.  Téléchargez et installez le package à partir de son [site de téléchargement](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en).
-    2.  Comme pour la SDK Windows, si vous n’installez pas le package à l’emplacement par défaut, ou si vous n’installez pas sur le lecteur système, qui est généralement le lecteur C, notez le chemin d’installation.
-    3.  Si votre plateforme de développement est Windows XP ou Windows Server 2003, vérifiez que Nlsdl.dll est installé et inscrit correctement.
+    2.  comme pour la SDK Windows, si vous n’installez pas le package à l’emplacement par défaut, ou si vous n’installez pas sur le lecteur système, qui est généralement le lecteur C, notez le chemin d’installation.
+    3.  si votre plateforme de développement est Windows XP ou Windows Server 2003, vérifiez que Nlsdl.dll est installé et inscrit correctement.
 
         1.  Accédez au dossier « Redist » sous l’emplacement du chemin d’installation.
-        2.  Exécutez le nlsdl redistribuable approprié. \* . exe, par exemple nlsdl.x86.exe. Cette étape installe et inscrit Nlsdl.dll.
+        2.  Exécutez le nlsdl redistribuable approprié. \*.exe, comme nlsdl.x86.exe. Cette étape installe et inscrit Nlsdl.dll.
 
     > [!Note]  
-    > Si vous développez une application qui utilise MUI et qui doit s’exécuter sur des versions de Windows antérieures à Windows Vista, Nlsdl.dll doit être présent sur la plateforme Windows de destination. Dans la plupart des cas, cela signifie que l’application doit transporter et installer le programme d’installation redistribuable nlsdl (et pas simplement copier Nlsdl.dll lui-même).
+    > si vous développez une application qui utilise MUI et qui doit s’exécuter sur Windows versions antérieures à Windows Vista, Nlsdl.dll doit être présent sur la plateforme de Windows de destination. Dans la plupart des cas, cela signifie que l’application doit transporter et installer le programme d’installation redistribuable nlsdl (et pas simplement copier Nlsdl.dll lui-même).
 
      
 
@@ -114,14 +114,14 @@ Ce didacticiel commence par la version monolingue de l’application Hello MUI. 
 
 Commencez par créer l’application GuiStep \_ 0 initiale, ainsi que la solution HelloMUI, qui contient toutes les applications de ce didacticiel.
 
-1.  Dans Visual Studio 2008, créez un nouveau projet. Utilisez les paramètres et valeurs suivants :
+1.  dans Visual Studio 2008, créez un nouveau projet. Utilisez les paramètres et valeurs suivants :
 
-    1.  Type de projet : sous Visual C++ sélectionnez Win32, puis sous modèles Visual Studio installés, sélectionnez projet Win32.
+    1.  Project type : sous Visual C++ sélectionnez win32, puis sous Visual Studio modèles installés, sélectionnez Project win32.
     2.  Nom : GuiStep \_ 0.
     3.  Emplacement : *ProjectRootDirectory* (les étapes ultérieures font référence à ce répertoire).
     4.  Nom de la solution : HelloMUI.
     5.  Sélectionnez Créer le répertoire pour la solution.
-    6.  Dans l’Assistant application Win32, sélectionnez le type d’application par défaut : application Windows.
+    6.  dans l’assistant Application Win32, sélectionnez le type d’application par défaut : Windows application.
 
 2.  Configurez le modèle de thread de projet :
 
@@ -169,8 +169,8 @@ Pour construire un module de ressources Win32, commencez par créer une DLL avec
 
 1.  Ajoutez un nouveau projet à la solution HelloMUI :
 
-    1.  Dans le menu fichier, sélectionnez Ajouter, puis nouveau projet.
-    2.  Type de projet : projet Win32.
+    1.  Dans le menu fichier, sélectionnez Ajouter, puis nouveau Project.
+    2.  type de Project : Win32 Project.
     3.  Nom : HelloModule \_ en \_ US.
     4.  Emplacement : *ProjectRootDirectory* \\ HelloMUI.
     5.  Dans l’Assistant application Win32, sélectionnez type d’application : DLL.
@@ -215,7 +215,7 @@ Pour construire un module de ressources Win32, commencez par créer une DLL avec
     1.  Sous le projet HelloModule \_ \_ en US, cliquez avec le bouton droit sur le dossier fichiers de ressources, sélectionnez Ajouter, puis nouvel élément.
     2.  Dans la boîte de dialogue Ajouter un nouvel élément, choisissez ce qui suit :
 
-        1.  Catégories : sous Visual C++ sélectionnez ressource, puis sous « modèles Visual Studio installés », sélectionnez fichier de ressources (. RC).
+        1.  catégories : sous Visual C++ sélectionnez ressource, puis sous « modèles installés Visual Studio », sélectionnez fichier de ressources (. rc).
         2.  Nom : HelloModule.
         3.  Emplacement : acceptez la valeur par défaut.
         4.  Cliquez sur Ajouter.
@@ -295,9 +295,9 @@ Pour plus d’informations sur la syntaxe et la structure des fichiers. RC, cons
 
 En utilisant les modèles de ressource précédents, la génération de l’un des sept projets HelloModule entraînerait la création de sept dll distinctes. Chaque DLL contient une section de ressource avec une chaîne unique localisée dans la langue appropriée. Bien qu’il soit approprié pour le modèle de ressource Win32 historique, cette conception ne tire pas parti de MUI.
 
-Dans le kit de développement logiciel (SDK) Windows Vista et versions ultérieures, MUI offre la possibilité de fractionner les exécutables en code source et en modules de contenu localisables. Avec la personnalisation supplémentaire décrite plus loin à l’étape 5, les applications peuvent être activées pour que la prise en charge multilingue s’exécute sur les versions antérieures à Windows Vista.
+dans le kit de développement logiciel (SDK) Windows Vista et versions ultérieures, MUI offre la possibilité de fractionner les exécutables dans le code source et les modules de contenu localisables. avec la personnalisation supplémentaire qui est décrite plus loin à l’étape 5, les applications peuvent être activées pour que la prise en charge multilingue s’exécute sur les versions antérieures à Windows Vista.
 
-Les mécanismes principaux disponibles pour fractionner les ressources du code exécutable, à partir de Windows Vista, sont les suivants :
+les mécanismes principaux disponibles pour fractionner les ressources du code exécutable, en commençant par Windows Vista, sont les suivants :
 
 -   À l’aide de rc.exe (compilateur RC) avec des commutateurs spécifiques, ou
 -   À l’aide d’un outil de fractionnement de style après génération nommé muirct.exe.
@@ -434,7 +434,7 @@ Créez les fichiers pour la version Debug :
     
 
 3.  Copiez DoReverseMuiLoc. cmd et DoReverseMuiLoc. rcconfig sur *ProjectRootDirectory* \\ HelloMUI \\ Debug.
-4.  Ouvrez l’invite de commandes de Visual Studio 2008 et accédez au répertoire de débogage.
+4.  ouvrez l’invite de commandes Visual Studio 2008 et accédez au répertoire de débogage.
 5.  Exécutez DoReverseMuiLoc. cmd.
 
 Lorsque vous créez une version Release, vous copiez les mêmes fichiers DoReverseMuiLoc. cmd et DoReverseMuiLoc. rcconfig dans le répertoire de mise en version, puis vous exécutez le fichier de commandes.
@@ -443,16 +443,16 @@ Lorsque vous créez une version Release, vous copiez les mêmes fichiers DoRever
 
 En s’appuyant sur le0.exe GuiStep initial codé en dur \_ de l’exemple ci-dessus, vous pouviez étendre la portée de l’application à plusieurs utilisateurs de langage en choisissant d’incorporer le modèle de ressource Win32. Le nouveau code d’exécution présenté dans cette étape comprend la logique de chargement de module ([**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa)) et de récupération de chaîne ([**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa)).
 
-1.  Ajoutez un nouveau projet à la solution HelloMUI (à l’aide du fichier de sélection de menu, ajoutez et nouveau projet) avec les paramètres et valeurs suivants :
+1.  ajoutez un nouveau projet à la solution HelloMUI (en utilisant le fichier de sélection de menu, ajoutez et nouveau Project) avec les paramètres et valeurs suivants :
 
-    1.  Type de projet : projet Win32.
+    1.  type de Project : Win32 Project.
     2.  Nom : GuiStep \_ 1.
     3.  Emplacement : acceptez la valeur par défaut.
-    4.  Dans l’Assistant application Win32, sélectionnez le type d’application par défaut : application Windows.
+    4.  dans l’assistant Application Win32, sélectionnez le type d’application par défaut : Windows application.
 
-2.  Définissez ce projet pour qu’il s’exécute à partir de Visual Studio et configurez son modèle de thread :
+2.  définissez ce projet pour qu’il s’exécute à partir de Visual Studio et configurez son modèle de thread :
 
-    1.  Dans le Explorateur de solutions, cliquez avec le bouton droit sur le projet GuiStep \_ 1, puis sélectionnez Définir comme projet de démarrage.
+    1.  Dans le Explorateur de solutions, cliquez avec le bouton droit sur le projet GuiStep \_ 1, puis sélectionnez Définir comme Project de démarrage.
     2.  Cliquez à nouveau avec le bouton droit et sélectionnez Propriétés.
     3.  Dans la boîte de dialogue pages de propriétés du projet :
 
@@ -526,7 +526,7 @@ En s’appuyant sur le0.exe GuiStep initial codé en dur \_ de l’exemple ci-de
 
 ## <a name="step-4-globalizing-hello-mui"></a>Étape 4 : globalisation de « Hello MUI »
 
-Bien que l’exemple précédent soit en mesure d’afficher sa sortie dans différentes langues, il est très petit dans plusieurs domaines. Le plus notable est peut-être que l’application n’est disponible que dans un petit sous-ensemble de langues par rapport au système d’exploitation Windows lui-même. Si, par exemple, l' \_ application GuiStep 1 de l’étape précédente ont été installées sur une version japonaise de Windows, des échecs d’emplacement de ressource seraient probablement possibles.
+Bien que l’exemple précédent soit en mesure d’afficher sa sortie dans différentes langues, il est très petit dans plusieurs domaines. le plus notable est peut-être que l’application n’est disponible que dans un petit sous-ensemble de langues par rapport au système d’exploitation Windows lui-même. si, par exemple, l' \_ application GuiStep 1 de l’étape précédente ont été installées sur une version japonaise de Windows, les échecs d’emplacement de ressource sont probablement possibles.
 
 Pour résoudre ce problème, vous avez deux options principales :
 
@@ -537,18 +537,18 @@ Parmi ces options, celle qui fournit un langage de secours ultime est très reco
 
 L’autre option qui consiste à autoriser les préférences linguistiques configurables et à charger des ressources basées sur cette hiérarchie définie par l’utilisateur peut augmenter la satisfaction des clients. Malheureusement, cela complique également les fonctionnalités nécessaires au sein de l’application.
 
-Cette étape du didacticiel utilise un mécanisme de fichier texte simplifié pour activer la configuration linguistique personnalisée de l’utilisateur. Le fichier texte est analysé au moment de l’exécution par l’application, et la liste des langues analysées et validées est utilisée pour établir une liste de secours personnalisée. Une fois la liste de secours personnalisée établie, les API Windows chargent les ressources en fonction de la priorité de langue définie dans cette liste. Le reste du code est similaire à celui trouvé à l’étape précédente.
+Cette étape du didacticiel utilise un mécanisme de fichier texte simplifié pour activer la configuration linguistique personnalisée de l’utilisateur. Le fichier texte est analysé au moment de l’exécution par l’application, et la liste des langues analysées et validées est utilisée pour établir une liste de secours personnalisée. une fois la liste de secours personnalisée établie, les api Windows chargent les ressources en fonction de la priorité de langue définie dans cette liste. Le reste du code est similaire à celui trouvé à l’étape précédente.
 
-1.  Ajoutez un nouveau projet à la solution HelloMUI (à l’aide du fichier de sélection de menu, ajoutez et nouveau projet) avec les paramètres et valeurs suivants :
+1.  ajoutez un nouveau projet à la solution HelloMUI (en utilisant le fichier de sélection de menu, ajoutez et nouveau Project) avec les paramètres et valeurs suivants :
 
-    1.  Type de projet : projet Win32.
+    1.  type de Project : Win32 Project.
     2.  Nom : GuiStep \_ 2.
     3.  Emplacement : acceptez la valeur par défaut.
-    4.  Dans l’Assistant application Win32, sélectionnez le type d’application par défaut : application Windows.
+    4.  dans l’assistant Application Win32, sélectionnez le type d’application par défaut : Windows application.
 
-2.  Définissez ce projet pour qu’il s’exécute à partir de Visual Studio et configurez son modèle de thread :
+2.  définissez ce projet pour qu’il s’exécute à partir de Visual Studio et configurez son modèle de thread :
 
-    1.  Dans le Explorateur de solutions, cliquez avec le bouton droit sur le projet GuiStep \_ 2 et sélectionnez Définir comme projet de démarrage.
+    1.  Dans le Explorateur de solutions, cliquez avec le bouton droit sur le projet GuiStep \_ 2 et sélectionnez Définir comme Project de démarrage.
     2.  Cliquez à nouveau avec le bouton droit et sélectionnez Propriétés.
     3.  Dans la boîte de dialogue pages de propriétés du projet :
 
@@ -734,42 +734,42 @@ Cette étape du didacticiel utilise un mécanisme de fichier texte simplifié po
 
     Copiez langs.txt dans le répertoire à partir duquel le programme s’exécutera :
 
-    -   Si vous exécutez à partir de Visual Studio, copiez-le dans *ProjectRootDirectory* \\ HelloMUI \\ GuiStep \_ 2.
-    -   Si vous exécutez à partir de l’Explorateur Windows, copiez-le dans le même répertoire que GuiStep \_2.exe.
+    -   si vous exécutez à partir de Visual Studio, copiez-le dans *ProjectRootDirectory* \\ HelloMUI \\ GuiStep \_ 2.
+    -   si vous exécutez à partir de Windows Explorer, copiez-le dans le même répertoire que GuiStep \_2.exe.
 
 5.  Générez et exécutez le projet. Essayez de modifier langs.txt pour que différentes langues s’affichent au début de la liste.
 
 ## <a name="step-5-customizing-hello-mui"></a>Étape 5 : personnalisation de « Hello MUI »
 
-Un certain nombre de fonctionnalités d’exécution mentionnées jusqu’à présent dans ce didacticiel sont disponibles uniquement sur Windows Vista et versions ultérieures. Vous souhaiterez peut-être réutiliser les efforts investis dans la localisation et le fractionnement des ressources en faisant fonctionner l’application sur les versions de système d’exploitation Windows de niveau inférieur, telles que Windows XP. Ce processus implique l’ajustement de l’exemple précédent dans deux domaines clés :
+un certain nombre de fonctionnalités d’exécution mentionnées jusqu’à présent dans ce didacticiel sont disponibles uniquement sur Windows Vista et versions ultérieures. vous souhaiterez peut-être réutiliser les efforts investis dans la localisation et le fractionnement des ressources en rendant l’application opérationnelle sur les versions de système d’exploitation de bas niveau Windows, comme Windows XP. Ce processus implique l’ajustement de l’exemple précédent dans deux domaines clés :
 
--   Les fonctions de chargement des ressources antérieures à Windows Vista (telles que [**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa), [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadicona), [**LoadBitmap**](/windows/win32/api/winuser/nf-winuser-loadbitmapa), [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage), etc.) ne prennent pas en charge l’interface MUI. Les applications qui sont livrées avec des ressources fractionnées (fichiers LN et. MUI) doivent charger les modules de ressources à l’aide de l’une des deux fonctions suivantes :
+-   les fonctions de chargement des ressources de préWindows Vista (telles que [**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringa), [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadicona), [**LoadBitmap**](/windows/win32/api/winuser/nf-winuser-loadbitmapa), [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage), etc.) ne prennent pas en charge l’interface MUI. Les applications qui sont livrées avec des ressources fractionnées (fichiers LN et. MUI) doivent charger les modules de ressources à l’aide de l’une des deux fonctions suivantes :
 
-    -   Si l’application doit être exécutée uniquement sur Windows Vista et versions ultérieures, elle doit charger les modules de ressources avec [**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa).
-    -   Si l’application doit être exécutée sur des versions antérieures à Windows Vista, ainsi que sur Windows Vista ou version ultérieure, elle doit utiliser [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya), qui est une fonction de niveau inférieur spécifique fournie dans le kit de développement logiciel (SDK) Windows 7.
+    -   si l’application doit être exécutée uniquement sur Windows Vista et versions ultérieures, elle doit charger les modules de ressources avec [**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa).
+    -   si l’application doit être exécutée sur des versions antérieures à Windows vista, ainsi que Windows vista ou version ultérieure, elle doit utiliser [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya), qui est une fonction de niveau inférieur spécifique fournie dans le kit de développement logiciel (SDK) Windows 7.
 
--   La prise en charge de l’ordre de gestion linguistique et de la langue de secours dans les versions antérieures à Windows Vista du système d’exploitation Windows diffère considérablement de celle de Windows Vista et des versions ultérieures. Pour cette raison, les applications qui autorisent la langue de secours configurée par l’utilisateur doivent ajuster les pratiques de gestion de la langue :
+-   la prise en charge de l’ordre de gestion linguistique et de la langue de secours dans les versions antérieures Windows vista du système d’exploitation Windows diffère considérablement de celle de Windows vista et versions ultérieures. Pour cette raison, les applications qui autorisent la langue de secours configurée par l’utilisateur doivent ajuster les pratiques de gestion de la langue :
 
-    -   Si l’application doit être exécutée uniquement sur Windows Vista et versions ultérieures, la définition de la liste de langues à l’aide de [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) est suffisante.
-    -   Si l’application doit être exécutée sur toutes les versions de Windows, du code doit être construit pour s’exécuter sur les plateformes de niveau inférieur pour itérer au sein de la liste des langues configurées par l’utilisateur et détecter le module de ressources souhaité. Cela peut être observé dans les sections 1C et 2 du code fourni plus loin dans cette étape.
+    -   si l’application doit être exécutée uniquement sur Windows Vista et versions ultérieures, la définition de la liste de langues à l’aide de [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) est suffisante.
+    -   si l’application doit être exécutée sur toutes les versions de Windows, du code doit être construit pour s’exécuter sur les plateformes de niveau inférieur pour itérer au sein de la liste des langues configurées par l’utilisateur et détecter le module de ressources souhaité. Cela peut être observé dans les sections 1C et 2 du code fourni plus loin dans cette étape.
 
 Créez un projet qui peut utiliser les modules de ressources localisés sur n’importe quelle version de Windows :
 
-1.  Ajoutez un nouveau projet à la solution HelloMUI (à l’aide du fichier de sélection de menu, ajoutez et nouveau projet) avec les paramètres et valeurs suivants :
+1.  ajoutez un nouveau projet à la solution HelloMUI (en utilisant le fichier de sélection de menu, ajoutez et nouveau Project) avec les paramètres et valeurs suivants :
 
-    1.  Type de projet : projet Win32.
+    1.  type de Project : Win32 Project.
     2.  Nom : GuiStep \_ 3.
     3.  Emplacement : acceptez la valeur par défaut.
-    4.  Dans l’Assistant application Win32, sélectionnez le type d’application par défaut : application Windows.
+    4.  dans l’assistant Application Win32, sélectionnez le type d’application par défaut : Windows application.
 
-2.  Définissez ce projet pour qu’il s’exécute à partir de Visual Studio et configurez son modèle de thread. En outre, configurez-le pour ajouter les en-têtes et les bibliothèques nécessaires.
+2.  définissez ce projet pour qu’il s’exécute à partir de Visual Studio et configurez son modèle de thread. En outre, configurez-le pour ajouter les en-têtes et les bibliothèques nécessaires.
 
     > [!Note]  
-    > Les chemins d’accès utilisés dans ce didacticiel supposent que le kit de développement logiciel (SDK) Windows 7 et le package des API de niveau inférieur de Microsoft NLS ont été installés dans leurs répertoires par défaut. Si ce n’est pas le cas, modifiez les chemins d’accès de manière appropriée.
+    > les chemins d’accès utilisés dans ce didacticiel supposent que le kit de développement logiciel (SDK) Windows 7 et le package des api de niveau inférieur de Microsoft NLS ont été installés dans leurs répertoires par défaut. Si ce n’est pas le cas, modifiez les chemins d’accès de manière appropriée.
 
      
 
-    1.  Dans le Explorateur de solutions, cliquez avec le bouton droit sur le projet GuiStep \_ 3 et sélectionnez Définir comme projet de démarrage.
+    1.  Dans le Explorateur de solutions, cliquez avec le bouton droit sur le projet GuiStep \_ 3 et sélectionnez Définir comme Project de démarrage.
     2.  Cliquez à nouveau avec le bouton droit et sélectionnez Propriétés.
     3.  Dans la boîte de dialogue pages de propriétés du projet :
 
@@ -783,7 +783,7 @@ Créez un projet qui peut utiliser les modules de ressources localisés sur n’
         5.  Sélectionnez avancé et définissez Convention d’appel : \_ StdCall (/GZ).
         6.  Sous propriétés de configuration, développez éditeur de liens, sélectionnez entrée, puis ajoutez à des dépendances supplémentaires :
 
-            -   « C : \\ Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ lib \\ MUILoad. lib ».
+            -   « C : \\ Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ Lib \\ MUILoad. lib ».
             -   « C : \\ API de niveau inférieur Microsoft nls \\ lib \\ x86 \\ nlsdl. lib ».
 
 3.  Remplacez le contenu de GuiStep \_ 3. cpp par le code suivant :
@@ -991,7 +991,7 @@ Créez un projet qui peut utiliser les modules de ressources localisés sur n’
 5.  Générez et exécutez le projet.
 
 > [!Note]  
-> Si l’application doit s’exécuter sur des versions de Windows antérieures à Windows Vista, veillez à lire les documents fournis avec le package des [API de niveau inférieur de Microsoft nls](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en) pour savoir comment redistribuer Nlsdl.dll.
+> si l’application doit s’exécuter sur Windows versions antérieures à Windows Vista, veillez à lire les documents fournis avec le package des [api de niveau inférieur de Microsoft NLS](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en) sur la façon de redistribuer les Nlsdl.dll.
 
  
 
@@ -999,7 +999,7 @@ Créez un projet qui peut utiliser les modules de ressources localisés sur n’
 
 ### <a name="support-for-console-applications"></a>Prise en charge des applications console
 
-Les techniques abordées dans ce didacticiel peuvent également être utilisées dans les applications console. Toutefois, contrairement à la plupart des contrôles d’interface utilisateur graphique standard, la fenêtre de commande Windows ne peut pas afficher de caractères pour tous les langages. Pour cette raison, les applications console multilingues requièrent une attention particulière.
+Les techniques abordées dans ce didacticiel peuvent également être utilisées dans les applications console. toutefois, contrairement à la plupart des contrôles GUI standard, la fenêtre de commande Windows ne peut pas afficher de caractères pour toutes les langues. Pour cette raison, les applications console multilingues requièrent une attention particulière.
 
 L’appel des API [**SetThreadUILanguage**](/windows/desktop/api/Winnls/nf-winnls-setthreaduilanguage) ou [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) avec des indicateurs de filtrage spécifiques entraîne la suppression, par les fonctions de chargement des ressources, des sondes de ressources de langue pour des langues spécifiques qui ne sont normalement pas affichées dans une fenêtre de commande. Lorsque ces indicateurs sont définis, les algorithmes de définition de langue autorisent uniquement les langues qui s’affichent correctement dans la fenêtre de commande à se trouver dans la liste de secours.
 
@@ -1023,11 +1023,11 @@ Vous pouvez adopter l’une des suggestions de conception suivantes pour déterm
 
     Pour plus d’informations sur la façon de déterminer les langues actuellement installées dans le système d’exploitation, consultez la fonction [**EnumUILanguages**](/windows/desktop/api/Winnls/nf-winnls-enumuilanguagesa) .
 
-### <a name="complex-script-support-in-versions-prior-to-windows-vista"></a>Prise en charge des scripts complexes dans les versions antérieures à Windows Vista
+### <a name="complex-script-support-in-versions-prior-to-windows-vista"></a>prise en charge des scripts complexes dans les Versions antérieures à Windows Vista
 
-Lorsqu’une application qui prend en charge certains scripts complexes s’exécute sur une version de Windows antérieure à Windows Vista, le texte de ce script peut ne pas s’afficher correctement dans les composants de l’interface utilisateur graphique. Par exemple, dans le projet de niveau inférieur de ce didacticiel, les scripts hi-IN et ta peuvent ne pas s’afficher dans la boîte de message en raison de problèmes liés au traitement de scripts complexes et au manque de polices associées. En règle générale, les problèmes de cette nature se présentent sous forme de carrés dans le composant GUI.
+lorsqu’une application qui prend en charge certains scripts complexes s’exécute sur une version de Windows antérieure à Windows Vista, le texte de ce script peut ne pas s’afficher correctement dans les composants de l’interface utilisateur graphique. Par exemple, dans le projet de niveau inférieur de ce didacticiel, les scripts hi-IN et ta peuvent ne pas s’afficher dans la boîte de message en raison de problèmes liés au traitement de scripts complexes et au manque de polices associées. En règle générale, les problèmes de cette nature se présentent sous forme de carrés dans le composant GUI.
 
-Pour plus d’informations sur l’activation du traitement complexe des scripts [, consultez prise en charge des scripts et des polices dans Windows](https://msdn.microsoft.com/goglobal/bb688099.aspx).
+Pour plus d’informations sur l’activation du traitement de script complexe [, consultez prise en charge des scripts et des polices dans Windows](https://msdn.microsoft.com/goglobal/bb688099.aspx).
 
 ## <a name="summary"></a>Résumé
 

@@ -1,6 +1,6 @@
 ---
-title: Types d’énumération du client Microsoft Windows Media DRM
-description: En savoir plus sur les énumérations qui sont prises en charge par les API étendues du client Microsoft Windows Media DRM.
+title: Types d’énumération du Client DRM Microsoft Windows Media
+description: en savoir plus sur les énumérations qui sont prises en charge par les api étendues étendues du Client Microsoft Windows Media DRM.
 ms.assetid: 940f66e1-1dc1-414f-bba9-b91f4f0dfc45
 keywords:
 - Windows Media Format SDK, types énumération
@@ -10,16 +10,16 @@ keywords:
 - API étendues clientes, types énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 574136f8016161f4d2c208865a72ad2a86d98f68
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: aad1ca2cd0df9e2b2888e2d25d16ccadde6e8f418ea4d289509aaba7b09c22e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547699"
 ---
-# <a name="microsoft-windows-media-drm-client-enumeration-types"></a>Types d’énumération du client Microsoft Windows Media DRM
+# <a name="microsoft-windows-media-drm-client-enumeration-types"></a>Types d’énumération du Client DRM Microsoft Windows Media
 
-Le tableau suivant décrit les énumérations qui sont prises en charge par les API étendues du client Microsoft Windows Media DRM.
+le tableau suivant décrit les énumérations qui sont prises en charge par les api étendues étendues du Client Microsoft Windows Media DRM.
 
 
 
@@ -32,7 +32,7 @@ Le tableau suivant décrit les énumérations qui sont prises en charge par les 
 | [**État de l' \_ individualisation DRM \_**](drmdrm-individualization-status.md)        | Définit les États valides pour l’individualisation DRM.                                                                                                           |
 | [**\_catégorie d' \_ État de licence DRM \_**](drmdrm-license-state-category.md)           | Spécifie le type de restriction de licence qui est décrit par une structure de [**\_ données d' \_ état \_ de licence DRM**](drmdrm-license-state-data.md) .                    |
 | [**État de MSDRM \_**](msdrm-status.md)                                            | Définit des conditions d’État pour le sous-système DRM.                                                                                                              |
-| [**\_type de stratégie WMDRMNET \_**](wmdrmnet-policy-type.md)                           | Répertorie les types de stratégies disponibles pour Windows Media DRM pour les opérations sur les périphériques réseau.                                                          |
+| [**\_type de stratégie WMDRMNET \_**](wmdrmnet-policy-type.md)                           | répertorie les types de stratégies qui sont disponibles pour le Windows Media DRM pour les opérations sur les périphériques réseau.                                                          |
 | [**\_droits WMT**](drm-wmt-rights.md)                                            | Définit les droits qui peuvent être spécifiés dans une licence DRM.                                                                                                    |
 
 

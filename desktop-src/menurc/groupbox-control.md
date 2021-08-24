@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4f77461099362e4f100924f82d95dffa09a94fa
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 05fb8e795cfe483d16406f07fffd2a26df14cebc3c38a07fbef7f2cb78cc245a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104030549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602079"
 ---
 # <a name="groupbox-control"></a>GROUPBOX, contrôle
 
@@ -42,7 +42,7 @@ Si vous ne spécifiez pas de style, le style par défaut est **BS \_ GroupBox**.
 
 Pour plus d’informations sur la syntaxe générale d’une instruction de contrôle, consultez [paramètres de contrôle communs](common-control-parameters.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand le style contient **WS \_ TABSTOP** ou que le texte spécifie un accélérateur, la tabulation ou la touche d’accès rapide déplace le focus sur le premier contrôle au sein du groupe.
 
@@ -61,9 +61,9 @@ GROUPBOX "Options", 101, 10, 10, 100, 100
 [Zones de groupe](https://www.bing.com/search?q=Group+Boxes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

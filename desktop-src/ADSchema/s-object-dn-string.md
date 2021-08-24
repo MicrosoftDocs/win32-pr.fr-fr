@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 823da21325abdc426d5f58df4cdf04de19fc68b6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 18222343a5c10b7231d174021c8d4238ba075b66b648d99a704f4e1d1d651e2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580249"
 ---
 # <a name="objectdn-string-syntax"></a>Syntaxe Object (DN-String)
 
@@ -28,7 +28,7 @@ Chaîne d’octets qui contient une valeur de chaîne et un DN.
 
 | Entrée | Valeur |
 |--------------|------------------------------------------------------------------------------------|
-| Nom         | Object(DN-String)                                                                  |
+| Name         | Object(DN-String)                                                                  |
 | ID de syntaxe    | 2.5.5.14                                                                           |
 | ID OM        | 127                                                                                |
 | Type MAPI    | \-                                                                                 |
@@ -38,7 +38,7 @@ Chaîne d’octets qui contient une valeur de chaîne et un DN.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une valeur avec cette syntaxe a le format suivant :
 

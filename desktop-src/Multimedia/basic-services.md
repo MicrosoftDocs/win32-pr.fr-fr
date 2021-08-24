@@ -11,12 +11,12 @@ keywords:
 - mmioOpen fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 688dc6b96c612d94524758acce5d8c742fc13a36
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a3ef4ea778ad0c84137aa75d36f46dc30310180c69416a1240078f01e53d6931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119145122"
 ---
 # <a name="basic-services"></a>Services de base
 
@@ -27,7 +27,7 @@ Avant de commencer des opérations d’e/s dans un fichier, vous devez ouvrir le
 > [!Note]  
 > Un descripteur de fichier **HMMIO** n’est pas un descripteur de fichier standard. N’utilisez pas de descripteurs de fichiers **HMMIO** avec des fonctions d’e/s de fichier Win32 ou C.
 
- 
+ 
 
 Quand vous utilisez [**mmioOpen**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioopen) pour ouvrir un fichier, vous utilisez un indicateur pour spécifier si vous l’ouvrez pour la lecture, l’écriture ou les deux. Vous pouvez également spécifier des indicateurs qui vous permettent de créer ou de supprimer un fichier. Utilisez la fonction [**mmioClose**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmioclose) pour fermer un fichier une fois que vous avez terminé de le lire ou d’écrire dans celui-ci.
 
@@ -37,6 +37,6 @@ Vous pouvez également modifier la position actuelle du fichier à l’aide de l
 
 Il existe des indicateurs que vous pouvez utiliser avec la fonction **mmioOpen** pour les opérations au-delà des e/s de fichier de base. En spécifiant une structure [**MMIOINFO**](/previous-versions//dd757322(v=vs.85)) , par exemple, vous pouvez ouvrir des fichiers de mémoire, spécifier une procédure d’e/s personnalisée ou fournir une mémoire tampon pour les e/s mises en mémoire tampon.
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 918482ebcb24f2638a006ab1bbc452ea28ff61e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20c577530785de3e05d00d4674556fbcd03cb69832b164e12dc703108d23c58a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549639"
 ---
 # <a name="iwiatransfercallback-interface"></a>Interface IWiaTransferCallback
 
@@ -46,7 +46,7 @@ L’interface **IWiaTransferCallback** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les développeurs de filtres de traitement d’images doivent implémenter cette interface et l’interface [**IWiaImageFilter**](-wia-iwiaimagefilter.md) .
 
@@ -70,8 +70,8 @@ L’interface **IWiaTransferCallback** , comme toutes les interfaces COM (Compon
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |

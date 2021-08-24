@@ -1,19 +1,19 @@
 ---
-description: Windows Sockets 2 introduit des e/s avec chevauchement et requiert que tous les fournisseurs de transport prennent en charge cette fonctionnalité.
+description: Windows Sockets 2 introduit les e/s avec chevauchement et requiert que tous les fournisseurs de transport prennent en charge cette fonctionnalité.
 ms.assetid: 90d49171-e211-4426-aa56-88aaeac7c578
 title: Entrée/sortie avec chevauchement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d8caa13dd3d50e4f0fdaa1b92fa8e99afd8e2e1
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: e5d260cccd13bfb8e872e0ac7346c112efff2f77cf115e3fe2f8dd3d3fb94deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "103869621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641789"
 ---
 # <a name="overlapped-inputoutput"></a>Entrée/sortie avec chevauchement
 
-Windows Sockets 2 introduit des e/s avec chevauchement et requiert que tous les fournisseurs de transport prennent en charge cette fonctionnalité. Les e/s avec chevauchement peuvent être effectuées uniquement sur les sockets créés à l’aide de la fonction [**WSPSocket**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspsocket) avec l' \_ indicateur de chevauchement d’indicateur WSA \_ défini, et suivre le modèle établi dans Windows.
+Windows Sockets 2 introduit les e/s avec chevauchement et requiert que tous les fournisseurs de transport prennent en charge cette fonctionnalité. Les e/s avec chevauchement peuvent être effectuées uniquement sur les sockets créés à l’aide de la fonction [**WSPSocket**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspsocket) avec l' \_ indicateur de chevauchement d’indicateur WSA \_ défini, et suivre le modèle établi dans Windows.
 
 Pour la réception, un client utilise [**WSPRecv**](/previous-versions/windows/hardware/network/ff566309(v=vs.85)) ou [**WSPRecvFrom**](/previous-versions/windows/desktop/legacy/ms742287(v=vs.85)) pour fournir des mémoires tampons dans lesquelles les données doivent être reçues. Si une ou plusieurs mémoires tampons sont publiées avant le moment où les données ont été reçues par le réseau, il est possible que les données soient placées dans les mémoires tampons de l’utilisateur immédiatement à mesure qu’elles arrivent et, par conséquent, éviter l’opération de copie qui se produirait autrement. Si des données arrivent lorsque des mémoires tampons de réception ont déjà été publiées, elles sont copiées immédiatement dans les tampons de l’utilisateur. Si des données arrivent quand aucune mémoire tampon de réception n’a été publiée par l’application, le fournisseur de services accède au style synchrone de l’opération dans lequel les données entrantes sont mises en mémoire tampon jusqu’à ce que le client envoie un appel de réception et fournit ainsi une mémoire tampon dans laquelle les données peuvent être copiées. Une exception est si l’application a utilisé [**WSPSetSockOpt**](/previous-versions/windows/hardware/network/ff566318(v=vs.85)) pour définir la taille de la mémoire tampon de réception sur zéro. Dans ce cas, les protocoles Reliable autorisent uniquement la réception des données lorsque les tampons d’application ont été publiés, et les données sur les protocoles non fiables sont perdues.
 
@@ -49,10 +49,10 @@ Pour les fournisseurs de services dans lesquels un composant en mode utilisateur
 -   La procédure intermédiaire décompresse simplement les paramètres, libère la mémoire tampon et appelle la procédure de saisie semi-automatique fournie par le client.
 -   Pour les fournisseurs de services dans lesquels un composant en mode noyau implémente des e/s avec chevauchement, une implémentation classique est similaire, à ceci près que l’implémentation utilise des interfaces de noyau standard pour mettre l’APC en file d’attente.
 
-La description des interfaces de noyau appropriées est en dehors de la portée de la spécification Windows Sockets 2.
+la Description des interfaces de noyau appropriées est en dehors de l’étendue de la spécification Windows sockets 2.
 
 > [!Note]  
-> Les fournisseurs de services doivent autoriser les clients Windows Sockets 2 à appeler des opérations d’envoi et de réception à partir du contexte de la routine d’exécution d’e/s de socket et garantissent que, pour un socket donné, les routines d’exécution d’e/s ne sont pas imbriquées.
+> les fournisseurs de services doivent autoriser Windows clients sockets 2 à appeler des opérations d’envoi et de réception à partir du contexte de la routine d’exécution d’e/s de socket et à garantir que, pour un socket donné, les routines d’exécution d’e/s ne sont pas imbriquées.
 
  
 

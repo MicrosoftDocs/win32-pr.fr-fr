@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: b17c89a744748214d74dc24abdaa8a12ac71e960
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d241e5877bb00ab07bc8aa716322566c9d236e88a937ce2ed03ce7f2b859ef2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541509"
 ---
 # <a name="rtlextendedlargeintegerdivide-function"></a>RtlExtendedLargeIntegerDivide fonction)
 
@@ -68,11 +68,11 @@ Pointeur vers le reste de la Division.
 
 Retourne le résultat de l’opération de division.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

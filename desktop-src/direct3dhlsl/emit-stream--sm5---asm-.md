@@ -4,12 +4,12 @@ description: Émet un vertex vers un flux donné.
 ms.assetid: 5DBB0BEC-6EA4-4C04-A3D2-853E48260226
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f56c2582453d18120e3e95b27af9c7613728fa62
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9e7e90bfb72862abeccc8a9411904a7b42f77c933cc4c87af189d6557596389c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562699"
 ---
 # <a name="emit_stream-sm5---asm"></a>émettre \_ un flux (SM5-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104381160"
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction entraîne la lecture de tous les registres o déclarés \# pour le flux donné à partir du nuanceur Geometry pour générer un vertex. Après l’émission, toutes les données de tous les registres de sortie pour tous les flux de données deviennent non initialisés, pas seulement le flux émis vers.
 
@@ -51,7 +51,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        | X        |       |         |
 
@@ -65,9 +65,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

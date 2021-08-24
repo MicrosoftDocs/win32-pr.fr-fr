@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fdbea1e9fba4ac28f968fdd61a054f55fe47deb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 299b23ae1a4182ccde7e55465a80ace1067ea526562aad781bde1c3d46865741
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300349"
 ---
 # <a name="ms-ds-consistency-guid-attribute"></a>MS-DS-Consistency-attribut Guid
 
@@ -46,7 +46,7 @@ Cet attribut est utilisé pour vérifier la cohérence entre le répertoire et u
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59b92961deecde7faa879dbbda6bfd24560ad705
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4e088c8347ff12172cb87c521e049e2646a0711e1eaedf805887b6988af1e284
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580289"
 ---
 # <a name="interval-syntax"></a>Syntaxe d’intervalle
 
@@ -28,7 +28,7 @@ Représente une valeur d’intervalle de temps. Les unités de temps réelles d�
 
 | Entrée | Valeur |
 |--------------|------------------------------------------------------------------------------------|
-| Nom         | Intervalle                                                                           |
+| Name         | Intervalle                                                                           |
 | ID de syntaxe    | 2.5.5.16                                                                           |
 | ID OM        | 65                                                                                 |
 | Type MAPI    | \-                                                                                 |

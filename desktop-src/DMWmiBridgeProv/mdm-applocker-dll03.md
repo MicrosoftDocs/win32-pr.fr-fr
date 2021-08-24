@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c332a7d606b21ed9641c3c25f10a011cf7bea6e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 463e5b4cb5e0940a4e899ace2e23235210331caeb33780c6c857c05bbf24ab99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642369"
 ---
 # <a name="mdm_applocker_dll03-class"></a>\_ \_ Classe DLL03 de MDM AppLocker
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La **classe \_ \_ DLL03 de MDM AppLocker** définit les restrictions de stratégie pour le traitement des fichiers dll.
 
@@ -112,7 +112,7 @@ Décrit le chemin d’accès complet au nœud parent. Pour cette classe, la cha�
 
 </dd> <dt>
 
-[**Stratégie**](/windows/client-management/mdm/applocker-csp)
+[**Policy**](/windows/client-management/mdm/applocker-csp)
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -129,7 +129,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

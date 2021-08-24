@@ -78,12 +78,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a1441055fc7b86b97c69a40758236261b20f75c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8c9e9d9d5ffe969ce24b6060b57045d6b738a26dcc434b6634382cd0141d666
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522289"
 ---
 # <a name="msvm_internalethernetport-class"></a>MSVM \_ InternalEthernetPort, classe
 
@@ -178,7 +178,7 @@ La classe **MSVM \_ InternalEthernetPort** possède ces méthodes.
 | **OnlineDevice**                                                           | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                          | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-internalethernetport-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-internalethernetport-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
+| [**Initialisation**](msvm-internalethernetport-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
 | **RestoreProperties**                                                      | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                         | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                          | Cette méthode n'est pas prise en charge.<br/> |
@@ -942,7 +942,7 @@ Dernier État demandé ou souhaité pour le service de gestion. Lorsque la propr
 
 </dd> <dt>
 
-**Vitesse**
+**Temps**
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt64**
@@ -1098,7 +1098,7 @@ Dans certains cas, un port logique peut être identifiable comme un port frontal
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ InternalEthernetPort** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1112,8 +1112,8 @@ Consultez [interrogation d’objets de mise en réseau](querying-networking-obje
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -6,12 +6,12 @@ keywords:
 - OpenGL sur Windows, pixels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d16f9f78edc0cf935fb602de8d88792091588ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cfbcd49b17c298d00d0ab41391172c8ae4c3bce8cb295db619d1c9787a2bca36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106536878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119486189"
 ---
 # <a name="pixel-formats"></a>Formats de pixel
 
@@ -25,7 +25,7 @@ Un *format de pixel* spécifie plusieurs propriétés d’une surface de dessin 
 -   Nombre de plans de superposition et de Underlay.
 -   Différents masques de visibilité.
 
-L’implémentation de OpenGL pour Windows par Microsoft utilise la structure de données [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) pour transmettre les données au format de pixel. Les membres de la structure spécifient les propriétés précédentes et plusieurs autres.
+l’implémentation par Microsoft d’OpenGL pour Windows utilise la structure de données [**PIXELFORMATDESCRIPTOR**](/windows/win32/api/wingdi/ns-wingdi-pixelformatdescriptor) pour transmettre les données au format de pixel. Les membres de la structure spécifient les propriétés précédentes et plusieurs autres.
 
 Un contexte de périphérique donné peut prendre en charge plusieurs formats de pixel. Windows identifie les formats de pixel qu’un contexte de périphérique prend en charge avec des valeurs d’index de base 1 consécutives (1, 2, 3, 4, etc.). Un contexte de périphérique peut avoir un seul format de pixel actuel, choisi dans le jeu de formats de pixel pris en charge.
 
@@ -36,7 +36,7 @@ En général, vous obtenez un contexte de périphérique, définissez le format 
 > [!Note]  
 > Vous définissez le format de pixel avant de créer un contexte de rendu, car le contexte de rendu hérite du format de pixel du contexte de périphérique.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,9 +45,9 @@ En général, vous obtenez un contexte de périphérique, définissez le format 
 [Fonctions de format de pixel](pixel-format-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

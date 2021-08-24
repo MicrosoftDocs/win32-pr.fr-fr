@@ -1,6 +1,6 @@
 ---
-description: Shell. WindowsSecurity, méthode-affiche la boîte de dialogue sécurité Windows.
-title: Shell. WindowsSecurity, méthode (shldisp. h)
+description: Shell. WindowsSecurity, méthode-affiche la boîte de dialogue Sécurité Windows.
+title: Shell.WindowsSecurity, méthode (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 94916E29-5960-4010-B2C6-0FAA1E4BF72D
-ms.openlocfilehash: 2c6e18ba2388909390b856deb03b65b078f810d9
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 327855763220fd2ea1c2e0e6b93538c16fa27cf35cd65cba06888879580259c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119591999"
 ---
 # <a name="shellwindowssecurity-method"></a>Shell. WindowsSecurity, méthode
 
-Affiche la boîte de dialogue **sécurité Windows** .
+affiche la boîte de dialogue **Sécurité Windows** .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -45,7 +45,7 @@ Shell.WindowsSecurity()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode affiche la boîte de dialogue qui s’affiche après avoir appuyé sur CTRL + ALT + SUPPR ou à l’aide de l’option sécurité dans le menu **Démarrer** .
 
@@ -66,9 +66,9 @@ Cette méthode affiche la boîte de dialogue qui s’affiche après avoir appuy�
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation de **WindowsSecurity** pour JScript, VBScript et Visual Basic.
+les exemples suivants illustrent l’utilisation de **WindowsSecurity** pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -116,14 +116,14 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 6,0 ou ultérieure)</dt> </dl> |

@@ -9,12 +9,12 @@ keywords:
 - Portage OpenGL depuis IRIS GL, fonctions d’extraction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 594b12bb1738846b98d33137dd8b623f0405ec40
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fdfe9159e0207198fa94959729bd0c95439bb91b5dd55a8a1f9adf3b048d7bb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485559"
 ---
 # <a name="porting-iris-gl-get-functions"></a>Portage des fonctions d’extraction du GL IRIS
 
@@ -53,9 +53,9 @@ glGet<Datatype>v( value, *data );
 
 où la *valeur* est de type **GLenum** et les données sont de type **GLdatatype**. Quand vous appelez **glGet** et qu’il retourne un type différent du type attendu, le type est converti de manière appropriée. Pour obtenir la liste complète des paramètres **glGet** , consultez [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md).
 
- 
+ 
 
- 
+ 
 
 
 

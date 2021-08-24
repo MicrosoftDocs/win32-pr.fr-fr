@@ -4,12 +4,12 @@ ms.assetid: e11193a2-2c72-43a9-8d35-fa524044e306
 title: Vérification de la page de codes de la base de données d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48ea9513ec80413e00a9f3f4c1232a06704f83e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cedb63128d4a3b18878eba16af5e55da92403953ddf2a2c9a29c788a524ad41f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581769"
 ---
 # <a name="checking-the-installation-database-code-page"></a>Vérification de la page de codes de la base de données d’installation
 
@@ -17,7 +17,7 @@ Une *page de codes* est une table interne que le système d’exploitation utili
 
 La même page de codes ASCII, 1252, peut être utilisée pour l’anglais et le français. Par conséquent, la page de codes de la MNP2000.msi de base de données (anglais) n’a pas besoin d’être réinitialisée pour modifier l’installation en français.
 
-Pour plus d’informations sur la définition de la page de codes [, consultez Gestion des pages de codes (Windows Installer)](code-page-handling-windows-installer-.md).
+pour plus d’informations sur la définition de la page de codes [, consultez gestion des pages de codes (Windows Installer)](code-page-handling-windows-installer-.md).
 
 [Continuer](importing-localized-error-and-actiontext-tables.md)
 

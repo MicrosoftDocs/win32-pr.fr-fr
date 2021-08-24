@@ -4,12 +4,12 @@ description: Tout le trafic de multidiffusion et de diffusion entrant au niveau 
 ms.assetid: b10b9758-8fce-4256-a25d-917e01336456
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f30b56a6e2a27a209baf66d34948b704ae321644
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2849f7277cc9ada580bca22fa5a4fdf618d959d255b442607963047dd2a37bba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315609"
 ---
 # <a name="ale-multicastbroadcast-traffic"></a>Trafic de diffusion/multidiffusion ALE
 
@@ -18,9 +18,9 @@ Tout le trafic de multidiffusion et de diffusion entrant au niveau des couches d
 Le trafic de multidiffusion et de diffusion en sortie sur les couches ALE crée un flux ALE de 4 secondes. Par défaut, l’autorisation d’un paquet de multidiffusion ou de diffusion ALE de diffusion en sortie autorise le trafic entrant, qu’il s’agisse de monodiffusion, de multidiffusion ou de diffusion, depuis n’importe quelle adresse distante jusqu’à 4 secondes. Ce flux ALE peut uniquement être actualisé ou maintenu actif par le trafic sortant suivant qui correspond au flux ALE.
 
 > [!Note]  
-> La durée de vie de 4 secondes est spécifiée par les options Set d’appel FWPM de l' [**\_ \_ option Set Connect de la \_ \_ \_ \_ couche \_ V {4 \| 6}**](built-in-callout-identifiers.md)de la légende intégrée. Pour modifier la durée de vie par défaut de 4 secondes, ajoutez un filtre qui fait référence aux options de l' **ensemble de légendes FWPM appel de \_ \_ \_ \_ \_ \_ couche \_ V {4 \| 6}** . Pour plus d’informations, consultez [Personnalisation du fluide ALE](ale-flow-customization.md) .
+> La durée de vie de 4 secondes est spécifiée par les options Set d’appel FWPM de l' [**\_ \_ option Set Connect de la \_ \_ \_ \_ couche \_ V {4 \| 6}**](built-in-callout-identifiers.md)de la légende intégrée. Pour modifier la durée de vie par défaut de 4 secondes, ajoutez un filtre qui fait référence aux options de l' **ensemble de légendes FWPM appel de \_ \_ \_ \_ \_ \_ couche \_ V {4 \| 6}** . pour plus d’informations, consultez la page personnalisation de la [Flow ALE](ale-flow-customization.md) .
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -38,12 +38,12 @@ Le trafic de multidiffusion et de diffusion en sortie sur les couches ALE crée 
 [Réautorisation ALE](ale-re-authorization.md)
 </dt> <dt>
 
-[Personnalisation du fluide ALE](ale-flow-customization.md)
+[personnalisation de la Flow ALE](ale-flow-customization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

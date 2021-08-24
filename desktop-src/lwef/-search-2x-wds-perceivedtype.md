@@ -4,17 +4,17 @@ description: PerceivedType est une propriété qui classifie un élément dans l
 ms.assetid: 47a5cf55-79f6-48e7-a585-72fc3d7d53d4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afaf7d8b827495a94b441e5504762dd53dbe733c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2de2baa37a46a9bd78e6e8a7ad94806dffe3a918046253bb09d4dab6090838b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106518053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610829"
 ---
 # <a name="perceived-types-legacy-windows-environment-features"></a>Types perçus (fonctionnalités héritées de l’environnement Windows)
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
 `PerceivedType` est une propriété qui classifie un élément dans l’index. Cette classification est différente de la classification « Kind » utilisée par la [syntaxe de requête avancée](-search-2x-wds-aqsreference.md) , mais elle permet aux utilisateurs d’affiner leurs résultats de recherche. Le type AQS permet aux utilisateurs de limiter leur requête de recherche, tandis que la propriété PerceivedType permet aux utilisateurs de filtrer leur jeu de résultats.
 

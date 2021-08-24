@@ -4,12 +4,12 @@ ms.assetid: 48c84e6d-b21f-468e-8847-f5e2acd5b44a
 title: MFPKEY_WMAVOICE_ENC_BufferWindow, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35d5035979ffd161eb7694690fbf2566db5dfd1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d05df85a6f1460666f82f494df0d41fdebd811a578817639eb6f7d41f0bf9ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603449"
 ---
 # <a name="mfpkey_wmavoice_enc_bufferwindow-property"></a>MFPKEY \_ WMAVOICE \_ enc \_ BufferWindow, propriété
 
@@ -35,8 +35,8 @@ VT \_
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

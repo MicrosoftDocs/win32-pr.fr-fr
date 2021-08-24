@@ -1,9 +1,9 @@
 ---
-title: Utilisation des en-têtes Windows
-description: Utilisez les fichiers d’en-tête Windows pour créer des applications qui utilisent l’API Windows.
+title: utilisation des en-têtes de Windows
+description: utilisez les fichiers d’en-tête Windows pour créer des applications qui utilisent l’API Windows.
 ms.assetid: a4def563-8ddc-4630-ae8a-86c07cf98374
 keywords:
-- API Windows, fichiers d’en-tête
+- Windows API, fichiers d’en-tête
 - C2065
 - WINVER
 - _WIN32_WINDOWS
@@ -12,16 +12,16 @@ keywords:
 - WIN32_LEAN_AND_MEAN
 ms.topic: article
 ms.date: 01/22/2020
-ms.openlocfilehash: 4d27b14a6e545db9a9a38c205012b149942adf7f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 886c5601683cc03fb2486f8be3b69f31c4619b721276babbc2c3e31e28c0a022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643589"
 ---
-# <a name="using-the-windows-headers"></a>Utilisation des en-têtes Windows
+# <a name="using-the-windows-headers"></a>utilisation des en-têtes de Windows
 
-Les fichiers d’en-tête de l’API Windows vous permettent de créer des applications 32 et 64 bits. Elles incluent des déclarations pour les versions Unicode et ANSI de l’API. Pour plus d’informations, consultez [Unicode dans l’API Windows](/windows/desktop/Intl/unicode-in-the-windows-api). Ils utilisent des [types de données](windows-data-types.md) qui vous permettent de générer des versions 32 et 64 bits de votre application à partir d’une base de code source unique. Pour plus d’informations, consultez [préparation pour Windows 64 bits](/windows/desktop/WinProg64/getting-ready-for-64-bit-windows). Les fonctionnalités supplémentaires incluent les [annotations d’en-tête](header-annotations.md) et la [vérification stricte des types](strict-type-checking.md).
+les fichiers d’en-tête de l’API Windows vous permettent de créer des applications 32 et 64 bits. Elles incluent des déclarations pour les versions Unicode et ANSI de l’API. pour plus d’informations, consultez [Unicode dans l’API Windows](/windows/desktop/Intl/unicode-in-the-windows-api). Ils utilisent des [types de données](windows-data-types.md) qui vous permettent de générer des versions 32 et 64 bits de votre application à partir d’une base de code source unique. Pour plus d’informations, consultez [préparation à la Windows 64 bits](/windows/desktop/WinProg64/getting-ready-for-64-bit-windows). Les fonctionnalités supplémentaires incluent les [annotations d’en-tête](header-annotations.md) et la [vérification stricte des types](strict-type-checking.md).
 
 -   [Visual C++ et les fichiers d’en-tête Windows](#visual-c-and-the-windows-header-files)
 -   [Macros pour les déclarations conditionnelles](#macros-for-conditional-declarations)
@@ -32,15 +32,15 @@ Les fichiers d’en-tête de l’API Windows vous permettent de créer des appli
 
 ## <a name="visual-c-and-the-windows-header-files"></a>Visual C++ et les fichiers d’en-tête Windows
 
-Microsoft Visual C++ contient des copies des fichiers d’en-tête Windows qui étaient en cours au moment de la sortie de Visual C++. Par conséquent, si vous installez des fichiers d’en-tête mis à jour à partir d’un kit de développement logiciel (SDK), vous pouvez vous retrouver avec plusieurs versions des fichiers d’en-tête Windows sur votre ordinateur. Si vous ne vous assurez pas que vous utilisez la version la plus récente des fichiers d’en-tête du kit de développement logiciel (SDK), vous recevrez le code d’erreur suivant lors de la compilation du code qui utilise les fonctionnalités qui ont été introduites après la publication de Visual C++ : Error C2065 : identificateur non déclaré.
+Microsoft Visual C++ contient des copies des fichiers d’en-tête Windows qui étaient en cours au moment où Visual C++ a été libéré. par conséquent, si vous installez des fichiers d’en-tête mis à jour à partir d’un kit de développement logiciel (SDK), vous pouvez vous retrouver avec plusieurs versions des fichiers d’en-tête Windows sur votre ordinateur. Si vous ne vous assurez pas que vous utilisez la version la plus récente des fichiers d’en-tête du kit de développement logiciel (SDK), vous recevrez le code d’erreur suivant lors de la compilation du code qui utilise les fonctionnalités qui ont été introduites après la publication de Visual C++ : Error C2065 : identificateur non déclaré.
 
 ## <a name="macros-for-conditional-declarations"></a>Macros pour les déclarations conditionnelles
 
-Certaines fonctions qui dépendent d’une version particulière de Windows sont déclarées à l’aide de code conditionnel. Cela vous permet d’utiliser le compilateur pour détecter si votre application utilise des fonctions qui ne sont pas prises en charge sur sa ou ses versions cibles de Windows. Pour compiler une application qui utilise ces fonctions, vous devez définir les macros appropriées. Dans le cas contraire, vous recevrez le message d’erreur C2065.
+certaines fonctions qui dépendent d’une version particulière de Windows sont déclarées à l’aide de code conditionnel. Cela vous permet d’utiliser le compilateur pour détecter si votre application utilise des fonctions qui ne sont pas prises en charge sur sa ou ses versions cibles de Windows. Pour compiler une application qui utilise ces fonctions, vous devez définir les macros appropriées. Dans le cas contraire, vous recevrez le message d’erreur C2065.
 
-Les fichiers d’en-tête Windows utilisent des macros pour indiquer quelles versions de Windows prennent en charge de nombreux éléments de programmation. Par conséquent, vous devez définir ces macros pour utiliser les nouvelles fonctionnalités introduites dans chaque version majeure du système d’exploitation. (Les fichiers d’en-tête individuels peuvent utiliser des macros différentes ; par conséquent, si des problèmes de compilation se produisent, recherchez dans le fichier d’en-tête qui contient la définition des définitions conditionnelles.) Pour plus d’informations, consultez SdkDdkVer. h.
+les fichiers d’en-tête Windows utilisent des macros pour indiquer quelles versions de Windows prennent en charge de nombreux éléments de programmation. Par conséquent, vous devez définir ces macros pour utiliser les nouvelles fonctionnalités introduites dans chaque version majeure du système d’exploitation. (Les fichiers d’en-tête individuels peuvent utiliser des macros différentes ; par conséquent, si des problèmes de compilation se produisent, recherchez dans le fichier d’en-tête qui contient la définition des définitions conditionnelles.) Pour plus d’informations, consultez SdkDdkVer. h.
 
-Le tableau suivant décrit les macros préférées utilisées dans les fichiers d’en-tête Windows. Si vous définissez la \_ version NTDDI, vous devez également définir \_ Win32 \_ winnt.
+le tableau suivant décrit les macros préférées utilisées dans les fichiers d’en-tête Windows. Si vous définissez la \_ version NTDDI, vous devez également définir \_ Win32 \_ winnt.
 
 
 
@@ -59,8 +59,8 @@ Le tableau suivant décrit les macros préférées utilisées dans les fichiers 
 | Windows 7                                     | **NTDDI \_ WIN7** (0x06010000)        |
 | Windows Server 2008                           | **NTDDI \_ WS08** (0x06000100)        |
 | Windows Vista Service Pack 1 (SP1)       | **NTDDI \_ VISTASP1** (0x06000100)    |
-| Windows Vista                                 | **NTDDI \_ VISTA** (0x06000000)       |
-| Windows Server 2003 avec Service Pack 2 (SP2) | **NTDDI \_ WS03SP2** (0x05020200)     |
+| Windows Vista                                 | **NTDDI \_ VISTA** (0x06000000)       |
+| Windows Server 2003 avec Service Pack 2 (SP2) | **NTDDI \_ WS03SP2** (0x05020200)     |
 | Windows Server 2003 avec Service Pack 1 (SP1) | **NTDDI \_ WS03SP1** (0x05020100)     |
 | Windows Server 2003                           | **NTDDI \_ WS03** (0x05020000)        |
 | Windows XP avec Service Pack 3 (SP3)          | **NTDDI \_ WINXPSP3** (0x05010300)    |
@@ -70,9 +70,9 @@ Le tableau suivant décrit les macros préférées utilisées dans les fichiers 
 
 
 
- 
+ 
 
-Les tableaux suivants décrivent les autres macros utilisées dans les fichiers d’en-tête Windows.
+les tableaux suivants décrivent les autres macros utilisées dans les fichiers d’en-tête Windows.
 
 
 
@@ -83,20 +83,20 @@ Les tableaux suivants décrivent les autres macros utilisées dans les fichiers 
 | Windows 8                                         | **\_ Win32 \_ winnt \_ WIN8** (0x0602)           |
 | Windows 7                                         | **\_ Win32 \_ winnt \_ win7** (0x0601)           |
 | Windows Server 2008                               | **\_ Win32 \_ winnt \_ WS08** (0x0600)           |
-| Windows Vista                                     | **\_ Win32 \_ winnt \_ Vista** (0x0600)          |
-| Windows Server 2003 avec SP1, Windows XP avec SP2 | **\_ Win32 \_ winnt \_ WS03** (0x0502)           |
-| Windows Server 2003, Windows XP                   | **\_ Win32 \_ winnt \_ WinXP** (0x0501)          |
+| Windows Vista                                     | **\_ Win32 \_ winnt \_ Vista** (0x0600)          |
+| Windows serveur 2003 avec SP1, Windows XP avec SP2 | **\_ Win32 \_ winnt \_ WS03** (0x0502)           |
+| Windows serveur 2003, Windows XP                   | **\_ Win32 \_ winnt \_ WinXP** (0x0501)          |
 
 
 
- 
+ 
 
 
 
 | Version minimale nécessaire          | Valeur minimale de \_ Win32 \_ IE      |
 |-----------------------------------|-----------------------------------|
 | Internet Explorer 11,0            | **\_ Win32 \_ IE \_ IE110** (0x0A00)   |
-| Internet Explorer 10,0            | **\_ Win32 \_ IE \_ IE100** (0x0A00)   |
+| Internet Explorer 10.0            | **\_ Win32 \_ IE \_ IE100** (0x0A00)   |
 | Internet Explorer 9.0             | **\_ Win32 \_ IE \_ IE90** (0x0900)    |
 | Internet Explorer 8.0             | **\_ Win32 \_ IE \_ IE80** (0x0800)    |
 | Internet Explorer 7.0             | **\_ Win32 \_ IE \_ IE70** (0x0700)    |
@@ -109,7 +109,7 @@ Les tableaux suivants décrivent les autres macros utilisées dans les fichiers 
 
 
 
- 
+ 
 
 ## <a name="setting-winver-or-_win32_winnt"></a>Définition de WINVER ou de \_ Win32 \_ winnt
 
@@ -129,23 +129,23 @@ Pour définir \_ Win32 \_ winnt à l’aide de l’option du compilateur/d, util
 
 Pour plus d’informations sur l’utilisation de l’option de compilateur/D, consultez [/d (définitions de préprocesseur)](/cpp/build/reference/d-preprocessor-definitions).
 
-Notez que certaines fonctionnalités introduites dans la dernière version de Windows peuvent être ajoutées à une Service Pack pour une version précédente de Windows. Par conséquent, pour cibler un Service Pack, vous devrez peut-être définir \_ Win32 \_ winnt avec la valeur de la prochaine version majeure du système d’exploitation. Par exemple, la fonction [**GetDllDirectory**](/windows/desktop/api/winbase/nf-winbase-getdlldirectorya) a été introduite dans Windows Server 2003 et est définie de manière conditionnelle si \_ Win32 \_ winnt 0x0502 ou une version ultérieure. Cette fonction a également été ajoutée à Windows XP avec SP1. Par conséquent, si vous deviez définir \_ Win32 \_ Winnt en tant que 0x0501 pour cibler Windows XP, vous risquez de manquer les fonctionnalités définies dans Windows XP avec SP1.
+notez que certaines fonctionnalités introduites dans la dernière version de Windows peuvent être ajoutées à une Service Pack pour une version précédente de Windows. Par conséquent, pour cibler un Service Pack, vous devrez peut-être définir \_ Win32 \_ winnt avec la valeur de la prochaine version majeure du système d’exploitation. par exemple, la fonction [**GetDllDirectory**](/windows/desktop/api/winbase/nf-winbase-getdlldirectorya) a été introduite dans Windows Server 2003 et est définie de manière conditionnelle si \_ WIN32 \_ winnt 0x0502 ou une version ultérieure. cette fonction a également été ajoutée à Windows XP avec SP1. par conséquent, si vous deviez définir \_ WIN32 \_ winnt comme 0x0501 pour cibler Windows xp, vous manquez les fonctionnalités définies dans Windows xp avec SP1.
 
 ## <a name="controlling-structure-packing"></a>Contrôle de la compression de structure
 
-Les projets doivent être compilés pour utiliser la compression de structure par défaut, qui est actuellement de 8 octets, car le plus grand type intégral est de 8 octets. Cela garantit que tous les types de structure dans les fichiers d’en-tête sont compilés dans l’application avec le même alignement attendu par l’API Windows. Elle garantit également que les structures avec des valeurs de 8 octets sont correctement alignées et n’entraînent pas d’erreurs d’alignement sur les processeurs qui appliquent l’alignement des données.
+Les projets doivent être compilés pour utiliser la compression de structure par défaut, qui est actuellement de 8 octets, car le plus grand type intégral est de 8 octets. cela garantit que tous les types de structure dans les fichiers d’en-tête sont compilés dans l’application avec le même alignement que celui attendu par l’API Windows. Elle garantit également que les structures avec des valeurs de 8 octets sont correctement alignées et n’entraînent pas d’erreurs d’alignement sur les processeurs qui appliquent l’alignement des données.
 
 Pour plus d’informations, consultez [/Zp (alignement des membres de la structure)](/cpp/build/reference/zp-struct-member-alignment) ou [Pack](/cpp/preprocessor/pack).
 
 ## <a name="faster-builds-with-smaller-header-files"></a>Builds plus rapides avec des fichiers d’en-tête plus petits
 
-Vous pouvez réduire la taille des fichiers d’en-tête Windows en excluant certaines des déclarations d’API les moins courantes comme suit :
+vous pouvez réduire la taille des fichiers d’en-tête Windows en excluant certaines des déclarations d’API les moins courantes comme suit :
 
--   Définissez le terme WIN32 \_ \_ et la \_ moyenne pour exclure les API telles que les sockets de chiffrement, DDE, RPC, Shell et Windows.
+-   définissez le terme WIN32 \_ \_ et la \_ moyenne pour exclure les api telles que les sockets de chiffrement, DDE, RPC, Shell et Windows.
 
     `#define WIN32_LEAN_AND_MEAN`
 
--   Définissez un ou plusieurs symboles d'*API* pour exclure l’API. Par exemple, NOCOMM exclut l’API de communication série. Pour obtenir une liste de prise en charge des symboles d'*API* , consultez Windows. h.
+-   Définissez un ou plusieurs symboles d'*API* pour exclure l’API. Par exemple, NOCOMM exclut l’API de communication série. pour obtenir une liste de prise en charge des symboles d'*api* , consultez Windows. h.
 
     `#define NOCOMM`
 
@@ -153,9 +153,9 @@ Vous pouvez réduire la taille des fichiers d’en-tête Windows en excluant cer
 
 <dl> <dt>
 
-[Site de téléchargement SDK Windows](https://msdn.microsoft.com/windowsserver/bb980924.aspx)
+[Windows Site de téléchargement du SDK](https://msdn.microsoft.com/windowsserver/bb980924.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

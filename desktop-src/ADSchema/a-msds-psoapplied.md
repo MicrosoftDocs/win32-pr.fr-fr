@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c07d2b70488ac02d3fb3d91531d9b45aefcfe5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7a5ee3fecf675ec9091b0637bde91e65ee31c090c39d31b27b8594dd6d7294e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119294179"
 ---
 # <a name="ms-ds-pso-applied-attribute"></a>ms-DS-PSO-attribut appliqué
 
@@ -42,7 +42,7 @@ Objet de paramètres de mot de passe qui est appliqué à cet objet.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

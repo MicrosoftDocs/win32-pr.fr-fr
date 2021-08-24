@@ -4,12 +4,12 @@ ms.assetid: 63909c54-c2de-4065-9882-58fca2b4e893
 title: IndexedColor
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c895cf56efedfa7214bcfa6acafd32ab9324bbe8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c2b0dcaf850786a18e5fc317276939436b93c3a49765d520aa40f88cd53707d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119563729"
 ---
 # <a name="indexedcolor"></a>IndexedColor
 
@@ -26,7 +26,7 @@ template IndexedColor
 
 Où :
 
--   index : DWORD. Consultez la description ci-dessus.
+-   index : DWORD. Consultez la Description ci-dessus.
 -   indexColor : modèle ColorRGBA. Consultez [**ColorRGBA**](colorrgba.md).
 
 ## <a name="see-also"></a>Voir aussi

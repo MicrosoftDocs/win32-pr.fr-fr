@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 106fa40989f21e50eb738f1a218394e8e7e9b4bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91d288b4e6380ab845af9a05381963444e28ddf50739ecd3f5563d9f2dc729fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580159"
 ---
 # <a name="glfrontface-function"></a>glFrontFace fonction)
 
@@ -57,14 +57,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *mode* n’était pas une valeur acceptée.<br/>                                                                                          |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans une scène composée entièrement de surfaces fermées opaques, les polygones de l’arrière-plan ne sont jamais visibles. L’élimination de ces polygones invisibles présente l’avantage évident de accélérer le rendu de l’image. Vous activez et désactivez l’élimination des polygones de type « arrière » avec [**glEnable**](glenable.md) et [**glDisable**](gldisable.md) à l’aide de l’argument GL \_ Culling \_ .
 

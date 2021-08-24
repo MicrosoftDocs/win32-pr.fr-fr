@@ -4,12 +4,12 @@ description: En savoir plus sur les boutons de la barre d’outils Éditeur de c
 ms.assetid: 8867a038-d2c4-43c1-b994-bd3779a251b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0e9e6a3d2393709c6f3033111c3c88899326d99
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: e2be6bc8ee19da1134dd86ce7fafb37578ef55efc27d30ac119a63d15b7c8856
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104550692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608123"
 ---
 # <a name="toolbar-buttons-microsoft-agent-character-editor"></a>Boutons de la barre d’outils (éditeur de caractères Microsoft Agent)
 
@@ -77,7 +77,7 @@ Imprime le fichier de définition de caractère actif ouvert dans l’éditeur.
 <span id="Cut"></span><span id="cut"></span><span id="CUT"></span>**Réduis**
 </dt> <dd>
 
-Supprime l’élément sélectionné dans l’éditeur et le place dans le presse-papiers Windows.
+supprime l’élément sélectionné dans l’éditeur et le place dans le presse-papiers Windows.
 
 </dd> </dl>
 
@@ -88,7 +88,7 @@ Supprime l’élément sélectionné dans l’éditeur et le place dans le press
 <span id="Copy"></span><span id="copy"></span><span id="COPY"></span>**Reprographie**
 </dt> <dd>
 
-Copie l’élément sélectionné dans l’éditeur dans le presse-papiers Windows.
+copie l’élément sélectionné dans l’éditeur dans le presse-papiers Windows.
 
 </dd> </dl>
 
@@ -99,7 +99,7 @@ Copie l’élément sélectionné dans l’éditeur dans le presse-papiers Windo
 <span id="Paste"></span><span id="paste"></span><span id="PASTE"></span>**Insérer**
 </dt> <dd>
 
-Copie les données du presse-papiers Windows actuel vers l’emplacement sélectionné.
+copie les données du presse-papiers Windows actuel vers l’emplacement sélectionné.
 
 </dd> </dl>
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bf7513245b1eb138bb5a827eca38825e3dd2729
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5aa8fa5cab6ca55766e2abd3cd863471d67041ef4801877ebbb41c2647b64ca9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552759"
 ---
 # <a name="ms-ds-az-minor-version-attribute"></a>attribut ms-DS-AZ-minor-version
 
@@ -36,7 +36,7 @@ Numéro de version mineure pour AzRoles.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1825              |
 | System-ID-GUID    | ee85ed93-b209-4788-8165-e702f51bfbf3 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -44,7 +44,7 @@ Numéro de version mineure pour AzRoles.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

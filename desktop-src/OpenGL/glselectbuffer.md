@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efa5b97abad6575de77a760c72e3eb05e90461c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17c40030c34ece43f4e24ac6937c35400fed7ab7acc005e99c653b233e08b69e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519819"
 ---
 # <a name="glselectbuffer-function"></a>glSelectBuffer fonction)
 
@@ -65,7 +65,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | la *taille* était négative.<br/>                                                                                                       |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée alors que le mode de rendu était « GL \_ Select ».<br/>                                                              |
@@ -73,7 +73,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glSelectBuffer** a deux paramètres : la *mémoire tampon* est un pointeur vers un tableau d’entiers non signés et la *taille* indique la taille du tableau. Le paramètre *buffer* retourne des valeurs à partir de la pile de noms (consultez [**glInitNames**](glinitnames.md), [**glLoadName**](glloadname.md), [**glPushName**](glpushname.md)) lorsque le mode de rendu est GL \_ Select (voir [**glRenderMode**](glrendermode.md)). La fonction **glSelectBuffer** doit être émise avant l’activation du mode de sélection, et elle ne doit pas être émise tant que le mode de rendu est GL \_ Select.
 

@@ -4,12 +4,12 @@ description: Propriété TTSModeID
 ms.assetid: 9205c37e-e006-466a-9b33-b98408c01ed7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6852f203f5df716df6cfc5962f9cfa911d8fc1a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d1a720b06362b77418434669146a0d89dea8afd37d7a44c4079b2e12c24fcd2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607959"
 ---
 # <a name="ttsmodeid-property"></a>Propriété TTSModeID
 
@@ -27,7 +27,7 @@ Retourne ou définit le mode de moteur TTS utilisé pour le caractère.
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »). TTSModeID* *  \[  =  *ModeID*\]
+*agent ***. Caractères («**_CharacterID_*_»). TTSModeID_ *  \[  =  *ModeID*\]
 
 
 
@@ -37,11 +37,11 @@ Retourne ou définit le mode de moteur TTS utilisé pour le caractère.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété détermine l’ID de mode de moteur TTS (conversion de texte par synthèse vocale) pour la sortie parlée d’un caractère. L’ID de mode pour un moteur TTS est une chaîne mise en forme définie par le fournisseur de reconnaissance vocale qui identifie de façon unique le mode du moteur. Pour plus d’informations, consultez [accès à un moteur de reconnaissance vocale dans votre code](accessing-a-speech-engine-in-your-code.md).
 
@@ -58,26 +58,26 @@ La configuration requise du moteur de reconnaissance vocale de Microsoft Agent e
 > [!Note]  
 > Cette propriété retourne également la chaîne vide si aucune prise en charge de son compatible n’est installée sur votre système.
 
- 
+ 
 
 > [!Note]  
 > La définition de **TTSModeID** peut échouer si Speech.dll n’est pas installé et que le moteur que vous spécifiez ne correspond pas au paramètre de mode TTS compilé du caractère.
 
- 
+ 
 
 > [!Note]  
 > L’interrogation de cette propriété ne retourne généralement pas d’erreur. Toutefois, si le temps de chargement du moteur de reconnaissance vocale est anormalement long, vous pouvez obtenir une erreur indiquant que la requête a expiré.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**LanguageID, propriété**](languageid-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

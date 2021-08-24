@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52ca2f6cee3f403b1b8269ac3b5629c07395cb79
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: cfecbe226229d6c47ee358b6f503d59164cd72cf179144c725c79dd2ab8ee107
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583019"
 ---
 # <a name="ms-dfsr-extension-attribute"></a>MS-DFSR-attribut d’extension
 
@@ -43,7 +43,7 @@ Contient l’attribut d’extension de réplication système de fichiers DFS (DF
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -131,7 +131,7 @@ Contient l’attribut d’extension de réplication système de fichiers DFS (DF
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **MS-DFSR-extension** fait partie de la prise en charge du service réplication DFS.
 

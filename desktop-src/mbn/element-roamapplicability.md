@@ -7,12 +7,12 @@ MSHAttr:
 title: RoamApplicability
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e29438df96a3a12bb791870b1cc0d59e84f77d52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4515f8842d87361ce54cbd3e68de4e6d0e805caa7b46b675a086a83b84741c54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607219"
 ---
 # <a name="span-idwwan_profile_v4element_roamapplicabilityspanmbnprofileextroamapplicability-v4"></a><span id="WWAN_profile_v4.element_RoamApplicability"></span>MBNProfileExt \/ RoamApplicability (v4)
 
@@ -40,11 +40,11 @@ Spécifie que ce profil est actif uniquement lorsque la condition d’itinéranc
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucun.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-Aucun
+Aucun.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 

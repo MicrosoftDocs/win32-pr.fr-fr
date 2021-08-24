@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 98c6026497496ab758c71a8a0403557ad2cacc7f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0eb6c8e86d21894bcf8abcf921706e46b78f45844d4bd7f66c8d6cfcfc019d5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323179"
 ---
 # <a name="changesecuritypermissions-method-of-the-win32_directory-class"></a>Méthode ChangeSecurityPermissions de la \_ classe Directory Win32
 
@@ -107,7 +107,7 @@ Modifiez la liste de contrôle d’accès système (SACL) du fichier logique.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la valeur 0 (zéro) si les autorisations sont modifiées et un autre nombre pour indiquer une erreur.
 
@@ -167,7 +167,7 @@ Le système de fichiers n’est pas un système de fichiers NTFS.
 
 </dd> <dt>
 
-**Plateforme non NT/Windows 2000**
+**plateforme non NT/Windows 2000**
 </dt> <dd>
 
 12

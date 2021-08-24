@@ -6,12 +6,12 @@ keywords:
 - Identificateurs de format
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0202cd1287c3b4fef6e9e2b56e272541a03425b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72ec9e9843b1dfe843e89ebf85eadbbcb5da8cb58dfc1b289eb88c844aae7456
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663149"
 ---
 # <a name="format-identifiers"></a>Identificateurs de format
 
@@ -31,9 +31,9 @@ Tout code qui requiert FMTID pour le jeu de propriétés d’informations de syn
 
 Lors du stockage de jeux de propriétés dans des instances de [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) , convertissez le fmtid en un nom de chaîne pour l’objet de stockage.
 
- 
+ 
 
- 
+ 
 
 
 

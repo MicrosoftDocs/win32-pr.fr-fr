@@ -1,12 +1,12 @@
 ---
-title: Écriture de flux avec des pixels non carrés
-description: Écriture de flux avec des pixels non carrés
+title: écriture de Flux avec des Pixels Non carrés
+description: écriture de Flux avec des Pixels Non carrés
 ms.assetid: 4af7dedc-e2b8-4dc2-add4-84424e93c297
 keywords:
 - Windows Media Format SDK, écriture de flux vidéo
-- Kit de développement logiciel (SDK) Windows Media format, flux vidéo
+- Windows Media Format SDK, flux vidéo
 - Windows Media Format SDK, pixels non carrés
-- Windows Media Format SDK, pixels (non carrés)
+- Windows Media Format SDK, pixels (non carré)
 - ASF (Advanced Systems Format), écriture de flux vidéo
 - ASF (format avancé des systèmes), écriture de flux vidéo
 - ASF (Advanced Systems Format), flux vidéo
@@ -22,16 +22,16 @@ keywords:
 - pixels (non carrés)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1349840f151ab787ba0e0512cfab8fea08aacf1
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 08b44df1e4b4ce3f2bf2cb0e1d795b4caf396b6396e3e70b68b9040ad9a5456f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657949"
 ---
-# <a name="writing-streams-with-non-square-pixels"></a>Écriture de flux avec des pixels non carrés
+# <a name="writing-streams-with-non-square-pixels"></a>écriture de Flux avec des Pixels Non carrés
 
-Il existe deux façons de créer des flux vidéo avec des pixels non carrés qui s’affichent correctement dans le lecteur Windows Media. La première technique consiste à définir des attributs au niveau du flux dans l’en-tête du fichier. La deuxième technique implique l’ajout d’une extension d’unité de données à un flux du profil, puis la définition d’une valeur pour celle-ci dans chaque exemple écrit.
+il existe deux façons de créer des flux vidéo avec des pixels non carrés qui s’affichent correctement dans Lecteur Windows Media. La première technique consiste à définir des attributs au niveau du flux dans l’en-tête du fichier. La deuxième technique implique l’ajout d’une extension d’unité de données à un flux du profil, puis la définition d’une valeur pour celle-ci dans chaque exemple écrit.
 
 ## <a name="to-use-stream-level-header-attributes-to-set-pixel-aspect-ratio"></a>Pour utiliser des attributs d’en-tête au niveau du flux pour définir les proportions de pixels
 
@@ -60,12 +60,12 @@ Il existe deux façons de créer des flux vidéo avec des pixels non carrés qui
 
 <dl> <dt>
 
-[**Pour lire et écrire des flux vidéo avec des pixels non carrés**](to-read-and-write-video-streams-with-non-square-pixels.md)
+[**pour lire et écrire des Flux vidéo avec des Pixels Non carrés**](to-read-and-write-video-streams-with-non-square-pixels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

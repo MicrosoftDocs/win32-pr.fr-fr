@@ -6,12 +6,12 @@ keywords:
 - tâches Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efbb4ef41915ec70c98b59c9a7ba74c00f283ce6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43f6122bcf32e0c3e242b6dce119432a9014718d4b65d19c613ce27794355491
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119517103"
 ---
 # <a name="tasks"></a>Tâches
 
@@ -22,7 +22,7 @@ Quand une tâche est créée, elle est stockée dans un dossier de tâches. Les 
 > [!Note]  
 > Si le compte système local se voit refuser l’accès à un fichier de tâche ou à un dossier de tâches, le service Planificateur de tâches peut produire des résultats inattendus.
 
- 
+ 
 
 ## <a name="components-of-a-task"></a>Composants d’une tâche
 
@@ -51,7 +51,7 @@ La liste suivante contient une brève description de chaque composant de tâche�
     > [!Note]  
     > Par défaut, une tâche sera arrêtée 72 heures après son démarrage. Vous pouvez modifier ce paramètre en modifiant le paramètre [**ExecutionTimeLimit**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_executiontimelimit) .
 
-     
+     
 
 -   Informations d’inscription : il s’agit d’informations d’administration collectées lorsque la tâche est inscrite. Par exemple, ces informations décrivent l’auteur de la tâche, la date à laquelle la tâche a été inscrite, une description XML de la tâche et d’autres informations.
 
@@ -63,7 +63,7 @@ La liste suivante contient une brève description de chaque composant de tâche�
 
 Planificateur de tâches 2,0 fournit deux ensembles d’API : un ensemble d’interfaces et d’objets de script pour Planificateur de tâches 2,0. Pour plus d’informations, consultez [Planificateur de tâches référence](task-scheduler-reference.md).
 
-La compatibilité des tâches, définie par la propriété de [**compatibilité**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility) , doit uniquement être définie sur \_ compatibilité \_ des tâches v1 si une tâche doit être accessible ou modifiée à partir d’un ordinateur Windows XP, Windows Server 2003 ou Windows 2000. Dans le cas contraire, il est recommandé d’utiliser la compatibilité Planificateur de tâches 2,0, car elle a plus de fonctionnalités.
+la compatibilité des tâches, définie par la propriété de [**compatibilité**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_compatibility) , doit uniquement être définie sur \_ compatibilité \_ des tâches V1 si une tâche doit être accessible ou modifiée à partir d’un ordinateur Windows XP, Windows Server 2003 ou Windows 2000. Dans le cas contraire, il est recommandé d’utiliser la compatibilité Planificateur de tâches 2,0, car elle a plus de fonctionnalités.
 
 À compter de Planificateur de tâches 2,0, l’interface [**la**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) ([**TaskService**](taskservice.md) pour les scripts) est utilisée comme point de départ pour créer des tâches dans les dossiers spécifiés. L’interface [**ITaskDefinition**](/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition) ([**TaskDefinition**](taskdefinition.md) pour les scripts) est utilisée pour contenir tous les composants d’une tâche, tels que les paramètres, les actions et les déclencheurs. Les API [**ITaskTrigger**](/windows/desktop/api/Mstask/nn-mstask-itasktrigger), [**IAction**](/windows/desktop/api/taskschd/nn-taskschd-iaction)et [**ITaskSettings**](/windows/desktop/api/taskschd/nn-taskschd-itasksettings) fournissent des propriétés qui sont ensuite utilisées pour définir les autres composants de la tâche. Planificateur de tâches 1,0 fournit l’interface [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask) , qui est prise en charge uniquement pour la compatibilité descendante.
 
@@ -73,7 +73,7 @@ Pour plus d’informations et des exemples sur l’utilisation des interfaces Pl
 
 ### <a name="task-scheduler-10-tasks"></a>Planificateur de tâches les tâches 1,0
 
-Une tâche Planificateur de tâches 1,0 est tout type d’application ou de fichier que le Planificateur de tâches peut exécuter. Il peut s’agir de l’un des éléments suivants (pris en charge par le système d’exploitation sur lequel la tâche s’exécute) : les applications Win32, les applications Win16, les applications du système d’exploitation/2, les applications MS-DOS, les fichiers de commandes ( \* . bat), les fichiers de commandes ( \* . cmd) ou tout type de fichier correctement inscrit.
+Une tâche Planificateur de tâches 1,0 est tout type d’application ou de fichier que le Planificateur de tâches peut exécuter. Il peut s’agir de l’un des éléments suivants (pris en charge par le système d’exploitation sur lequel la tâche s’exécute) : les applications Win32, les applications Win16, les applications du système d’exploitation/2, les applications MS-DOS, les fichiers de commandes ( \*.bat), les fichiers de commandes ( \* . cmd) ou tout type de fichier correctement inscrit.
 
 Les données qui décrivent une tâche sont conservées dans un fichier de tâches qui est stocké dans le dossier tâches planifiées. Pour plus d’informations, consultez [*dossier tâches planifiées*](s.md). Le nom de ces fichiers de tâches inclut le nom de la tâche, suivi de l’extension de nom de fichier. job.
 
@@ -81,13 +81,13 @@ Pour plus d’informations sur l’ajout d’Planificateur de tâches tâches 1,
 
 Pour plus d’informations sur l’énumération par le biais de Planificateur de tâches tâches 1,0, consultez [énumération de tâches](enumerating-tasks.md).
 
-Pour qu’un ordinateur Windows Server 2003, Windows XP ou Windows 2000 crée, surveille ou contrôle des tâches sur un ordinateur Windows Vista, les opérations suivantes doivent être effectuées sur l’ordinateur Windows Vista, et l’utilisateur qui appelle la méthode [**ITaskScheduler :: SetTargetComputer**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-settargetcomputer) doit être membre du groupe Administrateurs sur l’ordinateur Windows Vista distant.
+pour un ordinateur Windows Server 2003, Windows XP ou Windows 2000 pour créer, surveiller ou contrôler des tâches sur un ordinateur Windows vista, les opérations suivantes doivent être effectuées sur l’ordinateur Windows vista, et l’utilisateur qui appelle la méthode [**ITaskScheduler :: SetTargetComputer**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-settargetcomputer) doit être membre du groupe administrateurs sur l’ordinateur distant Windows vista.
 
-**Pour activer l’exception de partage de fichiers et d’imprimantes dans le pare-feu Windows**
+**pour activer l’exception de partage de fichiers et d’imprimantes dans Windows pare-feu**
 
 1.  Cliquez sur **Démarrer**, puis sur **Panneau de configuration**.
-2.  Dans le **panneau de configuration**, cliquez sur **affichage classique** , puis double-cliquez sur l’icône **pare-feu Windows** .
-3.  Dans la fenêtre **pare-feu Windows** , cliquez sur l’onglet **exceptions** et activez la case à cocher exception de **partage de fichiers et d’imprimantes** .
+2.  dans le **panneau de configuration**, cliquez sur **affichage classique** , puis double-cliquez sur l’icône de **pare-feu Windows** .
+3.  dans la fenêtre **Windows pare-feu** , cliquez sur l’onglet **exceptions** et activez la case à cocher exception de **partage de fichiers et d’imprimantes** .
 
 **Pour activer le service « Registre distant »**
 
@@ -118,9 +118,9 @@ Pour qu’un ordinateur Windows Server 2003, Windows XP ou Windows 2000 crée, s
 [**TaskService**](taskservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

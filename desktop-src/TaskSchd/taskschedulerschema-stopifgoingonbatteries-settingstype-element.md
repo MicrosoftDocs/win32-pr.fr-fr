@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2e7de57cde928760c15dd671010880e824c8979f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 50b92be11400d1dbb223115f11334e2a596e94e9df1fd018ce16e4a646c84825
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119516097"
 ---
 # <a name="stopifgoingonbatteries-settingstype-element"></a>Élément StopIfGoingOnBatteries (settingsType)
 
@@ -44,7 +44,7 @@ L’élément **StopIfGoingOnBatteries** est défini par le type complexe [**set
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur par défaut de cet élément est false. Notez que la valeur par défaut a été modifiée par rapport aux versions précédentes de Planificateur de tâches.
 

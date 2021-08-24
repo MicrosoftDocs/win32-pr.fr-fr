@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d1c5e925a3d9b510918636a221d5ad6e1b7da736
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3cf175a55ab5739b0fa171fe4c9553d3691be82d71b38fd5eb480d6e28043440
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567459"
 ---
 # <a name="cbasewindowinactivatewindow-method"></a>Méthode CBaseWindow. InactivateWindow
 
@@ -48,7 +48,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                             | Description                            |
 |-----------------------------------------------------------------------------------------|----------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                    |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                    |
 | <dl> <dt>**S \_ false**</dt> </dl> | La fenêtre est déjà inactive.<br/> |
 
 
@@ -61,7 +61,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

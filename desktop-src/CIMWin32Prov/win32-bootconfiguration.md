@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 556688d7c80038f04dd5b94b7c61c5d6dfef3199
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: db18b6ebbd7ccc9e87bffb06cd2b40647e4a9509edc1c27779a0b55efc36b7e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546513"
 ---
 # <a name="win32_bootconfiguration-class"></a>\_Classe BootConfiguration Win32
 
@@ -219,7 +219,7 @@ Exemple : « C : \\ temp »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ BootConfiguration** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 

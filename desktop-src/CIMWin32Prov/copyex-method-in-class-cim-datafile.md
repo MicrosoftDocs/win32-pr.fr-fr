@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a83f1556aeeafbb5cc95eddbd84806bdaef0be14
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 60d2d0e6802aac62384a9d686831867d556cdb2c4a63630199c9989a5263188a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547479"
 ---
 # <a name="copyex-method-of-the-cim_datafile-class"></a>Méthode CopyEx de la \_ classe de fichier de fichier CIM
 
@@ -205,7 +205,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **CopyEx** dans le [**fichier de \_ fichier CIM**](cim-datafile.md) est implémentée par WMI.
 

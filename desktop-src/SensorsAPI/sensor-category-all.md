@@ -4,12 +4,12 @@ ms.assetid: e2d9fe6d-450a-446b-968b-0924116af6fe
 title: SENSOR_CATEGORY_ALL (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a2e5641e51dde130cc51d9b2fc35fcc1e158ea6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b4254de58903d664f7a285890dae50202eca49c2a07e100460eab2a2ef81209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666869"
 ---
 # <a name="sensor_category_all"></a>\_catégorie \_ tout du capteur
 
@@ -37,7 +37,7 @@ Le tableau suivant décrit les champs de données définis par la plateforme.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Capteurs. h</dt> </dl> |
 

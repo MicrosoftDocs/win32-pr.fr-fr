@@ -3,7 +3,7 @@ title: Message CB_DIR (winuser. h)
 description: Ajoute des noms à la liste affichée par la zone de liste déroulante. Le message ajoute les noms des répertoires et des fichiers qui correspondent à une chaîne spécifiée et un ensemble d’attributs de fichier. \_Le répertoire CB peut également ajouter des lettres de lecteur mappées à la liste.
 ms.assetid: 6082d12c-0af4-4a99-98c0-6a98d171f4d8
 keywords:
-- CB_DIR les contrôles de message Windows
+- CB_DIR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98cbea5bb88614d5606dd3d5cb165be59f632556
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: defa19ffdebfb448e1a89c141da0b275c1df1bffdcfa9e3914293400d706b7ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119577119"
 ---
 # <a name="cb_dir-message"></a>\_Message du répertoire CB
 
@@ -66,7 +66,7 @@ Si le message est correctement exécuté, la valeur de retour est l’index de b
 
 Si une erreur se produit, la valeur de retour est CB \_ Err. Si l’espace est insuffisant pour stocker les nouvelles chaînes, la valeur de retour est CB \_ ERRSPACE.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si *wParam* inclut l' \_ indicateur de répertoire DDL et que *lParam* spécifie tous les sous-répertoires d’un répertoire de premier niveau, par exemple C : \\ temp \\ \* , la zone de liste inclura toujours une entrée « .. » pour le répertoire racine. Cela est vrai même si le répertoire racine contient des attributs système ou masqués et que les \_ indicateurs système DDL et DDL ne \_ sont pas spécifiés. Le répertoire racine d’un volume NTFS a des attributs système et masqués.
 
@@ -78,8 +78,8 @@ La liste affiche les noms de fichiers longs, le cas échéant.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

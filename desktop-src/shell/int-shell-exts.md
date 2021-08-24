@@ -4,12 +4,12 @@ ms.assetid: ce21ca0f-157c-4f69-bcf9-dc259c3bac80
 title: Initialisation des gestionnaires d’extensions de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6a27b6273c5e342dc4caf545fb3593cdad66261
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82f83a47400cff5d0fa4628f6f6f9d9ba74b158947c7843f61831d54f62c7a6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661219"
 ---
 # <a name="initializing-shell-extension-handlers"></a>Initialisation des gestionnaires d’extensions de Shell
 
@@ -21,7 +21,7 @@ Tous les gestionnaires d’extensions de Shell sont des objets COM (Component Ob
 -   [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject). Expose la fabrique de classe de l’objet.
 -   [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow). COM appelle cette fonction pour déterminer si l’objet dessert des clients. Si ce n’est pas le cas, le système peut décharger la DLL et libérer la mémoire associée.
 
-Comme tous les objets COM, les gestionnaires d’extensions de Shell doivent implémenter une interface [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) et une [fabrique de classe](../com/implementing-iclassfactory.md). La plupart d’entre eux doivent également implémenter une interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) ou [**ISHELLEXTINIT**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) dans Windows XP ou une version antérieure. Ils ont été remplacés par [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) et [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) dans Windows Vista. L’interpréteur de commandes utilise ces interfaces pour initialiser le gestionnaire.
+Comme tous les objets COM, les gestionnaires d’extensions de Shell doivent implémenter une interface [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) et une [fabrique de classe](../com/implementing-iclassfactory.md). la plupart d’entre eux doivent également implémenter une interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) ou [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) dans Windows XP ou une version antérieure. celles-ci ont été remplacées par [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) et [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) dans Windows Vista. L’interpréteur de commandes utilise ces interfaces pour initialiser le gestionnaire.
 
 L’interface [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) doit être implémentée par les éléments suivants :
 
@@ -207,11 +207,11 @@ Les noms de propriétés suivants peuvent être utilisés.
 | Nom de la propriété    | Description                   | Récupéré à partir de                                                                            |
 |------------------|-------------------------------|-------------------------------------------------------------------------------------------|
 | Auteur           | Auteur du document        | [**\_auteur PIDSI**](../stg/the-summary-information-property-set.md)                             |
-| Intitulé            | Titre du document         | [**\_titre PIDSI**](../stg/the-summary-information-property-set.md)                              |
+| Titre            | Titre du document         | [**\_titre PIDSI**](../stg/the-summary-information-property-set.md)                              |
 | Objet          | Résumé de l’objet               | [**PIDSI \_ objet**](../stg/the-summary-information-property-set.md)                            |
 | Commentaire          | Commentaires sur le document             | [**PIDSI \_**](../stg/the-summary-information-property-set.md) Propriétés d’un commentaire ou d’un dossier/lecteur |
 | PageCount        | Nombre de pages               | [**PIDSI \_ PageCount**](../stg/the-summary-information-property-set.md)                          |
-| Nom             | Nom convivial                 | Affichage des dossiers standard                                                                      |
+| Name             | Nom convivial                 | Affichage des dossiers standard                                                                      |
 | OriginalLocation | Emplacement du fichier d’origine     | Dossier porte-documents et dossier Corbeille                                                   |
 | DateDeleted      | Date de suppression du fichier         | Dossier Corbeille                                                                        |
 | Type             | Type de fichier                  | Mode Détails du dossier standard                                                              |

@@ -4,12 +4,12 @@ ms.assetid: 0c01bd51-353d-4f48-b33c-796f740915e2
 title: Épingler le jeu de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e53955ba1f075094c4fb2f6324ed143ca54f72c2
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: d143d980de7f2a634deecb2c3f06509854ac5a50fbe120da279cce3ad97be1e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119316099"
 ---
 # <a name="pin-property-set"></a>Épingler le jeu de propriétés
 
@@ -35,7 +35,7 @@ La propriété pin définie renvoie la catégorie pin d’un code confidentiel s
 
  
 
-DirectShow définit les catégories de code confidentiel suivantes dans le fichier d’en-tête UUID. h.
+DirectShow définit les catégories de code confidentiel suivantes dans le fichier d’en-tête uuid. h.
 
 
 
@@ -51,7 +51,7 @@ DirectShow définit les catégories de code confidentiel suivantes dans le fichi
 | **ÉPINGLer la \_ catégorie \_ télétexte**       | Code confidentiel fournissant du télétexte (variante de sous-titrage).                                                                                                                                                                                                                                                                   |
 | **code \_ temporel de la catégorie pin \_**       | Code PIN fournissant les données de code temporel.                                                                                                                                                                                                                                                                                            |
 | **BROCHE \_ catégorie \_ VBI**            | Code PIN fournissant les données de l’intervalle de l’occultation vertical.                                                                                                                                                                                                                                                                          |
-| **PIN \_ catégorie \_ VIDEOPORT**      | Broche de sortie vidéo à connecter à la broche d’entrée zéro dans le [mélangeur de superposition](overlay-mixer-filter.md).                                                                                                                                                                                                                    |
+| **PIN \_ catégorie \_ VIDEOPORT**      | Broche de sortie vidéo à connecter à la broche d’entrée zéro dans le [mixer de recouvrement](overlay-mixer-filter.md).                                                                                                                                                                                                                    |
 | **BROCHE \_ catégorie \_ VIDEOPORT \_ VBI** | Code confidentiel à connecter à l' [allocateur de surface VBI](vbi-surface-allocator.md), filtre d’allocateur de surface VBI requis pour allouer la mémoire vidéo correcte pour des éléments tels que les superpositions de sous-titrage dans les scénarios où un port vidéo est utilisé. Les scénarios PCI, IEEE 1394 et USB n’utilisent pas ce filtre. |
 | **\_ \_ capture CC de la vidéo PINNAME \_**   | Découpage matériel fermé-code confidentiel                                                                                                                                                                                                                                                                                  |
 

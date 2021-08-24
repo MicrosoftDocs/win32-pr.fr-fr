@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8493bf46bc41d062f254f6e7d50331ed22dec25
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b9afc52f10ad8fc4df6c7785b3d9cbe19e46707042a519446ae580c49fa38622
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119644519"
 ---
 # <a name="userpkcs12-attribute"></a>attribut userPKCS12
 
@@ -43,7 +43,7 @@ ms.locfileid: "104033329"
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
