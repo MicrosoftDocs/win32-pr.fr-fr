@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 785057cd9ea23c05d58541450dc4c92a502877e5
-ms.sourcegitcommit: f10bb95039c20a9de79f21e3fcb93a543f30a00e
+ms.openlocfilehash: 3995d7a1b85acbbef07b93cc035e11434f5c6becaeac82b31b4e669ea1b5ef13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104200637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802089"
 ---
 # <a name="site-server-attribute"></a>Attribut Site-Server
 
@@ -46,7 +46,7 @@ Licence du serveur principal pour un site donné.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Licence du serveur principal pour un site donné.
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**Gestion des licences-site-paramètres**](c-licensingsitesettings.md)<br/> |
+| Classes utilisées dans        | [**licences-Site-Paramètres**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Licence du serveur principal pour un site donné.
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**Gestion des licences-site-paramètres**](c-licensingsitesettings.md)<br/> |
+| Classes utilisées dans        | [**licences-Site-Paramètres**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Licence du serveur principal pour un site donné.
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**Gestion des licences-site-paramètres**](c-licensingsitesettings.md)<br/> |
+| Classes utilisées dans        | [**licences-Site-Paramètres**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Licence du serveur principal pour un site donné.
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**Gestion des licences-site-paramètres**](c-licensingsitesettings.md)<br/> |
+| Classes utilisées dans        | [**licences-Site-Paramètres**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Licence du serveur principal pour un site donné.
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**Gestion des licences-site-paramètres**](c-licensingsitesettings.md)<br/> |
+| Classes utilisées dans        | [**licences-Site-Paramètres**](c-licensingsitesettings.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ Licence du serveur principal pour un site donné.
 | Range-Upper            | \-                                                                    |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Classes utilisées dans        | [**Gestion des licences-site-paramètres**](c-licensingsitesettings.md)<br/> |
+| Classes utilisées dans        | [**licences-Site-Paramètres**](c-licensingsitesettings.md)<br/> |
 
 
 

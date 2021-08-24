@@ -1,6 +1,6 @@
 ---
 title: Énumération ou liste de toutes les instances d’une ressource
-description: La méthode session. Enumerate est l’approche Windows Remote Management pour obtenir toutes les instances d’une ressource spécifiée.
+description: la méthode Session. enumerate est l’approche Windows Remote Management pour obtenir toutes les instances d’une ressource spécifiée.
 ms.assetid: c50c37bf-e19a-473b-8d27-ab3bb4ec86a0
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 54587ce97ec6ed5e87af8b0424a6a18d684f7698
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f510d0e0cc8115ca4dca7c7e46dd5e987ef0dd15dd4fa7d92e47d737e467d8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679989"
 ---
 # <a name="enumerating-or-listing-all-instances-of-a-resource"></a>Énumération ou liste de toutes les instances d’une ressource
 
-La méthode [**session. Enumerate**](session-enumerate.md) est l’approche Windows Remote Management pour obtenir toutes les instances d’une ressource spécifiée.
+la méthode [**Session. enumerate**](session-enumerate.md) est l’approche Windows Remote Management pour obtenir toutes les instances d’une ressource spécifiée.
 
 La méthode [**session. Enumerate**](session-enumerate.md) n’obtient pas de collection dans un objet [**SWbemObjectSet**](/windows/desktop/WmiSdk/swbemobjectset) comme un [**SWbemService.Exeappel cQuery**](/windows/desktop/WmiSdk/swbemservices-execquery) avec une [requête WMI](/windows/desktop/WmiSdk/querying-wmi) comme paramètre (par exemple, `ExecQuery("SELECT * from Win32_LogicalDisk")` ), ou un appel à une méthode telle que [**SWbemObject. instances \_**](/windows/desktop/WmiSdk/swbemobject-instances-). Les méthodes de l’objet **session. Enumerate** et [**Enumerator**](enumerator.md) sont bien plus similaires à celles de l’objet de script [TextStream](/previous-versions//312a5kbt(v=vs.85)) utilisé pour la lecture de fichiers en tant que flux.
 
@@ -103,15 +103,15 @@ End Sub
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
-[Utilisation de Windows Remote Management](using-windows-remote-management.md)
+[utilisation de Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
-[Référence Windows Remote Management](windows-remote-management-reference.md)
+[Windows Informations de référence sur la gestion à distance](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

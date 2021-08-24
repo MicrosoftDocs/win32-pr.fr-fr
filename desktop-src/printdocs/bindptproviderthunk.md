@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - prntvpt.dll
-ms.openlocfilehash: bf63fc6faf9d47993fafb97c8d3a1c18d6d6c985
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 460728eac742fb96ca122981a5874408e12e6c8eddd36fc901e70874e5e040c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720229"
 ---
 # <a name="bindptproviderthunk-function"></a>BindPTProviderThunk fonction)
 
-\[Cette fonction n’est pas prise en charge et peut être désactivée ou supprimée dans les versions futures de Windows. [**PTOpenProviderEx**](/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex) fournit des fonctionnalités équivalentes et doit être utilisé à la place.\]
+\[Cette fonction n’est pas prise en charge et peut être désactivée ou supprimée dans les versions ultérieures de Windows. [**PTOpenProviderEx**](/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex) fournit des fonctionnalités équivalentes et doit être utilisé à la place.\]
 
 Ouvre une instance d’un fournisseur de tickets d’impression.
 
@@ -84,7 +84,7 @@ Version du schéma d' [impression](./printschema.md) que le fournisseur de ticke
 
 Si la méthode est réussie, elle retourne **S \_ OK**; sinon, elle retourne un code d’erreur **HRESULT** . Pour plus d’informations sur les codes d’erreur COM, consultez [gestion des erreurs](../com/error-handling-in-com.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette fonction, le thread appelant doit initialiser COM en appelant [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex).
 
@@ -94,8 +94,8 @@ Avant d’appeler cette fonction, le thread appelant doit initialiser COM en app
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Prntvpt.dll</dt> </dl> |
 
 

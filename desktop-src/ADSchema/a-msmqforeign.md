@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f48b2ac1bedf02ef9c02350c7bc5f5d7e0292cd6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a5c3ca7e328e096647a0661fbf2409e0145f7383ce62373c9c93d76f3becc0ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106530817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762609"
 ---
 # <a name="msmq-foreign-attribute"></a>Attribut MSMQ-Foreign
 
@@ -45,7 +45,7 @@ Indique si cet ordinateur est un ordinateur MSMQ étranger.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d21fab1519664471bdc2bb5d7102d94cbe3dde1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3baf6405f160401b3a2fe8024861d92560484a513e1c55436f9e149e92daed7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681909"
 ---
 # <a name="msvm_collectionreferencepointexportjob-class"></a>MSVM \_ CollectionReferencePointExportJob, classe
 
@@ -194,7 +194,7 @@ Type d'accès : Lecture seule
 Chemin d’accès du fichier d’État invité de l’ordinateur virtuel exporté.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1709.
+> ajouté dans Windows 10, version 1709.
 
  
 
@@ -258,7 +258,7 @@ GUID des machines virtuelles pour lesquelles l’opération d’exportation a é
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

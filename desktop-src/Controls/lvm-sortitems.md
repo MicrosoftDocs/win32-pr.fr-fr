@@ -3,7 +3,7 @@ title: Message LVM_SORTITEMS (commctrl. h)
 description: Utilise une fonction de comparaison définie par l’application pour trier les éléments d’un contrôle List View. L’index de chaque élément change pour refléter la nouvelle séquence. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView SortItems.
 ms.assetid: ed3d5cec-69af-49a1-9cb7-eb5da1163071
 keywords:
-- LVM_SORTITEMS les contrôles de message Windows
+- LVM_SORTITEMS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aba6e739a15eec5e951d7c3ead04aa36a8201f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a245e8236995d0d595c339b322140ee53ab5f84e83f1ecbd6b8ed47293e7dc7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816389"
 ---
 # <a name="lvm_sortitems-message"></a>\_Message SORTITEMS LVM
 
@@ -47,7 +47,7 @@ Pointeur vers la fonction de comparaison définie par l’application. La foncti
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction de comparaison se présente sous la forme suivante :
 
@@ -70,8 +70,8 @@ La fonction de comparaison doit retourner une valeur négative si le premier él
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

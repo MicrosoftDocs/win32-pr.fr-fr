@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5df55ff88c87047a48a84a122c8e58c8148a7cff
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7b889d3611d1854c7f1f189868d503878cffd437374ba3c543ce474cf47b25d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760069"
 ---
 # <a name="setdefaulttos-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDefaultTOS de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode statique de la [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **SetDefaultTOS** permet de définir la valeur OT par défaut dans l’en-tête des paquets IP sortants.
 

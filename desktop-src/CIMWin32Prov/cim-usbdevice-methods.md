@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_USBDevice
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07002956e79f47403d45ae5bf7499657c77af9d1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5b40ba3602333d0603da04c4ef2433b62567db2f61c7bc60d0e72647438a111a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106545767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119817549"
 ---
 # <a name="cim_usbdevice-methods"></a>\_Méthodes USBDEVICE CIM
 

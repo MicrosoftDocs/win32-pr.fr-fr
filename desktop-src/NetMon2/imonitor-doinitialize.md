@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: 93133ce8204e49d080f87635ad6952685f2ba82d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 013a1604c1cbc709f35ac23378bab008d6c67f9053c171190b20669106303f37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779179"
 ---
 # <a name="imonitordoinitialize-method"></a>IMonitor ::D méthode oInitialize
 
-La méthode de **neuroinitialize** doit être implémentée par l’analyse. Le MCSVC appelle cette méthode pour obtenir un filtre de capture immédiatement avant d’appeler la méthode [IRTC :: Connect](irtc-connect.md) du NPP.
+La méthode de **neuroinitialize** doit être implémentée par l’analyse. le MCSVC appelle cette méthode pour obtenir un filtre de capture immédiatement avant d’appeler la méthode [IRTC :: Connecter](irtc-connect.md) du NPP.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -62,7 +62,7 @@ Si la méthode réussit, la valeur de retour est S \_ OK (ce qui est identique �
 
 Si la méthode échoue, la valeur de retour est un code d’erreur. En cas d’erreur, MCSVC ne crée pas le moniteur ni n’appelle [IUnknown :: Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) sur le pointeur d’interface.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 MCSVC appelle la méthode **noinitialize** pour effectuer toute initialisation de moniteur nécessaire.
 

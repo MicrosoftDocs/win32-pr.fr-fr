@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c62b4abf60e367da1c4ac4b176e5f5d70f547c9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6b86f8b6d0b2fc5ff9ed8c968c9c3a321623c81e1613ce82aca18944e9ac6c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682599"
 ---
 # <a name="createsnapshot-method-of-the-msvm_virtualsystemsnapshotservice-class"></a>Méthode CreateSnapshot de la \_ classe VirtualSystemSnapshotService MSVM
 
@@ -229,8 +229,8 @@ public static void CreateSnapshot(string vmName)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | En-tête<br/>                   | <dl> <dt>Dbdaoint. h</dt> </dl>                   |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

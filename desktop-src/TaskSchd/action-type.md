@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db8ca46a80503136c5fbbe1240cba6c664bc1a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 499c7e42b5b2578928796e6f878219e0c53612e454948d390cdb631dcaccd64c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739029"
 ---
 # <a name="actiontype-property"></a>Action. type, propriété
 
@@ -53,7 +53,7 @@ Cette propriété retourne l’une des constantes d’énumération de [**\_ \_ 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type d’action est défini lors de la création de l’action et ne peut pas être modifié ultérieurement. Pour plus d’informations sur la création d’une action, consultez [**ActionCollection. Create**](actioncollection-create.md).
 
@@ -65,8 +65,8 @@ Pour plus d’informations sur la façon dont les actions et les tâches fonctio
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

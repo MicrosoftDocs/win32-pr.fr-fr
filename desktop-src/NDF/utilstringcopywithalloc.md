@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b68bd1815ff09473f0431dde19a12a87603a9dec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3654fa5eefd45a51d963325e10fbcba765420afe25a5c47a058bbaf4e4093ef0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801529"
 ---
 # <a name="utilstringcopywithalloc-function"></a>UtilStringCopyWithAlloc fonction)
 
@@ -45,9 +45,9 @@ HRESULT UtilStringCopyWithAlloc(
 *Mémoire tampon* \[ à\]
 </dt> <dd>
 
-Tapez : **LPWStr \** _
+Type : **LPWStr \***
 
-Emplacement de stockage du pointeur vers la mémoire allouée. Quand vous n’en avez plus besoin, elle doit être libérée avec [_ *CoTaskMemFree* *](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree). Cette mémoire tampon se termine toujours par un caractère null.
+Emplacement de stockage du pointeur vers la mémoire allouée. Quand vous n’en avez plus besoin, il doit être libéré avec [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree). Cette mémoire tampon se termine toujours par un caractère null.
 
 </dd> <dt>
 
@@ -92,8 +92,8 @@ Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les él
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ndattributils. h</dt> </dl> |
 
 

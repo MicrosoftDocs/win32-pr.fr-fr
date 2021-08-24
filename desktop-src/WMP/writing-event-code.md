@@ -3,26 +3,26 @@ title: Écriture du code d’événement
 description: Écriture du code d’événement
 ms.assetid: ce29aa81-1db8-4aea-a3bd-86c6b559fff7
 keywords:
-- Apparences du lecteur Windows Media, écriture de code
+- apparences de Lecteur Windows Media, écriture de code
 - apparences, écrire du code
 - événements, écriture de code
 - écriture de code pour les habillages, à propos de
-- Apparences du lecteur Windows Media, événements
+- apparences de Lecteur Windows Media, événements
 - apparences, événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d994f4ee111795b8fd2b498d26ab65b8bd44dea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b39c35864151db1671c2f7fa94caea803f0a33cc1082a3ae44082a90f7bddafb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760569"
 ---
 # <a name="writing-event-code"></a>Écriture du code d’événement
 
 Les événements sont traités de la même façon que les attributs. Vous devez attribuer une valeur à l’événement, et la valeur est le code que vous souhaitez exécuter lorsque l’événement se produit. Le mot « on » est ajouté au début du nom de l’événement ; par exemple, l’événement Click deviendra **OnClick**.
 
-La valeur de l’événement est entre guillemets doubles et commence par le mot JScript suivi d’un signe deux-points. Le code que vous souhaitez exécuter est ensuite suivi d’un point-virgule et des guillemets doubles fermants. Par exemple, pour arrêter la diffusion quand l’utilisateur clique sur un bouton, tapez la commande suivante en tant qu’attribut dans votre code d’élément de **bouton** :
+la valeur de l’événement est entre guillemets doubles et commence par le mot JScript suivi d’un signe deux-points. Le code que vous souhaitez exécuter est ensuite suivi d’un point-virgule et des guillemets doubles fermants. Par exemple, pour arrêter la diffusion quand l’utilisateur clique sur un bouton, tapez la commande suivante en tant qu’attribut dans votre code d’élément de **bouton** :
 
 
 ```C++
@@ -56,9 +56,9 @@ onclick = "JScript: myView.close() ;"
 [**Gestion des événements**](handling-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

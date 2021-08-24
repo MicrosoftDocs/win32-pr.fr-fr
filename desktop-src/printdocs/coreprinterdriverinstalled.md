@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Spoolss.dll
-ms.openlocfilehash: 2e4f7033e5ca15a892a208621049c2f500873d73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 014b9932046ab6d66b64794bbe042f43a390f9f6a4b6183d36a6338eca434526
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719769"
 ---
 # <a name="coreprinterdriverinstalled-function"></a>CorePrinterDriverInstalled fonction)
 
@@ -94,7 +94,7 @@ Si l’opération a échoué, la valeur de retour est S \_ OK, sinon le **HRESUL
 
 Pour plus d’informations sur les codes d’erreur COM, consultez [gestion des erreurs](../com/error-handling-in-com.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -107,8 +107,8 @@ Pour plus d’informations sur les codes d’erreur COM, consultez [gestion des 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Winspool. lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Spoolss.dll</dt> </dl>                    |

@@ -4,12 +4,12 @@ ms.assetid: a6be24e5-7937-48f1-abeb-3f29c3deeafd
 title: Broches de port vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d13ab4ad63995dd38460bf29064035c9c1802dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94202e05cc467eabb77719a145a77310a62482e6f82772261b57e5ff544d2b63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696782"
 ---
 # <a name="video-port-pins"></a>Broches de port vidéo
 
@@ -17,15 +17,15 @@ Un périphérique de capture avec un port vidéo matériel peut utiliser les ext
 
 Il est important de connecter le code confidentiel du VP, même si votre application n’effectue que la capture de fichiers sans aperçu. Si vous laissez le code confidentiel non connecté, le graphique ne s’exécutera pas correctement. Cela diffère des codes confidentiels d’aperçu, qui n’ont pas besoin d’être connectés.
 
-Les différents convertisseurs vidéo DirectShow offrent une prise en charge différente des broches de vice-président :
+les différents convertisseurs vidéo DirectShow offrent une prise en charge différente des broches de vice-président :
 
--   Convertisseur vidéo : Connectez le code confidentiel du VP à la broche 0 sur le filtre de [mixage de superposition](overlay-mixer-filter.md) et connectez le filtre de mixage de recouvrement au convertisseur vidéo.
--   VMR-7 : Connectez le code confidentiel du VP au filtre du [Gestionnaire de port vidéo](video-port-manager.md) et connectez le gestionnaire de port vidéo au VMR-7.
+-   convertisseur vidéo : Connecter la broche du VP pour épingler 0 sur le filtre de [Mixer de recouvrement](overlay-mixer-filter.md) , puis connecter le filtre de Mixer de recouvrement au convertisseur vidéo.
+-   VMR-7 : Connecter le code confidentiel du VP au filtre du [gestionnaire de port vidéo](video-port-manager.md) et connectez le gestionnaire de port vidéo au VMR-7.
 -   VMR-9 : vous ne pouvez pas utiliser VMR-9 si l’appareil a un code confidentiel de directeur, car Direct3D 9 ne prend pas en charge les ports vidéo. Utilisez le convertisseur vidéo ou VMR-7.
 
-Pour les scénarios de port vidéo, le mélangeur de superposition et le convertisseur vidéo sont recommandés sur le gestionnaire de port vidéo et VMR-7, car tous les pilotes ne prennent pas en charge le gestionnaire de port vidéo. En général, le mélangeur de superposition est l’option la plus fiable pour les ports vidéo.
+pour les scénarios de port vidéo, le Mixer de recouvrement et le convertisseur vidéo sont recommandés sur le gestionnaire de port vidéo et VMR-7, car tous les pilotes ne prennent pas en charge le gestionnaire de port vidéo. en général, la superposition Mixer est l’option la plus fiable pour les ports vidéo.
 
-La méthode [**ICaptureGraphBuilder2 :: RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) insère automatiquement le mélangeur de superposition s’il y a un code confidentiel de VP. Si vous générez le graphique sans utiliser cette méthode, vous devez vérifier la présence d’une broche de port vidéo sur le filtre de capture et, le cas échéant, la connecter au filtre de mixage de superposition, comme indiqué dans le diagramme suivant.
+la méthode [**ICaptureGraphBuilder2 :: RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) insère automatiquement la superposition Mixer s’il existe un code confidentiel VP. si vous générez le graphique sans utiliser cette méthode, vous devez vérifier la présence d’une broche de port vidéo sur le filtre de capture et, le cas échéant, la connecter à la superposition Mixer filtre, comme indiqué dans le diagramme suivant.
 
 ![connexion d’une broche de port vidéo au filtre de mixage de superposition.](images/vidcap11.png)
 
@@ -46,7 +46,7 @@ hr = pBuild->FindPin(
 
 
 
-Une fois que vous avez ajouté le mélangeur de superposition au graphique, appelez à nouveau **FindPin** pour trouver la broche 0 sur le mélangeur de superposition. La broche 0 est toujours la première broche d’entrée sur le filtre.
+une fois que vous avez ajouté le Mixer de superposition au graphique, appelez à nouveau **FindPin** pour trouver la broche 0 dans le Mixer de recouvrement. La broche 0 est toujours la première broche d’entrée sur le filtre.
 
 
 ```C++
@@ -55,7 +55,7 @@ pBuild->FindPin(pOvMix, PINDIR_INPUT, NULL, NULL, TRUE, 0, &pOVPin);
 
 
 
-Connectez les deux codes confidentiels en appelant [**IGraphBuilder :: Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect).
+Connecter les deux codes confidentiels en appelant [**IGraphBuilder :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect).
 
 
 ```C++
@@ -64,7 +64,7 @@ pGraph->Connect(pVPPin, pOvPin);
 
 
 
-Ensuite, connectez la broche de sortie du mixer de superposition au filtre de convertisseur vidéo. Vous pouvez masquer la vidéo en appelant les méthodes [**IVideoWindow ::p ut \_ AutoShow**](/windows/desktop/api/Control/nf-control-ivideowindow-put_autoshow) et [**IVideoWindow ::p ut \_ visible**](/windows/desktop/api/Control/nf-control-ivideowindow-put_visible) sur le gestionnaire de graphique de filtre.
+ensuite, connectez la broche de sortie de Mixer de recouvrement au filtre de convertisseur vidéo. vous pouvez masquer la vidéo en appelant les méthodes [**IVideoWindow ::p \_ ut**](/windows/desktop/api/Control/nf-control-ivideowindow-put_autoshow) et [**IVideoWindow ::p ut \_ Visible**](/windows/desktop/api/Control/nf-control-ivideowindow-put_visible) sur le gestionnaire de Graph de filtre.
 
 Pour les tuners TV, le filtre de capture peut également avoir un code vidéo (PIN \_ catégorie \_ VIDEOPORT \_ VBI). Si c’est le cas, connectez ce code PIN au filtre d' [allocateur de surface VBI](vbi-surface-allocator.md) . Pour plus d’informations, consultez Affichage des sous- [titres](viewing-closed-captions.md).
 
@@ -75,7 +75,7 @@ Pour les tuners TV, le filtre de capture peut également avoir un code vidéo (P
 [Rubriques avancées sur la capture](advanced-capture-topics.md)
 </dt> <dt>
 
-[Utilisation du mélangeur de superposition dans la capture vidéo](using-the-overlay-mixer-in-video-capture.md)
+[utilisation de la superposition Mixer dans la Capture vidéo](using-the-overlay-mixer-in-video-capture.md)
 </dt> </dl>
 
  

@@ -3,14 +3,14 @@ title: MCIERR les valeurs de retour
 description: MCIERR les valeurs de retour
 ms.assetid: 61f7b128-b4f7-4385-9daf-e2bc9fb36e24
 keywords:
-- Windows Multimedia, MCIERR, valeurs de retour
+- Windows multimédia, valeurs de retour MCIERR
 - multimédias, valeurs de retour MCIERR
 - Référence multimédia, valeurs de retour MCIERR
 - référence pour les valeurs de retour multimédias, MCIERR
 - MCIERR les valeurs de retour, à propos de
 - mciSendCommand fonction)
 - mciSendString fonction)
-- Multimédia Windows, Erreurs
+- Windows multimédia, erreurs
 - multimédia, Erreurs
 - Référence multimédia, Erreurs
 - référence pour les éléments multimédias, Erreurs
@@ -24,12 +24,12 @@ keywords:
 - Informations de référence sur MCI, Erreurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8912284b98b2aacb60905e3fef4dc32705a5656
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 57fc8426b264f68d7a6ab793e365d529774c931e72d89536b40b22592728a2ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106527147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783409"
 ---
 # <a name="mcierr-return-values"></a>MCIERR les valeurs de retour
 
@@ -43,6 +43,6 @@ Les fonctions [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) et [**
 
 Vous pouvez obtenir une description des valeurs de retour individuelles en passant les valeurs de retour à la fonction [**mciGetErrorString**](/previous-versions//dd757158(v=vs.85)) .
 
- 
+ 
 
- 
+ 

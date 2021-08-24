@@ -4,12 +4,12 @@ description: Nous montrons comment créer des fonctions HLSL précompilées, les
 ms.assetid: 3A1597FF-F848-415E-BDF8-199C69C05C3B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7528415f1bedb0364a9c4b09126a983222fc42b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e44f382596f3839460943fdbefe5687c4e7b18401db016ad3f834284e994217b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742279"
 ---
 # <a name="using-shader-linking"></a>Utilisation de la liaison de nuanceur
 
@@ -52,6 +52,6 @@ Nous allons ensuite créer une bibliothèque de nuanceur et lier les ressources 
 [DXGI](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: bfbe0b1996751613c31913447cb0d200d71b8168
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0eb4d9d5fad19b48bbe1970e623d6d55ff212f55c73e7c84d4c68a40e3f60e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522479"
 ---
 # <a name="msvm_installedethernetswitchextension-class"></a>MSVM \_ InstalledEthernetSwitchExtension, classe
 
@@ -319,7 +319,7 @@ Type d'accès : Lecture seule
 OK
 </dt> <dt>
 
-<span id="OK"></span><span id="ok"></span>**Bien**
+<span id="OK"></span><span id="ok"></span>**BIEN**
 </dt> <dt>
 
 <span id="Error"></span><span id="error"></span><span id="ERROR"></span>**Erreurs**
@@ -402,8 +402,8 @@ Version de l’extension dans un format « major. minor », par exemple « 2,
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

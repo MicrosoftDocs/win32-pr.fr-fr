@@ -4,20 +4,20 @@ description: Cette rubrique a pour but de fournir des conseils génériques par 
 ms.assetid: f5dbd198-7d22-4e7e-830e-6753e9f4d6c8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d91ff748d8139aad17fca3710b17e73b5e1eaa14
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 474a9f4ade01fe98a8db30568aa6a7c4978156d2c791747353071f020af27605
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802359"
 ---
 # <a name="designing-ndf-helper-class-extensions"></a>Conception des extensions de classe d’assistance NDF
 
-Cette rubrique a pour but de fournir des conseils génériques par le biais du processus de développement d’extension de classe d’assistance. Les instructions de cette rubrique s’appliquent à toutes les extensions de classe d’assistance. Pour obtenir des instructions plus spécifiques, consultez [classe d’assistance extensible de plateforme de filtrage Windows](windows-filtering-platform-extensible-helper-class.md) et [classes d’assistance extensibles de diagnostic sans fil 802,11](802-11-wireless-diagnostics-extensible-helper-classes.md).
+Cette rubrique a pour but de fournir des conseils génériques par le biais du processus de développement d’extension de classe d’assistance. Les instructions de cette rubrique s’appliquent à toutes les extensions de classe d’assistance. pour obtenir des instructions plus spécifiques, consultez [Windows Class helper Platform extensible helper Class](windows-filtering-platform-extensible-helper-class.md) et [802,11 Wireless diagnostics extensible helper classes](802-11-wireless-diagnostics-extensible-helper-classes.md).
 
 ## <a name="extending-ndf-functionality"></a>Extension de la fonctionnalité NDF
 
-Windows Vista et les versions ultérieures sont fournis avec diverses classes d’assistance déjà implémentées qui peuvent diagnostiquer et réparer un large éventail de problèmes. Dans certains cas, toutefois, les développeurs tiers peuvent souhaiter étendre ces classes d’assistance pour diagnostiquer et résoudre les problèmes spécifiques à leurs produits et implémentations particuliers.
+Windows Vista et versions ultérieures sont fournis avec diverses classes d’assistance déjà implémentées qui peuvent diagnostiquer et réparer un large éventail de problèmes. Dans certains cas, toutefois, les développeurs tiers peuvent souhaiter étendre ces classes d’assistance pour diagnostiquer et résoudre les problèmes spécifiques à leurs produits et implémentations particuliers.
 
 Les classes d’assistance Microsoft NDF suivantes sont extensibles.
 
@@ -85,7 +85,7 @@ Lorsque le diagnostic a lieu à l’aide d’NDF, l’extension de la classe d�
 
 <dl> <dt>
 
-[Classe d’assistance extensible de plateforme de filtrage Windows](windows-filtering-platform-extensible-helper-class.md)
+[Windows Classe d’assistance extensible de la plateforme de filtrage](windows-filtering-platform-extensible-helper-class.md)
 </dt> <dt>
 
 [Classes d’assistance extensibles pour les diagnostics sans fil 802,11](802-11-wireless-diagnostics-extensible-helper-classes.md)

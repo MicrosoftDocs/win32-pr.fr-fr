@@ -1,5 +1,5 @@
 ---
-description: La \_ classe WMI ProcessStartup abstraite Win32 représente la configuration de démarrage d’un processus basé sur Windows.
+description: la \_ classe WMI ProcessStartup abstraite Win32 représente la configuration de démarrage d’un processus basé sur Windows.
 ms.assetid: 78508404-cab2-42fb-a0ed-0e6e7d21408c
 ms.tgt_platform: multiple
 title: Classe Win32_ProcessStartup
@@ -28,16 +28,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b0be949b106c1fa88b37e0c7764dbddb0546ded7
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 10b0732b89d5240b457152f4bd19f951f69b8ee693baec54daea3bd6bbba9439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106526716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759349"
 ---
 # <a name="win32_processstartup-class"></a>\_Classe ProcessStartup Win32
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) **\_ ProcessStartup** abstraite Win32 représente la configuration de démarrage d’un processus basé sur Windows. La classe est définie comme une définition de type de méthode, ce qui signifie qu’elle est utilisée uniquement pour passer des informations à la méthode [**Create**](create-method-in-class-win32-process.md) de la classe de [**\_ processus Win32**](win32-process.md) .
+la [classe WMI](../wmisdk/retrieving-a-class.md) **\_ ProcessStartup** abstraite Win32 représente la configuration de démarrage d’un processus basé sur Windows. La classe est définie comme une définition de type de méthode, ce qui signifie qu’elle est utilisée uniquement pour passer des informations à la méthode [**Create**](create-method-in-class-win32-process.md) de la classe de [**\_ processus Win32**](win32-process.md) .
 
 La syntaxe suivante est simplifiée à partir de code au format MOF (Managed Object Format) et inclut toutes les propriétés héritées.
 
@@ -236,7 +236,7 @@ Le paramètre par défaut permet au système d’exploitation de rendre visibles
 
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> <dt>
 
@@ -405,7 +405,7 @@ Indique un processus avec des threads qui s’exécutent uniquement lorsque le s
 
 </dt> <dd>
 
-Indique un processus qui exécute des tâches critiques à l’heure qui doivent être exécutées immédiatement pour s’exécuter correctement. Les threads d’un processus de classe de priorité élevée prévalent sur les threads de processus de classe de priorité normale ou d’inactivité. C’est le cas, par exemple, de Windows Liste des tâches, qui doit répondre rapidement lorsqu’il est appelé par l’utilisateur, quelle que soit la charge sur le système d’exploitation. Soyez extrêmement vigilant lorsque vous utilisez la classe de priorité élevée, car une application de classe haute priorité basée sur l’UC peut utiliser presque tous les cycles disponibles. Seule une priorité en temps réel anticipe les threads définis à ce niveau.
+Indique un processus qui exécute des tâches critiques à l’heure qui doivent être exécutées immédiatement pour s’exécuter correctement. Les threads d’un processus de classe de priorité élevée prévalent sur les threads de processus de classe de priorité normale ou d’inactivité. par exemple, Windows Liste des tâches, qui doit répondre rapidement lorsqu’il est appelé par l’utilisateur, quelle que soit la charge sur le système d’exploitation. Soyez extrêmement vigilant lorsque vous utilisez la classe de priorité élevée, car une application de classe haute priorité basée sur l’UC peut utiliser presque tous les cycles disponibles. Seule une priorité en temps réel anticipe les threads définis à ce niveau.
 
 </dd> <dt>
 
@@ -618,7 +618,7 @@ Hauteur en pixels d’une fenêtre si une nouvelle fenêtre est créée. Pour le
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette classe est dérivée de [**Win32 \_ MethodParameterClass**](win32-methodparameterclass.md).
 
@@ -672,7 +672,7 @@ objProcess.Create "Database.exe", Null, objConfig, intProcessID
 
 
 
-L’exemple de code VBScript suivant crée un processus Notepad sur l’ordinateur local. **Win32 \_ ProcessStartup** est utilisé pour configurer les paramètres de processus.
+l’exemple de code VBScript suivant crée un processus de Bloc-notes sur l’ordinateur local. **Win32 \_ ProcessStartup** est utilisé pour configurer les paramètres de processus.
 
 
 ```VB

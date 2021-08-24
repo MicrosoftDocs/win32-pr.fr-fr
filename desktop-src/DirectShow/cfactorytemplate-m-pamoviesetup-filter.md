@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 087612acf99a41966ccd98d3b41d2b83255a86f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bc4ee059eb47e08ae827392e8f29968463bb9bd4ca86e0c6b8a87a9f3bbd5667
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697709"
 ---
 # <a name="cfactorytemplatem_pamoviesetup_filter-member"></a>CFactoryTemplate :: m \_ pAMovieSetup, \_ membre de filtre
 
@@ -38,7 +38,7 @@ const AMOVIESETUP_FILTER *m_pAMovieSetup_Filter;
 
 ## <a name="remarks"></a>Notes
 
-Utilisez cette structure pour procéder à l’inscription automatique d’un filtre. Si votre composant n’est pas un filtre, cette variable membre peut avoir la **valeur null**. Pour plus d’informations, consultez Comment inscrire des filtres DirectShow.
+Utilisez cette structure pour procéder à l’inscription automatique d’un filtre. Si votre composant n’est pas un filtre, cette variable membre peut avoir la **valeur null**. pour plus d’informations, consultez comment inscrire des filtres de DirectShow.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -46,7 +46,7 @@ Utilisez cette structure pour procéder à l’inscription automatique d’un fi
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>ComBase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

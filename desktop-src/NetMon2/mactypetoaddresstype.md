@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: b0a0eb7a18126062c201fb7f0b122bca3ea8b631
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe02cb6f0bec62a3bda35eabe288eafc2d5c3c15e422b7d68dc0b488546b83b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742319"
 ---
 # <a name="mactypetoaddresstype-function"></a>MacTypeToAddressType fonction)
 
@@ -56,7 +56,7 @@ type d’adresse Ethernet adresse type adresse \_ \_ \_ \_ TOKENRING \_ type \_ 
 
 Si la fonction échoue, le type MAC est inconnu, la valeur de retour est-1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les [*experts*](e.md) et les [*analyseurs*](p.md) peuvent appeler la fonction **MacTypeToAddressType** .
 

@@ -20,12 +20,12 @@ keywords:
 - DWM (Gestionnaire de fenêtrage), test de positionnement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66a27a9b71dd2dd91cb000a352ef039de2a71cd9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0b440f475dfacc610354ce151ab0be42dbbe3069390b1efa211195252f7a3914
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741455"
 ---
 # <a name="custom-window-frame-using-dwm"></a>Frame de fenêtre personnalisé à l’aide de DWM
 
@@ -43,13 +43,13 @@ Cette rubrique montre comment utiliser les API Gestionnaire de fenêtrage (DWM) 
 
 ## <a name="introduction"></a>Introduction
 
-Dans Windows Vista et versions ultérieures, l’apparence des zones non clientes des fenêtres d’application (la barre de titre, l’icône, la bordure de la fenêtre et les boutons de légende) est contrôlée par le DWM. À l’aide des API DWM, vous pouvez modifier la façon dont le DWM restitue le frame d’une fenêtre.
+dans Windows Vista et versions ultérieures, l’apparence des zones non clientes des fenêtres d’application (la barre de titre, l’icône, la bordure de la fenêtre et les boutons de légende) est contrôlée par le DWM. À l’aide des API DWM, vous pouvez modifier la façon dont le DWM restitue le frame d’une fenêtre.
 
-L’une des fonctionnalités des API DWM est la possibilité d’étendre le frame d’application dans la zone cliente. Cela vous permet d’intégrer un élément d’interface utilisateur client, tel qu’une barre d’outils, dans le frame, en donnant à l’interface utilisateur des contrôles un emplacement plus important dans l’interface utilisateur de l’application. Par exemple, Windows Internet Explorer 7 sur Windows Vista intègre la barre de navigation dans le frame de fenêtre en étendant le haut du cadre comme indiqué dans la capture d’écran suivante.
+L’une des fonctionnalités des API DWM est la possibilité d’étendre le frame d’application dans la zone cliente. Cela vous permet d’intégrer un élément d’interface utilisateur client, tel qu’une barre d’outils, dans le frame, en donnant à l’interface utilisateur des contrôles un emplacement plus important dans l’interface utilisateur de l’application. par exemple, Windows Internet Explorer 7 sur Windows Vista intègre la barre de navigation dans le cadre de la fenêtre en étendant le haut du cadre comme indiqué dans la capture d’écran suivante.
 
 ![barre de navigation intégrée dans le frame de fenêtre.](images/ie7-extendedborder-boxed.png)
 
-La possibilité d’étendre le frame de la fenêtre vous permet également de créer des frames personnalisés tout en conservant l’apparence de la fenêtre. Par exemple, Microsoft Office Word 2007 dessine le bouton Office et la barre d’outils accès rapide dans le cadre personnalisé tout en fournissant les boutons standard réduire, agrandir et fermer la légende, comme illustré dans la capture d’écran suivante.
+La possibilité d’étendre le frame de la fenêtre vous permet également de créer des frames personnalisés tout en conservant l’apparence de la fenêtre. par exemple, Microsoft Office Word 2007 dessine le bouton Office et la barre d’outils accès rapide dans le cadre personnalisé tout en fournissant les boutons standard réduire, agrandir et fermer la légende, comme illustré dans la capture d’écran suivante.
 
 ![bouton Office et barre d’outils accès rapide dans Word 2007](images/word2007-customborder-boxed.png)
 
@@ -88,7 +88,7 @@ if (message == WM_ACTIVATE)
 
 Notez que l’extension de cadre est effectuée dans le message [**WM \_ Activate**](/windows/desktop/inputdev/wm-activate) et non dans le message [**WM \_ Create**](/windows/desktop/winmsg/wm-create) . Cela garantit que l’extension de frame est gérée correctement quand la fenêtre est à sa taille par défaut et quand elle est agrandie.
 
-L’illustration suivante montre un cadre de fenêtre standard (à gauche) et le même cadre de fenêtre étendu (à droite). Le frame est étendu à l’aide de l’exemple de code précédent et de l’arrière-plan Microsoft Visual Studio [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) / [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) par défaut ( \_ fenêtre couleur + 1).
+L’illustration suivante montre un cadre de fenêtre standard (à gauche) et le même cadre de fenêtre étendu (à droite). le frame est étendu à l’aide de l’exemple de code précédent et de l’arrière-plan Microsoft Visual Studio [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) / [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) par défaut ( \_ fenêtre couleur + 1).
 
 ![capture d’écran d’un cadre standard (gauche) et étendu (à droite) avec arrière-plan blanc](images/white-sidebyside.png)
 
@@ -147,7 +147,7 @@ Avec la suppression du frame standard, votre zone cliente se compose désormais 
 > [!Note]  
 > Quand vous dessinez dans votre Frame personnalisé, soyez prudent lorsque vous placez des contrôles d’interface utilisateur. Étant donné que la totalité de la fenêtre est votre région cliente, vous devez ajuster le placement de votre contrôle d’interface utilisateur pour chaque largeur d’image si vous ne souhaitez pas qu’elles apparaissent sur ou dans le frame étendu.
 
- 
+ 
 
 ## <a name="enabling-hit-testing-for-the-custom-frame"></a>Activation du test de positionnement pour le frame personnalisé
 
@@ -503,6 +503,6 @@ LRESULT HitTestNCA(HWND hWnd, WPARAM wParam, LPARAM lParam)
 [Vue d’ensemble du Gestionnaire de fenêtres du Bureau](dwm-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 73d6dde0a8faea2aeaf0982459e3c377bb1ac51d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 08e27a392ac4b6b31849f0863fa8149730bbfcec5fc4c1fec0e15a4919509f70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759729"
 ---
 # <a name="setipconnectionmetric-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetIPConnectionMetric de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -414,8 +414,8 @@ L’exemple de [modification de la métrique de la connexion IP pour une carte r
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista, Windows Vista<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |
+| Client minimal pris en charge<br/> | Windows vista, Windows vista<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows serveur 2008, Windows server 2008<br/>                                     |
 | Espace de noms<br/>                | \\Cimv2 racine<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |

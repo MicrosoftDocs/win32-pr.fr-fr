@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b1afbb97a1052709f433e899c6c44c3e91f0496b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 01fe9d0fdf9b2fb6658a4790400aef157b16d1d442a35557e71738642bbf3a4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701538"
 ---
 # <a name="reset-method-of-the-cim_memory-class"></a>Méthode Reset de la \_ classe de mémoire CIM
 
@@ -47,7 +47,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28e7a34252986ad6e470c9f7b4fa18ab3ce96032
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fbc7bd862b14cd2c26df8113c4c3d40aad0a8a8d8fcd3bccc1ecaf0620778ce8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762799"
 ---
 # <a name="ms-kds-secretagreement-algorithmid-attribute"></a>attribut ms-KDS-SecretAgreement-AlgorithmID
 

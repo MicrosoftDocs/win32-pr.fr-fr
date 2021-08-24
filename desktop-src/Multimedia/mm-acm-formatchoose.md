@@ -3,7 +3,7 @@ title: Message d’MM_ACM_FORMATCHOOSE (Msacm. h)
 description: Le \_ message mm ACM \_ FORMATCHOOSE avertit une fonction de raccordement de boîte de dialogue acmFormatChoose avant d’ajouter un élément à l’une des trois zones de liste déroulante.
 ms.assetid: f77e41c6-14e9-45c0-971e-4d6325145f1c
 keywords:
-- Message MM_ACM_FORMATCHOOSE Windows Multimedia
+- message MM_ACM_FORMATCHOOSE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35808e06521cbd83d07f8d6c799779a16f50236b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cceaa67bc0ce4ee922b48d1cff20eb2bf6414f93506dcc70ccd6e0e912211544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119782959"
 ---
 # <a name="mm_acm_formatchoose-message"></a>MM \_ \_ message FORMATCHOOSE ACM
 
@@ -70,7 +70,7 @@ Valeur définie par la zone de liste spécifiée dans le paramètre **wParam** .
 
 Retourne la **valeur true** si une application gère ce message ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’application traite l' \_ opération Add au format FILTERCHOOSE \_ , la taille de la mémoire tampon fournie dans *lParam* est déterminée à partir de la fonction [**acmMetrics**](/windows/desktop/api/Msacm/nf-msacm-acmmetrics) .
 

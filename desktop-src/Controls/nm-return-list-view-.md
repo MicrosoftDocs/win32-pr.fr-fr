@@ -3,7 +3,7 @@ title: Code de notification NM_RETURN (mode liste) (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle d’affichage de liste que le contrôle a le focus d’entrée et que l’utilisateur a appuyé sur la touche entrée. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 21a8d308-d747-4020-8925-d982234bcf81
 keywords:
-- Contrôles Windows de code de notification NM_RETURN (mode liste)
+- NM_RETURN (mode liste) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b221189ced0e351f088493f00fa7b8849717668
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d230315d09bf56a7a139b5cb089cdcd177bf21128f2407859e1c010abc6d6766
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816369"
 ---
 # <a name="nm_return-list-view-notification-code"></a>NM \_ retour (mode liste) Code de notification
 
@@ -55,8 +55,8 @@ La valeur de retour de cette notification n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

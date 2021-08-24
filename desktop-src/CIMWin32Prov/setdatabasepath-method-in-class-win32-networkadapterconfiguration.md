@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b66a9979ec97d4ceda16acad6488d3b84d5d3a54
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 24fd4802afd29d11c6c5f11a4f86f72cc818a5413cdd8f12f298f46a85a63b9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760129"
 ---
 # <a name="setdatabasepath-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDatabasePath de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -45,7 +45,7 @@ uint32 SetDatabasePath(
 *DatabasePath* \[ dans\]
 </dt> <dd>
 
-Chemin d’accès de fichier valide aux fichiers de base de données Internet standard (hôtes, LMHOSTS, réseaux et protocoles) utilisé par l’interface Windows Sockets.
+chemin d’accès de fichier valide aux fichiers de base de données Internet standard (hôtes, LMHOSTS, réseaux et protocoles) utilisés par l’interface de sockets Windows.
 
 </dd> </dl>
 
@@ -404,13 +404,13 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode est utilisée par l’interface Windows Sockets. Le chemin d’accès par défaut est% SystemRoot% \\ system32 \\ drivers \\ .
+cette méthode est utilisée par l’interface de sockets Windows. Le chemin d’accès par défaut est% SystemRoot% \\ system32 \\ drivers \\ .
 
 ## <a name="examples"></a>Exemples
 
-L’exemple VBScript [modifier le chemin d’accès de la base de données pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/94bfa42f-f6a3-482f-8d5a-5445a2475bee) de la Galerie TechNet utilise **SetDatabasePath** pour définir le chemin d’accès aux fichiers de base de données Internet standard (hôtes, LMHOSTS, réseaux, protocoles) utilisés par l’interface Windows Sockets.
+l’exemple VBScript [modifier le chemin d’accès de la base de données pour toutes les cartes réseau](https://Gallery.TechNet.Microsoft.Com/94bfa42f-f6a3-482f-8d5a-5445a2475bee) de la galerie TechNet utilise **SetDatabasePath** pour définir le chemin d’accès aux fichiers de base de données Internet standard (hôtes, LMHOSTS, réseaux, protocoles) utilisés par l’interface de sockets de Windows.
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: ee6dc21b4fb90f0d02e80fce8ce6cc17099a0547
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f54d0cad58a378d12247127d1ed70ab48653e18f4cceeb3c801efcf2aaae66d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717199"
 ---
 # <a name="wm_keydown-message"></a>\_Message KEYverse WM
 
@@ -70,7 +70,7 @@ Pour plus d’informations, consultez [indicateurs de message de frappe](about-k
 
 Une application doit retourner zéro si elle traite ce message.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 ```cpp
 LRESULT CALLBACK HostWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
@@ -96,10 +96,10 @@ LRESULT CALLBACK HostWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lPar
 
 ```
 
-Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Magnification/cpp/Windowed/MagnifierSample.cpp) sur GitHub.
+exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Magnification/cpp/Windowed/MagnifierSample.cpp) sur GitHub.
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la touche F10 est enfoncée, la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) définit un indicateur interne. Quand **DefWindowProc** reçoit le message [**WM \_ KEYUP**](wm-keyup.md) , la fonction vérifie si l’indicateur interne est défini et, si tel est le cas, envoie un message [**WM \_ SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) à la fenêtre de niveau supérieur. Le paramètre **WM \_ SYSCOMMAND** du message est défini sur SC \_ keymenu.
 

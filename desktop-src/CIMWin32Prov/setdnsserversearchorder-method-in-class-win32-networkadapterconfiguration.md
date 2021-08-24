@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2bfe731ea1d89e8e0ad702bfa229a61fba30dfc7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2ae53996e2f8199d552909a186ab17e6b7ec89857c9be24dc4d8d4bfe583cfea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759799"
 ---
 # <a name="setdnsserversearchorder-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDNSServerSearchOrder de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -174,7 +174,7 @@ Retourne la valeur 0 (zéro) pour une exécution réussie quand aucun redémarra
 **Autre** (101 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’un appel de méthode dépendant de l’instance qui s’applique sur la base de chaque adaptateur. Une fois que les serveurs DNS statiques sont spécifiés pour commencer à utiliser le protocole DHCP (Dynamic Host Configuration Protocol) au lieu de serveurs DNS statiques, vous pouvez appeler la méthode sans fournir de paramètres « in ».
 

@@ -3,7 +3,7 @@ title: Message TVM_GETNEXTITEM (commctrl. h)
 description: Récupère l’élément d’arborescence qui porte la relation spécifiée à un élément spécifié. Vous pouvez envoyer ce message de manière explicite, à l’aide de la \_ macro GetNextItem TreeView.
 ms.assetid: 505c713c-7728-4119-bc0e-482fe7e73193
 keywords:
-- TVM_GETNEXTITEM les contrôles de message Windows
+- TVM_GETNEXTITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3099af5e9abcd3e9c144cfc615a12dd2acb0332b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 84dbbd39ca347bcf1084ddfaa46c997cc5c4e5dd4d52250136a230dd834ac836
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698679"
 ---
 # <a name="tvm_getnextitem-message"></a>TVM \_ GETNEXTITEM message
 
@@ -68,7 +68,7 @@ Handle vers un élément.
 
 Retourne le handle de l’élément en cas de réussite. Dans la plupart des cas, le message retourne une valeur **null** pour indiquer une erreur. Pour plus d'informations, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message retourne la **valeur null** si l’élément récupéré est le nœud racine de l’arborescence. Par exemple, si vous utilisez ce message avec l' \_ indicateur parent TVGN sur un enfant de premier niveau du nœud racine de la vue d’arborescence, le message retourne la **valeur null**.
 
@@ -100,8 +100,8 @@ Vous pouvez également utiliser l’une des macros associées suivantes :
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

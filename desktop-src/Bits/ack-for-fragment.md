@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef28381313ce00fd6089ebf845ed342ccae455c7
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: ecd4b8bf5580a5724c689ced1886051006d34cd3c9ba0561d253f36428178c0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103941457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702119"
 ---
 # <a name="ack-for-fragment"></a>ACK pour fragment
 
@@ -116,7 +116,7 @@ Remplacez erreur-Context par un nombre hexadécimal qui représente le contexte 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la session est destinée à une tâche de chargement-réponse, il peut y avoir un délai avant que le client n’envoie l' **accusé de** réception final pour la réponse du fragment. La durée du délai dépend de la durée nécessaire à l’application serveur (l’application sur laquelle le serveur publie le fichier de chargement) pour générer la réponse.
 

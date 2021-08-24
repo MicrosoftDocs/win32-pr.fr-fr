@@ -6,12 +6,12 @@ keywords:
 - IPaper
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f84153c9fcec021d9084807d73d46198e3a56482
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91a45322e35f07a6f136e76ecaad6ae237891a741dfb44a6b5db0702c87bda33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662719"
 ---
 # <a name="ipaper-methods"></a>Méthodes IPaper
 
@@ -37,7 +37,7 @@ Le tableau suivant répertorie les méthodes **IPaper** à partir de IPaper. H d
 
 
 
- 
+ 
 
 Les méthodes intéressantes pour cet exemple de code sur les fichiers composés sont [**charger**](ipaper--load.md), [**Enregistrer**](ipaper--save.md)et [**redessiner**](ipaper--redraw.md).
 
@@ -45,9 +45,9 @@ Les méthodes intéressantes pour cet exemple de code sur les fichiers composés
 
 [**InkStart**](inkstart-method.md) indique au codocument la position de début de la séquence de dessin dans les coordonnées de la fenêtre cliente. Il passe également la couleur et la largeur de l’encre actuellement sélectionnées. Le client gère ces sélections ; Le « colivre » les enregistre simplement lorsque l’appel **InkStart** est effectué. [**InkDraw**](inkdraw-method.md) est appelé à plusieurs reprises pour indiquer au codocument la succession des coordonnées de la fenêtre qui représentent le mouvement de dessin de la souris ou du stylet. [**InkStop**](cguipaper-methods.md) indique au codocument de marquer la fin d’une séquence de dessin.
 
- 
+ 
 
- 
+ 
 
 
 

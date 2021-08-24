@@ -22,12 +22,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1a50b28a95d94a97da2fb6ac3522dbc568af111
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd9ec00cd7cedc4bb105543f932cd5fdcfc76d7c038fb930abb7f0b5d1aeb13d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698819"
 ---
 # <a name="common-control-styles"></a>Styles de contrôles communs
 
@@ -51,7 +51,7 @@ Cette section répertorie les styles de contrôle courants. Sauf indication cont
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les rubriques suivantes décrivent des styles de contrôle supplémentaires :
 

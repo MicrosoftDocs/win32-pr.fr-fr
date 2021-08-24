@@ -3,9 +3,9 @@ title: Méthode IWMPCdromBurn startBurn
 description: La méthode startBurn grave le CD.
 ms.assetid: e852c011-5f54-469f-aead-37fa711ef876
 keywords:
-- méthode startBurn lecteur Windows Media
-- méthode startBurn lecteur Windows Media, interface IWMPCdromBurn
-- Interface IWMPCdromBurn lecteur Windows Media, méthode startBurn
+- Lecteur Windows Media de la méthode startBurn
+- méthode startBurn Lecteur Windows Media, interface IWMPCdromBurn
+- Lecteur Windows Media de l’interface IWMPCdromBurn, méthode startBurn
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe185d8993286e4be3935b43f6c1e9757623309d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7806501a619d6172d9f1ce0715045c822b30326c2b59c268f432708ea13923ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761069"
 ---
 # <a name="iwmpcdromburnstartburn-method"></a>IWMPCdromBurn :: startBurn, méthode
 
@@ -53,7 +53,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de **burnstate** doit être WmpbsReady ou wmpbsStopped avant d’appeler cette méthode.
 

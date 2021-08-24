@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 128a65eb51d9051243dd439e208207aaf98d5caf
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 77827068ee8a491cd732b28e5b8d60e1868ec66c04c72156f08358dd7d3751d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104101245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658999"
 ---
 # <a name="drm_baselicenseacqurl"></a>\_BASELICENSEACQURL DRM
 
@@ -31,7 +31,7 @@ g \_ wszWMDRM \_ BaseLicenseAcqURL
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une propriété en lecture-écriture facultative qui est définie et récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty). Il est fourni pour permettre aux systèmes de distribution de licences d’utiliser des chemins d’accès relatifs dans les propriétés de l’URL d’acquisition de licence.
 
@@ -44,9 +44,9 @@ Après avoir défini cette propriété, toutes les URL d’acquisition de licenc
 [**Propriétés DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

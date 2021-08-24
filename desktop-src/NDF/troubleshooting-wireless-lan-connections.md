@@ -4,12 +4,12 @@ description: Dans ce scénario, un utilisateur tente de se connecter à un rése
 ms.assetid: 558dae83-aa16-4751-a497-d7a0da01ce5d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55878afcee0091634415d4dbc465d1b143f46057
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a3749b3e3a45ef68cb33b7d3658ca346dd4c6e0a8ba8ea11626573f4da6edfbc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801819"
 ---
 # <a name="troubleshooting-wireless-lan-connections"></a>Résolution des problèmes de connexion LAN sans fil
 
@@ -31,9 +31,9 @@ Une fois le filtre appliqué, vous pouvez examiner les événements dans le rés
 
 Le développement des éléments sous un ID d’activité dans le volet gauche vous permet d’afficher tous les autres fournisseurs pertinents pour la tentative de connexion. Pour afficher les événements d’autres fournisseurs, tous les filtres sont supprimés en cliquant sur **supprimer** dans le volet **filtre d’affichage** . Les suivis peuvent être analysés en faisant défiler le résumé des frames, en sélectionnant des événements supplémentaires, le cas échéant, pour obtenir plus d’informations. Dans ce cas, le volet Détails du cadre fournit des informations indiquant que l’échec est dû à une défaillance de l’échange de clés, ce qui est probablement dû au fait que l’utilisateur a entré une clé de passe incorrecte.
 
- 
+ 
 
- 
+ 
 
 
 

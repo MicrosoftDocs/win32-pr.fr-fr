@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e7690ba59b4794f952ca3b381fc28247f0dfb4e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a687e82248598d9732e91acfd40e9f3dd4d6d3c3fe6c4954cb8706489c814126
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738099"
 ---
 # <a name="tasksettings-object"></a>Objet TaskSettings
 
@@ -45,9 +45,9 @@ L’objet **TaskSettings** a ces propriétés.
 | [**Compatibilité**](tasksettings-compatibility.md)<br/>                           | Lecture/écriture<br/> | Obtient ou définit une valeur entière qui indique quelle version de Planificateur de tâches une tâche est compatible.<br/>                                                                                                                                                                                                                                                                                                           |
 | [**DeleteExpiredTaskAfter**](tasksettings-deleteexpiredtaskafter.md)<br/>         | Lecture/écriture<br/> | Obtient ou définit la durée d’attente de la Planificateur de tâches avant la suppression de la tâche après son expiration.<br/>                                                                                                                                                                                                                                                                                                      |
 | [**DisallowStartIfOnBatteries**](tasksettings-disallowstartifonbatteries.md)<br/> | Lecture/écriture<br/> | Obtient ou définit une valeur booléenne qui indique que la tâche ne sera pas démarrée si l’ordinateur fonctionne sur batterie.<br/>                                                                                                                                                                                                                                                                                        |
-| [**Enabled**](tasksettings-enabled.md)<br/>                                       | Lecture/écriture<br/> | Obtient ou définit une valeur booléenne qui indique que la tâche est activée. La tâche ne peut être exécutée que lorsque ce paramètre a la valeur true.<br/>                                                                                                                                                                                                                                                                                   |
+| [**Activé**](tasksettings-enabled.md)<br/>                                       | Lecture/écriture<br/> | Obtient ou définit une valeur booléenne qui indique que la tâche est activée. La tâche ne peut être exécutée que lorsque ce paramètre a la valeur true.<br/>                                                                                                                                                                                                                                                                                   |
 | [**ExecutionTimeLimit**](tasksettings-executiontimelimit.md)<br/>                 | Lecture/écriture<br/> | Obtient ou définit la durée autorisée pour terminer la tâche.<br/>                                                                                                                                                                                                                                                                                                                                                     |
-| [**Hidden**](tasksettings-hidden.md)<br/>                                         | Lecture/écriture<br/> | Obtient ou définit une valeur booléenne qui indique que la tâche ne sera pas visible dans l’interface utilisateur. Toutefois, les administrateurs peuvent remplacer ce paramètre à l’aide d’un « commutateur maître » qui rend toutes les tâches visibles dans l’interface utilisateur.<br/>                                                                                                                                                                                           |
+| [**Masquer**](tasksettings-hidden.md)<br/>                                         | Lecture/écriture<br/> | Obtient ou définit une valeur booléenne qui indique que la tâche ne sera pas visible dans l’interface utilisateur. Toutefois, les administrateurs peuvent remplacer ce paramètre à l’aide d’un « commutateur maître » qui rend toutes les tâches visibles dans l’interface utilisateur.<br/>                                                                                                                                                                                           |
 | [**IdleSettings**](tasksettings-idlesettings.md)<br/>                             | Lecture/écriture<br/> | Obtient ou définit les informations qui spécifient la façon dont le Planificateur de tâches exécute des tâches lorsque l’ordinateur est dans un état d’inactivité.<br/>                                                                                                                                                                                                                                                                                          |
 | [**MultipleInstances**](tasksettings-multipleinstances.md)<br/>                   | Lecture/écriture<br/> | Obtient ou définit la stratégie qui définit la façon dont le Planificateur de tâches gère plusieurs instances de la tâche.<br/>                                                                                                                                                                                                                                                                                                            |
 | [**NetworkSettings**](tasksettings-networksettings.md)<br/>                       | Lecture/écriture<br/> | Obtient ou définit l’objet paramètres réseau qui contient un identificateur et un nom de profil réseau. Si la propriété [**RunOnlyIfNetworkAvailable**](tasksettings-runonlyifnetworkavailable.md) de **TaskSettings** a la **valeur true** et qu’un propfile réseau est spécifié dans la propriété [**NetworkSettings**](tasksettings-networksettings.md) , la tâche s’exécute uniquement si le profil réseau spécifié est disponible.<br/> |
@@ -65,11 +65,11 @@ L’objet **TaskSettings** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, une tâche sera arrêtée 72 heures après son démarrage. Vous pouvez modifier ce paramètre en modifiant le paramètre [**ExecutionTimeLimit**](tasksettings-executiontimelimit.md) .
 
-Lors de la lecture ou de l’écriture de données XML pour une tâche, les paramètres de tâche sont définis dans l’élément [**Settings**](taskschedulerschema-settings-tasktype-element.md) du schéma planificateur de tâches.
+lors de la lecture ou de l’écriture de données XML pour une tâche, les paramètres de tâche sont définis dans l’élément [**Paramètres**](taskschedulerschema-settings-tasktype-element.md) du schéma Planificateur de tâches.
 
 ## <a name="examples"></a>Exemples
 
@@ -81,8 +81,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
