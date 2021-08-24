@@ -4,12 +4,12 @@ description: Cette référence de commande décrit l’éditeur de caractères M
 ms.assetid: c8d57500-ad29-4325-aec7-3f857990b28c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee75070f70ffe8c8fd2075fc6ec46483dcd005fa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8cbb6735bf7b0c8f733243961a1cbb6962c0c17279982cc73f5c2cc5c0090ab4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778439"
 ---
 # <a name="command-reference-microsoft-agent-character-editor"></a>Référence de commande (éditeur de caractères Microsoft Agent)
 
@@ -103,21 +103,21 @@ Inverse une action d’annulation dans l’éditeur.
 <span id="Cut"></span><span id="cut"></span><span id="CUT"></span>**Réduis**
 </dt> <dd>
 
-Supprime l’élément sélectionné de l’éditeur et le place dans le presse-papiers Windows.
+supprime l’élément sélectionné de l’éditeur et le place dans le presse-papiers Windows.
 
 </dd> <dt>
 
 <span id="Copy"></span><span id="copy"></span><span id="COPY"></span>**Reprographie**
 </dt> <dd>
 
-Copie l’élément sélectionné dans l’éditeur dans le presse-papiers Windows.
+copie l’élément sélectionné dans l’éditeur dans le presse-papiers Windows.
 
 </dd> <dt>
 
 <span id="Paste"></span><span id="paste"></span><span id="PASTE"></span>**Insérer**
 </dt> <dd>
 
-Copie les données du presse-papiers Windows actuel vers l’emplacement sélectionné.
+copie les données du presse-papiers Windows actuel vers l’emplacement sélectionné.
 
 </dd> <dt>
 

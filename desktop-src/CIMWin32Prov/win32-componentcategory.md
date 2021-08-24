@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1730abf9058f5068def4a01f0d7e7601b9c69e53
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b331c9bb9daf7d20fae5cce4b7f721feb1cbb4366d3f92a74bf78fc9a05b5e63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656449"
 ---
 # <a name="win32_componentcategory-class"></a>\_Classe ComponentCategory Win32
 
@@ -254,7 +254,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ ComponentCategory** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

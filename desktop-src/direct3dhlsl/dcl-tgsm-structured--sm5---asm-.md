@@ -4,12 +4,12 @@ description: Déclarez une référence à une région d’espace mémoire partag
 ms.assetid: C42CD506-58EB-4740-8403-3F9BF29F0CAE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a639d31c4449a0dfeb152c06b35cfb86c5cc30a
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: cc5bf6a6782c455a9bb51ad941a8b6cb42bd70806512a2eef2ed5bd301e57c77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673899"
 ---
 # <a name="dcl_tgsm_structured-sm5---asm"></a>DCL \_ TGSM \_ structurée (SM5-ASM)
 
@@ -36,7 +36,7 @@ Déclarez une référence à une région d’espace mémoire partagée disponibl
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le stockage total pour tous les g \# doit être <= la quantité de mémoire partagée disponible par groupe de threads, soit 32 Ko, soit les valeurs scalaires de 8192 32 bits.
 
@@ -48,7 +48,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | X       |
 
@@ -62,9 +62,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

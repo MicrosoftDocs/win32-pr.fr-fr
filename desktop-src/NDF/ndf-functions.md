@@ -4,12 +4,12 @@ description: Les fonctions suivantes permettent aux développeurs de logiciels d
 ms.assetid: c2774e05-82f4-4d40-a80c-ad773bb03ca7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d3a039768b77d69072111f814cb871115bcca24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 23a46ef79627583efd4d5fb0e0b63dd8e7283c1889e942197679037be38754e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802349"
 ---
 # <a name="ndf-functions"></a>Fonctions NDF
 
@@ -18,7 +18,7 @@ Les fonctions suivantes permettent aux développeurs de logiciels d’utiliser l
 > [!Note]  
 > Ces fonctions sont destinées aux développeurs qui implémentent la fonctionnalité NDF de base dans leurs applications.
 
- 
+ 
 
 -   [**CopyHelperAttribute**](copyhelperattribute.md)
 -   [**CopyRepairInfo**](copyrepairinfo.md)
@@ -49,9 +49,9 @@ Les fonctions suivantes permettent aux développeurs de logiciels d’utiliser l
 -   [**UtilLoadStringWithAlloc**](utilloadstringwithalloc.md)
 -   [**UtilStringCopyWithAlloc**](utilstringcopywithalloc.md)
 
- 
+ 
 
- 
+ 
 
 
 

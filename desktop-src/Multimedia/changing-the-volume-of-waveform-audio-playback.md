@@ -10,16 +10,16 @@ keywords:
 - modification du volume de lecture Waveform-Audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89f972b5bd8e6f0d4a0d7d5964f164429c5632b0
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e59bca6dbc168d2c327c46e4d934d4abb3afa73cc8ef2cae8b1a6c283bd92c81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103727316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807989"
 ---
 # <a name="changing-the-volume-of-waveform-audio-playback"></a>Modification du volume de Waveform-Audio lecture
 
-Windows fournit les fonctions suivantes pour interroger et définir le niveau de volume des périphériques de sortie Waveform-Audio.
+Windows fournit les fonctions suivantes pour interroger et définir le niveau de volume des périphériques de sortie waveform-audio.
 
 
 
@@ -30,7 +30,7 @@ Windows fournit les fonctions suivantes pour interroger et définir le niveau de
 
 
 
- 
+ 
 
 Tous les périphériques audio Waveform ne prennent pas en charge les modifications de volume. Certains périphériques prennent en charge le contrôle de volume individuel sur les canaux gauche et droit. Pour plus d’informations sur la façon de déterminer les capacités de contrôle de volume des périphériques Wave-audio, consultez [périphériques et types de données](devices-and-data-types.md).
 
@@ -40,6 +40,6 @@ Le volume est spécifié dans une valeur de mot double. Lorsque le format audio 
 
 Les valeurs au niveau du volume sont comprises entre 0x0 (silence) et 0xFFFF (volume maximal) et sont interprétées de façon logarithmique. L’augmentation du volume perçu est la même lors de l’augmentation du niveau de volume de 0x5000 à 0x6000, comme c’est le cas de 0x4000 à 0x5000.
 
- 
+ 
 
- 
+ 

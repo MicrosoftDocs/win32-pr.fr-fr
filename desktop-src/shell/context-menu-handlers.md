@@ -4,19 +4,19 @@ ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: Création de gestionnaires de menu contextuel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8e102833453566f42d058ff82061f34ebc65691
-ms.sourcegitcommit: 9655f82be96b11258276fdefff14423c30552fbb
+ms.openlocfilehash: e3a6b6f812772b884e12c45a48bae8075d90df28fb3b60f895cfd4c4263be74c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "109740570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715765"
 ---
 # <a name="creating-shortcut-menu-handlers"></a>Création de gestionnaires de menu contextuel
 
 Les gestionnaires de menus contextuels, également appelés gestionnaires de menus contextuels ou gestionnaires de verbes, sont un type de gestionnaire de type de fichier. Ces gestionnaires peuvent être impelmented de manière à ce qu’ils se chargent dans leur propre processus ou dans l’Explorateur, ou dans d’autres processus tiers. Soyez vigilant lors de la création de gestionnaires in-process, car ils peuvent nuire au processus qui les charge.
 
 > [!Note]  
-> Il existe des considérations spéciales pour les versions 64 bits de Windows lors de l’enregistrement de gestionnaires qui fonctionnent dans le contexte d’applications 32 bits : lorsqu’ils sont appelés dans le contexte d’une application de bits différents, le sous-système WOW64 redirige l’accès au système de fichiers vers certains chemins d’accès. Si votre gestionnaire. exe est stocké dans l’un de ces chemins d’accès, il n’est pas accessible dans ce contexte. Par conséquent, pour une solution de contournement, stockez votre fichier. exe dans un chemin d’accès qui n’est pas redirigé, ou stockez une version stub de votre fichier. exe qui lance la version réelle.
+> il existe des considérations spéciales pour les versions 64 bits de Windows lors de l’enregistrement de gestionnaires qui fonctionnent dans le contexte d’applications 32 bits : lorsqu’ils sont appelés dans le contexte d’une application de bits différents, le sous-système WOW64 redirige l’accès au système de fichiers vers certains chemins d’accès. Si votre gestionnaire de .exe est stocké dans l’un de ces chemins d’accès, il n’est pas accessible dans ce contexte. Par conséquent, pour une solution de contournement, stockez votre .exe dans un chemin d’accès qui n’est pas redirigé, ou stockez une version stub de votre .exe qui lance la version réelle.
 
 Cette rubrique est organisée comme suit :
 
@@ -29,7 +29,7 @@ Cette rubrique est organisée comme suit :
     -   [Positionnement des verbes en haut ou en bas du menu](#positioning-verbs-at-the-top-or-bottom-of-the-menu)
     -   [Création de menus en cascade statiques](#creating-static-cascading-menus)
     -   [Obtention du comportement dynamique pour les verbes statiques à l’aide de la syntaxe de requête avancée](#getting-dynamic-behavior-for-static-verbs-by-using-advanced-query-syntax)
-    -   [Déconseillé : Association de verbes à des commandes échange dynamique de données](#deprecated-associating-verbs-with-dynamic-data-exchange-commands)
+    -   [déconseillé : association de verbes à des commandes échange dynamique de données](#deprecated-associating-verbs-with-dynamic-data-exchange-commands)
 -   [Exécution des tâches d’implémentation de verbe](#completing-verb-implementation-tasks)
     -   [Personnalisation du menu contextuel pour les objets Shell prédéfinis](#customizing-the-shortcut-menu-for-predefined-shell-objects)
     -   [Extension d’un nouveau sous-menu](#extending-a-new-submenu)
@@ -48,9 +48,9 @@ Les applications sont généralement chargées de fournir des chaînes d’affic
 |----------------|----------------------------------------------------------------------|
 | Ouvrir           | Ouvre le fichier ou le dossier.                                            |
 | Opennew        | Ouvre le fichier ou le dossier dans une nouvelle fenêtre.                            |
-| Impression          | Imprime le fichier.                                                     |
+| Imprimer          | Imprime le fichier.                                                     |
 | Printto        | Permet à l’utilisateur d’imprimer un fichier en le faisant glisser vers un objet Printer. |
-| Explorer        | Ouvre l’Explorateur Windows avec le dossier sélectionné.                     |
+| Explorer        | ouvre Windows Explorer avec le dossier sélectionné.                     |
 | Propriétés     | Ouvre la feuille de propriétés de l’objet.                                   |
 
 > [!Note]  
@@ -122,7 +122,7 @@ Le diagramme suivant illustre l’extension du menu contextuel conformément aux
 
 ### <a name="activating-your-handler-using-the-idroptarget-interface"></a>Activation de votre gestionnaire à l’aide de l’interface IDropTarget
 
-Échange dynamique de données (DDE) est déconseillé ; Utilisez plutôt [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) . **IDropTarget** est plus robuste et offre une meilleure prise en charge de l’activation, car il utilise l’activation com du gestionnaire. Dans le cas d’une sélection de plusieurs éléments, **IDropTarget** n’est pas soumis aux restrictions de taille de mémoire tampon trouvées dans DDE et dans [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa). En outre, les éléments sont passés à l’application sous la forme d’un objet de données qui peut être converti en tableau d’éléments à l’aide de la fonction [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) . Cela est plus simple et ne perd pas les informations d’espace de noms lorsque l’élément est converti en chemin d’accès pour les protocoles de ligne de commande ou DDE.
+échange dynamique de données (DDE) est déconseillé ; Utilisez plutôt [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) . **IDropTarget** est plus robuste et offre une meilleure prise en charge de l’activation, car il utilise l’activation com du gestionnaire. Dans le cas d’une sélection de plusieurs éléments, **IDropTarget** n’est pas soumis aux restrictions de taille de mémoire tampon trouvées dans DDE et dans [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa). En outre, les éléments sont passés à l’application sous la forme d’un objet de données qui peut être converti en tableau d’éléments à l’aide de la fonction [**SHCreateShellItemArrayFromDataObject**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject) . Cela est plus simple et ne perd pas les informations d’espace de noms lorsque l’élément est converti en chemin d’accès pour les protocoles de ligne de commande ou DDE.
 
 Pour plus d’informations sur les requêtes [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) et Shell pour les attributs d’association de fichiers, consultez [types perçus et inscription d’application](fa-perceivedtypes.md).
 
@@ -136,7 +136,7 @@ Par exemple, l’entrée de Registre suivante produit des verbes de menu context
 
 1.  Affichage
 2.  Gadgets
-3.  Personnalisation
+3.  Personalization
 
 ```
 HKEY_CLASSES_ROOT
@@ -149,7 +149,7 @@ HKEY_CLASSES_ROOT
 
 De même, l’entrée de Registre suivante produit des verbes de menu contextuel dans l’ordre suivant :
 
-1.  Personnalisation
+1.  Personalization
 2.  Gadgets
 3.  Affichage
 
@@ -170,13 +170,13 @@ Position=Top | Bottom
 
 ### <a name="creating-static-cascading-menus"></a>Création de menus en cascade statiques
 
-Dans Windows 7 et versions ultérieures, l’implémentation des menus en cascade est prise en charge via les paramètres du Registre. Avant Windows 7, la création de menus en cascade était possible uniquement via l’implémentation de l’interface [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) . Dans Windows 7 et versions ultérieures, vous devez recourir à des solutions basées sur du code COM uniquement lorsque les méthodes statiques sont insuffisantes.
+dans Windows 7 et versions ultérieures, l’implémentation des menus en cascade est prise en charge via les paramètres du registre. avant le Windows 7, la création de menus en cascade était possible uniquement via l’implémentation de l’interface [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) . dans Windows 7 et versions ultérieures, vous devez recourir à des solutions basées sur du code COM uniquement lorsque les méthodes statiques sont insuffisantes.
 
 La capture d’écran suivante fournit un exemple de menu en cascade.
 
 ![capture d’écran montrant un exemple de menu en cascade](images/file-assoc/filecascademenu2ndex.png)
 
-Dans Windows 7 et versions ultérieures, il existe trois façons de créer des menus en cascade :
+dans Windows 7 et versions ultérieures, il existe trois façons de créer des menus en cascade :
 
 -   [Création de menus en cascade avec l’entrée de Registre subcommandes](#creating-cascading-menus-with-the-subcommands-registry-entry)
 -   [Création de menus en cascade avec l’entrée de Registre ExtendedSubCommandsKey](#creating-cascading-menus-with-the-extendedsubcommandskey-registry-entry)
@@ -184,7 +184,7 @@ Dans Windows 7 et versions ultérieures, il existe trois façons de créer des m
 
 ### <a name="creating-cascading-menus-with-the-subcommands-registry-entry"></a>Création de menus en cascade avec l’entrée de Registre subcommandes
 
-Dans Windows 7 et versions ultérieures, vous pouvez utiliser l’entrée de sous-commandes pour créer des menus en cascade à l’aide de la procédure suivante.
+dans Windows 7 et versions ultérieures, vous pouvez utiliser l’entrée de sous-commandes pour créer des menus en cascade à l’aide de la procédure suivante.
 
 **Pour créer un menu en cascade à l’aide de l’entrée de sous-commandes**
 
@@ -243,7 +243,7 @@ Dans Windows 7 et versions ultérieures, vous pouvez utiliser l’entrée de sou
 
 ### <a name="creating-cascading-menus-with-the-extendedsubcommandskey-registry-entry"></a>Création de menus en cascade avec l’entrée de Registre ExtendedSubCommandsKey
 
-Dans Windows 7 et versions ultérieures, vous pouvez utiliser l’entrée ExtendedSubCommandKey pour créer des menus en cascade étendus : des menus en cascade dans des menus en cascade.
+dans Windows 7 et versions ultérieures, vous pouvez utiliser l’entrée ExtendedSubCommandKey pour créer des menus en cascade étendus : des menus en cascade dans des menus en cascade.
 
 La capture d’écran suivante est un exemple de menu en cascade étendu.
 
@@ -290,7 +290,7 @@ La capture d’écran suivante est un exemple de menu en cascade étendu.
 
     Assurez-vous que la valeur par défaut de la sous-clé *menu de test cascade 2* est vide et affichée comme **(valeur non définie)**.
 
-4.  Remplissez les sous-verbes à l’aide de l’une des implémentations de verbe statique suivantes. Notez que la sous-clé CommandFlags représente les valeurs EXPCMDFLAGS. Si vous souhaitez ajouter un séparateur avant ou après l’élément de menu cascade, utilisez ECF \_ SEPARATORBEFORE (0x20) ou ECF \_ SEPARATORAFTER (0x40). Pour obtenir une description de ces indicateurs Windows 7 et versions ultérieures, consultez [**IExplorerCommand :: GetFlags**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags). ECF \_ SEPARATORBEFORE fonctionne uniquement pour les éléments de menu de niveau supérieur. MUIVerb est de type **reg \_ SZ** et CommandFlags est de type **reg \_ DWORD**.
+4.  Remplissez les sous-verbes à l’aide de l’une des implémentations de verbe statique suivantes. Notez que la sous-clé CommandFlags représente les valeurs EXPCMDFLAGS. Si vous souhaitez ajouter un séparateur avant ou après l’élément de menu cascade, utilisez ECF \_ SEPARATORBEFORE (0x20) ou ECF \_ SEPARATORAFTER (0x40). pour obtenir une description des indicateurs Windows 7 et versions ultérieures, consultez [**IExplorerCommand :: GetFlags**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags). ECF \_ SEPARATORBEFORE fonctionne uniquement pour les éléments de menu de niveau supérieur. MUIVerb est de type **reg \_ SZ** et CommandFlags est de type **reg \_ DWORD**.
 
     ```
     HKEY_CLASSES_ROOT
@@ -317,7 +317,7 @@ La capture d’écran suivante illustre les exemples d’entrée de clé de Regi
 
 ### <a name="creating-cascading-menus-with-the-iexplorercommand-interface"></a>Création de menus en cascade avec l’interface IExplorerCommand
 
-Vous pouvez également ajouter des verbes à un menu en cascade à l’aide de [**IExplorerCommand :: EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands). Cette méthode permet aux sources de données qui fournissent leurs commandes de module de commande via [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) d’utiliser ces commandes comme verbes dans un menu contextuel. Dans Windows 7 et versions ultérieures, vous pouvez fournir la même implémentation de verbe à l’aide de [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) , comme vous pouvez le faire avec [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu).
+Vous pouvez également ajouter des verbes à un menu en cascade à l’aide de [**IExplorerCommand :: EnumSubCommands**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands). Cette méthode permet aux sources de données qui fournissent leurs commandes de module de commande via [**IExplorerCommandProvider**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider) d’utiliser ces commandes comme verbes dans un menu contextuel. dans Windows 7 et versions ultérieures, vous pouvez fournir la même implémentation de verbe à l’aide de [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) , comme vous pouvez le faire avec [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu).
 
 Les deux captures d’écran suivantes illustrent l’utilisation des menus en cascade dans le dossier **appareils** .
 
@@ -336,7 +336,7 @@ La capture d’écran suivante illustre une autre implémentation d’un menu en
 
 La syntaxe de requête avancée (AQS) peut exprimer une condition qui sera évaluée à l’aide des propriétés de l’élément pour lequel le verbe est instancié. Ce système fonctionne uniquement avec les propriétés rapides. Il s’agit de propriétés que la source de données Shell signale comme rapide en ne retournant pas [* * * * SHCOLSTATE \_ Slow * *](/windows/win32/api/shtypes/ne-shtypes-shcolstate) * * à partir de [**IShellFolder2 :: GetDefaultColumnState**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdefaultcolumnstate).
 
-Windows 7 et versions ultérieures prennent en charge les valeurs canoniques qui évitent les problèmes sur les builds localisées. La syntaxe canonique suivante est requise sur les builds localisées pour tirer parti de cette amélioration de Windows 7.
+Windows 7 et les versions ultérieures prennent en charge les valeurs canoniques qui évitent les problèmes sur les builds localisées. la syntaxe canonique suivante est requise sur les builds localisées pour tirer parti de cette Windows 7 améliorations.
 
 ``` syntax
 System.StructuredQueryType.Boolean#True
@@ -371,14 +371,14 @@ HKEY_CLASSES_ROOT
                (Default) = %SystemRoot%\system32\notepad.exe %1
 ```
 
-Dans le registre de Windows 7, consultez la section **HKEY \_ classes \_ root** \\ **Drive** comme exemple de verbes BitLocker qui utilisent l’approche suivante :
+dans le registre Windows 7, consultez la section **HKEY \_ CLASSES \_ ROOT** \\ **drive** comme exemple de verbes bitlocker qui utilisent l’approche suivante :
 
 -   AppliesTo = System. volume. BitlockerProtection : = 2
 -   System. volume. BitlockerRequiresAdmin : = System. StructuredQueryType. Boolean \# true
 
 Pour plus d’informations sur AQS, consultez [syntaxe de requête avancée](../search/-search-3x-advancedquerysyntax.md).
 
-### <a name="deprecated-associating-verbs-with-dynamic-data-exchange-commands"></a>Déconseillé : Association de verbes à des commandes échange dynamique de données
+### <a name="deprecated-associating-verbs-with-dynamic-data-exchange-commands"></a>déconseillé : association de verbes à des commandes échange dynamique de données
 
 DDE est déconseillé. Utilisez plutôt [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) . DDE est déconseillé, car il s’appuie sur un message de fenêtre de diffusion pour découvrir le serveur DDE. Un serveur DDE bloque le message de fenêtre de diffusion et bloque donc les conversations DDE pour d’autres applications. Il est courant qu’une application bloquée unique provoque des blocages ultérieurs tout au bout de l’expérience de l’utilisateur.
 
@@ -398,7 +398,7 @@ Une liste d’objets prédéfinis se trouve dans la section *objets Shell préd�
 
 ### <a name="extending-a-new-submenu"></a>Extension d’un nouveau sous-menu
 
-Quand un utilisateur ouvre le menu **fichier** dans l’Explorateur Windows, l’une des commandes affichées est **nouveau**. La sélection de cette commande affiche un sous-menu. Par défaut, le sous-menu contient deux commandes, **dossier** et **raccourci**, qui permettent aux utilisateurs de créer des sous-dossiers et des raccourcis. Ce sous-menu peut être étendu pour inclure des commandes de création de fichier pour n’importe quel type de fichier.
+quand un utilisateur ouvre le menu **fichier** dans l’explorateur de Windows, l’une des commandes affichées est **nouveau**. La sélection de cette commande affiche un sous-menu. Par défaut, le sous-menu contient deux commandes, **dossier** et **raccourci**, qui permettent aux utilisateurs de créer des sous-dossiers et des raccourcis. Ce sous-menu peut être étendu pour inclure des commandes de création de fichier pour n’importe quel type de fichier.
 
 Pour ajouter une commande de création de fichier au sous-menu **nouveau** , les fichiers de votre application doivent avoir un type de fichier associé. Incluez une sous-clé **ShellNew** sous le nom de fichier. Lorsque la **nouvelle** commande du menu **fichier** est sélectionnée, l’interpréteur de commandes ajoute le type de fichier au **nouveau** sous-menu. La chaîne d’affichage de la commande est la chaîne descriptive qui est assignée au ProgID du programme.
 
@@ -462,7 +462,7 @@ HKEY_CLASSES_ROOT
 
 ### <a name="suppressing-verbs-and-controlling-visibility"></a>Suppression de verbes et contrôle de la visibilité
 
-Vous pouvez utiliser les paramètres de stratégie Windows pour contrôler la visibilité des verbes. Les verbes peuvent être supprimés par le biais des paramètres de stratégie en ajoutant une valeur **SuppressionPolicy** ou une valeur Guid **SuppressionPolicyEx** à la sous-clé de Registre du verbe. Définissez la valeur de la sous-clé **SuppressionPolicy** sur l’ID de stratégie. Si la stratégie est activée, le verbe et son entrée de menu contextuel associée sont supprimés. Pour connaître les valeurs possibles de l’ID de stratégie, consultez l’énumération [**restrictions**](/windows/desktop/api/shlobj_core/ne-shlobj_core-restrictions) .
+vous pouvez utiliser Windows paramètres de stratégie pour contrôler la visibilité des verbes. Les verbes peuvent être supprimés par le biais des paramètres de stratégie en ajoutant une valeur **SuppressionPolicy** ou une valeur Guid **SuppressionPolicyEx** à la sous-clé de Registre du verbe. Définissez la valeur de la sous-clé **SuppressionPolicy** sur l’ID de stratégie. Si la stratégie est activée, le verbe et son entrée de menu contextuel associée sont supprimés. Pour connaître les valeurs possibles de l’ID de stratégie, consultez l’énumération [**restrictions**](/windows/desktop/api/shlobj_core/ne-shlobj_core-restrictions) .
 
 ### <a name="employing-the-verb-selection-model"></a>Utilisation du modèle de sélection de verbe
 
@@ -530,7 +530,7 @@ HKEY_CLASSES_ROOT
 
 ### <a name="implementing-custom-verbs-for-folders-through-desktopini"></a>Implémentation de verbes personnalisés pour les dossiers via Desktop.ini
 
-Dans Windows 7 et versions ultérieures, vous pouvez ajouter des verbes à un dossier par le biais de Desktop.ini. Pour plus d’informations sur les fichiers de Desktop.ini, consultez [Comment personnaliser des dossiers avec des Desktop.ini](how-to-customize-folders-with-desktop-ini.md).
+dans Windows 7 et versions ultérieures, vous pouvez ajouter des verbes à un dossier par le biais de Desktop.ini. Pour plus d’informations sur les fichiers de Desktop.ini, consultez [Comment personnaliser des dossiers avec des Desktop.ini](how-to-customize-folders-with-desktop-ini.md).
 
 > [!Note]  
 > Desktop.ini fichiers doivent toujours être marqués comme étant  +  **masqués** par le système afin qu’ils ne soient pas affichés aux utilisateurs.

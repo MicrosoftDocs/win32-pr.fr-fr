@@ -4,17 +4,17 @@ ms.assetid: 7f8421e7-f835-4a10-a9c9-0e43de159e4f
 title: Méthode PlayBackwards
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90b396c3829569d3f3ad25f0c0e8718dfd23f268
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b7236c225858d9508da0074ea64d104a50632b772302f42362dae373a987c352
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104480593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748359"
 ---
 # <a name="playbackwards-method"></a>Méthode PlayBackwards
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

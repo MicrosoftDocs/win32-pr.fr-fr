@@ -4,12 +4,12 @@ ms.assetid: 4a3fa79f-7a7a-4f9b-9353-e6c5ca4fcb4e
 title: Constantes LINEBUSYMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c996ad4e6142cc8312983945ae4c716ee0b35ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54563567944a2e5164717f7d64ff7026a0045ea735405a7bcad159969f07514a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681989"
 ---
 # <a name="linebusymode_-constants"></a>\_Constantes LINEBUSYMODE
 
@@ -57,7 +57,7 @@ Le mode spécifique du signal occupé n’est pas disponible et ne sera pas conn
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les 16 bits de poids fort peuvent être affectés pour les extensions spécifiques à l’appareil. Les 16 bits de poids faible sont réservés.
 

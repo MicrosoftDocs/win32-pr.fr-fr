@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: dd83bcfd6c1f3dec31fb80cf78750bfdfef5e7a9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3077351b804f854520cff421fcad8a575278bb5a960f60ef760db38e7ca2f3a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833639"
 ---
 # <a name="ntgdiddresetvisrgn-function"></a>NtGdiDdResetVisrgn fonction)
 
@@ -63,9 +63,9 @@ Réservé.
 
 En cas de réussite, cette fonction retourne la **valeur true**; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le découpage peut changer de façon asynchrone du point de vue des threads en mode utilisateur. Les parties en mode noyau de DirectDraw et de Windows Graphics Device Interface (GDI) maintiennent un compteur qui est incrémenté chaque fois que la liste de découpage de l’ensemble du bureau change. Un appel à cette fonction enregistre ce compteur avec chaque surface principale DirectDraw existante sur le système.
+Le découpage peut changer de façon asynchrone du point de vue des threads en mode utilisateur. les parties en mode noyau de DirectDraw et de Windows Graphics Device Interface (GDI) maintiennent un compteur qui est incrémenté chaque fois que la liste de découpage de l’ensemble du bureau change. Un appel à cette fonction enregistre ce compteur avec chaque surface principale DirectDraw existante sur le système.
 
 À un moment ultérieur, lorsque l’une de ces surfaces principales est modifiée par une opération [IDirectDrawSurface7 :: BLT](/windows/win32/api/ddraw/nf-ddraw-idirectdrawsurface7-blt) ou [IDirectDrawSurface7 :: Lock](/previous-versions/ms858221(v=msdn.10)) (voir la documentation du DDK), le compteur enregistré avec la surface est comparé au compteur global. Si ces valeurs sont différentes, un code d’erreur DDERR \_ VISRGNCHANGED est renvoyé au code du mode utilisateur. Le code en mode utilisateur réinterroge ensuite le découpage actuel du bureau, appelle **NtGdiDdResetVisrgn** et réessaye le IDirectDrawSurface7 :: BLT appliqué à la surface principale, en respectant le nouveau découpage. Finalement, le découpage échantillonné par le code en mode utilisateur sera le même que le découpage actuel possédé par le mode noyau, et IDirectDrawSurface7 :: BLT sera autorisé à continuer.
 

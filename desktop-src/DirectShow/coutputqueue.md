@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cd6167402abd36db8f436f6e27b18213642f010b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8911c7261af0bf2e140a551b0146b7764cd541368898e6d3905f5dee2eaa4c53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813433"
 ---
 # <a name="coutputqueue-class"></a>COutputQueue, classe
 
@@ -88,7 +88,7 @@ Si vous le souhaitez, vous pouvez configurer l' `COutputQueue` objet pour remett
 | [**NewSegment**](coutputqueue-newsegment.md)                | Remet un nouveau segment à la broche d’entrée.                                                                 |
 | [**Çoive**](coutputqueue-receive.md)                      | Remet un échantillon de média à la broche d’entrée.                                                                |
 | [**ReceiveMultiple**](coutputqueue-receivemultiple.md)      | Remet un lot d’exemples de supports à la broche d’entrée.                                                      |
-| [**Réinitialiser**](coutputqueue-reset.md)                          | Réinitialise l’objet afin qu’il puisse recevoir plus de données.                                                      |
+| [**Initialisation**](coutputqueue-reset.md)                          | Réinitialise l’objet afin qu’il puisse recevoir plus de données.                                                      |
 | [**IsIdle**](coutputqueue-isidle.md)                        | Détermine si l’objet attend des données.                                                       |
 | [**SetPopEvent**](coutputqueue-setpopevent.md)              | Spécifie un événement qui est signalé chaque fois que l’objet supprime un échantillon de la file d’attente.                 |
 
@@ -102,7 +102,7 @@ Si vous le souhaitez, vous pouvez configurer l' `COutputQueue` objet pour remett
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Outputq. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Outputq. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

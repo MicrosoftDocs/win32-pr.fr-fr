@@ -1,23 +1,23 @@
 ---
-description: Cette rubrique fournit des liens utiles vers des rubriques relatives aux fonctions Windows Sockets et aux structures Windows Sockets.
+description: cette rubrique fournit des liens utiles vers des rubriques sur les fonctions de sockets Windows et les Structures de sockets Windows.
 ms.assetid: e0af2cd9-9cbf-44a1-aa4d-4df211b04782
 title: Liens de référence de la NSP Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3d9f0b9ca4ad57390c73dea796d3969f05e6795
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2facb5eb2c808872dece8f6e384fdd594b3e7cf160abd3e87677c4a0a9fd68fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775709"
 ---
 # <a name="winsock-nsp-reference-links"></a>Liens de référence de la NSP Winsock
 
-Cette rubrique fournit des liens utiles vers des rubriques relatives aux fonctions Windows Sockets et aux structures Windows Sockets.
+cette rubrique fournit des liens utiles vers des rubriques sur les fonctions de sockets Windows et les Structures de sockets Windows.
 
  
 
-La liste suivante identifie les liens vers les rubriques relatives aux fonctions Windows Sockets :
+la liste suivante identifie les liens vers les rubriques relatives aux fonctions de sockets Windows :
 
 -   [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup)
 -   [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)
@@ -30,7 +30,7 @@ La liste suivante identifie les liens vers les rubriques relatives aux fonctions
 
  
 
-La liste suivante identifie les liens vers les rubriques relatives aux structures Windows Sockets :
+la liste suivante identifie les liens vers les rubriques relatives aux Structures de sockets Windows :
 
 -   [**OBJET BLOB**](/windows/desktop/api/nspapi/ns-nspapi-blob)
 -   [**WSACOMPLETION**](/windows/desktop/api/winsock2/ns-winsock2-wsacompletion)

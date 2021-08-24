@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 3dafb9561bf8b5e3c5c66eb23bd5e286cbd38118
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6ef18eff8ba27a3169399f1f10e0707c4e0b3c010d54830ad8f8f997c5e1b50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684439"
 ---
 # <a name="connectionmode-wlanprofile-element"></a>Élément connectionMode (WLANProfile)
 
@@ -46,7 +46,7 @@ Si [**ConnectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md
 
 L’élément **connectionMode** est défini par l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant décrit les valeurs d’énumération.
 
@@ -72,7 +72,7 @@ Pour afficher des exemples de profils qui utilisent l’élément **connectionMo
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

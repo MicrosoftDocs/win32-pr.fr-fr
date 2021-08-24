@@ -4,12 +4,12 @@ ms.assetid: e34d17e9-cd6b-4a21-9abc-9562ee648c59
 title: Table ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 721dc7ac9a729b8df0623a2958a4d0fe32851307
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fec4837fa7d98289495bbb0773ae7260f957485cd87214dabf1999b1e1a876c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692999"
 ---
 # <a name="controlevent-table"></a>Table ControlEvent,
 
@@ -23,12 +23,12 @@ La table ControlEvent, contient les colonnes suivantes.
 
 | Colonne    | Type                         | Clé | Nullable |
 |-----------|------------------------------|-----|----------|
-| Dialogue\_  | [Identificateur](identifier.md) | O   | N        |
+| Boîte de dialogue\_  | [Identificateur](identifier.md) | O   | N        |
 | contrôle\_ | [Identificateur](identifier.md) | O   | N        |
 | Événement     | [Correct](formatted.md)   | O   | N        |
 | Argument  | [Correct](formatted.md)   | O   | N        |
 | Condition | [Condition](condition.md)   | O   | O        |
-| Classement  | [Integer](integer.md)       | N   | O        |
+| Organisation  | [Integer](integer.md)       | N   | O        |
 
 
 
@@ -84,11 +84,11 @@ Entier utilisé pour classer plusieurs événements liés au même contrôle. Il
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le [tableau EventMapping](eventmapping-table.md) répertorie les contrôles qui s’abonnent à un événement de contrôle et répertorie l’attribut de contrôle à modifier lorsque cet événement est publié par un autre contrôle ou le programme d’installation.
 
-Sur Windows XP ou les systèmes d’exploitation antérieurs, les utilisateurs peuvent publier un événement de contrôle uniquement en interagissant avec un contrôle [CheckBox](checkbox-control.md) ou un [contrôle PUSHBUTTON](pushbutton-control.md). Avec Windows Server 2003, les utilisateurs peuvent publier un événement de contrôle uniquement en interagissant avec un contrôle de [case à cocher](checkbox-control.md), un [contrôle SelectionTree](selectiontree-control.md)et un [contrôle PUSHBUTTON](pushbutton-control.md). La liste d’autres contrôles dans le champ de contrôle n' \_ a aucun effet.
+sur Windows XP ou les systèmes d’exploitation antérieurs, les utilisateurs peuvent publier un événement de contrôle uniquement en interagissant avec un contrôle [Checkbox](checkbox-control.md) ou un [contrôle Pushbutton](pushbutton-control.md). avec Windows Server 2003, les utilisateurs peuvent publier un événement de contrôle uniquement en interagissant avec un contrôle de [case à cocher](checkbox-control.md), un [contrôle SelectionTree](selectiontree-control.md)et un [contrôle Pushbutton](pushbutton-control.md). La liste d’autres contrôles dans le champ de contrôle n' \_ a aucun effet.
 
 ## <a name="validation"></a>Validation
 

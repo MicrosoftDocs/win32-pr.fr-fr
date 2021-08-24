@@ -4,12 +4,12 @@ ms.assetid: bf67b434-c082-472d-9eae-ae31969d9cb8
 title: Utilisation de COMREPL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fb39640998b3b27ac25cbab2ae60948418d6cee
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 501cca8d32383e23fc636669e32a80cfdfe96dd658717e41c1618244fc5af81e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853879"
 ---
 # <a name="using-comrepl"></a>Utilisation de COMREPL
 
@@ -33,7 +33,7 @@ Pour lancer l’utilitaire de ligne de commande COMREPL, procédez comme suit :
 
     -   **/v** renvoie la sortie du fichier journal vers la console
 
-## <a name="notes"></a>Notes
+## <a name="notes"></a>Remarques
 
 -   Étant donné que COM+ n’est pas répliqué (uniquement les données de configuration et les applications), COM+ doit déjà être installé sur tous les ordinateurs cibles.
 -   L’utilisateur doit passer des vérifications de rôle pour l’application système sur les ordinateurs source et cible.

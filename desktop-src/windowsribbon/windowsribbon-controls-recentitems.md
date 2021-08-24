@@ -4,12 +4,12 @@ description: La liste éléments récents est un volet du menu de l’applicatio
 ms.assetid: fdead358-d303-46de-9f8e-6fc2832d8e94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f78c01fc4d6cc830eba644f7dcf22b6fb03e82
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4f1d67c38e1eb9014cfd3349881ed2849755ebc89489cc925052aa690f54adc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104565249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810877"
 ---
 # <a name="recent-items"></a>Éléments récents
 
@@ -22,7 +22,7 @@ La liste éléments récents est un volet du menu de l' [application](windowsrib
 
 ## <a name="details"></a>Détails
 
-La capture d’écran suivante illustre une liste d’éléments récents de WordPad pour Windows 7).
+la capture d’écran suivante illustre une liste d’éléments récents de WordPad pour Windows 7).
 
 ![capture d’écran de la liste des éléments récents dans le ruban Microsoft Paint.](images/controls/recentitems.png)
 
@@ -35,7 +35,7 @@ L’élément [**RecentItems**](windowsribbon-element-recentitems.md) a un attri
 > [!Note]  
 > L’épinglage est activé par défaut si l’attribut *EnablePinning* n’est pas spécifié.
 
- 
+ 
 
 ![capture d’écran de l’épinglage d’éléments récents dans un menu d’application.](images/overviews/applicationmenu-menurecentitemspinned.png)
 
@@ -58,7 +58,7 @@ La méthode de rappel [**IUICommandHandler :: UpdateProperty**](/windows/deskto
 > [!Note]  
 > Dans certains cas, une propriété peut être récupérée par le biais de la méthode [**IUIFramework :: GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) et définie avec la méthode [**IUIFramework :: SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) .
 
- 
+ 
 
 Le tableau suivant répertorie les clés de propriété associées au contrôle éléments récents.
 
@@ -71,16 +71,16 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La méthode [IApplicationDocumentLists :: GetList](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist) peut être utilisée pour récupérer la liste des derniers éléments de l’interpréteur de commandes Windows pour l’application ruban. L’objet récupéré par cette méthode peut ensuite être utilisé par l’application pour créer les données requises par l’infrastructure du ruban pour remplir la liste des **éléments récents** du menu de l' [application](windowsribbon-controls-applicationmenu.md).
+la méthode [IApplicationDocumentLists :: GetList](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist) peut être utilisée pour récupérer la liste des derniers fichiers de l’interpréteur de commandes Windows pour l’application ruban. L’objet récupéré par cette méthode peut ensuite être utilisé par l’application pour créer les données requises par l’infrastructure du ruban pour remplir la liste des **éléments récents** du menu de l' [application](windowsribbon-controls-applicationmenu.md).
 
 > [!Note]  
 > Lors de l’utilisation de cette méthode, *ListType* doit avoir la valeur `ADLT_RECENT` .
 
- 
+ 
 
 Pour obtenir un exemple d’implémentation d’une liste d’éléments MRU dans une application de Framework de ruban, consultez l' [exemple HTMLEditRibbon](windowsribbon-htmleditribbonsample.md).
 
@@ -88,12 +88,12 @@ Pour obtenir un exemple d’implémentation d’une liste d’éléments MRU dan
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Élément de balisage des éléments récents**](windowsribbon-element-recentitems.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

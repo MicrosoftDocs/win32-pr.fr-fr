@@ -1,19 +1,19 @@
 ---
-description: Spécifie l’ensemble du fichier situé derrière l’objet. Il permet également de faire référence à n’importe quel type de ressource, y compris ceux non couverts par d’autres types de ressources de périphériques mobiles Windows, tels qu’un type d’objet personnalisé.
+description: Spécifie l’ensemble du fichier situé derrière l’objet. il s’agit également d’un moyen de faire référence à n’importe quel type de ressource, y compris ceux non couverts par d’autres types de ressources de Windows appareils mobiles, tels qu’un type d’objet personnalisé.
 ms.assetid: e534ea86-4932-45c7-87e7-03926202fa7e
 title: WPD_RESOURCE_DEFAULT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d04d6c7ec7d0623e2ed42c61115c6ae2145bf066
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d939cf58033baded231363b39410c2e527fe303075c94255a00ba96831a609b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805879"
 ---
 # <a name="wpd_resource_default"></a>\_ressource wpd \_ par défaut
 
-Spécifie l’ensemble du fichier situé derrière l’objet. Il permet également de faire référence à n’importe quel type de ressource, y compris ceux non couverts par d’autres types de ressources de périphériques mobiles Windows, tels qu’un type d’objet personnalisé.
+Spécifie l’ensemble du fichier situé derrière l’objet. il s’agit également d’un moyen de faire référence à n’importe quel type de ressource, y compris ceux non couverts par d’autres types de ressources de Windows appareils mobiles, tels qu’un type d’objet personnalisé.
 
 Toutes les ressources incorporées dans la ressource spécifiée seront incluses. Par exemple, la ressource par défaut d’un dossier racine des contacts peut inclure tous les contacts imbriqués. Toutefois, les ressources enfants qui sont simplement *liées* par des métadonnées ou des références ne sont pas incluses. Il peut s’agir, par exemple, d’une sélection, qui peut uniquement être liée à des fichiers audio par le biais de références de métadonnées ou de chemins textuels dans le fichier.
 

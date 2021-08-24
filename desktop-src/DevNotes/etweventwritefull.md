@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 api_location:
 - ntetw.h
-ms.openlocfilehash: 5ea3de0dba842544b0ffacc785fb138bdda571a0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1fd25931e6a58b97e052ecd7da43bd651688d2bf726d8b5ba2acd84ce820be7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119653428"
 ---
 # <a name="etweventwritefull-function"></a>EtwEventWriteFull fonction)
 
-[La fonction EtwEventWriteFull et les structures qu’elle retourne sont internes au système d’exploitation et sujettes à changement d’une version de Windows à une autre.]
+[la fonction EtwEventWriteFull et les structures qu’elle retourne sont internes au système d’exploitation et sujettes à changement d’une version de Windows à une autre.]
 
 Écrit un événement complet dans une session.
 
@@ -98,9 +98,9 @@ Pointeur vers un tableau d’éléments de données utilisateur.
 
 Code d’erreur Win32.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La fonction EtwEventWriteFull et les structures qu’elle retourne sont internes au système d’exploitation et peuvent être modifiées d’une version de Windows à une autre. Pour maintenir la compatibilité de votre application, il est préférable d’utiliser à la place des fonctions publiques.
+la fonction EtwEventWriteFull et les structures qu’elle retourne sont internes au système d’exploitation et peuvent être modifiées d’une version de Windows à une autre. Pour maintenir la compatibilité de votre application, il est préférable d’utiliser à la place des fonctions publiques.
 
 
 ## <a name="requirements"></a>Configuration requise

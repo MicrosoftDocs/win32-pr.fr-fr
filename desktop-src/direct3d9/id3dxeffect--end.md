@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: baaccd7710845296497dcc7f16d3d71c7ceeb9bd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6c93dc98febe2f5e539d3be678322860fe14069c2f8bf6b75cc42864b922e1f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748659"
 ---
 # <a name="id3dxeffectend-method"></a>ID3DXEffect :: end, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Cette méthode retourne toujours la valeur \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout rendu dans un effet est effectué dans une paire correspondante d’appels [**ID3DXEffect :: Begin**](id3dxeffect--begin.md) et **ID3DXEffect :: end** . Une fois toutes les passes rendues, **ID3DXEffect :: end** doit être appelé pour terminer la technique active. Le système d’effet répond à l’aide du bloc d’état créé lors de l’appel de **ID3DXEffect :: Begin** , afin de restaurer automatiquement l’état du pipeline avant **ID3DXEffect :: Begin**.
 

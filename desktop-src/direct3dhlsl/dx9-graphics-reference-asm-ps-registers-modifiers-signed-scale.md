@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 214f4fcb6ad4f382a97b8c8d75a733124c31d68a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 161cacbf9f10a36e65f37816970aea5d5d804096151a4ae1ce3f814be918ae08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854599"
 ---
 # <a name="source-register-signed-scaling"></a>Mise à l’échelle signée du Registre source
 
@@ -33,7 +33,7 @@ source register_bx2
 
 Registre source. Pour plus d’informations sur les types de registres, consultez les [registres PS 1 \_ \_ 1 \_ \_ PS 1 \_ \_ 2 \_ \_ \_ \_ \_ \_ \_ \_ ](dx9-graphics-reference-asm-ps-registers-ps-1-x.md)PS 1 3 PS 1 4.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette opération est couramment utilisée pour étendre \[ 1,0 les données de 0,0 à 1,0 à \] \[ 1,0 \] . Ce modificateur est conçu pour être utilisé avec les instructions arithmétiques. Ce modificateur est couramment utilisé sur les entrées de l’instruction du produit scalaire ([DP3-PS](dp3---ps.md)). L’utilisation \_ de BX2 sur des données situées en dehors de la plage de 0 à 1 peut produire des résultats indéfinis.
 
@@ -74,9 +74,9 @@ dp3_sat r0, t0_bx2, v0_bx2    ; Calculate a dot product.
 [Modificateurs de Registre source du nuanceur de pixels](dx9-graphics-reference-asm-ps-registers-modifiers-source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

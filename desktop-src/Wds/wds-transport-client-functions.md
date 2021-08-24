@@ -4,12 +4,12 @@ description: Ce module définit les structures et les fonctions qui composent l�
 ms.assetid: 20c3116b-3a0d-4048-b6f2-81c03e0a80ef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8449f620eb04045d37e56499be998477d361871c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3f228370aa0973e124b1877dcf8a458d1356170fbb872a05a1867ac0489c00a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106517970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680399"
 ---
 # <a name="wds-transport-client-functions"></a>Fonctions du client de transport WDS
 
@@ -39,11 +39,11 @@ Ce module définit les structures et les fonctions qui composent l’interface e
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

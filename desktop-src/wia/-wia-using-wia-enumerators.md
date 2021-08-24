@@ -4,16 +4,16 @@ ms.assetid: d46d4c18-79cc-4f3c-9745-522ab2635068
 title: Utilisation d’énumérateurs WIA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ee42f99718cb36071b828e87e3a71de6d70ab5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47b6e822d38c73171767d43afd416d09648bd6b82095b9408e2f17827751b0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813469"
 ---
 # <a name="using-wia-enumerators"></a>Utilisation d’énumérateurs WIA
 
-WIA fournit plusieurs interfaces pour énumérer diverses fonctionnalités, propriétés et informations. Les interfaces d’énumération WIA (Windows Image Acquisition) sont toutes des implémentations spécifiques de l’interface d’énumération COM (Component Object Model) standard. Pour plus d’informations, consultez [IEnumXXXX](/previous-versions//ms680089(v=vs.85)).
+WIA fournit plusieurs interfaces pour énumérer diverses fonctionnalités, propriétés et informations. les interfaces d’énumération WIA (Windows Image Acquisition) sont toutes des implémentations spécifiques de l’interface d’énumération COM (component Object Model) standard. Pour plus d’informations, consultez [IEnumXXXX](/previous-versions//ms680089(v=vs.85)).
 
 Le tableau suivant fournit des informations sur les interfaces d’énumération WIA. 
 

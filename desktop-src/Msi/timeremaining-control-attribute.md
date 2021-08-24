@@ -4,12 +4,12 @@ ms.assetid: e1302449-7f80-4881-bd76-49d386bfdafb
 title: Attribut de contrôle TimeRemaining
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 668cabe4832e6460b4ab01fcc048e2f8e1bbdf66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 907db993731172343418fc92d86f2fbab04cf6f41c2a1627bc76e2cd557f505d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810729"
 ---
 # <a name="timeremaining-control-attribute"></a>Attribut de contrôle TimeRemaining
 
@@ -23,7 +23,7 @@ Cet attribut permet à un contrôle de texte d’afficher le nombre approximatif
 
 Cet attribut n’utilise pas d’indicateurs binaires.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Consultez les [attributs de contrôle](control-attributes.md) et le contrôle que vous devez créer sous [contrôles](controls.md).
 

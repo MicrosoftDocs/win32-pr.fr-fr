@@ -15,12 +15,12 @@ keywords:
 - transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93b32ab017e81c9875666785786b29d9c94c7fd1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 68eed8722d982d8d93f47f4d2dc02b8f0f97d9c58512400353ab068015455e13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776969"
 ---
 # <a name="porting-functions-that-get-matrices-and-transformations"></a>Portage de fonctions qui obtiennent des matrices et des transformations
 
@@ -43,13 +43,13 @@ Le tableau suivant répertorie les fonctions d’IRIS GL qui obtiennent l’éta
 
 
 
- 
+ 
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

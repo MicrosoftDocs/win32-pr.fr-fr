@@ -13,12 +13,12 @@ keywords:
 - profils, configuration du VBR sans contrainte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b24c022c79bb38414ab201db11abd0cf260dfafe
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 5ff73a0aac8d13f015175080aac6eb580fc9686c67d892b14e4714746c8cea34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104101340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807759"
 ---
 # <a name="to-configure-unconstrained-vbr"></a>Pour configurer le VBR sans contrainte
 
@@ -44,12 +44,12 @@ Pour configurer un flux dans un profil à encoder avec un VBR non restreint, pro
 
 <dl> <dt>
 
-[**Configuration de flux VBR**](configuring-vbr-streams.md)
+[**Configuration de VBR Flux**](configuring-vbr-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

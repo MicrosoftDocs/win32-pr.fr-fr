@@ -3,7 +3,7 @@ title: Commande MCI_DELETE (mmsystem. h)
 description: La \_ commande MCI Delete supprime les données du fichier. Les périphériques vidéo numériques et Waveform-Audio reconnaissent cette commande.
 ms.assetid: cf7fae86-e81e-4006-9755-fd01f81aeb62
 keywords:
-- Commande MCI_DELETE Windows multimédia
+- commande MCI_DELETE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8c1b9f81712c842e06085c323ca2110c8e06784
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ada80894f9260d0c37323d645694e10b0bcef92e52ebd670764bb9a0c436f837
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784579"
 ---
 # <a name="mci_delete-command"></a>\_Commande de suppression MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs suivants s’appliquent au type d’appareil **Digitalvideo** :
 
@@ -139,7 +139,7 @@ Pour les périphériques audio Waveform, le paramètre *lpDelete* pointe vers un
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

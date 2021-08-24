@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: af80442087a0498849388f0da10946b08e282712
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 068551ee013634bde9a42584764c36f255bf322bedb97e6ebb3a5075c113e742
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800839"
 ---
 # <a name="shutdown-method-of-the-win32_operatingsystem-class"></a>Méthode Shutdown de la \_ classe Win32 OperatingSystem
 
@@ -52,11 +52,11 @@ Retourne zéro (0) pour indiquer la réussite de l’opération. Tout autre nomb
 **Autre** (1 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les ordinateurs doivent parfois être supprimés du réseau, peut-être pour des raisons de maintenance planifiée, car l’ordinateur ne fonctionne pas correctement ou pour effectuer un processus de configuration. Par exemple, si un serveur DHCP remet des adresses IP erronées, vous pouvez arrêter l’ordinateur jusqu’à ce qu’un technicien de service puisse être distribué pour résoudre le problème. Si vous pensez qu’une violation de la sécurité s’est produite, vous devrez peut-être arrêter certains serveurs pour vous assurer qu’ils ne sont pas accessibles tant que le problème de sécurité n’a pas été résolu. Certaines opérations de configuration (telles que la modification d’un nom d’ordinateur) nécessitent le redémarrage de l’ordinateur pour que la modification prenne effet.
 
-Cette méthode arrête immédiatement l’ordinateur, si possible. Le système arrête tous les processus en cours d’exécution, vide toutes les mémoires tampons de fichiers sur le disque, puis met le système sous tension. Le processus appelant doit avoir le privilège **se \_ arrêter le \_ nom** , comme décrit dans l’exemple suivant.
+Cette méthode arrête immédiatement l’ordinateur, si possible. Le système arrête tous les processus en cours d’exécution, vide toutes les mémoires tampons de fichiers sur le disque, puis met le système sous tension. le processus appelant doit avoir le privilège **SE \_ SHUTDOWN \_ NAME** , comme décrit dans l’exemple suivant.
 
 
 ```VB

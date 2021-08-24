@@ -1,44 +1,44 @@
 ---
 title: Flux de paquets TCP
-description: Ordre dans lequel les couches du moteur de filtre de la plateforme de filtrage Windows (WFP) sont parcourues pendant une session TCP classique.
+description: ordre dans lequel les couches du moteur de filtre de la plateforme de filtrage Windows (WFP) sont parcourues pendant une session TCP classique.
 ms.assetid: 75319c91-f77b-4dec-b94f-36772f1f1d53
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2203ccb4b2793983bd5b1052d53c2700d3033a4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 47d4836da7a1912a6e39358b54e2a3086dd80efe844d6a301d079014d4a5b209
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746629"
 ---
 # <a name="tcp-packet-flows"></a>Flux de paquets TCP
 
-Cette section décrit l’ordre dans lequel les couches du moteur de filtre de la plateforme de filtrage Windows (WFP) sont parcourues pendant une session TCP classique.
+cette section décrit l’ordre dans lequel les couches du moteur de filtre de la plateforme de filtrage Windows (WFP) sont parcourues pendant une session TCP classique.
 
 > [!Note]  
 > Les flux de paquets TCP pour IPv6 suivent le même modèle que pour IPv4.
 
- 
+ 
 
 > [!Note]  
 > Les flux de paquets non TCP suivent le même modèle que les [flux de paquets UDP](udp-packet-flows.md).
 
- 
+ 
 
 ## <a name="tcp-connection-establishment"></a>Établissement de la connexion TCP
 
 <dl> Le serveur (récepteur) effectue une ouverture passive
 
--   liaison : FWPM \_ \_ \_ \_ v4 de redirection de liaison ALE \_ de couche (windows 7/Windows Server 2008 R2 uniquement)
+-   liaison : FWPM \_ \_ \_ \_ V4 de redirection de liaison ALE \_ de couche (Windows 7/Windows Server 2008 R2 uniquement)
 -   liaison : FWPM de l' \_ \_ \_ attribution de ressources ALE de couche ALE \_ \_
 -   écouter : FWPM \_ \_ V4 d' \_ écoute d’authentification ALE \_ de couche \_
 
   
 Le client (expéditeur) effectue une ouverture active
 
--   liaison : FWPM \_ \_ \_ \_ v4 de redirection de liaison ALE \_ de couche (windows 7/Windows Server 2008 R2 uniquement)
+-   liaison : FWPM \_ \_ \_ \_ V4 de redirection de liaison ALE \_ de couche (Windows 7/Windows Server 2008 R2 uniquement)
 -   liaison : FWPM de l' \_ \_ \_ attribution de ressources ALE de couche ALE \_ \_
--   connexion : FWPM \_ \_ \_ \_ de redirection de connexion ALE de couche \_ (windows 7/Windows Server 2008 R2 uniquement)
+-   connexion : FWPM \_ \_ \_ \_ de redirection ALE de la couche ALE \_ (Windows 7/Windows Server 2008 R2 uniquement)
 -   connexion : FWPM \_ d' \_ authentification ALE de couche ALE \_ \_ \_
 -   SYN : \_ couche FWPM \_ v4 de \_ transport \_ sortant
 -   SYN : \_ couche FWPM \_ sortie \_ IPPACKET \_ v4
@@ -84,7 +84,7 @@ Serveur (récepteur)
 > [!Note]  
 > TCP SYN sans point de terminaison est indiqué dans TRANSPORT ignore avec une condition d’erreur spécifique. Bloquer ce paquet au niveau du TRANSPORT rejeté pour empêcher la pile d’envoyer l’événement correspondant (RST). Pour obtenir un exemple de filtrage en mode furtif, consultez [prévention de l’analyse des ports](preventing-port-scanning.md).
 
- 
+ 
 
 ## <a name="data-transmitted-over-a-tcp-connection"></a>Données transmises via une connexion TCP
 
@@ -138,9 +138,9 @@ L’arrêt de la connexion TCP n’est pas indiqué dans une couche WFP.
 [**Filtrage des identificateurs de couche**](management-filtering-layer-identifiers-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

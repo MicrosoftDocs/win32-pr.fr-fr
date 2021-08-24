@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 40dc0ebd8daebb79c323d54591fc16126e0ef97a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dc31c760ea41761db06da5e1048d3ae1cc248c5fdde7f387e0cfeda209bb716a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700929"
 ---
 # <a name="cim_clusteringservice-class"></a>\_Classe CIM ClusteringService
 
@@ -181,7 +181,7 @@ Cette propriété est héritée [**du \_ service CIM**](cim-service.md).
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -377,7 +377,7 @@ Cette propriété est héritée [**du \_ service CIM**](cim-service.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ ClusteringService** est dérivée [**du \_ service CIM**](cim-service.md).
 

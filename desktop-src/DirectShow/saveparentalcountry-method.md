@@ -4,17 +4,17 @@ ms.assetid: 2185ad7d-c7c1-4d8b-82e7-5ed5fffaff26
 title: Méthode SaveParentalCountry (segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9ca47a6ca10f25298b4eb10fdcf532c8d764b96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d5391982129c799e6a565da362837a557765cf46604653f4f702ed38dcb910e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651209"
 ---
 # <a name="saveparentalcountry-method"></a>Méthode SaveParentalCountry
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -53,7 +53,7 @@ Spécifie le mot de passe sous forme de chaîne.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode permet à un utilisateur qui connaît le mot de passe actuel d’enregistrer un nouveau paramètre de pays/région parental dans le registre. Comme avec toutes les méthodes de **MSDVDAdm**, cette méthode n’affecte pas le niveau actuel dans le lecteur ; il modifie uniquement le paramètre du Registre, de sorte que la prochaine fois que l’objet MSWebDVD est créé, il s’ouvre avec le nouveau pays/région. Pour modifier le pays ou la région parente dans le lecteur, appelez [**SelectParentalCountry**](selectparentalcountry-method.md), qui ne modifie pas le paramètre de registre.
 

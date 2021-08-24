@@ -4,7 +4,7 @@
     - name: Infrastructure d’homologue
       href: peer-infrastructure.md
       items:
-        - name: What's New
+        - name: Nouveautés
           href: what-s-new.md
         - name: À propos du réseau pair à pair
           href: about-peer-networking.md
@@ -249,7 +249,7 @@
                   href: how-to-work-with-groups.md
                 - name: Fonctionnement de la sécurité de groupe
                   href: how-group-security-works.md
-                - name: Comment se connecter à un groupe homologue
+                - name: comment Connecter à un groupe homologue
                   href: how-to-connect-to-a-peer-group.md
                 - name: Invitation d’un pair à un groupe
                   href: inviting-a-peer-to-a-group.md
@@ -646,9 +646,9 @@
                   href: people-near-me-apis.md
                 - name: Personnes proches des boutiques
                   href: people-near-me-stores.md
-                - name: Composants homologues Windows pour voisinage immédiat
+                - name: Windows Composants homologues pour les personnes près de moi
                   href: windows-peer-components-for-people-near-me.md
-                - name: Composants Windows Vista pour voisinage immédiat
+                - name: Windows Composants Vista pour voisinage immédiat
                   href: windows-vista-components-for-people-near-me.md
         - name: Informations de référence sur l’API de collaboration
           href: collaboration-api-reference.md

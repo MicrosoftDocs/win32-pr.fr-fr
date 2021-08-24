@@ -4,12 +4,12 @@ description: Une fois que vous avez découvert des appareils, vous pouvez les co
 ms.assetid: 6d0efb80-d6f5-4b36-a184-19f06afeb2a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ff91339c67b67de5d3e90eda0ce64ebcc68b9e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be79d6e6993794a4af972af8538b9b1cd56902c34596197836990028b2761ffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656068"
 ---
 # <a name="controlling-a-device"></a>Contrôle d’un appareil
 
@@ -23,7 +23,7 @@ Une fois que vous avez découvert des appareils, vous pouvez les contrôler.
 > [!Note]  
 > La fonctionnalité de présentation de la **vue** n’est pas disponible dans l’exemple de code C++.
 
- 
+ 
 
 **Pour afficher la page de présentation d’un appareil**
 
@@ -31,9 +31,9 @@ Une fois que vous avez découvert des appareils, vous pouvez les contrôler.
 2.  Cliquez sur **afficher la présentation**. Une fenêtre Internet Explorer s’affiche avec la page de présentation demandée.
 
 > [!Note]  
-> Le **service de vue DESC.** functionality n’est pas disponible dans l’exemple de code C++.
+> **Description du service d’affichage.** la fonctionnalité n’est pas disponible dans l’exemple de code C++.
 
- 
+ 
 
 **Pour afficher une description de service**
 
@@ -59,7 +59,7 @@ Une fois que vous avez découvert des appareils, vous pouvez les contrôler.
 
 
 
- 
+ 
 
 **Pour contrôler un appareil**
 
@@ -71,7 +71,7 @@ Une fois que vous avez découvert des appareils, vous pouvez les contrôler.
     > [!Note]  
     > Le contenu de la **liste des services** est basé sur le périphérique sélectionné dans la liste **appareils trouvés** .
 
-     
+     
 
 3.  Si vous souhaitez déterminer la valeur d’une variable d’État pour le service sélectionné, entrez le nom de la variable dans le champ de **variable de requête** pour le service. Cliquez sur **Requête**. Les résultats sont affichés dans le champ valeur de l’état de la **requête/arguments d’action out** .
 4.  Si vous souhaitez appeler une action pour un service, entrez le nom de l’action dans le champ **appeler l’action** , ainsi que tous les arguments dans le champ arguments de l' **action** . Cliquez sur **appeler**. Les résultats sont affichés dans le champ valeur de l’état de la **requête/arguments de l’action out** , le cas échéant.
@@ -81,13 +81,13 @@ Une fois que vous avez découvert des appareils, vous pouvez les contrôler.
     > [!Note]  
     > S’il existe plusieurs arguments pour une action, séparez-les par des espaces.
 
-     
+     
 
 5.  Affichez les informations sur les événements dans le champ **événements** pour le service sélectionné.
 
- 
+ 
 
- 
+ 
 
 
 

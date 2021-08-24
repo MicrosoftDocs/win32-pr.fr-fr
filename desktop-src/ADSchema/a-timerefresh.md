@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87bc360686b1692d2dbda1ee23ad6351e69d3afe
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 27705c55e3d16003bc40bfb72c3bf9d0b06260e239aa0c83dbd4e05a484dbc1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704069"
 ---
 # <a name="time-refresh-attribute"></a>Attribut Time-Refresh
 
@@ -36,7 +36,7 @@ Cet attribut présente l’intervalle pendant lequel un enregistrement de ressou
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.503               |
 | System-ID-GUID    | ddac0cf1-af8f-11d0-afeb-00c04fd930c9 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ Cet attribut présente l’intervalle pendant lequel un enregistrement de ressou
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

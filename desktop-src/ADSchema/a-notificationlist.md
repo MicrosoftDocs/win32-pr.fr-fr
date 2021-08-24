@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 124da60f881621863afa41977d2e3991152c8243
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 62f760cd2a691633aa5b3fd1112480acb611d0794e3f6f5a44dac7c185dc9643
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106509154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703079"
 ---
 # <a name="notification-list-attribute"></a>Attribut Notification-List
 
@@ -46,7 +46,7 @@ L’attribut **de liste de notification** n’est pas utilisé actuellement.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ L’attribut **de liste de notification** n’est pas utilisé actuellement.
 | Range-Upper            | \-                                                                                                                                                                           |
 | Search-Flags           | 0x00000000                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                   |
-| Classes utilisées dans        | [**Paramètres de l’application**](c-applicationsettings.md)<br/> [**Application-site-paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> [**Application-Site-Paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ L’attribut **de liste de notification** n’est pas utilisé actuellement.
 | Range-Upper            | \-                                                                                                                                                                           |
 | Search-Flags           | 0x00000000                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                   |
-| Classes utilisées dans        | [**Paramètres de l’application**](c-applicationsettings.md)<br/> [**Application-site-paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> [**Application-Site-Paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ L’attribut **de liste de notification** n’est pas utilisé actuellement.
 | Range-Upper            | \-                                                                                                                                                                           |
 | Search-Flags           | 0x00000000                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                   |
-| Classes utilisées dans        | [**Paramètres de l’application**](c-applicationsettings.md)<br/> [**Application-site-paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> [**Application-Site-Paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ L’attribut **de liste de notification** n’est pas utilisé actuellement.
 | Range-Upper            | \-                                                                                                                                                                           |
 | Search-Flags           | 0x00000000                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                   |
-| Classes utilisées dans        | [**Paramètres de l’application**](c-applicationsettings.md)<br/> [**Application-site-paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> [**Application-Site-Paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ L’attribut **de liste de notification** n’est pas utilisé actuellement.
 | Range-Upper            | \-                                                                                                                                                                           |
 | Search-Flags           | 0x00000000                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                   |
-| Classes utilisées dans        | [**Paramètres de l’application**](c-applicationsettings.md)<br/> [**Application-site-paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> [**Application-Site-Paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ L’attribut **de liste de notification** n’est pas utilisé actuellement.
 | Range-Upper            | \-                                                                                                                                                                           |
 | Search-Flags           | 0x00000000                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                   |
-| Classes utilisées dans        | [**Paramètres de l’application**](c-applicationsettings.md)<br/> [**Application-site-paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
+| Classes utilisées dans        | [**Paramètres de l’Application**](c-applicationsettings.md)<br/> [**Application-Site-Paramètres**](c-applicationsitesettings.md)<br/> [**Site**](c-site.md)<br/> |
 
 
 

@@ -12,12 +12,12 @@ keywords:
 - stylet
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: cebab2a0b7879d0dff71704cb808c42155484408
-ms.sourcegitcommit: 6b8d5058d02daacad4d2ed7830da63b63a509586
+ms.openlocfilehash: 8763c98e2e1cc499979cca54e63e1d82d13a7265ab7628122be7dcd7539274dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "104101212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717469"
 ---
 # <a name="interaction-context-enumerations"></a>Énumérations de contexte d’interaction
 

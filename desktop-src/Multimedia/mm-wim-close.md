@@ -3,7 +3,7 @@ title: Message MM_WIM_CLOSE (mmsystem. h)
 description: Le \_ message de \_ fermeture de fichier WIM mm est envoyé à une fenêtre lorsqu’un périphérique d’entrée Waveform-Audio est fermé. Le descripteur d’appareil n’est plus valide une fois que ce message a été envoyé.
 ms.assetid: 4ea35b66-6bfa-41f0-9d52-a8cf2b0a69dd
 keywords:
-- Message MM_WIM_CLOSE Windows Multimedia
+- message MM_WIM_CLOSE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90d9934ef7045debbcac2f5baf1c2f750d22dad5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 506311f9938198e2ceb99646670c954eaa433825855e31c036241df6be1b2491
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807109"
 ---
 # <a name="mm_wim_close-message"></a>MM \_ \_ message de fermeture Wim
 
@@ -64,7 +64,7 @@ Ce message ne retourne pas de valeur.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

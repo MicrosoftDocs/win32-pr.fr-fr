@@ -1,19 +1,19 @@
 ---
 title: Affectation de poids de filtre
-description: Chaque filtre de la plateforme de filtrage Windows (WFP) est associé à un poids, qui est utilisé pendant l’arbitrage des filtres.
+description: chaque filtre de la plateforme de filtrage Windows (WFP) est associé à un poids, qui est utilisé pendant l’arbitrage des filtres.
 ms.assetid: c78854c2-9aa1-408f-82d6-4b9e52f38e84
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c77982258bb9c8ef14e22b20e28b6a3039456ae
-ms.sourcegitcommit: 013de6f5280f28a9b04c3cce9387e629b07d70fc
+ms.openlocfilehash: 9042b15da0df5f81c71a32deb923369a54243854e86aeaed1ba30c7fc8484193
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "104381705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746869"
 ---
 # <a name="filter-weight-assignment"></a>Affectation de poids de filtre
 
-Chaque filtre de la plateforme de filtrage Windows (WFP) est associé à un poids, qui est utilisé pendant l' [arbitrage des filtres](filter-arbitration.md).
+chaque filtre de la plateforme de filtrage Windows (WFP) est associé à un poids, qui est utilisé pendant l' [arbitrage des filtres](filter-arbitration.md).
 
 Le poids de filtre utilisé par le moteur de filtrage de base (BFE) est de type [**fwp \_ UINT64**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type). Les appelants ont trois options lors de l’ajout de filtres.
 
@@ -26,7 +26,7 @@ Le poids de filtre utilisé par le moteur de filtrage de base (BFE) est de type 
 > [!Note]  
 > Lorsque deux ou plusieurs légendes sont inscrites sur la même sous-couche, des problèmes peuvent se produire lorsque le même poids est affecté aux filtres. Ce problème peut être évité en faisant en sorte que les légendes créent leur propre sous-couche à l’aide de [**FwpmSubLayerAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayeradd0).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -35,9 +35,9 @@ Le poids de filtre utilisé par le moteur de filtrage de base (BFE) est de type 
 [**Identificateurs de poids de filtre**](filter-weight-identifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

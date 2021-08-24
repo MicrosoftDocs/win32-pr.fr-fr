@@ -3,7 +3,7 @@ title: Structure MCI_VD_PLAY_PARMS (Mciapi. h)
 description: La \_ structure des PARMS de lecture MCI VD contient des \_ \_ informations de position et de vitesse pour la \_ commande MCI Play pour les appareils videodisc.
 ms.assetid: 9fa8418f-3f69-4a9c-b23e-7d2e2c75c7af
 keywords:
-- Structure de MCI_VD_PLAY_PARMS Windows multimédia
+- structure MCI_VD_PLAY_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3ab04ba5cf0a2b507370a4b777c19fd60a05c30
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 62c2aef6915d1e3cc325d5b9f8e1c7fe176a878c2d84080b5f8a77eaf034afc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783864"
 ---
 # <a name="mci_vd_play_parms-structure"></a>\_Structure des \_ PARMS de lecture MCI VD \_
 
@@ -71,7 +71,7 @@ Vitesse de lecture en images par seconde.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

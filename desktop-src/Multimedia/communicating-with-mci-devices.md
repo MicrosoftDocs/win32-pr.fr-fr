@@ -7,12 +7,12 @@ keywords:
 - mciSendString fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7f5458cff0ef4c5c5f84e565fae06ade8796c4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3def53cda9374ba50dfea8252918f073d961410092a977c8779f3a29d6b36204
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106544152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807839"
 ---
 # <a name="communicating-with-mci-devices"></a>Communication avec les périphériques MCI
 
@@ -34,8 +34,8 @@ Pour plus d’informations sur MCI, consultez [MCI](mci.md).
 > [!Note]  
 > Vous devez exclure l’alias d’appareil de la commande MCI quand vous utilisez **MCIWndSendString**. La bibliothèque MCIWnd ajoute cet alias lors de l’envoi de la commande à l’appareil MCI.
 
- 
+ 
 
- 
+ 
 
- 
+ 

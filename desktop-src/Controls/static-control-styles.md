@@ -41,12 +41,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b5ce264341042231b3e48f03978f5dea201f9ca
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 972da9fc0a656f1106b2a33877783e1091a62659c03be28d65ad451a63491de3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119797919"
 ---
 # <a name="static-control-styles"></a>Styles de contrôle statiques
 
@@ -93,14 +93,14 @@ Pour créer un contrôle statique à l’aide de la fonction [**CreateWindow**](
 
 Pour utiliser un style qui tronque des mots ou des chaînes avec des points de suspension pour du texte multiligne, [**DrawThemeText**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext) ou [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext) peut être utilisé sur un contrôle owner-draw avec des indicateurs de mise en forme **DT \_ WordBreak** et **DT \_ ENDELLIPSIS** Set.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

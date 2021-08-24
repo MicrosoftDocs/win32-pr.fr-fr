@@ -4,12 +4,12 @@ ms.assetid: a056da1c-b8f9-4dad-8df9-df24c6b359b7
 title: Infrastructure des événements homologues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6347ad6a7dd0cf2fae4a0aa623bfda48ab0aa9f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a889f59e4429e64258c047dfbf0249bb4dca125bfc3f9d659e6042dd40be9443
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775949"
 ---
 # <a name="peer-events-infrastructure"></a>Infrastructure des événements homologues
 
@@ -49,7 +49,7 @@ Une fois qu’une application a reçu une notification indiquant qu’un événe
 
 Une fois qu’une application n’a pas besoin d’une notification d’événement homologue, l’application appelle [**PeerGraphUnregisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergraphunregisterevent)et passe le handle d’événement homologue retourné par [**PeerGraphRegisterEvent**](/windows/desktop/api/P2P/nf-p2p-peergraphregisterevent) lorsque l’application est inscrite.
 
-## <a name="handling-graph-connection-referrals"></a>Gestion des références de connexion au graphique
+## <a name="handling-graph-connection-referrals"></a>gestion des références de connexion Graph
 
 Quand [**PeerGraphConnect**](/windows/desktop/api/P2P/nf-p2p-peergraphconnect) est appelé, l’homologue qui se connecte est averti de la réussite ou de l’échec par le biais de l’événement de **\_ \_ \_ \_ connexion voisine de l’événement de graphique homologue** asynchrone. Si la connexion a échoué en raison de problèmes de mise en réseau spécifiques (par exemple, un pare-feu mal configuré), l’événement de **\_ \_ \_ \_ connexion voisine de l’événement du graphique homologue** est déclenché, avec l’état de la connexion défini sur **connexion d’égal \_ \_ échec**.
 

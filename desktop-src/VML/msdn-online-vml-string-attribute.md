@@ -4,21 +4,21 @@ description: Attribut de chaîne VML
 ms.assetid: 99609814-29c9-4349-9509-8c91f2aaeff5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf9d6c172b4ca1f5049a3e89528a2333378164f4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0428c6742b145b77afe5dce27017ffcdc04d1b021cfc7ce570c9db93dd218021
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654749"
 ---
 # <a name="vml-string-attribute"></a>Attribut de chaîne VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit le texte du tracé de texte. En lecture/écriture. **Chaîne**.
 
@@ -58,6 +58,6 @@ La chaîne qui s’affiche est « VML Text ».
 
 
 
- 
+ 
 
- 
+ 

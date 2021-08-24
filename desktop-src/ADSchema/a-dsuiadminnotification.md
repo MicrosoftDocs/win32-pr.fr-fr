@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7082d7a8fd751fa001ac796d2a86b60a28463e8b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c2465796ed1e0069206539a5d4b6b17080e5f751f5c9b79198c668316c6dec26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656559"
 ---
 # <a name="ds-ui-admin-notification-attribute"></a>Attribut DS-UI-admin-notification
 
@@ -45,7 +45,7 @@ Il s’agit d’une liste des GUID des objets COM qui prennent en charge une int
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -66,7 +66,7 @@ Il s’agit d’une liste des GUID des objets COM qui prennent en charge une int
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ Il s’agit d’une liste des GUID des objets COM qui prennent en charge une int
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ Il s’agit d’une liste des GUID des objets COM qui prennent en charge une int
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ Il s’agit d’une liste des GUID des objets COM qui prennent en charge une int
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ Il s’agit d’une liste des GUID des objets COM qui prennent en charge une int
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ Il s’agit d’une liste des GUID des objets COM qui prennent en charge une int
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 83f62d84af193be99850f1a82b720a2983ca77c3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b08fb6d3c02affbe9c288004e9402808dd9c30318c16df7738f128029f84a3f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760079"
 ---
 # <a name="setdeadgwdetect-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDeadGWDetect de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque cette fonctionnalité est activée, TCP demande à l’adresse IP de passer à une passerelle de sauvegarde si elle retransmet un segment plusieurs fois sans recevoir de réponse.
 

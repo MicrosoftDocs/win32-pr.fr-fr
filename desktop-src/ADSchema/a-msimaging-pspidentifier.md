@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 245182fe234ba40155c1593153c1e7778d2240e9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 26efb3a3fa902a74b3d1e09af17cc295f9542208f22cb65b0eb98b930a812b56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763149"
 ---
 # <a name="ms-imaging-psp-identifier-attribute"></a>MS-Imaging-PSP-attribut identifier
 

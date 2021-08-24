@@ -3,7 +3,7 @@ title: Message DRV_LOAD (mmsystem. h)
 description: Notifie le pilote qu’il a été chargé. Le pilote doit s’assurer que tout le matériel et les pilotes de prise en charge dont il a besoin pour fonctionner correctement sont présents.
 ms.assetid: f3642d91-cea8-499d-8d2e-bf01a59a7d72
 keywords:
-- Message DRV_LOAD Windows Multimedia
+- message DRV_LOAD Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca7dda950eaa84f924f4845d99d5740e37d6b354
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d74b8d0663e96f0dc700739c7b8b5f9304d478ed02bf9493f24d03a506c14a61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678709"
 ---
 # <a name="drv_load-message"></a>Le \_ message de chargement du DRV
 
@@ -33,7 +33,7 @@ Le paramètre *hdrvr* est toujours égal à zéro. Les paramètres *dwDriverId*,
 
 Retourne une valeur différente de zéro en cas de réussite ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message de **\_ chargement du DRV** est toujours le premier message reçu par un pilote de périphérique.
 
@@ -41,11 +41,11 @@ Le message de **\_ chargement du DRV** est toujours le premier message reçu par
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 
